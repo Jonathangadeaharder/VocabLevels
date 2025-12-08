@@ -62,23 +62,21 @@ def main():
                 })
                 kept_count += 1
             else:
-                # Treat as missing - add with empty translation
+                # Add with empty translation (needs Spanish translation)
                 lemma = goethe_word
                 new_a2.append({
                     'German_Lemma': lemma,
                     'Spanish_Translation': ''
                 })
                 missing_count += 1
-                english_placeholder_count += 1
         else:
             # Add missing word with empty translation (needs Spanish translation)
             lemma = goethe_word
             new_a2.append({
                 'German_Lemma': lemma,
-                'Spanish_Translation': ''  # Empty, needs Spanish translation
+                'Spanish_Translation': ''
             })
             missing_count += 1
-            english_placeholder_count += 1
     
     # Count removed words
     removed = set(current_a2.keys()) - {w.lower() for w in goethe_words}
@@ -101,14 +99,14 @@ def main():
     print(f"Successfully updated A2.csv with {len(new_a2)} words from official Goethe list!")
     
     # Save list of words that need Spanish translation
-    if english_placeholder_count > 0:
+    if missing_count > 0:
         with open('/tmp/a2_words_need_spanish_translation.txt', 'w', encoding='utf-8') as f:
             for row in new_a2:
                 if not row['Spanish_Translation']:
                     # Add English translation as reference
                     eng_trans = english_trans.get(row['German_Lemma'].lower(), '')
                     f.write(f"{row['German_Lemma']}\t{eng_trans}\n")
-        print(f"\n⚠ NOTE: {english_placeholder_count} words have empty Spanish translations")
+        print(f"\n⚠ NOTE: {missing_count} words have empty Spanish translations")
         print(f"         These need to be translated from English/German to Spanish")
         print(f"         List saved to /tmp/a2_words_need_spanish_translation.txt")
     
