@@ -12,7 +12,7 @@ LOWERCASE_PATTERNS = [
     'ab', 'aber', 'abfahren', 'abfliegen', 'abgeben', 'abholen', 'abschließen',
     'aktiv', 'aktuell', 'alle', 'allein', 'alles', 'als', 'also', 'alt',
     'an', 'anbieten', 'anderen', 'anders', 'anfangen', 'ankommen', 'anrufen',
-    'antworten', 'arbeiten', 'auf', 'aus', 'bei', 'bekannt', 'bestellen',
+    'antworten', 'arbeiten', 'auch', 'auf', 'aus', 'bei', 'bekannt', 'bestellen',
     'bis', 'bleiben', 'brauchen', 'bringen', 'da', 'dabei', 'dafür', 'dagegen',
     'dann', 'daran', 'darauf', 'darüber', 'darum', 'dass', 'dazu', 'dein',
     'dem', 'den', 'der', 'deshalb', 'deutlich', 'dich', 'die', 'dies', 'dir',
@@ -80,6 +80,10 @@ def fix_capitalization(word):
     """
     Fix capitalization of a German word.
     Nouns should be capitalized, verbs/adjectives/etc should be lowercase.
+    
+    Note: Some words like "weg" can be both noun (Weg = path) and adverb (weg = away).
+    These are typically distinguished by numbered variants (weg_1, weg_2) or compounds.
+    The base form "weg" without suffix is assumed to be the noun form.
     """
     # Handle compound words with hyphens
     if '-' in word:
