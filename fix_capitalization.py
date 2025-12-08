@@ -70,13 +70,18 @@ def should_be_lowercase(word):
     # Comparative/superlative adjectives
     if word_lower.endswith(('-er', '-ste', '-st')) and len(word) > 4:
         # But not nouns like "Fenster", "Vater", etc.
-        base = word_lower[:-2] if word_lower.endswith('er') else word_lower[:-3]
+        if word_lower.endswith('-ste'):
+            base = word_lower[:-4]  # Remove '-ste'
+        elif word_lower.endswith('-st'):
+            base = word_lower[:-3]  # Remove '-st'
+        else:  # '-er'
+            base = word_lower[:-2]  # Remove '-er'
         if base in LOWERCASE_SET:
             return True
     
     return False
 
-def fix_capitalization(word):
+def fix_capitalization(word, depth=0):
     """
     Fix capitalization of a German word.
     Nouns should be capitalized, verbs/adjectives/etc should be lowercase.
@@ -84,7 +89,15 @@ def fix_capitalization(word):
     Note: Some words like "weg" can be both noun (Weg = path) and adverb (weg = away).
     These are typically distinguished by numbered variants (weg_1, weg_2) or compounds.
     The base form "weg" without suffix is assumed to be the noun form.
+    
+    Args:
+        word: The German word to fix
+        depth: Recursion depth (max 1 to prevent infinite recursion)
     """
+    # Prevent infinite recursion
+    if depth > 1:
+        return word
+    
     # Handle compound words with hyphens
     if '-' in word:
         # Keep original capitalization for complex compounds
@@ -96,9 +109,12 @@ def fix_capitalization(word):
     
     # Handle numbered variants (e.g., "word_1")
     if '_' in word:
-        parts = word.split('_')
-        parts[0] = fix_capitalization(parts[0])
-        return '_'.join(parts)
+        parts = word.split('_', 1)  # Split only on first underscore
+        if len(parts) == 2:
+            parts[0] = fix_capitalization(parts[0], depth + 1)
+            return '_'.join(parts)
+        # Invalid format, return as-is
+        return word
     
     if should_be_lowercase(word):
         return word.lower()

@@ -78,7 +78,9 @@ def main(goethe_words_file=None, english_trans_file=None):
         if word_lower in current_a2:
             # Keep existing word with its translation if it's not a placeholder
             row = current_a2[word_lower]
-            trans = row['Spanish_Translation'].strip() if row['Spanish_Translation'] else ''
+            trans = row['Spanish_Translation']
+            # Safely handle None values
+            trans = trans.strip() if trans else ''
             
             # Skip placeholder translations
             if trans and not trans.startswith(PLACEHOLDER_PREFIX):
