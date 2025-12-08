@@ -30,7 +30,7 @@ def fix_b2():
     b2_current = set(b2_df['German_Lemma'])
     c1 = set(c1_df['German_Lemma'])
     
-    # Load master lemmas
+    # Load master lemmas (only non-empty lines after stripping whitespace)
     with open('master_lemmas.txt', 'r', encoding='utf-8') as f:
         master = set(line.strip() for line in f if line.strip())
     
@@ -59,7 +59,7 @@ def fix_b2():
     print(f"  - Not in master_lemmas.txt: {len(not_in_master)}")
     print(f"  - Duplicate with C1: {len(duplicate_with_c1)}")
     
-    if len(to_remove) > 0:
+    if to_remove:
         print(f"\nFirst 20 words to remove:")
         for i, word in enumerate(sorted(to_remove)[:20], 1):
             reason = []
