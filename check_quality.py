@@ -108,6 +108,8 @@ def check_quality():
                     print(f"  ... and {len(issues)-20} more.")
             else:
                 print("  Clean.")
+        except Exception as e:
+            print(f"  Error reading {filename}: {e}")
                 
     print(f"\nTotal Suspicious Entries Found: {total_issues}")
 
