@@ -11,7 +11,7 @@ import os
 import argparse
 
 # Constants
-PLACEHOLDER_PREFIX = '[TODO'
+PLACEHOLDER_PREFIX = '[TODO]'
 DATA_DIR = 'data'  # Directory for intermediate data files
 
 def ensure_data_dir():
