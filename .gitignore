@@ -6,8 +6,16 @@ data/
 # Python cache
 __pycache__/
 *.py[cod]
+*.pyc
+*.pyo
+*.pyd
 *$py.class
+.Python
 *.so
+*.egg
+*.egg-info/
+dist/
+build/
 
 # Virtual environments
 venv/
@@ -20,3 +28,7 @@ ENV/
 *.swp
 *.swo
 *~
+
+# OS
+.DS_Store
+Thumbs.db
