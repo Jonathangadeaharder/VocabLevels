@@ -36,6 +36,7 @@ anrufen,llamar por teléfono
 Ansage,anuncio
 Anschluss,conexión
 Antwort,respuesta
+Antwortbogen,hoja de respuestas
 antworten,responder
 Anzeige,anuncio
 anziehen,vestir
@@ -115,6 +116,7 @@ bitter,amargo
 bleiben,quedarse
 Bleistift,lápiz
 Blick,vista
+bloggen,bloguear
 Blume,flor
 Bogen,hoja
 böse,enfadado
@@ -146,6 +148,7 @@ dauern,durar
 dein,tu
 denn,porque
 deutsch,alemán
+Deutsche,alemán/alemana
 dich,te
 dieser,este
 Ding,cosa
@@ -156,14 +159,15 @@ Dorf,pueblo
 dort,allí
 draußen,fuera
 drucken,imprimir
-Drucker,impresora
 drücken,pulsar
+Drucker,impresora
 durch,a través de
 Durchsage,anuncio
+dürfen,poder
 Durst,sed
 Dusche,ducha
 duschen,ducharse
-dürfen,poder
+E-Mail,correo electrónico
 eben,justo
 Ecke,esquina
 Ehefrau,esposa
@@ -182,7 +186,6 @@ Eintritt,entrada
 Einzelzimmer,habitación individual
 Eis,hielo
 Eltern,padres
-E-Mail,correo electrónico
 Empfänger,destinatario
 empfehlen,recomendar
 Ende,final
@@ -190,6 +193,7 @@ enden,terminar
 endlich,finalmente
 Entschuldigung,disculpa
 er,él
+ergänzen,completar
 erklären,explicar
 erlauben,permitir
 Erwachsene,adulto
@@ -233,6 +237,7 @@ Formular,formulario
 Foto,foto
 Frage,pregunta
 fragen,preguntar
+Frankreich,Francia
 Frau,mujer
 frei,libre
 Freizeit,tiempo libre
@@ -241,6 +246,7 @@ freuen,alegrarse
 Freund,amigo
 frites,fritas (en Pommes frites)
 früh,antes
+Frühling,primavera
 Frühstück,desayuno
 frühstücken,desayunar
 Führung,visita guiada
@@ -263,6 +269,7 @@ Geld,dinero
 Gemüse,verdura
 genau,exacto
 genauso,igual
+geöffnet,abierto
 Gepäck,equipaje
 gerade,recto
 geradeaus,todo recto
@@ -284,17 +291,18 @@ Gleis,vía
 Glück,suerte
 glücklich,feliz
 Glückwunsch,felicitación
+googeln,googlear
 Gott,Dios
 Grad,grado
 gratulieren,felicitar
 grillen,hacer una barbacoa
 groß,grande
+Größe,talla
 Großeltern,abuelos
 Großmutter,abuela
 Großvater,abuelo
 Gruppe,grupo
 Gruß,saludo
-Größe,talla
 gültig,válido
 günstig,barato
 gut,bueno
@@ -317,6 +325,7 @@ heiraten,casarse
 heißen,llamarse
 helfen,ayudar
 hell,claro
+Herbst,otoño
 Herd,cocina
 Herr,señor
 Herz,corazón
@@ -380,10 +389,10 @@ Kopf,cabeza
 kosten,costar
 krank,enfermo
 Kreditkarte,tarjeta de crédito
-Kuchen,pastel
 Küche,cocina
-Kühlschrank,nevera
+Kuchen,pastel
 Kugelschreiber,bolígrafo
+Kühlschrank,nevera
 kulturell,cultural
 kümmern,cuidar
 Kunde,cliente
@@ -418,6 +427,7 @@ liegen,estar tumbado
 links,izquierda
 Lokal,bar
 Lösung,solución
+Lösungen,soluciones
 Luft,aire
 lustig,divertido
 machen,hacer
@@ -430,6 +440,7 @@ Meer,mar
 mehr,más
 mein,mi
 Mensch,persona
+Mexiko,México
 Miete,alquiler
 mieten,alquilar
 Milch,leche
@@ -470,13 +481,13 @@ oben,arriba
 Obst,fruta
 oder,o
 öffnen,abrir
-geöffnet,abierto
 oft,a menudo
 ohne,sin
 Ohr,oreja
 Öl,aceite
 Oma,abuela
 Onkel,tío
+online,en línea
 Opa,abuelo
 Ordnung,orden
 Ort,lugar
@@ -550,8 +561,8 @@ Schule,escuela
 Schüler,alumno
 schwer,difícil
 Schwester,hermana
-schwimmen,nadar
 Schwimmbad,piscina
+schwimmen,nadar
 See,lago
 Seele,alma
 sehen,ver
@@ -565,11 +576,13 @@ sich,se
 sie,ella
 Sie,usted
 sitzen,estar sentado
+Smartphone,teléfono inteligente
 so,así
 Sofa,sofá
 sofort,inmediatamente
 Sohn,hijo
 sollen,deber
+Sommer,verano
 Sonne,sol
 spät,tarde
 später,más tarde
@@ -619,6 +632,7 @@ trinken,beber
 tschüss,adiós
 tun,hacer
 Tür,puerta
+Türkei,Turquía
 über,sobre
 übernachten,pernoctar
 Uhr,reloj
@@ -677,11 +691,12 @@ Wetter,tiempo
 wichtig,importante
 wie,cómo
 wieder,otra vez
-Wiederhören,hasta luego
 wiederholen,repetir
+Wiederhören,hasta luego
 Wiedersehen,hasta la vista
 willkommen,bienvenido
 Wind,viento
+Winter,invierno
 wir,nosotros
 wissen,saber
 wo,dónde
@@ -703,6 +718,7 @@ Zoll,aduana
 Zucker,azúcar
 zufrieden,satisfecho
 Zug,tren
+zuordnen,asignar
 zurück,de vuelta
 zusammen,juntos
 zwischen,entre

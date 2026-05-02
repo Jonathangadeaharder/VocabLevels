@@ -24,6 +24,7 @@ an,en
 an-sein,
 anbieten,ofrecer
 anderen,
+ändern,
 anders,diferente
 Anfang,principio
 anfangen,empezar
@@ -49,6 +50,7 @@ Apparat,aparato
 Arbeit,trabajo
 arbeiten,trabajar
 Arbeitslos,desempleado
+ärgern,molestar
 Arm,brazo
 Arm_1,
 Artikel,artículo
@@ -60,8 +62,8 @@ auf-sein,
 Aufhören,terminar
 Aufmachen,abrir
 Aufpassen,prestar atención
-Aufregend,emocionante
 Aufräumen,ordenar
+Aufregend,emocionante
 Aufstehen,levantarse
 Aufzug,ascensor
 Auge,ojo
@@ -77,7 +79,11 @@ Auskunft,información
 Ausland,extranjero
 Ausmachen,apagar
 Auspacken,desempacar
+ausruhen,descansar
 Aussehen,parecer
+Außer,excepto
+Außerdem,además
+Außerhalb,fuera de
 Aussprechen,pronunciar
 Aussteigen,bajar
 Ausstellung,exposición
@@ -89,12 +95,10 @@ Auto,coche
 Autobahn,autopista
 Automat,cajero automático
 Automatisch,automático
-Außer,excepto
-Außerdem,además
-Außerhalb,fuera de
 Baby,bebé
 Babysitter,canguro
 Backen,hornear
+Bäckerei,panadería
 Bad,baño
 Baden,bañarse
 Bahn,tren
@@ -138,9 +142,9 @@ Beschreiben,describir
 Besetzt,ocupado
 Besichtigen,visitar
 Besonders,especialmente
+Bestätigen,confirmar
 Bestehen,aprobar
 bestellen,pedir
-Bestätigen,confirmar
 Besuch,visita
 Besuchen,visitar
 Bett,cama
@@ -161,12 +165,13 @@ Bitter,amargo
 Blatt,hoja
 bleiben,quedarse
 Bleistift,lápiz
+Blöd,tonto
 Blog,blog
 Blond,rubio
 Blume,flor
 Bluse,blusa
-Blöd,tonto
 Bohne,judía
+Böse,enfadado
 Braten,freír
 brauchen,necesitar
 Brief,carta
@@ -181,13 +186,11 @@ Buchen,reservar
 Buchstabe,letra
 Buchstabieren,deletrear
 Bunt,de colores
+Büro,oficina
 Bus,autobús
 Butter,mantequilla
-Bäckerei,panadería
-Böse,enfadado
-Büro,oficina
-Cafeteria,cafetería
 Café,cafetería
+Cafeteria,cafetería
 Chatten,chatear
 Chef,jefe
 Chefin,jefa
@@ -230,17 +233,17 @@ Dorthin,allí (hacia allí)
 Draußen,fuera
 Dringend,urgente
 drinnen,dentro
-Drucken,imprimir
-Drucker,impresora
 Drüben,allí
+Drucken,imprimir
 Drücken,pulsar
+Drucker,impresora
 dumm,tonto
 dunkel,oscuro
+dünn,delgado
 durch,a través de
+dürfen,poder
 Durst,sed
 Dusche,ducha
-dünn,delgado
-dürfen,poder
 E-Book,libro electrónico
 e-mail,correo electrónico
 echt,de verdad
@@ -271,8 +274,8 @@ Einzeln,individual
 Einzelzimmer,habitación individual
 Einziehen,mudarse
 Eis,hielo
-Empfehlen,recomendar
 Empfänger,destinatario
+Empfehlen,recomendar
 Ende,final
 Enden,terminar
 Endlich,finalmente
@@ -280,8 +283,8 @@ Eng,estrecho
 Entschuldigung,disculpa
 Erdgeschoss,planta baja
 Erfahrung,experiencia
-Erklären,explicar
 erkältet-sein,
+Erklären,explicar
 Erlauben,permitir
 Erlaubnis,permiso
 erlaubt-sein,
@@ -351,18 +354,19 @@ Freund,amigo
 Freundin,
 Freundlich,amable
 Frisch,fresco
+Friseur,peluquero
 Froh,alegre
 Früh,antes
 früher,
 Frühstück,desayuno
 Frühstücken,desayunar
+Führerschein,carné de conducir
+Führung,visita guiada
 Fundsachen,objetos perdidos
+für,para
 Furchtbar,terrible
 Fuß,pie
 Fußball,fútbol
-Führerschein,carné de conducir
-Führung,visita guiada
-für,para
 Gabel,tenedor
 Ganz,entero
 Garage,garaje
@@ -374,8 +378,8 @@ Geburtsjahr,año de nacimiento
 Geburtsort,lugar de nacimiento
 Geburtstag,cumpleaños
 geehrte,
-Gefallen,gustar
 Gefährlich,peligroso
+Gefallen,gustar
 Gegen,contra
 Gegenteil,contrario
 Gegenüber,enfrente
@@ -390,13 +394,13 @@ Genug,suficiente
 Gepäck,equipaje
 Gerade,recto
 Geradeaus,todo recto
+Gerät,aparato
 Gericht,plato
 gern,con gusto
-Gerät,aparato
+Geschäft,tienda
 Geschenk,regalo
 Geschichte,historia
 Geschirr,vajilla
-Geschäft,tienda
 Gesicht,cara
 Gespräch,conversación
 gestern,ayer
@@ -417,14 +421,15 @@ Gratulieren,felicitar
 Grillen,hacer una barbacoa
 Grippe,gripe
 Groß,grande
+Größe,talla
 Gruppe,grupo
 Gruß,saludo
-Größe,talla
-gut,bueno
 gültig-sein,
 Günstig,barato
+gut,bueno
 Haar,pelo
 haben,tener
+Hähnchen,pollo
 Halle,vestíbulo
 Hallo,hola
 Hals,cuello
@@ -433,17 +438,20 @@ Haltestelle,parada
 Hamburger,hamburguesa
 Hand,mano
 Handtuch,toalla
+Handwerker,artesano
 Handy,móvil
+hängen,colgar
 Hart,duro
+Hässlich,feo
 Hauptstadt,capital
 Haus,casa
 Haushalt,hogar
 Heft,cuaderno
 Heimat,patria
 Heiraten,casarse
-Heizung,calefacción
 heiß,caliente
 Heißen,llamarse
+Heizung,calefacción
 helfen,ayudar
 Hell,claro
 Hemd,camisa
@@ -471,15 +479,12 @@ Hoffen,esperar
 Hoffentlich,ojalá
 Holen,ir a buscar
 Homepage,página web
+hören,oír
 Hose,pantalones
 Hotel,hotel
 Hund,perro
 Hunger,hambre
 Husten,toser
-Hähnchen,pollo
-hängen,colgar
-Hässlich,feo
-hören,oír
 Idee,idea
 immer,siempre
 in,en
@@ -513,6 +518,7 @@ Kamera,cámara
 Kaputt,roto
 Karte,tarjeta
 Kartoffel,patata
+Käse,
 Kasse,caja
 Katze,gato
 kaufen,comprar
@@ -541,36 +547,36 @@ Kollege,colega
 Kollegin,colega/compañera
 Komisch,raro
 kommen,venir
+können,poder
 Kontakt,contacto
 Konto,cuenta
 Kontrollieren,controlar
 Konzert,concierto
 Kopf,cabeza
+Körper,cuerpo
 Kosmetik,cosmética
 Kosten,costar
 Kostenlos,gratis
 Krank,enfermo
 Krankenhaus,hospital
 Krankenkasse,seguro médico
+Krankenpfleger,enfermero
 Krankheit,enfermedad
 Kredit,crédito
 Kreuzung,cruce
 Kriegen,conseguir
 Krimi,novela negra
+Küche,cocina
 Kuchen,pastel
+Kühl,fresco
+Kühlschrank,nevera
 Kultur,cultura
 Kunde,cliente
+Kündigen,despedir
 Kundin,
 Kunst,arte
 Kurs,curso
 kurz,corto
-Käse,
-können,poder
-Körper,cuerpo
-Küche,cocina
-Kühl,fresco
-Kühlschrank,nevera
-Kündigen,despedir
 Lachen,reír
 Laden,tienda
 Lampe,lámpara
@@ -607,13 +613,14 @@ Liefern,entregar
 liegen,estar tumbado
 Link,enlace
 Links,izquierda
-Lokal,bar
-Lust,gana
-Lustig,divertido
 Löffel,cuchara
+Lokal,bar
 Lüge,mentira
 Lügen,mentir
+Lust,gana
+Lustig,divertido
 machen,hacer
+Mädchen,chica
 Magen,estómago
 Mailbox,buzón de voz
 mal,vez
@@ -623,10 +630,12 @@ man,se
 Manche,algunos
 Manchmal,a veces
 Mann,hombre
+Männlich,masculino
 Mannschaft,equipo
 Mantel,abrigo
 Markt,mercado
 Maschine,máquina
+Mechaniker,mecánico
 Medikament,medicamento
 Meer,mar
 mehr,más
@@ -654,30 +663,30 @@ Mitspielen,jugar con/participar
 Mittagessen,almuerzo
 Mitte,centro
 Mittel,medio
+Möbel,muebles
 Mobiltelefon,teléfono móvil
+möchten,querer
 Mode,moda
 Modern,moderno
+mögen,gustar
+Möglich,posible
 Moment,momento
 Morgen,mañana
 Motor,motor
 Motorroller,scooter
+Müde,cansado
+Müll,basura
 Mund,boca
 Museum,museo
 Musik,música
-Mädchen,chica
-Männlich,masculino
-Möbel,muebles
-möchten,querer
-mögen,gustar
-Möglich,posible
-Müde,cansado
-Müll,basura
 müssen,deber
 Mütze,gorro
 nach,a
 Nachbar,vecino
 Nachbarin,vecina
 Nachricht,noticia
+nächste,
+Nähe,cercanía
 Name,nombre
 Nass,mojado
 Natur,naturaleza
@@ -697,6 +706,7 @@ Nie,nunca
 Niemand,nadie
 Nirgends,en ninguna parte
 noch,todavía
+Norden,norte
 Normal,normal
 Note,nota
 Notieren,anotar
@@ -705,21 +715,22 @@ Notwendig,necesario
 Nudel,pasta
 Nummer,número
 nur,solo
-nächste,
-Nähe,cercanía
 Nützlich,útil
 oben,arriba
 Obst,fruta
 oder,o
 Offen,abierto
+Öffnen,abrir
 oft,a menudo
 ohne,sin
 Ohr,oreja
+Öl,aceite
 Online,en línea
 Orange,naranja
 Ordnung,orden
 Organisieren,organizar
 Ort,lugar
+Osten,este
 Paar,par
 Packen,hacer la maleta
 Paket,paquete
@@ -768,13 +779,14 @@ Prospekt,folleto
 Prüfen,comprobar
 Prüfung,examen
 Pullover,jersey
-Putzen,limpiar
 Pünktlich,puntual
+Putzen,limpiar
 Qualität,calidad
 Quiz,concurso
 Radio,radio
 Raten,adivinar
 Rathaus,ayuntamiento
+Rätsel,acertijo
 Rauchen,fumar
 Raum,habitación
 Rechnen,calcular
@@ -811,14 +823,13 @@ Ring,anillo
 Rock,falda
 Romantisch,romántico
 Rose,rosa
+Rücken,espalda
 Rucksack,mochila
 rufen,llamar
 Ruhe,tranquilidad
 Ruhig,tranquilo
 Rund,redondo
 Rundgang,recorrido
-Rätsel,acertijo
-Rücken,espalda
 Sache,cosa
 Saft,zumo
 sagen,decir
@@ -829,6 +840,7 @@ Satz,frase
 Sauber,limpio
 Sauer,ácido
 Schade,lástima
+Schädlich,dañino
 Schaffen,lograr
 Schalter,ventanilla
 Scharf,picante
@@ -856,12 +868,15 @@ Schneien,nevar
 schnell,rápido
 Schokolade,chocolate
 Schon,ya
+schön,bonito
 Schrank,armario
 Schrecklich,terrible
 schreiben,escribir
 Schriftlich,por escrito
 Schuh,zapato
 Schule,escuela
+Schüler,alumno
+Schülerin,
 Schwach,débil
 Schwanger,embarazada
 Schwein,cerdo
@@ -869,10 +884,6 @@ schwer,difícil
 Schwierig,difícil
 Schwimmbad,piscina
 Schwimmen,nadar
-Schädlich,dañino
-schön,bonito
-Schüler,alumno
-Schülerin,
 see-meer,
 see-teich,
 sehen,ver
@@ -886,6 +897,7 @@ Selbst,mismo
 Sendung,programa
 Service,servicio
 sich-anmelden,
+sich-ärgern,
 sich-ausruhen,
 sich-bedanken,
 sich-beeilen,
@@ -903,14 +915,13 @@ sich-schneiden,
 sich-setzen,
 sich-streiten,
 sich-treffen,
+sich-über-informieren,
 sich-umziehen,
 sich-unterhalten,
 sich-verletzen,
 sich-verlieben,
 sich-vorstellen,
 sich-waschen,
-sich-ärgern,
-sich-über-informieren,
 Sicher,seguro
 Singen,cantar
 Situation,situación
@@ -926,9 +937,11 @@ Sonnig,soleado
 Sonst,si no
 Spannend,emocionante
 Sparen,ahorrar
+Spaß,diversión
+spät,tarde
+Später,más tarde
 spazieren-gehen,
 Spaziergang,paseo
-Spaß,diversión
 Speichern,guardar
 Speisekarte,carta
 Spiel,juego
@@ -939,8 +952,6 @@ Sportplatz,campo de deportes
 Sprache,idioma
 sprechen,hablar
 Sprechstunde,horario de consulta
-spät,tarde
-Später,más tarde
 Stadt,ciudad
 Stadtplan,plano de la ciudad
 Star,estrella
@@ -955,27 +966,28 @@ Stift,lápiz
 Stipendium,beca
 Stock,piso
 Stockwerk,planta
+Stören,molestar
 Strand,playa
 Straße,calle
 Straßenbahn,tranvía
 Streng,estricto
 Stress,estrés
 Stressig,estresante
+Stück,trozo
 Student,estudiante
 Studentin,estudiante
 Studieren,estudiar
 Studium,estudios
 Stuhl,silla
-Stören,molestar
-Stück,trozo
 Suchen,buscar
+Süden,sur
 Super,genial
 Supermarkt,supermercado
 Suppe,sopa
 Surfen,navegar
-Sympathisch,simpático
 Süß,dulce
 Süßigkeiten,dulces
+Sympathisch,simpático
 T-Shirt,camiseta
 Tablet,tableta
 Tablette,pastilla
@@ -1019,15 +1031,23 @@ tragen,llevar
 Trainieren,entrenar
 Training,entrenamiento
 Traum,sueño
+Träumen,soñar
 Traurig,triste
 Treppe,escalera
 trinken,beber
 Trocken,seco
-Träumen,soñar
 Tschüs,
 tun,hacer
-Typisch,típico
 Tür,puerta
+Typisch,típico
+Üben,practicar
+über,sobre
+Überall,en todas partes
+Übermorgen,pasado mañana
+Übernachten,pernoctar
+Übersetzen,traducir
+Übersetzung,traducción
+überweisen,
 Uhr,reloj
 um,a las
 Umsteigen,hacer transbordo
@@ -1091,6 +1111,7 @@ Vorsichtig,con cuidado
 Vorwärts,hacia adelante
 Wach,despierto
 Wagen,coche
+Wählen,elegir
 Wahr,verdadero
 Wahrscheinlich,probablemente
 Wald,bosque
@@ -1100,13 +1121,14 @@ warm,caliente
 warten,esperar
 warum,por qué
 was,qué
+Wäsche,
 Wasser,agua
 Webseite,página web
 Wechseln,cambiar
 Wecken,despertar
 Weg,camino
-weg-sein,
 weg_1,
+weg-sein,
 Wegbringen,llevarse
 wegen,a causa de
 Wegfahren,irse (en vehículo)
@@ -1115,6 +1137,7 @@ Weglaufen,huir
 Wegmachen,
 Wegnehmen,quitar
 Wegwerfen,tirar (basura)
+weh tun,doler
 Wehtun,doler
 Weiblich,femenino
 Weich,blando
@@ -1135,6 +1158,7 @@ wenn,cuando
 wer,quién
 werden,llegar a ser
 Werkstatt,taller
+Westen,oeste
 Wettbewerb,concurso
 Wetter,tiempo
 wichtig,importante
@@ -1163,10 +1187,8 @@ Workshop,taller
 Wort,palabra
 Wunderbar,maravilloso
 Wunsch,deseo
-Wurst,salchicha
-Wählen,elegir
-Wäsche,
 Wünschen,desear
+Wurst,salchicha
 Zahl,número
 Zahlen,pagar
 Zahn,diente
@@ -1202,14 +1224,3 @@ zurückkommen,
 zurücklaufen,
 zusammen,juntos
 Zwischen,entre
-ändern,
-Öffnen,abrir
-Öl,aceite
-Üben,practicar
-über,sobre
-Überall,en todas partes
-Übermorgen,pasado mañana
-Übernachten,pernoctar
-Übersetzen,traducir
-Übersetzung,traducción
-überweisen,
