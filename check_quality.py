@@ -93,9 +93,7 @@ def check_language(lang: str) -> int:
             if SPECIAL_CHARS.search(lemma):
                 print(f"    L{idx}: special chars in lemma '{lemma}'")
                 issues += 1
-            if lemma[0].isupper() and lang != "german":  # German may have capitals
-                print(f"    L{idx}: lemma '{lemma}' starts with capital")
-                issues += 1
+            # Capitalized lemmas allowed (German nouns, proper nouns in any language)
 
             if not t1:
                 print(f"    L{idx}: '{lemma}' missing {cfg['trans_cols'][0]}")
