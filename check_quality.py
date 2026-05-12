@@ -42,6 +42,7 @@ def check_language(lang: str) -> int:
     print(f"\n=== {lang.upper()} ===")
 
     seen_lemmas: dict[str, str] = {}  # lemma -> first level it appeared in
+    seen_translations: dict[str, list[str]] = {}  # translation -> [lemmas] (for duplication check)
     issues = 0
 
     for level in LEVELS:
@@ -66,15 +67,23 @@ def check_language(lang: str) -> int:
         print(f"  {level}: {count} rows (target {target}) — {status}")
 
         intra_lemmas: set[str] = set()
+        intra_trans: dict[str, list[str]] = {}  # translation -> lemmas in this level
         for idx, row in enumerate(rows, start=2):
-            lemma = (row.get(cfg["lemma_col"]) or "").strip()
-            t1 = (row.get(cfg["trans_cols"][0]) or "").strip()
-            t2 = (row.get(cfg["trans_cols"][1]) or "").strip()
+            lemma_raw = row.get(cfg["lemma_col"]) or ""
+            t1_raw = row.get(cfg["trans_cols"][0]) or ""
+            t2_raw = row.get(cfg["trans_cols"][1]) or ""
+
+            lemma = lemma_raw.strip()
+            t1 = t1_raw.strip()
+            t2 = t2_raw.strip()
 
             if not lemma:
                 print(f"    L{idx}: empty lemma")
                 issues += 1
                 continue
+            if lemma != lemma_raw:
+                print(f"    L{idx}: lemma '{lemma}' has leading/trailing whitespace")
+                issues += 1
             if " " in lemma:
                 print(f"    L{idx}: multi-word lemma '{lemma}'")
                 issues += 1
@@ -84,11 +93,21 @@ def check_language(lang: str) -> int:
             if SPECIAL_CHARS.search(lemma):
                 print(f"    L{idx}: special chars in lemma '{lemma}'")
                 issues += 1
+            if lemma[0].isupper() and lang != "german":  # German may have capitals
+                print(f"    L{idx}: lemma '{lemma}' starts with capital")
+                issues += 1
+
             if not t1:
                 print(f"    L{idx}: '{lemma}' missing {cfg['trans_cols'][0]}")
                 issues += 1
+            elif t1 != t1_raw:
+                print(f"    L{idx}: '{lemma}' {cfg['trans_cols'][0]} has whitespace")
+                issues += 1
             if not t2:
                 print(f"    L{idx}: '{lemma}' missing {cfg['trans_cols'][1]}")
+                issues += 1
+            elif t2 != t2_raw:
+                print(f"    L{idx}: '{lemma}' {cfg['trans_cols'][1]} has whitespace")
                 issues += 1
 
             key = lemma.lower()
@@ -102,6 +121,15 @@ def check_language(lang: str) -> int:
                 issues += 1
             else:
                 seen_lemmas.setdefault(key, level)
+
+            if t1:
+                intra_trans.setdefault(t1.lower(), []).append(lemma)
+            if t2:
+                intra_trans.setdefault(t2.lower(), []).append(lemma)
+
+        for trans, lemmas in intra_trans.items():
+            if len(lemmas) > 1:
+                print(f"    {level}: '{trans}' shared by {len(lemmas)} lemmas: {', '.join(lemmas)}")
 
     return issues
 

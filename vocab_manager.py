@@ -74,54 +74,66 @@ def cmd_lint(_: argparse.Namespace) -> int:
 
 
 def cmd_find(args: argparse.Namespace) -> int:
-    levels = find(args.lang, args.lemma)
+    lemma = args.lemma.strip()
+    levels = find(args.lang, lemma)
     if not levels:
-        print(f"'{args.lemma}' not found in {args.lang}")
+        print(f"'{lemma}' not found in {args.lang}")
         return 1
-    print(f"'{args.lemma}' found in {args.lang}: {', '.join(levels)}")
+    print(f"'{lemma}' found in {args.lang}: {', '.join(levels)}")
     return 0
 
 
 def cmd_add(args: argparse.Namespace) -> int:
     cfg = LANGS[args.lang]
-    if " " in args.lemma:
+    lemma = args.lemma.strip()
+    t1 = args.t1.strip()
+    t2 = args.t2.strip()
+    if " " in lemma:
         print("Lemma must be single-word")
         return 1
-    existing = find(args.lang, args.lemma)
+    if not t1 or not t2:
+        print("Translations cannot be empty")
+        return 1
+    existing = find(args.lang, lemma)
     if existing:
-        print(f"'{args.lemma}' already in {args.lang}: {existing}")
+        print(f"'{lemma}' already in {args.lang}: {existing}")
         return 1
     rows = read_level(args.lang, args.level)
     rows.append({
-        cfg["lemma_col"]: args.lemma,
-        cfg["trans_cols"][0]: args.t1,
-        cfg["trans_cols"][1]: args.t2,
+        cfg["lemma_col"]: lemma,
+        cfg["trans_cols"][0]: t1,
+        cfg["trans_cols"][1]: t2,
     })
     write_level(args.lang, args.level, rows)
-    print(f"Added '{args.lemma}' to {args.lang}/{args.level}")
+    print(f"Added '{lemma}' to {args.lang}/{args.level}")
     return 0
 
 
 def cmd_remove(args: argparse.Namespace) -> int:
     cfg = LANGS[args.lang]
-    needle = args.lemma.lower()
+    lemma = args.lemma.strip()
+    needle = lemma.lower()
     found = False
     for level in LEVELS:
         rows = read_level(args.lang, level)
         kept = [r for r in rows if r[cfg["lemma_col"]].lower() != needle]
         if len(kept) != len(rows):
             write_level(args.lang, level, kept)
-            print(f"Removed '{args.lemma}' from {args.lang}/{level}")
+            print(f"Removed '{lemma}' from {args.lang}/{level}")
             found = True
     if not found:
-        print(f"'{args.lemma}' not found in {args.lang}")
+        print(f"'{lemma}' not found in {args.lang}")
         return 1
     return 0
 
 
 def cmd_move(args: argparse.Namespace) -> int:
     cfg = LANGS[args.lang]
-    needle = args.lemma.lower()
+    lemma = args.lemma.strip()
+    needle = lemma.lower()
+    if args.target_level not in LEVELS:
+        print(f"Invalid level '{args.target_level}'")
+        return 1
     src_row = None
     src_level = None
     for level in LEVELS:
@@ -132,33 +144,47 @@ def cmd_move(args: argparse.Namespace) -> int:
         if src_row:
             break
     if not src_row:
-        print(f"'{args.lemma}' not found in {args.lang}")
+        print(f"'{lemma}' not found in {args.lang}")
         return 1
     if src_level == args.target_level:
-        print(f"'{args.lemma}' already in {args.target_level}")
+        print(f"'{lemma}' already in {args.target_level}")
         return 0
-    cmd_remove(argparse.Namespace(lang=args.lang, lemma=args.lemma))
+    cmd_remove(argparse.Namespace(lang=args.lang, lemma=lemma))
     target_rows = read_level(args.lang, args.target_level)
     target_rows.append(src_row)
     write_level(args.lang, args.target_level, target_rows)
-    print(f"Moved '{args.lemma}': {src_level} → {args.target_level}")
+    print(f"Moved '{lemma}': {src_level} → {args.target_level}")
     return 0
 
 
 def cmd_update(args: argparse.Namespace) -> int:
     cfg = LANGS[args.lang]
     needle = args.lemma.lower()
+    rename = args.rename.strip() if args.rename else None
+    t1 = args.t1.strip() if args.t1 else None
+    t2 = args.t2.strip() if args.t2 else None
+
+    if rename and " " in rename:
+        print("New lemma must be single-word")
+        return 1
+    if rename and find(args.lang, rename):
+        print(f"'{rename}' already exists in {args.lang}")
+        return 1
+    if t1 == "" or t2 == "":
+        print("Translations cannot be empty")
+        return 1
+
     for level in LEVELS:
         rows = read_level(args.lang, level)
         changed = False
         for row in rows:
             if row[cfg["lemma_col"]].lower() == needle:
-                if args.t1 is not None:
-                    row[cfg["trans_cols"][0]] = args.t1
-                if args.t2 is not None:
-                    row[cfg["trans_cols"][1]] = args.t2
-                if args.rename is not None:
-                    row[cfg["lemma_col"]] = args.rename
+                if t1 is not None:
+                    row[cfg["trans_cols"][0]] = t1
+                if t2 is not None:
+                    row[cfg["trans_cols"][1]] = t2
+                if rename is not None:
+                    row[cfg["lemma_col"]] = rename
                 changed = True
         if changed:
             write_level(args.lang, level, rows)
@@ -169,14 +195,14 @@ def cmd_update(args: argparse.Namespace) -> int:
 
 
 def cmd_lookup(args: argparse.Namespace) -> int:
-    """Search across all languages by lemma or any translation column."""
+    """Search across all languages by lemma or any translation column (exact match)."""
     needle = args.term.lower()
     hits: list[tuple[str, str, dict[str, str]]] = []
     for lang, cfg in LANGS.items():
         for level in LEVELS:
             for row in read_level(lang, level):
                 values = (row[cfg["lemma_col"]], *(row[c] for c in cfg["trans_cols"]))
-                if any(needle == v.lower() or needle in v.lower() for v in values):
+                if any(needle == v.lower() for v in values):
                     hits.append((lang, level, row))
     if not hits:
         print(f"'{args.term}' not found")
