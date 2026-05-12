@@ -52,7 +52,7 @@ delimitar,to delimit,abgrenzen
 delincuencia,delinquency,Kriminalität
 delinear,to delineate,umreißen
 delirante,delirious,delirierend
-delirar,to delirium,delirieren
+delirar,to rave/be delirious,delirieren
 delirio,delirium,Delirium
 demacrado,emaciated,abgemagert
 demagogia,demagoguery,Demagogie
@@ -97,7 +97,6 @@ deportar,to deport,deportieren
 deportista,athlete,Sportler
 deposición,deposition,Aussage
 depositar,to deposit,einzahlen
-deposito,deposit,Depot
 depravación,depravity,Verderbtheit
 depravar,to deprave,verderben
 deprecación,deprecation,Bitte
@@ -111,6 +110,7 @@ depredar,to depredate,plündern
 deprimir,to depress,deprimieren
 depuración,purification,Reinigung
 depurar,to purify,reinigen
+depósito,deposit,Depot
 deriva,drift,Abdrift
 derivación,derivation,Ableitung
 derivado,derivative,Derivat
@@ -611,7 +611,6 @@ deyección,defecation,Stuhlgang
 diabólico,diabolical,teuflisch
 diafragma,diaphragm,Zwerchfell
 diagnosticar,to diagnose,diagnostizieren
-dialogo,dialogue,Dialog
 diapositiva,slide,Dia
 diariamente,daily,täglich
 diatriba,diatribe,Schmähschrift
@@ -786,6 +785,7 @@ divisivo,divisive,spaltend
 divulgación,divulgence,Verbreitung
 divulgar,to divulge,verbreiten
 diáfano,diaphanous,durchsichtig
+diálogo,dialogue,Dialog
 diáspora,diaspora,Diaspora
 doblar,to fold/double,falten/doppeln
 doblegar,to subdue,beugen
@@ -1651,17 +1651,16 @@ estupor,stupor,Verblüffung
 estupro,statutory rape,Schändung
 estática,statics,Statik
 estático,static,statisch
-estércol,manure,Mist/Dung
 estéril,sterile,steril
 estética,aesthetics,Ästhetik
 estético,aesthetic,ästhetisch
 estímulo,stimulus,Reiz
 estólido,stolid,stolide
-eterea,ethereal,ätherisch
 eternizar,to eternalize,verewigen
 etimología,etymology,Etymologie
 etiquetar,to label,etikettieren
 etrusco,Etruscan,etruskisch
+etéreo,ethereal,ätherisch
 eucaristía,Eucharist,Eucharistie
 eufemismo,euphemism,Euphemismus
 euforia,euphoria,Euphorie
@@ -2017,7 +2016,7 @@ fijar,to fix/pay attention,befestigen/achten auf
 filamento,filament,Faden
 filantropía,philanthropy,Philanthropie
 filarmónica,philharmonic,Philharmoniker
-filateloista,philatelist,Philatelist
+filatelista,philatelist,Philatelist
 filatería,verbiage,Geschwätz
 filete,fillet,Filet
 filiación,affiliation,Filiation
@@ -2057,8 +2056,8 @@ fisgón,nosy,Schnüffler
 fisiología,physiology,Physiologie
 fisiológico,physiological,physiologisch
 fisión,fission,Spaltung
-fiso,fissure,Spalte
 fisonomía,physiognomy,Physiognomie
+fisura,fissure,Spalte
 flacidez,flaccidity,Schlaffheit
 flagelación,flagellation,Geißelung
 flagelar,to flog,geißeln
@@ -2139,7 +2138,6 @@ fondear,to anchor,ankern
 fondista,distance runner,Langstreckenläufer
 fontanal,fountain spring,Quellenfeld
 fontanería,plumbing,Klempnerei
-foraje,foraging,Furagieren
 forajido,outlaw,Geächteter
 forastero,foreigner/stranger,Fremder
 forcejear,to struggle,sich abmühen
@@ -2221,7 +2219,6 @@ frecuente,frequent,häufig
 fregadero,sink,Spüle
 fregar,to scrub,scheuern
 freidora,fryer,Fritteuse
-freir,to fry,braten
 frenar,to brake,bremsen
 frenazo,sudden braking,Bremsruck
 frenesí,frenzy,Raserei
@@ -2230,6 +2227,7 @@ frenético,frantic,wild
 fresa,strawberry,Erdbeere
 frescor,coolness,Frische
 frescura,freshness,Frische
+freír,to fry,braten
 friccionar,to rub,reiben
 fricción,friction,Reibung
 frigorífico,refrigerator,Kühlschrank
@@ -2520,7 +2518,6 @@ granadino,from Granada,aus Granada
 granate,maroon,Granat
 grandilocuencia,grandiloquence,Schwulst
 grandilocuente,grandiloquent,hochtrabend
-grandiosa,grandiose,großartig
 grandiosidad,grandiosity,Großartigkeit
 grandullón,big lout,Lulatsch
 granito,granite,Granit
@@ -2552,7 +2549,6 @@ gremial,union,Gewerkschafts-
 gremio,guild,Zunft
 greña,mane,Mähne
 grieta,crack,Riss
-grietas,cracks,Risse
 grifería,faucets,Armaturen
 grifo,faucet,Wasserhahn
 grillete,shackle,Fessel
@@ -2560,7 +2556,6 @@ grillo,cricket,Grille
 gringo,foreigner,Gringo
 grisáceo,grayish,gräulich
 grisú,firedamp,Schlagwetter
-griterío,uproar,Geschrei
 griñón,wimple,Brustlatz
 grosería,rudeness,Grobheit
 grosor,thickness,Dicke
@@ -2625,7 +2620,6 @@ gutural,guttural,kehlig
 gálibo,gauge,Lichtraumprofil
 gárgara,gargle,Gurgeln
 gárgola,gargoyle,Wasserspeier
-gárrula,chattering,plappernd
 gárrulo,garrulous,geschwätzig
 gélido,gelid/cold,eiskalt
 génesis,genesis,Genese
@@ -2659,7 +2653,6 @@ halconería,falconry,Falknerei
 halcón,falcon,Falke
 hallazgo,discovery/finding,Fund/Entdeckung
 hambruna,famine,Hungersnot
-hamponal,thuggish,verbrecherisch
 hampón,thug,Schurke
 haraganear,to laze,faulenzen
 haraganería,laziness,Trägheit
@@ -2754,7 +2747,6 @@ hidráulico,hydraulic,hydraulisch
 hidrógeno,hydrogen,Wasserstoff
 hidrópico,hydropic,wassersüchtig
 hiel,bile,Galle
-hieroglífico,hieroglyphic,hieroglyphisch
 hierático,hieratic,hieratisch
 higiene,hygiene,Hygiene
 higiénico,hygienic,hygienisch
@@ -2949,7 +2941,7 @@ hurtadillas,furtively,heimlich
 hurtar,to steal,stehlen
 hurto,theft,Diebstahl
 hurón,ferret,Frettchen
-huskey,husky,Husky
+husky,husky,Husky
 husmear,to sniff,schnüffeln
 huérfano,orphan,Waise
 hábil,skillful,geschickt
@@ -3646,7 +3638,6 @@ lágrima,tear,Träne
 macabro,macabre,makaber
 macerar,to macerate,einweichen
 machacar,to crush/hammer,zerstampfen
-machiavélico,Machiavellian,machiavellistisch
 macizo,solid/massif,massiv/Gebirgsmassiv
 madurez,maturity,Reife
 magnate,tycoon,Magnat
@@ -3665,6 +3656,7 @@ maniobra,maneuver,Manöver
 manipular,to manipulate,manipulieren
 manjar,delicacy,Delikatesse
 manto,cloak/mantle,Mantel
+maquiavélico,Machiavellian,machiavellistisch
 maquillar,to put makeup on,schminken
 maquinaria,machinery,Maschinerie
 marasmo,stagnation,Stillstand
@@ -3845,7 +3837,6 @@ pugna,struggle,Kampf
 pulcro,neat,ordentlich
 pútrido,putrid,faulig
 quebrar,to break/go bankrupt,brechen/bankrottgehen
-quejar,to complain,sich beschweren
 quejarse,to complain,sich beschweren
 quimera,chimera/illusion,Hirngespinst
 radical,radical,radikal
@@ -3955,7 +3946,7 @@ usufructo,usufruct,Nießbrauch
 vacilar,to hesitate/waver,zögern/schwanken
 valer,to be worth/cost,wert sein/kosten
 vehemente,vehement,heftig
-vengar,to avenge,rächen
+vengarse,to avenge oneself,sich rächen
 venidero,forthcoming,kommend
 verbo,verb,Verb
 verdura,vegetable,Gemüse

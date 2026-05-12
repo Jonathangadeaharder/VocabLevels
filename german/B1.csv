@@ -8,14 +8,14 @@ abholen,to pick up,recoger
 Absicht,intention,intención
 Abteilung,department,departamento
 Adliger,nobleman,noble
-Affäre,affair,aventura
+Affäre,affair,amorío
 Akte,file,expediente
 Akten,files,expedientes
 akzeptieren,to accept,aceptar
 Alarm,alarm,alarma
 Alibi,alibi,coartada
 Alkohol,alcohol,alcohol
-Allerdings,however,sin embargo
+allerdings,however,sin embargo
 altes,old (neut),viejo
 Amen,amen,amén
 Amerikaner,Americans,americanos
@@ -39,7 +39,7 @@ Anzug,suit,traje
 Appetit,appetite,apetito
 Applaus,applause,aplauso
 arbeitete,worked (past),trabajó
-Arme,arms / poor,brazos
+Arme,arms / poor,brazos / pobres
 Artikel,article,artículo
 atmen,to breathe,respirar
 aufgeben,to give up,rendirse
@@ -219,7 +219,7 @@ entlassen,dismissed,despedido
 Entscheidungen,decisions,decisiones
 entschuldigt,excused,disculpado
 enttäuscht,disappointed,decepcionado
-Entweder,either,o
+entweder,either,o
 Erfahrung,experience,experiencia
 erfolgreich,successful,exitoso
 erfreut,pleased,encantado
@@ -309,7 +309,6 @@ Gang,corridor,pasillo
 Garten,garden,jardín
 Gas,gas,gas
 Gast,guest,invitado
-geb,give (spoken),da
 Gebiet,area,zona
 gebraucht,used,usado
 gebrochen,broken,roto
@@ -348,7 +347,7 @@ genießen,to enjoy,disfrutar
 geplant,planned,planeado
 geraten,got into,metido en
 Gerechtigkeit,justice,justicia
-Gericht,court / dish,tribunal
+Gericht,court / dish,tribunal / plato
 gerufen,called,llamado
 Geräusch,noise,ruido
 gesamte,entire,entero
@@ -372,6 +371,7 @@ gezeigt,shown,mostrado
 gezogen,pulled,tirado
 gezwungen,forced,obligado
 geöffnet,open,abierto
+gib,give (imperative),da
 gibst,give (you),das
 Gift,poison,veneno
 gingen,went (pl),fueron
@@ -479,7 +479,7 @@ Knie,knee,rodilla
 Knochen,bones,huesos
 kochen,to cook,cocinar
 Koffer,suitcase,maleta
-Kohle,coal / money,carbón
+Kohle,coal / money,carbón / pasta
 Kollege,colleague,colega
 Kommissar,commissioner,comisario
 komplett,completely,completamente
@@ -492,7 +492,7 @@ Krankenwagen,ambulance,ambulancia
 Krankheit,disease,enfermedad
 Krebs,cancer,cáncer
 Kuchen,cake,pastel
-Kugel,bullet / sphere,bala
+Kugel,bullet / sphere,bala / esfera
 Kuh,cow,vaca
 Kunst,art,arte
 Kurs,course,curso
@@ -516,7 +516,7 @@ Lehrer,teacher,profesor
 Leichen,corpses,cadáveres
 Leichter,easier,más fácil
 leiden,to suffer,sufrir
-Leiter,leader / ladder,líder
+Leiter,leader / ladder,líder / escalera
 Liebes,love (affectionate),amor
 liebsten,favorite,favorito
 liebte,loved (past),amaba
@@ -549,7 +549,7 @@ Million,million,millón
 mindestens,at least,al menos
 Mission,mission,misión
 Mistkerl,bastard,cabrón
-mitarbeiter,employee,empleado
+Mitarbeiter,employee,empleado
 mitgebracht,brought along,traído
 mitgenommen,taken along,llevado
 Mitglied,member,miembro
@@ -597,7 +597,7 @@ offenbar,apparently,aparentemente
 offensichtlich,obviously,obviamente
 offiziell,official,oficial
 Ohr,ear,oreja
-Ohren,ears,oídos
+Ohren,ears,orejas
 Opa,grandpa,abuelo
 Operation,operation,operación
 Opfer,victim,víctima
@@ -610,7 +610,7 @@ Pater,Father (priest),Padre
 Patient,patient,paciente
 Pech,bad luck,mala suerte
 peinlich,embarrassing,vergonzoso
-perfekte,perfect,perfecto
+perfekte,perfect (fem/pl),perfecta
 Personen,persons,personas
 Pferde,horses,caballos
 Pflicht,duty,deber
@@ -651,7 +651,7 @@ Regisseur,director,director
 reich,rich,rico
 reichen,to be enough,ser suficiente
 Reifen,tire,neumático
-Reihe,row / series,fila
+Reihe,row / series,fila / serie
 reinkommen,to come in,entrar
 reisen,to travel,viajar
 rennen,to run,correr
@@ -674,7 +674,7 @@ ruiniert,ruined,arruinado
 Runde,round,ronda
 Sack,sack,saco
 sahen,saw (pl),vieron
-satt,full / fed up,lleno
+satt,full / fed up,lleno / harto
 saß,sat,estaba sentado
 Schade,pity,lástima
 Schaden,damage,daño
@@ -696,7 +696,7 @@ schickte,sent (past),envió
 schief,wrong,torcido
 schlafe,sleep (I),duermo
 Schlafzimmer,bedroom,dormitorio
-schlampe,bitch,zorra
+Schlampe,bitch,zorra
 Schlange,snake,serpiente
 schlechten,bad (acc/dat),malo
 schlechter,worse,peor
@@ -717,7 +717,7 @@ Schrei,scream,grito
 schreibe,write (I),escribo
 schreibt,writes,escribe
 Schreie,screams,gritos
-Schreien,to scream,gritar
+schreien,to scream,gritar
 schrieb,wrote,escribió
 Schritte,steps,pasos
 Schulden,debts,deudas
@@ -756,7 +756,7 @@ solltet,should (you pl past),deberíais
 Sommer,summer,verano
 Sonntag,Sunday,domingo
 sowas,such a thing,tal cosa
-Spannende,exciting,emocionante
+spannende,exciting (fem/pl),emocionante
 spazieren,to stroll,pasear
 Spiegel,mirror,espejo
 Spieler,player,jugador
@@ -911,7 +911,7 @@ vorbereitet,prepared,preparado
 vorgestellt,introduced,presentado
 vorn,in front,delante
 Vorschlag,proposal,propuesta
-Vorstellung,performance / idea,representación
+Vorstellung,performance / idea,representación / idea
 Vorwärts,forward,adelante
 Vögel,birds,pájaros
 Wache,guard,guardia
@@ -936,7 +936,7 @@ welcher,which,cuál
 Welches,which (neut),cuál
 werfen,to throw,lanzar
 Wesen,being,ser
-westen,west,oeste
+Westen,west,oeste
 Wetter,weather,tiempo
 Wichser,wanker,cabrón
 wichtige,important (fem/pl),importante

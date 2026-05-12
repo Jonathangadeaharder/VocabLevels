@@ -73,8 +73,8 @@ damit,so that,para que
 Dank,thanks,agradecimiento
 dann,then,entonces
 darauf,on it,en eso
-darum,therefore,por eso
 darüber,about it,sobre eso
+darum,therefore,por eso
 das,the / that,el / eso
 dass,that,que
 davon,from it,de eso
@@ -91,7 +91,7 @@ denkst,think (you),piensas
 denn,because,porque
 der,the,el
 des,of the,del
-Deshalb,therefore,por lo tanto
+deshalb,therefore,por lo tanto
 dich,you (accusative),te
 die,the,la
 diese,these,estas
@@ -103,7 +103,7 @@ Dinge,things,cosas
 dir,you (dative),te
 direkt,direct,directo
 doch,but,pero
-Doktor,doctor,doctor
+Doktor,doctor,médico
 dort,there,allí
 draußen,outside,fuera
 drei,three,tres
@@ -160,7 +160,7 @@ Freunde,friends,amigos
 Freundin,girlfriend,amiga
 freut,is glad,alegra
 froh,glad,alegre
-früh,early,antes
+früh,early,temprano
 früher,earlier,antes
 funktioniert,works,funciona
 fünf,five,cinco
@@ -174,18 +174,18 @@ gebe,give (I),doy
 geben,to give,dar
 gedacht,thought,pensado
 gefallen,to please,gustar
-gefunden,found,encontrado
 gefällt,pleases,gusta
+gefunden,found,encontrado
 gegangen,gone,ido
 gegeben,given,dado
 gegen,against,contra
 gehe,go (I),voy
 gehen,to go,ir
-gehört,heard / belonged,oído
+gehört,heard / belonged,oído / pertenecido
 Geld,money,dinero
 gemacht,made,hecho
 genau,exactly,exacto
-gerade,straight,recto
+gerade,just / straight,justo / recto
 gern,gladly,con gusto
 gerne,gladly,con gusto
 gesagt,said,dicho
@@ -210,17 +210,20 @@ großen,big (acc/dat),grandes
 Grund,reason,razón
 gut,good,bueno
 gute,good (fem/pl),buena
-Guten,good (greeting),buen
+guten,good (greeting),buen
 habe,have,tengo
 haben,to have,tener
 habt,have (you pl),tenéis
 Halt,stop,parada
+hält,holds,sostiene
 halten,to stop,parar
 Hand,hand,mano
+Hände,hands,manos
 Handy,mobile phone,móvil
 hast,have (you),tienes
 hat,has,tiene
 hatte,had,tenía
+hätte,would have,habría
 hatten,had (pl),tenían
 Haus,house,casa
 Hause,home,casa
@@ -237,13 +240,10 @@ hinter,behind,detrás de
 hoch,high,alto
 hoffe,hope (I),espero
 holen,to fetch,ir a buscar
-Hund,dog,perro
-hält,holds,sostiene
-Hände,hands,manos
-hätte,would have,habría
-Hör,listen,escucha
+hör,listen,escucha
 hören,to hear,oír
 hört,hears,escucha
+Hund,dog,perro
 ich,I,yo
 Idee,idea,idea
 ihm,him (dative),a él
@@ -290,33 +290,34 @@ kleine,small (fem/pl),pequeña
 kleinen,small (acc/dat),pequeños
 kleiner,smaller,más pequeño
 klingt,sounds,suena
-Komm,come,ven
+komm,come,ven
 komme,come (I),vengo
 kommen,to come,venir
 kommst,come (you),vienes
 kommt,comes,viene
+König,king,rey
+können,to be able,poder
 konnte,could,podía
+könnte,could,podría
+könnten,could (pl),podrían
 Kopf,head,cabeza
 krank,sick,enfermo
 Krieg,war,guerra
 kriegen,to get,conseguir
 kurz,short,corto
-König,king,rey
-können,to be able,poder
-könnte,could,podría
-könnten,could (pl),podrían
 lacht,laughs,ríe
 Land,country,país
 lang,long,largo
 lange,long time,mucho tiempo
 langsam,slowly,despacio
-Lass,let,deja
+lass,let,deja
 lasse,let (I),dejo
 lassen,to let,dejar
-Lasst,let (pl),dejad
+lasst,let (pl),dejad
+lässt,lets,deja
 leben,to live,vivir
 leicht,easy,fácil
-leid,sorry,siento
+leid,sorry,pena
 leider,unfortunately,lamentablemente
 letzte,last,último
 letzten,last (acc/dat),últimos
@@ -325,19 +326,20 @@ liebe,love (noun),amor
 lieben,to love,amar
 lieber,preferably,preferiblemente
 liegt,lies,yace
-los,let's go,vamos
+los,loose / go,suelto / vamos
 Luft,air,aire
-lässt,lets,deja
-Mach,make,haz
+mach,make,haz
 mache,make (I),hago
 machen,to make,hacer
 machst,make (you),haces
 macht,makes,hace
+Mädchen,girl,chica
 mag,like,me gusta
 mal,times,vez
 Mama,mom,mamá
 man,one,se
 Mann,man,hombre
+Männer,men,hombres
 mehr,more,más
 mein,my,mi
 meine,my (fem/pl),mi
@@ -355,23 +357,22 @@ mir,me (dative),me
 Mist,crap,basura
 mit,with,con
 mitnehmen,to take along,llevar consigo
+möglich,possible,posible
 Moment,moment,momento
 morgen,tomorrow,mañana
 Musik,music,música
 muss,must,debo
+müssen,to have to,deber
 musst,must (you),debes
 musste,had to,tuve que
 Mutter,mother,madre
-Mädchen,girl,chica
-Männer,men,hombres
-möglich,possible,posible
-müssen,to have to,deber
 Mütterchen,mommy,mamita
-nach,to / after,a
+nach,to / after,a / después de
+nächsten,next (acc/dat),próximos
 Nacht,night,noche
 nahe,near,cerca
 Name,name,nombre
-Natürlich,naturally,naturalmente
+natürlich,naturally,naturalmente
 nehme,take (I),tomo
 nehmen,to take,coger
 nein,no,no
@@ -383,12 +384,11 @@ nichts,nothing,nada
 nie,never,nunca
 niemals,never,nunca
 niemand,nobody,nadie
-Nimm,take,toma
+nimm,take,toma
 noch,still,todavía
 Nummer,number,número
-Nun,well,pues
+nun,well,pues
 nur,only,solo
-nächsten,next (acc/dat),próximos
 ob,whether,si
 oben,above,arriba
 oder,or,o
@@ -417,7 +417,7 @@ ruhig,quiet,tranquilo
 runter,down,abajo
 Sache,thing,cosa
 Sachen,things,cosas
-Sag,say,di
+sag,say,di
 sage,say (I),digo
 sagen,to say,decir
 sagst,say (you),dices
@@ -426,18 +426,18 @@ sagte,said (past),dijo
 sah,saw,vio
 schaffen,to manage,lograr
 Schatz,sweetheart,tesoro
-Schau,look,mira
+schau,look,mira
 scheint,seems,parece
 Scheiß,crap,mierda
 schlafen,to sleep,dormir
 schlecht,bad,malo
 schnell,fast,rápido
 schon,already,ya
+schön,beautiful,bonito
 Schuld,fault,culpa
 Schule,school,escuela
 schwer,difficult,difícil
 Schwester,sister,hermana
-schön,beautiful,bonito
 sechs,six,seis
 sehen,to see,ver
 sehr,very,muy
@@ -469,12 +469,12 @@ sonst,otherwise,si no
 Sorge,worry,preocupación
 Sorgen,worries,preocupaciones
 Spaß,fun,diversión
+spät,late,tarde
+später,later,más tarde
 Spiel,game,juego
 spielen,to play,jugar
 sprechen,to speak,hablar
 spricht,speaks,habla
-spät,late,tarde
-später,later,más tarde
 Stadt,city,ciudad
 stehen,to stand,estar de pie
 steht,stands,está de pie
@@ -500,9 +500,9 @@ treffen,to meet,encontrarse
 trinken,to drink,beber
 trotzdem,nevertheless,sin embargo
 tun,to do,hacer
+Tür,door,puerta
 tut,does,hace
 Typ,guy,tipo
-Tür,door,puerta
 Uhr,clock,reloj
 um,around,a las
 und,and,y
@@ -527,30 +527,31 @@ versuchen,to try,intentar
 versucht,tried,intentado
 viel,much,mucho
 viele,many,muchos
-Vielen,many (dative),a muchos
+vielen,many (dative),a muchos
 vielleicht,maybe,quizás
 vier,four,cuatro
 voll,full,lleno
+völlig,completely,completamente
 von,from,de
 vor,before,delante de
 vorbei,past,pasado
-völlig,completely,completamente
 Wagen,car,coche
 wahr,true,verdadero
+während,while,mientras
 wann,when,cuándo
 war,was,era
 waren,were,eran
-Warte,wait,espera
+warte,wait,espera
 warten,to wait,esperar
 warum,why,por qué
 was,what,qué
 Wasser,water,agua
 weder,neither,ni
 weil,because,porque
+weiß,know / white,sé / blanco
+weißt,know (you),sabes
 weit,far,lejos
 weiter,further,continuar
-weiß,know / white,sé
-weißt,know (you),sabes
 Welt,world,mundo
 wem,to whom,a quién
 wenig,little,poco
@@ -562,7 +563,7 @@ wichtig,important,importante
 wie,how,cómo
 wieder,again,otra vez
 Wiedersehen,goodbye,hasta la vista
-Wieso,why,por qué
+wieso,why,por qué
 willst,want (you),quieres
 wir,we,nosotros
 wirklich,really,realmente
@@ -579,9 +580,8 @@ wollt,want (you pl),queréis
 wollte,wanted,quería
 Wort,word,palabra
 wurde,became,se convirtió
-wurden,became (pl),se convirtieron
-während,while,mientras
 würde,would,haría
+wurden,became (pl),se convirtieron
 würden,would (pl),harían
 zehn,ten,diez
 zeigen,to show,mostrar

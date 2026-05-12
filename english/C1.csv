@@ -92,7 +92,7 @@ annoy,ärgern,molestar
 annoyance,Ärger,fastidio
 annually,jährlich,anualmente
 annul,annullieren,anular
-anodyne,nichtssagend,anodino
+anodyne,schmerzlindernd,calmante
 anoint,salben,ungir
 anomalous,anomal,anómalo
 anomaly,Anomalie,anomalía
@@ -135,7 +135,7 @@ apotheotic,großartig,apoteósico
 appall,entsetzen,horrorizar
 appalling,entsetzlich,pésimo
 apparatus,Apparat,aparato
-apparel,bekleiden,ataviar
+apparel,Kleidung,vestimenta
 apparent,scheinbar,aparente
 appease,beruhigen,apaciguar
 append,anhängen,anexar
@@ -336,25 +336,25 @@ ballot,Stimmzettel,boleta
 balustrade,Brüstung,balustrada
 ban,verbieten,prohibir
 banality,Banalität,banalidad
-bandit,Wegelagerer,herreruelo
+bandit,Wegelagerer,bandido
 banish,verbannen,desterrar
 banister,Geländer,barandilla
 banker,Banker,banquero
-bankrupt,bankrott,bancarrota
+bankrupt,bankrott,quebrado
 bankruptcy,Insolvenz,bancarrota
 banner,Banner,banner
 banquet,Bankett,banquete
 banter,scherzen,bromear
 baptize,taufen,bautizar
 barbarism,Barbarei,barbarismo
-barbarity,Unsinn,barbaridad
+barbarity,Grausamkeit,barbaridad
 bard,Barde,bardo
 barefoot,barfuß,descalzo
 barge,Schleppkahn,gabarra
 baroness,Baroness,baronesa
-barrage,bombardieren,bombardear
+barrage,Sperrfeuer,barrera
 barren,unfruchtbar,estéril
-barricade,verbarrikadieren,barricar
+barricade,Barrikade,barricada
 barter,tauschen,trocar
 bash,schlagen,golpear
 basilica,Basilika,basílica
@@ -373,7 +373,7 @@ bearable,erträglich,soportable
 beatify,seligsprechen,beatificar
 beautify,verschönern,embellecer
 beckon,winken,llamar con la mano
-beetle,Käfer,cascarudo
+beetle,Käfer,escarabajo
 befall,widerfahren,acontecer
 befit,geziemen,convenir
 beforehand,vorab,antemano
@@ -390,11 +390,11 @@ behold,erblicken,contemplar
 behoove,geziemen,incumbir
 bejeweled,bejuwelt,enjoyado
 belabor,überstrapazieren,machacar
-belated,verspäten,retrasar
+belated,verspätet,tardío
 belch,rülpsen,eructar
 beleaguer,belagern,acosar
 beleaguered,zugesetzt,asaeteado
-belie,belehren,desmentir
+belie,widerlegen,desmentir
 believer,Gläubiger,creyente
 belittle,herabsetzen,menospreciar
 bellicose,kriegerisch,belicoso
@@ -405,7 +405,7 @@ bemuse,verwirren,desconcertar
 benefactor,Wohltäter,benefactor
 beneficence,Wohltätigkeit,beneficencia
 beneficiary,Begünstigter,beneficiario
-beneficiate,nutzen,beneficiarse
+beneficiate,aufbereiten,beneficiar
 benevolent,gütig,benevolente
 benign,gutartig,benigno
 bequeath,vererben,legar
@@ -467,11 +467,11 @@ blight,zerstören,arruinar
 blindfold,Augen verbinden,vendar los ojos
 blindside,kalt erwischen,sorprender
 bliss,Glückseligkeit,felicidad
-blister,Blasen bilden,ampollar
+blister,Blase,ampolla
 blizzard,Schneesturm,ventisca
 bloat,aufblähen,hinchar
 blockade,blockieren,bloquear
-bloodless,entkräftet,exangüe
+bloodless,blutleer,exangüe
 blooming,Aufblühen,eclosión
 blossom,blühen,florecer
 blot,beflecken,manchar
@@ -505,7 +505,7 @@ bony,knochig,huesoso
 bookcase,Regal,estanteria
 borders,Grenzen,fronteras
 boredom,Langeweile,aburrimiento
-bossism,Caziquentum,caciquismo
+bossism,Bossentum,caciquismo
 botanical,botanisch,botánico
 botch,verpfuschen,chapotear
 bottleneck,Engpass,cuello de botella
@@ -532,7 +532,7 @@ breakthrough,Durchbruch,avance
 breakup,Trennung,ruptura
 brevity,Kürze,brevedad
 bribery,Bestechung,soborno
-bridegroom,Brautpaar,contrayente
+bridegroom,Bräutigam,novio
 bridle,zäumen,embridar
 briefly,kurz,brevemente
 brighten,aufhellen,iluminar
@@ -553,7 +553,7 @@ brook,Bach,arroyo
 broom,Besen,escoba
 brothel,Bordell,burdel
 brotherhood,Bruderschaft,cofradía
-brow,Stirnrunzeln,entrecejo
+brow,Stirn,frente
 browbeat,einschüchtern,intimidar
 browse,stöbern,hojear
 bruise,prellen,magullar
@@ -649,7 +649,7 @@ cater,versorgen,atender
 cathedral,Kathedrale,catedral
 catheterize,katheterisieren,cateterizar
 causation,Kausalität,causalidad
-cauterize,kaustisieren,cauterizar
+cauterize,kauterisieren,cauterizar
 cavil,nörgeln,poner reparos
 cavort,herumtollen,retozar
 cede,abtreten,ceder
@@ -660,7 +660,7 @@ censure,tadeln,censurar
 centralize,zentralisieren,centralizar
 centrifuge,Zentrifuge,centrifugadora
 certify,zertifizieren,certificar
-chalk,zeichnen,tizar
+chalk,Kreide,tiza
 chandelier,Kronleuchter,araña de luces
 chant,singen,cantar
 chaotic,chaotisch,caótico
@@ -672,9 +672,9 @@ charisma,Charisma,carisma
 charismatic,charismatisch,carismático
 charlatan,Scharlatan,charlatán
 charter,chartern,fletar
-chasten,züchtigen,escarmenar
+chasten,züchtigen,escarmentar
 chastise,züchtigen,castigar
-chauffeur,chauffieren,choferear
+chauffeur,Chauffeur,chófer
 cheapen,verbilligen,abaratar
 checkmate,matt setzen,dar mate
 checkup,Untersuchung,chequeo
@@ -690,7 +690,7 @@ choreograph,choreografieren,coreografiar
 chortle,glucksen,reír entre dientes
 christen,taufen,bautizar
 chronic,chronisch,crónico
-chronicle,chronologisieren,registrar
+chronicle,Chronik,crónica
 churn,buttern,agitar
 circulate,zirkulieren,circular
 circumscribe,umschreiben,circunscribir
@@ -816,7 +816,7 @@ confiscate,beschlagnahmen,confiscar
 conform,anpassen,conformar
 confound,verwirren,confundir
 confuse,verwirren,confundir
-congeal,erstarren,congelar
+congeal,erstarren,coagular
 congregate,sich versammeln,congregarse
 conjoin,verbinden,conjuntar
 conjugate,beugen,conjugar
@@ -911,7 +911,7 @@ crank,kurbeln,accionar
 crate,verpacken,encajonar
 crater,Krater,cráter
 crave,sehnen,ansiar
-crayon,zeichnen,colorear
+crayon,Buntstift,lápiz de color
 craze,verrückt machen,enloquecer
 creak,knarren,crujir
 crease,falten,arrugar
@@ -925,7 +925,7 @@ crick,verrenken,torcer
 cringe,zusammenzucken,sentir vergüenza ajena
 crinkle,knittern,arrugar
 cripple,verkrüppeln,tullir
-crisp,knusprig machen,tostar
+crisp,knusprig,crujiente
 criteria,Kriterien,criterios
 criterion,Kriterium,criterio
 critic,Kritiker,crítico
@@ -940,11 +940,11 @@ crucify,kreuzigen,crucificar
 crumble,zerbröckeln,desmoronarse
 crumple,zerknittern,arrugar
 crunch,knirschen,crujir
-crusade,kämpfen,hacer una cruzada
-crust,verkrusten,encostrar
+crusade,Kreuzzug,cruzada
+crust,Kruste,corteza
 crystalline,kristallin,cristalino
 crystallize,kristallisieren,cristalizar
-cub,Junges werfen,parir (cachorros)
+cub,Junges,cachorro
 cube,würfeln,cortar en cubos
 cuckold,betrügen,poner los cuernos
 cuddle,kuscheln,mimar
@@ -979,7 +979,7 @@ damp,befeuchten,humedecer
 dampen,dämpfen,amortiguar
 dandle,päppeln,mimar
 dangle,baumeln,colgar
-dapper,putzen,vestirse elegante
+dapper,schmuck,elegante
 darken,verdunkeln,oscurecer
 dart,schießen,lanzarse
 dash,flitzen,correr
@@ -1056,7 +1056,7 @@ deform,verformen,deformar
 defraud,betrügen,estafar
 defray,bezahlen,sufragar
 defrost,auftauen,descongelar
-defunct,aussterben,perecer
+defunct,verstorben,difunto
 defuse,entschärfen,desactivar
 defy,trotzen,desafiar
 degenerate,verkommen,degenerar
@@ -1126,7 +1126,7 @@ deracinate,entwurzeln,desarraigar
 derail,entgleisen,descarrilar
 derange,verwirren,trastornar
 deregulate,deregulieren,desregular
-deride,verspotten,derribar
+deride,verspotten,ridiculizar
 derivative,Derivat,derivado
 derive,ableiten,derivar
 derogate,beeinträchtigen,derogar
@@ -1146,7 +1146,7 @@ despond,verzweifeln,desesperar
 despot,Despot,déspota
 destabilize,destabilisieren,desestabilizar
 destine,bestimmen,destinar
-destitute,berauben,privar
+destitute,mittellos,indigente
 detach,lösen,separar
 details,Details,detalles
 detain,festhalten,detener
@@ -1172,7 +1172,7 @@ devotion,Hingabe,devoción
 devour,verschlingen,devorar
 dexterity,Geschicklichkeit,destreza
 diagnose,diagnostizieren,diagnosticar
-diagram,zeichnen,diagramar
+diagram,Diagramm,diagrama
 dialect,Dialekt,dialecto
 dichotomy,Dichotomie,dicotomía
 dictate,diktieren,dictar
@@ -1190,8 +1190,8 @@ diligent,fleißig,diligente
 dilute,verdünnen,diluir
 dim,schwach,tenue
 diminish,verringern,disminuir
-dimple,Grübchen machen,hacer hoyuelos
-din,dröhnen,aturdir con ruido
+dimple,Grübchen,hoyuelo
+din,Lärm,estruendo
 dine,essen,cenar
 diploma,Diplom,diploma
 diplomacy,Diplomatie,diplomacia
@@ -1301,8 +1301,8 @@ disputed,umstritten,disputado
 disqualify,disqualifizieren,descalificar
 disquiet,beunruhigen,inquietar
 disregard,ignorieren,desatender
-disrepair,verfallen,estar en mal estado
-disrepute,beschädigen,desprestigiar
+disrepair,Verfall,deterioro
+disrepute,Verruf,descrédito
 disrespectful,respektlos,irrespetuoso
 disrobe,ausziehen,desvestirse
 disrupt,stören,interrumpir
@@ -1315,11 +1315,11 @@ dissert,erörtern,disertar
 disserve,schaden,perjudicar
 dissever,trennen,desunir
 dissociate,trennen,disociar
-dissolute,verderben,disolver
+dissolute,ausschweifend,disoluto
 dissolve,auflösen,disolver
-dissonance,unharmonisch sein,desentonar
+dissonance,Dissonanz,disonancia
 dissuade,abbringen,disuadir
-distaste,nicht mögen,disgustar
+distaste,Abneigung,aversión
 distend,ausdehnen,distender
 distil,destillieren,destilar
 distinct,deutlich,distinto
@@ -1332,7 +1332,7 @@ distribute,verteilen,distribuir
 distribution,Verteilung,distribución
 distrust,misstrauen,desconfiar
 disunite,trennen,desunir
-disuse,nicht mehr benutzen,desusar
+disuse,Nichtgebrauch,desuso
 dither,zaudern,vacilar
 diverse,vielfältig,diverso
 diversification,Diversifizierung,diversificación
@@ -1342,7 +1342,7 @@ divert,ablenken,desviar
 divest,entkleiden,despojar
 dividend,Dividende,dividendo
 divulge,enthüllen,divulgar
-docile,fügsam machen,hacer dócil
+docile,fügsam,dócil
 doctrine,Doktrin,doctrina
 doff,ablegen,quitarse
 dogma,Dogma,dogma
@@ -1382,7 +1382,7 @@ dualism,Dualismus,dualismo
 dub,nennen,apodar
 duel,duellieren,batirse en duelo
 dumbfound,verblüffen,dejar estupefacto
-dungeon,einsperren,encarcelar
+dungeon,Verlies,mazmorra
 dupe,täuschen,engañar
 duplicate,verdoppeln,duplicar
 durable,langlebig,duradero
@@ -1394,7 +1394,7 @@ dwelling,Wohnung,vivienda
 dwindle,schwinden,mermar
 dye,färben,teñir
 dynamic,dynamisch,dinámico
-dysfunction,nicht funktionieren,disfuncionar
+dysfunction,Dysfunktion,disfunción
 dystopia,Dystopie,distopía
 earnings,Einkommen,ingresos
 eavesdrop,belauschen,espiar
@@ -1418,7 +1418,7 @@ efficiency,Effizienz,eficiencia
 effuse,ausgießen,difundir
 eject,auswerfen,expulsar
 elapse,verstreichen,transcurrir
-elated,begeistern,regocijar
+elated,begeistert,eufórico
 elation,Hochgefühl,júbilo
 elbow,drängeln,codear
 elect,wählen,elegir
@@ -1435,7 +1435,7 @@ elope,durchbrennen,fugarse
 elucidate,erläutern,elucidar
 elude,entkommen,eludir
 elusive,schwer fassbar,esquivo
-emaciate,abmagern,emancipar
+emaciate,abmagern,demacrar
 emanate,ausgehen,emanar
 emancipate,emanzipieren,emancipar
 emasculate,kastrieren,emascular
@@ -1486,7 +1486,7 @@ enchant,verzaubern,encantar
 encircle,umzingeln,rodear
 enclose,beifügen,adjuntar
 encode,verschlüsseln,codificar
-encomium,loben,elogiar
+encomium,Lobrede,encomio
 encompass,umfassen,abarcar
 encore,Zugabe,bis
 encroach,vordringen,invadir
@@ -1564,7 +1564,7 @@ envisage,vorstellen,prever
 envision,vorstellen,imaginar
 ephemeral,vergänglich,efímero
 epidemic,Epidemie,epidemia
-epigraph,beschriften,epigrafiar
+epigraph,Epigraph,epígrafe
 epistemology,Erkenntnistheorie,epistemología
 epitomize,darstellen,personificar
 equality,Gleichheit,igualdad
@@ -1649,13 +1649,13 @@ exhibit,ausstellen,exhibir
 exhilarate,begeistern,estimular
 exhort,ermahnen,exhortar
 exhume,ausgraben,exhumar
-exigent,fordern,exigir
+exigent,dringend,exigente
 exile,Exil,exilio
 existential,existenziell,existencial
 exonerate,entlasten,exonerar
 exorcise,austreiben,exorcizar
 expansion,Erweiterung,expansión
-expatiate,schwelgen,explayarse
+expatiate,ausschweifen,explayarse
 expatriate,auswandern,expatriar
 expectorate,aushusten,expectorar
 expedite,beschleunigen,expedir
@@ -1693,7 +1693,7 @@ extradite,ausliefern,extraditar
 extradition,Auslieferung,extradición
 extrapolate,extrapolieren,extrapolar
 extraterrestrial,außerirdisch,extraterrestre
-extravagant,verschwenden,extravagar
+extravagant,verschwenderisch,extravagante
 extricate,befreien,desembrollar
 extrude,pressen,extruir
 exude,ausstrahlen,exudar
@@ -1712,7 +1712,7 @@ familiarize,vertraut machen,familiarizar
 famine,Hungersnot,hambruna
 famish,verhungern,hambrear
 fantasize,fantasieren,fantasear
-farce,karikieren,hacer una farsa
+farce,Farce,farsa
 farming,Landwirtschaft,agricultura
 farrow,ferkeln,parir
 fascinate,faszinieren,fascinar
@@ -1753,13 +1753,13 @@ fillet,filetieren,filetear
 filter,filtern,filtrar
 finalize,abschließen,finalizar
 finite,begrenzt,finito
-fissure,spalten,fisurar
+fissure,Spalt,fisura
 fitness,Fitness,fitness
 fizz,zischen,gasear
 fizzle,verpuffen,fracasar
 flabbergast,verblüffen,asombrar
 flail,dreschen,sacudir
-flair,Begabung zeigen,tener estilo
+flair,Gespür,don
 flake,abblättern,descascararse
 flange,flanschen,rebordear
 flank,flankieren,flanquear
@@ -1799,10 +1799,10 @@ flunk,durchfallen,reprobar
 fluster,beunruhigen,poner nervioso
 flutter,flattern,aletear
 flux,fließen,fluir
-foal,Fohlen werfen,parir
+foal,Fohlen,potro
 foam,schäumen,espumar
 fob,andrehen,engañar
-fodder,füttern,dar forraje
+fodder,Futter,forraje
 foil,vereiteln,frustrar
 foist,aufdrängen,imponer
 folder,Ordner,carpeta
@@ -1817,7 +1817,7 @@ forebode,ahnen,presagiar
 forecast,Vorhersage,pronóstico
 foreclose,ausschließen,ejecutar hipoteca
 foredoom,verurteilen,condenar de antemano
-forego,verzichten,preceder
+forego,verzichten,renunciar
 foreground,betonen,destacar
 foreigner,Ausländer,extranjero
 foreknow,vorauswissen,conocer de antemano
@@ -1843,7 +1843,7 @@ fortify,stärken,fortificar
 fossil,fossil,fósil
 fossilize,versteinern,fosilizar
 founder,scheitern,fracasar
-fowl,Vögel fangen,cazar aves
+fowl,Geflügel,ave de corral
 foyer,Foyer,vestíbulo
 fraction,Bruchteil,fracción
 fragment,Fragment,fragmento
@@ -1852,7 +1852,7 @@ framework,Rahmenwerk,marco
 franchise,lizenzieren,conceder franquicia
 frantic,hektisch,frenético
 fraternize,fraternisieren,confraternizar
-fratricide,morden,cometer fratricidio
+fratricide,Brudermord,fratricidio
 fray,ausfransen,deshilacharse
 frazzle,erschöpfen,agotar
 freight,Fracht,carga
@@ -1863,14 +1863,14 @@ freshen,auffrischen,refrescar
 fret,sorgen,inquietarse
 fright,Schrecken,susto
 frigid,eiskalt,frígido
-frill,schmücken,adornar con volantes
+frill,Rüsche,volante
 fringe,Rand,franja
 frisk,durchsuchen,cachear
 fritter,verschwenden,malgastar
 frivol,albern sein,frivolizar
 frivolous,leichtfertig,frivolo
 frizz,kräuseln,rizar
-frock,bekleiden,vestir
+frock,Kittel,hábito
 frolic,herumtollen,retozar
 froth,schäumen,espumar
 frown,Stirn runzeln,fruncir el ceño
@@ -1904,16 +1904,16 @@ galvanize,galvanisieren,galvanizar
 gambol,hüpfen,retozar
 gaol,einsperren,encarcelar
 gape,glotzen,boquiabrirse
-garb,kleiden,ataviar
+garb,Kleidung,atuendo
 garble,verstümmeln,tergiversar
 gargle,gurgeln,gargarizar
 gargoyle,Wasserspeier,gárgola
-garland,schmücken,guirnaldear
-garment,bekleiden,vestir
+garland,Girlande,guirnalda
+garment,Kleidungsstück,prenda
 garner,sammeln,cosechar
 garnish,verzieren,guarnecer
-garrison,stationieren,guarnecer
-gash,schlitzen,hacer un tajo
+garrison,Garnison,guarnición
+gash,Schnittwunde,tajo
 gauge,messen,calibrar
 gaze,Blick,mirada
 gel,gelieren,cuajar
@@ -1962,7 +1962,7 @@ gnaw,nagen,roer
 goad,anstacheln,aguijonear
 gobble,verschlingen,engullir
 goggle,glotzen,mirar con asombro
-gouge,ausstechen,gourear
+gouge,ausstechen,horadar
 gourmet,Gourmet,gourmet
 govern,regieren,gobernar
 governance,Regierungsführung,gobernanza
@@ -1985,7 +1985,7 @@ greenhouse,Treibhaus,invernadero
 gregarious,gesellig,gregario
 grieve,trauern,afligirse
 grim,düster,sombrío
-grimace,Gesicht verziehen,hacer muecas
+grimace,Grimasse,mueca
 grime,beschmutzen,ensuciar
 grin,grinsen,sonreír
 grind,mahlen,moler
@@ -2026,7 +2026,7 @@ haunt,heimsuchen,perseguir
 headline,Schlagzeile,titular
 headstrong,eigensinnig,testarudo
 heap,Haufen,montón
-heartbroken,gebrochenes Herz,corazón roto
+heartbroken,untröstlich,desconsolado
 hearth,Herd,hogar
 heartrending,herzzerreißend,desgarrador
 heating,Heizung,calefacción
@@ -2300,7 +2300,7 @@ liberate,befreien,liberar
 librarian,Bibliothekar,bibliotecario
 likewise,gleichermaßen,asimismo
 limb,Glied,extremidad
-liner,Liner,liner
+liner,Linienschiff,transatlántico
 linger,verweilen,permanecer
 linguistic,sprachlich,lingüístico
 linkage,Verknüpfung,vínculo
@@ -2375,7 +2375,7 @@ membership,Mitgliedschaft,membresía
 memorable,denkwürdig,memorable
 menace,Bedrohung,amenaza
 mendacious,verlogen,mendaz
-mercenary,habgierig,mercenario
+mercenary,Söldner,mercenario
 merchandise,Ware,mercancía
 merchant,Händler,comerciante
 mercurial,sprunghaft,mercurial
@@ -2406,9 +2406,9 @@ minuscule,winzig,minúsculo
 miraculous,wunderbar,milagroso
 mirthful,fröhlich,alegre
 misanthrope,Misanthrop,misántropo
-misanthropic,menschenfeindlich,misántropo
+misanthropic,menschenfeindlich,misantrópico
 mischief,Unfug,travesura
-miserly,geizig,miserable
+miserly,geizig,tacaño
 misfortune,Unglück,desgracia
 misjudge,falsch einschätzen,juzgar mal
 mislead,irreführen,engañar
@@ -2427,7 +2427,7 @@ module,Modul,módulo
 molecule,Molekül,molécula
 mollify,besänftigen,calmar
 mollifying,besänftigend,calmante
-momentous,bedeutend,momentáneo
+momentous,bedeutend,trascendental
 monarchy,Monarchie,monarquía
 monetization,Monetarisierung,monetización
 monolithic,monolithisch,monolítico
@@ -2439,7 +2439,7 @@ monumental,monumental,monumental
 moor,Moor,páramo
 morality,Moral,moralidad
 moreover,zudem,por otra parte
-morose,mürrisch,moroso
+morose,mürrisch,huraño
 mortality,Sterblichkeit,mortalidad
 moss,Moos,musgo
 motif,Motiv,motivo
@@ -2470,7 +2470,7 @@ navigate,navigieren,navegar
 navigation,Navigation,navegación
 nebulous,vage,nebuloso
 necessity,Notwendigkeit,necesidad
-nefarious,schändlich,nefario
+nefarious,schändlich,nefasto
 neglect,vernachlässigen,descuidar
 negligence,Nachlässigkeit,negligencia
 negligent,nachlässig,negligente
@@ -2516,7 +2516,7 @@ oblige,verpflichten,obligar
 oblique,indirekt,oblicuo
 obliterate,auslöschen,obliterar
 oblivion,Vergessenheit,olvido
-oblivious,vergesslich,ajeno
+oblivious,ahnungslos,inconsciente
 obscene,obszön,obsceno
 obscure,unklar,oscuro
 obsequious,unterwürfig,obsequioso
@@ -2536,7 +2536,7 @@ occupy,besetzen,ocupar
 occurrence,Vorkommen,ocurrencia
 odious,abscheulich,odioso
 odor,Geruch,olor
-officious,aufdringlich,oficioso
+officious,aufdringlich,entrometido
 oilfield,Ölfeld,yacimiento petrolífero
 ointment,Salbe,ungüento
 olfactory,geruchlich,olfativo
@@ -2544,7 +2544,7 @@ omen,Vorzeichen,presagio
 omit,auslassen,omitir
 omnipotent,allmächtig,omnipotente
 omnipresent,allgegenwärtig,omnipresente
-omniscient,allwissend,omniscente
+omniscient,allwissend,omnisciente
 oncology,Onkologie,oncología
 onerous,mühsam,oneroso
 ongoing,laufend,en curso
@@ -2632,7 +2632,7 @@ paramount,oberste,primordial
 parapet,Brüstung,parapeto
 parched,ausgetrocknet,reseco
 pariah,Außenseiter,paria
-parley,Verhandlung,parlamentar
+parley,Verhandlung,parlamento
 parliament,Parlament,parlamento
 parlor,Salon,salón
 parsimonious,geizig,parsimonioso
@@ -2671,7 +2671,7 @@ peremptory,gebietend,perentorio
 perennial,mehrjährig,perenne
 perfidious,treulos,pérfido
 performer,Darsteller,intérprete
-perfunctory,oberflächlich,perentorio
+perfunctory,oberflächlich,superficial
 peril,Gefahr,peligro
 perilous,gefährlich,peligroso
 peripheral,peripher,periférico
@@ -2683,10 +2683,10 @@ permeable,durchlässig,permeable
 pernicious,schädlich,pernicioso
 perpetual,ewig,perpetuo
 perpetuate,aufrechterhalten,perpetuar
-perplex,verwirren,perplejar
+perplex,verwirren,desconcertar
 persecute,verfolgen,perseguir
 persecution,Verfolgung,persecución
-persist,beharrlich,persistir
+persist,beharren,persistir
 persistence,Beharrlichkeit,persistencia
 persistent,anhaltend,persistente
 personable,sympathisch,atractivo
@@ -2727,13 +2727,13 @@ plaster,Putz,yeso
 platitude,Floskel,cliché
 plausible,plausibel,plausible
 playwright,Dramatiker,dramaturgo
-plebeian,gemein,plebeyo
+plebeian,plebejisch,plebeyo
 plenary,vollständig,plenario
 plenitude,Fülle,plenitud
 pliable,biegsam,flexible
 pliant,biegsam,flexible
 plucky,mutig,valiente
-plumb,lotrecht,plomada
+plumb,Senkblei,plomada
 plumber,Klempner,fontanero
 plump,mollig,regordete
 plunge,stürzen,sumergir
@@ -2745,7 +2745,7 @@ polarized,polarisiert,polarizado
 polemical,polemisch,polémico
 polished,poliert,pulido
 politely,höflich,cortésmente
-politic,klug,político
+politic,klug,prudente
 poll,Umfrage,encuesta
 pollution,Verschmutzung,contaminación
 ponder,nachdenken,reflexionar
@@ -2771,12 +2771,12 @@ precede,vorangehen,preceder
 precedent,Präzedenzfall,precedente
 precipitate,überstürzt,precipitado
 precipitation,Niederschlag,precipitación
-precipitous,steil,precipitoso
+precipitous,steil,escarpado
 precluded,ausgeschlossen,excluido
 precocious,frühreif,precoz
 precursor,Vorläufer,precursor
 predator,Raubtier,depredador
-predatory,räuberisch,predador
+predatory,räuberisch,depredador
 predecessor,Vorgänger,predecesor
 predictable,vorhersehbar,predecible
 prediction,Vorhersage,predicción
@@ -2823,7 +2823,7 @@ prodigy,Wunderkind,prodigio
 profane,profan,profano
 proffered,angeboten,ofrecido
 proficiency,Kenntnis,competencia
-proficient,kompetent,proficiente
+proficient,kompetent,competente
 profligate,verschwenderisch,disoluto
 profound,tiefgründig,profundo
 profuse,reichlich,profuso
@@ -2873,7 +2873,7 @@ pummel,einschlagen,aporrear
 punctilious,pingelig,puntilloso
 punctual,pünktlich,puntual
 pundit,Experte,erudito
-pungent,beißend,pungente
+pungent,beißend,acre
 punitive,bestrafend,punitivo
 purify,reinigen,purificar
 puritanical,puritanisch,puritano
@@ -2887,7 +2887,7 @@ qualitative,qualitativ,cualitativo
 quantitative,quantitativ,cuantitativo
 quantity,Menge,cantidad
 quarrel,Streit,disputa
-quarrelsome,streitsüchtig,querellante
+quarrelsome,streitsüchtig,pendenciero
 quartz,Quarz,cuarzo
 quay,Kai,muelle
 queer,seltsam,raro
@@ -2895,7 +2895,7 @@ quench,löschen,saciar
 querulous,nörglerisch,quejumbroso
 queue,Schlange,cola
 quibble,Wortklauberei,sutileza
-quiescent,ruhend,quiescente
+quiescent,ruhend,inactivo
 quill,Feder,pluma
 quilt,Steppdecke,edredón
 quint,Quint,quinta
@@ -2918,7 +2918,7 @@ rambunctious,wild,revoltoso
 ramshackle,wackelig,destartalado
 rancher,Rancher,ranchero
 rancor,Groll,rencor
-rancorous,erbittert,rancoroso
+rancorous,erbittert,rencoroso
 rant,schimpfen,despotricar
 rapacious,raubgierig,rapaz
 rapprochement,Annäherung,acercamiento
@@ -2929,7 +2929,7 @@ ratify,ratifizieren,ratificar
 ratio,Verhältnis,ratio
 ration,Ration,ración
 rationalism,Rationalismus,racionalismo
-raucous,heiser,rauco
+raucous,lärmend,estridente
 ravage,verwüsten,asolar
 ravenous,heißhungrig,voraz
 raze,niederreißen,arrasar
@@ -2951,7 +2951,7 @@ reciprocal,gegenseitig,recíproco
 reciprocate,erwidern,reciprocar
 reclaim,zurückgewinnen,reclamar
 recline,zurücklehnen,reclinar
-reclusive,zurückgezogen,recluso
+reclusive,zurückgezogen,solitario
 recompense,Entschädigung,recompensa
 reconcile,versöhnen,reconciliar
 recondite,schwer verständlich,recóndito
@@ -2964,7 +2964,7 @@ recycle,recyceln,reciclar
 redact,redigieren,redactar
 redeem,einlösen,redimir
 redolent,duftend,fragante
-redoubtable,furchteinflößend,redutable
+redoubtable,furchteinflößend,temible
 redress,Wiedergutmachung,reparación
 redundancy,Redundanz,redundancia
 redundant,überflüssig,redundante
@@ -3007,7 +3007,7 @@ remiss,nachlässig,negligente
 remit,überweisen,remitir
 remnant,Überrest,remanente
 remorse,Reue,remordimiento
-remorseful,reuevoll,remordido
+remorseful,reuevoll,arrepentido
 removal,Entfernung,eliminación
 renaissance,Renaissance,renacimiento
 renascent,wiedergeboren,renaciente
@@ -3091,7 +3091,7 @@ revere,verehren,reverenciar
 revered,verehrt,reverenciado
 reverent,ehrfürchtig,reverente
 reverie,Tagtraum,ensueño
-reviled,geschmäht,odiado
+reviled,geschmäht,vilipendiado
 revise,überarbeiten,revisar
 revival,Wiederbelebung,renacimiento
 revoke,widerrufen,revocar
@@ -3119,7 +3119,7 @@ robust,robust,robusto
 rococo,pompös,rococó
 rooster,Hahn,gallo
 roster,Liste,lista
-rotund,rundlich,rotundo
+rotund,rundlich,rechoncho
 rotunda,Rotunde,rotonda
 roughly,grob,aproximadamente
 rouse,wecken,despertar
@@ -3130,7 +3130,7 @@ rubicund,rötlich,rubicundo
 rudimentary,elementar,rudimentario
 rueful,reuevoll,pesaroso
 ruminate,grübeln,rumiar
-ruminative,grübelnd,ruminativo
+ruminative,grübelnd,reflexivo
 rupture,Bruch,ruptura
 rural,ländlich,rural
 ruse,List,ardid
@@ -3154,7 +3154,7 @@ sanctity,Heiligkeit,santidad
 sanctuary,Heiligtum,santuario
 sane,gesund,cuerdo
 sanguinary,blutrünstig,sanguinario
-sanguine,zuversichtlich,sanguíneo
+sanguine,zuversichtlich,optimista
 sardonic,sardonisch,sardónico
 satiate,sättigen,saciar
 satiety,Sättigung,saciedad
@@ -3830,7 +3830,7 @@ veracity,Wahrhaftigkeit,veracidad
 verbatim,wörtlich,literalmente
 verbose,wortreich,verboso
 verbosity,Weitschweifigkeit,verbosidad
-verdant,grün,verdeante
+verdant,grün,frondoso
 verge,Rand,borde
 veritable,wahrhaft,verdadero
 verity,Wahrheit,verdad
@@ -3892,7 +3892,7 @@ vogue,Mode,moda
 voiceover,Voiceover,voz en off
 volatile,flüchtig,volátil
 volition,Wille,voluntad
-voluble,redegewandt,voluble
+voluble,redegewandt,locuaz
 voluminous,umfangreich,voluminoso
 voluntary,freiwillig,voluntario
 voluptuous,üppig,voluptuoso
