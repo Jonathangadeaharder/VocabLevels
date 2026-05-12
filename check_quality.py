@@ -1,117 +1,122 @@
-import pandas as pd
+"""Quality checker for trilingual CEFR vocab CSVs.
+
+Each language directory holds A1-C1 CSVs. The lemma column is named after the
+language; the two translation columns cover the other two languages.
+
+Run from repo root:
+    python check_quality.py
+    python check_quality.py english   # single language
+"""
+from __future__ import annotations
+
+import csv
 import re
-import os
+import sys
+from pathlib import Path
 
-LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1']
-FILES = {level: f"{level}.csv" for level in LEVELS}
+ROOT = Path(__file__).parent
+LEVELS = ["A1", "A2", "B1", "B2", "C1"]
+TARGETS = {"A1": 600, "A2": 600, "B1": 1000, "B2": 2000, "C1": 4000}
 
-# Common English words that often leak into subtitle scrapes
-ENGLISH_STOPWORDS = {
-    'the', 'and', 'of', 'to', 'in', 'is', 'you', 'that', 'it', 'he', 'was', 'for', 'on', 
-    'are', 'as', 'with', 'his', 'they', 'i', 'at', 'be', 'this', 'have', 'from', 'or', 
-    'one', 'had', 'by', 'word', 'but', 'not', 'what', 'all', 'were', 'we', 'when', 
-    'your', 'can', 'said', 'there', 'use', 'an', 'each', 'which', 'she', 'do', 'how', 
-    'their', 'if', 'will', 'up', 'other', 'about', 'out', 'many', 'then', 'them', 
-    'these', 'so', 'some', 'her', 'would', 'make', 'like', 'him', 'into', 'time', 
-    'has', 'look', 'two', 'more', 'write', 'go', 'see', 'number', 'no', 'way', 
-    'could', 'people', 'my', 'than', 'first', 'water', 'been', 'call', 'who', 'oil', 
-    'its', 'now', 'find'
+LANGS = {
+    "english": {
+        "lemma_col": "English_Lemma",
+        "trans_cols": ("German_Translation", "Spanish_Translation"),
+    },
+    "german": {
+        "lemma_col": "German_Lemma",
+        "trans_cols": ("English_Translation", "Spanish_Translation"),
+    },
+    "spanish": {
+        "lemma_col": "Spanish_Lemma",
+        "trans_cols": ("English_Translation", "German_Translation"),
+    },
 }
 
-# Valid single letter or very short German words
-VALID_SHORT = {'da', 'du', 'er', 'es', 'ja', 'ne', 'so', 'wo', 'zu', 'ab', 'an', 'im', 'in', 'ob', 'um', 'ei', 'po'}
+SPECIAL_CHARS = re.compile(r"[?!@#$%^&*()_=+\[\]{};:\"\\|<>~`]")
 
-def check_quality():
-    print("=== MANUAL QUALITY CHECK REPORT ===")
-    
-    total_issues = 0
-    
+
+def check_language(lang: str) -> int:
+    cfg = LANGS[lang]
+    lang_dir = ROOT / lang
+    print(f"\n=== {lang.upper()} ===")
+
+    seen_lemmas: dict[str, str] = {}  # lemma -> first level it appeared in
+    issues = 0
+
     for level in LEVELS:
-        filename = FILES[level]
-        if not os.path.exists(filename):
+        path = lang_dir / f"{level}.csv"
+        if not path.exists():
+            print(f"  [WARN] {path} missing")
             continue
-            
-        print(f"\nChecking {filename}...")
-        try:
-            df = pd.read_csv(filename, encoding='utf-8')
-            issues = []
-            
-            for idx, row in df.iterrows():
-                lemma = str(row['German_Lemma']).strip()
-                trans = str(row['Spanish_Translation']).strip()
-                
-                # 1. Check Empty
-                if not lemma or lemma == 'nan':
-                    issues.append((idx, lemma, "Empty Lemma"))
-                    continue
-                    
-                # 2. Check Length & Garbage
-                if len(lemma) < 2 and lemma.lower() not in VALID_SHORT:
-                    issues.append((idx, lemma, "Too short (Garbage?)"))
-                
-                # 3. Check Characters (Numbers, Special)
-                if re.search(r'[0-9]', lemma):
-                    issues.append((idx, lemma, "Contains Numbers"))
-                if re.search(r'[?!@#$%^&*()_=+[\]{};:\'"\\|<>~`]', lemma):
-                    # Allow dot . for abbreviations maybe? But B2/C1 lists usually pure words.
-                    # Allow hyphen - for nouns.
-                    issues.append((idx, lemma, "Contains Special Chars"))
-                    
-                # 4. English Leakage
-                if lemma.lower() in ENGLISH_STOPWORDS:
-                    # Double check legitimate German homographs
-                    # 'in', 'an', 'so', 'im' are valid German. 
-                    # 'die' is valid (article). 'das', 'der', 'den', 'dem', 'des' are valid.
-                    # 'art' (kind), 'bad' (bath), 'bar' (cash), 'boot' (boat), 'elf' (eleven), 
-                    # 'hut' (hat), 'kind' (child), 'rat' (council), 'rot' (red), 'tag' (day), 'war' (was), 'wer' (who), 'wo' (where).
-                    
-                    valid_homographs = {
-                        'in', 'an', 'so', 'im', 'die', 'das', 'der', 'den', 'dem', 'des',
-                        'art', 'bad', 'bar', 'boot', 'elf', 'hut', 'kind', 'rat', 'rot', 
-                        'tag', 'war', 'wer', 'wo', 'nun', 'man', 'fast', 'rot', 'fest', 'rock',
-                        'mist', 'gift', 'hand', 'wand', 'wind', 'arm', 'bank', 'bitten', 'bring',
-                        'brutal', 'bunker', 'bus', 'butter', 'chef', 'chin', 'club', 'cool', 'deck',
-                        'finger', 'fucking', 'gang', 'gas', 'general', 'gold', 'grab', 'grass', 'gut',
-                        'halt', 'hammer', 'hier', 'hose', 'hund', 'hut', 'ideal', 'kinn', 'land',
-                        'last', 'lied', 'links', 'list', 'machen', 'macht', 'mail', 'mama', 'mann',
-                        'mark', 'mast', 'matt', 'me', 'meer', 'mehl', 'mein', 'mich', 'mild', 'moment',
-                        'mond', 'mond', 'moor', 'mord', 'most', 'musk', 'muss', 'mutter', 'nach',
-                        'name', 'nape', 'nein', 'nest', 'nett', 'neun', 'news', 'nie', 'not', 'nun',
-                        'nur', 'nuss', 'nut', 'paar', 'pack', 'pan', 'park', 'part', 'pass', 'pause',
-                        'plan', 'plus', 'po', 'post', 'pro', 'punk', 'pure', 'qualm', 'quiz', 'radio',
-                        'rang', 'rank', 'rate', 'ratte', 'raum', 'raw', 'rede', 'rein', 'reis', 'reise',
-                        'reit', 'rest', 'ring', 'rock', 'roh', 'roll', 'rom', 'rost', 'ruf', 'rund',
-                        'sage', 'sake', 'salz', 'sand', 'sang', 'sank', 'satin', 'satt', 'satz', 'sau',
-                        'schmal', 'schur', 'see', 'sehr', 'sein', 'send', 'set', 'shame', 'sink', 'sofa',
-                        'sohn', 'sold', 'solo', 'span', 'spar', 'spat', 'speck', 'spin', 'spit', 'sport',
-                        'spot', 'spur', 'sputter', 'stab', 'sack', 'sage', 'sake', 'sale', 'salt', 'same',
-                        'sand', 'sane', 'sang', 'sank', 'sate', 'save', 'saw', 'scam', 'scan', 'scar',
-                        'scat', 'school', 'scum', 'sea', 'seal', 'seam', 'seat', 'sect', 'see', 'seed',
-                        'seek', 'seem', 'seen', 'seep', 'self', 'sell', 'send', 'sent', 'set', 'sew',
-                        'shack', 'shad', 'ag', 'akt', 'angel', 'bald', 'ball', 'band', 'bang'
-                    }
-                    
-                    if lemma.lower() not in valid_homographs:
-                         issues.append((idx, lemma, "Possible English Word"))
 
-                # 5. Empty Translation (Critical)
-                if not trans or trans == 'nan':
-                    issues.append((idx, lemma, "MISSING TRANSLATION"))
+        with path.open(encoding="utf-8", newline="") as f:
+            reader = csv.DictReader(f)
+            if reader.fieldnames != [cfg["lemma_col"], *cfg["trans_cols"]]:
+                print(f"  [ERROR] {level}: bad header {reader.fieldnames}")
+                issues += 1
+                continue
 
-            # Print top issues for this file
-            if issues:
-                total_issues += len(issues)
-                # Print first 20 issues
-                for idx, lemma, reason in issues[:20]:
-                    print(f"  Row {idx+2}: [{lemma}] -> {reason}")
-                if len(issues) > 20:
-                    print(f"  ... and {len(issues)-20} more.")
+            rows = list(reader)
+
+        count = len(rows)
+        target = TARGETS[level]
+        delta = count - target
+        status = "OK" if abs(delta) <= target * 0.05 else f"OFF ({delta:+d})"
+        print(f"  {level}: {count} rows (target {target}) — {status}")
+
+        intra_lemmas: set[str] = set()
+        for idx, row in enumerate(rows, start=2):
+            lemma = (row.get(cfg["lemma_col"]) or "").strip()
+            t1 = (row.get(cfg["trans_cols"][0]) or "").strip()
+            t2 = (row.get(cfg["trans_cols"][1]) or "").strip()
+
+            if not lemma:
+                print(f"    L{idx}: empty lemma")
+                issues += 1
+                continue
+            if " " in lemma:
+                print(f"    L{idx}: multi-word lemma '{lemma}'")
+                issues += 1
+            if re.search(r"[0-9]", lemma):
+                print(f"    L{idx}: digits in lemma '{lemma}'")
+                issues += 1
+            if SPECIAL_CHARS.search(lemma):
+                print(f"    L{idx}: special chars in lemma '{lemma}'")
+                issues += 1
+            if not t1:
+                print(f"    L{idx}: '{lemma}' missing {cfg['trans_cols'][0]}")
+                issues += 1
+            if not t2:
+                print(f"    L{idx}: '{lemma}' missing {cfg['trans_cols'][1]}")
+                issues += 1
+
+            key = lemma.lower()
+            if key in intra_lemmas:
+                print(f"    L{idx}: intra-level duplicate '{lemma}'")
+                issues += 1
+            intra_lemmas.add(key)
+
+            if key in seen_lemmas and seen_lemmas[key] != level:
+                print(f"    L{idx}: '{lemma}' already in {seen_lemmas[key]}")
+                issues += 1
             else:
-                print("  Clean.")
-        except Exception as e:
-            print(f"  Error reading {filename}: {e}")
-                
-    print(f"\nTotal Suspicious Entries Found: {total_issues}")
+                seen_lemmas.setdefault(key, level)
+
+    return issues
+
+
+def main(argv: list[str]) -> int:
+    langs = argv[1:] if len(argv) > 1 else list(LANGS)
+    total = 0
+    for lang in langs:
+        if lang not in LANGS:
+            print(f"Unknown language: {lang}")
+            return 2
+        total += check_language(lang)
+    print(f"\nTotal issues: {total}")
+    return 0 if total == 0 else 1
+
 
 if __name__ == "__main__":
-    check_quality()
+    sys.exit(main(sys.argv))

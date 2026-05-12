@@ -1,228 +1,240 @@
-import pandas as pd
-import os
-import sys
+"""CLI manager for trilingual CEFR vocab CSVs.
+
+Run from repo root. Operates on english/, german/, spanish/ directories.
+
+Examples:
+    python vocab_manager.py lint
+    python vocab_manager.py find german Haus
+    python vocab_manager.py add german A1 Haus house casa
+    python vocab_manager.py move german A2 Haus  # move 'Haus' to level A2
+    python vocab_manager.py remove german Haus
+    python vocab_manager.py update german Haus --t1 house --t2 casa
+    python vocab_manager.py lookup english cat   # search across all langs
+"""
+from __future__ import annotations
+
 import argparse
+import csv
+import sys
+from pathlib import Path
 
-# Configuration
-LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1']
-FILES = {level: f"{level}.csv" for level in LEVELS}
-MASTER_LIST_PATH = "master_lemmas.txt"
+ROOT = Path(__file__).parent
+LEVELS = ["A1", "A2", "B1", "B2", "C1"]
 
-class VocabManager:
-    def __init__(self):
-        self.dfs = {}
-        self.load_data()
-        self.master_lemmas = self.load_master_list()
+LANGS = {
+    "english": {
+        "lemma_col": "English_Lemma",
+        "trans_cols": ("German_Translation", "Spanish_Translation"),
+    },
+    "german": {
+        "lemma_col": "German_Lemma",
+        "trans_cols": ("English_Translation", "Spanish_Translation"),
+    },
+    "spanish": {
+        "lemma_col": "Spanish_Lemma",
+        "trans_cols": ("English_Translation", "German_Translation"),
+    },
+}
 
-    def load_data(self):
-        """Loads all CSV levels into pandas DataFrames."""
-        for level, filename in FILES.items():
-            if os.path.exists(filename):
-                try:
-                    # Expecting header: German_Lemma,Spanish_Translation
-                    df = pd.read_csv(filename, encoding='utf-8')
-                    # Ensure columns exist and are strings
-                    df['German_Lemma'] = df['German_Lemma'].astype(str)
-                    df['Spanish_Translation'] = df['Spanish_Translation'].astype(str)
-                    self.dfs[level] = df
-                except Exception as e:
-                    print(f"Error loading {filename}: {e}")
-                    self.dfs[level] = pd.DataFrame(columns=['German_Lemma', 'Spanish_Translation'])
-            else:
-                print(f"Warning: {filename} not found. Creating empty dataframe.")
-                self.dfs[level] = pd.DataFrame(columns=['German_Lemma', 'Spanish_Translation'])
 
-    def load_master_list(self):
-        """Loads the master lemma list for validation."""
-        if os.path.exists(MASTER_LIST_PATH):
-            with open(MASTER_LIST_PATH, 'r', encoding='utf-8') as f:
-                # Set for O(1) lookup
-                return set(line.strip() for line in f if line.strip())
-        return set()
+def file_path(lang: str, level: str) -> Path:
+    return ROOT / lang / f"{level}.csv"
 
-    def save_level(self, level):
-        """Saves a specific level back to CSV."""
-        if level in self.dfs:
-            self.dfs[level].to_csv(FILES[level], index=False)
-            print(f"Saved {FILES[level]}")
 
-    # ================= LINTER FUNCTIONS =================
+def read_level(lang: str, level: str) -> list[dict[str, str]]:
+    path = file_path(lang, level)
+    if not path.exists():
+        return []
+    with path.open(encoding="utf-8", newline="") as f:
+        return list(csv.DictReader(f))
 
-    def lint(self):
-        print("--- STARTING LINT CHECK ---")
-        word_to_level_map = {}  # tracks which level each word belongs to
-        has_errors = False
 
+def write_level(lang: str, level: str, rows: list[dict[str, str]]) -> None:
+    cfg = LANGS[lang]
+    fields = [cfg["lemma_col"], *cfg["trans_cols"]]
+    rows_sorted = sorted(rows, key=lambda r: r[cfg["lemma_col"]].lower())
+    with file_path(lang, level).open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(rows_sorted)
+
+
+def find(lang: str, lemma: str) -> list[str]:
+    cfg = LANGS[lang]
+    needle = lemma.lower()
+    return [
+        level for level in LEVELS
+        if any(r[cfg["lemma_col"]].lower() == needle for r in read_level(lang, level))
+    ]
+
+
+def cmd_lint(_: argparse.Namespace) -> int:
+    import check_quality  # reuse logic
+    return check_quality.main(["check_quality.py", *LANGS])
+
+
+def cmd_find(args: argparse.Namespace) -> int:
+    levels = find(args.lang, args.lemma)
+    if not levels:
+        print(f"'{args.lemma}' not found in {args.lang}")
+        return 1
+    print(f"'{args.lemma}' found in {args.lang}: {', '.join(levels)}")
+    return 0
+
+
+def cmd_add(args: argparse.Namespace) -> int:
+    cfg = LANGS[args.lang]
+    if " " in args.lemma:
+        print("Lemma must be single-word")
+        return 1
+    existing = find(args.lang, args.lemma)
+    if existing:
+        print(f"'{args.lemma}' already in {args.lang}: {existing}")
+        return 1
+    rows = read_level(args.lang, args.level)
+    rows.append({
+        cfg["lemma_col"]: args.lemma,
+        cfg["trans_cols"][0]: args.t1,
+        cfg["trans_cols"][1]: args.t2,
+    })
+    write_level(args.lang, args.level, rows)
+    print(f"Added '{args.lemma}' to {args.lang}/{args.level}")
+    return 0
+
+
+def cmd_remove(args: argparse.Namespace) -> int:
+    cfg = LANGS[args.lang]
+    needle = args.lemma.lower()
+    found = False
+    for level in LEVELS:
+        rows = read_level(args.lang, level)
+        kept = [r for r in rows if r[cfg["lemma_col"]].lower() != needle]
+        if len(kept) != len(rows):
+            write_level(args.lang, level, kept)
+            print(f"Removed '{args.lemma}' from {args.lang}/{level}")
+            found = True
+    if not found:
+        print(f"'{args.lemma}' not found in {args.lang}")
+        return 1
+    return 0
+
+
+def cmd_move(args: argparse.Namespace) -> int:
+    cfg = LANGS[args.lang]
+    needle = args.lemma.lower()
+    src_row = None
+    src_level = None
+    for level in LEVELS:
+        for row in read_level(args.lang, level):
+            if row[cfg["lemma_col"]].lower() == needle:
+                src_row, src_level = row, level
+                break
+        if src_row:
+            break
+    if not src_row:
+        print(f"'{args.lemma}' not found in {args.lang}")
+        return 1
+    if src_level == args.target_level:
+        print(f"'{args.lemma}' already in {args.target_level}")
+        return 0
+    cmd_remove(argparse.Namespace(lang=args.lang, lemma=args.lemma))
+    target_rows = read_level(args.lang, args.target_level)
+    target_rows.append(src_row)
+    write_level(args.lang, args.target_level, target_rows)
+    print(f"Moved '{args.lemma}': {src_level} → {args.target_level}")
+    return 0
+
+
+def cmd_update(args: argparse.Namespace) -> int:
+    cfg = LANGS[args.lang]
+    needle = args.lemma.lower()
+    for level in LEVELS:
+        rows = read_level(args.lang, level)
+        changed = False
+        for row in rows:
+            if row[cfg["lemma_col"]].lower() == needle:
+                if args.t1 is not None:
+                    row[cfg["trans_cols"][0]] = args.t1
+                if args.t2 is not None:
+                    row[cfg["trans_cols"][1]] = args.t2
+                if args.rename is not None:
+                    row[cfg["lemma_col"]] = args.rename
+                changed = True
+        if changed:
+            write_level(args.lang, level, rows)
+            print(f"Updated '{args.lemma}' in {args.lang}/{level}")
+            return 0
+    print(f"'{args.lemma}' not found in {args.lang}")
+    return 1
+
+
+def cmd_lookup(args: argparse.Namespace) -> int:
+    """Search across all languages by lemma or any translation column."""
+    needle = args.term.lower()
+    hits: list[tuple[str, str, dict[str, str]]] = []
+    for lang, cfg in LANGS.items():
         for level in LEVELS:
-            df = self.dfs[level]
-            print(f"\nChecking Level {level} ({len(df)} entries)...")
-            
-            # 1. Check Single Word Criterion
-            multi_word_mask = df['German_Lemma'].str.contains(' ', na=False)
-            if multi_word_mask.any():
-                print(f"  [ERROR] Multi-word entries found in {level}:")
-                print(df[multi_word_mask]['German_Lemma'].tolist())
-                has_errors = True
+            for row in read_level(lang, level):
+                values = (row[cfg["lemma_col"]], *(row[c] for c in cfg["trans_cols"]))
+                if any(needle == v.lower() or needle in v.lower() for v in values):
+                    hits.append((lang, level, row))
+    if not hits:
+        print(f"'{args.term}' not found")
+        return 1
+    for lang, level, row in hits:
+        cols = LANGS[lang]
+        print(f"  {lang}/{level}: {row[cols['lemma_col']]} | {row[cols['trans_cols'][0]]} | {row[cols['trans_cols'][1]]}")
+    return 0
 
-            # 2. Check Intra-level Duplicates
-            if df['German_Lemma'].duplicated().any():
-                print(f"  [ERROR] Duplicates found INSIDE {level}:")
-                print(df[df['German_Lemma'].duplicated()]['German_Lemma'].tolist())
-                has_errors = True
 
-            # 3. Check Inter-level Uniqueness & Master List
-            for index, row in df.iterrows():
-                word = row['German_Lemma']
-                
-                # Inter-level check
-                if word in word_to_level_map:
-                    prev_level = word_to_level_map[word]
-                    print(f"  [ERROR] '{word}' exists in {level} but was already seen in {prev_level}")
-                    has_errors = True
-                else:
-                    word_to_level_map[word] = level
+def main(argv: list[str]) -> int:
+    p = argparse.ArgumentParser(description="Trilingual CEFR vocab manager")
+    sub = p.add_subparsers(dest="command", required=True)
 
-        if not has_errors:
-            print("\n[SUCCESS] No critical errors found.")
-        else:
-            print("\n[FAIL] Errors found. Please fix them.")
+    sub.add_parser("lint", help="Run check_quality across all languages")
 
-    # ================= UTILITY FUNCTIONS =================
+    fp = sub.add_parser("find", help="Find lemma in a specific language")
+    fp.add_argument("lang", choices=LANGS)
+    fp.add_argument("lemma")
 
-    def find_word(self, word):
-        """Returns the level(s) where a word is found."""
-        found_in = []
-        for level in LEVELS:
-            if word in self.dfs[level]['German_Lemma'].values:
-                found_in.append(level)
-        return found_in
+    ap = sub.add_parser("add", help="Add a lemma to a level")
+    ap.add_argument("lang", choices=LANGS)
+    ap.add_argument("level", choices=LEVELS)
+    ap.add_argument("lemma")
+    ap.add_argument("t1", help="First translation (see schema)")
+    ap.add_argument("t2", help="Second translation")
 
-    def add_word(self, level, word, translation):
-        """Adds a word to a specific level if it doesn't exist anywhere."""
-        existing = self.find_word(word)
-        if existing:
-            print(f"Error: '{word}' already exists in {existing}. Cannot add.")
-            return
+    rp = sub.add_parser("remove", help="Remove a lemma from all levels")
+    rp.add_argument("lang", choices=LANGS)
+    rp.add_argument("lemma")
 
-        if ' ' in word:
-            print(f"Error: '{word}' contains spaces. Single word criterion violated.")
-            return
+    mp = sub.add_parser("move", help="Move a lemma to a different level")
+    mp.add_argument("lang", choices=LANGS)
+    mp.add_argument("target_level", choices=LEVELS)
+    mp.add_argument("lemma")
 
-        new_row = pd.DataFrame([{'German_Lemma': word, 'Spanish_Translation': translation}])
-        # Sort alphabetically by 'German_Lemma' after addition
-        self.dfs[level] = self.dfs[level].sort_values(by='German_Lemma').reset_index(drop=True)
-        # Consider sorting before saving or in batch, not after every addition, for efficiency.
-        self.save_level(level)
-        print(f"Added '{word}' to {level}.")
+    up = sub.add_parser("update", help="Update translations or rename a lemma")
+    up.add_argument("lang", choices=LANGS)
+    up.add_argument("lemma")
+    up.add_argument("--t1")
+    up.add_argument("--t2")
+    up.add_argument("--rename")
 
-    def remove_word(self, word):
-        """Removes a word from ALL levels."""
-        found = False
-        for level in LEVELS:
-            df = self.dfs[level]
-            if word in df['German_Lemma'].values:
-                self.dfs[level] = df[df['German_Lemma'] != word]
-                self.save_level(level)
-                print(f"Removed '{word}' from {level}.")
-                found = True
-        if not found:
-            print(f"Word '{word}' not found in any level.")
+    lp = sub.add_parser("lookup", help="Search a term across all languages")
+    lp.add_argument("term")
 
-    def update_word(self, word, new_translation=None, new_word=None):
-        """Updates translation or corrects a typo in the lemma."""
-        found_levels = self.find_word(word)
-        if not found_levels:
-            print(f"Word '{word}' not found.")
-            return
+    args = p.parse_args(argv[1:])
+    dispatch = {
+        "lint": cmd_lint,
+        "find": cmd_find,
+        "add": cmd_add,
+        "remove": cmd_remove,
+        "move": cmd_move,
+        "update": cmd_update,
+        "lookup": cmd_lookup,
+    }
+    return dispatch[args.command](args)
 
-        for level in found_levels:
-            df = self.dfs[level]
-            idx = df.index[df['German_Lemma'] == word].tolist()
-            
-            if new_translation:
-                df.at[idx[0], 'Spanish_Translation'] = new_translation
-                print(f"Updated translation for '{word}' in {level}.")
-            
-            if new_word:
-                # Check if new_word conflicts
-                if self.find_word(new_word):
-                    print(f"Cannot rename '{word}' to '{new_word}': Target already exists.")
-                    return
-                df.at[idx[0], 'German_Lemma'] = new_word
-                print(f"Renamed '{word}' to '{new_word}' in {level}.")
-            
-            self.save_level(level)
-
-    def move_word(self, word, target_level):
-        """Moves a word from its current level to a target level."""
-        found_levels = self.find_word(word)
-        if not found_levels:
-            print(f"Word '{word}' not found.")
-            return
-        
-        # Warn if word exists in multiple levels (data inconsistency)
-        if len(found_levels) > 1:
-            print(f"Warning: '{word}' exists in multiple levels: {found_levels}. Will remove from all and add to {target_level}.")
-        
-        # Get translation from the first level found
-        current_level = found_levels[0]
-        df = self.dfs[current_level]
-        translation = df.loc[df['German_Lemma'] == word, 'Spanish_Translation'].values[0]
-        # Pre-validate: check if word already exists in target level
-        if target_level in self.find_word(word):
-            print(f"Word '{word}' already exists in {target_level}. Move aborted.")
-            return
-        # Optionally, add further validation here if add_word does more checks
-        # For now, we assume add_word will print its own error and not add duplicates
-
-        # Remove and Add (atomic: only after validation)
-        # Remove and Add
-        self.remove_word(word)
-        self.add_word(target_level, word, translation)
-        print(f"Moved '{word}' from {current_level} to {target_level}.")
-
-# ================= CLI HANDLER =================
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="German Vocab Manager & Linter")
-    subparsers = parser.add_subparsers(dest='command', help='Commands')
-
-    # Lint Command
-    subparsers.add_parser('lint', help='Check for duplicates, spaces, and validity')
-
-    # Add Command
-    add_parser = subparsers.add_parser('add', help='Add a new word')
-    add_parser.add_argument('level', choices=LEVELS, help='Target Level')
-    add_parser.add_argument('word', help='German Lemma')
-    add_parser.add_argument('translation', help='Spanish Translation')
-
-    # Remove Command
-    rm_parser = subparsers.add_parser('remove', help='Remove a word from all levels')
-    rm_parser.add_argument('word', help='German Lemma to remove')
-
-    # Move Command
-    mv_parser = subparsers.add_parser('move', help='Move a word to a different level')
-    mv_parser.add_argument('word', help='German Lemma')
-    mv_parser.add_argument('target_level', choices=LEVELS, help='New Level')
-
-    # Update Command
-    up_parser = subparsers.add_parser('update', help='Update translation or fix typo')
-    up_parser.add_argument('word', help='Original German Lemma')
-    up_parser.add_argument('--trans', help='New Spanish Translation')
-    up_parser.add_argument('--lemma', help='Corrected German Lemma')
-
-    args = parser.parse_args()
-    manager = VocabManager()
-
-    if args.command == 'lint':
-        manager.lint()
-    elif args.command == 'add':
-        manager.add_word(args.level, args.word, args.translation)
-    elif args.command == 'remove':
-        manager.remove_word(args.word)
-    elif args.command == 'move':
-        manager.move_word(args.word, args.target_level)
-    elif args.command == 'update':
-        manager.update_word(args.word, new_translation=args.trans, new_word=args.lemma)
-    else:
-        parser.print_help()
+    sys.exit(main(sys.argv))
