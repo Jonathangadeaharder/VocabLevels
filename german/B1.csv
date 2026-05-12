@@ -7,6 +7,7 @@ abhauen,to run away,largarse
 abholen,to pick up,recoger
 Absicht,intention,intención
 Abteilung,department,departamento
+Adliger,nobleman,noble
 Affäre,affair,aventura
 Akte,file,expediente
 Akten,files,expedientes
@@ -51,8 +52,8 @@ aufpassen,to pay attention,prestar atención
 aufstehen,to get up,levantarse
 ausgehen,to go out,salir
 Aussage,statement,declaración
-außerhalb,outside of,fuera de
 Autos,cars,coches
+außerhalb,outside of,fuera de
 Babys,babies,bebés
 Bad,bath,baño
 Bastard,bastard,bastardo
@@ -180,6 +181,7 @@ düstere,gloomy,sombrío
 ebenfalls,likewise,asimismo
 echten,real (acc/dat),real
 Ecke,corner,esquina
+Edelmann,nobleman,noble
 Ehemann,husband,esposo
 Ehren,honor (dat/pl),honores
 Ei,egg,huevo
@@ -404,6 +406,7 @@ Helden,heroes,héroes
 herausfinden,to find out,averiguar
 herauszufinden,to find out,averiguar
 herein,come in,adentro
+Herrschaft,reign/rule,dominio
 heut,today,hoy
 Hexe,witch,bruja
 hieß,was called,se llamaba
@@ -461,7 +464,6 @@ kennenzulernen,to get to know (inf),conocer
 Kerle,guys,tíos
 Killer,killer,asesino
 Kilometer,kilometer,kilómetro
-King,king,rey
 Kino,cinema,cine
 Kiste,box,caja
 klappt,works,funciona
@@ -521,7 +523,6 @@ liebte,loved (past),amaba
 liest,reads,lee
 Loch,hole,agujero
 locker,relaxed,relajado
-Lord,Lord,Señor
 loswerden,to get rid of,deshacerse de
 lösen,to solve,resolver
 Lüge,lie,mentira
@@ -547,7 +548,6 @@ Milch,milk,leche
 Million,million,millón
 mindestens,at least,al menos
 Mission,mission,misión
-Mister,Mister,Señor
 Mistkerl,bastard,cabrón
 mitarbeiter,employee,empleado
 mitgebracht,brought along,traído
@@ -674,8 +674,8 @@ ruiniert,ruined,arruinado
 Runde,round,ronda
 Sack,sack,saco
 sahen,saw (pl),vieron
-saß,sat,estaba sentado
 satt,full / fed up,lleno
+saß,sat,estaba sentado
 Schade,pity,lástima
 Schaden,damage,daño
 schaffe,manage (I),logro
@@ -927,10 +927,10 @@ wechseln,to change,cambiar
 wehtun,to hurt,doler
 weinen,to cry,llorar
 weint,cries,llora
-weiße,white (fem/pl),blanca
-weißen,white (acc/dat),blanco
 weiteren,further (acc/dat),adicional
 weiterhin,furthermore,además
+weiße,white (fem/pl),blanca
+weißen,white (acc/dat),blanco
 welchen,which (acc),cuál
 welcher,which,cuál
 Welches,which (neut),cuál
@@ -956,7 +956,6 @@ Wut,anger,ira
 wählen,to choose / vote,elegir
 wünsche,wish,deseo
 wünschen,to wish,desear
-Yeah,yeah,sí
 zeige,show (I),muestro
 Zeitpunkt,point in time,momento
 Zeitung,newspaper,periódico
@@ -975,6 +974,7 @@ zumindest,at least,al menos
 Zunge,tongue,lengua
 zurecht,alright,bien
 zurückkommen,to come back,volver
+Zusage,commitment/acceptance,confirmación
 Zustand,condition,estado
 zuvor,before,antes
 Zweifel,doubt,duda
