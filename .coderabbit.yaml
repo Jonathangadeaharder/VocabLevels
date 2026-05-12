@@ -1,3 +1,27 @@
 reviews:
   path_filters:
+    - ".coderabbit.yaml"
+    - "english/**/*.csv"
+    - "german/**/*.csv"
+    - "spanish/**/*.csv"
     - "**/*.csv"
+  path_instructions:
+    - path: "english/**/*.csv"
+      instructions: |
+        Review these CSV files as hand-curated CEFR vocabulary data, not generated bulk data.
+        Do not skip them because they are CSVs. Check for duplicate lemmas across A1-C1,
+        malformed lemmas, non-vocabulary artifacts, bad translations, and level placement
+        that is clearly wrong for movie and series comprehension.
+    - path: "german/**/*.csv"
+      instructions: |
+        Review these CSV files as hand-curated CEFR vocabulary data, not generated bulk data.
+        Do not skip them because they are CSVs. Check for duplicate lemmas across A1-C1,
+        old spelling duplicates such as daß/muß variants, English name/subtitle artifacts
+        used as German lemmas, bad translations, and level placement that is clearly wrong
+        for movie and series comprehension.
+    - path: "spanish/**/*.csv"
+      instructions: |
+        Review these CSV files as hand-curated CEFR vocabulary data, not generated bulk data.
+        Do not skip them because they are CSVs. Check for duplicate lemmas across A1-C1,
+        missing accent duplicates that are actually misspellings, malformed lemmas, bad
+        translations, and level placement that is clearly wrong for movie and series comprehension.
