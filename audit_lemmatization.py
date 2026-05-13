@@ -1,14 +1,10 @@
 """Audit lemmatization: find plurals, verb forms, and other inflections."""
 import csv
 from pathlib import Path
-from collections import defaultdict
 
 ROOT = Path(__file__).parent
 LEVELS = ["A1", "A2", "B1", "B2", "C1"]
 
-# Common inflection patterns to detect
-PLURAL_SUFFIXES = {"s", "es", "ies", "n"}  # English, Spanish, German
-VERB_SUFFIXES = {"ing", "ed", "er", "en", "te", "ado", "ido", "anza"}  # Common -ing, -ed, -er, German -en, Spanish -ado/-ido
 
 def find_inflected_forms():
     """Scan for likely inflected forms (plurals, verb forms)."""

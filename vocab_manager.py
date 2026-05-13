@@ -88,6 +88,9 @@ def cmd_add(args: argparse.Namespace) -> int:
     lemma = args.lemma.strip()
     t1 = args.t1.strip()
     t2 = args.t2.strip()
+    if not lemma:
+        print("Lemma cannot be empty")
+        return 1
     if " " in lemma:
         print("Lemma must be single-word")
         return 1
@@ -164,6 +167,9 @@ def cmd_update(args: argparse.Namespace) -> int:
     t1 = args.t1.strip() if args.t1 else None
     t2 = args.t2.strip() if args.t2 else None
 
+    if rename == "":
+        print("New lemma cannot be empty")
+        return 1
     if rename and " " in rename:
         print("New lemma must be single-word")
         return 1

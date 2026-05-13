@@ -42,7 +42,6 @@ def check_language(lang: str) -> int:
     print(f"\n=== {lang.upper()} ===")
 
     seen_lemmas: dict[str, str] = {}  # lemma -> first level it appeared in
-    seen_translations: dict[str, list[str]] = {}  # translation -> [lemmas] (for duplication check)
     issues = 0
 
     for level in LEVELS:
@@ -67,7 +66,7 @@ def check_language(lang: str) -> int:
         print(f"  {level}: {count} rows (target {target}) — {status}")
 
         intra_lemmas: set[str] = set()
-        intra_trans: dict[str, list[str]] = {}  # translation -> lemmas in this level
+        intra_trans: dict[str, set[str]] = {}  # translation -> lemmas in this level
         for idx, row in enumerate(rows, start=2):
             lemma_raw = row.get(cfg["lemma_col"]) or ""
             t1_raw = row.get(cfg["trans_cols"][0]) or ""
@@ -120,14 +119,13 @@ def check_language(lang: str) -> int:
             else:
                 seen_lemmas.setdefault(key, level)
 
-            if t1:
-                intra_trans.setdefault(t1.lower(), []).append(lemma)
-            if t2:
-                intra_trans.setdefault(t2.lower(), []).append(lemma)
+            for trans in {t1.lower(), t2.lower()}:
+                if trans:
+                    intra_trans.setdefault(trans, set()).add(lemma)
 
         for trans, lemmas in intra_trans.items():
             if len(lemmas) > 1:
-                print(f"    {level}: '{trans}' shared by {len(lemmas)} lemmas: {', '.join(lemmas)}")
+                print(f"    {level}: '{trans}' shared by {len(lemmas)} lemmas: {', '.join(sorted(lemmas))}")
 
     return issues
 

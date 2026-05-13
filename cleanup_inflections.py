@@ -1,49 +1,18 @@
 """Remove obvious inflected forms, keeping lemmas."""
 import csv
 from pathlib import Path
-from collections import defaultdict
 
 ROOT = Path(__file__).parent
 LEVELS = ["A1", "A2", "B1", "B2", "C1"]
+TRANS_COLS = {
+    "english": ("German_Translation", "Spanish_Translation"),
+    "german": ("English_Translation", "Spanish_Translation"),
+    "spanish": ("English_Translation", "German_Translation"),
+}
 
-def get_all_lemmas():
-    """Build index of all lemmas per language."""
-    index = {}
-    for lang in ["english", "german", "spanish"]:
-        lemma_col = {"english": "English_Lemma", "german": "German_Lemma", "spanish": "Spanish_Lemma"}[lang]
-        index[lang] = {}
-        for level in LEVELS:
-            path = ROOT / lang / f"{level}.csv"
-            with path.open() as f:
-                for row in csv.DictReader(f):
-                    lemma = row[lemma_col].strip().lower()
-                    if lemma not in index[lang]:
-                        index[lang][lemma] = []
-                    index[lang][lemma].append((level, row[lemma_col].strip()))
-    return index
-
-def is_inflected(lemma, all_lemmas):
-    """Check if lemma is likely an inflected form."""
-    lemma_lower = lemma.lower()
-
-    # English: check for obvious plurals and verb forms
-    if lemma_lower.endswith("s") and not lemma_lower.endswith("ss"):
-        singular = lemma_lower[:-1]
-        if singular in all_lemmas and len(singular) > 2:
-            return singular
-    if lemma_lower.endswith("ed") and len(lemma_lower) > 3:
-        base = lemma_lower[:-2]
-        if base in all_lemmas:
-            return base
-    if lemma_lower.endswith("ing") and len(lemma_lower) > 4:
-        base = lemma_lower[:-3]
-        if base in all_lemmas:
-            return base
-
-    return None
 
 def cleanup_language(lang):
-    """Remove inflected forms from a language."""
+    """Remove same-level plurals from a language (English only for now)."""
     lemma_col = {"english": "English_Lemma", "german": "German_Lemma", "spanish": "Spanish_Lemma"}[lang]
 
     total_removed = 0
@@ -52,10 +21,8 @@ def cleanup_language(lang):
         with path.open() as f:
             rows = list(csv.DictReader(f))
 
-        # Build lemma set for this level only (to find same-level pairs)
         lemmas_in_level = set(row[lemma_col].strip().lower() for row in rows)
 
-        # Only remove for English: obvious plurals where singular exists in same level
         if lang == "english":
             kept = []
             removed_here = 0
@@ -63,7 +30,6 @@ def cleanup_language(lang):
                 lemma = row[lemma_col].strip()
                 lemma_lower = lemma.lower()
 
-                # Remove if: ends in 's', singular exists in level, base is >2 chars
                 skip = False
                 if lemma_lower.endswith("s") and not lemma_lower.endswith("ss"):
                     singular = lemma_lower[:-1]
@@ -75,9 +41,9 @@ def cleanup_language(lang):
                     kept.append(row)
 
             if removed_here > 0:
-                # Rewrite file
+                fieldnames = [lemma_col, *TRANS_COLS[lang]]
                 with path.open("w") as f:
-                    writer = csv.DictWriter(f, fieldnames=[lemma_col, "German_Translation", "Spanish_Translation"])
+                    writer = csv.DictWriter(f, fieldnames=fieldnames)
                     writer.writeheader()
                     kept_sorted = sorted(kept, key=lambda r: r[lemma_col].lower())
                     writer.writerows(kept_sorted)
@@ -85,6 +51,7 @@ def cleanup_language(lang):
                 total_removed += removed_here
 
     return total_removed
+
 
 if __name__ == "__main__":
     print("Cleaning up inflected forms from English CSVs...")
