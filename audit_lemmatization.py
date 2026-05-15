@@ -1,4 +1,5 @@
 """Audit lemmatization: find plurals, verb forms, and other inflections."""
+
 import csv
 from pathlib import Path
 
@@ -10,7 +11,11 @@ def find_inflected_forms():
     """Scan for likely inflected forms (plurals, verb forms)."""
     for lang in ["english", "german", "spanish"]:
         print(f"\n=== {lang.upper()} ===")
-        lemma_col = {"english": "English_Lemma", "german": "German_Lemma", "spanish": "Spanish_Lemma"}[lang]
+        lemma_col = {
+            "english": "English_Lemma",
+            "german": "German_Lemma",
+            "spanish": "Spanish_Lemma",
+        }[lang]
 
         all_lemmas = {}  # lemma_lower -> list of (level, row)
 
@@ -47,9 +52,12 @@ def find_inflected_forms():
             for form, ftype, base in candidates[:20]:
                 levels = [lv for lv, _ in all_lemmas[form]]
                 base_levels = [lv for lv, _ in all_lemmas[base]]
-                print(f"  {form:20} ({ftype:10}) → {base:15} | {form}: {levels}, {base}: {base_levels}")
+                print(
+                    f"  {form:20} ({ftype:10}) → {base:15} | {form}: {levels}, {base}: {base_levels}"
+                )
         else:
             print("No obvious inflected forms found")
+
 
 if __name__ == "__main__":
     find_inflected_forms()

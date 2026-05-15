@@ -11,6 +11,7 @@ Examples:
     python vocab_manager.py update german Haus --t1 house --t2 casa
     python vocab_manager.py lookup english cat   # search across all langs
 """
+
 from __future__ import annotations
 
 import argparse
@@ -63,13 +64,15 @@ def find(lang: str, lemma: str) -> list[str]:
     cfg = LANGS[lang]
     needle = lemma.lower()
     return [
-        level for level in LEVELS
+        level
+        for level in LEVELS
         if any(r[cfg["lemma_col"]].lower() == needle for r in read_level(lang, level))
     ]
 
 
 def cmd_lint(_: argparse.Namespace) -> int:
     import check_quality  # reuse logic
+
     return check_quality.main(["check_quality.py", *LANGS])
 
 
@@ -102,11 +105,13 @@ def cmd_add(args: argparse.Namespace) -> int:
         print(f"'{lemma}' already in {args.lang}: {existing}")
         return 1
     rows = read_level(args.lang, args.level)
-    rows.append({
-        cfg["lemma_col"]: lemma,
-        cfg["trans_cols"][0]: t1,
-        cfg["trans_cols"][1]: t2,
-    })
+    rows.append(
+        {
+            cfg["lemma_col"]: lemma,
+            cfg["trans_cols"][0]: t1,
+            cfg["trans_cols"][1]: t2,
+        }
+    )
     write_level(args.lang, args.level, rows)
     print(f"Added '{lemma}' to {args.lang}/{args.level}")
     return 0
@@ -215,7 +220,9 @@ def cmd_lookup(args: argparse.Namespace) -> int:
         return 1
     for lang, level, row in hits:
         cols = LANGS[lang]
-        print(f"  {lang}/{level}: {row[cols['lemma_col']]} | {row[cols['trans_cols'][0]]} | {row[cols['trans_cols'][1]]}")
+        print(
+            f"  {lang}/{level}: {row[cols['lemma_col']]} | {row[cols['trans_cols'][0]]} | {row[cols['trans_cols'][1]]}"
+        )
     return 0
 
 

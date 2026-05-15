@@ -1,4 +1,5 @@
 """Remove obvious inflected forms, keeping lemmas."""
+
 import csv
 from pathlib import Path
 
@@ -13,7 +14,11 @@ TRANS_COLS = {
 
 def cleanup_language(lang):
     """Remove same-level plurals from a language (English only for now)."""
-    lemma_col = {"english": "English_Lemma", "german": "German_Lemma", "spanish": "Spanish_Lemma"}[lang]
+    lemma_col = {
+        "english": "English_Lemma",
+        "german": "German_Lemma",
+        "spanish": "Spanish_Lemma",
+    }[lang]
 
     total_removed = 0
     for level in LEVELS:
@@ -33,7 +38,11 @@ def cleanup_language(lang):
                 skip = False
                 if lemma_lower.endswith("s") and not lemma_lower.endswith("ss"):
                     singular = lemma_lower[:-1]
-                    if singular in lemmas_in_level and len(singular) > 2 and singular != lemma_lower:
+                    if (
+                        singular in lemmas_in_level
+                        and len(singular) > 2
+                        and singular != lemma_lower
+                    ):
                         skip = True
                         removed_here += 1
 
@@ -47,7 +56,9 @@ def cleanup_language(lang):
                     writer.writeheader()
                     kept_sorted = sorted(kept, key=lambda r: r[lemma_col].lower())
                     writer.writerows(kept_sorted)
-                print(f"{lang}/{level}: removed {removed_here} plural forms ({len(kept)} rows remain)")
+                print(
+                    f"{lang}/{level}: removed {removed_here} plural forms ({len(kept)} rows remain)"
+                )
                 total_removed += removed_here
 
     return total_removed
@@ -59,4 +70,5 @@ if __name__ == "__main__":
     print(f"Total removed: {total}")
     print("\nRunning quality check...")
     import check_quality
+
     check_quality.main(["check_quality.py", "english"])
