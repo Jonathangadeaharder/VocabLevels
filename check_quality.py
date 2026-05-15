@@ -7,6 +7,7 @@ Run from repo root:
     python check_quality.py
     python check_quality.py english   # single language
 """
+
 from __future__ import annotations
 
 import csv
@@ -125,7 +126,9 @@ def check_language(lang: str) -> int:
 
         for trans, lemmas in intra_trans.items():
             if len(lemmas) > 1:
-                print(f"    {level}: '{trans}' shared by {len(lemmas)} lemmas: {', '.join(sorted(lemmas))}")
+                print(
+                    f"    {level}: '{trans}' shared by {len(lemmas)} lemmas: {', '.join(sorted(lemmas))}"
+                )
 
     return issues
 
