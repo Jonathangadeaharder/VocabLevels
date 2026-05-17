@@ -32,3 +32,13 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+
+# Ruff cache
+.ruff_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Lint artifacts
+.structurelint.yml
