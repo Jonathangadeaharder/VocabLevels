@@ -168,11 +168,11 @@ def cmd_move(args: argparse.Namespace) -> int:
 def cmd_update(args: argparse.Namespace) -> int:
     cfg = LANGS[args.lang]
     needle = args.lemma.lower()
-    rename = args.rename.strip() if args.rename else None
-    t1 = args.t1.strip() if args.t1 else None
-    t2 = args.t2.strip() if args.t2 else None
+    rename = args.rename.strip() if args.rename is not None else None
+    t1 = args.t1.strip() if args.t1 is not None else None
+    t2 = args.t2.strip() if args.t2 is not None else None
 
-    if rename == "":
+    if rename is not None and rename == "":
         print("New lemma cannot be empty")
         return 1
     if rename and " " in rename:
