@@ -1,6 +1,21 @@
-# ADR-005: CEFR Level System
-
-**Status:** Accepted
+---
+id: ADR-005
+kind: adr
+title: CEFR Level System
+status: accepted
+authors: [Jonathan Gadea Harder]
+reviewers: [Jonathan Gadea Harder]
+tags: []
+supersedes: []
+superseded_by: []
+depends_on: []
+blocks: []
+implements: []
+related: []
+external: []
+project: VocabLevels
+checksum: b25e7f782043aa7c4f70c604984c85888477cb6faabcd0bb01935d0e2f6d28f6
+---
 
 **Context:** Vocabulary is organized by CEFR levels (A1, A2, B1, B2, C1). Each level has a target word count based on CEFR guidelines: A1=600, A2=600, B1=1000, B2=2000, C1=4000. Levels must be consistent across all three languages.
 

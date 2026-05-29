@@ -1,6 +1,21 @@
-# ADR-004: Quality Validation Tooling
-
-**Status:** Accepted
+---
+id: ADR-004
+kind: adr
+title: Quality Validation Tooling
+status: accepted
+authors: [Jonathan Gadea Harder]
+reviewers: [Jonathan Gadea Harder]
+tags: []
+supersedes: []
+superseded_by: []
+depends_on: []
+blocks: []
+implements: []
+related: []
+external: []
+project: VocabLevels
+checksum: 9a5131494b6697a82c0999f0d8fbac16ca9d89393fb6f2d45321c6beb10a38ee
+---
 
 **Context:** With 24,000 manually curated vocabulary entries, data quality issues are inevitable. Duplicate lemmas, missing translations, special characters, and inflected forms (plurals, verb conjugations) degrade database quality. Automated validation is needed.
 

@@ -1,6 +1,21 @@
-# ADR-003: Three-Language Schema Design
-
-**Status:** Accepted
+---
+id: ADR-003
+kind: adr
+title: Three-Language Schema Design
+status: accepted
+authors: [Jonathan Gadea Harder]
+reviewers: [Jonathan Gadea Harder]
+tags: []
+supersedes: []
+superseded_by: []
+depends_on: []
+blocks: []
+implements: []
+related: []
+external: []
+project: VocabLevels
+checksum: 63ac5eb025286045a82fd7dedc448c1efa58c501bdad81f206954b37fea39a45
+---
 
 **Context:** The database covers English, German, and Spanish. Each language has a lemma column and two translation columns pointing to the other two languages. The schema must handle asymmetric column naming (German nouns are capitalized, English/Spanish are not).
 
