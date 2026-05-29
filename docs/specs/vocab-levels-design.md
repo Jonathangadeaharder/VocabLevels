@@ -1,4 +1,25 @@
-# VocabLevels — Trilingual CEFR Vocabulary Manager
+---
+id: SPEC-VOCAB-LEVELS
+kind: spec
+title: VocabLevels — Trilingual CEFR Vocabulary Manager
+status: draft
+authors: []
+reviewers: []
+tags: []
+supersedes: []
+superseded_by: []
+depends_on: []
+blocks: []
+implements: []
+related: []
+external: []
+project: VocabLevels
+checksum: 4670916a3185a182c40d7b2391f49f0d44b3fb3b8fa9e0e01a951f7df3c517a0
+---
+
+---
+checksum: c0af21f75e26a3bb61b67ca9820dbafb2be05c35025b935b3c04c11777d64a2f
+---
 
 ## Overview
 

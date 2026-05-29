@@ -1,6 +1,21 @@
-# ADR-002: CLI Manager Architecture
-
-**Status:** Accepted
+---
+id: ADR-002
+kind: adr
+title: CLI Manager Architecture
+status: accepted
+authors: [Jonathan Gadea Harder]
+reviewers: [Jonathan Gadea Harder]
+tags: []
+supersedes: []
+superseded_by: []
+depends_on: []
+blocks: []
+implements: []
+related: []
+external: []
+project: VocabLevels
+checksum: dab1ee0de4fc1eda56ce7dd51b7f4d025d6d25d00eca9dc2c730eb3dc183ecf9
+---
 
 **Context:** Users need to add, remove, move, update, find, and lookup vocabulary entries across all language files. The CLI must be scriptable and support batch operations.
 
