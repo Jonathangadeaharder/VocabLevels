@@ -44,7 +44,7 @@ Trilingual vocabulary data stored in 15 CSV files (3 languages x 5 levels) with 
 
 ## Code Quality
 
-No formal test suite exists. Code quality relies on ruff linting and pyright type checking, documented in AGENTS.md but not automated in CI. The CLI tool has clean argument parsing, proper exit codes, and modular command handlers. `check_quality.py` validates 10+ criteria including structure, row counts within 5% of target, duplicates, whitespace, special characters, and translation collisions. The `LANGS` configuration dictionary is duplicated across 3 files -- any schema change requires updating all copies. No pyproject.toml exists despite using uv.
+No formal test suite exists. Code quality relies on ruff linting and pyright type checking, documented in AGENTS.md but not automated in CI. The CLI tool has clean argument parsing, proper exit codes, and modular command handlers. `check_quality.py` validates 10+ criteria including structure, row counts within 5% of target, duplicates, whitespace, special characters, and translation collisions. The `LANGS` configuration dictionary is duplicated across 4 files (vocab_manager.py, check_quality.py, audit_lemmatization.py, cleanup_inflections.py) in varying forms -- any schema change requires updating all copies. No pyproject.toml exists despite using uv.
 
 ## Security
 
@@ -56,7 +56,7 @@ The data set is ~24K CSV rows across 15 files. The CLI's O(n) search over CSV fi
 
 ## Operations & DevOps
 
-No CI/CD pipeline exists. CodeRabbit is configured for AI PR review with excellent language-specific instructions for each CSV file. Quality gates (ruff check, ruff format, pyright) are documented in AGENTS.md but must be run manually. No GitHub Actions workflows are configured. No Dependabot.
+A SonarCloud GitHub Actions workflow (`.github/workflows/sonarcloud.yml`) runs on push/PR to main, providing static analysis. CodeRabbit is configured for AI PR review with excellent language-specific instructions for each CSV file. Quality gates (ruff check, ruff format, pyright) are documented in AGENTS.md but must be run manually — no CI workflow enforces them. No Dependabot.
 
 ## Dependencies & Third-Party Risk
 
