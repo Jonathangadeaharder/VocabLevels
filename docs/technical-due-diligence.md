@@ -22,7 +22,7 @@ checksum: ac3a6189804fbd794d8edabcde24874ff957bea696fd3a0cd390ecee936ccc58
 
 ## Executive Summary
 
-VocabLevels is a trilingual CEFR vocabulary database containing approximately 24K entries across 15 CSV files (English, German, Spanish, levels A1-C1) managed by a 279-line Python CLI. Zero external dependencies, CodeRabbit configured for CSV-aware PR review, and ruff/pyright quality scripts are strengths. But the project has zero test files, no CI/CD pipeline, no pyproject.toml despite using uv, and duplicated configuration across three scripts. Data integrity relies entirely on `check_quality.py` rather than a formal test suite. Risk is low because the project has no network, auth, or user-input attack surface.
+VocabLevels is a trilingual CEFR vocabulary database containing approximately 24K entries across 15 CSV files (English, German, Spanish, levels A1-C1) managed by a 279-line Python CLI. Zero external dependencies, CodeRabbit configured for CSV-aware PR review, and ruff/pyright quality scripts are strengths. But the project has zero test files, no CI/CD pipeline for quality gates (SonarCloud static analysis configured), no pyproject.toml despite using uv, and duplicated configuration across four scripts. Data integrity relies entirely on `check_quality.py` rather than a formal test suite. Risk is low because the project has no network, auth, or user-input attack surface.
 
 ## Scope
 
@@ -68,7 +68,7 @@ Zero external runtime dependencies -- stdlib only. No supply chain risk. ruff an
 |------|-----------|--------|------------|
 | Zero tests -- no regression protection for CLI commands | High | Medium | Add pytest smoke tests for all 7 CLI commands |
 | No CI/CD -- quality gates are manual-only | High | Medium | Add GitHub Actions workflow for ruff + pyright + smoke tests |
-| Duplicate LANGS config in 3 files -- schema changes require 3 edits | High | Low | Extract to shared module (vocab_config.py) |
+| Duplicate LANGS config in 4 files -- schema changes require 4 edits | High | Low | Extract to shared module (vocab_config.py) |
 | No pyproject.toml -- uv lacks project metadata and tool config | High | Low | Create pyproject.toml with ruff/pyright config |
 | CSV write corruption -- no backup or transaction mechanism | Medium | Medium | Add atomic write pattern (write to temp, rename) |
 | CSV injection -- formulas starting with = or + not validated | Low | Low | Add validation for formula-like cell content |
