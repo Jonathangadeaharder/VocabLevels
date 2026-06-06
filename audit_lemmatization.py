@@ -21,7 +21,7 @@ def find_inflected_forms():
 
         for level in LEVELS:
             path = ROOT / lang / f"{level}.csv"
-            with path.open() as f:
+            with path.open(encoding="utf-8", newline="") as f:
                 for row in csv.DictReader(f):
                     lemma = row[lemma_col].strip().lower()
                     if lemma not in all_lemmas:
