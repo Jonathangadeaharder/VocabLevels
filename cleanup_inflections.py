@@ -23,7 +23,7 @@ def cleanup_language(lang):
     total_removed = 0
     for level in LEVELS:
         path = ROOT / lang / f"{level}.csv"
-        with path.open() as f:
+        with path.open(encoding="utf-8", newline="") as f:
             rows = list(csv.DictReader(f))
 
         lemmas_in_level = set(row[lemma_col].strip().lower() for row in rows)
@@ -51,7 +51,7 @@ def cleanup_language(lang):
 
             if removed_here > 0:
                 fieldnames = [lemma_col, *TRANS_COLS[lang]]
-                with path.open("w") as f:
+                with path.open("w", encoding="utf-8", newline="") as f:
                     writer = csv.DictWriter(f, fieldnames=fieldnames)
                     writer.writeheader()
                     kept_sorted = sorted(kept, key=lambda r: r[lemma_col].lower())
