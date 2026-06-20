@@ -9,6 +9,7 @@ TRANS_COLS = {
     "english": ("German_Translation", "Spanish_Translation"),
     "german": ("English_Translation", "Spanish_Translation"),
     "spanish": ("English_Translation", "German_Translation"),
+    "arabic": ("English_Translation", "Spanish_Translation"),
 }
 
 
@@ -18,6 +19,7 @@ def cleanup_language(lang):
         "english": "English_Lemma",
         "german": "German_Lemma",
         "spanish": "Spanish_Lemma",
+        "arabic": "Arabic_Lemma",
     }[lang]
 
     total_removed = 0

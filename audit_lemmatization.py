@@ -9,12 +9,13 @@ LEVELS = ["A1", "A2", "B1", "B2", "C1"]
 
 def find_inflected_forms():
     """Scan for likely inflected forms (plurals, verb forms)."""
-    for lang in ["english", "german", "spanish"]:
+    for lang in ["english", "german", "spanish", "arabic"]:
         print(f"\n=== {lang.upper()} ===")
         lemma_col = {
             "english": "English_Lemma",
             "german": "German_Lemma",
             "spanish": "Spanish_Lemma",
+            "arabic": "Arabic_Lemma",
         }[lang]
 
         all_lemmas = {}  # lemma_lower -> list of (level, row)

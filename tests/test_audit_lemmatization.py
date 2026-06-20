@@ -14,17 +14,19 @@ import audit_lemmatization as al
 def tmp_repo(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
     """Create a repo with lemmas that include inflected forms."""
     monkeypatch.setattr(al, "ROOT", tmp_path)
-    for lang in ("english", "german", "spanish"):
+    for lang in ("english", "german", "spanish", "arabic"):
         (tmp_path / lang).mkdir(exist_ok=True)
         lemma_col = {
             "english": "English_Lemma",
             "german": "German_Lemma",
             "spanish": "Spanish_Lemma",
+            "arabic": "Arabic_Lemma",
         }[lang]
         trans_cols = {
             "english": ("German_Translation", "Spanish_Translation"),
             "german": ("English_Translation", "Spanish_Translation"),
             "spanish": ("English_Translation", "German_Translation"),
+            "arabic": ("English_Translation", "Spanish_Translation"),
         }[lang]
         fields = [lemma_col, *trans_cols]
         for level in al.LEVELS:

@@ -32,6 +32,10 @@ LANGS = {
         "lemma_col": "Spanish_Lemma",
         "trans_cols": ("English_Translation", "German_Translation"),
     },
+    "arabic": {
+        "lemma_col": "Arabic_Lemma",
+        "trans_cols": ("English_Translation", "Spanish_Translation"),
+    },
 }
 
 SPECIAL_CHARS = re.compile(r"[?!@#$%^&*()_=+\[\]{};:\"\\|<>~`]")
