@@ -4,6 +4,9 @@ reviews:
     - "english/**/*.csv"
     - "german/**/*.csv"
     - "spanish/**/*.csv"
+    - "arabic/**/*.csv"
+    - "french/**/*.csv"
+    - "swedish/**/*.csv"
     - "**/*.csv"
   path_instructions:
     - path: "english/**/*.csv"
@@ -25,3 +28,19 @@ reviews:
         Do not skip them because they are CSVs. Check for duplicate lemmas across A1-C1,
         missing accent duplicates that are actually misspellings, malformed lemmas, bad
         translations, and level placement that is clearly wrong for movie and series comprehension.
+    - path: "arabic/**/*.csv"
+      instructions: |
+        Review these CSV files as hand-curated CEFR vocabulary data, not generated bulk data.
+        Do not skip them because they are CSVs. Check for duplicate lemmas, malformed lemmas,
+        bad translations, and level placement that is clearly wrong for movie and series comprehension.
+    - path: "french/**/*.csv"
+      instructions: |
+        Review these CSV files as hand-curated CEFR vocabulary data, not generated bulk data.
+        Do not skip them because they are CSVs. Check for duplicate lemmas, malformed lemmas,
+        missing accent duplicates, bad translations, and level placement that is clearly wrong
+        for movie and series comprehension.
+    - path: "swedish/**/*.csv"
+      instructions: |
+        Review these CSV files as hand-curated CEFR vocabulary data, not generated bulk data.
+        Do not skip them because they are CSVs. Check for duplicate lemmas, malformed lemmas,
+        bad translations, and level placement that is clearly wrong for movie and series comprehension.
