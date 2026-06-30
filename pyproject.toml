@@ -18,6 +18,9 @@ omit = [
     "english/*",
     "german/*",
     "spanish/*",
+    "arabic/*",
+    "french/*",
+    "swedish/*",
     "docs/*",
     "openspec/*",
 ]
@@ -31,6 +34,8 @@ target-version = "py311"
 
 [dependency-groups]
 dev = [
+    "pyright>=1.1.411",
     "pytest>=9.0.3",
     "pytest-cov>=7.1.0",
+    "ruff>=0.15.20",
 ]

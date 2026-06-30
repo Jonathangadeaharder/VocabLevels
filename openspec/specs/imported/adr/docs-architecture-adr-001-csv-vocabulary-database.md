@@ -2,9 +2,9 @@
 id: ADR-001
 kind: adr
 title: CSV-Based Vocabulary Database
-status: accepted
-authors: [Jonathan Gadea Harder]
-reviewers: [Jonathan Gadea Harder]
+status: draft
+authors: []
+reviewers: []
 tags: []
 supersedes: []
 superseded_by: []
@@ -16,6 +16,8 @@ external: []
 project: VocabLevels
 checksum: ebc20161d95e94af9e6c27744cddd1ff11d20b21453fc1b6034add5e29900244
 ---
+
+> Imported legacy ADR artifact from `docs/architecture/ADR-001-csv-vocabulary-database.md`. Keep future lifecycle work in OpenSpec.
 
 **Context:** The project manages multilingual vocabulary data organized by CEFR levels (A1-C1). The data must be human-readable, version-controllable, and editable without specialized tooling. A full database engine would be over-engineered for this CSV-sized dataset.
 

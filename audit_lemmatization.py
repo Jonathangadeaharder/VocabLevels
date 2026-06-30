@@ -3,25 +3,23 @@
 import csv
 from pathlib import Path
 
+from vocab_schema import LANGS, LEVELS
+
 ROOT = Path(__file__).parent
-LEVELS = ["A1", "A2", "B1", "B2", "C1"]
 
 
 def find_inflected_forms():
     """Scan for likely inflected forms (plurals, verb forms)."""
-    for lang in ["english", "german", "spanish", "arabic"]:
+    for lang, cfg in LANGS.items():
         print(f"\n=== {lang.upper()} ===")
-        lemma_col = {
-            "english": "English_Lemma",
-            "german": "German_Lemma",
-            "spanish": "Spanish_Lemma",
-            "arabic": "Arabic_Lemma",
-        }[lang]
+        lemma_col = cfg["lemma_col"]
 
         all_lemmas = {}  # lemma_lower -> list of (level, row)
 
         for level in LEVELS:
             path = ROOT / lang / f"{level}.csv"
+            if not path.exists():
+                continue
             with path.open(encoding="utf-8", newline="") as f:
                 for row in csv.DictReader(f):
                     lemma = row[lemma_col].strip().lower()

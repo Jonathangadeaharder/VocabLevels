@@ -1,7 +1,7 @@
 ---
 id: SPEC-VOCAB-LEVELS
 kind: spec
-title: VocabLevels — Multilingual CEFR Vocabulary Manager
+title: VocabLevels — Trilingual CEFR Vocabulary Manager
 status: draft
 authors: []
 reviewers: []
@@ -16,6 +16,8 @@ external: []
 project: VocabLevels
 checksum: 4670916a3185a182c40d7b2391f49f0d44b3fb3b8fa9e0e01a951f7df3c517a0
 ---
+
+> Imported legacy SPEC artifact from `docs/superpowers/specs/vocab-levels-design.md`. Keep future lifecycle work in OpenSpec.
 
 ---
 checksum: c0af21f75e26a3bb61b67ca9820dbafb2be05c35025b935b3c04c11777d64a2f
@@ -46,13 +48,6 @@ VocabLevels/
 │   └── *.csv              # Columns: German_Lemma, English_Translation, Spanish_Translation
 ├── spanish/               # A1.csv, A2.csv, B1.csv, B2.csv, C1.csv
 │   └── *.csv              # Columns: Spanish_Lemma, English_Translation, German_Translation
-├── arabic/                # A1.csv in progress
-│   └── *.csv              # Columns: Arabic_Lemma, English_Translation, Spanish_Translation
-├── french/                # A1.csv in progress
-│   └── *.csv              # Columns: French_Lemma, English_Translation, Spanish_Translation
-├── swedish/               # A1.csv in progress
-│   └── *.csv              # Columns: Swedish_Lemma, English_Translation, Spanish_Translation
-├── vocab_schema.py        # Shared language columns, CEFR levels, and row-count targets
 ├── vocab_manager.py       # CLI: add, remove, move, update, find, lookup, lint
 ├── check_quality.py       # Structural validation
 ├── audit_lemmatization.py # Inflected form detection
@@ -82,5 +77,3 @@ User Input → vocab_manager.py → CSV Read/Write → File System
                   ├── update: find in levels → modify fields → write
                   └── lint: check_quality.py per language
 ```
-
-Shared schema: `vocab_schema.py` defines `LANGS`, `LEVELS`, and row-count targets for every script.

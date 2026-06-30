@@ -4,9 +4,10 @@
 
 ```bash
 uv sync
-uvx ruff check
-uvx ruff format
-uvx pyright
+uv run ruff format --check .
+uv run ruff check .
+uv run pyright
+uv run python -m pytest
 ```
 
 ## PR Instructions
@@ -14,5 +15,5 @@ uvx pyright
 - Branch: feature/*, fix/*, chore/*
 - Title: `<type>(<scope>): <description>`
 - Types: feat, fix, docs, style, refactor, perf, test, build, ci, chore
-- Run `uvx ruff check` before committing
+- Run the quality gates before committing
 - One logical change per commit

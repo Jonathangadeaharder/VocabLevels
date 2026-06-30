@@ -1,6 +1,6 @@
-"""CLI manager for trilingual CEFR vocab CSVs.
+"""CLI manager for multilingual CEFR vocab CSVs.
 
-Run from repo root. Operates on english/, german/, spanish/ directories.
+Run from repo root. Operates on directories listed in LANGS.
 
 Examples:
     python vocab_manager.py lint
@@ -19,27 +19,9 @@ import csv
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).parent
-LEVELS = ["A1", "A2", "B1", "B2", "C1"]
+from vocab_schema import LANGS, LEVELS
 
-LANGS = {
-    "english": {
-        "lemma_col": "English_Lemma",
-        "trans_cols": ("German_Translation", "Spanish_Translation"),
-    },
-    "german": {
-        "lemma_col": "German_Lemma",
-        "trans_cols": ("English_Translation", "Spanish_Translation"),
-    },
-    "spanish": {
-        "lemma_col": "Spanish_Lemma",
-        "trans_cols": ("English_Translation", "German_Translation"),
-    },
-    "arabic": {
-        "lemma_col": "Arabic_Lemma",
-        "trans_cols": ("English_Translation", "Spanish_Translation"),
-    },
-}
+ROOT = Path(__file__).parent
 
 
 def file_path(lang: str, level: str) -> Path:
@@ -58,10 +40,13 @@ def write_level(lang: str, level: str, rows: list[dict[str, str]]) -> None:
     cfg = LANGS[lang]
     fields = [cfg["lemma_col"], *cfg["trans_cols"]]
     rows_sorted = sorted(rows, key=lambda r: r[cfg["lemma_col"]].lower())
-    with file_path(lang, level).open("w", encoding="utf-8", newline="") as f:
+    path = file_path(lang, level)
+    tmp_path = path.with_name(f".{path.name}.tmp")
+    with tmp_path.open("w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(rows_sorted)
+    tmp_path.replace(path)
 
 
 def find(lang: str, lemma: str) -> list[str]:
@@ -77,7 +62,8 @@ def find(lang: str, lemma: str) -> list[str]:
 def cmd_lint(_: argparse.Namespace) -> int:
     import check_quality  # reuse logic
 
-    return check_quality.main(["check_quality.py", *LANGS])
+    check_quality.ROOT = ROOT
+    return check_quality.main(["check_quality.py"])
 
 
 def cmd_find(args: argparse.Namespace) -> int:
@@ -231,7 +217,7 @@ def cmd_lookup(args: argparse.Namespace) -> int:
 
 
 def main(argv: list[str]) -> int:
-    p = argparse.ArgumentParser(description="Trilingual CEFR vocab manager")
+    p = argparse.ArgumentParser(description="Multilingual CEFR vocab manager")
     sub = p.add_subparsers(dest="command", required=True)
 
     sub.add_parser("lint", help="Run check_quality across all languages")

@@ -20,6 +20,8 @@ related: []
 checksum: ac3a6189804fbd794d8edabcde24874ff957bea696fd3a0cd390ecee936ccc58
 ---
 
+> Imported legacy TDD artifact from `docs/technical-due-diligence.md`. Keep future lifecycle work in OpenSpec.
+
 ## Executive Summary
 
 VocabLevels is a multilingual CEFR vocabulary database containing 26,818 entries across 18 CSV files. English, German, and Spanish have complete A1-C1 sets; Arabic, French, and Swedish are A1-only in-progress languages. The project now has a `pyproject.toml`, locked dev tools, pytest coverage, and a shared `vocab_schema.py` source of truth for language columns. Risk remains low because the project has no network, auth, or user-facing server.
@@ -48,7 +50,7 @@ The test suite covers CLI commands, quality validation, lemmatization audits, an
 
 ## Security
 
-Zero external dependencies eliminates supply chain risk entirely. The CLI uses stdlib only (csv, re, sys, pathlib, argparse). No network requests, no authentication, no user-facing server. CSV injection (formulas starting with `=` or `+`) is not validated. No backup or transaction mechanism protects CSV file integrity during write operations.
+Zero external dependencies eliminates supply chain risk entirely. The CLI uses stdlib only (csv, re, sys, pathlib, argparse). No network requests, no authentication, no user-facing server. CSV injection (formulas starting with `=` or `+`) is not validated. CLI-owned writes use temp-file replacement, but concurrent CSV edits still have no transaction isolation.
 
 ## Scalability & Performance
 
