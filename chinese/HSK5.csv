@@ -29,8 +29,8 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 丝毫,the slightest amount or degree,la más mínima cantidad o grado
 丝绸,silk cloth,seda
 严肃,solemn,solemne
-个人,individual,individual
-个别,individual,individual
+个人,individual / personal,individual / personal
+个别,individual / specific,individual / específico
 个性,individuality,individualidad
 中介,to act as intermediary,actuar como intermediario
 中心,center,centro
@@ -142,7 +142,7 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 光滑,glossy,liso
 光盘,compact disc,disco compacto
 光荣,honor and glory,honor y gloria
-克,variant of 克[kè],variante de 克[kè]
+克,gram (unit),gramo
 克服,(try to) overcome (hardships etc),(intentar) superar (dificultades etc)
 兔子,hare,liebre
 全面,all-around,integral
@@ -215,13 +215,13 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 匆忙,hasty,apresurado
 化学,chemistry,química
 匹,classifier for horses,clasificador para caballos
-升,variant of 升[shēng],variante de 升[shēng]
+升,liter (unit),litro
 华裔,ethnic Chinese,chino de ultramar
 协调,to coordinate,coordinar
 单位,a unit,una unidad
 单元,unit,unidad
 单独,alone,solo
-单纯,simple,simple
+单纯,simple / pure,simple / puro
 单调,monotonous,monótono
 博物馆,museum,museo
 占线,busy (telephone line),ocupado (línea telefónica)
@@ -240,7 +240,7 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 参考,consultation,consulta
 叉子,fork,tenedor
 及格,to pass a test,aprobar un examen
-双方,bilateral,bilateral
+双方,both parties / bilateral,ambas partes
 反复,repeatedly,repetidamente
 反应,to react,reaccionar
 反正,anyway,de todos modos
@@ -513,9 +513,9 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 征求,to solicit,solicitar
 待遇,treatment,trato
 微笑,smile,sonrisa
-心理,mental,mental
+心理,mental / psychological,mental / psicológico
 心脏,heart,corazón
-必然,inevitable,inevitable
+必然,inevitable / necessary,inevitable / necesario
 必要,necessary,necesario
 必需,to need,necesitar
 忍不住,cannot help,no poder evitar
@@ -535,7 +535,7 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 总统,president (of a country),presidente (de un país)
 总裁,chairman,presidente
 恋爱,(romantic) love,amor (romántico)
-恐怖,terrible,terrible
+恐怖,terrifying / terrible,terrorífico
 恢复,to reinstate,restablecer
 恨,to hate,odiar
 恶劣,vile,vil
@@ -555,7 +555,7 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 愤怒,angry,furioso
 愿望,desire,deseo
 慌张,confused,nervioso
-戏剧,drama,drama
+戏剧,drama / theater,drama / teatro
 成分,composition,composición
 成就,accomplishment,logro
 成果,result,resultado
@@ -625,7 +625,7 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 接着,to catch and hold on,continuar
 接触,to touch,tocar
 接近,to approach,acercarse
-控制,control,control
+控制,to control,controlar
 推广,to extend,promover
 推荐,to recommend,recomendar
 推辞,to decline (an appointment,declinar (un nombramiento
@@ -678,7 +678,7 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 斜,inclined,inclinado
 方,square,cuadrado
 方式,way (of life),manera (de vida)
-方案,plan,plan
+方案,plan / scheme,plan / proyecto
 无奈,helpless,impotente
 无数,countless,innumerable
 日历,calendar,calendario
@@ -736,7 +736,7 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 样式,type,estilo
 核心,core,núcleo
 根,root,raíz
-根本,fundamental,fundamental
+根本,fundamental / root,fundamental / radical
 格外,especially,especialmente
 桃,peach,melocotón
 桔子,tangerine,mandarina
@@ -999,7 +999,7 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 缺乏,shortage,escasez
 罐头,tin,lata
 罚款,(impose a) fine,(imponer una) multa
-罪犯,criminal,criminal
+罪犯,criminal,delincuente / criminal
 美术,art,arte
 翅膀,wing,ala
 翻,to turn over,voltear
@@ -1020,7 +1020,7 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 背,the back of a body or object,la espalda de un cuerpo u objeto
 背景,background,fondo
 胜利,victory,victoria
-胡同,variant of 胡同[hú tòng],variante de 胡同[hú tòng]
+胡同,alley / hutong,callejón / hutong
 胡说,to talk nonsense,decir tonterías
 胡须,beard,barba
 胳膊,arm,brazo
@@ -1049,14 +1049,14 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 良好,good,bueno
 艰巨,arduous,arduo
 艰苦,difficult,difícil
-节,festival,festival
+节,festival / holiday,fiesta / festival
 节省,saving,ahorro
 花生,peanut,cacahuete
 苗条,slim,esbelto
 英俊,handsome,guapo
 英雄,hero,héroe
 荣幸,honored,honrado
-荣誉,honor,honor
+荣誉,honor,honor / honra
 营业,to do business,operar
 营养,nutrition,nutrición
 落后,to fall behind,quedar rezagado
@@ -1136,7 +1136,7 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 贷款,a loan,un préstamo
 贸易,(commercial) trade,comercio (comercial)
 费用,cost,coste
-资料,material,material
+资料,material / data,material / documentación
 资格,qualifications,cualificaciones
 资源,natural resource (such as water or minerals),recurso natural (como agua o minerales)
 资金,funds,fondos
@@ -1163,7 +1163,7 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 输入,to import,introducir
 辞职,to resign,dimitir
 辣椒,hot pepper,guindilla
-辩论,debate,debate
+辩论,debate,debate / discusión
 达到,to reach,alcanzar
 迅速,rapid,rápido
 过分,excessive,excesivo
@@ -1225,7 +1225,7 @@ Chinese_Lemma,English_Translation,Spanish_Translation
 销售,to sell,vender
 锁,to lock up,cerrar con llave
 锅,pot,olla
-错误,error,error
+错误,error / mistake,error / equivocación
 键盘,keyboard,teclado
 长途,long distance,larga distancia
 闪电,lightning,relámpago
