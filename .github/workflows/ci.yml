@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Test
+    runs-on: [self-hosted, macOS, ARM64, VidiomTM]
+    steps:
+      - uses: actions/checkout@v6.0.3
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --all-groups --frozen
+      - run: uv run ruff check .
+      - run: uv run pytest

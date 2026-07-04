@@ -1,124 +1,4 @@
 Swedish_Lemma,English_Translation,Spanish_Translation,POS
-absolut,absolutely,absolutamente,VERB
-agent,agent,agente,VERB
-all,all,todo,X
-allihop,all of them,todos,X
-alls,at all,en absoluto,X
-alltså,so/thus,entonces,X
-allvar,seriousness,seriedad,X
-aning,a bit,un poco,NOUN
-annars,otherwise,si no,X
-annat,other,otro,VERB
-annorlunda,different,diferente,VERB
-antar,assume,suponer,X
-använda,use,usar,VERB
-använder,uses,usa,X
-arbete,work,trabajo,X
-bad,asked/bathed,pidió/bañó,X
-bakom,behind,detrás,X
-bara,only/just,solo,VERB
-barnen,the children,los niños,X
-be,pray/ask,pedir,X
-behövde,needed,necesitaba,VERB
-behöver,needs,necesita,X
-beklagar,regret/apologize,lamento,X
-ber,pray/ask,pide,X
-berättade,told,contó,VERB
-berättar,tells,cuenta,X
-betalar,pays,paga,X
-betyder,means,significa,X
-bevis,proof,prueba,X
-bilen,the car,el coche,X
-blev,became,se volvió,X
-blir,becomes/gets,se vuelve,X
-blivit,become,vuelto,VERB
-bo,live,vivir,X
-bor,lives,vive,X
-borde,should,debería,VERB
-bort,away,lejos,VERB
-borta,away/gone,lejos,VERB
-bra,good/well,bien/bueno,VERB
-brukade,used to,solía,VERB
-brukar,usually,suele,X
-bryr,cares,se preocupa,X
-bäst,best,mejor,VERB
-bästa,best,mejor,VERB
-bättre,better,mejor,X
-bör,should,debería,X
-började,began,empezó,VERB
-början,beginning,comienzo,X
-börjar,begins,empieza,X
-chans,chance,oportunidad,X
-chefen,the boss,el jefe,X
-dagar,days,días,X
-dagen,the day,el día,X
-dags,time,hora,X
-del,part,parte,X
-dem,them,los/ellas,PRON
-denna,this,este,VERB
-deras,their,su,PRON
-dess,its,su,X
-dessa,these,estos,VERB
-detta,this,esto,VERB
-dig,you,te,PRON
-dina,your(pl),tus,VERB
-direkt,direct,directo,VERB
-dit,there(to),hacia allí,VERB
-ditt,your,tu,VERB
-dog,died,murió,X
-dollar,dollar,dólar,X
-dom,they/them,ellos,X
-drar,pulls/draws,tira,X
-dum,stupid,tonto,X
-därför,therefore,por eso,X
-då,then/when,entonces/cuando,X
-dåligt,badly/poor,mal,VERB
-död,dead,muerto,X
-döda,kill/the dead,matar/muertos,VERB
-dödade,killed,mató,VERB
-dödar,kills,mata,X
-dör,dies,muere,X
-dörren,the door,la puerta,X
-eftersom,since/because,porque,X
-egentligen,actually,en realidad,X
-eget,own,propio,VERB
-egna,own(pl),propios,VERB
-emot,against,contra,VERB
-en,a/an/one,un/uno,X
-enda,only/single,único,VERB
-enkelt,simple/easily,simple,VERB
-enligt,according to,según,VERB
-ens,even,ni,X
-ensam,alone,solo,ADJ
-er,you(pl)/yours,os/vuestro,PRON
-ert,your(pl),vuestro,VERB
-exakt,exact,exacto,VERB
-faktiskt,actually,de hecho,VERB
-fall,case/fall,caso,X
-familjen,the family,la familia,X
-fan,devil/damn,diablo/maldito,X
-fanns,existed,había,X
-fara,go/danger,ir/peligro,VERB
-fast,although/stuck,aunque/fijo,VERB
-fattar,understands,entiende,X
-fel,wrong,mal,X
-fick,got,consiguió,X
-fin,fine/pretty,fino/bonito,X
-finns,exists/there is,hay/existe,X
-fint,nicely/nice,bonito,VERB
-fixa,fix,arreglar,VERB
-fler,more(pl),más,X
-flera,several,varios,VERB
-fort,fast,rápido,VERB
-fortfarande,still,todavía,VERB
-fortsätt,continue,continúa,VERB
-fortsätta,continue,continuar,VERB
-fortsätter,continues,continúa,X
-fram,forward,adelante,X
-framför,in front of,delante de,X
-fru,wife/Mrs,esposa/señora,X
-frågade,asked,preguntó,VERB
-frågar,asks,pregunta,X
 frågor,questions,preguntas,X
 full,full/drunk,lleno/borracho,X
 fungerar,works,funciona,X
@@ -171,7 +51,6 @@ hallå,hello,hola,X
 handlar,is about/deals,trata,X
 har,has/have,tiene/tener,X
 hatar,hates,odia,X
-hej,hello,hola,X
 hela,whole,entero,VERB
 heller,rather,tampoco/más bien,X
 helst,preferably,preferiblemente,VERB
@@ -317,7 +196,6 @@ mest,most,más,VERB
 mig,me,me,PRON
 miljoner,millions,millones,X
 mina,my(pl),mis,VERB
-mindre,less/smaller,menos,X
 minns,remember,recuerda,X
 minuter,minutes,minutos,X
 misstag,mistake,error,X
@@ -466,7 +344,6 @@ ställe,place,lugar,X
 stället,the place,el lugar,VERB
 stämmer,is correct,es correcto,X
 står,stands,está de pie,X
-större,bigger,mayor,X
 svar,answer,respuesta,X
 svårt,difficult,difícil,VERB
 synd,shame/pity,lástima,X
@@ -484,7 +361,6 @@ sån,such,así,X
 såna,such(pl),así,VERB
 sånt,such,así,VERB
 söker,seeks/looks for,busca,X
-tack,thanks,gracias,X
 tag,take/take!,toma,X
 tagit,taken,tomado,VERB
 talar,speaks,habla,X
@@ -585,3 +461,141 @@ vårt,our,nuestro,VERB
 ögonblick,moment,momento,X
 önskar,wish,desea,X
 överallt,everywhere,en todas partes,VERB
+adjö,goodbye,adiós,X
+adress,address,dirección,X
+advokat,lawyer,abogado,VERB
+affär,shop/affair,tienda/asunto,X
+affären,the shop,la tienda,X
+affärer,business/affairs,asuntos,X
+aj,ouch,ay,X
+akta,watch out,ten cuidado,VERB
+alldeles,entirely/quite,completamente,X
+allihopa,all of them,todos,VERB
+alltihop,all of it,todo,X
+allting,everything,todo,X
+allvarligt,seriously,seriamente,VERB
+amerika,America,América,VERB
+amerikanska,American,estadounidense,VERB
+an,on,en,X
+andas,breathe,respirar,X
+angående,regarding,respecto a,VERB
+anledning,reason,razón,NOUN
+anser,considers,considera,X
+ansiktet,the face,la cara,VERB
+ansvar,responsibility,responsabilidad,X
+ansvarig,responsible,responsable,ADJ
+antagligen,probably,probablemente,X
+antingen,either,o,X
+använd,use/used,usar/usado,X
+använde,used,usó,VERB
+ar,is/are,es/son,X
+arbetar,works,trabaja,X
+armé,army,ejército,X
+armén,the army,el ejército,X
+avsluta,finish/complete,terminar,VERB
+avtal,agreement/deal,acuerdo,X
+backa,back up/reverse,retroceder,VERB
+bak,behind/back,detrás,X
+band,band/tie,banda/lazo,X
+bandet,the band/the tape,la banda,VERB
+banken,the bank,el banco,X
+bar,carried/bare,llevaba/desnudo,ADJ
+baren,the bar,el bar,X
+barnet,the child,el niño,VERB
+begär,demand/desire,deseo/exigencia,X
+behålla,keep,guardar,VERB
+behövs,is needed,se necesita,X
+benen,the legs,las piernas,X
+beredd,prepared,preparado,X
+beror,depends,depende,X
+berättat,told,contado,VERB
+beslut,decision,decisión,VERB
+bestämma,decide,decidir,VERB
+bestämmer,decides,decide,X
+bestämt,definitely/decided,decidido,VERB
+besviken,disappointed,decepcionado,X
+besök,visit,visita,X
+betalade,paid,pagó,VERB
+betalt,paid,pagado,VERB
+bett,bitten/bite,mordido/mordida,VERB
+bevisa,prove,demostrar,VERB
+bilar,cars,coches,X
+bild,picture,imagen,X
+bilden,the picture,la imagen,X
+bilder,pictures,imágenes,X
+bit,piece/bit,pedazo,VERB
+bjuda,invite/offer,invitar,VERB
+bjuder,invites/offers,invita,X
+bjöd,invited/offered,invitó,X
+bland,among,entre,X
+blodet,the blood,la sangre,VERB
+bodde,lived,vivía,VERB
+boken,the book,el libro,X
+bordet,the table,la mesa,VERB
+bredvid,next to,al lado de,X
+broder,brother,hermano,X
+brott,crime,crimen,VERB
+bry,care,importa,X
+bryta,break,romper,VERB
+bryter,breaks,rompe,X
+bråttom,in a hurry,con prisa,X
+bröder,brothers,hermanos,X
+bröllop,wedding,boda,X
+bröt,broke,rompió,VERB
+bussen,the bus,el autobús,X
+bygga,build,construir,VERB
+byggnaden,the building,el edificio,X
+byta,change/swap,cambiar,VERB
+bär,carries/bears,lleva,X
+både,both,ambos,VERB
+båten,the boat,el barco,X
+böcker,books,libros,X
+börjat,begun,empezado,VERB
+chansen,the chance,la oportunidad,X
+chef,boss,jefe,X
+college,college,universidad,X
+coolt,cool,guay,VERB
+dam,lady,dama,X
+damen,the lady,la dama,X
+damer,ladies,damas,X
+definitivt,definitely,definitivamente,VERB
+dejt,date,cita,VERB
+dela,share/divide,compartir,VERB
+delar,shares/parts,comparte/partes,X
+delen,the part,la parte,X
+dessutom,besides,además,X
+desto,the(the more),cuanto,X
+detsamma,the same,lo mismo,VERB
+diskutera,discuss,discutir,VERB
+djupt,deeply,profundamente,VERB
+djur,animal,animal,X
+doktor,doctor,doctor,X
+doktorn,the doctor,el médico,X
+drack,drank,bebió,X
+drick,drink!,bebe!,X
+dricker,drinks,bebe,X
+drink,drink,bebida,X
+driver,drives/teases,conduce/bromea,X
+drog,drew/pulled,tiró,X
+droger,drugs,drogas,X
+dröm,dream,sueño,X
+drömmar,dreams,sueños,X
+duger,is good enough,basta,X
+duktig,capable/good,hábil,ADJ
+dumma,stupid(pl),tontos,VERB
+dumt,stupidly,tontamente,VERB
+dyker,appears/dives,aparece,X
+därifrån,from there,de allí,X
+dåliga,bad(pl),malos,VERB
+dödat,killed,matado,VERB
+döden,death,la muerte,X
+dök,dove/appeared,se sumergió/apareció,X
+dött,died,muerto,VERB
+ed,oath,juramento,X
+eftermiddag,afternoon,tarde,X
+ej,not,no,X
+ena,the one,uno,VERB
+endast,only,solamente,VERB
+energi,energy,energía,X
+engelska,English,inglés,VERB
+ensamma,alone(pl),solos,VERB

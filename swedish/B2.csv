@@ -1,95 +1,4 @@
 Swedish_Lemma,English_Translation,Spanish_Translation,POS
-acceptera,accept,aceptar,VERB
-accepterar,accepts,acepta,X
-accepterat,accepted,aceptado,VERB
-adoptera,adopt,adoptar,VERB
-adressen,the address,la dirección,X
-advokaten,the lawyer,el abogado,X
-advokater,lawyers,abogados,X
-affärerna,the businesses,los negocios,VERB
-afrika,Africa,África,VERB
-afton,evening,tarde,X
-agenter,agents,agentes,X
-agera,act,actuar,VERB
-ah,ah,ah,X
-al,al,al,X
-alarm,alarm,alarma,X
-album,album,álbum,X
-alfa,alpha,alfa,VERB
-alibi,alibi,coartada,X
-alkohol,alcohol,alcohol,X
-allas,everyone's,de todos,X
-allierade,allies,aliados,VERB
-allmänt,generally,generalmente,VERB
-allra,most,lo más,VERB
-alltför,too/excessively,demasiado,X
-allvarlig,serious,serio,ADJ
-alternativ,alternative,alternativa,X
-am,am,soy,X
-ambulans,ambulance,ambulancia,X
-amen,amen,amén,X
-amerikan,American,estadounidense,X
-amerikaner,Americans,estadounidenses,X
-amerikansk,American,estadounidense,ADJ
-ammunition,ammunition,munición,X
-ana,suspect/sense,presumir,VERB
-anar,suspect/sense,presumir,X
-and,duck,ánade,X
-ande,spirit,espíritu,VERB
-andel,share/proportion,parte,X
-andetag,breath,aliento,X
-andras,others',de otros,X
-andre,Andrew/other,Andrés/otro,X
-anfall,attack,ataque,X
-angår,concerns,concierne,X
-anhöriga,relatives,familiares,VERB
-anledningen,the reason,la razón,X
-anläggningen,the facility,la instalación,X
-anmäla,report,denunciar,VERB
-annans,someone else's,de otro,X
-annanstans,elsewhere,en otra parte,X
-ansikten,faces,rostros,X
-anställda,employees,empleados,VERB
-ansvaret,the responsibility,la responsabilidad,VERB
-anta,assume,suponer,VERB
-antal,number/quantity,cantidad,X
-antog,assumed,asumió,X
-användas,be used,usarse,X
-används,is used,se usa,X
-använt,used,usado,VERB
-apa,monkey/ape,mono,VERB
-arbetade,worked,trabajó,VERB
-arbetarna,the workers,los trabajadores,VERB
-arbetat,worked,trabajado,VERB
-arbetet,the work,el trabajo,VERB
-arga,angry(pl),enojados,VERB
-arkiv,archive,archivo,X
-armar,arms,brazos,X
-armarna,the arms,los brazos,VERB
-armband,bracelet,pulsera,X
-armen,the arm,el brazo,X
-arsle,ass,culo,X
-arslet,the ass,el culo,VERB
-art,kind/species,tipo,VERB
-artikel,article,artículo,X
-artiklar,articles,artículos,X
-artist,artist,artista,VERB
-as,ace/carcass,as,X
-askan,the ash,la ceniza,X
-assistent,assistant,asistente,VERB
-at,at,en,VERB
-attack,attack,ataque,X
-attacken,the attack,el ataque,X
-attackerade,attacked,atacó,VERB
-attjag,that I,que yo,X
-avbryta,interrupt,interrumpir,VERB
-avdelning,department,departamento,NOUN
-avgör,decides,decide,X
-avgöra,decide/determine,decidir,VERB
-avrättning,execution,ejecución,NOUN
-avsikt,intention,intención,VERB
-avsiktligt,intentionally,deliberadamente,VERB
-avskyr,detests,detesta,X
 avslutar,finishes,termina,X
 avslöja,reveal,revelar,VERB
 avslöjad,revealed,revelada,X
@@ -1628,7 +1537,6 @@ systrar,sisters,hermanas,X
 säkerheten,the security,la seguridad,X
 säkrare,safer,más seguro,X
 sällan,rarely,rara vez,X
-sämre,worse,peor,X
 sändare,transmitter,emisor,X
 sänder,sends,envía,X
 sänk,lower!,¡baja!,X
@@ -1958,3 +1866,136 @@ ytterligare,further/additional,adicional,X
 övertala,persuade,persuadir,VERB
 övertyga,convince,convencer,VERB
 övertygad,convinced,convencido,X
+aah,aah,aah,X
+abort,abortion,aborto,VERB
+absurt,absurd,absurdo,VERB
+accepterade,accepted,aceptó,VERB
+affärsman,businessman,hombre de negocios,X
+agenten,the agent,el agente,X
+agerade,acted,actuó,VERB
+agerar,acts,actúa,X
+aggressiv,aggressive,agresivo,X
+aha,aha,aja,VERB
+akt,act/share,acto/acción,VERB
+akten,the file/the act,el expediente,X
+aktier,shares/stocks,acciones,X
+aktiv,active,activo,X
+aktivera,activate,activar,VERB
+aktivitet,activity,actividad,VERB
+aktiviteter,activities,actividades,X
+akut,acute/emergency,urgente,VERB
+akuten,the ER,urgencias,X
+alias,alias,alias,X
+alkoholist,alcoholic,alcohólico,VERB
+allergisk,allergic,alérgico,ADJ
+allesammans,all of it/that,todo,X
+allians,alliance,alianza,X
+allmän,general,general,X
+allmänheten,the public,el público,X
+allmänna,general/public(pl,generales,VERB
+allvarliga,serious(pl,serios,VERB
+alternativet,the alternative,la alternativa,VERB
+amatör,amateur,aficionado,X
+ambassaden,the embassy,la embajada,X
+ambassadör,ambassador,embajador,X
+ambassadören,the ambassador,el embajador,X
+ambulansen,the ambulance,la ambulancia,X
+amerikanerna,the Americans,los estadounidenses,VERB
+amerikanskt,American,estadounidense,VERB
+amerikas,America's,de Estados Unidos,X
+amiral,admiral,almirante,X
+anade,suspected,presumí,VERB
+analys,analysis,análisis,X
+analysera,analyze,analizar,VERB
+andan,the spirit,el espíritu,X
+andar,spirits/breathes,espíritus/respira,X
+andarna,the spirits,los espíritus,VERB
+andedräkt,breath,aliento,VERB
+anden,the spirit/the duck,el espíritu/el ánade,X
+anfalla,attack,atacar,VERB
+anfaller,attacks,ataca,X
+anfallet,the attack,el ataque,VERB
+anföll,attacked,atacó,X
+ange,state/give,indicar,X
+angenämt,pleasantly,agradablemente,VERB
+angrep,attacked,atacó,X
+angrepp,attack,ataque,X
+angriper,attacks,ataca,X
+anhängare,supporter/follower,seguidor,X
+anhållen,detained,detenido,X
+anka,duck,pato,VERB
+anklaga,accuse,acusar,VERB
+anklagad,accused,acusado,X
+anklagade,accused,acusado,VERB
+anklagar,accuses,acusa,X
+anklagelser,accusations,acusaciones,X
+anklagelserna,the accusations,las acusaciones,VERB
+ankomst,arrival,llegada,VERB
+anledningar,reasons,razones,X
+anlita,hire,contratar,VERB
+anlitade,hired,contrató,VERB
+anlitat,hired,contratado,VERB
+anlände,arrived,llegó,VERB
+anländer,arrives,llega,X
+anlänt,arrived,llegado,VERB
+anmälan,report,denuncia,X
+anmälde,reported,denunció,VERB
+anmäler,reports,denuncia,X
+anmält,reported,denunciado,VERB
+anonym,anonymous,anónimo,X
+anonyma,anonymous,anónimos,VERB
+anonymt,anonymously,anónimamente,VERB
+anpassa,adapt,adaptar,VERB
+anropa,call,llamar,VERB
+anropar,calls,llama,X
+anses,is considered,se considera,X
+ansluta,connect,conectar,VERB
+anspråk,claims,reclamaciones,X
+anställa,employ/hire,contratar,VERB
+anställd,employee,empleado,X
+anställde,employed/hired,contrató,VERB
+anställer,hires,contrata,X
+ansvarar,is responsible,es responsable,X
+ansvariga,responsible(pl,responsables,VERB
+ansåg,considered,consideró,X
+ansökan,application,solicitud,X
+antalet,the number,el número,VERB
+anteckningar,notes,apuntes,X
+antibiotika,antibiotics,antibióticos,VERB
+antyder,hints/suggests,sugiere,X
+användbar,useful,útil,ADJ
+användbart,useful,útil,VERB
+användes,was used,se usaba,X
+användning,use,uso,NOUN
+använts,been used,sido usado,X
+apan,the monkey,el mono,X
+apor,apes,monos,X
+apparaten,the apparatus,el aparato,X
+applåd,applause,aplauso,X
+apropå,with regard to,a propósito de,X
+aptit,appetite,apetito,VERB
+arbetare,worker,trabajador,X
+arbetsgivare,employer,empleador,X
+arbetslös,unemployed,desempleado,X
+arenan,the arena,la arena,X
+argument,argument,argumento,VERB
+arkivet,the archive,el archivo,VERB
+arrestera,arrest,arrestar,VERB
+arresterad,arrested,arrestado,X
+arresterade,arrested,arrestó,VERB
+arrogant,arrogant,arrogante,VERB
+arsel,ass,culo,X
+arter,species/types,especies,X
+artig,polite,educado,ADJ
+artikeln,the article,el artículo,X
+arv,inheritance,herencia,X
+arvinge,heir,heredero,X
+aska,ashes,cenizas,VERB
+atmosfären,the atmosphere,la atmósfera,X
+attacker,attacks,ataques,X
+attackera,attack,atacar,VERB
+attackerad,attacked,atacado,X
+attackerar,attacks,ataca,X
+attityd,attitude,actitud,X
+attraktiv,attractive,atractivo,X
+auktoritet,authority,autoridad,VERB

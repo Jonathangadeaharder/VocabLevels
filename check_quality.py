@@ -28,9 +28,9 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
     lang_dir = ROOT / lang
     print(f"\n=== {lang.upper()} ===")
 
-    # Chinese uses HSK levels (HSK1-HSK6) instead of CEFR (A1-C1).
-    levels = HSK_LEVELS if lang == "chinese" else LEVELS
-    targets = HSK_TARGETS if lang == "chinese" else TARGETS
+    # All languages now use harmonized CEFR A1-C1 levels.
+    levels = LEVELS
+    targets = TARGETS
 
     seen_lemmas: dict[str, str] = {}  # lemma -> first level it appeared in
     issues = 0
