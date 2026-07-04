@@ -98,14 +98,19 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
                 print(f"    L{idx}: '{lemma}' {cfg['trans_cols'][1]} has whitespace")
                 issues += 1
 
-            key = lemma.lower()
+            # Duplicate key includes POS: same lemma with different POS
+            # (e.g. "run" as VERB and NOUN) is NOT a duplicate.
+            pos = (row.get("POS") or "X").strip()
+            key = f"{lemma.lower()}|{pos}"
+
             if key in intra_lemmas:
-                print(f"    L{idx}: intra-level duplicate '{lemma}'")
+                print(f"    L{idx}: intra-level duplicate '{lemma}' ({pos})")
                 issues += 1
             intra_lemmas.add(key)
 
+            # Cross-level check also keyed on lemma+POS
             if key in seen_lemmas and seen_lemmas[key] != level:
-                print(f"    L{idx}: '{lemma}' already in {seen_lemmas[key]}")
+                print(f"    L{idx}: '{lemma}' ({pos}) already in {seen_lemmas[key]}")
                 issues += 1
             else:
                 seen_lemmas.setdefault(key, level)
