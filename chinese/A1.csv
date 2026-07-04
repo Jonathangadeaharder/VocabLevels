@@ -1,601 +1,601 @@
-Chinese_Lemma,English_Translation,POS
-一,one,NUM
-七,seven,NUM
-三,three,NUM
-上,up / above,PART
-上午,morning,NOUN
-下,down,PART
-下午,afternoon,NOUN
-下雨,to rain,NOUN
-不,no / not,NOUN
-不客气,you're welcome,NOUN
-东西,thing,NOUN
-个,measure word (general),NOUN
-中午,noon,NOUN
-中国,China,NOUN
-九,nine,NUM
-书,book,NOUN
-买,to buy,VERB
-了,completed-action particle,PART
-二,two,NUM
-五,five,NUM
-些,some,NOUN
-人,person,NOUN
-什么,what,PRON
-今天,today,NOUN
-他,he / him,PRON
-会,can / to be able to,VERB
-住,to live,VERB
-你,you,PRON
-做,to do / to make,VERB
-儿子,son,NOUN
-先生,Mr. / sir,NOUN
-八,eight,NUM
-六,six,NUM
-再见,goodbye,NOUN
-写,to write,NOUN
-冷,cold,NOUN
-几,how many / a few,NOUN
-出租车,taxi,NOUN
-分钟,minute,NOUN
-前面,front / ahead,NOUN
-北京,Beijing,NOUN
-医生,doctor,NOUN
-医院,hospital,NOUN
-十,ten,NUM
-去,to go,VERB
-叫,to be called,NOUN
-吃,to eat,VERB
-同学,classmate,NOUN
-名字,name,NOUN
-后面,back / behind,NOUN
-吗,question particle,PART
-听,to listen / to hear,VERB
-呢,modal particle,PART
-和,and,PART
-哪,which,NOUN
-哪儿,where,NOUN
-商店,store / shop,NOUN
-喂,hello (phone),NOUN
-喜欢,to like,NOUN
-喝,to drink,VERB
-四,four,NUM
-回,to return,NOUN
-在,at / in / on,PART
-坐,to sit,VERB
-块,"piece (measure word, money)",NOUN
-多,many / much,NOUN
-多少,how many / how much,NOUN
-大,big / large,NOUN
-天气,weather,NOUN
-太,too / excessively,NOUN
-女儿,daughter,NOUN
-她,she / her,PRON
-好,good / well,NOUN
-妈妈,mom / mother,NOUN
-字,character / word,NOUN
-学习,to study / to learn,NOUN
-学校,school,NOUN
-学生,student,NOUN
-家,home / family,NOUN
-对不起,sorry,NOUN
-小,small,NOUN
-小姐,miss,NOUN
-少,few,NOUN
-岁,year (of age),NOUN
-工作,work / to work,NOUN
-年,year,NOUN
-开,to open,VERB
-很,very,NOUN
-怎么,how,PRON
-怎么样,how about,NOUN
-想,to think / to want,VERB
-我,I,PRON
-我们,we,PRON
-打电话,to make a phone call,NOUN
-日,day / sun,NOUN
-时候,time / when,NOUN
-明天,tomorrow,NOUN
-星期,week,NOUN
-昨天,yesterday,NOUN
-是,to be,VERB
-月,month / moon,NOUN
-有,to have,VERB
-朋友,friend,NOUN
-本,measure word for books,NOUN
-来,to come,VERB
-杯子,cup,NOUN
-桌子,table,NOUN
-椅子,chair,NOUN
-水,water,NOUN
-水果,fruit,NOUN
-汉语,Chinese (language),NOUN
-没,not / not have,NOUN
-没关系,it doesn't matter,NOUN
-漂亮,pretty,NOUN
-火车站,train station,NOUN
-点,o'clock / point,NOUN
-热,hot,NOUN
-爱,to love,VERB
-爸爸,dad / father,NOUN
-狗,dog,NOUN
-猫,cat,NOUN
-现在,now,NOUN
-电影,movie,NOUN
-电脑,computer,NOUN
-电视,television,NOUN
-的,possessive particle,PART
-看,to look / to see / to read,VERB
-看见,to see,NOUN
-睡觉,to sleep,NOUN
-米饭,cooked rice,NOUN
-老师,teacher,NOUN
-能,can / to be able to,VERB
-苹果,apple,NOUN
-茶,tea,NOUN
-菜,food / dish,NOUN
-衣服,clothes,NOUN
-认识,to know / to recognize,NOUN
-说话,to speak,NOUN
-请,please / to invite,NOUN
-读,to read,NOUN
-谁,who,PRON
-谢谢,thank you,NOUN
-这,this,PRON
-那,that,PRON
-都,all,NOUN
-里,inside / in,PART
-钱,money,NOUN
-零,zero,NUM
-飞机,airplane,NOUN
-饭馆,restaurant,NOUN
-高兴,happy,NOUN
-一起,together,NOUN
-丈夫,husband,NOUN
-上班,to go to work,NOUN
-两,two,NUM
-为,for / to,NOUN
-也,also / too,NOUN
-事情,matter / affair,NOUN
-介绍,to introduce,NOUN
-从,from,PART
-件,measure word (events / items),NOUN
-休息,to rest,NOUN
-但是,but,NOUN
-便宜,cheap,NOUN
-元,yuan (Chinese currency),NOUN
-公共汽车,bus,NOUN
-公司,company,NOUN
-公斤,kilogram,NOUN
-再,again,NOUN
-准备,to prepare,NOUN
-出,to go out,NOUN
-别,do not,NOUN
-到,to arrive / to,PART
-千,thousand,NUM
-卖,to sell,VERB
-去年,last year,NOUN
-可以,can / may,VERB
-可能,maybe / possible,NOUN
-右边,right side,NOUN
-号,number / date,NOUN
-向,toward,PART
-吧,modal particle (suggestion),PART
-告诉,to tell,NOUN
-咖啡,coffee,NOUN
-哥哥,older brother,NOUN
-唱歌,to sing,NOUN
-回答,to answer / reply,NOUN
-因为,because,NOUN
-外,outside,PART
-大家,everyone,NOUN
-女人,woman,NOUN
-好吃,tasty / delicious,NOUN
-妹妹,younger sister,NOUN
-妻子,wife,NOUN
-姐姐,older sister,NOUN
-姓,surname,NOUN
-孩子,child,NOUN
-它,it,PRON
-完,to finish,NOUN
-小时,hour,NOUN
-就,then / just,NOUN
-左边,left side,NOUN
-已经,already,NOUN
-希望,to hope / to wish,NOUN
-帮助,to help / assistance,NOUN
-开始,to begin / to start,NOUN
-弟弟,younger brother,NOUN
-张,measure word (flat objects),NOUN
-得,structural particle (after verb),NOUN
-忙,busy,NOUN
-快,fast / quick,NOUN
-快乐,happy,NOUN
-您,you (polite),NOUN
-意思,meaning,NOUN
-慢,slow,NOUN
-懂,to understand,NOUN
-房间,room,NOUN
-所以,therefore,NOUN
-手机,cell phone,NOUN
-手表,watch,NOUN
-打篮球,to play basketball,NOUN
-找,to look for / to find,NOUN
-报纸,newspaper,NOUN
-教室,classroom,NOUN
-新,new,NOUN
-旁边,beside / next to,NOUN
-旅游,to travel / trip,NOUN
-早上,morning,NOUN
-时间,time,NOUN
-晚上,evening / night,NOUN
-晴,clear (weather),NOUN
-最,most,NOUN
-服务员,waiter / attendant,NOUN
-机场,airport,NOUN
-次,time / occurrence (measure word),NOUN
-欢迎,to welcome,NOUN
-正在,in the middle of (doing),NOUN
-每,each / every,NOUN
-比,compared to / than,NOUN
-洗,to wash,NOUN
-游泳,to swim,NOUN
-牛奶,milk,NOUN
-玩,to play,NOUN
-生日,birthday,NOUN
-生病,to get sick,NOUN
-男人,man,NOUN
-白,white,NOUN
-百,hundred,NUM
-真,really / true,NOUN
-眼睛,eye,NOUN
-着,aspect particle (action in progress),PART
-知道,to know,NOUN
-票,ticket,NOUN
-离,from / away from,NOUN
-穿,to wear / to put on,NOUN
-笑,to laugh / smile,VERB
-第一,first,NOUN
-累,tired,NOUN
-红,red,NOUN
-给,to give,VERB
-羊肉,mutton,NOUN
-考试,exam / to take an exam,NOUN
-自行车,bicycle,NOUN
-船,boat,NOUN
-药,medicine,NOUN
-西瓜,watermelon,NOUN
-要,to want / to need / will,VERB
-觉得,to feel / to think,NOUN
-让,to let / to allow,PART
-课,class / lesson,NOUN
-贵,expensive,NOUN
-走,to walk / to go,VERB
-起床,to get up,NOUN
-跑步,to run / to jog,NOUN
-路,road,NOUN
-跳舞,to dance,NOUN
-踢,to kick,NOUN
-身体,body,NOUN
-运动,sports / exercise,NOUN
-近,near,NOUN
-还,still / also,NOUN
-进,to enter / to advance,NOUN
-远,far,NOUN
-送,to deliver / to give (as gift),NOUN
-错,wrong / mistake,NOUN
-长,long,NOUN
-门,door / gate,NOUN
-问,to ask,NOUN
-问题,question / problem,NOUN
-阴,overcast,NOUN
-雪,snow,NOUN
-非常,very / extremely,NOUN
-题,question / problem,NOUN
-颜色,color,NOUN
-高,tall / high,NOUN
-鱼,fish,NOUN
-鸡蛋,egg,NOUN
-黑,black,NOUN
-一会儿,a while,NOUN
-一共,altogether,NOUN
-一定,surely,NOUN
-一样,same,NOUN
-一直,straight (in a straight line),NOUN
-一般,same,NOUN
-一边,one side,NOUN
-万,ten thousand,NUM
-上网,to be on the internet,NOUN
-世界,world,NOUN
-东,east,NOUN
-中间,between,NOUN
-为了,in order to,NOUN
-为什么,why?,PRON
-主要,main,NOUN
-举行,to hold (a meeting,NOUN
-久,(long) time,NOUN
-习惯,habit,NOUN
-了解,to understand,NOUN
-云,cloud,NOUN
-以为,to believe,NOUN
-以前,before,NOUN
-以后,after,NOUN
-会议,meeting,NOUN
-伞,umbrella,NOUN
-位,position,NOUN
-低,low,NOUN
-体育,sports,NOUN
-作业,school assignment,NOUN
-作用,to act on,NOUN
-使,to make,NOUN
-信,letter,NOUN
-借,to lend,NOUN
-健康,health,NOUN
-像,to resemble,NOUN
-先,early,NOUN
-公园,public park,NOUN
-关,mountain pass,VERB
-关于,pertaining to,NOUN
-关心,to care for sth,NOUN
-关系,relationship / relation,NOUN
-兴趣,interest (desire to know about sth),NOUN
-其他,other,NOUN
-其实,actually,NOUN
-冬,sound of beating a drum,NOUN
-冰箱,icebox,NOUN
-决定,to decide (to do something),NOUN
-几乎,almost,NOUN
-出现,to appear,NOUN
-分,to divide,NOUN
-刚才,(just) a moment ago,NOUN
-别人,other people,NOUN
-刮,to blow (of the wind),NOUN
-刷,to brush,NOUN
-刻,quarter (hour),NOUN
-办公室,office,NOUN
-办法,means,NOUN
-动物,animal,NOUN
-努力,great effort,NOUN
-包,to cover,NOUN
-北方,north,NOUN
-半,half,NUM
-南,south,NOUN
-历史,history,NOUN
-厨房,kitchen,NOUN
-参加,to participate,NOUN
-又,(once) again,NOUN
-双,two,NOUN
-发烧,to have a high temperature (from illness),NOUN
-发现,to find,NOUN
-叔叔,father's younger brother,NOUN
-变化,change,NOUN
-口,mouth,NOUN
-句子,sentence,NOUN
-只,classifier for birds and certain animals,NOUN
-可爱,cute / lovely,NOUN
-司机,chauffeur,NOUN
-同事,colleague,NOUN
-同意,to agree,NOUN
-周末,weekend,NOUN
-哭,to cry,VERB
-啊,modal particle ending sentence,PART
-啤酒,beer,NOUN
-国家,country,NOUN
-图书馆,library,NOUN
-地,-ly,NOUN
-地图,map,NOUN
-地方,area,NOUN
-地铁,subway,NOUN
-坏,bad,NOUN
-城市,city,NOUN
-声音,voice,NOUN
-复习,to review / revise,NOUN
-夏,summer,NOUN
-多么,how (wonderful etc),NOUN
-太阳,sun,NOUN
-头发,hair (on the head),NOUN
-奇怪,strange,NOUN
-奶奶,(informal) grandma (paternal grandmother),NOUN
-如果,if,NOUN
-字典,dictionary,NOUN
-季节,time,NOUN
-安静,quiet,NOUN
-完成,to complete,NOUN
-客人,visitor,NOUN
-害怕,to be afraid,NOUN
-容易,easy,NOUN
-宾馆,guesthouse,NOUN
-小心,to be careful,NOUN
-层,layer,NOUN
-差,to differ from,NOUN
-带,band,NOUN
-帮忙,to help,NOUN
-帽子,hat,NOUN
-干净,clean,NOUN
-年级,grade,NOUN
-年轻,young,NOUN
-应该,ought to,NOUN
-当然,only natural,NOUN
-影响,an influence,NOUN
-必须,to have to,NOUN
-忘记,to forget,NOUN
-总是,always,NOUN
-感冒,to catch cold,NOUN
-愿意,to wish,NOUN
-成绩,achievement,NOUN
-或者,or,NOUN
-才,a moment ago,NOUN
-打扫,to clean,NOUN
-打算,to plan,NOUN
-把,to hold,PART
-护照,passport,NOUN
-担心,anxious,NOUN
-拿,to hold,VERB
-换,to change,NOUN
-接,to receive,NOUN
-提高,to raise,NOUN
-搬,to move,NOUN
-放,to release,NOUN
-放心,to feel relieved,NOUN
-故事,narrative,NOUN
-教,to teach,NOUN
-敢,to dare,NOUN
-数学,mathematics,NOUN
-文化,culture,NOUN
-新闻,news,NOUN
-新鲜,fresh (experience,NOUN
-方便,convenient,NOUN
-旧,old,NOUN
-明白,clear,NOUN
-春,spring (time),NOUN
-普通话,Mandarin (common language),NOUN
-更,more,NOUN
-最近,recent,NOUN
-月亮,moon,NOUN
-有名,famous,NOUN
-机会,opportunity,NOUN
-条,strip,NOUN
-极,extremely,NOUN
-果汁,fruit juice,NOUN
-树,tree,NOUN
-校长,(college,NOUN
-根据,according to,NOUN
-检查,inspection,NOUN
-楼,house with more than 1 story,NOUN
-段,paragraph,NOUN
-比赛,competition (sports etc),NOUN
-比较,to compare,NOUN
-水平,level (of achievement etc),NOUN
-河,river,NOUN
-注意,to take note of,NOUN
-洗手间,toilet,NOUN
-洗澡,to bathe,NOUN
-清楚,clear,NOUN
-渴,thirsty,NOUN
-游戏,game,NOUN
-满意,satisfied,NOUN
-灯,lamp,NOUN
-热情,warm / enthusiastic,NOUN
-然后,after,NOUN
-照片,photograph,NOUN
-照相机,camera,NOUN
-照顾,to take care of,NOUN
-熊猫,panda,NOUN
-爬山,to climb a mountain,NOUN
-爱好,to like,NOUN
-爷爷,(informal) father's father,NOUN
-特别,especially,NOUN
-环境,environment,NOUN
-班,team,NOUN
-甜,sweet,NOUN
-生气,angry,NOUN
-用,to use,VERB
-电子,electronic,NOUN
-电梯,elevator,NOUN
-画,to draw,NOUN
-疼,(it) hurts,NOUN
-瘦,thin,NOUN
-盘子,tray,NOUN
-相信,to be convinced (that sth is true),NOUN
-相同,identical,NOUN
-眼镜,spectacles,NOUN
-着急,to worry,NOUN
-短,short or brief,NOUN
-矮,low,NOUN
-碗,bowl,NOUN
-礼物,gift,NOUN
-祝,to wish,NOUN
-离开,to depart,NOUN
-秋,a swing,NOUN
-种,abbr. for 物種|物种,NOUN
-空调,air conditioning,NOUN
-突然,sudden,NOUN
-站,station,VERB
-筷子,chopsticks,NOUN
-简单,simple,NOUN
-米,rice,NOUN
-糖,sugar,NOUN
-练习,exercise,NOUN
-终于,at last,NOUN
-经常,day to day,NOUN
-经理,manager,NOUN
-经过,to pass,NOUN
-结婚,to marry,NOUN
-结束,termination,NOUN
-绿,green,NOUN
-老,old,NOUN
-而且,(not only ...) but also,NOUN
-耳朵,ear,NOUN
-聪明,acute (of sight and hearing),NOUN
-胖,fat,NOUN
-脚,foot,NOUN
-脸,face,NOUN
-腿,leg,NOUN
-自己,oneself,NOUN
-舒服,comfortable,NOUN
-节日,holiday,NOUN
-节目,program,NOUN
-花,flower,NOUN
-花园,garden,NOUN
-草,grass,NOUN
-菜单,menu,NOUN
-葡萄,grape,NOUN
-蓝,blue,NOUN
-虽然,although,NOUN
-蛋糕,cake,NOUN
-行李箱,suitcase,NOUN
-街道,street,NOUN
-表演,play,NOUN
-表示,to express,NOUN
-衬衫,shirt,NOUN
-被,quilt,PART
-裙子,skirt,NOUN
-裤子,trousers,NOUN
-西,west,NOUN
-要求,to request,NOUN
-见面,to meet,NOUN
-角,angle,NOUN
-解决,to settle (a dispute),NOUN
-认为,to believe,NOUN
-认真,conscientious,NOUN
-记得,to remember,NOUN
-讲,to speak,NOUN
-词语,word (general term including monosyllables through to short phrases),NOUN
-超市,supermarket (abbr.),NOUN
-越,to exceed,NOUN
-跟,heel,NOUN
-辆,classifier for vehicles,NOUN
-过去,(in the) past,NOUN
-还是,or,NOUN
-迟到,to arrive late,NOUN
-选择,to select,NOUN
-遇到,to meet,NOUN
-邻居,neighbor,NOUN
-重要,important,NOUN
-铅笔,(lead) pencil,NOUN
-银行,bank,NOUN
-锻炼,to engage in physical exercise,NOUN
-阿姨,maternal aunt,NOUN
-附近,(in the) vicinity,NOUN
-除了,besides,NOUN
-难,difficult (to...),NOUN
-难过,to feel sad,NOUN
-需要,to need,NOUN
-面包,bread,NOUN
-面条,noodles,NOUN
-鞋,shoe,NOUN
-音乐,music,NOUN
-饱,to eat till full,NOUN
-饿,to be hungry,NOUN
-香蕉,banana,NOUN
-马,horse,NOUN
-马上,at once,NOUN
-骑,to ride (an animal or bike),NOUN
-鸟,bird,NOUN
-黄,yellow,NOUN
-黑板,blackboard,NOUN
-鼻子,nose,NOUN
-一切,everything,NOUN
-不仅,not only (this one),NOUN
-不但,not only (... but also...),NOUN
-不得不,have no choice or option but to,NOUN
+Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
+一,one,一,NUM
+七,seven,七,NUM
+三,three,三,NUM
+上,up / above,上,PART
+上午,morning,上午,NOUN
+下,down,下,PART
+下午,afternoon,下午,NOUN
+下雨,to rain,下雨,NOUN
+不,no / not,不,NOUN
+不客气,you're welcome,不客气,NOUN
+东西,thing,东西,NOUN
+个,measure word (general),个,NOUN
+中午,noon,中午,NOUN
+中国,China,中国,NOUN
+九,nine,九,NUM
+书,book,书,NOUN
+买,to buy,买,VERB
+了,completed-action particle,了,PART
+二,two,二,NUM
+五,five,五,NUM
+些,some,些,NOUN
+人,person,人,NOUN
+什么,what,什么,PRON
+今天,today,今天,NOUN
+他,he / him,他,PRON
+会,can / to be able to,会,VERB
+住,to live,住,VERB
+你,you,你,PRON
+做,to do / to make,做,VERB
+儿子,son,儿子,NOUN
+先生,Mr. / sir,先生,NOUN
+八,eight,八,NUM
+六,six,六,NUM
+再见,goodbye,再见,NOUN
+写,to write,写,NOUN
+冷,cold,冷,NOUN
+几,how many / a few,几,NOUN
+出租车,taxi,出租车,NOUN
+分钟,minute,分钟,NOUN
+前面,front / ahead,前面,NOUN
+北京,Beijing,北京,NOUN
+医生,doctor,医生,NOUN
+医院,hospital,医院,NOUN
+十,ten,十,NUM
+去,to go,去,VERB
+叫,to be called,叫,NOUN
+吃,to eat,吃,VERB
+同学,classmate,同学,NOUN
+名字,name,名字,NOUN
+后面,back / behind,后面,NOUN
+吗,question particle,吗,PART
+听,to listen / to hear,听,VERB
+呢,modal particle,呢,PART
+和,and,和,PART
+哪,which,哪,NOUN
+哪儿,where,哪儿,NOUN
+商店,store / shop,商店,NOUN
+喂,hello (phone),喂,NOUN
+喜欢,to like,喜欢,NOUN
+喝,to drink,喝,VERB
+四,four,四,NUM
+回,to return,回,NOUN
+在,at / in / on,在,PART
+坐,to sit,坐,VERB
+块,"piece (measure word, money)",块,NOUN
+多,many / much,多,NOUN
+多少,how many / how much,多少,NOUN
+大,big / large,大,NOUN
+天气,weather,天气,NOUN
+太,too / excessively,太,NOUN
+女儿,daughter,女儿,NOUN
+她,she / her,她,PRON
+好,good / well,好,NOUN
+妈妈,mom / mother,妈妈,NOUN
+字,character / word,字,NOUN
+学习,to study / to learn,学习,NOUN
+学校,school,学校,NOUN
+学生,student,学生,NOUN
+家,home / family,家,NOUN
+对不起,sorry,对不起,NOUN
+小,small,小,NOUN
+小姐,miss,小姐,NOUN
+少,few,少,NOUN
+岁,year (of age),岁,NOUN
+工作,work / to work,工作,NOUN
+年,year,年,NOUN
+开,to open,开,VERB
+很,very,很,NOUN
+怎么,how,怎么,PRON
+怎么样,how about,怎么样,NOUN
+想,to think / to want,想,VERB
+我,I,我,PRON
+我们,we,我们,PRON
+打电话,to make a phone call,打电话,NOUN
+日,day / sun,日,NOUN
+时候,time / when,时候,NOUN
+明天,tomorrow,明天,NOUN
+星期,week,星期,NOUN
+昨天,yesterday,昨天,NOUN
+是,to be,是,VERB
+月,month / moon,月,NOUN
+有,to have,有,VERB
+朋友,friend,朋友,NOUN
+本,measure word for books,本,NOUN
+来,to come,来,VERB
+杯子,cup,杯子,NOUN
+桌子,table,桌子,NOUN
+椅子,chair,椅子,NOUN
+水,water,水,NOUN
+水果,fruit,水果,NOUN
+汉语,Chinese (language),汉语,NOUN
+没,not / not have,没,NOUN
+没关系,it doesn't matter,没关系,NOUN
+漂亮,pretty,漂亮,NOUN
+火车站,train station,火车站,NOUN
+点,o'clock / point,点,NOUN
+热,hot,热,NOUN
+爱,to love,爱,VERB
+爸爸,dad / father,爸爸,NOUN
+狗,dog,狗,NOUN
+猫,cat,猫,NOUN
+现在,now,现在,NOUN
+电影,movie,电影,NOUN
+电脑,computer,电脑,NOUN
+电视,television,电视,NOUN
+的,possessive particle,的,PART
+看,to look / to see / to read,看,VERB
+看见,to see,看见,NOUN
+睡觉,to sleep,睡觉,NOUN
+米饭,cooked rice,米饭,NOUN
+老师,teacher,老师,NOUN
+能,can / to be able to,能,VERB
+苹果,apple,苹果,NOUN
+茶,tea,茶,NOUN
+菜,food / dish,菜,NOUN
+衣服,clothes,衣服,NOUN
+认识,to know / to recognize,认识,NOUN
+说话,to speak,说话,NOUN
+请,please / to invite,请,NOUN
+读,to read,读,NOUN
+谁,who,谁,PRON
+谢谢,thank you,谢谢,NOUN
+这,this,这,PRON
+那,that,那,PRON
+都,all,都,NOUN
+里,inside / in,里,PART
+钱,money,钱,NOUN
+零,zero,零,NUM
+飞机,airplane,飞机,NOUN
+饭馆,restaurant,饭馆,NOUN
+高兴,happy,高兴,NOUN
+一起,together,一起,NOUN
+丈夫,husband,丈夫,NOUN
+上班,to go to work,上班,NOUN
+两,two,两,NUM
+为,for / to,为,NOUN
+也,also / too,也,NOUN
+事情,matter / affair,事情,NOUN
+介绍,to introduce,介绍,NOUN
+从,from,从,PART
+件,measure word (events / items),件,NOUN
+休息,to rest,休息,NOUN
+但是,but,但是,NOUN
+便宜,cheap,便宜,NOUN
+元,yuan (Chinese currency),元,NOUN
+公共汽车,bus,公共汽车,NOUN
+公司,company,公司,NOUN
+公斤,kilogram,公斤,NOUN
+再,again,再,NOUN
+准备,to prepare,准备,NOUN
+出,to go out,出,NOUN
+别,do not,别,NOUN
+到,to arrive / to,到,PART
+千,thousand,千,NUM
+卖,to sell,卖,VERB
+去年,last year,去年,NOUN
+可以,can / may,可以,VERB
+可能,maybe / possible,可能,NOUN
+右边,right side,右边,NOUN
+号,number / date,号,NOUN
+向,toward,向,PART
+吧,modal particle (suggestion),吧,PART
+告诉,to tell,告诉,NOUN
+咖啡,coffee,咖啡,NOUN
+哥哥,older brother,哥哥,NOUN
+唱歌,to sing,唱歌,NOUN
+回答,to answer / reply,回答,NOUN
+因为,because,因为,NOUN
+外,outside,外,PART
+大家,everyone,大家,NOUN
+女人,woman,女人,NOUN
+好吃,tasty / delicious,好吃,NOUN
+妹妹,younger sister,妹妹,NOUN
+妻子,wife,妻子,NOUN
+姐姐,older sister,姐姐,NOUN
+姓,surname,姓,NOUN
+孩子,child,孩子,NOUN
+它,it,它,PRON
+完,to finish,完,NOUN
+小时,hour,小时,NOUN
+就,then / just,就,NOUN
+左边,left side,左边,NOUN
+已经,already,已经,NOUN
+希望,to hope / to wish,希望,NOUN
+帮助,to help / assistance,帮助,NOUN
+开始,to begin / to start,开始,NOUN
+弟弟,younger brother,弟弟,NOUN
+张,measure word (flat objects),张,NOUN
+得,structural particle (after verb),得,NOUN
+忙,busy,忙,NOUN
+快,fast / quick,快,NOUN
+快乐,happy,快乐,NOUN
+您,you (polite),您,NOUN
+意思,meaning,意思,NOUN
+慢,slow,慢,NOUN
+懂,to understand,懂,NOUN
+房间,room,房间,NOUN
+所以,therefore,所以,NOUN
+手机,cell phone,手机,NOUN
+手表,watch,手表,NOUN
+打篮球,to play basketball,打篮球,NOUN
+找,to look for / to find,找,NOUN
+报纸,newspaper,报纸,NOUN
+教室,classroom,教室,NOUN
+新,new,新,NOUN
+旁边,beside / next to,旁边,NOUN
+旅游,to travel / trip,旅游,NOUN
+早上,morning,早上,NOUN
+时间,time,时间,NOUN
+晚上,evening / night,晚上,NOUN
+晴,clear (weather),晴,NOUN
+最,most,最,NOUN
+服务员,waiter / attendant,服务员,NOUN
+机场,airport,机场,NOUN
+次,time / occurrence (measure word),次,NOUN
+欢迎,to welcome,欢迎,NOUN
+正在,in the middle of (doing),正在,NOUN
+每,each / every,每,NOUN
+比,compared to / than,比,NOUN
+洗,to wash,洗,NOUN
+游泳,to swim,游泳,NOUN
+牛奶,milk,牛奶,NOUN
+玩,to play,玩,NOUN
+生日,birthday,生日,NOUN
+生病,to get sick,生病,NOUN
+男人,man,男人,NOUN
+白,white,白,NOUN
+百,hundred,百,NUM
+真,really / true,真,NOUN
+眼睛,eye,眼睛,NOUN
+着,aspect particle (action in progress),着,PART
+知道,to know,知道,NOUN
+票,ticket,票,NOUN
+离,from / away from,离,NOUN
+穿,to wear / to put on,穿,NOUN
+笑,to laugh / smile,笑,VERB
+第一,first,第一,NOUN
+累,tired,累,NOUN
+红,red,红,NOUN
+给,to give,给,VERB
+羊肉,mutton,羊肉,NOUN
+考试,exam / to take an exam,考试,NOUN
+自行车,bicycle,自行车,NOUN
+船,boat,船,NOUN
+药,medicine,药,NOUN
+西瓜,watermelon,西瓜,NOUN
+要,to want / to need / will,要,VERB
+觉得,to feel / to think,觉得,NOUN
+让,to let / to allow,让,PART
+课,class / lesson,课,NOUN
+贵,expensive,贵,NOUN
+走,to walk / to go,走,VERB
+起床,to get up,起床,NOUN
+跑步,to run / to jog,跑步,NOUN
+路,road,路,NOUN
+跳舞,to dance,跳舞,NOUN
+踢,to kick,踢,NOUN
+身体,body,身体,NOUN
+运动,sports / exercise,运动,NOUN
+近,near,近,NOUN
+还,still / also,还,NOUN
+进,to enter / to advance,进,NOUN
+远,far,远,NOUN
+送,to deliver / to give (as gift),送,NOUN
+错,wrong / mistake,错,NOUN
+长,long,长,NOUN
+门,door / gate,门,NOUN
+问,to ask,问,NOUN
+问题,question / problem,问题,NOUN
+阴,overcast,阴,NOUN
+雪,snow,雪,NOUN
+非常,very / extremely,非常,NOUN
+题,question / problem,题,NOUN
+颜色,color,颜色,NOUN
+高,tall / high,高,NOUN
+鱼,fish,鱼,NOUN
+鸡蛋,egg,鸡蛋,NOUN
+黑,black,黑,NOUN
+一会儿,a while,一会儿,NOUN
+一共,altogether,一共,NOUN
+一定,surely,一定,NOUN
+一样,same,一样,NOUN
+一直,straight (in a straight line),一直,NOUN
+一般,same,一般,NOUN
+一边,one side,一边,NOUN
+万,ten thousand,万,NUM
+上网,to be on the internet,上网,NOUN
+世界,world,世界,NOUN
+东,east,东,NOUN
+中间,between,中间,NOUN
+为了,in order to,为了,NOUN
+为什么,why?,为什么,PRON
+主要,main,主要,NOUN
+举行,to hold (a meeting,举行,NOUN
+久,(long) time,久,NOUN
+习惯,habit,习惯,NOUN
+了解,to understand,了解,NOUN
+云,cloud,云,NOUN
+以为,to believe,以为,NOUN
+以前,before,以前,NOUN
+以后,after,以后,NOUN
+会议,meeting,会议,NOUN
+伞,umbrella,伞,NOUN
+位,position,位,NOUN
+低,low,低,NOUN
+体育,sports,体育,NOUN
+作业,school assignment,作业,NOUN
+作用,to act on,作用,NOUN
+使,to make,使,NOUN
+信,letter,信,NOUN
+借,to lend,借,NOUN
+健康,health,健康,NOUN
+像,to resemble,像,NOUN
+先,early,先,NOUN
+公园,public park,公园,NOUN
+关,mountain pass,关,VERB
+关于,pertaining to,关于,NOUN
+关心,to care for sth,关心,NOUN
+关系,relationship / relation,关系,NOUN
+兴趣,interest (desire to know about sth),兴趣,NOUN
+其他,other,其他,NOUN
+其实,actually,其实,NOUN
+冬,sound of beating a drum,冬,NOUN
+冰箱,icebox,冰箱,NOUN
+决定,to decide (to do something),决定,NOUN
+几乎,almost,几乎,NOUN
+出现,to appear,出现,NOUN
+分,to divide,分,NOUN
+刚才,(just) a moment ago,刚才,NOUN
+别人,other people,别人,NOUN
+刮,to blow (of the wind),刮,NOUN
+刷,to brush,刷,NOUN
+刻,quarter (hour),刻,NOUN
+办公室,office,办公室,NOUN
+办法,means,办法,NOUN
+动物,animal,动物,NOUN
+努力,great effort,努力,NOUN
+包,to cover,包,NOUN
+北方,north,北方,NOUN
+半,half,半,NUM
+南,south,南,NOUN
+历史,history,历史,NOUN
+厨房,kitchen,厨房,NOUN
+参加,to participate,参加,NOUN
+又,(once) again,又,NOUN
+双,two,双,NOUN
+发烧,to have a high temperature (from illness),发烧,NOUN
+发现,to find,发现,NOUN
+叔叔,father's younger brother,叔叔,NOUN
+变化,change,变化,NOUN
+口,mouth,口,NOUN
+句子,sentence,句子,NOUN
+只,classifier for birds and certain animals,只,NOUN
+可爱,cute / lovely,可爱,NOUN
+司机,chauffeur,司机,NOUN
+同事,colleague,同事,NOUN
+同意,to agree,同意,NOUN
+周末,weekend,周末,NOUN
+哭,to cry,哭,VERB
+啊,modal particle ending sentence,啊,PART
+啤酒,beer,啤酒,NOUN
+国家,country,国家,NOUN
+图书馆,library,图书馆,NOUN
+地,-ly,地,NOUN
+地图,map,地图,NOUN
+地方,area,地方,NOUN
+地铁,subway,地铁,NOUN
+坏,bad,坏,NOUN
+城市,city,城市,NOUN
+声音,voice,声音,NOUN
+复习,to review / revise,复习,NOUN
+夏,summer,夏,NOUN
+多么,how (wonderful etc),多么,NOUN
+太阳,sun,太阳,NOUN
+头发,hair (on the head),头发,NOUN
+奇怪,strange,奇怪,NOUN
+奶奶,(informal) grandma (paternal grandmother),奶奶,NOUN
+如果,if,如果,NOUN
+字典,dictionary,字典,NOUN
+季节,time,季节,NOUN
+安静,quiet,安静,NOUN
+完成,to complete,完成,NOUN
+客人,visitor,客人,NOUN
+害怕,to be afraid,害怕,NOUN
+容易,easy,容易,NOUN
+宾馆,guesthouse,宾馆,NOUN
+小心,to be careful,小心,NOUN
+层,layer,层,NOUN
+差,to differ from,差,NOUN
+带,band,带,NOUN
+帮忙,to help,帮忙,NOUN
+帽子,hat,帽子,NOUN
+干净,clean,干净,NOUN
+年级,grade,年级,NOUN
+年轻,young,年轻,NOUN
+应该,ought to,应该,NOUN
+当然,only natural,当然,NOUN
+影响,an influence,影响,NOUN
+必须,to have to,必须,NOUN
+忘记,to forget,忘记,NOUN
+总是,always,总是,NOUN
+感冒,to catch cold,感冒,NOUN
+愿意,to wish,愿意,NOUN
+成绩,achievement,成绩,NOUN
+或者,or,或者,NOUN
+才,a moment ago,才,NOUN
+打扫,to clean,打扫,NOUN
+打算,to plan,打算,NOUN
+把,to hold,把,PART
+护照,passport,护照,NOUN
+担心,anxious,担心,NOUN
+拿,to hold,拿,VERB
+换,to change,换,NOUN
+接,to receive,接,NOUN
+提高,to raise,提高,NOUN
+搬,to move,搬,NOUN
+放,to release,放,NOUN
+放心,to feel relieved,放心,NOUN
+故事,narrative,故事,NOUN
+教,to teach,教,NOUN
+敢,to dare,敢,NOUN
+数学,mathematics,数学,NOUN
+文化,culture,文化,NOUN
+新闻,news,新闻,NOUN
+新鲜,fresh (experience,新鲜,NOUN
+方便,convenient,方便,NOUN
+旧,old,旧,NOUN
+明白,clear,明白,NOUN
+春,spring (time),春,NOUN
+普通话,Mandarin (common language),普通话,NOUN
+更,more,更,NOUN
+最近,recent,最近,NOUN
+月亮,moon,月亮,NOUN
+有名,famous,有名,NOUN
+机会,opportunity,机会,NOUN
+条,strip,条,NOUN
+极,extremely,极,NOUN
+果汁,fruit juice,果汁,NOUN
+树,tree,树,NOUN
+校长,(college,校长,NOUN
+根据,according to,根据,NOUN
+检查,inspection,检查,NOUN
+楼,house with more than 1 story,楼,NOUN
+段,paragraph,段,NOUN
+比赛,competition (sports etc),比赛,NOUN
+比较,to compare,比较,NOUN
+水平,level (of achievement etc),水平,NOUN
+河,river,河,NOUN
+注意,to take note of,注意,NOUN
+洗手间,toilet,洗手间,NOUN
+洗澡,to bathe,洗澡,NOUN
+清楚,clear,清楚,NOUN
+渴,thirsty,渴,NOUN
+游戏,game,游戏,NOUN
+满意,satisfied,满意,NOUN
+灯,lamp,灯,NOUN
+热情,warm / enthusiastic,热情,NOUN
+然后,after,然后,NOUN
+照片,photograph,照片,NOUN
+照相机,camera,照相机,NOUN
+照顾,to take care of,照顾,NOUN
+熊猫,panda,熊猫,NOUN
+爬山,to climb a mountain,爬山,NOUN
+爱好,to like,爱好,NOUN
+爷爷,(informal) father's father,爷爷,NOUN
+特别,especially,特别,NOUN
+环境,environment,环境,NOUN
+班,team,班,NOUN
+甜,sweet,甜,NOUN
+生气,angry,生气,NOUN
+用,to use,用,VERB
+电子,electronic,电子,NOUN
+电梯,elevator,电梯,NOUN
+画,to draw,画,NOUN
+疼,(it) hurts,疼,NOUN
+瘦,thin,瘦,NOUN
+盘子,tray,盘子,NOUN
+相信,to be convinced (that sth is true),相信,NOUN
+相同,identical,相同,NOUN
+眼镜,spectacles,眼镜,NOUN
+着急,to worry,着急,NOUN
+短,short or brief,短,NOUN
+矮,low,矮,NOUN
+碗,bowl,碗,NOUN
+礼物,gift,礼物,NOUN
+祝,to wish,祝,NOUN
+离开,to depart,离开,NOUN
+秋,a swing,秋,NOUN
+种,abbr. for 物種|物种,种,NOUN
+空调,air conditioning,空调,NOUN
+突然,sudden,突然,NOUN
+站,station,站,VERB
+筷子,chopsticks,筷子,NOUN
+简单,simple,简单,NOUN
+米,rice,米,NOUN
+糖,sugar,糖,NOUN
+练习,exercise,练习,NOUN
+终于,at last,终于,NOUN
+经常,day to day,经常,NOUN
+经理,manager,经理,NOUN
+经过,to pass,经过,NOUN
+结婚,to marry,结婚,NOUN
+结束,termination,结束,NOUN
+绿,green,绿,NOUN
+老,old,老,NOUN
+而且,(not only ...) but also,而且,NOUN
+耳朵,ear,耳朵,NOUN
+聪明,acute (of sight and hearing),聪明,NOUN
+胖,fat,胖,NOUN
+脚,foot,脚,NOUN
+脸,face,脸,NOUN
+腿,leg,腿,NOUN
+自己,oneself,自己,NOUN
+舒服,comfortable,舒服,NOUN
+节日,holiday,节日,NOUN
+节目,program,节目,NOUN
+花,flower,花,NOUN
+花园,garden,花园,NOUN
+草,grass,草,NOUN
+菜单,menu,菜单,NOUN
+葡萄,grape,葡萄,NOUN
+蓝,blue,蓝,NOUN
+虽然,although,虽然,NOUN
+蛋糕,cake,蛋糕,NOUN
+行李箱,suitcase,行李箱,NOUN
+街道,street,街道,NOUN
+表演,play,表演,NOUN
+表示,to express,表示,NOUN
+衬衫,shirt,衬衫,NOUN
+被,quilt,被,PART
+裙子,skirt,裙子,NOUN
+裤子,trousers,裤子,NOUN
+西,west,西,NOUN
+要求,to request,要求,NOUN
+见面,to meet,见面,NOUN
+角,angle,角,NOUN
+解决,to settle (a dispute),解决,NOUN
+认为,to believe,认为,NOUN
+认真,conscientious,认真,NOUN
+记得,to remember,记得,NOUN
+讲,to speak,讲,NOUN
+词语,word (general term including monosyllables through to short phrases),词语,NOUN
+超市,supermarket (abbr.),超市,NOUN
+越,to exceed,越,NOUN
+跟,heel,跟,NOUN
+辆,classifier for vehicles,辆,NOUN
+过去,(in the) past,过去,NOUN
+还是,or,还是,NOUN
+迟到,to arrive late,迟到,NOUN
+选择,to select,选择,NOUN
+遇到,to meet,遇到,NOUN
+邻居,neighbor,邻居,NOUN
+重要,important,重要,NOUN
+铅笔,(lead) pencil,铅笔,NOUN
+银行,bank,银行,NOUN
+锻炼,to engage in physical exercise,锻炼,NOUN
+阿姨,maternal aunt,阿姨,NOUN
+附近,(in the) vicinity,附近,NOUN
+除了,besides,除了,NOUN
+难,difficult (to...),难,NOUN
+难过,to feel sad,难过,NOUN
+需要,to need,需要,NOUN
+面包,bread,面包,NOUN
+面条,noodles,面条,NOUN
+鞋,shoe,鞋,NOUN
+音乐,music,音乐,NOUN
+饱,to eat till full,饱,NOUN
+饿,to be hungry,饿,NOUN
+香蕉,banana,香蕉,NOUN
+马,horse,马,NOUN
+马上,at once,马上,NOUN
+骑,to ride (an animal or bike),骑,NOUN
+鸟,bird,鸟,NOUN
+黄,yellow,黄,NOUN
+黑板,blackboard,黑板,NOUN
+鼻子,nose,鼻子,NOUN
+一切,everything,一切,NOUN
+不仅,not only (this one),不仅,NOUN
+不但,not only (... but also...),不但,NOUN
+不得不,have no choice or option but to,不得不,NOUN
