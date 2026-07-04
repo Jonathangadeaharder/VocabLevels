@@ -96,7 +96,7 @@ antalet,the number,el número,VERB
 anteckningar,notes,apuntes,X
 antibiotika,antibiotics,antibióticos,VERB
 antyder,hints/suggests,sugiere,X
-användbar,useful,útil,X
+användbar,useful,útil,ADJ
 användbart,useful,útil,VERB
 användes,was used,se usaba,X
 användning,use,uso,NOUN
@@ -258,7 +258,7 @@ bekymra,worry,preocupar,VERB
 bekymrad,worried,preocupado,X
 bekymrar,worries,preocupa,X
 bekämpa,combat,combatir,VERB
-bekännelse,confession,confesión,X
+bekännelse,confession,confesión,NOUN
 belöningen,the reward,la recompensa,X
 beordrade,ordered,ordenó,VERB
 beordrar,orders,ordena,X
@@ -271,7 +271,7 @@ beröm,praise,elogio,X
 berömd,famous,famoso,X
 berömda,famous(pl),famosos,VERB
 berör,touches,toca,X
-besatthet,obsession,obsesión,VERB
+besatthet,obsession,obsesión,NOUN
 besegrade,defeated,derrotó,VERB
 besked,information/answer,información,X
 beskrev,described,describió,X
@@ -292,7 +292,7 @@ beställt,ordered,pedido,VERB
 bestämd,determined,decidido,X
 består,consists,consiste,X
 besvara,answer,responder,VERB
-besvikelse,disappointment,decepción,X
+besvikelse,disappointment,decepción,NOUN
 besvikna,disappointed(pl,decepcionados,VERB
 besvära,bother,molestar,VERB
 besvärar,bothers,molesta,X
@@ -432,7 +432,7 @@ brorsa,brother/bro,hermano,VERB
 brorsdotter,niece,sobrina,X
 brorson,nephew,sobrino,X
 brottet,the crime,el crimen,VERB
-brottslighet,crime,criminalidad,VERB
+brottslighet,crime,criminalidad,NOUN
 brottsling,criminal,criminal,X
 brottslingar,criminals,criminales,X
 brottsplats,crime scene,escena del crimen,X
@@ -722,7 +722,7 @@ engelsman,Englishman,inglés,X
 enheten,the unit,la unidad,X
 enrum,in private,en privado,X
 ensak,one thing,una cosa,X
-ensamhet,loneliness,soledad,VERB
+ensamhet,loneliness,soledad,NOUN
 ensamstående,single,soltero,VERB
 ensamt,lonely/alone,solitario,VERB
 envis,stubborn,terco,X
@@ -1048,7 +1048,7 @@ försent,too late,tarde,VERB
 försiggår,is going on,ocurre,X
 förskott,advance(payment,anticipo,VERB
 förslaget,the proposal,la propuesta,VERB
-förståelse,understanding,comprensión,X
+förståelse,understanding,comprensión,NOUN
 förstående,understanding,comprensivo,VERB
 förstånd,reason/sense,entendimiento,X
 förståndet,the mind/reason,la mente,VERB
@@ -1160,7 +1160,7 @@ glädjen,the joy,la alegría,X
 gnälla,whine,quejarse,VERB
 go,go,ve,X
 goa,good(pl),buenos,VERB
-godhet,goodness,bondad,VERB
+godhet,goodness,bondad,NOUN
 godkväll,good evening,buenas tardes,X
 godkänd,approved,aprobado,X
 godkände,approved,aprobó,VERB
@@ -1221,7 +1221,7 @@ grävde,dug,cavó,VERB
 gräver,digs,cava,X
 grävt,dug,cavado,VERB
 grönsaker,vegetables,verduras,X
-gubbar,old men,viejos,X
+gubbar,old men,viejos,ADJ
 gubbe,old man,viejo,X
 gudar,gods,dioses,X
 gudskelov,thank god,gracias a dios,X
@@ -1274,7 +1274,7 @@ handskas,deal with,manejar,X
 handstil,handwriting,caligrafía,X
 hanterar,handles,maneja,X
 harjag,have I,tengo yo,X
-hastighet,speed,velocidad,VERB
+hastighet,speed,velocidad,NOUN
 haven,yards/harbors,patios/puertos,X
 havets,of the sea,del mar,X
 hederlig,honest,honesto,ADJ
@@ -1385,7 +1385,7 @@ hälsan,the health,la salud,X
 hälsning,greeting,saludo,NOUN
 hälsningar,greetings,saludos,X
 hämtat,fetched,traído,VERB
-händelse,event,evento,X
+händelse,event,evento,NOUN
 händelsen,the event,el evento,X
 händelser,events,eventos,X
 händelserna,the events,los eventos,VERB
@@ -1468,7 +1468,7 @@ inkommande,incoming,entrante,VERB
 inkräktare,intruder,intruso,X
 inlåsta,locked in(pl,encerrados,VERB
 innanför,inside of,dentro de,X
-innebar,meant,implicó,X
+innebar,meant,implicó,ADJ
 innebära,entail,implicar,VERB
 innehållet,the content,el contenido,VERB
 innehöll,contained,contenía,X
@@ -1569,7 +1569,7 @@ jäkel,devil/bastard,maldito,X
 jäkligt,damnly,malditamente,VERB
 jämför,compare,compara,X
 jämföra,compare,comparar,VERB
-jämförelse,comparison,comparación,X
+jämförelse,comparison,comparación,NOUN
 jämfört,compared,comparado,VERB
 jämna,even(pl,iguales,VERB
 jämnt,even,parejo,VERB
@@ -1672,7 +1672,7 @@ kliver,steps,sube,X
 kloka,wise(pl,sabios,VERB
 klor,claws/chlorine,garras/cloro,X
 klostret,the monastery,el monasterio,VERB
-klubbar,clubs,clubes,X
+klubbar,clubs,clubes,ADJ
 klädde,dressed/suited,vistió,VERB
 kläm,squeeze,apretón,X
 klämma,squeeze/clip,apretar,VERB
@@ -2309,8 +2309,8 @@ nuet,the present,el presente,VERB
 numera,nowadays,hoy en día,VERB
 nuvarande,current,actual,VERB
 nybörjare,beginner,principiante,X
-nyfikenhet,curiosity,curiosidad,VERB
-nyhet,news,noticia,VERB
+nyfikenhet,curiosity,curiosidad,NOUN
+nyhet,news,noticia,NOUN
 nykter,sober,sobrio,X
 nähä,oh really,vaya,X
 nämen,oh well,vaya,X
@@ -2318,7 +2318,7 @@ nämligen,namely/you see,es decir,X
 nämn,mention!,¡menciona!,X
 nämner,mentions,menciona,X
 nämnt,mentioned,mencionado,VERB
-närhet,closeness,cercanía,VERB
+närhet,closeness,cercanía,NOUN
 näring,nourishment,nutrición,X
 närjag,when I,cuando yo,X
 närma,approach,acercar,VERB
@@ -2385,10 +2385,10 @@ olaglig,illegal,ilegal,ADJ
 olyckliga,unhappy(pl,desdichados,VERB
 olyckligt,unfortunately,desgraciadamente,VERB
 olyckor,accidents,accidentes,X
-olyckshändelse,accident,accidente,X
+olyckshändelse,accident,accidente,NOUN
 olämpligt,inappropriate,inadecuado,VERB
 omdöme,judgment,juicio,X
-omedelbar,immediate,inmediato,X
+omedelbar,immediate,inmediato,ADJ
 omelett,omelette,tortilla,VERB
 omfattande,comprehensive,extenso,VERB
 omgiven,surrounded,rodeado,X
@@ -2492,7 +2492,7 @@ period,period,período,X
 permanent,permanent,permanente,VERB
 personalen,the staff,el personal,X
 personerna,the persons,las personas,VERB
-personlighet,personality,personalidad,VERB
+personlighet,personality,personalidad,NOUN
 perspektiv,perspective,perspectiva,X
 peruk,wig,peluca,X
 pesten,the plague,la peste,X
@@ -2633,7 +2633,7 @@ påkörd,run over,atropellado,X
 pålitlig,reliable,fiable,ADJ
 påminde,reminded,recordó,VERB
 påminn,remind!,¡recuerda!,X
-påminnelse,reminder,recordatorio,X
+påminnelse,reminder,recordatorio,NOUN
 påsar,bags,bolsas,X
 påse,bag,bolsa,X
 påsen,the bag,la bolsa,X
@@ -2671,7 +2671,7 @@ recept,recipe/prescription,receta,VERB
 receptet,the recipe,la receta,VERB
 receptionen,the reception,la recepción,X
 redaktör,editor,editor,X
-redogörelse,report,informe,X
+redogörelse,report,informe,NOUN
 regelbundet,regularly,regularmente,VERB
 regeln,the rule,la regla,X
 regeringens,the government's,del gobierno,X
@@ -2824,7 +2824,7 @@ rösterna,the voices,las voces,VERB
 rötter,roots,raíces,X
 sabba,sabotage,sabotar,VERB
 sabbade,botched,estrujó,VERB
-sabbar,sabotages,sabota,X
+sabbar,sabotages,sabota,ADJ
 sabbat,sabbath,sábado,VERB
 saga,saga,saga,VERB
 sagan,the story,la historia,X
@@ -2925,7 +2925,7 @@ skalle,skull/head,cráneo/cabeza,X
 skandal,scandal,escándalo,X
 skapades,was created,fue creado,X
 skapare,creator,creador,X
-skapelse,creation,creación,X
+skapelse,creation,creación,NOUN
 skatten,the tax/the treasure,el impuesto/el tesoro,X
 skatter,taxes,impuestos,X
 sked,spoon,cuchara,X
@@ -2936,7 +2936,7 @@ sket,shat/didn't care,se desentendió,VERB
 skick,condition,estado,X
 skickas,is sent,se envía,X
 skicklig,skilled,hábil,ADJ
-skicklighet,skill,destreza,VERB
+skicklighet,skill,destreza,NOUN
 skidor,skis,esquís,X
 skift,shift,turno,VERB
 skild,separated,separado,X
@@ -3360,7 +3360,7 @@ symptom,symptoms,síntomas,X
 synas,be visible,verse,X
 synen,the sight,la vista,X
 synk,sync,sincronía,X
-synnerhet,particularly,particularidad,VERB
+synnerhet,particularly,particularidad,NOUN
 syntes,synthesis,síntesis,X
 syre,oxygen,oxígeno,X
 syrran,the sister,la hermana,X
@@ -3403,7 +3403,7 @@ sången,the song,la canción,X
 sånger,songs,canciones,X
 sårar,wounds,hiere,X
 sårat,hurt,herido,VERB
-sårbar,vulnerable,vulnerable,X
+sårbar,vulnerable,vulnerable,ADJ
 sårbara,vulnerable,vulnerables,VERB
 såren,the wounds,las heridas,X
 såret,the wound,la herida,VERB
@@ -3420,7 +3420,7 @@ sörja,mourn,llorar,VERB
 sörjer,mourns,llora,X
 tabletter,tablets/pills,pastillas,X
 tackade,thanked,agradeció,VERB
-tacksamhet,gratitude,agradecimiento,VERB
+tacksamhet,gratitude,agradecimiento,NOUN
 tacksamma,grateful(pl,agradecidos,VERB
 tagen,taken,tomado,X
 tagits,has been taken,se ha tomado,X
@@ -3498,7 +3498,7 @@ tillbringar,spends(time),pasa,X
 tillbringat,spent,pasado,VERB
 tillfällen,occasions,ocasiones,X
 tillfällig,temporary,temporal,ADJ
-tillfällighet,coincidence,coincidencia,VERB
+tillfällighet,coincidence,coincidencia,NOUN
 tillfälligt,temporarily,temporalmente,VERB
 tillgänglig,available,disponible,ADJ
 tillgängliga,available,disponibles,VERB
@@ -3575,7 +3575,7 @@ tripp,trip,tropezón,X
 trivas,thrive/enjoy,sentirse a gusto,X
 troende,believer,creyente,VERB
 trogen,faithful/loyal,fiel,X
-trohet,loyalty,lealtad,VERB
+trohet,loyalty,lealtad,NOUN
 troligt,probably,probablemente,VERB
 troligtvis,probably,probablemente,X
 troll,troll/magic,trol/magia,X
@@ -3590,7 +3590,7 @@ truten,the mouth/trap,la boca,X
 trycket,the pressure,la presión,VERB
 tryckte,pressed,presionó,X
 trygga,safe(pl,seguros,VERB
-trygghet,security,seguridad,VERB
+trygghet,security,seguridad,NOUN
 tryggt,safely,seguramente,VERB
 trädgård,garden,jardín,X
 träffad,hit/met,alcanzado/encontrado,X
@@ -3700,7 +3700,7 @@ universitet,university,universidad,VERB
 up,up,arriba,X
 uppehåll,stay,estancia,X
 uppenbara,reveal/make obvious,revelar,VERB
-uppenbarelse,revelation,revelación,X
+uppenbarelse,revelation,revelación,NOUN
 uppfann,invented,inventó,X
 uppfattning,perception/opinion,percepción,NOUN
 uppfinning,invention,invención,NOUN
@@ -3711,12 +3711,12 @@ uppföra,erect/behave,construir/comportarse,VERB
 uppförande,behavior,comportamiento,VERB
 uppgiften,the task,la tarea,X
 uppgifterna,the tasks,las tareas,VERB
-uppgörelse,settlement/deal,acuerdo,X
+uppgörelse,settlement/deal,acuerdo,NOUN
 upphetsad,excited,emocionado,X
 upphör,ceases,cesa,X
 uppifrån,from above,desde arriba,X
 upplevde,experienced,experimentó,VERB
-upplevelse,experience,experiencia,X
+upplevelse,experience,experiencia,NOUN
 upplever,experiences,experimenta,X
 upplevt,experienced,experimentado,VERB
 upplopp,riot,motín,X
@@ -3845,7 +3845,7 @@ venedig,Venice,Venecia,ADJ
 verandan,the veranda,la terraza,X
 verkan,effect,efecto,X
 verket,the work,la obra,VERB
-verklighet,reality,realidad,VERB
+verklighet,reality,realidad,NOUN
 verksamheten,the activity/the business,la actividad,X
 verkstad,workshop,taller,X
 vetenskap,science,ciencia,NOUN
@@ -3901,11 +3901,11 @@ vägnar,roads/means,caminos/medios,X
 vägra,refuse,negarse,VERB
 väktare,guard,guardia,X
 väktaren,the guard,el guardia,X
-välgörenhet,charity,caridad,VERB
+välgörenhet,charity,caridad,NOUN
 välkomnar,welcomes,da la bienvenida,X
 välsigna,bless,bendecir,VERB
 välsignade,blessed,benditos,VERB
-välsignelse,blessing,bendición,X
+välsignelse,blessing,bendición,NOUN
 väninna,female friend,amiga,VERB
 vänja,accustom,acostumbrar,VERB
 vänjer,accustoms,acostumbra,X
@@ -3924,7 +3924,7 @@ värden,host/values,anfitrión/valores,X
 värderingar,values,valores,X
 värdet,the value,el valor,VERB
 värdig,worthy,digno,ADJ
-värdighet,dignity,dignidad,VERB
+värdighet,dignity,dignidad,NOUN
 världar,worlds,mundos,X
 världskriget,the world war,la guerra mundial,VERB
 värma,warm,calentar,VERB
@@ -4016,7 +4016,7 @@ zoo,zoo,zoológico,X
 ärjag,am I,soy yo,X
 ärju,is indeed,es pues,X
 ärliga,honest(pl,honestos,VERB
-ärlighet,honesty,honestidad,VERB
+ärlighet,honesty,honestidad,NOUN
 ärr,scar,cicatriz,X
 ärva,inherit,heredar,VERB
 ärvde,inherited,heredó,VERB
@@ -4104,7 +4104,7 @@ zoo,zoo,zoológico,X
 övertid,overtime,horas extras,X
 övertygade,convinced,convencidos,VERB
 övertygande,convincing,convincente,VERB
-övertygelse,conviction,convicción,X
+övertygelse,conviction,convicción,NOUN
 övervaka,surveil,vigilar,VERB
 övervakar,monitors,vigila,X
 övervakare,supervisor,supervisor,X

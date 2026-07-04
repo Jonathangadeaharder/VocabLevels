@@ -13,9 +13,9 @@ arbeta,to work,trabajar,VERB
 arg,angry,enojado,X
 arm,arm,brazo,X
 arton,eighteen,dieciocho,X
-att,to (infinitive),para,VERB
+att,to (infinitive),para,ADP
 augusti,august,agosto,X
-av,of/by,de,X
+av,of/by,de,ADP
 baby,baby,bebé,X
 badrum,bathroom,baño,X
 baka,to bake,hornear,VERB
@@ -57,17 +57,17 @@ cykel,bicycle,bicicleta,X
 dag,day,día,X
 dansa,to dance,bailar,VERB
 dator,computer,ordenador,X
-de,they,ellos,VERB
+de,they,ellos,PRON
 december,december,diciembre,X
-den,it (common),eso,X
-det,it (neuter),eso,VERB
-din,your,tu,X
+den,it (common),eso,PRON
+det,it (neuter),eso,PRON
+din,your,tu,PRON
 diskmaskin,dishwasher,lavavajillas,X
 dotter,daughter,hija,X
 dra,to pull,tirar,VERB
 dricka,to drink,beber,VERB
 dryck,drink,bebida,X
-du,you,tú,X
+du,you,tú,PRON
 dyr,expensive,caro,X
 där,there,allí,X
 dålig,bad,malo,ADJ
@@ -78,7 +78,7 @@ egen,own,propio,X
 eld,fire,fuego,X
 element,radiator,radiador,VERB
 elev,student,alumno,X
-eller,or,o,X
+eller,or,o,ADP
 elva,eleven,once,VERB
 era,your (plural),vuestro,VERB
 ett,one,uno,VERB
@@ -145,20 +145,20 @@ göra,to do/make,hacer,VERB
 ha,to have,tener,VERB
 halsduk,scarf,bufanda,X
 hamn,harbor,puerto,X
-han,he,él,X
+han,he,él,PRON
 hand,hand,mano,X
-hans,his,su,X
+hans,his,su,PRON
 hav,sea,mar,X
 hej,hello,hola,X
 helg,weekend,fin de semana,X
-hennes,her,su,X
-het,hot,caliente,VERB
+hennes,her,su,PRON
+het,hot,caliente,NOUN
 himmel,sky,cielo,X
 hitta,to find,encontrar,VERB
 hjort,deer,ciervo,VERB
 hjälpa,to help,ayudar,VERB
 hjärta,heart,corazón,VERB
-hon,she,ella,X
+hon,she,ella,PRON
 hotell,hotel,hotel,X
 hud,skin,piel,X
 hund,dog,perro,X
@@ -174,7 +174,7 @@ hög,high/tall,alto,X
 höna,hen,gallina,VERB
 höra,to hear,oír,VERB
 höst,autumn,otoño,VERB
-i,in,en,X
+i,in,en,ADP
 ibland,sometimes,a veces,X
 idag,today,hoy,X
 igår,yesterday,ayer,X
@@ -183,7 +183,7 @@ ingenting,nothing,nada,X
 inte,not,no,X
 ja,yes,sí,VERB
 jacka,jacket,chaqueta,VERB
-jag,I,yo,X
+jag,I,yo,PRON
 januari,january,enero,X
 jobb,job,trabajo,X
 jord,earth,tierra,X
@@ -230,7 +230,7 @@ luft,air,aire,VERB
 lugn,calm,tranquilo,X
 lyfta,to lift,levantar,VERB
 lyssna,to listen,escuchar,VERB
-lägenhet,apartment,piso,VERB
+lägenhet,apartment,piso,NOUN
 läkare,doctor,médico,X
 lärare,teacher,profesor,X
 läsa,to read,leer,VERB
@@ -247,11 +247,11 @@ marknad,market,mercado,X
 mars,march,marzo,X
 mat,food,comida,VERB
 matta,rug,alfombra,VERB
-med,with,con,X
+med,with,con,ADP
 medicin,medicine,medicina,X
-men,but,pero,X
+men,but,pero,ADP
 middag,lunch/dinner,almuerzo,X
-min,my,mi,X
+min,my,mi,PRON
 mindre,smaller/less,más pequeño/menos,X
 minut,minute,minuto,VERB
 mjölk,milk,leche,X
@@ -275,7 +275,7 @@ namn,name,nombre,X
 natt,night,noche,VERB
 natur,nature,naturaleza,X
 nej,no,no,X
-ni,you (plural),vosotros,X
+ni,you (plural),vosotros,PRON
 nio,nine,nueve,X
 nittio,ninety,noventa,X
 nitton,nineteen,diecinueve,X
@@ -288,7 +288,7 @@ näsa,nose,nariz,VERB
 någon,someone/some,alguien,X
 något,something,algo,VERB
 några,some (plural),algunos,VERB
-och,and,y,X
+och,and,y,ADP
 ofta,often,a menudo,VERB
 oktober,october,octubre,X
 om,about/if,sobre,X
@@ -328,7 +328,7 @@ sextio,sixty,sesenta,X
 sexton,sixteen,dieciséis,X
 silver,silver,plata,X
 simma,to swim,nadar,VERB
-sin,oneself,se,X
+sin,oneself,se,PRON
 sista,last,último,VERB
 sitta,to sit,sentarse,VERB
 sju,seven,siete,X
@@ -404,7 +404,7 @@ tavla,painting,cuadro,VERB
 te,tea,té,X
 telefon,phone,teléfono,X
 tidning,newspaper,periódico,NOUN
-till,to,hasta,X
+till,to,hasta,ADP
 timme,hour,hora,X
 tio,ten,diez,X
 tisdag,tuesday,martes,X
@@ -432,15 +432,15 @@ två,two,dos,X
 tänka,to think,pensar,VERB
 tåg,train,tren,X
 ugn,oven,horno,X
-under,under,debajo de,X
+under,under,debajo de,ADP
 undvika,to avoid,evitar,VERB
 ung,young,joven,X
-utan,without,sin,X
+utan,without,sin,ADP
 vacker,beautiful,hermoso,X
 vad,what,qué,X
 vakna,to wake up,despertar,VERB
 vante,glove,guante,X
-var,where,dónde,X
+var,where,dónde,PRON
 vara,to be,ser/estar,VERB
 vardagsrum,living room,salón,X
 varför,why,por qué,X
@@ -450,11 +450,11 @@ vatten,water,agua,X
 vecka,week,semana,VERB
 vem,who,quién,X
 veta,to know,saber,VERB
-vi,we,nosotros,X
-vid,by/at,junto a,X
+vi,we,nosotros,PRON
+vid,by/at,junto a,ADP
 viktig,important,importante,ADJ
 vilja,to want,querer,VERB
-vilken,which,cuál,X
+vilken,which,cuál,PRON
 vin,wine,vino,X
 vind,wind,viento,X
 vinter,winter,invierno,X
@@ -534,13 +534,13 @@ dagar,days,días,X
 dagen,the day,el día,X
 dags,time,hora,X
 del,part,parte,X
-dem,them,los/ellas,X
+dem,them,los/ellas,PRON
 denna,this,este,VERB
-deras,their,su,X
+deras,their,su,PRON
 dess,its,su,X
 dessa,these,estos,VERB
 detta,this,esto,VERB
-dig,you,te,ADJ
+dig,you,te,PRON
 dina,your(pl),tus,VERB
 direkt,direct,directo,VERB
 dit,there(to),hacia allí,VERB
@@ -570,7 +570,7 @@ enkelt,simple/easily,simple,VERB
 enligt,according to,según,VERB
 ens,even,ni,X
 ensam,alone,solo,ADJ
-er,you(pl)/yours,os/vuestro,X
+er,you(pl)/yours,os/vuestro,PRON
 ert,your(pl),vuestro,VERB
 exakt,exact,exacto,VERB
 faktiskt,actually,de hecho,VERB

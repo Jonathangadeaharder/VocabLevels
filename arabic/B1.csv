@@ -1,1006 +1,1006 @@
 Arabic_Lemma,English_Translation,Spanish_Translation,POS
-مسافر,traveler,viajero,X
+مسافر,traveler,viajero,NOUN
 سفرية,trip,viaje,NOUN
 جولة,tour,recorrido,NOUN
-مرشد,tour guide,guía,X
+مرشد,tour guide,guía,NOUN
 وجهة,destination,destino,NOUN
-مخيم,campsite,campamento,X
-باڭاج,luggage,equipaje,X
+مخيم,campsite,campamento,NOUN
+باڭاج,luggage,equipaje,NOUN
 ديوانة,customs,aduana,NOUN
-جواز,passport,pasaporte,X
-تلفريك,cable car,teleférico,X
+جواز,passport,pasaporte,NOUN
+تلفريك,cable car,teleférico,NOUN
 مضيفة,flight attendant,azafata,NOUN
-طيار,pilot,piloto,X
-مطعم,restaurant,restaurante,X
-مقهى,café,cafetería,X
+طيار,pilot,piloto,NOUN
+مطعم,restaurant,restaurante,NOUN
+مقهى,café,cafetería,NOUN
 استراحة,rest stop,área de descanso,NOUN
-منتجع,resort,complejo turístico,X
-شاليه,chalet,chalé,X
-رياض,riad,riad,X
+منتجع,resort,complejo turístico,NOUN
+شاليه,chalet,chalé,NOUN
+رياض,riad,riad,NOUN
 قصبة,kasbah,alcazaba,NOUN
 شمسية,parasol,sombrilla,NOUN
-غطس,diving,buceo,X
-استكشف,to explore,explorar,X
-تسارى,to stroll,pasear,X
+غطس,diving,buceo,NOUN
+استكشف,to explore,explorar,NOUN
+تسارى,to stroll,pasear,NOUN
 ضيافة,hospitality,hospitalidad,NOUN
 معلمة,monument,monumento,NOUN
-متحف,museum,museo,X
+متحف,museum,museo,NOUN
 واحة,oasis,oasis,NOUN
-دليل,guidebook,guía turística,X
+دليل,guidebook,guía turística,NOUN
 مغامرة,adventure,aventura,NOUN
-تأخير,delay,retraso,X
-إقلاع,takeoff,despegue,X
-هبوط,landing,aterrizaje,X
+تأخير,delay,retraso,NOUN
+إقلاع,takeoff,despegue,NOUN
+هبوط,landing,aterrizaje,NOUN
 بوابة,gate,puerta de embarque,NOUN
-مقعد,seat,asiento,X
-ممر,aisle/passage,pasillo,X
-وصول,arrival,llegada,X
-انطلاق,departure,salida,X
-تسجيل,check-in,facturación,X
+مقعد,seat,asiento,NOUN
+ممر,aisle/passage,pasillo,NOUN
+وصول,arrival,llegada,NOUN
+انطلاق,departure,salida,NOUN
+تسجيل,check-in,facturación,NOUN
 عملة,currency,moneda,NOUN
-بوربوار,tip,propina,X
-اتجاه,direction,dirección,X
-سياحي,touristic,turístico,X
+بوربوار,tip,propina,NOUN
+اتجاه,direction,dirección,NOUN
+سياحي,touristic,turístico,VERB
 استعلامات,information desk,información,NOUN
 صومعة,minaret,alminar,NOUN
-ضريح,mausoleum,mausoleo,X
-بازار,bazaar,bazar,X
-تذكار,souvenir,recuerdo,X
-تخييم,camping,acampada,X
-صاكادو,backpack,mochila,X
+ضريح,mausoleum,mausoleo,NOUN
+بازار,bazaar,bazar,NOUN
+تذكار,souvenir,recuerdo,NOUN
+تخييم,camping,acampada,NOUN
+صاكادو,backpack,mochila,NOUN
 بوصلة,compass,brújula,NOUN
-مسار,route,ruta,X
+مسار,route,ruta,NOUN
 سفينة,ship,barco,NOUN
 عبارة,ferry,ferri,NOUN
-كوشيط,sleeping berth,litera,X
-تيرمينال,terminal,terminal,X
-مسلسل,TV series,serie,X
+كوشيط,sleeping berth,litera,NOUN
+تيرمينال,terminal,terminal,NOUN
+مسلسل,TV series,serie,NOUN
 قناة,channel,canal,NOUN
-أخبار,news,noticias,X
+أخبار,news,noticias,NOUN
 مجلة,magazine,revista,NOUN
 إعلان,advertisement,anuncio,VERB
-إشهار,advertising,publicidad,X
-مذيع,presenter,presentador,X
-صحافي,journalist,periodista,X
-ممثل,actor,actor,X
+إشهار,advertising,publicidad,NOUN
+مذيع,presenter,presentador,NOUN
+صحافي,journalist,periodista,VERB
+ممثل,actor,actor,NOUN
 ممثلة,actress,actriz,NOUN
-مغني,singer,cantante,X
+مغني,singer,cantante,VERB
 أغنية,song,canción,NOUN
 حفلة,party/concert,fiesta,NOUN
-مسرح,theater,teatro,X
+مسرح,theater,teatro,NOUN
 مسرحية,stage play,obra de teatro,NOUN
 رواية,novel,novela,NOUN
 قصة,story,cuento,NOUN
-شاعر,poet,poeta,X
+شاعر,poet,poeta,NOUN
 قصيدة,poem,poema,NOUN
-رسام,painter,pintor,X
+رسام,painter,pintor,NOUN
 لوحة,painting,cuadro,NOUN
-معرض,exhibition,exposición,X
+معرض,exhibition,exposición,NOUN
 ثقافة,culture,cultura,NOUN
-فن,art,arte,X
+فن,art,arte,NOUN
 فنان,artist,artista,VERB
-جمهور,audience,público,X
-تصفيق,applause,aplauso,X
-كوميدي,comedian,cómico,X
+جمهور,audience,público,NOUN
+تصفيق,applause,aplauso,NOUN
+كوميدي,comedian,cómico,VERB
 نكتة,joke,chiste,NOUN
-ترفيه,entertainment,entretenimiento,X
-وثائقي,documentary,documental,X
-دبلاج,dubbing,doblaje,X
+ترفيه,entertainment,entretenimiento,NOUN
+وثائقي,documentary,documental,VERB
+دبلاج,dubbing,doblaje,NOUN
 ترجمة,translation,traducción,NOUN
 حلقة,episode,episodio,NOUN
-شرير,villain,villano,X
-سيناريو,script,guion,X
-بودكاست,podcast,pódcast,X
+شرير,villain,villano,NOUN
+سيناريو,script,guion,NOUN
+بودكاست,podcast,pódcast,VERB
 مقابلة,interview,entrevista,NOUN
-مباشر,live,en directo,X
+مباشر,live,en directo,NOUN
 شاشة,screen,pantalla,NOUN
-نجم,celebrity,estrella,X
-رقص,dance,baile,X
-سيرك,circus,circo,X
-كرنفال,carnival,carnaval,X
+نجم,celebrity,estrella,NOUN
+رقص,dance,baile,NOUN
+سيرك,circus,circo,NOUN
+كرنفال,carnival,carnaval,NOUN
 صحافة,press,prensa,NOUN
 إذاعة,radio station,emisora,NOUN
-بث,broadcast,emisión,X
-مشهد,scene,escena,X
-دور,role,papel,X
-أداء,performance,actuación,X
-إيقاع,rhythm,ritmo,X
-لحن,melody,melodía,X
+بث,broadcast,emisión,NOUN
+مشهد,scene,escena,NOUN
+دور,role,papel,NOUN
+أداء,performance,actuación,NOUN
+إيقاع,rhythm,ritmo,NOUN
+لحن,melody,melodía,VERB
 كلمات,lyrics,letra,NOUN
 آلة,instrument,instrumento,NOUN
 كمنجة,violin,violín,NOUN
-ڭيتار,guitar,guitarra,X
-طبل,drum,tambor,X
-بندير,frame drum,pandero,X
-جوق,band/orchestra,orquesta,X
-شعبي,folk/popular,popular,X
-تمثيل,acting,interpretación,X
-مونتاج,editing,montaje,X
-رعب,horror,terror,X
-دراما,drama,drama,X
-تشويق,suspense,suspense,X
-ممل,boring,aburrido,X
-ممتع,enjoyable,entretenido,X
-مثير,exciting,emocionante,X
-تقييم,rating,valoración,X
-نقد,criticism,crítica,X
-ناقد,critic,crítico,X
-مؤلف,author,autor,X
-قارئ,reader,lector,X
-أرشيف,archive,archivo,X
-حقوق,rights,derechos,X
+ڭيتار,guitar,guitarra,NOUN
+طبل,drum,tambor,NOUN
+بندير,frame drum,pandero,NOUN
+جوق,band/orchestra,orquesta,NOUN
+شعبي,folk/popular,popular,VERB
+تمثيل,acting,interpretación,NOUN
+مونتاج,editing,montaje,NOUN
+رعب,horror,terror,NOUN
+دراما,drama,drama,NOUN
+تشويق,suspense,suspense,NOUN
+ممل,boring,aburrido,NOUN
+ممتع,enjoyable,entretenido,NOUN
+مثير,exciting,emocionante,NOUN
+تقييم,rating,valoración,NOUN
+نقد,criticism,crítica,NOUN
+ناقد,critic,crítico,NOUN
+مؤلف,author,autor,NOUN
+قارئ,reader,lector,NOUN
+أرشيف,archive,archivo,NOUN
+حقوق,rights,derechos,NOUN
 شهرة,fame,fama,NOUN
-معجب,admirer,admirador,X
+معجب,admirer,admirador,NOUN
 مهرجان,festival,festival,VERB
-فريق,team,equipo,X
-لاعب,player,jugador,X
-مدرب,coach,entrenador,X
-حكم,referee,árbitro,X
+فريق,team,equipo,NOUN
+لاعب,player,jugador,NOUN
+مدرب,coach,entrenador,NOUN
+حكم,referee,árbitro,NOUN
 مباراة,match,partido,NOUN
 بطولة,championship,campeonato,NOUN
-كأس,cup/trophy,copa,X
-هدف,goal,gol,X
-مرمى,goalpost,portería,X
+كأس,cup/trophy,copa,NOUN
+هدف,goal,gol,NOUN
+مرمى,goalpost,portería,NOUN
 ضربة,kick/hit,golpe,NOUN
-تدريب,training,entrenamiento,X
-عداء,runner,corredor,X
-جري,running,correr,X
-سباق,race,carrera,X
+تدريب,training,entrenamiento,NOUN
+عداء,runner,corredor,NOUN
+جري,running,correr,VERB
+سباق,race,carrera,NOUN
 سباحة,swimming,natación,NOUN
 بشكليطة,bicycle,bicicleta,NOUN
-تسلق,climbing,escalada,X
-مشي,walking,caminata,X
-يوغا,yoga,yoga,X
-جيم,gym,gimnasio,X
+تسلق,climbing,escalada,NOUN
+مشي,walking,caminata,VERB
+يوغا,yoga,yoga,NOUN
+جيم,gym,gimnasio,NOUN
 لياقة,fitness,forma física,NOUN
 عضلات,muscles,músculos,NOUN
 إصابة,injury,lesión,NOUN
-فوز,victory,victoria,X
+فوز,victory,victoria,NOUN
 خسارة,defeat,derrota,NOUN
-تعادل,draw,empate,X
+تعادل,draw,empate,NOUN
 نتيجة,result,resultado,NOUN
-ترتيب,ranking,clasificación,X
-دوري,league,liga,X
-منتخب,national team,selección,X
-مشجع,fan,aficionado,X
-شجع,to cheer,animar,X
+ترتيب,ranking,clasificación,NOUN
+دوري,league,liga,VERB
+منتخب,national team,selección,NOUN
+مشجع,fan,aficionado,NOUN
+شجع,to cheer,animar,NOUN
 صافرة,whistle,silbato,NOUN
-شوط,half of a match,tiempo,X
-بينالتي,penalty,penalti,X
-تنس,tennis,tenis,X
-مضرب,racket,raqueta,X
-شطرنج,chess,ajedrez,X
+شوط,half of a match,tiempo,NOUN
+بينالتي,penalty,penalti,VERB
+تنس,tennis,tenis,NOUN
+مضرب,racket,raqueta,NOUN
+شطرنج,chess,ajedrez,NOUN
 تسلية,pastime,pasatiempo,NOUN
 هواية,hobby,afición,NOUN
 نزهة,picnic/outing,excursión,NOUN
-جمباز,gymnastics,gimnasia,X
+جمباز,gymnastics,gimnasia,NOUN
 ملاكمة,boxing,boxeo,NOUN
 مصارعة,wrestling,lucha,NOUN
-كاراتيه,karate,kárate,X
-باسكيط,basketball,baloncesto,X
-فولي,volleyball,voleibol,X
-تزلج,skiing,esquí,X
+كاراتيه,karate,kárate,NOUN
+باسكيط,basketball,baloncesto,NOUN
+فولي,volleyball,voleibol,VERB
+تزلج,skiing,esquí,NOUN
 فروسية,horse riding,equitación,NOUN
-كابتن,captain,capitán,X
-بديل,substitute,suplente,X
-تبديل,substitution,cambio,X
-كورنير,corner kick,córner,X
-تدرب,to train,entrenarse,X
-إحماء,warm-up,calentamiento,X
-رمى,to throw,lanzar,X
+كابتن,captain,capitán,VERB
+بديل,substitute,suplente,NOUN
+تبديل,substitution,cambio,NOUN
+كورنير,corner kick,córner,NOUN
+تدرب,to train,entrenarse,NOUN
+إحماء,warm-up,calentamiento,NOUN
+رمى,to throw,lanzar,NOUN
 مسابقة,competition,competición,NOUN
-منافس,opponent,rival,X
+منافس,opponent,rival,NOUN
 ميدالية,medal,medalla,NOUN
-رياضي,athlete,deportista,X
-أولمبياد,Olympics,olimpiadas,X
-تريننڭ,tracksuit,chándal,X
-سورف,surfing,surf,X
-استرخاء,relaxation,relajación,X
+رياضي,athlete,deportista,VERB
+أولمبياد,Olympics,olimpiadas,NOUN
+تريننڭ,tracksuit,chándal,NOUN
+سورف,surfing,surf,NOUN
+استرخاء,relaxation,relajación,NOUN
 بيئة,environment,medio ambiente,NOUN
 طبيعة,nature,naturaleza,NOUN
-تلوث,pollution,contaminación,X
-زبل,garbage,basura,X
+تلوث,pollution,contaminación,NOUN
+زبل,garbage,basura,NOUN
 نفايات,waste,residuos,NOUN
-تدوير,recycling,reciclaje,X
-مناخ,climate,clima,X
+تدوير,recycling,reciclaje,NOUN
+مناخ,climate,clima,NOUN
 فيضان,flood,inundación,VERB
-زلزال,earthquake,terremoto,X
-حريق,fire,incendio,X
-غروب,sunset,puesta de sol,X
-شروق,sunrise,amanecer,X
+زلزال,earthquake,terremoto,NOUN
+حريق,fire,incendio,NOUN
+غروب,sunset,puesta de sol,NOUN
+شروق,sunrise,amanecer,NOUN
 نجمة,star,estrella del cielo,NOUN
-كوكب,planet,planeta,X
-أرض,earth/land,tierra,X
-شلال,waterfall,cascada,X
+كوكب,planet,planeta,NOUN
+أرض,earth/land,tierra,NOUN
+شلال,waterfall,cascada,NOUN
 بحيرة,lake,lago,NOUN
-نهر,river,río,X
+نهر,river,río,NOUN
 ساقية,irrigation canal,acequia,NOUN
-منبع,water spring,manantial,X
-غزال,gazelle,gacela,X
-قنفود,hedgehog,erizo,X
-فكرون,tortoise,tortuga,VERB
-صقر,falcon,halcón,X
-نسر,eagle,águila,X
+منبع,water spring,manantial,NOUN
+غزال,gazelle,gacela,NOUN
+قنفود,hedgehog,erizo,NOUN
+فكرون,tortoise,tortuga,NOUN
+صقر,falcon,halcón,NOUN
+نسر,eagle,águila,NOUN
 فراشة,butterfly,mariposa,NOUN
 جرادة,grasshopper,saltamontes,NOUN
-صبار,cactus,cactus,X
+صبار,cactus,cactus,NOUN
 نوارة,flower,flor,NOUN
-غصن,branch,rama,X
-جذر,root,raíz,X
+غصن,branch,rama,VERB
+جذر,root,raíz,NOUN
 بذرة,seed,semilla,NOUN
 تربة,soil,suelo,NOUN
-سماد,fertilizer,fertilizante,X
+سماد,fertilizer,fertilizante,NOUN
 محمية,nature reserve,reserva natural,NOUN
-انقراض,extinction,extinción,X
-شمسي,solar,solar,X
+انقراض,extinction,extinción,NOUN
+شمسي,solar,solar,VERB
 موجة,wave,ola,NOUN
 جزيرة,island,isla,NOUN
-منظر,landscape,paisaje,X
-حصاد,harvest,cosecha,X
-حقل,field,campo,X
+منظر,landscape,paisaje,NOUN
+حصاد,harvest,cosecha,NOUN
+حقل,field,campo,NOUN
 ضيعة,farm,granja,NOUN
-قمح,wheat,trigo,X
-شعير,barley,cebada,X
+قمح,wheat,trigo,NOUN
+شعير,barley,cebada,NOUN
 أركان,argan,argán,VERB
-صنوبر,pine,pino,X
-أرز,cedar,cedro,X
-بلوط,oak,roble,X
-خفاش,bat,murciélago,X
+صنوبر,pine,pino,NOUN
+أرز,cedar,cedro,NOUN
+بلوط,oak,roble,NOUN
+خفاش,bat,murciélago,NOUN
 بومة,owl,búho,NOUN
-غراب,crow,cuervo,X
-بلارج,stork,cigüeña,X
+غراب,crow,cuervo,NOUN
+بلارج,stork,cigüeña,NOUN
 رتيلة,spider,araña,NOUN
 دلفين,dolphin,delfín,NOUN
-بيئي,ecological,ecológico,X
-ملوث,polluted,contaminado,X
-فضاء,space,espacio,X
-كسوف,eclipse,eclipse,X
-صقيع,frost,helada,X
+بيئي,ecological,ecológico,VERB
+ملوث,polluted,contaminado,NOUN
+فضاء,space,espacio,NOUN
+كسوف,eclipse,eclipse,NOUN
+صقيع,frost,helada,NOUN
 تساقطات,precipitation,precipitaciones,NOUN
 عمالة,prefecture,prefectura,NOUN
 مقاطعة,district office,distrito,NOUN
-مطبوع,form,formulario,X
+مطبوع,form,formulario,NOUN
 شهادة,certificate,certificado,NOUN
-تعريف,identification,identificación,X
-عقد,contract,contrato,X
-ازدياد,birth record,nacimiento,X
+تعريف,identification,identificación,NOUN
+عقد,contract,contrato,NOUN
+ازدياد,birth record,nacimiento,NOUN
 وفاة,death,fallecimiento,NOUN
-زواج,marriage,matrimonio,X
-طلاق,divorce,divorcio,X
-توقيع,signature,firma,X
-طابع,stamp,sello,X
+زواج,marriage,matrimonio,NOUN
+طلاق,divorce,divorcio,NOUN
+توقيع,signature,firma,NOUN
+طابع,stamp,sello,NOUN
 نسخة,copy,copia,NOUN
-ملف,file/dossier,expediente,X
+ملف,file/dossier,expediente,NOUN
 إدارة,administration,administración,NOUN
-شباك,service counter,ventanilla,X
-طابور,queue,cola,X
-موعد,appointment,cita,X
-أجل,deadline,plazo,X
+شباك,service counter,ventanilla,NOUN
+طابور,queue,cola,NOUN
+موعد,appointment,cita,NOUN
+أجل,deadline,plazo,NOUN
 ضريبة,tax,impuesto,NOUN
 غرامة,fine,multa,NOUN
 رخصة,license,permiso,NOUN
 جنسية,nationality,nacionalidad,NOUN
 إقامة,residence,residencia,NOUN
-درب,alley,callejón,X
-ترامواي,tram,tranvía,X
-رصيف,sidewalk,acera,X
+درب,alley,callejón,NOUN
+ترامواي,tram,tranvía,VERB
+رصيف,sidewalk,acera,NOUN
 إنارة,street lighting,alumbrado,NOUN
-دركي,gendarme,gendarme,X
+دركي,gendarme,gendarme,VERB
 سلطة,authority,autoridad,NOUN
-قانوني,legal,legal,X
+قانوني,legal,legal,VERB
 انتخابات,elections,elecciones,NOUN
-تصويت,voting,votación,X
+تصويت,voting,votación,VERB
 جمعية,association,asociación,NOUN
 نقابة,trade union,sindicato,NOUN
-إضراب,strike,huelga,X
-احتجاج,protest,protesta,X
-أمن,security,seguridad,X
+إضراب,strike,huelga,NOUN
+احتجاج,protest,protesta,NOUN
+أمن,security,seguridad,VERB
 جريمة,crime,crimen,NOUN
 سرقة,theft,robo,NOUN
 شكاية,complaint,denuncia,NOUN
-محضر,official report,acta,X
-سجن,prison,cárcel,X
+محضر,official report,acta,NOUN
+سجن,prison,cárcel,VERB
 مصلحة,department,servicio,NOUN
 وكالة,agency,agencia,NOUN
-بريد,mail,correo,X
-طرد,package,paquete,X
+بريد,mail,correo,NOUN
+طرد,package,paquete,NOUN
 حوالة,money transfer,giro,NOUN
-قرض,loan,préstamo,X
+قرض,loan,préstamo,NOUN
 فائدة,interest,interés,NOUN
-كونطور,utility meter,contador,X
-ضجيج,noise,ruido,X
-سنديك,building manager,administrador de fincas,X
-رسمي,official,oficial,X
+كونطور,utility meter,contador,NOUN
+ضجيج,noise,ruido,NOUN
+سنديك,building manager,administrador de fincas,NOUN
+رسمي,official,oficial,VERB
 مصادقة,certification,legalización,NOUN
-تجديد,renewal,renovación,X
+تجديد,renewal,renovación,NOUN
 صلاحية,validity,validez,NOUN
-انتهاء,expiry,vencimiento,X
-إجراء,procedure,trámite,X
+انتهاء,expiry,vencimiento,NOUN
+إجراء,procedure,trámite,NOUN
 وثيقة,document,documento,NOUN
 شريحة,SIM card,tarjeta SIM,NOUN
-ريزو,network,red,X
-كونيكسيون,connection,conexión,VERB
-ويفي,wifi,wifi,X
-أنترنت,internet,internet,X
-موقع,website,sitio web,X
-تطبيق,app,aplicación,X
-كود,code/password,código,X
+ريزو,network,red,NOUN
+كونيكسيون,connection,conexión,NOUN
+ويفي,wifi,wifi,VERB
+أنترنت,internet,internet,VERB
+موقع,website,sitio web,NOUN
+تطبيق,app,aplicación,NOUN
+كود,code/password,código,NOUN
 رسالة,letter,carta,NOUN
-إيميل,email,correo electrónico,X
-تحميل,download,descarga,X
-طيليشارجي,to download,descargar,X
-منشور,post,publicación,X
-تعليق,comment,comentario,X
-متابع,follower,seguidor,X
-تابع,to follow,seguir,X
-فيديو,video,vídeo,X
-سيلفي,selfie,selfi,X
-كلافيي,keyboard,teclado,X
-سوريس,computer mouse,ratón,X
-أورديناطور,computer,ordenador,X
-طابليت,tablet,tableta,X
+إيميل,email,correo electrónico,NOUN
+تحميل,download,descarga,NOUN
+طيليشارجي,to download,descargar,VERB
+منشور,post,publicación,NOUN
+تعليق,comment,comentario,NOUN
+متابع,follower,seguidor,NOUN
+تابع,to follow,seguir,NOUN
+فيديو,video,vídeo,NOUN
+سيلفي,selfie,selfi,VERB
+كلافيي,keyboard,teclado,VERB
+سوريس,computer mouse,ratón,NOUN
+أورديناطور,computer,ordenador,NOUN
+طابليت,tablet,tableta,VERB
 بطارية,battery,batería,NOUN
 سماعة,headphones,auriculares,NOUN
-ميكرو,microphone,micrófono,X
+ميكرو,microphone,micrófono,NOUN
 مكالمة,phone call,llamada,NOUN
-سونري,ringtone,tono,X
-رصيد,phone credit,saldo,X
-ريشارج,top-up,recarga,X
+سونري,ringtone,tono,VERB
+رصيد,phone credit,saldo,NOUN
+ريشارج,top-up,recarga,NOUN
 صفحة,page,página,NOUN
-رابط,link,enlace,X
-بحث,search,búsqueda,X
-متصفح,browser,navegador,X
-فيروس,virus,virus,X
+رابط,link,enlace,NOUN
+بحث,search,búsqueda,NOUN
+متصفح,browser,navegador,NOUN
+فيروس,virus,virus,NOUN
 قرصنة,hacking,piratería,NOUN
-احتيال,scam,estafa,X
+احتيال,scam,estafa,NOUN
 خصوصية,privacy,privacidad,NOUN
 بيانات,data,datos,NOUN
-بروفايل,profile,perfil,X
+بروفايل,profile,perfil,NOUN
 مجموعة,group,grupo,NOUN
-إشعار,notification,notificación,X
-تحديث,update,actualización,X
-نظام,system,sistema,X
-كابل,cable,cable,X
+إشعار,notification,notificación,NOUN
+تحديث,update,actualización,NOUN
+نظام,system,sistema,NOUN
+كابل,cable,cable,NOUN
 ذاكرة,memory,memoria,NOUN
 تخزين,storage,almacenamiento,NOUN
-نسخ,to copy,copiar,X
-طبع,to print,imprimir,X
+نسخ,to copy,copiar,NOUN
+طبع,to print,imprimir,NOUN
 طابعة,printer,impresora,NOUN
-سكانير,scanner,escáner,X
-كليكا,to click,hacer clic,X
-كونيكطا,to connect,conectarse,X
-بلوكا,to block,bloquear,X
-جهاز,device,aparato,X
-تنرفز,to get angry,enfadarse,X
-فخر,pride,orgullo,X
-فخور,proud,orgulloso,X
+سكانير,scanner,escáner,NOUN
+كليكا,to click,hacer clic,NOUN
+كونيكطا,to connect,conectarse,NOUN
+بلوكا,to block,bloquear,NOUN
+جهاز,device,aparato,NOUN
+تنرفز,to get angry,enfadarse,NOUN
+فخر,pride,orgullo,NOUN
+فخور,proud,orgulloso,NOUN
 حشمة,shyness/shame,vergüenza,NOUN
 غيرة,jealousy,celos,NOUN
-غيور,jealous,celoso,X
-حسد,envy,envidia,X
-أمل,hope,esperanza,X
+غيور,jealous,celoso,NOUN
+حسد,envy,envidia,NOUN
+أمل,hope,esperanza,NOUN
 مفاجأة,surprise,sorpresa,NOUN
-قنط,to get bored,aburrirse,X
-مقنوط,bored,hastiado,X
-رأي,opinion,opinión,X
-اقتراح,suggestion,sugerencia,X
-اقترح,to suggest,sugerir,X
-اتفق,to agree,estar de acuerdo,X
-اختلف,to disagree,discrepar,X
-ناقش,to discuss,debatir,X
-نقاش,discussion,debate,X
-قنع,to convince,convencer,X
-مقتنع,convinced,convencido,X
-شك,doubt,duda,X
-متأكد,sure,seguro,X
+قنط,to get bored,aburrirse,NOUN
+مقنوط,bored,hastiado,NOUN
+رأي,opinion,opinión,VERB
+اقتراح,suggestion,sugerencia,NOUN
+اقترح,to suggest,sugerir,NOUN
+اتفق,to agree,estar de acuerdo,NOUN
+اختلف,to disagree,discrepar,NOUN
+ناقش,to discuss,debatir,NOUN
+نقاش,discussion,debate,NOUN
+قنع,to convince,convencer,NOUN
+مقتنع,convinced,convencido,NOUN
+شك,doubt,duda,NOUN
+متأكد,sure,seguro,NOUN
 صراحة,frankness,franqueza,NOUN
-شعور,feeling,sentimiento,X
-مزاج,mood,humor,X
-حماس,enthusiasm,entusiasmo,X
-متحمس,excited,entusiasmado,X
+شعور,feeling,sentimiento,NOUN
+مزاج,mood,humor,NOUN
+حماس,enthusiasm,entusiasmo,NOUN
+متحمس,excited,entusiasmado,NOUN
 صدمة,shock,conmoción,NOUN
-دموع,tears,lágrimas,X
+دموع,tears,lágrimas,NOUN
 ابتسامة,smile,sonrisa,NOUN
-تبسم,to smile,sonreír,X
-مقهور,heartbroken,afligido,X
-سامح,to forgive,perdonar,X
-اعتذر,to apologize,disculparse,X
-لام,to blame,culpar,X
+تبسم,to smile,sonreír,NOUN
+مقهور,heartbroken,afligido,NOUN
+سامح,to forgive,perdonar,NOUN
+اعتذر,to apologize,disculparse,NOUN
+لام,to blame,culpar,NOUN
 ثقة,trust,confianza,NOUN
-تاق,to trust,confiar,X
-احترام,respect,respeto,X
-سب,to insult,insultar,X
-ظلم,injustice,injusticia,X
+تاق,to trust,confiar,NOUN
+احترام,respect,respeto,NOUN
+سب,to insult,insultar,NOUN
+ظلم,injustice,injusticia,NOUN
 حڭرة,contempt,desprecio,NOUN
-انطباع,impression,impresión,X
-موقف,stance,postura,X
-تفاهم,mutual understanding,entendimiento,X
-خلاف,disagreement,desacuerdo,X
-مشكل,problem,problema,X
-سترس,stress,estrés,X
-استغرب,to be surprised,extrañarse,X
+انطباع,impression,impresión,NOUN
+موقف,stance,postura,NOUN
+تفاهم,mutual understanding,entendimiento,NOUN
+خلاف,disagreement,desacuerdo,NOUN
+مشكل,problem,problema,NOUN
+سترس,stress,estrés,NOUN
+استغرب,to be surprised,extrañarse,NOUN
 نية,naive,ingenuo,NOUN
-حمق,madness,locura,X
-كذاب,liar,mentiroso,X
-صادق,honest,sincero,X
-متكبر,arrogant,arrogante,X
-متواضع,modest,humilde,X
-كريم,generous,generoso,X
-مشحاح,stingy,tacaño,X
-مجتهد,hardworking,trabajador,X
-مكلخ,dumb,tonto,X
+حمق,madness,locura,NOUN
+كذاب,liar,mentiroso,NOUN
+صادق,honest,sincero,NOUN
+متكبر,arrogant,arrogante,NOUN
+متواضع,modest,humilde,NOUN
+كريم,generous,generoso,NOUN
+مشحاح,stingy,tacaño,NOUN
+مجتهد,hardworking,trabajador,NOUN
+مكلخ,dumb,tonto,NOUN
 حنين,affectionate,cariñoso,NOUN
-عنيد,stubborn,testarudo,X
-صبور,patient,paciente,X
-عصبي,irritable,nervioso,X
-هادئ,calm,tranquilo,X
-مضحك,funny,gracioso,X
-واعي,aware,consciente,X
-مسؤول,responsible,responsable,X
-جدي,serious,serio,X
-مهمل,careless,descuidado,X
-منظم,organized,organizado,X
-فوضوي,messy,desordenado,X
-اجتماعي,sociable,sociable,X
+عنيد,stubborn,testarudo,NOUN
+صبور,patient,paciente,NOUN
+عصبي,irritable,nervioso,VERB
+هادئ,calm,tranquilo,NOUN
+مضحك,funny,gracioso,NOUN
+واعي,aware,consciente,VERB
+مسؤول,responsible,responsable,NOUN
+جدي,serious,serio,VERB
+مهمل,careless,descuidado,NOUN
+منظم,organized,organizado,NOUN
+فوضوي,messy,desordenado,VERB
+اجتماعي,sociable,sociable,VERB
 حشمان,shy/embarrassed,avergonzado,VERB
-طموح,ambitious,ambicioso,X
-متفائل,optimistic,optimista,X
-متشائم,pessimistic,pesimista,X
-أناني,selfish,egoísta,X
-وفي,loyal,fiel,X
-غدار,treacherous,traidor,X
-حقاد,resentful,rencoroso,X
-فضولي,curious,curioso,X
-دقيق,precise,preciso,X
-صريح,frank,directo,X
-مرن,flexible,flexible,X
-عنيف,violent,violento,X
-خدوم,helpful,servicial,X
-طماع,greedy,codicioso,X
-حسود,envious,envidioso,X
-نصاب,con artist,estafador,X
+طموح,ambitious,ambicioso,NOUN
+متفائل,optimistic,optimista,NOUN
+متشائم,pessimistic,pesimista,NOUN
+أناني,selfish,egoísta,VERB
+وفي,loyal,fiel,VERB
+غدار,treacherous,traidor,NOUN
+حقاد,resentful,rencoroso,NOUN
+فضولي,curious,curioso,VERB
+دقيق,precise,preciso,NOUN
+صريح,frank,directo,NOUN
+مرن,flexible,flexible,VERB
+عنيف,violent,violento,NOUN
+خدوم,helpful,servicial,NOUN
+طماع,greedy,codicioso,NOUN
+حسود,envious,envidioso,NOUN
+نصاب,con artist,estafador,NOUN
 أمين,trustworthy,honrado,NOUN
-ناضج,mature,maduro,X
-طايش,reckless,alocado,X
+ناضج,mature,maduro,NOUN
+طايش,reckless,alocado,NOUN
 رزين,composed,sereno,NOUN
-واثق,confident,confiado,X
-درويش,simple person,sencillo,X
-علاحقاش,because,ya que,X
-يمكن,maybe,quizás,X
-ملي,when,cuando,X
+واثق,confident,confiado,NOUN
+درويش,simple person,sencillo,NOUN
+علاحقاش,because,ya que,NOUN
+يمكن,maybe,quizás,VERB
+ملي,when,cuando,VERB
 بالزربة,in a hurry,deprisa,NOUN
-أما,as for,en cuanto a,X
-مثلا,for example,por ejemplo,X
-خصوصا,especially,especialmente,X
-عموما,generally,en general,X
-أخيرا,finally,finalmente,X
-أولا,firstly,primero,X
-ثانيا,secondly,segundo,X
-ديريكت,directly,directamente,X
+أما,as for,en cuanto a,NOUN
+مثلا,for example,por ejemplo,NOUN
+خصوصا,especially,especialmente,NOUN
+عموما,generally,en general,NOUN
+أخيرا,finally,finalmente,NOUN
+أولا,firstly,primero,NOUN
+ثانيا,secondly,segundo,NOUN
+ديريكت,directly,directamente,VERB
 بركة,enough,basta,NOUN
-فينما,wherever,dondequiera,X
-كيفما,however it may be,como sea,X
-وقتما,whenever,cuando sea,X
-بجوج,both,los dos,X
+فينما,wherever,dondequiera,NOUN
+كيفما,however it may be,como sea,NOUN
+وقتما,whenever,cuando sea,NOUN
+بجوج,both,los dos,NOUN
 فالحقيقة,in fact,en realidad,NOUN
-رغم,despite,a pesar de,X
+رغم,despite,a pesar de,NOUN
 بالنسبة,regarding,respecto a,NOUN
-إذن,therefore,por lo tanto,X
-دونك,so/then,entonces,X
-يالاه,come on,vamos,X
-بالكل,at all,en absoluto,X
-بالضبط,exactly,exactamente,X
-فالأخير,in the end,al final,X
-ماعلينا,anyway,en fin,X
-الحاصول,in short,en resumen,X
-بيناتنا,between us,entre nosotros,X
-هاكا,like this,así,X
-أبدا,never,nunca,X
-ديجا,already,ya,X
+إذن,therefore,por lo tanto,VERB
+دونك,so/then,entonces,NOUN
+يالاه,come on,vamos,NOUN
+بالكل,at all,en absoluto,NOUN
+بالضبط,exactly,exactamente,NOUN
+فالأخير,in the end,al final,NOUN
+ماعلينا,anyway,en fin,NOUN
+الحاصول,in short,en resumen,NOUN
+بيناتنا,between us,entre nosotros,NOUN
+هاكا,like this,así,NOUN
+أبدا,never,nunca,NOUN
+ديجا,already,ya,NOUN
 كلية,faculty,facultad,NOUN
-معهد,institute,instituto,X
+معهد,institute,instituto,NOUN
 تكوين,vocational training,formación,NOUN
 مادة,school subject,asignatura,NOUN
-اختبار,test,prueba,X
-معدل,grade average,promedio,X
-رسب,to fail,suspender,X
-طباشير,chalk,tiza,X
-أستاذ,teacher,profesor,X
+اختبار,test,prueba,NOUN
+معدل,grade average,promedio,NOUN
+رسب,to fail,suspender,NOUN
+طباشير,chalk,tiza,NOUN
+أستاذ,teacher,profesor,NOUN
 ثانوية,high school,secundaria,NOUN
 إعدادية,middle school,colegio,NOUN
-باكالوريا,baccalaureate,bachillerato,X
-دبلوم,diploma,diploma,X
+باكالوريا,baccalaureate,bachillerato,NOUN
+دبلوم,diploma,diploma,NOUN
 منحة,scholarship,beca,NOUN
-كونيي,notebook,cuaderno,X
+كونيي,notebook,cuaderno,VERB
 مسطرة,ruler,regla,NOUN
 ممحاة,eraser,goma,NOUN
-قاموس,dictionary,diccionario,X
-قواعد,grammar,gramática,X
-نطق,pronunciation,pronunciación,X
-تركيز,concentration,concentración,X
-ركز,to concentrate,concentrarse,X
-غياب,absence,ausencia,X
+قاموس,dictionary,diccionario,NOUN
+قواعد,grammar,gramática,NOUN
+نطق,pronunciation,pronunciación,NOUN
+تركيز,concentration,concentración,NOUN
+ركز,to concentrate,concentrarse,NOUN
+غياب,absence,ausencia,NOUN
 داخلية,boarding school,internado,NOUN
-تقدم,progress,progreso,X
+تقدم,progress,progreso,NOUN
 محاضرة,lecture,conferencia,NOUN
 ورشة,workshop,taller,NOUN
-تخصص,specialization,especialidad,X
+تخصص,specialization,especialidad,NOUN
 شعبة,branch of study,rama,NOUN
-سداسي,semester,semestre,X
-توجيه,orientation,orientación,X
-انخراط,enrollment,inscripción,X
-زميل,classmate,compañero,X
-فرض,class test,control,X
+سداسي,semester,semestre,VERB
+توجيه,orientation,orientación,NOUN
+انخراط,enrollment,inscripción,NOUN
+زميل,classmate,compañero,NOUN
+فرض,class test,control,NOUN
 ميزة,distinction,mención,NOUN
-ملخص,summary,resumen,X
+ملخص,summary,resumen,NOUN
 مراجعة,revision,repaso,NOUN
-راجع,to review,repasar,X
+راجع,to review,repasar,NOUN
 حصة,class session,sesión,NOUN
-جدول,timetable,horario,X
-عقاب,punishment,castigo,X
-تعليم,education,enseñanza,X
+جدول,timetable,horario,NOUN
+عقاب,punishment,castigo,NOUN
+تعليم,education,enseñanza,NOUN
 قراءة,reading,lectura,NOUN
-إملاء,dictation,dictado,X
-خط,handwriting,caligrafía,X
+إملاء,dictation,dictado,NOUN
+خط,handwriting,caligrafía,NOUN
 مهنة,profession,profesión,NOUN
-سيفي,CV,currículum,X
+سيفي,CV,currículum,VERB
 أجرة,wage,sueldo,NOUN
 ترقية,promotion,ascenso,NOUN
-تقاعد,retirement,jubilación,X
-متقاعد,retired,jubilado,X
-شوماج,unemployment,paro,X
-عاطل,unemployed,desempleado,X
-عامل,worker,obrero,X
-صانع,craftsman,artesano,X
+تقاعد,retirement,jubilación,NOUN
+متقاعد,retired,jubilado,NOUN
+شوماج,unemployment,paro,NOUN
+عاطل,unemployed,desempleado,NOUN
+عامل,worker,obrero,NOUN
+صانع,craftsman,artesano,NOUN
 حرفة,craft,oficio,NOUN
-صيدلي,pharmacist,farmacéutico,X
-ممرض,nurse,enfermero,X
-جراح,surgeon,cirujano,X
-محاسب,accountant,contable,X
-مترجم,translator,traductor,X
-مبرمج,programmer,programador,X
-تقني,technician,técnico,X
+صيدلي,pharmacist,farmacéutico,VERB
+ممرض,nurse,enfermero,NOUN
+جراح,surgeon,cirujano,NOUN
+محاسب,accountant,contable,NOUN
+مترجم,translator,traductor,NOUN
+مبرمج,programmer,programador,NOUN
+تقني,technician,técnico,VERB
 تريسيان,electrician,electricista,VERB
-بلومبي,plumber,fontanero,X
-حداد,blacksmith,herrero,X
-خضار,greengrocer,verdulero,X
-سمسار,broker,intermediario,X
+بلومبي,plumber,fontanero,VERB
+حداد,blacksmith,herrero,NOUN
+خضار,greengrocer,verdulero,NOUN
+سمسار,broker,intermediario,NOUN
 ڭارديان,guard,guardián,VERB
-مصور,photographer,fotógrafo,X
-إمام,imam,imán,X
-فقيه,religious scholar,erudito religioso,X
-موثق,notary,notario,X
-مقاول,contractor,empresario,X
-مسير,manager,gerente,X
-سكرتير,secretary,secretario,X
-بومبي,firefighter,bombero,X
-فاكتور,postman,cartero,X
-راعي,shepherd,pastor,X
-جرديني,gardener,jardinero,X
-مهني,professional,profesional,X
+مصور,photographer,fotógrafo,NOUN
+إمام,imam,imán,NOUN
+فقيه,religious scholar,erudito religioso,NOUN
+موثق,notary,notario,NOUN
+مقاول,contractor,empresario,NOUN
+مسير,manager,gerente,NOUN
+سكرتير,secretary,secretario,NOUN
+بومبي,firefighter,bombero,VERB
+فاكتور,postman,cartero,NOUN
+راعي,shepherd,pastor,VERB
+جرديني,gardener,jardinero,VERB
+مهني,professional,profesional,VERB
 خبرة,work experience,experiencia,NOUN
 كفاءة,competence,competencia,NOUN
 مهارة,skill,habilidad,NOUN
 وظيفة,position,puesto,NOUN
-توظيف,hiring,contratación,X
-مرشح,candidate,candidato,X
-شريك,partner,socio,X
+توظيف,hiring,contratación,NOUN
+مرشح,candidate,candidato,NOUN
+شريك,partner,socio,NOUN
 مهمة,task,misión,NOUN
 مسؤولية,responsibility,responsabilidad,NOUN
 نوبة,shift,turno,NOUN
 زيادة,pay raise,aumento,NOUN
-خلاص,pay,paga,X
-تسريح,layoff,despido,X
+خلاص,pay,paga,NOUN
+تسريح,layoff,despido,NOUN
 استقالة,resignation,dimisión,NOUN
 تعاونية,cooperative,cooperativa,NOUN
-فراش,street vendor,vendedor ambulante,X
-دلال,middleman,subastador,X
-عطار,herbalist,herbolario,X
-دباغ,tanner,curtidor,X
-فخار,pottery,alfarería,X
-حمال,porter,mozo,X
-عاشوراء,Ashura,Achura,X
-صيام,fasting,ayuno,X
-سحور,pre-dawn meal,suhur,X
-ميلود,Mawlid,Mulud,X
-سبوع,naming ceremony,ceremonia del séptimo día,X
+فراش,street vendor,vendedor ambulante,NOUN
+دلال,middleman,subastador,NOUN
+عطار,herbalist,herbolario,NOUN
+دباغ,tanner,curtidor,NOUN
+فخار,pottery,alfarería,NOUN
+حمال,porter,mozo,NOUN
+عاشوراء,Ashura,Achura,NOUN
+صيام,fasting,ayuno,NOUN
+سحور,pre-dawn meal,suhur,NOUN
+ميلود,Mawlid,Mulud,NOUN
+سبوع,naming ceremony,ceremonia del séptimo día,NOUN
 خطوبة,engagement,compromiso,NOUN
-خطب,to get engaged,comprometerse,X
-صداق,dowry,dote,X
+خطب,to get engaged,comprometerse,NOUN
+صداق,dowry,dote,NOUN
 نڭافة,bridal attendant,asistente nupcial,NOUN
 عزومة,dinner invitation,invitación,NOUN
-زغاريت,ululations,albórbolas,X
-فانتازيا,equestrian show,fantasía ecuestre,X
+زغاريت,ululations,albórbolas,VERB
+فانتازيا,equestrian show,fantasía ecuestre,NOUN
 تكشيطة,Moroccan gown,vestido marroquí,NOUN
-كبش,ram,carnero,X
-دبح,to slaughter,degollar,X
-تقاليد,traditions,tradiciones,X
+كبش,ram,carnero,NOUN
+دبح,to slaughter,degollar,NOUN
+تقاليد,traditions,tradiciones,NOUN
 عادة,custom,costumbre,NOUN
-تراث,heritage,patrimonio,X
-فولكلور,folklore,folclore,X
+تراث,heritage,patrimonio,NOUN
+فولكلور,folklore,folclore,NOUN
 سهرة,evening party,velada,NOUN
 زاوية,Sufi lodge,cofradía,NOUN
 زردة,feast,banquete,NOUN
-لعواشر,Eid season,días de fiesta,X
+لعواشر,Eid season,días de fiesta,NOUN
 طهارة,circumcision ceremony,circuncisión,NOUN
-ذكرى,anniversary,aniversario,X
+ذكرى,anniversary,aniversario,NOUN
 شهيوات,delicacies,delicias,NOUN
 مجوهرات,jewelry,joyas,NOUN
-عطر,perfume,perfume,X
-بخور,incense,incienso,X
-قلا,to fry,freír,X
-شوا,to grill,asar,X
-مشوي,grilled,asado,X
-بخر,to steam,cocer al vapor,X
-فرم,to mince,picar,X
-تبل,to season,sazonar,X
-توابل,spices,especias,X
-دوب,to melt,derretir,X
+عطر,perfume,perfume,NOUN
+بخور,incense,incienso,NOUN
+قلا,to fry,freír,NOUN
+شوا,to grill,asar,NOUN
+مشوي,grilled,asado,VERB
+بخر,to steam,cocer al vapor,NOUN
+فرم,to mince,picar,NOUN
+تبل,to season,sazonar,NOUN
+توابل,spices,especias,NOUN
+دوب,to melt,derretir,NOUN
 عجينة,dough,masa,NOUN
 وصفة,recipe,receta,NOUN
-مقادير,ingredients,ingredientes,X
+مقادير,ingredients,ingredientes,NOUN
 كمية,quantity,cantidad,NOUN
 كاسرونة,saucepan,cacerola,NOUN
 كوشة,communal oven,horno comunal,NOUN
-كمون,cumin,comino,VERB
-سكنجبير,ginger,jengibre,X
-قزبر,coriander,cilantro,X
+كمون,cumin,comino,NOUN
+سكنجبير,ginger,jengibre,NOUN
+قزبر,coriander,cilantro,NOUN
 فارينة,flour,harina,NOUN
-خل,vinegar,vinagre,X
-نقع,to soak,remojar,X
+خل,vinegar,vinagre,NOUN
+نقع,to soak,remojar,NOUN
 بسطيلة,pastilla,pastela,NOUN
 ڭميلة,cooking pot,olla,NOUN
 زلافة,bowl,cuenco,NOUN
-غربال,sieve,tamiz,X
-جمر,embers,brasas,X
-بخار,steam,vapor,X
-مقرمش,crunchy,crujiente,X
-مقلي,fried,frito,X
-مسلوق,boiled,hervido,X
-محشي,stuffed,relleno,X
-مطحون,ground,molido,VERB
-مجفف,dried,seco,X
+غربال,sieve,tamiz,NOUN
+جمر,embers,brasas,NOUN
+بخار,steam,vapor,NOUN
+مقرمش,crunchy,crujiente,NOUN
+مقلي,fried,frito,VERB
+مسلوق,boiled,hervido,NOUN
+محشي,stuffed,relleno,VERB
+مطحون,ground,molido,NOUN
+مجفف,dried,seco,NOUN
 صيدلية,pharmacy,farmacia,NOUN
-أوردونانس,prescription,receta médica,X
-كاشي,pill,pastilla,X
-مرهم,ointment,pomada,X
+أوردونانس,prescription,receta médica,NOUN
+كاشي,pill,pastilla,VERB
+مرهم,ointment,pomada,NOUN
 فاصمة,bandage,venda,NOUN
-تحليل,medical test,análisis,X
-سكري,diabetes,diabetes,X
-ضغط,blood pressure,tensión,X
-زكام,head cold,resfriado,X
-إسهال,diarrhea,diarrea,X
-إمساك,constipation,estreñimiento,X
-التواء,sprain,esguince,X
+تحليل,medical test,análisis,NOUN
+سكري,diabetes,diabetes,VERB
+ضغط,blood pressure,tensión,NOUN
+زكام,head cold,resfriado,NOUN
+إسهال,diarrhea,diarrea,NOUN
+إمساك,constipation,estreñimiento,NOUN
+التواء,sprain,esguince,NOUN
 مصحة,clinic,clínica,NOUN
-مستشفى,hospital,hospital,X
+مستشفى,hospital,hospital,NOUN
 مستعجلات,emergency room,urgencias,NOUN
-أمبولانص,ambulance,ambulancia,X
+أمبولانص,ambulance,ambulancia,NOUN
 تأمين,insurance,seguro médico,NOUN
-لقاح,vaccine,vacuna,X
+لقاح,vaccine,vacuna,NOUN
 جرعة,dose,dosis,NOUN
-أعراض,symptoms,síntomas,X
-عدوى,infection,contagio,X
-ميكروب,germ,microbio,X
-أنتيبيوتيك,antibiotic,antibiótico,X
+أعراض,symptoms,síntomas,NOUN
+عدوى,infection,contagio,NOUN
+ميكروب,germ,microbio,NOUN
+أنتيبيوتيك,antibiotic,antibiótico,NOUN
 فيتامين,vitamin,vitamina,NOUN
-ريجيم,diet,régimen,X
+ريجيم,diet,régimen,NOUN
 سمنة,obesity,obesidad,NOUN
 نظافة,hygiene,higiene,NOUN
 نصيحة,advice,consejo,NOUN
 عيادة,doctor office,consulta,NOUN
 راحة,rest,descanso,NOUN
-مسكن,painkiller,analgésico,X
-شراب,syrup,jarabe,X
-كبد,liver,hígado,X
-كلاوي,kidneys,riñones,X
-مفصل,joint,articulación,X
-حلق,throat,garganta,X
-طفح,rash,erupción,X
+مسكن,painkiller,analgésico,VERB
+شراب,syrup,jarabe,NOUN
+كبد,liver,hígado,NOUN
+كلاوي,kidneys,riñones,VERB
+مفصل,joint,articulación,NOUN
+حلق,throat,garganta,NOUN
+طفح,rash,erupción,NOUN
 حكة,itching,picor,NOUN
 حرقة,heartburn,acidez,NOUN
 غثيان,nausea,náuseas,VERB
 سخفة,fainting,desmayo,NOUN
-سخف,to faint,desmayarse,X
-نزيف,bleeding,hemorragia,X
-ورم,swelling,hinchazón,X
-التهاب,inflammation,inflamación,X
-شفى,to cure,curar,X
-عشوب,medicinal herbs,hierbas medicinales,X
+سخف,to faint,desmayarse,NOUN
+نزيف,bleeding,hemorragia,NOUN
+ورم,swelling,hinchazón,NOUN
+التهاب,inflammation,inflamación,NOUN
+شفى,to cure,curar,NOUN
+عشوب,medicinal herbs,hierbas medicinales,NOUN
 حجامة,cupping,terapia de ventosas,NOUN
 تدخين,smoking,tabaquismo,NOUN
-كمى,to smoke,fumar,X
+كمى,to smoke,fumar,NOUN
 إدمان,addiction,adicción,VERB
-بصر,eyesight,vista,X
-عكاز,crutch,muleta,X
-بنج,anesthesia,anestesia,X
+بصر,eyesight,vista,NOUN
+عكاز,crutch,muleta,NOUN
+بنج,anesthesia,anestesia,NOUN
 خياطة,stitches,puntos de sutura,NOUN
 سياقة,driving,conducción,NOUN
-تريبورتور,cargo trike,motocarro,X
-فرينو,brake,freno,X
+تريبورتور,cargo trike,motocarro,NOUN
+فرينو,brake,freno,NOUN
 فولان,steering wheel,volante,VERB
 عجلة,wheel,rueda,NOUN
-بنو,tire,neumático,X
-محرك,engine,motor,X
+بنو,tire,neumático,NOUN
+محرك,engine,motor,NOUN
 بومبة,gas station,gasolinera,NOUN
-ركن,to park,aparcar,X
-باركينڭ,parking lot,aparcamiento,X
-حزام,seatbelt,cinturón,X
-كليما,air conditioning,aire acondicionado,X
-كلاكس,horn,claxon,X
+ركن,to park,aparcar,VERB
+باركينڭ,parking lot,aparcamiento,NOUN
+حزام,seatbelt,cinturón,NOUN
+كليما,air conditioning,aire acondicionado,NOUN
+كلاكس,horn,claxon,NOUN
 إشارة,traffic sign,señal,NOUN
-رادار,speed radar,radar,X
+رادار,speed radar,radar,NOUN
 مخالفة,traffic offense,infracción,NOUN
-كونطرول,checkpoint,control,X
-فيزيت,vehicle inspection,inspección,X
-ڭاراج,repair garage,taller,X
+كونطرول,checkpoint,control,NOUN
+فيزيت,vehicle inspection,inspección,VERB
+ڭاراج,repair garage,taller,NOUN
 بانة,breakdown,avería,NOUN
-أوطوروت,highway,autopista,X
+أوطوروت,highway,autopista,VERB
 روندبوان,roundabout,rotonda,VERB
-فيتاس,gear,marcha,X
-كوفر,trunk,maletero,X
-بلوكاج,traffic jam,atasco,X
-دوبلا,to overtake,adelantar,X
-جرار,tractor,tractor,X
+فيتاس,gear,marcha,NOUN
+كوفر,trunk,maletero,NOUN
+بلوكاج,traffic jam,atasco,NOUN
+دوبلا,to overtake,adelantar,NOUN
+جرار,tractor,tractor,NOUN
 كروسة,cart,carreta,NOUN
 شكمان,exhaust pipe,tubo de escape,VERB
-بربريز,windshield,parabrisas,X
-كونطاك,ignition,contacto,X
-ديمارا,to start the engine,arrancar,X
+بربريز,windshield,parabrisas,NOUN
+كونطاك,ignition,contacto,NOUN
+ديمارا,to start the engine,arrancar,NOUN
 سطيبنة,spare tire,rueda de repuesto,NOUN
-كريك,car jack,gato,X
-بوجي,spark plug,bujía,X
+كريك,car jack,gato,NOUN
+بوجي,spark plug,bujía,VERB
 زربة,haste,prisa,NOUN
-فيراج,curve,curva,X
-منحدر,slope,pendiente,X
-ممنوع,forbidden,prohibido,X
-مسموح,allowed,permitido,X
+فيراج,curve,curva,NOUN
+منحدر,slope,pendiente,NOUN
+ممنوع,forbidden,prohibido,NOUN
+مسموح,allowed,permitido,NOUN
 أولوية,right of way,prioridad,NOUN
 راجلين,pedestrians,peatones,NOUN
-لافاج,car wash,lavado,X
-كلينيوطي,turn signal,intermitente,X
-ريترو,rearview mirror,retrovisor,X
+لافاج,car wash,lavado,NOUN
+كلينيوطي,turn signal,intermitente,VERB
+ريترو,rearview mirror,retrovisor,NOUN
 مقارنة,comparison,comparación,NOUN
-سبب,reason,motivo,X
-قرار,decision,decisión,X
-اختار,to choose,elegir,X
-اختيار,choice,elección,X
-زهر,luck,suerte,X
+سبب,reason,motivo,NOUN
+قرار,decision,decisión,NOUN
+اختار,to choose,elegir,NOUN
+اختيار,choice,elección,NOUN
+زهر,luck,suerte,NOUN
 صدفة,coincidence,casualidad,NOUN
-خطر,danger,peligro,X
-آمن,safe,seguro contra peligro,X
-اقتصاد,economy,economía,X
+خطر,danger,peligro,NOUN
+آمن,safe,seguro contra peligro,VERB
+اقتصاد,economy,economía,NOUN
 سياسة,politics,política,NOUN
-مجتمع,society,sociedad,X
+مجتمع,society,sociedad,NOUN
 روينة,mess/chaos,desorden/caos,NOUN
 سدة,mezzanine loft,altillo,NOUN
 مزبلة,garbage dump,basurero,NOUN
-مقدم,neighborhood official,jefe de barrio,X
-براح,town crier,pregonero,X
+مقدم,neighborhood official,jefe de barrio,NOUN
+براح,town crier,pregonero,NOUN
 جيران,neighbors,vecinos,VERB
 قيسارية,covered market,mercado cubierto,NOUN
-سانديك,building manager,administrador de finca,X
-سرجم,window,ventana,X
-قادوس,drainpipe,canalón,X
-مسيد,Quranic school,escuela coránica,X
-سوم,to ask the price,preguntar el precio,X
-تشطيط,overcharging,cobro excesivo,X
-بال,secondhand clothes,ropa de segunda mano,X
+سانديك,building manager,administrador de finca,NOUN
+سرجم,window,ventana,NOUN
+قادوس,drainpipe,canalón,NOUN
+مسيد,Quranic school,escuela coránica,NOUN
+سوم,to ask the price,preguntar el precio,NOUN
+تشطيط,overcharging,cobro excesivo,NOUN
+بال,secondhand clothes,ropa de segunda mano,NOUN
 خطية,fine/penalty,multa,NOUN
-بون,receipt/voucher,recibo/vale,VERB
+بون,receipt/voucher,recibo/vale,NOUN
 شكارة,bag/sack,bolsa/saco,NOUN
 رحبة,grain market,mercado de grano,NOUN
 حوات,fishmonger,pescadero,NOUN
 زريعة,seeds,semillas,NOUN
-فابور,free of charge,gratis,X
-بلاش,for free/very cheap,gratis/regalado,X
+فابور,free of charge,gratis,NOUN
+بلاش,for free/very cheap,gratis/regalado,NOUN
 خردة,junk,chatarra,NOUN
 صباغة,paint,pintura,NOUN
-جبص,plaster,yeso,X
+جبص,plaster,yeso,NOUN
 سيمان,cement,cemento,VERB
-ياجور,bricks,ladrillos,X
+ياجور,bricks,ladrillos,NOUN
 شيتة,brush,brocha/cepillo,NOUN
-تورنوفيس,screwdriver,destornillador,X
+تورنوفيس,screwdriver,destornillador,NOUN
 فيشة,electric plug,enchufe,NOUN
-بريز,power outlet,toma de corriente,X
+بريز,power outlet,toma de corriente,NOUN
 سخان,water heater,calentador de agua,VERB
 بوطة,gas cylinder,bombona de gas,NOUN
-فورنو,oven,horno,X
-تقطار,leak/dripping,goteo/fuga,X
-سلوم,ladder,escalera de mano,X
-نيفو,spirit level,nivel de burbuja,X
-فيس,pickaxe,pico,X
+فورنو,oven,horno,NOUN
+تقطار,leak/dripping,goteo/fuga,NOUN
+سلوم,ladder,escalera de mano,NOUN
+نيفو,spirit level,nivel de burbuja,NOUN
+فيس,pickaxe,pico,NOUN
 بالة,shovel,pala,NOUN
-زاج,glass pane,cristal,X
+زاج,glass pane,cristal,NOUN
 خسران,broken/out of order,averiado/estropeado,VERB
-بريكولاج,DIY work,bricolaje,X
+بريكولاج,DIY work,bricolaje,NOUN
 ماكينة,machine,máquina,NOUN
 دادة,nanny,niñera,NOUN
-كريش,daycare,guardería,X
-بيبرون,baby bottle,biberón,VERB
-كوش,diapers,pañales,X
-رضع,to breastfeed,amamantar,X
-فطم,to wean,destetar,X
+كريش,daycare,guardería,NOUN
+بيبرون,baby bottle,biberón,NOUN
+كوش,diapers,pañales,NOUN
+رضع,to breastfeed,amamantar,NOUN
+فطم,to wean,destetar,NOUN
 بوسة,kiss,beso,NOUN
-عياط,crying/shouting,llanto/gritos,X
-هدهد,to lull a baby,arrullar,X
+عياط,crying/shouting,llanto/gritos,NOUN
+هدهد,to lull a baby,arrullar,NOUN
 عمارية,bridal palanquin,palanquín nupcial,NOUN
 شيخات,traditional female singers,cantantes tradicionales,NOUN
-طبال,drummer,tamborilero,X
-غياط,traditional flute player,músico tradicional,X
+طبال,drummer,tamborilero,NOUN
+غياط,traditional flute player,músico tradicional,NOUN
 زغرتة,ululation,ululación,NOUN
 تصديرة,bride presentation ceremony,presentación de la novia,NOUN
 بلغة,leather slippers,babuchas,NOUN
 مضمة,ornamental belt,cinturón ornamental,NOUN
-شور,bridal gifts,regalos de boda,X
-دفوع,groom gifts to bride,regalos del novio,X
+شور,bridal gifts,regalos de boda,NOUN
+دفوع,groom gifts to bride,regalos del novio,NOUN
 حنة,henna,henna,NOUN
 تبوريدة,equestrian show,espectáculo ecuestre,NOUN
-صحاب,friends,amigos,X
+صحاب,friends,amigos,NOUN
 هضرة,talk/speech,charla,NOUN
-تقهوى,to have coffee,tomar café,X
-مغيوم,cloudy,nublado,X
-صحو,clear weather,tiempo despejado,X
+تقهوى,to have coffee,tomar café,NOUN
+مغيوم,cloudy,nublado,NOUN
+صحو,clear weather,tiempo despejado,NOUN
 نداوة,humidity/dampness,humedad,NOUN
-غيس,mud,barro/lodo,X
+غيس,mud,barro/lodo,NOUN
 رعدة,shiver/thunderclap,escalofrío/trueno,NOUN
-فرطاس,bald,calvo,X
-شيب,gray hair,canas,X
-شلاغم,mustache,bigote,X
-تخراص,earrings,pendientes,X
-دمليج,bracelet,pulsera,X
-سواك,miswak stick,miswak,X
-عكر,traditional rouge,colorete tradicional,X
+فرطاس,bald,calvo,NOUN
+شيب,gray hair,canas,NOUN
+شلاغم,mustache,bigote,NOUN
+تخراص,earrings,pendientes,NOUN
+دمليج,bracelet,pulsera,NOUN
+سواك,miswak stick,miswak,NOUN
+عكر,traditional rouge,colorete tradicional,NOUN
 مشطة,comb,peine,NOUN
 ضفيرة,braid,trenza,NOUN
 لبسة,outfit,atuendo,NOUN
-زعر,fair-haired,rubio,X
-تكرميش,wrinkles,arrugas,X
+زعر,fair-haired,rubio,NOUN
+تكرميش,wrinkles,arrugas,NOUN
 حسانة,haircut,corte de pelo,NOUN
-حجام,barber,barbero,X
-زواق,decoration/adornment,adorno,X
-دبر,to manage/arrange,apañarse/gestionar,X
-تكا,to lean on,recostarse,X
-تسنا,to wait,esperar,X
-تخلع,to be startled,asustarse,X
+حجام,barber,barbero,NOUN
+زواق,decoration/adornment,adorno,NOUN
+دبر,to manage/arrange,apañarse/gestionar,NOUN
+تكا,to lean on,recostarse,NOUN
+تسنا,to wait,esperar,NOUN
+تخلع,to be startled,asustarse,NOUN
 خلعة,fright,susto,NOUN
-قرص,to pinch/sting,pellizcar/picar,X
-شمر,to roll up sleeves,arremangarse,X
-رقع,to patch,remendar,X
-طرز,to embroider,bordar,X
-فور,to steam,cocer al vapor,X
-سيب,to let go/abandon,soltar/dejar,X
-طيح,to knock down,derribar,X
-تدابز,to brawl,pelearse,X
-تعارك,to quarrel,reñir,X
-عير,to insult/taunt,insultar/burlarse,X
-تصنط,to eavesdrop,escuchar a escondidas,X
-صاب,to find,encontrar,X
-وضب,to tidy/prepare,ordenar/preparar,X
-نقى,to clean/sort,limpiar/escoger,X
-نشف,to dry,secar,X
-خنز,to stink/rot,apestar/pudrirse,X
-والف,to get used to,acostumbrarse,X
+قرص,to pinch/sting,pellizcar/picar,NOUN
+شمر,to roll up sleeves,arremangarse,NOUN
+رقع,to patch,remendar,NOUN
+طرز,to embroider,bordar,NOUN
+فور,to steam,cocer al vapor,NOUN
+سيب,to let go/abandon,soltar/dejar,NOUN
+طيح,to knock down,derribar,NOUN
+تدابز,to brawl,pelearse,NOUN
+تعارك,to quarrel,reñir,NOUN
+عير,to insult/taunt,insultar/burlarse,NOUN
+تصنط,to eavesdrop,escuchar a escondidas,NOUN
+صاب,to find,encontrar,NOUN
+وضب,to tidy/prepare,ordenar/preparar,NOUN
+نقى,to clean/sort,limpiar/escoger,NOUN
+نشف,to dry,secar,NOUN
+خنز,to stink/rot,apestar/pudrirse,NOUN
+والف,to get used to,acostumbrarse,NOUN
 قنطة,boredom,aburrimiento,NOUN
-قاسح,hard/stiff,duro/rígido,X
-معمر,full,lleno,X
-معوج,crooked,torcido,X
-مزروب,in a hurry,apresurado,X
-مهبول,crazy,loco,X
-فايق,awake/alert,despierto/espabilado,X
-ناضي,great/ready,estupendo/listo,X
-محشوم,modest/respectful,modesto/respetuoso,X
-حرش,rough,áspero,X
-مبلول,wet,mojado,X
-مبروم,twisted/rolled,retorcido,X
-مفشوش,deflated/soft,desinflado,X
-منفوخ,inflated/puffed up,hinchado,X
-حادق,clever/skillful,hábil/listo,X
-موالف,accustomed,acostumbrado,X
+قاسح,hard/stiff,duro/rígido,NOUN
+معمر,full,lleno,NOUN
+معوج,crooked,torcido,NOUN
+مزروب,in a hurry,apresurado,NOUN
+مهبول,crazy,loco,NOUN
+فايق,awake/alert,despierto/espabilado,NOUN
+ناضي,great/ready,estupendo/listo,VERB
+محشوم,modest/respectful,modesto/respetuoso,NOUN
+حرش,rough,áspero,NOUN
+مبلول,wet,mojado,NOUN
+مبروم,twisted/rolled,retorcido,NOUN
+مفشوش,deflated/soft,desinflado,NOUN
+منفوخ,inflated/puffed up,hinchado,NOUN
+حادق,clever/skillful,hábil/listo,NOUN
+موالف,accustomed,acostumbrado,NOUN
 طبلة,small table,mesita,NOUN
 حصيرة,mat,estera,NOUN
 مضربة,mattress,colchón,NOUN
 برمة,cooking pot,olla,NOUN
-كسكاس,couscous steamer,vaporera de cuscús,X
-مجمر,brazier,brasero,X
+كسكاس,couscous steamer,vaporera de cuscús,NOUN
+مجمر,brazier,brasero,NOUN
 رضومة,glass bottle,botella de vidrio,NOUN
-طيفور,low round table,mesa baja redonda,X
-طوموبيل,car,coche,X
-دراز,weaver,tejedor,X
-برطال,small room,cuartucho,X
-كوري,shack/stable,cuchitril/establo,X
+طيفور,low round table,mesa baja redonda,NOUN
+طوموبيل,car,coche,NOUN
+دراز,weaver,tejedor,NOUN
+برطال,small room,cuartucho,NOUN
+كوري,shack/stable,cuchitril/establo,VERB
 زريبة,animal pen,corral,NOUN
 خربة,ruin,ruina,NOUN
 دويرية,kitchen annex,cocina anexa,NOUN
-فوقي,upper,de arriba,X
-تحتاني,lower,de abajo,X
-قرمود,roof tiles,tejas,X
-جير,lime whitewash,cal,X
+فوقي,upper,de arriba,VERB
+تحتاني,lower,de abajo,VERB
+قرمود,roof tiles,tejas,NOUN
+جير,lime whitewash,cal,NOUN
 زرادية,pliers,alicates,NOUN
-شاقور,axe,hacha,X
-مارطو,hammer,martillo,X
-منشار,saw,sierra,X
+شاقور,axe,hacha,NOUN
+مارطو,hammer,martillo,NOUN
+منشار,saw,sierra,NOUN
 برينة,drill,taladro,NOUN
 كولة,glue,pegamento,NOUN
 جوان,gasket/joint,junta,VERB
 طوبة,brick,ladrillo,NOUN
-شانطي,construction site,obra,X
-تبليط,tiling,embaldosado,X
+شانطي,construction site,obra,VERB
+تبليط,tiling,embaldosado,NOUN
 خابية,large clay jar,tinaja,NOUN
-بوقال,jar,tarro,X
-كانون,clay stove,hornillo de barro,VERB
-مهراز,mortar and pestle,almirez,X
+بوقال,jar,tarro,NOUN
+كانون,clay stove,hornillo de barro,NOUN
+مهراز,mortar and pestle,almirez,NOUN
 مصفاية,colander,colador,NOUN
 كيسان,tea glasses,vasos de té,VERB
-بلار,crystal/fine glass,cristal fino,X
+بلار,crystal/fine glass,cristal fino,NOUN
 قصعة,large serving bowl,barreno,NOUN
 ميدة,low dining table,mesita baja,NOUN
-دربوز,railing,barandilla,X
-بيرو,desk/office,escritorio/oficina,X
+دربوز,railing,barandilla,NOUN
+بيرو,desk/office,escritorio/oficina,NOUN
 تصبين,laundry washing,colada,NOUN
-جافيل,bleach,lejía,X
+جافيل,bleach,lejía,NOUN
 عقيقة,birth naming rite,rito del nombre,NOUN
 مباركة,congratulation/blessing,felicitación,NOUN
 تعريجة,small clay drum,tamboril,NOUN
 قرقبات,metal castanets,crótalos metálicos,NOUN
-تلج,snow,nieve,X
+تلج,snow,nieve,NOUN
 قايلة,midday heat,solanera,NOUN
 سخونة,fever,fiebre,NOUN
-جاز,to pass by,pasar por,X
-تخبى,to hide oneself,esconderse,X
-لحس,to lick,lamer,X
-كمش,to clench/grab,agarrar,X
-قبط,to catch/hold,atrapar/sujetar,X
-لوح,to throw,lanzar/tirar,X
-شفر,to steal,robar,X
-تكرفس,to struggle/suffer,penar/sufrir,X
-كوم,to pile up,amontonar,X
-وصى,to place an order,encargar,X
-قضى,to run errands,hacer los recados,X
-تخلص,to get paid,cobrar,X
-رخى,to loosen,aflojar,X
-تشهى,to crave,antojarse,X
-حكر,to bully/oppress,abusar de,X
-تبهدل,to be humiliated,quedar en ridículo,X
+جاز,to pass by,pasar por,NOUN
+تخبى,to hide oneself,esconderse,NOUN
+لحس,to lick,lamer,NOUN
+كمش,to clench/grab,agarrar,NOUN
+قبط,to catch/hold,atrapar/sujetar,NOUN
+لوح,to throw,lanzar/tirar,NOUN
+شفر,to steal,robar,NOUN
+تكرفس,to struggle/suffer,penar/sufrir,NOUN
+كوم,to pile up,amontonar,NOUN
+وصى,to place an order,encargar,NOUN
+قضى,to run errands,hacer los recados,NOUN
+تخلص,to get paid,cobrar,NOUN
+رخى,to loosen,aflojar,NOUN
+تشهى,to crave,antojarse,NOUN
+حكر,to bully/oppress,abusar de,NOUN
+تبهدل,to be humiliated,quedar en ridículo,NOUN
 بهدلة,humiliation/mess,bochorno,NOUN
-تمسكن,to act pitiful,hacerse la victima,X
-تفركع,to burst,reventar,X
-طرطق,to crackle/pop,crepitar,X
-برطم,to grumble,refunfuñar,X
-شخر,to snore,roncar,X
-محروق,burnt,quemado,X
-حريف,spicy hot,picante,X
-مزوق,decorated,adornado,X
-مصبوغ,painted/dyed,pintado/teñido,X
+تمسكن,to act pitiful,hacerse la victima,VERB
+تفركع,to burst,reventar,NOUN
+طرطق,to crackle/pop,crepitar,NOUN
+برطم,to grumble,refunfuñar,NOUN
+شخر,to snore,roncar,NOUN
+محروق,burnt,quemado,NOUN
+حريف,spicy hot,picante,NOUN
+مزوق,decorated,adornado,NOUN
+مصبوغ,painted/dyed,pintado/teñido,NOUN
 فنيان,lazy,vago,VERB
-بلدي,local/homegrown,del país/casero,X
-رومي,farmed/European style,de granja,X
-بالي,worn out,gastado/raído,X
-مقطع,ragged,andrajoso,X
-معفن,moldy,mohoso,X
-غميق,deep/dark colored,oscuro/profundo,X
-مفلس,broke/penniless,arruinado,X
-منحوس,unlucky,gafado,X
-مزلوط,penniless,sin blanca,X
-زايد,extra/surplus,de sobra,X
+بلدي,local/homegrown,del país/casero,VERB
+رومي,farmed/European style,de granja,VERB
+بالي,worn out,gastado/raído,VERB
+مقطع,ragged,andrajoso,NOUN
+معفن,moldy,mohoso,VERB
+غميق,deep/dark colored,oscuro/profundo,NOUN
+مفلس,broke/penniless,arruinado,NOUN
+منحوس,unlucky,gafado,NOUN
+مزلوط,penniless,sin blanca,NOUN
+زايد,extra/surplus,de sobra,NOUN
 بالجملة,wholesale,al por mayor,NOUN
-بالتقسيط,in installments,a plazos,X
+بالتقسيط,in installments,a plazos,NOUN
 مرضعة,wet nurse,nodriza,NOUN
 تسنين,teething,dentición,NOUN
 مشاية,baby walker,andador,NOUN
-دلل,to spoil a child,mimar,X
-مدلل,spoiled child,mimado,X
-ربى,to raise a child,criar,X
-بنادم,human being,ser humano,X
-سالف,hair lock/sideburn,mechón/patilla,X
-عقيق,agate beads,ágata,X
+دلل,to spoil a child,mimar,NOUN
+مدلل,spoiled child,mimado,NOUN
+ربى,to raise a child,criar,NOUN
+بنادم,human being,ser humano,NOUN
+سالف,hair lock/sideburn,mechón/patilla,NOUN
+عقيق,agate beads,ágata,NOUN
 بودرة,face powder,polvos de maquillaje,NOUN
 كريمة,cream,crema,NOUN
 شامبوان,shampoo,champú,VERB
 شفرة,razor blade,cuchilla,NOUN
-ملوي,layered flatbread,pan laminado,X
-خليع,preserved dried meat,carne curada,X
-أملو,almond argan spread,crema de almendras,X
-فليو,pennyroyal mint,poleo,X
-قوق,artichoke,alcachofa,X
-دنجال,eggplant,berenjena,X
+ملوي,layered flatbread,pan laminado,VERB
+خليع,preserved dried meat,carne curada,NOUN
+أملو,almond argan spread,crema de almendras,NOUN
+فليو,pennyroyal mint,poleo,NOUN
+قوق,artichoke,alcachofa,NOUN
+دنجال,eggplant,berenjena,NOUN

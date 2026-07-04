@@ -37,7 +37,7 @@ bak,behind/back,detrás,X
 band,band/tie,banda/lazo,X
 bandet,the band/the tape,la banda,VERB
 banken,the bank,el banco,X
-bar,carried/bare,llevaba/desnudo,X
+bar,carried/bare,llevaba/desnudo,ADJ
 baren,the bar,el bar,X
 barnet,the child,el niño,VERB
 begär,demand/desire,deseo/exigencia,X
@@ -184,13 +184,13 @@ frankrike,France,Francia,X
 fred,peace,paz,X
 fri,free,libre,X
 fria,propose/free,proponer/libre,VERB
-frihet,freedom,libertad,VERB
+frihet,freedom,libertad,NOUN
 frun,the wife,la esposa,X
 frågan,the question,la pregunta,X
 fröken,Miss/teacher,señorita,X
 fullt,fully,completamente,VERB
 fungera,function,funcionar,VERB
-fängelse,prison,prisión,X
+fängelse,prison,prisión,NOUN
 fängelset,the prison,la prisión,VERB
 färdig,ready/finished,listo,ADJ
 fånga,catch,atrapar,VERB
@@ -251,7 +251,7 @@ glömmer,forgets,olvida,X
 glömt,forgotten,olvidado,VERB
 gode,good(def),bueno,VERB
 golvet,the floor,el suelo,VERB
-grabbar,guys,chicos,X
+grabbar,guys,chicos,ADJ
 gratis,free,gratis,X
 grattis,congratulations,felicidades,X
 gravid,pregnant,embarazada,X
@@ -279,7 +279,7 @@ hel,whole,entero,X
 helgen,the weekend/holiday,el fin de semana,X
 hellre,rather,más bien,X
 helvetet,hell,el infierno,VERB
-hemlighet,secret,secreto,VERB
+hemlighet,secret,secreto,NOUN
 hemligheter,secrets,secretos,X
 hemsk,terrible,terrible,ADJ
 hemska,terrible(pl),terribles,VERB
@@ -499,7 +499,7 @@ människorna,the people,las personas,VERB
 märkligt,strange,extraño,VERB
 mål,goal/target,meta/objetivo,X
 målet,the goal/target,el objetivo,VERB
-möjlighet,possibility/option,posibilidad,VERB
+möjlighet,possibility/option,posibilidad,NOUN
 mördade,murdered,asesinó,VERB
 mördare,murderer,asesino,X
 mördaren,the murderer,el asesino,X
@@ -551,7 +551,7 @@ orkar,have strength,tiene fuerza,X
 oroar,worries,preocupa,X
 orsak,cause,causa,X
 oskyldig,innocent,inocente,ADJ
-pa,dad/pascal,papá/pascal,VERB
+pa,dad/pascal,papá/pascal,ADP
 pappas,dad's,de papá,X
 partner,partner,compañero,X
 passa,fit/suit,convenir,VERB
@@ -742,7 +742,7 @@ svär,swears,jura,X
 syns,is visible,se ve,X
 sysslar,is busy with,se ocupa,X
 systemet,the system,el sistema,VERB
-säkerhet,security,seguridad,VERB
+säkerhet,security,seguridad,NOUN
 säkra,secure,asegurar,VERB
 säljer,sells,vende,X
 sällskap,company,compañía,NOUN
@@ -809,7 +809,7 @@ tydligen,apparently,al parecer,X
 tänder,lights/teeth,enciende/dientes,X
 tåget,the train,el tren,VERB
 umgås,associate/hang out,frecuentar,X
-underbar,wonderful,maravilloso,X
+underbar,wonderful,maravilloso,ADJ
 underbart,wonderful,maravilloso,VERB
 undrade,wondered,se preguntaba,VERB
 unga,young(pl),jóvenes,VERB
@@ -819,7 +819,7 @@ ungefär,approximately,aproximadamente,X
 uppdrag,mission,misión,X
 uppdraget,the mission,la misión,VERB
 uppfattat,perceived,percibido,VERB
-uppmärksamhet,attention,atención,VERB
+uppmärksamhet,attention,atención,NOUN
 upprörd,upset,alterado,X
 uppskattar,appreciates,agradece,X
 upptagen,busy/taken,ocupado,X

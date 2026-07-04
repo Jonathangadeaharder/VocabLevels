@@ -1,63 +1,63 @@
 Arabic_Lemma,English_Translation,Spanish_Translation,POS
-نوض,to get up,levantarse,X
-فطر,to have breakfast,desayunar,X
-تغدى,to have lunch,almorzar,X
-تعشى,to have dinner,cenar,X
-تدوش,to take a shower,ducharse,X
-توضا,to wash up,asearse,X
-مشط,to comb,peinar,X
-حسن,to get a haircut / to shave,cortarse el pelo / afeitarse,X
-لبس,to wear / to get dressed,vestirse,X
-حيد,to take off / to remove,quitarse / quitar,X
-وجد,to prepare,preparar,X
-صاوب,to fix / to prepare,arreglar / preparar,X
-رتب,to tidy up,ordenar,X
-كنس,to sweep,barrer,X
-مسح,to wipe / to clean,limpiar,X
-شطف,to mop / to rinse,fregar / enjuagar,X
-نشر,to hang laundry,tender la ropa,X
-طوى,to fold,doblar,X
-عيا,to get tired,cansarse,X
-رتاح,to rest,descansar,X
-تعطل,to be late,retrasarse,X
-تسارا,to stroll,pasear,X
-تفرج,to watch,mirar,X
-صلى,to pray,rezar,X
-صام,to fast,ayunar,X
-خمم,to think,pensar,X
-تلاقى,to meet,encontrarse,X
-تسنى,to wait,esperar,X
-تهلا,to take care,cuidarse,X
-نعاس,sleep / sleepiness,sueño,X
-تمن,price,precio,X
+نوض,to get up,levantarse,NOUN
+فطر,to have breakfast,desayunar,NOUN
+تغدى,to have lunch,almorzar,NOUN
+تعشى,to have dinner,cenar,NOUN
+تدوش,to take a shower,ducharse,NOUN
+توضا,to wash up,asearse,NOUN
+مشط,to comb,peinar,NOUN
+حسن,to get a haircut / to shave,cortarse el pelo / afeitarse,VERB
+لبس,to wear / to get dressed,vestirse,NOUN
+حيد,to take off / to remove,quitarse / quitar,NOUN
+وجد,to prepare,preparar,NOUN
+صاوب,to fix / to prepare,arreglar / preparar,NOUN
+رتب,to tidy up,ordenar,NOUN
+كنس,to sweep,barrer,NOUN
+مسح,to wipe / to clean,limpiar,NOUN
+شطف,to mop / to rinse,fregar / enjuagar,NOUN
+نشر,to hang laundry,tender la ropa,NOUN
+طوى,to fold,doblar,NOUN
+عيا,to get tired,cansarse,NOUN
+رتاح,to rest,descansar,NOUN
+تعطل,to be late,retrasarse,NOUN
+تسارا,to stroll,pasear,NOUN
+تفرج,to watch,mirar,NOUN
+صلى,to pray,rezar,NOUN
+صام,to fast,ayunar,NOUN
+خمم,to think,pensar,NOUN
+تلاقى,to meet,encontrarse,NOUN
+تسنى,to wait,esperar,NOUN
+تهلا,to take care,cuidarse,NOUN
+نعاس,sleep / sleepiness,sueño,NOUN
+تمن,price,precio,VERB
 سومة,price / cost,precio / coste,NOUN
-تقدى,to shop for groceries,hacer la compra,X
-خلص,to pay,pagar,X
-سلف,to lend / to borrow,prestar / pedir prestado,X
-كريدي,credit,crédito,X
-ريال,rial,rial,X
-سنتيم,centime,céntimo,X
-شيك,cheque,cheque,X
-مرشي,market,mercado,X
+تقدى,to shop for groceries,hacer la compra,NOUN
+خلص,to pay,pagar,NOUN
+سلف,to lend / to borrow,prestar / pedir prestado,NOUN
+كريدي,credit,crédito,VERB
+ريال,rial,rial,NOUN
+سنتيم,centime,céntimo,NOUN
+شيك,cheque,cheque,NOUN
+مرشي,market,mercado,VERB
 بلاصة,place / spot,lugar / sitio,NOUN
-رخص,to get cheaper,abaratarse,X
-غلا,to get expensive,encarecerse,X
-نقص,to reduce / to decrease,reducir / disminuir,X
-زاد,to add / to increase,añadir / aumentar,X
+رخص,to get cheaper,abaratarse,NOUN
+غلا,to get expensive,encarecerse,NOUN
+نقص,to reduce / to decrease,reducir / disminuir,NOUN
+زاد,to add / to increase,añadir / aumentar,NOUN
 سلعة,goods,mercancía,NOUN
-زبون,customer,cliente,VERB
-بياع,seller,vendedor,X
-صولد,sale / discount,rebajas,X
+زبون,customer,cliente,NOUN
+بياع,seller,vendedor,NOUN
+صولد,sale / discount,rebajas,NOUN
 فاكتورة,bill / invoice,factura,NOUN
 ميزان,scale,balanza,VERB
-كيلو,kilo,kilo,X
-ليترو,liter,litro,X
-نص,half,mitad,X
-ربع,quarter,cuarto,X
+كيلو,kilo,kilo,NOUN
+ليترو,liter,litro,NOUN
+نص,half,mitad,NOUN
+ربع,quarter,cuarto,NOUN
 جوطية,flea market,mercadillo,NOUN
 دين,debt,deuda,NOUN
 كارطة,card,tarjeta,NOUN
-صندوق,box / cash register,caja,X
+صندوق,box / cash register,caja,NOUN
 ساحة,square,plaza,NOUN
 بيصارة,fava bean soup,sopa de habas,NOUN
 رفيسة,rfissa dish,plato rfissa,NOUN
@@ -65,130 +65,130 @@ Arabic_Lemma,English_Translation,Spanish_Translation,POS
 شباكية,chebakia pastry,dulce chebakia,NOUN
 بريوات,stuffed pastries,empanadillas,NOUN
 زعفران,saffron,azafrán,VERB
-سكينجبير,ginger,jengibre,X
+سكينجبير,ginger,jengibre,NOUN
 قرفة,cinnamon,canela,NOUN
-كامون,cumin,comino,VERB
+كامون,cumin,comino,NOUN
 فلفلة,pepper / chili,pimiento / guindilla,NOUN
-بزار,spice / pepper,especia / pimienta,X
+بزار,spice / pepper,especia / pimienta,NOUN
 شرمولة,chermoula marinade,adobo chermoula,NOUN
 مرقة,sauce / broth,salsa / caldo,NOUN
-زيتون,olives,aceitunas,VERB
-لوز,almonds,almendras,X
-كاوكاو,peanuts,cacahuetes,X
-زبيب,raisins,pasas,X
-تمر,dates,dátiles,X
+زيتون,olives,aceitunas,NOUN
+لوز,almonds,almendras,NOUN
+كاوكاو,peanuts,cacahuetes,NOUN
+زبيب,raisins,pasas,NOUN
+تمر,dates,dátiles,NOUN
 رمان,pomegranate,granada,VERB
-مشماش,apricot,albaricoque,X
-بدنجال,eggplant,berenjena,X
-لفت,turnip,nabo,X
-كرافس,celery,apio,X
-معدنوس,parsley,perejil,X
-قزبور,coriander,cilantro,X
-نعناع,mint,hierbabuena,X
+مشماش,apricot,albaricoque,NOUN
+بدنجال,eggplant,berenjena,NOUN
+لفت,turnip,nabo,VERB
+كرافس,celery,apio,NOUN
+معدنوس,parsley,perejil,NOUN
+قزبور,coriander,cilantro,NOUN
+نعناع,mint,hierbabuena,NOUN
 شيبة,wormwood herb,ajenjo,NOUN
 لتشين,orange,naranja,NOUN
-عدس,lentils,lentejas,X
-حمص,chickpeas,garbanzos,X
+عدس,lentils,lentejas,NOUN
+حمص,chickpeas,garbanzos,NOUN
 طحين,flour,harina,NOUN
 سميدة,semolina,sémola,NOUN
 خميرة,yeast,levadura,NOUN
-دانون,yogurt,yogur,VERB
-رايب,curdled milk,leche cuajada,X
-لبن,buttermilk,suero de leche,X
-سمن,clarified butter,mantequilla clarificada,X
-صوصيص,sausage,salchicha,X
+دانون,yogurt,yogur,NOUN
+رايب,curdled milk,leche cuajada,NOUN
+لبن,buttermilk,suero de leche,VERB
+سمن,clarified butter,mantequilla clarificada,VERB
+صوصيص,sausage,salchicha,NOUN
 كفتة,minced meat,carne picada,NOUN
-غراف,cup / mug,vaso / taza,X
+غراف,cup / mug,vaso / taza,NOUN
 صينية,tray,bandeja,NOUN
 كسرونة,cooking pot,cacerola,NOUN
-قلى,to fry,freír,X
-شوى,to grill,asar,X
-سلق,to boil food,cocer,X
-غلى,to boil,hervir,X
-خلط,to mix,mezclar,X
-حرك,to stir / to move,remover / mover,X
-هرس,to mash,machacar,X
-صفى,to strain,colar,X
+قلى,to fry,freír,NOUN
+شوى,to grill,asar,NOUN
+سلق,to boil food,cocer,NOUN
+غلى,to boil,hervir,NOUN
+خلط,to mix,mezclar,NOUN
+حرك,to stir / to move,remover / mover,NOUN
+هرس,to mash,machacar,NOUN
+صفى,to strain,colar,NOUN
 لقمة,bite / morsel,bocado,NOUN
 شحمة,fat / grease,grasa,NOUN
 جلجلان,sesame,sésamo,VERB
 قرعة,zucchini / bottle,calabacín / botella,NOUN
 باكية,packet,paquete,NOUN
-ڭاطو,cake,pastel,X
-شكلاط,chocolate,chocolate,X
+ڭاطو,cake,pastel,NOUN
+شكلاط,chocolate,chocolate,NOUN
 قنينة,bottle,botella,NOUN
-طبق,dish / course,plato,X
-فجل,radish,rábano,X
-كرموس,figs,higos,X
+طبق,dish / course,plato,NOUN
+فجل,radish,rábano,NOUN
+كرموس,figs,higos,NOUN
 هندية,prickly pear,higo chumbo,NOUN
 شهيوة,tasty dish / craving,delicia / antojo,NOUN
 بنة,flavor / deliciousness,sabor,NOUN
 ريحة,smell,olor,NOUN
-نسيب,in-law,cuñado,X
+نسيب,in-law,cuñado,NOUN
 عڭوزة,mother-in-law,suegra,NOUN
-عريس,groom,novio,X
+عريس,groom,novio,NOUN
 عروسة,bride,novia,NOUN
-عرس,wedding,boda,X
+عرس,wedding,boda,NOUN
 خطبة,engagement,compromiso,NOUN
-تزوج,to get married,casarse,X
-طلق,to divorce,divorciarse,X
+تزوج,to get married,casarse,NOUN
+طلق,to divorce,divorciarse,NOUN
 حاملة,pregnant,embarazada,NOUN
 ولادة,birth,nacimiento,NOUN
-تزاد,to be born,nacer,X
-توام,twins,gemelos,X
-يتيم,orphan,huérfano,X
+تزاد,to be born,nacer,NOUN
+توام,twins,gemelos,NOUN
+يتيم,orphan,huérfano,NOUN
 صداقة,friendship,amistad,NOUN
-حب,love,amor,X
-حبيب,beloved / darling,amado,X
-عزيز,dear,querido,X
-عزري,bachelor / young man,soltero,X
-مزوج,married,casado,X
-حفيد,grandchild,nieto,X
-عشير,close friend,compañero,X
-دراري,kids,niños,X
-براني,stranger / outsider,forastero,X
+حب,love,amor,NOUN
+حبيب,beloved / darling,amado,NOUN
+عزيز,dear,querido,NOUN
+عزري,bachelor / young man,soltero,VERB
+مزوج,married,casado,NOUN
+حفيد,grandchild,nieto,NOUN
+عشير,close friend,compañero,NOUN
+دراري,kids,niños,VERB
+براني,stranger / outsider,forastero,VERB
 عيلة,little girl,niña,NOUN
 هدية,gift,regalo,NOUN
-صالون,living room,salón,VERB
-سقف,ceiling,techo,X
-حيط,wall,pared,X
+صالون,living room,salón,NOUN
+سقف,ceiling,techo,NOUN
+حيط,wall,pared,NOUN
 خزانة,cupboard,armario,NOUN
-رف,shelf,estante,X
-دروج,stairs,escaleras,X
-سطح,roof / terrace,azotea,X
-كراج,garage,garaje,X
-ريدو,curtain,cortina,X
-ضو,light,luz,X
-شوفاج,heater,calefacción,X
-راديو,radio,radio,X
-فيلا,villa,chalet,X
+رف,shelf,estante,NOUN
+دروج,stairs,escaleras,NOUN
+سطح,roof / terrace,azotea,NOUN
+كراج,garage,garaje,NOUN
+ريدو,curtain,cortina,NOUN
+ضو,light,luz,NOUN
+شوفاج,heater,calefacción,NOUN
+راديو,radio,radio,NOUN
+فيلا,villa,chalet,NOUN
 عمارة,building,edificio,NOUN
-طابق,floor / story,piso,X
-بارطما,apartment,apartamento,X
-كراء,rent,alquiler,X
-كرى,to rent,alquilar,X
-ساكن,resident / living,residente,X
-سكن,to live / to reside,vivir / residir,X
-قفل,lock,cerradura,X
-جرس,bell,timbre,X
+طابق,floor / story,piso,NOUN
+بارطما,apartment,apartamento,NOUN
+كراء,rent,alquiler,NOUN
+كرى,to rent,alquilar,NOUN
+ساكن,resident / living,residente,VERB
+سكن,to live / to reside,vivir / residir,VERB
+قفل,lock,cerradura,NOUN
+جرس,bell,timbre,NOUN
 بطانية,blanket,manta,NOUN
-زليج,tiles,azulejos,X
-بانيو,bathtub,bañera,X
-دوش,shower,ducha,X
-روبيني,faucet,grifo,X
+زليج,tiles,azulejos,NOUN
+بانيو,bathtub,bañera,NOUN
+دوش,shower,ducha,NOUN
+روبيني,faucet,grifo,VERB
 طاقة,small window,ventanilla,NOUN
-حوش,courtyard,patio,X
-سور,fence / wall,muro,X
-بلاكار,closet,armario empotrado,X
-تريسينتي,electricity,electricidad,X
+حوش,courtyard,patio,NOUN
+سور,fence / wall,muro,NOUN
+بلاكار,closet,armario empotrado,NOUN
+تريسينتي,electricity,electricidad,VERB
 نمرة,number,número,NOUN
-قنت,corner,rincón,X
-بوطا,gas bottle,bombona de gas,X
-فحم,charcoal,carbón,X
-مقص,scissors,tijeras,X
-مسمار,nail,clavo,X
+قنت,corner,rincón,VERB
+بوطا,gas bottle,bombona de gas,NOUN
+فحم,charcoal,carbón,NOUN
+مقص,scissors,tijeras,NOUN
+مسمار,nail,clavo,NOUN
 مطرقة,hammer,martillo,NOUN
-حبل,rope,cuerda,X
+حبل,rope,cuerda,NOUN
 قفة,shopping basket,capazo,NOUN
 ميكة,plastic bag,bolsa de plástico,NOUN
 تصويرة,picture / photo,foto,NOUN
@@ -198,404 +198,404 @@ Arabic_Lemma,English_Translation,Spanish_Translation,POS
 شمعة,candle,vela,NOUN
 علبة,box / can,caja / lata,NOUN
 خيمة,tent,tienda de campaña,NOUN
-تيشورت,t-shirt,camiseta,X
+تيشورت,t-shirt,camiseta,VERB
 صاية,skirt,falda,NOUN
-سلهام,Moroccan cape,capa marroquí,X
+سلهام,Moroccan cape,capa marroquí,NOUN
 سمطة,belt,cinturón,NOUN
 بيجامة,pajamas,pijama,NOUN
-مايو,swimsuit,bañador,X
+مايو,swimsuit,bañador,NOUN
 سبرديلة,sneakers,zapatillas,NOUN
-شربيل,Moroccan slippers,babuchas,X
-فولار,scarf,pañuelo,X
-حوايج,clothes,ropa,X
-حايك,haik garment,haik,X
-زيف,headscarf,pañuelo de cabeza,X
+شربيل,Moroccan slippers,babuchas,NOUN
+فولار,scarf,pañuelo,NOUN
+حوايج,clothes,ropa,NOUN
+حايك,haik garment,haik,NOUN
+زيف,headscarf,pañuelo de cabeza,NOUN
 جاكيطة,jacket,chaqueta,NOUN
-قياس,size / measure,talla / medida,X
-جرب,to try / to try on,probar / probarse,X
-صوف,wool,lana,X
-حرير,silk,seda,X
-قطن,cotton,algodón,X
-بوطون,button,botón,VERB
+قياس,size / measure,talla / medida,NOUN
+جرب,to try / to try on,probar / probarse,NOUN
+صوف,wool,lana,NOUN
+حرير,silk,seda,NOUN
+قطن,cotton,algodón,VERB
+بوطون,button,botón,NOUN
 كرافاطة,necktie,corbata,NOUN
 كاسكيطة,cap,gorra,NOUN
 جبهة,forehead,frente,NOUN
-حنك,cheek / jaw,mejilla / mandíbula,X
+حنك,cheek / jaw,mejilla / mandíbula,NOUN
 شفة,lip,labio,NOUN
-فخد,thigh,muslo,X
-كعب,heel / ankle,talón / tobillo,X
+فخد,thigh,muslo,NOUN
+كعب,heel / ankle,talón / tobillo,NOUN
 معدة,stomach,estómago,NOUN
 كبدة,liver,hígado,NOUN
-صداع,headache,dolor de cabeza,X
+صداع,headache,dolor de cabeza,NOUN
 سخانة,fever,fiebre,NOUN
 كحة,cough,tos,NOUN
-كح,to cough,toser,X
-وجع,pain,dolor,X
-ضر,to hurt,doler,X
+كح,to cough,toser,NOUN
+وجع,pain,dolor,NOUN
+ضر,to hurt,doler,NOUN
 فرماسيان,pharmacist,farmacéutico,VERB
 فرماسية,pharmacy,farmacia,NOUN
 شوكة,injection / fork,inyección / tenedor,NOUN
-فحص,medical checkup,revisión médica,X
+فحص,medical checkup,revisión médica,NOUN
 عملية,operation,operación,NOUN
 حبة,pill / grain,pastilla / grano,NOUN
 صحة,health,salud,NOUN
 سمين,fat / overweight,gordo,NOUN
-تحسن,to get better,mejorar,X
-ضرس,molar,muela,X
-عرق,sweat / vein,sudor / vena,X
-نفس,breath / self,respiración,X
-تنفس,to breathe,respirar,X
+تحسن,to get better,mejorar,VERB
+ضرس,molar,muela,NOUN
+عرق,sweat / vein,sudor / vena,NOUN
+نفس,breath / self,respiración,NOUN
+تنفس,to breathe,respirar,NOUN
 دوخة,dizziness,mareo,NOUN
-داخ,to feel dizzy,marearse,X
-تقيا,to vomit,vomitar,X
+داخ,to feel dizzy,marearse,NOUN
+تقيا,to vomit,vomitar,NOUN
 حساسية,allergy,alergia,NOUN
-دكتور,doctor,médico,X
-عطس,to sneeze,estornudar,X
-داوى,to treat / to cure,curar,X
-ريح,wind,viento,X
+دكتور,doctor,médico,NOUN
+عطس,to sneeze,estornudar,NOUN
+داوى,to treat / to cure,curar,NOUN
+ريح,wind,viento,NOUN
 عاصفة,storm,tormenta,NOUN
-نو,rain,lluvia,X
-تبروري,hail,granizo,X
+نو,rain,lluvia,NOUN
+تبروري,hail,granizo,VERB
 رطوبة,humidity,humedad,NOUN
 حرارة,heat / temperature,calor / temperatura,NOUN
 درجة,degree,grado,NOUN
-صاحي,clear / sunny,despejado,X
-مغيم,cloudy,nublado,X
-فصل,season,estación,X
-ربيع,spring,primavera,X
-صيف,summer,verano,X
-خريف,autumn,otoño,X
-جو,weather / atmosphere,tiempo / ambiente,X
-دافي,warm,cálido,X
-دفا,warmth,calidez,X
+صاحي,clear / sunny,despejado,VERB
+مغيم,cloudy,nublado,NOUN
+فصل,season,estación,NOUN
+ربيع,spring,primavera,NOUN
+صيف,summer,verano,NOUN
+خريف,autumn,otoño,NOUN
+جو,weather / atmosphere,tiempo / ambiente,NOUN
+دافي,warm,cálido,VERB
+دفا,warmth,calidez,NOUN
 غبرة,dust,polvo,NOUN
 برودة,coldness,frío,NOUN
-بيسكليت,bicycle,bicicleta,X
-طوبيس,city bus,autobús,X
-طراموي,tram,tranvía,X
+بيسكليت,bicycle,bicicleta,VERB
+طوبيس,city bus,autobús,NOUN
+طراموي,tram,tranvía,VERB
 فلوكة,small boat,barca,NOUN
 رويضة,wheel / tire,rueda,NOUN
-ليصانص,gasoline,gasolina,X
-مازوط,diesel,diésel,X
-كاميو,truck,camión,X
+ليصانص,gasoline,gasolina,NOUN
+مازوط,diesel,diésel,NOUN
+كاميو,truck,camión,NOUN
 قنطرة,bridge,puente,NOUN
-مدخل,entrance,entrada,X
-مخرج,exit,salida,X
+مدخل,entrance,entrada,NOUN
+مخرج,exit,salida,NOUN
 دورة,turn / lap,vuelta,NOUN
 يمين,right side,derecha,NOUN
-ليسر,left side,izquierda,X
-سافر,to travel,viajar,X
-وصل,to arrive,llegar,X
-دوار,village,aldea,X
-شارع,avenue / street,avenida / calle,X
-بيرمي,driving license,carnet de conducir,X
+ليسر,left side,izquierda,NOUN
+سافر,to travel,viajar,NOUN
+وصل,to arrive,llegar,NOUN
+دوار,village,aldea,NOUN
+شارع,avenue / street,avenida / calle,NOUN
+بيرمي,driving license,carnet de conducir,VERB
 كسيدة,accident,accidente,NOUN
 زحمة,traffic jam,atasco,NOUN
 سرعة,speed,velocidad,NOUN
-مشوار,errand / trip,recado / trayecto,X
+مشوار,errand / trip,recado / trayecto,NOUN
 جيهة,direction / side,dirección / lado,NOUN
-حدا,next to,al lado de,X
-وسط,middle / center,medio / centro,X
-طرف,edge / piece,borde / trozo,X
-مورا,behind,detrás,X
-عند,at / by,en casa de,X
-لاڭار,train station,estación de tren,X
-عبر,to cross,cruzar,X
-ساق,to drive,conducir,X
+حدا,next to,al lado de,NOUN
+وسط,middle / center,medio / centro,NOUN
+طرف,edge / piece,borde / trozo,NOUN
+مورا,behind,detrás,NOUN
+عند,at / by,en casa de,NOUN
+لاڭار,train station,estación de tren,NOUN
+عبر,to cross,cruzar,NOUN
+ساق,to drive,conducir,NOUN
 عنوان,address,dirección,VERB
 خريطة,map,mapa,NOUN
-صحرا,desert,desierto,X
-حجز,to book / to reserve,reservar,X
-زار,to visit,visitar,X
+صحرا,desert,desierto,NOUN
+حجز,to book / to reserve,reservar,NOUN
+زار,to visit,visitar,NOUN
 زيارة,visit,visita,NOUN
 خدمة,work / job,trabajo,NOUN
-معمل,factory,fábrica,X
+معمل,factory,fábrica,NOUN
 شركة,company,empresa,NOUN
-باطرون,boss,jefe,VERB
+باطرون,boss,jefe,NOUN
 شهرية,salary,sueldo,NOUN
 عطلة,vacation / holiday,vacaciones,NOUN
-كونجي,leave / time off,permiso,X
-اجتماع,meeting,reunión,X
-مشروع,project,proyecto,X
+كونجي,leave / time off,permiso,VERB
+اجتماع,meeting,reunión,NOUN
+مشروع,project,proyecto,NOUN
 صنعة,craft / trade,oficio,NOUN
-أستاد,teacher / professor,profesor,X
-قسم,classroom,aula,X
+أستاد,teacher / professor,profesor,NOUN
+قسم,classroom,aula,NOUN
 سبورة,blackboard,pizarra,NOUN
-دفتر,notebook,cuaderno,X
+دفتر,notebook,cuaderno,NOUN
 امتحان,exam,examen,VERB
 نقطة,grade / point,nota / punto,NOUN
-درس,lesson,lección,X
+درس,lesson,lección,NOUN
 تمرين,exercise,ejercicio,NOUN
-واجب,homework / duty,deberes / deber,X
+واجب,homework / duty,deberes / deber,NOUN
 قراية,studies,estudios,NOUN
 جامعة,university,universidad,NOUN
-مستوى,level,nivel,X
-نجح,to succeed / to pass,aprobar / tener éxito,X
-حفظ,to memorize,memorizar,X
-عاود,to repeat / to retell,repetir / contar,X
-شرح,to explain,explicar,X
-سؤال,question,pregunta,X
-جواب,answer,respuesta,X
-غلط,to make a mistake,equivocarse,X
+مستوى,level,nivel,NOUN
+نجح,to succeed / to pass,aprobar / tener éxito,NOUN
+حفظ,to memorize,memorizar,NOUN
+عاود,to repeat / to retell,repetir / contar,NOUN
+شرح,to explain,explicar,NOUN
+سؤال,question,pregunta,NOUN
+جواب,answer,respuesta,NOUN
+غلط,to make a mistake,equivocarse,NOUN
 غلطة,mistake,error,NOUN
-صحح,to correct,corregir,X
-ترجم,to translate,traducir,X
+صحح,to correct,corregir,NOUN
+ترجم,to translate,traducir,NOUN
 لغة,language,idioma,NOUN
 عربية,Arabic language,árabe,NOUN
 فرنساوية,French language,francés,NOUN
 نڭليزية,English language,inglés,NOUN
-كاغيط,paper,papel,X
+كاغيط,paper,papel,NOUN
 معلومة,information,información,NOUN
-خبر,news,noticia,X
-برنامج,program / schedule,programa,X
-موظف,employee,empleado,X
-خدام,working / worker,trabajador,X
-ڭارسون,waiter,camarero,VERB
-حلاق,barber,peluquero,X
-بقال,grocer,tendero,X
-عساس,guard,vigilante,X
-مول,owner,dueño,X
+خبر,news,noticia,NOUN
+برنامج,program / schedule,programa,NOUN
+موظف,employee,empleado,NOUN
+خدام,working / worker,trabajador,NOUN
+ڭارسون,waiter,camarero,NOUN
+حلاق,barber,peluquero,NOUN
+بقال,grocer,tendero,NOUN
+عساس,guard,vigilante,NOUN
+مول,owner,dueño,NOUN
 جريدة,newspaper,periódico,NOUN
-عوتاني,again,otra vez,X
+عوتاني,again,otra vez,VERB
 ساعات,sometimes,a veces,NOUN
 مرة,time / once,vez,NOUN
 لحظة,moment,momento,NOUN
-عمر,age / lifetime,edad / vida,X
-مستقبل,future,futuro,X
-تاريخ,date / history,fecha / historia,X
-ميعاد,appointment,cita,X
-عاد,just now / then,recién / entonces,X
+عمر,age / lifetime,edad / vida,NOUN
+مستقبل,future,futuro,NOUN
+تاريخ,date / history,fecha / historia,NOUN
+ميعاد,appointment,cita,NOUN
+عاد,just now / then,recién / entonces,NOUN
 قبيلة,a while ago,hace un rato,NOUN
 ليلة,night,noche,NOUN
-طول,length / all along,longitud,X
+طول,length / all along,longitud,NOUN
 سنة,year,año,NOUN
-عيد,holiday / feast,fiesta,X
+عيد,holiday / feast,fiesta,NOUN
 رمضان,Ramadan,Ramadán,VERB
 بداية,beginning,comienzo,NOUN
 نهاية,end,final,NOUN
 زمان,long ago / old times,antaño,VERB
-فجر,dawn,amanecer,X
-وقت,time,tiempo,X
+فجر,dawn,amanecer,NOUN
+وقت,time,tiempo,VERB
 فرصة,chance / opportunity,oportunidad,NOUN
-موسم,season / festival,temporada / feria,X
-تالي,last / late,último,X
-حد,Sunday / someone,domingo / alguien,X
+موسم,season / festival,temporada / feria,NOUN
+تالي,last / late,último,VERB
+حد,Sunday / someone,domingo / alguien,NOUN
 تنين,Monday,lunes,NOUN
 تلات,Tuesday,martes,NOUN
-اربع,Wednesday,miércoles,X
-خميس,Thursday,jueves,X
+اربع,Wednesday,miércoles,NOUN
+خميس,Thursday,jueves,NOUN
 جمعة,Friday,viernes,NOUN
-سبت,Saturday,sábado,X
-شاور,to consult,consultar,X
-عرض,to offer / to invite,ofrecer / invitar,X
-رفض,to refuse,rechazar,X
-سمح,to forgive / to allow,perdonar / permitir,X
-منع,to forbid,prohibir,X
-حاول,to try,intentar,X
-قدر,to be able,poder,X
-خص,to need / must,necesitar / deber,X
+سبت,Saturday,sábado,VERB
+شاور,to consult,consultar,NOUN
+عرض,to offer / to invite,ofrecer / invitar,NOUN
+رفض,to refuse,rechazar,NOUN
+سمح,to forgive / to allow,perdonar / permitir,NOUN
+منع,to forbid,prohibir,NOUN
+حاول,to try,intentar,NOUN
+قدر,to be able,poder,NOUN
+خص,to need / must,necesitar / deber,NOUN
 بان,to appear / to seem,aparecer / parecer,VERB
-تمنى,to wish,desear,X
-وقع,to happen / to fall,ocurrir / caer,X
-بدل,to change,cambiar,X
-زرب,to hurry,apresurarse,X
-وزن,to weigh,pesar,X
-حسب,to count / to calculate,contar / calcular,X
-عض,to bite,morder,X
-رفد,to carry / to lift,cargar / levantar,X
-جبد,to pull / to bring up,sacar / mencionar,X
-لاح,to throw,lanzar,X
-عقل,to remember,recordar,X
-صنت,to listen,escuchar,X
-فتش,to search,buscar / registrar,X
-خبى,to hide,esconder,X
-ورى,to show,mostrar,X
-عجب,to please,gustar,X
-كره,to hate,odiar,X
-تمسخر,to joke / to mock,bromear / burlarse,X
-حشم,to be shy / embarrassed,avergonzarse,X
-تخاصم,to quarrel,pelearse,X
-ضرب,to hit,golpear,X
-باس,to kiss,besar,X
-سرق,to steal,robar,X
-كذب,to lie,mentir,X
-صدق,to believe / to be honest,creer / ser sincero,X
-وعد,to promise,prometer,X
-تلف,to get lost,perderse,X
-ضيع,to lose / to waste,perder / desperdiciar,X
-ربط,to tie,atar,X
-كمل,to finish / to complete,terminar / completar,X
-سالا,to finish,acabar,X
-خوى,to empty,vaciar,X
-لحق,to catch up / to reach,alcanzar,X
+تمنى,to wish,desear,NOUN
+وقع,to happen / to fall,ocurrir / caer,NOUN
+بدل,to change,cambiar,NOUN
+زرب,to hurry,apresurarse,NOUN
+وزن,to weigh,pesar,VERB
+حسب,to count / to calculate,contar / calcular,NOUN
+عض,to bite,morder,NOUN
+رفد,to carry / to lift,cargar / levantar,NOUN
+جبد,to pull / to bring up,sacar / mencionar,NOUN
+لاح,to throw,lanzar,NOUN
+عقل,to remember,recordar,NOUN
+صنت,to listen,escuchar,VERB
+فتش,to search,buscar / registrar,NOUN
+خبى,to hide,esconder,NOUN
+ورى,to show,mostrar,NOUN
+عجب,to please,gustar,NOUN
+كره,to hate,odiar,NOUN
+تمسخر,to joke / to mock,bromear / burlarse,NOUN
+حشم,to be shy / embarrassed,avergonzarse,NOUN
+تخاصم,to quarrel,pelearse,NOUN
+ضرب,to hit,golpear,NOUN
+باس,to kiss,besar,NOUN
+سرق,to steal,robar,NOUN
+كذب,to lie,mentir,NOUN
+صدق,to believe / to be honest,creer / ser sincero,NOUN
+وعد,to promise,prometer,NOUN
+تلف,to get lost,perderse,NOUN
+ضيع,to lose / to waste,perder / desperdiciar,NOUN
+ربط,to tie,atar,NOUN
+كمل,to finish / to complete,terminar / completar,NOUN
+سالا,to finish,acabar,NOUN
+خوى,to empty,vaciar,NOUN
+لحق,to catch up / to reach,alcanzar,NOUN
 فات,to pass / to elapse,pasar,NOUN
-صب,to pour,verter,X
-فرق,to separate / to distribute,separar / repartir,X
-حضر,to attend / to prepare,asistir / preparar,X
-غاب,to be absent,ausentarse,X
-شارك,to participate,participar,X
-سجل,to register / to record,registrar / grabar,X
-علق,to hang,colgar,X
-لصق,to stick,pegar,X
-حفر,to dig,cavar,X
-زرع,to plant,plantar,X
-سقى,to water,regar,X
-توحش,to miss someone,echar de menos,X
-غار,to be jealous,tener celos,X
-تقلق,to get upset,enfadarse,X
-غش,to cheat,hacer trampa,X
-نصح,to advise,aconsejar,X
-شكا,to complain,quejarse,X
-دعا,to invite / to bless,invitar / bendecir,X
-حكى,to tell / to narrate,narrar,X
-وصف,to describe,describir,X
-قرر,to decide,decidir,X
-ختار,to choose,elegir,X
-تعلم,to learn,aprender,X
-دق,to knock / to pound,llamar a la puerta,X
-قلع,to remove / to pull out,arrancar,X
-كسر,to break,romper,X
-غرق,to drown / to sink,ahogarse / hundirse,X
-سخن,to heat,calentar,X
-جمد,to freeze,congelar,X
-داب,to melt,derretirse,X
-بلع,to swallow / to shut,tragar / cerrar,X
-حلف,to swear,jurar,X
-تكى,to lean,apoyarse,X
-صور,to photograph,fotografiar,X
-سمى,to name,nombrar,X
-قصد,to mean / to head to,querer decir,X
-شغل,to turn on / to employ,encender / emplear,X
-صلح,to repair,reparar,X
-قشر,to peel,pelar,X
-عصر,to squeeze,exprimir,X
-ضوى,to light up,iluminar,X
-فتح,to open,abrir,X
-شحن,to charge,cargar,X
-خزن,to store,almacenar,X
-لم,to gather / to collect,recoger,X
-فرش,to spread / to make a bed,extender,X
-نقز,to jump,saltar,X
-زلق,to slip,resbalar,X
-نفخ,to inflate / to blow,inflar / soplar,X
-حك,to scratch / to rub,rascar / frotar,X
+صب,to pour,verter,NOUN
+فرق,to separate / to distribute,separar / repartir,NOUN
+حضر,to attend / to prepare,asistir / preparar,NOUN
+غاب,to be absent,ausentarse,NOUN
+شارك,to participate,participar,NOUN
+سجل,to register / to record,registrar / grabar,NOUN
+علق,to hang,colgar,NOUN
+لصق,to stick,pegar,NOUN
+حفر,to dig,cavar,NOUN
+زرع,to plant,plantar,NOUN
+سقى,to water,regar,NOUN
+توحش,to miss someone,echar de menos,NOUN
+غار,to be jealous,tener celos,NOUN
+تقلق,to get upset,enfadarse,NOUN
+غش,to cheat,hacer trampa,NOUN
+نصح,to advise,aconsejar,NOUN
+شكا,to complain,quejarse,NOUN
+دعا,to invite / to bless,invitar / bendecir,NOUN
+حكى,to tell / to narrate,narrar,NOUN
+وصف,to describe,describir,NOUN
+قرر,to decide,decidir,NOUN
+ختار,to choose,elegir,NOUN
+تعلم,to learn,aprender,NOUN
+دق,to knock / to pound,llamar a la puerta,NOUN
+قلع,to remove / to pull out,arrancar,NOUN
+كسر,to break,romper,NOUN
+غرق,to drown / to sink,ahogarse / hundirse,NOUN
+سخن,to heat,calentar,VERB
+جمد,to freeze,congelar,NOUN
+داب,to melt,derretirse,NOUN
+بلع,to swallow / to shut,tragar / cerrar,NOUN
+حلف,to swear,jurar,NOUN
+تكى,to lean,apoyarse,NOUN
+صور,to photograph,fotografiar,NOUN
+سمى,to name,nombrar,NOUN
+قصد,to mean / to head to,querer decir,NOUN
+شغل,to turn on / to employ,encender / emplear,NOUN
+صلح,to repair,reparar,NOUN
+قشر,to peel,pelar,NOUN
+عصر,to squeeze,exprimir,NOUN
+ضوى,to light up,iluminar,NOUN
+فتح,to open,abrir,NOUN
+شحن,to charge,cargar,VERB
+خزن,to store,almacenar,VERB
+لم,to gather / to collect,recoger,NOUN
+فرش,to spread / to make a bed,extender,NOUN
+نقز,to jump,saltar,NOUN
+زلق,to slip,resbalar,NOUN
+نفخ,to inflate / to blow,inflar / soplar,NOUN
+حك,to scratch / to rub,rascar / frotar,NOUN
 حزين,sad,triste,NOUN
 زعفان,angry,enfadado,VERB
-معصب,tense / angry,tenso / furioso,X
-خايف,afraid,asustado,X
+معصب,tense / angry,tenso / furioso,NOUN
+خايف,afraid,asustado,NOUN
 بردان,feeling cold,con frío,VERB
 جيعان,hungry,hambriento,VERB
 عطشان,thirsty,sediento,VERB
 شبعان,full / satiated,lleno / saciado,VERB
-ناعس,asleep / sleepy,dormido / somnoliento,X
-مشغول,busy,ocupado,X
-موجود,present / available,presente / disponible,X
-مرتاح,relaxed / comfortable,relajado / cómodo,X
-محتاج,in need,necesitado,X
-مغبون,down / sorrowful,apenado,VERB
+ناعس,asleep / sleepy,dormido / somnoliento,NOUN
+مشغول,busy,ocupado,NOUN
+موجود,present / available,presente / disponible,NOUN
+مرتاح,relaxed / comfortable,relajado / cómodo,NOUN
+محتاج,in need,necesitado,NOUN
+مغبون,down / sorrowful,apenado,NOUN
 حشومة,shame / embarrassment,bochorno,NOUN
-عيب,shame / disgrace,vergüenza,X
+عيب,shame / disgrace,vergüenza,NOUN
 فرحة,joy,alegría,NOUN
-خوف,fear,miedo,X
-ندم,regret,arrepentimiento,X
-قلق,worry,preocupación,X
-محتار,confused / hesitant,confundido,X
-مهم,important,importante,X
-خطير,dangerous / amazing,peligroso / impresionante,X
-عادي,normal / ordinary,normal,X
-غريب,strange,extraño,X
-مشهور,famous,famoso,X
-معروف,well known,conocido,X
-عميق,deep,profundo,X
-قبيح,naughty / ugly,travieso / feo,X
-ظريف,cute / charming,encantador,X
-معقول,reasonable / serious,razonable / sensato,X
-ذكي,smart,inteligente,X
-معڭاز,lazy,perezoso,X
-نشيط,active / energetic,activo,X
-قوي,strong,fuerte,X
-غني,rich,rico,X
+خوف,fear,miedo,NOUN
+ندم,regret,arrepentimiento,NOUN
+قلق,worry,preocupación,NOUN
+محتار,confused / hesitant,confundido,NOUN
+مهم,important,importante,NOUN
+خطير,dangerous / amazing,peligroso / impresionante,NOUN
+عادي,normal / ordinary,normal,VERB
+غريب,strange,extraño,NOUN
+مشهور,famous,famoso,NOUN
+معروف,well known,conocido,NOUN
+عميق,deep,profundo,NOUN
+قبيح,naughty / ugly,travieso / feo,NOUN
+ظريف,cute / charming,encantador,NOUN
+معقول,reasonable / serious,razonable / sensato,NOUN
+ذكي,smart,inteligente,VERB
+معڭاز,lazy,perezoso,NOUN
+نشيط,active / energetic,activo,NOUN
+قوي,strong,fuerte,VERB
+غني,rich,rico,VERB
 مسكين,poor / pitiful,pobre / pobrecito,NOUN
-واجد,ready,listo,X
-ممكن,possible,posible,X
-واضح,clear / obvious,claro / evidente,X
-أكيد,sure / certain,seguro,X
-فاتح,light colored,claro,X
-غامق,dark colored,oscuro,X
-حامي,hot / heated,caliente,X
-يابس,dry / stiff,seco / duro,X
-أصفر,yellow,amarillo,X
-أبيض,white,blanco,X
-فضي,silver colored,plateado,X
-لون,color,color,VERB
-قد,as much as,tanto como,X
-تقريبا,approximately,aproximadamente,X
-كامل,whole / entire,entero / completo,X
-تلث,third,tercio,X
-عدد,number / amount,número / cantidad,X
-قليل,few / little,poco,X
-بحال,like / such as,como,X
-كيف,like / how,como,X
+واجد,ready,listo,NOUN
+ممكن,possible,posible,VERB
+واضح,clear / obvious,claro / evidente,NOUN
+أكيد,sure / certain,seguro,NOUN
+فاتح,light colored,claro,NOUN
+غامق,dark colored,oscuro,NOUN
+حامي,hot / heated,caliente,VERB
+يابس,dry / stiff,seco / duro,NOUN
+أصفر,yellow,amarillo,NOUN
+أبيض,white,blanco,NOUN
+فضي,silver colored,plateado,VERB
+لون,color,color,NOUN
+قد,as much as,tanto como,NOUN
+تقريبا,approximately,aproximadamente,NOUN
+كامل,whole / entire,entero / completo,NOUN
+تلث,third,tercio,NOUN
+عدد,number / amount,número / cantidad,NOUN
+قليل,few / little,poco,NOUN
+بحال,like / such as,como,NOUN
+كيف,like / how,como,NOUN
 حاجة,thing / something,cosa / algo,NOUN
-شي,some / any,algún,X
-والو,nothing,nada,X
-كلشي,everything,todo,X
+شي,some / any,algún,NOUN
+والو,nothing,nada,NOUN
+كلشي,everything,todo,VERB
 وحدة,one / unit,una / unidad,NOUN
-واش,question particle,partícula interrogativa,X
-ياك,right / is it not,verdad,X
-يالله,come on / let us go,vamos,X
-زعما,supposedly / like,supuestamente,X
-يعني,it means / I mean,o sea,X
-بلاتي,wait / hold on,espera,X
-أجي,come here,ven,X
-سير,go / go away,vete,X
-ماشي,not,no es,X
+واش,question particle,partícula interrogativa,NOUN
+ياك,right / is it not,verdad,NOUN
+يالله,come on / let us go,vamos,NOUN
+زعما,supposedly / like,supuestamente,NOUN
+يعني,it means / I mean,o sea,VERB
+بلاتي,wait / hold on,espera,VERB
+أجي,come here,ven,VERB
+سير,go / go away,vete,NOUN
+ماشي,not,no es,VERB
 منين,from where,de dónde,NOUN
-غادي,going to / will,va a,X
-راه,indeed / he is,de verdad,X
-هاك,here take it,toma,X
-إيوا,well then,pues,X
-ديال,of / belonging to,de,X
-فوقاش,when,cuándo,X
-بخير,fine / well,bien,X
-انشالله,God willing,si Dios quiere,X
-نيت,really / exactly,de verdad / exactamente,X
-حيت,because,porque,X
-إلا,if,si,X
-كون,if only / would be,ojalá,VERB
-ولا,or,o,X
-بصح,but,pero,X
-مبروك,congratulations,felicidades,X
+غادي,going to / will,va a,VERB
+راه,indeed / he is,de verdad,NOUN
+هاك,here take it,toma,NOUN
+إيوا,well then,pues,NOUN
+ديال,of / belonging to,de,NOUN
+فوقاش,when,cuándo,NOUN
+بخير,fine / well,bien,NOUN
+انشالله,God willing,si Dios quiere,NOUN
+نيت,really / exactly,de verdad / exactamente,VERB
+حيت,because,porque,VERB
+إلا,if,si,CCONJ
+كون,if only / would be,ojalá,NOUN
+ولا,or,o,NOUN
+بصح,but,pero,NOUN
+مبروك,congratulations,felicidades,NOUN
 بشوية,slowly / gently,despacio,NOUN
-مع,with,con,X
-بلا,without,sin,X
-على,on / about,sobre,X
-حتى,until / even,hasta / incluso,X
-غير,only / just,solo,X
-واقيلا,probably,probablemente,X
-لازم,must / necessary,hay que,X
-حمام,public bath,baño turco,X
+مع,with,con,ADP
+بلا,without,sin,NOUN
+على,on / about,sobre,ADP
+حتى,until / even,hasta / incluso,CCONJ
+غير,only / just,solo,NOUN
+واقيلا,probably,probablemente,NOUN
+لازم,must / necessary,hay que,NOUN
+حمام,public bath,baño turco,NOUN
 بلدية,town hall,ayuntamiento,NOUN
-ملعب,stadium / playground,estadio / campo,X
-مسبح,swimming pool,piscina,X
-مركز,center,centro,X
-حي,neighborhood,barrio,X
-خلا,countryside / wilderness,campo,X
-بورطابل,mobile phone,móvil,X
-ميساج,message,mensaje,X
-حساب,account / bill,cuenta,X
+ملعب,stadium / playground,estadio / campo,NOUN
+مسبح,swimming pool,piscina,NOUN
+مركز,center,centro,NOUN
+حي,neighborhood,barrio,NOUN
+خلا,countryside / wilderness,campo,NOUN
+بورطابل,mobile phone,móvil,NOUN
+ميساج,message,mensaje,NOUN
+حساب,account / bill,cuenta,NOUN
 لعبة,game / toy,juego / juguete,NOUN
 كورة,ball / football,pelota / fútbol,NOUN
-موسيقى,music,música,X
+موسيقى,music,música,NOUN
 غنية,song,canción,NOUN
-فيلم,movie,película,X
+فيلم,movie,película,NOUN
 خرجة,outing / trip,excursión,NOUN
 نزاهة,picnic,picnic,NOUN
-عوم,swimming,natación,X
-صيد,fishing / hunting,pesca / caza,X
+عوم,swimming,natación,NOUN
+صيد,fishing / hunting,pesca / caza,NOUN
 رياضة,sport,deporte,NOUN
-ڭارو,cigarette,cigarrillo,X
+ڭارو,cigarette,cigarrillo,NOUN
 دخان,smoke / tobacco,humo / tabaco,VERB
 نخلة,palm tree,palmera,NOUN
 زهرة,flower,flor,NOUN
-كاميرا,camera,cámara,X
+كاميرا,camera,cámara,NOUN

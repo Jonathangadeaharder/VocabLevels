@@ -110,7 +110,7 @@ bagaget,the luggage,el equipaje,VERB
 baksidan,the back(side),la parte trasera,X
 bakåt,backward,hacia atrás,VERB
 balkongen,the balcony,el balcón,X
-barmhärtighet,mercy,misericordia,VERB
+barmhärtighet,mercy,misericordia,NOUN
 barnbarn,grandchildren,nietos,X
 barnvakt,babysitter,canguro,VERB
 basen,the base,la base,X
@@ -135,7 +135,7 @@ behåller,keeps,guarda,X
 behövt,needed,necesitado,VERB
 bekant,acquaintance,conocido,VERB
 bekräfta,confirm,confirmar,VERB
-bekräftelse,confirmation,confirmación,X
+bekräftelse,confirmation,confirmación,NOUN
 bekymmer,worries,preocupaciones,X
 bekänna,confess,confesar,VERB
 belöning,reward,recompensa,NOUN
@@ -146,7 +146,7 @@ bergen,the mountains,las montañas,X
 berget,the mountain,la montaña,VERB
 berodde,depended,dependió,VERB
 beroende,dependent/depending,dependiente,VERB
-berättelse,story,relato,X
+berättelse,story,relato,NOUN
 besatt,obsessed,obsesionado,VERB
 besegra,defeat,derrotar,VERB
 beskyddare,protector,protector,X
@@ -167,7 +167,7 @@ beteende,behavior,comportamiento,VERB
 beter,behaves,se comporta,X
 betyda,mean,significar,VERB
 betydde,meant,significó,VERB
-betydelse,meaning,significado,X
+betydelse,meaning,significado,NOUN
 betyg,grade/certificate,nota,X
 beundrar,admires,admira,X
 bevara,preserve,preservar,VERB
@@ -355,7 +355,7 @@ elände,misery,miseria,VERB
 emellan,between,entre,X
 enbart,only,solamente,VERB
 ende,only/sole,único,VERB
-enhet,unit,unidad,VERB
+enhet,unit,unidad,NOUN
 enheter,units,unidades,X
 enkel,simple,simple,X
 enkla,simple(pl),simples,VERB
@@ -367,11 +367,11 @@ erbjuda,to offer,ofrecer,VERB
 erbjudande,offer,oferta,VERB
 erbjuder,offers,ofrece,X
 erbjöd,offered,ofreció,X
-erfarenhet,experience,experiencia,VERB
+erfarenhet,experience,experiencia,NOUN
 erkänner,admits,reconoce,X
 et,the/that,el/eso,VERB
 europa,Europe,Europa,VERB
-evighet,eternity,eternidad,VERB
+evighet,eternity,eternidad,NOUN
 ex,ex,ex,X
 existerar,exists,existe,X
 experiment,experiment,experimento,VERB
@@ -432,7 +432,7 @@ flyttat,moved,mudado,VERB
 flög,flew,voló,X
 fokusera,focus,centrarse,VERB
 folks,folks'/people's,de la gente,X
-for,for/went,para/fue,X
+for,for/went,para/fue,ADP
 formel,formula,fórmula,X
 forskare,researcher,investigador,X
 forskning,research,investigación,NOUN
@@ -490,7 +490,7 @@ följt,followed,seguido,VERB
 förbannad,damned/cursed,maldito,X
 förbannade,cursed/damned,maldito,VERB
 förbannat,damn,maldito,VERB
-förbannelse,curse,maldición,X
+förbannelse,curse,maldición,NOUN
 förbered,prepare!,¡prepara!,X
 förbereda,prepare,preparar,VERB
 förbereder,prepares,prepara,X
@@ -512,10 +512,10 @@ förhör,interrogation/hearing,interrogatorio,X
 förklaring,explanation,explicación,X
 förlorare,loser,perdedor,X
 förlust,loss,pérdida,VERB
-förlåtelse,forgiveness,perdón,X
+förlåtelse,forgiveness,perdón,NOUN
 förlåter,forgives,perdona,X
 förmåga,ability,capacidad,VERB
-förmögenhet,fortune/wealth,fortuna,VERB
+förmögenhet,fortune/wealth,fortuna,NOUN
 förrädare,traitor,traidor,X
 förs,is led,es llevado,X
 försiktiga,careful(pl),cuidadosos,VERB
@@ -556,7 +556,7 @@ gevär,rifle,fusil,X
 geväret,the rifle,el fusil,VERB
 gifter,marries/poisons,casa/envenena,X
 gillat,liked,gustado,VERB
-girighet,greed,avaricia,VERB
+girighet,greed,avaricia,NOUN
 gissar,guesses,adivina,X
 gisslan,hostages,rehenes,X
 givetvis,of course,por supuesto,X
@@ -689,7 +689,7 @@ hård,hard,duro,X
 hårda,hard(pl),duros,VERB
 hårdare,harder,más duro,X
 höga,high(pl),altos,VERB
-höghet,highness,alteza,VERB
+höghet,highness,alteza,NOUN
 högra,right(side),derecho,VERB
 högst,highest/most,lo más alto,VERB
 hörnet,the corner,la esquina,VERB
@@ -1347,7 +1347,7 @@ rök,smoke,humo,X
 röka,smoke,fumar,VERB
 röker,smokes,fuma,X
 rörde,moved/touched,movió/tocó,VERB
-rörelse,movement,movimiento,X
+rörelse,movement,movimiento,NOUN
 rört,moved/touched,movido/tocado,VERB
 rösta,vote,votar,VERB
 röstar,votes,vota,X
@@ -1457,7 +1457,7 @@ skämta,joke,bromear,VERB
 skära,cut,cortar,VERB
 skådespelare,actor,actor,X
 skådespelerska,actress,actriz,VERB
-skönhet,beauty,belleza,VERB
+skönhet,beauty,belleza,NOUN
 sköts,was managed,se encargó,X
 skötte,managed,se encargó,X
 slaget,the battle/the blow,la batalla,VERB
@@ -1563,7 +1563,7 @@ stjärnor,stars,estrellas,X
 stjärnorna,the stars,las estrellas,VERB
 stolen,the chair,la silla,X
 stolta,proud(pl),orgullosos,VERB
-stolthet,pride,orgullo,VERB
+stolthet,pride,orgullo,NOUN
 stoppade,stopped,paró,VERB
 stoppar,stops/puts in,para/mete,X
 store,big,mayor,X
@@ -1607,7 +1607,7 @@ super,drink/super,bebe/súper,X
 suttit,sat,sentado,VERB
 suverän,sovereign,soberano,X
 svaga,weak(pl),débiles,VERB
-svaghet,weakness,debilidad,VERB
+svaghet,weakness,debilidad,NOUN
 svartsjuk,jealous,celoso,X
 svek,betrayed,traicionó,X
 svensk,Swedish/Swede,sueco,ADJ
@@ -1679,7 +1679,7 @@ tillfället,the occasion,la ocasión,VERB
 tillhörde,belonged,pertenecía,VERB
 tillät,allowed,permitió,VERB
 tillåta,allow,permitir,VERB
-tillåtelse,permission,permiso,X
+tillåtelse,permission,permiso,NOUN
 tillåter,allows,permite,X
 ting,thing,cosa,X
 tips,tips,consejos,X
@@ -1828,7 +1828,7 @@ vana,habit,hábito,VERB
 vanligtvis,usually,normalmente,X
 vansinne,madness,locura,X
 vapnen,the weapons,las armas,X
-varelse,creature,criatura,X
+varelse,creature,criatura,NOUN
 varelser,creatures,criaturas,X
 varifrån,from where,de dónde,X
 varma,warm(pl),cálidos,VERB
@@ -1844,7 +1844,7 @@ verklig,real,real,ADJ
 verkliga,real(pl),verdaderos,VERB
 verkligheten,the reality,la realidad,X
 verkligt,really,realmente,VERB
-verksamhet,activity/business,actividad,VERB
+verksamhet,activity/business,actividad,NOUN
 verktyg,tool,herramienta,X
 version,version,versión,X
 versionen,the version,la versión,X
@@ -1888,7 +1888,7 @@ välsigne,blessed,bendito,X
 vände,turned,giró,VERB
 vänder,turns,gira,X
 vänlig,friendly,amable,ADJ
-vänlighet,kindness,amabilidad,VERB
+vänlighet,kindness,amabilidad,NOUN
 vännen,the friend,el amigo,X
 vänskap,friendship,amistad,NOUN
 vänstra,left(side),izquierdo,VERB
@@ -1949,7 +1949,7 @@ ytterligare,further/additional,adicional,X
 öron,ears,oídos,X
 öronen,the ears,las orejas,X
 öva,practice,practicar,VERB
-överenskommelse,agreement,acuerdo,X
+överenskommelse,agreement,acuerdo,NOUN
 överlevande,survivor,superviviente,VERB
 överlevde,survived,sobrevivió,VERB
 överlämna,hand over,entregar,VERB

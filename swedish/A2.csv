@@ -54,13 +54,13 @@ dagar,days,días,X
 dagen,the day,el día,X
 dags,time,hora,X
 del,part,parte,X
-dem,them,los/ellas,X
+dem,them,los/ellas,PRON
 denna,this,este,VERB
-deras,their,su,X
+deras,their,su,PRON
 dess,its,su,X
 dessa,these,estos,VERB
 detta,this,esto,VERB
-dig,you,te,ADJ
+dig,you,te,PRON
 dina,your(pl),tus,VERB
 direkt,direct,directo,VERB
 dit,there(to),hacia allí,VERB
@@ -90,7 +90,7 @@ enkelt,simple/easily,simple,VERB
 enligt,according to,según,VERB
 ens,even,ni,X
 ensam,alone,solo,ADJ
-er,you(pl)/yours,os/vuestro,X
+er,you(pl)/yours,os/vuestro,PRON
 ert,your(pl),vuestro,VERB
 exakt,exact,exacto,VERB
 faktiskt,actually,de hecho,VERB
@@ -217,7 +217,7 @@ hört,heard,oído,VERB
 idiot,idiot,idiota,VERB
 idé,idea,idea,X
 ifrån,from,de,X
-igen,again,otra vez,X
+igen,again,otra vez,ADP
 igenom,through,a través,X
 igång,started/going,en marcha,X
 ihop,together,juntos,X
@@ -237,7 +237,7 @@ jaha,oh I see,ya,VERB
 jaså,oh I see,ya veo,X
 jo,yes/well,pues sí,X
 jobba,work,trabajar,VERB
-jobbar,works,trabaja,X
+jobbar,works,trabaja,ADJ
 jobbat,worked,trabajado,VERB
 jobbet,the job,el trabajo,VERB
 jorden,the earth,la tierra,X
@@ -314,7 +314,7 @@ mellan,between,entre,X
 menar,mean,quiere decir,X
 mer,more,más,X
 mest,most,más,VERB
-mig,me,me,ADJ
+mig,me,me,PRON
 miljoner,millions,millones,X
 mina,my(pl),mis,VERB
 mindre,less/smaller,menos,X
@@ -323,7 +323,7 @@ minuter,minutes,minutos,X
 misstag,mistake,error,X
 mitt,my/middle,mi/medio,VERB
 mord,murder,asesinato,X
-mot,against/toward,contra/hacia,VERB
+mot,against/toward,contra/hacia,ADP
 män,men,hombres,X
 människor,people,personas,X
 må,may/feel,sentir/poder,X
@@ -358,7 +358,7 @@ ord,words,palabras,X
 order,order,orden,X
 oroa,worry,preocupar,VERB
 orolig,worried,preocupado,ADJ
-oss,us,nos,X
+oss,us,nos,PRON
 otroligt,incredible,increíble,VERB
 par,couple/pair,par,X
 pengarna,the money,el dinero,VERB
@@ -412,7 +412,7 @@ ses,see you,nos vemos,X
 sett,seen,visto,VERB
 sida,side/page,lado/página,VERB
 sidan,the side,el lado,X
-sig,oneself,se,ADJ
+sig,oneself,se,PRON
 sina,his/her own,sus,VERB
 sir,sir,señor,X
 sitt,his/her own,su,VERB
@@ -448,7 +448,7 @@ snabbt,quickly,rápidamente,VERB
 snart,soon,pronto,VERB
 snäll,kind/nice,amable,X
 snälla,please,por favor,VERB
-som,as/that/who,como/que/quien,X
+som,as/that/who,como/que/quien,PRON
 spelar,plays,juega,X
 spring,run,correr,X
 stan,the city,la ciudad,X

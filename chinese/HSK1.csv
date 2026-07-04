@@ -1,152 +1,152 @@
 Chinese_Lemma,English_Translation,Spanish_Translation,POS
-一,one,un,X
-七,seven,siete,X
-三,three,tres,X
-上,up / above,arriba,X
-上午,morning,mañana,X
-下,down,abajo,X
-下午,afternoon,tarde,X
-下雨,to rain,llover,X
-不,no / not,no,X
-不客气,you're welcome,de nada,X
-东西,thing,cosa,X
-个,measure word (general),clasificador (general),X
-中午,noon,mediodía,X
-中国,China,China,X
-九,nine,nueve,X
-书,book,libro,X
-买,to buy,comprar,X
-了,completed-action particle,partícula de acción completada,X
-二,two,dos,X
-五,five,cinco,X
-些,some,algunos,X
-人,person,persona,X
-什么,what,qué,X
-今天,today,hoy,X
-他,he / him,él,X
-会,can / to be able to,poder,X
-住,to live,vivir,X
-你,you,tú,X
-做,to do / to make,hacer,X
-儿子,son,hijo,X
-先生,Mr. / sir,señor,X
-八,eight,ocho,X
-六,six,seis,X
-再见,goodbye,adiós,X
-写,to write,escribir,X
-冷,cold,frío,X
-几,how many / a few,cuántos / unos pocos,X
-出租车,taxi,taxi,X
-分钟,minute,minuto,X
-前面,front / ahead,delante,X
-北京,Beijing,Pekín,X
-医生,doctor,médico,X
-医院,hospital,hospital,X
-十,ten,diez,X
-去,to go,ir,X
-叫,to be called,llamarse,X
-吃,to eat,comer,X
-同学,classmate,compañero de clase,X
-名字,name,nombre,X
-后面,back / behind,detrás,X
-吗,question particle,partícula interrogativa,X
-听,to listen / to hear,escuchar / oír,X
-呢,modal particle,partícula modal,X
-和,and,y,X
-哪,which,cuál,X
-哪儿,where,dónde,X
-商店,store / shop,tienda,X
-喂,hello (phone),bueno (al teléfono),X
-喜欢,to like,gustar,X
-喝,to drink,beber,X
-四,four,cuatro,X
-回,to return,volver,X
-在,at / in / on,en,X
-坐,to sit,sentarse,X
-块,"piece (measure word, money)",kuai (clasificador de dinero),X
-多,many / much,mucho,X
-多少,how many / how much,cuántos / cuánto,X
-大,big / large,grande,X
-天气,weather,clima / tiempo,X
-太,too / excessively,demasiado,X
-女儿,daughter,hija,X
-她,she / her,ella,X
-好,good / well,bien / bueno,X
-妈妈,mom / mother,mamá,X
-字,character / word,carácter / palabra,X
-学习,to study / to learn,estudiar / aprender,X
-学校,school,escuela,X
-学生,student,estudiante,X
-家,home / family,casa / familia,X
-对不起,sorry,perdón / lo siento,X
-小,small,pequeño,X
-小姐,miss,señorita,X
-少,few,poco,X
-岁,year (of age),año (de edad),X
-工作,work / to work,trabajo / trabajar,X
-年,year,año,X
-开,to open,abrir,X
-很,very,muy,X
-怎么,how,cómo,X
-怎么样,how about,cómo,X
-想,to think / to want,pensar / querer,X
-我,I,yo,X
-我们,we,nosotros,X
-打电话,to make a phone call,hacer una llamada,X
-日,day / sun,día / sol,X
-时候,time / when,momento / cuando,X
-明天,tomorrow,mañana,X
-星期,week,semana,X
-昨天,yesterday,ayer,X
-是,to be,ser,X
-月,month / moon,mes / luna,X
-有,to have,tener,X
-朋友,friend,amigo,X
-本,measure word for books,clasificador para libros,X
-来,to come,venir,X
-杯子,cup,taza / vaso,X
-桌子,table,mesa,X
-椅子,chair,silla,X
-水,water,agua,X
-水果,fruit,fruta,X
-汉语,Chinese (language),chino,X
-没,not / not have,no / no tener,X
-没关系,it doesn't matter,no importa,X
-漂亮,pretty,bonito / lindo,X
-火车站,train station,estación de tren,X
-点,o'clock / point,en punto / punto,X
-热,hot,calor / caliente,X
-爱,to love,amar,X
-爸爸,dad / father,papá,X
-狗,dog,perro,X
-猫,cat,gato,X
-现在,now,ahora,X
-电影,movie,película,X
-电脑,computer,ordenador / computadora,X
-电视,television,televisión,X
-的,possessive particle,partícula posesiva,X
-看,to look / to see / to read,ver / mirar / leer,X
-看见,to see,ver,X
-睡觉,to sleep,dormir,X
-米饭,cooked rice,arroz,X
-老师,teacher,profesor,X
-能,can / to be able to,poder,X
-苹果,apple,manzana,X
-茶,tea,té,X
-菜,food / dish,comida / plato,X
-衣服,clothes,ropa,X
-认识,to know / to recognize,conocer / reconocer,X
-说话,to speak,hablar,X
-请,please / to invite,por favor / invitar,X
-读,to read,leer,X
-谁,who,quién,X
-谢谢,thank you,gracias,X
-这,this,este,X
-那,that,ese,X
-都,all,todo,X
-里,inside / in,dentro / en,X
-钱,money,dinero,X
-零,zero,cero,X
-飞机,airplane,avión,X
-饭馆,restaurant,restaurante,X
-高兴,happy,feliz,X
+一,one,un,NUM
+七,seven,siete,NUM
+三,three,tres,NUM
+上,up / above,arriba,PART
+上午,morning,mañana,NOUN
+下,down,abajo,PART
+下午,afternoon,tarde,NOUN
+下雨,to rain,llover,NOUN
+不,no / not,no,NOUN
+不客气,you're welcome,de nada,NOUN
+东西,thing,cosa,NOUN
+个,measure word (general),clasificador (general),NOUN
+中午,noon,mediodía,NOUN
+中国,China,China,NOUN
+九,nine,nueve,NUM
+书,book,libro,NOUN
+买,to buy,comprar,VERB
+了,completed-action particle,partícula de acción completada,PART
+二,two,dos,NUM
+五,five,cinco,NUM
+些,some,algunos,NOUN
+人,person,persona,NOUN
+什么,what,qué,PRON
+今天,today,hoy,NOUN
+他,he / him,él,PRON
+会,can / to be able to,poder,VERB
+住,to live,vivir,VERB
+你,you,tú,PRON
+做,to do / to make,hacer,VERB
+儿子,son,hijo,NOUN
+先生,Mr. / sir,señor,NOUN
+八,eight,ocho,NUM
+六,six,seis,NUM
+再见,goodbye,adiós,NOUN
+写,to write,escribir,NOUN
+冷,cold,frío,NOUN
+几,how many / a few,cuántos / unos pocos,NOUN
+出租车,taxi,taxi,NOUN
+分钟,minute,minuto,NOUN
+前面,front / ahead,delante,NOUN
+北京,Beijing,Pekín,NOUN
+医生,doctor,médico,NOUN
+医院,hospital,hospital,NOUN
+十,ten,diez,NUM
+去,to go,ir,VERB
+叫,to be called,llamarse,NOUN
+吃,to eat,comer,VERB
+同学,classmate,compañero de clase,NOUN
+名字,name,nombre,NOUN
+后面,back / behind,detrás,NOUN
+吗,question particle,partícula interrogativa,PART
+听,to listen / to hear,escuchar / oír,VERB
+呢,modal particle,partícula modal,PART
+和,and,y,PART
+哪,which,cuál,NOUN
+哪儿,where,dónde,NOUN
+商店,store / shop,tienda,NOUN
+喂,hello (phone),bueno (al teléfono),NOUN
+喜欢,to like,gustar,NOUN
+喝,to drink,beber,VERB
+四,four,cuatro,NUM
+回,to return,volver,NOUN
+在,at / in / on,en,PART
+坐,to sit,sentarse,VERB
+块,"piece (measure word, money)",kuai (clasificador de dinero),NOUN
+多,many / much,mucho,NOUN
+多少,how many / how much,cuántos / cuánto,NOUN
+大,big / large,grande,NOUN
+天气,weather,clima / tiempo,NOUN
+太,too / excessively,demasiado,NOUN
+女儿,daughter,hija,NOUN
+她,she / her,ella,PRON
+好,good / well,bien / bueno,NOUN
+妈妈,mom / mother,mamá,NOUN
+字,character / word,carácter / palabra,NOUN
+学习,to study / to learn,estudiar / aprender,NOUN
+学校,school,escuela,NOUN
+学生,student,estudiante,NOUN
+家,home / family,casa / familia,NOUN
+对不起,sorry,perdón / lo siento,NOUN
+小,small,pequeño,NOUN
+小姐,miss,señorita,NOUN
+少,few,poco,NOUN
+岁,year (of age),año (de edad),NOUN
+工作,work / to work,trabajo / trabajar,NOUN
+年,year,año,NOUN
+开,to open,abrir,VERB
+很,very,muy,NOUN
+怎么,how,cómo,PRON
+怎么样,how about,cómo,NOUN
+想,to think / to want,pensar / querer,VERB
+我,I,yo,PRON
+我们,we,nosotros,PRON
+打电话,to make a phone call,hacer una llamada,NOUN
+日,day / sun,día / sol,NOUN
+时候,time / when,momento / cuando,NOUN
+明天,tomorrow,mañana,NOUN
+星期,week,semana,NOUN
+昨天,yesterday,ayer,NOUN
+是,to be,ser,VERB
+月,month / moon,mes / luna,NOUN
+有,to have,tener,VERB
+朋友,friend,amigo,NOUN
+本,measure word for books,clasificador para libros,NOUN
+来,to come,venir,VERB
+杯子,cup,taza / vaso,NOUN
+桌子,table,mesa,NOUN
+椅子,chair,silla,NOUN
+水,water,agua,NOUN
+水果,fruit,fruta,NOUN
+汉语,Chinese (language),chino,NOUN
+没,not / not have,no / no tener,NOUN
+没关系,it doesn't matter,no importa,NOUN
+漂亮,pretty,bonito / lindo,NOUN
+火车站,train station,estación de tren,NOUN
+点,o'clock / point,en punto / punto,NOUN
+热,hot,calor / caliente,NOUN
+爱,to love,amar,VERB
+爸爸,dad / father,papá,NOUN
+狗,dog,perro,NOUN
+猫,cat,gato,NOUN
+现在,now,ahora,NOUN
+电影,movie,película,NOUN
+电脑,computer,ordenador / computadora,NOUN
+电视,television,televisión,NOUN
+的,possessive particle,partícula posesiva,PART
+看,to look / to see / to read,ver / mirar / leer,VERB
+看见,to see,ver,NOUN
+睡觉,to sleep,dormir,NOUN
+米饭,cooked rice,arroz,NOUN
+老师,teacher,profesor,NOUN
+能,can / to be able to,poder,VERB
+苹果,apple,manzana,NOUN
+茶,tea,té,NOUN
+菜,food / dish,comida / plato,NOUN
+衣服,clothes,ropa,NOUN
+认识,to know / to recognize,conocer / reconocer,NOUN
+说话,to speak,hablar,NOUN
+请,please / to invite,por favor / invitar,NOUN
+读,to read,leer,NOUN
+谁,who,quién,PRON
+谢谢,thank you,gracias,NOUN
+这,this,este,PRON
+那,that,ese,PRON
+都,all,todo,NOUN
+里,inside / in,dentro / en,PART
+钱,money,dinero,NOUN
+零,zero,cero,NUM
+飞机,airplane,avión,NOUN
+饭馆,restaurant,restaurante,NOUN
+高兴,happy,feliz,NOUN
