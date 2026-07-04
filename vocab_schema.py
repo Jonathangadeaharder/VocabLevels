@@ -8,6 +8,7 @@ from typing import TypedDict
 class LanguageSchema(TypedDict):
     lemma_col: str
     trans_cols: tuple[str, str]
+    pos_col: str
 
 
 LEVELS = ("A1", "A2", "B1", "B2", "C1")
@@ -28,30 +29,44 @@ HSK_TARGETS = {
 LANGS: dict[str, LanguageSchema] = {
     "english": {
         "lemma_col": "English_Lemma",
-        "trans_cols": ("German_Translation", "Spanish_Translation"),
+        "trans_cols": (
+        "German_Translation", "Spanish_Translation"),
+        "pos_col": "POS",
     },
     "german": {
         "lemma_col": "German_Lemma",
-        "trans_cols": ("English_Translation", "Spanish_Translation"),
+        "trans_cols": (
+        "English_Translation", "Spanish_Translation"),
+        "pos_col": "POS",
     },
     "spanish": {
         "lemma_col": "Spanish_Lemma",
-        "trans_cols": ("English_Translation", "German_Translation"),
+        "trans_cols": (
+        "English_Translation", "German_Translation"),
+        "pos_col": "POS",
     },
     "arabic": {
         "lemma_col": "Arabic_Lemma",
-        "trans_cols": ("English_Translation", "Spanish_Translation"),
+        "trans_cols": (
+        "English_Translation", "Spanish_Translation"),
+        "pos_col": "POS",
     },
     "french": {
         "lemma_col": "French_Lemma",
-        "trans_cols": ("English_Translation", "Spanish_Translation"),
+        "trans_cols": (
+        "English_Translation", "Spanish_Translation"),
+        "pos_col": "POS",
     },
     "swedish": {
         "lemma_col": "Swedish_Lemma",
-        "trans_cols": ("English_Translation", "Spanish_Translation"),
+        "trans_cols": (
+        "English_Translation", "Spanish_Translation"),
+        "pos_col": "POS",
     },
     "chinese": {
         "lemma_col": "Chinese_Lemma",
-        "trans_cols": ("English_Translation", "Spanish_Translation"),
+        "trans_cols": (
+        "English_Translation", "Spanish_Translation"),
+        "pos_col": "POS",
     },
 }

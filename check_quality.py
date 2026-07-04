@@ -16,7 +16,7 @@ import re
 import sys
 from pathlib import Path
 
-from vocab_schema import LANGS, LEVELS, TARGETS
+from vocab_schema import LANGS, LEVELS, TARGETS, HSK_LEVELS, HSK_TARGETS
 
 ROOT = Path(__file__).parent
 
@@ -28,10 +28,14 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
     lang_dir = ROOT / lang
     print(f"\n=== {lang.upper()} ===")
 
+    # Chinese uses HSK levels (HSK1-HSK6) instead of CEFR (A1-C1).
+    levels = HSK_LEVELS if lang == "chinese" else LEVELS
+    targets = HSK_TARGETS if lang == "chinese" else TARGETS
+
     seen_lemmas: dict[str, str] = {}  # lemma -> first level it appeared in
     issues = 0
 
-    for level in LEVELS:
+    for level in levels:
         path = lang_dir / f"{level}.csv"
         if not path.exists():
             print(f"  [WARN] {path} missing")
@@ -39,7 +43,7 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
 
         with path.open(encoding="utf-8", newline="") as f:
             reader = csv.DictReader(f)
-            if reader.fieldnames != [cfg["lemma_col"], *cfg["trans_cols"]]:
+            if reader.fieldnames != [cfg["lemma_col"], *cfg["trans_cols"], "POS"]:
                 print(f"  [ERROR] {level}: bad header {reader.fieldnames}")
                 issues += 1
                 continue
@@ -47,7 +51,7 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
             rows = list(reader)
 
         count = len(rows)
-        target = TARGETS[level]
+        target = targets[level]
         delta = count - target
         status = "OK" if abs(delta) <= target * 0.05 else f"OFF ({delta:+d})"
         print(f"  {level}: {count} rows (target {target}) — {status}")

@@ -1,148 +1,148 @@
-Chinese_Lemma,English_Translation,Spanish_Translation
-一起,together,juntos
-丈夫,husband,esposo / marido
-上班,to go to work,ir a trabajar
-两,two,dos
-为,for / to,para / por
-也,also / too,también
-事情,matter / affair,asunto
-介绍,to introduce,presentar
-从,from,de / desde
-件,measure word (events / items),clasificador (sucesos / cosas)
-休息,to rest,descansar
-但是,but,pero
-便宜,cheap,barato
-元,yuan (Chinese currency),yuan (moneda china)
-公共汽车,bus,autobús
-公司,company,empresa
-公斤,kilogram,kilogramo
-再,again,de nuevo / otra vez
-准备,to prepare,preparar
-出,to go out,salir
-别,do not,no (imperativo negativo)
-到,to arrive / to,llegar a / a
-千,thousand,mil
-卖,to sell,vender
-去年,last year,el año pasado
-可以,can / may,poder
-可能,maybe / possible,posible / tal vez
-右边,right side,derecha
-号,number / date,número / fecha
-向,toward,hacia
-吧,modal particle (suggestion),partícula modal (sugerencia)
-告诉,to tell,decir / contar
-咖啡,coffee,café
-哥哥,older brother,hermano mayor
-唱歌,to sing,cantar
-回答,to answer / reply,responder / contestar
-因为,because,porque
-外,outside,fuera
-大家,everyone,todos
-女人,woman,mujer
-好吃,tasty / delicious,sabroso / delicioso
-妹妹,younger sister,hermana menor
-妻子,wife,esposa
-姐姐,older sister,hermana mayor
-姓,surname,apellido
-孩子,child,niño / hijo
-它,it,eso / ello
-完,to finish,terminar
-小时,hour,hora
-就,then / just,entonces / justo
-左边,left side,izquierda
-已经,already,ya
-希望,to hope / to wish,desear / esperar
-帮助,to help / assistance,ayudar / ayuda
-开始,to begin / to start,empezar / comenzar
-弟弟,younger brother,hermano menor
-张,measure word (flat objects),clasificador (objetos planos)
-得,structural particle (after verb),partícula estructural (tras verbo)
-忙,busy,ocupado
-快,fast / quick,rápido
-快乐,happy,feliz
-您,you (polite),usted
-意思,meaning,significado
-慢,slow,lento
-懂,to understand,entender / comprender
-房间,room,habitación / cuarto
-所以,therefore,por lo tanto
-手机,cell phone,teléfono móvil
-手表,watch,reloj (de pulsera)
-打篮球,to play basketball,jugar al baloncesto
-找,to look for / to find,buscar
-报纸,newspaper,periódico
-教室,classroom,aula
-新,new,nuevo
-旁边,beside / next to,al lado
-旅游,to travel / trip,viajar / viaje
-早上,morning,mañana
-时间,time,tiempo
-晚上,evening / night,tarde / noche
-晴,clear (weather),despejado
-最,most,más
-服务员,waiter / attendant,camarero
-机场,airport,aeropuerto
-次,time / occurrence (measure word),vez (clasificador)
-欢迎,to welcome,dar la bienvenida
-正在,in the middle of (doing),en pleno (hacer algo)
-每,each / every,cada
-比,compared to / than,comparado con / que
-洗,to wash,lavar
-游泳,to swim,nadar
-牛奶,milk,leche
-玩,to play,jugar
-生日,birthday,cumpleaños
-生病,to get sick,enfermarse
-男人,man,hombre
-白,white,blanco
-百,hundred,cien / ciento
-真,really / true,de verdad / verdadero
-眼睛,eye,ojo
-着,aspect particle (action in progress),partícula aspectual (acción en progreso)
-知道,to know,saber / conocer
-票,ticket,billete / entrada
-离,from / away from,a distancia de / lejos de
-穿,to wear / to put on,llevar (puesto)
-笑,to laugh / smile,reír / sonreír
-第一,first,primero
-累,tired,cansado
-红,red,rojo
-给,to give,dar
-羊肉,mutton,carne de cordero
-考试,exam / to take an exam,examen / examinarse
-自行车,bicycle,bicicleta
-船,boat,barco
-药,medicine,medicina
-西瓜,watermelon,sandía
-要,to want / to need / will,querer / necesitar / ir a
-觉得,to feel / to think,sentir / pensar
-让,to let / to allow,dejar / permitir
-课,class / lesson,clase
-贵,expensive,caro
-走,to walk / to go,caminar / ir
-起床,to get up,levantarse
-跑步,to run / to jog,correr
-路,road,camino / calle
-跳舞,to dance,bailar
-踢,to kick,patear
-身体,body,cuerpo
-运动,sports / exercise,deporte / ejercicio
-近,near,cerca
-还,still / also,todavía / aún
-进,to enter / to advance,entrar / avanzar
-远,far,lejos
-送,to deliver / to give (as gift),entregar / regalar
-错,wrong / mistake,equivocado / error
-长,long,largo
-门,door / gate,puerta
-问,to ask,preguntar
-问题,question / problem,pregunta / problema
-阴,overcast,nublado
-雪,snow,nieve
-非常,very / extremely,muy / extremadamente
-题,question / problem,pregunta / problema
-颜色,color,color
-高,tall / high,alto
-鱼,fish,pescado / pez
-鸡蛋,egg,huevo
-黑,black,negro
+Chinese_Lemma,English_Translation,Spanish_Translation,POS
+一起,together,juntos,X
+丈夫,husband,esposo / marido,X
+上班,to go to work,ir a trabajar,X
+两,two,dos,X
+为,for / to,para / por,X
+也,also / too,también,X
+事情,matter / affair,asunto,X
+介绍,to introduce,presentar,X
+从,from,de / desde,X
+件,measure word (events / items),clasificador (sucesos / cosas),X
+休息,to rest,descansar,X
+但是,but,pero,X
+便宜,cheap,barato,X
+元,yuan (Chinese currency),yuan (moneda china),X
+公共汽车,bus,autobús,X
+公司,company,empresa,X
+公斤,kilogram,kilogramo,X
+再,again,de nuevo / otra vez,X
+准备,to prepare,preparar,X
+出,to go out,salir,X
+别,do not,no (imperativo negativo),X
+到,to arrive / to,llegar a / a,X
+千,thousand,mil,X
+卖,to sell,vender,X
+去年,last year,el año pasado,X
+可以,can / may,poder,X
+可能,maybe / possible,posible / tal vez,X
+右边,right side,derecha,X
+号,number / date,número / fecha,X
+向,toward,hacia,X
+吧,modal particle (suggestion),partícula modal (sugerencia),X
+告诉,to tell,decir / contar,X
+咖啡,coffee,café,X
+哥哥,older brother,hermano mayor,X
+唱歌,to sing,cantar,X
+回答,to answer / reply,responder / contestar,X
+因为,because,porque,X
+外,outside,fuera,X
+大家,everyone,todos,X
+女人,woman,mujer,X
+好吃,tasty / delicious,sabroso / delicioso,X
+妹妹,younger sister,hermana menor,X
+妻子,wife,esposa,X
+姐姐,older sister,hermana mayor,X
+姓,surname,apellido,X
+孩子,child,niño / hijo,X
+它,it,eso / ello,X
+完,to finish,terminar,X
+小时,hour,hora,X
+就,then / just,entonces / justo,X
+左边,left side,izquierda,X
+已经,already,ya,X
+希望,to hope / to wish,desear / esperar,X
+帮助,to help / assistance,ayudar / ayuda,X
+开始,to begin / to start,empezar / comenzar,X
+弟弟,younger brother,hermano menor,X
+张,measure word (flat objects),clasificador (objetos planos),X
+得,structural particle (after verb),partícula estructural (tras verbo),X
+忙,busy,ocupado,X
+快,fast / quick,rápido,X
+快乐,happy,feliz,X
+您,you (polite),usted,X
+意思,meaning,significado,X
+慢,slow,lento,X
+懂,to understand,entender / comprender,X
+房间,room,habitación / cuarto,X
+所以,therefore,por lo tanto,X
+手机,cell phone,teléfono móvil,X
+手表,watch,reloj (de pulsera),X
+打篮球,to play basketball,jugar al baloncesto,X
+找,to look for / to find,buscar,X
+报纸,newspaper,periódico,X
+教室,classroom,aula,X
+新,new,nuevo,X
+旁边,beside / next to,al lado,X
+旅游,to travel / trip,viajar / viaje,X
+早上,morning,mañana,X
+时间,time,tiempo,X
+晚上,evening / night,tarde / noche,X
+晴,clear (weather),despejado,X
+最,most,más,X
+服务员,waiter / attendant,camarero,X
+机场,airport,aeropuerto,X
+次,time / occurrence (measure word),vez (clasificador),X
+欢迎,to welcome,dar la bienvenida,X
+正在,in the middle of (doing),en pleno (hacer algo),X
+每,each / every,cada,X
+比,compared to / than,comparado con / que,X
+洗,to wash,lavar,X
+游泳,to swim,nadar,X
+牛奶,milk,leche,X
+玩,to play,jugar,X
+生日,birthday,cumpleaños,X
+生病,to get sick,enfermarse,X
+男人,man,hombre,X
+白,white,blanco,X
+百,hundred,cien / ciento,X
+真,really / true,de verdad / verdadero,X
+眼睛,eye,ojo,X
+着,aspect particle (action in progress),partícula aspectual (acción en progreso),X
+知道,to know,saber / conocer,X
+票,ticket,billete / entrada,X
+离,from / away from,a distancia de / lejos de,X
+穿,to wear / to put on,llevar (puesto),X
+笑,to laugh / smile,reír / sonreír,X
+第一,first,primero,X
+累,tired,cansado,X
+红,red,rojo,X
+给,to give,dar,X
+羊肉,mutton,carne de cordero,X
+考试,exam / to take an exam,examen / examinarse,X
+自行车,bicycle,bicicleta,X
+船,boat,barco,X
+药,medicine,medicina,X
+西瓜,watermelon,sandía,X
+要,to want / to need / will,querer / necesitar / ir a,X
+觉得,to feel / to think,sentir / pensar,X
+让,to let / to allow,dejar / permitir,X
+课,class / lesson,clase,X
+贵,expensive,caro,X
+走,to walk / to go,caminar / ir,X
+起床,to get up,levantarse,X
+跑步,to run / to jog,correr,X
+路,road,camino / calle,X
+跳舞,to dance,bailar,X
+踢,to kick,patear,X
+身体,body,cuerpo,X
+运动,sports / exercise,deporte / ejercicio,X
+近,near,cerca,X
+还,still / also,todavía / aún,X
+进,to enter / to advance,entrar / avanzar,X
+远,far,lejos,X
+送,to deliver / to give (as gift),entregar / regalar,X
+错,wrong / mistake,equivocado / error,X
+长,long,largo,X
+门,door / gate,puerta,X
+问,to ask,preguntar,X
+问题,question / problem,pregunta / problema,X
+阴,overcast,nublado,X
+雪,snow,nieve,X
+非常,very / extremely,muy / extremadamente,X
+题,question / problem,pregunta / problema,X
+颜色,color,color,X
+高,tall / high,alto,X
+鱼,fish,pescado / pez,X
+鸡蛋,egg,huevo,X
+黑,black,negro,X
