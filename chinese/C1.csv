@@ -792,3 +792,3219 @@ Chinese_Lemma,English_Translation,Spanish_Translation,POS
 才行,only then,solo entonces,NOUN
 扎,to prick,pinchar,NOUN
 扎实,strong,sólido,NOUN
+定理,theorem,teorema,NOUN
+范畴,category,categoría,NOUN
+机制,mechanism,mecanismo,NOUN
+要素,element,elemento,NOUN
+规范,norm,norma,NOUN
+方针,policy,política,NOUN
+策略,strategy,estrategia,NOUN
+途径,channel/approach,vía,NOUN
+层面,level/dimension,nivel,NOUN
+立场,stance,postura,NOUN
+理念,philosophy,filosofía,NOUN
+知觉,perception,percepción,NOUN
+直觉,intuition,intuición,NOUN
+梦想,dream,sueño,NOUN
+欲望,desire,deseo,NOUN
+渴望,longing,anhelo,NOUN
+绝望,despair,desesperación,NOUN
+细心,carefulness,cuidado,NOUN
+用心,attentiveness,atención,NOUN
+焦虑,anxiety,ansiedad,NOUN
+胆怯,timidity,timidez,NOUN
+怯懦,cowardice,cobardía,NOUN
+虚荣,vanity,vanidad,NOUN
+虚伪,hypocrisy,hipocresía,NOUN
+真诚,sincerity,sinceridad,NOUN
+背叛,betrayal,traición,NOUN
+猜疑,suspicion,sospecha,NOUN
+确信,certainty,certeza,NOUN
+精确,precise,exacto,ADJ
+误解,misunderstand,malinterpretar,VERB
+知晓,be aware,saber,VERB
+识别,identify,identificar,VERB
+辨别,distinguish,distinguir,VERB
+分类,classify,clasificar,VERB
+推断,infer,inferir,VERB
+推测,speculate,especular,VERB
+猜测,guess,adivinar,VERB
+评估,evaluate,evaluar,VERB
+裁定,rule,fallar,VERB
+审议,deliberate,deliberar,VERB
+回想,recall,recordar,VERB
+遗忘,forget,olvidar,VERB
+疏忽,oversight,negligencia,NOUN
+缺陷,defect,defecto,NOUN
+劣势,disadvantage,desventaja,NOUN
+强项,strength,fortaleza,NOUN
+特长,specialty,especialidad,NOUN
+潜力,potential,potencial,NOUN
+吸引力,attraction,atracción,NOUN
+影响力,influence,influencia,NOUN
+竞争力,competitiveness,competitividad,NOUN
+创造力,creativity,creatividad,NOUN
+想象力,imagination,imaginación,NOUN
+记忆力,memory,memoria,NOUN
+注意力,attention,atención,NOUN
+观察力,observation,observación,NOUN
+判断力,judgment,juicio,NOUN
+表达力,expression,expresión,NOUN
+理解力,comprehension,comprensión,NOUN
+执行力,execution,ejecución,NOUN
+组织力,organization,organización,NOUN
+领导力,leadership,liderazgo,NOUN
+凝聚力,cohesion,cohesión,NOUN
+向心力,centripetal force,fuerza centrípeta,NOUN
+离心力,centrifugal force,fuerza centrífuga,NOUN
+阻力,resistance,resistencia,NOUN
+助力,assistance,asistencia,NOUN
+效力,effectiveness,eficacia,NOUN
+效益,benefit,beneficio,NOUN
+结局,ending,final,NOUN
+终结,end,fin,NOUN
+终止,terminate,terminar,VERB
+中止,suspend,suspender,VERB
+撤销,revoke,revocar,VERB
+消除,eliminate,eliminar,VERB
+清除,clear,borrar,VERB
+排除,exclude,excluir,VERB
+解除,relieve,aliviar,VERB
+缓和,mitigate,mitigar,VERB
+改良,improve,mejorar,VERB
+变革,transformation,transformación,NOUN
+变动,fluctuation,fluctuación,NOUN
+演变,evolution,evolución,NOUN
+演化,evolution,evolución,NOUN
+转化,transform,transformar,VERB
+转换,convert,convertir,VERB
+转移,transfer,transferir,VERB
+搬迁,relocate,reubicar,VERB
+迁移,migrate,migrar,VERB
+殖民,colonize,colonizar,VERB
+定居,settle,establecerse,VERB
+栖息,inhabit,habitar,VERB
+生存,survive,sobrevivir,VERB
+展示会,fair,feria,NOUN
+美术馆,art gallery,galería de arte,NOUN
+文化馆,cultural center,centro cultural,NOUN
+体育馆,stadium,estadio,NOUN
+大剧院,grand theater,gran teatro,NOUN
+音乐厅,concert hall,sala de conciertos,NOUN
+会议中心,conference center,centro de conferencias,NOUN
+展览中心,exhibition center,centro de exposiciones,NOUN
+商业中心,commercial center,centro comercial,NOUN
+金融中心,financial center,centro financiero,NOUN
+购物中心,shopping center,centro comercial,NOUN
+娱乐中心,entertainment center,centro de entretenimiento,NOUN
+研究中心,research center,centro de investigación,NOUN
+培训中心,training center,centro de formación,NOUN
+创新中心,innovation center,centro de innovación,NOUN
+数据中心,data center,centro de datos,NOUN
+指挥中心,command center,centro de mando,NOUN
+控制中心,control center,centro de control,NOUN
+服务中心,service center,centro de servicio,NOUN
+医疗中心,medical center,centro médico,NOUN
+健康中心,health center,centro de salud,NOUN
+康复中心,rehabilitation center,centro de rehabilitación,NOUN
+养老院,nursing home,residencia de ancianos,NOUN
+孤儿院,orphanage,orfanato,NOUN
+福利院,welfare home,asilo,NOUN
+收容所,shelter,refugio,NOUN
+避难所,refuge,refugio,NOUN
+避风港,safe haven,refugio seguro,NOUN
+港口,port,puerto,NOUN
+码头,dock,muelle,NOUN
+海滨,seaside,costa,NOUN
+海岸,coast,costa,NOUN
+海滩,beach,playa,NOUN
+绿洲,oasis,oasis,NOUN
+草原,grassland,pradera,NOUN
+高原,plateau,meseta,NOUN
+盆地,basin,cuenca,NOUN
+瀑布,waterfall,cascada,NOUN
+湖泊,lake,lago,NOUN
+池塘,pond,estanque,NOUN
+河流,river,río,NOUN
+溪流,stream,arroyo,NOUN
+运河,canal,canal,NOUN
+渠道,channel,canal,NOUN
+水库,reservoir,embalse,NOUN
+桥梁,bridge,puente,NOUN
+隧道,tunnel,túnel,NOUN
+高速公路,highway,autopista,NOUN
+铁路,railway,ferrocarril,NOUN
+航线,route,ruta,NOUN
+车站,station,estación,NOUN
+边境,border,frontera,NOUN
+证书,certificate,certificado,NOUN
+许可证,permit,permiso,NOUN
+许可,permit,permitir,VERB
+容许,tolerate,tolerar,VERB
+阻碍,hinder,obstaculizar,VERB
+困境,predicament,dilema,NOUN
+灾难,disaster,desastre,NOUN
+损害,damage,daño,NOUN
+融资,finance,financiar,VERB
+债务,debt,deuda,NOUN
+资产,asset,activo,NOUN
+资本,capital,capital,NOUN
+经费,expense,gasto,NOUN
+产值,output value,valor de producción,NOUN
+支出,expenditure,gasto,NOUN
+预算,budget,presupuesto,NOUN
+决算,final accounts,cuenta final,NOUN
+税收,tax,impuesto,NOUN
+免税,tax-free,exento de impuestos,ADJ
+纳税,pay tax,pagar impuestos,VERB
+逃税,tax evasion,evasión fiscal,NOUN
+关税,tariff,arancel,NOUN
+顺差,surplus,superávit,NOUN
+逆差,deficit,déficit,NOUN
+需求,demand,demanda,NOUN
+协作,collaboration,colaboración,NOUN
+协同,synergy,sinergia,NOUN
+调解,mediate,mediar,VERB
+仲裁,arbitrate,arbitrar,VERB
+争执,dispute,disputa,NOUN
+抵抗,resist,resistir,VERB
+抗击,fight,luchar,VERB
+打击,strike,golpear,VERB
+攻击,attack,atacar,VERB
+防御,defense,defensa,NOUN
+维持,maintain,mantener,VERB
+确保,ensure,asegurar,VERB
+核实,verify,verificar,VERB
+查实,investigate,investigar,VERB
+审核,audit,auditar,VERB
+审批,approve,aprobar,VERB
+授权,authorize,autorizar,VERB
+聘任,hire,contratar,VERB
+解雇,fire,despedir,VERB
+离职,leave job,dejar el trabajo,VERB
+换届,transition,transición,NOUN
+投票,vote,votar,VERB
+竞选,campaign,campaña,VERB
+落选,lose election,perder elección,VERB
+政权,regime,régimen,NOUN
+法规,regulation,reglamento,NOUN
+体制,system,sistema,NOUN
+机构,institution,institución,NOUN
+群众,masses,masas,NOUN
+民众,people,pueblo,NOUN
+国民,citizen,ciudadano,NOUN
+村民,villager,aldeano,NOUN
+牧民,herder,pastor,NOUN
+渔民,fisherman,pescador,NOUN
+法官,judge,juez,NOUN
+检察官,prosecutor,fiscal,NOUN
+证人,witness,testigo,NOUN
+嫌疑犯,suspect,sospechoso,NOUN
+参与者,participant,participante,NOUN
+组织者,organizer,organizador,NOUN
+领导者,leader,líder,NOUN
+管理者,manager,gerente,NOUN
+执行者,executor,ejecutor,NOUN
+决策者,decision maker,tomador de decisiones,NOUN
+投资者,investor,inversor,NOUN
+消费者,consumer,consumidor,NOUN
+生产者,producer,productor,NOUN
+供应者,supplier,proveedor,NOUN
+购买者,buyer,comprador,NOUN
+销售者,seller,vendedor,NOUN
+服务者,server,servidor,NOUN
+受益者,beneficiary,beneficiario,NOUN
+创始者,founder,fundador,NOUN
+继承者,successor,sucesor,NOUN
+追随者,follower,seguidor,NOUN
+支持者,supporter,partidario,NOUN
+反对者,opponent,oponente,NOUN
+竞争者,competitor,competidor,NOUN
+合作者,collaborator,colaborador,NOUN
+协调者,coordinator,coordinador,NOUN
+调解者,mediator,mediador,NOUN
+仲裁者,arbitrator,árbitro,NOUN
+监督者,supervisor,supervisor,NOUN
+观察者,observer,observador,NOUN
+记录者,recorder,registrador,NOUN
+报告者,reporter,reportero,NOUN
+传播者,spreader,propagador,NOUN
+接受者,receiver,receptor,NOUN
+传递者,transmitter,transmisor,NOUN
+创造者,creator,creador,NOUN
+发明者,inventor,inventor,NOUN
+发现者,discoverer,descubridor,NOUN
+探索者,explorer,explorador,NOUN
+研究者,researcher,investigador,NOUN
+学者,scholar,erudito,NOUN
+讲师,lecturer,profesor,NOUN
+毕业生,graduate,graduado,NOUN
+本科生,undergraduate,licenciado,NOUN
+博士生,PhD student,doctorando,NOUN
+留学生,international student,estudiante internacional,NOUN
+访问学者,visiting scholar,profesor visitante,NOUN
+研究员,researcher,investigador,NOUN
+院士,academician,académico,NOUN
+诺贝尔奖,Nobel Prize,Premio Nobel,NOUN
+奥斯卡奖,Oscar,Premio Óscar,NOUN
+半决赛,semifinal,semifinal,NOUN
+淘汰赛,knockout,eliminatoria,NOUN
+循环赛,round-robin,liga,NOUN
+表演赛,exhibition match,partido exhibition,NOUN
+资格赛,qualifier,clasificatoria,NOUN
+热身赛,warm-up match,partido amistoso,NOUN
+联赛,league,liga,NOUN
+锦标赛,tournament,torneo,NOUN
+奥运会,Olympics,Juegos Olímpicos,NOUN
+世界杯,World Cup,Copa del Mundo,NOUN
+邀请赛,invitation tournament,torneo por invitación,NOUN
+公开赛,open tournament,torneo abierto,NOUN
+运动员,athlete,atleta,NOUN
+裁判,referee,árbitro,NOUN
+队长,captain,capitán,NOUN
+队员,team member,miembro del equipo,NOUN
+队友,teammate,compañero,NOUN
+门票,ticket,entrada,NOUN
+赛季,season,temporada,NOUN
+比分,score,marcador,NOUN
+打破纪录,break record,batir récord,VERB
+创造纪录,set record,establecer récord,VERB
+保持纪录,hold record,mantener récord,VERB
+世界纪录,world record,récord mundial,NOUN
+全国纪录,national record,récord nacional,NOUN
+个人纪录,personal record,récord personal,NOUN
+历史纪录,historical record,récord histórico,NOUN
+档案,archive,archivo,NOUN
+文献,literature,literatura,NOUN
+素材,source material,material original,NOUN
+题材,subject matter,tema,NOUN
+议题,agenda item,punto del orden del día,NOUN
+难题,puzzle,acertijo,NOUN
+课题,research topic,tema de investigación,NOUN
+职责,duty,deber,NOUN
+职能,function,función,NOUN
+职权,authority,autoridad,NOUN
+权益,rights,derechos,NOUN
+福利,welfare,bienestar,NOUN
+报酬,remuneration,remuneración,NOUN
+薪酬,salary,salario,NOUN
+理赔,claim,reclamación,NOUN
+投保,insure,asegurar,VERB
+承保,underwrite,suscribir,VERB
+勒索,extort,extorsionar,VERB
+诈骗,fraud,fraude,NOUN
+欺骗,deceive,engañar,VERB
+谎言,lie,mentira,NOUN
+真相,truth,verdad,NOUN
+证词,testimony,testimonio,NOUN
+口供,confession,confesión,NOUN
+供词,statement,declaración,NOUN
+审讯,interrogate,interrogar,VERB
+裁决,ruling,fallo,NOUN
+定罪,convict,condenar,VERB
+无罪,innocent,inocente,ADJ
+有罪,guilty,culpable,ADJ
+释放,release,liberar,VERB
+逮捕,arrest,arrestar,VERB
+拘留,detain,detener,VERB
+监禁,imprison,encarcelar,VERB
+赦免,pardon,indultar,VERB
+特赦,amnesty,amnistía,NOUN
+死刑,death penalty,pena de muerte,NOUN
+终身监禁,life sentence,cadena perpetua,NOUN
+有期徒刑,fixed-term imprisonment,prisión,NOUN
+缓刑,suspended sentence,prisión suspendida,NOUN
+假释,parole,libertad condicional,NOUN
+减刑,reduce sentence,reducir pena,VERB
+刑满释放,release after sentence,libertad tras condena,NOUN
+越狱,prison break,evasión,NOUN
+犯罪,crime,crimen,NOUN
+违法,illegal,ilegal,ADJ
+合规,compliant,conforme,ADJ
+违规,violation,infracción,NOUN
+违纪,disciplinary violation,falta disciplinaria,NOUN
+违约,breach of contract,incumplimiento,NOUN
+索赔,claim damages,reclamar daños,VERB
+起诉,sue,demandar,VERB
+应诉,respond to lawsuit,responder demanda,VERB
+反诉,counterclaim,contrademanda,NOUN
+撤诉,drop charges,retirar cargos,VERB
+诉讼,litigation,litigio,NOUN
+法庭,courtroom,tribunal,NOUN
+最高法院,supreme court,tribunal supremo,NOUN
+修正案,amendment,enmienda,NOUN
+条款,clause,cláusula,NOUN
+条约,treaty,tratado,NOUN
+公约,convention,convención,NOUN
+宣言,declaration,declaración,NOUN
+通告,notice,aviso,NOUN
+通报,circular,circular,NOUN
+汇报,brief,informe,NOUN
+总结报告,summary report,informe resumen,NOUN
+调查报告,investigation report,informe de investigación,NOUN
+研究报告,research report,informe de investigación,NOUN
+年度报告,annual report,informe anual,NOUN
+财务报告,financial report,informe financiero,NOUN
+市场报告,market report,informe de mercado,NOUN
+行业报告,industry report,informe sectorial,NOUN
+技术报告,technical report,informe técnico,NOUN
+实验报告,lab report,informe de laboratorio,NOUN
+测试报告,test report,informe de pruebas,NOUN
+评估报告,assessment report,informe de evaluación,NOUN
+审计报告,audit report,informe de auditoría,NOUN
+环境影响,environmental impact,impacto ambiental,NOUN
+社会影响,social impact,impacto social,NOUN
+经济影响,economic impact,impacto económico,NOUN
+政治影响,political impact,impacto político,NOUN
+文化影响,cultural impact,impacto cultural,NOUN
+心理影响,psychological impact,impacto psicológico,NOUN
+生理影响,physiological impact,impacto fisiológico,NOUN
+直接影响,direct impact,impacto directo,NOUN
+间接影响,indirect impact,impacto indirecto,NOUN
+长期影响,long-term impact,impacto a largo plazo,NOUN
+短期影响,short-term impact,impacto a corto plazo,NOUN
+正面影响,positive impact,impacto positivo,NOUN
+负面影响,negative impact,impacto negativo,NOUN
+深远影响,profound impact,impacto profundo,NOUN
+广泛影响,widespread impact,impacto generalizado,NOUN
+重大影响,significant impact,impacto significativo,NOUN
+轻微影响,minor impact,impacto menor,NOUN
+不可避免,unavoidable,inevitable,ADJ
+不可逆转,irreversible,irreversible,ADJ
+不可估量,immeasurable,incalculable,ADJ
+不可忽视,negligible not,no despreciable,ADJ
+不可阻挡,unstoppable,imparable,ADJ
+不可分割,inseparable,inseparable,ADJ
+不可或缺,indispensable,indispensable,ADJ
+不可替代,irreplaceable,irremplazable,ADJ
+不可调和,irreconcilable,irreconciliable,ADJ
+不可理喻,unreasonable,irrazonable,ADJ
+不可否认,undeniable,indiscutible,ADJ
+不可辩驳,irrefutable,irrefutable,ADJ
+不可挽回,irreversible,irreversible,ADJ
+不可救药,incurable,incurable,ADJ
+不可磨灭,indelible,indeleble,ADJ
+不可名状,indescribable,indescriptible,ADJ
+不可限量,limitless,ilimitado,ADJ
+不可逾越,insurmountable,insuperable,ADJ
+不可企及,unattainable,inalcanzable,ADJ
+难以置信,hard to believe,increíble,ADJ
+难以想象,hard to imagine,difícil de imaginar,ADJ
+难以预料,hard to predict,difícil de predecir,ADJ
+难以克服,hard to overcome,difícil de superar,ADJ
+难以避免,hard to avoid,difícil de evitar,ADJ
+难以理解,hard to understand,difícil de entender,ADJ
+难以接受,hard to accept,difícil de aceptar,ADJ
+难以忍受,hard to endure,difícil de soportar,ADJ
+难以启齿,hard to say,difícil de decir,ADJ
+难以割舍,hard to part with,difícil de separarse,ADJ
+难以抉择,hard to choose,difícil de elegir,ADJ
+难以衡量,hard to measure,difícil de medir,ADJ
+难以估量,hard to estimate,difícil de estimar,ADJ
+难以描述,hard to describe,difícil de describir,ADJ
+难以区分,hard to distinguish,difícil de distinguir,ADJ
+难以辨别,hard to identify,difícil de identificar,ADJ
+难以判断,hard to judge,difícil de juzgar,ADJ
+难以决定,hard to decide,difícil de decidir,ADJ
+难以确定,hard to determine,difícil de determinar,ADJ
+难以确认,hard to confirm,difícil de confirmar,ADJ
+难以维持,hard to maintain,difícil de mantener,ADJ
+难以持续,hard to sustain,difícil de sostener,ADJ
+难以实现,hard to achieve,difícil de lograr,ADJ
+难以完成,hard to complete,difícil de completar,ADJ
+难以达成,hard to reach,difícil de alcanzar,ADJ
+难以满足,hard to satisfy,difícil de satisfacer,ADJ
+难以适应,hard to adapt,difícil de adaptar,ADJ
+难以调整,hard to adjust,difícil de ajustar,ADJ
+难以控制,hard to control,difícil de controlar,ADJ
+难以管理,hard to manage,difícil de gestionar,ADJ
+难以操作,hard to operate,difícil de operar,ADJ
+难以执行,hard to execute,difícil de ejecutar,ADJ
+难以实施,hard to implement,difícil de implementar,ADJ
+难以推行,hard to promote,difícil de promover,ADJ
+难以推广,hard to spread,difícil de difundir,ADJ
+难以普及,hard to popularize,difícil de popularizar,ADJ
+难以认可,hard to approve,difícil de aprobar,ADJ
+难以认同,hard to identify with,difícil de identificarse,ADJ
+难以原谅,hard to forgive,difícil de perdonar,ADJ
+难以忘怀,hard to forget,difícil de olvidar,ADJ
+难以释怀,hard to let go,difícil de superar,ADJ
+难以平息,hard to calm,difícil de calmar,ADJ
+难以抑制,hard to suppress,difícil de reprimir,ADJ
+难以克制,hard to restrain,difícil de contener,ADJ
+难以抗拒,hard to resist,difícil de resistir,ADJ
+难以抵御,hard to defend,difícil de defender,ADJ
+难以逾越,hard to cross,difícil de cruzar,ADJ
+难以突破,hard to break through,difícil de romper,ADJ
+难以超越,hard to surpass,difícil de superar,ADJ
+难以比拟,hard to compare,difícil de comparar,ADJ
+难以匹配,hard to match,difícil de igualar,ADJ
+难以替代,hard to replace,difícil de reemplazar,ADJ
+难以复制,hard to copy,difícil de copiar,ADJ
+难以模仿,hard to imitate,difícil de imitar,ADJ
+难以企及,hard to reach,difícil de alcanzar,ADJ
+难以触及,hard to touch,difícil de tocar,ADJ
+难以接近,hard to approach,difícil de acercarse,ADJ
+难以沟通,hard to communicate,difícil de comunicar,ADJ
+难以协调,hard to coordinate,difícil de coordinar,ADJ
+难以合作,hard to cooperate,difícil de cooperar,ADJ
+难以协作,hard to collaborate,difícil de colaborar,ADJ
+难以配合,hard to coordinate,difícil de coordinar,ADJ
+难以妥协,hard to compromise,difícil de ceder,ADJ
+难以调解,hard to mediate,difícil de mediar,ADJ
+难以调和,hard to reconcile,difícil de reconciliar,ADJ
+难以化解,hard to resolve,difícil de resolver,ADJ
+难以消除,hard to eliminate,difícil de eliminar,ADJ
+难以预防,hard to prevent,difícil de prevenir,ADJ
+难以治愈,hard to cure,difícil de curar,ADJ
+难以康复,hard to recover,difícil de recuperarse,ADJ
+难以生存,hard to survive,difícil de sobrevivir,ADJ
+难以延续,hard to continue,difícil de continuar,ADJ
+难以传承,hard to inherit,difícil de heredar,ADJ
+难以保留,hard to retain,difícil de retener,ADJ
+难以保护,hard to protect,difícil de proteger,ADJ
+难以保存,hard to preserve,difícil de conservar,ADJ
+难以恢复,hard to restore,difícil de restaurar,ADJ
+难以修复,hard to repair,difícil de reparar,ADJ
+难以弥补,hard to compensate,difícil de compensar,ADJ
+难以挽回,hard to recover,difícil de recuperar,ADJ
+难以逆转,hard to reverse,difícil de revertir,ADJ
+难以改变,hard to change,difícil de cambiar,ADJ
+难以改造,hard to transform,difícil de transformar,ADJ
+难以改良,hard to improve,difícil de mejorar,ADJ
+难以完善,hard to perfect,difícil de perfeccionar,ADJ
+难以优化,hard to optimize,difícil de optimizar,ADJ
+难以升级,hard to upgrade,difícil de actualizar,ADJ
+难以更新,hard to update,difícil de actualizar,ADJ
+难以替换,hard to replace,difícil de reemplazar,ADJ
+难以迁移,hard to migrate,difícil de migrar,ADJ
+难以转移,hard to transfer,difícil de transferir,ADJ
+难以运输,hard to transport,difícil de transportar,ADJ
+难以携带,hard to carry,difícil de llevar,ADJ
+难以储存,hard to store,difícil de almacenar,ADJ
+难以保管,hard to keep,difícil de guardar,ADJ
+难以处理,hard to process,difícil de procesar,ADJ
+难以处置,hard to dispose,difícil de disponer,ADJ
+难以应对,hard to handle,difícil de manejar,ADJ
+难以应付,hard to cope,difícil de hacer frente,ADJ
+难以解决,hard to solve,difícil de resolver,ADJ
+难以解答,hard to answer,difícil de responder,ADJ
+难以解释,hard to explain,difícil de explicar,ADJ
+难以说明,hard to illustrate,difícil de ilustrar,ADJ
+难以证明,hard to prove,difícil de demostrar,ADJ
+难以证实,hard to verify,difícil de verificar,ADJ
+难以否认,hard to deny,difícil de negar,ADJ
+难以反驳,hard to refute,difícil de refutar,ADJ
+难以辩论,hard to debate,difícil de debatir,ADJ
+难以讨论,hard to discuss,difícil de discutir,ADJ
+难以协商,hard to negotiate,difícil de negociar,ADJ
+难以商议,hard to consult,difícil de consultar,ADJ
+难以商量,hard to discuss,difícil de discutir,ADJ
+难以交流,hard to exchange,difícil de intercambiar,ADJ
+难以互动,hard to interact,difícil de interactuar,ADJ
+难以融入,hard to integrate,difícil de integrarse,ADJ
+难以赞同,hard to agree,difícil de estar de acuerdo,ADJ
+难以支持,hard to support,difícil de apoyar,ADJ
+难以反对,hard to oppose,difícil de oponerse,ADJ
+难以批评,hard to criticize,difícil de criticar,ADJ
+难以评价,hard to evaluate,difícil de evaluar,ADJ
+难以预测,hard to predict,difícil de predecir,ADJ
+难以估计,hard to estimate,difícil de estimar,ADJ
+难以计算,hard to calculate,difícil de calcular,ADJ
+难以统计,hard to count,difícil de contar,ADJ
+难以比较,hard to compare,difícil de comparar,ADJ
+难以分辨,hard to differentiate,difícil de diferenciar,ADJ
+难以识别,hard to identify,difícil de identificar,ADJ
+难以辨认,hard to recognize,difícil de reconocer,ADJ
+难以察觉,hard to perceive,difícil de percibir,ADJ
+难以发现,hard to discover,difícil de descubrir,ADJ
+难以找到,hard to find,difícil de encontrar,ADJ
+难以获得,hard to obtain,difícil de obtener,ADJ
+难以获取,hard to acquire,difícil de adquirir,ADJ
+难以取得,hard to achieve,difícil de lograr,ADJ
+难以达到,hard to reach,difícil de alcanzar,ADJ
+难以符合,hard to meet,difícil de cumplir,ADJ
+难以平衡,hard to balance,difícil de equilibrar,ADJ
+难以兼顾,hard to balance both,difícil de equilibrar,ADJ
+难以取舍,hard to choose,difícil de elegir,ADJ
+难以放弃,hard to abandon,difícil de abandonar,ADJ
+难以坚持,hard to persist,difícil de persistir,ADJ
+难以继续,hard to continue,difícil de continuar,ADJ
+难以中断,hard to interrupt,difícil de interrumpir,ADJ
+难以停止,hard to stop,difícil de detener,ADJ
+难以终止,hard to terminate,difícil de terminar,ADJ
+难以结束,hard to end,difícil de terminar,ADJ
+难以开始,hard to start,difícil de comenzar,ADJ
+难以启动,hard to launch,difícil de iniciar,ADJ
+难以落实,hard to implement,difícil de aplicar,ADJ
+难以使用,hard to use,difícil de usar,ADJ
+难以应用,hard to apply,difícil de aplicar,ADJ
+难以传播,hard to spread,difícil de difundir,ADJ
+难以传达,hard to convey,difícil de transmitir,ADJ
+难以表达,hard to express,difícil de expresar,ADJ
+难以形容,hard to depict,difícil de describir,ADJ
+难以描绘,hard to portray,difícil de retratar,ADJ
+难以刻画,hard to depict,difícil de retratar,ADJ
+难以记录,hard to record,difícil de registrar,ADJ
+难以存储,hard to store,difícil de almacenar,ADJ
+难以记忆,hard to remember,difícil de recordar,ADJ
+难以忘记,hard to forget,difícil de olvidar,ADJ
+难以承受,hard to endure,difícil de soportar,ADJ
+难以承担,hard to bear,difícil de asumir,ADJ
+难以担负,hard to shoulder,difícil de asumir,ADJ
+难以担当,hard to take on,difícil de asumir,ADJ
+难以胜任,hard to be competent,difícil de ser competente,ADJ
+难以回避,hard to avoid,difícil de evitar,ADJ
+难以逃避,hard to escape,difícil de escapar,ADJ
+难以面对,hard to face,difícil de enfrentar,ADJ
+难以正视,hard to confront,difícil de confrontar,ADJ
+难以忽视,hard to ignore,difícil de ignorar,ADJ
+难以抹去,hard to erase,difícil de borrar,ADJ
+难以清除,hard to clear,difícil de borrar,ADJ
+难以去除,hard to remove,difícil de quitar,ADJ
+难以摆脱,hard to shake off,difícil de sacudirse,ADJ
+难以脱离,hard to separate,difícil de separarse,ADJ
+难以分离,hard to separate,difícil de separar,ADJ
+难以分割,hard to divide,difícil de dividir,ADJ
+难以拆分,hard to split,difícil de dividir,ADJ
+难以分解,hard to decompose,difícil de descomponer,ADJ
+难以分析,hard to analyze,difícil de analizar,ADJ
+难以解析,hard to parse,difícil de analizar,ADJ
+难以领悟,hard to grasp,difícil de comprender,ADJ
+难以体会,hard to experience,difícil de experimentar,ADJ
+难以感受,hard to feel,difícil de sentir,ADJ
+难以感知,hard to perceive,difícil de percibir,ADJ
+难以观察,hard to observe,difícil de observar,ADJ
+难以监测,hard to monitor,difícil de monitorear,ADJ
+难以监控,hard to monitor,difícil de supervisar,ADJ
+难以治理,hard to govern,difícil de gobernar,ADJ
+难以统治,hard to rule,difícil de gobernar,ADJ
+难以领导,hard to lead,difícil de liderar,ADJ
+难以引导,hard to guide,difícil de guiar,ADJ
+难以指导,hard to instruct,difícil de instruir,ADJ
+难以教导,hard to teach,difícil de enseñar,ADJ
+难以教育,hard to educate,difícil de educar,ADJ
+难以培养,hard to cultivate,difícil de cultivar,ADJ
+难以训练,hard to train,difícil de entrenar,ADJ
+难以锻炼,hard to exercise,difícil de ejercitar,ADJ
+难以实践,hard to practice,difícil de practicar,ADJ
+难以实习,hard to intern,difícil de hacer prácticas,ADJ
+难以试用,hard to try,difícil de probar,ADJ
+难以测试,hard to test,difícil de probar,ADJ
+难以检验,hard to inspect,difícil de inspeccionar,ADJ
+难以验证,hard to verify,difícil de verificar,ADJ
+难以表明,hard to show,difícil de mostrar,ADJ
+难以展示,hard to display,difícil de mostrar,ADJ
+难以展现,hard to exhibit,difícil de exhibir,ADJ
+难以呈现,hard to present,difícil de presentar,ADJ
+难以体现,hard to embody,difícil de reflejar,ADJ
+难以反映,hard to reflect,difícil de reflejar,ADJ
+难以表示,hard to indicate,difícil de indicar,ADJ
+难以阐述,hard to expound,difícil de exponer,ADJ
+难以论述,hard to discuss,difícil de exponer,ADJ
+难以论证,hard to argue,difícil de argumentar,ADJ
+难以驳斥,hard to rebut,difícil de refutar,ADJ
+难以承认,hard to admit,difícil de admitir,ADJ
+难以容忍,hard to tolerate,difícil de tolerar,ADJ
+颁布,promulgate,promulgar,VERB
+违抗,disobey,desobedecer,VERB
+斡旋,intervene,intervenir,VERB
+介入,get involved,involucrarse,VERB
+缺席,be absent,ausentarse,VERB
+列席,attend as observer,asistir como observador,VERB
+召集,convene,convocar,VERB
+推进,advance,avanzar,VERB
+推动,promote,promover,VERB
+督促,supervise,supervisar,VERB
+监督,supervise,supervisar,VERB
+监察,monitor,monitorear,VERB
+审计,audit,auditar,VERB
+核对,check,verificar,VERB
+校对,proofread,corregir,VERB
+修订,revise,revisar,VERB
+修正,amend,corregir,VERB
+调节,regulate,regular,VERB
+调控,control,controlar,VERB
+操纵,manipulate,manipular,VERB
+掌控,control,controlar,VERB
+精通,master,dominar,VERB
+擅长,be good at,destacar en,VERB
+界限,boundary,límite,NOUN
+边缘,edge,borde,NOUN
+前沿,frontier,vanguardia,NOUN
+领先,leading,líder,ADJ
+超越,surpass,superar,VERB
+跨越,leap,saltar,VERB
+突破,breakthrough,avance,NOUN
+攻克,conquer,conquistar,VERB
+投降,surrender,rendirse,VERB
+撤退,retreat,retirarse,VERB
+萧条,depression,depresión,NOUN
+衰退,decline,recesión,NOUN
+复苏,recovery,recuperación,NOUN
+波动,fluctuate,fluctuar,VERB
+共识,consensus,consenso,NOUN
+契约,contract,contrato,NOUN
+承诺,commitment,compromiso,NOUN
+担保,guarantee,garantía,NOUN
+抵押,mortgage,hipoteca,NOUN
+质押,pledge,prenda,NOUN
+租赁,lease,alquiler,NOUN
+租金,rent,alquiler,NOUN
+本金,principal,principal,NOUN
+通货膨胀,inflation,inflación,NOUN
+通货紧缩,deflation,deflación,NOUN
+科技,technology,tecnología,NOUN
+内政,internal affairs,asuntos internos,NOUN
+立法,legislation,legislación,NOUN
+执法,law enforcement,aplicación de la ley,NOUN
+守法,law-abiding,respetuoso de la ley,ADJ
+申诉,appeal,apelación,NOUN
+上诉,appeal,apelación,NOUN
+终审,final appeal,última instancia,NOUN
+初审,first trial,primera instancia,NOUN
+复审,review,revisión,NOUN
+再审,retrial,nuevo juicio,NOUN
+陪审,jury,jurado,NOUN
+庭审,court session,vista,NOUN
+听证,hearing,audiencia,NOUN
+质询,inquiry,interpelación,NOUN
+追问,follow up,insistir,VERB
+盘问,interrogate,interrogar,VERB
+审问,interrogate,interrogar,VERB
+拷问,torture,torturar,VERB
+逼供,extort confession,extorsionar confesión,VERB
+招供,confess,confesar,VERB
+检举,report,denunciar,VERB
+揭发,expose,exponer,VERB
+举报,report,denunciar,VERB
+控告,accuse,acusar,VERB
+控诉,accuse,acusar,VERB
+辩护,defend,defender,VERB
+答辩,reply,responder,VERB
+抗辩,counter,rebatir,VERB
+驳斥,rebut,refutar,VERB
+默认,tacitly accept,aceptar tácitamente,VERB
+准许,approve,aprobar,VERB
+核准,approve,aprobar,VERB
+驳回,reject,rechazar,VERB
+谢绝,decline,rechazar,VERB
+婉拒,decline politely,rechazar amablemente,VERB
+采纳,adopt,adoptar,VERB
+采用,adopt,adoptar,VERB
+选用,choose,seleccionar,VERB
+挑选,select,seleccionar,VERB
+选拔,select,seleccionar,VERB
+表决,vote,votar,VERB
+决议,resolution,resolución,NOUN
+宣判,pronounce,pronunciar,VERB
+量刑,sentence,sentenciar,VERB
+加刑,increase sentence,aumentar pena,VERB
+免刑,exempt from punishment,eximir de pena,VERB
+大赦,amnesty,amnistía,NOUN
+保释,bail,libertad bajo fianza,NOUN
+取保候审,bail pending trial,libertad provisional,NOUN
+监视居住,residential surveillance,vigilancia domiciliaria,NOUN
+拘押,detain,detener,VERB
+关押,imprison,encarcelar,VERB
+囚禁,imprison,encarcelar,VERB
+软禁,house arrest,arresto domiciliario,NOUN
+逃亡,flee,huida,NOUN
+潜逃,abscond,fugarse,VERB
+通缉,wanted,buscado,VERB
+追捕,pursue,perseguir,VERB
+缉拿,arrest,detener,VERB
+归案,brought to justice,ser procesado,VERB
+自首,surrender,entregarse,VERB
+投案,give oneself up,entregarse,VERB
+报案,report case,denunciar,VERB
+立案,file case,abrir caso,VERB
+销案,close case,cerrar caso,VERB
+结案,close case,cerrar caso,VERB
+悬案,cold case,caso sin resolver,NOUN
+冤案,wrongful case,caso injusto,NOUN
+错案,wrongful case,caso erróneo,NOUN
+铁案,ironclad case,caso probado,NOUN
+疑案,unsolved case,caso dudoso,NOUN
+奇案,bizarre case,caso extraño,NOUN
+大案,major case,caso importante,NOUN
+要案,important case,caso importante,NOUN
+命案,murder case,caso de asesinato,NOUN
+凶杀,murder,asesinato,NOUN
+谋杀,murder,asesinato,NOUN
+暗杀,assassination,asesinato,NOUN
+刺杀,assassinate,asesinar,VERB
+行刺,assassinate,asesinar,VERB
+遇刺,be assassinated,ser asesinado,VERB
+中弹,be shot,ser disparado,VERB
+中枪,be shot,ser baleado,VERB
+枪击,shooting,tiroteo,NOUN
+爆炸,explosion,explosión,NOUN
+轰炸,bombing,bombardeo,NOUN
+袭击,attack,ataque,NOUN
+伏击,ambush,emboscada,NOUN
+突袭,raid,incursión,NOUN
+偷袭,surprise attack,ataque sorpresa,NOUN
+奇袭,surprise attack,ataque por sorpresa,NOUN
+强袭,storm,asaltar,VERB
+猛攻,storm,asaltar,VERB
+进攻,attack,atacar,VERB
+防守,defend,defender,VERB
+抵御,resist,resistir,VERB
+起义,uprising,levantamiento,NOUN
+叛乱,rebellion,rebelión,NOUN
+暴动,riot,motín,NOUN
+骚乱,disturbance,altercado,NOUN
+动乱,turmoil,tumulto,NOUN
+暴乱,insurrection,insurrección,NOUN
+政变,coup,golpe de estado,NOUN
+兵变,mutiny,motín,NOUN
+哗变,mutiny,amotinarse,VERB
+叛变,defect,desertar,VERB
+叛逃,defect,desertar,VERB
+投敌,defect to enemy,pasarse al enemigo,VERB
+叛国,treason,traición,NOUN
+卖国,betray country,traicionar la patria,VERB
+爱国,patriotic,patriótico,ADJ
+报国,serve country,servir a la patria,VERB
+卫国,defend country,defender la patria,VERB
+建国,found country,fundar país,VERB
+治国,govern country,gobernar país,VERB
+兴国,prosper country,prosperar país,VERB
+强国,strong country,país fuerte,NOUN
+富国,rich country,país rico,NOUN
+大国,great power,gran potencia,NOUN
+王国,kingdom,reino,NOUN
+联邦,federation,federación,NOUN
+邦联,confederation,confederación,NOUN
+同盟,alliance,alianza,NOUN
+联盟,league,liga,NOUN
+联合国,United Nations,Naciones Unidas,NOUN
+东盟,ASEAN,ASEAN,NOUN
+欧盟,EU,UE,NOUN
+北约,NATO,OTAN,NOUN
+世贸,WTO,OMC,NOUN
+世卫,WHO,OMS,NOUN
+世行,World Bank,Banco Mundial,NOUN
+国币,currency,moneda,NOUN
+外汇,foreign exchange,divisas,NOUN
+外债,foreign debt,deuda externa,NOUN
+内债,domestic debt,deuda interna,NOUN
+国债,national debt,deuda nacional,NOUN
+公债,public debt,deuda pública,NOUN
+私债,private debt,deuda privada,NOUN
+债权,creditor's rights,derechos de acreedor,NOUN
+债权人,creditor,acreedor,NOUN
+债务人,debtor,deudor,NOUN
+担保人,guarantor,garante,NOUN
+见证人,witness,testigo,NOUN
+中间人,middleman,intermediario,NOUN
+经纪人,broker,corredor,NOUN
+代理人,agent,agente,NOUN
+代表人,representative,representante,NOUN
+负责人,person in charge,responsable,NOUN
+管理人,manager,administrador,NOUN
+监督人,supervisor,supervisor,NOUN
+调解人,mediator,mediador,NOUN
+仲裁人,arbitrator,árbitro,NOUN
+公证人,notary,notario,NOUN
+目击者,eyewitness,testigo ocular,NOUN
+相关人,related person,persona relacionada,NOUN
+知情人,insider,informado,NOUN
+局内人,insider,persona interna,NOUN
+局外人,outsider,forastero,NOUN
+门外汉,layman,lego,NOUN
+内行,expert,experto,NOUN
+科学家,scientist,científico,NOUN
+设计师,designer,diseñador,NOUN
+建筑师,architect,arquitecto,NOUN
+程序员,programmer,programador,NOUN
+分析师,analyst,analista,NOUN
+咨询师,consultant,consultor,NOUN
+顾问,advisor,asesor,NOUN
+学长,senior,veterano,NOUN
+学姐,senior female,veterana,NOUN
+校友,alumnus,exalumno,NOUN
+租客,tenant,inquilino,NOUN
+雇主,employer,empleador,NOUN
+雇员,employee,empleado,NOUN
+搭档,partner,socio,NOUN
+股东,shareholder,accionista,NOUN
+董事长,chairman,presidente,NOUN
+总经理,general manager,gerente general,NOUN
+部门经理,department manager,jefe de departamento,NOUN
+项目经理,project manager,jefe de proyecto,NOUN
+产品经理,product manager,jefe de producto,NOUN
+市场经理,marketing manager,jefe de marketing,NOUN
+销售经理,sales manager,jefe de ventas,NOUN
+财务经理,finance manager,jefe de finanzas,NOUN
+人事经理,HR manager,jefe de RRHH,NOUN
+运营经理,operations manager,jefe de operaciones,NOUN
+技术经理,tech manager,jefe técnico,NOUN
+研发经理,R&D manager,jefe de I+D,NOUN
+质量经理,quality manager,jefe de calidad,NOUN
+安全经理,safety manager,jefe de seguridad,NOUN
+物流经理,logistics manager,jefe de logística,NOUN
+采购经理,procurement manager,jefe de compras,NOUN
+供应链,supply chain,cadena de suministro,NOUN
+产业链,industry chain,cadena industrial,NOUN
+价值链,value chain,cadena de valor,NOUN
+生态链,ecosystem chain,cadena ecológica,NOUN
+食物链,food chain,cadena alimentaria,NOUN
+区块链,blockchain,cadena de bloques,NOUN
+大数据,big data,big data,NOUN
+人工智能,AI,inteligencia artificial,NOUN
+机器学习,machine learning,aprendizaje automático,NOUN
+深度学习,deep learning,aprendizaje profundo,NOUN
+自然语言,natural language,lenguaje natural,NOUN
+语言处理,language processing,procesamiento de lenguaje,NOUN
+图像识别,image recognition,reconocimiento de imágenes,NOUN
+语音识别,speech recognition,reconocimiento de voz,NOUN
+人脸识别,face recognition,reconocimiento facial,NOUN
+指纹识别,fingerprint recognition,reconocimiento de huellas,NOUN
+虹膜识别,iris recognition,reconocimiento de iris,NOUN
+声纹识别,voiceprint recognition,reconocimiento de voz,NOUN
+步态识别,gait recognition,reconocimiento de marcha,NOUN
+行为识别,behavior recognition,reconocimiento de comportamiento,NOUN
+情感识别,emotion recognition,reconocimiento de emociones,NOUN
+意图识别,intent recognition,reconocimiento de intenciones,NOUN
+实体识别,entity recognition,reconocimiento de entidades,NOUN
+关系识别,relation recognition,reconocimiento de relaciones,NOUN
+事件识别,event recognition,reconocimiento de eventos,NOUN
+场景识别,scene recognition,reconocimiento de escenas,NOUN
+物体识别,object recognition,reconocimiento de objetos,NOUN
+动作识别,action recognition,reconocimiento de acciones,NOUN
+手势识别,gesture recognition,reconocimiento de gestos,NOUN
+姿态识别,pose recognition,reconocimiento de postura,NOUN
+表情识别,expression recognition,reconocimiento de expresiones,NOUN
+情绪识别,mood recognition,reconocimiento de humor,NOUN
+性格识别,personality recognition,reconocimiento de personalidad,NOUN
+身份识别,identity recognition,reconocimiento de identidad,NOUN
+资质识别,qualification recognition,reconocimiento de cualificación,NOUN
+权限识别,permission recognition,reconocimiento de permisos,NOUN
+风险识别,risk recognition,reconocimiento de riesgos,NOUN
+机会识别,opportunity recognition,reconocimiento de oportunidades,NOUN
+趋势识别,trend recognition,reconocimiento de tendencias,NOUN
+模式识别,pattern recognition,reconocimiento de patrones,NOUN
+异常识别,anomaly recognition,reconocimiento de anomalías,NOUN
+故障识别,fault recognition,reconocimiento de fallos,NOUN
+缺陷识别,defect recognition,reconocimiento de defectos,NOUN
+漏洞识别,vulnerability recognition,reconocimiento de vulnerabilidades,NOUN
+威胁识别,threat recognition,reconocimiento de amenazas,NOUN
+攻击识别,attack recognition,reconocimiento de ataques,NOUN
+入侵识别,intrusion recognition,reconocimiento de intrusiones,NOUN
+欺诈识别,fraud recognition,reconocimiento de fraude,NOUN
+虚假识别,fake recognition,reconocimiento de falsificaciones,NOUN
+谣言识别,rumor recognition,reconocimiento de rumores,NOUN
+偏见识别,bias recognition,reconocimiento de sesgos,NOUN
+歧视识别,discrimination recognition,reconocimiento de discriminación,NOUN
+仇恨识别,hate recognition,reconocimiento de odio,NOUN
+暴力识别,violence recognition,reconocimiento de violencia,NOUN
+色情识别,pornography recognition,reconocimiento de pornografía,NOUN
+垃圾识别,spam recognition,reconocimiento de spam,NOUN
+广告识别,ad recognition,reconocimiento de anuncios,NOUN
+新闻识别,news recognition,reconocimiento de noticias,NOUN
+评论识别,review recognition,reconocimiento de reseñas,NOUN
+反馈识别,feedback recognition,reconocimiento de comentarios,NOUN
+投诉识别,complaint recognition,reconocimiento de quejas,NOUN
+建议识别,suggestion recognition,reconocimiento de sugerencias,NOUN
+咨询识别,inquiry recognition,reconocimiento de consultas,NOUN
+求助识别,help recognition,reconocimiento de ayuda,NOUN
+报警识别,alarm recognition,reconocimiento de alarmas,NOUN
+预警识别,warning recognition,reconocimiento de advertencias,NOUN
+监测识别,monitoring recognition,reconocimiento de monitoreo,NOUN
+检测识别,detection recognition,reconocimiento de detección,NOUN
+检验识别,inspection recognition,reconocimiento de inspección,NOUN
+测试识别,test recognition,reconocimiento de pruebas,NOUN
+验证识别,verification recognition,reconocimiento de verificación,NOUN
+认证识别,authentication recognition,reconocimiento de autenticación,NOUN
+授权识别,authorization recognition,reconocimiento de autorización,NOUN
+鉴权识别,authentication recognition,reconocimiento de autenticación,NOUN
+角色识别,role recognition,reconocimiento de roles,NOUN
+用户识别,user recognition,reconocimiento de usuarios,NOUN
+客户识别,customer recognition,reconocimiento de clientes,NOUN
+会员识别,member recognition,reconocimiento de miembros,NOUN
+访客识别,visitor recognition,reconocimiento de visitantes,NOUN
+员工识别,employee recognition,reconocimiento de empleados,NOUN
+管理者识别,manager recognition,reconocimiento de gestores,NOUN
+领导识别,leader recognition,reconocimiento de líderes,NOUN
+专家识别,expert recognition,reconocimiento de expertos,NOUN
+学者识别,scholar recognition,reconocimiento de eruditos,NOUN
+研究员识别,researcher recognition,reconocimiento de investigadores,NOUN
+分析师识别,analyst recognition,reconocimiento de analistas,NOUN
+顾问识别,consultant recognition,reconocimiento de consultores,NOUN
+志愿者识别,volunteer recognition,reconocimiento de voluntarios,NOUN
+参与者识别,participant recognition,reconocimiento de participantes,NOUN
+组织者识别,organizer recognition,reconocimiento de organizadores,NOUN
+领导者识别,leader recognition,reconocimiento de líderes,NOUN
+执行者识别,executor recognition,reconocimiento de ejecutores,NOUN
+决策者识别,decision-maker recognition,reconocimiento de decisores,NOUN
+投资者识别,investor recognition,reconocimiento de inversores,NOUN
+消费者识别,consumer recognition,reconocimiento de consumidores,NOUN
+生产者识别,producer recognition,reconocimiento de productores,NOUN
+供应者识别,supplier recognition,reconocimiento de proveedores,NOUN
+购买者识别,buyer recognition,reconocimiento de compradores,NOUN
+销售者识别,seller recognition,reconocimiento de vendedores,NOUN
+服务者识别,server recognition,reconocimiento de servidores,NOUN
+受益者识别,beneficiary recognition,reconocimiento de beneficiarios,NOUN
+受害者识别,victim recognition,reconocimiento de víctimas,NOUN
+创始者识别,founder recognition,reconocimiento de fundadores,NOUN
+继承者识别,successor recognition,reconocimiento de sucesores,NOUN
+追随者识别,follower recognition,reconocimiento de seguidores,NOUN
+支持者识别,supporter recognition,reconocimiento de partidarios,NOUN
+反对者识别,opponent recognition,reconocimiento de oponentes,NOUN
+竞争者识别,competitor recognition,reconocimiento de competidores,NOUN
+合作者识别,collaborator recognition,reconocimiento de colaboradores,NOUN
+协调者识别,coordinator recognition,reconocimiento de coordinadores,NOUN
+调解者识别,mediator recognition,reconocimiento de mediadores,NOUN
+仲裁者识别,arbitrator recognition,reconocimiento de árbitros,NOUN
+监督者识别,supervisor recognition,reconocimiento de supervisores,NOUN
+观察者识别,observer recognition,reconocimiento de observadores,NOUN
+记录者识别,recorder recognition,reconocimiento de registradores,NOUN
+报告者识别,reporter recognition,reconocimiento de reporteros,NOUN
+传播者识别,spreader recognition,reconocimiento de propagadores,NOUN
+接受者识别,receiver recognition,reconocimiento de receptores,NOUN
+传递者识别,transmitter recognition,reconocimiento de transmisores,NOUN
+创造者识别,creator recognition,reconocimiento de creadores,NOUN
+发明者识别,inventor recognition,reconocimiento de inventores,NOUN
+发现者识别,discoverer recognition,reconocimiento de descubridores,NOUN
+探索者识别,explorer recognition,reconocimiento de exploradores,NOUN
+研究者识别,researcher recognition,reconocimiento de investigadores,NOUN
+便利店,convenience store,tienda de conveniencia,NOUN
+百货,department store,grandes almacenes,NOUN
+商场,mall,centro comercial,NOUN
+咖啡馆,cafe,cafetería,NOUN
+酒店,hotel,hotel,NOUN
+旅馆,inn,posada,NOUN
+招待所,guest house,casa de huéspedes,NOUN
+民宿,B&B,casa rural,NOUN
+四合院,courtyard house,casa con patio,NOUN
+阁楼,attic,ático,NOUN
+走廊,corridor,pasillo,NOUN
+楼梯,stairs,escaleras,NOUN
+扶梯,escalator,escalera mecánica,NOUN
+楼梯间,stairwell,tramo de escalera,NOUN
+前门,front door,puerta principal,NOUN
+后门,back door,puerta trasera,NOUN
+侧门,side door,puerta lateral,NOUN
+围墙,wall,muro,NOUN
+篱笆,fence,vallado,NOUN
+草坪,lawn,césped,NOUN
+假山,rockery,rocalla,NOUN
+喷泉,fountain,fuente,NOUN
+游泳池,swimming pool,piscina,NOUN
+瑜伽,yoga,yoga,NOUN
+太极,tai chi,tai chi,NOUN
+拳击,boxing,boxeo,NOUN
+柔道,judo,judo,NOUN
+跆拳道,taekwondo,taekwondo,NOUN
+空手道,karate,karate,NOUN
+剑道,kendo,kendo,NOUN
+射箭,archery,tiro con arco,NOUN
+马术,equestrian,equitación,NOUN
+击剑,fencing,esgrima,NOUN
+体操,gymnastics,gimnasia,NOUN
+跳水,diving,saltos,NOUN
+花样滑冰,figure skating,patinaje artístico,NOUN
+速度滑冰,speed skating,patinaje de velocidad,NOUN
+冰球,ice hockey,juego de hockey sobre hielo,NOUN
+雪橇,sleigh,trineo,NOUN
+滑雪,skiing,esquí,NOUN
+冲浪,surfing,surf,NOUN
+帆船,sailing,vela,NOUN
+赛艇,rowing,remo,NOUN
+皮划艇,kayak,kayak,NOUN
+潜水,diving,buceo,NOUN
+蹦极,bungee jumping,puenting,NOUN
+跳伞,parachuting,paracaidismo,NOUN
+滑翔,gliding,vuelo sin motor,NOUN
+热气球,hot air balloon,globo aerostático,NOUN
+攀岩,rock climbing,escalada,NOUN
+登山,mountaineering,alpinismo,NOUN
+徒步,hiking,senderismo,NOUN
+露营,camping,camping,NOUN
+野营,camping,acampada,NOUN
+烧烤,barbecue,barbacoa,NOUN
+野餐,picnic,picnic,NOUN
+聚餐,dinner party,cena,NOUN
+宴席,banquet,banquete,NOUN
+酒席,wedding feast,banquete de boda,NOUN
+喜酒,wedding wine,vino de boda,NOUN
+满月酒,full moon banquet,banquete de luna llena,NOUN
+寿宴,birthday banquet,banquete de cumpleaños,NOUN
+庆功宴,victory banquet,banquete de victoria,NOUN
+告别宴,farewell banquet,banquete de despedida,NOUN
+欢迎宴,welcome banquet,banquete de bienvenida,NOUN
+答谢宴,appreciation banquet,banquete de agradecimiento,NOUN
+团圆饭,reunion dinner,cena de reunión,NOUN
+年夜饭,New Year's Eve dinner,cena de Nochevieja,NOUN
+汤圆,glutinous rice ball,bola de arroz,NOUN
+粽子,zongzi,zongzi,NOUN
+月饼,mooncake,pastel de luna,NOUN
+年糕,rice cake,pastel de arroz,NOUN
+元宵,yuanxiao,yuanxiao,NOUN
+腊八粥,laba porridge,gachas de laba,NOUN
+青团,green rice ball,bola de arroz verde,NOUN
+馄饨,wonton,wonton,NOUN
+米粉,rice noodles,fideos de arroz,NOUN
+米线,rice vermicelli,fideos finos de arroz,NOUN
+河粉,hefen,hefen,NOUN
+粉丝,glass noodles,fideos de almidón,NOUN
+豆芽,bean sprout,brotes de soja,NOUN
+豆浆,soy milk,leche de soja,NOUN
+豆干,dried tofu,tofu seco,NOUN
+腐竹,tofu skin,piel de tofu,NOUN
+豆豉,fermented bean,judía fermentada,NOUN
+料酒,cooking wine,vino de cocinar,NOUN
+花椒,Sichuan pepper,pimienta de Sichuán,NOUN
+八角,star anise,anís estrellado,NOUN
+桂皮,cinnamon,canela,NOUN
+丁香,clove,clavo,NOUN
+茴香,fennel,hinojo,NOUN
+薄荷,mint,menta,NOUN
+紫苏,perilla,perilla,NOUN
+香菜,cilantro,cilantro,NOUN
+芹菜,celery,apio,NOUN
+韭菜,chive,cebolleta,NOUN
+菠菜,spinach,espinaca,NOUN
+生菜,lettuce,lechuga,NOUN
+白菜,Chinese cabbage,col china,NOUN
+空心菜,water spinach,espinaca de agua,NOUN
+西兰花,broccoli,brócoli,NOUN
+花菜,cauliflower,coliflor,NOUN
+卷心菜,cabbage,repollo,NOUN
+圆白菜,cabbage,repollo,NOUN
+茄子,eggplant,berenjena,NOUN
+番茄,tomato,tomate,NOUN
+冬瓜,winter melon,calabaza blanca,NOUN
+南瓜,pumpkin,calabaza,NOUN
+丝瓜,loofah,estropajo,NOUN
+苦瓜,bitter melon,melón amargo,NOUN
+青椒,green pepper,pimiento verde,NOUN
+红椒,red pepper,pimiento rojo,NOUN
+彩椒,bell pepper,pimiento,NOUN
+蘑菇,mushroom,champiñón,NOUN
+香菇,shiitake,shiitake,NOUN
+金针菇,enoki,enoki,NOUN
+木耳,wood ear,oreja de madera,NOUN
+银耳,snow fungus,hongo blanco,NOUN
+竹笋,bamboo shoot,brotes de bambú,NOUN
+春笋,spring bamboo shoot,brotes de bambú de primavera,NOUN
+冬笋,winter bamboo shoot,brotes de bambú de invierno,NOUN
+大米,rice,arroz,NOUN
+糯米,glutinous rice,arroz glutinoso,NOUN
+燕麦,oats,avena,NOUN
+荞麦,buckwheat,alforfón,NOUN
+小米,millet,mijo,NOUN
+高粱,sorghum,sorgo,NOUN
+红薯,sweet potato,boniato,NOUN
+紫薯,purple sweet potato,boniato morado,NOUN
+山药,yam,ñame,NOUN
+芋头,taro,taro,NOUN
+木薯,cassava,yuca,NOUN
+莲藕,lotus root,raíz de loto,NOUN
+荸荠,water chestnut,castaña de agua,NOUN
+菱角,water caltrop,abrojo de agua,NOUN
+茨菇,arrowhead,sagitaria,NOUN
+桃子,peach,melocotón,NOUN
+李子,plum,ciruela,NOUN
+杏子,apricot,albaricoque,NOUN
+樱桃,cherry,cereza,NOUN
+草莓,strawberry,fresa,NOUN
+蓝莓,blueberry,arándano azul,NOUN
+覆盆子,raspberry,frambuesa,NOUN
+黑莓,blackberry,mora,NOUN
+蔓越莓,cranberry,arándano rojo,NOUN
+桑葚,mulberry,mora,NOUN
+提子,table grape,uva de mesa,NOUN
+橙子,orange,naranja,NOUN
+橘子,tangerine,mandarina,NOUN
+柚子,pomelo,pomelo,NOUN
+柠檬,lemon,limón,NOUN
+青柠,lime,lima,NOUN
+石榴,pomegranate,granada,NOUN
+火龙果,dragon fruit,pitaya,NOUN
+猕猴桃,kiwi,kiwi,NOUN
+牛油果,avocado,aguacate,NOUN
+椰子,coconut,coco,NOUN
+芒果,mango,mango,NOUN
+菠萝,pineapple,piña,NOUN
+榴莲,durian,durian,NOUN
+荔枝,lychee,lichis,NOUN
+龙眼,longan,longan,NOUN
+山竹,mangosteen,mangostán,NOUN
+枇杷,loquat,níspero,NOUN
+杨梅,bayberry,arándano chino,NOUN
+柿子,persimmon,caqui,NOUN
+枣子,jujube,azufaifo,NOUN
+哈密瓜,cantaloupe,cantalupo,NOUN
+香瓜,melon,melón,NOUN
+木瓜,papaya,papaya,NOUN
+芭蕉,plantain,plátano macho,NOUN
+甘蔗,sugarcane,caña de azúcar,NOUN
+葵花籽,sunflower seed,semilla de girasol,NOUN
+南瓜子,pumpkin seed,semilla de calabaza,NOUN
+西瓜子,watermelon seed,semilla de sandía,NOUN
+松子,pine nut,piñón,NOUN
+榛子,hazelnut,avellana,NOUN
+核桃,walnut,nuez,NOUN
+杏仁,almond,almendra,NOUN
+腰果,cashew,anacardo,NOUN
+开心果,pistachio,pistacho,NOUN
+板栗,chestnut,castaña,NOUN
+芝麻,sesame,sésamo,NOUN
+脉搏,pulse,pulso,NOUN
+血压,blood pressure,tensión arterial,NOUN
+血糖,blood sugar,azúcar en sangre,NOUN
+血脂,blood lipid,lípidos en sangre,NOUN
+胆固醇,cholesterol,colesterol,NOUN
+血红蛋白,hemoglobin,hemoglobina,NOUN
+白细胞,white blood cell,leucocito,NOUN
+红细胞,red blood cell,eritrocito,NOUN
+血小板,platelet,plaqueta,NOUN
+血浆,plasma,plasma,NOUN
+淋巴,lymph,linfa,NOUN
+抗体,antibody,anticuerpo,NOUN
+抗原,antigen,antígeno,NOUN
+疫苗,vaccine,vacuna,NOUN
+细菌,bacteria,bacteria,NOUN
+真菌,fungus,hongo,NOUN
+寄生虫,parasite,parásito,NOUN
+蔓延,spread,propagación,NOUN
+扩散,diffuse,difusión,NOUN
+隔离,quarantine,cuarentena,NOUN
+封城,lockdown,confinamiento,NOUN
+戴口罩,wear mask,llevar mascarilla,VERB
+社交距离,social distancing,distanciamiento social,NOUN
+核酸检测,nucleic acid test,prueba de ácido nucleico,NOUN
+抗原检测,antigen test,prueba de antígeno,NOUN
+体温,body temperature,temperatura corporal,NOUN
+发热,fever,fiebre,NOUN
+流鼻涕,runny nose,secreción nasal,NOUN
+鼻塞,stuffy nose,congestión nasal,NOUN
+喉咙痛,sore throat,dolor de garganta,NOUN
+头痛,headache,dolor de cabeza,NOUN
+肚子痛,stomachache,dolor de estómago,NOUN
+牙痛,toothache,dolor de muelas,NOUN
+背痛,backache,dolor de espalda,NOUN
+胸痛,chest pain,dolor de pecho,NOUN
+腹痛,abdominal pain,dolor abdominal,NOUN
+肌肉痛,muscle pain,dolor muscular,NOUN
+关节痛,joint pain,dolor articular,NOUN
+神经痛,nerve pain,dolor nervioso,NOUN
+眩晕,dizziness,vértigo,NOUN
+腹泻,diarrhea,diarrea,NOUN
+便秘,constipation,estreñimiento,NOUN
+嗜睡,drowsiness,somnolencia,NOUN
+虚弱,weakness,debilidad,NOUN
+麻木,numbness,adormecimiento,NOUN
+瘫痪,paralysis,parálisis,NOUN
+痉挛,spasm,espasmo,NOUN
+抽搐,convulsion,convulsión,NOUN
+颤抖,tremor,temblor,NOUN
+出汗,sweat,sudar,VERB
+脱水,dehydration,deshidratación,NOUN
+中暑,heatstroke,golpe de calor,NOUN
+冻伤,frostbite,congelación,NOUN
+烧伤,burn,quemadura,NOUN
+烫伤,scald,escaldadura,NOUN
+割伤,cut,corte,NOUN
+擦伤,abrasion,abrasión,NOUN
+瘀伤,bruise,moretón,NOUN
+扭伤,sprain,esguince,NOUN
+骨折,fracture,fractura,NOUN
+脱臼,dislocation,luxación,NOUN
+出血,bleeding,hemorragia,NOUN
+止血,stop bleeding,detener hemorragia,VERB
+包扎,bandage,vendar,VERB
+消毒,disinfect,desinfectar,VERB
+缝合,stitch,sutura,VERB
+拆线,remove stitches,retirar puntos,VERB
+打石膏,put cast,escayolar,VERB
+拄拐,use crutches,usar muletas,VERB
+坐轮椅,wheelchair,silla de ruedas,NOUN
+住院,hospitalize,hospitalizar,VERB
+出院,leave hospital,alta,NOUN
+转院,transfer hospital,traslado,NOUN
+急诊,emergency,urgencias,NOUN
+门诊,outpatient,consulta externa,NOUN
+住院部,inpatient dept,planta de hospitalización,NOUN
+手术室,operating room,quirófano,NOUN
+重症监护,ICU,UCI,NOUN
+病房,ward,sala,NOUN
+病床,hospital bed,cama de hospital,NOUN
+病历,medical record,historial clínico,NOUN
+处方,prescription,receta,NOUN
+药方,prescription,receta,NOUN
+配药,dispense,dispensar,VERB
+服药,take medicine,tomar medicina,VERB
+输液,IV drip,suero,NOUN
+抽血,draw blood,extracción de sangre,NOUN
+拍片,x-ray,radiografía,NOUN
+CT,CT scan,tomografía,NOUN
+核磁共振,MRI,resonancia magnética,NOUN
+B超,ultrasound,ecografía,NOUN
+心电图,ECG,electrocardiograma,NOUN
+脑电图,EEG,electroencefalograma,NOUN
+胃镜,gastroscopy,gastroscopia,NOUN
+肠镜,colonoscopy,colonoscopia,NOUN
+活检,biopsy,biopsia,NOUN
+穿刺,puncture,punción,NOUN
+支架,stent,stent,NOUN
+搭桥,bypass,bypass,NOUN
+移植,transplant,trasplante,NOUN
+化疗,chemotherapy,quimioterapia,NOUN
+放疗,radiotherapy,radioterapia,NOUN
+靶向治疗,targeted therapy,terapia dirigida,NOUN
+免疫治疗,immunotherapy,inmunoterapia,NOUN
+基因治疗,gene therapy,terapia génica,NOUN
+干细胞,stem cell,célula madre,NOUN
+克隆,clone,clon,NOUN
+染色体,chromosome,cromosoma,NOUN
+DNA,DNA,ADN,NOUN
+RNA,RNA,ARN,NOUN
+蛋白质,protein,proteína,NOUN
+氨基酸,amino acid,aminoácido,NOUN
+酶,enzyme,enzima,NOUN
+激素,hormone,hormona,NOUN
+维生素,vitamin,vitamina,NOUN
+矿物质,mineral,mineral,NOUN
+微量元素,trace element,oligoelemento,NOUN
+抗氧化,antioxidant,antioxidante,NOUN
+益生菌,probiotic,probiótico,NOUN
+新陈代谢,metabolism,metabolismo,NOUN
+光合作用,photosynthesis,fotosíntesis,NOUN
+呼吸作用,respiration,respiración,NOUN
+排泄,excretion,excreción,NOUN
+繁殖,reproduction,reproducción,NOUN
+进化,evolution,evolución,NOUN
+遗传,heredity,herencia,NOUN
+变异,mutation,mutación,NOUN
+灭绝,extinction,extinción,NOUN
+物种,species,especie,NOUN
+种群,population,población,NOUN
+群落,community,comunidad,NOUN
+生态系统,ecosystem,ecosistema,NOUN
+生物多样性,biodiversity,biodiversidad,NOUN
+栖息地,habitat,hábitat,NOUN
+保护区,reserve,reserva,NOUN
+国家公园,national park,parque nacional,NOUN
+濒危,endangered,en peligro de extinción,ADJ
+保育,conservation,conservación,NOUN
+重建,rebuild,reconstruir,VERB
+改造,transform,transformar,VERB
+升级,upgrade,actualizar,VERB
+更新,update,actualizar,VERB
+替换,replace,reemplazar,VERB
+淘汰,eliminate,eliminar,VERB
+废弃,abandon,abandonar,VERB
+消耗,consume,consumir,VERB
+短缺,shortage,escasez,NOUN
+过剩,surplus,excedente,NOUN
+饱和,saturated,saturado,ADJ
+匮乏,depletion,agotamiento,NOUN
+枯竭,exhaust,agotamiento,NOUN
+再生,regenerate,regenerar,VERB
+可持续,sustainable,sostenible,ADJ
+可再生,renewable,renovable,ADJ
+不可再生,non-renewable,no renovable,ADJ
+清洁能源,clean energy,energía limpia,NOUN
+太阳能,solar energy,energía solar,NOUN
+风能,wind energy,energía eólica,NOUN
+水能,hydro energy,energía hidroeléctrica,NOUN
+核能,nuclear energy,energía nuclear,NOUN
+地热,geothermal,geotérmico,ADJ
+潮汐,tidal,mareomotriz,ADJ
+生物质,biomass,biomasa,NOUN
+氢能,hydrogen energy,energía de hidrógeno,NOUN
+化石燃料,fossil fuel,combustible fósil,NOUN
+石油,petroleum,petróleo,NOUN
+页岩气,shale gas,gas de esquisto,NOUN
+可燃冰,flammable ice,hielo combustible,NOUN
+碳排放,carbon emission,emisión de carbono,NOUN
+碳中和,carbon neutral,neutralidad de carbono,NOUN
+碳达峰,carbon peak,pico de carbono,NOUN
+温室气体,greenhouse gas,gas de efecto invernadero,NOUN
+气候变化,climate change,cambio climático,NOUN
+全球变暖,global warming,calentamiento global,NOUN
+海平面上升,sea level rise,subida del nivel del mar,NOUN
+极端天气,extreme weather,tiempo extremo,NOUN
+洪涝,flood,inundación,NOUN
+飓风,hurricane,huracán,NOUN
+龙卷风,tornado,tornado,NOUN
+海啸,tsunami,tsunami,NOUN
+火山,volcano,volcán,NOUN
+泥石流,mudslide,corrimiento de tierra,NOUN
+山体滑坡,landslide,desprendimiento,NOUN
+雪崩,avalanche,alud,NOUN
+沙尘暴,sandstorm,tormenta de arena,NOUN
+雾霾,smog,smog,NOUN
+废水,wastewater,aguas residuales,NOUN
+废气,exhaust,gases de escape,NOUN
+废渣,waste residue,residuos,NOUN
+垃圾分类,waste sorting,separación de residuos,NOUN
+回收利用,recycling,reciclaje,NOUN
+降解,degrade,degradar,VERB
+焚烧,incinerate,incinerar,VERB
+填埋,landfill,vertedero,NOUN
+堆肥,compost,compostaje,NOUN
+环保,environmental protection,protección ambiental,NOUN
+绿色,green,verde,ADJ
+低碳,low carbon,bajo en carbono,ADJ
+节能,energy saving,ahorro de energía,NOUN
+减排,emission reduction,reducción de emisiones,NOUN
+绿化,greening,forestación,NOUN
+植树,plant trees,plantar árboles,VERB
+造林,afforest,reforestar,VERB
+砍伐,deforest,deforestar,VERB
+退耕还林,return farmland to forest,devolver tierras al bosque,NOUN
+水土流失,soil erosion,erosión del suelo,NOUN
+沙漠化,desertification,desertificación,NOUN
+石漠化,rock desertification,desertificación rocosa,NOUN
+盐碱化,salinization,salinización,NOUN
+湿地,wetland,humedal,NOUN
+滩涂,tidal flat,llanura mareal,NOUN
+珊瑚礁,coral reef,arrecife de coral,NOUN
+红树林,mangrove,manglar,NOUN
+热带雨林,rainforest,selva tropical,NOUN
+针叶林,coniferous forest,bosque de coníferas,NOUN
+阔叶林,broadleaf forest,bosque de frondosas,NOUN
+混交林,mixed forest,bosque mixto,NOUN
+原始森林,primeval forest,bosque primario,NOUN
+人工林,plantation,plantación,NOUN
+社区,community,comunidad,NOUN
+社交,social,social,ADJ
+社论,editorial,editorial,NOUN
+社团,association,asociación,NOUN
+社会学家,sociologist,sociólogo,NOUN
+社会科学,social science,ciencias sociales,NOUN
+社会地位,social status,estatus social,NOUN
+社会阶层,social class,clase social,NOUN
+社会问题,social issue,problema social,NOUN
+社会现象,social phenomenon,fenómeno social,NOUN
+社会制度,social system,sistema social,NOUN
+社会保障,social security,seguridad social,NOUN
+社会福利,social welfare,bienestar social,NOUN
+社会保险,social insurance,seguro social,NOUN
+社会公德,social morality,moral social,NOUN
+社会秩序,social order,orden social,NOUN
+社会治安,public security,seguridad pública,NOUN
+社会舆论,public opinion,opinión pública,NOUN
+社会压力,social pressure,presión social,NOUN
+社会责任,social responsibility,responsabilidad social,NOUN
+社会贡献,social contribution,contribución social,NOUN
+社会价值,social value,valor social,NOUN
+社会标准,social standard,norma social,NOUN
+社会规范,social norm,norma social,NOUN
+社会风俗,social custom,costumbre social,NOUN
+社会习惯,social habit,hábito social,NOUN
+社会传统,social tradition,tradición social,NOUN
+社会变革,social change,cambio social,NOUN
+社会进步,social progress,progreso social,NOUN
+社会发展,social development,desarrollo social,NOUN
+社会稳定,social stability,estabilidad social,NOUN
+社会动荡,social turmoil,tumulto social,NOUN
+社会矛盾,social conflict,conflicto social,NOUN
+社会和谐,social harmony,armonía social,NOUN
+社会公平,social fairness,justicia social,NOUN
+社会正义,social justice,justicia social,NOUN
+社会平等,social equality,igualdad social,NOUN
+社会歧视,social discrimination,discriminación social,NOUN
+社会偏见,social prejudice,prejuicio social,NOUN
+社会包容,social inclusion,inclusión social,NOUN
+社会排斥,social exclusion,exclusión social,NOUN
+社会融入,social integration,integración social,NOUN
+社会流动,social mobility,movilidad social,NOUN
+社会分层,social stratification,estratificación social,NOUN
+社会结构,social structure,estructura social,NOUN
+社会组织,social organization,organización social,NOUN
+社会网络,social network,red social,NOUN
+社会关系,social relations,relaciones sociales,NOUN
+社会互动,social interaction,interacción social,NOUN
+社会沟通,social communication,comunicación social,NOUN
+社会协作,social collaboration,colaboración social,NOUN
+社会合作,social cooperation,cooperación social,NOUN
+社会竞争,social competition,competición social,NOUN
+社会冲突,social conflict,conflicto social,NOUN
+社会调解,social mediation,mediación social,NOUN
+社会仲裁,social arbitration,arbitraje social,NOUN
+社会和解,social reconciliation,reconciliación social,NOUN
+社会妥协,social compromise,compromiso social,NOUN
+社会共识,social consensus,consenso social,NOUN
+社会协议,social agreement,acuerdo social,NOUN
+社会契约,social contract,contrato social,NOUN
+社会承诺,social commitment,compromiso social,NOUN
+社会信任,social trust,confianza social,NOUN
+社会信用,social credit,crédito social,NOUN
+社会声誉,social reputation,reputación social,NOUN
+社会形象,social image,imagen social,NOUN
+社会身份,social identity,identidad social,NOUN
+社会角色,social role,papel social,NOUN
+社会期望,social expectation,expectativa social,NOUN
+社会评价,social evaluation,evaluación social,NOUN
+社会认可,social recognition,reconocimiento social,NOUN
+社会接受,social acceptance,aceptación social,NOUN
+社会刻板印象,social stereotype,estereotipo social,NOUN
+社会标签,social label,etiqueta social,NOUN
+社会分类,social classification,clasificación social,NOUN
+社会等级,social hierarchy,jerarquía social,NOUN
+社会不平等,social inequality,desigualdad social,NOUN
+社会权利,social rights,derechos sociales,NOUN
+社会义务,social obligation,obligación social,NOUN
+社会效益,social benefit,beneficio social,NOUN
+社会成本,social cost,coste social,NOUN
+社会后果,social consequence,consecuencia social,NOUN
+社会风险,social risk,riesgo social,NOUN
+社会危机,social crisis,crisis social,NOUN
+社会挑战,social challenge,desafío social,NOUN
+社会机遇,social opportunity,oportunidad social,NOUN
+社会趋势,social trend,tendencia social,NOUN
+社会潮流,social trend,tendencia social,NOUN
+社会时尚,social fashion,moda social,NOUN
+社会风气,social ethos,ambiente social,NOUN
+社会习俗,social custom,costumbre social,NOUN
+社会文化,social culture,cultura social,NOUN
+社会文明,social civilization,civilización social,NOUN
+社会演变,social evolution,evolución social,NOUN
+社会变迁,social change,cambio social,NOUN
+社会转型,social transformation,transformación social,NOUN
+社会改革,social reform,reforma social,NOUN
+社会革命,social revolution,revolución social,NOUN
+社会运动,social movement,movimiento social,NOUN
+社会活动,social activity,actividad social,NOUN
+社会事件,social event,evento social,NOUN
+社会新闻,social news,noticia social,NOUN
+社会评论,social commentary,comentario social,NOUN
+社会批评,social criticism,crítica social,NOUN
+社会建议,social suggestion,sugerencia social,NOUN
+社会倡议,social initiative,iniciativa social,NOUN
+社会呼吁,social appeal,llamamiento social,NOUN
+社会动员,social mobilization,movilización social,NOUN
+社会参与,social participation,participación social,NOUN
+社会行动,social action,acción social,NOUN
+社会实践,social practice,práctica social,NOUN
+社会实验,social experiment,experimento social,NOUN
+社会调查,social survey,encuesta social,NOUN
+社会研究,social research,investigación social,NOUN
+社会分析,social analysis,análisis social,NOUN
+社会评估,social assessment,evaluación social,NOUN
+社会监测,social monitoring,monitoreo social,NOUN
+社会预警,social early warning,alerta social,NOUN
+社会报告,social report,informe social,NOUN
+社会统计,social statistics,estadística social,NOUN
+社会数据,social data,datos sociales,NOUN
+社会信息,social information,información social,NOUN
+社会知识,social knowledge,conocimiento social,NOUN
+社会智慧,social wisdom,sabiduría social,NOUN
+社会经验,social experience,experiencia social,NOUN
+社会教训,social lesson,lección social,NOUN
+社会启示,social insight,perspectiva social,NOUN
+社会反思,social reflection,reflexión social,NOUN
+社会觉悟,social awareness,conciencia social,NOUN
+社会觉醒,social awakening,despertar social,NOUN
+社会启蒙,social enlightenment,ilustración social,NOUN
+社会教育,social education,educación social,NOUN
+社会宣传,social propaganda,propaganda social,NOUN
+社会传播,social dissemination,difusión social,NOUN
+社会推广,social promotion,promoción social,NOUN
+社会普及,social popularization,popularización social,NOUN
+社会创新,social innovation,innovación social,NOUN
+社会创业,social entrepreneurship,emprendimiento social,NOUN
+社会企业,social enterprise,empresa social,NOUN
+社会投资,social investment,inversión social,NOUN
+社会融资,social financing,financiación social,NOUN
+社会基金,social fund,fondo social,NOUN
+社会捐赠,social donation,donación social,NOUN
+社会慈善,social charity,caridad social,NOUN
+社会公益,social public good,bien público social,NOUN
+社会志愿服务,social volunteering,voluntariado social,NOUN
+社会互助,social mutual aid,ayuda mutua social,NOUN
+社会救助,social relief,asistencia social,NOUN
+社会扶贫,social poverty alleviation,reducción de pobreza social,NOUN
+社会帮困,social assistance,asistencia social,NOUN
+社会关爱,social care,cuidado social,NOUN
+社会关怀,social concern,preocupación social,NOUN
+社会温暖,social warmth,calidez social,NOUN
+社会冷漠,social apathy,apatía social,NOUN
+社会怀疑,social skepticism,escepticismo social,NOUN
+社会焦虑,social anxiety,ansiedad social,NOUN
+社会恐惧,social fear,miedo social,NOUN
+社会愤怒,social anger,ira social,NOUN
+社会不满,social discontent,descontento social,NOUN
+社会怨恨,social resentment,resentimiento social,NOUN
+社会仇恨,social hatred,odio social,NOUN
+社会暴力,social violence,violencia social,NOUN
+社会对抗,social confrontation,confrontación social,NOUN
+社会对立,social opposition,oposición social,NOUN
+社会分裂,social division,división social,NOUN
+社会分化,social polarization,polarización social,NOUN
+社会融合,social integration,integración social,NOUN
+社会团结,social solidarity,solidaridad social,NOUN
+社会凝聚,social cohesion,cohesión social,NOUN
+社会协调,social coordination,coordinación social,NOUN
+社会平衡,social balance,equilibrio social,NOUN
+社会安全,social security,seguridad social,NOUN
+社会法治,social rule of law,estado de derecho social,NOUN
+社会民主,social democracy,democracia social,NOUN
+社会自由,social freedom,libertad social,NOUN
+社会人权,social human rights,derechos humanos sociales,NOUN
+社会尊严,social dignity,dignidad social,NOUN
+社会尊重,social respect,respeto social,NOUN
+社会宽容,social tolerance,tolerancia social,NOUN
+社会理解,social understanding,comprensión social,NOUN
+社会同理,social empathy,empatía social,NOUN
+社会支持,social support,apoyo social,NOUN
+社会帮助,social help,ayuda social,NOUN
+芯片,chip,chip,NOUN
+半导体,semiconductor,semiconductor,NOUN
+处理器,processor,procesador,NOUN
+内存,memory,memoria,NOUN
+硬盘,hard drive,disco duro,NOUN
+主板,motherboard,placa base,NOUN
+显卡,graphics card,tarjeta gráfica,NOUN
+声卡,sound card,tarjeta de sonido,NOUN
+网卡,network card,tarjeta de red,NOUN
+电源,power supply,fuente de alimentación,NOUN
+散热器,heatsink,disipador,NOUN
+机箱,case,caja,NOUN
+显示器,monitor,monitor,NOUN
+耳机,headphone,auriculares,NOUN
+音箱,speaker,altavoz,NOUN
+摄像头,webcam,cámara web,NOUN
+打印机,printer,impresora,NOUN
+扫描仪,scanner,escáner,NOUN
+投影仪,projector,proyector,NOUN
+路由器,router,router,NOUN
+交换机,switch,switch,NOUN
+服务器,server,servidor,NOUN
+客户端,client,cliente,NOUN
+浏览器,browser,navegador,NOUN
+操作系统,operating system,sistema operativo,NOUN
+数据库,database,base de datos,NOUN
+云计算,cloud computing,computación en la nube,NOUN
+物联网,IoT,IoT,NOUN
+5G,5G,5G,NOUN
+6G,6G,6G,NOUN
+WiFi,WiFi,WiFi,NOUN
+蓝牙,Bluetooth,Bluetooth,NOUN
+二维码,QR code,código QR,NOUN
+条形码,barcode,código de barras,NOUN
+电子支付,electronic payment,pago electrónico,NOUN
+移动支付,mobile payment,pago móvil,NOUN
+数字货币,digital currency,moneda digital,NOUN
+加密货币,cryptocurrency,criptomoneda,NOUN
+比特币,Bitcoin,Bitcoin,NOUN
+以太坊,Ethereum,Ethereum,NOUN
+智能合约,smart contract,contrato inteligente,NOUN
+去中心化,decentralization,descentralización,NOUN
+元宇宙,metaverse,metaverso,NOUN
+虚拟现实,VR,realidad virtual,NOUN
+增强现实,AR,realidad aumentada,NOUN
+混合现实,MR,realidad mixta,NOUN
+扩展现实,XR,realidad extendida,NOUN
+3D打印,3D printing,impresión 3D,NOUN
+纳米技术,nanotechnology,nanotecnología,NOUN
+生物技术,biotechnology,biotecnología,NOUN
+航天技术,space technology,tecnología espacial,NOUN
+深海技术,deep sea technology,tecnología submarina,NOUN
+极地技术,polar technology,tecnología polar,NOUN
+可再生能源,renewable energy,energía renovable,NOUN
+清洁技术,clean technology,tecnología limpia,NOUN
+绿色技术,green technology,tecnología verde,NOUN
+环保技术,environmental technology,tecnología ambiental,NOUN
+碳捕获,carbon capture,captura de carbono,NOUN
+碳封存,carbon storage,almacenamiento de carbono,NOUN
+碳交易,carbon trading,comercio de carbono,NOUN
+碳税,carbon tax,impuesto al carbono,NOUN
+碳足迹,carbon footprint,huella de carbono,NOUN
+股市,stock market,bolsa,NOUN
+期货,futures,futuros,NOUN
+期权,options,opciones,NOUN
+白银,silver,plata,NOUN
+原油,crude oil,petróleo crudo,NOUN
+铁,iron,hierro,NOUN
+铝,aluminum,aluminio,NOUN
+锌,zinc,zinc,NOUN
+镍,nickel,níquel,NOUN
+锡,tin,estaño,NOUN
+铅,lead,plomo,NOUN
+汞,mercury,mercurio,NOUN
+稀土,rare earth,tierras raras,NOUN
+钻石,diamond,diamante,NOUN
+翡翠,jade,jade,NOUN
+珍珠,pearl,perla,NOUN
+琥珀,amber,ámbar,NOUN
+珊瑚,coral,coral,NOUN
+象牙,ivory,marfil,NOUN
+犀角,rhino horn,cuerno de rinoceronte,NOUN
+皮革,leather,cuero,NOUN
+棉布,cotton,algodón,NOUN
+麻布,linen,lino,NOUN
+羊毛,wool,lana,NOUN
+羊绒,cashmere,cachemir,NOUN
+化纤,synthetic fiber,fibra sintética,NOUN
+涤纶,polyester,poliéster,NOUN
+尼龙,nylon,nilón,NOUN
+氨纶,spandex,elastano,NOUN
+国画,Chinese painting,pintura china,NOUN
+油画,oil painting,pintura al óleo,NOUN
+水彩,watercolor,acuarela,NOUN
+素描,sketch,bosquejo,NOUN
+版画,printmaking,grabado,NOUN
+雕塑,sculpture,escultura,NOUN
+陶艺,ceramics,cerámica,NOUN
+剪纸,paper cutting,recorte de papel,NOUN
+刺绣,embroidery,bordado,NOUN
+编织,weaving,tejido,NOUN
+陶器,pottery,cerámica,NOUN
+瓷器,porcelain,porcelana,NOUN
+漆器,lacquerware,laca,NOUN
+青铜器,bronze ware,bronce,NOUN
+玉器,jade ware,jade,NOUN
+文物,artifact,artefacto,NOUN
+遗产,heritage,patrimonio,NOUN
+遗址,ruins,ruinas,NOUN
+古迹,historical site,sitio histórico,NOUN
+故宫,Forbidden City,Ciudad Prohibida,NOUN
+兵马俑,Terracotta Army,Guerreros de Terracota,NOUN
+敦煌,Dunhuang,Dunhuang,NOUN
+莫高窟,Mogao Caves,Grutas de Mogao,NOUN
+龙门石窟,Longmen Grottoes,Grutas de Longmen,NOUN
+云冈石窟,Yungang Grottoes,Grutas de Yungang,NOUN
+乐山大佛,Leshan Buddha,Buda de Leshan,NOUN
+泰山,Mount Tai,Monte Tai,NOUN
+黄山,Mount Huang,Monte Huang,NOUN
+华山,Mount Hua,Monte Hua,NOUN
+峨眉山,Mount Emei,Monte Emei,NOUN
+九寨沟,Jiuzhaigou,Jiuzhaigou,NOUN
+张家界,Zhangjiajie,Zhangjiajie,NOUN
+桂林,Guilin,Guilin,NOUN
+西湖,West Lake,Lago del Oeste,NOUN
+太湖,Taihu Lake,Lago Tai,NOUN
+鄱阳湖,Poyang Lake,Lago Poyang,NOUN
+洞庭湖,Dongting Lake,Lago Dongting,NOUN
+洪泽湖,Hongze Lake,Lago Hongze,NOUN
+巢湖,Chao Lake,Lago Chao,NOUN
+青海湖,Qinghai Lake,Lago Qinghai,NOUN
+纳木错,Namtso,Namtso,NOUN
+羊卓雍错,Yamdrok Lake,Lago Yamdrok,NOUN
+班公湖,Pangong Lake,Lago Pangong,NOUN
+博斯腾湖,Bosten Lake,Lago Bosten,NOUN
+黄河,Yellow River,Río Amarillo,NOUN
+珠江,Pearl River,Río de las Perlas,NOUN
+黑龙江,Heilongjiang,Río Amur,NOUN
+雅鲁藏布江,Yarlung Tsangpo,Río Yarlung Tsangpo,NOUN
+澜沧江,Lancang River,Río Mekong,NOUN
+怒江,Nu River,Río Nu,NOUN
+金沙江,Jinsha River,Río Jinsha,NOUN
+嘉陵江,Jialing River,Río Jialing,NOUN
+汉江,Han River,Río Han,NOUN
+湘江,Xiang River,Río Xiang,NOUN
+赣江,Gan River,Río Gan,NOUN
+闽江,Min River,Río Min,NOUN
+钱塘江,Qiantang River,Río Qiantang,NOUN
+钢琴,piano,piano,NOUN
+小提琴,violin,violín,NOUN
+大提琴,cello,violonchelo,NOUN
+贝斯,bass,bajo,NOUN
+鼓,drum,batería,NOUN
+笛子,flute,flauta,NOUN
+二胡,erhu,erhu,NOUN
+古筝,guzheng,guzheng,NOUN
+琵琶,pipa,pipa,NOUN
+古琴,guqin,guqin,NOUN
+箫,xiao,xiao,NOUN
+唢呐,suona,suona,NOUN
+笙,sheng,sheng,NOUN
+编钟,bianzhong,bianzhong,NOUN
+锣,gong,gong,NOUN
+钹,cymbal,címbalo,NOUN
+木鱼,wooden fish,pez de madera,NOUN
+越剧,Yue opera,ópera de Yue,NOUN
+黄梅戏,Huangmei opera,ópera de Huangmei,NOUN
+豫剧,Yu opera,ópera de Yu,NOUN
+评剧,Ping opera,ópera de Ping,NOUN
+秦腔,Qinqiang,Qinqiang,NOUN
+川剧,Sichuan opera,ópera de Sichuán,NOUN
+粤剧,Cantonese opera,ópera cantonesa,NOUN
+话剧,stage play,obra de teatro,NOUN
+音乐剧,musical,musical,NOUN
+歌剧,opera,ópera,NOUN
+舞剧,dance drama,drama de danza,NOUN
+芭蕾,ballet,ballet,NOUN
+现代舞,modern dance,danza moderna,NOUN
+街舞,street dance,danza callejera,NOUN
+拉丁舞,Latin dance,danza latina,NOUN
+交谊舞,ballroom dance,baile de salón,NOUN
+广场舞,square dance,baile en plaza,NOUN
+杂技,acrobatics,acrobacia,NOUN
+魔术,magic,magia,NOUN
+马戏,circus,circo,NOUN
+木偶戏,puppet show,teatro de marionetas,NOUN
+皮影戏,shadow play,teatro de sombras,NOUN
+相声,crosstalk,crosstalk,NOUN
+小品,sketch,sketch,NOUN
+脱口秀,talk show,talk show,NOUN
+足球,football,fútbol,NOUN
+篮球,basketball,baloncesto,NOUN
+高尔夫,golf,golf,NOUN
+台球,billiards,billar,NOUN
+保龄球,bowling,bolos,NOUN
+棒球,baseball,béisbol,NOUN
+垒球,softball,softbol,NOUN
+橄榄球,rugby,rugby,NOUN
+曲棍球,hockey,hockey,NOUN
+水球,water polo,waterpolo,NOUN
+手球,handball,balonmano,NOUN
+摔跤,wrestling,lucha libre,NOUN
+举重,weightlifting,halterofilia,NOUN
+田径,track and field,atletismo,NOUN
+花样游泳,synchronized swimming,natación sincronizada,NOUN
+马拉松,marathon,maratón,NOUN
+铁人三项,triathlon,triatlón,NOUN
+现代五项,modern pentathlon,pentatlón moderno,NOUN
+擦拭,wipe,limpiar,VERB
+洗涤,wash,lavar,VERB
+晾晒,dry in sun,secar al sol,VERB
+熨烫,iron,planchar,VERB
+缝补,mend,zurcir,VERB
+裁剪,cut,cortar,VERB
+种植,plant,plantar,VERB
+浇水,water,regar,VERB
+施肥,fertilize,fertilizar,VERB
+修剪,prune,podar,VERB
+采摘,pick,recoger,VERB
+捕鱼,fish,pescar,VERB
+狩猎,hunt,cazar,VERB
+饲养,raise,criar,VERB
+放牧,graze,pastorear,VERB
+挤奶,milk,ordeñar,VERB
+剪毛,shear,esquilar,VERB
+屠宰,slaughter,sacrificar,VERB
+腌制,pickle,escabechar,VERB
+晾干,air dry,secar al aire,VERB
+烘干,bake dry,secar al horno,VERB
+冷冻,freeze,congelar,VERB
+解冻,thaw,descongelar,VERB
+加热,heat,calentar,VERB
+煮沸,boil,hervir,VERB
+蒸煮,steam,cocer al vapor,VERB
+烘烤,bake,hornear,VERB
+煎炒,stir fry,saltear,VERB
+炖煮,stew,estofar,VERB
+焖烧,braise,brasear,VERB
+调味,season,condimentar,VERB
+打哈欠,yawn,bostezar,VERB
+打嗝,burp,eructar,VERB
+放屁,fart,peerse,VERB
+流眼泪,tear up,llorar,VERB
+流汗,sweat,sudar,VERB
+流血,bleed,sangrar,VERB
+流脓,fester,supurar,VERB
+思路,train of thought,hilo de pensamiento,NOUN
+果断,decisive,decidido,ADJ
+动摇,wavering,vacilante,ADJ
+执着,persistent,persistente,ADJ
+退让,yield,ceder,VERB
+进取,forge ahead,avanzar,VERB
+拼搏,struggle,luchar,VERB
+鲁莽,reckless,temerario,ADJ
+温和,gentle,amable,ADJ
+暴躁,irritable,irritable,ADJ
+镇定,composed,sereno,ADJ
+从容,unruffled,tranquilo,ADJ
+疲惫,exhausted,exhausto,ADJ
+萎靡,dejected,abatido,ADJ
+振作,cheer up,animarse,VERB
+颓废,decadent,decadente,ADJ
+消极,negative,negativo,ADJ
+内向,introverted,introvertido,ADJ
+孤僻,eccentric,excéntrico,ADJ
+合群,sociable,sociable,ADJ
+友善,friendly,amistoso,ADJ
+敌对,hostile,hostil,ADJ
+冷漠,indifferent,indiferente,ADJ
+疏远,distant,distante,ADJ
+生疏,unfamiliar,poco familiar,ADJ
+谴责,condemn,condenar,VERB
+认可,endorse,respaldar,VERB
+排斥,exclude,excluir,VERB
+包容,include,incluir,VERB
+鄙视,despise,despreciar,VERB
+藐视,scorn,desdeñar,VERB
+敬仰,admire,admirar,VERB
+蔑视,contemn,despreciar,VERB
+爱戴,love and esteem,amar y estimar,VERB
+憎恨,hate,odiar,VERB
+憎恶,abhor,aborrecer,VERB
+铭记,engrave in mind,grabar en la mente,VERB
+挥霍,squander,dilapidar,VERB
+透支,overdraw,descubrirse,VERB
+结余,surplus,excedente,NOUN
+赤字,deficit,déficit,NOUN
+盈利,profit,beneficio,NOUN
+收支,income and expense,ingresos y gastos,NOUN
+账目,account,cuenta,NOUN
+账单,bill,factura,NOUN
+凭单,voucher,vale,NOUN
+汇票,draft,giro,NOUN
+本票,promissory note,pagaré,NOUN
+信用证,letter of credit,carta de crédito,NOUN
+押金,deposit,fianza,NOUN
+红利,dividend,dividendo,NOUN
+佣金,commission,comisión,NOUN
+回扣,kickback,soborno,NOUN
+小费,tip,propina,NOUN
+津贴,allowance,asignación,NOUN
+补贴,subsidy,subsidio,NOUN
+补助,grant,subvención,NOUN
+救济,relief,asistencia,NOUN
+慈善,charity,caridad,NOUN
+捐赠,donation,donación,NOUN
+赞助,sponsorship,patrocinio,NOUN
+集资,fundraising,recaudación,NOUN
+筹资,raise funds,captación de fondos,NOUN
+募捐,solicit donations,colecta,NOUN
+众筹,crowdfunding,crowdfunding,NOUN
+众包,crowdsourcing,crowdsourcing,NOUN
+外包,outsourcing,externalización,NOUN
+内包,insourcing,internalización,NOUN
+众创,mass innovation,innovación masiva,NOUN
+创客,maker,maker,NOUN
+极客,geek,geek,NOUN
+黑客,hacker,hacker,NOUN
+创客空间,makerspace,makerspace,NOUN
+孵化器,incubator,incubadora,NOUN
+加速器,accelerator,aceleradora,NOUN
+创业园,startup park,parque de startups,NOUN
+科技园,science park,parque científico,NOUN
+产业园,industrial park,parque industrial,NOUN
+开发区,development zone,zona de desarrollo,NOUN
+保税区,bonded zone,zona franca,NOUN
+自贸区,free trade zone,zona de libre comercio,NOUN
+特区,special zone,zona especial,NOUN
+新区,new district,nuevo distrito,NOUN
+高新区,high-tech zone,zona de alta tecnología,NOUN
+经济技术开发区,economic development zone,zona de desarrollo económico,NOUN
+杰出,distinguished,distinguido,ADJ
+平庸,mediocre,mediocre,ADJ
+低劣,inferior,inferior,ADJ
+精良,fine,fino,ADJ
+粗糙,rough,áspero,ADJ
+精致,delicate,delicado,ADJ
+简陋,crude,rústico,ADJ
+节俭,frugal,frugal,ADJ
+昂贵,expensive,caro,ADJ
+廉价,cheap,barato,ADJ
+珍贵,precious,precioso,ADJ
+稀有,rare,raro,ADJ
+常见,common,común,ADJ
+普通,ordinary,ordinario,ADJ
+非典型,atypical,atípico,ADJ
+非标,non-standard,no estándar,ADJ
+非正式,informal,informal,ADJ
+民间,folk,popular,ADJ
+前卫,avant-garde,vanguardista,ADJ
+激进,radical,radical,ADJ
+稳健,steady,firme,ADJ
+脆弱,fragile,frágil,ADJ
+柔软,soft,suave,ADJ
+敏捷,agile,ágil,ADJ
+迟缓,sluggish,lento,ADJ
+缓慢,slow,lento,ADJ
+高效,efficient,eficiente,ADJ
+低效,inefficient,ineficiente,ADJ
+精准,precise,preciso,ADJ
+清晰,clear,claro,ADJ
+混乱,chaotic,caótico,ADJ
+有序,orderly,ordenado,ADJ
+无序,disorderly,desordenado,ADJ
+零散,scattered,disperso,ADJ
+残缺,incomplete,incompleto,ADJ
+偏颇,biased,sesgado,ADJ
+偏袒,partial,parcial,ADJ
+失衡,imbalanced,desequilibrado,ADJ
+融合,integrated,integrado,ADJ
+连接,connected,conectado,ADJ
+断开,disconnected,desconectado,ADJ
+无关,irrelevant,irrelevante,ADJ
+迥异,different,diferente,ADJ
+同等,equal,igual,ADJ
+不等,unequal,desigual,ADJ
+不对称,asymmetrical,asimétrico,ADJ
+不均,uneven,desigual,ADJ
+不稳定,unstable,inestable,ADJ
+流动,mobile,móvil,ADJ
+静态,static,estático,ADJ
+被动,passive,pasivo,ADJ
+正面,positive,positivo,ADJ
+负面,negative,negativo,ADJ
+建设性,constructive,constructivo,ADJ
+破坏性,destructive,destructivo,ADJ
+创造性,creative,creativo,ADJ
+模仿性,imitative,imitativo,ADJ
+创新性,innovative,innovador,ADJ
+保守性,conservative,conservador,ADJ
+进步性,progressive,progresivo,ADJ
+退步性,regressive,regresivo,ADJ
+革命性,revolutionary,revolucionario,ADJ
+改良型,reformist,reformista,ADJ
+颠覆性,disruptive,disruptivo,ADJ
+渐进性,incremental,incremental,ADJ
+突破性,breakthrough,innovador,ADJ
+渐进式,gradual,gradual,ADJ
+跳跃式,leapfrog,salto,ADJ
+渐进,progressive,progresivo,ADJ
+飞跃,leap,salto,NOUN
+应对,cope with,hacer frente,VERB
+ confronting,confront,confrontar,VERB
+山川,mountains and rivers,montañas y ríos,NOUN
+半岛,peninsula,península,NOUN
+海峡,strait,estrecho,NOUN
+海湾,gulf,golfo,NOUN
+海港,seaport,puerto,NOUN
+船坞,shipyard,astillero,NOUN
+灯塔,lighthouse,faro,NOUN
+航标,beacon,baliza,NOUN
+锚地,anchorage,fondeadero,NOUN
+泊位,berth,amarre,NOUN
+船闸,lock,esclusa,NOUN
+水坝,dam,presa,NOUN
+水闸,sluice,compuerta,NOUN
+水渠,aqueduct,acueducto,NOUN
+水井,well,pozo,NOUN
+泉水,spring water,agua de manantial,NOUN
+矿泉,mineral spring,manantial mineral,NOUN
+温泉,hot spring,aguas termales,NOUN
+江河,river,río,NOUN
+沼泽,swamp,pantano,NOUN
+戈壁,gobi,gobi,NOUN
+荒原,wasteland,páramo,NOUN
+牧场,pasture,pasto,NOUN
+林地,woodland,bosque,NOUN
+密林,dense forest,bosque denso,NOUN
+疏林,sparse forest,bosque ralo,NOUN
+竹林,bamboo forest,bosque de bambú,NOUN
+松林,pine forest,pinar,NOUN
+杉林,fir forest,abetal,NOUN
+果园,orchard,huerto,NOUN
+茶园,tea garden,plantación de té,NOUN
+葡萄园,vineyard,viñedo,NOUN
+菜园,vegetable garden,huerta,NOUN
+苗圃,nursery,vivero,NOUN
+花圃,flower nursery,vivero de flores,NOUN
+温室,greenhouse,invernadero,NOUN
+大棚,polytunnel,túnel de polietileno,NOUN
+田地,field,campo,NOUN
+农田,farmland,tierras agrícolas,NOUN
+耕地,arable land,tierra cultivable,NOUN
+荒地,wasteland, tierra baldía,NOUN
+空地,vacant lot,solar,NOUN
+工地,construction site,obra,NOUN
+场地,venue,recinto,NOUN
+运动场,sports field,campo deportivo,NOUN
+体育场,stadium,estadio,NOUN
+游泳馆,natatorium,piscina cubierta,NOUN
+溜冰场,ice rink,pista de hielo,NOUN
+滑雪场,ski resort,estación de esquí,NOUN
+高尔夫球场,golf course,campo de golf,NOUN
+赛马场,racetrack,hipódromo,NOUN
+赛车场,racetrack,autódromo,NOUN
+射击场,shooting range,campo de tiro,NOUN
+训练场,training ground,campo de entrenamiento,NOUN
+演习场,drill ground,campo de maniobras,NOUN
+试验场,testing ground,campo de pruebas,NOUN
+实验场,experimental site,sitio experimental,NOUN
+实习场,practice site,sitio de prácticas,NOUN
+考勤,attendance,asistencia,NOUN
+考核,assessment,evaluación,NOUN
+考查,investigate,investigar,VERB
+考察,inspect,inspeccionar,VERB
+测试,test,prueba,NOUN
+检测,detect,detectar,VERB
+检验,inspect,inspeccionar,VERB
+验证,verify,verificar,VERB
+认证,certify,certificar,VERB
+鉴证,notarize,notarizar,VERB
+举证,provide evidence,aportar pruebas,VERB
+取证,collect evidence,recoger pruebas,VERB
+采证,gather evidence,recopilar pruebas,VERB
+查证,verify,comprobar,VERB
+落实,implement,implementar,VERB
+证实,confirm,confirmar,VERB
+证伪,falsify,falsificar,VERB
+申报,declare,declarar,VERB
+备案,file,registrar,VERB
+记载,document,documentar,VERB
+案卷,case file,expediente,NOUN
+卷宗,file,expediente,NOUN
+档案室,archive room,sala de archivo,NOUN
+资料室,reference room,sala de consulta,NOUN
+阅览室,reading room,sala de lectura,NOUN
+会议室,meeting room,sala de reuniones,NOUN
+接待室,reception room,sala de recepción,NOUN
+休息室,lounge,sala de descanso,NOUN
+候诊室,waiting room,sala de espera,NOUN
+候机室,departure lounge,sala de embarque,NOUN
+候车室,waiting hall,sala de espera,NOUN
+贵宾室,VIP room,sala VIP,NOUN
+更衣室,locker room,vestuario,NOUN
+衣帽间,cloakroom,guardarropa,NOUN
+储藏室,storage room,trastero,NOUN
+杂物间,utility room,cuarto de utility,NOUN
+工具间,tool room,cuarto de herramientas,NOUN
+配电室,switch room,sala de distribución,NOUN
+控制室,control room,sala de control,NOUN
+监控室,monitoring room,sala de monitorización,NOUN
+操作室,operation room,sala de operaciones,NOUN
+调度室,dispatch room,sala de despacho,NOUN
+指挥室,command room,sala de mando,NOUN
+作战室,war room,sala de guerra,NOUN
+情报室,intelligence room,sala de inteligencia,NOUN
+参谋室,staff room,sala de estado mayor,NOUN
+作战参谋,combat staff,estado mayor,NOUN
+参谋长,chief of staff,jefe de estado mayor,NOUN
+总参谋长,chief of general staff,jefe del estado mayor,NOUN
+司令员,commander,comandante,NOUN
+总司令,commander-in-chief,comandante en jefe,NOUN
+元帅,marshal,mariscal,NOUN
+中校,lieutenant colonel,teniente coronel,NOUN
+少尉,second lieutenant,alférez,NOUN
+上士,staff sergeant,sargento primero,NOUN
+下士,corporal,cabo,NOUN
+新兵,recruit,recluta,NOUN
+老兵,veteran,veterano,NOUN
+战友,comrade in arms,compañero de armas,NOUN
+烈士,martyr,mártir,NOUN
+模范,model,modelo,NOUN
+榜样,example,ejemplo,NOUN
+典范,paradigm,paradigma,NOUN
+楷模,exemplar,ejemplar,NOUN
+标兵,pace-setter,abanderado,NOUN
+先锋,vanguard,vanguardia,NOUN
+先遣,advance guard,avanzadilla,NOUN
+前哨,outpost,puesto avanzado,NOUN
+哨所,sentry post,puesto de guardia,NOUN
+岗哨,sentry,centinela,NOUN
+哨兵,sentry,centinela,NOUN
+卫兵,guard,guardia,NOUN
+警卫,guard,guardia,NOUN
+保镖,bodyguard,guardaespaldas,NOUN
+门卫,doorman,portero,NOUN
+门房,porter,conserje,NOUN
+前台,reception,recepción,NOUN
+迎宾,welcome,bienvenida,NOUN
+导览,guide,guía,NOUN
+领队,team leader,jefe de equipo,NOUN
+组长,group leader,jefe de grupo,NOUN
+班长,class monitor,delegado,NOUN
+课长,section chief,jefe de sección,NOUN
+部长,minister,ministro,NOUN
+司长,department director,director general,NOUN
+厅长,department head,director,NOUN
+省长,governor,gobernador,NOUN
+县长,county magistrate,gobernador,NOUN
+区长,district head,jefe de distrito,NOUN
+镇长,town mayor,alcalde,NOUN
+乡长,township head,jefe de municipio,NOUN
+村长,village head,alcalde pedáneo,NOUN
+里长,neighborhood head,jefe de barrio,NOUN
+春季,spring season,primavera,NOUN
+夏季,summer season,verano,NOUN
+秋季,autumn season,otoño,NOUN
+冬季,winter season,invierno,NOUN
+月份,month,mes,NOUN
+周次,week number,semana,NOUN
+千年,millennium,milenio,NOUN
+万年,ten thousand years,diez mil años,NOUN
+初期,initial stage,etapa inicial,NOUN
+中期,middle stage,etapa intermedia,NOUN
+末期,final stage,etapa final,NOUN
+早期,early stage,etapa temprana,NOUN
+晚期,late stage,etapa tardía,NOUN
+前期,early phase,fase inicial,NOUN
+前夕,eve,víspera,NOUN
+黎明,dawn,amanecer,NOUN
+拂晓,daybreak,alba,NOUN
+清晨,early morning,madrugada,NOUN
+早晨,morning,mañana,NOUN
+黄昏,dusk,crepúsculo,NOUN
+日落,sunset,puesta de sol,NOUN
+日暮,sundown,ocaso,NOUN
+深夜,late night,madrugada,NOUN
+子夜,midnight,medianoche,NOUN
+通宵,all night,toda la noche,NOUN
+彻夜,all night,toda la noche,NOUN
+整夜,whole night,toda la noche,NOUN
+连夜,overnight,toda la noche,NOUN
+趁夜,by night,de noche,NOUN
+昼夜,day and night,día y noche,NOUN
+白昼,daytime,día,NOUN
+白天,daytime,día,NOUN
+整天,all day,todo el día,NOUN
+整日,all day long,todo el día,NOUN
+终日,all day long,todo el día,NOUN
+每日,daily,diario,NOUN
+日日,day by day,día a día,NOUN
+日复一日,day after day,día tras día,NOUN
+年复一年,year after year,año tras año,NOUN
+逐年,year by year,año tras año,NOUN
+按年,annually,anualmente,NOUN
+按月,monthly,mensualmente,NOUN
+按周,weekly,semanalmente,NOUN
+按日,daily,diariamente,NOUN
+按天,daily,diariamente,NOUN
+按小时,hourly,por hora,NOUN
+适时,at the right time,a su tiempo,ADJ
+合时,well-timed,bien programado,ADJ
+过时,outdated,anticuado,ADJ
+届时,at the appointed time,en su momento,NOUN
+暂定,tentative,provisional,ADJ
+暂缓,postpone,aplazar,VERB
+暂停,pause,pausar,VERB
+截止,deadline,fecha límite,NOUN
+到期,expire,caducar,VERB
+逾期,overdue,vencido,ADJ
+展期,extension,prórroga,NOUN
+顺延,postpone,posponer,VERB
+延后,put off,posponer,VERB
+预先,beforehand,previamente,NOUN
+提早,early,temprano,ADJ
+赶早,early,temprano,ADJ
+趁早,as early as possible,cuanto antes,NOUN
+迟早,sooner or later,tarde o temprano,NOUN
+早晚,sooner or later,tarde o temprano,NOUN
+终将,eventually,eventualmente,NOUN
+终归,eventually,al final,NOUN
+终究,after all,al fin y al cabo,NOUN
+欣慰,gratified,satisfecho,ADJ
+宽慰,comforted,consolado,ADJ
+慰藉,solace,consuelo,NOUN
+宽心,relief,alivio,NOUN
+忧虑,anxious,ansioso,ADJ
+焦急,anxious,ansioso,ADJ
+烦躁,irritable,irritable,ADJ
+易怒,short-tempered,irascible,ADJ
+恼怒,annoyed,molesto,ADJ
+愤慨,indignant,indignado,ADJ
+义愤,righteous anger,indignación,NOUN
+悲愤,grief and anger,indignación dolorosa,NOUN
+气愤,indignant,indignado,ADJ
+愤懑,resentful,resentido,ADJ
+怨恨,resentment,resentimiento,NOUN
+抵触,resistance,resistencia,NOUN
+抗拒,resist,resistir,VERB
+抵制,boycott,boicot,VERB
+示威,demonstrate,manifestar,VERB
+游行,parade,desfile,NOUN
+集会,assembly,asamblea,NOUN
+派对,party,fiesta,NOUN
+酒会,reception,cóctel,NOUN
+茶话会,tea party,merienda,NOUN
+座谈会,symposium,coloquio,NOUN
+研讨会,seminar,seminario,NOUN
+报告会,report meeting, conferencia,NOUN
+交流会,exchange meeting,intercambio,NOUN
+洽谈会,trade fair,feria comercial,NOUN
+展销会,trade fair,feria,NOUN
+展览会,exhibition,exposición,NOUN
+拍卖会,auction,subasta,NOUN
+竞标会,bidding,licitación,NOUN
+招标会,tender,licitación,NOUN
+开标会,bid opening,apertura de ofertas,NOUN
+评标会,bid evaluation,evaluación de ofertas,NOUN
+定标会,award meeting,adjudicación,NOUN
+签约仪式,signing ceremony,ceremonia de firma,NOUN
+开幕仪式,opening ceremony,ceremonia de apertura,NOUN
+闭幕仪式,closing ceremony,ceremonia de clausura,NOUN
+颁奖典礼,award ceremony,ceremonia de entrega,NOUN
+启动仪式,launch ceremony,ceremonia de lanzamiento,NOUN
+奠基仪式,groundbreaking,colocación primera piedra,NOUN
+竣工仪式,completion ceremony,ceremonia de finalización,NOUN
+落成典礼,inauguration,inauguración,NOUN
+揭幕仪式,unveiling ceremony,ceremonia de develación,NOUN
+剪彩仪式,ribbon-cutting,inauguración,NOUN
+捐赠仪式,donation ceremony,ceremonia de donación,NOUN
+交接仪式,handover ceremony,ceremonia de entrega,NOUN
+退役仪式,decommissioning,retirada de servicio,NOUN
+退伍仪式,discharge ceremony,licenciamiento,NOUN
+入伍仪式,enlistment ceremony,incorporación,NOUN
+授勋仪式,medal ceremony,imposición de condecoración,NOUN
+授衔仪式,rank ceremony,ascenso,NOUN
+晋升仪式,promotion ceremony,ascenso,NOUN
+加冕仪式,coronation,coronación,NOUN
+登基仪式,enthronement,entronización,NOUN
+即位仪式,accession,accesión,NOUN
+退位仪式,abdication,abdicación,NOUN
+葬礼,funeral,funeral,NOUN
+纪念日,anniversary,aniversario,NOUN
+假日,holiday,día festivo,NOUN
+年假,annual leave,vacaciones anuales,NOUN
+病假,sick leave,baja por enfermedad,NOUN
+事假,personal leave,permiso personal,NOUN
+婚假,marriage leave,permiso por matrimonio,NOUN
+产假,maternity leave,permiso por maternidad,NOUN
+陪产假,paternity leave,permiso por paternidad,NOUN
+丧假,bereavement leave,permiso por duelo,NOUN
+调休,compensatory leave,permiso compensatorio,NOUN
+补休,makeup leave,permiso compensatorio,NOUN
+轮休,rotating leave,descanso rotativo,NOUN
+当班,on shift,de turno,NOUN
+加点,extra hours,horas adicionales,NOUN
+轮班,shift work,trabajo por turnos,NOUN
+倒班,shift change,cambio de turno,NOUN
+换班,shift swap,cambio de turno,NOUN
+替班,cover a shift,sustituir,VERB
+顶班,fill in,sustituir,VERB
+代班,substitute,sustituir,VERB
+衣柜,wardrobe,armario,NOUN
+书桌,desk,escritorio,NOUN
+餐桌,dining table,mesa de comedor,NOUN
+茶几,coffee table,mesa de centro,NOUN
+床头柜,nightstand,mesa de noche,NOUN
+梳妆台,dressing table,tocador,NOUN
+鞋柜,shoe cabinet,zapatero,NOUN
+橱柜,cupboard,armario,NOUN
+碗柜,cupboard,alacena,NOUN
+衣帽架,coat rack,perchero,NOUN
+伞架,umbrella stand,paragüero,NOUN
+花瓶,vase,jarrón,NOUN
+相框,photo frame,marco de fotos,NOUN
+挂钟,wall clock,reloj de pared,NOUN
+闹钟,alarm clock,despertador,NOUN
+怀表,pocket watch,reloj de bolsillo,NOUN
+秒表,stopwatch,cronómetro,NOUN
+台灯,desk lamp,lámpara de mesa,NOUN
+落地灯,floor lamp,lámpara de pie,NOUN
+壁灯,wall lamp,lámpara de pared,NOUN
+吊灯,chandelier,lámpara de techo,NOUN
+吸顶灯,ceiling light,luz de techo,NOUN
+射灯,spotlight,foco,NOUN
+筒灯,downlight, downlight,NOUN
+灯带,light strip,tira de luces,NOUN
+灯泡,lightbulb,bombilla,NOUN
+灯管,fluorescent tube,tubo fluorescente,NOUN
+灯丝,filament,filamento,NOUN
+灯罩,lampshade,pantalla,NOUN
+开关,switch,interruptor,NOUN
+插座,socket,enchufe,NOUN
+插头,plug,clavija,NOUN
+电线,wire,cable,NOUN
+电缆,cable,cable,NOUN
+光缆,fiber optic cable,cable de fibra,NOUN
+网线,network cable,cable de red,NOUN
+电话线,phone line,línea telefónica,NOUN
+收音机,radio,radio,NOUN
+音响,stereo,equipo de música,NOUN
+功放,amplifier,amplificador,NOUN
+话筒,microphone,micrófono,NOUN
+扩音器,megaphone,megáfono,NOUN
+电铃,doorbell,timbre,NOUN
+门铃,doorbell,timbre,NOUN
+门锁,door lock,cerradura,NOUN
+门把手,door handle,manilla,NOUN
+门链,door chain,cadena de puerta,NOUN
+门镜,peephole,mirilla,NOUN
+百叶窗,blinds,persianas,NOUN
+卷帘,roller blind,estor,NOUN
+纱窗,screen window,mosquitera,NOUN
+窗玻璃,window glass,cristal,NOUN
+窗框,window frame,marco,NOUN
+窗台,windowsill,alféizar,NOUN
+窗帘杆,curtain rod,barra de cortina,NOUN
+地垫,floor mat,alfombrilla,NOUN
+门垫,doormat,felpudo,NOUN
+浴垫,bath mat,alfombra de baño,NOUN
+浴巾,bath towel,toalla de baño,NOUN
+面巾,face towel,toalla de cara,NOUN
+手帕,handkerchief,pañuelo,NOUN
+纸巾,tissue,pañuelo de papel,NOUN
+湿巾,wet wipe,toallita húmeda,NOUN
+餐巾,napkin,servilleta,NOUN
+餐巾纸,paper napkin,servilleta de papel,NOUN
+卫生纸,toilet paper,papel higiénico,NOUN
+卫生巾,sanitary pad,compresa,NOUN
+尿布,diaper,pañal,NOUN
+纸尿裤,disposable diaper,pañal desechable,NOUN
+奶瓶,baby bottle,biberón,NOUN
+奶嘴,pacifier,chupete,NOUN
+积木,building blocks,bloques,NOUN
+拼图,puzzle,rompecabezas,NOUN
+玩偶,doll,muñeco,NOUN
+毛绒玩具,plush toy,peluche,NOUN
+遥控车,RC car,coche teledirigido,NOUN
+模型,model,modelo,NOUN
+手办,figure,figura,NOUN
+乐器,instrument,instrumento,NOUN
+唱机,record player,toca discos,NOUN
+U盘,USB drive,memoria USB,NOUN
+固态硬盘,SSD,SSD,NOUN
+移动硬盘,external drive,disco duro externo,NOUN
+影碟,video disc,disco de video,NOUN
+胶卷,film roll,rollo de película,NOUN
+相册,photo album,álbum de fotos,NOUN
+记事本,memo pad,libreta,NOUN
+便签,sticky note,nota adhesiva,NOUN
+信纸,letter paper,papel de carta,NOUN
+邮票,stamp,sello,NOUN
+邮戳,postmark,matasellos,NOUN
+邮筒,mailbox,buzón,NOUN
+快递,express delivery,mensajería,NOUN
+寄件,send mail,envío,NOUN
+收件,receive mail,recepción,NOUN
+签收,sign for,firmar recepción,VERB
+退回,return,devolver,VERB
+退货,return goods,devolución,NOUN
+换货,exchange,cambio,NOUN
+退款,refund,reembolso,NOUN
+报销,reimburse,reembolsar,VERB
+报账,file expense,justificar gastos,VERB
+买单,pay bill,pagar,VERB
+找零,give change,devolver cambio,VERB
+纸币,banknote,billete,NOUN
+钞票,banknote,billete,NOUN
+外币,foreign currency,moneda extranjera,NOUN
+本币,domestic currency,moneda nacional,NOUN
+换汇,exchange currency,cambiar divisas,VERB
+结汇,settle exchange,liquidar divisas,VERB
+售汇,sell exchange,vender divisas,VERB
+购汇,buy exchange,comprar divisas,VERB
+付汇,remit exchange,remitir divisas,VERB
+收汇,receive exchange,recibir divisas,VERB
+晴天,sunny day,día soleado,NOUN
+阴天,cloudy day,día nublado,NOUN
+雨天,rainy day,día lluvioso,NOUN
+雪天,snowy day,día nevado,NOUN
+风天,windy day,día ventoso,NOUN
+雾天,foggy day,día con niebla,NOUN
+暴风雨,storm,tormenta,NOUN
+雷阵雨,thundershower,tormenta eléctrica,NOUN
+毛毛雨,drizzle,llovizna,NOUN
+大雨,heavy rain,lluvia fuerte,NOUN
+小雨,light rain,lluvia ligera,NOUN
+中雨,moderate rain,lluvia moderada,NOUN
+暴雨,rainstorm,tormenta,NOUN
+阵雨,shower,chubasco,NOUN
+冻雨,freezing rain,lluvia helada,NOUN
+雪花,snowflake,copo de nieve,NOUN
+大雪,heavy snow,nevada fuerte,NOUN
+小雪,light snow,nevada ligera,NOUN
+中雪,moderate snow,nevada moderada,NOUN
+暴雪,blizzard,tormenta de nieve,NOUN
+雨夹雪,sleet,aguanieve,NOUN
+大雾,heavy fog,niebla densa,NOUN
+薄雾,mist,bruma,NOUN
+浓雾,thick fog,niebla espesa,NOUN
+沙尘,sand and dust,arena y polvo,NOUN
+扬沙,blowing sand,arena en suspensión,NOUN
+浮尘,floating dust,polvo flotante,NOUN
+气旋,cyclone,ciclón,NOUN
+反气旋,anticyclone,anticiclón,NOUN
+低气压,low pressure,baja presión,NOUN
+高气压,high pressure,alta presión,NOUN
+气压,air pressure,presión atmosférica,NOUN
+气温,temperature,temperatura,NOUN
+湿度,humidity,humedad,NOUN
+风向,wind direction,dirección del viento,NOUN
+风力,wind force,fuerza del viento,NOUN
+风速,wind speed,velocidad del viento,NOUN
+降水量,precipitation,precipitación,NOUN
+能见度,visibility,visibilidad,NOUN
+紫外线,UV,UV,NOUN
+日出,sunrise,amanecer,NOUN
+月相,moon phase,fase lunar,NOUN
+涨潮,high tide,pleamar,NOUN
+退潮,low tide,bajamar,NOUN
+风暴潮,storm surge,sobreelevación,NOUN
+寒潮,cold wave,ola de frío,NOUN
+热浪,heat wave,ola de calor,NOUN
+倒春寒,late spring cold,frío tardío,NOUN
+秋老虎,autumn heat,veranillo,NOUN
+梅雨,plum rain,lluvia de ciruelo,NOUN
+回南天,return south weather,humedad del sur,NOUN
+公交车,bus,autobús,NOUN
+长途车,coach,autobús de larga distancia,NOUN
+大巴,bus,autobús,NOUN
+中巴,minibus,microbús,NOUN
+面包车,van,furgoneta,NOUN
+货车,truck,camión,NOUN
+皮卡,pickup,camioneta,NOUN
+轿车,car,coche,NOUN
+跑车,sports car,deportivo,NOUN
+越野车,SUV,SUV,NOUN
+房车,motorhome,autocaravana,NOUN
+网约车,ride-hailing,VTC,NOUN
+专车,private car,coche privado,NOUN
+快车,express car,coche exprés,NOUN
+顺风车,carpool,coche compartido,NOUN
+拼车,carpool,coche compartido,NOUN
+代驾,designated driver,conductor designado,NOUN
+自驾,self-drive,conducir,VERB
+租车,car rental,alquiler de coche,NOUN
+还车,return car,devolver coche,VERB
+取车,pick up car,recoger coche,VERB
+送车,deliver car,entregar coche,VERB
+停车位,parking space,plaza de aparcamiento,NOUN
+地下车库,underground garage,garaje subterráneo,NOUN
+立体车库,multi-level garage,garaje automático,NOUN
+路边停车,street parking,aparcamiento en calle,NOUN
+禁停区,no parking zone,zona de no aparcamiento,NOUN
+限行,traffic restriction,restricción de tráfico,NOUN
+限号,license plate limit,restricción de matrícula,NOUN
+单行道,one-way street,calle de sentido único,NOUN
+双行道,two-way street,calle de doble sentido,NOUN
+国道,national road,carretera nacional,NOUN
+省道,provincial road,carretera provincial,NOUN
+县道,county road,carretera comarcal,NOUN
+乡道,township road,camino rural,NOUN
+村道,village road,camino vecinal,NOUN
+匝道,ramp,rampa,NOUN
+辅路,service road,vía de servicio,NOUN
+主路,main road,carretera principal,NOUN
+支路,branch road,ramal,NOUN
+环岛,roundabout,rotonda,NOUN
+十字路口,intersection,intersección,NOUN
+丁字路口,T-junction,cruce en T,NOUN
+斑马线,crosswalk,paso de cebra,NOUN
+人行道,sidewalk,acera,NOUN
+自行车道,bike lane,ciclocarril,NOUN
+盲道,tactile paving,pavimento táctil,NOUN
+天桥,pedestrian bridge,pasarela,NOUN
+地下通道,underpass,paso subterráneo,NOUN
+过街隧道,pedestrian tunnel,túnel peatonal,NOUN
+红绿灯,traffic light,semáforo,NOUN
+路标,road sign,señal de tráfico,NOUN
+指示牌,direction sign,señal direccional,NOUN
+警示牌,warning sign,señal de advertencia,NOUN
+禁令牌,prohibition sign,señal de prohibición,NOUN
+限速牌,speed limit sign,señal de límite de velocidad,NOUN
+测速,speed check,control de velocidad,NOUN
+超速,speeding,exceso de velocidad,NOUN
+违章,violation,infracción,NOUN
+扣分,deduct points,restar puntos,VERB
+吊销,revoke,revocar,VERB
+驾照,driver's license,permiso de conducir,NOUN
+行驶证,vehicle registration,permiso de circulación,NOUN
+车牌,license plate,matrícula,NOUN
+车险,car insurance,seguro de coche,NOUN
+年检,annual inspection,inspección anual,NOUN
+维修,repair,reparación,NOUN
+洗车,car wash,lavado de coche,NOUN
+充电,charge,cargar,VERB
+换胎,change tire,cambiar neumático,VERB
+补胎,patch tire,parchear neumático,VERB
+充气,inflate,inflar,VERB
+打气,pump air,inflar,VERB
+爆胎,blowout,pinchazo,NOUN
+漏气,leak air,fuga de aire,NOUN
+胎压,tire pressure,presión de neumático,NOUN
+胎纹,tire tread,banda de rodadura,NOUN
+备胎,spare tire,rueda de repuesto,NOUN
+轮毂,hub,llanta,NOUN
+马达,motor,motor,NOUN
+变速箱,gearbox,caja de cambios,NOUN
+离合器,clutch,embrague,NOUN
+手刹,handbrake,freno de mano,NOUN
+油门,accelerator,acelerador,NOUN
+方向盘,steering wheel,volante,NOUN
+后视镜,rearview mirror,retrovisor,NOUN
+雨刷,wiper,limpiaparabrisas,NOUN
+车灯,headlight,faro,NOUN
+大灯,headlight,faro,NOUN
+尾灯,taillight,piloto trasero,NOUN
+雾灯,fog light,luz de niebla,NOUN
+转向灯,turn signal,intermitente,NOUN
+双闪,hazard light,luces de emergencia,NOUN
+倒车灯,backup light,luz de marcha atrás,NOUN
+仪表盘,dashboard,salpicadero,NOUN
+里程表,odometer,cuentakilómetros,NOUN
+转速表,tachometer,tacómetro,NOUN
+油表,fuel gauge,indicador de combustible,NOUN
+温度表,temperature gauge,indicador de temperatura,NOUN
+小学,elementary school,escuela primaria,NOUN
+初中,middle school,escuela secundaria,NOUN
+高中,high school,bachillerato,NOUN
+研究生院,graduate school,posgrado,NOUN
+职业学院,vocational college,escuela de formación profesional,NOUN
+技术学校,technical school,escuela técnica,NOUN
+师范学校,normal school,escuela de magisterio,NOUN
+美术学校,art school,escuela de arte,NOUN
+音乐学校,music school,escuela de música,NOUN
+舞蹈学校,dance school,escuela de danza,NOUN
+体育学校,sports school,escuela deportiva,NOUN
+外语学校,foreign language school,escuela de idiomas,NOUN
+国际学校,international school,escuela internacional,NOUN
+私立学校,private school,escuela privada,NOUN
+公立学校,public school,escuela pública,NOUN
+寄宿学校,boarding school,colegio interno,NOUN
+走读学校,day school,escuela de día,NOUN
+夜校,night school,escuela nocturna,NOUN
+函授,correspondence course,curso por correspondencia,NOUN
+电大,TV university,universidad a distancia,NOUN
+网课,online class,clase en línea,NOUN
+直播课,live class,clase en directo,NOUN
+录播课,recorded class,clase grabada,NOUN
+公开课,open class,clase abierta,NOUN
+必修课,required course,asignatura obligatoria,NOUN
+选修课,elective course,asignatura optativa,NOUN
+专业课,major course,asignatura troncal,NOUN
+公共课,general course,asignatura general,NOUN
+基础课,foundation course,asignatura básica,NOUN
+核心课,core course,asignatura principal,NOUN
+先修课,prerequisite,asignatura previa,NOUN
+辅修课,minor course,asignatura secundaria,NOUN
+主修,major,especialidad,NOUN
+双学位,double degree,doble titulación,NOUN
+本科学位,bachelor's degree,licenciatura,NOUN
+硕士学位,master's degree,máster,NOUN
+博士学位,doctoral degree,doctorado,NOUN
+博士后,postdoc,posdoctorado,NOUN
+交流生,exchange student,estudiante de intercambio,NOUN
+入学,enroll,matricularse,VERB
+退学,drop out,abandonar,VERB
+转学,transfer,trasladarse,VERB
+休学,take leave,suspender estudios,VERB
+复学,resume studies,reanudar estudios,VERB
+留级,repeat a year,repetir curso,VERB
+跳级,skip a grade,saltar curso,VERB
+保送,recommend,recomendar,VERB
+自荐,self-recommend,autocandidatura,NOUN
+他荐,other-recommend,recomendación,NOUN
+推免,exempt from exam,exención de examen,NOUN
+统考,unified exam,examen unificado,NOUN
+联考,joint exam,examen conjunto,NOUN
+会考,graduation exam,examen de graduación,NOUN
+高考,college entrance exam,selectividad,NOUN
+中考,high school entrance exam,examen de ingreso,NOUN
+期末考,final exam,examen final,NOUN
+期中考,midterm exam,examen parcial,NOUN
+月考,monthly exam,examen mensual,NOUN
+周测,weekly test,examen semanal,NOUN
+模拟考,mock exam,examen simulacro,NOUN
+真题,past papers,exámenes anteriores,NOUN
+模拟题,mock questions,preguntas simulacro,NOUN
+练习题,practice questions,ejercicios,NOUN
+课后题,homework,deberes,NOUN
+课后作业,homework,deberes,NOUN
+课堂作业,classwork,trabajo en clase,NOUN
+小组作业,group work,trabajo en grupo,NOUN
+个人作业,individual work,trabajo individual,NOUN
+项目作业,project work,proyecto,NOUN
+毕业论文,graduation thesis,trabajo de fin de grado,NOUN
+学位论文,dissertation,tesis doctoral,NOUN
+期刊论文,journal paper,artículo de revista,NOUN
+会议论文,conference paper,ponencia,NOUN
+项目报告,project report,informe de proyecto,NOUN
+环境报告,environmental report,informe ambiental,NOUN
+安全报告,safety report,informe de seguridad,NOUN
+进度报告,progress report,informe de progreso,NOUN
+陈述,statement,declaración,NOUN
+阐述,expound,exposición,NOUN
+论述,discourse,discurso,NOUN
+论证,argumentation,argumentación,NOUN
+辩驳,refute,refutación,NOUN
+质疑,question,cuestionar,VERB
+答疑,answer questions,responder dudas,NOUN
+解惑,resolve doubts,resolver dudas,VERB
+释疑,clarify,aclarar,VERB
+释怀,let go,superar,VERB
+开导,guide,orientar,VERB
+劝导,persuade,persuadir,VERB
+诱导,induce,inducir,VERB
+误导,mislead,inducir a error,VERB
+教导,instruct,instruir,VERB
+补习,cramming,repaso,NOUN
+进修,further study,perfeccionamiento,NOUN
+深造,advanced study,especialización,NOUN
+游学,study tour,viaje de estudios,NOUN
+互访,mutual visit,visita mutua,NOUN
+拜访,call on,visita,NOUN
+回访,return visit,visita de respuesta,NOUN
+造访,visit,visita,NOUN
+探访,visit,visita,NOUN
+探望,visit,visitar,VERB
+看望,visit,visitar,VERB
+致意,greet,saludo,NOUN
+致敬,pay tribute,homenaje,NOUN
+致谢,thank,agradecimiento,NOUN
+致歉,apologize,disculpa,NOUN
+致哀,condole,condolencia,NOUN
+致贺,congratulate,felicita,NOUN
+道贺,congratulate,felicitar,VERB
+贺喜,congratulate,felicitar,VERB
+道喜,congratulate,felicitar,VERB
+庆贺,congratulate,felicitar,VERB
+欢庆,jubilant,jubiloso,ADJ
+欢聚,gather happily,reunión alegre,NOUN
+欢送,send off,despedida,NOUN
+接风,welcome,bienvenida,NOUN
+践行,farewell,despedida,NOUN
+饯行,farewell dinner,cena de despedida,NOUN
+送别,see off,despedir,VERB
+辞行,take leave,despedirse,VERB
+辞别,take leave,despedirse,VERB
+诀别,part forever,despedida para siempre,NOUN
+永别,part forever,despedida eterna,NOUN
+推论,inference,inferencia,NOUN
+演绎,deduce,deducir,VERB
+推理,reasoning,razonamiento,NOUN
+辨认,recognize,reconocer,VERB
+认出,recognize,reconocer,VERB
+优化,optimize,optimizar,VERB
+替代,substitute,sustituir,VERB
+取代,replace,reemplazar,VERB
+购买,purchase,comprar,VERB
+推销,promote,promover,VERB
+普及,popularize,popularizar,VERB
+传输,transmit,transmitir,VERB
+输送,transport,transportar,VERB
+运送,deliver,entregar,VERB
+投递,deliver,entregar,VERB
+派送,deliver,entregar,VERB
+寄送,mail,enviar,VERB
+邮寄,mail,enviar por correo,VERB
+发货,ship,enviar,VERB
+收货,receive,recibir,VERB
+验货,inspect goods,inspeccionar,VERB
+补货,restock,reabastecer,VERB
+进货,stock up,abastecerse,VERB
+出货,ship out,despachar,VERB
+库存,inventory,inventario,NOUN
+存货,stock,existencias,NOUN
+现货,in stock,disponible,ADJ
+定金,deposit,depósito,NOUN
+全款,full payment,pago total,NOUN
+分期,installment,plazos,NOUN
+按揭,mortgage,hipoteca,NOUN
+还款,repay,amortizar,VERB
+通货,currency,moneda,NOUN
+货币,currency,moneda,NOUN
+汇款,remittance,giro,NOUN
+转账,transfer,transferencia,NOUN
+存款,deposit,depósito,NOUN
+取款,withdraw,retirar,VERB
+开户,open account,abrir cuenta,VERB
+销户,close account,cerrar cuenta,VERB
+挂失,report loss,denunciar pérdida,VERB
+补办,reissue,reemitir,VERB
+更改,change,cambiar,VERB
+变更,change,cambiar,VERB
+变换,transform,transformar,VERB
+转让,transfer,ceder,VERB
+移交,hand over,traspasar,VERB
+交接,handover,entrega,NOUN
+接收,receive,recibir,VERB
+验收,accept,aceptar,VERB
+指派,assign,asignar,VERB
+指定,designate,designar,VERB
+解聘,dismiss,despedir,VERB
+辞退,fire,despedir,VERB
+辞呈,resignation,renuncia,NOUN
+卸任,leave office,dejar el cargo,VERB
+离任,leave office,dejar el cargo,VERB
+连任,re-elect,reelección,NOUN
+章程,charter,estatuto,NOUN
+条例,regulation,reglamento,NOUN
+法案,bill,proyecto de ley,NOUN
+法令,decree,decreto,NOUN
+政令,order,orden,NOUN
+指令,directive,directiva,NOUN
+指示,instruction,instrucción,NOUN
+批示,instruction,instrucción,NOUN
+约定,agree,acordar,VERB
+商定,agree,acordar,VERB
+洽谈,negotiate,negociar,VERB
+会谈,talks,conversaciones,NOUN
+相聚,gather,reunirse,VERB
+聚集,gather,reunirse,VERB
+阻挠,obstruct,obstruir,VERB
+障碍,obstacle,obstáculo,NOUN
+逆境,adversity,adversidad,NOUN
+顺境,favorable,circunstancia favorable,NOUN
+机遇,opportunity,oportunidad,NOUN
+时机,timing,momento,NOUN
+情境,situation,situación,NOUN
+路径,path,ruta,NOUN
+路线,route,ruta,NOUN
+缘由,reason,razón,NOUN
+根基,foundation,fundamento,NOUN
+要点,key point,punto clave,NOUN
+焦点,focus,foco,NOUN
+中部,middle part,parte media,NOUN
+外部,exterior,exterior,NOUN
+上部,upper part,parte superior,NOUN
+下部,lower part,parte inferior,NOUN
+前部,front part,parte delantera,NOUN
+后部,rear part,parte trasera,NOUN
+左侧,left side,lado izquierdo,NOUN
+右侧,right side,lado derecho,NOUN
+内侧,inner side,lado interior,NOUN
+外侧,outer side,lado exterior,NOUN
+左面,left,izquierda,NOUN
+右面,right,derecha,NOUN
+里面,inside,dentro,NOUN
+四周,surroundings,alrededores,NOUN
+边界,border,frontera,NOUN
+视角,perspective,perspectiva,NOUN
+见解,insight,perspectiva,NOUN
+提议,proposal,propuesta,NOUN
+推崇,esteem,estimar,VERB
+赞赏,appreciate,apreciar,VERB
+钦佩,admire,admirar,VERB
+敬佩,respect,respetar,VERB
+迷信,superstition,superstición,NOUN
+信条,creed,credo,NOUN
+教条,dogma,dogma,NOUN
+信义,good faith,buena fe,NOUN
+诚信,integrity,integridad,NOUN
+信用,credit,crédito,NOUN
+凭借,by means of,mediante,NOUN
+依照,in accordance,de acuerdo con,NOUN
+遵照,comply with,cumplir,VERB
+遵循,follow,seguir,VERB
+顺从,submit to,someterse a,VERB
+听从,listen to,hacer caso,VERB
+依从,comply with,cumplir,VERB
+遵从,follow,seguir,VERB
+遵命,obey orders,obedecer órdenes,VERB
+奉命,by order,por orden,NOUN
+受命,receive orders,recibir órdenes,VERB
+领命,accept orders,aceptar órdenes,VERB
+复命,report back,informar,VERB
+交差,report completion,informar finalización,VERB
+交汇,converge,converger,VERB
+交集,intersection,intersección,NOUN
+交界,border,frontera,NOUN
+交替,alternate,alternar,VERB
+更替,replace,reemplazar,VERB
+更换,replace,reemplazar,VERB
+代换,substitute,sustituir,VERB
+换代,generation change,cambio de generación,NOUN
+更新换代,renewal,renovación,NOUN
+推陈出新,innovate,innovar,VERB
+破旧立新,destroy old establish new,romper lo viejo crear lo nuevo,VERB
+除旧布新,remove old install new,eliminar lo viejo instalar lo nuevo,VERB
+革故鼎新,reform,reforma,VERB
+温故知新,review old to know new,repasar lo viejo para aprender lo nuevo,VERB
+承前启后,inherit past inspire future,heredar el pasado inspirar el futuro,VERB
+继往开来,carry forward,seguir adelante,VERB
+承上启下,connect above and below,conectar arriba y abajo,VERB
+前赴后继,advance wave upon wave,avanzar en oleadas,VERB
+前仆后继,fall and rise,caer y levantarse,VERB
+薪火相传,pass on,transmitir,VERB
+代代相传,pass down generations,transmitir de generación en generación,VERB
+世世代代,generations,generaciones,NOUN
+绸缎,silk,seda,NOUN
+绫罗,silk,seda,NOUN
+锦绣,brocade,brocado,NOUN
+纺织,textile,textil,NOUN
+缝纫,sewing,costura,NOUN
+裁缝,tailor,sastre,NOUN
+洗熨,wash and iron,lavar y planchar,NOUN
+干洗,dry clean,limpieza en seco,NOUN
+水洗,wash,lavado,NOUN
+手洗,hand wash,lavado a mano,NOUN
+机洗,machine wash,lavado a máquina,NOUN
+免烫,non-iron,sin planchar,ADJ
+防皱,wrinkle-free,antiarrugas,ADJ
+防水,waterproof,impermeable,ADJ
+防风,windproof,cortavientos,ADJ
+防晒,sunproof,protección solar,ADJ
+防尘,dustproof,antipolvo,ADJ
+防潮,moistureproof,antihumedad,ADJ
+防霉,moldproof,antimoho,ADJ
+防腐,antiseptic,antiséptico,ADJ
+防锈,rustproof,antioxidante,ADJ
+防滑,non-slip,antideslizante,ADJ
+防震,shockproof,antigolpes,ADJ
+防爆,explosion-proof,antideflagrante,ADJ
+防火,fireproof,ignífugo,ADJ
+防静电,anti-static,antiestático,ADJ
+防辐射,radiation-proof,antirradiación,ADJ
+防紫外线,UV-proof,anti-UV,ADJ
+防蚊,mosquito-proof,antimosquitos,ADJ
+防虫,insect-proof,antiinsectos,ADJ
+防鼠,rat-proof,antirratones,ADJ
+防腐剂,preservative,conservante,NOUN
+防冻剂,antifreeze,anticongelante,NOUN
+防锈剂,rust inhibitor,inhibidor de oxidación,NOUN
+阻燃剂,flame retardant,retardante de llama,NOUN
+干燥剂,desiccant,desecante,NOUN
+清洁剂,cleaner,limpiador,NOUN
+消毒剂,disinfectant,desinfectante,NOUN
+杀菌剂,bactericide,bactericida,NOUN
+除草剂,herbicide,herbicida,NOUN
+杀虫剂,insecticide,insecticida,NOUN
+农药,pesticide,pesticida,NOUN
+有机肥,organic fertilizer,fertilizante orgánico,NOUN
+复合肥,compound fertilizer,fertilizante compuesto,NOUN
+叶面肥,foliar fertilizer,fertilizante foliar,NOUN
+基肥,base fertilizer,fertilizante de base,NOUN
+追肥,top dressing,abono de cobertura,NOUN
+播种,sow,sembrar,VERB
+育苗,grow seedlings,cultivar plántulas,VERB
+移栽,transplant,transplantar,VERB
+定植,plant out,plantar,VERB
+嫁接,graft,injertar,VERB
+扦插,cutting,esqueje,NOUN
+压条,layering,acodo,NOUN
+分株,divide,división,NOUN
+杂交,crossbreed,híbrido,NOUN
+育种,breeding,cría,NOUN
+选种,seed selection,selección de semillas,NOUN
+留种,save seeds,guardar semillas,VERB
+采种,collect seeds,recolectar semillas,VERB
+收割,harvest,cosecha,NOUN
+脱粒,threshing,trilla,NOUN
+碾磨,milling,molienda,NOUN
+筛选,screening,criba,NOUN
+分级,grading,calibrado,NOUN
+批发,wholesale,mayoreo,NOUN
+零售,retail,minorista,NOUN
+直销,direct sales,venta directa,NOUN
+代销,consignment,consignación,NOUN
+经销,distribution,distribución,NOUN
+经纪,broker,correduría,NOUN
+拍卖,auction,subasta,NOUN
+竞标,bidding,licitación,NOUN
+招标,tendering,licitación pública,NOUN
+投标,submit bid,presentar oferta,VERB
+中标,win bid,adjudicar,VERB
+落标,lose bid,no adjudicar,VERB
+评标,evaluate bid,evaluar oferta,VERB
+定标,award,adjudicación,NOUN
+开标,open bid,apertura de ofertas,NOUN
+废标,cancel bid,anular oferta,VERB
+流标,fail bid,licitación desierta,NOUN
+围标,bid rigging,connivencia,NOUN
+串标,collusion,colusión,NOUN
+假标,fake bid,oferta falsa,NOUN
+中标价,winning price,precio adjudicado,NOUN
+底价,reserve price,precio de salida,NOUN
+报价,quotation,presupuesto,NOUN
+估价,appraisal,tasación,NOUN
+估值,valuation,valoración,NOUN
+评级,rating,calificación,NOUN
+排名,ranking,clasificación,NOUN
+排位,position,posición,NOUN
+等级,grade,grado,NOUN
+级别,level,nivel,NOUN
+档位,tier,categoría,NOUN
+档次,grade,categoría,NOUN
+品位,grade,calidad,NOUN
+品味,taste,gusto,NOUN
+品格,character,carácter,NOUN
+品性,nature,naturaleza,NOUN
+品类,category,categoría,NOUN
+品牌,brand,marca,NOUN
+标识,logo,logotipo,NOUN
+标记,mark,marca,NOUN
+标签,label,etiqueta,NOUN
+贴标,labeling,etiquetado,NOUN
+吊牌,hang tag,etiqueta colgante,NOUN
+铭牌,nameplate,placa,NOUN
+门牌,house number,número de puerta,NOUN
+号牌,number plate,placa de número,NOUN
+胸牌,badge,placa identificadora,NOUN
+工牌,employee badge,credencial,NOUN
+校牌,school badge,credencial escolar,NOUN
+勋章,medal,medalla,NOUN
+奖章,medal,medalla,NOUN
+奖牌,medal,medalla,NOUN
+奖杯,trophy,trofeo,NOUN
+奖状,certificate,certificado,NOUN
+凭证,voucher,comprobante,NOUN
+凭据,evidence,prueba,NOUN
+证物,exhibit,prueba material,NOUN
+证言,testimony,testimonio,NOUN
+笔供,written confession,confesión escrita,NOUN
+书证,documentary evidence,prueba documental,NOUN
+物证,physical evidence,prueba material,NOUN
+人证,witness,testigo,NOUN
+见证,witness,testigo,NOUN
+目击,eyewitness,testigo ocular,NOUN
+亲历,personally experience,vivir personalmente,VERB
+亲见,personally see,ver personalmente,VERB
+亲闻,personally hear,oír personalmente,VERB
+阅历,experience,experiencia,NOUN
+资历,qualifications,cualificaciones,NOUN
+履历,resume,currículum,NOUN
+自传,autobiography,autobiografía,NOUN
+回忆录,memoir,memorias,NOUN
+日志,log,registro,NOUN
+博客,blog,blog,NOUN
+微博,microblog,microblog,NOUN
+帖子,post,publicación,NOUN
+评论,comment,comentario,NOUN
+留言,message,mensaje,NOUN
+私信,direct message,mensaje privado,NOUN
+群聊,group chat,chat grupal,NOUN
+单聊,private chat,chat privado,NOUN
+语音,voice,voz,NOUN
+视频,video,vídeo,NOUN
+直播,livestream,emisión en directo,NOUN
+录播,recorded broadcast,emisión grabada,NOUN
+点播,on demand,bajo demanda,NOUN
+回放,playback,reproducción,NOUN
+回看,rewatch,ver de nuevo,VERB
+快进,fast forward,avance rápido,VERB
+快退,rewind,rebobinar,VERB
+播放,play,reproducir,VERB
+录制,record,grabar,VERB
+拍摄,shoot,filmar,VERB
+照相,photograph,fotografíar,VERB
+自拍,selfie,selfie,NOUN
+证件照,ID photo,foto de carnet,NOUN
+生活照,life photo,foto casual,NOUN
+艺术照,art photo,foto artística,NOUN
+婚纱照,wedding photo,foto de boda,NOUN
+毕业照,graduation photo,foto de graduación,NOUN
+全家福,family portrait,retrato familiar,NOUN
+风景照,landscape photo,foto de paisaje,NOUN
+建筑照,architecture photo,foto de arquitectura,NOUN
+夜景,night view,vista nocturna,NOUN
+月色,moonlight,luz de luna,NOUN
+星空,starry sky,cielo estrellado,NOUN
+银河,galaxy,galaxia,NOUN
+北极星,North Star,Estrella Polar,NOUN
+北斗七星,Big Dipper,Osa Mayor,NOUN
+星座,constellation,constelación,NOUN
+黄道,zodiac,zodiaco,NOUN
+生肖,zodiac animal,animal zodiacal,NOUN
+属相,zodiac sign,signo zodiacal,NOUN
+八字,eight characters,ocho caracteres,NOUN
+算命,fortune telling,adivinación,NOUN
+占卜,divination,adivinación,NOUN
+风水,feng shui,feng shui,NOUN
+相术,physiognomy,fisionomía,NOUN
+面相,face reading,lectura del rostro,NOUN
+手相,palm reading,lectura de palma,NOUN
+测字,character divination,adivinación de caracteres,NOUN
+解梦,dream interpretation,interpretación de sueños,NOUN
+圆梦,interpret dream,interpretar sueño,VERB
+托梦,dream message,mensaje onírico,NOUN
+美梦,sweet dream,sueño dulce,NOUN
+梦幻,dreamlike,de ensueño,ADJ
+格言,maxim,máxima,NOUN
+箴言,proverb,proverbio,NOUN
+谚语,proverb,refrán,NOUN
+俗语,saying,dicho,NOUN
+典故,allusion,alusión,NOUN
+童话,fairy tale,cuento de hadas,NOUN
+散文,prose,prosa,NOUN
+诗歌,poetry,poesía,NOUN
+歌词,lyrics,letra,NOUN
+台词,lines,diálogo,NOUN
+标题,title,título,NOUN
+书名,book title,título del libro,NOUN
+篇名,article title,título del artículo,NOUN
+章名,chapter title,título del capítulo,NOUN
+节名,section title,título de sección,NOUN
+卷名,volume title,título del volumen,NOUN
+集名,episode title,título del episodio,NOUN
+栏目,column,columna,NOUN
+专栏,special column,columna especial,NOUN
+专辑,album,álbum,NOUN
+选集,anthology,antología,NOUN
+全集,complete works,obras completas,NOUN
+文集,collection,colección,NOUN
+诗集,poetry collection,antología poética,NOUN
+画集,art collection,catálogo de arte,NOUN
+影集,photo album,álbum de fotos,NOUN
+特刊,special issue,número especial,NOUN
+增刊,supplement,suplemento,NOUN
+副刊,supplement,suplemento,NOUN
+周刊,weekly,semanal,NOUN
+月刊,monthly,mensual,NOUN
+季刊,quarterly,trimestral,NOUN
+年刊,annual,anuario,NOUN
+日报,daily,diario,NOUN
+晚报,evening paper,diario vespertino,NOUN
+晨报,morning paper,diario matutino,NOUN
+周报,weekly paper,semanario,NOUN
+月报,monthly report,informe mensual,NOUN
+年报,annual report,informe anual,NOUN
+季报,quarterly report,informe trimestral,NOUN
+快报,bulletin,boletín,NOUN
+简报,briefing,informe breve,NOUN
+预警,early warning,alerta,NOUN
+警报,alarm,alarma,NOUN
+空袭,air raid,ataque aéreo,NOUN
+防空,air defense,defensa antiaérea,NOUN
+避难,take refuge,refugiarse,VERB
+疏散,evacuate,evacuar,VERB
+撤离,withdraw,retirar,VERB
+救灾,disaster relief,ayuda humanitaria,NOUN
+赈灾,relief,socorro,NOUN
+捐款,donate money,donación,NOUN
+捐物,donate goods,donación de bienes,NOUN
+献血,donate blood,donar sangre,VERB
+义工,volunteer,voluntario,NOUN
+社工,social worker,trabajador social,NOUN
+护工,carer,cuidador,NOUN
+月嫂,maternity matron,matrona,NOUN
+缜密,meticulous,meticuloso,ADJ
+密实,dense,denso,ADJ
+浓密,thick,espeso,ADJ
+茂密,dense,denso,ADJ
+繁密,dense,denso,ADJ
+细密,fine,fino,ADJ
+精密,precise,preciso,ADJ
+确切,exact,exacto,ADJ
+确凿,conclusive,concluyente,ADJ
+鲜明,distinct,distinto,ADJ
+显著,notable,notable,ADJ
+显眼,conspicuous,llamativo,ADJ
+显而易见,obvious,evidente,ADJ
+彰明较著,obvious,evidente,ADJ
+彰明,clear,claro,ADJ
+昭彰,manifest,manifiesto,ADJ
+昭著,notorious,notorio,ADJ
+昭示,declare,declarar,VERB
+昭告,proclaim,proclamar,VERB
+宣告,declare,declarar,VERB
+宣称,claim,afirmar,VERB
+宣读,read out,leer en voz alta,VERB
+宣讲,lecture,conferencia,NOUN
+宣导,promote,promover,VERB
+献策,offer advice,aconsejar,VERB
+建言,offer advice,aconsejar,VERB
+献计,offer plan,planear,VERB
+出谋,offer strategy,estrategia,NOUN
+划策,plan,planear,VERB
+出谋划策,give advice,aconsejar,VERB
+运筹,strategize,estrategia,NOUN
+运筹帷幄,strategize,planear estrategia,VERB
+决胜,win,ganar,VERB
+决胜千里,win from afar,ganar a distancia,VERB
+筹谋,plan,planear,VERB
+谋划,plan,planear,VERB
+策划,plan,planear,VERB
+筹划,prepare,preparar,VERB
+筹备,prepare,preparar,VERB
+筹办,organize,organizar,VERB
+筹措,raise,recaudar,VERB
+筹集,raise,recaudar,VERB
+筹款,fundraise,recaudar dinero,VERB
+募款,fundraise,recaudar,VERB
+募集,recruit,reclutar,VERB
+招募,recruit,reclutar,VERB
+招兵,recruit soldiers,reclutar soldados,VERB
+招兵买马,recruit,reclutar,VERB
+招贤,recruit talent,reclutar talento,VERB
+招贤纳士,recruit talent,reclutar talento,VERB
+纳谏,accept advice,aceptar consejo,VERB
+从谏,follow advice,seguir consejo,VERB
+从善,follow good,seguir el bien,VERB
+从善如流,follow good,seguir el bien,VERB
+择善,choose good,elegir el bien,VERB
+择善而从,choose good,elegir el bien,VERB
+择优,choose best,elegir lo mejor,VERB
+择优录用,hire best,contratar lo mejor,VERB
+择期,choose date,elegir fecha,VERB
+择日,choose date,elegir día,VERB
+择时,choose time,elegir hora,VERB
+择机,choose opportunity,elegir oportunidad,VERB
+伺机,wait for opportunity,esperar oportunidad,VERB
+待机,standby,en espera,VERB
+待命,await orders,esperar órdenes,VERB
+候命,await orders,esperar órdenes,VERB
+听命,obey orders,obedecer órdenes,VERB
+从命,obey,obedecer,VERB
+交命,hand over life,entregar vida,VERB
+拼命,risk life,arriesgar vida,VERB
+舍命,sacrifice life,sacrificar vida,VERB
+卖命,work hard,trabajar duro,VERB
+效命,serve,servir,VERB
+效忠,pledge allegiance,jurar lealtad,VERB
+效仿,imitate,imitar,VERB
+效法,emulate,emular,VERB
+效尤,imitate bad,imitar lo malo,VERB
+仿效,imitate,imitar,VERB
+仿制,copy,copiar,VERB
+仿造,forge,falsificar,VERB
+造假,fake,falsificar,VERB
+掺假,adulterate,adulterar,VERB
+作假,fake,falsificar,VERB
+弄虚,deceive,engaño,VERB
+舞弊,fraud,fraude,NOUN
+徇私,favoritism,favoritismo,NOUN
+贪腐,corruption,corrupción,NOUN
+贪污,embezzle,malversar,VERB
+受贿,take bribe,aceptar soborno,VERB
+行贿,bribe,sobornar,VERB
+索贿,extort bribe,extorsionar,VERB
+敲诈,blackmail,chantaje,NOUN
+欺诈,fraud,fraude,NOUN
+伪劣,fake and inferior,falso e inferior,ADJ
+假冒,counterfeit,falsificado,ADJ
+劣质,poor quality,mala calidad,ADJ
+优质,high quality,alta calidad,ADJ
+正品,genuine,auténtico,NOUN
+真品,genuine,auténtico,NOUN
+真货,genuine goods,mercancía auténtica,NOUN
+假货,fake goods,mercancía falsa,NOUN
+水货,smuggled goods,contrabando,NOUN
+行货,licensed goods,producto con licencia,NOUN
+港行,Hong Kong licensed,licencia de Hong Kong,NOUN
+国行,domestic licensed,licencia nacional,NOUN
+正宗,authentic,auténtico,ADJ
+原装,original,original,ADJ
+原产,origin,origen,NOUN
+原厂,original factory,fábrica original,NOUN
+原版,original edition,edición original,NOUN
+原件,original document,documento original,NOUN
+副本,copy,copia,NOUN
+复印件,photocopy,fotocopia,NOUN
+影印件,photocopy,fotocopia,NOUN
+扫描件,scan,escaneo,NOUN
+打印件,printout,impresión,NOUN
+手写件,handwritten,manuscrito,NOUN
+正本,original,original,NOUN
+底本,master copy,copia maestra,NOUN
+底稿,draft,borrador,NOUN
+初稿,first draft,primer borrador,NOUN
+草稿,draft,borrador,NOUN
+草案,draft,proyecto,NOUN
+提案,proposal,propuesta,NOUN
+议案,motion,moción,NOUN
+动议,motion,moción,NOUN
+参看,see also,véase,VERB
+参阅,consult,consultar,VERB
+查阅,look up,consultar,VERB
+检索,search,buscar,VERB
+搜索,search,buscar,VERB
+查找,find,encontrar,VERB
+搜寻,search,buscar,VERB
+探求,seek,buscar,VERB
+探索,explore,explorar,VERB
+探究,investigate,investigar,VERB
+钻研,study deeply,estudiar a fondo,VERB
+研究,research,investigar,VERB
+调研,survey,encuestar,VERB
+稽核,check,verificar,VERB
+复核,review,revisar,VERB
+校核,verify,verificar,VERB
+校正,correct,corregir,VERB
+更正,correct,corregir,VERB
+勘误,errata,fe de erratas,NOUN
+纠错,correct error,corregir error,VERB
+纠偏,correct deviation,corregir desviación,VERB
+纠正,correct,corregir,VERB
+矫正,correct,corregir,VERB
+整改,rectify,rectificar,VERB
+整顿,rectify,rectificar,VERB
+整治,remediate,remediar,VERB
+治理,govern,gobernar,VERB
+管制,control,controlar,VERB
+管控,control,controlar,VERB
+监管,supervise,supervisar,VERB
+监测,monitor,monitorear,VERB
+监控,monitor,supervisar,VERB
+监视,surveil,vigilar,VERB
+侦查,investigate,investigar,VERB
+侦察,reconnoiter,reconocer,VERB
+探查,probe,sondear,VERB
+探勘,explore,explorar,VERB
+勘察,survey,reconocer,VERB
+勘查,investigate,investigar,VERB
