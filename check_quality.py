@@ -45,6 +45,8 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
             reader = csv.DictReader(f)
             # Accept the harmonized dual-pivot header shape:
             # <Lang>_Lemma, English_Lemma, Chinese_Lemma, POS
+            # (commit c122a99). The schema's trans_cols may lag; validate
+            # against the actual on-disk header instead.
             expected = [cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
             if reader.fieldnames != expected:
                 print(f"  [ERROR] {level}: bad header {reader.fieldnames}")

@@ -19,6 +19,8 @@ def tmp_repo(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
     monkeypatch.setattr(cq, "ROOT", tmp_path)
     for lang, cfg in cq.LANGS.items():
         (tmp_path / lang).mkdir(exist_ok=True)
+        # Harmonized dual-pivot header (commit c122a99):
+        # <Lang>_Lemma, English_Lemma, Chinese_Lemma, POS
         fields = [cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
         for level in cq.LEVELS:
             path = tmp_path / lang / f"{level}.csv"
@@ -33,6 +35,7 @@ def tmp_repo(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
                             cfg["lemma_col"]: lemma,
                             "English_Lemma": f"translationone{i}",
                             "Chinese_Lemma": f"translationtwo{i}",
+                            "POS": "X",
                         }
                     )
     return tmp_path
@@ -56,12 +59,11 @@ class TestCheckLanguage:
         rows = []
         with path.open(encoding="utf-8", newline="") as f:
             rows = list(csv.DictReader(f))
-        rows.append(
-            {cfg["lemma_col"]: "", "English_Lemma": "x", "Chinese_Lemma": "x"}
-        )
+        rows.append({cfg["lemma_col"]: "", "English_Lemma": "x", "Chinese_Lemma": "x"})
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
+                f,
+                fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"],
             )
             writer.writeheader()
             writer.writerows(rows)
@@ -86,7 +88,8 @@ class TestCheckLanguage:
         )
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
+                f,
+                fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"],
             )
             writer.writeheader()
             writer.writerows(rows)
@@ -111,7 +114,8 @@ class TestCheckLanguage:
         )
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
+                f,
+                fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"],
             )
             writer.writeheader()
             writer.writerows(rows)
@@ -136,7 +140,8 @@ class TestCheckLanguage:
         )
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
+                f,
+                fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"],
             )
             writer.writeheader()
             writer.writerows(rows)
@@ -161,7 +166,8 @@ class TestCheckLanguage:
         )
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
+                f,
+                fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"],
             )
             writer.writeheader()
             writer.writerows(rows)
@@ -187,7 +193,8 @@ class TestCheckLanguage:
         )
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
+                f,
+                fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"],
             )
             writer.writeheader()
             writer.writerows(rows)
@@ -212,7 +219,8 @@ class TestCheckLanguage:
         )
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
+                f,
+                fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"],
             )
             writer.writeheader()
             writer.writerows(rows)
@@ -238,7 +246,8 @@ class TestCheckLanguage:
         rows[1]["English_Lemma"] = rows[0]["English_Lemma"]
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
+                f,
+                fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"],
             )
             writer.writeheader()
             writer.writerows(rows)
@@ -266,7 +275,7 @@ class TestMain:
         assert isinstance(ret, int)
 
     def test_main_single_language(self, tmp_repo: Path) -> None:
-        ret = cq.main(["check_quality.py", "english"])
+        ret = cq.main(["check_quality.py", "german"])
         assert isinstance(ret, int)
 
     def test_main_includes_new_languages(
