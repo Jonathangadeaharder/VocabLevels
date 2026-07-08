@@ -19,9 +19,9 @@ TARGETS = {"A1": 600, "A2": 600, "B1": 1000, "B2": 2000, "C1": 4000}
 HSK_LEVELS = ("HSK1", "HSK2", "HSK3", "HSK4", "HSK5", "HSK6")
 HSK_TARGETS = {
     "HSK1": 150,
-    "HSK2": 150,   # 300 cumulative, 150 new
-    "HSK3": 300,   # 600 cumulative, 300 new
-    "HSK4": 600,   # 1200 cumulative, 600 new
+    "HSK2": 150,  # 300 cumulative, 150 new
+    "HSK3": 300,  # 600 cumulative, 300 new
+    "HSK4": 600,  # 1200 cumulative, 600 new
     "HSK5": 1300,  # 2500 cumulative, 1300 new
     "HSK6": 2500,  # 5000 cumulative, 2500 new
 }
@@ -29,44 +29,42 @@ HSK_TARGETS = {
 LANGS: dict[str, LanguageSchema] = {
     "english": {
         "lemma_col": "English_Lemma",
-        "trans_cols": (
-        "German_Translation", "Spanish_Translation"),
+        "trans_cols": ("German_Translation", "Spanish_Translation"),
         "pos_col": "POS",
     },
     "german": {
         "lemma_col": "German_Lemma",
-        "trans_cols": (
-        "English_Translation", "Spanish_Translation"),
+        "trans_cols": ("English_Translation", "Spanish_Translation"),
         "pos_col": "POS",
     },
     "spanish": {
         "lemma_col": "Spanish_Lemma",
-        "trans_cols": (
-        "English_Translation", "German_Translation"),
+        "trans_cols": ("English_Translation", "German_Translation"),
         "pos_col": "POS",
     },
     "arabic": {
         "lemma_col": "Arabic_Lemma",
-        "trans_cols": (
-        "English_Translation", "Spanish_Translation"),
+        "trans_cols": ("English_Translation", "Spanish_Translation"),
         "pos_col": "POS",
     },
     "french": {
         "lemma_col": "French_Lemma",
-        "trans_cols": (
-        "English_Translation", "Spanish_Translation"),
+        "trans_cols": ("English_Translation", "Spanish_Translation"),
         "pos_col": "POS",
     },
     "swedish": {
         "lemma_col": "Swedish_Lemma",
-        "trans_cols": (
-        "English_Translation", "Spanish_Translation"),
+        "trans_cols": ("English_Translation", "Spanish_Translation"),
         "pos_col": "POS",
     },
     "chinese": {
         "lemma_col": "Chinese_Lemma",
-        "trans_cols": (
-        "English_Translation", "Spanish_Translation"),
+        "trans_cols": ("English_Translation", "Spanish_Translation"),
+        "pos_col": "POS",
+    },
+    "dutch": {
+        "lemma_col": "Dutch_Lemma",
+        "trans_cols": ("English_Translation", "Spanish_Translation"),
         "pos_col": "POS",
     },
 }

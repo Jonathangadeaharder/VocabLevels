@@ -2,7 +2,10 @@
 name = "vocab-levels"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "deep-translator>=1.11.4",
+    "wordfreq>=3.1.1",
+]
 
 [tool.pytest.ini_options]
 addopts = "--cov=. --cov-branch --cov-report=term-missing --cov-fail-under=80"
@@ -21,8 +24,11 @@ omit = [
     "arabic/*",
     "french/*",
     "swedish/*",
+    "chinese/*",
+    "dutch/*",
     "docs/*",
     "openspec/*",
+    "generate_dutch_vocab.py",
 ]
 
 [tool.coverage.report]

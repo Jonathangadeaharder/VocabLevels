@@ -1,6 +1,6 @@
 # VocabLevels
 
-Multilingual CEFR vocabulary CSVs. Currently tracked languages: English, German, Spanish, Arabic, French, and Swedish.
+Multilingual CEFR vocabulary CSVs. Currently tracked languages: English, German, Spanish, Arabic, French, Swedish, Chinese, and Dutch.
 
 ## Structure
 
@@ -10,6 +10,8 @@ VocabLevels/
 ├── german/    A1-C1 CSV files + frequency reference TSV
 ├── spanish/   A1-C1 CSV files + frequency reference TSV
 ├── arabic/    A1-C1 CSV files
+├── chinese/   A1-C1 CSV files
+├── dutch/     A1-C1 CSV files
 ├── french/    A1 CSV (in progress)
 ├── swedish/   A1 CSV (in progress)
 ├── vocab_schema.py     Shared language columns, CEFR levels, and targets
