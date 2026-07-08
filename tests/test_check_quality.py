@@ -19,7 +19,7 @@ def tmp_repo(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
     monkeypatch.setattr(cq, "ROOT", tmp_path)
     for lang, cfg in cq.LANGS.items():
         (tmp_path / lang).mkdir(exist_ok=True)
-        fields = [cfg["lemma_col"], *cfg["trans_cols"]]
+        fields = [cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
         for level in cq.LEVELS:
             path = tmp_path / lang / f"{level}.csv"
             with path.open("w", encoding="utf-8", newline="") as f:
@@ -31,8 +31,8 @@ def tmp_repo(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
                     writer.writerow(
                         {
                             cfg["lemma_col"]: lemma,
-                            cfg["trans_cols"][0]: f"translationone{i}",
-                            cfg["trans_cols"][1]: f"translationtwo{i}",
+                            "English_Lemma": f"translationone{i}",
+                            "Chinese_Lemma": f"translationtwo{i}",
                         }
                     )
     return tmp_path
@@ -42,213 +42,213 @@ class TestCheckLanguage:
     def test_valid_csvs_return_zero_issues(
         self, tmp_repo: Path, capsys: pytest.CaptureFixture[str]
     ) -> None:
-        issues = cq.check_language("english")
+        issues = cq.check_language("german")
         out = capsys.readouterr().out
         assert issues == 0
-        assert "ENGLISH" in out
+        assert "GERMAN" in out
 
     def test_empty_lemma_flagged(
         self, tmp_repo: Path, capsys: pytest.CaptureFixture[str]
     ) -> None:
         # Add a row with empty lemma
-        cfg = cq.LANGS["english"]
-        path = tmp_repo / "english" / "A1.csv"
+        cfg = cq.LANGS["german"]
+        path = tmp_repo / "german" / "A1.csv"
         rows = []
         with path.open(encoding="utf-8", newline="") as f:
             rows = list(csv.DictReader(f))
         rows.append(
-            {cfg["lemma_col"]: "", cfg["trans_cols"][0]: "x", cfg["trans_cols"][1]: "x"}
+            {cfg["lemma_col"]: "", "English_Lemma": "x", "Chinese_Lemma": "x"}
         )
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], *cfg["trans_cols"]]
+                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
             )
             writer.writeheader()
             writer.writerows(rows)
-        issues = cq.check_language("english")
+        issues = cq.check_language("german")
         assert issues >= 1
         assert "empty lemma" in capsys.readouterr().out
 
     def test_multi_word_lemma_flagged(
         self, tmp_repo: Path, capsys: pytest.CaptureFixture[str]
     ) -> None:
-        cfg = cq.LANGS["english"]
-        path = tmp_repo / "english" / "A1.csv"
+        cfg = cq.LANGS["german"]
+        path = tmp_repo / "german" / "A1.csv"
         rows = []
         with path.open(encoding="utf-8", newline="") as f:
             rows = list(csv.DictReader(f))
         rows.append(
             {
                 cfg["lemma_col"]: "big apple",
-                cfg["trans_cols"][0]: "x",
-                cfg["trans_cols"][1]: "x",
+                "English_Lemma": "x",
+                "Chinese_Lemma": "x",
             }
         )
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], *cfg["trans_cols"]]
+                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
             )
             writer.writeheader()
             writer.writerows(rows)
-        issues = cq.check_language("english")
+        issues = cq.check_language("german")
         assert issues >= 1
         assert "multi-word" in capsys.readouterr().out
 
     def test_digits_in_lemma_flagged(
         self, tmp_repo: Path, capsys: pytest.CaptureFixture[str]
     ) -> None:
-        cfg = cq.LANGS["english"]
-        path = tmp_repo / "english" / "A1.csv"
+        cfg = cq.LANGS["german"]
+        path = tmp_repo / "german" / "A1.csv"
         rows = []
         with path.open(encoding="utf-8", newline="") as f:
             rows = list(csv.DictReader(f))
         rows.append(
             {
                 cfg["lemma_col"]: "word123",
-                cfg["trans_cols"][0]: "x",
-                cfg["trans_cols"][1]: "x",
+                "English_Lemma": "x",
+                "Chinese_Lemma": "x",
             }
         )
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], *cfg["trans_cols"]]
+                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
             )
             writer.writeheader()
             writer.writerows(rows)
-        issues = cq.check_language("english")
+        issues = cq.check_language("german")
         assert issues >= 1
         assert "digits" in capsys.readouterr().out
 
     def test_special_chars_in_lemma_flagged(
         self, tmp_repo: Path, capsys: pytest.CaptureFixture[str]
     ) -> None:
-        cfg = cq.LANGS["english"]
-        path = tmp_repo / "english" / "A1.csv"
+        cfg = cq.LANGS["german"]
+        path = tmp_repo / "german" / "A1.csv"
         rows = []
         with path.open(encoding="utf-8", newline="") as f:
             rows = list(csv.DictReader(f))
         rows.append(
             {
                 cfg["lemma_col"]: "word!",
-                cfg["trans_cols"][0]: "x",
-                cfg["trans_cols"][1]: "x",
+                "English_Lemma": "x",
+                "Chinese_Lemma": "x",
             }
         )
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], *cfg["trans_cols"]]
+                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
             )
             writer.writeheader()
             writer.writerows(rows)
-        issues = cq.check_language("english")
+        issues = cq.check_language("german")
         assert issues >= 1
         assert "special" in capsys.readouterr().out.lower()
 
     def test_missing_translation_flagged(
         self, tmp_repo: Path, capsys: pytest.CaptureFixture[str]
     ) -> None:
-        cfg = cq.LANGS["english"]
-        path = tmp_repo / "english" / "A1.csv"
+        cfg = cq.LANGS["german"]
+        path = tmp_repo / "german" / "A1.csv"
         rows = []
         with path.open(encoding="utf-8", newline="") as f:
             rows = list(csv.DictReader(f))
         rows.append(
             {
                 cfg["lemma_col"]: "notrans",
-                cfg["trans_cols"][0]: "",
-                cfg["trans_cols"][1]: "x",
+                "English_Lemma": "",
+                "Chinese_Lemma": "x",
             }
         )
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], *cfg["trans_cols"]]
+                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
             )
             writer.writeheader()
             writer.writerows(rows)
-        issues = cq.check_language("english")
+        issues = cq.check_language("german")
         assert issues >= 1
         assert "missing" in capsys.readouterr().out.lower()
 
     def test_duplicate_lemma_flagged(
         self, tmp_repo: Path, capsys: pytest.CaptureFixture[str]
     ) -> None:
-        cfg = cq.LANGS["english"]
-        path = tmp_repo / "english" / "A1.csv"
+        cfg = cq.LANGS["german"]
+        path = tmp_repo / "german" / "A1.csv"
         rows = []
         with path.open(encoding="utf-8", newline="") as f:
             rows = list(csv.DictReader(f))
         # Add duplicate
         rows.append(
             {
-                cfg["lemma_col"]: "englishonealpha",
-                cfg["trans_cols"][0]: "duplicate",
-                cfg["trans_cols"][1]: "duplicate",
+                cfg["lemma_col"]: "germanonealpha",
+                "English_Lemma": "duplicate",
+                "Chinese_Lemma": "duplicate",
             }
         )
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], *cfg["trans_cols"]]
+                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
             )
             writer.writeheader()
             writer.writerows(rows)
-        issues = cq.check_language("english")
+        issues = cq.check_language("german")
         assert issues >= 1
         assert "duplicate" in capsys.readouterr().out.lower()
 
     def test_whitespace_in_lemma_flagged(
         self, tmp_repo: Path, capsys: pytest.CaptureFixture[str]
     ) -> None:
-        cfg = cq.LANGS["english"]
-        path = tmp_repo / "english" / "A1.csv"
+        cfg = cq.LANGS["german"]
+        path = tmp_repo / "german" / "A1.csv"
         rows = []
         with path.open(encoding="utf-8", newline="") as f:
             rows = list(csv.DictReader(f))
         rows.append(
             {
                 cfg["lemma_col"]: " padded ",
-                cfg["trans_cols"][0]: "x",
-                cfg["trans_cols"][1]: "x",
+                "English_Lemma": "x",
+                "Chinese_Lemma": "x",
             }
         )
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], *cfg["trans_cols"]]
+                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
             )
             writer.writeheader()
             writer.writerows(rows)
-        issues = cq.check_language("english")
+        issues = cq.check_language("german")
         assert issues >= 1
         assert "whitespace" in capsys.readouterr().out.lower()
 
     def test_missing_csv_warns(
         self, tmp_repo: Path, capsys: pytest.CaptureFixture[str]
     ) -> None:
-        (tmp_repo / "english" / "A1.csv").unlink()
-        cq.check_language("english")
+        (tmp_repo / "german" / "A1.csv").unlink()
+        cq.check_language("german")
         out = capsys.readouterr().out
         assert "missing" in out.lower() or "WARN" in out
 
     def test_shared_translation_details_are_opt_in(
         self, tmp_repo: Path, capsys: pytest.CaptureFixture[str]
     ) -> None:
-        cfg = cq.LANGS["english"]
-        path = tmp_repo / "english" / "A1.csv"
+        cfg = cq.LANGS["german"]
+        path = tmp_repo / "german" / "A1.csv"
         with path.open(encoding="utf-8", newline="") as f:
             rows = list(csv.DictReader(f))
-        rows[1][cfg["trans_cols"][0]] = rows[0][cfg["trans_cols"][0]]
+        rows[1]["English_Lemma"] = rows[0]["English_Lemma"]
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
-                f, fieldnames=[cfg["lemma_col"], *cfg["trans_cols"]]
+                f, fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
             )
             writer.writeheader()
             writer.writerows(rows)
 
-        assert cq.check_language("english") == 0
+        assert cq.check_language("german") == 0
         default_out = capsys.readouterr().out
         assert "shared translation groups" in default_out
         assert "shared by" not in default_out
 
-        assert cq.check_language("english", show_shared_translations=True) == 0
+        assert cq.check_language("german", show_shared_translations=True) == 0
         detailed_out = capsys.readouterr().out
         assert "shared by" in detailed_out
 
@@ -281,10 +281,10 @@ class TestMain:
     def test_main_accepts_shared_translation_detail_flag(
         self, tmp_repo: Path, capsys: pytest.CaptureFixture[str]
     ) -> None:
-        ret = cq.main(["check_quality.py", "--show-shared-translations", "english"])
+        ret = cq.main(["check_quality.py", "--show-shared-translations", "german"])
         out = capsys.readouterr().out
         assert ret == 0
-        assert "ENGLISH" in out
+        assert "GERMAN" in out
 
     def test_main_unknown_language(self, tmp_repo: Path) -> None:
         ret = cq.main(["check_quality.py", "japanese"])
@@ -294,11 +294,11 @@ class TestMain:
         self, tmp_repo: Path, capsys: pytest.CaptureFixture[str]
     ) -> None:
         # Write a CSV with bad headers
-        path = tmp_repo / "english" / "A1.csv"
+        path = tmp_repo / "german" / "A1.csv"
         with path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=["bad_col", "col2", "col3"])
             writer.writeheader()
             writer.writerow({"bad_col": "x", "col2": "y", "col3": "z"})
-        issues = cq.check_language("english")
+        issues = cq.check_language("german")
         assert issues >= 1
         assert "bad header" in capsys.readouterr().out.lower()

@@ -16,7 +16,7 @@ import re
 import sys
 from pathlib import Path
 
-from vocab_schema import LANGS, LEVELS, TARGETS, HSK_LEVELS, HSK_TARGETS
+from vocab_schema import LANGS, LEVELS, TARGETS
 
 ROOT = Path(__file__).parent
 
@@ -43,7 +43,10 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
 
         with path.open(encoding="utf-8", newline="") as f:
             reader = csv.DictReader(f)
-            if reader.fieldnames != [cfg["lemma_col"], *cfg["trans_cols"], "POS"]:
+            # Accept the harmonized dual-pivot header shape:
+            # <Lang>_Lemma, English_Lemma, Chinese_Lemma, POS
+            expected = [cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
+            if reader.fieldnames != expected:
                 print(f"  [ERROR] {level}: bad header {reader.fieldnames}")
                 issues += 1
                 continue
@@ -58,10 +61,12 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
 
         intra_lemmas: set[str] = set()
         intra_trans: dict[str, set[str]] = {}  # translation -> lemmas in this level
+        # Harmonized dual-pivot columns (commit c122a99).
+        t1_col, t2_col = "English_Lemma", "Chinese_Lemma"
         for idx, row in enumerate(rows, start=2):
             lemma_raw = row.get(cfg["lemma_col"]) or ""
-            t1_raw = row.get(cfg["trans_cols"][0]) or ""
-            t2_raw = row.get(cfg["trans_cols"][1]) or ""
+            t1_raw = row.get(t1_col) or ""
+            t2_raw = row.get(t2_col) or ""
 
             lemma = lemma_raw.strip()
             t1 = t1_raw.strip()
@@ -86,16 +91,16 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
             # Capitalized lemmas allowed (German nouns, proper nouns in any language)
 
             if not t1:
-                print(f"    L{idx}: '{lemma}' missing {cfg['trans_cols'][0]}")
+                print(f"    L{idx}: '{lemma}' missing {t1_col}")
                 issues += 1
             elif t1 != t1_raw:
-                print(f"    L{idx}: '{lemma}' {cfg['trans_cols'][0]} has whitespace")
+                print(f"    L{idx}: '{lemma}' {t1_col} has whitespace")
                 issues += 1
             if not t2:
-                print(f"    L{idx}: '{lemma}' missing {cfg['trans_cols'][1]}")
+                print(f"    L{idx}: '{lemma}' missing {t2_col}")
                 issues += 1
             elif t2 != t2_raw:
-                print(f"    L{idx}: '{lemma}' {cfg['trans_cols'][1]} has whitespace")
+                print(f"    L{idx}: '{lemma}' {t2_col} has whitespace")
                 issues += 1
 
             # Duplicate key includes POS: same lemma with different POS
