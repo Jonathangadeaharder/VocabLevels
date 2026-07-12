@@ -132,7 +132,6 @@ def norm_pos(row: dict[str, str]) -> str:
 
 
 # Cache loaded pipelines by language to avoid re-initialization.
-# Cache loaded pipelines by language to avoid re-initialization.
 _pipelines: dict[str, Any] = {}
 
 
