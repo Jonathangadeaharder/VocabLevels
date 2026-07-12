@@ -21,7 +21,11 @@ def tmp_repo(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
         (tmp_path / lang).mkdir(exist_ok=True)
         # Harmonized dual-pivot header (commit c122a99):
         # <Lang>_Lemma, English_Lemma, Chinese_Lemma, POS
-        fields = [cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
+        # Pivot languages use schema trans_cols to avoid self-reference.
+        if lang in ("english", "chinese"):
+            fields = [cfg["lemma_col"], *cfg["trans_cols"], "POS"]
+        else:
+            fields = [cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
         for level in cq.LEVELS:
             path = tmp_path / lang / f"{level}.csv"
             with path.open("w", encoding="utf-8", newline="") as f:
@@ -32,9 +36,9 @@ def tmp_repo(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
                     lemma = f"{lang}{LEVEL_NAMES[level]}{seed_word}"
                     writer.writerow(
                         {
-                            cfg["lemma_col"]: lemma,
-                            "English_Lemma": f"translationone{i}",
-                            "Chinese_Lemma": f"translationtwo{i}",
+                            fields[0]: lemma,
+                            fields[1]: f"translationone{i}",
+                            fields[2]: f"translationtwo{i}",
                             "POS": "X",
                         }
                     )

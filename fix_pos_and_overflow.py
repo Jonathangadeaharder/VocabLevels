@@ -329,8 +329,11 @@ def redistribute_arabic_b2(cs: ChangeSet) -> None:
         )
         return
     b2_rows = load_csv("arabic", "B2")
+    b2_target = TARGETS["B2"]
     lemma_col = LANG_LEMMA_COL["arabic"]
-    for i, row in enumerate(b2_rows, start=2):
+    # Only relocate from the overflow zone (indices >= target) so cultural
+    # terms in the target zone are preserved.
+    for i, row in enumerate(b2_rows[b2_target:], start=b2_target + 2):
         lemma = (row.get(lemma_col) or "").strip()
         if lemma in ARABIC_B2_RELOCATE_TO_C1:
             cs.relocations.append(
@@ -439,15 +442,20 @@ def apply_changes(cs: ChangeSet) -> None:
     # 2. Apply relocations: move rows from src to dst.
     for src, relocs in reloc_by_src.items():
         lang = src.split("/")[0]
+        level = src.split("/")[1].replace(".csv", "")
+        target = TARGETS[level]
         lemma_col = LANG_LEMMA_COL[lang]
         reloc_lemmas = {r.lemma for r in relocs}
+        # Only relocate from the overflow zone to avoid corrupting the target.
         moved = [
-            r for r in cache[src] if (r.get(lemma_col) or "").strip() in reloc_lemmas
+            r
+            for i, r in enumerate(cache[src])
+            if i >= target and (r.get(lemma_col) or "").strip() in reloc_lemmas
         ]
         cache[src] = [
             r
-            for r in cache[src]
-            if (r.get(lemma_col) or "").strip() not in reloc_lemmas
+            for i, r in enumerate(cache[src])
+            if not (i >= target and (r.get(lemma_col) or "").strip() in reloc_lemmas)
         ]
         dst = relocs[0].dst_file
         cache[dst].extend(moved)

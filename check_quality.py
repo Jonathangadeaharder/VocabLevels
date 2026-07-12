@@ -47,7 +47,12 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
             # <Lang>_Lemma, English_Lemma, Chinese_Lemma, POS
             # (commit c122a99). The schema's trans_cols may lag; validate
             # against the actual on-disk header instead.
-            expected = [cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
+            # English/Chinese are the pivots: they cannot duplicate their own
+            # lemma column as a translation, so fall back to schema trans_cols.
+            if lang in ("english", "chinese"):
+                expected = [cfg["lemma_col"], *cfg["trans_cols"], "POS"]
+            else:
+                expected = [cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
             if reader.fieldnames != expected:
                 print(f"  [ERROR] {level}: bad header {reader.fieldnames}")
                 issues += 1
@@ -64,7 +69,11 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
         intra_lemmas: set[str] = set()
         intra_trans: dict[str, set[str]] = {}  # translation -> lemmas in this level
         # Harmonized dual-pivot columns (commit c122a99).
-        t1_col, t2_col = "English_Lemma", "Chinese_Lemma"
+        # Pivot languages use schema trans_cols to avoid self-reference.
+        if lang in ("english", "chinese"):
+            t1_col, t2_col = cfg["trans_cols"][0], cfg["trans_cols"][1]
+        else:
+            t1_col, t2_col = "English_Lemma", "Chinese_Lemma"
         for idx, row in enumerate(rows, start=2):
             lemma_raw = row.get(cfg["lemma_col"]) or ""
             t1_raw = row.get(t1_col) or ""
