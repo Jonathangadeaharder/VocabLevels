@@ -4,29 +4,29 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تعددية,pluralism,,NOUN
 استبداد,despotism/tyranny,,NOUN
 ديكتاتورية,dictatorship,,NOUN
-شمولية,totalitarianism,,NOUN
-ليبرالية,liberalism,,NOUN
-اشتراكية,socialism,,NOUN
-شيوعية,communism,,NOUN
-رأسمالية,capitalism,,NOUN
-قومية,nationalism,,NOUN
-علمانية,secularism,,NOUN
-أصولية,fundamentalism,,NOUN
+شمولية,totalitarianism,,ADJ
+ليبرالية,liberalism,,ADJ
+اشتراكية,socialism,,ADJ
+شيوعية,communism,,ADJ
+رأسمالية,capitalism,,ADJ
+قومية,nationalism,,ADJ
+علمانية,secularism,,ADJ
+أصولية,fundamentalism,,ADJ
 شعبوية,populism,,NOUN
 راديكالية,radicalism,,NOUN
-تقدمي,progressive,,VERB
+تقدمي,progressive,,NOUN
 يساري,leftist,,VERB
 يميني,right-wing,,VERB
-وسطي,centrist,,VERB
+وسطي,centrist,,ADJ
 أقلية,minority,,NOUN
 جمهورية,republic,,NOUN
 فيدرالية,federalism,,NOUN
 لامركزية,decentralization,,NOUN
-دستورية,constitutionality,,NOUN
+دستورية,constitutionality,,ADJ
 مساءلة,accountability,,NOUN
-احتقان,social tension,,VERB
+احتقان,social tension,,NOUN
 حراك,protest movement,,NOUN
-قمع,repression,,NOUN
+قمع,repression,,VERB
 تضييق,clampdown/restriction,,NOUN
 دمقرطة,democratization,,NOUN
 استقطاب,polarization,,NOUN
@@ -67,36 +67,36 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تهدئة,de-escalation,,NOUN
 انفراج,détente,,NOUN
 بروتوكول,protocol,,NOUN
-تحفظ,reservation,,NOUN
+تحفظ,reservation,,VERB
 انضمام,accession,,NOUN
 انسحاب,withdrawal,,NOUN
 فيتو,veto,,NOUN
 نازح,displaced person,,NOUN
 مخيمات,camps,,NOUN
-قطبية,polarity,,NOUN
+قطبية,polarity,,ADJ
 هيمنة,hegemony,,NOUN
 نفوذ,influence/clout,,NOUN
-جالية,diaspora community,,NOUN
+جالية,diaspora community,,ADJ
 مراسم,ceremonial protocol,,NOUN
 انحياز,alignment/bias,,NOUN
 قاض,judge,,NOUN
 مداولة,deliberation,,NOUN
 حيثيات,grounds of judgment,,NOUN
-تعرض,opposition to judgment,,NOUN
+تعرض,opposition to judgment,,VERB
 إحالة,referral,,NOUN
 مدع,plaintiff,,NOUN
 ظنين,suspect,,NOUN
 إفادة,statement/testimony,,NOUN
-قرائن,circumstantial evidence,,VERB
-تلبس,flagrante delicto,,NOUN
-تقاض,litigation,,NOUN
+قرائن,circumstantial evidence,,NOUN
+تلبس,flagrante delicto,,VERB
+تقاض,litigation,,VERB
 منازعة,dispute,,NOUN
 تحكيم,arbitration,,NOUN
 عدول,adoul notaries,,NOUN
 محاماة,legal profession,,NOUN
 أتعاب,legal fees,,NOUN
 تجريح,recusal,,NOUN
-بطلان,nullity,,VERB
+بطلان,nullity,,NOUN
 إبطال,annulment,,NOUN
 قذف,defamation,,NOUN
 انتهاك,violation,,NOUN
@@ -124,7 +124,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 صكوك,sukuk bonds,,NOUN
 تزكية,endorsement/nomination,,NOUN
 انشقاق,split/schism,,NOUN
-عريضة,petition,,NOUN
+عريضة,petition,,ADJ
 مناصرة,advocacy campaign,,NOUN
 تشبيك,networking,,NOUN
 مقرر,rapporteur/decision,,NOUN
@@ -152,7 +152,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 إثارة,sensationalism,,NOUN
 تصحيح,correction/rectification,,NOUN
 مؤثرون,influencers,,NOUN
-رائج,trending,,NOUN
+رائج,trending,,ADJ
 خوارزميات,algorithms,,NOUN
 بلاغة,rhetoric/eloquence,,NOUN
 خطابة,oratory,,NOUN
@@ -170,7 +170,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كناية,metonymy,,NOUN
 تورية,double entendre,,NOUN
 سخرية,irony/sarcasm,,NOUN
-تهكم,sarcasm,,NOUN
+تهكم,sarcasm,,VERB
 لمز,innuendo,,NOUN
 إطناب,verbosity,,NOUN
 إيجاز,concision,,NOUN
@@ -178,7 +178,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 عينة,sample,,NOUN
 مستجوب,respondent,,NOUN
 ارتباط,correlation,,NOUN
-سببية,causality,,NOUN
+سببية,causality,,ADJ
 منحنى,curve,,NOUN
 مبيان,chart/graph,,VERB
 تذبذب,fluctuation,,NOUN
@@ -186,7 +186,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 توقعات,forecasts,,NOUN
 ديموغرافيا,demography,,NOUN
 خصوبة,fertility,,NOUN
-ولادات,births,,NOUN
+ولادات,births,,CCONJ
 وفيات,deaths/mortality,,NOUN
 نشيطون,active population,,NOUN
 أمية,illiteracy,,NOUN
@@ -195,147 +195,147 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بمقتضى,pursuant to,,NOUN
 حتما,necessarily/inevitably,,NOUN
 بداهة,obviously,,NOUN
-تدريجيا,gradually,,NOUN
+تدريجيا,gradually,,ADJ
 إجمالا,overall,,NOUN
 أي,that is to say,,NOUN
 بمثابة,tantamount to,,NOUN
-إثر,following/right after,,NOUN
-عقب,immediately after,,NOUN
-حالما,as soon as,,NOUN
+إثر,following/right after,,ADP
+عقب,immediately after,,ADP
+حالما,as soon as,,ADJ
 بشرط,on condition,,NOUN
-لئلا,lest,,NOUN
+لئلا,lest,,PART
 بغية,with the aim of,,NOUN
-آنذاك,at that time,,NOUN
+آنذاك,at that time,,ADV
 حينئذ,then/at that point,,NOUN
-لاحقا,later on,,NOUN
+لاحقا,later on,,ADJ
 سلفا,in advance,,NOUN
 آنفا,previously mentioned,,NOUN
-وختاما,in conclusion,,NOUN
+وختاما,in conclusion,,CCONJ
 لعل,perhaps,,NOUN
-شرع,to legislate,,NOUN
-أصدر,to issue/promulgate,,NOUN
-ألغى,to abolish/repeal,,NOUN
-نقح,to revise,,NOUN
+شرع,to legislate,,VERB
+أصدر,to issue/promulgate,,VERB
+ألغى,to abolish/repeal,,VERB
+نقح,to revise,,VERB
 أجرأ,to operationalize,,VERB
-ترأس,to chair/preside,,NOUN
-أقال,to dismiss from office,,NOUN
-استقال,to resign,,NOUN
-انتدب,to delegate/second,,NOUN
-فوض,to authorize/delegate,,NOUN
-خول,to empower/entitle,,NOUN
+ترأس,to chair/preside,,VERB
+أقال,to dismiss from office,,VERB
+استقال,to resign,,VERB
+انتدب,to delegate/second,,VERB
+فوض,to authorize/delegate,,VERB
+خول,to empower/entitle,,VERB
 قنن,to regulate,,VERB
-واكب,to accompany/monitor,,NOUN
-تتبع,to track/follow up,,NOUN
+واكب,to accompany/monitor,,VERB
+تتبع,to track/follow up,,VERB
 قيم,to evaluate,,NOUN
-افتحص,to audit,,NOUN
-حاسب,to hold accountable,,NOUN
-ساءل,to question officially,,NOUN
+افتحص,to audit,,VERB
+حاسب,to hold accountable,,ADJ
+ساءل,to question officially,,VERB
 أدان,to convict/condemn,,VERB
 برأ,to acquit,,VERB
-استأنف,to appeal,,NOUN
-أنصف,to do justice to,,NOUN
-عوض,to compensate,,NOUN
-صادر,to confiscate,,NOUN
-جرم,to criminalize,,NOUN
+استأنف,to appeal,,VERB
+أنصف,to do justice to,,VERB
+عوض,to compensate,,VERB
+صادر,to confiscate,,ADJ
+جرم,to criminalize,,VERB
 شرعن,to legitimize,,VERB
-تقاضى,to litigate,,NOUN
-أفتى,to issue a fatwa,,NOUN
+تقاضى,to litigate,,VERB
+أفتى,to issue a fatwa,,VERB
 أرجأ,to postpone/adjourn,,VERB
 مدد,to extend,,NOUN
-جدد,to renew,,NOUN
-أبرم,to conclude an agreement,,NOUN
-ساوم,to bargain/haggle,,NOUN
-اشترط,to stipulate,,NOUN
-انتهك,to violate,,NOUN
+جدد,to renew,,VERB
+أبرم,to conclude an agreement,,VERB
+ساوم,to bargain/haggle,,VERB
+اشترط,to stipulate,,VERB
+انتهك,to violate,,VERB
 خرق,to infringe,,NOUN
 تنديد,denunciation,,NOUN
 شجب,to condemn publicly,,NOUN
-استنكر,to deplore,,NOUN
+استنكر,to deplore,,VERB
 دان,to condemn,,VERB
-ناشد,to appeal to,,NOUN
+ناشد,to appeal to,,VERB
 أذعن,to submit/acquiesce,,VERB
-تحدى,to defy,,NOUN
-كافح,to combat,,NOUN
-اجتث,to eradicate,,NOUN
-استأصل,to root out,,NOUN
+تحدى,to defy,,VERB
+كافح,to combat,,VERB
+اجتث,to eradicate,,VERB
+استأصل,to root out,,VERB
 كبح,to rein in,,NOUN
-قلص,to reduce/scale down,,NOUN
+قلص,to reduce/scale down,,VERB
 عقلن,to rationalize/streamline,,VERB
 هيكل,to restructure,,NOUN
 أهل,to qualify/upgrade,,NOUN
-حفز,to incentivize,,NOUN
-أنعش,to revive/stimulate,,NOUN
-خصص,to earmark,,NOUN
-اقترض,to borrow,,NOUN
-أقرض,to lend,,NOUN
-أفلس,to go bankrupt,,NOUN
+حفز,to incentivize,,VERB
+أنعش,to revive/stimulate,,VERB
+خصص,to earmark,,VERB
+اقترض,to borrow,,VERB
+أقرض,to lend,,VERB
+أفلس,to go bankrupt,,VERB
 أمم,to nationalize,,NOUN
-احتكر,to monopolize,,NOUN
+احتكر,to monopolize,,VERB
 تكهن,to speculate/predict,,VERB
-استشرف,to anticipate/envision,,NOUN
-استخلص,to conclude/derive,,NOUN
+استشرف,to anticipate/envision,,VERB
+استخلص,to conclude/derive,,VERB
 دحض,to refute,,NOUN
-فند,to rebut,,NOUN
+فند,to rebut,,VERB
 جزم,to assert categorically,,NOUN
-أبرز,to highlight,,NOUN
-سرب,to leak information,,NOUN
-ضخم,to inflate/exaggerate,,NOUN
-هول,to dramatize,,NOUN
+أبرز,to highlight,,ADJ
+سرب,to leak information,,VERB
+ضخم,to inflate/exaggerate,,ADJ
+هول,to dramatize,,VERB
 قزم,to belittle,,NOUN
 حرض,to incite,,NOUN
 توسط,to mediate,,NOUN
-عرقل,to obstruct,,NOUN
-أحبط,to foil,,NOUN
-قوض,to undermine,,NOUN
-رسخ,to entrench/consolidate,,NOUN
-كرس,to enshrine/devote,,NOUN
-عزز,to strengthen,,NOUN
-وطد,to cement/solidify,,NOUN
-أرسى,to establish/lay foundations,,NOUN
+عرقل,to obstruct,,VERB
+أحبط,to foil,,VERB
+قوض,to undermine,,VERB
+رسخ,to entrench/consolidate,,VERB
+كرس,to enshrine/devote,,VERB
+عزز,to strengthen,,VERB
+وطد,to cement/solidify,,VERB
+أرسى,to establish/lay foundations,,VERB
 دستوري,constitutional,,VERB
-تشريعي,legislative,,VERB
-تنظيمي,regulatory,,VERB
-قضائي,judicial,,VERB
+تشريعي,legislative,,ADJ
+تنظيمي,regulatory,,ADJ
+قضائي,judicial,,ADJ
 عرفي,customary,,VERB
 نافذ,in force/effective,,NOUN
 لاغ,null and void,,NOUN
-إجرائي,procedural,,VERB
-موضوعي,substantive/objective,,VERB
-ذاتي,subjective,,VERB
-حيادي,neutral/impartial,,VERB
-منحاز,biased,,NOUN
+إجرائي,procedural,,ADJ
+موضوعي,substantive/objective,,ADJ
+ذاتي,subjective,,ADJ
+حيادي,neutral/impartial,,ADJ
+منحاز,biased,,ADJ
 نزيه,upright/fair,,NOUN
-فاسد,corrupt,,NOUN
+فاسد,corrupt,,ADJ
 مرتش,bribe-taker,,NOUN
 متنفذ,influential person,,NOUN
-متواطئ,complicit,,NOUN
+متواطئ,complicit,,ADJ
 خلافة,succession,,NOUN
 تنصيب,inauguration/investiture,,NOUN
-تفويت,transfer/divestiture,,VERB
+تفويت,transfer/divestiture,,NOUN
 تأميم,nationalization,,NOUN
 مقايضة,barter/trade-off,,NOUN
 مساومة,bargaining,,NOUN
-رهان,stake/wager,,VERB
+رهان,stake/wager,,NOUN
 تحديات,challenges,,NOUN
 إكراهات,constraints,,NOUN
 مقتضيات,provisions/requirements,,NOUN
 ديباجة,preamble,,NOUN
 ملحق,annex/appendix,,NOUN
-مقتطف,excerpt,,NOUN
+مقتطف,excerpt,,ADJ
 عريق,long-established,,NOUN
 محوري,pivotal,,VERB
-استراتيجي,strategic,,VERB
+استراتيجي,strategic,,ADJ
 جيوسياسي,geopolitical,,VERB
 جيواستراتيجي,geostrategic,,VERB
-إقليمي,regional,,VERB
-أطلسي,Atlantic,,VERB
-متوسطي,Mediterranean,,VERB
-مغاربي,Maghrebi,,VERB
+إقليمي,regional,,ADJ
+أطلسي,Atlantic,,ADJ
+متوسطي,Mediterranean,,ADJ
+مغاربي,Maghrebi,,ADJ
 عائدات,revenues/proceeds,,NOUN
 إيرادات,receipts/revenues,,NOUN
 كلفة,cost,,NOUN
 تقييس,standardization,,NOUN
-احترافية,professionalism,,NOUN
+احترافية,professionalism,,ADJ
 كفاءات,competencies/skilled people,,NOUN
 ترقب,anticipation/wait-and-see,,NOUN
 تريث,deliberateness/waiting,,NOUN
@@ -351,10 +351,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 خزعة,biopsy,,NOUN
 مرارة,gallbladder,,NOUN
 قولون,colon,,NOUN
-شقيقة,migraine,,NOUN
+شقيقة,migraine,,ADJ
 صرع,epilepsy,,NOUN
-مهدئ,sedative,,NOUN
-قابلة,midwife,,NOUN
+مهدئ,sedative,,ADJ
+قابلة,midwife,,ADJ
 عقم,infertility,,NOUN
 زهايمر,Alzheimer disease,,NOUN
 باركنسون,Parkinson disease,,NOUN
@@ -380,8 +380,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مذنب,comet,,NOUN
 نيزك,meteorite,,NOUN
 حفريات,fossils,,NOUN
-مغناطيسية,magnetism,,NOUN
-استبيان,questionnaire,,VERB
+مغناطيسية,magnetism,,ADJ
+استبيان,questionnaire,,NOUN
 تحيز,bias,,NOUN
 معدات,equipment,,NOUN
 أتمتة,automation,,NOUN
@@ -414,7 +414,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تجميع,assembly,,NOUN
 تفكيك,dismantling,,NOUN
 سقالة,scaffolding,,NOUN
-إسمنت,cement,,VERB
+إسمنت,cement,,NOUN
 أساسات,foundations,,NOUN
 عارضة,beam,,NOUN
 دعامة,support pillar,,NOUN
@@ -438,10 +438,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 إشعارات,notifications,,NOUN
 ميغابايت,megabyte,,VERB
 لوغاريتم,logarithm,,NOUN
-متتالية,sequence,,NOUN
+متتالية,sequence,,ADJ
 متسلسلة,series,,NOUN
 اشتقاق,derivation,,NOUN
-مشتقة,derivative,,NOUN
+مشتقة,derivative,,ADJ
 تكامل,integral,,NOUN
 مثلثات,trigonometry,,NOUN
 مضلع,polygon,,NOUN
@@ -462,28 +462,28 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 إزاحة,translation,,NOUN
 أس,exponent,,NOUN
 تقريب,rounding,,NOUN
-تناسب,proportionality,,NOUN
+تناسب,proportionality,,VERB
 منوال,mode,,NOUN
 تباين,variance,,NOUN
-مسلمة,axiom,,NOUN
+مسلمة,axiom,,ADJ
 مبرهنة,theorem,,NOUN
 نفي,negation,,VERB
 تضمين,implication,,NOUN
 مصفوفة,matrix,,NOUN
-متجهة,vector,,NOUN
+متجهة,vector,,ADJ
 متراجحة,inequality,,NOUN
-مجهول,unknown,,NOUN
+مجهول,unknown,,ADJ
 تبسيط,simplification,,NOUN
 تركيبيات,combinatorics,,NOUN
 تباديل,permutations,,NOUN
 توافيق,combinations,,NOUN
 بالوعة,drain,,NOUN
 مطبات,speed bumps,,NOUN
-مدارية,roundabout,,NOUN
+مدارية,roundabout,,ADJ
 جسر,bridge,,NOUN
 نفق,tunnel,,NOUN
 كورنيش,corniche,,NOUN
-جهوية,regionalization,,NOUN
+جهوية,regionalization,,ADJ
 ارتفاق,easement,,NOUN
 مطافئ,fire station,,NOUN
 مقبرة,cemetery,,NOUN
@@ -498,12 +498,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 دهس,running over,,NOUN
 مواصلات,transportation,,NOUN
 اتصالات,telecommunications,,NOUN
-هوائي,antenna,,VERB
+هوائي,antenna,,ADJ
 متابعون,followers,,NOUN
 تشويش,interference,,NOUN
 ذبذبات,frequencies,,NOUN
 مودم,modem,,NOUN
-لاسلكي,walkie talkie,,VERB
+لاسلكي,walkie talkie,,ADJ
 ميكروفون,microphone,,NOUN
 بلوتوث,Bluetooth,,NOUN
 منهاج,syllabus,,NOUN
@@ -516,43 +516,43 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كفايات,competencies,,NOUN
 بيداغوجيا,pedagogy,,NOUN
 ديداكتيك,didactics,,NOUN
-وجودية,existentialism,,NOUN
+وجودية,existentialism,,ADJ
 ماهية,essence,,NOUN
-عرضي,contingent/accidental,,VERB
+عرضي,contingent/accidental,,ADJ
 ميتافيزيقا,metaphysics,,NOUN
 أنطولوجيا,ontology,,NOUN
 إبستمولوجيا,epistemology,,NOUN
 فينومينولوجيا,phenomenology,,NOUN
-جدلية,dialectic,,NOUN
-براغماتية,pragmatism,,NOUN
+جدلية,dialectic,,ADJ
+براغماتية,pragmatism,,ADJ
 عدمية,nihilism,,NOUN
 رواقية,stoicism,,NOUN
-مثالية,idealism,,NOUN
-مادية,materialism,,NOUN
+مثالية,idealism,,ADJ
+مادية,materialism,,ADJ
 حتمية,determinism,,NOUN
-غائية,teleology,,NOUN
+غائية,teleology,,ADJ
 نسبوية,relativism,,NOUN
 لاأدرية,agnosticism,,NOUN
 إلحاد,atheism,,NOUN
 ربوبية,deism,,NOUN
-نفعية,utilitarianism,,NOUN
+نفعية,utilitarianism,,ADJ
 واجبية,deontology,,NOUN
 استقراء,induction,,NOUN
 مفارقة,paradox,,NOUN
 مقولة,category,,NOUN
-كلي,universal,,VERB
-جزئي,particular,,VERB
-نسبي,relative,,VERB
-عقلانية,rationalism,,NOUN
-تجريبية,empiricism,,NOUN
+كلي,universal,,ADJ
+جزئي,particular,,ADJ
+نسبي,relative,,ADJ
+عقلانية,rationalism,,ADJ
+تجريبية,empiricism,,ADJ
 شكوكية,skepticism,,NOUN
 دوغمائية,dogmatism,,NOUN
-قصدية,intentionality,,NOUN
-ذاتانية,subjectivism,,NOUN
+قصدية,intentionality,,ADJ
+ذاتانية,subjectivism,,ADJ
 موضوعانية,objectivism,,NOUN
-ثنائية,dualism,,NOUN
-واحدية,monism,,NOUN
-عبثية,absurdism,,NOUN
+ثنائية,dualism,,ADJ
+واحدية,monism,,ADJ
+عبثية,absurdism,,ADJ
 أصالة,authenticity,,NOUN
 تفلسف,philosophizing,,NOUN
 كوجيطو,cogito,,NOUN
@@ -564,16 +564,16 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سيرورة,process/becoming,,NOUN
 صيرورة,becoming,,NOUN
 تشيؤ,reification,,NOUN
-نقيضة,antithesis,,NOUN
+نقيضة,antithesis,,ADJ
 تفكيكية,deconstruction,,NOUN
 بنيوية,structuralism,,NOUN
 حداثة,modernity,,NOUN
 أنسنة,humanization,,NOUN
-ظن,conjecture/supposition,,NOUN
+ظن,conjecture/supposition,,VERB
 احتمالية,probability,,NOUN
 تهافت,incoherence/collapse,,VERB
 تاريخانية,historicism,,NOUN
-سردية,narrative,,NOUN
+سردية,narrative,,ADJ
 سارد,narrator,,NOUN
 تبئير,focalization,,NOUN
 ملهاة,comedy,,NOUN
@@ -584,8 +584,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 انزياح,deviation/defamiliarization,,NOUN
 ترميز,symbolization,,NOUN
 يوميات,diary,,NOUN
-كلاسيكية,classicism,,NOUN
-رمزية,symbolism,,NOUN
+كلاسيكية,classicism,,ADJ
+رمزية,symbolism,,ADJ
 سريالية,surrealism,,NOUN
 أقصوصة,short tale,,NOUN
 تناص,intertextuality,,NOUN
@@ -598,12 +598,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ركاكة,stylistic weakness,,NOUN
 إسهاب,prolixity,,NOUN
 اقتباس,quotation,,NOUN
-ديوان,poetry collection,,VERB
+ديوان,poetry collection,,NOUN
 مختارات,selected works,,NOUN
 تجنيس,genre classification,,NOUN
 تخييل,fictionalization,,NOUN
-حوارية,dialogism,,NOUN
-مقامة,maqama,,NOUN
+حوارية,dialogism,,ADJ
+مقامة,maqama,,ADJ
 نحات,sculptor,,NOUN
 جدارية,mural,,NOUN
 خطاط,calligrapher,,NOUN
@@ -621,25 +621,25 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قبة,dome,,NOUN
 إبداعية,creativity,,NOUN
 ابتذال,banality/vulgarity,,NOUN
-تكلف,affectation,,NOUN
+تكلف,affectation,,VERB
 أنثروبولوجيا,anthropology,,NOUN
 إثنوغرافيا,ethnography,,NOUN
 تراتبية,hierarchy,,NOUN
-طبقية,class stratification,,NOUN
+طبقية,class stratification,,ADJ
 برجوازية,bourgeoisie,,NOUN
 بروليتاريا,proletariat,,NOUN
 أنوميا,anomie,,NOUN
 هابيتوس,habitus,,NOUN
 تمدن,urbanization,,VERB
-تحضر,urbanity,,NOUN
+تحضر,urbanity,,VERB
 فردانية,individualism,,NOUN
 جماعتية,communitarianism,,NOUN
-قبلية,tribalism,,NOUN
+قبلية,tribalism,,ADJ
 مصاهرة,marriage alliance,,NOUN
 أبوية,patriarchy,,NOUN
 تثاقف,acculturation,,NOUN
 مثاقفة,cross-cultural exchange,,NOUN
-كونية,universality,,NOUN
+كونية,universality,,ADJ
 استشراق,orientalism,,NOUN
 احتفالية,festivity/celebration,,NOUN
 سمعة,reputation,,NOUN
@@ -656,7 +656,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 نرجسية,narcissism,,NOUN
 سادية,sadism,,NOUN
 مازوخية,masochism,,NOUN
-ذهان,psychosis,,VERB
+ذهان,psychosis,,NOUN
 عصاب,neurosis,,NOUN
 فصام,schizophrenia,,NOUN
 دافعية,motivation,,NOUN
@@ -664,9 +664,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 إشباع,gratification,,NOUN
 إيحاء,suggestion,,NOUN
 انبساطية,extraversion,,NOUN
-انطوائية,introversion,,NOUN
+انطوائية,introversion,,ADJ
 عصابية,neuroticism,,NOUN
-هذيان,delirium,,VERB
+هذيان,delirium,,NOUN
 سيكوباتية,psychopathy,,NOUN
 انتكاسة,relapse,,NOUN
 لاهوت,theology,,VERB
@@ -681,7 +681,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تجويد,Quranic recitation rules,,NOUN
 إسناد,chain of transmission,,NOUN
 مفتي,mufti,,VERB
-مكروه,reprehensible,,NOUN
+مكروه,reprehensible,,ADJ
 مندوب,recommended,,NOUN
 مباح,permissible,,NOUN
 عبادات,acts of worship,,NOUN
@@ -699,25 +699,25 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ابتلاء,divine trial,,NOUN
 توكل,trust in God,,NOUN
 غيب,the unseen,,NOUN
-آخرة,hereafter,,NOUN
+آخرة,hereafter,,ADJ
 بعث,resurrection,,NOUN
 ثواب,divine reward,,NOUN
 إمامة,imamate/prayer leadership,,NOUN
-سلفية,Salafism,,NOUN
-وسطية,moderation,,NOUN
+سلفية,Salafism,,ADJ
+وسطية,moderation,,ADJ
 روحانية,spirituality,,NOUN
 جاهلية,pre-Islamic era,,NOUN
 فتوحات,conquests,,NOUN
-مرابطون,Almoravids,,NOUN
+مرابطون,Almoravids,,ADJ
 موحدون,Almohads,,NOUN
-مرينيون,Marinids,,NOUN
-سعديون,Saadians,,NOUN
-علويون,Alaouites,,NOUN
+مرينيون,Marinids,,ADJ
+سعديون,Saadians,,ADJ
+علويون,Alaouites,,ADJ
 أندلس,al-Andalus,,NOUN
 موريسكيون,Moriscos,,NOUN
-مخزن,Makhzen state apparatus,,VERB
-حوليات,annals,,NOUN
-شرفاء,sharifian descendants,,NOUN
+مخزن,Makhzen state apparatus,,NOUN
+حوليات,annals,,ADJ
+شرفاء,sharifian descendants,,ADJ
 تحقيب,periodization,,NOUN
 مسكوكات,numismatics/coins,,NOUN
 سقاية,public fountain,,NOUN
@@ -730,12 +730,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بطولات,heroic deeds,,NOUN
 عراقة,ancient rootedness,,NOUN
 يوبيل,jubilee,,NOUN
-مئوية,centenary,,NOUN
+مئوية,centenary,,ADJ
 لسانيات,linguistics,,NOUN
 لساني,linguist,,VERB
 صوتيات,phonetics,,NOUN
 فونولوجيا,phonology,,NOUN
-نحو,syntax/grammar,,NOUN
+نحو,syntax/grammar,,ADP
 دلالة,semantics,,NOUN
 تداولية,pragmatics,,NOUN
 معجمية,lexicology,,NOUN
@@ -744,14 +744,14 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مثنى,dual form,,NOUN
 تأنيث,feminization,,NOUN
 تذكير,masculinization,,NOUN
-بيان,rhetorical clarity,,VERB
+بيان,rhetorical clarity,,NOUN
 بديع,rhetorical embellishment,,NOUN
 مجاز,figurative language,,NOUN
 طباق,antithesis device,,NOUN
 جناس,paronomasia,,NOUN
-سجع,rhymed prose,,NOUN
+سجع,rhymed prose,,VERB
 التفات,rhetorical shift of person,,NOUN
-عامية,colloquial language,,NOUN
+عامية,colloquial language,,ADJ
 تيفيناغ,Tifinagh script,,NOUN
 لكنة,accent,,NOUN
 تعريب,arabization,,NOUN
@@ -759,8 +759,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مصطلحية,terminology,,NOUN
 لدغة,lisp,,NOUN
 تقعيد,codification of rules,,NOUN
-سيميائيات,semiotics,,NOUN
-وجدان,inner sentiment,,VERB
+سيميائيات,semiotics,,ADJ
+وجدان,inner sentiment,,NOUN
 شجن,melancholy emotion,,VERB
 شجو,plaintive sorrow,,NOUN
 غبطة,serene joy,,NOUN
@@ -783,20 +783,20 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ريبة,suspicion,,NOUN
 امتعاض,resentful annoyance,,NOUN
 سخط,indignation,,NOUN
-حنق,seething anger,,NOUN
+حنق,seething anger,,VERB
 غيظ,exasperation,,NOUN
 ضغينة,rancor,,NOUN
 شماتة,gloating,,NOUN
 انبهار,dazzlement,,NOUN
-افتتان,infatuation,,VERB
+افتتان,infatuation,,NOUN
 هيام,passionate love,,NOUN
-وله,lovesickness,,NOUN
+وله,lovesickness,,CCONJ
 صبابة,ardent longing,,NOUN
 شغف,passion,,NOUN
 تيم,being enslaved by love,,NOUN
 ألفة,familiarity/intimacy,,NOUN
 مودة,affectionate bond,,NOUN
-حميمية,intimacy,,NOUN
+حميمية,intimacy,,ADJ
 تراحم,mutual compassion,,NOUN
 مواساة,consolation,,NOUN
 رأفة,tender mercy,,NOUN
@@ -811,13 +811,13 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تصالح,reconciliation,,NOUN
 صفح,magnanimous pardon,,NOUN
 تغافر,mutual forgiveness,,NOUN
-ترفع,rising above pettiness,,NOUN
+ترفع,rising above pettiness,,VERB
 إباء,proud refusal,,NOUN
 إذلال,humiliation,,NOUN
 مهانة,indignity,,NOUN
 احتشام,decorous modesty,,NOUN
 ارتباك,fluster,,NOUN
-حرج,awkward discomfort,,NOUN
+حرج,awkward discomfort,,ADJ
 انزعاج,unease,,NOUN
 فتور,lukewarmness,,NOUN
 سأم,weariness/tedium,,NOUN
@@ -826,14 +826,14 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 استئناس,finding comfort in company,,NOUN
 اشتياق,yearning,,NOUN
 لهفة,eager anticipation,,NOUN
-تلهف,burning eagerness,,NOUN
+تلهف,burning eagerness,,VERB
 إنصات,attentive listening,,NOUN
-تفهم,understanding attitude,,NOUN
+تفهم,understanding attitude,,VERB
 كياسة,social finesse,,NOUN
 دماثة,gentleness of character,,NOUN
 بشاشة,welcoming cheerfulness,,NOUN
 عبوس,scowling,,NOUN
-تجهم,sullen face,,NOUN
+تجهم,sullen face,,VERB
 نفور,aversion,,NOUN
 اشمئزاز,disgust,,NOUN
 ازدراء,contempt,,NOUN
@@ -844,7 +844,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تملق,flattery,,NOUN
 بحذافيره,in every detail,,NOUN
 رصانة,sobriety of judgment,,NOUN
-وقار,gravitas,,NOUN
+وقار,gravitas,,CCONJ
 هيبة,commanding presence,,NOUN
 فطنة,acumen,,NOUN
 حصافة,sound judgment,,NOUN
@@ -852,11 +852,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 اتزان,equilibrium of character,,VERB
 بصيرة,insight,,NOUN
 حنكة,seasoned experience,,NOUN
-تبصر,foresight,,NOUN
+تبصر,foresight,,VERB
 تروي,deliberateness,,VERB
 أناة,unhurried patience,,NOUN
-تجلد,endurance,,NOUN
-دأب,assiduousness,,NOUN
+تجلد,endurance,,VERB
+دأب,assiduousness,,VERB
 شكيمة,strong will,,NOUN
 بسالة,valor,,NOUN
 إقدام,boldness,,NOUN
@@ -868,7 +868,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جود,munificence,,NOUN
 بذل,giving of oneself,,NOUN
 تفان,devotion to duty,,VERB
-حذق,skillfulness,,NOUN
+حذق,skillfulness,,VERB
 ألمعية,brilliance of mind,,NOUN
 نبوغ,precocious talent,,NOUN
 فرادة,uniqueness,,NOUN
@@ -883,19 +883,19 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جبلة,inborn nature,,NOUN
 خصلة,character trait,,NOUN
 شمائل,noble qualities,,NOUN
-محاسن,merits,,VERB
+محاسن,merits,,NOUN
 مثالب,shortcomings,,NOUN
 نقيصة,moral defect,,NOUN
 خسة,baseness,,NOUN
 دناءة,meanness,,NOUN
 لؤم,ignoble malice,,NOUN
 تدليس,fraudulent concealment,,NOUN
-تصنع,affectedness,,NOUN
+تصنع,affectedness,,VERB
 غطرسة,haughtiness,,NOUN
 صلف,insolent conceit,,NOUN
 خيلاء,vainglory,,NOUN
 زهو,self-satisfaction,,NOUN
-تعجرف,overbearing arrogance,,NOUN
+تعجرف,overbearing arrogance,,VERB
 جبروت,tyrannical might,,VERB
 جشع,greed,,NOUN
 شح,avarice,,NOUN
@@ -903,7 +903,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 إسراف,extravagance,,NOUN
 تبذير,squandering,,NOUN
 كفاف,sufficiency,,NOUN
-يسر,ease of circumstances,,NOUN
+يسر,ease of circumstances,,VERB
 عسر,hardship of circumstances,,NOUN
 بؤس,misery,,NOUN
 شقاء,wretchedness,,NOUN
@@ -918,7 +918,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تلاشي,vanishing,,VERB
 زوال,cessation/passing,,NOUN
 ديمومة,permanence,,NOUN
-سرمدية,everlastingness,,NOUN
+سرمدية,everlastingness,,ADJ
 أزلية,eternity without beginning,,NOUN
 أبدية,eternity without end,,NOUN
 خلود,immortality,,NOUN
@@ -934,17 +934,17 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سلاسة,smoothness,,NOUN
 إبهام,ambiguity,,NOUN
 جلاء,clarity/evidentness,,NOUN
-موثوقية,reliability,,NOUN
-سطحية,superficiality,,NOUN
+موثوقية,reliability,,ADJ
+سطحية,superficiality,,ADJ
 تنوير,enlightenment,,NOUN
 ظلامية,obscurantism,,NOUN
 أسطرة,mythologization,,NOUN
 ميثولوجيا,mythology,,NOUN
 طوطمية,totemism,,NOUN
-شعائرية,ritualism,,NOUN
-دنيوية,worldliness,,NOUN
+شعائرية,ritualism,,ADJ
+دنيوية,worldliness,,ADJ
 نسك,ascetic devotion,,NOUN
-تبتل,devotional withdrawal,,NOUN
+تبتل,devotional withdrawal,,VERB
 ترادف,synonymy,,NOUN
 توقير,respectful reverence,,NOUN
 إجلال,deep veneration,,NOUN
@@ -970,11 +970,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بينة,evidence/proof,,NOUN
 مستشار,counselor/appeals judge,,NOUN
 متقاض,litigant,,NOUN
-مدان,convicted person,,VERB
+مدان,convicted person,,NOUN
 جانح,delinquent,,NOUN
 جان,perpetrator,,VERB
 التماس,plea/petition for review,,NOUN
-وشاية,denunciation/informing,,NOUN
+وشاية,denunciation/informing,,CCONJ
 إعذار,formal notice,,NOUN
 إمهال,granting a delay,,NOUN
 تبليغ,notification/service,,NOUN
@@ -991,8 +991,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 اتجار,trafficking,,NOUN
 إيذاء,causing harm,,NOUN
 اغتصاب,rape/usurpation,,NOUN
-قانونية,lawfulness,,NOUN
-أهلية,legal capacity,,NOUN
+قانونية,lawfulness,,ADJ
+أهلية,legal capacity,,ADJ
 ذمة,legal liability/patrimony,,NOUN
 تعاقد,contracting,,NOUN
 إذعان,submission/adhesion,,VERB
@@ -1002,54 +1002,54 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أحقية,entitlement,,NOUN
 إشهاد,attestation,,NOUN
 تحر,investigation/inquiry,,NOUN
-شكلية,formality,,NOUN
+شكلية,formality,,ADJ
 شكلي,formal/procedural,,VERB
-ملزم,binding,,NOUN
-جائز,permissible,,NOUN
-محظور,prohibited,,NOUN
+ملزم,binding,,ADJ
+جائز,permissible,,ADJ
+محظور,prohibited,,ADJ
 زجري,punitive/repressive,,VERB
-تحكيمي,arbitral,,VERB
-استعجالي,urgent/summary,,VERB
-ابتدائي,of first instance/preliminary,,VERB
+تحكيمي,arbitral,,ADJ
+استعجالي,urgent/summary,,ADJ
+ابتدائي,of first instance/preliminary,,ADJ
 استئنافي,appellate,,VERB
 قطعي,conclusive/definitive,,VERB
 غيابي,in absentia,,VERB
-حضوري,in presence of parties,,VERB
-قاضى,to sue/litigate,,NOUN
-غرم,to fine,,NOUN
-استجوب,to interrogate,,NOUN
-أحال,to refer/transfer,,NOUN
+حضوري,in presence of parties,,ADJ
+قاضى,to sue/litigate,,VERB
+غرم,to fine,,VERB
+استجوب,to interrogate,,VERB
+أحال,to refer/transfer,,VERB
 مخاصمة,litigation against a judge,,NOUN
 إنابة,delegation/rogatory commission,,NOUN
 تناف,incompatibility,,NOUN
 تضارب,conflict/clash,,NOUN
 إفلات,escaping/impunity,,NOUN
 عدلي,judicial/legal,,VERB
-نيابي,parliamentary/representative,,VERB
+نيابي,parliamentary/representative,,ADJ
 حيثية,legal consideration,,NOUN
 مقال,written claim/article,,NOUN
 صائر,court costs,,NOUN
 إكراه,coercion/duress,,NOUN
-غبن,lesion/unfair prejudice,,VERB
-صورية,sham/simulation,,NOUN
+غبن,lesion/unfair prejudice,,NOUN
+صورية,sham/simulation,,ADJ
 شروع,attempt at crime,,NOUN
 عمد,premeditation/intent,,NOUN
-تضامنية,joint liability,,NOUN
+تضامنية,joint liability,,ADJ
 تعاقدية,contractual nature,,NOUN
-تقصيرية,tortious,,NOUN
+تقصيرية,tortious,,ADJ
 انتفاع,usufruct,,NOUN
 رقبة,bare ownership,,NOUN
 شفعة,preemption right,,NOUN
 قسمة,partition/division,,NOUN
 شياع,joint ownership,,NOUN
 أسبقية,priority/precedence,,NOUN
-دائنية,creditor status,,NOUN
+دائنية,creditor status,,ADJ
 إعسار,insolvency,,NOUN
 استيفاء,full collection/satisfaction,,NOUN
 مقاصة,set off/clearing,,NOUN
 إبراء,discharge/release from debt,,NOUN
 وديعة,deposit,,NOUN
-عارية,loan for use,,NOUN
+عارية,loan for use,,ADJ
 مرابحة,murabaha/markup sale,,NOUN
 ربا,usury,,NOUN
 غرر,excessive uncertainty,,NOUN
@@ -1057,7 +1057,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 إيجار,rental/lease,,NOUN
 حراسة,custody/guardianship,,NOUN
 قوامة,guardianship/custodianship,,NOUN
-متبوع,principal in liability,,NOUN
+متبوع,principal in liability,,ADJ
 نزع,expropriation/removal,,NOUN
 استملاك,expropriation/acquisition,,NOUN
 تقييد,registration/restriction,,NOUN
@@ -1078,12 +1078,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قصور,minority/deficiency,,NOUN
 سفه,prodigality,,NOUN
 حجر,interdiction/quarantine,,NOUN
-فقدان,disappearance/loss,,VERB
+فقدان,disappearance/loss,,NOUN
 إرثية,hereditary nature,,NOUN
 تعصيب,agnatic inheritance,,NOUN
 محجور,interdicted person,,NOUN
 عقوبات,penalties/penal code,,NOUN
-موقوف,person in custody/suspended,,NOUN
+موقوف,person in custody/suspended,,ADJ
 مبحوث,wanted person,,NOUN
 مؤاخذة,holding accountable/blame,,NOUN
 متابعات,prosecutions,,NOUN
@@ -1092,19 +1092,19 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تغريب,banishment/westernization,,NOUN
 اعتقالي,related to detention,,VERB
 سجني,prison related,,VERB
-إصلاحية,reformatory,,NOUN
+إصلاحية,reformatory,,ADJ
 سوار,electronic bracelet/bracelet,,NOUN
-شرطي,conditional/police officer,,VERB
+شرطي,conditional/police officer,,NOUN
 إفراجي,related to release,,VERB
 مغربة,moroccanization,,NOUN
 تخليق,moralization of public life,,NOUN
-وصائية,tutelage nature,,NOUN
-مركزية,centralization/centralism,,NOUN
+وصائية,tutelage nature,,ADJ
+مركزية,centralization/centralism,,ADJ
 لاتمركز,deconcentration,,NOUN
 تفريع,devolution/branching,,NOUN
-انتقالية,transitional nature,,NOUN
-تغول,overreach/domination,,NOUN
-استبدادية,authoritarianism,,NOUN
+انتقالية,transitional nature,,ADJ
+تغول,overreach/domination,,VERB
+استبدادية,authoritarianism,,ADJ
 تسلطية,authoritarianism,,NOUN
 دكتاتورية,dictatorship,,NOUN
 ثيوقراطية,theocracy,,NOUN
@@ -1115,11 +1115,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بلوتوقراطية,plutocracy,,NOUN
 ميريتوقراطية,meritocracy,,NOUN
 جمهورياتية,republicanism,,NOUN
-ملكياتية,monarchism,,NOUN
-برلمانية,parliamentarism,,NOUN
+ملكياتية,monarchism,,ADJ
+برلمانية,parliamentarism,,ADJ
 رئاسوية,presidentialism,,NOUN
 كونفدرالية,confederation,,NOUN
-انفصالية,separatism,,NOUN
+انفصالية,separatism,,ADJ
 وحدوية,unionism/unitarism,,NOUN
 شعبوي,populist,,VERB
 يسارية,leftism,,NOUN
@@ -1128,7 +1128,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 إسلاموية,islamism,,NOUN
 انتهازية,opportunism,,NOUN
 وصولية,careerism/arrivism,,NOUN
-زعامتية,cult of leadership,,NOUN
+زعامتية,cult of leadership,,ADJ
 اصطفاف,alignment,,NOUN
 تموقع,positioning,,NOUN
 تكتل,bloc/coalition,,NOUN
@@ -1139,18 +1139,18 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ترشيح,nomination/candidacy,,NOUN
 إقالة,dismissal,,NOUN
 تنحية,removal from office,,NOUN
-تنح,stepping down,,NOUN
+تنح,stepping down,,VERB
 ولاية,term of office/mandate,,NOUN
 عهدة,term/mandate,,NOUN
 مأمورية,term of office/mission,,NOUN
 تمديد,extension/prolongation,,NOUN
-تجديدية,renewalism,,NOUN
+تجديدية,renewalism,,ADJ
 شغور,vacancy of office,,NOUN
-تمثيلية,representativeness,,NOUN
+تمثيلية,representativeness,,ADJ
 كوطا,quota,,NOUN
 بلقنة,balkanization,,NOUN
-تشرذم,fragmentation/splintering,,NOUN
-توافقية,consensualism,,NOUN
+تشرذم,fragmentation/splintering,,VERB
+توافقية,consensualism,,ADJ
 تراض,mutual consent,,NOUN
 تسوية,settlement,,NOUN
 مساع,good offices/endeavors,,NOUN
@@ -1159,12 +1159,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 استقواء,seeking foreign backing/bullying,,NOUN
 تسييس,politicization,,NOUN
 تحزب,partisanship,,NOUN
-حزبية,partisanship,,NOUN
+حزبية,partisanship,,ADJ
 محاصصة,quota sharing of posts,,NOUN
 ريعية,rentierism,,NOUN
 غنيمة,spoils/booty,,NOUN
-امتيازية,privilege system,,NOUN
-احتكارية,monopolism,,NOUN
+امتيازية,privilege system,,ADJ
+احتكارية,monopolism,,ADJ
 لوبي,lobby,,VERB
 تجييش,mobilizing masses/militarization,,NOUN
 تنشئة,socialization/upbringing,,NOUN
@@ -1175,10 +1175,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 انغلاق,closedness/isolation,,NOUN
 زخم,momentum,,NOUN
 منعطف,turning point,,NOUN
-منعرج,turn/bend,,NOUN
+منعرج,turn/bend,,ADJ
 مفترق,crossroads,,NOUN
 اختلال,imbalance/dysfunction,,NOUN
-تفاوت,disparity,,VERB
+تفاوت,disparity,,NOUN
 تشاركية,participatory approach,,NOUN
 تشاور,consultation,,NOUN
 تجاوب,responsiveness,,NOUN
@@ -1187,7 +1187,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 استشراف,foresight/anticipation,,NOUN
 استباق,anticipation/preemption,,NOUN
 خارطة,map/roadmap,,NOUN
-مخطط,plan/scheme,,NOUN
+مخطط,plan/scheme,,ADJ
 ورش,workshop/major project,,NOUN
 إستراتيجية,strategy,,NOUN
 تكتيك,tactic,,NOUN
@@ -1198,23 +1198,23 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ميثاق,charter/pact,,NOUN
 محور,axis/pivot,,NOUN
 استقطابية,polarity,,NOUN
-أحادية,unilateralism/unipolarity,,NOUN
-إقليمية,regionalism,,NOUN
+أحادية,unilateralism/unipolarity,,ADJ
+إقليمية,regionalism,,ADJ
 جيوسياسية,geopolitics,,NOUN
-سيادية,sovereignty related,,NOUN
+سيادية,sovereignty related,,ADJ
 سيادي,sovereign,,VERB
-استعمارية,colonialism,,NOUN
+استعمارية,colonialism,,ADJ
 إمبريالية,imperialism,,NOUN
 حيادية,impartiality,,NOUN
 تعتيم,blackout/obfuscation,,NOUN
-ضبابية,vagueness/fog,,NOUN
+ضبابية,vagueness/fog,,ADJ
 نجاعة,efficacy,,NOUN
 فعالية,effectiveness,,NOUN
 التقائية,convergence of policies,,NOUN
 تماسك,cohesion,,NOUN
 لحمة,cohesion/unity,,NOUN
 تآزر,synergy/solidarity,,NOUN
-تعاضد,mutual support,,NOUN
+تعاضد,mutual support,,VERB
 ولاء,loyalty/allegiance,,NOUN
 عرش,throne,,NOUN
 وصيف,runner-up/chamberlain,,NOUN
@@ -1224,14 +1224,14 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 وجهاء,dignitaries,,NOUN
 نخبوية,elitism,,NOUN
 قاعدية,grassroots nature,,NOUN
-جماهيرية,mass appeal,,NOUN
+جماهيرية,mass appeal,,ADJ
 تحرير,liberalization/editing,,NOUN
 مقاولاتية,entrepreneurship,,NOUN
 توظيفات,investments/placements,,NOUN
-استثماري,investment related,,VERB
+استثماري,investment related,,ADJ
 مدخر,saver,,NOUN
 اكتتاب,subscription/underwriting,,NOUN
-طرح,offering/subtraction,,NOUN
+طرح,offering/subtraction,,VERB
 إدراج,listing/inclusion,,NOUN
 رسملة,capitalization,,NOUN
 توازنات,balances/equilibria,,NOUN
@@ -1241,12 +1241,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سداد,repayment,,NOUN
 تحصيل,collection of revenue,,NOUN
 جبائي,fiscal/tax related,,VERB
-ضريبي,tax related,,VERB
+ضريبي,tax related,,ADJ
 وعاء,tax base/receptacle,,NOUN
 تملص,evasion/shirking,,NOUN
 غرامات,fines/penalties,,NOUN
 مكوس,excise duties,,NOUN
-جمركي,customs related,,VERB
+جمركي,customs related,,ADJ
 جمركة,customs clearance,,NOUN
 تعريفة,tariff,,NOUN
 حصص,quotas/shares,,NOUN
@@ -1260,23 +1260,23 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 إعانات,subsidies/aid,,NOUN
 مدقق,auditor,,NOUN
 محاسباتي,accounting related,,VERB
-ميزانياتي,budgetary,,VERB
-مالية,finance/finances,,NOUN
+ميزانياتي,budgetary,,NOUN
+مالية,finance/finances,,ADJ
 خزينة,treasury,,NOUN
 ودائع,deposits,,NOUN
 مدخرات,savings,,NOUN
 ذمم,receivables/liabilities,,NOUN
 مستحقات,dues/receivables,,NOUN
 متأخرات,arrears,,NOUN
-مخصص,provision/allocated,,NOUN
+مخصص,provision/allocated,,ADJ
 إهلاك,depreciation,,NOUN
 تموين,provisioning/supply,,NOUN
-تزود,supply/procurement,,NOUN
+تزود,supply/procurement,,VERB
 لوجستي,logistical,,VERB
 عبور,transit/crossing,,NOUN
 ترانزيت,transit,,VERB
 مبادلات,exchanges/trade,,NOUN
-تبادلية,reciprocity,,NOUN
+تبادلية,reciprocity,,ADJ
 انفتاحية,openness policy,,NOUN
 عولمية,globalism,,NOUN
 أسواق,markets,,NOUN
@@ -1284,10 +1284,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مواصفات,specifications/standards,,NOUN
 اعتمادية,accreditation/reliability,,NOUN
 سوقي,market related,,VERB
-قطاعي,sectoral,,VERB
+قطاعي,sectoral,,NOUN
 بنيوي,structural,,VERB
-ظرفي,cyclical/circumstantial,,VERB
-ظرفية,conjuncture,,NOUN
+ظرفي,cyclical/circumstantial,,ADJ
+ظرفية,conjuncture,,ADJ
 خصاص,shortage/deficit,,NOUN
 ندرة,scarcity,,NOUN
 طفرة,boom/leap,,NOUN
@@ -1298,9 +1298,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 اتجاهية,directionality/trend,,NOUN
 إسقاطات,projections,,NOUN
 محاكاة,simulation,,NOUN
-قياسي,record/econometric,,VERB
-إحصائي,statistical/statistician,,VERB
-مضاعف,multiplier,,NOUN
+قياسي,record/econometric,,ADJ
+إحصائي,statistical/statistician,,ADJ
+مضاعف,multiplier,,ADJ
 قدرة,capacity/power,,NOUN
 مقدرة,ability/means,,NOUN
 قوت,sustenance/livelihood,,VERB
@@ -1313,27 +1313,27 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 منح,grants/scholarships,,NOUN
 تأمينات,insurances,,NOUN
 اشتراكات,contributions/subscriptions,,NOUN
-مأجور,wage earner/paid,,NOUN
+مأجور,wage earner/paid,,ADJ
 تمهين,apprenticeship/vocationalization,,NOUN
-مهنية,professionalism,,NOUN
-حرفية,craftsmanship/literalness,,NOUN
+مهنية,professionalism,,ADJ
+حرفية,craftsmanship/literalness,,ADJ
 مهيكل,structured,,NOUN
 بنيات,structures,,NOUN
-تحتية,infrastructure related,,NOUN
+تحتية,infrastructure related,,ADJ
 تجهيزات,equipment/facilities,,NOUN
-منشآت,facilities/installations,,VERB
+منشآت,facilities/installations,,NOUN
 صفقات,deals/procurement contracts,,NOUN
 مناقصة,tender/bidding,,NOUN
 عروض,offers/bids,,NOUN
 إرساء,awarding/anchoring,,NOUN
 تحملات,obligations/charges,,NOUN
 إفلاسية,bankruptcy proceedings,,NOUN
-إدارية,administrative matter,,NOUN
+إدارية,administrative matter,,ADJ
 قائد,caid/commander,,NOUN
 قيادة,leadership/caidat,,NOUN
 شيخ,sheikh/local chief,,NOUN
-جماعي,communal/collective,,VERB
-جهوي,regional,,VERB
+جماعي,communal/collective,,ADJ
+جهوي,regional,,ADJ
 عمادة,district office/deanship,,NOUN
 ترابي,territorial,,VERB
 ترابية,territoriality,,NOUN
@@ -1345,21 +1345,21 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ملاحق,annexes,,NOUN
 تعديلات,amendments,,NOUN
 مشرع,legislator,,NOUN
-مقنن,codified/regulator,,VERB
+مقنن,codified/regulator,,ADJ
 أطر,cadres/executives,,NOUN
 إطار,cadre/framework,,NOUN
 تأطيري,framework related,,VERB
 مديرية,directorate,,NOUN
 كتابة,secretariat/writing,,NOUN
-مؤسساتي,institutional,,VERB
+مؤسساتي,institutional,,ADJ
 هيآت,bodies/organizations,,VERB
-مجلسي,bicameral/council related,,VERB
+مجلسي,bicameral/council related,,NOUN
 غرفة,chamber,,NOUN
-غرفتان,two chambers,,VERB
-لجان,committees,,VERB
+غرفتان,two chambers,,NOUN
+لجان,committees,,NOUN
 رئاسة,presidency/chairmanship,,NOUN
-انتخابي,electoral,,VERB
-انتخابية,electoral event/campaign,,NOUN
+انتخابي,electoral,,ADJ
+انتخابية,electoral event/campaign,,ADJ
 تشريعيات,legislative elections,,NOUN
 جماعيات,local elections,,NOUN
 جزئيات,by-elections/particulars,,NOUN
@@ -1368,19 +1368,19 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 دوائر,constituencies/circles,,NOUN
 دائرة,constituency/department,,NOUN
 لائحي,list based,,VERB
-نسبية,proportionality/relativity,,NOUN
+نسبية,proportionality/relativity,,ADJ
 قاسم,divisor/common factor,,NOUN
 متصدر,frontrunner,,NOUN
-مقترع,voter,,NOUN
+مقترع,voter,,ADJ
 ناخب,elector,,NOUN
 ناخبون,electorate,,NOUN
-منتخبون,elected officials,,NOUN
+منتخبون,elected officials,,ADJ
 إقبال,turnout/demand,,NOUN
 تجنيد,recruitment/enlistment,,NOUN
 تجمع,rally/gathering,,NOUN
 صناديق,ballot boxes/funds,,NOUN
-ملغاة,invalidated/void,,NOUN
-مطعون,contested/challenged,,NOUN
+ملغاة,invalidated/void,,ADJ
+مطعون,contested/challenged,,ADJ
 طعون,electoral appeals,,NOUN
 إفساد,corruption/spoiling,,NOUN
 تلاعب,manipulation/tampering,,NOUN
@@ -1394,7 +1394,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تشكيل,formation/forming,,NOUN
 مشاورات,consultations,,NOUN
 حقائب,portfolios,,NOUN
-وزاري,ministerial,,VERB
+وزاري,ministerial,,ADJ
 منتدب,delegate minister/delegated,,NOUN
 شفوي,oral,,VERB
 كتابي,written,,VERB
@@ -1402,7 +1402,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أجوبة,answers,,NOUN
 مساطر,procedures,,NOUN
 رزنامة,calendar/schedule,,NOUN
-استثنائية,extraordinary session/exception,,NOUN
+استثنائية,extraordinary session/exception,,ADJ
 خريفية,autumn session,,NOUN
 ربيعية,spring session,,NOUN
 اختتام,closing/conclusion,,NOUN
@@ -1415,7 +1415,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 رزمة,package/bundle,,NOUN
 منظومة,system/framework,,NOUN
 إصلاحات,reforms,,NOUN
-اختلالية,dysfunctionality,,NOUN
+اختلالية,dysfunctionality,,ADJ
 لاورقية,paperless practice,,NOUN
 تراخيص,permits/licenses,,NOUN
 تعهد,pledge/undertaking,,NOUN
@@ -1423,7 +1423,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تظلمات,grievances,,NOUN
 شكايات,complaints,,NOUN
 مرتفق,service user,,NOUN
-مرتفقون,service users,,NOUN
+مرتفقون,service users,,ADJ
 استقبال,reception,,NOUN
 تسريع,acceleration,,NOUN
 تسهيل,facilitation,,NOUN
@@ -1440,7 +1440,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تأديب,discipline/disciplinary action,,NOUN
 تأديبي,disciplinary,,VERB
 توبيخ,reprimand,,NOUN
-إنذارية,warning nature,,NOUN
+إنذارية,warning nature,,ADJ
 مباريات,competitive exams,,NOUN
 توظيفية,recruitment related,,NOUN
 مؤهلات,qualifications,,NOUN
@@ -1449,12 +1449,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مناصب,posts/positions,,NOUN
 إلحاق,secondment/attachment,,NOUN
 وضعية,status/situation,,NOUN
-تغيب,absenteeism,,NOUN
-أمني,security related,,VERB
-أمنية,security matter/wish,,NOUN
+تغيب,absenteeism,,VERB
+أمني,security related,,ADJ
+أمنية,security matter/wish,,ADJ
 استخبارات,intelligence services,,NOUN
-استخباراتي,intelligence related,,VERB
-مخابراتي,intelligence related,,VERB
+استخباراتي,intelligence related,,NOUN
+مخابراتي,intelligence related,,NOUN
 عميل,agent/client,,NOUN
 مخبر,informant/laboratory,,NOUN
 وشاة,informers,,NOUN
@@ -1463,13 +1463,13 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سيبرانية,cybersecurity domain,,NOUN
 معلوماتي,informational/IT related,,VERB
 مسرب,leaker/leaked,,NOUN
-سري,secret/confidential,,VERB
+سري,secret/confidential,,ADJ
 إفشاء,disclosure/divulging,,NOUN
-كتمان,concealment/secrecy,,VERB
-تكتم,secrecy/discretion,,NOUN
+كتمان,concealment/secrecy,,NOUN
+تكتم,secrecy/discretion,,VERB
 إخفاء,hiding/concealment,,NOUN
 طمس,obliteration/covering up,,NOUN
-تستر,covering up,,NOUN
+تستر,covering up,,VERB
 خلايا,cells,,NOUN
 مداهمات,raids,,NOUN
 تمشيط,combing/sweeping,,NOUN
@@ -1481,26 +1481,26 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حاجز,checkpoint/barrier,,NOUN
 حواجز,checkpoints/barriers,,NOUN
 تفتيشات,searches/inspections,,NOUN
-حدودي,border related,,VERB
+حدودي,border related,,ADJ
 معبر,crossing point,,NOUN
 منفذ,outlet/access point,,NOUN
-متسلل,infiltrator,,NOUN
+متسلل,infiltrator,,ADJ
 مهربون,smugglers,,NOUN
 مهرب,smuggler,,NOUN
 شبكات,networks,,NOUN
 عصابة,gang,,NOUN
 عصابات,gangs,,NOUN
-إجرامية,criminal nature,,NOUN
+إجرامية,criminal nature,,ADJ
 مشاغبون,rioters/troublemakers,,NOUN
 تخريبية,subversive/sabotage related,,NOUN
-إرهابي,terrorist,,VERB
+إرهابي,terrorist,,ADJ
 راديكالي,radical,,VERB
-تشدد,hardline stance/rigor,,NOUN
+تشدد,hardline stance/rigor,,VERB
 استئصال,eradication/extirpation,,NOUN
 اجتثاث,uprooting/eradication,,NOUN
 مكافحة,combating/fight against,,NOUN
 محاربة,fighting/combating,,NOUN
-تصد,confronting/countering,,NOUN
+تصد,confronting/countering,,VERB
 رادع,deterrent,,NOUN
 قمعي,repressive,,VERB
 بطش,brutality/oppression,,NOUN
@@ -1512,15 +1512,15 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تعسفي,arbitrary,,VERB
 شطط,abuse of power/excess,,NOUN
 عسكرة,militarization,,NOUN
-عسكري,military,,VERB
+عسكري,military,,ADJ
 تجنيدية,conscription related,,NOUN
 احتياط,reserve/precaution,,NOUN
 استنفار,alert/mobilization,,NOUN
 تأهب,readiness/alert,,NOUN
 جاهزية,readiness/preparedness,,NOUN
 يقظة,vigilance,,NOUN
-استباقية,proactiveness,,NOUN
-احترازي,precautionary,,VERB
+استباقية,proactiveness,,ADJ
+احترازي,precautionary,,ADJ
 هاجس,obsession/concern,,NOUN
 هواجس,concerns/obsessions,,NOUN
 تهديدات,threats,,NOUN
@@ -1533,22 +1533,22 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فلتان,breakdown of order,,VERB
 استتباب,establishment of order,,NOUN
 زعزعة,destabilization/shaking,,NOUN
-إعلامي,media professional/media related,,VERB
+إعلامي,media professional/media related,,ADJ
 إعلاميون,media professionals,,NOUN
 مراسلون,correspondents,,NOUN
-محرر,editor/liberated,,NOUN
+محرر,editor/liberated,,ADJ
 عمود,column/pillar,,NOUN
 عمودي,columnist/vertical,,VERB
 روبورتاج,reportage,,NOUN
 تصريحات,statements/declarations,,NOUN
 مصادر,sources,,NOUN
-حصري,exclusive,,VERB
-حصرية,exclusivity,,NOUN
+حصري,exclusive,,ADJ
+حصرية,exclusivity,,ADJ
 مستجد,new development/novel,,NOUN
 منابر,platforms/outlets,,NOUN
 وسائط,media/platforms,,NOUN
 ورقي,print/paper based,,VERB
-إلكترونية,electronic outlet,,NOUN
+إلكترونية,electronic outlet,,ADJ
 انتشارية,virality/reach,,NOUN
 مقروئية,readership,,NOUN
 إشهاري,advertising related,,VERB
@@ -1557,11 +1557,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فبركة,fabrication,,NOUN
 إشاعات,rumors,,NOUN
 مغالطات,fallacies,,NOUN
-متحيز,biased,,NOUN
-تحقق,verification/fact-checking,,NOUN
+متحيز,biased,,ADJ
+تحقق,verification/fact-checking,,VERB
 تثبت,verification/confirmation,,VERB
 استقصائي,investigative,,VERB
-أرشيفية,archival material,,NOUN
+أرشيفية,archival material,,ADJ
 ترهيب,intimidation,,NOUN
 تكميم,muzzling/gagging,,NOUN
 إسكات,silencing,,NOUN
@@ -1570,137 +1570,137 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ملاحقات,prosecutions/pursuits,,NOUN
 شيطنة,demonization,,NOUN
 تخويني,treason-accusing,,VERB
-خائن,traitor,,VERB
+خائن,traitor,,NOUN
 تدوينة,blog post,,NOUN
 منشورات,posts/publications,,NOUN
 إثراء,enrichment,,NOUN
 اغتناء,getting rich,,NOUN
 ثراء,wealth/richness,,NOUN
-فاحش,obscene/exorbitant,,NOUN
+فاحش,obscene/exorbitant,,ADJ
 نهب,plundering/looting,,NOUN
 سلب,robbery/deprivation,,NOUN
 استنزاف,depletion/draining,,NOUN
 تلاعبات,manipulations,,NOUN
 شبهة,suspicion,,NOUN
 شبهات,suspicions,,NOUN
-مشبوه,suspicious/suspect,,NOUN
+مشبوه,suspicious/suspect,,ADJ
 محسوبيات,cronyism practices,,NOUN
-سن,to enact/legislate,,NOUN
-اقترع,to cast a ballot,,NOUN
-رشح,to nominate,,NOUN
-انتخب,to elect,,NOUN
-فاز,to win,,NOUN
-اكتسح,to sweep/win overwhelmingly,,NOUN
-تصدر,to lead/top,,NOUN
-تزعم,to lead/head,,NOUN
-تولى,to assume office,,NOUN
-استوزر,to become minister,,NOUN
-خلف,to succeed,,NOUN
-ناب,to deputize/represent,,NOUN
-أناط,to entrust with,,NOUN
-كلف,to task/cost,,NOUN
-أوكل,to entrust,,NOUN
+سن,to enact/legislate,,VERB
+اقترع,to cast a ballot,,VERB
+رشح,to nominate,,VERB
+انتخب,to elect,,VERB
+فاز,to win,,VERB
+اكتسح,to sweep/win overwhelmingly,,VERB
+تصدر,to lead/top,,VERB
+تزعم,to lead/head,,VERB
+تولى,to assume office,,VERB
+استوزر,to become minister,,VERB
+خلف,to succeed,,VERB
+ناب,to deputize/represent,,VERB
+أناط,to entrust with,,VERB
+كلف,to task/cost,,VERB
+أوكل,to entrust,,VERB
 ائتمن,to entrust with,,VERB
-استبد,to act despotically,,NOUN
-تسلط,to dominate/tyrannize,,NOUN
+استبد,to act despotically,,VERB
+تسلط,to dominate/tyrannize,,VERB
 هيمن,to dominate,,VERB
-بسط,to extend/spread,,NOUN
-أخضع,to subjugate,,NOUN
-خضع,to submit/undergo,,NOUN
-امتثل,to comply,,NOUN
-انصاع,to yield/obey,,NOUN
-رضخ,to give in,,NOUN
-تنصل,to disavow/evade,,NOUN
-راوغ,to dodge/maneuver,,NOUN
-سوف,to procrastinate,,NOUN
-أجهض,to foil/abort,,NOUN
-أفشل,to make fail,,NOUN
-زعزع,to destabilize,,NOUN
-أطاح,to topple/overthrow,,NOUN
-استولى,to seize,,NOUN
-اغتصب,to usurp/rape,,NOUN
-انتزع,to wrest/extract,,NOUN
-استعاد,to regain,,NOUN
+بسط,to extend/spread,,VERB
+أخضع,to subjugate,,VERB
+خضع,to submit/undergo,,VERB
+امتثل,to comply,,VERB
+انصاع,to yield/obey,,VERB
+رضخ,to give in,,VERB
+تنصل,to disavow/evade,,VERB
+راوغ,to dodge/maneuver,,VERB
+سوف,to procrastinate,,AUX
+أجهض,to foil/abort,,ADJ
+أفشل,to make fail,,VERB
+زعزع,to destabilize,,VERB
+أطاح,to topple/overthrow,,VERB
+استولى,to seize,,VERB
+اغتصب,to usurp/rape,,VERB
+انتزع,to wrest/extract,,VERB
+استعاد,to regain,,VERB
 ضم,to annex/include,,NOUN
-ألحق,to annex/attach,,NOUN
-احتل,to occupy,,NOUN
-استعمر,to colonize,,NOUN
+ألحق,to annex/attach,,VERB
+احتل,to occupy,,VERB
+استعمر,to colonize,,VERB
 حرر,to liberate/draft,,NOUN
-استقل,to become independent,,NOUN
-انفصل,to secede/separate,,NOUN
-اتحد,to unite/join,,NOUN
-ائتلف,to form a coalition,,NOUN
-انشق,to defect/split,,NOUN
-انضم,to join,,NOUN
-قاطع,to boycott/interrupt,,NOUN
-انسلخ,to break away,,NOUN
-تنكر,to renege/disguise,,NOUN
-نكث,to break a pledge,,NOUN
-أخل,to breach/violate,,NOUN
-امتنع,to abstain/refuse,,NOUN
-أحجم,to refrain,,NOUN
-حاكم,ruler/governor,,NOUN
-محكوم,sentenced/governed,,NOUN
+استقل,to become independent,,VERB
+انفصل,to secede/separate,,VERB
+اتحد,to unite/join,,VERB
+ائتلف,to form a coalition,,VERB
+انشق,to defect/split,,VERB
+انضم,to join,,VERB
+قاطع,to boycott/interrupt,,ADJ
+انسلخ,to break away,,VERB
+تنكر,to renege/disguise,,VERB
+نكث,to break a pledge,,VERB
+أخل,to breach/violate,,VERB
+امتنع,to abstain/refuse,,VERB
+أحجم,to refrain,,VERB
+حاكم,ruler/governor,,ADJ
+محكوم,sentenced/governed,,ADJ
 مراقب,observer/controller,,NOUN
 محاور,interlocutor,,NOUN
 مفاوض,negotiator,,NOUN
-معتمد,accredited/reliant,,NOUN
+معتمد,accredited/reliant,,ADJ
 مخول,authorized/empowered,,NOUN
 مزاول,practicing,,NOUN
 ممارس,practitioner/practicing,,NOUN
-محنك,seasoned/shrewd,,NOUN
-مخضرم,veteran,,NOUN
-صاعد,rising/emerging,,NOUN
+محنك,seasoned/shrewd,,ADJ
+مخضرم,veteran,,ADJ
+صاعد,rising/emerging,,ADJ
 واعد,promising,,NOUN
 مغادر,outgoing/departing,,NOUN
-مؤقت,interim/temporary,,VERB
-انتقالي,transitional,,VERB
+مؤقت,interim/temporary,,ADJ
+انتقالي,transitional,,ADJ
 تصريفي,caretaker related,,VERB
 شرفي,honorary,,VERB
 فخري,honorary,,VERB
 فعلي,de facto/actual,,VERB
-حكومي,governmental,,VERB
-رئاسي,presidential,,VERB
-ملكي,royal/monarchical,,VERB
+حكومي,governmental,,ADJ
+رئاسي,presidential,,ADJ
+ملكي,royal/monarchical,,ADJ
 أميري,princely/emiri,,VERB
 سلطاني,sultanic,,VERB
-إمبراطوري,imperial,,VERB
-جمهوري,republican,,VERB
+إمبراطوري,imperial,,ADJ
+جمهوري,republican,,ADJ
 اتحادي,federal/union related,,VERB
 كونفدرالي,confederal,,VERB
-مركزي,central,,VERB
-محلي,local,,VERB
-عمومي,public,,VERB
-خصوصي,private/specific,,VERB
-مختلط,mixed,,NOUN
+مركزي,central,,ADJ
+محلي,local,,ADJ
+عمومي,public,,ADJ
+خصوصي,private/specific,,ADJ
+مختلط,mixed,,ADJ
 عسكرتاري,militaristic,,VERB
 أمنوقراطي,securocratic,,VERB
 انتخابوي,electoralist,,VERB
 حزبوي,narrowly partisan,,VERB
-نقابية,trade unionism,,NOUN
+نقابية,trade unionism,,ADJ
 إضرابي,strike related,,VERB
-محتج,protester,,NOUN
+محتج,protester,,ADJ
 متظاهر,demonstrator,,NOUN
 معتصم,sit-in participant,,NOUN
-حقوقي,human rights activist/legal,,VERB
-حقوقية,human rights activism,,NOUN
-جمعوي,associative/civil society member,,VERB
+حقوقي,human rights activist/legal,,ADJ
+حقوقية,human rights activism,,ADJ
+جمعوي,associative/civil society member,,ADJ
 جمعيات,associations,,NOUN
-مدنية,civility/civil society sphere,,NOUN
+مدنية,civility/civil society sphere,,ADJ
 منظمات,organizations,,NOUN
-منتظم,regular/organized,,NOUN
-منضبط,disciplined,,NOUN
-ملتزم,committed/compliant,,NOUN
-متعاون,cooperative/collaborator,,NOUN
+منتظم,regular/organized,,ADJ
+منضبط,disciplined,,ADJ
+ملتزم,committed/compliant,,ADJ
+متعاون,cooperative/collaborator,,ADJ
 ضالع,implicated/involved,,NOUN
-متورط,implicated/entangled,,NOUN
-مدبر,mastermind/planned,,NOUN
-محرض,instigator,,NOUN
+متورط,implicated/entangled,,ADJ
+مدبر,mastermind/planned,,ADJ
+محرض,instigator,,ADJ
 مسؤولون,officials,,NOUN
-متحكم,controlling/in control,,NOUN
+متحكم,controlling/in control,,ADJ
 مهيمن,dominant/hegemonic,,VERB
-مستبد,despot/despotic,,NOUN
-متسلط,domineering,,NOUN
+مستبد,despot/despotic,,ADJ
+متسلط,domineering,,ADJ
 طاغية,tyrant,,NOUN
 عتو,insolence/tyranny,,NOUN
 استعلاء,arrogance/haughtiness,,NOUN
@@ -1708,15 +1708,15 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تعنت,obstinacy/intransigence,,VERB
 تصلب,rigidity/hardening,,NOUN
 براغماتي,pragmatic/pragmatist,,VERB
-واقعي,realistic/realist,,VERB
-مثالي,idealist/ideal,,VERB
+واقعي,realistic/realist,,ADJ
+مثالي,idealist/ideal,,ADJ
 طوباوي,utopian,,VERB
-عقائدي,doctrinaire/ideological,,VERB
+عقائدي,doctrinaire/ideological,,ADJ
 إيديولوجي,ideological,,VERB
 إيديولوجيا,ideology,,NOUN
-مرجعية,frame of reference,,NOUN
+مرجعية,frame of reference,,ADJ
 مرجعيات,references/authorities,,NOUN
-ثوابت,constants/fundamentals,,VERB
+ثوابت,constants/fundamentals,,NOUN
 متغيرات,variables/changes,,NOUN
 مسلمات,axioms/givens,,NOUN
 بديهيات,truisms/axioms,,NOUN
@@ -1736,7 +1736,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تبخيس,undervaluing/disparaging,,NOUN
 تسفيه,ridiculing/discrediting,,NOUN
 استفزاز,provocation,,NOUN
-استفزازي,provocative,,VERB
+استفزازي,provocative,,ADJ
 إشكالية,problematic issue,,NOUN
 إشكاليات,problematics,,NOUN
 معضلة,dilemma/predicament,,NOUN
@@ -1746,13 +1746,13 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 انسداد,blockage/deadlock,,NOUN
 انفراجة,breakthrough/easing,,NOUN
 ملموسية,tangibility,,NOUN
-مأمول,hoped for,,NOUN
-منشود,sought after/desired,,NOUN
-مرتقب,anticipated/expected,,NOUN
-محدق,imminent/looming,,NOUN
-داهم,imminent/pressing,,NOUN
+مأمول,hoped for,,ADJ
+منشود,sought after/desired,,ADJ
+مرتقب,anticipated/expected,,ADJ
+محدق,imminent/looming,,ADJ
+داهم,imminent/pressing,,VERB
 إلحاحية,urgency,,NOUN
-استعجالية,urgency/emergency nature,,NOUN
+استعجالية,urgency/emergency nature,,ADJ
 أولويات,priorities,,NOUN
 تقنين,codification/regulation,,NOUN
 مواءمة,harmonization/alignment,,NOUN
@@ -1782,30 +1782,30 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 دولنة,statization,,NOUN
 تعاقب,succession/alternation,,NOUN
 تحصين,immunization/fortification,,NOUN
-خصخص,to privatize,,NOUN
+خصخص,to privatize,,ADJ
 ضخ,to inject/pump,,NOUN
-اقتطع,to deduct,,NOUN
-أنفق,to spend,,NOUN
-ارتشى,to take bribes,,NOUN
-ابتز,to blackmail,,NOUN
-زور,to forge/falsify,,NOUN
-دلس,to defraud/deceive,,NOUN
-احتال,to swindle,,NOUN
-اختلس,to embezzle,,NOUN
-نسق,to coordinate,,NOUN
-أدرج,to list/include,,NOUN
-استصدر,to obtain issuance of,,NOUN
-تدارس,to study jointly,,NOUN
-تباحث,to hold talks,,NOUN
-تحاور,to dialogue,,NOUN
+اقتطع,to deduct,,VERB
+أنفق,to spend,,VERB
+ارتشى,to take bribes,,VERB
+ابتز,to blackmail,,VERB
+زور,to forge/falsify,,VERB
+دلس,to defraud/deceive,,VERB
+احتال,to swindle,,VERB
+اختلس,to embezzle,,VERB
+نسق,to coordinate,,VERB
+أدرج,to list/include,,VERB
+استصدر,to obtain issuance of,,VERB
+تدارس,to study jointly,,VERB
+تباحث,to hold talks,,VERB
+تحاور,to dialogue,,VERB
 تعاهد,to pledge mutually,,NOUN
-استنطق,to interrogate,,NOUN
-زكى,to endorse/vouch for,,NOUN
-سوغ,to justify,,NOUN
-مأسس,to institutionalize,,NOUN
-دستر,to constitutionalize,,NOUN
+استنطق,to interrogate,,VERB
+زكى,to endorse/vouch for,,VERB
+سوغ,to justify,,VERB
+مأسس,to institutionalize,,VERB
+دستر,to constitutionalize,,VERB
 رقمن,to digitalize,,VERB
-حوسب,to computerize,,NOUN
+حوسب,to computerize,,VERB
 أتمت,to automate,,VERB
 عصرن,to modernize,,VERB
 تسنيد,securitization of debt,,NOUN
@@ -1814,11 +1814,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تظهير,endorsement of instrument,,NOUN
 كمبيالة,bill of exchange,,NOUN
 سفتجة,promissory bill,,NOUN
-تخارج,divestment/exit,,NOUN
+تخارج,divestment/exit,,VERB
 استحواذات,acquisitions,,NOUN
-تملك,acquiring ownership,,NOUN
-احتضان,incubation/hosting,,VERB
-حاضنة,incubator,,NOUN
+تملك,acquiring ownership,,VERB
+احتضان,incubation/hosting,,NOUN
+حاضنة,incubator,,ADJ
 تحفيزات,incentives,,NOUN
 محفزات,stimuli/incentives,,NOUN
 إغراءات,enticements,,NOUN
@@ -1836,15 +1836,15 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ممثلون,representatives,,NOUN
 ملاحظ,observer,,NOUN
 محلف,juror/sworn,,NOUN
-محلفون,jurors,,NOUN
+محلفون,jurors,,ADJ
 نكول,refusal to take oath/default,,NOUN
-تطاول,encroachment/insolence,,NOUN
-تعد,transgression/assault,,NOUN
+تطاول,encroachment/insolence,,VERB
+تعد,transgression/assault,,VERB
 تعديات,encroachments,,NOUN
 غصب,usurpation/coercion,,NOUN
 استرداد,recovery/restitution,,NOUN
 إحقاق,upholding of rights,,NOUN
-ترصد,premeditation/stalking,,NOUN
+ترصد,premeditation/stalking,,VERB
 اقتفاء,tracking/tracing,,NOUN
 مستندات,documents/supporting papers,,NOUN
 انكشاف,exposure/vulnerability,,NOUN
@@ -1859,12 +1859,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 توضيح,clarification,,NOUN
 تكذيب,denial/refutation,,NOUN
 تصويب,correction,,NOUN
-تلفزي,televised,,VERB
-إذاعي,broadcast related,,VERB
-منشط,host/animator,,NOUN
+تلفزي,televised,,NOUN
+إذاعي,broadcast related,,ADJ
+منشط,host/animator,,ADJ
 سمعي,auditory/audio,,VERB
-بصري,visual,,VERB
-شأن,affair/matter,,VERB
+بصري,visual,,ADJ
+شأن,affair/matter,,NOUN
 شؤون,affairs,,NOUN
 وجيه,notable/plausible,,NOUN
 شيوخ,senators/elders,,NOUN
@@ -1873,23 +1873,23 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ممأسس,institutionalized,,NOUN
 معقلن,rationalized,,VERB
 ممنهج,systematic/methodical,,NOUN
-مدروس,well considered,,NOUN
-متسرع,hasty,,NOUN
+مدروس,well considered,,ADJ
+متسرع,hasty,,ADJ
 ارتجالي,improvised,,VERB
-تخبط,floundering/confusion,,NOUN
+تخبط,floundering/confusion,,VERB
 حازم,resolute/firm,,NOUN
-متهاون,negligent/lax,,NOUN
+متهاون,negligent/lax,,ADJ
 تهاون,laxity/negligence,,NOUN
 تراخ,slackness,,NOUN
 تخاذل,failure to act/letting down,,NOUN
-أممي,UN related/internationalist,,VERB
-قنصلي,consular,,VERB
+أممي,UN related/internationalist,,ADJ
+قنصلي,consular,,NOUN
 بعثة,mission/delegation,,NOUN
 بعثات,missions/delegations,,NOUN
 وفود,delegations,,NOUN
 مفوض,commissioner/authorized,,NOUN
 باشوية,pashalik/pasha district,,NOUN
-ملحقة,annex office/branch,,NOUN
+ملحقة,annex office/branch,,ADJ
 مقاطعات,districts/boycotts,,NOUN
 جهات,regions/parties,,NOUN
 أقاليم,provinces/territories,,NOUN
@@ -1921,7 +1921,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 نهم,voracity/greed,,NOUN
 شره,gluttony/greed,,NOUN
 استشراء,proliferation of evil,,NOUN
-تفش,spreading/prevalence,,NOUN
+تفش,spreading/prevalence,,VERB
 استفحال,aggravation/worsening,,NOUN
 تفاقم,exacerbation,,NOUN
 احتدام,intensification,,NOUN
@@ -1940,18 +1940,18 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مِشْرَط,scalpel,,NOUN
 خِياطة,suture / sewing,,NOUN
 تَخْدير,anesthesia,,NOUN
-مُخَدِّر,anesthetic,,NOUN
+مُخَدِّر,anesthetic,,ADJ
 تَعْقيم,sterilization,,NOUN
 مُعَقِّم,disinfectant,,NOUN
 تَطْعيم,vaccination,,NOUN
 لِقاح,vaccine,,NOUN
 مَناعة,immunity,,NOUN
-مُضادّ,antibody / anti,,NOUN
+مُضادّ,antibody / anti,,ADJ
 جُرْثومة,germ / bacterium,,NOUN
 عَدْوى,infection / contagion,,NOUN
 وَباء,epidemic,,NOUN
 جائِحة,pandemic,,NOUN
-تَشْخيص,diagnosis,,NOUN
+تَشْخيص,diagnosis,,VERB
 مُعالَجة,treatment,,NOUN
 اِسْتِشْفاء,hospitalization,,NOUN
 نَقاهة,convalescence,,NOUN
@@ -1970,11 +1970,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 خَبيث,malignant,,NOUN
 حَميد,benign,,NOUN
 مُزْمِن,chronic,,VERB
-حادّ,acute / sharp,,NOUN
+حادّ,acute / sharp,,VERB
 مُعْدٍ,contagious,,NOUN
 سُمِّيّ,toxic,,NOUN
 مُسَكِّن,painkiller,,VERB
-مُهَدِّئ,sedative,,NOUN
+مُهَدِّئ,sedative,,ADJ
 مُنَبِّه,stimulant,,NOUN
 مُضادّات,antibiotics / antagonists,,NOUN
 جَرْعة,dose,,NOUN
@@ -1990,9 +1990,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تَوَرُّم,swelling,,NOUN
 نَزيف,hemorrhage,,NOUN
 خَثْرة,clot,,NOUN
-تَخَثُّر,coagulation,,NOUN
+تَخَثُّر,coagulation,,VERB
 شَلَل,paralysis,,NOUN
-تَشَنُّج,spasm / convulsion,,NOUN
+تَشَنُّج,spasm / convulsion,,VERB
 صُداع,headache,,NOUN
 دُوار,vertigo / dizziness,,NOUN
 غَثَيان,nausea,,VERB
@@ -2002,7 +2002,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جَفاف,dehydration / dryness,,NOUN
 سِمْنة,obesity,,NOUN
 هُزال,emaciation,,NOUN
-رَضّ,contusion / trauma,,NOUN
+رَضّ,contusion / trauma,,VERB
 كَسْر,fracture,,NOUN
 خَلْع,dislocation,,NOUN
 جَبْر,setting / splinting,,NOUN
@@ -2040,25 +2040,25 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أَيُون,ion,,NOUN
 نَظير,isotope,,NOUN
 عُنْصُر,element,,NOUN
-مُرَكَّب,compound,,NOUN
+مُرَكَّب,compound,,ADJ
 مِزيج,mixture,,NOUN
 مَحْلول,solution,,NOUN
 مُذيب,solvent,,NOUN
 مُذاب,solute,,NOUN
-تَفاعُل,reaction,,NOUN
+تَفاعُل,reaction,,VERB
 تَحَفيز,catalysis,,NOUN
 حَفّاز,catalyst,,NOUN
-تَأَكْسُد,oxidation,,NOUN
+تَأَكْسُد,oxidation,,VERB
 اِخْتِزال,reduction,,NOUN
 حُموضة,acidity,,NOUN
 قَلَوِيّة,alkalinity,,NOUN
-تَبَخُّر,evaporation,,NOUN
+تَبَخُّر,evaporation,,VERB
 تَكاثُف,condensation,,NOUN
 تَسامٍ,sublimation,,NOUN
 اِنْصِهار,fusion / melting,,NOUN
-تَجَمُّد,freezing,,NOUN
+تَجَمُّد,freezing,,VERB
 اِنْحِلال,dissolution / decay,,NOUN
-تَرَسُّب,precipitation / sedimentation,,NOUN
+تَرَسُّب,precipitation / sedimentation,,VERB
 كَثافة,density,,NOUN
 لُزوجة,viscosity,,NOUN
 مَرونة,elasticity,,NOUN
@@ -2069,7 +2069,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كَهْرَباء,electricity,,NOUN
 إِشْعاع,radiation,,NOUN
 طَيْف,spectrum,,NOUN
-تَرَدُّد,frequency,,NOUN
+تَرَدُّد,frequency,,VERB
 مَوْجة,wave,,NOUN
 ذَبْذَبة,oscillation,,NOUN
 اِهْتِزاز,vibration,,NOUN
@@ -2100,7 +2100,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بَلّورة,crystal,,NOUN
 تَبَلْوُر,crystallization,,NOUN
 سَبيكة,alloy,,NOUN
-خام,ore / raw,,NOUN
+خام,ore / raw,,ADJ
 مَعْدِن,mineral / metal,,VERB
 لافِلِزّ,nonmetal,,NOUN
 مَسامِيّة,porosity,,NOUN
@@ -2109,7 +2109,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 هَنْدَسة,engineering,,NOUN
 مُهَنْدِس,engineer,,NOUN
 تَصْميم,design,,NOUN
-مُخَطَّط,blueprint / diagram,,NOUN
+مُخَطَّط,blueprint / diagram,,ADJ
 رَسْم,drawing,,NOUN
 نَمْذَجة,modeling,,NOUN
 مُحاكاة,simulation,,NOUN
@@ -2132,7 +2132,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بُرْغِيّ,screw,,NOUN
 صامولة,nut,,NOUN
 مِسْمار,nail,,NOUN
-تُرْس,gear,,NOUN
+تُرْس,gear,,VERB
 مِحْوَر,axis / axle,,NOUN
 مَحْمِل,bearing,,NOUN
 رافِعة,lever / crane,,NOUN
@@ -2142,25 +2142,25 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مِضَخّة,pump,,NOUN
 ضاغِط,compressor,,NOUN
 مِرْشَح,filter,,NOUN
-مُبَرِّد,cooler / coolant,,NOUN
+مُبَرِّد,cooler / coolant,,ADJ
 مُبادِل,exchanger,,NOUN
 مِرْجَل,boiler,,NOUN
 عَنَفة,turbine,,NOUN
 مِحَرِّك,engine / motor,,NOUN
-مُوَلِّد,generator,,NOUN
-مُحَوِّل,transformer / converter,,NOUN
-مُقَوِّم,rectifier,,NOUN
-مُكَثِّف,capacitor / condenser,,NOUN
+مُوَلِّد,generator,,ADJ
+مُحَوِّل,transformer / converter,,ADJ
+مُقَوِّم,rectifier,,ADJ
+مُكَثِّف,capacitor / condenser,,ADJ
 مُقاوِم,resistor,,NOUN
-مُوَصِّل,conductor,,NOUN
+مُوَصِّل,conductor,,ADJ
 عازِل,insulator,,NOUN
 دائِرة,circuit,,NOUN
 مِفْتاح,switch / key,,NOUN
 مِصْهَر,fuse,,NOUN
 قاطِع,breaker / cutter,,NOUN
 مُسْتَشْعِر,sensor,,NOUN
-مُشَغِّل,actuator / operator,,NOUN
-مُتَحَكِّم,controller,,NOUN
+مُشَغِّل,actuator / operator,,ADJ
+مُتَحَكِّم,controller,,ADJ
 مِعَيِّر,regulator / calibrator,,NOUN
 مُنَظِّم,regulator,,NOUN
 مَقْذوف,projectile,,NOUN
@@ -2175,11 +2175,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قُبّة,dome,,NOUN
 قَنْطَرة,arch / bridge,,NOUN
 نَفَق,tunnel,,NOUN
-سَدّ,dam,,NOUN
+سَدّ,dam,,VERB
 مَتانة,robustness / tensile strength,,NOUN
 إِجْهاد,stress / fatigue,,NOUN
 اِنْفِعال,strain,,NOUN
-تَشَوُّه,deformation,,NOUN
+تَشَوُّه,deformation,,VERB
 اِلْتِواء,torsion / warping,,NOUN
 اِنْحِناء,bending,,NOUN
 قَصّ,shear / cutting,,NOUN
@@ -2188,7 +2188,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ذاكِرة,memory,,NOUN
 قُرْص,disk,,NOUN
 مِلَفّ,file,,NOUN
-مُجَلَّد,folder,,NOUN
+مُجَلَّد,folder,,ADJ
 بَرْمَجة,programming,,NOUN
 مُبَرْمِج,programmer,,NOUN
 خَوارِزْمِيّة,algorithm,,NOUN
@@ -2201,7 +2201,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تَجْزِئة,partitioning / hashing,,NOUN
 فَهْرَسة,indexing,,NOUN
 أَرْشَفة,archiving,,NOUN
-مُزامَنة,synchronization,,NOUN
+مُزامَنة,synchronization,,ADJ
 اِسْتِنْساخ,cloning / replication,,NOUN
 تَنْزيل,download,,NOUN
 تَحْميل,upload / loading,,NOUN
@@ -2211,7 +2211,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مُحاكٍ,emulator,,NOUN
 مُتَصَفِّح,browser,,NOUN
 مُوَجِّه,router,,NOUN
-مُبَدِّل,switch,,NOUN
+مُبَدِّل,switch,,ADJ
 بَوّابة,gateway,,NOUN
 مِنَصّة,platform,,NOUN
 واجِهة,interface,,NOUN
@@ -2224,23 +2224,23 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تَهْيِئة,initialization / formatting,,NOUN
 صَلاحِيّة,permission / validity,,NOUN
 اِسْتيثاق,authentication,,NOUN
-تَحَقُّق,verification,,NOUN
-تَسَلُّل,intrusion / infiltration,,NOUN
+تَحَقُّق,verification,,VERB
+تَسَلُّل,intrusion / infiltration,,VERB
 اِخْتِراق,hacking / breach,,NOUN
 ثُغْرة,vulnerability / gap,,NOUN
-خَلَل,glitch / defect,,NOUN
+خَلَل,glitch / defect,,VERB
 عُطْل,malfunction / breakdown,,NOUN
-تَعَطُّل,crash / breakdown,,NOUN
+تَعَطُّل,crash / breakdown,,VERB
 اِنْهِيار,crash / collapse,,NOUN
 تَخْلِيق,synthesis / generation,,NOUN
 تَوْليد,generation,,NOUN
 تَصْنيف,classification,,NOUN
-تَعَلُّم,learning,,NOUN
+تَعَلُّم,learning,,VERB
 تَدْريب,training,,NOUN
 اِسْتِدْلال,inference,,NOUN
-تَنَبُّؤ,prediction,,NOUN
+تَنَبُّؤ,prediction,,VERB
 مُتَّجِه,vector,,NOUN
-مَصْفوفة,matrix / array,,NOUN
+مَصْفوفة,matrix / array,,ADJ
 عُقْدة,node,,NOUN
 طَبَقة,layer,,NOUN
 شَبَكِيّ,networked / reticular,,NOUN
@@ -2264,7 +2264,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مُناخِيّ,climatic,,NOUN
 طَقْس,weather,,NOUN
 رُطوبة,humidity,,NOUN
-تَصَحُّر,desertification,,NOUN
+تَصَحُّر,desertification,,VERB
 اِنْجِراف,erosion / drift,,NOUN
 تَعْرِية,erosion / weathering,,NOUN
 فَيَضان,flood,,VERB
@@ -2272,7 +2272,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 زَلْزال,earthquake,,NOUN
 بُرْكان,volcano,,VERB
 اِنْقِراض,extinction,,NOUN
-تَنَوُّع,diversity,,NOUN
+تَنَوُّع,diversity,,VERB
 مَوْطِن,habitat,,VERB
 نِطاق,range / zone,,NOUN
 مَحْمِيّة,reserve / protected area,,NOUN
@@ -2288,11 +2288,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تَرْشيد,rationalization / conservation,,NOUN
 اِسْتِدامة,sustainability,,NOUN
 مُسْتَدام,sustainable,,NOUN
-مُتَجَدِّد,renewable,,NOUN
+مُتَجَدِّد,renewable,,ADJ
 نَظافة,cleanliness / cleanness,,NOUN
 سُمِّيّة,toxicity,,NOUN
 تَعَفُّن,rot / decomposition,,VERB
-تَحَلُّل,decomposition / degradation,,NOUN
+تَحَلُّل,decomposition / degradation,,VERB
 تَسَمُّم,poisoning,,NOUN
 وَقود,fuel,,NOUN
 مَحْروقات,fuels / hydrocarbons,,NOUN
@@ -2327,7 +2327,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كَفاءة,efficiency,,NOUN
 مَرْدود,yield / output,,NOUN
 تَوْزيع,distribution,,NOUN
-نَقْل,transmission / transport,,NOUN
+نَقْل,transmission / transport,,VERB
 رَبْط,interconnection / linking,,NOUN
 عَدّاد,meter,,NOUN
 زِراعة,agriculture,,NOUN
@@ -2362,7 +2362,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مَشْتَل,nursery,,NOUN
 صَوْبة,greenhouse,,NOUN
 دَفيئة,greenhouse,,NOUN
-قَطيع,herd / flock,,NOUN
+قَطيع,herd / flock,,VERB
 ماشِية,livestock,,NOUN
 دَواجِن,poultry,,VERB
 مَرْبى,farm / breeding site,,NOUN
@@ -2427,14 +2427,14 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 هاتِف,telephone,,NOUN
 مِذْياع,radio,,NOUN
 مِرْناة,television set,,NOUN
-بَثّ,broadcasting,,NOUN
+بَثّ,broadcasting,,VERB
 إِرْسال,transmission / sending,,NOUN
 اِسْتِقْبال,reception,,NOUN
 مُرْسِل,transmitter / sender,,NOUN
 مُسْتَقْبِل,receiver,,NOUN
 هَوائِيّ,antenna,,NOUN
 لاقِط,pickup / receiver,,NOUN
-مُضَخِّم,amplifier,,NOUN
+مُضَخِّم,amplifier,,ADJ
 مُذَبْذِب,oscillator,,NOUN
 تَضْمين,modulation,,NOUN
 تَرَدُّدِيّ,frequency-based,,NOUN
@@ -2464,7 +2464,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مَنْهَج,curriculum / method,,NOUN
 مَنْهَجِيّ,methodical,,NOUN
 مِنْهاج,syllabus,,NOUN
-مُقَرَّر,course / syllabus,,NOUN
+مُقَرَّر,course / syllabus,,ADJ
 مُحاضَرة,lecture,,NOUN
 مُحاضِر,lecturer,,NOUN
 نَدْوة,seminar / symposium,,NOUN
@@ -2512,11 +2512,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 اِقْتِباس,quotation,,NOUN
 اِنْتِحال,plagiarism,,NOUN
 تَحْكيم,peer review / arbitration,,NOUN
-مُحَكَّم,refereed / arbitrated,,NOUN
+مُحَكَّم,refereed / arbitrated,,ADJ
 دَوْرِيّة,journal / periodical,,NOUN
 مَوْسوعة,encyclopedia,,NOUN
 مُعْجَم,dictionary / lexicon,,NOUN
-مُلَخَّص,abstract / summary,,NOUN
+مُلَخَّص,abstract / summary,,ADJ
 تَمْهيد,introduction / preamble,,NOUN
 خاتِمة,conclusion,,NOUN
 رِياضِيّات,mathematics,,NOUN
@@ -2524,15 +2524,15 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جَبْرِيّ,algebraic,,NOUN
 هَنْدَسِيّ,geometric,,NOUN
 حِسابِيّ,arithmetic,,NOUN
-مُثَلَّثات,trigonometry,,NOUN
+مُثَلَّثات,trigonometry,,ADJ
 تَفاضُل,differentiation / calculus,,NOUN
 تَكامُل,integration,,NOUN
-مُشْتَقّة,derivative,,NOUN
+مُشْتَقّة,derivative,,ADJ
 دالّة,function,,NOUN
-مُعادَلة,equation,,NOUN
+مُعادَلة,equation,,ADJ
 مُتَراجِحة,inequality,,NOUN
 مَجْهول,unknown / variable,,NOUN
-مُتَغَيِّر,variable,,NOUN
+مُتَغَيِّر,variable,,ADJ
 ثابِت,constant,,VERB
 مُعامِل,coefficient,,NOUN
 أُسّ,exponent / power,,NOUN
@@ -2543,7 +2543,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 اِتِّحاد,union,,NOUN
 اِحْتِمال,probability,,NOUN
 اِحْصاء,statistics,,NOUN
-مُتَوَسِّط,average / mean,,NOUN
+مُتَوَسِّط,average / mean,,ADJ
 وَسيط,median / parameter,,NOUN
 مِنْوال,mode,,NOUN
 تَبايُن,variance / discrepancy,,VERB
@@ -2559,8 +2559,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فَرْدِيّ,odd / individual,,NOUN
 أَوَّلِيّ,prime / primary,,NOUN
 مَنْقوص,decrement / diminished,,NOUN
-مَزيد,increment / augmented,,NOUN
-مَحيط,perimeter / circumference,,NOUN
+مَزيد,increment / augmented,,ADJ
+مَحيط,perimeter / circumference,,ADJ
 مِساحة,area,,NOUN
 حَجْم,volume,,NOUN
 قُطْر,diameter,,NOUN
@@ -2569,14 +2569,14 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ضِلْع,side / edge,,NOUN
 زاوِية,angle,,NOUN
 مُنْحَنٍ,curve,,NOUN
-مُسْتَقيم,straight line,,NOUN
+مُسْتَقيم,straight line,,ADJ
 مُتَوازٍ,parallel,,NOUN
-مُتَعامِد,perpendicular,,NOUN
-مُتَناظِر,symmetric,,NOUN
+مُتَعامِد,perpendicular,,ADJ
+مُتَناظِر,symmetric,,ADJ
 تَماثُل,symmetry,,NOUN
-تَناسُب,proportionality,,NOUN
+تَناسُب,proportionality,,VERB
 تَسَلْسُل,sequence / series,,NOUN
-مُتَتالِية,sequence,,NOUN
+مُتَتالِية,sequence,,ADJ
 مَتَّجَه,vector,,NOUN
 قِياسِيّ,scalar / standard,,NOUN
 مَحْدود,finite / bounded,,NOUN
@@ -2634,7 +2634,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مِسْبَرة,probe / sounder,,NOUN
 مِعَقِّم,sterilizer,,NOUN
 حاضِنة,incubator,,NOUN
-مُفَرِّغة,vacuum / extractor,,NOUN
+مُفَرِّغة,vacuum / extractor,,ADJ
 طارِدة,centrifuge / repellent,,NOUN
 نابِذة,centrifuge,,NOUN
 مُنْخُل,sieve / screen,,NOUN
@@ -2650,13 +2650,13 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 إِزْميل,chisel,,NOUN
 كَمّاشة,pliers,,NOUN
 مِلْقَط,tweezers / clamp,,NOUN
-مِعْيارِيّة,standardization / normativity,,NOUN
-تَقْييس,standardization,,NOUN
+مِعْيارِيّة,standardization / normativity,,ADJ
+تَقْييس,standardization,,VERB
 مُواصَفة,specification,,NOUN
 مُطابَقة,conformity / matching,,NOUN
 جَوْدة,quality,,NOUN
-مُعايَنة,inspection,,NOUN
-تَفَقُّد,inspection / check,,NOUN
+مُعايَنة,inspection,,ADJ
+تَفَقُّد,inspection / check,,VERB
 صِيانة,maintenance,,NOUN
 إِصْلاح,repair,,NOUN
 تَرْميم,restoration,,NOUN
@@ -2665,7 +2665,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مُعَطَّل,disabled / broken,,NOUN
 جاهِزِيّة,readiness,,NOUN
 مَوْثوقِيّة,reliability,,NOUN
-مَتانِيّة,durability,,NOUN
+مَتانِيّة,durability,,ADJ
 مُتانة,tenacity / strength,,NOUN
 إِنْتاجِيّة,productivity,,NOUN
 مَرْدودِيّة,profitability / yield,,NOUN
@@ -2717,7 +2717,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مِيزانِيّة,leveling / balance,,NOUN
 مِرْصَد,observatory,,NOUN
 رَصّاد,observer / tracker,,NOUN
-تَتَبُّع,tracking,,NOUN
+تَتَبُّع,tracking,,VERB
 مُلاحَقة,tracking / pursuit,,NOUN
 اِسْتِطْلاع,reconnaissance / survey,,NOUN
 مَسْح,scan / survey,,NOUN
@@ -2729,10 +2729,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تَنْسيق,coordination / formatting,,NOUN
 مُواءَمة,harmonization / alignment,,NOUN
 مُوازَنة,balancing / budgeting,,NOUN
-مُفاضَلة,trade-off / comparison,,NOUN
+مُفاضَلة,trade-off / comparison,,ADJ
 أَمْثَلة,optimization,,NOUN
 اِسْتِمْثال,optimization / assimilation,,NOUN
-تَحْسين,improvement / optimization,,NOUN
+تَحْسين,improvement / optimization,,VERB
 تَعْظيم,maximization,,NOUN
 تَدْنِية,minimization,,NOUN
 تَقْليص,reduction / downsizing,,NOUN
@@ -2762,13 +2762,13 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 اِنْسِداد,obstruction / blockage,,NOUN
 اِنْقِباض,contraction / systole,,NOUN
 اِنْبِساط,dilation / diastole,,NOUN
-تَوَسُّع,dilation / widening,,NOUN
+تَوَسُّع,dilation / widening,,VERB
 تَضَيُّق,stenosis / narrowing,,NOUN
-تَنَكُّس,degeneration,,NOUN
-تَلَيُّف,fibrosis,,NOUN
-تَقَرُّح,ulceration,,NOUN
-تَقَيُّح,suppuration / pus,,NOUN
-تَوَرُّد,flushing / rosiness,,NOUN
+تَنَكُّس,degeneration,,VERB
+تَلَيُّف,fibrosis,,VERB
+تَقَرُّح,ulceration,,VERB
+تَقَيُّح,suppuration / pus,,VERB
+تَوَرُّد,flushing / rosiness,,VERB
 شُحوب,pallor,,NOUN
 اِصْفِرار,jaundice / yellowing,,NOUN
 اِزْرِقاق,cyanosis / bluing,,NOUN
@@ -2812,14 +2812,14 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مُورِّثة,gene,,NOUN
 طَفَرِيّ,mutant / mutagenic,,NOUN
 مُسْتَنْسَخ,clone / cloned,,NOUN
-مُهَجَّن,hybrid,,VERB
+مُهَجَّن,hybrid,,ADJ
 تَهْجين,hybridization,,NOUN
 سَلائِف,precursors,,NOUN
 مُسْتَقْبِلات,receptors,,NOUN
 ناقِلة,carrier / transporter,,NOUN
 حامِلة,carrier / vector,,NOUN
 مُسْتَضِدّ,antigen,,NOUN
-مُضادّة,antibody / antagonist,,NOUN
+مُضادّة,antibody / antagonist,,ADJ
 لِقاحِيّ,vaccinal,,NOUN
 مَناعاتِيّ,immunological,,NOUN
 مِعْمارِيّة,systems architecture,,NOUN
@@ -2861,10 +2861,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تَنازُلِيّ,descending,,NOUN
 مُطَّرِد,monotonic / steady,,NOUN
 مُتَذَبْذِب,oscillating,,NOUN
-مُتَقارِب,convergent,,NOUN
-مُتَباعِد,divergent,,NOUN
+مُتَقارِب,convergent,,ADJ
+مُتَباعِد,divergent,,ADJ
 مُتَجانِس,homogeneous,,NOUN
-مُتَغايِر,heterogeneous,,NOUN
+مُتَغايِر,heterogeneous,,ADJ
 مُتَماثِل,identical / symmetric,,NOUN
 مُتَبايِن,variant / distinct,,VERB
 قابِلِيّة,susceptibility / capability,,NOUN
@@ -2879,7 +2879,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مُمَكْنَن,mechanized,,VERB
 مُرَقْمَن,digitized,,VERB
 مُبَرْمَج,programmed,,NOUN
-مُشَفَّر,encrypted / coded,,NOUN
+مُشَفَّر,encrypted / coded,,ADJ
 مُضَغوط,compressed,,NOUN
 مُفَهْرَس,indexed,,NOUN
 مُؤَرْشَف,archived,,NOUN
@@ -2887,18 +2887,18 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مُحَدَّث,updated,,NOUN
 مُرَقّى,upgraded,,NOUN
 مُنَصَّب,installed,,NOUN
-مُهَيَّأ,configured / prepared,,VERB
+مُهَيَّأ,configured / prepared,,ADJ
 مُعايَر,calibrated,,NOUN
-مُوَثَّق,documented / authenticated,,NOUN
+مُوَثَّق,documented / authenticated,,ADJ
 مُصادَق,authenticated / ratified,,NOUN
-مُخَوَّل,authorized,,NOUN
-مُشْتَبَك,interlocked / networked,,NOUN
+مُخَوَّل,authorized,,ADJ
+مُشْتَبَك,interlocked / networked,,ADJ
 مُتَشابِك,interlaced / entangled,,NOUN
 مُتَداخِل,overlapping / nested,,NOUN
 مُنْدَمِج,merged / fused,,NOUN
 مُنْفَصِم,disjoint / detached,,NOUN
-تَفَرُّع,branching / ramification,,NOUN
-مُتَفَرِّع,branched,,NOUN
+تَفَرُّع,branching / ramification,,VERB
+مُتَفَرِّع,branched,,ADJ
 جِذْعِيّ,stem / trunk,,NOUN
 وَرَقِيّ,foliar / leaf,,NOUN
 جَذْرِيّ,radical / root,,NOUN
@@ -2923,15 +2923,15 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 خُصْيَوِيّ,testicular,,NOUN
 هُلامِيّ,gelatinous / colloidal,,NOUN
 غِرَوِيّ,colloidal,,NOUN
-مُعَلَّق,suspension / suspended,,NOUN
+مُعَلَّق,suspension / suspended,,ADJ
 مُسْتَحْلَب,emulsion,,NOUN
 رَغْوِيّ,foamy,,NOUN
 رَغْوة,foam,,NOUN
 قِشْدِيّ,creamy,,NOUN
 لَزِج,sticky / viscous,,NOUN
-مُتَخَثِّر,coagulated / clotting,,NOUN
-مُتَجَمِّد,solidifying / freezing,,NOUN
-مُتَبَخِّر,evaporating / volatile,,NOUN
+مُتَخَثِّر,coagulated / clotting,,ADJ
+مُتَجَمِّد,solidifying / freezing,,ADJ
+مُتَبَخِّر,evaporating / volatile,,ADJ
 مُتَطايِر,volatile,,NOUN
 مُتَسامٍ,subliming,,NOUN
 مُشْتَعِل,flammable / burning,,NOUN
@@ -2940,7 +2940,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 اِحْتِراق,combustion / burning,,NOUN
 اِنْفِجار,explosion,,NOUN
 اِنْفِجارِيّ,explosive,,NOUN
-تَفَجُّر,detonation / bursting,,NOUN
+تَفَجُّر,detonation / bursting,,VERB
 شَرارة,spark,,NOUN
 لَهَب,flame,,NOUN
 جَمْر,embers,,NOUN
@@ -2970,14 +2970,14 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مُؤَكْسَد,oxidized,,NOUN
 صَديد,pus / corrosion,,NOUN
 صَدَأ,rust,,VERB
-تَآكُل,corrosion / erosion,,NOUN
+تَآكُل,corrosion / erosion,,VERB
 تَفَتُّت,crumbling / fragmentation,,VERB
-تَشَقُّق,cracking / fissuring,,NOUN
+تَشَقُّق,cracking / fissuring,,VERB
 شَرْخ,crack / fissure,,NOUN
 صَدْع,fault / rift,,NOUN
 فالِق,geological fault,,NOUN
 طِيّة,geological fold,,NOUN
-تَجَعُّد,folding / wrinkling,,NOUN
+تَجَعُّد,folding / wrinkling,,VERB
 تَرَسُّبِيّ,depositional,,NOUN
 حُتات,detritus / filings,,NOUN
 نُحاتة,shavings / filings,,NOUN
@@ -2986,17 +2986,17 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قُصاصة,clipping / scrap,,NOUN
 خُردة,scrap metal,,NOUN
 سَقَط,offcuts / rejects,,NOUN
-مُهْمَلات,waste / discards,,NOUN
+مُهْمَلات,waste / discards,,ADJ
 كينونة,being,,NOUN
 ظاهراتية,phenomenology,,NOUN
-ذرائعية,instrumentalism,,NOUN
+ذرائعية,instrumentalism,,ADJ
 وضعانية,positivism,,NOUN
 ارتيابية,skepticism/distrust,,NOUN
 أبيقورية,epicureanism,,NOUN
 كلبية,cynicism,,NOUN
 سفسطائي,sophist/sophistic,,VERB
 مدرسانية,scholasticism,,NOUN
-حدسانية,intuitionism,,NOUN
+حدسانية,intuitionism,,ADJ
 قبلي,a priori,,VERB
 بعدي,a posteriori,,VERB
 استنباطي,deductive,,VERB
@@ -3006,35 +3006,35 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جوانية,inwardness,,NOUN
 برانية,outwardness,,NOUN
 استلاب,alienation/dispossession,,NOUN
-نسبانية,relativism,,NOUN
-إطلاقية,absolutism,,NOUN
+نسبانية,relativism,,ADJ
+إطلاقية,absolutism,,ADJ
 وثوقية,dogmatism/certitude,,NOUN
 يقينية,certainty/certitude,,NOUN
 طوباوية,utopianism,,NOUN
 يوتوبيا,utopia,,NOUN
 ديستوبيا,dystopia,,NOUN
-قدرية,fatalism,,NOUN
+قدرية,fatalism,,ADJ
 جبرية,determinism/compulsion,,NOUN
 إرادوية,voluntarism,,NOUN
 بدهي,self-evident,,VERB
-موضوعة,thesis/postulate,,NOUN
+موضوعة,thesis/postulate,,ADJ
 مماحكة,quibbling,,NOUN
 تأملية,contemplativeness,,NOUN
-مذهبية,doctrinairism/sectarianism,,NOUN
+مذهبية,doctrinairism/sectarianism,,ADJ
 نفعوية,utilitarianism,,NOUN
 متعية,hedonism,,NOUN
-تنسك,ascetic devotion,,NOUN
+تنسك,ascetic devotion,,VERB
 عفاف,chastity/modesty,,NOUN
 أثرة,selfishness,,NOUN
-غيرية,altruism/otherness,,NOUN
-آخرية,otherness,,NOUN
-طوعية,voluntariness,,NOUN
+غيرية,altruism/otherness,,ADJ
+آخرية,otherness,,ADJ
+طوعية,voluntariness,,ADJ
 وازع,moral restraint/deterrent,,NOUN
 تأنيب,rebuke/remorse,,NOUN
 تبكيت,reproach,,VERB
 شيمة,noble trait,,NOUN
 مناقب,merits/hagiography,,NOUN
-تعقل,prudence/reasonableness,,NOUN
+تعقل,prudence/reasonableness,,VERB
 فراسة,intuition about people,,NOUN
 سماحة,magnanimity/tolerance,,NOUN
 همة,aspiration/drive,,NOUN
@@ -3047,17 +3047,17 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تهذيب,refinement/edification,,NOUN
 عجرفة,arrogance,,NOUN
 خنوع,servility,,NOUN
-تذلل,self-abasement,,NOUN
+تذلل,self-abasement,,VERB
 إنسانوية,humanism,,NOUN
-محلية,localism/localness,,NOUN
+محلية,localism/localness,,ADJ
 اختزالية,reductionism,,NOUN
 اختزال,reduction/shorthand,,NOUN
 تبسيطية,simplism,,NOUN
-إمكان,possibility/contingency,,VERB
+إمكان,possibility/contingency,,NOUN
 وجوب,necessity/obligation,,NOUN
 امتناع,impossibility/abstention,,NOUN
 حدوث,occurrence/createdness,,NOUN
-قدم,eternity without beginning,,NOUN
+قدم,eternity without beginning,,VERB
 علو,loftiness/superiority,,NOUN
 دنو,lowness/nearness,,NOUN
 ماصدق,extension/denotation,,NOUN
@@ -3070,56 +3070,56 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مقايسة,analogical comparison,,NOUN
 تدليل,substantiation,,NOUN
 تسويغ,justification,,NOUN
-رجحان,preponderance,,VERB
+رجحان,preponderance,,NOUN
 محك,touchstone/criterion,,NOUN
 معيارية,normativity,,NOUN
-قيمية,axiological,,NOUN
-خيرية,goodness/charity,,NOUN
+قيمية,axiological,,ADJ
+خيرية,goodness/charity,,ADJ
 محكي,narrated tale,,VERB
 أحدوثة,anecdote/tale,,NOUN
-قصصية,narrativity/fictionality,,NOUN
-روائية,novelistic quality,,NOUN
+قصصية,narrativity/fictionality,,ADJ
+روائية,novelistic quality,,ADJ
 ملحمية,epicness,,NOUN
-غنائية,lyricism,,NOUN
+غنائية,lyricism,,ADJ
 شاعرية,poeticalness,,NOUN
-شعرية,poetics,,NOUN
+شعرية,poetics,,ADJ
 تفعيلة,metrical foot,,NOUN
 شطر,hemistich/half,,NOUN
-مطولة,long poem,,NOUN
+مطولة,long poem,,ADJ
 مقطوعة,short piece/passage,,NOUN
 ترصيع,ornamentation/inlay,,NOUN
 اقتضاب,terseness,,NOUN
 حشو,padding/filler,,NOUN
 تقريظ,eulogy/praise,,NOUN
 حماسة,heroic poetry/zeal,,NOUN
-وصفية,descriptiveness,,NOUN
-تصويرية,imagery/figurativeness,,NOUN
+وصفية,descriptiveness,,ADJ
+تصويرية,imagery/figurativeness,,ADJ
 إيحائية,suggestiveness,,NOUN
 دادائية,dadaism,,NOUN
-حداثية,modernist,,NOUN
+حداثية,modernist,,ADJ
 سيميائية,semiotics,,NOUN
 سيميولوجيا,semiology,,NOUN
-تأويلية,hermeneutics,,NOUN
+تأويلية,hermeneutics,,ADJ
 هيرمينوطيقا,hermeneutics,,NOUN
-نصية,textuality,,NOUN
+نصية,textuality,,ADJ
 استهلال,opening/exordium,,NOUN
 منظورية,perspectivism,,NOUN
 شخوص,characters/figures,,NOUN
 مأساوية,tragicness,,NOUN
-هزلية,farce/comicness,,NOUN
+هزلية,farce/comicness,,ADJ
 تراجيديا,tragedy,,NOUN
 ميلودراما,melodrama,,NOUN
 مسرحة,dramatization,,NOUN
 مناجاة,soliloquy/intimate address,,NOUN
-أدبية,literariness,,NOUN
-نقدية,criticality,,NOUN
+أدبية,literariness,,ADJ
+نقدية,criticality,,ADJ
 ذائقة,aesthetic taste,,NOUN
 جماليات,aesthetics,,NOUN
 قريحة,poetic talent,,NOUN
 أديب,litterateur,,NOUN
 ناثر,prose writer,,NOUN
 نثر,prose,,NOUN
-نثرية,prosaicness,,NOUN
+نثرية,prosaicness,,ADJ
 مقالية,essayistic quality,,NOUN
 تخييلي,fictional,,VERB
 شفاهية,orality,,NOUN
@@ -3130,7 +3130,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تذييل,addendum/postscript,,NOUN
 مستدرك,addendum/supplement,,NOUN
 ببليوغرافيا,bibliography,,NOUN
-مستشرق,orientalist,,NOUN
+مستشرق,orientalist,,ADJ
 سرديات,narratology/narratives,,NOUN
 باروديا,parody,,NOUN
 معارضات,poetic imitations,,NOUN
@@ -3142,15 +3142,15 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 صواتة,phonology,,NOUN
 فونيم,phoneme,,NOUN
 مورفيم,morpheme,,NOUN
-صرفية,morphology/morphological,,NOUN
+صرفية,morphology/morphological,,ADJ
 دخيل,loanword/intruder,,NOUN
 معرب,arabized word,,NOUN
 لهجية,dialectal,,NOUN
-دلالية,semanticity,,NOUN
+دلالية,semanticity,,ADJ
 تركيبية,syntactic structure,,NOUN
 تصريف,conjugation/inflection,,NOUN
 سليقة,native linguistic intuition,,NOUN
-فصيح,eloquent/classical,,NOUN
+فصيح,eloquent/classical,,ADJ
 إبدال,phonetic substitution,,NOUN
 إدغام,assimilation/gemination,,NOUN
 إمالة,vowel inclination,,NOUN
@@ -3161,16 +3161,16 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 نبر,stress/accent,,NOUN
 تنغيم,intonation,,NOUN
 جهر,voicing/loudness,,NOUN
-تضاد,antonymy/opposition,,NOUN
+تضاد,antonymy/opposition,,VERB
 أضداد,contronyms,,NOUN
 تصحيف,scribal misreading,,NOUN
 تحريف,distortion/corruption,,NOUN
 نحوية,grammaticality,,NOUN
 توليدية,generativism,,NOUN
 تحويلية,transformational grammar,,NOUN
-وظيفية,functionalism,,NOUN
-تلازم,collocation/concomitance,,NOUN
-سياقية,contextuality,,NOUN
+وظيفية,functionalism,,ADJ
+تلازم,collocation/concomitance,,VERB
+سياقية,contextuality,,ADJ
 رطانة,jargon/gibberish,,NOUN
 لثغة,lisp,,NOUN
 تأتأة,stuttering,,NOUN
@@ -3184,21 +3184,21 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تهجين,hybridization,,NOUN
 معيرة,standardization,,NOUN
 توليد,generation/coinage,,NOUN
-تحول,language shift,,NOUN
-تشكيلي,visual/plastic artist,,VERB
-تشكيلية,plastic art quality,,NOUN
+تحول,language shift,,VERB
+تشكيلي,visual/plastic artist,,ADJ
+تشكيلية,plastic art quality,,ADJ
 منمنمة,miniature painting,,NOUN
 خزفية,ceramic piece,,NOUN
-زخرفي,ornamental,,VERB
-تدرج,gradation,,NOUN
+زخرفي,ornamental,,ADJ
+تدرج,gradation,,VERB
 مرسم,painting studio,,NOUN
 تجريدية,abstractionism,,NOUN
 وحشية,fauvism/brutality,,NOUN
-مستقبلية,futurism,,NOUN
+مستقبلية,futurism,,ADJ
 حروفية,calligraphic art movement,,NOUN
 كوفي,kufic script,,VERB
 ليثوغرافيا,lithography,,NOUN
-أدائية,performativity,,NOUN
+أدائية,performativity,,ADJ
 ارتجالية,improvisational quality,,NOUN
 كوريغرافيا,choreography,,NOUN
 باليه,ballet,,NOUN
@@ -3211,12 +3211,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سوناتا,sonata,,NOUN
 منشد,religious chanter,,NOUN
 إنشاد,religious chanting,,NOUN
-موسيقية,musicality,,NOUN
+موسيقية,musicality,,ADJ
 إيقاعية,rhythmicity,,NOUN
 لحنية,melodiousness,,NOUN
 تلحين,musical composition,,NOUN
 كورال,chorale,,NOUN
-منفرد,soloist/solo,,NOUN
+منفرد,soloist/solo,,ADJ
 معزوفة,instrumental piece,,NOUN
 نغمية,tonality,,NOUN
 نغم,melody/tone,,NOUN
@@ -3231,21 +3231,21 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قيثارة,lyre/guitar,,NOUN
 دربوكة,darbuka drum,,NOUN
 صنج,cymbal,,NOUN
-وتريات,string instruments,,NOUN
+وتريات,string instruments,,CCONJ
 إيقاعيات,percussion instruments,,NOUN
 صولفيج,solfege,,NOUN
 نوتة,musical note/score,,NOUN
-سينمائية,cinematic quality,,NOUN
+سينمائية,cinematic quality,,ADJ
 كادر,frame/cadre,,NOUN
-وثائقية,documentary quality,,NOUN
+وثائقية,documentary quality,,ADJ
 تحريك,animation/moving,,NOUN
 مقتنيات,collection/acquisitions,,NOUN
-رائعة,masterpiece,,NOUN
+رائعة,masterpiece,,ADJ
 أيقونية,iconicity,,NOUN
 جص,stucco/plaster,,NOUN
 حلي,jewelry/adornments,,VERB
 نقاشة,engraving craft,,NOUN
-سماعي,learned by ear/attested,,VERB
+سماعي,learned by ear/attested,,ADJ
 عصامية,self-made achievement,,NOUN
 مزج,blending/mixing,,NOUN
 تناسق,symmetry/coherence,,NOUN
@@ -3263,11 +3263,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سوسيولوجيا,sociology,,NOUN
 إثنولوجيا,ethnology,,NOUN
 إناسة,anthropology,,NOUN
-حضرية,urbanity,,NOUN
+حضرية,urbanity,,ADJ
 بداوة,nomadism/bedouin life,,NOUN
-عشائرية,clannishness,,NOUN
+عشائرية,clannishness,,ADJ
 أمومية,matriarchy,,NOUN
-ذكورية,male chauvinism,,NOUN
+ذكورية,male chauvinism,,ADJ
 أنثوية,femininity,,NOUN
 غوغائية,demagoguery/mob mentality,,NOUN
 دهماء,rabble/masses,,NOUN
@@ -3275,26 +3275,26 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سوقية,vulgarity/commonness,,NOUN
 تسليع,commodification,,NOUN
 تنميط,stereotyping,,NOUN
-وصم,stigmatization,,NOUN
+وصم,stigmatization,,VERB
 وصمة,stigma,,NOUN
 تذويب,assimilation/dissolving,,NOUN
 تساكن,cohabitation,,VERB
 هرمية,hierarchical order,,NOUN
 علمنة,secularization,,NOUN
-زمنية,temporality/secularity,,NOUN
+زمنية,temporality/secularity,,ADJ
 تقليدانية,traditionalism,,NOUN
-ريفية,rurality,,NOUN
+ريفية,rurality,,ADJ
 شتات,diaspora/dispersion,,NOUN
 شبيبة,youth,,NOUN
 أنساب,genealogies,,NOUN
-إثنية,ethnicity,,NOUN
-عرقية,ethnic identity,,NOUN
+إثنية,ethnicity,,ADJ
+عرقية,ethnic identity,,ADJ
 هوياتية,identity-related,,NOUN
 طقوسية,ritualism,,NOUN
 شعائر,rites,,NOUN
 شعيرة,rite/observance,,NOUN
 كرنفالية,carnivalesque,,NOUN
-جمعوية,associative activism,,NOUN
+جمعوية,associative activism,,ADJ
 سخرة,corvee labor,,NOUN
 مسلة,obelisk,,NOUN
 تأريخ,historiography/dating,,NOUN
@@ -3302,11 +3302,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 غزوات,raids/expeditions,,NOUN
 سلطنة,sultanate,,NOUN
 كولونيالية,colonialism,,NOUN
-توسعية,expansionism,,NOUN
-أسطورية,mythicalness,,NOUN
+توسعية,expansionism,,ADJ
+أسطورية,mythicalness,,ADJ
 خرافية,fabulousness/superstition,,NOUN
 مآثر,exploits/monuments,,NOUN
-وقائع,events/chronicle,,NOUN
+وقائع,events/chronicle,,CCONJ
 تراجم,biographical entries,,NOUN
 أدارسة,idrisids,,NOUN
 اعتلاء,accession/ascending,,NOUN
@@ -3319,17 +3319,17 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أسوار,city walls,,NOUN
 نواعير,waterwheels,,NOUN
 مماليك,mamluks,,NOUN
-عثمانيون,ottomans,,NOUN
+عثمانيون,ottomans,,ADJ
 أندلسيون,andalusis,,NOUN
 سقوط,fall/collapse,,NOUN
 انحطاط,decadence/decline,,NOUN
 نهضوية,renaissance-related,,NOUN
 وطنيات,patriotic movements,,NOUN
 مقاومات,resistances,,NOUN
-معمرون,colonial settlers,,NOUN
+معمرون,colonial settlers,,ADJ
 أهالي,natives/inhabitants,,VERB
 أعراف,customary laws,,NOUN
-عرفية,customary,,NOUN
+عرفية,customary,,ADJ
 مشيخة,sheikhdom/eldership,,NOUN
 إمارة,emirate/princedom,,NOUN
 دويلات,petty states,,NOUN
@@ -3337,14 +3337,14 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ملوكية,monarchism/royalty,,NOUN
 وراثية,hereditary nature,,NOUN
 أرستقراطية,aristocracy,,NOUN
-إقطاعية,feudalism,,NOUN
+إقطاعية,feudalism,,ADJ
 عبودية,slavery/servitude,,NOUN
 رق,slavery/bondage,,NOUN
-عتق,manumission,,NOUN
+عتق,manumission,,VERB
 موالي,freedmen/clients,,VERB
 خراج,land tax,,NOUN
 ديوانية,chancery-related,,NOUN
-كتابية,scribal/written,,NOUN
+كتابية,scribal/written,,ADJ
 إسقاط,projection/dropping,,NOUN
 إعلاء,sublimation/elevation,,NOUN
 تقمص,role identification/impersonation,,NOUN
@@ -3352,13 +3352,13 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قهري,compulsive,,VERB
 اجترار,rumination,,NOUN
 استبطان,introspection,,VERB
-تداعي,free association/collapse,,VERB
+تداعي,free association/collapse,,NOUN
 تنفيس,venting/catharsis,,NOUN
 إشراط,conditioning,,NOUN
 انطفاء,extinction/fading out,,NOUN
-تعود,habituation,,NOUN
+تعود,habituation,,VERB
 استثارة,arousal/provocation,,NOUN
-تقبل,acceptance,,NOUN
+تقبل,acceptance,,VERB
 اتساق,consistency/coherence,,NOUN
 تنويم,hypnosis/putting to sleep,,NOUN
 غرائزية,instinctuality,,NOUN
@@ -3369,7 +3369,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جموح,impetuosity/unruliness,,NOUN
 اندفاعية,impulsivity,,NOUN
 تأني,deliberateness/patience,,VERB
-تلعثم,stammering,,NOUN
+تلعثم,stammering,,VERB
 توهان,disorientation,,VERB
 شرود,absent-mindedness,,NOUN
 سرحان,daydreaming,,VERB
@@ -3383,27 +3383,27 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 رهافة,sensitivity/delicacy,,NOUN
 مرهف,highly sensitive/refined,,NOUN
 إفتاء,issuing religious opinions,,NOUN
-استحسان,juristic preference/approval,,VERB
+استحسان,juristic preference/approval,,NOUN
 استصحاب,presumption of continuity,,NOUN
 متواتر,mass-transmitted report,,NOUN
 آحاد,isolated reports/units,,NOUN
 غيبيات,unseen realities,,NOUN
 أخروية,eschatological,,NOUN
-معاد,hereafter/return,,NOUN
+معاد,hereafter/return,,ADJ
 حشر,final gathering,,NOUN
 مغفرة,divine forgiveness,,NOUN
 سبحة,prayer beads,,NOUN
 مجاهدة,spiritual striving,,NOUN
-صوفية,sufism/sufis,,NOUN
+صوفية,sufism/sufis,,ADJ
 عرفان,gnosis/gratitude,,VERB
 عرفانية,gnosticism,,NOUN
-إشراقية,illuminationism,,NOUN
+إشراقية,illuminationism,,ADJ
 قداسة,holiness/sanctity,,NOUN
 تقديس,sanctification/veneration,,NOUN
 تدنيس,desecration,,NOUN
 دنس,impurity/defilement,,NOUN
 نجاسة,ritual impurity,,NOUN
-وعظ,preaching/exhortation,,NOUN
+وعظ,preaching/exhortation,,VERB
 موعظة,sermon/admonition,,NOUN
 تبشير,evangelization/proclaiming,,NOUN
 تنصير,christianization,,NOUN
@@ -3415,12 +3415,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تكفير,excommunication/anathema,,NOUN
 أشعرية,asharite school,,NOUN
 معتزلة,mutazilites,,NOUN
-وهابية,wahhabism,,NOUN
+وهابية,wahhabism,,ADJ
 مالكية,maliki school,,NOUN
 شافعية,shafii school,,NOUN
-ظاهرية,literalism/exteriority,,NOUN
+ظاهرية,literalism/exteriority,,ADJ
 إباضية,ibadism,,NOUN
-تشيع,shiism/partisanship,,NOUN
+تشيع,shiism/partisanship,,VERB
 ديانة,religion/creed,,NOUN
 كهنوت,priesthood,,VERB
 رهبنة,monasticism,,NOUN
@@ -3432,9 +3432,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 راهب,monk,,NOUN
 ناسك,hermit/ascetic,,NOUN
 زاهد,ascetic/renunciant,,NOUN
-متصوف,sufi practitioner,,NOUN
+متصوف,sufi practitioner,,ADJ
 حسبة,market-morals oversight,,NOUN
-محتسب,market inspector,,NOUN
+محتسب,market inspector,,ADJ
 أحباس,habous endowments,,NOUN
 زهادة,renunciation,,NOUN
 ملكوت,heavenly kingdom,,VERB
@@ -3450,8 +3450,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 استغراب,bewilderment,,NOUN
 ضياع,being lost/waste,,NOUN
 غربة,estrangement/exile,,NOUN
-توق,yearning,,NOUN
-ظمأ,thirst/craving,,VERB
+توق,yearning,,VERB
+ظمأ,thirst/craving,,NOUN
 حبور,joy/delight,,NOUN
 جذل,gladness,,NOUN
 اغتباط,gratification,,NOUN
@@ -3460,21 +3460,21 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 عطف,affection/sympathy,,NOUN
 أنس,genial companionship,,NOUN
 غل,concealed rancor,,NOUN
-موجدة,resentment,,NOUN
+موجدة,resentment,,ADJ
 تذمر,grumbling,,NOUN
 نقمة,resentment/vengeance,,NOUN
 تشفي,gloating,,VERB
-امتهان,degradation/pursuit,,VERB
+امتهان,degradation/pursuit,,NOUN
 خزي,disgrace/shame,,VERB
-فزع,fright/terror,,NOUN
+فزع,fright/terror,,VERB
 اقشعرار,shudder,,NOUN
 ندامة,remorse,,NOUN
 تحسر,lamenting regret,,NOUN
 ملال,tedium,,NOUN
 خمول,lethargy,,NOUN
 كلل,weariness,,NOUN
-تبرم,irritation/impatience,,NOUN
-نزق,irascibility,,NOUN
+تبرم,irritation/impatience,,VERB
+نزق,irascibility,,VERB
 رعونة,foolhardiness,,NOUN
 غفلة,heedlessness,,NOUN
 بلاهة,idiocy/simple-mindedness,,NOUN
@@ -3489,8 +3489,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أبي,proud/dignified,,VERB
 أريب,sagacious,,NOUN
 لبيب,intelligent/sensible,,NOUN
-ضليع,proficient/versed,,NOUN
-متضلع,deeply versed,,NOUN
+ضليع,proficient/versed,,ADJ
+متضلع,deeply versed,,ADJ
 مراوغ,evasive/dodging,,NOUN
 مخاتل,deceitful/wily,,NOUN
 جائر,unjust/oppressive,,NOUN
@@ -3514,7 +3514,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 متخاذل,defeatist/slack,,NOUN
 انهزامية,defeatism,,NOUN
 تزمت,rigorism/bigotry,,VERB
-تفتح,open-mindedness/blooming,,NOUN
+تفتح,open-mindedness/blooming,,VERB
 غلو,excess/extremism,,NOUN
 إفراط,excess/overindulgence,,NOUN
 تفريط,negligence/dereliction,,NOUN
@@ -3522,11 +3522,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 اتكالية,dependent passivity,,NOUN
 استكانة,resigned submission,,NOUN
 انقياد,docility,,NOUN
-عفوية,spontaneity,,NOUN
+عفوية,spontaneity,,ADJ
 بهرجة,ostentation/tinsel,,NOUN
 أبهة,pomp,,NOUN
 فخامة,grandeur/magnificence,,NOUN
-بذخ,opulence/lavishness,,NOUN
+بذخ,opulence/lavishness,,VERB
 ترف,luxury/opulence,,NOUN
 شظف,austerity of life,,NOUN
 ضنك,straitened circumstances,,NOUN
@@ -3551,11 +3551,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جلال,majesty/sublimity,,NOUN
 بهاء,splendor/beauty,,NOUN
 رونق,luster/charm,,NOUN
-ألق,radiance/brilliance,,NOUN
+ألق,radiance/brilliance,,VERB
 سنا,brilliance/gleam,,NOUN
 ضياء,radiance/light,,NOUN
 عتمة,darkness/obscurity,,NOUN
-معاصرة,contemporaneity,,NOUN
+معاصرة,contemporaneity,,ADJ
 أرجحية,preponderance,,NOUN
 غلبة,predominance,,NOUN
 سطوة,sway/dominance,,NOUN
@@ -3567,7 +3567,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أفول,decline/setting,,NOUN
 نضارة,freshness/bloom,,NOUN
 إيناع,blossoming/ripening,,NOUN
-تفتق,bursting forth,,NOUN
+تفتق,bursting forth,,VERB
 انبثاق,emergence/emanation,,NOUN
 نشوء,genesis/emergence,,NOUN
 مآل,eventual outcome,,NOUN
@@ -3591,12 +3591,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تزامنا,simultaneously with,,NOUN
 توازيا,in parallel with,,NOUN
 آنئذ,at that time,,NOUN
-وقتئذ,at that time,,NOUN
-عندئذ,thereupon,,NOUN
+وقتئذ,at that time,,CCONJ
+عندئذ,thereupon,,ADV
 يومئذ,on that day,,NOUN
-حينذاك,at that time,,NOUN
-وقتذاك,in those days,,NOUN
-بعدئذ,afterwards,,NOUN
+حينذاك,at that time,,ADV
+وقتذاك,in those days,,ADV
+بعدئذ,afterwards,,ADV
 هنيهة,brief moment,,NOUN
 برهة,short while,,NOUN
 ردح,long stretch of time,,NOUN
@@ -3616,33 +3616,33 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 البتة,at all/absolutely,,NOUN
 بتاتا,absolutely not,,NOUN
 رتابة,monotony,,NOUN
-نمطية,stereotypy/routineness,,NOUN
+نمطية,stereotypy/routineness,,ADJ
 ناموس,natural law,,NOUN
 سجايا,innate qualities,,NOUN
 خصال,traits/qualities,,NOUN
-طباع,temperament/dispositions,,NOUN
-خلق,character trait/creation,,NOUN
+طباع,temperament/dispositions,,VERB
+خلق,character trait/creation,,VERB
 دخيلة,inner self,,NOUN
 جوارح,limbs/faculties,,NOUN
 وجدانية,emotionality/lyricism,,NOUN
-عاطفية,emotionality,,NOUN
-رومانسي,romantic,,VERB
-حالم,dreamy/dreamer,,NOUN
+عاطفية,emotionality,,ADJ
+رومانسي,romantic,,ADJ
+حالم,dreamy/dreamer,,ADJ
 متيم,lovestruck,,NOUN
 مشبوب,ardent/blazing,,NOUN
 جياش,surging/effusive,,NOUN
 فياض,overflowing/exuberant,,NOUN
-متقد,ablaze/keen,,NOUN
-متوقد,brilliantly keen,,NOUN
+متقد,ablaze/keen,,ADJ
+متوقد,brilliantly keen,,ADJ
 منطفئ,extinguished/listless,,NOUN
-مكلوم,wounded/heartbroken,,NOUN
-موجوع,aching/pained,,NOUN
+مكلوم,wounded/heartbroken,,ADJ
+موجوع,aching/pained,,ADJ
 مفجوع,bereaved/stricken,,NOUN
 مسلوب,dispossessed/enraptured,,NOUN
-مأخوذ,captivated/taken,,NOUN
+مأخوذ,captivated/taken,,ADJ
 مبهور,dazzled,,NOUN
 منتش,elated/tipsy,,NOUN
-جذلان,gleeful,,VERB
+جذلان,gleeful,,NOUN
 طروب,easily delighted by music,,NOUN
 شجي,plaintive/moving,,VERB
 موحش,desolate/dreary,,NOUN
@@ -3671,7 +3671,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 توارد,coincidence of ideas,,NOUN
 تقويض,undermining/demolition,,NOUN
 ثقافوية,culturalism,,NOUN
-شكلانية,formalism,,NOUN
+شكلانية,formalism,,ADJ
 شكلاني,formalist,,VERB
 نسقية,systematicity,,NOUN
 أركيولوجيا,archaeology of knowledge,,NOUN
@@ -3680,14 +3680,14 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تعاقبية,diachrony,,NOUN
 دال,signifier,,NOUN
 مدلول,signified,,NOUN
-اعتباطية,arbitrariness of the sign,,NOUN
+اعتباطية,arbitrariness of the sign,,ADJ
 تعدية,transitivity,,NOUN
-تلفظ,enunciation,,NOUN
+تلفظ,enunciation,,VERB
 ملفوظ,utterance,,NOUN
-حجاجية,argumentativeness,,NOUN
+حجاجية,argumentativeness,,ADJ
 تلميح,insinuation/allusion,,NOUN
 مواضعة,linguistic convention,,NOUN
-اصطلاحية,conventionality,,NOUN
+اصطلاحية,conventionality,,ADJ
 مكنز,thesaurus,,NOUN
 كشاف,concordance/index,,NOUN
 مصاحبة,co-occurrence/accompaniment,,NOUN
@@ -3716,39 +3716,39 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تمدين,urbanizing/civilizing,,NOUN
 انقسامية,segmentarity,,NOUN
 عزوبة,celibacy/bachelorhood,,NOUN
-ترمل,widowhood,,NOUN
+ترمل,widowhood,,VERB
 تعدد,polygamy/multiplicity,,NOUN
 ختان,circumcision,,VERB
-طفولية,infantilism,,NOUN
+طفولية,infantilism,,ADJ
 نضوج,maturation,,NOUN
 ذكورة,masculinity,,NOUN
 أنوثة,femininity,,NOUN
 مخيال,collective imaginary,,NOUN
 مخيلة,faculty of imagination,,NOUN
-متخيل,the imagined,,NOUN
+متخيل,the imagined,,ADJ
 نفساني,psychological practitioner,,VERB
 سيكولوجيا,psychology,,NOUN
 انسحاق,contrition/being crushed,,NOUN
 تصاغر,self-diminishment,,NOUN
 تضاؤل,dwindling,,NOUN
-تعاظم,magnification/swelling,,NOUN
+تعاظم,magnification/swelling,,VERB
 انسلاخ,detachment/shedding,,NOUN
 انخلاع,dislocation/fright,,NOUN
 انسياق,being swept along,,NOUN
 قطيعية,herd mentality,,NOUN
-امتثالية,conformism,,NOUN
-تدين,religiosity,,NOUN
-تعبد,devotional worship,,NOUN
-ربانية,godliness,,NOUN
+امتثالية,conformism,,ADJ
+تدين,religiosity,,VERB
+تعبد,devotional worship,,VERB
+ربانية,godliness,,ADJ
 حلولية,pantheism/incarnationism,,NOUN
 تجلي,theophany/manifestation,,VERB
 فيض,emanation/overflow,,NOUN
 أبدال,hidden saints,,NOUN
 أولياء,sufi saints,,NOUN
 أذكار,invocations,,NOUN
-جوهرية,essentiality,,NOUN
+جوهرية,essentiality,,ADJ
 صفاتية,attributists school,,NOUN
-مجدد,religious renewer,,NOUN
+مجدد,religious renewer,,ADJ
 إحيائية,revivalism/vitalism,,NOUN
 صحوة,religious awakening,,NOUN
 تيجانية,tijaniyya order,,NOUN
@@ -3780,19 +3780,19 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 هباء,in vain/dust,,NOUN
 رأسا,directly/outright,,NOUN
 توا,just now/immediately,,NOUN
-آنيا,instantaneously,,NOUN
-آجلا,sooner or later,,NOUN
-عاجلا,promptly/soon,,NOUN
+آنيا,instantaneously,,ADJ
+آجلا,sooner or later,,ADJ
+عاجلا,promptly/soon,,ADJ
 دواليك,and so forth,,NOUN
-تترى,in continuous succession,,NOUN
+تترى,in continuous succession,,VERB
 قاطبة,all together,,NOUN
 جمعاء,in its entirety,,NOUN
 حصرا,exclusively,,NOUN
 خصيصا,expressly/specially,,NOUN
-خفية,secretly,,NOUN
+خفية,secretly,,ADJ
 عيانا,before one's eyes,,NOUN
 سماعا,by hearsay,,NOUN
-باطنيا,inwardly/esoterically,,NOUN
+باطنيا,inwardly/esoterically,,ADJ
 غداة,the morning after,,NOUN
 ضحى,mid-morning,,NOUN
 هزيع,watch of the night,,NOUN
@@ -3827,30 +3827,30 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 رفقة,company/escort,,NOUN
 معية,togetherness/company,,NOUN
 فذ,exceptional/peerless,,NOUN
-أوحد,unique/matchless,,NOUN
+أوحد,unique/matchless,,ADJ
 عصي,defiant/intractable,,VERB
 عويص,abstruse,,NOUN
 مستغلق,impenetrable,,NOUN
 مبهم,vague/cryptic,,NOUN
-ملتبس,ambiguous/confused,,NOUN
-مستتر,concealed,,NOUN
-باطن,inner/esoteric,,VERB
+ملتبس,ambiguous/confused,,ADJ
+مستتر,concealed,,ADJ
+باطن,inner/esoteric,,NOUN
 عسير,arduous,,NOUN
-وجيز,succinct,,NOUN
+وجيز,succinct,,ADJ
 مسهب,prolix,,NOUN
 منمق,ornate,,NOUN
-مطروق,well-trodden topic,,NOUN
-مستحدث,newly introduced,,NOUN
+مطروق,well-trodden topic,,ADJ
+مستحدث,newly introduced,,ADJ
 عتيق,ancient/vintage,,NOUN
 غابر,bygone,,NOUN
 تليد,ancient inherited,,NOUN
 طارف,newly acquired,,NOUN
 نحرير,consummate erudite,,NOUN
-موسوعي,encyclopedic,,VERB
-متبحر,deeply learned,,NOUN
+موسوعي,encyclopedic,,ADJ
+متبحر,deeply learned,,ADJ
 مستنير,enlightened,,NOUN
-متنور,enlightened/progressive,,NOUN
-ظلامي,obscurantist,,VERB
+متنور,enlightened/progressive,,ADJ
+ظلامي,obscurantist,,ADJ
 متجبر,tyrannically haughty,,NOUN
 بوادر,early signs,,NOUN
 إرهاصات,precursors/harbingers,,NOUN
@@ -3860,7 +3860,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 باكورة,first work/firstling,,NOUN
 خواتيم,closings/final stages,,NOUN
 مآلات,ultimate outcomes,,NOUN
-ريعان,bloom of youth,,VERB
+ريعان,bloom of youth,,NOUN
 أوج,apex/zenith,,NOUN
 حضيض,nadir,,NOUN
 أوار,blazing ardor,,NOUN
@@ -3878,7 +3878,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قصيدية,qasida form,,NOUN
 تغني,singing celebration/extolling,,VERB
 إلقاء,recitation/delivery,,NOUN
-إلقائية,declamatory style,,NOUN
+إلقائية,declamatory style,,ADJ
 تنغيمية,intonational,,NOUN
 منطلقات,starting premises,,NOUN
 مرتكزات,foundations/anchors,,NOUN
@@ -3891,7 +3891,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مسلك,course/path taken,,NOUN
 مسالك,paths/approaches,,NOUN
 إحكام,precision/perfecting,,NOUN
-انضباطية,disciplined rigor,,NOUN
+انضباطية,disciplined rigor,,ADJ
 شواهد,attestations/examples,,NOUN
 مظان,likely sources,,VERB
 مصنفات,authored works,,NOUN
@@ -3904,7 +3904,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 رقاع,patches/notes,,NOUN
 محبرة,inkwell,,NOUN
 مداد,ink,,NOUN
-يراع,reed pen/pen,,NOUN
+يراع,reed pen/pen,,VERB
 نساخ,copyists,,NOUN
 أسانيد,chains of authority,,NOUN
 محفوظات,memorized texts/archives,,NOUN
@@ -3918,9 +3918,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 آنية,immediacy/instantaneity,,NOUN
 راهنية,topical currency,,NOUN
 استمرارية,continuity,,NOUN
-تقطع,intermittence,,NOUN
-تواصلية,communicativeness,,NOUN
-تخاطب,mutual address/discourse,,NOUN
+تقطع,intermittence,,VERB
+تواصلية,communicativeness,,ADJ
+تخاطب,mutual address/discourse,,VERB
 مخاطبة,addressing/audience,,NOUN
 محاورة,dialogue exchange,,NOUN
 مجادلة,argumentative dispute,,NOUN
@@ -3937,8 +3937,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 صدى,echo/repercussion,,NOUN
 أصداء,echoes/reactions,,NOUN
 دوي,reverberation/boom,,VERB
-أخاذ,captivating,,NOUN
-فتان,enchanting,,VERB
+أخاذ,captivating,,VERB
+فتان,enchanting,,NOUN
 آسر,captivating/riveting,,NOUN
 خلاب,alluring,,NOUN
 رشيق,graceful/lithe,,NOUN
@@ -3962,9 +3962,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 استبصار,insightfulness,,NOUN
 تثقيف,edification/culturing,,NOUN
 تعالم,pedantry,,NOUN
-تحذلق,pedantic affectation,,NOUN
+تحذلق,pedantic affectation,,VERB
 تقعر,affected speech,,NOUN
-تشدق,grandiloquence,,NOUN
+تشدق,grandiloquence,,VERB
 تفاصح,affected eloquence,,NOUN
 تباهي,ostentatious boasting,,VERB
 تفاخر,boasting/vying in pride,,NOUN
@@ -3984,4 +3984,18 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حلكة,pitch darkness,,NOUN
 دجى,darkness of night,,NOUN
 غبش,murk of dawn,,NOUN
-أصيل,late afternoon/genuine,,NOUN
+أصيل,late afternoon/genuine,,ADJ
+حنبل,woven rug,,NOUN
+جبصية,carved plasterwork,,NOUN
+تذهيب,gilding,,NOUN
+كياس,bath scrubber,,NOUN
+طيابة,bath attendant,,NOUN
+تقاسيم,instrumental improvisation,,NOUN
+شوار,bridal trousseau,,NOUN
+اعتكاف,spiritual retreat,,NOUN
+عشور,tithe,,NOUN
+مشعوذ,charlatan,,ADJ
+شعوذة,sorcery,,NOUN
+تبرك,seeking blessing,,VERB
+كرامات,saintly miracles,,NOUN
+شيخة,folk singer/sheikha,,NOUN

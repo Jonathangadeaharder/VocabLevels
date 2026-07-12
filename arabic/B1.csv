@@ -1,6 +1,6 @@
 Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مسافر,traveler,,NOUN
-سفرية,trip,,NOUN
+سفرية,trip,,ADJ
 جولة,tour,,NOUN
 مرشد,tour guide,,NOUN
 وجهة,destination,,NOUN
@@ -9,7 +9,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ديوانة,customs,,NOUN
 جواز,passport,,NOUN
 تلفريك,cable car,,NOUN
-مضيفة,flight attendant,,NOUN
+مضيفة,flight attendant,,ADJ
 طيار,pilot,,NOUN
 مطعم,restaurant,,NOUN
 مقهى,café,,NOUN
@@ -18,10 +18,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 شاليه,chalet,,NOUN
 رياض,riad,,NOUN
 قصبة,kasbah,,NOUN
-شمسية,parasol,,NOUN
+شمسية,parasol,,ADJ
 غطس,diving,,NOUN
-استكشف,to explore,,NOUN
-تسارى,to stroll,,NOUN
+استكشف,to explore,,VERB
+تسارى,to stroll,,VERB
 ضيافة,hospitality,,NOUN
 معلمة,monument,,NOUN
 متحف,museum,,NOUN
@@ -40,7 +40,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 عملة,currency,,NOUN
 بوربوار,tip,,NOUN
 اتجاه,direction,,NOUN
-سياحي,touristic,,VERB
+سياحي,touristic,,ADJ
 استعلامات,information desk,,NOUN
 صومعة,minaret,,NOUN
 ضريح,mausoleum,,NOUN
@@ -58,13 +58,13 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قناة,channel,,NOUN
 أخبار,news,,NOUN
 مجلة,magazine,,NOUN
-إعلان,advertisement,,VERB
+إعلان,advertisement,,NOUN
 إشهار,advertising,,NOUN
 مذيع,presenter,,NOUN
-صحافي,journalist,,VERB
+صحافي,journalist,,NOUN
 ممثل,actor,,NOUN
-ممثلة,actress,,NOUN
-مغني,singer,,VERB
+ممثلة,actress,,ADJ
+مغني,singer,,NOUN
 أغنية,song,,NOUN
 حفلة,party/concert,,NOUN
 مسرح,theater,,NOUN
@@ -78,13 +78,13 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 معرض,exhibition,,NOUN
 ثقافة,culture,,NOUN
 فن,art,,NOUN
-فنان,artist,,VERB
+فنان,artist,,NOUN
 جمهور,audience,,NOUN
 تصفيق,applause,,NOUN
-كوميدي,comedian,,VERB
+كوميدي,comedian,,NOUN
 نكتة,joke,,NOUN
 ترفيه,entertainment,,NOUN
-وثائقي,documentary,,VERB
+وثائقي,documentary,,ADJ
 دبلاج,dubbing,,NOUN
 ترجمة,translation,,NOUN
 حلقة,episode,,NOUN
@@ -92,7 +92,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سيناريو,script,,NOUN
 بودكاست,podcast,,VERB
 مقابلة,interview,,NOUN
-مباشر,live,,NOUN
+مباشر,live,,ADJ
 شاشة,screen,,NOUN
 نجم,celebrity,,NOUN
 رقص,dance,,NOUN
@@ -100,7 +100,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كرنفال,carnival,,NOUN
 صحافة,press,,NOUN
 إذاعة,radio station,,NOUN
-بث,broadcast,,NOUN
+بث,broadcast,,VERB
 مشهد,scene,,NOUN
 دور,role,,NOUN
 أداء,performance,,NOUN
@@ -119,9 +119,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 رعب,horror,,NOUN
 دراما,drama,,NOUN
 تشويق,suspense,,NOUN
-ممل,boring,,NOUN
-ممتع,enjoyable,,NOUN
-مثير,exciting,,NOUN
+ممل,boring,,ADJ
+ممتع,enjoyable,,ADJ
+مثير,exciting,,ADJ
 تقييم,rating,,NOUN
 نقد,criticism,,NOUN
 ناقد,critic,,NOUN
@@ -130,8 +130,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أرشيف,archive,,NOUN
 حقوق,rights,,NOUN
 شهرة,fame,,NOUN
-معجب,admirer,,NOUN
-مهرجان,festival,,VERB
+معجب,admirer,,ADJ
+مهرجان,festival,,NOUN
 فريق,team,,NOUN
 لاعب,player,,NOUN
 مدرب,coach,,NOUN
@@ -160,10 +160,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تعادل,draw,,NOUN
 نتيجة,result,,NOUN
 ترتيب,ranking,,NOUN
-دوري,league,,VERB
+دوري,league,,NOUN
 منتخب,national team,,NOUN
 مشجع,fan,,NOUN
-شجع,to cheer,,NOUN
+شجع,to cheer,,VERB
 صافرة,whistle,,NOUN
 شوط,half of a match,,NOUN
 بينالتي,penalty,,VERB
@@ -185,13 +185,13 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بديل,substitute,,NOUN
 تبديل,substitution,,NOUN
 كورنير,corner kick,,NOUN
-تدرب,to train,,NOUN
+تدرب,to train,,VERB
 إحماء,warm-up,,NOUN
-رمى,to throw,,NOUN
+رمى,to throw,,VERB
 مسابقة,competition,,NOUN
-منافس,opponent,,NOUN
+منافس,opponent,,ADJ
 ميدالية,medal,,NOUN
-رياضي,athlete,,VERB
+رياضي,athlete,,NOUN
 أولمبياد,Olympics,,NOUN
 تريننڭ,tracksuit,,NOUN
 سورف,surfing,,NOUN
@@ -203,7 +203,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 نفايات,waste,,NOUN
 تدوير,recycling,,NOUN
 مناخ,climate,,NOUN
-فيضان,flood,,VERB
+فيضان,flood,,NOUN
 زلزال,earthquake,,NOUN
 حريق,fire,,NOUN
 غروب,sunset,,NOUN
@@ -241,7 +241,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ضيعة,farm,,NOUN
 قمح,wheat,,NOUN
 شعير,barley,,NOUN
-أركان,argan,,VERB
+أركان,argan,,NOUN
 صنوبر,pine,,NOUN
 أرز,cedar,,NOUN
 بلوط,oak,,NOUN
@@ -251,7 +251,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بلارج,stork,,NOUN
 رتيلة,spider,,NOUN
 دلفين,dolphin,,NOUN
-بيئي,ecological,,VERB
+بيئي,ecological,,ADJ
 ملوث,polluted,,NOUN
 فضاء,space,,NOUN
 كسوف,eclipse,,NOUN
@@ -262,7 +262,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مطبوع,form,,NOUN
 شهادة,certificate,,NOUN
 تعريف,identification,,NOUN
-عقد,contract,,NOUN
+عقد,contract,,VERB
 ازدياد,birth record,,NOUN
 وفاة,death,,NOUN
 زواج,marriage,,NOUN
@@ -279,27 +279,27 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ضريبة,tax,,NOUN
 غرامة,fine,,NOUN
 رخصة,license,,NOUN
-جنسية,nationality,,NOUN
+جنسية,nationality,,ADJ
 إقامة,residence,,NOUN
 درب,alley,,NOUN
 ترامواي,tram,,VERB
 رصيف,sidewalk,,NOUN
 إنارة,street lighting,,NOUN
-دركي,gendarme,,VERB
+دركي,gendarme,,ADJ
 سلطة,authority,,NOUN
-قانوني,legal,,VERB
+قانوني,legal,,ADJ
 انتخابات,elections,,NOUN
-تصويت,voting,,VERB
+تصويت,voting,,NOUN
 جمعية,association,,NOUN
 نقابة,trade union,,NOUN
 إضراب,strike,,NOUN
 احتجاج,protest,,NOUN
-أمن,security,,VERB
+أمن,security,,NOUN
 جريمة,crime,,NOUN
 سرقة,theft,,NOUN
 شكاية,complaint,,NOUN
 محضر,official report,,NOUN
-سجن,prison,,VERB
+سجن,prison,,NOUN
 مصلحة,department,,NOUN
 وكالة,agency,,NOUN
 بريد,mail,,NOUN
@@ -310,7 +310,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كونطور,utility meter,,NOUN
 ضجيج,noise,,NOUN
 سنديك,building manager,,NOUN
-رسمي,official,,VERB
+رسمي,official,,ADJ
 مصادقة,certification,,NOUN
 تجديد,renewal,,NOUN
 صلاحية,validity,,NOUN
@@ -321,7 +321,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ريزو,network,,NOUN
 كونيكسيون,connection,,NOUN
 ويفي,wifi,,VERB
-أنترنت,internet,,VERB
+أنترنت,internet,,NOUN
 موقع,website,,NOUN
 تطبيق,app,,NOUN
 كود,code/password,,NOUN
@@ -332,7 +332,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 منشور,post,,NOUN
 تعليق,comment,,NOUN
 متابع,follower,,NOUN
-تابع,to follow,,NOUN
+تابع,to follow,,VERB
 فيديو,video,,NOUN
 سيلفي,selfie,,VERB
 كلافيي,keyboard,,VERB
@@ -348,7 +348,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ريشارج,top-up,,NOUN
 صفحة,page,,NOUN
 رابط,link,,NOUN
-بحث,search,,NOUN
+بحث,search,,VERB
 متصفح,browser,,NOUN
 فيروس,virus,,NOUN
 قرصنة,hacking,,NOUN
@@ -364,52 +364,52 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ذاكرة,memory,,NOUN
 تخزين,storage,,NOUN
 نسخ,to copy,,NOUN
-طبع,to print,,NOUN
+طبع,to print,,VERB
 طابعة,printer,,NOUN
 سكانير,scanner,,NOUN
-كليكا,to click,,NOUN
-كونيكطا,to connect,,NOUN
-بلوكا,to block,,NOUN
+كليكا,to click,,VERB
+كونيكطا,to connect,,VERB
+بلوكا,to block,,VERB
 جهاز,device,,NOUN
-تنرفز,to get angry,,NOUN
+تنرفز,to get angry,,VERB
 فخر,pride,,NOUN
-فخور,proud,,NOUN
+فخور,proud,,ADJ
 حشمة,shyness/shame,,NOUN
 غيرة,jealousy,,NOUN
 غيور,jealous,,NOUN
 حسد,envy,,NOUN
 أمل,hope,,NOUN
 مفاجأة,surprise,,NOUN
-قنط,to get bored,,NOUN
+قنط,to get bored,,VERB
 مقنوط,bored,,NOUN
-رأي,opinion,,VERB
+رأي,opinion,,NOUN
 اقتراح,suggestion,,NOUN
-اقترح,to suggest,,NOUN
-اتفق,to agree,,NOUN
-اختلف,to disagree,,NOUN
-ناقش,to discuss,,NOUN
+اقترح,to suggest,,VERB
+اتفق,to agree,,VERB
+اختلف,to disagree,,VERB
+ناقش,to discuss,,VERB
 نقاش,discussion,,NOUN
-قنع,to convince,,NOUN
-مقتنع,convinced,,NOUN
+قنع,to convince,,VERB
+مقتنع,convinced,,ADJ
 شك,doubt,,NOUN
-متأكد,sure,,NOUN
+متأكد,sure,,ADJ
 صراحة,frankness,,NOUN
 شعور,feeling,,NOUN
 مزاج,mood,,NOUN
 حماس,enthusiasm,,NOUN
-متحمس,excited,,NOUN
+متحمس,excited,,ADJ
 صدمة,shock,,NOUN
 دموع,tears,,NOUN
 ابتسامة,smile,,NOUN
-تبسم,to smile,,NOUN
-مقهور,heartbroken,,NOUN
-سامح,to forgive,,NOUN
-اعتذر,to apologize,,NOUN
-لام,to blame,,NOUN
+تبسم,to smile,,VERB
+مقهور,heartbroken,,ADJ
+سامح,to forgive,,VERB
+اعتذر,to apologize,,VERB
+لام,to blame,,VERB
 ثقة,trust,,NOUN
-تاق,to trust,,NOUN
+تاق,to trust,,VERB
 احترام,respect,,NOUN
-سب,to insult,,NOUN
+سب,to insult,,VERB
 ظلم,injustice,,NOUN
 حڭرة,contempt,,NOUN
 انطباع,impression,,NOUN
@@ -418,13 +418,13 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 خلاف,disagreement,,NOUN
 مشكل,problem,,NOUN
 سترس,stress,,NOUN
-استغرب,to be surprised,,NOUN
+استغرب,to be surprised,,VERB
 نية,naive,,NOUN
 حمق,madness,,NOUN
 كذاب,liar,,NOUN
 صادق,honest,,NOUN
-متكبر,arrogant,,NOUN
-متواضع,modest,,NOUN
+متكبر,arrogant,,ADJ
+متواضع,modest,,ADJ
 كريم,generous,,NOUN
 مشحاح,stingy,,NOUN
 مجتهد,hardworking,,NOUN
@@ -432,65 +432,65 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حنين,affectionate,,NOUN
 عنيد,stubborn,,NOUN
 صبور,patient,,NOUN
-عصبي,irritable,,VERB
-هادئ,calm,,NOUN
-مضحك,funny,,NOUN
-واعي,aware,,VERB
+عصبي,irritable,,ADJ
+هادئ,calm,,ADJ
+مضحك,funny,,ADJ
+واعي,aware,,ADJ
 مسؤول,responsible,,NOUN
 جدي,serious,,VERB
-مهمل,careless,,NOUN
-منظم,organized,,NOUN
+مهمل,careless,,ADJ
+منظم,organized,,ADJ
 فوضوي,messy,,VERB
-اجتماعي,sociable,,VERB
+اجتماعي,sociable,,ADJ
 حشمان,shy/embarrassed,,VERB
 طموح,ambitious,,NOUN
-متفائل,optimistic,,NOUN
-متشائم,pessimistic,,NOUN
-أناني,selfish,,VERB
+متفائل,optimistic,,ADJ
+متشائم,pessimistic,,ADJ
+أناني,selfish,,ADJ
 وفي,loyal,,VERB
 غدار,treacherous,,NOUN
 حقاد,resentful,,NOUN
-فضولي,curious,,VERB
-دقيق,precise,,NOUN
-صريح,frank,,NOUN
+فضولي,curious,,ADJ
+دقيق,precise,,ADJ
+صريح,frank,,ADJ
 مرن,flexible,,VERB
-عنيف,violent,,NOUN
+عنيف,violent,,ADJ
 خدوم,helpful,,NOUN
 طماع,greedy,,NOUN
 حسود,envious,,NOUN
 نصاب,con artist,,NOUN
 أمين,trustworthy,,NOUN
-ناضج,mature,,NOUN
+ناضج,mature,,ADJ
 طايش,reckless,,NOUN
 رزين,composed,,NOUN
-واثق,confident,,NOUN
+واثق,confident,,ADJ
 درويش,simple person,,NOUN
 علاحقاش,because,,NOUN
 يمكن,maybe,,VERB
 ملي,when,,VERB
 بالزربة,in a hurry,,NOUN
-أما,as for,,NOUN
+أما,as for,,PART
 مثلا,for example,,NOUN
 خصوصا,especially,,NOUN
 عموما,generally,,NOUN
-أخيرا,finally,,NOUN
-أولا,firstly,,NOUN
-ثانيا,secondly,,NOUN
+أخيرا,finally,,ADJ
+أولا,firstly,,ADJ
+ثانيا,secondly,,ADJ
 ديريكت,directly,,VERB
 بركة,enough,,NOUN
 فينما,wherever,,NOUN
-كيفما,however it may be,,NOUN
-وقتما,whenever,,NOUN
+كيفما,however it may be,,DET
+وقتما,whenever,,CCONJ
 بجوج,both,,NOUN
 فالحقيقة,in fact,,NOUN
-رغم,despite,,NOUN
+رغم,despite,,ADP
 بالنسبة,regarding,,NOUN
-إذن,therefore,,VERB
+إذن,therefore,,ADV
 دونك,so/then,,NOUN
 يالاه,come on,,NOUN
 بالكل,at all,,NOUN
 بالضبط,exactly,,NOUN
-فالأخير,in the end,,NOUN
+فالأخير,in the end,,ADJ
 ماعلينا,anyway,,NOUN
 الحاصول,in short,,NOUN
 بيناتنا,between us,,NOUN
@@ -503,11 +503,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مادة,school subject,,NOUN
 اختبار,test,,NOUN
 معدل,grade average,,NOUN
-رسب,to fail,,NOUN
+رسب,to fail,,VERB
 طباشير,chalk,,NOUN
 أستاذ,teacher,,NOUN
-ثانوية,high school,,NOUN
-إعدادية,middle school,,NOUN
+ثانوية,high school,,ADJ
+إعدادية,middle school,,ADJ
 باكالوريا,baccalaureate,,NOUN
 دبلوم,diploma,,NOUN
 منحة,scholarship,,NOUN
@@ -516,11 +516,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ممحاة,eraser,,NOUN
 قاموس,dictionary,,NOUN
 قواعد,grammar,,NOUN
-نطق,pronunciation,,NOUN
+نطق,pronunciation,,VERB
 تركيز,concentration,,NOUN
-ركز,to concentrate,,NOUN
+ركز,to concentrate,,VERB
 غياب,absence,,NOUN
-داخلية,boarding school,,NOUN
+داخلية,boarding school,,ADJ
 تقدم,progress,,NOUN
 محاضرة,lecture,,NOUN
 ورشة,workshop,,NOUN
@@ -534,7 +534,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ميزة,distinction,,NOUN
 ملخص,summary,,NOUN
 مراجعة,revision,,NOUN
-راجع,to review,,NOUN
+راجع,to review,,VERB
 حصة,class session,,NOUN
 جدول,timetable,,NOUN
 عقاب,punishment,,NOUN
@@ -558,8 +558,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جراح,surgeon,,NOUN
 محاسب,accountant,,NOUN
 مترجم,translator,,NOUN
-مبرمج,programmer,,NOUN
-تقني,technician,,VERB
+مبرمج,programmer,,ADJ
+تقني,technician,,ADJ
 تريسيان,electrician,,VERB
 بلومبي,plumber,,VERB
 حداد,blacksmith,,NOUN
@@ -569,7 +569,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مصور,photographer,,NOUN
 إمام,imam,,NOUN
 فقيه,religious scholar,,NOUN
-موثق,notary,,NOUN
+موثق,notary,,ADJ
 مقاول,contractor,,NOUN
 مسير,manager,,NOUN
 سكرتير,secretary,,NOUN
@@ -577,7 +577,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فاكتور,postman,,NOUN
 راعي,shepherd,,VERB
 جرديني,gardener,,VERB
-مهني,professional,,VERB
+مهني,professional,,ADJ
 خبرة,work experience,,NOUN
 كفاءة,competence,,NOUN
 مهارة,skill,,NOUN
@@ -605,7 +605,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ميلود,Mawlid,,NOUN
 سبوع,naming ceremony,,NOUN
 خطوبة,engagement,,NOUN
-خطب,to get engaged,,NOUN
+خطب,to get engaged,,VERB
 صداق,dowry,,NOUN
 نڭافة,bridal attendant,,NOUN
 عزومة,dinner invitation,,NOUN
@@ -613,7 +613,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فانتازيا,equestrian show,,NOUN
 تكشيطة,Moroccan gown,,NOUN
 كبش,ram,,NOUN
-دبح,to slaughter,,NOUN
+دبح,to slaughter,,VERB
 تقاليد,traditions,,NOUN
 عادة,custom,,NOUN
 تراث,heritage,,NOUN
@@ -629,13 +629,13 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 عطر,perfume,,NOUN
 بخور,incense,,NOUN
 قلا,to fry,,NOUN
-شوا,to grill,,NOUN
+شوا,to grill,,VERB
 مشوي,grilled,,VERB
-بخر,to steam,,NOUN
-فرم,to mince,,NOUN
-تبل,to season,,NOUN
+بخر,to steam,,VERB
+فرم,to mince,,VERB
+تبل,to season,,VERB
 توابل,spices,,NOUN
-دوب,to melt,,NOUN
+دوب,to melt,,VERB
 عجينة,dough,,NOUN
 وصفة,recipe,,NOUN
 مقادير,ingredients,,NOUN
@@ -646,8 +646,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سكنجبير,ginger,,NOUN
 قزبر,coriander,,NOUN
 فارينة,flour,,NOUN
-خل,vinegar,,NOUN
-نقع,to soak,,NOUN
+خل,vinegar,,VERB
+نقع,to soak,,VERB
 بسطيلة,pastilla,,NOUN
 ڭميلة,cooking pot,,NOUN
 زلافة,bowl,,NOUN
@@ -655,7 +655,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جمر,embers,,NOUN
 بخار,steam,,NOUN
 مقرمش,crunchy,,NOUN
-مقلي,fried,,VERB
+مقلي,fried,,ADJ
 مسلوق,boiled,,NOUN
 محشي,stuffed,,VERB
 مطحون,ground,,NOUN
@@ -690,7 +690,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 نصيحة,advice,,NOUN
 عيادة,doctor office,,NOUN
 راحة,rest,,NOUN
-مسكن,painkiller,,VERB
+مسكن,painkiller,,NOUN
 شراب,syrup,,NOUN
 كبد,liver,,NOUN
 كلاوي,kidneys,,VERB
@@ -699,17 +699,17 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 طفح,rash,,NOUN
 حكة,itching,,NOUN
 حرقة,heartburn,,NOUN
-غثيان,nausea,,VERB
+غثيان,nausea,,NOUN
 سخفة,fainting,,NOUN
-سخف,to faint,,NOUN
+سخف,to faint,,VERB
 نزيف,bleeding,,NOUN
 ورم,swelling,,NOUN
 التهاب,inflammation,,NOUN
-شفى,to cure,,NOUN
+شفى,to cure,,VERB
 عشوب,medicinal herbs,,NOUN
 حجامة,cupping,,NOUN
 تدخين,smoking,,NOUN
-كمى,to smoke,,NOUN
+كمى,to smoke,,VERB
 إدمان,addiction,,VERB
 بصر,eyesight,,NOUN
 عكاز,crutch,,NOUN
@@ -740,21 +740,21 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فيتاس,gear,,NOUN
 كوفر,trunk,,NOUN
 بلوكاج,traffic jam,,NOUN
-دوبلا,to overtake,,NOUN
+دوبلا,to overtake,,VERB
 جرار,tractor,,NOUN
 كروسة,cart,,NOUN
 شكمان,exhaust pipe,,VERB
 بربريز,windshield,,NOUN
 كونطاك,ignition,,NOUN
-ديمارا,to start the engine,,NOUN
+ديمارا,to start the engine,,VERB
 سطيبنة,spare tire,,NOUN
 كريك,car jack,,NOUN
 بوجي,spark plug,,VERB
 زربة,haste,,NOUN
 فيراج,curve,,NOUN
 منحدر,slope,,NOUN
-ممنوع,forbidden,,NOUN
-مسموح,allowed,,NOUN
+ممنوع,forbidden,,ADJ
+مسموح,allowed,,ADJ
 أولوية,right of way,,NOUN
 راجلين,pedestrians,,NOUN
 لافاج,car wash,,NOUN
@@ -763,30 +763,30 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مقارنة,comparison,,NOUN
 سبب,reason,,NOUN
 قرار,decision,,NOUN
-اختار,to choose,,NOUN
+اختار,to choose,,VERB
 اختيار,choice,,NOUN
 زهر,luck,,NOUN
 صدفة,coincidence,,NOUN
 خطر,danger,,NOUN
-آمن,safe,,VERB
+آمن,safe,,ADJ
 اقتصاد,economy,,NOUN
 سياسة,politics,,NOUN
 مجتمع,society,,NOUN
 روينة,mess/chaos,,NOUN
 سدة,mezzanine loft,,NOUN
 مزبلة,garbage dump,,NOUN
-مقدم,neighborhood official,,NOUN
+مقدم,neighborhood official,,ADJ
 براح,town crier,,NOUN
-جيران,neighbors,,VERB
+جيران,neighbors,,NOUN
 قيسارية,covered market,,NOUN
 سانديك,building manager,,NOUN
 سرجم,window,,NOUN
 قادوس,drainpipe,,NOUN
 مسيد,Quranic school,,NOUN
-سوم,to ask the price,,NOUN
+سوم,to ask the price,,VERB
 تشطيط,overcharging,,NOUN
 بال,secondhand clothes,,NOUN
-خطية,fine/penalty,,NOUN
+خطية,fine/penalty,,ADJ
 بون,receipt/voucher,,NOUN
 شكارة,bag/sack,,NOUN
 رحبة,grain market,,NOUN
@@ -803,7 +803,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تورنوفيس,screwdriver,,NOUN
 فيشة,electric plug,,NOUN
 بريز,power outlet,,NOUN
-سخان,water heater,,VERB
+سخان,water heater,,NOUN
 بوطة,gas cylinder,,NOUN
 فورنو,oven,,NOUN
 تقطار,leak/dripping,,NOUN
@@ -812,18 +812,18 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فيس,pickaxe,,NOUN
 بالة,shovel,,NOUN
 زاج,glass pane,,NOUN
-خسران,broken/out of order,,VERB
+خسران,broken/out of order,,NOUN
 بريكولاج,DIY work,,NOUN
 ماكينة,machine,,NOUN
 دادة,nanny,,NOUN
 كريش,daycare,,NOUN
 بيبرون,baby bottle,,NOUN
 كوش,diapers,,NOUN
-رضع,to breastfeed,,NOUN
-فطم,to wean,,NOUN
+رضع,to breastfeed,,VERB
+فطم,to wean,,VERB
 بوسة,kiss,,NOUN
 عياط,crying/shouting,,NOUN
-هدهد,to lull a baby,,NOUN
+هدهد,to lull a baby,,VERB
 عمارية,bridal palanquin,,NOUN
 شيخات,traditional female singers,,NOUN
 طبال,drummer,,NOUN
@@ -838,7 +838,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تبوريدة,equestrian show,,NOUN
 صحاب,friends,,NOUN
 هضرة,talk/speech,,NOUN
-تقهوى,to have coffee,,NOUN
+تقهوى,to have coffee,,VERB
 مغيوم,cloudy,,NOUN
 صحو,clear weather,,NOUN
 نداوة,humidity/dampness,,NOUN
@@ -859,28 +859,28 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حسانة,haircut,,NOUN
 حجام,barber,,NOUN
 زواق,decoration/adornment,,NOUN
-دبر,to manage/arrange,,NOUN
-تكا,to lean on,,NOUN
-تسنا,to wait,,NOUN
-تخلع,to be startled,,NOUN
+دبر,to manage/arrange,,VERB
+تكا,to lean on,,VERB
+تسنا,to wait,,VERB
+تخلع,to be startled,,VERB
 خلعة,fright,,NOUN
 قرص,to pinch/sting,,NOUN
-شمر,to roll up sleeves,,NOUN
-رقع,to patch,,NOUN
+شمر,to roll up sleeves,,VERB
+رقع,to patch,,VERB
 طرز,to embroider,,NOUN
-فور,to steam,,NOUN
-سيب,to let go/abandon,,NOUN
-طيح,to knock down,,NOUN
+فور,to steam,,ADP
+سيب,to let go/abandon,,VERB
+طيح,to knock down,,VERB
 تدابز,to brawl,,NOUN
-تعارك,to quarrel,,NOUN
-عير,to insult/taunt,,NOUN
-تصنط,to eavesdrop,,NOUN
-صاب,to find,,NOUN
-وضب,to tidy/prepare,,NOUN
-نقى,to clean/sort,,NOUN
-نشف,to dry,,NOUN
-خنز,to stink/rot,,NOUN
-والف,to get used to,,NOUN
+تعارك,to quarrel,,VERB
+عير,to insult/taunt,,VERB
+تصنط,to eavesdrop,,VERB
+صاب,to find,,VERB
+وضب,to tidy/prepare,,VERB
+نقى,to clean/sort,,VERB
+نشف,to dry,,VERB
+خنز,to stink/rot,,VERB
+والف,to get used to,,VERB
 قنطة,boredom,,NOUN
 قاسح,hard/stiff,,NOUN
 معمر,full,,NOUN
@@ -899,7 +899,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 موالف,accustomed,,NOUN
 طبلة,small table,,NOUN
 حصيرة,mat,,NOUN
-مضربة,mattress,,NOUN
+مضربة,mattress,,ADJ
 برمة,cooking pot,,NOUN
 كسكاس,couscous steamer,,NOUN
 مجمر,brazier,,NOUN
@@ -908,7 +908,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 طوموبيل,car,,NOUN
 دراز,weaver,,NOUN
 برطال,small room,,NOUN
-كوري,shack/stable,,VERB
+كوري,shack/stable,,ADJ
 زريبة,animal pen,,NOUN
 خربة,ruin,,NOUN
 دويرية,kitchen annex,,NOUN
@@ -926,7 +926,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 طوبة,brick,,NOUN
 شانطي,construction site,,VERB
 تبليط,tiling,,NOUN
-خابية,large clay jar,,NOUN
+خابية,large clay jar,,ADJ
 بوقال,jar,,NOUN
 كانون,clay stove,,NOUN
 مهراز,mortar and pestle,,NOUN
@@ -937,42 +937,42 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ميدة,low dining table,,NOUN
 دربوز,railing,,NOUN
 بيرو,desk/office,,NOUN
-تصبين,laundry washing,,NOUN
+تصبين,laundry washing,,VERB
 جافيل,bleach,,NOUN
 عقيقة,birth naming rite,,NOUN
 مباركة,congratulation/blessing,,NOUN
 تعريجة,small clay drum,,NOUN
 قرقبات,metal castanets,,NOUN
-تلج,snow,,NOUN
-قايلة,midday heat,,NOUN
+تلج,snow,,VERB
+قايلة,midday heat,,ADJ
 سخونة,fever,,NOUN
-جاز,to pass by,,NOUN
-تخبى,to hide oneself,,NOUN
-لحس,to lick,,NOUN
-كمش,to clench/grab,,NOUN
-قبط,to catch/hold,,NOUN
+جاز,to pass by,,VERB
+تخبى,to hide oneself,,VERB
+لحس,to lick,,VERB
+كمش,to clench/grab,,VERB
+قبط,to catch/hold,,VERB
 لوح,to throw,,NOUN
-شفر,to steal,,NOUN
-تكرفس,to struggle/suffer,,NOUN
-كوم,to pile up,,NOUN
-وصى,to place an order,,NOUN
-قضى,to run errands,,NOUN
-تخلص,to get paid,,NOUN
-رخى,to loosen,,NOUN
-تشهى,to crave,,NOUN
-حكر,to bully/oppress,,NOUN
-تبهدل,to be humiliated,,NOUN
+شفر,to steal,,VERB
+تكرفس,to struggle/suffer,,VERB
+كوم,to pile up,,VERB
+وصى,to place an order,,VERB
+قضى,to run errands,,VERB
+تخلص,to get paid,,VERB
+رخى,to loosen,,VERB
+تشهى,to crave,,VERB
+حكر,to bully/oppress,,VERB
+تبهدل,to be humiliated,,VERB
 بهدلة,humiliation/mess,,NOUN
 تمسكن,to act pitiful,,VERB
-تفركع,to burst,,NOUN
+تفركع,to burst,,VERB
 طرطق,to crackle/pop,,NOUN
-برطم,to grumble,,NOUN
+برطم,to grumble,,VERB
 شخر,to snore,,NOUN
-محروق,burnt,,NOUN
-حريف,spicy hot,,NOUN
+محروق,burnt,,ADJ
+حريف,spicy hot,,ADJ
 مزوق,decorated,,NOUN
 مصبوغ,painted/dyed,,NOUN
-فنيان,lazy,,VERB
+فنيان,lazy,,NOUN
 بلدي,local/homegrown,,VERB
 رومي,farmed/European style,,VERB
 بالي,worn out,,VERB
@@ -988,9 +988,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مرضعة,wet nurse,,NOUN
 تسنين,teething,,NOUN
 مشاية,baby walker,,NOUN
-دلل,to spoil a child,,NOUN
+دلل,to spoil a child,,VERB
 مدلل,spoiled child,,NOUN
-ربى,to raise a child,,NOUN
+ربى,to raise a child,,VERB
 بنادم,human being,,NOUN
 سالف,hair lock/sideburn,,NOUN
 عقيق,agate beads,,NOUN
@@ -999,8 +999,3 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 شامبوان,shampoo,,VERB
 شفرة,razor blade,,NOUN
 ملوي,layered flatbread,,VERB
-خليع,preserved dried meat,,NOUN
-أملو,almond argan spread,,NOUN
-فليو,pennyroyal mint,,NOUN
-قوق,artichoke,,NOUN
-دنجال,eggplant,,NOUN

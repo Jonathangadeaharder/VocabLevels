@@ -5,6 +5,7 @@ requires-python = ">=3.11"
 dependencies = [
     "deep-translator>=1.11.4",
     "wordfreq>=3.1.1",
+    "stanza>=1.10",
 ]
 
 [tool.pytest.ini_options]
@@ -29,6 +30,8 @@ omit = [
     "docs/*",
     "openspec/*",
     "generate_dutch_vocab.py",
+    # One-time migration script; needs ~2GB stanza models for full coverage.
+    "fix_pos_and_overflow.py",
 ]
 
 [tool.coverage.report]

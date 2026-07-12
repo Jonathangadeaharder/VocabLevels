@@ -1,39 +1,39 @@
 Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
-نوض,to get up,,NOUN
-فطر,to have breakfast,,NOUN
-تغدى,to have lunch,,NOUN
-تعشى,to have dinner,,NOUN
-تدوش,to take a shower,,NOUN
-توضا,to wash up,,NOUN
+نوض,to get up,,VERB
+فطر,to have breakfast,,VERB
+تغدى,to have lunch,,VERB
+تعشى,to have dinner,,VERB
+تدوش,to take a shower,,VERB
+توضا,to wash up,,VERB
 مشط,to comb,,NOUN
 حسن,to get a haircut / to shave,,VERB
 لبس,to wear / to get dressed,,NOUN
-حيد,to take off / to remove,,NOUN
-وجد,to prepare,,NOUN
-صاوب,to fix / to prepare,,NOUN
-رتب,to tidy up,,NOUN
+حيد,to take off / to remove,,VERB
+وجد,to prepare,,VERB
+صاوب,to fix / to prepare,,VERB
+رتب,to tidy up,,VERB
 كنس,to sweep,,NOUN
 مسح,to wipe / to clean,,NOUN
 شطف,to mop / to rinse,,NOUN
 نشر,to hang laundry,,NOUN
-طوى,to fold,,NOUN
-عيا,to get tired,,NOUN
-رتاح,to rest,,NOUN
-تعطل,to be late,,NOUN
-تسارا,to stroll,,NOUN
-تفرج,to watch,,NOUN
-صلى,to pray,,NOUN
-صام,to fast,,NOUN
+طوى,to fold,,VERB
+عيا,to get tired,,VERB
+رتاح,to rest,,VERB
+تعطل,to be late,,VERB
+تسارا,to stroll,,VERB
+تفرج,to watch,,VERB
+صلى,to pray,,VERB
+صام,to fast,,VERB
 خمم,to think,,NOUN
-تلاقى,to meet,,NOUN
-تسنى,to wait,,NOUN
+تلاقى,to meet,,VERB
+تسنى,to wait,,VERB
 تهلا,to take care,,NOUN
 نعاس,sleep / sleepiness,,NOUN
 تمن,price,,VERB
 سومة,price / cost,,NOUN
-تقدى,to shop for groceries,,NOUN
-خلص,to pay,,NOUN
-سلف,to lend / to borrow,,NOUN
+تقدى,to shop for groceries,,VERB
+خلص,to pay,,VERB
+سلف,to lend / to borrow,,VERB
 كريدي,credit,,VERB
 ريال,rial,,NOUN
 سنتيم,centime,,NOUN
@@ -41,15 +41,15 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مرشي,market,,VERB
 بلاصة,place / spot,,NOUN
 رخص,to get cheaper,,NOUN
-غلا,to get expensive,,NOUN
+غلا,to get expensive,,VERB
 نقص,to reduce / to decrease,,NOUN
-زاد,to add / to increase,,NOUN
+زاد,to add / to increase,,VERB
 سلعة,goods,,NOUN
 زبون,customer,,NOUN
 بياع,seller,,NOUN
 صولد,sale / discount,,NOUN
 فاكتورة,bill / invoice,,NOUN
-ميزان,scale,,VERB
+ميزان,scale,,NOUN
 كيلو,kilo,,NOUN
 ليترو,liter,,NOUN
 نص,half,,NOUN
@@ -62,7 +62,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بيصارة,fava bean soup,,NOUN
 رفيسة,rfissa dish,,NOUN
 سفة,sweet couscous,,NOUN
-شباكية,chebakia pastry,,NOUN
+شباكية,chebakia pastry,,ADJ
 بريوات,stuffed pastries,,NOUN
 زعفران,saffron,,VERB
 سكينجبير,ginger,,NOUN
@@ -76,7 +76,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 لوز,almonds,,NOUN
 كاوكاو,peanuts,,NOUN
 زبيب,raisins,,NOUN
-تمر,dates,,NOUN
+تمر,dates,,VERB
 رمان,pomegranate,,VERB
 مشماش,apricot,,NOUN
 بدنجال,eggplant,,NOUN
@@ -95,32 +95,32 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 دانون,yogurt,,NOUN
 رايب,curdled milk,,NOUN
 لبن,buttermilk,,VERB
-سمن,clarified butter,,VERB
+سمن,clarified butter,,NOUN
 صوصيص,sausage,,NOUN
 كفتة,minced meat,,NOUN
 غراف,cup / mug,,NOUN
-صينية,tray,,NOUN
+صينية,tray,,ADJ
 كسرونة,cooking pot,,NOUN
-قلى,to fry,,NOUN
-شوى,to grill,,NOUN
+قلى,to fry,,VERB
+شوى,to grill,,VERB
 سلق,to boil food,,NOUN
-غلى,to boil,,NOUN
+غلى,to boil,,VERB
 خلط,to mix,,NOUN
-حرك,to stir / to move,,NOUN
-هرس,to mash,,NOUN
-صفى,to strain,,NOUN
+حرك,to stir / to move,,VERB
+هرس,to mash,,VERB
+صفى,to strain,,VERB
 لقمة,bite / morsel,,NOUN
 شحمة,fat / grease,,NOUN
 جلجلان,sesame,,VERB
 قرعة,zucchini / bottle,,NOUN
-باكية,packet,,NOUN
+باكية,packet,,ADJ
 ڭاطو,cake,,NOUN
 شكلاط,chocolate,,NOUN
 قنينة,bottle,,NOUN
 طبق,dish / course,,NOUN
 فجل,radish,,NOUN
 كرموس,figs,,NOUN
-هندية,prickly pear,,NOUN
+هندية,prickly pear,,ADJ
 شهيوة,tasty dish / craving,,NOUN
 بنة,flavor / deliciousness,,NOUN
 ريحة,smell,,NOUN
@@ -130,13 +130,13 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 عروسة,bride,,NOUN
 عرس,wedding,,NOUN
 خطبة,engagement,,NOUN
-تزوج,to get married,,NOUN
-طلق,to divorce,,NOUN
+تزوج,to get married,,VERB
+طلق,to divorce,,VERB
 حاملة,pregnant,,NOUN
 ولادة,birth,,NOUN
-تزاد,to be born,,NOUN
+تزاد,to be born,,VERB
 توام,twins,,NOUN
-يتيم,orphan,,NOUN
+يتيم,orphan,,VERB
 صداقة,friendship,,NOUN
 حب,love,,NOUN
 حبيب,beloved / darling,,NOUN
@@ -166,9 +166,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 طابق,floor / story,,NOUN
 بارطما,apartment,,NOUN
 كراء,rent,,NOUN
-كرى,to rent,,NOUN
+كرى,to rent,,VERB
 ساكن,resident / living,,VERB
-سكن,to live / to reside,,VERB
+سكن,to live / to reside,,NOUN
 قفل,lock,,NOUN
 جرس,bell,,NOUN
 بطانية,blanket,,NOUN
@@ -212,10 +212,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 زيف,headscarf,,NOUN
 جاكيطة,jacket,,NOUN
 قياس,size / measure,,NOUN
-جرب,to try / to try on,,NOUN
+جرب,to try / to try on,,VERB
 صوف,wool,,NOUN
 حرير,silk,,NOUN
-قطن,cotton,,VERB
+قطن,cotton,,NOUN
 بوطون,button,,NOUN
 كرافاطة,necktie,,NOUN
 كاسكيطة,cap,,NOUN
@@ -229,9 +229,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 صداع,headache,,NOUN
 سخانة,fever,,NOUN
 كحة,cough,,NOUN
-كح,to cough,,NOUN
-وجع,pain,,NOUN
-ضر,to hurt,,NOUN
+كح,to cough,,VERB
+وجع,pain,,VERB
+ضر,to hurt,,VERB
 فرماسيان,pharmacist,,VERB
 فرماسية,pharmacy,,NOUN
 شوكة,injection / fork,,NOUN
@@ -240,18 +240,18 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حبة,pill / grain,,NOUN
 صحة,health,,NOUN
 سمين,fat / overweight,,NOUN
-تحسن,to get better,,VERB
+تحسن,to get better,,NOUN
 ضرس,molar,,NOUN
 عرق,sweat / vein,,NOUN
 نفس,breath / self,,NOUN
 تنفس,to breathe,,NOUN
 دوخة,dizziness,,NOUN
-داخ,to feel dizzy,,NOUN
-تقيا,to vomit,,NOUN
+داخ,to feel dizzy,,VERB
+تقيا,to vomit,,ADJ
 حساسية,allergy,,NOUN
 دكتور,doctor,,NOUN
 عطس,to sneeze,,NOUN
-داوى,to treat / to cure,,NOUN
+داوى,to treat / to cure,,VERB
 ريح,wind,,NOUN
 عاصفة,storm,,NOUN
 نو,rain,,NOUN
@@ -284,8 +284,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 دورة,turn / lap,,NOUN
 يمين,right side,,NOUN
 ليسر,left side,,NOUN
-سافر,to travel,,NOUN
-وصل,to arrive,,NOUN
+سافر,to travel,,VERB
+وصل,to arrive,,VERB
 دوار,village,,NOUN
 شارع,avenue / street,,NOUN
 بيرمي,driving license,,VERB
@@ -298,21 +298,21 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 وسط,middle / center,,NOUN
 طرف,edge / piece,,NOUN
 مورا,behind,,NOUN
-عند,at / by,,NOUN
+عند,at / by,,ADP
 لاڭار,train station,,NOUN
-عبر,to cross,,NOUN
-ساق,to drive,,NOUN
-عنوان,address,,VERB
+عبر,to cross,,ADP
+ساق,to drive,,VERB
+عنوان,address,,NOUN
 خريطة,map,,NOUN
 صحرا,desert,,NOUN
 حجز,to book / to reserve,,NOUN
-زار,to visit,,NOUN
+زار,to visit,,VERB
 زيارة,visit,,NOUN
 خدمة,work / job,,NOUN
 معمل,factory,,NOUN
 شركة,company,,NOUN
 باطرون,boss,,NOUN
-شهرية,salary,,NOUN
+شهرية,salary,,ADJ
 عطلة,vacation / holiday,,NOUN
 كونجي,leave / time off,,VERB
 اجتماع,meeting,,NOUN
@@ -322,7 +322,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قسم,classroom,,NOUN
 سبورة,blackboard,,NOUN
 دفتر,notebook,,NOUN
-امتحان,exam,,VERB
+امتحان,exam,,NOUN
 نقطة,grade / point,,NOUN
 درس,lesson,,NOUN
 تمرين,exercise,,NOUN
@@ -330,18 +330,18 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قراية,studies,,NOUN
 جامعة,university,,NOUN
 مستوى,level,,NOUN
-نجح,to succeed / to pass,,NOUN
+نجح,to succeed / to pass,,VERB
 حفظ,to memorize,,NOUN
-عاود,to repeat / to retell,,NOUN
-شرح,to explain,,NOUN
+عاود,to repeat / to retell,,VERB
+شرح,to explain,,VERB
 سؤال,question,,NOUN
 جواب,answer,,NOUN
-غلط,to make a mistake,,NOUN
+غلط,to make a mistake,,VERB
 غلطة,mistake,,NOUN
-صحح,to correct,,NOUN
-ترجم,to translate,,NOUN
+صحح,to correct,,VERB
+ترجم,to translate,,VERB
 لغة,language,,NOUN
-عربية,Arabic language,,NOUN
+عربية,Arabic language,,ADJ
 فرنساوية,French language,,NOUN
 نڭليزية,English language,,NOUN
 كاغيط,paper,,NOUN
@@ -364,134 +364,134 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مستقبل,future,,NOUN
 تاريخ,date / history,,NOUN
 ميعاد,appointment,,NOUN
-عاد,just now / then,,NOUN
+عاد,just now / then,,VERB
 قبيلة,a while ago,,NOUN
 ليلة,night,,NOUN
 طول,length / all along,,NOUN
 سنة,year,,NOUN
 عيد,holiday / feast,,NOUN
-رمضان,Ramadan,,VERB
+رمضان,Ramadan,,NOUN
 بداية,beginning,,NOUN
 نهاية,end,,NOUN
-زمان,long ago / old times,,VERB
+زمان,long ago / old times,,NOUN
 فجر,dawn,,NOUN
-وقت,time,,VERB
+وقت,time,,NOUN
 فرصة,chance / opportunity,,NOUN
 موسم,season / festival,,NOUN
 تالي,last / late,,VERB
 حد,Sunday / someone,,NOUN
 تنين,Monday,,NOUN
 تلات,Tuesday,,NOUN
-اربع,Wednesday,,NOUN
+اربع,Wednesday,,NUM
 خميس,Thursday,,NOUN
 جمعة,Friday,,NOUN
 سبت,Saturday,,VERB
-شاور,to consult,,NOUN
-عرض,to offer / to invite,,NOUN
+شاور,to consult,,VERB
+عرض,to offer / to invite,,VERB
 رفض,to refuse,,NOUN
-سمح,to forgive / to allow,,NOUN
+سمح,to forgive / to allow,,VERB
 منع,to forbid,,NOUN
-حاول,to try,,NOUN
+حاول,to try,,VERB
 قدر,to be able,,NOUN
-خص,to need / must,,NOUN
+خص,to need / must,,VERB
 بان,to appear / to seem,,VERB
-تمنى,to wish,,NOUN
-وقع,to happen / to fall,,NOUN
+تمنى,to wish,,VERB
+وقع,to happen / to fall,,VERB
 بدل,to change,,NOUN
-زرب,to hurry,,NOUN
-وزن,to weigh,,VERB
-حسب,to count / to calculate,,NOUN
-عض,to bite,,NOUN
-رفد,to carry / to lift,,NOUN
+زرب,to hurry,,VERB
+وزن,to weigh,,NOUN
+حسب,to count / to calculate,,ADP
+عض,to bite,,VERB
+رفد,to carry / to lift,,VERB
 جبد,to pull / to bring up,,NOUN
-لاح,to throw,,NOUN
-عقل,to remember,,NOUN
+لاح,to throw,,VERB
+عقل,to remember,,VERB
 صنت,to listen,,VERB
-فتش,to search,,NOUN
-خبى,to hide,,NOUN
-ورى,to show,,NOUN
-عجب,to please,,NOUN
+فتش,to search,,VERB
+خبى,to hide,,VERB
+ورى,to show,,VERB
+عجب,to please,,VERB
 كره,to hate,,NOUN
-تمسخر,to joke / to mock,,NOUN
-حشم,to be shy / embarrassed,,NOUN
-تخاصم,to quarrel,,NOUN
+تمسخر,to joke / to mock,,VERB
+حشم,to be shy / embarrassed,,VERB
+تخاصم,to quarrel,,VERB
 ضرب,to hit,,NOUN
-باس,to kiss,,NOUN
-سرق,to steal,,NOUN
+باس,to kiss,,VERB
+سرق,to steal,,VERB
 كذب,to lie,,NOUN
-صدق,to believe / to be honest,,NOUN
-وعد,to promise,,NOUN
+صدق,to believe / to be honest,,VERB
+وعد,to promise,,VERB
 تلف,to get lost,,NOUN
-ضيع,to lose / to waste,,NOUN
+ضيع,to lose / to waste,,VERB
 ربط,to tie,,NOUN
-كمل,to finish / to complete,,NOUN
-سالا,to finish,,NOUN
-خوى,to empty,,NOUN
-لحق,to catch up / to reach,,NOUN
-فات,to pass / to elapse,,NOUN
-صب,to pour,,NOUN
+كمل,to finish / to complete,,VERB
+سالا,to finish,,VERB
+خوى,to empty,,VERB
+لحق,to catch up / to reach,,VERB
+فات,to pass / to elapse,,VERB
+صب,to pour,,VERB
 فرق,to separate / to distribute,,NOUN
-حضر,to attend / to prepare,,NOUN
-غاب,to be absent,,NOUN
-شارك,to participate,,NOUN
+حضر,to attend / to prepare,,VERB
+غاب,to be absent,,VERB
+شارك,to participate,,VERB
 سجل,to register / to record,,NOUN
-علق,to hang,,NOUN
+علق,to hang,,VERB
 لصق,to stick,,NOUN
 حفر,to dig,,NOUN
-زرع,to plant,,NOUN
-سقى,to water,,NOUN
+زرع,to plant,,VERB
+سقى,to water,,VERB
 توحش,to miss someone,,NOUN
-غار,to be jealous,,NOUN
-تقلق,to get upset,,NOUN
-غش,to cheat,,NOUN
-نصح,to advise,,NOUN
-شكا,to complain,,NOUN
-دعا,to invite / to bless,,NOUN
-حكى,to tell / to narrate,,NOUN
-وصف,to describe,,NOUN
-قرر,to decide,,NOUN
-ختار,to choose,,NOUN
-تعلم,to learn,,NOUN
-دق,to knock / to pound,,NOUN
-قلع,to remove / to pull out,,NOUN
+غار,to be jealous,,VERB
+تقلق,to get upset,,VERB
+غش,to cheat,,VERB
+نصح,to advise,,VERB
+شكا,to complain,,VERB
+دعا,to invite / to bless,,VERB
+حكى,to tell / to narrate,,VERB
+وصف,to describe,,VERB
+قرر,to decide,,VERB
+ختار,to choose,,VERB
+تعلم,to learn,,VERB
+دق,to knock / to pound,,VERB
+قلع,to remove / to pull out,,VERB
 كسر,to break,,NOUN
 غرق,to drown / to sink,,NOUN
-سخن,to heat,,VERB
+سخن,to heat,,NOUN
 جمد,to freeze,,NOUN
-داب,to melt,,NOUN
-بلع,to swallow / to shut,,NOUN
+داب,to melt,,VERB
+بلع,to swallow / to shut,,VERB
 حلف,to swear,,NOUN
-تكى,to lean,,NOUN
+تكى,to lean,,VERB
 صور,to photograph,,NOUN
-سمى,to name,,NOUN
-قصد,to mean / to head to,,NOUN
+سمى,to name,,VERB
+قصد,to mean / to head to,,VERB
 شغل,to turn on / to employ,,NOUN
 صلح,to repair,,NOUN
 قشر,to peel,,NOUN
 عصر,to squeeze,,NOUN
-ضوى,to light up,,NOUN
-فتح,to open,,NOUN
-شحن,to charge,,VERB
+ضوى,to light up,,VERB
+فتح,to open,,VERB
+شحن,to charge,,NOUN
 خزن,to store,,VERB
-لم,to gather / to collect,,NOUN
+لم,to gather / to collect,,PART
 فرش,to spread / to make a bed,,NOUN
-نقز,to jump,,NOUN
-زلق,to slip,,NOUN
+نقز,to jump,,VERB
+زلق,to slip,,VERB
 نفخ,to inflate / to blow,,NOUN
 حك,to scratch / to rub,,NOUN
 حزين,sad,,NOUN
 زعفان,angry,,VERB
 معصب,tense / angry,,NOUN
 خايف,afraid,,NOUN
-بردان,feeling cold,,VERB
+بردان,feeling cold,,NOUN
 جيعان,hungry,,VERB
 عطشان,thirsty,,VERB
-شبعان,full / satiated,,VERB
+شبعان,full / satiated,,NOUN
 ناعس,asleep / sleepy,,NOUN
-مشغول,busy,,NOUN
-موجود,present / available,,NOUN
-مرتاح,relaxed / comfortable,,NOUN
-محتاج,in need,,NOUN
+مشغول,busy,,ADJ
+موجود,present / available,,ADJ
+مرتاح,relaxed / comfortable,,ADJ
+محتاج,in need,,ADJ
 مغبون,down / sorrowful,,NOUN
 حشومة,shame / embarrassment,,NOUN
 عيب,shame / disgrace,,NOUN
@@ -499,43 +499,43 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 خوف,fear,,NOUN
 ندم,regret,,NOUN
 قلق,worry,,NOUN
-محتار,confused / hesitant,,NOUN
+محتار,confused / hesitant,,ADJ
 مهم,important,,NOUN
-خطير,dangerous / amazing,,NOUN
-عادي,normal / ordinary,,VERB
-غريب,strange,,NOUN
-مشهور,famous,,NOUN
-معروف,well known,,NOUN
-عميق,deep,,NOUN
-قبيح,naughty / ugly,,NOUN
+خطير,dangerous / amazing,,ADJ
+عادي,normal / ordinary,,ADJ
+غريب,strange,,ADJ
+مشهور,famous,,ADJ
+معروف,well known,,ADJ
+عميق,deep,,ADJ
+قبيح,naughty / ugly,,ADJ
 ظريف,cute / charming,,NOUN
-معقول,reasonable / serious,,NOUN
-ذكي,smart,,VERB
+معقول,reasonable / serious,,ADJ
+ذكي,smart,,ADJ
 معڭاز,lazy,,NOUN
-نشيط,active / energetic,,NOUN
-قوي,strong,,VERB
+نشيط,active / energetic,,ADJ
+قوي,strong,,ADJ
 غني,rich,,VERB
 مسكين,poor / pitiful,,NOUN
-واجد,ready,,NOUN
-ممكن,possible,,VERB
-واضح,clear / obvious,,NOUN
+واجد,ready,,VERB
+ممكن,possible,,ADJ
+واضح,clear / obvious,,ADJ
 أكيد,sure / certain,,NOUN
-فاتح,light colored,,NOUN
-غامق,dark colored,,NOUN
+فاتح,light colored,,ADJ
+غامق,dark colored,,ADJ
 حامي,hot / heated,,VERB
-يابس,dry / stiff,,NOUN
-أصفر,yellow,,NOUN
-أبيض,white,,NOUN
+يابس,dry / stiff,,VERB
+أصفر,yellow,,ADJ
+أبيض,white,,ADJ
 فضي,silver colored,,VERB
 لون,color,,NOUN
-قد,as much as,,NOUN
+قد,as much as,,PART
 تقريبا,approximately,,NOUN
-كامل,whole / entire,,NOUN
+كامل,whole / entire,,ADJ
 تلث,third,,NOUN
 عدد,number / amount,,NOUN
-قليل,few / little,,NOUN
+قليل,few / little,,ADJ
 بحال,like / such as,,NOUN
-كيف,like / how,,NOUN
+كيف,like / how,,DET
 حاجة,thing / something,,NOUN
 شي,some / any,,NOUN
 والو,nothing,,NOUN
@@ -561,33 +561,33 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 انشالله,God willing,,NOUN
 نيت,really / exactly,,VERB
 حيت,because,,VERB
-إلا,if,,CCONJ
+إلا,if,,PART
 كون,if only / would be,,NOUN
-ولا,or,,NOUN
+ولا,or,,CCONJ
 بصح,but,,NOUN
-مبروك,congratulations,,NOUN
+مبروك,congratulations,,ADJ
 بشوية,slowly / gently,,NOUN
 مع,with,,ADP
 بلا,without,,NOUN
 على,on / about,,ADP
-حتى,until / even,,CCONJ
+حتى,until / even,,ADV
 غير,only / just,,NOUN
-واقيلا,probably,,NOUN
-لازم,must / necessary,,NOUN
+واقيلا,probably,,ADJ
+لازم,must / necessary,,ADJ
 حمام,public bath,,NOUN
 بلدية,town hall,,NOUN
 ملعب,stadium / playground,,NOUN
 مسبح,swimming pool,,NOUN
 مركز,center,,NOUN
-حي,neighborhood,,NOUN
-خلا,countryside / wilderness,,NOUN
+حي,neighborhood,,INTJ
+خلا,countryside / wilderness,,CCONJ
 بورطابل,mobile phone,,NOUN
 ميساج,message,,NOUN
 حساب,account / bill,,NOUN
 لعبة,game / toy,,NOUN
 كورة,ball / football,,NOUN
 موسيقى,music,,NOUN
-غنية,song,,NOUN
+غنية,song,,ADJ
 فيلم,movie,,NOUN
 خرجة,outing / trip,,NOUN
 نزاهة,picnic,,NOUN
