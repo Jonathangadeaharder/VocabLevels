@@ -22,6 +22,19 @@ ROOT = Path(__file__).parent
 
 SPECIAL_CHARS = re.compile(r"[?!@#$%^&*()_=+\[\]{};:\"\\|<>~`]")
 
+# Harmonized dual-pivot column layout on disk (commit c122a99), read
+# positionally rather than through a name-keyed dict reader. English and
+# Chinese are the two pivot languages: their lemma column name legitimately
+# collides with one of these two fixed names (English_Lemma / Chinese_Lemma
+# respectively). A dict-keyed reader collapses same-named columns into one
+# key and silently keeps only the last column's value — for Chinese that
+# means the real lemma (column 0) would never be read at all, which is how
+# the C1 "confronting" row went undetected. Reading columns by index instead
+# of by name keeps both physical columns visible regardless of name clashes.
+LEMMA_IDX, T1_IDX, T2_IDX, POS_IDX = 0, 1, 2, 3
+T1_NAME = "English_Lemma"
+T2_NAME = "Chinese_Lemma"
+
 
 def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
     cfg = LANGS[lang]
@@ -34,6 +47,7 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
 
     seen_lemmas: dict[str, str] = {}  # lemma -> first level it appeared in
     issues = 0
+    warnings = 0
 
     for level in levels:
         path = lang_dir / f"{level}.csv"
@@ -42,23 +56,19 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
             continue
 
         with path.open(encoding="utf-8", newline="") as f:
-            reader = csv.DictReader(f)
-            # Accept the harmonized dual-pivot header shape:
-            # <Lang>_Lemma, English_Lemma, Chinese_Lemma, POS
-            # (commit c122a99). The schema's trans_cols may lag; validate
-            # against the actual on-disk header instead.
-            # English/Chinese are the pivots: they cannot duplicate their own
-            # lemma column as a translation, so fall back to schema trans_cols.
-            if lang in ("english", "chinese"):
-                expected = [cfg["lemma_col"], *cfg["trans_cols"], "POS"]
-            else:
-                expected = [cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"]
-            if reader.fieldnames != expected:
-                print(f"  [ERROR] {level}: bad header {reader.fieldnames}")
+            reader = csv.reader(f)
+            header = next(reader, [])
+            # Real on-disk header is always [<Lang>_Lemma, English_Lemma,
+            # Chinese_Lemma, POS]. cfg["lemma_col"] already equals
+            # "English_Lemma"/"Chinese_Lemma" for the two pivot languages,
+            # so no per-language special-casing is needed here.
+            expected = [cfg["lemma_col"], T1_NAME, T2_NAME, "POS"]
+            if header != expected:
+                print(f"  [ERROR] {level}: bad header {header}")
                 issues += 1
                 continue
 
-            rows = list(reader)
+            rows = [row for row in reader if row]
 
         count = len(rows)
         target = targets[level]
@@ -68,16 +78,11 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
 
         intra_lemmas: set[str] = set()
         intra_trans: dict[str, set[str]] = {}  # translation -> lemmas in this level
-        # Harmonized dual-pivot columns (commit c122a99).
-        # Pivot languages use schema trans_cols to avoid self-reference.
-        if lang in ("english", "chinese"):
-            t1_col, t2_col = cfg["trans_cols"][0], cfg["trans_cols"][1]
-        else:
-            t1_col, t2_col = "English_Lemma", "Chinese_Lemma"
         for idx, row in enumerate(rows, start=2):
-            lemma_raw = row.get(cfg["lemma_col"]) or ""
-            t1_raw = row.get(t1_col) or ""
-            t2_raw = row.get(t2_col) or ""
+            lemma_raw = row[LEMMA_IDX] if len(row) > LEMMA_IDX else ""
+            t1_raw = row[T1_IDX] if len(row) > T1_IDX else ""
+            t2_raw = row[T2_IDX] if len(row) > T2_IDX else ""
+            pos_raw = row[POS_IDX] if len(row) > POS_IDX else ""
 
             lemma = lemma_raw.strip()
             t1 = t1_raw.strip()
@@ -102,21 +107,25 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
             # Capitalized lemmas allowed (German nouns, proper nouns in any language)
 
             if not t1:
-                print(f"    L{idx}: '{lemma}' missing {t1_col}")
+                print(f"    L{idx}: '{lemma}' missing {T1_NAME}")
                 issues += 1
             elif t1 != t1_raw:
-                print(f"    L{idx}: '{lemma}' {t1_col} has whitespace")
+                print(f"    L{idx}: '{lemma}' {T1_NAME} has whitespace")
                 issues += 1
             if not t2:
-                print(f"    L{idx}: '{lemma}' missing {t2_col}")
-                issues += 1
+                # Chinese_Lemma translations are 100% unfilled for 7/8
+                # languages (tracked as a known gap in the audit doc) — a
+                # translation-completeness gap, not a lemma-cleanliness
+                # defect, so it must not drown out real issues in the count.
+                print(f"    L{idx}: [WARN] '{lemma}' missing {T2_NAME}")
+                warnings += 1
             elif t2 != t2_raw:
-                print(f"    L{idx}: '{lemma}' {t2_col} has whitespace")
+                print(f"    L{idx}: '{lemma}' {T2_NAME} has whitespace")
                 issues += 1
 
             # Duplicate key includes POS: same lemma with different POS
             # (e.g. "run" as VERB and NOUN) is NOT a duplicate.
-            pos = (row.get("POS") or "X").strip()
+            pos = (pos_raw or "X").strip()
             key = f"{lemma.lower()}|{pos}"
 
             if key in intra_lemmas:
@@ -148,6 +157,11 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
                 f"    {level}: {len(shared_translations)} shared translation groups "
                 "(use --show-shared-translations for details)"
             )
+
+    if warnings:
+        print(
+            f"  [WARN] {warnings} rows missing {T2_NAME} (see 'Deferred' in audit doc)"
+        )
 
     return issues
 

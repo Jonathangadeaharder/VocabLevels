@@ -36,6 +36,7 @@ TARGETS = {"A1": 600, "A2": 600, "B1": 1000, "B2": 2000, "C1": 4000}
 LANG_LEMMA_COL = {
     "arabic": "Arabic_Lemma",
     "chinese": "Chinese_Lemma",
+    "dutch": "Dutch_Lemma",
     "english": "English_Lemma",
     "french": "French_Lemma",
     "german": "German_Lemma",
@@ -43,16 +44,24 @@ LANG_LEMMA_COL = {
     "swedish": "Swedish_Lemma",
 }
 
-# Stanza language codes per repo language.
+# Stanza language codes per repo language. Dutch ("nl") has a Stanza UD
+# tagger (verified against stanza-resources) so it is POS-audited the same
+# way as the other 7 — no need for a separate spaCy dependency.
 STANZA_LANG = {
     "arabic": "ar",
     "chinese": "zh",
+    "dutch": "nl",
     "english": "en",
     "french": "fr",
     "german": "de",
     "spanish": "es",
     "swedish": "sv",
 }
+
+# Every language with Stanza support — the audit's root-cause finding was
+# that this tool's --langs default (originally just german+arabic) meant
+# POS correction never ran against english/spanish/french/swedish/dutch.
+ALL_STANZA_LANGS = list(STANZA_LANG)
 
 # Minimal gloss-based fallback for words Stanza tags as X.
 # Only applied when Stanza returns X (uncertain). Conservative.
@@ -567,8 +576,8 @@ def main(argv: list[str]) -> int:
     parser.add_argument(
         "--langs",
         nargs="+",
-        default=["german", "arabic"],
-        help="Languages to POS-audit (default: german arabic)",
+        default=ALL_STANZA_LANGS,
+        help=f"Languages to POS-audit (default: all with Stanza support: {ALL_STANZA_LANGS})",
     )
     args = parser.parse_args(argv[1:])
 
