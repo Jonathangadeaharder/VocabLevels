@@ -2,25 +2,16 @@ German_Lemma,English_Lemma,Chinese_Lemma,POS
 ab,from / off,,ADP
 Abend,evening,,NOUN
 Ahnung,clue,,NOUN
-all,all,,DET
 alle,all,,DET
 allein,alone,,ADV
-allem,all (dat),,DET
-allen,all (dative),,DET
-alles,everything,,DET
 als,as / when,,ADP
 also,so,,ADV
 alt,old,,ADJ
 alte,old,,NOUN
-alten,old (acc/dat),,ADJ
 Alter,age,,NOUN
 am,at the,,ADP
 an,at / on,,ADP
-andere,other,,DET
-anderen,other (acc/dat),,DET
-anderes,other (neut),,DET
 anders,different,,ADV
-angerufen,called (phone),,VERB
 Arbeit,work,,NOUN
 arbeiten,to work,,VERB
 Arsch,ass,,NOUN
@@ -28,45 +19,31 @@ Art,kind / type,,NOUN
 Arzt,doctor,,NOUN
 auch,also,,ADV
 auf,on,,ADP
-Augen,eyes,,NOUN
 aus,from,,ADP
 Auto,car,,NOUN
 Baby,baby,,NOUN
 bald,soon,,ADV
-bedeutet,means,,VERB
 Begrüßung,greeting,,NOUN
 bei,at,,ADP
 beide,both,,DET
 bekommen,to receive,,VERB
 bereit,ready,,ADJ
 bereits,already,,ADV
-besser,better,,ADJ
 beste,best,,NOUN
-besten,best,,ADJ
-bestimmt,definitely,,VERB
 Bett,bed,,NOUN
 bevor,before,,SCONJ
-bin,am,,AUX
 bis,until,,ADP
 bisschen,a little,,ADV
-bist,are (you),,AUX
 bitte,please,,INTJ
-bleib,stay,,VERB
 bleiben,to stay,,VERB
-Blumen,flowers,,NOUN
-brauche,need (I),,VERB
 brauchen,to need,,VERB
-brauchst,need (you),,VERB
-braucht,needs,,VERB
 bringen,to bring,,VERB
-bringt,brings,,VERB
 Bruder,brother,,NOUN
 Buch,book,,NOUN
 Büro,office,,NOUN
 Chance,chance,,NOUN
 da,there,,ADV
 dabei,with it,,ADV
-dachte,thought,,VERB
 dafür,for it,,ADV
 damals,back then,,ADV
 damit,so that,,ADV
@@ -75,32 +52,18 @@ dann,then,,ADV
 darauf,on it,,ADV
 darüber,about it,,ADV
 darum,therefore,,ADV
-das,the / that,,PRON
 dass,that,,SCONJ
 davon,from it,,ADV
 dazu,to it,,ADV
 dein,your,,DET
 deinem,your (dat),,PRON
-deinen,your (acc),,DET
 deiner,your (fem dat),,PRON
-dem,the (dative),,PRON
 den,the (accusative),,DET
-denen,those,,PRON
-denke,think (I),,VERB
-denkst,think (you),,VERB
 denn,because,,ADV
 der,the,,PRON
 des,of the,,DET
 deshalb,therefore,,ADV
-dich,you (accusative),,PRON
-die,the,,PRON
-diese,these,,DET
-diesem,this (dat),,DET
-diesen,this (acc),,DET
 dieser,this,,DET
-dieses,this (neut),,DET
-Dinge,things,,NOUN
-dir,you (dative),,PRON
 direkt,direct,,ADJ
 doch,but,,ADV
 Doktor,doctor,,NOUN
@@ -116,11 +79,6 @@ ehrlich,honest,,ADJ
 eigenen,own (acc/pl),,ADJ
 eigentlich,actually,,ADJ
 ein,a / one,,DET
-eine,a,,DET
-einem,a (dative),,DET
-einen,a (accusative),,DET
-einer,one,,DET
-eines,of a (genitive),,DET
 einfach,easy,,ADJ
 einmal,once,,ADV
 Eltern,parents,,NOUN
@@ -133,72 +91,47 @@ erst,first / only just,,ADV
 erste,first,,ADJ
 ersten,first (acc/dat),,ADJ
 erzählen,to tell,,VERB
-erzählt,tells,,VERB
 es,it,,PRON
 essen,to eat,,VERB
 euch,you (acc),,PRON
-eure,your (pl),,NOUN
 fahren,to drive,,VERB
 Fall,case,,NOUN
 falsch,wrong,,ADJ
 Familie,family,,NOUN
-fand,found,,VERB
 fast,almost,,ADV
 Fehler,mistake,,NOUN
 fertig,ready / done,,ADJ
 Fest,party,,NOUN
 Feuer,fire,,NOUN
-finde,find (I),,VERB
 finden,to find,,VERB
 Frage,question,,NOUN
 fragen,to ask,,VERB
 Frau,woman,,NOUN
-Frauen,women,,NOUN
 frei,free,,ADJ
 Freund,friend,,NOUN
-Freunde,friends,,NOUN
 Freundin,girlfriend,,NOUN
-freut,is glad,,VERB
 froh,glad,,ADJ
 früh,early,,ADJ
 früher,earlier,,ADJ
-funktioniert,works,,VERB
 fünf,five,,NUM
 für,for,,ADP
-gab,gave,,VERB
 ganz,whole,,ADJ
-ganze,whole,,ADJ
 ganzen,whole (acc/dat),,VERB
 gar,not at all,,ADV
-gebe,give (I),,VERB
 geben,to give,,VERB
 gedacht,thought,,VERB
 gefallen,to please,,VERB
 gefällt,pleases,,VERB
-gefunden,found,,VERB
-gegangen,gone,,VERB
-gegeben,given,,VERB
 gegen,against,,ADP
-gehe,go (I),,VERB
 gehen,to go,,VERB
-gehört,heard / belonged,,VERB
 Geld,money,,NOUN
-gemacht,made,,VERB
 genau,exactly,,ADJ
 gerade,just / straight,,ADV
 gern,gladly,,ADV
 gerne,gladly,,ADV
-gesagt,said,,VERB
-geschafft,managed,,VERB
 Geschichte,story,,NOUN
 Gesicht,face,,NOUN
 gestern,yesterday,,ADV
-getan,done,,VERB
-gewesen,been,,AUX
-geworden,become,,VERB
-gibt,gives,,VERB
-ging,went,,VERB
-glaube,believe (I),,VERB
 glauben,to believe,,VERB
 gleich,equal,,ADV
 Glück,luck,,NOUN
@@ -206,28 +139,15 @@ glücklich,happy,,ADJ
 Gott,God,,NOUN
 groß,big,,ADJ
 große,big,,NOUN
-großen,big (acc/dat),,ADJ
 Grund,reason,,NOUN
 gut,good,,ADJ
 gute,good (fem/pl),,NOUN
-guten,good (greeting),,ADJ
-habe,have,,VERB
 haben,to have,,VERB
-habt,have (you pl),,VERB
 Halt,stop,,NOUN
-hält,holds,,VERB
 halten,to stop,,VERB
 Hand,hand,,NOUN
-Hände,hands,,NOUN
 Handy,mobile phone,,NOUN
-hast,have (you),,VERB
-hat,has,,VERB
-hatte,had,,VERB
-hätte,would have,,VERB
-hatten,had (pl),,VERB
 Haus,house,,NOUN
-Hause,home,,NOUN
-heißt,is called,,VERB
 helfen,to help,,VERB
 Herr,Mr.,,NOUN
 Herz,heart,,NOUN
@@ -238,83 +158,48 @@ Hilfe,help,,NOUN
 hin,towards,,ADV
 hinter,behind,,ADP
 hoch,high,,ADJ
-hoffe,hope (I),,VERB
 holen,to fetch,,VERB
-hör,listen,,VERB
 hören,to hear,,VERB
-hört,hears,,VERB
 Hund,dog,,NOUN
 ich,I,,PRON
 Idee,idea,,NOUN
-ihm,him (dative),,PRON
-ihn,him,,PRON
-ihnen,them (dat),,PRON
-ihr,you (plural),,PRON
 ihrem,her (dat),,DET
 ihren,her / their (acc),,DET
 Ihrer,your (formal dat/gen),,DET
 Ihrerseits,on your part,,ADV
-im,in the,,ADP
 immer,always,,ADV
 in,in,,ADP
 ins,into the,,X
 irgendwie,somehow,,ADV
-ist,is,,AUX
 ja,yes,,ADV
 Jahr,year,,NOUN
-Jahre,years,,NOUN
-Jahren,years (dative),,NOUN
-jeden,every (acc),,DET
 jeder,every,,DET
 jemand,someone,,PRON
-jemanden,someone (acc),,PRON
 jetzt,now,,ADV
 Job,job,,NOUN
 Junge,boy,,NOUN
 Jungs,boys,,NOUN
 Kaffee,coffee,,NOUN
-kam,came,,VERB
-kann,can,,AUX
 kein,no,,DET
-keine,no (fem),,DET
-keinen,no (acc),,DET
-keiner,none,,DET
-kenne,know (I),,VERB
 kennen,to know,,VERB
 Kerl,guy,,NOUN
 Kind,child,,NOUN
-Kinder,children,,NOUN
 klar,clear,,ADJ
 klein,small,,ADJ
-kleine,small (fem/pl),,ADJ
-kleinen,small (acc/dat),,ADJ
-kleiner,smaller,,ADJ
-klingt,sounds,,VERB
 komm,come,,INTJ
-komme,come (I),,VERB
 kommen,to come,,VERB
-kommst,come (you),,VERB
-kommt,comes,,VERB
 König,king,,NOUN
 können,to be able,,AUX
-konnte,could,,AUX
-könnte,could,,AUX
-könnten,could (pl),,AUX
 Kopf,head,,NOUN
 krank,sick,,ADJ
 Krieg,war,,NOUN
 kriegen,to get,,VERB
 kurz,short,,ADJ
-lacht,laughs,,VERB
 Land,country,,NOUN
 lang,long,,ADJ
-lange,long time,,ADJ
 langsam,slowly,,ADJ
 lass,let,,VERB
-lasse,let (I),,VERB
 lassen,to let,,VERB
-lasst,let (pl),,VERB
-lässt,lets,,VERB
 leben,to live,,VERB
 leicht,easy,,ADJ
 leid,sorry,,ADJ
@@ -324,36 +209,21 @@ letzten,last (acc/dat),,ADJ
 Leute,people,,NOUN
 liebe,love (noun),,NOUN
 lieben,to love,,VERB
-lieber,preferably,,ADJ
-liegt,lies,,VERB
 los,loose / go,,ADV
 Luft,air,,NOUN
 mach,make,,INTJ
-mache,make (I),,VERB
 machen,to make,,VERB
-machst,make (you),,VERB
-macht,makes,,VERB
 Mädchen,girl,,NOUN
-mag,like,,AUX
 mal,times,,ADV
 Mama,mom,,PROPN
 man,one,,PRON
 Mann,man,,NOUN
-Männer,men,,NOUN
 mehr,more,,ADV
 mein,my,,DET
-meine,my (fem/pl),,DET
 meinem,my (dat),,PRON
-meinen,my (acc),,AUX
-meiner,my (fem dat / gen),,PRON
-meines,my (genitive),,DET
 meinst,mean (you),,INTJ
 Menge,amount,,NOUN
 Mensch,person,,NOUN
-Menschen,people,,NOUN
-mich,me,,PRON
-Minuten,minutes,,NOUN
-mir,me (dative),,PRON
 Mist,crap,,NOUN
 mit,with,,ADP
 mitnehmen,to take along,,VERB
@@ -361,24 +231,17 @@ möglich,possible,,ADJ
 Moment,moment,,NOUN
 morgen,tomorrow,,NOUN
 Musik,music,,NOUN
-muss,must,,AUX
 müssen,to have to,,AUX
-musst,must (you),,AUX
-musste,had to,,AUX
 Mutter,mother,,NOUN
 Mütterchen,mommy,,NOUN
 nach,to / after,,ADP
-nächsten,next (acc/dat),,ADJ
 Nacht,night,,NOUN
-nahe,near,,ADJ
 Name,name,,NOUN
 natürlich,naturally,,ADJ
-nehme,take (I),,VERB
 nehmen,to take,,VERB
 nein,no,,ADV
 nett,nice,,ADJ
 neue,new,,NOUN
-neuen,new (acc/dat),,ADJ
 nicht,not,,PART
 nichts,nothing,,PRON
 nie,never,,ADV
@@ -399,16 +262,12 @@ Ordnung,order,,NOUN
 Ort,place,,NOUN
 Paar,couple,,NOUN
 Papa,dad,,NOUN
-Pass,passport,,NOUN
-passiert,happens,,VERB
 Plan,plan,,NOUN
 Platz,square,,NOUN
 Problem,problem,,NOUN
-Probleme,problems,,NOUN
 raus,out,,ADV
 recht,right,,ADJ
 reden,to talk,,VERB
-reicht,is enough,,VERB
 rein,pure,,ADJ
 retten,to save,,VERB
 richtig,correct,,ADJ
@@ -416,18 +275,12 @@ Ruhe,quiet,,NOUN
 ruhig,quiet,,ADJ
 runter,down,,ADV
 Sache,thing,,NOUN
-Sachen,things,,NOUN
 sag,say,,INTJ
-sage,say (I),,VERB
 sagen,to say,,VERB
 sagst,say (you),,INTJ
-sagt,says,,VERB
-sagte,said (past),,VERB
-sah,saw,,VERB
 schaffen,to manage,,VERB
 Schatz,sweetheart,,NOUN
 schau,look,,INTJ
-scheint,seems,,VERB
 Scheiß,crap,,NOUN
 schlafen,to sleep,,VERB
 schlecht,bad,,ADJ
@@ -441,7 +294,6 @@ Schwester,sister,,NOUN
 sechs,six,,NUM
 sehen,to see,,VERB
 sehr,very,,ADV
-sei,be,,AUX
 seid,are (you pl),,INTJ
 sein,to be,,AUX
 seinen,his (acc),,DET
@@ -454,40 +306,27 @@ sich,oneself,,PRON
 sicher,sure,,ADJ
 Sie,you (formal),,PRON
 siehst,see (you),,INTJ
-sieht,sees,,VERB
 so,so,,ADV
 sofort,immediately,,ADV
 sogar,even,,ADV
 Sohn,son,,NOUN
-soll,should,,AUX
 sollen,should,,AUX
-sollte,should,,AUX
-sollten,should (pl),,AUX
-solltest,should (you),,AUX
 sondern,but rather,,CCONJ
 sonst,otherwise,,ADV
 Sorge,worry,,NOUN
-Sorgen,worries,,NOUN
 Spaß,fun,,NOUN
 spät,late,,ADJ
-später,later,,ADJ
 Spiel,game,,NOUN
 spielen,to play,,VERB
 sprechen,to speak,,VERB
-spricht,speaks,,VERB
 Stadt,city,,NOUN
 stehen,to stand,,VERB
-steht,stands,,VERB
 stellen,to place,,VERB
 sterben,to die,,VERB
-stimmt,is correct,,VERB
 Straße,street,,NOUN
 Stunde,hour,,NOUN
-Stunden,hours,,NOUN
 suchen,to search,,VERB
 Tag,day,,NOUN
-Tage,days,,NOUN
-Tagen,days (dat),,NOUN
 Team,team,,NOUN
 Teil,part,,NOUN
 Telefon,telephone,,NOUN
@@ -501,16 +340,13 @@ trinken,to drink,,VERB
 trotzdem,nevertheless,,ADV
 tun,to do,,VERB
 Tür,door,,NOUN
-tut,does,,VERB
 Typ,guy,,NOUN
 Uhr,clock,,NOUN
 um,around,,ADP
 und,and,,CCONJ
-uns,us,,PRON
 unser,our,,DET
 unsere,our,,PRON
 unserem,our (dat),,PRON
-unserer,our (fem dat),,DET
 unten,below,,ADV
 unter,under,,ADP
 Vater,father,,NOUN
@@ -518,16 +354,10 @@ Vati,dad,,PROPN
 vergessen,to forget,,VERB
 verlassen,to leave,,VERB
 verlieren,to lose,,VERB
-verloren,lost,,VERB
 verrückt,crazy,,ADJ
-verstanden,understood,,VERB
-verstehe,understand,,VERB
 verstehen,to understand,,VERB
 versuchen,to try,,VERB
-versucht,tried,,VERB
 viel,much,,DET
-viele,many,,DET
-vielen,many (dative),,DET
 vielleicht,maybe,,ADV
 vier,four,,NUM
 voll,full,,ADJ
@@ -539,9 +369,6 @@ Wagen,car,,NOUN
 wahr,true,,ADJ
 während,while,,SCONJ
 wann,when,,ADV
-war,was,,AUX
-waren,were,,AUX
-warte,wait,,VERB
 warten,to wait,,VERB
 warum,why,,ADV
 was,what,,PRON
@@ -553,36 +380,25 @@ weißt,know (you),,VERB
 weit,far,,ADJ
 weiter,further,,ADV
 Welt,world,,NOUN
-wem,to whom,,PRON
 wenig,little,,DET
 wenn,if / when,,SCONJ
 wer,who,,PRON
-werde,will (I),,AUX
 werden,to become,,VERB
 wichtig,important,,ADJ
 wie,how,,ADP
 wieder,again,,ADV
 Wiedersehen,goodbye,,NOUN
 wieso,why,,ADV
-willst,want (you),,AUX
 wir,we,,PRON
 wirklich,really,,ADV
-wirst,will (you),,AUX
 wissen,to know,,VERB
 wo,where,,ADV
 Woche,week,,NOUN
-Wochen,weeks,,NOUN
 woher,from where,,ADV
 wohl,probably,,ADV
 Wohnung,apartment,,NOUN
 wollen,to want,,AUX
-wollt,want (you pl),,AUX
-wollte,wanted,,AUX
 Wort,word,,NOUN
-wurde,became,,VERB
-würde,would,,AUX
-wurden,became (pl),,VERB
-würden,would (pl),,AUX
 zehn,ten,,NUM
 zeigen,to show,,VERB
 Zeit,time,,NOUN
@@ -590,7 +406,6 @@ ziemlich,quite,,ADV
 Zimmer,room,,NOUN
 zu,to,,ADP
 Zukunft,future,,NOUN
-zum,to the,,ADP
 zur,to the,,ADP
 zurück,back,,ADV
 zusammen,together,,ADV

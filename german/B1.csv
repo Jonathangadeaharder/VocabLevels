@@ -1,16 +1,12 @@
 German_Lemma,English_Lemma,Chinese_Lemma,POS
 Abendessen,dinner,,NOUN
 Abenteuer,adventure,,NOUN
-abgehauen,run away,,VERB
-abgeschlossen,locked / completed,,VERB
 abhauen,to run away,,VERB
 abholen,to pick up,,VERB
 Absicht,intention,,NOUN
 Abteilung,department,,NOUN
 Adliger,nobleman,,NOUN
 Affäre,affair,,NOUN
-Akte,file,,NOUN
-Akten,files,,NOUN
 akzeptieren,to accept,,VERB
 Alarm,alarm,,NOUN
 Alibi,alibi,,NOUN
@@ -19,17 +15,10 @@ allerdings,however,,ADV
 altes,old (neut),,NOUN
 Amen,amen,,PROPN
 Amerikaner,Americans,,NOUN
-anderem,other (dat),,DET
 Anführer,leader,,NOUN
-angegriffen,attacked,,VERB
-angeht,concerns,,VERB
-angekommen,arrived,,VERB
-angenommen,accepted,,VERB
-angesehen,looked at,,VERB
 Angriff,attack,,NOUN
 Anklage,accusation,,NOUN
 annehmen,to accept,,VERB
-Anrufe,calls,,NOUN
 Antrag,application,,NOUN
 antun,to do (harm),,VERB
 antworten,to answer,,VERB
@@ -38,13 +27,9 @@ anziehen,to put on,,VERB
 Anzug,suit,,NOUN
 Appetit,appetite,,NOUN
 Applaus,applause,,NOUN
-arbeitete,worked (past),,VERB
-Arme,arms / poor,,NOUN
 Artikel,article,,NOUN
 atmen,to breathe,,VERB
 aufgeben,to give up,,VERB
-aufgefallen,noticed,,VERB
-aufgenommen,recorded,,VERB
 aufgeregt,excited,,ADJ
 Aufmerksamkeit,attention,,NOUN
 aufnehmen,to record,,VERB
@@ -52,9 +37,7 @@ aufpassen,to pay attention,,VERB
 aufstehen,to get up,,VERB
 ausgehen,to go out,,VERB
 Aussage,statement,,NOUN
-Autos,cars,,NOUN
 außerhalb,outside of,,ADP
-Babys,babies,,NOUN
 Bad,bath,,PROPN
 Bastard,bastard,,PROPN
 Baum,tree,,NOUN
@@ -64,72 +47,46 @@ Bedeutung,meaning,,NOUN
 Beeil,hurry,,NOUN
 beeilen,to hurry,,VERB
 Beeilung,hurry,,NOUN
-beeindruckt,impressed,,VERB
 beenden,to finish,,VERB
 Beerdigung,funeral,,NOUN
-Befehle,orders,,NOUN
-befindet,is located,,VERB
 befreien,to free,,VERB
-begann,began,,VERB
-begegnet,met,,VERB
 begeistert,enthusiastic,,ADJ
 beginnen,to begin,,VERB
 begleiten,to accompany,,VERB
 begraben,buried,,VERB
 behandeln,to treat,,VERB
-behandelt,treated,,VERB
 Behandlung,treatment,,NOUN
-behauptet,claims,,VERB
 Bein,leg,,NOUN
-bemerkt,noticed,,VERB
 beobachten,to observe,,VERB
-beobachtet,observed,,VERB
 Berg,mountain,,NOUN
 Bericht,report,,NOUN
 Beruf,profession,,NOUN
 beruhigen,to calm,,VERB
-beruhigt,calmed,,VERB
-beschlossen,decided,,VERB
 Besitzer,owner,,NOUN
 besorgen,to procure,,VERB
 besprechen,to discuss,,VERB
-bessere,better (fem/pl),,ADJ
-besteht,exists / consists,,VERB
-bestellt,ordered,,VERB
-bestätigt,confirmed,,VERB
-besucht,visited,,VERB
 betrifft,concerns,,VERB
 betrogen,deceived,,VERB
 betrunken,drunk,,ADJ
 Beweis,proof,,NOUN
 bewusst,conscious,,ADJ
-Beziehungen,relationships,,NOUN
 bieten,to offer,,VERB
-Bilder,pictures,,NOUN
-blieb,stayed,,VERB
 blind,blind,,ADJ
 Blut,blood,,NOUN
 blöde,stupid,,ADJ
 Blödsinn,nonsense,,NOUN
 Bombe,bomb,,NOUN
 Botschaft,message,,NOUN
-brauchte,needed (past),,VERB
 Braut,bride,,NOUN
 brechen,to break,,VERB
-brennt,burns,,VERB
-bricht,breaks,,VERB
-Briefe,letters,,NOUN
 Brille,glasses,,NOUN
 Brot,bread,,NOUN
 Brust,chest,,NOUN
 Brücke,bridge,,NOUN
-Bullen,cops,,NOUN
-Bücher,books,,NOUN
 Bühne,stage,,NOUN
 Bürger,citizen,,NOUN
 Bürgermeister,mayor,,NOUN
 Champagner,champagne,,NOUN
-Chancen,chances,,NOUN
 Chaos,chaos,,NOUN
 Code,code,,NOUN
 College,college,,NOUN
@@ -142,17 +99,13 @@ dahinter,behind it,,ADV
 dankbar,grateful,,ADJ
 danken,to thank,,VERB
 Date,date,,NOUN
-Daten,data,,NOUN
 dauern,to last,,VERB
 dauernd,constantly,,ADJ
 davor,before it,,ADV
 Decke,blanket,,NOUN
 definitiv,definitely,,ADJ
-deren,whose,,PRON
 derjenige,the one,,DET
-dessen,whose (masc/neut),,PRON
 desto,the (more),,ADV
-Details,details,,NOUN
 deutlich,clearly,,ADJ
 Deutschen,Germans,,NOUN
 Deutschland,Germany,,PROPN
@@ -162,28 +115,23 @@ dienen,to serve,,VERB
 Dienst,service,,NOUN
 dieselbe,the same (fem),,DET
 diesmal,this time,,ADV
-Dingen,things (dat),,NOUN
 Direktor,director,,NOUN
 dorthin,there (direction),,ADV
 dramatische,dramatic (fem/pl),,NOUN
 Dreck,dirt,,NOUN
 drehen,to turn,,VERB
-dreht,turns,,VERB
 dringend,urgent,,ADJ
 drinnen,inside,,ADV
-Dritte,third,,ADJ
 drüber,over it,,ADV
 drücken,to press,,VERB
 dunkel,dark,,ADJ
 durcheinander,confused,,ADV
-durfte,was allowed,,AUX
 düstere,gloomy,,ADJ
 ebenfalls,likewise,,ADV
 echten,real (acc/dat),,VERB
 Ecke,corner,,NOUN
 Edelmann,nobleman,,PROPN
 Ehemann,husband,,NOUN
-Ehren,honor (dat/pl),,NOUN
 Ei,egg,,NOUN
 eifersüchtig,jealous,,ADJ
 eigenes,own (neut),,NOUN
@@ -191,78 +139,51 @@ eilig,in a hurry,,ADJ
 einander,each other,,PRON
 eindeutig,unambiguous,,ADJ
 Eindruck,impression,,NOUN
-einfacher,easier,,ADJ
-eingeladen,invited,,VERB
-eingesperrt,locked up,,VERB
 Einheit,unit,,NOUN
-einigen,some (dative),,DET
-einiges,some things,,DET
 einladen,to invite,,VERB
 Einladung,invitation,,NOUN
 einsam,lonely,,ADJ
 Einsatz,deployment,,NOUN
 einverstanden,agreed,,ADJ
-einzigen,only (pl/acc/dat),,ADJ
 enden,to end,,VERB
-endet,ends,,VERB
 Energie,energy,,NOUN
 eng,tight / narrow,,ADJ
 Engel,angel,,PROPN
 England,England,,PROPN
 englisch,English,,ADJ
-entdeckt,discovered,,VERB
 entfernen,to remove,,VERB
-entführt,kidnapped,,VERB
 entkommen,to escape,,VERB
 entlang,along,,ADP
 entlassen,dismissed,,VERB
-Entscheidungen,decisions,,NOUN
-entschuldigt,excused,,VERB
-enttäuscht,disappointed,,VERB
 entweder,either,,CCONJ
 Erfahrung,experience,,NOUN
 erfolgreich,successful,,ADJ
 erfreut,pleased,,VERB
-erfunden,invented,,VERB
-erfährt,finds out,,VERB
-erfüllt,fulfilled,,VERB
 ergeben,to yield,,VERB
 Ergebnis,result,,NOUN
-ergibt,yields,,VERB
-Erinnerst,remember (you),,VERB
-erinnert,remembers,,VERB
-Erinnerungen,memories,,NOUN
-erkannt,recognized,,VERB
 erkennen,to recognize,,VERB
 Erklärung,explanation,,NOUN
 erlauben,to allow,,VERB
 Erlaubnis,permission,,NOUN
 erlaubt,allowed,,ADJ
 erleben,to experience,,VERB
-erlebt,experienced,,VERB
 ernsthaft,seriously,,ADJ
 erster,first (masc),,ADJ
 erstes,first (neut),,ADJ
 ertragen,to bear,,VERB
 erwachsen,adult,,ADJ
-erwarte,expect (I),,VERB
-erwähnt,mentioned,,VERB
-erzähle,tell (I),,VERB
 esse,eat (I),,INTJ
 euren,your (pl acc),,NOUN
 Europa,Europe,,PROPN
-existiert,exists,,VERB
 Explosion,explosion,,NOUN
 extra,extra,,ADJ
 extrem,extreme,,ADJ
 Fahrer,driver,,NOUN
 fair,fair,,ADJ
 Falle,trap,,NOUN
-Familien,families,,NOUN
 Fang,catch,,NOUN
 fantastisch,fantastic,,ADJ
 Farbe,color,,NOUN
-fass,grasp,,VERB
 fassen,to grasp,,VERB
 fehlen,to be missing,,VERB
 Feld,field,,NOUN
@@ -270,8 +191,6 @@ fern,far,,ADV
 fernsehen,to watch TV,,NOUN
 Fernseher,television set,,NOUN
 Fick,fuck,,NOUN
-fiel,fell,,VERB
-Filme,films,,NOUN
 Fingerabdrücke,fingerprints,,NOUN
 Fisch,fish,,NOUN
 Flasche,bottle,,NOUN
@@ -280,12 +199,8 @@ fliehen,to flee,,VERB
 Flucht,escape,,NOUN
 Flug,flight,,NOUN
 Flughafen,airport,,NOUN
-Fluss,river,,NOUN
 Folge,episode,,NOUN
-folgt,follows,,VERB
 Form,form / shape,,NOUN
-fragt,asks,,VERB
-fragte,asked,,VERB
 Frankreich,France,,PROPN
 Freiheit,freedom,,NOUN
 Freitag,Friday,,PROPN
@@ -294,123 +209,63 @@ Fresse,mug,,NOUN
 freundlich,friendly,,ADJ
 Freundschaft,friendship,,NOUN
 frisch,fresh,,ADJ
-frische,fresh (fem/pl),,NOUN
 Fräulein,Miss,,NOUN
 Frühstück,breakfast,,NOUN
-fuhr,drove,,VERB
 funktionieren,to function,,VERB
-Fähigkeiten,abilities,,NOUN
-fährst,drive (you),,VERB
-fängt,catches / starts,,VERB
-fühlte,felt,,VERB
-führte,led (past),,VERB
-gaben,gave (pl),,VERB
 Gang,corridor,,NOUN
 Garten,garden,,NOUN
 Gas,gas,,NOUN
 Gast,guest,,NOUN
 Gebiet,area,,NOUN
 gebraucht,used,,VERB
-gebrochen,broken,,VERB
 Geburt,birth,,NOUN
 Geduld,patience,,NOUN
-gefangen,caught,,VERB
-gefeuert,fired (job),,VERB
-gefolgt,followed,,VERB
-gefreut,was glad,,VERB
-geführt,led,,VERB
 gegenseitig,mutual,,ADJ
 Gegenteil,opposite,,NOUN
-gehalten,held,,VERB
 geheim,secret,,ADJ
-Geheimnisse,secrets,,NOUN
-geheiratet,married,,VERB
 Gehirn,brain,,NOUN
-gehofft,hoped,,VERB
-geholt,fetched,,VERB
-gehörte,belonged (past),,VERB
-geklaut,stolen,,VERB
-gekriegt,gotten,,VERB
-gelandet,landed,,VERB
-gelaufen,run,,VERB
-gelebt,lived,,VERB
 Gelegenheit,opportunity,,NOUN
-gelegt,laid,,VERB
-gelogen,lied,,VERB
 gemein,mean,,ADJ
 gemeint,meant,,VERB
-gemeldet,reported,,VERB
-gemerkt,noticed,,VERB
-genannt,named,,VERB
 Genie,genius,,NOUN
 genießen,to enjoy,,VERB
-geplant,planned,,VERB
 geraten,got into,,VERB
 Gerechtigkeit,justice,,NOUN
 Gericht,court / dish,,NOUN
-gerufen,called,,VERB
 Geräusch,noise,,NOUN
 gesamte,entire,,ADJ
-geschah,happened,,VERB
-geschenkt,given (as gift),,VERB
-Geschichten,stories,,NOUN
 Geschmack,taste,,NOUN
-geschossen,shot,,VERB
-Geschäfte,businesses,,NOUN
 Gesetz,law,,NOUN
-gesetzt,placed,,VERB
-gestellt,placed,,VERB
 getrennt,separated,,ADJ
-getrunken,drunk,,VERB
 Gewalt,violence,,NOUN
-gewinnt,wins,,VERB
 Gewissen,conscience,,NOUN
-gewohnt,used to,,VERB
-gewählt,chosen,,VERB
-gezeigt,shown,,VERB
-gezogen,pulled,,VERB
-gezwungen,forced,,VERB
-geöffnet,open,,VERB
 gib,give (imperative),,INTJ
-gibst,give (you),,VERB
 Gift,poison,,NOUN
-gingen,went (pl),,VERB
-glaubte,believed,,VERB
 gleichen,same,,VERB
 gleichzeitig,at the same time,,ADJ
 Grad,degree,,NOUN
 Grenze,border,,NOUN
-Grenzen,borders,,NOUN
 Großmutter,grandmother,,NOUN
 Großvater,grandfather,,NOUN
 Größe,size,,NOUN
-größer,bigger,,ADJ
 größte,biggest,,NOUN
-größten,biggest,,ADJ
-Gründe,reasons,,NOUN
 Grüß,greet,,NOUN
-gäbe,would be,,VERB
 Haar,hair,,NOUN
 Hafen,port,,NOUN
 halb,half,,ADJ
 Hammer,hammer,,PROPN
 handeln,to act,,VERB
-handelt,acts,,VERB
 harte,hard,,NOUN
 hassen,to hate,,VERB
 Haufen,pile,,NOUN
 heim,home,,ADV
 Heimat,homeland,,NOUN
 Held,hero,,NOUN
-Helden,heroes,,NOUN
 herausfinden,to find out,,VERB
-herauszufinden,to find out,,VERB
 herein,come in,,ADV
 Herrschaft,reign/rule,,NOUN
 heut,today,,ADV
 Hexe,witch,,NOUN
-hieß,was called,,VERB
-hilfst,help (you),,VERB
 hinaus,out,,ADV
 hinein,into,,ADV
 hingehen,to go there,,VERB
@@ -421,20 +276,13 @@ Hintern,butt,,NOUN
 Hinweis,clue,,NOUN
 hoffen,to hope,,VERB
 Hoheit,highness,,NOUN
-holt,fetches,,VERB
 Holz,wood,,NOUN
 Hose,trousers,,NOUN
-Hunde,dogs,,NOUN
 Hure,whore,,NOUN
 hängen,to hang,,VERB
-hängt,hangs,,VERB
-Häuser,houses,,NOUN
 Hölle,hell,,NOUN
 Hütte,hut,,NOUN
-Ideen,ideas,,NOUN
-Idioten,idiots,,NOUN
 indem,by doing,,SCONJ
-informiert,informed,,VERB
 innerhalb,within,,ADP
 Inspektor,inspector,,NOUN
 interessant,interesting,,ADJ
@@ -444,29 +292,21 @@ Internet,internet,,NOUN
 inzwischen,meanwhile,,ADV
 irgendetwas,anything,,PRON
 irre,crazy,,ADJ
-isst,eats,,VERB
 Jacke,jacket,,NOUN
 jagen,to hunt,,VERB
 jedenfalls,anyway,,ADV
-junger,young (masc),,ADJ
 Kaiser,emperor,,NOUN
-Kameras,cameras,,NOUN
 kapiert,understood,,VERB
 Kapitän,captain,,NOUN
 Karriere,career,,NOUN
-Karten,cards,,NOUN
 Katze,cat,,NOUN
-keinem,no one (dative),,DET
 Keller,basement,,PROPN
-kennengelernt,got to know,,VERB
 kennenlernen,to get to know,,VERB
-kennenzulernen,to get to know (inf),,VERB
 Kerle,guys,,NOUN
 Killer,killer,,NOUN
 Kilometer,kilometer,,NOUN
 Kino,cinema,,NOUN
 Kiste,box,,NOUN
-klappt,works,,VERB
 Kleidung,clothing,,NOUN
 Klinik,clinic,,NOUN
 Klo,toilet,,NOUN
@@ -496,31 +336,21 @@ Kugel,bullet / sphere,,NOUN
 Kuh,cow,,PROPN
 Kunst,art,,NOUN
 Kurs,course,,NOUN
-Kuss,kiss,,NOUN
 Käse,cheese,,NOUN
-kümmert,cares,,VERB
 Künstler,artist,,NOUN
 Labor,laboratory,,NOUN
 Lager,camp,,NOUN
 landen,to land,,VERB
-langen,long (acc/dat),,ADJ
-langer,long (masc),,ADJ
 langweilig,boring,,ADJ
 lautet,reads / is,,VERB
 lebendig,alive,,ADJ
-lebte,lived (past),,VERB
 lecker,delicious,,ADJ
 leer,empty,,ADJ
-legt,lays,,VERB
 Lehrer,teacher,,NOUN
-Leichen,corpses,,NOUN
 Leichter,easier,,ADJ
 leiden,to suffer,,VERB
 Leiter,leader / ladder,,NOUN
 Liebes,love (affectionate),,NOUN
-liebsten,favorite,,NOUN
-liebte,loved (past),,VERB
-liest,reads,,VERB
 Loch,hole,,NOUN
 locker,relaxed,,ADJ
 loswerden,to get rid of,,VERB
@@ -528,19 +358,14 @@ lösen,to solve,,VERB
 Lüge,lie,,NOUN
 lügen,to lie,,VERB
 Lügner,liar,,NOUN
-lügt,lies,,VERB
 Magie,magic,,NOUN
 Major,Major,,NOUN
 Mami,mommy,,PROPN
-manche,some,,DET
-Mannes,man (genitive),,NOUN
 Markt,market,,NOUN
 Maschine,machine,,NOUN
 Maul,mouth (animal),,PROPN
 Medizin,medicine,,NOUN
 mehrere,several,,DET
-Meilen,miles,,NOUN
-melde,report (I),,VERB
 Menschheit,humanity,,NOUN
 merken,to notice,,VERB
 Mexiko,Mexico,,PROPN
@@ -550,8 +375,6 @@ mindestens,at least,,ADV
 Mission,mission,,NOUN
 Mistkerl,bastard,,PROPN
 Mitarbeiter,employee,,NOUN
-mitgebracht,brought along,,VERB
-mitgenommen,taken along,,VERB
 Mitglied,member,,NOUN
 mitkommen,to come along,,VERB
 Mittag,noon,,NOUN
@@ -568,27 +391,20 @@ Motor,engine,,NOUN
 Mum,mum,,PROPN
 Mut,courage,,NOUN
 mutig,brave,,ADJ
-Möglichkeiten,possibilities,,NOUN
 Mühe,effort,,NOUN
 Müll,trash,,NOUN
-müssten,would have to (pl),,AUX
-Nachbarn,neighbors,,NOUN
 nachdenken,to think,,VERB
-nachgedacht,thought about,,VERB
 nachher,afterwards,,ADV
 Nachmittag,afternoon,,NOUN
 nachts,at night,,ADV
 nackt,naked,,ADJ
 Natur,nature,,NOUN
 nehm,take (spoken),,INTJ
-Nehmt,take (pl),,VERB
 Nerven,nerves,,NOUN
 nette,nice,,NOUN
-neuer,new (masc),,ADJ
 neugierig,curious,,ADJ
 Neuigkeiten,news,,NOUN
 neun,nine,,NUM
-nimmst,take (you),,VERB
 nirgendwo,nowhere,,ADV
 Norden,north,,NOUN
 Notfall,emergency,,NOUN
@@ -597,7 +413,6 @@ offenbar,apparently,,ADV
 offensichtlich,obviously,,ADJ
 offiziell,official,,ADJ
 Ohr,ear,,NOUN
-Ohren,ears,,NOUN
 Opa,grandpa,,PROPN
 Operation,operation,,NOUN
 Opfer,victim,,NOUN
@@ -605,22 +420,15 @@ packen,to pack,,VERB
 Panik,panic,,NOUN
 Papier,paper,,NOUN
 passen,to fit,,VERB
-passierte,happened,,VERB
 Pater,Father (priest),,NOUN
 Patient,patient,,NOUN
 Pech,bad luck,,NOUN
 peinlich,embarrassing,,ADJ
-perfekte,perfect (fem/pl),,ADJ
-Personen,persons,,NOUN
-Pferde,horses,,NOUN
 Pflicht,duty,,NOUN
 Pfund,pound,,NOUN
 Pistole,pistol,,NOUN
 Pizza,pizza,,NOUN
-Planeten,planets,,NOUN
-Pläne,plans,,NOUN
 Politik,politics,,NOUN
-Polizisten,police officers,,NOUN
 Position,position,,NOUN
 Post,post office,,NOUN
 praktisch,practical,,ADJ
@@ -633,16 +441,13 @@ Projekt,project,,NOUN
 Prost,cheers,,PROPN
 Prozent,percent,,NOUN
 Prozess,process / trial,,NOUN
-Präsidenten,presidents,,NOUN
 Publikum,audience,,NOUN
-Punkte,points,,NOUN
 Quelle,source,,NOUN
 Rache,revenge,,NOUN
 Radio,radio,,NOUN
 raten,to guess,,VERB
 rauf,up,,ADV
 rausfinden,to find out,,VERB
-reagiert,reacted,,VERB
 Rechnung,invoice,,NOUN
 rechtzeitig,in time,,ADJ
 Regel,rule,,NOUN
@@ -658,8 +463,6 @@ rennen,to run,,VERB
 reparieren,to repair,,VERB
 Restaurant,restaurant,,NOUN
 Revier,precinct,,NOUN
-riecht,smells,,VERB
-Riesen,giants,,NOUN
 Ring,ring,,NOUN
 Risiko,risk,,NOUN
 riskieren,to risk,,VERB
@@ -669,78 +472,46 @@ Rom,Rome,,PROPN
 Roman,novel,,NOUN
 Rose,rose,,PROPN
 roten,red (acc/dat),,VERB
-ruhige,quiet (fem/pl),,ADJ
-ruiniert,ruined,,VERB
 Runde,round,,NOUN
 Sack,sack,,NOUN
-sahen,saw (pl),,VERB
 satt,full / fed up,,ADJ
-saß,sat,,VERB
 Schade,pity,,ADJ
 Schaden,damage,,NOUN
-schaffe,manage (I),,VERB
 schaffst,manage (you),,INTJ
-schafft,manages,,VERB
 Schande,shame,,NOUN
 scharf,sharp,,ADJ
 Schatten,shadow,,NOUN
-schaue,look (I),,VERB
 Schauspieler,actor,,NOUN
-schaut,looks,,VERB
 Scheidung,divorce,,NOUN
 scheinen,to shine,,VERB
 Scheiße,Shit,,NOUN
-schicke,send (I),,VERB
-schickt,sends,,VERB
-schickte,sent (past),,VERB
 schief,wrong,,ADJ
-schlafe,sleep (I),,VERB
 Schlafzimmer,bedroom,,NOUN
 Schlampe,bitch,,NOUN
 Schlange,snake,,NOUN
-schlechten,bad (acc/dat),,ADJ
-schlechter,worse,,ADJ
 schließen,to close,,VERB
 schließlich,finally,,ADV
-Schloss,castle,,NOUN
-schlug,hit (past),,VERB
-schläft,sleeps,,VERB
-schlägt,beats,,VERB
-schmeckt,tastes,,VERB
-Schmerzen,pain,,NOUN
 schnappen,to catch,,VERB
 Schnauze,snout,,NOUN
 Schnee,snow,,NOUN
 Schock,shock,,NOUN
 Schrank,wardrobe,,NOUN
 Schrei,scream,,NOUN
-schreibe,write (I),,VERB
-schreibt,writes,,VERB
-Schreie,screams,,NOUN
 schreien,to scream,,VERB
-schrieb,wrote,,VERB
-Schritte,steps,,NOUN
-Schulden,debts,,NOUN
 Schutz,protection,,NOUN
 schwach,weak,,ADJ
 Schwanz,tail,,NOUN
 schwarz,black,,ADJ
-schwarze,black (fem/pl),,NOUN
-schwarzen,black (acc/dat),,ADJ
 Schwein,pig,,NOUN
-schwere,heavy,,ADJ
 Schwert,sword,,NOUN
-Schwestern,sisters,,NOUN
 Schwierigkeiten,difficulties,,NOUN
 schwimmen,to swim,,VERB
 schwul,gay,,ADJ
 schätzen,to appreciate,,VERB
-schöner,more beautiful,,ADJ
 schönes,beautiful (neut),,NOUN
 Schüler,pupil,,NOUN
 Schüsse,shots,,NOUN
 See,lake,,NOUN
-selben,same (dat/acc),,DET
 Selbstmord,suicide,,NOUN
 selten,rare,,ADJ
 Sendung,broadcast,,NOUN
@@ -748,32 +519,21 @@ Sergeant,Sergeant,,NOUN
 sexy,sexy,,ADJ
 Sieg,victory,,NOUN
 Signal,signal,,NOUN
-singt,sings,,VERB
-sitze,sit (I),,VERB
-solchen,such (dat/acc pl),,DET
 Soldat,soldier,,NOUN
-solltet,should (you pl past),,AUX
 Sommer,summer,,NOUN
 Sonntag,Sunday,,PROPN
 sowas,such a thing,,ADV
-spannende,exciting (fem/pl),,ADJ
 spazieren,to stroll,,VERB
 Spiegel,mirror,,PROPN
 Spieler,player,,NOUN
-spielte,played (past),,VERB
 Sport,sport,,NOUN
 Sprache,language,,NOUN
-sprachen,spoke,,VERB
-spreche,speak (I),,VERB
 sprich,speak,,ADJ
 springen,to jump,,VERB
 Spuren,traces,,NOUN
-spüre,feel (I),,VERB
 spüren,to feel,,VERB
 Staat,state,,NOUN
-Staaten,states,,NOUN
 Staatsanwalt,prosecutor,,NOUN
-stammt,originates,,VERB
 Star,star (celebrity),,NOUN
 starten,to start,,VERB
 Station,station,,NOUN
@@ -781,10 +541,6 @@ Steh,stand up,,NOUN
 stehlen,to steal,,VERB
 Steig,climb,,NOUN
 steigen,to climb,,VERB
-steigt,rises,,VERB
-stellt,places,,VERB
-stellte,placed (past),,VERB
-Sterne,stars,,NOUN
 Stich,sting,,NOUN
 stimmen,to be right,,VERB
 Stimmengewirr,babble of voices,,NOUN
@@ -794,7 +550,6 @@ Stoff,fabric,,NOUN
 stoppen,to stop,,VERB
 Strafe,punishment,,NOUN
 Strand,beach,,NOUN
-Straßen,streets,,NOUN
 streiten,to argue,,VERB
 streng,strict,,ADJ
 Stress,stress,,NOUN
@@ -803,12 +558,10 @@ Stuhl,chair,,NOUN
 Sturm,storm,,NOUN
 Stärke,strength,,NOUN
 stören,to disturb,,VERB
-stört,disturbs,,VERB
 System,system,,NOUN
 Süden,south,,NOUN
 Talent,talent,,NOUN
 Tanz,dance,,NOUN
-taten,did (pl),,VERB
 Tatort,crime scene,,NOUN
 Tatsache,fact,,NOUN
 Taxi,taxi,,NOUN
@@ -819,35 +572,20 @@ Theater,theater,,NOUN
 Theorie,theory,,NOUN
 Tier,animal,,NOUN
 Tod,death,,NOUN
-Tode,death (dat),,NOUN
 Toilette,toilet,,NOUN
-tollen,great (acc/dat),,NOUN
-toller,great (masc),,ADJ
-tolles,great (neut),,ADJ
 Ton,sound,,NOUN
 Tor,gate,,NOUN
 Tote,dead (people),,NOUN
-Toten,dead (people),,NOUN
 Tour,tour,,NOUN
-trage,carry / wear (I),,VERB
 Training,training,,NOUN
-treffe,meet (I),,VERB
 Treppe,staircase,,NOUN
 treten,to step,,VERB
 Trick,trick,,NOUN
-trifft,meets,,VERB
-trinke,drink (I),,VERB
 Trottel,fool,,NOUN
-trug,carried,,VERB
-trägt,carries,,VERB
 Tränen,tears,,NOUN
-Träume,dreams,,NOUN
 Tschüs,bye,,PROPN
 täglich,daily,,ADJ
-töte,kill,,VERB
 töten,to kill,,VERB
-tötet,kills,,VERB
-tötete,killed,,VERB
 umgehen,to handle,,VERB
 ums,around the,,ADP
 umsonst,for free,,ADV
@@ -863,7 +601,6 @@ Unterstützung,support,,NOUN
 untersuchen,to investigate,,VERB
 Untersuchung,investigation,,NOUN
 Verantwortung,responsibility,,NOUN
-verboten,forbidden,,VERB
 Verbrechen,crime,,NOUN
 Verbrecher,criminal,,NOUN
 verbringen,to spend time,,VERB
@@ -871,100 +608,65 @@ verbunden,connected,,ADJ
 Verdacht,suspicion,,NOUN
 verdammt,damn,,ADJ
 verdammten,damn (acc/pl),,VERB
-verdammter,damn (masc),,ADJ
 verdienen,to earn,,VERB
 verfolgen,to pursue,,VERB
-verfolgt,pursued,,VERB
 Vergnügen,pleasure,,NOUN
 verhaften,to arrest,,VERB
 Verhalten,behavior,,NOUN
 verhindern,to prevent,,VERB
-verlangt,demanded,,VERB
 verletzen,to injure,,VERB
-verliert,loses,,VERB
-verlässt,leaves,,VERB
-vermisse,miss (I),,VERB
 vermissen,to miss,,VERB
 vermutlich,probably,,ADJ
 vernichten,to destroy,,VERB
 verpassen,to miss,,VERB
-verpasst,missed,,VERB
 Verräter,traitor,,NOUN
 verschiedene,different,,NOUN
-verschwinde,disappear (imperative),,VERB
-verschwindet,disappears,,VERB
 Versprechen,promise,,NOUN
 Verstand,mind,,NOUN
 Versteck,hiding place,,NOUN
-versteh,understand,,VERB
-versteht,understands,,VERB
-versuchte,tried (past),,VERB
 verteidigen,to defend,,VERB
 Vertrag,contract,,NOUN
-verwirrt,confused,,VERB
 verändern,to change,,VERB
-vieles,many things,,DET
 Vogel,bird,,PROPN
 vollkommen,completely,,ADJ
 voraus,ahead,,ADV
-vorbereitet,prepared,,VERB
-vorgestellt,introduced,,VERB
 vorn,in front,,ADV
 Vorschlag,proposal,,NOUN
 Vorstellung,performance / idea,,NOUN
 Vorwärts,forward,,PROPN
-Vögel,birds,,NOUN
 Wache,guard,,NOUN
-Wachen,guards,,NOUN
 wachsen,to grow,,VERB
 Waffe,weapon,,NOUN
 wahnsinnig,crazy,,ADJ
-wahre,true,,NOUN
 Wand,wall,,NOUN
 warm,warm,,ADJ
-wartest,wait (you),,VERB
 wechseln,to change,,VERB
 wehtun,to hurt,,VERB
 weinen,to cry,,VERB
-weint,cries,,VERB
-weiteren,further (acc/dat),,ADJ
 weiterhin,furthermore,,ADV
 weiße,white (fem/pl),,NOUN
 weißen,white (acc/dat),,NOUN
-welchen,which (acc),,DET
 welcher,which,,DET
-Welches,which (neut),,DET
 werfen,to throw,,VERB
 Wesen,being,,NOUN
 Westen,west,,NOUN
 Wetter,weather,,NOUN
 Wichser,wanker,,NOUN
-wichtige,important (fem/pl),,ADJ
-wichtiger,more important,,ADJ
 wirken,to seem,,VERB
-wirkt,seems,,VERB
-Witze,jokes,,NOUN
 woanders,somewhere else,,ADV
-wohne,live (I),,VERB
 Wolf,wolf,,PROPN
 Worauf,on what,,ADV
 Worum,about what,,ADV
 Worüber,about what,,ADV
 Wunsch,wish,,NOUN
-wusstest,knew (you),,VERB
 Wut,anger,,NOUN
 wählen,to choose / vote,,VERB
-wünsche,wish,,VERB
 wünschen,to wish,,VERB
-zeige,show (I),,VERB
 Zeitpunkt,point in time,,NOUN
 Zeitung,newspaper,,NOUN
 Zelle,cell,,NOUN
 zerstören,to destroy,,VERB
 Zeuge,witness,,NOUN
-Zeugen,witnesses,,NOUN
-ziehe,pull (I),,VERB
-zog,pulled,,VERB
 Zucker,sugar,,NOUN
 Zufall,coincidence,,NOUN
 zufrieden,satisfied,,ADJ
@@ -979,23 +681,12 @@ Zustand,condition,,NOUN
 zuvor,before,,ADV
 Zweifel,doubt,,NOUN
 zweimal,twice,,ADV
-zweiten,second (acc/dat),,ADJ
 zwölf,twelve,,NUM
-zählt,counts,,VERB
-Zähne,teeth,,NOUN
 ächzt,groans,,VERB
 ähnlich,similar,,ADJ
-älter,older,,ADJ
-ändert,changes,,VERB
-Ärzte,doctors,,NOUN
-öfter,more often,,ADV
 überleben,to survive,,VERB
-überlebt,survived,,VERB
 überlegen,to consider,,VERB
-überlegt,considered,,VERB
-übernehme,take over (I),,VERB
 überprüfen,to check,,VERB
-überprüft,checked,,VERB
 überzeugen,to convince,,VERB
 überzeugt,convinced,,VERB
 übrigens,by the way,,ADV
