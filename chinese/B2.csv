@@ -1,82 +1,82 @@
 Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
-老百姓,ordinary people,老百姓,NOUN
+老百姓,ordinary people,老百姓,PART
 老鼠,rat,老鼠,NOUN
-耽误,to delay,耽误,NOUN
-联合,to combine,联合,NOUN
-聚会,party,聚会,NOUN
+耽误,to delay,耽误,VERB
+联合,to combine,联合,VERB
+聚会,party,聚会,VERB
 肌肉,muscle,肌肉,NOUN
 股票,share,股票,NOUN
 肥皂,soap,肥皂,NOUN
 肩膀,shoulder,肩膀,NOUN
 肺,lung,肺,NOUN
 胃,stomach,胃,NOUN
-胆小鬼,coward,胆小鬼,NOUN
+胆小鬼,coward,胆小鬼,ADJ
 背,the back of a body or object,背,NOUN
 背景,background,背景,NOUN
 胜利,victory,胜利,NOUN
-胡同,alley / hutong,胡同,NOUN
-胡说,to talk nonsense,胡说,NOUN
+胡同,alley / hutong,胡同,PROPN
+胡说,to talk nonsense,胡说,PROPN
 胡须,beard,胡须,NOUN
 胳膊,arm,胳膊,NOUN
 胶水,glue,胶水,NOUN
 胸,chest,胸,NOUN
-能干,capable,能干,NOUN
+能干,capable,能干,VERB
 能源,energy,能源,NOUN
 脑袋,head,脑袋,NOUN
 脖子,neck,脖子,NOUN
 腰,waist,腰,NOUN
-自从,since (a time),自从,NOUN
+自从,since (a time),自从,ADP
 自信,to have confidence in oneself,自信,NOUN
-自动,automatic,自动,NOUN
-自愿,voluntary,自愿,NOUN
+自动,automatic,自动,ADJ
+自愿,voluntary,自愿,VERB
 自由,freedom,自由,NOUN
-自私,selfish,自私,NOUN
-自觉,conscious,自觉,NOUN
-自豪,(feel a sense of) pride,自豪,NOUN
+自私,selfish,自私,ADP
+自觉,conscious,自觉,ADJ
+自豪,(feel a sense of) pride,自豪,ADP
 臭,stench,臭,NOUN
-至于,as for,至于,NOUN
-至今,so far,至今,NOUN
+至于,as for,至于,VERB
+至今,so far,至今,ADP
 舅舅,mother's brother,舅舅,NOUN
 舌头,tongue,舌头,NOUN
 舍不得,to hate to do sth,舍不得,NOUN
-舒适,cozy,舒适,NOUN
-良好,good,良好,NOUN
-艰巨,arduous,艰巨,NOUN
-艰苦,difficult,艰苦,NOUN
-节,festival / holiday,节,NOUN
-节省,saving,节省,NOUN
+舒适,cozy,舒适,ADJ
+良好,good,良好,ADJ
+艰巨,arduous,艰巨,ADJ
+艰苦,difficult,艰苦,ADJ
+节,festival / holiday,节,PROPN
+节省,saving,节省,VERB
 花生,peanut,花生,NOUN
-苗条,slim,苗条,NOUN
-英俊,handsome,英俊,NOUN
+苗条,slim,苗条,PROPN
+英俊,handsome,英俊,ADJ
 英雄,hero,英雄,NOUN
-荣幸,honored,荣幸,NOUN
+荣幸,honored,荣幸,PROPN
 荣誉,honor,荣誉,NOUN
-营业,to do business,营业,NOUN
+营业,to do business,营业,VERB
 营养,nutrition,营养,NOUN
-落后,to fall behind,落后,NOUN
+落后,to fall behind,落后,VERB
 蔬菜,vegetables,蔬菜,NOUN
-薄,thin,薄,NOUN
-虚心,modest,虚心,NOUN
+薄,thin,薄,ADJ
+虚心,modest,虚心,ADJ
 蛇,snake,蛇,NOUN
 蜜蜂,bee,蜜蜂,NOUN
 蜡烛,candle,蜡烛,NOUN
 蝴蝶,butterfly,蝴蝶,NOUN
-融化,to melt,融化,NOUN
+融化,to melt,融化,VERB
 行业,industry,行业,NOUN
 行为,action,行为,NOUN
 行人,pedestrian,行人,NOUN
 行动,operation,行动,NOUN
-补充,to replenish,补充,NOUN
+补充,to replenish,补充,VERB
 表情,(facial) expression,表情,NOUN
-表明,to make clear,表明,NOUN
+表明,to make clear,表明,VERB
 表现,to show,表现,NOUN
 表面,surface,表面,NOUN
 被子,quilt,被子,NOUN
-装,adornment,装,NOUN
+装,adornment,装,VERB
 装饰,to decorate,装饰,NOUN
-要不,otherwise,要不,NOUN
-要是,if,要是,NOUN
-观察,to observe,观察,NOUN
+要不,otherwise,要不,AUX
+要是,if,要是,ADP
+观察,to observe,观察,VERB
 观念,notion,观念,NOUN
 观点,point of view,观点,NOUN
 规则,rule,规则,NOUN
@@ -85,178 +85,178 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 规矩,lit. compass and set square,规矩,NOUN
 角度,angle,角度,NOUN
 角色,role,角色,NOUN
-解放,to liberate,解放,NOUN
-解说员,commentator,解说员,NOUN
-计算,to count,计算,NOUN
-训练,to train,训练,NOUN
-议论,to comment,议论,NOUN
+解放,to liberate,解放,VERB
+解说员,commentator,解说员,VERB
+计算,to count,计算,VERB
+训练,to train,训练,VERB
+议论,to comment,议论,VERB
 记录,to record,记录,NOUN
 记忆,to remember,记忆,NOUN
-讲座,a course of lectures,讲座,NOUN
-讲究,to pay particular attention to,讲究,NOUN
+讲座,a course of lectures,讲座,VERB
+讲究,to pay particular attention to,讲究,VERB
 论文,paper,论文,NOUN
-讽刺,to satirize,讽刺,NOUN
+讽刺,to satirize,讽刺,VERB
 设备,equipment,设备,NOUN
 设施,facilities,设施,NOUN
-设计,plan,设计,NOUN
+设计,plan,设计,VERB
 证件,paperwork,证件,NOUN
 证据,evidence,证据,NOUN
 评价,to evaluate,评价,NOUN
-诊断,diagnosis,诊断,NOUN
-试卷,examination paper,试卷,NOUN
+诊断,diagnosis,诊断,VERB
+试卷,examination paper,试卷,VERB
 诗,poem,诗,NOUN
-诚恳,sincere,诚恳,NOUN
+诚恳,sincere,诚恳,ADJ
 话题,subject (of a talk or conversation),话题,NOUN
-询问,to inquire,询问,NOUN
+询问,to inquire,询问,VERB
 语气,tone,语气,NOUN
-说不定,can't say for sure,说不定,NOUN
-说服,to persuade,说服,NOUN
-请求,request,请求,NOUN
+说不定,can't say for sure,说不定,VERB
+说服,to persuade,说服,VERB
+请求,request,请求,VERB
 课程,course,课程,NOUN
 调整,to adjust,调整,NOUN
-调皮,naughty,调皮,NOUN
+调皮,naughty,调皮,VERB
 谈判,to negotiate,谈判,NOUN
-谜语,riddle,谜语,NOUN
-谦虚,modest,谦虚,NOUN
-谨慎,cautious,谨慎,NOUN
+谜语,riddle,谜语,PROPN
+谦虚,modest,谦虚,ADJ
+谨慎,cautious,谨慎,ADJ
 豆腐,tofu,豆腐,NOUN
-象征,emblem,象征,NOUN
+象征,emblem,象征,VERB
 象棋,Chinese chess,象棋,NOUN
-豪华,luxurious,豪华,NOUN
+豪华,luxurious,豪华,ADJ
 贡献,to contribute,贡献,NOUN
 财产,property,财产,NOUN
 责备,to blame,责备,NOUN
 账户,bank account,账户,NOUN
-贷款,a loan,贷款,NOUN
+贷款,a loan,贷款,VERB
 贸易,(commercial) trade,贸易,NOUN
 费用,cost,费用,NOUN
 资料,material / data,资料,NOUN
 资格,qualifications,资格,NOUN
 资源,natural resource (such as water or minerals),资源,NOUN
 资金,funds,资金,NOUN
-赔偿,to compensate,赔偿,NOUN
-赞成,to approve,赞成,NOUN
-赞美,to admire,赞美,NOUN
-赶快,at once,赶快,NOUN
-赶紧,hurriedly,赶紧,NOUN
-趁,to avail oneself of,趁,NOUN
+赔偿,to compensate,赔偿,VERB
+赞成,to approve,赞成,VERB
+赞美,to admire,赞美,VERB
+赶快,at once,赶快,ADJ
+赶紧,hurriedly,赶紧,VERB
+趁,to avail oneself of,趁,VERB
 趋势,trend,趋势,NOUN
-踩,to step on,踩,NOUN
-蹲,to crouch,蹲,NOUN
+踩,to step on,踩,VERB
+蹲,to crouch,蹲,VERB
 身份,identity,身份,NOUN
 身材,stature,身材,NOUN
-躲藏,to hide oneself,躲藏,NOUN
+躲藏,to hide oneself,躲藏,VERB
 车厢,carriage,车厢,NOUN
 车库,garage,车库,NOUN
-转变,to change,转变,NOUN
-转告,to pass on,转告,NOUN
-轮流,to alternate,轮流,NOUN
+转变,to change,转变,VERB
+转告,to pass on,转告,VERB
+轮流,to alternate,轮流,ADV
 软件,(computer) software,软件,NOUN
-轻视,contempt,轻视,NOUN
-辅导,to coach,辅导,NOUN
-输入,to import,输入,NOUN
-辞职,to resign,辞职,NOUN
+轻视,contempt,轻视,VERB
+辅导,to coach,辅导,VERB
+输入,to import,输入,VERB
+辞职,to resign,辞职,VERB
 辣椒,hot pepper,辣椒,NOUN
 辩论,debate,辩论,NOUN
-达到,to reach,达到,NOUN
-迅速,rapid,迅速,NOUN
-过分,excessive,过分,NOUN
-过敏,to be allergic,过敏,NOUN
-过期,to be overdue,过期,NOUN
-迎接,to meet,迎接,NOUN
+达到,to reach,达到,VERB
+迅速,rapid,迅速,ADJ
+过分,excessive,过分,ADJ
+过敏,to be allergic,过敏,ADJ
+过期,to be overdue,过期,VERB
+迎接,to meet,迎接,VERB
 运气,luck (good or bad),运气,NOUN
-运用,to use,运用,NOUN
+运用,to use,运用,VERB
 运输,transport,运输,NOUN
 近代,modern times,近代,NOUN
-进口,to import,进口,NOUN
-进步,progress,进步,NOUN
-违反,to violate (a law),违反,NOUN
-连忙,promptly,连忙,NOUN
-连续剧,serialized drama,连续剧,NOUN
-迫切,urgent,迫切,NOUN
-迷路,to lose the way,迷路,NOUN
-追求,to pursue (a goal etc) stubbornly,追求,NOUN
-退,to retreat,退,NOUN
-退休,to retire,退休,NOUN
-退步,to do less well than before,退步,NOUN
-逃,to escape,逃,NOUN
-逃避,to escape,逃避,NOUN
+进口,to import,进口,VERB
+进步,progress,进步,VERB
+违反,to violate (a law),违反,VERB
+连忙,promptly,连忙,VERB
+连续剧,serialized drama,连续剧,ADJ
+迫切,urgent,迫切,ADJ
+迷路,to lose the way,迷路,VERB
+追求,to pursue (a goal etc) stubbornly,追求,VERB
+退,to retreat,退,VERB
+退休,to retire,退休,VERB
+退步,to do less well than before,退步,VERB
+逃,to escape,逃,VERB
+逃避,to escape,逃避,VERB
 选举,to elect,选举,NOUN
-透明,transparent,透明,NOUN
-逐步,progressively,逐步,NOUN
-递,to hand over,递,NOUN
-逗,to stay,逗,NOUN
-通常,regular,通常,NOUN
+透明,transparent,透明,ADJ
+逐步,progressively,逐步,ADV
+递,to hand over,递,VERB
+逗,to stay,逗,VERB
+通常,regular,通常,ADJ
 通讯,communications,通讯,NOUN
-造成,to bring about,造成,NOUN
+造成,to bring about,造成,VERB
 逻辑,logic (loanword),逻辑,NOUN
 道德,virtue,道德,NOUN
 道理,reason,道理,NOUN
-遗憾,regret,遗憾,NOUN
-遵守,to comply with,遵守,NOUN
-避免,to avert,避免,NOUN
+遗憾,regret,遗憾,ADJ
+遵守,to comply with,遵守,VERB
+避免,to avert,避免,VERB
 邮局,post office,邮局,NOUN
 郊区,suburban district,郊区,NOUN
 部门,department,部门,NOUN
-配合,matching,配合,NOUN
+配合,matching,配合,VERB
 酒吧,bar,酒吧,NOUN
 酱油,soy sauce,酱油,NOUN
-醉,intoxicated,醉,NOUN
+醉,intoxicated,醉,ADJ
 醋,vinegar,醋,NOUN
-采取,to adopt or carry out (measures,采取,NOUN
-采访,to interview,采访,NOUN
-重,heavy,重,NOUN
-重复,to repeat,重复,NOUN
+采取,to adopt or carry out (measures,采取,VERB
+采访,to interview,采访,VERB
+重,heavy,重,ADJ
+重复,to repeat,重复,VERB
 重量,weight,重量,NOUN
 金属,metal,金属,NOUN
-针对,to be directed against,针对,NOUN
-钓,to fish with a hook and bait,钓,NOUN
-钟,clock,钟,NOUN
+针对,to be directed against,针对,VERB
+钓,to fish with a hook and bait,钓,VERB
+钟,clock,钟,PROPN
 钢铁,steel,钢铁,NOUN
 铃,(small) bell,铃,NOUN
 铜,copper (chemistry),铜,NOUN
 银,silver,银,NOUN
-销售,to sell,销售,NOUN
+销售,to sell,销售,VERB
 锁,to lock up,锁,NOUN
 锅,pot,锅,NOUN
-错误,error / mistake,错误,NOUN
+错误,error / mistake,错误,ADJ
 键盘,keyboard,键盘,NOUN
 长途,long distance,长途,NOUN
-闪电,lightning,闪电,NOUN
-问候,to give one's respects,问候,NOUN
-闯,to rush,闯,NOUN
-闻,to hear,闻,NOUN
+闪电,lightning,闪电,VERB
+问候,to give one's respects,问候,VERB
+闯,to rush,闯,VERB
+闻,to hear,闻,PROPN
 阳台,balcony,阳台,NOUN
 阵,disposition of troops,阵,NOUN
 阶段,stage,阶段,NOUN
-阻止,to prevent,阻止,NOUN
+阻止,to prevent,阻止,VERB
 陆地,dry land (as opposed to the sea),陆地,NOUN
-陆续,in turn,陆续,NOUN
-陌生,strange,陌生,NOUN
-降落,to descend,降落,NOUN
-除,to get rid of,除,NOUN
+陆续,in turn,陆续,ADV
+陌生,strange,陌生,ADJ
+降落,to descend,降落,VERB
+除,to get rid of,除,VERB
 除夕,(New Year's) Eve,除夕,NOUN
-除非,only if (...,除非,NOUN
-随时,at any time,随时,NOUN
-隔壁,next door,隔壁,NOUN
-难怪,(it's) no wonder (that...),难怪,NOUN
-难看,ugly,难看,NOUN
-雄伟,grand,雄伟,NOUN
-集中,to concentrate,集中,NOUN
+除非,only if (...,除非,ADP
+随时,at any time,随时,ADJ
+隔壁,next door,隔壁,VERB
+难怪,(it's) no wonder (that...),难怪,VERB
+难看,ugly,难看,ADJ
+雄伟,grand,雄伟,PROPN
+集中,to concentrate,集中,VERB
 集体,collective,集体,NOUN
-雇佣,to employ,雇佣,NOUN
+雇佣,to employ,雇佣,VERB
 零件,part,零件,NOUN
-零钱,change (of money),零钱,NOUN
+零钱,change (of money),零钱,NUM
 零食,between-meal nibbles,零食,NOUN
-雷,thunder,雷,NOUN
+雷,thunder,雷,PROPN
 雾,fog,雾,NOUN
-露,dew,露,NOUN
+露,dew,露,PROPN
 青,nature's color,青,NOUN
 青少年,adolescent,青少年,NOUN
 青春,youth,青春,NOUN
-非,to not be,非,NOUN
-面临,to face sth,面临,NOUN
-面对,to confront,面对,NOUN
+非,to not be,非,PROPN
+面临,to face sth,面临,VERB
+面对,to confront,面对,VERB
 面积,area (of a floor,面积,NOUN
 革命,revolution,革命,NOUN
 鞭炮,firecrackers,鞭炮,NOUN
@@ -264,381 +264,381 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 项,back of neck,项,NOUN
 项目,item,项目,NOUN
 项链,necklace,项链,NOUN
-预报,forecast,预报,NOUN
-预订,to place an order,预订,NOUN
-预防,to prevent,预防,NOUN
+预报,forecast,预报,VERB
+预订,to place an order,预订,VERB
+预防,to prevent,预防,VERB
 领域,domain,领域,NOUN
-领导,lead,领导,NOUN
+领导,lead,领导,VERB
 频道,frequency,频道,NOUN
 颗,classifier for small spheres,颗,NOUN
 题目,subject,题目,NOUN
 风俗,social custom,风俗,NOUN
 风格,style,风格,NOUN
 风险,risk,风险,NOUN
-飘,to float,飘,NOUN
+飘,to float,飘,VERB
 食物,food,食物,NOUN
 餐厅,dining hall,餐厅,NOUN
 馒头,steamed roll,馒头,NOUN
-驾驶,to pilot (ship,驾驶,NOUN
-骂,to scold,骂,NOUN
+驾驶,to pilot (ship,驾驶,VERB
+骂,to scold,骂,VERB
 骨头,bone,骨头,NOUN
-高档,superior quality,高档,NOUN
-高速,high speed,高速,NOUN
+高档,superior quality,高档,ADJ
+高速,high speed,高速,ADJ
 魅力,charm,魅力,NOUN
-鲜艳,bright-colored,鲜艳,NOUN
+鲜艳,bright-colored,鲜艳,ADJ
 鸽子,pigeon,鸽子,NOUN
-麦克风,microphone (loanword),麦克风,NOUN
-黄瓜,cucumber,黄瓜,NOUN
+麦克风,microphone (loanword),麦克风,PROPN
+黄瓜,cucumber,黄瓜,PROPN
 黄金,gold,黄金,NOUN
-鼓舞,heartening (news),鼓舞,NOUN
+鼓舞,heartening (news),鼓舞,VERB
 鼠标,mouse (computing),鼠标,NOUN
-龙,dragon,龙,NOUN
-一下,a bit,一下,NOUN
-一下子,all at once,一下子,NOUN
-一丝不苟,not one thread loose (idiom); strictly according to the rules,一丝不苟,NOUN
-一个,one,一个,NOUN
-一个月,one month,一个月,NOUN
-一举两得,one move,一举两得,NOUN
-一些,some,一些,NOUN
-一人,one person,一人,NOUN
-一件,one item,一件,NOUN
-一份,one portion,一份,NOUN
-一会,a while,一会,NOUN
-一位,one (polite),一位,NOUN
-一個,one,一個,NOUN
-一再,repeatedly,一再,NOUN
-一分钟,one minute,一分钟,NOUN
-一切都是,everything is,一切都是,NOUN
-一刻,one moment,一刻,NOUN
-一副,one pair,一副,NOUN
-一半,half,一半,NOUN
+龙,dragon,龙,PROPN
+一下,a bit,一下,NUM
+一下子,all at once,一下子,NUM
+一丝不苟,not one thread loose (idiom); strictly according to the rules,一丝不苟,ADJ
+一个,one,一个,NUM
+一个月,one month,一个月,NUM
+一举两得,one move,一举两得,ADV
+一些,some,一些,ADJ
+一人,one person,一人,NUM
+一件,one item,一件,NUM
+一份,one portion,一份,NUM
+一会,a while,一会,NUM
+一位,one (polite),一位,NUM
+一個,one,一個,NUM
+一再,repeatedly,一再,NUM
+一分钟,one minute,一分钟,NUM
+一切都是,everything is,一切都是,DET
+一刻,one moment,一刻,NUM
+一副,one pair,一副,NUM
+一半,half,一半,NUM
 一口,one bite,一口,NOUN
-一句,one sentence,一句,NOUN
-一只,one (animal),一只,NOUN
-一台,one machine,一台,NOUN
-一号,number one,一号,NOUN
-一名,one (person),一名,NOUN
-一向,always (previously),一向,NOUN
+一句,one sentence,一句,NUM
+一只,one (animal),一只,NUM
+一台,one machine,一台,NUM
+一号,number one,一号,NUM
+一名,one (person),一名,NUM
+一向,always (previously),一向,ADJ
 一员,one member,一员,NOUN
-一周,one week,一周,NOUN
-一命,one life,一命,NOUN
-一团糟,a mess,一团糟,NOUN
-一场,one (event),一场,NOUN
-一块,one piece,一块,NOUN
-一堆,a pile,一堆,NOUN
-一声,a sound,一声,NOUN
-一夜,one night,一夜,NOUN
-一大,a big,一大,NOUN
-一大堆,a big pile,一大堆,NOUN
-一天,one day,一天,NOUN
-一头,one head,一头,NOUN
-一套,one set,一套,NOUN
-一如既往,just as in the past (idiom); as before,一如既往,NOUN
-一家,one family,一家,NOUN
-一家人,whole family,一家人,NOUN
-一对,a pair,一对,NOUN
-一小,a small,一小,NOUN
-一帆风顺,propitious wind throughout the journey (idiom),一帆风顺,NOUN
-一年,one year,一年,NOUN
-一度,for a time,一度,NOUN
-一座,one (building),一座,NOUN
-一张,one (flat),一张,NOUN
-一律,same,一律,NOUN
-一把,one handful,一把,NOUN
-一支,one stick,一支,NOUN
-一整天,all day long,一整天,NOUN
-一无所知,know nothing,一无所知,NOUN
-一晚,one night,一晚,NOUN
-一本,one book,一本,NOUN
-一条,one (long),一条,NOUN
-一杯,one cup,一杯,NOUN
-一枪,one shot,一枪,NOUN
-一架,one (machine),一架,NOUN
-一根,one stick,一根,NOUN
-一模一样,exactly the same,一模一样,NOUN
-一樣,same,一樣,NOUN
-一次,once,一次,NOUN
-一步,one step,一步,NOUN
-一段,a section,一段,NOUN
-一段时间,a period of time,一段时间,NOUN
-一流,top quality,一流,NOUN
-一点,a little,一点,NOUN
-一点儿,a little,一点儿,NOUN
-一点点,a little bit,一点点,NOUN
-一片,a piece,一片,NOUN
-一瓶,one bottle,一瓶,NOUN
-一生,a lifetime,一生,NOUN
-一番,one round,一番,NOUN
-一百,one hundred,一百,NOUN
-一百万,one million,一百万,NOUN
-一目了然,obvious at a glance (idiom),一目了然,NOUN
-一眼,one glance,一眼,NOUN
-一种,one kind,一种,NOUN
-一種,one kind,一種,NOUN
-一笔,one sum,一笔,NOUN
-一群,a group,一群,NOUN
-一艘,one (boat),一艘,NOUN
-一行,a group,一行,NOUN
-一贯,consistent,一贯,NOUN
-一趟,a trip,一趟,NOUN
-一辆,one (vehicle),一辆,NOUN
-一遍,once,一遍,NOUN
-一道,together,一道,NOUN
-一部,one part,一部,NOUN
-一部分,a part,一部分,NOUN
-一间,one room,一间,NOUN
-一阵子,a while,一阵子,NOUN
-一面,one side,一面,NOUN
-一项,one item,一项,NOUN
-一顿,a meal,一顿,NOUN
-一颗,one piece,一颗,NOUN
-一首,one song,一首,NOUN
-一點,a little,一點,NOUN
-万分,very much,万分,NOUN
-万岁,long live,万岁,NOUN
-万美元,ten thousand dollars,万美元,NOUN
-三个,three,三个,NOUN
-三個,three,三個,NOUN
-三天,three days,三天,NOUN
-三年,three years,三年,NOUN
-三明治,sandwich,三明治,NOUN
-三次,three times,三次,NOUN
-三角,triangle,三角,NOUN
-上任,to take office,上任,NOUN
-上升,rise,上升,NOUN
-上去,go up,上去,NOUN
+一周,one week,一周,NUM
+一命,one life,一命,NUM
+一团糟,a mess,一团糟,NUM
+一场,one (event),一场,NUM
+一块,one piece,一块,NUM
+一堆,a pile,一堆,NUM
+一声,a sound,一声,NUM
+一夜,one night,一夜,NUM
+一大,a big,一大,NUM
+一大堆,a big pile,一大堆,NUM
+一天,one day,一天,NUM
+一头,one head,一头,VERB
+一套,one set,一套,NUM
+一如既往,just as in the past (idiom); as before,一如既往,NUM
+一家,one family,一家,NUM
+一家人,whole family,一家人,NUM
+一对,a pair,一对,NUM
+一小,a small,一小,NUM
+一帆风顺,propitious wind throughout the journey (idiom),一帆风顺,NUM
+一年,one year,一年,NUM
+一度,for a time,一度,ADV
+一座,one (building),一座,NUM
+一张,one (flat),一张,NUM
+一律,same,一律,NUM
+一把,one handful,一把,NUM
+一支,one stick,一支,NUM
+一整天,all day long,一整天,NUM
+一无所知,know nothing,一无所知,NUM
+一晚,one night,一晚,NUM
+一本,one book,一本,NUM
+一条,one (long),一条,NUM
+一杯,one cup,一杯,NUM
+一枪,one shot,一枪,NUM
+一架,one (machine),一架,NUM
+一根,one stick,一根,NUM
+一模一样,exactly the same,一模一样,ADJ
+一樣,same,一樣,NUM
+一次,once,一次,NUM
+一步,one step,一步,NUM
+一段,a section,一段,NUM
+一段时间,a period of time,一段时间,NUM
+一流,top quality,一流,NUM
+一点,a little,一点,ADJ
+一点儿,a little,一点儿,ADJ
+一点点,a little bit,一点点,ADJ
+一片,a piece,一片,NUM
+一瓶,one bottle,一瓶,NUM
+一生,a lifetime,一生,NUM
+一番,one round,一番,NUM
+一百,one hundred,一百,NUM
+一百万,one million,一百万,NUM
+一目了然,obvious at a glance (idiom),一目了然,NUM
+一眼,one glance,一眼,NUM
+一种,one kind,一种,NUM
+一種,one kind,一種,NUM
+一笔,one sum,一笔,NUM
+一群,a group,一群,NUM
+一艘,one (boat),一艘,NUM
+一行,a group,一行,NUM
+一贯,consistent,一贯,ADJ
+一趟,a trip,一趟,NUM
+一辆,one (vehicle),一辆,NUM
+一遍,once,一遍,NUM
+一道,together,一道,NUM
+一部,one part,一部,NUM
+一部分,a part,一部分,NUM
+一间,one room,一间,NUM
+一阵子,a while,一阵子,NUM
+一面,one side,一面,VERB
+一项,one item,一项,NUM
+一顿,a meal,一顿,VERB
+一颗,one piece,一颗,NUM
+一首,one song,一首,NUM
+一點,a little,一點,NUM
+万分,very much,万分,NUM
+万岁,long live,万岁,NUM
+万美元,ten thousand dollars,万美元,NUM
+三个,three,三个,NUM
+三個,three,三個,NUM
+三天,three days,三天,NUM
+三年,three years,三年,NUM
+三明治,sandwich,三明治,NUM
+三次,three times,三次,NUM
+三角,triangle,三角,NUM
+上任,to take office,上任,VERB
+上升,rise,上升,VERB
+上去,go up,上去,VERB
 上司,boss,上司,NOUN
-上周,last week,上周,NOUN
-上场,go on stage,上场,NOUN
-上天,heaven,上天,NOUN
-上学,go to school,上学,NOUN
+上周,last week,上周,DET
+上场,go on stage,上场,VERB
+上天,heaven,上天,VERB
+上学,go to school,上学,VERB
 上尉,lieutenant,上尉,NOUN
-上帝,God,上帝,NOUN
-上帝保佑,God bless,上帝保佑,NOUN
-上床,go to bed,上床,NOUN
-上来,come up,上来,NOUN
+上帝,God,上帝,PROPN
+上帝保佑,God bless,上帝保佑,PROPN
+上床,go to bed,上床,VERB
+上来,come up,上来,VERB
 上校,colonel,上校,NOUN
-上楼,go upstairs,上楼,NOUN
+上楼,go upstairs,上楼,VERB
 上次,last time,上次,NOUN
-上海,Shanghai,上海,NOUN
+上海,Shanghai,上海,PROPN
 上游,upper reaches (of a river),上游,NOUN
-上瘾,to get into a habit,上瘾,NOUN
+上瘾,to get into a habit,上瘾,VERB
 上级,higher authorities,上级,NOUN
-上课,go to class,上课,NOUN
-上路,hit the road,上路,NOUN
-上车,get on car,上车,NOUN
-上进心,motivation,上进心,NOUN
+上课,go to class,上课,VERB
+上路,hit the road,上路,VERB
+上车,get on car,上车,VERB
+上进心,motivation,上进心,VERB
 上面,above,上面,NOUN
-下令,to order,下令,NOUN
-下來,come down,下來,NOUN
-下去,go down,下去,NOUN
+下令,to order,下令,VERB
+下來,come down,下來,VERB
+下去,go down,下去,VERB
 下周,next week,下周,NOUN
-下场,end up,下场,NOUN
+下场,end up,下场,VERB
 下属,subordinate,下属,NOUN
-下手,to start,下手,NOUN
-下来,come down,下来,NOUN
+下手,to start,下手,VERB
+下来,come down,下来,VERB
 下次,next time,下次,NOUN
-下班,get off work,下班,NOUN
-下车,get off car,下车,NOUN
-下降,to descend,下降,NOUN
+下班,get off work,下班,VERB
+下车,get off car,下车,VERB
+下降,to descend,下降,VERB
 下面,below,下面,NOUN
 不久,soon,不久,NOUN
-不了,cannot,不了,NOUN
-不仅仅,not only,不仅仅,NOUN
-不介意,don't mind,不介意,NOUN
-不会,will not,不会,NOUN
-不住,cannot stay,不住,NOUN
-不信,don't believe,不信,NOUN
-不停,non-stop,不停,NOUN
-不像,unlike,不像,NOUN
-不像话,unreasonable,不像话,NOUN
-不关,not about,不关,NOUN
-不再,no longer,不再,NOUN
-不准,not allowed,不准,NOUN
-不到,cannot reach,不到,NOUN
-不去,not go,不去,NOUN
-不可,cannot,不可,NOUN
-不可思议,inconceivable (idiom); unimaginable,不可思议,NOUN
-不吃,don't eat,不吃,NOUN
-不同,different,不同,NOUN
-不在乎,don't care,不在乎,NOUN
-不堪,cannot bear,不堪,NOUN
-不够,not enough,不够,NOUN
-不太,not very,不太,NOUN
-不太好,not very good,不太好,NOUN
-不好,not good,不好,NOUN
-不妙,not good,不妙,NOUN
-不妨,there is no harm in,不妨,NOUN
-不对劲,not right,不对劲,NOUN
-不少,not few,不少,NOUN
-不屑一顾,to disdain as beneath contempt,不屑一顾,NOUN
-不幸,unfortunate,不幸,NOUN
-不得,must not,不得,NOUN
-不得已,to act against one's will,不得已,NOUN
-不怎么,not very,不怎么,NOUN
-不怕,not afraid,不怕,NOUN
-不惜,not stint,不惜,NOUN
-不想,don't want,不想,NOUN
-不愧,to be worthy of,不愧,NOUN
-不愿,unwilling,不愿,NOUN
-不成,won't do,不成,NOUN
-不择手段,by fair means or foul,不择手段,NOUN
-不敢,dare not,不敢,NOUN
-不敢当,lit. I dare not (accept the honor); fig. I don't deserve your praise,不敢当,NOUN
-不敢相信,can't believe,不敢相信,NOUN
-不料,unexpectedly,不料,NOUN
-不时,from time to time,不时,NOUN
-不明,unclear,不明,NOUN
-不是,is not,不是,NOUN
-不是故意,not intentional,不是故意,NOUN
-不會,will not,不會,NOUN
-不来,not come,不来,NOUN
-不止,incessantly,不止,NOUN
-不爽,unhappy,不爽,NOUN
-不用,no need,不用,NOUN
-不由得,can't help,不由得,NOUN
-不相上下,equally matched,不相上下,NOUN
-不知,don't know,不知,NOUN
-不禁,can't help (doing sth),不禁,NOUN
-不算,not count,不算,NOUN
-不管怎样,anyway,不管怎样,NOUN
-不肯,refuse,不肯,NOUN
-不能,cannot,不能,NOUN
-不行,won't do,不行,NOUN
-不要,do not,不要,NOUN
-不見,not seen,不見,NOUN
-不见,not see,不见,NOUN
-不言而喻,it goes without saying,不言而喻,NOUN
-不让,don't let,不让,NOUN
-不许,not allow,不许,NOUN
-不许动,don't move,不许动,NOUN
-不论,no matter,不论,NOUN
-不该,should not,不该,NOUN
-不说,not say,不说,NOUN
-不起,cannot afford,不起,NOUN
-不远,not far,不远,NOUN
-不通,doesn't work,不通,NOUN
-不過,but,不過,NOUN
-不錯,not bad,不錯,NOUN
-不错,not bad,不错,NOUN
-不顾,in spite of,不顾,NOUN
-与日俱增,to increase steadily,与日俱增,NOUN
-丑恶,ugly,丑恶,NOUN
+不了,cannot,不了,VERB
+不仅仅,not only,不仅仅,ADP
+不介意,don't mind,不介意,VERB
+不会,will not,不会,AUX
+不住,cannot stay,不住,VERB
+不信,don't believe,不信,VERB
+不停,non-stop,不停,VERB
+不像,unlike,不像,VERB
+不像话,unreasonable,不像话,VERB
+不关,not about,不关,VERB
+不再,no longer,不再,ADJ
+不准,not allowed,不准,VERB
+不到,cannot reach,不到,VERB
+不去,not go,不去,VERB
+不可,cannot,不可,AUX
+不可思议,inconceivable (idiom); unimaginable,不可思议,AUX
+不吃,don't eat,不吃,VERB
+不同,different,不同,ADJ
+不在乎,don't care,不在乎,VERB
+不堪,cannot bear,不堪,ADV
+不够,not enough,不够,ADJ
+不太,not very,不太,ADV
+不太好,not very good,不太好,ADV
+不好,not good,不好,ADJ
+不妙,not good,不妙,ADJ
+不妨,there is no harm in,不妨,ADV
+不对劲,not right,不对劲,VERB
+不少,not few,不少,ADJ
+不屑一顾,to disdain as beneath contempt,不屑一顾,ADV
+不幸,unfortunate,不幸,ADJ
+不得,must not,不得,VERB
+不得已,to act against one's will,不得已,AUX
+不怎么,not very,不怎么,ADV
+不怕,not afraid,不怕,VERB
+不惜,not stint,不惜,VERB
+不想,don't want,不想,AUX
+不愧,to be worthy of,不愧,VERB
+不愿,unwilling,不愿,AUX
+不成,won't do,不成,VERB
+不择手段,by fair means or foul,不择手段,VERB
+不敢,dare not,不敢,VERB
+不敢当,lit. I dare not (accept the honor); fig. I don't deserve your praise,不敢当,AUX
+不敢相信,can't believe,不敢相信,AUX
+不料,unexpectedly,不料,VERB
+不时,from time to time,不时,ADJ
+不明,unclear,不明,ADJ
+不是,is not,不是,AUX
+不是故意,not intentional,不是故意,AUX
+不會,will not,不會,AUX
+不来,not come,不来,VERB
+不止,incessantly,不止,VERB
+不爽,unhappy,不爽,ADV
+不用,no need,不用,VERB
+不由得,can't help,不由得,VERB
+不相上下,equally matched,不相上下,VERB
+不知,don't know,不知,ADV
+不禁,can't help (doing sth),不禁,ADV
+不算,not count,不算,VERB
+不管怎样,anyway,不管怎样,ADP
+不肯,refuse,不肯,VERB
+不能,cannot,不能,AUX
+不行,won't do,不行,VERB
+不要,do not,不要,AUX
+不見,not seen,不見,VERB
+不见,not see,不见,ADV
+不言而喻,it goes without saying,不言而喻,VERB
+不让,don't let,不让,ADV
+不许,not allow,不许,ADV
+不许动,don't move,不许动,VERB
+不论,no matter,不论,ADP
+不该,should not,不该,AUX
+不说,not say,不说,VERB
+不起,cannot afford,不起,VERB
+不远,not far,不远,ADJ
+不通,doesn't work,不通,ADV
+不過,but,不過,SCONJ
+不錯,not bad,不錯,ADJ
+不错,not bad,不错,ADJ
+不顾,in spite of,不顾,VERB
+与日俱增,to increase steadily,与日俱增,ADP
+丑恶,ugly,丑恶,ADJ
 专利,patent,专利,NOUN
 专科,specialized subject,专科,NOUN
-专程,special-purpose trip,专程,NOUN
-专长,specialty,专长,NOUN
+专程,special-purpose trip,专程,VERB
+专长,specialty,专长,VERB
 专题,special topic,专题,NOUN
-且,and,且,NOUN
+且,and,且,SCONJ
 世上,in the world,世上,NOUN
 世代,generation,世代,NOUN
 世界观,worldview,世界观,NOUN
 丘陵,hills,丘陵,NOUN
-丛,cluster,丛,NOUN
+丛,cluster,丛,PROPN
 丛林,jungle,丛林,NOUN
-东京,Tokyo,东京,NOUN
-东尼,Tony,东尼,NOUN
-东张西望,to look in all directions (idiom),东张西望,NOUN
+东京,Tokyo,东京,PROPN
+东尼,Tony,东尼,PROPN
+东张西望,to look in all directions (idiom),东张西望,PROPN
 东道主,host,东道主,NOUN
 丝,silk,丝,NOUN
-丢三落四,forgetful,丢三落四,NOUN
-丢下,throw down,丢下,NOUN
-丢人,to lose face,丢人,NOUN
-丢掉,throw away,丢掉,NOUN
-丢脸,lose face,丢脸,NOUN
-两个,two,两个,NOUN
-两人,two people,两人,NOUN
-两位,two (polite),两位,NOUN
-两分钟,two minutes,两分钟,NOUN
-两只,two (animals),两只,NOUN
-两名,two (people),两名,NOUN
-两周,two weeks,两周,NOUN
-两天,two days,两天,NOUN
-两年,two years,两年,NOUN
-两次,twice,两次,NOUN
-两种,two kinds,两种,NOUN
-严厉,severe,严厉,NOUN
-严密,strict,严密,NOUN
-严寒,bitter cold,严寒,NOUN
-严峻,grim,严峻,NOUN
-严禁,strictly prohibit,严禁,NOUN
-丧失,to lose,丧失,NOUN
+丢三落四,forgetful,丢三落四,NUM
+丢下,throw down,丢下,VERB
+丢人,to lose face,丢人,VERB
+丢掉,throw away,丢掉,VERB
+丢脸,lose face,丢脸,VERB
+两个,two,两个,NUM
+两人,two people,两人,NUM
+两位,two (polite),两位,NUM
+两分钟,two minutes,两分钟,NUM
+两只,two (animals),两只,NUM
+两名,two (people),两名,NUM
+两周,two weeks,两周,NUM
+两天,two days,两天,NUM
+两年,two years,两年,NUM
+两次,twice,两次,NUM
+两种,two kinds,两种,NUM
+严厉,severe,严厉,ADJ
+严密,strict,严密,ADJ
+严寒,bitter cold,严寒,ADJ
+严峻,grim,严峻,ADJ
+严禁,strictly prohibit,严禁,VERB
+丧失,to lose,丧失,VERB
 个体,individual,个体,NOUN
-中,middle,中,NOUN
-中圆简,rare character,中圆简,NOUN
+中,middle,中,ADP
+中圆简,rare character,中圆简,PROPN
 中士,sergeant,中士,NOUN
 中央,central,中央,NOUN
 中尉,lieutenant,中尉,NOUN
 中情局,CIA,中情局,NOUN
-中断,to cut short,中断,NOUN
-中有,has,中有,NOUN
-中立,neutral,中立,NOUN
-丰收,bumper harvest,丰收,NOUN
-丰满,ample,丰满,NOUN
-丰盛,rich,丰盛,NOUN
+中断,to cut short,中断,VERB
+中有,has,中有,ADP
+中立,neutral,中立,ADJ
+丰收,bumper harvest,丰收,VERB
+丰满,ample,丰满,ADJ
+丰盛,rich,丰盛,ADJ
 串,to string together,串,NOUN
-临,to face,临,NOUN
+临,to face,临,VERB
 临床,clinical,临床,NOUN
 丸,pill,丸,NOUN
-丹,Dan,丹,NOUN
-丹尼,Danny,丹尼,NOUN
-丹尼尔,Daniel,丹尼尔,NOUN
-丹尼斯,Dennis,丹尼斯,NOUN
-为何,why,为何,NOUN
-为啥,why,为啥,NOUN
-为期,(to be done) by (a certain date),为期,NOUN
-为止,up to,为止,NOUN
-为此,for this,为此,NOUN
-为难,to feel embarrassed or awkward,为难,NOUN
-为首,head,为首,NOUN
-主,lord,主,NOUN
+丹,Dan,丹,PROPN
+丹尼,Danny,丹尼,PROPN
+丹尼尔,Daniel,丹尼尔,PROPN
+丹尼斯,Dennis,丹尼斯,PROPN
+为何,why,为何,ADP
+为啥,why,为啥,ADP
+为期,(to be done) by (a certain date),为期,VERB
+为止,up to,为止,AUX
+为此,for this,为此,ADP
+为难,to feel embarrassed or awkward,为难,ADP
+为首,head,为首,AUX
+主,lord,主,PART
 主任,director,主任,NOUN
-主办,to organize,主办,NOUN
-主导,to lead,主导,NOUN
+主办,to organize,主办,VERB
+主导,to lead,主导,VERB
 主教,bishop,主教,NOUN
 主权,sovereignty,主权,NOUN
 主流,main stream (of a river),主流,NOUN
-主演,lead actor,主演,NOUN
+主演,lead actor,主演,VERB
 主管,in charge,主管,NOUN
 主角,protagonist,主角,NOUN
 主题,theme,主题,NOUN
-丽莎,Lisa,丽莎,NOUN
-举世瞩目,to receive worldwide attention,举世瞩目,NOUN
-举世闻名,(saying) world famous,举世闻名,NOUN
+丽莎,Lisa,丽莎,PROPN
+举世瞩目,to receive worldwide attention,举世瞩目,VERB
+举世闻名,(saying) world famous,举世闻名,PROPN
 举动,act,举动,NOUN
-举起,raise,举起,NOUN
-举足轻重,a foot's move sways the balance (idiom); to hold the balance of power,举足轻重,NOUN
-乃,to be,乃,NOUN
-久等,wait long,久等,NOUN
-么,particle,么,NOUN
-之一,one of,之一,NOUN
+举起,raise,举起,VERB
+举足轻重,a foot's move sways the balance (idiom); to hold the balance of power,举足轻重,VERB
+乃,to be,乃,VERB
+久等,wait long,久等,PROPN
+么,particle,么,PRON
+之一,one of,之一,PART
 之上,above,之上,NOUN
-之下,below,之下,NOUN
+之下,below,之下,ADP
 之中,among,之中,NOUN
 之内,within,之内,NOUN
 之前,before,之前,NOUN
 之后,after,之后,NOUN
-之地,of the place,之地,NOUN
+之地,of the place,之地,PRON
 之外,besides,之外,NOUN
-之所以,the reason why,之所以,NOUN
-之类,and so on,之类,NOUN
-之間,between,之間,NOUN
-之间,between,之间,NOUN
-乌黑,jet-black,乌黑,NOUN
-乐意,to be willing to do sth,乐意,NOUN
+之所以,the reason why,之所以,ADP
+之类,and so on,之类,PART
+之間,between,之間,PART
+之间,between,之间,ADP
+乌黑,jet-black,乌黑,ADJ
+乐意,to be willing to do sth,乐意,PROPN
 乐谱,a musical score,乐谱,NOUN
 乐趣,delight,乐趣,NOUN
 乐队,band,乐队,NOUN
-乔,Joe,乔,NOUN
-乔伊,Joey,乔伊,NOUN
-乔治,George,乔治,NOUN
-乖乖,be good,乖乖,NOUN
-乘务员,attendant on an airplane,乘务员,NOUN
+乔,Joe,乔,PROPN
+乔伊,Joey,乔伊,PROPN
+乔治,George,乔治,PROPN
+乖乖,be good,乖乖,ADJ
+乘务员,attendant on an airplane,乘务员,VERB
 乘客,passenger,乘客,NOUN
 乞丐,beggar,乞丐,NOUN
-也好,also good,也好,NOUN
-也就是说,that is to say,也就是说,NOUN
-也許,perhaps,也許,NOUN
+也好,also good,也好,ADJ
+也就是说,that is to say,也就是说,SCONJ
+也許,perhaps,也許,SCONJ
 习俗,custom,习俗,NOUN
 乡村,countryside,乡村,NOUN
 乡镇,village,乡镇,NOUN
@@ -646,13 +646,13 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 书籍,books,书籍,NOUN
 书记,secretary,书记,NOUN
 书面,in writing,书面,NOUN
-买下,buy,买下,NOUN
-买卖,business,买卖,NOUN
-乱来,act wildly,乱来,NOUN
-予以,to give,予以,NOUN
-争先恐后,striving to be first and fearing to be last (idiom); outdoing one another,争先恐后,NOUN
-争夺,to fight over,争夺,NOUN
-争气,to work hard for sth,争气,NOUN
+买下,buy,买下,VERB
+买卖,business,买卖,VERB
+乱来,act wildly,乱来,VERB
+予以,to give,予以,VERB
+争先恐后,striving to be first and fearing to be last (idiom); outdoing one another,争先恐后,VERB
+争夺,to fight over,争夺,VERB
+争气,to work hard for sth,争气,VERB
 争端,dispute,争端,NOUN
 争议,controversy,争议,NOUN
 事,matter,事,NOUN
@@ -667,40 +667,40 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 事要,matter to,事要,NOUN
 事迹,deed,事迹,NOUN
 事项,matter,事项,NOUN
-二十,twenty,二十,NOUN
-二号,number two,二号,NOUN
+二十,twenty,二十,NUM
+二号,number two,二号,NUM
 二氧化碳,carbon dioxide CO2,二氧化碳,NOUN
-于,in,于,NOUN
-亏待,to treat sb unfairly,亏待,NOUN
-亏损,deficit,亏损,NOUN
-互联网,the Internet,互联网,NOUN
-五个,five,五个,NOUN
-五分钟,five minutes,五分钟,NOUN
-五年,five years,五年,NOUN
-井,a well,井,NOUN
-亚,Asia,亚,NOUN
+于,in,于,VERB
+亏待,to treat sb unfairly,亏待,VERB
+亏损,deficit,亏损,VERB
+互联网,the Internet,互联网,VERB
+五个,five,五个,NUM
+五分钟,five minutes,五分钟,NUM
+五年,five years,五年,NUM
+井,a well,井,PROPN
+亚,Asia,亚,PROPN
 亚军,second place (in a sports contest),亚军,NOUN
-亚历克斯,Alex,亚历克斯,NOUN
-亚当,Adam,亚当,NOUN
-亚瑟,Arthur,亚瑟,NOUN
-交代,to hand over,交代,NOUN
+亚历克斯,Alex,亚历克斯,PROPN
+亚当,Adam,亚当,PROPN
+亚瑟,Arthur,亚瑟,PROPN
+交代,to hand over,交代,VERB
 交叉,to cross,交叉,NOUN
-交往,to associate,交往,NOUN
+交往,to associate,交往,VERB
 交易,(business) transaction,交易,NOUN
-交涉,to negotiate,交涉,NOUN
-交给,hand over to,交给,NOUN
-交谈,converse,交谈,NOUN
-亦,also,亦,NOUN
+交涉,to negotiate,交涉,VERB
+交给,hand over to,交给,VERB
+交谈,converse,交谈,VERB
+亦,also,亦,SCONJ
 产业,industry,产业,NOUN
-亨利,Henry,亨利,NOUN
+亨利,Henry,亨利,PROPN
 亭子,pavilion,亭子,NOUN
-亲,kiss,亲,NOUN
+亲,kiss,亲,ADJ
 亲人,relative,亲人,NOUN
-亲吻,kiss,亲吻,NOUN
-亲密,intimate,亲密,NOUN
-亲手,personally,亲手,NOUN
-亲热,affectionate,亲热,NOUN
-亲身,personal,亲身,NOUN
+亲吻,kiss,亲吻,PART
+亲密,intimate,亲密,ADJ
+亲手,personally,亲手,ADV
+亲热,affectionate,亲热,VERB
+亲身,personal,亲身,ADJ
 人为,artificial,人为,NOUN
 人人,everyone,人人,NOUN
 人们,people,人们,NOUN
@@ -723,14 +723,14 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 人道,human sympathy,人道,NOUN
 人间,the human world,人间,NOUN
 人類,humanity,人類,NOUN
-什,part of what,什,NOUN
-什么样,what kind,什么样,NOUN
-什麼,what,什麼,NOUN
-仁慈,benevolent,仁慈,NOUN
-仅,only,仅,NOUN
-仅仅,only,仅仅,NOUN
-仅供,only for,仅供,NOUN
-仅此而已,that's all,仅此而已,NOUN
+什,part of what,什,PROPN
+什么样,what kind,什么样,PRON
+什麼,what,什麼,PRON
+仁慈,benevolent,仁慈,ADJ
+仅,only,仅,ADV
+仅仅,only,仅仅,ADV
+仅供,only for,仅供,ADV
+仅此而已,that's all,仅此而已,ADV
 仆人,servant,仆人,NOUN
 仇恨,hatred,仇恨,NOUN
 今,today,今,NOUN
@@ -740,299 +740,299 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 今日,today,今日,NOUN
 今早,this morning,今早,NOUN
 今晚,tonight,今晚,NOUN
-介意,to mind,介意,NOUN
-仍,still,仍,NOUN
-仍旧,still (remaining),仍旧,NOUN
-从不,never,从不,NOUN
-从容不迫,calm,从容不迫,NOUN
-从小,from childhood,从小,NOUN
-从未,never,从未,NOUN
-从来不,never,从来不,NOUN
-从没,never,从没,NOUN
-仓促,all of a sudden,仓促,NOUN
+介意,to mind,介意,VERB
+仍,still,仍,ADV
+仍旧,still (remaining),仍旧,ADJ
+从不,never,从不,ADP
+从容不迫,calm,从容不迫,ADV
+从小,from childhood,从小,ADJ
+从未,never,从未,ADP
+从来不,never,从来不,ADV
+从没,never,从没,ADP
+仓促,all of a sudden,仓促,ADJ
 仓库,depot,仓库,NOUN
 仔,careful,仔,NOUN
 他人,others,他人,NOUN
 他们,they,他们,PRON
-他会,he will,他会,NOUN
-他們,they,他們,NOUN
-他妈的,damn,他妈的,NOUN
-他媽,damn,他媽,NOUN
+他会,he will,他会,PRON
+他們,they,他們,PRON
+他妈的,damn,他妈的,PRON
+他媽,damn,他媽,PRON
 他家,his home,他家,NOUN
-他會,he will,他會,NOUN
-他杀,homicide,他杀,NOUN
-他来,he comes,他来,NOUN
-付,to pay,付,NOUN
-付出,to pay,付出,NOUN
-付出代价,pay the price,付出代价,NOUN
-付钱,to pay,付钱,NOUN
+他會,he will,他會,PRON
+他杀,homicide,他杀,PRON
+他来,he comes,他来,PRON
+付,to pay,付,VERB
+付出,to pay,付出,VERB
+付出代价,pay the price,付出代价,VERB
+付钱,to pay,付钱,VERB
 代价,price,代价,NOUN
-代理,to act on behalf of sb in a responsible position,代理,NOUN
+代理,to act on behalf of sb in a responsible position,代理,VERB
 代码,code,代码,NOUN
 令,to make,令,NOUN
-令人,to make one,令人,NOUN
-以上,above,以上,NOUN
-以下,below,以下,NOUN
-以便,so that,以便,NOUN
-以免,in order to avoid,以免,NOUN
-以外,besides,以外,NOUN
+令人,to make one,令人,VERB
+以上,above,以上,DET
+以下,below,以下,DET
+以便,so that,以便,SCONJ
+以免,in order to avoid,以免,SCONJ
+以外,besides,以外,ADP
 以往,in the past,以往,NOUN
-以至,down to,以至,NOUN
-以致,to such an extent as to,以致,NOUN
-以色列,Israel,以色列,NOUN
+以至,down to,以至,VERB
+以致,to such an extent as to,以致,VERB
+以色列,Israel,以色列,PROPN
 仪器,instrument,仪器,NOUN
 仪式,ceremony,仪式,NOUN
 们,plural marker,们,NOUN
 价钱,price,价钱,NOUN
-任,to appoint,任,NOUN
-任何人,anyone,任何人,NOUN
-任命,to appoint and nominate,任命,NOUN
-任性,willful,任性,NOUN
-任意,arbitrary,任意,NOUN
-任重道远,a heavy load and a long road,任重道远,NOUN
-仿宋,FangSong font,仿宋,NOUN
-伊,Yi,伊,NOUN
-伊丽莎白,Elizabeth,伊丽莎白,NOUN
-伊拉克,Iraq,伊拉克,NOUN
-伊甸园,Eden,伊甸园,NOUN
-伊莎贝尔,Isabel,伊莎贝尔,NOUN
-休假,leave,休假,NOUN
-休养,to recuperate,休养,NOUN
+任,to appoint,任,PROPN
+任何人,anyone,任何人,DET
+任命,to appoint and nominate,任命,VERB
+任性,willful,任性,ADJ
+任意,arbitrary,任意,ADJ
+任重道远,a heavy load and a long road,任重道远,ADJ
+仿宋,FangSong font,仿宋,VERB
+伊,Yi,伊,PROPN
+伊丽莎白,Elizabeth,伊丽莎白,PROPN
+伊拉克,Iraq,伊拉克,PROPN
+伊甸园,Eden,伊甸园,PROPN
+伊莎贝尔,Isabel,伊莎贝尔,PROPN
+休假,leave,休假,VERB
+休养,to recuperate,休养,VERB
 众所周知,see 眾所周知|众所周知[zhòng suǒ zhōu zhī],众所周知,NOUN
-优先,priority,优先,NOUN
-优异,exceptional,优异,NOUN
-优胜劣汰,survival of the fittest (idiom),优胜劣汰,NOUN
-优越,superior,优越,NOUN
+优先,priority,优先,VERB
+优异,exceptional,优异,ADJ
+优胜劣汰,survival of the fittest (idiom),优胜劣汰,VERB
+优越,superior,优越,ADJ
 伙,partner,伙,NOUN
 伙计,buddy,伙计,NOUN
 会儿,a while,会儿,NOUN
-会想,will think,会想,NOUN
-会晤,to meet,会晤,NOUN
+会想,will think,会想,AUX
+会晤,to meet,会晤,VERB
 会来,will come,会来,NOUN
-会见,to meet,会见,NOUN
+会见,to meet,会见,VERB
 会长,chairman,会长,NOUN
-会面,meeting,会面,NOUN
-传,to pass,传,NOUN
+会面,meeting,会面,VERB
+传,to pass,传,VERB
 传单,leaflet,传单,NOUN
 传奇,legend,传奇,NOUN
-传授,to impart,传授,NOUN
+传授,to impart,传授,VERB
 传记,biography,传记,NOUN
-传达,to pass on,传达,NOUN
+传达,to pass on,传达,VERB
 伤,to hurt,伤,NOUN
 伤口,wound,伤口,NOUN
 伤害,to hurt,伤害,NOUN
 伤脑筋,knotty,伤脑筋,NOUN
-伦敦,London,伦敦,NOUN
-伪,fake,伪,NOUN
-伪造,to forge,伪造,NOUN
+伦敦,London,伦敦,PROPN
+伪,fake,伪,PART
+伪造,to forge,伪造,VERB
 伯母,wife of father's elder brother,伯母,NOUN
 伯爵,count,伯爵,NOUN
 伴侣,companion,伴侣,NOUN
-伴随,to accompany,伴随,NOUN
-伶俐,clever,伶俐,NOUN
-伸出,reach out,伸出,NOUN
-伺候,to serve,伺候,NOUN
-但,but,但,PART
-但愿,if only,但愿,NOUN
-位于,to be located at,位于,NOUN
+伴随,to accompany,伴随,VERB
+伶俐,clever,伶俐,PROPN
+伸出,reach out,伸出,VERB
+伺候,to serve,伺候,VERB
+但,but,但,SCONJ
+但愿,if only,但愿,SCONJ
+位于,to be located at,位于,VERB
 位子,seat,位子,NOUN
-住口,shut up,住口,NOUN
-住在一起,live together,住在一起,NOUN
+住口,shut up,住口,VERB
+住在一起,live together,住在一起,VERB
 住宅,residence,住宅,NOUN
-住手,stop,住手,NOUN
+住手,stop,住手,VERB
 体内,in the body,体内,NOUN
 体系,system,体系,NOUN
-体谅,to empathize,体谅,NOUN
+体谅,to empathize,体谅,VERB
 体面,dignity,体面,NOUN
-何不,why not,何不,NOUN
-何时,when,何时,NOUN
-佛,Buddha,佛,NOUN
-作,to do,作,NOUN
-作出,to make,作出,NOUN
+何不,why not,何不,PROPN
+何时,when,何时,PRON
+佛,Buddha,佛,PROPN
+作,to do,作,VERB
+作出,to make,作出,VERB
 作家,writer,作家,NOUN
-作废,to become invalid,作废,NOUN
-作弊,to practice fraud,作弊,NOUN
+作废,to become invalid,作废,VERB
+作弊,to practice fraud,作弊,VERB
 作息,work and rest,作息,NOUN
-作战,to fight,作战,NOUN
-作為,as,作為,NOUN
-作证,testify,作证,NOUN
+作战,to fight,作战,VERB
+作為,as,作為,VERB
+作证,testify,作证,VERB
 作风,style,作风,NOUN
 你们,you (plural),你们,PRON
-你们好,hello (plural),你们好,NOUN
-你們,you (plural),你們,NOUN
-你别,don't you,你别,NOUN
-你好,hello,你好,NOUN
-你家,your home,你家,NOUN
-你會,you will,你會,NOUN
-你現,you now,你現,NOUN
-你老,you old,你老,NOUN
+你们好,hello (plural),你们好,PRON
+你們,you (plural),你們,PRON
+你别,don't you,你别,PRON
+你好,hello,你好,PRON
+你家,your home,你家,PRON
+你會,you will,你會,PRON
+你現,you now,你現,PRON
+你老,you old,你老,PRON
 佬,fellow,佬,NOUN
 佳肴,fine food,佳肴,NOUN
 使命,mission (diplomatic or other),使命,NOUN
-使得,to make,使得,NOUN
-來,to come,來,NOUN
-例外,(make an) exception,例外,NOUN
+使得,to make,使得,VERB
+來,to come,來,VERB
+例外,(make an) exception,例外,ADJ
 例子,example,例子,NOUN
-供不应求,supply does not meet demand,供不应求,NOUN
+供不应求,supply does not meet demand,供不应求,VERB
 供给,to furnish,供给,NOUN
-依托,to rely on,依托,NOUN
-依据,according to,依据,NOUN
-依旧,as before,依旧,NOUN
-依次,in order,依次,NOUN
-依赖,to depend on,依赖,NOUN
-依靠,to rely on sth (for support etc),依靠,NOUN
+依托,to rely on,依托,VERB
+依据,according to,依据,ADP
+依旧,as before,依旧,ADJ
+依次,in order,依次,VERB
+依赖,to depend on,依赖,VERB
+依靠,to rely on sth (for support etc),依靠,VERB
 侦探,detective,侦探,NOUN
 侧面,lateral side,侧面,NOUN
-侮辱,to insult,侮辱,NOUN
-侵犯,to infringe on,侵犯,NOUN
-便于,easy to,便于,NOUN
-便利,convenient,便利,NOUN
-便是,that is,便是,NOUN
-便条,(informal) note,便条,NOUN
+侮辱,to insult,侮辱,VERB
+侵犯,to infringe on,侵犯,VERB
+便于,easy to,便于,VERB
+便利,convenient,便利,ADJ
+便是,that is,便是,VERB
+便条,(informal) note,便条,VERB
 係,particle,係,NOUN
-俄国,Russia,俄国,NOUN
-俄国人,Russian,俄国人,NOUN
-俄罗斯,Russia,俄罗斯,NOUN
-俗话,common saying,俗话,NOUN
-俘虏,captive,俘虏,NOUN
-保住,keep,保住,NOUN
-保佑,bless,保佑,NOUN
-保养,to take good care of (or conserve) one's health,保养,NOUN
-保卫,to defend,保卫,NOUN
+俄国,Russia,俄国,PROPN
+俄国人,Russian,俄国人,PROPN
+俄罗斯,Russia,俄罗斯,PROPN
+俗话,common saying,俗话,PROPN
+俘虏,captive,俘虏,VERB
+保住,keep,保住,VERB
+保佑,bless,保佑,PROPN
+保养,to take good care of (or conserve) one's health,保养,VERB
+保卫,to defend,保卫,VERB
 保姆,nanny,保姆,NOUN
-保守,(politically) conservative,保守,NOUN
+保守,(politically) conservative,保守,ADJ
 保安,security,保安,NOUN
-保密,to keep sth confidential,保密,NOUN
-保管,to assure,保管,NOUN
-保罗,Paul,保罗,NOUN
-保證,guarantee,保證,NOUN
-保護,protect,保護,NOUN
-保重,to take care of oneself,保重,NOUN
+保密,to keep sth confidential,保密,VERB
+保管,to assure,保管,VERB
+保罗,Paul,保罗,PROPN
+保證,guarantee,保證,VERB
+保護,protect,保護,VERB
+保重,to take care of oneself,保重,VERB
 保险箱,safe,保险箱,NOUN
-保障,to ensure,保障,NOUN
+保障,to ensure,保障,VERB
 信仰,to believe in (a religion),信仰,NOUN
 信念,faith,信念,NOUN
 信誉,prestige,信誉,NOUN
-信赖,to trust,信赖,NOUN
-修复,to restore,修复,NOUN
+信赖,to trust,信赖,VERB
+修复,to restore,修复,VERB
 修女,nun,修女,NOUN
-修好,to fix,修好,NOUN
-修建,to build,修建,NOUN
-修理,to repair,修理,NOUN
-俯仰,lowering and raising of the head,俯仰,NOUN
-倆,both,倆,NOUN
-個,measure word,個,NOUN
-們,plural marker,們,NOUN
-倒下,fall down,倒下,NOUN
-倒闭,to go bankrupt,倒闭,NOUN
-倘若,provided that,倘若,NOUN
-候选,candidate,候选,NOUN
-候选人,candidate,候选人,NOUN
-借助,to draw support from,借助,NOUN
-借鉴,to use other people's experience,借鉴,NOUN
-倡导,to advocate,倡导,NOUN
+修好,to fix,修好,VERB
+修建,to build,修建,VERB
+修理,to repair,修理,VERB
+俯仰,lowering and raising of the head,俯仰,VERB
+倆,both,倆,PROPN
+個,measure word,個,PROPN
+們,plural marker,們,PROPN
+倒下,fall down,倒下,VERB
+倒闭,to go bankrupt,倒闭,VERB
+倘若,provided that,倘若,ADP
+候选,candidate,候选,VERB
+候选人,candidate,候选人,VERB
+借助,to draw support from,借助,VERB
+借鉴,to use other people's experience,借鉴,VERB
+倡导,to advocate,倡导,VERB
 倡议,to suggest,倡议,NOUN
 债券,bond,债券,NOUN
 值,value,值,NOUN
-值班,to work a shift,值班,NOUN
+值班,to work a shift,值班,VERB
 倾向,trend,倾向,NOUN
-倾听,to listen attentively,倾听,NOUN
-倾斜,to incline,倾斜,NOUN
-假使,if,假使,NOUN
+倾听,to listen attentively,倾听,VERB
+倾斜,to incline,倾斜,VERB
+假使,if,假使,ADP
 假期,vacation,假期,NOUN
-假设,suppose that...,假设,NOUN
-偏偏,sth turns out just the opposite of what one would expect,偏偏,NOUN
-偏僻,remote,偏僻,NOUN
+假设,suppose that...,假设,VERB
+偏偏,sth turns out just the opposite of what one would expect,偏偏,ADV
+偏僻,remote,偏僻,ADJ
 偏差,bias,偏差,NOUN
-偏见,prejudice,偏见,NOUN
-做不了,cannot do,做不了,NOUN
-做东,to act as host,做东,NOUN
-做个,be a,做个,NOUN
-做主,make the decision,做主,NOUN
-做事,to work,做事,NOUN
-做些,do some,做些,NOUN
-做出,to make,做出,NOUN
-做到,to achieve,做到,NOUN
-做好,to do well,做好,NOUN
-做得好,well done,做得好,NOUN
-做成,to make,做成,NOUN
-做梦,to dream,做梦,NOUN
+偏见,prejudice,偏见,ADV
+做不了,cannot do,做不了,VERB
+做东,to act as host,做东,VERB
+做个,be a,做个,VERB
+做主,make the decision,做主,VERB
+做事,to work,做事,VERB
+做些,do some,做些,VERB
+做出,to make,做出,VERB
+做到,to achieve,做到,VERB
+做好,to do well,做好,VERB
+做得好,well done,做得好,VERB
+做成,to make,做成,VERB
+做梦,to dream,做梦,VERB
 做法,practice,做法,NOUN
-做点,do some,做点,NOUN
-做爱,to make love,做爱,NOUN
-做过,have done,做过,NOUN
-做饭,cook,做饭,NOUN
-停,to stop,停,NOUN
-停下,to stop,停下,NOUN
-停下来,to stop,停下来,NOUN
-停手,stop,停手,NOUN
-停泊,to anchor,停泊,NOUN
-停滞,stagnation,停滞,NOUN
-停留,stay,停留,NOUN
-停车,to park,停车,NOUN
-停车场,parking lot,停车场,NOUN
-停顿,to halt,停顿,NOUN
-健全,robust,健全,NOUN
+做点,do some,做点,VERB
+做爱,to make love,做爱,VERB
+做过,have done,做过,VERB
+做饭,cook,做饭,VERB
+停,to stop,停,VERB
+停下,to stop,停下,VERB
+停下来,to stop,停下来,VERB
+停手,stop,停手,VERB
+停泊,to anchor,停泊,VERB
+停滞,stagnation,停滞,VERB
+停留,stay,停留,VERB
+停车,to park,停车,VERB
+停车场,parking lot,停车场,VERB
+停顿,to halt,停顿,VERB
+健全,robust,健全,ADJ
 偶像,idol,偶像,NOUN
-偷,to steal,偷,NOUN
-偷偷,secretly,偷偷,NOUN
-偷走,steal away,偷走,NOUN
-偿还,to repay,偿还,NOUN
-傢,fellow,傢,NOUN
+偷,to steal,偷,VERB
+偷偷,secretly,偷偷,VERB
+偷走,steal away,偷走,VERB
+偿还,to repay,偿还,VERB
+傢,fellow,傢,PROPN
 储备,reserves,储备,NOUN
-储存,stockpile,储存,NOUN
-储蓄,to deposit money,储蓄,NOUN
+储存,stockpile,储存,VERB
+储蓄,to deposit money,储蓄,VERB
 傷害,harm,傷害,NOUN
 傻子,fool,傻子,NOUN
 傻瓜,fool,傻瓜,NOUN
-像是,seems like,像是,NOUN
+像是,seems like,像是,VERB
 僵尸,zombie,僵尸,NOUN
-僵硬,stiff,僵硬,NOUN
+僵硬,stiff,僵硬,ADJ
 儿,son,儿,NOUN
 元宵节,Lantern Festival,元宵节,NOUN
 元素,element,元素,NOUN
 元首,head of state,元首,NOUN
-充实,rich,充实,NOUN
-充当,to serve as,充当,NOUN
-充沛,abundant,充沛,NOUN
-充足,adequate,充足,NOUN
+充实,rich,充实,ADJ
+充当,to serve as,充当,VERB
+充沛,abundant,充沛,ADJ
+充足,adequate,充足,ADJ
 先前,before,先前,NOUN
-先进,advanced (technology),先进,NOUN
+先进,advanced (technology),先进,ADJ
 光彩,luster,光彩,NOUN
 光芒,rays of light,光芒,NOUN
-光辉,radiance,光辉,NOUN
-克拉,carat,克拉,NOUN
-克拉克,Clark,克拉克,NOUN
-克斯,x (suffix),克斯,NOUN
-克莱尔,Claire,克莱尔,NOUN
-克里斯,Chris,克里斯,NOUN
-免得,so as not to,免得,NOUN
-免疫,immunity (to disease),免疫,NOUN
-兑换,to convert,兑换,NOUN
-兑现,(of a cheque etc) to cash,兑现,NOUN
+光辉,radiance,光辉,PROPN
+克拉,carat,克拉,PROPN
+克拉克,Clark,克拉克,PROPN
+克斯,x (suffix),克斯,PROPN
+克莱尔,Claire,克莱尔,PROPN
+克里斯,Chris,克里斯,PROPN
+免得,so as not to,免得,VERB
+免疫,immunity (to disease),免疫,VERB
+兑换,to convert,兑换,VERB
+兑现,(of a cheque etc) to cash,兑现,VERB
 兒,child,兒,NOUN
 兒子,son,兒子,NOUN
 党,party,党,NOUN
-兜,pocket,兜,NOUN
-兢兢业业,cautious and conscientious,兢兢业业,NOUN
-入侵,invasion,入侵,NOUN
+兜,pocket,兜,PROPN
+兢兢业业,cautious and conscientious,兢兢业业,ADJ
+入侵,invasion,入侵,VERB
 內,inside,內,NOUN
-全,all,全,NOUN
-全世界,whole world,全世界,NOUN
-全体,all,全体,NOUN
+全,all,全,DET
+全世界,whole world,全世界,DET
+全体,all,全体,DET
 全力,all out,全力,NOUN
-全力以赴,to do at all costs,全力以赴,NOUN
+全力以赴,to do at all costs,全力以赴,ADV
 全国,nationwide,全国,NOUN
 全家,whole family,全家,NOUN
 全局,overall situation,全局,NOUN
-全新,brand new,全新,NOUN
-全是,all are,全是,NOUN
+全新,brand new,全新,ADJ
+全是,all are,全是,NUM
 全球,global,全球,NOUN
 全身,whole body,全身,NOUN
-全都,all,全都,NOUN
-兩,two,兩,NOUN
-兩個,two,兩個,NOUN
-八个,eight,八个,NOUN
+全都,all,全都,DET
+兩,two,兩,NUM
+兩個,two,兩個,NUM
+八个,eight,八个,NUM
 公众,public,公众,NOUN
 公关,public relations,公关,NOUN
 公务,official business,公务,NOUN
@@ -1040,482 +1040,482 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 公婆,husband's parents,公婆,NOUN
 公安局,public security bureau,公安局,NOUN
 公式,formula,公式,NOUN
-公正,just,公正,NOUN
+公正,just,公正,ADJ
 公民,citizen,公民,NOUN
-公然,openly,公然,NOUN
+公然,openly,公然,ADJ
 公爵,duke,公爵,NOUN
-公认,publicly known (to be),公认,NOUN
+公认,publicly known (to be),公认,VERB
 公证,notarization,公证,NOUN
 公路,highway,公路,NOUN
 公道,fair,公道,NOUN
-六个,six,六个,NOUN
-六个月,six months,六个月,NOUN
-兰,Lan,兰,NOUN
-共,together,共,NOUN
+六个,six,六个,NUM
+六个月,six months,六个月,NUM
+兰,Lan,兰,PROPN
+共,together,共,ADV
 共和国,republic,共和国,NOUN
-共计,to sum up to,共计,NOUN
-共鸣,resonance (physics),共鸣,NOUN
-关上,close,关上,NOUN
-关掉,to turn off,关掉,NOUN
-关注,to follow,关注,NOUN
-关照,to take care,关照,NOUN
-关门,close door,关门,NOUN
-兴旺,prosperous,兴旺,NOUN
-兴致勃勃,to become exhilarated (idiom); in high spirits,兴致勃勃,NOUN
-兴隆,prosperous,兴隆,NOUN
-兴高采烈,happy and excited (idiom); in high spirits,兴高采烈,NOUN
+共计,to sum up to,共计,VERB
+共鸣,resonance (physics),共鸣,VERB
+关上,close,关上,VERB
+关掉,to turn off,关掉,VERB
+关注,to follow,关注,VERB
+关照,to take care,关照,VERB
+关门,close door,关门,VERB
+兴旺,prosperous,兴旺,ADJ
+兴致勃勃,to become exhilarated (idiom); in high spirits,兴致勃勃,VERB
+兴隆,prosperous,兴隆,PROPN
+兴高采烈,happy and excited (idiom); in high spirits,兴高采烈,PROPN
 兵,soldier,兵,NOUN
-其,its,其,NOUN
-其他人,others,其他人,NOUN
-其它,other,其它,NOUN
-其實,actually,其實,NOUN
-具有,to have,具有,NOUN
+其,its,其,PRON
+其他人,others,其他人,DET
+其它,other,其它,DET
+其實,actually,其實,ADV
+具有,to have,具有,VERB
 典型,model,典型,NOUN
 典礼,celebration,典礼,NOUN
-兹,Zi,兹,NOUN
-养,to raise,养,NOUN
-兼职,to hold concurrent posts,兼职,NOUN
-内在,intrinsic,内在,NOUN
+兹,Zi,兹,PROPN
+养,to raise,养,VERB
+兼职,to hold concurrent posts,兼职,VERB
+内在,intrinsic,内在,VERB
 内幕,inside story,内幕,NOUN
 内心,inner heart,内心,NOUN
 内涵,meaning,内涵,NOUN
 内衣,underwear,内衣,NOUN
 内裤,underwear,内裤,NOUN
 内部,internal,内部,NOUN
-再也,no longer,再也,NOUN
-再也不会,never again,再也不会,NOUN
-再接再厉,to continue the struggle (idiom); to persist,再接再厉,NOUN
-再有,have again,再有,NOUN
-再来,come again,再来,NOUN
-再次,once more,再次,NOUN
-再見,goodbye,再見,NOUN
-再说,besides,再说,NOUN
-冒,to emit,冒,NOUN
-冒充,to feign,冒充,NOUN
-冒犯,to offend,冒犯,NOUN
+再也,no longer,再也,ADV
+再也不会,never again,再也不会,ADV
+再接再厉,to continue the struggle (idiom); to persist,再接再厉,ADV
+再有,have again,再有,ADV
+再来,come again,再来,VERB
+再次,once more,再次,ADV
+再見,goodbye,再見,ADV
+再说,besides,再说,ADV
+冒,to emit,冒,VERB
+冒充,to feign,冒充,VERB
+冒犯,to offend,冒犯,VERB
 写作,writing,写作,NOUN
-写信,write letter,写信,NOUN
+写信,write letter,写信,VERB
 军,army,军,NOUN
 军人,soldier,军人,NOUN
 军官,officer,军官,NOUN
 军队,army troops,军队,NOUN
 农历,the traditional Chinese calendar,农历,NOUN
 农场,farm,农场,NOUN
-冤枉,hatred,冤枉,NOUN
+冤枉,hatred,冤枉,VERB
 冬天,winter,冬天,NOUN
 冰,ice,冰,NOUN
-冰淇淋,ice cream,冰淇淋,NOUN
+冰淇淋,ice cream,冰淇淋,PROPN
 冰雹,hail,冰雹,NOUN
-冲击,an attack,冲击,NOUN
-冲动,to have an urge,冲动,NOUN
+冲击,an attack,冲击,VERB
+冲动,to have an urge,冲动,VERB
 冲突,conflict,冲突,NOUN
 决策,strategic decision,决策,NOUN
-况且,moreover,况且,NOUN
-冷却,to cool off,冷却,NOUN
-冷淡,cold,冷淡,NOUN
-冷酷,grim,冷酷,NOUN
-冷静下来,calm down,冷静下来,NOUN
-冻结,to freeze (loan,冻结,NOUN
-凄凉,desolate,凄凉,NOUN
+况且,moreover,况且,VERB
+冷却,to cool off,冷却,VERB
+冷淡,cold,冷淡,ADJ
+冷酷,grim,冷酷,ADJ
+冷静下来,calm down,冷静下来,ADJ
+冻结,to freeze (loan,冻结,VERB
+凄凉,desolate,凄凉,ADJ
 准则,norm,准则,NOUN
 凌晨,very early in the morning,凌晨,NOUN
-凑合,to bring together,凑合,NOUN
-凝固,to freeze,凝固,NOUN
-凝聚,to condense,凝聚,NOUN
-凝视,to gaze at,凝视,NOUN
-几个,a few,几个,NOUN
-几分钟,a few minutes,几分钟,NOUN
-几句,a few sentences,几句,NOUN
-几周,a few weeks,几周,NOUN
-几天,a few days,几天,NOUN
-几年,a few years,几年,NOUN
-几次,a few times,几次,NOUN
-几点,what time,几点,NOUN
-凯尔,Kyle,凯尔,NOUN
-凯文,Kevin,凯文,NOUN
-凯特,Kate,凯特,NOUN
-凯瑟琳,Katherine,凯瑟琳,NOUN
-凯蒂,Katie,凯蒂,NOUN
-凯西,Cathy,凯西,NOUN
-凶恶,fierce / vicious,凶恶,NOUN
-凶手,murderer,凶手,NOUN
-凹凸,bumpy,凹凸,NOUN
-出事,accident,出事,NOUN
-出于,out of,出于,NOUN
-出來,come out,出來,NOUN
-出卖,to offer for sale,出卖,NOUN
-出去,to go out,出去,NOUN
-出名,famous,出名,NOUN
-出售,for sale,出售,NOUN
-出局,out,出局,NOUN
-出息,future prospects,出息,NOUN
-出手,take action,出手,NOUN
-出来,to come out,出来,NOUN
-出洋相,to make a fool of oneself,出洋相,NOUN
-出現,to appear,出現,NOUN
-出神,entranced,出神,NOUN
-出路,a way out (of a difficulty etc),出路,NOUN
-出身,to be born of,出身,NOUN
-出门,go out,出门,NOUN
-击中,to hit,击中,NOUN
-击败,defeat,击败,NOUN
-分享,to share,分享,NOUN
+凑合,to bring together,凑合,VERB
+凝固,to freeze,凝固,VERB
+凝聚,to condense,凝聚,VERB
+凝视,to gaze at,凝视,VERB
+几个,a few,几个,NUM
+几分钟,a few minutes,几分钟,NUM
+几句,a few sentences,几句,NUM
+几周,a few weeks,几周,NUM
+几天,a few days,几天,NUM
+几年,a few years,几年,NUM
+几次,a few times,几次,NUM
+几点,what time,几点,NUM
+凯尔,Kyle,凯尔,PROPN
+凯文,Kevin,凯文,PROPN
+凯特,Kate,凯特,PROPN
+凯瑟琳,Katherine,凯瑟琳,PROPN
+凯蒂,Katie,凯蒂,PROPN
+凯西,Cathy,凯西,PROPN
+凶恶,fierce / vicious,凶恶,ADJ
+凶手,murderer,凶手,ADJ
+凹凸,bumpy,凹凸,ADJ
+出事,accident,出事,VERB
+出于,out of,出于,VERB
+出來,come out,出來,VERB
+出卖,to offer for sale,出卖,VERB
+出去,to go out,出去,VERB
+出名,famous,出名,VERB
+出售,for sale,出售,VERB
+出局,out,出局,VERB
+出息,future prospects,出息,VERB
+出手,take action,出手,VERB
+出来,to come out,出来,VERB
+出洋相,to make a fool of oneself,出洋相,VERB
+出現,to appear,出現,VERB
+出神,entranced,出神,VERB
+出路,a way out (of a difficulty etc),出路,VERB
+出身,to be born of,出身,VERB
+出门,go out,出门,VERB
+击中,to hit,击中,VERB
+击败,defeat,击败,VERB
+分享,to share,分享,VERB
 分子,molecule,分子,NOUN
 分寸,propriety,分寸,NOUN
-分开,to separate,分开,NOUN
-分手,to split up,分手,NOUN
-分散,to scatter,分散,NOUN
-分明,clearly demarcated,分明,NOUN
+分开,to separate,分开,VERB
+分手,to split up,分手,VERB
+分散,to scatter,分散,VERB
+分明,clearly demarcated,分明,ADJ
 分歧,difference (of opinion,分歧,NOUN
 分泌,to secrete,分泌,NOUN
-分离,separate,分离,NOUN
-分红,a bonus,分红,NOUN
-分裂,to split up,分裂,NOUN
-分解,to resolve,分解,NOUN
-分辨,to distinguish,分辨,NOUN
+分离,separate,分离,VERB
+分红,a bonus,分红,VERB
+分裂,to split up,分裂,VERB
+分解,to resolve,分解,VERB
+分辨,to distinguish,分辨,VERB
 分量,quantity,分量,NOUN
-切实,feasible,切实,NOUN
-切断,to cut off,切断,NOUN
+切实,feasible,切实,ADJ
+切断,to cut off,切断,VERB
 刊物,publication,刊物,NOUN
-刊登,to carry a story,刊登,NOUN
+刊登,to carry a story,刊登,VERB
 刑事,criminal,刑事,NOUN
-划分,to divide,划分,NOUN
-列举,a list,列举,NOUN
+划分,to divide,划分,VERB
+列举,a list,列举,VERB
 列车,train,列车,NOUN
-刚,just now,刚,NOUN
-刚好,just right,刚好,NOUN
-创业,to begin an undertaking,创业,NOUN
-创作,to create,创作,NOUN
-创新,innovation,创新,NOUN
-创立,to establish,创立,NOUN
-初,beginning,初,NOUN
-初步,initial,初步,NOUN
+刚,just now,刚,ADV
+刚好,just right,刚好,ADV
+创业,to begin an undertaking,创业,VERB
+创作,to create,创作,VERB
+创新,innovation,创新,VERB
+创立,to establish,创立,VERB
+初,beginning,初,NUM
+初步,initial,初步,ADJ
 判决,judgment (by a court of law),判决,NOUN
-別,don't,別,NOUN
-別人,others,別人,NOUN
-利,benefit,利,NOUN
-利亚,Liya,利亚,NOUN
-利害,pros and cons,利害,NOUN
+別,don't,別,ADJ
+別人,others,別人,PRON
+利,benefit,利,PROPN
+利亚,Liya,利亚,PROPN
+利害,pros and cons,利害,VERB
 利率,interest rates,利率,NOUN
 别动,don't move,别动,NOUN
-别吵,be quiet,别吵,NOUN
-别哭,don't cry,别哭,NOUN
+别吵,be quiet,别吵,VERB
+别哭,don't cry,别哭,VERB
 别墅,villa,别墅,NOUN
-别忘了,don't forget,别忘了,NOUN
-别怕,don't fear,别怕,NOUN
-别想,don't think,别想,NOUN
-别扭,awkward,别扭,NOUN
-别提,don't mention,别提,NOUN
-别无选择,no choice,别无选择,NOUN
-别的,other,别的,NOUN
-别看,don't look,别看,NOUN
-别碰,don't touch,别碰,NOUN
-别管,never mind,别管,NOUN
-别致,unique / elegant,别致,NOUN
-别说,let alone,别说,NOUN
-别跟我,don't with me,别跟我,NOUN
-别闹,stop messing,别闹,NOUN
-到时候,when the time comes,到时候,NOUN
-到来,arrival,到来,NOUN
-到此为止,that's it,到此为止,NOUN
+别忘了,don't forget,别忘了,VERB
+别怕,don't fear,别怕,ADV
+别想,don't think,别想,VERB
+别扭,awkward,别扭,ADJ
+别提,don't mention,别提,VERB
+别无选择,no choice,别无选择,VERB
+别的,other,别的,VERB
+别看,don't look,别看,VERB
+别碰,don't touch,别碰,ADV
+别管,never mind,别管,VERB
+别致,unique / elegant,别致,ADJ
+别说,let alone,别说,VERB
+别跟我,don't with me,别跟我,ADV
+别闹,stop messing,别闹,VERB
+到时候,when the time comes,到时候,VERB
+到来,arrival,到来,VERB
+到此为止,that's it,到此为止,ADP
 制服,to subdue,制服,NOUN
-制止,to curb,制止,NOUN
-制约,to restrict,制约,NOUN
+制止,to curb,制止,VERB
+制约,to restrict,制约,VERB
 制裁,to punish,制裁,NOUN
-制订,to work out,制订,NOUN
-刹车,to brake (when driving),刹车,NOUN
+制订,to work out,制订,VERB
+刹车,to brake (when driving),刹车,VERB
 刹那,an instant (Sanskrit: ksana),刹那,NOUN
 刺,thorn,刺,NOUN
-刻不容缓,to brook no delay,刻不容缓,NOUN
-削弱,to weaken,削弱,NOUN
-前,front,前,PART
-前往,to head for,前往,NOUN
+刻不容缓,to brook no delay,刻不容缓,ADV
+削弱,to weaken,削弱,VERB
+前,front,前,NOUN
+前往,to head for,前往,VERB
 前提,premise,前提,NOUN
 前景,foreground,前景,NOUN
-前来,come forward,前来,NOUN
+前来,come forward,前来,VERB
 前辈,senior,前辈,NOUN
-前进,to advance,前进,NOUN
+前进,to advance,前进,VERB
 剑,sword,剑,NOUN
-剛剛,just now,剛剛,NOUN
-剛才,just now,剛才,NOUN
-剥削,to exploit,剥削,NOUN
+剛剛,just now,剛剛,PROPN
+剛才,just now,剛才,PROPN
+剥削,to exploit,剥削,VERB
 剧本,script for play,剧本,NOUN
-剧烈,violent,剧烈,NOUN
+剧烈,violent,剧烈,ADJ
 剧院,theater,剧院,NOUN
-剩下,remaining,剩下,NOUN
-剪,to cut,剪,NOUN
-剪彩,to cut the ribbon (at a launching or opening ceremony),剪彩,NOUN
-副,secondary,副,NOUN
-副作用,side effect,副作用,NOUN
-割,to cut,割,NOUN
-劈,to hack,劈,NOUN
+剩下,remaining,剩下,VERB
+剪,to cut,剪,VERB
+剪彩,to cut the ribbon (at a launching or opening ceremony),剪彩,VERB
+副,secondary,副,PART
+副作用,side effect,副作用,PART
+割,to cut,割,VERB
+劈,to hack,劈,VERB
 力,power,力,NOUN
-力争,to work hard for,力争,NOUN
+力争,to work hard for,力争,VERB
 力图,to try hard to,力图,NOUN
 力所能及,as far as one's capabilities extend (idiom); to the best of one's ability,力所能及,NOUN
-办,to handle,办,NOUN
-办不到,cannot do,办不到,NOUN
-办事,handle affairs,办事,NOUN
+办,to handle,办,VERB
+办不到,cannot do,办不到,VERB
+办事,handle affairs,办事,VERB
 功劳,contribution,功劳,NOUN
 功效,efficacy,功效,NOUN
 功课,homework,功课,NOUN
-加,to add,加,NOUN
-加上,plus,加上,NOUN
-加入,to join,加入,NOUN
-加剧,to intensify,加剧,NOUN
-加州,California,加州,NOUN
-加工,to process,加工,NOUN
-加拿大,Canada,加拿大,NOUN
-加油,come on,加油,NOUN
-加速,accelerate,加速,NOUN
-务实,pragmatic,务实,NOUN
-务必,must,务必,NOUN
-动,to move,动,NOUN
+加,to add,加,VERB
+加上,plus,加上,VERB
+加入,to join,加入,VERB
+加剧,to intensify,加剧,VERB
+加州,California,加州,PROPN
+加工,to process,加工,VERB
+加拿大,Canada,加拿大,PROPN
+加油,come on,加油,VERB
+加速,accelerate,加速,VERB
+务实,pragmatic,务实,ADJ
+务必,must,务必,ADJ
+动,to move,动,VERB
 动力,power,动力,NOUN
-动员,to mobilize,动员,NOUN
+动员,to mobilize,动员,VERB
 动态,development,动态,NOUN
-动手,to set about (a task),动手,NOUN
+动手,to set about (a task),动手,VERB
 动机,motor,动机,NOUN
 动脉,artery,动脉,NOUN
-动荡,unrest (social or political),动荡,NOUN
-动身,to go on a journey,动身,NOUN
-动静,sound of activity or people talking,动静,NOUN
+动荡,unrest (social or political),动荡,ADJ
+动身,to go on a journey,动身,VERB
+动静,sound of activity or people talking,动静,VERB
 助手,assistant,助手,NOUN
 助理,assistant,助理,NOUN
 劲头,enthusiasm,劲头,NOUN
-劳拉,Laura,劳拉,NOUN
+劳拉,Laura,劳拉,PROPN
 势力,power,势力,NOUN
-势必,to be bound to,势必,NOUN
-勇于,to dare to,勇于,NOUN
+势必,to be bound to,势必,VERB
+勇于,to dare to,勇于,PROPN
 勇士,warrior,勇士,NOUN
-勉励,to encourage,勉励,NOUN
-勉强,to do with difficulty,勉强,NOUN
-勒,to force,勒,NOUN
-勘探,exploration,勘探,NOUN
-勤俭,hardworking and frugal,勤俭,NOUN
-勤恳,diligent and attentive,勤恳,NOUN
-勾结,to collude with,勾结,NOUN
-勿,do not,勿,NOUN
-包围,to surround,包围,NOUN
-包庇,to shield,包庇,NOUN
+勉励,to encourage,勉励,VERB
+勉强,to do with difficulty,勉强,PROPN
+勒,to force,勒,PROPN
+勘探,exploration,勘探,VERB
+勤俭,hardworking and frugal,勤俭,VERB
+勤恳,diligent and attentive,勤恳,ADJ
+勾结,to collude with,勾结,VERB
+勿,do not,勿,VERB
+包围,to surround,包围,VERB
+包庇,to shield,包庇,VERB
 包袱,cloth-wrapper,包袱,NOUN
-包装,to pack,包装,NOUN
-化妆,to put on makeup,化妆,NOUN
+包装,to pack,包装,VERB
+化妆,to put on makeup,化妆,VERB
 化石,fossil,化石,NOUN
 化肥,fertilizer,化肥,NOUN
 化验,laboratory test,化验,NOUN
-北极,the North Pole,北极,NOUN
+北极,the North Pole,北极,PROPN
 匪徒,gangster,匪徒,NOUN
 区,area,区,NOUN
-区分,to differentiate,区分,NOUN
+区分,to differentiate,区分,VERB
 区域,area,区域,NOUN
 医疗,medical,医疗,NOUN
-十分钟,ten minutes,十分钟,NOUN
+十分钟,ten minutes,十分钟,ADV
 十字架,cross,十字架,NOUN
-十年,ten years,十年,NOUN
-十足,ample,十足,NOUN
-千万别,by no means,千万别,NOUN
-千方百计,lit. thousand ways,千方百计,NOUN
+十年,ten years,十年,NUM
+十足,ample,十足,NUM
+千万别,by no means,千万别,NUM
+千方百计,lit. thousand ways,千方百计,VERB
 午夜,midnight,午夜,NOUN
-午餐,lunch,午餐,NOUN
+午餐,lunch,午餐,PROPN
 午饭,lunch,午饭,NOUN
-半个,half,半个,NOUN
-半夜,midnight,半夜,NOUN
-半小时,half hour,半小时,NOUN
-半途而废,to give up halfway (idiom); leave sth unfinished,半途而废,NOUN
-华丽,gorgeous,华丽,NOUN
-华侨,overseas Chinese,华侨,NOUN
-华文,Chinese language,华文,NOUN
-华盛顿,Washington,华盛顿,NOUN
+半个,half,半个,NUM
+半夜,midnight,半夜,NUM
+半小时,half hour,半小时,NUM
+半途而废,to give up halfway (idiom); leave sth unfinished,半途而废,VERB
+华丽,gorgeous,华丽,PROPN
+华侨,overseas Chinese,华侨,PROPN
+华文,Chinese language,华文,PROPN
+华盛顿,Washington,华盛顿,PROPN
 协会,an association,协会,NOUN
 协助,to provide assistance,协助,NOUN
-协商,to consult with,协商,NOUN
+协商,to consult with,协商,VERB
 协议,agreement,协议,NOUN
-卑鄙,base,卑鄙,NOUN
-卓越,outstanding,卓越,NOUN
-单,single,单,NOUN
-单身,single,单身,NOUN
-卖掉,to sell,卖掉,NOUN
+卑鄙,base,卑鄙,ADJ
+卓越,outstanding,卓越,ADJ
+单,single,单,NUM
+单身,single,单身,NUM
+卖掉,to sell,卖掉,VERB
 南方,south,南方,NOUN
 南部,southern,南部,NOUN
-博大精深,wide-ranging and profound,博大精深,NOUN
-博览会,exposition,博览会,NOUN
-占,to occupy,占,NOUN
-占据,to occupy,占据,NOUN
-占有,to have,占有,NOUN
-占领,to occupy (a territory),占领,NOUN
-卡,card,卡,NOUN
-卡住,stuck,卡住,NOUN
-卡尔,Carl,卡尔,NOUN
-卡拉,Cara,卡拉,NOUN
-卡特,Carter,卡特,NOUN
-卡通,cartoon,卡通,NOUN
-卢,Lu,卢,NOUN
+博大精深,wide-ranging and profound,博大精深,ADJ
+博览会,exposition,博览会,VERB
+占,to occupy,占,VERB
+占据,to occupy,占据,VERB
+占有,to have,占有,VERB
+占领,to occupy (a territory),占领,VERB
+卡,card,卡,PROPN
+卡住,stuck,卡住,VERB
+卡尔,Carl,卡尔,PROPN
+卡拉,Cara,卡拉,PROPN
+卡特,Carter,卡特,PROPN
+卡通,cartoon,卡通,PROPN
+卢,Lu,卢,PROPN
 卧底,undercover,卧底,NOUN
 卫星,(space) satellite,卫星,NOUN
-印刷,print,印刷,NOUN
-印度,India,印度,NOUN
+印刷,print,印刷,VERB
+印度,India,印度,PROPN
 危机,crisis,危机,NOUN
-危險,danger,危險,NOUN
-即,that is,即,NOUN
-即便,even if,即便,NOUN
-即将,on the eve of,即将,NOUN
-却是,however,却是,NOUN
-卻,but,卻,NOUN
+危險,danger,危險,ADJ
+即,that is,即,SCONJ
+即便,even if,即便,SCONJ
+即将,on the eve of,即将,ADV
+却是,however,却是,SCONJ
+卻,but,卻,SCONJ
 历代,successive generations,历代,NOUN
 历来,always,历来,NOUN
-压制,to suppress,压制,NOUN
-压岁钱,money given to children as new year present,压岁钱,NOUN
-压抑,to constrain or repress emotions,压抑,NOUN
-压榨,to press,压榨,NOUN
-压缩,to compress,压缩,NOUN
-压迫,to oppress,压迫,NOUN
-厌倦,tired of,厌倦,NOUN
-厌恶,to loathe,厌恶,NOUN
-原來,it turns out,原來,NOUN
+压制,to suppress,压制,VERB
+压岁钱,money given to children as new year present,压岁钱,VERB
+压抑,to constrain or repress emotions,压抑,VERB
+压榨,to press,压榨,VERB
+压缩,to compress,压缩,VERB
+压迫,to oppress,压迫,VERB
+厌倦,tired of,厌倦,VERB
+厌恶,to loathe,厌恶,VERB
+原來,it turns out,原來,ADV
 原先,former,原先,NOUN
-原创,original,原创,NOUN
+原创,original,原创,ADV
 原告,complainant,原告,NOUN
-原始,first,原始,NOUN
-原本,originally,原本,NOUN
-原来如此,so that's it,原来如此,NOUN
+原始,first,原始,ADJ
+原本,originally,原本,ADV
+原来如此,so that's it,原来如此,ADV
 原理,principle,原理,NOUN
-原諒,forgive,原諒,NOUN
+原諒,forgive,原諒,VERB
 厨师,chef,厨师,NOUN
-厲害,severe,厲害,NOUN
-去死吧,go to hell,去死吧,NOUN
-去过,have been to,去过,NOUN
-参照,to consult a reference,参照,NOUN
-参议员,senator,参议员,NOUN
-参谋,staff officer,参谋,NOUN
-參加,to participate,參加,NOUN
-及,and,及,NOUN
-及早,at the earliest possible time,及早,NOUN
-双手,both hands,双手,NOUN
-双眼,both eyes,双眼,NOUN
-双胞胎,twin,双胞胎,NOUN
-反,reverse,反,NOUN
-反之,on the other hand...,反之,NOUN
-反倒,but on the contrary,反倒,NOUN
-反动,reaction,反动,NOUN
-反射,to reflect,反射,NOUN
-反常,unusual,反常,NOUN
-反思,to think back over sth,反思,NOUN
-反感,to be disgusted with,反感,NOUN
-反抗,to resist,反抗,NOUN
-反问,to ask (a question) in reply,反问,NOUN
+厲害,severe,厲害,PROPN
+去死吧,go to hell,去死吧,VERB
+去过,have been to,去过,VERB
+参照,to consult a reference,参照,VERB
+参议员,senator,参议员,VERB
+参谋,staff officer,参谋,VERB
+參加,to participate,參加,VERB
+及,and,及,CCONJ
+及早,at the earliest possible time,及早,CCONJ
+双手,both hands,双手,NUM
+双眼,both eyes,双眼,NUM
+双胞胎,twin,双胞胎,NUM
+反,reverse,反,VERB
+反之,on the other hand...,反之,VERB
+反倒,but on the contrary,反倒,VERB
+反动,reaction,反动,ADJ
+反射,to reflect,反射,VERB
+反常,unusual,反常,ADJ
+反思,to think back over sth,反思,VERB
+反感,to be disgusted with,反感,VERB
+反抗,to resist,反抗,VERB
+反问,to ask (a question) in reply,反问,VERB
 反面,reverse side,反面,NOUN
 反馈,to send back information,反馈,NOUN
-反驳,to retort,反驳,NOUN
-发作,break out,发作,NOUN
-发出,to send out,发出,NOUN
-发动,to start,发动,NOUN
-发呆,to stare blankly,发呆,NOUN
+反驳,to retort,反驳,VERB
+发作,break out,发作,VERB
+发出,to send out,发出,VERB
+发动,to start,发动,VERB
+发呆,to stare blankly,发呆,VERB
 发型,haircut,发型,NOUN
-发射,to shoot (a projectile),发射,NOUN
-发布,to release,发布,NOUN
-发扬,to develop,发扬,NOUN
-发火,to catch fire,发火,NOUN
-发炎,to become inflamed,发炎,NOUN
-发疯,to go crazy,发疯,NOUN
-发育,to develop,发育,NOUN
-发行,to publish,发行,NOUN
-发觉,to find,发觉,NOUN
-发誓,to vow,发誓,NOUN
-发财,to get rich,发财,NOUN
-发送,send,发送,NOUN
-取决于,depend on,取决于,NOUN
-取得,to obtain,取得,NOUN
-取缔,to ban,取缔,NOUN
-受,to receive,受,NOUN
-受够了,had enough,受够了,NOUN
-受害人,victim,受害人,NOUN
-受害者,victim,受害者,NOUN
-受欢迎,popular,受欢迎,NOUN
-受罪,to endure,受罪,NOUN
-变,to change,变,NOUN
-变得,to become,变得,NOUN
+发射,to shoot (a projectile),发射,VERB
+发布,to release,发布,VERB
+发扬,to develop,发扬,VERB
+发火,to catch fire,发火,VERB
+发炎,to become inflamed,发炎,VERB
+发疯,to go crazy,发疯,VERB
+发育,to develop,发育,VERB
+发行,to publish,发行,VERB
+发觉,to find,发觉,VERB
+发誓,to vow,发誓,VERB
+发财,to get rich,发财,VERB
+发送,send,发送,VERB
+取决于,depend on,取决于,VERB
+取得,to obtain,取得,VERB
+取缔,to ban,取缔,VERB
+受,to receive,受,VERB
+受够了,had enough,受够了,VERB
+受害人,victim,受害人,VERB
+受害者,victim,受害者,VERB
+受欢迎,popular,受欢迎,VERB
+受罪,to endure,受罪,VERB
+变,to change,变,VERB
+变得,to become,变得,VERB
 变态,pervert,变态,NOUN
-变成,to become,变成,NOUN
-变故,an unforeseen event,变故,NOUN
-变质,to degenerate,变质,NOUN
-变迁,changes,变迁,NOUN
+变成,to become,变成,VERB
+变故,an unforeseen event,变故,VERB
+变质,to degenerate,变质,VERB
+变迁,changes,变迁,VERB
 叛徒,traitor,叛徒,NOUN
 口头,oral,口头,NOUN
 口气,tone of voice,口气,NOUN
 口腔,oral cavity,口腔,NOUN
 口袋,pocket,口袋,NOUN
 口音,oral speech sounds (linguistics),口音,NOUN
-古怪,eccentric,古怪,NOUN
-古董,curio,古董,NOUN
-另,another,另,NOUN
-另一边,other side,另一边,NOUN
-只不过,merely,只不过,NOUN
-只会,only can,只会,NOUN
-只想,only want,只想,NOUN
-只是,just,只是,NOUN
-只有,only,只有,NOUN
-只能,can only,只能,NOUN
-叫做,called,叫做,NOUN
-叫醒,wake up,叫醒,NOUN
-召唤,summon,召唤,NOUN
-叮嘱,to warn repeatedly,叮嘱,NOUN
-可,can,可,NOUN
-可不,could it,可不,NOUN
-可不可以,can or not,可不可以,NOUN
-可不是,isn't it,可不是,NOUN
-可卡因,cocaine,可卡因,NOUN
-可口,tasty,可口,NOUN
-可否,can or not,可否,NOUN
-可恶,repulsive,可恶,NOUN
-可悲,sad,可悲,NOUN
-可疑,suspicious,可疑,NOUN
-可笑,funny,可笑,NOUN
-可能性,possibility,可能性,NOUN
-可行,feasible,可行,NOUN
-可观,considerable,可观,NOUN
+古怪,eccentric,古怪,ADJ
+古董,curio,古董,PART
+另,another,另,DET
+另一边,other side,另一边,DET
+只不过,merely,只不过,ADV
+只会,only can,只会,VERB
+只想,only want,只想,ADV
+只是,just,只是,VERB
+只有,only,只有,VERB
+只能,can only,只能,AUX
+叫做,called,叫做,VERB
+叫醒,wake up,叫醒,VERB
+召唤,summon,召唤,VERB
+叮嘱,to warn repeatedly,叮嘱,VERB
+可,can,可,AUX
+可不,could it,可不,AUX
+可不可以,can or not,可不可以,AUX
+可不是,isn't it,可不是,AUX
+可卡因,cocaine,可卡因,PROPN
+可口,tasty,可口,ADJ
+可否,can or not,可否,ADV
+可恶,repulsive,可恶,AUX
+可悲,sad,可悲,AUX
+可疑,suspicious,可疑,ADJ
+可笑,funny,可笑,ADJ
+可能性,possibility,可能性,AUX
+可行,feasible,可行,ADJ
+可观,considerable,可观,ADJ
 台风,hurricane,台风,NOUN
-史,history,史,NOUN
-史密斯,Smith,史密斯,NOUN
-史蒂夫,Steve,史蒂夫,NOUN
-史蒂芬,Stephen,史蒂芬,NOUN
+史,history,史,PROPN
+史密斯,Smith,史密斯,PROPN
+史蒂夫,Steve,史蒂夫,PROPN
+史蒂芬,Stephen,史蒂芬,PROPN
 右,right,右,NOUN
 号召,to call,号召,NOUN
 司令,commanding officer,司令,NOUN
 司法,judicial,司法,NOUN
-叹气,to sigh,叹气,NOUN
-叼,to hold in the mouth,叼,NOUN
-吃力,to entail strenuous effort,吃力,NOUN
-吃掉,to eat up,吃掉,NOUN
-吃晚饭,have dinner,吃晚饭,NOUN
-吃点,eat some,吃点,NOUN
-吃苦,to bear,吃苦,NOUN
-吃药,take medicine,吃药,NOUN
-吃饭,to eat,吃饭,NOUN
+叹气,to sigh,叹气,VERB
+叼,to hold in the mouth,叼,PROPN
+吃力,to entail strenuous effort,吃力,ADJ
+吃掉,to eat up,吃掉,VERB
+吃晚饭,have dinner,吃晚饭,VERB
+吃点,eat some,吃点,VERB
+吃苦,to bear,吃苦,VERB
+吃药,take medicine,吃药,VERB
+吃饭,to eat,吃饭,VERB
 各位,everyone,各位,NOUN
-各抒己见,everyone gives their own view,各抒己见,NOUN
-各种,various,各种,NOUN
-合乎,to accord with,合乎,NOUN
-合伙,to act jointly,合伙,NOUN
-合伙人,partner,合伙人,NOUN
-合并,to merge,合并,NOUN
+各抒己见,everyone gives their own view,各抒己见,DET
+各种,various,各种,DET
+合乎,to accord with,合乎,VERB
+合伙,to act jointly,合伙,VERB
+合伙人,partner,合伙人,VERB
+合并,to merge,合并,VERB
 合成,to compose,合成,NOUN
-合算,worthwhile,合算,NOUN
+合算,worthwhile,合算,ADJ
 合约,contract,合约,NOUN
-合身,well-fitting (of clothes),合身,NOUN
-吉,Ji,吉,NOUN
+合身,well-fitting (of clothes),合身,ADJ
+吉,Ji,吉,PROPN
 吉他,guitar,吉他,NOUN
-吉姆,Jim,吉姆,NOUN
+吉姆,Jim,吉姆,PROPN
 吉祥,lucky,吉祥,NOUN
-吉米,Jimmy,吉米,NOUN
+吉米,Jimmy,吉米,PROPN
 吊,a string of 100 cash (arch.),吊,NOUN
-同,same,同,NOUN
-同一,same,同一,NOUN
-同一个,the same one,同一个,NOUN
+同,same,同,DET
+同一,same,同一,DET
+同一个,the same one,同一个,DET
 同伴,companion,同伴,NOUN
 同志,comrade,同志,NOUN
 同性恋,homosexual,同性恋,NOUN
-同样,same,同样,NOUN
+同样,same,同样,ADJ
 同胞,born of the same parents,同胞,NOUN
 名,name,名,NOUN
 名义,name,名义,NOUN
@@ -1525,214 +1525,214 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 名次,position in a ranking of names,名次,NOUN
 名誉,fame,名誉,NOUN
 名额,quota,名额,NOUN
-后,after,后,PART
+后,after,后,ADV
 后代,posterity,后代,NOUN
 后勤,logistics,后勤,NOUN
 后期,later stage,后期,NOUN
-后退,back up,后退,NOUN
-后顾之忧,fears of trouble in the rear (idiom); family worries (obstructing freedom of action),后顾之忧,NOUN
-向前,forward,向前,NOUN
-向导,guide,向导,NOUN
-向往,to yearn for,向往,NOUN
-向来,always (previously),向来,NOUN
-吓人,scary,吓人,NOUN
-吓坏,terrified,吓坏,NOUN
-吓死,scared to death,吓死,NOUN
-君,gentleman,君,NOUN
-吝啬,stingy,吝啬,NOUN
-吞咽,to swallow,吞咽,NOUN
-否决,to veto,否决,NOUN
-吩咐,to tell,吩咐,NOUN
+后退,back up,后退,ADV
+后顾之忧,fears of trouble in the rear (idiom); family worries (obstructing freedom of action),后顾之忧,VERB
+向前,forward,向前,VERB
+向导,guide,向导,VERB
+向往,to yearn for,向往,ADP
+向来,always (previously),向来,ADP
+吓人,scary,吓人,ADJ
+吓坏,terrified,吓坏,VERB
+吓死,scared to death,吓死,VERB
+君,gentleman,君,PROPN
+吝啬,stingy,吝啬,ADJ
+吞咽,to swallow,吞咽,VERB
+否决,to veto,否决,VERB
+吩咐,to tell,吩咐,VERB
 含义,meaning (implicit in a phrase),含义,NOUN
-含糊,obscurity,含糊,NOUN
-听不懂,can't understand,听不懂,NOUN
-听不见,can't hear,听不见,NOUN
-听到,to hear,听到,NOUN
-听听,to listen,听听,NOUN
-听懂,understand,听懂,NOUN
-听见,to hear,听见,NOUN
-听话,obedient,听话,NOUN
-听说,hear of,听说,NOUN
-听过,have heard,听过,NOUN
+含糊,obscurity,含糊,ADJ
+听不懂,can't understand,听不懂,ADV
+听不见,can't hear,听不见,VERB
+听到,to hear,听到,VERB
+听听,to listen,听听,VERB
+听懂,understand,听懂,VERB
+听见,to hear,听见,VERB
+听话,obedient,听话,VERB
+听说,hear of,听说,VERB
+听过,have heard,听过,VERB
 启事,announcement (written,启事,NOUN
-启动,to start,启动,NOUN
+启动,to start,启动,VERB
 启示,enlightenment,启示,NOUN
-启程,to set out on a journey,启程,NOUN
-吵醒,wake up,吵醒,NOUN
+启程,to set out on a journey,启程,VERB
+吵醒,wake up,吵醒,VERB
 吸,to suck,吸,NOUN
-吸取,to absorb,吸取,NOUN
-吸毒,take drugs,吸毒,NOUN
-吸烟,smoke,吸烟,NOUN
-吸血鬼,vampire,吸血鬼,NOUN
-吹捧,to flatter,吹捧,NOUN
-吹牛,to talk big,吹牛,NOUN
+吸取,to absorb,吸取,VERB
+吸毒,take drugs,吸毒,VERB
+吸烟,smoke,吸烟,VERB
+吸血鬼,vampire,吸血鬼,VERB
+吹捧,to flatter,吹捧,VERB
+吹牛,to talk big,吹牛,PROPN
 吼,roar or howl of an animal,吼,NOUN
-呃,uh,呃,NOUN
-呈现,to appear,呈现,NOUN
-告知,to inform,告知,NOUN
-告訴,to tell,告訴,NOUN
-告诫,to warn,告诫,NOUN
-告辞,to say goodbye,告辞,NOUN
+呃,uh,呃,PUNCT
+呈现,to appear,呈现,VERB
+告知,to inform,告知,VERB
+告訴,to tell,告訴,VERB
+告诫,to warn,告诫,VERB
+告辞,to say goodbye,告辞,VERB
 呐,particle,呐,NOUN
-呕吐,to vomit,呕吐,NOUN
-呗,particle,呗,NOUN
+呕吐,to vomit,呕吐,VERB
+呗,particle,呗,PUNCT
 员,member,员,NOUN
 员工,employee,员工,NOUN
-呦,yo,呦,NOUN
-周,week,周,NOUN
-周一,Monday,周一,NOUN
-周五,Friday,周五,NOUN
-周六,Saturday,周六,NOUN
-周密,careful,周密,NOUN
+呦,yo,呦,PUNCT
+周,week,周,PROPN
+周一,Monday,周一,PROPN
+周五,Friday,周五,PROPN
+周六,Saturday,周六,PROPN
+周密,careful,周密,PROPN
 周年,anniversary,周年,NOUN
-周折,complication,周折,NOUN
-周日,Sunday,周日,NOUN
+周折,complication,周折,ADJ
+周日,Sunday,周日,PROPN
 周期,period,周期,NOUN
-周转,turnover (in cash or personnel),周转,NOUN
+周转,turnover (in cash or personnel),周转,VERB
 周边,periphery,周边,NOUN
-味,taste,味,NOUN
-呵,expel breath,呵,NOUN
-呵呵,hehe,呵呵,NOUN
-呻吟,to moan,呻吟,NOUN
+味,taste,味,PROPN
+呵,expel breath,呵,PROPN
+呵呵,hehe,呵呵,ADJ
+呻吟,to moan,呻吟,VERB
 呼,to exhale,呼,NOUN
-呼叫,to call,呼叫,NOUN
-呼吁,to call on (sb to do sth),呼吁,NOUN
-呼啸,to whistle,呼啸,NOUN
+呼叫,to call,呼叫,VERB
+呼吁,to call on (sb to do sth),呼吁,VERB
+呼啸,to whistle,呼啸,VERB
 命,life,命,NOUN
-命名,to give a name to,命名,NOUN
-咀嚼,to chew,咀嚼,NOUN
-咋,dialectal equivalent of 怎麼|怎么[zěn me],咋,NOUN
-和气,friendly,和气,NOUN
-和睦,peaceful relations,和睦,NOUN
-和蔼,kindly,和蔼,NOUN
-和解,to settle (a dispute out of court),和解,NOUN
-和谐,harmonious,和谐,NOUN
-咒语,spell,咒语,NOUN
-咦,huh,咦,NOUN
-咧,grin,咧,NOUN
+命名,to give a name to,命名,VERB
+咀嚼,to chew,咀嚼,VERB
+咋,dialectal equivalent of 怎麼|怎么[zěn me],咋,VERB
+和气,friendly,和气,CCONJ
+和睦,peaceful relations,和睦,ADJ
+和蔼,kindly,和蔼,ADP
+和解,to settle (a dispute out of court),和解,VERB
+和谐,harmonious,和谐,ADJ
+咒语,spell,咒语,PROPN
+咦,huh,咦,PUNCT
+咧,grin,咧,PUNCT
 咬牙切齿,gnashing one's teeth (idiom); displaying extreme anger,咬牙切齿,NOUN
-咯,particle,咯,NOUN
-咱,we,咱,NOUN
-咱俩,we two,咱俩,NOUN
-咱們,we,咱們,NOUN
-品尝,to taste a small amount,品尝,NOUN
-品德,moral character,品德,NOUN
+咯,particle,咯,PUNCT
+咱,we,咱,PUNCT
+咱俩,we two,咱俩,PRON
+咱們,we,咱們,PRON
+品尝,to taste a small amount,品尝,VERB
+品德,moral character,品德,PROPN
 品行,behavior,品行,NOUN
 品质,quality,品质,NOUN
-哄,roar of laughter (onomatopoeia),哄,NOUN
+哄,roar of laughter (onomatopoeia),哄,VERB
 哆嗦,to tremble,哆嗦,NOUN
 哇,"replaces 啊 when following the vowel ""u"" or ""ao""",哇,NOUN
-哈利,Harry,哈利,NOUN
-哈哈,haha,哈哈,NOUN
-哈啰,hello,哈啰,NOUN
-哈特,Hart,哈特,NOUN
-哈罗,hello,哈罗,NOUN
-哈里,Harry,哈里,NOUN
-响亮,loud and clear,响亮,NOUN
-响应,respond to,响应,NOUN
-哎,ah,哎,NOUN
-哎呀,oh my,哎呀,NOUN
-哎哟,hey,哎哟,NOUN
-哟,yo,哟,NOUN
+哈利,Harry,哈利,PROPN
+哈哈,haha,哈哈,PROPN
+哈啰,hello,哈啰,PROPN
+哈特,Hart,哈特,PROPN
+哈罗,hello,哈罗,PROPN
+哈里,Harry,哈里,PROPN
+响亮,loud and clear,响亮,ADJ
+响应,respond to,响应,VERB
+哎,ah,哎,PUNCT
+哎呀,oh my,哎呀,PUNCT
+哎哟,hey,哎哟,PUNCT
+哟,yo,哟,PUNCT
 哥,brother,哥,NOUN
 哥们,buddies,哥们,NOUN
-哦,oh (interjection indicating that one has just learned sth),哦,NOUN
+哦,oh (interjection indicating that one has just learned sth),哦,PRON
 哨,a whistle,哨,NOUN
-哪个,which,哪个,NOUN
-哪些,which ones,哪些,NOUN
-哪位,who,哪位,NOUN
-哪兒,where,哪兒,NOUN
-哪有,how could there,哪有,NOUN
+哪个,which,哪个,DET
+哪些,which ones,哪些,PRON
+哪位,who,哪位,DET
+哪兒,where,哪兒,PRON
+哪有,how could there,哪有,PRON
 哪来,where from,哪来,NOUN
-哪裡,where,哪裡,NOUN
+哪裡,where,哪裡,PRON
 哪里,where,哪里,PRON
-哭泣,to cry,哭泣,NOUN
-哺乳,breast feeding,哺乳,NOUN
-哼,to groan,哼,NOUN
-唐,Tang,唐,NOUN
-唔,hmm,唔,NOUN
+哭泣,to cry,哭泣,VERB
+哺乳,breast feeding,哺乳,VERB
+哼,to groan,哼,PUNCT
+唐,Tang,唐,PROPN
+唔,hmm,唔,PUNCT
 唠叨,to prattle,唠叨,NOUN
-唯独,only,唯独,NOUN
-唱,to sing,唱,NOUN
+唯独,only,唯独,ADP
+唱,to sing,唱,VERB
 唱片,record,唱片,NOUN
 唾沫,spittle,唾沫,NOUN
-啃,to gnaw,啃,NOUN
+啃,to gnaw,啃,VERB
 商业用途,commercial use,商业用途,NOUN
 商人,merchant,商人,NOUN
 商标,trademark,商标,NOUN
-啊哈,aha,啊哈,NOUN
+啊哈,aha,啊哈,PROPN
 問題,problem,問題,NOUN
-啥,dialectal equivalent of 什麼|什么[shén me],啥,NOUN
-啦,sentence-final particle,啦,NOUN
-啰,particle,啰,NOUN
-啰唆,see 囉嗦|啰嗦[luō suo],啰唆,NOUN
+啥,dialectal equivalent of 什麼|什么[shén me],啥,ADJ
+啦,sentence-final particle,啦,PUNCT
+啰,particle,啰,PUNCT
+啰唆,see 囉嗦|啰嗦[luō suo],啰唆,VERB
 喇叭,horn (automobile etc),喇叭,NOUN
 喉咙,throat,喉咙,NOUN
 喔,oh,喔,NOUN
-喘气,to breathe deeply,喘气,NOUN
+喘气,to breathe deeply,喘气,VERB
 喜悦,happy,喜悦,NOUN
-喜歡,to like,喜歡,NOUN
-喜闻乐见,a delight to see (idiom); an attractive spectacle,喜闻乐见,NOUN
-喝一杯,have a drink,喝一杯,NOUN
-喝咖啡,drink coffee,喝咖啡,NOUN
-喝杯,have a cup,喝杯,NOUN
-喝点,drink a little,喝点,NOUN
-喝茶,drink tea,喝茶,NOUN
-喝酒,to drink,喝酒,NOUN
-喝醉,to get drunk,喝醉,NOUN
-喽,particle,喽,NOUN
+喜歡,to like,喜歡,VERB
+喜闻乐见,a delight to see (idiom); an attractive spectacle,喜闻乐见,VERB
+喝一杯,have a drink,喝一杯,VERB
+喝咖啡,drink coffee,喝咖啡,VERB
+喝杯,have a cup,喝杯,VERB
+喝点,drink a little,喝点,VERB
+喝茶,drink tea,喝茶,VERB
+喝酒,to drink,喝酒,VERB
+喝醉,to get drunk,喝醉,VERB
+喽,particle,喽,PUNCT
 嗅觉,sense of smell,嗅觉,NOUN
 嗎,question particle,嗎,NOUN
-嗑,take drugs,嗑,NOUN
-嗨,oh alas,嗨,NOUN
-嗯,interjection indicating approval,嗯,NOUN
-嘈杂,noisy,嘈杂,NOUN
+嗑,take drugs,嗑,PUNCT
+嗨,oh alas,嗨,PUNCT
+嗯,interjection indicating approval,嗯,PUNCT
+嘈杂,noisy,嘈杂,ADJ
 嘘,shh,嘘,NOUN
-嘛,modal particle indicating that sth is obvious,嘛,NOUN
-嘲笑,to jeer at,嘲笑,NOUN
+嘛,modal particle indicating that sth is obvious,嘛,ADJ
+嘲笑,to jeer at,嘲笑,VERB
 嘴唇,lip,嘴唇,NOUN
 嘴巴,mouth,嘴巴,NOUN
 嘴里,in mouth,嘴里,NOUN
-嘿,hey,嘿,NOUN
-嘿嘿,hehe,嘿嘿,NOUN
-噢,oh,噢,NOUN
+嘿,hey,嘿,PUNCT
+嘿嘿,hehe,嘿嘿,PROPN
+噢,oh,噢,PUNCT
 器,device,器,NOUN
 器官,organ (part of body tissue),器官,NOUN
 器材,equipment,器材,NOUN
 噩梦,nightmare,噩梦,NOUN
 噪音,rumble,噪音,NOUN
 囚犯,prisoner,囚犯,NOUN
-四个,four,四个,NOUN
-四处,all around,四处,NOUN
-四年,four years,四年,NOUN
-四肢,the four limbs of the body,四肢,NOUN
-回事,matter,回事,NOUN
-回來,come back,回來,NOUN
-回到,return to,回到,NOUN
-回去,go back,回去,NOUN
-回复,reply,回复,NOUN
-回头,turn head,回头,NOUN
-回头见,see you,回头见,NOUN
-回家,go home,回家,NOUN
-回家吧,go home,回家吧,NOUN
-回应,to respond,回应,NOUN
-回报,(in) return,回报,NOUN
-回收,to recycle,回收,NOUN
-回来,to come back,回来,NOUN
-回避,to shun,回避,NOUN
-回顾,to look back,回顾,NOUN
-因,because of,因,PART
-因為,because,因為,NOUN
+四个,four,四个,NUM
+四处,all around,四处,NUM
+四年,four years,四年,NUM
+四肢,the four limbs of the body,四肢,NUM
+回事,matter,回事,VERB
+回來,come back,回來,VERB
+回到,return to,回到,VERB
+回去,go back,回去,VERB
+回复,reply,回复,VERB
+回头,turn head,回头,VERB
+回头见,see you,回头见,VERB
+回家,go home,回家,VERB
+回家吧,go home,回家吧,VERB
+回应,to respond,回应,VERB
+回报,(in) return,回报,VERB
+回收,to recycle,回收,VERB
+回来,to come back,回来,VERB
+回避,to shun,回避,VERB
+回顾,to look back,回顾,VERB
+因,because of,因,ADP
+因為,because,因為,ADP
 团体,group,团体,NOUN
-团圆,to have a reunion,团圆,NOUN
-团结,a rally,团结,NOUN
+团圆,to have a reunion,团圆,VERB
+团结,a rally,团结,ADJ
 团队,team,团队,NOUN
 园林,gardens,园林,NOUN
-困惑,confused,困惑,NOUN
-困扰,to trouble,困扰,NOUN
-固执,obstinate,固执,NOUN
-固有,intrinsic to sth,固有,NOUN
-固然,admittedly (it's true that...),固然,NOUN
+困惑,confused,困惑,ADJ
+困扰,to trouble,困扰,VERB
+固执,obstinate,固执,PROPN
+固有,intrinsic to sth,固有,ADJ
+固然,admittedly (it's true that...),固然,VERB
 国,country,国,NOUN
 国会,parliament,国会,NOUN
 国务院,State Council (PRC),国务院,NOUN
@@ -1741,22 +1741,22 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 图,picture,图,NOUN
 图案,design,图案,NOUN
 图片,picture,图片,NOUN
-圆满,satisfactory,圆满,NOUN
+圆满,satisfactory,圆满,ADJ
 圈套,trap,圈套,NOUN
 國家,country,國家,NOUN
 土壤,soil,土壤,NOUN
-圣,saint,圣,NOUN
-圣经,Bible,圣经,NOUN
-圣诞,Christmas,圣诞,NOUN
-圣诞快乐,Merry Christmas,圣诞快乐,NOUN
-圣诞老人,Santa Claus,圣诞老人,NOUN
-圣诞节,Christmas,圣诞节,NOUN
-在乎,determined by,在乎,NOUN
-在于,lie in,在于,NOUN
+圣,saint,圣,PROPN
+圣经,Bible,圣经,PROPN
+圣诞,Christmas,圣诞,PROPN
+圣诞快乐,Merry Christmas,圣诞快乐,PROPN
+圣诞老人,Santa Claus,圣诞老人,PROPN
+圣诞节,Christmas,圣诞节,PROPN
+在乎,determined by,在乎,VERB
+在于,lie in,在于,VERB
 在场,present,在场,NOUN
-在家,at home,在家,NOUN
-在意,to care about,在意,NOUN
-在我看来,in my opinion,在我看来,NOUN
+在家,at home,在家,VERB
+在意,to care about,在意,ADP
+在我看来,in my opinion,在我看来,VERB
 地上,on the ground,地上,NOUN
 地下,underground,地下,NOUN
 地下室,basement,地下室,NOUN
@@ -1766,7 +1766,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 地点,location,地点,NOUN
 地狱,hell,地狱,NOUN
 地盘,territory,地盘,NOUN
-地说,say,地说,NOUN
+地说,say,地说,VERB
 地质,geology,地质,NOUN
 地面,ground,地面,NOUN
 场合,situation,场合,NOUN
@@ -1775,187 +1775,187 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 场面,scene,场面,NOUN
 坏事,bad thing,坏事,NOUN
 坏人,bad person,坏人,NOUN
-坏消息,bad news,坏消息,NOUN
+坏消息,bad news,坏消息,ADJ
 坏蛋,bad guy,坏蛋,NOUN
-坐下,sit down,坐下,NOUN
-坐在,sit at,坐在,NOUN
-坐牢,to be in prison,坐牢,NOUN
+坐下,sit down,坐下,VERB
+坐在,sit at,坐在,VERB
+坐牢,to be in prison,坐牢,VERB
 坑,hole,坑,NOUN
-坚固,firm,坚固,NOUN
-坚定,firm,坚定,NOUN
-坚实,firm and substantial,坚实,NOUN
-坚硬,hard,坚硬,NOUN
-坚韧,tough and durable,坚韧,NOUN
-坟墓,sepulcher,坟墓,NOUN
+坚固,firm,坚固,ADJ
+坚定,firm,坚定,ADJ
+坚实,firm and substantial,坚实,ADJ
+坚硬,hard,坚硬,ADJ
+坚韧,tough and durable,坚韧,ADJ
+坟墓,sepulcher,坟墓,PROPN
 坡,slope,坡,NOUN
 坦克,tank,坦克,NOUN
-坦白,honest,坦白,NOUN
-垂直,perpendicular,垂直,NOUN
+坦白,honest,坦白,PROPN
+垂直,perpendicular,垂直,PROPN
 垃圾,trash,垃圾,NOUN
-垄断,to enjoy market dominance,垄断,NOUN
+垄断,to enjoy market dominance,垄断,VERB
 型,type,型,NOUN
-垫,pad,垫,NOUN
-埃,Ai,埃,NOUN
-埃及,Egypt,埃及,NOUN
-埃里克,Eric,埃里克,NOUN
-埋,to bury,埋,NOUN
-埋伏,to ambush,埋伏,NOUN
-埋怨,to complain,埋怨,NOUN
-埋没,to engulf,埋没,NOUN
-埋葬,to bury,埋葬,NOUN
+垫,pad,垫,VERB
+埃,Ai,埃,PROPN
+埃及,Egypt,埃及,PROPN
+埃里克,Eric,埃里克,PROPN
+埋,to bury,埋,VERB
+埋伏,to ambush,埋伏,VERB
+埋怨,to complain,埋怨,VERB
+埋没,to engulf,埋没,VERB
+埋葬,to bury,埋葬,VERB
 城,city,城,NOUN
 城堡,castle,城堡,NOUN
 城里,in town,城里,NOUN
-培育,to train,培育,NOUN
-培训,to cultivate,培训,NOUN
-基,base,基,NOUN
+培育,to train,培育,VERB
+培训,to cultivate,培训,VERB
+基,base,基,VERB
 基因,gene (loanword),基因,NOUN
 基地,base (of operations),基地,NOUN
 基本上,basically,基本上,NOUN
-基督,Christ,基督,NOUN
+基督,Christ,基督,PROPN
 基金,fund,基金,NOUN
-堆积,to pile up,堆积,NOUN
-堕落,to morally degenerate,堕落,NOUN
+堆积,to pile up,堆积,VERB
+堕落,to morally degenerate,堕落,VERB
 堤坝,dam,堤坝,NOUN
-堵塞,to block,堵塞,NOUN
-塌,collapse,塌,NOUN
-塑造,to model,塑造,NOUN
-塔克,Tucker,塔克,NOUN
-塞,to stuff,塞,NOUN
+堵塞,to block,堵塞,VERB
+塌,collapse,塌,ADJ
+塑造,to model,塑造,VERB
+塔克,Tucker,塔克,PROPN
+塞,to stuff,塞,PROPN
 境界,boundary,境界,NOUN
 墓地,cemetery,墓地,NOUN
 墙上,on the wall,墙上,NOUN
-增添,to add,增添,NOUN
-墨水儿,ink,墨水儿,NOUN
-墨西哥,Mexico,墨西哥,NOUN
-壞,bad,壞,NOUN
-壮丽,magnificence,壮丽,NOUN
-壮烈,brave,壮烈,NOUN
-壮观,spectacular,壮观,NOUN
+增添,to add,增添,VERB
+墨水儿,ink,墨水儿,PROPN
+墨西哥,Mexico,墨西哥,PROPN
+壞,bad,壞,ADJ
+壮丽,magnificence,壮丽,ADJ
+壮烈,brave,壮烈,ADJ
+壮观,spectacular,壮观,ADJ
 声,sound,声,NOUN
 声势,fame and power,声势,NOUN
 声明,statement,声明,NOUN
-声称,claim,声称,NOUN
+声称,claim,声称,VERB
 声誉,reputation,声誉,NOUN
-处,place,处,NOUN
-处于,in a state,处于,NOUN
-处分,to discipline sb,处分,NOUN
+处,place,处,VERB
+处于,in a state,处于,VERB
+处分,to discipline sb,处分,VERB
 处境,plight,处境,NOUN
 处女,virgin,处女,NOUN
-处置,to handle,处置,NOUN
+处置,to handle,处置,VERB
 备份,backup,备份,NOUN
-备忘录,memorandum,备忘录,NOUN
-复仇,revenge,复仇,NOUN
-复兴,to revive,复兴,NOUN
-复活,resurrection,复活,NOUN
+备忘录,memorandum,备忘录,VERB
+复仇,revenge,复仇,VERB
+复兴,to revive,复兴,VERB
+复活,resurrection,复活,VERB
 夏令营,summer camp,夏令营,NOUN
 夏天,summer,夏天,NOUN
-夏威夷,Hawaii,夏威夷,NOUN
+夏威夷,Hawaii,夏威夷,PROPN
 夕阳,sunset,夕阳,NOUN
-外向,outward-looking,外向,NOUN
+外向,outward-looking,外向,ADJ
 外套,coat,外套,NOUN
 外婆,grandmother,外婆,NOUN
 外星人,alien,外星人,NOUN
 外界,the outside world,外界,NOUN
-外行,layman,外行,NOUN
+外行,layman,外行,ADJ
 外表,external,外表,NOUN
 外面,outside,外面,NOUN
-多久,how long,多久,NOUN
-多人,many people,多人,NOUN
-多元化,diversification,多元化,NOUN
-多年,many years,多年,NOUN
-多次,many times,多次,NOUN
-多谢,thanks a lot,多谢,NOUN
-多长时间,how long,多长时间,NOUN
+多久,how long,多久,NUM
+多人,many people,多人,NUM
+多元化,diversification,多元化,ADJ
+多年,many years,多年,NUM
+多次,many times,多次,NUM
+多谢,thanks a lot,多谢,PROPN
+多长时间,how long,多长时间,NUM
 夜晚,night,夜晚,NOUN
 夢,dream,夢,NOUN
 夥計,buddy,夥計,NOUN
-大不了,at worst,大不了,NOUN
+大不了,at worst,大不了,ADJ
 大事,big deal,大事,NOUN
 大人,adult,大人,NOUN
 大伙,everybody,大伙,NOUN
-大伙儿,everyone / everybody,大伙儿,NOUN
+大伙儿,everyone / everybody,大伙儿,PART
 大体,in general,大体,NOUN
 大使,ambassador,大使,NOUN
-大卫,David,大卫,NOUN
+大卫,David,大卫,PROPN
 大厅,hall,大厅,NOUN
 大厦,large building,大厦,NOUN
 大叔,uncle,大叔,NOUN
 大哥,big brother,大哥,NOUN
 大地,earth,大地,NOUN
-大声,loud,大声,NOUN
-大多,mostly,大多,NOUN
-大多数,the majority,大多数,NOUN
+大声,loud,大声,ADJ
+大多,mostly,大多,ADJ
+大多数,the majority,大多数,ADV
 大学,university,大学,NOUN
 大小,size,大小,NOUN
 大师,master,大师,NOUN
-大意,careless,大意,NOUN
+大意,careless,大意,ADJ
 大楼,building,大楼,NOUN
 大海,sea,大海,NOUN
-大肆,wantonly,大肆,NOUN
-大胆,bold,大胆,NOUN
+大肆,wantonly,大肆,PART
+大胆,bold,大胆,ADJ
 大脑,brain,大脑,NOUN
 大臣,chancellor (of a monarchy),大臣,NOUN
-大致,more or less,大致,NOUN
+大致,more or less,大致,ADJ
 大街,main street,大街,NOUN
 大道,avenue,大道,NOUN
-大部分,most,大部分,NOUN
-大量,a lot,大量,NOUN
+大部分,most,大部分,PART
+大量,a lot,大量,ADJ
 大门,gate,大门,NOUN
 大陆,mainland,大陆,NOUN
-大麻,marijuana,大麻,NOUN
-天,day,天,NOUN
+大麻,marijuana,大麻,PART
+天,day,天,NUM
 天上,in the sky,天上,NOUN
 天下,the world,天下,NOUN
 天伦之乐,family love and joy,天伦之乐,NOUN
 天使,angel,天使,NOUN
-天呐,oh my god,天呐,NOUN
+天呐,oh my god,天呐,PROPN
 天堂,paradise,天堂,NOUN
 天天,every day,天天,NOUN
 天才,talent,天才,NOUN
 天文,astronomy,天文,NOUN
-天然气,natural gas,天然气,NOUN
-天生,nature,天生,NOUN
+天然气,natural gas,天然气,ADJ
+天生,nature,天生,PROPN
 天赋,talent,天赋,NOUN
-太久,too long,太久,NOUN
-太多,too much,太多,NOUN
-太大,too big,太大,NOUN
-太好了,great,太好了,NOUN
-太小,too small,太小,NOUN
-太快,too fast,太快,NOUN
-太晚,too late,太晚,NOUN
-太棒了,awesome,太棒了,NOUN
+太久,too long,太久,ADJ
+太多,too much,太多,ADJ
+太大,too big,太大,ADJ
+太好了,great,太好了,ADJ
+太小,too small,太小,ADJ
+太快,too fast,太快,ADJ
+太晚,too late,太晚,ADJ
+太棒了,awesome,太棒了,ADJ
 太空,outer space,太空,NOUN
-太过分,too much,太过分,NOUN
-太迟,too late,太迟,NOUN
-夫,husband,夫,NOUN
+太过分,too much,太过分,ADV
+太迟,too late,太迟,ADJ
+夫,husband,夫,PROPN
 夫人,lady,夫人,NOUN
 夫妇,a (married) couple,夫妇,NOUN
 夫妻,couple,夫妻,NOUN
-失控,out of control,失控,NOUN
-失误,lapse,失误,NOUN
-失踪,to be missing,失踪,NOUN
-失陪,excuse me,失陪,NOUN
+失控,out of control,失控,VERB
+失误,lapse,失误,VERB
+失踪,to be missing,失踪,VERB
+失陪,excuse me,失陪,VERB
 头,head,头,NOUN
 头上,on head,头上,NOUN
 头儿,boss,头儿,NOUN
 头脑,mind,头脑,NOUN
 头部,head,头部,NOUN
-夸张,exaggerate,夸张,NOUN
-夹杂,to mix together (disparate substances),夹杂,NOUN
-夺走,take away,夺走,NOUN
-奇,strange,奇,NOUN
-奇妙,fantastic,奇妙,NOUN
-奉献,to consecrate,奉献,NOUN
-奔,run,奔,NOUN
-奔波,to rush about,奔波,NOUN
-奔驰,to run quickly,奔驰,NOUN
+夸张,exaggerate,夸张,ADJ
+夹杂,to mix together (disparate substances),夹杂,VERB
+夺走,take away,夺走,VERB
+奇,strange,奇,PROPN
+奇妙,fantastic,奇妙,ADJ
+奉献,to consecrate,奉献,VERB
+奔,run,奔,PROPN
+奔波,to rush about,奔波,VERB
+奔驰,to run quickly,奔驰,PROPN
 奖励,to reward,奖励,NOUN
-奖赏,reward,奖赏,NOUN
-奠定,to establish,奠定,NOUN
-奢侈,luxurious,奢侈,NOUN
-奥,Oh,奥,NOUN
-奥斯卡,Oscar,奥斯卡,NOUN
+奖赏,reward,奖赏,VERB
+奠定,to establish,奠定,VERB
+奢侈,luxurious,奢侈,ADJ
+奥,Oh,奥,PROPN
+奥斯卡,Oscar,奥斯卡,PROPN
 奥秘,secret,奥秘,NOUN
 女,female,女,NOUN
 女兒,daughter,女兒,NOUN
@@ -1973,29 +1973,29 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 奴隶,slave,奴隶,NOUN
 奶油,cream,奶油,NOUN
 奶酪,cheese,奶酪,NOUN
-她们,they (female),她们,NOUN
-好不好,okay,好不好,NOUN
-好久,long time,好久,NOUN
-好久不见,long time no see,好久不见,NOUN
-好了吗,is it ready,好了吗,NOUN
+她们,they (female),她们,PRON
+好不好,okay,好不好,ADV
+好久,long time,好久,ADJ
+好久不见,long time no see,好久不见,ADV
+好了吗,is it ready,好了吗,ADJ
 好事,good thing,好事,NOUN
-好些,better,好些,NOUN
+好些,better,好些,ADJ
 好人,good person,好人,NOUN
-好几个,several,好几个,NOUN
-好听,sounds good,好听,NOUN
-好多,a lot,好多,NOUN
-好好,well,好好,NOUN
-好孩子,good child,好孩子,NOUN
-好客,hospitality,好客,NOUN
-好极了,wonderful,好极了,NOUN
-好样,good sort,好样,NOUN
-好消息,good news,好消息,NOUN
-好点,better,好点,NOUN
-好玩,fun,好玩,NOUN
-好痛,so painful,好痛,NOUN
-好看,good-looking,好看,NOUN
-好笑,funny,好笑,NOUN
-好莱坞,Hollywood,好莱坞,NOUN
+好几个,several,好几个,NUM
+好听,sounds good,好听,ADJ
+好多,a lot,好多,ADJ
+好好,well,好好,ADJ
+好孩子,good child,好孩子,PART
+好客,hospitality,好客,ADJ
+好极了,wonderful,好极了,ADJ
+好样,good sort,好样,ADJ
+好消息,good news,好消息,PART
+好点,better,好点,ADJ
+好玩,fun,好玩,ADV
+好痛,so painful,好痛,ADJ
+好看,good-looking,好看,ADV
+好笑,funny,好笑,ADJ
+好莱坞,Hollywood,好莱坞,PROPN
 好象,seems like,好象,NOUN
 好运,good luck,好运,NOUN
-如,as,如,NOUN
+如,as,如,VERB

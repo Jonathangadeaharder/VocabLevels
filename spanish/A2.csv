@@ -1,601 +1,576 @@
 Spanish_Lemma,English_Lemma,Chinese_Lemma,POS
-abrigo,coat,,X
-absolutamente,absolutely,,X
+abrigo,coat,,NOUN
+absolutamente,absolutely,,ADV
 acabar,to finish/have just,,VERB
-acceso,access,,X
+acceso,access,,NOUN
 acción,action,,NOUN
 aceptar,to accept,,VERB
 actuar,to act,,VERB
-acusado,accused/defendant,,VERB
-aeropuerto,airport,,X
-agujero,hole,,X
-alcalde,mayor,,X
-alegría,joy,,X
-alguno,some/any,,X
+acusado,accused/defendant,,ADJ
+aeropuerto,airport,,NOUN
+agujero,hole,,NOUN
+alcalde,mayor,,NOUN
+alegría,joy,,NOUN
+alguno,some/any,,PRON
 altura,height,,NOUN
-amante,lover,,ADJ
+amante,lover,,NOUN
 ambulancia,ambulance,,NOUN
-amenaza,threat,,X
-amistad,friendship,,X
-anillo,ring,,X
-animal,animal,,ADJ
-anterior,previous,,NOUN
-antiguo,ancient/old,,X
-análisis,analysis,,X
-apartamento,apartment,,X
-apenas,barely/hardly,,X
-apoyo,support,,X
+amenaza,threat,,NOUN
+amistad,friendship,,NOUN
+anillo,ring,,NOUN
+animal,animal,,NOUN
+anterior,previous,,ADJ
+antiguo,ancient/old,,ADJ
+análisis,analysis,,NOUN
+apartamento,apartment,,NOUN
+apenas,barely/hardly,,ADV
+apoyo,support,,NOUN
 aprender,to learn,,VERB
-aquel,that (over there),,X
-aquella,that (over there),,X
-arena,sand,,X
+aquel,that (over there),,PRON
+arena,sand,,NOUN
 arreglar,to fix/arrange,,VERB
-arresto,arrest,,X
-arte,art,,X
+arresto,arrest,,NOUN
+arte,art,,NOUN
 artista,artist,,NOUN
-artículo,article,,X
-asiento,seat,,X
-asistente,assistant,,X
-aspecto,appearance,,X
-atrapado,trapped,,VERB
+artículo,article,,NOUN
+asiento,seat,,NOUN
+asistente,assistant,,NOUN
+aspecto,appearance,,NOUN
+atrapado,trapped,,ADJ
 atrapar,to catch/trap,,VERB
-autobús,bus,,X
+autobús,bus,,NOUN
 aventura,adventure,,NOUN
 averiguar,to find out,,VERB
-azul,blue,,X
+azul,blue,,ADJ
 bailar,to dance,,VERB
-baile,dance,,X
+baile,dance,,NOUN
 bajar,to go down/get off,,VERB
-bala,bullet,,X
-banco,bank,,X
-banda,band/gang,,X
-barrio,neighborhood,,X
-batalla,battle,,X
-bebida,beverage/drink,,X
-belleza,beauty,,X
-beso,kiss,,X
-bienvenida,welcome,,X
-bolsa,bag,,X
-bolsillo,pocket,,X
-bolso,bag,,X
-bomba,bomb/pump,,X
-borracho,drunk,,X
-bosque,forest,,X
-botella,bottle,,X
-bravo,brave/fierce,,X
-brazo,arm,,X
-bruja,witch,,X
-búsqueda,search/hunt,,X
-caballero,knight/gentleman,,X
-cabo,end/cape/corporal,,X
-cadena,chain/channel,,X
-cadáver,corpse,,VERB
+banco,bank,,NOUN
+banda,band/gang,,NOUN
+barrio,neighborhood,,NOUN
+batalla,battle,,NOUN
+bebida,beverage/drink,,NOUN
+belleza,beauty,,NOUN
+bienvenida,welcome,,ADJ
+bolsa,bag,,NOUN
+bolsillo,pocket,,NOUN
+bolso,bag,,NOUN
+bomba,bomb/pump,,NOUN
+borracho,drunk,,ADJ
+bosque,forest,,NOUN
+botella,bottle,,NOUN
+bravo,brave/fierce,,ADJ
+brazo,arm,,NOUN
+bruja,witch,,NOUN
+búsqueda,search/hunt,,NOUN
+caballero,knight/gentleman,,NOUN
+cabo,end/cape/corporal,,NOUN
+cadena,chain/channel,,NOUN
+cadáver,corpse,,NOUN
 caer,to fall,,VERB
-calma,calm/peace,,X
+calma,calm/peace,,NOUN
 calor,heat,,NOUN
 caminar,to walk,,VERB
-camisa,shirt,,X
-camión,truck,,X
-campamento,camp,,X
-campaña,campaign,,X
-cansado,tired,,VERB
+camisa,shirt,,NOUN
+camión,truck,,NOUN
+campamento,camp,,NOUN
+campaña,campaign,,NOUN
+cansado,tired,,ADJ
 cantar,to sing,,VERB
 cantidad,quantity/amount,,NOUN
-carga,load/cargo,,X
+carga,load/cargo,,NOUN
 carretera,highway/road,,NOUN
-carro,cart/carriage,,X
-casado,married,,VERB
+casado,married,,ADJ
 casar,to marry,,VERB
-castillo,castle,,X
+castillo,castle,,NOUN
 casualidad,coincidence/chance,,NOUN
-celda,cell,,X
-cerdo,pig,,X
-cero,zero,,X
-cerrado,closed,,VERB
+celda,cell,,NOUN
+cerdo,pig,,NOUN
+cero,zero,,NUM
+cerrado,closed,,ADJ
 cerrar,to close,,VERB
-cerveza,beer,,X
-chaqueta,jacket,,X
-charla,chat/talk,,X
-cheque,check,,X
-chocolate,chocolate,,X
-cien,hundred,,X
+cerveza,beer,,NOUN
+chaqueta,jacket,,NOUN
+charla,chat/talk,,NOUN
+cheque,check,,NOUN
+chocolate,chocolate,,NOUN
+cien,hundred,,NUM
 ciencia,science,,NOUN
-ciento,hundred,,X
-cine,cinema,,X
-cinta,tape/ribbon,,X
-cirugía,surgery,,X
-claramente,clearly,,X
-clave,key/code,,X
-cobarde,coward/cowardly,,X
+ciento,hundred,,NUM
+cine,cinema,,NOUN
+cinta,tape/ribbon,,NOUN
+cirugía,surgery,,NOUN
+claramente,clearly,,ADV
+clave,key/code,,NOUN
+cobarde,coward/cowardly,,ADJ
 coger,to catch/take/grab,,VERB
 coincidencia,coincidence,,NOUN
-cola,tail/line,,X
-colega,colleague,,X
-colegio,school,,X
-comandante,commander,,ADJ
-combate,combat/battle,,X
+cola,tail/line,,NOUN
+colega,colleague,,NOUN
+colegio,school,,NOUN
+comandante,commander,,NOUN
+combate,combat/battle,,NOUN
 comenzar,to begin/start,,VERB
-comienzo,beginning,,X
+comienzo,beginning,,NOUN
 compartir,to share,,VERB
-completo,complete,,X
-complicado,complicated,,VERB
-compromiso,commitment/engagement,,X
-computadora,computer (Latin America),,X
+completo,complete,,ADJ
+complicado,complicated,,ADJ
+compromiso,commitment/engagement,,NOUN
+computadora,computer (Latin America),,NOUN
 comunidad,community,,NOUN
-común,common,,X
+común,common,,ADJ
 conciencia,conscience/awareness,,NOUN
 condición,condition,,NOUN
 conducir,to drive,,VERB
-conexión,connection,,X
+conexión,connection,,NOUN
 confianza,trust/confidence,,NOUN
-conocimiento,knowledge,,X
-consejo,advice,,X
+conocimiento,knowledge,,NOUN
+consejo,advice,,NOUN
 construir,to build,,VERB
-contado,counted/cash,,VERB
+contado,counted/cash,,ADJ
 contar,to count/tell,,VERB
-contento,glad/happy,,X
+contento,glad/happy,,ADJ
 continuar,to continue,,VERB
-contrario,contrary/opposite,,X
-contrato,contract,,X
+contrario,contrary/opposite,,ADJ
+contrato,contract,,NOUN
 controlar,to control,,VERB
 conversación,conversation,,NOUN
-copia,copy,,X
-coronel,colonel,,X
-correo,mail/post,,X
+copia,copy,,NOUN
+coronel,colonel,,NOUN
 correr,to run,,VERB
-corriente,current/ordinary,,X
-corte,cut/court,,X
-corto,short,,X
-costa,coast,,X
+corriente,current/ordinary,,NOUN
+corte,cut/court,,NOUN
+corto,short,,ADJ
+costa,coast,,NOUN
 crear,to create,,VERB
 criatura,creature,,NOUN
-cruel,cruel,,X
-crédito,credit,,X
-cuchillo,knife,,X
-cuento,story/tale,,X
-cuerpo,body,,X
+cruel,cruel,,ADJ
+crédito,credit,,NOUN
+cuchillo,knife,,NOUN
+cuento,story/tale,,NOUN
+cuerpo,body,,NOUN
 cuidar,to care for/look after,,VERB
 culpable,guilty,,ADJ
 cumplir,to fulfill/comply,,VERB
 cura,priest/cure,,NOUN
 curiosidad,curiosity,,NOUN
-curso,course/school year,,X
-cámara,camera,,X
-cáncer,cancer,,VERB
-código,code,,X
-deber,must/should,,VERB
-debido,due,,VERB
-decidido,determined,,VERB
+cámara,camera,,NOUN
+cáncer,cancer,,NOUN
+código,code,,NOUN
+deber,must/should,,NOUN
+debido,due,,ADJ
 decidir,to decide,,VERB
 declaración,declaration/statement,,NOUN
-dedo,finger/toe,,X
-defensa,defense,,X
-definitivamente,definitely,,X
-demonio,demon/devil,,X
-departamento,department,,X
-desaparecido,missing,,VERB
-desastre,disaster,,X
-desayuno,breakfast,,X
+dedo,finger/toe,,NOUN
+defensa,defense,,NOUN
+definitivamente,definitely,,ADV
+demonio,demon/devil,,NOUN
+departamento,department,,NOUN
+desaparecido,missing,,ADJ
+desastre,disaster,,NOUN
+desayuno,breakfast,,NOUN
 descansar,to rest,,VERB
-descanso,rest/break,,X
-descubierto,uncovered,,X
+descanso,rest/break,,NOUN
+descubierto,uncovered,,ADJ
 descubrir,to discover,,VERB
-desgracia,misfortune/disgrace,,X
-despacho,office,,X
-despacio,slowly,,X
-despierto,awake,,X
+desgracia,misfortune/disgrace,,NOUN
+despacho,office,,NOUN
+despacio,slowly,,ADV
+despierto,awake,,ADJ
 destruir,to destroy,,VERB
-detective,detective,,X
+detective,detective,,NOUN
 detener,to stop/arrest,,VERB
-diablo,devil,,X
-diario,newspaper/diary,,X
-directo,direct,,X
-disco,record/disc,,X
-disculpa,apology,,X
-discurso,speech,,X
+diablo,devil,,NOUN
+diario,newspaper/diary,,NOUN
+directo,direct,,ADJ
+disco,record/disc,,NOUN
+disculpa,apology,,NOUN
+discurso,speech,,NOUN
 discutir,to argue/discuss,,VERB
 disparar,to shoot,,VERB
-disparo,shot,,X
-dispuesto,ready/willing,,X
+dispuesto,ready/willing,,ADJ
 distancia,distance,,NOUN
-diversión,fun/entertainment,,X
-doble,double,,X
-domingo,Sunday,,X
-don,gift/talent/Mr.,,X
-droga,drug,,X
-dueño,owner,,X
-débil,weak,,X
-e,and,,X
+diversión,fun/entertainment,,NOUN
+doble,double,,ADJ
+domingo,Sunday,,NOUN
+don,gift/talent/Mr.,,NOUN
+droga,drug,,NOUN
+dueño,owner,,NOUN
+débil,weak,,ADJ
+e,and,,CCONJ
 echar,to throw/kick out,,VERB
 efectivo,effective/cash,,ADJ
-efecto,effect,,X
-ejemplo,example,,X
+efecto,effect,,NOUN
+ejemplo,example,,NOUN
 elección,election/choice,,NOUN
 elegir,to choose,,VERB
-embarazada,pregnant,,X
+embarazada,pregnant,,ADJ
 emergencia,emergency,,NOUN
-empleo,employment/job,,X
-empresa,company,,X
-enamorado,in love,,VERB
-encargo,order/commission,,X
-enemigo,enemy,,X
+empleo,employment/job,,NOUN
+empresa,company,,NOUN
+enamorado,in love,,ADJ
+encargo,order/commission,,NOUN
+enemigo,enemy,,NOUN
 enfermedad,illness/disease,,NOUN
-enfermo,sick,,X
-enorme,enormous/huge,,X
-enseguida,immediately,,X
-entero,whole/entire,,X
-entrada,entrance/ticket,,X
+enfermo,sick,,ADJ
+enorme,enormous/huge,,ADJ
+enseguida,immediately,,ADV
+entrada,entrance/ticket,,NOUN
 entrenador,coach/trainer,,NOUN
-entrenamiento,training,,X
+entrenamiento,training,,NOUN
 entrevista,interview,,NOUN
-enviado,envoy/sent,,VERB
+enviado,envoy/sent,,ADJ
 enviar,to send,,VERB
 escapar,to escape,,VERB
-escena,scene/stage,,X
-escenario,stage/scenery,,X
+escena,scene/stage,,NOUN
+escenario,stage/scenery,,NOUN
 escribir,to write,,VERB
-escrito,written/writing,,X
-esfuerzo,effort,,X
-espada,sword,,X
-especialmente,especially,,X
-espectáculo,spectacle/show,,X
-espejo,mirror,,X
+escrito,written/writing,,ADJ
+esfuerzo,effort,,NOUN
+espada,sword,,NOUN
+especialmente,especially,,ADV
+espectáculo,spectacle/show,,NOUN
+espejo,mirror,,NOUN
 esperanza,hope,,NOUN
-espíritu,spirit,,X
-esquina,corner,,X
+espíritu,spirit,,NOUN
+esquina,corner,,NOUN
 estación,station,,NOUN
-estilo,style,,X
-estrella,star,,X
-estudiante,student,,ADJ
+estrella,star,,NOUN
+estudiante,student,,NOUN
 estudiar,to study,,VERB
-estudio,study,,X
-estupendo,wonderful,,X
-estómago,stomach,,X
+estudio,study,,NOUN
+estupendo,wonderful,,ADJ
+estómago,stomach,,NOUN
 evitar,to avoid,,VERB
-exacto,exact,,X
-examen,exam,,X
-excelente,excellent,,X
-excusa,excuse,,X
+exacto,exact,,ADJ
+examen,exam,,NOUN
+excelente,excellent,,ADJ
+excusa,excuse,,NOUN
 experiencia,experience,,NOUN
 explicar,to explain,,VERB
-explosión,explosion,,X
-extra,extra,,X
-falso,false/fake,,X
-familiar,familiar/family member,,VERB
-famoso,famous,,ADJ
-fantasma,ghost,,X
+explosión,explosion,,NOUN
+extra,extra,,ADJ
+falso,false/fake,,ADJ
+familiar,familiar/family member,,ADJ
+fantasma,ghost,,NOUN
 fantástico,fantastic,,ADJ
-favorito,favorite,,X
-fe,faith,,X
-fecha,date,,X
+favorito,favorite,,ADJ
+fe,faith,,NOUN
+fecha,date,,NOUN
 felicidad,happiness,,NOUN
-finalmente,finally,,X
-firma,signature/firm,,X
-fiscal,prosecutor,,ADJ
-fortuna,fortune/luck,,X
-francés,French,,X
+finalmente,finally,,ADV
+firma,signature/firm,,NOUN
+fiscal,prosecutor,,NOUN
+fortuna,fortune/luck,,NOUN
+francés,French,,NOUN
 frontera,border,,NOUN
-fuente,source/fountain,,X
+fuente,source/fountain,,NOUN
 fumar,to smoke,,VERB
 funcionar,to work/function,,VERB
-funeral,funeral,,ADJ
-fábrica,factory,,X
-fútbol,soccer/football,,X
-ganado,cattle,,VERB
-ganas,desire/mood,,X
-gas,gas,,X
-gato,cat,,X
-gay,gay,,X
-genio,genius/temper,,X
-golpe,blow/hit,,X
-gordo,fat,,X
-gracia,grace/joke,,X
-grado,degree/grade,,VERB
-gratis,free (of charge),,X
-grave,serious/grave,,X
-guapa,beautiful,,X
-guapo,handsome,,X
-guardia,guard,,X
-helado,ice cream/frozen,,VERB
-herida,wound,,X
-herido,injured/wounded,,VERB
-hielo,ice,,X
-honesto,honest,,X
-hospital,hospital,,ADJ
+funeral,funeral,,NOUN
+fábrica,factory,,NOUN
+fútbol,soccer/football,,NOUN
+ganado,cattle,,ADJ
+gas,gas,,NOUN
+gato,cat,,NOUN
+gay,gay,,NOUN
+genio,genius/temper,,NOUN
+golpe,blow/hit,,NOUN
+gordo,fat,,ADJ
+gracia,grace/joke,,NOUN
+grado,degree/grade,,NOUN
+gratis,free (of charge),,ADV
+grave,serious/grave,,ADJ
+guapo,handsome,,ADJ
+guardia,guard,,NOUN
+helado,ice cream/frozen,,ADJ
+herida,wound,,ADJ
+herido,injured/wounded,,NOUN
+honesto,honest,,ADJ
+hospital,hospital,,NOUN
 huir,to flee,,VERB
 humanidad,humanity,,NOUN
 humor,humor/mood,,NOUN
-héroe,hero,,X
-iglesia,church,,X
+héroe,hero,,NOUN
+iglesia,church,,NOUN
 ilegal,illegal,,ADJ
-imagen,image,,X
+imagen,image,,NOUN
 imaginar,to imagine,,VERB
-imbécil,imbecile/idiot,,X
+imbécil,imbecile/idiot,,ADJ
 importancia,importance,,NOUN
 impresionante,impressive,,ADJ
-incendio,fire,,X
-informe,report,,X
-inglés,English,,X
-inmediatamente,immediately,,X
-inmediato,immediate,,X
-inocente,innocent,,X
+incendio,fire,,NOUN
+informe,report,,NOUN
+inglés,English,,NOUN
+inmediatamente,immediately,,ADV
+inmediato,immediate,,ADJ
+inocente,innocent,,ADJ
 inteligencia,intelligence,,NOUN
 intención,intention,,NOUN
 intentar,to try,,VERB
-interesado,interested,,VERB
+interesado,interested,,ADJ
 interior,interior/inside,,NOUN
-interés,interest,,X
-invierno,winter,,X
-invitado,guest,,VERB
-inútil,useless,,X
-ira,wrath/anger,,X
-isla,island,,X
-jardín,garden,,X
-juez,judge,,X
-jurado,jury,,VERB
-justicia,justice,,X
-laboratorio,laboratory,,X
-ladrón,thief,,X
-lago,lake,,X
+interés,interest,,NOUN
+invierno,winter,,NOUN
+invitado,guest,,NOUN
+inútil,useless,,ADJ
+ira,wrath/anger,,NOUN
+isla,island,,NOUN
+jardín,garden,,NOUN
+juez,judge,,NOUN
+jurado,jury,,NOUN
+justicia,justice,,NOUN
+laboratorio,laboratory,,NOUN
+ladrón,thief,,NOUN
+lago,lake,,NOUN
 lección,lesson,,NOUN
-leche,milk,,X
+leche,milk,,NOUN
 leer,to read,,VERB
 legal,legal,,ADJ
-lengua,tongue/language,,X
+lengua,tongue/language,,NOUN
 licencia,license,,NOUN
 limpiar,to clean,,VERB
-limpio,clean,,X
-lleno,full,,X
+limpio,clean,,ADJ
+lleno,full,,PROPN
 llorar,to cry,,VERB
-lluvia,rain,,X
+lluvia,rain,,NOUN
 local,local,,ADJ
-lucha,fight/struggle,,X
+lucha,fight/struggle,,NOUN
 luchar,to fight,,VERB
-luna,moon,,X
-lunes,Monday,,X
-lástima,pity/shame,,X
-líder,leader,,VERB
-lío,mess,,X
-magia,magic,,X
-mando,command/remote control,,VERB
+luna,moon,,NOUN
+lunes,Monday,,NOUN
+lástima,pity/shame,,ADJ
+líder,leader,,NOUN
+magia,magic,,NOUN
+mando,command/remote control,,NOUN
 manejar,to drive/manage,,VERB
-mapa,map,,X
-marca,brand/mark,,X
-material,material,,ADJ
-medicina,medicine,,X
-memoria,memory,,X
-mentira,lie,,X
-mercado,market,,VERB
+mapa,map,,NOUN
+marca,brand/mark,,NOUN
+material,material,,NOUN
+medicina,medicine,,NOUN
+memoria,memory,,NOUN
+mercado,market,,NOUN
 meter,to put in,,VERB
-miembro,member,,X
-milagro,miracle,,X
-militar,military,,VERB
-millón,million,,X
-mirada,look/glance,,X
-modelo,model,,X
-monstruo,monster,,X
-montaña,mountain,,X
+miembro,member,,NOUN
+milagro,miracle,,NOUN
+militar,military,,ADJ
+millón,million,,NOUN
+mirada,look/glance,,NOUN
+modelo,model,,NOUN
+monstruo,monster,,NOUN
+montaña,mountain,,NOUN
 mostrar,to show,,VERB
-motivo,reason/motive,,ADJ
+motivo,reason/motive,,NOUN
 motor,engine,,NOUN
 mover,to move,,VERB
-movimiento,movement,,X
-muerto,dead,,X
-muestra,sample/sign,,X
-máximo,maximum,,X
-móvil,mobile phone,,X
+movimiento,movement,,NOUN
+muerto,dead,,ADJ
+muestra,sample/sign,,NOUN
+máximo,maximum,,ADJ
+móvil,mobile phone,,NOUN
 nacional,national,,ADJ
-nariz,nose,,X
-naturaleza,nature,,X
+nariz,nose,,NOUN
+naturaleza,nature,,NOUN
 necesidad,need/necessity,,NOUN
-nervioso,nervous,,ADJ
-nieve,snow,,X
-ninguno,none/no one,,X
+nervioso,nervous,,NOUN
+nieve,snow,,NOUN
+ninguno,none/no one,,INTJ
 niñera,babysitter,,NOUN
-norte,north,,X
-nota,note/grade,,X
-noticia,news,,X
-nueve,nine,,X
-objetivo,objective/goal,,ADJ
-obra,work/construction,,X
+norte,north,,NOUN
+nota,note/grade,,NOUN
+noticia,news,,NOUN
+nueve,nine,,NUM
+objetivo,objective/goal,,NOUN
+obra,work/construction,,NOUN
 obtener,to obtain/get,,VERB
-ocupado,busy/occupied,,VERB
-oeste,west,,X
-ojo,eye,,X
+ocupado,busy/occupied,,ADJ
+oeste,west,,NOUN
+ojo,eye,,NOUN
 opción,option/choice,,NOUN
 operación,operation,,NOUN
-orgullo,pride,,X
+orgullo,pride,,NOUN
 oscuridad,darkness,,NOUN
-oscuro,dark,,X
-paciente,patient,,X
-pago,payment,,X
-pan,bread,,X
-paquete,package,,X
+oscuro,dark,,ADJ
+paciente,patient,,NOUN
+pago,payment,,NOUN
+pan,bread,,NOUN
+paquete,package,,NOUN
 parecer,to seem/look like,,VERB
-parecido,similar/resemblance,,VERB
-pared,wall,,X
-pareja,couple/partner,,X
-parque,park,,X
-partido,game/party,,VERB
+parecido,similar/resemblance,,ADJ
+pared,wall,,NOUN
+pareja,couple/partner,,NOUN
+parque,park,,NOUN
+partido,game/party,,NOUN
 partir,to leave/split,,VERB
-pasillo,hallway/aisle,,X
-pecho,chest,,X
-pedazo,piece,,X
+pasillo,hallway/aisle,,NOUN
+pecho,chest,,NOUN
+pedazo,piece,,NOUN
 pelear,to fight/argue,,VERB
-peligroso,dangerous,,ADJ
-pelota,ball,,X
-película,movie,,X
-periódico,newspaper,,ADJ
+pelota,ball,,NOUN
+película,movie,,NOUN
+periódico,newspaper,,NOUN
 permitir,to allow,,VERB
-pesadilla,nightmare,,X
-pesar,to weigh,,VERB
-pescado,fish,,VERB
-peso,weight,,X
-piedra,stone,,X
-piel,skin/leather,,X
-pierna,leg,,X
-pieza,piece/part,,X
-piloto,pilot,,X
+pesadilla,nightmare,,NOUN
+pesar,to weigh,,NOUN
+pescado,fish,,NOUN
+peso,weight,,NOUN
+piedra,stone,,NOUN
+piel,skin/leather,,NOUN
+pierna,leg,,NOUN
+pieza,piece/part,,NOUN
+piloto,pilot,,NOUN
 pintura,painting/paint,,NOUN
 pista,clue/track,,NOUN
-pistola,pistol,,X
-planta,plant/floor,,X
-plata,silver/money,,X
-playa,beach,,X
-policía,police,,X
-pollo,chicken,,X
-polvo,dust,,X
-política,politics,,X
-precio,price,,X
+pistola,pistol,,NOUN
+planta,plant/floor,,NOUN
+plata,silver/money,,NOUN
+playa,beach,,NOUN
+policía,police,,NOUN
+pollo,chicken,,NOUN
+polvo,dust,,NOUN
+precio,price,,NOUN
 precioso,precious/beautiful,,ADJ
-preciso,precise/necessary,,X
+preciso,precise/necessary,,ADJ
 preguntar,to ask,,VERB
-premio,prize/award,,X
-prensa,press,,X
+premio,prize/award,,NOUN
+prensa,press,,NOUN
 preparar,to prepare,,VERB
 presencia,presence,,NOUN
-presión,pressure,,X
-primo,cousin,,X
+presión,pressure,,NOUN
+primo,cousin,,NOUN
 principal,main/principal,,ADJ
-privado,private,,VERB
+privado,private,,ADJ
 probable,probable/likely,,ADJ
 probar,to try/taste/prove,,VERB
-proceso,process,,X
+proceso,process,,NOUN
 profesional,professional,,ADJ
-profundo,deep,,X
-promesa,promise,,X
+profundo,deep,,ADJ
+promesa,promise,,NOUN
 propiedad,property,,NOUN
-propósito,purpose/intention,,X
+propósito,purpose/intention,,NOUN
 proteger,to protect,,VERB
-príncipe,prince,,X
-próximo,next,,X
-puente,bridge,,X
-página,page,,X
-pérdida,loss,,X
+príncipe,prince,,NOUN
+próximo,next,,ADJ
+puente,bridge,,NOUN
+página,page,,NOUN
+pérdida,loss,,NOUN
 quedar,to stay/meet,,VERB
 queso,cheese,,X
-radio,radio,,X
+radio,radio,,NOUN
 recibir,to receive,,VERB
 recoger,to pick up/gather,,VERB
 recordar,to remember,,VERB
 recuperar,to recover/get back,,VERB
-regla,rule/ruler,,X
-reina,queen,,X
-reino,kingdom,,X
-reloj,clock/watch,,X
+regla,rule/ruler,,NOUN
+reina,queen,,NOUN
+reino,kingdom,,NOUN
+reloj,clock/watch,,NOUN
 resolver,to solve,,VERB
 respirar,to breathe,,VERB
 responder,to respond/answer,,VERB
 responsabilidad,responsibility,,NOUN
-responsable,responsible,,ADJ
-restaurante,restaurant,,ADJ
-resultado,result,,VERB
+responsable,responsible,,NOUN
+restaurante,restaurant,,NOUN
+resultado,result,,NOUN
 revisar,to review/check,,VERB
 rico,rich/tasty,,ADJ
-ridículo,ridiculous,,X
-riesgo,risk,,X
-ritmo,rhythm,,X
+ridículo,ridiculous,,ADJ
+riesgo,risk,,NOUN
+ritmo,rhythm,,NOUN
 robar,to steal,,VERB
-robo,robbery/theft,,X
-rojo,red,,X
+robo,robbery/theft,,NOUN
+rojo,red,,ADJ
 romper,to break,,VERB
-rostro,face,,X
-roto,broken,,X
-ruido,noise,,VERB
-río,river,,X
-sal,salt,,ADJ
+rostro,face,,NOUN
+roto,broken,,ADJ
+ruido,noise,,NOUN
+río,river,,NOUN
+sal,salt,,NOUN
 saltar,to jump,,VERB
-salud,health/cheers,,X
-santo,saint,,X
-secreto,secret,,X
-sencillo,simple,,X
+salud,health/cheers,,NOUN
+santo,saint,,NOUN
+secreto,secret,,NOUN
+sencillo,simple,,ADJ
 sensación,sensation/feeling,,NOUN
-serie,series,,X
+serie,series,,NOUN
 servir,to serve,,VERB
-siglo,century,,X
-silencio,silence,,X
-silla,chair,,X
+siglo,century,,NOUN
+silencio,silence,,NOUN
+silla,chair,,NOUN
 sobrevivir,to survive,,VERB
-sobrina,niece,,X
+sobrina,niece,,NOUN
 sociedad,society,,NOUN
-socio,partner/member,,X
-soldado,soldier,,VERB
+socio,partner/member,,NOUN
 solución,solution,,NOUN
-sombrero,hat,,X
-sonido,sound,,VERB
-sonrisa,smile,,X
-sopa,soup,,X
+sombrero,hat,,NOUN
+sonido,sound,,NOUN
+sonrisa,smile,,NOUN
+sopa,soup,,NOUN
 soportar,to endure/bear,,VERB
-sospechoso,suspect,,ADJ
-suave,soft/smooth,,X
+suave,soft/smooth,,ADJ
 subir,to go up/get on,,VERB
 suceder,to happen,,VERB
-sucio,dirty,,X
-superior,superior/upper,,NOUN
-sur,south,,X
-suyo,his/hers/theirs/yours (formal),,X
-sábado,Saturday,,VERB
-talento,talent,,X
-tamaño,size (format),,X
-tarea,task/homework,,X
-tarjeta,card,,X
-taxi,taxi,,X
-taza,cup,,X
-teatro,theater,,X
-techo,roof/ceiling,,X
-temporada,season,,X
-teoría,theory,,X
-tesoro,treasure,,X
-testigo,witness,,X
+sucio,dirty,,ADJ
+superior,superior/upper,,ADJ
+sur,south,,NOUN
+suyo,his/hers/theirs/yours (formal),,INTJ
+sábado,Saturday,,NOUN
+talento,talent,,NOUN
+tamaño,size (format),,NOUN
+tarea,task/homework,,NOUN
+tarjeta,card,,NOUN
+taxi,taxi,,NOUN
+taza,cup,,NOUN
+teatro,theater,,NOUN
+techo,roof/ceiling,,NOUN
+temporada,season,,NOUN
+teoría,theory,,NOUN
+testigo,witness,,NOUN
 tirar,to throw/pull,,VERB
 tocar,to touch/play,,VERB
-toque,touch,,X
-tormenta,storm,,X
+toque,touch,,NOUN
+tormenta,storm,,NOUN
 traer,to bring,,VERB
-trampa,trap,,X
-tranquilo,calm/quiet,,X
-tratamiento,treatment,,X
+trampa,trap,,NOUN
+tranquilo,calm/quiet,,ADJ
+tratamiento,treatment,,NOUN
 tratar,to treat/try,,VERB
 tripulación,crew,,NOUN
-truco,trick,,X
-tráfico,traffic/smuggling,,ADJ
-turno,turn/shift,,X
-té,tea,,X
+truco,trick,,NOUN
+tráfico,traffic/smuggling,,NOUN
+turno,turn/shift,,NOUN
+té,tea,,NOUN
 universidad,university,,NOUN
-universo,universe,,X
+universo,universe,,NOUN
 uso,use,,X
-vacaciones,vacation/holidays,,X
-vacío,empty,,X
-valiente,brave,,X
+vacaciones,vacation/holidays,,NOUN
+vacío,empty,,ADJ
+valiente,brave,,ADJ
 valor,value/courage,,NOUN
-varios,several/various,,X
-vaso,glass,,X
-vecina,neighbor (female),,X
-vehículo,vehicle,,X
+varios,several/various,,PRON
+vecina,neighbor (female),,ADJ
+vehículo,vehicle,,NOUN
 velocidad,speed,,NOUN
 vender,to sell,,VERB
 venganza,revenge,,NOUN
-ventaja,advantage,,X
-verano,summer,,X
+ventaja,advantage,,NOUN
 verdad,truth,,NOUN
-verde,green,,X
-vergüenza,shame/embarrassment,,X
-versión,version,,X
+verde,green,,ADJ
+vergüenza,shame/embarrassment,,NOUN
+versión,version,,NOUN
 viajar,to travel,,VERB
-victoria,victory,,X
-viento,wind,,X
-viernes,Friday,,X
+victoria,victory,,NOUN
+viento,wind,,NOUN
+viernes,Friday,,NOUN
 violencia,violence,,NOUN
-virus,virus,,X
-visita,visit,,X
-visión,vision,,X
+virus,virus,,NOUN
+visita,visit,,NOUN
+visión,vision,,NOUN
 volar,to fly,,VERB
-voluntad,will/willpower,,X
-vuelo,flight,,X
-vuestro,your (plural),,X
-ángel,angel,,X
-árbol,tree,,X
-época,epoch/time,,X
-útil,useful,,X
-baile,dance,,NOUN
-baile,dance,,VERB
+voluntad,will/willpower,,NOUN
+vuelo,flight,,NOUN
+vuestro,your (plural),,PRON
+ángel,angel,,NOUN
+árbol,tree,,NOUN
+época,epoch/time,,NOUN
+útil,useful,,ADJ

@@ -1,20 +1,20 @@
 Spanish_Lemma,English_Lemma,Chinese_Lemma,POS
-avanzado,advanced,,VERB
-convenio,agreement/convention,,X
+avanzado,advanced,,ADJ
+convenio,agreement/convention,,NOUN
 defensivo,defensive,,ADJ
 defensor,defender,,NOUN
 deferencia,deference,,NOUN
-deferente,deferential,,X
+deferente,deferential,,NOUN
 deficiencia,deficiency,,NOUN
-deficiente,deficient,,X
-deficitario,deficient,,X
+deficiente,deficient,,ADJ
+deficitario,deficient,,ADJ
 definible,definable,,ADJ
 definitivo,definitive,,ADJ
 defloración,defloration,,NOUN
 deflorar,to deflower,,VERB
 deformación,deformation,,NOUN
 deformar,to deform,,VERB
-deforme,deformed,,X
+deforme,deformed,,ADJ
 defraudar,to defraud,,VERB
 defunción,decease,,NOUN
 degeneración,degeneration,,NOUN
@@ -25,7 +25,7 @@ degradante,degrading,,ADJ
 degradar,to degrade,,VERB
 degustación,tasting,,NOUN
 degustar,to taste,,VERB
-dehesa,pasture,,X
+dehesa,pasture,,NOUN
 deidad,deity,,NOUN
 deificar,to deify,,VERB
 dejación,relinquishment,,NOUN
@@ -33,19 +33,19 @@ delación,denunciation,,NOUN
 delatar,to denounce,,VERB
 delator,informer,,NOUN
 delegación,delegation,,NOUN
-delegado,delegate,,VERB
+delegado,delegate,,NOUN
 delegar,to delegate,,VERB
 deleitable,delightful,,ADJ
 deleitar,to delight,,VERB
-deleite,delight,,X
-deletreo,spelling,,X
+deleite,delight,,NOUN
+deletreo,spelling,,NOUN
 deleznable,brittle,,ADJ
-delgadez,thinness,,X
+delgadez,thinness,,NOUN
 deliberación,deliberation,,NOUN
 deliberante,deliberating,,ADJ
 deliberar,to deliberate,,VERB
-delicadeza,delicacy,,X
-delicia,delight,,X
+delicadeza,delicacy,,NOUN
+delicia,delight,,ADJ
 delictivo,criminal,,ADJ
 delimitación,delimitation,,NOUN
 delimitar,to delimit,,VERB
@@ -53,10 +53,10 @@ delincuencia,delinquency,,NOUN
 delinear,to delineate,,VERB
 delirante,delirious,,ADJ
 delirar,to rave/be delirious,,VERB
-delirio,delirium,,X
-demacrado,emaciated,,VERB
-demagogia,demagoguery,,X
-demagogo,demagogue,,X
+delirio,delirium,,NOUN
+demacrado,emaciated,,ADJ
+demagogia,demagoguery,,NOUN
+demagogo,demagogue,,NOUN
 demandar,to sue/demand,,VERB
 demarcación,demarcation,,NOUN
 demarcar,to demarcate,,VERB
@@ -64,32 +64,32 @@ demencia,dementia,,NOUN
 demencial,demented,,ADJ
 democratización,democratization,,NOUN
 democratizar,to democratize,,VERB
-demoledor,devastating,,NOUN
+demoledor,devastating,,ADJ
 demoler,to demolish,,VERB
 demolición,demolition,,NOUN
-demoníaco,demonic,,X
-demora,delay,,X
+demoníaco,demonic,,ADJ
+demora,delay,,NOUN
 demorar,to delay,,VERB
 demostrable,demonstrable,,ADJ
 demudar,to alter,,VERB
 denegación,denial,,NOUN
 denegar,to deny,,VERB
 denigrar,to denigrate,,VERB
-denodado,intrepid,,VERB
+denodado,intrepid,,ADJ
 denominación,denomination,,NOUN
 denominador,denominator,,NOUN
 denominar,to denominate,,VERB
 denotar,to denote,,VERB
 densidad,density,,NOUN
-denuedo,boldness,,X
-denuesto,insult,,X
-denunciante,plaintiff,,ADJ
+denuedo,boldness,,NOUN
+denuesto,insult,,ADJ
+denunciante,plaintiff,,NOUN
 denunciar,to denounce,,VERB
 deparar,to provide,,VERB
 departir,to converse,,VERB
 dependencia,dependence,,NOUN
 depender,to depend,,VERB
-dependiente,dependent,,X
+dependiente,dependent,,ADJ
 deplorable,deplorable,,ADJ
 deplorar,to deplore,,VERB
 deportación,deportation,,NOUN
@@ -110,244 +110,241 @@ depredar,to depredate,,VERB
 deprimir,to depress,,VERB
 depuración,purification,,NOUN
 depurar,to purify,,VERB
-depósito,deposit,,X
-deriva,drift,,X
+depósito,deposit,,NOUN
+deriva,drift,,NOUN
 derivación,derivation,,NOUN
-derivado,derivative,,VERB
 derivar,to derive,,VERB
 derogación,derogation,,NOUN
 derogar,to derogate,,VERB
-derramamiento,spilling,,X
+derramamiento,spilling,,NOUN
 derramar,to spill,,VERB
-derrame,spill,,X
+derrame,spill,,NOUN
 derretir,to melt,,VERB
-derribo,demolition,,X
+derribo,demolition,,NOUN
 derrocar,to overthrow,,VERB
-derrochador,squanderer,,NOUN
+derrochador,squanderer,,ADJ
 derrochar,to squander,,VERB
-derroche,squander,,X
+derroche,squander,,NOUN
 derrotismo,defeatism,,NOUN
 derrumbar,to collapse,,VERB
-desabridamente,bluntly,,X
-desabrido,bland,,VERB
+desabridamente,bluntly,,ADV
+desabrido,bland,,ADJ
 desabrochar,to unbutton,,VERB
 desacatar,to disrespect,,VERB
-desacato,disrespect,,X
-desacertado,unwise,,VERB
+desacato,disrespect,,NOUN
+desacertado,unwise,,ADJ
 desacertar,to err,,VERB
-desacierto,blunder,,X
+desacierto,blunder,,NOUN
 desacomodar,to inconvenience,,VERB
 desaconsejar,to advise against,,VERB
 desacoplar,to uncouple,,VERB
 desacordar,to disagree,,VERB
-desacorde,discordant,,X
-desacostumbrado,unaccustomed,,VERB
+desacorde,discordant,,NOUN
+desacostumbrado,unaccustomed,,ADJ
 desacreditar,to discredit,,VERB
 desactivar,to deactivate,,VERB
-desadaptado,maladjusted,,VERB
+desadaptado,maladjusted,,ADJ
 desafección,disaffection,,NOUN
-desafecto,disaffection,,X
+desafecto,disaffection,,NOUN
 desafiante,defiant,,ADJ
 desafiar,to challenge,,VERB
 desafinar,to be out of tune,,VERB
-desaforado,unbridled,,VERB
+desaforado,unbridled,,ADJ
 desagradar,to displease,,VERB
-desagradecido,ungrateful,,VERB
-desagravio,amends,,X
+desagradecido,ungrateful,,ADJ
+desagravio,amends,,NOUN
 desaguar,to drain,,VERB
-desaguisado,outrage,,VERB
-desagüe,drainage,,X
-desahogadamente,comfortably,,X
-desahogarse,to vent,,X
-desahogo,relief,,X
+desaguisado,outrage,,NOUN
+desagüe,drainage,,NOUN
+desahogadamente,comfortably,,ADV
+desahogarse,to vent,,VERB
+desahogo,relief,,NOUN
 desahuciar,to evict,,VERB
-desahucio,eviction,,X
+desahucio,eviction,,NOUN
 desairar,to snub,,VERB
-desaire,snub,,X
+desaire,snub,,NOUN
 desajustar,to disarrange,,VERB
-desalentador,disheartening,,NOUN
+desalentador,disheartening,,ADJ
 desalentar,to discourage,,VERB
-desaliento,discouragement,,X
+desaliento,discouragement,,NOUN
 desaliñar,to disarray,,VERB
-desaliño,untidiness,,X
-desalmado,heartless,,VERB
+desaliño,untidiness,,NOUN
+desalmado,heartless,,ADJ
 desalojar,to evict/clear,,VERB
-desalumbrado,dimmed,,VERB
+desalumbrado,dimmed,,ADJ
 desamarrar,to untie,,VERB
-desambientado,out of place,,VERB
+desambientado,out of place,,NOUN
 desamor,lack of affection,,NOUN
 desamortizar,to disentail,,VERB
 desamparar,to abandon,,VERB
-desamparo,abandonment,,X
 desangrar,to bleed,,VERB
 desanimar,to dishearten,,VERB
 desapacible,unpleasant,,ADJ
-desapasionado,dispassionate,,VERB
-desapego,detachment,,X
+desapasionado,dispassionate,,ADJ
+desapego,detachment,,NOUN
 desapercibido,unnoticed,,VERB
-desaplicado,careless,,VERB
+desaplicado,careless,,ADJ
 desaprensivo,unscrupulous,,ADJ
 desaprobación,disapproval,,NOUN
 desaprobar,to disapprove,,VERB
 desaprovechar,to waste,,VERB
 desarbolar,to dismast,,VERB
 desarmar,to disarm,,VERB
-desarme,disarmament,,X
-desarraigado,uprooted,,VERB
+desarme,disarmament,,NOUN
+desarraigado,uprooted,,ADJ
 desarraigar,to uproot,,VERB
-desarraigo,uprooting,,X
+desarraigo,uprooting,,NOUN
 desarreglar,to disarrange,,VERB
-desarreglo,disorder,,X
-desarrollado,developed,,VERB
+desarreglo,disorder,,NOUN
+desarrollado,developed,,ADJ
 desarticular,to disjoint,,VERB
-desasimiento,detachment,,X
-desasir,to release,,VERB
+desasimiento,detachment,,NOUN
+desasir,to release,,NOUN
 desasosegar,to make uneasy,,VERB
-desasosiego,unease,,X
-desastrado,untidy,,VERB
-desatado,unleashed,,VERB
+desasosiego,unease,,NOUN
+desastrado,untidy,,ADJ
+desatado,unleashed,,ADJ
 desatar,to untie,,VERB
 desatender,to neglect,,VERB
-desatento,inattentive,,X
+desatento,inattentive,,NOUN
 desatinar,to err,,VERB
-desatino,blunder,,X
+desatino,blunder,,NOUN
 desavenencia,disagreement,,NOUN
 desavenir,to disagree,,VERB
 desazonar,to make uneasy,,VERB
 desbancar,to oust,,VERB
-desbandada,stampede,,X
+desbandada,stampede,,ADJ
 desbarajustar,to disarrange,,VERB
-desbarajuste,disorder,,X
+desbarajuste,disorder,,NOUN
 desbaratar,to ruin,,VERB
 desbarrar,to talk nonsense,,VERB
 desbastar,to roughen,,VERB
-desbocado,bolted,,VERB
-desbordamiento,overflow,,X
+desbocado,bolted,,ADJ
+desbordamiento,overflow,,NOUN
 desbordar,to overflow,,VERB
 desbravar,to break in,,VERB
 descabalgar,to dismount,,VERB
-descabellado,outlandish,,VERB
+descabellado,outlandish,,ADJ
 descacharrante,hilarious,,ADJ
 descalabrar,to wound,,VERB
-descalabro,setback,,X
+descalabro,setback,,NOUN
 descalificación,disqualification,,NOUN
 descalificar,to disqualify,,VERB
-descalzo,barefoot,,X
+descalzo,barefoot,,ADJ
 descamación,desquamation,,NOUN
-descaminado,off-track,,VERB
-descampado,open ground,,VERB
-descarado,brazen/shameless,,VERB
-descargo,acquittal,,X
-descarnado,blunt,,VERB
-descaro,brazenness,,X
-descarriado,led astray,,VERB
+descaminado,off-track,,ADJ
+descampado,open ground,,ADJ
+descarado,brazen/shameless,,ADJ
+descargo,acquittal,,NOUN
+descarnado,blunt,,ADJ
+descarriado,led astray,,ADJ
 descarriar,to lead astray,,VERB
-descarrilamiento,derailment,,X
+descarrilamiento,derailment,,NOUN
 descarrilar,to derail,,VERB
 descartar,to discard,,VERB
-descastado,unaffectionate,,VERB
+descastado,unaffectionate,,ADJ
 descendencia,descent,,NOUN
 descender,to descend,,VERB
-descendiente,descendant,,X
-descenso,descent,,X
-descentrado,off-center,,VERB
+descendiente,descendant,,NOUN
+descenso,descent,,NOUN
+descentrado,off-center,,ADJ
 descerrajar,to break open,,VERB
 descifrar,to decipher,,VERB
 desclasificar,to declassify,,VERB
-descoco,brazenness,,X
+descoco,brazenness,,NOUN
 descolgar,to take down,,VERB
-descollar,to stand out,,VERB
-descolorido,faded,,VERB
-descomedido,immoderate,,VERB
-descomedirse,to behave rudely,,X
-descompasado,disproportionate,,VERB
+descollar,to stand out,,NOUN
+descolorido,faded,,ADJ
+descomedido,immoderate,,ADJ
+descomedirse,to behave rudely,,VERB
+descompasado,disproportionate,,ADJ
 descomponer,to decompose,,VERB
 descompostura,decomposition,,NOUN
 descomprimir,to decompress,,VERB
-descompuesto,decomposed,,X
+descompuesto,decomposed,,ADJ
 descomunal,enormous,,ADJ
 desconcentrar,to distract,,VERB
 desconcertar,to disconcert/baffle,,VERB
-desconcierto,confusion,,X
+desconcierto,confusion,,NOUN
 desconectar,to disconnect,,VERB
-desconfiado,distrustful,,VERB
+desconfiado,distrustful,,ADJ
 desconfianza,distrust,,NOUN
 desconfiar,to distrust,,VERB
 desconocer,to be unaware,,VERB
-desconocimiento,lack of knowledge,,X
-desconsiderado,inconsiderate,,VERB
+desconocimiento,lack of knowledge,,NOUN
+desconsiderado,inconsiderate,,ADJ
 desconsolación,disconsolation,,NOUN
-desconsolado,disconsolate,,VERB
+desconsolado,disconsolate,,ADJ
 desconsolar,to disconsole,,VERB
-desconsuelo,distress,,X
-descontentadizo,hard to please,,X
-descontento,discontent,,X
+desconsuelo,distress,,NOUN
+descontentadizo,hard to please,,ADJ
+descontento,discontent,,NOUN
 descontextualizar,to decontextualize,,VERB
-descorazonado,disheartened,,VERB
+descorazonado,disheartened,,ADJ
 descorazonar,to dishearten,,VERB
 descorrer,to draw back,,VERB
-descortesía,impoliteness,,X
-descortés,impolite,,X
+descortesía,impoliteness,,NOUN
+descortés,impolite,,ADJ
 descoyuntar,to dislocate,,VERB
-descreído,unbelieving,,X
+descreído,unbelieving,,ADJ
 descriptivo,descriptive,,ADJ
-descrédito,discredit,,X
-descuidado,careless,,VERB
+descrédito,discredit,,NOUN
+descuidado,careless,,NOUN
 descuidar,to neglect,,VERB
-descuido,carelessness,,VERB
+descuido,carelessness,,NOUN
 desdecir,to retract,,VERB
 desdeñable,negligible,,ADJ
 desdeñar,to disdain,,VERB
-desdeñoso,disdainful,,ADJ
-desdibujado,blurred,,VERB
+desdeñoso,disdainful,,NOUN
+desdibujado,blurred,,ADJ
 desdibujar,to blur,,VERB
-desdicha,misfortune,,X
-desdichado,unfortunate,,VERB
-desdoblamiento,unfolding,,X
+desdicha,misfortune,,NOUN
+desdichado,unfortunate,,ADJ
+desdoblamiento,unfolding,,NOUN
 desdoblar,to unfold,,VERB
 desdorar,to tarnish,,VERB
-desdén,disdain,,X
+desdén,disdain,,NOUN
 deseable,desirable,,ADJ
 desecación,desiccation,,NOUN
 desechar,to discard,,VERB
-desecho,waste/rubbish,,X
+desecho,waste/rubbish,,NOUN
 desembarazar,to clear,,VERB
 desembarcar,to disembark,,VERB
-desembarco,landing,,X
+desembarco,landing,,NOUN
 desembocadura,mouth,,NOUN
 desembocar,to flow into,,VERB
-desembolso,disbursement,,X
+desembolso,disbursement,,NOUN
 desembragar,to disengage,,VERB
 desemejante,dissimilar,,ADJ
 desempaquetar,to unpack,,VERB
-desempate,tiebreaker,,X
+desempate,tiebreaker,,NOUN
 desempeñar,to carry out/perform,,VERB
-desempleo,unemployment,,X
+desempleo,unemployment,,NOUN
 desencadenar,to unleash,,VERB
 desencajar,to dislocate,,VERB
-desencaje,disjointing,,X
-desencanto,disenchantment,,X
+desencaje,disjointing,,NOUN
+desencanto,disenchantment,,NOUN
 desencauzar,to misdirect,,VERB
 desenchufar,to unplug,,VERB
-desenfadado,easy-going,,VERB
-desenfado,ease,,VERB
-desenfreno,debauchery,,X
+desenfadado,easy-going,,NOUN
+desenfado,ease,,NOUN
+desenfreno,debauchery,,NOUN
 desenfundar,to draw,,VERB
 desengañar,to disabuse,,VERB
-desengaño,disillusionment,,X
+desengaño,disillusionment,,NOUN
 desenjaular,to uncage,,VERB
-desenlace,outcome,,X
+desenlace,outcome,,NOUN
 desenmarañar,to disentangle,,VERB
 desenmascarar,to unmask,,VERB
 desenredar,to disentangle,,VERB
 desenrollar,to unroll,,VERB
-desentenderse,to feign ignorance,,X
+desentenderse,to feign ignorance,,VERB
 desenterrar,to unearth,,VERB
 desentonar,to clash,,VERB
 desentrañar,to unravel,,VERB
 desenvainar,to unsheathe,,VERB
 desenvoltura,ease,,NOUN
-desenvuelto,confident,,X
+desenvuelto,confident,,ADJ
 desenzarzar,to extricate,,VERB
 desequilibrar,to unbalance,,VERB
 deserción,desertion,,NOUN
@@ -357,63 +354,61 @@ desesperanza,hopelessness,,NOUN
 desesperar,to despair,,VERB
 desestabilizar,to destabilize,,VERB
 desestimar,to dismiss,,VERB
-desfachatez,impudence,,X
-desfalco,embezzlement,,X
+desfachatez,impudence,,NOUN
+desfalco,embezzlement,,NOUN
 desfallecer,to faint,,VERB
-desfasado,outdated,,VERB
-desfase,gap,,X
+desfasado,outdated,,ADJ
+desfase,gap,,NOUN
 desfavorable,unfavorable,,ADJ
 desfigurar,to disfigure,,VERB
-desfiladero,gorge,,X
+desfiladero,gorge,,NOUN
 desfilar,to parade,,VERB
-desgaire,carelessness,,X
+desgaire,carelessness,,NOUN
 desgajar,to detach,,VERB
-desgarbado,ungainly,,VERB
-desgarrador,heartbreaking,,NOUN
+desgarbado,ungainly,,ADJ
+desgarrador,heartbreaking,,ADJ
 desgarrar,to tear,,VERB
-desgarro,tear,,X
+desgarro,tear,,NOUN
 desgastar,to wear out,,VERB
-desgaste,wear,,X
-desgañitarse,to shout oneself hoarse,,X
+desgaste,wear,,NOUN
+desgañitarse,to shout oneself hoarse,,VERB
 desglosar,to break down,,VERB
 desgranar,to shell,,VERB
-desgreñado,disheveled,,VERB
-deshabitado,uninhabited,,VERB
+desgreñado,disheveled,,ADJ
+deshabitado,uninhabited,,ADJ
 deshacer,to undo,,VERB
-deshelarse,to thaw,,X
+deshelarse,to thaw,,VERB
 desheredar,to disinherit,,VERB
-deshilachado,frayed,,VERB
-deshilvanado,disjointed,,VERB
+deshilachado,frayed,,ADJ
+deshilvanado,disjointed,,ADJ
 deshollinador,chimney sweep,,NOUN
-deshonra,dishonor,,X
+deshonra,dishonor,,NOUN
 deshonrar,to dishonor,,VERB
-deshonroso,dishonorable,,ADJ
-deshora,untimely,,X
-desidia,negligence,,X
-desidioso,slothful,,ADJ
+deshora,untimely,,NOUN
+desidia,negligence,,NOUN
 designación,designation,,NOUN
 designar,to designate,,VERB
 desigual,unequal,,ADJ
 desigualdad,inequality,,NOUN
-desilusión,disillusionment,,X
+desilusión,disillusionment,,NOUN
 desinencia,inflection,,NOUN
 desinfectar,to disinfect,,VERB
 desinflar,to deflate,,VERB
 desinformación,disinformation,,NOUN
 desinhibido,disinhibited,,VERB
 desintegrar,to disintegrate,,VERB
-desinteresado,disinterested,,VERB
-desinterés,disinterest,,X
+desinteresado,disinterested,,ADJ
+desinterés,disinterest,,NOUN
 desistir,to desist,,VERB
 desleal,disloyal,,ADJ
-deslealtad,disloyalty,,X
+deslealtad,disloyalty,,NOUN
 deslegitimar,to delegitimize,,VERB
-deslenguado,foul-mouthed,,VERB
-desleír,to dissolve,,X
-desliar,to untie,,VERB
+deslenguado,foul-mouthed,,ADJ
+desleír,to dissolve,,NOUN
+desliar,to untie,,NOUN
 desligar,to untie,,VERB
 deslindar,to delimit,,VERB
-desliz,slip/lapse,,X
+desliz,slip/lapse,,NOUN
 deslizar,to slide/slip,,VERB
 deslomar,to break the back,,VERB
 deslucir,to tarnish,,VERB
@@ -423,58 +418,55 @@ desmadejar,to weaken,,VERB
 desmandar,to disobey,,VERB
 desmantelar,to dismantle,,VERB
 desmayar,to faint,,VERB
-desmayarse,to faint,,X
-desmayo,faint,,X
-desmañado,clumsy,,VERB
-desmedido,excessive,,VERB
-desmejorado,deteriorated,,VERB
+desmayo,faint,,NOUN
+desmañado,clumsy,,ADJ
+desmedido,excessive,,ADJ
+desmejorado,deteriorated,,ADJ
 desmejorar,to worsen,,VERB
-desmemoriado,forgetful,,VERB
+desmemoriado,forgetful,,ADJ
 desmentir,to deny,,VERB
 desmerecer,to be unworthy,,VERB
 desmesura,immoderation,,NOUN
-desmesurado,immoderate,,VERB
-desmoche,pruning,,X
+desmesurado,immoderate,,ADJ
+desmoche,pruning,,NOUN
 desmontable,detachable,,ADJ
 desmoralización,demoralization,,NOUN
 desmoralizar,to demoralize,,VERB
 desmoronar,to crumble,,VERB
-desmoronarse,to crumble,,X
-desmán,outrage,,X
+desmán,outrage,,NOUN
 desnaturalizar,to denature,,VERB
-desnivel,unevenness,,X
+desnivel,unevenness,,NOUN
 desnudar,to undress,,VERB
-desnudez,nudity,,X
+desnudez,nudity,,NOUN
 desnutrición,malnutrition,,NOUN
 desobedecer,to disobey,,VERB
 desobediencia,disobedience,,NOUN
-desobediente,disobedient,,X
+desobediente,disobedient,,ADJ
 desocupado,unoccupied,,VERB
 desolación,desolation,,NOUN
-desolado,desolate,,VERB
-desolar,to desolate,,VERB
+desolado,desolate,,ADJ
+desolar,to desolate,,NOUN
 desollar,to skin,,VERB
-desorbitado,exorbitant,,VERB
+desorbitado,exorbitant,,ADJ
 desorbitar,to exaggerate,,VERB
-desordenado,disorderly,,VERB
+desordenado,disorderly,,ADJ
 desorganización,disorganization,,NOUN
 desorientación,disorientation,,NOUN
-desorientado,disoriented,,VERB
+desorientado,disoriented,,ADJ
 desorientar,to disorient,,VERB
 desovar,to spawn,,VERB
-despabilado,wide-awake,,VERB
+despabilado,wide-awake,,ADJ
 despachar,to dispatch,,VERB
-despacioso,leisurely,,ADJ
 despampanante,stunning,,ADJ
-desparpajo,nerve,,X
+desparpajo,nerve,,NOUN
 desparramar,to scatter,,VERB
-despavorido,terrified,,VERB
-despechado,spiteful,,VERB
-despecho,spite,,X
+despavorido,terrified,,NOUN
+despechado,spiteful,,ADJ
+despecho,spite,,NOUN
 despectivo,derogatory,,ADJ
 despedazar,to tear to pieces,,VERB
-despego,detachment,,X
-despegue,takeoff,,X
+despego,detachment,,NOUN
+despegue,takeoff,,NOUN
 despeinar,to dishevel,,VERB
 despejar,to clear,,VERB
 despellejar,to skin,,VERB
@@ -482,146 +474,145 @@ despelotar,to undress,,VERB
 despeluchar,to pull out hair,,VERB
 desperdiciar,to waste,,VERB
 desperdigar,to scatter,,VERB
-desperezarse,to stretch,,X
-desperfecto,flaw,,X
+desperezarse,to stretch,,VERB
+desperfecto,flaw,,NOUN
 despersonalizar,to depersonalize,,VERB
 despertador,alarm clock,,NOUN
-despeñadero,precipice,,X
-despiadado,ruthless/merciless,,VERB
-despido,dismissal,,VERB
+despeñadero,precipice,,NOUN
+despiadado,ruthless/merciless,,NOUN
+despido,dismissal,,NOUN
 despilfarrar,to squander,,VERB
-despilfarro,extravagance,,X
+despilfarro,extravagance,,NOUN
 despistar,to put off the scent,,VERB
-despiste,absent-mindedness,,X
-desplante,impertinence,,ADJ
-desplazamiento,displacement,,X
+despiste,absent-mindedness,,NOUN
+desplante,impertinence,,NOUN
+desplazamiento,displacement,,NOUN
 desplazar,to move/displace,,VERB
 desplegar,to deploy,,VERB
-despliegue,deployment,,X
+despliegue,deployment,,NOUN
 desplomar,to collapse,,VERB
-desplome,collapse,,X
+desplome,collapse,,NOUN
 desplumar,to fleece,,VERB
 despoblar,to depopulate,,VERB
 despojar,to despoil,,VERB
-despojo,plunder,,X
+despojo,plunder,,NOUN
 desposar,to wed,,VERB
 desposeer,to dispossess,,VERB
-desposorio,marriage,,X
+desposorio,marriage,,NOUN
 despotismo,despotism,,NOUN
 despotricar,to rant,,VERB
 despreciable,despicable,,ADJ
 despreciar,to despise,,VERB
-desprecio,contempt,,X
+desprecio,contempt,,NOUN
 desprender,to detach,,VERB
-desprendido,detached,,VERB
-desprendimiento,detachment,,X
+desprendido,detached,,ADJ
+desprendimiento,detachment,,NOUN
 despreocupado,carefree,,VERB
 desprestigiar,to discredit,,VERB
-desprestigio,disrepute,,X
-desprevenido,unprepared,,VERB
+desprestigio,disrepute,,NOUN
+desprevenido,unprepared,,ADJ
 desproporcionar,to disproportion,,VERB
 desproporción,disproportion,,NOUN
-despropósito,nonsense,,X
+despropósito,nonsense,,NOUN
 desproveer,to deprive,,VERB
-desprovisto,devoid,,X
-despunte,outset,,X
+desprovisto,devoid,,ADJ
+despunte,outset,,NOUN
 despótico,despotic,,ADJ
 desquiciar,to unhinge,,VERB
-desquite,revenge,,X
+desquite,revenge,,NOUN
 desratización,deratization,,NOUN
 destacable,outstanding,,ADJ
-destacado,prominent,,VERB
+destacado,prominent,,ADJ
 destacar,to stand out,,VERB
-destajo,piecework,,X
+destajo,piecework,,NOUN
 destapar,to uncover,,VERB
-destartalado,run-down,,VERB
+destartalado,run-down,,ADJ
 destellar,to sparkle,,VERB
-destello,sparkle,,X
-destemplado,unrestrained,,VERB
+destello,sparkle,,NOUN
+destemplado,unrestrained,,ADJ
 desterrar,to exile,,VERB
-destierro,exile,,X
+destierro,exile,,NOUN
 destilar,to distill,,VERB
-destinatario,recipient,,X
+destinatario,recipient,,NOUN
 destitución,dismissal,,NOUN
 destituir,to dismiss,,VERB
-destornillado,wild,,VERB
-destreza,dexterity,,X
+destornillado,wild,,ADJ
+destreza,dexterity,,NOUN
 destrocar,to dismantle,,VERB
 destronar,to dethrone,,VERB
 destrozar,to destroy,,VERB
-destrozo,destruction,,X
+destrozo,destruction,,NOUN
 destructor,destroyer,,NOUN
 desunir,to disunite,,VERB
-desuso,disuse,,X
-desvalido,helpless,,VERB
+desuso,disuse,,NOUN
+desvalido,helpless,,ADJ
 desvalijar,to rob,,VERB
 desvanecer,to vanish,,VERB
 desvariar,to be delirious,,VERB
-desvarío,delirium,,X
-desvaído,faded,,X
-desvelo,vigilance,,X
-desvencijado,rickety,,VERB
-desventaja,disadvantage,,X
-desventajoso,disadvantageous,,ADJ
+desvarío,delirium,,NOUN
+desvaído,faded,,ADJ
+desvelo,vigilance,,NOUN
+desvencijado,rickety,,ADJ
+desventaja,disadvantage,,NOUN
 desventura,misfortune,,NOUN
-desventurado,unfortunate,,VERB
-desvergonzado,shameless,,VERB
-desvergüenza,shamelessness,,X
+desventurado,unfortunate,,ADJ
+desvergonzado,shameless,,ADJ
+desvergüenza,shamelessness,,NOUN
 desvestir,to undress,,VERB
 desviación,deviation,,NOUN
 desviar,to divert,,VERB
 desvincular,to disconnect,,VERB
 desvirtuar,to distort,,VERB
-desvivirse,to go out of one's way,,X
-desván,attic,,X
-desvío,detour,,X
-desánimo,discouragement,,X
-detalladamente,in detail,,X
+desvivirse,to go out of one's way,,VERB
+desván,attic,,NOUN
+desvío,detour,,NOUN
+desánimo,discouragement,,NOUN
+detalladamente,in detail,,ADV
 detallar,to detail,,VERB
 detección,detection,,NOUN
 detectar,to detect,,VERB
 detentar,to hold,,VERB
-detergente,detergent,,X
-deterioro,deterioration,,X
+detergente,detergent,,NOUN
+deterioro,deterioration,,NOUN
 determinante,determining,,ADJ
 detestable,detestable,,ADJ
 detestar,to detest,,VERB
 detonación,detonation,,NOUN
-detonante,detonator,,ADJ
+detonante,detonator,,NOUN
 detonar,to detonate,,VERB
 detractor,detractor,,NOUN
 detraer,to detract,,VERB
-detrimento,detriment,,X
-deudo,relative,,X
+detrimento,detriment,,NOUN
+deudo,relative,,NOUN
 deudor,debtor,,NOUN
 devaluación,devaluation,,NOUN
 devaluar,to devalue,,VERB
 devanar,to wind,,VERB
-devaneo,fling,,X
+devaneo,fling,,NOUN
 devastación,devastation,,NOUN
 devastar,to devastate,,VERB
 devengar,to accrue,,VERB
-devenir,to become,,VERB
+devenir,to become,,NOUN
 devoción,devotion,,NOUN
 devolución,return,,NOUN
 devorador,devourer,,NOUN
 devorar,to devour,,VERB
-devoto,devout,,X
+devoto,devout,,ADJ
 deyección,defecation,,NOUN
 diabólico,diabolical,,ADJ
-diafragma,diaphragm,,X
+diafragma,diaphragm,,NOUN
 diagnosticar,to diagnose,,VERB
-diapositiva,slide,,X
-diariamente,daily,,X
-diatriba,diatribe,,X
-dicotomía,dichotomy,,X
+diapositiva,slide,,NOUN
+diariamente,daily,,ADV
+diatriba,diatribe,,NOUN
+dicotomía,dichotomy,,NOUN
 dictador,dictator,,NOUN
 dictadura,dictatorship,,NOUN
-dictamen,opinion,,X
+dictamen,opinion,,NOUN
 dictaminar,to rule,,VERB
 dictar,to dictate,,VERB
 didáctico,didactic,,ADJ
-diestro,dexterous,,X
+diestro,dexterous,,ADJ
 dietético,dietary,,ADJ
 difamación,defamation,,NOUN
 difamar,to defame,,VERB
@@ -629,69 +620,69 @@ diferenciable,differentiable,,ADJ
 diferenciación,differentiation,,NOUN
 diferenciar,to differentiate,,VERB
 diferenciativo,differentiating,,ADJ
-diferendo,dispute,,X
+diferendo,dispute,,NOUN
 diferir,to defer,,VERB
-dificultoso,difficult,,ADJ
+dificultoso,difficult,,NOUN
 difundir,to spread,,VERB
-difusión,diffusion,,X
-difuso,diffuse,,X
-difícilmente,hardly,,X
+difusión,diffusion,,NOUN
+difuso,diffuse,,ADJ
+difícilmente,hardly,,ADV
 digerible,digestible,,ADJ
 digestivo,digestive,,ADJ
-digestión,digestion,,X
+digestión,digestion,,NOUN
 digitalizar,to digitize,,VERB
 dignación,condescension,,NOUN
-dignarse,to deign,,X
-dignatario,dignitary,,X
-digresión,digression,,X
+dignarse,to deign,,VERB
+dignatario,dignitary,,NOUN
+digresión,digression,,NOUN
 dilación,delay,,NOUN
 dilapidación,squandering,,NOUN
 dilapidar,to squander,,VERB
 dilatación,dilation,,NOUN
-dilatado,prolonged/dilated,,VERB
+dilatado,prolonged/dilated,,ADJ
 dilatar,to dilate,,VERB
-dilatoria,delaying tactic,,X
-dilatorio,dilatory,,X
-dilecto,beloved,,X
-dilema,dilemma,,X
+dilatoria,delaying tactic,,ADJ
+dilatorio,dilatory,,NOUN
+dilecto,beloved,,ADJ
+dilema,dilemma,,NOUN
 diligencia,diligence,,NOUN
-diligente,diligent,,X
+diligente,diligent,,ADJ
 dilucidación,clarification,,NOUN
 dilucidar,to elucidate,,VERB
 diluir,to dilute,,VERB
-diluvio,deluge,,X
-dimanar,to emanate,,VERB
-diminutivo,diminutive,,ADJ
-diminuto,tiny,,X
-dimisión,resignation,,X
+diluvio,deluge,,NOUN
+dimanar,to emanate,,NOUN
+diminutivo,diminutive,,NOUN
+diminuto,tiny,,ADJ
+dimisión,resignation,,NOUN
 dimitir,to resign,,VERB
-dinamita,dynamite,,X
-dinastía,dynasty,,X
-dinosaurio,dinosaur,,X
+dinamita,dynamite,,NOUN
+dinastía,dynasty,,NOUN
+dinosaurio,dinosaur,,NOUN
 dinámico,dynamic,,ADJ
-diocesano,diocesan,,X
-diplomacia,diplomacy,,X
+diocesano,diocesan,,NOUN
+diplomacia,diplomacy,,NOUN
 diplomático,diplomatic/diplomat,,ADJ
-dipsómano,dipsomaniac,,X
-diputado,deputy,,VERB
-dique,dam,,X
-dirigente,leader,,X
+dipsómano,dipsomaniac,,NOUN
+diputado,deputy,,NOUN
+dique,dam,,NOUN
+dirigente,leader,,NOUN
 dirimir,to settle,,VERB
-discapacitado,disabled,,VERB
-discernimiento,discernment,,X
+discapacitado,disabled,,NOUN
+discernimiento,discernment,,NOUN
 discernir,to discern,,VERB
-disciplinar,to discipline,,VERB
-discipulado,discipleship,,VERB
-disconforme,disagreeing,,X
+disciplinar,to discipline,,NOUN
+discipulado,discipleship,,ADJ
+disconforme,disagreeing,,ADJ
 discordancia,discordance,,NOUN
 discordante,discordant,,ADJ
 discordar,to disagree,,VERB
-discorde,discordant,,X
-discordia,discord,,X
+discorde,discordant,,NOUN
+discordia,discord,,NOUN
 discrecional,discretionary,,ADJ
 discrepancia,discrepancy,,NOUN
 discrepar,to disagree,,VERB
-discreto,discreet,,X
+discreto,discreet,,ADJ
 discriminación,discrimination,,NOUN
 discriminar,to discriminate,,VERB
 disculpar,to apologize,,VERB
@@ -699,223 +690,218 @@ discurrir,to flow,,VERB
 discursivo,discursive,,ADJ
 disecar,to dissect,,VERB
 diseminar,to disseminate,,VERB
-disensión,dissent,,X
-disenso,dissent,,X
-disentimiento,dissent,,X
+disensión,dissent,,NOUN
+disenso,dissent,,NOUN
+disentimiento,dissent,,NOUN
 disentir,to dissent,,VERB
 disertación,dissertation,,NOUN
 disertar,to discourse,,VERB
 disfrazar,to disguise,,VERB
-disfrute,enjoyment,,X
+disfrute,enjoyment,,VERB
 disgregar,to separate,,VERB
-disgustado,displeased,,VERB
+disgustado,displeased,,ADJ
 disgustar,to upset,,VERB
-disgusto,upset/displeasure,,X
+disgusto,upset/displeasure,,NOUN
 disidencia,dissent,,NOUN
-disidente,dissident,,X
+disidente,dissident,,NOUN
 disimilar,dissimilar,,VERB
 disimulación,dissimulation,,NOUN
-disimulado,dissembling,,VERB
+disimulado,dissembling,,ADJ
 disimular,to disguise/hide,,VERB
-disimulo,dissimulation,,X
+disimulo,dissimulation,,NOUN
 disipación,dissipation,,NOUN
 disipar,to dissipate,,VERB
-dislate,nonsense,,X
+dislate,nonsense,,NOUN
 dislocación,dislocation,,NOUN
 dislocar,to dislocate,,VERB
 disminución,decrease,,NOUN
 disolución,dissolution,,NOUN
-disoluto,dissolute,,X
-disolvente,solvent,,X
+disoluto,dissolute,,ADJ
+disolvente,solvent,,NOUN
 disolver,to dissolve,,VERB
 disonancia,dissonance,,NOUN
 disonante,dissonant,,ADJ
 disonar,to be dissonant,,VERB
-dispar,disparate,,VERB
-disparate,nonsense,,X
+dispar,disparate,,ADJ
+disparate,nonsense,,NOUN
 disparidad,disparity,,NOUN
-dispendio,extravagance,,X
-dispensa,exemption,,X
+dispendio,extravagance,,NOUN
+dispensa,exemption,,NOUN
 dispensar,to dispense,,VERB
-dispensario,clinic,,X
+dispensario,clinic,,NOUN
 dispersar,to disperse,,VERB
-dispersión,dispersion,,X
-disperso,scattered,,X
-displicente,disdainful,,X
+dispersión,dispersion,,NOUN
+disperso,scattered,,ADJ
+displicente,disdainful,,ADJ
 disponer,to dispose/have,,VERB
 disponibilidad,availability,,NOUN
-disputa,dispute,,X
+disputa,dispute,,NOUN
 disputable,debatable,,ADJ
 disquisición,disquisition,,NOUN
 distanciar,to distance,,VERB
-distensión,detente,,X
+distensión,detente,,NOUN
 distinción,distinction,,NOUN
 distinguible,distinguishable,,ADJ
 distinguir,to distinguish,,VERB
-distintivo,distinctive,,ADJ
+distintivo,distinctive,,NOUN
 distorsionar,to distort,,VERB
-distorsión,distortion,,X
-distraído,distracted,,X
+distorsión,distortion,,NOUN
+distraído,distracted,,ADJ
 distribución,distribution,,NOUN
 distribuir,to distribute,,VERB
-disturbio,disturbance,,X
+disturbio,disturbance,,NOUN
 disuadir,to dissuade,,VERB
 disuasivo,dissuasive,,ADJ
-disuasión,dissuasion,,X
-diuturno,long-lasting,,X
+disuasión,dissuasion,,NOUN
+diuturno,long-lasting,,PROPN
 divagación,digression,,NOUN
 divagar,to wander,,VERB
 divergencia,divergence,,NOUN
-divergente,divergent,,X
+divergente,divergent,,ADJ
 divergir,to diverge,,VERB
 diversidad,diversity,,NOUN
 diversificación,diversification,,NOUN
 diversificar,to diversify,,VERB
 divertir,to amuse/entertain,,VERB
-divestir,to divest,,VERB
-dividendo,dividend,,X
+divestir,to divest,,NOUN
+dividendo,dividend,,NOUN
 dividir,to divide,,VERB
-divinatorio,divinatory,,X
+divinatorio,divinatory,,ADJ
 divinidad,divinity,,NOUN
 divinizar,to deify,,VERB
 divisar,to spot/discern,,VERB
 divisibilidad,divisibility,,NOUN
 divisible,divisible,,ADJ
-divisivo,divisive,,ADJ
+divisivo,divisive,,NOUN
 divulgación,divulgence,,NOUN
 divulgar,to divulge,,VERB
-diáfano,diaphanous,,X
-diálogo,dialogue,,X
-diáspora,diaspora,,X
+diáfano,diaphanous,,NOUN
+diálogo,dialogue,,NOUN
+diáspora,diaspora,,NOUN
 doblar,to fold/double,,VERB
 doblegar,to subdue,,VERB
-docente,teacher/teaching,,X
+docente,teacher/teaching,,NOUN
 docilidad,docility,,NOUN
-docto,learned,,X
+docto,learned,,NOUN
 doctrinal,doctrinal,,ADJ
-doctrinario,doctrinaire,,X
+doctrinario,doctrinaire,,ADJ
 documentar,to document,,VERB
-dogal,noose,,ADJ
-dogma,dogma,,X
+dogal,noose,,NOUN
+dogma,dogma,,NOUN
 dogmatismo,dogmatism,,NOUN
 dogmático,dogmatic,,ADJ
-doliente,suffering,,X
-dolo,fraud,,X
-dolorido,sore,,VERB
-domable,tamable,,ADJ
+doliente,suffering,,NOUN
+dolorido,sore,,ADJ
+domable,tamable,,NOUN
 domadura,taming,,NOUN
 domesticar,to tame,,VERB
 domeñar,to subdue,,VERB
 domiciliar,to domicile,,VERB
-domiciliario,domestic,,X
+domiciliario,domestic,,ADJ
 dominante,dominant,,ADJ
 dominar,to dominate,,VERB
 doméstico,domestic,,ADJ
-donante,donor,,ADJ
+donante,donor,,NOUN
 donar,to donate,,VERB
-donoso,witty,,ADJ
 dorar,to gild,,VERB
 dotación,endowment,,NOUN
 dotar,to endow/provide,,VERB
-dote,dowry,,X
-draconiano,draconian,,X
-dramaturgia,dramaturgy,,X
-dren,drain,,X
+dote,dowry,,NOUN
+draconiano,draconian,,NOUN
+dramaturgia,dramaturgy,,NOUN
+dren,drain,,NOUN
 drogadicción,drug addiction,,NOUN
-drogadicto,drug addict,,X
+drogadicto,drug addict,,NOUN
 drástico,drastic,,ADJ
-ducal,ducal,,ADJ
+ducal,ducal,,NOUN
 duchar,to shower,,VERB
-dudoso,doubtful,,ADJ
-duela,stave,,X
-duende,goblin/elf,,X
-duendecillo,sprite,,X
-duermevela,doze,,X
-dueto,duo,,X
+duela,stave,,NOUN
+duende,goblin/elf,,NOUN
+duendecillo,sprite,,NOUN
+duermevela,doze,,NOUN
+dueto,duo,,NOUN
 dulcificar,to sweeten,,VERB
 duplicar,to duplicate,,VERB
 duplicidad,duplicity,,NOUN
-duplo,double,,X
-duquesa,duchess,,X
+duplo,double,,NOUN
+duquesa,duchess,,NOUN
 durabilidad,durability,,NOUN
 duración,duration,,NOUN
-duradero,lasting,,X
-duraznero,peach tree,,X
-dureza,hardness,,X
-dársena,dock,,X
-déficit,deficit,,X
-déspota,despot,,X
-dócil,docile,,X
-dúctil,ductile,,X
-dúo,duo,,X
-dúplex,duplex,,X
+duradero,lasting,,NOUN
+duraznero,peach tree,,PROPN
+dureza,hardness,,NOUN
+dársena,dock,,NOUN
+déficit,deficit,,NOUN
+déspota,despot,,NOUN
+dócil,docile,,ADJ
+dúctil,ductile,,ADJ
+dúo,duo,,NOUN
+dúplex,duplex,,NOUN
 ebanista,cabinetmaker,,NOUN
 ebriedad,drunkenness,,NOUN
 ebullición,boiling,,NOUN
 eclesial,ecclesial,,ADJ
 eclesiástico,ecclesiastical,,ADJ
 eclipsar,to eclipse,,VERB
-eclosión,blooming,,X
+eclosión,blooming,,NOUN
 ecléctico,eclectic,,ADJ
-ecología,ecology,,X
+ecología,ecology,,NOUN
 económico,economic,,ADJ
 ecuación,equation,,NOUN
 ecuanimidad,equanimity,,NOUN
-ecuestre,equestrian,,X
+ecuestre,equestrian,,NOUN
 edificación,edification,,NOUN
 edificante,edifying,,ADJ
 edificar,to edify,,VERB
 editar,to edit,,VERB
 editorial,editorial,,ADJ
-edredón,duvet,,X
+edredón,duvet,,NOUN
 educable,educable,,ADJ
 educar,to educate,,VERB
 educativo,educational,,ADJ
-efectivamente,indeed,,X
+efectivamente,indeed,,ADV
 efectividad,effectiveness,,NOUN
 efectuar,to carry out,,VERB
-efeméride,anniversary,,X
+efeméride,anniversary,,NOUN
 efervescencia,effervescence,,NOUN
-efervescente,effervescent,,X
-eficacia,effectiveness,,X
-eficaz,effective,,X
+efervescente,effervescent,,ADJ
+eficacia,effectiveness,,NOUN
+eficaz,effective,,ADJ
 eficiencia,efficiency,,NOUN
-eficiente,efficient,,X
-efigie,effigy,,X
-efluvio,emanation,,X
-efímero,ephemeral,,X
-egolatría,egolatry,,X
-egoísmo,egoism,,X
-egregio,illustrious,,X
-ególatra,egomaniac,,X
-eje,axis/axle,,X
+eficiente,efficient,,ADJ
+efigie,effigy,,NOUN
+efluvio,emanation,,NOUN
+efímero,ephemeral,,NOUN
+egolatría,egolatry,,NOUN
+egoísmo,egoism,,NOUN
+egregio,illustrious,,NOUN
+ególatra,egomaniac,,ADJ
+eje,axis/axle,,NOUN
 ejecutar,to execute/carry out,,VERB
 ejercer,to exercise/practice,,VERB
 elaboración,elaboration,,NOUN
-elaborado,elaborate,,VERB
+elaborado,elaborate,,ADJ
 elaborar,to elaborate/make,,VERB
-electiva,elective,,X
 electividad,electivity,,NOUN
-electorado,electorate,,VERB
+electorado,electorate,,NOUN
 electoral,electoral,,ADJ
 elegancia,elegance,,NOUN
-elegía,elegy,,X
 elemental,elemental,,ADJ
-elenco,cast,,X
+elenco,cast,,NOUN
 elevación,elevation,,NOUN
-elevado,elevated,,VERB
+elevado,elevated,,ADJ
 elevar,to elevate,,VERB
 elidir,to elide,,VERB
 eliminación,elimination,,NOUN
-elipsis,ellipsis,,X
-elite,elite,,X
-elixir,elixir,,VERB
+elipsis,ellipsis,,NOUN
+elite,elite,,NOUN
+elixir,elixir,,NOUN
 elocución,elocution,,NOUN
 elocuencia,eloquence,,NOUN
-elocuente,eloquent,,X
+elocuente,eloquent,,ADJ
 elogiar,to praise,,VERB
-elogio,praise,,X
-elote,corn,,X
+elogio,praise,,NOUN
+elote,corn,,NOUN
 elucidación,elucidation,,NOUN
 elucidar,to elucidate,,VERB
 elucubración,brainstorming,,NOUN
@@ -926,255 +912,250 @@ emancipar,to emancipate,,VERB
 embalar,to pack,,VERB
 embalsamar,to embalm,,VERB
 embarcación,vessel,,NOUN
-embarcadero,wharf,,X
+embarcadero,wharf,,NOUN
 embarcar,to embark,,VERB
 embargar,to seize,,VERB
 embarrar,to mud,,VERB
 embaucar,to deceive,,VERB
 embeber,to soak,,VERB
-embelesar,to enthrall,,VERB
-embeleso,delight,,X
+embelesar,to enthrall,,NOUN
+embeleso,delight,,NOUN
 embellecer,to embellish,,VERB
-embellecimiento,embellishment,,X
+embellecimiento,embellishment,,NOUN
 embestir,to charge,,VERB
-emblema,emblem,,X
+emblema,emblem,,NOUN
 emblemático,emblematic,,ADJ
 embocadura,mouth,,NOUN
-embolia,embolism,,X
+embolia,embolism,,NOUN
 emborrachar,to intoxicate,,VERB
-embotellamiento,traffic jam,,X
+embotellamiento,traffic jam,,NOUN
 embozar,to muffle,,VERB
-embrague,clutch,,X
+embrague,clutch,,NOUN
 embriagar,to intoxicate,,VERB
-embriaguez,intoxication,,X
+embriaguez,intoxication,,NOUN
 embridar,to bridle,,VERB
-embrión,embryo,,X
+embrión,embryo,,NOUN
 embrollar,to muddle,,VERB
-embrollo,mess,,X
+embrollo,mess,,NOUN
 embromar,to tease,,VERB
 embrutecer,to brutalize,,VERB
-embudo,funnel,,X
-embuste,lie,,X
-embustero,liar,,X
-embutido,sausage,,VERB
+embudo,funnel,,NOUN
+embuste,lie,,NOUN
+embutido,sausage,,NOUN
 embutir,to stuff,,VERB
 emerger,to emerge,,VERB
 emigración,emigration,,NOUN
 eminencia,eminence,,NOUN
-eminente,eminent,,X
-emisión,emission/broadcast,,X
+eminente,eminent,,ADJ
+emisión,emission/broadcast,,NOUN
 emisor,emitter,,NOUN
-emisora,broadcasting station,,X
 emitir,to emit/broadcast,,VERB
-emolumento,emolument,,X
-emoticón,emoticon,,X
-empacho,indigestion,,X
+emolumento,emolument,,NOUN
+emoticón,emoticon,,NOUN
+empacho,indigestion,,NOUN
 empalagar,to cloy,,VERB
-empalagoso,cloying,,ADJ
-empalizada,palisade,,X
+empalagoso,cloying,,NOUN
+empalizada,palisade,,ADJ
 empalmar,to join,,VERB
-empanada,turnover,,X
+empanada,turnover,,NOUN
 empapar,to soak,,VERB
-empaque,packaging,,X
+empaque,packaging,,NOUN
 empaquetar,to package,,VERB
-emparedado,sandwich,,VERB
+emparedado,sandwich,,NOUN
 emparejar,to pair,,VERB
 emparentar,to be related,,VERB
 empastar,to fill,,VERB
 empatar,to tie/draw,,VERB
-empate,tie/draw,,X
+empate,tie/draw,,NOUN
 empecer,to harm,,VERB
-empecinado,stubborn,,VERB
+empecinado,stubborn,,ADJ
 empeorar,to worsen,,VERB
 empequeñecer,to belittle,,VERB
-emperifollar,to dress up,,VERB
-empero,however,,X
+emperifollar,to dress up,,NOUN
+empero,however,,ADV
 empeñar,to pawn/pledge,,VERB
-empeño,effort/pawn,,X
-empinado,steep,,VERB
+empeño,effort/pawn,,NOUN
+empinado,steep,,ADJ
 empinar,to raise,,VERB
 empirismo,empiricism,,NOUN
-emplazamiento,placement,,X
+emplazamiento,placement,,NOUN
 emplazar,to summon,,VERB
 emplomar,to lead,,VERB
 empobrecer,to impoverish,,VERB
-empobrecimiento,impoverishment,,X
+empobrecimiento,impoverishment,,NOUN
 empolvar,to powder,,VERB
 emponzoñar,to poison,,VERB
 emporcar,to dirty,,VERB
-emporio,emporium,,X
+emporio,emporium,,NOUN
 empotrar,to embed,,VERB
 emprendedor,entrepreneur,,NOUN
 emprender,to undertake,,VERB
 empresarial,business/corporate,,ADJ
-empresario,businessman,,X
-empujón,push,,X
+empresario,businessman,,NOUN
+empujón,push,,NOUN
 empuñar,to grasp/wield,,VERB
-empíreo,empyrean,,X
-empíricamente,empirically,,X
+empíreo,empyrean,,ADJ
+empíricamente,empirically,,ADV
 emulación,emulation,,NOUN
 emular,to emulate,,VERB
 enajenable,alienable,,ADJ
 enajenar,to alienate,,VERB
 enaltecer,to exalt,,VERB
-enamoramiento,infatuation,,X
+enamoramiento,infatuation,,NOUN
 enamorar,to fall in love,,VERB
 enardecer,to inflame,,VERB
-encabezamiento,heading,,X
+encabezamiento,heading,,NOUN
 encabezar,to lead/head,,VERB
-encadenamiento,linking,,X
+encadenamiento,linking,,NOUN
 encadenar,to chain,,VERB
 encajar,to fit,,VERB
 encalvecer,to grow bald,,VERB
-encamarse,to take to bed,,X
-encaminamiento,routing,,X
+encaminamiento,routing,,NOUN
 encaminar,to direct,,VERB
 encandilar,to dazzle,,VERB
 encanecer,to gray,,VERB
 encapotar,to overcast,,VERB
-encarado,faced,,VERB
+encarado,faced,,ADJ
 encarar,to face,,VERB
-encarcelamiento,imprisonment,,X
+encarcelamiento,imprisonment,,NOUN
 encarcelar,to imprison,,VERB
 encarecer,to make more expensive,,VERB
-encarecidamente,earnestly,,X
+encarecidamente,earnestly,,ADV
 encargar,to order/charge with,,VERB
-encariñarse,to grow fond of,,X
+encariñarse,to grow fond of,,VERB
 encarnación,incarnation,,NOUN
-encarnado,red,,VERB
+encarnado,red,,ADJ
 encarnar,to embody,,VERB
-encarnizado,fierce,,VERB
+encarnizado,fierce,,ADJ
 encarrilar,to put on track,,VERB
 encartar,to involve,,VERB
-encasillamiento,categorization,,X
+encasillamiento,categorization,,NOUN
 encasillar,to pigeonhole,,VERB
 encasquetar,to fix on,,VERB
 encauzar,to channel,,VERB
 encañar,to channel,,VERB
 encañonar,to point a gun,,VERB
 encefálico,encephalic,,ADJ
-encenagado,muddied,,VERB
+encenagado,muddied,,NOUN
 encendedor,lighter,,NOUN
 encerrar,to lock up/enclose,,VERB
 enchaquetar,to put on a jacket,,VERB
 encharcar,to flood,,VERB
 enchufar,to plug in,,VERB
-enciclopédico,encyclopedic,,ADJ
-encierro,confinement,,X
-encina,oak,,X
-encinta,pregnant,,X
+enciclopédico,encyclopedic,,NOUN
+encierro,confinement,,NOUN
+encina,oak,,NOUN
+encinta,pregnant,,NOUN
 enclaustrar,to cloister,,VERB
 enclavar,to lodge in,,VERB
-enclave,enclave,,X
-enclenque,sickly,,X
-encogerse,to shrink,,X
-encogimiento,shrinkage,,X
-encolerizado,enraged,,VERB
+enclave,enclave,,NOUN
+enclenque,sickly,,ADJ
+encogimiento,shrinkage,,NOUN
+encolerizado,enraged,,ADJ
 encomendable,commendable,,ADJ
 encomendar,to entrust,,VERB
 encomiable,commendable,,ADJ
 encomiar,to praise,,VERB
-encomienda,commission,,X
-encomio,praise,,X
-enconado,inflamed,,VERB
+encomienda,commission,,VERB
+encomio,praise,,NOUN
+enconado,inflamed,,ADJ
 enconar,to inflame,,VERB
-encono,rancor,,X
-encontronazo,collision,,X
+encono,rancor,,NOUN
+encontronazo,collision,,NOUN
 encordar,to string,,VERB
 encorvar,to bend,,VERB
 encrespar,to ruffle,,VERB
-encrucijada,crossroads,,X
+encrucijada,crossroads,,ADJ
 encuadernación,binding,,NOUN
 encuadernar,to bind,,VERB
-encuadre,framing,,X
-encubrimiento,concealment,,X
+encuadre,framing,,NOUN
+encubrimiento,concealment,,NOUN
 encubrir,to cover up,,VERB
-encuesta,survey,,X
+encuesta,survey,,NOUN
 encuestador,pollster,,NOUN
-encumbrado,exalted,,VERB
+encumbrado,exalted,,ADJ
 encumbrar,to exalt,,VERB
-endeble,feeble,,X
+endeble,feeble,,ADJ
 enderezar,to straighten,,VERB
-endeudamiento,indebtedness,,X
-endeudarse,to get into debt,,X
-endiablado,devilish,,VERB
+endeudamiento,indebtedness,,NOUN
+endeudarse,to get into debt,,VERB
+endiablado,devilish,,NOUN
 endilgar,to foist,,VERB
-endiosamiento,deification,,X
+endiosamiento,deification,,NOUN
 endiosar,to deify,,VERB
-endogamia,endogamy,,X
+endogamia,endogamy,,NOUN
 endosar,to endorse,,VERB
-endoso,endorsement,,ADJ
+endoso,endorsement,,NOUN
 endulzar,to sweeten,,VERB
 endurecer,to harden,,VERB
-endurecimiento,hardening,,X
+endurecimiento,hardening,,NOUN
 endémico,endemic,,ADJ
-endógeno,endogenous,,X
-enemistad,enmity,,X
+endógeno,endogenous,,NOUN
+enemistad,enmity,,NOUN
 enemistar,to alienate,,VERB
 energético,energetic,,ADJ
-energúmeno,fiend,,X
+energúmeno,fiend,,NOUN
 enervante,irritating,,ADJ
 enervar,to enervate,,VERB
 enfadar,to anger/annoy,,VERB
-enfado,anger,,VERB
+enfado,anger,,NOUN
 enfangar,to muddy,,VERB
 enfardar,to bale,,VERB
 enfatizar,to emphasize,,VERB
-enfermero,nurse,,X
-enfermizo,sickly,,X
-enfilada,enfilade,,X
+enfermero,nurse,,NOUN
+enfermizo,sickly,,ADJ
+enfilada,enfilade,,ADJ
 enfilar,to line up,,VERB
 enflaquecer,to thin,,VERB
 enfocar,to focus,,VERB
-enfrascarse,to engross,,X
-enfrentamiento,confrontation,,X
-enfriamiento,cooling,,X
+enfrascarse,to engross,,VERB
+enfrentamiento,confrontation,,NOUN
+enfriamiento,cooling,,NOUN
 enfriar,to cool,,VERB
 enfundar,to sheathe,,VERB
 enfurecer,to enrage,,VERB
-enfurruñarse,to sulk,,X
+enfurruñarse,to sulk,,VERB
 enfático,emphatic,,ADJ
 engalanar,to adorn,,VERB
 enganchar,to hook,,VERB
-enganche,hook,,X
-engarce,setting,,X
+enganche,hook,,NOUN
+engarce,setting,,NOUN
 engarzar,to set,,VERB
 engatusar,to coax,,VERB
-engañoso,deceptive,,ADJ
 engendrar,to beget/breed,,VERB
-engendro,monster,,X
+engendro,monster,,NOUN
 englobar,to encompass,,VERB
-engolfarse,to engross,,X
-engolosinar,to entice,,VERB
+engolfarse,to engross,,VERB
+engolosinar,to entice,,NOUN
 engordar,to gain weight,,VERB
-engorde,fattening,,X
-engorroso,cumbersome,,ADJ
-engranaje,gear,,X
+engorde,fattening,,NOUN
+engorroso,cumbersome,,NOUN
+engranaje,gear,,NOUN
 engrandecer,to enlarge/exalt,,VERB
-engrandecimiento,aggrandizement,,X
-engreimiento,conceit,,X
-engreído,conceited,,X
+engrandecimiento,aggrandizement,,NOUN
+engreimiento,conceit,,NOUN
+engreído,conceited,,ADJ
 engrosar,to thicken,,VERB
 engullir,to gulp,,VERB
 enhebrar,to thread,,VERB
-enhiesto,upright,,X
-enigma,enigma,,X
+enhiesto,upright,,ADJ
+enigma,enigma,,NOUN
 enigmático,enigmatic,,ADJ
 enjabonar,to soap,,VERB
 enjalbegar,to whitewash,,VERB
-enjambre,swarm,,X
-enjaular,to cage,,VERB
-enjoyado,bejeweled,,VERB
+enjambre,swarm,,NOUN
+enjaular,to cage,,NOUN
+enjoyado,bejeweled,,ADJ
 enjuagar,to rinse,,VERB
 enjugar,to wipe,,VERB
-enjuiciamiento,prosecution,,X
+enjuiciamiento,prosecution,,NOUN
 enjuiciar,to judge/prosecute,,VERB
-enjuto,gaunt,,X
-enladrillar,to brick,,VERB
+enjuto,gaunt,,ADJ
+enladrillar,to brick,,NOUN
 enlazar,to link,,VERB
 enloquecer,to drive crazy,,VERB
-enloquecimiento,madness,,X
-enlosar,to tile,,VERB
+enloquecimiento,madness,,NOUN
+enlosar,to tile,,NOUN
 enlucir,to plaster,,VERB
 enmadejar,to skein,,VERB
 enmarañar,to entangle,,VERB
@@ -1182,528 +1163,510 @@ enmarcar,to frame,,VERB
 enmascarar,to mask,,VERB
 enmendable,amendable,,ADJ
 enmendar,to amend,,VERB
-enmienda,amendment,,X
+enmienda,amendment,,NOUN
 enmohecer,to mildew,,VERB
 enmudecer,to silence,,VERB
 ennegrecer,to blacken,,VERB
 ennoblecer,to ennoble,,VERB
-enojadizo,irritable,,X
-enojo,anger,,X
-enojoso,annoying,,ADJ
+enojadizo,irritable,,ADJ
+enojo,anger,,NOUN
 enorgullecer,to make proud,,VERB
 enormidad,enormity,,NOUN
 enrabiar,to enrage,,VERB
 enraizar,to take root,,VERB
-enramada,bower,,X
-enrarecimiento,rarefaction,,X
+enramada,bower,,ADJ
+enrarecimiento,rarefaction,,NOUN
 enredadera,vine,,NOUN
 enredar,to entangle,,VERB
-enredo,tangle,,X
-enriquecedor,enriching,,NOUN
+enredo,tangle,,NOUN
+enriquecedor,enriching,,ADJ
 enriquecer,to enrich,,VERB
-enriquecimiento,enrichment,,X
+enriquecimiento,enrichment,,NOUN
 enrojecer,to redden,,VERB
 enrolar,to enlist,,VERB
 enroscar,to coil,,VERB
-ensalmo,incantation,,X
+ensalmo,incantation,,NOUN
 ensalzar,to extol,,VERB
-ensamblaje,assembly,,X
+ensamblaje,assembly,,NOUN
 ensamblar,to assemble,,VERB
-ensanchamiento,widening,,X
+ensanchamiento,widening,,NOUN
 ensanchar,to widen,,VERB
 ensartar,to skewer,,VERB
 ensayar,to rehearse,,VERB
 ensayista,essayist,,NOUN
 ensayístico,essayistic,,ADJ
-ensañamiento,cruelty,,X
+ensañamiento,cruelty,,NOUN
 ensañar,to enrage,,VERB
-ensenada,cove,,X
+ensenada,cove,,NOUN
 enseñanza,teaching,,NOUN
-ensimismado,absorbed,,VERB
-ensimismarse,to become absorbed,,X
+ensimismado,absorbed,,ADJ
+ensimismarse,to become absorbed,,VERB
 ensombrecer,to overshadow,,VERB
-ensordecedor,deafening,,NOUN
+ensordecedor,deafening,,ADJ
 ensordecer,to deafen,,VERB
-ensortijado,curled,,VERB
+ensortijado,curled,,ADJ
 ensoñación,daydream,,NOUN
 ensoñar,to daydream,,VERB
 ensuciar,to soil,,VERB
-entablado,floorboards,,VERB
+entablado,floorboards,,ADJ
 entablar,to start/establish,,VERB
 entablillar,to splint,,VERB
 entallar,to fit,,VERB
-entarimado,parquet,,VERB
-ente,entity,,X
-entelequia,entelechy,,X
-entelerido,shivering,,VERB
-entendimiento,understanding,,X
-entenebrecer,to darken,,VERB
-enteramente,entirely,,X
-enterarse,to find out/realize,,X
-entereza,integrity,,X
-enterizo,whole,,X
-enternecedor,touching,,NOUN
-enternecerse,to be moved,,X
-enternecimiento,tenderness,,X
-enterramiento,burial,,X
+entarimado,parquet,,ADJ
+ente,entity,,NOUN
+entelequia,entelechy,,NOUN
+entelerido,shivering,,NOUN
+entendimiento,understanding,,NOUN
+entenebrecer,to darken,,NOUN
+enteramente,entirely,,ADV
+entereza,integrity,,NOUN
+enterizo,whole,,ADJ
+enternecedor,touching,,ADJ
+enternecerse,to be moved,,VERB
+enternecimiento,tenderness,,NOUN
+enterramiento,burial,,NOUN
 entibiar,to lukewarm,,VERB
 entidad,entity,,NOUN
-entomología,entomology,,X
+entomología,entomology,,NOUN
 entonación,intonation,,NOUN
 entonar,to intone/match,,VERB
 entornar,to half-close,,VERB
 entorpecer,to hinder,,VERB
 entrampar,to ensnare,,VERB
-entrante,starter,,ADJ
-entraña,entrails,,X
+entrante,starter,,NOUN
 entrañable,beloved/intimate,,ADJ
 entrañar,to entail,,VERB
-entreabierto,ajar,,X
+entreabierto,ajar,,ADJ
 entreabrir,to half-open,,VERB
-entreacto,interval,,X
-entrecejo,brow,,X
+entreacto,interval,,NOUN
+entrecejo,brow,,NOUN
 entrechocar,to clash,,VERB
-entrecortado,faltering,,VERB
+entrecortado,faltering,,ADJ
 entrecruzar,to interlace,,VERB
-entredicho,suspicion,,X
-entrelazado,intertwined,,VERB
+entredicho,suspicion,,ADJ
+entrelazado,intertwined,,ADJ
 entrelazar,to interweave,,VERB
-entremedias,in between,,X
-entremeterse,to meddle,,X
+entremedias,in between,,NOUN
+entremeterse,to meddle,,VERB
 entremezclar,to intermix,,VERB
-entremés,hors d'oeuvre,,X
-entrenuevos,Sundays of the year,,X
-entreoír,to half-hear,,X
-entrepiso,mezzanine,,X
+entremés,hors d'oeuvre,,NOUN
+entrenuevos,Sundays of the year,,NOUN
+entreoír,to half-hear,,NOUN
+entrepiso,mezzanine,,NOUN
 entresacar,to select,,VERB
-entresueño,light sleep,,X
-entretanto,meanwhile,,X
-entretelas,depths,,X
+entresueño,light sleep,,NOUN
+entretanto,meanwhile,,ADV
+entretelas,depths,,NOUN
 entretener,to entertain,,VERB
-entretenido,entertaining,,VERB
+entretenido,entertaining,,ADJ
 entrever,to glimpse,,VERB
 entreverar,to mix,,VERB
 entrevistador,interviewer,,NOUN
 entrevistar,to interview,,VERB
-entristecedor,saddening,,NOUN
+entristecedor,saddening,,ADJ
 entristecer,to sadden,,VERB
-entrometerse,to meddle,,X
-entrometido,meddler,,VERB
-entromparse,to get drunk,,X
+entrometerse,to meddle,,VERB
+entrometido,meddler,,ADJ
 entronización,enthronement,,NOUN
 entronizar,to enthrone,,VERB
-entronque,relationship,,X
-entuerto,wrong,,X
-entumecerse,to numb,,X
-entumecido,numb,,VERB
-entumecimiento,numbness,,X
+entronque,relationship,,NOUN
+entuerto,wrong,,NOUN
+entumecerse,to numb,,VERB
+entumecido,numb,,ADJ
+entumecimiento,numbness,,NOUN
 enturbiar,to muddy,,VERB
 entusiasmar,to enthuse,,VERB
-entusiasta,enthusiastic,,X
+entusiasta,enthusiastic,,ADJ
 enumeración,enumeration,,NOUN
 enumerar,to enumerate,,VERB
 enunciación,enunciation,,NOUN
-enunciado,statement,,VERB
 enunciar,to enunciate,,VERB
 envalentonar,to embolden,,VERB
-envalentonarse,to become bold,,X
-envaramiento,stiffness,,X
+envaramiento,stiffness,,NOUN
 envarar,to stiffen,,VERB
 envasar,to bottle/pack,,VERB
-envase,container/packaging,,X
+envase,container/packaging,,NOUN
 envejecer,to age,,VERB
-envejecido,aged,,VERB
-envejecimiento,aging,,X
-envenenamiento,poisoning,,X
+envejecido,aged,,ADJ
+envejecimiento,aging,,NOUN
+envenenamiento,poisoning,,NOUN
 envenenar,to poison,,VERB
 envergadura,scope/wingspan,,NOUN
 envestir,to invest,,VERB
 envidiable,enviable,,ADJ
 envidiar,to envy,,VERB
-envidioso,envious,,ADJ
 envilecer,to vilify,,VERB
-envilecimiento,debasement,,X
+envilecimiento,debasement,,NOUN
 enviudar,to be widowed,,VERB
-envoltorio,wrapping,,X
+envoltorio,wrapping,,NOUN
 envoltura,wrapping,,NOUN
 envolver,to wrap/involve,,VERB
-envés,reverse,,X
+envés,reverse,,NOUN
 enyesar,to plaster,,VERB
 enérgico,energetic,,ADJ
-epicúreo,epicurean,,X
-epidemia,epidemic,,X
+epicúreo,epicurean,,ADJ
+epidemia,epidemic,,NOUN
 epidérmico,epidermal,,ADJ
-epigrama,epigram,,X
+epigrama,epigram,,NOUN
 episcopal,episcopal,,ADJ
-epistemología,epistemology,,X
-epistolar,epistolary,,VERB
+epistemología,epistemology,,NOUN
+epistolar,epistolary,,ADJ
 episódico,episodic,,ADJ
-epitafio,epitaph,,X
-epígrafe,epigraph,,X
-epílogo,epilogue,,X
-epíteto,epithet,,X
-epítome,epitome,,X
-epónimo,eponymous,,X
+epitafio,epitaph,,NOUN
+epígrafe,epigraph,,NOUN
+epílogo,epilogue,,NOUN
+epíteto,epithet,,NOUN
+epítome,epitome,,NOUN
+epónimo,eponymous,,NOUN
 equidad,equity,,NOUN
 equidistante,equidistant,,ADJ
 equilibrar,to balance,,VERB
-equilátero,equilateral,,X
-equipamiento,equipment,,X
+equilátero,equilateral,,NOUN
+equipamiento,equipment,,NOUN
 equipar,to equip,,VERB
 equiparable,comparable,,ADJ
 equiparar,to equate,,VERB
-equivalente,equivalent,,X
+equivalente,equivalent,,ADJ
 equivaler,to be equivalent,,VERB
 equivocación,mistake,,NOUN
 equivocar,to make a mistake,,VERB
-equivocarse,to make a mistake,,X
-equívoco,equivocal,,X
-erario,treasury,,X
+equívoco,equivocal,,ADJ
+erario,treasury,,NOUN
 erección,erection,,NOUN
-eremita,hermit,,X
-erguido,upright,,VERB
+eremita,hermit,,NOUN
+erguido,upright,,ADJ
 erguir,to raise/erect,,VERB
-erial,wasteland,,ADJ
+erial,wasteland,,NOUN
 erigir,to erect,,VERB
 erizar,to bristle,,VERB
-erizo,hedgehog,,X
+erizo,hedgehog,,NOUN
 erosionar,to erode,,VERB
-erosión,erosion,,X
+erosión,erosion,,NOUN
 erotismo,eroticism,,NOUN
 erradicar,to eradicate,,VERB
-errado,mistaken,,VERB
+errado,mistaken,,ADJ
 errante,wandering,,ADJ
 errar,to err/miss,,VERB
-erratum,erratum,,X
+erratum,erratum,,PROPN
 errático,erratic,,ADJ
-erróneo,erroneous,,X
-eructo,burp,,X
+erróneo,erroneous,,ADJ
+eructo,burp,,NOUN
 erudición,erudition,,NOUN
-erudito,erudite,,X
+erudito,erudite,,NOUN
 erupción,eruption,,NOUN
 erótico,erotic,,ADJ
-esbeltez,slenderness,,X
-esbelto,slender,,X
-esbirro,henchman,,X
+esbeltez,slenderness,,NOUN
+esbelto,slender,,ADJ
+esbirro,henchman,,NOUN
 esbozar,to sketch,,VERB
-esbozo,sketch,,X
+esbozo,sketch,,NOUN
 escabechar,to pickle,,VERB
-escabel,footstool,,X
-escabroso,risqué,,ADJ
-escabullirse,to slip away,,X
-escalada,climb/escalation,,X
-escalafón,ranking,,X
+escabel,footstool,,NOUN
+escabroso,risqué,,NOUN
+escabullirse,to slip away,,VERB
+escalada,climb/escalation,,NOUN
+escalafón,ranking,,NOUN
 escalar,to climb,,VERB
 escaldar,to scald,,VERB
-escalinata,steps,,X
+escalinata,steps,,NOUN
 escalofriante,chilling,,ADJ
-escalofrío,shiver/chill,,X
-escalpelo,scalpel,,X
-escamado,wary,,VERB
-escamoso,scaly,,ADJ
+escalofrío,shiver/chill,,NOUN
+escalpelo,scalpel,,NOUN
+escamado,wary,,ADJ
+escamoso,scaly,,NOUN
 escamotear,to spirit away,,VERB
-escampar,to clear up,,VERB
-escandaloso,scandalous,,ADJ
-escandinavo,Scandinavian,,X
-escapatoria,way out/escape,,X
-escaramuza,skirmish,,X
+escampar,to clear up,,NOUN
+escandaloso,scandalous,,NOUN
+escandinavo,Scandinavian,,ADJ
+escapatoria,way out/escape,,NOUN
+escaramuza,skirmish,,NOUN
 escarbar,to dig/scratch,,VERB
-escarceo,foray,,X
-escarcha,frost,,X
-escarchado,frosted,,VERB
+escarceo,foray,,NOUN
+escarcha,frost,,NOUN
+escarchado,frosted,,ADJ
 escardar,to weed,,VERB
 escarmentar,to learn one's lesson,,VERB
-escarmiento,lesson learned,,X
+escarmiento,lesson learned,,NOUN
 escarnecer,to mock,,VERB
-escarnio,scorn,,X
-escarpado,steep,,VERB
-escasamente,scarcely,,X
+escarnio,scorn,,NOUN
+escarpado,steep,,NOUN
+escasamente,scarcely,,ADV
 escasear,to be scarce,,VERB
-escasez,scarcity,,X
-escaso,scarce,,X
+escasez,scarcity,,NOUN
+escaso,scarce,,NOUN
 escenificar,to stage,,VERB
 escepticismo,skepticism,,NOUN
 escindir,to split,,VERB
-escisión,split,,X
-esclarecedor,enlightening,,NOUN
+escisión,split,,NOUN
+esclarecedor,enlightening,,ADJ
 esclarecer,to clarify,,VERB
-esclarecimiento,clarification,,X
-esclavitud,slavery,,X
+esclarecimiento,clarification,,NOUN
+esclavitud,slavery,,NOUN
 esclavizar,to enslave,,VERB
-escoba,broom,,X
-escobazo,broom blow,,X
-escocer,to sting/burn,,VERB
-escogido,chosen,,VERB
-escolano,choir boy,,X
-escollo,obstacle,,X
-escolopendra,centipede,,X
+escoba,broom,,NOUN
+escobazo,broom blow,,NOUN
+escocer,to sting/burn,,NOUN
+escogido,chosen,,ADJ
+escolano,choir boy,,NOUN
+escollo,obstacle,,NOUN
+escolopendra,centipede,,NOUN
 escoltar,to escort,,VERB
-escombro,rubble,,X
-escondrijo,hideout,,X
-escoplo,chisel,,X
-escorbuto,scurvy,,X
-escote,neckline,,X
+escombro,rubble,,NOUN
+escondrijo,hideout,,NOUN
+escoplo,chisel,,NOUN
+escorbuto,scurvy,,NOUN
+escote,neckline,,NOUN
 escozor,smarting,,NOUN
-escribiente,clerk,,X
-escriño,wicker basket,,X
-escrupulosamente,scrupulously,,X
+escribiente,clerk,,NOUN
+escriño,wicker basket,,NOUN
+escrupulosamente,scrupulously,,ADV
 escrupulosidad,scrupulosity,,NOUN
-escrúpulo,scruple,,X
-escuadra,squad/square,,X
-escudero,squire,,X
+escrúpulo,scruple,,NOUN
+escuadra,squad/square,,NOUN
+escudero,squire,,NOUN
 escudriñar,to scrutinize,,VERB
-escueto,terse,,X
+escueto,terse,,ADJ
 escultor,sculptor,,NOUN
 escultura,sculpture,,NOUN
 escultórico,sculptural,,ADJ
 escupir,to spit,,VERB
-escurridizo,slippery,,X
+escurridizo,slippery,,ADJ
 escurrir,to drain,,VERB
 escéptico,skeptical,,ADJ
 esfera,sphere,,NOUN
-esforzarse,to strive,,X
+esforzarse,to strive,,VERB
 esfumar,to vanish,,VERB
 esférico,spherical,,ADJ
-esfínter,sphincter,,VERB
-esgrima,fencing,,X
+esfínter,sphincter,,NOUN
+esgrima,fencing,,NOUN
 esgrimir,to wield,,VERB
-eslabón,link,,X
-eslogan,slogan,,X
+eslabón,link,,NOUN
+eslogan,slogan,,NOUN
 esmaltar,to enamel,,VERB
-esmalte,enamel/polish,,X
-esmero,care/diligence,,X
-esmirriado,puny,,VERB
-esnob,snob,,X
+esmalte,enamel/polish,,NOUN
+esmero,care/diligence,,NOUN
+esmirriado,puny,,ADJ
+esnob,snob,,NOUN
 esnobismo,snobbery,,NOUN
 esotérico,esoteric,,ADJ
-espacioso,spacious,,ADJ
-espadachín,swordsman,,X
-espadín,small sword,,X
-espantajo,scarecrow,,X
-espantapájaros,scarecrow,,X
+espadachín,swordsman,,NOUN
+espadín,small sword,,NOUN
+espantajo,scarecrow,,NOUN
+espantapájaros,scarecrow,,NOUN
 espantar,to scare away,,VERB
-espanto,fright/horror,,X
+espanto,fright/horror,,NOUN
 esparcir,to scatter,,VERB
-espasmo,spasm,,X
+espasmo,spasm,,NOUN
 espasmódico,spasmodic,,ADJ
-especia,spice,,X
+especia,spice,,NOUN
 especialización,specialization,,NOUN
 especificación,specification,,NOUN
 especificar,to specify,,VERB
-especimen,specimen,,X
+especimen,specimen,,NOUN
 espectador,spectator,,NOUN
 espectral,spectral,,ADJ
-espectro,specter,,X
+espectro,specter,,NOUN
 especulación,speculation,,NOUN
 especular,to speculate,,VERB
 espejismo,mirage,,NOUN
-espejuelo,spectacle,,X
-esperma,sperm,,X
+espejuelo,spectacle,,NOUN
+esperma,sperm,,NOUN
 espesar,to thicken,,VERB
-espeso,thick,,X
+espeso,thick,,ADJ
 espesor,thickness,,NOUN
 espesura,thicket,,NOUN
 espiar,to spy,,VERB
-espigado,tall and slender,,VERB
-espigar,to glean,,VERB
-espina,thorn,,X
-espinazo,spine,,X
-espinoso,thorny,,ADJ
-espionaje,espionage,,X
+espigado,tall and slender,,ADJ
+espigar,to glean,,NOUN
+espina,thorn,,NOUN
+espinazo,spine,,NOUN
+espionaje,espionage,,NOUN
 espirar,to exhale,,VERB
-espiritado,inspired,,VERB
+espiritado,inspired,,NOUN
 espiritualidad,spirituality,,NOUN
-espirituoso,spirituous,,ADJ
+espirituoso,spirituous,,NOUN
 esplendor,splendor,,NOUN
-espléndido,splendid,,VERB
-espolear,to spur,,VERB
-espoliar,to despoil,,VERB
-espolio,spoliation,,X
+espléndido,splendid,,ADJ
+espolear,to spur,,NOUN
+espoliar,to despoil,,NOUN
+espolio,spoliation,,NOUN
 espolvorear,to sprinkle,,VERB
-esponjoso,spongy,,ADJ
-esponsales,betrothal,,X
-esportillo,small basket,,X
+esponjoso,spongy,,NOUN
+esponsales,betrothal,,NOUN
+esportillo,small basket,,NOUN
 esposar,to handcuff,,VERB
-espuma,foam,,X
-espumarajo,foam,,X
-espumoso,foamy,,ADJ
-espurio,spurious,,X
-espárrago,asparagus,,X
-espátula,spatula,,X
-esquela,announcement,,X
-esqueleto,skeleton,,X
+espuma,foam,,NOUN
+espumarajo,foam,,NOUN
+espurio,spurious,,ADJ
+espárrago,asparagus,,NOUN
+espátula,spatula,,NOUN
+esquela,announcement,,NOUN
+esqueleto,skeleton,,NOUN
 esquelético,skeletal,,ADJ
-esquema,scheme,,X
+esquema,scheme,,NOUN
 esquemático,schematic,,ADJ
 esquiar,to ski,,VERB
 esquilmar,to fleece,,VERB
-esquinazo,corner,,X
-esquirol,strikebreaker,,X
+esquirol,strikebreaker,,NOUN
 esquivar,to dodge,,VERB
-esquivez,aloofness,,X
-esquizofrenia,schizophrenia,,X
+esquivez,aloofness,,NOUN
+esquizofrenia,schizophrenia,,NOUN
 esquizofrénico,schizophrenic,,ADJ
-esquí,ski,,X
+esquí,ski,,NOUN
 estabilidad,stability,,NOUN
 estabilización,stabilization,,NOUN
 estabilizar,to stabilize,,VERB
-establecimiento,establishment,,X
-establo,stable,,X
-estaca,stake,,X
+establecimiento,establishment,,NOUN
+establo,stable,,NOUN
+estaca,stake,,NOUN
 estacionar,to park,,VERB
-estadía,stay,,X
-estadística,statistics,,X
+estadía,stay,,NOUN
+estadística,statistics,,NOUN
 estadístico,statistical,,ADJ
 estafador,swindler,,NOUN
 estafar,to swindle,,VERB
-estallido,explosion,,VERB
-estamento,estate,,X
-estampa,stamp/print,,X
-estampado,printed/pattern,,VERB
-estancado,stagnant,,VERB
+estallido,explosion,,NOUN
+estamento,estate,,NOUN
+estampa,stamp/print,,NOUN
+estampado,printed/pattern,,ADJ
+estancado,stagnant,,ADJ
 estancia,stay,,NOUN
-estandarte,banner,,X
+estandarte,banner,,NOUN
 estandartizar,to standardize,,VERB
-estanque,pond,,X
-estante,shelf,,ADJ
-estanteria,bookcase,,X
+estanque,pond,,NOUN
+estante,shelf,,NOUN
+estanteria,bookcase,,NOUN
 estatismo,statism,,NOUN
 estatuir,to enact,,VERB
 estatura,height/stature,,NOUN
-estatuto,statute,,X
-estaño,tin,,X
-estela,wake/trail,,X
-estepa,steppe,,X
-estercolar,to manure,,VERB
-estercolero,dunghill,,X
-estereotipo,stereotype,,X
+estatuto,statute,,NOUN
+estaño,tin,,NOUN
+estela,wake/trail,,NOUN
+estepa,steppe,,NOUN
+estercolar,to manure,,NOUN
+estereotipo,stereotype,,NOUN
 estereotípico,stereotypical,,ADJ
 esterilidad,sterility,,NOUN
 esterilizar,to sterilize,,VERB
 estertor,death rattle,,NOUN
-esteva,plow handle,,X
-estiba,stowage,,X
+esteva,plow handle,,NOUN
+estiba,stowage,,NOUN
 estibador,stevedore,,NOUN
-estigma,stigma,,X
+estigma,stigma,,NOUN
 estigmatizar,to stigmatize,,VERB
-estilete,stiletto,,X
+estilete,stiletto,,NOUN
 estilizar,to stylize,,VERB
 estimación,estimate,,NOUN
 estimar,to estimate/esteem,,VERB
 estimulante,stimulating,,ADJ
 estimular,to stimulate,,VERB
-estio,summer,,X
-estipendio,stipend,,X
+estio,summer,,NOUN
+estipendio,stipend,,NOUN
 estipulación,stipulation,,NOUN
 estipular,to stipulate,,VERB
-estirado,stretched,,VERB
+estirado,stretched,,ADJ
 estirar,to stretch,,VERB
-estirpe,lineage,,X
-estiércol,manure,,X
-estofado,stew,,VERB
+estirpe,lineage,,NOUN
+estiércol,manure,,NOUN
+estofado,stew,,NOUN
 estoico,stoic,,ADJ
-estoque,rapier,,X
+estoque,rapier,,NOUN
 estorbar,to hinder,,VERB
-estorbo,hindrance,,X
+estorbo,hindrance,,NOUN
 estornudar,to sneeze,,VERB
-estornudo,sneeze,,X
-estrafalario,outlandish,,X
+estornudo,sneeze,,NOUN
+estrafalario,outlandish,,ADJ
 estragar,to spoil,,VERB
-estrago,ravage,,X
+estrago,ravage,,NOUN
 estrambótico,outlandish,,ADJ
 estrangulación,strangulation,,NOUN
 estrangular,to strangle,,VERB
-estraperlo,black market,,X
-estratagema,stratagem,,X
+estraperlo,black market,,VERB
+estratagema,stratagem,,NOUN
 estratificación,stratification,,NOUN
 estratificar,to stratify,,VERB
-estrato,stratum,,X
+estrato,stratum,,NOUN
 estratégico,strategic,,ADJ
-estrechamiento,narrowing,,X
-estrechez,narrowness,,X
-estrecho,narrow,,X
-estremecedor,startling,,NOUN
+estrechamiento,narrowing,,NOUN
+estrechez,narrowness,,NOUN
+estrecho,narrow,,ADJ
+estremecedor,startling,,ADJ
 estremecer,to shake/tremble,,VERB
-estremecimiento,shudder,,X
+estremecimiento,shudder,,NOUN
 estrenar,to debut/premiere,,VERB
-estreno,premiere,,X
-estrepitoso,thunderous,,ADJ
 estresar,to stress,,VERB
-estreñimiento,constipation,,X
+estreñimiento,constipation,,NOUN
 estreñir,to constipate,,VERB
-estriado,grooved,,VERB
-estribillo,refrain,,X
+estriado,grooved,,ADJ
+estribillo,refrain,,NOUN
 estribor,starboard,,NOUN
-estricto,strict,,X
-estridente,strident,,X
-estro,inspiration,,X
+estricto,strict,,ADJ
+estridente,strident,,ADJ
+estro,inspiration,,NOUN
 estropear,to ruin/break,,VERB
 estructurar,to structure,,VERB
-estruendo,uproar,,X
+estruendo,uproar,,NOUN
 estrujar,to squeeze,,VERB
-estrépito,din,,X
-estuario,estuary,,X
-estuche,case,,X
-estudioso,studious/scholar,,ADJ
-estulto,foolish,,X
-estupefacto,stupefied,,X
+estrépito,din,,NOUN
+estuario,estuary,,NOUN
+estuche,case,,NOUN
+estulto,foolish,,NOUN
+estupefacto,stupefied,,ADJ
 estupor,stupor,,NOUN
-estupro,statutory rape,,X
-estática,statics,,X
+estupro,statutory rape,,NOUN
 estático,static,,ADJ
-estéril,sterile,,X
-estética,aesthetics,,X
+estéril,sterile,,ADJ
 estético,aesthetic,,ADJ
-estímulo,stimulus,,X
-estólido,stolid,,VERB
+estímulo,stimulus,,NOUN
+estólido,stolid,,NOUN
 eternizar,to eternalize,,VERB
-etimología,etymology,,X
+etimología,etymology,,NOUN
 etiquetar,to label,,VERB
-etrusco,Etruscan,,X
-etéreo,ethereal,,X
-eucaristía,Eucharist,,X
+etrusco,Etruscan,,NOUN
+etéreo,ethereal,,ADJ
+eucaristía,Eucharist,,NOUN
 eufemismo,euphemism,,NOUN
-euforia,euphoria,,X
+euforia,euphoria,,NOUN
 eufónico,euphonic,,ADJ
 eufórico,euphoric,,ADJ
-eunuco,eunuch,,X
+eunuco,eunuch,,NOUN
 eurasiático,Eurasian,,ADJ
-eutanasia,euthanasia,,X
+eutanasia,euthanasia,,NOUN
 evacuar,to evacuate,,VERB
 evadir,to evade,,VERB
 evaluar,to evaluate,,VERB
-evangelio,gospel,,X
+evangelio,gospel,,NOUN
 evangelista,evangelist,,NOUN
 evangelizar,to evangelize,,VERB
 evangélico,evangelical,,ADJ
 evaporación,evaporation,,NOUN
 evaporar,to evaporate,,VERB
 evasivo,evasive,,ADJ
-evasión,evasion,,X
+evasión,evasion,,NOUN
 eventual,occasional,,ADJ
 evidenciar,to evidence,,VERB
 evocación,evocation,,NOUN
-evocador,evocative,,NOUN
+evocador,evocative,,ADJ
 evocar,to evoke,,VERB
 evolucionar,to evolve,,VERB
-exabrupto,outburst,,X
+exabrupto,outburst,,NOUN
 exacerbar,to exacerbate,,VERB
-exactitud,exactitude,,X
+exactitud,exactitude,,NOUN
 exageración,exaggeration,,NOUN
-exagerado,exaggerated,,VERB
+exagerado,exaggerated,,ADJ
 exagerar,to exaggerate,,VERB
 exaltación,exaltation,,NOUN
-exaltado,exalted,,VERB
+exaltado,exalted,,ADJ
 exaltar,to exalt,,VERB
-exangüe,bloodless,,X
+exangüe,bloodless,,NOUN
 exasperación,exasperation,,NOUN
 exasperar,to exasperate,,VERB
 excarcelar,to release,,VERB
-excavadora,excavator,,X
+excavadora,excavator,,NOUN
 excavar,to excavate,,VERB
-excedente,surplus,,X
+excedente,surplus,,NOUN
 exceder,to exceed,,VERB
-excelso,sublime,,X
+excelso,sublime,,ADJ
 excentricidad,eccentricity,,NOUN
 excitabilidad,excitability,,NOUN
 excitación,excitement,,NOUN
@@ -1714,23 +1677,23 @@ excluir,to exclude,,VERB
 exclusividad,exclusivity,,NOUN
 exclusivismo,exclusivism,,NOUN
 exclusivo,exclusive,,ADJ
-exclusión,exclusion,,X
+exclusión,exclusion,,NOUN
 excomulgar,to excommunicate,,VERB
-excomunión,excommunication,,X
+excomunión,excommunication,,NOUN
 excoriar,to excoriate,,VERB
 excrecencia,excrescence,,NOUN
-excremento,excrement,,X
+excremento,excrement,,NOUN
 exculpación,exculpation,,NOUN
 exculpar,to exculpate,,VERB
 excusable,excusable,,ADJ
 excusar,to excuse,,VERB
 excéntrico,eccentric,,ADJ
 exención,exemption,,NOUN
-exequias,obsequies,,X
+exequias,obsequies,,NOUN
 exfoliar,to exfoliate,,VERB
 exhalación,exhalation,,NOUN
 exhalar,to exhale,,VERB
-exhausto,exhausted,,X
+exhausto,exhausted,,ADJ
 exhibir,to exhibit,,VERB
 exhortación,exhortation,,NOUN
 exhortar,to exhort,,VERB
@@ -1738,11 +1701,11 @@ exhumación,exhumation,,NOUN
 exhumar,to exhume,,VERB
 exigencia,demand,,NOUN
 exigir,to demand,,VERB
-exilado,exiled,,VERB
-exiliado,exiled,,VERB
+exilado,exiled,,ADJ
+exiliado,exiled,,ADJ
 exiliar,to exile,,VERB
-exilio,exile,,X
-eximio,eminent,,X
+exilio,exile,,NOUN
+eximio,eminent,,ADJ
 eximir,to exempt,,VERB
 existencial,existential,,ADJ
 exoneración,exoneration,,NOUN
@@ -1751,21 +1714,21 @@ exorbitante,exorbitant,,ADJ
 exorbitar,to make exorbitant,,VERB
 exorcizar,to exorcise,,VERB
 expansivo,expansive,,ADJ
-expansión,expansion,,X
+expansión,expansion,,NOUN
 expatriación,expatriation,,NOUN
 expatriar,to expatriate,,VERB
 expectación,expectation,,NOUN
 expectante,expectant,,ADJ
-expectativa,expectation,,X
+expectativa,expectation,,NOUN
 expectoración,expectoration,,NOUN
 expectorar,to expectorate,,VERB
-expedicionario,expeditionary,,X
+expedicionario,expeditionary,,NOUN
 expedir,to issue,,VERB
 expeditivo,expeditious,,ADJ
-expedito,expeditious,,X
+expedito,expeditious,,ADJ
 expeler,to expel,,VERB
 expender,to dispense,,VERB
-expensas,expenses,,X
+expensas,expenses,,NOUN
 experimentación,experimentation,,NOUN
 expiación,atonement,,NOUN
 expiar,to atone,,VERB
@@ -1776,44 +1739,44 @@ expletivo,expletive,,ADJ
 explicable,explicable,,ADJ
 exploración,exploration,,NOUN
 explorador,explorer,,NOUN
-exploratorio,exploratory,,X
+exploratorio,exploratory,,ADJ
 explosivo,explosive,,ADJ
 explotable,exploitable,,ADJ
 explotación,exploitation,,NOUN
-explícitamente,explicitly,,X
-explícito,explicit,,X
+explícitamente,explicitly,,ADV
+explícito,explicit,,ADJ
 expoliar,to plunder,,VERB
-expolio,plundering,,X
+expolio,plundering,,NOUN
 exponencial,exponential,,ADJ
-exponente,exponent,,X
+exponente,exponent,,NOUN
 exportación,export,,NOUN
 exportar,to export,,VERB
 expositor,expositor,,NOUN
-expreso,express,,X
+expreso,express,,ADJ
 exprimir,to squeeze,,VERB
 expropriación,expropriation,,NOUN
 expropriar,to expropriate,,VERB
 expulsar,to expel,,VERB
-expulsión,expulsion,,X
+expulsión,expulsion,,NOUN
 expurgar,to expurgate,,VERB
-exquisitez,exquisiteness,,X
-exquisito,exquisite,,X
+exquisitez,exquisiteness,,NOUN
+exquisito,exquisite,,ADJ
 extasiar,to enrapture,,VERB
-extemporáneo,untimely,,X
+extemporáneo,untimely,,ADJ
 extender,to extend,,VERB
-extendido,extended,,VERB
+extendido,extended,,ADJ
 extensible,extensible,,ADJ
 extensivo,extensive,,ADJ
-extensión,extension,,X
-extenso,extensive,,X
+extensión,extension,,NOUN
+extenso,extensive,,ADJ
 extenuación,exhaustion,,NOUN
 extenuar,to wear out,,VERB
 exterminación,extermination,,NOUN
 exterminar,to exterminate,,VERB
-exterminio,extermination,,X
-externado,day school,,VERB
+exterminio,extermination,,NOUN
+externado,day school,,ADJ
 externar,to express,,VERB
-externo,external,,X
+externo,external,,ADJ
 extinción,extinction,,NOUN
 extinguible,extinguishable,,ADJ
 extinguir,to extinguish,,VERB
@@ -1821,1106 +1784,1062 @@ extintor,extinguisher,,NOUN
 extirpación,extirpation,,NOUN
 extirpar,to extirpate,,VERB
 extorsionar,to extort,,VERB
-extorsión,extortion,,X
+extorsión,extortion,,NOUN
 extracción,extraction,,NOUN
-extracto,extract,,X
+extracto,extract,,NOUN
 extractor,extractor,,NOUN
 extradición,extradition,,NOUN
 extraditar,to extradite,,VERB
 extraer,to extract,,VERB
-extralimitarse,to overreach,,X
+extralimitarse,to overreach,,VERB
 extrapolación,extrapolation,,NOUN
 extrapolar,to extrapolate,,VERB
 extravagancia,extravagance,,NOUN
 extravagante,extravagant,,ADJ
-extraversión,extroversion,,X
-extravertido,extrovert,,VERB
-extraviado,lost,,VERB
+extraversión,extroversion,,NOUN
+extravertido,extrovert,,ADJ
+extraviado,lost,,ADJ
 extraviar,to lose/misplace,,VERB
-extravío,loss,,X
-extrañeza,strangeness,,X
+extravío,loss,,NOUN
+extrañeza,strangeness,,NOUN
 extremar,to make extreme,,VERB
 extremaunción,extreme unction,,NOUN
 extremidad,extremity,,NOUN
-extremista,extremist,,NOUN
-extrínseco,extrinsic,,X
+extremista,extremist,,ADJ
+extrínseco,extrinsic,,ADJ
 extático,ecstatic,,ADJ
 exuberancia,exuberance,,NOUN
 exuberante,exuberant,,ADJ
 exudar,to exude,,VERB
 exultación,exultation,,NOUN
 exultar,to exult,,VERB
-exvoto,votive offering,,X
-exánime,lifeless,,X
-exégesis,exegesis,,X
-exégeta,exegete,,X
+exvoto,votive offering,,NOUN
+exánime,lifeless,,ADJ
+exégesis,exegesis,,NOUN
+exégeta,exegete,,NOUN
 exótico,exotic,,ADJ
 eyaculación,ejaculation,,NOUN
-eyacular,to ejaculate,,VERB
+eyacular,to ejaculate,,NOUN
 eyección,ejection,,NOUN
 eyectar,to eject,,VERB
 fabricación,manufacture,,NOUN
-fabricante,manufacturer,,ADJ
-fabular,to fabulate,,VERB
-faccioso,factious,,ADJ
-faceta,facet,,X
-facha,appearance,,X
-fachada,facade,,X
-fachoso,showy,,ADJ
+fabricante,manufacturer,,NOUN
+fabular,to fabulate,,ADJ
+faccioso,factious,,NOUN
+faceta,facet,,NOUN
+facha,appearance,,NOUN
+fachada,facade,,NOUN
+fachoso,showy,,NOUN
 facilidad,ease,,NOUN
 facilitar,to facilitate,,VERB
-facineroso,wicked,,ADJ
-facsímil,facsimile,,X
+facineroso,wicked,,NOUN
+facsímil,facsimile,,NOUN
 factible,feasible,,ADJ
 factor,factor,,NOUN
 facturación,turnover,,NOUN
-factótum,factotum,,X
+factótum,factotum,,NOUN
 facultativo,optional,,ADJ
-faena,task/job,,X
+faena,task/job,,NOUN
 fagocitar,to phagocytize,,VERB
-faisán,pheasant,,X
+faisán,pheasant,,NOUN
 falangista,phalangist,,NOUN
-falaz,deceptive,,X
+falaz,deceptive,,ADJ
 falencia,bankruptcy,,NOUN
 falibilidad,fallibility,,NOUN
 falible,fallible,,ADJ
 fallecer,to die,,VERB
-fallecimiento,death,,X
-fallido,failed,,VERB
-falsario,falsifier,,X
+fallecimiento,death,,NOUN
+fallido,failed,,ADJ
+falsario,falsifier,,ADJ
 falsedad,falsity,,NOUN
 falsificación,counterfeiting,,NOUN
 falsificar,to forge,,VERB
 faltar,to lack/be missing,,VERB
-faltoso,lacking,,ADJ
 faltriquera,pocket,,NOUN
-faltón,disrespectful,,X
+faltón,disrespectful,,NOUN
 familiarizar,to familiarize,,VERB
 famélico,famished,,ADJ
-fanal,beacon,,ADJ
+fanal,beacon,,NOUN
 fanatismo,fanaticism,,NOUN
-fandango,fandango,,X
-fanfarronear,to brag,,VERB
-fanfarronería,bragging,,X
-fanfarrón,boastful,,X
-fango,mud,,X
-fangoso,muddy,,ADJ
+fandango,fandango,,NOUN
+fanfarronear,to brag,,NOUN
+fanfarronería,bragging,,NOUN
+fanfarrón,boastful,,ADJ
+fango,mud,,NOUN
 fantasear,to daydream,,VERB
 fantasmagórico,phantasmagorical,,ADJ
 fantasmal,ghostly,,ADJ
-fanático,fanatic,,ADJ
-faraón,pharaoh,,X
-fardo,bundle,,X
-fariseo,Pharisee,,X
-farmacéutico,pharmacist,,ADJ
-faro,lighthouse,,X
-farol,lantern,,X
-farolear,to brag,,VERB
-farra,binge,,X
+fanático,fanatic,,NOUN
+faraón,pharaoh,,NOUN
+fardo,bundle,,NOUN
+fariseo,Pharisee,,NOUN
+farmacéutico,pharmacist,,NOUN
+faro,lighthouse,,NOUN
+farol,lantern,,NOUN
+farolear,to brag,,NOUN
+farra,binge,,NOUN
 farragosidad,verbosity,,NOUN
-farragoso,muddled,,ADJ
-farsante,phony,,ADJ
+farsante,phony,,NOUN
 fascinación,fascination,,NOUN
 fascinador,fascinating,,NOUN
 fascinar,to fascinate,,VERB
 fascismo,fascism,,NOUN
 fascista,fascist,,NOUN
 fastidiar,to annoy,,VERB
-fastidio,annoyance,,X
-fastidioso,annoying,,ADJ
+fastidio,annoyance,,NOUN
 fastuosidad,sumptuousness,,NOUN
-fastuoso,sumptuous,,ADJ
+fastuoso,sumptuous,,NOUN
 fatalidad,fatality,,NOUN
 fatalismo,fatalism,,NOUN
-fatalista,fatalist,,NOUN
-fatiga,fatigue,,X
-fatigosamente,wearily,,X
-fatigoso,tiresome,,ADJ
+fatalista,fatalist,,ADJ
+fatiga,fatigue,,NOUN
+fatigosamente,wearily,,ADV
 fatuidad,fatuity,,NOUN
-fatuo,fatuous,,X
+fatuo,fatuous,,ADJ
 fatídico,fateful,,ADJ
-fauces,jaws,,X
-fauna,fauna,,X
-fausto,pompous,,X
-favorecedor,flattering,,NOUN
+fauces,jaws,,NOUN
+fauna,fauna,,NOUN
+fausto,pompous,,NOUN
+favorecedor,flattering,,ADJ
 favorecer,to favor,,VERB
 favoritismo,favoritism,,NOUN
-faz,face,,X
+faz,face,,NOUN
 fealdad,ugliness,,NOUN
-febril,feverish,,X
+febril,feverish,,ADJ
 fecal,fecal,,ADJ
 fecundación,fecundation,,NOUN
 fecundar,to fertilize,,VERB
 fecundidad,fecundity,,NOUN
 fecundizar,to fertilize,,VERB
-fecundo,fertile,,X
+fecundo,fertile,,ADJ
 federar,to federate,,VERB
-fehaciente,reliable,,X
+fehaciente,reliable,,ADJ
 felicitación,congratulation,,NOUN
 felicitar,to congratulate,,VERB
-feligresía,parish,,X
-feligrés,parishioner,,X
-felino,feline,,X
-felonía,felony,,X
-femenil,feminine,,X
+feligresía,parish,,NOUN
+feligrés,parishioner,,NOUN
+felino,feline,,NOUN
+felonía,felony,,NOUN
+femenil,feminine,,ADJ
 feminismo,feminism,,NOUN
-feminista,feminist,,NOUN
+feminista,feminist,,ADJ
 fenecer,to perish,,VERB
-fenicio,Phoenician,,X
+fenicio,Phoenician,,NOUN
 fenomenal,phenomenal,,ADJ
 feracidad,fertility,,NOUN
-feraz,fertile,,X
-ferino,wild,,X
+feraz,fertile,,ADJ
 fermentación,fermentation,,NOUN
 fermentar,to ferment,,VERB
 ferocidad,ferocity,,NOUN
-feroz,fierce,,X
-ferretería,hardware store,,X
-ferrocarril,railway,,X
-ferroviario,railway,,X
+feroz,fierce,,ADJ
+ferretería,hardware store,,NOUN
+ferrocarril,railway,,NOUN
+ferroviario,railway,,ADJ
 fertilidad,fertility,,NOUN
 fertilización,fertilization,,NOUN
 fertilizar,to fertilize,,VERB
-ferviente,fervent,,X
+ferviente,fervent,,ADJ
 fervor,fervor,,NOUN
-fervoroso,fervent,,ADJ
 festejar,to celebrate,,VERB
-festejo,celebration,,X
+festejo,celebration,,NOUN
 festivo,festive/holiday,,ADJ
-festín,feast,,X
-fetiche,fetish,,X
-feto,fetus,,X
+festín,feast,,NOUN
+fetiche,fetish,,NOUN
+feto,fetus,,NOUN
 feudal,feudal,,ADJ
 feudalismo,feudalism,,NOUN
 fiabilidad,reliability,,NOUN
 fiable,reliable,,ADJ
 fiador,guarantor,,NOUN
 fiar,to vouch,,VERB
-fiasco,fiasco,,X
-fibra,fiber,,X
-fibroso,fibrous,,ADJ
-ficticio,fictitious,,X
-fidedigno,trustworthy,,X
-fideicomiso,trust,,X
+fiasco,fiasco,,NOUN
+fibra,fiber,,NOUN
+ficticio,fictitious,,ADJ
+fidedigno,trustworthy,,PROPN
+fideicomiso,trust,,NOUN
 fidelidad,fidelity,,NOUN
-fiduciario,fiduciary,,X
-fielmente,faithfully,,X
+fiduciario,fiduciary,,NOUN
+fielmente,faithfully,,ADV
 fiera,wild beast,,NOUN
-fiereza,fierceness,,X
-fiero,fierce,,X
-figuradamente,figuratively,,X
+fiereza,fierceness,,NOUN
+fiero,fierce,,ADJ
+figuradamente,figuratively,,ADV
 figurar,to figure,,VERB
 figurativo,figurative,,ADJ
-figurín,fashion plate,,X
+figurín,fashion plate,,NOUN
 fijar,to fix/pay attention,,VERB
-filamento,filament,,X
-filantropía,philanthropy,,X
-filarmónica,philharmonic,,X
+filamento,filament,,NOUN
+filantropía,philanthropy,,NOUN
+filarmónica,philharmonic,,NOUN
 filatelista,philatelist,,NOUN
-filatería,verbiage,,X
-filete,fillet,,X
+filatería,verbiage,,NOUN
+filete,fillet,,NOUN
 filiación,affiliation,,NOUN
-filial,subsidiary,,ADJ
-filiar,to register,,VERB
-filibustero,filibuster,,X
-filigrana,filigree,,X
-filo,edge/blade,,X
-filosofar,to philosophize,,VERB
+filial,subsidiary,,NOUN
+filiar,to register,,NOUN
+filibustero,filibuster,,NOUN
+filigrana,filigree,,NOUN
+filo,edge/blade,,NOUN
+filosofar,to philosophize,,NOUN
 filosófico,philosophical,,ADJ
 filtración,filtration/leak,,NOUN
 filtrar,to filter/leak,,VERB
-filtro,filter,,X
-filántropo,philanthropist,,X
-filípico,Philippic,,ADJ
-filólogo,philologist,,X
-filón,vein,,X
-filósofo,philosopher,,X
-finado,deceased,,VERB
+filtro,filter,,NOUN
+filántropo,philanthropist,,NOUN
+filípico,Philippic,,NOUN
+filólogo,philologist,,NOUN
+filón,vein,,NOUN
+filósofo,philosopher,,NOUN
+finado,deceased,,ADJ
 finalidad,purpose,,NOUN
 financiación,financing,,NOUN
 financiar,to finance,,VERB
-finca,property/estate,,X
-fineza,niceness,,X
-fingimiento,pretense,,X
-finiquito,settlement,,X
-finito,finite,,X
-finés,Finnish,,X
-finísimo,very fine,,X
-firmamento,firmament,,X
-firmemente,firmly,,X
-firmeza,firmness,,X
+finca,property/estate,,NOUN
+fineza,niceness,,NOUN
+fingimiento,pretense,,NOUN
+finiquito,settlement,,NOUN
+finito,finite,,ADJ
+finés,Finnish,,ADJ
+finísimo,very fine,,ADJ
+firmamento,firmament,,NOUN
+firmemente,firmly,,ADV
+firmeza,firmness,,NOUN
 fiscalizar,to oversee,,VERB
 fisgar,to snoop,,VERB
-fisgoneo,snooping,,X
-fisgón,nosy,,X
-fisiología,physiology,,X
+fisgoneo,snooping,,NOUN
+fisgón,nosy,,NOUN
+fisiología,physiology,,NOUN
 fisiológico,physiological,,ADJ
-fisión,fission,,X
-fisonomía,physiognomy,,X
+fisión,fission,,NOUN
+fisonomía,physiognomy,,NOUN
 fisura,fissure,,NOUN
-flacidez,flaccidity,,X
+flacidez,flaccidity,,NOUN
 flagelación,flagellation,,NOUN
 flagelar,to flog,,VERB
-flagelo,scourge,,X
+flagelo,scourge,,NOUN
 flagrancia,flagrancy,,NOUN
 flagrante,flagrant,,ADJ
-flamante,brand new,,ADJ
-flameante,flaming,,ADJ
+flamante,brand new,,NOUN
+flameante,flaming,,NOUN
 flamear,to flame,,VERB
-flamenco,flamenco/flamingo,,X
-flanco,flank,,X
+flamenco,flamenco/flamingo,,NOUN
+flanco,flank,,NOUN
 flanquear,to flank,,VERB
 flaquear,to weaken,,VERB
-flaqueza,weakness,,X
+flaqueza,weakness,,NOUN
 flautista,flutist,,NOUN
-flebitis,phlebitis,,X
-flechazo,arrow wound,,X
-fleco,fringe,,X
-flema,phlegm,,X
+flebitis,phlebitis,,NOUN
+flechazo,arrow wound,,NOUN
+fleco,fringe,,NOUN
+flema,phlegm,,NOUN
 flemático,phlegmatic,,ADJ
-flemón,abscess,,X
+flemón,abscess,,NOUN
 fletar,to charter,,VERB
-flete,freight,,X
+flete,freight,,NOUN
 flexibilizar,to make flexible,,VERB
 flexible,flexible,,ADJ
-flexión,flexion,,X
-flirteo,flirting,,X
+flexión,flexion,,NOUN
 flojear,to weaken,,VERB
 flojedad,looseness,,NOUN
 flojera,laziness,,NOUN
-flojo,loose/lazy,,X
+flojo,loose/lazy,,ADJ
 florecer,to flourish,,VERB
-floreciente,flourishing,,X
-florecimiento,flourishing,,X
-florido,flowery,,VERB
-florilegio,anthology,,X
-floripondio,fancy decoration,,X
+floreciente,flourishing,,ADJ
+florecimiento,flourishing,,NOUN
+florido,flowery,,ADJ
+florilegio,anthology,,NOUN
+floripondio,fancy decoration,,NOUN
 florista,florist,,NOUN
-florón,large flower,,X
+florón,large flower,,NOUN
 flotación,flotation,,NOUN
 flotante,floating,,ADJ
 flotar,to float,,VERB
-flotilla,flotilla,,X
+flotilla,flotilla,,NOUN
 fluctuación,fluctuation,,NOUN
 fluctuar,to fluctuate,,VERB
 fluencia,fluency,,NOUN
-fluidez,fluidity,,X
+fluidez,fluidity,,NOUN
 fluidificar,to liquefy,,VERB
-fluido,fluid,,VERB
+fluido,fluid,,NOUN
 fluir,to flow,,VERB
 fluorescencia,fluorescence,,NOUN
-fluorescente,fluorescent,,X
+fluorescente,fluorescent,,ADJ
 fluvial,fluvial,,ADJ
 fluviométrico,river-gauging,,ADJ
-flácido,flaccid,,VERB
+flácido,flaccid,,ADJ
 flúor,fluoride,,NOUN
-fobia,phobia,,X
-foca,seal,,X
+fobia,phobia,,NOUN
+foca,seal,,NOUN
 focal,focal,,ADJ
-foco,focus/spotlight,,X
-fofo,spongy,,X
-fogata,bonfire,,X
+foco,focus/spotlight,,NOUN
+fofo,spongy,,ADJ
+fogata,bonfire,,NOUN
 fogosidad,ardor,,NOUN
-fogoso,fiery,,ADJ
 foguear,to harden,,VERB
-fogón,stove,,X
+fogón,stove,,NOUN
 folclor,folklore,,NOUN
-folclore,folklore,,X
+folclore,folklore,,NOUN
 folclórico,folkloric,,ADJ
-folio,folio/page,,X
-foliáceo,foliate,,X
-follaje,foliage,,X
-folleto,brochure,,X
-follón,row,,X
+folio,folio/page,,NOUN
+foliáceo,foliate,,NOUN
+follaje,foliage,,NOUN
+folleto,brochure,,NOUN
+follón,row,,NOUN
 fomentar,to encourage/promote,,VERB
-fomento,promotion,,X
+fomento,promotion,,NOUN
 fondear,to anchor,,VERB
 fondista,distance runner,,NOUN
-fontanal,fountain spring,,ADJ
-fontanería,plumbing,,X
-forajido,outlaw,,VERB
-forastero,foreigner/stranger,,X
+fontanal,fountain spring,,NOUN
+fontanería,plumbing,,NOUN
+forajido,outlaw,,ADJ
+forastero,foreigner/stranger,,NOUN
 forcejear,to struggle,,VERB
-forcejeo,struggle,,X
+forcejeo,struggle,,NOUN
 forestal,forest,,ADJ
-forestar,to forest,,VERB
+forestar,to forest,,NOUN
 forjar,to forge,,VERB
 formalidad,formality,,NOUN
 formalismo,formalism,,NOUN
-formalista,formalist,,NOUN
+formalista,formalist,,ADJ
 formalizar,to formalize,,VERB
-formato,format,,X
+formato,format,,NOUN
 formidable,formidable,,ADJ
 formulación,formulation,,NOUN
 formular,to formulate,,VERB
-fornido,sturdy,,VERB
-forofo,fan,,X
-forraje,forage,,X
-fortachón,sturdy,,X
+fornido,sturdy,,ADJ
+forofo,fan,,NOUN
+forraje,forage,,NOUN
+fortachón,sturdy,,NOUN
 fortalecer,to strengthen,,VERB
-fortalecimiento,strengthening,,X
+fortalecimiento,strengthening,,NOUN
 fortificación,fortification,,NOUN
 fortificar,to fortify,,VERB
-fortuito,fortuitous,,X
-fortín,fortlet,,X
-forzado,forced,,VERB
+fortuito,fortuitous,,ADJ
+fortín,fortlet,,NOUN
+forzado,forced,,ADJ
 forzar,to force,,VERB
-forzosamente,forcibly,,X
-forzoso,forced/obligatory,,ADJ
-forúnculo,boil,,X
-fosa,grave/pit,,X
+forzosamente,forcibly,,ADV
+forzoso,forced/obligatory,,NOUN
+forúnculo,boil,,NOUN
 fosforescencia,phosphorescence,,NOUN
-fosforescente,phosphorescent,,X
-fosilizado,fossilized,,VERB
+fosforescente,phosphorescent,,ADJ
+fosilizado,fossilized,,ADJ
 fosilizar,to fossilize,,VERB
-fotocopia,photocopy,,X
-fotofobia,photophobia,,X
-fotograbado,photogravure,,VERB
-fotograma,frame,,X
+fotocopia,photocopy,,NOUN
+fotofobia,photophobia,,NOUN
+fotograbado,photogravure,,ADJ
+fotograma,frame,,NOUN
 fotogénico,photogenic,,ADJ
-fototipia,phototypy,,X
+fototipia,phototypy,,NOUN
 fracasar,to fail,,VERB
 fraccionar,to fraction,,VERB
-fraccionario,fractional,,X
+fraccionario,fractional,,ADJ
 fracción,fraction,,NOUN
 fractura,fracture,,NOUN
 fracturar,to fracture,,VERB
 fragancia,fragrance,,NOUN
 fragante,fragrant,,ADJ
-fragata,frigate,,X
+fragata,frigate,,NOUN
 fragilidad,fragility,,NOUN
 fragmentación,fragmentation,,NOUN
 fragmentar,to fragment,,VERB
-fragmentario,fragmentary,,X
-fragmento,fragment,,X
+fragmentario,fragmentary,,ADJ
+fragmento,fragment,,NOUN
 fragor,roar,,NOUN
-fragoroso,thunderous,,ADJ
-fragoso,rough,,ADJ
-fragua,forge,,X
+fragua,forge,,NOUN
 fraguar,to forge,,VERB
-fraile,monk,,X
-francachela,binge,,X
-franciscano,Franciscan,,X
+fraile,monk,,NOUN
+francachela,binge,,PROPN
+franciscano,Franciscan,,PROPN
 francotirador,sniper,,NOUN
-franja,strip,,X
+franja,strip,,NOUN
 franquear,to clear,,VERB
-franqueo,postage,,X
-franqueza,frankness,,X
-franquicia,franchise,,X
-fraseología,phraseology,,X
+franqueo,postage,,NOUN
+franqueza,frankness,,NOUN
+franquicia,franchise,,NOUN
+fraseología,phraseology,,NOUN
 fraternal,fraternal,,ADJ
 fraternidad,fraternity,,NOUN
 fraternizar,to fraternize,,VERB
-fraterno,fraternal,,X
-fratricidio,fratricide,,X
-fraudulento,fraudulent,,X
+fraterno,fraternal,,ADJ
+fratricidio,fratricide,,NOUN
+fraudulento,fraudulent,,ADJ
 frecuentar,to frequent,,VERB
-frecuente,frequent,,X
-fregadero,sink,,X
+frecuente,frequent,,ADJ
+fregadero,sink,,NOUN
 fregar,to scrub,,VERB
-freidora,fryer,,X
+freidora,fryer,,NOUN
 frenar,to brake,,VERB
-frenazo,sudden braking,,X
-frenesí,frenzy,,X
-freno,brake,,X
+frenazo,sudden braking,,NOUN
+frenesí,frenzy,,NOUN
+freno,brake,,NOUN
 frenético,frantic,,ADJ
-fresa,strawberry,,X
+fresa,strawberry,,NOUN
 frescor,coolness,,NOUN
 frescura,freshness,,NOUN
-freír,to fry,,X
+freír,to fry,,VERB
 friccionar,to rub,,VERB
 fricción,friction,,NOUN
-frigorífico,refrigerator,,ADJ
-frijolar,bean field,,VERB
-friolento,sensitive to cold,,X
+frigorífico,refrigerator,,NOUN
+frijolar,bean field,,NOUN
+friolento,sensitive to cold,,ADJ
 friolera,trifle,,NOUN
-frisar,to border on,,VERB
-friso,frieze,,X
+frisar,to border on,,NOUN
 fritura,frying,,NOUN
 frondosidad,leafiness,,NOUN
-frondoso,leafy,,ADJ
-fronterizo,border,,X
-frontón,pediment,,X
+fronterizo,border,,ADJ
+frontón,pediment,,NOUN
 frotación,friction,,NOUN
-frotamiento,rubbing,,X
+frotamiento,rubbing,,NOUN
 frotar,to rub,,VERB
 fructificar,to bear fruit,,VERB
-fructuosamente,fruitfully,,X
-fructífero,fruitful,,X
+fructuosamente,fruitfully,,ADV
+fructífero,fruitful,,NOUN
 frugal,frugal,,ADJ
 frugalidad,frugality,,NOUN
 fruición,fruition,,NOUN
-frunce,gather,,X
+frunce,gather,,NOUN
 fruncir,to wrinkle/frown,,VERB
 frustración,frustration,,NOUN
-frustrado,frustrated,,VERB
+frustrado,frustrated,,ADJ
 frustrante,frustrating,,ADJ
 frustrar,to frustrate,,VERB
 frutal,fruit tree,,ADJ
-fréjol,bean,,X
-frígido,frigid,,VERB
-frívolo,frivolous,,X
-fucsia,fuchsia,,X
-fuelle,bellows,,X
-fuero,jurisdiction,,X
-fugarse,to escape,,X
-fugaz,fleeting,,X
-fulano,so-and-so,,X
-fulcro,fulcrum,,X
+fréjol,bean,,NOUN
+frígido,frigid,,ADJ
+frívolo,frivolous,,ADJ
+fucsia,fuchsia,,NOUN
+fuelle,bellows,,NOUN
+fuero,jurisdiction,,NOUN
+fugaz,fleeting,,ADJ
+fulano,so-and-so,,NOUN
+fulcro,fulcrum,,NOUN
 fulgir,to shine,,VERB
 fulgor,radiance,,NOUN
 fulgurante,brilliant,,ADJ
 fulgurar,to flash,,VERB
 fulminante,sudden,,ADJ
 fulminar,to strike down,,VERB
-fumarada,puff,,X
-fumarola,fumarole,,X
+fumarada,puff,,ADJ
+fumarola,fumarole,,NOUN
 fumigación,fumigation,,NOUN
 fumigar,to fumigate,,VERB
 funcionalidad,functionality,,NOUN
 funcionalismo,functionalism,,NOUN
-funcionario,civil servant,,X
-funda,cover/case,,X
+funcionario,civil servant,,NOUN
 fundación,foundation,,NOUN
 fundamental,fundamental,,ADJ
 fundamentalismo,fundamentalism,,NOUN
 fundamentar,to base,,VERB
-fundamento,foundation/basis,,X
+fundamento,foundation/basis,,NOUN
 fundar,to found,,VERB
-fundente,flux,,X
+fundente,flux,,NOUN
 fundición,foundry,,NOUN
 fundir,to melt/fuse,,VERB
-funerario,funereal,,X
-funesto,fatal,,X
+funerario,funereal,,ADJ
+funesto,fatal,,ADJ
 fungible,fungible,,ADJ
-fungoso,fungal,,ADJ
-funámbulo,tightrope walker,,X
-furibundo,furious,,X
+funámbulo,tightrope walker,,NOUN
+furibundo,furious,,ADJ
 furor,fury,,NOUN
 furtivo,furtive,,ADJ
-furúnculo,furuncle,,X
-fuselaje,fuselage,,X
-fusible,fuse,,ADJ
-fusil,rifle,,X
-fusilamiento,execution by firing squad,,X
+furúnculo,furuncle,,NOUN
+fuselaje,fuselage,,NOUN
+fusible,fuse,,NOUN
+fusil,rifle,,NOUN
+fusilamiento,execution by firing squad,,NOUN
 fusilar,to execute by firing squad,,VERB
 fusionar,to merge,,VERB
 fustigar,to scourge,,VERB
 futilidad,futility,,NOUN
 futurible,futurible,,ADJ
-futurista,futurist,,NOUN
-fuñiñoso,whiny,,ADJ
-fábula,fable,,X
-fárrago,medley,,X
-féretro,coffin,,X
-férreo,iron,,X
-fértil,fertile,,X
-férula,ferrule,,X
-fétido,fetid,,VERB
-fósforo,match/phosphorus,,X
-fúnebre,funeral,,X
-fútil,futile,,X
-gabacho,French,,X
-gabardina,gabardine,,X
-gabarra,barge,,X
-gabela,tax,,X
-gabinete,cabinet,,X
-gaceta,gazette,,X
-gacetilla,short news,,X
-gachas,porridge,,X
-gaditano,from Cadiz,,X
-gafa,glasses,,X
-gaitero,bagpiper,,X
-gajes,perks,,X
-gala,gala,,X
+futurista,futurist,,ADJ
+fuñiñoso,whiny,,NOUN
+fábula,fable,,NOUN
+fárrago,medley,,NOUN
+féretro,coffin,,NOUN
+férreo,iron,,NOUN
+fértil,fertile,,ADJ
+férula,ferrule,,NOUN
+fétido,fetid,,NOUN
+fósforo,match/phosphorus,,NOUN
+fúnebre,funeral,,ADJ
+fútil,futile,,ADJ
+gabacho,French,,NOUN
+gabardina,gabardine,,NOUN
+gabarra,barge,,NOUN
+gabela,tax,,NOUN
+gabinete,cabinet,,NOUN
+gaceta,gazette,,NOUN
+gacetilla,short news,,NOUN
+gaditano,from Cadiz,,NOUN
+gafa,glasses,,NOUN
+gaitero,bagpiper,,NOUN
+gala,gala,,NOUN
 galaico,Galician,,ADJ
 galante,gallant,,ADJ
 galanteador,gallant,,NOUN
 galantear,to court,,VERB
-galantería,gallantry,,X
+galantería,gallantry,,NOUN
 galardonar,to award,,VERB
-galardón,prize,,X
+galardón,prize,,NOUN
 galera,galley,,NOUN
 galerista,gallery owner,,NOUN
-galimatías,gibberish,,X
-gallinazo,vulture,,X
-gallinero,henhouse,,X
-gallito,cocky,,X
-gallo,rooster,,X
-galo,Gallic,,X
+galimatías,gibberish,,NOUN
+gallinero,henhouse,,NOUN
+gallito,cocky,,NOUN
+gallo,rooster,,NOUN
+galo,Gallic,,NOUN
 galopante,galloping,,ADJ
 galopar,to gallop,,VERB
 galvanizar,to galvanize,,VERB
-galápago,turtle,,X
-galón,gallon,,X
-gama,range,,X
-gamba,prawn,,X
-gamberro,hooligan,,X
-gameto,gamete,,X
-gamuza,chamois,,X
-ganadero,cattle rancher,,X
-ganadería,livestock,,X
+galápago,turtle,,NOUN
+galón,gallon,,NOUN
+gama,range,,NOUN
+gamba,prawn,,NOUN
+gamberro,hooligan,,ADJ
+gameto,gamete,,NOUN
+gamuza,chamois,,NOUN
+ganadería,livestock,,NOUN
 ganancia,profit/gain,,NOUN
-ganchillo,crochet,,X
-gandul,lazy,,X
-ganga,bargain,,X
-gangrena,gangrene,,X
-gangrenarse,to gangrene,,X
-gansada,silly thing,,X
-ganso,goose,,X
+ganchillo,crochet,,NOUN
+gandul,lazy,,NOUN
+ganga,bargain,,NOUN
+gangrena,gangrene,,NOUN
+gangrenarse,to gangrene,,VERB
+ganso,goose,,NOUN
 garabatear,to scribble,,VERB
-garabato,scribble,,X
-garante,guarantor,,ADJ
-garbeo,stroll,,X
-garbo,grace,,X
-garboso,graceful,,ADJ
-gargajo,phlegm,,X
-garra,claw,,X
-garrafa,carafe,,X
+garabato,scribble,,NOUN
+garante,guarantor,,NOUN
+garbo,grace,,NOUN
+gargajo,phlegm,,NOUN
+garra,claw,,NOUN
+garrafa,carafe,,NOUN
 garrafal,enormous,,ADJ
-garrapata,tick,,X
-garrocha,goad,,X
-garrotazo,club blow,,X
-garrote,cudgel,,X
-garrón,heel,,X
-garza,heron,,X
-gaseoso,gaseous/fizzy,,ADJ
+garrapata,tick,,NOUN
+garrocha,goad,,NOUN
+garrotazo,club blow,,NOUN
+garrote,cudgel,,NOUN
+garrón,heel,,NOUN
+garza,heron,,NOUN
 gasificar,to gasify,,VERB
-gasoducto,gas pipeline,,X
+gasoducto,gas pipeline,,NOUN
 gasolinera,gas station,,NOUN
-gasto,expense,,X
-gastoso,wasteful,,ADJ
-gastronomía,gastronomy,,X
-gastrónomo,gastronome,,X
-gaucho,gaucho,,X
-gavilán,sparrowhawk,,X
-gaviota,seagull,,X
-gel,gel,,X
-gelatina,gelatin,,X
-gema,gem,,X
-gemelo,twin,,X
-gemido,moan,,VERB
-gemir,to moan,,VERB
-gen,gene,,X
-genealogía,genealogy,,X
+gasto,expense,,NOUN
+gastronomía,gastronomy,,NOUN
+gastrónomo,gastronome,,NOUN
+gaucho,gaucho,,NOUN
+gavilán,sparrowhawk,,NOUN
+gaviota,seagull,,NOUN
+gel,gel,,NOUN
+gelatina,gelatin,,NOUN
+gema,gem,,NOUN
+gemelo,twin,,NOUN
+gemido,moan,,NOUN
+gemir,to moan,,NOUN
+gen,gene,,NOUN
+genealogía,genealogy,,NOUN
 generalidad,generality,,NOUN
 generalización,generalization,,NOUN
 generalizar,to generalize,,VERB
 generar,to generate,,VERB
-generatriz,generatrix,,X
-genuflexión,genuflection,,X
-genuino,genuine,,X
+generatriz,generatrix,,NOUN
+genuflexión,genuflection,,NOUN
+genuino,genuine,,NOUN
 genérico,generic,,ADJ
 genético,genetic,,ADJ
 geocéntrico,geocentric,,ADJ
-geofísica,geophysics,,X
-geografía,geography,,X
-geográfico,geographical,,ADJ
-geología,geology,,X
+geofísica,geophysics,,NOUN
+geografía,geography,,NOUN
+geográfico,geographical,,NOUN
+geología,geology,,NOUN
 geológico,geological,,ADJ
-geometría,geometry,,X
+geometría,geometry,,NOUN
 geométrico,geometric,,ADJ
 gerencia,management,,NOUN
 geriátrico,geriatric,,ADJ
-germano,German,,X
-germen,germ,,X
-germicida,germicidal,,X
+germen,germ,,NOUN
+germicida,germicidal,,NOUN
 germinación,germination,,NOUN
 germinar,to germinate,,VERB
 germánico,Germanic,,ADJ
-gerontocracia,gerontocracy,,X
-gesta,exploit,,X
+gerontocracia,gerontocracy,,NOUN
+gesta,exploit,,NOUN
 gestación,gestation,,NOUN
 gestar,to gestate,,VERB
 gestear,to gesticulate,,VERB
 gestionar,to manage,,VERB
-gestión,management,,X
+gestión,management,,NOUN
 gestor,manager,,NOUN
-gestoría,agency,,X
+gestoría,agency,,NOUN
 gestual,gestural,,ADJ
-geógrafo,geographer,,X
-geómetra,geometer,,X
-giba,hump,,X
-giboso,hunchbacked,,ADJ
-gigantesco,gigantic,,X
-gimnasia,gymnastics,,X
-gimnasta,gymnast,,X
+geógrafo,geographer,,NOUN
+geómetra,geometer,,NOUN
+giba,hump,,NOUN
+gigantesco,gigantic,,ADJ
+gimnasia,gymnastics,,NOUN
+gimnasta,gymnast,,NOUN
 gimnástico,gymnastic,,ADJ
 gimotear,to whimper,,VERB
-ginebra,gin,,X
-gineceo,women's quarters,,X
-ginecólogo,gynecologist,,X
-girasol,sunflower,,X
-giratorio,rotating,,X
-gitano,Gypsy,,X
+ginebra,gin,,NOUN
+gineceo,women's quarters,,NOUN
+ginecólogo,gynecologist,,NOUN
+girasol,sunflower,,NOUN
+giratorio,rotating,,ADJ
+gitano,Gypsy,,NOUN
 glacial,glacial,,ADJ
-glaciar,glacier,,VERB
+glaciar,glacier,,NOUN
 gladiador,gladiator,,NOUN
-glamour,glamour,,X
-glaucoma,glaucoma,,X
-gleba,glebe,,X
-glifo,glyph,,X
+glamour,glamour,,NOUN
+glaucoma,glaucoma,,NOUN
+gleba,glebe,,NOUN
+glifo,glyph,,NOUN
 globalización,globalization,,NOUN
 globalizar,to globalize,,VERB
-globular,globular,,VERB
-glomérulo,glomerulus,,X
-gloriarse,to glory,,X
+globular,globular,,ADJ
+glomérulo,glomerulus,,NOUN
+gloriarse,to glory,,VERB
 glorificación,glorification,,NOUN
 glorificar,to glorify,,VERB
-gloriosamente,gloriously,,X
-glorioso,glorious,,ADJ
-glosa,gloss,,X
+gloriosamente,gloriously,,ADV
+glosa,gloss,,NOUN
 glosador,glossator,,NOUN
 glosar,to gloss,,VERB
-glotonería,gluttony,,X
-glotón,glutton,,X
-glándula,gland,,X
-glúcido,carbohydrate,,VERB
-glúteo,gluteus,,X
+glotonería,gluttony,,NOUN
+glotón,glutton,,NOUN
+glándula,gland,,NOUN
+glúcido,carbohydrate,,NOUN
+glúteo,gluteus,,NOUN
 gobernabilidad,governability,,NOUN
 gobernación,government,,NOUN
-gobernante,ruler,,ADJ
-goce,enjoyment,,X
-golfo,gulf,,X
-gollete,gullet,,X
-golosina,sweet,,X
-gondolero,gondolier,,X
+gobernante,ruler,,NOUN
+goce,enjoyment,,NOUN
+golfo,gulf,,NOUN
+gollete,gullet,,NOUN
+golosina,sweet,,NOUN
+gondolero,gondolier,,NOUN
 gordura,fatness,,NOUN
-gorgojeo,trill,,X
-gorgorito,warble,,X
-gorgotear,to gurgle,,VERB
-gorrón,sponger,,X
-goteado,dripping,,VERB
+gorgojeo,trill,,NOUN
+gorgorito,warble,,NOUN
+gorgotear,to gurgle,,NOUN
+gorrón,sponger,,NOUN
+goteado,dripping,,ADJ
 gotear,to drip,,VERB
-goteo,dripping,,X
-gotero,dropper,,X
-goyesco,Goyaesque,,X
+gotero,dropper,,NOUN
+goyesco,Goyaesque,,NOUN
 gozar,to enjoy,,VERB
-gozne,hinge,,X
-gozo,joy,,X
-gozoso,joyful,,ADJ
-gozque,small dog,,X
+gozne,hinge,,PROPN
+gozoso,joyful,,NOUN
+gozque,small dog,,NOUN
 grabador,engraver,,NOUN
-gracejo,wit,,X
+gracejo,wit,,NOUN
 gracilidad,slenderness,,NOUN
 gradación,gradation,,NOUN
 gradual,gradual,,ADJ
 graduar,to graduate,,VERB
-graduarse,to graduate,,X
 grafista,graphic artist,,NOUN
-grafología,graphology,,X
+grafología,graphology,,NOUN
 gramatical,grammatical,,ADJ
-gramática,grammar,,X
-gramófono,gramophone,,X
-granada,grenade,,X
-granadero,grenadier,,X
-granadino,from Granada,,X
-granate,maroon,,X
+gramática,grammar,,NOUN
+gramófono,gramophone,,NOUN
+granada,grenade,,NOUN
+granadero,grenadier,,NOUN
+granadino,from Granada,,NOUN
+granate,maroon,,NOUN
 grandilocuencia,grandiloquence,,NOUN
-grandilocuente,grandiloquent,,X
+grandilocuente,grandiloquent,,ADJ
 grandiosidad,grandiosity,,NOUN
-grandullón,big lout,,X
-granito,granite,,X
+grandullón,big lout,,NOUN
+granito,granite,,NOUN
 granizar,to hail,,VERB
-granizo,hail,,X
-granjearse,to gain,,X
-granuja,rascal,,X
-granular,granular,,VERB
+granizo,hail,,NOUN
+granjearse,to gain,,VERB
+granuja,rascal,,NOUN
+granular,granular,,ADJ
 granítico,granitic,,ADJ
-grasiento,greasy,,X
-graso,greasy,,X
+grasiento,greasy,,ADJ
 gratificación,gratification,,NOUN
 gratificar,to gratify,,VERB
-grato,pleasing,,X
+grato,pleasing,,ADJ
 gratuidad,gratuitousness,,NOUN
-gratuito,free,,X
-grava,gravel,,X
-gravamen,burden,,X
+gratuito,free,,ADJ
+grava,gravel,,NOUN
+gravamen,burden,,NOUN
 gravar,to tax,,VERB
-gravemente,gravely,,X
+gravemente,gravely,,ADV
 gravitación,gravitation,,NOUN
 gravitar,to gravitate,,VERB
-gravoso,burdensome,,ADJ
-graznar,to caw,,VERB
-graznido,caw,,VERB
-gregario,gregarious,,X
-greguería,uproar,,X
+graznar,to caw,,PROPN
+graznido,caw,,NOUN
+gregario,gregarious,,ADJ
+greguería,uproar,,NOUN
 gremial,union,,ADJ
-gremio,guild,,X
-greña,mane,,X
-grieta,crack,,X
-grifería,faucets,,X
-grifo,faucet,,X
-grillete,shackle,,X
-grillo,cricket,,X
-gringo,foreigner,,X
-grisáceo,grayish,,X
-grisú,firedamp,,X
-griñón,wimple,,X
-grosería,rudeness,,X
+gremio,guild,,NOUN
+greña,mane,,NOUN
+grieta,crack,,NOUN
+grifería,faucets,,NOUN
+grifo,faucet,,NOUN
+grillete,shackle,,NOUN
+grillo,cricket,,NOUN
+gringo,foreigner,,NOUN
+grisáceo,grayish,,ADJ
+grisú,firedamp,,NOUN
+griñón,wimple,,NOUN
+grosería,rudeness,,NOUN
 grosor,thickness,,NOUN
-grotesco,grotesque,,X
-grueso,thick,,X
-gruesote,thick,,X
-grullo,crane,,X
-grumete,cabin boy,,X
-grupa,croup,,X
-gruta,grotto,,X
-gruñido,growl,,VERB
+grotesco,grotesque,,ADJ
+grueso,thick,,ADJ
+gruesote,thick,,NOUN
+grullo,crane,,NOUN
+grumete,cabin boy,,NOUN
+grupa,croup,,NOUN
+gruta,grotto,,NOUN
+gruñido,growl,,NOUN
 gruñir,to grumble,,VERB
-gruñón,grumpy,,X
-grácil,slender,,X
-gránulo,granule,,X
-grávido,gravid,,VERB
-grímpola,pennant,,X
-grúa,crane,,X
-guacamayo,macaw,,X
-guacho,orphan,,X
-guadaña,scythe,,X
-guapeza,gallantry,,X
-guarango,uncouth,,X
-guarapo,sugarcane juice,,X
+gruñón,grumpy,,ADJ
+grácil,slender,,ADJ
+gránulo,granule,,NOUN
+grávido,gravid,,ADJ
+grímpola,pennant,,NOUN
+grúa,crane,,NOUN
+guacamayo,macaw,,NOUN
+guacho,orphan,,NOUN
+guadaña,scythe,,NOUN
+guapeza,gallantry,,NOUN
+guarango,uncouth,,NOUN
+guarapo,sugarcane juice,,NOUN
 guardabarrera,gatekeeper,,NOUN
-guardabarros,fender,,X
-guardabosques,forest ranger,,X
-guardafrenos,brakeman,,X
-guardagujas,switchman,,X
-guardapolvo,overcoat,,X
-guardarropa,wardrobe,,X
-guardería,daycare,,X
+guardabarros,fender,,NOUN
+guardabosques,forest ranger,,NOUN
+guardafrenos,brakeman,,NOUN
+guardagujas,switchman,,NOUN
+guardapolvo,overcoat,,NOUN
+guardarropa,wardrobe,,NOUN
+guardería,daycare,,NOUN
 guarecer,to shelter,,VERB
-guarida,den,,X
+guarida,den,,NOUN
 guarismo,figure,,NOUN
 guarnecer,to garnish,,VERB
 guarnición,garrison/garnish,,NOUN
-guarro,filthy,,X
-guasa,joke,,X
-guasón,joker,,X
+guarro,filthy,,NOUN
+guasa,joke,,NOUN
+guasón,joker,,NOUN
 gubernamental,governmental,,ADJ
-guerrera,jacket,,NOUN
-guerrilla,guerrilla,,X
-guerrillero,guerrilla,,X
+guerrera,jacket,,ADJ
+guerrilla,guerrilla,,NOUN
+guerrillero,guerrilla,,NOUN
 guiar,to guide,,VERB
-guijarro,pebble,,X
-guillotina,guillotine,,X
-guillotinar,to guillotine,,VERB
-guinda,sour cherry,,X
-guindar,to hang,,VERB
-guirigay,gibberish,,X
-guirnalda,garland,,X
-guisado,stew,,VERB
-guisante,pea,,ADJ
+guijarro,pebble,,NOUN
+guillotina,guillotine,,NOUN
+guillotinar,to guillotine,,NOUN
+guinda,sour cherry,,NOUN
+guindar,to hang,,NOUN
+guirigay,gibberish,,NOUN
+guirnalda,garland,,NOUN
+guisado,stew,,ADJ
+guisante,pea,,NOUN
 guisar,to cook/stew,,VERB
-guiso,stew,,X
 guitarrista,guitarist,,NOUN
-gula,gluttony,,X
-gusanillo,bug,,X
+gula,gluttony,,NOUN
+gusanillo,bug,,NOUN
 gustativo,gustatory,,ADJ
 gutural,guttural,,ADJ
-gálibo,gauge,,X
-gárgara,gargle,,X
-gárgola,gargoyle,,X
-gárrulo,garrulous,,X
-gélido,gelid/cold,,VERB
-génesis,genesis,,X
-haba,bean,,X
-habanero,from Havana,,X
-habano,Havana cigar,,X
-habilidoso,skillful,,ADJ
+gálibo,gauge,,NOUN
+gárgara,gargle,,NOUN
+gárgola,gargoyle,,ADJ
+gárrulo,garrulous,,NOUN
+gélido,gelid/cold,,ADJ
+génesis,genesis,,NOUN
+haba,bean,,NOUN
+habanero,from Havana,,NOUN
+habilidoso,skillful,,NOUN
 habilitación,authorization,,NOUN
 habilitar,to enable,,VERB
 habitabilidad,habitability,,NOUN
 habitable,habitable,,ADJ
-habitante,inhabitant,,ADJ
+habitante,inhabitant,,NOUN
 habitar,to inhabit,,VERB
 habituar,to accustom,,VERB
-habitáculo,dwelling,,X
-hablador,talkative,,NOUN
-habladuría,gossip,,X
-hablilla,rumor,,X
-hacedero,feasible,,X
+habitáculo,dwelling,,NOUN
+hablador,talkative,,ADJ
+habladuría,gossip,,NOUN
+hablilla,rumor,,NOUN
+hacedero,feasible,,VERB
 hacedor,maker,,NOUN
-hacendado,landowner,,VERB
+hacendado,landowner,,NOUN
 hacendoso,industrious,,ADJ
-hacienda,estate/treasury,,X
-hado,fate,,VERB
-halagador,flattering,,NOUN
+hacienda,estate/treasury,,NOUN
+hado,fate,,NOUN
+halagador,flattering,,ADJ
 halagar,to flatter,,VERB
-halago,flattery,,X
-halagüeño,flattering,,X
+halago,flattery,,NOUN
+halagüeño,flattering,,ADJ
 halar,to pull,,VERB
-halconería,falconry,,X
-halcón,falcon,,X
-hallazgo,discovery/finding,,X
-hambruna,famine,,X
-hampón,thug,,X
-haraganear,to laze,,VERB
-haraganería,laziness,,X
-haragán,lazy,,X
-harapiento,ragged,,X
-harapo,rag,,X
-haraposo,ragged,,ADJ
-harina,flour,,X
-harneado,sifted,,VERB
+halconería,falconry,,NOUN
+halcón,falcon,,NOUN
+hallazgo,discovery/finding,,NOUN
+hambruna,famine,,NOUN
+hampón,thug,,NOUN
+haraganear,to laze,,NOUN
+haraganería,laziness,,NOUN
+haragán,lazy,,NOUN
+harapiento,ragged,,NOUN
+harapo,rag,,NOUN
+harina,flour,,NOUN
+harneado,sifted,,ADJ
 hartar,to fill up/satiate,,VERB
-hartazgo,fed-up feeling,,X
+hartazgo,fed-up feeling,,NOUN
 hartura,abundance,,NOUN
-hastiar,to bore,,VERB
-hastío,boredom,,X
-hatajo,bunch,,X
-hayedo,beech grove,,X
-hazaña,feat,,X
+hastiar,to bore,,PROPN
+hastío,boredom,,NOUN
+hatajo,bunch,,NOUN
+hayedo,beech grove,,NOUN
+hazaña,feat,,NOUN
 hebraico,Hebraic,,ADJ
-hebreo,Hebrew,,X
-hechicero,sorcerer,,X
-hechicería,sorcery,,X
+hebreo,Hebrew,,NOUN
+hechicero,sorcerer,,NOUN
+hechicería,sorcery,,NOUN
 hechizar,to bewitch,,VERB
-hectárea,hectare,,X
+hectárea,hectare,,NOUN
 hedonismo,hedonism,,NOUN
-hedonista,hedonist,,NOUN
+hedonista,hedonist,,ADJ
 hedor,stench,,NOUN
-hegemonía,hegemony,,X
+hegemonía,hegemony,,NOUN
 helar,to freeze,,VERB
 helenismo,Hellenism,,NOUN
 helenista,Hellenist,,NOUN
-hematoma,hematoma,,X
+hematoma,hematoma,,NOUN
 hembrear,to seek females,,VERB
-hemiplejía,hemiplegia,,X
-hemisferio,hemisphere,,X
-hemorroide,hemorrhoid,,X
-henchir,to fill,,VERB
+hemiplejía,hemiplegia,,NOUN
+hemisferio,hemisphere,,NOUN
+hemorroide,hemorrhoid,,NOUN
+henchir,to fill,,NOUN
 hendedura,crack,,NOUN
 hendir,to cleave,,VERB
-heno,hay,,X
 hepático,hepatic,,ADJ
-heraldo,herald,,X
-herbario,herbarium,,X
-herbazal,grassland,,ADJ
-herboristería,herbalism,,X
-herbáceo,herbaceous,,X
-hercúleo,Herculean,,X
+heraldo,herald,,NOUN
+herbario,herbarium,,NOUN
+herbazal,grassland,,NOUN
+herboristería,herbalism,,NOUN
+herbáceo,herbaceous,,NOUN
+hercúleo,Herculean,,NOUN
 heredar,to inherit,,VERB
-hereditario,hereditary,,X
-hereje,heretic,,X
-herejía,heresy,,X
-heresiarca,heresiarch,,X
+hereditario,hereditary,,ADJ
+hereje,heretic,,NOUN
+herejía,heresy,,NOUN
+heresiarca,heresiarch,,NOUN
 hermandad,brotherhood,,NOUN
-hermosamente,beautifully,,X
+hermosamente,beautifully,,ADV
 hermosear,to beautify,,VERB
 hermosura,beauty,,NOUN
 hermético,airtight,,ADJ
-herniarse,to herniate,,X
+herniarse,to herniate,,VERB
 heroicidad,heroism,,NOUN
 heroico,heroic,,ADJ
-heroísmo,heroism,,X
+heroísmo,heroism,,NOUN
 herradura,horseshoe,,NOUN
 herrar,to shoe,,VERB
-herreruelo,bandit,,X
-herrería,blacksmith shop,,X
-herrumbroso,rusty,,ADJ
-hervidero,hotbed,,X
+herreruelo,bandit,,NOUN
+herrería,blacksmith shop,,NOUN
+herrumbroso,rusty,,NOUN
 hervidor,kettle,,NOUN
 hervir,to boil,,VERB
-heráldica,heraldry,,X
+heráldica,heraldry,,NOUN
 herético,heretical,,ADJ
 hesitación,hesitation,,NOUN
-heterodoxia,heterodoxy,,X
-heterodoxo,heterodox,,X
+heterodoxia,heterodoxy,,NOUN
+heterodoxo,heterodox,,NOUN
 heterogeneidad,heterogeneity,,NOUN
-heterogéneo,heterogeneous,,X
-hexágono,hexagon,,X
-hialino,hyaline,,X
+heterogéneo,heterogeneous,,ADJ
+hexágono,hexagon,,NOUN
+hialino,hyaline,,NOUN
 hibridación,hybridization,,NOUN
 hibridismo,hybridism,,NOUN
-hidalgo,nobleman,,X
-hidalguía,nobility,,X
-hidrante,hydrant,,ADJ
+hidalgo,nobleman,,NOUN
+hidalguía,nobility,,NOUN
+hidrante,hydrant,,NOUN
 hidratación,hydration,,NOUN
-hidroavión,seaplane,,X
-hidrocarburo,hydrocarbon,,X
-hidrofobia,hydrophobia,,X
-hidrografía,hydrography,,X
-hidromiel,mead,,X
+hidroavión,seaplane,,NOUN
+hidrocarburo,hydrocarbon,,NOUN
+hidrofobia,hydrophobia,,NOUN
+hidrografía,hydrography,,NOUN
+hidromiel,mead,,NOUN
 hidrosfera,hydrosphere,,NOUN
-hidroterapia,hydrotherapy,,X
+hidroterapia,hydrotherapy,,NOUN
 hidráulico,hydraulic,,ADJ
-hidrógeno,hydrogen,,X
+hidrógeno,hydrogen,,NOUN
 hidrópico,hydropic,,ADJ
-hiel,bile,,X
+hiel,bile,,NOUN
 hierático,hieratic,,ADJ
-higiene,hygiene,,X
+higiene,hygiene,,NOUN
 higiénico,hygienic,,ADJ
-higo,fig,,X
+higo,fig,,NOUN
 higuera,fig tree,,NOUN
-hilacha,thread,,X
-hilada,row,,X
-hilandería,spinning mill,,X
-hilar,to spin/think,,VERB
+hilacha,thread,,NOUN
+hilandería,spinning mill,,NOUN
+hilar,to spin/think,,NOUN
 hilatura,spinning,,NOUN
-hilaza,yarn,,X
+hilaza,yarn,,NOUN
 hilera,row,,NOUN
-hilván,basting,,X
-himeneo,marriage,,X
-himnario,hymnal,,X
-himno,hymn/anthem,,X
-hincado,kneeling,,VERB
-hincapié,emphasis,,X
+hilván,basting,,NOUN
+himeneo,marriage,,NOUN
+himnario,hymnal,,NOUN
+himno,hymn/anthem,,NOUN
+hincado,kneeling,,ADJ
+hincapié,emphasis,,NOUN
 hincar,to thrust,,VERB
-hincha,fan,,X
-hinchado,swollen,,VERB
+hincha,fan,,NOUN
+hinchado,swollen,,ADJ
 hinchar,to inflate/swell,,VERB
-hindi,Hindi,,X
+hindi,Hindi,,NOUN
 hinduismo,Hinduism,,NOUN
-hindú,Hindu,,X
-hinojo,fennel,,X
+hindú,Hindu,,ADJ
+hinojo,fennel,,NOUN
 hiperbólico,hyperbolic,,ADJ
-hipertensión,hypertension,,X
-hipertrofia,hypertrophy,,X
-hipnosis,hypnosis,,X
+hipertensión,hypertension,,NOUN
+hipertrofia,hypertrophy,,NOUN
+hipnosis,hypnosis,,NOUN
 hipnotizar,to hypnotize,,VERB
-hipocondría,hypochondria,,X
-hipocondríaco,hypochondriac,,X
-hipocresía,hypocrisy,,X
-hipoteca,mortgage,,X
+hipocondría,hypochondria,,NOUN
+hipocondríaco,hypochondriac,,ADJ
+hipocresía,hypocrisy,,NOUN
+hipoteca,mortgage,,NOUN
 hipotecar,to mortgage,,VERB
-hipotensión,hypotension,,X
-hipotermia,hypothermia,,X
+hipotensión,hypotension,,NOUN
+hipotermia,hypothermia,,NOUN
 hipotético,hypothetical,,ADJ
-hipérbaton,hyperbaton,,X
-hipérbole,hyperbole,,X
-hipócrita,hypocrite,,X
-hipótesis,hypothesis,,X
-hirsuto,hirsute,,X
-hispalense,from Seville,,X
-hispano,Hispanic,,X
+hipérbaton,hyperbaton,,NOUN
+hipérbole,hyperbole,,NOUN
+hipócrita,hypocrite,,ADJ
+hipótesis,hypothesis,,NOUN
+hirsuto,hirsute,,ADJ
+hispalense,from Seville,,NOUN
+hispano,Hispanic,,NOUN
 hispánico,Hispanic,,ADJ
-histerectomía,hysterectomy,,X
-histeria,hysteria,,X
+histerectomía,hysterectomy,,NOUN
+histeria,hysteria,,NOUN
 historiador,historian,,NOUN
 historicidad,historicity,,NOUN
 historicismo,historicism,,NOUN
-historicista,historicist,,NOUN
-historieta,comic strip,,X
-historiografía,historiography,,X
-histrión,actor,,X
+historicista,historicist,,ADJ
+historieta,comic strip,,NOUN
+historiografía,historiography,,NOUN
+histrión,actor,,NOUN
 histriónico,histrionic,,ADJ
 histérico,hysterical,,ADJ
 histórico,historical,,ADJ
-hito,milestone,,X
-hocico,snout,,ADJ
-hogareño,homely,,X
-hogaza,loaf,,X
+hito,milestone,,NOUN
+hocico,snout,,NOUN
+hogareño,homely,,ADJ
+hogaza,loaf,,NOUN
 hoguera,bonfire,,NOUN
-hojalata,tinplate,,X
-hojalatero,tinsmith,,X
-hojaldre,puff pastry,,X
-hojarasca,fallen leaves,,X
+hojalata,tinplate,,NOUN
+hojalatero,tinsmith,,NOUN
+hojaldre,puff pastry,,NOUN
+hojarasca,fallen leaves,,NOUN
 hojear,to leaf through,,VERB
-holandés,Dutch,,X
-holgado,loose,,VERB
+holandés,Dutch,,NOUN
+holgado,loose,,ADJ
 holganza,leisure,,NOUN
-holgar,to be unnecessary,,VERB
-holgazanear,to laze,,VERB
-holgazán,lazy,,X
+holgar,to be unnecessary,,NOUN
+holgazanear,to laze,,NOUN
+holgazán,lazy,,ADJ
 holgura,roominess,,NOUN
 hollar,to tread,,VERB
-hollín,soot,,X
-holocausto,holocaust,,X
-holograma,hologram,,X
-hombrada,manly deed,,X
-hombruno,mannish,,X
-hombría,manliness,,X
-homenaje,homage,,X
-homenajeado,honoree,,VERB
+hollín,soot,,NOUN
+holocausto,holocaust,,NOUN
+holograma,hologram,,NOUN
+hombrada,manly deed,,ADJ
+hombruno,mannish,,NOUN
+hombría,manliness,,NOUN
+homenaje,homage,,NOUN
+homenajeado,honoree,,ADJ
 homenajear,to pay homage to,,VERB
-homeopatía,homeopathy,,X
-homilético,homiletic,,ADJ
-homilía,homily,,X
+homeopatía,homeopathy,,NOUN
+homilético,homiletic,,NOUN
+homilía,homily,,NOUN
 hominización,hominization,,NOUN
 homogeneidad,homogeneity,,NOUN
 homogeneizar,to homogenize,,VERB
-homogéneo,homogeneous,,X
+homogéneo,homogeneous,,ADJ
 homologar,to homologate,,VERB
-homonimia,homonymy,,X
+homonimia,homonymy,,NOUN
 homosexualidad,homosexuality,,NOUN
-homónimo,homonym,,X
-honda,sling,,X
-hondamente,deeply,,X
-hondonada,hollow,,X
+homónimo,homonym,,ADJ
+honda,sling,,NOUN
+hondamente,deeply,,ADV
+hondonada,hollow,,ADJ
 hondura,depth,,NOUN
-hongo,fungus/mushroom,,X
+hongo,fungus/mushroom,,NOUN
 honorabilidad,honorability,,NOUN
-honorario,honorary,,X
-honorarios,fees,,X
+honorario,honorary,,NOUN
 honorífico,honorific,,ADJ
-honra,honor,,X
-honradamente,honestly,,X
-honradez,honesty,,X
+honra,honor,,NOUN
+honradamente,honestly,,ADV
+honradez,honesty,,NOUN
 honrar,to honor,,VERB
-honroso,honorable,,ADJ
-hontanar,spring,,VERB
+hontanar,spring,,NOUN
 hopear,to glide,,VERB
 horadar,to perforate,,VERB
-horca,gallows,,X
-horcajadas,astride,,X
-horda,horde,,X
+horca,gallows,,NOUN
+horcajadas,astride,,NOUN
+horda,horde,,NOUN
 horizontal,horizontal,,ADJ
-horizonte,horizon,,X
-horma,mold,,X
-hormiga,ant,,X
-hormigueante,tingling,,ADJ
-hormigueo,tingling,,X
-hormiguero,anthill,,X
-hormigón,concrete,,X
-hormona,hormone,,X
+horizonte,horizon,,NOUN
+horma,mold,,NOUN
+hormiga,ant,,NOUN
+hormigueante,tingling,,NOUN
+hormigueo,tingling,,NOUN
+hormiguero,anthill,,NOUN
+hormigón,concrete,,NOUN
+hormona,hormone,,NOUN
 hormonal,hormonal,,ADJ
-hornacina,niche,,X
-hornada,batch,,X
-hornaza,small forge,,X
-hornilla,burner,,X
-horrendo,horrible,,X
+hornacina,niche,,NOUN
+hornada,batch,,NOUN
+hornaza,small forge,,NOUN
+hornilla,burner,,NOUN
+horrendo,horrible,,ADJ
 horripilante,horrifying,,ADJ
-horripilar,to horrify,,VERB
-horrorizado,horrified,,VERB
+horripilar,to horrify,,NOUN
+horrorizado,horrified,,ADJ
 horrorizar,to horrify,,VERB
-horrísono,deafening,,X
-hortaliza,vegetable,,X
-hortelano,gardener,,X
-horóscopo,horoscope,,X
-hosco,gruff,,X
-hospedaje,lodging,,X
+horrísono,deafening,,NOUN
+hortaliza,vegetable,,NOUN
+hortelano,gardener,,NOUN
+horóscopo,horoscope,,NOUN
+hosco,gruff,,ADJ
+hospedaje,lodging,,NOUN
 hospedar,to host,,VERB
-hospedería,inn,,X
-hospicio,hospice,,X
-hospitalario,hospitable,,X
+hospedería,inn,,NOUN
+hospicio,hospice,,NOUN
+hospitalario,hospitable,,ADJ
 hospitalidad,hospitality,,NOUN
 hospitalización,hospitalization,,NOUN
 hospitalizar,to hospitalize,,VERB
-hostal,hostel,,ADJ
-hostigamiento,harassment,,X
+hostal,hostel,,NOUN
+hostigamiento,harassment,,NOUN
 hostigar,to harass,,VERB
 hostilidad,hostility,,NOUN
 hostilizar,to harass,,VERB
-hotelero,hotelier,,X
-hoyada,depression,,X
-hozar,to root,,VERB
+hotelero,hotelier,,NOUN
+hoyada,depression,,ADJ
+hozar,to root,,NOUN
 huelguista,striker,,NOUN
-huerta,orchard,,X
-huerto,vegetable garden,,X
-huesoso,bony,,ADJ
-hueste,host/army,,X
-huesudo,bony,,X
+huerta,orchard,,NOUN
+huerto,vegetable garden,,NOUN
+hueste,host/army,,NOUN
+huesudo,bony,,ADJ
 huevera,egg carton,,NOUN
-huida,flight,,X
-huidizo,elusive,,X
-hule,rubber,,X
+huida,flight,,NOUN
+huidizo,elusive,,ADJ
+hule,rubber,,NOUN
 hulera,catapult,,NOUN
 humanismo,humanism,,NOUN
-humanista,humanist,,NOUN
-humanitario,humanitarian,,X
+humanista,humanist,,ADJ
+humanitario,humanitarian,,ADJ
 humanización,humanization,,NOUN
 humanizar,to humanize,,VERB
-humareda,smoke cloud,,X
+humareda,smoke cloud,,NOUN
 humeante,smoking,,ADJ
 humear,to smoke,,VERB
 humedad,humidity,,NOUN
@@ -2932,75 +2851,75 @@ humillar,to humiliate,,VERB
 humorismo,humor,,NOUN
 humorista,humorist,,NOUN
 humorístico,humorous,,ADJ
-humus,humus,,X
+humus,humus,,NOUN
 hundir,to sink,,VERB
-huracán,hurricane,,X
-huraño,unsociable,,X
+huracán,hurricane,,NOUN
+huraño,unsociable,,ADJ
 hurgar,to rummage,,VERB
-hurtadillas,furtively,,X
+hurtadillas,furtively,,NOUN
 hurtar,to steal,,VERB
-hurto,theft,,X
-hurón,ferret,,X
-husky,husky,,X
+hurto,theft,,NOUN
+hurón,ferret,,NOUN
+husky,husky,,NOUN
 husmear,to sniff,,VERB
-huérfano,orphan,,X
-hábil,skillful,,X
-hálito,breath,,X
-hélice,helix,,X
-híbrido,hybrid,,VERB
-hípica,equestrianism,,X
+huérfano,orphan,,ADJ
+hábil,skillful,,ADJ
+hálito,breath,,NOUN
+hélice,helix,,NOUN
+híbrido,hybrid,,NOUN
+hípica,equestrianism,,ADJ
 hípico,equestrian,,ADJ
-húmedo,humid/wet,,X
-ibero,Iberian,,X
+húmedo,humid/wet,,ADJ
+ibero,Iberian,,PROPN
 ibérico,Iberian,,ADJ
-iceberg,iceberg,,X
-icono,icon,,X
-iconoclasta,iconoclast,,X
+iceberg,iceberg,,NOUN
+icono,icon,,NOUN
+iconoclasta,iconoclast,,NOUN
 iconográfico,iconographic,,ADJ
-ictericia,jaundice,,X
+ictericia,jaundice,,NOUN
 icónico,iconic,,ADJ
-ida,one-way,,X
+ida,one-way,,NOUN
 idealismo,idealism,,NOUN
-idealista,idealist,,NOUN
+idealista,idealist,,ADJ
 idealizar,to idealize,,VERB
-ideario,ideology,,X
-ideología,ideology,,X
+ideario,ideology,,NOUN
+ideología,ideology,,NOUN
 ideológico,ideological,,ADJ
 ideático,ideational,,ADJ
-idilio,idyll,,X
+idilio,idyll,,NOUN
 idiomático,idiomatic,,ADJ
-idiosincrasia,idiosyncrasy,,X
-idiotez,idiocy,,X
+idiosincrasia,idiosyncrasy,,NOUN
+idiotez,idiocy,,NOUN
 idolatrar,to idolize,,VERB
-idolatría,idolatry,,X
+idolatría,idolatry,,NOUN
 idoneidad,suitability,,NOUN
 idéntico,identical,,ADJ
-idóneo,suitable,,X
+idóneo,suitable,,ADJ
 ignición,ignition,,NOUN
 ignorancia,ignorance,,NOUN
 ignorante,ignorant,,ADJ
-ignoto,unknown,,X
+ignoto,unknown,,ADJ
 igualar,to equalize,,VERB
-igualitario,egalitarian,,X
+igualitario,egalitarian,,ADJ
 ilegalidad,illegality,,NOUN
-ilegítimo,illegitimate,,X
-ileso,unharmed,,X
-iletrado,illiterate,,VERB
-ilimitado,unlimited,,VERB
+ilegítimo,illegitimate,,ADJ
+ileso,unharmed,,ADJ
+iletrado,illiterate,,ADJ
+ilimitado,unlimited,,NOUN
 iluminación,illumination,,NOUN
 iluminar,to illuminate,,VERB
 ilusionar,to thrill,,VERB
-iluso,deluded,,X
+iluso,deluded,,ADJ
 ilustración,illustration,,NOUN
-ilustrado,illustrated/enlightened,,VERB
+ilustrado,illustrated/enlightened,,ADJ
 ilustrar,to illustrate,,VERB
 ilustrativo,illustrative,,ADJ
-ilustre,illustrious,,X
-ilíaco,iliac,,X
-ilícito,illicit,,X
+ilustre,illustrious,,ADJ
+ilíaco,iliac,,NOUN
+ilícito,illicit,,ADJ
 ilógico,illogical,,ADJ
 imaginable,imaginable,,ADJ
-imaginario,imaginary,,X
+imaginario,imaginary,,ADJ
 imaginativo,imaginative,,ADJ
 imbatible,unbeatable,,ADJ
 imbecilidad,imbecility,,NOUN
@@ -3011,19 +2930,19 @@ imitable,imitable,,ADJ
 imitación,imitation,,NOUN
 imitar,to imitate,,VERB
 impaciencia,impatience,,NOUN
-impaciente,impatient,,X
+impaciente,impatient,,ADJ
 impalpable,impalpable,,ADJ
-impar,uneven,,VERB
+impar,uneven,,ADJ
 imparcial,impartial,,ADJ
 imparcialidad,impartiality,,NOUN
 impartir,to impart,,VERB
 impasible,impassive,,ADJ
-impavidez,fearlessness,,X
+impavidez,fearlessness,,NOUN
 impecable,impeccable,,ADJ
-impedimento,impediment,,X
-impeler,to impel,,VERB
+impedimento,impediment,,NOUN
+impeler,to impel,,NOUN
 impenetrable,impenetrable,,ADJ
-impenitente,unrepentant,,X
+impenitente,unrepentant,,ADJ
 impensable,unthinkable,,ADJ
 imperante,prevailing,,ADJ
 imperar,to prevail/rule,,VERB
@@ -3031,22 +2950,21 @@ imperativo,imperative,,ADJ
 imperceptible,imperceptible,,ADJ
 imperdible,unmissable,,ADJ
 imperdonable,unforgivable,,ADJ
-imperecedero,everlasting,,X
+imperecedero,everlasting,,VERB
 imperfección,imperfection,,NOUN
-imperfecto,imperfect,,X
+imperfecto,imperfect,,ADJ
 imperial,imperial,,ADJ
 imperialismo,imperialism,,NOUN
-imperialista,imperialist,,NOUN
-imperioso,imperious,,ADJ
+imperialista,imperialist,,ADJ
 impermeabilizar,to waterproof,,VERB
 impermeable,waterproof/raincoat,,ADJ
 impersonal,impersonal,,ADJ
 impertinencia,impertinence,,NOUN
-impertinente,impertinent,,X
+impertinente,impertinent,,ADJ
 imperturbabilidad,imperturbability,,NOUN
 imperturbable,imperturbable,,ADJ
 impetrar,to entreat,,VERB
-impetuoso,impetuous,,ADJ
+impetuoso,impetuous,,NOUN
 impiedad,impiety,,NOUN
 implacable,implacable,,ADJ
 implantación,implantation,,NOUN
@@ -3056,69 +2974,69 @@ implementar,to implement,,VERB
 implicación,implication,,NOUN
 implicar,to imply/involve,,VERB
 implorar,to implore,,VERB
-implícito,implicit,,X
+implícito,implicit,,ADJ
 imponderable,imponderable,,ADJ
-imponente,imposing,,X
+imponente,imposing,,ADJ
 imponer,to impose,,VERB
-impopular,unpopular,,VERB
+impopular,unpopular,,ADJ
 importación,importation,,NOUN
 importunar,to importune,,VERB
-importuno,inopportune,,X
+importuno,inopportune,,NOUN
 imposibilidad,impossibility,,NOUN
 imposibilitar,to make impossible,,VERB
 imposición,imposition,,NOUN
 impostor,impostor,,NOUN
 impostura,imposture,,NOUN
 impotencia,impotence,,NOUN
-impotente,impotent,,X
+impotente,impotent,,ADJ
 impracticable,impracticable,,ADJ
 imprecación,imprecation,,NOUN
 imprecar,to imprecate,,VERB
-impreciso,imprecise,,X
+impreciso,imprecise,,ADJ
 impredecible,unpredictable,,ADJ
 impregnación,impregnation,,NOUN
 impregnar,to impregnate,,VERB
-imprenta,printing,,X
+imprenta,printing,,NOUN
 imprescindible,essential,,ADJ
 impresionar,to impress,,VERB
-impreso,printed,,X
+impreso,printed,,ADJ
 impresor,printer,,NOUN
-impresora,printer (machine),,X
+impresora,printer (machine),,NOUN
 imprevisible,unforeseeable,,ADJ
-imprevisión,improvidence,,X
-imprevisto,unexpected,,X
+imprevisión,improvidence,,NOUN
+imprevisto,unexpected,,ADJ
 imprimir,to print,,VERB
 improbable,improbable,,ADJ
-improcedente,inadmissible,,X
+improcedente,inadmissible,,ADJ
 improductivo,unproductive,,ADJ
-impronta,imprint,,X
-improperio,insult,,X
-impropio,improper,,X
+impronta,imprint,,NOUN
+improperio,insult,,NOUN
+impropio,improper,,ADJ
 improrrogable,non-extendable,,ADJ
 improvisación,improvisation,,NOUN
 improvisar,to improvise,,VERB
-improviso,impromptu,,X
+improviso,impromptu,,NOUN
 imprudencia,imprudence,,NOUN
-imprudente,imprudent,,X
-impudicia,immodesty,,X
-impuesto,tax,,X
+imprudente,imprudent,,ADJ
+impudicia,immodesty,,NOUN
+impuesto,tax,,NOUN
 impugnable,contestable,,ADJ
 impugnación,impugnment,,NOUN
 impugnar,to impugn,,VERB
 impulsar,to push/promote,,VERB
 impulsivo,impulsive,,ADJ
 impulsor,promoter,,NOUN
-impune,unpunished,,X
+impune,unpunished,,ADJ
 impunidad,impunity,,NOUN
-impureza,impurity,,X
-impuro,impure,,X
+impureza,impurity,,NOUN
+impuro,impure,,ADJ
 imputable,imputable,,ADJ
 imputación,imputation,,NOUN
 imputar,to impute,,VERB
-impávido,undaunted,,VERB
-impío,impious,,X
+impávido,undaunted,,ADJ
+impío,impious,,NOUN
 impúdico,impudent,,ADJ
-imán,magnet,,X
+imán,magnet,,NOUN
 inabordable,unapproachable,,ADJ
 inacabable,endless,,ADJ
 inaccesible,inaccessible,,ADJ
@@ -3126,81 +3044,80 @@ inacción,inaction,,NOUN
 inaceptable,unacceptable,,ADJ
 inactivo,inactive,,ADJ
 inadaptación,maladjustment,,NOUN
-inadaptado,maladjusted,,VERB
-inadecuado,inadequate,,VERB
+inadaptado,maladjusted,,ADJ
+inadecuado,inadequate,,NOUN
 inadmisible,inadmissible,,ADJ
 inadvertencia,inadvertence,,NOUN
-inadvertido,unnoticed,,VERB
-inafectado,unaffected,,VERB
+inadvertido,unnoticed,,ADJ
+inafectado,unaffected,,ADJ
 inagotable,inexhaustible,,ADJ
 inalcanzable,unreachable,,ADJ
 inalienable,inalienable,,ADJ
 inalterable,unalterable,,ADJ
 inamovible,immovable,,ADJ
 inanición,starvation,,NOUN
-inanimado,inanimate,,VERB
+inanimado,inanimate,,ADJ
 inapelable,unappealable,,ADJ
 inapetencia,lack of appetite,,NOUN
 inaplazable,unpostponable,,ADJ
 inapreciable,inappreciable,,ADJ
-inapropiado,inappropriate,,VERB
-inarmonioso,inharmonious,,ADJ
+inapropiado,inappropriate,,NOUN
+inarmonioso,inharmonious,,NOUN
 inasequible,unattainable,,ADJ
 inasible,intangible,,ADJ
 inasistencia,absence,,NOUN
 inaudible,inaudible,,ADJ
-inaudito,unprecedented,,X
+inaudito,unprecedented,,ADJ
 inauguración,inauguration,,NOUN
 inaugurar,to inaugurate,,VERB
 incalculable,incalculable,,ADJ
 incalificable,unspeakable,,ADJ
 incandescencia,incandescence,,NOUN
-incandescente,incandescent,,X
+incandescente,incandescent,,ADJ
 incansable,tireless,,ADJ
 incapacidad,incapacity,,NOUN
 incapacitar,to incapacitate,,VERB
 incardinar,to incardinate,,VERB
 incautación,seizure,,NOUN
 incautar,to seize,,VERB
-incautarse,to seize,,X
-incauto,gullible,,X
+incauto,gullible,,ADJ
 incendiar,to set on fire,,VERB
-incendiario,incendiary,,X
-incentivo,incentive,,ADJ
-inceptive,inceptive,,X
-incertidumbre,uncertainty,,X
+incendiario,incendiary,,ADJ
+incentivo,incentive,,NOUN
+inceptive,inceptive,,NOUN
+incertidumbre,uncertainty,,NOUN
 incesante,incessant,,ADJ
 incidencia,incidence,,NOUN
 incidental,incidental,,ADJ
 incidir,to fall on,,VERB
-incienso,incense,,X
-incierto,uncertain,,X
+incienso,incense,,NOUN
+incierto,uncertain,,ADJ
 incineración,incineration,,NOUN
 incinerador,incinerator,,NOUN
 incinerar,to incinerate,,VERB
-incipiente,incipient,,X
+incipiente,incipient,,ADJ
 incisivo,incisive,,ADJ
-incisión,incision,,X
-inciso,clause,,X
+incisión,incision,,NOUN
+inciso,clause,,NOUN
 incitación,incitement,,NOUN
 incitante,inciting,,ADJ
 incitar,to incite,,VERB
-incivil,uncivil,,X
+incivil,uncivil,,NOUN
 inclasificable,unclassifiable,,ADJ
 inclemencia,inclemency,,NOUN
-inclemente,inclement,,X
+inclemente,inclement,,ADJ
 inclinación,inclination,,NOUN
 inclinar,to incline,,VERB
-inclito,illustrious,,X
+inclito,illustrious,,NOUN
 incluir,to include,,VERB
-inclusión,inclusion,,X
+inclusión,inclusion,,NOUN
 incoación,initiation,,NOUN
 incoar,to initiate,,VERB
 incoativo,inchoative,,ADJ
 incoercible,incoercible,,ADJ
 incoherencia,incoherence,,NOUN
-incoherente,incoherent,,X
-incoloro,colorless,,X
+incoherente,incoherent,,ADJ
+incoloro,colorless,,NOUN
 incombustible,incombustible,,ADJ
 incomestible,inedible,,ADJ
 incomible,inedible,,ADJ
@@ -3210,61 +3127,61 @@ incomparable,incomparable,,ADJ
 incompatibilidad,incompatibility,,NOUN
 incompatible,incompatible,,ADJ
 incompetencia,incompetence,,NOUN
-incompetente,incompetent,,X
-incompleto,incomplete,,X
+incompetente,incompetent,,ADJ
+incompleto,incomplete,,ADJ
 incomprendido,misunderstood,,VERB
 incomprensible,incomprehensible,,ADJ
-incomprensión,incomprehension,,X
+incomprensión,incomprehension,,NOUN
 incomunicación,isolation,,NOUN
-incomunicado,incommunicado,,VERB
+incomunicado,incommunicado,,ADJ
 incomunicar,to isolate,,VERB
 inconcebible,inconceivable,,ADJ
 inconciliable,irreconcilable,,ADJ
-inconcluso,inconclusive,,X
+inconcluso,inconclusive,,ADJ
 incondicional,unconditional,,ADJ
-inconexión,disconnection,,X
-inconexo,disjointed,,X
+inconexión,disconnection,,NOUN
+inconexo,disjointed,,ADJ
 inconfesable,unmentionable,,ADJ
-inconforme,nonconformist,,X
-inconformista,nonconformist,,NOUN
+inconforme,nonconformist,,ADJ
+inconformista,nonconformist,,ADJ
 inconfundible,unmistakable,,ADJ
 incongruencia,incongruence,,NOUN
-incongruente,incongruent,,X
+incongruente,incongruent,,ADJ
 inconmensurable,immeasurable,,ADJ
 inconmovible,unshakable,,ADJ
 inconquistable,unconquerable,,ADJ
 inconsciencia,unconsciousness,,NOUN
-inconsecuente,inconsistent,,X
-inconsiderado,inconsiderate,,VERB
+inconsecuente,inconsistent,,ADJ
+inconsiderado,inconsiderate,,ADJ
 inconsistencia,inconsistency,,NOUN
-inconsistente,inconsistent,,X
+inconsistente,inconsistent,,ADJ
 inconsolable,inconsolable,,ADJ
 inconstante,inconstant,,ADJ
 incontable,uncountable,,ADJ
 incontrolable,uncontrollable,,ADJ
 inconveniencia,inconvenience,,NOUN
-inconveniente,inconvenient,,X
+inconveniente,inconvenient,,NOUN
 incorporar,to incorporate,,VERB
-incorrecto,incorrect,,X
+incorrecto,incorrect,,ADJ
 increpar,to rebuke,,VERB
 incriminar,to incriminate,,VERB
 incrustar,to embed,,VERB
-incrédulo,incredulous,,X
+incrédulo,incredulous,,ADJ
 inculcar,to inculcate,,VERB
 inculpar,to charge/blame,,VERB
 incumbir,to concern,,VERB
-incumplimiento,non-compliance,,X
+incumplimiento,non-compliance,,NOUN
 incumplir,to fail to fulfill,,VERB
 incurable,incurable,,ADJ
 incurrir,to incur,,VERB
-incógnita,unknown/mystery,,X
-incógnito,incognito,,X
+incógnita,unknown/mystery,,NOUN
+incógnito,incognito,,NOUN
 indagar,to investigate,,VERB
-indecente,indecent,,X
-indecisión,indecision,,X
-indeciso,indecisive,,X
-indefenso,defenseless,,X
-indefinido,indefinite,,VERB
+indecente,indecent,,ADJ
+indecisión,indecision,,NOUN
+indeciso,indecisive,,NOUN
+indefenso,defenseless,,ADJ
+indefinido,indefinite,,NOUN
 indemnización,compensation,,NOUN
 independencia,independence,,NOUN
 independizar,to make independent,,VERB
@@ -3273,52 +3190,52 @@ indestructible,indestructible,,ADJ
 indeterminado,indeterminate,,VERB
 indicación,indication,,NOUN
 indicar,to indicate/point out,,VERB
-indicio,clue,,X
+indicio,clue,,NOUN
 indiferencia,indifference,,NOUN
-indiferente,indifferent,,X
-indigente,indigent,,X
-indigestión,indigestion,,X
+indiferente,indifferent,,ADJ
+indigente,indigent,,ADJ
+indigestión,indigestion,,NOUN
 indignación,indignation,,NOUN
-indignado,indignant,,VERB
+indignado,indignant,,ADJ
 indignar,to outrage,,VERB
-indigno,unworthy,,X
-indirecto,indirect,,X
+indigno,unworthy,,PROPN
+indirecto,indirect,,ADJ
 indiscreción,indiscretion,,NOUN
-indiscreto,indiscreet,,X
+indiscreto,indiscreet,,ADJ
 indispensable,indispensable,,ADJ
 indistinguible,indistinguishable,,ADJ
-indistinto,indistinct,,X
+indistinto,indistinct,,ADJ
 individual,individual,,ADJ
 individualismo,individualism,,NOUN
 indivisible,indivisible,,ADJ
 inducir,to induce,,VERB
 indudable,undoubted,,ADJ
-indudablemente,undoubtedly,,X
+indudablemente,undoubtedly,,ADV
 indulgencia,indulgence,,NOUN
-indulgente,indulgent,,X
+indulgente,indulgent,,ADJ
 indultar,to pardon,,VERB
-indulto,pardon,,X
-indumentaria,clothing,,X
+indulto,pardon,,NOUN
+indumentaria,clothing,,NOUN
 industrial,industrial,,ADJ
-indígena,indigenous,,X
-indómito,indomitable,,X
-ineficaz,ineffective,,X
+indígena,indigenous,,ADJ
+indómito,indomitable,,ADJ
+ineficaz,ineffective,,ADJ
 ineficiencia,inefficiency,,NOUN
-ineficiente,inefficient,,X
-ineptitud,ineptitude,,X
-inepto,inept,,X
-inerme,defenseless,,X
-inerte,inert,,X
+ineficiente,inefficient,,ADJ
+ineptitud,ineptitude,,NOUN
+inepto,inept,,ADJ
+inerme,defenseless,,NOUN
+inerte,inert,,ADJ
 inestabilidad,instability,,NOUN
-inexacto,inexact,,X
+inexacto,inexact,,ADJ
 inexcusable,inexcusable,,ADJ
-inexistente,nonexistent,,X
+inexistente,nonexistent,,ADJ
 inexorable,inexorable,,ADJ
-inexperto,inexperienced,,X
+inexperto,inexperienced,,ADJ
 inexplicable,inexplicable,,ADJ
 inexpresivo,inexpressive,,ADJ
-infame,infamous,,X
-infamia,infamy,,X
+infame,infamous,,ADJ
+infamia,infamy,,NOUN
 infatigable,tireless,,ADJ
 infectar,to infect,,VERB
 inferioridad,inferiority,,NOUN
@@ -3327,7 +3244,7 @@ infestar,to infest,,VERB
 infidelidad,infidelity,,NOUN
 infiltrar,to infiltrate,,VERB
 infinidad,infinity,,NOUN
-infinito,infinite,,X
+infinito,infinite,,ADJ
 inflación,inflation,,NOUN
 inflamable,flammable,,ADJ
 inflamación,inflammation,,NOUN
@@ -3337,97 +3254,97 @@ inflexible,inflexible,,ADJ
 infligir,to inflict,,VERB
 influir,to influence,,VERB
 informativo,informative,,ADJ
-informática,computer science,,X
-infortunio,misfortune,,X
+informática,computer science,,NOUN
+infortunio,misfortune,,NOUN
 infracción,infraction,,NOUN
 infringir,to infringe,,VERB
 infructuoso,fruitless,,ADJ
 infundir,to instill,,VERB
-ingenioso,ingenious,,ADJ
+ingenioso,ingenious,,NOUN
 ingenuidad,naivety,,NOUN
-ingenuo,naive,,X
+ingenuo,naive,,ADJ
 ingerir,to ingest,,VERB
-ingrato,ungrateful,,X
-ingrediente,ingredient,,X
+ingrato,ungrateful,,ADJ
+ingrediente,ingredient,,NOUN
 ingresar,to enter/deposit,,VERB
-ingreso,income/entry,,X
-inherente,inherent,,X
+ingreso,income/entry,,NOUN
+inherente,inherent,,ADJ
 inhibición,inhibition,,NOUN
 inhibir,to inhibit,,VERB
 inhumación,burial,,NOUN
 inhumanidad,inhumanity,,NOUN
-inhumano,inhuman,,X
-inhóspito,inhospitable,,X
-inicialmente,initially,,X
+inhumano,inhuman,,NOUN
+inhóspito,inhospitable,,ADJ
+inicialmente,initially,,ADV
 ininteligible,unintelligible,,ADJ
-ininterrumpido,uninterrupted,,VERB
-inmaculado,immaculate,,VERB
-inmaduro,immature,,X
-inmanente,inherent,,X
+ininterrumpido,uninterrupted,,NOUN
+inmaculado,immaculate,,NOUN
+inmaduro,immature,,ADJ
+inmanente,inherent,,ADJ
 inmediación,proximity,,NOUN
 inmejorable,unbeatable,,ADJ
 inmemorable,immemorial,,ADJ
 inmensidad,immensity,,NOUN
-inmenso,immense/huge,,X
-inmerecido,undeserved,,VERB
-inmersión,immersion,,X
-inmerso,immersed,,X
+inmenso,immense/huge,,ADJ
+inmerecido,undeserved,,ADJ
+inmersión,immersion,,NOUN
+inmerso,immersed,,ADJ
 inmigración,immigration,,NOUN
-inmigrante,immigrant,,ADJ
-inminente,imminent,,X
-inmiscuirse,to meddle,,X
+inmigrante,immigrant,,NOUN
+inminente,imminent,,ADJ
+inmiscuirse,to meddle,,VERB
 inmoral,immoral,,ADJ
 inmoralidad,immorality,,NOUN
 inmortalidad,immortality,,NOUN
 inmovilizar,to immobilize,,VERB
-inmueble,property,,X
-inmundo,filthy,,X
-inmune,immune,,X
+inmueble,property,,NOUN
+inmundo,filthy,,ADJ
+inmune,immune,,ADJ
 inmutable,unchanging,,ADJ
-inmóvil,motionless,,X
-innato,innate,,X
-innecesario,unnecessary,,X
+inmóvil,motionless,,ADJ
+innato,innate,,ADJ
+innecesario,unnecessary,,ADJ
 innegable,undeniable,,ADJ
 innovación,innovation,,NOUN
-innovador,innovative,,NOUN
+innovador,innovative,,ADJ
 innumerable,innumerable,,ADJ
-inocuo,harmless,,X
-inoportuno,inopportune,,X
+inocuo,harmless,,ADJ
+inoportuno,inopportune,,NOUN
 inquietante,disturbing,,ADJ
 inquietar,to disturb,,VERB
-inquietud,worry/unrest,,X
-inquilino,tenant,,X
+inquietud,worry/unrest,,NOUN
+inquilino,tenant,,NOUN
 inquisición,inquisition,,NOUN
 inquisitivo,inquisitive,,ADJ
 insaciable,insatiable,,ADJ
-insano,insane,,X
+insano,insane,,ADJ
 inscribir,to enroll/inscribe,,VERB
 inscripción,inscription/enrollment,,NOUN
-insecto,insect,,X
+insecto,insect,,NOUN
 inseguridad,insecurity,,NOUN
-inseguro,insecure,,X
+inseguro,insecure,,ADJ
 inseminación,insemination,,NOUN
-insensato,senseless,,X
+insensato,senseless,,ADJ
 insensibilidad,insensitivity,,NOUN
 insensible,insensitive,,ADJ
 inseparable,inseparable,,ADJ
 insertar,to insert,,VERB
 inservible,useless,,ADJ
-insidioso,insidious,,ADJ
-insignia,insignia,,X
+insidioso,insidious,,NOUN
+insignia,insignia,,NOUN
 insinuación,insinuation,,NOUN
 insinuar,to insinuate,,VERB
 insistir,to insist,,VERB
 insolencia,insolence,,NOUN
-insolente,insolent,,X
-insolvente,insolvent,,X
-insomnio,insomnia,,X
+insolente,insolent,,ADJ
+insolvente,insolvent,,ADJ
+insomnio,insomnia,,NOUN
 insondable,unfathomable,,ADJ
 inspeccionar,to inspect,,VERB
 inspirar,to inspire/inhale,,VERB
 instalar,to install,,VERB
 instancia,instance/request,,NOUN
-instantáneo,instantaneous,,X
+instantáneo,instantaneous,,ADJ
 instaurar,to establish,,VERB
 institucional,institutional,,ADJ
 instituir,to institute,,VERB
@@ -3435,20 +3352,19 @@ instrucción,instruction,,NOUN
 instructor,instructor,,NOUN
 instruir,to instruct,,VERB
 insuficiencia,insufficiency,,NOUN
-insuficiente,insufficient,,X
+insuficiente,insufficient,,ADJ
 insufrible,insufferable,,ADJ
-insulina,insulin,,X
-insulso,bland,,X
+insulina,insulin,,NOUN
+insulso,bland,,ADJ
 insultar,to insult,,VERB
-insumiso,defiant,,X
+insumiso,defiant,,ADJ
 insuperable,insurmountable,,ADJ
 insurrección,insurrection,,NOUN
-intacto,intact,,X
+intacto,intact,,ADJ
 integral,integral,,ADJ
 integrar,to integrate,,VERB
-intelecto,intellect,,X
-intemperie,outdoors,,X
-intencionado,deliberate,,VERB
+intelecto,intellect,,NOUN
+intemperie,outdoors,,NOUN
 intencional,intentional,,ADJ
 intensidad,intensity,,NOUN
 intensificar,to intensify,,VERB
@@ -3456,69 +3372,69 @@ intercambiar,to exchange,,VERB
 interceder,to intercede,,VERB
 interceptar,to intercept,,VERB
 interesar,to interest,,VERB
-interfaz,interface,,X
+interfaz,interface,,NOUN
 interferencia,interference,,NOUN
 interferir,to interfere,,VERB
 interjección,interjection,,NOUN
-intermedio,intermediate,,X
+intermedio,intermediate,,ADJ
 interminable,interminable,,ADJ
-intermitente,intermittent,,X
+intermitente,intermittent,,ADJ
 internar,to commit/intern,,VERB
-interpolar,to interpolate,,VERB
+interpolar,to interpolate,,ADJ
 interpretación,interpretation,,NOUN
 interpretar,to interpret,,VERB
 interrogación,interrogation,,NOUN
-interrogante,question,,ADJ
+interrogante,question,,NOUN
 interrogar,to interrogate,,VERB
 intersección,intersection,,NOUN
 intervenir,to intervene,,VERB
 interventor,inspector/auditor,,NOUN
-intestino,intestine,,X
+intestino,intestine,,NOUN
 intimidar,to intimidate,,VERB
 intolerable,intolerable,,ADJ
 intolerancia,intolerance,,NOUN
 intolerante,intolerant,,ADJ
 intoxicación,intoxication,,NOUN
 intoxicar,to intoxicate,,VERB
-intransigente,intransigent,,X
+intransigente,intransigent,,ADJ
 intratable,intractable,,ADJ
-intriga,intrigue,,X
+intriga,intrigue,,NOUN
 intrigante,intriguing,,ADJ
 intrigar,to intrigue,,VERB
-intrincado,intricate,,VERB
+intrincado,intricate,,ADJ
 introducción,introduction,,NOUN
 introducir,to introduce,,VERB
-intromisión,intrusion,,X
-intruso,intruder,,X
-intrépido,intrepid,,VERB
-intríngulis,intricacy,,X
+intromisión,intrusion,,NOUN
+intruso,intruder,,NOUN
+intrépido,intrepid,,ADJ
+intríngulis,intricacy,,NOUN
 intuición,intuition,,NOUN
 intuir,to intuit,,VERB
-intérprete,interpreter,,X
+intérprete,interpreter,,NOUN
 inundación,flood,,NOUN
 inundar,to flood,,VERB
 invadir,to invade,,VERB
 invariable,invariable,,ADJ
 invasor,invader,,NOUN
 invencible,invincible,,ADJ
-inventario,inventory,,X
-invento,invention,,X
+inventario,inventory,,NOUN
+invento,invention,,NOUN
 inventor,inventor,,NOUN
-invernadero,greenhouse,,X
+invernadero,greenhouse,,NOUN
 invernal,wintry,,ADJ
-inverosímil,unlikely,,X
+inverosímil,unlikely,,ADJ
 inviable,unviable,,ADJ
-invidente,blind,,X
+invidente,blind,,NOUN
 inviolable,inviolable,,ADJ
 invocación,invocation,,NOUN
 invocar,to invoke,,VERB
 involucrar,to involve,,VERB
-involuntario,involuntary,,X
+involuntario,involuntary,,ADJ
 inyectar,to inject,,VERB
-inútilmente,uselessly,,X
-iracundo,wrathful,,X
+inútilmente,uselessly,,ADV
+iracundo,wrathful,,ADJ
 ironizar,to be ironic,,VERB
-ironía,irony,,X
+ironía,irony,,NOUN
 irracional,irrational,,ADJ
 irradiar,to radiate,,VERB
 irreal,unreal,,ADJ
@@ -3527,10 +3443,10 @@ irreconciliable,irreconcilable,,ADJ
 irrecuperable,irretrievable,,ADJ
 irreemplazable,irreplaceable,,ADJ
 irreflexivo,unreflective,,ADJ
-irregular,irregular,,VERB
+irregular,irregular,,ADJ
 irregularidad,irregularity,,NOUN
 irrelevante,irrelevant,,ADJ
-irreligioso,irreligious,,ADJ
+irreligioso,irreligious,,NOUN
 irremediable,irremediable,,ADJ
 irreparable,irreparable,,ADJ
 irrepetible,unrepeatable,,ADJ
@@ -3544,450 +3460,433 @@ irritación,irritation,,NOUN
 irritante,irritating,,ADJ
 irritar,to irritate,,VERB
 irrumpir,to burst in,,VERB
-isleño,islander,,X
+isleño,islander,,ADJ
 islámico,Islamic,,ADJ
-istmo,isthmus,,X
-itinerario,itinerary,,X
+istmo,isthmus,,NOUN
+itinerario,itinerary,,NOUN
 jadear,to pant,,VERB
-jaqueca,migraine,,X
-jarabe,syrup,,X
-jardinero,gardener,,X
-jardinería,gardening,,X
-jarrón,vase,,X
-jazmín,jasmine,,X
+jaqueca,migraine,,NOUN
+jarabe,syrup,,NOUN
+jardinero,gardener,,NOUN
+jardinería,gardening,,NOUN
+jarrón,vase,,NOUN
+jazmín,jasmine,,NOUN
 jefatura,headquarters,,NOUN
-jerarquía,hierarchy,,X
-jerga,jargon,,X
-jeringa,syringe,,X
-jeroglífico,hieroglyphic,,ADJ
-jirafa,giraffe,,X
-jolgorio,merriment,,X
-jornada,workday,,X
-jornal,daily wage,,ADJ
-jornalero,day laborer,,X
-joyería,jewelry/jeweler,,X
+jerarquía,hierarchy,,NOUN
+jerga,jargon,,NOUN
+jeringa,syringe,,NOUN
+jeroglífico,hieroglyphic,,NOUN
+jirafa,giraffe,,NOUN
+jolgorio,merriment,,NOUN
+jornada,workday,,NOUN
+jornal,daily wage,,NOUN
+jornalero,day laborer,,NOUN
+joyería,jewelry/jeweler,,NOUN
 jubilación,retirement,,NOUN
 jubilar,to retire,,VERB
-jubileo,jubilee,,X
-juerga,party/spree,,X
-jueza,female judge,,X
+jubileo,jubilee,,PROPN
+juerga,party/spree,,NOUN
+jueza,female judge,,NOUN
 juramentar,to swear,,VERB
 jurar,to swear,,VERB
 jurisprudencia,jurisprudence,,NOUN
 jurista,jurist,,NOUN
 jurídico,legal,,ADJ
-justamente,exactly,,X
-justeza,justness,,X
+justamente,exactly,,ADV
+justeza,justness,,NOUN
 justificable,justifiable,,ADJ
 justificación,justification,,NOUN
 justificar,to justify,,VERB
-juvenil,youthful,,X
-júbilo,jubilation,,X
-kilo,kilo,,X
-kilogramo,kilogram,,X
-kilómetro,kilometer,,X
-kiosco,kiosk,,X
-laberinto,labyrinth,,X
-labio,lip,,X
+juvenil,youthful,,ADJ
+júbilo,jubilation,,NOUN
+kilo,kilo,,NOUN
+kilogramo,kilogram,,NOUN
+kilómetro,kilometer,,NOUN
+kiosco,kiosk,,NOUN
+laberinto,labyrinth,,NOUN
+labio,lip,,NOUN
 labor,labor/work,,NOUN
 laborable,working,,ADJ
 laboral,labor-related,,ADJ
-laboriosamente,laboriously,,X
-laborioso,laborious,,ADJ
+laboriosamente,laboriously,,ADV
+laborioso,laborious,,NOUN
 labrador,farmer,,NOUN
 labrar,to plow/cultivate,,VERB
-laca,lacquer,,X
+laca,lacquer,,NOUN
 ladera,slope,,NOUN
 ladrar,to bark,,VERB
-ladrillo,brick,,X
-lagartija,lizard,,X
-lagarto,lizard,,X
+ladrillo,brick,,NOUN
+lagartija,lizard,,NOUN
+lagarto,lizard,,NOUN
 lagrimear,to tear up,,VERB
-laguna,lagoon,,X
+laguna,lagoon,,NOUN
 laico,layperson,,ADJ
 lamentar,to regret/be sorry,,VERB
-lametón,lick,,X
-langosta,lobster,,X
+lametón,lick,,NOUN
+langosta,lobster,,NOUN
 languidecer,to languish,,VERB
-languidez,languor,,X
-lapso,lapse,,X
-laptop,laptop,,X
+languidez,languor,,NOUN
+lapso,lapse,,NOUN
+laptop,laptop,,NOUN
 largura,length,,NOUN
-laringe,larynx,,X
-larva,larva,,X
-lasitud,lassitude,,X
-laso,weary,,X
-lastimoso,pitiful,,ADJ
-lastre,ballast,,X
-lateral,lateral,,ADJ
-latido,heartbeat,,VERB
-latifundio,large estate,,X
-latino,Latin,,X
+laringe,larynx,,NOUN
+larva,larva,,NOUN
+lasitud,lassitude,,NOUN
+lastimoso,pitiful,,NOUN
+lastre,ballast,,NOUN
+lateral,lateral,,NOUN
+latido,heartbeat,,NOUN
+latifundio,large estate,,NOUN
 latir,to beat,,VERB
-latitud,latitude,,X
-latín,Latin,,X
-lavadero,laundry room,,X
-lavadora,washing machine,,X
-lavavajillas,dishwasher,,X
-laxante,laxative,,ADJ
-laxitud,laxity,,X
-laxo,lax,,X
-lazada,bow,,X
-lechero,milkman,,X
-lágrima,tear,,X
-macabro,macabre,,X
+latitud,latitude,,NOUN
+latín,Latin,,NOUN
+lavadero,laundry room,,NOUN
+lavadora,washing machine,,NOUN
+lavavajillas,dishwasher,,NOUN
+laxante,laxative,,NOUN
+laxitud,laxity,,NOUN
+laxo,lax,,ADJ
+lazada,bow,,NOUN
+lágrima,tear,,NOUN
+macabro,macabre,,ADJ
 macerar,to macerate,,VERB
 machacar,to crush/hammer,,VERB
-macizo,solid/massif,,X
-madurez,maturity,,X
-magnate,tycoon,,X
-magnánimo,magnanimous,,X
-majestuoso,majestic,,ADJ
-malestar,discomfort/unease,,VERB
-maltrato,mistreatment,,X
+macizo,solid/massif,,NOUN
+madurez,maturity,,NOUN
+magnate,tycoon,,NOUN
+magnánimo,magnanimous,,ADJ
+majestuoso,majestic,,NOUN
+malestar,discomfort/unease,,NOUN
+maltrato,mistreatment,,NOUN
 malversar,to embezzle,,VERB
-mampara,screen/partition,,X
-manantial,spring,,ADJ
-mandamás,big shot/boss,,X
-mandato,mandate/term,,X
-mandíbula,jaw,,X
-manifiesto,manifesto/obvious,,X
-maniobra,maneuver,,X
+mampara,screen/partition,,NOUN
+manantial,spring,,NOUN
+mandamás,big shot/boss,,NOUN
+mandato,mandate/term,,NOUN
+mandíbula,jaw,,NOUN
+manifiesto,manifesto/obvious,,NOUN
+maniobra,maneuver,,NOUN
 manipular,to manipulate,,VERB
-manjar,delicacy,,VERB
-manto,cloak/mantle,,X
+manjar,delicacy,,NOUN
+manto,cloak/mantle,,NOUN
 maquiavélico,Machiavellian,,ADJ
 maquillar,to put makeup on,,VERB
-maquinaria,machinery,,X
-marasmo,stagnation,,X
-marino,marine/sailor,,X
-marioneta,puppet,,X
-martirio,martyrdom/torment,,X
+maquinaria,machinery,,NOUN
+marasmo,stagnation,,NOUN
+marino,marine/sailor,,NOUN
+marioneta,puppet,,NOUN
+martirio,martyrdom/torment,,NOUN
 masivo,massive,,ADJ
-matriarca,matriarch,,X
-matriz,matrix/womb,,X
-mazmorra,dungeon,,X
-meandro,meander,,X
-mecenas,patron,,X
-mediano,medium-sized,,X
+matriarca,matriarch,,NOUN
+matriz,matrix/womb,,NOUN
+mazmorra,dungeon,,PROPN
+meandro,meander,,PROPN
+mecenas,patron,,NOUN
+mediano,medium-sized,,NOUN
 mediar,to mediate,,VERB
-mediocre,mediocre,,X
-meditabundo,pensive,,X
-megalómano,megalomaniac,,X
-melancolía,melancholy,,X
-melodrama,melodrama,,X
-membrana,membrane,,X
+mediocre,mediocre,,ADJ
+meditabundo,pensive,,ADJ
+megalómano,megalomaniac,,NOUN
+melancolía,melancholy,,NOUN
+melodrama,melodrama,,NOUN
+membrana,membrane,,NOUN
 mención,mention,,NOUN
 mendigar,to beg,,VERB
 menguar,to wane/decrease,,VERB
 menoscabar,to undermine,,VERB
-mercenario,mercenary,,X
+mercenario,mercenary,,NOUN
 merecer,to deserve,,VERB
-meticuloso,meticulous,,ADJ
+meticuloso,meticulous,,NOUN
 metálico,metallic/cash,,ADJ
 mezclar,to mix,,VERB
-milenario,millenary/ancient,,X
-minucioso,thorough/detailed,,ADJ
-miramiento,consideration,,X
-misiva,missive/letter,,X
-misántropo,misanthrope,,X
+milenario,millenary/ancient,,ADJ
+minucioso,thorough/detailed,,NOUN
+miramiento,consideration,,NOUN
+misiva,missive/letter,,NOUN
+misántropo,misanthrope,,NOUN
 mitigar,to mitigate,,VERB
 moción,motion,,NOUN
 modalidad,mode/type,,NOUN
-modorra,drowsiness,,X
-monarca,monarch,,X
-monasterio,monastery,,X
-monótono,monotonous,,X
-morada,dwelling,,X
-moratoria,moratorium,,X
-mordaz,biting/sarcastic,,X
+modorra,drowsiness,,NOUN
+monarca,monarch,,NOUN
+monasterio,monastery,,NOUN
+morada,dwelling,,ADJ
+moratoria,moratorium,,NOUN
+mordaz,biting/sarcastic,,ADJ
 morder,to bite,,VERB
-mortífero,deadly,,X
-mosaico,mosaic,,ADJ
+mortífero,deadly,,NOUN
+mosaico,mosaic,,NOUN
 motivación,motivation,,NOUN
 mudanza,move/relocation,,NOUN
-mudo,mute,,X
-mugre,grime,,X
+mudo,mute,,ADJ
+mugre,grime,,NOUN
 municipal,municipal,,ADJ
-muralla,wall/rampart,,X
+muralla,wall/rampart,,NOUN
 mutilar,to mutilate,,VERB
-mutuo,mutual,,X
-músculo,muscle,,X
+mutuo,mutual,,ADJ
+músculo,muscle,,NOUN
 nacionalidad,nationality,,NOUN
-nefasto,disastrous,,X
+nefasto,disastrous,,ADJ
 negligencia,negligence,,NOUN
 neutral,neutral,,ADJ
-neófito,neophyte/beginner,,X
-nimio,trivial,,X
+neófito,neophyte/beginner,,ADJ
+nimio,trivial,,ADJ
 nombrar,to name/appoint,,VERB
-normativa,regulations,,X
-nostalgia,nostalgia,,X
+normativa,regulations,,NOUN
+nostalgia,nostalgia,,NOUN
 notable,notable/remarkable,,ADJ
-notorio,notorious/evident,,X
-novicio,novice,,X
-numeroso,numerous,,ADJ
-nítido,clear/sharp,,VERB
-nómada,nomad,,X
-obcecado,obstinate/blinded,,VERB
-oblicuo,oblique,,X
+notorio,notorious/evident,,ADJ
+novicio,novice,,NOUN
+numeroso,numerous,,NOUN
+nítido,clear/sharp,,ADJ
+nómada,nomad,,ADJ
+obcecado,obstinate/blinded,,ADJ
+oblicuo,oblique,,ADJ
 obligar,to force,,VERB
-obsequio,gift,,X
-obsoleto,obsolete,,X
-obstinado,stubborn,,VERB
-obstáculo,obstacle,,X
+obsequio,gift,,NOUN
+obsoleto,obsolete,,ADJ
+obstinado,stubborn,,ADJ
+obstáculo,obstacle,,NOUN
 ocasional,occasional,,ADJ
-ocaso,decline/sunset,,X
 ocupación,occupation,,NOUN
-odisea,odyssey,,X
-ofensiva,offensive,,X
+odisea,odyssey,,NOUN
+ofensiva,offensive,,NOUN
 ofuscar,to dazzle/confuse,,VERB
-ominoso,ominous,,ADJ
+ominoso,ominous,,NOUN
 omitir,to omit,,VERB
-oponerse,to oppose,,X
-opulento,opulent,,X
+opulento,opulent,,ADJ
 ordenanza,ordinance/orderly,,NOUN
 oriental,eastern,,ADJ
-ornamento,ornament,,X
-ortodoxo,orthodox,,X
-oráculo,oracle,,X
-osadía,boldness,,X
+ornamento,ornament,,NOUN
+ortodoxo,orthodox,,PROPN
+oráculo,oracle,,NOUN
+osadía,boldness,,NOUN
 oscilar,to oscillate,,VERB
 ostentar,to display/hold,,VERB
 ostracismo,ostracism,,NOUN
 otorgar,to grant,,VERB
-padecimiento,ailment/suffering,,X
+padecimiento,ailment/suffering,,NOUN
 paliar,to alleviate,,VERB
 palpable,palpable,,ADJ
-panacea,panacea,,X
-pantalón,trousers/pants,,X
-paradigma,paradigm,,X
-paraje,place/spot,,X
-paralelo,parallel,,X
-paramédico,paramedic,,ADJ
-paranoia,paranoia,,X
-paria,outcast,,X
+panacea,panacea,,NOUN
+pantalón,trousers/pants,,NOUN
+paradigma,paradigm,,NOUN
+paraje,place/spot,,NOUN
+paralelo,parallel,,NOUN
+paramédico,paramedic,,NOUN
+paranoia,paranoia,,NOUN
 paroxismo,paroxysm,,NOUN
-parsimonia,parsimony/slowness,,X
-patata,potato,,X
-patología,pathology,,X
-patíbulo,scaffold/gallows,,X
-pecuniario,monetary,,X
-penal,criminal/penal,,ADJ
+parsimonia,parsimony/slowness,,NOUN
+patata,potato,,NOUN
+patología,pathology,,NOUN
+patíbulo,scaffold/gallows,,NOUN
+pecuniario,monetary,,ADJ
+penal,criminal/penal,,NOUN
 penetrar,to penetrate/enter,,VERB
 percepción,perception,,NOUN
-perentorio,urgent/peremptory,,X
-pericia,expertise,,X
-perjuicio,harm/prejudice,,X
+perentorio,urgent/peremptory,,ADJ
+pericia,expertise,,NOUN
+perjuicio,harm/prejudice,,NOUN
 perpetrar,to perpetrate,,VERB
-perplejo,perplexed,,X
-perspicaz,perceptive,,X
+perplejo,perplexed,,ADJ
+perspicaz,perceptive,,ADJ
 pertenecer,to belong,,VERB
-pertinaz,persistent,,X
-pestilente,pestilent/stinking,,X
-picaresco,picaresque/roguish,,X
-pilar,pillar,,VERB
-placidez,calmness,,X
-plagio,plagiarism,,X
+pertinaz,persistent,,ADJ
+pestilente,pestilent/stinking,,ADJ
+picaresco,picaresque/roguish,,ADJ
+pilar,pillar,,NOUN
+placidez,calmness,,NOUN
+plagio,plagiarism,,NOUN
 planear,to plan,,VERB
 plantear,to raise/propose,,VERB
-plebeyo,commoner,,X
-plenitud,fullness,,X
-polémica,controversy,,X
+plebeyo,commoner,,NOUN
+plenitud,fullness,,NOUN
+polémica,controversy,,NOUN
 ponencia,presentation/paper,,NOUN
 pormenor,detail,,NOUN
-portarse,to behave,,X
-portavoz,spokesperson,,X
+portavoz,spokesperson,,NOUN
 postergar,to postpone,,VERB
-postrero,last/final,,X
 precariedad,precariousness,,NOUN
 predecir,to predict,,VERB
 preferir,to prefer,,VERB
 premonición,premonition,,NOUN
-prenda,garment,,X
+prenda,garment,,NOUN
 preocupar,to worry,,VERB
-prepotente,arrogant,,X
-presagio,omen,,X
-presteza,swiftness,,X
-prestigio,prestige,,X
+prepotente,arrogant,,ADJ
+presagio,omen,,NOUN
+presteza,swiftness,,NOUN
+prestigio,prestige,,NOUN
 presumir,to show off/presume,,VERB
 presunción,presumption,,NOUN
-presunto,alleged,,X
+presunto,alleged,,ADJ
 pretender,to intend/pretend,,VERB
-pretexto,pretext,,X
-previo,previous/prior,,X
-preámbulo,preamble,,X
+pretexto,pretext,,NOUN
+previo,previous/prior,,ADJ
+preámbulo,preamble,,NOUN
 primordial,fundamental,,ADJ
-proclive,prone/inclined,,X
-proeza,feat,,X
+proclive,prone/inclined,,ADJ
+proeza,feat,,NOUN
 prohibición,ban/prohibition,,NOUN
 prohibir,to prohibit,,VERB
 prolífico,prolific,,ADJ
 prometer,to promise,,VERB
-promiscuo,promiscuous,,X
+promiscuo,promiscuous,,NOUN
 promoción,promotion,,NOUN
-prontitud,promptness,,X
-propensión,propensity,,X
+prontitud,promptness,,NOUN
+propensión,propensity,,NOUN
 protagonista,protagonist,,NOUN
 protestar,to protest,,VERB
 proyección,projection/screening,,NOUN
 prudencia,prudence,,NOUN
-próspero,prosperous,,X
-psicólogo,psychologist,,X
-pugna,struggle,,X
-pulcro,neat,,X
-pútrido,putrid,,VERB
+próspero,prosperous,,ADJ
+psicólogo,psychologist,,NOUN
+pugna,struggle,,NOUN
+pulcro,neat,,ADJ
+pútrido,putrid,,ADJ
 quebrar,to break/go bankrupt,,VERB
-quejarse,to complain,,X
 quimera,chimera/illusion,,NOUN
 radical,radical,,ADJ
-raigambre,roots/lineage,,X
-rapiña,plunder,,X
-rasgo,trait/feature,,X
+raigambre,roots/lineage,,NOUN
+rapiña,plunder,,NOUN
+rasgo,trait/feature,,NOUN
 reaccionar,to react,,VERB
 reclamar,to claim/demand,,VERB
 recomendar,to recommend,,VERB
 reconciliación,reconciliation,,NOUN
 reconstruir,to reconstruct,,VERB
 rectificar,to rectify,,VERB
-recóndito,hidden/remote,,X
+recóndito,hidden/remote,,ADJ
 redención,redemption,,NOUN
-refulgente,shining,,X
+refulgente,shining,,ADJ
 regalar,to give (a gift),,VERB
 relajar,to relax,,VERB
-relato,account/story,,X
+relato,account/story,,NOUN
 relegar,to relegate,,VERB
 reminiscencia,reminiscence,,NOUN
-rendirse,to surrender/give up,,X
-renuente,reluctant,,X
+renuente,reluctant,,ADJ
 repartir,to distribute/hand out,,VERB
 repasar,to review/check,,VERB
-repercusión,repercussion,,X
-representante,representative,,ADJ
+repercusión,repercussion,,NOUN
+representante,representative,,NOUN
 representar,to represent,,VERB
-repudio,repudiation,,X
-resabio,aftertaste/trace,,X
+repudio,repudiation,,VERB
+resabio,aftertaste/trace,,NOUN
 resarcir,to compensate,,VERB
-resentimiento,resentment,,X
+resentimiento,resentment,,NOUN
 reservar,to reserve,,VERB
-residuo,waste/residue,,X
-resquicio,crack/opening,,X
+residuo,waste/residue,,NOUN
+resquicio,crack/opening,,NOUN
 restricción,restriction,,NOUN
-reticente,reticent,,X
+reticente,reticent,,ADJ
 retribución,remuneration,,NOUN
 revelación,revelation,,NOUN
 reverencia,bow/reverence,,NOUN
 rimbombante,pompous,,ADJ
 rodear,to surround,,VERB
 rogar,to beg/pray,,VERB
-ráfaga,burst/gust,,X
-régimen,regime/diet,,X
-sagaz,shrewd,,X
+ráfaga,burst/gust,,NOUN
+régimen,regime/diet,,NOUN
+sagaz,shrewd,,ADJ
 sanción,sanction/penalty,,NOUN
-santuario,sanctuary,,X
-saqueo,looting,,X
+santuario,sanctuary,,NOUN
+saqueo,looting,,NOUN
 sarcástico,sarcastic,,ADJ
-sastre,tailor,,X
+sastre,tailor,,NOUN
 secar,to dry,,VERB
 secuestrar,to kidnap,,VERB
-sede,headquarters/venue,,X
-sedentario,sedentary,,X
+sede,headquarters/venue,,NOUN
+sedentario,sedentary,,ADJ
 seducir,to seduce,,VERB
 segregar,to segregate/secrete,,VERB
 seguidor,follower,,NOUN
-semblante,countenance,,ADJ
-semilla,seed,,X
-seno,breast/bosom,,X
-sensato,sensible,,X
-sepulcro,tomb,,X
+semblante,countenance,,NOUN
+semilla,seed,,NOUN
+sensato,sensible,,ADJ
+sepulcro,tomb,,NOUN
 serpenteante,winding,,ADJ
 señalar,to point out/signal,,VERB
-siniestro,sinister,,X
-soberano,sovereign,,X
+siniestro,sinister,,ADJ
 sobornar,to bribe,,VERB
-soborno,bribery,,X
+soborno,bribery,,NOUN
 sobrar,to be left over,,VERB
-sofisma,sophism,,X
-soler,to usually do,,VERB
+sofisma,sophism,,NOUN
+soler,to usually do,,NOUN
 solicitar,to request/apply,,VERB
 sorprender,to surprise,,VERB
 soslayar,to sidestep,,VERB
 sospechar,to suspect,,VERB
-subrepticio,surreptitious,,X
+subrepticio,surreptitious,,NOUN
 sucumbir,to succumb,,VERB
 sugerir,to suggest,,VERB
 sumar,to add,,VERB
-suntuoso,sumptuous,,ADJ
-superfluo,superfluous,,X
+suntuoso,sumptuous,,NOUN
+superfluo,superfluous,,ADJ
 surgir,to arise/emerge,,VERB
 suspender,to fail/suspend,,VERB
 tangible,tangible,,ADJ
 tapar,to cover,,VERB
-tarifa,fare/rate,,X
+tarifa,fare/rate,,NOUN
 temblar,to tremble/shake,,VERB
-tenaz,tenacious,,X
+tenaz,tenacious,,ADJ
 tendencia,trend/tendency,,NOUN
-testarudo,stubborn,,X
+testarudo,stubborn,,NOUN
 traducir,to translate,,VERB
 traicionar,to betray,,VERB
 tranquilizar,to calm down,,VERB
 transformar,to transform,,VERB
-transgresión,transgression,,X
-trece,thirteen,,X
-triángulo,triangle,,X
-trompa,trunk/horn,,X
-tropa,troop,,X
-trémulo,trembling,,X
+transgresión,transgression,,NOUN
+trece,thirteen,,NUM
+triángulo,triangle,,NOUN
+trompa,trunk/horn,,NOUN
+tropa,troop,,NOUN
+trémulo,trembling,,NOUN
 turismo,tourism,,NOUN
 turista,tourist,,NOUN
-tácito,tacit,,X
-umbrío,shady/gloomy,,X
-usuario,user,,X
-usufructo,usufruct,,X
+tácito,tacit,,ADJ
+umbrío,shady/gloomy,,ADJ
+usuario,user,,NOUN
+usufructo,usufruct,,NOUN
 vacilar,to hesitate/waver,,VERB
 valer,to be worth/cost,,VERB
-vehemente,vehement,,X
-vengarse,to avenge oneself,,X
-venidero,forthcoming,,X
-verbo,verb,,X
+vehemente,vehement,,ADJ
+vengarse,to avenge oneself,,VERB
+venidero,forthcoming,,NOUN
+verbo,verb,,NOUN
 verdura,vegetable,,NOUN
-verosímil,plausible,,X
-verso,verse,,X
-veterano,veteran,,X
-viajero,traveler,,X
-vicio,vice/bad habit,,X
-vicisitud,vicissitude,,X
+verosímil,plausible,,ADJ
+verso,verse,,NOUN
+veterano,veteran,,NOUN
+vicio,vice/bad habit,,NOUN
+vicisitud,vicissitude,,NOUN
 vilipendiar,to vilify,,VERB
-virulento,virulent,,X
-viudo,widower,,X
-vivienda,housing/dwelling,,X
-vorágine,maelstrom,,X
-yacimiento,deposit/site,,X
-yermo,barren land,,X
+virulento,virulent,,ADJ
+viudo,widower,,ADJ
+vivienda,housing/dwelling,,NOUN
+vorágine,maelstrom,,NOUN
+yacimiento,deposit/site,,NOUN
+yermo,barren land,,ADJ
 yuxtaponer,to juxtapose,,VERB
-zafio,coarse/vulgar,,X
-zozobra,anxiety,,X
-ámbito,field/sphere,,X
-ápice,apex,,X
-árbitro,referee,,X
-árido,arid,,VERB
-áspero,rough,,X
-áspid,asp,,X
-ávido,avid,,VERB
-émulo,emulator,,X
-énfasis,emphasis,,X
-épica,epic,,X
+zafio,coarse/vulgar,,ADJ
+zozobra,anxiety,,NOUN
+ámbito,field/sphere,,NOUN
+ápice,apex,,NOUN
+árbitro,referee,,NOUN
+árido,arid,,ADJ
+áspero,rough,,NOUN
+áspid,asp,,NOUN
+ávido,avid,,ADJ
+émulo,emulator,,NOUN
+énfasis,emphasis,,NOUN
 épico,epic,,ADJ
 ético,ethical,,ADJ
 étnico,ethnic,,ADJ
-éxodo,exodus,,X
-éxtasis,ecstasy,,X
-ígneo,igneous,,X
-ímpetu,impetus,,X
-ímprobo,arduous,,X
-índice,index,,X
-índole,nature,,X
-ínfimo,lowest,,X
-ínfulas,airs,,X
-íntegro,integral/whole,,X
-íntimo,intimate/close,,X
-gasto,expense,,NOUN
+éxodo,exodus,,NOUN
+éxtasis,ecstasy,,NOUN
+ígneo,igneous,,NOUN
+ímpetu,impetus,,NOUN
+ímprobo,arduous,,ADJ
+índice,index,,NOUN
+ínfimo,lowest,,ADJ
+ínfulas,airs,,NOUN
+íntegro,integral/whole,,ADJ
+íntimo,intimate/close,,ADJ

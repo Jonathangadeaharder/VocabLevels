@@ -1,1001 +1,553 @@
 Swedish_Lemma,English_Lemma,Chinese_Lemma,POS
 erkänna,acknowledge,,VERB
-ers,your(formal),,X
-evigt,eternal,,VERB
-exempel,example,,X
-extra,extra,,VERB
-fader,father,,X
-faktum,fact,,X
-faller,fall,,X
-fallet,the case,,VERB
-fann,found,,X
+ers,your(formal),,NOUN
+evigt,eternal,,ADV
+exempel,example,,NOUN
+extra,extra,,ADV
+faktum,fact,,NOUN
 fantastisk,fantastic,,ADJ
-fantastiskt,fantastic,,VERB
-farbror,uncle,,X
-farfar,grandfather,,X
+farbror,uncle,,NOUN
+farfar,grandfather,,NOUN
 farlig,dangerous,,ADJ
-farligt,dangerous,,VERB
-fars,father's/danger,,X
-fart,speed,,VERB
-farväl,farewell,,X
+fars,father's/danger,,NOUN
+fart,speed,,NOUN
+farväl,farewell,,NOUN
 fatta,grasp/understand,,VERB
-fest,party,,VERB
-festen,the party,,X
-fiender,enemies,,X
-film,film/movie,,X
-filmen,the film,,X
-fina,fine(pl),,VERB
-finnas,exist,,X
+fest,party,,NOUN
+film,film/movie,,NOUN
+finnas,exist,,VERB
 fira,celebrate,,VERB
-fixar,fixes,,X
-flesta,most(pl),,VERB
-flickan,the girl,,X
-flickor,girls,,X
-floden,the river,,X
-fly,flee/escape,,X
-flyger,flies,,X
-flyttade,moved,,VERB
-flyttar,moves,,X
-folket,the people,,VERB
-form,form,,X
-framme,there/present,,X
-framtid,future,,X
-framtiden,the future,,X
-framåt,forward,,VERB
-frankrike,France,,X
-fred,peace,,X
-fri,free,,X
+flesta,most(pl),,ADJ
+fly,flee/escape,,VERB
+form,form,,NOUN
+framme,there/present,,ADV
+framtid,future,,NOUN
+framåt,forward,,ADV
+frankrike,France,,PROPN
+fred,peace,,NOUN
+fri,free,,ADJ
 fria,propose/free,,VERB
 frihet,freedom,,NOUN
-frun,the wife,,X
-frågan,the question,,X
-fröken,Miss/teacher,,X
-fullt,fully,,VERB
+fullt,fully,,ADV
 fungera,function,,VERB
 fängelse,prison,,NOUN
-fängelset,the prison,,VERB
 färdig,ready/finished,,ADJ
 fånga,catch,,VERB
-fångar,catches/prisoners,,X
-föddes,was born,,X
-födelsedag,birthday,,X
-följde,followed,,VERB
-föll,fell,,X
-fönstret,the window,,VERB
+fångar,catches/prisoners,,NOUN
+föddes,was born,,VERB
+födelsedag,birthday,,NOUN
 föra,bring/lead,,VERB
-föredrar,prefers,,X
-föreslår,suggests,,X
-företag,company,,X
-företaget,the company,,VERB
-förflutna,the past,,VERB
-förhållande,relationship,,VERB
-förklarar,explains,,X
+företag,company,,NOUN
+förflutna,the past,,NOUN
+förhållande,relationship,,NOUN
 förlora,lose,,VERB
-förlorade,lost,,VERB
-förlorar,loses,,X
-förlorat,lost,,VERB
-förmodligen,probably,,X
-förr,before/previously,,X
-förresten,by the way,,X
+förmodligen,probably,,ADV
+förr,before/previously,,ADV
+förresten,by the way,,ADV
 försiktig,careful,,ADJ
-försiktigt,carefully,,VERB
-förslag,proposal/suggestion,,X
-förstod,understood,,X
-förstås,of course,,X
-förstått,understood,,VERB
-förstör,destroys,,X
+försiktigt,carefully,,ADV
+förslag,proposal/suggestion,,NOUN
+förstås,of course,,ADV
 förstöra,destroy,,VERB
-förstörde,destroyed,,VERB
-försvann,disappeared,,X
-försvinn,disappear!,,X
+försvinn,disappear!,,NOUN
 försvinna,disappear,,VERB
-försvinner,disappears,,X
-försökt,tried,,VERB
-förtjänar,deserves,,X
-förutom,except,,X
-förändras,change,,X
-förändrats,has changed,,X
-fötter,feet,,X
-galet,crazily,,VERB
-galna,crazy(pl),,VERB
-gamle,old(def),,X
-gatan,the street,,X
-genast,at once,,VERB
-general,general,,X
-gett,given,,VERB
-gifte,marriage/married,,X
+förutom,except,,ADP
+fötter,feet,,NOUN
+genast,at once,,ADV
+general,general,,NOUN
 gilla,like,,VERB
-gillade,liked,,VERB
 gissa,guess,,VERB
-glada,happy(pl),,VERB
-glömde,forgot,,VERB
-glömmer,forgets,,X
-glömt,forgotten,,VERB
-gode,good(def),,VERB
-golvet,the floor,,VERB
-grabbar,guys,,ADJ
-gratis,free,,X
-grattis,congratulations,,X
-gravid,pregnant,,X
-grej,thing,,X
-grejen,the thing,,X
-grejer,things,,X
-grupp,group,,X
-gränsen,the border,,X
-guds,god's,,X
-gumman,the old woman,,X
-gäng,gang,,X
-gåva,gift,,VERB
+gode,good(def),,NOUN
+gratis,free,,ADJ
+grattis,congratulations,,NOUN
+gravid,pregnant,,ADJ
+grejen,the thing,,NOUN
+grejer,things,,NOUN
+grupp,group,,NOUN
+gäng,gang,,NOUN
+gåva,gift,,NOUN
 gömma,hide,,VERB
-gömmer,hides,,X
-halsen,the throat/neck,,X
-halv,half,,X
-halva,half,,VERB
-hamnade,ended up,,VERB
-hamnar,ends up/lands,,X
-handen,the hand,,X
+halv,half,,ADJ
 hantera,handle,,VERB
-havet,the sea,,VERB
-hejsan,hello,,X
-hel,whole,,X
-helgen,the weekend/holiday,,X
-hellre,rather,,X
-helvetet,hell,,VERB
+hejsan,hello,,NOUN
+hel,whole,,ADJ
 hemlighet,secret,,NOUN
-hemligheter,secrets,,X
 hemsk,terrible,,ADJ
-hemska,terrible(pl),,VERB
-herre,lord/master,,X
-herrn,the gentleman,,X
-hette,was called,,X
-himlen,the sky/heaven,,X
+herre,lord/master,,NOUN
+himlen,the sky/heaven,,NOUN
 hindra,hinder,,VERB
-hinner,have time,,X
-historien,the history/story,,X
-hittades,was found,,X
-hjälpte,helped,,X
-hjälte,hero,,X
-hjärna,brain,,VERB
-hjärnan,the brain,,X
-hjärtat,the heart,,VERB
-hopp,hope,,X
-hoppade,jumped,,VERB
-hoppades,hoped,,X
-hoppar,jumps,,X
-hora,whore,,VERB
-hot,threat,,VERB
-hotellet,the hotel,,VERB
-hundar,dogs,,X
-hunden,the dog,,X
+historien,the history/story,,NOUN
+hjälte,hero,,NOUN
+hjärna,brain,,NOUN
+hopp,hope,,NOUN
+hoppades,hoped,,VERB
+hora,whore,,NOUN
+hot,threat,,NOUN
 hungrig,hungry,,ADJ
-hustru,wife,,X
-häftigt,awesome/intensely,,VERB
-hälften,half,,X
+hustru,wife,,NOUN
+hälften,half,,NOUN
 hänga,hang,,VERB
-hänger,hangs/hangs out,,X
-härligt,lovely,,VERB
-hål,hole,,X
-hållit,held,,VERB
-håret,the hair,,VERB
-höger,right(side),,X
-högre,higher,,X
-högsta,highest,,VERB
-högt,loudly/high,,VERB
-ifall,if,,X
-ifred,in peace,,X
-ihjäl,to death,,X
-inblandad,involved,,X
-information,information,,X
-ingenstans,nowhere,,X
-innebär,means/implies,,X
-inser,realizes,,X
-insåg,realized,,X
-intressant,interesting,,VERB
-intresserad,interested,,X
-is,ice,,X
-istället,instead,,VERB
+hål,hole,,NOUN
+höger,right(side),,NOUN
+högre,higher,,ADV
+ifall,if,,ADV
+ifred,in peace,,NOUN
+ihjäl,to death,,ADV
+inblandad,involved,,ADJ
+information,information,,NOUN
+ingenstans,nowhere,,ADV
+intressant,interesting,,ADJ
+intresserad,interested,,ADJ
+is,ice,,NOUN
+istället,instead,,ADV
 jaga,hunt,,VERB
-jagar,hunt,,X
-japp,yep,,X
-javisst,certainly,,VERB
-jobbade,worked,,VERB
-jobbigt,tiresome,,VERB
-jul,Christmas,,X
+japp,yep,,NOUN
+javisst,certainly,,ADJ
+jul,Christmas,,NOUN
 jäkla,darn,,VERB
-jäklar,darn,,X
-jämt,always/even,,VERB
-jättebra,great,,VERB
-jäveln,the devil/bastard,,X
-jävlar,devils/damn,,X
-jävligt,damn(ly),,VERB
-jösses,good heavens,,X
-kallade,called,,VERB
-kallas,is called,,X
-kallt,cold,,VERB
-kameran,the camera,,X
-karl,man,,X
-karriär,career,,X
+jämt,always/even,,ADV
+jättebra,great,,ADJ
+jävlar,devils/damn,,NOUN
+jävligt,damn(ly),,ADJ
+jösses,good heavens,,NOUN
+kameran,the camera,,NOUN
+karl,man,,NOUN
+karriär,career,,NOUN
 kasta,throw,,VERB
-kastar,throws,,X
-killarna,the guys,,VERB
+killarna,the guys,,NOUN
 klarade,managed,,VERB
-klass,class,,X
-klä,dress,,X
-km,km,,X
-knappast,hardly,,VERB
-knappt,hardly,,VERB
+klass,class,,NOUN
+klä,dress,,VERB
+km,km,,NOUN
+knappast,hardly,,ADV
+knappt,hardly,,ADV
 knulla,fuck,,VERB
-koll,check,,X
-kollade,checked/looked,,VERB
-kollar,checks,,X
+koll,check,,NOUN
 konstig,strange,,ADJ
-kontakt,contact,,VERB
+kontakt,contact,,NOUN
 kontakta,contact,,VERB
-kontoret,the office,,VERB
-kontroll,control,,X
+kontroll,control,,NOUN
 kontrollera,control,,VERB
 koppla,connect/relax,,VERB
-kostar,costs,,X
-kraft,force/power,,VERB
-krafter,forces,,X
-kriget,the war,,VERB
-kroppen,the body,,X
-kräver,requires,,X
-krävs,is required,,X
-kuk,cock/dick,,X
-kung,king,,X
-kungen,the king,,X
-kunnat,been able,,VERB
-kusin,cousin,,X
-kvinnan,the woman,,X
-kyrkan,the church,,X
-kyss,kiss,,X
+kraft,force/power,,NOUN
+kuk,cock/dick,,NOUN
+kung,king,,NOUN
+kusin,cousin,,NOUN
+kyss,kiss,,NOUN
 kämpa,fight/struggle,,VERB
-känd,known/familiar,,X
-kändes,felt,,X
-känsla,feeling,,VERB
-känslor,feelings,,X
-känt,felt/known,,VERB
-kär,in love,,X
-köket,the kitchen,,VERB
-köper,buys,,X
-köpt,bought,,VERB
-köpte,bought,,X
-körde,drove,,VERB
-kört,driven,,VERB
-lag,law/team,,X
-lagar,cooks/repairs,,X
-lagen,the law/the team,,X
-laget,the team/the law,,VERB
-lagt,put/laid,,VERB
-landet,the country/land,,VERB
-le,smile,,X
+känd,known/familiar,,ADJ
+kändes,felt,,VERB
+känsla,feeling,,NOUN
+kär,in love,,ADJ
+lag,law/team,,NOUN
+le,smile,,VERB
 leda,lead,,VERB
-ledare,leader,,X
-leder,leads,,X
+ledare,leader,,NOUN
 leka,play,,VERB
-letade,looked for,,VERB
-levande,alive,,VERB
-levde,lived,,VERB
-lik,corpse/like,,X
-liknande,similar,,VERB
-liknar,resembles,,X
-liksom,like/as,,X
-lille,little,,X
-lista,list,,VERB
-listan,the list,,X
-litar,trusts,,X
-litet,a little,,VERB
-ljud,sound,,X
+levande,alive,,ADJ
+lik,corpse/like,,ADJ
+liknande,similar,,ADJ
+liksom,like/as,,ADV
+lista,list,,NOUN
+listan,the list,,NOUN
+litet,a little,,ADV
+ljud,sound,,NOUN
 ljuga,lie,,VERB
-ljuger,lies,,X
-ljus,light/candle,,X
-ljuset,the light,,VERB
-ljög,lied,,X
-lnte,not,,X
-loss,loose,,X
-lov,leave/holiday,,X
-lovade,promised,,VERB
-luften,the air,,X
-luktar,smells,,X
-lunch,lunch,,X
+ljus,light/candle,,NOUN
+ljög,lied,,VERB
+lnte,not,,INTJ
+loss,loose,,NOUN
+lov,leave/holiday,,NOUN
+lunch,lunch,,NOUN
 lura,trick/fool,,VERB
-lustigt,funnily,,VERB
-lyckades,succeeded,,X
-lyckas,succeed,,X
+lyckades,succeeded,,VERB
+lyckas,succeed,,VERB
 lycklig,happy,,ADJ
-lyckliga,happy(pl),,VERB
-lyssnar,listens,,X
-lämnat,left,,VERB
-lärde,taught/learned,,VERB
-lärt,learned/taught,,VERB
-läser,reads,,X
-läst,read,,VERB
-läste,read,,X
-lättare,easier,,X
+lättare,easier,,ADJ
 låna,borrow,,VERB
-långa,long(pl),,VERB
-låtsas,pretend,,X
-lögn,lie,,X
-löjtnant,lieutenant,,VERB
+låtsas,pretend,,VERB
+lögn,lie,,NOUN
+löjtnant,lieutenant,,NOUN
 lösa,solve,,VERB
-löser,solves,,X
-magi,magic,,X
-major,major,,X
-make,husband,,X
-makt,power,,VERB
-mammas,mom's,,X
-mark,ground/mark,,X
-marken,the ground,,X
-massor,lots,,X
-match,match,,X
-matchen,the match,,X
-maten,the food,,X
-matt,mat/exhausted,,VERB
-max,max,,X
-meddelande,message,,VERB
-menade,meant,,VERB
-meningen,the meaning/sentence,,X
-meter,meter,,X
-middagen,the dinner,,X
-mil,mile,,X
-miljon,million,,X
-minnas,remember,,X
-minne,memory,,X
-minnen,memories,,X
-minst,least,,VERB
-minsta,smallest,,VERB
-missade,missed,,VERB
-missar,misses,,X
-misstänkt,suspect/suspicious,,VERB
-mobil,mobile/phone,,X
-monster,monster,,X
-mordet,the murder,,VERB
-morgonen,the morning,,X
-mormor,grandmother,,X
-morse,this morning,,X
-munnen,the mouth,,X
-musik,music,,X
-männen,the men,,X
-människorna,the people,,VERB
-märkligt,strange,,VERB
-mål,goal/target,,X
-målet,the goal/target,,VERB
+magi,magic,,NOUN
+make,husband,,NOUN
+makt,power,,NOUN
+mammas,mom's,,NOUN
+mark,ground/mark,,NOUN
+match,match,,NOUN
+matt,mat/exhausted,,NOUN
+max,max,,NOUN
+meddelande,message,,NOUN
+meter,meter,,NOUN
+mil,mile,,NOUN
+miljon,million,,NOUN
+minnas,remember,,VERB
+minne,memory,,NOUN
+minnen,memories,,NOUN
+misstänkt,suspect/suspicious,,ADJ
+mobil,mobile/phone,,NOUN
+monster,monster,,NOUN
+mormor,grandmother,,NOUN
+morse,this morning,,NOUN
+musik,music,,NOUN
+männen,the men,,NOUN
+mål,goal/target,,NOUN
 möjlighet,possibility/option,,NOUN
-mördade,murdered,,VERB
-mördare,murderer,,X
-mördaren,the murderer,,X
-mörkret,the darkness,,VERB
-mörkt,dark,,VERB
-möte,meeting,,X
-mötet,the meeting,,VERB
-namnet,the name,,VERB
-naturligtvis,naturally,,X
-ned,down,,X
-nervös,nervous,,X
-noga,carefully,,VERB
-normalt,normally,,VERB
-nyckeln,the key,,X
-nycklarna,the keys,,VERB
-nyheter,news,,X
-nyheterna,the news,,VERB
-nyligen,recently,,X
-nyss,recently,,X
-nytta,use/benefit,,VERB
-nämnde,mentioned,,VERB
-närheten,the vicinity,,X
-närmar,approaches,,X
-närmare,closer,,X
-nåd,grace,,X
-någonstans,somewhere,,X
-nånstans,somewhere,,X
-nånting,something,,X
-når,reaches,,X
-nöjd,satisfied,,X
-nöje,pleasure,,X
-oavsett,regardless,,VERB
-offer,victim,,X
-offret,the victim,,VERB
-olycka,accident,,VERB
-ombord,on board,,X
-omedelbart,immediately,,VERB
-omkring,around,,X
-område,area,,VERB
-området,the area,,VERB
-omöjligt,impossible,,VERB
-onda,evil(pl),,VERB
-ordentligt,properly,,VERB
-ordet,the word,,VERB
+mördare,murderer,,NOUN
+möte,meeting,,NOUN
+naturligtvis,naturally,,ADV
+ned,down,,ADV
+nervös,nervous,,ADJ
+noga,carefully,,ADV
+normalt,normally,,ADV
+nyligen,recently,,ADV
+nyss,recently,,ADV
+nytta,use/benefit,,NOUN
+nåd,grace,,NOUN
+någonstans,somewhere,,ADV
+nånstans,somewhere,,ADV
+nånting,something,,PRON
+nöjd,satisfied,,ADJ
+nöje,pleasure,,NOUN
+oavsett,regardless,,ADV
+offer,victim,,NOUN
+offret,the victim,,NOUN
+olycka,accident,,NOUN
+ombord,on board,,ADV
+omedelbart,immediately,,ADV
+omkring,around,,ADV
+område,area,,NOUN
+ordentligt,properly,,ADV
 ordna,arrange,,VERB
-ordnar,arranges,,X
 ordning,order,,NOUN
-orkar,have strength,,X
-oroar,worries,,X
-orsak,cause,,X
+orkar,have strength,,VERB
+oroar,worries,,VERB
+orsak,cause,,NOUN
 oskyldig,innocent,,ADJ
-pa,dad/pascal,,ADP
-pappas,dad's,,X
-partner,partner,,X
+pa,dad/pascal,,INTJ
+pappas,dad's,,NOUN
+partner,partner,,NOUN
 passa,fit/suit,,VERB
-passar,fits/suits,,X
-per,per,,X
-personen,the person,,X
-personer,people/persons,,X
-pistol,gun,,X
-pistolen,the gun,,X
-planen,the plan,,X
-planer,plans,,X
-planet,the planet,,VERB
-platsen,the place,,X
-platser,places,,X
-plötsligt,suddenly,,VERB
-pojkar,boys,,X
-pojken,the boy,,X
-poliser,police(pl),,X
-position,position,,X
-poäng,point,,X
-pratat,talked,,VERB
-present,gift,,VERB
+per,per,,ADP
+pistol,gun,,NOUN
+plötsligt,suddenly,,ADV
+position,position,,NOUN
+poäng,point,,NOUN
+present,gift,,NOUN
 presentera,present,,VERB
-president,president,,VERB
-presidenten,the president,,X
-pris,price,,X
-priset,the price,,VERB
-privat,private,,VERB
-problemet,the problem,,VERB
-procent,percent,,VERB
+president,president,,NOUN
+pris,price,,NOUN
+privat,private,,ADJ
+procent,percent,,NOUN
 prova,try,,VERB
-pågår,is going on,,X
-påminner,reminds,,X
-rakt,straight,,VERB
-raring,darling,,X
-regeringen,the government,,X
-regler,rules,,X
-reglerna,the rules,,VERB
-rena,pure/clean,,VERB
-rent,cleanly/pure,,VERB
-resan,the journey/trip,,X
-reser,travels/rises,,X
-respekt,respect,,VERB
-riktiga,real(pl),,VERB
-ringt,rung/called,,VERB
-rom,rum/Rome,,X
-ryggen,the back,,X
+pågår,is going on,,VERB
+raring,darling,,NOUN
+rena,pure/clean,,ADJ
+respekt,respect,,NOUN
+rom,rum/Rome,,PROPN
 räddade,saved,,VERB
-rädsla,fear,,VERB
+rädsla,fear,,NOUN
 räkna,count,,VERB
-räknar,counts,,X
-rätta,correct,,VERB
-rätten,the court/the right,,X
-röda,red(pl),,VERB
+rätta,correct,,ADJ
 röra,move/touch,,VERB
-röst,voice,,VERB
-sade,said,,VERB
+röst,voice,,NOUN
 sakna,miss,,VERB
-saknas,is missing,,X
-sakta,slowly,,VERB
+sakta,slowly,,ADV
 samla,gather,,VERB
-samman,together,,X
-samtalet,the conversation,,VERB
-samtidigt,simultaneously,,VERB
+samman,together,,ADV
+samtidigt,simultaneously,,ADV
 sanning,truth,,NOUN
-satte,put,,X
-sekunder,seconds,,X
-semester,vacation,,X
-senast,latest,,VERB
-sergeant,sergeant,,VERB
-sheriffen,the sheriff,,X
-sist,last,,VERB
-situation,situation,,X
-situationen,the situation,,X
-sjukhuset,the hospital,,VERB
-själ,soul,,X
-självmord,suicide,,X
-skadad,injured,,X
-skadade,injured,,VERB
+semester,vacation,,NOUN
+senast,latest,,ADV
+sergeant,sergeant,,NOUN
+sist,last,,ADV
+situation,situation,,NOUN
+själ,soul,,NOUN
+självmord,suicide,,NOUN
+skadad,injured,,ADJ
 skaffa,get/acquire,,VERB
-skallen,the skull,,X
 skapa,create,,VERB
-skapade,created,,VERB
-skapar,creates,,X
-ske,happen,,X
-skepp,ship,,X
-skeppet,the ship,,VERB
-sker,happens,,X
-skickar,sends,,X
-skickat,sent,,VERB
-skillnad,difference,,X
-skiten,the shit,,X
-skiter,doesn't care/shits,,X
-skitsnack,bullshit,,X
-skitstövel,bastard,,X
-skjut,shoot,,VERB
-skjuten,shot,,X
-skjuter,shoots,,X
-skogen,the forest,,X
-skojar,jokes/kids,,X
-skott,shot,,VERB
-skrattar,laughs,,X
-skriv,write!,,X
-skrivit,written,,VERB
-skrämde,scared,,VERB
-skrämmer,scares,,X
-skuld,guilt/debt,,X
-skydd,protection,,X
-skyddar,protects,,X
-skäl,reason,,X
-skämt,joke,,VERB
-skämtar,jokes,,X
-skär,cut/screen,,X
-skål,cheers/bowl,,X
-skönt,nice/comfortable,,VERB
+ske,happen,,VERB
+skepp,ship,,NOUN
+skillnad,difference,,NOUN
+skitsnack,bullshit,,NOUN
+skitstövel,bastard,,NOUN
+skjuten,shot,,ADJ
+skott,shot,,NOUN
+skuld,guilt/debt,,NOUN
+skydd,protection,,NOUN
+skäl,reason,,NOUN
+skämt,joke,,NOUN
+skål,cheers/bowl,,NOUN
+skönt,nice/comfortable,,ADJ
 sköta,manage/tend,,VERB
-sköter,manages/tends,,X
-slag,blow/beat,,X
-slags,kinds/of sorts,,X
+slag,blow/beat,,NOUN
 slappna,relax,,VERB
 slippa,avoid/escape,,VERB
-slipper,gets away with,,X
-slutade,ended,,VERB
-slutat,stopped/ended,,VERB
-slutet,the end,,VERB
+slutet,the end,,ADJ
 släppa,release/let go,,VERB
-släpper,releases,,X
-släppte,released,,X
-smärta,pain,,VERB
-snabbare,faster,,X
+smärta,pain,,NOUN
 snacka,talk,,VERB
-snackar,talks/chats,,X
-snygg,good-looking,,X
-snyggt,nicely/good-looking,,VERB
-snällt,kindly,,VERB
-soldat,soldier,,VERB
-soldater,soldiers,,X
-solen,the sun,,X
-sorts,kind/sort,,X
-sov,slept,,X
-sover,sleeps,,X
-sparken,the kick/fired,,X
-speciell,special,,X
-speciellt,especially,,VERB
-spel,game/play,,X
-spelade,played,,VERB
-spelet,the game,,VERB
-sprang,ran,,X
+snygg,good-looking,,ADJ
+soldat,soldier,,NOUN
+speciell,special,,ADJ
+speciellt,especially,,ADV
+spel,game/play,,NOUN
+sprang,ran,,VERB
 springa,run,,VERB
-springer,runs,,X
-spännande,exciting,,VERB
-spår,track/trace,,X
+spännande,exciting,,ADJ
+spår,track/trace,,NOUN
 spåra,track,,VERB
-stack,stuck/leave,,X
-stackars,poor/wretched,,X
-staden,the city,,X
-stal,stole,,X
-stannade,stayed,,VERB
-starka,strong(pl),,VERB
-starkare,stronger,,X
+stack,stuck/leave,,VERB
+stal,stole,,NOUN
 starta,start,,VERB
-stationen,the station,,X
-steg,stepped/rose,,X
+steg,stepped/rose,,NOUN
 sticka,stick/knit,,VERB
-stilla,quiet/still,,VERB
+stilla,quiet/still,,ADJ
 stjäla,steal,,VERB
-stolt,proud,,VERB
-stopp,stop,,X
-stranden,the beach,,X
-strid,battle,,X
-struntar,doesn't care,,X
-stycken,pieces,,X
-styrka,strength,,VERB
-ställ,put!,,X
-ställer,puts/asks,,X
-stäng,close,,X
-stänger,closes,,X
-stöd,support,,X
-stör,disturbs,,X
-största,biggest,,VERB
-suger,sucks,,X
-svarade,answered,,VERB
-svarar,answers,,X
-svaret,the answer,,VERB
-svarta,black(pl),,VERB
-svin,swine,,X
-svär,swears,,X
-syns,is visible,,X
-sysslar,is busy with,,X
-systemet,the system,,VERB
+stolt,proud,,ADJ
+stopp,stop,,NOUN
+strid,battle,,NOUN
+stycken,pieces,,NOUN
+styrka,strength,,NOUN
+stöd,support,,NOUN
+svarta,black(pl),,ADJ
+svin,swine,,NOUN
+sysslar,is busy with,,VERB
 säkerhet,security,,NOUN
-säkra,secure,,VERB
-säljer,sells,,X
 sällskap,company,,NOUN
-sängen,the bed,,X
-särskilt,especially,,VERB
-sättet,the way,,VERB
-sådan,such,,X
-sådana,such(pl),,VERB
-sådant,such,,VERB
-sådär,like that,,X
-sålde,sold,,VERB
-sönder,broken,,X
-sötnos,sweetheart,,X
-tackar,thanks,,X
-taget,taken,,VERB
-taket,the roof/ceiling,,VERB
-tal,speech/number,,X
-talade,spoke,,VERB
-talas,be spoken,,X
-talat,spoken,,VERB
-tankar,thoughts,,X
-tanke,thought,,X
-tanken,the thought,,X
-tappade,lost/dropped,,VERB
-tappat,lost,,VERB
-taxi,taxi,,X
-team,team,,X
-tecken,sign,,X
-telefonen,the phone,,X
+särskilt,especially,,ADV
+sådan,such,,ADJ
+sådana,such(pl),,PRON
+sådant,such,,PRON
+sådär,like that,,ADV
+sönder,broken,,ADV
+sötnos,sweetheart,,NOUN
+taket,the roof/ceiling,,NOUN
+tal,speech/number,,NOUN
+talat,spoken,,ADJ
+tanke,thought,,NOUN
+taxi,taxi,,NOUN
+team,team,,NOUN
+tecken,sign,,NOUN
 testa,test,,VERB
-text,text,,VERB
-tidigt,early,,VERB
-tidningen,the newspaper,,X
-tillbaks,back,,X
-tillfälle,occasion,,X
-tillgång,access/resource,,X
-tillhör,belongs,,X
-tillstånd,state/condition,,X
-titt,look/now and then,,VERB
-tittade,looked,,VERB
-tjejen,the girl,,X
-tjejer,girls,,X
+text,text,,NOUN
+tidigt,early,,ADV
+tillbaks,back,,ADV
+tillfälle,occasion,,NOUN
+tillgång,access/resource,,NOUN
+tillstånd,state/condition,,NOUN
+titt,look/now and then,,NOUN
 tjena,hi/serve,,VERB
 tjäna,serve/earn,,VERB
-tjänar,earns/serves,,X
-toaletten,the toilet,,X
 tokig,crazy,,ADJ
-tredje,third,,X
+tredje,third,,ADJ
 trevlig,nice,,ADJ
-troligen,probably,,X
-trots,despite,,X
-tryck,press/pressure,,X
-träffades,was met/met,,X
-träffar,meets,,X
-träffat,met,,VERB
-tråkigt,boring/sad,,VERB
-tuff,tough,,X
-tusan,the devil,,X
-tusentals,thousands,,X
+troligen,probably,,ADV
+trots,despite,,ADP
+tryck,press/pressure,,NOUN
+tuff,tough,,ADJ
+tusan,the devil,,NOUN
+tusentals,thousands,,NOUN
 tvinga,force,,VERB
 tycka,think/opine,,VERB
-tycks,seems,,X
-tydligen,apparently,,X
-tänder,lights/teeth,,X
-tåget,the train,,VERB
-umgås,associate/hang out,,X
+tydligen,apparently,,ADV
+umgås,associate/hang out,,VERB
 underbar,wonderful,,ADJ
-underbart,wonderful,,VERB
-undrade,wondered,,VERB
-unga,young(pl),,VERB
-ungar,kids,,X
-unge,youngster/boy,,X
-ungefär,approximately,,X
-uppdrag,mission,,X
-uppdraget,the mission,,VERB
+ungar,kids,,NOUN
+ungefär,approximately,,ADV
+uppdrag,mission,,NOUN
 uppfattat,perceived,,VERB
 uppmärksamhet,attention,,NOUN
-upprörd,upset,,X
-uppskattar,appreciates,,X
-upptagen,busy/taken,,X
-utmärkt,excellent,,VERB
-utom,except,,X
-vackert,beautifully,,VERB
-vackra,beautiful(pl),,VERB
-vaken,awake,,X
-vaknar,wakes up,,X
-valde,chose,,VERB
-van,accustomed,,X
+upprörd,upset,,ADJ
+upptagen,busy/taken,,ADJ
+utmärkt,excellent,,ADJ
+utom,except,,ADP
+vaken,awake,,ADJ
+van,accustomed,,INTJ
 vanlig,common/usual,,ADJ
-vanliga,ordinary(pl),,VERB
-vanligt,usual,,VERB
-vann,won,,X
-vapnet,the weapon,,VERB
-varann,each other,,X
-vare,were/be,,X
-varenda,every,,VERB
-varken,neither,,X
-varmt,warmly,,VERB
-vattnet,the water,,VERB
-veckan,the week,,X
-velat,wanted,,VERB
-vems,whose,,X
-verkade,seemed,,VERB
-vetat,known,,VERB
-via,via,,VERB
-viktiga,important(pl),,VERB
-viktigaste,most important,,X
-vila,rest,,VERB
+varann,each other,,PRON
+vare,were/be,,INTJ
+varenda,every,,PRON
+varken,neither,,CCONJ
+via,via,,ADV
+vila,rest,,NOUN
 vinna,win,,VERB
-vinner,wins,,X
-vis,wise,,X
-visade,showed,,VERB
-vita,white(pl),,VERB
-väggen,the wall,,X
-vägrar,refuses,,X
-väljer,chooses,,X
+vis,wise,,NOUN
 välkomna,welcome(pl),,VERB
-vänd,turn,,X
+vänd,turn,,ADJ
 vända,turn,,VERB
-vänster,left,,X
-väntade,waited,,VERB
-väntat,waited,,VERB
-värd,host/worth,,X
-världens,the world's,,X
-värsta,worst,,VERB
-värt,worth,,VERB
-väska,bag,,VERB
-väskan,the bag,,X
-växer,grows,,X
-växte,grew,,X
-vågar,dares,,X
-våld,violence,,X
-äger,owns,,X
-äkta,genuine/real,,VERB
+vänster,left,,NOUN
+väntat,waited,,ADJ
+värd,host/worth,,ADJ
+väska,bag,,NOUN
+våld,violence,,NOUN
+äkta,genuine/real,,ADJ
 äktenskap,marriage,,NOUN
-äldre,older,,X
 älska,love,,VERB
-ända,end/only,,VERB
+ända,end/only,,ADV
 ändra,change,,VERB
-äntligen,finally,,X
-ära,honor,,VERB
+äntligen,finally,,ADV
+ära,honor,,NOUN
 ärlig,honest,,ADJ
-ärligt,honestly,,VERB
-ät,eat!,,VERB
-ätit,eaten,,VERB
-åk,go/travel!,,X
-åkt,traveled,,VERB
-åren,the years,,X
-året,the year,,VERB
-års,year's,,X
+ärligt,honestly,,ADV
+åk,go/travel!,,VERB
 återvända,return,,VERB
-återvänder,returns,,X
-åtminstone,at least,,X
-öde,desolate/fate,,VERB
-ögonen,the eyes,,X
-ön,the island,,X
-öppen,open,,X
-öppet,open,,VERB
-öppnar,opens,,X
-överens,agreed,,X
+åtminstone,at least,,ADV
+öde,desolate/fate,,NOUN
+ön,the island,,NOUN
+öppen,open,,ADJ
+öppet,open,,ADV
+överens,agreed,,ADV
 överleva,survive,,VERB
-överlever,survives,,X
 överraskning,surprise,,NOUN
-överste,colonel,,X
+överste,colonel,,NOUN
 översättning,translation,,NOUN
 acceptera,accept,,VERB
-accepterar,accepts,,X
-accepterat,accepted,,VERB
+accepterat,accepted,,ADJ
 adoptera,adopt,,VERB
-adressen,the address,,X
-advokaten,the lawyer,,X
-advokater,lawyers,,X
-affärerna,the businesses,,VERB
-afrika,Africa,,VERB
-afton,evening,,X
-agenter,agents,,X
+afrika,Africa,,NOUN
+afton,evening,,NOUN
 agera,act,,VERB
-ah,ah,,X
-al,al,,X
-alarm,alarm,,X
-album,album,,X
-alfa,alpha,,VERB
-alibi,alibi,,X
-alkohol,alcohol,,X
-allas,everyone's,,X
-allierade,allies,,VERB
-allmänt,generally,,VERB
-allra,most,,VERB
-alltför,too/excessively,,X
+ah,ah,,INTJ
+al,al,,INTJ
+alarm,alarm,,NOUN
+album,album,,NOUN
+alfa,alpha,,NOUN
+alibi,alibi,,NOUN
+alkohol,alcohol,,NOUN
+allas,everyone's,,NOUN
+allierade,allies,,ADJ
+allmänt,generally,,ADV
+allra,most,,ADV
+alltför,too/excessively,,ADV
 allvarlig,serious,,ADJ
-alternativ,alternative,,X
-am,am,,X
-ambulans,ambulance,,X
-amen,amen,,X
-amerikan,American,,X
-amerikaner,Americans,,X
+alternativ,alternative,,NOUN
+am,am,,VERB
+ambulans,ambulance,,NOUN
+amerikaner,Americans,,NOUN
 amerikansk,American,,ADJ
-ammunition,ammunition,,X
+ammunition,ammunition,,NOUN
 ana,suspect/sense,,VERB
-anar,suspect/sense,,X
-and,duck,,X
-ande,spirit,,VERB
-andel,share/proportion,,X
-andetag,breath,,X
-andras,others',,X
-andre,Andrew/other,,X
-anfall,attack,,X
-angår,concerns,,X
-anhöriga,relatives,,VERB
-anledningen,the reason,,X
-anläggningen,the facility,,X
+and,duck,,INTJ
+ande,spirit,,NOUN
+andel,share/proportion,,NOUN
+andetag,breath,,NOUN
+andras,others',,PRON
+anfall,attack,,NOUN
+anhöriga,relatives,,ADJ
+anläggningen,the facility,,NOUN
 anmäla,report,,VERB
-annans,someone else's,,X
-annanstans,elsewhere,,X
-ansikten,faces,,X
-anställda,employees,,VERB
-ansvaret,the responsibility,,VERB
+annans,someone else's,,PRON
+annanstans,elsewhere,,NOUN
+ansikten,faces,,NOUN
+anställda,employees,,NOUN
 anta,assume,,VERB
-antal,number/quantity,,X
-antog,assumed,,X
-användas,be used,,X
-används,is used,,X
-använt,used,,VERB
-apa,monkey/ape,,VERB
-arbetade,worked,,VERB
-arbetarna,the workers,,VERB
-arbetat,worked,,VERB
-arbetet,the work,,VERB
-arga,angry(pl),,VERB
-arkiv,archive,,X
-armar,arms,,X
-armarna,the arms,,VERB
-armband,bracelet,,X
-armen,the arm,,X
-arsle,ass,,X
-arslet,the ass,,VERB
-art,kind/species,,VERB
-artikel,article,,X
-artiklar,articles,,X
-artist,artist,,VERB
-as,ace/carcass,,X
-askan,the ash,,X
-assistent,assistant,,VERB
-at,at,,VERB
-attack,attack,,X
-attacken,the attack,,X
-attackerade,attacked,,VERB
-attjag,that I,,X
+antal,number/quantity,,NOUN
+apa,monkey/ape,,NOUN
+arga,angry(pl),,ADJ
+arkiv,archive,,NOUN
+armband,bracelet,,NOUN
+arsle,ass,,NOUN
+art,kind/species,,NOUN
+artikel,article,,NOUN
+artist,artist,,NOUN
+as,ace/carcass,,VERB
+assistent,assistant,,NOUN
+attack,attack,,NOUN
+attjag,that I,,NOUN
 avbryta,interrupt,,VERB
 avdelning,department,,NOUN
-avgör,decides,,X
 avgöra,decide/determine,,VERB
 avrättning,execution,,NOUN
-avsikt,intention,,VERB
-avsiktligt,intentionally,,VERB
-avskyr,detests,,X
-australien,Australia,,X
-autograf,autograph,,X
-automatiskt,automatically,,VERB
-avancerad,advanced,,X
-avancerade,advanced,,VERB
-avbryt,interrupt!,,VERB
-avbryter,interrupts,,X
-avbröt,interrupted,,VERB
-avdelningen,the department,,X
-avenue,avenue,,X
+avsikt,intention,,NOUN
+avsiktligt,intentionally,,ADV
+avskyr,detests,,VERB
+australien,Australia,,NOUN
+autograf,autograph,,NOUN
+automatiskt,automatically,,ADV
+avancerad,advanced,,ADJ
+avbryt,interrupt!,,NOUN
+avenue,avenue,,NOUN
 avfyra,fire,,VERB
-avgjort,decided/settled,,VERB
-avgudar,idols,,X
-avgå,step down,,X
-avgår,departs/resigns,,X
-avgörande,decisive,,VERB
+avgjort,decided/settled,,ADV
+avgudar,idols,,NOUN
+avgå,step down,,VERB
+avgörande,decisive,,ADJ
 avlägsna,remove,,VERB
 avrätta,execute,,VERB
-avrättas,be executed,,X
-avsikter,intentions,,X
-avsked,farewell,,X
+avsked,farewell,,NOUN
 avskeda,dismiss/fire,,VERB
-avskedad,fired,,X
-avskum,scum,,X
-avskydde,despised,,VERB
-avslappnad,relaxed,,X
-avslutade,finished,,VERB
-avslutat,finished,,VERB
-avslöjade,revealed,,VERB
-avslöjas,be revealed,,X
-avstå,refrain,,X
-avståndet,the distance,,VERB
-avtryck,trigger/imprint,,X
+avskedad,fired,,ADJ
+avskum,scum,,NOUN
+avslappnad,relaxed,,ADJ
+avslutat,finished,,ADJ
+avstå,refrain,,VERB
+avtryck,trigger/imprint,,NOUN
 avvakta,wait,,VERB
-axeln,the shoulder,,X
-axlar,shoulders,,X
-axlarna,the shoulders,,VERB
-babyn,the baby,,X
-backar,backs,,X
-backarna,the slopes,,VERB
-bacon,bacon,,X
-badar,bathes,,X
-badkaret,the bathtub,,VERB
-bagage,luggage,,X
-bakdörren,the back door,,X
-baken,the butt,,X
-bakgrund,background,,X
-bakgrunden,the background,,X
-bakhåll,ambush,,X
-bakifrån,from behind,,X
-bakluckan,the trunk(the car,,X
-baklänges,backwards,,X
-bakre,rear,,X
-baksätet,the back seat,,VERB
-bakvägen,the back way,,X
-bal,ball,,X
-balans,balance,,X
-balansen,the balance,,X
-balen,the ball(the dance,,X
-ballar,balls,,X
-bana,track/path,,VERB
-banden,the bands/the tapes,,X
-banker,banks,,X
-barndom,childhood,,X
-barnens,the children's,,X
-barnets,the child's,,X
-barns,children's,,X
+axlar,shoulders,,NOUN
+axlarna,the shoulders,,NOUN
+babyn,the baby,,NOUN
+backar,backs,,NOUN
+backarna,the slopes,,NOUN
+bacon,bacon,,NOUN
+badkaret,the bathtub,,NOUN
+bagage,luggage,,NOUN
+bakdörren,the back door,,NOUN
+bakgrund,background,,NOUN
+bakhåll,ambush,,NOUN
+bakifrån,from behind,,ADV
+bakluckan,the trunk(the car,,NOUN
+baklänges,backwards,,ADV
+baksätet,the back seat,,NOUN
+bakvägen,the back way,,NOUN
+bal,ball,,NOUN
+balans,balance,,NOUN
+bana,track/path,,NOUN
+barndom,childhood,,NOUN
 barnslig,childish,,ADJ
-baron,baron,,X
-bart,just/only,,VERB
-bartender,bartender,,X
-bartendern,the bartender,,X
-bas,base,,X
-baseball,baseball,,X
-baseboll,baseball,,X
-baserad,based,,X
-baserat,based,,VERB
-basket,basketball,,VERB
-batteri,battery,,X
-batterier,batteries,,X
-batteriet,the battery,,VERB
-bebisar,babies,,X
-bebisen,the baby,,X
-bedragare,deceiver/swindler,,X
-bedrog,deceived,,X
-bedrägeri,fraud,,X
+bart,just/only,,ADV
+bartender,bartender,,NOUN
+bartendern,the bartender,,NOUN
+bas,base,,NOUN
+baseball,baseball,,NOUN
+baseboll,baseball,,NOUN
+baserad,based,,ADJ
+batteri,battery,,NOUN
+batterier,batteries,,NOUN
+bedragare,deceiver/swindler,,NOUN
+bedrägeri,fraud,,NOUN
 bedöma,assess,,VERB
 bedömning,assessment,,NOUN
-befaller,commands,,X
-befann,found(was located),,X
-befolkningen,the population,,X
-befordrad,promoted,,X
-befordran,promotion,,X
-befriade,liberated,,VERB
-befälet,the command,,VERB
-befälhavare,commander,,X
-befälhavaren,the commander,,X
-bege,embark,,X
-begravd,buried,,X
-begravde,buried,,VERB
-begraver,buries,,X
-begriper,understands,,X
+befaller,commands,,VERB
+befann,found(was located),,VERB
+befolkningen,the population,,NOUN
+befordrad,promoted,,ADJ
+befordran,promotion,,NOUN
+befriade,liberated,,ADJ
+befälhavare,commander,,NOUN
+bege,embark,,VERB
+begravd,buried,,ADJ
+begriper,understands,,VERB
 begränsa,limit,,VERB
-begränsad,limited,,X
+begränsad,limited,,ADJ
 begära,request,,VERB
-begäran,request,,X
-begärt,requested,,VERB
-begår,commits,,X
-begåvad,gifted,,X
-behandlade,treated,,VERB
-behandlas,is treated,,X
-behandlat,treated,,VERB
-behandlingen,the treatment,,X
-behöll,kept,,X
-behövas,be needed,,X
-behövdes,was needed,,X
-bekanta,acquaintance(s,,VERB
-bekräftade,confirmed,,VERB
-bekräftar,confirms,,X
-bekräftat,confirmed,,VERB
-bekväm,comfortable,,X
-bekvämt,comfortably,,VERB
+begäran,request,,NOUN
+begärt,requested,,ADJ
+begåvad,gifted,,ADJ
+behandlade,treated,,ADJ
+behandlat,treated,,ADJ
+bekräftade,confirmed,,ADJ
+bekräftat,confirmed,,ADJ
+bekväm,comfortable,,ADJ
 bekymra,worry,,VERB
-bekymrad,worried,,X
-bekymrar,worries,,X
+bekymrad,worried,,ADJ
 bekämpa,combat,,VERB
 bekännelse,confession,,NOUN
-belöningen,the reward,,X
 beordrade,ordered,,VERB
-beordrar,orders,,X
+beordrar,orders,,VERB
 beredskap,preparedness,,NOUN
-bero,depend,,X
-berusad,drunk,,X
-berättelsen,the story,,X
-berättelser,stories,,X
-beröm,praise,,X
-berömd,famous,,X
-berömda,famous(pl),,VERB
+bero,depend,,VERB
+berusad,drunk,,ADJ
+beröm,praise,,NOUN
+berömd,famous,,ADJ

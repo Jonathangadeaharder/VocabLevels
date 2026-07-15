@@ -2,10 +2,8 @@ Dutch_Lemma,English_Lemma,Chinese_Lemma,POS
 de,the,,DET
 van,by,,ADP
 het,It,,PRON
-een,An,,NUM
 en,and,,CCONJ
 in,in,,ADP
-is,is,,AUX
 op,on,,ADP
 ik,I,,PRON
 dat,that,,PRON
@@ -30,17 +28,13 @@ uit,out,,ADP
 bij,bee,,ADP
 dan,than,,ADV
 dit,this,,PRON
-was,was,,AUX
 we,we,,PRON
 wat,what,,PRON
-heeft,has,,VERB
 of,or,,CCONJ
 over,about,,ADP
 nog,yet,,ADV
 deze,this,,PRON
 hebben,to have,,VERB
-kan,can,,VERB
-meer,more,,ADV
 zo,Like this,,ADV
 al,al,,ADV
 geen,no,,DET
@@ -48,32 +42,21 @@ mijn,mine,,PRON
 wel,well,,ADV
 tot,to,,ADP
 u,you,,PRON
-wordt,is becoming,,VERB
-heb,have,,AUX
 worden,become,,AUX
 nu,now,,ADV
 haar,her,,PRON
-ben,am,,AUX
 kunnen,be able to,,AUX
 veel,a lot of,,ADV
 jaar,year,,NOUN
 me,me,,PRON
-moet,must,,AUX
 hoe,how,,ADV
-mensen,people,,NOUN
 na,after,,ADP
 ons,us,,PRON
 waar,Where,,ADV
-werd,became,,VERB
 goed,Good,,ADJ
 gaan,to go,,VERB
-gaat,go,,VERB
-onze,our,,PRON
-wil,want to,,VERB
 zich,himself,,PRON
-zou,would,,AUX
 doen,doing,,VERB
-andere,other,,ADJ
 hier,here,,ADV
 dus,so,,ADV
 tegen,in return for,,ADP
@@ -82,17 +65,13 @@ alleen,only,,ADV
 mij,me,,PRON
 onder,under,,ADP
 1,1,,NUM
-had,had,,VERB
 hun,their,,PRON
 twee,two,,NUM
-nieuwe,new,,ADJ
 weer,weather,,ADV
 zien,to see,,VERB
-zal,shall,,AUX
 jij,you,,PRON
 moeten,must,,AUX
 eerste,first,,ADJ
-komt,comes,,VERB
 wij,We,,PRON
 echt,Real,,ADJ
 eens,at sometime,,ADV
@@ -102,7 +81,6 @@ toch,anyway,,ADV
 2,2,,NUM
 dag,day,,NOUN
 mee,along,,ADP
-staat,stands,,VERB
 alle,all,,DET
 tijd,time,,NOUN
 zij,she,,PRON
@@ -112,16 +90,13 @@ komen,come,,VERB
 leven,to live,,NOUN
 omdat,because,,SCONJ
 toen,when,,ADV
-ga,go,,VERB
 t,t,,INTJ
-waren,were,,AUX
 hem,it,,PRON
 jullie,you,,PRON
 tijdens,during the day,,ADP
 altijd,always,,ADV
 tussen,between,,ADP
 ja,Yes,,INTJ
-weet,know,,VERB
 wie,Who,,PRON
 laten,to leave,,VERB
 waarom,Why,,ADV
@@ -131,30 +106,21 @@ net,just,,ADV
 via,via,,ADP
 even,moment,,ADV
 gewoon,Ordinary,,ADJ
-grote,big,,ADJ
 man,man,,NOUN
 terug,back,,ADV
 af,off,,ADP
-laat,leave,,VERB
 zonder,without,,ADP
 uur,o'clock,,NOUN
 steeds,still,,ADV
-zie,see,,VERB
-bent,are,,AUX
 eigen,own,,ADJ
 keer,time,,NOUN
-maakt,makes,,VERB
 willen,want,,VERB
 iedereen,everyone,,PRON
 weg,away,,ADV
-hele,whole,,ADJ
 iemand,someone,,PRON
 binnen,inside,,ADP
-uw,your,,PRON
-werden,became,,AUX
 werk,work,,NOUN
 nooit,never,,ADV
-zit,sit,,VERB
 één,An,,NUM
 drie,three,,NUM
 the,the,,INTJ
@@ -162,11 +128,8 @@ zelf,yourself,,ADV
 4,4,,NUM
 aantal,number,,NOUN
 geven,give,,VERB
-hebt,have,,VERB
-kinderen,children,,NOUN
 samen,together,,ADV
 vinden,find,,VERB
-kunt,can,,AUX
 plaats,place,,NOUN
 snel,quickly,,ADJ
 toe,to,,ADP
@@ -174,26 +137,19 @@ deel,part,,NOUN
 elkaar,each other,,PRON
 huis,house,,NOUN
 laatste,last,,ADJ
-mag,may,,AUX
 nederland,The Netherlands,,PROPN
 nodig,necessary,,ADJ
 vanaf,from,,ADP
-vind,find,,VERB
 vrouw,woman,,NOUN
 weten,know,,VERB
-doet,do,,VERB
 krijgen,to get,,VERB
 m,m,,SYM
 want,because,,CCONJ
 allemaal,all,,ADV
-beter,better,,ADJ
 erg,terribly,,ADJ
 staan,to stand,,VERB
 zeggen,say,,VERB
 5,5,,NUM
-zegt,say,,VERB
-denk,think,,VERB
-gemaakt,made,,VERB
 land,country,,NOUN
 naam,name,,NOUN
 zeker,Certainly,,ADJ
@@ -203,132 +159,92 @@ stad,city,,NOUN
 verschillende,different,,ADJ
 volgens,according to,,ADP
 anders,otherwise,,ADV
-goede,good,,ADJ
 houden,keep,,VERB
-volgende,next,,VERB
 blijven,to stay,,VERB
 graag,Please,,ADV
 jou,you,,PRON
-kwam,came,,VERB
-verder,further,,ADJ
 wanneer,when,,ADV
-beste,best,,ADJ
 lang,long,,ADJ
 niets,nothing,,PRON
 per,per,,ADP
 vandaag,Today,,ADV
-vragen,to ask,,NOUN
 werken,work,,VERB
-dagen,to dawn,,NOUN
 eerst,first,,ADV
 elke,each,,DET
 s,s,,INTJ
 vraag,ask,,NOUN
 zelfs,even,,ADV
-gebruikt,used,,VERB
-gezien,seen,,VERB
-ging,went,,VERB
 nee,no,,INTJ
 wereld,world,,NOUN
 a,a,,CCONJ
 helemaal,absolutely,,ADV
-jaren,years,,NOUN
-kom,come,,VERB
-lijkt,seems,,VERB
 paar,couple,,NOUN
-doe,do,,VERB
 foto,photo,,NOUN
 geld,money,,NOUN
-kijk,look,,VERB
 vooral,mainly,,ADV
 leuk,nice,,ADJ
 nemen,to take,,VERB
 vaak,often,,ADJ
 achter,behind,,ADP
-gedaan,done,,VERB
 groot,big,,ADJ
 natuurlijk,Naturally,,ADJ
 sinds,since,,ADP
 zo'n,Sun,,PRON
 bijna,almost,,ADV
-geeft,gives,,VERB
 kijken,to look,,VERB
 mooi,Nice,,ADJ
 ten,at,,ADP
 week,week,,NOUN
 6,6,,NUM
 dood,dead,,ADJ
-hadden,had,,VERB
 familie,family,,NOUN
-kon,could,,AUX
-nieuws,news,,ADJ
 rond,around,,ADP
 website,website,,NOUN
-wilt,want,,VERB
 zitten,to sit,,VERB
-jouw,your,,PRON
-kleine,small,,ADJ
 online,online,,NOUN
 moment,moment,,NOUN
 tweede,second,,ADJ
-vrouwen,women,,NOUN
 7,7,,NUM
-ligt,is,,VERB
 manier,way,,NOUN
 politie,Police,,NOUN
-welke,which one,,PRON
 buiten,outside,,ADP
 enkele,a few,,PRON
 geleden,past,,ADV
-geweest,been,,AUX
-kun,can,,AUX
 water,water,,NOUN
-zei,said,,VERB
 8,8,,NUM
 eten,to eat,,VERB
 klaar,finished,,ADJ
-mannen,men,,NOUN
 nieuw,new,,ADJ
-oude,old,,ADJ
 september,September,,PROPN
 ter,ter,,ADP
 denken,think,,VERB
 echter,however,,ADV
-enige,only one,,PRON
 gebruik,usage,,NOUN
 helpen,to help,,VERB
 hoop,heap,,NOUN
 men,men,,PRON
-minder,fewer,,ADV
 nou,Well,,ADV
 open,Open,,ADJ
 beetje,bit,,NOUN
 bekend,known,,ADJ
-dingen,things,,NOUN
 genoeg,enough,,ADV
 groep,group,,NOUN
 later,later,,ADJ
 maart,March,,PROPN
 mogelijk,possible,,ADJ
-ziet,sees,,VERB
 auto,auto,,NOUN
 school,school,,NOUN
 soms,sometimes,,ADV
 thuis,At home,,ADV
-den,pine,,DET
 film,film,,NOUN
 gebruiken,to use,,VERB
-krijgt,gets,,VERB
-mooie,nice,,ADJ
 niks,nothing,,PRON
 spelen,to play,,VERB
 zoek,search,,ADJ
-blijft,stays,,VERB
 hen,them,,PRON
 onderzoek,research,,NOUN
 terwijl,while,,SCONJ
 vier,four,,NUM
-zeg,say,,VERB
 zorgen,to assure,,VERB
 eigenlijk,actually,,ADJ
 informatie,information,,NOUN
@@ -336,30 +252,22 @@ pas,pass,,ADV
 waarin,in which,,ADV
 amsterdam,Amsterdam,,PROPN
 april,April,,PROPN
-nederlandse,Dutch,,ADJ
 probleem,problem,,NOUN
 vanuit,from,,ADP
 video,video,,NOUN
-vindt,finds,,VERB
-zouden,would,,AUX
-maak,make,,VERB
 n,n,,INTJ
 ooit,ever,,ADV
 soort,kind,,NOUN
 vader,father,,NOUN
 vast,fixed,,ADJ
-vrienden,friends,,NOUN
 zeer,very,,ADV
 zuid,south,,ADJ
 9,9,,NUM
 artikel,article,,NOUN
 begin,start,,NOUN
 gebied,area,,NOUN
-moest,had to,,AUX
 vrij,free,,ADJ
-werkt,works,,VERB
 zodat,so that,,SCONJ
-amerikaanse,American,,ADJ
 best,best,,ADJ
 daarom,that's why,,ADV
 idee,idea,,NOUN
@@ -369,26 +277,19 @@ ongeveer,about,,ADV
 regio,region,,NOUN
 vijf,five,,NUM
 boven,above,,ADP
-der,der,,DET
 e,e,,INTJ
-foto's,photos,,NOUN
 niemand,no one,,PRON
 oktober,October,,PROPN
 verhaal,story,,NOUN
 brengen,to take,,VERB
 eerder,earlier,,ADJ
 kans,chance,,NOUN
-meest,most,,ADV
 d,d,,INTJ
-grootste,largest,,ADJ
 hand,hand,,NOUN
 horen,to belong,,VERB
 november,November,,PROPN
 opnieuw,again,,ADV
 ander,other,,ADJ
-bestaat,consists,,VERB
-echte,real,,ADJ
-kreeg,got,,VERB
 meisje,girl,,NOUN
 muziek,music,,NOUN
 naast,next to,,ADP
@@ -400,21 +301,16 @@ daarna,then,,ADV
 duidelijk,clearly,,ADJ
 hoofd,head,,NOUN
 kind,child,,NOUN
-minuten,minutes,,NOUN
 vond,found,,VERB
 wachten,to wait,,VERB
 zorg,concern,,NOUN
 zowel,both,,CCONJ
 boek,book,,NOUN
 dank,thanks,,NOUN
-gehad,had,,VERB
 gemeente,local authority,,NOUN
 gratis,free,,ADJ
 hoor,tho,,INTJ
-hou,love,,VERB
 lekker,Tasty,,ADJ
-maanden,months,,NOUN
-problemen,problems,,NOUN
 team,team,,NOUN
 vroeg,asked,,VERB
 weinig,few,,ADV
@@ -422,7 +318,6 @@ belangrijk,important,,ADJ
 blij,pleased,,ADJ
 druk,Busy,,NOUN
 gelijk,directly,,ADJ
-houdt,holds,,VERB
 lopen,to walk,,VERB
 mogen,to be allowed to,,VERB
 oud,old,,ADJ
@@ -430,7 +325,6 @@ precies,precisely,,ADJ
 vol,full,,ADJ
 afgelopen,last,,VERB
 beginnen,start,,VERB
-betekent,means,,VERB
 december,December,,PROPN
 dezelfde,same,,ADJ
 geval,case,,NOUN
@@ -440,16 +334,12 @@ sommige,some,,PRON
 zoeken,to search,,VERB
 zoveel,so much,,NUM
 halen,to fetch,,VERB
-lange,long,,ADJ
 lezen,read,,VERB
 mei,May,,PROPN
 moeilijk,difficult,,ADJ
 nummer,number,,NOUN
-ouders,parents,,NOUN
 partij,side,,NOUN
 top,top,,NOUN
-weken,to soften,,NOUN
-zaken,business,,NOUN
 bezig,busy,,ADJ
 i,i,,PUNCT
 januari,January,,PROPN
@@ -457,47 +347,28 @@ langs,by,,ADP
 morgen,tomorrow,,ADV
 hulp,staff,,NOUN
 klein,small,,ADJ
-krijg,get,,VERB
-m'n,my,,PRON
 nadat,once,,SCONJ
-vele,many,,ADV
-bedankt,Thank you,,VERB
 bijvoorbeeld,for example,,ADV
-delen,to share,,NOUN
-gevonden,found,,VERB
 maand,month,,NOUN
 noord,north,,NOUN
 oorlog,war,,NOUN
 praten,talk,,VERB
 recht,right,,NOUN
-wilde,wild,,VERB
-zag,saw,,VERB
 zet,sets,,VERB
-begon,started,,VERB
 einde,end,,NOUN
 kamer,room,,NOUN
-maakte,made,,VERB
-meeste,most,,ADV
-plaatsen,places,,NOUN
 prijs,price,,NOUN
 programma,program,,NOUN
-stond,stood,,VERB
 twitter,twitter,,NOUN
 b,b,,SYM
 c,c,,SYM
 facebook,facebook,,NOUN
-gaf,gave,,VERB
 liggen,lie,,VERB
-meisjes,girls,,NOUN
-neem,take,,VERB
 orde,order,,NOUN
 volgen,to follow,,VERB
-deed,did,,VERB
-geef,give,,VERB
 geplaatst,placed,,VERB
 juist,correct,,ADJ
 kant,side,,NOUN
-landen,to land,,NOUN
 reden,rode,,NOUN
 vanwege,because of,,ADP
 waardoor,as a result of which,,ADV
@@ -506,23 +377,15 @@ elk,each,,PRON
 euro,euros,,NOUN
 europa,Europe,,PROPN
 gevoel,feeling,,NOUN
-geworden,become,,VERB
-jonge,young,,ADJ
-media,media,,NOUN
 tv,TV,,NOUN
-valt,fall,,VERB
 voordat,before,,SCONJ
 aandacht,attention,,NOUN
-anderen,others,,ADJ
 beide,both,,PRON
-dacht,thought,,VERB
 geschiedenis,history,,NOUN
 hetzelfde,the same,,ADJ
 juli,July,,PROPN
-lees,read,,VERB
 midden,middle,,ADV
 new,new,,X
-ogen,eyes,,NOUN
 proberen,try,,VERB
 slecht,bad,,ADJ
 stuk,piece,,NOUN
@@ -531,17 +394,13 @@ vervolgens,then,,ADV
 waarschijnlijk,probably,,ADJ
 bedrijf,company,,NOUN
 februari,February,,PROPN
-gegeven,datum,,VERB
 gelukkig,happy,,ADJ
-handen,hands,,NOUN
 juni,June,,PROPN
-leden,members,,NOUN
 lichaam,body,,NOUN
 onderwijs,education,,NOUN
 plek,place,,NOUN
 stellen,set,,VERB
 wedstrijd,competition,,NOUN
-wist,knew,,VERB
 zes,six,,NUM
 dochter,daughter,,NOUN
 ervan,of it,,ADV
@@ -551,26 +410,20 @@ rol,role,,NOUN
 uiteindelijk,eventually,,ADJ
 vorm,form,,NOUN
 woord,word,,NOUN
-word,become,,VERB
 augustus,August,,PROPN
 buurt,neighbourhood,,NOUN
 contact,contact,,NOUN
-gepubliceerd,published,,VERB
-hoge,high,,ADJ
 kopen,buy,,VERB
 leeftijd,age,,NOUN
 lid,member,,NOUN
 liefde,love,,NOUN
 minister,minister,,NOUN
-neemt,takes,,VERB
 toekomst,future,,NOUN
 verenigde,united,,VERB
-zat,fed up,,VERB
 0,0,,NUM
 and,and,,X
 avond,evening,,NOUN
 betalen,pay,,VERB
-denkt,thinks,,VERB
 doel,goal,,NOUN
 hart,heart,,NOUN
 heen,to,,ADP
@@ -580,22 +433,14 @@ provincie,province,,NOUN
 tien,ten,,NUM
 vergeten,forget,,VERB
 actie,action,,NOUN
-belangrijke,important,,ADJ
 huidige,current,,ADJ
 km,km,,SYM
-nationale,national,,ADJ
 p,p,,SYM
 rest,rest,,NOUN
 bang,scared,,ADJ
-begint,starts,,VERB
 centrum,center,,NOUN
 direct,directly,,ADJ
-gezegd,said,,VERB
 god,God,,NOUN
 internet,internet,,NOUN
-inwoners,inhabitants,,NOUN
 jan,Jan,,PROPN
 jarige,year old,,NOUN
-kwamen,came,,VERB
-leuke,nice,,ADJ
-loopt,runs,,VERB

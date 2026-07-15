@@ -1,601 +1,523 @@
 Swedish_Lemma,English_Lemma,Chinese_Lemma,POS
-aldrig,never,,ADJ
-alla,all/everyone,,VERB
-allt,everything,,VERB
-alltid,always,,X
-andra,others,,VERB
-annan,other,,X
-ansikte,face,,X
-apelsin,orange,,X
-apotek,pharmacy,,X
-april,april,,X
+aldrig,never,,ADV
+alltid,always,,ADV
+andra,others,,PRON
+annan,other,,ADJ
+ansikte,face,,NOUN
+apelsin,orange,,NOUN
+apotek,pharmacy,,NOUN
+april,april,,NOUN
 arbeta,to work,,VERB
-arg,angry,,X
-arm,arm,,X
-arton,eighteen,,X
-att,to (infinitive),,ADP
-augusti,august,,X
+arg,angry,,NOUN
+arm,arm,,NOUN
+arton,eighteen,,NUM
+att,to (infinitive),,SCONJ
+augusti,august,,NOUN
 av,of/by,,ADP
-baby,baby,,X
-badrum,bathroom,,X
+baby,baby,,NOUN
+badrum,bathroom,,NOUN
 baka,to bake,,VERB
-banan,banana,,X
-bank,bank,,X
-barn,child,,X
+bank,bank,,NOUN
+barn,child,,NOUN
 behöva,to need,,VERB
-ben,leg,,X
-berg,mountain,,X
+ben,leg,,NOUN
+berg,mountain,,NOUN
 berätta,to tell,,VERB
 beskriva,to describe,,VERB
 betala,to pay,,VERB
-bil,car,,X
+bil,car,,NOUN
 billig,cheap,,ADJ
-björn,bear,,X
-bli,to become,,X
-blod,blood,,X
-blomma,flower,,VERB
-blå,blue,,X
-bok,book,,X
-bord,table,,X
-bred,wide,,X
-brev,letter,,X
-bro,bridge,,X
-bror,brother,,X
-brun,brown,,X
-bröd,bread,,X
-buss,bus,,X
-butik,shop,,X
-by,village,,X
-byxor,pants,,X
+björn,bear,,NOUN
+bli,to become,,VERB
+blod,blood,,NOUN
+blomma,flower,,NOUN
+blå,blue,,ADJ
+bok,book,,NOUN
+bord,table,,NOUN
+bred,wide,,ADJ
+brev,letter,,NOUN
+bro,bridge,,NOUN
+brun,brown,,ADJ
+bröd,bread,,NOUN
+buss,bus,,NOUN
+butik,shop,,NOUN
+by,village,,NOUN
+byxor,pants,,NOUN
 bära,to carry,,VERB
-bäst,best,,VERB
-bättre,better,,X
-båda,both,,VERB
-båt,boat,,VERB
+båda,both,,DET
+båt,boat,,NOUN
 börja,to start,,VERB
-cykel,bicycle,,X
-dag,day,,X
+cykel,bicycle,,NOUN
+dag,day,,NOUN
 dansa,to dance,,VERB
-dator,computer,,X
 de,they,,PRON
-december,december,,X
+december,december,,NOUN
 den,it (common),,PRON
-det,it (neuter),,PRON
-din,your,,PRON
-diskmaskin,dishwasher,,X
-dotter,daughter,,X
+diskmaskin,dishwasher,,NOUN
+dotter,daughter,,NOUN
 dra,to pull,,VERB
 dricka,to drink,,VERB
-dryck,drink,,X
+dryck,drink,,NOUN
 du,you,,PRON
-dyr,expensive,,X
-där,there,,X
+dyr,expensive,,ADJ
+där,there,,ADV
 dålig,bad,,ADJ
-dö,to die,,X
-dörr,door,,X
-efter,after,,X
-egen,own,,X
-eld,fire,,X
-element,radiator,,VERB
-elev,student,,X
-eller,or,,ADP
-elva,eleven,,VERB
-era,your (plural),,VERB
-ett,one,,VERB
-examen,exam,,X
+dö,to die,,VERB
+dörr,door,,NOUN
+efter,after,,ADP
+egen,own,,ADJ
+eld,fire,,NOUN
+element,radiator,,NOUN
+elev,student,,NOUN
+eller,or,,CCONJ
+elva,eleven,,NUM
+era,your (plural),,PRON
+ett,one,,NUM
+examen,exam,,NOUN
 falla,to fall,,VERB
-familj,family,,X
-far,father,,X
-far/pappa,father,,VERB
+familj,family,,NOUN
+far,father,,NOUN
+far/pappa,father,,NOUN
 fattig,poor,,ADJ
-februari,february,,X
-fem,five,,X
-femtio,fifty,,X
-femton,fifteen,,X
-finger,finger,,X
-fisk,fish,,ADJ
-fjorton,fourteen,,X
-flicka,girl,,VERB
-flickvän,girlfriend,,X
-flod,river,,X
+februari,february,,NOUN
+fem,five,,NUM
+femtio,fifty,,NUM
+femton,fifteen,,NUM
+finger,finger,,NOUN
+fisk,fish,,NOUN
+fjorton,fourteen,,NUM
+flicka,girl,,NOUN
+flickvän,girlfriend,,NOUN
+flod,river,,NOUN
 flyga,to fly,,VERB
-flygplan,airplane,,X
-flygplats,airport,,X
+flygplan,airplane,,NOUN
+flygplats,airport,,NOUN
 flytta,to move,,VERB
-folk,people,,X
-fot,foot,,VERB
-fredag,friday,,X
+folk,people,,NOUN
+fot,foot,,NOUN
+fredag,friday,,NOUN
 frisk,healthy,,ADJ
-frukost,breakfast,,VERB
-frukt,fruit,,VERB
-fråga,to ask,,VERB
-från,from,,X
-ful,ugly,,X
-fyra,four,,VERB
-fyrtio,forty,,X
-färg,color,,X
-få,to get,,X
-fågel,bird,,X
-får,sheep,,X
+frukost,breakfast,,NOUN
+frukt,fruit,,NOUN
+fråga,to ask,,NOUN
+från,from,,ADP
+ful,ugly,,ADJ
+fyra,four,,NUM
+fyrtio,forty,,NUM
+färg,color,,NOUN
+få,to get,,VERB
+fågel,bird,,NOUN
 följa,to follow,,VERB
-fönster,window,,X
-för,for,,X
+fönster,window,,NOUN
+för,for,,ADP
 förklara,to explain,,VERB
 förlåta,to forgive,,VERB
-första,first,,VERB
-förstå,to understand,,X
-gammal,old,,X
-gardin,curtain,,X
-gata,street,,VERB
-ge,to give,,X
-glad,happy,,X
-glas,glass,,X
+första,first,,ADJ
+förstå,to understand,,VERB
+gammal,old,,ADJ
+gardin,curtain,,NOUN
+gata,street,,NOUN
+ge,to give,,VERB
+glad,happy,,ADJ
+glas,glass,,NOUN
 glömma,to forget,,VERB
-god,good,,X
-golv,floor,,X
-gris,pig,,X
-gräs,grass,,X
-grå,grey,,X
+god,good,,ADJ
+golv,floor,,NOUN
+gris,pig,,NOUN
+gräs,grass,,NOUN
+grå,grey,,ADJ
 gråta,to cry,,VERB
-grön,green,,X
-gul,yellow,,X
-guld,gold,,X
-gå,to walk/go,,X
+grön,green,,ADJ
+gul,yellow,,ADJ
+guld,gold,,NOUN
+gå,to walk/go,,VERB
 göra,to do/make,,VERB
-ha,to have,,VERB
-halsduk,scarf,,X
-hamn,harbor,,X
+ha,to have,,INTJ
+halsduk,scarf,,NOUN
+hamn,harbor,,NOUN
 han,he,,PRON
-hand,hand,,X
-hans,his,,PRON
-hav,sea,,X
-hej,hello,,X
-helg,weekend,,X
-hennes,her,,PRON
-het,hot,,NOUN
-himmel,sky,,X
+hand,hand,,NOUN
+hav,sea,,NOUN
+hej,hello,,INTJ
+helg,weekend,,NOUN
+het,hot,,ADJ
+himmel,sky,,NOUN
 hitta,to find,,VERB
-hjort,deer,,VERB
+hjort,deer,,NOUN
 hjälpa,to help,,VERB
-hjärta,heart,,VERB
+hjärta,heart,,NOUN
 hon,she,,PRON
-hotell,hotel,,X
-hud,skin,,X
-hund,dog,,X
-hundra,hundred,,VERB
-hur,how,,X
-hus,house,,X
-huvud,head,,X
-hälsa,to greet,,VERB
-här,here,,X
-häst,horse,,VERB
-hår,hair,,X
-hög,high/tall,,X
-höna,hen,,VERB
+hotell,hotel,,NOUN
+hud,skin,,NOUN
+hund,dog,,NOUN
+hundra,hundred,,NUM
+hur,how,,ADV
+hus,house,,NOUN
+huvud,head,,NOUN
+hälsa,to greet,,NOUN
+här,here,,ADV
+häst,horse,,NOUN
+hår,hair,,NOUN
+hög,high/tall,,ADJ
+höna,hen,,NOUN
 höra,to hear,,VERB
-höst,autumn,,VERB
+höst,autumn,,NOUN
 i,in,,ADP
-ibland,sometimes,,X
-idag,today,,X
-igår,yesterday,,X
-imorgon,tomorrow,,X
-ingenting,nothing,,X
-inte,not,,X
-ja,yes,,VERB
-jacka,jacket,,VERB
+ibland,sometimes,,ADV
+idag,today,,ADV
+igår,yesterday,,ADV
+imorgon,tomorrow,,ADV
+ingenting,nothing,,PRON
+inte,not,,PART
+ja,yes,,INTJ
 jag,I,,PRON
-januari,january,,X
-jobb,job,,X
-jord,earth,,X
-juice,juice,,X
-juli,july,,X
-juni,june,,X
-järn,iron,,X
-kaffe,coffee,,X
-kafé,café,,X
-kall,cold,,X
-kanin,rabbit,,X
-kanske,maybe,,X
-katt,cat,,VERB
-klocka,clock/watch,,VERB
-kläder,clothes,,X
+januari,january,,NOUN
+jobb,job,,NOUN
+jord,earth,,NOUN
+juice,juice,,NOUN
+juli,july,,NOUN
+juni,june,,NOUN
+järn,iron,,NOUN
+kaffe,coffee,,NOUN
+kafé,café,,NOUN
+kall,cold,,ADJ
+kanin,rabbit,,NOUN
+kanske,maybe,,ADV
+katt,cat,,NOUN
+klocka,clock/watch,,NOUN
+kläder,clothes,,NOUN
 klänning,dress,,NOUN
-ko,cow,,X
+ko,cow,,NOUN
 komma,to come,,VERB
-kontor,office,,X
-kort,short,,VERB
-kropp,body,,X
+kontor,office,,NOUN
+kort,short,,ADJ
+kropp,body,,NOUN
 kunna,can/to be able,,VERB
-kvinna,woman,,VERB
-kväll,evening,,X
-kyla,cold,,VERB
-kylskåp,refrigerator,,X
+kvinna,woman,,NOUN
+kväll,evening,,NOUN
+kyla,cold,,NOUN
+kylskåp,refrigerator,,NOUN
 kyssa,to kiss,,VERB
 känna,to know/feel,,VERB
-kök,kitchen,,X
+kök,kitchen,,NOUN
 köpa,to buy,,VERB
 köra,to drive,,VERB
-kött,meat,,VERB
+kött,meat,,NOUN
 laga,to cook,,VERB
-lampa,lamp,,VERB
-land,country/land,,X
-ledsen,sad,,X
-lektion,lesson,,X
+lampa,lamp,,NOUN
+land,country/land,,NOUN
+ledsen,sad,,ADJ
+lektion,lesson,,NOUN
 leva,to live,,VERB
 ligga,to lie down,,VERB
-lila,purple,,VERB
-liten,small,,X
+liten,small,,ADJ
 lova,to promise,,VERB
-luft,air,,VERB
-lugn,calm,,X
+luft,air,,NOUN
+lugn,calm,,ADJ
 lyfta,to lift,,VERB
 lyssna,to listen,,VERB
 lägenhet,apartment,,NOUN
-läkare,doctor,,X
-lärare,teacher,,X
+läkare,doctor,,NOUN
+lärare,teacher,,NOUN
 läsa,to read,,VERB
-lätt,easy/light,,VERB
-läxa,homework,,VERB
-låg,low,,X
-lång,long/tall,,X
+lätt,easy/light,,ADV
+läxa,homework,,NOUN
+låg,low,,ADJ
+lång,long/tall,,ADJ
 långsam,slow,,ADJ
-lön,salary,,X
-lördag,saturday,,X
-maj,may,,X
-man,husband/man,,X
-marknad,market,,X
-mars,march,,X
-mat,food,,VERB
-matta,rug,,VERB
+lön,salary,,NOUN
+lördag,saturday,,NOUN
+maj,may,,NOUN
+man,husband/man,,PRON
+marknad,market,,NOUN
+mars,march,,NOUN
+mat,food,,NOUN
 med,with,,ADP
-medicin,medicine,,X
-men,but,,ADP
-middag,lunch/dinner,,X
-min,my,,PRON
-mindre,smaller/less,,X
-minut,minute,,VERB
-mjölk,milk,,X
-moln,cloud,,X
-mor,mother,,X
-mor/mamma,mother,,VERB
-morgon,morning,,X
-mun,mouth,,X
-mus,mouse,,X
-mycket,very/much,,VERB
-människa,human,,VERB
+medicin,medicine,,NOUN
+men,but,,CCONJ
+middag,lunch/dinner,,NOUN
+minut,minute,,NOUN
+mjölk,milk,,NOUN
+moln,cloud,,NOUN
+mor,mother,,NOUN
+mor/mamma,mother,,NOUN
+morgon,morning,,NOUN
+mun,mouth,,NOUN
+mus,mouse,,NOUN
+mycket,very/much,,ADV
+människa,human,,NOUN
 måla,to paint,,VERB
-månad,month,,X
-måndag,monday,,X
-måne,moon,,X
-måste,must,,X
+månad,month,,NOUN
+måndag,monday,,NOUN
+måne,moon,,NOUN
+måste,must,,AUX
 möjlig,possible,,ADJ
-mössa,hat,,VERB
+mössa,hat,,NOUN
 möta,to meet,,VERB
-namn,name,,X
-natt,night,,VERB
-natur,nature,,X
-nej,no,,X
+namn,name,,NOUN
+natt,night,,NOUN
+natur,nature,,NOUN
+nej,no,,INTJ
 ni,you (plural),,PRON
-nio,nine,,X
-nittio,ninety,,X
-nitton,nineteen,,X
-november,november,,X
-nu,now,,X
-ny,new,,X
-nyckel,key,,X
-när,when,,X
-näsa,nose,,VERB
-någon,someone/some,,X
-något,something,,VERB
-några,some (plural),,VERB
-och,and,,ADP
-ofta,often,,VERB
-oktober,october,,X
-om,about/if,,X
+nio,nine,,NUM
+nittio,ninety,,NUM
+nitton,nineteen,,NUM
+november,november,,NOUN
+nu,now,,ADV
+ny,new,,ADJ
+nyckel,key,,NOUN
+när,when,,ADV
+näsa,nose,,NOUN
+någon,someone/some,,PRON
+och,and,,CCONJ
+ofta,often,,ADV
+oktober,october,,NOUN
+om,about/if,,ADP
 omöjlig,impossible,,ADJ
-onsdag,wednesday,,X
-orange,orange,,X
-ost,cheese,,VERB
-papper,paper,,X
-park,park,,X
-pengar,money,,X
-penna,pen,,VERB
-plast,plastic,,VERB
-pojke,boy,,X
-pojkvän,boyfriend,,X
-på,on,,X
-regn,rain,,X
-ren,clean,,X
-resa,to travel,,VERB
-restaurang,restaurant,,X
-rik,rich,,X
-rock,coat,,X
+onsdag,wednesday,,NOUN
+orange,orange,,NOUN
+ost,cheese,,NOUN
+papper,paper,,NOUN
+park,park,,NOUN
+pengar,money,,NOUN
+penna,pen,,NOUN
+plast,plastic,,NOUN
+pojke,boy,,NOUN
+pojkvän,boyfriend,,NOUN
+på,on,,ADP
+regn,rain,,NOUN
+ren,clean,,ADJ
+resa,to travel,,NOUN
+restaurang,restaurant,,NOUN
+rik,rich,,ADJ
+rock,coat,,NOUN
 rolig,fun,,ADJ
-rosa,pink,,VERB
-rum,room,,X
-rygg,back,,X
-rädd,afraid,,X
-räv,fox,,X
-röd,red,,X
-salt,salt,,VERB
-samma,same,,VERB
-sand,sand,,X
-se,to see,,X
-sekund,second,,X
-september,september,,X
-sex,six,,X
-sextio,sixty,,X
-sexton,sixteen,,X
-silver,silver,,X
+rosa,pink,,NOUN
+rum,room,,NOUN
+rygg,back,,NOUN
+rädd,afraid,,ADJ
+räv,fox,,NOUN
+röd,red,,ADJ
+salt,salt,,NOUN
+samma,same,,ADJ
+sand,sand,,NOUN
+se,to see,,VERB
+sekund,second,,NOUN
+september,september,,NOUN
+sex,six,,NUM
+sextio,sixty,,NUM
+sexton,sixteen,,NUM
+silver,silver,,NOUN
 simma,to swim,,VERB
-sin,oneself,,PRON
-sista,last,,VERB
+sista,last,,ADJ
 sitta,to sit,,VERB
-sju,seven,,X
-sjuk,sick,,X
-sjukhus,hospital,,X
-sjuksköterska,nurse,,VERB
+sju,seven,,NUM
+sjuk,sick,,ADJ
+sjukhus,hospital,,NOUN
+sjuksköterska,nurse,,NOUN
 sjunga,to sing,,VERB
-sjuttio,seventy,,X
-sjutton,seventeen,,X
-sjö,lake,,X
+sjuttio,seventy,,NUM
+sjutton,seventeen,,NUM
+sjö,lake,,NOUN
 skicka,to send,,VERB
-skjorta,shirt,,VERB
-skog,forest,,X
-skola,school,,VERB
-skor,shoes,,X
+skjorta,shirt,,NOUN
+skog,forest,,NOUN
+skola,school,,NOUN
 skratta,to laugh,,VERB
 skriva,to write,,VERB
-skåp,cabinet,,X
+skåp,cabinet,,NOUN
 sluta,to stop/end,,VERB
-smal,narrow,,X
+smal,narrow,,ADJ
 smutsig,dirty,,ADJ
-smör,butter,,X
-snabb,fast,,X
-snö,snow,,X
-socker,sugar,,X
-soffa,sofa,,VERB
-sol,sun,,X
-solsken,sunshine,,X
-sommar,summer,,X
-son,son,,X
-soppa,soup,,VERB
+smör,butter,,NOUN
+snabb,fast,,ADJ
+snö,snow,,NOUN
+socker,sugar,,NOUN
+soffa,sofa,,NOUN
+sol,sun,,NOUN
+solsken,sunshine,,NOUN
+sommar,summer,,NOUN
+son,son,,NOUN
+soppa,soup,,NOUN
 sova,to sleep,,VERB
-sovrum,bedroom,,X
-spegel,mirror,,X
+sovrum,bedroom,,NOUN
+spegel,mirror,,NOUN
 spela,to play,,VERB
-spis,stove,,X
-stad,city,,X
-stark,strong,,X
-station,station,,X
-sten,stone,,X
-stjärna,star,,VERB
-stol,chair,,X
+spis,stove,,NOUN
+stad,city,,NOUN
+stark,strong,,ADJ
+station,station,,NOUN
+stjärna,star,,NOUN
+stol,chair,,NOUN
 stoppa,to stop,,VERB
-stor,big,,X
-storm,storm,,X
-strand,beach,,X
-strumpor,socks,,X
+stor,big,,ADJ
+storm,storm,,NOUN
+strand,beach,,NOUN
+strumpor,socks,,NOUN
 städa,to clean,,VERB
 stänga,to close,,VERB
-stå,to stand,,X
-större,bigger,,X
-sur,sour,,X
-svag,weak,,X
+stå,to stand,,VERB
+sur,sour,,ADJ
+svag,weak,,ADJ
 svara,to answer,,VERB
-svart,black,,VERB
-svår,difficult,,X
-syster,sister,,X
+svår,difficult,,ADJ
+syster,sister,,NOUN
 säga,to say,,VERB
 sälja,to sell,,VERB
-sämre,worse,,X
-sämst,worst,,VERB
-säng,bed,,X
+sämre,worse,,ADV
+säng,bed,,NOUN
 söka,to search,,VERB
-söndag,sunday,,X
-söt,sweet,,VERB
+söndag,sunday,,NOUN
+söt,sweet,,ADJ
 ta,to take,,VERB
-tack,thanks,,X
+tack,thanks,,NOUN
 tacka,to thank,,VERB
-tak,roof,,X
+tak,roof,,NOUN
 tala,to speak,,VERB
-tand,tooth,,X
-tavla,painting,,VERB
-te,tea,,X
-telefon,phone,,X
+tand,tooth,,NOUN
+tavla,painting,,NOUN
+te,tea,,NOUN
+telefon,phone,,NOUN
 tidning,newspaper,,NOUN
 till,to,,ADP
-timme,hour,,X
-tio,ten,,X
-tisdag,tuesday,,X
-tjock,thick/fat,,X
-tjugo,twenty,,X
-tolv,twelve,,X
-torsdag,thursday,,X
-trappa,stairs,,VERB
-tre,three,,X
-trettio,thirty,,X
-tretton,thirteen,,X
-tro,to believe,,X
-trä,wood,,X
-träd,tree,,X
+timme,hour,,NOUN
+tio,ten,,NUM
+tisdag,tuesday,,NOUN
+tjock,thick/fat,,ADJ
+tjugo,twenty,,NUM
+tolv,twelve,,NUM
+torsdag,thursday,,NOUN
+trappa,stairs,,NOUN
+tre,three,,NUM
+trettio,thirty,,NUM
+tretton,thirteen,,NUM
+tro,to believe,,VERB
+trä,wood,,NOUN
+träd,tree,,NOUN
 tråkig,boring,,ADJ
-tröja,sweater,,VERB
-trött,tired,,VERB
-tung,heavy,,X
-tunn,thin,,X
-tunnel,tunnel,,X
-tusen,thousand,,X
+tröja,sweater,,NOUN
+trött,tired,,ADJ
+tung,heavy,,ADJ
+tunn,thin,,ADJ
+tunnel,tunnel,,NOUN
+tusen,thousand,,NUM
 tvätta,to wash,,VERB
-tvättmaskin,washing machine,,X
-två,two,,X
+tvättmaskin,washing machine,,NOUN
+två,two,,NUM
 tänka,to think,,VERB
-tåg,train,,X
-ugn,oven,,X
-under,under,,ADP
+tåg,train,,NOUN
+ugn,oven,,NOUN
+under,under,,ADV
 undvika,to avoid,,VERB
-ung,young,,X
-utan,without,,ADP
-vacker,beautiful,,X
-vad,what,,X
+ung,young,,ADJ
+utan,without,,CCONJ
+vacker,beautiful,,ADJ
+vad,what,,PRON
 vakna,to wake up,,VERB
-vante,glove,,X
+vante,glove,,NOUN
 var,where,,PRON
-vara,to be,,VERB
-vardagsrum,living room,,X
-varför,why,,X
-varg,wolf,,X
-varm,warm,,X
-vatten,water,,X
-vecka,week,,VERB
-vem,who,,X
+vara,to be,,AUX
+vardagsrum,living room,,NOUN
+varför,why,,ADV
+varg,wolf,,NOUN
+varm,warm,,ADJ
+vatten,water,,NOUN
+vecka,week,,NOUN
+vem,who,,PRON
 veta,to know,,VERB
 vi,we,,PRON
 vid,by/at,,ADP
 viktig,important,,ADJ
-vilja,to want,,VERB
+vilja,to want,,NOUN
 vilken,which,,PRON
-vin,wine,,X
-vind,wind,,X
-vinter,winter,,X
+vin,wine,,NOUN
+vind,wind,,NOUN
+vinter,winter,,NOUN
 visa,to show,,VERB
-vit,white,,VERB
-väg,road,,X
-vägg,wall,,X
+vit,white,,ADJ
+väg,road,,NOUN
+vägg,wall,,NOUN
 välja,to choose,,VERB
-vän,friend,,X
+vän,friend,,NOUN
 vänta,to wait,,VERB
-värld,world,,X
-värme,heat,,X
-vår,our/spring,,X
-ägg,egg,,X
-äpple,apple,,X
+värld,world,,NOUN
+värme,heat,,NOUN
+ägg,egg,,NOUN
+äpple,apple,,NOUN
 äta,to eat,,VERB
-ålder,age,,X
-år,year,,X
-åtta,eight,,VERB
-åttio,eighty,,X
-ö,island,,X
-öga,eye,,VERB
-öl,beer,,X
+ålder,age,,NOUN
+år,year,,NOUN
+åtta,eight,,NUM
+åttio,eighty,,NUM
+ö,island,,NOUN
+öga,eye,,NOUN
+öl,beer,,NOUN
 öppna,to open,,VERB
-öra,ear,,VERB
-över,over,,X
-absolut,absolutely,,VERB
-agent,agent,,VERB
-all,all,,X
-allihop,all of them,,X
-alls,at all,,X
-alltså,so/thus,,X
-allvar,seriousness,,X
+öra,ear,,NOUN
+över,over,,ADP
+absolut,absolutely,,ADV
+agent,agent,,NOUN
+all,all,,PRON
+allihop,all of them,,INTJ
+alls,at all,,ADV
+alltså,so/thus,,ADV
+allvar,seriousness,,NOUN
 aning,a bit,,NOUN
-annars,otherwise,,X
-annat,other,,VERB
-annorlunda,different,,VERB
-antar,assume,,X
+annars,otherwise,,ADV
+annorlunda,different,,ADV
 använda,use,,VERB
-använder,uses,,X
-arbete,work,,X
-bad,asked/bathed,,X
-bakom,behind,,X
-bara,only/just,,VERB
-barnen,the children,,X
-be,pray/ask,,X
-behövde,needed,,VERB
-behöver,needs,,X
-beklagar,regret/apologize,,X
-ber,pray/ask,,X
-berättade,told,,VERB
-berättar,tells,,X
-betalar,pays,,X
-betyder,means,,X
-bevis,proof,,X
-bilen,the car,,X
-blev,became,,X
-blir,becomes/gets,,X
-blivit,become,,VERB
-bo,live,,X
-bor,lives,,X
+arbete,work,,NOUN
+bad,asked/bathed,,NOUN
+bakom,behind,,ADV
+bara,only/just,,ADV
+be,pray/ask,,VERB
+beklagar,regret/apologize,,VERB
+bevis,proof,,NOUN
+bo,live,,VERB
 borde,should,,VERB
-bort,away,,VERB
-borta,away/gone,,VERB
-bra,good/well,,VERB
+bort,away,,ADV
+borta,away/gone,,ADV
+bra,good/well,,ADJ
 brukade,used to,,VERB
-brukar,usually,,X
-bryr,cares,,X
-bästa,best,,VERB
-bör,should,,X
-började,began,,VERB
-början,beginning,,X
-börjar,begins,,X
-chans,chance,,X
-chefen,the boss,,X
-dagar,days,,X
-dagen,the day,,X
-dags,time,,X
-del,part,,X
-dem,them,,PRON
-denna,this,,VERB
-deras,their,,PRON
-dess,its,,X
-dessa,these,,VERB
-detta,this,,VERB
-dig,you,,PRON
-dina,your(pl),,VERB
-direkt,direct,,VERB
-dit,there(to),,VERB
-ditt,your,,VERB
-dog,died,,X
-dollar,dollar,,X
-dom,they/them,,X
-drar,pulls/draws,,X
-dum,stupid,,X
-därför,therefore,,X
-då,then/when,,X
-dåligt,badly/poor,,VERB
-död,dead,,X
-döda,kill/the dead,,VERB
+brukar,usually,,VERB
+bör,should,,AUX
+början,beginning,,NOUN
+chans,chance,,NOUN
+dags,time,,NOUN
+del,part,,NOUN
+denna,this,,PRON
+direkt,direct,,ADV
+dit,there(to),,ADV
+dum,stupid,,ADJ
+därför,therefore,,ADV
+då,then/when,,ADV
+död,dead,,NOUN
 dödade,killed,,VERB
-dödar,kills,,X
-dör,dies,,X
-dörren,the door,,X
-eftersom,since/because,,X
-egentligen,actually,,X
-eget,own,,VERB
-egna,own(pl),,VERB
-emot,against,,VERB
-en,a/an/one,,X
-enda,only/single,,VERB
-enkelt,simple/easily,,VERB
-enligt,according to,,VERB
-ens,even,,X
+dödar,kills,,VERB
+eftersom,since/because,,SCONJ
+egentligen,actually,,ADV
+emot,against,,ADV
+enda,only/single,,ADJ
+enligt,according to,,ADP
+ens,even,,ADV
 ensam,alone,,ADJ
-er,you(pl)/yours,,PRON
-ert,your(pl),,VERB
-exakt,exact,,VERB
-faktiskt,actually,,VERB
-fall,case/fall,,X
-familjen,the family,,X
-fan,devil/damn,,X
-fanns,existed,,X
-fara,go/danger,,VERB
-fast,although/stuck,,VERB
-fattar,understands,,X
-fel,wrong,,X
-fick,got,,X
-fin,fine/pretty,,X
-finns,exists/there is,,X
-fint,nicely/nice,,VERB
+ert,your(pl),,PRON
+exakt,exact,,ADV
+faktiskt,actually,,ADV
+fall,case/fall,,NOUN
+fan,devil/damn,,INTJ
+fara,go/danger,,NOUN
+fast,although/stuck,,ADV
+fel,wrong,,ADV
+fin,fine/pretty,,ADJ
 fixa,fix,,VERB
-fler,more(pl),,X
-flera,several,,VERB
-fort,fast,,VERB
-fortfarande,still,,VERB
-fortsätt,continue,,VERB
+fler,more(pl),,ADJ
+flera,several,,PRON
+fort,fast,,ADV
+fortfarande,still,,ADV
 fortsätta,continue,,VERB
-fortsätter,continues,,X
-fram,forward,,X
-framför,in front of,,X
-fru,wife/Mrs,,X
+fram,forward,,ADV
+framför,in front of,,ADP
+fru,wife/Mrs,,NOUN
 frågade,asked,,VERB
-frågar,asks,,X
+frågar,asks,,VERB

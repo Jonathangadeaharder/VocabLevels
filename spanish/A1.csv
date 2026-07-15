@@ -1,601 +1,557 @@
 Spanish_Lemma,English_Lemma,Chinese_Lemma,POS
 a,to/at,,ADP
-abajo,down,,X
+abajo,down,,ADV
 abrir,to open,,VERB
-abuela,grandmother,,X
-abuelo,grandfather,,X
-accidente,accident,,X
-acá,here (Americas),,X
-adelante,forward/come in,,ADJ
-además,besides/moreover,,X
-adiós,goodbye,,X
-afuera,outside,,NOUN
+abuela,grandmother,,NOUN
+abuelo,grandfather,,NOUN
+accidente,accident,,NOUN
+acá,here (Americas),,ADV
+adelante,forward/come in,,ADV
+además,besides/moreover,,ADV
+adiós,goodbye,,NOUN
+afuera,outside,,ADV
 agradable,pleasant,,ADJ
-agua,water,,X
-ahora,now,,X
-ahí,there,,X
-aire,air,,X
-algo,something,,X
-alguien,someone,,X
-allá,over there,,X
-allí,there,,X
-alma,soul,,X
-alto,tall/high,,X
+agua,water,,NOUN
+ahora,now,,ADV
+ahí,there,,ADV
+aire,air,,NOUN
+algo,something,,PRON
+alguien,someone,,PRON
+allá,over there,,ADV
+allí,there,,ADV
+alma,soul,,NOUN
+alto,tall/high,,ADJ
 amable,kind,,ADJ
-ambos,both,,X
-amiga,female friend,,X
-amigo,friend,,X
-amo,master/owner,,X
+ambos,both,,NUM
+amiga,female friend,,NOUN
+amigo,friend,,NOUN
 amor,love,,NOUN
-ante,before/in front of,,ADJ
-antes,before,,X
-aquí,here,,X
-armario,closet/wardrobe,,X
-arriba,up,,X
-asesino,murderer,,X
-asunto,matter/issue,,X
-así,like this/so,,X
+ante,before/in front of,,ADP
+antes,before,,ADV
+aquí,here,,ADV
+armario,closet/wardrobe,,NOUN
+arriba,up,,ADV
+asesino,murderer,,NOUN
+asunto,matter/issue,,NOUN
+así,like this/so,,ADV
 atención,attention,,NOUN
-atrás,back/behind,,X
-aunque,although,,X
-auto,car,,X
-avión,plane,,X
-ayer,yesterday,,VERB
-ayuda,help,,X
+atrás,back/behind,,ADV
+aunque,although,,SCONJ
+auto,car,,NOUN
+avión,plane,,NOUN
+ayer,yesterday,,ADV
+ayuda,help,,NOUN
 ayudar,to help,,VERB
-año,year,,X
-aún,still/yet,,X
-bajo,short/low,,X
-bar,bar,,VERB
-barco,boat/ship,,X
-base,base/basis,,X
-bastante,quite/enough,,ADJ
+año,year,,NOUN
+aún,still/yet,,ADV
+bajo,short/low,,ADJ
+bar,bar,,NOUN
+barco,boat/ship,,NOUN
+base,base/basis,,NOUN
+bastante,quite/enough,,PRON
 basura,trash/garbage,,NOUN
-baño,bathroom,,X
+baño,bathroom,,NOUN
 beber,to drink,,VERB
-bebé,baby,,X
-bien,well,,X
-blanco,white,,X
-boca,mouth,,X
-boda,wedding,,X
-bonito,pretty/nice,,X
-broma,joke/prank,,X
-bueno,good,,X
+bebé,baby,,NOUN
+bien,well,,ADV
+blanco,white,,ADJ
+boca,mouth,,NOUN
+boda,wedding,,NOUN
+bonito,pretty/nice,,ADJ
+broma,joke/prank,,NOUN
+bueno,good,,ADJ
 buscar,to look for,,VERB
-caballo,horse,,X
-cabeza,head,,X
-cada,each/every,,X
-café,coffee,,X
-caja,box/cash register,,X
-caliente,hot/warm,,X
-calle,street,,X
-cama,bed,,X
+caballo,horse,,NOUN
+cabeza,head,,NOUN
+cada,each/every,,DET
+café,coffee,,NOUN
+caja,box/cash register,,NOUN
+caliente,hot/warm,,ADJ
+calle,street,,NOUN
+cama,bed,,NOUN
 cambiar,to change,,VERB
-cambio,change/exchange,,X
-camino,path/way,,X
-campo,field/countryside,,X
+cambio,change/exchange,,NOUN
+camino,path/way,,NOUN
+campo,field/countryside,,NOUN
 canción,song,,NOUN
-capaz,capable/able,,X
-capitán,captain,,X
-cara,face,,X
-cargo,charge/position,,X
-carne,meat,,X
+capaz,capable/able,,ADJ
+capitán,captain,,NOUN
+cara,face,,NOUN
+cargo,charge/position,,NOUN
+carne,meat,,NOUN
 carrera,race/career,,NOUN
-carta,letter/card,,X
-casa,house,,X
-casi,almost,,X
-caso,case,,X
-causa,cause/reason,,X
-cena,dinner,,X
+carta,letter/card,,NOUN
+casa,house,,NOUN
+casi,almost,,ADV
+caso,case,,NOUN
+causa,cause/reason,,NOUN
+cena,dinner,,NOUN
 cenar,to have dinner,,VERB
-centro,center,,X
-cerca,close/near,,X
-cerebro,brain,,X
-chica,girl,,X
-chico,boy/guy,,ADJ
-cielo,sky/heaven,,X
-cinco,five,,X
-cita,date/appointment,,X
+centro,center,,NOUN
+cerca,close/near,,ADV
+cerebro,brain,,NOUN
+chica,girl,,NOUN
+chico,boy/guy,,NOUN
+cielo,sky/heaven,,NOUN
+cinco,five,,NUM
+cita,date/appointment,,NOUN
 ciudad,city,,NOUN
-claro,of course,,X
-clase,class/lesson,,X
-cliente,customer/client,,X
-coche,car,,X
-cocina,kitchen,,X
+claro,of course,,NOUN
+clase,class/lesson,,NOUN
+cliente,customer/client,,NOUN
+coche,car,,NOUN
+cocina,kitchen,,NOUN
 color,color,,NOUN
 comer,to eat,,VERB
-comida,food,,X
-como,like/as/since,,ADP
-compañía,company,,X
-completamente,completely,,X
-comportamiento,behavior,,X
+comida,food,,NOUN
+como,like/as/since,,SCONJ
+compañía,company,,NOUN
+completamente,completely,,ADV
+comportamiento,behavior,,NOUN
 comprar,to buy,,VERB
 con,with,,ADP
 conductor,driver,,NOUN
 confiar,to trust,,VERB
-conmigo,with me,,X
+conmigo,with me,,PRON
 conocer,to know (people/places),,VERB
-conocido,known/acquaintance,,VERB
+conocido,known/acquaintance,,ADJ
 conseguir,to get/achieve,,VERB
-contacto,contact,,X
-contigo,with you,,X
-contra,against,,X
-control,control,,X
-corazón,heart,,X
-correcto,correct,,X
-cosa,thing,,X
-cualquier,any,,VERB
-cuando,when,,VERB
-cuarto,room/quarter,,X
-cuatro,four,,X
-cuenta,bill/account,,X
-cuidado,careful,,VERB
-culo,ass/butt,,X
-culpa,fault/blame,,X
-cumpleaños,birthday,,X
-cuál,which,,X
-cuándo,when,,X
-cuánto,how much,,X
-cárcel,prison/jail,,X
-cómo,how,,X
-cómodo,comfortable,,X
-dado,dice (singular)/given,,VERB
+contacto,contact,,NOUN
+contra,against,,NOUN
+control,control,,NOUN
+corazón,heart,,NOUN
+correcto,correct,,ADJ
+cosa,thing,,NOUN
+cualquier,any,,PRON
+cuando,when,,SCONJ
+cuarto,room/quarter,,ADJ
+cuatro,four,,NUM
+cuidado,careful,,NOUN
+culo,ass/butt,,NOUN
+culpa,fault/blame,,NOUN
+cumpleaños,birthday,,NOUN
+cuál,which,,PRON
+cuándo,when,,ADV
+cuánto,how much,,PRON
+cárcel,prison/jail,,NOUN
+cómo,how,,PRON
+cómodo,comfortable,,ADJ
 dar,to give,,VERB
-daño,damage,,X
+daño,damage,,NOUN
 de,of/from,,ADP
 decir,to say/tell,,VERB
-decisión,decision,,X
+decisión,decision,,NOUN
 dejar,to leave/let,,VERB
-delante,in front,,ADJ
-demasiado,too much,,VERB
-dentro,inside,,X
-derecho,right/law,,X
+delante,in front,,ADV
+demasiado,too much,,PRON
+dentro,inside,,ADV
+derecho,right/law,,NOUN
 desde,from/since,,ADP
-deseo,desire/wish,,X
-desierto,desert,,X
-después,after,,X
-destino,destiny/destination,,X
-detrás,behind,,X
-diez,ten,,X
-diferencia,difference,,NOUN
-diferente,different,,X
-difícil,difficult/hard,,X
-dinero,money,,X
-dios,god,,X
+deseo,desire/wish,,NOUN
+desierto,desert,,NOUN
+después,after,,ADV
+destino,destiny/destination,,NOUN
+detrás,behind,,ADV
+diez,ten,,NUM
+diferente,different,,ADJ
+difícil,difficult/hard,,ADJ
+dinero,money,,NOUN
 dirección,direction/address,,NOUN
-divertido,funny/fun,,VERB
-divorcio,divorce,,X
+divertido,funny/fun,,ADJ
+divorcio,divorce,,NOUN
 doctor,doctor,,NOUN
 dolor,pain,,NOUN
-donde,where,,X
+donde,where,,ADV
 dormir,to sleep,,VERB
-dos,two,,X
-duda,doubt,,X
-dulce,sweet,,X
-durante,during,,ADJ
-duro,hard,,X
-día,day,,X
-dónde,where,,X
+dos,two,,NUM
+duda,doubt,,NOUN
+dulce,sweet,,ADJ
+durante,during,,ADP
+duro,hard,,ADJ
+día,day,,NOUN
+dónde,where,,ADV
 edad,age,,NOUN
-edificio,building,,X
-ejército,army,,X
+edificio,building,,NOUN
+ejército,army,,NOUN
 el,the,,DET
-ella,she,,X
-ellas,they (female),,X
-ellos,they,,X
-embargo,embargo/seizure,,X
+embargo,embargo/seizure,,NOUN
 empezar,to start/begin,,VERB
 en,in/on/at,,ADP
-encima,on top/above,,X
+encima,on top/above,,ADV
 encontrar,to find,,VERB
-encuentro,meeting/encounter,,X
-energía,energy,,X
+encuentro,meeting/encounter,,NOUN
+energía,energy,,NOUN
 entender,to understand,,VERB
-entendido,understood,,VERB
-entonces,then/so,,X
+entendido,understood,,ADJ
+entonces,then/so,,ADV
 entrar,to enter,,VERB
 entre,between,,ADP
-equipo,team/equipment,,X
-equivocado,wrong/mistaken,,VERB
-era,was/era,,NOUN
+equipo,team/equipment,,NOUN
+equivocado,wrong/mistaken,,ADJ
 error,error/mistake,,NOUN
-esa,that,,X
-escritorio,desk,,X
+escritorio,desk,,NOUN
 escuchar,to listen,,VERB
-escuela,school,,X
-ese,that,,X
-eso,that (neutral),,X
-espacio,space,,X
-espalda,back,,X
+escuela,school,,NOUN
+ese,that,,PRON
+espacio,space,,NOUN
+espalda,back,,NOUN
 especial,special,,ADJ
-especie,species/kind,,X
-espera,wait,,NOUN
+especie,species/kind,,NOUN
 esperar,to wait/hope,,VERB
-esposa,wife,,X
-esposo,husband,,ADJ
-esta,this,,X
-estado,state/condition,,VERB
-estar,to be (location),,VERB
-este,this,,X
-esto,this (neutral),,X
-estúpido,stupid,,VERB
-exactamente,exactly,,X
-extraño,strange/foreign,,X
-falta,lack/absence,,X
-familia,family,,X
+esposa,wife,,NOUN
+esposo,husband,,NOUN
+estado,state/condition,,NOUN
+estar,to be (location),,AUX
+este,this,,PRON
+estúpido,stupid,,ADJ
+exactamente,exactly,,ADV
+extraño,strange/foreign,,ADJ
+falta,lack/absence,,NOUN
+familia,family,,NOUN
 favor,favor,,NOUN
-feliz,happy,,X
-fiesta,party/festival,,X
-fin,end,,X
-final,end/final,,ADJ
-fondo,bottom/background,,X
-forma,shape/way,,X
-foto,photo,,X
-frente,forehead/front,,X
-frío,cold,,X
-fuego,fire,,X
-fuera,outside,,NOUN
-fuerte,strong,,X
-fuerza,force/strength,,X
-futuro,future,,X
-fácil,easy,,X
+feliz,happy,,ADJ
+fiesta,party/festival,,NOUN
+fin,end,,NOUN
+final,end/final,,NOUN
+fondo,bottom/background,,NOUN
+forma,shape/way,,NOUN
+foto,photo,,NOUN
+frente,forehead/front,,NOUN
+frío,cold,,NOUN
+fuego,fire,,NOUN
+fuera,outside,,ADV
+fuerte,strong,,ADJ
+fuerza,force/strength,,NOUN
+futuro,future,,NOUN
+fácil,easy,,ADJ
 ganar,to win/earn,,VERB
 general,general,,ADJ
 genial,awesome,,ADJ
-gente,people,,X
-gobierno,government,,X
-gracias,thank you,,X
-gracioso,funny,,ADJ
-gran,great/large,,X
-grande,big/large,,X
-grupo,group,,X
-guerra,war,,X
-gusto,taste/pleasure,,X
-haber,to have (auxiliary),,VERB
+gente,people,,NOUN
+gobierno,government,,NOUN
+gran,great/large,,ADJ
+grande,big/large,,ADJ
+grupo,group,,NOUN
+guerra,war,,NOUN
+gusto,taste/pleasure,,NOUN
+haber,to have (auxiliary),,AUX
 habitación,room,,NOUN
 hablar,to speak,,VERB
 hacer,to do/make,,VERB
-hacia,towards,,X
-hambre,hunger,,X
+hacia,towards,,ADP
+hambre,hunger,,NOUN
 hasta,until/up to,,ADP
-hay,there is/there are,,X
-haz,do! (imperative)/beam,,X
-hecho,fact/done,,X
-hermana,sister,,X
-hermano,brother,,X
-hermoso,beautiful,,ADJ
-hija,daughter,,X
-hijo,son,,X
-historia,story/history,,X
-hogar,home,,VERB
-hola,hello,,X
-hombre,man,,X
+hecho,fact/done,,ADJ
+hermana,sister,,NOUN
+hermano,brother,,NOUN
+hija,daughter,,NOUN
+hijo,son,,NOUN
+historia,story/history,,NOUN
+hogar,home,,NOUN
+hola,hello,,NOUN
+hombre,man,,NOUN
 honor,honor,,NOUN
-hora,hour,,X
+hora,hour,,NOUN
 horrible,horrible,,ADJ
-hotel,hotel,,X
-hoy,today,,X
-humano,human,,X
-idea,idea,,X
-idiota,idiot/idiotic,,X
+hotel,hotel,,NOUN
+hoy,today,,ADV
+humano,human,,NOUN
+idea,idea,,NOUN
+idiota,idiot/idiotic,,NOUN
 igual,equal/same,,ADJ
 importante,important,,ADJ
 imposible,impossible,,ADJ
-incluso,even,,X
-increíble,incredible/amazing,,X
+incluso,even,,ADV
+increíble,incredible/amazing,,ADJ
 información,information,,NOUN
-inteligente,intelligent,,X
-intento,attempt,,X
+inteligente,intelligent,,ADJ
+intento,attempt,,NOUN
 interesante,interesting,,ADJ
 investigación,investigation,,NOUN
 ir,to go,,VERB
-izquierda,left,,X
-jamás,never,,X
-jefe,boss,,X
-joder,fuck/damn,,VERB
-joven,young,,X
-juego,game,,X
+izquierda,left,,NOUN
+jamás,never,,ADV
+jefe,boss,,NOUN
+joder,fuck/damn,,NOUN
+joven,young,,ADJ
+juego,game,,NOUN
 jugar,to play,,VERB
-juicio,trial/judgment,,X
-junto,together,,X
-juro,I swear/oath,,X
-justo,just/fair/exactly,,X
-la,the/her/it,,DET
-lado,side,,VERB
-lamento,I'm sorry/regret,,X
-largo,long,,X
-las,them (feminine),,DET
-le,him/her,,X
-lejos,far,,X
-les,them,,X
-libertad,freedom,,X
-libre,free,,X
-libro,book,,X
-lindo,pretty,,X
+juicio,trial/judgment,,NOUN
+junto,together,,ADJ
+juro,I swear/oath,,NOUN
+justo,just/fair/exactly,,ADV
+lado,side,,NOUN
+lamento,I'm sorry/regret,,VERB
+largo,long,,ADJ
+lejos,far,,ADV
+libertad,freedom,,NOUN
+libre,free,,ADJ
+libro,book,,NOUN
+lindo,pretty,,ADJ
 lista,list,,NOUN
-listo,ready/smart,,X
+listo,ready/smart,,ADJ
 llamar,to call,,VERB
-llave,key,,X
+llave,key,,NOUN
 llegar,to arrive,,VERB
 llevar,to carry/take,,VERB
-lo,it/him,,X
-loco,crazy,,X
+loco,crazy,,ADJ
 locura,madness,,NOUN
-los,them (masculine),,DET
-luego,later/then,,X
-luz,light,,X
-línea,line,,X
-madre,mother,,X
-mal,bad,,ADJ
+luego,later/then,,ADV
+luz,light,,NOUN
+línea,line,,NOUN
+madre,mother,,NOUN
+mal,bad,,ADV
 maldición,curse,,NOUN
-malo,bad,,X
-mamá,mom,,X
+mamá,mom,,NOUN
 manera,way/manner,,NOUN
-mano,hand,,X
+mano,hand,,NOUN
 mantener,to maintain/keep,,VERB
-mar,sea,,VERB
-marido,husband,,VERB
-matrimonio,marriage/couple,,X
-mayor,older/larger,,NOUN
-mayoría,majority,,X
-mañana,tomorrow/morning,,X
-me,me,,X
-medio,middle/means/half,,X
-mejor,better,,NOUN
-menos,less,,ADP
-mensaje,message,,X
+mar,sea,,NOUN
+marido,husband,,NOUN
+matrimonio,marriage/couple,,NOUN
+mayor,older/larger,,ADJ
+mayoría,majority,,NOUN
+mañana,tomorrow/morning,,ADV
+me,me,,PRON
+medio,middle/means/half,,NOUN
+mejor,better,,ADJ
+menos,less,,ADV
+mensaje,message,,NOUN
 mentir,to lie,,VERB
-mes,month,,X
-mesa,table,,X
-mi,my,,X
-miedo,fear,,X
-mientras,while,,X
-minuto,minute,,X
+mes,month,,NOUN
+mesa,table,,NOUN
+mi,my,,PRON
+miedo,fear,,NOUN
+mientras,while,,SCONJ
+minuto,minute,,NOUN
 mirar,to look/watch,,VERB
-misión,mission,,X
-mismo,same/self,,NOUN
-mitad,half,,X
-modo,way/mode,,X
-momento,moment,,X
-montón,pile/a lot,,X
+misión,mission,,NOUN
+mismo,same/self,,ADJ
+mitad,half,,NOUN
+modo,way/mode,,NOUN
+momento,moment,,NOUN
+montón,pile/a lot,,NOUN
 morir,to die,,VERB
-muchacho,boy,,X
-mucho,a lot/much,,X
-mujer,woman,,VERB
-mundo,world,,X
-muy,very,,ADP
-más,more,,ADP
+muchacho,boy,,NOUN
+mucho,a lot/much,,PRON
+mujer,woman,,NOUN
+mundo,world,,NOUN
+muy,very,,ADV
+más,more,,ADV
 médico,doctor/medical,,ADJ
-nada,nothing,,X
-nadie,nobody,,X
-nave,ship/spaceship,,X
+nada,nothing,,PRON
+nadie,nobody,,PRON
+nave,ship/spaceship,,NOUN
 navidad,Christmas,,NOUN
-necesario,necessary,,X
+necesario,necessary,,ADJ
 necesitar,to need,,VERB
-negocio,business,,X
-negro,black,,X
-ni,nor/not even,,X
-nivel,level,,X
-niña,girl,,X
-niño,boy/child,,X
-no,no,,ADP
-noche,night,,X
-nombre,name,,X
+negocio,business,,NOUN
+negro,black,,NOUN
+ni,nor/not even,,CCONJ
+nivel,level,,NOUN
+niña,girl,,NOUN
+niño,boy/child,,NOUN
+no,no,,ADV
+noche,night,,NOUN
+nombre,name,,NOUN
 normal,normal,,ADJ
-nos,us,,X
-nosotros,we,,X
-novia,girlfriend/bride,,X
-novio,boyfriend/groom,,X
-nuestro,our,,X
-nuevo,new,,X
-nunca,never,,X
-número,number,,X
-o,or,,ADP
-ocho,eight,,X
-odio,hate,,X
+nos,us,,PRON
+nosotros,we,,PRON
+novia,girlfriend/bride,,NOUN
+novio,boyfriend/groom,,NOUN
+nuestro,our,,DET
+nuevo,new,,ADJ
+nunca,never,,ADV
+número,number,,NOUN
+o,or,,CCONJ
+ocho,eight,,NUM
+odio,hate,,NOUN
 oficial,official/officer,,ADJ
-oficina,office,,X
-opinión,opinion,,X
+oficina,office,,NOUN
+opinión,opinion,,NOUN
 oportunidad,opportunity,,NOUN
-orden,order,,X
+orden,order,,NOUN
 oro,gold,,X
-os,you all,,X
-otro,another/other,,X
-oído,hearing/inner ear,,X
-oír,to hear,,X
-padre,father,,X
+otro,another/other,,PRON
+oído,hearing/inner ear,,ADJ
+oír,to hear,,VERB
+padre,father,,NOUN
 pagar,to pay,,VERB
-palabra,word,,X
-papel,paper,,X
-papá,dad,,X
-par,pair,,VERB
+palabra,word,,NOUN
+papel,paper,,NOUN
+papá,dad,,NOUN
+par,pair,,NOUN
 para,for/in order to,,ADP
 parar,to stop,,VERB
-parte,part,,X
-pasa,raisin/happens,,X
-pasado,past,,VERB
+parte,part,,NOUN
+pasado,past,,ADJ
 pasar,to happen/pass,,VERB
-paso,step,,X
-paz,peace,,X
-país,country,,X
+paso,step,,NOUN
+paz,peace,,NOUN
+país,country,,NOUN
 pedir,to ask for/order,,VERB
-peligro,danger,,X
-pelo,hair,,X
-pena,pity/sorrow/penalty,,X
+peligro,danger,,NOUN
+pelo,hair,,NOUN
+pena,pity/sorrow/penalty,,NOUN
 pensar,to think,,VERB
-peor,worse,,NOUN
-pequeño,small,,X
+peor,worse,,ADJ
+pequeño,small,,ADJ
 perder,to lose,,VERB
-perdón,excuse me/sorry,,X
-perfecto,perfect,,X
-permiso,permission,,X
-pero,but,,ADP
-perro,dog,,X
-persona,person,,X
-pie,foot,,X
-piso,apartment/floor,,X
-placer,pleasure,,VERB
-plan,plan,,X
-planeta,planet,,X
-plato,plate/dish,,X
-pobre,poor,,X
-poco,little/few,,X
-poder,to be able to/can,,VERB
+perdón,excuse me/sorry,,NOUN
+perfecto,perfect,,ADJ
+permiso,permission,,NOUN
+pero,but,,CCONJ
+perro,dog,,NOUN
+persona,person,,NOUN
+pie,foot,,NOUN
+piso,apartment/floor,,NOUN
+placer,pleasure,,NOUN
+plan,plan,,NOUN
+planeta,planet,,NOUN
+plato,plate/dish,,NOUN
+pobre,poor,,ADJ
+poco,little/few,,PRON
+poder,to be able to/can,,NOUN
 poner,to put/place,,VERB
 por,by/for/through,,ADP
-porque,because,,X
+porque,because,,SCONJ
 posible,possible,,ADJ
 posición,position,,NOUN
-pregunta,question,,X
-presidente,president,,X
-primer,first,,VERB
-primero,first,,X
-principio,beginning,,X
-prisa,hurry,,X
-prisión,prison,,X
-probablemente,probably,,X
-problema,problem,,X
+presidente,president,,NOUN
+primero,first,,ADJ
+principio,beginning,,NOUN
+prisa,hurry,,NOUN
+prisión,prison,,NOUN
+probablemente,probably,,ADV
+problema,problem,,NOUN
 profesor,teacher/professor,,NOUN
-programa,program,,X
-pronto,soon/early,,X
-propio,own,,X
-prueba,proof/test,,X
-pueblo,village/people,,X
-puerta,door,,X
-pues,well/then,,X
-puesto,stall/position,,X
-punto,point,,X
+programa,program,,NOUN
+pronto,soon/early,,ADV
+propio,own,,ADJ
+prueba,proof/test,,NOUN
+pueblo,village/people,,NOUN
+puerta,door,,NOUN
+pues,well/then,,SCONJ
+puesto,stall/position,,NOUN
+punto,point,,NOUN
 público,public/audience,,ADJ
-que,that/which,,ADP
+que,that/which,,SCONJ
 querer,to want/love,,VERB
-querido,darling/dear,,VERB
-quizá,maybe/perhaps,,X
-quizás,perhaps/maybe,,X
-quién,who,,X
-qué,what,,X
-raro,weird/rare,,X
-rato,while/moment,,X
-razón,reason,,X
+querido,darling/dear,,NOUN
+quizá,maybe/perhaps,,ADV
+quizás,perhaps/maybe,,ADV
+quién,who,,PRON
+qué,what,,PRON
+rato,while/moment,,NOUN
+razón,reason,,NOUN
 real,real/royal,,ADJ
 realidad,reality,,NOUN
-realmente,really,,X
-recuerdo,memory/souvenir,,X
-regalo,gift,,X
+realmente,really,,ADV
+regalo,gift,,NOUN
 regresar,to return,,VERB
 relación,relationship,,NOUN
 reputación,reputation,,NOUN
-respeto,respect,,X
-respuesta,answer,,X
-resto,rest/remainder,,X
-reunión,meeting,,X
-rey,king,,X
-ropa,clothes,,X
-ruta,route/path,,X
-rápido,fast,,VERB
+respeto,respect,,NOUN
+respuesta,answer,,NOUN
+resto,rest/remainder,,NOUN
+reunión,meeting,,NOUN
+rey,king,,NOUN
+ropa,clothes,,NOUN
+ruta,route/path,,NOUN
+rápido,fast,,ADJ
 saber,to know (facts)/how to,,VERB
 sacar,to take out/get,,VERB
-sala,room/living room,,X
-salida,exit/departure,,X
+sala,room/living room,,NOUN
+salida,exit/departure,,NOUN
 salir,to leave/go out,,VERB
 salvar,to save,,VERB
-se,himself/herself/themselves,,X
 seguir,to follow/continue,,VERB
-segundo,second,,X
+segundo,second,,ADJ
 seguridad,security/safety,,NOUN
-seguro,safe/sure,,X
-seis,six,,X
-semana,week,,X
-sentido,sense/meaning,,VERB
+seguro,safe/sure,,ADJ
+seis,six,,NUM
+semana,week,,NOUN
+sentido,sense/meaning,,NOUN
 sentir,to feel/regret,,VERB
-ser,to be,,VERB
-serio,serious,,X
-servicio,service/toilet,,X
-sexo,sex,,X
-señal,sign/signal,,ADJ
+ser,to be,,AUX
+serio,serious,,ADJ
+servicio,service/toilet,,NOUN
+sexo,sex,,NOUN
+señal,sign/signal,,NOUN
 señor,Mr./sir,,NOUN
-señora,Mrs./madam,,X
-si,if,,ADP
-siempre,always,,X
-siete,seven,,X
-simple,simple,,X
+si,if,,SCONJ
+siempre,always,,ADV
+siete,seven,,NUM
+simple,simple,,ADJ
 sin,without,,ADP
-sistema,system,,X
-sitio,site/place,,X
+sistema,system,,NOUN
+sitio,site/place,,NOUN
 situación,situation,,NOUN
 sobre,on/about,,ADP
-sol,sun,,X
-solo,alone,,X
-sorpresa,surprise,,X
-su,his/her/their,,X
-suelo,floor/ground,,X
-suerte,luck,,X
-sueño,dream/sleep,,X
-suficiente,enough/sufficient,,X
-sí,yes,,X
-tal,such,,ADJ
-también,also/too,,X
-tampoco,neither/not either,,X
-tan,so,,ADP
-tanto,so much,,ADP
-tarde,late/afternoon,,X
-te,you,,X
-teléfono,phone,,X
-tema,topic/theme,,X
-temprano,early,,X
+sol,sun,,NOUN
+sorpresa,surprise,,NOUN
+su,his/her/their,,DET
+suelo,floor/ground,,NOUN
+suerte,luck,,NOUN
+sueño,dream/sleep,,NOUN
+suficiente,enough/sufficient,,ADJ
+sí,yes,,INTJ
+tal,such,,PRON
+también,also/too,,ADV
+tampoco,neither/not either,,ADV
+tan,so,,ADV
+tanto,so much,,PRON
+tarde,late/afternoon,,ADV
+teléfono,phone,,NOUN
+tema,topic/theme,,NOUN
+temprano,early,,VERB
 tener,to have,,VERB
 terminar,to finish/end,,VERB
 terrible,terrible,,ADJ
-tiempo,time/weather,,X
-tienda,shop/store,,X
-tierra,earth/land,,X
-tipo,type/guy,,X
-todavía,still,,X
-todo,everything/all,,X
+tiempo,time/weather,,NOUN
+tienda,shop/store,,NOUN
+tierra,earth/land,,NOUN
+tipo,type/guy,,NOUN
+todavía,still,,ADV
+todo,everything/all,,PRON
 tomar,to take/drink,,VERB
-tontería,nonsense/foolishness,,X
-tonto,silly/fool,,X
-totalmente,totally/completely,,X
+tontería,nonsense/foolishness,,NOUN
+tonto,silly/fool,,ADJ
+totalmente,totally/completely,,ADV
 trabajar,to work,,VERB
-trabajo,work/job,,X
-traje,suit/costume,,X
-trasero,butt/rear,,X
-trato,deal/treatment,,X
-tren,train,,X
-tres,three,,X
-triste,sad,,X
-tu,your,,X
-tía,aunt,,X
-tío,uncle,,X
-tú,you,,X
-un,a/one,,DET
-una,a/one,,DET
-uno,one,,X
+trabajo,work/job,,NOUN
+traje,suit/costume,,NOUN
+trasero,butt/rear,,NOUN
+trato,deal/treatment,,NOUN
+tren,train,,NOUN
+tres,three,,NUM
+triste,sad,,ADJ
+tu,your,,PRON
+tía,aunt,,NOUN
+tío,uncle,,NOUN
+tú,you,,PRON
+una,a/one,,PRON
+uno,one,,DET
 usar,to use,,VERB
-usted,you (formal),,X
-ustedes,you all (formal),,X
-vale,okay,,X
 venir,to come,,VERB
-ventana,window,,X
+ventana,window,,NOUN
 ver,to see,,VERB
-verdadero,true/real,,X
-vestido,dress,,VERB
-vez,time (occasion),,X
-viaje,trip/journey,,X
-vida,life,,X
-viejo,old,,X
-vino,wine,,X
+verdadero,true/real,,NOUN
+vestido,dress,,ADJ
+vez,time (occasion),,NOUN
+viaje,trip/journey,,NOUN
+vida,life,,NOUN
+viejo,old,,ADJ
+vino,wine,,NOUN
 vista,view/sight,,NOUN
 vivir,to live,,VERB
 vivo,alive,,ADJ
 volver,to return,,VERB
-vosotros,you (plural),,X
-voz,voice,,X
-vuelta,return/turn,,X
-y,and,,ADP
-ya,already/now,,X
-yo,I,,X
-zona,zone/area,,X
-él,he,,X
-éxito,success,,X
-último,last,,X
+voz,voice,,NOUN
+vuelta,return/turn,,NOUN
+y,and,,CCONJ
+zona,zone/area,,NOUN
+él,he,,PRON
+éxito,success,,NOUN
+último,last,,ADJ
 único,unique/only,,ADJ
