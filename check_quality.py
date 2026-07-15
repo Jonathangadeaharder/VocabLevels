@@ -22,6 +22,28 @@ ROOT = Path(__file__).parent
 
 SPECIAL_CHARS = re.compile(r"[?!@#$%^&*()_=+\[\]{};:\"\\|<>~`]")
 
+
+# Legitimate numeric/tech lemmas (A1 numbers, ordinals, loanwords) — not hygiene defects.
+_DIGIT_OK = re.compile(
+    r"^("
+    r"[0-9]$|"  # single digit
+    r"[0-9]+[eE]$|"  # Dutch ordinals 1e, 2e
+    r"[0-9]+de$|"  # 2de
+    r"[0-9]+ste$|"  # 1ste
+    r"[0-9]+[gG]$|"  # 5G, 6G
+    r"co2$|3d$|"  # tech abbreviations
+    r".*打印$"  # 3D打印 etc.
+    r")$",
+    re.IGNORECASE,
+)
+
+
+def _digits_allowed(lemma: str) -> bool:
+    if not re.search(r"[0-9]", lemma):
+        return False
+    return bool(_DIGIT_OK.match(lemma.strip()))
+
+
 # Harmonized dual-pivot column layout on disk (commit c122a99), read
 # positionally rather than through a name-keyed dict reader. English and
 # Chinese are the two pivot languages: their lemma column name legitimately
@@ -98,7 +120,7 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
             if " " in lemma:
                 print(f"    L{idx}: multi-word lemma '{lemma}'")
                 issues += 1
-            if re.search(r"[0-9]", lemma):
+            if re.search(r"[0-9]", lemma) and not _digits_allowed(lemma):
                 print(f"    L{idx}: digits in lemma '{lemma}'")
                 issues += 1
             if SPECIAL_CHARS.search(lemma):

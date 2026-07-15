@@ -127,6 +127,36 @@ class TestCheckLanguage:
         assert issues >= 1
         assert "digits" in capsys.readouterr().out
 
+    @pytest.mark.parametrize(
+        "lemma",
+        ["5G", "6g", "co2", "CO2", "3d", "3D", "1e", "2de", "1ste", "3D打印"],
+    )
+    def test_legitimate_digit_lemmas_not_flagged(
+        self, tmp_repo: Path, capsys: pytest.CaptureFixture[str], lemma: str
+    ) -> None:
+        cfg = cq.LANGS["german"]
+        path = tmp_repo / "german" / "A1.csv"
+        with path.open(encoding="utf-8", newline="") as f:
+            rows = list(csv.DictReader(f))
+        rows.append(
+            {cfg["lemma_col"]: lemma, "English_Lemma": "x", "Chinese_Lemma": "x"}
+        )
+        with path.open("w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(
+                f,
+                fieldnames=[cfg["lemma_col"], "English_Lemma", "Chinese_Lemma", "POS"],
+            )
+            writer.writeheader()
+            writer.writerows(rows)
+        cq.check_language("german")
+        assert "digits in lemma" not in capsys.readouterr().out
+
+    def test_digits_allowed_rejects_non_allowlisted_alphanumeric(self) -> None:
+        assert cq._digits_allowed("a1") is False
+        assert cq._digits_allowed("a4") is False
+        assert cq._digits_allowed("2x") is False
+        assert cq._digits_allowed("word123") is False
+
     def test_special_chars_in_lemma_flagged(
         self, tmp_repo: Path, capsys: pytest.CaptureFixture[str]
     ) -> None:

@@ -327,32 +327,44 @@ ARABIC_B2_RELOCATE_TO_C1 = {
 
 
 def redistribute_arabic_b2(cs: ChangeSet) -> None:
-    """Relocate 14 C1-appropriate words from arabic/B2 to arabic/C1."""
-    c1_rows = load_csv("arabic", "C1")
-    room = TARGETS["C1"] - len(c1_rows)
-    if room < len(ARABIC_B2_RELOCATE_TO_C1):
-        cs.blockers.append(
-            f"arabic/C1 only has room for {room}, "
-            f"but {len(ARABIC_B2_RELOCATE_TO_C1)} to relocate"
-        )
-        return
+    """Relocate C1-appropriate words from arabic/B2 to arabic/C1.
+
+    Only blocks on room actually needed for the candidates *found* in B2's
+    overflow zone — not the full static ``ARABIC_B2_RELOCATE_TO_C1`` list,
+    which may already be partially or fully relocated (or trimmed) from a
+    prior run, making a room check against its full size a false blocker.
+    """
     b2_rows = load_csv("arabic", "B2")
     b2_target = TARGETS["B2"]
     lemma_col = LANG_LEMMA_COL["arabic"]
     # Only relocate from the overflow zone (indices >= target) so cultural
     # terms in the target zone are preserved.
-    for i, row in enumerate(b2_rows[b2_target:], start=b2_target + 2):
-        lemma = (row.get(lemma_col) or "").strip()
-        if lemma in ARABIC_B2_RELOCATE_TO_C1:
-            cs.relocations.append(
-                RelocateChange(
-                    src_file="arabic/B2.csv",
-                    src_line=i,
-                    lemma=lemma,
-                    dst_file="arabic/C1.csv",
-                    reason="C1-appropriate cultural term",
-                )
+    candidates = [
+        (i, (row.get(lemma_col) or "").strip())
+        for i, row in enumerate(b2_rows[b2_target:], start=b2_target + 2)
+        if (row.get(lemma_col) or "").strip() in ARABIC_B2_RELOCATE_TO_C1
+    ]
+    if not candidates:
+        return
+
+    c1_rows = load_csv("arabic", "C1")
+    room = TARGETS["C1"] - len(c1_rows)
+    if room < len(candidates):
+        cs.blockers.append(
+            f"arabic/C1 only has room for {room}, but {len(candidates)} to relocate"
+        )
+        return
+
+    for i, lemma in candidates:
+        cs.relocations.append(
+            RelocateChange(
+                src_file="arabic/B2.csv",
+                src_line=i,
+                lemma=lemma,
+                dst_file="arabic/C1.csv",
+                reason="C1-appropriate cultural term",
             )
+        )
 
 
 def trim_unique_overflow(cs: ChangeSet) -> None:
