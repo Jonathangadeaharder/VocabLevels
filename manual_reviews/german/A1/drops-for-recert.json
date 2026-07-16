@@ -1,0 +1,810 @@
+[
+  {
+    "line": 7,
+    "lemma": "allem",
+    "english": "all",
+    "chinese": "全部",
+    "pos": "DET",
+    "prior_reason": "Inflected duplicate of all."
+  },
+  {
+    "line": 8,
+    "lemma": "allen",
+    "english": "all",
+    "chinese": "全部",
+    "pos": "DET",
+    "prior_reason": "Inflected duplicate of all."
+  },
+  {
+    "line": 14,
+    "lemma": "alten",
+    "english": "old",
+    "chinese": "老的",
+    "pos": "ADJ",
+    "prior_reason": "Inflected duplicate of alt."
+  },
+  {
+    "line": 16,
+    "lemma": "am",
+    "english": "at the",
+    "chinese": "在...上",
+    "pos": "ADP",
+    "prior_reason": "Contraction rather than citation lemma."
+  },
+  {
+    "line": 37,
+    "lemma": "besser",
+    "english": "better",
+    "chinese": "更好",
+    "pos": "ADJ",
+    "prior_reason": "Comparative form of gut and duplicate concept."
+  },
+  {
+    "line": 63,
+    "lemma": "das",
+    "english": "the / that",
+    "chinese": "这/那个",
+    "pos": "PRON",
+    "prior_reason": "Mixes determiner and pronoun senses in a noncanonical paradigm form."
+  },
+  {
+    "line": 69,
+    "lemma": "denen",
+    "english": "those",
+    "chinese": "那些",
+    "pos": "PRON",
+    "prior_reason": "Dative plural inflection rather than citation lemma."
+  },
+  {
+    "line": 73,
+    "lemma": "die",
+    "english": "the",
+    "chinese": "这/那个",
+    "pos": "DET",
+    "prior_reason": "Inflected article duplicating citation lemma der."
+  },
+  {
+    "line": 102,
+    "lemma": "euch",
+    "english": "you (acc)",
+    "chinese": "你们",
+    "pos": "PRON",
+    "prior_reason": "Case-inflected form rather than citation lemma."
+  },
+  {
+    "line": 136,
+    "lemma": "gerne",
+    "english": "gladly",
+    "chinese": "乐意地",
+    "pos": "ADV",
+    "prior_reason": "Exact variant duplicate of gern."
+  },
+  {
+    "line": 172,
+    "lemma": "ihm",
+    "english": "him",
+    "chinese": "他(与格)",
+    "pos": "PRON",
+    "prior_reason": "Dative inflection of er rather than citation lemma."
+  },
+  {
+    "line": 173,
+    "lemma": "ihn",
+    "english": "him",
+    "chinese": "他(宾格)",
+    "pos": "PRON",
+    "prior_reason": "Accusative inflection of er rather than citation lemma."
+  },
+  {
+    "line": 174,
+    "lemma": "ihnen",
+    "english": "them",
+    "chinese": "他们(与格)",
+    "pos": "PRON",
+    "prior_reason": "Dative plural inflection of sie rather than citation lemma."
+  },
+  {
+    "line": 177,
+    "lemma": "Ihrerseits",
+    "english": "on your part",
+    "chinese": "在您方面",
+    "pos": "ADV",
+    "prior_reason": "Clearly above plausible CEFR A1 level."
+  },
+  {
+    "line": 178,
+    "lemma": "im",
+    "english": "in the",
+    "chinese": "在...中",
+    "pos": "ADP",
+    "prior_reason": "Contraction rather than citation lemma."
+  },
+  {
+    "line": 181,
+    "lemma": "ins",
+    "english": "into the",
+    "chinese": "进入",
+    "pos": "ADP",
+    "prior_reason": "Contraction rather than citation lemma."
+  },
+  {
+    "line": 200,
+    "lemma": "komm",
+    "english": "come",
+    "chinese": "来",
+    "pos": "INTJ",
+    "prior_reason": "Imperative inflection of kommen, not an INTJ lemma."
+  },
+  {
+    "line": 220,
+    "lemma": "los",
+    "english": "loose / go",
+    "chinese": "出发",
+    "pos": "ADV",
+    "prior_reason": "Conflates adjective and particle/adverb senses."
+  },
+  {
+    "line": 232,
+    "lemma": "mich",
+    "english": "me",
+    "chinese": "我",
+    "pos": "PRON",
+    "prior_reason": "Inflected accusative form of ich, not a citation lemma."
+  },
+  {
+    "line": 233,
+    "lemma": "mir",
+    "english": "me",
+    "chinese": "我",
+    "pos": "PRON",
+    "prior_reason": "Inflected dative form of ich, not a citation lemma."
+  },
+  {
+    "line": 243,
+    "lemma": "Mütterchen",
+    "english": "mommy",
+    "chinese": "小妈妈",
+    "pos": "NOUN",
+    "prior_reason": "Chinese is inaccurate and the dated diminutive is unsuitable for core A1."
+  },
+  {
+    "line": 255,
+    "lemma": "niemals",
+    "english": "never",
+    "chinese": "绝不",
+    "pos": "ADV",
+    "prior_reason": "Duplicates the concept represented by nie."
+  },
+  {
+    "line": 259,
+    "lemma": "nun",
+    "english": "now",
+    "chinese": "现在",
+    "pos": "ADV",
+    "prior_reason": "Duplicates the concept represented by jetzt."
+  },
+  {
+    "line": 287,
+    "lemma": "Scheiß",
+    "english": "crap",
+    "chinese": "糟糕",
+    "pos": "NOUN",
+    "prior_reason": "Chinese is not a noun equivalent and the vulgar item is unsuitable for core A1."
+  },
+  {
+    "line": 344,
+    "lemma": "uns",
+    "english": "us",
+    "chinese": "我们",
+    "pos": "PRON",
+    "prior_reason": "Inflected form of wir, not a citation lemma."
+  },
+  {
+    "line": 349,
+    "lemma": "Vati",
+    "english": "dad",
+    "chinese": "爸爸",
+    "pos": "NOUN",
+    "prior_reason": "Duplicates the concept represented by Papa."
+  },
+  {
+    "line": 379,
+    "lemma": "wem",
+    "english": "to whom",
+    "chinese": "给谁",
+    "pos": "PRON",
+    "prior_reason": "Inflected dative form of wer, not a citation lemma."
+  },
+  {
+    "line": 388,
+    "lemma": "wieso",
+    "english": "why",
+    "chinese": "为什么",
+    "pos": "ADV",
+    "prior_reason": "Duplicates the concept represented by warum."
+  },
+  {
+    "line": 401,
+    "lemma": "ziemlich",
+    "english": "quite",
+    "chinese": "相当",
+    "pos": "ADV",
+    "prior_reason": "Duplicates the concept represented by recht."
+  },
+  {
+    "line": 405,
+    "lemma": "zum",
+    "english": "to the",
+    "chinese": "到",
+    "pos": "ADP",
+    "prior_reason": "Contraction of zu dem, not a citation lemma."
+  },
+  {
+    "line": 406,
+    "lemma": "zur",
+    "english": "to the",
+    "chinese": "到",
+    "pos": "ADP",
+    "prior_reason": "Contraction of zu der, not a citation lemma."
+  },
+  {
+    "line": 415,
+    "lemma": "vorwärts",
+    "english": "ahead",
+    "chinese": "向前",
+    "pos": "ADP",
+    "prior_reason": "Wrong POS and duplicate of valid line 443."
+  },
+  {
+    "line": 416,
+    "lemma": "entlang",
+    "english": "along",
+    "chinese": "沿着",
+    "pos": "ADV",
+    "prior_reason": "Along-path sense is an adposition. The canonical lemma+UPOS already belongs to another unreviewed CEFR level; relocation is deferred until that level's manual review."
+  },
+  {
+    "line": 418,
+    "lemma": "irgendjemand",
+    "english": "anybody",
+    "chinese": "任何人",
+    "pos": "DET",
+    "prior_reason": "Indefinite person pronoun, not determiner. The canonical lemma+UPOS already belongs to another unreviewed CEFR level; relocation is deferred until that level's manual review."
+  },
+  {
+    "line": 419,
+    "lemma": "irgendwer",
+    "english": "anyone",
+    "chinese": "任何人",
+    "pos": "DET",
+    "prior_reason": "Wrong POS and duplicate concept of irgendjemand."
+  },
+  {
+    "line": 420,
+    "lemma": "jedenfalls",
+    "english": "anyway",
+    "chinese": "无论如何",
+    "pos": "DET",
+    "prior_reason": "Sentence adverb, not determiner. The canonical lemma+UPOS already belongs to another unreviewed CEFR level; relocation is deferred until that level's manual review."
+  },
+  {
+    "line": 421,
+    "lemma": "irgendwo",
+    "english": "anywhere",
+    "chinese": "任何地方",
+    "pos": "DET",
+    "prior_reason": "Locative adverb, not determiner. The canonical lemma+UPOS already belongs to another unreviewed CEFR level; relocation is deferred until that level's manual review."
+  },
+  {
+    "line": 422,
+    "lemma": "Sein",
+    "english": "be",
+    "chinese": "是",
+    "pos": "NOUN",
+    "prior_reason": "Wrong capitalization and POS; duplicates existing sein."
+  },
+  {
+    "line": 423,
+    "lemma": "weil",
+    "english": "because",
+    "chinese": "因为",
+    "pos": "ADP",
+    "prior_reason": "Wrong POS and duplicate of valid line 373."
+  },
+  {
+    "line": 424,
+    "lemma": "Glaube",
+    "english": "believe",
+    "chinese": "相信",
+    "pos": "NOUN",
+    "prior_reason": "Noun-verb mismatch; duplicates existing glauben."
+  },
+  {
+    "line": 426,
+    "lemma": "beide",
+    "english": "both",
+    "chinese": "两者",
+    "pos": "CCONJ",
+    "prior_reason": "Wrong POS and duplicate of valid line 33."
+  },
+  {
+    "line": 431,
+    "lemma": "könnte",
+    "english": "could",
+    "chinese": "可能",
+    "pos": "AUX",
+    "prior_reason": "Inflected form of können; concept already present."
+  },
+  {
+    "line": 433,
+    "lemma": "anders",
+    "english": "different",
+    "chinese": "不同的",
+    "pos": "ADJ",
+    "prior_reason": "Wrong POS and duplicate of valid line 20."
+  },
+  {
+    "line": 434,
+    "lemma": "Verschwinden",
+    "english": "disappear",
+    "chinese": "消失",
+    "pos": "NOUN",
+    "prior_reason": "Translations denote the verb, not nominalization. The canonical lemma+UPOS already belongs to another unreviewed CEFR level; relocation is deferred until that level's manual review."
+  },
+  {
+    "line": 435,
+    "lemma": "Erledigung",
+    "english": "done",
+    "chinese": "完成",
+    "pos": "NOUN",
+    "prior_reason": "Translation has wrong lexical category and lemma exceeds A1."
+  },
+  {
+    "line": 439,
+    "lemma": "Erwartung",
+    "english": "expect",
+    "chinese": "期望",
+    "pos": "NOUN",
+    "prior_reason": "Translation has wrong lexical category and lemma exceeds A1."
+  },
+  {
+    "line": 441,
+    "lemma": "wenige",
+    "english": "few",
+    "chinese": "很少的",
+    "pos": "ADJ",
+    "prior_reason": "Inflected form of wenig; concept already present."
+  },
+  {
+    "line": 448,
+    "lemma": "sein",
+    "english": "his",
+    "chinese": "他的",
+    "pos": "PRON",
+    "prior_reason": "Wrong POS and duplicate of valid line 299."
+  },
+  {
+    "line": 449,
+    "lemma": "Beeilung",
+    "english": "hurry",
+    "chinese": "快点",
+    "pos": "INTJ",
+    "prior_reason": "Beeilung is morphologically a noun. The canonical lemma+UPOS already belongs to another unreviewed CEFR level; relocation is deferred until that level's manual review."
+  },
+  {
+    "line": 450,
+    "lemma": "Ich",
+    "english": "I",
+    "chinese": "我",
+    "pos": "NOUN",
+    "prior_reason": "Wrong capitalization and POS; duplicates valid ich."
+  },
+  {
+    "line": 451,
+    "lemma": "innen",
+    "english": "inside",
+    "chinese": "在里面",
+    "pos": "ADP",
+    "prior_reason": "Inside is adverbial, not an adposition. The canonical lemma+UPOS already belongs to another unreviewed CEFR level; relocation is deferred until that level's manual review."
+  },
+  {
+    "line": 453,
+    "lemma": "geringst",
+    "english": "least",
+    "chinese": "最少的",
+    "pos": "ADJ",
+    "prior_reason": "Superlative stem, not a citation lemma."
+  },
+  {
+    "line": 454,
+    "lemma": "weniger",
+    "english": "less",
+    "chinese": "较少的",
+    "pos": "ADJ",
+    "prior_reason": "Comparative form of wenig; concept already present."
+  },
+  {
+    "line": 457,
+    "lemma": "viel",
+    "english": "many",
+    "chinese": "许多",
+    "pos": "ADJ",
+    "prior_reason": "Wrong POS and duplicate of existing viel."
+  },
+  {
+    "line": 459,
+    "lemma": "vielleicht",
+    "english": "maybe",
+    "chinese": "也许",
+    "pos": "INTJ",
+    "prior_reason": "Wrong POS and duplicate of valid line 357."
+  },
+  {
+    "line": 460,
+    "lemma": "Million",
+    "english": "million",
+    "chinese": "百万",
+    "pos": "NUM",
+    "prior_reason": "German Million is a noun and belongs above A1."
+  },
+  {
+    "line": 461,
+    "lemma": "meist",
+    "english": "most",
+    "chinese": "大多数",
+    "pos": "ADJ",
+    "prior_reason": "Current translations and POS describe the wrong use. The canonical lemma+UPOS already belongs to another unreviewed CEFR level; relocation is deferred until that level's manual review."
+  },
+  {
+    "line": 462,
+    "lemma": "mein",
+    "english": "my",
+    "chinese": "我的",
+    "pos": "PRON",
+    "prior_reason": "Wrong POS and duplicate of valid line 228."
+  },
+  {
+    "line": 464,
+    "lemma": "nein",
+    "english": "no",
+    "chinese": "不",
+    "pos": "INTJ",
+    "prior_reason": "Duplicate concept of existing nein."
+  },
+  {
+    "line": 468,
+    "lemma": "unser",
+    "english": "our",
+    "chinese": "我们的",
+    "pos": "PRON",
+    "prior_reason": "Wrong POS and duplicate of valid line 345."
+  },
+  {
+    "line": 471,
+    "lemma": "Platzierung",
+    "english": "put",
+    "chinese": "放置",
+    "pos": "NOUN",
+    "prior_reason": "Mistranslated abstract noun clearly above A1."
+  },
+  {
+    "line": 472,
+    "lemma": "Schnelligkeit",
+    "english": "quick",
+    "chinese": "速度",
+    "pos": "NOUN",
+    "prior_reason": "Mistranslated abstract noun unsuitable for A1."
+  },
+  {
+    "line": 473,
+    "lemma": "Freigabe",
+    "english": "release",
+    "chinese": "释放",
+    "pos": "NOUN",
+    "prior_reason": "Specialized abstract noun clearly above A1."
+  },
+  {
+    "line": 475,
+    "lemma": "Ersparnis",
+    "english": "save",
+    "chinese": "储蓄",
+    "pos": "NOUN",
+    "prior_reason": "Noun-verb mismatch and lemma exceeds A1."
+  },
+  {
+    "line": 477,
+    "lemma": "jemand",
+    "english": "somebody",
+    "chinese": "某人",
+    "pos": "DET",
+    "prior_reason": "Wrong POS and duplicate of valid line 186."
+  },
+  {
+    "line": 478,
+    "lemma": "Ausgabe",
+    "english": "spend",
+    "chinese": "支出",
+    "pos": "NOUN",
+    "prior_reason": "Noun-verb mismatch and lemma exceeds A1."
+  },
+  {
+    "line": 481,
+    "lemma": "solch",
+    "english": "such",
+    "chinese": "这样的",
+    "pos": "ADJ",
+    "prior_reason": "Determinative sense requires DET. The canonical lemma+UPOS already belongs to another unreviewed CEFR level; relocation is deferred until that level's manual review."
+  },
+  {
+    "line": 482,
+    "lemma": "Schwur",
+    "english": "swear",
+    "chinese": "誓言",
+    "pos": "NOUN",
+    "prior_reason": "Noun-verb mismatch and lemma clearly exceeds A1."
+  },
+  {
+    "line": 483,
+    "lemma": "Einnahme",
+    "english": "take",
+    "chinese": "采取/摄入",
+    "pos": "NOUN",
+    "prior_reason": "Mixed senses and noun-verb mismatch above A1."
+  },
+  {
+    "line": 485,
+    "lemma": "da",
+    "english": "there",
+    "chinese": "那里",
+    "pos": "PRON",
+    "prior_reason": "Wrong POS and duplicate of valid line 53."
+  },
+  {
+    "line": 486,
+    "lemma": "diese",
+    "english": "these",
+    "chinese": "这些",
+    "pos": "PRON",
+    "prior_reason": "Inflected form of dieser and duplicate concept."
+  },
+  {
+    "line": 487,
+    "lemma": "dieser",
+    "english": "this",
+    "chinese": "这个",
+    "pos": "PRON",
+    "prior_reason": "Duplicate concept of existing line 74."
+  },
+  {
+    "line": 489,
+    "lemma": "zusammen",
+    "english": "together",
+    "chinese": "一起",
+    "pos": "ADP",
+    "prior_reason": "Wrong POS and duplicate of valid line 408."
+  },
+  {
+    "line": 494,
+    "lemma": "oben",
+    "english": "up",
+    "chinese": "在上面",
+    "pos": "ADP",
+    "prior_reason": "Wrong POS and duplicate of valid line 262."
+  },
+  {
+    "line": 495,
+    "lemma": "wollen",
+    "english": "want",
+    "chinese": "想要",
+    "pos": "VERB",
+    "prior_reason": "Wrong POS and duplicate of valid line 389."
+  },
+  {
+    "line": 496,
+    "lemma": "Waschen",
+    "english": "wash",
+    "chinese": "洗",
+    "pos": "NOUN",
+    "prior_reason": "Translations denote the verb, not nominalization. The canonical lemma+UPOS already belongs to another unreviewed CEFR level; relocation is deferred until that level's manual review."
+  },
+  {
+    "line": 498,
+    "lemma": "Willkommen",
+    "english": "welcome",
+    "chinese": "欢迎",
+    "pos": "NOUN",
+    "prior_reason": "Wrong citation capitalization and POS. The canonical lemma+UPOS already belongs to another unreviewed CEFR level; relocation is deferred until that level's manual review."
+  },
+  {
+    "line": 500,
+    "lemma": "egal",
+    "english": "whatever",
+    "chinese": "无论什么",
+    "pos": "PRON",
+    "prior_reason": "Current translations and POS describe the wrong category. The canonical lemma+UPOS already belongs to another unreviewed CEFR level; relocation is deferred until that level's manual review."
+  },
+  {
+    "line": 502,
+    "lemma": "Besorgnis",
+    "english": "worried",
+    "chinese": "担忧",
+    "pos": "NOUN",
+    "prior_reason": "Noun-adjective mismatch, duplicate concept, and above A1."
+  },
+  {
+    "line": 503,
+    "lemma": "Verschlechterung",
+    "english": "worse",
+    "chinese": "恶化",
+    "pos": "NOUN",
+    "prior_reason": "Noun-adjective mismatch and clearly above A1."
+  },
+  {
+    "line": 504,
+    "lemma": "würde",
+    "english": "would",
+    "chinese": "会",
+    "pos": "AUX",
+    "prior_reason": "Inflected form of werden; lemma already present."
+  },
+  {
+    "line": 506,
+    "lemma": "ja",
+    "english": "yeah",
+    "chinese": "是",
+    "pos": "INTJ",
+    "prior_reason": "Duplicate concept of existing ja."
+  },
+  {
+    "line": 507,
+    "lemma": "noch",
+    "english": "yet",
+    "chinese": "还",
+    "pos": "CCONJ",
+    "prior_reason": "Wrong POS and duplicate of valid line 257."
+  },
+  {
+    "line": 508,
+    "lemma": "dein",
+    "english": "your",
+    "chinese": "你的",
+    "pos": "PRON",
+    "prior_reason": "Wrong POS and duplicate of valid line 67."
+  },
+  {
+    "line": 509,
+    "lemma": "selbst",
+    "english": "yourself",
+    "chinese": "你自己",
+    "pos": "PRON",
+    "prior_reason": "Wrong POS and person-specific mistranslation; duplicate concept."
+  },
+  {
+    "line": 511,
+    "lemma": "beste",
+    "english": "best",
+    "chinese": "最好的",
+    "pos": "ADJ",
+    "prior_reason": "Inflected superlative; concept already represented by gut."
+  },
+  {
+    "line": 512,
+    "lemma": "vollständig",
+    "english": "completely",
+    "chinese": "完全地",
+    "pos": "ADV",
+    "prior_reason": "Duplicate concept of völlig and above A1."
+  },
+  {
+    "line": 513,
+    "lemma": "definitiv",
+    "english": "definitely",
+    "chinese": "肯定地",
+    "pos": "ADV",
+    "prior_reason": "Duplicate concept of bestimmt and above A1."
+  },
+  {
+    "line": 514,
+    "lemma": "letzte",
+    "english": "last",
+    "chinese": "最后的",
+    "pos": "ADJ",
+    "prior_reason": "Inflected form of letzt; concept already present."
+  },
+  {
+    "line": 515,
+    "lemma": "ander",
+    "english": "other",
+    "chinese": "其他的",
+    "pos": "ADJ",
+    "prior_reason": "Duplicate key and concept already at line 19."
+  },
+  {
+    "line": 516,
+    "lemma": "sollte",
+    "english": "should",
+    "chinese": "应该",
+    "pos": "AUX",
+    "prior_reason": "Inflected form of sollen; concept already present."
+  },
+  {
+    "line": 517,
+    "lemma": "jene",
+    "english": "those",
+    "chinese": "那些",
+    "pos": "PRON",
+    "prior_reason": "Inflected form of jener and implausible A1 selection."
+  },
+  {
+    "line": 530,
+    "lemma": "kundig",
+    "english": "knowledgeable",
+    "chinese": "精通的",
+    "pos": "ADJ",
+    "prior_reason": "Clearly above A1."
+  },
+  {
+    "line": 567,
+    "lemma": "Patenfamilie",
+    "english": "godparent family",
+    "chinese": "教父母家庭",
+    "pos": "NOUN",
+    "prior_reason": "Uncertain translation and clearly above A1."
+  },
+  {
+    "line": 572,
+    "lemma": "Kolleg",
+    "english": "colleague",
+    "chinese": "同事",
+    "pos": "NOUN",
+    "prior_reason": "Kolleg means an educational institution, not colleague. The canonical lemma+UPOS already belongs to another unreviewed CEFR level; relocation is deferred until that level's manual review."
+  },
+  {
+    "line": 574,
+    "lemma": "Urenkelin",
+    "english": "great-granddaughter",
+    "chinese": "曾孙女",
+    "pos": "NOUN",
+    "prior_reason": "Implausibly specialized for A1."
+  },
+  {
+    "line": 578,
+    "lemma": "Stifte",
+    "english": "pens",
+    "chinese": "笔",
+    "pos": "NOUN",
+    "prior_reason": "Plural form must be replaced by citation singular. The canonical lemma+UPOS already belongs to another unreviewed CEFR level; relocation is deferred until that level's manual review."
+  },
+  {
+    "line": 585,
+    "lemma": "Jahrzehnt",
+    "english": "decade",
+    "chinese": "十年",
+    "pos": "NOUN",
+    "prior_reason": "Clearly above A1."
+  },
+  {
+    "line": 588,
+    "lemma": "doppeln",
+    "english": "to double",
+    "chinese": "加倍",
+    "pos": "VERB",
+    "prior_reason": "Uncommon verb clearly above A1."
+  },
+  {
+    "line": 599,
+    "lemma": "irreizbar",
+    "english": "irritable",
+    "chinese": "易怒的",
+    "pos": "ADJ",
+    "prior_reason": "German form contradicts the translations; intended reizbar exceeds A1."
+  },
+  {
+    "line": 600,
+    "lemma": "Abendrot",
+    "english": "afterglow",
+    "chinese": "晚霞",
+    "pos": "NOUN",
+    "prior_reason": "Literary specialized noun clearly above A1."
+  }
+]
