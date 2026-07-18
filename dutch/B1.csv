@@ -3,13 +3,13 @@ natuur,nature,自然,NOUN
 officieel,official,官方的,ADJ
 oost,east,东,NOUN
 openbaar,public,公共的,ADJ
-verdienen,earn,赚,VERB
+verdienen,to earn,赚,VERB
 winnaar,winner,获胜者,NOUN
-bedoelen,mean,意指,VERB
-bekijken,look at,观看,VERB
+bedoelen,to mean,意指,VERB
+bekijken,to look at,观看,VERB
 bos,forest,森林,NOUN
 donderdag,Thursday,星期四,NOUN
-duren,last,持续,VERB
+duren,to last,持续,VERB
 gevangenis,prison,监狱,NOUN
 grappig,funny,有趣的,ADJ
 grens,border,边界,NOUN
@@ -45,7 +45,7 @@ groen,green,绿色的,ADJ
 hallo,hello,你好,INTJ
 inhoud,content,内容,NOUN
 premier,prime minister,首相,NOUN
-reizen,travel,旅行,VERB
+reizen,to travel,旅行,VERB
 risico,risk,风险,NOUN
 vereniging,association,协会,NOUN
 westen,west,西方,NOUN
@@ -54,8 +54,8 @@ besluit,decision,决定,NOUN
 commissie,committee,委员会,NOUN
 daardoor,therefore,因此,ADV
 favoriet,favourite,最喜爱的,ADJ
-organiseren,organize,组织,VERB
-richten,focus,聚焦,VERB
+organiseren,to organize,组织,VERB
+richten,to focus,聚焦,VERB
 gouden,golden,金色的,ADJ
 hierbij,hereby,在此,ADV
 indruk,impression,印象,NOUN
@@ -100,7 +100,7 @@ voorstellen,to suggest,建议,VERB
 beroep,profession,职业,NOUN
 betrekking,relation,关系,NOUN
 blauw,blue,蓝色的,ADJ
-openen,open,打开,VERB
+openen,to open,打开,VERB
 geweld,violence,暴力,NOUN
 hiervoor,for this,为此,ADV
 leider,leader,领导者,NOUN
@@ -108,17 +108,17 @@ mede,co-,共同,ADV
 miljard,billion,十亿,NUM
 stijl,style,风格,NOUN
 uitgebreid,extensive,广泛的,ADJ
-verdwijnen,disappear,消失,VERB
+verdwijnen,to disappear,消失,VERB
 zulke,such,这样的,DET
 aardig,nice,友好的,ADJ
 afspraak,appointment,预约,NOUN
 bescherming,protection,保护,NOUN
 binnenkort,soon,不久,ADV
 chinees,Chinese,中国的,ADJ
-eisen,demand,要求,VERB
+eisen,to demand,要求,VERB
 fantastisch,fantastic,极好的,ADJ
 fiets,bicycle,自行车,NOUN
-hoeven,need,需要,VERB
+hoeven,to need,需要,VERB
 hoek,corner,角落,NOUN
 internationaal,international,国际的,ADJ
 japans,Japanese,日本的,ADJ
@@ -148,23 +148,23 @@ eigenaar,owner,所有者,NOUN
 geluid,sound,声音,NOUN
 kamp,camp,营地,NOUN
 klant,customer,顾客,NOUN
-lachen,laugh,笑,VERB
+lachen,to laugh,笑,VERB
 lief,sweet,亲爱的,ADJ
 negen,nine,九,NUM
 ontwerp,design,设计,NOUN
-reageren,respond,回应,VERB
+reageren,to respond,回应,VERB
 strand,beach,海滩,NOUN
 stukje,piece,小块,NOUN
 tuin,garden,花园,NOUN
 vandaan,from,来自,ADP
 vrede,peace,和平,NOUN
 vreemd,strange,奇怪的,ADJ
-zingen,sing,唱歌,VERB
+zingen,to sing,唱歌,VERB
 behandeling,treatment,治疗,NOUN
 beneden,downstairs,楼下,ADV
 berichten,to inform,通知,VERB
 eenmaal,once,一次,ADV
-raken,touch,触摸,VERB
+raken,to touch,触摸,VERB
 honger,hunger,饥饿,NOUN
 meid,girl,女孩,NOUN
 min,minus,减,NOUN
@@ -189,21 +189,21 @@ kritiek,criticism,批评,NOUN
 pak,suit,西装,NOUN
 parlement,parliament,议会,NOUN
 rapport,report,报告,NOUN
-verbeteren,improve,改善,VERB
+verbeteren,to improve,改善,VERB
 verklaring,declaration,声明,NOUN
-verwachten,expect,期待,VERB
+verwachten,to expect,期待,VERB
 vlag,flag,旗帜,NOUN
-vliegen,fly,飞,VERB
+vliegen,to fly,飞,VERB
 voet,foot,脚,NOUN
 voldoende,sufficient,足够的,ADJ
-wensen,wish,祝愿,VERB
+wensen,to wish,祝愿,VERB
 arts,doctor,医生,NOUN
 bijdrage,contribution,贡献,NOUN
 dinsdag,Tuesday,星期二,NOUN
-dromen,dream,做梦,VERB
+dromen,to dream,做梦,VERB
 editie,edition,版本,NOUN
 gebruiker,user,用户,NOUN
-hangen,hang,悬挂,VERB
+hangen,to hang,悬挂,VERB
 hopelijk,hopefully,希望,ADV
 inzet,stake,赌注,NOUN
 kust,coast,海岸,NOUN
@@ -228,7 +228,7 @@ koud,cold,冷的,ADJ
 kwaliteit,quality,质量,NOUN
 ministerie,ministry,部,NOUN
 nauwelijks,hardly,几乎不,ADV
-ontwikkelen,develop,发展,VERB
+ontwikkelen,to develop,发展,VERB
 standaard,standard,标准,NOUN
 studie,study,学习,NOUN
 televisie,television,电视,NOUN
@@ -243,7 +243,7 @@ gefeliciteerd,congratulations,恭喜,INTJ
 gezond,healthy,健康的,ADJ
 initiatief,initiative,主动性,NOUN
 meneer,sir,先生,NOUN
-missen,miss,想念,VERB
+missen,to miss,想念,VERB
 omhoog,upwards,向上,ADV
 positief,positive,积极的,ADJ
 rechtbank,court,法院,NOUN
@@ -294,7 +294,7 @@ olie,oil,油,NOUN
 pad,path,小路,NOUN
 schoon,clean,干净的,ADJ
 simpel,simple,简单的,ADJ
-sterven,die,死,VERB
+sterven,to die,死,VERB
 tenminste,at least,至少,ADV
 twijfel,doubt,怀疑,NOUN
 verkoop,sale,销售,NOUN
@@ -310,13 +310,13 @@ dame,lady,女士,NOUN
 debat,debate,辩论,NOUN
 evenement,event,活动,NOUN
 gedeelte,part,部分,NOUN
-leveren,deliver,交付,VERB
+leveren,to deliver,交付,VERB
 oma,grandma,奶奶,NOUN
 ontzettend,terribly,非常,ADV
 raar,weird,奇怪的,ADJ
-steken,stitch,缝,VERB
+steken,to stitch,缝,VERB
 verbinding,connection,连接,NOUN
-verwijderen,remove,移除,VERB
+verwijderen,to remove,移除,VERB
 waar,true,真实的,ADJ
 auteur,author,作者,NOUN
 broek,trousers,裤子,NOUN
@@ -374,12 +374,12 @@ vooruit,forward,向前,ADV
 weg,road,路,NOUN
 agent,police officer,警察,NOUN
 belachelijk,ridiculous,荒谬的,ADJ
-betekenen,mean,意味着,VERB
-starten,start,开始,VERB
+betekenen,to mean,意味着,VERB
+starten,to start,开始,VERB
 gezellig,cozy,舒适的,ADJ
 groei,growth,增长,NOUN
 handel,trade,贸易,NOUN
-herinneren,remind,提醒,VERB
+herinneren,to remind,提醒,VERB
 industrie,industry,工业,NOUN
 jaarlijks,annual,每年的,ADJ
 moe,tired,疲倦的,ADJ
@@ -393,14 +393,14 @@ thema,theme,主题,NOUN
 tijdelijk,temporary,临时的,ADJ
 unie,union,联盟,NOUN
 verantwoordelijkheid,responsibility,责任,NOUN
-verplichten,oblige,强迫,VERB
+verplichten,to oblige,强迫,VERB
 voorstel,proposal,提议,NOUN
 wereldwijd,worldwide,全球的,ADJ
 alsjeblieft,please,请,INTJ
 arm,poor,贫穷的,ADJ
 beiden,both,两者,PRON
 gevaarlijk,dangerous,危险的,ADJ
-groeien,grow,生长,VERB
+groeien,to grow,生长,VERB
 hof,court,法庭,NOUN
 kwaad,angry,生气的,ADJ
 lengte,length,长度,NOUN
@@ -418,41 +418,41 @@ hoeveelheid,quantity,数量,NOUN
 indien,if,如果,SCONJ
 kwestie,issue,问题,NOUN
 liefst,preferably,最好,ADV
-ontmoeten,meet,遇见,VERB
+ontmoeten,to meet,遇见,VERB
 oorzaak,cause,原因,NOUN
 profiel,profile,个人资料,NOUN
 relatief,relatively,相对地,ADV
-roepen,shout,呼喊,VERB
+roepen,to shout,呼喊,VERB
 spullen,stuff,物品,NOUN
 tas,bag,包,NOUN
 tegelijkertijd,at the same time,同时,ADV
 termijn,term,期限,NOUN
 tijdschrift,magazine,杂志,NOUN
 twaalf,twelve,十二,NUM
-vertrekken,leave,离开,VERB
+vertrekken,to leave,离开,VERB
 volwassen,adult,成年的,ADJ
 wetenschap,science,科学,NOUN
-bespreken,discuss,讨论,VERB
+bespreken,to discuss,讨论,VERB
 brood,bread,面包,NOUN
-controleren,check,检查,VERB
-doorgaan,continue,继续,VERB
+controleren,to check,检查,VERB
+doorgaan,to continue,继续,VERB
 eveneens,also,也,ADV
-gooien,throw,扔,VERB
+gooien,to throw,扔,VERB
 onmiddellijk,immediately,立即,ADV
-ontwerpen,design,设计,VERB
-oplossen,solve,解决,VERB
+ontwerpen,to design,设计,VERB
+oplossen,to solve,解决,VERB
 overig,other,其余的,ADJ
 prins,prince,王子,NOUN
 technologie,technology,技术,NOUN
 terrein,terrain,地形,NOUN
-trouwen,marry,结婚,VERB
+trouwen,to marry,结婚,VERB
 begrip,concept,概念,NOUN
 been,leg,腿,NOUN
 bijeenkomst,meeting,会议,NOUN
 boord,board,船舷,NOUN
 Europees,European,欧洲的,ADJ
 feestje,party,聚会,NOUN
-fietsen,cycle,骑自行车,VERB
+fietsen,to cycle,骑自行车,VERB
 grap,joke,笑话,NOUN
 held,hero,英雄,NOUN
 homo,gay man,男同性恋者,NOUN
@@ -460,7 +460,7 @@ honderd,one hundred,一百,NUM
 honderden,hundreds,数百,NUM
 kandidaat,candidate,候选人,NOUN
 karakter,character,性格,NOUN
-koken,cook,烹饪,VERB
+koken,to cook,烹饪,VERB
 meerderheid,majority,多数,NOUN
 onderstaand,below,下面的,ADJ
 ontbijt,breakfast,早餐,NOUN
@@ -484,30 +484,30 @@ kat,cat,猫,NOUN
 letterlijk,literal,字面上的,ADJ
 minstens,at least,至少,ADV
 missie,mission,使命,NOUN
-opnemen,record,录制,VERB
+opnemen,to record,录制,VERB
 opzicht,respect,方面,NOUN
 Spaans,Spanish,西班牙的,ADJ
 steen,stone,石头,NOUN
 uitdaging,challenge,挑战,NOUN
-uitzenden,broadcast,广播,VERB
+uitzenden,to broadcast,广播,VERB
 uitslag,result,结果,NOUN
 voordeel,advantage,优势,NOUN
 appartement,apartment,公寓,NOUN
 bibliotheek,library,图书馆,NOUN
-creëren,create,创造,VERB
+creëren,to create,创造,VERB
 handig,handy,方便的,ADJ
 hierover,about this,关于这个,ADV
 nogmaals,once more,再次,ADV
 non,nun,修女,NOUN
-ontslaan,dismiss,解雇,VERB
+ontslaan,to dismiss,解雇,VERB
 papa,daddy,爸爸,NOUN
 ruzie,quarrel,争吵,NOUN
 sommigen,some,有些人,PRON
 velen,many,许多人,PRON
-vissen,fish,钓鱼,VERB
+vissen,to fish,钓鱼,VERB
 aanwezigheid,presence,出席,NOUN
-behouden,retain,保留,VERB
-bewegen,move,移动,VERB
+behouden,to retain,保留,VERB
+bewegen,to move,移动,VERB
 dier,animal,动物,NOUN
 ernstig,serious,严重的,ADJ
 goedemorgen,good morning,早上好,INTJ

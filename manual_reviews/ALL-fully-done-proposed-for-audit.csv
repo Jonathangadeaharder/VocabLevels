@@ -7713,11 +7713,11 @@ en,C1,3906,damn,damn,该死的,ADJ,english/C1.csv
 en,C1,3907,naked,naked,裸体的,ADJ,english/C1.csv
 en,C1,3908,rape,rape,强奸,NOUN,english/C1.csv
 en,C1,3909,sexy,sexy,性感的,ADJ,english/C1.csv
-fr,A1,2,abaisser,lower,降低,VERB,french/A1.csv
-fr,A1,3,abandonner,abandon,放弃,VERB,french/A1.csv
+fr,A1,2,abaisser,to lower,降低,VERB,french/A1.csv
+fr,A1,3,abandonner,to abandon,放弃,VERB,french/A1.csv
 fr,A1,4,abord,approach,方法,NOUN,french/A1.csv
-fr,A1,5,accepter,accept,接受,VERB,french/A1.csv
-fr,A1,6,acheter,buy,买,VERB,french/A1.csv
+fr,A1,5,accepter,to accept,接受,VERB,french/A1.csv
+fr,A1,6,acheter,to buy,买,VERB,french/A1.csv
 fr,A1,7,acier,steel,钢,NOUN,french/A1.csv
 fr,A1,8,activité,activity,活动,NOUN,french/A1.csv
 fr,A1,9,actuel,current,当前的,ADJ,french/A1.csv
@@ -7726,25 +7726,25 @@ fr,A1,11,adresse,address,地址,NOUN,french/A1.csv
 fr,A1,12,affaire,business,事情,NOUN,french/A1.csv
 fr,A1,13,agréable,pleasant,愉快的,ADJ,french/A1.csv
 fr,A1,14,aide,help,帮助,NOUN,french/A1.csv
-fr,A1,15,aider,help,帮助,VERB,french/A1.csv
-fr,A1,16,aimer,like,喜欢,VERB,french/A1.csv
-fr,A1,17,aller,go,去,VERB,french/A1.csv
+fr,A1,15,aider,to help,帮助,VERB,french/A1.csv
+fr,A1,16,aimer,to like,喜欢,VERB,french/A1.csv
+fr,A1,17,aller,to go,去,VERB,french/A1.csv
 fr,A1,18,allumette,match,火柴,NOUN,french/A1.csv
 fr,A1,19,allô,hello,喂,INTJ,french/A1.csv
-fr,A1,20,amener,bring,带来,VERB,french/A1.csv
+fr,A1,20,amener,to bring,带来,VERB,french/A1.csv
 fr,A1,21,ami,friend,朋友,NOUN,french/A1.csv
 fr,A1,22,amour,love,爱,NOUN,french/A1.csv
 fr,A1,23,an,year,年,NOUN,french/A1.csv
 fr,A1,24,anglais,English,英语,NOUN,french/A1.csv
 fr,A1,25,année,year,年,NOUN,french/A1.csv
-fr,A1,26,appeler,call,呼叫,VERB,french/A1.csv
-fr,A1,27,apporter,bring,拿来,VERB,french/A1.csv
-fr,A1,28,apprendre,learn,学习,VERB,french/A1.csv
+fr,A1,26,appeler,to call,呼叫,VERB,french/A1.csv
+fr,A1,27,apporter,to bring,拿来,VERB,french/A1.csv
+fr,A1,28,apprendre,to learn,学习,VERB,french/A1.csv
 fr,A1,29,après,after,之后,ADP,french/A1.csv
 fr,A1,30,arbre,tree,树,NOUN,french/A1.csv
 fr,A1,31,argent,money,钱,NOUN,french/A1.csv
-fr,A1,32,arriver,arrive,到达,VERB,french/A1.csv
-fr,A1,33,arrêter,stop,停止,VERB,french/A1.csv
+fr,A1,32,arriver,to arrive,到达,VERB,french/A1.csv
+fr,A1,33,arrêter,to stop,停止,VERB,french/A1.csv
 fr,A1,34,assez,enough,足够,ADV,french/A1.csv
 fr,A1,35,assis,seated,坐着的,ADJ,french/A1.csv
 fr,A1,36,auberge,inn,小旅馆,NOUN,french/A1.csv
@@ -8112,17 +8112,17 @@ fr,A1,397,humour,humor,幽默,NOUN,french/A1.csv
 fr,A1,398,hygiène,hygiene,卫生,NOUN,french/A1.csv
 fr,A1,399,hôtel,hotel,酒店,NOUN,french/A1.csv
 fr,A1,400,ici,here,这里,ADV,french/A1.csv
-fr,A1,401,imiter,imitate,模仿,VERB,french/A1.csv
+fr,A1,401,imiter,to imitate,模仿,VERB,french/A1.csv
 fr,A1,402,immeuble,building,大楼,NOUN,french/A1.csv
-fr,A1,403,indiquer,indicate,指出,VERB,french/A1.csv
+fr,A1,403,indiquer,to indicate,指出,VERB,french/A1.csv
 fr,A1,404,industrie,industry,工业,NOUN,french/A1.csv
 fr,A1,405,inférieur,inferior,较低的,ADJ,french/A1.csv
 fr,A1,406,ingénieur,engineer,工程师,NOUN,french/A1.csv
-fr,A1,407,inquiéter,worry,使担心,VERB,french/A1.csv
-fr,A1,408,inscrire,register,登记,VERB,french/A1.csv
-fr,A1,409,interroger,question,询问,VERB,french/A1.csv
+fr,A1,407,inquiéter,to worry,使担心,VERB,french/A1.csv
+fr,A1,408,inscrire,to register,登记,VERB,french/A1.csv
+fr,A1,409,interroger,to question,询问,VERB,french/A1.csv
 fr,A1,410,intérieur,interior,内部,NOUN,french/A1.csv
-fr,A1,411,inviter,invite,邀请,VERB,french/A1.csv
+fr,A1,411,inviter,to invite,邀请,VERB,french/A1.csv
 fr,A1,412,jamais,never,从不,ADV,french/A1.csv
 fr,A1,413,jambe,leg,腿,NOUN,french/A1.csv
 fr,A1,414,jambon,ham,火腿,NOUN,french/A1.csv
@@ -8378,7 +8378,7 @@ fr,A2,141,crevette,shrimp,虾,NOUN,french/A2.csv
 fr,A2,142,crise,crisis,危机,NOUN,french/A2.csv
 fr,A2,143,critique,criticism,批评,NOUN,french/A2.csv
 fr,A2,144,création,creation,创造,NOUN,french/A2.csv
-fr,A2,145,créer,create,创造,VERB,french/A2.csv
+fr,A2,145,créer,to create,创造,VERB,french/A2.csv
 fr,A2,146,crêpe,pancake,可丽饼,NOUN,french/A2.csv
 fr,A2,147,cuillère,spoon,勺子,NOUN,french/A2.csv
 fr,A2,148,cuisine,kitchen,厨房,NOUN,french/A2.csv
@@ -8460,7 +8460,7 @@ fr,A2,223,humain,human,人类的,ADJ,french/A2.csv
 fr,A2,224,identité,identity,身份,NOUN,french/A2.csv
 fr,A2,225,idée,idea,想法,NOUN,french/A2.csv
 fr,A2,226,il,he,他,PRON,french/A2.csv
-fr,A2,227,imaginer,imagine,想象,VERB,french/A2.csv
+fr,A2,227,imaginer,to imagine,想象,VERB,french/A2.csv
 fr,A2,228,interrupteur,switch,开关,NOUN,french/A2.csv
 fr,A2,229,intéressant,interesting,有趣的,ADJ,french/A2.csv
 fr,A2,230,intérêt,interest,兴趣,NOUN,french/A2.csv
@@ -8473,8 +8473,8 @@ fr,A2,236,juge,judge,法官,NOUN,french/A2.csv
 fr,A2,237,jumelles,binoculars,双筒望远镜,NOUN,french/A2.csv
 fr,A2,238,jusqu'à,until,直到,ADP,french/A2.csv
 fr,A2,239,klaxon,horn,喇叭,NOUN,french/A2.csv
-fr,A2,240,laisser,let,让,VERB,french/A2.csv
-fr,A2,241,lancer,throw,投掷,VERB,french/A2.csv
+fr,A2,240,laisser,to let,让,VERB,french/A2.csv
+fr,A2,241,lancer,to throw,投掷,VERB,french/A2.csv
 fr,A2,242,lavabo,sink,洗手池,NOUN,french/A2.csv
 fr,A2,243,laverie,laundromat,自助洗衣店,NOUN,french/A2.csv
 fr,A2,244,le,the,这/那,DET,french/A2.csv
@@ -9043,37 +9043,37 @@ fr,B1,287,démarche,approach,步骤,NOUN,french/B1.csv
 fr,B1,288,démission,resignation,辞职,NOUN,french/B1.csv
 fr,B1,289,démocratique,democratic,民主的,ADJ,french/B1.csv
 fr,B1,290,dépannage,repair,维修,NOUN,french/B1.csv
-fr,B1,291,dépasser,exceed,超过,VERB,french/B1.csv
+fr,B1,291,dépasser,to exceed,超过,VERB,french/B1.csv
 fr,B1,292,dépaysement,change of scenery,异国风情,NOUN,french/B1.csv
 fr,B1,293,dépistage,screening,筛查,NOUN,french/B1.csv
 fr,B1,294,déplacement,travel,出行,NOUN,french/B1.csv
 fr,B1,295,dépliant,leaflet,传单,NOUN,french/B1.csv
 fr,B1,296,dépôt,deposit,存款,NOUN,french/B1.csv
-fr,B1,297,déranger,disturb,打扰,VERB,french/B1.csv
+fr,B1,297,déranger,to disturb,打扰,VERB,french/B1.csv
 fr,B1,298,désabonnement,unsubscription,取消订阅,NOUN,french/B1.csv
 fr,B1,299,désinformation,disinformation,虚假信息,NOUN,french/B1.csv
 fr,B1,300,désir,desire,欲望,NOUN,french/B1.csv
 fr,B1,301,détendu,relaxed,放松的,ADJ,french/B1.csv
-fr,B1,302,déterminer,determine,确定,VERB,french/B1.csv
-fr,B1,303,détester,hate,讨厌,VERB,french/B1.csv
-fr,B1,304,détruire,destroy,破坏,VERB,french/B1.csv
-fr,B1,305,développer,develop,发展,VERB,french/B1.csv
+fr,B1,302,déterminer,to determine,确定,VERB,french/B1.csv
+fr,B1,303,détester,to hate,讨厌,VERB,french/B1.csv
+fr,B1,304,détruire,to destroy,破坏,VERB,french/B1.csv
+fr,B1,305,développer,to develop,发展,VERB,french/B1.csv
 fr,B1,306,déçu,disappointed,失望的,ADJ,french/B1.csv
 fr,B1,307,ecchymose,bruise,瘀伤,NOUN,french/B1.csv
 fr,B1,308,effectivement,indeed,确实,ADV,french/B1.csv
-fr,B1,309,effectuer,perform,执行,VERB,french/B1.csv
+fr,B1,309,effectuer,to perform,执行,VERB,french/B1.csv
 fr,B1,310,efficacité,efficiency,效率,NOUN,french/B1.csv
 fr,B1,311,embauche,hiring,招聘,NOUN,french/B1.csv
-fr,B1,312,emménager,move in,搬入,VERB,french/B1.csv
+fr,B1,312,emménager,to move in,搬入,VERB,french/B1.csv
 fr,B1,313,empathie,empathy,同理心,NOUN,french/B1.csv
 fr,B1,314,empereur,emperor,皇帝,NOUN,french/B1.csv
 fr,B1,315,enceinte,pregnant,怀孕的,ADJ,french/B1.csv
 fr,B1,316,engagement,commitment,承诺,NOUN,french/B1.csv
 fr,B1,317,engouement,craze,狂热,NOUN,french/B1.csv
 fr,B1,318,engueulade,telling-off,斥责,NOUN,french/B1.csv
-fr,B1,319,engueuler,yell at,责骂,VERB,french/B1.csv
+fr,B1,319,engueuler,to yell at,责骂,VERB,french/B1.csv
 fr,B1,320,enjeu,stake,利害关系,NOUN,french/B1.csv
-fr,B1,321,enlever,remove,移除,VERB,french/B1.csv
+fr,B1,321,enlever,to remove,移除,VERB,french/B1.csv
 fr,B1,322,enregistrement,recording,录音,NOUN,french/B1.csv
 fr,B1,323,enseigner,to teach,教,VERB,french/B1.csv
 fr,B1,324,entraînement,training,训练,NOUN,french/B1.csv
@@ -9192,13 +9192,13 @@ fr,B1,436,installer,to install,安装,VERB,french/B1.csv
 fr,B1,437,interdiction,prohibition,禁止,NOUN,french/B1.csv
 fr,B1,438,intermédiaire,intermediary,中间人,NOUN,french/B1.csv
 fr,B1,439,interprétation,interpretation,解释,NOUN,french/B1.csv
-fr,B1,440,intervenir,intervene,干预,VERB,french/B1.csv
-fr,B1,441,intituler,entitle,命名,VERB,french/B1.csv
+fr,B1,440,intervenir,to intervene,干预,VERB,french/B1.csv
+fr,B1,441,intituler,to entitle,命名,VERB,french/B1.csv
 fr,B1,442,intégration,integration,融合,NOUN,french/B1.csv
-fr,B1,443,intégrer,integrate,整合,VERB,french/B1.csv
+fr,B1,443,intégrer,to integrate,整合,VERB,french/B1.csv
 fr,B1,444,inutile,useless,无用的,ADJ,french/B1.csv
 fr,B1,445,inverse,opposite,相反的,ADJ,french/B1.csv
-fr,B1,446,investir,invest,投资,VERB,french/B1.csv
+fr,B1,446,investir,to invest,投资,VERB,french/B1.csv
 fr,B1,447,investissement,investment,投资,NOUN,french/B1.csv
 fr,B1,448,invité,guest,客人,NOUN,french/B1.csv
 fr,B1,449,issu,stemming,源于,ADJ,french/B1.csv
@@ -9207,11 +9207,11 @@ fr,B1,451,japonais,Japanese,日本的,ADJ,french/B1.csv
 fr,B1,452,jeûne,fasting,禁食,NOUN,french/B1.csv
 fr,B1,453,judiciaire,judicial,司法的,ADJ,french/B1.csv
 fr,B1,454,jugement,judgment,判断,NOUN,french/B1.csv
-fr,B1,455,juger,judge,评判,VERB,french/B1.csv
-fr,B1,456,jurer,swear,发誓,VERB,french/B1.csv
+fr,B1,455,juger,to judge,评判,VERB,french/B1.csv
+fr,B1,456,jurer,to swear,发誓,VERB,french/B1.csv
 fr,B1,457,juridique,legal,法律的,ADJ,french/B1.csv
 fr,B1,458,justificatif,supporting document,证明文件,NOUN,french/B1.csv
-fr,B1,459,justifier,justify,证明,VERB,french/B1.csv
+fr,B1,459,justifier,to justify,证明,VERB,french/B1.csv
 fr,B1,460,kinésithérapeute,physiotherapist,物理治疗师,NOUN,french/B1.csv
 fr,B1,461,laboratoire,laboratory,实验室,NOUN,french/B1.csv
 fr,B1,462,lampadaire,street lamp,路灯,NOUN,french/B1.csv
@@ -9357,7 +9357,7 @@ fr,B1,601,pilote,pilot,飞行员,NOUN,french/B1.csv
 fr,B1,602,piratage,hacking,黑客行为,NOUN,french/B1.csv
 fr,B1,603,pissenlit,dandelion,蒲公英,NOUN,french/B1.csv
 fr,B1,604,piste,track,跑道,NOUN,french/B1.csv
-fr,B1,605,placer,place,放置,VERB,french/B1.csv
+fr,B1,605,placer,to place,放置,VERB,french/B1.csv
 fr,B1,606,plaque,plate,板,NOUN,french/B1.csv
 fr,B1,607,plastique,plastic,塑料,NOUN,french/B1.csv
 fr,B1,608,plateau,tray,托盘,NOUN,french/B1.csv
@@ -9785,7 +9785,7 @@ fr,B2,153,balcon,balcony,阳台,NOUN,french/B2.csv
 fr,B2,154,bancaire,banking,银行的,ADJ,french/B2.csv
 fr,B2,155,bannière,banner,横幅,NOUN,french/B2.csv
 fr,B2,156,banquier,banker,银行家,NOUN,french/B2.csv
-fr,B2,157,baptiser,baptize,施洗,VERB,french/B2.csv
+fr,B2,157,baptiser,to baptize,施洗,VERB,french/B2.csv
 fr,B2,158,baptême,baptism,洗礼,NOUN,french/B2.csv
 fr,B2,159,barrage,dam,水坝,NOUN,french/B2.csv
 fr,B2,160,barrière,barrier,障碍物,NOUN,french/B2.csv
@@ -9798,7 +9798,7 @@ fr,B2,166,biologique,biological,生物的,ADJ,french/B2.csv
 fr,B2,167,bizarrement,oddly,奇怪地,ADV,french/B2.csv
 fr,B2,168,blague,joke,笑话,NOUN,french/B2.csv
 fr,B2,169,blocage,blockage,阻塞,NOUN,french/B2.csv
-fr,B2,170,bloquer,block,阻塞,VERB,french/B2.csv
+fr,B2,170,bloquer,to block,阻塞,VERB,french/B2.csv
 fr,B2,171,bol,bowl,碗,NOUN,french/B2.csv
 fr,B2,172,bonbon,candy,糖果,NOUN,french/B2.csv
 fr,B2,173,bond,leap,跳跃,NOUN,french/B2.csv
@@ -9886,13 +9886,13 @@ fr,B2,254,cinquantaine,about fifty,五十左右,NOUN,french/B2.csv
 fr,B2,255,circonscription,constituency,选区,NOUN,french/B2.csv
 fr,B2,256,circonspect,circumspect,谨慎的,ADJ,french/B2.csv
 fr,B2,257,circulaire,circular,通告,NOUN,french/B2.csv
-fr,B2,258,circuler,circulate,流通,VERB,french/B2.csv
+fr,B2,258,circuler,to circulate,流通,VERB,french/B2.csv
 fr,B2,259,cirque,circus,马戏团,NOUN,french/B2.csv
 fr,B2,260,citation,quotation,引用,NOUN,french/B2.csv
 fr,B2,261,citoyenneté,citizenship,公民身份,NOUN,french/B2.csv
 fr,B2,262,clandestinité,clandestinity,秘密状态,NOUN,french/B2.csv
 fr,B2,263,claque,slap,耳光,NOUN,french/B2.csv
-fr,B2,264,classer,classify,分类,VERB,french/B2.csv
+fr,B2,264,classer,to classify,分类,VERB,french/B2.csv
 fr,B2,265,classicisme,classicism,古典主义,NOUN,french/B2.csv
 fr,B2,266,clavier,keyboard,键盘,NOUN,french/B2.csv
 fr,B2,267,clergé,clergy,神职人员,NOUN,french/B2.csv
@@ -10176,40 +10176,40 @@ fr,B2,544,détenu,detainee,被拘留者,NOUN,french/B2.csv
 fr,B2,545,détermination,determination,决心,NOUN,french/B2.csv
 fr,B2,546,déterministe,deterministic,决定论的,ADJ,french/B2.csv
 fr,B2,547,détour,detour,绕行,NOUN,french/B2.csv
-fr,B2,548,détourner,divert,转移,VERB,french/B2.csv
+fr,B2,548,détourner,to divert,转移,VERB,french/B2.csv
 fr,B2,549,détriment,detriment,损害,NOUN,french/B2.csv
 fr,B2,550,dévaluation,devaluation,贬值,NOUN,french/B2.csv
-fr,B2,551,dévoiler,reveal,揭露,VERB,french/B2.csv
-fr,B2,552,effacer,erase,擦除,VERB,french/B2.csv
+fr,B2,551,dévoiler,to reveal,揭露,VERB,french/B2.csv
+fr,B2,552,effacer,to erase,擦除,VERB,french/B2.csv
 fr,B2,553,effectif,workforce,员工人数,NOUN,french/B2.csv
 fr,B2,554,efficace,effective,有效的,ADJ,french/B2.csv
 fr,B2,555,efficacement,effectively,有效地,ADV,french/B2.csv
 fr,B2,556,effondrement,collapse,崩溃,NOUN,french/B2.csv
-fr,B2,557,embrasser,kiss,亲吻,VERB,french/B2.csv
+fr,B2,557,embrasser,to kiss,亲吻,VERB,french/B2.csv
 fr,B2,558,empirisme,empiricism,经验主义,NOUN,french/B2.csv
-fr,B2,559,empiéter,encroach,侵占,VERB,french/B2.csv
+fr,B2,559,empiéter,to encroach,侵占,VERB,french/B2.csv
 fr,B2,560,employabilité,employability,就业能力,NOUN,french/B2.csv
-fr,B2,561,employer,employ,雇用,VERB,french/B2.csv
+fr,B2,561,employer,to employ,雇用,VERB,french/B2.csv
 fr,B2,562,employeur,employer,雇主,NOUN,french/B2.csv
-fr,B2,563,emporter,take away,带走,VERB,french/B2.csv
+fr,B2,563,emporter,to take away,带走,VERB,french/B2.csv
 fr,B2,564,empreinte,imprint,印记,NOUN,french/B2.csv
 fr,B2,565,emprise,hold,控制,NOUN,french/B2.csv
 fr,B2,566,emprisonnement,imprisonment,监禁,NOUN,french/B2.csv
-fr,B2,567,emprunter,borrow,借,VERB,french/B2.csv
-fr,B2,568,encenser,praise lavishly,大肆吹捧,VERB,french/B2.csv
+fr,B2,567,emprunter,to borrow,借,VERB,french/B2.csv
+fr,B2,568,encenser,to praise lavishly,大肆吹捧,VERB,french/B2.csv
 fr,B2,569,enchère,bid,出价,NOUN,french/B2.csv
-fr,B2,570,encourager,encourage,鼓励,VERB,french/B2.csv
+fr,B2,570,encourager,to encourage,鼓励,VERB,french/B2.csv
 fr,B2,571,endettement,indebtedness,负债,NOUN,french/B2.csv
-fr,B2,572,endiguer,stem,遏制,VERB,french/B2.csv
+fr,B2,572,endiguer,to stem,遏制,VERB,french/B2.csv
 fr,B2,573,endoctrinement,indoctrination,灌输,NOUN,french/B2.csv
-fr,B2,574,endormir,put to sleep,使入睡,VERB,french/B2.csv
+fr,B2,574,endormir,to put to sleep,使入睡,VERB,french/B2.csv
 fr,B2,575,endémique,endemic,地方性的,ADJ,french/B2.csv
-fr,B2,576,enfermer,lock up,关押,VERB,french/B2.csv
-fr,B2,577,enfreindre,infringe,违反,VERB,french/B2.csv
+fr,B2,576,enfermer,to lock up,关押,VERB,french/B2.csv
+fr,B2,577,enfreindre,to infringe,违反,VERB,french/B2.csv
 fr,B2,578,engin,device,装置,NOUN,french/B2.csv
 fr,B2,579,enlèvement,kidnapping,绑架,NOUN,french/B2.csv
 fr,B2,580,ennui,boredom,无聊,NOUN,french/B2.csv
-fr,B2,581,enrayer,curb,制止,VERB,french/B2.csv
+fr,B2,581,enrayer,to curb,制止,VERB,french/B2.csv
 fr,B2,582,enrichir,to enrich,丰富,VERB,french/B2.csv
 fr,B2,583,enseignant,teacher,教师,NOUN,french/B2.csv
 fr,B2,584,entente,understanding,谅解,NOUN,french/B2.csv
@@ -10419,7 +10419,7 @@ fr,B2,787,idéalisme,idealism,理想主义,NOUN,french/B2.csv
 fr,B2,788,idéologie,ideology,意识形态,NOUN,french/B2.csv
 fr,B2,789,idéologique,ideological,意识形态的,ADJ,french/B2.csv
 fr,B2,790,illustre,illustrious,杰出的,ADJ,french/B2.csv
-fr,B2,791,illustrer,illustrate,说明,VERB,french/B2.csv
+fr,B2,791,illustrer,to illustrate,说明,VERB,french/B2.csv
 fr,B2,792,illégal,illegal,非法的,ADJ,french/B2.csv
 fr,B2,793,imaginaire,imaginary,想象的,ADJ,french/B2.csv
 fr,B2,794,immigré,immigrant,移民,NOUN,french/B2.csv
@@ -10855,8 +10855,8 @@ fr,B2,1223,programmation,programming,编程,NOUN,french/B2.csv
 fr,B2,1224,progressif,progressive,渐进的,ADJ,french/B2.csv
 fr,B2,1225,progressivement,progressively,逐渐地,ADV,french/B2.csv
 fr,B2,1226,prolixe,verbose,冗长的,ADJ,french/B2.csv
-fr,B2,1227,prolonger,prolong,延长,VERB,french/B2.csv
-fr,B2,1228,prononcer,pronounce,发音,VERB,french/B2.csv
+fr,B2,1227,prolonger,to prolong,延长,VERB,french/B2.csv
+fr,B2,1228,prononcer,to pronounce,发音,VERB,french/B2.csv
 fr,B2,1229,pronostic,prognosis,预测,NOUN,french/B2.csv
 fr,B2,1230,propagande,propaganda,宣传,NOUN,french/B2.csv
 fr,B2,1231,prophylaxie,prophylaxis,预防,NOUN,french/B2.csv
@@ -10870,7 +10870,7 @@ fr,B2,1238,protocole,protocol,协议,NOUN,french/B2.csv
 fr,B2,1239,protéine,protein,蛋白质,NOUN,french/B2.csv
 fr,B2,1240,provenance,origin,来源,NOUN,french/B2.csv
 fr,B2,1241,provisoire,temporary,临时的,ADJ,french/B2.csv
-fr,B2,1242,provoquer,provoke,引起,VERB,french/B2.csv
+fr,B2,1242,provoquer,to provoke,引起,VERB,french/B2.csv
 fr,B2,1243,préalable,prior,先前的,ADJ,french/B2.csv
 fr,B2,1244,précarisation,precarization,不稳定化,NOUN,french/B2.csv
 fr,B2,1245,précaution,precaution,预防措施,NOUN,french/B2.csv
@@ -10975,16 +10975,16 @@ fr,B2,1343,renvoyer,to dismiss,解雇,VERB,french/B2.csv
 fr,B2,1344,repartir,to set off again,再次出发,VERB,french/B2.csv
 fr,B2,1345,repousser,to push back,推迟,VERB,french/B2.csv
 fr,B2,1346,reproche,reproach,责备,NOUN,french/B2.csv
-fr,B2,1347,reprocher,reproach,责备,VERB,french/B2.csv
+fr,B2,1347,reprocher,to reproach,责备,VERB,french/B2.csv
 fr,B2,1348,reproductibilité,reproducibility,可重复性,NOUN,french/B2.csv
-fr,B2,1349,repérer,spot,发现,VERB,french/B2.csv
+fr,B2,1349,repérer,to spot,发现,VERB,french/B2.csv
 fr,B2,1350,requalification,reskilling,再培训,NOUN,french/B2.csv
 fr,B2,1351,requête,request,请求,NOUN,french/B2.csv
 fr,B2,1352,resocialisation,resocialization,再社会化,NOUN,french/B2.csv
 fr,B2,1353,respectueux,respectful,恭敬的,ADJ,french/B2.csv
 fr,B2,1354,respiration,breathing,呼吸,NOUN,french/B2.csv
-fr,B2,1355,respirer,breathe,呼吸,VERB,french/B2.csv
-fr,B2,1356,ressortir,stand out,突出,VERB,french/B2.csv
+fr,B2,1355,respirer,to breathe,呼吸,VERB,french/B2.csv
+fr,B2,1356,ressortir,to stand out,突出,VERB,french/B2.csv
 fr,B2,1357,retraité,retiree,退休人员,NOUN,french/B2.csv
 fr,B2,1358,revendiquer,to claim,要求,VERB,french/B2.csv
 fr,B2,1359,rhétorique,rhetoric,修辞,NOUN,french/B2.csv
@@ -11005,7 +11005,7 @@ fr,B2,1373,règne,reign,统治,NOUN,french/B2.csv
 fr,B2,1374,réaction,reaction,反应,NOUN,french/B2.csv
 fr,B2,1375,réalisateur,film director,导演,NOUN,french/B2.csv
 fr,B2,1376,réalisation,achievement,成就,NOUN,french/B2.csv
-fr,B2,1377,réaliser,achieve,实现,VERB,french/B2.csv
+fr,B2,1377,réaliser,to achieve,实现,VERB,french/B2.csv
 fr,B2,1378,réalisme,realism,现实主义,NOUN,french/B2.csv
 fr,B2,1379,réaliste,realistic,现实的,ADJ,french/B2.csv
 fr,B2,1380,réalité,reality,现实,NOUN,french/B2.csv
@@ -11045,39 +11045,39 @@ fr,B2,1413,réjouir,to rejoice,使高兴,VERB,french/B2.csv
 fr,B2,1414,réjouissant,heartening,令人高兴的,ADJ,french/B2.csv
 fr,B2,1415,rémunération,remuneration,报酬,NOUN,french/B2.csv
 fr,B2,1416,rénovation,renovation,翻新,NOUN,french/B2.csv
-fr,B2,1417,répandre,spread,传播,VERB,french/B2.csv
+fr,B2,1417,répandre,to spread,传播,VERB,french/B2.csv
 fr,B2,1418,réparation,repair,修理,NOUN,french/B2.csv
-fr,B2,1419,réparer,repair,修理,VERB,french/B2.csv
-fr,B2,1420,répartir,distribute,分配,VERB,french/B2.csv
+fr,B2,1419,réparer,to repair,修理,VERB,french/B2.csv
+fr,B2,1420,répartir,to distribute,分配,VERB,french/B2.csv
 fr,B2,1421,répartition,distribution,分配,NOUN,french/B2.csv
 fr,B2,1422,répertoire,repertoire,剧目,NOUN,french/B2.csv
-fr,B2,1423,répondre,answer,回答,VERB,french/B2.csv
+fr,B2,1423,répondre,to answer,回答,VERB,french/B2.csv
 fr,B2,1424,réponse,answer,回答,NOUN,french/B2.csv
 fr,B2,1425,répression,repression,镇压,NOUN,french/B2.csv
 fr,B2,1426,républicain,republican,共和的,ADJ,french/B2.csv
 fr,B2,1427,république,republic,共和国,NOUN,french/B2.csv
 fr,B2,1428,réputation,reputation,名声,NOUN,french/B2.csv
 fr,B2,1429,réputé,renowned,著名的,ADJ,french/B2.csv
-fr,B2,1430,répéter,repeat,重复,VERB,french/B2.csv
+fr,B2,1430,répéter,to repeat,重复,VERB,french/B2.csv
 fr,B2,1431,répétition,repetition,重复,NOUN,french/B2.csv
 fr,B2,1432,réquisitoire,indictment,起诉书,NOUN,french/B2.csv
 fr,B2,1433,réseau,network,网络,NOUN,french/B2.csv
 fr,B2,1434,réservation,reservation,预订,NOUN,french/B2.csv
-fr,B2,1435,réserver,reserve,预订,VERB,french/B2.csv
+fr,B2,1435,réserver,to reserve,预订,VERB,french/B2.csv
 fr,B2,1436,réservé,reserved,保留的,ADJ,french/B2.csv
 fr,B2,1437,résidence,residence,住所,NOUN,french/B2.csv
 fr,B2,1438,résident,resident,居民,NOUN,french/B2.csv
-fr,B2,1439,résider,reside,居住,VERB,french/B2.csv
+fr,B2,1439,résider,to reside,居住,VERB,french/B2.csv
 fr,B2,1440,résiduel,residual,残留的,ADJ,french/B2.csv
 fr,B2,1441,résiliation,termination,解除,NOUN,french/B2.csv
 fr,B2,1442,résistant,resistant,有抵抗力的,ADJ,french/B2.csv
-fr,B2,1443,résister,resist,抵抗,VERB,french/B2.csv
+fr,B2,1443,résister,to resist,抵抗,VERB,french/B2.csv
 fr,B2,1444,résolu,resolute,坚决的,ADJ,french/B2.csv
 fr,B2,1445,résolution,resolution,决心,NOUN,french/B2.csv
-fr,B2,1446,résoudre,solve,解决,VERB,french/B2.csv
+fr,B2,1446,résoudre,to solve,解决,VERB,french/B2.csv
 fr,B2,1447,résultat,result,结果,NOUN,french/B2.csv
-fr,B2,1448,résulter,result,产生,VERB,french/B2.csv
-fr,B2,1449,résumer,summarize,总结,VERB,french/B2.csv
+fr,B2,1448,résulter,to result,产生,VERB,french/B2.csv
+fr,B2,1449,résumer,to summarize,总结,VERB,french/B2.csv
 fr,B2,1450,résumé,summary,摘要,NOUN,french/B2.csv
 fr,B2,1451,rétablir,to restore,恢复,VERB,french/B2.csv
 fr,B2,1452,rétablissement,recovery,康复,NOUN,french/B2.csv
@@ -11313,16 +11313,16 @@ fr,B2,1681,spécifique,specific,具体的,ADJ,french/B2.csv
 fr,B2,1682,spécifiquement,specifically,具体地,ADV,french/B2.csv
 fr,B2,1683,stade,stadium,体育场,NOUN,french/B2.csv
 fr,B2,1684,stage,internship,实习,NOUN,french/B2.csv
-fr,B2,1685,stagner,stagnate,停滞,VERB,french/B2.csv
+fr,B2,1685,stagner,to stagnate,停滞,VERB,french/B2.csv
 fr,B2,1686,stalle,stall,包厢座位,NOUN,french/B2.csv
 fr,B2,1687,standardisation,standardization,标准化,NOUN,french/B2.csv
 fr,B2,1688,station-service,gas station,加油站,NOUN,french/B2.csv
 fr,B2,1689,stationnement,parking,停车,NOUN,french/B2.csv
 fr,B2,1690,stigmatisation,stigmatization,污名化,NOUN,french/B2.csv
-fr,B2,1691,stigmatiser,stigmatize,污名化,VERB,french/B2.csv
+fr,B2,1691,stigmatiser,to stigmatize,污名化,VERB,french/B2.csv
 fr,B2,1692,stochastique,stochastic,随机的,ADJ,french/B2.csv
 fr,B2,1693,stockage,storage,储存,NOUN,french/B2.csv
-fr,B2,1694,stopper,stop,停止,VERB,french/B2.csv
+fr,B2,1694,stopper,to stop,停止,VERB,french/B2.csv
 fr,B2,1695,store,blind,百叶窗,NOUN,french/B2.csv
 fr,B2,1696,stoïcisme,stoicism,斯多葛主义,NOUN,french/B2.csv
 fr,B2,1697,stratégique,strategic,战略的,ADJ,french/B2.csv
@@ -11342,24 +11342,24 @@ fr,C1,3,abattement,dejection,沮丧,NOUN,french/C1.csv
 fr,C1,4,abattoir,slaughterhouse,屠宰场,NOUN,french/C1.csv
 fr,C1,5,abcès,abscess,脓肿,NOUN,french/C1.csv
 fr,C1,6,abnégation,self-denial,自我牺牲,NOUN,french/C1.csv
-fr,C1,7,abolir,abolish,废除,VERB,french/C1.csv
+fr,C1,7,abolir,to abolish,废除,VERB,french/C1.csv
 fr,C1,8,abondamment,abundantly,丰富地,ADV,french/C1.csv
 fr,C1,9,abonnement,subscription,订阅,NOUN,french/C1.csv
 fr,C1,10,abonné,subscriber,订阅者,NOUN,french/C1.csv
 fr,C1,11,abordable,affordable,负担得起的,ADJ,french/C1.csv
 fr,C1,12,abrogation,repeal,废除,NOUN,french/C1.csv
-fr,C1,13,abroger,repeal,废除,VERB,french/C1.csv
+fr,C1,13,abroger,to repeal,废除,VERB,french/C1.csv
 fr,C1,14,abruti,idiot,蠢货,NOUN,french/C1.csv
 fr,C1,15,abrégé,summary,摘要,NOUN,french/C1.csv
 fr,C1,16,abscons,abstruse,晦涩的,ADJ,french/C1.csv
-fr,C1,17,absorber,absorb,吸收,VERB,french/C1.csv
+fr,C1,17,absorber,to absorb,吸收,VERB,french/C1.csv
 fr,C1,18,absoute,absolution,赦免,NOUN,french/C1.csv
 fr,C1,19,abstrus,abstruse,深奥的,ADJ,french/C1.csv
-fr,C1,20,abuser,abuse,滥用,VERB,french/C1.csv
+fr,C1,20,abuser,to abuse,滥用,VERB,french/C1.csv
 fr,C1,21,abusif,abusive,滥用的,ADJ,french/C1.csv
 fr,C1,22,abîme,abyss,深渊,NOUN,french/C1.csv
 fr,C1,23,accablement,despondency,沮丧,NOUN,french/C1.csv
-fr,C1,24,accentuer,accentuate,强调,VERB,french/C1.csv
+fr,C1,24,accentuer,to accentuate,强调,VERB,french/C1.csv
 fr,C1,25,accessibilité,accessibility,无障碍,NOUN,french/C1.csv
 fr,C1,26,accessoire,accessory,配件,NOUN,french/C1.csv
 fr,C1,27,accessoirement,incidentally,附带地,ADV,french/C1.csv
@@ -11482,7 +11482,7 @@ fr,C1,143,amplifier,to amplify,放大 / 增强,VERB,french/C1.csv
 fr,C1,144,amplitude,amplitude / range,幅度 / 范围,NOUN,french/C1.csv
 fr,C1,145,ampoule,light bulb / blister,灯泡 / 水泡,NOUN,french/C1.csv
 fr,C1,146,ampoulé,bombastic,夸夸其谈的,ADJ,french/C1.csv
-fr,C1,147,aménager,to fit out / develop,布置 / 规划,VERB,french/C1.csv
+fr,C1,147,aménager,to fit out / to develop,布置 / 规划,VERB,french/C1.csv
 fr,C1,148,aménité,affability,和蔼,NOUN,french/C1.csv
 fr,C1,149,anacoluthe,anacoluthon,错格修辞,NOUN,french/C1.csv
 fr,C1,150,anadiplose,anadiplosis,顶真修辞,NOUN,french/C1.csv
@@ -11537,14 +11537,14 @@ fr,C1,198,antécédent,antecedent,前情,NOUN,french/C1.csv
 fr,C1,199,antérieur,previous,先前的,ADJ,french/C1.csv
 fr,C1,200,antérieurement,previously,以前,ADV,french/C1.csv
 fr,C1,201,anxiété,anxiety,焦虑,NOUN,french/C1.csv
-fr,C1,202,anéantir,annihilate,消灭,VERB,french/C1.csv
+fr,C1,202,anéantir,to annihilate,消灭,VERB,french/C1.csv
 fr,C1,203,anévrisme,aneurysm,动脉瘤,NOUN,french/C1.csv
 fr,C1,204,apaisement,appeasement,平息,NOUN,french/C1.csv
-fr,C1,205,apaiser,appease,安抚,VERB,french/C1.csv
+fr,C1,205,apaiser,to appease,安抚,VERB,french/C1.csv
 fr,C1,206,apanage,prerogative,特权,NOUN,french/C1.csv
 fr,C1,207,aparté,aside,旁白,NOUN,french/C1.csv
 fr,C1,208,apatride,stateless person,无国籍者,NOUN,french/C1.csv
-fr,C1,209,apercevoir,catch sight of,瞥见,VERB,french/C1.csv
+fr,C1,209,apercevoir,to catch sight of,瞥见,VERB,french/C1.csv
 fr,C1,210,aphasie,aphasia,失语症,NOUN,french/C1.csv
 fr,C1,211,apitoiement,pity,怜悯,NOUN,french/C1.csv
 fr,C1,212,aplomb,composure,沉着,NOUN,french/C1.csv
@@ -11671,7 +11671,7 @@ fr,C1,332,autiste,autistic,自闭症患者,NOUN,french/C1.csv
 fr,C1,333,autochtone,indigenous,土著的,ADJ,french/C1.csv
 fr,C1,334,autographe,autograph,亲笔签名,NOUN,french/C1.csv
 fr,C1,335,automatisation,automation,自动化,NOUN,french/C1.csv
-fr,C1,336,automatiser,automate,使自动化,VERB,french/C1.csv
+fr,C1,336,automatiser,to automate,使自动化,VERB,french/C1.csv
 fr,C1,337,automobiliste,motorist,驾车者,NOUN,french/C1.csv
 fr,C1,338,autopsie,autopsy,尸检,NOUN,french/C1.csv
 fr,C1,339,autoritaire,authoritarian,专制的,ADJ,french/C1.csv
@@ -11925,7 +11925,7 @@ fr,C1,586,civilisé,civilized,文明的,ADJ,french/C1.csv
 fr,C1,587,civilité,civility,礼貌 / 客套,NOUN,french/C1.csv
 fr,C1,588,civique,civic,公民的,ADJ,french/C1.csv
 fr,C1,589,clandestin,clandestine,秘密的 / 非法的,ADJ,french/C1.csv
-fr,C1,590,claquer,to slam / snap,砰地关上 / 拍打,VERB,french/C1.csv
+fr,C1,590,claquer,to slam / to snap,砰地关上 / 拍打,VERB,french/C1.csv
 fr,C1,591,clarifier,to clarify,澄清,VERB,french/C1.csv
 fr,C1,592,classement,ranking / classification,排名 / 分类,NOUN,french/C1.csv
 fr,C1,593,clerc,clerk / cleric,神职人员 / 办事员,NOUN,french/C1.csv
@@ -12056,10 +12056,10 @@ fr,C1,717,convenable,suitable,合适的,ADJ,french/C1.csv
 fr,C1,718,convenablement,properly,适当地,ADV,french/C1.csv
 fr,C1,719,conventionnel,conventional,传统的,ADJ,french/C1.csv
 fr,C1,720,convocation,summons,召集,NOUN,french/C1.csv
-fr,C1,721,convoquer,summon,召集,VERB,french/C1.csv
-fr,C1,722,coopérer,cooperate,合作,VERB,french/C1.csv
+fr,C1,721,convoquer,to summon,召集,VERB,french/C1.csv
+fr,C1,722,coopérer,to cooperate,合作,VERB,french/C1.csv
 fr,C1,723,coordinateur,coordinator,协调员,NOUN,french/C1.csv
-fr,C1,724,coordonner,coordinate,协调,VERB,french/C1.csv
+fr,C1,724,coordonner,to coordinate,协调,VERB,french/C1.csv
 fr,C1,725,copiste,copyist,抄写员,NOUN,french/C1.csv
 fr,C1,726,copropriété,co-ownership,共有产权,NOUN,french/C1.csv
 fr,C1,727,coquille,shell,贝壳,NOUN,french/C1.csv
@@ -12382,10 +12382,10 @@ fr,C1,1043,désinvestissement,disinvestment,撤资,NOUN,french/C1.csv
 fr,C1,1044,désireux,desirous,渴望的,ADJ,french/C1.csv
 fr,C1,1045,désobéissance,disobedience,不服从,NOUN,french/C1.csv
 fr,C1,1046,désolation,desolation,荒凉,NOUN,french/C1.csv
-fr,C1,1047,déstabiliser,destabilize,使不稳定,VERB,french/C1.csv
+fr,C1,1047,déstabiliser,to destabilize,使不稳定,VERB,french/C1.csv
 fr,C1,1048,détachement,detachment,超然,NOUN,french/C1.csv
-fr,C1,1049,détacher,detach,解开,VERB,french/C1.csv
-fr,C1,1050,détailler,detail,详述,VERB,french/C1.csv
+fr,C1,1049,détacher,to detach,解开,VERB,french/C1.csv
+fr,C1,1050,détailler,to detail,详述,VERB,french/C1.csv
 fr,C1,1051,détecteur,detector,探测器,NOUN,french/C1.csv
 fr,C1,1052,détection,detection,探测,NOUN,french/C1.csv
 fr,C1,1053,détenteur,holder,持有者,NOUN,french/C1.csv
@@ -12400,8 +12400,8 @@ fr,C1,1061,détérioration,deterioration,恶化,NOUN,french/C1.csv
 fr,C1,1062,développeur,developer,开发者,NOUN,french/C1.csv
 fr,C1,1063,dévergondage,licentiousness,放荡,NOUN,french/C1.csv
 fr,C1,1064,déviation,deviation,偏离,NOUN,french/C1.csv
-fr,C1,1065,dévier,deviate,偏离,VERB,french/C1.csv
-fr,C1,1066,dévorer,devour,吞食,VERB,french/C1.csv
+fr,C1,1065,dévier,to deviate,偏离,VERB,french/C1.csv
+fr,C1,1066,dévorer,to devour,吞食,VERB,french/C1.csv
 fr,C1,1067,dévotement,devoutly,虔诚地,ADV,french/C1.csv
 fr,C1,1068,dévotion,devotion,虔诚,NOUN,french/C1.csv
 fr,C1,1069,dévouement,dedication,奉献,NOUN,french/C1.csv
@@ -12755,7 +12755,7 @@ fr,C1,1416,harpe,harp,竖琴,NOUN,french/C1.csv
 fr,C1,1417,hautainement,haughtily,傲慢地,ADV,french/C1.csv
 fr,C1,1418,hernie,hernia,疝气,NOUN,french/C1.csv
 fr,C1,1419,heuristique,heuristic,启发式的,ADJ,french/C1.csv
-fr,C1,1420,heurter,to strike / offend,撞击 / 冒犯,VERB,french/C1.csv
+fr,C1,1420,heurter,to strike / to offend,撞击 / 冒犯,VERB,french/C1.csv
 fr,C1,1421,hisser,to hoist,升起,VERB,french/C1.csv
 fr,C1,1422,hivernal,wintry,冬天的,ADJ,french/C1.csv
 fr,C1,1423,hiérarchique,hierarchical,等级的,ADJ,french/C1.csv
@@ -12899,7 +12899,7 @@ fr,C1,1560,indiscutablement,indisputably,无可争议地,ADV,french/C1.csv
 fr,C1,1561,individualisme,individualism,个人主义,NOUN,french/C1.csv
 fr,C1,1562,individuellement,individually,个别地,ADV,french/C1.csv
 fr,C1,1563,indivision,joint ownership,共有,NOUN,french/C1.csv
-fr,C1,1564,induire,to induce / lead to,导致 / 诱导,VERB,french/C1.csv
+fr,C1,1564,induire,to induce / to lead to,导致 / 诱导,VERB,french/C1.csv
 fr,C1,1565,industrialisation,industrialization,工业化,NOUN,french/C1.csv
 fr,C1,1566,indécis,undecided / indecisive,犹豫不决的,ADJ,french/C1.csv
 fr,C1,1567,indépendantiste,separatist,分离主义者,NOUN,french/C1.csv
@@ -12917,7 +12917,7 @@ fr,C1,1578,infini,infinite,无限的,ADJ,french/C1.csv
 fr,C1,1579,infirmerie,infirmary,医务室,NOUN,french/C1.csv
 fr,C1,1580,inflammatoire,inflammatory,炎性的,ADJ,french/C1.csv
 fr,C1,1581,inflationniste,inflationary,通货膨胀的,ADJ,french/C1.csv
-fr,C1,1582,infliger,to inflict / impose,施加,VERB,french/C1.csv
+fr,C1,1582,infliger,to inflict / to impose,施加,VERB,french/C1.csv
 fr,C1,1583,influencer,to influence,影响,VERB,french/C1.csv
 fr,C1,1584,influer,to influence,影响,VERB,french/C1.csv
 fr,C1,1585,influx,nerve impulse,神经冲动,NOUN,french/C1.csv
@@ -13001,9 +13001,9 @@ fr,C1,1662,invalidité,disability,残疾,NOUN,french/C1.csv
 fr,C1,1663,invariablement,invariably,不变地,ADV,french/C1.csv
 fr,C1,1664,inventeur,inventor,发明家,NOUN,french/C1.csv
 fr,C1,1665,inversement,conversely,相反地,ADV,french/C1.csv
-fr,C1,1666,inverser,reverse,颠倒,VERB,french/C1.csv
+fr,C1,1666,inverser,to reverse,颠倒,VERB,french/C1.csv
 fr,C1,1667,involontairement,involuntarily,无意地,ADV,french/C1.csv
-fr,C1,1668,invoquer,invoke,援引,VERB,french/C1.csv
+fr,C1,1668,invoquer,to invoke,援引,VERB,french/C1.csv
 fr,C1,1669,inéluctable,inescapable,不可避免的,ADJ,french/C1.csv
 fr,C1,1670,irascibilité,irascibility,易怒,NOUN,french/C1.csv
 fr,C1,1671,ironique,ironic,讽刺的,ADJ,french/C1.csv
@@ -13074,7 +13074,7 @@ fr,C1,1735,libre-échange,free trade,自由贸易,NOUN,french/C1.csv
 fr,C1,1736,libéralisation,liberalization,自由化,NOUN,french/C1.csv
 fr,C1,1737,libéralisme,liberalism,自由主义,NOUN,french/C1.csv
 fr,C1,1738,licenciement,layoff,解雇,NOUN,french/C1.csv
-fr,C1,1739,licencier,to lay off / dismiss,解雇,VERB,french/C1.csv
+fr,C1,1739,licencier,to lay off / to dismiss,解雇,VERB,french/C1.csv
 fr,C1,1740,licorne,unicorn,独角兽,NOUN,french/C1.csv
 fr,C1,1741,liesse,jubilation,狂欢/喜悦,NOUN,french/C1.csv
 fr,C1,1742,lieue,league,里格,NOUN,french/C1.csv
@@ -13413,7 +13413,7 @@ fr,C1,2074,opiniâtrement,doggedly,固执地,ADV,french/C1.csv
 fr,C1,2075,opportun,timely / opportune,适当的 / 及时的,ADJ,french/C1.csv
 fr,C1,2076,opportuniste,opportunist,机会主义者,NOUN,french/C1.csv
 fr,C1,2077,opprobre,opprobrium,耻辱,NOUN,french/C1.csv
-fr,C1,2078,opter,to opt / choose,选择,VERB,french/C1.csv
+fr,C1,2078,opter,to opt / to choose,选择,VERB,french/C1.csv
 fr,C1,2079,optimisation,optimization,优化,NOUN,french/C1.csv
 fr,C1,2080,optimiser,to optimize,优化,VERB,french/C1.csv
 fr,C1,2081,optique,optics / perspective,光学 / 视角,NOUN,french/C1.csv
@@ -13427,13 +13427,13 @@ fr,C1,2088,orge,barley,大麦,NOUN,french/C1.csv
 fr,C1,2089,orgue,organ,管风琴,NOUN,french/C1.csv
 fr,C1,2090,orgueil,pride/arrogance,骄傲 / 傲慢,NOUN,french/C1.csv
 fr,C1,2091,orgueilleusement,proudly,骄傲地,ADV,french/C1.csv
-fr,C1,2092,orienter,to orient / guide,指引 / 定向,VERB,french/C1.csv
+fr,C1,2092,orienter,to orient / to guide,指引 / 定向,VERB,french/C1.csv
 fr,C1,2093,ornement,ornament,装饰物,NOUN,french/C1.csv
 fr,C1,2094,orner,to adorn,装饰,VERB,french/C1.csv
 fr,C1,2095,orphelin,orphan,孤儿,NOUN,french/C1.csv
 fr,C1,2096,orteil,toe,脚趾,NOUN,french/C1.csv
 fr,C1,2097,orthodoxe,orthodox,正统的,ADJ,french/C1.csv
-fr,C1,2098,osciller,oscillate,摆动,VERB,french/C1.csv
+fr,C1,2098,osciller,to oscillate,摆动,VERB,french/C1.csv
 fr,C1,2099,osseux,bony,骨的,ADJ,french/C1.csv
 fr,C1,2100,outillage,tooling,工具,NOUN,french/C1.csv
 fr,C1,2101,outrecuidance,arrogance,傲慢,NOUN,french/C1.csv
@@ -13454,7 +13454,7 @@ fr,C1,2115,pan,section,部分,NOUN,french/C1.csv
 fr,C1,2116,pancarte,sign,标语牌,NOUN,french/C1.csv
 fr,C1,2117,pancréas,pancreas,胰腺,NOUN,french/C1.csv
 fr,C1,2118,pandémie,pandemic,大流行病,NOUN,french/C1.csv
-fr,C1,2119,paniquer,panic,惊慌,VERB,french/C1.csv
+fr,C1,2119,paniquer,to panic,惊慌,VERB,french/C1.csv
 fr,C1,2120,panoplie,array,全套,NOUN,french/C1.csv
 fr,C1,2121,panoramique,panoramic,全景的,ADJ,french/C1.csv
 fr,C1,2122,pansement,bandage,绷带,NOUN,french/C1.csv
@@ -13950,7 +13950,7 @@ fr,C1,2611,remédier,to remedy,补救,VERB,french/C1.csv
 fr,C1,2612,renaître,to be reborn,重生,VERB,french/C1.csv
 fr,C1,2613,renchérissement,price increase,涨价,NOUN,french/C1.csv
 fr,C1,2614,renfort,reinforcement,增援,NOUN,french/C1.csv
-fr,C1,2615,renier,to renounce / disown,否认 / 抛弃,VERB,french/C1.csv
+fr,C1,2615,renier,to renounce / to disown,否认 / 抛弃,VERB,french/C1.csv
 fr,C1,2616,renom,renown,名望,NOUN,french/C1.csv
 fr,C1,2617,renoncement,renunciation,放弃,NOUN,french/C1.csv
 fr,C1,2618,renouveler,to renew,更新,VERB,french/C1.csv
@@ -13963,7 +13963,7 @@ fr,C1,2624,repentir,repentance,悔恨,NOUN,french/C1.csv
 fr,C1,2625,replacer,to put back / to reposition,放回 / 重新定位,VERB,french/C1.csv
 fr,C1,2626,repli,withdrawal / fold,撤退 / 折叠,NOUN,french/C1.csv
 fr,C1,2627,replier,to fold back / to withdraw,折回 / 撤退,VERB,french/C1.csv
-fr,C1,2628,reporter,to postpone / carry over,推迟,VERB,french/C1.csv
+fr,C1,2628,reporter,to postpone / to carry over,推迟,VERB,french/C1.csv
 fr,C1,2629,reproduire,to reproduce,繁殖 / 复制,VERB,french/C1.csv
 fr,C1,2630,représailles,reprisals,报复,NOUN,french/C1.csv
 fr,C1,2631,représentatif,representative,有代表性的,ADJ,french/C1.csv
@@ -13981,8 +13981,8 @@ fr,C1,2642,respiratoire,respiratory,呼吸的,ADJ,french/C1.csv
 fr,C1,2643,ressemblance,resemblance,相似,NOUN,french/C1.csv
 fr,C1,2644,ressentiment,resentment,怨恨,NOUN,french/C1.csv
 fr,C1,2645,ressortissant,national / citizen,侨民 / 公民,NOUN,french/C1.csv
-fr,C1,2646,ressusciter,to resurrect / revive,复活 / 使复苏,VERB,french/C1.csv
-fr,C1,2647,restituer,to return / restore,归还 / 恢复,VERB,french/C1.csv
+fr,C1,2646,ressusciter,to resurrect / to revive,复活 / 使复苏,VERB,french/C1.csv
+fr,C1,2647,restituer,to return / to restore,归还 / 恢复,VERB,french/C1.csv
 fr,C1,2648,restreindre,to restrict,限制,VERB,french/C1.csv
 fr,C1,2649,retomber,to fall back,回落,VERB,french/C1.csv
 fr,C1,2650,retombée,repercussion,后果,NOUN,french/C1.csv
@@ -14058,35 +14058,35 @@ fr,C1,2719,référencement,search engine optimization,搜索引擎优化,NOUN,fr
 fr,C1,2720,référentiel,reference framework,参考框架,NOUN,french/C1.csv
 fr,C1,2721,régal,treat,盛宴,NOUN,french/C1.csv
 fr,C1,2722,régent,regent,摄政者,NOUN,french/C1.csv
-fr,C1,2723,régir,govern,管辖,VERB,french/C1.csv
+fr,C1,2723,régir,to govern,管辖,VERB,french/C1.csv
 fr,C1,2724,réglage,adjustment,调节,NOUN,french/C1.csv
 fr,C1,2725,réglementaire,regulatory,监管的,ADJ,french/C1.csv
 fr,C1,2726,régression,regression,倒退,NOUN,french/C1.csv
 fr,C1,2727,régularisation,regularization,合法化,NOUN,french/C1.csv
 fr,C1,2728,régularité,regularity,规律性,NOUN,french/C1.csv
-fr,C1,2729,réguler,regulate,调节,VERB,french/C1.csv
+fr,C1,2729,réguler,to regulate,调节,VERB,french/C1.csv
 fr,C1,2730,régénération,regeneration,再生,NOUN,french/C1.csv
 fr,C1,2731,réhabilitation,rehabilitation,康复,NOUN,french/C1.csv
 fr,C1,2732,réinsertion,reintegration,重新融入,NOUN,french/C1.csv
-fr,C1,2733,réinventer,reinvent,重新发明,VERB,french/C1.csv
+fr,C1,2733,réinventer,to reinvent,重新发明,VERB,french/C1.csv
 fr,C1,2734,rémission,remission,缓解,NOUN,french/C1.csv
-fr,C1,2735,rémunérer,remunerate,支付报酬,VERB,french/C1.csv
+fr,C1,2735,rémunérer,to remunerate,支付报酬,VERB,french/C1.csv
 fr,C1,2736,rénal,renal,肾脏的,ADJ,french/C1.csv
-fr,C1,2737,rénover,renovate,翻新,VERB,french/C1.csv
+fr,C1,2737,rénover,to renovate,翻新,VERB,french/C1.csv
 fr,C1,2738,réorganisation,reorganization,重组,NOUN,french/C1.csv
 fr,C1,2739,réouverture,reopening,重新开放,NOUN,french/C1.csv
 fr,C1,2740,répit,respite,喘息,NOUN,french/C1.csv
 fr,C1,2741,réplique,retort,反驳,NOUN,french/C1.csv
-fr,C1,2742,réprimer,repress,镇压,VERB,french/C1.csv
+fr,C1,2742,réprimer,to repress,镇压,VERB,french/C1.csv
 fr,C1,2743,réquisition,requisition,征用,NOUN,french/C1.csv
 fr,C1,2744,résection,resection,切除术,NOUN,french/C1.csv
 fr,C1,2745,réservoir,reservoir,水库,NOUN,french/C1.csv
 fr,C1,2746,résilience,resilience,韧性,NOUN,french/C1.csv
-fr,C1,2747,résilier,terminate,终止,VERB,french/C1.csv
+fr,C1,2747,résilier,to terminate,终止,VERB,french/C1.csv
 fr,C1,2748,résine,resin,树脂,NOUN,french/C1.csv
 fr,C1,2749,résistance,resistance,抵抗,NOUN,french/C1.csv
 fr,C1,2750,résonance,resonance,共鸣,NOUN,french/C1.csv
-fr,C1,2751,résonner,resonate,共鸣,VERB,french/C1.csv
+fr,C1,2751,résonner,to resonate,共鸣,VERB,french/C1.csv
 fr,C1,2752,résurrection,resurrection,复活,NOUN,french/C1.csv
 fr,C1,2753,réticence,reluctance,勉强,NOUN,french/C1.csv
 fr,C1,2754,rétrospective,retrospective,回顾展,NOUN,french/C1.csv
@@ -14126,8 +14126,8 @@ fr,C1,2787,saisissement,shock,震惊,NOUN,french/C1.csv
 fr,C1,2788,saisonnier,seasonal,季节性的,ADJ,french/C1.csv
 fr,C1,2789,salarial,wage-related,工资的,ADJ,french/C1.csv
 fr,C1,2790,saleté,dirt / filth,污垢,NOUN,french/C1.csv
-fr,C1,2791,salir,to dirty / tarnish,弄脏,VERB,french/C1.csv
-fr,C1,2792,sanctionner,to sanction / punish,制裁,VERB,french/C1.csv
+fr,C1,2791,salir,to dirty / to tarnish,弄脏,VERB,french/C1.csv
+fr,C1,2792,sanctionner,to sanction / to punish,制裁,VERB,french/C1.csv
 fr,C1,2793,sandale,sandal,凉鞋,NOUN,french/C1.csv
 fr,C1,2794,sanglant,bloody,血腥的,ADJ,french/C1.csv
 fr,C1,2795,sanglier,wild boar,野猪,NOUN,french/C1.csv
@@ -14496,7 +14496,7 @@ fr,C1,3157,tautologie,tautology,同义反复,NOUN,french/C1.csv
 fr,C1,3158,taux,rate,比率,NOUN,french/C1.csv
 fr,C1,3159,taverne,tavern,酒馆,NOUN,french/C1.csv
 fr,C1,3160,taxe,tax / duty,税,NOUN,french/C1.csv
-fr,C1,3161,taxer,to tax / accuse of,征税 / 指责,VERB,french/C1.csv
+fr,C1,3161,taxer,to tax / to accuse of,征税 / 指责,VERB,french/C1.csv
 fr,C1,3162,taxonomie,taxonomy,分类学,NOUN,french/C1.csv
 fr,C1,3163,technicien,technician,技术员,NOUN,french/C1.csv
 fr,C1,3164,techniquement,technically,技术上地,ADV,french/C1.csv
@@ -14954,7 +14954,7 @@ nl,A1,116,uur,hour,小时,NOUN,dutch/A1.csv
 nl,A1,117,steeds,still,仍然,ADV,dutch/A1.csv
 nl,A1,118,eigen,own,自己的,ADJ,dutch/A1.csv
 nl,A1,119,keer,time,次,NOUN,dutch/A1.csv
-nl,A1,120,willen,want,想要,VERB,dutch/A1.csv
+nl,A1,120,willen,to want,想要,VERB,dutch/A1.csv
 nl,A1,121,iedereen,everyone,每个人,PRON,dutch/A1.csv
 nl,A1,122,weg,away,离开,ADV,dutch/A1.csv
 nl,A1,123,heel,whole,整个的,ADJ,dutch/A1.csv
@@ -14967,10 +14967,10 @@ nl,A1,129,zitten,to sit,坐,VERB,dutch/A1.csv
 nl,A1,130,drie,three,三,NUM,dutch/A1.csv
 nl,A1,131,zelf,self,自己,ADV,dutch/A1.csv
 nl,A1,132,aantal,number,数量,NOUN,dutch/A1.csv
-nl,A1,133,geven,give,给,VERB,dutch/A1.csv
+nl,A1,133,geven,to give,给,VERB,dutch/A1.csv
 nl,A1,134,kind,child,孩子,NOUN,dutch/A1.csv
 nl,A1,135,samen,together,一起,ADV,dutch/A1.csv
-nl,A1,136,vinden,find,找到,VERB,dutch/A1.csv
+nl,A1,136,vinden,to find,找到,VERB,dutch/A1.csv
 nl,A1,137,plaats,place,地方,NOUN,dutch/A1.csv
 nl,A1,138,snel,fast,快的,ADJ,dutch/A1.csv
 nl,A1,139,toe,to,向,ADP,dutch/A1.csv
@@ -15040,14 +15040,14 @@ nl,A1,202,rond,around,在...周围,ADP,dutch/A1.csv
 nl,A1,203,jouw,your,你的,PRON,dutch/A1.csv
 nl,A1,204,klein,small,小的,ADJ,dutch/A1.csv
 nl,A1,205,tweede,second,第二,ADJ,dutch/A1.csv
-nl,A1,206,liggen,lie,躺,VERB,dutch/A1.csv
+nl,A1,206,liggen,to lie,躺,VERB,dutch/A1.csv
 nl,A1,207,manier,way,方式,NOUN,dutch/A1.csv
 nl,A1,208,politie,police,警察,NOUN,dutch/A1.csv
 nl,A1,209,welke,which,哪个,PRON,dutch/A1.csv
 nl,A1,210,buiten,outside,在外面,ADP,dutch/A1.csv
 nl,A1,211,enkele,some,一些,DET,dutch/A1.csv
 nl,A1,212,geleden,ago,以前,ADV,dutch/A1.csv
-nl,A1,213,eten,eat,吃,VERB,dutch/A1.csv
+nl,A1,213,eten,to eat,吃,VERB,dutch/A1.csv
 nl,A1,214,klaar,ready,准备好的,ADJ,dutch/A1.csv
 nl,A1,215,oud,old,老的,ADJ,dutch/A1.csv
 nl,A1,216,echter,however,然而,ADV,dutch/A1.csv
@@ -15075,7 +15075,7 @@ nl,A1,237,hen,them,他们,PRON,dutch/A1.csv
 nl,A1,238,onderzoek,research,研究,NOUN,dutch/A1.csv
 nl,A1,239,terwijl,while,当……时,SCONJ,dutch/A1.csv
 nl,A1,240,vier,four,四,NUM,dutch/A1.csv
-nl,A1,241,zorgen,ensure,确保,VERB,dutch/A1.csv
+nl,A1,241,zorgen,to ensure,确保,VERB,dutch/A1.csv
 nl,A1,242,eigenlijk,actually,其实,ADV,dutch/A1.csv
 nl,A1,243,informatie,information,信息,NOUN,dutch/A1.csv
 nl,A1,244,pas,only just,刚刚,ADV,dutch/A1.csv
@@ -15162,31 +15162,31 @@ nl,A1,324,bedankt,thank you,谢谢,INTJ,dutch/A1.csv
 nl,A1,325,bijvoorbeeld,for example,例如,ADV,dutch/A1.csv
 nl,A1,326,delen,to share,分享,VERB,dutch/A1.csv
 nl,A1,327,oorlog,war,战争,NOUN,dutch/A1.csv
-nl,A1,328,praten,talk,说话,VERB,dutch/A1.csv
+nl,A1,328,praten,to talk,说话,VERB,dutch/A1.csv
 nl,A1,329,recht,right,权利,NOUN,dutch/A1.csv
 nl,A1,330,einde,end,结束,NOUN,dutch/A1.csv
 nl,A1,331,kamer,room,房间,NOUN,dutch/A1.csv
 nl,A1,332,prijs,price,价格,NOUN,dutch/A1.csv
 nl,A1,333,programma,program,节目,NOUN,dutch/A1.csv
 nl,A1,334,orde,order,秩序,NOUN,dutch/A1.csv
-nl,A1,335,volgen,follow,跟随,VERB,dutch/A1.csv
-nl,A1,336,plaatsen,place,放置,VERB,dutch/A1.csv
+nl,A1,335,volgen,to follow,跟随,VERB,dutch/A1.csv
+nl,A1,336,plaatsen,to place,放置,VERB,dutch/A1.csv
 nl,A1,337,juist,correct,正确的,ADJ,dutch/A1.csv
 nl,A1,338,kant,side,边,NOUN,dutch/A1.csv
-nl,A1,339,landen,land,降落,VERB,dutch/A1.csv
+nl,A1,339,landen,to land,降落,VERB,dutch/A1.csv
 nl,A1,340,reden,reason,原因,NOUN,dutch/A1.csv
 nl,A1,341,vanwege,because of,由于,ADP,dutch/A1.csv
 nl,A1,342,waardoor,as a result of which,由此,ADV,dutch/A1.csv
 nl,A1,343,elk,each,每个,PRON,dutch/A1.csv
 nl,A1,344,gevoel,feeling,感觉,NOUN,dutch/A1.csv
-nl,A1,345,worden,become,成为,VERB,dutch/A1.csv
+nl,A1,345,worden,to become,成为,VERB,dutch/A1.csv
 nl,A1,346,voordat,before,在...之前,SCONJ,dutch/A1.csv
 nl,A1,347,aandacht,attention,注意,NOUN,dutch/A1.csv
 nl,A1,348,beide,both,两者都,PRON,dutch/A1.csv
 nl,A1,349,geschiedenis,history,历史,NOUN,dutch/A1.csv
 nl,A1,350,hetzelfde,the same,相同的,ADJ,dutch/A1.csv
 nl,A1,351,midden,middle,中间,ADV,dutch/A1.csv
-nl,A1,352,proberen,try,尝试,VERB,dutch/A1.csv
+nl,A1,352,proberen,to try,尝试,VERB,dutch/A1.csv
 nl,A1,353,slecht,bad,坏的,ADJ,dutch/A1.csv
 nl,A1,354,stuk,piece,块,NOUN,dutch/A1.csv
 nl,A1,355,vervolgens,then,随后,ADV,dutch/A1.csv
@@ -15223,7 +15223,7 @@ nl,A1,385,ieder,every,每个,PRON,dutch/A1.csv
 nl,A1,386,organisatie,organization,组织,NOUN,dutch/A1.csv
 nl,A1,387,provincie,province,省,NOUN,dutch/A1.csv
 nl,A1,388,tien,ten,十,NUM,dutch/A1.csv
-nl,A1,389,vergeten,forget,忘记,VERB,dutch/A1.csv
+nl,A1,389,vergeten,to forget,忘记,VERB,dutch/A1.csv
 nl,A1,390,actie,action,行动,NOUN,dutch/A1.csv
 nl,A1,391,huidig,current,当前的,ADJ,dutch/A1.csv
 nl,A1,392,bang,scared,害怕的,ADJ,dutch/A1.csv
@@ -15298,18 +15298,18 @@ nl,A2,67,vriend,friend,朋友,NOUN,dutch/A2.csv
 nl,A2,68,waaronder,including,其中包括,ADV,dutch/A2.csv
 nl,A2,69,inmiddels,by now,此时,ADV,dutch/A2.csv
 nl,A2,70,licht,light,光,NOUN,dutch/A2.csv
-nl,A2,71,veranderen,change,改变,VERB,dutch/A2.csv
+nl,A2,71,veranderen,to change,改变,VERB,dutch/A2.csv
 nl,A2,72,voorbij,past,过去,ADP,dutch/A2.csv
-nl,A2,73,voorkomen,prevent,防止,VERB,dutch/A2.csv
-nl,A2,74,vormen,form,形成,VERB,dutch/A2.csv
+nl,A2,73,voorkomen,to prevent,防止,VERB,dutch/A2.csv
+nl,A2,74,vormen,to form,形成,VERB,dutch/A2.csv
 nl,A2,75,aanwezig,present,在场,ADJ,dutch/A2.csv
 nl,A2,76,eiland,island,岛屿,NOUN,dutch/A2.csv
-nl,A2,77,schrijven,write,写,VERB,dutch/A2.csv
+nl,A2,77,schrijven,to write,写,VERB,dutch/A2.csv
 nl,A2,78,meestal,usually,通常,ADV,dutch/A2.csv
 nl,A2,79,pijn,pain,疼痛,NOUN,dutch/A2.csv
 nl,A2,80,prima,fine,很好,ADJ,dutch/A2.csv
 nl,A2,81,punt,point,点,NOUN,dutch/A2.csv
-nl,A2,82,stoppen,stop,停止,VERB,dutch/A2.csv
+nl,A2,82,stoppen,to stop,停止,VERB,dutch/A2.csv
 nl,A2,83,actief,active,活跃,ADJ,dutch/A2.csv
 nl,A2,84,fijn,fine,好,ADJ,dutch/A2.csv
 nl,A2,85,koning,king,国王,NOUN,dutch/A2.csv
@@ -15322,7 +15322,7 @@ nl,A2,91,prachtig,beautiful,美丽,ADJ,dutch/A2.csv
 nl,A2,92,regering,government,政府,NOUN,dutch/A2.csv
 nl,A2,93,straat,street,街道,NOUN,dutch/A2.csv
 nl,A2,94,trots,proud,骄傲,ADJ,dutch/A2.csv
-nl,A2,95,voelen,feel,感觉,VERB,dutch/A2.csv
+nl,A2,95,voelen,to feel,感觉,VERB,dutch/A2.csv
 nl,A2,96,zaterdag,Saturday,星期六,NOUN,dutch/A2.csv
 nl,A2,97,belang,interest,兴趣,NOUN,dutch/A2.csv
 nl,A2,98,bovendien,moreover,此外,ADV,dutch/A2.csv
@@ -15339,7 +15339,7 @@ nl,A2,108,zee,sea,海,NOUN,dutch/A2.csv
 nl,A2,109,bepaald,certain,特定的,ADJ,dutch/A2.csv
 nl,A2,110,dorp,village,村庄,NOUN,dutch/A2.csv
 nl,A2,111,gisteren,yesterday,昨天,ADV,dutch/A2.csv
-nl,A2,112,kiezen,choose,选择,VERB,dutch/A2.csv
+nl,A2,112,kiezen,to choose,选择,VERB,dutch/A2.csv
 nl,A2,113,daarnaast,in addition,此外,ADV,dutch/A2.csv
 nl,A2,114,heerlijk,delicious,美味的,ADJ,dutch/A2.csv
 nl,A2,115,hoogte,height,高度,NOUN,dutch/A2.csv
@@ -15397,7 +15397,7 @@ nl,A2,166,gevolg,consequence,后果,NOUN,dutch/A2.csv
 nl,A2,167,gezicht,face,脸,NOUN,dutch/A2.csv
 nl,A2,168,beschikbaar,available,可用的,ADJ,dutch/A2.csv
 nl,A2,169,betrokken,involved,涉及的,ADJ,dutch/A2.csv
-nl,A2,170,dragen,wear,穿,VERB,dutch/A2.csv
+nl,A2,170,dragen,to wear,穿,VERB,dutch/A2.csv
 nl,A2,171,gelegen,located,位于,ADJ,dutch/A2.csv
 nl,A2,172,heer,gentleman,先生,NOUN,dutch/A2.csv
 nl,A2,173,jong,young,年轻的,ADJ,dutch/A2.csv
@@ -15453,7 +15453,7 @@ nl,A2,222,procent,percent,百分比,NOUN,dutch/A2.csv
 nl,A2,223,trekken,to pull,拉,VERB,dutch/A2.csv
 nl,A2,224,waard,worth,值得,ADJ,dutch/A2.csv
 nl,A2,225,aarde,earth,地球,NOUN,dutch/A2.csv
-nl,A2,226,begrijpen,understand,理解,VERB,dutch/A2.csv
+nl,A2,226,begrijpen,to understand,理解,VERB,dutch/A2.csv
 nl,A2,227,eeuw,century,世纪,NOUN,dutch/A2.csv
 nl,A2,228,feest,party,派对,NOUN,dutch/A2.csv
 nl,A2,229,hond,dog,狗,NOUN,dutch/A2.csv
@@ -15463,8 +15463,8 @@ nl,A2,232,vakantie,holiday,假期,NOUN,dutch/A2.csv
 nl,A2,233,veiligheid,safety,安全,NOUN,dutch/A2.csv
 nl,A2,234,waarheid,truth,真相,NOUN,dutch/A2.csv
 nl,A2,235,bevolking,population,人口,NOUN,dutch/A2.csv
-nl,A2,236,bieden,offer,提供,VERB,dutch/A2.csv
-nl,A2,237,bouwen,build,建造,VERB,dutch/A2.csv
+nl,A2,236,bieden,to offer,提供,VERB,dutch/A2.csv
+nl,A2,237,bouwen,to build,建造,VERB,dutch/A2.csv
 nl,A2,238,deur,door,门,NOUN,dutch/A2.csv
 nl,A2,239,erbij,with it,在旁边,ADV,dutch/A2.csv
 nl,A2,240,ervaring,experience,经验,NOUN,dutch/A2.csv
@@ -15480,9 +15480,9 @@ nl,A2,249,oplossing,solution,解决方案,NOUN,dutch/A2.csv
 nl,A2,250,ronde,round,回合,NOUN,dutch/A2.csv
 nl,A2,251,schuld,debt,债务,NOUN,dutch/A2.csv
 nl,A2,252,seks,sex,性,NOUN,dutch/A2.csv
-nl,A2,253,verlaten,leave,离开,VERB,dutch/A2.csv
+nl,A2,253,verlaten,to leave,离开,VERB,dutch/A2.csv
 nl,A2,254,welk,which,哪个,PRON,dutch/A2.csv
-nl,A2,255,drinken,drink,喝,VERB,dutch/A2.csv
+nl,A2,255,drinken,to drink,喝,VERB,dutch/A2.csv
 nl,A2,256,gezin,family,家庭,NOUN,dutch/A2.csv
 nl,A2,257,kwijt,lost,丢失的,ADJ,dutch/A2.csv
 nl,A2,258,mening,opinion,观点,NOUN,dutch/A2.csv
@@ -15491,8 +15491,8 @@ nl,A2,260,post,mail,邮件,NOUN,dutch/A2.csv
 nl,A2,261,verleden,past,过去,NOUN,dutch/A2.csv
 nl,A2,262,zon,sun,太阳,NOUN,dutch/A2.csv
 nl,A2,263,afstand,distance,距离,NOUN,dutch/A2.csv
-nl,A2,264,beschermen,protect,保护,VERB,dutch/A2.csv
-nl,A2,265,betreffen,concern,关于,VERB,dutch/A2.csv
+nl,A2,264,beschermen,to protect,保护,VERB,dutch/A2.csv
+nl,A2,265,betreffen,to concern,关于,VERB,dutch/A2.csv
 nl,A2,266,blijkbaar,apparently,显然,ADV,dutch/A2.csv
 nl,A2,267,functie,function,功能,NOUN,dutch/A2.csv
 nl,A2,268,jeugd,youth,青年,NOUN,dutch/A2.csv
@@ -15504,8 +15504,8 @@ nl,A2,273,vlak,flat,平坦的,ADJ,dutch/A2.csv
 nl,A2,274,volk,people,人民,NOUN,dutch/A2.csv
 nl,A2,275,boos,angry,生气的,ADJ,dutch/A2.csv
 nl,A2,276,enorm,enormous,巨大的,ADJ,dutch/A2.csv
-nl,A2,277,kosten,cost,花费,VERB,dutch/A2.csv
-nl,A2,278,lijken,seem,似乎,VERB,dutch/A2.csv
+nl,A2,277,kosten,to cost,花费,VERB,dutch/A2.csv
+nl,A2,278,lijken,to seem,似乎,VERB,dutch/A2.csv
 nl,A2,279,maandag,Monday,星期一,NOUN,dutch/A2.csv
 nl,A2,280,oosten,east,东方,NOUN,dutch/A2.csv
 nl,A2,281,overzicht,overview,概述,NOUN,dutch/A2.csv
@@ -15588,13 +15588,13 @@ nl,B1,2,natuur,nature,自然,NOUN,dutch/B1.csv
 nl,B1,3,officieel,official,官方的,ADJ,dutch/B1.csv
 nl,B1,4,oost,east,东,NOUN,dutch/B1.csv
 nl,B1,5,openbaar,public,公共的,ADJ,dutch/B1.csv
-nl,B1,6,verdienen,earn,赚,VERB,dutch/B1.csv
+nl,B1,6,verdienen,to earn,赚,VERB,dutch/B1.csv
 nl,B1,7,winnaar,winner,获胜者,NOUN,dutch/B1.csv
-nl,B1,8,bedoelen,mean,意指,VERB,dutch/B1.csv
-nl,B1,9,bekijken,look at,观看,VERB,dutch/B1.csv
+nl,B1,8,bedoelen,to mean,意指,VERB,dutch/B1.csv
+nl,B1,9,bekijken,to look at,观看,VERB,dutch/B1.csv
 nl,B1,10,bos,forest,森林,NOUN,dutch/B1.csv
 nl,B1,11,donderdag,Thursday,星期四,NOUN,dutch/B1.csv
-nl,B1,12,duren,last,持续,VERB,dutch/B1.csv
+nl,B1,12,duren,to last,持续,VERB,dutch/B1.csv
 nl,B1,13,gevangenis,prison,监狱,NOUN,dutch/B1.csv
 nl,B1,14,grappig,funny,有趣的,ADJ,dutch/B1.csv
 nl,B1,15,grens,border,边界,NOUN,dutch/B1.csv
@@ -15630,7 +15630,7 @@ nl,B1,44,groen,green,绿色的,ADJ,dutch/B1.csv
 nl,B1,45,hallo,hello,你好,INTJ,dutch/B1.csv
 nl,B1,46,inhoud,content,内容,NOUN,dutch/B1.csv
 nl,B1,47,premier,prime minister,首相,NOUN,dutch/B1.csv
-nl,B1,48,reizen,travel,旅行,VERB,dutch/B1.csv
+nl,B1,48,reizen,to travel,旅行,VERB,dutch/B1.csv
 nl,B1,49,risico,risk,风险,NOUN,dutch/B1.csv
 nl,B1,50,vereniging,association,协会,NOUN,dutch/B1.csv
 nl,B1,51,westen,west,西方,NOUN,dutch/B1.csv
@@ -15639,8 +15639,8 @@ nl,B1,53,besluit,decision,决定,NOUN,dutch/B1.csv
 nl,B1,54,commissie,committee,委员会,NOUN,dutch/B1.csv
 nl,B1,55,daardoor,therefore,因此,ADV,dutch/B1.csv
 nl,B1,56,favoriet,favourite,最喜爱的,ADJ,dutch/B1.csv
-nl,B1,57,organiseren,organize,组织,VERB,dutch/B1.csv
-nl,B1,58,richten,focus,聚焦,VERB,dutch/B1.csv
+nl,B1,57,organiseren,to organize,组织,VERB,dutch/B1.csv
+nl,B1,58,richten,to focus,聚焦,VERB,dutch/B1.csv
 nl,B1,59,gouden,golden,金色的,ADJ,dutch/B1.csv
 nl,B1,60,hierbij,hereby,在此,ADV,dutch/B1.csv
 nl,B1,61,indruk,impression,印象,NOUN,dutch/B1.csv
@@ -15685,7 +15685,7 @@ nl,B1,99,voorstellen,to suggest,建议,VERB,dutch/B1.csv
 nl,B1,100,beroep,profession,职业,NOUN,dutch/B1.csv
 nl,B1,101,betrekking,relation,关系,NOUN,dutch/B1.csv
 nl,B1,102,blauw,blue,蓝色的,ADJ,dutch/B1.csv
-nl,B1,103,openen,open,打开,VERB,dutch/B1.csv
+nl,B1,103,openen,to open,打开,VERB,dutch/B1.csv
 nl,B1,104,geweld,violence,暴力,NOUN,dutch/B1.csv
 nl,B1,105,hiervoor,for this,为此,ADV,dutch/B1.csv
 nl,B1,106,leider,leader,领导者,NOUN,dutch/B1.csv
@@ -15693,17 +15693,17 @@ nl,B1,107,mede,co-,共同,ADV,dutch/B1.csv
 nl,B1,108,miljard,billion,十亿,NUM,dutch/B1.csv
 nl,B1,109,stijl,style,风格,NOUN,dutch/B1.csv
 nl,B1,110,uitgebreid,extensive,广泛的,ADJ,dutch/B1.csv
-nl,B1,111,verdwijnen,disappear,消失,VERB,dutch/B1.csv
+nl,B1,111,verdwijnen,to disappear,消失,VERB,dutch/B1.csv
 nl,B1,112,zulke,such,这样的,DET,dutch/B1.csv
 nl,B1,113,aardig,nice,友好的,ADJ,dutch/B1.csv
 nl,B1,114,afspraak,appointment,预约,NOUN,dutch/B1.csv
 nl,B1,115,bescherming,protection,保护,NOUN,dutch/B1.csv
 nl,B1,116,binnenkort,soon,不久,ADV,dutch/B1.csv
 nl,B1,117,chinees,Chinese,中国的,ADJ,dutch/B1.csv
-nl,B1,118,eisen,demand,要求,VERB,dutch/B1.csv
+nl,B1,118,eisen,to demand,要求,VERB,dutch/B1.csv
 nl,B1,119,fantastisch,fantastic,极好的,ADJ,dutch/B1.csv
 nl,B1,120,fiets,bicycle,自行车,NOUN,dutch/B1.csv
-nl,B1,121,hoeven,need,需要,VERB,dutch/B1.csv
+nl,B1,121,hoeven,to need,需要,VERB,dutch/B1.csv
 nl,B1,122,hoek,corner,角落,NOUN,dutch/B1.csv
 nl,B1,123,internationaal,international,国际的,ADJ,dutch/B1.csv
 nl,B1,124,japans,Japanese,日本的,ADJ,dutch/B1.csv
@@ -15733,23 +15733,23 @@ nl,B1,147,eigenaar,owner,所有者,NOUN,dutch/B1.csv
 nl,B1,148,geluid,sound,声音,NOUN,dutch/B1.csv
 nl,B1,149,kamp,camp,营地,NOUN,dutch/B1.csv
 nl,B1,150,klant,customer,顾客,NOUN,dutch/B1.csv
-nl,B1,151,lachen,laugh,笑,VERB,dutch/B1.csv
+nl,B1,151,lachen,to laugh,笑,VERB,dutch/B1.csv
 nl,B1,152,lief,sweet,亲爱的,ADJ,dutch/B1.csv
 nl,B1,153,negen,nine,九,NUM,dutch/B1.csv
 nl,B1,154,ontwerp,design,设计,NOUN,dutch/B1.csv
-nl,B1,155,reageren,respond,回应,VERB,dutch/B1.csv
+nl,B1,155,reageren,to respond,回应,VERB,dutch/B1.csv
 nl,B1,156,strand,beach,海滩,NOUN,dutch/B1.csv
 nl,B1,157,stukje,piece,小块,NOUN,dutch/B1.csv
 nl,B1,158,tuin,garden,花园,NOUN,dutch/B1.csv
 nl,B1,159,vandaan,from,来自,ADP,dutch/B1.csv
 nl,B1,160,vrede,peace,和平,NOUN,dutch/B1.csv
 nl,B1,161,vreemd,strange,奇怪的,ADJ,dutch/B1.csv
-nl,B1,162,zingen,sing,唱歌,VERB,dutch/B1.csv
+nl,B1,162,zingen,to sing,唱歌,VERB,dutch/B1.csv
 nl,B1,163,behandeling,treatment,治疗,NOUN,dutch/B1.csv
 nl,B1,164,beneden,downstairs,楼下,ADV,dutch/B1.csv
 nl,B1,165,berichten,to inform,通知,VERB,dutch/B1.csv
 nl,B1,166,eenmaal,once,一次,ADV,dutch/B1.csv
-nl,B1,167,raken,touch,触摸,VERB,dutch/B1.csv
+nl,B1,167,raken,to touch,触摸,VERB,dutch/B1.csv
 nl,B1,168,honger,hunger,饥饿,NOUN,dutch/B1.csv
 nl,B1,169,meid,girl,女孩,NOUN,dutch/B1.csv
 nl,B1,170,min,minus,减,NOUN,dutch/B1.csv
@@ -15774,21 +15774,21 @@ nl,B1,188,kritiek,criticism,批评,NOUN,dutch/B1.csv
 nl,B1,189,pak,suit,西装,NOUN,dutch/B1.csv
 nl,B1,190,parlement,parliament,议会,NOUN,dutch/B1.csv
 nl,B1,191,rapport,report,报告,NOUN,dutch/B1.csv
-nl,B1,192,verbeteren,improve,改善,VERB,dutch/B1.csv
+nl,B1,192,verbeteren,to improve,改善,VERB,dutch/B1.csv
 nl,B1,193,verklaring,declaration,声明,NOUN,dutch/B1.csv
-nl,B1,194,verwachten,expect,期待,VERB,dutch/B1.csv
+nl,B1,194,verwachten,to expect,期待,VERB,dutch/B1.csv
 nl,B1,195,vlag,flag,旗帜,NOUN,dutch/B1.csv
-nl,B1,196,vliegen,fly,飞,VERB,dutch/B1.csv
+nl,B1,196,vliegen,to fly,飞,VERB,dutch/B1.csv
 nl,B1,197,voet,foot,脚,NOUN,dutch/B1.csv
 nl,B1,198,voldoende,sufficient,足够的,ADJ,dutch/B1.csv
-nl,B1,199,wensen,wish,祝愿,VERB,dutch/B1.csv
+nl,B1,199,wensen,to wish,祝愿,VERB,dutch/B1.csv
 nl,B1,200,arts,doctor,医生,NOUN,dutch/B1.csv
 nl,B1,201,bijdrage,contribution,贡献,NOUN,dutch/B1.csv
 nl,B1,202,dinsdag,Tuesday,星期二,NOUN,dutch/B1.csv
-nl,B1,203,dromen,dream,做梦,VERB,dutch/B1.csv
+nl,B1,203,dromen,to dream,做梦,VERB,dutch/B1.csv
 nl,B1,204,editie,edition,版本,NOUN,dutch/B1.csv
 nl,B1,205,gebruiker,user,用户,NOUN,dutch/B1.csv
-nl,B1,206,hangen,hang,悬挂,VERB,dutch/B1.csv
+nl,B1,206,hangen,to hang,悬挂,VERB,dutch/B1.csv
 nl,B1,207,hopelijk,hopefully,希望,ADV,dutch/B1.csv
 nl,B1,208,inzet,stake,赌注,NOUN,dutch/B1.csv
 nl,B1,209,kust,coast,海岸,NOUN,dutch/B1.csv
@@ -15813,7 +15813,7 @@ nl,B1,227,koud,cold,冷的,ADJ,dutch/B1.csv
 nl,B1,228,kwaliteit,quality,质量,NOUN,dutch/B1.csv
 nl,B1,229,ministerie,ministry,部,NOUN,dutch/B1.csv
 nl,B1,230,nauwelijks,hardly,几乎不,ADV,dutch/B1.csv
-nl,B1,231,ontwikkelen,develop,发展,VERB,dutch/B1.csv
+nl,B1,231,ontwikkelen,to develop,发展,VERB,dutch/B1.csv
 nl,B1,232,standaard,standard,标准,NOUN,dutch/B1.csv
 nl,B1,233,studie,study,学习,NOUN,dutch/B1.csv
 nl,B1,234,televisie,television,电视,NOUN,dutch/B1.csv
@@ -15828,7 +15828,7 @@ nl,B1,242,gefeliciteerd,congratulations,恭喜,INTJ,dutch/B1.csv
 nl,B1,243,gezond,healthy,健康的,ADJ,dutch/B1.csv
 nl,B1,244,initiatief,initiative,主动性,NOUN,dutch/B1.csv
 nl,B1,245,meneer,sir,先生,NOUN,dutch/B1.csv
-nl,B1,246,missen,miss,想念,VERB,dutch/B1.csv
+nl,B1,246,missen,to miss,想念,VERB,dutch/B1.csv
 nl,B1,247,omhoog,upwards,向上,ADV,dutch/B1.csv
 nl,B1,248,positief,positive,积极的,ADJ,dutch/B1.csv
 nl,B1,249,rechtbank,court,法院,NOUN,dutch/B1.csv
@@ -15879,7 +15879,7 @@ nl,B1,293,olie,oil,油,NOUN,dutch/B1.csv
 nl,B1,294,pad,path,小路,NOUN,dutch/B1.csv
 nl,B1,295,schoon,clean,干净的,ADJ,dutch/B1.csv
 nl,B1,296,simpel,simple,简单的,ADJ,dutch/B1.csv
-nl,B1,297,sterven,die,死,VERB,dutch/B1.csv
+nl,B1,297,sterven,to die,死,VERB,dutch/B1.csv
 nl,B1,298,tenminste,at least,至少,ADV,dutch/B1.csv
 nl,B1,299,twijfel,doubt,怀疑,NOUN,dutch/B1.csv
 nl,B1,300,verkoop,sale,销售,NOUN,dutch/B1.csv
@@ -15895,13 +15895,13 @@ nl,B1,309,dame,lady,女士,NOUN,dutch/B1.csv
 nl,B1,310,debat,debate,辩论,NOUN,dutch/B1.csv
 nl,B1,311,evenement,event,活动,NOUN,dutch/B1.csv
 nl,B1,312,gedeelte,part,部分,NOUN,dutch/B1.csv
-nl,B1,313,leveren,deliver,交付,VERB,dutch/B1.csv
+nl,B1,313,leveren,to deliver,交付,VERB,dutch/B1.csv
 nl,B1,314,oma,grandma,奶奶,NOUN,dutch/B1.csv
 nl,B1,315,ontzettend,terribly,非常,ADV,dutch/B1.csv
 nl,B1,316,raar,weird,奇怪的,ADJ,dutch/B1.csv
-nl,B1,317,steken,stitch,缝,VERB,dutch/B1.csv
+nl,B1,317,steken,to stitch,缝,VERB,dutch/B1.csv
 nl,B1,318,verbinding,connection,连接,NOUN,dutch/B1.csv
-nl,B1,319,verwijderen,remove,移除,VERB,dutch/B1.csv
+nl,B1,319,verwijderen,to remove,移除,VERB,dutch/B1.csv
 nl,B1,320,waar,true,真实的,ADJ,dutch/B1.csv
 nl,B1,321,auteur,author,作者,NOUN,dutch/B1.csv
 nl,B1,322,broek,trousers,裤子,NOUN,dutch/B1.csv
@@ -15959,12 +15959,12 @@ nl,B1,373,vooruit,forward,向前,ADV,dutch/B1.csv
 nl,B1,374,weg,road,路,NOUN,dutch/B1.csv
 nl,B1,375,agent,police officer,警察,NOUN,dutch/B1.csv
 nl,B1,376,belachelijk,ridiculous,荒谬的,ADJ,dutch/B1.csv
-nl,B1,377,betekenen,mean,意味着,VERB,dutch/B1.csv
-nl,B1,378,starten,start,开始,VERB,dutch/B1.csv
+nl,B1,377,betekenen,to mean,意味着,VERB,dutch/B1.csv
+nl,B1,378,starten,to start,开始,VERB,dutch/B1.csv
 nl,B1,379,gezellig,cozy,舒适的,ADJ,dutch/B1.csv
 nl,B1,380,groei,growth,增长,NOUN,dutch/B1.csv
 nl,B1,381,handel,trade,贸易,NOUN,dutch/B1.csv
-nl,B1,382,herinneren,remind,提醒,VERB,dutch/B1.csv
+nl,B1,382,herinneren,to remind,提醒,VERB,dutch/B1.csv
 nl,B1,383,industrie,industry,工业,NOUN,dutch/B1.csv
 nl,B1,384,jaarlijks,annual,每年的,ADJ,dutch/B1.csv
 nl,B1,385,moe,tired,疲倦的,ADJ,dutch/B1.csv
@@ -15978,14 +15978,14 @@ nl,B1,392,thema,theme,主题,NOUN,dutch/B1.csv
 nl,B1,393,tijdelijk,temporary,临时的,ADJ,dutch/B1.csv
 nl,B1,394,unie,union,联盟,NOUN,dutch/B1.csv
 nl,B1,395,verantwoordelijkheid,responsibility,责任,NOUN,dutch/B1.csv
-nl,B1,396,verplichten,oblige,强迫,VERB,dutch/B1.csv
+nl,B1,396,verplichten,to oblige,强迫,VERB,dutch/B1.csv
 nl,B1,397,voorstel,proposal,提议,NOUN,dutch/B1.csv
 nl,B1,398,wereldwijd,worldwide,全球的,ADJ,dutch/B1.csv
 nl,B1,399,alsjeblieft,please,请,INTJ,dutch/B1.csv
 nl,B1,400,arm,poor,贫穷的,ADJ,dutch/B1.csv
 nl,B1,401,beiden,both,两者,PRON,dutch/B1.csv
 nl,B1,402,gevaarlijk,dangerous,危险的,ADJ,dutch/B1.csv
-nl,B1,403,groeien,grow,生长,VERB,dutch/B1.csv
+nl,B1,403,groeien,to grow,生长,VERB,dutch/B1.csv
 nl,B1,404,hof,court,法庭,NOUN,dutch/B1.csv
 nl,B1,405,kwaad,angry,生气的,ADJ,dutch/B1.csv
 nl,B1,406,lengte,length,长度,NOUN,dutch/B1.csv
@@ -16003,41 +16003,41 @@ nl,B1,417,hoeveelheid,quantity,数量,NOUN,dutch/B1.csv
 nl,B1,418,indien,if,如果,SCONJ,dutch/B1.csv
 nl,B1,419,kwestie,issue,问题,NOUN,dutch/B1.csv
 nl,B1,420,liefst,preferably,最好,ADV,dutch/B1.csv
-nl,B1,421,ontmoeten,meet,遇见,VERB,dutch/B1.csv
+nl,B1,421,ontmoeten,to meet,遇见,VERB,dutch/B1.csv
 nl,B1,422,oorzaak,cause,原因,NOUN,dutch/B1.csv
 nl,B1,423,profiel,profile,个人资料,NOUN,dutch/B1.csv
 nl,B1,424,relatief,relatively,相对地,ADV,dutch/B1.csv
-nl,B1,425,roepen,shout,呼喊,VERB,dutch/B1.csv
+nl,B1,425,roepen,to shout,呼喊,VERB,dutch/B1.csv
 nl,B1,426,spullen,stuff,物品,NOUN,dutch/B1.csv
 nl,B1,427,tas,bag,包,NOUN,dutch/B1.csv
 nl,B1,428,tegelijkertijd,at the same time,同时,ADV,dutch/B1.csv
 nl,B1,429,termijn,term,期限,NOUN,dutch/B1.csv
 nl,B1,430,tijdschrift,magazine,杂志,NOUN,dutch/B1.csv
 nl,B1,431,twaalf,twelve,十二,NUM,dutch/B1.csv
-nl,B1,432,vertrekken,leave,离开,VERB,dutch/B1.csv
+nl,B1,432,vertrekken,to leave,离开,VERB,dutch/B1.csv
 nl,B1,433,volwassen,adult,成年的,ADJ,dutch/B1.csv
 nl,B1,434,wetenschap,science,科学,NOUN,dutch/B1.csv
-nl,B1,435,bespreken,discuss,讨论,VERB,dutch/B1.csv
+nl,B1,435,bespreken,to discuss,讨论,VERB,dutch/B1.csv
 nl,B1,436,brood,bread,面包,NOUN,dutch/B1.csv
-nl,B1,437,controleren,check,检查,VERB,dutch/B1.csv
-nl,B1,438,doorgaan,continue,继续,VERB,dutch/B1.csv
+nl,B1,437,controleren,to check,检查,VERB,dutch/B1.csv
+nl,B1,438,doorgaan,to continue,继续,VERB,dutch/B1.csv
 nl,B1,439,eveneens,also,也,ADV,dutch/B1.csv
-nl,B1,440,gooien,throw,扔,VERB,dutch/B1.csv
+nl,B1,440,gooien,to throw,扔,VERB,dutch/B1.csv
 nl,B1,441,onmiddellijk,immediately,立即,ADV,dutch/B1.csv
-nl,B1,442,ontwerpen,design,设计,VERB,dutch/B1.csv
-nl,B1,443,oplossen,solve,解决,VERB,dutch/B1.csv
+nl,B1,442,ontwerpen,to design,设计,VERB,dutch/B1.csv
+nl,B1,443,oplossen,to solve,解决,VERB,dutch/B1.csv
 nl,B1,444,overig,other,其余的,ADJ,dutch/B1.csv
 nl,B1,445,prins,prince,王子,NOUN,dutch/B1.csv
 nl,B1,446,technologie,technology,技术,NOUN,dutch/B1.csv
 nl,B1,447,terrein,terrain,地形,NOUN,dutch/B1.csv
-nl,B1,448,trouwen,marry,结婚,VERB,dutch/B1.csv
+nl,B1,448,trouwen,to marry,结婚,VERB,dutch/B1.csv
 nl,B1,449,begrip,concept,概念,NOUN,dutch/B1.csv
 nl,B1,450,been,leg,腿,NOUN,dutch/B1.csv
 nl,B1,451,bijeenkomst,meeting,会议,NOUN,dutch/B1.csv
 nl,B1,452,boord,board,船舷,NOUN,dutch/B1.csv
 nl,B1,453,Europees,European,欧洲的,ADJ,dutch/B1.csv
 nl,B1,454,feestje,party,聚会,NOUN,dutch/B1.csv
-nl,B1,455,fietsen,cycle,骑自行车,VERB,dutch/B1.csv
+nl,B1,455,fietsen,to cycle,骑自行车,VERB,dutch/B1.csv
 nl,B1,456,grap,joke,笑话,NOUN,dutch/B1.csv
 nl,B1,457,held,hero,英雄,NOUN,dutch/B1.csv
 nl,B1,458,homo,gay man,男同性恋者,NOUN,dutch/B1.csv
@@ -16045,7 +16045,7 @@ nl,B1,459,honderd,one hundred,一百,NUM,dutch/B1.csv
 nl,B1,460,honderden,hundreds,数百,NUM,dutch/B1.csv
 nl,B1,461,kandidaat,candidate,候选人,NOUN,dutch/B1.csv
 nl,B1,462,karakter,character,性格,NOUN,dutch/B1.csv
-nl,B1,463,koken,cook,烹饪,VERB,dutch/B1.csv
+nl,B1,463,koken,to cook,烹饪,VERB,dutch/B1.csv
 nl,B1,464,meerderheid,majority,多数,NOUN,dutch/B1.csv
 nl,B1,465,onderstaand,below,下面的,ADJ,dutch/B1.csv
 nl,B1,466,ontbijt,breakfast,早餐,NOUN,dutch/B1.csv
@@ -16069,30 +16069,30 @@ nl,B1,483,kat,cat,猫,NOUN,dutch/B1.csv
 nl,B1,484,letterlijk,literal,字面上的,ADJ,dutch/B1.csv
 nl,B1,485,minstens,at least,至少,ADV,dutch/B1.csv
 nl,B1,486,missie,mission,使命,NOUN,dutch/B1.csv
-nl,B1,487,opnemen,record,录制,VERB,dutch/B1.csv
+nl,B1,487,opnemen,to record,录制,VERB,dutch/B1.csv
 nl,B1,488,opzicht,respect,方面,NOUN,dutch/B1.csv
 nl,B1,489,Spaans,Spanish,西班牙的,ADJ,dutch/B1.csv
 nl,B1,490,steen,stone,石头,NOUN,dutch/B1.csv
 nl,B1,491,uitdaging,challenge,挑战,NOUN,dutch/B1.csv
-nl,B1,492,uitzenden,broadcast,广播,VERB,dutch/B1.csv
+nl,B1,492,uitzenden,to broadcast,广播,VERB,dutch/B1.csv
 nl,B1,493,uitslag,result,结果,NOUN,dutch/B1.csv
 nl,B1,494,voordeel,advantage,优势,NOUN,dutch/B1.csv
 nl,B1,495,appartement,apartment,公寓,NOUN,dutch/B1.csv
 nl,B1,496,bibliotheek,library,图书馆,NOUN,dutch/B1.csv
-nl,B1,497,creëren,create,创造,VERB,dutch/B1.csv
+nl,B1,497,creëren,to create,创造,VERB,dutch/B1.csv
 nl,B1,498,handig,handy,方便的,ADJ,dutch/B1.csv
 nl,B1,499,hierover,about this,关于这个,ADV,dutch/B1.csv
 nl,B1,500,nogmaals,once more,再次,ADV,dutch/B1.csv
 nl,B1,501,non,nun,修女,NOUN,dutch/B1.csv
-nl,B1,502,ontslaan,dismiss,解雇,VERB,dutch/B1.csv
+nl,B1,502,ontslaan,to dismiss,解雇,VERB,dutch/B1.csv
 nl,B1,503,papa,daddy,爸爸,NOUN,dutch/B1.csv
 nl,B1,504,ruzie,quarrel,争吵,NOUN,dutch/B1.csv
 nl,B1,505,sommigen,some,有些人,PRON,dutch/B1.csv
 nl,B1,506,velen,many,许多人,PRON,dutch/B1.csv
-nl,B1,507,vissen,fish,钓鱼,VERB,dutch/B1.csv
+nl,B1,507,vissen,to fish,钓鱼,VERB,dutch/B1.csv
 nl,B1,508,aanwezigheid,presence,出席,NOUN,dutch/B1.csv
-nl,B1,509,behouden,retain,保留,VERB,dutch/B1.csv
-nl,B1,510,bewegen,move,移动,VERB,dutch/B1.csv
+nl,B1,509,behouden,to retain,保留,VERB,dutch/B1.csv
+nl,B1,510,bewegen,to move,移动,VERB,dutch/B1.csv
 nl,B1,511,dier,animal,动物,NOUN,dutch/B1.csv
 nl,B1,512,ernstig,serious,严重的,ADJ,dutch/B1.csv
 nl,B1,513,goedemorgen,good morning,早上好,INTJ,dutch/B1.csv
@@ -16149,9 +16149,9 @@ nl,B2,35,wijzen,to point,指出,VERB,dutch/B2.csv
 nl,B2,36,zwanger,pregnant,怀孕的,ADJ,dutch/B2.csv
 nl,B2,37,aanpak,approach,方法,NOUN,dutch/B2.csv
 nl,B2,38,afscheid,farewell,告别,NOUN,dutch/B2.csv
-nl,B2,39,bedenken,invent,发明,VERB,dutch/B2.csv
+nl,B2,39,bedenken,to invent,发明,VERB,dutch/B2.csv
 nl,B2,40,benieuwd,curious,好奇的,ADJ,dutch/B2.csv
-nl,B2,41,bevestigen,confirm,确认,VERB,dutch/B2.csv
+nl,B2,41,bevestigen,to confirm,确认,VERB,dutch/B2.csv
 nl,B2,42,buur,neighbor,邻居,NOUN,dutch/B2.csv
 nl,B2,43,dans,dance,舞蹈,NOUN,dutch/B2.csv
 nl,B2,44,geel,yellow,黄色的,ADJ,dutch/B2.csv
@@ -16188,9 +16188,9 @@ nl,B2,74,verzamelen,to collect,收集,VERB,dutch/B2.csv
 nl,B2,75,vogel,bird,鸟,NOUN,dutch/B2.csv
 nl,B2,76,vriendelijk,friendly,友好的,ADJ,dutch/B2.csv
 nl,B2,77,zichtbaar,visible,可见的,ADJ,dutch/B2.csv
-nl,B2,78,aanpassen,adjust,调整,VERB,dutch/B2.csv
+nl,B2,78,aanpassen,to adjust,调整,VERB,dutch/B2.csv
 nl,B2,79,aanslag,tax rate,税率,NOUN,dutch/B2.csv
-nl,B2,80,bevatten,contain,包含,VERB,dutch/B2.csv
+nl,B2,80,bevatten,to contain,包含,VERB,dutch/B2.csv
 nl,B2,81,commentaar,comment,评论,NOUN,dutch/B2.csv
 nl,B2,82,beker,cup,杯子,NOUN,dutch/B2.csv
 nl,B2,83,echtgenoot,husband,丈夫,NOUN,dutch/B2.csv
@@ -16248,22 +16248,22 @@ nl,B2,134,enthousiast,enthusiastic,热情的,ADJ,dutch/B2.csv
 nl,B2,135,gedachte,thought,想法,NOUN,dutch/B2.csv
 nl,B2,136,heden,present,现在,NOUN,dutch/B2.csv
 nl,B2,137,helder,clear,清晰的,ADJ,dutch/B2.csv
-nl,B2,138,herstellen,recover,恢复,VERB,dutch/B2.csv
+nl,B2,138,herstellen,to recover,恢复,VERB,dutch/B2.csv
 nl,B2,139,jarig,having a birthday,过生日的,ADJ,dutch/B2.csv
 nl,B2,140,klacht,complaint,投诉,NOUN,dutch/B2.csv
 nl,B2,141,middag,afternoon,下午,NOUN,dutch/B2.csv
 nl,B2,142,mist,fog,雾,NOUN,dutch/B2.csv
 nl,B2,143,ondernemer,entrepreneur,企业家,NOUN,dutch/B2.csv
-nl,B2,144,ontdekken,discover,发现,VERB,dutch/B2.csv
-nl,B2,145,overlijden,die,去世,VERB,dutch/B2.csv
+nl,B2,144,ontdekken,to discover,发现,VERB,dutch/B2.csv
+nl,B2,145,overlijden,to die,去世,VERB,dutch/B2.csv
 nl,B2,146,plein,square,广场,NOUN,dutch/B2.csv
 nl,B2,147,professioneel,professional,专业的,ADJ,dutch/B2.csv
 nl,B2,148,raam,window,窗户,NOUN,dutch/B2.csv
 nl,B2,149,revolutie,revolution,革命,NOUN,dutch/B2.csv
-nl,B2,150,schieten,shoot,射击,VERB,dutch/B2.csv
+nl,B2,150,schieten,to shoot,射击,VERB,dutch/B2.csv
 nl,B2,151,smaak,taste,味道,NOUN,dutch/B2.csv
 nl,B2,152,star,rigid,僵硬的,ADJ,dutch/B2.csv
-nl,B2,153,studeren,study,学习,VERB,dutch/B2.csv
+nl,B2,153,studeren,to study,学习,VERB,dutch/B2.csv
 nl,B2,154,telkens,repeatedly,反复地,ADV,dutch/B2.csv
 nl,B2,155,verspreiden,to spread,传播,VERB,dutch/B2.csv
 nl,B2,156,vroeg,early,早的,ADJ,dutch/B2.csv
@@ -16373,20 +16373,20 @@ nl,B2,259,ergst,worst,最糟糕的,ADJ,dutch/B2.csv
 nl,B2,260,hemel,heaven,天堂,NOUN,dutch/B2.csv
 nl,B2,261,inkomen,income,收入,NOUN,dutch/B2.csv
 nl,B2,262,kasteel,castle,城堡,NOUN,dutch/B2.csv
-nl,B2,263,klagen,complain,抱怨,VERB,dutch/B2.csv
+nl,B2,263,klagen,to complain,抱怨,VERB,dutch/B2.csv
 nl,B2,264,landbouw,agriculture,农业,NOUN,dutch/B2.csv
 nl,B2,265,maximaal,maximum,最大的,ADJ,dutch/B2.csv
 nl,B2,266,ongelooflijk,incredible,难以置信的,ADJ,dutch/B2.csv
 nl,B2,267,ontmoeting,meeting,会面,NOUN,dutch/B2.csv
-nl,B2,268,overtuigen,convince,说服,VERB,dutch/B2.csv
+nl,B2,268,overtuigen,to convince,说服,VERB,dutch/B2.csv
 nl,B2,269,paniek,panic,恐慌,NOUN,dutch/B2.csv
 nl,B2,270,poort,gate,大门,NOUN,dutch/B2.csv
 nl,B2,271,principe,principle,原则,NOUN,dutch/B2.csv
 nl,B2,272,puur,pure,纯粹的,ADJ,dutch/B2.csv
-nl,B2,273,verbergen,hide,隐藏,VERB,dutch/B2.csv
+nl,B2,273,verbergen,to hide,隐藏,VERB,dutch/B2.csv
 nl,B2,274,verdieping,floor,楼层,NOUN,dutch/B2.csv
 nl,B2,275,beschrijving,description,描述,NOUN,dutch/B2.csv
-nl,B2,276,breken,break,打破,VERB,dutch/B2.csv
+nl,B2,276,breken,to break,打破,VERB,dutch/B2.csv
 nl,B2,277,buik,belly,腹部,NOUN,dutch/B2.csv
 nl,B2,278,cadeau,gift,礼物,NOUN,dutch/B2.csv
 nl,B2,279,definitief,final,最终的,ADJ,dutch/B2.csv
@@ -16411,33 +16411,33 @@ nl,B2,297,ouderen,elderly,老年人,NOUN,dutch/B2.csv
 nl,B2,298,passie,passion,激情,NOUN,dutch/B2.csv
 nl,B2,299,religie,religion,宗教,NOUN,dutch/B2.csv
 nl,B2,300,sneeuw,snow,雪,NOUN,dutch/B2.csv
-nl,B2,301,springen,jump,跳,VERB,dutch/B2.csv
+nl,B2,301,springen,to jump,跳,VERB,dutch/B2.csv
 nl,B2,302,symbool,symbol,象征,NOUN,dutch/B2.csv
 nl,B2,303,tekort,shortage,短缺,NOUN,dutch/B2.csv
 nl,B2,304,vandaar,hence,因此,ADV,dutch/B2.csv
 nl,B2,305,vannacht,tonight,今晚,ADV,dutch/B2.csv
 nl,B2,306,verdrag,treaty,条约,NOUN,dutch/B2.csv
-nl,B2,307,vernietigen,destroy,摧毁,VERB,dutch/B2.csv
+nl,B2,307,vernietigen,to destroy,摧毁,VERB,dutch/B2.csv
 nl,B2,308,volger,follower,追随者,NOUN,dutch/B2.csv
 nl,B2,309,zand,sand,沙子,NOUN,dutch/B2.csv
 nl,B2,310,zwak,weak,弱,ADJ,dutch/B2.csv
-nl,B2,311,aanbieden,offer,提供,VERB,dutch/B2.csv
+nl,B2,311,aanbieden,to offer,提供,VERB,dutch/B2.csv
 nl,B2,312,bodem,soil,土壤,NOUN,dutch/B2.csv
 nl,B2,313,chauffeur,driver,司机,NOUN,dutch/B2.csv
 nl,B2,314,Chinees,Chinese,中国人,NOUN,dutch/B2.csv
 nl,B2,315,conclusie,conclusion,结论,NOUN,dutch/B2.csv
 nl,B2,316,defensie,defense,国防,NOUN,dutch/B2.csv
-nl,B2,317,plannen,plan,计划,VERB,dutch/B2.csv
+nl,B2,317,plannen,to plan,计划,VERB,dutch/B2.csv
 nl,B2,318,kerst,Christmas,圣诞节,NOUN,dutch/B2.csv
 nl,B2,319,minst,least,最少,ADV,dutch/B2.csv
 nl,B2,320,pand,building,建筑物,NOUN,dutch/B2.csv
 nl,B2,321,plaat,plate,盘子,NOUN,dutch/B2.csv
-nl,B2,322,realiseren,realize,意识到,VERB,dutch/B2.csv
+nl,B2,322,realiseren,to realize,意识到,VERB,dutch/B2.csv
 nl,B2,323,sloot,ditch,沟渠,NOUN,dutch/B2.csv
 nl,B2,324,toekomstig,future,未来,ADJ,dutch/B2.csv
 nl,B2,325,traan,tear,眼泪,NOUN,dutch/B2.csv
 nl,B2,326,treden,step,步骤,NOUN,dutch/B2.csv
-nl,B2,327,verdedigen,defend,防御,VERB,dutch/B2.csv
+nl,B2,327,verdedigen,to defend,防御,VERB,dutch/B2.csv
 nl,B2,328,vet,fat,脂肪,NOUN,dutch/B2.csv
 nl,B2,329,vijfde,fifth,第五,ADJ,dutch/B2.csv
 nl,B2,330,werking,operation,运作,NOUN,dutch/B2.csv
@@ -16455,7 +16455,7 @@ nl,B2,341,klok,clock,时钟,NOUN,dutch/B2.csv
 nl,B2,342,maal,time,次,NOUN,dutch/B2.csv
 nl,B2,343,misdaad,crime,犯罪,NOUN,dutch/B2.csv
 nl,B2,344,onbekend,unknown,未知的,ADJ,dutch/B2.csv
-nl,B2,345,ontsnappen,escape,逃跑,VERB,dutch/B2.csv
+nl,B2,345,ontsnappen,to escape,逃跑,VERB,dutch/B2.csv
 nl,B2,346,oor,ear,耳朵,NOUN,dutch/B2.csv
 nl,B2,347,plaatje,picture,图片,NOUN,dutch/B2.csv
 nl,B2,348,schoonheid,beauty,美丽,NOUN,dutch/B2.csv
@@ -16480,7 +16480,7 @@ nl,B2,366,ellende,trouble,麻烦,NOUN,dutch/B2.csv
 nl,B2,367,haast,haste,匆忙,NOUN,dutch/B2.csv
 nl,B2,368,hartelijk,warmly,热情地,ADV,dutch/B2.csv
 nl,B2,369,intussen,meanwhile,同时,ADV,dutch/B2.csv
-nl,B2,370,investeren,invest,投资,VERB,dutch/B2.csv
+nl,B2,370,investeren,to invest,投资,VERB,dutch/B2.csv
 nl,B2,371,licht,light,轻的,ADJ,dutch/B2.csv
 nl,B2,372,loon,wage,工资,NOUN,dutch/B2.csv
 nl,B2,373,luxe,luxury,奢侈,NOUN,dutch/B2.csv
@@ -16488,7 +16488,7 @@ nl,B2,374,melk,milk,牛奶,NOUN,dutch/B2.csv
 nl,B2,375,menselijk,human,人类的,ADJ,dutch/B2.csv
 nl,B2,376,metro,subway,地铁,NOUN,dutch/B2.csv
 nl,B2,377,ofwel,either,或者,ADV,dutch/B2.csv
-nl,B2,378,raden,guess,猜,VERB,dutch/B2.csv
+nl,B2,378,raden,to guess,猜,VERB,dutch/B2.csv
 nl,B2,379,roman,novel,小说,NOUN,dutch/B2.csv
 nl,B2,380,sleutel,key,钥匙,NOUN,dutch/B2.csv
 nl,B2,381,specifiek,specific,特定的,ADJ,dutch/B2.csv
@@ -16496,8 +16496,8 @@ nl,B2,382,structuur,structure,结构,NOUN,dutch/B2.csv
 nl,B2,383,tegenstander,opponent,对手,NOUN,dutch/B2.csv
 nl,B2,384,uitbreiding,expansion,扩展,NOUN,dutch/B2.csv
 nl,B2,385,uitstekend,excellent,优秀的,ADJ,dutch/B2.csv
-nl,B2,386,verhuizen,move house,搬家,VERB,dutch/B2.csv
-nl,B2,387,verslaan,defeat,击败,VERB,dutch/B2.csv
+nl,B2,386,verhuizen,to move house,搬家,VERB,dutch/B2.csv
+nl,B2,387,verslaan,to defeat,击败,VERB,dutch/B2.csv
 nl,B2,388,vloer,floor,地板,NOUN,dutch/B2.csv
 nl,B2,389,voorzichtig,careful,小心的,ADJ,dutch/B2.csv
 nl,B2,390,zoektocht,search,搜寻,NOUN,dutch/B2.csv
@@ -16521,12 +16521,12 @@ nl,B2,407,publicatie,publication,出版,NOUN,dutch/B2.csv
 nl,B2,408,rechtstreeks,directly,直接地,ADV,dutch/B2.csv
 nl,B2,409,streek,region,地区,NOUN,dutch/B2.csv
 nl,B2,410,tante,aunt,阿姨,NOUN,dutch/B2.csv
-nl,B2,411,tellen,count,数,VERB,dutch/B2.csv
+nl,B2,411,tellen,to count,数,VERB,dutch/B2.csv
 nl,B2,412,typisch,typical,典型的,ADJ,dutch/B2.csv
-nl,B2,413,uitvoeren,execute,执行,VERB,dutch/B2.csv
+nl,B2,413,uitvoeren,to execute,执行,VERB,dutch/B2.csv
 nl,B2,414,verdediging,defense,防御,NOUN,dutch/B2.csv
 nl,B2,415,verdriet,sadness,悲伤,NOUN,dutch/B2.csv
-nl,B2,416,verschijnen,appear,出现,VERB,dutch/B2.csv
+nl,B2,416,verschijnen,to appear,出现,VERB,dutch/B2.csv
 nl,B2,417,vijand,enemy,敌人,NOUN,dutch/B2.csv
 nl,B2,418,Vlaams,Flemish,佛兰芒的,ADJ,dutch/B2.csv
 nl,B2,419,wetenschappelijk,scientific,科学的,ADJ,dutch/B2.csv
@@ -16535,7 +16535,7 @@ nl,B2,421,zelfmoord,suicide,自杀,NOUN,dutch/B2.csv
 nl,B2,422,blad,leaf,叶子,NOUN,dutch/B2.csv
 nl,B2,423,blok,block,块,NOUN,dutch/B2.csv
 nl,B2,424,dankbaar,grateful,感激的,ADJ,dutch/B2.csv
-nl,B2,425,deelnemen,participate,参与,VERB,dutch/B2.csv
+nl,B2,425,deelnemen,to participate,参与,VERB,dutch/B2.csv
 nl,B2,426,definitie,definition,定义,NOUN,dutch/B2.csv
 nl,B2,427,Duitser,German,德国人,NOUN,dutch/B2.csv
 nl,B2,428,extern,external,外部的,ADJ,dutch/B2.csv
@@ -16570,9 +16570,9 @@ nl,B2,456,automatisch,automatic,自动的,ADJ,dutch/B2.csv
 nl,B2,457,belasting,tax,税,NOUN,dutch/B2.csv
 nl,B2,458,bewaren,to keep,保存,VERB,dutch/B2.csv
 nl,B2,459,bijbel,Bible,圣经,NOUN,dutch/B2.csv
-nl,B2,460,blijken,turn out,证明是,VERB,dutch/B2.csv
+nl,B2,460,blijken,to turn out,证明是,VERB,dutch/B2.csv
 nl,B2,461,documentaire,documentary,纪录片,NOUN,dutch/B2.csv
-nl,B2,462,drukken,press,按,VERB,dutch/B2.csv
+nl,B2,462,drukken,to press,按,VERB,dutch/B2.csv
 nl,B2,463,fotograaf,photographer,摄影师,NOUN,dutch/B2.csv
 nl,B2,464,gras,grass,草,NOUN,dutch/B2.csv
 nl,B2,465,hoorn,horn,角,NOUN,dutch/B2.csv
@@ -16583,10 +16583,10 @@ nl,B2,469,kip,chicken,鸡,NOUN,dutch/B2.csv
 nl,B2,470,kruis,cross,十字架,NOUN,dutch/B2.csv
 nl,B2,471,leugen,lie,谎言,NOUN,dutch/B2.csv
 nl,B2,472,naartoe,towards,向,ADP,dutch/B2.csv
-nl,B2,473,onderhouden,maintain,维持,VERB,dutch/B2.csv
+nl,B2,473,onderhouden,to maintain,维持,VERB,dutch/B2.csv
 nl,B2,474,opkomst,turnout,出席率,NOUN,dutch/B2.csv
 nl,B2,475,opmerking,remark,评论,NOUN,dutch/B2.csv
-nl,B2,476,opstaan,stand up,站起来,VERB,dutch/B2.csv
+nl,B2,476,opstaan,to stand up,站起来,VERB,dutch/B2.csv
 nl,B2,477,toestel,device,设备,NOUN,dutch/B2.csv
 nl,B2,478,trainen,to train,训练,VERB,dutch/B2.csv
 nl,B2,479,verwachting,expectation,期望,NOUN,dutch/B2.csv
@@ -16663,7 +16663,7 @@ nl,B2,549,saai,boring,无聊的,ADJ,dutch/B2.csv
 nl,B2,550,scheiding,separation,分离,NOUN,dutch/B2.csv
 nl,B2,551,spiegel,mirror,镜子,NOUN,dutch/B2.csv
 nl,B2,552,verblijf,stay,停留,NOUN,dutch/B2.csv
-nl,B2,553,voegen,add,添加,VERB,dutch/B2.csv
+nl,B2,553,voegen,to add,添加,VERB,dutch/B2.csv
 nl,B2,554,voortaan,henceforth,今后,ADV,dutch/B2.csv
 nl,B2,555,voortdurend,continual,持续的,ADJ,dutch/B2.csv
 nl,B2,556,voorziening,facility,设施,NOUN,dutch/B2.csv
@@ -16685,9 +16685,9 @@ nl,B2,571,gezamenlijk,joint,共同的,ADJ,dutch/B2.csv
 nl,B2,572,haar,hair,头发,NOUN,dutch/B2.csv
 nl,B2,573,kaartje,ticket,票,NOUN,dutch/B2.csv
 nl,B2,574,kolonel,colonel,上校,NOUN,dutch/B2.csv
-nl,B2,575,letten,pay attention,注意,VERB,dutch/B2.csv
+nl,B2,575,letten,to pay attention,注意,VERB,dutch/B2.csv
 nl,B2,576,lift,elevator,电梯,NOUN,dutch/B2.csv
-nl,B2,577,lukken,succeed,成功,VERB,dutch/B2.csv
+nl,B2,577,lukken,to succeed,成功,VERB,dutch/B2.csv
 nl,B2,578,minimaal,minimal,最小的,ADJ,dutch/B2.csv
 nl,B2,579,onszelf,ourselves,我们自己,PRON,dutch/B2.csv
 nl,B2,580,onzeker,uncertain,不确定的,ADJ,dutch/B2.csv
@@ -16721,7 +16721,7 @@ nl,B2,607,lieverd,darling,亲爱的,NOUN,dutch/B2.csv
 nl,B2,608,luitenant,lieutenant,中尉,NOUN,dutch/B2.csv
 nl,B2,609,nep,fake,假的,ADJ,dutch/B2.csv
 nl,B2,610,omroep,broadcaster,广播公司,NOUN,dutch/B2.csv
-nl,B2,611,opsluiten,lock up,关押,VERB,dutch/B2.csv
+nl,B2,611,opsluiten,to lock up,关押,VERB,dutch/B2.csv
 nl,B2,612,pauze,break,休息,NOUN,dutch/B2.csv
 nl,B2,613,Pools,Polish,波兰的,ADJ,dutch/B2.csv
 nl,B2,614,racisme,racism,种族主义,NOUN,dutch/B2.csv
@@ -16748,8 +16748,8 @@ nl,B2,634,coalitie,coalition,联盟,NOUN,dutch/B2.csv
 nl,B2,635,dossier,file,档案,NOUN,dutch/B2.csv
 nl,B2,636,downloaden,to download,下载,VERB,dutch/B2.csv
 nl,B2,637,erkenning,recognition,认可,NOUN,dutch/B2.csv
-nl,B2,638,nomineren,nominate,提名,VERB,dutch/B2.csv
-nl,B2,639,produceren,produce,生产,VERB,dutch/B2.csv
+nl,B2,638,nomineren,to nominate,提名,VERB,dutch/B2.csv
+nl,B2,639,produceren,to produce,生产,VERB,dutch/B2.csv
 nl,B2,640,gezag,authority,权威,NOUN,dutch/B2.csv
 nl,B2,641,grapje,joke,玩笑,NOUN,dutch/B2.csv
 nl,B2,642,grondgebied,territory,领土,NOUN,dutch/B2.csv
@@ -16762,22 +16762,22 @@ nl,B2,648,stelling,statement,陈述,NOUN,dutch/B2.csv
 nl,B2,649,supermarkt,supermarket,超市,NOUN,dutch/B2.csv
 nl,B2,650,toeval,chance,巧合,NOUN,dutch/B2.csv
 nl,B2,651,toren,tower,塔,NOUN,dutch/B2.csv
-nl,B2,652,treden,step,踏,VERB,dutch/B2.csv
+nl,B2,652,treden,to step,踏,VERB,dutch/B2.csv
 nl,B2,653,vanmiddag,this afternoon,今天下午,ADV,dutch/B2.csv
 nl,B2,654,verbod,ban,禁令,NOUN,dutch/B2.csv
-nl,B2,655,verlopen,expire,过期,VERB,dutch/B2.csv
-nl,B2,656,vermoorden,murder,谋杀,VERB,dutch/B2.csv
-nl,B2,657,versterken,strengthen,加强,VERB,dutch/B2.csv
+nl,B2,655,verlopen,to expire,过期,VERB,dutch/B2.csv
+nl,B2,656,vermoorden,to murder,谋杀,VERB,dutch/B2.csv
+nl,B2,657,versterken,to strengthen,加强,VERB,dutch/B2.csv
 nl,B2,658,voertuig,vehicle,车辆,NOUN,dutch/B2.csv
 nl,B2,659,werkgever,employer,雇主,NOUN,dutch/B2.csv
-nl,B2,660,aanwijzen,designate,指定,VERB,dutch/B2.csv
-nl,B2,661,aanpakken,tackle,处理,VERB,dutch/B2.csv
+nl,B2,660,aanwijzen,to designate,指定,VERB,dutch/B2.csv
+nl,B2,661,aanpakken,to tackle,处理,VERB,dutch/B2.csv
 nl,B2,662,afloop,outcome,结果,NOUN,dutch/B2.csv
 nl,B2,663,ambassadeur,ambassador,大使,NOUN,dutch/B2.csv
 nl,B2,664,bereikbaar,reachable,可到达的,ADJ,dutch/B2.csv
-nl,B2,665,besteden,spend,花费,VERB,dutch/B2.csv
+nl,B2,665,besteden,to spend,花费,VERB,dutch/B2.csv
 nl,B2,666,binnenlands,domestic,国内的,ADJ,dutch/B2.csv
-nl,B2,667,branden,burn,燃烧,VERB,dutch/B2.csv
+nl,B2,667,branden,to burn,燃烧,VERB,dutch/B2.csv
 nl,B2,668,dijk,dike,堤坝,NOUN,dutch/B2.csv
 nl,B2,669,doelwit,target,目标,NOUN,dutch/B2.csv
 nl,B2,670,dronken,drunk,醉的,ADJ,dutch/B2.csv
@@ -16803,7 +16803,7 @@ nl,B2,689,stimuleren,to stimulate,刺激,VERB,dutch/B2.csv
 nl,B2,690,strategie,strategy,策略,NOUN,dutch/B2.csv
 nl,B2,691,uitgesproken,pronounced,明显的,ADJ,dutch/B2.csv
 nl,B2,692,vanzelf,by itself,自动地,ADV,dutch/B2.csv
-nl,B2,693,vergroten,enlarge,扩大,VERB,dutch/B2.csv
+nl,B2,693,vergroten,to enlarge,扩大,VERB,dutch/B2.csv
 nl,B2,694,afsluiten,to close,关闭,VERB,dutch/B2.csv
 nl,B2,695,beschadigen,to damage,损坏,VERB,dutch/B2.csv
 nl,B2,696,bestemming,destination,目的地,NOUN,dutch/B2.csv
@@ -16821,20 +16821,20 @@ nl,B2,707,fotografie,photography,摄影,NOUN,dutch/B2.csv
 nl,B2,708,gaaf,perfect,完美的,ADJ,dutch/B2.csv
 nl,B2,709,specialiseren,to specialize,专攻,VERB,dutch/B2.csv
 nl,B2,710,Hongaars,Hungarian,匈牙利的,ADJ,dutch/B2.csv
-nl,B2,711,informeren,inform,通知,VERB,dutch/B2.csv
+nl,B2,711,informeren,to inform,通知,VERB,dutch/B2.csv
 nl,B2,712,jurk,dress,连衣裙,NOUN,dutch/B2.csv
 nl,B2,713,krachtig,powerful,强大的,ADJ,dutch/B2.csv
-nl,B2,714,malen,grind,研磨,VERB,dutch/B2.csv
+nl,B2,714,malen,to grind,研磨,VERB,dutch/B2.csv
 nl,B2,715,mes,knife,刀,NOUN,dutch/B2.csv
 nl,B2,716,nood,distress,危难,NOUN,dutch/B2.csv
-nl,B2,717,opstellen,draw up,起草,VERB,dutch/B2.csv
+nl,B2,717,opstellen,to draw up,起草,VERB,dutch/B2.csv
 nl,B2,718,perspectief,perspective,视角,NOUN,dutch/B2.csv
 nl,B2,719,seconde,second,秒,NOUN,dutch/B2.csv
 nl,B2,720,stijging,increase,增加,NOUN,dutch/B2.csv
 nl,B2,721,stom,stupid,愚蠢的,ADJ,dutch/B2.csv
 nl,B2,722,tempo,pace,节奏,NOUN,dutch/B2.csv
 nl,B2,723,verscheidene,several,几个的,ADJ,dutch/B2.csv
-nl,B2,724,verwoesten,destroy,破坏,VERB,dutch/B2.csv
+nl,B2,724,verwoesten,to destroy,破坏,VERB,dutch/B2.csv
 nl,B2,725,vooraf,in advance,预先,ADV,dutch/B2.csv
 nl,B2,726,voorsprong,lead,领先,NOUN,dutch/B2.csv
 nl,B2,727,woede,fury,愤怒,NOUN,dutch/B2.csv
@@ -16864,20 +16864,20 @@ nl,B2,750,kritisch,critical,批判的,ADJ,dutch/B2.csv
 nl,B2,751,lui,lazy,懒惰的,ADJ,dutch/B2.csv
 nl,B2,752,Marokkaans,Moroccan,摩洛哥的,ADJ,dutch/B2.csv
 nl,B2,753,militair,military,军事的,ADJ,dutch/B2.csv
-nl,B2,754,onthouden,remember,记住,VERB,dutch/B2.csv
+nl,B2,754,onthouden,to remember,记住,VERB,dutch/B2.csv
 nl,B2,755,ontvangst,reception,接待,NOUN,dutch/B2.csv
-nl,B2,756,opzetten,set up,建立,VERB,dutch/B2.csv
+nl,B2,756,opzetten,to set up,建立,VERB,dutch/B2.csv
 nl,B2,757,passagier,passenger,乘客,NOUN,dutch/B2.csv
 nl,B2,758,pijnlijk,painful,痛苦的,ADJ,dutch/B2.csv
 nl,B2,759,schilderij,painting,绘画,NOUN,dutch/B2.csv
 nl,B2,760,signaal,signal,信号,NOUN,dutch/B2.csv
 nl,B2,761,sowieso,anyway,无论如何,ADV,dutch/B2.csv
 nl,B2,762,statistiek,statistic,统计,NOUN,dutch/B2.csv
-nl,B2,763,teleurstellen,disappoint,使失望,VERB,dutch/B2.csv
+nl,B2,763,teleurstellen,to disappoint,使失望,VERB,dutch/B2.csv
 nl,B2,764,veelal,often,通常,ADV,dutch/B2.csv
 nl,B2,765,veertig,forty,四十,NUM,dutch/B2.csv
 nl,B2,766,verkiezing,election,选举,NOUN,dutch/B2.csv
-nl,B2,767,vermoeden,suspect,怀疑,VERB,dutch/B2.csv
+nl,B2,767,vermoeden,to suspect,怀疑,VERB,dutch/B2.csv
 nl,B2,768,voorheen,formerly,以前,ADV,dutch/B2.csv
 nl,B2,769,weigeren,to refuse,拒绝,VERB,dutch/B2.csv
 nl,B2,770,weleens,sometimes,有时,ADV,dutch/B2.csv
@@ -16893,7 +16893,7 @@ nl,B2,779,genoemd,mentioned,被提及的,ADJ,dutch/B2.csv
 nl,B2,780,plegen,to commit,犯（罪）,VERB,dutch/B2.csv
 nl,B2,781,geur,smell,气味,NOUN,dutch/B2.csv
 nl,B2,782,graven,to dig,挖掘,VERB,dutch/B2.csv
-nl,B2,783,herkennen,recognize,认出,VERB,dutch/B2.csv
+nl,B2,783,herkennen,to recognize,认出,VERB,dutch/B2.csv
 nl,B2,784,kwart,quarter,四分之一,NOUN,dutch/B2.csv
 nl,B2,785,laden,to load,装载,VERB,dutch/B2.csv
 nl,B2,786,massaal,massively,大规模地,ADV,dutch/B2.csv
@@ -16936,20 +16936,20 @@ nl,B2,822,moslim,Muslim,穆斯林,NOUN,dutch/B2.csv
 nl,B2,823,nieuwsbrief,newsletter,简报,NOUN,dutch/B2.csv
 nl,B2,824,nul,zero,零,NUM,dutch/B2.csv
 nl,B2,825,onderneming,company,公司,NOUN,dutch/B2.csv
-nl,B2,826,onderscheiden,distinguish,区分,VERB,dutch/B2.csv
-nl,B2,827,ontbreken,be missing,缺少,VERB,dutch/B2.csv
+nl,B2,826,onderscheiden,to distinguish,区分,VERB,dutch/B2.csv
+nl,B2,827,ontbreken,to be missing,缺少,VERB,dutch/B2.csv
 nl,B2,828,paspoort,passport,护照,NOUN,dutch/B2.csv
 nl,B2,829,plat,flat,平的,ADJ,dutch/B2.csv
 nl,B2,830,prettig,pleasant,愉快的,ADJ,dutch/B2.csv
-nl,B2,831,uitkomen,come true,实现,VERB,dutch/B2.csv
+nl,B2,831,uitkomen,to come true,实现,VERB,dutch/B2.csv
 nl,B2,832,vaart,speed,速度,NOUN,dutch/B2.csv
 nl,B2,833,verlichting,relief,缓解,NOUN,dutch/B2.csv
 nl,B2,834,vers,fresh,新鲜的,ADJ,dutch/B2.csv
-nl,B2,835,verwerken,process,处理,VERB,dutch/B2.csv
+nl,B2,835,verwerken,to process,处理,VERB,dutch/B2.csv
 nl,B2,836,voorraad,stock,库存,NOUN,dutch/B2.csv
 nl,B2,837,zout,salt,盐,NOUN,dutch/B2.csv
 nl,B2,838,Zweeds,Swedish,瑞典的,ADJ,dutch/B2.csv
-nl,B2,839,aanhouden,arrest,逮捕,VERB,dutch/B2.csv
+nl,B2,839,aanhouden,to arrest,逮捕,VERB,dutch/B2.csv
 nl,B2,840,acteur,actor,演员,NOUN,dutch/B2.csv
 nl,B2,841,arbeid,labor,劳动,NOUN,dutch/B2.csv
 nl,B2,842,architectuur,architecture,建筑学,NOUN,dutch/B2.csv
@@ -16993,30 +16993,30 @@ nl,B2,879,betrokkenheid,involvement,参与,NOUN,dutch/B2.csv
 nl,B2,880,brandstof,fuel,燃料,NOUN,dutch/B2.csv
 nl,B2,881,cliënt,client,客户,NOUN,dutch/B2.csv
 nl,B2,882,concurrentie,competition,竞争,NOUN,dutch/B2.csv
-nl,B2,883,danken,thank,感谢,VERB,dutch/B2.csv
+nl,B2,883,danken,to thank,感谢,VERB,dutch/B2.csv
 nl,B2,884,discriminatie,discrimination,歧视,NOUN,dutch/B2.csv
 nl,B2,885,doelpunt,goal,进球,NOUN,dutch/B2.csv
-nl,B2,886,heten,be called,名叫,VERB,dutch/B2.csv
+nl,B2,886,heten,to be called,名叫,VERB,dutch/B2.csv
 nl,B2,887,kampioenschap,championship,锦标赛,NOUN,dutch/B2.csv
 nl,B2,888,maagd,virgin,处女,NOUN,dutch/B2.csv
-nl,B2,889,ontvoeren,kidnap,绑架,VERB,dutch/B2.csv
-nl,B2,890,opheffen,abolish,废除,VERB,dutch/B2.csv
+nl,B2,889,ontvoeren,to kidnap,绑架,VERB,dutch/B2.csv
+nl,B2,890,opheffen,to abolish,废除,VERB,dutch/B2.csv
 nl,B2,891,origineel,original,原创的,ADJ,dutch/B2.csv
 nl,B2,892,overgang,transition,过渡,NOUN,dutch/B2.csv
 nl,B2,893,schatting,estimate,估计,NOUN,dutch/B2.csv
 nl,B2,894,stabiel,stable,稳定的,ADJ,dutch/B2.csv
 nl,B2,895,talloos,countless,无数的,ADJ,dutch/B2.csv
 nl,B2,896,traject,trajectory,轨迹,NOUN,dutch/B2.csv
-nl,B2,897,uitmaken,matter,要紧,VERB,dutch/B2.csv
+nl,B2,897,uitmaken,to matter,要紧,VERB,dutch/B2.csv
 nl,B2,898,uitnodiging,invitation,邀请,NOUN,dutch/B2.csv
-nl,B2,899,verkrijgen,obtain,获得,VERB,dutch/B2.csv
+nl,B2,899,verkrijgen,to obtain,获得,VERB,dutch/B2.csv
 nl,B2,900,verrassend,surprising,令人惊讶的,ADJ,dutch/B2.csv
 nl,B2,901,verstandig,wise,明智的,ADJ,dutch/B2.csv
 nl,B2,902,voorafgaand,prior,先前的,ADJ,dutch/B2.csv
 nl,B2,903,voorjaar,spring,春天,NOUN,dutch/B2.csv
 nl,B2,904,wandeling,walk,散步,NOUN,dutch/B2.csv
-nl,B2,905,wisselen,switch,交换,VERB,dutch/B2.csv
-nl,B2,906,aankondigen,announce,宣布,VERB,dutch/B2.csv
+nl,B2,905,wisselen,to switch,交换,VERB,dutch/B2.csv
+nl,B2,906,aankondigen,to announce,宣布,VERB,dutch/B2.csv
 nl,B2,907,abonnement,subscription,订阅,NOUN,dutch/B2.csv
 nl,B2,908,beslissen,to decide,决定,VERB,dutch/B2.csv
 nl,B2,909,bezetting,occupation,占领,NOUN,dutch/B2.csv
@@ -17072,16 +17072,16 @@ nl,B2,958,priester,priest,牧师,NOUN,dutch/B2.csv
 nl,B2,959,samengesteld,composed,组成的,ADJ,dutch/B2.csv
 nl,B2,960,schermen,fencing,击剑,NOUN,dutch/B2.csv
 nl,B2,961,schrijfster,writer,女作家,NOUN,dutch/B2.csv
-nl,B2,962,scoren,score,得分,VERB,dutch/B2.csv
+nl,B2,962,scoren,to score,得分,VERB,dutch/B2.csv
 nl,B2,963,tegemoet,towards,迎向,ADV,dutch/B2.csv
 nl,B2,964,telefoons,telephones,电话,NOUN,dutch/B2.csv
-nl,B2,965,terugkeren,return,返回,VERB,dutch/B2.csv
+nl,B2,965,terugkeren,to return,返回,VERB,dutch/B2.csv
 nl,B2,966,toenemende,increasing,增加的,ADJ,dutch/B2.csv
 nl,B2,967,toerisme,tourism,旅游业,NOUN,dutch/B2.csv
 nl,B2,968,traditioneel,traditional,传统的,ADJ,dutch/B2.csv
 nl,B2,969,uitgeschakeld,disabled,关闭的,ADJ,dutch/B2.csv
 nl,B2,970,universiteiten,universities,大学,NOUN,dutch/B2.csv
-nl,B2,971,verblijven,stay,逗留,VERB,dutch/B2.csv
+nl,B2,971,verblijven,to stay,逗留,VERB,dutch/B2.csv
 nl,B2,972,voortgezet,continued,继续的,ADJ,dutch/B2.csv
 nl,B2,973,zachte,soft,柔软的,ADJ,dutch/B2.csv
 nl,B2,974,zilveren,silver,银色的,ADJ,dutch/B2.csv
@@ -17133,7 +17133,7 @@ nl,B2,1019,brein,brain,大脑,NOUN,dutch/B2.csv
 nl,B2,1020,desondanks,despite,尽管如此,ADV,dutch/B2.csv
 nl,B2,1021,doorgaans,usually,通常,ADV,dutch/B2.csv
 nl,B2,1022,gemak,ease,便利,NOUN,dutch/B2.csv
-nl,B2,1023,haten,hate,恨,VERB,dutch/B2.csv
+nl,B2,1023,haten,to hate,恨,VERB,dutch/B2.csv
 nl,B2,1024,kloppen,to be correct,正确,VERB,dutch/B2.csv
 nl,B2,1025,klus,job,活儿,NOUN,dutch/B2.csv
 nl,B2,1026,lading,load,装载量,NOUN,dutch/B2.csv
@@ -17175,12 +17175,12 @@ nl,C1,29,invoering,introduction,引入,NOUN,dutch/C1.csv
 nl,C1,30,ketting,chain,链条,NOUN,dutch/C1.csv
 nl,C1,31,klote,shit,该死的,ADJ,dutch/C1.csv
 nl,C1,32,kopie,copy,副本,NOUN,dutch/C1.csv
-nl,C1,33,lichten,light,照亮,VERB,dutch/C1.csv
+nl,C1,33,lichten,to light,照亮,VERB,dutch/C1.csv
 nl,C1,34,muzikant,musician,音乐家,NOUN,dutch/C1.csv
-nl,C1,35,neerschieten,shoot down,击落,VERB,dutch/C1.csv
+nl,C1,35,neerschieten,to shoot down,击落,VERB,dutch/C1.csv
 nl,C1,36,nut,utility,效用,NOUN,dutch/C1.csv
-nl,C1,37,opbouwen,build up,建立,VERB,dutch/C1.csv
-nl,C1,38,opzoeken,look up,查阅,VERB,dutch/C1.csv
+nl,C1,37,opbouwen,to build up,建立,VERB,dutch/C1.csv
+nl,C1,38,opzoeken,to look up,查阅,VERB,dutch/C1.csv
 nl,C1,39,overeenstemming,agreement,一致,NOUN,dutch/C1.csv
 nl,C1,40,plekje,spot,地点,NOUN,dutch/C1.csv
 nl,C1,41,pond,pound,英镑,NOUN,dutch/C1.csv
@@ -17227,21 +17227,21 @@ nl,C1,81,instructie,instruction,说明,NOUN,dutch/C1.csv
 nl,C1,82,Italiaans,Italian,意大利的,ADJ,dutch/C1.csv
 nl,C1,83,kroon,crown,王冠,NOUN,dutch/C1.csv
 nl,C1,84,luis,louse,虱子,NOUN,dutch/C1.csv
-nl,C1,85,menen,mean,认为,VERB,dutch/C1.csv
+nl,C1,85,menen,to mean,认为,VERB,dutch/C1.csv
 nl,C1,86,moordenaar,murderer,凶手,NOUN,dutch/C1.csv
 nl,C1,87,nader,closer,更近,ADJ,dutch/C1.csv
 nl,C1,88,onderhandeling,negotiation,谈判,NOUN,dutch/C1.csv
 nl,C1,89,onduidelijk,unclear,不清楚,ADJ,dutch/C1.csv
-nl,C1,90,overdrijven,exaggerate,夸大,VERB,dutch/C1.csv
+nl,C1,90,overdrijven,to exaggerate,夸大,VERB,dutch/C1.csv
 nl,C1,91,portret,portrait,肖像,NOUN,dutch/C1.csv
 nl,C1,92,respectievelijk,respectively,分别,ADV,dutch/C1.csv
-nl,C1,93,schitteren,shine,闪耀,VERB,dutch/C1.csv
-nl,C1,94,strijden,fight,战斗,VERB,dutch/C1.csv
+nl,C1,93,schitteren,to shine,闪耀,VERB,dutch/C1.csv
+nl,C1,94,strijden,to fight,战斗,VERB,dutch/C1.csv
 nl,C1,95,tekening,drawing,画,NOUN,dutch/C1.csv
-nl,C1,96,uitgaan,go out,外出,VERB,dutch/C1.csv
+nl,C1,96,uitgaan,to go out,外出,VERB,dutch/C1.csv
 nl,C1,97,verdeling,distribution,分配,NOUN,dutch/C1.csv
 nl,C1,98,verdrietig,sad,悲伤,ADJ,dutch/C1.csv
-nl,C1,99,verzinnen,invent,编造,VERB,dutch/C1.csv
+nl,C1,99,verzinnen,to invent,编造,VERB,dutch/C1.csv
 nl,C1,100,vierkant,square,正方形,NOUN,dutch/C1.csv
 nl,C1,101,voeding,nutrition,营养,NOUN,dutch/C1.csv
 nl,C1,102,voldoen,to satisfy,满足,VERB,dutch/C1.csv
@@ -17288,7 +17288,7 @@ nl,C1,142,slechtst,worst,最差的,ADJ,dutch/C1.csv
 nl,C1,143,sparen,to save,储蓄,VERB,dutch/C1.csv
 nl,C1,144,staart,tail,尾巴,NOUN,dutch/C1.csv
 nl,C1,145,toename,increase,增加,NOUN,dutch/C1.csv
-nl,C1,146,verpesten,ruin,破坏,VERB,dutch/C1.csv
+nl,C1,146,verpesten,to ruin,破坏,VERB,dutch/C1.csv
 nl,C1,147,voornaamste,main,主要的,ADJ,dutch/C1.csv
 nl,C1,148,vos,fox,狐狸,NOUN,dutch/C1.csv
 nl,C1,149,weerstand,resistance,抵抗,NOUN,dutch/C1.csv
@@ -17299,19 +17299,19 @@ nl,C1,153,zestig,sixty,六十,NUM,dutch/C1.csv
 nl,C1,154,zoet,sweet,甜的,ADJ,dutch/C1.csv
 nl,C1,155,zonnepaneel,solar panel,太阳能电池板,NOUN,dutch/C1.csv
 nl,C1,156,aanrader,recommendation,推荐物,NOUN,dutch/C1.csv
-nl,C1,157,afnemen,decrease,减少,VERB,dutch/C1.csv
+nl,C1,157,afnemen,to decrease,减少,VERB,dutch/C1.csv
 nl,C1,158,artiest,artist,艺术家,NOUN,dutch/C1.csv
 nl,C1,159,autoriteit,authority,权威,NOUN,dutch/C1.csv
 nl,C1,160,batterij,battery,电池,NOUN,dutch/C1.csv
-nl,C1,161,behalen,achieve,取得,VERB,dutch/C1.csv
-nl,C1,162,beleven,experience,体验,VERB,dutch/C1.csv
-nl,C1,163,beseffen,realize,意识到,VERB,dutch/C1.csv
+nl,C1,161,behalen,to achieve,取得,VERB,dutch/C1.csv
+nl,C1,162,beleven,to experience,体验,VERB,dutch/C1.csv
+nl,C1,163,beseffen,to realize,意识到,VERB,dutch/C1.csv
 nl,C1,164,conferentie,conference,会议,NOUN,dutch/C1.csv
 nl,C1,165,consument,consumer,消费者,NOUN,dutch/C1.csv
 nl,C1,166,degelijk,solid,坚固的,ADJ,dutch/C1.csv
 nl,C1,167,diegene,that one,那个人,PRON,dutch/C1.csv
 nl,C1,168,dorpje,village,小村庄,NOUN,dutch/C1.csv
-nl,C1,169,dwingen,force,强迫,VERB,dutch/C1.csv
+nl,C1,169,dwingen,to force,强迫,VERB,dutch/C1.csv
 nl,C1,170,enthousiasme,enthusiasm,热情,NOUN,dutch/C1.csv
 nl,C1,171,gereed,ready,准备好的,ADJ,dutch/C1.csv
 nl,C1,172,heftig,intense,激烈的,ADJ,dutch/C1.csv
@@ -17322,26 +17322,26 @@ nl,C1,176,leed,suffering,痛苦,NOUN,dutch/C1.csv
 nl,C1,177,mishandeling,abuse,虐待,NOUN,dutch/C1.csv
 nl,C1,178,omzet,turnover,营业额,NOUN,dutch/C1.csv
 nl,C1,179,opdrachtgever,client,客户,NOUN,dutch/C1.csv
-nl,C1,180,oproepen,summon,传唤,VERB,dutch/C1.csv
+nl,C1,180,oproepen,to summon,传唤,VERB,dutch/C1.csv
 nl,C1,181,oprecht,sincere,真诚的,ADJ,dutch/C1.csv
-nl,C1,182,opvallen,stand out,突出,VERB,dutch/C1.csv
+nl,C1,182,opvallen,to stand out,突出,VERB,dutch/C1.csv
 nl,C1,183,praktisch,practical,实用的,ADJ,dutch/C1.csv
-nl,C1,184,profiteren,benefit,受益,VERB,dutch/C1.csv
-nl,C1,185,promoten,promote,推广,VERB,dutch/C1.csv
-nl,C1,186,scheiden,divorce,离婚,VERB,dutch/C1.csv
+nl,C1,184,profiteren,to benefit,受益,VERB,dutch/C1.csv
+nl,C1,185,promoten,to promote,推广,VERB,dutch/C1.csv
+nl,C1,186,scheiden,to divorce,离婚,VERB,dutch/C1.csv
 nl,C1,187,seksueel,sexual,性的,ADJ,dutch/C1.csv
 nl,C1,188,steeg,alley,小巷,NOUN,dutch/C1.csv
-nl,C1,189,toekennen,award,授予,VERB,dutch/C1.csv
+nl,C1,189,toekennen,to award,授予,VERB,dutch/C1.csv
 nl,C1,190,toeristisch,tourist,旅游的,ADJ,dutch/C1.csv
 nl,C1,191,toets,test,测试,NOUN,dutch/C1.csv
-nl,C1,192,vertegenwoordigen,represent,代表,VERB,dutch/C1.csv
+nl,C1,192,vertegenwoordigen,to represent,代表,VERB,dutch/C1.csv
 nl,C1,193,vestiging,branch,分支机构,NOUN,dutch/C1.csv
-nl,C1,194,waarschuwen,warn,警告,VERB,dutch/C1.csv
+nl,C1,194,waarschuwen,to warn,警告,VERB,dutch/C1.csv
 nl,C1,195,zijn,his,他的,PRON,dutch/C1.csv
 nl,C1,196,aangifte,report,报案,NOUN,dutch/C1.csv
 nl,C1,197,belofte,promise,承诺,NOUN,dutch/C1.csv
 nl,C1,198,bescheiden,modest,谦虚的,ADJ,dutch/C1.csv
-nl,C1,199,bevrijden,liberate,解放,VERB,dutch/C1.csv
+nl,C1,199,bevrijden,to liberate,解放,VERB,dutch/C1.csv
 nl,C1,200,bezit,possession,财产,NOUN,dutch/C1.csv
 nl,C1,201,bovenste,upper,上面的,ADJ,dutch/C1.csv
 nl,C1,202,cirkel,circle,圆圈,NOUN,dutch/C1.csv
@@ -17349,7 +17349,7 @@ nl,C1,203,daarbuiten,outside,在外面,ADV,dutch/C1.csv
 nl,C1,204,demonstratie,demonstration,示威,NOUN,dutch/C1.csv
 nl,C1,205,erom,around,围绕,ADV,dutch/C1.csv
 nl,C1,206,exclusief,exclusive,排他的,ADJ,dutch/C1.csv
-nl,C1,207,garanderen,guarantee,保证,VERB,dutch/C1.csv
+nl,C1,207,garanderen,to guarantee,保证,VERB,dutch/C1.csv
 nl,C1,208,gsm,mobile phone,手机,NOUN,dutch/C1.csv
 nl,C1,209,hbo,higher professional education,高等专业教育,NOUN,dutch/C1.csv
 nl,C1,210,hogeschool,university of applied sciences,应用科学大学,NOUN,dutch/C1.csv
@@ -17395,36 +17395,36 @@ nl,C1,249,beoordelen,to assess,评估,VERB,dutch/C1.csv
 nl,C1,250,bijeen,together,一起,ADV,dutch/C1.csv
 nl,C1,251,bladeren,to leaf through,翻阅,VERB,dutch/C1.csv
 nl,C1,252,feitelijk,factual,事实的,ADJ,dutch/C1.csv
-nl,C1,253,lanceren,launch,发射,VERB,dutch/C1.csv
+nl,C1,253,lanceren,to launch,发射,VERB,dutch/C1.csv
 nl,C1,254,hartstikke,terribly,极其,ADV,dutch/C1.csv
 nl,C1,255,hek,fence,栅栏,NOUN,dutch/C1.csv
 nl,C1,256,historie,history,历史,NOUN,dutch/C1.csv
 nl,C1,257,hitte,heat,炎热,NOUN,dutch/C1.csv
-nl,C1,258,innemen,take,占据,VERB,dutch/C1.csv
-nl,C1,259,jagen,hunt,打猎,VERB,dutch/C1.csv
+nl,C1,258,innemen,to take,占据,VERB,dutch/C1.csv
+nl,C1,259,jagen,to hunt,打猎,VERB,dutch/C1.csv
 nl,C1,260,koper,buyer,买主,NOUN,dutch/C1.csv
 nl,C1,261,leiderschap,leadership,领导力,NOUN,dutch/C1.csv
 nl,C1,262,lezer,reader,读者,NOUN,dutch/C1.csv
 nl,C1,263,nauw,closely,紧密地,ADV,dutch/C1.csv
 nl,C1,264,Nederlander,Dutchman,荷兰人,NOUN,dutch/C1.csv
-nl,C1,265,omkomen,perish,丧生,VERB,dutch/C1.csv
-nl,C1,266,opruimen,clean up,清理,VERB,dutch/C1.csv
-nl,C1,267,overdragen,transfer,转移,VERB,dutch/C1.csv
+nl,C1,265,omkomen,to perish,丧生,VERB,dutch/C1.csv
+nl,C1,266,opruimen,to clean up,清理,VERB,dutch/C1.csv
+nl,C1,267,overdragen,to transfer,转移,VERB,dutch/C1.csv
 nl,C1,268,samenstelling,composition,组成,NOUN,dutch/C1.csv
-nl,C1,269,schoonmaken,clean,打扫,VERB,dutch/C1.csv
+nl,C1,269,schoonmaken,to clean,打扫,VERB,dutch/C1.csv
 nl,C1,270,spits,striker,前锋,NOUN,dutch/C1.csv
 nl,C1,271,spoedig,soon,很快,ADV,dutch/C1.csv
 nl,C1,272,sprong,jump,跳跃,NOUN,dutch/C1.csv
 nl,C1,273,stedelijk,urban,城市的,ADJ,dutch/C1.csv
-nl,C1,274,stelen,steal,偷,VERB,dutch/C1.csv
+nl,C1,274,stelen,to steal,偷,VERB,dutch/C1.csv
 nl,C1,275,tal,number,大量,NOUN,dutch/C1.csv
 nl,C1,276,verdediger,defender,后卫,NOUN,dutch/C1.csv
-nl,C1,277,verkiezen,elect,选举,VERB,dutch/C1.csv
+nl,C1,277,verkiezen,to elect,选举,VERB,dutch/C1.csv
 nl,C1,278,vertegenwoordiger,representative,代表,NOUN,dutch/C1.csv
 nl,C1,279,vies,dirty,脏的,ADJ,dutch/C1.csv
 nl,C1,280,vleugel,wing,翅膀,NOUN,dutch/C1.csv
-nl,C1,281,voltooien,complete,完成,VERB,dutch/C1.csv
-nl,C1,282,vriezen,freeze,结冰,VERB,dutch/C1.csv
+nl,C1,281,voltooien,to complete,完成,VERB,dutch/C1.csv
+nl,C1,282,vriezen,to freeze,结冰,VERB,dutch/C1.csv
 nl,C1,283,vrijwilliger,volunteer,志愿者,NOUN,dutch/C1.csv
 nl,C1,284,waardevol,valuable,有价值的,ADJ,dutch/C1.csv
 nl,C1,285,wauw,wow,哇,INTJ,dutch/C1.csv
@@ -17447,10 +17447,10 @@ nl,C1,301,doelstelling,objective,目标,NOUN,dutch/C1.csv
 nl,C1,302,duidelijkheid,clarity,清晰,NOUN,dutch/C1.csv
 nl,C1,303,erkennen,to recognize,承认,VERB,dutch/C1.csv
 nl,C1,304,gedreven,driven,有动力的,ADJ,dutch/C1.csv
-nl,C1,305,grijpen,graspen,抓住,VERB,dutch/C1.csv
+nl,C1,305,grijpen,to graspen,抓住,VERB,dutch/C1.csv
 nl,C1,306,ijzeren,iron,铁的,ADJ,dutch/C1.csv
-nl,C1,307,invoeren,import,进口,VERB,dutch/C1.csv
-nl,C1,308,inschrijven,enrol,注册,VERB,dutch/C1.csv
+nl,C1,307,invoeren,to import,进口,VERB,dutch/C1.csv
+nl,C1,308,inschrijven,to enrol,注册,VERB,dutch/C1.csv
 nl,C1,309,kardinaal,cardinal,红衣主教,NOUN,dutch/C1.csv
 nl,C1,310,kou,cold,寒冷,NOUN,dutch/C1.csv
 nl,C1,311,landgoed,estate,庄园,NOUN,dutch/C1.csv
@@ -17458,12 +17458,12 @@ nl,C1,312,maatregel,measure,措施,NOUN,dutch/C1.csv
 nl,C1,313,nabijgelegen,nearby,附近的,ADJ,dutch/C1.csv
 nl,C1,314,nationaliteit,nationality,国籍,NOUN,dutch/C1.csv
 nl,C1,315,opbrengst,yield,产量,NOUN,dutch/C1.csv
-nl,C1,316,opleiden,train,培训,VERB,dutch/C1.csv
+nl,C1,316,opleiden,to train,培训,VERB,dutch/C1.csv
 nl,C1,317,opmerkelijk,remarkable,显著的,ADJ,dutch/C1.csv
 nl,C1,318,os,ox,公牛,NOUN,dutch/C1.csv
 nl,C1,319,plots,suddenly,突然地,ADV,dutch/C1.csv
-nl,C1,320,presenteren,present,展示,VERB,dutch/C1.csv
-nl,C1,321,schilderen,paint,绘画,VERB,dutch/C1.csv
+nl,C1,320,presenteren,to present,展示,VERB,dutch/C1.csv
+nl,C1,321,schilderen,to paint,绘画,VERB,dutch/C1.csv
 nl,C1,322,simpelweg,simply,简单地,ADV,dutch/C1.csv
 nl,C1,323,uitzien,to look,看起来,VERB,dutch/C1.csv
 nl,C1,324,vasthouden,to hold on,坚持,VERB,dutch/C1.csv
@@ -17486,7 +17486,7 @@ nl,C1,340,huisje,cottage,小屋,NOUN,dutch/C1.csv
 nl,C1,341,koffer,suitcase,手提箱,NOUN,dutch/C1.csv
 nl,C1,342,leerkracht,teacher,教师,NOUN,dutch/C1.csv
 nl,C1,343,liga,league,联赛,NOUN,dutch/C1.csv
-nl,C1,344,luiden,read,读作,VERB,dutch/C1.csv
+nl,C1,344,luiden,to read,读作,VERB,dutch/C1.csv
 nl,C1,345,meesten,most,大多数人,PRON,dutch/C1.csv
 nl,C1,346,oftewel,or rather,或者说,ADV,dutch/C1.csv
 nl,C1,347,onderling,mutual,相互的,ADJ,dutch/C1.csv
@@ -17521,14 +17521,14 @@ nl,C1,375,daling,decline,下降,NOUN,dutch/C1.csv
 nl,C1,376,deken,blanket,毯子,NOUN,dutch/C1.csv
 nl,C1,377,departement,department,部门,NOUN,dutch/C1.csv
 nl,C1,378,divisie,division,师,NOUN,dutch/C1.csv
-nl,C1,379,doorgeven,pass on,传递,VERB,dutch/C1.csv
+nl,C1,379,doorgeven,to pass on,传递,VERB,dutch/C1.csv
 nl,C1,380,echtgenote,wife,妻子,NOUN,dutch/C1.csv
 nl,C1,381,ede,oath,誓言,NOUN,dutch/C1.csv
 nl,C1,382,eis,requirement,要求,NOUN,dutch/C1.csv
 nl,C1,383,erna,afterwards,之后,ADV,dutch/C1.csv
-nl,C1,384,functioneren,function,运作,VERB,dutch/C1.csv
+nl,C1,384,functioneren,to function,运作,VERB,dutch/C1.csv
 nl,C1,385,gebod,commandment,诫命,NOUN,dutch/C1.csv
-nl,C1,386,meten,measure,测量,VERB,dutch/C1.csv
+nl,C1,386,meten,to measure,测量,VERB,dutch/C1.csv
 nl,C1,387,herhaling,repetition,重复,NOUN,dutch/C1.csv
 nl,C1,388,hoofdkantoor,head office,总部,NOUN,dutch/C1.csv
 nl,C1,389,journalistiek,journalism,新闻业,NOUN,dutch/C1.csv
@@ -17542,18 +17542,18 @@ nl,C1,396,molen,mill,磨坊,NOUN,dutch/C1.csv
 nl,C1,397,olympisch,Olympic,奥林匹克的,ADJ,dutch/C1.csv
 nl,C1,398,omlaag,down,向下,ADV,dutch/C1.csv
 nl,C1,399,onrust,unrest,动荡,NOUN,dutch/C1.csv
-nl,C1,400,opleveren,deliver,交付,VERB,dutch/C1.csv
-nl,C1,401,overbrengen,transfer,转移,VERB,dutch/C1.csv
-nl,C1,402,overwegen,consider,考虑,VERB,dutch/C1.csv
+nl,C1,400,opleveren,to deliver,交付,VERB,dutch/C1.csv
+nl,C1,401,overbrengen,to transfer,转移,VERB,dutch/C1.csv
+nl,C1,402,overwegen,to consider,考虑,VERB,dutch/C1.csv
 nl,C1,403,schilder,painter,画家,NOUN,dutch/C1.csv
 nl,C1,404,schuur,barn,谷仓,NOUN,dutch/C1.csv
 nl,C1,405,smart,grief,悲痛,NOUN,dutch/C1.csv
 nl,C1,406,staal,steel,钢,NOUN,dutch/C1.csv
 nl,C1,407,sterkte,strength,力量,NOUN,dutch/C1.csv
 nl,C1,408,tachtig,eighty,八十,NUM,dutch/C1.csv
-nl,C1,409,toenemen,increase,增加,VERB,dutch/C1.csv
+nl,C1,409,toenemen,to increase,增加,VERB,dutch/C1.csv
 nl,C1,410,uitgeverij,publishing house,出版社,NOUN,dutch/C1.csv
-nl,C1,411,uitzoeken,select,挑选,VERB,dutch/C1.csv
+nl,C1,411,uitzoeken,to select,挑选,VERB,dutch/C1.csv
 nl,C1,412,verf,paint,油漆,NOUN,dutch/C1.csv
 nl,C1,413,verplicht,mandatory,强制的,ADJ,dutch/C1.csv
 nl,C1,414,videoclip,video clip,视频片段,NOUN,dutch/C1.csv
@@ -17567,16 +17567,16 @@ nl,C1,421,aankoop,purchase,购买,NOUN,dutch/C1.csv
 nl,C1,422,aap,monkey,猴子,NOUN,dutch/C1.csv
 nl,C1,423,achteren,behind,在后面,ADV,dutch/C1.csv
 nl,C1,424,administratie,administration,管理,NOUN,dutch/C1.csv
-nl,C1,425,afbreken,break off,中断,VERB,dutch/C1.csv
+nl,C1,425,afbreken,to break off,中断,VERB,dutch/C1.csv
 nl,C1,426,alsmede,as well as,以及,CCONJ,dutch/C1.csv
-nl,C1,427,beschuldigen,accuse,指控,VERB,dutch/C1.csv
+nl,C1,427,beschuldigen,to accuse,指控,VERB,dutch/C1.csv
 nl,C1,428,betaling,payment,付款,NOUN,dutch/C1.csv
 nl,C1,429,bevriend,friendly,友好的,ADJ,dutch/C1.csv
 nl,C1,430,constructie,construction,构造,NOUN,dutch/C1.csv
 nl,C1,431,crimineel,criminal,犯罪的,ADJ,dutch/C1.csv
 nl,C1,432,eventjes,for a moment,片刻,ADV,dutch/C1.csv
 nl,C1,433,fantasie,fantasy,幻想,NOUN,dutch/C1.csv
-nl,C1,434,koppelen,link,连接,VERB,dutch/C1.csv
+nl,C1,434,koppelen,to link,连接,VERB,dutch/C1.csv
 nl,C1,435,gewapend,armed,武装的,ADJ,dutch/C1.csv
 nl,C1,436,gigantisch,gigantic,巨大的,ADJ,dutch/C1.csv
 nl,C1,437,handeling,action,行为,NOUN,dutch/C1.csv
@@ -17585,12 +17585,12 @@ nl,C1,439,herkenbaar,recognizable,可识别的,ADJ,dutch/C1.csv
 nl,C1,440,herkomst,origin,起源,NOUN,dutch/C1.csv
 nl,C1,441,hieruit,from this,由此,ADV,dutch/C1.csv
 nl,C1,442,hoofdredacteur,editor-in-chief,主编,NOUN,dutch/C1.csv
-nl,C1,443,identificeren,identify,识别,VERB,dutch/C1.csv
-nl,C1,444,inzien,realize,认识到,VERB,dutch/C1.csv
+nl,C1,443,identificeren,to identify,识别,VERB,dutch/C1.csv
+nl,C1,444,inzien,to realize,认识到,VERB,dutch/C1.csv
 nl,C1,445,kunstwerk,artwork,艺术品,NOUN,dutch/C1.csv
 nl,C1,446,liberaal,liberal,自由的,ADJ,dutch/C1.csv
 nl,C1,447,logistiek,logistics,物流,NOUN,dutch/C1.csv
-nl,C1,448,loslaten,let go,放手,VERB,dutch/C1.csv
+nl,C1,448,loslaten,to let go,放手,VERB,dutch/C1.csv
 nl,C1,449,medelijden,pity,同情,NOUN,dutch/C1.csv
 nl,C1,450,metaal,metal,金属,NOUN,dutch/C1.csv
 nl,C1,451,najaar,autumn,秋季,NOUN,dutch/C1.csv
@@ -17611,9 +17611,9 @@ nl,C1,465,therapie,therapy,治疗,NOUN,dutch/C1.csv
 nl,C1,466,traag,slow,缓慢的,ADJ,dutch/C1.csv
 nl,C1,467,trui,sweater,毛衣,NOUN,dutch/C1.csv
 nl,C1,468,veertien,fourteen,十四,NUM,dutch/C1.csv
-nl,C1,469,vergeven,forgive,原谅,VERB,dutch/C1.csv
+nl,C1,469,vergeven,to forgive,原谅,VERB,dutch/C1.csv
 nl,C1,470,verkrachting,rape,强奸,NOUN,dutch/C1.csv
-nl,C1,471,vervallen,expire,过期,VERB,dutch/C1.csv
+nl,C1,471,vervallen,to expire,过期,VERB,dutch/C1.csv
 nl,C1,472,visser,fisherman,渔夫,NOUN,dutch/C1.csv
 nl,C1,473,vreugde,joy,喜悦,NOUN,dutch/C1.csv
 nl,C1,474,zetel,seat,座位,NOUN,dutch/C1.csv
@@ -17621,12 +17621,12 @@ nl,C1,475,zuurstof,oxygen,氧气,NOUN,dutch/C1.csv
 nl,C1,476,actueel,current,当前的,ADJ,dutch/C1.csv
 nl,C1,477,ambassade,embassy,大使馆,NOUN,dutch/C1.csv
 nl,C1,478,benzine,petrol,汽油,NOUN,dutch/C1.csv
-nl,C1,479,betrekken,involve,涉及,VERB,dutch/C1.csv
+nl,C1,479,betrekken,to involve,涉及,VERB,dutch/C1.csv
 nl,C1,480,bon,receipt,收据,NOUN,dutch/C1.csv
 nl,C1,481,Brit,Briton,英国人,NOUN,dutch/C1.csv
 nl,C1,482,brons,bronze,青铜,NOUN,dutch/C1.csv
 nl,C1,483,buurman,neighbour,邻居,NOUN,dutch/C1.csv
-nl,C1,484,combineren,combine,结合,VERB,dutch/C1.csv
+nl,C1,484,combineren,to combine,结合,VERB,dutch/C1.csv
 nl,C1,485,dagje,day out,一日游,NOUN,dutch/C1.csv
 nl,C1,486,dertien,thirteen,十三,NUM,dutch/C1.csv
 nl,C1,487,diepte,depth,深度,NOUN,dutch/C1.csv
@@ -17638,7 +17638,7 @@ nl,C1,492,fris,fresh,新鲜的,ADJ,dutch/C1.csv
 nl,C1,493,getraind,trained,受过训练的,ADJ,dutch/C1.csv
 nl,C1,494,gids,guide,向导,NOUN,dutch/C1.csv
 nl,C1,495,individueel,individual,个人的,ADJ,dutch/C1.csv
-nl,C1,496,inspireren,inspire,激励,VERB,dutch/C1.csv
+nl,C1,496,inspireren,to inspire,激励,VERB,dutch/C1.csv
 nl,C1,497,kamerlid,MP,国会议员,NOUN,dutch/C1.csv
 nl,C1,498,keten,chain,链条,NOUN,dutch/C1.csv
 nl,C1,499,kijker,viewer,观众,NOUN,dutch/C1.csv
@@ -17651,18 +17651,18 @@ nl,C1,505,oostelijk,eastern,东部的,ADJ,dutch/C1.csv
 nl,C1,506,opvang,shelter,收容,NOUN,dutch/C1.csv
 nl,C1,507,pech,bad luck,倒霉,NOUN,dutch/C1.csv
 nl,C1,508,poot,leg,腿,NOUN,dutch/C1.csv
-nl,C1,509,publiceren,publish,出版,VERB,dutch/C1.csv
+nl,C1,509,publiceren,to publish,出版,VERB,dutch/C1.csv
 nl,C1,510,regeling,regulation,规定,NOUN,dutch/C1.csv
 nl,C1,511,rente,interest,利息,NOUN,dutch/C1.csv
 nl,C1,512,rijtje,row,排,NOUN,dutch/C1.csv
 nl,C1,513,scène,scene,场景,NOUN,dutch/C1.csv
 nl,C1,514,slang,snake,蛇,NOUN,dutch/C1.csv
-nl,C1,515,straffen,punish,惩罚,VERB,dutch/C1.csv
+nl,C1,515,straffen,to punish,惩罚,VERB,dutch/C1.csv
 nl,C1,516,tevoren,before,事先,ADV,dutch/C1.csv
-nl,C1,517,treffen,meet,遇见,VERB,dutch/C1.csv
+nl,C1,517,treffen,to meet,遇见,VERB,dutch/C1.csv
 nl,C1,518,ultiem,ultimate,最终的,ADJ,dutch/C1.csv
 nl,C1,519,vermelding,mention,提及,NOUN,dutch/C1.csv
-nl,C1,520,vervullen,fulfill,履行,VERB,dutch/C1.csv
+nl,C1,520,vervullen,to fulfill,履行,VERB,dutch/C1.csv
 nl,C1,521,volgorde,order,顺序,NOUN,dutch/C1.csv
 nl,C1,522,wezen,creature,生物,NOUN,dutch/C1.csv
 nl,C1,523,zonnig,sunny,阳光充足的,ADJ,dutch/C1.csv
@@ -17708,13 +17708,13 @@ nl,C1,562,spot,scoff,嘲笑,NOUN,dutch/C1.csv
 nl,C1,563,stoer,tough,强壮的,ADJ,dutch/C1.csv
 nl,C1,564,tak,branch,树枝,NOUN,dutch/C1.csv
 nl,C1,565,tiener,teenager,青少年,NOUN,dutch/C1.csv
-nl,C1,566,verbieden,prohibit,禁止,VERB,dutch/C1.csv
-nl,C1,567,verbranden,burn,燃烧,VERB,dutch/C1.csv
-nl,C1,568,verdelen,divide,划分,VERB,dutch/C1.csv
+nl,C1,566,verbieden,to prohibit,禁止,VERB,dutch/C1.csv
+nl,C1,567,verbranden,to burn,燃烧,VERB,dutch/C1.csv
+nl,C1,568,verdelen,to divide,划分,VERB,dutch/C1.csv
 nl,C1,569,versterking,reinforcement,增援,NOUN,dutch/C1.csv
-nl,C1,570,vervolgen,continue,继续,VERB,dutch/C1.csv
+nl,C1,570,vervolgen,to continue,继续,VERB,dutch/C1.csv
 nl,C1,571,vlieg,fly,苍蝇,NOUN,dutch/C1.csv
-nl,C1,572,aandoen,affect,影响,VERB,dutch/C1.csv
+nl,C1,572,aandoen,to affect,影响,VERB,dutch/C1.csv
 nl,C1,573,achtste,eighth,第八,ADJ,dutch/C1.csv
 nl,C1,574,bewaker,guard,警卫,NOUN,dutch/C1.csv
 nl,C1,575,biertje,beer,啤酒,NOUN,dutch/C1.csv
@@ -17726,9 +17726,9 @@ nl,C1,580,dialoog,dialogue,对话,NOUN,dutch/C1.csv
 nl,C1,581,dreiging,threat,威胁,NOUN,dutch/C1.csv
 nl,C1,582,failliet,bankrupt,破产的,ADJ,dutch/C1.csv
 nl,C1,583,filipijns,Filipino,菲律宾的,ADJ,dutch/C1.csv
-nl,C1,584,genezen,cure,治愈,VERB,dutch/C1.csv
+nl,C1,584,genezen,to cure,治愈,VERB,dutch/C1.csv
 nl,C1,585,getal,number,数字,NOUN,dutch/C1.csv
-nl,C1,586,titelen,title,定名,VERB,dutch/C1.csv
+nl,C1,586,titelen,to title,定名,VERB,dutch/C1.csv
 nl,C1,587,graad,degree,程度,NOUN,dutch/C1.csv
 nl,C1,588,grootvader,grandfather,祖父,NOUN,dutch/C1.csv
 nl,C1,589,hoelang,how long,多久,ADV,dutch/C1.csv
@@ -17753,14 +17753,14 @@ nl,C1,607,porto,postage,邮费,NOUN,dutch/C1.csv
 nl,C1,608,potentieel,potential,潜在的,ADJ,dutch/C1.csv
 nl,C1,609,première,premiere,首映,NOUN,dutch/C1.csv
 nl,C1,610,primair,primary,主要的,ADJ,dutch/C1.csv
-nl,C1,611,registreren,register,登记,VERB,dutch/C1.csv
+nl,C1,611,registreren,to register,登记,VERB,dutch/C1.csv
 nl,C1,612,romantisch,romantic,浪漫的,ADJ,dutch/C1.csv
-nl,C1,613,schamen,be ashamed,感到羞愧,VERB,dutch/C1.csv
-nl,C1,614,schakelen,switch,切换,VERB,dutch/C1.csv
-nl,C1,615,schatten,estimate,估计,VERB,dutch/C1.csv
+nl,C1,613,schamen,to be ashamed,感到羞愧,VERB,dutch/C1.csv
+nl,C1,614,schakelen,to switch,切换,VERB,dutch/C1.csv
+nl,C1,615,schatten,to estimate,估计,VERB,dutch/C1.csv
 nl,C1,616,stam,tribe,部落,NOUN,dutch/C1.csv
 nl,C1,617,stelsel,system,体系,NOUN,dutch/C1.csv
-nl,C1,618,stromen,flow,流动,VERB,dutch/C1.csv
+nl,C1,618,stromen,to flow,流动,VERB,dutch/C1.csv
 nl,C1,619,tabel,table,表格,NOUN,dutch/C1.csv
 nl,C1,620,terras,terrace,露台,NOUN,dutch/C1.csv
 nl,C1,621,toespraak,speech,演讲,NOUN,dutch/C1.csv
@@ -17769,29 +17769,29 @@ nl,C1,623,uitkomst,outcome,结果,NOUN,dutch/C1.csv
 nl,C1,624,uitstoot,emission,排放,NOUN,dutch/C1.csv
 nl,C1,625,verhoging,increase,增加,NOUN,dutch/C1.csv
 nl,C1,626,verkoper,salesperson,销售员,NOUN,dutch/C1.csv
-nl,C1,627,verstaan,understand,听懂,VERB,dutch/C1.csv
-nl,C1,628,vertalen,translate,翻译,VERB,dutch/C1.csv
+nl,C1,627,verstaan,to understand,听懂,VERB,dutch/C1.csv
+nl,C1,628,vertalen,to translate,翻译,VERB,dutch/C1.csv
 nl,C1,629,vertraging,delay,延误,NOUN,dutch/C1.csv
-nl,C1,630,verzekeren,insure,保险,VERB,dutch/C1.csv
-nl,C1,631,verzoeken,request,请求,VERB,dutch/C1.csv
-nl,C1,632,vrezen,fear,害怕,VERB,dutch/C1.csv
+nl,C1,630,verzekeren,to insure,保险,VERB,dutch/C1.csv
+nl,C1,631,verzoeken,to request,请求,VERB,dutch/C1.csv
+nl,C1,632,vrezen,to fear,害怕,VERB,dutch/C1.csv
 nl,C1,633,vrijdagavond,Friday evening,星期五晚上,NOUN,dutch/C1.csv
 nl,C1,634,woonkamer,living room,客厅,NOUN,dutch/C1.csv
 nl,C1,635,wortel,carrot,胡萝卜,NOUN,dutch/C1.csv
 nl,C1,636,aardbeving,earthquake,地震,NOUN,dutch/C1.csv
-nl,C1,637,afwachten,wait,等待,VERB,dutch/C1.csv
-nl,C1,638,bereiden,prepare,准备,VERB,dutch/C1.csv
+nl,C1,637,afwachten,to wait,等待,VERB,dutch/C1.csv
+nl,C1,638,bereiden,to prepare,准备,VERB,dutch/C1.csv
 nl,C1,639,besmet,infected,感染的,ADJ,dutch/C1.csv
-nl,C1,640,betrappen,catch,当场抓获,VERB,dutch/C1.csv
+nl,C1,640,betrappen,to catch,当场抓获,VERB,dutch/C1.csv
 nl,C1,641,bijbehorend,associated,相关的,ADJ,dutch/C1.csv
-nl,C1,642,bijwerken,update,更新,VERB,dutch/C1.csv
+nl,C1,642,bijwerken,to update,更新,VERB,dutch/C1.csv
 nl,C1,643,Brits,British,英国的,ADJ,dutch/C1.csv
 nl,C1,644,bundel,bundle,捆,NOUN,dutch/C1.csv
 nl,C1,645,corruptie,corruption,腐败,NOUN,dutch/C1.csv
 nl,C1,646,dergelijk,such,这样的,ADJ,dutch/C1.csv
 nl,C1,647,dominee,pastor,牧师,NOUN,dutch/C1.csv
 nl,C1,648,dun,thin,薄的,ADJ,dutch/C1.csv
-nl,C1,649,duwen,push,推,VERB,dutch/C1.csv
+nl,C1,649,duwen,to push,推,VERB,dutch/C1.csv
 nl,C1,650,etnisch,ethnic,种族的,ADJ,dutch/C1.csv
 nl,C1,651,faculteit,faculty,学院,NOUN,dutch/C1.csv
 nl,C1,652,federatie,federation,联邦,NOUN,dutch/C1.csv
@@ -17799,15 +17799,15 @@ nl,C1,653,feestdag,public holiday,公共假日,NOUN,dutch/C1.csv
 nl,C1,654,financiering,financing,融资,NOUN,dutch/C1.csv
 nl,C1,655,firma,firm,公司,NOUN,dutch/C1.csv
 nl,C1,656,Frans,French,法语,NOUN,dutch/C1.csv
-nl,C1,657,boeken,book,预订,VERB,dutch/C1.csv
-nl,C1,658,mengen,mix,混合,VERB,dutch/C1.csv
+nl,C1,657,boeken,to book,预订,VERB,dutch/C1.csv
+nl,C1,658,mengen,to mix,混合,VERB,dutch/C1.csv
 nl,C1,659,heus,really,真的,ADV,dutch/C1.csv
 nl,C1,660,imago,image,形象,NOUN,dutch/C1.csv
 nl,C1,661,indiaan,Native American,印第安人,NOUN,dutch/C1.csv
-nl,C1,662,indienen,submit,提交,VERB,dutch/C1.csv
+nl,C1,662,indienen,to submit,提交,VERB,dutch/C1.csv
 nl,C1,663,inrichting,furnishing,室内布置,NOUN,dutch/C1.csv
 nl,C1,664,introductie,introduction,介绍,NOUN,dutch/C1.csv
-nl,C1,665,invullen,fill in,填写,VERB,dutch/C1.csv
+nl,C1,665,invullen,to fill in,填写,VERB,dutch/C1.csv
 nl,C1,666,keihard,very hard,极硬的,ADJ,dutch/C1.csv
 nl,C1,667,kerstmis,Christmas,圣诞节,NOUN,dutch/C1.csv
 nl,C1,668,klassiek,classic,经典的,ADJ,dutch/C1.csv
@@ -17818,42 +17818,42 @@ nl,C1,672,onverwacht,unexpected,意外的,ADJ,dutch/C1.csv
 nl,C1,673,recht,straight,直的,ADJ,dutch/C1.csv
 nl,C1,674,Rotterdams,Rotterdam,鹿特丹的,ADJ,dutch/C1.csv
 nl,C1,675,schedel,skull,头骨,NOUN,dutch/C1.csv
-nl,C1,676,schudden,shake,摇动,VERB,dutch/C1.csv
+nl,C1,676,schudden,to shake,摇动,VERB,dutch/C1.csv
 nl,C1,677,spontaan,spontaneous,自发的,ADJ,dutch/C1.csv
 nl,C1,678,stelletje,couple,一对,NOUN,dutch/C1.csv
 nl,C1,679,symptoom,symptom,症状,NOUN,dutch/C1.csv
 nl,C1,680,talrijk,numerous,众多的,ADJ,dutch/C1.csv
 nl,C1,681,telefoonnummer,telephone number,电话号码,NOUN,dutch/C1.csv
 nl,C1,682,Thais,Thai,泰国的,ADJ,dutch/C1.csv
-nl,C1,683,toelaten,admit,允许,VERB,dutch/C1.csv
+nl,C1,683,toelaten,to admit,允许,VERB,dutch/C1.csv
 nl,C1,684,toneel,theater,戏剧,NOUN,dutch/C1.csv
-nl,C1,685,uitgeven,publish,出版,VERB,dutch/C1.csv
+nl,C1,685,uitgeven,to publish,出版,VERB,dutch/C1.csv
 nl,C1,686,uitgever,publisher,出版商,NOUN,dutch/C1.csv
 nl,C1,687,uurtje,hour,小时,NOUN,dutch/C1.csv
 nl,C1,688,vaderland,homeland,祖国,NOUN,dutch/C1.csv
 nl,C1,689,veelvuldig,frequent,频繁的,ADJ,dutch/C1.csv
-nl,C1,690,vereisen,require,要求,VERB,dutch/C1.csv
-nl,C1,691,verwarren,confuse,使困惑,VERB,dutch/C1.csv
+nl,C1,690,vereisen,to require,要求,VERB,dutch/C1.csv
+nl,C1,691,verwarren,to confuse,使困惑,VERB,dutch/C1.csv
 nl,C1,692,voetballer,football player,足球运动员,NOUN,dutch/C1.csv
 nl,C1,693,voornaam,first name,名字,NOUN,dutch/C1.csv
 nl,C1,694,vrucht,fruit,水果,NOUN,dutch/C1.csv
 nl,C1,695,weliswaar,admittedly,诚然,ADV,dutch/C1.csv
 nl,C1,696,werkgelegenheid,employment,就业,NOUN,dutch/C1.csv
-nl,C1,697,wijzigen,change,修改,VERB,dutch/C1.csv
+nl,C1,697,wijzigen,to change,修改,VERB,dutch/C1.csv
 nl,C1,698,zegen,blessing,祝福,NOUN,dutch/C1.csv
 nl,C1,699,aanmerking,consideration,考虑,NOUN,dutch/C1.csv
-nl,C1,700,aansluiten,connect,连接,VERB,dutch/C1.csv
+nl,C1,700,aansluiten,to connect,连接,VERB,dutch/C1.csv
 nl,C1,701,begraafplaats,cemetery,墓地,NOUN,dutch/C1.csv
 nl,C1,702,beheerder,administrator,管理员,NOUN,dutch/C1.csv
 nl,C1,703,belasten,to tax / to burden,征税,VERB,dutch/C1.csv
-nl,C1,704,beschouwen,consider,认为,VERB,dutch/C1.csv
+nl,C1,704,beschouwen,to consider,认为,VERB,dutch/C1.csv
 nl,C1,705,bewind,reign,统治,NOUN,dutch/C1.csv
 nl,C1,706,bijstand,assistance,援助,NOUN,dutch/C1.csv
 nl,C1,707,bioscoop,cinema,电影院,NOUN,dutch/C1.csv
 nl,C1,708,collectief,collective,集体的,ADJ,dutch/C1.csv
 nl,C1,709,dieet,diet,饮食,NOUN,dutch/C1.csv
 nl,C1,710,doelman,goalkeeper,守门员,NOUN,dutch/C1.csv
-nl,C1,711,doorbrengen,spend,度过,VERB,dutch/C1.csv
+nl,C1,711,doorbrengen,to spend,度过,VERB,dutch/C1.csv
 nl,C1,712,draad,wire,金属线,NOUN,dutch/C1.csv
 nl,C1,713,evolutie,evolution,演变,NOUN,dutch/C1.csv
 nl,C1,714,fel,fierce,强烈的,ADJ,dutch/C1.csv
@@ -17899,16 +17899,16 @@ nl,C1,753,zege,victory,胜利,NOUN,dutch/C1.csv
 nl,C1,754,zijn,to be,是,VERB,dutch/C1.csv
 nl,C1,755,zweren,to swear,发誓,VERB,dutch/C1.csv
 nl,C1,756,applaus,applause,掌声,NOUN,dutch/C1.csv
-nl,C1,757,beheersen,control,控制,VERB,dutch/C1.csv
-nl,C1,758,blazen,blow,吹,VERB,dutch/C1.csv
+nl,C1,757,beheersen,to control,控制,VERB,dutch/C1.csv
+nl,C1,758,blazen,to blow,吹,VERB,dutch/C1.csv
 nl,C1,759,busje,minivan,小型货车,NOUN,dutch/C1.csv
-nl,C1,760,dalen,decrease,下降,VERB,dutch/C1.csv
+nl,C1,760,dalen,to decrease,下降,VERB,dutch/C1.csv
 nl,C1,761,echtpaar,couple,夫妻,NOUN,dutch/C1.csv
 nl,C1,762,emotie,emotion,情感,NOUN,dutch/C1.csv
 nl,C1,763,expositie,exhibition,展览,NOUN,dutch/C1.csv
 nl,C1,764,fabrikant,manufacturer,制造商,NOUN,dutch/C1.csv
 nl,C1,765,gebed,prayer,祈祷,NOUN,dutch/C1.csv
-nl,C1,766,kenmerken,characterize,以...为特征,VERB,dutch/C1.csv
+nl,C1,766,kenmerken,to characterize,以...为特征,VERB,dutch/C1.csv
 nl,C1,767,griep,flu,流感,NOUN,dutch/C1.csv
 nl,C1,768,helm,helmet,头盔,NOUN,dutch/C1.csv
 nl,C1,769,hol,hole,洞,NOUN,dutch/C1.csv
@@ -17919,38 +17919,38 @@ nl,C1,773,legende,legend,传说,NOUN,dutch/C1.csv
 nl,C1,774,lek,leak,漏洞,NOUN,dutch/C1.csv
 nl,C1,775,lever,liver,肝脏,NOUN,dutch/C1.csv
 nl,C1,776,luik,hatch,舱口,NOUN,dutch/C1.csv
-nl,C1,777,mislukken,fail,失败,VERB,dutch/C1.csv
-nl,C1,778,omzetten,convert,转换,VERB,dutch/C1.csv
+nl,C1,777,mislukken,to fail,失败,VERB,dutch/C1.csv
+nl,C1,778,omzetten,to convert,转换,VERB,dutch/C1.csv
 nl,C1,779,omstreden,controversial,有争议的,ADJ,dutch/C1.csv
 nl,C1,780,onderzoeker,researcher,研究员,NOUN,dutch/C1.csv
 nl,C1,781,ontdekking,discovery,发现,NOUN,dutch/C1.csv
 nl,C1,782,onzekerheid,uncertainty,不确定性,NOUN,dutch/C1.csv
 nl,C1,783,overlast,nuisance,滋扰,NOUN,dutch/C1.csv
-nl,C1,784,parkeren,park,停车,VERB,dutch/C1.csv
+nl,C1,784,parkeren,to park,停车,VERB,dutch/C1.csv
 nl,C1,785,rijkdom,wealth,财富,NOUN,dutch/C1.csv
-nl,C1,786,staken,strike,罢工,VERB,dutch/C1.csv
-nl,C1,787,stappen,step,迈步,VERB,dutch/C1.csv
+nl,C1,786,staken,to strike,罢工,VERB,dutch/C1.csv
+nl,C1,787,stappen,to step,迈步,VERB,dutch/C1.csv
 nl,C1,788,strafbaar,punishable,可处罚的,ADJ,dutch/C1.csv
 nl,C1,789,terrorisme,terrorism,恐怖主义,NOUN,dutch/C1.csv
 nl,C1,790,uitdrukking,expression,表达,NOUN,dutch/C1.csv
 nl,C1,791,verantwoording,justification,解释,NOUN,dutch/C1.csv
-nl,C1,792,verrichten,perform,执行,VERB,dutch/C1.csv
-nl,C1,793,vervoeren,transport,运输,VERB,dutch/C1.csv
+nl,C1,792,verrichten,to perform,执行,VERB,dutch/C1.csv
+nl,C1,793,vervoeren,to transport,运输,VERB,dutch/C1.csv
 nl,C1,794,vloot,fleet,舰队,NOUN,dutch/C1.csv
 nl,C1,795,wetboek,code,法典,NOUN,dutch/C1.csv
 nl,C1,796,woordvoerder,spokesperson,发言人,NOUN,dutch/C1.csv
 nl,C1,797,zeventig,seventy,七十,NUM,dutch/C1.csv
 nl,C1,798,zwangere,pregnant woman,孕妇,NOUN,dutch/C1.csv
-nl,C1,799,achterhalen,trace,查明,VERB,dutch/C1.csv
-nl,C1,800,afschaffen,abolish,废除,VERB,dutch/C1.csv
+nl,C1,799,achterhalen,to trace,查明,VERB,dutch/C1.csv
+nl,C1,800,afschaffen,to abolish,废除,VERB,dutch/C1.csv
 nl,C1,801,afgevaardigde,delegate,代表,NOUN,dutch/C1.csv
 nl,C1,802,andersom,vice versa,反之亦然,ADV,dutch/C1.csv
 nl,C1,803,atelier,studio,工作室,NOUN,dutch/C1.csv
 nl,C1,804,baard,beard,胡须,NOUN,dutch/C1.csv
 nl,C1,805,belg,Belgian,比利时人,NOUN,dutch/C1.csv
-nl,C1,806,bestuderen,study,研究,VERB,dutch/C1.csv
-nl,C1,807,besturen,govern,管理,VERB,dutch/C1.csv
-nl,C1,808,bevelen,command,命令,VERB,dutch/C1.csv
+nl,C1,806,bestuderen,to study,研究,VERB,dutch/C1.csv
+nl,C1,807,besturen,to govern,管理,VERB,dutch/C1.csv
+nl,C1,808,bevelen,to command,命令,VERB,dutch/C1.csv
 nl,C1,809,bij,bee,蜜蜂,NOUN,dutch/C1.csv
 nl,C1,810,boter,butter,黄油,NOUN,dutch/C1.csv
 nl,C1,811,douchen,to shower,淋浴,VERB,dutch/C1.csv
@@ -18017,7 +18017,7 @@ nl,C1,871,persconferentie,press conference,新闻发布会,NOUN,dutch/C1.csv
 nl,C1,872,preventie,prevention,预防,NOUN,dutch/C1.csv
 nl,C1,873,regie,direction,导演,NOUN,dutch/C1.csv
 nl,C1,874,room,cream,奶油,NOUN,dutch/C1.csv
-nl,C1,875,ruilen,exchange,交换,VERB,dutch/C1.csv
+nl,C1,875,ruilen,to exchange,交换,VERB,dutch/C1.csv
 nl,C1,876,schijf,disk,磁盘,NOUN,dutch/C1.csv
 nl,C1,877,stabiliteit,stability,稳定,NOUN,dutch/C1.csv
 nl,C1,878,straal,radius,半径,NOUN,dutch/C1.csv
@@ -18025,13 +18025,13 @@ nl,C1,879,tandarts,dentist,牙医,NOUN,dutch/C1.csv
 nl,C1,880,terreur,terror,恐怖,NOUN,dutch/C1.csv
 nl,C1,881,tevoorschijn,forth,出现,ADV,dutch/C1.csv
 nl,C1,882,Turks,Turkish,土耳其的,ADJ,dutch/C1.csv
-nl,C1,883,uitsluiten,rule out,排除,VERB,dutch/C1.csv
-nl,C1,884,uitstellen,postpone,推迟,VERB,dutch/C1.csv
-nl,C1,885,uitoefenen,exercise,行使,VERB,dutch/C1.csv
+nl,C1,883,uitsluiten,to rule out,排除,VERB,dutch/C1.csv
+nl,C1,884,uitstellen,to postpone,推迟,VERB,dutch/C1.csv
+nl,C1,885,uitoefenen,to exercise,行使,VERB,dutch/C1.csv
 nl,C1,886,vanzelfsprekend,obvious,显而易见的,ADJ,dutch/C1.csv
 nl,C1,887,verbouwing,renovation,翻新,NOUN,dutch/C1.csv
 nl,C1,888,vernietiging,destruction,毁灭,NOUN,dutch/C1.csv
-nl,C1,889,verrassen,surprise,使惊讶,VERB,dutch/C1.csv
+nl,C1,889,verrassen,to surprise,使惊讶,VERB,dutch/C1.csv
 nl,C1,890,wanhopig,desperate,绝望的,ADJ,dutch/C1.csv
 nl,C1,891,wars,averse,厌恶的,ADJ,dutch/C1.csv
 nl,C1,892,weduwe,widow,寡妇,NOUN,dutch/C1.csv
@@ -18048,8 +18048,8 @@ nl,C1,902,beschaving,civilization,文明,NOUN,dutch/C1.csv
 nl,C1,903,bestemd,intended,预定的,ADJ,dutch/C1.csv
 nl,C1,904,bezienswaardigheid,sight,景点,NOUN,dutch/C1.csv
 nl,C1,905,billen,buttocks,臀部,NOUN,dutch/C1.csv
-nl,C1,906,uitbreiden,expand,扩展,VERB,dutch/C1.csv
-nl,C1,907,chatten,chat,聊天,VERB,dutch/C1.csv
+nl,C1,906,uitbreiden,to expand,扩展,VERB,dutch/C1.csv
+nl,C1,907,chatten,to chat,聊天,VERB,dutch/C1.csv
 nl,C1,908,christendom,Christianity,基督教,NOUN,dutch/C1.csv
 nl,C1,909,commando,command,命令,NOUN,dutch/C1.csv
 nl,C1,910,deens,Danish,丹麦的,ADJ,dutch/C1.csv
@@ -18061,21 +18061,21 @@ nl,C1,915,garde,whisk,打蛋器,NOUN,dutch/C1.csv
 nl,C1,916,gif,poison,毒药,NOUN,dutch/C1.csv
 nl,C1,917,helikopter,helicopter,直升机,NOUN,dutch/C1.csv
 nl,C1,918,indisch,Indian,印度的,ADJ,dutch/C1.csv
-nl,C1,919,ingaan,enter,进入,VERB,dutch/C1.csv
+nl,C1,919,ingaan,to enter,进入,VERB,dutch/C1.csv
 nl,C1,920,inheems,native,本地的,ADJ,dutch/C1.csv
 nl,C1,921,klimaatverandering,climate change,气候变化,NOUN,dutch/C1.csv
-nl,C1,922,klimmen,climb,攀登,VERB,dutch/C1.csv
+nl,C1,922,klimmen,to climb,攀登,VERB,dutch/C1.csv
 nl,C1,923,knuffel,hug,拥抱,NOUN,dutch/C1.csv
 nl,C1,924,koloniaal,colonial,殖民的,ADJ,dutch/C1.csv
 nl,C1,925,legaal,legal,合法的,ADJ,dutch/C1.csv
 nl,C1,926,mam,mom,妈妈,NOUN,dutch/C1.csv
 nl,C1,927,muis,mouse,老鼠,NOUN,dutch/C1.csv
 nl,C1,928,olifant,elephant,大象,NOUN,dutch/C1.csv
-nl,C1,929,onderhandelen,negotiate,谈判,VERB,dutch/C1.csv
+nl,C1,929,onderhandelen,to negotiate,谈判,VERB,dutch/C1.csv
 nl,C1,930,onderste,lowest,最下面的,ADJ,dutch/C1.csv
 nl,C1,931,onzichtbaar,invisible,看不见的,ADJ,dutch/C1.csv
 nl,C1,932,oogst,harvest,收获,NOUN,dutch/C1.csv
-nl,C1,933,oplopen,incur,遭受,VERB,dutch/C1.csv
+nl,C1,933,oplopen,to incur,遭受,VERB,dutch/C1.csv
 nl,C1,934,plank,shelf,架子,NOUN,dutch/C1.csv
 nl,C1,935,redding,rescue,救援,NOUN,dutch/C1.csv
 nl,C1,936,respecteren,to respect,尊重,VERB,dutch/C1.csv
@@ -18103,12 +18103,12 @@ nl,C1,957,conservatief,conservative,保守的,ADJ,dutch/C1.csv
 nl,C1,958,dierentuin,zoo,动物园,NOUN,dutch/C1.csv
 nl,C1,959,doeleinde,purpose,目的,NOUN,dutch/C1.csv
 nl,C1,960,doelgroep,target group,目标群体,NOUN,dutch/C1.csv
-nl,C1,961,doorlopen,go through,穿过,VERB,dutch/C1.csv
-nl,C1,962,falen,fail,失败,VERB,dutch/C1.csv
+nl,C1,961,doorlopen,to go through,穿过,VERB,dutch/C1.csv
+nl,C1,962,falen,to fail,失败,VERB,dutch/C1.csv
 nl,C1,963,feestelijk,festive,节日的,ADJ,dutch/C1.csv
 nl,C1,964,geaardheid,orientation,性向,NOUN,dutch/C1.csv
 nl,C1,965,gericht,targeted,有针对性的,ADJ,dutch/C1.csv
-nl,C1,966,introduceren,introduce,介绍,VERB,dutch/C1.csv
+nl,C1,966,introduceren,to introduce,介绍,VERB,dutch/C1.csv
 nl,C1,967,glad,smooth,光滑的,ADJ,dutch/C1.csv
 nl,C1,968,groots,grand,宏伟的,ADJ,dutch/C1.csv
 nl,C1,969,grootschalig,large-scale,大规模的,ADJ,dutch/C1.csv
@@ -18137,21 +18137,21 @@ nl,C1,991,raadslid,councilor,议员,NOUN,dutch/C1.csv
 nl,C1,992,repareren,to repair,修理,VERB,dutch/C1.csv
 nl,C1,993,schaamte,shame,羞耻,NOUN,dutch/C1.csv
 nl,C1,994,scheppen,to create,创造,VERB,dutch/C1.csv
-nl,C1,995,snappen,understand,理解,VERB,dutch/C1.csv
+nl,C1,995,snappen,to understand,理解,VERB,dutch/C1.csv
 nl,C1,996,spin,spider,蜘蛛,NOUN,dutch/C1.csv
 nl,C1,997,steel,stem,茎,NOUN,dutch/C1.csv
 nl,C1,998,suggestie,suggestion,建议,NOUN,dutch/C1.csv
-nl,C1,999,toepassen,apply,应用,VERB,dutch/C1.csv
+nl,C1,999,toepassen,to apply,应用,VERB,dutch/C1.csv
 nl,C1,1000,tweemaal,twice,两次,ADV,dutch/C1.csv
-nl,C1,1001,uitzetten,turn off,关闭,VERB,dutch/C1.csv
+nl,C1,1001,uitzetten,to turn off,关闭,VERB,dutch/C1.csv
 nl,C1,1002,uitrusting,equipment,装备,NOUN,dutch/C1.csv
-nl,C1,1003,verbannen,banish,流放,VERB,dutch/C1.csv
-nl,C1,1004,verkennen,explore,探索,VERB,dutch/C1.csv
-nl,C1,1005,verlagen,decrease,降低,VERB,dutch/C1.csv
-nl,C1,1006,vernieuwen,renew,更新,VERB,dutch/C1.csv
+nl,C1,1003,verbannen,to banish,流放,VERB,dutch/C1.csv
+nl,C1,1004,verkennen,to explore,探索,VERB,dutch/C1.csv
+nl,C1,1005,verlagen,to decrease,降低,VERB,dutch/C1.csv
+nl,C1,1006,vernieuwen,to renew,更新,VERB,dutch/C1.csv
 nl,C1,1007,wachtwoord,password,密码,NOUN,dutch/C1.csv
 nl,C1,1008,wolk,cloud,云,NOUN,dutch/C1.csv
-nl,C1,1009,zoenen,kiss,亲吻,VERB,dutch/C1.csv
+nl,C1,1009,zoenen,to kiss,亲吻,VERB,dutch/C1.csv
 nl,C1,1010,zuur,acid,酸,NOUN,dutch/C1.csv
 nl,C1,1011,aanklager,prosecutor,检察官,NOUN,dutch/C1.csv
 nl,C1,1012,aanvullend,additional,额外的,ADJ,dutch/C1.csv
@@ -18181,23 +18181,23 @@ nl,C1,1035,overtuigend,convincing,令人信服的,ADJ,dutch/C1.csv
 nl,C1,1036,pastoor,parish priest,本堂神父,NOUN,dutch/C1.csv
 nl,C1,1037,rubriek,section,专栏,NOUN,dutch/C1.csv
 nl,C1,1038,schild,shield,盾,NOUN,dutch/C1.csv
-nl,C1,1039,smaken,taste,尝起来,VERB,dutch/C1.csv
+nl,C1,1039,smaken,to taste,尝起来,VERB,dutch/C1.csv
 nl,C1,1040,spier,muscle,肌肉,NOUN,dutch/C1.csv
 nl,C1,1041,strip,comic strip,连环画,NOUN,dutch/C1.csv
-nl,C1,1042,terugkomen,come back,回来,VERB,dutch/C1.csv
+nl,C1,1042,terugkomen,to come back,回来,VERB,dutch/C1.csv
 nl,C1,1043,tiende,tenth,第十,ADJ,dutch/C1.csv
 nl,C1,1044,toetsenbord,keyboard,键盘,NOUN,dutch/C1.csv
 nl,C1,1045,troon,throne,王座,NOUN,dutch/C1.csv
 nl,C1,1046,uiteenlopend,diverse,各种各样的,ADJ,dutch/C1.csv
 nl,C1,1047,uitkering,benefit,津贴,NOUN,dutch/C1.csv
 nl,C1,1048,Utrechts,of Utrecht,乌得勒支的,ADJ,dutch/C1.csv
-nl,C1,1049,verbazen,surprise,使惊讶,VERB,dutch/C1.csv
-nl,C1,1050,vertonen,show,展示,VERB,dutch/C1.csv
+nl,C1,1049,verbazen,to surprise,使惊讶,VERB,dutch/C1.csv
+nl,C1,1050,vertonen,to show,展示,VERB,dutch/C1.csv
 nl,C1,1051,verwonding,injury,受伤,NOUN,dutch/C1.csv
 nl,C1,1052,vet,fatty,脂肪的,ADJ,dutch/C1.csv
 nl,C1,1053,vitesse,speed,速度,NOUN,dutch/C1.csv
 nl,C1,1054,zolder,attic,阁楼,NOUN,dutch/C1.csv
-nl,C1,1055,aantonen,demonstrate,证明,VERB,dutch/C1.csv
+nl,C1,1055,aantonen,to demonstrate,证明,VERB,dutch/C1.csv
 nl,C1,1056,althans,at least,至少,ADV,dutch/C1.csv
 nl,C1,1057,artistiek,artistic,艺术的,ADJ,dutch/C1.csv
 nl,C1,1058,bedrijfsleven,business world,商业界,NOUN,dutch/C1.csv
@@ -18325,19 +18325,19 @@ nl,C1,1179,aanvaller,attacker,攻击者,NOUN,dutch/C1.csv
 nl,C1,1180,aanwijzing,clue,线索,NOUN,dutch/C1.csv
 nl,C1,1181,academisch,academic,学术的,ADJ,dutch/C1.csv
 nl,C1,1182,achteraan,at the back,在后面,ADV,dutch/C1.csv
-nl,C1,1183,afleggen,take,参加,VERB,dutch/C1.csv
-nl,C1,1184,afspreken,agree,约定,VERB,dutch/C1.csv
+nl,C1,1183,afleggen,to take,参加,VERB,dutch/C1.csv
+nl,C1,1184,afspreken,to agree,约定,VERB,dutch/C1.csv
 nl,C1,1185,archeologisch,archaeological,考古的,ADJ,dutch/C1.csv
 nl,C1,1186,Argentijns,Argentinian,阿根廷的,ADJ,dutch/C1.csv
 nl,C1,1187,balkon,balcony,阳台,NOUN,dutch/C1.csv
-nl,C1,1188,begeleiden,guide,指导,VERB,dutch/C1.csv
-nl,C1,1189,beledigen,offend,冒犯,VERB,dutch/C1.csv
+nl,C1,1188,begeleiden,to guide,指导,VERB,dutch/C1.csv
+nl,C1,1189,beledigen,to offend,冒犯,VERB,dutch/C1.csv
 nl,C1,1190,bevalling,childbirth,分娩,NOUN,dutch/C1.csv
 nl,C1,1191,bezuiniging,cut,削减,NOUN,dutch/C1.csv
 nl,C1,1192,bijnaam,nickname,绰号,NOUN,dutch/C1.csv
 nl,C1,1193,bisschop,bishop,主教,NOUN,dutch/C1.csv
 nl,C1,1194,bondscoach,national coach,国家队教练,NOUN,dutch/C1.csv
-nl,C1,1195,checken,check,检查,VERB,dutch/C1.csv
+nl,C1,1195,checken,to check,检查,VERB,dutch/C1.csv
 nl,C1,1196,criterium,criterion,标准,NOUN,dutch/C1.csv
 nl,C1,1197,enerzijds,on the one hand,一方面,ADV,dutch/C1.csv
 nl,C1,1198,entree,entrance,入口,NOUN,dutch/C1.csv
@@ -18359,23 +18359,23 @@ nl,C1,1213,natie,nation,国家,NOUN,dutch/C1.csv
 nl,C1,1214,ongelukkig,unhappy,不快乐的,ADJ,dutch/C1.csv
 nl,C1,1215,pesten,to bully,欺凌,VERB,dutch/C1.csv
 nl,C1,1216,pikken,to steal,偷窃,VERB,dutch/C1.csv
-nl,C1,1217,schaffen,create,创造,VERB,dutch/C1.csv
+nl,C1,1217,schaffen,to create,创造,VERB,dutch/C1.csv
 nl,C1,1218,scheidsrechter,referee,裁判,NOUN,dutch/C1.csv
 nl,C1,1219,scholier,schoolboy,学生,NOUN,dutch/C1.csv
-nl,C1,1220,storten,pour,倾倒,VERB,dutch/C1.csv
+nl,C1,1220,storten,to pour,倾倒,VERB,dutch/C1.csv
 nl,C1,1221,strategisch,strategic,战略的,ADJ,dutch/C1.csv
 nl,C1,1222,strikt,strict,严格的,ADJ,dutch/C1.csv
-nl,C1,1223,surfen,surf,冲浪,VERB,dutch/C1.csv
-nl,C1,1224,toewijzen,assign,分配,VERB,dutch/C1.csv
+nl,C1,1223,surfen,to surf,冲浪,VERB,dutch/C1.csv
+nl,C1,1224,toewijzen,to assign,分配,VERB,dutch/C1.csv
 nl,C1,1225,universeel,universal,普遍的,ADJ,dutch/C1.csv
-nl,C1,1226,variëren,vary,变化,VERB,dutch/C1.csv
-nl,C1,1227,verzetten,resist,抵抗,VERB,dutch/C1.csv
-nl,C1,1228,voetballen,play football,踢足球,VERB,dutch/C1.csv
+nl,C1,1226,variëren,to vary,变化,VERB,dutch/C1.csv
+nl,C1,1227,verzetten,to resist,抵抗,VERB,dutch/C1.csv
+nl,C1,1228,voetballen,to play football,踢足球,VERB,dutch/C1.csv
 nl,C1,1229,woonhuis,residence,住宅,NOUN,dutch/C1.csv
 nl,C1,1230,zaad,seed,种子,NOUN,dutch/C1.csv
 nl,C1,1231,zuiver,pure,纯净的,ADJ,dutch/C1.csv
 nl,C1,1232,Zwitsers,Swiss,瑞士的,ADJ,dutch/C1.csv
-nl,C1,1233,aanzetten,turn on,打开,VERB,dutch/C1.csv
+nl,C1,1233,aanzetten,to turn on,打开,VERB,dutch/C1.csv
 nl,C1,1234,achtertuin,backyard,后院,NOUN,dutch/C1.csv
 nl,C1,1235,achterzijde,rear,背面,NOUN,dutch/C1.csv
 nl,C1,1236,atmosfeer,atmosphere,气氛,NOUN,dutch/C1.csv
@@ -18393,11 +18393,11 @@ nl,C1,1247,fotograferen,to photograph,拍照,VERB,dutch/C1.csv
 nl,C1,1248,geneeskunde,medicine,医学,NOUN,dutch/C1.csv
 nl,C1,1249,geweer,rifle,步枪,NOUN,dutch/C1.csv
 nl,C1,1250,grootmoeder,grandmother,祖母,NOUN,dutch/C1.csv
-nl,C1,1251,heersen,rule,统治,VERB,dutch/C1.csv
-nl,C1,1252,helen,heal,治愈,VERB,dutch/C1.csv
+nl,C1,1251,heersen,to rule,统治,VERB,dutch/C1.csv
+nl,C1,1252,helen,to heal,治愈,VERB,dutch/C1.csv
 nl,C1,1253,hoogst,highest,最高的,ADJ,dutch/C1.csv
 nl,C1,1254,huisvesting,housing,住房,NOUN,dutch/C1.csv
-nl,C1,1255,ingrijpen,intervene,干预,VERB,dutch/C1.csv
+nl,C1,1255,ingrijpen,to intervene,干预,VERB,dutch/C1.csv
 nl,C1,1256,kaal,bald,秃的,ADJ,dutch/C1.csv
 nl,C1,1257,kleurrijk,colorful,多彩的,ADJ,dutch/C1.csv
 nl,C1,1258,knoop,button,纽扣,NOUN,dutch/C1.csv
@@ -18407,11 +18407,11 @@ nl,C1,1261,materieel,equipment,设备,NOUN,dutch/C1.csv
 nl,C1,1262,matig,moderate,适度的,ADJ,dutch/C1.csv
 nl,C1,1263,microfoon,microphone,麦克风,NOUN,dutch/C1.csv
 nl,C1,1264,minderheid,minority,少数,NOUN,dutch/C1.csv
-nl,C1,1265,misbruiken,abuse,滥用,VERB,dutch/C1.csv
+nl,C1,1265,misbruiken,to abuse,滥用,VERB,dutch/C1.csv
 nl,C1,1266,monnik,monk,僧侣,NOUN,dutch/C1.csv
 nl,C1,1267,okee,okay,好的,INTJ,dutch/C1.csv
-nl,C1,1268,opkomen,come up,出现,VERB,dutch/C1.csv
-nl,C1,1269,passeren,pass,经过,VERB,dutch/C1.csv
+nl,C1,1268,opkomen,to come up,出现,VERB,dutch/C1.csv
+nl,C1,1269,passeren,to pass,经过,VERB,dutch/C1.csv
 nl,C1,1270,pijp,pipe,管子,NOUN,dutch/C1.csv
 nl,C1,1271,profeet,prophet,先知,NOUN,dutch/C1.csv
 nl,C1,1272,putten,to draw water,打水,VERB,dutch/C1.csv
@@ -18514,10 +18514,10 @@ nl,C1,1368,eerlijkheid,honesty,诚实,NOUN,dutch/C1.csv
 nl,C1,1369,evenwicht,balance,平衡,NOUN,dutch/C1.csv
 nl,C1,1370,gebaar,gesture,手势,NOUN,dutch/C1.csv
 nl,C1,1371,genade,grace,恩典,NOUN,dutch/C1.csv
-nl,C1,1372,intrekken,withdraw,撤回,VERB,dutch/C1.csv
+nl,C1,1372,intrekken,to withdraw,撤回,VERB,dutch/C1.csv
 nl,C1,1373,ingrediënt,ingredient,成分,NOUN,dutch/C1.csv
 nl,C1,1374,intens,intense,强烈的,ADJ,dutch/C1.csv
-nl,C1,1375,klikken,click,点击,VERB,dutch/C1.csv
+nl,C1,1375,klikken,to click,点击,VERB,dutch/C1.csv
 nl,C1,1376,legendarisch,legendary,传奇的,ADJ,dutch/C1.csv
 nl,C1,1377,maandelijks,monthly,每月的,ADV,dutch/C1.csv
 nl,C1,1378,mailadres,email address,电子邮件地址,NOUN,dutch/C1.csv
@@ -18535,7 +18535,7 @@ nl,C1,1389,progressief,progressive,进步的,ADJ,dutch/C1.csv
 nl,C1,1390,psychisch,psychological,心理的,ADJ,dutch/C1.csv
 nl,C1,1391,psychologisch,psychological,心理学的,ADJ,dutch/C1.csv
 nl,C1,1392,realistisch,realistic,现实的,ADJ,dutch/C1.csv
-nl,C1,1393,ren,run,奔跑,VERB,dutch/C1.csv
+nl,C1,1393,ren,to run,奔跑,VERB,dutch/C1.csv
 nl,C1,1394,roer,stir,搅拌,NOUN,dutch/C1.csv
 nl,C1,1395,rots,rock,岩石,NOUN,dutch/C1.csv
 nl,C1,1396,schaatsen,to skate,滑冰,VERB,dutch/C1.csv
@@ -18549,17 +18549,17 @@ nl,C1,1403,uiting,expression,表达,NOUN,dutch/C1.csv
 nl,C1,1404,veiling,auction,拍卖,NOUN,dutch/C1.csv
 nl,C1,1405,verlenging,extension,延长,NOUN,dutch/C1.csv
 nl,C1,1406,verlof,leave,休假,NOUN,dutch/C1.csv
-nl,C1,1407,verwelkomen,welcome,欢迎,VERB,dutch/C1.csv
+nl,C1,1407,verwelkomen,to welcome,欢迎,VERB,dutch/C1.csv
 nl,C1,1408,voorlichting,information,信息,NOUN,dutch/C1.csv
-nl,C1,1409,wekken,awaken,唤醒,VERB,dutch/C1.csv
+nl,C1,1409,wekken,to awaken,唤醒,VERB,dutch/C1.csv
 nl,C1,1410,zinloos,pointless,无意义的,ADJ,dutch/C1.csv
 nl,C1,1411,zoekmachine,search engine,搜索引擎,NOUN,dutch/C1.csv
-nl,C1,1412,aanvullen,supplement,补充,VERB,dutch/C1.csv
-nl,C1,1413,aanvaarden,accept,接受,VERB,dutch/C1.csv
-nl,C1,1414,afzien,abstain,戒除,VERB,dutch/C1.csv
-nl,C1,1415,bedreigen,threaten,威胁,VERB,dutch/C1.csv
+nl,C1,1412,aanvullen,to supplement,补充,VERB,dutch/C1.csv
+nl,C1,1413,aanvaarden,to accept,接受,VERB,dutch/C1.csv
+nl,C1,1414,afzien,to abstain,戒除,VERB,dutch/C1.csv
+nl,C1,1415,bedreigen,to threaten,威胁,VERB,dutch/C1.csv
 nl,C1,1416,benaming,name,名称,NOUN,dutch/C1.csv
-nl,C1,1417,bewaken,monitor,监控,VERB,dutch/C1.csv
+nl,C1,1417,bewaken,to monitor,监控,VERB,dutch/C1.csv
 nl,C1,1418,braam,blackberry,黑莓,NOUN,dutch/C1.csv
 nl,C1,1419,buurvrouw,female neighbor,女邻居,NOUN,dutch/C1.csv
 nl,C1,1420,cam,webcam,网络摄像头,NOUN,dutch/C1.csv
@@ -18571,7 +18571,7 @@ nl,C1,1425,dictatuur,dictatorship,独裁,NOUN,dutch/C1.csv
 nl,C1,1426,doch,however,然而,CCONJ,dutch/C1.csv
 nl,C1,1427,donder,thunder,雷,NOUN,dutch/C1.csv
 nl,C1,1428,driehoek,triangle,三角形,NOUN,dutch/C1.csv
-nl,C1,1429,duiden,indicate,表明,VERB,dutch/C1.csv
+nl,C1,1429,duiden,to indicate,表明,VERB,dutch/C1.csv
 nl,C1,1430,duister,dark,黑暗的,ADJ,dutch/C1.csv
 nl,C1,1431,ezel,donkey,驴,NOUN,dutch/C1.csv
 nl,C1,1432,formeel,formal,正式的,ADJ,dutch/C1.csv
@@ -18581,7 +18581,7 @@ nl,C1,1435,infectie,infection,感染,NOUN,dutch/C1.csv
 nl,C1,1436,kenmerk,feature,特征,NOUN,dutch/C1.csv
 nl,C1,1437,kostbaar,precious,珍贵的,ADJ,dutch/C1.csv
 nl,C1,1438,kramer,peddler,小贩,NOUN,dutch/C1.csv
-nl,C1,1439,kruipen,crawl,爬行,VERB,dutch/C1.csv
+nl,C1,1439,kruipen,to crawl,爬行,VERB,dutch/C1.csv
 nl,C1,1440,levering,delivery,交付,NOUN,dutch/C1.csv
 nl,C1,1441,Limburgs,Limburgish,林堡的,ADJ,dutch/C1.csv
 nl,C1,1442,mand,basket,篮子,NOUN,dutch/C1.csv
@@ -18589,7 +18589,7 @@ nl,C1,1443,meningsuiting,expression of opinion,意见表达,NOUN,dutch/C1.csv
 nl,C1,1444,minderjarige,minor,未成年人,NOUN,dutch/C1.csv
 nl,C1,1445,negentig,ninety,九十,NUM,dutch/C1.csv
 nl,C1,1446,objectief,objective,客观的,ADJ,dutch/C1.csv
-nl,C1,1447,onderbrengen,accommodate,安置,VERB,dutch/C1.csv
+nl,C1,1447,onderbrengen,to accommodate,安置,VERB,dutch/C1.csv
 nl,C1,1448,onderkant,bottom,底部,NOUN,dutch/C1.csv
 nl,C1,1449,pakje,package,小包裹,NOUN,dutch/C1.csv
 nl,C1,1450,potentieel,potential,潜力,NOUN,dutch/C1.csv
@@ -18670,21 +18670,21 @@ nl,C1,1524,vervaardigen,to manufacture,制造,VERB,dutch/C1.csv
 nl,C1,1525,weblog,blog,博客,NOUN,dutch/C1.csv
 nl,C1,1526,werkplek,workplace,工作场所,NOUN,dutch/C1.csv
 nl,C1,1527,woedend,furious,狂怒的,ADJ,dutch/C1.csv
-nl,C1,1528,zenden,send,发送,VERB,dutch/C1.csv
+nl,C1,1528,zenden,to send,发送,VERB,dutch/C1.csv
 nl,C1,1529,zijkant,side,侧面,NOUN,dutch/C1.csv
 nl,C1,1530,aandoening,condition,疾病,NOUN,dutch/C1.csv
-nl,C1,1531,afmaken,finish,完成,VERB,dutch/C1.csv
+nl,C1,1531,afmaken,to finish,完成,VERB,dutch/C1.csv
 nl,C1,1532,ambt,office,公职,NOUN,dutch/C1.csv
 nl,C1,1533,asiel,asylum,庇护,NOUN,dutch/C1.csv
 nl,C1,1534,atleet,athlete,运动员,NOUN,dutch/C1.csv
 nl,C1,1535,betaalbaar,affordable,负担得起的,ADJ,dutch/C1.csv
-nl,C1,1536,betreden,enter,进入,VERB,dutch/C1.csv
+nl,C1,1536,betreden,to enter,进入,VERB,dutch/C1.csv
 nl,C1,1537,bewerking,processing,处理,NOUN,dutch/C1.csv
 nl,C1,1538,bloeddruk,blood pressure,血压,NOUN,dutch/C1.csv
 nl,C1,1539,bondgenoot,ally,盟友,NOUN,dutch/C1.csv
 nl,C1,1540,buitenlander,foreigner,外国人,NOUN,dutch/C1.csv
 nl,C1,1541,confrontatie,confrontation,对抗,NOUN,dutch/C1.csv
-nl,C1,1542,dateren,date,追溯,VERB,dutch/C1.csv
+nl,C1,1542,dateren,to date,追溯,VERB,dutch/C1.csv
 nl,C1,1543,daten,to date,约会,VERB,dutch/C1.csv
 nl,C1,1544,duivels,devilish,恶魔般的,ADJ,dutch/C1.csv
 nl,C1,1545,duif,pigeon,鸽子,NOUN,dutch/C1.csv
@@ -18732,9 +18732,9 @@ nl,C1,1586,stank,stench,恶臭,NOUN,dutch/C1.csv
 nl,C1,1587,stemmer,voter,投票者,NOUN,dutch/C1.csv
 nl,C1,1588,telefoontje,phone call,电话,NOUN,dutch/C1.csv
 nl,C1,1589,tribune,stand,看台,NOUN,dutch/C1.csv
-nl,C1,1590,twitteren,tweet,发推文,VERB,dutch/C1.csv
-nl,C1,1591,uitkiezen,select,挑选,VERB,dutch/C1.csv
-nl,C1,1592,uitreiken,award,颁发,VERB,dutch/C1.csv
+nl,C1,1590,twitteren,to tweet,发推文,VERB,dutch/C1.csv
+nl,C1,1591,uitkiezen,to select,挑选,VERB,dutch/C1.csv
+nl,C1,1592,uitreiken,to award,颁发,VERB,dutch/C1.csv
 nl,C1,1593,uitwisseling,exchange,交换,NOUN,dutch/C1.csv
 nl,C1,1594,veer,feather,羽毛,NOUN,dutch/C1.csv
 nl,C1,1595,vlam,flame,火焰,NOUN,dutch/C1.csv
@@ -18742,13 +18742,13 @@ nl,C1,1596,vluchteling,refugee,难民,NOUN,dutch/C1.csv
 nl,C1,1597,volkslied,national anthem,国歌,NOUN,dutch/C1.csv
 nl,C1,1598,voordeur,front door,前门,NOUN,dutch/C1.csv
 nl,C1,1599,waardeloos,worthless,无价值的,ADJ,dutch/C1.csv
-nl,C1,1600,wegen,weigh,称重,VERB,dutch/C1.csv
-nl,C1,1601,werpen,throw,投掷,VERB,dutch/C1.csv
+nl,C1,1600,wegen,to weigh,称重,VERB,dutch/C1.csv
+nl,C1,1601,werpen,to throw,投掷,VERB,dutch/C1.csv
 nl,C1,1602,wiet,weed,大麻,NOUN,dutch/C1.csv
 nl,C1,1603,zoontje,little son,小儿子,NOUN,dutch/C1.csv
 nl,C1,1604,aanbeveling,recommendation,推荐,NOUN,dutch/C1.csv
-nl,C1,1605,aantasten,affect,影响,VERB,dutch/C1.csv
-nl,C1,1606,afbeelden,depict,描绘,VERB,dutch/C1.csv
+nl,C1,1605,aantasten,to affect,影响,VERB,dutch/C1.csv
+nl,C1,1606,afbeelden,to depict,描绘,VERB,dutch/C1.csv
 nl,C1,1607,behoeve,purpose,目的,NOUN,dutch/C1.csv
 nl,C1,1608,bevordering,promotion,促进,NOUN,dutch/C1.csv
 nl,C1,1609,bizar,bizarre,奇异的,ADJ,dutch/C1.csv
@@ -18756,11 +18756,11 @@ nl,C1,1610,dorst,thirst,口渴,NOUN,dutch/C1.csv
 nl,C1,1611,duin,dune,沙丘,NOUN,dutch/C1.csv
 nl,C1,1612,fulltime,full-time,全职,ADJ,dutch/C1.csv
 nl,C1,1613,gil,scream,尖叫,NOUN,dutch/C1.csv
-nl,C1,1614,inhouden,entail,包含,VERB,dutch/C1.csv
+nl,C1,1614,inhouden,to entail,包含,VERB,dutch/C1.csv
 nl,C1,1615,inlichtingen,information,情报,NOUN,dutch/C1.csv
 nl,C1,1616,intellectueel,intellectual,智力的,ADJ,dutch/C1.csv
 nl,C1,1617,kapitaal,capital,资本,NOUN,dutch/C1.csv
-nl,C1,1618,klaarmaken,prepare,准备,VERB,dutch/C1.csv
+nl,C1,1618,klaarmaken,to prepare,准备,VERB,dutch/C1.csv
 nl,C1,1619,minder,inferior,较差的,ADJ,dutch/C1.csv
 nl,C1,1620,mits,provided that,只要,SCONJ,dutch/C1.csv
 nl,C1,1621,mop,joke,笑话,NOUN,dutch/C1.csv
@@ -18805,17 +18805,17 @@ nl,C1,1659,complot,conspiracy,阴谋,NOUN,dutch/C1.csv
 nl,C1,1660,democraat,democrat,民主党人,NOUN,dutch/C1.csv
 nl,C1,1661,druppel,drop,水滴,NOUN,dutch/C1.csv
 nl,C1,1662,enzovoort,and so forth,等等,ADV,dutch/C1.csv
-nl,C1,1663,ervaren,experience,经历,VERB,dutch/C1.csv
+nl,C1,1663,ervaren,to experience,经历,VERB,dutch/C1.csv
 nl,C1,1664,executie,execution,处决,NOUN,dutch/C1.csv
 nl,C1,1665,fluit,whistle,口哨,NOUN,dutch/C1.csv
 nl,C1,1666,fors,substantial,巨大的,ADJ,dutch/C1.csv
 nl,C1,1667,frustratie,frustration,挫折,NOUN,dutch/C1.csv
 nl,C1,1668,geestelijk,mental,精神的,ADJ,dutch/C1.csv
-nl,C1,1669,renoveren,renovate,翻新,VERB,dutch/C1.csv
+nl,C1,1669,renoveren,to renovate,翻新,VERB,dutch/C1.csv
 nl,C1,1670,gezelligheid,conviviality,温馨,NOUN,dutch/C1.csv
 nl,C1,1671,giftig,poisonous,有毒的,ADJ,dutch/C1.csv
 nl,C1,1672,ideologie,ideology,意识形态,NOUN,dutch/C1.csv
-nl,C1,1673,inpakken,pack,打包,VERB,dutch/C1.csv
+nl,C1,1673,inpakken,to pack,打包,VERB,dutch/C1.csv
 nl,C1,1674,intensief,intensive,密集的,ADJ,dutch/C1.csv
 nl,C1,1675,kalm,calm,平静的,ADJ,dutch/C1.csv
 nl,C1,1676,kapper,hairdresser,理发师,NOUN,dutch/C1.csv
@@ -18853,16 +18853,16 @@ nl,C1,1707,uitvinden,to invent,发明,VERB,dutch/C1.csv
 nl,C1,1708,vastleggen,to record,记录,VERB,dutch/C1.csv
 nl,C1,1709,vlek,stain,污渍,NOUN,dutch/C1.csv
 nl,C1,1710,vorst,frost,霜,NOUN,dutch/C1.csv
-nl,C1,1711,vrijgeven,release,释放,VERB,dutch/C1.csv
+nl,C1,1711,vrijgeven,to release,释放,VERB,dutch/C1.csv
 nl,C1,1712,wederzijds,mutual,相互的,ADJ,dutch/C1.csv
-nl,C1,1713,werven,recruit,招聘,VERB,dutch/C1.csv
+nl,C1,1713,werven,to recruit,招聘,VERB,dutch/C1.csv
 nl,C1,1714,zonnetje,little sun,小太阳,NOUN,dutch/C1.csv
 nl,C1,1715,aankomend,upcoming,即将到来的,ADJ,dutch/C1.csv
 nl,C1,1716,aanspraak,claim,要求,NOUN,dutch/C1.csv
 nl,C1,1717,aanvoerder,captain,队长,NOUN,dutch/C1.csv
 nl,C1,1718,aardappel,potato,土豆,NOUN,dutch/C1.csv
-nl,C1,1719,achterlaten,leave behind,留下,VERB,dutch/C1.csv
-nl,C1,1720,afgeven,issue,发放,VERB,dutch/C1.csv
+nl,C1,1719,achterlaten,to leave behind,留下,VERB,dutch/C1.csv
+nl,C1,1720,afgeven,to issue,发放,VERB,dutch/C1.csv
 nl,C1,1721,alfabet,alphabet,字母表,NOUN,dutch/C1.csv
 nl,C1,1722,biologie,biology,生物学,NOUN,dutch/C1.csv
 nl,C1,1723,broeder,brother,兄弟,NOUN,dutch/C1.csv
@@ -18888,25 +18888,25 @@ nl,C1,1742,kantine,canteen,食堂,NOUN,dutch/C1.csv
 nl,C1,1743,kruid,herb,香草,NOUN,dutch/C1.csv
 nl,C1,1744,kwalijk,badly,糟糕地,ADV,dutch/C1.csv
 nl,C1,1745,lint,ribbon,丝带,NOUN,dutch/C1.csv
-nl,C1,1746,meewerken,cooperate,合作,VERB,dutch/C1.csv
+nl,C1,1746,meewerken,to cooperate,合作,VERB,dutch/C1.csv
 nl,C1,1747,mentaliteit,mentality,心态,NOUN,dutch/C1.csv
 nl,C1,1748,munitie,ammunition,弹药,NOUN,dutch/C1.csv
 nl,C1,1749,mythe,myth,神话,NOUN,dutch/C1.csv
 nl,C1,1750,negende,ninth,第九,ADJ,dutch/C1.csv
-nl,C1,1751,opereren,operate,手术,VERB,dutch/C1.csv
+nl,C1,1751,opereren,to operate,手术,VERB,dutch/C1.csv
 nl,C1,1752,orgel,organ,管风琴,NOUN,dutch/C1.csv
 nl,C1,1753,parcours,course,路线,NOUN,dutch/C1.csv
 nl,C1,1754,parlementsverkiezingen,parliamentary elections,议会选举,NOUN,dutch/C1.csv
 nl,C1,1755,plaatselijk,local,当地的,ADJ,dutch/C1.csv
 nl,C1,1756,plas,puddle,水坑,NOUN,dutch/C1.csv
 nl,C1,1757,prestigieus,prestigious,有声望的,ADJ,dutch/C1.csv
-nl,C1,1758,regenen,rain,下雨,VERB,dutch/C1.csv
+nl,C1,1758,regenen,to rain,下雨,VERB,dutch/C1.csv
 nl,C1,1759,ruw,rough,粗糙的,ADJ,dutch/C1.csv
 nl,C1,1760,schietpartij,shooting,枪击,NOUN,dutch/C1.csv
 nl,C1,1761,schijn,appearance,表象,NOUN,dutch/C1.csv
 nl,C1,1762,schokkend,shocking,令人震惊的,ADJ,dutch/C1.csv
 nl,C1,1763,secretaresse,secretary,女秘书,NOUN,dutch/C1.csv
-nl,C1,1764,slikken,swallow,吞咽,VERB,dutch/C1.csv
+nl,C1,1764,slikken,to swallow,吞咽,VERB,dutch/C1.csv
 nl,C1,1765,sponsoren,to sponsor,赞助,VERB,dutch/C1.csv
 nl,C1,1766,spuit,syringe,注射器,NOUN,dutch/C1.csv
 nl,C1,1767,staking,strike,罢工,NOUN,dutch/C1.csv
@@ -18926,16 +18926,16 @@ nl,C1,1780,waardig,worthy,值得的,ADJ,dutch/C1.csv
 nl,C1,1781,waartoe,for what purpose,为了什么目的,ADV,dutch/C1.csv
 nl,C1,1782,webwinkel,online store,网店,NOUN,dutch/C1.csv
 nl,C1,1783,weren,to repel,抵挡,VERB,dutch/C1.csv
-nl,C1,1784,zinken,sink,下沉,VERB,dutch/C1.csv
+nl,C1,1784,zinken,to sink,下沉,VERB,dutch/C1.csv
 nl,C1,1785,zogeheten,so-called,所谓的,ADJ,dutch/C1.csv
 nl,C1,1786,aanraking,touch,接触,NOUN,dutch/C1.csv
-nl,C1,1787,aanspreken,address,称呼,VERB,dutch/C1.csv
-nl,C1,1788,annuleren,cancel,取消,VERB,dutch/C1.csv
-nl,C1,1789,afvoeren,remove,移除,VERB,dutch/C1.csv
-nl,C1,1790,aftreden,resign,辞职,VERB,dutch/C1.csv
-nl,C1,1791,analyseren,analyze,分析,VERB,dutch/C1.csv
+nl,C1,1787,aanspreken,to address,称呼,VERB,dutch/C1.csv
+nl,C1,1788,annuleren,to cancel,取消,VERB,dutch/C1.csv
+nl,C1,1789,afvoeren,to remove,移除,VERB,dutch/C1.csv
+nl,C1,1790,aftreden,to resign,辞职,VERB,dutch/C1.csv
+nl,C1,1791,analyseren,to analyze,分析,VERB,dutch/C1.csv
 nl,C1,1792,berichtgeving,reporting,报道,NOUN,dutch/C1.csv
-nl,C1,1793,binden,bind,捆绑,VERB,dutch/C1.csv
+nl,C1,1793,binden,to bind,捆绑,VERB,dutch/C1.csv
 nl,C1,1794,breuk,break,破裂,NOUN,dutch/C1.csv
 nl,C1,1795,citaat,quote,引文,NOUN,dutch/C1.csv
 nl,C1,1796,dal,valley,山谷,NOUN,dutch/C1.csv
@@ -18946,13 +18946,13 @@ nl,C1,1800,droogte,drought,干旱,NOUN,dutch/C1.csv
 nl,C1,1801,functioneel,functional,功能的,ADJ,dutch/C1.csv
 nl,C1,1802,gelijktijdig,simultaneously,同时地,ADV,dutch/C1.csv
 nl,C1,1803,geografisch,geographical,地理的,ADJ,dutch/C1.csv
-nl,C1,1804,executeren,execute,处决,VERB,dutch/C1.csv
+nl,C1,1804,executeren,to execute,处决,VERB,dutch/C1.csv
 nl,C1,1805,hartaanval,heart attack,心脏病发作,NOUN,dutch/C1.csv
 nl,C1,1806,hertog,duke,公爵,NOUN,dutch/C1.csv
 nl,C1,1807,illusie,illusion,幻觉,NOUN,dutch/C1.csv
 nl,C1,1808,ingenieur,engineer,工程师,NOUN,dutch/C1.csv
 nl,C1,1809,inspectie,inspection,检查,NOUN,dutch/C1.csv
-nl,C1,1810,integreren,integrate,整合,VERB,dutch/C1.csv
+nl,C1,1810,integreren,to integrate,整合,VERB,dutch/C1.csv
 nl,C1,1811,iraans,Iranian,伊朗的,ADJ,dutch/C1.csv
 nl,C1,1812,japanner,Japanese person,日本人,NOUN,dutch/C1.csv
 nl,C1,1813,kaars,candle,蜡烛,NOUN,dutch/C1.csv
@@ -18981,13 +18981,13 @@ nl,C1,1835,vereiste,requirement,要求,NOUN,dutch/C1.csv
 nl,C1,1836,vlug,quick,快的,ADJ,dutch/C1.csv
 nl,C1,1837,volwassene,adult,成年人,NOUN,dutch/C1.csv
 nl,C1,1838,vooralsnog,for now,暂时,ADV,dutch/C1.csv
-nl,C1,1839,voordoen,occur,发生,VERB,dutch/C1.csv
+nl,C1,1839,voordoen,to occur,发生,VERB,dutch/C1.csv
 nl,C1,1840,voorschrift,regulation,规定,NOUN,dutch/C1.csv
 nl,C1,1841,vrouwe,lady,女士,NOUN,dutch/C1.csv
-nl,C1,1842,wedden,bet,打赌,VERB,dutch/C1.csv
+nl,C1,1842,wedden,to bet,打赌,VERB,dutch/C1.csv
 nl,C1,1843,zozeer,so much,如此,ADV,dutch/C1.csv
-nl,C1,1844,aanstellen,appoint,任命,VERB,dutch/C1.csv
-nl,C1,1845,afleveren,deliver,交付,VERB,dutch/C1.csv
+nl,C1,1844,aanstellen,to appoint,任命,VERB,dutch/C1.csv
+nl,C1,1845,afleveren,to deliver,交付,VERB,dutch/C1.csv
 nl,C1,1846,afschaffing,abolition,废除,NOUN,dutch/C1.csv
 nl,C1,1847,afwezig,absent,缺席的,ADJ,dutch/C1.csv
 nl,C1,1848,applicatie,application,应用,NOUN,dutch/C1.csv
@@ -19011,8 +19011,8 @@ nl,C1,1865,dikwijls,often,经常,ADV,dutch/C1.csv
 nl,C1,1866,drinkwater,drinking water,饮用水,NOUN,dutch/C1.csv
 nl,C1,1867,eend,duck,鸭子,NOUN,dutch/C1.csv
 nl,C1,1868,fundamenteel,fundamental,基本的,ADJ,dutch/C1.csv
-nl,C1,1869,definiëren,define,定义,VERB,dutch/C1.csv
-nl,C1,1870,hacken,hack,黑客攻击,VERB,dutch/C1.csv
+nl,C1,1869,definiëren,to define,定义,VERB,dutch/C1.csv
+nl,C1,1870,hacken,to hack,黑客攻击,VERB,dutch/C1.csv
 nl,C1,1871,genot,pleasure,享受,NOUN,dutch/C1.csv
 nl,C1,1872,handje,little hand,小手,NOUN,dutch/C1.csv
 nl,C1,1873,hartje,little heart,小心脏,NOUN,dutch/C1.csv
@@ -19021,7 +19021,7 @@ nl,C1,1875,hervorming,reform,改革,NOUN,dutch/C1.csv
 nl,C1,1876,hoeverre,to what extent,在多大程度上,ADV,dutch/C1.csv
 nl,C1,1877,icoon,icon,图标,NOUN,dutch/C1.csv
 nl,C1,1878,inflatie,inflation,通货膨胀,NOUN,dutch/C1.csv
-nl,C1,1879,kappen,chop,砍,VERB,dutch/C1.csv
+nl,C1,1879,kappen,to chop,砍,VERB,dutch/C1.csv
 nl,C1,1880,kas,cash,现金,NOUN,dutch/C1.csv
 nl,C1,1881,kikker,frog,青蛙,NOUN,dutch/C1.csv
 nl,C1,1882,koel,cool,凉爽的,ADJ,dutch/C1.csv
@@ -19064,22 +19064,22 @@ nl,C1,1918,zuigen,to suck,吸,VERB,dutch/C1.csv
 nl,C1,1919,zwaaien,to wave,挥手,VERB,dutch/C1.csv
 nl,C1,1920,aanduiding,designation,指定,NOUN,dutch/C1.csv
 nl,C1,1921,aantekening,note,笔记,NOUN,dutch/C1.csv
-nl,C1,1922,afdrukken,print,打印,VERB,dutch/C1.csv
-nl,C1,1923,antwoorden,reply,回答,VERB,dutch/C1.csv
+nl,C1,1922,afdrukken,to print,打印,VERB,dutch/C1.csv
+nl,C1,1923,antwoorden,to reply,回答,VERB,dutch/C1.csv
 nl,C1,1924,bacterie,bacterium,细菌,NOUN,dutch/C1.csv
 nl,C1,1925,bedrog,deception,欺骗,NOUN,dutch/C1.csv
 nl,C1,1926,beschuldiging,accusation,指控,NOUN,dutch/C1.csv
-nl,C1,1927,bijten,bite,咬,VERB,dutch/C1.csv
+nl,C1,1927,bijten,to bite,咬,VERB,dutch/C1.csv
 nl,C1,1928,binnenkant,inside,内部,NOUN,dutch/C1.csv
 nl,C1,1929,boeiend,fascinating,迷人的,ADJ,dutch/C1.csv
-nl,C1,1930,buigen,bend,弯曲,VERB,dutch/C1.csv
+nl,C1,1930,buigen,to bend,弯曲,VERB,dutch/C1.csv
 nl,C1,1931,componist,composer,作曲家,NOUN,dutch/C1.csv
 nl,C1,1932,consumptie,consumption,消费,NOUN,dutch/C1.csv
 nl,C1,1933,daglicht,daylight,日光,NOUN,dutch/C1.csv
 nl,C1,1934,diamant,diamond,钻石,NOUN,dutch/C1.csv
 nl,C1,1935,diplomatiek,diplomatic,外交的,ADJ,dutch/C1.csv
-nl,C1,1936,doneren,donate,捐赠,VERB,dutch/C1.csv
-nl,C1,1937,doorvoeren,implement,实施,VERB,dutch/C1.csv
+nl,C1,1936,doneren,to donate,捐赠,VERB,dutch/C1.csv
+nl,C1,1937,doorvoeren,to implement,实施,VERB,dutch/C1.csv
 nl,C1,1938,eenzaamheid,loneliness,孤独,NOUN,dutch/C1.csv
 nl,C1,1939,eenzelfde,the same,同样的,ADJ,dutch/C1.csv
 nl,C1,1940,eenzijdig,one-sided,单方面的,ADJ,dutch/C1.csv
@@ -19107,8 +19107,8 @@ nl,C1,1961,onroerend,immovable,不可移动的,ADJ,dutch/C1.csv
 nl,C1,1962,ontwikkelaar,developer,开发商,NOUN,dutch/C1.csv
 nl,C1,1963,parodie,parody,讽刺作品,NOUN,dutch/C1.csv
 nl,C1,1964,passend,appropriate,合适的,ADJ,dutch/C1.csv
-nl,C1,1965,plukken,pick,采摘,VERB,dutch/C1.csv
-nl,C1,1966,programmeren,program,编程,VERB,dutch/C1.csv
+nl,C1,1965,plukken,to pick,采摘,VERB,dutch/C1.csv
+nl,C1,1966,programmeren,to program,编程,VERB,dutch/C1.csv
 nl,C1,1967,proost,cheers,干杯,INTJ,dutch/C1.csv
 nl,C1,1968,richtlijn,guideline,指导方针,NOUN,dutch/C1.csv
 nl,C1,1969,ritje,ride,短途乘车,NOUN,dutch/C1.csv
@@ -19117,33 +19117,33 @@ nl,C1,1971,ruimtelijk,spatial,空间的,ADJ,dutch/C1.csv
 nl,C1,1972,samenwerkingsverband,partnership,合作关系,NOUN,dutch/C1.csv
 nl,C1,1973,schop,kick,踢,NOUN,dutch/C1.csv
 nl,C1,1974,schorsing,suspension,停职,NOUN,dutch/C1.csv
-nl,C1,1975,shoppen,shop,购物,VERB,dutch/C1.csv
+nl,C1,1975,shoppen,to shop,购物,VERB,dutch/C1.csv
 nl,C1,1976,staatsgreep,coup,政变,NOUN,dutch/C1.csv
 nl,C1,1977,stoep,sidewalk,人行道,NOUN,dutch/C1.csv
 nl,C1,1978,technologisch,technological,技术的,ADJ,dutch/C1.csv
 nl,C1,1979,tegenaan,against,紧靠,ADP,dutch/C1.csv
 nl,C1,1980,tegendeel,opposite,相反,NOUN,dutch/C1.csv
-nl,C1,1981,terugtrekken,withdraw,撤退,VERB,dutch/C1.csv
+nl,C1,1981,terugtrekken,to withdraw,撤退,VERB,dutch/C1.csv
 nl,C1,1982,transformatie,transformation,转变,NOUN,dutch/C1.csv
-nl,C1,1983,uitnodigen,invite,邀请,VERB,dutch/C1.csv
+nl,C1,1983,uitnodigen,to invite,邀请,VERB,dutch/C1.csv
 nl,C1,1984,verbazingwekkend,amazing,惊人的,ADJ,dutch/C1.csv
 nl,C1,1985,verbond,alliance,联盟,NOUN,dutch/C1.csv
 nl,C1,1986,verpleegster,nurse,护士,NOUN,dutch/C1.csv
-nl,C1,1987,verven,paint,油漆,VERB,dutch/C1.csv
-nl,C1,1988,verwennen,spoil,溺爱,VERB,dutch/C1.csv
+nl,C1,1987,verven,to paint,油漆,VERB,dutch/C1.csv
+nl,C1,1988,verwennen,to spoil,溺爱,VERB,dutch/C1.csv
 nl,C1,1989,verzorging,care,护理,NOUN,dutch/C1.csv
 nl,C1,1990,wand,wall,墙,NOUN,dutch/C1.csv
 nl,C1,1991,wond,wound,伤口,NOUN,dutch/C1.csv
 nl,C1,1992,zaterdagavond,Saturday evening,周六晚上,NOUN,dutch/C1.csv
-nl,C1,1993,zeuren,whine,抱怨,VERB,dutch/C1.csv
+nl,C1,1993,zeuren,to whine,抱怨,VERB,dutch/C1.csv
 nl,C1,1994,óf,or,或者,CCONJ,dutch/C1.csv
 nl,C1,1995,achterste,rear,后面的,ADJ,dutch/C1.csv
 nl,C1,1996,afzonderlijk,separate,单独的,ADJ,dutch/C1.csv
 nl,C1,1997,alleenstaande,single,单身的,ADJ,dutch/C1.csv
 nl,C1,1998,berekenen,to calculate,计算,VERB,dutch/C1.csv
 nl,C1,1999,berlijnse,Berlijns,柏林的,ADJ,dutch/C1.csv
-nl,C1,2000,beschoten,beschieten,射击,VERB,dutch/C1.csv
-nl,C1,2001,bevroren,bevriezen,冻结,VERB,dutch/C1.csv
+nl,C1,2000,beschoten,to beschieten,射击,VERB,dutch/C1.csv
+nl,C1,2001,bevroren,to bevriezen,冻结,VERB,dutch/C1.csv
 nl,C1,2002,blootstellen,to expose,暴露,VERB,dutch/C1.csv
 nl,C1,2003,broederschap,brotherhood,兄弟情谊,NOUN,dutch/C1.csv
 nl,C1,2004,brusselse,Brussels,布鲁塞尔的,ADJ,dutch/C1.csv
@@ -19151,15 +19151,15 @@ nl,C1,2005,collecties,collectie,收藏,NOUN,dutch/C1.csv
 nl,C1,2006,comfortabel,comfortable,舒适的,ADJ,dutch/C1.csv
 nl,C1,2007,compilatie,compilation,汇编,NOUN,dutch/C1.csv
 nl,C1,2008,contracten,contract,合同,NOUN,dutch/C1.csv
-nl,C1,2009,demonstreren,demonstrate,示威,VERB,dutch/C1.csv
+nl,C1,2009,demonstreren,to demonstrate,示威,VERB,dutch/C1.csv
 nl,C1,2010,duik,dive,潜水,NOUN,dutch/C1.csv
 nl,C1,2011,elektronisch,electronic,电子的,ADJ,dutch/C1.csv
 nl,C1,2012,fatsoenlijke,fatsoenlijk,体面的,ADJ,dutch/C1.csv
-nl,C1,2013,focussen,focus,集中,VERB,dutch/C1.csv
+nl,C1,2013,focussen,to focus,集中,VERB,dutch/C1.csv
 nl,C1,2014,genootschap,society,协会,NOUN,dutch/C1.csv
 nl,C1,2015,noteren,to note,记录,VERB,dutch/C1.csv
 nl,C1,2016,gevangenschap,captivity,囚禁,NOUN,dutch/C1.csv
-nl,C1,2017,gokken,gamble,赌博,VERB,dutch/C1.csv
+nl,C1,2017,gokken,to gamble,赌博,VERB,dutch/C1.csv
 nl,C1,2018,grafisch,graphic,图形的,ADJ,dutch/C1.csv
 nl,C1,2019,hapje,snack,小吃,NOUN,dutch/C1.csv
 nl,C1,2020,hoorzitting,hearing,听证会,NOUN,dutch/C1.csv
@@ -19175,9 +19175,9 @@ nl,C1,2029,naald,needle,针,NOUN,dutch/C1.csv
 nl,C1,2030,navolging,imitation,模仿,NOUN,dutch/C1.csv
 nl,C1,2031,notaris,notary,公证人,NOUN,dutch/C1.csv
 nl,C1,2032,onrecht,injustice,不公正,NOUN,dutch/C1.csv
-nl,C1,2033,opletten,pay attention,注意,VERB,dutch/C1.csv
-nl,C1,2034,oprichten,establish,建立,VERB,dutch/C1.csv
-nl,C1,2035,overwinnen,overcome,克服,VERB,dutch/C1.csv
+nl,C1,2033,opletten,to pay attention,注意,VERB,dutch/C1.csv
+nl,C1,2034,oprichten,to establish,建立,VERB,dutch/C1.csv
+nl,C1,2035,overwinnen,to overcome,克服,VERB,dutch/C1.csv
 nl,C1,2036,paralympisch,paralympic,残奥会的,ADJ,dutch/C1.csv
 nl,C1,2037,parlementslid,member of parliament,议员,NOUN,dutch/C1.csv
 nl,C1,2038,peer,pear,梨,NOUN,dutch/C1.csv
@@ -19188,8 +19188,8 @@ nl,C1,2042,stout,naughty,淘气的,ADJ,dutch/C1.csv
 nl,C1,2043,structureel,structural,结构的,ADJ,dutch/C1.csv
 nl,C1,2044,studente,female student,女学生,NOUN,dutch/C1.csv
 nl,C1,2045,Surinaams,Surinamese,苏里南的,ADJ,dutch/C1.csv
-nl,C1,2046,uitdrukken,express,表达,VERB,dutch/C1.csv
-nl,C1,2047,versieren,decorate,装饰,VERB,dutch/C1.csv
-nl,C1,2048,verspillen,waste,浪费,VERB,dutch/C1.csv
+nl,C1,2046,uitdrukken,to express,表达,VERB,dutch/C1.csv
+nl,C1,2047,versieren,to decorate,装饰,VERB,dutch/C1.csv
+nl,C1,2048,verspillen,to waste,浪费,VERB,dutch/C1.csv
 nl,C1,2049,worst,sausage,香肠,NOUN,dutch/C1.csv
 nl,C1,2050,leve,long live,万岁,INTJ,dutch/C1.csv

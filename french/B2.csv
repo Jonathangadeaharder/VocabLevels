@@ -154,7 +154,7 @@ balcon,balcony,阳台,NOUN
 bancaire,banking,银行的,ADJ
 bannière,banner,横幅,NOUN
 banquier,banker,银行家,NOUN
-baptiser,baptize,施洗,VERB
+baptiser,to baptize,施洗,VERB
 baptême,baptism,洗礼,NOUN
 barrage,dam,水坝,NOUN
 barrière,barrier,障碍物,NOUN
@@ -167,7 +167,7 @@ biologique,biological,生物的,ADJ
 bizarrement,oddly,奇怪地,ADV
 blague,joke,笑话,NOUN
 blocage,blockage,阻塞,NOUN
-bloquer,block,阻塞,VERB
+bloquer,to block,阻塞,VERB
 bol,bowl,碗,NOUN
 bonbon,candy,糖果,NOUN
 bond,leap,跳跃,NOUN
@@ -255,13 +255,13 @@ cinquantaine,about fifty,五十左右,NOUN
 circonscription,constituency,选区,NOUN
 circonspect,circumspect,谨慎的,ADJ
 circulaire,circular,通告,NOUN
-circuler,circulate,流通,VERB
+circuler,to circulate,流通,VERB
 cirque,circus,马戏团,NOUN
 citation,quotation,引用,NOUN
 citoyenneté,citizenship,公民身份,NOUN
 clandestinité,clandestinity,秘密状态,NOUN
 claque,slap,耳光,NOUN
-classer,classify,分类,VERB
+classer,to classify,分类,VERB
 classicisme,classicism,古典主义,NOUN
 clavier,keyboard,键盘,NOUN
 clergé,clergy,神职人员,NOUN
@@ -545,40 +545,40 @@ détenu,detainee,被拘留者,NOUN
 détermination,determination,决心,NOUN
 déterministe,deterministic,决定论的,ADJ
 détour,detour,绕行,NOUN
-détourner,divert,转移,VERB
+détourner,to divert,转移,VERB
 détriment,detriment,损害,NOUN
 dévaluation,devaluation,贬值,NOUN
-dévoiler,reveal,揭露,VERB
-effacer,erase,擦除,VERB
+dévoiler,to reveal,揭露,VERB
+effacer,to erase,擦除,VERB
 effectif,workforce,员工人数,NOUN
 efficace,effective,有效的,ADJ
 efficacement,effectively,有效地,ADV
 effondrement,collapse,崩溃,NOUN
-embrasser,kiss,亲吻,VERB
+embrasser,to kiss,亲吻,VERB
 empirisme,empiricism,经验主义,NOUN
-empiéter,encroach,侵占,VERB
+empiéter,to encroach,侵占,VERB
 employabilité,employability,就业能力,NOUN
-employer,employ,雇用,VERB
+employer,to employ,雇用,VERB
 employeur,employer,雇主,NOUN
-emporter,take away,带走,VERB
+emporter,to take away,带走,VERB
 empreinte,imprint,印记,NOUN
 emprise,hold,控制,NOUN
 emprisonnement,imprisonment,监禁,NOUN
-emprunter,borrow,借,VERB
-encenser,praise lavishly,大肆吹捧,VERB
+emprunter,to borrow,借,VERB
+encenser,to praise lavishly,大肆吹捧,VERB
 enchère,bid,出价,NOUN
-encourager,encourage,鼓励,VERB
+encourager,to encourage,鼓励,VERB
 endettement,indebtedness,负债,NOUN
-endiguer,stem,遏制,VERB
+endiguer,to stem,遏制,VERB
 endoctrinement,indoctrination,灌输,NOUN
-endormir,put to sleep,使入睡,VERB
+endormir,to put to sleep,使入睡,VERB
 endémique,endemic,地方性的,ADJ
-enfermer,lock up,关押,VERB
-enfreindre,infringe,违反,VERB
+enfermer,to lock up,关押,VERB
+enfreindre,to infringe,违反,VERB
 engin,device,装置,NOUN
 enlèvement,kidnapping,绑架,NOUN
 ennui,boredom,无聊,NOUN
-enrayer,curb,制止,VERB
+enrayer,to curb,制止,VERB
 enrichir,to enrich,丰富,VERB
 enseignant,teacher,教师,NOUN
 entente,understanding,谅解,NOUN
@@ -788,7 +788,7 @@ idéalisme,idealism,理想主义,NOUN
 idéologie,ideology,意识形态,NOUN
 idéologique,ideological,意识形态的,ADJ
 illustre,illustrious,杰出的,ADJ
-illustrer,illustrate,说明,VERB
+illustrer,to illustrate,说明,VERB
 illégal,illegal,非法的,ADJ
 imaginaire,imaginary,想象的,ADJ
 immigré,immigrant,移民,NOUN
@@ -1224,8 +1224,8 @@ programmation,programming,编程,NOUN
 progressif,progressive,渐进的,ADJ
 progressivement,progressively,逐渐地,ADV
 prolixe,verbose,冗长的,ADJ
-prolonger,prolong,延长,VERB
-prononcer,pronounce,发音,VERB
+prolonger,to prolong,延长,VERB
+prononcer,to pronounce,发音,VERB
 pronostic,prognosis,预测,NOUN
 propagande,propaganda,宣传,NOUN
 prophylaxie,prophylaxis,预防,NOUN
@@ -1239,7 +1239,7 @@ protocole,protocol,协议,NOUN
 protéine,protein,蛋白质,NOUN
 provenance,origin,来源,NOUN
 provisoire,temporary,临时的,ADJ
-provoquer,provoke,引起,VERB
+provoquer,to provoke,引起,VERB
 préalable,prior,先前的,ADJ
 précarisation,precarization,不稳定化,NOUN
 précaution,precaution,预防措施,NOUN
@@ -1344,16 +1344,16 @@ renvoyer,to dismiss,解雇,VERB
 repartir,to set off again,再次出发,VERB
 repousser,to push back,推迟,VERB
 reproche,reproach,责备,NOUN
-reprocher,reproach,责备,VERB
+reprocher,to reproach,责备,VERB
 reproductibilité,reproducibility,可重复性,NOUN
-repérer,spot,发现,VERB
+repérer,to spot,发现,VERB
 requalification,reskilling,再培训,NOUN
 requête,request,请求,NOUN
 resocialisation,resocialization,再社会化,NOUN
 respectueux,respectful,恭敬的,ADJ
 respiration,breathing,呼吸,NOUN
-respirer,breathe,呼吸,VERB
-ressortir,stand out,突出,VERB
+respirer,to breathe,呼吸,VERB
+ressortir,to stand out,突出,VERB
 retraité,retiree,退休人员,NOUN
 revendiquer,to claim,要求,VERB
 rhétorique,rhetoric,修辞,NOUN
@@ -1374,7 +1374,7 @@ règne,reign,统治,NOUN
 réaction,reaction,反应,NOUN
 réalisateur,film director,导演,NOUN
 réalisation,achievement,成就,NOUN
-réaliser,achieve,实现,VERB
+réaliser,to achieve,实现,VERB
 réalisme,realism,现实主义,NOUN
 réaliste,realistic,现实的,ADJ
 réalité,reality,现实,NOUN
@@ -1414,39 +1414,39 @@ réjouir,to rejoice,使高兴,VERB
 réjouissant,heartening,令人高兴的,ADJ
 rémunération,remuneration,报酬,NOUN
 rénovation,renovation,翻新,NOUN
-répandre,spread,传播,VERB
+répandre,to spread,传播,VERB
 réparation,repair,修理,NOUN
-réparer,repair,修理,VERB
-répartir,distribute,分配,VERB
+réparer,to repair,修理,VERB
+répartir,to distribute,分配,VERB
 répartition,distribution,分配,NOUN
 répertoire,repertoire,剧目,NOUN
-répondre,answer,回答,VERB
+répondre,to answer,回答,VERB
 réponse,answer,回答,NOUN
 répression,repression,镇压,NOUN
 républicain,republican,共和的,ADJ
 république,republic,共和国,NOUN
 réputation,reputation,名声,NOUN
 réputé,renowned,著名的,ADJ
-répéter,repeat,重复,VERB
+répéter,to repeat,重复,VERB
 répétition,repetition,重复,NOUN
 réquisitoire,indictment,起诉书,NOUN
 réseau,network,网络,NOUN
 réservation,reservation,预订,NOUN
-réserver,reserve,预订,VERB
+réserver,to reserve,预订,VERB
 réservé,reserved,保留的,ADJ
 résidence,residence,住所,NOUN
 résident,resident,居民,NOUN
-résider,reside,居住,VERB
+résider,to reside,居住,VERB
 résiduel,residual,残留的,ADJ
 résiliation,termination,解除,NOUN
 résistant,resistant,有抵抗力的,ADJ
-résister,resist,抵抗,VERB
+résister,to resist,抵抗,VERB
 résolu,resolute,坚决的,ADJ
 résolution,resolution,决心,NOUN
-résoudre,solve,解决,VERB
+résoudre,to solve,解决,VERB
 résultat,result,结果,NOUN
-résulter,result,产生,VERB
-résumer,summarize,总结,VERB
+résulter,to result,产生,VERB
+résumer,to summarize,总结,VERB
 résumé,summary,摘要,NOUN
 rétablir,to restore,恢复,VERB
 rétablissement,recovery,康复,NOUN
@@ -1682,16 +1682,16 @@ spécifique,specific,具体的,ADJ
 spécifiquement,specifically,具体地,ADV
 stade,stadium,体育场,NOUN
 stage,internship,实习,NOUN
-stagner,stagnate,停滞,VERB
+stagner,to stagnate,停滞,VERB
 stalle,stall,包厢座位,NOUN
 standardisation,standardization,标准化,NOUN
 station-service,gas station,加油站,NOUN
 stationnement,parking,停车,NOUN
 stigmatisation,stigmatization,污名化,NOUN
-stigmatiser,stigmatize,污名化,VERB
+stigmatiser,to stigmatize,污名化,VERB
 stochastique,stochastic,随机的,ADJ
 stockage,storage,储存,NOUN
-stopper,stop,停止,VERB
+stopper,to stop,停止,VERB
 store,blind,百叶窗,NOUN
 stoïcisme,stoicism,斯多葛主义,NOUN
 stratégique,strategic,战略的,ADJ

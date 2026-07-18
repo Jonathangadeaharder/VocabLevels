@@ -36,9 +36,9 @@ wijzen,to point,指出,VERB
 zwanger,pregnant,怀孕的,ADJ
 aanpak,approach,方法,NOUN
 afscheid,farewell,告别,NOUN
-bedenken,invent,发明,VERB
+bedenken,to invent,发明,VERB
 benieuwd,curious,好奇的,ADJ
-bevestigen,confirm,确认,VERB
+bevestigen,to confirm,确认,VERB
 buur,neighbor,邻居,NOUN
 dans,dance,舞蹈,NOUN
 geel,yellow,黄色的,ADJ
@@ -75,9 +75,9 @@ verzamelen,to collect,收集,VERB
 vogel,bird,鸟,NOUN
 vriendelijk,friendly,友好的,ADJ
 zichtbaar,visible,可见的,ADJ
-aanpassen,adjust,调整,VERB
+aanpassen,to adjust,调整,VERB
 aanslag,tax rate,税率,NOUN
-bevatten,contain,包含,VERB
+bevatten,to contain,包含,VERB
 commentaar,comment,评论,NOUN
 beker,cup,杯子,NOUN
 echtgenoot,husband,丈夫,NOUN
@@ -135,22 +135,22 @@ enthousiast,enthusiastic,热情的,ADJ
 gedachte,thought,想法,NOUN
 heden,present,现在,NOUN
 helder,clear,清晰的,ADJ
-herstellen,recover,恢复,VERB
+herstellen,to recover,恢复,VERB
 jarig,having a birthday,过生日的,ADJ
 klacht,complaint,投诉,NOUN
 middag,afternoon,下午,NOUN
 mist,fog,雾,NOUN
 ondernemer,entrepreneur,企业家,NOUN
-ontdekken,discover,发现,VERB
-overlijden,die,去世,VERB
+ontdekken,to discover,发现,VERB
+overlijden,to die,去世,VERB
 plein,square,广场,NOUN
 professioneel,professional,专业的,ADJ
 raam,window,窗户,NOUN
 revolutie,revolution,革命,NOUN
-schieten,shoot,射击,VERB
+schieten,to shoot,射击,VERB
 smaak,taste,味道,NOUN
 star,rigid,僵硬的,ADJ
-studeren,study,学习,VERB
+studeren,to study,学习,VERB
 telkens,repeatedly,反复地,ADV
 verspreiden,to spread,传播,VERB
 vroeg,early,早的,ADJ
@@ -260,20 +260,20 @@ ergst,worst,最糟糕的,ADJ
 hemel,heaven,天堂,NOUN
 inkomen,income,收入,NOUN
 kasteel,castle,城堡,NOUN
-klagen,complain,抱怨,VERB
+klagen,to complain,抱怨,VERB
 landbouw,agriculture,农业,NOUN
 maximaal,maximum,最大的,ADJ
 ongelooflijk,incredible,难以置信的,ADJ
 ontmoeting,meeting,会面,NOUN
-overtuigen,convince,说服,VERB
+overtuigen,to convince,说服,VERB
 paniek,panic,恐慌,NOUN
 poort,gate,大门,NOUN
 principe,principle,原则,NOUN
 puur,pure,纯粹的,ADJ
-verbergen,hide,隐藏,VERB
+verbergen,to hide,隐藏,VERB
 verdieping,floor,楼层,NOUN
 beschrijving,description,描述,NOUN
-breken,break,打破,VERB
+breken,to break,打破,VERB
 buik,belly,腹部,NOUN
 cadeau,gift,礼物,NOUN
 definitief,final,最终的,ADJ
@@ -298,33 +298,33 @@ ouderen,elderly,老年人,NOUN
 passie,passion,激情,NOUN
 religie,religion,宗教,NOUN
 sneeuw,snow,雪,NOUN
-springen,jump,跳,VERB
+springen,to jump,跳,VERB
 symbool,symbol,象征,NOUN
 tekort,shortage,短缺,NOUN
 vandaar,hence,因此,ADV
 vannacht,tonight,今晚,ADV
 verdrag,treaty,条约,NOUN
-vernietigen,destroy,摧毁,VERB
+vernietigen,to destroy,摧毁,VERB
 volger,follower,追随者,NOUN
 zand,sand,沙子,NOUN
 zwak,weak,弱,ADJ
-aanbieden,offer,提供,VERB
+aanbieden,to offer,提供,VERB
 bodem,soil,土壤,NOUN
 chauffeur,driver,司机,NOUN
 Chinees,Chinese,中国人,NOUN
 conclusie,conclusion,结论,NOUN
 defensie,defense,国防,NOUN
-plannen,plan,计划,VERB
+plannen,to plan,计划,VERB
 kerst,Christmas,圣诞节,NOUN
 minst,least,最少,ADV
 pand,building,建筑物,NOUN
 plaat,plate,盘子,NOUN
-realiseren,realize,意识到,VERB
+realiseren,to realize,意识到,VERB
 sloot,ditch,沟渠,NOUN
 toekomstig,future,未来,ADJ
 traan,tear,眼泪,NOUN
 treden,step,步骤,NOUN
-verdedigen,defend,防御,VERB
+verdedigen,to defend,防御,VERB
 vet,fat,脂肪,NOUN
 vijfde,fifth,第五,ADJ
 werking,operation,运作,NOUN
@@ -342,7 +342,7 @@ klok,clock,时钟,NOUN
 maal,time,次,NOUN
 misdaad,crime,犯罪,NOUN
 onbekend,unknown,未知的,ADJ
-ontsnappen,escape,逃跑,VERB
+ontsnappen,to escape,逃跑,VERB
 oor,ear,耳朵,NOUN
 plaatje,picture,图片,NOUN
 schoonheid,beauty,美丽,NOUN
@@ -367,7 +367,7 @@ ellende,trouble,麻烦,NOUN
 haast,haste,匆忙,NOUN
 hartelijk,warmly,热情地,ADV
 intussen,meanwhile,同时,ADV
-investeren,invest,投资,VERB
+investeren,to invest,投资,VERB
 licht,light,轻的,ADJ
 loon,wage,工资,NOUN
 luxe,luxury,奢侈,NOUN
@@ -375,7 +375,7 @@ melk,milk,牛奶,NOUN
 menselijk,human,人类的,ADJ
 metro,subway,地铁,NOUN
 ofwel,either,或者,ADV
-raden,guess,猜,VERB
+raden,to guess,猜,VERB
 roman,novel,小说,NOUN
 sleutel,key,钥匙,NOUN
 specifiek,specific,特定的,ADJ
@@ -383,8 +383,8 @@ structuur,structure,结构,NOUN
 tegenstander,opponent,对手,NOUN
 uitbreiding,expansion,扩展,NOUN
 uitstekend,excellent,优秀的,ADJ
-verhuizen,move house,搬家,VERB
-verslaan,defeat,击败,VERB
+verhuizen,to move house,搬家,VERB
+verslaan,to defeat,击败,VERB
 vloer,floor,地板,NOUN
 voorzichtig,careful,小心的,ADJ
 zoektocht,search,搜寻,NOUN
@@ -408,12 +408,12 @@ publicatie,publication,出版,NOUN
 rechtstreeks,directly,直接地,ADV
 streek,region,地区,NOUN
 tante,aunt,阿姨,NOUN
-tellen,count,数,VERB
+tellen,to count,数,VERB
 typisch,typical,典型的,ADJ
-uitvoeren,execute,执行,VERB
+uitvoeren,to execute,执行,VERB
 verdediging,defense,防御,NOUN
 verdriet,sadness,悲伤,NOUN
-verschijnen,appear,出现,VERB
+verschijnen,to appear,出现,VERB
 vijand,enemy,敌人,NOUN
 Vlaams,Flemish,佛兰芒的,ADJ
 wetenschappelijk,scientific,科学的,ADJ
@@ -422,7 +422,7 @@ zelfmoord,suicide,自杀,NOUN
 blad,leaf,叶子,NOUN
 blok,block,块,NOUN
 dankbaar,grateful,感激的,ADJ
-deelnemen,participate,参与,VERB
+deelnemen,to participate,参与,VERB
 definitie,definition,定义,NOUN
 Duitser,German,德国人,NOUN
 extern,external,外部的,ADJ
@@ -457,9 +457,9 @@ automatisch,automatic,自动的,ADJ
 belasting,tax,税,NOUN
 bewaren,to keep,保存,VERB
 bijbel,Bible,圣经,NOUN
-blijken,turn out,证明是,VERB
+blijken,to turn out,证明是,VERB
 documentaire,documentary,纪录片,NOUN
-drukken,press,按,VERB
+drukken,to press,按,VERB
 fotograaf,photographer,摄影师,NOUN
 gras,grass,草,NOUN
 hoorn,horn,角,NOUN
@@ -470,10 +470,10 @@ kip,chicken,鸡,NOUN
 kruis,cross,十字架,NOUN
 leugen,lie,谎言,NOUN
 naartoe,towards,向,ADP
-onderhouden,maintain,维持,VERB
+onderhouden,to maintain,维持,VERB
 opkomst,turnout,出席率,NOUN
 opmerking,remark,评论,NOUN
-opstaan,stand up,站起来,VERB
+opstaan,to stand up,站起来,VERB
 toestel,device,设备,NOUN
 trainen,to train,训练,VERB
 verwachting,expectation,期望,NOUN
@@ -550,7 +550,7 @@ saai,boring,无聊的,ADJ
 scheiding,separation,分离,NOUN
 spiegel,mirror,镜子,NOUN
 verblijf,stay,停留,NOUN
-voegen,add,添加,VERB
+voegen,to add,添加,VERB
 voortaan,henceforth,今后,ADV
 voortdurend,continual,持续的,ADJ
 voorziening,facility,设施,NOUN
@@ -572,9 +572,9 @@ gezamenlijk,joint,共同的,ADJ
 haar,hair,头发,NOUN
 kaartje,ticket,票,NOUN
 kolonel,colonel,上校,NOUN
-letten,pay attention,注意,VERB
+letten,to pay attention,注意,VERB
 lift,elevator,电梯,NOUN
-lukken,succeed,成功,VERB
+lukken,to succeed,成功,VERB
 minimaal,minimal,最小的,ADJ
 onszelf,ourselves,我们自己,PRON
 onzeker,uncertain,不确定的,ADJ
@@ -608,7 +608,7 @@ lieverd,darling,亲爱的,NOUN
 luitenant,lieutenant,中尉,NOUN
 nep,fake,假的,ADJ
 omroep,broadcaster,广播公司,NOUN
-opsluiten,lock up,关押,VERB
+opsluiten,to lock up,关押,VERB
 pauze,break,休息,NOUN
 Pools,Polish,波兰的,ADJ
 racisme,racism,种族主义,NOUN
@@ -635,8 +635,8 @@ coalitie,coalition,联盟,NOUN
 dossier,file,档案,NOUN
 downloaden,to download,下载,VERB
 erkenning,recognition,认可,NOUN
-nomineren,nominate,提名,VERB
-produceren,produce,生产,VERB
+nomineren,to nominate,提名,VERB
+produceren,to produce,生产,VERB
 gezag,authority,权威,NOUN
 grapje,joke,玩笑,NOUN
 grondgebied,territory,领土,NOUN
@@ -649,22 +649,22 @@ stelling,statement,陈述,NOUN
 supermarkt,supermarket,超市,NOUN
 toeval,chance,巧合,NOUN
 toren,tower,塔,NOUN
-treden,step,踏,VERB
+treden,to step,踏,VERB
 vanmiddag,this afternoon,今天下午,ADV
 verbod,ban,禁令,NOUN
-verlopen,expire,过期,VERB
-vermoorden,murder,谋杀,VERB
-versterken,strengthen,加强,VERB
+verlopen,to expire,过期,VERB
+vermoorden,to murder,谋杀,VERB
+versterken,to strengthen,加强,VERB
 voertuig,vehicle,车辆,NOUN
 werkgever,employer,雇主,NOUN
-aanwijzen,designate,指定,VERB
-aanpakken,tackle,处理,VERB
+aanwijzen,to designate,指定,VERB
+aanpakken,to tackle,处理,VERB
 afloop,outcome,结果,NOUN
 ambassadeur,ambassador,大使,NOUN
 bereikbaar,reachable,可到达的,ADJ
-besteden,spend,花费,VERB
+besteden,to spend,花费,VERB
 binnenlands,domestic,国内的,ADJ
-branden,burn,燃烧,VERB
+branden,to burn,燃烧,VERB
 dijk,dike,堤坝,NOUN
 doelwit,target,目标,NOUN
 dronken,drunk,醉的,ADJ
@@ -690,7 +690,7 @@ stimuleren,to stimulate,刺激,VERB
 strategie,strategy,策略,NOUN
 uitgesproken,pronounced,明显的,ADJ
 vanzelf,by itself,自动地,ADV
-vergroten,enlarge,扩大,VERB
+vergroten,to enlarge,扩大,VERB
 afsluiten,to close,关闭,VERB
 beschadigen,to damage,损坏,VERB
 bestemming,destination,目的地,NOUN
@@ -708,20 +708,20 @@ fotografie,photography,摄影,NOUN
 gaaf,perfect,完美的,ADJ
 specialiseren,to specialize,专攻,VERB
 Hongaars,Hungarian,匈牙利的,ADJ
-informeren,inform,通知,VERB
+informeren,to inform,通知,VERB
 jurk,dress,连衣裙,NOUN
 krachtig,powerful,强大的,ADJ
-malen,grind,研磨,VERB
+malen,to grind,研磨,VERB
 mes,knife,刀,NOUN
 nood,distress,危难,NOUN
-opstellen,draw up,起草,VERB
+opstellen,to draw up,起草,VERB
 perspectief,perspective,视角,NOUN
 seconde,second,秒,NOUN
 stijging,increase,增加,NOUN
 stom,stupid,愚蠢的,ADJ
 tempo,pace,节奏,NOUN
 verscheidene,several,几个的,ADJ
-verwoesten,destroy,破坏,VERB
+verwoesten,to destroy,破坏,VERB
 vooraf,in advance,预先,ADV
 voorsprong,lead,领先,NOUN
 woede,fury,愤怒,NOUN
@@ -751,20 +751,20 @@ kritisch,critical,批判的,ADJ
 lui,lazy,懒惰的,ADJ
 Marokkaans,Moroccan,摩洛哥的,ADJ
 militair,military,军事的,ADJ
-onthouden,remember,记住,VERB
+onthouden,to remember,记住,VERB
 ontvangst,reception,接待,NOUN
-opzetten,set up,建立,VERB
+opzetten,to set up,建立,VERB
 passagier,passenger,乘客,NOUN
 pijnlijk,painful,痛苦的,ADJ
 schilderij,painting,绘画,NOUN
 signaal,signal,信号,NOUN
 sowieso,anyway,无论如何,ADV
 statistiek,statistic,统计,NOUN
-teleurstellen,disappoint,使失望,VERB
+teleurstellen,to disappoint,使失望,VERB
 veelal,often,通常,ADV
 veertig,forty,四十,NUM
 verkiezing,election,选举,NOUN
-vermoeden,suspect,怀疑,VERB
+vermoeden,to suspect,怀疑,VERB
 voorheen,formerly,以前,ADV
 weigeren,to refuse,拒绝,VERB
 weleens,sometimes,有时,ADV
@@ -780,7 +780,7 @@ genoemd,mentioned,被提及的,ADJ
 plegen,to commit,犯（罪）,VERB
 geur,smell,气味,NOUN
 graven,to dig,挖掘,VERB
-herkennen,recognize,认出,VERB
+herkennen,to recognize,认出,VERB
 kwart,quarter,四分之一,NOUN
 laden,to load,装载,VERB
 massaal,massively,大规模地,ADV
@@ -823,20 +823,20 @@ moslim,Muslim,穆斯林,NOUN
 nieuwsbrief,newsletter,简报,NOUN
 nul,zero,零,NUM
 onderneming,company,公司,NOUN
-onderscheiden,distinguish,区分,VERB
-ontbreken,be missing,缺少,VERB
+onderscheiden,to distinguish,区分,VERB
+ontbreken,to be missing,缺少,VERB
 paspoort,passport,护照,NOUN
 plat,flat,平的,ADJ
 prettig,pleasant,愉快的,ADJ
-uitkomen,come true,实现,VERB
+uitkomen,to come true,实现,VERB
 vaart,speed,速度,NOUN
 verlichting,relief,缓解,NOUN
 vers,fresh,新鲜的,ADJ
-verwerken,process,处理,VERB
+verwerken,to process,处理,VERB
 voorraad,stock,库存,NOUN
 zout,salt,盐,NOUN
 Zweeds,Swedish,瑞典的,ADJ
-aanhouden,arrest,逮捕,VERB
+aanhouden,to arrest,逮捕,VERB
 acteur,actor,演员,NOUN
 arbeid,labor,劳动,NOUN
 architectuur,architecture,建筑学,NOUN
@@ -880,30 +880,30 @@ betrokkenheid,involvement,参与,NOUN
 brandstof,fuel,燃料,NOUN
 cliënt,client,客户,NOUN
 concurrentie,competition,竞争,NOUN
-danken,thank,感谢,VERB
+danken,to thank,感谢,VERB
 discriminatie,discrimination,歧视,NOUN
 doelpunt,goal,进球,NOUN
-heten,be called,名叫,VERB
+heten,to be called,名叫,VERB
 kampioenschap,championship,锦标赛,NOUN
 maagd,virgin,处女,NOUN
-ontvoeren,kidnap,绑架,VERB
-opheffen,abolish,废除,VERB
+ontvoeren,to kidnap,绑架,VERB
+opheffen,to abolish,废除,VERB
 origineel,original,原创的,ADJ
 overgang,transition,过渡,NOUN
 schatting,estimate,估计,NOUN
 stabiel,stable,稳定的,ADJ
 talloos,countless,无数的,ADJ
 traject,trajectory,轨迹,NOUN
-uitmaken,matter,要紧,VERB
+uitmaken,to matter,要紧,VERB
 uitnodiging,invitation,邀请,NOUN
-verkrijgen,obtain,获得,VERB
+verkrijgen,to obtain,获得,VERB
 verrassend,surprising,令人惊讶的,ADJ
 verstandig,wise,明智的,ADJ
 voorafgaand,prior,先前的,ADJ
 voorjaar,spring,春天,NOUN
 wandeling,walk,散步,NOUN
-wisselen,switch,交换,VERB
-aankondigen,announce,宣布,VERB
+wisselen,to switch,交换,VERB
+aankondigen,to announce,宣布,VERB
 abonnement,subscription,订阅,NOUN
 beslissen,to decide,决定,VERB
 bezetting,occupation,占领,NOUN
@@ -959,16 +959,16 @@ priester,priest,牧师,NOUN
 samengesteld,composed,组成的,ADJ
 schermen,fencing,击剑,NOUN
 schrijfster,writer,女作家,NOUN
-scoren,score,得分,VERB
+scoren,to score,得分,VERB
 tegemoet,towards,迎向,ADV
 telefoons,telephones,电话,NOUN
-terugkeren,return,返回,VERB
+terugkeren,to return,返回,VERB
 toenemende,increasing,增加的,ADJ
 toerisme,tourism,旅游业,NOUN
 traditioneel,traditional,传统的,ADJ
 uitgeschakeld,disabled,关闭的,ADJ
 universiteiten,universities,大学,NOUN
-verblijven,stay,逗留,VERB
+verblijven,to stay,逗留,VERB
 voortgezet,continued,继续的,ADJ
 zachte,soft,柔软的,ADJ
 zilveren,silver,银色的,ADJ
@@ -1020,7 +1020,7 @@ brein,brain,大脑,NOUN
 desondanks,despite,尽管如此,ADV
 doorgaans,usually,通常,ADV
 gemak,ease,便利,NOUN
-haten,hate,恨,VERB
+haten,to hate,恨,VERB
 kloppen,to be correct,正确,VERB
 klus,job,活儿,NOUN
 lading,load,装载量,NOUN
