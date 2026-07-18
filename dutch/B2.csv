@@ -7,7 +7,6 @@ korting,discount,折扣,NOUN
 laag,layer,层,NOUN
 meedoen,to participate,参加,VERB
 meester,master,大师,NOUN
-mogen,to be allowed,可以,AUX
 praktijk,practice,实践,NOUN
 sindsdien,since then,此后,ADV
 straf,punishment,惩罚,NOUN
@@ -15,12 +14,10 @@ testen,to test,测试,VERB
 toevallig,by chance,偶然地,ADV
 trouw,faithful,忠诚的,ADJ
 vermist,missing,失踪的,ADJ
-arm,poor,贫穷的,ADJ
 bezorgd,concerned,担心的,ADJ
 breed,wide,宽的,ADJ
 cel,cell,细胞,NOUN
 duizend,thousand,千,NUM
-enig,any,任何,ADJ
 evenals,as well as,以及,SCONJ
 gemiddeld,average,平均的,ADJ
 geschikt,suitable,合适的,ADJ
@@ -31,7 +28,6 @@ ontslag,dismissal,解雇,NOUN
 ploeg,team,团队,NOUN
 regel,rule,规则,NOUN
 regelen,to arrange,安排,VERB
-rijk,rich,富有的,ADJ
 ster,star,星星,NOUN
 stoel,chair,椅子,NOUN
 vluchten,to flee,逃跑,VERB
@@ -125,7 +121,6 @@ patiënt,patient,病人,NOUN
 stilte,silence,沉默,NOUN
 toernooi,tournament,锦标赛,NOUN
 traditie,tradition,传统,NOUN
-uitgebreid,extensive,广泛的,ADJ
 vanmorgen,this morning,今天上午,ADV
 voorlopig,provisional,暂时的,ADJ
 wezen,to be,是,AUX
@@ -136,7 +131,6 @@ café,cafe,咖啡馆,NOUN
 congres,congress,大会,NOUN
 dertig,thirty,三十,NUM
 dubbel,double,双倍的,ADJ
-eerder,earlier,更早的,ADV
 enthousiast,enthusiastic,热情的,ADJ
 gedachte,thought,想法,NOUN
 heden,present,现在,NOUN
@@ -159,7 +153,6 @@ star,rigid,僵硬的,ADJ
 studeren,study,学习,VERB
 telkens,repeatedly,反复地,ADV
 verspreiden,to spread,传播,VERB
-volgend,next,下一个,ADJ
 vroeg,early,早的,ADJ
 zicht,view,视野,NOUN
 beslist,definitely,绝对,ADV
@@ -274,13 +267,11 @@ ongelooflijk,incredible,难以置信的,ADJ
 ontmoeting,meeting,会面,NOUN
 overtuigen,convince,说服,VERB
 paniek,panic,恐慌,NOUN
-plaatsen,place,放置,VERB
 poort,gate,大门,NOUN
 principe,principle,原则,NOUN
 puur,pure,纯粹的,ADJ
 verbergen,hide,隐藏,VERB
 verdieping,floor,楼层,NOUN
-bedoelen,mean,意指,VERB
 beschrijving,description,描述,NOUN
 breken,break,打破,VERB
 buik,belly,腹部,NOUN
@@ -325,7 +316,6 @@ conclusie,conclusion,结论,NOUN
 defensie,defense,国防,NOUN
 plannen,plan,计划,VERB
 kerst,Christmas,圣诞节,NOUN
-leven,live,生活,VERB
 minst,least,最少,ADV
 pand,building,建筑物,NOUN
 plaat,plate,盘子,NOUN
@@ -346,7 +336,6 @@ bord,plate,盘子,NOUN
 docent,lecturer,讲师,NOUN
 ei,egg,鸡蛋,NOUN
 gauw,soon,很快,ADV
-vormen,form,形成,VERB
 goedkoop,cheap,便宜的,ADJ
 kaas,cheese,奶酪,NOUN
 klok,clock,时钟,NOUN
@@ -406,8 +395,6 @@ beperkt,limited,有限的,ADJ
 btw,VAT,增值税,NOUN
 elftal,team,球队,NOUN
 filmpje,video,视频,NOUN
-jongere,younger person,年轻人,NOUN
-laat,late,迟的,ADJ
 methode,method,方法,NOUN
 middelbaar,secondary,中等教育的,ADJ
 misbruik,abuse,滥用,NOUN
@@ -497,7 +484,6 @@ beurs,stock exchange,证券交易所,NOUN
 bezorgen,to deliver,递送,VERB
 creatief,creative,有创造力的,ADJ
 file,traffic jam,交通堵塞,NOUN
-delen,to share,分享,VERB
 geldig,valid,有效的,ADJ
 hel,hell,地狱,NOUN
 medaille,medal,奖牌,NOUN
@@ -522,7 +508,6 @@ bereik,range,范围,NOUN
 degenen,those,那些人,PRON
 gemeenteraad,city council,市议会,NOUN
 inkomsten,income,收入,NOUN
-Japans,Japanese,日本的,ADJ
 kijkje,look,看一眼,NOUN
 lijf,body,身体,NOUN
 militair,soldier,军人,NOUN
@@ -611,7 +596,6 @@ daarover,about that,关于那个,ADV
 dader,perpetrator,肇事者,NOUN
 diner,dinner,晚餐,NOUN
 drank,drink,饮料,NOUN
-nederlands,Dutch,荷兰语,NOUN
 erachter,behind it,在它后面,ADV
 es,ash,白蜡树,NOUN
 fles,bottle,瓶子,NOUN
@@ -631,7 +615,6 @@ racisme,racism,种族主义,NOUN
 ras,race,种族,NOUN
 reiziger,traveler,旅行者,NOUN
 resolutie,resolution,决议,NOUN
-weg,road,道路,NOUN
 schande,shame,耻辱,NOUN
 schreeuwen,to shout,喊叫,VERB
 taart,cake,蛋糕,NOUN
@@ -660,7 +643,6 @@ grondgebied,territory,领土,NOUN
 hierboven,above,在上面,ADV
 hoogtepunt,highlight,亮点,NOUN
 jaloers,jealous,嫉妒的,ADJ
-ontwerpen,design,设计,VERB
 opzet,purpose,目的,NOUN
 Rus,Russian,俄罗斯人,NOUN
 stelling,statement,陈述,NOUN
@@ -686,7 +668,6 @@ branden,burn,燃烧,VERB
 dijk,dike,堤坝,NOUN
 doelwit,target,目标,NOUN
 dronken,drunk,醉的,ADJ
-druk,busy,忙碌的,ADJ
 gevoelig,sensitive,敏感的,ADJ
 gezeten,seated,坐着的,ADJ
 glimlach,smile,微笑,NOUN
@@ -749,7 +730,6 @@ aanleg,predisposition,天赋,NOUN
 aanzienlijk,considerable,相当大的,ADJ
 achternaam,surname,姓氏,NOUN
 ambtenaar,civil servant,公务员,NOUN
-as,axis,轴,NOUN
 behoud,conservation,保护,NOUN
 beschikking,order,命令,NOUN
 besluiten,to decide,决定,VERB
@@ -934,7 +914,6 @@ dichterbij,closer,更近,ADV
 eraf,off,离开,ADV
 favoriet,favorite,最爱,NOUN
 gebeurtenis,event,事件,NOUN
-stemmen,to vote,投票,VERB
 goedkeuren,to approve,批准,VERB
 idioot,idiot,白痴,NOUN
 keizer,emperor,皇帝,NOUN
@@ -990,13 +969,11 @@ traditioneel,traditional,传统的,ADJ
 uitgeschakeld,disabled,关闭的,ADJ
 universiteiten,universities,大学,NOUN
 verblijven,stay,逗留,VERB
-verlaten,to leave,离开,VERB
 voortgezet,continued,继续的,ADJ
 zachte,soft,柔软的,ADJ
 zilveren,silver,银色的,ADJ
 aanbieding,offer,优惠,NOUN
 apparatuur,equipment,设备,NOUN
-bepalen,to determine,决定,VERB
 beperkingen,limits,限制,NOUN
 bestrijden,to combat,打击,VERB
 bevorderen,to promote,促进,VERB
@@ -1030,7 +1007,6 @@ tocht,trip,旅行,NOUN
 uitroepen,to proclaim,宣布,VERB
 verloop,course,过程,NOUN
 wassen,to wash,洗,VERB
-wensen,to wish,希望,VERB
 zesde,sixth,第六,ADJ
 zuidoosten,southeast,东南,NOUN
 aanzien,prestige,声望,NOUN
