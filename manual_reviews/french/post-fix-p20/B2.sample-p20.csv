@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1237,protectionnisme,protectionism,保护主义,NOUN,fr,B2,1,keep,clean
-1630,son,his,他的,DET,fr,B2,2,keep,clean
-437,dispute,argument,争论,NOUN,fr,B2,3,keep,clean
-928,magistrat,magistrate,法官,NOUN,fr,B2,4,keep,clean
-1173,planter,to plant,种植,VERB,fr,B2,5,keep,clean
-343,considérablement,considerably,相当地,ADV,fr,B2,6,keep,clean
-1539,selon,according to,根据,ADP,fr,B2,7,keep,clean
-242,chirurgie,surgery,外科,NOUN,fr,B2,8,keep,clean
-488,déflation,deflation,通货紧缩,NOUN,fr,B2,9,keep,clean
-251,ciblage,targeting,定位,NOUN,fr,B2,10,keep,clean
-156,banquier,banker,银行家,NOUN,fr,B2,11,keep,clean
-1542,semblant,pretense,假装,NOUN,fr,B2,12,keep,clean
-136,autrui,others,他人,PRON,fr,B2,13,keep,clean
-1263,prévention,prevention,预防,NOUN,fr,B2,14,keep,clean
-764,hiérarchisation,ranking,分级,NOUN,fr,B2,15,keep,clean
-1526,seau,bucket,桶,NOUN,fr,B2,16,keep,clean
-780,hélas,alas,唉,INTJ,fr,B2,17,keep,clean
-311,compteur,meter,计数器,NOUN,fr,B2,18,keep,clean
-513,dépendant,dependent,依赖的,ADJ,fr,B2,19,keep,clean
-1573,si,if,如果,SCONJ,fr,B2,20,keep,clean
-322,concussion,embezzlement,贪污,NOUN,fr,B2,21,keep,clean
-254,cinquantaine,about fifty,五十左右,NOUN,fr,B2,22,keep,clean
-1613,soixante,sixty,六十,NUM,fr,B2,23,keep,clean
-465,débarrasser,to get rid of,清除,VERB,fr,B2,24,keep,clean
+136,autrui,others,他人,PRON,fr,B2,1,keep,clean
+811,incontestablement,incontestably,无可争议地,ADV,fr,B2,2,keep,clean
+1383,réception,reception,接待,NOUN,fr,B2,3,keep,clean
+925,législation,legislation,立法,NOUN,fr,B2,4,keep,clean
+62,amical,friendly,友好的,ADJ,fr,B2,5,keep,clean
+329,conformité,compliance,合规,NOUN,fr,B2,6,keep,clean
+780,hélas,alas,唉,INTJ,fr,B2,7,keep,clean
+80,aperçu,overview,概览,NOUN,fr,B2,8,keep,clean
+1295,quoique,although,虽然,SCONJ,fr,B2,9,keep,clean
+1172,planification,planning,规划,NOUN,fr,B2,10,keep,clean
+906,livret,booklet,小册子,NOUN,fr,B2,11,keep,clean
+490,dégager,to clear,清理,VERB,fr,B2,12,keep,clean
+1501,sauf,except,除了,ADP,fr,B2,13,keep,clean
+1031,métissage,mixing,混血,NOUN,fr,B2,14,keep,clean
+761,historien,historian,历史学家,NOUN,fr,B2,15,keep,clean
+1613,soixante,sixty,六十,NUM,fr,B2,16,keep,clean
+1630,son,his,他的,DET,fr,B2,17,keep,clean
+94,archevêque,archbishop,大主教,NOUN,fr,B2,18,keep,clean
+1062,nouveauté,novelty,新奇事物,NOUN,fr,B2,19,keep,clean
+61,amendement,amendment,修正案,NOUN,fr,B2,20,keep,clean
+148,bagage,luggage,行李,NOUN,fr,B2,21,keep,clean
+1194,porc,pork,猪肉,NOUN,fr,B2,22,keep,clean
+1140,percer,to pierce,刺穿,VERB,fr,B2,23,keep,clean
+1202,pourvoi,appeal,上诉,NOUN,fr,B2,24,keep,clean

@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-167,declaración,statement,声明,NOUN,es,A2,1,keep,clean
-308,inmediatamente,immediately,立即,ADV,es,A2,2,keep,clean
-17,ambulancia,ambulance,救护车,NOUN,es,A2,3,keep,clean
-465,regla,rule,规则,NOUN,es,A2,4,keep,clean
-204,e,and,和,CCONJ,es,A2,5,keep,clean
-223,entrada,entrance,入口,NOUN,es,A2,6,keep,clean
-491,salud,health,健康,NOUN,es,A2,7,keep,clean
-190,disculpa,apology,道歉,NOUN,es,A2,8,keep,clean
-229,escena,scene,场景,NOUN,es,A2,9,keep,clean
-236,espectáculo,show,表演,NOUN,es,A2,10,keep,clean
-391,operación,operation,手术,NOUN,es,A2,11,keep,clean
-18,amenaza,threat,威胁,NOUN,es,A2,12,keep,clean
-460,queso,cheese,奶酪,NOUN,es,A2,13,keep,clean
-312,intención,intention,意图,NOUN,es,A2,14,keep,clean
-485,rostro,face,脸,NOUN,es,A2,15,keep,clean
-231,escribir,to write,写,VERB,es,A2,16,keep,clean
-299,ilegal,illegal,非法的,ADJ,es,A2,17,keep,clean
-518,suyo,his/hers/theirs,他的/她的/他们的,PRON,es,A2,18,keep,clean
-101,ciento,hundred,百,NUM,es,A2,19,keep,clean
-484,romper,to break,打破,VERB,es,A2,20,keep,clean
-533,toque,touch,触碰,NOUN,es,A2,21,keep,clean
-267,fiscal,prosecutor,检察官,NOUN,es,A2,22,keep,clean
-575,vuestro,your,你们的,DET,es,A2,23,keep,clean
-432,polvo,dust,灰尘,NOUN,es,A2,24,keep,clean
+524,taza,cup,杯子,NOUN,es,A2,1,keep,clean
+17,ambulancia,ambulance,救护车,NOUN,es,A2,2,keep,clean
+346,mando,remote control,遥控器,NOUN,es,A2,3,keep,clean
+190,disculpa,apology,道歉,NOUN,es,A2,4,keep,clean
+446,probar,to try,尝试,VERB,es,A2,5,keep,clean
+105,claramente,clearly,清楚地,ADV,es,A2,6,keep,clean
+247,estupendo,wonderful,极好的,ADJ,es,A2,7,keep,clean
+99,cien,hundred,百,NUM,es,A2,8,keep,clean
+158,curiosidad,curiosity,好奇心,NOUN,es,A2,9,keep,clean
+204,e,and,和,CCONJ,es,A2,10,keep,clean
+506,solución,solution,解决方案,NOUN,es,A2,11,keep,clean
+53,bebida,drink,饮料,NOUN,es,A2,12,keep,clean
+457,página,page,页,NOUN,es,A2,13,keep,clean
+116,comienzo,beginning,开始,NOUN,es,A2,14,keep,clean
+518,suyo,his/hers/theirs,他的/她的/他们的,PRON,es,A2,15,keep,clean
+95,cerveza,beer,啤酒,NOUN,es,A2,16,keep,clean
+567,viento,wind,风,NOUN,es,A2,17,keep,clean
+9,acusado,defendant,被告,NOUN,es,A2,18,keep,clean
+28,aquel,that,那个,DET,es,A2,19,keep,clean
+451,propiedad,property,财产,NOUN,es,A2,20,keep,clean
+419,piedra,stone,石头,NOUN,es,A2,21,keep,clean
+218,enfermedad,illness,疾病,NOUN,es,A2,22,keep,clean
+540,tripulación,crew,船员,NOUN,es,A2,23,keep,clean
+135,continuar,to continue,继续,VERB,es,A2,24,keep,clean

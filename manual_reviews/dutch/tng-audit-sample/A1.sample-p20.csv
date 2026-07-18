@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-173,vandaag,today,今天,ADV,nl,A1,1,keep,clean
-329,einde,end,结束,NOUN,nl,A1,2,keep,clean
-82,echt,real,真的,ADJ,nl,A1,3,keep,clean
-227,groep,group,组,NOUN,nl,A1,4,keep,clean
-386,provincie,province,省,NOUN,nl,A1,5,keep,clean
-304,beginnen,to start,开始,VERB,nl,A1,6,keep,clean
-109,net,just,刚刚,ADV,nl,A1,7,keep,clean
-330,kamer,room,房间,NOUN,nl,A1,8,keep,clean
-353,stuk,piece,块,NOUN,nl,A1,9,keep,clean
-244,pas,only just,刚刚,ADV,nl,A1,10,keep,clean
-120,willen,to want,想要,VERB,nl,A1,11,keep,clean
-47,hebben,to have,有,AUX,nl,A1,12,keep,clean
-24,ze,they,他们,PRON,nl,A1,13,keep,clean
-211,enkele,some,一些,DET,nl,A1,14,keep,clean
-157,zeker,certainly,当然,ADV,nl,A1,15,keep,clean
-264,vijf,five,五,NUM,nl,A1,16,keep,clean
-149,want,because,因为,CCONJ,nl,A1,17,keep,clean
-241,zorgen,to ensure,确保,VERB,nl,A1,18,keep,clean
-93,zoals,as,像,SCONJ,nl,A1,19,keep,clean
-13,te,to,去,PART,nl,A1,20,keep,clean
-140,deel,part,部分,NOUN,nl,A1,21,keep,clean
-103,ja,yes,是,INTJ,nl,A1,22,keep,clean
-161,volgens,according to,根据,ADP,nl,A1,23,keep,clean
+85,heel,very,非常,ADV,nl,A1,1,keep,clean
+359,lichaam,body,身体,NOUN,nl,A1,2,keep,clean
+190,nemen,to take,拿,VERB,nl,A1,3,keep,clean
+243,informatie,information,信息,NOUN,nl,A1,4,keep,clean
+13,te,to,去,PART,nl,A1,5,keep,clean
+249,soort,kind,种类,NOUN,nl,A1,6,keep,clean
+195,zo'n,such a,这样的,DET,nl,A1,7,keep,clean
+308,o,oh,哦,INTJ,nl,A1,8,keep,clean
+117,steeds,still,仍然,ADV,nl,A1,9,keep,clean
+294,maand,month,月,NOUN,nl,A1,10,keep,clean
+196,bijna,almost,几乎,ADV,nl,A1,11,keep,clean
+19,maar,but,但是,CCONJ,nl,A1,12,keep,clean
+378,verenigen,to unite,联合,VERB,nl,A1,13,keep,clean
+96,omdat,because,因为,SCONJ,nl,A1,14,keep,clean
+223,nou,well,好了,ADV,nl,A1,15,keep,clean
+160,verschillend,different,不同的,ADJ,nl,A1,16,keep,clean
+3,van,of,的,ADP,nl,A1,17,keep,clean
+364,zes,six,六,NUM,nl,A1,18,keep,clean
+304,beginnen,to start,开始,VERB,nl,A1,19,keep,clean
+53,moeten,must,必须,AUX,nl,A1,20,keep,clean
+78,jij,you,你,PRON,nl,A1,21,keep,clean
+339,reden,reason,原因,NOUN,nl,A1,22,keep,clean
+316,partij,party,政党,NOUN,nl,A1,23,keep,clean

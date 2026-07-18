@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1210,Mo,Mon,星期一,NOUN,de,C1,1,keep,clean
-1331,Posten,post,岗位,NOUN,de,C1,2,keep,clean
-943,Kai,quay,码头,NOUN,de,C1,3,keep,clean
-1966,sein,to be,是,VERB,de,C1,4,keep,clean
-1119,Lippenbekenntnis,lip service,口惠,NOUN,de,C1,5,keep,clean
-1653,Umarmung,hug,拥抱,NOUN,de,C1,6,keep,clean
-1518,sobald,as soon as,一...就,SCONJ,de,C1,7,keep,clean
-834,hilflos,helpless,无助的,ADJ,de,C1,8,keep,clean
-375,deins,yours,你的,PRON,de,C1,9,keep,clean
-1532,soviel,so much,那么多,DET,de,C1,10,keep,clean
-345,Charme,charm,魅力,NOUN,de,C1,11,keep,clean
-1148,Makel,blemish,瑕疵,NOUN,de,C1,12,keep,clean
-1563,Stecker,plug,插头,NOUN,de,C1,13,keep,clean
-1940,zweitens,secondly,其次,ADV,de,C1,14,keep,clean
-1311,Pfannkuchen,pancake,煎饼,NOUN,de,C1,15,keep,clean
-312,Birne,pear,梨,NOUN,de,C1,16,keep,clean
-50,anfassen,to touch,触摸,VERB,de,C1,17,keep,clean
-993,Klassiker,classic,经典作品,NOUN,de,C1,18,keep,clean
-1246,namens,named,名为,ADP,de,C1,19,keep,clean
-867,haben,have,有,AUX,de,C1,20,keep,clean
-363,danke,thank you,谢谢,INTJ,de,C1,21,keep,clean
-1018,Kollision,collision,碰撞,NOUN,de,C1,22,keep,clean
-1938,zwei,two,二,NUM,de,C1,23,keep,clean
-1259,nicht,not,不,PART,de,C1,24,keep,clean
+1148,Makel,blemish,瑕疵,NOUN,de,C1,1,keep,clean
+1150,mancher,some,一些,DET,de,C1,2,keep,clean
+1521,solange,as long as,只要,SCONJ,de,C1,3,keep,clean
+1001,Klinkenstöpsel,jack plug,插头,NOUN,de,C1,4,keep,clean
+1459,schlucken,swallow,吞咽,VERB,de,C1,5,keep,clean
+1013,Koalition,coalition,联盟,NOUN,de,C1,6,keep,clean
+1904,Ziel,target,目标,NOUN,de,C1,7,keep,clean
+215,beides,both,两者,PRON,de,C1,8,keep,clean
+103,Assistent,assistant,助手,NOUN,de,C1,9,keep,clean
+1190,Ministerium,ministry,部,NOUN,de,C1,10,keep,clean
+1477,schulden,owe,欠,VERB,de,C1,11,keep,clean
+362,Dankbarkeit,gratitude,感激,NOUN,de,C1,12,keep,clean
+867,haben,have,有,AUX,de,C1,13,keep,clean
+1486,schwülstig,bombastic,浮夸的,ADJ,de,C1,14,keep,clean
+556,Falte,wrinkle,皱纹,NOUN,de,C1,15,keep,clean
+653,Gegenstand,object,物体,NOUN,de,C1,16,keep,clean
+1452,Schiss,shit,恐惧,NOUN,de,C1,17,keep,clean
+1605,tausend,thousand,千,NUM,de,C1,18,keep,clean
+1259,nicht,not,不,PART,de,C1,19,keep,clean
+65,angesichts,in view of,鉴于,ADP,de,C1,20,keep,clean
+1268,Nonne,nun,修女,NOUN,de,C1,21,keep,clean
+1402,Rohr,pipe,管子,NOUN,de,C1,22,keep,clean
+1208,mm,hmm,嗯,INTJ,de,C1,23,keep,clean
+464,einst,once,曾经,ADV,de,C1,24,keep,clean

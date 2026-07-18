@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-3339,transfert,transfer,转移,NOUN,fr,C1,1,keep,clean
-1850,martyre,martyrdom,殉难,NOUN,fr,C1,2,keep,clean
-2403,préambule,preamble,序言,NOUN,fr,C1,3,keep,clean
-3428,typologie,typology,类型学,NOUN,fr,C1,4,keep,clean
-2881,sollicitude,solicitude,关怀,NOUN,fr,C1,5,keep,clean
-2200,perfidie,perfidy,背信弃义,NOUN,fr,C1,6,keep,clean
-2398,provisoirement,provisionally,临时地,ADV,fr,C1,7,keep,clean
-3436,téléologie,teleology,目的论,NOUN,fr,C1,8,keep,clean
-3301,tout,all,全部；一切,PRON,fr,C1,9,keep,clean
-3385,trois,three,三,NUM,fr,C1,10,keep,clean
-258,arithmétique,arithmetic,算术,NOUN,fr,C1,11,keep,clean
-396,bilan,balance sheet,资产负债表,NOUN,fr,C1,12,keep,clean
-2702,réclusion,imprisonment,监禁,NOUN,fr,C1,13,keep,clean
-455,bucolique,bucolic,田园的,ADJ,fr,C1,14,keep,clean
-3424,tuyau,pipe,管道,NOUN,fr,C1,15,keep,clean
-1048,détachement,detachment,超然,NOUN,fr,C1,16,keep,clean
-53,admissible,admissible / eligible,可接受的 / 合格的,ADJ,fr,C1,17,keep,clean
-3274,tordre,to twist,扭曲,VERB,fr,C1,18,keep,clean
-245,arbitre,referee,裁判,NOUN,fr,C1,19,keep,clean
-1160,excepté,except,除...外,ADP,fr,C1,20,keep,clean
+2359,profane,layperson,外行,NOUN,fr,C1,1,keep,clean
+2638,requérir,to require,要求,VERB,fr,C1,2,keep,clean
+2073,opacité,opacity,不透明性,NOUN,fr,C1,3,keep,clean
+1433,homélie,homily,布道,NOUN,fr,C1,4,keep,clean
+103,algèbre,algebra,代数,NOUN,fr,C1,5,keep,clean
+925,déboire,setback,挫折,NOUN,fr,C1,6,keep,clean
+543,chandelle,candle,蜡烛,NOUN,fr,C1,7,keep,clean
+255,argot,slang,俚语,NOUN,fr,C1,8,keep,clean
+2681,royauté,royalty,王权,NOUN,fr,C1,9,keep,clean
+1534,incarcération,incarceration,监禁,NOUN,fr,C1,10,keep,clean
+3385,trois,three,三,NUM,fr,C1,11,keep,clean
+799,culminant,culminating,达到顶点的,ADJ,fr,C1,12,keep,clean
+217,apogée,apogee,顶点,NOUN,fr,C1,13,keep,clean
+1870,mesquinerie,pettiness,小气,NOUN,fr,C1,14,keep,clean
+1514,implicitement,implicitly,含蓄地,ADV,fr,C1,15,keep,clean
+3301,tout,all,全部；一切,PRON,fr,C1,16,keep,clean
+1160,excepté,except,除...外,ADP,fr,C1,17,keep,clean
+3479,usine,factory,工厂,NOUN,fr,C1,18,keep,clean
+717,convenable,suitable,合适的,ADJ,fr,C1,19,keep,clean
+1958,médiéval,medieval,中世纪的,ADJ,fr,C1,20,keep,clean
 3458,une,one,一,DET,fr,C1,21,keep,clean
-1842,maquis,scrubland,灌木丛,NOUN,fr,C1,22,keep,clean
-1253,fléau,scourge,灾祸,NOUN,fr,C1,23,keep,clean
-1098,empirique,empirical,经验主义的,ADJ,fr,C1,24,keep,clean
+3438,téléphonie,telephony,电话学,NOUN,fr,C1,22,keep,clean
+501,caprice,whim,任性,NOUN,fr,C1,23,keep,clean
+1059,détresse,distress,危难,NOUN,fr,C1,24,keep,clean

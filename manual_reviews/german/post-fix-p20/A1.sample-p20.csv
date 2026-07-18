@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-392,genau,exactly,精确地,ADV,de,A1,1,keep,clean
-95,Fall,case,情况,NOUN,de,A1,2,keep,clean
-547,ordnen,to organize,整理,VERB,de,A1,3,keep,clean
-539,Leinen,linen,线麻,NOUN,de,A1,4,keep,clean
-369,zehn,ten,十,NUM,de,A1,5,keep,clean
-512,Zahnpasta,toothpaste,牙膏,NOUN,de,A1,6,keep,clean
-204,Mal,time,次,NOUN,de,A1,7,keep,clean
-198,Leute,people,人们,NOUN,de,A1,8,keep,clean
-299,Straße,street,街道,NOUN,de,A1,9,keep,clean
-458,Opa,grandpa,爷爷,NOUN,de,A1,10,keep,clean
-276,Seite,page,页,NOUN,de,A1,11,keep,clean
-209,mein,my,我的,DET,de,A1,12,keep,clean
-230,nicht,not,不,PART,de,A1,13,keep,clean
-394,Essen,food,食物,NOUN,de,A1,14,keep,clean
-199,Liebe,love,爱,NOUN,de,A1,15,keep,clean
-239,oder,or,或者,CCONJ,de,A1,16,keep,clean
-175,können,can,能够,AUX,de,A1,17,keep,clean
-346,weil,because,因为,SCONJ,de,A1,18,keep,clean
-500,ach,oh,啊,INTJ,de,A1,19,keep,clean
-280,Sie,you (formal),您,PRON,de,A1,20,keep,clean
-232,nie,never,从不,ADV,de,A1,21,keep,clean
-155,hoch,high,高,ADJ,de,A1,22,keep,clean
-154,hinter,behind,在...后面,ADP,de,A1,23,keep,clean
-330,vielleicht,maybe,也许,ADV,de,A1,24,keep,clean
+401,Leben,life,生活,NOUN,de,A1,1,keep,clean
+230,nicht,not,不,PART,de,A1,2,keep,clean
+233,niemand,nobody,没有人,PRON,de,A1,3,keep,clean
+175,können,can,能够,AUX,de,A1,4,keep,clean
+213,Mist,crap,垃圾/废话,NOUN,de,A1,5,keep,clean
+205,Mama,mom,妈妈,NOUN,de,A1,6,keep,clean
+286,sondern,but rather,而是,CCONJ,de,A1,7,keep,clean
+28,beide,both,两者都,DET,de,A1,8,keep,clean
+303,Team,team,团队,NOUN,de,A1,9,keep,clean
+99,fast,almost,几乎,ADV,de,A1,10,keep,clean
+3,Abend,evening,晚上,NOUN,de,A1,11,keep,clean
+201,lieber,preferably,更愿意,ADV,de,A1,12,keep,clean
+316,Uhr,clock,钟表,NOUN,de,A1,13,keep,clean
+512,Zahnpasta,toothpaste,牙膏,NOUN,de,A1,14,keep,clean
+514,achso,oh I see,啊，原来,INTJ,de,A1,15,keep,clean
+71,drei,three,三,NUM,de,A1,16,keep,clean
+57,dass,that,（引导从句）,SCONJ,de,A1,17,keep,clean
+126,sagen,to say,说,VERB,de,A1,18,keep,clean
+533,Dackel,dachshund,腊肠犬,NOUN,de,A1,19,keep,clean
+442,windig,windy,有风的,ADJ,de,A1,20,keep,clean
+56,darum,therefore,因此,ADV,de,A1,21,keep,clean
+212,Mensch,person,人,NOUN,de,A1,22,keep,clean
+480,Schwiegervater,father-in-law,岳父/公公,NOUN,de,A1,23,keep,clean
+317,um,around,周围,ADP,de,A1,24,keep,clean

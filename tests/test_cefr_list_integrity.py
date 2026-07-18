@@ -82,7 +82,7 @@ def test_dialect_inventory_drops_absent_from_arabic_lists() -> None:
 
 
 def test_skeptic_maghrebi_residuals_absent() -> None:
-    """Named skeptic hits must be covered by inventory application."""
+    """Named skeptic hits + Maghrebi loan/numeral class must be gone."""
     must_absent = {
         "راه",
         "بلاتي",
@@ -95,6 +95,17 @@ def test_skeptic_maghrebi_residuals_absent() -> None:
         "نيت",
         "يالله",
         "دراري",
+        "بارطما",
+        "كراج",
+        "دوش",
+        "كراء",
+        "جيعان",
+        "تلاتة",
+        "تلاتين",
+        "جوج",
+        "بوليس",
+        "كبطان",
+        "كِبْطَان",
     }
     for level in LEVELS:
         rows = _rows("arabic", level)
@@ -104,6 +115,31 @@ def test_skeptic_maghrebi_residuals_absent() -> None:
         for lem in must_absent:
             assert lem not in present, (level, lem)
             assert _strip_ar_diacritics(lem) not in present_s, (level, lem)
+
+
+def test_arabic_wrong_glosses_fixed() -> None:
+    rows = _rows("arabic", "A2")
+    lk = _lemma_key(rows[0])
+    illa = next(r for r in rows if (r.get(lk) or "").strip() == "إلا")
+    assert (illa.get("English_Lemma") or "").strip().lower() != "if"
+    assert "except" in (illa.get("English_Lemma") or "").lower() or "unless" in (
+        illa.get("English_Lemma") or ""
+    ).lower()
+    yani = next(r for r in rows if (r.get(lk) or "").strip() == "يعني")
+    assert yani.get("POS") == "VERB"
+    assert "I mean" not in (yani.get("English_Lemma") or "")
+
+    rows = _rows("arabic", "C1")
+    lk = _lemma_key(rows[0])
+    takyif = next(r for r in rows if (r.get(lk) or "").strip() == "تكييف")
+    assert "qualification" not in (takyif.get("English_Lemma") or "").lower()
+    bas = next(r for r in rows if (r.get(lk) or "").strip() == "بأس")
+    assert (bas.get("English_Lemma") or "").strip().lower() != "might"
+
+    rows = _rows("arabic", "B1")
+    lk = _lemma_key(rows[0])
+    qada = next(r for r in rows if (r.get(lk) or "").strip() == "قضى")
+    assert "errand" not in (qada.get("English_Lemma") or "").lower()
 
 
 def test_german_wart_and_dutch_contracten_fixed() -> None:

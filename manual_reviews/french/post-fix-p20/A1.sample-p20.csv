@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-262,endroit,place,地方,NOUN,fr,A1,1,keep,clean
-175,conte,tale,故事,NOUN,fr,A1,2,keep,clean
-431,jusque,until,直到,ADP,fr,A1,3,keep,clean
-343,fêter,to celebrate,庆祝,VERB,fr,A1,4,keep,clean
-52,banane,banana,香蕉,NOUN,fr,A1,5,keep,clean
-501,moitié,half,一半,NOUN,fr,A1,6,keep,clean
-230,dix,ten,十,NUM,fr,A1,7,keep,clean
-104,car,because,因为,CCONJ,fr,A1,8,keep,clean
-202,cœur,heart,心,NOUN,fr,A1,9,keep,clean
-328,forêt,forest,森林,NOUN,fr,A1,10,keep,clean
-373,guider,to guide,引导,VERB,fr,A1,11,keep,clean
-105,carbone,carbon,碳,NOUN,fr,A1,12,keep,clean
-349,garçon,boy,男孩,NOUN,fr,A1,13,keep,clean
-461,mal,badly,坏,ADV,fr,A1,14,keep,clean
-456,ma,my,我的,DET,fr,A1,15,keep,clean
-397,humour,humor,幽默,NOUN,fr,A1,16,keep,clean
-320,fleur,flower,花,NOUN,fr,A1,17,keep,clean
-112,ceci,this,这个,PRON,fr,A1,18,keep,clean
-146,chocolat,chocolate,巧克力,NOUN,fr,A1,19,keep,clean
-19,allô,hello,喂,INTJ,fr,A1,20,keep,clean
-259,emploi,job,工作,NOUN,fr,A1,21,keep,clean
-114,cellule,cell,细胞,NOUN,fr,A1,22,keep,clean
-405,inférieur,inferior,较低的,ADJ,fr,A1,23,keep,clean
+517,moyen,means,方法,NOUN,fr,A1,1,keep,clean
+104,car,because,因为,CCONJ,fr,A1,2,keep,clean
+155,cité,city,城市,NOUN,fr,A1,3,keep,clean
+149,chose,thing,东西,NOUN,fr,A1,4,keep,clean
+218,devant,in front of,在……前面,ADP,fr,A1,5,keep,clean
+187,couloir,corridor,走廊,NOUN,fr,A1,6,keep,clean
+96,cahier,notebook,笔记本,NOUN,fr,A1,7,keep,clean
+500,mois,month,月,NOUN,fr,A1,8,keep,clean
+217,deux,two,二,NUM,fr,A1,9,keep,clean
+426,journée,day,白天,NOUN,fr,A1,10,keep,clean
+16,aimer,to like,喜欢,VERB,fr,A1,11,keep,clean
+338,fumée,smoke,烟,NOUN,fr,A1,12,keep,clean
+296,exister,to exist,存在,VERB,fr,A1,13,keep,clean
+483,mes,my,我的,DET,fr,A1,14,keep,clean
+476,mars,March,三月,NOUN,fr,A1,15,keep,clean
+113,cela,that,那个,PRON,fr,A1,16,keep,clean
+202,cœur,heart,心,NOUN,fr,A1,17,keep,clean
+494,mince,thin,瘦的,ADJ,fr,A1,18,keep,clean
+39,autant,as much,同样多,ADV,fr,A1,19,keep,clean
+102,campagne,countryside,乡村,NOUN,fr,A1,20,keep,clean
+114,cellule,cell,细胞,NOUN,fr,A1,21,keep,clean
+283,escargot,snail,蜗牛,NOUN,fr,A1,22,keep,clean
+71,bonsoir,good evening,晚上好,INTJ,fr,A1,23,keep,clean

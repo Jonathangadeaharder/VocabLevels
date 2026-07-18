@@ -36,7 +36,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بنفسجي,purple,紫色的,ADJ
 بنين,delicious/tasty,美味的,ADJ
 لمبة,lightbulb,灯泡,NOUN
-بوليس,police,警察,NOUN
 بيبي,baby,婴儿,NOUN
 بيت,house,房子,NOUN
 بين,between,在...之间,ADP
@@ -54,8 +53,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تفكر,think,思考,VERB
 تقاشر,socks,袜子,NOUN
 تقيل,heavy,重的,ADJ
-تلاتة,three,三,NUM
-تلاتين,thirty,三十,NUM
 تلتناش,thirteen,十三,NUM
 تلفزة,television,电视,NOUN
 تلميذ,student,学生,NOUN
@@ -92,7 +89,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جمع,collect,收集,VERB
 جمل,camel,骆驼,NOUN
 جنان,garden,花园,NOUN
-جوج,two,二,NUM
 جيب,pocket,口袋,NOUN
 حار,hot,热的,ADJ
 حارس,guard,守卫,NOUN
@@ -389,7 +385,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كَأْس,glass,玻璃杯,NOUN
 كَبَّ,pour,倒,VERB
 كَبُرَ,grow,长大,VERB
-كِبْطَان,coat,外套,NOUN
 كَبِير,big,大的,ADJ
 كِتَاب,book,书,NOUN
 كَتَبَ,write,写,VERB
@@ -523,3 +518,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 يد,hand,手,NOUN
 يوم,day,天,NOUN
 فم,mouth,嘴,NOUN
+اثنان,two,二,NUM
+ثلاثة,three,三,NUM
+ثلاثون,thirty,三十,NUM
+جائع,hungry,饥饿的,ADJ
+عطشان,thirsty,口渴的,ADJ

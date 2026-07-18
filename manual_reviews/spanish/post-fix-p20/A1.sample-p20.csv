@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-535,vale,okay,好的,INTJ,es,A1,1,keep,clean
-286,listo,ready,准备好的,ADJ,es,A1,2,keep,clean
-547,vivir,to live,居住,VERB,es,A1,3,keep,clean
-362,oportunidad,opportunity,机会,NOUN,es,A1,4,keep,clean
-320,mientras,while,当...时,SCONJ,es,A1,5,keep,clean
-231,haber,to have (auxiliary),有,AUX,es,A1,6,keep,clean
-531,uno,one,一,NUM,es,A1,7,keep,clean
-493,suficiente,enough,足够的,ADJ,es,A1,8,keep,clean
-22,alma,soul,灵魂,NOUN,es,A1,9,keep,clean
-29,ante,before,在...面前,ADP,es,A1,10,keep,clean
-174,el,the,这/那,DET,es,A1,11,keep,clean
-253,idiota,idiot,白痴,NOUN,es,A1,12,keep,clean
-552,vuelta,return,回来,NOUN,es,A1,13,keep,clean
-34,asunto,matter,事情,NOUN,es,A1,14,keep,clean
-56,boda,wedding,婚礼,NOUN,es,A1,15,keep,clean
-473,servicio,service,服务,NOUN,es,A1,16,keep,clean
-151,detrás,behind,在后面,ADV,es,A1,17,keep,clean
-395,pero,but,但是,CCONJ,es,A1,18,keep,clean
-280,les,them,他们,PRON,es,A1,19,keep,clean
-204,falta,lack,缺乏,NOUN,es,A1,20,keep,clean
-249,hombre,man,男人,NOUN,es,A1,21,keep,clean
-273,justo,fair,公平的,ADJ,es,A1,22,keep,clean
-385,peligro,danger,危险,NOUN,es,A1,23,keep,clean
-87,centro,center,中心,NOUN,es,A1,24,keep,clean
+305,mar,sea,海,NOUN,es,A1,1,keep,clean
+337,nadie,nobody,没有人,PRON,es,A1,2,keep,clean
+342,ni,nor,也不,CCONJ,es,A1,3,keep,clean
+399,piso,floor,楼层,NOUN,es,A1,4,keep,clean
+374,par,pair,一对,NOUN,es,A1,5,keep,clean
+166,dulce,sweet,甜的,ADJ,es,A1,6,keep,clean
+357,ocho,eight,八,NUM,es,A1,7,keep,clean
+155,difícil,difficult,困难的,ADJ,es,A1,8,keep,clean
+44,año,year,年,NOUN,es,A1,9,keep,clean
+431,que,that,那个,SCONJ,es,A1,10,keep,clean
+197,estado,state,状态,NOUN,es,A1,11,keep,clean
+272,junto,together,一起,ADV,es,A1,12,keep,clean
+181,encontrar,to find,找到,VERB,es,A1,13,keep,clean
+340,negocio,business,生意,NOUN,es,A1,14,keep,clean
+81,casa,house,房子,NOUN,es,A1,15,keep,clean
+474,sexo,sex,性别,NOUN,es,A1,16,keep,clean
+248,hola,hello,你好,INTJ,es,A1,17,keep,clean
+231,haber,to have (auxiliary),有,AUX,es,A1,18,keep,clean
+98,cliente,customer,顾客,NOUN,es,A1,19,keep,clean
+277,las,the,这/那,DET,es,A1,20,keep,clean
+193,especial,special,特别的,ADJ,es,A1,21,keep,clean
+458,sala,room,房间,NOUN,es,A1,22,keep,clean
+363,orden,order,命令,NOUN,es,A1,23,keep,clean
+407,por,by,被,ADP,es,A1,24,keep,clean

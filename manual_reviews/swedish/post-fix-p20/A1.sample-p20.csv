@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-273,om,about,关于,ADP,sv,A1,1,keep,clean
-127,golv,floor,地板,NOUN,sv,A1,2,keep,clean
-43,by,village,村庄,NOUN,sv,A1,3,keep,clean
-410,vardagsrum,living room,客厅,NOUN,sv,A1,4,keep,clean
-44,byxor,pants,裤子,NOUN,sv,A1,5,keep,clean
-143,hej,hello,你好,INTJ,sv,A1,6,keep,clean
-173,ingenting,nothing,没有什么,PRON,sv,A1,7,keep,clean
-490,död,dead,死的,ADJ,sv,A1,8,keep,clean
-91,flickvän,girlfriend,女朋友,NOUN,sv,A1,9,keep,clean
-492,eftersom,because,因为,SCONJ,sv,A1,10,keep,clean
-408,var,where,哪里,ADV,sv,A1,11,keep,clean
-14,att,to (infinitive marker),去（不定式标记）,PART,sv,A1,12,keep,clean
-277,papper,paper,纸,NOUN,sv,A1,13,keep,clean
-184,kaffe,coffee,咖啡,NOUN,sv,A1,14,keep,clean
-429,vägg,wall,墙,NOUN,sv,A1,15,keep,clean
-250,måste,must,必须,AUX,sv,A1,16,keep,clean
-295,räv,fox,狐狸,NOUN,sv,A1,17,keep,clean
-482,detta,this,这,DET,sv,A1,18,keep,clean
-335,sova,to sleep,睡觉,VERB,sv,A1,19,keep,clean
-148,hitta,to find,找到,VERB,sv,A1,20,keep,clean
-8,ansikte,face,脸,NOUN,sv,A1,21,keep,clean
-385,tretton,thirteen,十三,NUM,sv,A1,22,keep,clean
-75,eller,or,或,CCONJ,sv,A1,23,keep,clean
+419,vid,by,在……旁边,ADP,sv,A1,1,keep,clean
+89,fjorton,fourteen,十四,NUM,sv,A1,2,keep,clean
+174,inte,not,不,PART,sv,A1,3,keep,clean
+265,när,when,什么时候,ADV,sv,A1,4,keep,clean
+41,buss,bus,公共汽车,NOUN,sv,A1,5,keep,clean
+151,hjärta,heart,心,NOUN,sv,A1,6,keep,clean
+254,namn,name,名字,NOUN,sv,A1,7,keep,clean
+495,en,a,一个,DET,sv,A1,8,keep,clean
+62,dricka,to drink,喝,VERB,sv,A1,9,keep,clean
+238,mjölk,milk,牛奶,NOUN,sv,A1,10,keep,clean
+492,eftersom,because,因为,SCONJ,sv,A1,11,keep,clean
+268,något,something,某事,PRON,sv,A1,12,keep,clean
+370,tavla,painting,画,NOUN,sv,A1,13,keep,clean
+287,restaurang,restaurant,餐厅,NOUN,sv,A1,14,keep,clean
+466,bör,should,应该,AUX,sv,A1,15,keep,clean
+257,nej,no,不,INTJ,sv,A1,16,keep,clean
+92,flod,river,河流,NOUN,sv,A1,17,keep,clean
+508,fast,although,尽管,CCONJ,sv,A1,18,keep,clean
+458,använda,use,使用,VERB,sv,A1,19,keep,clean
+240,mor,mother,母亲,NOUN,sv,A1,20,keep,clean
+211,luft,air,空气,NOUN,sv,A1,21,keep,clean
+30,blod,blood,血,NOUN,sv,A1,22,keep,clean
+130,grå,grey,灰色的,ADJ,sv,A1,23,keep,clean

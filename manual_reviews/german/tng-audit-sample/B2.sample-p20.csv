@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-62,anscheinend,apparently,显然,ADV,de,B2,1,keep,clean
-1376,überzeugend,convincing,令人信服的,ADJ,de,B2,2,keep,clean
-1038,servus,hello / bye,你好/再见,INTJ,de,B2,3,keep,clean
-489,Genehmigung,approval,批准,NOUN,de,B2,4,keep,clean
-1134,Trinkgeld,tip,小费,NOUN,de,B2,5,keep,clean
-967,Ruder,oar,桨,NOUN,de,B2,6,keep,clean
-1050,sodass,so that,以便,SCONJ,de,B2,7,keep,clean
-396,Existenz,existence,存在,NOUN,de,B2,8,keep,clean
-1255,Vieh,cattle,牲畜,NOUN,de,B2,9,keep,clean
-1000,Schild,sign,标志,NOUN,de,B2,10,keep,clean
-618,irgendein,any,任何一个,DET,de,B2,11,keep,clean
-909,Privatsphäre,privacy,隐私,NOUN,de,B2,12,keep,clean
-1055,sowie,as well as,以及,CCONJ,de,B2,13,keep,clean
-444,Fremder,stranger,陌生人,NOUN,de,B2,14,keep,clean
-1008,Schluck,sip,一口,NOUN,de,B2,15,keep,clean
-211,beurteilen,to judge,判断,VERB,de,B2,16,keep,clean
-850,null,zero,零,NUM,de,B2,17,keep,clean
-1138,trotz,despite,尽管,ADP,de,B2,18,keep,clean
-393,Etage,floor,楼层,NOUN,de,B2,19,keep,clean
-619,irgendjemand,anyone,任何人,PRON,de,B2,20,keep,clean
-781,Mannschaft,team,团队,NOUN,de,B2,21,keep,clean
-747,Legende,legend,传说,NOUN,de,B2,22,keep,clean
-637,Kabel,cable,电缆,NOUN,de,B2,23,keep,clean
-350,Enkelin,granddaughter,孙女,NOUN,de,B2,24,keep,clean
+850,null,zero,零,NUM,de,B2,1,keep,clean
+936,Raumschiff,spaceship,宇宙飞船,NOUN,de,B2,2,keep,clean
+929,Rakete,rocket,火箭,NOUN,de,B2,3,keep,clean
+1220,Verlobung,engagement,订婚,NOUN,de,B2,4,keep,clean
+666,Kleinigkeit,little thing,小事,NOUN,de,B2,5,keep,clean
+735,Ladung,cargo,货物,NOUN,de,B2,6,keep,clean
+409,Feigling,coward,懦夫,NOUN,de,B2,7,keep,clean
+1204,Verhaftung,arrest,逮捕,NOUN,de,B2,8,keep,clean
+259,darunter,among them,在其中,ADV,de,B2,9,keep,clean
+911,Produkt,product,产品,NOUN,de,B2,10,keep,clean
+587,Honig,honey,蜂蜜,NOUN,de,B2,11,keep,clean
+834,nass,wet,湿的,ADJ,de,B2,12,keep,clean
+916,präsentieren,to present,展示,VERB,de,B2,13,keep,clean
+510,Geschworene,juror,陪审员,NOUN,de,B2,14,keep,clean
+706,Kostüm,costume,服装,NOUN,de,B2,15,keep,clean
+620,irgendwer,anyone,任何人,PRON,de,B2,16,keep,clean
+1038,servus,hello / bye,你好/再见,INTJ,de,B2,17,keep,clean
+407,Feier,celebration,庆祝活动,NOUN,de,B2,18,keep,clean
+1138,trotz,despite,尽管,ADP,de,B2,19,keep,clean
+1055,sowie,as well as,以及,CCONJ,de,B2,20,keep,clean
+1322,Zaun,fence,栅栏,NOUN,de,B2,21,keep,clean
+1050,sodass,so that,以便,SCONJ,de,B2,22,keep,clean
+275,diejenigen,those,那些,DET,de,B2,23,keep,clean
+524,Gewinner,winner,赢家,NOUN,de,B2,24,keep,clean

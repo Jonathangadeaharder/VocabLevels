@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-751,korv,sausage,香肠,NOUN,sv,C1,1,keep,clean
-1762,värderingar,values,价值观,NOUN,sv,C1,2,keep,clean
-72,brandkår,fire brigade,消防队,NOUN,sv,C1,3,keep,clean
-270,festa,party,狂欢,VERB,sv,C1,4,keep,clean
-1434,sträcka,stretch,伸展,NOUN,sv,C1,5,keep,clean
-1263,samt,as well as,以及,CCONJ,sv,C1,6,keep,clean
-195,dusch,shower,淋浴,NOUN,sv,C1,7,keep,clean
-1458,sup,sip,啜饮,NOUN,sv,C1,8,keep,clean
-329,fullmåne,full moon,满月,NOUN,sv,C1,9,keep,clean
-996,nederlag,defeat,失败,NOUN,sv,C1,10,keep,clean
-924,mestadels,mostly,主要地,ADV,sv,C1,11,keep,clean
-621,jajamän,yes indeed,正是,INTJ,sv,C1,12,keep,clean
-1432,stryka,iron,熨烫,VERB,sv,C1,13,keep,clean
-1193,rekord,record,记录,NOUN,sv,C1,14,keep,clean
-930,miljontals,millions of,数百万的,NUM,sv,C1,15,keep,clean
-1066,omgång,round,轮,NOUN,sv,C1,16,keep,clean
-491,hertig,duke,公爵,NOUN,sv,C1,17,keep,clean
-263,fastän,although,尽管,SCONJ,sv,C1,18,keep,clean
-152,denne,he/this one,他/这位,PRON,sv,C1,19,keep,clean
-622,japaner,Japanese,日本人,NOUN,sv,C1,20,keep,clean
-159,dimma,fog,雾,NOUN,sv,C1,21,keep,clean
-1271,sedd,seen,被看见,ADJ,sv,C1,22,keep,clean
-1716,varannan,every other,每隔一个,DET,sv,C1,23,keep,clean
-1001,nerför,down,顺...而下,ADP,sv,C1,24,keep,clean
+956,motorväg,highway,高速公路,NOUN,sv,C1,1,keep,clean
+441,granat,grenade,手榴弹,NOUN,sv,C1,2,keep,clean
+37,blad,leaf,叶子,NOUN,sv,C1,3,keep,clean
+1395,specialitet,specialty,特色菜,NOUN,sv,C1,4,keep,clean
+1312,skick,condition,状况,NOUN,sv,C1,5,keep,clean
+1133,porträtt,portrait,肖像,NOUN,sv,C1,6,keep,clean
+463,gåta,riddle,谜语,NOUN,sv,C1,7,keep,clean
+641,kalkon,turkey,火鸡,NOUN,sv,C1,8,keep,clean
+597,intet,nothing,无,PRON,sv,C1,9,keep,clean
+1263,samt,as well as,以及,CCONJ,sv,C1,10,keep,clean
+546,hävda,claim,声称,VERB,sv,C1,11,keep,clean
+830,lever,liver,肝脏,NOUN,sv,C1,12,keep,clean
+930,miljontals,millions of,数百万的,NUM,sv,C1,13,keep,clean
+1359,smekmånad,honeymoon,蜜月,NOUN,sv,C1,14,keep,clean
+1716,varannan,every other,每隔一个,DET,sv,C1,15,keep,clean
+1663,ursprung,origin,起源,NOUN,sv,C1,16,keep,clean
+1001,nerför,down,顺...而下,ADP,sv,C1,17,keep,clean
+1300,sjöman,sailor,水手,NOUN,sv,C1,18,keep,clean
+536,härmed,hereby,特此,ADV,sv,C1,19,keep,clean
+827,leve,long live,万岁,INTJ,sv,C1,20,keep,clean
+506,hotellrum,hotel room,酒店房间,NOUN,sv,C1,21,keep,clean
+1746,vrid,turn,转动,VERB,sv,C1,22,keep,clean
+91,brådskande,urgent,紧急的,ADJ,sv,C1,23,keep,clean
+1286,si,if,如果,SCONJ,sv,C1,24,keep,clean

@@ -131,7 +131,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 رف,shelf,架子,NOUN
 دروج,stairs,楼梯,NOUN
 سطح,roof / terrace,屋顶/露台,NOUN
-كراج,garage,车库,NOUN
 ريدو,curtain,窗帘,NOUN
 ضو,light,光/灯,NOUN
 شوفاج,heater,加热器,NOUN
@@ -139,9 +138,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فيلا,villa,别墅,NOUN
 عمارة,building,大楼/公寓楼,NOUN
 طابق,floor / story,楼层,NOUN
-بارطما,apartment,公寓,NOUN
-كراء,rent,租金,NOUN
-كرى,to rent,出租,VERB
 ساكن,resident,居民,NOUN
 سكن,residence / housing,住所/住房,NOUN
 قفل,lock,锁,NOUN
@@ -149,7 +145,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بطانية,blanket,毯子,NOUN
 زليج,zellige / tiles,马赛克瓷砖,NOUN
 بانيو,bathtub,浴缸,NOUN
-دوش,shower,淋浴,NOUN
 روبيني,faucet / tap,水龙头,NOUN
 طاقة,small window,小窗,NOUN
 حوش,courtyard,院子,NOUN
@@ -410,8 +405,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 معصب,tense / angry,紧张的 / 愤怒的,ADJ
 خايف,afraid,害怕的,ADJ
 بردان,feeling cold,感觉冷的,ADJ
-جيعان,hungry,饥饿的,ADJ
-عطشان,thirsty,口渴的,ADJ
 شبعان,full / satiated,饱的,ADJ
 ناعس,asleep / sleepy,困倦的,ADJ
 مشغول,busy,忙碌的,ADJ
@@ -463,9 +456,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 شيء,thing,事物,NOUN
 وحدة,unit,单位,NOUN
 زعما,supposedly,据说,ADV
-يعني,I mean,意思是,PART
 أجي,come here,过来,VERB
-إلا,if,如果,SCONJ
+إلا,except / unless,除了 / 除非,ADP
 ولا,or,或者,CCONJ
 بشوية,a little,一点,ADV
 مع,with,和,ADP
@@ -492,3 +484,5 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 نخلة,palm tree,棕榈树,NOUN
 زهرة,flower,花,NOUN
 كاميرا,camera,相机,NOUN
+يعني,to mean,意味着 / 意思是,VERB
+عطشان,thirsty,口渴的,ADJ

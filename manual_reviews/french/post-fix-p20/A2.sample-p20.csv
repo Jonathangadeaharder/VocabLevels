@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-268,marcher,to walk,走路,VERB,fr,A2,1,keep,clean
-61,besoin,need,需要,NOUN,fr,A2,2,keep,clean
-211,genre,kind,种类,NOUN,fr,A2,3,keep,clean
-289,mérite,merit,优点,NOUN,fr,A2,4,keep,clean
-247,lequel,which one,哪一个,PRON,fr,A2,5,keep,clean
-304,ni,neither/nor,既不/也不,CCONJ,fr,A2,6,keep,clean
-109,citoyen,citizen,公民,NOUN,fr,A2,7,keep,clean
-488,poule,hen,母鸡,NOUN,fr,A2,8,keep,clean
-502,pressing,dry cleaner,干洗店,NOUN,fr,A2,9,keep,clean
-169,drôle,funny,有趣的,ADJ,fr,A2,10,keep,clean
-10,agence,agency,机构,NOUN,fr,A2,11,keep,clean
-356,oui,yes,是,INTJ,fr,A2,12,keep,clean
-341,onze,eleven,十一,NUM,fr,A2,13,keep,clean
-284,moutarde,mustard,芥末,NOUN,fr,A2,14,keep,clean
-257,lorsque,when,当……时,SCONJ,fr,A2,15,keep,clean
-244,le,the,这/那,DET,fr,A2,16,keep,clean
-395,pas,not,不,ADV,fr,A2,17,keep,clean
-442,piscine,swimming pool,游泳池,NOUN,fr,A2,18,keep,clean
-185,entrée,entrance,入口,NOUN,fr,A2,19,keep,clean
-140,cravate,tie,领带,NOUN,fr,A2,20,keep,clean
-491,pour,for,为了,ADP,fr,A2,21,keep,clean
-287,média,media,媒体,NOUN,fr,A2,22,keep,clean
-338,omelette,omelet,煎蛋卷,NOUN,fr,A2,23,keep,clean
+445,piéton,pedestrian,行人,NOUN,fr,A2,1,keep,clean
+14,ail,garlic,大蒜,NOUN,fr,A2,2,keep,clean
+12,agneau,lamb,羔羊,NOUN,fr,A2,3,keep,clean
+485,poste,post,职位,NOUN,fr,A2,4,keep,clean
+341,onze,eleven,十一,NUM,fr,A2,5,keep,clean
+20,analyse,analysis,分析,NOUN,fr,A2,6,keep,clean
+107,cinéma,cinema,电影院,NOUN,fr,A2,7,keep,clean
+120,commerce,trade,贸易,NOUN,fr,A2,8,keep,clean
+364,paix,peace,和平,NOUN,fr,A2,9,keep,clean
+141,crevette,shrimp,虾,NOUN,fr,A2,10,keep,clean
+257,lorsque,when,当……时,SCONJ,fr,A2,11,keep,clean
+278,moi,me,我,PRON,fr,A2,12,keep,clean
+461,plusieurs,several,几个,DET,fr,A2,13,keep,clean
+253,limite,limit,限制,NOUN,fr,A2,14,keep,clean
+514,problème,problem,问题,NOUN,fr,A2,15,keep,clean
+19,américain,American,美国的,ADJ,fr,A2,16,keep,clean
+187,et,and,和,CCONJ,fr,A2,17,keep,clean
+142,crise,crisis,危机,NOUN,fr,A2,18,keep,clean
+504,preuve,proof,证据,NOUN,fr,A2,19,keep,clean
+259,là,there,那里,ADV,fr,A2,20,keep,clean
+373,par,by,由,ADP,fr,A2,21,keep,clean
+273,merci,thank you,谢谢,INTJ,fr,A2,22,keep,clean
+360,ouvrir,to open,打开,VERB,fr,A2,23,keep,clean

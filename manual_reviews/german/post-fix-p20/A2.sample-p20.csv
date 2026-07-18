@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-146,Hoffnung,hope,希望,NOUN,de,A2,1,keep,clean
-321,versprechen,to promise,承诺,VERB,de,A2,2,keep,clean
-219,obwohl,although,虽然,SCONJ,de,A2,3,keep,clean
-153,jawohl,yes,是的,INTJ,de,A2,4,keep,clean
-358,ziehen,to pull,拉,VERB,de,A2,5,keep,clean
-156,jung,young,年轻的,ADJ,de,A2,6,keep,clean
-25,außerdem,besides,此外,ADV,de,A2,7,keep,clean
-293,Szene,scene,场景,NOUN,de,A2,8,keep,clean
-72,Ehe,marriage,婚姻,NOUN,de,A2,9,keep,clean
-205,möchten,would like,想要,AUX,de,A2,10,keep,clean
-299,Termin,appointment,预约,NOUN,de,A2,11,keep,clean
-106,fürs,for the,为了,ADP,de,A2,12,keep,clean
-268,selber,oneself,自己,PRON,de,A2,13,keep,clean
-303,Traum,dream,梦,NOUN,de,A2,14,keep,clean
-41,Bewegung,movement,运动,NOUN,de,A2,15,keep,clean
-3,acht,eight,八,NUM,de,A2,16,keep,clean
-5,Adresse,address,地址,NOUN,de,A2,17,keep,clean
-173,Königin,queen,女王,NOUN,de,A2,18,keep,clean
-21,Auge,eye,眼睛,NOUN,de,A2,19,keep,clean
-230,Prinzessin,princess,公主,NOUN,de,A2,20,keep,clean
-320,verschwinden,to disappear,消失,VERB,de,A2,21,keep,clean
-277,solche,such,这样的,DET,de,A2,22,keep,clean
-276,Sinn,sense,意义,NOUN,de,A2,23,keep,clean
+329,vorne,in front,在前面,ADV,de,A2,1,keep,clean
+137,Haut,skin,皮肤,NOUN,de,A2,2,keep,clean
+130,Glas,glass,玻璃,NOUN,de,A2,3,keep,clean
+239,Reise,trip,旅行,NOUN,de,A2,4,keep,clean
+40,bewegen,to move,移动,VERB,de,A2,5,keep,clean
+289,Stopp,stop,停止,NOUN,de,A2,6,keep,clean
+224,persönlich,personal,个人的,ADJ,de,A2,7,keep,clean
+32,benutzen,to use,使用,VERB,de,A2,8,keep,clean
+8,anfangen,to begin,开始,VERB,de,A2,9,keep,clean
+131,Glückwunsch,congratulations,祝贺,NOUN,de,A2,10,keep,clean
+67,dies,this,这个,DET,de,A2,11,keep,clean
+211,neben,next to,在...旁边,ADP,de,A2,12,keep,clean
+153,jawohl,yes,是的,INTJ,de,A2,13,keep,clean
+267,Sekunde,second,秒,NOUN,de,A2,14,keep,clean
+3,acht,eight,八,NUM,de,A2,15,keep,clean
+330,Vorsicht,caution,小心,NOUN,de,A2,16,keep,clean
+336,Wahrheit,truth,真相,NOUN,de,A2,17,keep,clean
+44,Beziehung,relationship,关系,NOUN,de,A2,18,keep,clean
+205,möchten,would like,想要,AUX,de,A2,19,keep,clean
+210,Nase,nose,鼻子,NOUN,de,A2,20,keep,clean
+253,Schlaf,sleep,睡眠,NOUN,de,A2,21,keep,clean
+219,obwohl,although,虽然,SCONJ,de,A2,22,keep,clean
+268,selber,oneself,自己,PRON,de,A2,23,keep,clean

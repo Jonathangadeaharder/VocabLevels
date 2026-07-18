@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-277,运动,sports / exercise,运动,NOUN,zh,A1,1,keep,clean
-521,绿,green,绿,ADJ,zh,A1,2,keep,clean
-5,上,up / above,上,ADP,zh,A1,3,keep,clean
-143,那,that,那,PRON,zh,A1,4,keep,clean
-372,司机,driver,司机,NOUN,zh,A1,5,keep,clean
-50,吗,question particle,吗,PART,zh,A1,6,keep,clean
-194,姐姐,older sister,姐姐,NOUN,zh,A1,7,keep,clean
-196,孩子,child,孩子,NOUN,zh,A1,8,keep,clean
-583,音乐,music,音乐,NOUN,zh,A1,9,keep,clean
-545,表示,to express,表示,VERB,zh,A1,10,keep,clean
-57,喂,hello,喂,INTJ,zh,A1,11,keep,clean
-162,但是,but,但是,CCONJ,zh,A1,12,keep,clean
-542,行李箱,suitcase,行李箱,NOUN,zh,A1,13,keep,clean
-123,电脑,computer,电脑,NOUN,zh,A1,14,keep,clean
-21,些,some,些,DET,zh,A1,15,keep,clean
-32,八,eight,八,NUM,zh,A1,16,keep,clean
-351,刻,quarter,刻,NOUN,zh,A1,17,keep,clean
-135,衣服,clothes,衣服,NOUN,zh,A1,18,keep,clean
-9,下雨,to rain,下雨,VERB,zh,A1,19,keep,clean
-332,先,first,先,ADV,zh,A1,20,keep,clean
-434,放,to put,放,VERB,zh,A1,21,keep,clean
-217,所以,therefore,所以,SCONJ,zh,A1,22,keep,clean
-328,信,letter,信,NOUN,zh,A1,23,keep,clean
-131,能,can / to be able to,能,AUX,zh,A1,24,keep,clean
+236,每,each / every,每,DET,zh,A1,1,keep,clean
+491,画,to draw,画,VERB,zh,A1,2,keep,clean
+84,工作,work / to work,工作,NOUN,zh,A1,3,keep,clean
+445,明白,to understand,明白,VERB,zh,A1,4,keep,clean
+332,先,first,先,ADV,zh,A1,5,keep,clean
+113,漂亮,pretty,漂亮,ADJ,zh,A1,6,keep,clean
+45,叫,to be called,叫,VERB,zh,A1,7,keep,clean
+114,火车站,train station,火车站,NOUN,zh,A1,8,keep,clean
+316,云,cloud,云,NOUN,zh,A1,9,keep,clean
+458,根据,according to,根据,ADP,zh,A1,10,keep,clean
+307,东,east,东,NOUN,zh,A1,11,keep,clean
+537,菜单,menu,菜单,NOUN,zh,A1,12,keep,clean
+119,狗,dog,狗,NOUN,zh,A1,13,keep,clean
+91,我,I,我,PRON,zh,A1,14,keep,clean
+187,因为,because,因为,SCONJ,zh,A1,15,keep,clean
+79,对不起,sorry,对不起,INTJ,zh,A1,16,keep,clean
+381,地,-ly,地,PART,zh,A1,17,keep,clean
+420,愿意,to be willing,愿意,AUX,zh,A1,18,keep,clean
+179,号,number / date,号,NOUN,zh,A1,19,keep,clean
+218,手机,cell phone,手机,NOUN,zh,A1,20,keep,clean
+565,还是,or,还是,CCONJ,zh,A1,21,keep,clean
+32,八,eight,八,NUM,zh,A1,22,keep,clean
+341,冬,winter,冬,NOUN,zh,A1,23,keep,clean
+83,岁,year (of age),岁,NOUN,zh,A1,24,keep,clean

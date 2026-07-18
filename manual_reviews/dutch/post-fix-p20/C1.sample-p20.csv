@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-195,zijn,his,他的,PRON,nl,C1,1,keep,clean
-246,anderhalf,one and a half,一个半,NUM,nl,C1,2,keep,clean
-752,vuurwerk,fireworks,烟花,NOUN,nl,C1,3,keep,clean
-776,luik,hatch,舱口,NOUN,nl,C1,4,keep,clean
-590,hoofdpijn,headache,头痛,NOUN,nl,C1,5,keep,clean
-204,demonstratie,demonstration,示威,NOUN,nl,C1,6,keep,clean
-382,eis,requirement,要求,NOUN,nl,C1,7,keep,clean
-341,koffer,suitcase,手提箱,NOUN,nl,C1,8,keep,clean
-333,bevrijding,liberation,解放,NOUN,nl,C1,9,keep,clean
-348,overname,takeover,收购,NOUN,nl,C1,10,keep,clean
-454,omtrent,about,关于,ADP,nl,C1,11,keep,clean
-221,neen,no,不,INTJ,nl,C1,12,keep,clean
-794,vloot,fleet,舰队,NOUN,nl,C1,13,keep,clean
-817,godsdienst,religion,宗教,NOUN,nl,C1,14,keep,clean
-1620,mits,provided that,只要,SCONJ,nl,C1,15,keep,clean
-566,verbieden,to prohibit,禁止,VERB,nl,C1,16,keep,clean
-1411,zoekmachine,search engine,搜索引擎,NOUN,nl,C1,17,keep,clean
-1765,sponsoren,to sponsor,赞助,VERB,nl,C1,18,keep,clean
-177,mishandeling,abuse,虐待,NOUN,nl,C1,19,keep,clean
-1674,intensief,intensive,密集的,ADJ,nl,C1,20,keep,clean
-1994,óf,or,或者,CCONJ,nl,C1,21,keep,clean
-1260,map,folder,文件夹,NOUN,nl,C1,22,keep,clean
-516,tevoren,before,事先,ADV,nl,C1,23,keep,clean
-1943,activeren,to activate,激活,VERB,nl,C1,24,keep,clean
+1426,doch,however,然而,CCONJ,nl,C1,1,keep,clean
+1068,gene,those,那些,PRON,nl,C1,2,keep,clean
+482,brons,bronze,青铜,NOUN,nl,C1,3,keep,clean
+1652,achttien,eighteen,十八,NUM,nl,C1,4,keep,clean
+207,garanderen,to guarantee,保证,VERB,nl,C1,5,keep,clean
+1166,versus,vs,与...相对,ADP,nl,C1,6,keep,clean
+1721,alfabet,alphabet,字母表,NOUN,nl,C1,7,keep,clean
+728,naarmate,as,随着,SCONJ,nl,C1,8,keep,clean
+395,long,lung,肺,NOUN,nl,C1,9,keep,clean
+648,dun,thin,薄的,ADJ,nl,C1,10,keep,clean
+1121,cyclus,cycle,循环,NOUN,nl,C1,11,keep,clean
+1215,pesten,to bully,欺凌,VERB,nl,C1,12,keep,clean
+1490,kist,chest,箱子,NOUN,nl,C1,13,keep,clean
+1722,biologie,biology,生物学,NOUN,nl,C1,14,keep,clean
+1279,storing,malfunction,故障,NOUN,nl,C1,15,keep,clean
+548,jeetje,gosh,天哪,INTJ,nl,C1,16,keep,clean
+809,bij,bee,蜜蜂,NOUN,nl,C1,17,keep,clean
+1888,morgenavond,tomorrow night,明晚,ADV,nl,C1,18,keep,clean
+560,sigaret,cigarette,香烟,NOUN,nl,C1,19,keep,clean
+1531,afmaken,to finish,完成,VERB,nl,C1,20,keep,clean
+39,overeenstemming,agreement,一致,NOUN,nl,C1,21,keep,clean
+1884,materie,matter,物质,NOUN,nl,C1,22,keep,clean
+617,stelsel,system,体系,NOUN,nl,C1,23,keep,clean
+2014,genootschap,society,协会,NOUN,nl,C1,24,keep,clean

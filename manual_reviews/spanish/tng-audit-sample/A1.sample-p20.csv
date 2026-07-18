@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-358,odio,hate,仇恨,NOUN,es,A1,1,keep,clean
-108,con,with,和/与,ADP,es,A1,2,keep,clean
-518,trabajo,work,工作,NOUN,es,A1,3,keep,clean
-452,rey,king,国王,NOUN,es,A1,4,keep,clean
-460,salir,to leave,离开,VERB,es,A1,5,keep,clean
-211,foto,photo,照片,NOUN,es,A1,6,keep,clean
-314,mensaje,message,信息,NOUN,es,A1,7,keep,clean
-316,mes,month,月,NOUN,es,A1,8,keep,clean
-199,este,this,这个,DET,es,A1,9,keep,clean
-52,bebé,baby,婴儿,NOUN,es,A1,10,keep,clean
-42,ayuda,help,帮助,NOUN,es,A1,11,keep,clean
-248,hola,hello,你好,INTJ,es,A1,12,keep,clean
-154,diferente,different,不同的,ADJ,es,A1,13,keep,clean
-488,sorpresa,surprise,惊喜,NOUN,es,A1,14,keep,clean
-409,posible,possible,可能的,ADJ,es,A1,15,keep,clean
-467,seis,six,六,NUM,es,A1,16,keep,clean
-342,ni,nor,也不,CCONJ,es,A1,17,keep,clean
-120,cosa,thing,东西/事情,NOUN,es,A1,18,keep,clean
-431,que,that,那个,SCONJ,es,A1,19,keep,clean
-310,mañana,tomorrow,明天,ADV,es,A1,20,keep,clean
-231,haber,to have (auxiliary),有,AUX,es,A1,21,keep,clean
-23,alto,tall,高的,ADJ,es,A1,22,keep,clean
-177,ellos,they,他们,PRON,es,A1,23,keep,clean
-208,fin,end,结束,NOUN,es,A1,24,keep,clean
+100,cocina,kitchen,厨房,NOUN,es,A1,1,keep,clean
+206,feliz,happy,快乐的,ADJ,es,A1,2,keep,clean
+227,grande,big,大的,ADJ,es,A1,3,keep,clean
+38,aunque,although,虽然,SCONJ,es,A1,4,keep,clean
+342,ni,nor,也不,CCONJ,es,A1,5,keep,clean
+366,otro,other,另一个,ADJ,es,A1,6,keep,clean
+191,ese,that,那,DET,es,A1,7,keep,clean
+84,causa,cause,原因,NOUN,es,A1,8,keep,clean
+40,avión,plane,飞机,NOUN,es,A1,9,keep,clean
+241,hermana,sister,姐妹,NOUN,es,A1,10,keep,clean
+136,dar,to give,给,VERB,es,A1,11,keep,clean
+145,derecho,right,右边,NOUN,es,A1,12,keep,clean
+152,diez,ten,十,NUM,es,A1,13,keep,clean
+496,también,also,也,ADV,es,A1,14,keep,clean
+397,persona,person,人,NOUN,es,A1,15,keep,clean
+481,sin,without,没有,ADP,es,A1,16,keep,clean
+231,haber,to have (auxiliary),有,AUX,es,A1,17,keep,clean
+337,nadie,nobody,没有人,PRON,es,A1,18,keep,clean
+197,estado,state,状态,NOUN,es,A1,19,keep,clean
+535,vale,okay,好的,INTJ,es,A1,20,keep,clean
+374,par,pair,一对,NOUN,es,A1,21,keep,clean
+55,boca,mouth,嘴,NOUN,es,A1,22,keep,clean
+6,abuelo,grandfather,祖父,NOUN,es,A1,23,keep,clean
+209,fondo,bottom,底部,NOUN,es,A1,24,keep,clean

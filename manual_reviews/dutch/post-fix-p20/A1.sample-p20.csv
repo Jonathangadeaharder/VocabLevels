@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-185,foto,photo,照片,NOUN,nl,A1,1,keep,clean
-264,vijf,five,五,NUM,nl,A1,2,keep,clean
-13,te,to,去,PART,nl,A1,3,keep,clean
-383,heen,away,离开,ADV,nl,A1,4,keep,clean
-42,mijn,my,我的,DET,nl,A1,5,keep,clean
-64,doen,to do,做,VERB,nl,A1,6,keep,clean
-322,nadat,after,在...之后,SCONJ,nl,A1,7,keep,clean
-110,even,just,稍等,ADV,nl,A1,8,keep,clean
-323,bedankt,thank you,谢谢,INTJ,nl,A1,9,keep,clean
-24,ze,they,他们,PRON,nl,A1,10,keep,clean
-151,beter,better,更好,ADJ,nl,A1,11,keep,clean
-134,kind,child,孩子,NOUN,nl,A1,12,keep,clean
-87,dag,day,天,NOUN,nl,A1,13,keep,clean
-100,tijdens,during,在...期间,ADP,nl,A1,14,keep,clean
-392,centrum,center,中心,NOUN,nl,A1,15,keep,clean
-258,daarom,therefore,因此,ADV,nl,A1,16,keep,clean
-95,leven,to live,生活,VERB,nl,A1,17,keep,clean
-43,wel,indeed,确实,ADV,nl,A1,18,keep,clean
-148,krijgen,to get,得到,VERB,nl,A1,19,keep,clean
-46,worden,to become,成为,AUX,nl,A1,20,keep,clean
-337,kant,side,边,NOUN,nl,A1,21,keep,clean
-381,doel,goal,目标,NOUN,nl,A1,22,keep,clean
-6,en,and,和,CCONJ,nl,A1,23,keep,clean
+63,zullen,shall / will,将要,AUX,nl,A1,1,keep,clean
+289,boek,book,书,NOUN,nl,A1,2,keep,clean
+300,lopen,to walk,走,VERB,nl,A1,3,keep,clean
+49,haar,her,她的,DET,nl,A1,4,keep,clean
+130,drie,three,三,NUM,nl,A1,5,keep,clean
+187,kijken,to look,看,VERB,nl,A1,6,keep,clean
+389,actie,action,行动,NOUN,nl,A1,7,keep,clean
+308,o,oh,哦,INTJ,nl,A1,8,keep,clean
+116,uur,hour,小时,NOUN,nl,A1,9,keep,clean
+319,langs,along,沿着,ADP,nl,A1,10,keep,clean
+128,nooit,never,从不,ADV,nl,A1,11,keep,clean
+373,buurt,neighbourhood,社区,NOUN,nl,A1,12,keep,clean
+17,als,as,作为,SCONJ,nl,A1,13,keep,clean
+107,waarom,why,为什么,ADV,nl,A1,14,keep,clean
+288,zowel,both,两者都,CCONJ,nl,A1,15,keep,clean
+183,helemaal,completely,完全,ADV,nl,A1,16,keep,clean
+320,morgen,tomorrow,明天,ADV,nl,A1,17,keep,clean
+294,maand,month,月,NOUN,nl,A1,18,keep,clean
+94,iets,something,某事,PRON,nl,A1,19,keep,clean
+336,juist,correct,正确的,ADJ,nl,A1,20,keep,clean
+13,te,to,去,PART,nl,A1,21,keep,clean
+330,kamer,room,房间,NOUN,nl,A1,22,keep,clean
+344,worden,to become,成为,VERB,nl,A1,23,keep,clean

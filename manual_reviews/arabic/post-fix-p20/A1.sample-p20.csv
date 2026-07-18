@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-45,تحت,under,在...下,ADP,ar,A1,1,keep,clean
-332,عم,uncle,叔叔,NOUN,ar,A1,2,keep,clean
-213,سطل,bucket,桶,NOUN,ar,A1,3,keep,clean
-266,إصبع,finger/toe,手指/脚趾,NOUN,ar,A1,4,keep,clean
-58,تلاتين,thirty,三十,NUM,ar,A1,5,keep,clean
-259,صابون,soap,肥皂,NOUN,ar,A1,6,keep,clean
-475,ميكانيكي,mechanic,机械师,NOUN,ar,A1,7,keep,clean
-409,لا,no,不,PART,ar,A1,8,keep,clean
-280,ضحك,laugh,笑,VERB,ar,A1,9,keep,clean
-501,تلك,that (feminine),那个,DET,ar,A1,10,keep,clean
-87,جفف,dry,弄干,VERB,ar,A1,11,keep,clean
-325,عصير,juice,果汁,NOUN,ar,A1,12,keep,clean
-295,طحن,grind,磨,VERB,ar,A1,13,keep,clean
-169,دائماً,always,总是,ADV,ar,A1,14,keep,clean
-492,نملة,ant,蚂蚁,NOUN,ar,A1,15,keep,clean
-392,كِبْطَان,coat,外套,NOUN,ar,A1,16,keep,clean
-383,قَمَر,moon,月亮,NOUN,ar,A1,17,keep,clean
-239,كم,how much,多少,PRON,ar,A1,18,keep,clean
-159,طفل,child,孩子,NOUN,ar,A1,19,keep,clean
-152,دار,house,房子,NOUN,ar,A1,20,keep,clean
-262,كاف,enough/okay,足够/好的,ADJ,ar,A1,21,keep,clean
-457,مُعَلِّم,teacher,老师,NOUN,ar,A1,22,keep,clean
-198,سَائِح,tourist,游客,NOUN,ar,A1,23,keep,clean
-442,مَرْحَبًا,welcome,欢迎,INTJ,ar,A1,24,keep,clean
+209,سطل,bucket,桶,NOUN,ar,A1,1,keep,clean
+110,حفرة,hole,洞,NOUN,ar,A1,2,keep,clean
+179,رَعْد,thunder,雷,NOUN,ar,A1,3,keep,clean
+512,ورق,paper,纸,NOUN,ar,A1,4,keep,clean
+481,نسى,forget,忘记,VERB,ar,A1,5,keep,clean
+508,وجه,face,脸,NOUN,ar,A1,6,keep,clean
+370,قُدَّامَ,in front of,在...前面,ADP,ar,A1,7,keep,clean
+446,مَطَار,airport,机场,NOUN,ar,A1,8,keep,clean
+242,شعب,people/nation,人民/民族,NOUN,ar,A1,9,keep,clean
+450,مُعَطَّل,broken,坏的,ADJ,ar,A1,10,keep,clean
+494,ذلك,that (masculine),那个,DET,ar,A1,11,keep,clean
+71,جاب,bring,带来,VERB,ar,A1,12,keep,clean
+321,عصير,juice,果汁,NOUN,ar,A1,13,keep,clean
+449,مَاعِز,goat,山羊,NOUN,ar,A1,14,keep,clean
+404,لا,no,不,PART,ar,A1,15,keep,clean
+219,سلم,peace,和平,NOUN,ar,A1,16,keep,clean
+477,أنتِ,you (feminine),你,PRON,ar,A1,17,keep,clean
+359,فهم,understand,理解,VERB,ar,A1,18,keep,clean
+465,مَنَاكِش,earrings,耳环,NOUN,ar,A1,19,keep,clean
+159,بطيخ,watermelon,西瓜,NOUN,ar,A1,20,keep,clean
+437,مَرْحَبًا,welcome,欢迎,INTJ,ar,A1,21,keep,clean
+156,بسرعة,quickly,快速地,ADV,ar,A1,22,keep,clean
+521,اثنان,two,二,NUM,ar,A1,23,keep,clean
+164,فاكهة,fruit,水果,NOUN,ar,A1,24,keep,clean

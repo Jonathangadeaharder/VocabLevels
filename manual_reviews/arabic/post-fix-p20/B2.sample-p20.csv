@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1525,مدونة,blog,博客,NOUN,ar,B2,1,keep,clean
-197,تَسْدِيد,repayment,还款,NOUN,ar,B2,2,keep,clean
-557,بالخصوص,in particular,特别地,ADV,ar,B2,3,keep,clean
-1714,رافد,tributary,支流,NOUN,ar,B2,4,keep,clean
-713,فضيلة,virtue,美德,NOUN,ar,B2,5,keep,clean
-1732,هش,fragile,脆弱的,ADJ,ar,B2,6,keep,clean
-190,قِسْط,installment,分期付款,NOUN,ar,B2,7,keep,clean
-786,وسواس,obsession,强迫观念,NOUN,ar,B2,8,keep,clean
-605,كل,all/entirely,所有/完全,DET,ar,B2,9,keep,clean
-380,بقعة,plot of land,地块,NOUN,ar,B2,10,keep,clean
-561,بخصوص,regarding,关于,ADP,ar,B2,11,keep,clean
-428,برمجة,programming,编程,NOUN,ar,B2,12,keep,clean
-274,دعوى,lawsuit,诉讼,NOUN,ar,B2,13,keep,clean
-1638,تهيئة,development works,开发工程,NOUN,ar,B2,14,keep,clean
-1552,تقص,investigation,调查,NOUN,ar,B2,15,keep,clean
-449,تشفير,encryption,加密,NOUN,ar,B2,16,keep,clean
-555,بينما,while,然而,CCONJ,ar,B2,17,keep,clean
-1123,استدل,to reason,推理,VERB,ar,B2,18,keep,clean
-955,طاحونة,windmill,风车,NOUN,ar,B2,19,keep,clean
-363,رتبة,rank,等级,NOUN,ar,B2,20,keep,clean
-705,تطرف,extremism,极端主义,NOUN,ar,B2,21,keep,clean
-1523,تيه,bewilderment,迷惘,NOUN,ar,B2,22,keep,clean
-556,ولو,even if,即使,SCONJ,ar,B2,23,keep,clean
-409,عزل,insulation,隔热,NOUN,ar,B2,24,keep,clean
+605,كل,all/entirely,所有/完全,DET,ar,B2,1,keep,clean
+1109,خمن,to guess,猜测,VERB,ar,B2,2,keep,clean
+1142,منذ,since,自从,SCONJ,ar,B2,3,keep,clean
+554,حيث,whereas,既然,CCONJ,ar,B2,4,keep,clean
+102,ركود,recession,衰退,NOUN,ar,B2,5,keep,clean
+561,بخصوص,regarding,关于,ADP,ar,B2,6,keep,clean
+438,بروفيل,profile,个人资料,NOUN,ar,B2,7,keep,clean
+1203,تداريب,training sessions,训练课,NOUN,ar,B2,8,keep,clean
+1494,تهور,recklessness,鲁莽,NOUN,ar,B2,9,keep,clean
+1527,مشترك,subscriber,订阅者,NOUN,ar,B2,10,keep,clean
+954,مطحنة,mill,磨坊,NOUN,ar,B2,11,keep,clean
+1723,موروث,inherited,遗传的,ADJ,ar,B2,12,keep,clean
+382,تصميم,design,设计,NOUN,ar,B2,13,keep,clean
+226,مقرض,lender,贷款人,NOUN,ar,B2,14,keep,clean
+617,مثابرة,perseverance,毅力/勤勉,NOUN,ar,B2,15,keep,clean
+689,طيبة,kindheartedness,善良,NOUN,ar,B2,16,keep,clean
+174,ازدهار,prosperity,繁荣,NOUN,ar,B2,17,keep,clean
+302,معتقل,detainee,被拘留者,NOUN,ar,B2,18,keep,clean
+1764,نقدا,in cash,以现金,ADV,ar,B2,19,keep,clean
+1249,كساب,livestock breeder,牲畜饲养员,NOUN,ar,B2,20,keep,clean
+1789,كرعين,trotters,猪蹄,NOUN,ar,B2,21,keep,clean
+482,شباب,youth,青年,NOUN,ar,B2,22,keep,clean
+528,مدمن,addict,瘾君子,NOUN,ar,B2,23,keep,clean
+9,بلاغ,official statement,官方声明,NOUN,ar,B2,24,keep,clean

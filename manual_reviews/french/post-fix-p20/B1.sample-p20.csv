@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-26,ajouter,to add,添加,VERB,fr,B1,1,keep,clean
-339,extraordinaire,extraordinary,非凡的,ADJ,fr,B1,2,keep,clean
-630,pratiquement,practically,几乎,ADV,fr,B1,3,keep,clean
-719,quelqu'un,someone,某人,PRON,fr,B1,4,keep,clean
-497,manifestation,demonstration,示威,NOUN,fr,B1,5,keep,clean
-550,nomination,appointment,任命,NOUN,fr,B1,6,keep,clean
-136,candidature,application,申请,NOUN,fr,B1,7,keep,clean
-434,inscription,registration,注册,NOUN,fr,B1,8,keep,clean
-480,logiciel,software,软件,NOUN,fr,B1,9,keep,clean
-321,enlever,to remove,移除,VERB,fr,B1,10,keep,clean
-593,paysage,landscape,风景,NOUN,fr,B1,11,keep,clean
-354,financer,to finance/to fund,资助,VERB,fr,B1,12,keep,clean
-189,compostage,ticket validation,检票,NOUN,fr,B1,13,keep,clean
-829,retour,return,返回,NOUN,fr,B1,14,keep,clean
-124,bulletin,report card,成绩单,NOUN,fr,B1,15,keep,clean
-409,génération,generation,一代,NOUN,fr,B1,16,keep,clean
-562,océan,ocean,海洋,NOUN,fr,B1,17,keep,clean
-717,quel,which,哪个,DET,fr,B1,18,keep,clean
-609,plateforme,platform,平台,NOUN,fr,B1,19,keep,clean
-838,revêtir,to put on,穿上,VERB,fr,B1,20,keep,clean
-264,doublage,dubbing,配音,NOUN,fr,B1,21,keep,clean
-716,que,that,那,SCONJ,fr,B1,22,keep,clean
-713,quatorze,fourteen,十四,NUM,fr,B1,23,keep,clean
-796,rendement,yield,产量,NOUN,fr,B1,24,keep,clean
+294,déplacement,travel,出行,NOUN,fr,B1,1,keep,clean
+353,financement,financing/funding,融资,NOUN,fr,B1,2,keep,clean
+284,délai,time limit,期限,NOUN,fr,B1,3,keep,clean
+599,pessimisme,pessimism,悲观,NOUN,fr,B1,4,keep,clean
+708,quarante,forty,四十,NUM,fr,B1,5,keep,clean
+873,ruisseau,brook,小溪,NOUN,fr,B1,6,keep,clean
+244,dette,debt,债务,NOUN,fr,B1,7,keep,clean
+650,promettre,to promise,承诺,VERB,fr,B1,8,keep,clean
+833,retrouvailles,reunion,重逢,NOUN,fr,B1,9,keep,clean
+690,puisque,since,既然,SCONJ,fr,B1,10,keep,clean
+351,fierté,pride,骄傲,NOUN,fr,B1,11,keep,clean
+644,profondément,deeply/profoundly,深刻地,ADV,fr,B1,12,keep,clean
+522,montée,rise,上升,NOUN,fr,B1,13,keep,clean
+619,porte-parole,spokesperson,发言人,NOUN,fr,B1,14,keep,clean
+717,quel,which,哪个,DET,fr,B1,15,keep,clean
+763,recoudre,to sew again,重缝,VERB,fr,B1,16,keep,clean
+136,candidature,application,申请,NOUN,fr,B1,17,keep,clean
+419,identifier,to identify,识别,VERB,fr,B1,18,keep,clean
+723,quoi,what,什么,PRON,fr,B1,19,keep,clean
+23,agaçant,annoying,令人恼火的,ADJ,fr,B1,20,keep,clean
+758,recherche,research,研究,NOUN,fr,B1,21,keep,clean
+855,rocher,rock,岩石,NOUN,fr,B1,22,keep,clean
+385,gamme,range,范围,NOUN,fr,B1,23,keep,clean
+177,combattre,to fight,战斗,VERB,fr,B1,24,keep,clean

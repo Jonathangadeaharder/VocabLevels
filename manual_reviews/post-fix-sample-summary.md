@@ -1,20 +1,23 @@
-# Post-fix p20 summary (postfix-inv2)
+# Post-fix p20 summary (postfix-final)
 
-Seed `20260719:postfix-inv2`.
+Seed `20260719:postfix-final`.
 
-## Inventory
-`manual_reviews/arabic/dialect-residual-inventory.csv` expanded closed set.
-Drops applied include: راه, بلاتي, مبروك, بنة, طَاحَ, واش, هادشي, …
+## Closed dialect inventory
+`manual_reviews/arabic/dialect-residual-inventory.csv`
+Includes Maghrebi numerals (تلات*/جوج), French loans (بارطما/كراج/دوش/كراء/بوليس/كبطان),
+dialect adj (جيعان), prior function words.
 
-## DE/NL
-- german C1: wart removed (finite past); sein present
-- dutch C1: contracten → contract
+## Gloss fixes
+- إلا → except/unless (not if)
+- تكييف → conditioning/adaptation/AC (not qualification)
+- بأس → harm/strength/might (not sole might)
+- قضى → spend/judge/fulfill (not run errands)
+- يعني → VERB to mean (not PART I mean)
 
 ## Sample
 Total: 951
 Verdicts: {'keep': 951}
 Correctness fix/drop in sample: 0
-policy keeps: 0
 
 ## Non-keep correctness
 _None._

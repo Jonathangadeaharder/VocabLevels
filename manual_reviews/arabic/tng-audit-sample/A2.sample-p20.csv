@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-363,غاب,to be absent,缺席,VERB,ar,A2,1,keep,clean
-305,نهاية,end,结束,NOUN,ar,A2,2,keep,clean
-468,إلا,if,如果,SCONJ,ar,A2,3,keep,clean
-224,دراجة,bicycle,自行车,NOUN,ar,A2,4,keep,clean
-463,شيء,thing,事物,NOUN,ar,A2,5,keep,clean
-291,أحياناً,sometimes,有时,ADV,ar,A2,6,keep,clean
-42,بائع,seller,卖方,NOUN,ar,A2,7,keep,clean
-101,كرموس,fig,无花果,NOUN,ar,A2,8,keep,clean
-215,فصل,season,季节,NOUN,ar,A2,9,keep,clean
-260,دفتر,notebook,笔记本,NOUN,ar,A2,10,keep,clean
-47,ربع,quarter,四分之一,NOUN,ar,A2,11,keep,clean
-383,قلع,to remove / to pull out,拔出 / 移除,VERB,ar,A2,12,keep,clean
-120,عزيز,dear,亲爱的,ADJ,ar,A2,13,keep,clean
-245,عند,at,在,ADP,ar,A2,14,keep,clean
-247,ساق,to drive,驾驶,VERB,ar,A2,15,keep,clean
-63,لفت,turnip,芜菁,NOUN,ar,A2,16,keep,clean
-464,وحدة,unit,单位,NOUN,ar,A2,17,keep,clean
-469,ولا,or,或者,CCONJ,ar,A2,18,keep,clean
-315,أربعاء,Wednesday,星期三,NOUN,ar,A2,19,keep,clean
-316,خميس,Thursday,星期四,NOUN,ar,A2,20,keep,clean
-466,يعني,I mean,意思是,PART,ar,A2,21,keep,clean
-267,مستوى,level,水平 / 级别,NOUN,ar,A2,22,keep,clean
-348,سرق,to steal,偷,VERB,ar,A2,23,keep,clean
+352,خوى,to empty,变空,VERB,ar,A2,1,keep,clean
+241,عبر,across,穿过,ADP,ar,A2,2,keep,clean
+60,رمان,pomegranate,石榴,NOUN,ar,A2,3,keep,clean
+153,فحم,charcoal,木炭,NOUN,ar,A2,4,keep,clean
+461,ولا,or,或者,CCONJ,ar,A2,5,keep,clean
+168,ملابس,clothes,衣服,NOUN,ar,A2,6,keep,clean
+435,غني,rich,富有的,ADJ,ar,A2,7,keep,clean
+466,حتى,until,直到,SCONJ,ar,A2,8,keep,clean
+222,بنزين,gasoline,汽油,NOUN,ar,A2,9,keep,clean
+311,خميس,Thursday,星期四,NOUN,ar,A2,10,keep,clean
+388,سمى,to name,命名,VERB,ar,A2,11,keep,clean
+347,تلف,to get lost,迷路,VERB,ar,A2,12,keep,clean
+68,برتقال,orange,橙子,NOUN,ar,A2,13,keep,clean
+448,قد,already / may (particle),已经 / 或许（助词）,PART,ar,A2,14,keep,clean
+133,سطح,roof / terrace,屋顶/露台,NOUN,ar,A2,15,keep,clean
+174,زر,button,纽扣,NOUN,ar,A2,16,keep,clean
+44,كيلوغرام,kilogram,公斤,NOUN,ar,A2,17,keep,clean
+247,زيارة,visit,访问,NOUN,ar,A2,18,keep,clean
+469,حمام,public bath,公共浴室,NOUN,ar,A2,19,keep,clean
+313,سبت,Saturday,星期六,NOUN,ar,A2,20,keep,clean
+468,واقيلا,probably,可能,ADV,ar,A2,21,keep,clean
+330,حمل,to carry,携带,VERB,ar,A2,22,keep,clean
+220,ترام,tram,有轨电车,NOUN,ar,A2,23,keep,clean

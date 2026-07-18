@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-255,natt,night,夜晚,NOUN,sv,A1,1,keep,clean
-408,var,where,哪里,ADV,sv,A1,2,keep,clean
-287,restaurang,restaurant,餐厅,NOUN,sv,A1,3,keep,clean
-307,sju,seven,七,NUM,sv,A1,4,keep,clean
-329,socker,sugar,糖,NOUN,sv,A1,5,keep,clean
-257,nej,no,不,INTJ,sv,A1,6,keep,clean
-364,ta,to take,拿,VERB,sv,A1,7,keep,clean
-233,men,but,但是,CCONJ,sv,A1,8,keep,clean
-14,att,to (infinitive marker),去（不定式标记）,PART,sv,A1,9,keep,clean
-279,penna,pen,笔,NOUN,sv,A1,10,keep,clean
-420,viktig,important,重要的,ADJ,sv,A1,11,keep,clean
-492,eftersom,because,因为,SCONJ,sv,A1,12,keep,clean
-110,fågel,bird,鸟,NOUN,sv,A1,13,keep,clean
-419,vid,by,在……旁边,ADP,sv,A1,14,keep,clean
-466,bör,should,应该,AUX,sv,A1,15,keep,clean
-396,tvättmaskin,washing machine,洗衣机,NOUN,sv,A1,16,keep,clean
-354,svara,to answer,回答,VERB,sv,A1,17,keep,clean
-360,säng,bed,床,NOUN,sv,A1,18,keep,clean
-280,plast,plastic,塑料,NOUN,sv,A1,19,keep,clean
-504,fall,case,情况,NOUN,sv,A1,20,keep,clean
-235,min,my,我的,DET,sv,A1,21,keep,clean
-443,ö,island,岛屿,NOUN,sv,A1,22,keep,clean
-3,alla,all/everyone,所有/大家,PRON,sv,A1,23,keep,clean
+505,fan,devil/damn,魔鬼/该死,NOUN,sv,A1,1,keep,clean
+466,bör,should,应该,AUX,sv,A1,2,keep,clean
+41,buss,bus,公共汽车,NOUN,sv,A1,3,keep,clean
+470,bruka,use to/usually,通常/习惯于,VERB,sv,A1,4,keep,clean
+371,te,tea,茶,NOUN,sv,A1,5,keep,clean
+313,sjutton,seventeen,十七,NUM,sv,A1,6,keep,clean
+75,eller,or,或,CCONJ,sv,A1,7,keep,clean
+267,någon,someone,某人,PRON,sv,A1,8,keep,clean
+77,era,your (plural),你们的,DET,sv,A1,9,keep,clean
+440,år,year,年,NOUN,sv,A1,10,keep,clean
+111,får,sheep,羊,NOUN,sv,A1,11,keep,clean
+45,bära,to carry,携带,VERB,sv,A1,12,keep,clean
+347,strand,beach,海滩,NOUN,sv,A1,13,keep,clean
+403,utan,without,没有,ADP,sv,A1,14,keep,clean
+326,smör,butter,黄油,NOUN,sv,A1,15,keep,clean
+434,värme,heat,热,NOUN,sv,A1,16,keep,clean
+492,eftersom,because,因为,SCONJ,sv,A1,17,keep,clean
+516,fortfarande,still,仍然,ADV,sv,A1,18,keep,clean
+14,att,to (infinitive marker),去（不定式标记）,PART,sv,A1,19,keep,clean
+194,kontor,office,办公室,NOUN,sv,A1,20,keep,clean
+392,tung,heavy,重的,ADJ,sv,A1,21,keep,clean
+143,hej,hello,你好,INTJ,sv,A1,22,keep,clean
+33,bok,book,书,NOUN,sv,A1,23,keep,clean
