@@ -1,24 +1,24 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-nl,A2,1,324,interessant,interesting,有趣的,ADJ,keep,clean
-nl,A2,2,86,kop,head,头,NOUN,keep,clean
-nl,A2,3,188,samenwerking,cooperation,合作,NOUN,keep,clean
-nl,A2,4,87,meerdere,several,几个,PRON,keep,clean
-nl,A2,5,244,doordat,because,因为,SCONJ,keep,clean
-nl,A2,6,255,drinken,to drink,喝,VERB,keep,clean
-nl,A2,7,150,reactie,response,回应,NOUN,keep,clean
-nl,A2,8,294,hoi,hi,嗨,INTJ,keep,clean
-nl,A2,9,341,allerlei,all kinds,各种各样的,DET,keep,clean
-nl,A2,10,321,bewijs,proof,证据,NOUN,keep,clean
-nl,A2,11,99,broer,brother,兄弟,NOUN,keep,clean
-nl,A2,12,230,huwelijk,marriage,婚姻,NOUN,keep,clean
-nl,A2,13,215,jongere,young person,年轻人,NOUN,keep,clean
-nl,A2,14,152,situatie,situation,情况,NOUN,keep,clean
-nl,A2,15,252,seks,sex,性,NOUN,keep,clean
-nl,A2,16,8,mens,human,人,NOUN,keep,clean
-nl,A2,17,299,straks,soon,稍后,ADV,keep,clean
-nl,A2,18,129,acht,eight,八,NUM,keep,clean
-nl,A2,19,24,antwoord,answer,回答,NOUN,keep,clean
-nl,A2,20,318,beleid,policy,政策,NOUN,keep,clean
-nl,A2,21,276,enorm,enormous,巨大的,ADJ,keep,clean
-nl,A2,22,156,dankzij,thanks to,多亏,ADP,keep,clean
-nl,A2,23,269,komend,coming,即将到来的,ADJ,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+167,gezicht,face,脸,NOUN,nl,A2,1,keep,clean
+158,kaart,card,卡片,NOUN,nl,A2,2,keep,clean
+3,alsof,as if,好像,SCONJ,nl,A2,3,keep,clean
+44,waarop,on which,在其上,PRON,nl,A2,4,keep,clean
+131,centraal,central,中心的,ADJ,nl,A2,5,keep,clean
+243,burgemeester,mayor,市长,NOUN,nl,A2,6,keep,clean
+25,bericht,message,消息,NOUN,nl,A2,7,keep,clean
+123,tegenwoordig,nowadays,如今,ADV,nl,A2,8,keep,clean
+53,leger,army,军队,NOUN,nl,A2,9,keep,clean
+149,pagina,page,页,NOUN,nl,A2,10,keep,clean
+14,zin,sentence,句子,NOUN,nl,A2,11,keep,clean
+294,hoi,hi,嗨,INTJ,nl,A2,12,keep,clean
+308,mond,mouth,嘴,NOUN,nl,A2,13,keep,clean
+34,ver,far,远的,ADJ,nl,A2,14,keep,clean
+279,maandag,Monday,星期一,NOUN,nl,A2,15,keep,clean
+260,post,mail,邮件,NOUN,nl,A2,16,keep,clean
+62,ontwikkeling,development,发展,NOUN,nl,A2,17,keep,clean
+300,wegens,because of,由于,ADP,nl,A2,18,keep,clean
+129,acht,eight,八,NUM,nl,A2,19,keep,clean
+166,gevolg,consequence,后果,NOUN,nl,A2,20,keep,clean
+153,spreken,to speak,说话,VERB,nl,A2,21,keep,clean
+284,stil,quiet,安静的,ADJ,nl,A2,22,keep,clean
+341,allerlei,all kinds,各种各样的,DET,nl,A2,23,keep,clean

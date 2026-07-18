@@ -25,7 +25,7 @@ from scripts.gemma_qa.cefr_refill import (
     load_other_level_collision_keys,
 )
 from scripts.gemma_qa.client import GemmaClient, GenerationResult, Usage
-from scripts.gemma_qa.config import MODEL_26B, MODEL_31B, INPUT_BATCH_TOKEN_CAP
+from scripts.gemma_qa.config import MODEL_26B, MODEL_31B, MODEL_ADJUDICATION, INPUT_BATCH_TOKEN_CAP
 from scripts.gemma_qa.ledger import Checkpoint, Ledger, prompt_hash
 from scripts.gemma_qa.language_repair import german_row_issues
 from scripts.gemma_qa.packing import TiktokenEstimator
@@ -810,11 +810,11 @@ def test_novel_disagreement_uses_31b_adjudication(tmp_path: Path) -> None:
         ledger=ledger,
     )
     assert completed[0].lemma == "Korrektur"
-    assert [model for model, _ in client.calls] == [
-        MODEL_31B,
-        MODEL_26B,
-        MODEL_31B,
-    ]
+    models = [model for model, _ in client.calls]
+    assert models[0] == MODEL_31B
+    assert models[1] == MODEL_26B
+    assert len(models) == 3
+    assert models[2] not in {MODEL_31B, MODEL_26B}
     ledger.close()
 
 
@@ -1262,6 +1262,64 @@ def test_gap_refill_writes_only_missing_rows_without_touching_committed_csv(
     ledger.close()
 
 
+def test_gap_refill_writes_partial_rows_when_novel_exhausts(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    monkeypatch.setitem(TARGETS, "A1", 5)
+    german = tmp_path / "german"
+    english = tmp_path / "english"
+    german.mkdir()
+    english.mkdir()
+    committed = german / "A1.csv"
+    committed.write_text(
+        "German_Lemma,English_Lemma,Chinese_Lemma,POS\n"
+        "eins,one,一,NUM\n"
+        "zwei,two,二,NUM\n"
+        "drei,three,三,NUM\n",
+        encoding="utf-8",
+    )
+    (english / "A1.csv").write_text(
+        "English_Lemma,English_Lemma,Chinese_Lemma,POS\n"
+        "one,one,一,NUM\n"
+        "two,two,二,NUM\n"
+        "three,three,三,NUM\n",
+        encoding="utf-8",
+    )
+    original = committed.read_bytes()
+    client = RefillClient()
+    original_novel = client._novel_row
+
+    def selective_novel(slot_id: str, *, exclusions: list[str]) -> dict[str, object]:
+        row = original_novel(slot_id, exclusions=exclusions)
+        if ":slot:1:" in slot_id and ":round:1" in slot_id:
+            row["action"] = ReviewAction.KEEP.value
+            row["lemma"] = "Neuheit"
+            row["english_lemma"] = "novelty"
+            row["chinese_lemma"] = "新奇"
+            row["upos"] = UPOS.NOUN.value
+        else:
+            row["action"] = ReviewAction.DROP.value
+        return row
+
+    client._novel_row = selective_novel  # type: ignore[method-assign]
+    ledger = Ledger(tmp_path / "ledger.sqlite3")
+    output = run_cefr_gap_refill(
+        root=tmp_path,
+        lang="german",
+        level="A1",
+        client=cast(CefrClient, client),
+        ledger=ledger,
+    )
+    assert committed.read_bytes() == original
+    assert output == german / "A1.gap.proposed.csv"
+    lines = output.read_text(encoding="utf-8").splitlines()
+    assert lines[0] == "German_Lemma,English_Lemma,Chinese_Lemma,POS"
+    assert len(lines) == 2
+    assert lines[1].startswith("Neuheit,")
+    ledger.close()
+
+
 def write_gap_decisions(
     directory: Path,
     decisions: list[dict[str, object]],
@@ -1440,4 +1498,29 @@ def test_gap_refill_applies_reject_decisions_dir(
         "German_Lemma,English_Lemma,Chinese_Lemma,POS",
         "vier,four,四,NUM",
     ]
+    ledger.close()
+
+
+def test_completion_protects_committed_loanwords_from_language_assert(
+    tmp_path: Path,
+) -> None:
+    """Gap refill must not re-fail frozen cognates (Hotel, Hand, Name, ...)."""
+    committed = review_row(0).model_copy(
+        update={"lemma": "Hotel", "english_lemma": "hotel", "upos": UPOS.NOUN}
+    )
+    ledger = Ledger(tmp_path / "ledger.sqlite3")
+    completed = complete_cefr_rows(
+        [committed],
+        concepts=[],
+        collision_keys=set(),
+        target=1,
+        lang="german",
+        level="A1",
+        client=RefillClient(),
+        ledger=ledger,
+        single_model=MODEL_31B,
+        protect_accepted=True,
+    )
+    assert len(completed) == 1
+    assert completed[0].lemma == "Hotel"
     ledger.close()

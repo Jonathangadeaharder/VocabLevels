@@ -22,7 +22,8 @@ from pydantic import (
 from vocab_schema import LEVELS
 
 from .cefr_refill import load_other_level_collision_keys, normalized_key
-from .language_repair import german_row_issues
+from .language_repair import cefr_row_issues
+from .languages import get_language
 from .schemas import CefrReviewRow, ReviewAction, UPOS
 from .validated import ValidatedStore, validated_store_path
 
@@ -151,6 +152,7 @@ def run_manual_review(
         else root / decisions_directory
     )
     decisions_directory = decisions_directory.resolve()
+    lang = get_language(lang).directory
     _validate_source_identity(source, root=root, lang=lang, level=level)
     decisions = read_decisions(decisions_directory)
     header, rows = _read_source(source, lang=lang)
@@ -341,11 +343,10 @@ def _validate_final_rows(
             upos=upos,
             action=ReviewAction.KEEP,
         )
-        if lang == "german":
-            issues = german_row_issues(review_row)
-            if issues:
-                codes = ", ".join(issue.code for issue in issues)
-                raise ValueError(f"{location}: German language gates failed: {codes}")
+        issues = cefr_row_issues(review_row, lang=lang)
+        if issues:
+            codes = ", ".join(issue.code for issue in issues)
+            raise ValueError(f"{location}: language gates failed: {codes}")
         key = normalized_key(row[0], upos)
         if key in seen:
             raise ValueError(f"{location}: duplicate normalized lemma and UPOS")

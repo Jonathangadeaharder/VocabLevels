@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-691,晒,to dry in the sun,晒,AUX,zh,B1,1,keep,clean
-16,与其,rather than,与其,CCONJ,zh,B1,2,keep,clean
-106,促使,to urge,促使,VERB,zh,B1,3,keep,clean
-164,凡是,all,凡是,DET,zh,B1,4,keep,clean
-294,唉,alas,唉,INTJ,zh,B1,5,keep,clean
-503,待遇,treatment,待遇,NOUN,zh,B1,6,keep,clean
-410,对于,regarding,对于,ADP,zh,B1,7,keep,clean
-948,粒,grain,粒,NOUN,zh,B1,8,keep,clean
-729,格外,especially,格外,ADV,zh,B1,9,keep,clean
-89,似的,like,似的,PART,zh,B1,10,keep,clean
-722,柜台,counter,柜台,NOUN,zh,B1,11,keep,clean
-761,池子,pond,池子,NOUN,zh,B1,12,keep,clean
-977,绳子,rope,绳子,NOUN,zh,B1,13,keep,clean
-389,宝贝,treasure,宝贝,NOUN,zh,B1,14,keep,clean
-403,宴会,banquet,宴会,NOUN,zh,B1,15,keep,clean
-693,景色,scenery,景色,NOUN,zh,B1,16,keep,clean
-420,寿命,life span,寿命,NOUN,zh,B1,17,keep,clean
-358,妨碍,to hinder,妨碍,VERB,zh,B1,18,keep,clean
-806,灾害,disaster,灾害,NOUN,zh,B1,19,keep,clean
-426,小气,stingy,小气,ADJ,zh,B1,20,keep,clean
-260,各自,each,各自,PRON,zh,B1,21,keep,clean
-469,庆祝,to celebrate,庆祝,VERB,zh,B1,22,keep,clean
-450,幅,"classifier for paintings, cloth, etc.",幅,NUM,zh,B1,23,keep,clean
-292,哪怕,even if,哪怕,SCONJ,zh,B1,24,keep,clean
+70,以来,since,以来,PART,zh,B1,1,keep,clean
+500,彼此,each other,彼此,PRON,zh,B1,2,keep,clean
+966,经典,classic,经典,NOUN,zh,B1,3,keep,clean
+691,晒,to dry in the sun,晒,AUX,zh,B1,4,keep,clean
+164,凡是,all,凡是,DET,zh,B1,5,keep,clean
+190,剪刀,scissors,剪刀,NOUN,zh,B1,6,keep,clean
+843,现实,reality,现实,NOUN,zh,B1,7,keep,clean
+423,小伙子,young man,小伙子,NOUN,zh,B1,8,keep,clean
+208,匹,classifier for horses,匹,NUM,zh,B1,9,keep,clean
+569,打工,to work part-time,打工,VERB,zh,B1,10,keep,clean
+410,对于,regarding,对于,ADP,zh,B1,11,keep,clean
+888,看来,apparently,看来,ADV,zh,B1,12,keep,clean
+687,是否,whether or not,是否,SCONJ,zh,B1,13,keep,clean
+555,戒烟,to quit smoking,戒烟,VERB,zh,B1,14,keep,clean
+927,程序,procedure,程序,NOUN,zh,B1,15,keep,clean
+174,切,to cut,切,VERB,zh,B1,16,keep,clean
+319,地理,geography,地理,NOUN,zh,B1,17,keep,clean
+674,日常,daily,日常,ADJ,zh,B1,18,keep,clean
+153,册,volume,册,NOUN,zh,B1,19,keep,clean
+867,登机牌,boarding pass,登机牌,NOUN,zh,B1,20,keep,clean
+69,以及,as well as,以及,CCONJ,zh,B1,21,keep,clean
+673,日历,calendar,日历,NOUN,zh,B1,22,keep,clean
+291,哈,ha,哈,INTJ,zh,B1,23,keep,clean
+296,商业,business,商业,NOUN,zh,B1,24,keep,clean

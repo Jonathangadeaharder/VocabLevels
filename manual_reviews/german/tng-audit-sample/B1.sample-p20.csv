@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-de,B1,1,37,außerhalb,outside of,在...之外,ADP,keep,clean
-de,B1,2,46,befreien,to free,解放,VERB,keep,clean
-de,B1,3,153,Erlaubnis,permission,许可,NOUN,keep,clean
-de,B1,4,611,Zustand,condition,状态,NOUN,keep,clean
-de,B1,5,520,tschüs,bye,再见,INTJ,keep,clean
-de,B1,6,127,Eindruck,impression,印象,NOUN,keep,clean
-de,B1,7,96,dessen,whose,其,PRON,keep,clean
-de,B1,8,448,Schock,shock,震惊,NOUN,keep,clean
-de,B1,9,376,Opfer,victim,受害者,NOUN,keep,clean
-de,B1,10,553,vermutlich,probably,大概,ADV,keep,clean
-de,B1,11,31,aufgeregt,excited,兴奋的,ADJ,keep,clean
-de,B1,12,260,indem,by doing,通过,SCONJ,keep,clean
-de,B1,13,615,zwölf,twelve,十二,NUM,keep,clean
-de,B1,14,106,Direktor,director,主任,NOUN,keep,clean
-de,B1,15,583,welches,which,哪个,DET,keep,clean
-de,B1,16,216,Geräusch,noise,噪音,NOUN,keep,clean
-de,B1,17,556,Verräter,traitor,叛徒,NOUN,keep,clean
-de,B1,18,602,Zufall,coincidence,巧合,NOUN,keep,clean
-de,B1,19,144,entweder,either,要么,CCONJ,keep,clean
-de,B1,20,251,Hintern,buttocks,屁股,NOUN,keep,clean
-de,B1,21,143,entlassen,to dismiss,解雇,VERB,keep,clean
-de,B1,22,295,Kommissar,commissioner,专员,NOUN,keep,clean
-de,B1,23,311,Labor,laboratory,实验室,NOUN,keep,clean
-de,B1,24,502,Süden,south,南方,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+318,leer,empty,空的,ADJ,de,B1,1,keep,clean
+120,Edelmann,nobleman,贵族,NOUN,de,B1,2,keep,clean
+61,besprechen,to discuss,讨论,VERB,de,B1,3,keep,clean
+350,Mond,moon,月亮,NOUN,de,B1,4,keep,clean
+144,entweder,either,要么,CCONJ,de,B1,5,keep,clean
+583,welches,which,哪个,DET,de,B1,6,keep,clean
+536,Untersuchung,investigation,调查,NOUN,de,B1,7,keep,clean
+430,Schaden,damage,损害,NOUN,de,B1,8,keep,clean
+339,mindestens,at least,至少,ADV,de,B1,9,keep,clean
+366,Neuigkeit,news,新闻,NOUN,de,B1,10,keep,clean
+573,wachsen,to grow,生长,VERB,de,B1,11,keep,clean
+175,Fisch,fish,鱼,NOUN,de,B1,12,keep,clean
+130,einiges,some things,一些事情,PRON,de,B1,13,keep,clean
+381,Pater,father,神父,NOUN,de,B1,14,keep,clean
+467,Sendung,broadcast,广播节目,NOUN,de,B1,15,keep,clean
+367,neun,nine,九,NUM,de,B1,16,keep,clean
+260,indem,by doing,通过,SCONJ,de,B1,17,keep,clean
+288,Knast,jail,监狱,NOUN,de,B1,18,keep,clean
+396,prost,cheers,干杯,INTJ,de,B1,19,keep,clean
+32,Aufmerksamkeit,attention,注意力,NOUN,de,B1,20,keep,clean
+37,außerhalb,outside of,在...之外,ADP,de,B1,21,keep,clean
+294,Kollege,colleague,同事,NOUN,de,B1,22,keep,clean
+55,Berg,mountain,山,NOUN,de,B1,23,keep,clean
+518,Trottel,fool,傻瓜,NOUN,de,B1,24,keep,clean

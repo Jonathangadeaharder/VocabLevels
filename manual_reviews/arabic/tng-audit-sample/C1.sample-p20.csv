@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-ar,C1,1,190,عقب,after,紧随其后,ADP,keep,clean
-ar,C1,2,2587,مَكْنَنة,mechanization,机械化,NOUN,keep,clean
-ar,C1,3,1211,جدولة,scheduling,计划,NOUN,keep,clean
-ar,C1,4,187,أي,that is to say,即,CCONJ,keep,clean
-ar,C1,5,321,عائدات,revenues,收入,NOUN,keep,clean
-ar,C1,6,192,بشرط,on condition,条件是,SCONJ,keep,clean
-ar,C1,7,2177,تَلَوُّث,pollution,污染,NOUN,keep,clean
-ar,C1,8,3578,عزيف,whistling,呼啸声,NOUN,keep,clean
-ar,C1,9,586,ديوان,poetry collection,诗集,NOUN,keep,clean
-ar,C1,10,3002,دادائية,dadaism,达达主义,NOUN,keep,clean
-ar,C1,11,3215,نهضة,renaissance,复兴,NOUN,keep,clean
-ar,C1,12,201,لعل,perhaps,也许,PART,keep,clean
-ar,C1,13,3471,استئناسا,for guidance/orientation,供参考/作为指引,ADV,keep,clean
-ar,C1,14,2079,قاطِع,breaker / cutter,断路器 / 刀具,NOUN,keep,clean
-ar,C1,15,109,أصول,assets,资产,NOUN,keep,clean
-ar,C1,16,1601,شرفي,honorary,荣誉的,ADJ,keep,clean
-ar,C1,17,1112,انتفاضة,uprising,起义,NOUN,keep,clean
-ar,C1,18,1570,حرر,to liberate,解放,VERB,keep,clean
-ar,C1,19,2711,بُروتين,protein,蛋白质,NOUN,keep,clean
-ar,C1,20,2522,مَناخِيّات,climatology,气候学,NOUN,keep,clean
-ar,C1,21,964,لائحة,regulation,条例,NOUN,keep,clean
-ar,C1,22,2446,مُثَلَّثَات,trigonometry,三角学,NOUN,keep,clean
-ar,C1,23,1863,عَائِق,impediment,阻碍,NOUN,keep,clean
-ar,C1,24,1316,غرفة,chamber,议院,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+187,أي,that is to say,即,CCONJ,ar,C1,1,keep,clean
+2104,قَصّ,shear,剪切,NOUN,ar,C1,2,keep,clean
+3573,مصاحبة,co-occurrence,共现,NOUN,ar,C1,3,keep,clean
+1259,محاكاة,simulation,模拟,NOUN,ar,C1,4,keep,clean
+3775,تسميع,recitation,背诵,NOUN,ar,C1,5,keep,clean
+737,مصطلحات,terminology,术语,NOUN,ar,C1,6,keep,clean
+728,طباق,antithesis,对偶,NOUN,ar,C1,7,keep,clean
+2028,هَنْدَسة,engineering,工程,NOUN,ar,C1,8,keep,clean
+201,لعل,perhaps,也许,PART,ar,C1,9,keep,clean
+883,كفاف,sufficiency,勉强够用,NOUN,ar,C1,10,keep,clean
+190,عقب,after,紧随其后,ADP,ar,C1,11,keep,clean
+3657,تَوًّا,just now,刚刚,ADV,ar,C1,12,keep,clean
+664,معجزة,miracle,奇迹,NOUN,ar,C1,13,keep,clean
+468,مطبات,speed bumps,减速带,NOUN,ar,C1,14,keep,clean
+723,تأنيث,feminization,阴性化,NOUN,ar,C1,15,keep,clean
+138,فدية,ransom,赎金,NOUN,ar,C1,16,keep,clean
+2258,بَذْر,sowing,播种,NOUN,ar,C1,17,keep,clean
+3777,ملكة,faculty,天赋,NOUN,ar,C1,18,keep,clean
+3208,فندق,caravanserai,商队旅馆,NOUN,ar,C1,19,keep,clean
+193,لئلا,lest,以免,SCONJ,ar,C1,20,keep,clean
+3140,حلي,jewelry,首饰,NOUN,ar,C1,21,keep,clean
+2596,مُعالَجِيّ,processing,处理的,ADJ,ar,C1,22,keep,clean
+227,شرّع,to legitimize,使合法化,VERB,ar,C1,23,keep,clean
+1046,إحضار,production,提交,NOUN,ar,C1,24,keep,clean

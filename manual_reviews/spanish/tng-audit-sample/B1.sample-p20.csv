@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-es,B1,1,408,enlace,link,链接,NOUN,keep,clean
-es,B1,2,202,cincuenta,fifty,五十,NUM,keep,clean
-es,B1,3,52,ambiente,atmosphere/environment,环境/气氛,NOUN,keep,clean
-es,B1,4,543,grabar,record,录制,VERB,keep,clean
-es,B1,5,585,huella,footprint,脚印,NOUN,keep,clean
-es,B1,6,58,aparato,device,设备/器械,NOUN,keep,clean
-es,B1,7,407,enhorabuena,congratulations,恭喜,INTJ,keep,clean
-es,B1,8,680,localizar,locate,定位,VERB,keep,clean
-es,B1,9,806,prioridad,priority,优先权; 重点,NOUN,keep,clean
-es,B1,10,335,descripción,description,描述,NOUN,keep,clean
-es,B1,11,504,fotografía,photograph,照片,NOUN,keep,clean
-es,B1,12,181,celebración,celebration,庆祝,NOUN,keep,clean
-es,B1,13,70,aquello,that (neutral over there),那个事物,PRON,keep,clean
-es,B1,14,107,ausencia,absence,缺席,NOUN,keep,clean
-es,B1,15,892,superar,to overcome,克服,VERB,keep,clean
-es,B1,16,140,borde,edge,边缘,NOUN,keep,clean
-es,B1,17,610,infancia,childhood,童年,NOUN,keep,clean
-es,B1,18,496,flecha,arrow,箭,NOUN,keep,clean
-es,B1,19,159,candidato,candidate,候选人,NOUN,keep,clean
-es,B1,20,328,desafortunadamente,unfortunately,不幸地,ADV,keep,clean
-es,B1,21,620,inicio,beginning,开始,NOUN,keep,clean
-es,B1,22,635,inusual,unusual,不寻常的,ADJ,keep,clean
-es,B1,23,816,puerto,port,港口,NOUN,keep,clean
-es,B1,24,779,pecado,sin,罪,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+50,amar,to love,爱,VERB,es,B1,1,keep,clean
+811,progreso,progress,进步; 进展,NOUN,es,B1,2,keep,clean
+70,aquello,that (neutral over there),那个事物,PRON,es,B1,3,keep,clean
+777,patrulla,patrol,巡逻,NOUN,es,B1,4,keep,clean
+328,desafortunadamente,unfortunately,不幸地,ADV,es,B1,5,keep,clean
+849,risa,laughter,笑声,NOUN,es,B1,6,keep,clean
+915,treinta,thirty,三十,NUM,es,B1,7,keep,clean
+903,tensión,tension,紧张,NOUN,es,B1,8,keep,clean
+259,confusión,confusion,混乱,NOUN,es,B1,9,keep,clean
+360,disfraz,disguise,伪装,NOUN,es,B1,10,keep,clean
+625,instante,moment,瞬间,NOUN,es,B1,11,keep,clean
+106,aumento,increase,增加,NOUN,es,B1,12,keep,clean
+878,soledad,loneliness,孤独,NOUN,es,B1,13,keep,clean
+762,oreja,ear,耳朵,NOUN,es,B1,14,keep,clean
+407,enhorabuena,congratulations,恭喜,INTJ,es,B1,15,keep,clean
+889,sufrir,to suffer,遭受,VERB,es,B1,16,keep,clean
+763,organización,organization,组织,NOUN,es,B1,17,keep,clean
+495,firmar,sign,签署,VERB,es,B1,18,keep,clean
+607,indio,Indian,印第安人,NOUN,es,B1,19,keep,clean
+872,sentencia,sentence,判决,NOUN,es,B1,20,keep,clean
+48,alternativa,alternative,替代方案,NOUN,es,B1,21,keep,clean
+440,espantoso,frightful,可怕的,ADJ,es,B1,22,keep,clean
+291,crema,cream,奶油,NOUN,es,B1,23,keep,clean
+537,globo,balloon,气球,NOUN,es,B1,24,keep,clean

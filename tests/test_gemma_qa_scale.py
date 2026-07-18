@@ -86,8 +86,8 @@ def test_scale_continues_resumes_and_retries_failures(tmp_path: Path) -> None:
 
 def test_scale_state_redacts_api_key(tmp_path: Path) -> None:
     secret = "test-secret-key"
-    previous = os.environ.get("GEMINI_API_KEY")
-    os.environ["GEMINI_API_KEY"] = secret
+    previous = os.environ.get("API_KEY")
+    os.environ["API_KEY"] = secret
     try:
         config = ScaleConfig(
             root=tmp_path,
@@ -109,9 +109,9 @@ def test_scale_state_redacts_api_key(tmp_path: Path) -> None:
         assert "[REDACTED]" in (record.error or "")
     finally:
         if previous is None:
-            os.environ.pop("GEMINI_API_KEY", None)
+            os.environ.pop("API_KEY", None)
         else:
-            os.environ["GEMINI_API_KEY"] = previous
+            os.environ["API_KEY"] = previous
 
 
 def test_scale_defaults_to_proposals_without_refill_or_apply(tmp_path: Path) -> None:
@@ -189,11 +189,12 @@ def test_changed_apply_mode_is_not_skipped_as_prior_success(tmp_path: Path) -> N
 
 
 def test_phase_workers_do_not_share_owned_resources(tmp_path: Path) -> None:
-    owners: list[int] = []
+    """Each phase gets its own execute callable from the factory (no shared client)."""
+    owners: list[object] = []
 
     def executor_factory() -> Callable[[ScaleTask, ScaleConfig], Path]:
         owner = object()
-        owners.append(id(owner))
+        owners.append(owner)
 
         def execute(task: ScaleTask, config: ScaleConfig) -> Path:
             _ = owner
@@ -211,4 +212,51 @@ def test_phase_workers_do_not_share_owned_resources(tmp_path: Path) -> None:
     result = run_scale(config, executor_factory=executor_factory)
     assert result.succeeded == 2
     assert len(owners) == 2
-    assert len(set(owners)) == 2
+    assert owners[0] is not owners[1]
+
+
+def test_both_phases_run_cefr_before_handcraft(tmp_path: Path) -> None:
+    order: list[str] = []
+
+    def execute(task: ScaleTask, config: ScaleConfig) -> Path:
+        order.append(task.key)
+        return tmp_path / task.key
+
+    run_scale(
+        ScaleConfig(
+            root=tmp_path,
+            lemmatizer_root=tmp_path / "lemmatizer",
+            languages=("en",),
+            levels=("A1", "A2"),
+            phases=("cefr", "handcraft"),
+        ),
+        execute=execute,
+    )
+    assert order[:2] == ["cefr:en:A1", "cefr:en:A2"]
+    assert order[2:] == ["handcraft:en:A1", "handcraft:en:A2"]
+
+
+def test_handcraft_blocked_when_cefr_sibling_failed(tmp_path: Path) -> None:
+    def cefr_only_fail(task: ScaleTask, config: ScaleConfig) -> Path:
+        if task.phase == "cefr":
+            raise RuntimeError("cefr boom")
+        return tmp_path / task.key
+
+    result = run_scale(
+        ScaleConfig(
+            root=tmp_path,
+            lemmatizer_root=tmp_path / "lemmatizer",
+            languages=("en",),
+            levels=("A1",),
+            phases=("cefr", "handcraft"),
+        ),
+        execute=cefr_only_fail,
+    )
+    assert result.failed == 2
+    assert result.succeeded == 0
+    state = ScaleState(tmp_path / ".gemma_qa" / "scale.sqlite3")
+    handcraft = state.get("handcraft:en:A1")
+    assert handcraft is not None
+    assert handcraft.status == "failed"
+    assert handcraft.error is not None
+    assert "handcraft blocked" in handcraft.error

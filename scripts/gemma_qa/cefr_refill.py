@@ -41,6 +41,7 @@ from .schemas import (
 )
 from .routing import resolve_adjudication_model
 from .semantic_generation import checkpointed_semantic_generate
+from .trace import event
 
 MAX_REFILL_RECORDS = 24
 MAX_REFILL_OUTPUT_TOKENS = 2_048
@@ -50,7 +51,14 @@ MAX_NOVEL_OUTPUT_TOKENS = 2_048
 
 
 class ReviewRequiredError(ValueError):
-    pass
+    def __init__(
+        self,
+        message: str,
+        *,
+        partial_rows: Sequence[CefrReviewRow] | None = None,
+    ) -> None:
+        super().__init__(message)
+        self.partial_rows = list(partial_rows or [])
 
 
 class RefillClient(Protocol):
@@ -181,19 +189,32 @@ def complete_cefr_rows(
     ledger: Ledger,
     single_model: str | None = None,
     skipped_english_keys: set[tuple[str, UPOS]] | None = None,
+    protect_accepted: bool = False,
 ) -> list[CefrReviewRow]:
     if target <= 0:
         raise ValueError("target must be positive")
     if single_model is not None and single_model not in MODEL_IDS:
         raise ValueError(f"unsupported model: {single_model}")
     final = dedupe_review_rows(accepted, collision_keys)
+    # Gap refill: committed CSV rows may predate stricter gates (loanword
+    # english_echo, formal Sie). Full CEFR review still gates every row.
+    protected_keys = (
+        {normalized_key(row.lemma, row.upos) for row in final}
+        if protect_accepted
+        else set()
+    )
     if len(final) > target:
         raise ReviewRequiredError(
             f"{lang} {level}: {len(final)} unique review rows exceed target {target}; "
             "manual review required"
         )
     if len(final) == target:
-        return _assert_language_clean(final, lang=lang, level=level)
+        return _assert_language_clean(
+            final,
+            lang=lang,
+            level=level,
+            protected_keys=protected_keys,
+        )
 
     represented_concepts = {
         normalized_key(row.english_lemma, row.upos) for row in final
@@ -289,7 +310,12 @@ def complete_cefr_rows(
             ledger=ledger,
             single_model=single_model,
         )
-        return _assert_language_clean(final, lang=lang, level=level)
+        return _assert_language_clean(
+            final,
+            lang=lang,
+            level=level,
+            protected_keys=protected_keys,
+        )
 
     offset = 0
     ordered_concepts = represented_retry_concepts
@@ -341,7 +367,12 @@ def complete_cefr_rows(
             ledger=ledger,
             single_model=single_model,
         )
-    return _assert_language_clean(final, lang=lang, level=level)
+    return _assert_language_clean(
+        final,
+        lang=lang,
+        level=level,
+        protected_keys=protected_keys,
+    )
 
 
 def dedupe_review_rows(
@@ -406,8 +437,19 @@ def _complete_novel_rows(
     used_keys = {normalized_key(row.lemma, row.upos) for row in final}
     represented_english = {normalized_key(row.english_lemma, row.upos) for row in final}
     rejected_exclusions: list[str] = []
+    event(
+        "novel.start",
+        lang=lang,
+        level_name=level,
+        missing=missing,
+        baseline=len(final),
+        target=target,
+        single_model=single_model,
+    )
     for round_number in range(1, MAX_NOVEL_ATTEMPTS + 1):
+        before = len(final)
         rejected_slots: list[int] = []
+        reject_reasons: dict[str, int] = {}
         for start in range(0, len(pending_slots), MAX_NOVEL_RECORDS):
             slots = pending_slots[start : start + MAX_NOVEL_RECORDS]
             slot_ids = [
@@ -415,15 +457,40 @@ def _complete_novel_rows(
                 for slot in slots
             ]
             exclusions = _ordered_novel_exclusions(rejected_exclusions, final)
-            reviewed = _run_novel_batch(
-                slot_ids,
-                exclusions=exclusions,
+            event(
+                "novel.batch_start",
                 lang=lang,
-                level=level,
-                client=client,
-                ledger=ledger,
-                single_model=single_model,
+                level_name=level,
+                attempt=round_number,
+                slots=len(slots),
+                batch_id=f"{slot_ids[0]}..{slot_ids[-1]}" if slot_ids else None,
             )
+            try:
+                reviewed = _run_novel_batch(
+                    slot_ids,
+                    exclusions=exclusions,
+                    lang=lang,
+                    level=level,
+                    client=client,
+                    ledger=ledger,
+                    single_model=single_model,
+                )
+            except ValueError as error:
+                # Model returned wrong IDs/cardinality after repairs — retry slots later.
+                rejected_slots.extend(slots)
+                reject_reasons["identity"] = reject_reasons.get("identity", 0) + len(
+                    slots
+                )
+                event(
+                    "novel.batch_identity_error",
+                    level="WARN",
+                    lang=lang,
+                    level_name=level,
+                    attempt=round_number,
+                    slots=len(slots),
+                    error=str(error).splitlines()[0][:300],
+                )
+                continue
             for slot, candidate in zip(slots, reviewed.rows, strict=True):
                 accepted_candidate = CefrReviewRow.model_validate(
                     candidate.model_dump(mode="json")
@@ -439,6 +506,9 @@ def _complete_novel_rows(
                         )
                         _remember_rejected_key(rejected_exclusions, target_key)
                         rejected_slots.append(slot)
+                        reject_reasons["german_gate"] = (
+                            reject_reasons.get("german_gate", 0) + 1
+                        )
                         continue
                 if cefr_row_issues(accepted_candidate, lang=lang):
                     target_key = normalized_key(
@@ -447,6 +517,13 @@ def _complete_novel_rows(
                     )
                     _remember_rejected_key(rejected_exclusions, target_key)
                     rejected_slots.append(slot)
+                    codes = ",".join(
+                        issue.code
+                        for issue in cefr_row_issues(accepted_candidate, lang=lang)
+                    )
+                    reject_reasons[codes or "cefr_gate"] = (
+                        reject_reasons.get(codes or "cefr_gate", 0) + 1
+                    )
                     continue
                 target_key = normalized_key(
                     accepted_candidate.lemma,
@@ -462,24 +539,59 @@ def _complete_novel_rows(
                 ):
                     _remember_rejected_key(rejected_exclusions, target_key)
                     rejected_slots.append(slot)
+                    reject_reasons["hygiene"] = reject_reasons.get("hygiene", 0) + 1
                     continue
                 if target_key in collision_keys or target_key in used_keys:
                     _remember_rejected_key(rejected_exclusions, target_key)
                     rejected_slots.append(slot)
+                    reject_reasons["collision"] = reject_reasons.get("collision", 0) + 1
                     continue
                 if english_key in represented_english:
                     _remember_rejected_key(rejected_exclusions, target_key)
                     rejected_slots.append(slot)
+                    reject_reasons["english_dup"] = (
+                        reject_reasons.get("english_dup", 0) + 1
+                    )
                     continue
                 final.append(accepted_candidate)
                 used_keys.add(target_key)
                 represented_english.add(english_key)
+                event(
+                    "novel.accept",
+                    lang=lang,
+                    level_name=level,
+                    attempt=round_number,
+                    lemma=accepted_candidate.lemma,
+                    upos=accepted_candidate.upos.value,
+                    english_lemma=accepted_candidate.english_lemma,
+                )
         pending_slots = rejected_slots
+        event(
+            "novel.round_end",
+            lang=lang,
+            level_name=level,
+            attempt=round_number,
+            accepted=len(final) - before,
+            total=len(final),
+            target=target,
+            pending=len(pending_slots),
+            reject_reasons=reject_reasons or None,
+        )
         if not pending_slots:
             return final
+    event(
+        "novel.exhausted",
+        level="WARN",
+        lang=lang,
+        level_name=level,
+        total=len(final),
+        target=target,
+        pending=len(pending_slots),
+    )
     raise ReviewRequiredError(
         f"{lang} {level}: novel refill exhausted {MAX_NOVEL_ATTEMPTS} attempts "
-        f"at {len(final)} of {target}"
+        f"at {len(final)} of {target}",
+        partial_rows=final,
     )
 
 
@@ -543,10 +655,13 @@ def _assert_language_clean(
     *,
     lang: str,
     level: str,
+    protected_keys: set[tuple[str, UPOS]] | None = None,
 ) -> list[CefrReviewRow]:
+    protected = protected_keys or set()
     issues = [
         f"{row.id}:{issue.code}"
         for row in rows
+        if normalized_key(row.lemma, row.upos) not in protected
         for issue in cefr_row_issues(row, lang=lang)
     ]
     if issues:
@@ -629,7 +744,11 @@ def _run_novel_batch(
     return _checkpointed_novel(
         client=client,
         ledger=ledger,
-        model=resolve_adjudication_model(client),
+        model=resolve_adjudication_model(
+            client,
+            prompt=adjudication_prompt,
+            exclude=(MODEL_31B, MODEL_26B),
+        ),
         batch_id=f"{namespace}:adjudication",
         prompt=adjudication_prompt,
         slot_ids=slot_ids,
@@ -752,7 +871,11 @@ def _run_refill_batch(
     return _checkpointed_refill(
         client=client,
         ledger=ledger,
-        model=resolve_adjudication_model(client),
+        model=resolve_adjudication_model(
+            client,
+            prompt=adjudication_prompt,
+            exclude=(MODEL_31B, MODEL_26B),
+        ),
         batch_id=f"{namespace}:adjudication",
         prompt=adjudication_prompt,
         concepts=concepts,

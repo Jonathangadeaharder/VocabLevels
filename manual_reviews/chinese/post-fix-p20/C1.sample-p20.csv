@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-270,应,should,应,AUX,zh,C1,1,keep,clean
-253,并,and,并,CCONJ,zh,C1,2,keep,clean
-528,或,or,或,PART,zh,C1,3,keep,clean
-1968,迥异,different,迥异,ADJ,zh,C1,4,keep,clean
-2201,游行,parade,游行,NOUN,zh,C1,5,keep,clean
-2463,胎纹,tire tread,胎纹,NOUN,zh,C1,6,keep,clean
-2766,复合肥,compound fertilizer,复合肥,NOUN,zh,C1,7,keep,clean
-77,审美,aesthetics,审美,NOUN,zh,C1,8,keep,clean
-2379,退潮,low tide,退潮,NOUN,zh,C1,9,keep,clean
-218,差点,almost,差点,ADV,zh,C1,10,keep,clean
-1148,设计师,designer,设计师,NOUN,zh,C1,11,keep,clean
-3036,查阅,look up,查阅,VERB,zh,C1,12,keep,clean
-257,幸会,nice to meet you,幸会,INTJ,zh,C1,13,keep,clean
-1690,服务器,server,服务器,NOUN,zh,C1,14,keep,clean
-140,小丑,clown,小丑,NOUN,zh,C1,15,keep,clean
-2352,大雪,heavy snow,大雪,NOUN,zh,C1,16,keep,clean
-1009,陪审,jury service,陪审,NOUN,zh,C1,17,keep,clean
-2697,教条,dogma,教条,NOUN,zh,C1,18,keep,clean
-329,当中,among,当中,ADP,zh,C1,19,keep,clean
-8,妳,you (female),妳,PRON,zh,C1,20,keep,clean
-2,如同,as,如同,SCONJ,zh,C1,21,keep,clean
-3025,手写件,handwritten document,手写件,NOUN,zh,C1,22,keep,clean
-2342,暴风雨,storm,暴风雨,NOUN,zh,C1,23,keep,clean
-2034,农田,farmland,农田,NOUN,zh,C1,24,keep,clean
+253,并,and,并,CCONJ,zh,C1,1,keep,clean
+456,您好,hello (polite),您好,INTJ,zh,C1,2,keep,clean
+2,如同,as,如同,SCONJ,zh,C1,3,keep,clean
+576,渴望,longing,渴望,NOUN,zh,C1,4,keep,clean
+329,当中,among,当中,ADP,zh,C1,5,keep,clean
+671,收容所,shelter,收容所,NOUN,zh,C1,6,keep,clean
+191,岁月,years,岁月,NOUN,zh,C1,7,keep,clean
+1425,住院部,inpatient department,住院部,NOUN,zh,C1,8,keep,clean
+1511,可燃冰,flammable ice,可燃冰,NOUN,zh,C1,9,keep,clean
+1615,社会冲突,social conflict,社会冲突,NOUN,zh,C1,10,keep,clean
+808,表演赛,exhibition match,表演赛,NOUN,zh,C1,11,keep,clean
+133,将,will,将,ADV,zh,C1,12,keep,clean
+270,应,should,应,AUX,zh,C1,13,keep,clean
+235,帐篷,tent,帐篷,NOUN,zh,C1,14,keep,clean
+528,或,or,或,PART,zh,C1,15,keep,clean
+1473,变异,mutation,变异,NOUN,zh,C1,16,keep,clean
+401,怎样,how,怎样,PRON,zh,C1,17,keep,clean
+3055,纠正,correct,纠正,VERB,zh,C1,18,keep,clean
+2230,退伍,discharge,退伍,NOUN,zh,C1,19,keep,clean
+1712,扩展现实,extended reality,扩展现实,NOUN,zh,C1,20,keep,clean
+15,威望,prestige,威望,NOUN,zh,C1,21,keep,clean
+2295,玩偶,doll,玩偶,NOUN,zh,C1,22,keep,clean
+1140,公证人,notary,公证人,NOUN,zh,C1,23,keep,clean
+930,难以辨别,hard to identify,难以辨别,ADJ,zh,C1,24,keep,clean

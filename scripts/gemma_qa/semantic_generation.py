@@ -8,6 +8,7 @@ from pydantic import BaseModel
 
 from .client import GenerationResult, Usage
 from .ledger import Checkpoint, Ledger, prompt_hash
+from .trace import event, extract_thoughts, summarize_parsed
 
 ResponseT = TypeVar("ResponseT", bound=BaseModel)
 DEFAULT_SEMANTIC_ATTEMPTS = 3
@@ -50,13 +51,38 @@ def checkpointed_semantic_generate(
     if existing is not None:
         try:
             parsed, _ = client.parse_response(existing.response_json, response_model)
-            return validate(parsed)
-        except ValueError:
+            validated = validate(parsed)
+            event(
+                "semantic.checkpoint_hit",
+                model=model,
+                batch_id=batch_id,
+                response_model=response_model.__name__,
+                checkpoint="hit",
+                summary=summarize_parsed(validated),
+            )
+            return validated
+        except ValueError as error:
+            event(
+                "semantic.checkpoint_invalid",
+                level="WARN",
+                model=model,
+                batch_id=batch_id,
+                error=_concise_error(error),
+                checkpoint="stale",
+            )
             ledger.delete(digest, model, batch_id)
 
     current_prompt = prompt
     provenance: list[dict[str, object]] = []
     combined_usage = Usage(0, 0, 0)
+    event(
+        "semantic.start",
+        model=model,
+        batch_id=batch_id,
+        response_model=response_model.__name__,
+        checkpoint="miss",
+        max_output_tokens=max_output_tokens,
+    )
     for attempt_number in range(semantic_attempts):
         result = client.generate(
             model=model,
@@ -69,11 +95,24 @@ def checkpointed_semantic_generate(
             "request_json": result.request_json,
             "response_json": result.response_json,
         }
+        thoughts = extract_thoughts(result.response_json)
         try:
             parsed = validate(result.parsed)
         except ValueError as error:
             attempt["validation_error"] = _concise_error(error)
             provenance.append(attempt)
+            event(
+                "semantic.validation_error",
+                level="WARN",
+                model=model,
+                batch_id=batch_id,
+                attempt=attempt_number + 1,
+                error=_concise_error(error),
+                thoughts=thoughts or None,
+                summary=summarize_parsed(result.parsed),
+                prompt_tokens=result.usage.prompt_tokens,
+                candidate_tokens=result.usage.candidate_tokens,
+            )
             if attempt_number + 1 >= semantic_attempts:
                 raise
             current_prompt = _build_semantic_repair_prompt(
@@ -93,6 +132,17 @@ def checkpointed_semantic_generate(
                 response_json=result.response_json,
                 usage=combined_usage,
             )
+        )
+        event(
+            "semantic.ok",
+            model=model,
+            batch_id=batch_id,
+            attempt=attempt_number + 1,
+            thoughts=thoughts or None,
+            summary=summarize_parsed(parsed),
+            prompt_tokens=combined_usage.prompt_tokens,
+            candidate_tokens=combined_usage.candidate_tokens,
+            total_tokens=combined_usage.total_tokens,
         )
         return parsed
     raise RuntimeError("semantic attempt loop exhausted")

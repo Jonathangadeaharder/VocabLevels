@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-fr,B1,1,243,destiner,to intend,打算,VERB,keep,clean
-fr,B1,2,390,giboulée,sudden shower,阵雨,NOUN,keep,clean
-fr,B1,3,716,que,that,那,SCONJ,keep,clean
-fr,B1,4,588,partisan,supporter/advocate,支持者/拥护者,NOUN,keep,clean
-fr,B1,5,90,balance,scales,秤,NOUN,keep,clean
-fr,B1,6,266,doucement,gently,轻轻地,ADV,keep,clean
-fr,B1,7,215,copie,copy,副本,NOUN,keep,clean
-fr,B1,8,25,aise,ease,舒适,NOUN,keep,clean
-fr,B1,9,619,porte-parole,spokesperson,发言人,NOUN,keep,clean
-fr,B1,10,168,ciboulette,chives,细香葱,NOUN,keep,clean
-fr,B1,11,2,abri,shelter,庇护所,NOUN,keep,clean
-fr,B1,12,828,retirer,to withdraw,取出,VERB,keep,clean
-fr,B1,13,719,quelqu'un,someone,某人,PRON,keep,clean
-fr,B1,14,399,gratiner,to gratinate,烤成焦皮,VERB,keep,clean
-fr,B1,15,783,religieux,religious,宗教的,ADJ,keep,clean
-fr,B1,16,708,quarante,forty,四十,NUM,keep,clean
-fr,B1,17,697,pâte,dough,面团,NOUN,keep,clean
-fr,B1,18,717,quel,which,哪个,DET,keep,clean
-fr,B1,19,288,démission,resignation,辞职,NOUN,keep,clean
-fr,B1,20,26,ajouter,to add,添加,VERB,keep,clean
-fr,B1,21,261,documentaire,documentary,纪录片,NOUN,keep,clean
-fr,B1,22,829,retour,return,返回,NOUN,keep,clean
-fr,B1,23,574,orientation,orientation/direction,方向/定位,NOUN,keep,clean
-fr,B1,24,796,rendement,yield,产量,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+706,quand,when,当……时,SCONJ,fr,B1,1,keep,clean
+757,recevoir,to receive,收到,VERB,fr,B1,2,keep,clean
+455,juger,to judge,评判,VERB,fr,B1,3,keep,clean
+443,intégrer,to integrate,整合,VERB,fr,B1,4,keep,clean
+330,essentiellement,essentially,主要地,ADV,fr,B1,5,keep,clean
+72,audimat,TV ratings,收视率,NOUN,fr,B1,6,keep,clean
+415,hâte,haste,匆忙,NOUN,fr,B1,7,keep,clean
+713,quatorze,fourteen,十四,NUM,fr,B1,8,keep,clean
+623,potin,gossip,八卦,NOUN,fr,B1,9,keep,clean
+293,dépistage,screening,筛查,NOUN,fr,B1,10,keep,clean
+396,gourmand,fond of food,贪吃的,ADJ,fr,B1,11,keep,clean
+721,qui,who,谁,PRON,fr,B1,12,keep,clean
+112,boucle,loop,环,NOUN,fr,B1,13,keep,clean
+622,potentiel,potential,潜力,NOUN,fr,B1,14,keep,clean
+376,frontière,border/frontier,边界,NOUN,fr,B1,15,keep,clean
+29,alimentation,food,食物,NOUN,fr,B1,16,keep,clean
+101,biais,bias,偏见,NOUN,fr,B1,17,keep,clean
+327,envoi,sending,发送,NOUN,fr,B1,18,keep,clean
+784,remarque,remark,评论,NOUN,fr,B1,19,keep,clean
+256,dispositif,device/system,装置/系统,NOUN,fr,B1,20,keep,clean
+331,essoufflement,breathlessness,气喘,NOUN,fr,B1,21,keep,clean
+325,entraîner,to train,训练,VERB,fr,B1,22,keep,clean
+720,quelque,some,一些,DET,fr,B1,23,keep,clean
+755,reboisement,reforestation,重新造林,NOUN,fr,B1,24,keep,clean

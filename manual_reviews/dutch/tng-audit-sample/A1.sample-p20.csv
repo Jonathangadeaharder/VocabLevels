@@ -1,24 +1,24 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-nl,A1,1,271,eerder,earlier,较早,ADV,keep,clean
-nl,A1,2,388,tien,ten,十,NUM,keep,clean
-nl,A1,3,338,kant,side,边,NOUN,keep,clean
-nl,A1,4,181,nee,no,不,INTJ,keep,clean
-nl,A1,5,311,zoveel,so much,这么多,DET,keep,clean
-nl,A1,6,156,naam,name,名字,NOUN,keep,clean
-nl,A1,7,244,pas,only just,刚刚,ADV,keep,clean
-nl,A1,8,327,oorlog,war,战争,NOUN,keep,clean
-nl,A1,9,47,hebben,to have,有,AUX,keep,clean
-nl,A1,10,236,zoeken,to search,寻找,VERB,keep,clean
-nl,A1,11,193,natuurlijk,of course,当然,ADV,keep,clean
-nl,A1,12,112,groot,big,大的,ADJ,keep,clean
-nl,A1,13,13,te,to,去,PART,keep,clean
-nl,A1,14,71,onder,under,在...下面,ADP,keep,clean
-nl,A1,15,120,willen,to want,想要,VERB,keep,clean
-nl,A1,16,73,hun,their,他们的,PRON,keep,clean
-nl,A1,17,17,als,as,作为,SCONJ,keep,clean
-nl,A1,18,361,onderwijs,education,教育,NOUN,keep,clean
-nl,A1,19,136,vinden,to find,找到,VERB,keep,clean
-nl,A1,20,116,uur,hour,小时,NOUN,keep,clean
-nl,A1,21,43,wel,indeed,确实,ADV,keep,clean
-nl,A1,22,6,en,and,和,CCONJ,keep,clean
-nl,A1,23,344,gevoel,feeling,感觉,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+357,gelukkig,happy,快乐的,ADJ,nl,A1,1,keep,clean
+129,zitten,to sit,坐,VERB,nl,A1,2,keep,clean
+144,mogen,to be allowed to / may,可以,AUX,nl,A1,3,keep,clean
+238,onderzoek,research,研究,NOUN,nl,A1,4,keep,clean
+139,toe,to,向,ADP,nl,A1,5,keep,clean
+5,een,a,一个,DET,nl,A1,6,keep,clean
+347,beide,both,两者都,PRON,nl,A1,7,keep,clean
+13,te,to,去,PART,nl,A1,8,keep,clean
+304,beginnen,to start,开始,VERB,nl,A1,9,keep,clean
+87,dag,day,天,NOUN,nl,A1,10,keep,clean
+231,soms,sometimes,有时,ADV,nl,A1,11,keep,clean
+181,nee,no,不,INTJ,nl,A1,12,keep,clean
+200,familie,family,家庭,NOUN,nl,A1,13,keep,clean
+239,terwijl,while,当……时,SCONJ,nl,A1,14,keep,clean
+175,werken,to work,工作,VERB,nl,A1,15,keep,clean
+131,zelf,self,自己,ADV,nl,A1,16,keep,clean
+360,onderwijs,education,教育,NOUN,nl,A1,17,keep,clean
+379,avond,evening,晚上,NOUN,nl,A1,18,keep,clean
+74,twee,two,二,NUM,nl,A1,19,keep,clean
+6,en,and,和,CCONJ,nl,A1,20,keep,clean
+97,toen,when,当时,ADV,nl,A1,21,keep,clean
+223,nou,well,好了,ADV,nl,A1,22,keep,clean
+185,foto,photo,照片,NOUN,nl,A1,23,keep,clean

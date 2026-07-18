@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-ar,A1,1,234,أسبوع,week,周,NOUN,keep,clean
-ar,A1,2,422,هناك,there,那里,ADV,keep,clean
-ar,A1,3,15,باش,in order to,为了,SCONJ,keep,clean
-ar,A1,4,192,أَرُزّ,rice,米饭,NOUN,keep,clean
-ar,A1,5,382,قَرِيب,near,近的,ADJ,keep,clean
-ar,A1,6,230,سحاب,zipper,拉链,NOUN,keep,clean
-ar,A1,7,202,سَاعَة,hour,小时,NOUN,keep,clean
-ar,A1,8,452,مُسَمَّن,msemmen,摩洛哥煎饼,NOUN,keep,clean
-ar,A1,9,253,شكرا,thank you,谢谢,INTJ,keep,clean
-ar,A1,10,213,سد,close,关闭,VERB,keep,clean
-ar,A1,11,440,مدرسة,school,学校,NOUN,keep,clean
-ar,A1,12,468,مَكْتَب,office,办公室,NOUN,keep,clean
-ar,A1,13,60,تلتناش,thirteen,十三,NUM,keep,clean
-ar,A1,14,501,هؤلاء,these,这些,PRON,keep,clean
-ar,A1,15,506,تلك,that (feminine),那个,DET,keep,clean
-ar,A1,16,347,غطاء,blanket,毯子,NOUN,keep,clean
-ar,A1,17,278,صندل,sandal,凉鞋,NOUN,keep,clean
-ar,A1,18,156,ذاق,taste,品尝,VERB,keep,clean
-ar,A1,19,408,كُوَافِير,hairdresser,理发师,NOUN,keep,clean
-ar,A1,20,129,حوت,whale,鲸鱼,NOUN,keep,clean
-ar,A1,21,413,لا,no,不,PART,keep,clean
-ar,A1,22,369,فوق,above,在...上面,ADP,keep,clean
-ar,A1,23,80,جبل,mountain,山,NOUN,keep,clean
-ar,A1,24,53,تفاح,apple,苹果,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+348,غليظ,thick,厚的,ADJ,ar,A1,1,keep,clean
+31,بقى,stay/remain,停留/留下,VERB,ar,A1,2,keep,clean
+40,بوليس,police,警察,NOUN,ar,A1,3,keep,clean
+49,قطار,train,火车,NOUN,ar,A1,4,keep,clean
+285,ضيف,guest,客人,NOUN,ar,A1,5,keep,clean
+472,مَلِك,king,国王,NOUN,ar,A1,6,keep,clean
+322,عسل,honey,蜂蜜,NOUN,ar,A1,7,keep,clean
+346,غداء,lunch,午餐,NOUN,ar,A1,8,keep,clean
+158,دجاج,chicken,鸡,NOUN,ar,A1,9,keep,clean
+278,صندل,sandal,凉鞋,NOUN,ar,A1,10,keep,clean
+20,بدأ,start,开始,VERB,ar,A1,11,keep,clean
+117,حق,right,权利,NOUN,ar,A1,12,keep,clean
+56,تقاشر,socks,袜子,NOUN,ar,A1,13,keep,clean
+58,تلاتة,three,三,NUM,ar,A1,14,keep,clean
+306,طائرة,airplane,飞机,NOUN,ar,A1,15,keep,clean
+516,واخا,okay,好的,INTJ,ar,A1,16,keep,clean
+231,سوق,market,市场,NOUN,ar,A1,17,keep,clean
+85,جرح,wound,伤口,NOUN,ar,A1,18,keep,clean
+259,قليلا,a little,一点,ADV,ar,A1,19,keep,clean
+504,ذلك,that (masculine),那个,DET,ar,A1,20,keep,clean
+413,لا,no,不,PART,ar,A1,21,keep,clean
+15,باش,in order to,为了,SCONJ,ar,A1,22,keep,clean
+7,أنا,I,我,PRON,ar,A1,23,keep,clean
+424,خلف,behind,在...后面,ADP,ar,A1,24,keep,clean

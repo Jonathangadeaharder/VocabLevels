@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-zh,A1,1,288,阴,overcast,阴,ADJ,keep,clean
-zh,A1,2,84,工作,work / to work,工作,NOUN,keep,clean
-zh,A1,3,328,信,letter,信,NOUN,keep,clean
-zh,A1,4,162,但是,but,但是,CCONJ,keep,clean
-zh,A1,5,340,其实,actually,其实,ADV,keep,clean
-zh,A1,6,253,穿,to wear / to put on,穿,VERB,keep,clean
-zh,A1,7,105,杯子,cup,杯子,NOUN,keep,clean
-zh,A1,8,167,公斤,kilogram,公斤,NOUN,keep,clean
-zh,A1,9,254,笑,to laugh / smile,笑,VERB,keep,clean
-zh,A1,10,455,果汁,fruit juice,果汁,NOUN,keep,clean
-zh,A1,11,228,晚上,evening / night,晚上,NOUN,keep,clean
-zh,A1,12,184,哥哥,older brother,哥哥,NOUN,keep,clean
-zh,A1,13,131,能,can / to be able to,能,AUX,keep,clean
-zh,A1,14,21,些,some,些,DET,keep,clean
-zh,A1,15,141,谢谢,thank you,谢谢,INTJ,keep,clean
-zh,A1,16,384,地铁,subway,地铁,NOUN,keep,clean
-zh,A1,17,562,跟,heel,跟,NOUN,keep,clean
-zh,A1,18,426,把,object marker,把,ADP,keep,clean
-zh,A1,19,364,双,pair,双,NOUN,keep,clean
-zh,A1,20,19,二,two,二,NUM,keep,clean
-zh,A1,21,187,因为,because,因为,SCONJ,keep,clean
-zh,A1,22,381,地,-ly,地,PART,keep,clean
-zh,A1,23,275,踢,to kick,踢,VERB,keep,clean
-zh,A1,24,25,他,he / him,他,PRON,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+236,每,each / every,每,DET,zh,A1,1,keep,clean
+437,教,to teach,教,VERB,zh,A1,2,keep,clean
+524,耳朵,ear,耳朵,NOUN,zh,A1,3,keep,clean
+69,太,too,太,ADV,zh,A1,4,keep,clean
+296,黑,black,黑,ADJ,zh,A1,5,keep,clean
+55,哪儿,where,哪儿,PRON,zh,A1,6,keep,clean
+397,季节,season,季节,NOUN,zh,A1,7,keep,clean
+325,作业,homework,作业,NOUN,zh,A1,8,keep,clean
+258,给,to give,给,VERB,zh,A1,9,keep,clean
+544,表演,performance,表演,NOUN,zh,A1,10,keep,clean
+411,年级,grade,年级,NOUN,zh,A1,11,keep,clean
+131,能,can / to be able to,能,AUX,zh,A1,12,keep,clean
+73,妈妈,mom / mother,妈妈,NOUN,zh,A1,13,keep,clean
+560,超市,supermarket,超市,NOUN,zh,A1,14,keep,clean
+543,街道,street,街道,NOUN,zh,A1,15,keep,clean
+208,得,structural particle (after verb),得,PART,zh,A1,16,keep,clean
+260,考试,exam / to take an exam,考试,NOUN,zh,A1,17,keep,clean
+466,注意,to pay attention to,注意,VERB,zh,A1,18,keep,clean
+523,而且,moreover,而且,CCONJ,zh,A1,19,keep,clean
+11,不客气,you're welcome,不客气,INTJ,zh,A1,20,keep,clean
+268,课,class / lesson,课,NOUN,zh,A1,21,keep,clean
+15,九,nine,九,NUM,zh,A1,22,keep,clean
+155,为,for / to,为,ADP,zh,A1,23,keep,clean
+187,因为,because,因为,SCONJ,zh,A1,24,keep,clean

@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-es,A1,1,535,vale,okay,好的,INTJ,keep,clean
-es,A1,2,238,haber,there is/there are,有,VERB,keep,clean
-es,A1,3,395,pero,but,但是,CCONJ,keep,clean
-es,A1,4,42,ayuda,help,帮助,NOUN,keep,clean
-es,A1,5,389,peor,worse,更糟,ADJ,keep,clean
-es,A1,6,473,servicio,service,服务,NOUN,keep,clean
-es,A1,7,524,triste,sad,悲伤的,ADJ,keep,clean
-es,A1,8,529,un,a,一个,DET,keep,clean
-es,A1,9,303,mano,hand,手,NOUN,keep,clean
-es,A1,10,251,hoy,today,今天,ADV,keep,clean
-es,A1,11,431,que,that,那个,SCONJ,keep,clean
-es,A1,12,390,pequeño,small,小,ADJ,keep,clean
-es,A1,13,231,haber,to have (auxiliary),有,AUX,keep,clean
-es,A1,14,415,principio,beginning,开始,NOUN,keep,clean
-es,A1,15,39,auto,car,汽车,NOUN,keep,clean
-es,A1,16,117,contra,against,反对/靠着,ADP,keep,clean
-es,A1,17,240,hecho,fact,事实,NOUN,keep,clean
-es,A1,18,357,ocho,eight,八,NUM,keep,clean
-es,A1,19,281,libertad,freedom,自由,NOUN,keep,clean
-es,A1,20,150,destino,destination,目的地,NOUN,keep,clean
-es,A1,21,148,desierto,desert,沙漠,NOUN,keep,clean
-es,A1,22,387,pena,pity,遗憾,NOUN,keep,clean
-es,A1,23,85,cena,dinner,晚餐,NOUN,keep,clean
-es,A1,24,462,se,self,自己,PRON,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+164,dos,two,二,NUM,es,A1,1,keep,clean
+373,papá,dad,爸爸,NOUN,es,A1,2,keep,clean
+236,hambre,hunger,饥饿,NOUN,es,A1,3,keep,clean
+253,idiota,idiot,白痴,NOUN,es,A1,4,keep,clean
+77,cargo,position,职位,NOUN,es,A1,5,keep,clean
+335,médico,doctor,医生,NOUN,es,A1,6,keep,clean
+424,prueba,test,测试,NOUN,es,A1,7,keep,clean
+141,dejar,to leave,离开,VERB,es,A1,8,keep,clean
+392,perdón,sorry,对不起,NOUN,es,A1,9,keep,clean
+353,nuevo,new,新的,ADJ,es,A1,10,keep,clean
+235,hacia,towards,朝向,ADP,es,A1,11,keep,clean
+356,o,or,或者,CCONJ,es,A1,12,keep,clean
+349,nosotros,we,我们,PRON,es,A1,13,keep,clean
+381,paso,step,步骤,NOUN,es,A1,14,keep,clean
+526,tía,aunt,阿姨,NOUN,es,A1,15,keep,clean
+248,hola,hello,你好,INTJ,es,A1,16,keep,clean
+122,cuando,when,当...时,SCONJ,es,A1,17,keep,clean
+520,trasero,rear,后面的,ADJ,es,A1,18,keep,clean
+214,fuego,fire,火,NOUN,es,A1,19,keep,clean
+518,trabajo,work,工作,NOUN,es,A1,20,keep,clean
+427,pues,well,那么,ADV,es,A1,21,keep,clean
+231,haber,to have (auxiliary),有,AUX,es,A1,22,keep,clean
+196,esta,this,这,DET,es,A1,23,keep,clean
+390,pequeño,small,小,ADJ,es,A1,24,keep,clean

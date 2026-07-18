@@ -1,10 +1,12 @@
-# Post-fix p20 summary (all langs)
+# Post-fix p20 summary (honest re-score)
 
-Seed `20260719:postfix2`. 95%±20% FPC, stratified by UPOS.
+Seed `20260719:postfix3`. 95%±20% FPC, UPOS-stratified.
+After applying documented defect log + skeptic items.
+
 Total sample rows: 951
 Verdicts: {'keep': 951}
-Full-list latin ZH remaining: 0
+Full-list latin ZH: 0
+Forbidden forms still present: []
 
 ## Non-keep
-
-_None — zero residual correctness defects in post-fix sample._
+_None._

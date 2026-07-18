@@ -1,0 +1,25 @@
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+fr,C1,1,873,discorde,discord,不和,NOUN,keep,clean
+fr,C1,2,3122,taille,size,尺寸,NOUN,keep,clean
+fr,C1,3,959,découper,to cut up,剪下,VERB,keep,clean
+fr,C1,4,2701,réciproque,reciprocal,相互的,ADJ,keep,clean
+fr,C1,5,949,déclinaison,declension,变格,NOUN,keep,clean
+fr,C1,6,2484,pédantesquement,pedantically,迂腐地,ADV,keep,clean
+fr,C1,7,1790,légataire,legatee,受遗赠人,NOUN,keep,clean
+fr,C1,8,2172,paternel,paternal,父亲的,ADJ,keep,clean
+fr,C1,9,913,drap,bedsheet,床单,NOUN,keep,clean
+fr,C1,10,3458,une,one,一,DET,keep,clean
+fr,C1,11,194,antithèse,antithesis,对立面,NOUN,keep,clean
+fr,C1,12,2316,portière,car door,车门,NOUN,keep,clean
+fr,C1,13,3385,trois,three,三,NUM,keep,clean
+fr,C1,14,106,allaitement,breastfeeding,母乳喂养,NOUN,keep,clean
+fr,C1,15,539,cessionnaire,transferee,受让人,NOUN,keep,clean
+fr,C1,16,817,câlin,cuddle,拥抱,NOUN,keep,clean
+fr,C1,17,575,cicatrice,scar,疤痕,NOUN,keep,clean
+fr,C1,18,3301,tout,all,全部；一切,PRON,keep,clean
+fr,C1,19,1101,emprunt,loan,借款,NOUN,keep,clean
+fr,C1,20,3357,travers,across,穿过,ADP,keep,clean
+fr,C1,21,701,contour,outline,轮廓,NOUN,keep,clean
+fr,C1,22,266,artisanat,craftsmanship,手工艺,NOUN,keep,clean
+fr,C1,23,1921,mouchoir,handkerchief,手帕,NOUN,keep,clean
+fr,C1,24,176,anodin,trivial,无关紧要的,ADJ,keep,clean

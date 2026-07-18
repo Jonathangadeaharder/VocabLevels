@@ -1,0 +1,24 @@
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+fr,A1,1,63,bien,well,好,ADV,keep,clean
+fr,A1,2,4,abord,approach,方法,NOUN,keep,clean
+fr,A1,3,119,cerise,cherry,樱桃,NOUN,keep,clean
+fr,A1,4,217,deux,two,二,NUM,keep,clean
+fr,A1,5,477,matin,morning,早晨,NOUN,keep,clean
+fr,A1,6,437,langue,language,语言,NOUN,keep,clean
+fr,A1,7,71,bonsoir,good evening,晚上好,INTJ,keep,clean
+fr,A1,8,132,chaque,each,每个,DET,keep,clean
+fr,A1,9,124,chaleur,heat,热,NOUN,keep,clean
+fr,A1,10,45,avant,before,在...之前,ADP,keep,clean
+fr,A1,11,245,déjeuner,to have lunch,吃午饭,VERB,keep,clean
+fr,A1,12,115,celui,that one,那个,PRON,keep,clean
+fr,A1,13,175,conte,tale,故事,NOUN,keep,clean
+fr,A1,14,498,modèle,model,模型,NOUN,keep,clean
+fr,A1,15,133,charbon,coal,煤,NOUN,keep,clean
+fr,A1,16,14,aide,help,帮助,NOUN,keep,clean
+fr,A1,17,104,car,because,因为,CCONJ,keep,clean
+fr,A1,18,510,morceau,piece,块,NOUN,keep,clean
+fr,A1,19,173,connaître,to know,认识,VERB,keep,clean
+fr,A1,20,462,malade,sick,生病的,ADJ,keep,clean
+fr,A1,21,323,fonction,function,功能,NOUN,keep,clean
+fr,A1,22,359,gosse,kid,小孩,NOUN,keep,clean
+fr,A1,23,472,mariage,marriage,婚姻,NOUN,keep,clean

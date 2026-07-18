@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-zh,B1,1,120,假如,if,假如,SCONJ,keep,clean
-zh,B1,2,723,标志,sign,标志,NOUN,keep,clean
-zh,B1,3,693,景色,scenery,景色,NOUN,keep,clean
-zh,B1,4,733,梳子,comb,梳子,NOUN,keep,clean
-zh,B1,5,294,唉,alas,唉,INTJ,keep,clean
-zh,B1,6,691,晒,to dry in the sun,晒,AUX,keep,clean
-zh,B1,7,260,各自,each,各自,PRON,keep,clean
-zh,B1,8,450,幅,"classifier for paintings, cloth, etc.",幅,NUM,keep,clean
-zh,B1,9,410,对于,regarding,对于,ADP,keep,clean
-zh,B1,10,834,状态,state,状态,NOUN,keep,clean
-zh,B1,11,290,品种,breed,品种,NOUN,keep,clean
-zh,B1,12,961,纪律,discipline,纪律,NOUN,keep,clean
-zh,B1,13,89,似的,like,似的,PART,keep,clean
-zh,B1,14,462,幸亏,fortunately,幸亏,ADV,keep,clean
-zh,B1,15,448,布,cloth,布,NOUN,keep,clean
-zh,B1,16,914,神经,nerve,神经,NOUN,keep,clean
-zh,B1,17,164,凡是,all,凡是,DET,keep,clean
-zh,B1,18,799,漏,leak,漏,VERB,keep,clean
-zh,B1,19,158,农民,peasant,农民,NOUN,keep,clean
-zh,B1,20,504,微笑,to smile,微笑,VERB,keep,clean
-zh,B1,21,844,现象,phenomenon,现象,NOUN,keep,clean
-zh,B1,22,790,深刻,profound,深刻,ADJ,keep,clean
-zh,B1,23,69,以及,as well as,以及,CCONJ,keep,clean
-zh,B1,24,940,等候,to wait,等候,VERB,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+70,以来,since,以来,PART,zh,B1,1,keep,clean
+929,税,tax,税,NOUN,zh,B1,2,keep,clean
+340,大方,generous,大方,ADJ,zh,B1,3,keep,clean
+766,沟通,to communicate,沟通,VERB,zh,B1,4,keep,clean
+537,想念,to miss,想念,VERB,zh,B1,5,keep,clean
+292,哪怕,even if,哪怕,SCONJ,zh,B1,6,keep,clean
+28,中介,to act as intermediary,中介,NOUN,zh,B1,7,keep,clean
+286,命运,fate,命运,NOUN,zh,B1,8,keep,clean
+21,业务,business,业务,NOUN,zh,B1,9,keep,clean
+164,凡是,all,凡是,DET,zh,B1,10,keep,clean
+403,宴会,banquet,宴会,NOUN,zh,B1,11,keep,clean
+208,匹,classifier for horses,匹,NUM,zh,B1,12,keep,clean
+465,幼儿园,kindergarten,幼儿园,NOUN,zh,B1,13,keep,clean
+59,人员,personnel,人员,NOUN,zh,B1,14,keep,clean
+266,同时,at the same time,同时,ADV,zh,B1,15,keep,clean
+155,冒险,to take risks,冒险,VERB,zh,B1,16,keep,clean
+691,晒,to dry in the sun,晒,AUX,zh,B1,17,keep,clean
+349,夹子,clip,夹子,NOUN,zh,B1,18,keep,clean
+260,各自,each,各自,PRON,zh,B1,19,keep,clean
+16,与其,rather than,与其,CCONJ,zh,B1,20,keep,clean
+57,人事,personnel,人事,NOUN,zh,B1,21,keep,clean
+98,作为,as,作为,ADP,zh,B1,22,keep,clean
+425,小吃,snack,小吃,NOUN,zh,B1,23,keep,clean
+198,劳驾,excuse me,劳驾,INTJ,zh,B1,24,keep,clean

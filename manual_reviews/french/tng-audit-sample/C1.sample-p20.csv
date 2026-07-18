@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-fr,C1,1,150,anadiplose,anadiplosis,顶真修辞,NOUN,keep,clean
-fr,C1,2,3037,symphonie,symphony,交响乐,NOUN,keep,clean
-fr,C1,3,83,agresseur,aggressor,攻击者,NOUN,keep,clean
-fr,C1,4,3385,trois,three,三,NUM,keep,clean
-fr,C1,5,2017,nosologie,nosology,疾病分类学,NOUN,keep,clean
-fr,C1,6,352,aération,ventilation,通风,NOUN,keep,clean
-fr,C1,7,3119,tacitement,tacitly,默示地,ADV,keep,clean
-fr,C1,8,485,calvaire,ordeal,苦难,NOUN,keep,clean
-fr,C1,9,1160,excepté,except,除...外,ADP,keep,clean
-fr,C1,10,3354,travail,work,工作,NOUN,keep,clean
-fr,C1,11,1300,frustrant,frustrating,令人沮丧的,ADJ,keep,clean
-fr,C1,12,3266,tome,volume,卷,NOUN,keep,clean
-fr,C1,13,456,buffet,sideboard,餐具柜,NOUN,keep,clean
-fr,C1,14,2423,préliminaire,preliminary,初步的,ADJ,keep,clean
-fr,C1,15,2205,perquisition,police search,搜查,NOUN,keep,clean
-fr,C1,16,2797,saoul,drunk,醉的,ADJ,keep,clean
-fr,C1,17,3127,talon,heel,脚后跟,NOUN,keep,clean
-fr,C1,18,2061,occultisme,occultism,神秘学,NOUN,keep,clean
-fr,C1,19,571,chuter,to fall,跌落,VERB,keep,clean
-fr,C1,20,3301,tout,all,全部；一切,PRON,keep,clean
-fr,C1,21,2720,référentiel,reference framework,参考框架,NOUN,keep,clean
-fr,C1,22,1366,gratuité,free of charge,免费,NOUN,keep,clean
-fr,C1,23,906,douanier,customs officer,海关官员,NOUN,keep,clean
-fr,C1,24,3458,une,one,一,DET,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+2079,optimisation,optimization,优化,NOUN,fr,C1,1,keep,clean
+2090,orgueil,pride/arrogance,骄傲 / 傲慢,NOUN,fr,C1,2,keep,clean
+1740,licorne,unicorn,独角兽,NOUN,fr,C1,3,keep,clean
+1252,flèche,arrow,箭,NOUN,fr,C1,4,keep,clean
+3435,téléfilm,TV movie,电视电影,NOUN,fr,C1,5,keep,clean
+1985,météorologique,meteorological,气象的,ADJ,fr,C1,6,keep,clean
+2327,poterie,pottery,陶器,NOUN,fr,C1,7,keep,clean
+3299,tous,all,全部（阳性）,PRON,fr,C1,8,keep,clean
+2580,reddition,surrender,投降,NOUN,fr,C1,9,keep,clean
+459,buter,to stumble,绊倒,VERB,fr,C1,10,keep,clean
+1523,imprévu,unforeseen,意外的,ADJ,fr,C1,11,keep,clean
+1181,expressément,expressly,明确地,ADV,fr,C1,12,keep,clean
+3162,taxonomie,taxonomy,分类学,NOUN,fr,C1,13,keep,clean
+368,banquette,bench seat,长凳,NOUN,fr,C1,14,keep,clean
+1765,louange,praise,赞美,NOUN,fr,C1,15,keep,clean
+3458,une,one,一,DET,fr,C1,16,keep,clean
+3386,troisième,third,第三,ADJ,fr,C1,17,keep,clean
+958,découpage,cutting,切割,NOUN,fr,C1,18,keep,clean
+1411,hanche,hip,臀部,NOUN,fr,C1,19,keep,clean
+2882,solécisme,solecism,语法错误,NOUN,fr,C1,20,keep,clean
+3399,trouble,disorder,混乱,NOUN,fr,C1,21,keep,clean
+2130,parages,vicinity,附近,NOUN,fr,C1,22,keep,clean
+3385,trois,three,三,NUM,fr,C1,23,keep,clean
+1925,moyennant,in exchange for,以...为交换,ADP,fr,C1,24,keep,clean

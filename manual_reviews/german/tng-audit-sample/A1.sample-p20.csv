@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-de,A1,1,245,Ort,place,地点,NOUN,keep,clean
-de,A1,2,550,zahm,tame,温顺的,ADJ,keep,clean
-de,A1,3,199,Leute,people,人们,NOUN,keep,clean
-de,A1,4,24,Auto,car,汽车,NOUN,keep,clean
-de,A1,5,370,zehn,ten,十,NUM,keep,clean
-de,A1,6,344,was,what,什么,PRON,keep,clean
-de,A1,7,263,Schatz,sweetheart,亲爱的,NOUN,keep,clean
-de,A1,8,272,Schwester,sister,姐妹,NOUN,keep,clean
-de,A1,9,63,denn,because,因为,CCONJ,keep,clean
-de,A1,10,547,pfeifen,to whistle,吹口哨,VERB,keep,clean
-de,A1,11,73,durch,through,通过,ADP,keep,clean
-de,A1,12,498,Gelenk,joint,关节,NOUN,keep,clean
-de,A1,13,161,Idee,idea,主意,NOUN,keep,clean
-de,A1,14,440,Gewitter,thunderstorm,雷阵雨,NOUN,keep,clean
-de,A1,15,503,total,totally,完全地,ADV,keep,clean
-de,A1,16,378,zwar,admittedly,诚然,ADV,keep,clean
-de,A1,17,15,ander,other,其他的,DET,keep,clean
-de,A1,18,231,nicht,not,不,PART,keep,clean
-de,A1,19,481,Schwiegervater,father-in-law,岳父/公公,NOUN,keep,clean
-de,A1,20,176,können,can,能够,AUX,keep,clean
-de,A1,21,32,bereits,already,已经,ADV,keep,clean
-de,A1,22,58,dass,that,（引导从句）,SCONJ,keep,clean
-de,A1,23,480,Rechen,rake,耙子,NOUN,keep,clean
-de,A1,24,501,ach,oh,啊,INTJ,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+393,Fakt,fact,事实,NOUN,de,A1,1,keep,clean
+361,wir,we,我们,PRON,de,A1,2,keep,clean
+164,in,in,在...里,ADP,de,A1,3,keep,clean
+360,wollen,to want,想要,AUX,de,A1,4,keep,clean
+464,Bleistift,pencil,铅笔,NOUN,de,A1,5,keep,clean
+60,dein,your,你的,DET,de,A1,6,keep,clean
+318,und,and,和,CCONJ,de,A1,7,keep,clean
+487,parken,to park,停车,VERB,de,A1,8,keep,clean
+71,drei,three,三,NUM,de,A1,9,keep,clean
+438,Buchstabe,letter,字母,NOUN,de,A1,10,keep,clean
+440,Türsteher,doorman,门卫,NOUN,de,A1,11,keep,clean
+237,ob,whether,是否,SCONJ,de,A1,12,keep,clean
+577,Deutschunterricht,German class,德语课,NOUN,de,A1,13,keep,clean
+367,Wohnung,apartment,公寓,NOUN,de,A1,14,keep,clean
+84,endlich,finally,终于,ADV,de,A1,15,keep,clean
+500,ach,oh,啊,INTJ,de,A1,16,keep,clean
+230,nicht,not,不,PART,de,A1,17,keep,clean
+147,Herr,Mr.,先生,NOUN,de,A1,18,keep,clean
+172,Junge,boy,男孩,NOUN,de,A1,19,keep,clean
+256,richtig,correct,正确,ADJ,de,A1,20,keep,clean
+240,oft,often,经常,ADV,de,A1,21,keep,clean
+183,König,king,国王,NOUN,de,A1,22,keep,clean
+419,Drehung,turn,转弯,NOUN,de,A1,23,keep,clean
+392,genau,exactly,精确地,ADV,de,A1,24,keep,clean

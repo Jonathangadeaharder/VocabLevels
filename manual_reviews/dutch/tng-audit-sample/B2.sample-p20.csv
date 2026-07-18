@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-nl,B2,1,809,bruiloft,wedding,婚礼,NOUN,keep,clean
-nl,B2,2,445,verkrijgbaar,available,可获得的,ADJ,keep,clean
-nl,B2,3,44,geel,yellow,黄色的,ADJ,keep,clean
-nl,B2,4,20,duizend,thousand,千,NUM,keep,clean
-nl,B2,5,520,waarover,about which,关于什么,PRON,keep,clean
-nl,B2,6,438,plaatsvinden,to take place,发生,VERB,keep,clean
-nl,B2,7,737,comité,committee,委员会,NOUN,keep,clean
-nl,B2,8,21,evenals,as well as,以及,SCONJ,keep,clean
-nl,B2,9,325,traan,tear,眼泪,NOUN,keep,clean
-nl,B2,10,490,onderhoud,maintenance,维护,NOUN,keep,clean
-nl,B2,11,731,achternaam,surname,姓氏,NOUN,keep,clean
-nl,B2,12,65,noch,nor,也不,CCONJ,keep,clean
-nl,B2,13,52,oké,okay,好的,INTJ,keep,clean
-nl,B2,14,64,klimaat,climate,气候,NOUN,keep,clean
-nl,B2,15,126,wezen,to be,是,AUX,keep,clean
-nl,B2,16,472,naartoe,towards,向,ADP,keep,clean
-nl,B2,17,699,bezwaar,objection,反对,NOUN,keep,clean
-nl,B2,18,561,archief,archive,档案,NOUN,keep,clean
-nl,B2,19,771,wethouder,alderman,市议员,NOUN,keep,clean
-nl,B2,20,55,verrassing,surprise,惊喜,NOUN,keep,clean
-nl,B2,21,219,deels,partly,部分地,ADV,keep,clean
-nl,B2,22,583,soep,soup,汤,NOUN,keep,clean
-nl,B2,23,626,wc,toilet,厕所,NOUN,keep,clean
-nl,B2,24,320,pand,building,建筑物,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+757,passagier,passenger,乘客,NOUN,nl,B2,1,keep,clean
+687,reputatie,reputation,声誉,NOUN,nl,B2,2,keep,clean
+357,voorstelling,performance,表演,NOUN,nl,B2,3,keep,clean
+330,werking,operation,运作,NOUN,nl,B2,4,keep,clean
+24,justitie,justice,司法,NOUN,nl,B2,5,keep,clean
+20,duizend,thousand,千,NUM,nl,B2,6,keep,clean
+566,doorheen,through,穿过,ADP,nl,B2,7,keep,clean
+818,keel,throat,喉咙,NOUN,nl,B2,8,keep,clean
+807,bond,federation,联合会,NOUN,nl,B2,9,keep,clean
+126,wezen,to be,是,AUX,nl,B2,10,keep,clean
+888,maagd,virgin,处女,NOUN,nl,B2,11,keep,clean
+240,paleis,palace,宫殿,NOUN,nl,B2,12,keep,clean
+21,evenals,as well as,以及,SCONJ,nl,B2,13,keep,clean
+384,uitbreiding,expansion,扩展,NOUN,nl,B2,14,keep,clean
+192,katholieke,Catholic,天主教的,ADJ,nl,B2,15,keep,clean
+65,noch,nor,也不,CCONJ,nl,B2,16,keep,clean
+266,ongelooflijk,incredible,难以置信的,ADJ,nl,B2,17,keep,clean
+29,regel,rule,规则,NOUN,nl,B2,18,keep,clean
+452,aankomen,to arrive,到达,VERB,nl,B2,19,keep,clean
+520,waarover,about which,关于什么,PRON,nl,B2,20,keep,clean
+949,interieur,interior,内部,NOUN,nl,B2,21,keep,clean
+177,vermogen,assets,资产,NOUN,nl,B2,22,keep,clean
+182,ach,oh well,唉,INTJ,nl,B2,23,keep,clean
+539,jawel,yes indeed,是的,ADV,nl,B2,24,keep,clean

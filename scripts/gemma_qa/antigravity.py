@@ -9,16 +9,16 @@ import httpx
 from pydantic import BaseModel, ValidationError
 
 from .client import GenerationResult, Usage
-from .config import (
-    ANTIGRAVITY_API_REVISION,
-    ANTIGRAVITY_INPUT_TOKEN_CAP,
-    API_BASE,
-    INTERACTIONS_PATH,
-    MODEL_ANTIGRAVITY,
-    get_api_key,
-)
+# Antigravity retired; module kept only so old imports do not crash tools.
+from .config import API_BASE, get_api_key
+
+ANTIGRAVITY_API_REVISION = "retired"
+ANTIGRAVITY_INPUT_TOKEN_CAP = 1
+INTERACTIONS_PATH = "/v1beta/interactions"
+MODEL_ANTIGRAVITY = "antigravity-preview-05-2026-retired"
 from .packing import TiktokenEstimator, TokenEstimator
 from .quota import QuotaGate
+from .trace import event, extract_thoughts, log_bodies_enabled, summarize_parsed
 
 ResponseT = TypeVar("ResponseT", bound=BaseModel)
 PRODUCTION_TIMEOUT = httpx.Timeout(connect=30, read=300, write=300, pool=300)
@@ -74,12 +74,27 @@ class AntigravityClient:
         _ = max_output_tokens
         current_prompt = prompt
         last_error: Exception | None = None
+        event(
+            "antigravity.start",
+            model=model,
+            response_model=response_model.__name__,
+            prompt_chars=len(prompt),
+        )
         for attempt in range(self._structured_attempts):
             request_json, response_json = self._create_interaction(current_prompt)
+            thoughts = extract_thoughts(response_json)
             try:
                 parsed, usage = self.parse_response(response_json, response_model)
             except (json.JSONDecodeError, ValidationError, ValueError) as error:
                 last_error = error
+                event(
+                    "antigravity.parse_error",
+                    level="WARN",
+                    model=model,
+                    attempt=attempt + 1,
+                    error=str(error)[:300],
+                    thoughts=thoughts or None,
+                )
                 if attempt + 1 >= self._structured_attempts:
                     raise
                 current_prompt = self._repair_prompt(
@@ -88,6 +103,20 @@ class AntigravityClient:
                     error=error,
                 )
                 continue
+            event(
+                "antigravity.ok",
+                model=model,
+                attempt=attempt + 1,
+                prompt_tokens=usage.prompt_tokens,
+                candidate_tokens=usage.candidate_tokens,
+                thoughts=thoughts or None,
+                summary=summarize_parsed(parsed),
+                response_preview=(
+                    json.dumps(response_json, ensure_ascii=False)[:800]
+                    if log_bodies_enabled()
+                    else None
+                ),
+            )
             return GenerationResult(
                 parsed=parsed,
                 usage=usage,

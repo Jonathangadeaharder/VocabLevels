@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1994,óf,or,或者,CCONJ,nl,C1,1,keep,clean
-1225,universeel,universal,普遍的,ADJ,nl,C1,2,keep,clean
-1806,hertog,duke,公爵,NOUN,nl,C1,3,keep,clean
-1267,okee,okay,好的,INTJ,nl,C1,4,keep,clean
-1206,inleiding,introduction,引言,NOUN,nl,C1,5,keep,clean
-599,meer,lake,湖,NOUN,nl,C1,6,keep,clean
-1771,tienduizenden,tens of thousands,数万,NUM,nl,C1,7,keep,clean
-1955,kermis,fair,集市,NOUN,nl,C1,8,keep,clean
-1295,alvorens,before,在...之前,SCONJ,nl,C1,9,keep,clean
-345,meesten,most,大多数人,PRON,nl,C1,10,keep,clean
-979,middels,by means of,通过,ADP,nl,C1,11,keep,clean
-1191,bezuiniging,cut,削减,NOUN,nl,C1,12,keep,clean
-876,schijf,disk,磁盘,NOUN,nl,C1,13,keep,clean
-832,portemonnee,wallet,钱包,NOUN,nl,C1,14,keep,clean
-642,bijwerken,to update,更新,VERB,nl,C1,15,keep,clean
-2030,navolging,imitation,模仿,NOUN,nl,C1,16,keep,clean
-971,ijzer,iron,铁,NOUN,nl,C1,17,keep,clean
-1877,icoon,icon,图标,NOUN,nl,C1,18,keep,clean
-1749,mythe,myth,神话,NOUN,nl,C1,19,keep,clean
-1781,waartoe,for what purpose,为了什么目的,ADV,nl,C1,20,keep,clean
-1216,pikken,to steal,偷窃,VERB,nl,C1,21,keep,clean
-730,ophangen,to hang up,挂起,VERB,nl,C1,22,keep,clean
-1767,staking,strike,罢工,NOUN,nl,C1,23,keep,clean
-1070,groente,vegetable,蔬菜,NOUN,nl,C1,24,keep,clean
+366,academie,academy,学院,NOUN,nl,C1,1,keep,clean
+34,muzikant,musician,音乐家,NOUN,nl,C1,2,keep,clean
+442,hoofdredacteur,editor-in-chief,主编,NOUN,nl,C1,3,keep,clean
+1125,eindstand,final score,最终比分,NOUN,nl,C1,4,keep,clean
+1652,achttien,eighteen,十八,NUM,nl,C1,5,keep,clean
+1431,ezel,donkey,驴,NOUN,nl,C1,6,keep,clean
+636,aardbeving,earthquake,地震,NOUN,nl,C1,7,keep,clean
+411,uitzoeken,to select,挑选,VERB,nl,C1,8,keep,clean
+27,iemands,someone's,某人的,PRON,nl,C1,9,keep,clean
+1994,óf,or,或者,CCONJ,nl,C1,10,keep,clean
+456,parkeerplaats,parking lot,停车场,NOUN,nl,C1,11,keep,clean
+1989,verzorging,care,护理,NOUN,nl,C1,12,keep,clean
+92,respectievelijk,respectively,分别,ADV,nl,C1,13,keep,clean
+601,omwille,for the sake of,为了,ADP,nl,C1,14,keep,clean
+744,uitgestorven,extinct,灭绝的,ADJ,nl,C1,15,keep,clean
+164,conferentie,conference,会议,NOUN,nl,C1,16,keep,clean
+1962,ontwikkelaar,developer,开发商,NOUN,nl,C1,17,keep,clean
+302,duidelijkheid,clarity,清晰,NOUN,nl,C1,18,keep,clean
+1884,materie,matter,物质,NOUN,nl,C1,19,keep,clean
+55,waarderen,to appreciate,欣赏,VERB,nl,C1,20,keep,clean
+1267,okee,okay,好的,INTJ,nl,C1,21,keep,clean
+1620,mits,provided that,只要,SCONJ,nl,C1,22,keep,clean
+572,aandoen,to affect,影响,VERB,nl,C1,23,keep,clean
+1657,branche,industry,行业,NOUN,nl,C1,24,keep,clean

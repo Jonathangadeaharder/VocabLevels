@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-88,lite,a little,一点,ADV,sv,A2,1,keep,clean
-271,beredd,prepared,准备好的,ADJ,sv,A2,2,keep,clean
-118,någonting,something,某事,PRON,sv,A2,3,keep,clean
-108,må,feel,感觉,VERB,sv,A2,4,keep,clean
-61,inom,within,在……之内,ADP,sv,A2,5,keep,clean
-217,ute,out,在外面,ADV,sv,A2,6,keep,clean
-69,kan,can,能,AUX,sv,A2,7,keep,clean
-203,träffas,meet,见面,VERB,sv,A2,8,keep,clean
-288,bröllop,wedding,婚礼,NOUN,sv,A2,9,keep,clean
-99,medan,while,当...时,SCONJ,sv,A2,10,keep,clean
-237,ännu,yet,仍然,ADV,sv,A2,11,keep,clean
-75,kolla,check,检查,VERB,sv,A2,12,keep,clean
-206,typ,type/like,类型/比如,NOUN,sv,A2,13,keep,clean
-46,hårt,hard,努力地,ADV,sv,A2,14,keep,clean
-292,både,both,两者都,CCONJ,sv,A2,15,keep,clean
-49,igen,again,再次,ADV,sv,A2,16,keep,clean
-90,lycka,happiness,幸福,NOUN,sv,A2,17,keep,clean
-24,hallå,hello,你好/喂,INTJ,sv,A2,18,keep,clean
-284,broder,brother,兄弟,NOUN,sv,A2,19,keep,clean
-303,droger,drugs,毒品,NOUN,sv,A2,20,keep,clean
-166,skydda,protect,保护,VERB,sv,A2,21,keep,clean
-157,sitt,his/her own,他/她自己的,DET,sv,A2,22,keep,clean
-279,bild,picture,图片,NOUN,sv,A2,23,keep,clean
+234,älskling,darling,亲爱的,NOUN,sv,A2,1,keep,clean
+260,ansvar,responsibility,责任,NOUN,sv,A2,2,keep,clean
+250,alldeles,entirely,完全,ADV,sv,A2,3,keep,clean
+143,rädda,save,拯救,VERB,sv,A2,4,keep,clean
+137,resten,the rest,其余,NOUN,sv,A2,5,keep,clean
+268,bak,back,后面,ADV,sv,A2,6,keep,clean
+265,avsluta,finish,完成,VERB,sv,A2,7,keep,clean
+49,igen,again,再次,ADV,sv,A2,8,keep,clean
+194,tills,until,直到,SCONJ,sv,A2,9,keep,clean
+297,desto,the more,越,ADV,sv,A2,10,keep,clean
+132,prata,talk,说话,VERB,sv,A2,11,keep,clean
+211,uppe,up,在上面,ADV,sv,A2,12,keep,clean
+248,aj,ouch,哎哟,INTJ,sv,A2,13,keep,clean
+258,anledning,reason,原因,NOUN,sv,A2,14,keep,clean
+162,skall,will/shall,将要/会,AUX,sv,A2,15,keep,clean
+59,innan,before,在……之前,ADP,sv,A2,16,keep,clean
+186,sätt,way,方式,NOUN,sv,A2,17,keep,clean
+102,mig,me,我,PRON,sv,A2,18,keep,clean
+263,antingen,either,要么,CCONJ,sv,A2,19,keep,clean
+169,slå,hit/beat,打/击,VERB,sv,A2,20,keep,clean
+227,vilken,which,哪个,DET,sv,A2,21,keep,clean
+105,misstag,mistake,错误,NOUN,sv,A2,22,keep,clean
+126,orolig,worried,担心的,ADJ,sv,A2,23,keep,clean

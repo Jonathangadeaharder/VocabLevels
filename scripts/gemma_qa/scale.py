@@ -6,7 +6,6 @@ import sqlite3
 import time
 from collections import Counter
 from collections.abc import Callable, Sequence
-from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Literal
@@ -16,7 +15,8 @@ from .client import GemmaClient
 from .handcraft import run_handcraft
 from .languages import LANGUAGE_CODES, LEVELS, get_language
 from .ledger import Ledger
-from .quota import QuotaGate
+from .progress import print_progress, scale_progress_line
+from .trace import configure, event
 
 ScalePhase = Literal["cefr", "handcraft"]
 ScaleStatus = Literal["pending", "running", "succeeded", "failed"]
@@ -45,6 +45,9 @@ class ScaleConfig:
     refill_to_target: bool = False
     retry_failed: bool = False
     single_model: str | None = None
+    # Not part of resume configuration hash: changing it must not re-queue
+    # succeeded CEFR tasks.
+    batch_concurrency: int | None = None
 
 
 @dataclass(frozen=True)
@@ -206,6 +209,31 @@ class ScaleState:
         counts.update({str(status): int(count) for status, count in rows})
         return counts
 
+    def list_by_status(self, status: ScaleStatus) -> list[ScaleTaskRecord]:
+        with self._connect() as connection:
+            rows = connection.execute(
+                """
+                SELECT task_key, phase, language, level, status, output, error, attempts
+                FROM scale_tasks
+                WHERE status = ?
+                ORDER BY updated_at DESC
+                """,
+                (status,),
+            ).fetchall()
+        return [
+            ScaleTaskRecord(
+                key=str(row[0]),
+                phase=row[1],
+                language=str(row[2]),
+                level=str(row[3]),
+                status=row[4],
+                output=None if row[5] is None else str(row[5]),
+                error=None if row[6] is None else str(row[6]),
+                attempts=int(row[7]),
+            )
+            for row in rows
+        ]
+
     def _connect(self) -> sqlite3.Connection:
         connection = sqlite3.connect(self.database)
         connection.execute("PRAGMA journal_mode=WAL")
@@ -246,34 +274,41 @@ def run_scale(
 ) -> ScaleRunResult:
     if config.handcraft_count <= 0:
         raise ValueError("handcraft count must be positive")
+    configure(root=config.root)
     tasks = build_scale_tasks(
         languages=config.languages,
         levels=config.levels,
         phases=config.phases,
+    )
+    event(
+        "scale.start",
+        phase=",".join(config.phases),
+        languages=list(config.languages),
+        levels=list(config.levels),
+        task_count=len(tasks),
+        single_model=config.single_model,
+        apply=config.apply,
+        refill_to_target=config.refill_to_target,
     )
     state = ScaleState(config.root / ".gemma_qa" / "scale.sqlite3")
     state.prepare(tasks, config)
     factory = executor_factory or (
         (lambda: execute) if execute is not None else _default_executor_factory(config)
     )
+    # Phases run sequentially so handcraft never races unfinished CEFR for the
+    # same cell. Within a phase, tasks still run one-at-a-time (resume-friendly).
     phase_tasks = {
         phase: [task for task in tasks if task.phase == phase]
         for phase in config.phases
     }
-    with ThreadPoolExecutor(max_workers=len(phase_tasks)) as pool:
-        results = [
-            pool.submit(
-                _run_phase,
-                tasks_for_phase,
-                config=config,
-                state=state,
-                execute=factory(),
-            )
-            for tasks_for_phase in phase_tasks.values()
-        ]
-        counters = [future.result() for future in results]
     totals = Counter[str]()
-    for counter in counters:
+    for phase in config.phases:
+        counter = _run_phase(
+            phase_tasks[phase],
+            config=config,
+            state=state,
+            execute=factory(),
+        )
         totals.update(counter)
     return ScaleRunResult(
         succeeded=totals["succeeded"],
@@ -290,25 +325,176 @@ def _run_phase(
     execute: ScaleExecutor,
 ) -> Counter[str]:
     counts = Counter[str]()
+    total = len(tasks)
+    done = 0
+    durations: list[float] = []
+    phase_started = time.time()
+    # Count already-finished tasks for correct N/total at start.
+    for task in tasks:
+        record = state.get(task.key)
+        if record is not None and record.status == "succeeded":
+            done += 1
+    print_progress(
+        scale_progress_line(
+            done=done,
+            total=total,
+            current="(starting)",
+            status="init",
+            durations=durations,
+            started_at=phase_started,
+        )
+    )
     for task in tasks:
         record = state.get(task.key)
         if record is None:
             raise RuntimeError(f"missing scale state for {task.key}")
         if record.status == "succeeded":
             counts["skipped"] += 1
+            print_progress(
+                scale_progress_line(
+                    done=done,
+                    total=total,
+                    current=task.key,
+                    status="skipped",
+                    durations=durations,
+                    started_at=phase_started,
+                )
+            )
             continue
         if record.status == "failed" and not config.retry_failed:
             counts["failed"] += 1
+            done += 1
+            print_progress(
+                scale_progress_line(
+                    done=done,
+                    total=total,
+                    current=task.key,
+                    status="failed_skip",
+                    durations=durations,
+                    started_at=phase_started,
+                )
+            )
             continue
+        if task.phase == "handcraft":
+            blocked = _handcraft_blocked_reason(task, state=state)
+            if blocked is not None:
+                state.fail(task, RuntimeError(blocked))
+                counts["failed"] += 1
+                done += 1
+                event(
+                    "scale.task_fail",
+                    level="ERROR",
+                    task=task.key,
+                    phase=task.phase,
+                    lang=task.language,
+                    level_name=task.level,
+                    error=blocked[:500],
+                    done=done,
+                    total=total,
+                    remaining=total - done,
+                )
+                print_progress(
+                    scale_progress_line(
+                        done=done,
+                        total=total,
+                        current=task.key,
+                        status="blocked",
+                        durations=durations,
+                        started_at=phase_started,
+                    )
+                )
+                continue
         state.start(task)
+        event(
+            "scale.task_start",
+            task=task.key,
+            phase=task.phase,
+            lang=task.language,
+            level_name=task.level,
+            done=done,
+            total=total,
+            remaining=total - done,
+        )
+        print_progress(
+            scale_progress_line(
+                done=done,
+                total=total,
+                current=task.key,
+                status="running",
+                durations=durations,
+                started_at=phase_started,
+            )
+        )
+        started = time.time()
         try:
             output = execute(task, config)
         except Exception as error:
             state.fail(task, error)
             counts["failed"] += 1
+            elapsed = time.time() - started
+            durations.append(elapsed)
+            done += 1
+            event(
+                "scale.task_fail",
+                level="ERROR",
+                task=task.key,
+                phase=task.phase,
+                lang=task.language,
+                level_name=task.level,
+                duration_ms=int(elapsed * 1000),
+                error=str(error).splitlines()[0][:500],
+                done=done,
+                total=total,
+                remaining=total - done,
+            )
+            print_progress(
+                scale_progress_line(
+                    done=done,
+                    total=total,
+                    current=task.key,
+                    status="failed",
+                    durations=durations,
+                    started_at=phase_started,
+                )
+            )
         else:
             state.succeed(task, output)
             counts["succeeded"] += 1
+            elapsed = time.time() - started
+            durations.append(elapsed)
+            done += 1
+            event(
+                "scale.task_ok",
+                task=task.key,
+                phase=task.phase,
+                lang=task.language,
+                level_name=task.level,
+                duration_ms=int(elapsed * 1000),
+                output=str(output),
+                done=done,
+                total=total,
+                remaining=total - done,
+            )
+            print_progress(
+                scale_progress_line(
+                    done=done,
+                    total=total,
+                    current=task.key,
+                    status="ok",
+                    durations=durations,
+                    started_at=phase_started,
+                )
+            )
+    print_progress(
+        scale_progress_line(
+            done=done,
+            total=total,
+            current="(done)",
+            status="complete",
+            durations=durations,
+            started_at=phase_started,
+        )
+    )
     return counts
 
 
@@ -317,9 +503,8 @@ def _default_executor_factory(config: ScaleConfig) -> ScaleExecutorFactory:
 
     def factory() -> ScaleExecutor:
         def execute(task: ScaleTask, current: ScaleConfig) -> Path:
-            quota = QuotaGate(state_directory / "quota.sqlite3")
             ledger = Ledger(state_directory / "ledger.sqlite3")
-            client = GemmaClient(quota=quota)
+            client = GemmaClient()
             try:
                 profile = get_language(task.language)
                 if task.phase == "cefr":
@@ -332,6 +517,7 @@ def _default_executor_factory(config: ScaleConfig) -> ScaleExecutorFactory:
                         apply=current.apply,
                         single_model=current.single_model,
                         refill_to_target=current.refill_to_target,
+                        batch_concurrency=current.batch_concurrency,
                     )
                 return run_handcraft(
                     vocab_root=current.root,
@@ -346,7 +532,6 @@ def _default_executor_factory(config: ScaleConfig) -> ScaleExecutorFactory:
                 )
             finally:
                 client.close()
-                quota.close()
                 ledger.close()
 
         return execute
@@ -354,11 +539,29 @@ def _default_executor_factory(config: ScaleConfig) -> ScaleExecutorFactory:
     return factory
 
 
+def _handcraft_blocked_reason(task: ScaleTask, *, state: ScaleState) -> str | None:
+    """Block handcraft when a CEFR sibling exists and is not succeeded.
+
+    If CEFR was never tracked in scale state, allow handcraft (manual CEFR path).
+    """
+    cefr_key = f"cefr:{task.language}:{task.level}"
+    record = state.get(cefr_key)
+    if record is None:
+        return None
+    if record.status == "succeeded":
+        return None
+    return (
+        f"handcraft blocked: {cefr_key} status={record.status!r}; "
+        "finish/apply CEFR for this cell first"
+    )
+
+
 def _safe_error(error: Exception) -> str:
     message = f"{type(error).__name__}: {error}"
-    secret = os.environ.get("GEMINI_API_KEY")
-    if secret:
-        message = message.replace(secret, "[REDACTED]")
+    for name in ("API_KEY", "TNG_API_KEY", "GEMINI_API_KEY"):
+        secret = os.environ.get(name)
+        if secret:
+            message = message.replace(secret, "[REDACTED]")
     return message[:4_000]
 
 

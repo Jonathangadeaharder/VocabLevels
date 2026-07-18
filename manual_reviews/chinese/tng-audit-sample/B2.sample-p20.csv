@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-zh,B2,1,865,公路,highway,公路,NOUN,keep,clean
-zh,B2,2,76,要不,otherwise,要不,PART,keep,clean
-zh,B2,3,1412,回报,return,回报,VERB,keep,clean
-zh,B2,4,297,一些,some,一些,DET,keep,clean
-zh,B2,5,836,党,party,党,NOUN,keep,clean
-zh,B2,6,1359,哪来,where from,哪来,PRON,keep,clean
-zh,B2,7,687,传达,convey,传达,VERB,keep,clean
-zh,B2,8,244,集中,concentrate,集中,VERB,keep,clean
-zh,B2,9,382,不会,will not,不会,AUX,keep,clean
-zh,B2,10,1396,器,device,器,NOUN,keep,clean
-zh,B2,11,701,但,but,但,CCONJ,keep,clean
-zh,B2,12,996,别说,let alone,别说,ADV,keep,clean
-zh,B2,13,221,错误,mistake,错误,NOUN,keep,clean
-zh,B2,14,642,他人,others,他人,NOUN,keep,clean
-zh,B2,15,1329,咦,huh,咦,INTJ,keep,clean
-zh,B2,16,653,以便,so that,以便,SCONJ,keep,clean
-zh,B2,17,789,偏差,deviation,偏差,NOUN,keep,clean
-zh,B2,18,750,俘虏,captive,俘虏,NOUN,keep,clean
-zh,B2,19,230,阶段,stage,阶段,NOUN,keep,clean
-zh,B2,20,45,艰苦,hard,艰苦,ADJ,keep,clean
-zh,B2,21,333,一次,once,一次,NUM,keep,clean
-zh,B2,22,90,训练,training,训练,NOUN,keep,clean
-zh,B2,23,655,以外,besides,以外,ADP,keep,clean
-zh,B2,24,1572,天上,in the sky,天上,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+297,一些,some,一些,DET,zh,B2,1,keep,clean
+656,以致,to such an extent as to,以致,SCONJ,zh,B2,2,keep,clean
+171,进步,to progress,进步,VERB,zh,B2,3,keep,clean
+540,之外,besides,之外,ADP,zh,B2,4,keep,clean
+462,世代,generation,世代,NOUN,zh,B2,5,keep,clean
+1357,哪里,where,哪里,PRON,zh,B2,6,keep,clean
+1333,品德,moral character,品德,NOUN,zh,B2,7,keep,clean
+1141,参谋,staff officer,参谋,NOUN,zh,B2,8,keep,clean
+1287,吸血鬼,vampire,吸血鬼,NOUN,zh,B2,9,keep,clean
+302,一场,one (event),一场,NUM,zh,B2,10,keep,clean
+1390,嘿嘿,hehe,嘿嘿,INTJ,zh,B2,11,keep,clean
+681,传单,leaflet,传单,NOUN,zh,B2,12,keep,clean
+555,乡村,countryside,乡村,NOUN,zh,B2,13,keep,clean
+139,赶快,quickly,赶快,ADV,zh,B2,14,keep,clean
+382,不会,will not,不会,AUX,zh,B2,15,keep,clean
+500,丰满,ample,丰满,ADJ,zh,B2,16,keep,clean
+383,不住,cannot stay,不住,PART,zh,B2,17,keep,clean
+56,落后,to fall behind,落后,VERB,zh,B2,18,keep,clean
+313,一家人,whole family,一家人,NOUN,zh,B2,19,keep,clean
+984,判决,judgment,判决,NOUN,zh,B2,20,keep,clean
+1618,好事,good thing,好事,NOUN,zh,B2,21,keep,clean
+460,且,and,且,CCONJ,zh,B2,22,keep,clean
+1209,叮嘱,urge,叮嘱,VERB,zh,B2,23,keep,clean
+276,食物,food,食物,NOUN,zh,B2,24,keep,clean

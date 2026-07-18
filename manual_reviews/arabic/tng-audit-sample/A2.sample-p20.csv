@@ -1,24 +1,24 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-ar,A2,1,486,كون,if,如果,SCONJ,keep,clean
-ar,A2,2,393,اتكأ,to lean,倚靠,VERB,keep,clean
-ar,A2,3,132,خزانة,cupboard / wardrobe,柜子/衣柜,NOUN,keep,clean
-ar,A2,4,138,ضو,light,光/灯,NOUN,keep,clean
-ar,A2,5,182,جبهة,forehead,前额,NOUN,keep,clean
-ar,A2,6,284,معلومة,information,信息,NOUN,keep,clean
-ar,A2,7,180,قطن,cotton,棉花,NOUN,keep,clean
-ar,A2,8,17,طوى,to fold,折叠,VERB,keep,clean
-ar,A2,9,12,أصلح,to fix / to prepare,修理 / 准备,VERB,keep,clean
-ar,A2,10,497,لازم,must,必须,AUX,keep,clean
-ar,A2,11,71,طحين,flour,面粉,NOUN,keep,clean
-ar,A2,12,488,بصح,but,但是,CCONJ,keep,clean
-ar,A2,13,247,عند,at,在,ADP,keep,clean
-ar,A2,14,483,نيت,really,真的,ADV,keep,clean
-ar,A2,15,468,ياك,right? / isn't it?,是吗？,PART,keep,clean
-ar,A2,16,264,نقطة,point / grade,点 / 分数,NOUN,keep,clean
-ar,A2,17,106,نسيب,in-law,姻亲,NOUN,keep,clean
-ar,A2,18,479,هاك,here you go,给你,INTJ,keep,clean
-ar,A2,19,231,شاحنة,truck,卡车,NOUN,keep,clean
-ar,A2,20,73,خميرة,yeast,酵母,NOUN,keep,clean
-ar,A2,21,128,هدية,gift,礼物,NOUN,keep,clean
-ar,A2,22,212,رطوبة,humidity,湿度,NOUN,keep,clean
-ar,A2,23,445,مسكين,poor,可怜的,ADJ,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+486,كون,if,如果,SCONJ,ar,A2,1,keep,clean
+244,بجانب,next to,在旁边,ADP,ar,A2,2,keep,clean
+291,جريدة,newspaper,报纸,NOUN,ar,A2,3,keep,clean
+472,بلاتي,wait,等一下,INTJ,ar,A2,4,keep,clean
+361,فات,to pass,经过,VERB,ar,A2,5,keep,clean
+261,سبورة,blackboard,黑板,NOUN,ar,A2,6,keep,clean
+457,قد,as much as,多达,PART,ar,A2,7,keep,clean
+458,تقريبا,approximately,大约,ADV,ar,A2,8,keep,clean
+168,مكنسة,broom,扫帚,NOUN,ar,A2,9,keep,clean
+224,غبار,dust,灰尘,NOUN,ar,A2,10,keep,clean
+211,مطر,rain,雨,NOUN,ar,A2,11,keep,clean
+282,فرنسية,French language,法语,NOUN,ar,A2,12,keep,clean
+477,غادي,going to,将要,AUX,ar,A2,13,keep,clean
+196,صحة,health,健康,NOUN,ar,A2,14,keep,clean
+301,قبيلة,tribe,部落,NOUN,ar,A2,15,keep,clean
+281,عربية,Arabic language,阿拉伯语,NOUN,ar,A2,16,keep,clean
+273,شرح,to explain,解释,VERB,ar,A2,17,keep,clean
+487,ولا,or,或者,CCONJ,ar,A2,18,keep,clean
+234,دورة,lap,圈,NOUN,ar,A2,19,keep,clean
+394,صور,to photograph,拍照,VERB,ar,A2,20,keep,clean
+169,شمعة,candle,蜡烛,NOUN,ar,A2,21,keep,clean
+104,بنة,flavor,味道,NOUN,ar,A2,22,keep,clean
+453,أصفر,yellow,黄色的,ADJ,ar,A2,23,keep,clean

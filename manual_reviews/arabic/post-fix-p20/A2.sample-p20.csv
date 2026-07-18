@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-303,طول,length,长度,NOUN,ar,A2,1,keep,clean
-497,لازم,must,必须,AUX,ar,A2,2,keep,clean
-438,ظريف,cute,可爱的,ADJ,ar,A2,3,keep,clean
-69,عدس,lentils,扁豆,NOUN,ar,A2,4,keep,clean
-467,واش,question particle,疑问助词,PART,ar,A2,5,keep,clean
-284,معلومة,information,信息,NOUN,ar,A2,6,keep,clean
-160,فحم,charcoal,木炭,NOUN,ar,A2,7,keep,clean
-488,بصح,but,但是,CCONJ,ar,A2,8,keep,clean
-169,شمعة,candle,蜡烛,NOUN,ar,A2,9,keep,clean
-104,بنة,flavor,味道,NOUN,ar,A2,10,keep,clean
-330,تمنى,to wish,希望,VERB,ar,A2,11,keep,clean
-18,تعب,to get tired,疲劳,VERB,ar,A2,12,keep,clean
-489,مبروك,congratulations,恭喜,INTJ,ar,A2,13,keep,clean
-91,لقمة,bite,一口,NOUN,ar,A2,14,keep,clean
-79,كفتة,minced meat,肉末,NOUN,ar,A2,15,keep,clean
-67,شيبة,wormwood,艾蒿,NOUN,ar,A2,16,keep,clean
-463,مثل,like,像,ADP,ar,A2,17,keep,clean
-235,يمين,right,右,NOUN,ar,A2,18,keep,clean
-407,زلق,to slip,滑倒,VERB,ar,A2,19,keep,clean
-485,إلا,if,如果,SCONJ,ar,A2,20,keep,clean
-185,فخذ,thigh,大腿,NOUN,ar,A2,21,keep,clean
-105,ريحة,smell,气味,NOUN,ar,A2,22,keep,clean
-458,تقريبا,approximately,大约,ADV,ar,A2,23,keep,clean
+491,مع,with,和,ADP,ar,A2,1,keep,clean
+325,منع,to forbid,禁止,VERB,ar,A2,2,keep,clean
+221,جو,weather,天气,NOUN,ar,A2,3,keep,clean
+457,قد,as much as,多达,PART,ar,A2,4,keep,clean
+66,نعناع,mint,薄荷,NOUN,ar,A2,5,keep,clean
+482,فوقاش,when,什么时候,ADV,ar,A2,6,keep,clean
+373,توحش,to miss someone,想念某人,VERB,ar,A2,7,keep,clean
+48,دين,debt,债务,NOUN,ar,A2,8,keep,clean
+488,بصح,but,但是,CCONJ,ar,A2,9,keep,clean
+489,مبروك,congratulations,恭喜,INTJ,ar,A2,10,keep,clean
+245,وسط,middle,中间,NOUN,ar,A2,11,keep,clean
+307,نهاية,end,结束,NOUN,ar,A2,12,keep,clean
+201,نفس,breath,呼吸,NOUN,ar,A2,13,keep,clean
+449,أكيد,sure,确定的,ADJ,ar,A2,14,keep,clean
+389,جمد,to freeze,冻结,VERB,ar,A2,15,keep,clean
+103,شهية,appetite,食欲,NOUN,ar,A2,16,keep,clean
+62,باذنجان,eggplant,茄子,NOUN,ar,A2,17,keep,clean
+128,هدية,gift,礼物,NOUN,ar,A2,18,keep,clean
+57,لوز,almonds,杏仁,NOUN,ar,A2,19,keep,clean
+477,غادي,going to,将要,AUX,ar,A2,20,keep,clean
+50,ساحة,square,广场,NOUN,ar,A2,21,keep,clean
+484,حيت,because,因为,SCONJ,ar,A2,22,keep,clean
+267,واجب,homework / duty,作业 / 职责,NOUN,ar,A2,23,keep,clean

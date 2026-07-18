@@ -1,24 +1,24 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-fr,A2,1,356,oui,yes,是,INTJ,keep,clean
-fr,A2,2,387,parti,political party,政党,NOUN,keep,clean
-fr,A2,3,254,limonade,lemonade,柠檬水,NOUN,keep,clean
-fr,A2,4,226,il,he,他,PRON,keep,clean
-fr,A2,5,242,lavabo,sink,洗手池,NOUN,keep,clean
-fr,A2,6,264,mais,but,但是,CCONJ,keep,clean
-fr,A2,7,407,pavé,paving stone,铺路石,NOUN,keep,clean
-fr,A2,8,262,maintenant,now,现在,ADV,keep,clean
-fr,A2,9,206,framboise,raspberry,覆盆子,NOUN,keep,clean
-fr,A2,10,371,papeterie,stationery shop,文具店,NOUN,keep,clean
-fr,A2,11,65,biscotte,rusk,干面包,NOUN,keep,clean
-fr,A2,12,28,arrivée,arrival,到达,NOUN,keep,clean
-fr,A2,13,117,comme,like,像,ADP,keep,clean
-fr,A2,14,149,cuisinier,cook,厨师,NOUN,keep,clean
-fr,A2,15,257,lorsque,when,当……时,SCONJ,keep,clean
-fr,A2,16,341,onze,eleven,十一,NUM,keep,clean
-fr,A2,17,496,pratique,practical,实用的,ADJ,keep,clean
-fr,A2,18,40,aucun,none,没有任何,DET,keep,clean
-fr,A2,19,89,casque,helmet,头盔,NOUN,keep,clean
-fr,A2,20,421,permettre,to allow,允许,VERB,keep,clean
-fr,A2,21,135,contrôle,control,控制,NOUN,keep,clean
-fr,A2,22,391,partie,part,部分,NOUN,keep,clean
-fr,A2,23,288,mémoire,memory,记忆,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+454,plat,dish,菜肴,NOUN,fr,A2,1,keep,clean
+215,goût,taste,味道,NOUN,fr,A2,2,keep,clean
+12,agneau,lamb,羔羊,NOUN,fr,A2,3,keep,clean
+244,le,the,这/那,DET,fr,A2,4,keep,clean
+178,département,department,部门,NOUN,fr,A2,5,keep,clean
+226,il,he,他,PRON,fr,A2,6,keep,clean
+31,arrêt,stop,停止,NOUN,fr,A2,7,keep,clean
+257,lorsque,when,当……时,SCONJ,fr,A2,8,keep,clean
+353,ou,or,或者,CCONJ,fr,A2,9,keep,clean
+341,onze,eleven,十一,NUM,fr,A2,10,keep,clean
+137,courgette,zucchini,西葫芦,NOUN,fr,A2,11,keep,clean
+69,boucherie,butcher shop,肉店,NOUN,fr,A2,12,keep,clean
+117,comme,like,像,ADP,fr,A2,13,keep,clean
+36,attaque,attack,攻击,NOUN,fr,A2,14,keep,clean
+52,banque,bank,银行,NOUN,fr,A2,15,keep,clean
+105,chou-fleur,cauliflower,花椰菜,NOUN,fr,A2,16,keep,clean
+494,pouvoir,to be able to,能够,VERB,fr,A2,17,keep,clean
+400,passé,past,过去,NOUN,fr,A2,18,keep,clean
+273,merci,thank you,谢谢,INTJ,fr,A2,19,keep,clean
+223,humain,human,人类的,ADJ,fr,A2,20,keep,clean
+380,parfois,sometimes,有时,ADV,fr,A2,21,keep,clean
+297,neige,snow,雪,NOUN,fr,A2,22,keep,clean
+195,faute,mistake,错误,NOUN,fr,A2,23,keep,clean

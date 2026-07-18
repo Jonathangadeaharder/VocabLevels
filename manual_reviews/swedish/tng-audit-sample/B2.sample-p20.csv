@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-sv,B2,1,847,utredning,investigation,调查,NOUN,keep,clean
-sv,B2,2,263,hemifrån,from home,从家里,ADV,keep,clean
-sv,B2,3,878,viss,certain,某些,DET,keep,clean
-sv,B2,4,286,hörni,listen up,听着,INTJ,keep,clean
-sv,B2,5,315,jakt,hunt,狩猎,NOUN,keep,clean
-sv,B2,6,14,barnvakt,babysitter,保姆,NOUN,keep,clean
-sv,B2,7,32,berättelse,story,故事,NOUN,keep,clean
-sv,B2,8,689,snubbe,guy,家伙,NOUN,keep,clean
-sv,B2,9,758,såvida,unless,除非,SCONJ,keep,clean
-sv,B2,10,54,blodtryck,blood pressure,血压,NOUN,keep,clean
-sv,B2,11,285,höghet,highness,殿下,NOUN,keep,clean
-sv,B2,12,812,ty,for/because,因为,CCONJ,keep,clean
-sv,B2,13,288,icke,not,不,PART,keep,clean
-sv,B2,14,509,någons,someone's,某人的,PRON,keep,clean
-sv,B2,15,135,femte,fifth,第五,NUM,keep,clean
-sv,B2,16,337,kliv,step,步,NOUN,keep,clean
-sv,B2,17,396,lager,layer/storage,层/仓库,NOUN,keep,clean
-sv,B2,18,727,ström,current,水流,NOUN,keep,clean
-sv,B2,19,594,riktning,direction,方向,NOUN,keep,clean
-sv,B2,20,629,schysst,fair/decent,公平的/正派的,ADJ,keep,clean
-sv,B2,21,612,rättegång,trial,审判,NOUN,keep,clean
-sv,B2,22,836,uppleva,experience,体验,VERB,keep,clean
-sv,B2,23,426,längs,along,沿着,ADP,keep,clean
-sv,B2,24,325,kamrat,comrade,同志,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+823,ubåt,submarine,潜水艇,NOUN,sv,B2,1,keep,clean
+302,inklusive,including,包括,ADP,sv,B2,2,keep,clean
+589,resurs,resource,资源,NOUN,sv,B2,3,keep,clean
+508,någons,someone's,某人的,PRON,sv,B2,4,keep,clean
+513,offra,sacrifice,牺牲,VERB,sv,B2,5,keep,clean
+811,ty,for/because,因为,CCONJ,sv,B2,6,keep,clean
+286,hörni,listen up,听着,INTJ,sv,B2,7,keep,clean
+30,bensin,gasoline,汽油,NOUN,sv,B2,8,keep,clean
+659,skräp,rubbish,垃圾,NOUN,sv,B2,9,keep,clean
+465,modell,model,模型,NOUN,sv,B2,10,keep,clean
+482,målning,painting,绘画,NOUN,sv,B2,11,keep,clean
+875,vinnare,winner,获胜者,NOUN,sv,B2,12,keep,clean
+788,ton,tone,语气,NOUN,sv,B2,13,keep,clean
+686,snett,diagonally,对角地,ADV,sv,B2,14,keep,clean
+135,femte,fifth,第五,NUM,sv,B2,15,keep,clean
+950,anhängare,supporter,支持者,NOUN,sv,B2,16,keep,clean
+901,äventyr,adventure,冒险,NOUN,sv,B2,17,keep,clean
+877,viss,certain,某些,DET,sv,B2,18,keep,clean
+606,rymd,space,太空,NOUN,sv,B2,19,keep,clean
+700,spelare,player,玩家,NOUN,sv,B2,20,keep,clean
+288,icke,not,不,PART,sv,B2,21,keep,clean
+757,såvida,unless,除非,SCONJ,sv,B2,22,keep,clean
+501,nyfiken,curious,好奇的,ADJ,sv,B2,23,keep,clean
+435,lögnare,liar,说谎者,NOUN,sv,B2,24,keep,clean

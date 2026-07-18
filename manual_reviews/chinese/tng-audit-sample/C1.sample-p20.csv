@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-zh,C1,1,257,幸会,nice to meet you,幸会,INTJ,keep,clean
-zh,C1,2,2347,中雨,moderate rain,中雨,NOUN,keep,clean
-zh,C1,3,684,湖泊,lake,湖泊,NOUN,keep,clean
-zh,C1,4,419,性爱,sex,性爱,NOUN,keep,clean
-zh,C1,5,401,怎样,how,怎样,PRON,keep,clean
-zh,C1,6,236,帝国,empire,帝国,NOUN,keep,clean
-zh,C1,7,2021,疏林,sparse forest,疏林,NOUN,keep,clean
-zh,C1,8,1009,陪审,jury service,陪审,NOUN,keep,clean
-zh,C1,9,270,应,should,应,AUX,keep,clean
-zh,C1,10,936,难以持续,unsustainable,难以持续,ADJ,keep,clean
-zh,C1,11,813,邀请赛,invitational tournament,邀请赛,NOUN,keep,clean
-zh,C1,12,2784,脱粒,thresh,脱粒,VERB,keep,clean
-zh,C1,13,253,并,and,并,CCONJ,keep,clean
-zh,C1,14,528,或,or,或,PART,keep,clean
-zh,C1,15,467,情感,emotion; feeling,情感,NOUN,keep,clean
-zh,C1,16,2087,先遣,advance guard,先遣,NOUN,keep,clean
-zh,C1,17,299,开水,boiled water,开水,NOUN,keep,clean
-zh,C1,18,2,如同,as,如同,SCONJ,keep,clean
-zh,C1,19,2903,歌词,lyrics,歌词,NOUN,keep,clean
-zh,C1,20,1614,社会竞争,social competition,社会竞争,NOUN,keep,clean
-zh,C1,21,2175,赶早,early,赶早,ADV,keep,clean
-zh,C1,22,329,当中,among,当中,ADP,keep,clean
-zh,C1,23,1432,药方,prescription,药方,NOUN,keep,clean
-zh,C1,24,179,屋顶,roof,屋顶,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+2985,效仿,imitate,效仿,VERB,zh,C1,1,keep,clean
+329,当中,among,当中,ADP,zh,C1,2,keep,clean
+1318,柠檬,lemon,柠檬,NOUN,zh,C1,3,keep,clean
+799,毕业生,graduate,毕业生,NOUN,zh,C1,4,keep,clean
+270,应,should,应,AUX,zh,C1,5,keep,clean
+2525,真题,past exam papers,真题,NOUN,zh,C1,6,keep,clean
+2145,白天,daytime,白天,NOUN,zh,C1,7,keep,clean
+253,并,and,并,CCONJ,zh,C1,8,keep,clean
+526,我俩,we two,我俩,PRON,zh,C1,9,keep,clean
+1217,潜水,scuba diving,潜水,NOUN,zh,C1,10,keep,clean
+1082,伏击,ambush,伏击,NOUN,zh,C1,11,keep,clean
+2027,葡萄园,vineyard,葡萄园,NOUN,zh,C1,12,keep,clean
+2,如同,as,如同,SCONJ,zh,C1,13,keep,clean
+1257,豆豉,fermented bean,豆豉,NOUN,zh,C1,14,keep,clean
+1091,起义,uprising,起义,NOUN,zh,C1,15,keep,clean
+3,如此,thus,如此,ADV,zh,C1,16,keep,clean
+828,个人纪录,personal record,个人纪录,NOUN,zh,C1,17,keep,clean
+2929,快报,bulletin,快报,NOUN,zh,C1,18,keep,clean
+1267,芹菜,celery,芹菜,NOUN,zh,C1,19,keep,clean
+1950,脆弱,fragile,脆弱,ADJ,zh,C1,20,keep,clean
+2420,县道,county road,县道,NOUN,zh,C1,21,keep,clean
+456,您好,hello (polite),您好,INTJ,zh,C1,22,keep,clean
+528,或,or,或,PART,zh,C1,23,keep,clean
+619,理解力,comprehension,理解力,NOUN,zh,C1,24,keep,clean

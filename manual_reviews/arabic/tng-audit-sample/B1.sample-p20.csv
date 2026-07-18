@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-ar,B1,1,70,ثقافة,culture,文化,NOUN,keep,clean
-ar,B1,2,312,بطارية,battery,电池,NOUN,keep,clean
-ar,B1,3,795,كريم,cream,乳霜,NOUN,keep,clean
-ar,B1,4,672,أصحاب,friends,朋友,NOUN,keep,clean
-ar,B1,5,590,أعراض,symptoms,症状,NOUN,keep,clean
-ar,B1,6,150,منتخب,national team,国家队,NOUN,keep,clean
-ar,B1,7,227,بومة,owl,猫头鹰,NOUN,keep,clean
-ar,B1,8,64,قصة,story,故事,NOUN,keep,clean
-ar,B1,9,425,أما,as for,至于,PART,keep,clean
-ar,B1,10,684,سَابَ,to let go,放开,VERB,keep,clean
-ar,B1,11,319,متصفح,browser,浏览器,NOUN,keep,clean
-ar,B1,12,503,مبرمج,programmer,程序员,NOUN,keep,clean
-ar,B1,13,316,صفحة,page,页面,NOUN,keep,clean
-ar,B1,14,260,جنسية,nationality,国籍,NOUN,keep,clean
-ar,B1,15,71,فن,art,艺术,NOUN,keep,clean
-ar,B1,16,355,شك,doubt,怀疑,NOUN,keep,clean
-ar,B1,17,328,نظام,system,系统,NOUN,keep,clean
-ar,B1,18,146,تعادل,draw,平局,NOUN,keep,clean
-ar,B1,19,421,طائِش,reckless,鲁莽的,ADJ,keep,clean
-ar,B1,20,437,رغم,despite,尽管,ADP,keep,clean
-ar,B1,21,531,تعاونية,cooperative,合作社,NOUN,keep,clean
-ar,B1,22,436,كلاهما,both,两者都,DET,keep,clean
-ar,B1,23,435,كيفما,however,无论怎样,ADV,keep,clean
-ar,B1,24,642,حظ,luck,运气,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+174,منافس,opponent,对手,NOUN,ar,B1,1,keep,clean
+254,طابور,queue,队列,NOUN,ar,B1,2,keep,clean
+251,ملف,file,文件,NOUN,ar,B1,3,keep,clean
+262,درب,alley,小巷,NOUN,ar,B1,4,keep,clean
+148,ترتيب,ranking,排名,NOUN,ar,B1,5,keep,clean
+784,بالتقسيط,in installments,分期付款,ADV,ar,B1,6,keep,clean
+587,تأمين,insurance,保险,NOUN,ar,B1,7,keep,clean
+129,كأس,cup,杯,NOUN,ar,B1,8,keep,clean
+436,كلاهما,both,两者都,DET,ar,B1,9,keep,clean
+425,أما,as for,至于,PART,ar,B1,10,keep,clean
+213,شمسي,solar,太阳的,ADJ,ar,B1,11,keep,clean
+737,طوبة,brick,砖,NOUN,ar,B1,12,keep,clean
+757,قبض,to grab,抓住,VERB,ar,B1,13,keep,clean
+161,جمباز,gymnastics,体操,NOUN,ar,B1,14,keep,clean
+88,رقص,dance,舞蹈,NOUN,ar,B1,15,keep,clean
+606,طفح,rash,皮疹,NOUN,ar,B1,16,keep,clean
+267,سلطة,authority,权力,NOUN,ar,B1,17,keep,clean
+611,نزيف,bleeding,出血,NOUN,ar,B1,18,keep,clean
+242,تعريف,identification,身份证明,NOUN,ar,B1,19,keep,clean
+308,متابع,follower,关注者,NOUN,ar,B1,20,keep,clean
+245,وفاة,death,死亡,NOUN,ar,B1,21,keep,clean
+147,نتيجة,result,结果,NOUN,ar,B1,22,keep,clean
+437,رغم,despite,尽管,ADP,ar,B1,23,keep,clean
+135,جري,running,跑步,NOUN,ar,B1,24,keep,clean

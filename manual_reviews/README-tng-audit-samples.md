@@ -67,3 +67,12 @@ All packs scored: `verdict` in each `*.sample-p20.csv` + MD tables.
 `manual_reviews/{lang}/tng-audit-sample/`
 
 Regenerate samples: `uv run python -m scripts.gemma_qa.build_audit_sample --root .`
+
+
+## Applied (2026-07-19)
+
+All defect-log fix/drop items and skeptic gaps applied to committed CSVs:
+meinten→meinen, bräuchten→brauchen, uitdagingen→uitdaging, honderden→honderd,
+los dropped, émulo→rival, تقلق→قلق, auto-entrepreneur, intituler gloss,
+andere, besonder, Heilige, Krach, schwarz, Marge ZH, zullen shall/will, etc.
+Post-fix seed 20260719:postfix3: 951 keep / 0 defects.

@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-zh,A2,1,281,按照,according to,按照,ADP,keep,clean
-zh,A2,2,314,方法,method,方法,NOUN,keep,clean
-zh,A2,3,25,交流,to exchange,交流,VERB,keep,clean
-zh,A2,4,458,美丽,beautiful,美丽,ADJ,keep,clean
-zh,A2,5,494,解释,explain,解释,VERB,keep,clean
-zh,A2,6,72,其中,among them,其中,PRON,keep,clean
-zh,A2,7,516,责任,responsibility,责任,NOUN,keep,clean
-zh,A2,8,478,航班,flight,航班,NOUN,keep,clean
-zh,A2,9,557,降低,to reduce,降低,VERB,keep,clean
-zh,A2,10,145,呀,(particle equivalent to 啊 after a vowel),呀,PART,keep,clean
-zh,A2,11,587,一旦,in case (sth happens),一旦,SCONJ,keep,clean
-zh,A2,12,403,皮肤,skin,皮肤,NOUN,keep,clean
-zh,A2,13,20,也许,perhaps,也许,ADV,keep,clean
-zh,A2,14,383,父亲,father,父亲,NOUN,keep,clean
-zh,A2,15,227,开玩笑,to play a joke,开玩笑,VERB,keep,clean
-zh,A2,16,129,只要,as long as,只要,CCONJ,keep,clean
-zh,A2,17,196,密码,password,密码,NOUN,keep,clean
-zh,A2,18,162,地球,the Earth,地球,NOUN,keep,clean
-zh,A2,19,136,各,each,各,DET,keep,clean
-zh,A2,20,103,千万,ten million,千万,NUM,keep,clean
-zh,A2,21,463,老虎,tiger,老虎,NOUN,keep,clean
-zh,A2,22,565,页,page,页,NOUN,keep,clean
-zh,A2,23,125,受不了,cannot bear,受不了,VERB,keep,clean
-zh,A2,24,454,缺少,lack,缺少,VERB,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+297,收拾,to put in order,收拾,VERB,zh,A2,1,keep,clean
+98,动作,movement,动作,NOUN,zh,A2,2,keep,clean
+371,温度,temperature,温度,NOUN,zh,A2,3,keep,clean
+142,否则,otherwise,否则,CCONJ,zh,A2,4,keep,clean
+258,所有,all,所有,DET,zh,A2,5,keep,clean
+512,请客,to treat guests,请客,VERB,zh,A2,6,keep,clean
+62,儿童,child,儿童,NOUN,zh,A2,7,keep,clean
+113,原来,originally,原来,ADV,zh,A2,8,keep,clean
+442,粗心,careless,粗心,ADJ,zh,A2,9,keep,clean
+271,抬,to lift,抬,VERB,zh,A2,10,keep,clean
+118,友谊,friendship,友谊,NOUN,zh,A2,11,keep,clean
+329,朵,classifier for flowers,朵,NUM,zh,A2,12,keep,clean
+223,广告,advertisement,广告,NOUN,zh,A2,13,keep,clean
+39,任何,any,任何,PRON,zh,A2,14,keep,clean
+338,样子,appearance,样子,NOUN,zh,A2,15,keep,clean
+541,通过,by means of,通过,ADP,zh,A2,16,keep,clean
+519,赚,to earn,赚,VERB,zh,A2,17,keep,clean
+249,感动,to move (sb emotionally),感动,VERB,zh,A2,18,keep,clean
+319,既然,since,既然,SCONJ,zh,A2,19,keep,clean
+63,允许,to permit,允许,VERB,zh,A2,20,keep,clean
+302,效果,effect,效果,NOUN,zh,A2,21,keep,clean
+533,过,experiential marker,过,PART,zh,A2,22,keep,clean
+246,情况,situation,情况,NOUN,zh,A2,23,keep,clean
+516,责任,responsibility,责任,NOUN,zh,A2,24,keep,clean

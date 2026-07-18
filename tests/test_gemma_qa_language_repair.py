@@ -8,7 +8,7 @@ import pytest
 
 from scripts.gemma_qa.cefr import CefrClient, run_cefr
 from scripts.gemma_qa.client import GemmaClient, GenerationResult, Usage
-from scripts.gemma_qa.config import MODEL_26B, MODEL_31B, INPUT_BATCH_TOKEN_CAP
+from scripts.gemma_qa.config import MODEL_26B, MODEL_31B, MODEL_ADJUDICATION, INPUT_BATCH_TOKEN_CAP
 from scripts.gemma_qa.language_repair import (
     canonicalize_repaired_german_noun,
     cefr_row_issues,
@@ -423,7 +423,9 @@ def test_blind_capitalization_is_rejected_and_row_is_refilled(
         for model, prompt in client.calls
         if "prompt_version=cefr-language-repair-de-v1" in prompt
     ]
-    assert repair_models == [MODEL_31B, MODEL_26B, MODEL_31B]
+    assert repair_models[0] == MODEL_31B
+    assert repair_models[1] == MODEL_26B
+    assert repair_models[2]  # multi-model adjudication pool
     assert source.read_text(encoding="utf-8").splitlines()[1] == (
         "bringen,bring,带来,NOUN"
     )
@@ -455,3 +457,59 @@ def test_invalid_trusted_refill_cannot_reintroduce_post_repair_issue(
     assert written[1] == "Ersatz,replacement,替代,NOUN"
     assert "geh,go,去,VERB" not in written
     ledger.close()
+
+
+def test_english_citation_mismatch_is_flagged() -> None:
+    row = CefrReviewRow(
+        id="english:A2:1",
+        lemma="dreams",
+        english_lemma="dream",
+        chinese_lemma="梦",
+        upos=UPOS.NOUN,
+        action=ReviewAction.KEEP,
+    )
+    codes = [issue.code for issue in cefr_row_issues(row, lang="english")]
+    assert "english.citation_mismatch" in codes
+
+
+def test_english_matching_citation_is_clean() -> None:
+    row = CefrReviewRow(
+        id="english:A2:1",
+        lemma="dream",
+        english_lemma="dream",
+        chinese_lemma="梦",
+        upos=UPOS.NOUN,
+        action=ReviewAction.KEEP,
+    )
+    assert cefr_row_issues(row, lang="english") == []
+
+
+def test_canonicalize_english_citation_rewrites_lemma() -> None:
+    from scripts.gemma_qa.language_repair import canonicalize_english_citation
+
+    row = CefrReviewRow(
+        id="english:B1:1",
+        lemma="answered",
+        english_lemma="answer",
+        chinese_lemma="回答",
+        upos=UPOS.VERB,
+        action=ReviewAction.KEEP,
+    )
+    fixed = canonicalize_english_citation(row)
+    assert fixed.lemma == "answer"
+    assert fixed.english_lemma == "answer"
+    assert fixed.action is ReviewAction.FIX
+    assert cefr_row_issues(fixed, lang="english") == []
+
+
+def test_non_english_still_flags_english_echo() -> None:
+    row = CefrReviewRow(
+        id="german:A1:1",
+        lemma="Hotel",
+        english_lemma="hotel",
+        chinese_lemma="酒店",
+        upos=UPOS.NOUN,
+        action=ReviewAction.KEEP,
+    )
+    codes = [issue.code for issue in cefr_row_issues(row, lang="german")]
+    assert "cefr.english_echo" in codes

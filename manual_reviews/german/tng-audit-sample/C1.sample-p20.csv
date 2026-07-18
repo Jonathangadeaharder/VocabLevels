@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-de,C1,1,867,haben,have,有,AUX,keep,clean
-de,C1,2,1903,Zertifikat,certificate,证书,NOUN,keep,clean
-de,C1,3,971,keins,none,没有一个,DET,keep,clean
-de,C1,4,1632,Tragödie,tragedy,悲剧,NOUN,keep,clean
-de,C1,5,1643,tschau,bye,再见,INTJ,keep,clean
-de,C1,6,1860,wider,against,反对,ADP,keep,clean
-de,C1,7,1259,nich,not,不,PART,keep,clean
-de,C1,8,958,Kartoffel,potato,土豆,NOUN,keep,clean
-de,C1,9,806,Herd,stove,炉灶,NOUN,keep,clean
-de,C1,10,1134,längst,long ago,早已,ADV,keep,clean
-de,C1,11,121,auflegen,hang up,挂断,VERB,keep,clean
-de,C1,12,1501,Selbstvertrauen,self-confidence,自信,NOUN,keep,clean
-de,C1,13,287,Betracht,consideration,考虑,NOUN,keep,clean
-de,C1,14,637,gebrauchen,use,使用,VERB,keep,clean
-de,C1,15,1603,Tatbestand,elements of an offense,构成要件,NOUN,keep,clean
-de,C1,16,1518,sobald,as soon as,一...就,SCONJ,keep,clean
-de,C1,17,500,Erlebnis,experience,经历,NOUN,keep,clean
-de,C1,18,595,folgendes,the following,以下内容,PRON,keep,clean
-de,C1,19,787,Haustier,pet,宠物,NOUN,keep,clean
-de,C1,20,1852,Werft,shipyard,造船厂,NOUN,keep,clean
-de,C1,21,123,aufgeschlossen,open-minded,思想开明的,ADJ,keep,clean
-de,C1,22,1450,Schießerei,shootout,枪战,NOUN,keep,clean
-de,C1,23,1891,Wärme,warmth,温暖,NOUN,keep,clean
-de,C1,24,1605,tausend,thousand,千,NUM,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+1208,mm,hmm,嗯,INTJ,de,C1,1,keep,clean
+72,Angreifer,attacker,攻击者,NOUN,de,C1,2,keep,clean
+904,Investition,investment,投资,NOUN,de,C1,3,keep,clean
+148,ausgezeichnet,excellent,优秀的,ADJ,de,C1,4,keep,clean
+698,Gerinnsel,clot,凝块,NOUN,de,C1,5,keep,clean
+36,Außerirdischer,alien,外星人,NOUN,de,C1,6,keep,clean
+1190,Ministerium,ministry,部,NOUN,de,C1,7,keep,clean
+394,Donner,thunder,雷声,NOUN,de,C1,8,keep,clean
+1605,tausend,thousand,千,NUM,de,C1,9,keep,clean
+1788,vielmals,many times,多次,ADV,de,C1,10,keep,clean
+867,haben,have,有,AUX,de,C1,11,keep,clean
+1259,nich,not,不,PART,de,C1,12,keep,clean
+110,aufbauen,build,建立,VERB,de,C1,13,keep,clean
+1518,sobald,as soon as,一...就,SCONJ,de,C1,14,keep,clean
+826,Herzschlag,heartbeat,心跳,NOUN,de,C1,15,keep,clean
+1062,Kunstgriff,artifice,诡计,NOUN,de,C1,16,keep,clean
+151,ausleihen,lend,借出,VERB,de,C1,17,keep,clean
+1656,Umfeld,environment,环境,NOUN,de,C1,18,keep,clean
+1464,Schmerzmittel,painkiller,止痛药,NOUN,de,C1,19,keep,clean
+1389,Reisepass,passport,护照,NOUN,de,C1,20,keep,clean
+1522,solch,such,这样的,DET,de,C1,21,keep,clean
+490,Erfinder,inventor,发明者,NOUN,de,C1,22,keep,clean
+1169,meins,mine,我的,PRON,de,C1,23,keep,clean
+84,anstatt,instead,代替,ADP,de,C1,24,keep,clean

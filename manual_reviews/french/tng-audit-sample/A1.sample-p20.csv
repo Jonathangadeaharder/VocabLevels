@@ -1,24 +1,24 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-fr,A1,1,104,car,because,因为,CCONJ,keep,clean
-fr,A1,2,289,espérer,to hope,希望,VERB,keep,clean
-fr,A1,3,206,debout,standing,站立的,ADV,keep,clean
-fr,A1,4,64,blanc,white,白色的,ADJ,keep,clean
-fr,A1,5,317,fils,son,儿子,NOUN,keep,clean
-fr,A1,6,442,ligne,line,线,NOUN,keep,clean
-fr,A1,7,71,bonsoir,good evening,晚上好,INTJ,keep,clean
-fr,A1,8,358,gorge,throat,喉咙,NOUN,keep,clean
-fr,A1,9,223,dieu,god,上帝,NOUN,keep,clean
-fr,A1,10,493,mille,thousand,千,NUM,keep,clean
-fr,A1,11,140,cheval,horse,马,NOUN,keep,clean
-fr,A1,12,236,dos,back,背,NOUN,keep,clean
-fr,A1,13,456,ma,my,我的,DET,keep,clean
-fr,A1,14,397,humour,humor,幽默,NOUN,keep,clean
-fr,A1,15,115,celui,that one,那个,PRON,keep,clean
-fr,A1,16,387,histoire,story,故事,NOUN,keep,clean
-fr,A1,17,95,café,coffee,咖啡,NOUN,keep,clean
-fr,A1,18,205,de,of,的,ADP,keep,clean
-fr,A1,19,130,chanter,to sing,唱歌,VERB,keep,clean
-fr,A1,20,260,employé,employee,雇员,NOUN,keep,clean
-fr,A1,21,305,fait,fact,事实,NOUN,keep,clean
-fr,A1,22,323,fonction,function,功能,NOUN,keep,clean
-fr,A1,23,516,mouvement,movement,运动,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+79,bourg,town,市镇,NOUN,fr,A1,1,keep,clean
+116,centre,center,中心,NOUN,fr,A1,2,keep,clean
+103,canapé,sofa,沙发,NOUN,fr,A1,3,keep,clean
+117,cependant,however,然而,ADV,fr,A1,4,keep,clean
+123,chaise,chair,椅子,NOUN,fr,A1,5,keep,clean
+111,ce,this,这,DET,fr,A1,6,keep,clean
+158,clef,key,钥匙,NOUN,fr,A1,7,keep,clean
+19,allô,hello,喂,INTJ,fr,A1,8,keep,clean
+223,dieu,god,上帝,NOUN,fr,A1,9,keep,clean
+314,fiançailles,engagement,订婚,NOUN,fr,A1,10,keep,clean
+217,deux,two,二,NUM,fr,A1,11,keep,clean
+163,coin,corner,角落,NOUN,fr,A1,12,keep,clean
+80,bout,end,末端,NOUN,fr,A1,13,keep,clean
+104,car,because,因为,CCONJ,fr,A1,14,keep,clean
+276,entre,between,在...之间,ADP,fr,A1,15,keep,clean
+363,gras,fat,胖的,ADJ,fr,A1,16,keep,clean
+2,abaisser,to lower,降低,VERB,fr,A1,17,keep,clean
+112,ceci,this,这个,PRON,fr,A1,18,keep,clean
+500,mois,month,月,NOUN,fr,A1,19,keep,clean
+57,battre,to beat,打,VERB,fr,A1,20,keep,clean
+161,clé,key,钥匙,NOUN,fr,A1,21,keep,clean
+521,mètre,meter,米,NOUN,fr,A1,22,keep,clean
+458,mademoiselle,miss,小姐,NOUN,fr,A1,23,keep,clean

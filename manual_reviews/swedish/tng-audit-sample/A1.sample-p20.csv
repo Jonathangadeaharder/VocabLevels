@@ -1,24 +1,24 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-sv,A1,1,121,gata,street,街道,NOUN,keep,clean
-sv,A1,2,492,eftersom,because,因为,SCONJ,keep,clean
-sv,A1,3,224,lön,salary,工资,NOUN,keep,clean
-sv,A1,4,78,ett,one,一,NUM,keep,clean
-sv,A1,5,444,öga,eye,眼睛,NOUN,keep,clean
-sv,A1,6,498,enligt,according to,根据,ADP,keep,clean
-sv,A1,7,464,bevis,proof,证据/证明,NOUN,keep,clean
-sv,A1,8,308,sjuk,sick,生病的,ADJ,keep,clean
-sv,A1,9,252,mössa,hat,帽子,NOUN,keep,clean
-sv,A1,10,453,allvar,seriousness,严重性,NOUN,keep,clean
-sv,A1,11,56,den,it (common),它 (通性),PRON,keep,clean
-sv,A1,12,466,bör,should,应该,AUX,keep,clean
-sv,A1,13,48,båda,both,两者,DET,keep,clean
-sv,A1,14,342,sten,stone,石头,NOUN,keep,clean
-sv,A1,15,14,att,to (infinitive marker),去（不定式标记）,PART,keep,clean
-sv,A1,16,284,regn,rain,雨,NOUN,keep,clean
-sv,A1,17,333,sommar,summer,夏天,NOUN,keep,clean
-sv,A1,18,365,tack,thanks,谢谢,INTJ,keep,clean
-sv,A1,19,335,sova,to sleep,睡觉,VERB,keep,clean
-sv,A1,20,233,men,but,但是,CCONJ,keep,clean
-sv,A1,21,485,dit,there,去那里,ADV,keep,clean
-sv,A1,22,309,sjukhus,hospital,医院,NOUN,keep,clean
-sv,A1,23,246,måla,to paint,画,VERB,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+517,fortsätta,continue,继续,VERB,sv,A1,1,keep,clean
+6,andra,other / others,其他,DET,sv,A1,2,keep,clean
+75,eller,or,或,CCONJ,sv,A1,3,keep,clean
+272,oktober,October,十月,NOUN,sv,A1,4,keep,clean
+519,framför,in front of,在...前面,ADP,sv,A1,5,keep,clean
+143,hej,hello,你好,INTJ,sv,A1,6,keep,clean
+38,bror,brother,兄弟,NOUN,sv,A1,7,keep,clean
+52,dag,day,天,NOUN,sv,A1,8,keep,clean
+370,tavla,painting,画,NOUN,sv,A1,9,keep,clean
+366,tacka,to thank,感谢,VERB,sv,A1,10,keep,clean
+492,eftersom,because,因为,SCONJ,sv,A1,11,keep,clean
+88,fisk,fish,鱼,NOUN,sv,A1,12,keep,clean
+154,hud,skin,皮肤,NOUN,sv,A1,13,keep,clean
+99,fredag,Friday,星期五,NOUN,sv,A1,14,keep,clean
+16,badrum,bathroom,浴室,NOUN,sv,A1,15,keep,clean
+480,dess,its,它的,PRON,sv,A1,16,keep,clean
+466,bör,should,应该,AUX,sv,A1,17,keep,clean
+208,lila,purple,紫色的,ADJ,sv,A1,18,keep,clean
+14,att,to (infinitive marker),去（不定式标记）,PART,sv,A1,19,keep,clean
+106,fyra,four,四,NUM,sv,A1,20,keep,clean
+423,vin,wine,葡萄酒,NOUN,sv,A1,21,keep,clean
+82,far,father,父亲,NOUN,sv,A1,22,keep,clean
+411,varför,why,为什么,ADV,sv,A1,23,keep,clean

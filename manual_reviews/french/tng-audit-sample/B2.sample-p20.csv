@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-fr,B2,1,44,aiguille,needle,针,NOUN,keep,clean
-fr,B2,2,780,hélas,alas,唉,INTJ,keep,clean
-fr,B2,3,1615,soldat,soldier,士兵,NOUN,keep,clean
-fr,B2,4,1009,mousse,foam,泡沫,NOUN,keep,clean
-fr,B2,5,427,dignité,dignity,尊严,NOUN,keep,clean
-fr,B2,6,1613,soixante,sixty,六十,NUM,keep,clean
-fr,B2,7,1691,stigmatiser,to stigmatize,污名化,VERB,keep,clean
-fr,B2,8,1055,nommément,namely,具体来说,ADV,keep,clean
-fr,B2,9,1477,sagesse,wisdom,智慧,NOUN,keep,clean
-fr,B2,10,160,barrière,barrier,障碍物,NOUN,keep,clean
-fr,B2,11,1154,philosophe,philosopher,哲学家,NOUN,keep,clean
-fr,B2,12,1501,sauf,except,除了,ADP,keep,clean
-fr,B2,13,733,grippe,flu,流感,NOUN,keep,clean
-fr,B2,14,136,autrui,others,他人,PRON,keep,clean
-fr,B2,15,1573,si,if,如果,SCONJ,keep,clean
-fr,B2,16,1630,son,his,他的,DET,keep,clean
-fr,B2,17,337,connexion,connection,连接,NOUN,keep,clean
-fr,B2,18,1356,ressortir,to stand out,突出,VERB,keep,clean
-fr,B2,19,634,extrémité,end,末端,NOUN,keep,clean
-fr,B2,20,284,colonie,colony,殖民地,NOUN,keep,clean
-fr,B2,21,558,empirisme,empiricism,经验主义,NOUN,keep,clean
-fr,B2,22,650,fiable,reliable,可靠的,ADJ,keep,clean
-fr,B2,23,1434,réservation,reservation,预订,NOUN,keep,clean
-fr,B2,24,150,bail,lease,租约,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+1076,névrose,neurosis,神经症,NOUN,fr,B2,1,keep,clean
+1574,sien,his,他的,PRON,fr,B2,2,keep,clean
+1295,quoique,although,虽然,SCONJ,fr,B2,3,keep,clean
+886,jumeau,twin,双胞胎,NOUN,fr,B2,4,keep,clean
+1165,pistolet,pistol,手枪,NOUN,fr,B2,5,keep,clean
+465,débarrasser,to get rid of,清除,VERB,fr,B2,6,keep,clean
+1440,résiduel,residual,残留的,ADJ,fr,B2,7,keep,clean
+1659,sous,under,在...下面,ADP,fr,B2,8,keep,clean
+1437,résidence,residence,住所,NOUN,fr,B2,9,keep,clean
+1428,réputation,reputation,名声,NOUN,fr,B2,10,keep,clean
+569,enchère,bid,出价,NOUN,fr,B2,11,keep,clean
+904,litre,liter,升,NOUN,fr,B2,12,keep,clean
+1555,sept,seven,七,NUM,fr,B2,13,keep,clean
+1240,provenance,origin,来源,NOUN,fr,B2,14,keep,clean
+936,maladroitement,clumsily,笨拙地,ADV,fr,B2,15,keep,clean
+1192,pompe,pump,泵,NOUN,fr,B2,16,keep,clean
+1063,noyau,core,核心,NOUN,fr,B2,17,keep,clean
+780,hélas,alas,唉,INTJ,fr,B2,18,keep,clean
+193,bêtise,stupidity,愚蠢,NOUN,fr,B2,19,keep,clean
+103,arrestation,arrest,逮捕,NOUN,fr,B2,20,keep,clean
+897,librairie,bookstore,书店,NOUN,fr,B2,21,keep,clean
+12,acceptation,acceptance,接受,NOUN,fr,B2,22,keep,clean
+1630,son,his,他的,DET,fr,B2,23,keep,clean
+264,classer,to classify,分类,VERB,fr,B2,24,keep,clean

@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-424,متى,when,何时,ADV,ar,B1,1,keep,clean
-60,حفلة,party/concert,派对/音乐会,NOUN,ar,B1,2,keep,clean
-587,تأمين,insurance,保险,NOUN,ar,B1,3,keep,clean
-326,إشعار,notification,通知,NOUN,ar,B1,4,keep,clean
-47,تيرمينال,terminal,航站楼,NOUN,ar,B1,5,keep,clean
-378,خلاف,disagreement,分歧,NOUN,ar,B1,6,keep,clean
-758,أمسك,to catch,抓住,VERB,ar,B1,7,keep,clean
-114,نقد,criticism,批评,NOUN,ar,B1,8,keep,clean
-514,إطفائي,firefighter,消防员,NOUN,ar,B1,9,keep,clean
-544,تقاليد,traditions,传统,NOUN,ar,B1,10,keep,clean
-662,مربية,nanny,保姆,NOUN,ar,B1,11,keep,clean
-144,فوز,victory,胜利,NOUN,ar,B1,12,keep,clean
-281,مصلحة,department,部门,NOUN,ar,B1,13,keep,clean
-121,معجب,fan,粉丝,NOUN,ar,B1,14,keep,clean
-222,أركان,argan,阿甘树,NOUN,ar,B1,15,keep,clean
+279,محضر,official report,笔录,NOUN,ar,B1,1,keep,clean
+370,ثقة,trust,信任,NOUN,ar,B1,2,keep,clean
+436,كلاهما,both,两者都,DET,ar,B1,3,keep,clean
+532,عطار,herbalist,草药师,NOUN,ar,B1,4,keep,clean
+520,مهارة,skill,技能,NOUN,ar,B1,5,keep,clean
+308,متابع,follower,关注者,NOUN,ar,B1,6,keep,clean
+16,قصبة,kasbah,卡斯巴,NOUN,ar,B1,7,keep,clean
+62,مسرحية,stage play,舞台剧,NOUN,ar,B1,8,keep,clean
+425,أما,as for,至于,PART,ar,B1,9,keep,clean
+72,فنان,artist,艺术家,NOUN,ar,B1,10,keep,clean
+582,إمساك,constipation,便秘,NOUN,ar,B1,11,keep,clean
+392,صَبُور,patient,有耐心的,ADJ,ar,B1,12,keep,clean
+669,هودج,palanquin,轿子,NOUN,ar,B1,13,keep,clean
+442,بيننا,between us,我们之间,ADP,ar,B1,14,keep,clean
+792,سالف,sideburn,鬓角,NOUN,ar,B1,15,keep,clean
 11,مقهى,cafe,咖啡馆,NOUN,ar,B1,16,keep,clean
-425,أما,as for,至于,PART,ar,B1,17,keep,clean
-436,كلاهما,both,两者都,DET,ar,B1,18,keep,clean
-280,سجن,prison,监狱,NOUN,ar,B1,19,keep,clean
-173,مسابقة,competition,比赛,NOUN,ar,B1,20,keep,clean
-653,دهان,paint,油漆,NOUN,ar,B1,21,keep,clean
-442,بيننا,between us,我们之间,ADP,ar,B1,22,keep,clean
-138,تسلق,climbing,攀岩,NOUN,ar,B1,23,keep,clean
-396,واعٍ,aware,意识到的,ADJ,ar,B1,24,keep,clean
+77,ترفيه,entertainment,娱乐,NOUN,ar,B1,17,keep,clean
+732,مارطو,hammer,锤子,NOUN,ar,B1,18,keep,clean
+441,باختصار,in short,简而言之,ADV,ar,B1,19,keep,clean
+513,سكرتير,secretary,秘书,NOUN,ar,B1,20,keep,clean
+238,عمالة,prefecture,省,NOUN,ar,B1,21,keep,clean
+217,حصاد,harvest,收获,NOUN,ar,B1,22,keep,clean
+797,شفرة,razor blade,刀片,NOUN,ar,B1,23,keep,clean
+373,سب,to insult,辱骂,VERB,ar,B1,24,keep,clean

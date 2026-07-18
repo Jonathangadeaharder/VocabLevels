@@ -9,7 +9,7 @@ import pytest
 
 from scripts.gemma_qa.client import GemmaClient, GenerationResult, Usage
 from scripts.gemma_qa.cli import build_parser
-from scripts.gemma_qa.config import MODEL_26B, MODEL_31B, INPUT_BATCH_TOKEN_CAP
+from scripts.gemma_qa.config import MODEL_26B, MODEL_31B, MODEL_ADJUDICATION, INPUT_BATCH_TOKEN_CAP
 from scripts.gemma_qa.handcraft import (
     HANDCRAFT_MAX_OUTPUT_TOKENS,
     MAX_HANDCRAFT_SENTENCES_PER_BATCH,
@@ -60,6 +60,10 @@ class QueueClient:
         self.output_limits.append(max_output_tokens)
         if self.ledger is not None:
             self.checkpoint_counts.append(self.ledger.status().checkpoints)
+        if not self.responses:
+            raise AssertionError(
+                f"QueueClient exhausted after {len(self.calls)} calls (model={model})"
+            )
         parsed = self.responses.pop(0)
         response_json: dict[str, object] = {
             "candidates": [
@@ -288,7 +292,9 @@ def test_mocked_dual_model_pipeline_writes_twenty_sentences(tmp_path: Path) -> N
         if line.startswith("# sent_id = ")
     ] == [assignment.sent_id for assignment in assignments]
     assert client.calls == [
-        model for _ in assignment_batches for model in (MODEL_31B, MODEL_26B, MODEL_31B)
+        model
+        for _ in assignment_batches
+        for model in (MODEL_31B, MODEL_26B, MODEL_ADJUDICATION)
     ]
     estimator = TiktokenEstimator()
     assert all(estimator.count(prompt) <= INPUT_BATCH_TOKEN_CAP for prompt in client.prompts)
@@ -451,7 +457,7 @@ def test_material_review_difference_uses_31b_adjudication(tmp_path: Path) -> Non
         ledger=ledger,
     )
 
-    assert client.calls == [MODEL_31B, MODEL_26B, MODEL_31B]
+    assert client.calls == [MODEL_31B, MODEL_26B, MODEL_ADJUDICATION]
     ledger.close()
 
 
@@ -538,7 +544,7 @@ def test_handcraft_full_semantic_repair_precedes_checkpoint_storage(
     [
         ("punctuation", "punctuation lemma"),
         ("text", "text mismatch"),
-        ("target", "target lemma"),
+        ("target", "not represented"),
     ],
 )
 def test_full_validation_failure_never_reaches_checkpoint(
@@ -642,7 +648,7 @@ def test_validation_rejects_upos_x() -> None:
 def test_validation_rejects_missing_target() -> None:
     batch = one_batch()
     batch.sentences[0].tokens[1].lemma = "Morgen"
-    with pytest.raises(ValueError, match="target lemma"):
+    with pytest.raises(ValueError, match="not represented"):
         validate_handcraft_batch(batch, [one_assignment()])
 
 
@@ -737,3 +743,81 @@ def test_handcraft_cli_accepts_required_roots_and_smoke_model() -> None:
     assert args.lemmatizer_root == Path("/lemmatizer")
     assert args.count == 20
     assert args.apply is True
+
+
+def test_assess_handcraft_ready_accepts_clean_german(tmp_path: Path) -> None:
+    from scripts.gemma_qa.handcraft import assess_handcraft_ready
+
+    make_vocab(tmp_path, rows=60)
+    report = assess_handcraft_ready(
+        vocab_root=tmp_path,
+        lang="de",
+        level="A1",
+        count=20,
+    )
+    assert report.ready is True
+    assert report.row_count == 60
+
+
+def test_assess_handcraft_ready_rejects_missing_and_bad_rows(tmp_path: Path) -> None:
+    from scripts.gemma_qa.handcraft import assess_handcraft_ready
+
+    missing = assess_handcraft_ready(
+        vocab_root=tmp_path,
+        lang="de",
+        level="A1",
+        count=20,
+    )
+    assert missing.ready is False
+    assert any("missing" in item for item in missing.issues)
+
+    directory = tmp_path / "german"
+    directory.mkdir(parents=True)
+    with (directory / "A1.csv").open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle)
+        writer.writerow(["German_Lemma", "English_Lemma", "Chinese_Lemma", "POS"])
+        # lowercase noun: german.noun_requires_uppercase
+        writer.writerow(["wort", "word", "", "NOUN"])
+        for index in range(2, 25):
+            writer.writerow([f"Wort{index}", f"word{index}", "", "NOUN"])
+    dirty = assess_handcraft_ready(
+        vocab_root=tmp_path,
+        lang="de",
+        level="A1",
+        count=20,
+    )
+    assert dirty.ready is False
+    assert any("noun_requires_uppercase" in item for item in dirty.issues)
+
+
+def test_target_representation_requires_lemma_and_upos(tmp_path: Path) -> None:
+    assignment = SentenceTargets.from_values(
+        sent_id="handcraft-de-a1-001",
+        targets=[("1", "Haus", UPOS.NOUN)],
+        source=tmp_path / "A1.csv",
+    )
+    wrong_upos = HandcraftBatch(
+        sentences=[
+            HandcraftSentence(
+                sent_id="handcraft-de-a1-001",
+                text="Haus.",
+                target_ids=["1"],
+                tokens=[
+                    HandcraftToken(
+                        id="1",
+                        form="Haus",
+                        lemma="Haus",
+                        upos=UPOS.PROPN,
+                    ),
+                    HandcraftToken(
+                        id="2",
+                        form=".",
+                        lemma=".",
+                        upos=UPOS.PUNCT,
+                    ),
+                ],
+            )
+        ]
+    )
+    with pytest.raises(ValueError, match="lemma and UPOS"):
+        validate_handcraft_batch(wrong_upos, [assignment], lang="de")

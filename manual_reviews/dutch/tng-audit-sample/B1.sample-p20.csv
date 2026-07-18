@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-nl,B1,1,277,akkoord,agreement,协议,NOUN,keep,clean
-nl,B1,2,23,verkeerd,wrong,错误的,ADJ,keep,clean
-nl,B1,3,473,zwemmen,to swim,游泳,VERB,keep,clean
-nl,B1,4,500,nogmaals,once more,再次,ADV,keep,clean
-nl,B1,5,460,honderden,hundreds,数百,NUM,keep,clean
-nl,B1,6,171,productie,production,生产,NOUN,keep,clean
-nl,B1,7,35,tafel,table,桌子,NOUN,keep,clean
-nl,B1,8,472,zak,bag,袋子,NOUN,keep,clean
-nl,B1,9,217,zoiets,something like that,类似的事物,PRON,keep,clean
-nl,B1,10,385,moe,tired,疲倦的,ADJ,keep,clean
-nl,B1,11,323,dichtbij,near,附近,ADP,keep,clean
-nl,B1,12,106,leider,leader,领导者,NOUN,keep,clean
-nl,B1,13,81,zuiden,south,南方,NOUN,keep,clean
-nl,B1,14,42,finale,final,决赛,NOUN,keep,clean
-nl,B1,15,45,hallo,hello,你好,INTJ,keep,clean
-nl,B1,16,309,dame,lady,女士,NOUN,keep,clean
-nl,B1,17,200,arts,doctor,医生,NOUN,keep,clean
-nl,B1,18,96,totdat,until,直到,SCONJ,keep,clean
-nl,B1,19,359,generatie,generation,一代,NOUN,keep,clean
-nl,B1,20,265,laatst,last,最近的,ADJ,keep,clean
-nl,B1,21,370,spoor,track,轨道,NOUN,keep,clean
-nl,B1,22,273,uitspraak,pronunciation,发音,NOUN,keep,clean
-nl,B1,23,112,zulke,such,这样的,DET,keep,clean
-nl,B1,24,91,noorden,north,北方,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+414,winst,profit,利润,NOUN,nl,B1,1,keep,clean
+447,terrein,terrain,地形,NOUN,nl,B1,2,keep,clean
+74,medewerker,employee,员工,NOUN,nl,B1,3,keep,clean
+129,nogal,rather,相当,ADV,nl,B1,4,keep,clean
+295,schoon,clean,干净的,ADJ,nl,B1,5,keep,clean
+526,carrière,career,职业,NOUN,nl,B1,6,keep,clean
+112,zulke,such,这样的,DET,nl,B1,7,keep,clean
+169,meid,girl,女孩,NOUN,nl,B1,8,keep,clean
+282,dansen,to dance,跳舞,VERB,nl,B1,9,keep,clean
+450,been,leg,腿,NOUN,nl,B1,10,keep,clean
+515,namens,on behalf of,代表,ADP,nl,B1,11,keep,clean
+108,miljard,billion,十亿,NUM,nl,B1,12,keep,clean
+156,strand,beach,海滩,NOUN,nl,B1,13,keep,clean
+504,sommigen,some,有些人,PRON,nl,B1,14,keep,clean
+96,totdat,until,直到,SCONJ,nl,B1,15,keep,clean
+195,vlag,flag,旗帜,NOUN,nl,B1,16,keep,clean
+42,finale,final,决赛,NOUN,nl,B1,17,keep,clean
+495,bibliotheek,library,图书馆,NOUN,nl,B1,18,keep,clean
+163,behandeling,treatment,治疗,NOUN,nl,B1,19,keep,clean
+115,bescherming,protection,保护,NOUN,nl,B1,20,keep,clean
+488,Spaans,Spanish,西班牙的,ADJ,nl,B1,21,keep,clean
+500,non,nun,修女,NOUN,nl,B1,22,keep,clean
+296,simpel,simple,简单的,ADJ,nl,B1,23,keep,clean
+242,gefeliciteerd,congratulations,恭喜,INTJ,nl,B1,24,keep,clean

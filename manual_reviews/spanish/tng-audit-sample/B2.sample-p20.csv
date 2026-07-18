@@ -1,25 +1,25 @@
-lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
-es,B2,1,1813,infiel,unfaithful,不忠的,ADJ,keep,clean
-es,B2,2,1858,obedecer,to obey,服从,VERB,keep,clean
-es,B2,3,899,carpeta,folder,文件夹,NOUN,keep,clean
-es,B2,4,1167,colonizar,to colonize,殖民,VERB,keep,clean
-es,B2,5,116,adorno,adornment,装饰,NOUN,keep,clean
-es,B2,6,86,acta,minutes,会议记录,NOUN,keep,clean
-es,B2,7,280,andamio,scaffold,脚手架,NOUN,keep,clean
-es,B2,8,468,asedio,siege,围攻,NOUN,keep,clean
-es,B2,9,961,ceder,to yield,让步,VERB,keep,clean
-es,B2,10,332,apatía,apathy,冷漠,NOUN,keep,clean
-es,B2,11,693,billón,trillion,万亿,NUM,keep,clean
-es,B2,12,907,cartílago,cartilage,软骨,NOUN,keep,clean
-es,B2,13,1780,finanzas,finances,财务,NOUN,keep,clean
-es,B2,14,807,cabalmente,exactly,恰好,ADV,keep,clean
-es,B2,15,175,aislar,to isolate,隔离,VERB,keep,clean
-es,B2,16,1621,cuerno,horn,角,NOUN,keep,clean
-es,B2,17,831,calar,to soak,浸透,VERB,keep,clean
-es,B2,18,1282,condestable,constable,警官,NOUN,keep,clean
-es,B2,19,647,barahúnda,uproar,喧嚣,NOUN,keep,clean
-es,B2,20,337,apelar,to appeal,上诉,VERB,keep,clean
-es,B2,21,759,bromear,to joke,开玩笑,VERB,keep,clean
-es,B2,22,1569,coño,damn,该死,INTJ,keep,clean
-es,B2,23,1311,confitería,candy shop,糖果店,NOUN,keep,clean
-es,B2,24,1068,circunloquio,circumlocution,迂回说法,NOUN,keep,clean
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+1808,hurra,hurrah,好哇,INTJ,es,B2,1,keep,clean
+693,billón,trillion,万亿,NUM,es,B2,2,keep,clean
+1819,insoportable,unbearable,难以忍受的,ADJ,es,B2,3,keep,clean
+1584,criminalista,criminal lawyer,刑事律师,NOUN,es,B2,4,keep,clean
+1061,cintura,waist,腰,NOUN,es,B2,5,keep,clean
+1614,cuasi,quasi,准,ADV,es,B2,6,keep,clean
+108,adiestrar,to train,训练,VERB,es,B2,7,keep,clean
+351,apodo,nickname,绰号,NOUN,es,B2,8,keep,clean
+102,aderezar,to dress,调味,VERB,es,B2,9,keep,clean
+1420,contemplar,to contemplate,凝视,VERB,es,B2,10,keep,clean
+1038,chivato,snitch,告密者,NOUN,es,B2,11,keep,clean
+520,ateo,atheist,无神论者,NOUN,es,B2,12,keep,clean
+315,antorcha,torch,火炬,NOUN,es,B2,13,keep,clean
+1462,contrayente,party to the contract,缔约方,NOUN,es,B2,14,keep,clean
+80,acrecentar,to increase,增加,VERB,es,B2,15,keep,clean
+167,aguardar,to wait,等待,VERB,es,B2,16,keep,clean
+857,campiña,countryside,乡村,NOUN,es,B2,17,keep,clean
+1370,consenso,consensus,共识,NOUN,es,B2,18,keep,clean
+844,caligrafía,calligraphy,书法,NOUN,es,B2,19,keep,clean
+316,antropología,anthropology,人类学,NOUN,es,B2,20,keep,clean
+489,asociado,associate,同事,NOUN,es,B2,21,keep,clean
+1605,cuajada,curd,凝乳,NOUN,es,B2,22,keep,clean
+42,acaecer,to occur,发生,VERB,es,B2,23,keep,clean
+586,auxiliar,to assist,协助,VERB,es,B2,24,keep,clean

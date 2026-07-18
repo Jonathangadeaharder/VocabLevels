@@ -317,7 +317,7 @@ def test_fix_failing_german_language_gate_is_rejected(tmp_path: Path) -> None:
         ],
     )
 
-    with pytest.raises(ValueError, match="German language gates failed"):
+    with pytest.raises(ValueError, match="language gates failed"):
         run_manual_review(
             root=tmp_path,
             lang="german",
@@ -351,7 +351,7 @@ def test_apply_validates_before_atomically_replacing_canonical_csv(
         ],
     )
 
-    with pytest.raises(ValueError, match="German language gates failed"):
+    with pytest.raises(ValueError, match="language gates failed"):
         run_manual_review(
             root=tmp_path,
             lang="german",
@@ -452,7 +452,7 @@ def test_manual_review_cli_runs_without_api_credentials(
     write_csv(source, rows)
     reviews = tmp_path / "manual_reviews" / "german" / "A1"
     write_decisions(reviews, [decision(2, rows[0], "drop")])
-    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+    monkeypatch.delenv("API_KEY", raising=False)
 
     assert (
         main(
@@ -474,3 +474,64 @@ def test_manual_review_cli_runs_without_api_credentials(
     )
 
     assert "input=1 fix=0 drop=1 output=0" in capsys.readouterr().out
+
+
+def test_manual_review_spanish_applies_and_gates_english_echo(tmp_path: Path) -> None:
+    header = ["Spanish_Lemma", "English_Lemma", "Chinese_Lemma", "POS"]
+
+    def write_es(path: Path, rows: list[list[str]]) -> None:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("w", encoding="utf-8", newline="") as handle:
+            writer = csv.writer(handle)
+            writer.writerow(header)
+            writer.writerows(rows)
+
+    source = tmp_path / "spanish" / "A1.proposed.csv"
+    write_es(
+        source,
+        [
+            ["casa", "house", "房子", "NOUN"],
+            ["house", "house", "房子", "NOUN"],
+        ],
+    )
+    reviews = tmp_path / "manual_reviews" / "spanish" / "A1"
+    write_decisions(reviews, [decision(3, ["house", "house", "房子", "NOUN"], "drop")])
+
+    result = run_manual_review(
+        root=tmp_path,
+        lang="spanish",
+        level="A1",
+        source=source,
+        decisions_directory=reviews,
+    )
+    assert result.output_count == 1
+    with result.output.open(encoding="utf-8", newline="") as handle:
+        assert list(csv.reader(handle)) == [
+            header,
+            ["casa", "house", "房子", "NOUN"],
+        ]
+
+    write_es(source, [["house", "house", "房子", "NOUN"]])
+    write_decisions(reviews, [])
+    # empty decisions dir has no jsonl -> error; use keep-all with no decisions file
+    # instead test gate on fix that creates English echo
+    write_es(source, [["casa", "house", "房子", "NOUN"]])
+    write_decisions(
+        reviews,
+        [
+            decision(
+                2,
+                ["casa", "house", "房子", "NOUN"],
+                "fix",
+                ["house", "house", "房子", "NOUN"],
+            )
+        ],
+    )
+    with pytest.raises(ValueError, match="language gates failed"):
+        run_manual_review(
+            root=tmp_path,
+            lang="spanish",
+            level="A1",
+            source=source,
+            decisions_directory=reviews,
+        )

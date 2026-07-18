@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-275,entrain,enthusiasm,热情,NOUN,fr,A1,1,keep,clean
-498,modèle,model,模型,NOUN,fr,A1,2,keep,clean
-152,cinq,five,五,NUM,fr,A1,3,keep,clean
-111,ce,this,这,DET,fr,A1,4,keep,clean
-12,affaire,business,事情,NOUN,fr,A1,5,keep,clean
-450,lui,him/her,他/她,PRON,fr,A1,6,keep,clean
+481,membre,member,成员,NOUN,fr,A1,1,keep,clean
+113,cela,that,那个,PRON,fr,A1,2,keep,clean
+114,cellule,cell,细胞,NOUN,fr,A1,3,keep,clean
+352,geler,to freeze,结冰,VERB,fr,A1,4,keep,clean
+307,famille,family,家庭,NOUN,fr,A1,5,keep,clean
+120,cervelle,brain,大脑,NOUN,fr,A1,6,keep,clean
 390,honneur,honor,荣誉,NOUN,fr,A1,7,keep,clean
-282,erreur,error,错误,NOUN,fr,A1,8,keep,clean
-501,moitié,half,一半,NOUN,fr,A1,9,keep,clean
-19,allô,hello,喂,INTJ,fr,A1,10,keep,clean
-142,chez,at the home of,在...家,ADP,fr,A1,11,keep,clean
-446,lit,bed,床,NOUN,fr,A1,12,keep,clean
-337,fuir,to flee,逃跑,VERB,fr,A1,13,keep,clean
-345,gagner,to win,赢得,VERB,fr,A1,14,keep,clean
-107,carrefour,crossing,十字路口,NOUN,fr,A1,15,keep,clean
-444,lis,lily,百合,NOUN,fr,A1,16,keep,clean
-477,matin,morning,早晨,NOUN,fr,A1,17,keep,clean
-208,dehors,outside,在外面,ADV,fr,A1,18,keep,clean
-264,enfer,hell,地狱,NOUN,fr,A1,19,keep,clean
-415,janvier,January,一月,NOUN,fr,A1,20,keep,clean
-351,gaz,gas,气体,NOUN,fr,A1,21,keep,clean
-274,entier,entire,整个的,ADJ,fr,A1,22,keep,clean
-104,car,because,因为,CCONJ,fr,A1,23,keep,clean
+10,adieu,farewell,再见,NOUN,fr,A1,8,keep,clean
+77,boulanger,baker,面包师,NOUN,fr,A1,9,keep,clean
+127,chance,luck,运气,NOUN,fr,A1,10,keep,clean
+431,jusque,until,直到,ADP,fr,A1,11,keep,clean
+71,bonsoir,good evening,晚上好,INTJ,fr,A1,12,keep,clean
+395,huit,eight,八,NUM,fr,A1,13,keep,clean
+523,médecine,medicine,医学,NOUN,fr,A1,14,keep,clean
+491,mieux,better,更好地,ADV,fr,A1,15,keep,clean
+371,guerre,war,战争,NOUN,fr,A1,16,keep,clean
+472,mariage,marriage,婚姻,NOUN,fr,A1,17,keep,clean
+16,aimer,to like,喜欢,VERB,fr,A1,18,keep,clean
+311,ferme,farm,农场,NOUN,fr,A1,19,keep,clean
+214,des,some,一些,DET,fr,A1,20,keep,clean
+58,beau,beautiful,美丽的,ADJ,fr,A1,21,keep,clean
+104,car,because,因为,CCONJ,fr,A1,22,keep,clean
+324,fond,bottom,底部,NOUN,fr,A1,23,keep,clean

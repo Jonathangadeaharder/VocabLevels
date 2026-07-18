@@ -14,8 +14,10 @@ from .config import (
     INPUT_BATCH_TOKEN_CAP,
     MODEL_26B,
     MODEL_31B,
+    MODEL_ADJUDICATION,
     MODEL_IDS,
 )
+from .language_repair import cefr_row_issues
 from .ledger import Ledger
 from .languages import get_language, has_arabic_script
 from .packing import TiktokenEstimator
@@ -25,13 +27,30 @@ from .prompts import (
     build_handcraft_generation_prompt,
     build_handcraft_review_prompt,
 )
-from .schemas import HandcraftBatch, HandcraftSentence, UPOS
-from .routing import resolve_adjudication_model
+from .schemas import (
+    CefrReviewRow,
+    HandcraftBatch,
+    HandcraftSentence,
+    ReviewAction,
+    UPOS,
+)
 from .semantic_generation import checkpointed_semantic_generate
 
 HANDCRAFT_MAX_OUTPUT_TOKENS = 4_096
 MAX_HANDCRAFT_SENTENCES_PER_BATCH = 5
 TARGETS_PER_SENTENCE = 3
+# Cap issue reporting so gate output stays readable on large CSVs.
+_MAX_READY_ISSUES = 20
+# Loanword echo (Team/Baby) is allowed on committed CEFR lists used as handcraft
+# targets; structural citation rules still apply.
+_HANDCRAFT_READY_SKIP_CODES = frozenset(
+    {
+        "cefr.english_echo",
+        "cefr.drop",
+        # Formal Sie / similar CEFR-accepted PRON capitalisation.
+        "german.non_noun_capitalized",
+    }
+)
 
 
 class HandcraftClient(Protocol):
@@ -86,6 +105,122 @@ class SentenceTargets:
         )
 
 
+@dataclass(frozen=True)
+class HandcraftReadyReport:
+    """Whether a CEFR cell is safe to turn into handcraft CoNLL-U."""
+
+    ready: bool
+    lang: str
+    level: str
+    csv_path: Path
+    row_count: int
+    required_rows: int
+    issues: tuple[str, ...]
+
+    def summary(self) -> str:
+        status = "ready" if self.ready else "not_ready"
+        head = (
+            f"{status} lang={self.lang} level={self.level} "
+            f"rows={self.row_count} need>={self.required_rows} "
+            f"path={self.csv_path}"
+        )
+        if not self.issues:
+            return head
+        return head + "\n" + "\n".join(f"  - {item}" for item in self.issues)
+
+
+def assess_handcraft_ready(
+    *,
+    vocab_root: Path,
+    lang: str,
+    level: str,
+    count: int = 20,
+    max_issue_rows: int = _MAX_READY_ISSUES,
+) -> HandcraftReadyReport:
+    """Gate: committed CEFR CSV must be loadable, large enough, citation-clean."""
+    if count <= 0:
+        raise ValueError("count must be positive")
+    profile = get_language(lang)
+    source = vocab_root / profile.directory / f"{level}.csv"
+    required = count  # select_handcraft_targets needs at least one row per sentence
+    issues: list[str] = []
+    row_count = 0
+    if not source.is_file():
+        issues.append(f"missing CEFR csv: {source}")
+        return HandcraftReadyReport(
+            ready=False,
+            lang=profile.code,
+            level=level,
+            csv_path=source,
+            row_count=0,
+            required_rows=required,
+            issues=tuple(issues),
+        )
+    try:
+        document = read_cefr_csv(source, lang=profile.directory, level=level)
+    except Exception as error:  # noqa: BLE001 — surface parse errors as gate fails
+        issues.append(f"csv unreadable: {error}")
+        return HandcraftReadyReport(
+            ready=False,
+            lang=profile.code,
+            level=level,
+            csv_path=source,
+            row_count=0,
+            required_rows=required,
+            issues=tuple(issues),
+        )
+    row_count = len(document.rows)
+    if row_count < required:
+        issues.append(
+            f"not enough rows for handcraft count={count} "
+            f"(have {row_count}, need >={required})"
+        )
+    bad = 0
+    for row in document.rows:
+        review = CefrReviewRow(
+            id=row.id,
+            lemma=row.lemma,
+            english_lemma=row.english_lemma,
+            chinese_lemma=row.chinese_lemma or row.lemma,
+            upos=row.upos,
+            action=ReviewAction.KEEP,
+        )
+        row_issues = [
+            issue
+            for issue in cefr_row_issues(review, lang=profile.directory)
+            if issue.code not in _HANDCRAFT_READY_SKIP_CODES
+        ]
+        if not row_issues:
+            continue
+        bad += 1
+        if len(issues) < max_issue_rows:
+            codes = ", ".join(issue.code for issue in row_issues)
+            issues.append(
+                f"row {row.id} lemma={row.lemma!r} upos={row.upos.value}: {codes}"
+            )
+    if bad > max_issue_rows:
+        issues.append(f"... and {bad - max_issue_rows} more rows with citation issues")
+    elif bad:
+        # Keep a total for scripts even when all fit under the cap.
+        if not any(item.startswith("... and ") for item in issues):
+            issues.append(f"citation_issue_rows={bad}")
+    return HandcraftReadyReport(
+        ready=not issues,
+        lang=profile.code,
+        level=level,
+        csv_path=source,
+        row_count=row_count,
+        required_rows=required,
+        issues=tuple(issues),
+    )
+
+
+# Prefer open-class targets so models can realize lemma+UPOS in short sentences.
+_HANDCRAFT_CONTENT_UPOS = frozenset(
+    {UPOS.NOUN, UPOS.VERB, UPOS.ADJ, UPOS.ADV, UPOS.PROPN}
+)
+
+
 def select_handcraft_targets(
     *,
     vocab_root: Path,
@@ -100,7 +235,13 @@ def select_handcraft_targets(
     document = read_cefr_csv(source, lang=profile.directory, level=level)
     if len(document.rows) < count:
         raise ValueError("not enough CEFR target lemmas for requested sentence count")
-    selected = document.rows[: min(len(document.rows), count * TARGETS_PER_SENTENCE)]
+    need = count * TARGETS_PER_SENTENCE
+    content = [row for row in document.rows if row.upos in _HANDCRAFT_CONTENT_UPOS]
+    # Content first (CSV order within band), then fill from remaining rows.
+    preferred = content + [row for row in document.rows if row not in content]
+    selected = preferred[: min(len(preferred), need)]
+    if len(selected) < count:
+        raise ValueError("not enough CEFR target lemmas for requested sentence count")
     minimum, remainder = divmod(len(selected), count)
     assignments: list[SentenceTargets] = []
     offset = 0
@@ -190,7 +331,9 @@ def _validate_sentence(
             for token in sentence.tokens
         ):
             raise ValueError(
-                f"{sentence.sent_id}: target lemma {target.lemma!r} is not represented"
+                f"{sentence.sent_id}: target {target.lemma!r}/"
+                f"{target.upos.value} is not represented "
+                "(lemma and UPOS must both match a token)"
             )
     for token in sentence.tokens:
         if lang == "de" and token.upos is UPOS.NOUN and not token.lemma[0].isupper():
@@ -406,7 +549,9 @@ def _run_handcraft_assignment_batch(
             chosen = _checkpointed_generate(
                 client=client,
                 ledger=ledger,
-                model=resolve_adjudication_model(client),
+                # Fixed adjudicator: rotating pool breaks ledger re-entry in tests
+                # and CEFR already spreads load via dual+adj rotation.
+                model=MODEL_ADJUDICATION,
                 batch_id=f"{namespace}:adjudication",
                 prompt=adjudication_prompt,
                 assignments=assignments,

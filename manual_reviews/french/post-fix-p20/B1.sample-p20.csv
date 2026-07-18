@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-386,garantie,guarantee,保证,NOUN,fr,B1,1,keep,clean
-708,quarante,forty,四十,NUM,fr,B1,2,keep,clean
-824,rester,to stay,停留,VERB,fr,B1,3,keep,clean
-706,quand,when,当……时,SCONJ,fr,B1,4,keep,clean
-831,retrait,withdrawal,撤回,NOUN,fr,B1,5,keep,clean
-478,livraison,delivery,交付,NOUN,fr,B1,6,keep,clean
-107,blesser,to injure,伤害,VERB,fr,B1,7,keep,clean
-260,dizaine,about ten,十来个,NOUN,fr,B1,8,keep,clean
-41,angoissé,anxious,焦虑的,ADJ,fr,B1,9,keep,clean
-870,route,road,道路,NOUN,fr,B1,10,keep,clean
-520,monnaie,currency,货币,NOUN,fr,B1,11,keep,clean
-721,qui,who,谁,PRON,fr,B1,12,keep,clean
-808,repasser,to iron,熨烫,VERB,fr,B1,13,keep,clean
-47,appareil,device,设备,NOUN,fr,B1,14,keep,clean
-76,automobile,car,汽车,NOUN,fr,B1,15,keep,clean
-464,langage,language,语言,NOUN,fr,B1,16,keep,clean
-372,foyer,home/hearth,家,NOUN,fr,B1,17,keep,clean
-455,juger,to judge,评判,VERB,fr,B1,18,keep,clean
-506,maîtrise,mastery,掌握,NOUN,fr,B1,19,keep,clean
-33,ambassadeur,ambassador,大使,NOUN,fr,B1,20,keep,clean
-720,quelque,some,一些,DET,fr,B1,21,keep,clean
-92,bande-annonce,trailer,预告片,NOUN,fr,B1,22,keep,clean
-489,légèrement,slightly,轻微地,ADV,fr,B1,23,keep,clean
-246,diable,devil,魔鬼,NOUN,fr,B1,24,keep,clean
+148,champignon,mushroom,蘑菇,NOUN,fr,B1,1,keep,clean
+845,rien,nothing,没有什么,PRON,fr,B1,2,keep,clean
+350,fier,proud,骄傲的,ADJ,fr,B1,3,keep,clean
+404,grève,strike,罢工,NOUN,fr,B1,4,keep,clean
+706,quand,when,当……时,SCONJ,fr,B1,5,keep,clean
+514,mijoter,to simmer,炖,VERB,fr,B1,6,keep,clean
+167,cible,target,目标,NOUN,fr,B1,7,keep,clean
+190,compromis,compromise,妥协,NOUN,fr,B1,8,keep,clean
+69,attestation,certificate,证明,NOUN,fr,B1,9,keep,clean
+753,rayon,department,部门,NOUN,fr,B1,10,keep,clean
+632,princesse,princess,公主,NOUN,fr,B1,11,keep,clean
+147,cesser,to cease,停止,VERB,fr,B1,12,keep,clean
+713,quatorze,fourteen,十四,NUM,fr,B1,13,keep,clean
+677,présence,presence,存在,NOUN,fr,B1,14,keep,clean
+493,maintenir,to maintain,维持,VERB,fr,B1,15,keep,clean
+49,apparence,appearance,外表,NOUN,fr,B1,16,keep,clean
+78,autorisation,authorization,授权,NOUN,fr,B1,17,keep,clean
+712,quasiment,almost,几乎,ADV,fr,B1,18,keep,clean
+39,ange,angel,天使,NOUN,fr,B1,19,keep,clean
+720,quelque,some,一些,DET,fr,B1,20,keep,clean
+736,ramasser,to pick up,捡起,VERB,fr,B1,21,keep,clean
+532,mystère,mystery,谜,NOUN,fr,B1,22,keep,clean
+524,morosité,gloominess,忧郁,NOUN,fr,B1,23,keep,clean
+522,montée,rise,上升,NOUN,fr,B1,24,keep,clean

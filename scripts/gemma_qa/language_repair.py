@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import csv
 import unicodedata
 from collections.abc import Sequence
+from pathlib import Path
 from typing import Protocol
 
 from .client import GenerationResult
@@ -107,7 +109,20 @@ def cefr_row_issues(
                 ),
             )
         )
-    if profile.code != "en" and row.lemma.casefold() == row.english_lemma.casefold():
+    if profile.code == "en":
+        # English lists: column-0 lemma is the citation form and must match the
+        # English pivot (base form). Catches half-fixes like dreams/dream.
+        if _nfc(row.lemma).casefold() != _nfc(row.english_lemma).casefold():
+            issues.append(
+                CefrLanguageIssue(
+                    code="english.citation_mismatch",
+                    message=(
+                        "English citation lemma must match english_lemma "
+                        "(base/dictionary form)."
+                    ),
+                )
+            )
+    elif row.lemma.casefold() == row.english_lemma.casefold():
         issues.append(
             CefrLanguageIssue(
                 code="cefr.english_echo",
@@ -144,6 +159,84 @@ def cefr_row_issues(
 
 def german_row_issues(row: CefrReviewRow) -> list[CefrLanguageIssue]:
     return cefr_row_issues(row, lang="german")
+
+
+def _nfc(value: str) -> str:
+    return unicodedata.normalize("NFC", value)
+
+
+def canonicalize_english_citation(row: CefrReviewRow) -> CefrReviewRow:
+    """Force English lemma to the English pivot base form.
+
+    Prefer ``english_lemma`` casing. If they already match case-insensitively,
+    return the row unchanged (keep original lemma spelling).
+    """
+    lemma = _nfc(row.lemma).strip()
+    english = _nfc(row.english_lemma).strip()
+    if not lemma or not english:
+        return row
+    if lemma.casefold() == english.casefold():
+        return row
+    return row.model_copy(
+        update={
+            "lemma": english,
+            "action": (
+                ReviewAction.FIX
+                if row.action is ReviewAction.KEEP
+                else row.action
+            ),
+        }
+    )
+
+
+def canonicalize_english_review_rows(
+    rows: Sequence[CefrReviewRow],
+) -> list[CefrReviewRow]:
+    return [canonicalize_english_citation(row) for row in rows]
+
+
+def normalize_english_csv_file(path: Path) -> dict[str, int]:
+    """Rewrite English CEFR CSV in place: lemma := english_lemma when they differ.
+
+    Also drops exact duplicate lemma+POS after normalization (first wins).
+    Returns counts: rows_in, rewritten, dropped_dupes, rows_out.
+    """
+    with path.open(encoding="utf-8", newline="") as handle:
+        physical = list(csv.reader(handle))
+    if not physical:
+        raise ValueError(f"empty CSV: {path}")
+    header, body = physical[0], physical[1:]
+    rewritten = 0
+    seen: set[tuple[str, str]] = set()
+    out_rows: list[list[str]] = []
+    dropped_dupes = 0
+    for row in body:
+        if len(row) != 4:
+            raise ValueError(f"{path}: expected 4 columns, got {row!r}")
+        lemma, english, chinese, upos = row
+        lemma_n = _nfc(lemma).strip()
+        english_n = _nfc(english).strip()
+        if lemma_n.casefold() != english_n.casefold() and english_n:
+            lemma_n = english_n
+            rewritten += 1
+        key = (lemma_n.casefold(), upos)
+        if key in seen:
+            dropped_dupes += 1
+            continue
+        seen.add(key)
+        out_rows.append([lemma_n, english_n, _nfc(chinese).strip(), upos])
+    temporary = path.with_name(f".{path.name}.tmp")
+    with temporary.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle, lineterminator="\n")
+        writer.writerow(header)
+        writer.writerows(out_rows)
+    temporary.replace(path)
+    return {
+        "rows_in": len(body),
+        "rewritten": rewritten,
+        "dropped_dupes": dropped_dupes,
+        "rows_out": len(out_rows),
+    }
 
 
 def canonicalize_repaired_german_noun(row: CefrReviewRow) -> CefrReviewRow:
@@ -254,7 +347,11 @@ def _repair_language_batch(
     return _checkpointed_language_repair(
         client=client,
         ledger=ledger,
-        model=resolve_adjudication_model(client),
+        model=resolve_adjudication_model(
+            client,
+            prompt=adjudication_prompt,
+            exclude=(MODEL_31B, MODEL_26B),
+        ),
         batch_id=f"{namespace}:adjudication",
         prompt=adjudication_prompt,
         row_ids=row_ids,

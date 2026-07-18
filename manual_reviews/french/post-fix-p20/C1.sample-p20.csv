@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-2311,pornographie,pornography,色情,NOUN,fr,C1,1,keep,clean
-3117,tache,stain,污渍,NOUN,fr,C1,2,keep,clean
-3458,une,one,一,DET,fr,C1,3,keep,clean
-3050,syndicat,trade union,工会,NOUN,fr,C1,4,keep,clean
-2064,officieusement,unofficially,非正式地,ADV,fr,C1,5,keep,clean
-1820,maltraitance,mistreatment,虐待,NOUN,fr,C1,6,keep,clean
-203,anévrisme,aneurysm,动脉瘤,NOUN,fr,C1,7,keep,clean
-2289,polaire,polar,极地的 / 极性的,ADJ,fr,C1,8,keep,clean
-2488,pénitence,penitence,忏悔,NOUN,fr,C1,9,keep,clean
-69,affluent,tributary,支流,NOUN,fr,C1,10,keep,clean
-2695,réaménagement,redevelopment,重新规划,NOUN,fr,C1,11,keep,clean
-754,couronnement,coronation,加冕,NOUN,fr,C1,12,keep,clean
-3456,un,one,一,NUM,fr,C1,13,keep,clean
-2961,succéder,to succeed,继任,VERB,fr,C1,14,keep,clean
-2005,neurasthénie,neurasthenia,神经衰弱,NOUN,fr,C1,15,keep,clean
-3299,tous,all,全部（阳性）,PRON,fr,C1,16,keep,clean
-2190,pendaison,hanging,绞刑,NOUN,fr,C1,17,keep,clean
-2447,prévenu,defendant,被告,NOUN,fr,C1,18,keep,clean
-2251,piètre,poor,平庸的；低劣的,ADJ,fr,C1,19,keep,clean
-3247,tirage,printing,印刷,NOUN,fr,C1,20,keep,clean
-2581,redevable,indebted,负债的,ADJ,fr,C1,21,keep,clean
-2994,sur,on/upon,在...上,ADP,fr,C1,22,keep,clean
-1972,métamorphose,metamorphosis,变形,NOUN,fr,C1,23,keep,clean
-2505,pétard,firecracker,鞭炮,NOUN,fr,C1,24,keep,clean
+97,alanguissement,languor,慵懒,NOUN,fr,C1,1,keep,clean
+1947,mécontent,dissatisfied,不满的,ADJ,fr,C1,2,keep,clean
+3401,troupeau,herd,兽群,NOUN,fr,C1,3,keep,clean
+3475,urgences,emergency room,急诊室,NOUN,fr,C1,4,keep,clean
+3456,un,one,一,NUM,fr,C1,5,keep,clean
+148,aménité,affability,和蔼,NOUN,fr,C1,6,keep,clean
+2539,rampe,ramp,坡道,NOUN,fr,C1,7,keep,clean
+1925,moyennant,in exchange for,以...为交换,ADP,fr,C1,8,keep,clean
+2391,protestation,protest,抗议,NOUN,fr,C1,9,keep,clean
+2466,pugnacité,pugnacity,好斗,NOUN,fr,C1,10,keep,clean
+1395,géographiquement,geographically,地理上,ADV,fr,C1,11,keep,clean
+3316,tragique,tragic,悲剧的,ADJ,fr,C1,12,keep,clean
+1429,homologation,official approval,批准,NOUN,fr,C1,13,keep,clean
+2550,rationalité,rationality,理性,NOUN,fr,C1,14,keep,clean
+244,arbitraire,arbitrary,任意的,ADJ,fr,C1,15,keep,clean
+837,destinataire,recipient,收件人,NOUN,fr,C1,16,keep,clean
+3458,une,one,一,DET,fr,C1,17,keep,clean
+158,anaphore,anaphora,首语重复修辞,NOUN,fr,C1,18,keep,clean
+1499,immunisation,immunization,免疫,NOUN,fr,C1,19,keep,clean
+275,aspirateur,vacuum cleaner,吸尘器,NOUN,fr,C1,20,keep,clean
+1389,généraliser,to generalize,概括,VERB,fr,C1,21,keep,clean
+3301,tout,all,全部；一切,PRON,fr,C1,22,keep,clean
+2208,persistance,persistence,坚持,NOUN,fr,C1,23,keep,clean
+435,brasserie,brewery,啤酒厂,NOUN,fr,C1,24,keep,clean
