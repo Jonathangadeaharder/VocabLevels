@@ -82,3 +82,25 @@ def test_dry_run_writes_proposed_only(tmp_path: Path) -> None:
     assert output.exists()
     assert b"\r\n" not in output.read_bytes()
     assert source.read_bytes() == original
+
+
+def test_is_retriable_batch_error_covers_hang_paths() -> None:
+    import httpx
+    from scripts.gemma_qa.cefr import _is_retriable_batch_error
+
+    assert _is_retriable_batch_error(TimeoutError("dual generate wait ceiling"))
+    assert _is_retriable_batch_error(
+        httpx.ReadTimeout(
+            "request wall clock exceeded after 180s",
+            request=httpx.Request("POST", "https://example.test"),
+        )
+    )
+    assert _is_retriable_batch_error(ValueError("422 Unprocessable Entity"))
+    assert not _is_retriable_batch_error(ValueError("schema mismatch"))
+
+
+def test_dual_wait_ceiling_tracks_wall_clock(monkeypatch) -> None:
+    monkeypatch.setenv("GEMMA_QA_REQUEST_WALL_S", "100")
+    from scripts.gemma_qa.cefr import _dual_wait_ceiling_s
+
+    assert _dual_wait_ceiling_s() == 260.0

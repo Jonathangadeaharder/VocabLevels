@@ -12,20 +12,27 @@ from scripts.gemma_qa.client import (
     PRODUCTION_TIMEOUT,
     GemmaClient,
 )
-from scripts.gemma_qa.config import THINKING_CONFIG
+from scripts.gemma_qa.config import MODEL_GEMMA, MODEL_QWEN_35B, MODEL_QWEN_397B
 from scripts.gemma_qa.packing import TokenEstimator
 from scripts.gemma_qa.schemas import CefrReviewBatch
 
 
 def gemini_response(text: str) -> httpx.Response:
+    """OpenAI-compatible chat.completion body (name kept for test history)."""
     return httpx.Response(
         200,
         json={
-            "candidates": [{"content": {"parts": [{"text": text}]}}],
-            "usageMetadata": {
-                "promptTokenCount": 12,
-                "candidatesTokenCount": 8,
-                "totalTokenCount": 20,
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {"role": "assistant", "content": text},
+                    "finish_reason": "stop",
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 12,
+                "completion_tokens": 8,
+                "total_tokens": 20,
             },
         },
     )
@@ -47,33 +54,19 @@ def valid_payload() -> dict[str, object]:
 
 
 def request_prompt(request: dict[str, object]) -> str:
-    contents = request["contents"]
-    assert isinstance(contents, list)
-    content = contents[0]
-    assert isinstance(content, dict)
-    parts = content["parts"]
-    assert isinstance(parts, list)
-    part = parts[0]
-    assert isinstance(part, dict)
-    prompt = part["text"]
+    messages = request["messages"]
+    assert isinstance(messages, list)
+    message = messages[0]
+    assert isinstance(message, dict)
+    prompt = message["content"]
     assert isinstance(prompt, str)
     return prompt
 
 
 def retry_info_response(delay: object) -> httpx.Response:
-    return httpx.Response(
-        429,
-        json={
-            "error": {
-                "details": [
-                    {
-                        "@type": "type.googleapis.com/google.rpc.RetryInfo",
-                        "retryDelay": delay,
-                    }
-                ]
-            }
-        },
-    )
+    # TNG uses Retry-After header; body is optional.
+    _ = delay
+    return httpx.Response(429, json={"error": {"message": "rate limited"}})
 
 
 class FixedEstimator(TokenEstimator):
@@ -81,29 +74,12 @@ class FixedEstimator(TokenEstimator):
         return len(text)
 
 
-class RecordingQuota:
-    def __init__(self) -> None:
-        self.reservations: list[tuple[str, int, int]] = []
-        self.reconciliations: list[tuple[str, int]] = []
-
-    def reserve(
-        self,
-        model: str,
-        *,
-        prompt_tokens: int,
-        max_output_tokens: int,
-    ) -> str:
-        self.reservations.append((model, prompt_tokens, max_output_tokens))
-        return f"reservation-{len(self.reservations)}"
-
-    def reconcile(self, reservation_id: str, *, actual_input_tokens: int) -> None:
-        self.reconciliations.append((reservation_id, actual_input_tokens))
 
 
 def test_client_retries_429_and_parses_fenced_json(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-    monkeypatch.setenv("GEMINI_API_KEY", "secret-value")
+    monkeypatch.setenv("API_KEY", "secret-value")
     requests: list[httpx.Request] = []
     sleeps: list[float] = []
 
@@ -122,7 +98,7 @@ def test_client_retries_429_and_parses_fenced_json(
             http_client=http_client, sleeper=sleeps.append, jitter=lambda: 0
         )
         result = client.generate(
-            model="gemma-4-31b-it",
+            model="Qwen/Qwen3.5-397B-A17B-FP8",
             prompt="review",
             response_model=CefrReviewBatch,
             max_output_tokens=100,
@@ -131,24 +107,13 @@ def test_client_retries_429_and_parses_fenced_json(
     assert result.parsed.rows[0].lemma == "Abend"
     assert result.usage.total_tokens == 20
     assert sleeps == [2.0]
-    assert requests[0].headers["X-goog-api-key"] == "secret-value"
+    assert requests[0].headers["Authorization"] == "Bearer secret-value"
 
 
-@pytest.mark.parametrize(
-    ("delay", "expected_sleep"),
-    [
-        ("43s", 43.0),
-        ("1.5s", 1.5),
-        ({"seconds": 1, "nanos": 500_000_000}, 1.5),
-        ("invalid", 1.25),
-    ],
-)
-def test_client_uses_gemini_retry_info_delay(
+def test_client_uses_retry_after_header(
     monkeypatch: pytest.MonkeyPatch,
-    delay: object,
-    expected_sleep: float,
 ) -> None:
-    monkeypatch.setenv("GEMINI_API_KEY", "secret-value")
+    monkeypatch.setenv("API_KEY", "secret-value")
     sleeps: list[float] = []
     calls = 0
 
@@ -156,7 +121,11 @@ def test_client_uses_gemini_retry_info_delay(
         nonlocal calls
         calls += 1
         if calls == 1:
-            return retry_info_response(delay)
+            return httpx.Response(
+                429,
+                headers={"Retry-After": "2"},
+                json={"error": {"message": "rate limited"}},
+            )
         return gemini_response(json.dumps(valid_payload(), ensure_ascii=False))
 
     with httpx.Client(transport=httpx.MockTransport(handler)) as http_client:
@@ -165,7 +134,7 @@ def test_client_uses_gemini_retry_info_delay(
             sleeper=sleeps.append,
             jitter=lambda: 0.25,
         ).generate(
-            model="gemma-4-26b-a4b-it",
+            model="Qwen/Qwen3.6-35B-A3B-FP8",
             prompt="review",
             response_model=CefrReviewBatch,
             max_output_tokens=100,
@@ -173,10 +142,10 @@ def test_client_uses_gemini_retry_info_delay(
 
     assert result.parsed.rows[0].lemma == "Abend"
     assert calls == 2
-    assert sleeps == [expected_sleep]
+    assert sleeps == [2.0]
 
 
-def test_default_transient_retry_budget_is_bounded_for_quota_windows() -> None:
+def test_default_transient_retry_budget_is_bounded() -> None:
     assert MAX_TRANSIENT_RETRIES == 8
 
 
@@ -185,7 +154,7 @@ def test_client_does_not_retry_nontransient_client_errors(
     monkeypatch: pytest.MonkeyPatch,
     status_code: int,
 ) -> None:
-    monkeypatch.setenv("GEMINI_API_KEY", "secret-value")
+    monkeypatch.setenv("API_KEY", "secret-value")
     sleeps: list[float] = []
     calls = 0
 
@@ -201,7 +170,7 @@ def test_client_does_not_retry_nontransient_client_errors(
         )
         with pytest.raises(httpx.HTTPStatusError):
             client.generate(
-                model="gemma-4-26b-a4b-it",
+                model="Qwen/Qwen3.6-35B-A3B-FP8",
                 prompt="review",
                 response_model=CefrReviewBatch,
                 max_output_tokens=100,
@@ -211,11 +180,10 @@ def test_client_does_not_retry_nontransient_client_errors(
     assert sleeps == []
 
 
-def test_client_retries_read_timeout_and_reconciles_quota(
+def test_client_retries_read_timeout(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-    monkeypatch.setenv("GEMINI_API_KEY", "secret-value")
-    quota = RecordingQuota()
+    monkeypatch.setenv("API_KEY", "secret-value")
     sleeps: list[float] = []
     calls = 0
 
@@ -229,13 +197,12 @@ def test_client_retries_read_timeout_and_reconciles_quota(
     with httpx.Client(transport=httpx.MockTransport(handler)) as http_client:
         result = GemmaClient(
             http_client=http_client,
-            quota=quota,
             estimator=FixedEstimator(),
             sleeper=sleeps.append,
             jitter=lambda: 0,
             max_retries=1,
         ).generate(
-            model="gemma-4-31b-it",
+            model="Qwen/Qwen3.5-397B-A17B-FP8",
             prompt="review",
             response_model=CefrReviewBatch,
             max_output_tokens=100,
@@ -244,17 +211,12 @@ def test_client_retries_read_timeout_and_reconciles_quota(
     assert result.parsed.rows[0].lemma == "Abend"
     assert calls == 2
     assert sleeps == [1.0]
-    assert quota.reconciliations == [
-        ("reservation-1", len("review")),
-        ("reservation-2", 12),
-    ]
 
 
 def test_client_raises_read_timeout_after_exhausting_retries(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-    monkeypatch.setenv("GEMINI_API_KEY", "secret-value")
-    quota = RecordingQuota()
+    monkeypatch.setenv("API_KEY", "secret-value")
     sleeps: list[float] = []
     calls = 0
 
@@ -266,7 +228,6 @@ def test_client_raises_read_timeout_after_exhausting_retries(
     with httpx.Client(transport=httpx.MockTransport(handler)) as http_client:
         client = GemmaClient(
             http_client=http_client,
-            quota=quota,
             estimator=FixedEstimator(),
             sleeper=sleeps.append,
             jitter=lambda: 0,
@@ -274,7 +235,7 @@ def test_client_raises_read_timeout_after_exhausting_retries(
         )
         with pytest.raises(httpx.ReadTimeout, match="read timed out"):
             client.generate(
-                model="gemma-4-31b-it",
+                model="Qwen/Qwen3.5-397B-A17B-FP8",
                 prompt="review",
                 response_model=CefrReviewBatch,
                 max_output_tokens=100,
@@ -282,24 +243,59 @@ def test_client_raises_read_timeout_after_exhausting_retries(
 
     assert calls == 3
     assert sleeps == [1.0, 2.0]
-    assert quota.reconciliations == [
-        ("reservation-1", len("review")),
-        ("reservation-2", len("review")),
-        ("reservation-3", len("review")),
-    ]
 
 
 def test_production_timeout_allows_large_model_responses() -> None:
+    # Idle bounds stay finite; wall-clock (request_wall_clock_s) caps total POST.
     assert PRODUCTION_TIMEOUT.connect == 30
-    assert PRODUCTION_TIMEOUT.read == 300
-    assert PRODUCTION_TIMEOUT.write == 300
-    assert PRODUCTION_TIMEOUT.pool == 300
+    assert PRODUCTION_TIMEOUT.read == 120
+    assert PRODUCTION_TIMEOUT.write == 120
+    assert PRODUCTION_TIMEOUT.pool == 60
 
 
-def test_request_uses_minimal_supported_thinking_level(
+def test_request_wall_clock_default_is_bounded() -> None:
+    from scripts.gemma_qa.client import request_wall_clock_s
+
+    assert 1.0 <= request_wall_clock_s() <= 900.0
+    assert request_wall_clock_s() == 180.0
+
+
+def test_client_aborts_slow_stream_via_wall_clock(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-    monkeypatch.setenv("GEMINI_API_KEY", "secret-value")
+    """Slow response past wall-clock must raise (idle read alone insufficient)."""
+    import time
+
+    monkeypatch.setenv("API_KEY", "secret-value")
+    monkeypatch.setenv("GEMMA_QA_REQUEST_WALL_S", "1")
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        # Block longer than wall; stream path checks deadline after open.
+        time.sleep(1.3)
+        return gemini_response(json.dumps(valid_payload(), ensure_ascii=False))
+
+    sleeps: list[float] = []
+    with httpx.Client(transport=httpx.MockTransport(handler)) as http_client:
+        client = GemmaClient(
+            http_client=http_client,
+            estimator=FixedEstimator(),
+            sleeper=sleeps.append,
+            jitter=lambda: 0,
+            max_retries=0,
+        )
+        with pytest.raises(httpx.ReadTimeout, match="wall clock"):
+            client.generate(
+                model="Qwen/Qwen3.5-397B-A17B-FP8",
+                prompt="review",
+                response_model=CefrReviewBatch,
+                max_output_tokens=100,
+            )
+
+
+def test_request_uses_tng_openai_chat_shape(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    monkeypatch.setenv("API_KEY", "secret-value")
     requests: list[dict[str, object]] = []
 
     def handler(request: httpx.Request) -> httpx.Response:
@@ -308,16 +304,17 @@ def test_request_uses_minimal_supported_thinking_level(
 
     with httpx.Client(transport=httpx.MockTransport(handler)) as http_client:
         GemmaClient(http_client=http_client).generate(
-            model="gemma-4-31b-it",
+            model="Qwen/Qwen3.5-397B-A17B-FP8",
             prompt="review",
             response_model=CefrReviewBatch,
             max_output_tokens=100,
         )
 
-    generation_config = requests[0]["generationConfig"]
-    assert isinstance(generation_config, dict)
-    assert THINKING_CONFIG == {"thinkingLevel": "minimal"}
-    assert generation_config["thinkingConfig"] == THINKING_CONFIG
+    body = requests[0]
+    assert body["model"] == MODEL_QWEN_397B
+    assert body["reasoning_effort"] == "none"
+    assert body["response_format"]["type"] == "json_schema"
+    assert body["messages"][0]["content"] == "review"
 
 
 def test_parse_response_ignores_live_shaped_thought_part() -> None:
@@ -351,7 +348,7 @@ def test_parse_response_rejects_thought_only_candidate() -> None:
             }
         ]
     }
-    with pytest.raises(ValueError, match="nonempty candidate text"):
+    with pytest.raises(ValueError, match="chat completion|candidate|nonempty"):
         GemmaClient.parse_response(response_json, CefrReviewBatch)
 
 
@@ -393,14 +390,14 @@ def test_parse_response_rejects_malformed_output_parts(parts: object) -> None:
             }
         ]
     }
-    with pytest.raises(ValueError, match="candidate"):
+    with pytest.raises(ValueError, match="chat completion|candidate"):
         GemmaClient.parse_response(response_json, CefrReviewBatch)
 
 
 def test_client_repairs_invalid_structured_output_once(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-    monkeypatch.setenv("GEMINI_API_KEY", "secret-value")
+    monkeypatch.setenv("API_KEY", "secret-value")
     requests: list[dict[str, object]] = []
 
     def handler(request: httpx.Request) -> httpx.Response:
@@ -412,7 +409,7 @@ def test_client_repairs_invalid_structured_output_once(
 
     with httpx.Client(transport=httpx.MockTransport(handler)) as http_client:
         result = GemmaClient(http_client=http_client).generate(
-            model="gemma-4-31b-it",
+            model="Qwen/Qwen3.5-397B-A17B-FP8",
             prompt="original review request",
             response_model=CefrReviewBatch,
             max_output_tokens=100,
@@ -420,16 +417,7 @@ def test_client_repairs_invalid_structured_output_once(
 
     assert result.parsed.rows[0].lemma == "Abend"
     assert len(requests) == 2
-    contents = requests[1]["contents"]
-    assert isinstance(contents, list)
-    content = contents[0]
-    assert isinstance(content, dict)
-    parts = content["parts"]
-    assert isinstance(parts, list)
-    part = parts[0]
-    assert isinstance(part, dict)
-    repair_text = part["text"]
-    assert isinstance(repair_text, str)
+    repair_text = request_prompt(requests[1])
     assert "original review request" in repair_text
     assert "rows" in repair_text
     assert "validation" in repair_text.lower()
@@ -438,8 +426,7 @@ def test_client_repairs_invalid_structured_output_once(
 def test_client_succeeds_after_two_structured_repairs_and_reconciles_each(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-    monkeypatch.setenv("GEMINI_API_KEY", "secret-value")
-    quota = RecordingQuota()
+    monkeypatch.setenv("API_KEY", "secret-value")
     requests: list[dict[str, object]] = []
     invalid_outputs = [
         '{"rows":[]} first-extra',
@@ -455,10 +442,9 @@ def test_client_succeeds_after_two_structured_repairs_and_reconciles_each(
     with httpx.Client(transport=httpx.MockTransport(handler)) as http_client:
         result = GemmaClient(
             http_client=http_client,
-            quota=quota,
             estimator=FixedEstimator(),
         ).generate(
-            model="gemma-4-31b-it",
+            model="Qwen/Qwen3.5-397B-A17B-FP8",
             prompt="original review request",
             response_model=CefrReviewBatch,
             max_output_tokens=100,
@@ -474,18 +460,12 @@ def test_client_succeeds_after_two_structured_repairs_and_reconciles_each(
     assert "invalid JSON at line" in request_prompts[1]
     assert "invalid JSON at line" in request_prompts[2]
     assert all("original review request" in prompt for prompt in request_prompts)
-    assert quota.reconciliations == [
-        ("reservation-1", 12),
-        ("reservation-2", 12),
-        ("reservation-3", 12),
-    ]
 
 
 def test_client_raises_after_three_malformed_structured_responses(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-    monkeypatch.setenv("GEMINI_API_KEY", "secret-value")
-    quota = RecordingQuota()
+    monkeypatch.setenv("API_KEY", "secret-value")
     requests: list[dict[str, object]] = []
     invalid_outputs = [
         '{"rows":[]} first-extra',
@@ -500,12 +480,11 @@ def test_client_raises_after_three_malformed_structured_responses(
     with httpx.Client(transport=httpx.MockTransport(handler)) as http_client:
         client = GemmaClient(
             http_client=http_client,
-            quota=quota,
             estimator=FixedEstimator(),
         )
         with pytest.raises(json.JSONDecodeError, match="Extra data"):
             client.generate(
-                model="gemma-4-31b-it",
+                model="Qwen/Qwen3.5-397B-A17B-FP8",
                 prompt="original review request",
                 response_model=CefrReviewBatch,
                 max_output_tokens=100,
@@ -518,17 +497,12 @@ def test_client_raises_after_three_malformed_structured_responses(
     assert invalid_outputs[0] not in request_prompts[2]
     assert "invalid JSON at line" in request_prompts[1]
     assert "invalid JSON at line" in request_prompts[2]
-    assert quota.reconciliations == [
-        ("reservation-1", 12),
-        ("reservation-2", 12),
-        ("reservation-3", 12),
-    ]
 
 
 def test_structured_attempt_budget_is_configurable(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-    monkeypatch.setenv("GEMINI_API_KEY", "secret-value")
+    monkeypatch.setenv("API_KEY", "secret-value")
     calls = 0
 
     def handler(request: httpx.Request) -> httpx.Response:
@@ -543,7 +517,7 @@ def test_structured_attempt_budget_is_configurable(
         )
         with pytest.raises(json.JSONDecodeError, match="Extra data"):
             client.generate(
-                model="gemma-4-31b-it",
+                model="Qwen/Qwen3.5-397B-A17B-FP8",
                 prompt="review",
                 response_model=CefrReviewBatch,
                 max_output_tokens=100,
@@ -551,70 +525,16 @@ def test_structured_attempt_budget_is_configurable(
     assert calls == 2
 
 
-def test_client_falls_back_across_supported_schema_modes(
-    monkeypatch: pytest.MonkeyPatch,
-) -> None:
-    monkeypatch.setenv("GEMINI_API_KEY", "secret-value")
-    generation_configs: list[dict[str, object]] = []
-
-    def handler(request: httpx.Request) -> httpx.Response:
-        request_json = json.loads(request.content)
-        generation_config = request_json["generationConfig"]
-        generation_configs.append(generation_config)
-        if len(generation_configs) < 3:
-            return httpx.Response(
-                400,
-                json={"error": {"message": "response schema field is unsupported"}},
-            )
-        return gemini_response(json.dumps(valid_payload(), ensure_ascii=False))
-
-    with httpx.Client(transport=httpx.MockTransport(handler)) as http_client:
-        result = GemmaClient(http_client=http_client).generate(
-            model="gemma-4-31b-it",
-            prompt="review",
-            response_model=CefrReviewBatch,
-            max_output_tokens=100,
-        )
-
-    assert result.parsed.rows[0].lemma == "Abend"
-    assert "responseJsonSchema" in generation_configs[0]
-    assert "responseSchema" in generation_configs[1]
-    assert "responseJsonSchema" not in generation_configs[2]
-    assert "responseSchema" not in generation_configs[2]
-    assert generation_configs[2]["responseMimeType"] == "application/json"
-
-
-def test_client_uses_configured_schema_property(
-    monkeypatch: pytest.MonkeyPatch,
-) -> None:
-    monkeypatch.setenv("GEMINI_API_KEY", "secret-value")
-    generation_configs: list[dict[str, object]] = []
-
-    def handler(request: httpx.Request) -> httpx.Response:
-        request_json = json.loads(request.content)
-        generation_configs.append(request_json["generationConfig"])
-        return gemini_response(json.dumps(valid_payload(), ensure_ascii=False))
-
-    with httpx.Client(transport=httpx.MockTransport(handler)) as http_client:
-        GemmaClient(
-            http_client=http_client,
-            schema_property="responseSchema",
-        ).generate(
-            model="gemma-4-31b-it",
-            prompt="review",
-            response_model=CefrReviewBatch,
-            max_output_tokens=100,
-        )
-
-    assert "responseSchema" in generation_configs[0]
-    assert "responseJsonSchema" not in generation_configs[0]
+def test_selected_model_ids_are_the_tng_trio() -> None:
+    assert MODEL_QWEN_397B == "Qwen/Qwen3.5-397B-A17B-FP8"
+    assert MODEL_QWEN_35B == "Qwen/Qwen3.6-35B-A3B-FP8"
+    assert MODEL_GEMMA == "google/gemma-4-31B-it"
 
 
 def test_failed_retry_reconciles_unused_token_reservation(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-    monkeypatch.setenv("GEMINI_API_KEY", "secret-value")
-    quota = RecordingQuota()
+    monkeypatch.setenv("API_KEY", "secret-value")
     calls = 0
 
     def handler(request: httpx.Request) -> httpx.Response:
@@ -627,31 +547,20 @@ def test_failed_retry_reconciles_unused_token_reservation(
     with httpx.Client(transport=httpx.MockTransport(handler)) as http_client:
         GemmaClient(
             http_client=http_client,
-            quota=quota,
             estimator=FixedEstimator(),
             sleeper=lambda _: None,
         ).generate(
-            model="gemma-4-31b-it",
+            model="Qwen/Qwen3.5-397B-A17B-FP8",
             prompt="review",
             response_model=CefrReviewBatch,
             max_output_tokens=100,
         )
 
-    assert quota.reservations == [
-        ("gemma-4-31b-it", len("review"), 100),
-        ("gemma-4-31b-it", len("review"), 100),
-    ]
-    assert quota.reconciliations == [
-        ("reservation-1", len("review")),
-        ("reservation-2", 12),
-    ]
-
 
 def test_empty_usage_metadata_keeps_conservative_prompt_estimate(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-    monkeypatch.setenv("GEMINI_API_KEY", "secret-value")
-    quota = RecordingQuota()
+    monkeypatch.setenv("API_KEY", "secret-value")
     response = httpx.Response(
         200,
         json={
@@ -677,27 +586,45 @@ def test_empty_usage_metadata_keeps_conservative_prompt_estimate(
     ) as http_client:
         GemmaClient(
             http_client=http_client,
-            quota=quota,
             estimator=FixedEstimator(),
         ).generate(
-            model="gemma-4-31b-it",
+            model="Qwen/Qwen3.5-397B-A17B-FP8",
             prompt="review",
             response_model=CefrReviewBatch,
             max_output_tokens=100,
         )
 
-    assert quota.reconciliations == [("reservation-1", len("review"))]
-
 
 def test_client_rejects_malformed_json(monkeypatch: pytest.MonkeyPatch) -> None:
-    monkeypatch.setenv("GEMINI_API_KEY", "secret-value")
+    monkeypatch.setenv("API_KEY", "secret-value")
     transport = httpx.MockTransport(lambda request: gemini_response("{not json}"))
     with httpx.Client(transport=transport) as http_client:
         client = GemmaClient(http_client=http_client)
         with pytest.raises((ValueError, ValidationError)):
             client.generate(
-                model="gemma-4-31b-it",
+                model="Qwen/Qwen3.5-397B-A17B-FP8",
                 prompt="review",
                 response_model=CefrReviewBatch,
                 max_output_tokens=100,
             )
+
+
+def test_slot_acquire_times_out(monkeypatch: pytest.MonkeyPatch) -> None:
+    from scripts.gemma_qa import config as cfg
+
+    monkeypatch.setenv("GEMMA_QA_PER_MODEL_INFLIGHT", "1")
+    monkeypatch.setenv("GEMMA_QA_SLOT_ACQUIRE_TIMEOUT_S", "0.2")
+    # Reset semaphores so env takes effect for a fresh key.
+    with cfg._slot_lock:
+        cfg._model_semaphores.clear()
+        cfg._model_inflight.clear()
+    key = "test/slot-timeout-model"
+    cfg.acquire_model_slot(key, timeout_s=0.2)
+    try:
+        with pytest.raises(TimeoutError, match="slot acquire timed out"):
+            cfg.acquire_model_slot(key, timeout_s=0.2)
+    finally:
+        cfg.release_model_slot(key)
+        with cfg._slot_lock:
+            cfg._model_semaphores.pop(key, None)
+            cfg._model_inflight.pop(key, None)

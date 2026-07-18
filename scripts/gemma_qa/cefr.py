@@ -1,9 +1,12 @@
 from __future__ import annotations
 
+import threading
+import time
+
 import csv
 import unicodedata
-from collections.abc import Sequence
-from concurrent.futures import ThreadPoolExecutor
+from collections.abc import Callable, Sequence
+from concurrent.futures import Future, ThreadPoolExecutor, as_completed, wait
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Protocol, cast
@@ -21,10 +24,19 @@ from .cefr_refill import (
     load_other_level_collision_keys,
 )
 from .client import GenerationResult
-from .config import INPUT_BATCH_TOKEN_CAP, MODEL_26B, MODEL_31B, MODEL_IDS
+from .config import (
+    DUAL_POOL,
+    INPUT_BATCH_TOKEN_CAP,
+    MODEL_26B,
+    MODEL_31B,
+    MODEL_IDS,
+    default_batch_concurrency,
+    probe_optional_models,
+)
 from .ledger import Ledger
 from .language_repair import (
     LanguageRepairClient,
+    canonicalize_english_review_rows,
     canonicalize_repaired_german_noun,
     cefr_row_issues,
     german_row_issues,
@@ -41,8 +53,10 @@ from .schemas import (
     ReviewAction,
     UPOS,
 )
-from .routing import resolve_adjudication_model
+from .routing import resolve_adjudication_model, select_dual_models
+from .progress import batch_progress_line, print_progress
 from .semantic_generation import checkpointed_semantic_generate
+from .trace import event
 from .validated import ValidatedStore, validated_store_path
 
 MAX_OUTPUT_TOKENS = 3_072
@@ -234,6 +248,15 @@ def run_cefr_gap_refill(
     document = read_cefr_csv(root / lang / f"{level}.csv", lang=lang, level=level)
     accepted = committed_rows_as_reviews(document)
     target = TARGETS[level]
+    event(
+        "refill.start",
+        lang=lang,
+        level_name=level,
+        accepted=len(accepted),
+        target=target,
+        gap=max(0, target - len(accepted)),
+        single_model=single_model,
+    )
     if len(accepted) >= target:
         raise ReviewRequiredError(
             f"{lang} {level}: committed row count {len(accepted)} "
@@ -249,25 +272,66 @@ def run_cefr_gap_refill(
         collision_keys |= load_gap_reject_keys(reject_decisions_dir)
         skipped_english_keys = load_gap_rejected_english_keys(reject_decisions_dir)
     concepts = load_english_refill_concepts(root, level=level)
-    final = complete_cefr_rows(
-        accepted,
-        concepts=concepts,
-        collision_keys=collision_keys,
-        target=target,
-        lang=lang,
-        level=level,
-        client=cast(RefillClient, client),
-        ledger=ledger,
-        single_model=single_model,
-        skipped_english_keys=skipped_english_keys,
-    )
-    gap_rows = final[len(accepted) :]
-    expected_gap = target - len(accepted)
-    if len(gap_rows) != expected_gap:
-        raise ReviewRequiredError(
-            f"{lang} {level}: expected {expected_gap} gap rows, got {len(gap_rows)}"
+    try:
+        final = complete_cefr_rows(
+            accepted,
+            concepts=concepts,
+            collision_keys=collision_keys,
+            target=target,
+            lang=lang,
+            level=level,
+            client=cast(RefillClient, client),
+            ledger=ledger,
+            single_model=single_model,
+            skipped_english_keys=skipped_english_keys,
+            protect_accepted=True,
         )
-    return write_gap_proposed_csv(document, gap_rows)
+    except ReviewRequiredError as error:
+        # Keep progress when novel slots stall short of exact target.
+        if len(error.partial_rows) <= len(accepted):
+            event(
+                "refill.stall",
+                level="WARN",
+                lang=lang,
+                level_name=level,
+                accepted=len(accepted),
+                target=target,
+                partial=len(error.partial_rows),
+                error=str(error).splitlines()[0][:400],
+            )
+            raise
+        final = error.partial_rows
+        event(
+            "refill.partial",
+            level="WARN",
+            lang=lang,
+            level_name=level,
+            accepted=len(accepted),
+            target=target,
+            final=len(final),
+            gap=len(final) - len(accepted),
+        )
+    gap_rows = final[len(accepted) :]
+    if not gap_rows:
+        raise ReviewRequiredError(
+            f"{lang} {level}: gap refill produced no new rows "
+            f"(still {len(accepted)} of {target})"
+        )
+    output = write_gap_proposed_csv(document, gap_rows)
+    event(
+        "refill.ok",
+        lang=lang,
+        level_name=level,
+        accepted=len(accepted),
+        target=target,
+        gap=len(gap_rows),
+        output=str(output),
+        sample=[
+            {"lemma": row.lemma, "upos": row.upos.value, "en": row.english_lemma}
+            for row in gap_rows[:12]
+        ],
+    )
+    return output
 
 
 def write_reviewed_csv(
@@ -308,9 +372,22 @@ def run_cefr(
     apply: bool = False,
     single_model: str | None = None,
     refill_to_target: bool | None = None,
+    batch_concurrency: int | None = None,
 ) -> Path:
     if single_model is not None and single_model not in MODEL_IDS:
         raise ValueError(f"unsupported model: {single_model}")
+    concurrency = (
+        default_batch_concurrency()
+        if batch_concurrency is None
+        else max(1, batch_concurrency)
+    )
+    disabled_optional = probe_optional_models()
+    if disabled_optional:
+        event(
+            "cefr.optional_models_disabled",
+            models=disabled_optional,
+            reason="not listed on /v1/models",
+        )
     profile = get_language(lang)
     lang = profile.directory
     document = read_cefr_csv(root / lang / f"{level}.csv", lang=lang, level=level)
@@ -326,6 +403,17 @@ def run_cefr(
             level=level,
         )
         accepted: list[CefrReviewRow] = list(frozen)
+        event(
+            "cefr.start",
+            lang=lang,
+            level_name=level,
+            selected=len(selected),
+            frozen=len(frozen),
+            pending=len(pending),
+            single_model=single_model,
+            refill_to_target=refill_to_target,
+            batch_concurrency=concurrency,
+        )
         if pending:
             packed = pack_records(
                 pending,
@@ -337,45 +425,26 @@ def run_cefr(
                 cap=INPUT_BATCH_TOKEN_CAP,
                 max_records=MAX_RECORDS_PER_BATCH,
             )
-            models = (single_model,) if single_model else (MODEL_31B, MODEL_26B)
-            for batch_rows in packed:
-                batch_id = f"{batch_rows[0].id}..{batch_rows[-1].id}"
-                prompt = build_cefr_prompt(batch_rows, lang=lang)
-                with ThreadPoolExecutor(max_workers=len(models)) as executor:
-                    futures = [
-                        executor.submit(
-                            _checkpointed_generate,
-                            client=client,
-                            ledger=ledger,
-                            model=model,
-                            batch_id=batch_id,
-                            prompt=prompt,
-                            expected_rows=batch_rows,
-                        )
-                        for model in models
-                    ]
-                    independent = [future.result() for future in futures]
-                for review in independent:
-                    validate_review_batch(batch_rows, review)
-                chosen = independent[0]
-                if len(independent) == 2 and [
-                    normalize_review(row) for row in independent[0].rows
-                ] != [normalize_review(row) for row in independent[1].rows]:
-                    adjudication_prompt = build_adjudication_prompt(
-                        batch_rows,
-                        independent[0].rows,
-                        independent[1].rows,
-                        lang=lang,
-                    )
-                    chosen = _checkpointed_generate(
-                        client=client,
-                        ledger=ledger,
-                        model=resolve_adjudication_model(client),
-                        batch_id=f"{batch_id}:adjudication",
-                        prompt=adjudication_prompt,
-                        expected_rows=batch_rows,
-                    )
-                    validate_review_batch(batch_rows, chosen)
+            event(
+                "cefr.batches",
+                lang=lang,
+                level_name=level,
+                batch_count=len(packed),
+                model_pool=list(DUAL_POOL) if single_model is None else [single_model],
+                pending=len(pending),
+                batch_concurrency=concurrency,
+                single_model=single_model,
+            )
+            reviewed = _review_pending_batches(
+                packed,
+                client=client,
+                ledger=ledger,
+                lang=lang,
+                level=level,
+                single_model=single_model,
+                concurrency=concurrency,
+            )
+            for batch_rows, chosen in zip(packed, reviewed, strict=True):
                 accepted.extend(chosen.rows)
         target = TARGETS[level] if limit is None else len(selected)
         collision_keys = load_other_level_collision_keys(
@@ -383,6 +452,8 @@ def run_cefr(
             lang=lang,
             level=level,
         )
+        if profile.code == "en":
+            accepted = canonicalize_english_review_rows(accepted)
         gate_clean = (
             accepted
             if profile.code == "de"
@@ -539,6 +610,296 @@ def _repair_and_refill_german_rows(
             + ", ".join(remaining)
         )
     return final
+
+
+def _review_pending_batches(
+    packed: Sequence[Sequence[CefrInputRow]],
+    *,
+    client: CefrClient,
+    ledger: Ledger,
+    lang: str,
+    level: str,
+    single_model: str | None,
+    concurrency: int,
+) -> list[CefrReviewBatch]:
+    """Review CEFR row batches with multi-batch + multi-model parallelism.
+
+    Each batch picks a dual pair from the full pool (Qwen/Gemma/GLM internal
+    + external) so concurrent work spreads across models and gateways.
+    Results preserve pack order. Ledger checkpoints are restart-safe.
+    """
+    batch_count = len(packed)
+    rows_total = sum(len(batch) for batch in packed)
+    if batch_count == 0:
+        return []
+    workers = max(1, min(concurrency, batch_count))
+    progress_lock = threading.Lock()
+    batch_durations: list[float] = []
+    batches_done = 0
+    rows_done = 0
+    batch_loop_started = time.time()
+
+    def _progress(
+        *,
+        batch_index: int,
+        rows_in_batch: int,
+        status: str,
+        wait_s: float | None = None,
+    ) -> None:
+        with progress_lock:
+            print_progress(
+                batch_progress_line(
+                    lang=lang,
+                    level=level,
+                    batch_index=batch_index,
+                    batch_count=batch_count,
+                    rows_in_batch=rows_in_batch,
+                    rows_done=rows_done,
+                    rows_total=rows_total,
+                    durations=list(batch_durations),
+                    started_at=batch_loop_started,
+                    status=status,
+                    wait_s=wait_s,
+                    completed=batches_done,
+                    concurrency=workers,
+                )
+            )
+
+    print_progress(
+        batch_progress_line(
+            lang=lang,
+            level=level,
+            batch_index=0,
+            batch_count=batch_count,
+            rows_in_batch=0,
+            rows_done=0,
+            rows_total=rows_total,
+            durations=[],
+            started_at=batch_loop_started,
+            status="init",
+            completed=0,
+            concurrency=workers,
+        )
+    )
+
+    def work(batch_index: int, batch_rows: Sequence[CefrInputRow]) -> CefrReviewBatch:
+        nonlocal batches_done, rows_done
+        batch_id = f"{batch_rows[0].id}..{batch_rows[-1].id}"
+        batch_started = time.time()
+        _progress(
+            batch_index=batch_index,
+            rows_in_batch=len(batch_rows),
+            status="running",
+            wait_s=0.0,
+        )
+        # Retriable: optional 422, wall-clock/slot timeout, transport flake.
+        # Rotate dual pair each attempt so a hung model does not pin the batch.
+        last_error: Exception | None = None
+        chosen: CefrReviewBatch | None = None
+        for attempt in range(1, 5):
+            if single_model is not None:
+                models: tuple[str, ...] = (single_model,)
+            else:
+                models = select_dual_models(batch_index=batch_index + attempt - 1)
+            event(
+                "cefr.batch_start",
+                lang=lang,
+                level_name=level,
+                batch_id=batch_id,
+                attempt=batch_index,
+                pair_attempt=attempt,
+                rows=len(batch_rows),
+                batch_count=batch_count,
+                remaining_batches=batch_count - batch_index + 1,
+                concurrency=workers,
+                dual_models=list(models),
+            )
+            try:
+                chosen = _review_one_batch(
+                    batch_rows,
+                    client=client,
+                    ledger=ledger,
+                    lang=lang,
+                    models=models,
+                    batch_id=batch_id,
+                    batch_index=batch_index,
+                    batch_count=batch_count,
+                    on_wait=lambda wait_s, status: _progress(
+                        batch_index=batch_index,
+                        rows_in_batch=len(batch_rows),
+                        status=status,
+                        wait_s=wait_s,
+                    ),
+                    batch_started=batch_started,
+                )
+                break
+            except Exception as error:  # noqa: BLE001 — dual pair rotation
+                last_error = error
+                if not _is_retriable_batch_error(error) or attempt >= 4:
+                    raise
+                event(
+                    "cefr.dual_retry",
+                    level="WARN",
+                    batch_id=batch_id,
+                    dual_models=list(models),
+                    error=str(error)[:300],
+                    pair_attempt=attempt,
+                )
+                continue
+        if chosen is None:
+            assert last_error is not None
+            raise last_error
+        elapsed = time.time() - batch_started
+        with progress_lock:
+            batches_done += 1
+            rows_done += len(batch_rows)
+            batch_durations.append(elapsed)
+        _progress(
+            batch_index=batch_index,
+            rows_in_batch=len(batch_rows),
+            status="ok",
+        )
+        return chosen
+
+    results: list[CefrReviewBatch | None] = [None] * batch_count
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures: dict[Future[CefrReviewBatch], int] = {
+            pool.submit(work, index + 1, batch_rows): index
+            for index, batch_rows in enumerate(packed)
+        }
+        for future in as_completed(futures):
+            index = futures[future]
+            results[index] = future.result()
+    return [cast(CefrReviewBatch, item) for item in results]
+
+
+def _is_retriable_batch_error(error: BaseException) -> bool:
+    """422 optional models, wall-clock/slot timeouts, transport flakes."""
+    if isinstance(error, (TimeoutError, OSError)):
+        return True
+    try:
+        import httpx
+
+        if isinstance(error, (httpx.TimeoutException, httpx.TransportError)):
+            return True
+    except ImportError:
+        pass
+    message = str(error).lower()
+    needles = (
+        "422",
+        "unprocessable",
+        "timed out",
+        "timeout",
+        "wall clock",
+        "slot acquire",
+        "connecterror",
+        "remoteprotocolerror",
+    )
+    return any(part in message for part in needles)
+
+
+def _dual_wait_ceiling_s() -> float:
+    """Max seconds dual legs may wait before failing the pair (rotate models)."""
+    from .client import request_wall_clock_s
+
+    # Client allows ≤2 wall-clock failures per generate; dual ceiling tracks that
+    # plus buffer so progress cannot sit on status=waiting for hours.
+    return request_wall_clock_s() * 2 + 60.0
+
+
+def _review_one_batch(
+    batch_rows: Sequence[CefrInputRow],
+    *,
+    client: CefrClient,
+    ledger: Ledger,
+    lang: str,
+    models: Sequence[str],
+    batch_id: str,
+    batch_index: int,
+    batch_count: int,
+    on_wait: Callable[[float, str], None] | None = None,
+    batch_started: float | None = None,
+) -> CefrReviewBatch:
+    _ = batch_count
+    prompt = build_cefr_prompt(batch_rows, lang=lang)
+    started = batch_started if batch_started is not None else time.time()
+    ceiling = _dual_wait_ceiling_s()
+    # wait=False on shutdown: wall-clock threads must not block pair rotation.
+    executor = ThreadPoolExecutor(max_workers=len(models))
+    try:
+        futures = [
+            executor.submit(
+                _checkpointed_generate,
+                client=client,
+                ledger=ledger,
+                model=model,
+                batch_id=batch_id,
+                prompt=prompt,
+                expected_rows=batch_rows,
+            )
+            for model in models
+        ]
+        pending_futures = set(futures)
+        while pending_futures:
+            elapsed = time.time() - started
+            if elapsed >= ceiling:
+                event(
+                    "cefr.dual_wait_ceiling",
+                    level="WARN",
+                    batch_id=batch_id,
+                    wait_s=round(elapsed, 1),
+                    ceiling_s=ceiling,
+                    dual_models=list(models),
+                )
+                for future in pending_futures:
+                    future.cancel()
+                raise TimeoutError(
+                    f"dual generate wait ceiling {ceiling:.0f}s exceeded "
+                    f"for {batch_id}"
+                )
+            done_now, pending_futures = wait(pending_futures, timeout=10.0)
+            _ = done_now
+            if pending_futures and on_wait is not None:
+                on_wait(time.time() - started, "waiting")
+        independent = [future.result() for future in futures]
+    finally:
+        executor.shutdown(wait=False, cancel_futures=True)
+    for review in independent:
+        validate_review_batch(batch_rows, review)
+    chosen = independent[0]
+    if len(independent) == 2 and [
+        normalize_review(row) for row in independent[0].rows
+    ] != [normalize_review(row) for row in independent[1].rows]:
+        adjudication_prompt = build_adjudication_prompt(
+            batch_rows,
+            independent[0].rows,
+            independent[1].rows,
+            lang=lang,
+        )
+        if on_wait is not None:
+            on_wait(time.time() - started, "adjudicating")
+        adj_model = resolve_adjudication_model(
+            client,
+            prompt=adjudication_prompt,
+            exclude=tuple(models),
+            batch_index=batch_index,
+        )
+        event(
+            "cefr.adjudicate",
+            batch_id=batch_id,
+            dual_models=list(models),
+            adj_model=adj_model,
+        )
+        chosen = _checkpointed_generate(
+            client=client,
+            ledger=ledger,
+            model=adj_model,
+            batch_id=f"{batch_id}:adjudication",
+            prompt=adjudication_prompt,
+            expected_rows=batch_rows,
+        )
+        validate_review_batch(batch_rows, chosen)
+    return chosen
 
 
 def _checkpointed_generate(
