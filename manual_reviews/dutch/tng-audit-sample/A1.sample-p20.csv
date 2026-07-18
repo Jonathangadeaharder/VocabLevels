@@ -1,24 +1,24 @@
 level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-A1,1,105,edited,wie,who,谁,PRON,wie|Who||PRON,,
-A1,2,145,edited,nodig,necessary,必要的,ADJ,nodig|necessary||ADJ,,
-A1,3,29,edited,dan,than,比,ADV,dan|than||ADV,,
-A1,4,238,edited,onderzoek,research,研究,NOUN,onderzoek|research||NOUN,,
-A1,5,162,edited,anders,otherwise,否则,ADV,anders|otherwise||ADV,,
-A1,6,392,edited,bang,scared,害怕的,ADJ,bang|scared||ADJ,,
-A1,7,389,edited,vergeten,forget,忘记,VERB,vergeten|forget||VERB,,
-A1,8,282,edited,zoon,son,儿子,NOUN,zoon|son||NOUN,,
-A1,9,43,edited,wel,indeed,确实,ADV,wel|well||ADV,,
-A1,10,246,edited,probleem,problem,问题,NOUN,probleem|problem||NOUN,,
-A1,11,102,edited,tussen,between,在...之间,ADP,tussen|between||ADP,,
-A1,12,362,edited,plek,place,地方,NOUN,plek|place||NOUN,,
-A1,13,201,pos_or_key_changed,nieuws,news,新闻,NOUN,nieuws|news||ADJ,,
-A1,14,175,edited,werken,to work,工作,VERB,werken|work||VERB,,
-A1,15,150,edited,allemaal,all,全部,ADV,allemaal|all||ADV,,
-A1,16,295,pos_or_key_changed,weinig,few,少的,ADJ,weinig|few||ADV,,
-A1,17,37,edited,kunnen,can,能,AUX,kunnen|be able to||AUX,,
-A1,18,335,edited,volgen,follow,跟随,VERB,volgen|to follow||VERB,,
-A1,19,89,edited,staan,to stand,站立,VERB,staan|to stand||VERB,,
-A1,20,301,edited,mogen,to be allowed to,可以,VERB,mogen|to be allowed to||VERB,,
-A1,21,65,edited,ander,other,其他的,ADJ,ander|other||ADJ,,
-A1,22,160,new_or_renamed,verschillend,different,不同的,ADJ,,,
-A1,23,54,edited,hoe,how,如何,ADV,hoe|how||ADV,,
+A1,1,105,edited,wie,who,谁,PRON,wie|Who||PRON,keep,clean
+A1,2,145,edited,nodig,necessary,必要的,ADJ,nodig|necessary||ADJ,keep,clean
+A1,3,29,edited,dan,than,比,ADV,dan|than||ADV,keep,clean
+A1,4,238,edited,onderzoek,research,研究,NOUN,onderzoek|research||NOUN,keep,clean
+A1,5,162,edited,anders,otherwise,否则,ADV,anders|otherwise||ADV,keep,clean
+A1,6,392,edited,bang,scared,害怕的,ADJ,bang|scared||ADJ,keep,clean
+A1,7,389,edited,vergeten,forget,忘记,VERB,vergeten|forget||VERB,keep,clean
+A1,8,282,edited,zoon,son,儿子,NOUN,zoon|son||NOUN,keep,clean
+A1,9,43,edited,wel,indeed,确实,ADV,wel|well||ADV,keep,clean
+A1,10,246,edited,probleem,problem,问题,NOUN,probleem|problem||NOUN,keep,clean
+A1,11,102,edited,tussen,between,在...之间,ADP,tussen|between||ADP,keep,clean
+A1,12,362,edited,plek,place,地方,NOUN,plek|place||NOUN,keep,clean
+A1,13,201,pos_or_key_changed,nieuws,news,新闻,NOUN,nieuws|news||ADJ,keep,clean
+A1,14,175,edited,werken,to work,工作,VERB,werken|work||VERB,keep,clean
+A1,15,150,edited,allemaal,all,全部,ADV,allemaal|all||ADV,keep,clean
+A1,16,295,pos_or_key_changed,weinig,few,少的,ADJ,weinig|few||ADV,keep,clean
+A1,17,37,edited,kunnen,can,能,AUX,kunnen|be able to||AUX,keep,clean
+A1,18,335,edited,volgen,follow,跟随,VERB,volgen|to follow||VERB,keep,clean
+A1,19,89,edited,staan,to stand,站立,VERB,staan|to stand||VERB,keep,clean
+A1,20,301,edited,mogen,to be allowed to,可以,VERB,mogen|to be allowed to||VERB,fix,UPOS VERB; modal ability/permission is usually AUX (cf. A2 sample mogen/AUX). Align UPOS to AUX.
+A1,21,65,edited,ander,other,其他的,ADJ,ander|other||ADJ,keep,clean
+A1,22,160,new_or_renamed,verschillend,different,不同的,ADJ,,keep,clean
+A1,23,54,edited,hoe,how,如何,ADV,hoe|how||ADV,keep,clean

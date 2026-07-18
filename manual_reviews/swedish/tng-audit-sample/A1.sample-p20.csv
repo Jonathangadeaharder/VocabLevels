@@ -1,24 +1,24 @@
 level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-A1,1,442,pos_or_key_changed,åttio,eighty,八十,NUM,åttio|eighty||X,,
-A1,2,218,edited,läsa,to read,阅读,VERB,läsa|to read||VERB,,
-A1,3,465,pos_or_key_changed,bo,live,居住,VERB,bo|live||X,,
-A1,4,350,edited,stänga,to close,关闭,VERB,stänga|to close||VERB,,
-A1,5,120,pos_or_key_changed,gardin,curtain,窗帘,NOUN,gardin|curtain||X,,
-A1,6,273,pos_or_key_changed,om,about,关于,ADP,om|about/if||X,,
-A1,7,454,edited,aning,inkling,一点,NOUN,aning|a bit||NOUN,,
-A1,8,136,edited,göra,to do,做,VERB,göra|to do/make||VERB,,
-A1,9,351,pos_or_key_changed,stå,to stand,站立,VERB,stå|to stand||X,,
-A1,10,130,pos_or_key_changed,grå,grey,灰色的,ADJ,grå|grey||X,,
-A1,11,474,new_or_renamed,chef,boss/manager,老板/经理,NOUN,,,
-A1,12,421,edited,vilja,want,想要,VERB,vilja|to want||VERB,,
-A1,13,270,pos_or_key_changed,och,and,和,CCONJ,och|and||ADP,,
-A1,14,101,pos_or_key_changed,frukost,breakfast,早餐,NOUN,frukost|breakfast||VERB,,
-A1,15,316,pos_or_key_changed,skjorta,shirt,衬衫,NOUN,skjorta|shirt||VERB,,
-A1,16,415,pos_or_key_changed,vecka,week,周,NOUN,vecka|week||VERB,,
-A1,17,128,pos_or_key_changed,gris,pig,猪,NOUN,gris|pig||X,,
-A1,18,147,pos_or_key_changed,himmel,sky,天空,NOUN,himmel|sky||X,,
-A1,19,292,pos_or_key_changed,rum,room,房间,NOUN,rum|room||X,,
-A1,20,165,pos_or_key_changed,höna,hen,母鸡,NOUN,höna|hen||VERB,,
-A1,21,476,pos_or_key_changed,del,part,部分,NOUN,del|part||X,,
-A1,22,38,pos_or_key_changed,bror,brother,兄弟,NOUN,bror|brother||X,,
-A1,23,6,pos_or_key_changed,andra,others/other,其他,ADJ,andra|others||VERB,,
+A1,1,442,pos_or_key_changed,åttio,eighty,八十,NUM,åttio|eighty||X,keep,clean
+A1,2,218,edited,läsa,to read,阅读,VERB,läsa|to read||VERB,keep,clean
+A1,3,465,pos_or_key_changed,bo,live,居住,VERB,bo|live||X,keep,clean
+A1,4,350,edited,stänga,to close,关闭,VERB,stänga|to close||VERB,keep,clean
+A1,5,120,pos_or_key_changed,gardin,curtain,窗帘,NOUN,gardin|curtain||X,keep,clean
+A1,6,273,pos_or_key_changed,om,about,关于,ADP,om|about/if||X,keep,clean
+A1,7,454,edited,aning,inkling,一点,NOUN,aning|a bit||NOUN,keep,clean
+A1,8,136,edited,göra,to do,做,VERB,göra|to do/make||VERB,keep,clean
+A1,9,351,pos_or_key_changed,stå,to stand,站立,VERB,stå|to stand||X,keep,clean
+A1,10,130,pos_or_key_changed,grå,grey,灰色的,ADJ,grå|grey||X,keep,clean
+A1,11,474,new_or_renamed,chef,boss/manager,老板/经理,NOUN,,keep,clean
+A1,12,421,edited,vilja,want,想要,VERB,vilja|to want||VERB,keep,clean
+A1,13,270,pos_or_key_changed,och,and,和,CCONJ,och|and||ADP,keep,clean
+A1,14,101,pos_or_key_changed,frukost,breakfast,早餐,NOUN,frukost|breakfast||VERB,keep,clean
+A1,15,316,pos_or_key_changed,skjorta,shirt,衬衫,NOUN,skjorta|shirt||VERB,keep,clean
+A1,16,415,pos_or_key_changed,vecka,week,周,NOUN,vecka|week||VERB,keep,clean
+A1,17,128,pos_or_key_changed,gris,pig,猪,NOUN,gris|pig||X,keep,clean
+A1,18,147,pos_or_key_changed,himmel,sky,天空,NOUN,himmel|sky||X,keep,clean
+A1,19,292,pos_or_key_changed,rum,room,房间,NOUN,rum|room||X,keep,clean
+A1,20,165,pos_or_key_changed,höna,hen,母鸡,NOUN,höna|hen||VERB,keep,clean
+A1,21,476,pos_or_key_changed,del,part,部分,NOUN,del|part||X,keep,clean
+A1,22,38,pos_or_key_changed,bror,brother,兄弟,NOUN,bror|brother||X,keep,clean
+A1,23,6,pos_or_key_changed,andra,others/other,其他,ADJ,andra|others||VERB,fix,Form is plural/determiner 'others'; lemma often annan/ADJ or andra as DET — set UPOS DET or lemma annan.

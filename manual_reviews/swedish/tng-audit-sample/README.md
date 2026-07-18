@@ -26,7 +26,8 @@ Language code: `sv`. Source: `{level}.proposed.csv` vs committed `{level}.csv`.
 | `ALL.sample-p20.csv` | combined |
 | `{level}.sample-p20.csv` + `.md` | per-level checklist |
 
-## Score
+## Score (filled)
 
-Verdict: `keep` / `drop` / `fix`. Defect rate = (drop+fix)/n.
-Packs are **UNREVIEWED** until a human/agent fills verdicts.
+Verdicts: keep=91 fix=2 drop=1. Defect rate (fix+drop)/n = 3.2%.
+Status: **REVIEWED** (agent audit, 95%±20% sample).
+

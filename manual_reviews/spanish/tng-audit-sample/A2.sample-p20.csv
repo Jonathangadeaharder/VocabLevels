@@ -1,25 +1,25 @@
 level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-A2,1,105,pos_or_key_changed,claramente,clearly,清楚地,ADV,claramente|clearly||X,,
-A2,2,521,pos_or_key_changed,tamaño,size,尺寸,NOUN,tamaño|size (format)||X,,
-A2,3,215,pos_or_key_changed,enamorado,in love,恋爱中的,ADJ,enamorado|in love||VERB,,
-A2,4,129,pos_or_key_changed,conocimiento,knowledge,知识,NOUN,conocimiento|knowledge||X,,
-A2,5,346,pos_or_key_changed,mando,remote control,遥控器,NOUN,mando|command/remote control||VERB,,
-A2,6,566,pos_or_key_changed,victoria,victory,胜利,NOUN,victoria|victory||X,,
-A2,7,317,pos_or_key_changed,invitado,guest,客人,NOUN,invitado|guest||VERB,,
-A2,8,53,pos_or_key_changed,bebida,drink,饮料,NOUN,bebida|beverage/drink||X,,
-A2,9,372,edited,nacional,national,国家的,ADJ,nacional|national||ADJ,,
-A2,10,470,edited,respirar,to breathe,呼吸,VERB,respirar|to breathe||VERB,,
-A2,11,119,pos_or_key_changed,complicado,complicated,复杂的,ADJ,complicado|complicated||VERB,,
-A2,12,562,pos_or_key_changed,verde,green,绿色,ADJ,verde|green||X,,
-A2,13,424,edited,pintura,painting,画,NOUN,pintura|painting/paint||NOUN,,
-A2,14,74,edited,calor,heat,热,NOUN,calor|heat||NOUN,,
-A2,15,568,pos_or_key_changed,viernes,Friday,星期五,NOUN,viernes|Friday||X,,
-A2,16,210,edited,elegir,to choose,选择,VERB,elegir|to choose||VERB,,
-A2,17,242,pos_or_key_changed,estilo,style,风格,NOUN,estilo|style||X,,
-A2,18,415,pos_or_key_changed,pesadilla,nightmare,噩梦,NOUN,pesadilla|nightmare||X,,
-A2,19,394,pos_or_key_changed,oscuro,dark,黑暗的,ADJ,oscuro|dark||X,,
-A2,20,89,edited,casualidad,coincidence,巧合,NOUN,casualidad|coincidence/chance||NOUN,,
-A2,21,348,pos_or_key_changed,mapa,map,地图,NOUN,mapa|map||X,,
-A2,22,498,pos_or_key_changed,siglo,century,世纪,NOUN,siglo|century||X,,
-A2,23,314,pos_or_key_changed,interesado,interested,感兴趣的,ADJ,interesado|interested||VERB,,
-A2,24,8,edited,actuar,to act,行动,VERB,actuar|to act||VERB,,
+A2,1,105,pos_or_key_changed,claramente,clearly,清楚地,ADV,claramente|clearly||X,keep,clean
+A2,2,521,pos_or_key_changed,tamaño,size,尺寸,NOUN,tamaño|size (format)||X,keep,clean
+A2,3,215,pos_or_key_changed,enamorado,in love,恋爱中的,ADJ,enamorado|in love||VERB,keep,clean
+A2,4,129,pos_or_key_changed,conocimiento,knowledge,知识,NOUN,conocimiento|knowledge||X,keep,clean
+A2,5,346,pos_or_key_changed,mando,remote control,遥控器,NOUN,mando|command/remote control||VERB,keep,NOUN sense remote control is fine; also 'command' as noun.
+A2,6,566,pos_or_key_changed,victoria,victory,胜利,NOUN,victoria|victory||X,keep,clean
+A2,7,317,pos_or_key_changed,invitado,guest,客人,NOUN,invitado|guest||VERB,keep,clean
+A2,8,53,pos_or_key_changed,bebida,drink,饮料,NOUN,bebida|beverage/drink||X,keep,clean
+A2,9,372,edited,nacional,national,国家的,ADJ,nacional|national||ADJ,keep,clean
+A2,10,470,edited,respirar,to breathe,呼吸,VERB,respirar|to breathe||VERB,keep,clean
+A2,11,119,pos_or_key_changed,complicado,complicated,复杂的,ADJ,complicado|complicated||VERB,keep,clean
+A2,12,562,pos_or_key_changed,verde,green,绿色,ADJ,verde|green||X,keep,clean
+A2,13,424,edited,pintura,painting,画,NOUN,pintura|painting/paint||NOUN,keep,clean
+A2,14,74,edited,calor,heat,热,NOUN,calor|heat||NOUN,keep,clean
+A2,15,568,pos_or_key_changed,viernes,Friday,星期五,NOUN,viernes|Friday||X,keep,clean
+A2,16,210,edited,elegir,to choose,选择,VERB,elegir|to choose||VERB,keep,clean
+A2,17,242,pos_or_key_changed,estilo,style,风格,NOUN,estilo|style||X,keep,clean
+A2,18,415,pos_or_key_changed,pesadilla,nightmare,噩梦,NOUN,pesadilla|nightmare||X,keep,clean
+A2,19,394,pos_or_key_changed,oscuro,dark,黑暗的,ADJ,oscuro|dark||X,keep,clean
+A2,20,89,edited,casualidad,coincidence,巧合,NOUN,casualidad|coincidence/chance||NOUN,keep,clean
+A2,21,348,pos_or_key_changed,mapa,map,地图,NOUN,mapa|map||X,keep,clean
+A2,22,498,pos_or_key_changed,siglo,century,世纪,NOUN,siglo|century||X,keep,clean
+A2,23,314,pos_or_key_changed,interesado,interested,感兴趣的,ADJ,interesado|interested||VERB,keep,clean
+A2,24,8,edited,actuar,to act,行动,VERB,actuar|to act||VERB,keep,clean

@@ -1,119 +1,119 @@
 level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-A1,1,105,edited,wie,who,谁,PRON,wie|Who||PRON,,
-A1,2,145,edited,nodig,necessary,必要的,ADJ,nodig|necessary||ADJ,,
-A1,3,29,edited,dan,than,比,ADV,dan|than||ADV,,
-A1,4,238,edited,onderzoek,research,研究,NOUN,onderzoek|research||NOUN,,
-A1,5,162,edited,anders,otherwise,否则,ADV,anders|otherwise||ADV,,
-A1,6,392,edited,bang,scared,害怕的,ADJ,bang|scared||ADJ,,
-A1,7,389,edited,vergeten,forget,忘记,VERB,vergeten|forget||VERB,,
-A1,8,282,edited,zoon,son,儿子,NOUN,zoon|son||NOUN,,
-A1,9,43,edited,wel,indeed,确实,ADV,wel|well||ADV,,
-A1,10,246,edited,probleem,problem,问题,NOUN,probleem|problem||NOUN,,
-A1,11,102,edited,tussen,between,在...之间,ADP,tussen|between||ADP,,
-A1,12,362,edited,plek,place,地方,NOUN,plek|place||NOUN,,
-A1,13,201,pos_or_key_changed,nieuws,news,新闻,NOUN,nieuws|news||ADJ,,
-A1,14,175,edited,werken,to work,工作,VERB,werken|work||VERB,,
-A1,15,150,edited,allemaal,all,全部,ADV,allemaal|all||ADV,,
-A1,16,295,pos_or_key_changed,weinig,few,少的,ADJ,weinig|few||ADV,,
-A1,17,37,edited,kunnen,can,能,AUX,kunnen|be able to||AUX,,
-A1,18,335,edited,volgen,follow,跟随,VERB,volgen|to follow||VERB,,
-A1,19,89,edited,staan,to stand,站立,VERB,staan|to stand||VERB,,
-A1,20,301,edited,mogen,to be allowed to,可以,VERB,mogen|to be allowed to||VERB,,
-A1,21,65,edited,ander,other,其他的,ADJ,ander|other||ADJ,,
-A1,22,160,new_or_renamed,verschillend,different,不同的,ADJ,,,
-A1,23,54,edited,hoe,how,如何,ADV,hoe|how||ADV,,
-A2,1,225,edited,trekken,to pull,拉,VERB,trekken|Pull||VERB,,
-A2,2,63,edited,spel,game,游戏,NOUN,spel|game||NOUN,,
-A2,3,197,edited,genieten,to enjoy,享受,VERB,genieten|enjoy||VERB,,
-A2,4,36,edited,wet,law,法律,NOUN,wet|law||NOUN,,
-A2,5,32,edited,succes,success,成功,NOUN,succes|success||NOUN,,
-A2,6,24,edited,antwoord,answer,回答,NOUN,antwoord|answer||NOUN,,
-A2,7,242,edited,ervaring,experience,经验,NOUN,ervaring|experience||NOUN,,
-A2,8,336,edited,slaan,to hit,打,VERB,slaan|hit||VERB,,
-A2,9,187,edited,markt,market,市场,NOUN,markt|market||NOUN,,
-A2,10,117,new_or_renamed,mogen,may,可以,AUX,,,
-A2,11,283,edited,overzicht,overview,概述,NOUN,overzicht|Overview||NOUN,,
-A2,12,51,edited,jezelf,yourself,你自己,PRON,jezelf|yourself||PRON,,
-A2,13,296,edited,hoi,hi,嗨,INTJ,hoi|hi||INTJ,,
-A2,14,169,edited,gezicht,face,脸,NOUN,gezicht|sight||NOUN,,
-A2,15,111,edited,dorp,village,村庄,NOUN,dorp|village||NOUN,,
-A2,16,134,edited,dicht,closed,关闭的,ADJ,dicht|closed||ADJ,,
-A2,17,221,edited,moeite,trouble,麻烦,NOUN,moeite|trouble||NOUN,,
-A2,18,341,edited,zover,so far,到目前为止,ADV,zover|as far||ADV,,
-A2,19,268,pos_or_key_changed,blijkbaar,apparently,显然,ADV,blijkbaar|evidently||ADJ,,
-A2,20,84,edited,fijn,fine,好,ADJ,fijn|fine||ADJ,,
-A2,21,317,edited,wijk,district,街区,NOUN,wijk|district||NOUN,,
-A2,22,266,edited,beschermen,protect,保护,VERB,beschermen|protect||VERB,,
-A2,23,308,edited,hiermee,with this,以此,ADV,hiermee|with this||ADV,,
-B1,1,383,edited,belachelijk,ridiculous,荒谬的,ADJ,belachelijk|ridiculous||ADJ,,
-B1,2,517,edited,behouden,retain,保留,VERB,behouden|retain||VERB,,
-B1,3,407,pos_or_key_changed,arm,poor,贫穷的,ADJ,arm|arm||NOUN,,
-B1,4,469,edited,karakter,character,性格,NOUN,karakter|character||NOUN,,
-B1,5,414,edited,neus,nose,鼻子,NOUN,neus|nose||NOUN,,
-B1,6,93,pos_or_key_changed,neer,down,向下,ADV,neer|down||ADP,,
-B1,7,400,edited,tijdelijk,temporary,临时的,ADJ,tijdelijk|temporary||ADJ,,
-B1,8,307,edited,vierde,fourth,第四,ADJ,vierde|fourth||ADJ,,
-B1,9,311,edited,bier,beer,啤酒,NOUN,bier|beer||NOUN,,
-B1,10,467,edited,honderden,hundreds,数百,NUM,honderden|hundreds||NUM,,
-B1,11,300,edited,schoon,clean,干净的,ADJ,schoon|beautiful||ADJ,,
-B1,12,163,edited,vandaan,from,来自,ADP,vandaan|from||ADP,,
-B1,13,451,new_or_renamed,overig,other,其余的,ADJ,,,
-B1,14,5,edited,openbaar,public,公共的,ADJ,openbaar|public||ADJ,,
-B1,15,493,edited,minstens,at least,至少,ADV,minstens|at least||ADV,,
-B1,16,380,edited,vooruit,forward,向前,ADV,vooruit|forward||ADV,,
-B1,17,463,edited,grap,joke,笑话,NOUN,grap|joke||NOUN,,
-B1,18,232,edited,kwaliteit,quality,质量,NOUN,kwaliteit|quality||NOUN,,
-B1,19,476,edited,snelheid,speed,速度,NOUN,snelheid|speed||NOUN,,
-B1,20,301,edited,simpel,simple,简单的,ADJ,simpel|simple||ADJ,,
-B1,21,458,edited,bijeenkomst,meeting,会议,NOUN,bijeenkomst|meeting||NOUN,,
-B1,22,28,edited,angst,fear,恐惧,NOUN,angst|fear||NOUN,,
-B1,23,303,edited,tenminste,at least,至少,ADV,tenminste|at least||ADV,,
-B1,24,388,edited,handel,trade,贸易,NOUN,handel|trade||NOUN,,
-B2,1,673,edited,verlopen,expire,过期,VERB,verlopen|expired||VERB,,
-B2,2,484,edited,leugen,lie,谎言,NOUN,leugen|lie||NOUN,,
-B2,3,304,edited,nadenken,to think it over,思考,VERB,nadenken|think it over||VERB,,
-B2,4,411,edited,methode,method,方法,NOUN,methode|method||NOUN,,
-B2,5,116,edited,lied,song,歌曲,NOUN,lied|song||NOUN,,
-B2,6,663,pos_or_key_changed,ontwerpen,design,设计,VERB,ontwerpen|designs||NOUN,,
-B2,7,360,edited,spannend,exciting,令人兴奋的,ADJ,spannend|exciting||ADJ,,
-B2,8,119,edited,nabij,near,在附近,ADP,nabij|near||ADP,,
-B2,9,308,edited,religie,religion,宗教,NOUN,religie|religion||NOUN,,
-B2,10,759,edited,digitaal,digital,数字的,ADJ,digitaal|digital||ADJ,,
-B2,11,6,edited,korting,discount,折扣,NOUN,korting|discount||NOUN,,
-B2,12,69,edited,noch,nor,也不,CCONJ,noch|nor||CCONJ,,
-B2,13,172,edited,jas,coat,外套,NOUN,jas|jacket||NOUN,,
-B2,14,647,pos_or_key_changed,anoniem,anonymous,匿名的,ADJ,anoniem|anonymously||NOUN,,
-B2,15,569,edited,voortaan,henceforth,今后,ADV,voortaan|henceforth||ADV,,
-B2,16,215,edited,vak,compartment,隔间,NOUN,vak|compartment||NOUN,,
-B2,17,433,edited,zelden,seldom,很少,ADV,zelden|seldom||ADV,,
-B2,18,12,edited,sindsdien,since then,此后,ADV,sindsdien|ever since||ADV,,
-B2,19,104,new_or_renamed,vaststellen,to establish,确定,VERB,,,
-B2,20,515,edited,wiskunde,mathematics,数学,NOUN,wiskunde|mathematics||NOUN,,
-B2,21,82,edited,aanpassen,adjust,调整,VERB,aanpassen|to adjust||VERB,,
-B2,22,18,new_or_renamed,arm,poor,贫穷的,ADJ,,,
-B2,23,79,edited,vogel,bird,鸟,NOUN,vogel|bird||NOUN,,
-B2,24,490,edited,toestel,device,设备,NOUN,toestel|toestel||NOUN,,
-C1,1,301,edited,beleg,siege,围攻,NOUN,beleg|siege||NOUN,,
-C1,2,1215,edited,bondscoach,national coach,国家队教练,NOUN,bondscoach|national coach||NOUN,,
-C1,3,605,edited,installatie,installation,安装,NOUN,installatie|installation||NOUN,,
-C1,4,1888,edited,briljant,brilliant,杰出的,ADJ,briljant|brilliant||ADJ,,
-C1,5,345,edited,filosofie,philosophy,哲学,NOUN,filosofie|philosophy||NOUN,,
-C1,6,1362,edited,troep,rubbish,垃圾,NOUN,troep|rubbish||NOUN,,
-C1,7,1076,new_or_renamed,aantonen,demonstrate,证明,VERB,,,
-C1,8,226,edited,nicht,niece,侄女,NOUN,nicht|nicht||NOUN,,
-C1,9,1083,edited,coördinator,coordinator,协调员,NOUN,coördinator|coordinator||NOUN,,
-C1,10,9,edited,verderop,further on,更远处,ADV,verderop|further on||ADV,,
-C1,11,1337,edited,inval,raid,突袭,NOUN,inval|raid||NOUN,,
-C1,12,1199,new_or_renamed,aanklagen,to indict,起诉,VERB,,,
-C1,13,331,edited,vergunning,permit,许可证,NOUN,vergunning|permit||NOUN,,
-C1,14,914,edited,achterin,in the back,在后面,ADV,achterin|in the back||ADV,,
-C1,15,1674,new_or_renamed,aanvoeren,to submit,提交,VERB,,,
-C1,16,1904,edited,inflatie,inflation,通货膨胀,NOUN,inflatie|inflation||NOUN,,
-C1,17,1971,new_or_renamed,geavanceerd,advanced,先进的,ADJ,,,
-C1,18,360,edited,uitdagingen,challenges,挑战,NOUN,uitdagingen|challenges||NOUN,,
-C1,19,1254,edited,aanzetten,turn on,打开,VERB,aanzetten|aanzetten||VERB,,
-C1,20,1333,edited,haak,hook,钩子,NOUN,haak|hook||NOUN,,
-C1,21,316,edited,landgoed,estate,庄园,NOUN,landgoed|estate||NOUN,,
-C1,22,1074,edited,vitesse,speed,速度,NOUN,vitesse|speed||NOUN,,
-C1,23,318,pos_or_key_changed,nabijgelegen,nearby,附近的,ADJ,nabijgelegen|nearby||VERB,,
-C1,24,1921,edited,portefeuille,wallet,钱包,NOUN,portefeuille|portfolio||NOUN,,
+A1,1,105,edited,wie,who,谁,PRON,wie|Who||PRON,keep,clean
+A1,2,145,edited,nodig,necessary,必要的,ADJ,nodig|necessary||ADJ,keep,clean
+A1,3,29,edited,dan,than,比,ADV,dan|than||ADV,keep,clean
+A1,4,238,edited,onderzoek,research,研究,NOUN,onderzoek|research||NOUN,keep,clean
+A1,5,162,edited,anders,otherwise,否则,ADV,anders|otherwise||ADV,keep,clean
+A1,6,392,edited,bang,scared,害怕的,ADJ,bang|scared||ADJ,keep,clean
+A1,7,389,edited,vergeten,forget,忘记,VERB,vergeten|forget||VERB,keep,clean
+A1,8,282,edited,zoon,son,儿子,NOUN,zoon|son||NOUN,keep,clean
+A1,9,43,edited,wel,indeed,确实,ADV,wel|well||ADV,keep,clean
+A1,10,246,edited,probleem,problem,问题,NOUN,probleem|problem||NOUN,keep,clean
+A1,11,102,edited,tussen,between,在...之间,ADP,tussen|between||ADP,keep,clean
+A1,12,362,edited,plek,place,地方,NOUN,plek|place||NOUN,keep,clean
+A1,13,201,pos_or_key_changed,nieuws,news,新闻,NOUN,nieuws|news||ADJ,keep,clean
+A1,14,175,edited,werken,to work,工作,VERB,werken|work||VERB,keep,clean
+A1,15,150,edited,allemaal,all,全部,ADV,allemaal|all||ADV,keep,clean
+A1,16,295,pos_or_key_changed,weinig,few,少的,ADJ,weinig|few||ADV,keep,clean
+A1,17,37,edited,kunnen,can,能,AUX,kunnen|be able to||AUX,keep,clean
+A1,18,335,edited,volgen,follow,跟随,VERB,volgen|to follow||VERB,keep,clean
+A1,19,89,edited,staan,to stand,站立,VERB,staan|to stand||VERB,keep,clean
+A1,20,301,edited,mogen,to be allowed to,可以,VERB,mogen|to be allowed to||VERB,fix,UPOS VERB; modal ability/permission is usually AUX (cf. A2 sample mogen/AUX). Align UPOS to AUX.
+A1,21,65,edited,ander,other,其他的,ADJ,ander|other||ADJ,keep,clean
+A1,22,160,new_or_renamed,verschillend,different,不同的,ADJ,,keep,clean
+A1,23,54,edited,hoe,how,如何,ADV,hoe|how||ADV,keep,clean
+A2,1,225,edited,trekken,to pull,拉,VERB,trekken|Pull||VERB,keep,clean
+A2,2,63,edited,spel,game,游戏,NOUN,spel|game||NOUN,keep,clean
+A2,3,197,edited,genieten,to enjoy,享受,VERB,genieten|enjoy||VERB,keep,clean
+A2,4,36,edited,wet,law,法律,NOUN,wet|law||NOUN,keep,clean
+A2,5,32,edited,succes,success,成功,NOUN,succes|success||NOUN,keep,clean
+A2,6,24,edited,antwoord,answer,回答,NOUN,antwoord|answer||NOUN,keep,clean
+A2,7,242,edited,ervaring,experience,经验,NOUN,ervaring|experience||NOUN,keep,clean
+A2,8,336,edited,slaan,to hit,打,VERB,slaan|hit||VERB,keep,clean
+A2,9,187,edited,markt,market,市场,NOUN,markt|market||NOUN,keep,clean
+A2,10,117,new_or_renamed,mogen,may,可以,AUX,,keep,clean
+A2,11,283,edited,overzicht,overview,概述,NOUN,overzicht|Overview||NOUN,keep,clean
+A2,12,51,edited,jezelf,yourself,你自己,PRON,jezelf|yourself||PRON,keep,clean
+A2,13,296,edited,hoi,hi,嗨,INTJ,hoi|hi||INTJ,keep,clean
+A2,14,169,edited,gezicht,face,脸,NOUN,gezicht|sight||NOUN,keep,clean
+A2,15,111,edited,dorp,village,村庄,NOUN,dorp|village||NOUN,keep,clean
+A2,16,134,edited,dicht,closed,关闭的,ADJ,dicht|closed||ADJ,keep,clean
+A2,17,221,edited,moeite,trouble,麻烦,NOUN,moeite|trouble||NOUN,keep,clean
+A2,18,341,edited,zover,so far,到目前为止,ADV,zover|as far||ADV,keep,clean
+A2,19,268,pos_or_key_changed,blijkbaar,apparently,显然,ADV,blijkbaar|evidently||ADJ,keep,clean
+A2,20,84,edited,fijn,fine,好,ADJ,fijn|fine||ADJ,keep,clean
+A2,21,317,edited,wijk,district,街区,NOUN,wijk|district||NOUN,keep,clean
+A2,22,266,edited,beschermen,protect,保护,VERB,beschermen|protect||VERB,keep,clean
+A2,23,308,edited,hiermee,with this,以此,ADV,hiermee|with this||ADV,keep,clean
+B1,1,383,edited,belachelijk,ridiculous,荒谬的,ADJ,belachelijk|ridiculous||ADJ,keep,clean
+B1,2,517,edited,behouden,retain,保留,VERB,behouden|retain||VERB,keep,clean
+B1,3,407,pos_or_key_changed,arm,poor,贫穷的,ADJ,arm|arm||NOUN,keep,clean
+B1,4,469,edited,karakter,character,性格,NOUN,karakter|character||NOUN,keep,clean
+B1,5,414,edited,neus,nose,鼻子,NOUN,neus|nose||NOUN,keep,clean
+B1,6,93,pos_or_key_changed,neer,down,向下,ADV,neer|down||ADP,keep,clean
+B1,7,400,edited,tijdelijk,temporary,临时的,ADJ,tijdelijk|temporary||ADJ,keep,clean
+B1,8,307,edited,vierde,fourth,第四,ADJ,vierde|fourth||ADJ,keep,clean
+B1,9,311,edited,bier,beer,啤酒,NOUN,bier|beer||NOUN,keep,clean
+B1,10,467,edited,honderden,hundreds,数百,NUM,honderden|hundreds||NUM,fix,Plural 'hundreds'; prefer lemma honderd (NUM) or treat as NOUN carefully.
+B1,11,300,edited,schoon,clean,干净的,ADJ,schoon|beautiful||ADJ,keep,clean
+B1,12,163,edited,vandaan,from,来自,ADP,vandaan|from||ADP,keep,clean
+B1,13,451,new_or_renamed,overig,other,其余的,ADJ,,keep,clean
+B1,14,5,edited,openbaar,public,公共的,ADJ,openbaar|public||ADJ,keep,clean
+B1,15,493,edited,minstens,at least,至少,ADV,minstens|at least||ADV,keep,clean
+B1,16,380,edited,vooruit,forward,向前,ADV,vooruit|forward||ADV,keep,clean
+B1,17,463,edited,grap,joke,笑话,NOUN,grap|joke||NOUN,keep,clean
+B1,18,232,edited,kwaliteit,quality,质量,NOUN,kwaliteit|quality||NOUN,keep,clean
+B1,19,476,edited,snelheid,speed,速度,NOUN,snelheid|speed||NOUN,keep,clean
+B1,20,301,edited,simpel,simple,简单的,ADJ,simpel|simple||ADJ,keep,clean
+B1,21,458,edited,bijeenkomst,meeting,会议,NOUN,bijeenkomst|meeting||NOUN,keep,clean
+B1,22,28,edited,angst,fear,恐惧,NOUN,angst|fear||NOUN,keep,clean
+B1,23,303,edited,tenminste,at least,至少,ADV,tenminste|at least||ADV,keep,clean
+B1,24,388,edited,handel,trade,贸易,NOUN,handel|trade||NOUN,keep,clean
+B2,1,673,edited,verlopen,expire,过期,VERB,verlopen|expired||VERB,keep,clean
+B2,2,484,edited,leugen,lie,谎言,NOUN,leugen|lie||NOUN,keep,clean
+B2,3,304,edited,nadenken,to think it over,思考,VERB,nadenken|think it over||VERB,keep,clean
+B2,4,411,edited,methode,method,方法,NOUN,methode|method||NOUN,keep,clean
+B2,5,116,edited,lied,song,歌曲,NOUN,lied|song||NOUN,keep,clean
+B2,6,663,pos_or_key_changed,ontwerpen,design,设计,VERB,ontwerpen|designs||NOUN,keep,clean
+B2,7,360,edited,spannend,exciting,令人兴奋的,ADJ,spannend|exciting||ADJ,keep,clean
+B2,8,119,edited,nabij,near,在附近,ADP,nabij|near||ADP,keep,clean
+B2,9,308,edited,religie,religion,宗教,NOUN,religie|religion||NOUN,keep,clean
+B2,10,759,edited,digitaal,digital,数字的,ADJ,digitaal|digital||ADJ,keep,clean
+B2,11,6,edited,korting,discount,折扣,NOUN,korting|discount||NOUN,keep,clean
+B2,12,69,edited,noch,nor,也不,CCONJ,noch|nor||CCONJ,keep,clean
+B2,13,172,edited,jas,coat,外套,NOUN,jas|jacket||NOUN,keep,clean
+B2,14,647,pos_or_key_changed,anoniem,anonymous,匿名的,ADJ,anoniem|anonymously||NOUN,keep,clean
+B2,15,569,edited,voortaan,henceforth,今后,ADV,voortaan|henceforth||ADV,keep,clean
+B2,16,215,edited,vak,compartment,隔间,NOUN,vak|compartment||NOUN,fix,english_lemma 'compartment' is niche; common CEFR senses are subject/field or tray. Prefer 'subject / field'.
+B2,17,433,edited,zelden,seldom,很少,ADV,zelden|seldom||ADV,keep,clean
+B2,18,12,edited,sindsdien,since then,此后,ADV,sindsdien|ever since||ADV,keep,clean
+B2,19,104,new_or_renamed,vaststellen,to establish,确定,VERB,,keep,clean
+B2,20,515,edited,wiskunde,mathematics,数学,NOUN,wiskunde|mathematics||NOUN,keep,clean
+B2,21,82,edited,aanpassen,adjust,调整,VERB,aanpassen|to adjust||VERB,keep,clean
+B2,22,18,new_or_renamed,arm,poor,贫穷的,ADJ,,keep,clean
+B2,23,79,edited,vogel,bird,鸟,NOUN,vogel|bird||NOUN,keep,clean
+B2,24,490,edited,toestel,device,设备,NOUN,toestel|toestel||NOUN,keep,clean
+C1,1,301,edited,beleg,siege,围攻,NOUN,beleg|siege||NOUN,keep,clean
+C1,2,1215,edited,bondscoach,national coach,国家队教练,NOUN,bondscoach|national coach||NOUN,keep,clean
+C1,3,605,edited,installatie,installation,安装,NOUN,installatie|installation||NOUN,keep,clean
+C1,4,1888,edited,briljant,brilliant,杰出的,ADJ,briljant|brilliant||ADJ,keep,clean
+C1,5,345,edited,filosofie,philosophy,哲学,NOUN,filosofie|philosophy||NOUN,keep,clean
+C1,6,1362,edited,troep,rubbish,垃圾,NOUN,troep|rubbish||NOUN,keep,clean
+C1,7,1076,new_or_renamed,aantonen,demonstrate,证明,VERB,,keep,clean
+C1,8,226,edited,nicht,niece,侄女,NOUN,nicht|nicht||NOUN,keep,clean
+C1,9,1083,edited,coördinator,coordinator,协调员,NOUN,coördinator|coordinator||NOUN,keep,clean
+C1,10,9,edited,verderop,further on,更远处,ADV,verderop|further on||ADV,keep,clean
+C1,11,1337,edited,inval,raid,突袭,NOUN,inval|raid||NOUN,keep,clean
+C1,12,1199,new_or_renamed,aanklagen,to indict,起诉,VERB,,keep,clean
+C1,13,331,edited,vergunning,permit,许可证,NOUN,vergunning|permit||NOUN,keep,clean
+C1,14,914,edited,achterin,in the back,在后面,ADV,achterin|in the back||ADV,keep,clean
+C1,15,1674,new_or_renamed,aanvoeren,to submit,提交,VERB,,fix,english_lemma 'to submit' is weak/secondary; primary senses lead / put forward / command.
+C1,16,1904,edited,inflatie,inflation,通货膨胀,NOUN,inflatie|inflation||NOUN,keep,clean
+C1,17,1971,new_or_renamed,geavanceerd,advanced,先进的,ADJ,,keep,clean
+C1,18,360,edited,uitdagingen,challenges,挑战,NOUN,uitdagingen|challenges||NOUN,fix,Plural form; citation lemma must be uitdaging.
+C1,19,1254,edited,aanzetten,turn on,打开,VERB,aanzetten|aanzetten||VERB,keep,clean
+C1,20,1333,edited,haak,hook,钩子,NOUN,haak|hook||NOUN,keep,clean
+C1,21,316,edited,landgoed,estate,庄园,NOUN,landgoed|estate||NOUN,keep,clean
+C1,22,1074,edited,vitesse,speed,速度,NOUN,vitesse|speed||NOUN,keep,clean
+C1,23,318,pos_or_key_changed,nabijgelegen,nearby,附近的,ADJ,nabijgelegen|nearby||VERB,keep,clean
+C1,24,1921,edited,portefeuille,wallet,钱包,NOUN,portefeuille|portfolio||NOUN,keep,clean

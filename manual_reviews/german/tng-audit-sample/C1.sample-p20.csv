@@ -1,25 +1,25 @@
 level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-C1,1,299,edited,Bevölkerung,population,人口,NOUN,Bevölkerung|population||NOUN,,
-C1,2,459,edited,einlassen,to let in,允许进入,VERB,einlassen|to let in||VERB,,
-C1,3,1868,edited,wesentlich,essential,本质的,ADJ,wesentlich|essential||ADJ,,
-C1,4,1000,edited,klarstellen,to clarify,阐明,VERB,klarstellen|clarify||VERB,,
-C1,5,1388,pos_or_key_changed,regelmäßig,regularly,定期地,ADV,regelmäßig|regularly||ADJ,,
-C1,6,1045,edited,Kooperation,cooperation,Kooperation,NOUN,Kooperation|cooperation||NOUN,,
-C1,7,478,edited,elektrisch,electric,电的,ADJ,elektrisch|electric||ADJ,,
-C1,8,274,edited,Besonderes,something special,特别的事物,NOUN,Besonderes|Special||NOUN,,
-C1,9,1578,edited,stinken,to stink,发臭,VERB,stinken|to stink||VERB,,
-C1,10,108,pos_or_key_changed,au,ow,哎哟,INTJ,Au|Ow||PROPN,,
-C1,11,797,edited,Heiliger,saint,圣人,NOUN,Heiliger|Saint||NOUN,,
-C1,12,1323,edited,pflegen,to care for,照顾,VERB,pflegen|to care for||VERB,,
-C1,13,921,edited,Jahreszeit,season,季节,NOUN,Jahreszeit|season||NOUN,,
-C1,14,830,edited,herunter,down,向下,ADV,herunter|down||ADV,,
-C1,15,1800,new_or_renamed,vibrieren,to vibrate,振动,VERB,,,
-C1,16,1169,edited,Masse,mass,质量,NOUN,Masse|mass||NOUN,,
-C1,17,233,new_or_renamed,bellen,bark,吠叫,VERB,,,
-C1,18,1180,edited,meinten,meant,意思是,VERB,meinten|meant||VERB,,
-C1,19,1164,edited,Manie,mania,狂躁症,NOUN,Manie|mania||NOUN,,
-C1,20,1149,edited,Machtkampf,power struggle,权力斗争,NOUN,Machtkampf|power struggle||NOUN,,
-C1,21,1053,edited,Krachen,crash,巨响,NOUN,Krachen|Crack||NOUN,,
-C1,22,1004,edited,kleiden,to dress,给...穿衣,VERB,kleiden|to dress||VERB,,
-C1,23,881,edited,Hüfte,hip,臀部,NOUN,Hüfte|hip||NOUN,,
-C1,24,1492,edited,Schwarzer,black person,黑人,NOUN,Schwarzer|Black||NOUN,,
+C1,1,299,edited,Bevölkerung,population,人口,NOUN,Bevölkerung|population||NOUN,keep,clean
+C1,2,459,edited,einlassen,to let in,允许进入,VERB,einlassen|to let in||VERB,keep,clean
+C1,3,1868,edited,wesentlich,essential,本质的,ADJ,wesentlich|essential||ADJ,keep,clean
+C1,4,1000,edited,klarstellen,to clarify,阐明,VERB,klarstellen|clarify||VERB,keep,clean
+C1,5,1388,pos_or_key_changed,regelmäßig,regularly,定期地,ADV,regelmäßig|regularly||ADJ,keep,clean
+C1,6,1045,edited,Kooperation,cooperation,Kooperation,NOUN,Kooperation|cooperation||NOUN,fix,chinese_lemma still 'Kooperation' (not Chinese); set 合作.
+C1,7,478,edited,elektrisch,electric,电的,ADJ,elektrisch|electric||ADJ,keep,clean
+C1,8,274,edited,Besonderes,something special,特别的事物,NOUN,Besonderes|Special||NOUN,fix,Nominalized neuter; prefer besonder/ADJ or drop as non-lemma.
+C1,9,1578,edited,stinken,to stink,发臭,VERB,stinken|to stink||VERB,keep,clean
+C1,10,108,pos_or_key_changed,au,ow,哎哟,INTJ,Au|Ow||PROPN,keep,clean
+C1,11,797,edited,Heiliger,saint,圣人,NOUN,Heiliger|Saint||NOUN,fix,Inflected noun; citation Heiligen is wrong too — prefer Heilige/NOUN or heilig/ADJ.
+C1,12,1323,edited,pflegen,to care for,照顾,VERB,pflegen|to care for||VERB,keep,clean
+C1,13,921,edited,Jahreszeit,season,季节,NOUN,Jahreszeit|season||NOUN,keep,clean
+C1,14,830,edited,herunter,down,向下,ADV,herunter|down||ADV,keep,clean
+C1,15,1800,new_or_renamed,vibrieren,to vibrate,振动,VERB,,keep,clean
+C1,16,1169,edited,Masse,mass,质量,NOUN,Masse|mass||NOUN,keep,clean
+C1,17,233,new_or_renamed,bellen,bark,吠叫,VERB,,keep,clean
+C1,18,1180,edited,meinten,meant,意思是,VERB,meinten|meant||VERB,fix,Finite past of meinen; citation lemma must be meinen.
+C1,19,1164,edited,Manie,mania,狂躁症,NOUN,Manie|mania||NOUN,keep,clean
+C1,20,1149,edited,Machtkampf,power struggle,权力斗争,NOUN,Machtkampf|power struggle||NOUN,keep,clean
+C1,21,1053,edited,Krachen,crash,巨响,NOUN,Krachen|Crack||NOUN,fix,Not standard citation: use Krach/NOUN or krachen/VERB.
+C1,22,1004,edited,kleiden,to dress,给...穿衣,VERB,kleiden|to dress||VERB,keep,clean
+C1,23,881,edited,Hüfte,hip,臀部,NOUN,Hüfte|hip||NOUN,keep,clean
+C1,24,1492,edited,Schwarzer,black person,黑人,NOUN,Schwarzer|Black||NOUN,fix,Inflected noun form; prefer schwarz/ADJ. Sensitive headword — review inclusion policy.

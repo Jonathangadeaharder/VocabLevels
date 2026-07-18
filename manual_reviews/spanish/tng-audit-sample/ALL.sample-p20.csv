@@ -1,97 +1,97 @@
 level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-A1,1,276,pos_or_key_changed,largo,long,长的,ADJ,largo|long||X,,
-A1,2,438,pos_or_key_changed,raro,strange,奇怪的,ADJ,raro|weird/rare||X,,
-A1,3,214,pos_or_key_changed,fuego,fire,火,NOUN,fuego|fire||X,,
-A1,4,112,edited,conocer,to know,认识/了解,VERB,conocer|to know (people/places)||VERB,,
-A1,5,62,pos_or_key_changed,cabeza,head,头,NOUN,cabeza|head||X,,
-A1,6,539,pos_or_key_changed,verdadero,true,真实的,ADJ,verdadero|true/real||X,,
-A1,7,399,pos_or_key_changed,piso,floor,楼层,NOUN,piso|apartment/floor||X,,
-A1,8,328,edited,morir,die,死,VERB,morir|to die||VERB,,
-A1,9,204,pos_or_key_changed,falta,lack,缺乏,NOUN,falta|lack/absence||X,,
-A1,10,432,edited,querer,to want,想要,VERB,querer|to want/love||VERB,,
-A1,11,349,pos_or_key_changed,nosotros,we,我们,PRON,nosotros|we||X,,
-A1,12,511,pos_or_key_changed,todavía,still,仍然,ADV,todavía|still||X,,
-A1,13,504,pos_or_key_changed,temprano,early,早,ADV,temprano|early||X,,
-A1,14,431,pos_or_key_changed,que,that,那个,SCONJ,que|that/which||ADP,,
-A1,15,412,pos_or_key_changed,presidente,president,总统,NOUN,presidente|president||X,,
-A1,16,45,pos_or_key_changed,aún,still,仍然,ADV,aún|still/yet||X,,
-A1,17,436,pos_or_key_changed,quién,who,谁,PRON,quién|who||X,,
-A1,18,46,pos_or_key_changed,bajo,low,低,ADJ,bajo|short/low||X,,
-A1,19,100,pos_or_key_changed,cocina,kitchen,厨房,NOUN,cocina|kitchen||X,,
-A1,20,149,pos_or_key_changed,después,after,之后,ADV,después|after||X,,
-A1,21,479,pos_or_key_changed,siempre,always,总是,ADV,siempre|always||X,,
-A1,22,529,edited,un,a,一个,DET,un|a/one||DET,,
-A1,23,495,edited,tal,such,这样的,ADJ,tal|such||ADJ,,
-A1,24,162,pos_or_key_changed,donde,where,哪里,ADV,donde|where||X,,
-A2,1,105,pos_or_key_changed,claramente,clearly,清楚地,ADV,claramente|clearly||X,,
-A2,2,521,pos_or_key_changed,tamaño,size,尺寸,NOUN,tamaño|size (format)||X,,
-A2,3,215,pos_or_key_changed,enamorado,in love,恋爱中的,ADJ,enamorado|in love||VERB,,
-A2,4,129,pos_or_key_changed,conocimiento,knowledge,知识,NOUN,conocimiento|knowledge||X,,
-A2,5,346,pos_or_key_changed,mando,remote control,遥控器,NOUN,mando|command/remote control||VERB,,
-A2,6,566,pos_or_key_changed,victoria,victory,胜利,NOUN,victoria|victory||X,,
-A2,7,317,pos_or_key_changed,invitado,guest,客人,NOUN,invitado|guest||VERB,,
-A2,8,53,pos_or_key_changed,bebida,drink,饮料,NOUN,bebida|beverage/drink||X,,
-A2,9,372,edited,nacional,national,国家的,ADJ,nacional|national||ADJ,,
-A2,10,470,edited,respirar,to breathe,呼吸,VERB,respirar|to breathe||VERB,,
-A2,11,119,pos_or_key_changed,complicado,complicated,复杂的,ADJ,complicado|complicated||VERB,,
-A2,12,562,pos_or_key_changed,verde,green,绿色,ADJ,verde|green||X,,
-A2,13,424,edited,pintura,painting,画,NOUN,pintura|painting/paint||NOUN,,
-A2,14,74,edited,calor,heat,热,NOUN,calor|heat||NOUN,,
-A2,15,568,pos_or_key_changed,viernes,Friday,星期五,NOUN,viernes|Friday||X,,
-A2,16,210,edited,elegir,to choose,选择,VERB,elegir|to choose||VERB,,
-A2,17,242,pos_or_key_changed,estilo,style,风格,NOUN,estilo|style||X,,
-A2,18,415,pos_or_key_changed,pesadilla,nightmare,噩梦,NOUN,pesadilla|nightmare||X,,
-A2,19,394,pos_or_key_changed,oscuro,dark,黑暗的,ADJ,oscuro|dark||X,,
-A2,20,89,edited,casualidad,coincidence,巧合,NOUN,casualidad|coincidence/chance||NOUN,,
-A2,21,348,pos_or_key_changed,mapa,map,地图,NOUN,mapa|map||X,,
-A2,22,498,pos_or_key_changed,siglo,century,世纪,NOUN,siglo|century||X,,
-A2,23,314,pos_or_key_changed,interesado,interested,感兴趣的,ADJ,interesado|interested||VERB,,
-A2,24,8,edited,actuar,to act,行动,VERB,actuar|to act||VERB,,
-B1,1,530,pos_or_key_changed,gerente,manager,经理,NOUN,gerente|manager||X,,
-B1,2,575,pos_or_key_changed,hilo,thread,线,NOUN,hilo|thread||X,,
-B1,3,520,pos_or_key_changed,gallina,hen,母鸡,NOUN,gallina|hen||X,,
-B1,4,256,edited,confidencial,confidential,机密的,ADJ,confidencial|confidential||ADJ,,
-B1,5,313,pos_or_key_changed,cómplice,accomplice,同谋,NOUN,cómplice|accomplice||X,,
-B1,6,477,edited,fabuloso,fabulous,极好的,ADJ,fabuloso|fabulous||ADJ,,
-B1,7,592,edited,identificar,identify,识别,VERB,identificar|to identify||VERB,,
-B1,8,360,pos_or_key_changed,disfraz,disguise,伪装,NOUN,disfraz|costume/disguise||X,,
-B1,9,295,pos_or_key_changed,crimen,crime,犯罪,NOUN,crimen|crime||X,,
-B1,10,870,pos_or_key_changed,sello,stamp,邮票,NOUN,sello|stamp||X,,
-B1,11,938,edited,visitar,visit,访问,VERB,visitar|to visit||VERB,,
-B1,12,499,pos_or_key_changed,flujo,flow,流动,NOUN,flujo|flow||X,,
-B1,13,855,pos_or_key_changed,sabio,wise,明智的,ADJ,sabio|wise||X,,
-B1,14,361,edited,disfrutar,to enjoy,享受,VERB,disfrutar|to enjoy||VERB,,
-B1,15,809,pos_or_key_changed,producto,product,产品,NOUN,producto|product||X,,
-B1,16,858,pos_or_key_changed,saco,sack,麻袋,NOUN,saco|sack/jacket||X,,
-B1,17,428,pos_or_key_changed,escolar,school,学校的,ADJ,escolar|school-related/schoolchild||VERB,,
-B1,18,254,edited,confesar,to confess,承认,VERB,confesar|to confess||VERB,,
-B1,19,459,pos_or_key_changed,evento,event,事件,NOUN,evento|event||X,,
-B1,20,497,edited,flor,flower,花,NOUN,flor|flower||NOUN,,
-B1,21,302,pos_or_key_changed,cuero,leather,皮革,NOUN,cuero|leather||X,,
-B1,22,823,pos_or_key_changed,rabia,rage,愤怒,NOUN,rabia|rage/anger||X,,
-B1,23,432,edited,escritor,writer,作家,NOUN,escritor|writer||NOUN,,
-B1,24,761,edited,ordenar,to order,整理,VERB,ordenar|to order/organize||VERB,,
-C1,1,2987,edited,impresionar,to impress,给……留下印象,VERB,impresionar|to impress||VERB,,
-C1,2,2974,edited,imposibilitar,to make impossible,使不可能,VERB,imposibilitar|to make impossible||VERB,,
-C1,3,1756,new_or_renamed,expropiación,expropriation,征用,NOUN,,,
-C1,4,3,pos_or_key_changed,convenio,agreement,协议,NOUN,convenio|agreement/convention||X,,
-C1,5,2607,pos_or_key_changed,hegemonía,hegemony,霸权,NOUN,hegemonía|hegemony||X,,
-C1,6,1013,edited,encapotar,to overcast,变阴沉,VERB,encapotar|to overcast||VERB,,
-C1,7,1987,pos_or_key_changed,finado,deceased,已故的,ADJ,finado|deceased||VERB,,
-C1,8,2533,pos_or_key_changed,guinda,sour cherry,酸樱桃,NOUN,guinda|sour cherry||X,,
-C1,9,1630,pos_or_key_changed,euforia,euphoria,欣快感,NOUN,euforia|euphoria||X,,
-C1,10,1098,pos_or_key_changed,enfermero,nurse,护士,NOUN,enfermero|nurse||X,,
-C1,11,2995,pos_or_key_changed,improcedente,inadmissible,不适当的,ADJ,improcedente|inadmissible||X,,
-C1,12,3530,pos_or_key_changed,meandro,meander,河曲,NOUN,meandro|meander||X,,
-C1,13,735,edited,disponer,to dispose,安排,VERB,disponer|to dispose/have||VERB,,
-C1,14,860,edited,efectuar,to carry out,实施,VERB,efectuar|to carry out||VERB,,
-C1,15,1886,edited,fastuosidad,sumptuousness,奢华,NOUN,fastuosidad|sumptuousness||NOUN,,
-C1,16,749,edited,distribución,distribution,分配,NOUN,distribución|distribution||NOUN,,
-C1,17,763,edited,diversificar,to diversify,使多样化,VERB,diversificar|to diversify||VERB,,
-C1,18,3384,edited,invocación,invocation,祈祷,NOUN,invocación|invocation||NOUN,,
-C1,19,3813,pos_or_key_changed,émulo,emulator,竞争者,NOUN,émulo|emulator||X,,
-C1,20,822,edited,duplicar,duplicate,复制,VERB,duplicar|to duplicate||VERB,,
-C1,21,2943,edited,imperdible,unmissable,不可错过的,ADJ,imperdible|unmissable||ADJ,,
-C1,22,1985,pos_or_key_changed,filón,vein,矿脉,NOUN,filón|vein||X,,
-C1,23,1108,pos_or_key_changed,enfurruñarse,to sulk,生闷气,VERB,enfurruñarse|to sulk||X,,
-C1,24,345,edited,desenzarzar,to extricate,解脱,VERB,desenzarzar|to extricate||VERB,,
+A1,1,276,pos_or_key_changed,largo,long,长的,ADJ,largo|long||X,keep,clean
+A1,2,438,pos_or_key_changed,raro,strange,奇怪的,ADJ,raro|weird/rare||X,keep,clean
+A1,3,214,pos_or_key_changed,fuego,fire,火,NOUN,fuego|fire||X,keep,clean
+A1,4,112,edited,conocer,to know,认识/了解,VERB,conocer|to know (people/places)||VERB,keep,clean
+A1,5,62,pos_or_key_changed,cabeza,head,头,NOUN,cabeza|head||X,keep,clean
+A1,6,539,pos_or_key_changed,verdadero,true,真实的,ADJ,verdadero|true/real||X,keep,clean
+A1,7,399,pos_or_key_changed,piso,floor,楼层,NOUN,piso|apartment/floor||X,keep,clean
+A1,8,328,edited,morir,die,死,VERB,morir|to die||VERB,keep,clean
+A1,9,204,pos_or_key_changed,falta,lack,缺乏,NOUN,falta|lack/absence||X,keep,clean
+A1,10,432,edited,querer,to want,想要,VERB,querer|to want/love||VERB,keep,clean
+A1,11,349,pos_or_key_changed,nosotros,we,我们,PRON,nosotros|we||X,keep,clean
+A1,12,511,pos_or_key_changed,todavía,still,仍然,ADV,todavía|still||X,keep,clean
+A1,13,504,pos_or_key_changed,temprano,early,早,ADV,temprano|early||X,keep,clean
+A1,14,431,pos_or_key_changed,que,that,那个,SCONJ,que|that/which||ADP,keep,clean
+A1,15,412,pos_or_key_changed,presidente,president,总统,NOUN,presidente|president||X,keep,clean
+A1,16,45,pos_or_key_changed,aún,still,仍然,ADV,aún|still/yet||X,keep,clean
+A1,17,436,pos_or_key_changed,quién,who,谁,PRON,quién|who||X,keep,clean
+A1,18,46,pos_or_key_changed,bajo,low,低,ADJ,bajo|short/low||X,keep,clean
+A1,19,100,pos_or_key_changed,cocina,kitchen,厨房,NOUN,cocina|kitchen||X,keep,clean
+A1,20,149,pos_or_key_changed,después,after,之后,ADV,después|after||X,keep,clean
+A1,21,479,pos_or_key_changed,siempre,always,总是,ADV,siempre|always||X,keep,clean
+A1,22,529,edited,un,a,一个,DET,un|a/one||DET,keep,clean
+A1,23,495,edited,tal,such,这样的,ADJ,tal|such||ADJ,keep,clean
+A1,24,162,pos_or_key_changed,donde,where,哪里,ADV,donde|where||X,keep,clean
+A2,1,105,pos_or_key_changed,claramente,clearly,清楚地,ADV,claramente|clearly||X,keep,clean
+A2,2,521,pos_or_key_changed,tamaño,size,尺寸,NOUN,tamaño|size (format)||X,keep,clean
+A2,3,215,pos_or_key_changed,enamorado,in love,恋爱中的,ADJ,enamorado|in love||VERB,keep,clean
+A2,4,129,pos_or_key_changed,conocimiento,knowledge,知识,NOUN,conocimiento|knowledge||X,keep,clean
+A2,5,346,pos_or_key_changed,mando,remote control,遥控器,NOUN,mando|command/remote control||VERB,keep,NOUN sense remote control is fine; also 'command' as noun.
+A2,6,566,pos_or_key_changed,victoria,victory,胜利,NOUN,victoria|victory||X,keep,clean
+A2,7,317,pos_or_key_changed,invitado,guest,客人,NOUN,invitado|guest||VERB,keep,clean
+A2,8,53,pos_or_key_changed,bebida,drink,饮料,NOUN,bebida|beverage/drink||X,keep,clean
+A2,9,372,edited,nacional,national,国家的,ADJ,nacional|national||ADJ,keep,clean
+A2,10,470,edited,respirar,to breathe,呼吸,VERB,respirar|to breathe||VERB,keep,clean
+A2,11,119,pos_or_key_changed,complicado,complicated,复杂的,ADJ,complicado|complicated||VERB,keep,clean
+A2,12,562,pos_or_key_changed,verde,green,绿色,ADJ,verde|green||X,keep,clean
+A2,13,424,edited,pintura,painting,画,NOUN,pintura|painting/paint||NOUN,keep,clean
+A2,14,74,edited,calor,heat,热,NOUN,calor|heat||NOUN,keep,clean
+A2,15,568,pos_or_key_changed,viernes,Friday,星期五,NOUN,viernes|Friday||X,keep,clean
+A2,16,210,edited,elegir,to choose,选择,VERB,elegir|to choose||VERB,keep,clean
+A2,17,242,pos_or_key_changed,estilo,style,风格,NOUN,estilo|style||X,keep,clean
+A2,18,415,pos_or_key_changed,pesadilla,nightmare,噩梦,NOUN,pesadilla|nightmare||X,keep,clean
+A2,19,394,pos_or_key_changed,oscuro,dark,黑暗的,ADJ,oscuro|dark||X,keep,clean
+A2,20,89,edited,casualidad,coincidence,巧合,NOUN,casualidad|coincidence/chance||NOUN,keep,clean
+A2,21,348,pos_or_key_changed,mapa,map,地图,NOUN,mapa|map||X,keep,clean
+A2,22,498,pos_or_key_changed,siglo,century,世纪,NOUN,siglo|century||X,keep,clean
+A2,23,314,pos_or_key_changed,interesado,interested,感兴趣的,ADJ,interesado|interested||VERB,keep,clean
+A2,24,8,edited,actuar,to act,行动,VERB,actuar|to act||VERB,keep,clean
+B1,1,530,pos_or_key_changed,gerente,manager,经理,NOUN,gerente|manager||X,keep,clean
+B1,2,575,pos_or_key_changed,hilo,thread,线,NOUN,hilo|thread||X,keep,clean
+B1,3,520,pos_or_key_changed,gallina,hen,母鸡,NOUN,gallina|hen||X,keep,clean
+B1,4,256,edited,confidencial,confidential,机密的,ADJ,confidencial|confidential||ADJ,keep,clean
+B1,5,313,pos_or_key_changed,cómplice,accomplice,同谋,NOUN,cómplice|accomplice||X,keep,clean
+B1,6,477,edited,fabuloso,fabulous,极好的,ADJ,fabuloso|fabulous||ADJ,keep,clean
+B1,7,592,edited,identificar,identify,识别,VERB,identificar|to identify||VERB,keep,clean
+B1,8,360,pos_or_key_changed,disfraz,disguise,伪装,NOUN,disfraz|costume/disguise||X,keep,clean
+B1,9,295,pos_or_key_changed,crimen,crime,犯罪,NOUN,crimen|crime||X,keep,clean
+B1,10,870,pos_or_key_changed,sello,stamp,邮票,NOUN,sello|stamp||X,keep,clean
+B1,11,938,edited,visitar,visit,访问,VERB,visitar|to visit||VERB,keep,clean
+B1,12,499,pos_or_key_changed,flujo,flow,流动,NOUN,flujo|flow||X,keep,clean
+B1,13,855,pos_or_key_changed,sabio,wise,明智的,ADJ,sabio|wise||X,keep,clean
+B1,14,361,edited,disfrutar,to enjoy,享受,VERB,disfrutar|to enjoy||VERB,keep,clean
+B1,15,809,pos_or_key_changed,producto,product,产品,NOUN,producto|product||X,keep,clean
+B1,16,858,pos_or_key_changed,saco,sack,麻袋,NOUN,saco|sack/jacket||X,keep,clean
+B1,17,428,pos_or_key_changed,escolar,school,学校的,ADJ,escolar|school-related/schoolchild||VERB,keep,clean
+B1,18,254,edited,confesar,to confess,承认,VERB,confesar|to confess||VERB,keep,clean
+B1,19,459,pos_or_key_changed,evento,event,事件,NOUN,evento|event||X,keep,clean
+B1,20,497,edited,flor,flower,花,NOUN,flor|flower||NOUN,keep,clean
+B1,21,302,pos_or_key_changed,cuero,leather,皮革,NOUN,cuero|leather||X,keep,clean
+B1,22,823,pos_or_key_changed,rabia,rage,愤怒,NOUN,rabia|rage/anger||X,keep,clean
+B1,23,432,edited,escritor,writer,作家,NOUN,escritor|writer||NOUN,keep,clean
+B1,24,761,edited,ordenar,to order,整理,VERB,ordenar|to order/organize||VERB,fix,english_lemma only 'to order' misses primary 'to tidy/organize'; Chinese 整理 is better than 订购 sense.
+C1,1,2987,edited,impresionar,to impress,给……留下印象,VERB,impresionar|to impress||VERB,keep,clean
+C1,2,2974,edited,imposibilitar,to make impossible,使不可能,VERB,imposibilitar|to make impossible||VERB,keep,clean
+C1,3,1756,new_or_renamed,expropiación,expropriation,征用,NOUN,,keep,clean
+C1,4,3,pos_or_key_changed,convenio,agreement,协议,NOUN,convenio|agreement/convention||X,keep,clean
+C1,5,2607,pos_or_key_changed,hegemonía,hegemony,霸权,NOUN,hegemonía|hegemony||X,keep,clean
+C1,6,1013,edited,encapotar,to overcast,变阴沉,VERB,encapotar|to overcast||VERB,keep,clean
+C1,7,1987,pos_or_key_changed,finado,deceased,已故的,ADJ,finado|deceased||VERB,keep,clean
+C1,8,2533,pos_or_key_changed,guinda,sour cherry,酸樱桃,NOUN,guinda|sour cherry||X,keep,clean
+C1,9,1630,pos_or_key_changed,euforia,euphoria,欣快感,NOUN,euforia|euphoria||X,keep,clean
+C1,10,1098,pos_or_key_changed,enfermero,nurse,护士,NOUN,enfermero|nurse||X,keep,clean
+C1,11,2995,pos_or_key_changed,improcedente,inadmissible,不适当的,ADJ,improcedente|inadmissible||X,keep,clean
+C1,12,3530,pos_or_key_changed,meandro,meander,河曲,NOUN,meandro|meander||X,keep,clean
+C1,13,735,edited,disponer,to dispose,安排,VERB,disponer|to dispose/have||VERB,keep,clean
+C1,14,860,edited,efectuar,to carry out,实施,VERB,efectuar|to carry out||VERB,keep,clean
+C1,15,1886,edited,fastuosidad,sumptuousness,奢华,NOUN,fastuosidad|sumptuousness||NOUN,keep,clean
+C1,16,749,edited,distribución,distribution,分配,NOUN,distribución|distribution||NOUN,keep,clean
+C1,17,763,edited,diversificar,to diversify,使多样化,VERB,diversificar|to diversify||VERB,keep,clean
+C1,18,3384,edited,invocación,invocation,祈祷,NOUN,invocación|invocation||NOUN,keep,clean
+C1,19,3813,pos_or_key_changed,émulo,emulator,竞争者,NOUN,émulo|emulator||X,fix,english_lemma 'emulator' is tech false friend; means rival/emulator (person). Use 'rival'.
+C1,20,822,edited,duplicar,duplicate,复制,VERB,duplicar|to duplicate||VERB,keep,clean
+C1,21,2943,edited,imperdible,unmissable,不可错过的,ADJ,imperdible|unmissable||ADJ,keep,clean
+C1,22,1985,pos_or_key_changed,filón,vein,矿脉,NOUN,filón|vein||X,keep,clean
+C1,23,1108,pos_or_key_changed,enfurruñarse,to sulk,生闷气,VERB,enfurruñarse|to sulk||X,keep,clean
+C1,24,345,edited,desenzarzar,to extricate,解脱,VERB,desenzarzar|to extricate||VERB,keep,clean

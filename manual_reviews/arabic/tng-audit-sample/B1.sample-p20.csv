@@ -1,25 +1,25 @@
 level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-B1,1,107,edited,مونتاج,editing,剪辑,NOUN,مونتاج|editing||NOUN,,
-B1,2,532,edited,نوبة,shift,轮班,NOUN,نوبة|shift||NOUN,,
-B1,3,284,edited,وكالة,agency,机构,NOUN,وكالة|agency||NOUN,,
-B1,4,713,new_or_renamed,مَبْلُول,wet,湿的,ADJ,,,
-B1,5,762,new_or_renamed,اختبأ,to hide,隐藏,VERB,,,
-B1,6,273,edited,جمعية,association,协会,NOUN,جمعية|association||NOUN,,
-B1,7,264,edited,درب,alley,小巷,NOUN,درب|alley||NOUN,,
-B1,8,423,new_or_renamed,ناضِج,mature,成熟的,ADJ,,,
-B1,9,461,edited,باكالوريا,baccalaureate,高中毕业会考,NOUN,باكالوريا|baccalaureate||NOUN,,
-B1,10,698,new_or_renamed,وَضَّبَ,to tidy,整理,VERB,,,
-B1,11,70,edited,معرض,exhibition,展览,NOUN,معرض|exhibition||NOUN,,
-B1,12,227,edited,بلوط,oak,橡树,NOUN,بلوط|oak||NOUN,,
-B1,13,783,pos_or_key_changed,بلدي,local,本地的,ADJ,بلدي|local/homegrown||VERB,,
-B1,14,372,edited,ثقة,trust,信任,NOUN,ثقة|trust||NOUN,,
-B1,15,378,edited,موقف,stance,立场,NOUN,موقف|stance||NOUN,,
-B1,16,468,pos_or_key_changed,نطق,pronunciation,发音,NOUN,نطق|pronunciation||VERB,,
-B1,17,454,edited,اختبار,test,测试,NOUN,اختبار|test||NOUN,,
-B1,18,709,new_or_renamed,فَايِق,awake,醒着的,ADJ,,,
-B1,19,323,edited,قرصنة,hacking,黑客攻击,NOUN,قرصنة|hacking||NOUN,,
-B1,20,511,edited,حداد,blacksmith,铁匠,NOUN,حداد|blacksmith||NOUN,,
-B1,21,593,edited,تأمين,insurance,保险,NOUN,تأمين|insurance||NOUN,,
-B1,22,515,edited,فقيه,religious scholar,宗教学者,NOUN,فقيه|religious scholar||NOUN,,
-B1,23,168,edited,فروسية,equestrianism,马术,NOUN,فروسية|horse riding||NOUN,,
-B1,24,738,edited,شاقور,axe,斧头,NOUN,شاقور|axe||NOUN,,
+B1,1,107,edited,مونتاج,editing,剪辑,NOUN,مونتاج|editing||NOUN,keep,clean
+B1,2,532,edited,نوبة,shift,轮班,NOUN,نوبة|shift||NOUN,keep,clean
+B1,3,284,edited,وكالة,agency,机构,NOUN,وكالة|agency||NOUN,keep,clean
+B1,4,713,new_or_renamed,مَبْلُول,wet,湿的,ADJ,,keep,clean
+B1,5,762,new_or_renamed,اختبأ,to hide,隐藏,VERB,,keep,clean
+B1,6,273,edited,جمعية,association,协会,NOUN,جمعية|association||NOUN,keep,clean
+B1,7,264,edited,درب,alley,小巷,NOUN,درب|alley||NOUN,keep,clean
+B1,8,423,new_or_renamed,ناضِج,mature,成熟的,ADJ,,keep,clean
+B1,9,461,edited,باكالوريا,baccalaureate,高中毕业会考,NOUN,باكالوريا|baccalaureate||NOUN,keep,clean
+B1,10,698,new_or_renamed,وَضَّبَ,to tidy,整理,VERB,,keep,clean
+B1,11,70,edited,معرض,exhibition,展览,NOUN,معرض|exhibition||NOUN,keep,clean
+B1,12,227,edited,بلوط,oak,橡树,NOUN,بلوط|oak||NOUN,keep,clean
+B1,13,783,pos_or_key_changed,بلدي,local,本地的,ADJ,بلدي|local/homegrown||VERB,keep,clean
+B1,14,372,edited,ثقة,trust,信任,NOUN,ثقة|trust||NOUN,keep,clean
+B1,15,378,edited,موقف,stance,立场,NOUN,موقف|stance||NOUN,keep,clean
+B1,16,468,pos_or_key_changed,نطق,pronunciation,发音,NOUN,نطق|pronunciation||VERB,keep,clean
+B1,17,454,edited,اختبار,test,测试,NOUN,اختبار|test||NOUN,keep,clean
+B1,18,709,new_or_renamed,فَايِق,awake,醒着的,ADJ,,fix,Dialectal (awake); MSA would be مستيقظ. Policy flag for dialect.
+B1,19,323,edited,قرصنة,hacking,黑客攻击,NOUN,قرصنة|hacking||NOUN,keep,clean
+B1,20,511,edited,حداد,blacksmith,铁匠,NOUN,حداد|blacksmith||NOUN,keep,clean
+B1,21,593,edited,تأمين,insurance,保险,NOUN,تأمين|insurance||NOUN,keep,clean
+B1,22,515,edited,فقيه,religious scholar,宗教学者,NOUN,فقيه|religious scholar||NOUN,keep,clean
+B1,23,168,edited,فروسية,equestrianism,马术,NOUN,فروسية|horse riding||NOUN,keep,clean
+B1,24,738,edited,شاقور,axe,斧头,NOUN,شاقور|axe||NOUN,keep,clean
