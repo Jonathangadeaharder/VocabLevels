@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-408,porque,because,因为,SCONJ,es,A1,1,keep,clean
-450,resto,rest,其余,NOUN,es,A1,2,keep,clean
-401,planeta,planet,行星,NOUN,es,A1,3,keep,clean
-492,sueño,dream,梦,NOUN,es,A1,4,keep,clean
-273,justo,fair,公平的,ADJ,es,A1,5,keep,clean
-274,la,the,这/那,DET,es,A1,6,keep,clean
-496,también,also,也,ADV,es,A1,7,keep,clean
-181,encontrar,to find,找到,VERB,es,A1,8,keep,clean
-229,guerra,war,战争,NOUN,es,A1,9,keep,clean
-341,negro,black,黑色的,ADJ,es,A1,10,keep,clean
-155,difícil,difficult,困难的,ADJ,es,A1,11,keep,clean
-61,caballo,horse,马,NOUN,es,A1,12,keep,clean
-553,y,and,和,CCONJ,es,A1,13,keep,clean
-22,alma,soul,灵魂,NOUN,es,A1,14,keep,clean
-301,mamá,mom,妈妈,NOUN,es,A1,15,keep,clean
-367,oído,hearing,听力,NOUN,es,A1,16,keep,clean
-534,ustedes,you,你们,PRON,es,A1,17,keep,clean
-145,derecho,right,右边,NOUN,es,A1,18,keep,clean
-179,en,in,在...里,ADP,es,A1,19,keep,clean
-464,segundo,second,第二,NUM,es,A1,20,keep,clean
-551,voz,voice,声音,NOUN,es,A1,21,keep,clean
-543,vida,life,生活,NOUN,es,A1,22,keep,clean
-231,haber,to have (auxiliary),有,AUX,es,A1,23,keep,clean
-248,hola,hello,你好,INTJ,es,A1,24,keep,clean
+231,haber,to have (auxiliary),有,AUX,es,A1,1,keep,clean
+408,porque,because,因为,SCONJ,es,A1,2,keep,clean
+356,o,or,或者,CCONJ,es,A1,3,keep,clean
+128,cumpleaños,birthday,生日,NOUN,es,A1,4,keep,clean
+17,aire,air,空气,NOUN,es,A1,5,keep,clean
+288,llave,key,钥匙,NOUN,es,A1,6,keep,clean
+472,serio,serious,严肃的,ADJ,es,A1,7,keep,clean
+504,temprano,early,早,ADV,es,A1,8,keep,clean
+546,vista,view,景色,NOUN,es,A1,9,keep,clean
+495,tal,such,这样的,ADJ,es,A1,10,keep,clean
+398,pie,foot,脚,NOUN,es,A1,11,keep,clean
+2,a,to,到,ADP,es,A1,12,keep,clean
+83,caso,case,情况,NOUN,es,A1,13,keep,clean
+219,fácil,easy,容易的,ADJ,es,A1,14,keep,clean
+535,vale,okay,好的,INTJ,es,A1,15,keep,clean
+404,poco,little,少,DET,es,A1,16,keep,clean
+98,cliente,customer,顾客,NOUN,es,A1,17,keep,clean
+386,pelo,hair,头发,NOUN,es,A1,18,keep,clean
+531,uno,one,一,NUM,es,A1,19,keep,clean
+94,cita,appointment,约会,NOUN,es,A1,20,keep,clean
+145,derecho,right,右边,NOUN,es,A1,21,keep,clean
+136,dar,to give,给,VERB,es,A1,22,keep,clean
+34,asunto,matter,事情,NOUN,es,A1,23,keep,clean
+436,quién,who,谁,PRON,es,A1,24,keep,clean

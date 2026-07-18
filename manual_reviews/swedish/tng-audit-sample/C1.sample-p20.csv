@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1483,symtom,symptom,症状,NOUN,sv,C1,1,keep,clean
-300,framstå,appear,显得,VERB,sv,C1,2,keep,clean
-1528,testamente,will,遗嘱,NOUN,sv,C1,3,keep,clean
-718,kombination,combination,组合,NOUN,sv,C1,4,keep,clean
-271,fett,fat,脂肪,NOUN,sv,C1,5,keep,clean
-470,halleluja,hallelujah,哈利路亚,INTJ,sv,C1,6,keep,clean
-1586,tröst,comfort,安慰,NOUN,sv,C1,7,keep,clean
-751,korv,sausage,香肠,NOUN,sv,C1,8,keep,clean
-930,miljontals,millions of,数百万的,NUM,sv,C1,9,keep,clean
-929,militär,military,军队,NOUN,sv,C1,10,keep,clean
-1083,ovan,above,在上面,ADV,sv,C1,11,keep,clean
-1220,rumpa,butt,屁股,NOUN,sv,C1,12,keep,clean
-639,jämna,level,弄平,VERB,sv,C1,13,keep,clean
-1676,utifall,in case,万一,SCONJ,sv,C1,14,keep,clean
-152,denne,he/this one,他/这位,PRON,sv,C1,15,keep,clean
-798,kärring,hag,老妇,NOUN,sv,C1,16,keep,clean
-266,feg,cowardly,懦弱的,ADJ,sv,C1,17,keep,clean
-643,kampanj,campaign,运动,NOUN,sv,C1,18,keep,clean
-1843,övergrepp,assault,侵犯,NOUN,sv,C1,19,keep,clean
-1666,utav,of,的,ADP,sv,C1,20,keep,clean
-1614,tå,toe,脚趾,NOUN,sv,C1,21,keep,clean
-1499,sångare,singer,歌手,NOUN,sv,C1,22,keep,clean
-1263,samt,as well as,以及,CCONJ,sv,C1,23,keep,clean
-1264,samtliga,all,所有,DET,sv,C1,24,keep,clean
+643,kampanj,campaign,运动,NOUN,sv,C1,1,keep,clean
+1267,satellit,satellite,卫星,NOUN,sv,C1,2,keep,clean
+1676,utifall,in case,万一,SCONJ,sv,C1,3,keep,clean
+1258,salong,salon,沙龙,NOUN,sv,C1,4,keep,clean
+594,intensiv,intensive,密集的,ADJ,sv,C1,5,keep,clean
+625,jasså,oh really,原来如此,INTJ,sv,C1,6,keep,clean
+686,klaff,flap,翻盖,NOUN,sv,C1,7,keep,clean
+282,flagga,flag,旗帜,NOUN,sv,C1,8,keep,clean
+74,bransch,industry,行业,NOUN,sv,C1,9,keep,clean
+1716,varannan,every other,每隔一个,DET,sv,C1,10,keep,clean
+1739,vinge,wing,翅膀,NOUN,sv,C1,11,keep,clean
+1555,toalett,toilet,厕所,NOUN,sv,C1,12,keep,clean
+1179,rast,break,休息,NOUN,sv,C1,13,keep,clean
+1278,serie,series,系列,NOUN,sv,C1,14,keep,clean
+1293,självfallet,of course,当然,ADV,sv,C1,15,keep,clean
+682,kinesiska,Chinese,中文,NOUN,sv,C1,16,keep,clean
+930,miljontals,millions of,数百万的,NUM,sv,C1,17,keep,clean
+995,nedanför,below,在...下方,ADP,sv,C1,18,keep,clean
+894,manipulera,manipulate,操纵,VERB,sv,C1,19,keep,clean
+574,innebära,mean/entail,意味着,VERB,sv,C1,20,keep,clean
+1263,samt,as well as,以及,CCONJ,sv,C1,21,keep,clean
+885,lösenord,password,密码,NOUN,sv,C1,22,keep,clean
+153,densamma,the same,同一个,PRON,sv,C1,23,keep,clean
+996,nederlag,defeat,失败,NOUN,sv,C1,24,keep,clean

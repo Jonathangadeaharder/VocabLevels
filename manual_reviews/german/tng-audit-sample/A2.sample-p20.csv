@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-147,Hälfte,half,一半,NOUN,de,A2,1,keep,clean
-298,Tee,tea,茶,NOUN,de,A2,2,keep,clean
-361,Zuhause,home,家,NOUN,de,A2,3,keep,clean
-292,Stück,piece,块,NOUN,de,A2,4,keep,clean
-206,Mörder,murderer,凶手,NOUN,de,A2,5,keep,clean
-153,jawohl,yes,是的,INTJ,de,A2,6,keep,clean
-265,schützen,to protect,保护,VERB,de,A2,7,keep,clean
-317,verheiratet,married,已婚的,ADJ,de,A2,8,keep,clean
-348,Wochenende,weekend,周末,NOUN,de,A2,9,keep,clean
-3,acht,eight,八,NUM,de,A2,10,keep,clean
-75,einige,some,一些,DET,de,A2,11,keep,clean
-118,lesen,to read,阅读,VERB,de,A2,12,keep,clean
-24,außer,except,除...之外,ADP,de,A2,13,keep,clean
-121,geschehen,to happen,发生,VERB,de,A2,14,keep,clean
-360,Zug,train,火车,NOUN,de,A2,15,keep,clean
-205,möchten,would like,想要,AUX,de,A2,16,keep,clean
-7,Anfang,beginning,开始,NOUN,de,A2,17,keep,clean
-209,Nachricht,message,消息,NOUN,de,A2,18,keep,clean
-208,nachdem,after,在...之后,SCONJ,de,A2,19,keep,clean
+113,gegenüber,opposite,对面,ADP,de,A2,1,keep,clean
+272,seufzen,to sigh,叹气,VERB,de,A2,2,keep,clean
+299,Termin,appointment,预约,NOUN,de,A2,3,keep,clean
+38,Besuch,visit,访问,NOUN,de,A2,4,keep,clean
+305,Täter,perpetrator,肇事者,NOUN,de,A2,5,keep,clean
+112,Gegend,area,地区,NOUN,de,A2,6,keep,clean
+277,solche,such,这样的,DET,de,A2,7,keep,clean
+205,möchten,would like,想要,AUX,de,A2,8,keep,clean
+257,Schlüssel,key,钥匙,NOUN,de,A2,9,keep,clean
+266,Seele,soul,灵魂,NOUN,de,A2,10,keep,clean
+5,Adresse,address,地址,NOUN,de,A2,11,keep,clean
+186,Licht,light,光,NOUN,de,A2,12,keep,clean
+13,Antwort,answer,回答,NOUN,de,A2,13,keep,clean
+43,bezahlen,to pay,支付,VERB,de,A2,14,keep,clean
+268,selber,oneself,自己,PRON,de,A2,15,keep,clean
+159,kaputt,broken,坏了的,ADJ,de,A2,16,keep,clean
+253,Schlaf,sleep,睡眠,NOUN,de,A2,17,keep,clean
+153,jawohl,yes,是的,INTJ,de,A2,18,keep,clean
+73,eher,rather,宁愿,ADV,de,A2,19,keep,clean
 228,Polizist,policeman,男警察,NOUN,de,A2,20,keep,clean
-236,Raum,room,房间,NOUN,de,A2,21,keep,clean
-191,links,left,左边,ADV,de,A2,22,keep,clean
-88,euer,your (plural),你们的,PRON,de,A2,23,keep,clean
+219,obwohl,although,虽然,SCONJ,de,A2,21,keep,clean
+3,acht,eight,八,NUM,de,A2,22,keep,clean
+254,schlagen,to beat,打,VERB,de,A2,23,keep,clean

@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-918,tristeza,sadness,悲伤,NOUN,es,B1,1,keep,clean
-407,enhorabuena,congratulations,恭喜,INTJ,es,B1,2,keep,clean
-810,profesora,teacher,女教师,NOUN,es,B1,3,keep,clean
-66,apoyar,to support/lean,支持/依靠,VERB,es,B1,4,keep,clean
-487,feria,fair,集市,NOUN,es,B1,5,keep,clean
-71,araña,spider,蜘蛛,NOUN,es,B1,6,keep,clean
-27,agencia,agency,机构,NOUN,es,B1,7,keep,clean
-70,aquello,that (neutral over there),那个事物,PRON,es,B1,8,keep,clean
-116,avisar,notify,通知,VERB,es,B1,9,keep,clean
-543,grabar,record,录制,VERB,es,B1,10,keep,clean
-772,pasaje,passage,通道,NOUN,es,B1,11,keep,clean
-767,otoño,autumn,秋天,NOUN,es,B1,12,keep,clean
-104,audiencia,audience,观众,NOUN,es,B1,13,keep,clean
-941,víctima,victim,受害者,NOUN,es,B1,14,keep,clean
-905,tercero,third,第三,NUM,es,B1,15,keep,clean
-351,diamante,diamond,钻石,NOUN,es,B1,16,keep,clean
-328,desafortunadamente,unfortunately,不幸地,ADV,es,B1,17,keep,clean
-311,césped,lawn,草坪,NOUN,es,B1,18,keep,clean
-738,método,method,方法,NOUN,es,B1,19,keep,clean
-176,caza,hunting,狩猎,NOUN,es,B1,20,keep,clean
-48,alternativa,alternative,替代方案,NOUN,es,B1,21,keep,clean
-96,ataque,attack,攻击,NOUN,es,B1,22,keep,clean
-156,campeón,champion,冠军,NOUN,es,B1,23,keep,clean
-923,típico,typical,典型的,ADJ,es,B1,24,keep,clean
+245,concierto,concert,音乐会,NOUN,es,B1,1,keep,clean
+493,fila,row,排,NOUN,es,B1,2,keep,clean
+66,apoyar,to support/lean,支持/依靠,VERB,es,B1,3,keep,clean
+917,tribunal,court,法庭,NOUN,es,B1,4,keep,clean
+658,lance,event,事件,NOUN,es,B1,5,keep,clean
+407,enhorabuena,congratulations,恭喜,INTJ,es,B1,6,keep,clean
+5,abuso,abuse,滥用,NOUN,es,B1,7,keep,clean
+206,ciudadano,citizen,公民,NOUN,es,B1,8,keep,clean
+891,suicidio,suicide,自杀,NOUN,es,B1,9,keep,clean
+56,anuncio,advertisement,广告,NOUN,es,B1,10,keep,clean
+57,apagar,to turn off/extinguish,关闭/熄灭,VERB,es,B1,11,keep,clean
+571,herencia,inheritance,遗产,NOUN,es,B1,12,keep,clean
+607,indio,Indian,印第安人,NOUN,es,B1,13,keep,clean
+231,comisaría,police station,警察局,NOUN,es,B1,14,keep,clean
+518,galaxia,galaxy,星系,NOUN,es,B1,15,keep,clean
+791,piscina,pool,游泳池,NOUN,es,B1,16,keep,clean
+11,aclarar,to clarify,澄清,VERB,es,B1,17,keep,clean
+686,lámpara,lamp,灯,NOUN,es,B1,18,keep,clean
+462,excelencia,excellence,卓越,NOUN,es,B1,19,keep,clean
+580,honestamente,honestly,诚实地,ADV,es,B1,20,keep,clean
+70,aquello,that (neutral over there),那个事物,PRON,es,B1,21,keep,clean
+112,auxilio,aid,援助,NOUN,es,B1,22,keep,clean
+444,específico,specific,具体的,ADJ,es,B1,23,keep,clean
+915,treinta,thirty,三十,NUM,es,B1,24,keep,clean

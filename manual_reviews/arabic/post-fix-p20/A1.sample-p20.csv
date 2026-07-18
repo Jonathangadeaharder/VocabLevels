@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-399,كَتِف,shoulder,肩膀,NOUN,ar,A1,1,keep,clean
-10,إييه,yes,是的,INTJ,ar,A1,2,keep,clean
-412,لا,no,不,PART,ar,A1,3,keep,clean
-127,نحن,we,我们,PRON,ar,A1,4,keep,clean
-361,فطور,breakfast,早餐,NOUN,ar,A1,5,keep,clean
-62,تليفون,telephone,电话,NOUN,ar,A1,6,keep,clean
-32,بكى,cry/weep,哭,VERB,ar,A1,7,keep,clean
-377,قُدَّامَ,in front of,在...前面,ADP,ar,A1,8,keep,clean
-190,رَمْل,sand,沙子,NOUN,ar,A1,9,keep,clean
-505,تلك,that (feminine),那个,DET,ar,A1,10,keep,clean
-341,عين,eye,眼睛,NOUN,ar,A1,11,keep,clean
-250,أضاء,light up/turn on,点亮/打开,VERB,ar,A1,12,keep,clean
-444,مِرْآة,mirror,镜子,NOUN,ar,A1,13,keep,clean
-415,أمس,yesterday,昨天,NOUN,ar,A1,14,keep,clean
-211,ساخن,hot,热的,ADJ,ar,A1,15,keep,clean
-162,بسرعة,quickly,快速地,ADV,ar,A1,16,keep,clean
-388,قُنْصُلِيَّة,consulate,领事馆,NOUN,ar,A1,17,keep,clean
-301,طلب,request,请求,VERB,ar,A1,18,keep,clean
-21,برد,cold,寒冷,NOUN,ar,A1,19,keep,clean
-496,نملة,ant,蚂蚁,NOUN,ar,A1,20,keep,clean
-265,صباح,morning,早晨,NOUN,ar,A1,21,keep,clean
-178,أربعون,forty,四十,NUM,ar,A1,22,keep,clean
-364,نقود,money,钱,NOUN,ar,A1,23,keep,clean
-135,خباز,baker,面包师,NOUN,ar,A1,24,keep,clean
+521,ورقة,paper,纸,NOUN,ar,A1,1,keep,clean
+339,عين,eye,眼睛,NOUN,ar,A1,2,keep,clean
+299,طلب,request,请求,VERB,ar,A1,3,keep,clean
+476,مئة,hundred,百,NUM,ar,A1,4,keep,clean
+356,ديك,rooster,公鸡,NOUN,ar,A1,5,keep,clean
+220,سلاح,weapon/arms,武器,NOUN,ar,A1,6,keep,clean
+316,ريف,countryside,乡村,NOUN,ar,A1,7,keep,clean
+131,خالة,maternal aunt,姨妈,NOUN,ar,A1,8,keep,clean
+374,قَبْلَ,before,在...之前,ADP,ar,A1,9,keep,clean
+418,لمن,to whom,对谁,PRON,ar,A1,10,keep,clean
+315,عرف,know,知道,VERB,ar,A1,11,keep,clean
+213,سطل,bucket,桶,NOUN,ar,A1,12,keep,clean
+474,سكين,knife,刀,NOUN,ar,A1,13,keep,clean
+250,شكرا,thank you,谢谢,INTJ,ar,A1,14,keep,clean
+5,أجنبي,foreigner,外国人,NOUN,ar,A1,15,keep,clean
+216,سكت,be quiet,安静,VERB,ar,A1,16,keep,clean
+403,كِلَا,both,两者,DET,ar,A1,17,keep,clean
+79,جد,grandfather,祖父,NOUN,ar,A1,18,keep,clean
+272,صرف,exchange (money),兑换,NOUN,ar,A1,19,keep,clean
+440,مُرّ,bitter,苦的,ADJ,ar,A1,20,keep,clean
+410,لا,no,不,PART,ar,A1,21,keep,clean
+178,رَجُل,man,男人,NOUN,ar,A1,22,keep,clean
+342,غدًا,tomorrow,明天,ADV,ar,A1,23,keep,clean
+404,كَلْب,dog,狗,NOUN,ar,A1,24,keep,clean

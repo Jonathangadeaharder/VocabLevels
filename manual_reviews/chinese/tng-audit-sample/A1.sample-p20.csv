@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-310,为什么,why,为什么,ADV,zh,A1,1,keep,clean
-236,每,each / every,每,DET,zh,A1,2,keep,clean
-355,努力,to work hard,努力,VERB,zh,A1,3,keep,clean
-201,左边,left side,左边,NOUN,zh,A1,4,keep,clean
-131,能,can / to be able to,能,AUX,zh,A1,5,keep,clean
-33,六,six,六,NUM,zh,A1,6,keep,clean
-285,门,door / gate,门,NOUN,zh,A1,7,keep,clean
-277,运动,sports / exercise,运动,NOUN,zh,A1,8,keep,clean
-501,碗,bowl,碗,NOUN,zh,A1,9,keep,clean
-351,刻,quarter,刻,NOUN,zh,A1,10,keep,clean
-523,而且,moreover,而且,CCONJ,zh,A1,11,keep,clean
-395,如果,if,如果,SCONJ,zh,A1,12,keep,clean
-556,认真,conscientious,认真,ADJ,zh,A1,13,keep,clean
-181,吧,modal particle (suggestion),吧,PART,zh,A1,14,keep,clean
-479,熊猫,panda,熊猫,NOUN,zh,A1,15,keep,clean
-582,鞋,shoe,鞋,NOUN,zh,A1,16,keep,clean
-497,眼镜,spectacles,眼镜,NOUN,zh,A1,17,keep,clean
-589,骑,ride,骑,VERB,zh,A1,18,keep,clean
-62,在,at,在,ADP,zh,A1,19,keep,clean
-79,对不起,sorry,对不起,INTJ,zh,A1,20,keep,clean
-459,检查,to check,检查,VERB,zh,A1,21,keep,clean
-262,船,boat,船,NOUN,zh,A1,22,keep,clean
-143,那,that,那,PRON,zh,A1,23,keep,clean
-132,苹果,apple,苹果,NOUN,zh,A1,24,keep,clean
+261,自行车,bicycle,自行车,NOUN,zh,A1,1,keep,clean
+353,办法,way,办法,NOUN,zh,A1,2,keep,clean
+125,的,possessive particle,的,PART,zh,A1,3,keep,clean
+540,虽然,although,虽然,SCONJ,zh,A1,4,keep,clean
+34,再见,goodbye,再见,INTJ,zh,A1,5,keep,clean
+483,特别,especially,特别,ADV,zh,A1,6,keep,clean
+427,护照,passport,护照,NOUN,zh,A1,7,keep,clean
+162,但是,but,但是,CCONJ,zh,A1,8,keep,clean
+118,爸爸,dad / father,爸爸,NOUN,zh,A1,9,keep,clean
+55,哪儿,where,哪儿,PRON,zh,A1,10,keep,clean
+351,刻,quarter,刻,NOUN,zh,A1,11,keep,clean
+170,出,to go out,出,VERB,zh,A1,12,keep,clean
+180,向,toward,向,ADP,zh,A1,13,keep,clean
+173,千,thousand,千,NUM,zh,A1,14,keep,clean
+361,厨房,kitchen,厨房,NOUN,zh,A1,15,keep,clean
+74,字,character / word,字,NOUN,zh,A1,16,keep,clean
+259,羊肉,mutton,羊肉,NOUN,zh,A1,17,keep,clean
+413,应该,should,应该,AUX,zh,A1,18,keep,clean
+499,短,short,短,ADJ,zh,A1,19,keep,clean
+350,刷,to brush,刷,VERB,zh,A1,20,keep,clean
+93,打电话,to make a phone call,打电话,VERB,zh,A1,21,keep,clean
+216,房间,room,房间,NOUN,zh,A1,22,keep,clean
+184,哥哥,older brother,哥哥,NOUN,zh,A1,23,keep,clean
+236,每,each / every,每,DET,zh,A1,24,keep,clean

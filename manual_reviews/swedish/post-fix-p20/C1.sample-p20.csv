@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-351,fånig,silly,愚蠢的,ADJ,sv,C1,1,keep,clean
-335,fysik,physics,物理,NOUN,sv,C1,2,keep,clean
-276,filt,blanket,毯子,NOUN,sv,C1,3,keep,clean
-125,dagbok,diary,日记,NOUN,sv,C1,4,keep,clean
-1666,utav,of,的,ADP,sv,C1,5,keep,clean
-942,mista,lose,失去,VERB,sv,C1,6,keep,clean
-781,kultur,culture,文化,NOUN,sv,C1,7,keep,clean
-1802,älskarinna,mistress,情妇,NOUN,sv,C1,8,keep,clean
-470,halleluja,hallelujah,哈利路亚,INTJ,sv,C1,9,keep,clean
-608,irländska,Irish,爱尔兰语,NOUN,sv,C1,10,keep,clean
-1264,samtliga,all,所有,DET,sv,C1,11,keep,clean
-1247,rökning,smoking,吸烟,NOUN,sv,C1,12,keep,clean
-1263,samt,as well as,以及,CCONJ,sv,C1,13,keep,clean
-1475,svänga,turn,转弯,VERB,sv,C1,14,keep,clean
-172,doft,smell,气味,NOUN,sv,C1,15,keep,clean
-1298,självt,itself,它自己,PRON,sv,C1,16,keep,clean
-683,kirurg,surgeon,外科医生,NOUN,sv,C1,17,keep,clean
-1752,väktare,guard,警卫,NOUN,sv,C1,18,keep,clean
-1202,reträtt,retreat,撤退,NOUN,sv,C1,19,keep,clean
-74,bransch,industry,行业,NOUN,sv,C1,20,keep,clean
-539,häromdagen,the other day,前几天,ADV,sv,C1,21,keep,clean
-1676,utifall,in case,万一,SCONJ,sv,C1,22,keep,clean
-930,miljontals,millions of,数百万的,NUM,sv,C1,23,keep,clean
-1644,uppgörelse,settlement/deal,协议,NOUN,sv,C1,24,keep,clean
+1716,varannan,every other,每隔一个,DET,sv,C1,1,keep,clean
+183,droppe,drop,滴,NOUN,sv,C1,2,keep,clean
+629,julklapp,Christmas present,圣诞礼物,NOUN,sv,C1,3,keep,clean
+263,fastän,although,尽管,SCONJ,sv,C1,4,keep,clean
+830,lever,liver,肝脏,NOUN,sv,C1,5,keep,clean
+1856,övertid,overtime,加班,NOUN,sv,C1,6,keep,clean
+280,fjol,last year,去年,NOUN,sv,C1,7,keep,clean
+85,brottsling,criminal,罪犯,NOUN,sv,C1,8,keep,clean
+94,budskap,message,信息,NOUN,sv,C1,9,keep,clean
+716,kollapsa,collapse,倒塌,VERB,sv,C1,10,keep,clean
+550,höja,raise,提高,VERB,sv,C1,11,keep,clean
+152,denne,he/this one,他/这位,PRON,sv,C1,12,keep,clean
+821,legitimation,identification,身份证明,NOUN,sv,C1,13,keep,clean
+818,ledande,leading,领先的/主导的,ADJ,sv,C1,14,keep,clean
+593,intelligens,intelligence,智力,NOUN,sv,C1,15,keep,clean
+827,leve,long live,万岁,INTJ,sv,C1,16,keep,clean
+1666,utav,of,的,ADP,sv,C1,17,keep,clean
+324,främst,chiefly,主要地,ADV,sv,C1,18,keep,clean
+1263,samt,as well as,以及,CCONJ,sv,C1,19,keep,clean
+1564,tragedi,tragedy,悲剧,NOUN,sv,C1,20,keep,clean
+727,kommunist,communist,共产主义者,NOUN,sv,C1,21,keep,clean
+1778,våg,wave,波浪,NOUN,sv,C1,22,keep,clean
+938,misslyckande,failure,失败,NOUN,sv,C1,23,keep,clean
+930,miljontals,millions of,数百万的,NUM,sv,C1,24,keep,clean

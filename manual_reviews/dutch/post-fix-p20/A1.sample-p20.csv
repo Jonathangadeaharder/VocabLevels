@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-120,willen,to want,想要,VERB,nl,A1,1,keep,clean
-4,het,it,它,PRON,nl,A1,2,keep,clean
-61,willen,to want,想要,AUX,nl,A1,3,keep,clean
-116,uur,hour,小时,NOUN,nl,A1,4,keep,clean
-187,kijken,to look,看,VERB,nl,A1,5,keep,clean
-180,gebruiken,to use,使用,VERB,nl,A1,6,keep,clean
-302,vol,full,满的,ADJ,nl,A1,7,keep,clean
-306,geval,case,情况,NOUN,nl,A1,8,keep,clean
-40,al,already,已经,ADV,nl,A1,9,keep,clean
-43,wel,indeed,确实,ADV,nl,A1,10,keep,clean
-178,vraag,question,问题,NOUN,nl,A1,11,keep,clean
-17,als,as,作为,SCONJ,nl,A1,12,keep,clean
-5,een,a,一个,DET,nl,A1,13,keep,clean
-84,daar,there,那里,ADV,nl,A1,14,keep,clean
-354,vervolgens,then,随后,ADV,nl,A1,15,keep,clean
-13,te,to,去,PART,nl,A1,16,keep,clean
-246,probleem,problem,问题,NOUN,nl,A1,17,keep,clean
-278,naast,next to,在...旁边,ADP,nl,A1,18,keep,clean
-373,buurt,neighbourhood,社区,NOUN,nl,A1,19,keep,clean
-103,ja,yes,是,INTJ,nl,A1,20,keep,clean
-227,groep,group,组,NOUN,nl,A1,21,keep,clean
-33,of,or,或者,CCONJ,nl,A1,22,keep,clean
-307,miljoen,million,百万,NUM,nl,A1,23,keep,clean
+68,tegen,against,反对,ADP,nl,A1,1,keep,clean
+118,eigen,own,自己的,ADJ,nl,A1,2,keep,clean
+22,hij,he,他,PRON,nl,A1,3,keep,clean
+260,leren,to learn,学习,VERB,nl,A1,4,keep,clean
+46,worden,to become,成为,AUX,nl,A1,5,keep,clean
+150,allemaal,all,全部,ADV,nl,A1,6,keep,clean
+291,gemeente,municipality,市镇,NOUN,nl,A1,7,keep,clean
+317,zaak,business,事务,NOUN,nl,A1,8,keep,clean
+337,kant,side,边,NOUN,nl,A1,9,keep,clean
+275,opnieuw,again,再次,ADV,nl,A1,10,keep,clean
+257,zodat,so that,以便,SCONJ,nl,A1,11,keep,clean
+223,nou,well,好了,ADV,nl,A1,12,keep,clean
+148,krijgen,to get,得到,VERB,nl,A1,13,keep,clean
+327,praten,to talk,说话,VERB,nl,A1,14,keep,clean
+324,bijvoorbeeld,for example,例如,ADV,nl,A1,15,keep,clean
+116,uur,hour,小时,NOUN,nl,A1,16,keep,clean
+316,partij,party,政党,NOUN,nl,A1,17,keep,clean
+130,drie,three,三,NUM,nl,A1,18,keep,clean
+13,te,to,去,PART,nl,A1,19,keep,clean
+181,nee,no,不,INTJ,nl,A1,20,keep,clean
+211,enkele,some,一些,DET,nl,A1,21,keep,clean
+185,foto,photo,照片,NOUN,nl,A1,22,keep,clean
+33,of,or,或者,CCONJ,nl,A1,23,keep,clean

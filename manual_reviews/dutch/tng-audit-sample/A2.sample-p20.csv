@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-18,hoeveel,how many,多少,NUM,nl,A2,1,keep,clean
-92,regering,government,政府,NOUN,nl,A2,2,keep,clean
-258,mening,opinion,观点,NOUN,nl,A2,3,keep,clean
-44,waarop,on which,在其上,PRON,nl,A2,4,keep,clean
-262,zon,sun,太阳,NOUN,nl,A2,5,keep,clean
-94,trots,proud,骄傲,ADJ,nl,A2,6,keep,clean
-27,doden,to kill,杀死,VERB,nl,A2,7,keep,clean
-294,hoi,hi,嗨,INTJ,nl,A2,8,keep,clean
-158,kaart,card,卡片,NOUN,nl,A2,9,keep,clean
-229,hond,dog,狗,NOUN,nl,A2,10,keep,clean
-162,voorbeeld,example,例子,NOUN,nl,A2,11,keep,clean
-353,ziek,sick,生病的,ADJ,nl,A2,12,keep,clean
-341,allerlei,all kinds,各种各样的,DET,nl,A2,13,keep,clean
-306,hiermee,with this,以此,ADV,nl,A2,14,keep,clean
-284,stil,quiet,安静的,ADJ,nl,A2,15,keep,clean
-243,burgemeester,mayor,市长,NOUN,nl,A2,16,keep,clean
-307,middel,means,手段,NOUN,nl,A2,17,keep,clean
-203,behalve,except,除了,ADP,nl,A2,18,keep,clean
-6,geloof,belief,信仰,NOUN,nl,A2,19,keep,clean
-93,straat,street,街道,NOUN,nl,A2,20,keep,clean
-46,beeld,image,图像,NOUN,nl,A2,21,keep,clean
-317,aangezien,since,既然,SCONJ,nl,A2,22,keep,clean
-191,fout,mistake,错误,NOUN,nl,A2,23,keep,clean
+34,ver,far,远的,ADJ,nl,A2,1,keep,clean
+227,eeuw,century,世纪,NOUN,nl,A2,2,keep,clean
+185,markt,market,市场,NOUN,nl,A2,3,keep,clean
+139,tekst,text,文本,NOUN,nl,A2,4,keep,clean
+17,grond,ground,地面,NOUN,nl,A2,5,keep,clean
+65,totaal,total,总计,NOUN,nl,A2,6,keep,clean
+301,zomaar,just like that,随便地,ADV,nl,A2,7,keep,clean
+115,hoogte,height,高度,NOUN,nl,A2,8,keep,clean
+232,vakantie,holiday,假期,NOUN,nl,A2,9,keep,clean
+44,waarop,on which,在其上,PRON,nl,A2,10,keep,clean
+159,kerk,church,教堂,NOUN,nl,A2,11,keep,clean
+317,aangezien,since,既然,SCONJ,nl,A2,12,keep,clean
+49,gek,crazy,疯狂的,ADJ,nl,A2,13,keep,clean
+76,eiland,island,岛屿,NOUN,nl,A2,14,keep,clean
+294,hoi,hi,嗨,INTJ,nl,A2,15,keep,clean
+116,ondanks,despite,尽管,ADP,nl,A2,16,keep,clean
+234,waarheid,truth,真相,NOUN,nl,A2,17,keep,clean
+349,slachtoffer,victim,受害者,NOUN,nl,A2,18,keep,clean
+214,geluk,happiness,幸福,NOUN,nl,A2,19,keep,clean
+84,fijn,fine,好,ADJ,nl,A2,20,keep,clean
+341,allerlei,all kinds,各种各样的,DET,nl,A2,21,keep,clean
+226,begrijpen,to understand,理解,VERB,nl,A2,22,keep,clean
+129,acht,eight,八,NUM,nl,A2,23,keep,clean

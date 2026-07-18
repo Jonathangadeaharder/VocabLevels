@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-696,曾经,once,曾经,ADV,zh,B1,1,keep,clean
-349,夹子,clip,夹子,NOUN,zh,B1,2,keep,clean
-96,何况,let alone,何况,CCONJ,zh,B1,3,keep,clean
-99,作品,work,作品,NOUN,zh,B1,4,keep,clean
-450,幅,"classifier for paintings, cloth, etc.",幅,NUM,zh,B1,5,keep,clean
-691,晒,to dry in the sun,晒,AUX,zh,B1,6,keep,clean
-294,唉,alas,唉,INTJ,zh,B1,7,keep,clean
-895,矛盾,contradiction,矛盾,NOUN,zh,B1,8,keep,clean
-228,去世,to pass away,去世,VERB,zh,B1,9,keep,clean
-656,教练,coach,教练,NOUN,zh,B1,10,keep,clean
-165,凭,by means of,凭,ADP,zh,B1,11,keep,clean
-628,搞,to do,搞,VERB,zh,B1,12,keep,clean
-262,合同,contract,合同,NOUN,zh,B1,13,keep,clean
-423,小伙子,young man,小伙子,NOUN,zh,B1,14,keep,clean
-164,凡是,all,凡是,DET,zh,B1,15,keep,clean
-311,国庆节,National Day,国庆节,NOUN,zh,B1,16,keep,clean
-89,似的,like,似的,PART,zh,B1,17,keep,clean
-307,围巾,scarf,围巾,NOUN,zh,B1,18,keep,clean
-687,是否,whether or not,是否,SCONJ,zh,B1,19,keep,clean
-139,兔子,rabbit,兔子,NOUN,zh,B1,20,keep,clean
-260,各自,each,各自,PRON,zh,B1,21,keep,clean
-644,改正,to correct,改正,VERB,zh,B1,22,keep,clean
-30,中旬,middle third of a month,中旬,NOUN,zh,B1,23,keep,clean
-880,相关,to be interrelated,相关,ADJ,zh,B1,24,keep,clean
+691,晒,to dry in the sun,晒,AUX,zh,B1,1,keep,clean
+99,作品,work,作品,NOUN,zh,B1,2,keep,clean
+164,凡是,all,凡是,DET,zh,B1,3,keep,clean
+875,目前,at the present time,目前,ADV,zh,B1,4,keep,clean
+858,电池,battery,电池,NOUN,zh,B1,5,keep,clean
+122,健身房,gym,健身房,NOUN,zh,B1,6,keep,clean
+190,剪刀,scissors,剪刀,NOUN,zh,B1,7,keep,clean
+98,作为,as,作为,ADP,zh,B1,8,keep,clean
+242,发明,to invent,发明,VERB,zh,B1,9,keep,clean
+294,唉,alas,唉,INTJ,zh,B1,10,keep,clean
+70,以来,since,以来,PART,zh,B1,11,keep,clean
+120,假如,if,假如,SCONJ,zh,B1,12,keep,clean
+258,台阶,steps,台阶,NOUN,zh,B1,13,keep,clean
+488,当代,contemporary,当代,NOUN,zh,B1,14,keep,clean
+96,何况,let alone,何况,CCONJ,zh,B1,15,keep,clean
+749,武器,weapon,武器,NOUN,zh,B1,16,keep,clean
+626,提问,to question,提问,VERB,zh,B1,17,keep,clean
+781,海关,customs,海关,NOUN,zh,B1,18,keep,clean
+260,各自,each,各自,PRON,zh,B1,19,keep,clean
+208,匹,classifier for horses,匹,NUM,zh,B1,20,keep,clean
+24,严肃,solemn,严肃,ADJ,zh,B1,21,keep,clean
+981,编辑,to edit,编辑,VERB,zh,B1,22,keep,clean
+498,影子,shadow,影子,NOUN,zh,B1,23,keep,clean
+547,戏剧,drama,戏剧,NOUN,zh,B1,24,keep,clean

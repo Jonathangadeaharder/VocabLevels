@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-347,varken,neither,既不,CCONJ,sv,B1,1,keep,clean
-302,tjena,hi,你好,INTJ,sv,B1,2,keep,clean
-162,minne,memory,记忆,NOUN,sv,B1,3,keep,clean
-471,bedömning,assessment,评估,NOUN,sv,B1,4,keep,clean
-140,ljus,light,光,NOUN,sv,B1,5,keep,clean
-402,anmäla,report,报告,VERB,sv,B1,6,keep,clean
-336,uppmärksamhet,attention,注意力,NOUN,sv,B1,7,keep,clean
-440,avtryck,trigger/imprint,印记,NOUN,sv,B1,8,keep,clean
-183,nytta,use,用处,NOUN,sv,B1,9,keep,clean
-340,utom,except,除了,ADP,sv,B1,10,keep,clean
-199,orka,have strength,有力气,VERB,sv,B1,11,keep,clean
-82,ifall,if,如果,SCONJ,sv,B1,12,keep,clean
-447,bakdörr,back door,后门,NOUN,sv,B1,13,keep,clean
-392,alternativ,alternative,替代的,ADJ,sv,B1,14,keep,clean
-349,vems,whose,谁的,PRON,sv,B1,15,keep,clean
-457,bal,ball,舞会,NOUN,sv,B1,16,keep,clean
-346,varenda,every,每一个,DET,sv,B1,17,keep,clean
-345,vara,be,是,AUX,sv,B1,18,keep,clean
-491,beröm,praise,赞美,NOUN,sv,B1,19,keep,clean
-41,förresten,by the way,顺便一提,ADV,sv,B1,20,keep,clean
-466,basket,basketball,篮球,NOUN,sv,B1,21,keep,clean
-161,miljon,million,百万,NUM,sv,B1,22,keep,clean
-484,bekymra,worry,担心,VERB,sv,B1,23,keep,clean
+78,hänga,hang,悬挂,VERB,sv,B1,1,keep,clean
+483,bekväm,comfortable,舒适的,ADJ,sv,B1,2,keep,clean
+340,utom,except,除了,ADP,sv,B1,3,keep,clean
+26,fröken,Miss/teacher,小姐/老师,NOUN,sv,B1,4,keep,clean
+138,ljud,sound,声音,NOUN,sv,B1,5,keep,clean
+125,kämpa,struggle,战斗,VERB,sv,B1,6,keep,clean
+347,varken,neither,既不,CCONJ,sv,B1,7,keep,clean
+128,lag,law/team,法律/团队,NOUN,sv,B1,8,keep,clean
+21,framåt,forward,向前,ADV,sv,B1,9,keep,clean
+345,vara,be,是,AUX,sv,B1,10,keep,clean
+82,ifall,if,如果,SCONJ,sv,B1,11,keep,clean
+139,ljuga,lie,撒谎,VERB,sv,B1,12,keep,clean
+443,bebis,baby,婴儿,NOUN,sv,B1,13,keep,clean
+161,miljon,million,百万,NUM,sv,B1,14,keep,clean
+35,företag,company,公司,NOUN,sv,B1,15,keep,clean
+103,jösses,good heavens,天哪,INTJ,sv,B1,16,keep,clean
+404,anställd,employee,雇员,NOUN,sv,B1,17,keep,clean
+55,grej,thing,东西,NOUN,sv,B1,18,keep,clean
+298,tillfälle,occasion,场合,NOUN,sv,B1,19,keep,clean
+107,karriär,career,职业,NOUN,sv,B1,20,keep,clean
+349,vems,whose,谁的,PRON,sv,B1,21,keep,clean
+346,varenda,every,每一个,DET,sv,B1,22,keep,clean
+461,barndom,childhood,童年,NOUN,sv,B1,23,keep,clean

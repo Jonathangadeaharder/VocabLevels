@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-15,Anführer,leader,首领,NOUN,de,B1,1,keep,clean
-78,Bulle,cop,警察,NOUN,de,B1,2,keep,clean
+80,Bürger,citizen,公民,NOUN,de,B1,1,keep,clean
+354,Mut,courage,勇气,NOUN,de,B1,2,keep,clean
 144,entweder,either,要么,CCONJ,de,B1,3,keep,clean
-497,Strom,electricity,电,NOUN,de,B1,4,keep,clean
-319,Lehrer,teacher,教师,NOUN,de,B1,5,keep,clean
-437,Scheiße,shit,屎,NOUN,de,B1,6,keep,clean
-357,Müll,trash,垃圾,NOUN,de,B1,7,keep,clean
-283,Klo,toilet,厕所,NOUN,de,B1,8,keep,clean
-36,Aussage,statement,陈述,NOUN,de,B1,9,keep,clean
-228,Grenze,border,边界,NOUN,de,B1,10,keep,clean
-142,entlang,along,沿着,ADP,de,B1,11,keep,clean
-49,begleiten,to accompany,陪伴,VERB,de,B1,12,keep,clean
-367,neun,nine,九,NUM,de,B1,13,keep,clean
-260,indem,by doing,通过,SCONJ,de,B1,14,keep,clean
-606,zumindest,at least,至少,ADV,de,B1,15,keep,clean
-64,Beweis,proof,证据,NOUN,de,B1,16,keep,clean
-493,Strafe,punishment,惩罚,NOUN,de,B1,17,keep,clean
-484,Steig,path,小路,NOUN,de,B1,18,keep,clean
-388,Post,post office,邮局,NOUN,de,B1,19,keep,clean
-318,leer,empty,空的,ADJ,de,B1,20,keep,clean
-29,aufgeben,to give up,放弃,VERB,de,B1,21,keep,clean
-582,welcher,which,哪个,DET,de,B1,22,keep,clean
-267,irgendetwas,anything,任何东西,PRON,de,B1,23,keep,clean
-520,tschüs,bye,再见,INTJ,de,B1,24,keep,clean
+368,nirgendwo,nowhere,无处,ADV,de,B1,4,keep,clean
+17,Angriff,attack,攻击,NOUN,de,B1,5,keep,clean
+323,locker,relaxed / loose,放松的 / 松的,ADJ,de,B1,6,keep,clean
+414,Reihe,row / series,排 / 系列,NOUN,de,B1,7,keep,clean
+465,Selbstmord,suicide,自杀,NOUN,de,B1,8,keep,clean
+196,Garten,garden,花园,NOUN,de,B1,9,keep,clean
+615,zwölf,twelve,十二,NUM,de,B1,10,keep,clean
+586,Westen,west,西方,NOUN,de,B1,11,keep,clean
+94,deren,whose,其,PRON,de,B1,12,keep,clean
+42,Beeilung,hurry,匆忙,NOUN,de,B1,13,keep,clean
+28,atmen,to breathe,呼吸,VERB,de,B1,14,keep,clean
+520,tschüs,bye,再见,INTJ,de,B1,15,keep,clean
+583,welches,which,哪个,DET,de,B1,16,keep,clean
+506,teilen,to share,分享,VERB,de,B1,17,keep,clean
+71,Botschaft,message,消息,NOUN,de,B1,18,keep,clean
+37,außerhalb,outside of,在...之外,ADP,de,B1,19,keep,clean
+344,Mittag,noon,中午,NOUN,de,B1,20,keep,clean
+518,Trottel,fool,傻瓜,NOUN,de,B1,21,keep,clean
+78,Bulle,cop,警察,NOUN,de,B1,22,keep,clean
+260,indem,by doing,通过,SCONJ,de,B1,23,keep,clean
+69,Blödsinn,nonsense,胡说,NOUN,de,B1,24,keep,clean

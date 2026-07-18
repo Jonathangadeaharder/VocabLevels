@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-326,nécessaire,necessary,必要的,ADJ,fr,A2,1,keep,clean
-304,ni,neither/nor,既不/也不,CCONJ,fr,A2,2,keep,clean
-238,jusqu'à,until,直到,ADP,fr,A2,3,keep,clean
-483,possibilité,possibility,可能性,NOUN,fr,A2,4,keep,clean
-397,passeport,passport,护照,NOUN,fr,A2,5,keep,clean
-341,onze,eleven,十一,NUM,fr,A2,6,keep,clean
-253,limite,limit,限制,NOUN,fr,A2,7,keep,clean
-96,changement,change,变化,NOUN,fr,A2,8,keep,clean
-257,lorsque,when,当……时,SCONJ,fr,A2,9,keep,clean
-65,biscotte,rusk,干面包,NOUN,fr,A2,10,keep,clean
-195,faute,mistake,错误,NOUN,fr,A2,11,keep,clean
-121,commode,chest of drawers,五斗柜,NOUN,fr,A2,12,keep,clean
-508,principe,principle,原则,NOUN,fr,A2,13,keep,clean
-244,le,the,这/那,DET,fr,A2,14,keep,clean
-6,acte,act,行为,NOUN,fr,A2,15,keep,clean
-469,poivron,bell pepper,甜椒,NOUN,fr,A2,16,keep,clean
-191,exposition,exhibition,展览,NOUN,fr,A2,17,keep,clean
-226,il,he,他,PRON,fr,A2,18,keep,clean
-336,offrir,to offer,提供,VERB,fr,A2,19,keep,clean
-369,pantoufle,slipper,拖鞋,NOUN,fr,A2,20,keep,clean
-210,gendre,son-in-law,女婿,NOUN,fr,A2,21,keep,clean
-110,clairement,clearly,清楚地,ADV,fr,A2,22,keep,clean
-273,merci,thank you,谢谢,INTJ,fr,A2,23,keep,clean
+257,lorsque,when,当……时,SCONJ,fr,A2,1,keep,clean
+14,ail,garlic,大蒜,NOUN,fr,A2,2,keep,clean
+319,nous,we/us,我们,PRON,fr,A2,3,keep,clean
+375,parc,park,公园,NOUN,fr,A2,4,keep,clean
+258,lycée,high school,高中,NOUN,fr,A2,5,keep,clean
+486,poteau,post,柱子,NOUN,fr,A2,6,keep,clean
+275,milliard,billion,十亿,NUM,fr,A2,7,keep,clean
+53,bas,low,低的,ADJ,fr,A2,8,keep,clean
+170,durée,duration,持续时间,NOUN,fr,A2,9,keep,clean
+125,complètement,completely,完全地,ADV,fr,A2,10,keep,clean
+272,menuisier,carpenter,木匠,NOUN,fr,A2,11,keep,clean
+162,dimanche,Sunday,星期日,NOUN,fr,A2,12,keep,clean
+68,bonnet,beanie,无檐小便帽,NOUN,fr,A2,13,keep,clean
+356,oui,yes,是,INTJ,fr,A2,14,keep,clean
+187,et,and,和,CCONJ,fr,A2,15,keep,clean
+47,avocat,lawyer,律师,NOUN,fr,A2,16,keep,clean
+399,passoire,colander,滤锅,NOUN,fr,A2,17,keep,clean
+34,assurance,insurance,保险,NOUN,fr,A2,18,keep,clean
+30,arrière-grand-père,great-grandfather,曾祖父,NOUN,fr,A2,19,keep,clean
+117,comme,like,像,ADP,fr,A2,20,keep,clean
+301,nettoyer,to clean,打扫,VERB,fr,A2,21,keep,clean
+248,leur,their,他们的,DET,fr,A2,22,keep,clean
+31,arrêt,stop,停止,NOUN,fr,A2,23,keep,clean

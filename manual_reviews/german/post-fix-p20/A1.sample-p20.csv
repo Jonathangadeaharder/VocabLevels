@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-207,Mann,man,男人,NOUN,de,A1,1,keep,clean
-295,Stadt,city,城市,NOUN,de,A1,2,keep,clean
+18,Art,kind / type,种类,NOUN,de,A1,1,keep,clean
+405,okay,okay,好的,INTJ,de,A1,2,keep,clean
 94,fahren,to drive,驾驶,VERB,de,A1,3,keep,clean
-406,eins,one,一,NUM,de,A1,4,keep,clean
-283,sogar,even,甚至,ADV,de,A1,5,keep,clean
-208,mehr,more,更多,ADV,de,A1,6,keep,clean
-164,in,in,在...里,ADP,de,A1,7,keep,clean
-420,Weg,way,路,NOUN,de,A1,8,keep,clean
-286,sondern,but rather,而是,CCONJ,de,A1,9,keep,clean
-220,müssen,must,必须,AUX,de,A1,10,keep,clean
-138,groß,big,大的,ADJ,de,A1,11,keep,clean
-409,Macht,power,力量,NOUN,de,A1,12,keep,clean
-519,Schulbank,school bench,课桌,NOUN,de,A1,13,keep,clean
-405,okay,okay,好的,INTJ,de,A1,14,keep,clean
-509,Zugticket,train ticket,火车票,NOUN,de,A1,15,keep,clean
-176,kein,no,没有,DET,de,A1,16,keep,clean
-544,Fett,fat,脂肪,NOUN,de,A1,17,keep,clean
-245,Paar,couple,一对,NOUN,de,A1,18,keep,clean
-499,Masseur,masseur,按摩师,NOUN,de,A1,19,keep,clean
-91,es,it,它,PRON,de,A1,20,keep,clean
-346,weil,because,因为,SCONJ,de,A1,21,keep,clean
-388,Änderung,change,改变,NOUN,de,A1,22,keep,clean
-320,unten,below,下面,ADV,de,A1,23,keep,clean
-230,nicht,not,不,PART,de,A1,24,keep,clean
+466,Traube,grape,葡萄,NOUN,de,A1,4,keep,clean
+62,denn,because,因为,CCONJ,de,A1,5,keep,clean
+177,keiner,none,没有人,PRON,de,A1,6,keep,clean
+452,Arbeitsstelle,job position,工作岗位,NOUN,de,A1,7,keep,clean
+475,Nuss,nut,坚果,NOUN,de,A1,8,keep,clean
+88,erst,only just,才,ADV,de,A1,9,keep,clean
+230,nicht,not,不,PART,de,A1,10,keep,clean
+113,fünf,five,五,NUM,de,A1,11,keep,clean
+561,vegetarisch,vegetarian,素食的,ADJ,de,A1,12,keep,clean
+418,Berührung,touch,接触,NOUN,de,A1,13,keep,clean
+472,Keks,cookie,饼干,NOUN,de,A1,14,keep,clean
+569,Beere,berry,莓果,NOUN,de,A1,15,keep,clean
+545,Menü,menu,菜单,NOUN,de,A1,16,keep,clean
+378,zwischen,between,在...之间,ADP,de,A1,17,keep,clean
+235,Nummer,number,号码,NOUN,de,A1,18,keep,clean
+79,ein,a / one,一个,DET,de,A1,19,keep,clean
+353,wenn,if / when,如果/当...时,SCONJ,de,A1,20,keep,clean
+56,darum,therefore,因此,ADV,de,A1,21,keep,clean
+322,Vater,father,父亲,NOUN,de,A1,22,keep,clean
+355,werden,will,将要,AUX,de,A1,23,keep,clean
+165,irgendwie,somehow,某种程度上,ADV,de,A1,24,keep,clean

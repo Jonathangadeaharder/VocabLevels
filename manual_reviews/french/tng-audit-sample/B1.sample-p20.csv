@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-60,artistique,artistic,艺术的,ADJ,fr,B1,1,keep,clean
-853,robe,dress,连衣裙,NOUN,fr,B1,2,keep,clean
-153,chapitre,chapter,章节,NOUN,fr,B1,3,keep,clean
-541,méthode,method,方法,NOUN,fr,B1,4,keep,clean
-237,cérémonie,ceremony,典礼,NOUN,fr,B1,5,keep,clean
-836,revenir,to come back,回来,VERB,fr,B1,6,keep,clean
-58,arrondissement,district,区,NOUN,fr,B1,7,keep,clean
-735,raison,reason,理由,NOUN,fr,B1,8,keep,clean
-757,recevoir,to receive,收到,VERB,fr,B1,9,keep,clean
-4,abus,abuse,滥用,NOUN,fr,B1,10,keep,clean
-542,météo,weather forecast,天气预报,NOUN,fr,B1,11,keep,clean
-434,inscription,registration,注册,NOUN,fr,B1,12,keep,clean
-719,quelqu'un,someone,某人,PRON,fr,B1,13,keep,clean
-817,ressembler,to resemble,像,VERB,fr,B1,14,keep,clean
-706,quand,when,当……时,SCONJ,fr,B1,15,keep,clean
-266,doucement,gently,轻轻地,ADV,fr,B1,16,keep,clean
-713,quatorze,fourteen,十四,NUM,fr,B1,17,keep,clean
-543,mûre,blackberry,黑莓,NOUN,fr,B1,18,keep,clean
-612,poignet,wrist,手腕,NOUN,fr,B1,19,keep,clean
-774,regain,recovery,恢复,NOUN,fr,B1,20,keep,clean
-77,autonomie,autonomy,自主,NOUN,fr,B1,21,keep,clean
-720,quelque,some,一些,DET,fr,B1,22,keep,clean
-481,long-métrage,feature film,故事片,NOUN,fr,B1,23,keep,clean
-816,représenter,to represent,代表,VERB,fr,B1,24,keep,clean
+841,richesse,wealth,财富,NOUN,fr,B1,1,keep,clean
+479,logement,housing,住房,NOUN,fr,B1,2,keep,clean
+822,restauration,catering,餐饮业,NOUN,fr,B1,3,keep,clean
+748,ras-le-bol,fed up,受够了,NOUN,fr,B1,4,keep,clean
+720,quelque,some,一些,DET,fr,B1,5,keep,clean
+406,guère,hardly,几乎不,ADV,fr,B1,6,keep,clean
+719,quelqu'un,someone,某人,PRON,fr,B1,7,keep,clean
+168,ciboulette,chives,细香葱,NOUN,fr,B1,8,keep,clean
+59,artichaut,artichoke,朝鲜蓟,NOUN,fr,B1,9,keep,clean
+840,riche,rich,富有的,ADJ,fr,B1,10,keep,clean
+229,coût,cost,成本,NOUN,fr,B1,11,keep,clean
+716,que,that,那,SCONJ,fr,B1,12,keep,clean
+850,rituel,ritual,仪式,NOUN,fr,B1,13,keep,clean
+714,quatre,four,四,NUM,fr,B1,14,keep,clean
+146,centaine,hundred,百,NOUN,fr,B1,15,keep,clean
+467,lecteur,reader,读者,NOUN,fr,B1,16,keep,clean
+132,calcul,calculation,计算,NOUN,fr,B1,17,keep,clean
+683,prévoir,to foresee,预见,VERB,fr,B1,18,keep,clean
+151,chantier,construction site,建筑工地,NOUN,fr,B1,19,keep,clean
+650,promettre,to promise,承诺,VERB,fr,B1,20,keep,clean
+798,rendre,to give back,归还,VERB,fr,B1,21,keep,clean
+609,plateforme,platform,平台,NOUN,fr,B1,22,keep,clean
+180,commettre,to commit,犯（罪）,VERB,fr,B1,23,keep,clean
+363,fondateur,founder,创始人,NOUN,fr,B1,24,keep,clean

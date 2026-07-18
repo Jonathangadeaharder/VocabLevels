@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-388,猪,pig,猪,NOUN,zh,A2,1,keep,clean
-145,呀,(particle equivalent to 啊 after a vowel),呀,PART,zh,A2,2,keep,clean
-278,挂,to hang,挂,VERB,zh,A2,3,keep,clean
-402,留学,to study abroad,留学,VERB,zh,A2,4,keep,clean
-534,过程,process,过程,NOUN,zh,A2,5,keep,clean
-342,棵,classifier for trees,棵,NUM,zh,A2,6,keep,clean
-511,请假,to request leave,请假,VERB,zh,A2,7,keep,clean
-446,约会,date,约会,NOUN,zh,A2,8,keep,clean
-222,幽默,humor,幽默,NOUN,zh,A2,9,keep,clean
-309,整理,to arrange,整理,VERB,zh,A2,10,keep,clean
-344,正好,just (in time),正好,ADV,zh,A2,11,keep,clean
-375,演员,actor or actress,演员,NOUN,zh,A2,12,keep,clean
-258,所有,all,所有,DET,zh,A2,13,keep,clean
-3,不过,but,不过,CCONJ,zh,A2,14,keep,clean
-238,心情,mood,心情,NOUN,zh,A2,15,keep,clean
-288,提供,to offer,提供,VERB,zh,A2,16,keep,clean
-70,关键,crucial,关键,ADJ,zh,A2,17,keep,clean
-30,人民币,Renminbi,人民币,NOUN,zh,A2,18,keep,clean
-435,笔记本,notebook,笔记本,NOUN,zh,A2,19,keep,clean
-2,不管,no matter,不管,SCONJ,zh,A2,20,keep,clean
-67,全部,all,全部,PRON,zh,A2,21,keep,clean
-183,好像,to seem,好像,VERB,zh,A2,22,keep,clean
-41,份,classifier for documents/portions,份,NOUN,zh,A2,23,keep,clean
-281,按照,according to,按照,ADP,zh,A2,24,keep,clean
+383,父亲,father,父亲,NOUN,zh,A2,1,keep,clean
+105,印象,impression,印象,NOUN,zh,A2,2,keep,clean
+272,抱,to hold,抱,VERB,zh,A2,3,keep,clean
+390,现代,modern times,现代,NOUN,zh,A2,4,keep,clean
+258,所有,all,所有,DET,zh,A2,5,keep,clean
+515,负责,to be responsible for,负责,VERB,zh,A2,6,keep,clean
+574,饮料,drink,饮料,NOUN,zh,A2,7,keep,clean
+359,法律,law,法律,NOUN,zh,A2,8,keep,clean
+530,输,to lose,输,VERB,zh,A2,9,keep,clean
+22,于是,therefore,于是,ADV,zh,A2,10,keep,clean
+319,既然,since,既然,SCONJ,zh,A2,11,keep,clean
+161,地址,address,地址,NOUN,zh,A2,12,keep,clean
+398,由,by,由,ADP,zh,A2,13,keep,clean
+576,饼干,biscuit,饼干,NOUN,zh,A2,14,keep,clean
+502,证明,proof,证明,NOUN,zh,A2,15,keep,clean
+187,安全,safe,安全,ADJ,zh,A2,16,keep,clean
+219,年龄,age,年龄,NOUN,zh,A2,17,keep,clean
+333,来不及,there's not enough time (to do sth),来不及,VERB,zh,A2,18,keep,clean
+148,咱们,we or us (including both the speaker and the person(s) spoken to),咱们,PRON,zh,A2,19,keep,clean
+55,俩,two,俩,NUM,zh,A2,20,keep,clean
+240,怀疑,to doubt,怀疑,VERB,zh,A2,21,keep,clean
+145,呀,(particle equivalent to 啊 after a vowel),呀,PART,zh,A2,22,keep,clean
+132,可是,but,可是,CCONJ,zh,A2,23,keep,clean
+393,理解,to understand,理解,VERB,zh,A2,24,keep,clean

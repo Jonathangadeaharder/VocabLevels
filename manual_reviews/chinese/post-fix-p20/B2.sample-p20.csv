@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1003,刺,thorn,刺,NOUN,zh,B2,1,keep,clean
-1355,哪有,how could there be,哪有,PRON,zh,B2,2,keep,clean
-1414,团圆,reunite,团圆,VERB,zh,B2,3,keep,clean
-1329,咯,particle,咯,PART,zh,B2,4,keep,clean
-812,傻子,fool,傻子,NOUN,zh,B2,5,keep,clean
-684,传记,biography,传记,NOUN,zh,B2,6,keep,clean
-597,亭子,pavilion,亭子,NOUN,zh,B2,7,keep,clean
-1389,嘿,hey,嘿,INTJ,zh,B2,8,keep,clean
-1263,向往,yearn for,向往,VERB,zh,B2,9,keep,clean
-1520,外向,extroverted,外向,ADJ,zh,B2,10,keep,clean
-1036,加上,plus,加上,VERB,zh,B2,11,keep,clean
-430,不用,no need,不用,AUX,zh,B2,12,keep,clean
-1190,变故,unexpected event,变故,NOUN,zh,B2,13,keep,clean
-1249,名,name,名,NOUN,zh,B2,14,keep,clean
-297,一些,some,一些,DET,zh,B2,15,keep,clean
-1568,天下,the world,天下,NOUN,zh,B2,16,keep,clean
-1554,大肆,wantonly,大肆,ADV,zh,B2,17,keep,clean
-782,假使,if,假使,SCONJ,zh,B2,18,keep,clean
-1628,如,as,如,ADP,zh,B2,19,keep,clean
-129,贷款,loan,贷款,NOUN,zh,B2,20,keep,clean
-532,之一,one of,之一,NOUN,zh,B2,21,keep,clean
-60,蛇,snake,蛇,NOUN,zh,B2,22,keep,clean
-485,两种,two kinds,两种,NUM,zh,B2,23,keep,clean
-460,且,and,且,CCONJ,zh,B2,24,keep,clean
+297,一些,some,一些,DET,zh,B2,1,keep,clean
+80,观点,viewpoint,观点,NOUN,zh,B2,2,keep,clean
+1584,失误,mistake,失误,NOUN,zh,B2,3,keep,clean
+1412,因,because of,因,ADP,zh,B2,4,keep,clean
+1140,参议员,senator,参议员,NOUN,zh,B2,5,keep,clean
+1142,及,and,及,CCONJ,zh,B2,6,keep,clean
+227,闻,smell,闻,VERB,zh,B2,7,keep,clean
+1343,响应,to respond to,响应,VERB,zh,B2,8,keep,clean
+260,鞭炮,firecracker,鞭炮,NOUN,zh,B2,9,keep,clean
+553,也就是说,that is to say,也就是说,SCONJ,zh,B2,10,keep,clean
+1390,嘿嘿,hehe,嘿嘿,INTJ,zh,B2,11,keep,clean
+1265,吓人,scary,吓人,ADJ,zh,B2,12,keep,clean
+578,事迹,deed,事迹,NOUN,zh,B2,13,keep,clean
+191,逻辑,logic,逻辑,NOUN,zh,B2,14,keep,clean
+1356,哪来,where from,哪来,PRON,zh,B2,15,keep,clean
+383,不住,cannot stay,不住,PART,zh,B2,16,keep,clean
+188,通常,usually,通常,ADV,zh,B2,17,keep,clean
+99,设施,facilities,设施,NOUN,zh,B2,18,keep,clean
+714,作出,to make,作出,VERB,zh,B2,19,keep,clean
+982,初,beginning,初,NOUN,zh,B2,20,keep,clean
+382,不会,will not,不会,AUX,zh,B2,21,keep,clean
+321,一把,one handful,一把,NUM,zh,B2,22,keep,clean
+678,会长,chairman,会长,NOUN,zh,B2,23,keep,clean
+128,账户,account,账户,NOUN,zh,B2,24,keep,clean

@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-253,Schlaf,sleep,睡眠,NOUN,de,A2,1,keep,clean
-344,Wert,value,价值,NOUN,de,A2,2,keep,clean
-319,verraten,to betray,背叛,VERB,de,A2,3,keep,clean
-161,Kirche,church,教堂,NOUN,de,A2,4,keep,clean
-63,Dame,lady,女士,NOUN,de,A2,5,keep,clean
-205,möchten,would like,想要,AUX,de,A2,6,keep,clean
-336,Wahrheit,truth,真相,NOUN,de,A2,7,keep,clean
-338,weh,sore,疼,ADV,de,A2,8,keep,clean
-13,Antwort,answer,回答,NOUN,de,A2,9,keep,clean
-173,Königin,queen,女王,NOUN,de,A2,10,keep,clean
-219,obwohl,although,虽然,SCONJ,de,A2,11,keep,clean
-153,jawohl,yes,是的,INTJ,de,A2,12,keep,clean
-169,Kraft,strength,力量,NOUN,de,A2,13,keep,clean
-274,sieben,seven,七,NUM,de,A2,14,keep,clean
-170,Krankenhaus,hospital,医院,NOUN,de,A2,15,keep,clean
-154,jede,every,每个,DET,de,A2,16,keep,clean
-118,lesen,to read,阅读,VERB,de,A2,17,keep,clean
-106,fürs,for the,为了,ADP,de,A2,18,keep,clean
-88,euer,your (plural),你们的,PRON,de,A2,19,keep,clean
-41,Bewegung,movement,运动,NOUN,de,A2,20,keep,clean
-325,Verzeihung,forgiveness,原谅,NOUN,de,A2,21,keep,clean
-259,schrecklich,terrible,可怕的,ADJ,de,A2,22,keep,clean
-104,fühlen,to feel,感觉,VERB,de,A2,23,keep,clean
+153,jawohl,yes,是的,INTJ,de,A2,1,keep,clean
+274,sieben,seven,七,NUM,de,A2,2,keep,clean
+56,Bäcker,baker,面包师,NOUN,de,A2,3,keep,clean
+219,obwohl,although,虽然,SCONJ,de,A2,4,keep,clean
+170,Krankenhaus,hospital,医院,NOUN,de,A2,5,keep,clean
+27,bauen,to build,建造,VERB,de,A2,6,keep,clean
+357,Zeichen,sign,标志,NOUN,de,A2,7,keep,clean
+54,Chef,boss,老板,NOUN,de,A2,8,keep,clean
+43,bezahlen,to pay,支付,VERB,de,A2,9,keep,clean
+107,Geburtstag,birthday,生日,NOUN,de,A2,10,keep,clean
+268,selber,oneself,自己,PRON,de,A2,11,keep,clean
+14,Anwalt,lawyer,律师,NOUN,de,A2,12,keep,clean
+205,möchten,would like,想要,AUX,de,A2,13,keep,clean
+75,einige,some,一些,DET,de,A2,14,keep,clean
+211,neben,next to,在...旁边,ADP,de,A2,15,keep,clean
+186,Licht,light,光,NOUN,de,A2,16,keep,clean
+70,drüben,over there,在那边,ADV,de,A2,17,keep,clean
+276,Sinn,sense,意义,NOUN,de,A2,18,keep,clean
+178,Laden,shop,商店,NOUN,de,A2,19,keep,clean
+293,Szene,scene,场景,NOUN,de,A2,20,keep,clean
+366,Überraschung,surprise,惊喜,NOUN,de,A2,21,keep,clean
+182,laut,loud,大声的,ADJ,de,A2,22,keep,clean
+116,kaufen,to buy,买,VERB,de,A2,23,keep,clean

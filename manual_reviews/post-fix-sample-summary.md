@@ -1,15 +1,20 @@
-# Post-fix p20 summary (postfix6)
+# Post-fix p20 summary (inventory-driven)
 
-Seed `20260719:postfix6`. Skeptic-2 fixes verified.
+Seed `20260719:postfix-inv`.
 
-- ar قد PART: already / may (particle)
-- ar كمي: quantitative / 定量的
-- de nich→nicht
-- Maghrebi dialect lemmas dropped
-- ALL-langs-p20-scored.csv regenerated (no stale honderden)
+## Dialect inventory
+File: `manual_reviews/arabic/dialect-residual-inventory.csv`
+Rows: 15 (drop=13, policy=2)
 
-Total sample rows: 951
-Verdicts: {'keep': 951}
+## Sample verdicts (post-fix)
+Total: 951
+{'keep': 951}
+policy-labeled keeps: 0
+correctness fix/drop in sample: 0
 
-## Non-keep
-_None._
+## Non-keep (correctness)
+_None remaining in list as keep/clean._
+
+## Definition of zero defects
+0 sample rows with verdict fix/drop (those must be applied to lists first).
+Policy keeps use notes `policy:dialect-MSA-exception`, never bare clean for inventory dialect.

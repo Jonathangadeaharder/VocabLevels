@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-361,活动,activity,活动,NOUN,zh,A2,1,keep,clean
-467,聊天,chat,聊天,VERB,zh,A2,2,keep,clean
-165,垃圾桶,rubbish bin,垃圾桶,NOUN,zh,A2,3,keep,clean
-561,随着,along with,随着,ADP,zh,A2,4,keep,clean
-198,寒假,winter vacation,寒假,NOUN,zh,A2,5,keep,clean
-136,各,each,各,DET,zh,A2,6,keep,clean
-515,负责,to be responsible for,负责,VERB,zh,A2,7,keep,clean
-378,烦恼,worried,烦恼,ADJ,zh,A2,8,keep,clean
-88,分之,fraction marker,分之,PART,zh,A2,9,keep,clean
-206,尝,to taste,尝,VERB,zh,A2,10,keep,clean
-115,参观,to visit,参观,VERB,zh,A2,11,keep,clean
-472,能力,ability,能力,NOUN,zh,A2,12,keep,clean
-129,只要,as long as,只要,CCONJ,zh,A2,13,keep,clean
-114,原谅,to forgive,原谅,VERB,zh,A2,14,keep,clean
-39,任何,any,任何,PRON,zh,A2,15,keep,clean
-29,亲戚,relative,亲戚,NOUN,zh,A2,16,keep,clean
-26,交通,traffic,交通,NOUN,zh,A2,17,keep,clean
-20,也许,perhaps,也许,ADV,zh,A2,18,keep,clean
-221,幸福,happiness,幸福,NOUN,zh,A2,19,keep,clean
+136,各,each,各,DET,zh,A2,1,keep,clean
+473,脏,dirty,脏,ADJ,zh,A2,2,keep,clean
+240,怀疑,to doubt,怀疑,VERB,zh,A2,3,keep,clean
+132,可是,but,可是,CCONJ,zh,A2,4,keep,clean
+179,大约,approximately,大约,ADV,zh,A2,5,keep,clean
+231,当,to be,当,VERB,zh,A2,6,keep,clean
+145,呀,(particle equivalent to 啊 after a vowel),呀,PART,zh,A2,7,keep,clean
+551,重点,key point,重点,NOUN,zh,A2,8,keep,clean
+219,年龄,age,年龄,NOUN,zh,A2,9,keep,clean
+572,风景,scenery,风景,NOUN,zh,A2,10,keep,clean
+283,掉,to fall,掉,VERB,zh,A2,11,keep,clean
+134,号码,number,号码,NOUN,zh,A2,12,keep,clean
+2,不管,no matter,不管,SCONJ,zh,A2,13,keep,clean
+514,谈,to talk,谈,VERB,zh,A2,14,keep,clean
+397,生活,life,生活,NOUN,zh,A2,15,keep,clean
+238,心情,mood,心情,NOUN,zh,A2,16,keep,clean
+39,任何,any,任何,PRON,zh,A2,17,keep,clean
+35,代替,to replace,代替,VERB,zh,A2,18,keep,clean
+200,对话,dialogue,对话,NOUN,zh,A2,19,keep,clean
 524,趟,classifier for trips,趟,NUM,zh,A2,20,keep,clean
-374,演出,performance,演出,NOUN,zh,A2,21,keep,clean
-112,原因,reason,原因,NOUN,zh,A2,22,keep,clean
-420,祝贺,to congratulate,祝贺,VERB,zh,A2,23,keep,clean
-591,万一,just in case,万一,SCONJ,zh,A2,24,keep,clean
+377,火,fire,火,NOUN,zh,A2,21,keep,clean
+202,导游,tour guide,导游,NOUN,zh,A2,22,keep,clean
+297,收拾,to put in order,收拾,VERB,zh,A2,23,keep,clean
+281,按照,according to,按照,ADP,zh,A2,24,keep,clean

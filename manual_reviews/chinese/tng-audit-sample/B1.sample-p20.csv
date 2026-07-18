@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-120,假如,if,假如,SCONJ,zh,B1,1,keep,clean
-903,硬币,coin,硬币,NOUN,zh,B1,2,keep,clean
-597,持续,to last,持续,VERB,zh,B1,3,keep,clean
-691,晒,to dry in the sun,晒,AUX,zh,B1,4,keep,clean
-353,女士,lady,女士,NOUN,zh,B1,5,keep,clean
-208,匹,classifier for horses,匹,NUM,zh,B1,6,keep,clean
-612,排队,to line up,排队,VERB,zh,B1,7,keep,clean
-302,嘉宾,esteemed guest,嘉宾,NOUN,zh,B1,8,keep,clean
-259,吃亏,to suffer losses,吃亏,VERB,zh,B1,9,keep,clean
-336,多亏,thanks to,多亏,ADP,zh,B1,10,keep,clean
-993,老板,boss,老板,NOUN,zh,B1,11,keep,clean
-294,唉,alas,唉,INTJ,zh,B1,12,keep,clean
-629,摄影,photography,摄影,NOUN,zh,B1,13,keep,clean
-896,短信,text message,短信,NOUN,zh,B1,14,keep,clean
-164,凡是,all,凡是,DET,zh,B1,15,keep,clean
-522,总理,premier,总理,NOUN,zh,B1,16,keep,clean
-16,与其,rather than,与其,CCONJ,zh,B1,17,keep,clean
-89,似的,like,似的,PART,zh,B1,18,keep,clean
-500,彼此,each other,彼此,PRON,zh,B1,19,keep,clean
-355,如今,nowadays,如今,ADV,zh,B1,20,keep,clean
-429,尺子,ruler,尺子,NOUN,zh,B1,21,keep,clean
-467,广大,vast,广大,ADJ,zh,B1,22,keep,clean
-406,家庭,family,家庭,NOUN,zh,B1,23,keep,clean
-423,小伙子,young man,小伙子,NOUN,zh,B1,24,keep,clean
+198,劳驾,excuse me,劳驾,INTJ,zh,B1,1,keep,clean
+129,充分,sufficient,充分,ADJ,zh,B1,2,keep,clean
+208,匹,classifier for horses,匹,NUM,zh,B1,3,keep,clean
+96,何况,let alone,何况,CCONJ,zh,B1,4,keep,clean
+842,玩具,toy,玩具,NOUN,zh,B1,5,keep,clean
+89,似的,like,似的,PART,zh,B1,6,keep,clean
+161,决心,determination,决心,NOUN,zh,B1,7,keep,clean
+407,宿舍,dormitory,宿舍,NOUN,zh,B1,8,keep,clean
+626,提问,to question,提问,VERB,zh,B1,9,keep,clean
+356,如何,how,如何,ADV,zh,B1,10,keep,clean
+164,凡是,all,凡是,DET,zh,B1,11,keep,clean
+500,彼此,each other,彼此,PRON,zh,B1,12,keep,clean
+910,祖先,ancestor,祖先,NOUN,zh,B1,13,keep,clean
+180,利润,profit,利润,NOUN,zh,B1,14,keep,clean
+687,是否,whether or not,是否,SCONJ,zh,B1,15,keep,clean
+270,后果,consequences,后果,NOUN,zh,B1,16,keep,clean
+442,工人,worker,工人,NOUN,zh,B1,17,keep,clean
+691,晒,to dry in the sun,晒,AUX,zh,B1,18,keep,clean
+604,挥,to wave,挥,VERB,zh,B1,19,keep,clean
+410,对于,regarding,对于,ADP,zh,B1,20,keep,clean
+641,收据,receipt,收据,NOUN,zh,B1,21,keep,clean
+108,保存,to save,保存,VERB,zh,B1,22,keep,clean
+25,个人,individual / personal,个人,NOUN,zh,B1,23,keep,clean
+542,感想,impressions,感想,NOUN,zh,B1,24,keep,clean

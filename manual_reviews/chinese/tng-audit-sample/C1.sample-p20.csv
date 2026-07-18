@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-2818,档次,grade,档次,NOUN,zh,C1,1,keep,clean
-2197,抵触,resistance,抵触,NOUN,zh,C1,2,keep,clean
-1765,刺绣,embroidery,刺绣,NOUN,zh,C1,3,keep,clean
-426,怪胎,freak,怪胎,NOUN,zh,C1,4,keep,clean
-456,您好,hello (polite),您好,INTJ,zh,C1,5,keep,clean
-951,违抗,disobey,违抗,VERB,zh,C1,6,keep,clean
-2352,大雪,heavy snow,大雪,NOUN,zh,C1,7,keep,clean
-2156,按周,weekly,按周,ADV,zh,C1,8,keep,clean
-1408,扭伤,sprain,扭伤,NOUN,zh,C1,9,keep,clean
-1579,社会舆论,public opinion,社会舆论,NOUN,zh,C1,10,keep,clean
-1136,管理人,manager,管理人,NOUN,zh,C1,11,keep,clean
-2,如同,as,如同,SCONJ,zh,C1,12,keep,clean
-2750,防紫外线,UV-resistant,防紫外线,ADJ,zh,C1,13,keep,clean
-1168,食物链,food chain,食物链,NOUN,zh,C1,14,keep,clean
-1492,短缺,shortage,短缺,NOUN,zh,C1,15,keep,clean
-182,屑,scraps,屑,NOUN,zh,C1,16,keep,clean
-401,怎样,how,怎样,PRON,zh,C1,17,keep,clean
-183,展望,outlook,展望,NOUN,zh,C1,18,keep,clean
-270,应,should,应,AUX,zh,C1,19,keep,clean
-3052,勘误,errata,勘误,NOUN,zh,C1,20,keep,clean
-562,范畴,category,范畴,NOUN,zh,C1,21,keep,clean
-329,当中,among,当中,ADP,zh,C1,22,keep,clean
-528,或,or,或,PART,zh,C1,23,keep,clean
-253,并,and,并,CCONJ,zh,C1,24,keep,clean
+1264,薄荷,mint,薄荷,NOUN,zh,C1,1,keep,clean
+528,或,or,或,PART,zh,C1,2,keep,clean
+197,岳父,father-in-law,岳父,NOUN,zh,C1,3,keep,clean
+2697,教条,dogma,教条,NOUN,zh,C1,4,keep,clean
+615,注意力,attention,注意力,NOUN,zh,C1,5,keep,clean
+329,当中,among,当中,ADP,zh,C1,6,keep,clean
+1722,环保技术,environmental technology,环保技术,NOUN,zh,C1,7,keep,clean
+88,害死,to cause death,害死,VERB,zh,C1,8,keep,clean
+1793,音乐剧,musical,音乐剧,NOUN,zh,C1,9,keep,clean
+1328,荔枝,lychee,荔枝,NOUN,zh,C1,10,keep,clean
+1390,腹泻,diarrhea,腹泻,NOUN,zh,C1,11,keep,clean
+1588,社会传统,social tradition,社会传统,NOUN,zh,C1,12,keep,clean
+1946,民间,folk,民间,ADJ,zh,C1,13,keep,clean
+257,幸会,nice to meet you,幸会,INTJ,zh,C1,14,keep,clean
+2223,启动仪式,launch ceremony,启动仪式,NOUN,zh,C1,15,keep,clean
+2,如同,as,如同,SCONJ,zh,C1,16,keep,clean
+772,销售者,seller,销售者,NOUN,zh,C1,17,keep,clean
+253,并,and,并,CCONJ,zh,C1,18,keep,clean
+8,妳,you (female),妳,PRON,zh,C1,19,keep,clean
+2895,格言,maxim,格言,NOUN,zh,C1,20,keep,clean
+2158,按天,daily,按天,ADV,zh,C1,21,keep,clean
+270,应,should,应,AUX,zh,C1,22,keep,clean
+790,接受者,receiver,接受者,NOUN,zh,C1,23,keep,clean
+2489,必修课,required course,必修课,NOUN,zh,C1,24,keep,clean

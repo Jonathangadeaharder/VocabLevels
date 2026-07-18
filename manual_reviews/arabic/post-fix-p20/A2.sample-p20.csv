@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-458,تقريبا,approximately,大约,ADV,ar,A2,1,keep,clean
-125,دراري,children,孩子们,NOUN,ar,A2,2,keep,clean
-190,ألم,pain,疼痛,NOUN,ar,A2,3,keep,clean
-487,على,on,在...上,ADP,ar,A2,4,keep,clean
-277,غلطة,mistake,错误,NOUN,ar,A2,5,keep,clean
-397,شغل,to turn on / to employ,打开 / 雇用,VERB,ar,A2,6,keep,clean
-112,تزوج,to marry,结婚,VERB,ar,A2,7,keep,clean
-64,كرفس,celery,芹菜,NOUN,ar,A2,8,keep,clean
-241,زحمة,traffic jam,交通堵塞,NOUN,ar,A2,9,keep,clean
-209,ريح,wind,风,NOUN,ar,A2,10,keep,clean
-491,لازم,must,必须,AUX,ar,A2,11,keep,clean
-481,كون,if,如果,SCONJ,ar,A2,12,keep,clean
-289,حلاق,barber,理发师,NOUN,ar,A2,13,keep,clean
-421,مرتاح,relaxed / comfortable,放松的 / 舒适的,ADJ,ar,A2,14,keep,clean
-203,دوار,dizziness,眩晕,NOUN,ar,A2,15,keep,clean
-476,هاك,here you go,给你,INTJ,ar,A2,16,keep,clean
-467,واش,question particle,疑问助词,PART,ar,A2,17,keep,clean
-158,سور,wall / fence,墙/围墙,NOUN,ar,A2,18,keep,clean
-482,ولا,or,或者,CCONJ,ar,A2,19,keep,clean
-393,اتكأ,to lean,倚靠,VERB,ar,A2,20,keep,clean
-315,اثنين,Monday,星期一,NOUN,ar,A2,21,keep,clean
-76,لبن,buttermilk,酪乳,NOUN,ar,A2,22,keep,clean
-74,زبادي,yogurt,酸奶,NOUN,ar,A2,23,keep,clean
+17,طوى,to fold,折叠,VERB,ar,A2,1,keep,clean
+51,شباكية,chebakia,舍巴基亚糕点,NOUN,ar,A2,2,keep,clean
+291,ثانية,again,再次,ADV,ar,A2,3,keep,clean
+194,حبة,pill,药丸,NOUN,ar,A2,4,keep,clean
+476,مع,with,和,ADP,ar,A2,5,keep,clean
+473,ولا,or,或者,CCONJ,ar,A2,6,keep,clean
+193,عملية,operation,手术,NOUN,ar,A2,7,keep,clean
+262,امتحان,exam,考试,NOUN,ar,A2,8,keep,clean
+263,نقطة,point / grade,点 / 分数,NOUN,ar,A2,9,keep,clean
+216,فصل,season,季节,NOUN,ar,A2,10,keep,clean
+18,تعب,to get tired,疲劳,VERB,ar,A2,11,keep,clean
+69,عدس,lentils,扁豆,NOUN,ar,A2,12,keep,clean
+16,نشر,to publish / to spread / to hang laundry,发布 / 传播 / 晾晒,VERB,ar,A2,13,keep,clean
+479,حتى,until,直到,SCONJ,ar,A2,14,keep,clean
+48,دين,debt,债务,NOUN,ar,A2,15,keep,clean
+305,بداية,beginning,开始,NOUN,ar,A2,16,keep,clean
+205,حساسية,allergy,过敏,NOUN,ar,A2,17,keep,clean
+482,لازم,must,必须,AUX,ar,A2,18,keep,clean
+471,راه,indeed,确实,PART,ar,A2,19,keep,clean
+474,مبروك,congratulations,恭喜,INTJ,ar,A2,20,keep,clean
+104,بنة,flavor,味道,NOUN,ar,A2,21,keep,clean
+31,ائتمان,credit,信用,NOUN,ar,A2,22,keep,clean
+416,شبعان,full / satiated,饱的,ADJ,ar,A2,23,keep,clean

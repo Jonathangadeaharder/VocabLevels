@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-780,hélas,alas,唉,INTJ,fr,B2,1,keep,clean
-868,inventer,to invent,发明,VERB,fr,B2,2,keep,clean
-52,aliénation,alienation,异化,NOUN,fr,B2,3,keep,clean
-1613,soixante,sixty,六十,NUM,fr,B2,4,keep,clean
-648,façade,facade,正面,NOUN,fr,B2,5,keep,clean
-1086,oligopole,oligopoly,寡头垄断,NOUN,fr,B2,6,keep,clean
-168,blague,joke,笑话,NOUN,fr,B2,7,keep,clean
-178,boue,mud,泥,NOUN,fr,B2,8,keep,clean
-1659,sous,under,在...下面,ADP,fr,B2,9,keep,clean
-1386,réciproquement,reciprocally,相互地,ADV,fr,B2,10,keep,clean
-1703,subsidiarité,subsidiarity,辅助性原则,NOUN,fr,B2,11,keep,clean
-774,humanitaire,humanitarian,人道主义的,ADJ,fr,B2,12,keep,clean
-1573,si,if,如果,SCONJ,fr,B2,13,keep,clean
-1630,son,his,他的,DET,fr,B2,14,keep,clean
-285,colonisation,colonization,殖民化,NOUN,fr,B2,15,keep,clean
-1185,poil,hair,毛发,NOUN,fr,B2,16,keep,clean
-1590,sincérité,sincerity,真诚,NOUN,fr,B2,17,keep,clean
-1262,prévarication,malfeasance,渎职,NOUN,fr,B2,18,keep,clean
-1293,quiconque,whoever,任何人,PRON,fr,B2,19,keep,clean
-1459,révision,revision,复习,NOUN,fr,B2,20,keep,clean
-158,baptême,baptism,洗礼,NOUN,fr,B2,21,keep,clean
-48,alarme,alarm,警报,NOUN,fr,B2,22,keep,clean
-682,fosse,pit,坑,NOUN,fr,B2,23,keep,clean
-1212,priver,to deprive,剥夺,VERB,fr,B2,24,keep,clean
+1296,quotidiennement,daily,每天,ADV,fr,B2,1,keep,clean
+532,désignation,designation,指定,NOUN,fr,B2,2,keep,clean
+1333,remplaçant,substitute,替代者,NOUN,fr,B2,3,keep,clean
+1630,son,his,他的,DET,fr,B2,4,keep,clean
+1295,quoique,although,虽然,SCONJ,fr,B2,5,keep,clean
+1438,résident,resident,居民,NOUN,fr,B2,6,keep,clean
+1574,sien,his,他的,PRON,fr,B2,7,keep,clean
+1107,paille,straw,稻草,NOUN,fr,B2,8,keep,clean
+923,légion,legion,军团,NOUN,fr,B2,9,keep,clean
+1148,pertinence,relevance,相关性,NOUN,fr,B2,10,keep,clean
+63,amiral,admiral,海军上将,NOUN,fr,B2,11,keep,clean
+333,congé,leave,休假,NOUN,fr,B2,12,keep,clean
+1334,renaissance,rebirth,复兴,NOUN,fr,B2,13,keep,clean
+278,collecte,collection,收集,NOUN,fr,B2,14,keep,clean
+1659,sous,under,在...下面,ADP,fr,B2,15,keep,clean
+1093,opérer,to operate,动手术；操作,VERB,fr,B2,16,keep,clean
+491,dégradation,deterioration,恶化,NOUN,fr,B2,17,keep,clean
+1234,prospérité,prosperity,繁荣,NOUN,fr,B2,18,keep,clean
+423,devise,currency,货币,NOUN,fr,B2,19,keep,clean
+546,déterministe,deterministic,决定论的,ADJ,fr,B2,20,keep,clean
+1555,sept,seven,七,NUM,fr,B2,21,keep,clean
+1063,noyau,core,核心,NOUN,fr,B2,22,keep,clean
+780,hélas,alas,唉,INTJ,fr,B2,23,keep,clean
+34,adresser,to address,致辞,VERB,fr,B2,24,keep,clean

@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-198,Leute,people,人们,NOUN,de,A1,1,keep,clean
-112,früher,formerly,以前,ADV,de,A1,2,keep,clean
-13,an,at / on,在 / 靠近,ADP,de,A1,3,keep,clean
-482,Speise,dish,菜肴,NOUN,de,A1,4,keep,clean
-405,okay,okay,好的,INTJ,de,A1,5,keep,clean
-286,sondern,but rather,而是,CCONJ,de,A1,6,keep,clean
-320,unten,below,下面,ADV,de,A1,7,keep,clean
-346,weil,because,因为,SCONJ,de,A1,8,keep,clean
-560,Joghurt,yogurt,酸奶,NOUN,de,A1,9,keep,clean
-357,wie,how,如何,ADV,de,A1,10,keep,clean
-93,euer,your (pl),你们的,DET,de,A1,11,keep,clean
-230,nicht,not,不,PART,de,A1,12,keep,clean
-41,brauchen,to need,需要,VERB,de,A1,13,keep,clean
-224,Nacht,night,夜晚,NOUN,de,A1,14,keep,clean
-396,Vorderseite,front,正面,NOUN,de,A1,15,keep,clean
-391,alle,everyone,所有人,PRON,de,A1,16,keep,clean
-75,echt,real,真实的,ADJ,de,A1,17,keep,clean
-175,können,can,能够,AUX,de,A1,18,keep,clean
-544,Fett,fat,脂肪,NOUN,de,A1,19,keep,clean
-113,fünf,five,五,NUM,de,A1,20,keep,clean
-466,Traube,grape,葡萄,NOUN,de,A1,21,keep,clean
-104,Frage,question,问题,NOUN,de,A1,22,keep,clean
-305,Telefon,telephone,电话,NOUN,de,A1,23,keep,clean
-427,Sessel,armchair,扶手椅,NOUN,de,A1,24,keep,clean
+372,Zimmer,room,房间,NOUN,de,A1,1,keep,clean
+461,Zugfahrt,train ride,火车旅程,NOUN,de,A1,2,keep,clean
+50,damals,back then,那时,ADV,de,A1,3,keep,clean
+388,Änderung,change,改变,NOUN,de,A1,4,keep,clean
+197,letzt,last,最后的,ADJ,de,A1,5,keep,clean
+35,bevor,before,在...之前,SCONJ,de,A1,6,keep,clean
+440,Türsteher,doorman,门卫,NOUN,de,A1,7,keep,clean
+166,ja,yes,是的,INTJ,de,A1,8,keep,clean
+437,Elternteil,parent,父母之一,NOUN,de,A1,9,keep,clean
+11,Alte,old person,老人,NOUN,de,A1,10,keep,clean
+169,jemand,someone,某人,PRON,de,A1,11,keep,clean
+318,und,and,和,CCONJ,de,A1,12,keep,clean
+282,sofort,immediately,立即,ADV,de,A1,13,keep,clean
+277,selbst,oneself,本身,ADV,de,A1,14,keep,clean
+228,nein,no,不,PART,de,A1,15,keep,clean
+289,Spaß,fun,乐趣,NOUN,de,A1,16,keep,clean
+162,ihr,her / their,她的 / 他们的,DET,de,A1,17,keep,clean
+528,Ameise,ant,蚂蚁,NOUN,de,A1,18,keep,clean
+27,bei,at,在,ADP,de,A1,19,keep,clean
+160,Idee,idea,主意,NOUN,de,A1,20,keep,clean
+369,zehn,ten,十,NUM,de,A1,21,keep,clean
+516,Vormittag,forenoon,上午,NOUN,de,A1,22,keep,clean
+484,kämmen,comb,梳头,VERB,de,A1,23,keep,clean
+73,dürfen,to be allowed,允许,AUX,de,A1,24,keep,clean

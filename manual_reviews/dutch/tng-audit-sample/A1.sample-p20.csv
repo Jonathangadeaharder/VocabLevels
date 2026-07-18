@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-49,haar,her,她的,DET,nl,A1,1,keep,clean
-321,hulp,help,帮助,NOUN,nl,A1,2,keep,clean
-103,ja,yes,是,INTJ,nl,A1,3,keep,clean
-130,drie,three,三,NUM,nl,A1,4,keep,clean
-158,misschien,maybe,也许,ADV,nl,A1,5,keep,clean
-29,dan,than,比,ADV,nl,A1,6,keep,clean
-54,hoe,how,如何,ADV,nl,A1,7,keep,clean
-386,provincie,province,省,NOUN,nl,A1,8,keep,clean
-325,delen,to share,分享,VERB,nl,A1,9,keep,clean
-176,eerst,first,首先,ADV,nl,A1,10,keep,clean
-20,om,to,为了,ADP,nl,A1,11,keep,clean
-37,kunnen,can,能,AUX,nl,A1,12,keep,clean
-245,waarin,in which,在其中,PRON,nl,A1,13,keep,clean
-206,liggen,to lie,躺,VERB,nl,A1,14,keep,clean
-356,bedrijf,company,公司,NOUN,nl,A1,15,keep,clean
-143,laatste,last,最后的,ADJ,nl,A1,16,keep,clean
-317,zaak,business,事务,NOUN,nl,A1,17,keep,clean
-17,als,as,作为,SCONJ,nl,A1,18,keep,clean
-13,te,to,去,PART,nl,A1,19,keep,clean
-174,vragen,to ask,问,VERB,nl,A1,20,keep,clean
-363,wedstrijd,competition,比赛,NOUN,nl,A1,21,keep,clean
-149,want,because,因为,CCONJ,nl,A1,22,keep,clean
-372,woord,word,单词,NOUN,nl,A1,23,keep,clean
+277,muziek,music,音乐,NOUN,nl,A1,1,keep,clean
+163,houden,to keep,保持,VERB,nl,A1,2,keep,clean
+263,regio,region,地区,NOUN,nl,A1,3,keep,clean
+148,krijgen,to get,得到,VERB,nl,A1,4,keep,clean
+387,tien,ten,十,NUM,nl,A1,5,keep,clean
+319,langs,along,沿着,ADP,nl,A1,6,keep,clean
+30,dit,this,这个,PRON,nl,A1,7,keep,clean
+239,terwijl,while,当……时,SCONJ,nl,A1,8,keep,clean
+390,huidig,current,当前的,ADJ,nl,A1,9,keep,clean
+266,der,the,（定冠词）,DET,nl,A1,10,keep,clean
+269,verhaal,story,故事,NOUN,nl,A1,11,keep,clean
+178,vraag,question,问题,NOUN,nl,A1,12,keep,clean
+13,te,to,去,PART,nl,A1,13,keep,clean
+358,lid,member,成员,NOUN,nl,A1,14,keep,clean
+274,horen,to hear,听见,VERB,nl,A1,15,keep,clean
+40,al,already,已经,ADV,nl,A1,16,keep,clean
+97,toen,when,当时,ADV,nl,A1,17,keep,clean
+262,ongeveer,about,大约,ADV,nl,A1,18,keep,clean
+19,maar,but,但是,CCONJ,nl,A1,19,keep,clean
+103,ja,yes,是,INTJ,nl,A1,20,keep,clean
+39,zo,so,这样,ADV,nl,A1,21,keep,clean
+47,hebben,to have,有,AUX,nl,A1,22,keep,clean
+361,plek,place,地方,NOUN,nl,A1,23,keep,clean

@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-420,profesor,teacher,老师,NOUN,es,A1,1,keep,clean
-92,cielo,sky,天空,NOUN,es,A1,2,keep,clean
-553,y,and,和,CCONJ,es,A1,3,keep,clean
-22,alma,soul,灵魂,NOUN,es,A1,4,keep,clean
-363,orden,order,命令,NOUN,es,A1,5,keep,clean
-231,haber,to have (auxiliary),有,AUX,es,A1,6,keep,clean
-11,adiós,goodbye,再见,INTJ,es,A1,7,keep,clean
-274,la,the,这/那,DET,es,A1,8,keep,clean
-50,baño,bathroom,浴室,NOUN,es,A1,9,keep,clean
-469,sentido,sense,意义,NOUN,es,A1,10,keep,clean
-437,qué,what,什么,PRON,es,A1,11,keep,clean
-251,hoy,today,今天,ADV,es,A1,12,keep,clean
-286,listo,ready,准备好的,ADJ,es,A1,13,keep,clean
-546,vista,view,景色,NOUN,es,A1,14,keep,clean
-478,si,if,如果,SCONJ,es,A1,15,keep,clean
-544,viejo,old,老的,ADJ,es,A1,16,keep,clean
-375,para,for,为了,ADP,es,A1,17,keep,clean
-206,feliz,happy,快乐的,ADJ,es,A1,18,keep,clean
-101,comer,to eat,吃,VERB,es,A1,19,keep,clean
-137,daño,damage,损害/伤害,NOUN,es,A1,20,keep,clean
-47,barco,boat,船,NOUN,es,A1,21,keep,clean
-344,niña,girl,女孩,NOUN,es,A1,22,keep,clean
-152,diez,ten,十,NUM,es,A1,23,keep,clean
-332,mundo,world,世界,NOUN,es,A1,24,keep,clean
+408,porque,because,因为,SCONJ,es,A1,1,keep,clean
+324,mitad,half,一半,NOUN,es,A1,2,keep,clean
+127,culpa,fault,过错/责任,NOUN,es,A1,3,keep,clean
+306,marido,husband,丈夫,NOUN,es,A1,4,keep,clean
+62,cabeza,head,头,NOUN,es,A1,5,keep,clean
+298,madre,mother,母亲,NOUN,es,A1,6,keep,clean
+26,amiga,female friend,女性朋友,NOUN,es,A1,7,keep,clean
+239,haz,beam,光束,NOUN,es,A1,8,keep,clean
+390,pequeño,small,小,ADJ,es,A1,9,keep,clean
+464,segundo,second,第二,NUM,es,A1,10,keep,clean
+25,ambos,both,两者,DET,es,A1,11,keep,clean
+395,pero,but,但是,CCONJ,es,A1,12,keep,clean
+237,hasta,until/up to,直到,ADP,es,A1,13,keep,clean
+34,asunto,matter,事情,NOUN,es,A1,14,keep,clean
+495,tal,such,这样的,ADJ,es,A1,15,keep,clean
+533,usted,you,您,PRON,es,A1,16,keep,clean
+80,carta,letter,信,NOUN,es,A1,17,keep,clean
+338,necesario,necessary,必要的,ADJ,es,A1,18,keep,clean
+257,incluso,even,甚至,ADV,es,A1,19,keep,clean
+248,hola,hello,你好,INTJ,es,A1,20,keep,clean
+178,empezar,to start,开始,VERB,es,A1,21,keep,clean
+231,haber,to have (auxiliary),有,AUX,es,A1,22,keep,clean
+50,baño,bathroom,浴室,NOUN,es,A1,23,keep,clean
+514,tontería,nonsense,废话,NOUN,es,A1,24,keep,clean

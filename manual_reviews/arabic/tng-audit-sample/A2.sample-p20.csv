@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-491,لازم,must,必须,AUX,ar,A2,1,keep,clean
-501,موسيقى,music,音乐,NOUN,ar,A2,2,keep,clean
-479,نيت,really,真的,ADV,ar,A2,3,keep,clean
-57,لوز,almonds,杏仁,NOUN,ar,A2,4,keep,clean
-467,واش,question particle,疑问助词,PART,ar,A2,5,keep,clean
-29,تسوق,to shop for groceries,买菜,VERB,ar,A2,6,keep,clean
-424,عيب,shame / disgrace,耻辱 / 丢脸,NOUN,ar,A2,7,keep,clean
-303,طول,length,长度,NOUN,ar,A2,8,keep,clean
-481,كون,if,如果,SCONJ,ar,A2,9,keep,clean
-11,جهز,to prepare,准备,VERB,ar,A2,10,keep,clean
-344,كره,to hate,讨厌,VERB,ar,A2,11,keep,clean
-319,جمعة,Friday,星期五,NOUN,ar,A2,12,keep,clean
-469,يالله,come on,来吧,INTJ,ar,A2,13,keep,clean
-241,زحمة,traffic jam,交通堵塞,NOUN,ar,A2,14,keep,clean
-247,عند,at,在,ADP,ar,A2,15,keep,clean
-259,اجتماع,meeting,会议,NOUN,ar,A2,16,keep,clean
-150,جرس,bell,铃,NOUN,ar,A2,17,keep,clean
-105,ريحة,smell,气味,NOUN,ar,A2,18,keep,clean
-315,اثنين,Monday,星期一,NOUN,ar,A2,19,keep,clean
-437,قبيح,ugly,丑陋的,ADJ,ar,A2,20,keep,clean
-482,ولا,or,或者,CCONJ,ar,A2,21,keep,clean
-217,فصل,season,季节,NOUN,ar,A2,22,keep,clean
-339,عقل,mind,理智,NOUN,ar,A2,23,keep,clean
+211,رطوبة,humidity,湿度,NOUN,ar,A2,1,keep,clean
+38,نقص,to decrease,减少,VERB,ar,A2,2,keep,clean
+421,محتاج,in need,需要的,ADJ,ar,A2,3,keep,clean
+313,أحد,Sunday / someone,星期日 / 某人,NOUN,ar,A2,4,keep,clean
+482,لازم,must,必须,AUX,ar,A2,5,keep,clean
+473,ولا,or,或者,CCONJ,ar,A2,6,keep,clean
+309,وقت,time,时间,NOUN,ar,A2,7,keep,clean
+467,يعني,I mean,意思是,PART,ar,A2,8,keep,clean
+324,منع,to forbid,禁止,VERB,ar,A2,9,keep,clean
+129,سقف,ceiling,天花板,NOUN,ar,A2,10,keep,clean
+199,عرق,sweat,汗水,NOUN,ar,A2,11,keep,clean
+150,بطانية,blanket,毯子,NOUN,ar,A2,12,keep,clean
+474,مبروك,congratulations,恭喜,INTJ,ar,A2,13,keep,clean
+498,نخلة,palm tree,棕榈树,NOUN,ar,A2,14,keep,clean
+177,صوف,wool,羊毛,NOUN,ar,A2,15,keep,clean
+115,ولادة,birth,出生,NOUN,ar,A2,16,keep,clean
+118,صداقة,friendship,友谊,NOUN,ar,A2,17,keep,clean
+246,عند,at,在,ADP,ar,A2,18,keep,clean
+472,إلا,if,如果,SCONJ,ar,A2,19,keep,clean
+287,نادل,waiter,服务员,NOUN,ar,A2,20,keep,clean
+386,غرق,to drown / to sink,淹没 / 沉没,VERB,ar,A2,21,keep,clean
+292,أحياناً,sometimes,有时,ADV,ar,A2,22,keep,clean
+251,حجز,booking,预订,NOUN,ar,A2,23,keep,clean

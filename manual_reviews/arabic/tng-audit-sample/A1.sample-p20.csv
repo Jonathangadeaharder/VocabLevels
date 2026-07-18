@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-412,لا,no,不,PART,ar,A1,1,keep,clean
-469,مَاكِنَة,machine,机器,NOUN,ar,A1,2,keep,clean
-72,ثلج,snow,雪,NOUN,ar,A1,3,keep,clean
-252,شكرا,thank you,谢谢,INTJ,ar,A1,4,keep,clean
-507,هرب,run away/fled,逃跑,VERB,ar,A1,5,keep,clean
-69,ثانية,second,秒,NOUN,ar,A1,6,keep,clean
-20,خارج,outside,外面,ADV,ar,A1,7,keep,clean
-225,سلم,peace,和平,NOUN,ar,A1,8,keep,clean
-12,باب,door,门,NOUN,ar,A1,9,keep,clean
-308,ظفر,nail,指甲,NOUN,ar,A1,10,keep,clean
-262,صاحب,friend (male),朋友 (男),NOUN,ar,A1,11,keep,clean
-456,طَمَاطِم,tomato,番茄,NOUN,ar,A1,12,keep,clean
-188,رُكْبَة,knee,膝盖,NOUN,ar,A1,13,keep,clean
-39,بوليس,police,警察,NOUN,ar,A1,14,keep,clean
-415,أمس,yesterday,昨天,NOUN,ar,A1,15,keep,clean
-256,ما,what,什么,PRON,ar,A1,16,keep,clean
-505,تلك,that (feminine),那个,DET,ar,A1,17,keep,clean
-208,قَلَم,pen,钢笔,NOUN,ar,A1,18,keep,clean
-282,ضحك,laugh,笑,VERB,ar,A1,19,keep,clean
-153,داخل,inside,里面,ADP,ar,A1,20,keep,clean
-181,رِحْلَة,journey,旅行,NOUN,ar,A1,21,keep,clean
-219,ساكت,silent/quiet,安静的,ADJ,ar,A1,22,keep,clean
-207,سِتَّة,six,六,NUM,ar,A1,23,keep,clean
-419,لعب,play,玩,VERB,ar,A1,24,keep,clean
+477,ميكانيكي,mechanic,机械师,NOUN,ar,A1,1,keep,clean
+492,نعم,yes,是,INTJ,ar,A1,2,keep,clean
+45,تحت,under,在...下,ADP,ar,A1,3,keep,clean
+403,كِلَا,both,两者,DET,ar,A1,4,keep,clean
+261,صاحبة,friend (female),朋友 (女),NOUN,ar,A1,5,keep,clean
+239,كم,how much,多少,PRON,ar,A1,6,keep,clean
+412,لاجئ,refugee,难民,NOUN,ar,A1,7,keep,clean
+228,سوق,market,市场,NOUN,ar,A1,8,keep,clean
+208,سَحَاب,cloud,云,NOUN,ar,A1,9,keep,clean
+118,حل,solve,解决,VERB,ar,A1,10,keep,clean
+299,طلب,request,请求,VERB,ar,A1,11,keep,clean
+215,سفر,travel,旅行,NOUN,ar,A1,12,keep,clean
+410,لا,no,不,PART,ar,A1,13,keep,clean
+481,ناموسية,mosquito net,蚊帐,NOUN,ar,A1,14,keep,clean
+62,تمانية,eight,八,NUM,ar,A1,15,keep,clean
+71,ثلج,snow,雪,NOUN,ar,A1,16,keep,clean
+262,كاف,enough/okay,足够/好的,ADJ,ar,A1,17,keep,clean
+131,خالة,maternal aunt,姨妈,NOUN,ar,A1,18,keep,clean
+355,جبن,cheese,奶酪,NOUN,ar,A1,19,keep,clean
+49,تريكو,sweater/knitwear,毛衣,NOUN,ar,A1,20,keep,clean
+325,عصير,juice,果汁,NOUN,ar,A1,21,keep,clean
+19,بدأ,start,开始,VERB,ar,A1,22,keep,clean
+409,كيف,how,如何,ADV,ar,A1,23,keep,clean
+458,مِلْعَقَة,spoon,勺子,NOUN,ar,A1,24,keep,clean

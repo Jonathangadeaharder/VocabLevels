@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-273,beslut,decision,决定,NOUN,sv,A2,1,keep,clean
-227,vilken,which,哪个,DET,sv,A2,2,keep,clean
-15,genom,through,通过,ADP,sv,A2,3,keep,clean
-110,ner,down,向下,ADV,sv,A2,4,keep,clean
-79,kunna,can,能,AUX,sv,A2,5,keep,clean
-221,varandra,each other,互相,PRON,sv,A2,6,keep,clean
-286,bryta,break,打破,VERB,sv,A2,7,keep,clean
-28,helt,completely,完全地,ADV,sv,A2,8,keep,clean
-263,antingen,either,要么,CCONJ,sv,A2,9,keep,clean
-77,krig,war,战争,NOUN,sv,A2,10,keep,clean
-246,advokat,lawyer,律师,NOUN,sv,A2,11,keep,clean
-299,diskutera,discuss,讨论,VERB,sv,A2,12,keep,clean
-288,bröllop,wedding,婚礼,NOUN,sv,A2,13,keep,clean
-159,självklart,of course,当然,ADV,sv,A2,14,keep,clean
-177,stanna,stay,停留,VERB,sv,A2,15,keep,clean
-7,förrän,until,直到,SCONJ,sv,A2,16,keep,clean
-206,typ,type/like,类型/比如,NOUN,sv,A2,17,keep,clean
-277,besök,visit,访问,NOUN,sv,A2,18,keep,clean
-154,ses,see you,再见,VERB,sv,A2,19,keep,clean
-173,snäll,kind,善良的,ADJ,sv,A2,20,keep,clean
-223,varsågod,here you go,请,INTJ,sv,A2,21,keep,clean
-88,lite,a little,一点,ADV,sv,A2,22,keep,clean
-153,sent,late,晚地,ADV,sv,A2,23,keep,clean
+152,senaste,latest,最新的,ADJ,sv,A2,1,keep,clean
+256,andas,breathe,呼吸,VERB,sv,A2,2,keep,clean
+299,diskutera,discuss,讨论,VERB,sv,A2,3,keep,clean
+57,ingen,no,没有,DET,sv,A2,4,keep,clean
+34,herregud,oh my god,我的天,INTJ,sv,A2,5,keep,clean
+290,byggnad,building,建筑物,NOUN,sv,A2,6,keep,clean
+99,medan,while,当...时,SCONJ,sv,A2,7,keep,clean
+263,antingen,either,要么,CCONJ,sv,A2,8,keep,clean
+214,ursäkta,excuse,原谅,VERB,sv,A2,9,keep,clean
+183,synd,shame/pity,遗憾,NOUN,sv,A2,10,keep,clean
+221,varandra,each other,互相,PRON,sv,A2,11,keep,clean
+188,så,so/thus,所以/如此,ADV,sv,A2,12,keep,clean
+35,historia,history/story,历史/故事,NOUN,sv,A2,13,keep,clean
+179,stund,moment,片刻,NOUN,sv,A2,14,keep,clean
+236,ändå,yet,仍然,ADV,sv,A2,15,keep,clean
+307,död,death,死亡,NOUN,sv,A2,16,keep,clean
+141,roll,role,角色,NOUN,sv,A2,17,keep,clean
+36,hit,here/hither,这里/到这里,ADV,sv,A2,18,keep,clean
+289,bygga,build,建造,VERB,sv,A2,19,keep,clean
+135,redan,already,已经,ADV,sv,A2,20,keep,clean
+185,säker,surely/safe,肯定地,ADV,sv,A2,21,keep,clean
+160,ska,will/shall,将要/会,AUX,sv,A2,22,keep,clean
+107,mot,against,反对,ADP,sv,A2,23,keep,clean
