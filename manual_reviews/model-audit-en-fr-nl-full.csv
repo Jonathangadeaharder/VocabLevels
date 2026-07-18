@@ -1,0 +1,22 @@
+lang,level,csv_line,lemma,english_lemma,chinese_lemma,upos,severity,issue,suggested_lemma,suggested_english_lemma,suggested_chinese_lemma,suggested_upos
+en,B1,46,assault,assault,袭击,NOUN,review,potentially sensitive (assault/attack) for B1; verify core status or move to B2+,,,
+en,B1,226,damn,damn,该死的,ADJ,review,mildly offensive/slang "damn" as ADJ in B1; consider reclassification or higher level,,,
+en,B1,531,naked,naked,裸体的,ADJ,review,sensitive (naked/nudity) for B1; verify appropriateness or move higher,,,
+en,B1,651,rape,rape,强奸,NOUN,review,highly sensitive/offensive (rape) in B1; strongly recommend C1+ or removal unless justified,,,
+en,B1,725,sexy,sexy,性感的,ADJ,review,borderline sensitive (sexy) for B1; verify if core learner vocab or move higher,,,
+nl,B1,69,°,degree,度,NOUN,drop,garbage/non-word entry (degree symbol); not a valid lexical lemma (likely meant "graad"),,,
+nl,B2,593,minimaal,minimal,minimal,ADJ,fix,Chinese gloss is English/Latin leftover instead of Chinese,,最小的,,
+nl,B2,993,verliet,left,离开,VERB,fix,not citation form (past tense instead of infinitive),verlaten,to leave,离开,VERB
+nl,B2,999,bepaalt,determines,决定,VERB,fix,not citation form (finite 3sg instead of infinitive),bepalen,to determine,决定,VERB
+nl,C1,362,verdiende,to deserve,应得,VERB,fix,not citation form (past tense instead of infinitive),verdienen,to deserve,应得,VERB
+nl,C1,365,vormde,to form,形成,VERB,fix,not citation form (past tense instead of infinitive),vormen,to form,形成,VERB
+nl,C1,552,gepaard,accompanied,伴随,VERB,fix,not citation form (participle instead of infinitive; may be phrasal),paren,to accompany / to pair,伴随,VERB
+nl,C1,718,belast,taxed,征税的,VERB,fix,not citation form (finite/participle instead of infinitive),belasten,to tax / to burden,征税,VERB
+nl,C1,1049,leve,long live,万岁,VERB,fix,not citation form (imperative/subjunctive instead of infinitive; phrase-like),leven,to live,万岁,VERB
+nl,C1,1264,d'r,her,她的,PRON,review,dialectal/contracted form ("d'r" for "haar"); not standard citation form for learner list,,,
+nl,C1,1371,verstuurd,sent,发送的,VERB,fix,not citation form (participle instead of infinitive),versturen,to send,发送,VERB
+nl,C1,2025,beoordeeld,beoordelen,评估,VERB,fix,not citation form (participle) + english_lemma is Dutch word (generation error),beoordelen,to assess,评估,VERB
+nl,C1,2026,berekend,berekenen,计算,VERB,fix,not citation form (participle) + english_lemma is Dutch word (generation error),berekenen,to calculate,计算,VERB
+nl,C1,2030,blootgesteld,blootstellen,暴露,VERB,fix,not citation form (participle) + english_lemma is Dutch word (generation error),blootstellen,to expose,暴露,VERB
+nl,C1,2039,dwingt,dwingen,强迫,VERB,fix,not citation form (finite 3sg) + english_lemma is Dutch word (generation error),dwingen,to force,强迫,VERB
+nl,C1,2044,genoteerd,noteren,记录,VERB,fix,not citation form (participle) + english_lemma is Dutch word (generation error),noteren,to note,记录,VERB
