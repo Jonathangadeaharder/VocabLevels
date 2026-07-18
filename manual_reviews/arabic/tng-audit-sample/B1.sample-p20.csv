@@ -1,25 +1,25 @@
-level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-B1,1,107,edited,مونتاج,editing,剪辑,NOUN,مونتاج|editing||NOUN,keep,clean
-B1,2,532,edited,نوبة,shift,轮班,NOUN,نوبة|shift||NOUN,keep,clean
-B1,3,284,edited,وكالة,agency,机构,NOUN,وكالة|agency||NOUN,keep,clean
-B1,4,713,new_or_renamed,مَبْلُول,wet,湿的,ADJ,,keep,clean
-B1,5,762,new_or_renamed,اختبأ,to hide,隐藏,VERB,,keep,clean
-B1,6,273,edited,جمعية,association,协会,NOUN,جمعية|association||NOUN,keep,clean
-B1,7,264,edited,درب,alley,小巷,NOUN,درب|alley||NOUN,keep,clean
-B1,8,423,new_or_renamed,ناضِج,mature,成熟的,ADJ,,keep,clean
-B1,9,461,edited,باكالوريا,baccalaureate,高中毕业会考,NOUN,باكالوريا|baccalaureate||NOUN,keep,clean
-B1,10,698,new_or_renamed,وَضَّبَ,to tidy,整理,VERB,,keep,clean
-B1,11,70,edited,معرض,exhibition,展览,NOUN,معرض|exhibition||NOUN,keep,clean
-B1,12,227,edited,بلوط,oak,橡树,NOUN,بلوط|oak||NOUN,keep,clean
-B1,13,783,pos_or_key_changed,بلدي,local,本地的,ADJ,بلدي|local/homegrown||VERB,keep,clean
-B1,14,372,edited,ثقة,trust,信任,NOUN,ثقة|trust||NOUN,keep,clean
-B1,15,378,edited,موقف,stance,立场,NOUN,موقف|stance||NOUN,keep,clean
-B1,16,468,pos_or_key_changed,نطق,pronunciation,发音,NOUN,نطق|pronunciation||VERB,keep,clean
-B1,17,454,edited,اختبار,test,测试,NOUN,اختبار|test||NOUN,keep,clean
-B1,18,709,new_or_renamed,فَايِق,awake,醒着的,ADJ,,fix,Dialectal (awake); MSA would be مستيقظ. Policy flag for dialect.
-B1,19,323,edited,قرصنة,hacking,黑客攻击,NOUN,قرصنة|hacking||NOUN,keep,clean
-B1,20,511,edited,حداد,blacksmith,铁匠,NOUN,حداد|blacksmith||NOUN,keep,clean
-B1,21,593,edited,تأمين,insurance,保险,NOUN,تأمين|insurance||NOUN,keep,clean
-B1,22,515,edited,فقيه,religious scholar,宗教学者,NOUN,فقيه|religious scholar||NOUN,keep,clean
-B1,23,168,edited,فروسية,equestrianism,马术,NOUN,فروسية|horse riding||NOUN,keep,clean
-B1,24,738,edited,شاقور,axe,斧头,NOUN,شاقور|axe||NOUN,keep,clean
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+ar,B1,1,70,ثقافة,culture,文化,NOUN,keep,clean
+ar,B1,2,312,بطارية,battery,电池,NOUN,keep,clean
+ar,B1,3,795,كريم,cream,乳霜,NOUN,keep,clean
+ar,B1,4,672,أصحاب,friends,朋友,NOUN,keep,clean
+ar,B1,5,590,أعراض,symptoms,症状,NOUN,keep,clean
+ar,B1,6,150,منتخب,national team,国家队,NOUN,keep,clean
+ar,B1,7,227,بومة,owl,猫头鹰,NOUN,keep,clean
+ar,B1,8,64,قصة,story,故事,NOUN,keep,clean
+ar,B1,9,425,أما,as for,至于,PART,keep,clean
+ar,B1,10,684,سَابَ,to let go,放开,VERB,keep,clean
+ar,B1,11,319,متصفح,browser,浏览器,NOUN,keep,clean
+ar,B1,12,503,مبرمج,programmer,程序员,NOUN,keep,clean
+ar,B1,13,316,صفحة,page,页面,NOUN,keep,clean
+ar,B1,14,260,جنسية,nationality,国籍,NOUN,keep,clean
+ar,B1,15,71,فن,art,艺术,NOUN,keep,clean
+ar,B1,16,355,شك,doubt,怀疑,NOUN,keep,clean
+ar,B1,17,328,نظام,system,系统,NOUN,keep,clean
+ar,B1,18,146,تعادل,draw,平局,NOUN,keep,clean
+ar,B1,19,421,طائِش,reckless,鲁莽的,ADJ,keep,clean
+ar,B1,20,437,رغم,despite,尽管,ADP,keep,clean
+ar,B1,21,531,تعاونية,cooperative,合作社,NOUN,keep,clean
+ar,B1,22,436,كلاهما,both,两者都,DET,keep,clean
+ar,B1,23,435,كيفما,however,无论怎样,ADV,keep,clean
+ar,B1,24,642,حظ,luck,运气,NOUN,keep,clean

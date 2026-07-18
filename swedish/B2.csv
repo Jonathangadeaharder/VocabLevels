@@ -1,1146 +1,990 @@
 Swedish_Lemma,English_Lemma,Chinese_Lemma,POS
-avslöja,reveal,,VERB
-avslöjad,revealed,,ADJ
-avsnitt,episode,,NOUN
-avstängd,closed/disabled,,ADJ
-avstånd,distance,,NOUN
-avundas,envied,,VERB
-avundsjuk,envious/jealous,,ADJ
-axel,shoulder/Axis,,NOUN
-backen,the slope,,NOUN
-bada,bathe,,VERB
-badrummet,the bathroom,,NOUN
-baksidan,the back(side),,NOUN
-bakåt,backward,,ADV
-balkongen,the balcony,,NOUN
-barmhärtighet,mercy,,NOUN
-barnbarn,grandchildren,,NOUN
-barnvakt,babysitter,,NOUN
-bebis,baby,,NOUN
-bedårande,charming,,ADJ
-befinner,is located,,VERB
-befria,liberate,,VERB
-befäl,command,,NOUN
-begrava,bury,,VERB
-begravning,funeral,,NOUN
-begå,commit,,VERB
-behandla,treat,,VERB
-behandling,treatment,,NOUN
-behov,need,,NOUN
-bekant,acquaintance,,ADJ
-bekräfta,confirm,,VERB
-bekräftelse,confirmation,,NOUN
-bekymmer,worries,,NOUN
-bekänna,confess,,VERB
-belöning,reward,,NOUN
-bensin,gasoline,,NOUN
-beroende,dependent/depending,,ADJ
-berättelse,story,,NOUN
-besatt,obsessed,,ADJ
-besegra,defeat,,VERB
-beskyddare,protector,,NOUN
-beställa,order,,VERB
-bestäm,decide,,VERB
-besvär,trouble/bother,,NOUN
-besöka,visit,,VERB
-besökare,visitor,,NOUN
-bete,bait/behavior,,VERB
-beteende,behavior,,NOUN
-betyda,mean,,VERB
-betydelse,meaning,,NOUN
-betyg,grade/certificate,,NOUN
-beundrar,admires,,VERB
-bevara,preserve,,VERB
-beväpnad,armed,,ADJ
-bibeln,the Bible,,NOUN
-big,big,,NOUN
-biljett,ticket,,NOUN
-bio,cinema,,NOUN
-bitch,bitch,,NOUN
-bitti,am,,NOUN
-blanda,mix,,VERB
-blick,look/glance,,NOUN
-blind,blind,,ADJ
-blommor,flowers,,NOUN
-bluff,bluff,,NOUN
-blunda,close eyes,,VERB
-blyg,shy,,ADJ
-blåsa,blow/bladder,,VERB
-blödningen,the bleeding,,NOUN
-boll,ball,,NOUN
-bomb,bomb,,NOUN
-borgen,the bail/bond,,NOUN
-borgmästare,mayor,,NOUN
-bortom,beyond,,ADV
-boss,boss,,NOUN
-botten,the bottom,,NOUN
-bravo,bravo,,NOUN
-brodern,the brother,,NOUN
-brud,bride/girl,,NOUN
-bryggan,the bridge/pier,,NOUN
-bränna,burn,,VERB
-bråk,fight/quarrel,,NOUN
-bråka,argue/fight,,VERB
-bröst,chest/breast,,NOUN
-bud,message/errand,,NOUN
-budget,budget,,NOUN
-byggnad,building,,NOUN
-byrå,desk,,NOUN
-byte,change/exchange,,NOUN
-byxorna,the pants,,NOUN
-bög,gay,,NOUN
-cancer,cancer,,NOUN
-cell,cell,,NOUN
-cent,cent,,NOUN
-champagne,champagne,,NOUN
-check,check,,NOUN
-chffffff,chffffff,,ADV
-chock,shock,,NOUN
-choklad,chocolate,,NOUN
-cia,CIA,,NOUN
-cirka,approximately,,ADV
-civila,civil(pl),,ADJ
-cm,cm,,NOUN
-cool,cool,,ADJ
-da,then/Da,,INTJ
-dans,dance,,NOUN
-data,data,,NOUN
-datorn,the computer,,NOUN
-delta,participate,,VERB
-demon,demon,,NOUN
-deprimerande,depressing,,ADJ
-desperat,desperate,,ADJ
-diamant,diamond,,NOUN
-division,division,,NOUN
-djup,deep,,NOUN
-djupare,deeper,,ADJ
-dock,however/doll,,ADV
-dokument,document,,NOUN
-dold,hidden,,ADJ
-domare,judge,,NOUN
-dotters,daughter's,,NOUN
-drag,feature/drag,,NOUN
-drev,drove/herd,,NOUN
-driva,drive,,VERB
-drottning,queen,,NOUN
-drömma,dream,,VERB
-drömmen,the dream,,NOUN
-dubbelt,double,,ADV
-dussin,dozen,,NOUN
-dygn,24-hour period,,NOUN
-dyka,dive/appear,,VERB
-däck,deck/tire,,NOUN
-därborta,over there,,ADV
-därinne,in there,,ADV
-därute,out there,,ADV
-dåre,fool,,NOUN
-dödad,killed,,ADJ
-dödades,was killed,,VERB
-dödas,be killed,,VERB
-dödats,killed,,VERB
-döende,dying,,ADJ
-dölja,hide,,VERB
-döma,judge/sentence,,VERB
-efteråt,afterwards,,ADV
-egendom,property,,NOUN
-eh,uh,,INTJ
-el,electricity/the,,CCONJ
-elak,mean/evil,,ADJ
-elaka,evil(pl),,ADJ
-elände,misery,,NOUN
-emellan,between,,ADP
-enbart,only,,ADV
-ende,only/sole,,ADJ
-enhet,unit,,NOUN
-enkel,simple,,ADJ
-enorm,enorm,,ADJ
-enormt,enormously,,ADV
-erbjuda,to offer,,VERB
-erbjudande,offer,,NOUN
-erfarenhet,experience,,NOUN
-europa,Europe,,NOUN
-evighet,eternity,,NOUN
-ex,ex,,ADV
-experiment,experiment,,NOUN
-expert,expert,,NOUN
-extremt,extremely,,ADV
-falsk,false,,ADJ
-fantasi,fantasy/imagination,,NOUN
-farsa,farce/dad,,NOUN
-fartyg,vessel/ship,,NOUN
-fascinerande,fascinating,,ADJ
-favorit,favorite,,NOUN
-feber,fever,,NOUN
-fegis,coward,,NOUN
-femte,fifth,,ADJ
-fet,fat,,ADJ
-fiende,enemy,,NOUN
-filma,film,,VERB
-filmer,films,,NOUN
-fingeravtryck,fingerprint,,NOUN
-fingrar,fingers,,NOUN
-finna,find,,VERB
-fitta,pussy,,NOUN
-fjärde,fourth,,ADJ
-flaska,bottle,,NOUN
-flyg,flight,,NOUN
-flygvapnet,the air force,,NOUN
-flykt,escape/flight,,NOUN
-fokusera,focus,,VERB
-for,for/went,,VERB
-formel,formula,,NOUN
-forskare,researcher,,NOUN
-forskning,research,,NOUN
-fotboll,football,,NOUN
-foto,photo,,NOUN
-foton,photos,,NOUN
-framgång,success,,NOUN
-framsteg,progress,,NOUN
-franska,French,,NOUN
-frid,peace,,NOUN
-fritt,freely,,ADV
-främling,stranger,,NOUN
-främmande,foreign/strange,,ADJ
-frågat,asked,,VERB
-fullkomligt,completely,,ADV
-fullständigt,completely,,ADV
-fundera,consider/think,,VERB
-funka,function/work,,VERB
-fuskar,cheats,,VERB
-fy,yuck,,INTJ
-fylla,fill,,VERB
-fälla,trap/fell,,VERB
-färdigt,ready/finished,,ADV
-fånge,prisoner,,NOUN
-föda,food/give birth,,NOUN
-född,born,,ADJ
-följande,following,,ADJ
-följd,consequence,,NOUN
-förbannad,damned/cursed,,ADJ
-förbannat,damn,,ADV
-förbannelse,curse,,NOUN
-förbereda,prepare,,VERB
-förbli,remain,,VERB
-förde,brought/led,,VERB
-fördel,advantage,,NOUN
-förebild,role model,,NOUN
-föredra,prefer,,VERB
-föremål,object,,NOUN
-föreställa,imagine/present,,VERB
-författare,author,,NOUN
-förgöra,destroy,,VERB
-förhandla,negotiate,,VERB
-förhindra,prevent,,VERB
-förhoppningsvis,hopefully,,ADV
-förhör,interrogation/hearing,,NOUN
-förklaring,explanation,,NOUN
-förlorare,loser,,NOUN
-förlust,loss,,NOUN
-förlåtelse,forgiveness,,NOUN
-förmåga,ability,,NOUN
-förmögenhet,fortune/wealth,,NOUN
-förrädare,traitor,,NOUN
-försprång,lead,,NOUN
-förstärkning,reinforcement,,NOUN
-förstörd,destroyed,,ADJ
-försvar,defense,,NOUN
-försvara,defend,,VERB
-försvunnen,missing,,ADJ
-försäkra,assure/insure,,VERB
-förtjusande,delightful,,ADJ
-förtroende,trust,,NOUN
-förvirrad,confused,,ADJ
-förväntade,expected,,ADJ
-förvånad,surprised,,ADJ
-förälskad,in love,,ADJ
-förändra,change,,VERB
-förändring,change,,NOUN
-fötterna,the feet,,NOUN
-galning,lunatic,,NOUN
-gay,gay,,NOUN
-geni,genius,,NOUN
-gest,gesture,,NOUN
-gevär,rifle,,NOUN
-gifter,marries/poisons,,NOUN
-girighet,greed,,NOUN
-gisslan,hostages,,NOUN
-givetvis,of course,,ADV
-gjord,made,,ADJ
-glass,ice cream,,NOUN
-glasögon,glasses,,NOUN
-glädje,joy,,NOUN
-goddag,good day,,NOUN
-godis,candy,,NOUN
-godmorgon,good morning,,NOUN
-godnatt,good night,,NOUN
-gosse,boy,,NOUN
-gottgöra,compensate,,VERB
-grabb,boy,,NOUN
-grann,nearby,,NOUN
-granne,neighbor,,NOUN
-grav,grave,,NOUN
-gripa,arrest/seize,,VERB
-gripande,moving,,ADJ
-grym,cruel/great,,ADJ
-gryningen,the dawn,,NOUN
-gräva,dig,,VERB
-gråt,crying/weep,,NOUN
-gubben,the old man,,NOUN
-gullig,cute,,ADJ
-guvernören,the governor,,NOUN
-gällde,applied/was valid,,VERB
-gäst,guest,,NOUN
-hall,hall,,NOUN
-hals,throat/neck,,NOUN
-halvtimme,half hour,,NOUN
-halvår,half-year,,NOUN
-hamna,end up,,VERB
-handla,shop/be about,,VERB
-handväska,handbag,,NOUN
-hann,reached in time,,VERB
-hata,hate,,VERB
-hatt,hat,,NOUN
-hejdå,bye,,ADV
-helikopter,helicopter,,NOUN
-hemifrån,from home,,ADV
-hemlig,secret,,ADJ
-herrejävlar,good lord,,NOUN
-heta,be called/hot,,VERB
-hey,hey,,NOUN
-high,high,,NOUN
-hinna,have time/manage,,VERB
-historier,stories,,NOUN
-hittills,so far,,ADV
-hitåt,this way,,ADV
-hjälplös,helpless,,ADJ
-hjältar,heroes,,NOUN
-hjärtinfarkt,heart attack,,NOUN
-hmm,hmm,,NOUN
-hopplös,hopeless,,ADJ
-humor,humor,,NOUN
-humör,mood,,NOUN
-hundratals,hundreds,,NOUN
-hurra,hooray,,VERB
-hurså,why,,ADV
-huvudvärk,headache,,NOUN
-hyra,rent/hire,,VERB
-hälsar,greets/sends regards,,VERB
-hämnd,revenge,,NOUN
-häng,hang!,,NOUN
-härinne,in here,,ADV
-härlig,lovely,,ADJ
-häxa,witch,,NOUN
-hållet,the direction,,NOUN
-hård,hard,,ADJ
-höghet,highness,,NOUN
-högst,highest/most,,ADV
-hörni,listen up,,INTJ
-hörru,listen,,NOUN
-icke,not,,PART
-identifiera,identify,,VERB
-identitet,identity,,NOUN
-idiotiska,idiotic,,ADJ
-idén,the idea,,NOUN
-ignorera,ignore,,VERB
-ilska,anger,,NOUN
-immunitet,immunity,,NOUN
-imorse,this morning,,ADV
-imponerad,impressed,,ADJ
-imponerande,impressive,,ADJ
-inatt,last night,,ADV
-inbjudan,invitation,,NOUN
-inbrott,break-in,,NOUN
-indien,India,,PROPN
-ingår,is included,,VERB
-inklusive,including,,ADP
-inlåst,locked in,,ADJ
-innehåller,contains,,VERB
-inre,inner,,ADJ
-inse,realize,,VERB
-insidan,the inside,,NOUN
-inspektör,inspector,,NOUN
-inspelning,recording,,NOUN
-internet,internet,,NOUN
-intervju,interview,,NOUN
-intill,next to,,ADV
-intresse,interest,,NOUN
-inuti,inside,,ADV
-island,Iceland,,NOUN
-it,it,,NOUN
-italien,Italy,,PROPN
-itu,in two,,ADV
-jadå,yes indeed,,INTJ
-jakt,hunt,,NOUN
-jisses,good heavens,,NOUN
-jobbig,tiresome,,ADJ
-jodå,oh yes,,INTJ
-journalist,journalist,,NOUN
-jude,Jew,,NOUN
-judisk,jewish,,ADJ
-juridik,law,,NOUN
-juryn,the jury,,NOUN
-järnvägen,the railway,,NOUN
-jättefin,very nice,,ADJ
-jättekul,great fun,,ADJ
-jävlarna,the devils,,NOUN
-kalifornien,California,,NOUN
-kamera,camera,,NOUN
-kamp,struggle/fight,,NOUN
-kamrat,comrade,,NOUN
-kanon,cannon/great,,NOUN
-kaos,chaos,,NOUN
-kapa,cut,,VERB
-kaptenen,the captain,,NOUN
-karta,map,,NOUN
-katastrof,disaster,,NOUN
-kex,crackers,,NOUN
-kilo,kilo,,NOUN
-kilometer,kilometer,,NOUN
-kina,China,,PROPN
-kissa,pee,,VERB
-klaga,complain,,VERB
-klarat,managed,,VERB
-klient,client,,NOUN
-klippa,cut/clip,,VERB
-kliv,step,,NOUN
-klok,wise/sensible,,ADJ
-klubb,club,,NOUN
-klädd,dressed,,ADJ
-klättra,climb,,VERB
-knark,drugs,,NOUN
-knipa,pinch/predicament,,VERB
-kniv,knife,,NOUN
-knä,knee,,NOUN
-knäpp,crazy/button,,ADJ
-kod,code,,NOUN
-kokain,cocaine,,NOUN
-kollega,colleague,,NOUN
-kommendör,commander,,NOUN
-kommissarie,commissioner,,NOUN
-koncentrera,concentrate,,VERB
-konflikt,conflict,,NOUN
-konst,art,,NOUN
-konstnär,artist,,NOUN
-konto,account,,NOUN
-kontrakt,contract,,NOUN
-kontraktet,the contract,,NOUN
-kopia,copy,,NOUN
-kopp,cup,,NOUN
-koppling,connection,,NOUN
-korkad,stupid,,ADJ
-korrekt,correct,,ADJ
-korridoren,the corridor,,NOUN
-kortet,the card,,NOUN
-kostym,suit,,NOUN
-kram,hug,,NOUN
-krav,requirement/demand,,NOUN
-krigare,warrior,,NOUN
-kring,around,,ADP
-kristus,Christ,,NOUN
-krossa,crush,,VERB
-kula,bullet,,NOUN
-kund,customer,,NOUN
-kunskap,knowledge,,NOUN
-kurs,course,,NOUN
-kust,coast,,NOUN
-kvarter,block,,NOUN
-kvitt,doesn't matter,,ADJ
-kvittar,doesn't matter,,VERB
-kyckling,chicken,,NOUN
-kyrka,church,,NOUN
-käft,jaw/mouth,,NOUN
-källa,source,,NOUN
-känslan,the feeling,,NOUN
-känslig,sensitive,,ADJ
-käre,dear,,NOUN
-kön,sex/queue,,NOUN
-köp,buy!,,NOUN
-körkort,driver's license,,NOUN
-labb,lab,,NOUN
-ladda,load/charge,,VERB
-lady,lady,,NOUN
-lager,layer/storage,,NOUN
-landa,land,,VERB
-lastbil,truck,,NOUN
-led,joint/led,,NOUN
-ledig,free/off,,ADJ
-ledtråd,clue,,NOUN
-leende,smile,,NOUN
-lek,play/game,,NOUN
-len,soft,,NOUN
-lida,suffer,,VERB
-lidande,suffering,,NOUN
-likadant,the same way,,ADV
-likt,like/corpse,,ADV
-lillebror,little brother,,NOUN
-linje,line,,NOUN
-livstid,life sentence,,NOUN
-lngen,none,,NOUN
-lojalitet,loyalty,,NOUN
-lord,lord,,NOUN
-los,los,,NOUN
-lossa,loosen,,VERB
-lurar,tricks/deceives,,NOUN
-lust,desire/joy,,NOUN
-lyckats,succeeded,,VERB
-lyda,obey,,VERB
-lyft,lift,,ADJ
-lysande,brilliant,,ADJ
-läcker,tasty/sleek,,ADJ
-läge,situation,,NOUN
-läger,camp,,NOUN
-läkemedel,medicine,,NOUN
-lämplig,suitable,,ADJ
-längesen,long ago,,ADV
-längs,along,,ADV
-längtar,longs,,VERB
-läppar,lips,,NOUN
-lätta,light/plural,,ADJ
-låda,box,,NOUN
-långsamt,slowly,,ADV
-lås,lock,,NOUN
-låsa,lock,,VERB
-låst,locked,,ADJ
-låten,the song,,NOUN
-löfte,promise,,NOUN
-lögnare,liar,,NOUN
-lös,loose/solve,,ADJ
-lösning,solution,,NOUN
-löst,solved/loose,,ADJ
-ma,ma/but,,NOUN
-madame,madam,,NOUN
-mage,stomach,,NOUN
-majestät,majesty,,NOUN
-mamman,the mom,,NOUN
-mannar,men,,NOUN
-mans,man's,,NOUN
-mardröm,nightmare,,NOUN
-mask,mask/worm,,NOUN
-maskin,machine,,NOUN
-maste,must,,NOUN
-mata,feed,,VERB
-material,material,,NOUN
-mcgee,McGee,,NOUN
-me,me,,NOUN
-medborgare,citizen,,NOUN
-meddela,inform/announce,,VERB
-medel,means/average,,NOUN
-media,media,,NOUN
-medlem,member,,NOUN
-medveten,aware,,ADJ
-medvetslös,unconscious,,ADJ
-mej,me,,INTJ
-mening,sentence/meaning,,NOUN
-mesta,most,,ADJ
-mexiko,Mexico,,NOUN
-midnatt,midnight,,NOUN
-militär,military,,NOUN
-minnet,the memory,,NOUN
-minsann,indeed,,ADV
-mirakel,miracle,,NOUN
-missa,miss,,VERB
-missförstånd,misunderstanding,,NOUN
-misslyckades,failed,,VERB
-misslyckas,fail,,VERB
-misstänka,suspect,,VERB
-miste,lost,,ADV
-mm,mm/hmm,,NOUN
-mod,courage,,NOUN
-modell,model,,NOUN
-modig,brave,,ADJ
-monsieur,sir/Mr,,NOUN
-morbror,uncle,,NOUN
-mors,mother's,,NOUN
-moskva,Moscow,,PROPN
-moster,aunt,,NOUN
-motiv,motive,,NOUN
-motstånd,resistance,,NOUN
-my,my,,INTJ
-myndigheterna,the authorities,,NOUN
-mänsklig,human,,ADJ
-mänskligheten,humanity,,NOUN
-märka,notice/label,,VERB
-märke,brand/sign,,NOUN
-märkt,noticed,,ADJ
-mästare,master/champion,,NOUN
-målning,painting,,NOUN
-mönster,pattern,,NOUN
-mörda,murder,,VERB
-mördad,murdered,,ADJ
-mörk,dark,,ADJ
-mörka,dark(pl),,ADJ
-mörker,darkness,,NOUN
-naken,naked,,ADJ
-narr,fool,,NOUN
-nedför,downward,,ADP
-nivå,level,,NOUN
-njuta,enjoy,,VERB
-noll,zero,,NOUN
-nolla,zero/idiot,,NOUN
-normal,normal,,ADJ
-norr,north,,NOUN
-norra,northern,,ADJ
-norrut,northward,,ADV
-nuförtiden,nowadays,,ADV
-nunna,nun,,NOUN
-nyfiken,curious,,ADJ
-nämna,mention,,VERB
-närmaste,nearest,,ADJ
-närvarande,present,,NOUN
-närvaro,presence,,NOUN
-nåväl,oh well,,ADV
-odödlig,immortal,,ADJ
-oerhört,immensely,,ADV
-officer,officer,,NOUN
-officiellt,officially,,ADV
-offra,sacrifice,,VERB
-offren,the victims,,NOUN
-okänd,unknown,,ADJ
-olja,oil,,NOUN
-olycklig,unhappy,,ADJ
-omständigheter,circumstances,,NOUN
-ond,evil,,ADJ
-ondska,evil,,NOUN
-one,one,,INTJ
-operation,operation,,NOUN
-ordförande,chairman,,NOUN
-ordnat,arranged,,ADJ
-oro,worry,,NOUN
-oroad,worried,,ADJ
-orsaka,cause,,VERB
-orättvist,unfair,,ADJ
-oskadd,unharmed,,ADJ
-oskuld,innocence,,NOUN
-osäker,uncertain,,ADJ
-otrogen,unfaithful,,ADJ
-otrolig,incredible,,ADJ
-otur,bad luck,,NOUN
-ovanför,above,,ADV
-packa,pack,,VERB
-paket,package,,NOUN
-pang,bang,,NOUN
-panik,panic,,NOUN
-pappan,the dad,,NOUN
-pass,pass,,NOUN
-passera,pass,,VERB
-patient,patient,,NOUN
-paus,pause,,NOUN
-penis,penis,,NOUN
-personal,staff,,NOUN
-personlig,personal,,ADJ
-personligen,personally,,ADV
-piller,pill,,NOUN
-pinne,stick,,NOUN
-pinsamt,embarrassing,,ADJ
-pizza,pizza,,NOUN
-placera,place,,VERB
-planerade,planned,,ADJ
-planerat,planned,,ADJ
-planeten,the planet,,NOUN
-plikt,duty,,NOUN
-plocka,pick,,VERB
-plus,plus,,ADV
-plånbok,wallet,,NOUN
-pojk,boy,,NOUN
-polare,buddy/pal,,NOUN
-polarn,buddy/pal,,NOUN
-politik,politics,,NOUN
-politiker,politician,,NOUN
-post,post/mail,,NOUN
-prat,talk,,NOUN
-press,press,,NOUN
-pressa,press,,VERB
-princip,principle,,NOUN
-prins,prince,,NOUN
-prinsessa,princess,,NOUN
-professor,professor,,NOUN
-proffs,professional,,NOUN
-program,program,,NOUN
-projekt,project,,NOUN
-promenad,walk,,NOUN
-prov,test,,NOUN
-präst,priest,,NOUN
-pröva,try/test,,VERB
-pund,pound/pothead,,NOUN
-punkt,point/period,,NOUN
-puss,kiss,,NOUN
-pyjamas,pajamas,,NOUN
-påminna,remind,,VERB
-påverka,affect,,VERB
-rabatt,discount,,NOUN
-rad,line/row,,NOUN
-radio,radio,,NOUN
-radion,the radio,,NOUN
-rapport,report,,NOUN
-rapportera,report,,VERB
-reaktion,reaction,,NOUN
-regel,rule,,NOUN
-regering,government,,NOUN
-rejält,considerably,,ADV
-relation,relationship,,NOUN
-rensa,clean/clear,,VERB
-representerar,represents,,VERB
-res,travel!,,NOUN
-rest,traveled/rested,,NOUN
-reste,traveled/stood up,,VERB
-resultat,result,,NOUN
-resurser,resources,,NOUN
-revolver,revolver,,NOUN
-rida,ride,,VERB
-right,right,,NOUN
-rikedom,wealth,,NOUN
-riktning,direction,,NOUN
-risk,risk,,NOUN
-riskera,risk,,VERB
-rita,draw,,VERB
-ro,rest,,NOUN
-road,amused,,NOUN
-rulla,roll,,VERB
-rumskamrat,roommate,,NOUN
-rutin,routine,,NOUN
-ryggsäck,backpack,,NOUN
-rykte,rumor/reputation,,NOUN
-rykten,rumors,,NOUN
-rymden,space,,NOUN
-rymma,escape,,VERB
-ryssarna,the Russians,,NOUN
-ryssland,Russia,,PROPN
-räcka,reach/suffice,,VERB
-räddar,saves,,VERB
-räddat,saved,,VERB
-räknat,counted,,ADJ
-rättegång,trial,,NOUN
-rättigheter,rights,,NOUN
-rättvisa,justice,,NOUN
-rättvist,fair,,ADJ
-rån,robbery,,NOUN
-rök,smoke,,NOUN
-röka,smoke,,VERB
-rörelse,movement,,NOUN
-rösta,vote,,VERB
-rött,red,,ADJ
-röv,ass,,NOUN
-rövhål,asshole,,NOUN
-samarbeta,cooperate,,VERB
-samband,connection,,NOUN
-samlade,gathered,,ADJ
-samling,collection,,NOUN
-samvete,conscience,,NOUN
-sann,true,,ADJ
-sanna,true(pl),,NOUN
-satsa,bet/invest,,VERB
-scen,scene/stage,,NOUN
-scenen,the scene/stage,,NOUN
-school,school,,NOUN
-schyst,fair/decent,,ADJ
-sekreterare,secretary,,NOUN
-sena,late(pl),,ADJ
-senator,senator,,NOUN
-seriöst,seriously,,ADV
-service,service,,NOUN
-sexig,sexy,,ADJ
-sheriff,sheriff,,NOUN
-shoppa,shop,,VERB
-show,show,,NOUN
-siffror,numbers,,NOUN
-signal,signal,,NOUN
-signera,sign,,VERB
-sikta,aim,,VERB
-singel,single,,NOUN
-sinne,mind/sense,,NOUN
-sistone,lately,,NOUN
-sjukdom,disease,,NOUN
-sjung,sing!,,NOUN
-skadar,hurts/damages,,VERB
-skaka,shake,,VERB
-skam,shame,,NOUN
-skatt,tax/treasure,,NOUN
-skilja,separate/divorce,,VERB
-skilsmässa,divorce,,NOUN
-skinnet,the skin,,NOUN
-skrik,scream,,NOUN
-skrika,scream,,VERB
-skrivbord,desk,,NOUN
-skrämma,scare,,VERB
-skrämmande,frightening,,ADJ
-skräp,rubbish,,NOUN
-skugga,shadow,,NOUN
-skylla,blame,,VERB
-skälla,bark,,VERB
-skämta,joke,,VERB
-skära,cut,,VERB
-skådespelare,actor,,NOUN
-skådespelerska,actress,,NOUN
-skönhet,beauty,,NOUN
-slagsmål,fight,,NOUN
-slaktade,slaughtered,,VERB
-slav,slave,,NOUN
-slita,tear/wear,,VERB
-slogs,fought,,VERB
-slump,chance,,NOUN
-slutligen,finally,,ADV
-slyna,scoundrel,,NOUN
-släkt,relatives,,NOUN
-slänga,throw,,VERB
-slösa,waste,,VERB
-slöseri,waste,,NOUN
-smak,taste/flavor,,NOUN
-smaka,taste,,VERB
-smarta,smart(pl),,ADJ
-smartare,smarter,,ADJ
-snack,talk,,NOUN
-snarare,rather,,ADV
-snett,diagonally,,ADV
-sno,steal,,VERB
-snubbe,guy,,NOUN
-snubben,the guy,,NOUN
-snut,cop,,NOUN
-snygging,good-looking person,,NOUN
-solo,solo,,NOUN
-somna,fall asleep,,VERB
-sorg,sorrow,,NOUN
-sort,kind/sort,,NOUN
-sovrummet,the bedroom,,NOUN
-spanien,Spain,,NOUN
-spanska,Spanish,,NOUN
-spara,save,,VERB
-sparka,kick,,VERB
-sparkad,fired,,ADJ
-spelare,player,,NOUN
-spendera,spend,,VERB
-spion,spy,,NOUN
-spionera,spy,,VERB
-sprida,spread,,VERB
-sprit,liquor,,NOUN
-spränga,blow up,,VERB
-språk,language,,NOUN
-spänn,buck/brace,,NOUN
-spöke,ghost,,NOUN
-spöken,ghosts,,NOUN
-st,street/saint,,NOUN
-stank,stank,,NOUN
-starkt,strongly,,ADV
-start,start,,NOUN
-staten,the state/the government,,NOUN
-stenen,the stone,,NOUN
-stiga,rise,,VERB
-stil,style,,NOUN
-stilig,handsome,,ADJ
-still,still,,NOUN
-stolta,proud(pl),,ADJ
-stolthet,pride,,NOUN
-store,big,,NOUN
-storlek,size,,NOUN
-story,story,,NOUN
-straff,punishment,,NOUN
-strunt,nonsense,,NOUN
-strunta,don't care,,VERB
-stryk,blow/beating,,NOUN
-stråla,beam,,VERB
-strålande,radiant/splendid,,ADJ
-studera,study,,VERB
-stulen,stolen,,ADJ
-stulit,stolen,,VERB
-styra,steer/govern,,VERB
-styrelsen,the board,,NOUN
-städat,cleaned,,ADJ
-stämma,tune/sue/voice,,NOUN
-ständigt,constantly,,ADV
-stängd,closed,,ADJ
-stängt,closed,,ADJ
-störa,disturb,,VERB
-subba,chick,,NOUN
-suga,suck,,VERB
-super,drink/super,,NOUN
-suverän,sovereign,,ADJ
-svaghet,weakness,,NOUN
-svartsjuk,jealous,,ADJ
-svek,betrayed,,NOUN
-svensk,Swedish/Swede,,ADJ
-sverige,Sweden,,PROPN
-svit,suite,,NOUN
-sväng,turn/curve,,NOUN
-svärd,sword,,NOUN
-syd,south,,NOUN
-syfte,purpose,,NOUN
-syn,sight/vision,,NOUN
-syndare,sinner,,NOUN
-system,system,,NOUN
-sällan,rarely,,ADV
-sändare,transmitter,,NOUN
-sänka,lower,,VERB
-säsong,season,,NOUN
-såhär,like this,,ADV
-såja,there now,,INTJ
-såklart,of course,,ADV
-sång,song,,NOUN
-sår,wound,,NOUN
-såra,wound/hurt,,VERB
-sårad,wounded,,ADJ
-såvida,unless,,ADV
-såvitt,as far as,,ADV
-söderut,southward,,ADV
-södra,southern,,ADJ
-sök,search!,,VERB
-sömn,sleep,,NOUN
-söta,sweet/cute(pl),,ADJ
-tacksam,grateful,,ADJ
-talang,talent,,NOUN
-tant,aunt/old woman,,NOUN
-tappa,lose/drop,,VERB
-tavlan,the painting,,NOUN
-teknik,technique/technology,,NOUN
-tekniskt,technically,,ADV
-tennis,tennis,,NOUN
-teori,theory,,NOUN
-territorium,territory,,NOUN
-test,test,,NOUN
-tillbringa,spend time,,VERB
-tillåta,allow,,VERB
-tillåtelse,permission,,NOUN
-ting,thing,,NOUN
-tjuv,thief,,NOUN
-tjänare,servant,,NOUN
-to,to,,INTJ
-toa,toilet,,NOUN
-tok,crazy/lock,,NOUN
-tomma,empty(pl),,ADJ
-tomt,empty/plot,,NOUN
-ton,tone,,NOUN
-torka,dry/wipe,,VERB
-torn,tower,,NOUN
-totalt,totally,,ADV
-trasig,broken,,ADJ
-trick,trick,,NOUN
-trist,sad/dull,,ADJ
-tron,throne,,NOUN
-trott,believed,,ADJ
-trubbel,trouble,,NOUN
-trycka,press,,VERB
-trygg,safe/secure,,ADJ
-träff,meeting/hit,,NOUN
-träna,train/exercise,,VERB
-träning,training,,NOUN
-tråd,thread,,NOUN
-tröttnar,tires,,VERB
-tungan,the tongue,,NOUN
-tuttar,tits,,NOUN
-tvekan,hesitation,,NOUN
-tvivel,doubt,,NOUN
-tvungna,forced(pl),,ADJ
-tvärtom,on the contrary,,ADV
-tvätt,laundry,,NOUN
-tvåan,the number two,,NOUN
-ty,for/because,,CCONJ
-tysk,German,,ADJ
-tyska,German,,NOUN
-tyskarna,the Germans,,NOUN
-tyskland,Germany,,NOUN
-tystnad,silence,,NOUN
-täckmantel,cover/blanket,,NOUN
-tänd,light/ignite!,,ADJ
-tända,light/ignite,,VERB
-tålamod,patience,,NOUN
-uh,uh,,INTJ
-umgicks,socialized,,VERB
-underrättad,informed,,ADJ
-underrättelsetjänsten,intelligence service,,NOUN
-undersöka,investigate,,VERB
-undra,wonder,,VERB
-ungarna,the kids,,NOUN
-ungen,the kid,,NOUN
-uniform,uniform,,NOUN
-union,union,,NOUN
-universum,universe,,NOUN
-universums,of the universe,,NOUN
-uppenbarligen,obviously,,ADV
-uppenbart,obvious,,ADJ
-uppför,up/behaves,,ADV
-uppgift,task/information,,NOUN
-uppleva,experience,,VERB
-upprepa,repeat,,VERB
-uppsats,essay,,NOUN
-uppskatta,appreciate,,VERB
-upptäckt,discovered,,ADJ
-usel,lousy/wicked,,ADJ
-utbildning,education,,NOUN
-utbyte,exchange,,NOUN
-utföra,carry out,,VERB
-utifrån,from outside,,ADV
-utnyttja,exploit,,VERB
-utnyttjade,exploited,,ADJ
-utredning,investigation,,NOUN
-utrustning,equipment,,NOUN
-utrymme,space,,NOUN
-utvald,chosen,,ADJ
-vaka,stay awake,,VERB
-vakt,guard,,NOUN
-vakta,guard,,VERB
-vakter,guards,,NOUN
-vampyr,vampire,,NOUN
-vana,habit,,NOUN
-vanligtvis,usually,,ADV
-vansinne,madness,,NOUN
-varelse,creature,,NOUN
-varifrån,from where,,ADV
-varna,warn,,VERB
-varning,warning,,NOUN
-vars,whose,,PRON
-vd,CEO,,NOUN
-verk,work/opera,,NOUN
-verka,seem/work,,VERB
-verklig,real,,ADJ
-verksamhet,activity/business,,NOUN
-verktyg,tool,,NOUN
-version,version,,NOUN
-video,video,,NOUN
-videon,the video,,NOUN
-vikt,weight,,NOUN
-villig,willing,,ADJ
-villkor,condition,,NOUN
-vilse,astray/lost,,ADV
-vinnare,winner,,NOUN
-virus,virus,,NOUN
-visdom,wisdom,,NOUN
-viss,certain,,ADJ
-vittna,testify,,VERB
-vittne,witness,,NOUN
-vittnesmål,testimony,,NOUN
-von,von,,PROPN
-vuxen,adult,,ADJ
-väck,wake!,,VERB
-väcka,wake,,VERB
-vädret,the weather,,NOUN
-välsignad,blessed,,ADJ
-vänlig,friendly,,ADJ
-vänlighet,kindness,,NOUN
-vännen,the friend,,NOUN
-vänskap,friendship,,NOUN
-vänstra,left(side),,ADJ
-värde,value,,NOUN
-värdelös,worthless,,ADJ
-värst,worst,,ADJ
-väst,west,,NOUN
-växa,grow,,VERB
-våga,dare!,,VERB
-whisky,whisky,,NOUN
-yeah,yeah,,NOUN
-you,you,,NOUN
-ytterligare,further/additional,,ADV
-äh,ah/oh,,INTJ
-älskare,lover,,NOUN
-ämne,subject/topic,,NOUN
-ändrade,changed,,ADJ
-ängel,angel,,NOUN
-äran,the honor,,NOUN
-äventyr,adventure,,NOUN
-ångra,regret,,VERB
-åratal,years,,NOUN
-åsikt,opinion,,NOUN
-åter,again,,ADV
-återgå,return,,VERB
-öh,uh,,INTJ
-öka,increase,,VERB
-öm,tender,,NOUN
-önska,wish,,VERB
-önskan,wish,,NOUN
-öron,ears,,NOUN
-öva,practice,,VERB
-överenskommelse,agreement,,NOUN
-överlevande,survivor,,ADJ
-överlämna,hand over,,VERB
-översatt,translated,,ADJ
-övertala,persuade,,VERB
-övertyga,convince,,VERB
-övertygad,convinced,,ADJ
-aah,aah,,INTJ
-abort,abortion,,NOUN
-absurt,absurd,,ADJ
-accepterade,accepted,,ADJ
-affärsman,businessman,,NOUN
-aggressiv,aggressive,,ADJ
-aha,aha,,INTJ
-akt,act/share,,NOUN
-aktier,shares/stocks,,NOUN
-aktiv,active,,ADJ
-aktivera,activate,,VERB
-aktivitet,activity,,NOUN
-akut,acute/emergency,,ADJ
-alias,alias,,NOUN
-alkoholist,alcoholic,,NOUN
-allergisk,allergic,,ADJ
-allesammans,all of it/that,,ADV
-allians,alliance,,NOUN
-allmän,general,,ADJ
-allmänheten,the public,,NOUN
-amatör,amateur,,NOUN
-ambassaden,the embassy,,NOUN
-ambassadör,ambassador,,NOUN
-amerikanerna,the Americans,,NOUN
-amiral,admiral,,NOUN
-analys,analysis,,NOUN
-analysera,analyze,,VERB
-andarna,the spirits,,NOUN
-andedräkt,breath,,NOUN
-anfalla,attack,,VERB
-ange,state/give,,VERB
-angenämt,pleasantly,,ADJ
-angrepp,attack,,NOUN
-anhängare,supporter/follower,,NOUN
-anhållen,detained,,ADJ
-anka,duck,,NOUN
-anklaga,accuse,,VERB
-anklagad,accused,,ADJ
-anklagade,accused,,VERB
-anklagelser,accusations,,NOUN
-anklagelserna,the accusations,,NOUN
-ankomst,arrival,,NOUN
-anlita,hire,,VERB
-anlitat,hired,,ADJ
-anlände,arrived,,VERB
-anländer,arrives,,VERB
-anlänt,arrived,,ADJ
-anmälan,report,,NOUN
-anmälde,reported,,VERB
-anmält,reported,,VERB
-anonym,anonymous,,ADJ
-anonymt,anonymously,,ADV
-anpassa,adapt,,VERB
-anropa,call,,VERB
-anses,is considered,,VERB
-ansluta,connect,,VERB
-anspråk,claims,,NOUN
-anställa,employ/hire,,VERB
-anställd,employee,,ADJ
-ansvarar,is responsible,,VERB
-ansåg,considered,,VERB
-ansökan,application,,NOUN
-anteckningar,notes,,NOUN
-antibiotika,antibiotics,,NOUN
-antyder,hints/suggests,,VERB
-användbar,useful,,ADJ
-användning,use,,NOUN
-apan,the monkey,,NOUN
-apparaten,the apparatus,,NOUN
-applåd,applause,,NOUN
-apropå,with regard to,,NOUN
-aptit,appetite,,NOUN
-arbetare,worker,,NOUN
-arbetsgivare,employer,,NOUN
-arbetslös,unemployed,,ADJ
-arenan,the arena,,NOUN
-argument,argument,,NOUN
-arrestera,arrest,,VERB
-arresterad,arrested,,ADJ
-arrogant,arrogant,,ADJ
-arsel,ass,,NOUN
-artig,polite,,ADJ
-arv,inheritance,,NOUN
-arvinge,heir,,NOUN
-aska,ashes,,NOUN
-atmosfären,the atmosphere,,NOUN
-attackera,attack,,VERB
-attackerad,attacked,,ADJ
-attityd,attitude,,NOUN
-attraktiv,attractive,,ADJ
-auktoritet,authority,,NOUN
+avslöja,reveal,揭露,VERB
+avsnitt,episode,片段,NOUN
+avstängd,closed/disabled,关闭的/禁用的,ADJ
+avundas,envy,羡慕,VERB
+avundsjuk,envious/jealous,嫉妒的,ADJ
+avundsjuka,envy,嫉妒,NOUN
+bada,bathe,洗澡,VERB
+baksida,back(side),背面,NOUN
+bakåt,backward,向后,ADV
+balkong,balcony,阳台,NOUN
+barmhärtighet,mercy,仁慈,NOUN
+barnbarn,grandchild,孙辈,NOUN
+barnvakt,babysitter,保姆,NOUN
+bedårande,charming,迷人的,ADJ
+befinna,be located,位于,VERB
+befria,liberate,解放,VERB
+befäl,command,指挥,NOUN
+begå,commit,犯下,VERB
+begrava,bury,埋葬,VERB
+begravning,funeral,葬礼,NOUN
+behandla,treat,处理,VERB
+behov,need,需求,NOUN
+bekant,acquaintance,熟人,NOUN
+bekräfta,confirm,确认,VERB
+bekräftelse,confirmation,确认,NOUN
+bekymmer,worry,担忧,NOUN
+bekänna,confess,忏悔,VERB
+belöning,reward,奖励,NOUN
+bensin,gasoline,汽油,NOUN
+beroende,dependent,依赖的,ADJ
+berättelse,story,故事,NOUN
+besatt,obsessed,着迷的,ADJ
+besegra,defeat,击败,VERB
+beskyddare,protector,保护者,NOUN
+beställa,order,订购,VERB
+besvär,trouble,麻烦,NOUN
+besöka,visit,参观,VERB
+besökare,visitor,访客,NOUN
+bete,bait,诱饵,NOUN
+beteende,behavior,行为,NOUN
+betyda,mean,意味着,VERB
+betydelse,meaning,意义,NOUN
+betyg,grade,成绩,NOUN
+beundra,admire,钦佩,VERB
+bevara,preserve,保护,VERB
+beväpnad,armed,武装的,ADJ
+bibliotek,library,图书馆,NOUN
+biljett,ticket,票,NOUN
+bio,cinema,电影院,NOUN
+bitti,early morning,清晨,ADV
+blanda,mix,混合,VERB
+blick,glance,目光,NOUN
+blodtryck,blood pressure,血压,NOUN
+blunda,close eyes,闭眼,VERB
+blyg,shy,害羞的,ADJ
+blåsa,blow,吹,VERB
+blödning,bleeding,出血,NOUN
+borgen,bail,保释,NOUN
+borgmästare,mayor,市长,NOUN
+bortom,beyond,在...之外,ADP
+botten,bottom,底部,NOUN
+brorsa,bro,哥们,NOUN
+brottsplats,crime scene,犯罪现场,NOUN
+brud,bride,新娘,NOUN
+brygga,pier,码头,NOUN
+bränna,burn,燃烧,VERB
+bråk,quarrel,争吵,NOUN
+bråka,quarrel,争吵,VERB
+bröst,chest/breast,胸部/乳房,NOUN
+bud,message/errand,消息/差事,NOUN
+byrå,desk/chest of drawers,写字台/抽屉柜,NOUN
+byte,change/exchange,改变/交换,NOUN
+bög,gay,同性恋者,NOUN
+chock,shock,震惊,NOUN
+choklad,chocolate,巧克力,NOUN
+cirka,approximately,大约,ADV
+cirkus,circus,马戏团,NOUN
+dans,dance,舞蹈,NOUN
+dejting,dating,约会,NOUN
+delta,participate,参加,VERB
+deprimerande,depressing,令人沮丧的,ADJ
+desperat,desperate,绝望的,ADJ
+detalj,detail,细节,NOUN
+diamant,diamond,钻石,NOUN
+djup,deep,深的,ADJ
+djup,depth,深度,NOUN
+djävul,devil,魔鬼,NOUN
+dock,however,然而,ADV
+dokument,document,文件,NOUN
+dold,hidden,隐藏的,ADJ
+domare,judge,法官,NOUN
+domstol,court,法院,NOUN
+drag,feature,特征,NOUN
+driva,drive/herd,驱赶/推动,VERB
+drottning,queen,女王/王后,NOUN
+drömma,dream,做梦,VERB
+dubbel,double,双倍的,ADJ
+dussin,dozen,一打,NOUN
+dygn,24-hour period,昼夜,NOUN
+dyka,dive/appear,潜水/出现,VERB
+däck,deck/tire,甲板/轮胎,NOUN
+därborta,over there,在那里,ADV
+därinne,in there,在那里面,ADV
+därute,out there,在那外面,ADV
+dåre,fool,傻瓜,NOUN
+döende,dying,垂死的,ADJ
+dölja,hide,隐藏,VERB
+döma,judge/sentence,判决/评判,VERB
+efteråt,afterwards,之后,ADV
+egendom,property,财产,NOUN
+el,electricity,电,NOUN
+elak,mean,恶意的,ADJ
+elände,misery,苦难,NOUN
+emellan,between,在...之间,ADP
+enbart,only,仅仅,ADV
+ende,only,唯一的,ADJ
+enhet,unit,单位,NOUN
+enorm,enormous,巨大的,ADJ
+erbjuda,to offer,提供,VERB
+erbjudande,offer,提议,NOUN
+erfarenhet,experience,经验,NOUN
+evighet,eternity,永恒,NOUN
+fakta,fact,事实,NOUN
+falsk,false,错误的,ADJ
+fantasi,imagination,想象力,NOUN
+farmor,paternal grandmother,祖母,NOUN
+farsa,farce,闹剧,NOUN
+fartyg,vessel,船只,NOUN
+fascinerande,fascinating,迷人的,ADJ
+faster,paternal aunt,姑母,NOUN
+favorit,favorite,最爱,NOUN
+feber,fever,发烧,NOUN
+fegis,coward,懦夫,NOUN
+femte,fifth,第五,NUM
+fet,fat,胖的,ADJ
+filma,film,拍摄,VERB
+fingeravtryck,fingerprint,指纹,NOUN
+finna,find,找到,VERB
+fjärde,fourth,第四,ADJ
+flaska,bottle,瓶子,NOUN
+flotta,fleet,舰队,NOUN
+flyg,flight,飞行,NOUN
+flygvapen,air force,空军,NOUN
+flykt,escape,逃跑,NOUN
+fokusera,focus,集中,VERB
+formel,formula,公式,NOUN
+forskare,researcher,研究员,NOUN
+forskning,research,研究,NOUN
+fotboll,football,足球,NOUN
+foto,photo,照片,NOUN
+framgång,success,成功,NOUN
+framsteg,progress,进步,NOUN
+franska,French,法语,NOUN
+frid,peace,和平,NOUN
+fruktansvärd,terrible,可怕的,ADJ
+främling,stranger,陌生人,NOUN
+främmande,foreign/strange,外国的/陌生的,ADJ
+full,full/drunk,满的/醉的,ADJ
+fullkomligt,completely,完全地,ADV
+fullständigt,completely,完全地,ADV
+fundera,consider/think,考虑/思考,VERB
+funka,function/work,运作/起作用,VERB
+fuska,cheat,作弊,VERB
+fy,yuck,呸,INTJ
+fylla,fill,填满,VERB
+fälla,trap/fell,困住/砍倒,VERB
+fält,field,田野/领域,NOUN
+färdighet,skill,技能,NOUN
+fånge,prisoner,囚犯,NOUN
+föda,food/give birth,食物/生育,VERB
+född,born,出生的,ADJ
+följande,following,以下的/接下来的,ADJ
+följd,consequence,后果,NOUN
+förbannad,damned,该死的,ADJ
+förbanna,curse,诅咒,VERB
+förbannelse,curse,诅咒,NOUN
+förbereda,prepare,准备,VERB
+förbjuda,forbid,禁止,VERB
+förbli,remain,保持,VERB
+fördel,advantage,优势,NOUN
+förebild,role model,榜样,NOUN
+föredra,prefer,更喜欢,VERB
+föremål,object,物体,NOUN
+föreställa,imagine,想象,VERB
+författare,author,作者,NOUN
+förgöra,destroy,毁掉,VERB
+förhandla,negotiate,谈判,VERB
+förhindra,prevent,阻止,VERB
+förhoppningsvis,hopefully,希望,ADV
+förhör,interrogation,审讯,NOUN
+förklaring,explanation,解释,NOUN
+förlorare,loser,失败者,NOUN
+förlust,loss,损失,NOUN
+förlåtelse,forgiveness,原谅,NOUN
+förmåga,ability,能力,NOUN
+förmögenhet,wealth,财富,NOUN
+förrädare,traitor,叛徒,NOUN
+försprång,lead,领先,NOUN
+förste,first,第一,ADJ
+förstärkning,reinforcement,加强,NOUN
+förstörd,destroyed,被毁坏的,ADJ
+försvar,defense,防御,NOUN
+försvara,defend,保卫,VERB
+försvunnen,missing,失踪的,ADJ
+försäkra,assure,保证,VERB
+förtjusande,delightful,令人愉快的,ADJ
+förtroende,trust,信任,NOUN
+förvirrad,confused,困惑的,ADJ
+förvånad,surprised,惊讶的,ADJ
+förälskad,in love,恋爱的,ADJ
+förändra,change,改变,VERB
+förändring,change,变化,NOUN
+galning,lunatic,疯子,NOUN
+garderob,wardrobe,衣柜,NOUN
+geni,genius,天才,NOUN
+gest,gesture,手势,NOUN
+gevär,rifle,步枪,NOUN
+girighet,greed,贪婪,NOUN
+gisslan,hostage,人质,NOUN
+givetvis,of course,当然,ADV
+gjord,made,制成的,ADJ
+glass,ice cream,冰淇淋,NOUN
+glasögon,glasses,眼镜,NOUN
+glädje,joy,喜悦,NOUN
+goddag,good day,你好,INTJ
+godis,candy,糖果,NOUN
+godmorgon,good morning,早上好,INTJ
+godnatt,good night,晚安,INTJ
+gosse,boy,男孩,NOUN
+gottgöra,compensate,补偿,VERB
+grad,degree,度,NOUN
+grann,nearby,附近的,ADJ
+granne,neighbor,邻居,NOUN
+grav,grave,坟墓,NOUN
+greve,count,伯爵,NOUN
+gripa,arrest,逮捕,VERB
+gripande,moving,动人的,ADJ
+grym,cruel,残忍的,ADJ
+gryning,dawn,黎明,NOUN
+gräva,dig,挖,VERB
+gråt,crying,哭泣,NOUN
+gubbe,old man,老头,NOUN
+gullig,cute,可爱的,ADJ
+guvernör,governor,州长,NOUN
+gäst,guest,客人,NOUN
+gård,farm/yard,农场,NOUN
+göras,be done,被做,VERB
+haj,shark,鲨鱼,NOUN
+halvtimme,half hour,半小时,NOUN
+halvår,half-year,半年,NOUN
+hamna,end up,最终到达,VERB
+handduk,towel,毛巾,NOUN
+handla,shop/be about,购物,VERB
+handling,action/document,行动,NOUN
+handväska,handbag,手提包,NOUN
+hinna,have time,来得及,VERB
+hata,hate,恨,VERB
+hatt,hat,帽子,NOUN
+heder,honor,荣誉,NOUN
+hejdå,goodbye,再见,INTJ
+helikopter,helicopter,直升机,NOUN
+hemifrån,from home,从家里,ADV
+hemlig,secret,秘密的,ADJ
+herrejävlar,good lord,天哪,INTJ
+heta,be called,名叫,VERB
+hiss,elevator,电梯,NOUN
+hittills,so far,到目前为止,ADV
+hitåt,this way,这边,ADV
+hjälplös,helpless,无助的,ADJ
+hjärtinfarkt,heart attack,心脏病发作,NOUN
+hopplös,hopeless,绝望的,ADJ
+humör,mood,心情,NOUN
+hundratals,hundreds,数百,NUM
+hurra,hooray,万岁,INTJ
+hurså,why,为什么,ADV
+huvudvärk,headache,头痛,NOUN
+hyra,rent,租,VERB
+hämnas,take revenge,报复,VERB
+hämnd,revenge,复仇,NOUN
+härinne,in here,在这里面,ADV
+härlig,lovely,美好的,ADJ
+häxa,witch,女巫,NOUN
+hård,hard,硬的,ADJ
+höghet,highness,殿下,NOUN
+hörni,listen up,听着,INTJ
+hörru,listen,听着,INTJ
+icke,not,不,PART
+identifiera,identify,识别,VERB
+identitet,identity,身份,NOUN
+idiotisk,idiotic,愚蠢的,ADJ
+ignorera,ignore,忽视,VERB
+ilska,anger,愤怒,NOUN
+immunitet,immunity,免疫力,NOUN
+imorse,this morning,今天早上,ADV
+imponerad,impressed,印象深刻的,ADJ
+imponerande,impressive,令人印象深刻的,ADJ
+inatt,last night,昨晚,ADV
+inbjudan,invitation,邀请,NOUN
+inbrott,break-in,入室盗窃,NOUN
+ingå,be included,包含,VERB
+inklusive,including,包括,ADP
+inlåst,locked in,被锁住的,ADJ
+innehålla,contain,包含,VERB
+inre,inner,内部的,ADJ
+insida,inside,内部,NOUN
+inspektör,inspector,检查员,NOUN
+inspelning,recording,录音,NOUN
+intervju,interview,采访,NOUN
+intill,next to,紧靠,ADP
+intresse,interest,兴趣,NOUN
+inuti,inside,在...里面,ADP
+itu,in two,成两半,ADV
+jadå,yes indeed,是的,INTJ
+jakt,hunt,狩猎,NOUN
+jobbig,tiresome,烦人的,ADJ
+jude,Jew,犹太人,NOUN
+judisk,Jewish,犹太的,ADJ
+juridik,law,法律,NOUN
+järnväg,railway,铁路,NOUN
+jävel,devil,混蛋,NOUN
+jävlas,mess around,胡闹,VERB
+kaka,cake,蛋糕,NOUN
+kamp,struggle,斗争,NOUN
+kamrat,comrade,同志,NOUN
+kanon,cannon,大炮,NOUN
+kaos,chaos,混乱,NOUN
+kapa,cut,切断,VERB
+karta,map,地图,NOUN
+katastrof,disaster,灾难,NOUN
+kex,cracker,饼干,NOUN
+kissa,pee,小便,VERB
+kl.,o'clock,点钟,ADV
+klaga,complain,抱怨,VERB
+klient,client,客户,NOUN
+klippa,cut,剪,VERB
+kliv,step,步,NOUN
+klok,wise,明智的,ADJ
+klokt,wisely,明智地,ADV
+klubb,club,俱乐部,NOUN
+klädd,dressed,穿着的,ADJ
+klättra,climb,爬,VERB
+knapp,button,纽扣,NOUN
+knark,drugs,毒品,NOUN
+knipa,pinch,捏,VERB
+kniv,knife,刀,NOUN
+knä,knee,膝盖,NOUN
+knäpp,crazy,疯狂的,ADJ
+kod,code,代码,NOUN
+kokain,cocaine,可卡因,NOUN
+kollega,colleague,同事,NOUN
+kommendör,commander,指挥官,NOUN
+kommissarie,commissioner,专员,NOUN
+komplicerad,complicated,复杂的,ADJ
+koncentrera,concentrate,集中,VERB
+konflikt,conflict,冲突,NOUN
+konst,art,艺术,NOUN
+konstnär,artist,艺术家,NOUN
+kontant,cash,现金,NOUN
+konto,account,账户,NOUN
+kontrakt,contract,合同,NOUN
+kopia,copy,副本,NOUN
+kopp,cup,杯子,NOUN
+koppling,connection,连接,NOUN
+korkad,stupid,愚蠢的,ADJ
+korrekt,correct,正确的,ADJ
+korridor,corridor,走廊,NOUN
+kort,short,短的,ADJ
+kort,card,卡片,NOUN
+kostym,suit,西装,NOUN
+kram,hug,拥抱,NOUN
+krav,requirement,要求,NOUN
+krigare,warrior,战士,NOUN
+kring,around,在…周围,ADP
+krona,crown,王冠,NOUN
+krossa,crush,压碎,VERB
+kula,bullet,子弹,NOUN
+kund,customer,顾客,NOUN
+kunskap,knowledge,知识,NOUN
+kurs,course,课程,NOUN
+kust,coast,海岸,NOUN
+kvart,quarter,一刻钟,NOUN
+kvarter,block,街区,NOUN
+kvitt,irrelevant,无所谓,ADJ
+kvitta,matter,要紧,VERB
+kyckling,chicken,鸡,NOUN
+käft,jaw,颌,NOUN
+källa,source,来源,NOUN
+källare,basement,地下室,NOUN
+känslig,sensitive,敏感的,ADJ
+kön,sex/gender,性别,NOUN
+köp,purchase,购买,NOUN
+körkort,driver's license,驾照,NOUN
+labb,lab,实验室,NOUN
+ladda,load/charge,装载/充电,VERB
+lager,layer/storage,层/仓库,NOUN
+landa,land,降落,VERB
+lastbil,truck,卡车,NOUN
+led,joint,关节,NOUN
+ledig,free/off,空闲的/休假,ADJ
+ledtråd,clue,线索,NOUN
+leende,smile,微笑,NOUN
+lek,play/game,游戏/玩耍,NOUN
+len,soft,柔软的,ADJ
+licens,license,许可证,NOUN
+lida,suffer,受苦,VERB
+lidande,suffering,痛苦,NOUN
+likadana,identical,相同的,ADJ
+likadant,identical,相同的,ADJ
+likt,like,像,ADP
+linje,line,线,NOUN
+livstid,life sentence,无期徒刑,NOUN
+lojalitet,loyalty,忠诚,NOUN
+lokala,local,当地的,ADJ
+los,loose,松的,ADJ
+lossa,unload,卸载,VERB
+lurar,trick,欺骗,VERB
+lust,desire,欲望,NOUN
+lyckligt,happily,快乐地,ADV
+lyda,obey,服从,VERB
+lysande,brilliant,杰出的,ADJ
+läcker,tasty,美味的,ADJ
+läger,camp,营地,NOUN
+läkemedel,medicine,药物,NOUN
+lämplig,suitable,合适的,ADJ
+längs,along,沿着,ADP
+längst,furthest,最远,ADV
+längta,long,渴望,VERB
+läpp,lip,嘴唇,NOUN
+låda,box,盒子,NOUN
+lån,loan,贷款,NOUN
+långsamt,slowly,慢慢地,ADV
+lås,lock,锁,NOUN
+låsa,lock,锁上,VERB
+löfte,promise,承诺,NOUN
+lögnare,liar,说谎者,NOUN
+lösning,solution,解决方案,NOUN
+mage,stomach,胃,NOUN
+majestät,majesty,陛下,NOUN
+mamma,mom,妈妈,NOUN
+mardröm,nightmare,噩梦,NOUN
+mask,worm,虫,NOUN
+maskin,machine,机器,NOUN
+mata,feed,喂,VERB
+medborgare,citizen,公民,NOUN
+meddela,inform,通知,VERB
+medel,means,手段,NOUN
+medlem,member,成员,NOUN
+medveten,aware,意识到的,ADJ
+medvetslös,unconscious,无意识的,ADJ
+mening,sentence,句子,NOUN
+mera,more,更多,ADV
+mest,most,最,ADV
+midnatt,midnight,午夜,NOUN
+militär,military,军事的,ADJ
+miljard,billion,十亿,NUM
+minsann,indeed,确实,ADV
+mirakel,miracle,奇迹,NOUN
+missa,miss,错过,VERB
+missförstånd,misunderstanding,误解,NOUN
+misslyckas,fail,失败,VERB
+missta,mistake,弄错,VERB
+misstänka,suspect,怀疑,VERB
+mitt,middle,中间,NOUN
+mod,courage,勇气,NOUN
+modell,model,模型,NOUN
+moder,mother,母亲,NOUN
+modig,brave,勇敢,ADJ
+morbror,uncle,舅舅,NOUN
+morfar,grandfather,外祖父,NOUN
+moster,maternal aunt,姨母,NOUN
+motiv,motive,动机,NOUN
+motor,engine,发动机,NOUN
+motstånd,resistance,抵抗,NOUN
+mur,wall,墙,NOUN
+my,ant,蚂蚁,NOUN
+myndighet,authority,当局,NOUN
+mänsklig,human,人类的,ADJ
+mänsklighet,humanity,人类,NOUN
+märka,notice,注意到,VERB
+märke,brand,品牌,NOUN
+mästare,master,大师,NOUN
+målning,painting,绘画,NOUN
+mönster,pattern,图案,NOUN
+mörda,murder,谋杀,VERB
+mörk,dark,黑暗的,ADJ
+mörker,darkness,黑暗,NOUN
+mötas,meet,见面,VERB
+nacke,neck,脖子,NOUN
+naken,naked,裸体的,ADJ
+narr,fool,傻瓜,NOUN
+nedför,down,向下,ADP
+nivå,level,水平,NOUN
+njuta,enjoy,享受,VERB
+noll,zero,零,NUM
+nolla,zero out,清零,VERB
+norr,north,北,NOUN
+norra,northern,北方的,ADJ
+norrut,northward,向北,ADV
+nuförtiden,nowadays,如今,ADV
+nunna,nun,修女,NOUN
+nyfiken,curious,好奇的,ADJ
+nä,nah,不,INTJ
+nämna,mention,提及,VERB
+närmaste,nearest,最近的,ADJ
+närvarande,present,出席的,ADJ
+närvaro,presence,出席,NOUN
+nät,net,网,NOUN
+någons,someone's,某人的,PRON
+nåväl,oh well,也罢,INTJ
+odödlig,immortal,不朽的,ADJ
+oerhört,immensely,极其,ADV
+officiell,official,官方的,ADJ
+offra,sacrifice,牺牲,VERB
+oftast,usually,通常,ADV
+ogilla,dislike,不喜欢,VERB
+okänd,unknown,未知的,ADJ
+olja,oil,油,NOUN
+olycklig,unhappy,不快乐的,ADJ
+omständighet,circumstance,情况,NOUN
+ondska,evil,邪恶,NOUN
+ordförande,chairperson,主席,NOUN
+organisation,organization,组织,NOUN
+oro,worry,担忧,NOUN
+oroad,worried,担忧的,ADJ
+orsaka,cause,导致,VERB
+orättvis,unfair,不公平的,ADJ
+oskadd,unharmed,未受伤的,ADJ
+oskuld,innocence,无辜,NOUN
+oskyldig,innocent,无辜地,ADV
+osäker,uncertain,不确定的,ADJ
+otrogen,unfaithful,不忠的,ADJ
+otrolig,incredible,难以置信的,ADJ
+otur,bad luck,厄运,NOUN
+otäck,nasty,令人不快的,ADJ
+ovanför,above,在...上方,ADP
+oviktig,unimportant,不重要的,ADJ
+packa,pack,打包,VERB
+paket,package,包裹,NOUN
+pang,bang,砰,INTJ
+panik,panic,恐慌,NOUN
+pass,passport,护照,NOUN
+passera,pass,经过,VERB
+paus,pause,暂停,NOUN
+personal,staff,员工,NOUN
+personlig,personal,个人的,ADJ
+personligen,personally,亲自地,ADV
+personligt,personal,个人的,ADJ
+piller,pill,药丸,NOUN
+pinne,stick,棍子,NOUN
+pinsam,embarrassing,令人尴尬的,ADJ
+pipa,pipe,管子,NOUN
+placera,place,放置,VERB
+plikt,duty,责任,NOUN
+plocka,pick,采摘,VERB
+plånbok,wallet,钱包,NOUN
+polare,buddy,朋友,NOUN
+politik,politics,政治,NOUN
+politiker,politician,政治家,NOUN
+port,gate,大门,NOUN
+post,mail,邮件,NOUN
+prat,talk,谈话,NOUN
+pressa,press,按压,VERB
+princip,principle,原则,NOUN
+prins,prince,王子,NOUN
+prinsessa,princess,公主,NOUN
+proffs,professional,专业人士,NOUN
+projekt,project,项目,NOUN
+promenad,walk,散步,NOUN
+prov,test,考试,NOUN
+präst,priest,牧师,NOUN
+pröva,try,尝试,VERB
+pund,pound,英镑,NOUN
+punkt,point,点,NOUN
+puss,kiss,吻,NOUN
+pyjamas,pajamas,睡衣,NOUN
+påminna,remind,提醒,VERB
+påverka,affect,影响,VERB
+rabatt,discount,折扣,NOUN
+rad,row,行,NOUN
+raka,shave,刮胡子,VERB
+rapport,report,报告,NOUN
+rapportera,report,报告,VERB
+reaktion,reaction,反应,NOUN
+rejält,considerably,相当大地,ADV
+relation,relationship,关系,NOUN
+rensa,clean,清理,VERB
+representera,represent,代表,VERB
+resultat,result,结果,NOUN
+resurs,resource,资源,NOUN
+rida,ride,骑,VERB
+rikedom,wealth,财富,NOUN
+rike,realm,王国,NOUN
+riktning,direction,方向,NOUN
+riskera,risk,冒风险,VERB
+rita,draw,画,VERB
+ro,rest,休息,NOUN
+road,amused,觉得好笑的,ADJ
+roman,novel,小说,NOUN
+romare,Roman,罗马人,NOUN
+rulla,roll,滚动,VERB
+rumskamrat,roommate,室友,NOUN
+rutin,routine,常规,NOUN
+ryggsäck,backpack,背包,NOUN
+rykte,rumor,传闻,NOUN
+rymma,escape,逃跑,VERB
+rymd,space,太空,NOUN
+ryska,Russian,俄语,NOUN
+ryss,Russian,俄罗斯人,NOUN
+räcka,reach/suffice,够用/伸手够,VERB
+räknas,be counted,被算作,VERB
+rättegång,trial,审判,NOUN
+rättighet,right,权利,NOUN
+rättvisa,justice,正义,NOUN
+rättvis,fair,公平的,ADJ
+rån,robbery,抢劫,NOUN
+rök,smoke,烟,NOUN
+röka,smoke,吸烟,VERB
+rörelse,movement,运动,NOUN
+rösta,vote,投票,VERB
+samarbeta,cooperate,合作,VERB
+samband,connection,联系,NOUN
+samhälle,society,社会,NOUN
+samlas,gather,聚集,VERB
+samling,collection,收集,NOUN
+samvete,conscience,良心,NOUN
+satsa,bet/invest,下注/投资,VERB
+scen,scene/stage,场景/舞台,NOUN
+schysst,fair/decent,公平的/正派的,ADJ
+seger,victory,胜利,NOUN
+sekreterare,secretary,秘书,NOUN
+seriös,serious,严肃的,ADJ
+sexig,sexy,性感的,ADJ
+shoppa,shop,购物,VERB
+siffra,number,数字,NOUN
+signera,sign,签署,VERB
+sikta,aim,瞄准,VERB
+singel,single,单曲,NOUN
+sinne,mind,心智,NOUN
+sistone,recently,最近,ADV
+sjuka,the sick,病人,NOUN
+sjukdom,disease,疾病,NOUN
+sjukt,sick,生病的,ADJ
+skaka,shake,摇晃,VERB
+skam,shame,羞耻,NOUN
+skära,cut,切,VERB
+skatt,tax,税,NOUN
+skilja,separate/divorce,分离/离婚,VERB
+skilsmässa,divorce,离婚,NOUN
+skinna,shine,闪耀,VERB
+skinn,skin/hide,皮肤/皮革,NOUN
+skjuts,ride/lift,搭车,NOUN
+skoj,fun/joke,乐趣/玩笑,NOUN
+sko,shoe,鞋子,NOUN
+skrika,scream,尖叫,VERB
+skrik,scream,尖叫,NOUN
+skrivbord,desk,书桌,NOUN
+skrämma,scare,惊吓,VERB
+skrämmande,frightening,令人害怕的,ADJ
+skräp,rubbish,垃圾,NOUN
+skugga,shadow,阴影,NOUN
+skum,shady/suspicious,可疑的,ADJ
+skylla,blame,责怪,VERB
+skälla,bark/scold,吠/责骂,VERB
+skämmas,be ashamed,感到羞耻,VERB
+skämta,joke,开玩笑,VERB
+skådespelare,actor,演员,NOUN
+skådespelerska,actress,女演员,NOUN
+skönhet,beauty,美丽,NOUN
+slagsmål,fight,斗殴,NOUN
+slakta,slaughter,屠宰,VERB
+slav,slave,奴隶,NOUN
+slita,wear,磨损,VERB
+slott,castle,城堡,NOUN
+slump,chance,偶然,NOUN
+slutligen,finally,最后,ADV
+slyna,scoundrel,无赖,NOUN
+släkt,related,有关系的,ADJ
+slänga,throw,扔,VERB
+slösa,waste,浪费,VERB
+slöseri,waste,浪费,NOUN
+smak,taste,味道,NOUN
+smaka,taste,品尝,VERB
+sms,text message,短信,NOUN
+snack,chat,闲聊,NOUN
+snarare,rather,宁可,ADV
+snett,diagonally,对角地,ADV
+sno,steal,偷,VERB
+snubbe,guy,家伙,NOUN
+snut,cop,警察,NOUN
+snygga,good-looking,好看的,ADJ
+snygging,good-looking person,帅哥/美女,NOUN
+somna,fall asleep,入睡,VERB
+sorg,sorrow,悲伤,NOUN
+sorgligt,sadly,悲伤地,ADV
+spanska,Spanish,西班牙语,NOUN
+spara,save,节省,VERB
+sparka,kick,踢,VERB
+sparkad,fired,被解雇的,ADJ
+speciella,special,特别的,ADJ
+spelare,player,玩家,NOUN
+spendera,spend,花费,VERB
+spion,spy,间谍,NOUN
+spionera,spy,刺探,VERB
+sprida,spread,传播,VERB
+sprit,liquor,烈酒,NOUN
+spränga,blow up,爆炸,VERB
+språk,language,语言,NOUN
+spänna,tighten,拉紧,VERB
+spöke,ghost,鬼魂,NOUN
+stackare,poor devil,可怜虫,NOUN
+staket,fence,栅栏,NOUN
+stank,stink,恶臭,NOUN
+stat,state,国家,NOUN
+stig,path,小径,NOUN
+stiga,rise,上升,VERB
+stil,style,风格,NOUN
+stilig,handsome,英俊的,ADJ
+stolthet,pride,骄傲,NOUN
+storlek,size,尺寸,NOUN
+straff,punishment,惩罚,NOUN
+strunt,nonsense,废话,NOUN
+strunta,not care,不在乎,VERB
+stryk,blow/beating,殴打,NOUN
+stråla,radiate,发光,VERB
+strålande,radiant,辉煌的,ADJ
+ström,current,水流,NOUN
+studera,study,学习,VERB
+stuga,cottage,小屋,NOUN
+stulen,stolen,被偷的,ADJ
+styra,steer,控制,VERB
+styrelse,board,董事会,NOUN
+stämma,sue,起诉,VERB
+ständigt,constantly,不断地,ADV
+stängd,closed,关闭的,ADJ
+störa,disturb,打扰,VERB
+suga,suck,吸,VERB
+suverän,sovereign,主权的,ADJ
+svaghet,weakness,弱点,NOUN
+svartsjuk,jealous,嫉妒的,ADJ
+svek,betrayal,背叛,NOUN
+svensk,Swedish,瑞典的,ADJ
+svit,suite,套房,NOUN
+sväng,turn,转弯,NOUN
+svärd,sword,剑,NOUN
+syd,south,南方,NOUN
+syfte,purpose,目的,NOUN
+syn,sight,视力,NOUN
+syndare,sinner,罪人,NOUN
+sällan,rarely,很少,ADV
+sändare,transmitter,发送器,NOUN
+sänka,lower,降低,VERB
+säsong,season,季节,NOUN
+sång,song,歌,NOUN
+sår,wound,伤口,NOUN
+såra,hurt,伤害,VERB
+sårad,wounded,受伤的,ADJ
+såvida,unless,除非,SCONJ
+såvitt,as far as,就……而言,ADV
+söderut,southward,向南,ADV
+södra,southern,南部的,ADJ
+sök,search,搜索,NOUN
+sömn,sleep,睡眠,NOUN
+söta,sweet,甜的,ADJ
+sött,sweet,甜的,ADJ
+tacksam,grateful,感激的,ADJ
+takten,pace,节奏,NOUN
+talang,talent,天赋,NOUN
+tant,older woman,老妇人,NOUN
+tappa,lose,丢失,VERB
+tavlan,painting,画,NOUN
+teamet,team,团队,NOUN
+teknik,technology,技术,NOUN
+tekniskt,technically,技术上地,ADV
+teori,theory,理论,NOUN
+territorium,territory,领土,NOUN
+terroristerna,terrorists,恐怖分子们,NOUN
+tillbringa,spend,度过,VERB
+tillåta,allow,允许,VERB
+tillåtelse,permission,许可,NOUN
+ting,thing,事物,NOUN
+tips,tip,提示,NOUN
+tjuv,thief,小偷,NOUN
+tjänare,servant,仆人,NOUN
+toa,toilet,厕所,NOUN
+tas,be taken,被拿走,VERB
+tok,crazy,疯狂的,ADJ
+tomt,plot,地块,NOUN
+ton,tone,语气,NOUN
+torka,dry,擦干,VERB
+torn,tower,塔,NOUN
+totalt,totally,完全,ADV
+trasig,broken,破碎的,ADJ
+trist,dull,无聊的,ADJ
+trivas,thrive,过得舒适,VERB
+tron,throne,王座,NOUN
+trubbel,trouble,麻烦,NOUN
+trycka,press,按,VERB
+trygg,safe/secure,安全的/可靠的,ADJ
+trädgård,garden,花园,NOUN
+träff,meeting/hit,会面/击中,NOUN
+träna,train/exercise,训练/锻炼,VERB
+träning,training,训练,NOUN
+tråd,thread,线,NOUN
+tröttna,tire/get tired,疲倦/厌烦,VERB
+tunga,tongue,舌头,NOUN
+tvekan,hesitation,犹豫,NOUN
+tvingas,be forced,被迫,VERB
+tvivel,doubt,怀疑,NOUN
+tvärtom,on the contrary,相反,ADV
+tvätt,laundry,洗涤/待洗衣物,NOUN
+ty,for/because,因为,CCONJ
+tyda,indicate/interpret,表明/解释,VERB
+tysk,German,德国的/德语的,ADJ
+tyska,German,德语,NOUN
+tysk,German,德国人,NOUN
+tystnad,silence,沉默,NOUN
+täckmantel,cover/blanket,覆盖物,NOUN
+tända,light/ignite,点燃,VERB
+tävling,competition,比赛,NOUN
+tåla,tolerate,忍受,VERB
+tålamod,patience,耐心,NOUN
+tårar,tears,眼泪,NOUN
+ubåt,submarine,潜水艇,NOUN
+underligt,strangely,奇怪地,ADV
+underrättad,informed,被通知的,ADJ
+underrättelsetjänst,intelligence service,情报机构,NOUN
+undersöka,investigate,调查,VERB
+undra,wonder,想知道,VERB
+ungdom,youth,青年,NOUN
+universitet,university,大学,NOUN
+universum,universe,宇宙,NOUN
+uppenbarligen,obviously,显然地,ADV
+uppenbar,obvious,明显的,ADJ
+uppgift,task,任务,NOUN
+uppleva,experience,体验,VERB
+upprepa,repeat,重复,VERB
+uppsats,essay,论文,NOUN
+uppskatta,appreciate,欣赏,VERB
+upptäckt,discovery,发现,NOUN
+usel,lousy,糟糕的,ADJ
+utbildning,education,教育,NOUN
+utbyte,exchange,交流,NOUN
+utföra,carry out,执行,VERB
+utifrån,from,从,ADP
+utnyttja,exploit,利用,VERB
+utredning,investigation,调查,NOUN
+utrustning,equipment,设备,NOUN
+utrymme,space,空间,NOUN
+utvald,selected,选中的,ADJ
+vaka,stay awake,守夜,VERB
+vakt,guard,守卫,NOUN
+vakta,guard,看守,VERB
+vald,chosen,被选择的,ADJ
+vampyr,vampire,吸血鬼,NOUN
+vana,habit,习惯,NOUN
+vanligtvis,usually,通常,ADV
+vansinne,madness,疯狂,NOUN
+varelse,creature,生物,NOUN
+varifrån,from where,从哪里,ADV
+varna,warn,警告,VERB
+varning,warning,警告,NOUN
+vars,whose,谁的,PRON
+vd,CEO,首席执行官,NOUN
+verk,work,作品,NOUN
+verka,seem,似乎,VERB
+verklig,real,真实的,ADJ
+verkligt,really,真正地,ADV
+verksamhet,activity,活动,NOUN
+verktyg,tool,工具,NOUN
+vikt,weight,重量,NOUN
+vild,wild,野生的,ADJ
+villig,willing,愿意的,ADJ
+villkor,condition,条件,NOUN
+vilse,astray,迷路,ADJ
+vinnare,winner,获胜者,NOUN
+visdom,wisdom,智慧,NOUN
+viss,certain,某些,DET
+vittna,testify,作证,VERB
+vittne,witness,证人,NOUN
+vittnesmål,testimony,证词,NOUN
+vuxen,adult,成人,NOUN
+väcka,wake,唤醒,VERB
+välsignad,blessed,受祝福的,ADJ
+vänlig,friendly,友好的,ADJ
+vänlighet,kindness,善良,NOUN
+vänskap,friendship,友谊,NOUN
+vänster,left,左,ADJ
+värde,value,价值,NOUN
+värdelös,worthless,无价值的,ADJ
+väst,west,西,NOUN
+växa,grow,生长,VERB
+våga,dare,敢于,VERB
+yngre,younger,较年轻的,ADJ
+yta,surface,表面,NOUN
+ytterligare,further/additional,进一步的/额外的,ADJ
+ägare,owner,所有者,NOUN
+älskare,lover,情人,NOUN
+ämne,subject/topic,主题/话题,NOUN
+ängel,angel,天使,NOUN
+änka,widow,寡妇,NOUN
+äventyr,adventure,冒险,NOUN
+åklagare,prosecutor,检察官,NOUN
+ångra,regret,后悔,VERB
+åratal,years,数年,NOUN
+åsikt,opinion,意见,NOUN
+åter,again,再次,ADV
+återgå,return,返回,VERB
+öka,increase,增加,VERB
+öm,tender,温柔的,ADJ
+önska,wish,希望,VERB
+önskan,wish,愿望,NOUN
+öron,ears,耳朵,NOUN
+öva,practice,练习,VERB
+överenskommelse,agreement,协议,NOUN
+överlevande,survivor,幸存者,NOUN
+överlämna,hand over,移交,VERB
+övertala,persuade,说服,VERB
+övertyga,convince,使确信,VERB
+övertygad,convinced,确信的,ADJ
+abort,abortion,流产,NOUN
+absurt,absurd,荒谬的,ADJ
+affärsman,businessman,商人,NOUN
+aggressiv,aggressive,具攻击性的,ADJ
+akt,act,行为,NOUN
+aktie,share,股票,NOUN
+aktiv,active,活跃的,ADJ
+aktivera,activate,激活,VERB
+aktivitet,activity,活动,NOUN
+akut,acute,紧急的,ADJ
+akut,emergency room,急诊室,NOUN
+alkoholist,alcoholic,酗酒者,NOUN
+allergisk,allergic,过敏的,ADJ
+alltsammans,all of it,全部,PRON
+allians,alliance,联盟,NOUN
+allmänhet,public,公众,NOUN
+alternativ,alternative,替代方案,NOUN
+amatör,amateur,业余爱好者,NOUN
+ambassad,embassy,大使馆,NOUN
+ambassadör,ambassador,大使,NOUN
+amerikan,American,美国人,NOUN
+amiral,admiral,海军上将,NOUN
+analys,analysis,分析,NOUN
+analysera,analyze,分析,VERB
+andedräkt,breath,呼吸,NOUN
+anfalla,attack,攻击,VERB
+ange,state,陈述,VERB
+angenäm,pleasant,令人愉快的,ADJ
+angrepp,attack,攻击,NOUN
+angripa,attack,攻击,VERB
+anhängare,supporter,支持者,NOUN
+anhålla,detain,拘留,VERB
+anka,duck,鸭子,NOUN
+anklaga,accuse,指控,VERB
+anklagelse,accusation,指控,NOUN
+ankomst,arrival,到达,NOUN
+anlita,hire,雇用,VERB
+anlända,arrive,到达,VERB
+anmälan,report,报告,NOUN
+anonym,anonymous,匿名的,ADJ
+anonymt,anonymously,匿名地,ADV
+anpassa,adapt,适应,VERB
+anropa,call,呼叫,VERB
+ansluta,connect,连接,VERB
+anspråk,claim,要求,NOUN
+anställa,employ,雇用,VERB
+ansvara,be responsible,负责,VERB
+ansökan,application,申请,NOUN
+anteckning,note,笔记,NOUN
+antibiotika,antibiotics,抗生素,NOUN
+antyda,suggest,暗示,VERB
+användbar,useful,有用的,ADJ
+användning,use,使用,NOUN
+apparat,apparatus,设备,NOUN
+applåd,applause,鼓掌,NOUN
+apropå,regarding,关于,ADP
+aptit,appetite,食欲,NOUN
+arbetsgivare,employer,雇主,NOUN
+arbetslös,unemployed,失业的,ADJ
+arrestera,arrest,逮捕,VERB
+arresterad,arrested,被逮捕的,ADJ
+artig,polite,有礼貌的,ADJ
+arv,inheritance,遗产,NOUN
+arvinge,heir,继承人,NOUN
+atmosfär,atmosphere,大气,NOUN
+attackera,attack,攻击,VERB
+attackerad,attacked,被攻击的,ADJ
+attityd,attitude,态度,NOUN
+attraktiv,attractive,有吸引力的,ADJ
+auktoritet,authority,权威,NOUN

@@ -1,25 +1,25 @@
-level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-A1,1,276,pos_or_key_changed,largo,long,长的,ADJ,largo|long||X,keep,clean
-A1,2,438,pos_or_key_changed,raro,strange,奇怪的,ADJ,raro|weird/rare||X,keep,clean
-A1,3,214,pos_or_key_changed,fuego,fire,火,NOUN,fuego|fire||X,keep,clean
-A1,4,112,edited,conocer,to know,认识/了解,VERB,conocer|to know (people/places)||VERB,keep,clean
-A1,5,62,pos_or_key_changed,cabeza,head,头,NOUN,cabeza|head||X,keep,clean
-A1,6,539,pos_or_key_changed,verdadero,true,真实的,ADJ,verdadero|true/real||X,keep,clean
-A1,7,399,pos_or_key_changed,piso,floor,楼层,NOUN,piso|apartment/floor||X,keep,clean
-A1,8,328,edited,morir,die,死,VERB,morir|to die||VERB,keep,clean
-A1,9,204,pos_or_key_changed,falta,lack,缺乏,NOUN,falta|lack/absence||X,keep,clean
-A1,10,432,edited,querer,to want,想要,VERB,querer|to want/love||VERB,keep,clean
-A1,11,349,pos_or_key_changed,nosotros,we,我们,PRON,nosotros|we||X,keep,clean
-A1,12,511,pos_or_key_changed,todavía,still,仍然,ADV,todavía|still||X,keep,clean
-A1,13,504,pos_or_key_changed,temprano,early,早,ADV,temprano|early||X,keep,clean
-A1,14,431,pos_or_key_changed,que,that,那个,SCONJ,que|that/which||ADP,keep,clean
-A1,15,412,pos_or_key_changed,presidente,president,总统,NOUN,presidente|president||X,keep,clean
-A1,16,45,pos_or_key_changed,aún,still,仍然,ADV,aún|still/yet||X,keep,clean
-A1,17,436,pos_or_key_changed,quién,who,谁,PRON,quién|who||X,keep,clean
-A1,18,46,pos_or_key_changed,bajo,low,低,ADJ,bajo|short/low||X,keep,clean
-A1,19,100,pos_or_key_changed,cocina,kitchen,厨房,NOUN,cocina|kitchen||X,keep,clean
-A1,20,149,pos_or_key_changed,después,after,之后,ADV,después|after||X,keep,clean
-A1,21,479,pos_or_key_changed,siempre,always,总是,ADV,siempre|always||X,keep,clean
-A1,22,529,edited,un,a,一个,DET,un|a/one||DET,keep,clean
-A1,23,495,edited,tal,such,这样的,ADJ,tal|such||ADJ,keep,clean
-A1,24,162,pos_or_key_changed,donde,where,哪里,ADV,donde|where||X,keep,clean
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+es,A1,1,535,vale,okay,好的,INTJ,keep,clean
+es,A1,2,238,haber,there is/there are,有,VERB,keep,clean
+es,A1,3,395,pero,but,但是,CCONJ,keep,clean
+es,A1,4,42,ayuda,help,帮助,NOUN,keep,clean
+es,A1,5,389,peor,worse,更糟,ADJ,keep,clean
+es,A1,6,473,servicio,service,服务,NOUN,keep,clean
+es,A1,7,524,triste,sad,悲伤的,ADJ,keep,clean
+es,A1,8,529,un,a,一个,DET,keep,clean
+es,A1,9,303,mano,hand,手,NOUN,keep,clean
+es,A1,10,251,hoy,today,今天,ADV,keep,clean
+es,A1,11,431,que,that,那个,SCONJ,keep,clean
+es,A1,12,390,pequeño,small,小,ADJ,keep,clean
+es,A1,13,231,haber,to have (auxiliary),有,AUX,keep,clean
+es,A1,14,415,principio,beginning,开始,NOUN,keep,clean
+es,A1,15,39,auto,car,汽车,NOUN,keep,clean
+es,A1,16,117,contra,against,反对/靠着,ADP,keep,clean
+es,A1,17,240,hecho,fact,事实,NOUN,keep,clean
+es,A1,18,357,ocho,eight,八,NUM,keep,clean
+es,A1,19,281,libertad,freedom,自由,NOUN,keep,clean
+es,A1,20,150,destino,destination,目的地,NOUN,keep,clean
+es,A1,21,148,desierto,desert,沙漠,NOUN,keep,clean
+es,A1,22,387,pena,pity,遗憾,NOUN,keep,clean
+es,A1,23,85,cena,dinner,晚餐,NOUN,keep,clean
+es,A1,24,462,se,self,自己,PRON,keep,clean

@@ -1,0 +1,25 @@
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+353,nuevo,new,新的,ADJ,es,A1,1,keep,clean
+331,mujer,woman,女人,NOUN,es,A1,2,keep,clean
+318,mi,my,我的,DET,es,A1,3,keep,clean
+531,uno,one,一,NUM,es,A1,4,keep,clean
+139,decir,to say,说,VERB,es,A1,5,keep,clean
+122,cuando,when,当...时,SCONJ,es,A1,6,keep,clean
+392,perdón,sorry,对不起,NOUN,es,A1,7,keep,clean
+416,prisa,hurry,匆忙,NOUN,es,A1,8,keep,clean
+466,seguro,safe,安全的,ADJ,es,A1,9,keep,clean
+499,tanto,so much,这么多,ADV,es,A1,10,keep,clean
+535,vale,okay,好的,INTJ,es,A1,11,keep,clean
+395,pero,but,但是,CCONJ,es,A1,12,keep,clean
+186,entre,between,在...之间,ADP,es,A1,13,keep,clean
+123,cuarto,room,房间,NOUN,es,A1,14,keep,clean
+265,izquierda,left,左,NOUN,es,A1,15,keep,clean
+329,muchacho,boy,男孩,NOUN,es,A1,16,keep,clean
+211,foto,photo,照片,NOUN,es,A1,17,keep,clean
+231,haber,to have (auxiliary),有,AUX,es,A1,18,keep,clean
+452,rey,king,国王,NOUN,es,A1,19,keep,clean
+39,auto,car,汽车,NOUN,es,A1,20,keep,clean
+341,negro,black,黑色的,ADJ,es,A1,21,keep,clean
+7,accidente,accident,事故,NOUN,es,A1,22,keep,clean
+175,ella,she,她,PRON,es,A1,23,keep,clean
+543,vida,life,生活,NOUN,es,A1,24,keep,clean

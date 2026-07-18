@@ -1,0 +1,25 @@
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+de,B2,1,398,Experte,expert,专家,NOUN,keep,clean
+de,B2,2,873,Ozean,ocean,海洋,NOUN,keep,clean
+de,B2,3,705,Korrektur,correction,纠正,NOUN,keep,clean
+de,B2,4,782,Mantel,coat,外套,NOUN,keep,clean
+de,B2,5,415,Festung,fortress,堡垒,NOUN,keep,clean
+de,B2,6,867,Orden,order,勋章,NOUN,keep,clean
+de,B2,7,1305,Wohnwagen,caravan,房车,NOUN,keep,clean
+de,B2,8,620,irgendwer,anyone,任何人,PRON,keep,clean
+de,B2,9,1275,wehe,woe,唉,INTJ,keep,clean
+de,B2,10,372,Erfindung,invention,发明,NOUN,keep,clean
+de,B2,11,1026,Schwäche,weakness,弱点,NOUN,keep,clean
+de,B2,12,1288,wessen,whose,谁的,DET,keep,clean
+de,B2,13,461,füttern,to feed,喂养,VERB,keep,clean
+de,B2,14,1071,Sprung,jump,跳跃,NOUN,keep,clean
+de,B2,15,669,Klient,client,客户,NOUN,keep,clean
+de,B2,16,905,Prinzip,principle,原则,NOUN,keep,clean
+de,B2,17,1055,sowie,as well as,以及,CCONJ,keep,clean
+de,B2,18,805,mittlerweile,meanwhile,同时,ADV,keep,clean
+de,B2,19,824,Nachbar,neighbor,邻居,NOUN,keep,clean
+de,B2,20,221,bezüglich,regarding,关于,ADP,keep,clean
+de,B2,21,1239,Verstärkung,reinforcement,增援,NOUN,keep,clean
+de,B2,22,591,hundert,hundred,一百,NUM,keep,clean
+de,B2,23,1050,sodass,so that,以便,SCONJ,keep,clean
+de,B2,24,525,gewiss,certain,确定的,ADJ,keep,clean

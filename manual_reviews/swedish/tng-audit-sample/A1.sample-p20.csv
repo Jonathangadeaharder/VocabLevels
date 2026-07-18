@@ -1,24 +1,24 @@
-level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-A1,1,442,pos_or_key_changed,åttio,eighty,八十,NUM,åttio|eighty||X,keep,clean
-A1,2,218,edited,läsa,to read,阅读,VERB,läsa|to read||VERB,keep,clean
-A1,3,465,pos_or_key_changed,bo,live,居住,VERB,bo|live||X,keep,clean
-A1,4,350,edited,stänga,to close,关闭,VERB,stänga|to close||VERB,keep,clean
-A1,5,120,pos_or_key_changed,gardin,curtain,窗帘,NOUN,gardin|curtain||X,keep,clean
-A1,6,273,pos_or_key_changed,om,about,关于,ADP,om|about/if||X,keep,clean
-A1,7,454,edited,aning,inkling,一点,NOUN,aning|a bit||NOUN,keep,clean
-A1,8,136,edited,göra,to do,做,VERB,göra|to do/make||VERB,keep,clean
-A1,9,351,pos_or_key_changed,stå,to stand,站立,VERB,stå|to stand||X,keep,clean
-A1,10,130,pos_or_key_changed,grå,grey,灰色的,ADJ,grå|grey||X,keep,clean
-A1,11,474,new_or_renamed,chef,boss/manager,老板/经理,NOUN,,keep,clean
-A1,12,421,edited,vilja,want,想要,VERB,vilja|to want||VERB,keep,clean
-A1,13,270,pos_or_key_changed,och,and,和,CCONJ,och|and||ADP,keep,clean
-A1,14,101,pos_or_key_changed,frukost,breakfast,早餐,NOUN,frukost|breakfast||VERB,keep,clean
-A1,15,316,pos_or_key_changed,skjorta,shirt,衬衫,NOUN,skjorta|shirt||VERB,keep,clean
-A1,16,415,pos_or_key_changed,vecka,week,周,NOUN,vecka|week||VERB,keep,clean
-A1,17,128,pos_or_key_changed,gris,pig,猪,NOUN,gris|pig||X,keep,clean
-A1,18,147,pos_or_key_changed,himmel,sky,天空,NOUN,himmel|sky||X,keep,clean
-A1,19,292,pos_or_key_changed,rum,room,房间,NOUN,rum|room||X,keep,clean
-A1,20,165,pos_or_key_changed,höna,hen,母鸡,NOUN,höna|hen||VERB,keep,clean
-A1,21,476,pos_or_key_changed,del,part,部分,NOUN,del|part||X,keep,clean
-A1,22,38,pos_or_key_changed,bror,brother,兄弟,NOUN,bror|brother||X,keep,clean
-A1,23,6,pos_or_key_changed,andra,others/other,其他,ADJ,andra|others||VERB,fix,Form is plural/determiner 'others'; lemma often annan/ADJ or andra as DET — set UPOS DET or lemma annan.
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+sv,A1,1,121,gata,street,街道,NOUN,keep,clean
+sv,A1,2,492,eftersom,because,因为,SCONJ,keep,clean
+sv,A1,3,224,lön,salary,工资,NOUN,keep,clean
+sv,A1,4,78,ett,one,一,NUM,keep,clean
+sv,A1,5,444,öga,eye,眼睛,NOUN,keep,clean
+sv,A1,6,498,enligt,according to,根据,ADP,keep,clean
+sv,A1,7,464,bevis,proof,证据/证明,NOUN,keep,clean
+sv,A1,8,308,sjuk,sick,生病的,ADJ,keep,clean
+sv,A1,9,252,mössa,hat,帽子,NOUN,keep,clean
+sv,A1,10,453,allvar,seriousness,严重性,NOUN,keep,clean
+sv,A1,11,56,den,it (common),它 (通性),PRON,keep,clean
+sv,A1,12,466,bör,should,应该,AUX,keep,clean
+sv,A1,13,48,båda,both,两者,DET,keep,clean
+sv,A1,14,342,sten,stone,石头,NOUN,keep,clean
+sv,A1,15,14,att,to (infinitive marker),去（不定式标记）,PART,keep,clean
+sv,A1,16,284,regn,rain,雨,NOUN,keep,clean
+sv,A1,17,333,sommar,summer,夏天,NOUN,keep,clean
+sv,A1,18,365,tack,thanks,谢谢,INTJ,keep,clean
+sv,A1,19,335,sova,to sleep,睡觉,VERB,keep,clean
+sv,A1,20,233,men,but,但是,CCONJ,keep,clean
+sv,A1,21,485,dit,there,去那里,ADV,keep,clean
+sv,A1,22,309,sjukhus,hospital,医院,NOUN,keep,clean
+sv,A1,23,246,måla,to paint,画,VERB,keep,clean

@@ -1,25 +1,25 @@
-level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-B1,1,530,pos_or_key_changed,gerente,manager,经理,NOUN,gerente|manager||X,keep,clean
-B1,2,575,pos_or_key_changed,hilo,thread,线,NOUN,hilo|thread||X,keep,clean
-B1,3,520,pos_or_key_changed,gallina,hen,母鸡,NOUN,gallina|hen||X,keep,clean
-B1,4,256,edited,confidencial,confidential,机密的,ADJ,confidencial|confidential||ADJ,keep,clean
-B1,5,313,pos_or_key_changed,cómplice,accomplice,同谋,NOUN,cómplice|accomplice||X,keep,clean
-B1,6,477,edited,fabuloso,fabulous,极好的,ADJ,fabuloso|fabulous||ADJ,keep,clean
-B1,7,592,edited,identificar,identify,识别,VERB,identificar|to identify||VERB,keep,clean
-B1,8,360,pos_or_key_changed,disfraz,disguise,伪装,NOUN,disfraz|costume/disguise||X,keep,clean
-B1,9,295,pos_or_key_changed,crimen,crime,犯罪,NOUN,crimen|crime||X,keep,clean
-B1,10,870,pos_or_key_changed,sello,stamp,邮票,NOUN,sello|stamp||X,keep,clean
-B1,11,938,edited,visitar,visit,访问,VERB,visitar|to visit||VERB,keep,clean
-B1,12,499,pos_or_key_changed,flujo,flow,流动,NOUN,flujo|flow||X,keep,clean
-B1,13,855,pos_or_key_changed,sabio,wise,明智的,ADJ,sabio|wise||X,keep,clean
-B1,14,361,edited,disfrutar,to enjoy,享受,VERB,disfrutar|to enjoy||VERB,keep,clean
-B1,15,809,pos_or_key_changed,producto,product,产品,NOUN,producto|product||X,keep,clean
-B1,16,858,pos_or_key_changed,saco,sack,麻袋,NOUN,saco|sack/jacket||X,keep,clean
-B1,17,428,pos_or_key_changed,escolar,school,学校的,ADJ,escolar|school-related/schoolchild||VERB,keep,clean
-B1,18,254,edited,confesar,to confess,承认,VERB,confesar|to confess||VERB,keep,clean
-B1,19,459,pos_or_key_changed,evento,event,事件,NOUN,evento|event||X,keep,clean
-B1,20,497,edited,flor,flower,花,NOUN,flor|flower||NOUN,keep,clean
-B1,21,302,pos_or_key_changed,cuero,leather,皮革,NOUN,cuero|leather||X,keep,clean
-B1,22,823,pos_or_key_changed,rabia,rage,愤怒,NOUN,rabia|rage/anger||X,keep,clean
-B1,23,432,edited,escritor,writer,作家,NOUN,escritor|writer||NOUN,keep,clean
-B1,24,761,edited,ordenar,to order,整理,VERB,ordenar|to order/organize||VERB,fix,english_lemma only 'to order' misses primary 'to tidy/organize'; Chinese 整理 is better than 订购 sense.
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+es,B1,1,408,enlace,link,链接,NOUN,keep,clean
+es,B1,2,202,cincuenta,fifty,五十,NUM,keep,clean
+es,B1,3,52,ambiente,atmosphere/environment,环境/气氛,NOUN,keep,clean
+es,B1,4,543,grabar,record,录制,VERB,keep,clean
+es,B1,5,585,huella,footprint,脚印,NOUN,keep,clean
+es,B1,6,58,aparato,device,设备/器械,NOUN,keep,clean
+es,B1,7,407,enhorabuena,congratulations,恭喜,INTJ,keep,clean
+es,B1,8,680,localizar,locate,定位,VERB,keep,clean
+es,B1,9,806,prioridad,priority,优先权; 重点,NOUN,keep,clean
+es,B1,10,335,descripción,description,描述,NOUN,keep,clean
+es,B1,11,504,fotografía,photograph,照片,NOUN,keep,clean
+es,B1,12,181,celebración,celebration,庆祝,NOUN,keep,clean
+es,B1,13,70,aquello,that (neutral over there),那个事物,PRON,keep,clean
+es,B1,14,107,ausencia,absence,缺席,NOUN,keep,clean
+es,B1,15,892,superar,to overcome,克服,VERB,keep,clean
+es,B1,16,140,borde,edge,边缘,NOUN,keep,clean
+es,B1,17,610,infancia,childhood,童年,NOUN,keep,clean
+es,B1,18,496,flecha,arrow,箭,NOUN,keep,clean
+es,B1,19,159,candidato,candidate,候选人,NOUN,keep,clean
+es,B1,20,328,desafortunadamente,unfortunately,不幸地,ADV,keep,clean
+es,B1,21,620,inicio,beginning,开始,NOUN,keep,clean
+es,B1,22,635,inusual,unusual,不寻常的,ADJ,keep,clean
+es,B1,23,816,puerto,port,港口,NOUN,keep,clean
+es,B1,24,779,pecado,sin,罪,NOUN,keep,clean

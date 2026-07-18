@@ -1,25 +1,24 @@
-level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-B1,1,360,pos_or_key_changed,sönder,broken,破碎的,ADV,sönder|broken||X,keep,clean
-B1,2,402,pos_or_key_changed,unga,young,年轻的,ADJ,unga|young(pl)||VERB,fix,Plural/weak form of ung; citation lemma ung/ADJ.
-B1,3,482,pos_or_key_changed,ambulans,ambulance,救护车,NOUN,ambulans|ambulance||X,keep,clean
-B1,4,46,new_or_renamed,förfluten,past,过去的,ADJ,,keep,clean
-B1,5,431,new_or_renamed,vit,white,白色的,ADJ,,keep,clean
-B1,6,178,edited,ljuga,lie,撒谎,VERB,ljuga|lie||VERB,keep,clean
-B1,7,374,new_or_renamed,tjej,girl,女孩,NOUN,,keep,clean
-B1,8,472,pos_or_key_changed,al,alder,桤木,NOUN,al|al||X,keep,Alder tree is correct; committed gloss was empty — good add.
-B1,9,3,pos_or_key_changed,exempel,example,例子,NOUN,exempel|example||X,keep,clean
-B1,10,74,pos_or_key_changed,gravid,pregnant,怀孕的,ADJ,gravid|pregnant||X,keep,clean
-B1,11,33,new_or_renamed,fru,wife,妻子,NOUN,,keep,clean
-B1,12,546,pos_or_key_changed,baklänges,backwards,向后,ADV,baklänges|backwards||X,keep,clean
-B1,13,245,edited,oskyldig,innocent,无辜的,ADJ,oskyldig|innocent||ADJ,keep,clean
-B1,14,200,pos_or_key_changed,meddelande,message,消息,NOUN,meddelande|message||VERB,keep,clean
-B1,15,271,new_or_renamed,rum,room,房间,NOUN,,keep,clean
-B1,16,288,new_or_renamed,sekund,second,秒,NOUN,,keep,clean
-B1,17,330,edited,spåra,track,追踪,VERB,spåra|track||VERB,keep,clean
-B1,18,8,pos_or_key_changed,farbror,uncle,叔叔 / 伯伯,NOUN,farbror|uncle||X,keep,clean
-B1,19,445,edited,älska,love,爱,VERB,älska|love||VERB,keep,clean
-B1,20,202,pos_or_key_changed,mil,mile,英里,NOUN,mil|mile||X,keep,clean
-B1,21,275,edited,rätta,correct,纠正,VERB,rätta|correct||VERB,keep,clean
-B1,22,560,pos_or_key_changed,baserad,based,基于,ADJ,baserad|based||X,keep,clean
-B1,23,279,pos_or_key_changed,röst,voice,声音,NOUN,röst|voice||VERB,keep,clean
-B1,24,441,pos_or_key_changed,våld,violence,暴力,NOUN,våld|violence||X,keep,clean
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+sv,B1,1,428,avfyra,fire,开火,VERB,keep,clean
+sv,B1,2,239,självmord,suicide,自杀,NOUN,keep,clean
+sv,B1,3,318,tusentals,thousands,数千,NUM,keep,clean
+sv,B1,4,3,exempel,example,例子,NOUN,keep,clean
+sv,B1,5,317,tusan,damn,该死的,INTJ,keep,clean
+sv,B1,6,74,hot,threat,威胁,NOUN,keep,clean
+sv,B1,7,397,ande,spirit,精神,NOUN,keep,clean
+sv,B1,8,310,trots,despite,尽管,ADP,keep,clean
+sv,B1,9,126,känd,known/famous,著名的/熟悉的,ADJ,keep,clean
+sv,B1,10,347,varken,neither,既不,CCONJ,keep,clean
+sv,B1,11,148,låtsas,pretend,假装,VERB,keep,clean
+sv,B1,12,175,naturligtvis,of course,当然,ADV,keep,clean
+sv,B1,13,455,baksäte,back seat,后座,NOUN,keep,clean
+sv,B1,14,280,styrka,strength,力量,NOUN,keep,clean
+sv,B1,15,255,slappna,relax,放松,VERB,keep,clean
+sv,B1,16,15,film,film/movie,电影,NOUN,keep,clean
+sv,B1,17,106,karl,man,男人,NOUN,keep,clean
+sv,B1,18,82,ifall,if,如果,SCONJ,keep,clean
+sv,B1,19,346,varenda,every,每一个,DET,keep,clean
+sv,B1,20,349,vems,whose,谁的,PRON,keep,clean
+sv,B1,21,330,ungar,kids,孩子,NOUN,keep,clean
+sv,B1,22,277,stopp,stop,停止,NOUN,keep,clean
+sv,B1,23,348,vilja,want,想要,AUX,keep,clean

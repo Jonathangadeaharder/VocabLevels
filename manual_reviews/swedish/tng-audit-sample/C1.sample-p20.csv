@@ -1,0 +1,25 @@
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+sv,C1,1,1548,tipsa,tip,透露,VERB,keep,clean
+sv,C1,2,930,miljontals,millions of,数百万的,NUM,keep,clean
+sv,C1,3,361,föreställning,performance,表演,NOUN,keep,clean
+sv,C1,4,1359,smekmånad,honeymoon,蜜月,NOUN,keep,clean
+sv,C1,5,1136,praktisk,practical,实际的,ADJ,keep,clean
+sv,C1,6,711,knäcka,crack,打破,VERB,keep,clean
+sv,C1,7,1177,ras,race,种族,NOUN,keep,clean
+sv,C1,8,1716,varannan,every other,每隔一个,DET,keep,clean
+sv,C1,9,1161,pundare,addict,瘾君子,NOUN,keep,clean
+sv,C1,10,75,bricka,tray,托盘,NOUN,keep,clean
+sv,C1,11,635,jäkel,devil/bastard,混蛋,NOUN,keep,clean
+sv,C1,12,391,förskott,advance payment,预付款,NOUN,keep,clean
+sv,C1,13,1666,utav,of,的,ADP,keep,clean
+sv,C1,14,1806,äsch,oh well,算了,INTJ,keep,clean
+sv,C1,15,152,denne,he/this one,他/这位,PRON,keep,clean
+sv,C1,16,1155,psykologi,psychology,心理学,NOUN,keep,clean
+sv,C1,17,701,kloster,monastery,修道院,NOUN,keep,clean
+sv,C1,18,1375,småningom,gradually,逐渐地,ADV,keep,clean
+sv,C1,19,1219,rullstol,wheelchair,轮椅,NOUN,keep,clean
+sv,C1,20,1256,sal,hall,大厅,NOUN,keep,clean
+sv,C1,21,234,engelsman,Englishman,英国男人,NOUN,keep,clean
+sv,C1,22,727,kommunist,communist,共产主义者,NOUN,keep,clean
+sv,C1,23,1286,si,if,如果,SCONJ,keep,clean
+sv,C1,24,1263,samt,as well as,以及,CCONJ,keep,clean

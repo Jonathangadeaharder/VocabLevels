@@ -1,25 +1,25 @@
-level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-A1,1,507,edited,هذا,this (masculine),这个,DET,هذا|this (masculine)||DET,keep,clean
-A1,2,460,new_or_renamed,مُعَطَّل,broken,坏的,ADJ,,keep,clean
-A1,3,340,new_or_renamed,متعب,tired,累的,ADJ,,keep,clean
-A1,4,125,edited,حمار,donkey,驴,NOUN,حمار|donkey||NOUN,keep,clean
-A1,5,182,new_or_renamed,رِحْلَة,journey,旅行,NOUN,,keep,clean
-A1,6,12,edited,باب,door,门,NOUN,باب|door||NOUN,keep,clean
-A1,7,203,new_or_renamed,سَهْل,easy,容易的,ADJ,,keep,clean
-A1,8,491,pos_or_key_changed,نسى,forget,忘记,VERB,نسى|forget/forgot||NOUN,keep,clean
-A1,9,373,new_or_renamed,قاسٍ,hard,坚硬的,ADJ,,keep,clean
-A1,10,162,new_or_renamed,طفل,child,孩子,NOUN,,keep,clean
-A1,11,502,new_or_renamed,هذه,this (feminine),这个,DET,,keep,clean
-A1,12,274,pos_or_key_changed,صدر,chest,胸部,NOUN,صدر|chest||VERB,keep,clean
-A1,13,14,pos_or_key_changed,بارد,cold,冷的,ADJ,بارد|cold||NOUN,keep,clean
-A1,14,114,edited,حس,sense,感觉,NOUN,حس|feel/felt||NOUN,fix,english_lemma 'sense' OK as noun; was feel/felt — verify POS NOUN vs VERB أحس.
-A1,15,317,edited,عدل,justice,正义,NOUN,عدل|justice/notary||NOUN,keep,clean
-A1,16,481,edited,ميناء,port/harbor,港口,NOUN,ميناء|port/harbor||NOUN,keep,clean
-A1,17,319,new_or_renamed,ريف,countryside,乡村,NOUN,,keep,clean
-A1,18,34,edited,بلاد,country/land,国家/土地,NOUN,بلاد|country/land||NOUN,keep,clean
-A1,19,519,pos_or_key_changed,واعر,difficult,困难的,ADJ,واعر|cool/awesome/difficult||NOUN,fix,Colloquial Maghrebi/Levantine slang; flag for MSA CEFR policy (keep only if dialect allowed).
-A1,20,168,new_or_renamed,تكلم,speak,说话,VERB,,keep,clean
-A1,21,251,new_or_renamed,أضاء,light up/turn on,点亮/打开,VERB,,keep,clean
-A1,22,108,edited,حدودية,border,边界的,ADJ,حدودية|border point||ADJ,keep,clean
-A1,23,6,edited,ألف,thousand,千,NUM,ألف|thousand||NUM,keep,clean
-A1,24,137,edited,خبز,bread,面包,NOUN,خبز|bread||NOUN,keep,clean
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+ar,A1,1,234,أسبوع,week,周,NOUN,keep,clean
+ar,A1,2,422,هناك,there,那里,ADV,keep,clean
+ar,A1,3,15,باش,in order to,为了,SCONJ,keep,clean
+ar,A1,4,192,أَرُزّ,rice,米饭,NOUN,keep,clean
+ar,A1,5,382,قَرِيب,near,近的,ADJ,keep,clean
+ar,A1,6,230,سحاب,zipper,拉链,NOUN,keep,clean
+ar,A1,7,202,سَاعَة,hour,小时,NOUN,keep,clean
+ar,A1,8,452,مُسَمَّن,msemmen,摩洛哥煎饼,NOUN,keep,clean
+ar,A1,9,253,شكرا,thank you,谢谢,INTJ,keep,clean
+ar,A1,10,213,سد,close,关闭,VERB,keep,clean
+ar,A1,11,440,مدرسة,school,学校,NOUN,keep,clean
+ar,A1,12,468,مَكْتَب,office,办公室,NOUN,keep,clean
+ar,A1,13,60,تلتناش,thirteen,十三,NUM,keep,clean
+ar,A1,14,501,هؤلاء,these,这些,PRON,keep,clean
+ar,A1,15,506,تلك,that (feminine),那个,DET,keep,clean
+ar,A1,16,347,غطاء,blanket,毯子,NOUN,keep,clean
+ar,A1,17,278,صندل,sandal,凉鞋,NOUN,keep,clean
+ar,A1,18,156,ذاق,taste,品尝,VERB,keep,clean
+ar,A1,19,408,كُوَافِير,hairdresser,理发师,NOUN,keep,clean
+ar,A1,20,129,حوت,whale,鲸鱼,NOUN,keep,clean
+ar,A1,21,413,لا,no,不,PART,keep,clean
+ar,A1,22,369,فوق,above,在...上面,ADP,keep,clean
+ar,A1,23,80,جبل,mountain,山,NOUN,keep,clean
+ar,A1,24,53,تفاح,apple,苹果,NOUN,keep,clean

@@ -1,0 +1,24 @@
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+309,troligen,probably,可能,ADV,sv,B1,1,keep,clean
+459,boll,ball,球,NOUN,sv,B1,2,keep,clean
+318,tusentals,thousands,数千,NUM,sv,B1,3,keep,clean
+345,vara,be,是,AUX,sv,B1,4,keep,clean
+108,kasta,throw,扔,VERB,sv,B1,5,keep,clean
+54,gravid,pregnant,怀孕的,ADJ,sv,B1,6,keep,clean
+347,varken,neither,既不,CCONJ,sv,B1,7,keep,clean
+295,tecken,sign,标志,NOUN,sv,B1,8,keep,clean
+254,slag,blow,打击,NOUN,sv,B1,9,keep,clean
+55,grej,thing,东西,NOUN,sv,B1,10,keep,clean
+199,orka,have strength,有力气,VERB,sv,B1,11,keep,clean
+20,framtid,future,未来,NOUN,sv,B1,12,keep,clean
+359,våld,violence,暴力,NOUN,sv,B1,13,keep,clean
+340,utom,except,除了,ADP,sv,B1,14,keep,clean
+244,skepp,ship,船,NOUN,sv,B1,15,keep,clean
+349,vems,whose,谁的,PRON,sv,B1,16,keep,clean
+82,ifall,if,如果,SCONJ,sv,B1,17,keep,clean
+421,avsikt,intention,意图,NOUN,sv,B1,18,keep,clean
+294,tanke,thought,想法,NOUN,sv,B1,19,keep,clean
+346,varenda,every,每一个,DET,sv,B1,20,keep,clean
+93,japp,yep,是的,INTJ,sv,B1,21,keep,clean
+210,pris,price,价格,NOUN,sv,B1,22,keep,clean
+395,ana,suspect,怀疑,VERB,sv,B1,23,keep,clean

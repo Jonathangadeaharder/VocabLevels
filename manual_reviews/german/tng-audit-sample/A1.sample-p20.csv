@@ -1,25 +1,25 @@
-level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-A1,1,52,unchanged,damit,so that,以便,SCONJ,damit|so that|以便|SCONJ,keep,clean
-A1,2,395,unchanged,Essen,food,食物,NOUN,Essen|food|食物|NOUN,keep,clean
-A1,3,15,unchanged,ander,other,其他的,DET,ander|other|其他的|DET,fix,UPOS DET is wrong; citation form is andere/ADJ (or ander- stem). Prefer andere/ADJ.
-A1,4,248,unchanged,Pass,passport,护照,NOUN,Pass|passport|护照|NOUN,keep,clean
-A1,5,412,unchanged,tja,well,好吧,INTJ,tja|well|好吧|INTJ,keep,clean
-A1,6,486,unchanged,Pfirsich,peach,桃子,NOUN,Pfirsich|peach|桃子|NOUN,keep,clean
-A1,7,212,unchanged,Menge,amount,数量,NOUN,Menge|amount|数量|NOUN,keep,clean
-A1,8,109,unchanged,Freund,friend,朋友,NOUN,Freund|friend|朋友|NOUN,keep,clean
-A1,9,213,unchanged,Mensch,person,人,NOUN,Mensch|person|人|NOUN,keep,clean
-A1,10,501,unchanged,ach,oh,啊,INTJ,ach|oh|啊|INTJ,keep,clean
-A1,11,325,unchanged,verlassen,leave,离开,VERB,verlassen|leave|离开|VERB,keep,clean
-A1,12,541,unchanged,silber,silver,银色,ADJ,silber|silver|银色|ADJ,keep,clean
-A1,13,381,unchanged,überall,everywhere,到处,ADV,überall|everywhere|到处|ADV,keep,clean
-A1,14,505,unchanged,sorgen,worry,担心,VERB,sorgen|worry|担心|VERB,keep,clean
-A1,15,471,unchanged,Lineal,ruler,直尺,NOUN,Lineal|ruler|直尺|NOUN,keep,clean
-A1,16,50,unchanged,dafür,for it,为此,ADV,dafür|for it|为此|ADV,keep,clean
-A1,17,171,unchanged,jetzt,now,现在,ADV,jetzt|now|现在|ADV,keep,clean
-A1,18,518,unchanged,Helfer,helper,助手,NOUN,Helfer|helper|助手|NOUN,keep,clean
-A1,19,442,unchanged,Kugelschreiber,ballpoint pen,圆珠笔,NOUN,Kugelschreiber|ballpoint pen|圆珠笔|NOUN,keep,clean
-A1,20,479,unchanged,Wange,cheek,脸颊,NOUN,Wange|cheek|脸颊|NOUN,keep,clean
-A1,21,498,unchanged,Gelenk,joint,关节,NOUN,Gelenk|joint|关节|NOUN,keep,clean
-A1,22,382,unchanged,überhaupt,at all,根本,ADV,überhaupt|at all|根本|ADV,keep,clean
-A1,23,233,unchanged,nie,never,从不,ADV,nie|never|从不|ADV,keep,clean
-A1,24,417,unchanged,zu,too,太,ADV,zu|too|太|ADV,keep,clean
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+de,A1,1,245,Ort,place,地点,NOUN,keep,clean
+de,A1,2,550,zahm,tame,温顺的,ADJ,keep,clean
+de,A1,3,199,Leute,people,人们,NOUN,keep,clean
+de,A1,4,24,Auto,car,汽车,NOUN,keep,clean
+de,A1,5,370,zehn,ten,十,NUM,keep,clean
+de,A1,6,344,was,what,什么,PRON,keep,clean
+de,A1,7,263,Schatz,sweetheart,亲爱的,NOUN,keep,clean
+de,A1,8,272,Schwester,sister,姐妹,NOUN,keep,clean
+de,A1,9,63,denn,because,因为,CCONJ,keep,clean
+de,A1,10,547,pfeifen,to whistle,吹口哨,VERB,keep,clean
+de,A1,11,73,durch,through,通过,ADP,keep,clean
+de,A1,12,498,Gelenk,joint,关节,NOUN,keep,clean
+de,A1,13,161,Idee,idea,主意,NOUN,keep,clean
+de,A1,14,440,Gewitter,thunderstorm,雷阵雨,NOUN,keep,clean
+de,A1,15,503,total,totally,完全地,ADV,keep,clean
+de,A1,16,378,zwar,admittedly,诚然,ADV,keep,clean
+de,A1,17,15,ander,other,其他的,DET,keep,clean
+de,A1,18,231,nicht,not,不,PART,keep,clean
+de,A1,19,481,Schwiegervater,father-in-law,岳父/公公,NOUN,keep,clean
+de,A1,20,176,können,can,能够,AUX,keep,clean
+de,A1,21,32,bereits,already,已经,ADV,keep,clean
+de,A1,22,58,dass,that,（引导从句）,SCONJ,keep,clean
+de,A1,23,480,Rechen,rake,耙子,NOUN,keep,clean
+de,A1,24,501,ach,oh,啊,INTJ,keep,clean

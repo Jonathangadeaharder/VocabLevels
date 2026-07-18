@@ -1,0 +1,25 @@
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+812,ty,for/because,因为,CCONJ,sv,B2,1,keep,clean
+44,betyg,grade,成绩,NOUN,sv,B2,2,keep,clean
+647,skatt,tax,税,NOUN,sv,B2,3,keep,clean
+135,femte,fifth,第五,NUM,sv,B2,4,keep,clean
+410,likt,like,像,ADP,sv,B2,5,keep,clean
+529,oskuld,innocence,无辜,NOUN,sv,B2,6,keep,clean
+936,allmänhet,public,公众,NOUN,sv,B2,7,keep,clean
+706,sprit,liquor,烈酒,NOUN,sv,B2,8,keep,clean
+228,godmorgon,good morning,早上好,INTJ,sv,B2,9,keep,clean
+638,singel,single,单曲,NOUN,sv,B2,10,keep,clean
+968,ansökan,application,申请,NOUN,sv,B2,11,keep,clean
+892,växa,grow,生长,VERB,sv,B2,12,keep,clean
+649,skilsmässa,divorce,离婚,NOUN,sv,B2,13,keep,clean
+142,flotta,fleet,舰队,NOUN,sv,B2,14,keep,clean
+934,alltsammans,all of it,全部,PRON,sv,B2,15,keep,clean
+39,besökare,visitor,访客,NOUN,sv,B2,16,keep,clean
+810,tvärtom,on the contrary,相反,ADV,sv,B2,17,keep,clean
+735,stängd,closed,关闭的,ADJ,sv,B2,18,keep,clean
+320,järnväg,railway,铁路,NOUN,sv,B2,19,keep,clean
+758,såvida,unless,除非,SCONJ,sv,B2,20,keep,clean
+878,viss,certain,某些,DET,sv,B2,21,keep,clean
+144,flygvapen,air force,空军,NOUN,sv,B2,22,keep,clean
+288,icke,not,不,PART,sv,B2,23,keep,clean
+985,atmosfär,atmosphere,大气,NOUN,sv,B2,24,keep,clean

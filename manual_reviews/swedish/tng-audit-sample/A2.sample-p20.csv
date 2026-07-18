@@ -1,24 +1,24 @@
-level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-A2,1,260,pos_or_key_changed,vidare,further,进一步,ADV,vidare|further||X,keep,clean
-A2,2,99,pos_or_key_changed,lite,a little,一点,ADV,lite|a little||X,keep,clean
-A2,3,238,pos_or_key_changed,tvungen,forced,被迫的,ADJ,tvungen|forced||X,keep,clean
-A2,4,135,pos_or_key_changed,nästan,almost,几乎,ADV,nästan|almost||X,keep,clean
-A2,5,140,new_or_renamed,något,something,某事,PRON,,keep,clean
-A2,6,37,pos_or_key_changed,hemskt,terribly,可怕地/非常,ADV,hemskt|terribly||VERB,keep,clean
-A2,7,203,edited,som,as/that/who,如同/那/谁,PRON,som|as/that/who||PRON,keep,clean
-A2,8,52,pos_or_key_changed,härifrån,from here,从这里,ADV,härifrån|from here||X,keep,clean
-A2,9,114,pos_or_key_changed,mer,more,更多,ADJ,mer|more||X,keep,clean
-A2,10,53,edited,hålla,hold,拿,VERB,hålla|hold||VERB,keep,clean
-A2,11,237,pos_or_key_changed,tur,luck/turn,运气/轮次,NOUN,tur|luck/turn||X,keep,clean
-A2,12,56,pos_or_key_changed,ifrån,from,从,ADP,ifrån|from||X,keep,clean
-A2,13,224,pos_or_key_changed,tillräckligt,enough,足够的,ADV,tillräckligt|enough||VERB,keep,clean
-A2,14,326,new_or_renamed,bo,live/reside,居住,VERB,,keep,live/reside is correct.
-A2,15,311,new_or_renamed,ben,leg,腿,NOUN,,keep,clean
-A2,16,133,pos_or_key_changed,nära,near,近的,ADP,nära|near||VERB,keep,clean
-A2,17,219,pos_or_key_changed,så,so/thus,所以/如此,ADV,så|so/thus||X,keep,clean
-A2,18,47,pos_or_key_changed,hos,at,在……处,ADP,hos|at/with||X,keep,clean
-A2,19,39,new_or_renamed,herre,Mr/master,先生/主人,NOUN,,keep,clean
-A2,20,229,pos_or_key_changed,tja,hi,嗨,INTJ,tja|hi||VERB,keep,clean
-A2,21,247,edited,ursäkta,excuse,原谅,VERB,ursäkta|excuse||VERB,keep,clean
-A2,22,234,new_or_renamed,tro,think/believe,认为/相信,VERB,,keep,clean
-A2,23,131,pos_or_key_changed,nog,enough,足够,ADV,nog|probably/enough||X,keep,clean
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+sv,A2,1,165,skulle,would,将会,AUX,keep,clean
+sv,A2,2,201,toppen,top/great,顶部/极好,NOUN,keep,clean
+sv,A2,3,7,förrän,until,直到,SCONJ,keep,clean
+sv,A2,4,44,härifrån,from here,从这里,ADV,keep,clean
+sv,A2,5,5,förlåt,sorry,对不起,INTJ,keep,clean
+sv,A2,6,190,tid,time,时间,NOUN,keep,clean
+sv,A2,7,168,skynda,hurry,匆忙,VERB,keep,clean
+sv,A2,8,132,prata,talk,说话,VERB,keep,clean
+sv,A2,9,301,djur,animal,动物,NOUN,keep,clean
+sv,A2,10,29,hem,home,家/回家,NOUN,keep,clean
+sv,A2,11,57,ingen,no,没有,DET,keep,clean
+sv,A2,12,292,både,both,两者都,CCONJ,keep,clean
+sv,A2,13,84,lägga,put,放,VERB,keep,clean
+sv,A2,14,8,först,first,首先,ADV,keep,clean
+sv,A2,15,231,väldigt,very,非常,ADV,keep,clean
+sv,A2,16,217,ute,out,在外面,ADV,keep,clean
+sv,A2,17,127,oss,us,我们,PRON,keep,clean
+sv,A2,18,80,kvar,left,剩下的,ADV,keep,clean
+sv,A2,19,6,förra,last,上一个,ADJ,keep,clean
+sv,A2,20,182,svar,answer,回答,NOUN,keep,clean
+sv,A2,21,87,lita,trust,信任,VERB,keep,clean
+sv,A2,22,71,kille,guy,男孩,NOUN,keep,clean
+sv,A2,23,209,undan,away,避开,ADP,keep,clean

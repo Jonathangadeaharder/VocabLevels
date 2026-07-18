@@ -1,0 +1,25 @@
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+1753,välgörenhet,charity,慈善,NOUN,sv,C1,1,keep,clean
+1258,salong,salon,沙龙,NOUN,sv,C1,2,keep,clean
+1740,vinka,wave,挥手,VERB,sv,C1,3,keep,clean
+1848,överordnad,superior,上级的,ADJ,sv,C1,4,keep,clean
+1100,parkering,parking,停车,NOUN,sv,C1,5,keep,clean
+63,bortsett,apart from,除了,ADP,sv,C1,6,keep,clean
+1337,skytt,shooter,射手,NOUN,sv,C1,7,keep,clean
+1654,uppror,rebellion,叛乱,NOUN,sv,C1,8,keep,clean
+1716,varannan,every other,每隔一个,DET,sv,C1,9,keep,clean
+1729,vetenskapsmän,scientists,科学家,NOUN,sv,C1,10,keep,clean
+438,godhet,goodness,善良,NOUN,sv,C1,11,keep,clean
+263,fastän,although,尽管,SCONJ,sv,C1,12,keep,clean
+1440,ställning,position,位置,NOUN,sv,C1,13,keep,clean
+160,direktör,director/manager,主管/经理,NOUN,sv,C1,14,keep,clean
+930,miljontals,millions of,数百万的,NUM,sv,C1,15,keep,clean
+456,gudskelov,thank god,谢天谢地,INTJ,sv,C1,16,keep,clean
+314,frivilligt,voluntarily,自愿地,ADV,sv,C1,17,keep,clean
+1263,samt,as well as,以及,CCONJ,sv,C1,18,keep,clean
+153,densamma,the same,同一个,PRON,sv,C1,19,keep,clean
+1832,åtlöje,ridicule,嘲笑,NOUN,sv,C1,20,keep,clean
+137,databasen,databas,数据库,NOUN,sv,C1,21,keep,clean
+13,besvara,answer,回答,VERB,sv,C1,22,keep,clean
+857,lukt,smell,气味,NOUN,sv,C1,23,keep,clean
+741,konstapel,constable,警察,NOUN,sv,C1,24,keep,clean

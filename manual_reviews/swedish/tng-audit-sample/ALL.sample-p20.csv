@@ -1,95 +1,118 @@
-level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-A1,1,442,pos_or_key_changed,åttio,eighty,八十,NUM,åttio|eighty||X,keep,clean
-A1,2,218,edited,läsa,to read,阅读,VERB,läsa|to read||VERB,keep,clean
-A1,3,465,pos_or_key_changed,bo,live,居住,VERB,bo|live||X,keep,clean
-A1,4,350,edited,stänga,to close,关闭,VERB,stänga|to close||VERB,keep,clean
-A1,5,120,pos_or_key_changed,gardin,curtain,窗帘,NOUN,gardin|curtain||X,keep,clean
-A1,6,273,pos_or_key_changed,om,about,关于,ADP,om|about/if||X,keep,clean
-A1,7,454,edited,aning,inkling,一点,NOUN,aning|a bit||NOUN,keep,clean
-A1,8,136,edited,göra,to do,做,VERB,göra|to do/make||VERB,keep,clean
-A1,9,351,pos_or_key_changed,stå,to stand,站立,VERB,stå|to stand||X,keep,clean
-A1,10,130,pos_or_key_changed,grå,grey,灰色的,ADJ,grå|grey||X,keep,clean
-A1,11,474,new_or_renamed,chef,boss/manager,老板/经理,NOUN,,keep,clean
-A1,12,421,edited,vilja,want,想要,VERB,vilja|to want||VERB,keep,clean
-A1,13,270,pos_or_key_changed,och,and,和,CCONJ,och|and||ADP,keep,clean
-A1,14,101,pos_or_key_changed,frukost,breakfast,早餐,NOUN,frukost|breakfast||VERB,keep,clean
-A1,15,316,pos_or_key_changed,skjorta,shirt,衬衫,NOUN,skjorta|shirt||VERB,keep,clean
-A1,16,415,pos_or_key_changed,vecka,week,周,NOUN,vecka|week||VERB,keep,clean
-A1,17,128,pos_or_key_changed,gris,pig,猪,NOUN,gris|pig||X,keep,clean
-A1,18,147,pos_or_key_changed,himmel,sky,天空,NOUN,himmel|sky||X,keep,clean
-A1,19,292,pos_or_key_changed,rum,room,房间,NOUN,rum|room||X,keep,clean
-A1,20,165,pos_or_key_changed,höna,hen,母鸡,NOUN,höna|hen||VERB,keep,clean
-A1,21,476,pos_or_key_changed,del,part,部分,NOUN,del|part||X,keep,clean
-A1,22,38,pos_or_key_changed,bror,brother,兄弟,NOUN,bror|brother||X,keep,clean
-A1,23,6,pos_or_key_changed,andra,others/other,其他,ADJ,andra|others||VERB,fix,Form is plural/determiner 'others'; lemma often annan/ADJ or andra as DET — set UPOS DET or lemma annan.
-A2,1,260,pos_or_key_changed,vidare,further,进一步,ADV,vidare|further||X,keep,clean
-A2,2,99,pos_or_key_changed,lite,a little,一点,ADV,lite|a little||X,keep,clean
-A2,3,238,pos_or_key_changed,tvungen,forced,被迫的,ADJ,tvungen|forced||X,keep,clean
-A2,4,135,pos_or_key_changed,nästan,almost,几乎,ADV,nästan|almost||X,keep,clean
-A2,5,140,new_or_renamed,något,something,某事,PRON,,keep,clean
-A2,6,37,pos_or_key_changed,hemskt,terribly,可怕地/非常,ADV,hemskt|terribly||VERB,keep,clean
-A2,7,203,edited,som,as/that/who,如同/那/谁,PRON,som|as/that/who||PRON,keep,clean
-A2,8,52,pos_or_key_changed,härifrån,from here,从这里,ADV,härifrån|from here||X,keep,clean
-A2,9,114,pos_or_key_changed,mer,more,更多,ADJ,mer|more||X,keep,clean
-A2,10,53,edited,hålla,hold,拿,VERB,hålla|hold||VERB,keep,clean
-A2,11,237,pos_or_key_changed,tur,luck/turn,运气/轮次,NOUN,tur|luck/turn||X,keep,clean
-A2,12,56,pos_or_key_changed,ifrån,from,从,ADP,ifrån|from||X,keep,clean
-A2,13,224,pos_or_key_changed,tillräckligt,enough,足够的,ADV,tillräckligt|enough||VERB,keep,clean
-A2,14,326,new_or_renamed,bo,live/reside,居住,VERB,,keep,live/reside is correct.
-A2,15,311,new_or_renamed,ben,leg,腿,NOUN,,keep,clean
-A2,16,133,pos_or_key_changed,nära,near,近的,ADP,nära|near||VERB,keep,clean
-A2,17,219,pos_or_key_changed,så,so/thus,所以/如此,ADV,så|so/thus||X,keep,clean
-A2,18,47,pos_or_key_changed,hos,at,在……处,ADP,hos|at/with||X,keep,clean
-A2,19,39,new_or_renamed,herre,Mr/master,先生/主人,NOUN,,keep,clean
-A2,20,229,pos_or_key_changed,tja,hi,嗨,INTJ,tja|hi||VERB,keep,clean
-A2,21,247,edited,ursäkta,excuse,原谅,VERB,ursäkta|excuse||VERB,keep,clean
-A2,22,234,new_or_renamed,tro,think/believe,认为/相信,VERB,,keep,clean
-A2,23,131,pos_or_key_changed,nog,enough,足够,ADV,nog|probably/enough||X,keep,clean
-B1,1,360,pos_or_key_changed,sönder,broken,破碎的,ADV,sönder|broken||X,keep,clean
-B1,2,402,pos_or_key_changed,unga,young,年轻的,ADJ,unga|young(pl)||VERB,fix,Plural/weak form of ung; citation lemma ung/ADJ.
-B1,3,482,pos_or_key_changed,ambulans,ambulance,救护车,NOUN,ambulans|ambulance||X,keep,clean
-B1,4,46,new_or_renamed,förfluten,past,过去的,ADJ,,keep,clean
-B1,5,431,new_or_renamed,vit,white,白色的,ADJ,,keep,clean
-B1,6,178,edited,ljuga,lie,撒谎,VERB,ljuga|lie||VERB,keep,clean
-B1,7,374,new_or_renamed,tjej,girl,女孩,NOUN,,keep,clean
-B1,8,472,pos_or_key_changed,al,alder,桤木,NOUN,al|al||X,keep,Alder tree is correct; committed gloss was empty — good add.
-B1,9,3,pos_or_key_changed,exempel,example,例子,NOUN,exempel|example||X,keep,clean
-B1,10,74,pos_or_key_changed,gravid,pregnant,怀孕的,ADJ,gravid|pregnant||X,keep,clean
-B1,11,33,new_or_renamed,fru,wife,妻子,NOUN,,keep,clean
-B1,12,546,pos_or_key_changed,baklänges,backwards,向后,ADV,baklänges|backwards||X,keep,clean
-B1,13,245,edited,oskyldig,innocent,无辜的,ADJ,oskyldig|innocent||ADJ,keep,clean
-B1,14,200,pos_or_key_changed,meddelande,message,消息,NOUN,meddelande|message||VERB,keep,clean
-B1,15,271,new_or_renamed,rum,room,房间,NOUN,,keep,clean
-B1,16,288,new_or_renamed,sekund,second,秒,NOUN,,keep,clean
-B1,17,330,edited,spåra,track,追踪,VERB,spåra|track||VERB,keep,clean
-B1,18,8,pos_or_key_changed,farbror,uncle,叔叔 / 伯伯,NOUN,farbror|uncle||X,keep,clean
-B1,19,445,edited,älska,love,爱,VERB,älska|love||VERB,keep,clean
-B1,20,202,pos_or_key_changed,mil,mile,英里,NOUN,mil|mile||X,keep,clean
-B1,21,275,edited,rätta,correct,纠正,VERB,rätta|correct||VERB,keep,clean
-B1,22,560,pos_or_key_changed,baserad,based,基于,ADJ,baserad|based||X,keep,clean
-B1,23,279,pos_or_key_changed,röst,voice,声音,NOUN,röst|voice||VERB,keep,clean
-B1,24,441,pos_or_key_changed,våld,violence,暴力,NOUN,våld|violence||X,keep,clean
-B2,1,486,pos_or_key_changed,kula,bullet,子弹,NOUN,kula|bullet||VERB,keep,clean
-B2,2,564,new_or_renamed,men,but,但是,CCONJ,,keep,clean
-B2,3,512,new_or_renamed,lag,law,法律,NOUN,,keep,clean
-B2,4,918,edited,stråla,radiate,发光,VERB,stråla|beam||VERB,keep,clean
-B2,5,679,pos_or_key_changed,oroad,worried,担忧的,ADJ,oroad|worried||X,keep,clean
-B2,6,263,edited,förstärkning,reinforcement,加强,NOUN,förstärkning|reinforcement||NOUN,keep,clean
-B2,7,1143,edited,övertala,persuade,说服,VERB,övertala|persuade||VERB,keep,clean
-B2,8,1121,new_or_renamed,ägare,owner,所有者,NOUN,,keep,clean
-B2,9,53,pos_or_key_changed,besökare,visitor,访客,NOUN,besökare|visitor||X,keep,clean
-B2,10,626,pos_or_key_changed,mörk,dark,黑暗的,ADJ,mörk|dark||X,keep,clean
-B2,11,768,pos_or_key_changed,rumskamrat,roommate,室友,NOUN,rumskamrat|roommate||VERB,keep,clean
-B2,12,676,pos_or_key_changed,ordförande,chairperson,主席,NOUN,ordförande|chairman||VERB,keep,clean
-B2,13,1046,new_or_renamed,universitet,university,大学,NOUN,,keep,clean
-B2,14,1155,pos_or_key_changed,akut,acute,紧急的,ADJ,akut|acute/emergency||VERB,keep,clean
-B2,15,1012,new_or_renamed,tröttna,tire/get tired,疲倦/厌烦,VERB,,keep,clean
-B2,16,509,pos_or_key_changed,körkort,driver's license,驾照,NOUN,körkort|driver's license||VERB,keep,clean
-B2,17,370,pos_or_key_changed,hård,hard,硬的,ADJ,hård|hard||X,keep,clean
-B2,18,546,edited,lämplig,suitable,合适的,ADJ,lämplig|suitable||ADJ,keep,clean
-B2,19,1031,edited,tända,light/ignite,点燃,VERB,tända|light/ignite||VERB,keep,clean
-B2,20,891,pos_or_key_changed,sprit,liquor,烈酒,NOUN,sprit|liquor||VERB,keep,clean
-B2,21,534,pos_or_key_changed,los,loose,松的,ADJ,los|los||X,drop,Not standard Swedish for 'loose' (that is lös). Looks like noise/loan fragment.
-B2,22,398,pos_or_key_changed,inspektör,inspector,检查员,NOUN,inspektör|inspector||X,keep,clean
-B2,23,122,pos_or_key_changed,diamant,diamond,钻石,NOUN,diamant|diamond||VERB,keep,clean
-B2,24,788,new_or_renamed,röst,voice,声音,NOUN,,keep,clean
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+sv,A1,1,121,gata,street,街道,NOUN,keep,clean
+sv,A1,2,492,eftersom,because,因为,SCONJ,keep,clean
+sv,A1,3,224,lön,salary,工资,NOUN,keep,clean
+sv,A1,4,78,ett,one,一,NUM,keep,clean
+sv,A1,5,444,öga,eye,眼睛,NOUN,keep,clean
+sv,A1,6,498,enligt,according to,根据,ADP,keep,clean
+sv,A1,7,464,bevis,proof,证据/证明,NOUN,keep,clean
+sv,A1,8,308,sjuk,sick,生病的,ADJ,keep,clean
+sv,A1,9,252,mössa,hat,帽子,NOUN,keep,clean
+sv,A1,10,453,allvar,seriousness,严重性,NOUN,keep,clean
+sv,A1,11,56,den,it (common),它 (通性),PRON,keep,clean
+sv,A1,12,466,bör,should,应该,AUX,keep,clean
+sv,A1,13,48,båda,both,两者,DET,keep,clean
+sv,A1,14,342,sten,stone,石头,NOUN,keep,clean
+sv,A1,15,14,att,to (infinitive marker),去（不定式标记）,PART,keep,clean
+sv,A1,16,284,regn,rain,雨,NOUN,keep,clean
+sv,A1,17,333,sommar,summer,夏天,NOUN,keep,clean
+sv,A1,18,365,tack,thanks,谢谢,INTJ,keep,clean
+sv,A1,19,335,sova,to sleep,睡觉,VERB,keep,clean
+sv,A1,20,233,men,but,但是,CCONJ,keep,clean
+sv,A1,21,485,dit,there,去那里,ADV,keep,clean
+sv,A1,22,309,sjukhus,hospital,医院,NOUN,keep,clean
+sv,A1,23,246,måla,to paint,画,VERB,keep,clean
+sv,A2,1,165,skulle,would,将会,AUX,keep,clean
+sv,A2,2,201,toppen,top/great,顶部/极好,NOUN,keep,clean
+sv,A2,3,7,förrän,until,直到,SCONJ,keep,clean
+sv,A2,4,44,härifrån,from here,从这里,ADV,keep,clean
+sv,A2,5,5,förlåt,sorry,对不起,INTJ,keep,clean
+sv,A2,6,190,tid,time,时间,NOUN,keep,clean
+sv,A2,7,168,skynda,hurry,匆忙,VERB,keep,clean
+sv,A2,8,132,prata,talk,说话,VERB,keep,clean
+sv,A2,9,301,djur,animal,动物,NOUN,keep,clean
+sv,A2,10,29,hem,home,家/回家,NOUN,keep,clean
+sv,A2,11,57,ingen,no,没有,DET,keep,clean
+sv,A2,12,292,både,both,两者都,CCONJ,keep,clean
+sv,A2,13,84,lägga,put,放,VERB,keep,clean
+sv,A2,14,8,först,first,首先,ADV,keep,clean
+sv,A2,15,231,väldigt,very,非常,ADV,keep,clean
+sv,A2,16,217,ute,out,在外面,ADV,keep,clean
+sv,A2,17,127,oss,us,我们,PRON,keep,clean
+sv,A2,18,80,kvar,left,剩下的,ADV,keep,clean
+sv,A2,19,6,förra,last,上一个,ADJ,keep,clean
+sv,A2,20,182,svar,answer,回答,NOUN,keep,clean
+sv,A2,21,87,lita,trust,信任,VERB,keep,clean
+sv,A2,22,71,kille,guy,男孩,NOUN,keep,clean
+sv,A2,23,209,undan,away,避开,ADP,keep,clean
+sv,B1,1,428,avfyra,fire,开火,VERB,keep,clean
+sv,B1,2,239,självmord,suicide,自杀,NOUN,keep,clean
+sv,B1,3,318,tusentals,thousands,数千,NUM,keep,clean
+sv,B1,4,3,exempel,example,例子,NOUN,keep,clean
+sv,B1,5,317,tusan,damn,该死的,INTJ,keep,clean
+sv,B1,6,74,hot,threat,威胁,NOUN,keep,clean
+sv,B1,7,397,ande,spirit,精神,NOUN,keep,clean
+sv,B1,8,310,trots,despite,尽管,ADP,keep,clean
+sv,B1,9,126,känd,known/famous,著名的/熟悉的,ADJ,keep,clean
+sv,B1,10,347,varken,neither,既不,CCONJ,keep,clean
+sv,B1,11,148,låtsas,pretend,假装,VERB,keep,clean
+sv,B1,12,175,naturligtvis,of course,当然,ADV,keep,clean
+sv,B1,13,455,baksäte,back seat,后座,NOUN,keep,clean
+sv,B1,14,280,styrka,strength,力量,NOUN,keep,clean
+sv,B1,15,255,slappna,relax,放松,VERB,keep,clean
+sv,B1,16,15,film,film/movie,电影,NOUN,keep,clean
+sv,B1,17,106,karl,man,男人,NOUN,keep,clean
+sv,B1,18,82,ifall,if,如果,SCONJ,keep,clean
+sv,B1,19,346,varenda,every,每一个,DET,keep,clean
+sv,B1,20,349,vems,whose,谁的,PRON,keep,clean
+sv,B1,21,330,ungar,kids,孩子,NOUN,keep,clean
+sv,B1,22,277,stopp,stop,停止,NOUN,keep,clean
+sv,B1,23,348,vilja,want,想要,AUX,keep,clean
+sv,B2,1,847,utredning,investigation,调查,NOUN,keep,clean
+sv,B2,2,263,hemifrån,from home,从家里,ADV,keep,clean
+sv,B2,3,878,viss,certain,某些,DET,keep,clean
+sv,B2,4,286,hörni,listen up,听着,INTJ,keep,clean
+sv,B2,5,315,jakt,hunt,狩猎,NOUN,keep,clean
+sv,B2,6,14,barnvakt,babysitter,保姆,NOUN,keep,clean
+sv,B2,7,32,berättelse,story,故事,NOUN,keep,clean
+sv,B2,8,689,snubbe,guy,家伙,NOUN,keep,clean
+sv,B2,9,758,såvida,unless,除非,SCONJ,keep,clean
+sv,B2,10,54,blodtryck,blood pressure,血压,NOUN,keep,clean
+sv,B2,11,285,höghet,highness,殿下,NOUN,keep,clean
+sv,B2,12,812,ty,for/because,因为,CCONJ,keep,clean
+sv,B2,13,288,icke,not,不,PART,keep,clean
+sv,B2,14,509,någons,someone's,某人的,PRON,keep,clean
+sv,B2,15,135,femte,fifth,第五,NUM,keep,clean
+sv,B2,16,337,kliv,step,步,NOUN,keep,clean
+sv,B2,17,396,lager,layer/storage,层/仓库,NOUN,keep,clean
+sv,B2,18,727,ström,current,水流,NOUN,keep,clean
+sv,B2,19,594,riktning,direction,方向,NOUN,keep,clean
+sv,B2,20,629,schysst,fair/decent,公平的/正派的,ADJ,keep,clean
+sv,B2,21,612,rättegång,trial,审判,NOUN,keep,clean
+sv,B2,22,836,uppleva,experience,体验,VERB,keep,clean
+sv,B2,23,426,längs,along,沿着,ADP,keep,clean
+sv,B2,24,325,kamrat,comrade,同志,NOUN,keep,clean
+sv,C1,1,1548,tipsa,tip,透露,VERB,keep,clean
+sv,C1,2,930,miljontals,millions of,数百万的,NUM,keep,clean
+sv,C1,3,361,föreställning,performance,表演,NOUN,keep,clean
+sv,C1,4,1359,smekmånad,honeymoon,蜜月,NOUN,keep,clean
+sv,C1,5,1136,praktisk,practical,实际的,ADJ,keep,clean
+sv,C1,6,711,knäcka,crack,打破,VERB,keep,clean
+sv,C1,7,1177,ras,race,种族,NOUN,keep,clean
+sv,C1,8,1716,varannan,every other,每隔一个,DET,keep,clean
+sv,C1,9,1161,pundare,addict,瘾君子,NOUN,keep,clean
+sv,C1,10,75,bricka,tray,托盘,NOUN,keep,clean
+sv,C1,11,635,jäkel,devil/bastard,混蛋,NOUN,keep,clean
+sv,C1,12,391,förskott,advance payment,预付款,NOUN,keep,clean
+sv,C1,13,1666,utav,of,的,ADP,keep,clean
+sv,C1,14,1806,äsch,oh well,算了,INTJ,keep,clean
+sv,C1,15,152,denne,he/this one,他/这位,PRON,keep,clean
+sv,C1,16,1155,psykologi,psychology,心理学,NOUN,keep,clean
+sv,C1,17,701,kloster,monastery,修道院,NOUN,keep,clean
+sv,C1,18,1375,småningom,gradually,逐渐地,ADV,keep,clean
+sv,C1,19,1219,rullstol,wheelchair,轮椅,NOUN,keep,clean
+sv,C1,20,1256,sal,hall,大厅,NOUN,keep,clean
+sv,C1,21,234,engelsman,Englishman,英国男人,NOUN,keep,clean
+sv,C1,22,727,kommunist,communist,共产主义者,NOUN,keep,clean
+sv,C1,23,1286,si,if,如果,SCONJ,keep,clean
+sv,C1,24,1263,samt,as well as,以及,CCONJ,keep,clean

@@ -1,422 +1,367 @@
 German_Lemma,English_Lemma,Chinese_Lemma,POS
-absolut,absolutely,,ADJ
-acht,eight,,NUM
-Achtung,attention,,NOUN
-Adresse,address,,NOUN
-Agent,agent,,NOUN
-Amerika,America,,PROPN
-anderer,other,,DET
-Anfang,beginning,,NOUN
-anfangen,to begin,,VERB
-Angebot,offer,,NOUN
-Anruf,call,,NOUN
-anrufen,to call,,VERB
-ans,to the,,ADP
-ansehen,to watch,,VERB
-Antwort,answer,,NOUN
-Anwalt,lawyer,,NOUN
-Arm,arm,,NOUN
-Armee,army,,NOUN
-Arschloch,asshole,,PROPN
-Aufgabe,task,,NOUN
-aufhalten,to hold up / stop,,VERB
-aufhören,to stop,,VERB
-aufs,onto the,,ADV
-Auftrag,order / mission,,NOUN
-Auge,eye,,NOUN
-Augenblick,moment,,NOUN
-aussehen,to look like,,VERB
-außer,except,,ADP
-Außerdem,besides,,ADV
-Ball,ball,,NOUN
-Bank,bank,,NOUN
-bar,cash,,NOUN
-bauen,to build,,VERB
-Befehl,command,,NOUN
-behalten,to keep,,VERB
-Beispiel,example,,NOUN
-bekannt,known,,ADJ
-benutzen,to use,,VERB
-Bescheid,information,,NOUN
-beschäftigt,busy,,ADJ
-beschützen,to protect,,VERB
-besonders,especially,,ADV
-Besuch,visit,,NOUN
-besuchen,to visit,,VERB
-bewegen,to move,,VERB
-Bewegung,movement,,NOUN
-beweisen,to prove,,VERB
-bezahlen,to pay,,VERB
-Beziehung,relationship,,NOUN
-Bier,beer,,NOUN
-Bild,picture,,NOUN
-bisher,so far,,ADV
-bitten,to ask,,VERB
-Blick,view,,NOUN
-blöd,stupid,,ADJ
-Boden,ground,,NOUN
-Boot,boat,,NOUN
-Bord,board (ship),,NOUN
-Boss,boss,,NOUN
-Brief,letter,,NOUN
-Bus,bus,,NOUN
-Bäcker,baker,,NOUN
-Bäckerei,bakery,,NOUN
-böse,angry,,ADJ
-Chef,boss,,NOUN
-Computer,computer,,NOUN
-Daddy,Daddy,,PROPN
-dagegen,against it,,ADV
-dahin,there,,ADV
-Dame,lady,,NOUN
-danach,after that,,ADV
-darin,in it,,ADV
-dasselbe,the same,,DET
-Deal,deal,,NOUN
-denken,to think,,VERB
-Detective,detective,,PROPN
-Dorf,village,,NOUN
-Druck,pressure,,NOUN
-drüben,over there,,ADV
-dumm,stupid,,ADJ
-Ehe,marriage,,NOUN
-eher,rather,,ADV
-Ehre,honor,,NOUN
-eigene,own,,NOUN
-einige,some,,DET
-Eis,ice,,NOUN
-entscheiden,to decide,,VERB
-Entscheidung,decision,,NOUN
-entschuldigen,excuse (formal),,VERB
-Erde,earth,,PROPN
-erfahren,to experience,,VERB
-Erfolg,success,,NOUN
-erhalten,to receive,,VERB
-erklären,to explain,,VERB
-erledigen,to take care of,,VERB
-erreichen,to reach,,VERB
-erwarten,to expect,,VERB
-euer,your (plural),,ADJ
-Euro,euro,,PROPN
-fallen,to fall,,VERB
-fangen,to catch,,VERB
-feiern,to celebrate,,VERB
-Fenster,window,,NOUN
-Film,film,,NOUN
-Finger,finger,,NOUN
-Firma,company,,NOUN
-fliegen,to fly,,VERB
-Flugzeug,airplane,,NOUN
-folgen,to follow,,VERB
-fort,away,,ADV
-Foto,photo,,NOUN
-Freude,joy,,NOUN
-freuen,to be happy,,VERB
-Frieden,peace,,NOUN
-furchtbar,terrible,,ADJ
-Fuß,foot,,NOUN
-fällt,falls,,VERB
-fühlen,to feel,,VERB
-führen,to lead,,VERB
-fürs,for the,,ADV
-geboren,born,,VERB
-Geburtstag,birthday,,NOUN
-Gebäude,building,,NOUN
-Gefahr,danger,,NOUN
-gefährlich,dangerous,,ADJ
-Gefängnis,prison,,NOUN
-Gegend,area,,NOUN
-gegenüber,opposite,,ADP
-Geheimnis,secret,,NOUN
-gehören,to belong,,VERB
-gemeinsam,together,,ADJ
-genauso,just as,,ADV
-General,general,,NOUN
-geschehen,to happen,,VERB
-Geschenk,gift,,NOUN
-Geschäft,shop,,NOUN
-Gesellschaft,society,,NOUN
-Gespräch,conversation,,NOUN
-gesund,healthy,,ADJ
-getroffen,met / hit,,VERB
-gewinnen,to win,,VERB
-Glas,glass,,NOUN
-glaubst,believe (you),,INTJ
-Glückwunsch,congratulations,,NOUN
-Gold,gold,,NOUN
-großartig,great,,ADJ
-großes,big (neut),,NOUN
-Gruppe,group,,NOUN
-gutes,good (neut),,NOUN
-Güte,goodness,,NOUN
-Hals,neck,,NOUN
-hart,hard,,ADJ
-Haut,skin,,NOUN
-heiraten,to marry,,VERB
-heiß,hot,,ADJ
-heißen,to be called,,VERB
-heraus,out,,ADV
-herum,around,,ADV
-Himmel,sky,,NOUN
-hinten,behind,,ADV
-Hochzeit,wedding,,NOUN
-Hoffnung,hope,,NOUN
-Hotel,hotel,,NOUN
-Hunger,hunger,,NOUN
-Hälfte,half,,NOUN
-hübsch,pretty,,ADJ
-Idiot,idiot,,NOUN
-Insel,island,,NOUN
-interessiert,interested,,ADJ
-irgendwann,sometime,,ADV
-irgendwo,somewhere,,ADV
-Jawohl,yes sir,,PROPN
-jemals,ever,,ADV
-jung,young,,ADJ
-kalt,cold,,ADJ
-Kamera,camera,,NOUN
-kaputt,broken,,ADJ
-Karte,card,,NOUN
-kaufen,to buy,,VERB
-Kirche,church,,NOUN
-Klappe,mouth (shut up),,NOUN
-Klasse,class,,NOUN
-Kleid,dress,,NOUN
-kleines,small (neut),,NOUN
-komisch,funny,,ADJ
-Kontakt,contact,,NOUN
-Kontrolle,control,,NOUN
-Kraft,strength,,NOUN
-Krankenhaus,hospital,,NOUN
-Kumpel,buddy,,NOUN
-kämpfen,to fight,,VERB
-Königin,queen,,NOUN
-Körper,body,,NOUN
-Küche,kitchen,,NOUN
-kümmern,to take care of,,VERB
-lachen,to laugh,,VERB
-Laden,shop,,NOUN
-Lady,lady,,PROPN
-Lage,situation,,NOUN
-Lauf,run,,NOUN
-laufen,to run,,VERB
-laut,loud,,ADP
-legen,to lay,,VERB
-Leiche,corpse,,NOUN
-leise,quiet,,ADJ
-lernen,to learn,,VERB
-lesen,to read,,VERB
-letzter,last (masc),,ADJ
-Licht,light,,NOUN
-lieb,dear,,ADJ
-Liebling,darling,,NOUN
-Lied,song,,NOUN
-liegen,to lie,,VERB
-links,left,,ADV
-Liste,list,,NOUN
-Lust,desire,,NOUN
-lustig,funny,,ADJ
-Lösung,solution,,NOUN
-magst,like (you),,INTJ
-manchmal,sometimes,,ADV
-Meer,sea,,NOUN
-meint,means,,VERB
-meinte,meant,,VERB
-Meinung,opinion,,NOUN
-meisten,most,,DET
-melden,to report,,VERB
-Messer,knife,,NOUN
-Meter,meter,,NOUN
-Minute,minute,,NOUN
-miteinander,with each other,,ADV
-Monat,month,,NOUN
-Monsieur,Monsieur,,PROPN
-Monster,monster,,NOUN
-Mund,mouth,,NOUN
-Mörder,murderer,,NOUN
-müde,tired,,ADJ
-nachdem,after,,SCONJ
-Nachricht,message,,NOUN
-Nase,nose,,NOUN
-neben,next to,,ADP
-nennen,to call / name,,VERB
-nervös,nervous,,ADJ
-neu,new,,ADJ
-neues,new (neut),,NOUN
-nochmal,again,,ADV
-normal,normal,,ADJ
-Nähe,vicinity,,NOUN
-nämlich,namely,,ADV
-nötig,necessary,,ADJ
-obwohl,although,,SCONJ
-offen,open,,ADJ
-Oma,grandma,,PROPN
-Park,park,,NOUN
-Partner,partner,,NOUN
-Party,party,,NOUN
-passieren,to happen,,VERB
-Pause,break,,NOUN
-perfekt,perfect,,ADJ
-Person,person,,NOUN
-persönlich,personal,,ADJ
-Pferd,horse,,NOUN
-plötzlich,suddenly,,ADJ
-Polizei,police,,NOUN
-Polizist,policeman,,NOUN
-Preis,price,,NOUN
-Prinzessin,princess,,NOUN
-Professor,professor,,NOUN
-Präsident,president,,NOUN
-Punkt,point,,NOUN
-Quatsch,nonsense,,NOUN
-ran,at it,,ADV
-Rat,advice,,NOUN
-Raum,room,,NOUN
-rechts,right,,ADV
-Regeln,rules,,NOUN
-Regierung,government,,NOUN
-Reise,trip,,NOUN
-Respekt,respect,,NOUN
-Rest,rest,,NOUN
-Richter,judge,,NOUN
-Richtung,direction,,NOUN
-Rolle,role,,NOUN
-rufen,to call,,VERB
-rüber,over,,ADJ
-Rücken,back,,NOUN
-sauber,clean,,ADJ
-sauer,angry,,ADJ
-schauen,to look,,VERB
-schicken,to send,,VERB
-Schicksal,fate,,NOUN
-schießen,to shoot,,VERB
-Schiff,ship,,NOUN
-Schlaf,sleep,,NOUN
-schlagen,to beat,,VERB
-schlechte,bad,,NOUN
-schlimm,bad,,ADJ
-Schluss,end,,NOUN
-Schlüssel,key,,NOUN
-Schmerz,pain,,NOUN
-schrecklich,terrible,,ADJ
-schreiben,to write,,VERB
-Schritt,step,,NOUN
-schuldig,guilty,,ADJ
-Schuss,shot,,NOUN
-schwanger,pregnant,,ADJ
-schwierig,difficult,,ADJ
-schöne,beautiful,,NOUN
-schönen,beautiful (acc/dat),,VERB
-schützen,to protect,,VERB
-Seele,soul,,NOUN
-Sekunde,second (time),,NOUN
-selber,oneself,,DET
-seltsam,strange,,ADJ
-Serie,series,,NOUN
-setzen,to set,,VERB
-seufzt,sighs,,VERB
-Sex,sex,,NOUN
-Show,show,,NOUN
-Sicherheit,security,,NOUN
-sieben,seven,,NUM
-singen,to sing,,VERB
-Sinn,sense,,NOUN
-Situation,situation,,NOUN
-Sonne,sun,,NOUN
-Sorry,sorry,,PROPN
-sowieso,anyway,,ADV
-Spur,trace,,NOUN
-stark,strong,,ADJ
-statt,instead of,,ADP
-stecken,to stick,,VERB
-Stein,stone,,PROPN
-Stelle,position,,NOUN
-still,quiet,,ADJ
-Stimme,voice,,NOUN
-stolz,proud,,ADJ
-Stopp,stop,,NOUN
-Streit,argument,,NOUN
-ständig,constantly,,ADJ
-Stück,piece,,NOUN
-super,super,,ADJ
-Szene,scene,,NOUN
-süß,sweet,,ADJ
-Tante,aunt,,NOUN
-tanzen,to dance,,VERB
-Tasche,bag,,NOUN
-tatsächlich,actually,,ADJ
-Tee,tea,,NOUN
-Termin,appointment,,NOUN
-Tisch,table,,NOUN
-tot,dead,,ADJ
-tragen,to carry,,VERB
-Traum,dream,,NOUN
-traurig,sad,,ADJ
-tschüss,bye,,X
-Täter,perpetrator,,NOUN
-umbringen,to kill,,VERB
-unbedingt,absolutely,,ADV
-Unfall,accident,,NOUN
-unglaublich,unbelievable,,ADJ
-unmöglich,impossible,,ADJ
-Untertitel,subtitles,,NOUN
-unterwegs,on the way,,ADV
-Urlaub,holiday,,NOUN
-verantwortlich,responsible,,ADJ
-Verbindung,connection,,NOUN
-verdammte,damn (fem/pl),,NOUN
-Vergangenheit,past,,NOUN
-verheiratet,married,,ADJ
-verkaufen,to sell,,VERB
-verraten,to betray,,VERB
-verschwinden,to disappear,,VERB
-versprochen,promised,,VERB
-verstecken,to hide,,VERB
-Versuch,attempt,,NOUN
-vertrauen,to trust,,VERB
-Verzeihung,forgiveness,,NOUN
-Video,video,,NOUN
-Volk,people / nation,,NOUN
-vorher,before,,ADV
-vorhin,earlier,,ADV
-vorne,in front,,ADV
-Vorsicht,caution,,NOUN
-vorsichtig,careful,,ADJ
-vorstellen,to introduce,,VERB
-wach,awake,,ADJ
-Wahl,choice,,NOUN
-Wahnsinn,madness,,NOUN
-Wahrheit,truth,,NOUN
-wahrscheinlich,probably,,ADJ
-Wald,forest,,NOUN
-weh,sore,,ADV
-Weihnachten,Christmas,,NOUN
-Weile,a while,,NOUN
-weise,wise,,ADJ
-wen,whom,,ADV
-wenigstens,at least,,ADV
-Wert,worth,,NOUN
-willkommen,welcome,,ADJ
-Witz,joke,,NOUN
-witzig,funny,,ADJ
-Wochenende,weekend,,NOUN
-wohin,where to,,ADV
-wohnen,to live,,VERB
-Wovon,about what,,ADV
-Wozu,what for,,ADV
-Wunder,miracle,,NOUN
-wunderbar,wonderful,,ADJ
-wütend,angry,,ADJ
-zahlen,to pay,,VERB
-Zeichen,sign,,NOUN
-ziehen,to pull,,VERB
-zieht,pulls,,VERB
-zufällig,by chance,,ADJ
-Zug,train,,NOUN
-Zuhause,home,,NOUN
-ändern,to change,,VERB
-öffnen,to open,,VERB
-übel,sick / nauseous,,ADJ
-übernehmen,to take over,,VERB
-Überraschung,surprise,,NOUN
-übrig,left over,,ADJ
+absolut,absolutely,绝对,ADV
+acht,eight,八,NUM
+Achtung,attention,注意,NOUN
+Adresse,address,地址,NOUN
+anderer,other,其他的,DET
+Anfang,beginning,开始,NOUN
+anfangen,to begin,开始,VERB
+Angebot,offer,报价,NOUN
+Anruf,call,电话,NOUN
+anrufen,to call,打电话,VERB
+ansehen,to watch,观看,VERB
+Antwort,answer,回答,NOUN
+Anwalt,lawyer,律师,NOUN
+Armee,army,军队,NOUN
+Arschloch,asshole,混蛋,NOUN
+Aufgabe,task,任务,NOUN
+aufhalten,to hold up / stop,阻挡 / 停止,VERB
+aufhören,to stop,停止,VERB
+Auftrag,order / mission,订单 / 任务,NOUN
+Auge,eye,眼睛,NOUN
+Augenblick,moment,瞬间,NOUN
+aussehen,to look like,看起来,VERB
+außer,except,除...之外,ADP
+außerdem,besides,此外,ADV
+bar,cash,现金,ADJ
+bauen,to build,建造,VERB
+Befehl,command,命令,NOUN
+behalten,to keep,保留,VERB
+Beispiel,example,例子,NOUN
+bekannt,known,著名的,ADJ
+benutzen,to use,使用,VERB
+Bescheid,information,消息,NOUN
+beschäftigt,busy,忙碌的,ADJ
+beschützen,to protect,保护,VERB
+besonders,especially,特别,ADV
+besorgt,worried,担心的,ADJ
+Besuch,visit,访问,NOUN
+besuchen,to visit,拜访,VERB
+bewegen,to move,移动,VERB
+Bewegung,movement,运动,NOUN
+beweisen,to prove,证明,VERB
+bezahlen,to pay,支付,VERB
+Beziehung,relationship,关系,NOUN
+Bier,beer,啤酒,NOUN
+Bild,picture,图片,NOUN
+bisher,so far,到目前为止,ADV
+bitten,to ask,请求,VERB
+Blick,view,视野,NOUN
+blöd,stupid,愚蠢的,ADJ
+Boden,ground,地面,NOUN
+Boot,boat,船,NOUN
+Bord,board,甲板,NOUN
+Chef,boss,老板,NOUN
+Brief,letter,信,NOUN
+Bäcker,baker,面包师,NOUN
+Bäckerei,bakery,面包店,NOUN
+böse,angry,生气的,ADJ
+denken,think,思考,VERB
+Vati,daddy,爸爸,NOUN
+dagegen,against it,对此,ADV
+dahin,there,去那里,ADV
+Dame,lady,女士,NOUN
+danach,after that,此后,ADV
+darin,in it,在里面,ADV
+dasselbe,the same,同一个,DET
+dies,this,这个,DET
+Dorf,village,村庄,NOUN
+Druck,pressure,压力,NOUN
+drüben,over there,在那边,ADV
+dumm,stupid,愚蠢的,ADJ
+Ehe,marriage,婚姻,NOUN
+eher,rather,宁愿,ADV
+Ehre,honor,荣誉,NOUN
+einige,some,一些,DET
+Eis,ice,冰,NOUN
+entfernt,distant,遥远的,ADJ
+entscheiden,to decide,决定,VERB
+Entscheidung,decision,决定,NOUN
+entschuldigen,to excuse,原谅,VERB
+erfahren,to experience,经历,VERB
+Erfolg,success,成功,NOUN
+erhalten,to receive,收到,VERB
+erklären,to explain,解释,VERB
+erledigen,to take care of,处理,VERB
+erreichen,to reach,到达,VERB
+erwarten,to expect,期待,VERB
+euer,your (plural),你们的,PRON
+fallen,to fall,掉落,VERB
+fangen,to catch,抓住,VERB
+feiern,to celebrate,庆祝,VERB
+Fenster,window,窗户,NOUN
+Firma,company,公司,NOUN
+fliegen,to fly,飞行,VERB
+Flugzeug,airplane,飞机,NOUN
+folgen,to follow,跟随,VERB
+fort,away,离开,ADV
+Foto,photo,照片,NOUN
+Freude,joy,快乐,NOUN
+freuen,to be happy,感到高兴,VERB
+Frieden,peace,和平,NOUN
+furchtbar,terrible,可怕的,ADJ
+Fuß,foot,脚,NOUN
+fühlen,to feel,感觉,VERB
+führen,to lead,引导,VERB
+fürs,for the,为了,ADP
+Geburtstag,birthday,生日,NOUN
+Gebäude,building,建筑物,NOUN
+Gefahr,danger,危险,NOUN
+gefährlich,dangerous,危险的,ADJ
+Gefängnis,prison,监狱,NOUN
+Gegend,area,地区,NOUN
+gegenüber,opposite,对面,ADP
+Geheimnis,secret,秘密,NOUN
+gehören,to belong,属于,VERB
+kaufen,to buy,买,VERB
+lernen,to learn,学习,VERB
+lesen,to read,阅读,VERB
+gemeinsam,together,共同的,ADJ
+genauso,just as,同样,ADV
+geschehen,to happen,发生,VERB
+Geschenk,gift,礼物,NOUN
+schicken,to send,发送,VERB
+schreiben,to write,写,VERB
+Geschäft,shop,商店,NOUN
+Gesellschaft,society,社会,NOUN
+Gespräch,conversation,对话,NOUN
+gesund,healthy,健康的,ADJ
+gewinnen,to win,赢,VERB
+Glas,glass,玻璃,NOUN
+Glückwunsch,congratulations,祝贺,NOUN
+großartig,great,极好的,ADJ
+Gruppe,group,组,NOUN
+Güte,goodness,善良,NOUN
+Hals,neck,脖子,NOUN
+hart,hard,硬的,ADJ
+Haut,skin,皮肤,NOUN
+heiraten,to marry,结婚,VERB
+heiß,hot,热的,ADJ
+heißen,to be called,叫做,VERB
+heraus,out,出来,ADV
+herum,around,周围,ADV
+Himmel,sky,天空,NOUN
+hinten,behind,在后面,ADV
+Hochzeit,wedding,婚礼,NOUN
+Hoffnung,hope,希望,NOUN
+Hälfte,half,一半,NOUN
+hübsch,pretty,漂亮的,ADJ
+Insel,island,岛屿,NOUN
+interessiert,interested,感兴趣的,ADJ
+irgendwann,sometime,某个时候,ADV
+irgendwo,somewhere,某处,ADV
+jawohl,yes,是的,INTJ
+jede,every,每个,DET
+jemals,ever,曾经,ADV
+jung,young,年轻的,ADJ
+kalt,cold,冷的,ADJ
+Kamera,camera,相机,NOUN
+kaputt,broken,坏了的,ADJ
+Karte,card,卡片,NOUN
+Kirche,church,教堂,NOUN
+Klappe,mouth,嘴,NOUN
+Klasse,class,班级,NOUN
+Kleid,dress,连衣裙,NOUN
+klingeln,to ring,响,VERB
+komisch,funny,奇怪的,ADJ
+Kontakt,contact,联系,NOUN
+Kontrolle,control,控制,NOUN
+Kraft,strength,力量,NOUN
+Krankenhaus,hospital,医院,NOUN
+Kumpel,buddy,哥们,NOUN
+kämpfen,to fight,战斗,VERB
+Königin,queen,女王,NOUN
+Körper,body,身体,NOUN
+Küche,kitchen,厨房,NOUN
+kümmern,to take care of,照顾,VERB
+lachen,to laugh,笑,VERB
+Laden,shop,商店,NOUN
+Lage,situation,情况,NOUN
+Lauf,run,跑步,NOUN
+laufen,to run,跑,VERB
+laut,loud,大声的,ADJ
+legen,to lay,放置,VERB
+Leiche,corpse,尸体,NOUN
+leise,quiet,安静的,ADJ
+Licht,light,光,NOUN
+lieb,dear,亲爱的,ADJ
+Liebling,darling,宝贝,NOUN
+Lied,song,歌曲,NOUN
+liegen,to lie,躺,VERB
+links,left,左边,ADV
+Liste,list,列表,NOUN
+Lust,desire,欲望,NOUN
+lustig,funny,有趣的,ADJ
+Lösung,solution,解决方案,NOUN
+manchmal,sometimes,有时,ADV
+Meer,sea,海,NOUN
+Meinung,opinion,意见,NOUN
+meist,most,大多数,DET
+melden,to report,报告,VERB
+Messer,knife,刀,NOUN
+miteinander,with each other,一起,ADV
+Monat,month,月,NOUN
+Mund,mouth,嘴,NOUN
+möchten,would like,想要,AUX
+Mörder,murderer,凶手,NOUN
+müde,tired,疲倦的,ADJ
+nachdem,after,在...之后,SCONJ
+Nachricht,message,消息,NOUN
+Nase,nose,鼻子,NOUN
+neben,next to,在...旁边,ADP
+nennen,to call / name,称呼,VERB
+nervös,nervous,紧张的,ADJ
+neu,new,新的,ADJ
+nochmal,again,再次,ADV
+Nähe,vicinity,附近,NOUN
+nämlich,namely,即,ADV
+nötig,necessary,必要的,ADJ
+obwohl,although,虽然,SCONJ
+offen,open,开着的,ADJ
+passieren,to happen,发生,VERB
+Pause,break,休息,NOUN
+perfekt,perfect,完美的,ADJ
+persönlich,personal,个人的,ADJ
+Pferd,horse,马,NOUN
+plötzlich,suddenly,突然,ADV
+Polizei,police,警察,NOUN
+Polizist,policeman,男警察,NOUN
+Preis,price,价格,NOUN
+Prinzessin,princess,公主,NOUN
+Präsident,president,总统,NOUN
+Punkt,point,点,NOUN
+Quatsch,nonsense,胡闹,NOUN
+ran,at it,靠近,ADV
+Rat,advice,建议,NOUN
+Raum,room,房间,NOUN
+rechts,right,右边,ADV
+Regierung,government,政府,NOUN
+Reise,trip,旅行,NOUN
+Respekt,respect,尊重,NOUN
+Richter,judge,法官,NOUN
+Richtung,direction,方向,NOUN
+rufen,to call,呼叫,VERB
+Rolle,role,角色,NOUN
+rüber,over,过去,ADV
+Rücken,back,背部,NOUN
+sauber,clean,干净的,ADJ
+sauer,angry,生气的,ADJ
+schauen,to look,看,VERB
+Schicksal,fate,命运,NOUN
+schießen,to shoot,射击,VERB
+Schiff,ship,船,NOUN
+Schlaf,sleep,睡眠,NOUN
+schlagen,to beat,打,VERB
+schlimm,bad,严重的,ADJ
+Schluss,end,结束,NOUN
+Schlüssel,key,钥匙,NOUN
+Schmerz,pain,疼痛,NOUN
+schrecklich,terrible,可怕的,ADJ
+Schritt,step,步骤,NOUN
+schuldig,guilty,有罪的,ADJ
+Schuss,shot,射击,NOUN
+schwanger,pregnant,怀孕的,ADJ
+schwierig,difficult,困难的,ADJ
+schützen,to protect,保护,VERB
+Seele,soul,灵魂,NOUN
+Sekunde,second,秒,NOUN
+selber,oneself,自己,PRON
+seltsam,strange,奇怪的,ADJ
+Serie,series,系列,NOUN
+setzen,to set,放置,VERB
+seufzen,to sigh,叹气,VERB
+Sicherheit,security,安全,NOUN
+sieben,seven,七,NUM
+singen,to sing,唱歌,VERB
+Sinn,sense,意义,NOUN
+solche,such,这样的,DET
+Sonne,sun,太阳,NOUN
+sowieso,anyway,无论如何,ADV
+Spur,trace,痕迹,NOUN
+stark,strong,强壮的,ADJ
+statt,instead of,代替,ADP
+stecken,to stick,插入,VERB
+Stein,stone,石头,NOUN
+Stelle,position,位置,NOUN
+still,quiet,安静的,ADJ
+Stimme,voice,声音,NOUN
+stolz,proud,骄傲的,ADJ
+Stopp,stop,停止,NOUN
+Streit,argument,争吵,NOUN
+ständig,constantly,不断地,ADV
+Stück,piece,块,NOUN
+Szene,scene,场景,NOUN
+süß,sweet,甜的,ADJ
+Tante,aunt,阿姨,NOUN
+tanzen,to dance,跳舞,VERB
+Tasche,bag,包,NOUN
+Tee,tea,茶,NOUN
+Termin,appointment,预约,NOUN
+Tisch,table,桌子,NOUN
+tot,dead,死的,ADJ
+tragen,to carry,携带,VERB
+Traum,dream,梦,NOUN
+traurig,sad,悲伤的,ADJ
+Täter,perpetrator,肇事者,NOUN
+umbringen,to kill,杀死,VERB
+unbedingt,absolutely,绝对地,ADV
+Unfall,accident,事故,NOUN
+unglaublich,unbelievable,难以置信的,ADJ
+unmöglich,impossible,不可能的,ADJ
+Untertitel,subtitles,字幕,NOUN
+unterwegs,on the way,在路上,ADV
+Urlaub,holiday,假期,NOUN
+verantwortlich,responsible,负责的,ADJ
+Verbindung,connection,连接,NOUN
+Vergangenheit,past,过去,NOUN
+verheiratet,married,已婚的,ADJ
+verkaufen,to sell,出售,VERB
+verraten,to betray,背叛,VERB
+verschwinden,to disappear,消失,VERB
+versprechen,to promise,承诺,VERB
+verstecken,to hide,隐藏,VERB
+Versuch,attempt,尝试,NOUN
+vertrauen,to trust,信任,VERB
+Verzeihung,forgiveness,原谅,NOUN
+Volk,people / nation,人民 / 民族,NOUN
+vorher,before,之前,ADV
+vorhin,earlier,刚才,ADV
+vorne,in front,在前面,ADV
+Vorsicht,caution,小心,NOUN
+vorsichtig,careful,小心的,ADJ
+vorstellen,to introduce,介绍,VERB
+wach,awake,醒着的,ADJ
+Wahl,choice,选择,NOUN
+Wahnsinn,madness,疯狂,NOUN
+Wahrheit,truth,真相,NOUN
+Wald,forest,森林,NOUN
+weh,sore,疼,ADV
+Weihnachten,Christmas,圣诞节,NOUN
+Weile,a while,一会儿,NOUN
+weise,wise,明智的,ADJ
+welch,which,哪个,DET
+wenigstens,at least,至少,ADV
+Wert,value,价值,NOUN
+willkommen,welcome,受欢迎的,ADJ
+Witz,joke,笑话,NOUN
+witzig,funny,有趣的,ADJ
+Wochenende,weekend,周末,NOUN
+wohin,where to,去哪里,ADV
+wohnen,to live,居住,VERB
+wovon,about what,关于什么,ADV
+wozu,what for,为了什么,ADV
+Wunder,miracle,奇迹,NOUN
+wunderbar,wonderful,极好的,ADJ
+wütend,angry,愤怒的,ADJ
+zahlen,to pay,支付,VERB
+Zeichen,sign,标志,NOUN
+ziehen,to pull,拉,VERB
+zufällig,by chance,偶然的,ADJ
+Zug,train,火车,NOUN
+Zuhause,home,家,NOUN
+ändern,to change,改变,VERB
+öffnen,to open,打开,VERB
+übel,sick / nauseous,恶心的,ADJ
+übernehmen,to take over,接管,VERB
+Überraschung,surprise,惊喜,NOUN
+übrig,left over,剩余的,ADJ

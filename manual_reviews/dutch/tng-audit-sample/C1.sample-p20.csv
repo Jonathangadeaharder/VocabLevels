@@ -1,25 +1,25 @@
-level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-C1,1,301,edited,beleg,siege,围攻,NOUN,beleg|siege||NOUN,keep,clean
-C1,2,1215,edited,bondscoach,national coach,国家队教练,NOUN,bondscoach|national coach||NOUN,keep,clean
-C1,3,605,edited,installatie,installation,安装,NOUN,installatie|installation||NOUN,keep,clean
-C1,4,1888,edited,briljant,brilliant,杰出的,ADJ,briljant|brilliant||ADJ,keep,clean
-C1,5,345,edited,filosofie,philosophy,哲学,NOUN,filosofie|philosophy||NOUN,keep,clean
-C1,6,1362,edited,troep,rubbish,垃圾,NOUN,troep|rubbish||NOUN,keep,clean
-C1,7,1076,new_or_renamed,aantonen,demonstrate,证明,VERB,,keep,clean
-C1,8,226,edited,nicht,niece,侄女,NOUN,nicht|nicht||NOUN,keep,clean
-C1,9,1083,edited,coördinator,coordinator,协调员,NOUN,coördinator|coordinator||NOUN,keep,clean
-C1,10,9,edited,verderop,further on,更远处,ADV,verderop|further on||ADV,keep,clean
-C1,11,1337,edited,inval,raid,突袭,NOUN,inval|raid||NOUN,keep,clean
-C1,12,1199,new_or_renamed,aanklagen,to indict,起诉,VERB,,keep,clean
-C1,13,331,edited,vergunning,permit,许可证,NOUN,vergunning|permit||NOUN,keep,clean
-C1,14,914,edited,achterin,in the back,在后面,ADV,achterin|in the back||ADV,keep,clean
-C1,15,1674,new_or_renamed,aanvoeren,to submit,提交,VERB,,fix,english_lemma 'to submit' is weak/secondary; primary senses lead / put forward / command.
-C1,16,1904,edited,inflatie,inflation,通货膨胀,NOUN,inflatie|inflation||NOUN,keep,clean
-C1,17,1971,new_or_renamed,geavanceerd,advanced,先进的,ADJ,,keep,clean
-C1,18,360,edited,uitdagingen,challenges,挑战,NOUN,uitdagingen|challenges||NOUN,fix,Plural form; citation lemma must be uitdaging.
-C1,19,1254,edited,aanzetten,turn on,打开,VERB,aanzetten|aanzetten||VERB,keep,clean
-C1,20,1333,edited,haak,hook,钩子,NOUN,haak|hook||NOUN,keep,clean
-C1,21,316,edited,landgoed,estate,庄园,NOUN,landgoed|estate||NOUN,keep,clean
-C1,22,1074,edited,vitesse,speed,速度,NOUN,vitesse|speed||NOUN,keep,clean
-C1,23,318,pos_or_key_changed,nabijgelegen,nearby,附近的,ADJ,nabijgelegen|nearby||VERB,keep,clean
-C1,24,1921,edited,portefeuille,wallet,钱包,NOUN,portefeuille|portfolio||NOUN,keep,clean
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+nl,C1,1,1914,weghalen,to remove,移除,VERB,keep,clean
+nl,C1,2,519,vermelding,mention,提及,NOUN,keep,clean
+nl,C1,3,1771,tienduizenden,tens of thousands,数万,NUM,keep,clean
+nl,C1,4,454,omtrent,about,关于,ADP,keep,clean
+nl,C1,5,276,verdediger,defender,后卫,NOUN,keep,clean
+nl,C1,6,1068,gene,those,那些,PRON,keep,clean
+nl,C1,7,594,jasje,jacket,夹克,NOUN,keep,clean
+nl,C1,8,1186,Argentijns,Argentinian,阿根廷的,ADJ,keep,clean
+nl,C1,9,1406,verlof,leave,休假,NOUN,keep,clean
+nl,C1,10,272,sprong,jump,跳跃,NOUN,keep,clean
+nl,C1,11,720,wijden,to dedicate,奉献,VERB,keep,clean
+nl,C1,12,426,alsmede,as well as,以及,CCONJ,keep,clean
+nl,C1,13,2050,leve,long live,万岁,INTJ,keep,clean
+nl,C1,14,803,atelier,studio,工作室,NOUN,keep,clean
+nl,C1,15,877,stabiliteit,stability,稳定,NOUN,keep,clean
+nl,C1,16,1526,werkplek,workplace,工作场所,NOUN,keep,clean
+nl,C1,17,1496,middernacht,midnight,午夜,NOUN,keep,clean
+nl,C1,18,528,bevallen,to suit,使满意,VERB,keep,clean
+nl,C1,19,49,tong,tongue,舌头,NOUN,keep,clean
+nl,C1,20,653,feestdag,public holiday,公共假日,NOUN,keep,clean
+nl,C1,21,622,uiteen,apart,分开,ADV,keep,clean
+nl,C1,22,61,aanvang,commencement,开始,NOUN,keep,clean
+nl,C1,23,1500,opdat,so that,以便,SCONJ,keep,clean
+nl,C1,24,150,wraak,revenge,报复,NOUN,keep,clean

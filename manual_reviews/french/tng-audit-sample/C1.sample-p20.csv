@@ -1,25 +1,25 @@
-level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-C1,1,2241,unchanged,piment,chili pepper,辣椒,NOUN,piment|chili pepper|辣椒|NOUN,keep,clean
-C1,2,2825,unchanged,semelle,sole,鞋底,NOUN,semelle|sole|鞋底|NOUN,keep,clean
-C1,3,576,unchanged,cicatrisation,healing,愈合,NOUN,cicatrisation|healing|愈合|NOUN,keep,clean
-C1,4,3299,unchanged,tous,all,全部（阳性）,PRON,tous|all|全部（阳性）|PRON,keep,clean
-C1,5,1037,unchanged,désarmement,disarmament,裁军,NOUN,désarmement|disarmament|裁军|NOUN,keep,clean
-C1,6,1075,unchanged,effarement,dismay,惊恐,NOUN,effarement|dismay|惊恐|NOUN,keep,clean
-C1,7,2276,unchanged,plâtre,plaster,石膏,NOUN,plâtre|plaster|石膏|NOUN,keep,clean
-C1,8,1324,unchanged,gaillardise,ribaldry,粗俗的玩笑,NOUN,gaillardise|ribaldry|粗俗的玩笑|NOUN,keep,clean
-C1,9,3357,unchanged,travers,across,穿过,ADP,travers|across|穿过|ADP,fix,Bare 'travers' is a NOUN; preposition is 'à travers'. Either lemma=à travers (ADP) or travers/NOUN.
-C1,10,3481,unchanged,usufruit,usufruct,用益权,NOUN,usufruit|usufruct|用益权|NOUN,keep,clean
-C1,11,2307,unchanged,pondre,to lay eggs,产卵,VERB,pondre|to lay eggs|产卵|VERB,keep,clean
-C1,12,303,unchanged,atonie,atony,弛缓,NOUN,atonie|atony|弛缓|NOUN,keep,clean
-C1,13,2970,unchanged,suivant,next/following,下一个/接下来的,ADJ,suivant|next/following|下一个/接下来的|ADJ,keep,clean
-C1,14,846,unchanged,dialecticien,dialectician,辩证法学者,NOUN,dialecticien|dialectician|辩证法学者|NOUN,keep,clean
-C1,15,72,unchanged,affrontement,confrontation,对抗,NOUN,affrontement|confrontation|对抗|NOUN,keep,clean
-C1,16,1282,unchanged,fourmi,ant,蚂蚁,NOUN,fourmi|ant|蚂蚁|NOUN,keep,clean
-C1,17,1014,unchanged,dénonciation,denunciation,告发，谴责,NOUN,dénonciation|denunciation|告发，谴责|NOUN,keep,clean
-C1,18,1196,unchanged,fac-similé,facsimile,仿制品,NOUN,fac-similé|facsimile|仿制品|NOUN,keep,clean
-C1,19,1008,unchanged,démenti,"denial, contradiction",否认，辟谣,NOUN,"démenti|denial, contradiction|否认，辟谣|NOUN",keep,clean
-C1,20,108,unchanged,alliage,alloy,合金,NOUN,alliage|alloy|合金|NOUN,keep,clean
-C1,21,317,unchanged,aubaine,windfall,意外之财,NOUN,aubaine|windfall|意外之财|NOUN,keep,clean
-C1,22,2583,unchanged,redondance,redundancy,冗余,NOUN,redondance|redundancy|冗余|NOUN,keep,clean
-C1,23,688,unchanged,consulaire,consular,领事的,ADJ,consulaire|consular|领事的|ADJ,keep,clean
-C1,24,2551,unchanged,rattachement,attachment,归属,NOUN,rattachement|attachment|归属|NOUN,keep,clean
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+fr,C1,1,150,anadiplose,anadiplosis,顶真修辞,NOUN,keep,clean
+fr,C1,2,3037,symphonie,symphony,交响乐,NOUN,keep,clean
+fr,C1,3,83,agresseur,aggressor,攻击者,NOUN,keep,clean
+fr,C1,4,3385,trois,three,三,NUM,keep,clean
+fr,C1,5,2017,nosologie,nosology,疾病分类学,NOUN,keep,clean
+fr,C1,6,352,aération,ventilation,通风,NOUN,keep,clean
+fr,C1,7,3119,tacitement,tacitly,默示地,ADV,keep,clean
+fr,C1,8,485,calvaire,ordeal,苦难,NOUN,keep,clean
+fr,C1,9,1160,excepté,except,除...外,ADP,keep,clean
+fr,C1,10,3354,travail,work,工作,NOUN,keep,clean
+fr,C1,11,1300,frustrant,frustrating,令人沮丧的,ADJ,keep,clean
+fr,C1,12,3266,tome,volume,卷,NOUN,keep,clean
+fr,C1,13,456,buffet,sideboard,餐具柜,NOUN,keep,clean
+fr,C1,14,2423,préliminaire,preliminary,初步的,ADJ,keep,clean
+fr,C1,15,2205,perquisition,police search,搜查,NOUN,keep,clean
+fr,C1,16,2797,saoul,drunk,醉的,ADJ,keep,clean
+fr,C1,17,3127,talon,heel,脚后跟,NOUN,keep,clean
+fr,C1,18,2061,occultisme,occultism,神秘学,NOUN,keep,clean
+fr,C1,19,571,chuter,to fall,跌落,VERB,keep,clean
+fr,C1,20,3301,tout,all,全部；一切,PRON,keep,clean
+fr,C1,21,2720,référentiel,reference framework,参考框架,NOUN,keep,clean
+fr,C1,22,1366,gratuité,free of charge,免费,NOUN,keep,clean
+fr,C1,23,906,douanier,customs officer,海关官员,NOUN,keep,clean
+fr,C1,24,3458,une,one,一,DET,keep,clean

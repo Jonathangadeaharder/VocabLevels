@@ -2,29 +2,28 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 一,one,一,NUM
 七,seven,七,NUM
 三,three,三,NUM
-上,up / above,上,NOUN
+上,up / above,上,ADP
 上午,morning,上午,NOUN
-下,down,下,NOUN
+下,down,下,ADP
 下午,afternoon,下午,NOUN
 下雨,to rain,下雨,VERB
 不,no / not,不,ADV
-不客气,you're welcome,不客气,ADV
+不客气,you're welcome,不客气,INTJ
 东西,thing,东西,NOUN
-个,measure word (general),个,NOUN
+个,measure word (general),个,NUM
 中午,noon,中午,NOUN
-中国,China,中国,PROPN
 九,nine,九,NUM
 书,book,书,NOUN
 买,to buy,买,VERB
 了,completed-action particle,了,PART
 二,two,二,NUM
 五,five,五,NUM
-些,some,些,ADJ
+些,some,些,DET
 人,person,人,NOUN
 什么,what,什么,PRON
 今天,today,今天,NOUN
 他,he / him,他,PRON
-会,can / to be able to,会,NOUN
+会,can / to be able to,会,AUX
 住,to live,住,VERB
 你,you,你,PRON
 做,to do / to make,做,VERB
@@ -32,14 +31,13 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 先生,Mr. / sir,先生,NOUN
 八,eight,八,NUM
 六,six,六,NUM
-再见,goodbye,再见,VERB
+再见,goodbye,再见,INTJ
 写,to write,写,VERB
-冷,cold,冷,PROPN
-几,how many / a few,几,NUM
-出租车,taxi,出租车,VERB
+冷,cold,冷,ADJ
+几,how many,几,NUM
+出租车,taxi,出租车,NOUN
 分钟,minute,分钟,NOUN
-前面,front / ahead,前面,NOUN
-北京,Beijing,北京,PROPN
+前面,front,前面,NOUN
 医生,doctor,医生,NOUN
 医院,hospital,医院,NOUN
 十,ten,十,NUM
@@ -48,79 +46,79 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 吃,to eat,吃,VERB
 同学,classmate,同学,NOUN
 名字,name,名字,NOUN
-后面,back / behind,后面,NOUN
+后面,back,后面,NOUN
 吗,question particle,吗,PART
-听,to listen / to hear,听,VERB
+听,to listen,听,VERB
 呢,modal particle,呢,PART
-和,and,和,ADP
+和,and,和,CCONJ
 哪,which,哪,PRON
-哪儿,where,哪儿,NOUN
-商店,store / shop,商店,NOUN
-喂,hello (phone),喂,VERB
+哪儿,where,哪儿,PRON
+商店,shop,商店,NOUN
+喂,hello,喂,INTJ
 喜欢,to like,喜欢,VERB
 喝,to drink,喝,VERB
 四,four,四,NUM
-回,to return,回,PROPN
-在,at / in / on,在,VERB
+回,to return,回,VERB
+在,at,在,ADP
 坐,to sit,坐,VERB
-块,"piece (measure word, money)",块,NOUN
-多,many / much,多,ADJ
-多少,how many / how much,多少,NUM
-大,big / large,大,ADJ
+块,piece,块,NOUN
+多,many,多,ADJ
+多少,how many,多少,PRON
+大,big,大,ADJ
 天气,weather,天气,NOUN
-太,too / excessively,太,ADJ
+太,too,太,ADV
 女儿,daughter,女儿,NOUN
-她,she / her,她,PRON
-好,good / well,好,ADJ
+她,she,她,PRON
+好,good,好,ADJ
 妈妈,mom / mother,妈妈,NOUN
 字,character / word,字,NOUN
 学习,to study / to learn,学习,VERB
 学校,school,学校,NOUN
 学生,student,学生,NOUN
 家,home / family,家,NOUN
-对不起,sorry,对不起,VERB
+对不起,sorry,对不起,INTJ
 小,small,小,ADJ
 小姐,miss,小姐,NOUN
 少,few,少,ADJ
 岁,year (of age),岁,NOUN
-工作,work / to work,工作,VERB
+工作,work / to work,工作,NOUN
 年,year,年,NOUN
 开,to open,开,VERB
 很,very,很,ADV
-怎么,how,怎么,ADV
-怎么样,how about,怎么样,ADV
-想,to think / to want,想,AUX
+怎么,how,怎么,PRON
+怎么样,how about,怎么样,PRON
+想,to think / to want,想,VERB
 我,I,我,PRON
 我们,we,我们,PRON
 打电话,to make a phone call,打电话,VERB
-日,day / sun,日,PROPN
-时候,time / when,时候,NOUN
+日,day / sun,日,NOUN
+时候,time,时候,NOUN
 明天,tomorrow,明天,NOUN
 星期,week,星期,NOUN
 昨天,yesterday,昨天,NOUN
-是,to be,是,AUX
+是,to be,是,VERB
 月,month / moon,月,NOUN
 有,to have,有,VERB
 朋友,friend,朋友,NOUN
-本,measure word for books,本,DET
+本,measure word for books,本,NUM
 来,to come,来,VERB
 杯子,cup,杯子,NOUN
 桌子,table,桌子,NOUN
 椅子,chair,椅子,NOUN
 水,water,水,NOUN
 水果,fruit,水果,NOUN
-汉语,Chinese (language),汉语,PROPN
-没,not / not have,没,VERB
-没关系,it doesn't matter,没关系,VERB
+汉语,Chinese (language),汉语,NOUN
+没,not have,没,VERB
+没关系,it doesn't matter,没关系,ADJ
 漂亮,pretty,漂亮,ADJ
 火车站,train station,火车站,NOUN
-点,o'clock / point,点,NOUN
-热,hot,热,NOUN
+点,o'clock,点,NOUN
+热,hot,热,ADJ
 爱,to love,爱,VERB
 爸爸,dad / father,爸爸,NOUN
 狗,dog,狗,NOUN
 猫,cat,猫,NOUN
-现在,now,现在,NOUN
+现在,now,现在,ADV
 电影,movie,电影,NOUN
 电脑,computer,电脑,NOUN
 电视,television,电视,NOUN
@@ -131,7 +129,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 米饭,cooked rice,米饭,NOUN
 老师,teacher,老师,NOUN
 能,can / to be able to,能,AUX
-苹果,apple,苹果,PROPN
+苹果,apple,苹果,NOUN
 茶,tea,茶,NOUN
 菜,food / dish,菜,NOUN
 衣服,clothes,衣服,NOUN
@@ -140,57 +138,57 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 请,please / to invite,请,VERB
 读,to read,读,VERB
 谁,who,谁,PRON
-谢谢,thank you,谢谢,PROPN
+谢谢,thank you,谢谢,INTJ
 这,this,这,PRON
 那,that,那,PRON
-都,all,都,NOUN
+都,all,都,ADV
 里,inside / in,里,NOUN
 钱,money,钱,NOUN
 零,zero,零,NUM
 飞机,airplane,飞机,NOUN
 饭馆,restaurant,饭馆,NOUN
-高兴,happy,高兴,PROPN
-一起,together,一起,NOUN
+高兴,happy,高兴,ADJ
+一起,together,一起,ADV
 丈夫,husband,丈夫,NOUN
 上班,to go to work,上班,VERB
 两,two,两,NUM
 为,for / to,为,ADP
-也,also / too,也,SCONJ
+也,also / too,也,ADV
 事情,matter / affair,事情,NOUN
-介绍,to introduce,介绍,NOUN
+介绍,to introduce,介绍,VERB
 从,from,从,ADP
 件,measure word (events / items),件,NOUN
 休息,to rest,休息,VERB
-但是,but,但是,SCONJ
+但是,but,但是,CCONJ
 便宜,cheap,便宜,ADJ
-元,yuan (Chinese currency),元,PROPN
-公共汽车,bus,公共汽车,ADJ
+元,yuan (Chinese currency),元,NOUN
+公共汽车,bus,公共汽车,NOUN
 公司,company,公司,NOUN
 公斤,kilogram,公斤,NOUN
 再,again,再,ADV
-准备,to prepare,准备,NOUN
+准备,to prepare,准备,VERB
 出,to go out,出,VERB
-别,do not,别,NOUN
+别,do not,别,ADV
 到,to arrive / to,到,VERB
 千,thousand,千,NUM
 卖,to sell,卖,VERB
 去年,last year,去年,NOUN
 可以,can / may,可以,AUX
-可能,maybe / possible,可能,AUX
+可能,maybe / possible,可能,ADV
 右边,right side,右边,NOUN
 号,number / date,号,NOUN
-向,toward,向,VERB
+向,toward,向,ADP
 吧,modal particle (suggestion),吧,PART
 告诉,to tell,告诉,VERB
 咖啡,coffee,咖啡,NOUN
 哥哥,older brother,哥哥,NOUN
 唱歌,to sing,唱歌,VERB
 回答,to answer / reply,回答,VERB
-因为,because,因为,ADP
+因为,because,因为,SCONJ
 外,outside,外,NOUN
-大家,everyone,大家,NOUN
+大家,everyone,大家,PRON
 女人,woman,女人,NOUN
-好吃,tasty / delicious,好吃,ADV
+好吃,tasty / delicious,好吃,ADJ
 妹妹,younger sister,妹妹,NOUN
 妻子,wife,妻子,NOUN
 姐姐,older sister,姐姐,NOUN
@@ -199,18 +197,18 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 它,it,它,PRON
 完,to finish,完,VERB
 小时,hour,小时,NOUN
-就,then / just,就,SCONJ
+就,then / just,就,ADV
 左边,left side,左边,NOUN
 已经,already,已经,ADV
 希望,to hope / to wish,希望,VERB
-帮助,to help / assistance,帮助,NOUN
+帮助,to help / assistance,帮助,VERB
 开始,to begin / to start,开始,VERB
 弟弟,younger brother,弟弟,NOUN
-张,measure word (flat objects),张,PROPN
-得,structural particle (after verb),得,VERB
-忙,busy,忙,NOUN
+张,measure word (flat objects),张,NOUN
+得,structural particle (after verb),得,PART
+忙,busy,忙,ADJ
 快,fast / quick,快,ADJ
-快乐,happy,快乐,NOUN
+快乐,happy,快乐,ADJ
 您,you (polite),您,PRON
 意思,meaning,意思,NOUN
 慢,slow,慢,ADJ
@@ -219,19 +217,18 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 所以,therefore,所以,SCONJ
 手机,cell phone,手机,NOUN
 手表,watch,手表,NOUN
-打篮球,to play basketball,打篮球,VERB
 找,to look for / to find,找,VERB
 报纸,newspaper,报纸,NOUN
 教室,classroom,教室,NOUN
 新,new,新,ADJ
 旁边,beside / next to,旁边,NOUN
-旅游,to travel / trip,旅游,NOUN
+旅游,to travel / trip,旅游,VERB
 早上,morning,早上,NOUN
 时间,time,时间,NOUN
 晚上,evening / night,晚上,NOUN
-晴,clear (weather),晴,NOUN
+晴,clear (weather),晴,ADJ
 最,most,最,ADV
-服务员,waiter / attendant,服务员,VERB
+服务员,waiter / attendant,服务员,NOUN
 机场,airport,机场,NOUN
 次,time / occurrence (measure word),次,NOUN
 欢迎,to welcome,欢迎,VERB
@@ -245,27 +242,27 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 生日,birthday,生日,NOUN
 生病,to get sick,生病,VERB
 男人,man,男人,NOUN
-白,white,白,PROPN
+白,white,白,ADJ
 百,hundred,百,NUM
-真,really / true,真,ADJ
+真,really / true,真,ADV
 眼睛,eye,眼睛,NOUN
-着,aspect particle (action in progress),着,AUX
+着,aspect particle (action in progress),着,PART
 知道,to know,知道,VERB
 票,ticket,票,NOUN
 离,from / away from,离,ADP
 穿,to wear / to put on,穿,VERB
 笑,to laugh / smile,笑,VERB
-第一,first,第一,NUM
+第一,first,第一,ADJ
 累,tired,累,ADJ
-红,red,红,PROPN
+红,red,红,ADJ
 给,to give,给,VERB
 羊肉,mutton,羊肉,NOUN
 考试,exam / to take an exam,考试,NOUN
-自行车,bicycle,自行车,VERB
+自行车,bicycle,自行车,NOUN
 船,boat,船,NOUN
 药,medicine,药,NOUN
 西瓜,watermelon,西瓜,NOUN
-要,to want / to need / will,要,AUX
+要,to want / to need / will,要,VERB
 觉得,to feel / to think,觉得,VERB
 让,to let / to allow,让,VERB
 课,class / lesson,课,NOUN
@@ -273,13 +270,13 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 走,to walk / to go,走,VERB
 起床,to get up,起床,VERB
 跑步,to run / to jog,跑步,VERB
-路,road,路,PROPN
+路,road,路,NOUN
 跳舞,to dance,跳舞,VERB
 踢,to kick,踢,VERB
 身体,body,身体,NOUN
 运动,sports / exercise,运动,NOUN
 近,near,近,ADJ
-还,still / also,还,SCONJ
+还,still / also,还,ADV
 进,to enter / to advance,进,VERB
 远,far,远,ADJ
 送,to deliver / to give (as gift),送,VERB
@@ -287,170 +284,169 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 长,long,长,ADJ
 门,door / gate,门,NOUN
 问,to ask,问,VERB
-问题,question / problem,问题,NOUN
-阴,overcast,阴,NOUN
-雪,snow,雪,PROPN
-非常,very / extremely,非常,ADV
-题,question / problem,题,NOUN
+问题,question,问题,NOUN
+阴,overcast,阴,ADJ
+雪,snow,雪,NOUN
+非常,very,非常,ADV
+题,question,题,NOUN
 颜色,color,颜色,NOUN
-高,tall / high,高,ADJ
+高,tall,高,ADJ
 鱼,fish,鱼,NOUN
 鸡蛋,egg,鸡蛋,NOUN
-黑,black,黑,NOUN
-一会儿,a while,一会儿,NUM
+黑,black,黑,ADJ
+一会儿,a while,一会儿,NOUN
 一共,altogether,一共,ADV
-一定,surely,一定,ADJ
+一定,certainly,一定,ADV
 一样,same,一样,ADJ
-一直,straight (in a straight line),一直,ADJ
-一般,same,一般,ADJ
+一直,continuously,一直,ADV
+一般,ordinary,一般,ADJ
 一边,one side,一边,NOUN
 万,ten thousand,万,NUM
-上网,to be on the internet,上网,VERB
+上网,to go online,上网,VERB
 世界,world,世界,NOUN
 东,east,东,NOUN
-中间,between,中间,NOUN
+中间,middle,中间,NOUN
 为了,in order to,为了,ADP
-为什么,why?,为什么,ADP
+为什么,why,为什么,ADV
 主要,main,主要,ADJ
-举行,to hold (a meeting,举行,VERB
-久,(long) time,久,ADJ
+举行,to hold,举行,VERB
+久,long,久,ADJ
 习惯,habit,习惯,NOUN
 了解,to understand,了解,VERB
-云,cloud,云,PROPN
-以为,to believe,以为,VERB
+云,cloud,云,NOUN
+以为,to think,以为,VERB
 以前,before,以前,NOUN
 以后,after,以后,NOUN
 会议,meeting,会议,NOUN
 伞,umbrella,伞,NOUN
-位,position,位,NOUN
+位,person (honorific),位,NOUN
 低,low,低,ADJ
 体育,sports,体育,NOUN
-作业,school assignment,作业,NOUN
-作用,to act on,作用,NOUN
+作业,homework,作业,NOUN
+作用,effect,作用,NOUN
 使,to make,使,VERB
 信,letter,信,NOUN
-借,to lend,借,VERB
+借,to borrow,借,VERB
 健康,health,健康,NOUN
 像,to resemble,像,VERB
-先,early,先,VERB
-公园,public park,公园,NOUN
-关,mountain pass,关,PROPN
-关于,pertaining to,关于,ADP
-关心,to care for sth,关心,VERB
-关系,relationship / relation,关系,NOUN
-兴趣,interest (desire to know about sth),兴趣,NOUN
-其他,other,其他,DET
+先,first,先,ADV
+公园,park,公园,NOUN
+关,to close,关,VERB
+关于,about,关于,ADP
+关心,to care about,关心,VERB
+关系,relationship,关系,NOUN
+兴趣,interest,兴趣,NOUN
+其他,other,其他,ADJ
 其实,actually,其实,ADV
-冬,sound of beating a drum,冬,NOUN
-冰箱,icebox,冰箱,NOUN
-决定,to decide (to do something),决定,VERB
+冬,winter,冬,NOUN
+冰箱,refrigerator,冰箱,NOUN
+决定,to decide,决定,VERB
 几乎,almost,几乎,ADV
 出现,to appear,出现,VERB
 分,to divide,分,VERB
-刚才,(just) a moment ago,刚才,PROPN
-别人,other people,别人,NOUN
-刮,to blow (of the wind),刮,VERB
+刚才,just now,刚才,ADV
+别人,others,别人,NOUN
+刮,to blow,刮,VERB
 刷,to brush,刷,VERB
-刻,quarter (hour),刻,VERB
-办公室,office,办公室,VERB
-办法,means,办法,NOUN
+刻,quarter,刻,NOUN
+办公室,office,办公室,NOUN
+办法,way,办法,NOUN
 动物,animal,动物,NOUN
-努力,great effort,努力,VERB
-包,to cover,包,PROPN
+努力,to work hard,努力,VERB
+包,to wrap,包,VERB
 北方,north,北方,NOUN
 半,half,半,NUM
 南,south,南,NOUN
 历史,history,历史,NOUN
 厨房,kitchen,厨房,NOUN
 参加,to participate,参加,VERB
-又,(once) again,又,SCONJ
-双,two,双,NUM
-发烧,to have a high temperature (from illness),发烧,VERB
+又,again,又,ADV
+双,pair,双,NOUN
+发烧,to have a fever,发烧,VERB
 发现,to find,发现,VERB
-叔叔,father's younger brother,叔叔,NOUN
-变化,change,变化,VERB
+叔叔,uncle,叔叔,NOUN
+变化,change,变化,NOUN
 口,mouth,口,NOUN
 句子,sentence,句子,NOUN
-只,classifier for birds and certain animals,只,ADV
-可爱,cute / lovely,可爱,ADJ
-司机,chauffeur,司机,NOUN
+可爱,cute,可爱,ADJ
+司机,driver,司机,NOUN
 同事,colleague,同事,NOUN
 同意,to agree,同意,VERB
 周末,weekend,周末,NOUN
 哭,to cry,哭,VERB
-啊,modal particle ending sentence,啊,PART
+啊,modal particle,啊,PART
 啤酒,beer,啤酒,NOUN
 国家,country,国家,NOUN
 图书馆,library,图书馆,NOUN
-地,-ly,地,NOUN
+地,-ly,地,PART
 地图,map,地图,NOUN
-地方,area,地方,NOUN
+地方,place,地方,NOUN
 地铁,subway,地铁,NOUN
 坏,bad,坏,ADJ
 城市,city,城市,NOUN
-声音,voice,声音,NOUN
-复习,to review / revise,复习,NOUN
-夏,summer,夏,PROPN
-多么,how (wonderful etc),多么,ADV
+声音,sound,声音,NOUN
+复习,to review,复习,VERB
+夏,summer,夏,NOUN
+多么,how,多么,ADV
 太阳,sun,太阳,NOUN
-头发,hair (on the head),头发,NOUN
+头发,hair,头发,NOUN
 奇怪,strange,奇怪,ADJ
-奶奶,(informal) grandma (paternal grandmother),奶奶,NOUN
-如果,if,如果,ADP
+奶奶,grandma,奶奶,NOUN
+如果,if,如果,SCONJ
 字典,dictionary,字典,NOUN
-季节,time,季节,NOUN
+季节,season,季节,NOUN
 安静,quiet,安静,ADJ
 完成,to complete,完成,VERB
-客人,visitor,客人,NOUN
+客人,guest,客人,NOUN
 害怕,to be afraid,害怕,VERB
 容易,easy,容易,ADJ
-宾馆,guesthouse,宾馆,NOUN
-小心,to be careful,小心,ADJ
-层,layer,层,NOUN
-差,to differ from,差,NOUN
-带,band,带,VERB
+宾馆,hotel,宾馆,NOUN
+小心,to be careful,小心,VERB
+层,floor,层,NOUN
+差,poor,差,ADJ
+带,to bring,带,VERB
 帮忙,to help,帮忙,VERB
 帽子,hat,帽子,NOUN
 干净,clean,干净,ADJ
 年级,grade,年级,NOUN
 年轻,young,年轻,ADJ
-应该,ought to,应该,AUX
-当然,only natural,当然,NOUN
-影响,an influence,影响,VERB
-必须,to have to,必须,AUX
+应该,should,应该,AUX
+当然,of course,当然,ADV
+影响,to influence,影响,VERB
+必须,must,必须,AUX
 忘记,to forget,忘记,VERB
-总是,always,总是,SCONJ
-感冒,to catch cold,感冒,VERB
-愿意,to wish,愿意,AUX
-成绩,achievement,成绩,NOUN
+总是,always,总是,ADV
+感冒,to catch a cold,感冒,VERB
+愿意,to be willing,愿意,AUX
+成绩,grade,成绩,NOUN
 或者,or,或者,CCONJ
-才,a moment ago,才,SCONJ
+才,only then,才,ADV
 打扫,to clean,打扫,VERB
 打算,to plan,打算,VERB
-把,to hold,把,ADP
+把,object marker,把,ADP
 护照,passport,护照,NOUN
-担心,anxious,担心,VERB
-拿,to hold,拿,VERB
+担心,to worry,担心,VERB
+拿,to take,拿,VERB
 换,to change,换,VERB
 接,to receive,接,VERB
 提高,to raise,提高,VERB
 搬,to move,搬,VERB
-放,to release,放,VERB
-放心,to feel relieved,放心,ADJ
-故事,narrative,故事,NOUN
-教,to teach,教,NOUN
+放,to put,放,VERB
+放心,to feel relieved,放心,VERB
+故事,story,故事,NOUN
+教,to teach,教,VERB
 敢,to dare,敢,VERB
 数学,mathematics,数学,NOUN
 文化,culture,文化,NOUN
 新闻,news,新闻,NOUN
-新鲜,fresh (experience,新鲜,ADJ
+新鲜,fresh,新鲜,ADJ
 方便,convenient,方便,ADJ
 旧,old,旧,ADJ
-明白,clear,明白,VERB
-春,spring (time),春,NOUN
-普通话,Mandarin (common language),普通话,ADJ
+明白,to understand,明白,VERB
+春,spring,春,NOUN
+普通话,Mandarin,普通话,NOUN
 更,more,更,ADV
-最近,recent,最近,NOUN
+最近,recently,最近,ADV
 月亮,moon,月亮,NOUN
 有名,famous,有名,ADJ
 机会,opportunity,机会,NOUN
@@ -458,56 +454,56 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 极,extremely,极,ADV
 果汁,fruit juice,果汁,NOUN
 树,tree,树,NOUN
-校长,(college,校长,NOUN
+校长,principal,校长,NOUN
 根据,according to,根据,ADP
-检查,inspection,检查,NOUN
-楼,house with more than 1 story,楼,NOUN
-段,paragraph,段,PROPN
-比赛,competition (sports etc),比赛,NOUN
-比较,to compare,比较,ADV
-水平,level (of achievement etc),水平,NOUN
+检查,to check,检查,VERB
+楼,building,楼,NOUN
+段,paragraph,段,NOUN
+比赛,competition,比赛,NOUN
+比较,to compare,比较,VERB
+水平,level,水平,NOUN
 河,river,河,NOUN
-注意,to take note of,注意,VERB
-洗手间,toilet,洗手间,VERB
-洗澡,to bathe,洗澡,VERB
+注意,to pay attention to,注意,VERB
+洗手间,toilet,洗手间,NOUN
+洗澡,to take a bath,洗澡,VERB
 清楚,clear,清楚,ADJ
-渴,thirsty,渴,PROPN
+渴,thirsty,渴,ADJ
 游戏,game,游戏,NOUN
 满意,satisfied,满意,ADJ
 灯,lamp,灯,NOUN
-热情,warm / enthusiastic,热情,NOUN
-然后,after,然后,ADV
+热情,enthusiastic,热情,ADJ
+然后,then,然后,ADV
 照片,photograph,照片,NOUN
-照相机,camera,照相机,VERB
+照相机,camera,照相机,NOUN
 照顾,to take care of,照顾,VERB
 熊猫,panda,熊猫,NOUN
 爬山,to climb a mountain,爬山,VERB
-爱好,to like,爱好,VERB
-爷爷,(informal) father's father,爷爷,NOUN
-特别,especially,特别,ADJ
+爱好,hobby,爱好,NOUN
+爷爷,grandfather,爷爷,NOUN
+特别,especially,特别,ADV
 环境,environment,环境,NOUN
-班,team,班,NOUN
+班,class,班,NOUN
 甜,sweet,甜,ADJ
-生气,angry,生气,NOUN
+生气,angry,生气,ADJ
 用,to use,用,VERB
-电子,electronic,电子,NOUN
+电子,electronic,电子,ADJ
 电梯,elevator,电梯,NOUN
-画,to draw,画,NOUN
-疼,(it) hurts,疼,NOUN
+画,to draw,画,VERB
+疼,to hurt,疼,ADJ
 瘦,thin,瘦,ADJ
-盘子,tray,盘子,NOUN
-相信,to be convinced (that sth is true),相信,VERB
+盘子,plate,盘子,NOUN
+相信,to believe,相信,VERB
 相同,identical,相同,ADJ
 眼镜,spectacles,眼镜,NOUN
-着急,to worry,着急,AUX
-短,short or brief,短,ADJ
-矮,low,矮,ADJ
+着急,to worry,着急,ADJ
+短,short,短,ADJ
+矮,short,矮,ADJ
 碗,bowl,碗,NOUN
 礼物,gift,礼物,NOUN
-祝,to wish,祝,PROPN
-离开,to depart,离开,VERB
-秋,a swing,秋,PROPN
-种,abbr. for 物種|物种,种,NOUN
+祝,to wish,祝,VERB
+离开,to leave,离开,VERB
+秋,autumn,秋,NOUN
+种,kind,种,NOUN
 空调,air conditioning,空调,NOUN
 突然,sudden,突然,ADJ
 站,station,站,NOUN
@@ -515,87 +511,87 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 简单,simple,简单,ADJ
 米,rice,米,NOUN
 糖,sugar,糖,NOUN
-练习,exercise,练习,VERB
-终于,at last,终于,ADV
-经常,day to day,经常,ADV
+练习,exercise,练习,NOUN
+终于,finally,终于,ADV
+经常,often,经常,ADV
 经理,manager,经理,NOUN
 经过,to pass,经过,VERB
 结婚,to marry,结婚,VERB
-结束,termination,结束,VERB
-绿,green,绿,NOUN
-老,old,老,PART
-而且,(not only ...) but also,而且,SCONJ
+结束,to end,结束,VERB
+绿,green,绿,ADJ
+老,old,老,ADJ
+而且,moreover,而且,CCONJ
 耳朵,ear,耳朵,NOUN
-聪明,acute (of sight and hearing),聪明,PROPN
+聪明,smart,聪明,ADJ
 胖,fat,胖,ADJ
 脚,foot,脚,NOUN
 脸,face,脸,NOUN
 腿,leg,腿,NOUN
 自己,oneself,自己,PRON
 舒服,comfortable,舒服,ADJ
-节日,holiday,节日,NOUN
+节日,festival,节日,NOUN
 节目,program,节目,NOUN
-花,flower,花,VERB
+花,flower,花,NOUN
 花园,garden,花园,NOUN
 草,grass,草,NOUN
 菜单,menu,菜单,NOUN
 葡萄,grape,葡萄,NOUN
-蓝,blue,蓝,NOUN
-虽然,although,虽然,ADP
+蓝,blue,蓝,ADJ
+虽然,although,虽然,SCONJ
 蛋糕,cake,蛋糕,NOUN
 行李箱,suitcase,行李箱,NOUN
 街道,street,街道,NOUN
-表演,play,表演,VERB
+表演,performance,表演,NOUN
 表示,to express,表示,VERB
 衬衫,shirt,衬衫,NOUN
-被,quilt,被,AUX
+被子,quilt,被子,NOUN
 裙子,skirt,裙子,NOUN
 裤子,trousers,裤子,NOUN
 西,west,西,NOUN
-要求,to request,要求,NOUN
+要求,to request,要求,VERB
 见面,to meet,见面,VERB
 角,angle,角,NOUN
-解决,to settle (a dispute),解决,VERB
-认为,to believe,认为,VERB
+解决,to solve,解决,VERB
+认为,to think,认为,VERB
 认真,conscientious,认真,ADJ
 记得,to remember,记得,VERB
 讲,to speak,讲,VERB
-词语,word (general term including monosyllables through to short phrases),词语,NOUN
-超市,supermarket (abbr.),超市,NOUN
-越,to exceed,越,ADJ
-跟,heel,跟,ADP
-辆,classifier for vehicles,辆,NOUN
-过去,(in the) past,过去,NOUN
-还是,or,还是,SCONJ
-迟到,to arrive late,迟到,VERB
-选择,to select,选择,VERB
+词语,word,词语,NOUN
+超市,supermarket,超市,NOUN
+越,to exceed,越,VERB
+跟,heel,跟,NOUN
+辆,classifier for vehicles,辆,NUM
+过去,past,过去,NOUN
+还是,or,还是,CCONJ
+迟到,to be late,迟到,VERB
+选择,to choose,选择,VERB
 遇到,to meet,遇到,VERB
 邻居,neighbor,邻居,NOUN
 重要,important,重要,ADJ
-铅笔,(lead) pencil,铅笔,NOUN
+铅笔,pencil,铅笔,NOUN
 银行,bank,银行,NOUN
-锻炼,to engage in physical exercise,锻炼,VERB
-阿姨,maternal aunt,阿姨,NOUN
-附近,(in the) vicinity,附近,NOUN
-除了,besides,除了,VERB
-难,difficult (to...),难,ADJ
-难过,to feel sad,难过,ADJ
-需要,to need,需要,NOUN
+锻炼,to exercise,锻炼,VERB
+阿姨,aunt,阿姨,NOUN
+附近,nearby,附近,NOUN
+除了,except,除了,ADP
+难,difficult,难,ADJ
+难过,sad,难过,ADJ
+需要,need,需要,VERB
 面包,bread,面包,NOUN
 面条,noodles,面条,NOUN
 鞋,shoe,鞋,NOUN
 音乐,music,音乐,NOUN
-饱,to eat till full,饱,ADJ
-饿,to be hungry,饿,ADJ
+饱,full,饱,ADJ
+饿,hungry,饿,ADJ
 香蕉,banana,香蕉,NOUN
-马,horse,马,PROPN
-马上,at once,马上,VERB
-骑,to ride (an animal or bike),骑,VERB
+马,horse,马,NOUN
+马上,immediately,马上,ADV
+骑,ride,骑,VERB
 鸟,bird,鸟,NOUN
-黄,yellow,黄,PROPN
+黄,yellow,黄,ADJ
 黑板,blackboard,黑板,NOUN
 鼻子,nose,鼻子,NOUN
-一切,everything,一切,DET
-不仅,not only (this one),不仅,ADP
-不但,not only (... but also...),不但,ADP
-不得不,have no choice or option but to,不得不,AUX
+一切,everything,一切,PRON
+不仅,not only,不仅,ADV
+不但,not only,不但,ADV
+不得不,have to,不得不,ADV

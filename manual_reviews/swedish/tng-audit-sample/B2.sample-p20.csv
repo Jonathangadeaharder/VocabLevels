@@ -1,25 +1,25 @@
-level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-B2,1,486,pos_or_key_changed,kula,bullet,子弹,NOUN,kula|bullet||VERB,keep,clean
-B2,2,564,new_or_renamed,men,but,但是,CCONJ,,keep,clean
-B2,3,512,new_or_renamed,lag,law,法律,NOUN,,keep,clean
-B2,4,918,edited,stråla,radiate,发光,VERB,stråla|beam||VERB,keep,clean
-B2,5,679,pos_or_key_changed,oroad,worried,担忧的,ADJ,oroad|worried||X,keep,clean
-B2,6,263,edited,förstärkning,reinforcement,加强,NOUN,förstärkning|reinforcement||NOUN,keep,clean
-B2,7,1143,edited,övertala,persuade,说服,VERB,övertala|persuade||VERB,keep,clean
-B2,8,1121,new_or_renamed,ägare,owner,所有者,NOUN,,keep,clean
-B2,9,53,pos_or_key_changed,besökare,visitor,访客,NOUN,besökare|visitor||X,keep,clean
-B2,10,626,pos_or_key_changed,mörk,dark,黑暗的,ADJ,mörk|dark||X,keep,clean
-B2,11,768,pos_or_key_changed,rumskamrat,roommate,室友,NOUN,rumskamrat|roommate||VERB,keep,clean
-B2,12,676,pos_or_key_changed,ordförande,chairperson,主席,NOUN,ordförande|chairman||VERB,keep,clean
-B2,13,1046,new_or_renamed,universitet,university,大学,NOUN,,keep,clean
-B2,14,1155,pos_or_key_changed,akut,acute,紧急的,ADJ,akut|acute/emergency||VERB,keep,clean
-B2,15,1012,new_or_renamed,tröttna,tire/get tired,疲倦/厌烦,VERB,,keep,clean
-B2,16,509,pos_or_key_changed,körkort,driver's license,驾照,NOUN,körkort|driver's license||VERB,keep,clean
-B2,17,370,pos_or_key_changed,hård,hard,硬的,ADJ,hård|hard||X,keep,clean
-B2,18,546,edited,lämplig,suitable,合适的,ADJ,lämplig|suitable||ADJ,keep,clean
-B2,19,1031,edited,tända,light/ignite,点燃,VERB,tända|light/ignite||VERB,keep,clean
-B2,20,891,pos_or_key_changed,sprit,liquor,烈酒,NOUN,sprit|liquor||VERB,keep,clean
-B2,21,534,pos_or_key_changed,los,loose,松的,ADJ,los|los||X,drop,Not standard Swedish for 'loose' (that is lös). Looks like noise/loan fragment.
-B2,22,398,pos_or_key_changed,inspektör,inspector,检查员,NOUN,inspektör|inspector||X,keep,clean
-B2,23,122,pos_or_key_changed,diamant,diamond,钻石,NOUN,diamant|diamond||VERB,keep,clean
-B2,24,788,new_or_renamed,röst,voice,声音,NOUN,,keep,clean
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+sv,B2,1,847,utredning,investigation,调查,NOUN,keep,clean
+sv,B2,2,263,hemifrån,from home,从家里,ADV,keep,clean
+sv,B2,3,878,viss,certain,某些,DET,keep,clean
+sv,B2,4,286,hörni,listen up,听着,INTJ,keep,clean
+sv,B2,5,315,jakt,hunt,狩猎,NOUN,keep,clean
+sv,B2,6,14,barnvakt,babysitter,保姆,NOUN,keep,clean
+sv,B2,7,32,berättelse,story,故事,NOUN,keep,clean
+sv,B2,8,689,snubbe,guy,家伙,NOUN,keep,clean
+sv,B2,9,758,såvida,unless,除非,SCONJ,keep,clean
+sv,B2,10,54,blodtryck,blood pressure,血压,NOUN,keep,clean
+sv,B2,11,285,höghet,highness,殿下,NOUN,keep,clean
+sv,B2,12,812,ty,for/because,因为,CCONJ,keep,clean
+sv,B2,13,288,icke,not,不,PART,keep,clean
+sv,B2,14,509,någons,someone's,某人的,PRON,keep,clean
+sv,B2,15,135,femte,fifth,第五,NUM,keep,clean
+sv,B2,16,337,kliv,step,步,NOUN,keep,clean
+sv,B2,17,396,lager,layer/storage,层/仓库,NOUN,keep,clean
+sv,B2,18,727,ström,current,水流,NOUN,keep,clean
+sv,B2,19,594,riktning,direction,方向,NOUN,keep,clean
+sv,B2,20,629,schysst,fair/decent,公平的/正派的,ADJ,keep,clean
+sv,B2,21,612,rättegång,trial,审判,NOUN,keep,clean
+sv,B2,22,836,uppleva,experience,体验,VERB,keep,clean
+sv,B2,23,426,längs,along,沿着,ADP,keep,clean
+sv,B2,24,325,kamrat,comrade,同志,NOUN,keep,clean

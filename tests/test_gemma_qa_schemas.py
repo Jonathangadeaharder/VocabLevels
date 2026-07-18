@@ -42,10 +42,11 @@ def test_schema_rejects_newlines_and_tabs(field: str) -> None:
         CefrReviewRow.model_validate({**valid_row(), field: "bad\tvalue"})
 
 
-def test_schema_rejects_non_nfc_text() -> None:
+def test_schema_coerces_non_nfc_text_to_nfc() -> None:
     decomposed = unicodedata.normalize("NFD", "Café")
-    with pytest.raises(ValidationError):
-        CefrReviewRow.model_validate({**valid_row(), "lemma": decomposed})
+    assert decomposed != unicodedata.normalize("NFC", decomposed)
+    row = CefrReviewRow.model_validate({**valid_row(), "lemma": decomposed})
+    assert row.lemma == unicodedata.normalize("NFC", "Café")
 
 
 def test_review_batch_uses_exact_enums() -> None:

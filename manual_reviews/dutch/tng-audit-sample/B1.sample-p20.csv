@@ -1,25 +1,25 @@
-level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-B1,1,383,edited,belachelijk,ridiculous,荒谬的,ADJ,belachelijk|ridiculous||ADJ,keep,clean
-B1,2,517,edited,behouden,retain,保留,VERB,behouden|retain||VERB,keep,clean
-B1,3,407,pos_or_key_changed,arm,poor,贫穷的,ADJ,arm|arm||NOUN,keep,clean
-B1,4,469,edited,karakter,character,性格,NOUN,karakter|character||NOUN,keep,clean
-B1,5,414,edited,neus,nose,鼻子,NOUN,neus|nose||NOUN,keep,clean
-B1,6,93,pos_or_key_changed,neer,down,向下,ADV,neer|down||ADP,keep,clean
-B1,7,400,edited,tijdelijk,temporary,临时的,ADJ,tijdelijk|temporary||ADJ,keep,clean
-B1,8,307,edited,vierde,fourth,第四,ADJ,vierde|fourth||ADJ,keep,clean
-B1,9,311,edited,bier,beer,啤酒,NOUN,bier|beer||NOUN,keep,clean
-B1,10,467,edited,honderden,hundreds,数百,NUM,honderden|hundreds||NUM,fix,Plural 'hundreds'; prefer lemma honderd (NUM) or treat as NOUN carefully.
-B1,11,300,edited,schoon,clean,干净的,ADJ,schoon|beautiful||ADJ,keep,clean
-B1,12,163,edited,vandaan,from,来自,ADP,vandaan|from||ADP,keep,clean
-B1,13,451,new_or_renamed,overig,other,其余的,ADJ,,keep,clean
-B1,14,5,edited,openbaar,public,公共的,ADJ,openbaar|public||ADJ,keep,clean
-B1,15,493,edited,minstens,at least,至少,ADV,minstens|at least||ADV,keep,clean
-B1,16,380,edited,vooruit,forward,向前,ADV,vooruit|forward||ADV,keep,clean
-B1,17,463,edited,grap,joke,笑话,NOUN,grap|joke||NOUN,keep,clean
-B1,18,232,edited,kwaliteit,quality,质量,NOUN,kwaliteit|quality||NOUN,keep,clean
-B1,19,476,edited,snelheid,speed,速度,NOUN,snelheid|speed||NOUN,keep,clean
-B1,20,301,edited,simpel,simple,简单的,ADJ,simpel|simple||ADJ,keep,clean
-B1,21,458,edited,bijeenkomst,meeting,会议,NOUN,bijeenkomst|meeting||NOUN,keep,clean
-B1,22,28,edited,angst,fear,恐惧,NOUN,angst|fear||NOUN,keep,clean
-B1,23,303,edited,tenminste,at least,至少,ADV,tenminste|at least||ADV,keep,clean
-B1,24,388,edited,handel,trade,贸易,NOUN,handel|trade||NOUN,keep,clean
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+nl,B1,1,277,akkoord,agreement,协议,NOUN,keep,clean
+nl,B1,2,23,verkeerd,wrong,错误的,ADJ,keep,clean
+nl,B1,3,473,zwemmen,to swim,游泳,VERB,keep,clean
+nl,B1,4,500,nogmaals,once more,再次,ADV,keep,clean
+nl,B1,5,460,honderden,hundreds,数百,NUM,keep,clean
+nl,B1,6,171,productie,production,生产,NOUN,keep,clean
+nl,B1,7,35,tafel,table,桌子,NOUN,keep,clean
+nl,B1,8,472,zak,bag,袋子,NOUN,keep,clean
+nl,B1,9,217,zoiets,something like that,类似的事物,PRON,keep,clean
+nl,B1,10,385,moe,tired,疲倦的,ADJ,keep,clean
+nl,B1,11,323,dichtbij,near,附近,ADP,keep,clean
+nl,B1,12,106,leider,leader,领导者,NOUN,keep,clean
+nl,B1,13,81,zuiden,south,南方,NOUN,keep,clean
+nl,B1,14,42,finale,final,决赛,NOUN,keep,clean
+nl,B1,15,45,hallo,hello,你好,INTJ,keep,clean
+nl,B1,16,309,dame,lady,女士,NOUN,keep,clean
+nl,B1,17,200,arts,doctor,医生,NOUN,keep,clean
+nl,B1,18,96,totdat,until,直到,SCONJ,keep,clean
+nl,B1,19,359,generatie,generation,一代,NOUN,keep,clean
+nl,B1,20,265,laatst,last,最近的,ADJ,keep,clean
+nl,B1,21,370,spoor,track,轨道,NOUN,keep,clean
+nl,B1,22,273,uitspraak,pronunciation,发音,NOUN,keep,clean
+nl,B1,23,112,zulke,such,这样的,DET,keep,clean
+nl,B1,24,91,noorden,north,北方,NOUN,keep,clean

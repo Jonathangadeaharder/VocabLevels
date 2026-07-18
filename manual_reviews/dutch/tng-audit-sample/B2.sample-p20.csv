@@ -1,25 +1,25 @@
-level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-B2,1,673,edited,verlopen,expire,过期,VERB,verlopen|expired||VERB,keep,clean
-B2,2,484,edited,leugen,lie,谎言,NOUN,leugen|lie||NOUN,keep,clean
-B2,3,304,edited,nadenken,to think it over,思考,VERB,nadenken|think it over||VERB,keep,clean
-B2,4,411,edited,methode,method,方法,NOUN,methode|method||NOUN,keep,clean
-B2,5,116,edited,lied,song,歌曲,NOUN,lied|song||NOUN,keep,clean
-B2,6,663,pos_or_key_changed,ontwerpen,design,设计,VERB,ontwerpen|designs||NOUN,keep,clean
-B2,7,360,edited,spannend,exciting,令人兴奋的,ADJ,spannend|exciting||ADJ,keep,clean
-B2,8,119,edited,nabij,near,在附近,ADP,nabij|near||ADP,keep,clean
-B2,9,308,edited,religie,religion,宗教,NOUN,religie|religion||NOUN,keep,clean
-B2,10,759,edited,digitaal,digital,数字的,ADJ,digitaal|digital||ADJ,keep,clean
-B2,11,6,edited,korting,discount,折扣,NOUN,korting|discount||NOUN,keep,clean
-B2,12,69,edited,noch,nor,也不,CCONJ,noch|nor||CCONJ,keep,clean
-B2,13,172,edited,jas,coat,外套,NOUN,jas|jacket||NOUN,keep,clean
-B2,14,647,pos_or_key_changed,anoniem,anonymous,匿名的,ADJ,anoniem|anonymously||NOUN,keep,clean
-B2,15,569,edited,voortaan,henceforth,今后,ADV,voortaan|henceforth||ADV,keep,clean
-B2,16,215,edited,vak,compartment,隔间,NOUN,vak|compartment||NOUN,fix,english_lemma 'compartment' is niche; common CEFR senses are subject/field or tray. Prefer 'subject / field'.
-B2,17,433,edited,zelden,seldom,很少,ADV,zelden|seldom||ADV,keep,clean
-B2,18,12,edited,sindsdien,since then,此后,ADV,sindsdien|ever since||ADV,keep,clean
-B2,19,104,new_or_renamed,vaststellen,to establish,确定,VERB,,keep,clean
-B2,20,515,edited,wiskunde,mathematics,数学,NOUN,wiskunde|mathematics||NOUN,keep,clean
-B2,21,82,edited,aanpassen,adjust,调整,VERB,aanpassen|to adjust||VERB,keep,clean
-B2,22,18,new_or_renamed,arm,poor,贫穷的,ADJ,,keep,clean
-B2,23,79,edited,vogel,bird,鸟,NOUN,vogel|bird||NOUN,keep,clean
-B2,24,490,edited,toestel,device,设备,NOUN,toestel|toestel||NOUN,keep,clean
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+nl,B2,1,809,bruiloft,wedding,婚礼,NOUN,keep,clean
+nl,B2,2,445,verkrijgbaar,available,可获得的,ADJ,keep,clean
+nl,B2,3,44,geel,yellow,黄色的,ADJ,keep,clean
+nl,B2,4,20,duizend,thousand,千,NUM,keep,clean
+nl,B2,5,520,waarover,about which,关于什么,PRON,keep,clean
+nl,B2,6,438,plaatsvinden,to take place,发生,VERB,keep,clean
+nl,B2,7,737,comité,committee,委员会,NOUN,keep,clean
+nl,B2,8,21,evenals,as well as,以及,SCONJ,keep,clean
+nl,B2,9,325,traan,tear,眼泪,NOUN,keep,clean
+nl,B2,10,490,onderhoud,maintenance,维护,NOUN,keep,clean
+nl,B2,11,731,achternaam,surname,姓氏,NOUN,keep,clean
+nl,B2,12,65,noch,nor,也不,CCONJ,keep,clean
+nl,B2,13,52,oké,okay,好的,INTJ,keep,clean
+nl,B2,14,64,klimaat,climate,气候,NOUN,keep,clean
+nl,B2,15,126,wezen,to be,是,AUX,keep,clean
+nl,B2,16,472,naartoe,towards,向,ADP,keep,clean
+nl,B2,17,699,bezwaar,objection,反对,NOUN,keep,clean
+nl,B2,18,561,archief,archive,档案,NOUN,keep,clean
+nl,B2,19,771,wethouder,alderman,市议员,NOUN,keep,clean
+nl,B2,20,55,verrassing,surprise,惊喜,NOUN,keep,clean
+nl,B2,21,219,deels,partly,部分地,ADV,keep,clean
+nl,B2,22,583,soep,soup,汤,NOUN,keep,clean
+nl,B2,23,626,wc,toilet,厕所,NOUN,keep,clean
+nl,B2,24,320,pand,building,建筑物,NOUN,keep,clean

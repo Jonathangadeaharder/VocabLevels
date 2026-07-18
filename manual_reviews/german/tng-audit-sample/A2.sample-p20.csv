@@ -1,24 +1,24 @@
-level,sample_index,csv_line,change,lemma,english_lemma,chinese_lemma,upos,committed_before,verdict,notes
-A2,1,190,edited,liegen,to lie,躺,VERB,liegen|to lie||VERB,keep,clean
-A2,2,291,pos_or_key_changed,ständig,constantly,不断地,ADV,ständig|constantly||ADJ,keep,clean
-A2,3,213,edited,nervös,nervous,紧张的,ADJ,nervös|nervous||ADJ,keep,clean
-A2,4,132,edited,großartig,great,极好的,ADJ,großartig|great||ADJ,keep,clean
-A2,5,196,edited,manchmal,sometimes,有时,ADV,manchmal|sometimes||ADV,keep,clean
-A2,6,116,edited,kaufen,to buy,买,VERB,kaufen|to buy||VERB,keep,clean
-A2,7,84,edited,erklären,to explain,解释,VERB,erklären|to explain||VERB,keep,clean
-A2,8,121,edited,geschehen,to happen,发生,VERB,geschehen|to happen||VERB,keep,clean
-A2,9,61,edited,dagegen,against it,对此,ADV,dagegen|against it||ADV,keep,clean
-A2,10,283,edited,stecken,to stick,插入,VERB,stecken|to stick||VERB,keep,clean
-A2,11,282,edited,statt,instead of,代替,ADP,statt|instead of||ADP,keep,clean
-A2,12,112,edited,Gegend,area,地区,NOUN,Gegend|area||NOUN,keep,clean
-A2,13,362,edited,ändern,to change,改变,VERB,ändern|to change||VERB,keep,clean
-A2,14,163,edited,Klasse,class,班级,NOUN,Klasse|class||NOUN,keep,clean
-A2,15,135,edited,Hals,neck,脖子,NOUN,Hals|neck||NOUN,keep,clean
-A2,16,98,edited,Foto,photo,照片,NOUN,Foto|photo||NOUN,keep,clean
-A2,17,349,edited,wohin,where to,去哪里,ADV,wohin|where to||ADV,keep,clean
-A2,18,290,edited,Streit,argument,争吵,NOUN,Streit|argument||NOUN,keep,clean
-A2,19,60,new_or_renamed,Vati,daddy,爸爸,NOUN,,keep,clean
-A2,20,86,edited,erreichen,to reach,到达,VERB,erreichen|to reach||VERB,keep,clean
-A2,21,212,edited,nennen,to call / name,称呼,VERB,nennen|to call / name||VERB,keep,clean
-A2,22,356,edited,zahlen,to pay,支付,VERB,zahlen|to pay||VERB,keep,clean
-A2,23,314,edited,verantwortlich,responsible,负责的,ADJ,verantwortlich|responsible||ADJ,keep,clean
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+de,A2,1,244,Rolle,role,角色,NOUN,keep,clean
+de,A2,2,205,möchten,would like,想要,AUX,keep,clean
+de,A2,3,110,gefährlich,dangerous,危险的,ADJ,keep,clean
+de,A2,4,116,kaufen,to buy,买,VERB,keep,clean
+de,A2,5,143,Himmel,sky,天空,NOUN,keep,clean
+de,A2,6,153,jawohl,yes,是的,INTJ,keep,clean
+de,A2,7,290,Streit,argument,争吵,NOUN,keep,clean
+de,A2,8,274,sieben,seven,七,NUM,keep,clean
+de,A2,9,268,selber,oneself,自己,PRON,keep,clean
+de,A2,10,169,Kraft,strength,力量,NOUN,keep,clean
+de,A2,11,312,unterwegs,on the way,在路上,ADV,keep,clean
+de,A2,12,360,Zug,train,火车,NOUN,keep,clean
+de,A2,13,221,passieren,to happen,发生,VERB,keep,clean
+de,A2,14,287,Stimme,voice,声音,NOUN,keep,clean
+de,A2,15,293,Szene,scene,场景,NOUN,keep,clean
+de,A2,16,28,Befehl,command,命令,NOUN,keep,clean
+de,A2,17,69,Druck,pressure,压力,NOUN,keep,clean
+de,A2,18,106,fürs,for the,为了,ADP,keep,clean
+de,A2,19,212,nennen,to call / name,称呼,VERB,keep,clean
+de,A2,20,219,obwohl,although,虽然,SCONJ,keep,clean
+de,A2,21,63,Dame,lady,女士,NOUN,keep,clean
+de,A2,22,67,dies,this,这个,DET,keep,clean
+de,A2,23,13,Antwort,answer,回答,NOUN,keep,clean

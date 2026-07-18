@@ -45,9 +45,8 @@ def _validate_text(value: str) -> str:
         raise ValueError("must not be empty")
     if "\n" in value or "\r" in value or "\t" in value:
         raise ValueError("must not contain newlines or tabs")
-    if unicodedata.normalize("NFC", value) != value:
-        raise ValueError("must use NFC normalization")
-    return value
+    # Coerce to NFC so model outputs (esp. Arabic) do not fail the whole batch.
+    return unicodedata.normalize("NFC", value)
 
 
 class CefrInputRow(StrictModel):

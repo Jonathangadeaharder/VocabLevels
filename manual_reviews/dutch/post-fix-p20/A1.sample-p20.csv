@@ -1,0 +1,24 @@
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+119,keer,time,次,NOUN,nl,A1,1,keep,clean
+63,zullen,would,将,AUX,nl,A1,2,keep,clean
+132,aantal,number,数量,NOUN,nl,A1,3,keep,clean
+173,vandaag,today,今天,ADV,nl,A1,4,keep,clean
+312,halen,to fetch,取,VERB,nl,A1,5,keep,clean
+265,boven,above,在...上面,ADP,nl,A1,6,keep,clean
+209,welke,which,哪个,PRON,nl,A1,7,keep,clean
+43,wel,indeed,确实,ADV,nl,A1,8,keep,clean
+288,zowel,both,两者都,CCONJ,nl,A1,9,keep,clean
+13,te,to,去,PART,nl,A1,10,keep,clean
+328,praten,to talk,说话,VERB,nl,A1,11,keep,clean
+323,nadat,after,在...之后,SCONJ,nl,A1,12,keep,clean
+371,uiteindelijk,eventually,最终,ADV,nl,A1,13,keep,clean
+220,hoop,hope,希望,NOUN,nl,A1,14,keep,clean
+282,zoon,son,儿子,NOUN,nl,A1,15,keep,clean
+235,spelen,to play,玩,VERB,nl,A1,16,keep,clean
+259,idee,idea,主意,NOUN,nl,A1,17,keep,clean
+327,oorlog,war,战争,NOUN,nl,A1,18,keep,clean
+5,een,a,一个,DET,nl,A1,19,keep,clean
+256,vrij,free,自由的,ADJ,nl,A1,20,keep,clean
+74,twee,two,二,NUM,nl,A1,21,keep,clean
+103,ja,yes,是,INTJ,nl,A1,22,keep,clean
+76,weer,again,再次,ADV,nl,A1,23,keep,clean

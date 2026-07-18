@@ -122,11 +122,39 @@ def validate_review_batch(
     inputs: Sequence[CefrInputRow],
     reviews: CefrReviewBatch,
 ) -> CefrReviewBatch:
+    """Align review rows to input IDs/order.
+
+    Models occasionally reorder, drop, or duplicate IDs. Reorder by id, drop
+    unknowns, and fill missing slots with keep-from-input so a near-complete
+    batch does not fail the entire language/level task.
+    """
     input_ids = [row.id for row in inputs]
+    by_id: dict[str, CefrReviewRow] = {}
+    for row in reviews.rows:
+        by_id.setdefault(row.id, row)
+    ordered: list[CefrReviewRow] = []
+    filled = 0
+    for inp in inputs:
+        existing = by_id.get(inp.id)
+        if existing is not None:
+            ordered.append(existing)
+        else:
+            ordered.append(input_row_as_review(inp))
+            filled += 1
+    repaired = CefrReviewBatch(rows=ordered)
     review_ids = [row.id for row in reviews.rows]
-    if review_ids != input_ids:
-        raise ValueError("review IDs/order/cardinality differ from input IDs")
-    return reviews
+    if review_ids != input_ids or filled:
+        from .trace import event
+
+        event(
+            "cefr.review_id_repair",
+            level="WARN",
+            input_count=len(input_ids),
+            review_count=len(review_ids),
+            filled_keeps=filled,
+            order_mismatch=review_ids != input_ids,
+        )
+    return repaired
 
 
 def normalize_review(row: CefrReviewRow) -> tuple[str, str, str, str, str, str]:
@@ -802,9 +830,9 @@ def _dual_wait_ceiling_s() -> float:
     """Max seconds dual legs may wait before failing the pair (rotate models)."""
     from .client import request_wall_clock_s
 
-    # Client allows ≤2 wall-clock failures per generate; dual ceiling tracks that
-    # plus buffer so progress cannot sit on status=waiting for hours.
-    return request_wall_clock_s() * 2 + 60.0
+    # ≤2 wall-clock failures per generate on each dual leg + buffer.
+    # Was 2×wall+60 (~420s); that aborted healthy slow B2 duals mid-task.
+    return request_wall_clock_s() * 3 + 120.0
 
 
 def _review_one_batch(

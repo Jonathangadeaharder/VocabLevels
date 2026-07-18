@@ -1,0 +1,25 @@
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+zh,B2,1,865,公路,highway,公路,NOUN,keep,clean
+zh,B2,2,76,要不,otherwise,要不,PART,keep,clean
+zh,B2,3,1412,回报,return,回报,VERB,keep,clean
+zh,B2,4,297,一些,some,一些,DET,keep,clean
+zh,B2,5,836,党,party,党,NOUN,keep,clean
+zh,B2,6,1359,哪来,where from,哪来,PRON,keep,clean
+zh,B2,7,687,传达,convey,传达,VERB,keep,clean
+zh,B2,8,244,集中,concentrate,集中,VERB,keep,clean
+zh,B2,9,382,不会,will not,不会,AUX,keep,clean
+zh,B2,10,1396,器,device,器,NOUN,keep,clean
+zh,B2,11,701,但,but,但,CCONJ,keep,clean
+zh,B2,12,996,别说,let alone,别说,ADV,keep,clean
+zh,B2,13,221,错误,mistake,错误,NOUN,keep,clean
+zh,B2,14,642,他人,others,他人,NOUN,keep,clean
+zh,B2,15,1329,咦,huh,咦,INTJ,keep,clean
+zh,B2,16,653,以便,so that,以便,SCONJ,keep,clean
+zh,B2,17,789,偏差,deviation,偏差,NOUN,keep,clean
+zh,B2,18,750,俘虏,captive,俘虏,NOUN,keep,clean
+zh,B2,19,230,阶段,stage,阶段,NOUN,keep,clean
+zh,B2,20,45,艰苦,hard,艰苦,ADJ,keep,clean
+zh,B2,21,333,一次,once,一次,NUM,keep,clean
+zh,B2,22,90,训练,training,训练,NOUN,keep,clean
+zh,B2,23,655,以外,besides,以外,ADP,keep,clean
+zh,B2,24,1572,天上,in the sky,天上,NOUN,keep,clean

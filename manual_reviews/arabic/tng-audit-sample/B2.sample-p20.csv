@@ -1,0 +1,25 @@
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+ar,B2,1,865,حضرة,hadra,哈德拉,NOUN,keep,clean
+ar,B2,2,1152,داكشي,that thing,那件事,PRON,keep,clean
+ar,B2,3,208,تَجْمِيد,freezing,冻结,NOUN,keep,clean
+ar,B2,4,901,آثار,antiquities/ruins,文物,NOUN,keep,clean
+ar,B2,5,256,اختطاف,kidnapping,绑架,NOUN,keep,clean
+ar,B2,6,171,أعمال,business,商业,NOUN,keep,clean
+ar,B2,7,1150,مابقاش,no longer,不再,ADV,keep,clean
+ar,B2,8,16,اقتراع,voting,投票,NOUN,keep,clean
+ar,B2,9,554,حيث,whereas,既然,CCONJ,keep,clean
+ar,B2,10,689,طيبة,kindheartedness,善良,NOUN,keep,clean
+ar,B2,11,1253,سنابل,ears of wheat,麦穗,NOUN,keep,clean
+ar,B2,12,480,عذر,excuse,借口,NOUN,keep,clean
+ar,B2,13,606,مادام,as long as,只要/既然,SCONJ,keep,clean
+ar,B2,14,825,انتباه,attention,注意,NOUN,keep,clean
+ar,B2,15,1226,صول,sole,比目鱼,NOUN,keep,clean
+ar,B2,16,209,نَصْب,scam,诈骗,NOUN,keep,clean
+ar,B2,17,405,مستودع,warehouse,仓库,NOUN,keep,clean
+ar,B2,18,605,كل,all/entirely,所有/完全,DET,keep,clean
+ar,B2,19,560,وفق,according to,根据,ADP,keep,clean
+ar,B2,20,1265,رُحل,nomads,游牧民族,NOUN,keep,clean
+ar,B2,21,1543,مقرصن,pirated,盗版的,ADJ,keep,clean
+ar,B2,22,311,انتحال,impersonation,冒充,NOUN,keep,clean
+ar,B2,23,110,سند,bond,债券,NOUN,keep,clean
+ar,B2,24,1879,نعق,caw,呱呱叫,VERB,keep,clean

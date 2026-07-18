@@ -49,12 +49,12 @@ def test_duplicate_physical_header_is_read_positionally(tmp_path: Path) -> None:
     assert document.rows[0].id == "english:A1:1"
 
 
-def test_validation_requires_exact_id_order_and_cardinality(tmp_path: Path) -> None:
+def test_validation_repairs_id_order_and_fills_missing(tmp_path: Path) -> None:
     source = tmp_path / "A1.csv"
     write_csv(
         source,
         ["German_Lemma", "English_Lemma", "Chinese_Lemma", "POS"],
-        [["Abend", "evening", "", "NOUN"], ["Haus", "house", "", "NOUN"]],
+        [["Abend", "evening", "晚上", "NOUN"], ["Haus", "house", "房子", "NOUN"]],
     )
     document = read_cefr_csv(source, lang="german", level="A1")
     reversed_batch = CefrReviewBatch(
@@ -63,8 +63,14 @@ def test_validation_requires_exact_id_order_and_cardinality(tmp_path: Path) -> N
             review_for(document.rows[0].id, "Abend"),
         ]
     )
-    with pytest.raises(ValueError, match="IDs"):
-        validate_review_batch(document.rows, reversed_batch)
+    repaired = validate_review_batch(document.rows, reversed_batch)
+    assert [row.id for row in repaired.rows] == [row.id for row in document.rows]
+    # Missing id → keep-from-input fill
+    one = CefrReviewBatch(rows=[review_for(document.rows[0].id, "Abend")])
+    filled = validate_review_batch(document.rows, one)
+    assert len(filled.rows) == 2
+    assert filled.rows[1].id == document.rows[1].id
+    assert filled.rows[1].action.value == "keep"
 
 
 def test_dry_run_writes_proposed_only(tmp_path: Path) -> None:
@@ -103,4 +109,4 @@ def test_dual_wait_ceiling_tracks_wall_clock(monkeypatch) -> None:
     monkeypatch.setenv("GEMMA_QA_REQUEST_WALL_S", "100")
     from scripts.gemma_qa.cefr import _dual_wait_ceiling_s
 
-    assert _dual_wait_ceiling_s() == 260.0
+    assert _dual_wait_ceiling_s() == 420.0
