@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-415,janvier,January,一月,NOUN,fr,A1,1,keep,clean
-123,chaise,chair,椅子,NOUN,fr,A1,2,keep,clean
-136,chaîne,chain,链条,NOUN,fr,A1,3,keep,clean
-246,déjà,already,已经,ADV,fr,A1,4,keep,clean
-47,avion,airplane,飞机,NOUN,fr,A1,5,keep,clean
-60,beurre,butter,黄油,NOUN,fr,A1,6,keep,clean
-347,garder,to keep,保留,VERB,fr,A1,7,keep,clean
-437,langue,language,语言,NOUN,fr,A1,8,keep,clean
-522,médecin,doctor,医生,NOUN,fr,A1,9,keep,clean
-80,bout,end,末端,NOUN,fr,A1,10,keep,clean
-104,car,because,因为,CCONJ,fr,A1,11,keep,clean
-434,laid,ugly,丑的,ADJ,fr,A1,12,keep,clean
-281,envoyer,to send,发送,VERB,fr,A1,13,keep,clean
-390,honneur,honor,荣誉,NOUN,fr,A1,14,keep,clean
-182,corps,body,身体,NOUN,fr,A1,15,keep,clean
-284,espace,space,空间,NOUN,fr,A1,16,keep,clean
-321,fleuve,river,河流,NOUN,fr,A1,17,keep,clean
-292,essence,gasoline,汽油,NOUN,fr,A1,18,keep,clean
-256,elles,they,她们,PRON,fr,A1,19,keep,clean
-71,bonsoir,good evening,晚上好,INTJ,fr,A1,20,keep,clean
-152,cinq,five,五,NUM,fr,A1,21,keep,clean
-111,ce,this,这,DET,fr,A1,22,keep,clean
-46,avec,with,和,ADP,fr,A1,23,keep,clean
+262,endroit,place,地方,NOUN,fr,A1,1,keep,clean
+175,conte,tale,故事,NOUN,fr,A1,2,keep,clean
+431,jusque,until,直到,ADP,fr,A1,3,keep,clean
+343,fêter,to celebrate,庆祝,VERB,fr,A1,4,keep,clean
+52,banane,banana,香蕉,NOUN,fr,A1,5,keep,clean
+501,moitié,half,一半,NOUN,fr,A1,6,keep,clean
+230,dix,ten,十,NUM,fr,A1,7,keep,clean
+104,car,because,因为,CCONJ,fr,A1,8,keep,clean
+202,cœur,heart,心,NOUN,fr,A1,9,keep,clean
+328,forêt,forest,森林,NOUN,fr,A1,10,keep,clean
+373,guider,to guide,引导,VERB,fr,A1,11,keep,clean
+105,carbone,carbon,碳,NOUN,fr,A1,12,keep,clean
+349,garçon,boy,男孩,NOUN,fr,A1,13,keep,clean
+461,mal,badly,坏,ADV,fr,A1,14,keep,clean
+456,ma,my,我的,DET,fr,A1,15,keep,clean
+397,humour,humor,幽默,NOUN,fr,A1,16,keep,clean
+320,fleur,flower,花,NOUN,fr,A1,17,keep,clean
+112,ceci,this,这个,PRON,fr,A1,18,keep,clean
+146,chocolat,chocolate,巧克力,NOUN,fr,A1,19,keep,clean
+19,allô,hello,喂,INTJ,fr,A1,20,keep,clean
+259,emploi,job,工作,NOUN,fr,A1,21,keep,clean
+114,cellule,cell,细胞,NOUN,fr,A1,22,keep,clean
+405,inférieur,inferior,较低的,ADJ,fr,A1,23,keep,clean

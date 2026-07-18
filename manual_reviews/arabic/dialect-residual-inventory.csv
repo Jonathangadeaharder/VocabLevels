@@ -1,16 +1,62 @@
 lang,level,lemma,english_lemma,chinese_lemma,upos,action,reason
-ar,A1,تليفون,telephone,电话,NOUN,drop,Maghrebi/Darija residual inventory
-ar,A1,خايب,bad,坏的,ADJ,drop,Maghrebi/Darija residual inventory
-ar,A1,واعر,cool / difficult (colloquial),酷 / 困难（口语）,ADJ,policy,labeled colloquial/dialect MSA exception
-ar,A2,إيوا,well then,好吧,INTJ,drop,Maghrebi/Darija residual inventory
-ar,A2,دراري,children,孩子们,NOUN,drop,Maghrebi/Darija residual inventory
-ar,A2,ديال,of,的,ADP,drop,Maghrebi/Darija residual inventory
-ar,A2,كون,if,如果,SCONJ,drop,Darija conditional كون
-ar,A2,نيت,really,真的,ADV,drop,Maghrebi/Darija residual inventory
-ar,A2,هاك,here you go,给你,INTJ,drop,Maghrebi/Darija residual inventory
-ar,A2,واش,question particle,疑问助词,PART,drop,Maghrebi/Darija residual inventory
-ar,A2,ياك,right? / isn't it?,是吗？,PART,drop,Maghrebi/Darija residual inventory
-ar,A2,يالله,come on,来吧,INTJ,drop,Maghrebi/Darija residual inventory
-ar,B1,طوموبيل,car,汽车,NOUN,drop,Maghrebi/Darija residual inventory
-ar,B1,فَايِق,awake (colloquial),醒着的（口语）,ADJ,policy,labeled colloquial/dialect MSA exception
-ar,B2,هادشي,this thing,这件事,PRON,drop,Maghrebi/Darija residual inventory
+ar,*,إيوا,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,اش,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,اشنو,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,ايوا,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,باش,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,بزاف,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,بصح,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,بلاتي,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,بنة,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,تليفون,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,حيت,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,خايب,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,ختي,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,خويا,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,دابا,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,داك,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,داكشي,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,دراري,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,دوك,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,ديال,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,راه,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,زوين,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,سير,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,شكون,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,شنو,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,شوية,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,صافي,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,طاح,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,طوموبيل,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,طَاحَ,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,عافاك,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,علاش,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,غادي,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,غادين,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,فوقاش,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,فوقتاش,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,فين,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,كاين,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,كيفاش,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,لاباس,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,ماشي,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,مبروك,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,مزيان,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,مزْيان,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,منين,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,مُزْيَان,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,نيت,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,هاد,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,هادا,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,هادشي,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,هادو,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,هادي,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,هاك,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,هاكا,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,واخا,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,واش,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,واعر,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,ياك,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,يالله,,,,drop,Maghrebi/Darija inventory closed set
+ar,*,يلاه,,,,drop,Maghrebi/Darija inventory closed set
+ar,B1,فَايِق,awake (colloquial),醒着的（口语）,ADJ,policy,labeled colloquial/dialect

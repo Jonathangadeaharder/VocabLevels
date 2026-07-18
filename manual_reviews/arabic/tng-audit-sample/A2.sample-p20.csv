@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-211,رطوبة,humidity,湿度,NOUN,ar,A2,1,keep,clean
-38,نقص,to decrease,减少,VERB,ar,A2,2,keep,clean
-421,محتاج,in need,需要的,ADJ,ar,A2,3,keep,clean
-313,أحد,Sunday / someone,星期日 / 某人,NOUN,ar,A2,4,keep,clean
-482,لازم,must,必须,AUX,ar,A2,5,keep,clean
-473,ولا,or,或者,CCONJ,ar,A2,6,keep,clean
-309,وقت,time,时间,NOUN,ar,A2,7,keep,clean
-467,يعني,I mean,意思是,PART,ar,A2,8,keep,clean
-324,منع,to forbid,禁止,VERB,ar,A2,9,keep,clean
-129,سقف,ceiling,天花板,NOUN,ar,A2,10,keep,clean
-199,عرق,sweat,汗水,NOUN,ar,A2,11,keep,clean
-150,بطانية,blanket,毯子,NOUN,ar,A2,12,keep,clean
-474,مبروك,congratulations,恭喜,INTJ,ar,A2,13,keep,clean
-498,نخلة,palm tree,棕榈树,NOUN,ar,A2,14,keep,clean
-177,صوف,wool,羊毛,NOUN,ar,A2,15,keep,clean
-115,ولادة,birth,出生,NOUN,ar,A2,16,keep,clean
-118,صداقة,friendship,友谊,NOUN,ar,A2,17,keep,clean
-246,عند,at,在,ADP,ar,A2,18,keep,clean
-472,إلا,if,如果,SCONJ,ar,A2,19,keep,clean
-287,نادل,waiter,服务员,NOUN,ar,A2,20,keep,clean
-386,غرق,to drown / to sink,淹没 / 沉没,VERB,ar,A2,21,keep,clean
-292,أحياناً,sometimes,有时,ADV,ar,A2,22,keep,clean
-251,حجز,booking,预订,NOUN,ar,A2,23,keep,clean
+363,غاب,to be absent,缺席,VERB,ar,A2,1,keep,clean
+305,نهاية,end,结束,NOUN,ar,A2,2,keep,clean
+468,إلا,if,如果,SCONJ,ar,A2,3,keep,clean
+224,دراجة,bicycle,自行车,NOUN,ar,A2,4,keep,clean
+463,شيء,thing,事物,NOUN,ar,A2,5,keep,clean
+291,أحياناً,sometimes,有时,ADV,ar,A2,6,keep,clean
+42,بائع,seller,卖方,NOUN,ar,A2,7,keep,clean
+101,كرموس,fig,无花果,NOUN,ar,A2,8,keep,clean
+215,فصل,season,季节,NOUN,ar,A2,9,keep,clean
+260,دفتر,notebook,笔记本,NOUN,ar,A2,10,keep,clean
+47,ربع,quarter,四分之一,NOUN,ar,A2,11,keep,clean
+383,قلع,to remove / to pull out,拔出 / 移除,VERB,ar,A2,12,keep,clean
+120,عزيز,dear,亲爱的,ADJ,ar,A2,13,keep,clean
+245,عند,at,在,ADP,ar,A2,14,keep,clean
+247,ساق,to drive,驾驶,VERB,ar,A2,15,keep,clean
+63,لفت,turnip,芜菁,NOUN,ar,A2,16,keep,clean
+464,وحدة,unit,单位,NOUN,ar,A2,17,keep,clean
+469,ولا,or,或者,CCONJ,ar,A2,18,keep,clean
+315,أربعاء,Wednesday,星期三,NOUN,ar,A2,19,keep,clean
+316,خميس,Thursday,星期四,NOUN,ar,A2,20,keep,clean
+466,يعني,I mean,意思是,PART,ar,A2,21,keep,clean
+267,مستوى,level,水平 / 级别,NOUN,ar,A2,22,keep,clean
+348,سرق,to steal,偷,VERB,ar,A2,23,keep,clean

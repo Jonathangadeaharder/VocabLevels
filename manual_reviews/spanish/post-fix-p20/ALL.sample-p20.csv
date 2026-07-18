@@ -1,121 +1,121 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-231,haber,to have (auxiliary),有,AUX,es,A1,1,keep,clean
-408,porque,because,因为,SCONJ,es,A1,2,keep,clean
-356,o,or,或者,CCONJ,es,A1,3,keep,clean
-128,cumpleaños,birthday,生日,NOUN,es,A1,4,keep,clean
-17,aire,air,空气,NOUN,es,A1,5,keep,clean
-288,llave,key,钥匙,NOUN,es,A1,6,keep,clean
-472,serio,serious,严肃的,ADJ,es,A1,7,keep,clean
-504,temprano,early,早,ADV,es,A1,8,keep,clean
-546,vista,view,景色,NOUN,es,A1,9,keep,clean
-495,tal,such,这样的,ADJ,es,A1,10,keep,clean
-398,pie,foot,脚,NOUN,es,A1,11,keep,clean
-2,a,to,到,ADP,es,A1,12,keep,clean
-83,caso,case,情况,NOUN,es,A1,13,keep,clean
-219,fácil,easy,容易的,ADJ,es,A1,14,keep,clean
-535,vale,okay,好的,INTJ,es,A1,15,keep,clean
-404,poco,little,少,DET,es,A1,16,keep,clean
-98,cliente,customer,顾客,NOUN,es,A1,17,keep,clean
-386,pelo,hair,头发,NOUN,es,A1,18,keep,clean
-531,uno,one,一,NUM,es,A1,19,keep,clean
-94,cita,appointment,约会,NOUN,es,A1,20,keep,clean
-145,derecho,right,右边,NOUN,es,A1,21,keep,clean
-136,dar,to give,给,VERB,es,A1,22,keep,clean
-34,asunto,matter,事情,NOUN,es,A1,23,keep,clean
-436,quién,who,谁,PRON,es,A1,24,keep,clean
-352,mentira,lie,谎言,NOUN,es,A2,1,keep,clean
-499,silencio,silence,沉默,NOUN,es,A2,2,keep,clean
-204,e,and,和,CCONJ,es,A2,3,keep,clean
-277,ganas,desire,愿望,NOUN,es,A2,4,keep,clean
-576,ángel,angel,天使,NOUN,es,A2,5,keep,clean
-389,ojo,eye,眼睛,NOUN,es,A2,6,keep,clean
-350,medicina,medicine,药,NOUN,es,A2,7,keep,clean
-305,incendio,fire,火灾,NOUN,es,A2,8,keep,clean
-172,departamento,department,部门,NOUN,es,A2,9,keep,clean
-68,caballero,gentleman,绅士,NOUN,es,A2,10,keep,clean
-379,niñera,babysitter,保姆,NOUN,es,A2,11,keep,clean
-226,entrevista,interview,面试,NOUN,es,A2,12,keep,clean
-229,escena,scene,场景,NOUN,es,A2,13,keep,clean
-373,nariz,nose,鼻子,NOUN,es,A2,14,keep,clean
-491,salud,health,健康,NOUN,es,A2,15,keep,clean
-44,azul,blue,蓝色,ADJ,es,A2,16,keep,clean
-131,construir,to build,建造,VERB,es,A2,17,keep,clean
-99,cien,hundred,百,NUM,es,A2,18,keep,clean
-530,testigo,witness,证人,NOUN,es,A2,19,keep,clean
-89,casualidad,coincidence,巧合,NOUN,es,A2,20,keep,clean
-265,finalmente,finally,最终,ADV,es,A2,21,keep,clean
-378,ninguno,none,没有,PRON,es,A2,22,keep,clean
-336,llorar,cry,哭泣,VERB,es,A2,23,keep,clean
-575,vuestro,your,你们的,DET,es,A2,24,keep,clean
-764,organizar,to organize,组织,VERB,es,B1,1,keep,clean
-905,tercero,third,第三,NUM,es,B1,2,keep,clean
-380,egoísta,selfish,自私的,ADJ,es,B1,3,keep,clean
-407,enhorabuena,congratulations,恭喜,INTJ,es,B1,4,keep,clean
-191,certificado,certificate,证书,NOUN,es,B1,5,keep,clean
-831,refugio,shelter,避难所,NOUN,es,B1,6,keep,clean
-61,aparte,aside,另外/ apart,ADV,es,B1,7,keep,clean
-482,fallo,verdict,判决,NOUN,es,B1,8,keep,clean
-732,muerte,death,死亡,NOUN,es,B1,9,keep,clean
-309,custodia,custody,监护,NOUN,es,B1,10,keep,clean
-456,eternidad,eternity,永恒,NOUN,es,B1,11,keep,clean
-70,aquello,that (neutral over there),那个事物,PRON,es,B1,12,keep,clean
-861,salto,jump,跳跃,NOUN,es,B1,13,keep,clean
-369,doler,to hurt,疼痛,VERB,es,B1,14,keep,clean
-255,confesión,confession,忏悔,NOUN,es,B1,15,keep,clean
-316,declarar,to declare,声明/申报,VERB,es,B1,16,keep,clean
-811,progreso,progress,进步; 进展,NOUN,es,B1,17,keep,clean
-266,conspiración,conspiracy,阴谋,NOUN,es,B1,18,keep,clean
-667,legado,legacy,遗产,NOUN,es,B1,19,keep,clean
-358,discusión,discussion,讨论,NOUN,es,B1,20,keep,clean
-156,campeón,champion,冠军,NOUN,es,B1,21,keep,clean
-132,biblia,Bible,圣经,NOUN,es,B1,22,keep,clean
-536,giro,turn,转弯,NOUN,es,B1,23,keep,clean
-459,evento,event,事件,NOUN,es,B1,24,keep,clean
-505,asueto,day off,休息日,NOUN,es,B2,1,keep,clean
-736,bordear,to border,毗邻,VERB,es,B2,2,keep,clean
-132,afectar,to affect,影响,VERB,es,B2,3,keep,clean
-66,acometer,to undertake,从事,VERB,es,B2,4,keep,clean
-1178,comarca,region,地区,NOUN,es,B2,5,keep,clean
-287,anfitrión,host,主人,NOUN,es,B2,6,keep,clean
-1710,decodificar,to decode,解码,VERB,es,B2,7,keep,clean
-1397,consternación,consternation,惊愕,NOUN,es,B2,8,keep,clean
-931,catorce,fourteen,十四,NUM,es,B2,9,keep,clean
-873,capilla,chapel,小教堂,NOUN,es,B2,10,keep,clean
-781,bullicio,bustle,喧闹,NOUN,es,B2,11,keep,clean
-508,atalaya,watchtower,瞭望塔,NOUN,es,B2,12,keep,clean
-1108,coagular,to coagulate,凝固,VERB,es,B2,13,keep,clean
-1808,hurra,hurrah,好哇,INTJ,es,B2,14,keep,clean
-829,calamidad,calamity,灾难,NOUN,es,B2,15,keep,clean
-83,acribillar,to riddle,使布满孔洞,VERB,es,B2,16,keep,clean
-835,calcular,to calculate,计算,VERB,es,B2,17,keep,clean
-1908,ático,attic,阁楼,NOUN,es,B2,18,keep,clean
-1766,excepcional,exceptional,卓越的,ADJ,es,B2,19,keep,clean
-200,alergia,allergy,过敏,NOUN,es,B2,20,keep,clean
-798,buzón,mailbox,邮箱,NOUN,es,B2,21,keep,clean
-807,cabalmente,exactly,恰好,ADV,es,B2,22,keep,clean
-240,amabilidad,kindness,亲切,NOUN,es,B2,23,keep,clean
-986,cereza,cherry,樱桃,NOUN,es,B2,24,keep,clean
-3052,inaudito,unprecedented,史无前例的,ADJ,es,C1,1,keep,clean
-3174,indigno,unworthy,不配的,ADJ,es,C1,2,keep,clean
-2899,igualar,to equalize,使相等,VERB,es,C1,3,keep,clean
-2614,henchir,to fill,填满,VERB,es,C1,4,keep,clean
-1886,fastuosidad,sumptuousness,奢华,NOUN,es,C1,5,keep,clean
-205,desatento,inattentive,不专心的,ADJ,es,C1,6,keep,clean
-2189,fructuosamente,fruitfully,富有成效地,ADV,es,C1,7,keep,clean
-2737,hojalatero,tinsmith,锡匠,NOUN,es,C1,8,keep,clean
-3,convenio,agreement,协议,NOUN,es,C1,9,keep,clean
-303,desdén,disdain,轻蔑,NOUN,es,C1,10,keep,clean
-1271,enunciación,enunciation,发音,NOUN,es,C1,11,keep,clean
-443,desobedecer,to disobey,不服从,VERB,es,C1,12,keep,clean
-1188,enseñanza,teaching,教学,NOUN,es,C1,13,keep,clean
-3442,jurista,jurist,法学家,NOUN,es,C1,14,keep,clean
-1126,engullir,gulp,狼吞虎咽,VERB,es,C1,15,keep,clean
-909,embarcar,embark,登船,VERB,es,C1,16,keep,clean
-509,desprender,to detach,分离,VERB,es,C1,17,keep,clean
-2208,fulano,so-and-so,某人,PRON,es,C1,18,keep,clean
-2335,gema,gem,宝石,NOUN,es,C1,19,keep,clean
-3397,irreconciliable,irreconcilable,不可调和的,ADJ,es,C1,20,keep,clean
-2627,hereje,heretic,异教徒,NOUN,es,C1,21,keep,clean
-736,disponibilidad,availability,可用性,NOUN,es,C1,22,keep,clean
-3675,promoción,promotion,晋升,NOUN,es,C1,23,keep,clean
-3332,interceder,to intercede,调停,VERB,es,C1,24,keep,clean
+535,vale,okay,好的,INTJ,es,A1,1,keep,clean
+286,listo,ready,准备好的,ADJ,es,A1,2,keep,clean
+547,vivir,to live,居住,VERB,es,A1,3,keep,clean
+362,oportunidad,opportunity,机会,NOUN,es,A1,4,keep,clean
+320,mientras,while,当...时,SCONJ,es,A1,5,keep,clean
+231,haber,to have (auxiliary),有,AUX,es,A1,6,keep,clean
+531,uno,one,一,NUM,es,A1,7,keep,clean
+493,suficiente,enough,足够的,ADJ,es,A1,8,keep,clean
+22,alma,soul,灵魂,NOUN,es,A1,9,keep,clean
+29,ante,before,在...面前,ADP,es,A1,10,keep,clean
+174,el,the,这/那,DET,es,A1,11,keep,clean
+253,idiota,idiot,白痴,NOUN,es,A1,12,keep,clean
+552,vuelta,return,回来,NOUN,es,A1,13,keep,clean
+34,asunto,matter,事情,NOUN,es,A1,14,keep,clean
+56,boda,wedding,婚礼,NOUN,es,A1,15,keep,clean
+473,servicio,service,服务,NOUN,es,A1,16,keep,clean
+151,detrás,behind,在后面,ADV,es,A1,17,keep,clean
+395,pero,but,但是,CCONJ,es,A1,18,keep,clean
+280,les,them,他们,PRON,es,A1,19,keep,clean
+204,falta,lack,缺乏,NOUN,es,A1,20,keep,clean
+249,hombre,man,男人,NOUN,es,A1,21,keep,clean
+273,justo,fair,公平的,ADJ,es,A1,22,keep,clean
+385,peligro,danger,危险,NOUN,es,A1,23,keep,clean
+87,centro,center,中心,NOUN,es,A1,24,keep,clean
+504,socio,partner,伙伴,NOUN,es,A2,1,keep,clean
+227,enviar,to send,发送,VERB,es,A2,2,keep,clean
+452,propósito,purpose,目的,NOUN,es,A2,3,keep,clean
+95,cerveza,beer,啤酒,NOUN,es,A2,4,keep,clean
+529,tesoro,treasure,宝藏,NOUN,es,A2,5,keep,clean
+499,silencio,silence,沉默,NOUN,es,A2,6,keep,clean
+535,traer,to bring,带来,VERB,es,A2,7,keep,clean
+502,sobrina,niece,侄女,NOUN,es,A2,8,keep,clean
+92,cero,zero,零,NUM,es,A2,9,keep,clean
+213,empleo,job,工作,NOUN,es,A2,10,keep,clean
+157,cura,priest,神父,NOUN,es,A2,11,keep,clean
+288,guardia,guard,警卫,NOUN,es,A2,12,keep,clean
+200,don,gift,天赋,NOUN,es,A2,13,keep,clean
+265,finalmente,finally,最终,ADV,es,A2,14,keep,clean
+204,e,and,和,CCONJ,es,A2,15,keep,clean
+369,muestra,sample,样品,NOUN,es,A2,16,keep,clean
+137,contrato,contract,合同,NOUN,es,A2,17,keep,clean
+132,contado,cash,现金,ADJ,es,A2,18,keep,clean
+518,suyo,his/hers/theirs,他的/她的/他们的,PRON,es,A2,19,keep,clean
+467,reino,kingdom,王国,NOUN,es,A2,20,keep,clean
+63,botella,bottle,瓶子,NOUN,es,A2,21,keep,clean
+209,elección,choice,选择,NOUN,es,A2,22,keep,clean
+36,asiento,seat,座位,NOUN,es,A2,23,keep,clean
+14,alguno,some,一些,DET,es,A2,24,keep,clean
+848,reír,to laugh,笑,VERB,es,B1,1,keep,clean
+934,veredicto,verdict,裁决,NOUN,es,B1,2,keep,clean
+201,cima,summit,顶峰,NOUN,es,B1,3,keep,clean
+307,curar,to cure,治愈,VERB,es,B1,4,keep,clean
+421,episodio,episode,插曲,NOUN,es,B1,5,keep,clean
+930,veinte,twenty,二十,NUM,es,B1,6,keep,clean
+943,zapato,shoe,鞋子,NOUN,es,B1,7,keep,clean
+300,cubierta,cover,封面,NOUN,es,B1,8,keep,clean
+904,terapia,therapy,治疗,NOUN,es,B1,9,keep,clean
+160,caos,chaos,混乱,NOUN,es,B1,10,keep,clean
+407,enhorabuena,congratulations,恭喜,INTJ,es,B1,11,keep,clean
+544,graduación,graduation,毕业,NOUN,es,B1,12,keep,clean
+260,confuso,confused,困惑的,ADJ,es,B1,13,keep,clean
+399,encanto,charm,魅力,NOUN,es,B1,14,keep,clean
+459,evento,event,事件,NOUN,es,B1,15,keep,clean
+98,atender,to serve,服务,VERB,es,B1,16,keep,clean
+796,posesión,possession,占有; 财产,NOUN,es,B1,17,keep,clean
+801,precisamente,precisely,确切地; 正好,ADV,es,B1,18,keep,clean
+355,dignidad,dignity,尊严,NOUN,es,B1,19,keep,clean
+798,postre,dessert,甜点,NOUN,es,B1,20,keep,clean
+70,aquello,that (neutral over there),那个事物,PRON,es,B1,21,keep,clean
+690,lógica,logic,逻辑,NOUN,es,B1,22,keep,clean
+817,pulso,pulse,脉搏,NOUN,es,B1,23,keep,clean
+133,biblioteca,library,图书馆,NOUN,es,B1,24,keep,clean
+132,afectar,to affect,影响,VERB,es,B2,1,keep,clean
+642,banalizar,to trivialize,使平庸,VERB,es,B2,2,keep,clean
+632,balaustrada,balustrade,栏杆,NOUN,es,B2,3,keep,clean
+1345,conmemoración,commemoration,纪念,NOUN,es,B2,4,keep,clean
+1187,comedio,middle,中间,NOUN,es,B2,5,keep,clean
+1868,perseguir,to chase,追逐,VERB,es,B2,6,keep,clean
+660,basar,to base,以...为基础,VERB,es,B2,7,keep,clean
+354,apoplejía,apoplexy,中风,NOUN,es,B2,8,keep,clean
+324,apabullar,to overwhelm,压倒,VERB,es,B2,9,keep,clean
+981,cepillo,brush,刷子,NOUN,es,B2,10,keep,clean
+32,abstinencia,abstinence,节制,NOUN,es,B2,11,keep,clean
+329,aparición,appearance,出现,NOUN,es,B2,12,keep,clean
+609,avocación,calling,天职,NOUN,es,B2,13,keep,clean
+638,baldón,disgrace,耻辱,NOUN,es,B2,14,keep,clean
+737,boreal,northern,北方的,ADJ,es,B2,15,keep,clean
+722,bofetada,slap,耳光,NOUN,es,B2,16,keep,clean
+930,catolicismo,Catholicism,天主教,NOUN,es,B2,17,keep,clean
+1838,legalmente,legally,合法地,ADV,es,B2,18,keep,clean
+1569,coño,damn,该死,INTJ,es,B2,19,keep,clean
+612,azorar,to fluster,使惊慌,VERB,es,B2,20,keep,clean
+290,angustiar,to distress,使痛苦,VERB,es,B2,21,keep,clean
+1118,cociente,quotient,商,NOUN,es,B2,22,keep,clean
+690,bienhechor,benefactor,恩人,NOUN,es,B2,23,keep,clean
+693,billón,trillion,万亿,NUM,es,B2,24,keep,clean
+3347,interrogar,to interrogate,审问,VERB,es,C1,1,keep,clean
+391,desigualdad,inequality,不平等,NOUN,es,C1,2,keep,clean
+13,deformación,deformation,变形,NOUN,es,C1,3,keep,clean
+2739,hojarasca,leaf litter,落叶,NOUN,es,C1,4,keep,clean
+1559,estío,summer,夏季,NOUN,es,C1,5,keep,clean
+879,elaborado,elaborate,精心制作的,ADJ,es,C1,6,keep,clean
+247,descentrado,off-center,偏心的,ADJ,es,C1,7,keep,clean
+448,desolado,desolate,荒凉的,ADJ,es,C1,8,keep,clean
+2937,impeler,to impel,推动,VERB,es,C1,9,keep,clean
+2208,fulano,so-and-so,某人,PRON,es,C1,10,keep,clean
+934,embrutecer,to brutalize,使野蛮,VERB,es,C1,11,keep,clean
+2041,florecimiento,flourishing,繁荣,NOUN,es,C1,12,keep,clean
+2401,gloriosamente,gloriously,光荣地,ADV,es,C1,13,keep,clean
+1717,expansión,expansion,扩张,NOUN,es,C1,14,keep,clean
+1536,estatura,height,身高,NOUN,es,C1,15,keep,clean
+1455,especificación,specification,规格,NOUN,es,C1,16,keep,clean
+441,desnudez,nudity,裸体,NOUN,es,C1,17,keep,clean
+743,distinguible,distinguishable,可区分的,ADJ,es,C1,18,keep,clean
+3084,incitar,to incite,煽动,VERB,es,C1,19,keep,clean
+1016,encarcelar,to imprison,监禁,VERB,es,C1,20,keep,clean
+3746,seno,bosom,胸怀,NOUN,es,C1,21,keep,clean
+1836,faena,task,任务,NOUN,es,C1,22,keep,clean
+2124,fracasar,to fail,失败,VERB,es,C1,23,keep,clean
+3210,infiltrar,to infiltrate,渗透,VERB,es,C1,24,keep,clean

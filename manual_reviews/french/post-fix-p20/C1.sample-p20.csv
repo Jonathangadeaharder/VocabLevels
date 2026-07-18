@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-487,camionnette,van,小货车,NOUN,fr,C1,1,keep,clean
-3168,tectonique,tectonic,构造的,ADJ,fr,C1,2,keep,clean
-1539,incidence,impact,影响,NOUN,fr,C1,3,keep,clean
-1522,imprévisible,unpredictable,不可预测的,ADJ,fr,C1,4,keep,clean
-954,décompensation,decompensation,失代偿,NOUN,fr,C1,5,keep,clean
-2910,souterrain,underground,地下的,ADJ,fr,C1,6,keep,clean
-715,contusion,bruise,挫伤,NOUN,fr,C1,7,keep,clean
-2057,obéissance,obedience,服从,NOUN,fr,C1,8,keep,clean
-3159,taverne,tavern,酒馆,NOUN,fr,C1,9,keep,clean
-211,apitoiement,pity,怜悯,NOUN,fr,C1,10,keep,clean
-750,coupole,dome,圆顶,NOUN,fr,C1,11,keep,clean
-3385,trois,three,三,NUM,fr,C1,12,keep,clean
-2656,revirement,reversal,突变,NOUN,fr,C1,13,keep,clean
-2248,piqûre,injection,注射；叮咬,NOUN,fr,C1,14,keep,clean
-2262,plaignant,plaintiff,原告,NOUN,fr,C1,15,keep,clean
-2193,pensionnaire,boarder,寄宿生,NOUN,fr,C1,16,keep,clean
-2014,nonobstant,notwithstanding,尽管；不顾,ADP,fr,C1,17,keep,clean
-1906,momentanément,momentarily,暂时地,ADV,fr,C1,18,keep,clean
-2316,portière,car door,车门,NOUN,fr,C1,19,keep,clean
-3458,une,one,一,DET,fr,C1,20,keep,clean
-3369,trentaine,about thirty,三十左右,NOUN,fr,C1,21,keep,clean
-1431,homologuer,to ratify / to approve,批准,VERB,fr,C1,22,keep,clean
-3301,tout,all,全部；一切,PRON,fr,C1,23,keep,clean
-985,dégringolade,tumble,暴跌,NOUN,fr,C1,24,keep,clean
+3339,transfert,transfer,转移,NOUN,fr,C1,1,keep,clean
+1850,martyre,martyrdom,殉难,NOUN,fr,C1,2,keep,clean
+2403,préambule,preamble,序言,NOUN,fr,C1,3,keep,clean
+3428,typologie,typology,类型学,NOUN,fr,C1,4,keep,clean
+2881,sollicitude,solicitude,关怀,NOUN,fr,C1,5,keep,clean
+2200,perfidie,perfidy,背信弃义,NOUN,fr,C1,6,keep,clean
+2398,provisoirement,provisionally,临时地,ADV,fr,C1,7,keep,clean
+3436,téléologie,teleology,目的论,NOUN,fr,C1,8,keep,clean
+3301,tout,all,全部；一切,PRON,fr,C1,9,keep,clean
+3385,trois,three,三,NUM,fr,C1,10,keep,clean
+258,arithmétique,arithmetic,算术,NOUN,fr,C1,11,keep,clean
+396,bilan,balance sheet,资产负债表,NOUN,fr,C1,12,keep,clean
+2702,réclusion,imprisonment,监禁,NOUN,fr,C1,13,keep,clean
+455,bucolique,bucolic,田园的,ADJ,fr,C1,14,keep,clean
+3424,tuyau,pipe,管道,NOUN,fr,C1,15,keep,clean
+1048,détachement,detachment,超然,NOUN,fr,C1,16,keep,clean
+53,admissible,admissible / eligible,可接受的 / 合格的,ADJ,fr,C1,17,keep,clean
+3274,tordre,to twist,扭曲,VERB,fr,C1,18,keep,clean
+245,arbitre,referee,裁判,NOUN,fr,C1,19,keep,clean
+1160,excepté,except,除...外,ADP,fr,C1,20,keep,clean
+3458,une,one,一,DET,fr,C1,21,keep,clean
+1842,maquis,scrubland,灌木丛,NOUN,fr,C1,22,keep,clean
+1253,fléau,scourge,灾祸,NOUN,fr,C1,23,keep,clean
+1098,empirique,empirical,经验主义的,ADJ,fr,C1,24,keep,clean

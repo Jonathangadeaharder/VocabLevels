@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-68,tegen,against,反对,ADP,nl,A1,1,keep,clean
-118,eigen,own,自己的,ADJ,nl,A1,2,keep,clean
-22,hij,he,他,PRON,nl,A1,3,keep,clean
-260,leren,to learn,学习,VERB,nl,A1,4,keep,clean
-46,worden,to become,成为,AUX,nl,A1,5,keep,clean
-150,allemaal,all,全部,ADV,nl,A1,6,keep,clean
-291,gemeente,municipality,市镇,NOUN,nl,A1,7,keep,clean
-317,zaak,business,事务,NOUN,nl,A1,8,keep,clean
-337,kant,side,边,NOUN,nl,A1,9,keep,clean
-275,opnieuw,again,再次,ADV,nl,A1,10,keep,clean
-257,zodat,so that,以便,SCONJ,nl,A1,11,keep,clean
-223,nou,well,好了,ADV,nl,A1,12,keep,clean
-148,krijgen,to get,得到,VERB,nl,A1,13,keep,clean
-327,praten,to talk,说话,VERB,nl,A1,14,keep,clean
-324,bijvoorbeeld,for example,例如,ADV,nl,A1,15,keep,clean
-116,uur,hour,小时,NOUN,nl,A1,16,keep,clean
-316,partij,party,政党,NOUN,nl,A1,17,keep,clean
-130,drie,three,三,NUM,nl,A1,18,keep,clean
-13,te,to,去,PART,nl,A1,19,keep,clean
-181,nee,no,不,INTJ,nl,A1,20,keep,clean
-211,enkele,some,一些,DET,nl,A1,21,keep,clean
-185,foto,photo,照片,NOUN,nl,A1,22,keep,clean
-33,of,or,或者,CCONJ,nl,A1,23,keep,clean
+185,foto,photo,照片,NOUN,nl,A1,1,keep,clean
+264,vijf,five,五,NUM,nl,A1,2,keep,clean
+13,te,to,去,PART,nl,A1,3,keep,clean
+383,heen,away,离开,ADV,nl,A1,4,keep,clean
+42,mijn,my,我的,DET,nl,A1,5,keep,clean
+64,doen,to do,做,VERB,nl,A1,6,keep,clean
+322,nadat,after,在...之后,SCONJ,nl,A1,7,keep,clean
+110,even,just,稍等,ADV,nl,A1,8,keep,clean
+323,bedankt,thank you,谢谢,INTJ,nl,A1,9,keep,clean
+24,ze,they,他们,PRON,nl,A1,10,keep,clean
+151,beter,better,更好,ADJ,nl,A1,11,keep,clean
+134,kind,child,孩子,NOUN,nl,A1,12,keep,clean
+87,dag,day,天,NOUN,nl,A1,13,keep,clean
+100,tijdens,during,在...期间,ADP,nl,A1,14,keep,clean
+392,centrum,center,中心,NOUN,nl,A1,15,keep,clean
+258,daarom,therefore,因此,ADV,nl,A1,16,keep,clean
+95,leven,to live,生活,VERB,nl,A1,17,keep,clean
+43,wel,indeed,确实,ADV,nl,A1,18,keep,clean
+148,krijgen,to get,得到,VERB,nl,A1,19,keep,clean
+46,worden,to become,成为,AUX,nl,A1,20,keep,clean
+337,kant,side,边,NOUN,nl,A1,21,keep,clean
+381,doel,goal,目标,NOUN,nl,A1,22,keep,clean
+6,en,and,和,CCONJ,nl,A1,23,keep,clean

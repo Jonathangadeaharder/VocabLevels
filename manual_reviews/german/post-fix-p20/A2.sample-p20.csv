@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-153,jawohl,yes,是的,INTJ,de,A2,1,keep,clean
-274,sieben,seven,七,NUM,de,A2,2,keep,clean
-56,Bäcker,baker,面包师,NOUN,de,A2,3,keep,clean
-219,obwohl,although,虽然,SCONJ,de,A2,4,keep,clean
-170,Krankenhaus,hospital,医院,NOUN,de,A2,5,keep,clean
-27,bauen,to build,建造,VERB,de,A2,6,keep,clean
-357,Zeichen,sign,标志,NOUN,de,A2,7,keep,clean
-54,Chef,boss,老板,NOUN,de,A2,8,keep,clean
-43,bezahlen,to pay,支付,VERB,de,A2,9,keep,clean
-107,Geburtstag,birthday,生日,NOUN,de,A2,10,keep,clean
-268,selber,oneself,自己,PRON,de,A2,11,keep,clean
-14,Anwalt,lawyer,律师,NOUN,de,A2,12,keep,clean
-205,möchten,would like,想要,AUX,de,A2,13,keep,clean
-75,einige,some,一些,DET,de,A2,14,keep,clean
-211,neben,next to,在...旁边,ADP,de,A2,15,keep,clean
-186,Licht,light,光,NOUN,de,A2,16,keep,clean
-70,drüben,over there,在那边,ADV,de,A2,17,keep,clean
-276,Sinn,sense,意义,NOUN,de,A2,18,keep,clean
-178,Laden,shop,商店,NOUN,de,A2,19,keep,clean
-293,Szene,scene,场景,NOUN,de,A2,20,keep,clean
-366,Überraschung,surprise,惊喜,NOUN,de,A2,21,keep,clean
-182,laut,loud,大声的,ADJ,de,A2,22,keep,clean
-116,kaufen,to buy,买,VERB,de,A2,23,keep,clean
+146,Hoffnung,hope,希望,NOUN,de,A2,1,keep,clean
+321,versprechen,to promise,承诺,VERB,de,A2,2,keep,clean
+219,obwohl,although,虽然,SCONJ,de,A2,3,keep,clean
+153,jawohl,yes,是的,INTJ,de,A2,4,keep,clean
+358,ziehen,to pull,拉,VERB,de,A2,5,keep,clean
+156,jung,young,年轻的,ADJ,de,A2,6,keep,clean
+25,außerdem,besides,此外,ADV,de,A2,7,keep,clean
+293,Szene,scene,场景,NOUN,de,A2,8,keep,clean
+72,Ehe,marriage,婚姻,NOUN,de,A2,9,keep,clean
+205,möchten,would like,想要,AUX,de,A2,10,keep,clean
+299,Termin,appointment,预约,NOUN,de,A2,11,keep,clean
+106,fürs,for the,为了,ADP,de,A2,12,keep,clean
+268,selber,oneself,自己,PRON,de,A2,13,keep,clean
+303,Traum,dream,梦,NOUN,de,A2,14,keep,clean
+41,Bewegung,movement,运动,NOUN,de,A2,15,keep,clean
+3,acht,eight,八,NUM,de,A2,16,keep,clean
+5,Adresse,address,地址,NOUN,de,A2,17,keep,clean
+173,Königin,queen,女王,NOUN,de,A2,18,keep,clean
+21,Auge,eye,眼睛,NOUN,de,A2,19,keep,clean
+230,Prinzessin,princess,公主,NOUN,de,A2,20,keep,clean
+320,verschwinden,to disappear,消失,VERB,de,A2,21,keep,clean
+277,solche,such,这样的,DET,de,A2,22,keep,clean
+276,Sinn,sense,意义,NOUN,de,A2,23,keep,clean

@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-408,porque,because,因为,SCONJ,es,A1,1,keep,clean
-324,mitad,half,一半,NOUN,es,A1,2,keep,clean
-127,culpa,fault,过错/责任,NOUN,es,A1,3,keep,clean
-306,marido,husband,丈夫,NOUN,es,A1,4,keep,clean
-62,cabeza,head,头,NOUN,es,A1,5,keep,clean
-298,madre,mother,母亲,NOUN,es,A1,6,keep,clean
-26,amiga,female friend,女性朋友,NOUN,es,A1,7,keep,clean
-239,haz,beam,光束,NOUN,es,A1,8,keep,clean
-390,pequeño,small,小,ADJ,es,A1,9,keep,clean
-464,segundo,second,第二,NUM,es,A1,10,keep,clean
-25,ambos,both,两者,DET,es,A1,11,keep,clean
-395,pero,but,但是,CCONJ,es,A1,12,keep,clean
-237,hasta,until/up to,直到,ADP,es,A1,13,keep,clean
-34,asunto,matter,事情,NOUN,es,A1,14,keep,clean
-495,tal,such,这样的,ADJ,es,A1,15,keep,clean
-533,usted,you,您,PRON,es,A1,16,keep,clean
-80,carta,letter,信,NOUN,es,A1,17,keep,clean
-338,necesario,necessary,必要的,ADJ,es,A1,18,keep,clean
-257,incluso,even,甚至,ADV,es,A1,19,keep,clean
-248,hola,hello,你好,INTJ,es,A1,20,keep,clean
-178,empezar,to start,开始,VERB,es,A1,21,keep,clean
-231,haber,to have (auxiliary),有,AUX,es,A1,22,keep,clean
-50,baño,bathroom,浴室,NOUN,es,A1,23,keep,clean
-514,tontería,nonsense,废话,NOUN,es,A1,24,keep,clean
+358,odio,hate,仇恨,NOUN,es,A1,1,keep,clean
+108,con,with,和/与,ADP,es,A1,2,keep,clean
+518,trabajo,work,工作,NOUN,es,A1,3,keep,clean
+452,rey,king,国王,NOUN,es,A1,4,keep,clean
+460,salir,to leave,离开,VERB,es,A1,5,keep,clean
+211,foto,photo,照片,NOUN,es,A1,6,keep,clean
+314,mensaje,message,信息,NOUN,es,A1,7,keep,clean
+316,mes,month,月,NOUN,es,A1,8,keep,clean
+199,este,this,这个,DET,es,A1,9,keep,clean
+52,bebé,baby,婴儿,NOUN,es,A1,10,keep,clean
+42,ayuda,help,帮助,NOUN,es,A1,11,keep,clean
+248,hola,hello,你好,INTJ,es,A1,12,keep,clean
+154,diferente,different,不同的,ADJ,es,A1,13,keep,clean
+488,sorpresa,surprise,惊喜,NOUN,es,A1,14,keep,clean
+409,posible,possible,可能的,ADJ,es,A1,15,keep,clean
+467,seis,six,六,NUM,es,A1,16,keep,clean
+342,ni,nor,也不,CCONJ,es,A1,17,keep,clean
+120,cosa,thing,东西/事情,NOUN,es,A1,18,keep,clean
+431,que,that,那个,SCONJ,es,A1,19,keep,clean
+310,mañana,tomorrow,明天,ADV,es,A1,20,keep,clean
+231,haber,to have (auxiliary),有,AUX,es,A1,21,keep,clean
+23,alto,tall,高的,ADJ,es,A1,22,keep,clean
+177,ellos,they,他们,PRON,es,A1,23,keep,clean
+208,fin,end,结束,NOUN,es,A1,24,keep,clean

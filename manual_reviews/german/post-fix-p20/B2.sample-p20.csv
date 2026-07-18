@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-862,Offizier,officer,军官,NOUN,de,B2,1,keep,clean
-850,null,zero,零,NUM,de,B2,2,keep,clean
-288,Drachen,kite,风筝,NOUN,de,B2,3,keep,clean
-275,diejenigen,those,那些,DET,de,B2,4,keep,clean
-1038,servus,hello / bye,你好/再见,INTJ,de,B2,5,keep,clean
-1050,sodass,so that,以便,SCONJ,de,B2,6,keep,clean
-87,aufrichtig,sincere,真诚的,ADJ,de,B2,7,keep,clean
-891,Pille,pill,药丸,NOUN,de,B2,8,keep,clean
-1055,sowie,as well as,以及,CCONJ,de,B2,9,keep,clean
-365,Entwicklung,development,发展,NOUN,de,B2,10,keep,clean
-1024,Schwangerschaft,pregnancy,怀孕,NOUN,de,B2,11,keep,clean
-1000,Schild,sign,标志,NOUN,de,B2,12,keep,clean
-1360,Öl,oil,油,NOUN,de,B2,13,keep,clean
-978,rückwärts,backwards,向后,ADV,de,B2,14,keep,clean
-712,Kredit,credit,信用,NOUN,de,B2,15,keep,clean
-236,Bock,buck,公山羊,NOUN,de,B2,16,keep,clean
-705,Korrektur,correction,纠正,NOUN,de,B2,17,keep,clean
-833,Narbe,scar,疤痕,NOUN,de,B2,18,keep,clean
-629,jenseits,beyond,在...另一侧,ADP,de,B2,19,keep,clean
-201,bestimmen,to determine,决定,VERB,de,B2,20,keep,clean
-1204,Verhaftung,arrest,逮捕,NOUN,de,B2,21,keep,clean
-298,Durchsage,announcement,广播,NOUN,de,B2,22,keep,clean
-356,Entführung,kidnapping,绑架,NOUN,de,B2,23,keep,clean
-619,irgendjemand,anyone,任何人,PRON,de,B2,24,keep,clean
+223,Biest,beast,野兽,NOUN,de,B2,1,keep,clean
+142,Bedingung,condition,条件,NOUN,de,B2,2,keep,clean
+332,Einspruch,objection,异议,NOUN,de,B2,3,keep,clean
+234,Blutung,bleeding,出血,NOUN,de,B2,4,keep,clean
+3,abends,in the evening,在晚上,ADV,de,B2,5,keep,clean
+850,null,zero,零,NUM,de,B2,6,keep,clean
+618,irgendein,any,任何一个,DET,de,B2,7,keep,clean
+357,entgegen,against,逆,ADP,de,B2,8,keep,clean
+859,Objekt,object,物体,NOUN,de,B2,9,keep,clean
+1123,Teppich,carpet,地毯,NOUN,de,B2,10,keep,clean
+784,Marke,brand,品牌,NOUN,de,B2,11,keep,clean
+1319,Zahnarzt,dentist,牙医,NOUN,de,B2,12,keep,clean
+1335,Zorn,wrath,愤怒,NOUN,de,B2,13,keep,clean
+1056,sowohl,both,两者都,CCONJ,de,B2,14,keep,clean
+678,Knopf,button,纽扣,NOUN,de,B2,15,keep,clean
+1050,sodass,so that,以便,SCONJ,de,B2,16,keep,clean
+620,irgendwer,anyone,任何人,PRON,de,B2,17,keep,clean
+989,Satz,sentence,句子,NOUN,de,B2,18,keep,clean
+939,reagieren,react,反应,VERB,de,B2,19,keep,clean
+1252,Verzweiflung,despair,绝望,NOUN,de,B2,20,keep,clean
+683,Kokain,cocaine,可卡因,NOUN,de,B2,21,keep,clean
+1019,schräg,oblique / weird,倾斜的 / 古怪的,ADJ,de,B2,22,keep,clean
+1038,servus,hello / bye,你好/再见,INTJ,de,B2,23,keep,clean
+504,Gerücht,rumor,谣言,NOUN,de,B2,24,keep,clean

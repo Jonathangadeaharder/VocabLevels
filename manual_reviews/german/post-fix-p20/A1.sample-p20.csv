@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-18,Art,kind / type,种类,NOUN,de,A1,1,keep,clean
-405,okay,okay,好的,INTJ,de,A1,2,keep,clean
-94,fahren,to drive,驾驶,VERB,de,A1,3,keep,clean
-466,Traube,grape,葡萄,NOUN,de,A1,4,keep,clean
-62,denn,because,因为,CCONJ,de,A1,5,keep,clean
-177,keiner,none,没有人,PRON,de,A1,6,keep,clean
-452,Arbeitsstelle,job position,工作岗位,NOUN,de,A1,7,keep,clean
-475,Nuss,nut,坚果,NOUN,de,A1,8,keep,clean
-88,erst,only just,才,ADV,de,A1,9,keep,clean
-230,nicht,not,不,PART,de,A1,10,keep,clean
-113,fünf,five,五,NUM,de,A1,11,keep,clean
-561,vegetarisch,vegetarian,素食的,ADJ,de,A1,12,keep,clean
-418,Berührung,touch,接触,NOUN,de,A1,13,keep,clean
-472,Keks,cookie,饼干,NOUN,de,A1,14,keep,clean
-569,Beere,berry,莓果,NOUN,de,A1,15,keep,clean
-545,Menü,menu,菜单,NOUN,de,A1,16,keep,clean
-378,zwischen,between,在...之间,ADP,de,A1,17,keep,clean
-235,Nummer,number,号码,NOUN,de,A1,18,keep,clean
-79,ein,a / one,一个,DET,de,A1,19,keep,clean
-353,wenn,if / when,如果/当...时,SCONJ,de,A1,20,keep,clean
-56,darum,therefore,因此,ADV,de,A1,21,keep,clean
-322,Vater,father,父亲,NOUN,de,A1,22,keep,clean
-355,werden,will,将要,AUX,de,A1,23,keep,clean
-165,irgendwie,somehow,某种程度上,ADV,de,A1,24,keep,clean
+392,genau,exactly,精确地,ADV,de,A1,1,keep,clean
+95,Fall,case,情况,NOUN,de,A1,2,keep,clean
+547,ordnen,to organize,整理,VERB,de,A1,3,keep,clean
+539,Leinen,linen,线麻,NOUN,de,A1,4,keep,clean
+369,zehn,ten,十,NUM,de,A1,5,keep,clean
+512,Zahnpasta,toothpaste,牙膏,NOUN,de,A1,6,keep,clean
+204,Mal,time,次,NOUN,de,A1,7,keep,clean
+198,Leute,people,人们,NOUN,de,A1,8,keep,clean
+299,Straße,street,街道,NOUN,de,A1,9,keep,clean
+458,Opa,grandpa,爷爷,NOUN,de,A1,10,keep,clean
+276,Seite,page,页,NOUN,de,A1,11,keep,clean
+209,mein,my,我的,DET,de,A1,12,keep,clean
+230,nicht,not,不,PART,de,A1,13,keep,clean
+394,Essen,food,食物,NOUN,de,A1,14,keep,clean
+199,Liebe,love,爱,NOUN,de,A1,15,keep,clean
+239,oder,or,或者,CCONJ,de,A1,16,keep,clean
+175,können,can,能够,AUX,de,A1,17,keep,clean
+346,weil,because,因为,SCONJ,de,A1,18,keep,clean
+500,ach,oh,啊,INTJ,de,A1,19,keep,clean
+280,Sie,you (formal),您,PRON,de,A1,20,keep,clean
+232,nie,never,从不,ADV,de,A1,21,keep,clean
+155,hoch,high,高,ADJ,de,A1,22,keep,clean
+154,hinter,behind,在...后面,ADP,de,A1,23,keep,clean
+330,vielleicht,maybe,也许,ADV,de,A1,24,keep,clean

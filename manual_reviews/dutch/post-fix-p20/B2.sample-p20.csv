@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-937,aansluiting,connection,连接,NOUN,nl,B2,1,keep,clean
-825,onderneming,company,公司,NOUN,nl,B2,2,keep,clean
-163,grotendeels,largely,主要地,ADV,nl,B2,3,keep,clean
-417,vijand,enemy,敌人,NOUN,nl,B2,4,keep,clean
-562,betreffende,regarding,关于,ADP,nl,B2,5,keep,clean
-520,waarover,about which,关于什么,PRON,nl,B2,6,keep,clean
-126,wezen,to be,是,AUX,nl,B2,7,keep,clean
-546,oorsprong,origin,起源,NOUN,nl,B2,8,keep,clean
-241,prinses,princess,公主,NOUN,nl,B2,9,keep,clean
-283,geboorte,birth,出生,NOUN,nl,B2,10,keep,clean
-805,au,ouch,哎哟,INTJ,nl,B2,11,keep,clean
-712,jurk,dress,连衣裙,NOUN,nl,B2,12,keep,clean
-318,kerst,Christmas,圣诞节,NOUN,nl,B2,13,keep,clean
-455,armoede,poverty,贫穷,NOUN,nl,B2,14,keep,clean
-956,ongeval,accident,事故,NOUN,nl,B2,15,keep,clean
-21,evenals,as well as,以及,SCONJ,nl,B2,16,keep,clean
-392,alternatief,alternative,替代方案,NOUN,nl,B2,17,keep,clean
-65,noch,nor,也不,CCONJ,nl,B2,18,keep,clean
-675,handelen,to act,行动,VERB,nl,B2,19,keep,clean
-367,haast,haste,匆忙,NOUN,nl,B2,20,keep,clean
-569,federaal,federal,联邦的,ADJ,nl,B2,21,keep,clean
-221,elf,eleven,十一,NUM,nl,B2,22,keep,clean
-795,rot,rotten,腐烂的,ADJ,nl,B2,23,keep,clean
-479,verwachting,expectation,期望,NOUN,nl,B2,24,keep,clean
+402,neef,cousin,堂兄弟,NOUN,nl,B2,1,keep,clean
+184,competitie,competition,比赛,NOUN,nl,B2,2,keep,clean
+136,heden,present,现在,NOUN,nl,B2,3,keep,clean
+682,massa,mass,大量,NOUN,nl,B2,4,keep,clean
+392,alternatief,alternative,替代方案,NOUN,nl,B2,5,keep,clean
+371,licht,light,轻的,ADJ,nl,B2,6,keep,clean
+280,domein,domain,领域,NOUN,nl,B2,7,keep,clean
+929,tijdperk,era,时代,NOUN,nl,B2,8,keep,clean
+101,visie,vision,愿景,NOUN,nl,B2,9,keep,clean
+982,bovenop,on top of,在...之上,ADP,nl,B2,10,keep,clean
+21,evenals,as well as,以及,SCONJ,nl,B2,11,keep,clean
+299,religie,religion,宗教,NOUN,nl,B2,12,keep,clean
+65,noch,nor,也不,CCONJ,nl,B2,13,keep,clean
+238,opa,grandpa,爷爷,NOUN,nl,B2,14,keep,clean
+520,waarover,about which,关于什么,PRON,nl,B2,15,keep,clean
+439,promotie,promotion,晋升,NOUN,nl,B2,16,keep,clean
+16,vermist,missing,失踪的,ADJ,nl,B2,17,keep,clean
+285,slagen,to pass,通过,VERB,nl,B2,18,keep,clean
+554,voortaan,henceforth,今后,ADV,nl,B2,19,keep,clean
+126,wezen,to be,是,AUX,nl,B2,20,keep,clean
+805,au,ouch,哎哟,INTJ,nl,B2,21,keep,clean
+262,kasteel,castle,城堡,NOUN,nl,B2,22,keep,clean
+132,dertig,thirty,三十,NUM,nl,B2,23,keep,clean
+483,beurs,stock exchange,证券交易所,NOUN,nl,B2,24,keep,clean

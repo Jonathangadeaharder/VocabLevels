@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-297,一些,some,一些,DET,zh,B2,1,keep,clean
-80,观点,viewpoint,观点,NOUN,zh,B2,2,keep,clean
-1584,失误,mistake,失误,NOUN,zh,B2,3,keep,clean
-1412,因,because of,因,ADP,zh,B2,4,keep,clean
-1140,参议员,senator,参议员,NOUN,zh,B2,5,keep,clean
-1142,及,and,及,CCONJ,zh,B2,6,keep,clean
-227,闻,smell,闻,VERB,zh,B2,7,keep,clean
-1343,响应,to respond to,响应,VERB,zh,B2,8,keep,clean
-260,鞭炮,firecracker,鞭炮,NOUN,zh,B2,9,keep,clean
-553,也就是说,that is to say,也就是说,SCONJ,zh,B2,10,keep,clean
-1390,嘿嘿,hehe,嘿嘿,INTJ,zh,B2,11,keep,clean
-1265,吓人,scary,吓人,ADJ,zh,B2,12,keep,clean
-578,事迹,deed,事迹,NOUN,zh,B2,13,keep,clean
-191,逻辑,logic,逻辑,NOUN,zh,B2,14,keep,clean
-1356,哪来,where from,哪来,PRON,zh,B2,15,keep,clean
-383,不住,cannot stay,不住,PART,zh,B2,16,keep,clean
-188,通常,usually,通常,ADV,zh,B2,17,keep,clean
-99,设施,facilities,设施,NOUN,zh,B2,18,keep,clean
-714,作出,to make,作出,VERB,zh,B2,19,keep,clean
-982,初,beginning,初,NOUN,zh,B2,20,keep,clean
-382,不会,will not,不会,AUX,zh,B2,21,keep,clean
-321,一把,one handful,一把,NUM,zh,B2,22,keep,clean
-678,会长,chairman,会长,NOUN,zh,B2,23,keep,clean
-128,账户,account,账户,NOUN,zh,B2,24,keep,clean
+1060,勇士,warrior,勇士,NOUN,zh,B2,1,keep,clean
+1558,大致,roughly,大致,ADV,zh,B2,2,keep,clean
+645,代价,price,代价,NOUN,zh,B2,3,keep,clean
+1104,南部,southern part,南部,NOUN,zh,B2,4,keep,clean
+420,不敢当,I don't deserve your praise,不敢当,INTJ,zh,B2,5,keep,clean
+1616,她们,they (female),她们,PRON,zh,B2,6,keep,clean
+1468,坦白,frank,坦白,ADJ,zh,B2,7,keep,clean
+1335,品质,quality,品质,NOUN,zh,B2,8,keep,clean
+383,不住,cannot stay,不住,PART,zh,B2,9,keep,clean
+327,一条,one (long),一条,NUM,zh,B2,10,keep,clean
+1368,商人,merchant,商人,NOUN,zh,B2,11,keep,clean
+850,公众,public,公众,NOUN,zh,B2,12,keep,clean
+725,使命,mission,使命,NOUN,zh,B2,13,keep,clean
+652,以免,in order to avoid,以免,SCONJ,zh,B2,14,keep,clean
+445,不论,no matter,不论,CCONJ,zh,B2,15,keep,clean
+471,丢下,leave behind,丢下,VERB,zh,B2,16,keep,clean
+559,书记,secretary,书记,NOUN,zh,B2,17,keep,clean
+1097,协议,agreement,协议,NOUN,zh,B2,18,keep,clean
+669,优先,priority,优先,NOUN,zh,B2,19,keep,clean
+540,之外,besides,之外,ADP,zh,B2,20,keep,clean
+297,一些,some,一些,DET,zh,B2,21,keep,clean
+393,不可,cannot,不可,AUX,zh,B2,22,keep,clean
+1273,听到,to hear,听到,VERB,zh,B2,23,keep,clean
+391,不到,cannot reach,不到,VERB,zh,B2,24,keep,clean

@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-231,haber,to have (auxiliary),有,AUX,es,A1,1,keep,clean
-408,porque,because,因为,SCONJ,es,A1,2,keep,clean
-356,o,or,或者,CCONJ,es,A1,3,keep,clean
-128,cumpleaños,birthday,生日,NOUN,es,A1,4,keep,clean
-17,aire,air,空气,NOUN,es,A1,5,keep,clean
-288,llave,key,钥匙,NOUN,es,A1,6,keep,clean
-472,serio,serious,严肃的,ADJ,es,A1,7,keep,clean
-504,temprano,early,早,ADV,es,A1,8,keep,clean
-546,vista,view,景色,NOUN,es,A1,9,keep,clean
-495,tal,such,这样的,ADJ,es,A1,10,keep,clean
-398,pie,foot,脚,NOUN,es,A1,11,keep,clean
-2,a,to,到,ADP,es,A1,12,keep,clean
-83,caso,case,情况,NOUN,es,A1,13,keep,clean
-219,fácil,easy,容易的,ADJ,es,A1,14,keep,clean
-535,vale,okay,好的,INTJ,es,A1,15,keep,clean
-404,poco,little,少,DET,es,A1,16,keep,clean
-98,cliente,customer,顾客,NOUN,es,A1,17,keep,clean
-386,pelo,hair,头发,NOUN,es,A1,18,keep,clean
-531,uno,one,一,NUM,es,A1,19,keep,clean
-94,cita,appointment,约会,NOUN,es,A1,20,keep,clean
-145,derecho,right,右边,NOUN,es,A1,21,keep,clean
-136,dar,to give,给,VERB,es,A1,22,keep,clean
-34,asunto,matter,事情,NOUN,es,A1,23,keep,clean
-436,quién,who,谁,PRON,es,A1,24,keep,clean
+535,vale,okay,好的,INTJ,es,A1,1,keep,clean
+286,listo,ready,准备好的,ADJ,es,A1,2,keep,clean
+547,vivir,to live,居住,VERB,es,A1,3,keep,clean
+362,oportunidad,opportunity,机会,NOUN,es,A1,4,keep,clean
+320,mientras,while,当...时,SCONJ,es,A1,5,keep,clean
+231,haber,to have (auxiliary),有,AUX,es,A1,6,keep,clean
+531,uno,one,一,NUM,es,A1,7,keep,clean
+493,suficiente,enough,足够的,ADJ,es,A1,8,keep,clean
+22,alma,soul,灵魂,NOUN,es,A1,9,keep,clean
+29,ante,before,在...面前,ADP,es,A1,10,keep,clean
+174,el,the,这/那,DET,es,A1,11,keep,clean
+253,idiota,idiot,白痴,NOUN,es,A1,12,keep,clean
+552,vuelta,return,回来,NOUN,es,A1,13,keep,clean
+34,asunto,matter,事情,NOUN,es,A1,14,keep,clean
+56,boda,wedding,婚礼,NOUN,es,A1,15,keep,clean
+473,servicio,service,服务,NOUN,es,A1,16,keep,clean
+151,detrás,behind,在后面,ADV,es,A1,17,keep,clean
+395,pero,but,但是,CCONJ,es,A1,18,keep,clean
+280,les,them,他们,PRON,es,A1,19,keep,clean
+204,falta,lack,缺乏,NOUN,es,A1,20,keep,clean
+249,hombre,man,男人,NOUN,es,A1,21,keep,clean
+273,justo,fair,公平的,ADJ,es,A1,22,keep,clean
+385,peligro,danger,危险,NOUN,es,A1,23,keep,clean
+87,centro,center,中心,NOUN,es,A1,24,keep,clean

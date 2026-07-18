@@ -1,121 +1,121 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-261,自行车,bicycle,自行车,NOUN,zh,A1,1,keep,clean
-353,办法,way,办法,NOUN,zh,A1,2,keep,clean
-125,的,possessive particle,的,PART,zh,A1,3,keep,clean
-540,虽然,although,虽然,SCONJ,zh,A1,4,keep,clean
-34,再见,goodbye,再见,INTJ,zh,A1,5,keep,clean
-483,特别,especially,特别,ADV,zh,A1,6,keep,clean
-427,护照,passport,护照,NOUN,zh,A1,7,keep,clean
-162,但是,but,但是,CCONJ,zh,A1,8,keep,clean
-118,爸爸,dad / father,爸爸,NOUN,zh,A1,9,keep,clean
-55,哪儿,where,哪儿,PRON,zh,A1,10,keep,clean
-351,刻,quarter,刻,NOUN,zh,A1,11,keep,clean
-170,出,to go out,出,VERB,zh,A1,12,keep,clean
-180,向,toward,向,ADP,zh,A1,13,keep,clean
-173,千,thousand,千,NUM,zh,A1,14,keep,clean
-361,厨房,kitchen,厨房,NOUN,zh,A1,15,keep,clean
-74,字,character / word,字,NOUN,zh,A1,16,keep,clean
-259,羊肉,mutton,羊肉,NOUN,zh,A1,17,keep,clean
-413,应该,should,应该,AUX,zh,A1,18,keep,clean
-499,短,short,短,ADJ,zh,A1,19,keep,clean
-350,刷,to brush,刷,VERB,zh,A1,20,keep,clean
-93,打电话,to make a phone call,打电话,VERB,zh,A1,21,keep,clean
-216,房间,room,房间,NOUN,zh,A1,22,keep,clean
-184,哥哥,older brother,哥哥,NOUN,zh,A1,23,keep,clean
-236,每,each / every,每,DET,zh,A1,24,keep,clean
-136,各,each,各,DET,zh,A2,1,keep,clean
-473,脏,dirty,脏,ADJ,zh,A2,2,keep,clean
-240,怀疑,to doubt,怀疑,VERB,zh,A2,3,keep,clean
-132,可是,but,可是,CCONJ,zh,A2,4,keep,clean
-179,大约,approximately,大约,ADV,zh,A2,5,keep,clean
-231,当,to be,当,VERB,zh,A2,6,keep,clean
-145,呀,(particle equivalent to 啊 after a vowel),呀,PART,zh,A2,7,keep,clean
-551,重点,key point,重点,NOUN,zh,A2,8,keep,clean
-219,年龄,age,年龄,NOUN,zh,A2,9,keep,clean
-572,风景,scenery,风景,NOUN,zh,A2,10,keep,clean
-283,掉,to fall,掉,VERB,zh,A2,11,keep,clean
-134,号码,number,号码,NOUN,zh,A2,12,keep,clean
-2,不管,no matter,不管,SCONJ,zh,A2,13,keep,clean
-514,谈,to talk,谈,VERB,zh,A2,14,keep,clean
-397,生活,life,生活,NOUN,zh,A2,15,keep,clean
-238,心情,mood,心情,NOUN,zh,A2,16,keep,clean
-39,任何,any,任何,PRON,zh,A2,17,keep,clean
-35,代替,to replace,代替,VERB,zh,A2,18,keep,clean
-200,对话,dialogue,对话,NOUN,zh,A2,19,keep,clean
-524,趟,classifier for trips,趟,NUM,zh,A2,20,keep,clean
-377,火,fire,火,NOUN,zh,A2,21,keep,clean
-202,导游,tour guide,导游,NOUN,zh,A2,22,keep,clean
-297,收拾,to put in order,收拾,VERB,zh,A2,23,keep,clean
-281,按照,according to,按照,ADP,zh,A2,24,keep,clean
-198,劳驾,excuse me,劳驾,INTJ,zh,B1,1,keep,clean
-129,充分,sufficient,充分,ADJ,zh,B1,2,keep,clean
-208,匹,classifier for horses,匹,NUM,zh,B1,3,keep,clean
-96,何况,let alone,何况,CCONJ,zh,B1,4,keep,clean
-842,玩具,toy,玩具,NOUN,zh,B1,5,keep,clean
-89,似的,like,似的,PART,zh,B1,6,keep,clean
-161,决心,determination,决心,NOUN,zh,B1,7,keep,clean
-407,宿舍,dormitory,宿舍,NOUN,zh,B1,8,keep,clean
-626,提问,to question,提问,VERB,zh,B1,9,keep,clean
-356,如何,how,如何,ADV,zh,B1,10,keep,clean
-164,凡是,all,凡是,DET,zh,B1,11,keep,clean
-500,彼此,each other,彼此,PRON,zh,B1,12,keep,clean
-910,祖先,ancestor,祖先,NOUN,zh,B1,13,keep,clean
-180,利润,profit,利润,NOUN,zh,B1,14,keep,clean
-687,是否,whether or not,是否,SCONJ,zh,B1,15,keep,clean
-270,后果,consequences,后果,NOUN,zh,B1,16,keep,clean
-442,工人,worker,工人,NOUN,zh,B1,17,keep,clean
-691,晒,to dry in the sun,晒,AUX,zh,B1,18,keep,clean
-604,挥,to wave,挥,VERB,zh,B1,19,keep,clean
-410,对于,regarding,对于,ADP,zh,B1,20,keep,clean
-641,收据,receipt,收据,NOUN,zh,B1,21,keep,clean
-108,保存,to save,保存,VERB,zh,B1,22,keep,clean
-25,个人,individual / personal,个人,NOUN,zh,B1,23,keep,clean
-542,感想,impressions,感想,NOUN,zh,B1,24,keep,clean
-898,再来,come again,再来,VERB,zh,B2,1,keep,clean
-383,不住,cannot stay,不住,PART,zh,B2,2,keep,clean
-880,其,his/her/its,其,PRON,zh,B2,3,keep,clean
-444,不许,not allow,不许,AUX,zh,B2,4,keep,clean
-1389,嘿,hey,嘿,INTJ,zh,B2,5,keep,clean
-281,骨头,bone,骨头,NOUN,zh,B2,6,keep,clean
-1265,吓人,scary,吓人,ADJ,zh,B2,7,keep,clean
-267,领域,field,领域,NOUN,zh,B2,8,keep,clean
-1257,后代,descendant,后代,NOUN,zh,B2,9,keep,clean
-1058,势必,bound to,势必,ADV,zh,B2,10,keep,clean
-587,井,a well,井,NOUN,zh,B2,11,keep,clean
-297,一些,some,一些,DET,zh,B2,12,keep,clean
-522,主角,protagonist,主角,NOUN,zh,B2,13,keep,clean
-1275,听见,to hear,听见,VERB,zh,B2,14,keep,clean
-906,军,army,军,NOUN,zh,B2,15,keep,clean
-325,一晚,one night,一晚,NUM,zh,B2,16,keep,clean
-856,公式,formula,公式,NOUN,zh,B2,17,keep,clean
-445,不论,no matter,不论,CCONJ,zh,B2,18,keep,clean
-577,事故,accident,事故,NOUN,zh,B2,19,keep,clean
-830,免得,so as not to,免得,SCONJ,zh,B2,20,keep,clean
-26,脖子,neck,脖子,NOUN,zh,B2,21,keep,clean
-1509,处境,plight,处境,NOUN,zh,B2,22,keep,clean
-1591,夸张,exaggerate,夸张,VERB,zh,B2,23,keep,clean
-1412,因,because of,因,ADP,zh,B2,24,keep,clean
-1264,薄荷,mint,薄荷,NOUN,zh,C1,1,keep,clean
-528,或,or,或,PART,zh,C1,2,keep,clean
-197,岳父,father-in-law,岳父,NOUN,zh,C1,3,keep,clean
-2697,教条,dogma,教条,NOUN,zh,C1,4,keep,clean
-615,注意力,attention,注意力,NOUN,zh,C1,5,keep,clean
-329,当中,among,当中,ADP,zh,C1,6,keep,clean
-1722,环保技术,environmental technology,环保技术,NOUN,zh,C1,7,keep,clean
-88,害死,to cause death,害死,VERB,zh,C1,8,keep,clean
-1793,音乐剧,musical,音乐剧,NOUN,zh,C1,9,keep,clean
-1328,荔枝,lychee,荔枝,NOUN,zh,C1,10,keep,clean
-1390,腹泻,diarrhea,腹泻,NOUN,zh,C1,11,keep,clean
-1588,社会传统,social tradition,社会传统,NOUN,zh,C1,12,keep,clean
-1946,民间,folk,民间,ADJ,zh,C1,13,keep,clean
-257,幸会,nice to meet you,幸会,INTJ,zh,C1,14,keep,clean
-2223,启动仪式,launch ceremony,启动仪式,NOUN,zh,C1,15,keep,clean
-2,如同,as,如同,SCONJ,zh,C1,16,keep,clean
-772,销售者,seller,销售者,NOUN,zh,C1,17,keep,clean
-253,并,and,并,CCONJ,zh,C1,18,keep,clean
-8,妳,you (female),妳,PRON,zh,C1,19,keep,clean
-2895,格言,maxim,格言,NOUN,zh,C1,20,keep,clean
-2158,按天,daily,按天,ADV,zh,C1,21,keep,clean
-270,应,should,应,AUX,zh,C1,22,keep,clean
-790,接受者,receiver,接受者,NOUN,zh,C1,23,keep,clean
-2489,必修课,required course,必修课,NOUN,zh,C1,24,keep,clean
+277,运动,sports / exercise,运动,NOUN,zh,A1,1,keep,clean
+521,绿,green,绿,ADJ,zh,A1,2,keep,clean
+5,上,up / above,上,ADP,zh,A1,3,keep,clean
+143,那,that,那,PRON,zh,A1,4,keep,clean
+372,司机,driver,司机,NOUN,zh,A1,5,keep,clean
+50,吗,question particle,吗,PART,zh,A1,6,keep,clean
+194,姐姐,older sister,姐姐,NOUN,zh,A1,7,keep,clean
+196,孩子,child,孩子,NOUN,zh,A1,8,keep,clean
+583,音乐,music,音乐,NOUN,zh,A1,9,keep,clean
+545,表示,to express,表示,VERB,zh,A1,10,keep,clean
+57,喂,hello,喂,INTJ,zh,A1,11,keep,clean
+162,但是,but,但是,CCONJ,zh,A1,12,keep,clean
+542,行李箱,suitcase,行李箱,NOUN,zh,A1,13,keep,clean
+123,电脑,computer,电脑,NOUN,zh,A1,14,keep,clean
+21,些,some,些,DET,zh,A1,15,keep,clean
+32,八,eight,八,NUM,zh,A1,16,keep,clean
+351,刻,quarter,刻,NOUN,zh,A1,17,keep,clean
+135,衣服,clothes,衣服,NOUN,zh,A1,18,keep,clean
+9,下雨,to rain,下雨,VERB,zh,A1,19,keep,clean
+332,先,first,先,ADV,zh,A1,20,keep,clean
+434,放,to put,放,VERB,zh,A1,21,keep,clean
+217,所以,therefore,所以,SCONJ,zh,A1,22,keep,clean
+328,信,letter,信,NOUN,zh,A1,23,keep,clean
+131,能,can / to be able to,能,AUX,zh,A1,24,keep,clean
+142,否则,otherwise,否则,CCONJ,zh,A2,1,keep,clean
+578,首都,capital (city),首都,NOUN,zh,A2,2,keep,clean
+362,活泼,lively,活泼,ADJ,zh,A2,3,keep,clean
+15,主意,idea,主意,NOUN,zh,A2,4,keep,clean
+125,受不了,cannot bear,受不了,VERB,zh,A2,5,keep,clean
+234,往,to go (in a direction),往,VERB,zh,A2,6,keep,clean
+591,万一,just in case,万一,SCONJ,zh,A2,7,keep,clean
+281,按照,according to,按照,ADP,zh,A2,8,keep,clean
+76,内容,content,内容,NOUN,zh,A2,9,keep,clean
+102,十分,very,十分,ADV,zh,A2,10,keep,clean
+388,猪,pig,猪,NOUN,zh,A2,11,keep,clean
+135,吃惊,to be surprised,吃惊,VERB,zh,A2,12,keep,clean
+320,日记,diary,日记,NOUN,zh,A2,13,keep,clean
+17,之,of,之,PART,zh,A2,14,keep,clean
+66,入口,entrance,入口,NOUN,zh,A2,15,keep,clean
+287,推迟,to postpone,推迟,VERB,zh,A2,16,keep,clean
+53,信心,confidence,信心,NOUN,zh,A2,17,keep,clean
+491,西红柿,tomato,西红柿,NOUN,zh,A2,18,keep,clean
+300,放暑假,to have summer vacation,放暑假,VERB,zh,A2,19,keep,clean
+72,其中,among them,其中,PRON,zh,A2,20,keep,clean
+258,所有,all,所有,DET,zh,A2,21,keep,clean
+353,气候,climate,气候,NOUN,zh,A2,22,keep,clean
+342,棵,classifier for trees,棵,NUM,zh,A2,23,keep,clean
+348,死,to die,死,VERB,zh,A2,24,keep,clean
+291,哈,ha,哈,INTJ,zh,B1,1,keep,clean
+42,书架,bookshelf,书架,NOUN,zh,B1,2,keep,clean
+301,嗓子,throat,嗓子,NOUN,zh,B1,3,keep,clean
+69,以及,as well as,以及,CCONJ,zh,B1,4,keep,clean
+434,届,session,届,NOUN,zh,B1,5,keep,clean
+164,凡是,all,凡是,DET,zh,B1,6,keep,clean
+833,状况,condition,状况,NOUN,zh,B1,7,keep,clean
+260,各自,each,各自,PRON,zh,B1,8,keep,clean
+355,如今,nowadays,如今,ADV,zh,B1,9,keep,clean
+332,壶,pot,壶,NOUN,zh,B1,10,keep,clean
+165,凭,by means of,凭,ADP,zh,B1,11,keep,clean
+770,注册,to register,注册,VERB,zh,B1,12,keep,clean
+344,太太,wife,太太,NOUN,zh,B1,13,keep,clean
+89,似的,like,似的,PART,zh,B1,14,keep,clean
+104,侵略,to invade,侵略,VERB,zh,B1,15,keep,clean
+310,固定,fixed,固定,ADJ,zh,B1,16,keep,clean
+691,晒,to dry in the sun,晒,AUX,zh,B1,17,keep,clean
+664,文具,stationery,文具,NOUN,zh,B1,18,keep,clean
+760,汇率,exchange rate,汇率,NOUN,zh,B1,19,keep,clean
+120,假如,if,假如,SCONJ,zh,B1,20,keep,clean
+231,参考,to consult; reference,参考,VERB,zh,B1,21,keep,clean
+189,前途,prospects,前途,NOUN,zh,B1,22,keep,clean
+872,皮鞋,leather shoes,皮鞋,NOUN,zh,B1,23,keep,clean
+208,匹,classifier for horses,匹,NUM,zh,B1,24,keep,clean
+890,内心,inner heart,内心,NOUN,zh,B2,1,keep,clean
+858,公民,citizen,公民,NOUN,zh,B2,2,keep,clean
+1200,古董,antique,古董,NOUN,zh,B2,3,keep,clean
+297,一些,some,一些,DET,zh,B2,4,keep,clean
+1122,历代,successive generations,历代,NOUN,zh,B2,5,keep,clean
+380,不仅仅,not only,不仅仅,ADV,zh,B2,6,keep,clean
+672,优越,superior,优越,ADJ,zh,B2,7,keep,clean
+1332,品尝,taste,品尝,VERB,zh,B2,8,keep,clean
+1331,咱俩,we two,咱俩,PRON,zh,B2,9,keep,clean
+409,不得,must not,不得,AUX,zh,B2,10,keep,clean
+1116,印刷,to print,印刷,VERB,zh,B2,11,keep,clean
+543,之间,between,之间,ADP,zh,B2,12,keep,clean
+479,两只,two (animals),两只,NUM,zh,B2,13,keep,clean
+541,之所以,the reason why,之所以,SCONJ,zh,B2,14,keep,clean
+388,不关,not about,不关,VERB,zh,B2,15,keep,clean
+99,设施,facilities,设施,NOUN,zh,B2,16,keep,clean
+199,部门,department,部门,NOUN,zh,B2,17,keep,clean
+1326,咦,huh,咦,INTJ,zh,B2,18,keep,clean
+1142,及,and,及,CCONJ,zh,B2,19,keep,clean
+927,准则,norm,准则,NOUN,zh,B2,20,keep,clean
+1329,咯,particle,咯,PART,zh,B2,21,keep,clean
+579,事项,matter,事项,NOUN,zh,B2,22,keep,clean
+371,下属,subordinate,下属,NOUN,zh,B2,23,keep,clean
+258,面积,area,面积,NOUN,zh,B2,24,keep,clean
+401,怎样,how,怎样,PRON,zh,C1,1,keep,clean
+1717,深海技术,deep sea technology,深海技术,NOUN,zh,C1,2,keep,clean
+257,幸会,nice to meet you,幸会,INTJ,zh,C1,3,keep,clean
+270,应,should,应,AUX,zh,C1,4,keep,clean
+2327,钞票,banknote,钞票,NOUN,zh,C1,5,keep,clean
+703,困境,predicament,困境,NOUN,zh,C1,6,keep,clean
+6,妥善,appropriate,妥善,ADJ,zh,C1,7,keep,clean
+253,并,and,并,CCONJ,zh,C1,8,keep,clean
+866,死刑,death penalty,死刑,NOUN,zh,C1,9,keep,clean
+1749,棉布,cotton cloth,棉布,NOUN,zh,C1,10,keep,clean
+1777,小提琴,violin,小提琴,NOUN,zh,C1,11,keep,clean
+1696,物联网,Internet of Things,物联网,NOUN,zh,C1,12,keep,clean
+1330,山竹,mangosteen,山竹,NOUN,zh,C1,13,keep,clean
+1340,葵花籽,sunflower seed,葵花籽,NOUN,zh,C1,14,keep,clean
+2,如同,as,如同,SCONJ,zh,C1,15,keep,clean
+1776,钢琴,piano,钢琴,NOUN,zh,C1,16,keep,clean
+329,当中,among,当中,ADP,zh,C1,17,keep,clean
+1410,脱臼,dislocation,脱臼,NOUN,zh,C1,18,keep,clean
+1706,智能合约,smart contract,智能合约,NOUN,zh,C1,19,keep,clean
+256,并非,is not,并非,ADV,zh,C1,20,keep,clean
+528,或,or,或,PART,zh,C1,21,keep,clean
+315,弥补,to make up for,弥补,VERB,zh,C1,22,keep,clean
+867,终身监禁,life imprisonment,终身监禁,NOUN,zh,C1,23,keep,clean
+2128,前夕,eve,前夕,NOUN,zh,C1,24,keep,clean

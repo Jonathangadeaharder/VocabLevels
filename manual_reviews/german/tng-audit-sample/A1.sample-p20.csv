@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-372,Zimmer,room,房间,NOUN,de,A1,1,keep,clean
-461,Zugfahrt,train ride,火车旅程,NOUN,de,A1,2,keep,clean
-50,damals,back then,那时,ADV,de,A1,3,keep,clean
-388,Änderung,change,改变,NOUN,de,A1,4,keep,clean
-197,letzt,last,最后的,ADJ,de,A1,5,keep,clean
-35,bevor,before,在...之前,SCONJ,de,A1,6,keep,clean
-440,Türsteher,doorman,门卫,NOUN,de,A1,7,keep,clean
-166,ja,yes,是的,INTJ,de,A1,8,keep,clean
-437,Elternteil,parent,父母之一,NOUN,de,A1,9,keep,clean
-11,Alte,old person,老人,NOUN,de,A1,10,keep,clean
-169,jemand,someone,某人,PRON,de,A1,11,keep,clean
-318,und,and,和,CCONJ,de,A1,12,keep,clean
-282,sofort,immediately,立即,ADV,de,A1,13,keep,clean
-277,selbst,oneself,本身,ADV,de,A1,14,keep,clean
-228,nein,no,不,PART,de,A1,15,keep,clean
-289,Spaß,fun,乐趣,NOUN,de,A1,16,keep,clean
-162,ihr,her / their,她的 / 他们的,DET,de,A1,17,keep,clean
-528,Ameise,ant,蚂蚁,NOUN,de,A1,18,keep,clean
-27,bei,at,在,ADP,de,A1,19,keep,clean
-160,Idee,idea,主意,NOUN,de,A1,20,keep,clean
-369,zehn,ten,十,NUM,de,A1,21,keep,clean
-516,Vormittag,forenoon,上午,NOUN,de,A1,22,keep,clean
-484,kämmen,comb,梳头,VERB,de,A1,23,keep,clean
-73,dürfen,to be allowed,允许,AUX,de,A1,24,keep,clean
+24,Baby,baby,婴儿,NOUN,de,A1,1,keep,clean
+484,kämmen,comb,梳头,VERB,de,A1,2,keep,clean
+313,trotzdem,nevertheless,尽管如此,ADV,de,A1,3,keep,clean
+386,tschüss,bye,再见,INTJ,de,A1,4,keep,clean
+422,welcher,which,哪个,PRON,de,A1,5,keep,clean
+228,nein,no,不,PART,de,A1,6,keep,clean
+375,zurück,back,回来,ADV,de,A1,7,keep,clean
+241,ohne,without,没有,ADP,de,A1,8,keep,clean
+57,dass,that,（引导从句）,SCONJ,de,A1,9,keep,clean
+318,und,and,和,CCONJ,de,A1,10,keep,clean
+71,drei,three,三,NUM,de,A1,11,keep,clean
+128,Geschichte,story,故事,NOUN,de,A1,12,keep,clean
+314,Tür,door,门,NOUN,de,A1,13,keep,clean
+220,müssen,must,必须,AUX,de,A1,14,keep,clean
+337,Wagen,vehicle,车辆,NOUN,de,A1,15,keep,clean
+277,selbst,oneself,本身,ADV,de,A1,16,keep,clean
+412,Stand,status,地位,NOUN,de,A1,17,keep,clean
+260,Sache,thing,事情,NOUN,de,A1,18,keep,clean
+305,Telefon,telephone,电话,NOUN,de,A1,19,keep,clean
+578,Schulhof,schoolyard,校园,NOUN,de,A1,20,keep,clean
+79,ein,a / one,一个,DET,de,A1,21,keep,clean
+134,gleich,equal,一样的,ADJ,de,A1,22,keep,clean
+43,Bruder,brother,兄弟,NOUN,de,A1,23,keep,clean
+268,Schuld,fault,过错,NOUN,de,A1,24,keep,clean

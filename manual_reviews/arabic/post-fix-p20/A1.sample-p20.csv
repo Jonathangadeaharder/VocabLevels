@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-521,ورقة,paper,纸,NOUN,ar,A1,1,keep,clean
-339,عين,eye,眼睛,NOUN,ar,A1,2,keep,clean
-299,طلب,request,请求,VERB,ar,A1,3,keep,clean
-476,مئة,hundred,百,NUM,ar,A1,4,keep,clean
-356,ديك,rooster,公鸡,NOUN,ar,A1,5,keep,clean
-220,سلاح,weapon/arms,武器,NOUN,ar,A1,6,keep,clean
-316,ريف,countryside,乡村,NOUN,ar,A1,7,keep,clean
-131,خالة,maternal aunt,姨妈,NOUN,ar,A1,8,keep,clean
-374,قَبْلَ,before,在...之前,ADP,ar,A1,9,keep,clean
-418,لمن,to whom,对谁,PRON,ar,A1,10,keep,clean
-315,عرف,know,知道,VERB,ar,A1,11,keep,clean
-213,سطل,bucket,桶,NOUN,ar,A1,12,keep,clean
-474,سكين,knife,刀,NOUN,ar,A1,13,keep,clean
-250,شكرا,thank you,谢谢,INTJ,ar,A1,14,keep,clean
-5,أجنبي,foreigner,外国人,NOUN,ar,A1,15,keep,clean
-216,سكت,be quiet,安静,VERB,ar,A1,16,keep,clean
-403,كِلَا,both,两者,DET,ar,A1,17,keep,clean
-79,جد,grandfather,祖父,NOUN,ar,A1,18,keep,clean
-272,صرف,exchange (money),兑换,NOUN,ar,A1,19,keep,clean
-440,مُرّ,bitter,苦的,ADJ,ar,A1,20,keep,clean
-410,لا,no,不,PART,ar,A1,21,keep,clean
-178,رَجُل,man,男人,NOUN,ar,A1,22,keep,clean
-342,غدًا,tomorrow,明天,ADV,ar,A1,23,keep,clean
-404,كَلْب,dog,狗,NOUN,ar,A1,24,keep,clean
+45,تحت,under,在...下,ADP,ar,A1,1,keep,clean
+332,عم,uncle,叔叔,NOUN,ar,A1,2,keep,clean
+213,سطل,bucket,桶,NOUN,ar,A1,3,keep,clean
+266,إصبع,finger/toe,手指/脚趾,NOUN,ar,A1,4,keep,clean
+58,تلاتين,thirty,三十,NUM,ar,A1,5,keep,clean
+259,صابون,soap,肥皂,NOUN,ar,A1,6,keep,clean
+475,ميكانيكي,mechanic,机械师,NOUN,ar,A1,7,keep,clean
+409,لا,no,不,PART,ar,A1,8,keep,clean
+280,ضحك,laugh,笑,VERB,ar,A1,9,keep,clean
+501,تلك,that (feminine),那个,DET,ar,A1,10,keep,clean
+87,جفف,dry,弄干,VERB,ar,A1,11,keep,clean
+325,عصير,juice,果汁,NOUN,ar,A1,12,keep,clean
+295,طحن,grind,磨,VERB,ar,A1,13,keep,clean
+169,دائماً,always,总是,ADV,ar,A1,14,keep,clean
+492,نملة,ant,蚂蚁,NOUN,ar,A1,15,keep,clean
+392,كِبْطَان,coat,外套,NOUN,ar,A1,16,keep,clean
+383,قَمَر,moon,月亮,NOUN,ar,A1,17,keep,clean
+239,كم,how much,多少,PRON,ar,A1,18,keep,clean
+159,طفل,child,孩子,NOUN,ar,A1,19,keep,clean
+152,دار,house,房子,NOUN,ar,A1,20,keep,clean
+262,كاف,enough/okay,足够/好的,ADJ,ar,A1,21,keep,clean
+457,مُعَلِّم,teacher,老师,NOUN,ar,A1,22,keep,clean
+198,سَائِح,tourist,游客,NOUN,ar,A1,23,keep,clean
+442,مَرْحَبًا,welcome,欢迎,INTJ,ar,A1,24,keep,clean

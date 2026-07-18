@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-152,cinq,five,五,NUM,fr,A1,1,keep,clean
-456,ma,my,我的,DET,fr,A1,2,keep,clean
-161,clé,key,钥匙,NOUN,fr,A1,3,keep,clean
-19,allô,hello,喂,INTJ,fr,A1,4,keep,clean
-334,front,forehead,额头,NOUN,fr,A1,5,keep,clean
-26,appeler,to call,呼叫,VERB,fr,A1,6,keep,clean
-384,heure,hour,小时,NOUN,fr,A1,7,keep,clean
-448,loin,far,远,ADV,fr,A1,8,keep,clean
-104,car,because,因为,CCONJ,fr,A1,9,keep,clean
-23,an,year,年,NOUN,fr,A1,10,keep,clean
-275,entrain,enthusiasm,热情,NOUN,fr,A1,11,keep,clean
-396,humide,damp,潮湿的,ADJ,fr,A1,12,keep,clean
-10,adieu,farewell,再见,NOUN,fr,A1,13,keep,clean
-178,contre,against,反对,ADP,fr,A1,14,keep,clean
-184,cou,neck,脖子,NOUN,fr,A1,15,keep,clean
-408,inscrire,to register,登记,VERB,fr,A1,16,keep,clean
-55,barbe,beard,胡须,NOUN,fr,A1,17,keep,clean
-197,croix,cross,十字架,NOUN,fr,A1,18,keep,clean
-115,celui,that one,那个,PRON,fr,A1,19,keep,clean
-136,chaîne,chain,链条,NOUN,fr,A1,20,keep,clean
-94,bâtiment,building,建筑物,NOUN,fr,A1,21,keep,clean
-433,lac,lake,湖,NOUN,fr,A1,22,keep,clean
-120,cervelle,brain,大脑,NOUN,fr,A1,23,keep,clean
+519,musique,music,音乐,NOUN,fr,A1,1,keep,clean
+334,front,forehead,额头,NOUN,fr,A1,2,keep,clean
+116,centre,center,中心,NOUN,fr,A1,3,keep,clean
+254,effet,effect,效果,NOUN,fr,A1,4,keep,clean
+140,cheval,horse,马,NOUN,fr,A1,5,keep,clean
+371,guerre,war,战争,NOUN,fr,A1,6,keep,clean
+255,elle,she,她,PRON,fr,A1,7,keep,clean
+483,mes,my,我的,DET,fr,A1,8,keep,clean
+471,mari,husband,丈夫,NOUN,fr,A1,9,keep,clean
+51,balle,ball,球,NOUN,fr,A1,10,keep,clean
+147,choisir,to choose,选择,VERB,fr,A1,11,keep,clean
+242,durant,during,在...期间,ADP,fr,A1,12,keep,clean
+82,boutique,shop,商店,NOUN,fr,A1,13,keep,clean
+131,chapeau,hat,帽子,NOUN,fr,A1,14,keep,clean
+493,mille,thousand,千,NUM,fr,A1,15,keep,clean
+490,midi,noon,中午,NOUN,fr,A1,16,keep,clean
+104,car,because,因为,CCONJ,fr,A1,17,keep,clean
+478,mauvais,bad,坏的,ADJ,fr,A1,18,keep,clean
+317,fils,son,儿子,NOUN,fr,A1,19,keep,clean
+273,entendre,to hear,听见,VERB,fr,A1,20,keep,clean
+386,hier,yesterday,昨天,ADV,fr,A1,21,keep,clean
+19,allô,hello,喂,INTJ,fr,A1,22,keep,clean
+66,blé,wheat,小麦,NOUN,fr,A1,23,keep,clean

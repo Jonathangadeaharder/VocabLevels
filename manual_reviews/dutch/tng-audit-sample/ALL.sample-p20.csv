@@ -1,119 +1,119 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-277,muziek,music,音乐,NOUN,nl,A1,1,keep,clean
-163,houden,to keep,保持,VERB,nl,A1,2,keep,clean
-263,regio,region,地区,NOUN,nl,A1,3,keep,clean
-148,krijgen,to get,得到,VERB,nl,A1,4,keep,clean
-387,tien,ten,十,NUM,nl,A1,5,keep,clean
-319,langs,along,沿着,ADP,nl,A1,6,keep,clean
-30,dit,this,这个,PRON,nl,A1,7,keep,clean
-239,terwijl,while,当……时,SCONJ,nl,A1,8,keep,clean
-390,huidig,current,当前的,ADJ,nl,A1,9,keep,clean
-266,der,the,（定冠词）,DET,nl,A1,10,keep,clean
-269,verhaal,story,故事,NOUN,nl,A1,11,keep,clean
-178,vraag,question,问题,NOUN,nl,A1,12,keep,clean
-13,te,to,去,PART,nl,A1,13,keep,clean
-358,lid,member,成员,NOUN,nl,A1,14,keep,clean
-274,horen,to hear,听见,VERB,nl,A1,15,keep,clean
-40,al,already,已经,ADV,nl,A1,16,keep,clean
-97,toen,when,当时,ADV,nl,A1,17,keep,clean
-262,ongeveer,about,大约,ADV,nl,A1,18,keep,clean
-19,maar,but,但是,CCONJ,nl,A1,19,keep,clean
-103,ja,yes,是,INTJ,nl,A1,20,keep,clean
-39,zo,so,这样,ADV,nl,A1,21,keep,clean
-47,hebben,to have,有,AUX,nl,A1,22,keep,clean
-361,plek,place,地方,NOUN,nl,A1,23,keep,clean
-34,ver,far,远的,ADJ,nl,A2,1,keep,clean
-227,eeuw,century,世纪,NOUN,nl,A2,2,keep,clean
-185,markt,market,市场,NOUN,nl,A2,3,keep,clean
-139,tekst,text,文本,NOUN,nl,A2,4,keep,clean
-17,grond,ground,地面,NOUN,nl,A2,5,keep,clean
-65,totaal,total,总计,NOUN,nl,A2,6,keep,clean
-301,zomaar,just like that,随便地,ADV,nl,A2,7,keep,clean
-115,hoogte,height,高度,NOUN,nl,A2,8,keep,clean
-232,vakantie,holiday,假期,NOUN,nl,A2,9,keep,clean
-44,waarop,on which,在其上,PRON,nl,A2,10,keep,clean
-159,kerk,church,教堂,NOUN,nl,A2,11,keep,clean
-317,aangezien,since,既然,SCONJ,nl,A2,12,keep,clean
-49,gek,crazy,疯狂的,ADJ,nl,A2,13,keep,clean
-76,eiland,island,岛屿,NOUN,nl,A2,14,keep,clean
-294,hoi,hi,嗨,INTJ,nl,A2,15,keep,clean
-116,ondanks,despite,尽管,ADP,nl,A2,16,keep,clean
-234,waarheid,truth,真相,NOUN,nl,A2,17,keep,clean
-349,slachtoffer,victim,受害者,NOUN,nl,A2,18,keep,clean
-214,geluk,happiness,幸福,NOUN,nl,A2,19,keep,clean
-84,fijn,fine,好,ADJ,nl,A2,20,keep,clean
+173,vandaag,today,今天,ADV,nl,A1,1,keep,clean
+329,einde,end,结束,NOUN,nl,A1,2,keep,clean
+82,echt,real,真的,ADJ,nl,A1,3,keep,clean
+227,groep,group,组,NOUN,nl,A1,4,keep,clean
+386,provincie,province,省,NOUN,nl,A1,5,keep,clean
+304,beginnen,to start,开始,VERB,nl,A1,6,keep,clean
+109,net,just,刚刚,ADV,nl,A1,7,keep,clean
+330,kamer,room,房间,NOUN,nl,A1,8,keep,clean
+353,stuk,piece,块,NOUN,nl,A1,9,keep,clean
+244,pas,only just,刚刚,ADV,nl,A1,10,keep,clean
+120,willen,to want,想要,VERB,nl,A1,11,keep,clean
+47,hebben,to have,有,AUX,nl,A1,12,keep,clean
+24,ze,they,他们,PRON,nl,A1,13,keep,clean
+211,enkele,some,一些,DET,nl,A1,14,keep,clean
+157,zeker,certainly,当然,ADV,nl,A1,15,keep,clean
+264,vijf,five,五,NUM,nl,A1,16,keep,clean
+149,want,because,因为,CCONJ,nl,A1,17,keep,clean
+241,zorgen,to ensure,确保,VERB,nl,A1,18,keep,clean
+93,zoals,as,像,SCONJ,nl,A1,19,keep,clean
+13,te,to,去,PART,nl,A1,20,keep,clean
+140,deel,part,部分,NOUN,nl,A1,21,keep,clean
+103,ja,yes,是,INTJ,nl,A1,22,keep,clean
+161,volgens,according to,根据,ADP,nl,A1,23,keep,clean
+183,ene,one,一个的,ADJ,nl,A2,1,keep,clean
+43,waarmee,with which,用以,PRON,nl,A2,2,keep,clean
+95,voelen,to feel,感觉,VERB,nl,A2,3,keep,clean
+281,overzicht,overview,概述,NOUN,nl,A2,4,keep,clean
+212,strijd,struggle,斗争,NOUN,nl,A2,5,keep,clean
+208,haat,hate,仇恨,NOUN,nl,A2,6,keep,clean
+16,ervoor,for it,为此,ADV,nl,A2,7,keep,clean
+179,cultuur,culture,文化,NOUN,nl,A2,8,keep,clean
+156,dankzij,thanks to,多亏,ADP,nl,A2,9,keep,clean
+321,bewijs,proof,证据,NOUN,nl,A2,10,keep,clean
+332,mama,mom,妈妈,NOUN,nl,A2,11,keep,clean
+55,los,loose,松的,ADJ,nl,A2,12,keep,clean
+129,acht,eight,八,NUM,nl,A2,13,keep,clean
+294,hoi,hi,嗨,INTJ,nl,A2,14,keep,clean
+320,beweging,movement,运动,NOUN,nl,A2,15,keep,clean
+270,last,burden,负担,NOUN,nl,A2,16,keep,clean
+233,veiligheid,safety,安全,NOUN,nl,A2,17,keep,clean
+352,waarde,value,价值,NOUN,nl,A2,18,keep,clean
+21,seizoen,season,季节,NOUN,nl,A2,19,keep,clean
+188,samenwerking,cooperation,合作,NOUN,nl,A2,20,keep,clean
 341,allerlei,all kinds,各种各样的,DET,nl,A2,21,keep,clean
-226,begrijpen,to understand,理解,VERB,nl,A2,22,keep,clean
-129,acht,eight,八,NUM,nl,A2,23,keep,clean
-112,zulke,such,这样的,DET,nl,B1,1,keep,clean
-100,beroep,profession,职业,NOUN,nl,B1,2,keep,clean
-81,zuiden,south,南方,NOUN,nl,B1,3,keep,clean
-247,omhoog,upwards,向上,ADV,nl,B1,4,keep,clean
-465,ontbijt,breakfast,早餐,NOUN,nl,B1,5,keep,clean
-197,voet,foot,脚,NOUN,nl,B1,6,keep,clean
-77,onderwerp,subject,主题,NOUN,nl,B1,7,keep,clean
-147,eigenaar,owner,所有者,NOUN,nl,B1,8,keep,clean
-323,dichtbij,near,附近,ADP,nl,B1,9,keep,clean
-334,betekenis,meaning,意义,NOUN,nl,B1,10,keep,clean
-4,oost,east,东,NOUN,nl,B1,11,keep,clean
-481,houten,wooden,木制的,ADJ,nl,B1,12,keep,clean
-40,wijze,manner,方式,NOUN,nl,B1,13,keep,clean
-108,miljard,billion,十亿,NUM,nl,B1,14,keep,clean
-494,appartement,apartment,公寓,NOUN,nl,B1,15,keep,clean
-49,risico,risk,风险,NOUN,nl,B1,16,keep,clean
-376,belachelijk,ridiculous,荒谬的,ADJ,nl,B1,17,keep,clean
-66,zolang,as long as,只要,SCONJ,nl,B1,18,keep,clean
-504,sommigen,some,有些人,PRON,nl,B1,19,keep,clean
-61,indruk,impression,印象,NOUN,nl,B1,20,keep,clean
-497,handig,handy,方便的,ADJ,nl,B1,21,keep,clean
-242,gefeliciteerd,congratulations,恭喜,INTJ,nl,B1,22,keep,clean
-48,reizen,to travel,旅行,VERB,nl,B1,23,keep,clean
-125,kleding,clothing,服装,NOUN,nl,B1,24,keep,clean
-296,nek,neck,脖子,NOUN,nl,B2,1,keep,clean
-302,symbool,symbol,象征,NOUN,nl,B2,2,keep,clean
-506,Australisch,Australian,澳大利亚的,ADJ,nl,B2,3,keep,clean
-1028,neerslag,precipitation,降水,NOUN,nl,B2,4,keep,clean
-822,moslim,Muslim,穆斯林,NOUN,nl,B2,5,keep,clean
-206,toezicht,supervision,监督,NOUN,nl,B2,6,keep,clean
-304,vandaar,hence,因此,ADV,nl,B2,7,keep,clean
-21,evenals,as well as,以及,SCONJ,nl,B2,8,keep,clean
-791,oppervlakte,surface,表面,NOUN,nl,B2,9,keep,clean
-57,beveiliging,security,安全,NOUN,nl,B2,10,keep,clean
-65,noch,nor,也不,CCONJ,nl,B2,11,keep,clean
-528,daaraan,to that,对此,PRON,nl,B2,12,keep,clean
-939,ai,ouch,哎哟,INTJ,nl,B2,13,keep,clean
-515,omvang,scope,范围,NOUN,nl,B2,14,keep,clean
-356,verzameling,collection,收集,NOUN,nl,B2,15,keep,clean
-56,behandelen,to treat,对待,VERB,nl,B2,16,keep,clean
-62,hout,wood,木材,NOUN,nl,B2,17,keep,clean
-126,wezen,to be,是,AUX,nl,B2,18,keep,clean
-221,elf,eleven,十一,NUM,nl,B2,19,keep,clean
-562,betreffende,regarding,关于,ADP,nl,B2,20,keep,clean
-485,creatief,creative,有创造力的,ADJ,nl,B2,21,keep,clean
-128,assistent,assistant,助手,NOUN,nl,B2,22,keep,clean
-334,beheer,management,管理,NOUN,nl,B2,23,keep,clean
-216,ziel,soul,灵魂,NOUN,nl,B2,24,keep,clean
-1512,resten,remains,残骸,NOUN,nl,C1,1,keep,clean
-1234,achtertuin,backyard,后院,NOUN,nl,C1,2,keep,clean
-1166,versus,vs,与...相对,ADP,nl,C1,3,keep,clean
-345,meesten,most,大多数人,PRON,nl,C1,4,keep,clean
-810,boter,butter,黄油,NOUN,nl,C1,5,keep,clean
-542,gewoonte,habit,习惯,NOUN,nl,C1,6,keep,clean
-1313,huisdier,pet,宠物,NOUN,nl,C1,7,keep,clean
-565,tiener,teenager,青少年,NOUN,nl,C1,8,keep,clean
-1497,mobiliteit,mobility,流动性,NOUN,nl,C1,9,keep,clean
-753,zege,victory,胜利,NOUN,nl,C1,10,keep,clean
-173,horloge,watch,手表,NOUN,nl,C1,11,keep,clean
-1690,opvoeden,to raise,抚养,VERB,nl,C1,12,keep,clean
-1620,mits,provided that,只要,SCONJ,nl,C1,13,keep,clean
-1828,schijnbaar,apparently,表面上,ADV,nl,C1,14,keep,clean
-1112,afwezigheid,absence,缺席,NOUN,nl,C1,15,keep,clean
-95,tekening,drawing,画,NOUN,nl,C1,16,keep,clean
-1669,renoveren,to renovate,翻新,VERB,nl,C1,17,keep,clean
-1341,uiten,to express,表达,VERB,nl,C1,18,keep,clean
-1967,proost,cheers,干杯,INTJ,nl,C1,19,keep,clean
-1692,overbodig,redundant,多余的,ADJ,nl,C1,20,keep,clean
-227,sluiting,closure,关闭,NOUN,nl,C1,21,keep,clean
-280,vleugel,wing,翅膀,NOUN,nl,C1,22,keep,clean
-1445,negentig,ninety,九十,NUM,nl,C1,23,keep,clean
-1994,óf,or,或者,CCONJ,nl,C1,24,keep,clean
+169,betrokken,involved,涉及的,ADJ,nl,A2,22,keep,clean
+3,alsof,as if,好像,SCONJ,nl,A2,23,keep,clean
+525,bestellen,to order,订购,VERB,nl,B1,1,keep,clean
+446,technologie,technology,技术,NOUN,nl,B1,2,keep,clean
+197,voet,foot,脚,NOUN,nl,B1,3,keep,clean
+157,stukje,piece,小块,NOUN,nl,B1,4,keep,clean
+208,inzet,stake,赌注,NOUN,nl,B1,5,keep,clean
+112,zulke,such,这样的,DET,nl,B1,6,keep,clean
+399,alsjeblieft,please,请,INTJ,nl,B1,7,keep,clean
+479,gisteravond,last night,昨晚,ADV,nl,B1,8,keep,clean
+515,namens,on behalf of,代表,ADP,nl,B1,9,keep,clean
+114,afspraak,appointment,预约,NOUN,nl,B1,10,keep,clean
+405,kwaad,angry,生气的,ADJ,nl,B1,11,keep,clean
+187,geest,spirit,精神,NOUN,nl,B1,12,keep,clean
+326,gemeenschap,community,社区,NOUN,nl,B1,13,keep,clean
+517,oproep,call,呼叫,NOUN,nl,B1,14,keep,clean
+369,slim,smart,聪明的,ADJ,nl,B1,15,keep,clean
+390,techniek,technology,技术,NOUN,nl,B1,16,keep,clean
+96,totdat,until,直到,SCONJ,nl,B1,17,keep,clean
+180,afhankelijk,dependent,依赖的,ADJ,nl,B1,18,keep,clean
+514,kabinet,cabinet,内阁,NOUN,nl,B1,19,keep,clean
+84,burger,citizen,公民,NOUN,nl,B1,20,keep,clean
+191,rapport,report,报告,NOUN,nl,B1,21,keep,clean
+217,zoiets,something like that,类似的事物,PRON,nl,B1,22,keep,clean
+459,honderd,one hundred,一百,NUM,nl,B1,23,keep,clean
+492,uitslag,result,结果,NOUN,nl,B1,24,keep,clean
+510,inkomsten,income,收入,NOUN,nl,B2,1,keep,clean
+520,waarover,about which,关于什么,PRON,nl,B2,2,keep,clean
+805,au,ouch,哎哟,INTJ,nl,B2,3,keep,clean
+944,capaciteit,capacity,能力,NOUN,nl,B2,4,keep,clean
+909,bezetting,occupation,占领,NOUN,nl,B2,5,keep,clean
+667,branden,to burn,燃烧,VERB,nl,B2,6,keep,clean
+21,evenals,as well as,以及,SCONJ,nl,B2,7,keep,clean
+977,beperkingen,limits,限制,NOUN,nl,B2,8,keep,clean
+642,grondgebied,territory,领土,NOUN,nl,B2,9,keep,clean
+374,melk,milk,牛奶,NOUN,nl,B2,10,keep,clean
+126,wezen,to be,是,AUX,nl,B2,11,keep,clean
+65,noch,nor,也不,CCONJ,nl,B2,12,keep,clean
+303,tekort,shortage,短缺,NOUN,nl,B2,13,keep,clean
+63,instituut,institute,学院,NOUN,nl,B2,14,keep,clean
+47,instantie,agency,机构,NOUN,nl,B2,15,keep,clean
+726,voorsprong,lead,领先,NOUN,nl,B2,16,keep,clean
+779,genoemd,mentioned,被提及的,ADJ,nl,B2,17,keep,clean
+565,destijds,at that time,当时,ADV,nl,B2,18,keep,clean
+398,methode,method,方法,NOUN,nl,B2,19,keep,clean
+862,plotseling,sudden,突然的,ADJ,nl,B2,20,keep,clean
+115,nabij,near,在附近,ADP,nl,B2,21,keep,clean
+132,dertig,thirty,三十,NUM,nl,B2,22,keep,clean
+247,toepassing,application,应用,NOUN,nl,B2,23,keep,clean
+291,koers,course,航线,NOUN,nl,B2,24,keep,clean
+1495,letsel,injury,伤害,NOUN,nl,C1,1,keep,clean
+181,oprecht,sincere,真诚的,ADJ,nl,C1,2,keep,clean
+1974,schorsing,suspension,停职,NOUN,nl,C1,3,keep,clean
+1529,zijkant,side,侧面,NOUN,nl,C1,4,keep,clean
+769,hol,hole,洞,NOUN,nl,C1,5,keep,clean
+167,diegene,that one,那个人,PRON,nl,C1,6,keep,clean
+1382,omheen,around,周围,ADV,nl,C1,7,keep,clean
+1307,storen,to disturb,打扰,VERB,nl,C1,8,keep,clean
+1316,kleinzoon,grandson,孙子,NOUN,nl,C1,9,keep,clean
+109,bende,gang,帮派,NOUN,nl,C1,10,keep,clean
+1281,uploaden,to upload,上传,VERB,nl,C1,11,keep,clean
+1130,goeds,good,好处,NOUN,nl,C1,12,keep,clean
+1994,óf,or,或者,CCONJ,nl,C1,13,keep,clean
+797,zeventig,seventy,七十,NUM,nl,C1,14,keep,clean
+1491,kloof,gap,鸿沟,NOUN,nl,C1,15,keep,clean
+1081,jegens,towards,对,ADP,nl,C1,16,keep,clean
+1064,doei,bye,再见,INTJ,nl,C1,17,keep,clean
+1001,uitzetten,to turn off,关闭,VERB,nl,C1,18,keep,clean
+1726,certificaat,certificate,证书,NOUN,nl,C1,19,keep,clean
+1954,kerkhof,cemetery,公墓,NOUN,nl,C1,20,keep,clean
+1881,kikker,frog,青蛙,NOUN,nl,C1,21,keep,clean
+1620,mits,provided that,只要,SCONJ,nl,C1,22,keep,clean
+896,aanloop,run-up,助跑,NOUN,nl,C1,23,keep,clean
+1405,verlenging,extension,延长,NOUN,nl,C1,24,keep,clean

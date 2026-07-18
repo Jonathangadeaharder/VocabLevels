@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-152,senaste,latest,最新的,ADJ,sv,A2,1,keep,clean
-256,andas,breathe,呼吸,VERB,sv,A2,2,keep,clean
-299,diskutera,discuss,讨论,VERB,sv,A2,3,keep,clean
-57,ingen,no,没有,DET,sv,A2,4,keep,clean
-34,herregud,oh my god,我的天,INTJ,sv,A2,5,keep,clean
-290,byggnad,building,建筑物,NOUN,sv,A2,6,keep,clean
-99,medan,while,当...时,SCONJ,sv,A2,7,keep,clean
-263,antingen,either,要么,CCONJ,sv,A2,8,keep,clean
-214,ursäkta,excuse,原谅,VERB,sv,A2,9,keep,clean
-183,synd,shame/pity,遗憾,NOUN,sv,A2,10,keep,clean
-221,varandra,each other,互相,PRON,sv,A2,11,keep,clean
-188,så,so/thus,所以/如此,ADV,sv,A2,12,keep,clean
-35,historia,history/story,历史/故事,NOUN,sv,A2,13,keep,clean
-179,stund,moment,片刻,NOUN,sv,A2,14,keep,clean
-236,ändå,yet,仍然,ADV,sv,A2,15,keep,clean
-307,död,death,死亡,NOUN,sv,A2,16,keep,clean
-141,roll,role,角色,NOUN,sv,A2,17,keep,clean
-36,hit,here/hither,这里/到这里,ADV,sv,A2,18,keep,clean
-289,bygga,build,建造,VERB,sv,A2,19,keep,clean
-135,redan,already,已经,ADV,sv,A2,20,keep,clean
-185,säker,surely/safe,肯定地,ADV,sv,A2,21,keep,clean
-160,ska,will/shall,将要/会,AUX,sv,A2,22,keep,clean
-107,mot,against,反对,ADP,sv,A2,23,keep,clean
+224,vart,where,去哪里,ADV,sv,A2,1,keep,clean
+217,ute,out,在外面,ADV,sv,A2,2,keep,clean
+292,både,both,两者都,CCONJ,sv,A2,3,keep,clean
+274,bestämma,decide,决定,VERB,sv,A2,4,keep,clean
+117,någonsin,ever,曾经,ADV,sv,A2,5,keep,clean
+20,gud,god,神,NOUN,sv,A2,6,keep,clean
+57,ingen,no,没有,DET,sv,A2,7,keep,clean
+198,tjej,girl/girlfriend,女孩/女朋友,NOUN,sv,A2,8,keep,clean
+132,prata,talk,说话,VERB,sv,A2,9,keep,clean
+206,typ,type/like,类型/比如,NOUN,sv,A2,10,keep,clean
+142,runt,around,围绕,ADP,sv,A2,11,keep,clean
+270,behålla,keep,保留,VERB,sv,A2,12,keep,clean
+69,kan,can,能,AUX,sv,A2,13,keep,clean
+255,än,than,比,SCONJ,sv,A2,14,keep,clean
+239,åh,oh,哦,INTJ,sv,A2,15,keep,clean
+211,uppe,up,在上面,ADV,sv,A2,16,keep,clean
+289,bygga,build,建造,VERB,sv,A2,17,keep,clean
+19,grund,ground/basis,基础/理由,NOUN,sv,A2,18,keep,clean
+276,besviken,disappointed,失望的,ADJ,sv,A2,19,keep,clean
+287,bråttom,in a hurry,匆忙,ADV,sv,A2,20,keep,clean
+220,vapen,weapon,武器,NOUN,sv,A2,21,keep,clean
+131,polis,police,警察,NOUN,sv,A2,22,keep,clean
+32,henne,her,她,PRON,sv,A2,23,keep,clean

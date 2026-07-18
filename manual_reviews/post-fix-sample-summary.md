@@ -1,20 +1,20 @@
-# Post-fix p20 summary (inventory-driven)
+# Post-fix p20 summary (postfix-inv2)
 
-Seed `20260719:postfix-inv`.
+Seed `20260719:postfix-inv2`.
 
-## Dialect inventory
-File: `manual_reviews/arabic/dialect-residual-inventory.csv`
-Rows: 15 (drop=13, policy=2)
+## Inventory
+`manual_reviews/arabic/dialect-residual-inventory.csv` expanded closed set.
+Drops applied include: راه, بلاتي, مبروك, بنة, طَاحَ, واش, هادشي, …
 
-## Sample verdicts (post-fix)
+## DE/NL
+- german C1: wart removed (finite past); sein present
+- dutch C1: contracten → contract
+
+## Sample
 Total: 951
-{'keep': 951}
-policy-labeled keeps: 0
-correctness fix/drop in sample: 0
+Verdicts: {'keep': 951}
+Correctness fix/drop in sample: 0
+policy keeps: 0
 
-## Non-keep (correctness)
-_None remaining in list as keep/clean._
-
-## Definition of zero defects
-0 sample rows with verdict fix/drop (those must be applied to lists first).
-Policy keeps use notes `policy:dialect-MSA-exception`, never bare clean for inventory dialect.
+## Non-keep correctness
+_None._

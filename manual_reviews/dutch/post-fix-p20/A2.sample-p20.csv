@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-333,proces,process,过程,NOUN,nl,A2,1,keep,clean
-259,niveau,level,水平,NOUN,nl,A2,2,keep,clean
-251,schuld,debt,债务,NOUN,nl,A2,3,keep,clean
-262,zon,sun,太阳,NOUN,nl,A2,4,keep,clean
-175,keuze,choice,选择,NOUN,nl,A2,5,keep,clean
-294,hoi,hi,嗨,INTJ,nl,A2,6,keep,clean
-323,eruit,out,出来,ADV,nl,A2,7,keep,clean
-328,directeur,director,经理,NOUN,nl,A2,8,keep,clean
-249,oplossing,solution,解决方案,NOUN,nl,A2,9,keep,clean
-22,vallen,to fall,掉落,VERB,nl,A2,10,keep,clean
-254,welk,which,哪个,PRON,nl,A2,11,keep,clean
-341,allerlei,all kinds,各种各样的,DET,nl,A2,12,keep,clean
-140,vs,versus,对比,ADP,nl,A2,13,keep,clean
-93,straat,street,街道,NOUN,nl,A2,14,keep,clean
-38,hoewel,although,虽然,SCONJ,nl,A2,15,keep,clean
-173,jong,young,年轻的,ADJ,nl,A2,16,keep,clean
-40,stap,step,步,NOUN,nl,A2,17,keep,clean
-86,kop,head,头,NOUN,nl,A2,18,keep,clean
-25,bericht,message,消息,NOUN,nl,A2,19,keep,clean
-23,algemeen,general,一般的,ADJ,nl,A2,20,keep,clean
-171,gelegen,located,位于,ADJ,nl,A2,21,keep,clean
-282,rij,row,排,NOUN,nl,A2,22,keep,clean
-129,acht,eight,八,NUM,nl,A2,23,keep,clean
+174,kennis,knowledge,知识,NOUN,nl,A2,1,keep,clean
+350,trein,train,火车,NOUN,nl,A2,2,keep,clean
+103,periode,period,时期,NOUN,nl,A2,3,keep,clean
+155,zeven,seven,七,NUM,nl,A2,4,keep,clean
+280,oosten,east,东方,NOUN,nl,A2,5,keep,clean
+60,helaas,unfortunately,不幸地,ADV,nl,A2,6,keep,clean
+172,heer,gentleman,先生,NOUN,nl,A2,7,keep,clean
+135,overheid,government,政府,NOUN,nl,A2,8,keep,clean
+156,dankzij,thanks to,多亏,ADP,nl,A2,9,keep,clean
+279,maandag,Monday,星期一,NOUN,nl,A2,10,keep,clean
+64,sterk,strong,强壮的,ADJ,nl,A2,11,keep,clean
+225,aarde,earth,地球,NOUN,nl,A2,12,keep,clean
+38,hoewel,although,虽然,SCONJ,nl,A2,13,keep,clean
+214,geluk,happiness,幸福,NOUN,nl,A2,14,keep,clean
+341,allerlei,all kinds,各种各样的,DET,nl,A2,15,keep,clean
+89,normaal,normal,正常,ADJ,nl,A2,16,keep,clean
+185,markt,market,市场,NOUN,nl,A2,17,keep,clean
+294,hoi,hi,嗨,INTJ,nl,A2,18,keep,clean
+43,waarmee,with which,用以,PRON,nl,A2,19,keep,clean
+212,strijd,struggle,斗争,NOUN,nl,A2,20,keep,clean
+79,pijn,pain,疼痛,NOUN,nl,A2,21,keep,clean
+169,betrokken,involved,涉及的,ADJ,nl,A2,22,keep,clean
+336,vervangen,to replace,替换,VERB,nl,A2,23,keep,clean

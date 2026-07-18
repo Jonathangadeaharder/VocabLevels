@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-691,晒,to dry in the sun,晒,AUX,zh,B1,1,keep,clean
-99,作品,work,作品,NOUN,zh,B1,2,keep,clean
-164,凡是,all,凡是,DET,zh,B1,3,keep,clean
-875,目前,at the present time,目前,ADV,zh,B1,4,keep,clean
-858,电池,battery,电池,NOUN,zh,B1,5,keep,clean
-122,健身房,gym,健身房,NOUN,zh,B1,6,keep,clean
-190,剪刀,scissors,剪刀,NOUN,zh,B1,7,keep,clean
-98,作为,as,作为,ADP,zh,B1,8,keep,clean
-242,发明,to invent,发明,VERB,zh,B1,9,keep,clean
-294,唉,alas,唉,INTJ,zh,B1,10,keep,clean
-70,以来,since,以来,PART,zh,B1,11,keep,clean
-120,假如,if,假如,SCONJ,zh,B1,12,keep,clean
-258,台阶,steps,台阶,NOUN,zh,B1,13,keep,clean
-488,当代,contemporary,当代,NOUN,zh,B1,14,keep,clean
-96,何况,let alone,何况,CCONJ,zh,B1,15,keep,clean
-749,武器,weapon,武器,NOUN,zh,B1,16,keep,clean
-626,提问,to question,提问,VERB,zh,B1,17,keep,clean
-781,海关,customs,海关,NOUN,zh,B1,18,keep,clean
-260,各自,each,各自,PRON,zh,B1,19,keep,clean
-208,匹,classifier for horses,匹,NUM,zh,B1,20,keep,clean
-24,严肃,solemn,严肃,ADJ,zh,B1,21,keep,clean
-981,编辑,to edit,编辑,VERB,zh,B1,22,keep,clean
-498,影子,shadow,影子,NOUN,zh,B1,23,keep,clean
-547,戏剧,drama,戏剧,NOUN,zh,B1,24,keep,clean
+60,人才,talent,人才,NOUN,zh,B1,1,keep,clean
+691,晒,to dry in the sun,晒,AUX,zh,B1,2,keep,clean
+98,作为,as,作为,ADP,zh,B1,3,keep,clean
+208,匹,classifier for horses,匹,NUM,zh,B1,4,keep,clean
+198,劳驾,excuse me,劳驾,INTJ,zh,B1,5,keep,clean
+500,彼此,each other,彼此,PRON,zh,B1,6,keep,clean
+796,滚,boil,滚,VERB,zh,B1,7,keep,clean
+433,居然,unexpectedly,居然,ADV,zh,B1,8,keep,clean
+886,眉毛,eyebrow,眉毛,NOUN,zh,B1,9,keep,clean
+959,繁荣,prosperous,繁荣,ADJ,zh,B1,10,keep,clean
+130,充满,to be full of,充满,VERB,zh,B1,11,keep,clean
+961,纪律,discipline,纪律,NOUN,zh,B1,12,keep,clean
+191,力量,power,力量,NOUN,zh,B1,13,keep,clean
+89,似的,like,似的,PART,zh,B1,14,keep,clean
+313,圈,circle,圈,NOUN,zh,B1,15,keep,clean
+180,利润,profit,利润,NOUN,zh,B1,16,keep,clean
+164,凡是,all,凡是,DET,zh,B1,17,keep,clean
+120,假如,if,假如,SCONJ,zh,B1,18,keep,clean
+903,硬币,coin,硬币,NOUN,zh,B1,19,keep,clean
+505,心理,psychology,心理,NOUN,zh,B1,20,keep,clean
+704,期间,period of time,期间,NOUN,zh,B1,21,keep,clean
+629,摄影,photography,摄影,NOUN,zh,B1,22,keep,clean
+16,与其,rather than,与其,CCONJ,zh,B1,23,keep,clean
+807,炒,stir-fry,炒,VERB,zh,B1,24,keep,clean

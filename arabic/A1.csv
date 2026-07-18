@@ -360,7 +360,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فكر,think,思考,VERB
 فلاح,farmer,农民,NOUN
 نقود,money,钱,NOUN
-فم,mouth,嘴,NOUN
 فهم,understand,理解,VERB
 منشفة,towel,毛巾,NOUN
 فوق,above,在...上面,ADP
@@ -443,7 +442,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مَرْحَبًا,welcome,欢迎,INTJ
 مَرْضِيّ,satisfied,满意的,ADJ
 مَرِيض,sick,生病的,ADJ
-مُزْيَان,good,好的,ADJ
 مَسْخُوط,cursed,被诅咒的,ADJ
 مَسْدُود,blocked,堵塞的,ADJ
 مُسَمَّن,msemmen,摩洛哥煎饼,NOUN
@@ -512,7 +510,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 واحد,one,一,NUM
 واد,valley,山谷,NOUN
 واسع,wide,宽阔的,ADJ
-واعر,cool / difficult (colloquial),酷 / 困难（口语）,ADJ
 وجه,face,脸,NOUN
 أذن,ear,耳朵,NOUN
 ورد,rose,玫瑰,NOUN
@@ -525,3 +522,4 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ولد,boy,男孩,NOUN
 يد,hand,手,NOUN
 يوم,day,天,NOUN
+فم,mouth,嘴,NOUN

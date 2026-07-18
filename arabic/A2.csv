@@ -101,7 +101,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كرموس,fig,无花果,NOUN
 هندية,prickly pear,仙人掌果,NOUN
 شهية,appetite,食欲,NOUN
-بنة,flavor,味道,NOUN
 ريحة,smell,气味,NOUN
 نسيب,in-law,姻亲,NOUN
 حموة,mother-in-law,婆婆,NOUN
@@ -465,13 +464,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 وحدة,unit,单位,NOUN
 زعما,supposedly,据说,ADV
 يعني,I mean,意思是,PART
-بلاتي,wait,等一下,INTJ
 أجي,come here,过来,VERB
-سير,go,走,VERB
-راه,indeed,确实,PART
 إلا,if,如果,SCONJ
 ولا,or,或者,CCONJ
-مبروك,congratulations,恭喜,INTJ
 بشوية,a little,一点,ADV
 مع,with,和,ADP
 بلا,without,没有,ADP
@@ -479,7 +474,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حتى,until,直到,SCONJ
 غير,only,只有,ADV
 واقيلا,probably,可能,ADV
-لازم,must,必须,AUX
 حمام,public bath,公共浴室,NOUN
 بلدية,municipality,市政厅,NOUN
 ملعب,stadium,体育场,NOUN

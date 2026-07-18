@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-304,adres,address,地址,NOUN,nl,B1,1,keep,clean
-338,keuken,kitchen,厨房,NOUN,nl,B1,2,keep,clean
-119,fantastisch,fantastic,极好的,ADJ,nl,B1,3,keep,clean
-205,gebruiker,user,用户,NOUN,nl,B1,4,keep,clean
-273,uitspraak,pronunciation,发音,NOUN,nl,B1,5,keep,clean
-401,beiden,both,两者,PRON,nl,B1,6,keep,clean
-353,daarin,in it,在其中,ADV,nl,B1,7,keep,clean
-418,indien,if,如果,SCONJ,nl,B1,8,keep,clean
-527,deelname,participation,参与,NOUN,nl,B1,9,keep,clean
-3,officieel,official,官方的,ADJ,nl,B1,10,keep,clean
-112,zulke,such,这样的,DET,nl,B1,11,keep,clean
-186,gast,guest,客人,NOUN,nl,B1,12,keep,clean
-198,voldoende,sufficient,足够的,ADJ,nl,B1,13,keep,clean
-341,operatie,operation,手术,NOUN,nl,B1,14,keep,clean
-200,arts,doctor,医生,NOUN,nl,B1,15,keep,clean
-399,alsjeblieft,please,请,INTJ,nl,B1,16,keep,clean
-472,zwemmen,to swim,游泳,VERB,nl,B1,17,keep,clean
-93,rekening,bill,账单,NOUN,nl,B1,18,keep,clean
-15,grens,border,边界,NOUN,nl,B1,19,keep,clean
-159,vandaan,from,来自,ADP,nl,B1,20,keep,clean
-347,verandering,change,变化,NOUN,nl,B1,21,keep,clean
-520,toon,tone,语调,NOUN,nl,B1,22,keep,clean
-431,twaalf,twelve,十二,NUM,nl,B1,23,keep,clean
-380,groei,growth,增长,NOUN,nl,B1,24,keep,clean
+284,draaien,to turn,转动,VERB,nl,B1,1,keep,clean
+180,afhankelijk,dependent,依赖的,ADJ,nl,B1,2,keep,clean
+477,eer,honor,荣誉,NOUN,nl,B1,3,keep,clean
+248,positief,positive,积极的,ADJ,nl,B1,4,keep,clean
+144,centrale,power station,发电厂,NOUN,nl,B1,5,keep,clean
+11,donderdag,Thursday,星期四,NOUN,nl,B1,6,keep,clean
+51,westen,west,西方,NOUN,nl,B1,7,keep,clean
+489,steen,stone,石头,NOUN,nl,B1,8,keep,clean
+108,miljard,billion,十亿,NUM,nl,B1,9,keep,clean
+523,waarna,after which,此后,ADV,nl,B1,10,keep,clean
+367,schatje,darling,亲爱的,NOUN,nl,B1,11,keep,clean
+286,getrouwd,married,已婚的,ADJ,nl,B1,12,keep,clean
+159,vandaan,from,来自,ADP,nl,B1,13,keep,clean
+176,verlies,loss,损失,NOUN,nl,B1,14,keep,clean
+510,dier,animal,动物,NOUN,nl,B1,15,keep,clean
+112,zulke,such,这样的,DET,nl,B1,16,keep,clean
+226,hè,hey,嘿,INTJ,nl,B1,17,keep,clean
+66,zolang,as long as,只要,SCONJ,nl,B1,18,keep,clean
+293,olie,oil,油,NOUN,nl,B1,19,keep,clean
+229,ministerie,ministry,部,NOUN,nl,B1,20,keep,clean
+28,bureau,desk,书桌,NOUN,nl,B1,21,keep,clean
+504,sommigen,some,有些人,PRON,nl,B1,22,keep,clean
+500,non,nun,修女,NOUN,nl,B1,23,keep,clean
+77,onderwerp,subject,主题,NOUN,nl,B1,24,keep,clean

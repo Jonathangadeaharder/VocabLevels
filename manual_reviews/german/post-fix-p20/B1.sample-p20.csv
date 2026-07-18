@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-80,Bürger,citizen,公民,NOUN,de,B1,1,keep,clean
-354,Mut,courage,勇气,NOUN,de,B1,2,keep,clean
-144,entweder,either,要么,CCONJ,de,B1,3,keep,clean
-368,nirgendwo,nowhere,无处,ADV,de,B1,4,keep,clean
-17,Angriff,attack,攻击,NOUN,de,B1,5,keep,clean
-323,locker,relaxed / loose,放松的 / 松的,ADJ,de,B1,6,keep,clean
-414,Reihe,row / series,排 / 系列,NOUN,de,B1,7,keep,clean
-465,Selbstmord,suicide,自杀,NOUN,de,B1,8,keep,clean
-196,Garten,garden,花园,NOUN,de,B1,9,keep,clean
-615,zwölf,twelve,十二,NUM,de,B1,10,keep,clean
-586,Westen,west,西方,NOUN,de,B1,11,keep,clean
-94,deren,whose,其,PRON,de,B1,12,keep,clean
-42,Beeilung,hurry,匆忙,NOUN,de,B1,13,keep,clean
-28,atmen,to breathe,呼吸,VERB,de,B1,14,keep,clean
-520,tschüs,bye,再见,INTJ,de,B1,15,keep,clean
-583,welches,which,哪个,DET,de,B1,16,keep,clean
-506,teilen,to share,分享,VERB,de,B1,17,keep,clean
-71,Botschaft,message,消息,NOUN,de,B1,18,keep,clean
-37,außerhalb,outside of,在...之外,ADP,de,B1,19,keep,clean
-344,Mittag,noon,中午,NOUN,de,B1,20,keep,clean
-518,Trottel,fool,傻瓜,NOUN,de,B1,21,keep,clean
-78,Bulle,cop,警察,NOUN,de,B1,22,keep,clean
-260,indem,by doing,通过,SCONJ,de,B1,23,keep,clean
-69,Blödsinn,nonsense,胡说,NOUN,de,B1,24,keep,clean
+175,Fisch,fish,鱼,NOUN,de,B1,1,keep,clean
+16,annehmen,to accept,接受,VERB,de,B1,2,keep,clean
+119,Ecke,corner,角落,NOUN,de,B1,3,keep,clean
+331,Markt,market,市场,NOUN,de,B1,4,keep,clean
+104,derselbe,the same,同一个,DET,de,B1,5,keep,clean
+326,Lüge,lie,谎言,NOUN,de,B1,6,keep,clean
+338,Milch,milk,牛奶,NOUN,de,B1,7,keep,clean
+396,prost,cheers,干杯,INTJ,de,B1,8,keep,clean
+260,indem,by doing,通过,SCONJ,de,B1,9,keep,clean
+99,Deutscher,German,德国人,NOUN,de,B1,10,keep,clean
+195,Gang,corridor,走廊,NOUN,de,B1,11,keep,clean
+146,erfolgreich,successful,成功的,ADJ,de,B1,12,keep,clean
+202,Gegenteil,opposite,对立面,NOUN,de,B1,13,keep,clean
+142,entlang,along,沿着,ADP,de,B1,14,keep,clean
+96,dessen,whose,其,PRON,de,B1,15,keep,clean
+4,abhauen,to run away,逃跑,VERB,de,B1,16,keep,clean
+269,Jacke,jacket,夹克,NOUN,de,B1,17,keep,clean
+367,neun,nine,九,NUM,de,B1,18,keep,clean
+144,entweder,either,要么,CCONJ,de,B1,19,keep,clean
+289,Knie,knee,膝盖,NOUN,de,B1,20,keep,clean
+608,zurecht,alright,好吧,ADV,de,B1,21,keep,clean
+349,Mitternacht,midnight,午夜,NOUN,de,B1,22,keep,clean
+222,Gewissen,conscience,良心,NOUN,de,B1,23,keep,clean
+215,Gericht,court,法院,NOUN,de,B1,24,keep,clean
