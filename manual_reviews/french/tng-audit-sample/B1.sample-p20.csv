@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-706,quand,when,当……时,SCONJ,fr,B1,1,keep,clean
-757,recevoir,to receive,收到,VERB,fr,B1,2,keep,clean
-455,juger,to judge,评判,VERB,fr,B1,3,keep,clean
-443,intégrer,to integrate,整合,VERB,fr,B1,4,keep,clean
-330,essentiellement,essentially,主要地,ADV,fr,B1,5,keep,clean
-72,audimat,TV ratings,收视率,NOUN,fr,B1,6,keep,clean
-415,hâte,haste,匆忙,NOUN,fr,B1,7,keep,clean
-713,quatorze,fourteen,十四,NUM,fr,B1,8,keep,clean
-623,potin,gossip,八卦,NOUN,fr,B1,9,keep,clean
-293,dépistage,screening,筛查,NOUN,fr,B1,10,keep,clean
-396,gourmand,fond of food,贪吃的,ADJ,fr,B1,11,keep,clean
-721,qui,who,谁,PRON,fr,B1,12,keep,clean
-112,boucle,loop,环,NOUN,fr,B1,13,keep,clean
-622,potentiel,potential,潜力,NOUN,fr,B1,14,keep,clean
-376,frontière,border/frontier,边界,NOUN,fr,B1,15,keep,clean
-29,alimentation,food,食物,NOUN,fr,B1,16,keep,clean
-101,biais,bias,偏见,NOUN,fr,B1,17,keep,clean
-327,envoi,sending,发送,NOUN,fr,B1,18,keep,clean
-784,remarque,remark,评论,NOUN,fr,B1,19,keep,clean
-256,dispositif,device/system,装置/系统,NOUN,fr,B1,20,keep,clean
-331,essoufflement,breathlessness,气喘,NOUN,fr,B1,21,keep,clean
-325,entraîner,to train,训练,VERB,fr,B1,22,keep,clean
-720,quelque,some,一些,DET,fr,B1,23,keep,clean
-755,reboisement,reforestation,重新造林,NOUN,fr,B1,24,keep,clean
+60,artistique,artistic,艺术的,ADJ,fr,B1,1,keep,clean
+853,robe,dress,连衣裙,NOUN,fr,B1,2,keep,clean
+153,chapitre,chapter,章节,NOUN,fr,B1,3,keep,clean
+541,méthode,method,方法,NOUN,fr,B1,4,keep,clean
+237,cérémonie,ceremony,典礼,NOUN,fr,B1,5,keep,clean
+836,revenir,to come back,回来,VERB,fr,B1,6,keep,clean
+58,arrondissement,district,区,NOUN,fr,B1,7,keep,clean
+735,raison,reason,理由,NOUN,fr,B1,8,keep,clean
+757,recevoir,to receive,收到,VERB,fr,B1,9,keep,clean
+4,abus,abuse,滥用,NOUN,fr,B1,10,keep,clean
+542,météo,weather forecast,天气预报,NOUN,fr,B1,11,keep,clean
+434,inscription,registration,注册,NOUN,fr,B1,12,keep,clean
+719,quelqu'un,someone,某人,PRON,fr,B1,13,keep,clean
+817,ressembler,to resemble,像,VERB,fr,B1,14,keep,clean
+706,quand,when,当……时,SCONJ,fr,B1,15,keep,clean
+266,doucement,gently,轻轻地,ADV,fr,B1,16,keep,clean
+713,quatorze,fourteen,十四,NUM,fr,B1,17,keep,clean
+543,mûre,blackberry,黑莓,NOUN,fr,B1,18,keep,clean
+612,poignet,wrist,手腕,NOUN,fr,B1,19,keep,clean
+774,regain,recovery,恢复,NOUN,fr,B1,20,keep,clean
+77,autonomie,autonomy,自主,NOUN,fr,B1,21,keep,clean
+720,quelque,some,一些,DET,fr,B1,22,keep,clean
+481,long-métrage,feature film,故事片,NOUN,fr,B1,23,keep,clean
+816,représenter,to represent,代表,VERB,fr,B1,24,keep,clean

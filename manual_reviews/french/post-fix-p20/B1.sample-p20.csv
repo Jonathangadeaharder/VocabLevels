@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-148,champignon,mushroom,蘑菇,NOUN,fr,B1,1,keep,clean
-845,rien,nothing,没有什么,PRON,fr,B1,2,keep,clean
-350,fier,proud,骄傲的,ADJ,fr,B1,3,keep,clean
-404,grève,strike,罢工,NOUN,fr,B1,4,keep,clean
-706,quand,when,当……时,SCONJ,fr,B1,5,keep,clean
-514,mijoter,to simmer,炖,VERB,fr,B1,6,keep,clean
-167,cible,target,目标,NOUN,fr,B1,7,keep,clean
-190,compromis,compromise,妥协,NOUN,fr,B1,8,keep,clean
-69,attestation,certificate,证明,NOUN,fr,B1,9,keep,clean
-753,rayon,department,部门,NOUN,fr,B1,10,keep,clean
-632,princesse,princess,公主,NOUN,fr,B1,11,keep,clean
-147,cesser,to cease,停止,VERB,fr,B1,12,keep,clean
-713,quatorze,fourteen,十四,NUM,fr,B1,13,keep,clean
-677,présence,presence,存在,NOUN,fr,B1,14,keep,clean
-493,maintenir,to maintain,维持,VERB,fr,B1,15,keep,clean
-49,apparence,appearance,外表,NOUN,fr,B1,16,keep,clean
-78,autorisation,authorization,授权,NOUN,fr,B1,17,keep,clean
-712,quasiment,almost,几乎,ADV,fr,B1,18,keep,clean
-39,ange,angel,天使,NOUN,fr,B1,19,keep,clean
-720,quelque,some,一些,DET,fr,B1,20,keep,clean
-736,ramasser,to pick up,捡起,VERB,fr,B1,21,keep,clean
-532,mystère,mystery,谜,NOUN,fr,B1,22,keep,clean
-524,morosité,gloominess,忧郁,NOUN,fr,B1,23,keep,clean
-522,montée,rise,上升,NOUN,fr,B1,24,keep,clean
+690,puisque,since,既然,SCONJ,fr,B1,1,keep,clean
+545,naturellement,naturally,自然地,ADV,fr,B1,2,keep,clean
+17,adulte,adult,成年人,NOUN,fr,B1,3,keep,clean
+386,garantie,guarantee,保证,NOUN,fr,B1,4,keep,clean
+565,officier,officer,军官,NOUN,fr,B1,5,keep,clean
+282,défendre,to defend,防御/禁止,VERB,fr,B1,6,keep,clean
+597,personnalité,personality,个性,NOUN,fr,B1,7,keep,clean
+15,adjoint,deputy,副手,NOUN,fr,B1,8,keep,clean
+714,quatre,four,四,NUM,fr,B1,9,keep,clean
+717,quel,which,哪个,DET,fr,B1,10,keep,clean
+434,inscription,registration,注册,NOUN,fr,B1,11,keep,clean
+685,prêter,to lend,借出,VERB,fr,B1,12,keep,clean
+470,liaison,connection,联系,NOUN,fr,B1,13,keep,clean
+697,pâte,dough,面团,NOUN,fr,B1,14,keep,clean
+546,navire,ship,船,NOUN,fr,B1,15,keep,clean
+257,disposition,arrangement,安排/布置,NOUN,fr,B1,16,keep,clean
+148,champignon,mushroom,蘑菇,NOUN,fr,B1,17,keep,clean
+723,quoi,what,什么,PRON,fr,B1,18,keep,clean
+135,canadien,Canadian,加拿大的,ADJ,fr,B1,19,keep,clean
+364,fondation,foundation,基金会,NOUN,fr,B1,20,keep,clean
+667,préciser,to specify,明确,VERB,fr,B1,21,keep,clean
+176,collègue,colleague,同事,NOUN,fr,B1,22,keep,clean
+153,chapitre,chapter,章节,NOUN,fr,B1,23,keep,clean
+826,retarder,to delay,推迟,VERB,fr,B1,24,keep,clean

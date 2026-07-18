@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1299,sjätte,sixth,第六,ADJ,sv,C1,1,keep,clean
-1423,storebror,big brother,哥哥,NOUN,sv,C1,2,keep,clean
-170,djävla,damn,该死的,INTJ,sv,C1,3,keep,clean
-402,förtjänst,merit,功绩,NOUN,sv,C1,4,keep,clean
-352,födsel,birth,出生,NOUN,sv,C1,5,keep,clean
-205,därnere,down there,在那下面,ADV,sv,C1,6,keep,clean
-1617,tömma,empty,倒空,VERB,sv,C1,7,keep,clean
-731,kondom,condom,避孕套,NOUN,sv,C1,8,keep,clean
-1676,utifall,in case,万一,SCONJ,sv,C1,9,keep,clean
-1519,tekniker,technician,技术员,NOUN,sv,C1,10,keep,clean
-153,densamma,the same,同一个,PRON,sv,C1,11,keep,clean
-21,beundrare,admirer,爱慕者,NOUN,sv,C1,12,keep,clean
-995,nedanför,below,在...下方,ADP,sv,C1,13,keep,clean
-930,miljontals,millions of,数百万的,NUM,sv,C1,14,keep,clean
-1220,rumpa,butt,屁股,NOUN,sv,C1,15,keep,clean
-1868,övrigt,other,其他,NOUN,sv,C1,16,keep,clean
-97,bägge,both,两者,DET,sv,C1,17,keep,clean
-1241,råda,prevail,盛行,VERB,sv,C1,18,keep,clean
-1816,åtal,prosecution,起诉,NOUN,sv,C1,19,keep,clean
-1836,öster,east,东,NOUN,sv,C1,20,keep,clean
-1858,övertygelse,conviction,信念,NOUN,sv,C1,21,keep,clean
-212,dödsstraff,death penalty,死刑,NOUN,sv,C1,22,keep,clean
-1263,samt,as well as,以及,CCONJ,sv,C1,23,keep,clean
-222,efterrätt,dessert,甜点,NOUN,sv,C1,24,keep,clean
+351,fånig,silly,愚蠢的,ADJ,sv,C1,1,keep,clean
+335,fysik,physics,物理,NOUN,sv,C1,2,keep,clean
+276,filt,blanket,毯子,NOUN,sv,C1,3,keep,clean
+125,dagbok,diary,日记,NOUN,sv,C1,4,keep,clean
+1666,utav,of,的,ADP,sv,C1,5,keep,clean
+942,mista,lose,失去,VERB,sv,C1,6,keep,clean
+781,kultur,culture,文化,NOUN,sv,C1,7,keep,clean
+1802,älskarinna,mistress,情妇,NOUN,sv,C1,8,keep,clean
+470,halleluja,hallelujah,哈利路亚,INTJ,sv,C1,9,keep,clean
+608,irländska,Irish,爱尔兰语,NOUN,sv,C1,10,keep,clean
+1264,samtliga,all,所有,DET,sv,C1,11,keep,clean
+1247,rökning,smoking,吸烟,NOUN,sv,C1,12,keep,clean
+1263,samt,as well as,以及,CCONJ,sv,C1,13,keep,clean
+1475,svänga,turn,转弯,VERB,sv,C1,14,keep,clean
+172,doft,smell,气味,NOUN,sv,C1,15,keep,clean
+1298,självt,itself,它自己,PRON,sv,C1,16,keep,clean
+683,kirurg,surgeon,外科医生,NOUN,sv,C1,17,keep,clean
+1752,väktare,guard,警卫,NOUN,sv,C1,18,keep,clean
+1202,reträtt,retreat,撤退,NOUN,sv,C1,19,keep,clean
+74,bransch,industry,行业,NOUN,sv,C1,20,keep,clean
+539,häromdagen,the other day,前几天,ADV,sv,C1,21,keep,clean
+1676,utifall,in case,万一,SCONJ,sv,C1,22,keep,clean
+930,miljontals,millions of,数百万的,NUM,sv,C1,23,keep,clean
+1644,uppgörelse,settlement/deal,协议,NOUN,sv,C1,24,keep,clean

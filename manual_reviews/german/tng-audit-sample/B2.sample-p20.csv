@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-118,Ausstellung,exhibition,展览,NOUN,de,B2,1,keep,clean
-205,Bestätigung,confirmation,确认,NOUN,de,B2,2,keep,clean
-896,Politiker,politician,政治家,NOUN,de,B2,3,keep,clean
-492,genügend,enough,足够的,ADJ,de,B2,4,keep,clean
-1255,Vieh,cattle,牲畜,NOUN,de,B2,5,keep,clean
-838,Neffe,nephew,侄子,NOUN,de,B2,6,keep,clean
-176,Bereich,area,区域,NOUN,de,B2,7,keep,clean
-790,meist,mostly,大多,ADV,de,B2,8,keep,clean
-619,irgendjemand,anyone,任何人,PRON,de,B2,9,keep,clean
-767,loslassen,to let go,放开,VERB,de,B2,10,keep,clean
-1275,wehe,woe,唉,INTJ,de,B2,11,keep,clean
-1114,Tatwaffe,murder weapon,凶器,NOUN,de,B2,12,keep,clean
-509,Geschwister,siblings,兄弟姐妹,NOUN,de,B2,13,keep,clean
-1279,Welle,wave,波浪,NOUN,de,B2,14,keep,clean
-1050,sodass,so that,以便,SCONJ,de,B2,15,keep,clean
-850,null,zero,零,NUM,de,B2,16,keep,clean
-12,Abmachung,arrangement,协议,NOUN,de,B2,17,keep,clean
-396,Existenz,existence,存在,NOUN,de,B2,18,keep,clean
-232,Blutdruck,blood pressure,血压,NOUN,de,B2,19,keep,clean
-221,bezüglich,regarding,关于,ADP,de,B2,20,keep,clean
-612,Intelligenz,intelligence,智力,NOUN,de,B2,21,keep,clean
-618,irgendein,any,任何一个,DET,de,B2,22,keep,clean
-1055,sowie,as well as,以及,CCONJ,de,B2,23,keep,clean
-169,Bellen,barking,吠叫,NOUN,de,B2,24,keep,clean
+920,Psychiater,psychiatrist,精神科医生,NOUN,de,B2,1,keep,clean
+1370,überstehen,to survive,挺过,VERB,de,B2,2,keep,clean
+1057,sozusagen,so to speak,可以说,ADV,de,B2,3,keep,clean
+789,Medikament,medication,药物,NOUN,de,B2,4,keep,clean
+1275,wehe,woe,唉,INTJ,de,B2,5,keep,clean
+1050,sodass,so that,以便,SCONJ,de,B2,6,keep,clean
+838,Neffe,nephew,侄子,NOUN,de,B2,7,keep,clean
+629,jenseits,beyond,在...另一侧,ADP,de,B2,8,keep,clean
+980,Saal,hall,大厅,NOUN,de,B2,9,keep,clean
+591,hundert,hundred,一百,NUM,de,B2,10,keep,clean
+620,irgendwer,anyone,任何人,PRON,de,B2,11,keep,clean
+719,Kritik,criticism,批评,NOUN,de,B2,12,keep,clean
+1056,sowohl,both,两者都,CCONJ,de,B2,13,keep,clean
+158,Begleitung,company,陪伴,NOUN,de,B2,14,keep,clean
+1140,Truppe,troop,部队,NOUN,de,B2,15,keep,clean
+1359,Öffentlichkeit,public,公众,NOUN,de,B2,16,keep,clean
+1135,trocken,dry,干的,ADJ,de,B2,17,keep,clean
+325,einiger,some,一些,DET,de,B2,18,keep,clean
+449,Frosch,frog,青蛙,NOUN,de,B2,19,keep,clean
+972,Russe,Russian,俄罗斯人,NOUN,de,B2,20,keep,clean
+1033,Seife,soap,肥皂,NOUN,de,B2,21,keep,clean
+253,Charakter,character,性格,NOUN,de,B2,22,keep,clean
+270,Deutsche,German person,德国人,NOUN,de,B2,23,keep,clean
+535,Gouverneur,governor,总督,NOUN,de,B2,24,keep,clean

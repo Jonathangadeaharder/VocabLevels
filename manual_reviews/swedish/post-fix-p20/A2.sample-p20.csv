@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-234,älskling,darling,亲爱的,NOUN,sv,A2,1,keep,clean
-260,ansvar,responsibility,责任,NOUN,sv,A2,2,keep,clean
-250,alldeles,entirely,完全,ADV,sv,A2,3,keep,clean
-143,rädda,save,拯救,VERB,sv,A2,4,keep,clean
-137,resten,the rest,其余,NOUN,sv,A2,5,keep,clean
-268,bak,back,后面,ADV,sv,A2,6,keep,clean
-265,avsluta,finish,完成,VERB,sv,A2,7,keep,clean
-49,igen,again,再次,ADV,sv,A2,8,keep,clean
-194,tills,until,直到,SCONJ,sv,A2,9,keep,clean
-297,desto,the more,越,ADV,sv,A2,10,keep,clean
-132,prata,talk,说话,VERB,sv,A2,11,keep,clean
-211,uppe,up,在上面,ADV,sv,A2,12,keep,clean
-248,aj,ouch,哎哟,INTJ,sv,A2,13,keep,clean
-258,anledning,reason,原因,NOUN,sv,A2,14,keep,clean
-162,skall,will/shall,将要/会,AUX,sv,A2,15,keep,clean
-59,innan,before,在……之前,ADP,sv,A2,16,keep,clean
-186,sätt,way,方式,NOUN,sv,A2,17,keep,clean
-102,mig,me,我,PRON,sv,A2,18,keep,clean
-263,antingen,either,要么,CCONJ,sv,A2,19,keep,clean
-169,slå,hit/beat,打/击,VERB,sv,A2,20,keep,clean
-227,vilken,which,哪个,DET,sv,A2,21,keep,clean
-105,misstag,mistake,错误,NOUN,sv,A2,22,keep,clean
-126,orolig,worried,担心的,ADJ,sv,A2,23,keep,clean
+273,beslut,decision,决定,NOUN,sv,A2,1,keep,clean
+227,vilken,which,哪个,DET,sv,A2,2,keep,clean
+15,genom,through,通过,ADP,sv,A2,3,keep,clean
+110,ner,down,向下,ADV,sv,A2,4,keep,clean
+79,kunna,can,能,AUX,sv,A2,5,keep,clean
+221,varandra,each other,互相,PRON,sv,A2,6,keep,clean
+286,bryta,break,打破,VERB,sv,A2,7,keep,clean
+28,helt,completely,完全地,ADV,sv,A2,8,keep,clean
+263,antingen,either,要么,CCONJ,sv,A2,9,keep,clean
+77,krig,war,战争,NOUN,sv,A2,10,keep,clean
+246,advokat,lawyer,律师,NOUN,sv,A2,11,keep,clean
+299,diskutera,discuss,讨论,VERB,sv,A2,12,keep,clean
+288,bröllop,wedding,婚礼,NOUN,sv,A2,13,keep,clean
+159,självklart,of course,当然,ADV,sv,A2,14,keep,clean
+177,stanna,stay,停留,VERB,sv,A2,15,keep,clean
+7,förrän,until,直到,SCONJ,sv,A2,16,keep,clean
+206,typ,type/like,类型/比如,NOUN,sv,A2,17,keep,clean
+277,besök,visit,访问,NOUN,sv,A2,18,keep,clean
+154,ses,see you,再见,VERB,sv,A2,19,keep,clean
+173,snäll,kind,善良的,ADJ,sv,A2,20,keep,clean
+223,varsågod,here you go,请,INTJ,sv,A2,21,keep,clean
+88,lite,a little,一点,ADV,sv,A2,22,keep,clean
+153,sent,late,晚地,ADV,sv,A2,23,keep,clean

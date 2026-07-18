@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1208,mm,hmm,嗯,INTJ,de,C1,1,keep,clean
-72,Angreifer,attacker,攻击者,NOUN,de,C1,2,keep,clean
-904,Investition,investment,投资,NOUN,de,C1,3,keep,clean
-148,ausgezeichnet,excellent,优秀的,ADJ,de,C1,4,keep,clean
-698,Gerinnsel,clot,凝块,NOUN,de,C1,5,keep,clean
-36,Außerirdischer,alien,外星人,NOUN,de,C1,6,keep,clean
-1190,Ministerium,ministry,部,NOUN,de,C1,7,keep,clean
-394,Donner,thunder,雷声,NOUN,de,C1,8,keep,clean
-1605,tausend,thousand,千,NUM,de,C1,9,keep,clean
-1788,vielmals,many times,多次,ADV,de,C1,10,keep,clean
-867,haben,have,有,AUX,de,C1,11,keep,clean
-1259,nich,not,不,PART,de,C1,12,keep,clean
-110,aufbauen,build,建立,VERB,de,C1,13,keep,clean
-1518,sobald,as soon as,一...就,SCONJ,de,C1,14,keep,clean
-826,Herzschlag,heartbeat,心跳,NOUN,de,C1,15,keep,clean
-1062,Kunstgriff,artifice,诡计,NOUN,de,C1,16,keep,clean
-151,ausleihen,lend,借出,VERB,de,C1,17,keep,clean
-1656,Umfeld,environment,环境,NOUN,de,C1,18,keep,clean
-1464,Schmerzmittel,painkiller,止痛药,NOUN,de,C1,19,keep,clean
-1389,Reisepass,passport,护照,NOUN,de,C1,20,keep,clean
-1522,solch,such,这样的,DET,de,C1,21,keep,clean
-490,Erfinder,inventor,发明者,NOUN,de,C1,22,keep,clean
-1169,meins,mine,我的,PRON,de,C1,23,keep,clean
-84,anstatt,instead,代替,ADP,de,C1,24,keep,clean
+375,deins,yours,你的,PRON,de,C1,1,keep,clean
+1605,tausend,thousand,千,NUM,de,C1,2,keep,clean
+1241,Nachtklub,nightclub,夜总会,NOUN,de,C1,3,keep,clean
+867,haben,have,有,AUX,de,C1,4,keep,clean
+604,Freibad,outdoor pool,露天游泳池,NOUN,de,C1,5,keep,clean
+1607,Taxifahrer,taxi driver,出租车司机,NOUN,de,C1,6,keep,clean
+1148,Makel,blemish,瑕疵,NOUN,de,C1,7,keep,clean
+1246,namens,named,名为,ADP,de,C1,8,keep,clean
+1600,tagsüber,during the day,在白天,ADV,de,C1,9,keep,clean
+1131,Luxus,luxury,奢侈,NOUN,de,C1,10,keep,clean
+1951,Arsch,ass,屁股,NOUN,de,C1,11,keep,clean
+467,Eisenbahn,railway,铁路,NOUN,de,C1,12,keep,clean
+927,Jubel,cheers,欢呼,NOUN,de,C1,13,keep,clean
+1244,nahtlos,seamless,无缝的,ADJ,de,C1,14,keep,clean
+355,Kran,crane,起重机,NOUN,de,C1,15,keep,clean
+1716,vereinbaren,agree,约定,VERB,de,C1,16,keep,clean
+1521,solange,as long as,只要,SCONJ,de,C1,17,keep,clean
+1437,Schalter,switch,开关,NOUN,de,C1,18,keep,clean
+922,jener,that,那个,DET,de,C1,19,keep,clean
+812,herrichten,to prepare,准备,VERB,de,C1,20,keep,clean
+1917,Zugehörige,affiliate,附属人员,NOUN,de,C1,21,keep,clean
+1259,nicht,not,不,PART,de,C1,22,keep,clean
+914,jaja,yeah yeah,是是是,INTJ,de,C1,23,keep,clean
+909,Italiener,Italian,意大利人,NOUN,de,C1,24,keep,clean

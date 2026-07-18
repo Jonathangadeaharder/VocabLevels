@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-70,以来,since,以来,PART,zh,B1,1,keep,clean
-500,彼此,each other,彼此,PRON,zh,B1,2,keep,clean
-966,经典,classic,经典,NOUN,zh,B1,3,keep,clean
-691,晒,to dry in the sun,晒,AUX,zh,B1,4,keep,clean
-164,凡是,all,凡是,DET,zh,B1,5,keep,clean
-190,剪刀,scissors,剪刀,NOUN,zh,B1,6,keep,clean
-843,现实,reality,现实,NOUN,zh,B1,7,keep,clean
-423,小伙子,young man,小伙子,NOUN,zh,B1,8,keep,clean
-208,匹,classifier for horses,匹,NUM,zh,B1,9,keep,clean
-569,打工,to work part-time,打工,VERB,zh,B1,10,keep,clean
-410,对于,regarding,对于,ADP,zh,B1,11,keep,clean
-888,看来,apparently,看来,ADV,zh,B1,12,keep,clean
-687,是否,whether or not,是否,SCONJ,zh,B1,13,keep,clean
-555,戒烟,to quit smoking,戒烟,VERB,zh,B1,14,keep,clean
-927,程序,procedure,程序,NOUN,zh,B1,15,keep,clean
-174,切,to cut,切,VERB,zh,B1,16,keep,clean
-319,地理,geography,地理,NOUN,zh,B1,17,keep,clean
-674,日常,daily,日常,ADJ,zh,B1,18,keep,clean
-153,册,volume,册,NOUN,zh,B1,19,keep,clean
-867,登机牌,boarding pass,登机牌,NOUN,zh,B1,20,keep,clean
-69,以及,as well as,以及,CCONJ,zh,B1,21,keep,clean
-673,日历,calendar,日历,NOUN,zh,B1,22,keep,clean
-291,哈,ha,哈,INTJ,zh,B1,23,keep,clean
-296,商业,business,商业,NOUN,zh,B1,24,keep,clean
+696,曾经,once,曾经,ADV,zh,B1,1,keep,clean
+349,夹子,clip,夹子,NOUN,zh,B1,2,keep,clean
+96,何况,let alone,何况,CCONJ,zh,B1,3,keep,clean
+99,作品,work,作品,NOUN,zh,B1,4,keep,clean
+450,幅,"classifier for paintings, cloth, etc.",幅,NUM,zh,B1,5,keep,clean
+691,晒,to dry in the sun,晒,AUX,zh,B1,6,keep,clean
+294,唉,alas,唉,INTJ,zh,B1,7,keep,clean
+895,矛盾,contradiction,矛盾,NOUN,zh,B1,8,keep,clean
+228,去世,to pass away,去世,VERB,zh,B1,9,keep,clean
+656,教练,coach,教练,NOUN,zh,B1,10,keep,clean
+165,凭,by means of,凭,ADP,zh,B1,11,keep,clean
+628,搞,to do,搞,VERB,zh,B1,12,keep,clean
+262,合同,contract,合同,NOUN,zh,B1,13,keep,clean
+423,小伙子,young man,小伙子,NOUN,zh,B1,14,keep,clean
+164,凡是,all,凡是,DET,zh,B1,15,keep,clean
+311,国庆节,National Day,国庆节,NOUN,zh,B1,16,keep,clean
+89,似的,like,似的,PART,zh,B1,17,keep,clean
+307,围巾,scarf,围巾,NOUN,zh,B1,18,keep,clean
+687,是否,whether or not,是否,SCONJ,zh,B1,19,keep,clean
+139,兔子,rabbit,兔子,NOUN,zh,B1,20,keep,clean
+260,各自,each,各自,PRON,zh,B1,21,keep,clean
+644,改正,to correct,改正,VERB,zh,B1,22,keep,clean
+30,中旬,middle third of a month,中旬,NOUN,zh,B1,23,keep,clean
+880,相关,to be interrelated,相关,ADJ,zh,B1,24,keep,clean

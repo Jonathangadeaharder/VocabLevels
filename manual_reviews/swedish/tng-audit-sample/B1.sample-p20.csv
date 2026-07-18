@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-68,hemlighet,secret,秘密,NOUN,sv,B1,1,keep,clean
-288,sällskap,company,陪伴,NOUN,sv,B1,2,keep,clean
-352,välkomna,welcome,欢迎,VERB,sv,B1,3,keep,clean
-222,rädsla,fear,恐惧,NOUN,sv,B1,4,keep,clean
-302,tjena,hi,你好,INTJ,sv,B1,5,keep,clean
-347,varken,neither,既不,CCONJ,sv,B1,6,keep,clean
-340,utom,except,除了,ADP,sv,B1,7,keep,clean
-395,ana,suspect,怀疑,VERB,sv,B1,8,keep,clean
-348,vilja,want,想要,AUX,sv,B1,9,keep,clean
-315,tråkigt,boring,无聊的,ADJ,sv,B1,10,keep,clean
-11,farväl,farewell,告别,NOUN,sv,B1,11,keep,clean
-346,varenda,every,每一个,DET,sv,B1,12,keep,clean
-229,saknas,be missing,缺少,VERB,sv,B1,13,keep,clean
-364,ända,end,结束,NOUN,sv,B1,14,keep,clean
-415,aska,ash,灰烬,NOUN,sv,B1,15,keep,clean
-82,ifall,if,如果,SCONJ,sv,B1,16,keep,clean
-447,bakdörr,back door,后门,NOUN,sv,B1,17,keep,clean
-161,miljon,million,百万,NUM,sv,B1,18,keep,clean
-349,vems,whose,谁的,PRON,sv,B1,19,keep,clean
-196,ordentligt,properly,适当地,ADV,sv,B1,20,keep,clean
-15,film,film/movie,电影,NOUN,sv,B1,21,keep,clean
-220,resa,journey,旅程,NOUN,sv,B1,22,keep,clean
-14,fiende,enemy,敌人,NOUN,sv,B1,23,keep,clean
+458,balans,balance,平衡,NOUN,sv,B1,1,keep,clean
+322,tydligen,apparently,显然,ADV,sv,B1,2,keep,clean
+347,varken,neither,既不,CCONJ,sv,B1,3,keep,clean
+229,saknas,be missing,缺少,VERB,sv,B1,4,keep,clean
+456,bakväg,back way,后路,NOUN,sv,B1,5,keep,clean
+80,höger,right,右边,NOUN,sv,B1,6,keep,clean
+346,varenda,every,每一个,DET,sv,B1,7,keep,clean
+56,grupp,group,组,NOUN,sv,B1,8,keep,clean
+161,miljon,million,百万,NUM,sv,B1,9,keep,clean
+341,vaken,awake,醒着的,ADJ,sv,B1,10,keep,clean
+82,ifall,if,如果,SCONJ,sv,B1,11,keep,clean
+345,vara,be,是,AUX,sv,B1,12,keep,clean
+16,fira,celebrate,庆祝,VERB,sv,B1,13,keep,clean
+387,allierad,ally,盟友,NOUN,sv,B1,14,keep,clean
+261,soldat,soldier,士兵,NOUN,sv,B1,15,keep,clean
+3,exempel,example,例子,NOUN,sv,B1,16,keep,clean
+167,mobil,mobile phone,手机,NOUN,sv,B1,17,keep,clean
+428,avfyra,fire,开火,VERB,sv,B1,18,keep,clean
+310,trots,despite,尽管,ADP,sv,B1,19,keep,clean
+349,vems,whose,谁的,PRON,sv,B1,20,keep,clean
+180,nyheter,news,新闻,NOUN,sv,B1,21,keep,clean
+302,tjena,hi,你好,INTJ,sv,B1,22,keep,clean
+464,baseboll,baseball,棒球,NOUN,sv,B1,23,keep,clean

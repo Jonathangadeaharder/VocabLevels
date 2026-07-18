@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-393,Fakt,fact,事实,NOUN,de,A1,1,keep,clean
-361,wir,we,我们,PRON,de,A1,2,keep,clean
-164,in,in,在...里,ADP,de,A1,3,keep,clean
-360,wollen,to want,想要,AUX,de,A1,4,keep,clean
-464,Bleistift,pencil,铅笔,NOUN,de,A1,5,keep,clean
-60,dein,your,你的,DET,de,A1,6,keep,clean
-318,und,and,和,CCONJ,de,A1,7,keep,clean
-487,parken,to park,停车,VERB,de,A1,8,keep,clean
-71,drei,three,三,NUM,de,A1,9,keep,clean
-438,Buchstabe,letter,字母,NOUN,de,A1,10,keep,clean
-440,Türsteher,doorman,门卫,NOUN,de,A1,11,keep,clean
-237,ob,whether,是否,SCONJ,de,A1,12,keep,clean
-577,Deutschunterricht,German class,德语课,NOUN,de,A1,13,keep,clean
-367,Wohnung,apartment,公寓,NOUN,de,A1,14,keep,clean
-84,endlich,finally,终于,ADV,de,A1,15,keep,clean
-500,ach,oh,啊,INTJ,de,A1,16,keep,clean
-230,nicht,not,不,PART,de,A1,17,keep,clean
-147,Herr,Mr.,先生,NOUN,de,A1,18,keep,clean
-172,Junge,boy,男孩,NOUN,de,A1,19,keep,clean
-256,richtig,correct,正确,ADJ,de,A1,20,keep,clean
-240,oft,often,经常,ADV,de,A1,21,keep,clean
-183,König,king,国王,NOUN,de,A1,22,keep,clean
-419,Drehung,turn,转弯,NOUN,de,A1,23,keep,clean
-392,genau,exactly,精确地,ADV,de,A1,24,keep,clean
+198,Leute,people,人们,NOUN,de,A1,1,keep,clean
+112,früher,formerly,以前,ADV,de,A1,2,keep,clean
+13,an,at / on,在 / 靠近,ADP,de,A1,3,keep,clean
+482,Speise,dish,菜肴,NOUN,de,A1,4,keep,clean
+405,okay,okay,好的,INTJ,de,A1,5,keep,clean
+286,sondern,but rather,而是,CCONJ,de,A1,6,keep,clean
+320,unten,below,下面,ADV,de,A1,7,keep,clean
+346,weil,because,因为,SCONJ,de,A1,8,keep,clean
+560,Joghurt,yogurt,酸奶,NOUN,de,A1,9,keep,clean
+357,wie,how,如何,ADV,de,A1,10,keep,clean
+93,euer,your (pl),你们的,DET,de,A1,11,keep,clean
+230,nicht,not,不,PART,de,A1,12,keep,clean
+41,brauchen,to need,需要,VERB,de,A1,13,keep,clean
+224,Nacht,night,夜晚,NOUN,de,A1,14,keep,clean
+396,Vorderseite,front,正面,NOUN,de,A1,15,keep,clean
+391,alle,everyone,所有人,PRON,de,A1,16,keep,clean
+75,echt,real,真实的,ADJ,de,A1,17,keep,clean
+175,können,can,能够,AUX,de,A1,18,keep,clean
+544,Fett,fat,脂肪,NOUN,de,A1,19,keep,clean
+113,fünf,five,五,NUM,de,A1,20,keep,clean
+466,Traube,grape,葡萄,NOUN,de,A1,21,keep,clean
+104,Frage,question,问题,NOUN,de,A1,22,keep,clean
+305,Telefon,telephone,电话,NOUN,de,A1,23,keep,clean
+427,Sessel,armchair,扶手椅,NOUN,de,A1,24,keep,clean

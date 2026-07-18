@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-454,plat,dish,菜肴,NOUN,fr,A2,1,keep,clean
-215,goût,taste,味道,NOUN,fr,A2,2,keep,clean
-12,agneau,lamb,羔羊,NOUN,fr,A2,3,keep,clean
-244,le,the,这/那,DET,fr,A2,4,keep,clean
-178,département,department,部门,NOUN,fr,A2,5,keep,clean
-226,il,he,他,PRON,fr,A2,6,keep,clean
-31,arrêt,stop,停止,NOUN,fr,A2,7,keep,clean
-257,lorsque,when,当……时,SCONJ,fr,A2,8,keep,clean
-353,ou,or,或者,CCONJ,fr,A2,9,keep,clean
-341,onze,eleven,十一,NUM,fr,A2,10,keep,clean
-137,courgette,zucchini,西葫芦,NOUN,fr,A2,11,keep,clean
-69,boucherie,butcher shop,肉店,NOUN,fr,A2,12,keep,clean
-117,comme,like,像,ADP,fr,A2,13,keep,clean
-36,attaque,attack,攻击,NOUN,fr,A2,14,keep,clean
-52,banque,bank,银行,NOUN,fr,A2,15,keep,clean
-105,chou-fleur,cauliflower,花椰菜,NOUN,fr,A2,16,keep,clean
-494,pouvoir,to be able to,能够,VERB,fr,A2,17,keep,clean
-400,passé,past,过去,NOUN,fr,A2,18,keep,clean
-273,merci,thank you,谢谢,INTJ,fr,A2,19,keep,clean
-223,humain,human,人类的,ADJ,fr,A2,20,keep,clean
-380,parfois,sometimes,有时,ADV,fr,A2,21,keep,clean
-297,neige,snow,雪,NOUN,fr,A2,22,keep,clean
-195,faute,mistake,错误,NOUN,fr,A2,23,keep,clean
+180,détail,detail,细节,NOUN,fr,A2,1,keep,clean
+187,et,and,和,CCONJ,fr,A2,2,keep,clean
+393,partout,everywhere,到处,ADV,fr,A2,3,keep,clean
+174,décembre,December,十二月,NOUN,fr,A2,4,keep,clean
+257,lorsque,when,当……时,SCONJ,fr,A2,5,keep,clean
+130,confiture,jam,果酱,NOUN,fr,A2,6,keep,clean
+310,nombre,number,数字,NOUN,fr,A2,7,keep,clean
+440,pique,spade,黑桃,NOUN,fr,A2,8,keep,clean
+278,moi,me,我,PRON,fr,A2,9,keep,clean
+275,milliard,billion,十亿,NUM,fr,A2,10,keep,clean
+400,passé,past,过去,NOUN,fr,A2,11,keep,clean
+515,prochain,next,下一个,ADJ,fr,A2,12,keep,clean
+25,appel,call,呼叫,NOUN,fr,A2,13,keep,clean
+27,armée,army,军队,NOUN,fr,A2,14,keep,clean
+173,début,beginning,开始,NOUN,fr,A2,15,keep,clean
+508,principe,principle,原则,NOUN,fr,A2,16,keep,clean
+284,moutarde,mustard,芥末,NOUN,fr,A2,17,keep,clean
+23,anniversaire,birthday,生日,NOUN,fr,A2,18,keep,clean
+90,casquette,cap,鸭舌帽,NOUN,fr,A2,19,keep,clean
+356,oui,yes,是,INTJ,fr,A2,20,keep,clean
+266,malgré,despite,尽管,ADP,fr,A2,21,keep,clean
+248,leur,their,他们的,DET,fr,A2,22,keep,clean
+501,presser,to press,按压,VERB,fr,A2,23,keep,clean

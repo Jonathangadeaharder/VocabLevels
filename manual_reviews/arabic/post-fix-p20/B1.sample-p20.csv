@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-279,محضر,official report,笔录,NOUN,ar,B1,1,keep,clean
-370,ثقة,trust,信任,NOUN,ar,B1,2,keep,clean
-436,كلاهما,both,两者都,DET,ar,B1,3,keep,clean
-532,عطار,herbalist,草药师,NOUN,ar,B1,4,keep,clean
-520,مهارة,skill,技能,NOUN,ar,B1,5,keep,clean
-308,متابع,follower,关注者,NOUN,ar,B1,6,keep,clean
-16,قصبة,kasbah,卡斯巴,NOUN,ar,B1,7,keep,clean
-62,مسرحية,stage play,舞台剧,NOUN,ar,B1,8,keep,clean
-425,أما,as for,至于,PART,ar,B1,9,keep,clean
-72,فنان,artist,艺术家,NOUN,ar,B1,10,keep,clean
-582,إمساك,constipation,便秘,NOUN,ar,B1,11,keep,clean
-392,صَبُور,patient,有耐心的,ADJ,ar,B1,12,keep,clean
-669,هودج,palanquin,轿子,NOUN,ar,B1,13,keep,clean
-442,بيننا,between us,我们之间,ADP,ar,B1,14,keep,clean
-792,سالف,sideburn,鬓角,NOUN,ar,B1,15,keep,clean
-11,مقهى,cafe,咖啡馆,NOUN,ar,B1,16,keep,clean
-77,ترفيه,entertainment,娱乐,NOUN,ar,B1,17,keep,clean
-732,مارطو,hammer,锤子,NOUN,ar,B1,18,keep,clean
-441,باختصار,in short,简而言之,ADV,ar,B1,19,keep,clean
-513,سكرتير,secretary,秘书,NOUN,ar,B1,20,keep,clean
-238,عمالة,prefecture,省,NOUN,ar,B1,21,keep,clean
-217,حصاد,harvest,收获,NOUN,ar,B1,22,keep,clean
-797,شفرة,razor blade,刀片,NOUN,ar,B1,23,keep,clean
-373,سب,to insult,辱骂,VERB,ar,B1,24,keep,clean
+425,أما,as for,至于,PART,ar,B1,1,keep,clean
+512,مقاول,contractor,承包商,NOUN,ar,B1,2,keep,clean
+621,بنج,anesthesia,麻醉,NOUN,ar,B1,3,keep,clean
+185,مناخ,climate,气候,NOUN,ar,B1,4,keep,clean
+507,سمسار,broker,经纪人,NOUN,ar,B1,5,keep,clean
+685,طَاحَ,to fall,掉落,VERB,ar,B1,6,keep,clean
+478,فرض,class test,测验,NOUN,ar,B1,7,keep,clean
+202,نسر,eagle,鹰,NOUN,ar,B1,8,keep,clean
+436,كلاهما,both,两者都,DET,ar,B1,9,keep,clean
+649,جيران,neighbors,邻居,NOUN,ar,B1,10,keep,clean
+502,مترجم,translator,翻译员,NOUN,ar,B1,11,keep,clean
+278,شكاية,complaint,投诉,NOUN,ar,B1,12,keep,clean
+442,بيننا,between us,我们之间,ADP,ar,B1,13,keep,clean
+486,تعليم,education,教育,NOUN,ar,B1,14,keep,clean
+440,بالضبط,exactly,确切地,ADV,ar,B1,15,keep,clean
+145,خسارة,defeat,失败,NOUN,ar,B1,16,keep,clean
+558,عجينة,dough,面团,NOUN,ar,B1,17,keep,clean
+279,محضر,official report,笔录,NOUN,ar,B1,18,keep,clean
+285,حوالة,money transfer,汇款,NOUN,ar,B1,19,keep,clean
+168,بديل,substitute,替补,NOUN,ar,B1,20,keep,clean
+136,سباق,race,比赛,NOUN,ar,B1,21,keep,clean
+264,رصيف,sidewalk,人行道,NOUN,ar,B1,22,keep,clean
+705,حَرِش,rough,粗糙的,ADJ,ar,B1,23,keep,clean
+27,هبوط,landing,降落,NOUN,ar,B1,24,keep,clean

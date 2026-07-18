@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-187,أي,that is to say,即,CCONJ,ar,C1,1,keep,clean
-2104,قَصّ,shear,剪切,NOUN,ar,C1,2,keep,clean
-3573,مصاحبة,co-occurrence,共现,NOUN,ar,C1,3,keep,clean
-1259,محاكاة,simulation,模拟,NOUN,ar,C1,4,keep,clean
-3775,تسميع,recitation,背诵,NOUN,ar,C1,5,keep,clean
-737,مصطلحات,terminology,术语,NOUN,ar,C1,6,keep,clean
-728,طباق,antithesis,对偶,NOUN,ar,C1,7,keep,clean
-2028,هَنْدَسة,engineering,工程,NOUN,ar,C1,8,keep,clean
-201,لعل,perhaps,也许,PART,ar,C1,9,keep,clean
-883,كفاف,sufficiency,勉强够用,NOUN,ar,C1,10,keep,clean
-190,عقب,after,紧随其后,ADP,ar,C1,11,keep,clean
-3657,تَوًّا,just now,刚刚,ADV,ar,C1,12,keep,clean
-664,معجزة,miracle,奇迹,NOUN,ar,C1,13,keep,clean
-468,مطبات,speed bumps,减速带,NOUN,ar,C1,14,keep,clean
-723,تأنيث,feminization,阴性化,NOUN,ar,C1,15,keep,clean
-138,فدية,ransom,赎金,NOUN,ar,C1,16,keep,clean
-2258,بَذْر,sowing,播种,NOUN,ar,C1,17,keep,clean
-3777,ملكة,faculty,天赋,NOUN,ar,C1,18,keep,clean
-3208,فندق,caravanserai,商队旅馆,NOUN,ar,C1,19,keep,clean
-193,لئلا,lest,以免,SCONJ,ar,C1,20,keep,clean
-3140,حلي,jewelry,首饰,NOUN,ar,C1,21,keep,clean
-2596,مُعالَجِيّ,processing,处理的,ADJ,ar,C1,22,keep,clean
-227,شرّع,to legitimize,使合法化,VERB,ar,C1,23,keep,clean
-1046,إحضار,production,提交,NOUN,ar,C1,24,keep,clean
+2311,إِبْحار,sailing,航行,NOUN,ar,C1,1,keep,clean
+2552,حاضِنة,incubator,孵化器,NOUN,ar,C1,2,keep,clean
+194,بغية,with the aim of,为了,ADP,ar,C1,3,keep,clean
+3860,تبرك,seeking blessing,寻求赐福,NOUN,ar,C1,4,keep,clean
+3480,بعدئذ,afterwards,此后/然后,ADV,ar,C1,5,keep,clean
+3347,تشفي,gloating,幸灾乐祸,NOUN,ar,C1,6,keep,clean
+187,أي,that is to say,即,CCONJ,ar,C1,7,keep,clean
+1448,استئصال,eradication,根除,NOUN,ar,C1,8,keep,clean
+193,لئلا,lest,以免,SCONJ,ar,C1,9,keep,clean
+3320,زهادة,asceticism,禁欲,NOUN,ar,C1,10,keep,clean
+1255,تقلبات,volatility,波动,NOUN,ar,C1,11,keep,clean
+2412,تَلْقين,rote teaching,填鸭式教学,NOUN,ar,C1,12,keep,clean
+1966,مُذيب,solvent,溶剂,NOUN,ar,C1,13,keep,clean
+786,بوح,confiding,倾诉,NOUN,ar,C1,14,keep,clean
+1773,تعدي,transgression,侵犯,NOUN,ar,C1,15,keep,clean
+3133,نوتة,musical note,音符,NOUN,ar,C1,16,keep,clean
+2978,مَحْك,criterion,标准,NOUN,ar,C1,17,keep,clean
+2894,كينونة,being,存在,NOUN,ar,C1,18,keep,clean
+2839,مُتَطايِر,volatile,挥发性的,ADJ,ar,C1,19,keep,clean
+201,لعل,perhaps,也许,PART,ar,C1,20,keep,clean
+275,أحبط,to foil,挫败,VERB,ar,C1,21,keep,clean
+3729,بَادِرَة,early sign,先兆,NOUN,ar,C1,22,keep,clean
+768,انبهار,amazement,惊叹,NOUN,ar,C1,23,keep,clean
+2994,تَرْصِيع,ornamentation,装饰,NOUN,ar,C1,24,keep,clean

@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-523,而且,moreover,而且,CCONJ,zh,A1,1,keep,clean
-490,电梯,elevator,电梯,NOUN,zh,A1,2,keep,clean
-215,懂,to understand,懂,VERB,zh,A1,3,keep,clean
-592,黑板,blackboard,黑板,NOUN,zh,A1,4,keep,clean
-293,高,tall,高,ADJ,zh,A1,5,keep,clean
-55,哪儿,where,哪儿,PRON,zh,A1,6,keep,clean
-439,数学,mathematics,数学,NOUN,zh,A1,7,keep,clean
-550,西,west,西,NOUN,zh,A1,8,keep,clean
-187,因为,because,因为,SCONJ,zh,A1,9,keep,clean
-396,字典,dictionary,字典,NOUN,zh,A1,10,keep,clean
-34,再见,goodbye,再见,INTJ,zh,A1,11,keep,clean
-249,着,aspect particle (action in progress),着,PART,zh,A1,12,keep,clean
-236,每,each / every,每,DET,zh,A1,13,keep,clean
-179,号,number / date,号,NOUN,zh,A1,14,keep,clean
-403,宾馆,hotel,宾馆,NOUN,zh,A1,15,keep,clean
-227,时间,time,时间,NOUN,zh,A1,16,keep,clean
-420,愿意,to be willing,愿意,AUX,zh,A1,17,keep,clean
-51,听,to listen,听,VERB,zh,A1,18,keep,clean
-515,终于,finally,终于,ADV,zh,A1,19,keep,clean
-93,打电话,to make a phone call,打电话,VERB,zh,A1,20,keep,clean
-458,根据,according to,根据,ADP,zh,A1,21,keep,clean
-103,本,measure word for books,本,NUM,zh,A1,22,keep,clean
-240,牛奶,milk,牛奶,NOUN,zh,A1,23,keep,clean
-259,羊肉,mutton,羊肉,NOUN,zh,A1,24,keep,clean
+246,百,hundred,百,NUM,zh,A1,1,keep,clean
+48,名字,name,名字,NOUN,zh,A1,2,keep,clean
+544,表演,performance,表演,NOUN,zh,A1,3,keep,clean
+71,她,she,她,PRON,zh,A1,4,keep,clean
+57,喂,hello,喂,INTJ,zh,A1,5,keep,clean
+316,云,cloud,云,NOUN,zh,A1,6,keep,clean
+187,因为,because,因为,SCONJ,zh,A1,7,keep,clean
+56,商店,shop,商店,NOUN,zh,A1,8,keep,clean
+276,身体,body,身体,NOUN,zh,A1,9,keep,clean
+353,办法,way,办法,NOUN,zh,A1,10,keep,clean
+401,害怕,to be afraid,害怕,VERB,zh,A1,11,keep,clean
+253,穿,to wear / to put on,穿,VERB,zh,A1,12,keep,clean
+391,太阳,sun,太阳,NOUN,zh,A1,13,keep,clean
+448,更,more,更,ADV,zh,A1,14,keep,clean
+413,应该,should,应该,AUX,zh,A1,15,keep,clean
+78,家,home / family,家,NOUN,zh,A1,16,keep,clean
+181,吧,modal particle (suggestion),吧,PART,zh,A1,17,keep,clean
+450,月亮,moon,月亮,NOUN,zh,A1,18,keep,clean
+72,好,good,好,ADJ,zh,A1,19,keep,clean
+236,每,each / every,每,DET,zh,A1,20,keep,clean
+9,下雨,to rain,下雨,VERB,zh,A1,21,keep,clean
+361,厨房,kitchen,厨房,NOUN,zh,A1,22,keep,clean
+422,或者,or,或者,CCONJ,zh,A1,23,keep,clean
+62,在,at,在,ADP,zh,A1,24,keep,clean

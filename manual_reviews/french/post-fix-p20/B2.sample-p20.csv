@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1613,soixante,sixty,六十,NUM,fr,B2,1,keep,clean
-1452,rétablissement,recovery,康复,NOUN,fr,B2,2,keep,clean
-536,désordre,disorder,混乱,NOUN,fr,B2,3,keep,clean
-1659,sous,under,在...下面,ADP,fr,B2,4,keep,clean
-1139,perceptif,perceptual,感知的,ADJ,fr,B2,5,keep,clean
-834,ingrédient,ingredient,成分,NOUN,fr,B2,6,keep,clean
-646,faune,fauna,动物群,NOUN,fr,B2,7,keep,clean
-902,liquidité,liquidity,流动性,NOUN,fr,B2,8,keep,clean
-600,escalade,escalation,升级,NOUN,fr,B2,9,keep,clean
-1102,ostensiblement,ostensibly,表面上；公然地,ADV,fr,B2,10,keep,clean
-1310,raviver,to revive,复兴,VERB,fr,B2,11,keep,clean
-1293,quiconque,whoever,任何人,PRON,fr,B2,12,keep,clean
-909,loge,dressing room,化妆间,NOUN,fr,B2,13,keep,clean
-780,hélas,alas,唉,INTJ,fr,B2,14,keep,clean
-636,fabrique,factory,工厂,NOUN,fr,B2,15,keep,clean
-1564,serviette,towel,毛巾/餐巾,NOUN,fr,B2,16,keep,clean
-161,bataillon,battalion,营,NOUN,fr,B2,17,keep,clean
-1630,son,his,他的,DET,fr,B2,18,keep,clean
-1573,si,if,如果,SCONJ,fr,B2,19,keep,clean
-862,intégralité,entirety,全部,NOUN,fr,B2,20,keep,clean
-827,infanterie,infantry,步兵,NOUN,fr,B2,21,keep,clean
-347,constat,finding,观察结果,NOUN,fr,B2,22,keep,clean
-577,enfreindre,to infringe,违反,VERB,fr,B2,23,keep,clean
-349,constructeur,manufacturer,制造商,NOUN,fr,B2,24,keep,clean
+1406,régiment,regiment,团,NOUN,fr,B2,1,keep,clean
+989,modalité,modality,方式,NOUN,fr,B2,2,keep,clean
+1573,si,if,如果,SCONJ,fr,B2,3,keep,clean
+936,maladroitement,clumsily,笨拙地,ADV,fr,B2,4,keep,clean
+605,espérance,hope,希望,NOUN,fr,B2,5,keep,clean
+100,arnaque,scam,诈骗,NOUN,fr,B2,6,keep,clean
+1659,sous,under,在...下面,ADP,fr,B2,7,keep,clean
+519,dérivé,derivative,衍生物,NOUN,fr,B2,8,keep,clean
+722,grammaire,grammar,语法,NOUN,fr,B2,9,keep,clean
+127,attaquant,attacker,攻击者,NOUN,fr,B2,10,keep,clean
+1555,sept,seven,七,NUM,fr,B2,11,keep,clean
+1046,neveu,nephew,侄子,NOUN,fr,B2,12,keep,clean
+1546,sens,sense,意义/感觉,NOUN,fr,B2,13,keep,clean
+1293,quiconque,whoever,任何人,PRON,fr,B2,14,keep,clean
+556,effondrement,collapse,崩溃,NOUN,fr,B2,15,keep,clean
+118,assujettissement,subjection,服从,NOUN,fr,B2,16,keep,clean
+780,hélas,alas,唉,INTJ,fr,B2,17,keep,clean
+643,familier,familiar,熟悉的,ADJ,fr,B2,18,keep,clean
+1630,son,his,他的,DET,fr,B2,19,keep,clean
+1355,respirer,to breathe,呼吸,VERB,fr,B2,20,keep,clean
+584,entente,understanding,谅解,NOUN,fr,B2,21,keep,clean
+510,dénoncer,to denounce,谴责,VERB,fr,B2,22,keep,clean
+701,funérailles,funeral,葬礼,NOUN,fr,B2,23,keep,clean
+177,bouclier,shield,盾牌,NOUN,fr,B2,24,keep,clean

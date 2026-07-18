@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1849,överraska,surprise,使惊讶,VERB,sv,C1,1,keep,clean
-1460,summa,sum,金额/总数,NOUN,sv,C1,2,keep,clean
-1755,välsignelse,blessing,祝福,NOUN,sv,C1,3,keep,clean
-514,husrannsakan,house search,搜查住宅,NOUN,sv,C1,4,keep,clean
-263,fastän,although,尽管,SCONJ,sv,C1,5,keep,clean
-1138,presskonferens,press conference,新闻发布会,NOUN,sv,C1,6,keep,clean
-1758,vänligen,please,请,ADV,sv,C1,7,keep,clean
-1463,superhjälte,superhero,超级英雄,NOUN,sv,C1,8,keep,clean
-1032,nöd,distress,"危难, 急需",NOUN,sv,C1,9,keep,clean
-928,mikrofon,microphone,麦克风,NOUN,sv,C1,10,keep,clean
-1835,öst,east,东,NOUN,sv,C1,11,keep,clean
-1564,tragedi,tragedy,悲剧,NOUN,sv,C1,12,keep,clean
-145,delaktig,involved,有关的,ADJ,sv,C1,13,keep,clean
-1264,samtliga,all,所有,DET,sv,C1,14,keep,clean
-379,förneka,deny,否认,VERB,sv,C1,15,keep,clean
-1294,självförsvar,self-defense,自卫,NOUN,sv,C1,16,keep,clean
-734,kongress,congress,代表大会,NOUN,sv,C1,17,keep,clean
-1298,självt,itself,它自己,PRON,sv,C1,18,keep,clean
-930,miljontals,millions of,数百万的,NUM,sv,C1,19,keep,clean
-493,hinder,obstacle,障碍,NOUN,sv,C1,20,keep,clean
-1030,nåja,well,好吧,INTJ,sv,C1,21,keep,clean
-1263,samt,as well as,以及,CCONJ,sv,C1,22,keep,clean
-1001,nerför,down,顺...而下,ADP,sv,C1,23,keep,clean
-150,delägare,co-owner,合伙人,NOUN,sv,C1,24,keep,clean
+1483,symtom,symptom,症状,NOUN,sv,C1,1,keep,clean
+300,framstå,appear,显得,VERB,sv,C1,2,keep,clean
+1528,testamente,will,遗嘱,NOUN,sv,C1,3,keep,clean
+718,kombination,combination,组合,NOUN,sv,C1,4,keep,clean
+271,fett,fat,脂肪,NOUN,sv,C1,5,keep,clean
+470,halleluja,hallelujah,哈利路亚,INTJ,sv,C1,6,keep,clean
+1586,tröst,comfort,安慰,NOUN,sv,C1,7,keep,clean
+751,korv,sausage,香肠,NOUN,sv,C1,8,keep,clean
+930,miljontals,millions of,数百万的,NUM,sv,C1,9,keep,clean
+929,militär,military,军队,NOUN,sv,C1,10,keep,clean
+1083,ovan,above,在上面,ADV,sv,C1,11,keep,clean
+1220,rumpa,butt,屁股,NOUN,sv,C1,12,keep,clean
+639,jämna,level,弄平,VERB,sv,C1,13,keep,clean
+1676,utifall,in case,万一,SCONJ,sv,C1,14,keep,clean
+152,denne,he/this one,他/这位,PRON,sv,C1,15,keep,clean
+798,kärring,hag,老妇,NOUN,sv,C1,16,keep,clean
+266,feg,cowardly,懦弱的,ADJ,sv,C1,17,keep,clean
+643,kampanj,campaign,运动,NOUN,sv,C1,18,keep,clean
+1843,övergrepp,assault,侵犯,NOUN,sv,C1,19,keep,clean
+1666,utav,of,的,ADP,sv,C1,20,keep,clean
+1614,tå,toe,脚趾,NOUN,sv,C1,21,keep,clean
+1499,sångare,singer,歌手,NOUN,sv,C1,22,keep,clean
+1263,samt,as well as,以及,CCONJ,sv,C1,23,keep,clean
+1264,samtliga,all,所有,DET,sv,C1,24,keep,clean

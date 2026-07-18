@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-413,لا,no,不,PART,ar,A1,1,keep,clean
-154,داخل,inside,里面,ADP,ar,A1,2,keep,clean
-7,أنا,I,我,PRON,ar,A1,3,keep,clean
-271,غسل,wash clothes,洗衣服,VERB,ar,A1,4,keep,clean
-376,قَانُون,law,法律,NOUN,ar,A1,5,keep,clean
-353,استيقظ,wake up,醒来,VERB,ar,A1,6,keep,clean
-527,وسادة,pillow,枕头,NOUN,ar,A1,7,keep,clean
-368,منشفة,towel,毛巾,NOUN,ar,A1,8,keep,clean
-239,شتاء,winter,冬天,NOUN,ar,A1,9,keep,clean
-15,باش,in order to,为了,SCONJ,ar,A1,10,keep,clean
-463,مُنَظَّم,organized,有条理的,ADJ,ar,A1,11,keep,clean
-310,ظهر,back,背,NOUN,ar,A1,12,keep,clean
-50,تريكو,sweater/knitwear,毛衣,NOUN,ar,A1,13,keep,clean
-516,واخا,okay,好的,INTJ,ar,A1,14,keep,clean
-408,كُوَافِير,hairdresser,理发师,NOUN,ar,A1,15,keep,clean
-163,بسرعة,quickly,快速地,ADV,ar,A1,16,keep,clean
-209,قَلَم,pen,钢笔,NOUN,ar,A1,17,keep,clean
-208,سِتَّة,six,六,NUM,ar,A1,18,keep,clean
-429,ماء,water,水,NOUN,ar,A1,19,keep,clean
-406,كِلَا,both,两者,DET,ar,A1,20,keep,clean
-40,بوليس,police,警察,NOUN,ar,A1,21,keep,clean
-118,حقيبة,bag,包,NOUN,ar,A1,22,keep,clean
-526,وزير,minister,部长,NOUN,ar,A1,23,keep,clean
-304,سيارة,car,汽车,NOUN,ar,A1,24,keep,clean
+399,كَتِف,shoulder,肩膀,NOUN,ar,A1,1,keep,clean
+10,إييه,yes,是的,INTJ,ar,A1,2,keep,clean
+412,لا,no,不,PART,ar,A1,3,keep,clean
+127,نحن,we,我们,PRON,ar,A1,4,keep,clean
+361,فطور,breakfast,早餐,NOUN,ar,A1,5,keep,clean
+62,تليفون,telephone,电话,NOUN,ar,A1,6,keep,clean
+32,بكى,cry/weep,哭,VERB,ar,A1,7,keep,clean
+377,قُدَّامَ,in front of,在...前面,ADP,ar,A1,8,keep,clean
+190,رَمْل,sand,沙子,NOUN,ar,A1,9,keep,clean
+505,تلك,that (feminine),那个,DET,ar,A1,10,keep,clean
+341,عين,eye,眼睛,NOUN,ar,A1,11,keep,clean
+250,أضاء,light up/turn on,点亮/打开,VERB,ar,A1,12,keep,clean
+444,مِرْآة,mirror,镜子,NOUN,ar,A1,13,keep,clean
+415,أمس,yesterday,昨天,NOUN,ar,A1,14,keep,clean
+211,ساخن,hot,热的,ADJ,ar,A1,15,keep,clean
+162,بسرعة,quickly,快速地,ADV,ar,A1,16,keep,clean
+388,قُنْصُلِيَّة,consulate,领事馆,NOUN,ar,A1,17,keep,clean
+301,طلب,request,请求,VERB,ar,A1,18,keep,clean
+21,برد,cold,寒冷,NOUN,ar,A1,19,keep,clean
+496,نملة,ant,蚂蚁,NOUN,ar,A1,20,keep,clean
+265,صباح,morning,早晨,NOUN,ar,A1,21,keep,clean
+178,أربعون,forty,四十,NUM,ar,A1,22,keep,clean
+364,نقود,money,钱,NOUN,ar,A1,23,keep,clean
+135,خباز,baker,面包师,NOUN,ar,A1,24,keep,clean

@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-517,fortsätta,continue,继续,VERB,sv,A1,1,keep,clean
-6,andra,other / others,其他,DET,sv,A1,2,keep,clean
-75,eller,or,或,CCONJ,sv,A1,3,keep,clean
-272,oktober,October,十月,NOUN,sv,A1,4,keep,clean
-519,framför,in front of,在...前面,ADP,sv,A1,5,keep,clean
-143,hej,hello,你好,INTJ,sv,A1,6,keep,clean
-38,bror,brother,兄弟,NOUN,sv,A1,7,keep,clean
-52,dag,day,天,NOUN,sv,A1,8,keep,clean
-370,tavla,painting,画,NOUN,sv,A1,9,keep,clean
-366,tacka,to thank,感谢,VERB,sv,A1,10,keep,clean
-492,eftersom,because,因为,SCONJ,sv,A1,11,keep,clean
-88,fisk,fish,鱼,NOUN,sv,A1,12,keep,clean
-154,hud,skin,皮肤,NOUN,sv,A1,13,keep,clean
-99,fredag,Friday,星期五,NOUN,sv,A1,14,keep,clean
-16,badrum,bathroom,浴室,NOUN,sv,A1,15,keep,clean
-480,dess,its,它的,PRON,sv,A1,16,keep,clean
-466,bör,should,应该,AUX,sv,A1,17,keep,clean
-208,lila,purple,紫色的,ADJ,sv,A1,18,keep,clean
-14,att,to (infinitive marker),去（不定式标记）,PART,sv,A1,19,keep,clean
-106,fyra,four,四,NUM,sv,A1,20,keep,clean
-423,vin,wine,葡萄酒,NOUN,sv,A1,21,keep,clean
-82,far,father,父亲,NOUN,sv,A1,22,keep,clean
-411,varför,why,为什么,ADV,sv,A1,23,keep,clean
+241,morgon,morning,早晨,NOUN,sv,A1,1,keep,clean
+191,kläder,clothes,衣服,NOUN,sv,A1,2,keep,clean
+250,måste,must,必须,AUX,sv,A1,3,keep,clean
+347,strand,beach,海滩,NOUN,sv,A1,4,keep,clean
+304,sin,his/her/its/their,他的/她的/它的/他们的,DET,sv,A1,5,keep,clean
+242,mun,mouth,嘴,NOUN,sv,A1,6,keep,clean
+139,hamn,harbor,港口,NOUN,sv,A1,7,keep,clean
+309,sjukhus,hospital,医院,NOUN,sv,A1,8,keep,clean
+372,telefon,phone,电话,NOUN,sv,A1,9,keep,clean
+500,ensam,alone,孤独的,ADJ,sv,A1,10,keep,clean
+265,när,when,什么时候,ADV,sv,A1,11,keep,clean
+140,han,he,他,PRON,sv,A1,12,keep,clean
+492,eftersom,because,因为,SCONJ,sv,A1,13,keep,clean
+283,på,on,在……上,ADP,sv,A1,14,keep,clean
+257,nej,no,不,INTJ,sv,A1,15,keep,clean
+512,fixa,fix,修理/解决,VERB,sv,A1,16,keep,clean
+442,åttio,eighty,八十,NUM,sv,A1,17,keep,clean
+276,ost,cheese,奶酪,NOUN,sv,A1,18,keep,clean
+323,sluta,stop,停止,VERB,sv,A1,19,keep,clean
+14,att,to (infinitive marker),去（不定式标记）,PART,sv,A1,20,keep,clean
+233,men,but,但是,CCONJ,sv,A1,21,keep,clean
+31,blomma,flower,花,NOUN,sv,A1,22,keep,clean
+412,varg,wolf,狼,NOUN,sv,A1,23,keep,clean

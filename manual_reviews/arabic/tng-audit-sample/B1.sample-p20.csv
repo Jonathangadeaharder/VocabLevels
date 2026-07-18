@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-174,منافس,opponent,对手,NOUN,ar,B1,1,keep,clean
-254,طابور,queue,队列,NOUN,ar,B1,2,keep,clean
-251,ملف,file,文件,NOUN,ar,B1,3,keep,clean
-262,درب,alley,小巷,NOUN,ar,B1,4,keep,clean
-148,ترتيب,ranking,排名,NOUN,ar,B1,5,keep,clean
-784,بالتقسيط,in installments,分期付款,ADV,ar,B1,6,keep,clean
-587,تأمين,insurance,保险,NOUN,ar,B1,7,keep,clean
-129,كأس,cup,杯,NOUN,ar,B1,8,keep,clean
-436,كلاهما,both,两者都,DET,ar,B1,9,keep,clean
-425,أما,as for,至于,PART,ar,B1,10,keep,clean
-213,شمسي,solar,太阳的,ADJ,ar,B1,11,keep,clean
-737,طوبة,brick,砖,NOUN,ar,B1,12,keep,clean
-757,قبض,to grab,抓住,VERB,ar,B1,13,keep,clean
-161,جمباز,gymnastics,体操,NOUN,ar,B1,14,keep,clean
-88,رقص,dance,舞蹈,NOUN,ar,B1,15,keep,clean
-606,طفح,rash,皮疹,NOUN,ar,B1,16,keep,clean
-267,سلطة,authority,权力,NOUN,ar,B1,17,keep,clean
-611,نزيف,bleeding,出血,NOUN,ar,B1,18,keep,clean
-242,تعريف,identification,身份证明,NOUN,ar,B1,19,keep,clean
-308,متابع,follower,关注者,NOUN,ar,B1,20,keep,clean
-245,وفاة,death,死亡,NOUN,ar,B1,21,keep,clean
-147,نتيجة,result,结果,NOUN,ar,B1,22,keep,clean
-437,رغم,despite,尽管,ADP,ar,B1,23,keep,clean
-135,جري,running,跑步,NOUN,ar,B1,24,keep,clean
+37,استعلامات,information desk,问询处,NOUN,ar,B1,1,keep,clean
+289,ضجيج,noise,噪音,NOUN,ar,B1,2,keep,clean
+295,انتهاء,expiry,到期,NOUN,ar,B1,3,keep,clean
+62,مسرحية,stage play,舞台剧,NOUN,ar,B1,4,keep,clean
+460,مسطرة,ruler,尺子,NOUN,ar,B1,5,keep,clean
+442,بيننا,between us,我们之间,ADP,ar,B1,6,keep,clean
+229,لقلق,stork,鹳,NOUN,ar,B1,7,keep,clean
+747,قصعة,large serving bowl,大盛碗,NOUN,ar,B1,8,keep,clean
+462,قاموس,dictionary,词典,NOUN,ar,B1,9,keep,clean
+771,محروق,burnt,烧焦的,ADJ,ar,B1,10,keep,clean
+762,رخى,to loosen,放松,VERB,ar,B1,11,keep,clean
+785,مرضعة,wet nurse,奶妈,NOUN,ar,B1,12,keep,clean
+650,مجاناً,free of charge,免费,ADV,ar,B1,13,keep,clean
+243,عقد,contract,合同,NOUN,ar,B1,14,keep,clean
+531,تعاونية,cooperative,合作社,NOUN,ar,B1,15,keep,clean
+178,استرخاء,relaxation,放松,NOUN,ar,B1,16,keep,clean
+160,نزهة,outing,郊游,NOUN,ar,B1,17,keep,clean
+183,نفايات,waste,废物,NOUN,ar,B1,18,keep,clean
+425,أما,as for,至于,PART,ar,B1,19,keep,clean
+77,ترفيه,entertainment,娱乐,NOUN,ar,B1,20,keep,clean
+612,ورم,swelling,肿胀,NOUN,ar,B1,21,keep,clean
+525,مهمة,task,任务,NOUN,ar,B1,22,keep,clean
+436,كلاهما,both,两者都,DET,ar,B1,23,keep,clean
+500,جراح,surgeon,外科医生,NOUN,ar,B1,24,keep,clean

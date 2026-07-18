@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-112,Gegend,area,地区,NOUN,de,A2,1,keep,clean
-315,Verbindung,connection,连接,NOUN,de,A2,2,keep,clean
-12,ansehen,to watch,观看,VERB,de,A2,3,keep,clean
-88,euer,your (plural),你们的,PRON,de,A2,4,keep,clean
-105,führen,to lead,引导,VERB,de,A2,5,keep,clean
-164,Kleid,dress,连衣裙,NOUN,de,A2,6,keep,clean
-227,Polizei,police,警察,NOUN,de,A2,7,keep,clean
-28,Befehl,command,命令,NOUN,de,A2,8,keep,clean
-24,außer,except,除...之外,ADP,de,A2,9,keep,clean
-334,Wahl,choice,选择,NOUN,de,A2,10,keep,clean
-199,meist,most,大多数,DET,de,A2,11,keep,clean
-130,Glas,glass,玻璃,NOUN,de,A2,12,keep,clean
-219,obwohl,although,虽然,SCONJ,de,A2,13,keep,clean
-153,jawohl,yes,是的,INTJ,de,A2,14,keep,clean
-55,Brief,letter,信,NOUN,de,A2,15,keep,clean
-232,Punkt,point,点,NOUN,de,A2,16,keep,clean
-205,möchten,would like,想要,AUX,de,A2,17,keep,clean
-259,schrecklich,terrible,可怕的,ADJ,de,A2,18,keep,clean
-274,sieben,seven,七,NUM,de,A2,19,keep,clean
-338,weh,sore,疼,ADV,de,A2,20,keep,clean
-32,benutzen,to use,使用,VERB,de,A2,21,keep,clean
-52,Boot,boat,船,NOUN,de,A2,22,keep,clean
-233,Quatsch,nonsense,胡闹,NOUN,de,A2,23,keep,clean
+253,Schlaf,sleep,睡眠,NOUN,de,A2,1,keep,clean
+344,Wert,value,价值,NOUN,de,A2,2,keep,clean
+319,verraten,to betray,背叛,VERB,de,A2,3,keep,clean
+161,Kirche,church,教堂,NOUN,de,A2,4,keep,clean
+63,Dame,lady,女士,NOUN,de,A2,5,keep,clean
+205,möchten,would like,想要,AUX,de,A2,6,keep,clean
+336,Wahrheit,truth,真相,NOUN,de,A2,7,keep,clean
+338,weh,sore,疼,ADV,de,A2,8,keep,clean
+13,Antwort,answer,回答,NOUN,de,A2,9,keep,clean
+173,Königin,queen,女王,NOUN,de,A2,10,keep,clean
+219,obwohl,although,虽然,SCONJ,de,A2,11,keep,clean
+153,jawohl,yes,是的,INTJ,de,A2,12,keep,clean
+169,Kraft,strength,力量,NOUN,de,A2,13,keep,clean
+274,sieben,seven,七,NUM,de,A2,14,keep,clean
+170,Krankenhaus,hospital,医院,NOUN,de,A2,15,keep,clean
+154,jede,every,每个,DET,de,A2,16,keep,clean
+118,lesen,to read,阅读,VERB,de,A2,17,keep,clean
+106,fürs,for the,为了,ADP,de,A2,18,keep,clean
+88,euer,your (plural),你们的,PRON,de,A2,19,keep,clean
+41,Bewegung,movement,运动,NOUN,de,A2,20,keep,clean
+325,Verzeihung,forgiveness,原谅,NOUN,de,A2,21,keep,clean
+259,schrecklich,terrible,可怕的,ADJ,de,A2,22,keep,clean
+104,fühlen,to feel,感觉,VERB,de,A2,23,keep,clean

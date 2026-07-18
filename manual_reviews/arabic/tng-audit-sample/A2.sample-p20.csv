@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-486,كون,if,如果,SCONJ,ar,A2,1,keep,clean
-244,بجانب,next to,在旁边,ADP,ar,A2,2,keep,clean
-291,جريدة,newspaper,报纸,NOUN,ar,A2,3,keep,clean
-472,بلاتي,wait,等一下,INTJ,ar,A2,4,keep,clean
-361,فات,to pass,经过,VERB,ar,A2,5,keep,clean
-261,سبورة,blackboard,黑板,NOUN,ar,A2,6,keep,clean
-457,قد,as much as,多达,PART,ar,A2,7,keep,clean
-458,تقريبا,approximately,大约,ADV,ar,A2,8,keep,clean
-168,مكنسة,broom,扫帚,NOUN,ar,A2,9,keep,clean
-224,غبار,dust,灰尘,NOUN,ar,A2,10,keep,clean
-211,مطر,rain,雨,NOUN,ar,A2,11,keep,clean
-282,فرنسية,French language,法语,NOUN,ar,A2,12,keep,clean
-477,غادي,going to,将要,AUX,ar,A2,13,keep,clean
-196,صحة,health,健康,NOUN,ar,A2,14,keep,clean
-301,قبيلة,tribe,部落,NOUN,ar,A2,15,keep,clean
-281,عربية,Arabic language,阿拉伯语,NOUN,ar,A2,16,keep,clean
-273,شرح,to explain,解释,VERB,ar,A2,17,keep,clean
-487,ولا,or,或者,CCONJ,ar,A2,18,keep,clean
-234,دورة,lap,圈,NOUN,ar,A2,19,keep,clean
-394,صور,to photograph,拍照,VERB,ar,A2,20,keep,clean
-169,شمعة,candle,蜡烛,NOUN,ar,A2,21,keep,clean
-104,بنة,flavor,味道,NOUN,ar,A2,22,keep,clean
-453,أصفر,yellow,黄色的,ADJ,ar,A2,23,keep,clean
+491,لازم,must,必须,AUX,ar,A2,1,keep,clean
+501,موسيقى,music,音乐,NOUN,ar,A2,2,keep,clean
+479,نيت,really,真的,ADV,ar,A2,3,keep,clean
+57,لوز,almonds,杏仁,NOUN,ar,A2,4,keep,clean
+467,واش,question particle,疑问助词,PART,ar,A2,5,keep,clean
+29,تسوق,to shop for groceries,买菜,VERB,ar,A2,6,keep,clean
+424,عيب,shame / disgrace,耻辱 / 丢脸,NOUN,ar,A2,7,keep,clean
+303,طول,length,长度,NOUN,ar,A2,8,keep,clean
+481,كون,if,如果,SCONJ,ar,A2,9,keep,clean
+11,جهز,to prepare,准备,VERB,ar,A2,10,keep,clean
+344,كره,to hate,讨厌,VERB,ar,A2,11,keep,clean
+319,جمعة,Friday,星期五,NOUN,ar,A2,12,keep,clean
+469,يالله,come on,来吧,INTJ,ar,A2,13,keep,clean
+241,زحمة,traffic jam,交通堵塞,NOUN,ar,A2,14,keep,clean
+247,عند,at,在,ADP,ar,A2,15,keep,clean
+259,اجتماع,meeting,会议,NOUN,ar,A2,16,keep,clean
+150,جرس,bell,铃,NOUN,ar,A2,17,keep,clean
+105,ريحة,smell,气味,NOUN,ar,A2,18,keep,clean
+315,اثنين,Monday,星期一,NOUN,ar,A2,19,keep,clean
+437,قبيح,ugly,丑陋的,ADJ,ar,A2,20,keep,clean
+482,ولا,or,或者,CCONJ,ar,A2,21,keep,clean
+217,فصل,season,季节,NOUN,ar,A2,22,keep,clean
+339,عقل,mind,理智,NOUN,ar,A2,23,keep,clean

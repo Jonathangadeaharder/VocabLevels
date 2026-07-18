@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-132,connaissance,knowledge,知识,NOUN,fr,A2,1,keep,clean
-246,lendemain,next day,次日,NOUN,fr,A2,2,keep,clean
-341,onze,eleven,十一,NUM,fr,A2,3,keep,clean
-371,papeterie,stationery shop,文具店,NOUN,fr,A2,4,keep,clean
-482,positif,positive,积极的,ADJ,fr,A2,5,keep,clean
-269,marché,market,市场,NOUN,fr,A2,6,keep,clean
-432,peur,fear,恐惧,NOUN,fr,A2,7,keep,clean
-390,particulièrement,particularly,特别地,ADV,fr,A2,8,keep,clean
-241,lancer,to throw,投掷,VERB,fr,A2,9,keep,clean
-503,pression,pressure,压力,NOUN,fr,A2,10,keep,clean
-461,plusieurs,several,几个,DET,fr,A2,11,keep,clean
-173,début,beginning,开始,NOUN,fr,A2,12,keep,clean
-416,pendant,during,在...期间,ADP,fr,A2,13,keep,clean
-440,pique,spade,黑桃,NOUN,fr,A2,14,keep,clean
-405,patron,boss,老板,NOUN,fr,A2,15,keep,clean
-423,personnage,character,人物,NOUN,fr,A2,16,keep,clean
-152,céréales,cereal,谷物,NOUN,fr,A2,17,keep,clean
-304,ni,neither/nor,既不/也不,CCONJ,fr,A2,18,keep,clean
-356,oui,yes,是,INTJ,fr,A2,19,keep,clean
-247,lequel,which one,哪一个,PRON,fr,A2,20,keep,clean
-177,défense,defense,防御,NOUN,fr,A2,21,keep,clean
-55,beau-fils,stepson,继子,NOUN,fr,A2,22,keep,clean
-257,lorsque,when,当……时,SCONJ,fr,A2,23,keep,clean
+326,nécessaire,necessary,必要的,ADJ,fr,A2,1,keep,clean
+304,ni,neither/nor,既不/也不,CCONJ,fr,A2,2,keep,clean
+238,jusqu'à,until,直到,ADP,fr,A2,3,keep,clean
+483,possibilité,possibility,可能性,NOUN,fr,A2,4,keep,clean
+397,passeport,passport,护照,NOUN,fr,A2,5,keep,clean
+341,onze,eleven,十一,NUM,fr,A2,6,keep,clean
+253,limite,limit,限制,NOUN,fr,A2,7,keep,clean
+96,changement,change,变化,NOUN,fr,A2,8,keep,clean
+257,lorsque,when,当……时,SCONJ,fr,A2,9,keep,clean
+65,biscotte,rusk,干面包,NOUN,fr,A2,10,keep,clean
+195,faute,mistake,错误,NOUN,fr,A2,11,keep,clean
+121,commode,chest of drawers,五斗柜,NOUN,fr,A2,12,keep,clean
+508,principe,principle,原则,NOUN,fr,A2,13,keep,clean
+244,le,the,这/那,DET,fr,A2,14,keep,clean
+6,acte,act,行为,NOUN,fr,A2,15,keep,clean
+469,poivron,bell pepper,甜椒,NOUN,fr,A2,16,keep,clean
+191,exposition,exhibition,展览,NOUN,fr,A2,17,keep,clean
+226,il,he,他,PRON,fr,A2,18,keep,clean
+336,offrir,to offer,提供,VERB,fr,A2,19,keep,clean
+369,pantoufle,slipper,拖鞋,NOUN,fr,A2,20,keep,clean
+210,gendre,son-in-law,女婿,NOUN,fr,A2,21,keep,clean
+110,clairement,clearly,清楚地,ADV,fr,A2,22,keep,clean
+273,merci,thank you,谢谢,INTJ,fr,A2,23,keep,clean

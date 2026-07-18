@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-348,غليظ,thick,厚的,ADJ,ar,A1,1,keep,clean
-31,بقى,stay/remain,停留/留下,VERB,ar,A1,2,keep,clean
-40,بوليس,police,警察,NOUN,ar,A1,3,keep,clean
-49,قطار,train,火车,NOUN,ar,A1,4,keep,clean
-285,ضيف,guest,客人,NOUN,ar,A1,5,keep,clean
-472,مَلِك,king,国王,NOUN,ar,A1,6,keep,clean
-322,عسل,honey,蜂蜜,NOUN,ar,A1,7,keep,clean
-346,غداء,lunch,午餐,NOUN,ar,A1,8,keep,clean
-158,دجاج,chicken,鸡,NOUN,ar,A1,9,keep,clean
-278,صندل,sandal,凉鞋,NOUN,ar,A1,10,keep,clean
-20,بدأ,start,开始,VERB,ar,A1,11,keep,clean
-117,حق,right,权利,NOUN,ar,A1,12,keep,clean
-56,تقاشر,socks,袜子,NOUN,ar,A1,13,keep,clean
-58,تلاتة,three,三,NUM,ar,A1,14,keep,clean
-306,طائرة,airplane,飞机,NOUN,ar,A1,15,keep,clean
-516,واخا,okay,好的,INTJ,ar,A1,16,keep,clean
-231,سوق,market,市场,NOUN,ar,A1,17,keep,clean
-85,جرح,wound,伤口,NOUN,ar,A1,18,keep,clean
-259,قليلا,a little,一点,ADV,ar,A1,19,keep,clean
-504,ذلك,that (masculine),那个,DET,ar,A1,20,keep,clean
-413,لا,no,不,PART,ar,A1,21,keep,clean
-15,باش,in order to,为了,SCONJ,ar,A1,22,keep,clean
-7,أنا,I,我,PRON,ar,A1,23,keep,clean
-424,خلف,behind,在...后面,ADP,ar,A1,24,keep,clean
+412,لا,no,不,PART,ar,A1,1,keep,clean
+469,مَاكِنَة,machine,机器,NOUN,ar,A1,2,keep,clean
+72,ثلج,snow,雪,NOUN,ar,A1,3,keep,clean
+252,شكرا,thank you,谢谢,INTJ,ar,A1,4,keep,clean
+507,هرب,run away/fled,逃跑,VERB,ar,A1,5,keep,clean
+69,ثانية,second,秒,NOUN,ar,A1,6,keep,clean
+20,خارج,outside,外面,ADV,ar,A1,7,keep,clean
+225,سلم,peace,和平,NOUN,ar,A1,8,keep,clean
+12,باب,door,门,NOUN,ar,A1,9,keep,clean
+308,ظفر,nail,指甲,NOUN,ar,A1,10,keep,clean
+262,صاحب,friend (male),朋友 (男),NOUN,ar,A1,11,keep,clean
+456,طَمَاطِم,tomato,番茄,NOUN,ar,A1,12,keep,clean
+188,رُكْبَة,knee,膝盖,NOUN,ar,A1,13,keep,clean
+39,بوليس,police,警察,NOUN,ar,A1,14,keep,clean
+415,أمس,yesterday,昨天,NOUN,ar,A1,15,keep,clean
+256,ما,what,什么,PRON,ar,A1,16,keep,clean
+505,تلك,that (feminine),那个,DET,ar,A1,17,keep,clean
+208,قَلَم,pen,钢笔,NOUN,ar,A1,18,keep,clean
+282,ضحك,laugh,笑,VERB,ar,A1,19,keep,clean
+153,داخل,inside,里面,ADP,ar,A1,20,keep,clean
+181,رِحْلَة,journey,旅行,NOUN,ar,A1,21,keep,clean
+219,ساكت,silent/quiet,安静的,ADJ,ar,A1,22,keep,clean
+207,سِتَّة,six,六,NUM,ar,A1,23,keep,clean
+419,لعب,play,玩,VERB,ar,A1,24,keep,clean

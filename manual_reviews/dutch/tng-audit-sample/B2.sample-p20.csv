@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-757,passagier,passenger,乘客,NOUN,nl,B2,1,keep,clean
-687,reputatie,reputation,声誉,NOUN,nl,B2,2,keep,clean
-357,voorstelling,performance,表演,NOUN,nl,B2,3,keep,clean
-330,werking,operation,运作,NOUN,nl,B2,4,keep,clean
-24,justitie,justice,司法,NOUN,nl,B2,5,keep,clean
-20,duizend,thousand,千,NUM,nl,B2,6,keep,clean
-566,doorheen,through,穿过,ADP,nl,B2,7,keep,clean
-818,keel,throat,喉咙,NOUN,nl,B2,8,keep,clean
-807,bond,federation,联合会,NOUN,nl,B2,9,keep,clean
-126,wezen,to be,是,AUX,nl,B2,10,keep,clean
-888,maagd,virgin,处女,NOUN,nl,B2,11,keep,clean
-240,paleis,palace,宫殿,NOUN,nl,B2,12,keep,clean
-21,evenals,as well as,以及,SCONJ,nl,B2,13,keep,clean
-384,uitbreiding,expansion,扩展,NOUN,nl,B2,14,keep,clean
-192,katholieke,Catholic,天主教的,ADJ,nl,B2,15,keep,clean
-65,noch,nor,也不,CCONJ,nl,B2,16,keep,clean
-266,ongelooflijk,incredible,难以置信的,ADJ,nl,B2,17,keep,clean
-29,regel,rule,规则,NOUN,nl,B2,18,keep,clean
-452,aankomen,to arrive,到达,VERB,nl,B2,19,keep,clean
-520,waarover,about which,关于什么,PRON,nl,B2,20,keep,clean
-949,interieur,interior,内部,NOUN,nl,B2,21,keep,clean
-177,vermogen,assets,资产,NOUN,nl,B2,22,keep,clean
-182,ach,oh well,唉,INTJ,nl,B2,23,keep,clean
-539,jawel,yes indeed,是的,ADV,nl,B2,24,keep,clean
+155,verspreiden,to spread,传播,VERB,nl,B2,1,keep,clean
+728,à,at,每,ADP,nl,B2,2,keep,clean
+3,hé,hey,嘿,INTJ,nl,B2,3,keep,clean
+916,gebeurtenis,event,事件,NOUN,nl,B2,4,keep,clean
+794,proef,test,测试,NOUN,nl,B2,5,keep,clean
+765,veertig,forty,四十,NUM,nl,B2,6,keep,clean
+547,pakket,package,包裹,NOUN,nl,B2,7,keep,clean
+594,daadwerkelijk,actually,实际上,ADV,nl,B2,8,keep,clean
+65,noch,nor,也不,CCONJ,nl,B2,9,keep,clean
+576,lift,elevator,电梯,NOUN,nl,B2,10,keep,clean
+923,prof,professor,教授,NOUN,nl,B2,11,keep,clean
+740,effectief,effective,有效的,ADJ,nl,B2,12,keep,clean
+557,vriendje,boyfriend,男朋友,NOUN,nl,B2,13,keep,clean
+101,visie,vision,愿景,NOUN,nl,B2,14,keep,clean
+1008,verloop,course,过程,NOUN,nl,B2,15,keep,clean
+90,kanker,cancer,癌症,NOUN,nl,B2,16,keep,clean
+850,cultureel,cultural,文化的,ADJ,nl,B2,17,keep,clean
+330,werking,operation,运作,NOUN,nl,B2,18,keep,clean
+126,wezen,to be,是,AUX,nl,B2,19,keep,clean
+508,degenen,those,那些人,PRON,nl,B2,20,keep,clean
+108,gevecht,fight,战斗,NOUN,nl,B2,21,keep,clean
+206,toezicht,supervision,监督,NOUN,nl,B2,22,keep,clean
+477,toestel,device,设备,NOUN,nl,B2,23,keep,clean
+21,evenals,as well as,以及,SCONJ,nl,B2,24,keep,clean

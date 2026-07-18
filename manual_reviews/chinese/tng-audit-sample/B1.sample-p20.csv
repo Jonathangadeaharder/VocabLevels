@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-70,以来,since,以来,PART,zh,B1,1,keep,clean
-929,税,tax,税,NOUN,zh,B1,2,keep,clean
-340,大方,generous,大方,ADJ,zh,B1,3,keep,clean
-766,沟通,to communicate,沟通,VERB,zh,B1,4,keep,clean
-537,想念,to miss,想念,VERB,zh,B1,5,keep,clean
-292,哪怕,even if,哪怕,SCONJ,zh,B1,6,keep,clean
-28,中介,to act as intermediary,中介,NOUN,zh,B1,7,keep,clean
-286,命运,fate,命运,NOUN,zh,B1,8,keep,clean
-21,业务,business,业务,NOUN,zh,B1,9,keep,clean
-164,凡是,all,凡是,DET,zh,B1,10,keep,clean
-403,宴会,banquet,宴会,NOUN,zh,B1,11,keep,clean
-208,匹,classifier for horses,匹,NUM,zh,B1,12,keep,clean
-465,幼儿园,kindergarten,幼儿园,NOUN,zh,B1,13,keep,clean
-59,人员,personnel,人员,NOUN,zh,B1,14,keep,clean
-266,同时,at the same time,同时,ADV,zh,B1,15,keep,clean
-155,冒险,to take risks,冒险,VERB,zh,B1,16,keep,clean
-691,晒,to dry in the sun,晒,AUX,zh,B1,17,keep,clean
-349,夹子,clip,夹子,NOUN,zh,B1,18,keep,clean
-260,各自,each,各自,PRON,zh,B1,19,keep,clean
-16,与其,rather than,与其,CCONJ,zh,B1,20,keep,clean
-57,人事,personnel,人事,NOUN,zh,B1,21,keep,clean
-98,作为,as,作为,ADP,zh,B1,22,keep,clean
-425,小吃,snack,小吃,NOUN,zh,B1,23,keep,clean
-198,劳驾,excuse me,劳驾,INTJ,zh,B1,24,keep,clean
+120,假如,if,假如,SCONJ,zh,B1,1,keep,clean
+903,硬币,coin,硬币,NOUN,zh,B1,2,keep,clean
+597,持续,to last,持续,VERB,zh,B1,3,keep,clean
+691,晒,to dry in the sun,晒,AUX,zh,B1,4,keep,clean
+353,女士,lady,女士,NOUN,zh,B1,5,keep,clean
+208,匹,classifier for horses,匹,NUM,zh,B1,6,keep,clean
+612,排队,to line up,排队,VERB,zh,B1,7,keep,clean
+302,嘉宾,esteemed guest,嘉宾,NOUN,zh,B1,8,keep,clean
+259,吃亏,to suffer losses,吃亏,VERB,zh,B1,9,keep,clean
+336,多亏,thanks to,多亏,ADP,zh,B1,10,keep,clean
+993,老板,boss,老板,NOUN,zh,B1,11,keep,clean
+294,唉,alas,唉,INTJ,zh,B1,12,keep,clean
+629,摄影,photography,摄影,NOUN,zh,B1,13,keep,clean
+896,短信,text message,短信,NOUN,zh,B1,14,keep,clean
+164,凡是,all,凡是,DET,zh,B1,15,keep,clean
+522,总理,premier,总理,NOUN,zh,B1,16,keep,clean
+16,与其,rather than,与其,CCONJ,zh,B1,17,keep,clean
+89,似的,like,似的,PART,zh,B1,18,keep,clean
+500,彼此,each other,彼此,PRON,zh,B1,19,keep,clean
+355,如今,nowadays,如今,ADV,zh,B1,20,keep,clean
+429,尺子,ruler,尺子,NOUN,zh,B1,21,keep,clean
+467,广大,vast,广大,ADJ,zh,B1,22,keep,clean
+406,家庭,family,家庭,NOUN,zh,B1,23,keep,clean
+423,小伙子,young man,小伙子,NOUN,zh,B1,24,keep,clean

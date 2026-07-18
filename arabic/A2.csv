@@ -454,7 +454,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أبيض,white,白色的,ADJ
 فضي,silver,银色的,ADJ
 لون,color,颜色,NOUN
-قد,as much as,多达,PART
+قد,already / may (particle),已经 / 或许（助词）,PART
 تقريبا,approximately,大约,ADV
 كامل,whole,完整的,ADJ
 ثلث,third,三分之一,NOUN
@@ -472,20 +472,14 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بلاتي,wait,等一下,INTJ
 أجي,come here,过来,VERB
 سير,go,走,VERB
-ماشي,not,不,PART
-منين,from where,从哪里,ADV
-غادي,going to,将要,AUX
 راه,indeed,确实,PART
 هاك,here you go,给你,INTJ
 إيوا,well then,好吧,INTJ
 ديال,of,的,ADP
-فوقاش,when,什么时候,ADV
 نيت,really,真的,ADV
-حيت,because,因为,SCONJ
 إلا,if,如果,SCONJ
 كون,if,如果,SCONJ
 ولا,or,或者,CCONJ
-بصح,but,但是,CCONJ
 مبروك,congratulations,恭喜,INTJ
 بشوية,a little,一点,ADV
 مع,with,和,ADP

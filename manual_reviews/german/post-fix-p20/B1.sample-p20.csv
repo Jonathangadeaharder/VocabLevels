@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-353,Motor,engine,发动机,NOUN,de,B1,1,keep,clean
-335,mehrere,several,几个,DET,de,B1,2,keep,clean
-32,Aufmerksamkeit,attention,注意力,NOUN,de,B1,3,keep,clean
-367,neun,nine,九,NUM,de,B1,4,keep,clean
-350,Mond,moon,月亮,NOUN,de,B1,5,keep,clean
-9,Affäre,affair,风流韵事,NOUN,de,B1,6,keep,clean
-541,verbunden,connected,连接的,ADJ,de,B1,7,keep,clean
-396,prost,cheers,干杯,INTJ,de,B1,8,keep,clean
-511,Toilette,toilet,厕所,NOUN,de,B1,9,keep,clean
-15,Anführer,leader,首领,NOUN,de,B1,10,keep,clean
-223,wählen,to choose,选择,VERB,de,B1,11,keep,clean
-91,davor,before that,在此之前,ADV,de,B1,12,keep,clean
-489,Stimmung,mood,情绪,NOUN,de,B1,13,keep,clean
-202,Gegenteil,opposite,对立面,NOUN,de,B1,14,keep,clean
-37,außerhalb,outside of,在...之外,ADP,de,B1,15,keep,clean
-182,Fluss,river,河流,NOUN,de,B1,16,keep,clean
-143,entlassen,to dismiss,解雇,VERB,de,B1,17,keep,clean
-587,Wetter,weather,天气,NOUN,de,B1,18,keep,clean
-190,Freundschaft,friendship,友谊,NOUN,de,B1,19,keep,clean
-125,einander,each other,互相,PRON,de,B1,20,keep,clean
-570,Vögel,birds,鸟,NOUN,de,B1,21,keep,clean
-192,Frische,freshness,新鲜,NOUN,de,B1,22,keep,clean
-144,entweder,either,要么,CCONJ,de,B1,23,keep,clean
-260,indem,by doing,通过,SCONJ,de,B1,24,keep,clean
+15,Anführer,leader,首领,NOUN,de,B1,1,keep,clean
+78,Bulle,cop,警察,NOUN,de,B1,2,keep,clean
+144,entweder,either,要么,CCONJ,de,B1,3,keep,clean
+497,Strom,electricity,电,NOUN,de,B1,4,keep,clean
+319,Lehrer,teacher,教师,NOUN,de,B1,5,keep,clean
+437,Scheiße,shit,屎,NOUN,de,B1,6,keep,clean
+357,Müll,trash,垃圾,NOUN,de,B1,7,keep,clean
+283,Klo,toilet,厕所,NOUN,de,B1,8,keep,clean
+36,Aussage,statement,陈述,NOUN,de,B1,9,keep,clean
+228,Grenze,border,边界,NOUN,de,B1,10,keep,clean
+142,entlang,along,沿着,ADP,de,B1,11,keep,clean
+49,begleiten,to accompany,陪伴,VERB,de,B1,12,keep,clean
+367,neun,nine,九,NUM,de,B1,13,keep,clean
+260,indem,by doing,通过,SCONJ,de,B1,14,keep,clean
+606,zumindest,at least,至少,ADV,de,B1,15,keep,clean
+64,Beweis,proof,证据,NOUN,de,B1,16,keep,clean
+493,Strafe,punishment,惩罚,NOUN,de,B1,17,keep,clean
+484,Steig,path,小路,NOUN,de,B1,18,keep,clean
+388,Post,post office,邮局,NOUN,de,B1,19,keep,clean
+318,leer,empty,空的,ADJ,de,B1,20,keep,clean
+29,aufgeben,to give up,放弃,VERB,de,B1,21,keep,clean
+582,welcher,which,哪个,DET,de,B1,22,keep,clean
+267,irgendetwas,anything,任何东西,PRON,de,B1,23,keep,clean
+520,tschüs,bye,再见,INTJ,de,B1,24,keep,clean

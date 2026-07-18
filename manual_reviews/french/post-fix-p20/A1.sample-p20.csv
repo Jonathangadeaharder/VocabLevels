@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-481,membre,member,成员,NOUN,fr,A1,1,keep,clean
-113,cela,that,那个,PRON,fr,A1,2,keep,clean
-114,cellule,cell,细胞,NOUN,fr,A1,3,keep,clean
-352,geler,to freeze,结冰,VERB,fr,A1,4,keep,clean
-307,famille,family,家庭,NOUN,fr,A1,5,keep,clean
-120,cervelle,brain,大脑,NOUN,fr,A1,6,keep,clean
-390,honneur,honor,荣誉,NOUN,fr,A1,7,keep,clean
-10,adieu,farewell,再见,NOUN,fr,A1,8,keep,clean
-77,boulanger,baker,面包师,NOUN,fr,A1,9,keep,clean
-127,chance,luck,运气,NOUN,fr,A1,10,keep,clean
-431,jusque,until,直到,ADP,fr,A1,11,keep,clean
-71,bonsoir,good evening,晚上好,INTJ,fr,A1,12,keep,clean
-395,huit,eight,八,NUM,fr,A1,13,keep,clean
-523,médecine,medicine,医学,NOUN,fr,A1,14,keep,clean
-491,mieux,better,更好地,ADV,fr,A1,15,keep,clean
-371,guerre,war,战争,NOUN,fr,A1,16,keep,clean
-472,mariage,marriage,婚姻,NOUN,fr,A1,17,keep,clean
-16,aimer,to like,喜欢,VERB,fr,A1,18,keep,clean
-311,ferme,farm,农场,NOUN,fr,A1,19,keep,clean
-214,des,some,一些,DET,fr,A1,20,keep,clean
-58,beau,beautiful,美丽的,ADJ,fr,A1,21,keep,clean
-104,car,because,因为,CCONJ,fr,A1,22,keep,clean
-324,fond,bottom,底部,NOUN,fr,A1,23,keep,clean
+434,laid,ugly,丑的,ADJ,fr,A1,1,keep,clean
+256,elles,they,她们,PRON,fr,A1,2,keep,clean
+473,marier,to marry,结婚,VERB,fr,A1,3,keep,clean
+493,mille,thousand,千,NUM,fr,A1,4,keep,clean
+189,couper,to cut,切,VERB,fr,A1,5,keep,clean
+433,lac,lake,湖,NOUN,fr,A1,6,keep,clean
+72,bord,edge,边缘,NOUN,fr,A1,7,keep,clean
+104,car,because,因为,CCONJ,fr,A1,8,keep,clean
+442,ligne,line,线,NOUN,fr,A1,9,keep,clean
+164,col,collar,衣领,NOUN,fr,A1,10,keep,clean
+455,lèvre,lip,嘴唇,NOUN,fr,A1,11,keep,clean
+406,ingénieur,engineer,工程师,NOUN,fr,A1,12,keep,clean
+253,eau,water,水,NOUN,fr,A1,13,keep,clean
+97,caille,quail,鹌鹑,NOUN,fr,A1,14,keep,clean
+53,banc,bench,长凳,NOUN,fr,A1,15,keep,clean
+341,fève,bean,豆子,NOUN,fr,A1,16,keep,clean
+502,mon,my,我的,DET,fr,A1,17,keep,clean
+206,debout,standing,站立的,ADV,fr,A1,18,keep,clean
+260,employé,employee,雇员,NOUN,fr,A1,19,keep,clean
+71,bonsoir,good evening,晚上好,INTJ,fr,A1,20,keep,clean
+276,entre,between,在...之间,ADP,fr,A1,21,keep,clean
+103,canapé,sofa,沙发,NOUN,fr,A1,22,keep,clean
+520,mère,mother,母亲,NOUN,fr,A1,23,keep,clean

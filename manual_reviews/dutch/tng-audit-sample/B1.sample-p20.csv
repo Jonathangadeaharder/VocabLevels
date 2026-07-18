@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-414,winst,profit,利润,NOUN,nl,B1,1,keep,clean
-447,terrein,terrain,地形,NOUN,nl,B1,2,keep,clean
-74,medewerker,employee,员工,NOUN,nl,B1,3,keep,clean
-129,nogal,rather,相当,ADV,nl,B1,4,keep,clean
-295,schoon,clean,干净的,ADJ,nl,B1,5,keep,clean
-526,carrière,career,职业,NOUN,nl,B1,6,keep,clean
-112,zulke,such,这样的,DET,nl,B1,7,keep,clean
-169,meid,girl,女孩,NOUN,nl,B1,8,keep,clean
-282,dansen,to dance,跳舞,VERB,nl,B1,9,keep,clean
-450,been,leg,腿,NOUN,nl,B1,10,keep,clean
-515,namens,on behalf of,代表,ADP,nl,B1,11,keep,clean
-108,miljard,billion,十亿,NUM,nl,B1,12,keep,clean
-156,strand,beach,海滩,NOUN,nl,B1,13,keep,clean
-504,sommigen,some,有些人,PRON,nl,B1,14,keep,clean
-96,totdat,until,直到,SCONJ,nl,B1,15,keep,clean
-195,vlag,flag,旗帜,NOUN,nl,B1,16,keep,clean
-42,finale,final,决赛,NOUN,nl,B1,17,keep,clean
-495,bibliotheek,library,图书馆,NOUN,nl,B1,18,keep,clean
-163,behandeling,treatment,治疗,NOUN,nl,B1,19,keep,clean
-115,bescherming,protection,保护,NOUN,nl,B1,20,keep,clean
-488,Spaans,Spanish,西班牙的,ADJ,nl,B1,21,keep,clean
-500,non,nun,修女,NOUN,nl,B1,22,keep,clean
-296,simpel,simple,简单的,ADJ,nl,B1,23,keep,clean
-242,gefeliciteerd,congratulations,恭喜,INTJ,nl,B1,24,keep,clean
+159,vandaan,from,来自,ADP,nl,B1,1,keep,clean
+349,vliegtuig,airplane,飞机,NOUN,nl,B1,2,keep,clean
+474,allebei,both,两者都,PRON,nl,B1,3,keep,clean
+108,miljard,billion,十亿,NUM,nl,B1,4,keep,clean
+375,agent,police officer,警察,NOUN,nl,B1,5,keep,clean
+66,zolang,as long as,只要,SCONJ,nl,B1,6,keep,clean
+417,hoeveelheid,quantity,数量,NOUN,nl,B1,7,keep,clean
+516,oceaan,ocean,海洋,NOUN,nl,B1,8,keep,clean
+112,zulke,such,这样的,DET,nl,B1,9,keep,clean
+129,nogal,rather,相当,ADV,nl,B1,10,keep,clean
+154,ontwerp,design,设计,NOUN,nl,B1,11,keep,clean
+512,goedemorgen,good morning,早上好,INTJ,nl,B1,12,keep,clean
+478,gebrek,lack,缺乏,NOUN,nl,B1,13,keep,clean
+237,baas,boss,老板,NOUN,nl,B1,14,keep,clean
+210,langzaam,slow,慢的,ADJ,nl,B1,15,keep,clean
+252,verkeer,traffic,交通,NOUN,nl,B1,16,keep,clean
+161,vreemd,strange,奇怪的,ADJ,nl,B1,17,keep,clean
+169,meid,girl,女孩,NOUN,nl,B1,18,keep,clean
+305,berg,mountain,山,NOUN,nl,B1,19,keep,clean
+16,koninkrijk,kingdom,王国,NOUN,nl,B1,20,keep,clean
+133,tonen,to show,展示,VERB,nl,B1,21,keep,clean
+341,operatie,operation,手术,NOUN,nl,B1,22,keep,clean
+54,commissie,committee,委员会,NOUN,nl,B1,23,keep,clean
+316,raar,weird,奇怪的,ADJ,nl,B1,24,keep,clean

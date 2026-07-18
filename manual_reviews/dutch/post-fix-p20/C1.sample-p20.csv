@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-366,academie,academy,学院,NOUN,nl,C1,1,keep,clean
-34,muzikant,musician,音乐家,NOUN,nl,C1,2,keep,clean
-442,hoofdredacteur,editor-in-chief,主编,NOUN,nl,C1,3,keep,clean
-1125,eindstand,final score,最终比分,NOUN,nl,C1,4,keep,clean
-1652,achttien,eighteen,十八,NUM,nl,C1,5,keep,clean
-1431,ezel,donkey,驴,NOUN,nl,C1,6,keep,clean
-636,aardbeving,earthquake,地震,NOUN,nl,C1,7,keep,clean
-411,uitzoeken,to select,挑选,VERB,nl,C1,8,keep,clean
-27,iemands,someone's,某人的,PRON,nl,C1,9,keep,clean
-1994,óf,or,或者,CCONJ,nl,C1,10,keep,clean
-456,parkeerplaats,parking lot,停车场,NOUN,nl,C1,11,keep,clean
-1989,verzorging,care,护理,NOUN,nl,C1,12,keep,clean
-92,respectievelijk,respectively,分别,ADV,nl,C1,13,keep,clean
-601,omwille,for the sake of,为了,ADP,nl,C1,14,keep,clean
-744,uitgestorven,extinct,灭绝的,ADJ,nl,C1,15,keep,clean
-164,conferentie,conference,会议,NOUN,nl,C1,16,keep,clean
-1962,ontwikkelaar,developer,开发商,NOUN,nl,C1,17,keep,clean
-302,duidelijkheid,clarity,清晰,NOUN,nl,C1,18,keep,clean
-1884,materie,matter,物质,NOUN,nl,C1,19,keep,clean
-55,waarderen,to appreciate,欣赏,VERB,nl,C1,20,keep,clean
-1267,okee,okay,好的,INTJ,nl,C1,21,keep,clean
-1620,mits,provided that,只要,SCONJ,nl,C1,22,keep,clean
-572,aandoen,to affect,影响,VERB,nl,C1,23,keep,clean
-1657,branche,industry,行业,NOUN,nl,C1,24,keep,clean
+1278,stok,stick,棍子,NOUN,nl,C1,1,keep,clean
+1156,slavernij,slavery,奴隶制,NOUN,nl,C1,2,keep,clean
+769,hol,hole,洞,NOUN,nl,C1,3,keep,clean
+845,virtueel,virtual,虚拟的,ADJ,nl,C1,4,keep,clean
+1500,opdat,so that,以便,SCONJ,nl,C1,5,keep,clean
+654,financiering,financing,融资,NOUN,nl,C1,6,keep,clean
+241,werknemer,employee,员工,NOUN,nl,C1,7,keep,clean
+1081,jegens,towards,对,ADP,nl,C1,8,keep,clean
+1359,assortiment,assortment,种类,NOUN,nl,C1,9,keep,clean
+748,verzekering,insurance,保险,NOUN,nl,C1,10,keep,clean
+1343,uzelf,yourself,您自己,PRON,nl,C1,11,keep,clean
+35,neerschieten,to shoot down,击落,VERB,nl,C1,12,keep,clean
+294,anderzijds,on the other hand,另一方面,ADV,nl,C1,13,keep,clean
+1438,kramer,peddler,小贩,NOUN,nl,C1,14,keep,clean
+1595,vlam,flame,火焰,NOUN,nl,C1,15,keep,clean
+232,tja,well,嗯,INTJ,nl,C1,16,keep,clean
+1845,afleveren,to deliver,交付,VERB,nl,C1,17,keep,clean
+669,liefje,darling,亲爱的,NOUN,nl,C1,18,keep,clean
+1426,doch,however,然而,CCONJ,nl,C1,19,keep,clean
+1478,briefje,note,便条,NOUN,nl,C1,20,keep,clean
+550,koe,cow,母牛,NOUN,nl,C1,21,keep,clean
+685,uitgeven,to publish,出版,VERB,nl,C1,22,keep,clean
+1023,gelovige,believer,信徒,NOUN,nl,C1,23,keep,clean
+468,veertien,fourteen,十四,NUM,nl,C1,24,keep,clean

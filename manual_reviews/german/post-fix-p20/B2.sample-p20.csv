@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1196,Verfügung,disposal,处置,NOUN,de,B2,1,keep,clean
-633,Jungfrau,virgin,处女,NOUN,de,B2,2,keep,clean
-398,Experte,expert,专家,NOUN,de,B2,3,keep,clean
-277,Dienstag,Tuesday,星期二,NOUN,de,B2,4,keep,clean
-56,Ankunft,arrival,到达,NOUN,de,B2,5,keep,clean
+618,irgendein,any,任何一个,DET,de,B2,1,keep,clean
+820,Mörderin,murderer (female),女凶手,NOUN,de,B2,2,keep,clean
+870,organisieren,organize,组织,VERB,de,B2,3,keep,clean
+1247,Verwandte,relative,亲戚,NOUN,de,B2,4,keep,clean
+1309,womöglich,possibly,可能,ADV,de,B2,5,keep,clean
 1050,sodass,so that,以便,SCONJ,de,B2,6,keep,clean
-638,Kacke,crap,屎,NOUN,de,B2,7,keep,clean
-591,hundert,hundred,一百,NUM,de,B2,8,keep,clean
+464,Gebet,prayer,祈祷,NOUN,de,B2,7,keep,clean
+437,Fortschritt,progress,进步,NOUN,de,B2,8,keep,clean
 620,irgendwer,anyone,任何人,PRON,de,B2,9,keep,clean
-532,Glocke,bell,钟,NOUN,de,B2,10,keep,clean
-1038,servus,hello / bye,你好/再见,INTJ,de,B2,11,keep,clean
-372,Erfindung,invention,发明,NOUN,de,B2,12,keep,clean
-803,Mitleid,pity,怜悯,NOUN,de,B2,13,keep,clean
-886,Personal,staff,员工,NOUN,de,B2,14,keep,clean
-583,hinunter,downwards,向下,ADV,de,B2,15,keep,clean
-315,Einbruch,burglary,入室盗窃,NOUN,de,B2,16,keep,clean
-221,bezüglich,regarding,关于,ADP,de,B2,17,keep,clean
-1008,Schluck,sip,一口,NOUN,de,B2,18,keep,clean
-985,sammeln,to collect,收集,VERB,de,B2,19,keep,clean
-505,Gerüchte,rumors,谣言,NOUN,de,B2,20,keep,clean
-66,anstrengend,exhausting,累人的,ADJ,de,B2,21,keep,clean
-795,Miete,rent,租金,NOUN,de,B2,22,keep,clean
-1056,sowohl,both,两者都,CCONJ,de,B2,23,keep,clean
-275,diejenigen,those,那些,DET,de,B2,24,keep,clean
+48,Angelegenheit,matter,事情,NOUN,de,B2,10,keep,clean
+1168,unterm,under the,在...下面,ADP,de,B2,11,keep,clean
+1221,Verlust,loss,损失,NOUN,de,B2,12,keep,clean
+1038,servus,hello / bye,你好/再见,INTJ,de,B2,13,keep,clean
+676,Knarre,gun,枪,NOUN,de,B2,14,keep,clean
+695,Konto,account,账户,NOUN,de,B2,15,keep,clean
+341,Empfang,reception,接待,NOUN,de,B2,16,keep,clean
+589,Huhn,chicken,鸡,NOUN,de,B2,17,keep,clean
+99,Ausgang,exit,出口,NOUN,de,B2,18,keep,clean
+803,Mitleid,pity,怜悯,NOUN,de,B2,19,keep,clean
+1056,sowohl,both,两者都,CCONJ,de,B2,20,keep,clean
+791,Meldung,message,消息,NOUN,de,B2,21,keep,clean
+591,hundert,hundred,一百,NUM,de,B2,22,keep,clean
+417,Feuerwehr,fire department,消防队,NOUN,de,B2,23,keep,clean
+1155,ungewöhnlich,unusual,不寻常的,ADJ,de,B2,24,keep,clean

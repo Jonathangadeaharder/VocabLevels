@@ -129,3 +129,46 @@ def test_post_fix_samples_exist_and_all_keep() -> None:
             for row in rows:
                 assert row.get("verdict") == "keep", (path, row)
                 assert row.get("notes"), row
+
+
+def test_skeptic2_gloss_and_lemma_fixes() -> None:
+    rows = _rows("arabic", "A2")
+    lk = _lemma_key(rows[0])
+    qad = next(r for r in rows if (r.get(lk) or "").strip() == "قد")
+    assert "much" not in qad["English_Lemma"]
+    assert "already" in qad["English_Lemma"] or "may" in qad["English_Lemma"]
+
+    rows = _rows("arabic", "C1")
+    lk = _lemma_key(rows[0])
+    kami = next(r for r in rows if (r.get(lk) or "").strip() == "كمي")
+    assert "quantum" not in kami["English_Lemma"]
+    assert kami["English_Lemma"] == "quantitative"
+
+    rows = _rows("german", "C1")
+    lk = _lemma_key(rows[0])
+    lemmas = {(r.get(lk) or "").strip() for r in rows}
+    assert "nich" not in lemmas
+    assert "nicht" in lemmas
+
+    dialect = {"فوقاش", "بصح", "غادي", "حيت", "باش", "واخا", "داكشي"}
+    for level in LEVELS:
+        rows = _rows("arabic", level)
+        lk = _lemma_key(rows[0])
+        present = {(r.get(lk) or "").strip() for r in rows}
+        assert not (dialect & present), (level, dialect & present)
+
+
+def test_all_langs_p20_scored_matches_current_samples() -> None:
+    """Aggregate CSV must not be stale vs fixed lemmas."""
+    agg = ROOT / "manual_reviews" / "ALL-langs-p20-scored.csv"
+    assert agg.exists()
+    with agg.open(newline="", encoding="utf-8") as handle:
+        agg_rows = list(csv.DictReader(handle))
+    assert agg_rows
+    for row in agg_rows:
+        assert row.get("lemma") != "honderden"
+        assert row.get("lemma") != "nich"
+        assert row.get("lemma") != "uitdagingen"
+        if row.get("lang") == "ar" and row.get("lemma") == "قد":
+            assert "much" not in (row.get("english_lemma") or "")
+    assert all(r.get("verdict") == "keep" for r in agg_rows)

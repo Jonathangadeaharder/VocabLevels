@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-253,并,and,并,CCONJ,zh,C1,1,keep,clean
-456,您好,hello (polite),您好,INTJ,zh,C1,2,keep,clean
-2,如同,as,如同,SCONJ,zh,C1,3,keep,clean
-576,渴望,longing,渴望,NOUN,zh,C1,4,keep,clean
-329,当中,among,当中,ADP,zh,C1,5,keep,clean
-671,收容所,shelter,收容所,NOUN,zh,C1,6,keep,clean
-191,岁月,years,岁月,NOUN,zh,C1,7,keep,clean
-1425,住院部,inpatient department,住院部,NOUN,zh,C1,8,keep,clean
-1511,可燃冰,flammable ice,可燃冰,NOUN,zh,C1,9,keep,clean
-1615,社会冲突,social conflict,社会冲突,NOUN,zh,C1,10,keep,clean
-808,表演赛,exhibition match,表演赛,NOUN,zh,C1,11,keep,clean
-133,将,will,将,ADV,zh,C1,12,keep,clean
-270,应,should,应,AUX,zh,C1,13,keep,clean
-235,帐篷,tent,帐篷,NOUN,zh,C1,14,keep,clean
-528,或,or,或,PART,zh,C1,15,keep,clean
-1473,变异,mutation,变异,NOUN,zh,C1,16,keep,clean
-401,怎样,how,怎样,PRON,zh,C1,17,keep,clean
-3055,纠正,correct,纠正,VERB,zh,C1,18,keep,clean
-2230,退伍,discharge,退伍,NOUN,zh,C1,19,keep,clean
-1712,扩展现实,extended reality,扩展现实,NOUN,zh,C1,20,keep,clean
-15,威望,prestige,威望,NOUN,zh,C1,21,keep,clean
-2295,玩偶,doll,玩偶,NOUN,zh,C1,22,keep,clean
-1140,公证人,notary,公证人,NOUN,zh,C1,23,keep,clean
-930,难以辨别,hard to identify,难以辨别,ADJ,zh,C1,24,keep,clean
+2125,早期,early stage,早期,NOUN,zh,C1,1,keep,clean
+1246,腊八粥,laba porridge,腊八粥,NOUN,zh,C1,2,keep,clean
+329,当中,among,当中,ADP,zh,C1,3,keep,clean
+2367,气压,air pressure,气压,NOUN,zh,C1,4,keep,clean
+1316,橘子,tangerine,橘子,NOUN,zh,C1,5,keep,clean
+1512,碳中和,carbon neutrality,碳中和,NOUN,zh,C1,6,keep,clean
+311,引擎,engine,引擎,NOUN,zh,C1,7,keep,clean
+161,尽头,the end,尽头,NOUN,zh,C1,8,keep,clean
+1503,水能,hydro energy,水能,NOUN,zh,C1,9,keep,clean
+2491,专业课,major course,专业课,NOUN,zh,C1,10,keep,clean
+8,妳,you (female),妳,PRON,zh,C1,11,keep,clean
+2,如同,as,如同,SCONJ,zh,C1,12,keep,clean
+437,恐吓,to threaten,恐吓,VERB,zh,C1,13,keep,clean
+1471,进化,evolution,进化,NOUN,zh,C1,14,keep,clean
+2421,乡道,township road,乡道,NOUN,zh,C1,15,keep,clean
+257,幸会,nice to meet you,幸会,INTJ,zh,C1,16,keep,clean
+343,彩票,lottery ticket,彩票,NOUN,zh,C1,17,keep,clean
+621,组织力,organization,组织力,NOUN,zh,C1,18,keep,clean
+915,难以置信,unbelievable,难以置信,ADJ,zh,C1,19,keep,clean
+270,应,should,应,AUX,zh,C1,20,keep,clean
+253,并,and,并,CCONJ,zh,C1,21,keep,clean
+1139,仲裁人,arbitrator,仲裁人,NOUN,zh,C1,22,keep,clean
+528,或,or,或,PART,zh,C1,23,keep,clean
+160,尽可能,as much as possible,尽可能,ADV,zh,C1,24,keep,clean

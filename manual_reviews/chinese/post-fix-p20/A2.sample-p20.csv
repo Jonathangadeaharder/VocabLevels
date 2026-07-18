@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-409,省,to save,省,VERB,zh,A2,1,keep,clean
-479,艺术,art,艺术,NOUN,zh,A2,2,keep,clean
-410,看法,opinion,看法,NOUN,zh,A2,3,keep,clean
-450,经济,economy,经济,NOUN,zh,A2,4,keep,clean
-97,加班,to work overtime,加班,VERB,zh,A2,5,keep,clean
-578,首都,capital (city),首都,NOUN,zh,A2,6,keep,clean
-555,阅读,to read,阅读,VERB,zh,A2,7,keep,clean
-95,力气,strength,力气,NOUN,zh,A2,8,keep,clean
-66,入口,entrance,入口,NOUN,zh,A2,9,keep,clean
-258,所有,all,所有,DET,zh,A2,10,keep,clean
-311,文章,article,文章,NOUN,zh,A2,11,keep,clean
-281,按照,according to,按照,ADP,zh,A2,12,keep,clean
-365,流行,popular,流行,ADJ,zh,A2,13,keep,clean
-103,千万,ten million,千万,NUM,zh,A2,14,keep,clean
-20,也许,perhaps,也许,ADV,zh,A2,15,keep,clean
-132,可是,but,可是,CCONJ,zh,A2,16,keep,clean
-587,一旦,in case (sth happens),一旦,SCONJ,zh,A2,17,keep,clean
-514,谈,to talk,谈,VERB,zh,A2,18,keep,clean
-535,进行,to conduct,进行,VERB,zh,A2,19,keep,clean
-145,呀,(particle equivalent to 啊 after a vowel),呀,PART,zh,A2,20,keep,clean
-143,吵,to quarrel,吵,VERB,zh,A2,21,keep,clean
-340,梦,dream,梦,NOUN,zh,A2,22,keep,clean
-67,全部,all,全部,PRON,zh,A2,23,keep,clean
-170,墙,wall,墙,NOUN,zh,A2,24,keep,clean
+388,猪,pig,猪,NOUN,zh,A2,1,keep,clean
+145,呀,(particle equivalent to 啊 after a vowel),呀,PART,zh,A2,2,keep,clean
+278,挂,to hang,挂,VERB,zh,A2,3,keep,clean
+402,留学,to study abroad,留学,VERB,zh,A2,4,keep,clean
+534,过程,process,过程,NOUN,zh,A2,5,keep,clean
+342,棵,classifier for trees,棵,NUM,zh,A2,6,keep,clean
+511,请假,to request leave,请假,VERB,zh,A2,7,keep,clean
+446,约会,date,约会,NOUN,zh,A2,8,keep,clean
+222,幽默,humor,幽默,NOUN,zh,A2,9,keep,clean
+309,整理,to arrange,整理,VERB,zh,A2,10,keep,clean
+344,正好,just (in time),正好,ADV,zh,A2,11,keep,clean
+375,演员,actor or actress,演员,NOUN,zh,A2,12,keep,clean
+258,所有,all,所有,DET,zh,A2,13,keep,clean
+3,不过,but,不过,CCONJ,zh,A2,14,keep,clean
+238,心情,mood,心情,NOUN,zh,A2,15,keep,clean
+288,提供,to offer,提供,VERB,zh,A2,16,keep,clean
+70,关键,crucial,关键,ADJ,zh,A2,17,keep,clean
+30,人民币,Renminbi,人民币,NOUN,zh,A2,18,keep,clean
+435,笔记本,notebook,笔记本,NOUN,zh,A2,19,keep,clean
+2,不管,no matter,不管,SCONJ,zh,A2,20,keep,clean
+67,全部,all,全部,PRON,zh,A2,21,keep,clean
+183,好像,to seem,好像,VERB,zh,A2,22,keep,clean
+41,份,classifier for documents/portions,份,NOUN,zh,A2,23,keep,clean
+281,按照,according to,按照,ADP,zh,A2,24,keep,clean
