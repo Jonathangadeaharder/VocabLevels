@@ -1,25 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-209,سطل,bucket,桶,NOUN,ar,A1,1,keep,clean
-110,حفرة,hole,洞,NOUN,ar,A1,2,keep,clean
-179,رَعْد,thunder,雷,NOUN,ar,A1,3,keep,clean
-512,ورق,paper,纸,NOUN,ar,A1,4,keep,clean
-481,نسى,forget,忘记,VERB,ar,A1,5,keep,clean
-508,وجه,face,脸,NOUN,ar,A1,6,keep,clean
-370,قُدَّامَ,in front of,在...前面,ADP,ar,A1,7,keep,clean
-446,مَطَار,airport,机场,NOUN,ar,A1,8,keep,clean
-242,شعب,people/nation,人民/民族,NOUN,ar,A1,9,keep,clean
-450,مُعَطَّل,broken,坏的,ADJ,ar,A1,10,keep,clean
-494,ذلك,that (masculine),那个,DET,ar,A1,11,keep,clean
-71,جاب,bring,带来,VERB,ar,A1,12,keep,clean
-321,عصير,juice,果汁,NOUN,ar,A1,13,keep,clean
-449,مَاعِز,goat,山羊,NOUN,ar,A1,14,keep,clean
-404,لا,no,不,PART,ar,A1,15,keep,clean
-219,سلم,peace,和平,NOUN,ar,A1,16,keep,clean
-477,أنتِ,you (feminine),你,PRON,ar,A1,17,keep,clean
-359,فهم,understand,理解,VERB,ar,A1,18,keep,clean
-465,مَنَاكِش,earrings,耳环,NOUN,ar,A1,19,keep,clean
-159,بطيخ,watermelon,西瓜,NOUN,ar,A1,20,keep,clean
-437,مَرْحَبًا,welcome,欢迎,INTJ,ar,A1,21,keep,clean
-156,بسرعة,quickly,快速地,ADV,ar,A1,22,keep,clean
-521,اثنان,two,二,NUM,ar,A1,23,keep,clean
-164,فاكهة,fruit,水果,NOUN,ar,A1,24,keep,clean
+4,أتاي,tea,茶,NOUN,ar,A1,1,keep,clean
+69,ثومة,garlic,大蒜,NOUN,ar,A1,2,keep,clean
+82,جفاف,dryness,干燥,NOUN,ar,A1,3,keep,clean
+105,حرق,burning,燃烧,NOUN,ar,A1,4,keep,clean
+115,حلو,sweet,甜的,ADJ,ar,A1,5,keep,clean
+125,خال,maternal uncle,舅舅,NOUN,ar,A1,6,keep,clean
+131,خضر,green,绿色的,ADJ,ar,A1,7,keep,clean
+138,خمسة,five,五,NUM,ar,A1,8,keep,clean
+153,درهم,dirham,迪拉姆,NOUN,ar,A1,9,keep,clean
+190,زُقَاق,alley,小巷,NOUN,ar,A1,10,keep,clean
+217,سلسلة,necklace/chain,项链/链,NOUN,ar,A1,11,keep,clean
+297,طويل,long,长的,ADJ,ar,A1,12,keep,clean
+351,ديك,rooster,公鸡,NOUN,ar,A1,13,keep,clean
+361,سترة,jacket,夹克,NOUN,ar,A1,14,keep,clean
+374,قَطَعَ,cut,切,VERB,ar,A1,15,keep,clean
+375,قَفْطَان,caftan,长袍,NOUN,ar,A1,16,keep,clean
+401,كيف,how,如何,ADV,ar,A1,17,keep,clean
+421,أم,mother,母亲,NOUN,ar,A1,18,keep,clean
+448,مِلْعَقَة,spoon,勺子,NOUN,ar,A1,19,keep,clean
+458,مِلْح,salt,盐,NOUN,ar,A1,20,keep,clean
+474,نجار,carpenter,木匠,NOUN,ar,A1,21,keep,clean
+497,هنا,here,这里,ADV,ar,A1,22,keep,clean
+517,اثنان,two,二,NUM,ar,A1,23,keep,clean

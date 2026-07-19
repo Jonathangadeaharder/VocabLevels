@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-226,市民,citizen,市民,NOUN,zh,C1,1,keep,clean
-241,干活,to work,干活,VERB,zh,C1,2,keep,clean
-1549,沙漠化,desertification,沙漠化,NOUN,zh,C1,3,keep,clean
-456,您好,hello (polite),您好,INTJ,zh,C1,4,keep,clean
-689,渠道,channel,渠道,NOUN,zh,C1,5,keep,clean
-329,当中,among,当中,ADP,zh,C1,6,keep,clean
-3,如此,thus,如此,ADV,zh,C1,7,keep,clean
-750,机构,institution,机构,NOUN,zh,C1,8,keep,clean
-789,传播者,disseminator,传播者,NOUN,zh,C1,9,keep,clean
-1525,山体滑坡,landslide,山体滑坡,NOUN,zh,C1,10,keep,clean
-1928,加速器,accelerator,加速器,NOUN,zh,C1,11,keep,clean
-253,并,and,并,CCONJ,zh,C1,12,keep,clean
-1389,眩晕,dizziness,眩晕,NOUN,zh,C1,13,keep,clean
-2365,低气压,low pressure,低气压,NOUN,zh,C1,14,keep,clean
-270,应,should,应,AUX,zh,C1,15,keep,clean
-1598,社会平等,social equality,社会平等,NOUN,zh,C1,16,keep,clean
-2063,案卷,case file,案卷,NOUN,zh,C1,17,keep,clean
-2,如同,as,如同,SCONJ,zh,C1,18,keep,clean
-764,管理者,manager,管理者,NOUN,zh,C1,19,keep,clean
-528,或,or,或,PART,zh,C1,20,keep,clean
-1871,颓废,decadent,颓废,ADJ,zh,C1,21,keep,clean
-41,它们,they (things),它们,PRON,zh,C1,22,keep,clean
-1474,灭绝,extinction,灭绝,NOUN,zh,C1,23,keep,clean
-1063,错案,miscarriage of justice,错案,NOUN,zh,C1,24,keep,clean
+19,媒体,media,媒体,NOUN,zh,C1,1,keep,clean
+388,忍耐,to endure,忍耐,VERB,zh,C1,2,keep,clean
+443,恩怨,gratitude and resentment; personal feud,恩怨,NOUN,zh,C1,3,keep,clean
+533,战士,warrior,战士,NOUN,zh,C1,4,keep,clean
+544,所有人,everyone,所有人,PRON,zh,C1,5,keep,clean
+835,难题,difficult problem,难题,NOUN,zh,C1,6,keep,clean
+918,难以克服,insurmountable,难以克服,ADJ,zh,C1,7,keep,clean
+940,难以满足,hard to satisfy,难以满足,ADJ,zh,C1,8,keep,clean
+1067,大案,major case,大案,NOUN,zh,C1,9,keep,clean
+1346,杏仁,almond,杏仁,NOUN,zh,C1,10,keep,clean
+1380,头痛,headache,头痛,NOUN,zh,C1,11,keep,clean
+1526,雪崩,avalanche,雪崩,NOUN,zh,C1,12,keep,clean
+1660,社会统计,social statistics,社会统计,NOUN,zh,C1,13,keep,clean
+1741,钻石,diamond,钻石,NOUN,zh,C1,14,keep,clean
+1805,皮影戏,shadow play,皮影戏,NOUN,zh,C1,15,keep,clean
+2401,顺风车,carpool,顺风车,NOUN,zh,C1,16,keep,clean
+2467,离合器,clutch,离合器,NOUN,zh,C1,17,keep,clean
+2568,致意,greet,致意,VERB,zh,C1,18,keep,clean
+2608,收货,receive,收货,VERB,zh,C1,19,keep,clean
+2647,条例,regulation,条例,NOUN,zh,C1,20,keep,clean
+2698,信义,good faith,信义,NOUN,zh,C1,21,keep,clean
+2731,水洗,wash with water,水洗,VERB,zh,C1,22,keep,clean
+2743,防锈,rust-proof,防锈,ADJ,zh,C1,23,keep,clean
+2932,警报,alarm,警报,NOUN,zh,C1,24,keep,clean

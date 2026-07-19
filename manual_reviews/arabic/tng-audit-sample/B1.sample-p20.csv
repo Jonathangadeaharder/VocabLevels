@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-618,إدمان,addiction,成瘾,NOUN,ar,B1,1,keep,clean
-631,عربة,cart,手推车,NOUN,ar,B1,2,keep,clean
+449,مادة,subject,科目,NOUN,ar,B1,1,keep,clean
+787,بشر,human being,人类,NOUN,ar,B1,2,keep,clean
 442,بيننا,between us,我们之间,ADP,ar,B1,3,keep,clean
-462,قاموس,dictionary,词典,NOUN,ar,B1,4,keep,clean
-425,أما,as for,至于,PART,ar,B1,5,keep,clean
-738,خابية,large clay jar,大陶罐,NOUN,ar,B1,6,keep,clean
-455,ثانوية,high school,高中,NOUN,ar,B1,7,keep,clean
-117,قارئ,reader,读者,NOUN,ar,B1,8,keep,clean
-552,بخور,incense,香,NOUN,ar,B1,9,keep,clean
-95,دور,role,角色,NOUN,ar,B1,10,keep,clean
-31,وصول,arrival,到达,NOUN,ar,B1,11,keep,clean
-262,درب,alley,小巷,NOUN,ar,B1,12,keep,clean
-718,دراز,weaver,织布工,NOUN,ar,B1,13,keep,clean
-439,بالكامل,at all,完全,ADV,ar,B1,14,keep,clean
-239,مقاطعة,province,省,NOUN,ar,B1,15,keep,clean
-120,شهرة,fame,名声,NOUN,ar,B1,16,keep,clean
-371,وثق,to trust,信任,VERB,ar,B1,17,keep,clean
-35,اتجاه,direction,方向,NOUN,ar,B1,18,keep,clean
-560,مقادير,ingredients,食材,NOUN,ar,B1,19,keep,clean
-506,حداد,blacksmith,铁匠,NOUN,ar,B1,20,keep,clean
-702,نَاضِي,ready,准备好的,ADJ,ar,B1,21,keep,clean
-790,سالف,sideburn,鬓角,NOUN,ar,B1,22,keep,clean
-436,كلاهما,both,两者都,DET,ar,B1,23,keep,clean
-491,أجرة,wage,工资,NOUN,ar,B1,24,keep,clean
+464,نطق,pronunciation,发音,NOUN,ar,B1,4,keep,clean
+459,منحة,scholarship,奖学金,NOUN,ar,B1,5,keep,clean
+691,نَقَّى,to clean,清理,VERB,ar,B1,6,keep,clean
+728,شاقور,axe,斧头,NOUN,ar,B1,7,keep,clean
+473,شعبة,branch of study,学科分支,NOUN,ar,B1,8,keep,clean
+131,مرمى,goal,球门,NOUN,ar,B1,9,keep,clean
+42,تخييم,camping,露营,NOUN,ar,B1,10,keep,clean
+270,تصويت,voting,投票,NOUN,ar,B1,11,keep,clean
+448,تكوين,training,培训,NOUN,ar,B1,12,keep,clean
+458,دبلوم,diploma,文凭,NOUN,ar,B1,13,keep,clean
+436,كلاهما,both,两者都,DET,ar,B1,14,keep,clean
+425,أما,as for,至于,PART,ar,B1,15,keep,clean
+225,بلوط,oak,橡树,NOUN,ar,B1,16,keep,clean
+302,موقع,website,网站,NOUN,ar,B1,17,keep,clean
+435,كيفما,however,无论怎样,ADV,ar,B1,18,keep,clean
+107,رعب,horror,恐怖,NOUN,ar,B1,19,keep,clean
+649,جيران,neighbors,邻居,NOUN,ar,B1,20,keep,clean
+247,طلاق,divorce,离婚,NOUN,ar,B1,21,keep,clean
+341,غيور,jealous,嫉妒的,ADJ,ar,B1,22,keep,clean
+51,مجلة,magazine,杂志,NOUN,ar,B1,23,keep,clean
+721,زريبة,animal pen,畜栏,NOUN,ar,B1,24,keep,clean

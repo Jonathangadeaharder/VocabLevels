@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1029,办,to handle,办,VERB,zh,B2,1,keep,clean
-393,不可,cannot,不可,AUX,zh,B2,2,keep,clean
-721,作风,style,作风,NOUN,zh,B2,3,keep,clean
-823,充足,adequate,充足,ADJ,zh,B2,4,keep,clean
-1111,卡,card,卡,NOUN,zh,B2,5,keep,clean
-1368,商人,merchant,商人,NOUN,zh,B2,6,keep,clean
-535,之中,among,之中,ADP,zh,B2,7,keep,clean
-521,主管,manager,主管,NOUN,zh,B2,8,keep,clean
-1495,墓地,cemetery,墓地,NOUN,zh,B2,9,keep,clean
-722,你们,you (plural),你们,PRON,zh,B2,10,keep,clean
-1391,噢,oh,噢,INTJ,zh,B2,11,keep,clean
-699,但,but,但,CCONJ,zh,B2,12,keep,clean
-531,么,particle,么,PART,zh,B2,13,keep,clean
-1025,力,power,力,NOUN,zh,B2,14,keep,clean
-300,一向,always,一向,ADV,zh,B2,15,keep,clean
-906,军,army,军,NOUN,zh,B2,16,keep,clean
-613,人数,number of people,人数,NOUN,zh,B2,17,keep,clean
-368,下去,go down,下去,VERB,zh,B2,18,keep,clean
-312,一家,one family,一家,NUM,zh,B2,19,keep,clean
-523,主题,theme,主题,NOUN,zh,B2,20,keep,clean
-166,运气,luck,运气,NOUN,zh,B2,21,keep,clean
-297,一些,some,一些,DET,zh,B2,22,keep,clean
-807,偿还,to repay,偿还,VERB,zh,B2,23,keep,clean
-541,之所以,the reason why,之所以,SCONJ,zh,B2,24,keep,clean
+66,行为,behavior,行为,NOUN,zh,B2,1,keep,clean
+162,过分,excessive,过分,ADJ,zh,B2,2,keep,clean
+208,重复,to repeat,重复,VERB,zh,B2,3,keep,clean
+293,一下,a bit,一下,ADV,zh,B2,4,keep,clean
+533,之上,above,之上,ADP,zh,B2,5,keep,clean
+615,人民,people,人民,NOUN,zh,B2,6,keep,clean
+632,仍,still,仍,ADV,zh,B2,7,keep,clean
+670,优异,exceptional,优异,ADJ,zh,B2,8,keep,clean
+713,作,to do,作,VERB,zh,B2,9,keep,clean
+737,侦探,detective,侦探,NOUN,zh,B2,10,keep,clean
+843,全国,nationwide,全国,NOUN,zh,B2,11,keep,clean
+882,具有,to possess,具有,VERB,zh,B2,12,keep,clean
+959,分明,clearly demarcated,分明,ADJ,zh,B2,13,keep,clean
+992,别致,unique,别致,ADJ,zh,B2,14,keep,clean
+1179,取缔,to ban,取缔,VERB,zh,B2,15,keep,clean
+1224,号召,to call,号召,NOUN,zh,B2,16,keep,clean
+1318,咀嚼,chew,咀嚼,VERB,zh,B2,17,keep,clean
+1393,器官,organ,器官,NOUN,zh,B2,18,keep,clean
+1502,声势,momentum,声势,NOUN,zh,B2,19,keep,clean
+1517,夏令营,summer camp,夏令营,NOUN,zh,B2,20,keep,clean
+1552,大楼,building,大楼,NOUN,zh,B2,21,keep,clean
+1560,大道,avenue,大道,NOUN,zh,B2,22,keep,clean
+1567,天上,in the sky,天上,NOUN,zh,B2,23,keep,clean
+1604,奥秘,secret,奥秘,NOUN,zh,B2,24,keep,clean

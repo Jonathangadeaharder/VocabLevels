@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-294,déplacement,travel,出行,NOUN,fr,B1,1,keep,clean
-353,financement,financing/funding,融资,NOUN,fr,B1,2,keep,clean
-284,délai,time limit,期限,NOUN,fr,B1,3,keep,clean
-599,pessimisme,pessimism,悲观,NOUN,fr,B1,4,keep,clean
-708,quarante,forty,四十,NUM,fr,B1,5,keep,clean
-873,ruisseau,brook,小溪,NOUN,fr,B1,6,keep,clean
-244,dette,debt,债务,NOUN,fr,B1,7,keep,clean
-650,promettre,to promise,承诺,VERB,fr,B1,8,keep,clean
-833,retrouvailles,reunion,重逢,NOUN,fr,B1,9,keep,clean
-690,puisque,since,既然,SCONJ,fr,B1,10,keep,clean
-351,fierté,pride,骄傲,NOUN,fr,B1,11,keep,clean
-644,profondément,deeply/profoundly,深刻地,ADV,fr,B1,12,keep,clean
-522,montée,rise,上升,NOUN,fr,B1,13,keep,clean
-619,porte-parole,spokesperson,发言人,NOUN,fr,B1,14,keep,clean
-717,quel,which,哪个,DET,fr,B1,15,keep,clean
-763,recoudre,to sew again,重缝,VERB,fr,B1,16,keep,clean
-136,candidature,application,申请,NOUN,fr,B1,17,keep,clean
-419,identifier,to identify,识别,VERB,fr,B1,18,keep,clean
-723,quoi,what,什么,PRON,fr,B1,19,keep,clean
-23,agaçant,annoying,令人恼火的,ADJ,fr,B1,20,keep,clean
-758,recherche,research,研究,NOUN,fr,B1,21,keep,clean
-855,rocher,rock,岩石,NOUN,fr,B1,22,keep,clean
-385,gamme,range,范围,NOUN,fr,B1,23,keep,clean
-177,combattre,to fight,战斗,VERB,fr,B1,24,keep,clean
+42,animation,liveliness,活力,NOUN,fr,B1,1,keep,clean
+138,capacité,capacity,容量,NOUN,fr,B1,2,keep,clean
+150,chanteur,singer,歌手,NOUN,fr,B1,3,keep,clean
+162,chignon,hair bun,发髻,NOUN,fr,B1,4,keep,clean
+168,ciboulette,chives,细香葱,NOUN,fr,B1,5,keep,clean
+189,compostage,ticket validation,检票,NOUN,fr,B1,6,keep,clean
+201,considérer,to consider,考虑,VERB,fr,B1,7,keep,clean
+272,décapsuleur,bottle opener,开瓶器,NOUN,fr,B1,8,keep,clean
+273,déception,disappointment,失望,NOUN,fr,B1,9,keep,clean
+298,désabonnement,unsubscription,取消订阅,NOUN,fr,B1,10,keep,clean
+304,détruire,to destroy,破坏,VERB,fr,B1,11,keep,clean
+326,entraîneur,coach,教练,NOUN,fr,B1,12,keep,clean
+341,fabrication,manufacturing,制造,NOUN,fr,B1,13,keep,clean
+342,faculté,faculty,能力,NOUN,fr,B1,14,keep,clean
+358,flotte,fleet,舰队,NOUN,fr,B1,15,keep,clean
+368,fouet,whisk/whip,鞭子,NOUN,fr,B1,16,keep,clean
+496,majeur,major,主要的,ADJ,fr,B1,17,keep,clean
+509,meurtre,murder,谋杀,NOUN,fr,B1,18,keep,clean
+592,pauvreté,poverty,贫困,NOUN,fr,B1,19,keep,clean
+599,pessimisme,pessimism,悲观,NOUN,fr,B1,20,keep,clean
+640,professionnel,professional,专业的,ADJ,fr,B1,21,keep,clean
+658,prospère,prosperous,繁荣的,ADJ,fr,B1,22,keep,clean
+742,rapidement,quickly,快速地,ADV,fr,B1,23,keep,clean
+793,remporter,to win,赢得,VERB,fr,B1,24,keep,clean

@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-2359,profane,layperson,外行,NOUN,fr,C1,1,keep,clean
-2638,requérir,to require,要求,VERB,fr,C1,2,keep,clean
-2073,opacité,opacity,不透明性,NOUN,fr,C1,3,keep,clean
-1433,homélie,homily,布道,NOUN,fr,C1,4,keep,clean
-103,algèbre,algebra,代数,NOUN,fr,C1,5,keep,clean
-925,déboire,setback,挫折,NOUN,fr,C1,6,keep,clean
-543,chandelle,candle,蜡烛,NOUN,fr,C1,7,keep,clean
-255,argot,slang,俚语,NOUN,fr,C1,8,keep,clean
-2681,royauté,royalty,王权,NOUN,fr,C1,9,keep,clean
-1534,incarcération,incarceration,监禁,NOUN,fr,C1,10,keep,clean
-3385,trois,three,三,NUM,fr,C1,11,keep,clean
-799,culminant,culminating,达到顶点的,ADJ,fr,C1,12,keep,clean
-217,apogée,apogee,顶点,NOUN,fr,C1,13,keep,clean
-1870,mesquinerie,pettiness,小气,NOUN,fr,C1,14,keep,clean
-1514,implicitement,implicitly,含蓄地,ADV,fr,C1,15,keep,clean
-3301,tout,all,全部；一切,PRON,fr,C1,16,keep,clean
-1160,excepté,except,除...外,ADP,fr,C1,17,keep,clean
-3479,usine,factory,工厂,NOUN,fr,C1,18,keep,clean
-717,convenable,suitable,合适的,ADJ,fr,C1,19,keep,clean
-1958,médiéval,medieval,中世纪的,ADJ,fr,C1,20,keep,clean
-3458,une,one,一,DET,fr,C1,21,keep,clean
-3438,téléphonie,telephony,电话学,NOUN,fr,C1,22,keep,clean
-501,caprice,whim,任性,NOUN,fr,C1,23,keep,clean
-1059,détresse,distress,危难,NOUN,fr,C1,24,keep,clean
+58,adéquat,adequate / suitable,适当的,ADJ,fr,C1,1,keep,clean
+171,animosité,animosity,敌意,NOUN,fr,C1,2,keep,clean
+228,appliqué,diligent,勤勉的,ADJ,fr,C1,3,keep,clean
+256,argumentaire,argumentation,论证体系,NOUN,fr,C1,4,keep,clean
+576,cicatrisation,healing,愈合,NOUN,fr,C1,5,keep,clean
+926,débordement,overflow,溢出,NOUN,fr,C1,6,keep,clean
+1343,gifle,slap,耳光,NOUN,fr,C1,7,keep,clean
+1585,influx,nerve impulse,神经冲动,NOUN,fr,C1,8,keep,clean
+1706,lacune,gap,空白,NOUN,fr,C1,9,keep,clean
+1715,lascif,lascivious,好色的,ADJ,fr,C1,10,keep,clean
+1827,manie,obsession,癖好,NOUN,fr,C1,11,keep,clean
+1839,manufacture,factory,工厂,NOUN,fr,C1,12,keep,clean
+1856,matinal,morning,早晨的,ADJ,fr,C1,13,keep,clean
+2023,nouille,noodle,面条,NOUN,fr,C1,14,keep,clean
+2132,paralogisme,paralogism,谬误推理,NOUN,fr,C1,15,keep,clean
+2142,paresseux,lazy,懒惰的,ADJ,fr,C1,16,keep,clean
+2181,patriarcat,patriarchy,父权制,NOUN,fr,C1,17,keep,clean
+2609,rempart,rampart,壁垒,NOUN,fr,C1,18,keep,clean
+2714,réformer,to reform,改革,VERB,fr,C1,19,keep,clean
+2795,sanglier,wild boar,野猪,NOUN,fr,C1,20,keep,clean
+2879,sollicitation,solicitation,请求,NOUN,fr,C1,21,keep,clean
+3277,torse,torso,躯干,NOUN,fr,C1,22,keep,clean
+3296,tournoi,tournament,锦标赛,NOUN,fr,C1,23,keep,clean
+3324,traiteur,caterer,餐饮承办商,NOUN,fr,C1,24,keep,clean

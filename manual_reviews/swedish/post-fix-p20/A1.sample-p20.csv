@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-419,vid,by,在……旁边,ADP,sv,A1,1,keep,clean
-89,fjorton,fourteen,十四,NUM,sv,A1,2,keep,clean
-174,inte,not,不,PART,sv,A1,3,keep,clean
-265,när,when,什么时候,ADV,sv,A1,4,keep,clean
-41,buss,bus,公共汽车,NOUN,sv,A1,5,keep,clean
-151,hjärta,heart,心,NOUN,sv,A1,6,keep,clean
-254,namn,name,名字,NOUN,sv,A1,7,keep,clean
-495,en,a,一个,DET,sv,A1,8,keep,clean
-62,dricka,to drink,喝,VERB,sv,A1,9,keep,clean
-238,mjölk,milk,牛奶,NOUN,sv,A1,10,keep,clean
-492,eftersom,because,因为,SCONJ,sv,A1,11,keep,clean
-268,något,something,某事,PRON,sv,A1,12,keep,clean
-370,tavla,painting,画,NOUN,sv,A1,13,keep,clean
-287,restaurang,restaurant,餐厅,NOUN,sv,A1,14,keep,clean
-466,bör,should,应该,AUX,sv,A1,15,keep,clean
-257,nej,no,不,INTJ,sv,A1,16,keep,clean
-92,flod,river,河流,NOUN,sv,A1,17,keep,clean
-508,fast,although,尽管,CCONJ,sv,A1,18,keep,clean
-458,använda,use,使用,VERB,sv,A1,19,keep,clean
-240,mor,mother,母亲,NOUN,sv,A1,20,keep,clean
-211,luft,air,空气,NOUN,sv,A1,21,keep,clean
-30,blod,blood,血,NOUN,sv,A1,22,keep,clean
-130,grå,grey,灰色的,ADJ,sv,A1,23,keep,clean
+50,börja,to start,开始,VERB,sv,A1,1,keep,clean
+59,diskmaskin,dishwasher,洗碗机,NOUN,sv,A1,2,keep,clean
+88,fisk,fish,鱼,NOUN,sv,A1,3,keep,clean
+94,flygplan,airplane,飞机,NOUN,sv,A1,4,keep,clean
+114,för,for,为了,ADP,sv,A1,5,keep,clean
+129,gräs,grass,草,NOUN,sv,A1,6,keep,clean
+145,hennes,her,她的,PRON,sv,A1,7,keep,clean
+149,hjort,deer,鹿,NOUN,sv,A1,8,keep,clean
+153,hotell,hotel,酒店,NOUN,sv,A1,9,keep,clean
+159,huvud,head,头,NOUN,sv,A1,10,keep,clean
+165,höna,hen,母鸡,NOUN,sv,A1,11,keep,clean
+201,laga,to cook,烹饪,VERB,sv,A1,12,keep,clean
+248,måndag,Monday,星期一,NOUN,sv,A1,13,keep,clean
+272,oktober,October,十月,NOUN,sv,A1,14,keep,clean
+287,restaurang,restaurant,餐厅,NOUN,sv,A1,15,keep,clean
+297,samma,same,相同的,DET,sv,A1,16,keep,clean
+329,socker,sugar,糖,NOUN,sv,A1,17,keep,clean
+365,tack,thanks,谢谢,INTJ,sv,A1,18,keep,clean
+366,tacka,to thank,感谢,VERB,sv,A1,19,keep,clean
+371,te,tea,茶,NOUN,sv,A1,20,keep,clean
+460,be,ask,请求,VERB,sv,A1,21,keep,clean
+465,bo,live,居住,VERB,sv,A1,22,keep,clean
+483,dig,you,你,PRON,sv,A1,23,keep,clean

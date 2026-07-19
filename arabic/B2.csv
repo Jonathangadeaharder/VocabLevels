@@ -435,7 +435,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 شبكة,network,网络,NOUN
 اتصال,connection,连接,NOUN
 ڭروب,group,群组,NOUN
-بروفيل,profile,个人资料,NOUN
 ستوري,story,动态,NOUN
 تيليشارجا,download,下载,VERB
 تثبيت,installation,安装,NOUN
@@ -932,7 +931,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 توبة,repentance,忏悔,NOUN
 جنة,paradise,天堂,NOUN
 جهنم,hell,地狱,NOUN
-روح,soul,灵魂,NOUN
 ملاك,angel,天使,NOUN
 شيطان,devil,魔鬼,NOUN
 جن,jinn,精灵,NOUN
@@ -1200,7 +1198,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 صعود,promotion,晋级,NOUN
 انتقالات,transfers,转会,NOUN
 ميركاتو,transfer window,转会窗口,NOUN
-تداريب,training sessions,训练课,NOUN
 منشطات,doping agents,兴奋剂,NOUN
 اعتزال,retirement,退役,NOUN
 هداف,top scorer,最佳射手,NOUN
@@ -1246,7 +1243,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بحارة,sailors,水手,NOUN
 سمك,fishmonger,鱼贩,NOUN
 قوقعة,seashell,贝壳,NOUN
-كساب,livestock breeder,牲畜饲养员,NOUN
 بذر,sowing,播种,NOUN
 سنابل,ears of wheat,麦穗,NOUN
 فول,broad beans,蚕豆,NOUN
@@ -1786,7 +1782,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تفوق,excellence,卓越,NOUN
 ثريد,tharid,肉汤泡饼,NOUN
 قديد,dried meat,肉干,NOUN
-كرعين,trotters,猪蹄,NOUN
 مصران,intestine,肠,NOUN
 سانوج,nigella seeds,黑种草籽,NOUN
 حبق,basil,罗勒,NOUN
@@ -1952,3 +1947,4 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 شامخ,towering,高耸的,ADJ
 واطي,lowly,卑微的,ADJ
 أحدب,hunchbacked,驼背的,ADJ
+روح,soul / spirit,灵魂 / 精神,NOUN

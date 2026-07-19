@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-126,wezen,to be,是,AUX,nl,B2,1,keep,clean
-280,domein,domain,领域,NOUN,nl,B2,2,keep,clean
-833,verlichting,relief,缓解,NOUN,nl,B2,3,keep,clean
-320,pand,building,建筑物,NOUN,nl,B2,4,keep,clean
-561,archief,archive,档案,NOUN,nl,B2,5,keep,clean
-52,oké,okay,好的,INTJ,nl,B2,6,keep,clean
-977,beperkingen,limits,限制,NOUN,nl,B2,7,keep,clean
-65,noch,nor,也不,CCONJ,nl,B2,8,keep,clean
-824,nul,zero,零,NUM,nl,B2,9,keep,clean
-460,blijken,to turn out,证明是,VERB,nl,B2,10,keep,clean
-2,huid,skin,皮肤,NOUN,nl,B2,11,keep,clean
-641,grapje,joke,玩笑,NOUN,nl,B2,12,keep,clean
-608,luitenant,lieutenant,中尉,NOUN,nl,B2,13,keep,clean
-319,minst,least,最少,ADV,nl,B2,14,keep,clean
-278,cadeau,gift,礼物,NOUN,nl,B2,15,keep,clean
-745,hal,hall,大厅,NOUN,nl,B2,16,keep,clean
-993,maatschappelijk,social,社会的,ADJ,nl,B2,17,keep,clean
-21,evenals,as well as,以及,SCONJ,nl,B2,18,keep,clean
-815,grijs,gray,灰色的,ADJ,nl,B2,19,keep,clean
-508,degenen,those,那些人,PRON,nl,B2,20,keep,clean
-912,decennium,decade,十年,NOUN,nl,B2,21,keep,clean
-921,ongeacht,regardless,不管,ADP,nl,B2,22,keep,clean
-1004,speelgoed,toys,玩具,NOUN,nl,B2,23,keep,clean
-726,voorsprong,lead,领先,NOUN,nl,B2,24,keep,clean
+128,assistent,assistant,助手,NOUN,nl,B2,1,keep,clean
+149,revolutie,revolution,革命,NOUN,nl,B2,2,keep,clean
+203,rook,smoke,烟,NOUN,nl,B2,3,keep,clean
+251,wagen,car,汽车,NOUN,nl,B2,4,keep,clean
+264,landbouw,agriculture,农业,NOUN,nl,B2,5,keep,clean
+322,realiseren,to realize,意识到,VERB,nl,B2,6,keep,clean
+362,apart,separate,分开的,ADJ,nl,B2,7,keep,clean
+378,raden,to guess,猜,VERB,nl,B2,8,keep,clean
+436,oom,uncle,叔叔,NOUN,nl,B2,9,keep,clean
+444,verdenken,to suspect,怀疑,VERB,nl,B2,10,keep,clean
+447,vlakbij,nearby,在附近,ADV,nl,B2,11,keep,clean
+578,minimaal,minimal,最小的,ADJ,nl,B2,12,keep,clean
+593,Canadees,Canadian,加拿大的,ADJ,nl,B2,13,keep,clean
+666,binnenlands,domestic,国内的,ADJ,nl,B2,14,keep,clean
+686,petitie,petition,请愿书,NOUN,nl,B2,15,keep,clean
+799,verbaasd,surprised,惊讶的,ADJ,nl,B2,16,keep,clean
+819,klap,blow,打击,NOUN,nl,B2,17,keep,clean
+823,nieuwsbrief,newsletter,简报,NOUN,nl,B2,18,keep,clean
+889,ontvoeren,to kidnap,绑架,VERB,nl,B2,19,keep,clean
+928,Syrisch,Syrian,叙利亚的,ADJ,nl,B2,20,keep,clean
+943,beperking,limit,限制,NOUN,nl,B2,21,keep,clean
+946,duiken,to dive,潜水,VERB,nl,B2,22,keep,clean
+973,zachte,soft,柔软的,ADJ,nl,B2,23,keep,clean
+1003,schot,shot,射击,NOUN,nl,B2,24,keep,clean

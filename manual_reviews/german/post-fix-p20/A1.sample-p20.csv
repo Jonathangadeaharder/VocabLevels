@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-401,Leben,life,生活,NOUN,de,A1,1,keep,clean
-230,nicht,not,不,PART,de,A1,2,keep,clean
-233,niemand,nobody,没有人,PRON,de,A1,3,keep,clean
-175,können,can,能够,AUX,de,A1,4,keep,clean
-213,Mist,crap,垃圾/废话,NOUN,de,A1,5,keep,clean
-205,Mama,mom,妈妈,NOUN,de,A1,6,keep,clean
-286,sondern,but rather,而是,CCONJ,de,A1,7,keep,clean
-28,beide,both,两者都,DET,de,A1,8,keep,clean
-303,Team,team,团队,NOUN,de,A1,9,keep,clean
-99,fast,almost,几乎,ADV,de,A1,10,keep,clean
-3,Abend,evening,晚上,NOUN,de,A1,11,keep,clean
-201,lieber,preferably,更愿意,ADV,de,A1,12,keep,clean
-316,Uhr,clock,钟表,NOUN,de,A1,13,keep,clean
-512,Zahnpasta,toothpaste,牙膏,NOUN,de,A1,14,keep,clean
-514,achso,oh I see,啊，原来,INTJ,de,A1,15,keep,clean
-71,drei,three,三,NUM,de,A1,16,keep,clean
-57,dass,that,（引导从句）,SCONJ,de,A1,17,keep,clean
-126,sagen,to say,说,VERB,de,A1,18,keep,clean
-533,Dackel,dachshund,腊肠犬,NOUN,de,A1,19,keep,clean
-442,windig,windy,有风的,ADJ,de,A1,20,keep,clean
-56,darum,therefore,因此,ADV,de,A1,21,keep,clean
-212,Mensch,person,人,NOUN,de,A1,22,keep,clean
-480,Schwiegervater,father-in-law,岳父/公公,NOUN,de,A1,23,keep,clean
-317,um,around,周围,ADP,de,A1,24,keep,clean
+68,Doktor,doctor,医生,NOUN,de,A1,1,keep,clean
+71,drei,three,三,NUM,de,A1,2,keep,clean
+96,falsch,wrong,错误的,ADJ,de,A1,3,keep,clean
+98,finden,to find,找到,VERB,de,A1,4,keep,clean
+137,Gott,God,上帝,NOUN,de,A1,5,keep,clean
+159,ich,I,我,PRON,de,A1,6,keep,clean
+234,noch,still,还,ADV,de,A1,7,keep,clean
+238,oben,above,上面,ADV,de,A1,8,keep,clean
+263,schlafen,to sleep,睡觉,VERB,de,A1,9,keep,clean
+265,schnell,fast,快的,ADJ,de,A1,10,keep,clean
+283,sogar,even,甚至,ADV,de,A1,11,keep,clean
+318,und,and,和,CCONJ,de,A1,12,keep,clean
+324,verlassen,leave,离开,VERB,de,A1,13,keep,clean
+340,wann,when,什么时候,ADV,de,A1,14,keep,clean
+347,weiß,white,白色,ADJ,de,A1,15,keep,clean
+351,Welt,world,世界,NOUN,de,A1,16,keep,clean
+382,Tat,act,行为,NOUN,de,A1,17,keep,clean
+399,hi,hi,嗨,INTJ,de,A1,18,keep,clean
+421,gut,well,好地,ADV,de,A1,19,keep,clean
+425,Heft,notebook,笔记本,NOUN,de,A1,20,keep,clean
+482,Speise,dish,菜肴,NOUN,de,A1,21,keep,clean
+490,Zucchini,zucchini,西葫芦,NOUN,de,A1,22,keep,clean
+542,dunkelblau,dark blue,深蓝色,ADJ,de,A1,23,keep,clean
+556,Kraut,herb,草药,NOUN,de,A1,24,keep,clean

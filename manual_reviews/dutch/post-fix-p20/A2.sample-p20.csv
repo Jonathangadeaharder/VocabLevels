@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-183,ene,one,一个的,ADJ,nl,A2,1,keep,clean
-29,links,left,左边的,ADJ,nl,A2,2,keep,clean
-124,versie,version,版本,NOUN,nl,A2,3,keep,clean
-97,belang,interest,兴趣,NOUN,nl,A2,4,keep,clean
-18,hoeveel,how many,多少,NUM,nl,A2,5,keep,clean
-263,afstand,distance,距离,NOUN,nl,A2,6,keep,clean
-4,derde,third,第三,ADJ,nl,A2,7,keep,clean
-103,periode,period,时期,NOUN,nl,A2,8,keep,clean
-100,eindelijk,finally,终于,ADV,nl,A2,9,keep,clean
-234,waarheid,truth,真相,NOUN,nl,A2,10,keep,clean
-139,tekst,text,文本,NOUN,nl,A2,11,keep,clean
-352,waarde,value,价值,NOUN,nl,A2,12,keep,clean
-333,proces,process,过程,NOUN,nl,A2,13,keep,clean
-278,lijken,to seem,似乎,VERB,nl,A2,14,keep,clean
-189,zomer,summer,夏天,NOUN,nl,A2,15,keep,clean
-232,vakantie,holiday,假期,NOUN,nl,A2,16,keep,clean
-244,doordat,because,因为,SCONJ,nl,A2,17,keep,clean
-44,waarop,on which,在其上,PRON,nl,A2,18,keep,clean
-116,ondanks,despite,尽管,ADP,nl,A2,19,keep,clean
-294,hoi,hi,嗨,INTJ,nl,A2,20,keep,clean
-31,onderdeel,part,部分,NOUN,nl,A2,21,keep,clean
-341,allerlei,all kinds,各种各样的,DET,nl,A2,22,keep,clean
-164,bron,source,来源,NOUN,nl,A2,23,keep,clean
+30,omgeving,environment,环境,NOUN,nl,A2,1,keep,clean
+37,gebeuren,to happen,发生,VERB,nl,A2,2,keep,clean
+63,spel,game,游戏,NOUN,nl,A2,3,keep,clean
+79,pijn,pain,疼痛,NOUN,nl,A2,4,keep,clean
+110,dorp,village,村庄,NOUN,nl,A2,5,keep,clean
+121,stemmen,to vote,投票,VERB,nl,A2,6,keep,clean
+124,versie,version,版本,NOUN,nl,A2,7,keep,clean
+127,wakker,awake,醒着的,ADJ,nl,A2,8,keep,clean
+139,tekst,text,文本,NOUN,nl,A2,9,keep,clean
+156,dankzij,thanks to,多亏,ADP,nl,A2,10,keep,clean
+168,beschikbaar,available,可用的,ADJ,nl,A2,11,keep,clean
+172,heer,gentleman,先生,NOUN,nl,A2,12,keep,clean
+175,keuze,choice,选择,NOUN,nl,A2,13,keep,clean
+199,pakken,to take,拿,VERB,nl,A2,14,keep,clean
+202,voetbal,football,足球,NOUN,nl,A2,15,keep,clean
+218,macht,power,权力,NOUN,nl,A2,16,keep,clean
+221,persoonlijk,personal,个人的,ADJ,nl,A2,17,keep,clean
+225,aarde,earth,地球,NOUN,nl,A2,18,keep,clean
+250,ronde,round,回合,NOUN,nl,A2,19,keep,clean
+265,betreffen,to concern,关于,VERB,nl,A2,20,keep,clean
+266,blijkbaar,apparently,显然,ADV,nl,A2,21,keep,clean
+316,winkel,shop,商店,NOUN,nl,A2,22,keep,clean
+335,stichting,foundation,基金会,NOUN,nl,A2,23,keep,clean

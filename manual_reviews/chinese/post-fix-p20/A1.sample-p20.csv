@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-537,菜单,menu,菜单,NOUN,zh,A1,1,keep,clean
-59,喝,to drink,喝,VERB,zh,A1,2,keep,clean
-576,除了,except,除了,ADP,zh,A1,3,keep,clean
-74,字,character / word,字,NOUN,zh,A1,4,keep,clean
-23,什么,what,什么,PRON,zh,A1,5,keep,clean
-381,地,-ly,地,PART,zh,A1,6,keep,clean
-164,元,yuan (Chinese currency),元,NOUN,zh,A1,7,keep,clean
-187,因为,because,因为,SCONJ,zh,A1,8,keep,clean
-587,马,horse,马,NOUN,zh,A1,9,keep,clean
-56,商店,shop,商店,NOUN,zh,A1,10,keep,clean
-57,喂,hello,喂,INTJ,zh,A1,11,keep,clean
-563,辆,classifier for vehicles,辆,NUM,zh,A1,12,keep,clean
-146,钱,money,钱,NOUN,zh,A1,13,keep,clean
-236,每,each / every,每,DET,zh,A1,14,keep,clean
-455,果汁,fruit juice,果汁,NOUN,zh,A1,15,keep,clean
-229,晴,clear (weather),晴,ADJ,zh,A1,16,keep,clean
-176,可以,can / may,可以,AUX,zh,A1,17,keep,clean
-53,和,and,和,CCONJ,zh,A1,18,keep,clean
-471,游戏,game,游戏,NOUN,zh,A1,19,keep,clean
-582,鞋,shoe,鞋,NOUN,zh,A1,20,keep,clean
-247,真,really / true,真,ADV,zh,A1,21,keep,clean
-123,电脑,computer,电脑,NOUN,zh,A1,22,keep,clean
-315,了解,to understand,了解,VERB,zh,A1,23,keep,clean
-355,努力,to work hard,努力,VERB,zh,A1,24,keep,clean
+18,了,completed-action particle,了,PART,zh,A1,1,keep,clean
+24,今天,today,今天,NOUN,zh,A1,2,keep,clean
+26,会,can / to be able to,会,AUX,zh,A1,3,keep,clean
+57,喂,hello,喂,INTJ,zh,A1,4,keep,clean
+80,小,small,小,ADJ,zh,A1,5,keep,clean
+120,猫,cat,猫,NOUN,zh,A1,6,keep,clean
+129,米饭,cooked rice,米饭,NOUN,zh,A1,7,keep,clean
+144,都,all,都,ADV,zh,A1,8,keep,clean
+175,去年,last year,去年,NOUN,zh,A1,9,keep,clean
+205,开始,to begin / to start,开始,VERB,zh,A1,10,keep,clean
+207,张,measure word (flat objects),张,NOUN,zh,A1,11,keep,clean
+218,手机,cell phone,手机,NOUN,zh,A1,12,keep,clean
+235,正在,in the middle of (doing),正在,ADV,zh,A1,13,keep,clean
+266,觉得,to feel / to think,觉得,VERB,zh,A1,14,keep,clean
+280,进,to enter / to advance,进,VERB,zh,A1,15,keep,clean
+314,习惯,habit,习惯,NOUN,zh,A1,16,keep,clean
+340,其实,actually,其实,ADV,zh,A1,17,keep,clean
+414,当然,of course,当然,ADV,zh,A1,18,keep,clean
+459,检查,to check,检查,VERB,zh,A1,19,keep,clean
+492,疼,to hurt,疼,ADJ,zh,A1,20,keep,clean
+509,站,station,站,NOUN,zh,A1,21,keep,clean
+543,街道,street,街道,NOUN,zh,A1,22,keep,clean
+567,选择,to choose,选择,VERB,zh,A1,23,keep,clean
+591,黄,yellow,黄,ADJ,zh,A1,24,keep,clean

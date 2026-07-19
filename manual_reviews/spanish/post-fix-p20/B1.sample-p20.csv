@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-214,cocinar,to cook,烹饪,VERB,es,B1,1,keep,clean
-8,aceite,oil,油,NOUN,es,B1,2,keep,clean
-435,escudo,shield,盾牌,NOUN,es,B1,3,keep,clean
-639,investigar,investigate,调查,VERB,es,B1,4,keep,clean
-703,margen,margin,边缘,NOUN,es,B1,5,keep,clean
-679,lobo,wolf,狼,NOUN,es,B1,6,keep,clean
-716,mercancía,goods,商品,NOUN,es,B1,7,keep,clean
-407,enhorabuena,congratulations,恭喜,INTJ,es,B1,8,keep,clean
-159,candidato,candidate,候选人,NOUN,es,B1,9,keep,clean
-905,tercero,third,第三,NUM,es,B1,10,keep,clean
-521,ganador,winner,获胜者,NOUN,es,B1,11,keep,clean
-878,soledad,loneliness,孤独,NOUN,es,B1,12,keep,clean
-228,comercial,commercial,商业的,ADJ,es,B1,13,keep,clean
-90,asistir,to attend,参加,VERB,es,B1,14,keep,clean
-774,pasión,passion,激情,NOUN,es,B1,15,keep,clean
-140,borde,edge,边缘,NOUN,es,B1,16,keep,clean
-225,comedia,comedy,喜剧,NOUN,es,B1,17,keep,clean
-625,instante,moment,瞬间,NOUN,es,B1,18,keep,clean
-37,aldea,village,村庄,NOUN,es,B1,19,keep,clean
-485,fenómeno,phenomenon,现象,NOUN,es,B1,20,keep,clean
-70,aquello,that (neutral over there),那个事物,PRON,es,B1,21,keep,clean
-587,huevo,egg,鸡蛋,NOUN,es,B1,22,keep,clean
-784,perfil,profile,轮廓; 简介,NOUN,es,B1,23,keep,clean
-801,precisamente,precisely,确切地; 正好,ADV,es,B1,24,keep,clean
+18,adicto,addicted,上瘾的,ADJ,es,B1,1,keep,clean
+31,aguantar,to endure,忍受,VERB,es,B1,2,keep,clean
+61,aparte,aside,另外/ apart,ADV,es,B1,3,keep,clean
+71,araña,spider,蜘蛛,NOUN,es,B1,4,keep,clean
+78,arriesgado,risky,危险的,ADJ,es,B1,5,keep,clean
+131,bestia,beast,野兽,NOUN,es,B1,6,keep,clean
+150,calidad,quality,质量,NOUN,es,B1,7,keep,clean
+184,celoso,jealous,嫉妒的,ADJ,es,B1,8,keep,clean
+252,conejo,rabbit,兔子,NOUN,es,B1,9,keep,clean
+260,confuso,confused,困惑的,ADJ,es,B1,10,keep,clean
+372,ducha,shower,淋浴,NOUN,es,B1,11,keep,clean
+473,extranjero,foreigner,外国人,NOUN,es,B1,12,keep,clean
+481,falla,fault,缺陷,NOUN,es,B1,13,keep,clean
+487,feria,fair,集市,NOUN,es,B1,14,keep,clean
+503,fortaleza,strength,力量,NOUN,es,B1,15,keep,clean
+505,fracasado,failed,失败的,ADJ,es,B1,16,keep,clean
+607,indio,Indian,印第安人,NOUN,es,B1,17,keep,clean
+613,infeliz,unhappy,不幸的,ADJ,es,B1,18,keep,clean
+669,letra,letter,字母,NOUN,es,B1,19,keep,clean
+750,objeto,object,物体,NOUN,es,B1,20,keep,clean
+797,positivo,positive,积极的; 肯定的,ADJ,es,B1,21,keep,clean
+851,rodilla,knee,膝盖,NOUN,es,B1,22,keep,clean
+857,sacerdote,priest,神父,NOUN,es,B1,23,keep,clean
+877,sobrino,nephew,侄子,NOUN,es,B1,24,keep,clean

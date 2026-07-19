@@ -68,7 +68,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ثلج,snow,雪,NOUN
 ثومة,garlic,大蒜,NOUN
 جا,come,来,VERB
-جاب,bring,带来,VERB
 جار,neighbor,邻居,NOUN
 جامع,mosque,清真寺,NOUN
 جاوب,answer,回答,VERB
@@ -367,7 +366,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قَالَ,say,说,VERB
 قَانُون,law,法律,NOUN
 قَبْلَ,before,在...之前,ADP
-قُدَّامَ,in front of,在...前面,ADP
 قَدِيم,old,旧的,ADJ
 قَرَأَ,read,读,VERB
 قِرْد,monkey,猴子,NOUN
@@ -402,7 +400,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حافلة,bus,公共汽车,NOUN
 كيف,how,如何,ADV
 لا,no,不,PART
-بخير,fine,好的,ADJ
 لاجئ,refugee,难民,NOUN
 أمس,yesterday,昨天,NOUN
 لحم,meat,肉,NOUN
@@ -462,7 +459,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مَلِك,king,国王,NOUN
 مِلْيُون,million,百万,NUM
 مَمْلُوك,owned,被拥有的,ADJ
-مَنَاكِش,earrings,耳环,NOUN
 مُوَاطِن,citizen,公民,NOUN
 سكين,knife,刀,NOUN
 وسخ,dirt,污垢,NOUN
@@ -523,3 +519,4 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ثلاثون,thirty,三十,NUM
 جائع,hungry,饥饿的,ADJ
 عطشان,thirsty,口渴的,ADJ
+بخير,fine / well,很好,ADJ

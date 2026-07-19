@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-445,piéton,pedestrian,行人,NOUN,fr,A2,1,keep,clean
-14,ail,garlic,大蒜,NOUN,fr,A2,2,keep,clean
-12,agneau,lamb,羔羊,NOUN,fr,A2,3,keep,clean
-485,poste,post,职位,NOUN,fr,A2,4,keep,clean
-341,onze,eleven,十一,NUM,fr,A2,5,keep,clean
-20,analyse,analysis,分析,NOUN,fr,A2,6,keep,clean
-107,cinéma,cinema,电影院,NOUN,fr,A2,7,keep,clean
-120,commerce,trade,贸易,NOUN,fr,A2,8,keep,clean
-364,paix,peace,和平,NOUN,fr,A2,9,keep,clean
-141,crevette,shrimp,虾,NOUN,fr,A2,10,keep,clean
-257,lorsque,when,当……时,SCONJ,fr,A2,11,keep,clean
-278,moi,me,我,PRON,fr,A2,12,keep,clean
-461,plusieurs,several,几个,DET,fr,A2,13,keep,clean
-253,limite,limit,限制,NOUN,fr,A2,14,keep,clean
-514,problème,problem,问题,NOUN,fr,A2,15,keep,clean
-19,américain,American,美国的,ADJ,fr,A2,16,keep,clean
-187,et,and,和,CCONJ,fr,A2,17,keep,clean
-142,crise,crisis,危机,NOUN,fr,A2,18,keep,clean
-504,preuve,proof,证据,NOUN,fr,A2,19,keep,clean
-259,là,there,那里,ADV,fr,A2,20,keep,clean
-373,par,by,由,ADP,fr,A2,21,keep,clean
-273,merci,thank you,谢谢,INTJ,fr,A2,22,keep,clean
-360,ouvrir,to open,打开,VERB,fr,A2,23,keep,clean
+12,agneau,lamb,羔羊,NOUN,fr,A2,1,keep,clean
+16,ainsi,thus,如此,ADV,fr,A2,2,keep,clean
+70,bougie,candle,蜡烛,NOUN,fr,A2,3,keep,clean
+72,boussole,compass,指南针,NOUN,fr,A2,4,keep,clean
+84,capitale,capital,首都,NOUN,fr,A2,5,keep,clean
+101,chauffeur,driver,司机,NOUN,fr,A2,6,keep,clean
+108,ciseaux,scissors,剪刀,NOUN,fr,A2,7,keep,clean
+115,colle,glue,胶水,NOUN,fr,A2,8,keep,clean
+120,commerce,trade,贸易,NOUN,fr,A2,9,keep,clean
+142,crise,crisis,危机,NOUN,fr,A2,10,keep,clean
+164,directeur,director,主管,NOUN,fr,A2,11,keep,clean
+208,futur,future,未来,NOUN,fr,A2,12,keep,clean
+222,historique,historical,历史的,ADJ,fr,A2,13,keep,clean
+251,lien,link,联系,NOUN,fr,A2,14,keep,clean
+256,longtemps,a long time,很久,ADV,fr,A2,15,keep,clean
+258,lycée,high school,高中,NOUN,fr,A2,16,keep,clean
+260,magnifique,magnificent,壮丽的,ADJ,fr,A2,17,keep,clean
+357,ours,bear,熊,NOUN,fr,A2,18,keep,clean
+389,particulier,particular,特别的,ADJ,fr,A2,19,keep,clean
+413,peine,sorrow,悲伤,NOUN,fr,A2,20,keep,clean
+448,plainte,complaint,投诉,NOUN,fr,A2,21,keep,clean
+490,poumon,lung,肺,NOUN,fr,A2,22,keep,clean
+507,principal,main,主要的,ADJ,fr,A2,23,keep,clean

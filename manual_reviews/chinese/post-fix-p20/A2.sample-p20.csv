@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-9,严格,strict,严格,ADJ,zh,A2,1,keep,clean
-342,棵,classifier for trees,棵,NUM,zh,A2,2,keep,clean
-541,通过,by means of,通过,ADP,zh,A2,3,keep,clean
-39,任何,any,任何,PRON,zh,A2,4,keep,clean
-88,分之,fraction marker,分之,PART,zh,A2,5,keep,clean
-267,技术,technology,技术,NOUN,zh,A2,6,keep,clean
-513,调查,investigation,调查,NOUN,zh,A2,7,keep,clean
-288,提供,to offer,提供,VERB,zh,A2,8,keep,clean
-84,出发,to set off,出发,VERB,zh,A2,9,keep,clean
-226,座位,seat,座位,NOUN,zh,A2,10,keep,clean
-526,躺,to lie down,躺,VERB,zh,A2,11,keep,clean
-454,缺少,lack,缺少,VERB,zh,A2,12,keep,clean
-40,任务,task,任务,NOUN,zh,A2,13,keep,clean
-306,数字,number,数字,NOUN,zh,A2,14,keep,clean
-107,即使,even if,即使,SCONJ,zh,A2,15,keep,clean
-269,报名,to sign up,报名,VERB,zh,A2,16,keep,clean
-182,奖金,bonus,奖金,NOUN,zh,A2,17,keep,clean
-465,而,and,而,CCONJ,zh,A2,18,keep,clean
-258,所有,all,所有,DET,zh,A2,19,keep,clean
-337,标准,(an official) standard,标准,NOUN,zh,A2,20,keep,clean
-554,镜子,mirror,镜子,NOUN,zh,A2,21,keep,clean
-514,谈,to talk,谈,VERB,zh,A2,22,keep,clean
-332,条件,condition,条件,NOUN,zh,A2,23,keep,clean
-427,究竟,exactly,究竟,ADV,zh,A2,24,keep,clean
+19,乘坐,to ride,乘坐,VERB,zh,A2,1,keep,clean
+21,乱,messy,乱,ADJ,zh,A2,2,keep,clean
+35,代替,to replace,代替,VERB,zh,A2,3,keep,clean
+44,传真,fax,传真,NOUN,zh,A2,4,keep,clean
+46,估计,to estimate,估计,VERB,zh,A2,5,keep,clean
+74,养成,to cultivate,养成,VERB,zh,A2,6,keep,clean
+79,准时,on time,准时,ADV,zh,A2,7,keep,clean
+125,受不了,cannot bear,受不了,VERB,zh,A2,8,keep,clean
+145,呀,(particle equivalent to 啊 after a vowel),呀,PART,zh,A2,9,keep,clean
+163,场,large place used for a specific purpose,场,NOUN,zh,A2,10,keep,clean
+180,失望,disappointed,失望,ADJ,zh,A2,11,keep,clean
+203,将来,future,将来,NOUN,zh,A2,12,keep,clean
+237,得意,proud of oneself,得意,ADJ,zh,A2,13,keep,clean
+284,排列,to arrange,排列,VERB,zh,A2,14,keep,clean
+296,收入,income,收入,NOUN,zh,A2,15,keep,clean
+322,暂时,temporary,暂时,ADJ,zh,A2,16,keep,clean
+334,来得及,there's still time,来得及,VERB,zh,A2,17,keep,clean
+381,熟悉,familiar with,熟悉,ADJ,zh,A2,18,keep,clean
+388,猪,pig,猪,NOUN,zh,A2,19,keep,clean
+427,究竟,exactly,究竟,ADV,zh,A2,20,keep,clean
+456,网球,tennis,网球,NOUN,zh,A2,21,keep,clean
+519,赚,to earn,赚,VERB,zh,A2,22,keep,clean
+527,软,soft,软,ADJ,zh,A2,23,keep,clean
+550,重新,again,重新,ADV,zh,A2,24,keep,clean

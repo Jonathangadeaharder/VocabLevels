@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-517,moyen,means,方法,NOUN,fr,A1,1,keep,clean
-104,car,because,因为,CCONJ,fr,A1,2,keep,clean
-155,cité,city,城市,NOUN,fr,A1,3,keep,clean
-149,chose,thing,东西,NOUN,fr,A1,4,keep,clean
-218,devant,in front of,在……前面,ADP,fr,A1,5,keep,clean
-187,couloir,corridor,走廊,NOUN,fr,A1,6,keep,clean
-96,cahier,notebook,笔记本,NOUN,fr,A1,7,keep,clean
-500,mois,month,月,NOUN,fr,A1,8,keep,clean
-217,deux,two,二,NUM,fr,A1,9,keep,clean
-426,journée,day,白天,NOUN,fr,A1,10,keep,clean
-16,aimer,to like,喜欢,VERB,fr,A1,11,keep,clean
-338,fumée,smoke,烟,NOUN,fr,A1,12,keep,clean
-296,exister,to exist,存在,VERB,fr,A1,13,keep,clean
-483,mes,my,我的,DET,fr,A1,14,keep,clean
-476,mars,March,三月,NOUN,fr,A1,15,keep,clean
-113,cela,that,那个,PRON,fr,A1,16,keep,clean
-202,cœur,heart,心,NOUN,fr,A1,17,keep,clean
-494,mince,thin,瘦的,ADJ,fr,A1,18,keep,clean
-39,autant,as much,同样多,ADV,fr,A1,19,keep,clean
-102,campagne,countryside,乡村,NOUN,fr,A1,20,keep,clean
-114,cellule,cell,细胞,NOUN,fr,A1,21,keep,clean
-283,escargot,snail,蜗牛,NOUN,fr,A1,22,keep,clean
-71,bonsoir,good evening,晚上好,INTJ,fr,A1,23,keep,clean
+9,actuel,current,当前的,ADJ,fr,A1,1,keep,clean
+69,bon,good,好的,ADJ,fr,A1,2,keep,clean
+88,brochure,booklet,小册子,NOUN,fr,A1,3,keep,clean
+204,dans,in,在……里面,ADP,fr,A1,4,keep,clean
+229,divers,various,各种各样的,ADJ,fr,A1,5,keep,clean
+254,effet,effect,效果,NOUN,fr,A1,6,keep,clean
+261,encore,again,还,ADV,fr,A1,7,keep,clean
+273,entendre,to hear,听见,VERB,fr,A1,8,keep,clean
+287,esprit,mind,精神,NOUN,fr,A1,9,keep,clean
+290,essai,attempt,尝试,NOUN,fr,A1,10,keep,clean
+303,faim,hunger,饥饿,NOUN,fr,A1,11,keep,clean
+332,froid,cold,冷的,ADJ,fr,A1,12,keep,clean
+345,gagner,to win,赢得,VERB,fr,A1,13,keep,clean
+353,gens,people,人们,NOUN,fr,A1,14,keep,clean
+368,gros,big,大的,ADJ,fr,A1,15,keep,clean
+369,grotte,cave,洞穴,NOUN,fr,A1,16,keep,clean
+411,inviter,to invite,邀请,VERB,fr,A1,17,keep,clean
+412,jamais,never,从不,ADV,fr,A1,18,keep,clean
+458,mademoiselle,miss,小姐,NOUN,fr,A1,19,keep,clean
+465,manche,sleeve,袖子,NOUN,fr,A1,20,keep,clean
+495,ministre,minister,部长,NOUN,fr,A1,21,keep,clean
+510,morceau,piece,块,NOUN,fr,A1,22,keep,clean
+514,mourir,to die,死,VERB,fr,A1,23,keep,clean

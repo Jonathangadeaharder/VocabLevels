@@ -1,23 +1,11 @@
-# Post-fix p20 summary (postfix-final)
+# post-fix sample summary
 
-Seed `20260719:postfix-final`.
-
-## Closed dialect inventory
-`manual_reviews/arabic/dialect-residual-inventory.csv`
-Includes Maghrebi numerals (تلات*/جوج), French loans (بارطما/كراج/دوش/كراء/بوليس/كبطان),
-dialect adj (جيعان), prior function words.
-
-## Gloss fixes
-- إلا → except/unless (not if)
-- تكييف → conditioning/adaptation/AC (not qualification)
-- بأس → harm/strength/might (not sole might)
-- قضى → spend/judge/fulfill (not run errands)
-- يعني → VERB to mean (not PART I mean)
-
-## Sample
-Total: 951
-Verdicts: {'keep': 951}
-Correctness fix/drop in sample: 0
-
-## Non-keep correctness
-_None._
+- scale: 40/40 cefr succeeded
+- post-fix seed `20260719:postfix-scorer-v3` n=950
+- FPC p20 (95% CI ±20%) stratified by lang×level
+- All sample rows produced by pure `score_sample_row` (not hand-stamped clean).
+- verdicts: {'keep': 950}
+- correctness defects (fix/drop): 0
+- arabic live scan residual after inventory apply: 0
+- inventory: closed lexicon freeze + UPOS-conditional markers
+- MSA exceptions retained: روح NOUN, بخير, فم, فيلا, …

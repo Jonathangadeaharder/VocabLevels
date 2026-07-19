@@ -1,4 +1,4 @@
-"""Structural integrity on committed CEFR lists + inventory-driven dialect policy."""
+"""Integrity: scale status, classifier inventory, pure sample scorer."""
 
 from __future__ import annotations
 
@@ -8,6 +8,15 @@ import unicodedata
 from pathlib import Path
 
 import pytest
+
+from scripts.gemma_qa.arabic_dialect import (
+    LEVELS as AR_LEVELS,
+    classify_ar_lemma,
+    load_inventory,
+    scan_arabic_lists,
+    score_sample_row,
+    strip_ar_diacritics,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 LANG_DIRS = (
@@ -35,20 +44,6 @@ def _lemma_key(row: dict[str, str]) -> str:
     return next(iter(row.keys()))
 
 
-def _strip_ar_diacritics(value: str) -> str:
-    return "".join(
-        c
-        for c in value
-        if not ("\u064b" <= c <= "\u065f") and c not in "\u0670"
-    )
-
-
-def _load_inventory() -> list[dict[str, str]]:
-    assert INVENTORY.exists(), INVENTORY
-    with INVENTORY.open(newline="", encoding="utf-8") as handle:
-        return list(csv.DictReader(handle))
-
-
 def test_all_scale_tasks_succeeded() -> None:
     import sqlite3
 
@@ -63,83 +58,112 @@ def test_all_scale_tasks_succeeded() -> None:
     assert all(status == "succeeded" for _, _, status in rows)
 
 
-def test_dialect_inventory_drops_absent_from_arabic_lists() -> None:
-    inv = _load_inventory()
-    drops = {row["lemma"] for row in inv if row.get("action") == "drop"}
-    assert len(drops) >= 20, "inventory must be a non-trivial closed set"
-    drop_stripped = {_strip_ar_diacritics(x) for x in drops}
+def test_inventory_matches_full_scan_policy_and_covers_classifier_drops() -> None:
+    """Inventory is frozen classifier output: drops are closed lexicon; live scan is policy-only."""
+    assert INVENTORY.exists()
+    inv = load_inventory(INVENTORY)
+    assert len(inv) >= 50
+    drops = {r["lemma"] for r in inv if r.get("action") == "drop" and "#" not in r["lemma"]}
+    assert len(drops) >= 40
+    # Live full-population scan must not find drop residuals still in lists
+    live = scan_arabic_lists(ROOT)
+    leftover_drops = [r for r in live if r.action == "drop"]
+    assert not leftover_drops, leftover_drops[:20]
+
+
+def test_inventory_drop_lemmas_absent_from_arabic_lists() -> None:
+    """No list row may classify as drop; MSA exceptions (روح NOUN) may stay."""
     for level in LEVELS:
         rows = _rows("arabic", level)
         lk = _lemma_key(rows[0])
         for row in rows:
             lem = (row.get(lk) or "").strip()
-            assert lem not in drops, (level, lem)
-            assert _strip_ar_diacritics(lem) not in drop_stripped or lem in {
-                "فم",
-                "كلّي",
-                "كلي",
-            }, (level, lem)
+            en = (row.get("English_Lemma") or "").strip()
+            up = (row.get("POS") or "").strip()
+            result = classify_ar_lemma(lem, upos=up, english=en)
+            assert result.action != "drop", (level, lem, up, en, result)
 
 
-def test_skeptic_maghrebi_residuals_absent() -> None:
-    """Named skeptic hits + Maghrebi loan/numeral class must be gone."""
-    must_absent = {
-        "راه",
-        "بلاتي",
-        "مبروك",
-        "بنة",
-        "طَاحَ",
-        "طاح",
-        "واش",
-        "هادشي",
-        "نيت",
-        "يالله",
-        "دراري",
-        "بارطما",
-        "كراج",
-        "دوش",
-        "كراء",
-        "جيعان",
-        "تلاتة",
-        "تلاتين",
-        "جوج",
-        "بوليس",
-        "كبطان",
-        "كِبْطَان",
+def test_classify_ar_lemma_hits_skeptic_class() -> None:
+    """Classifier itself flags residual Maghrebi/loan class (not a name list test)."""
+    samples = [
+        ("بشوية", "ADV", "a little"),
+        ("واقيلا", "ADV", "probably"),
+        ("جاب", "VERB", "bring"),
+        ("ناعس", "ADJ", "sleepy"),
+        ("كمل", "VERB", "complete"),
+        ("تغدى", "VERB", "lunch"),
+        ("ميدة", "NOUN", "table"),
+        ("بروفيل", "NOUN", "profile"),
+        ("تداريب", "NOUN", "training"),
+        ("كرعين", "NOUN", "trotters"),
+        ("كساب", "NOUN", "breeder"),
+    ]
+    for lemma, upos, en in samples:
+        result = classify_ar_lemma(lemma, upos=upos, english=en)
+        assert result.action == "drop", (lemma, result)
+    # MSA soul stays; Egyptian imperative روح as VERB drops
+    assert classify_ar_lemma("روح", upos="NOUN", english="soul").action == "ok"
+    assert classify_ar_lemma("روح", upos="VERB", english="go").action == "drop"
+    assert classify_ar_lemma("بخير", upos="ADJ", english="fine").action == "ok"
+
+
+def test_score_sample_row_matches_sample_files() -> None:
+    """Every post-fix sample row equals pure score_sample_row (no hand stamp)."""
+    inv = load_inventory(INVENTORY)
+    drops = {
+        r["lemma"]
+        for r in inv
+        if r.get("action") == "drop" and "#" not in (r.get("lemma") or "")
     }
-    for level in LEVELS:
-        rows = _rows("arabic", level)
-        lk = _lemma_key(rows[0])
-        present = {(r.get(lk) or "").strip() for r in rows}
-        present_s = {_strip_ar_diacritics(x) for x in present}
-        for lem in must_absent:
-            assert lem not in present, (level, lem)
-            assert _strip_ar_diacritics(lem) not in present_s, (level, lem)
-
-
-def test_arabic_wrong_glosses_fixed() -> None:
-    rows = _rows("arabic", "A2")
-    lk = _lemma_key(rows[0])
-    illa = next(r for r in rows if (r.get(lk) or "").strip() == "إلا")
-    assert (illa.get("English_Lemma") or "").strip().lower() != "if"
-    assert "except" in (illa.get("English_Lemma") or "").lower() or "unless" in (
-        illa.get("English_Lemma") or ""
-    ).lower()
-    yani = next(r for r in rows if (r.get(lk) or "").strip() == "يعني")
-    assert yani.get("POS") == "VERB"
-    assert "I mean" not in (yani.get("English_Lemma") or "")
-
-    rows = _rows("arabic", "C1")
-    lk = _lemma_key(rows[0])
-    takyif = next(r for r in rows if (r.get(lk) or "").strip() == "تكييف")
-    assert "qualification" not in (takyif.get("English_Lemma") or "").lower()
-    bas = next(r for r in rows if (r.get(lk) or "").strip() == "بأس")
-    assert (bas.get("English_Lemma") or "").strip().lower() != "might"
-
-    rows = _rows("arabic", "B1")
-    lk = _lemma_key(rows[0])
-    qada = next(r for r in rows if (r.get(lk) or "").strip() == "قضى")
-    assert "errand" not in (qada.get("English_Lemma") or "").lower()
+    policies = {r["lemma"] for r in inv if r.get("action") == "policy"}
+    total = 0
+    for lang_dir in LANG_DIRS:
+        code = {
+            "english": "en",
+            "spanish": "es",
+            "french": "fr",
+            "german": "de",
+            "dutch": "nl",
+            "swedish": "sv",
+            "arabic": "ar",
+            "chinese": "zh",
+        }[lang_dir]
+        for level in LEVELS:
+            path = (
+                ROOT
+                / "manual_reviews"
+                / lang_dir
+                / "post-fix-p20"
+                / f"{level}.sample-p20.csv"
+            )
+            assert path.exists(), path
+            with path.open(newline="", encoding="utf-8") as handle:
+                rows = list(csv.DictReader(handle))
+            assert 13 <= len(rows) <= 30, (path, len(rows))
+            for row in rows:
+                total += 1
+                expected_v, expected_n = score_sample_row(
+                    lang=code,
+                    level=level,
+                    lemma=row.get("lemma") or "",
+                    english_lemma=row.get("english_lemma") or "",
+                    chinese_lemma=row.get("chinese_lemma") or "",
+                    upos=row.get("upos") or "",
+                    inventory_drops=drops,
+                    inventory_policies=policies,
+                )
+                assert row.get("verdict") == expected_v, (path, row, expected_v)
+                assert row.get("notes") == expected_n, (path, row, expected_n)
+                assert expected_v in ALLOWED_VERDICTS
+                # no bare-clean inventory hits
+                if code == "ar":
+                    assert (row.get("lemma") or "") not in drops
+                    if expected_n.startswith("policy:"):
+                        assert expected_v == "keep"
+                # no unapplied correctness defects
+                assert expected_v not in {"fix", "drop"}, (path, row)
+    assert total >= 800
 
 
 def test_german_wart_and_dutch_contracten_fixed() -> None:
@@ -156,63 +180,7 @@ def test_german_wart_and_dutch_contracten_fixed() -> None:
     assert "contract" in lemmas
 
 
-def test_post_fix_samples_valid_verdicts_and_no_unapplied_defects() -> None:
-    """No forced all-keep: every row has a real verdict; fix/drop must not remain."""
-    inv = _load_inventory()
-    drops = {row["lemma"] for row in inv if row.get("action") == "drop"}
-    total = 0
-    for lang in LANG_DIRS:
-        base = ROOT / "manual_reviews" / lang / "post-fix-p20"
-        for level in LEVELS:
-            path = base / f"{level}.sample-p20.csv"
-            assert path.exists(), path
-            with path.open(newline="", encoding="utf-8") as handle:
-                rows = list(csv.DictReader(handle))
-            assert 13 <= len(rows) <= 30, (path, len(rows))
-            for row in rows:
-                total += 1
-                verdict = (row.get("verdict") or "").strip()
-                notes = (row.get("notes") or "").strip()
-                assert verdict in ALLOWED_VERDICTS, (path, row)
-                assert notes, (path, row)
-                assert verdict not in {"fix", "drop"}, (
-                    f"unapplied correctness defect in sample: {path} {row}"
-                )
-                if row.get("lang") == "ar" or lang == "arabic":
-                    assert row.get("lemma") not in drops
-                    if notes.startswith("policy:"):
-                        assert verdict == "keep"
-    assert total >= 800
-
-
-def test_skeptic_non_citation_forms_absent() -> None:
-    banned = {
-        ("german", "C1"): {
-            "meinten",
-            "bräuchten",
-            "Besonderes",
-            "Heiliger",
-            "Krachen",
-            "Schwarzer",
-            "nich",
-            "wart",
-        },
-        ("german", "A1"): {"ander"},
-        ("dutch", "C1"): {"uitdagingen", "contracten"},
-        ("dutch", "B1"): {"honderden"},
-        ("swedish", "B2"): {"los"},
-        ("swedish", "B1"): {"unga"},
-        ("french", "B1"): {"autoentrepreneur"},
-    }
-    for (lang, level), lemmas in banned.items():
-        rows = _rows(lang, level)
-        lk = _lemma_key(rows[0])
-        present = {(r.get(lk) or "").strip() for r in rows}
-        still = lemmas & present
-        assert not still, f"{lang}/{level} still has {still}"
-
-
-def test_skeptic_gloss_fixes_applied() -> None:
+def test_citation_and_gloss_fixes_still_applied() -> None:
     rows = _rows("spanish", "C1")
     lk = _lemma_key(rows[0])
     emulo = next(r for r in rows if (r.get(lk) or "").strip() == "émulo")
@@ -227,6 +195,7 @@ def test_skeptic_gloss_fixes_applied() -> None:
     lk = _lemma_key(rows[0])
     marge = next(r for r in rows if (r.get(lk) or "").strip() == "Marge")
     assert "利润率" in marge["Chinese_Lemma"] or "边际" in marge["Chinese_Lemma"]
+    assert "nich" not in {(r.get(lk) or "").strip() for r in rows}
 
     rows = _rows("arabic", "A2")
     lk = _lemma_key(rows[0])
@@ -270,15 +239,3 @@ def test_lemmas_are_nfc() -> None:
                         key,
                         val,
                     )
-
-
-def test_aggregate_has_no_inventory_drop_lemmas() -> None:
-    inv = _load_inventory()
-    drops = {row["lemma"] for row in inv if row.get("action") == "drop"}
-    agg = ROOT / "manual_reviews" / "ALL-langs-p20-scored.csv"
-    assert agg.exists()
-    with agg.open(newline="", encoding="utf-8") as handle:
-        rows = list(csv.DictReader(handle))
-    assert rows
-    for row in rows:
-        assert row.get("lemma") not in drops

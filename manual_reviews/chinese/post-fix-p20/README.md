@@ -1,3 +1,3 @@
 # post-fix-p20 chinese
 
-Counter({'keep': 120})
+seed `20260719:postfix-scorer-v3` n=120

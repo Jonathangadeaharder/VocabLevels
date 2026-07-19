@@ -1,25 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-75,جبل,mountain,山,NOUN,ar,A1,1,keep,clean
-197,أَسَد,lion,狮子,NOUN,ar,A1,2,keep,clean
-167,رئيس,president,总统,NOUN,ar,A1,3,keep,clean
-501,هنا,here,这里,ADV,ar,A1,4,keep,clean
-480,نزل,descend/go down,下降,VERB,ar,A1,5,keep,clean
-168,رجل,man,男人,NOUN,ar,A1,6,keep,clean
-239,نافذة,window,窗户,NOUN,ar,A1,7,keep,clean
-404,لا,no,不,PART,ar,A1,8,keep,clean
-494,ذلك,that (masculine),那个,DET,ar,A1,9,keep,clean
-154,درهم,dirham,迪拉姆,NOUN,ar,A1,10,keep,clean
-477,أنتِ,you (feminine),你,PRON,ar,A1,11,keep,clean
-320,مساء,evening,晚上,NOUN,ar,A1,12,keep,clean
-348,فرن,oven,烤箱,NOUN,ar,A1,13,keep,clean
-184,رَمْل,sand,沙子,NOUN,ar,A1,14,keep,clean
-172,أربعون,forty,四十,NUM,ar,A1,15,keep,clean
-308,ساعد,help,帮助,VERB,ar,A1,16,keep,clean
-389,كِتَاب,book,书,NOUN,ar,A1,17,keep,clean
-253,عجوز,old (people),老的,ADJ,ar,A1,18,keep,clean
-211,سفر,travel,旅行,NOUN,ar,A1,19,keep,clean
-238,شرب,drink,喝,VERB,ar,A1,20,keep,clean
-273,أريكة,sofa,沙发,NOUN,ar,A1,21,keep,clean
-437,مَرْحَبًا,welcome,欢迎,INTJ,ar,A1,22,keep,clean
-315,عسل,honey,蜂蜜,NOUN,ar,A1,23,keep,clean
-41,بين,between,在...之间,ADP,ar,A1,24,keep,clean
+384,كَبَّ,pour,倒,VERB,ar,A1,1,keep,clean
+248,شمس,sun,太阳,NOUN,ar,A1,2,keep,clean
+98,حجرة,room,房间,NOUN,ar,A1,3,keep,clean
+262,صبغ,paint/dye,涂/染,VERB,ar,A1,4,keep,clean
+44,تحت,under,在...下,ADP,ar,A1,5,keep,clean
+227,سينما,cinema,电影院,NOUN,ar,A1,6,keep,clean
+488,هذه,this (feminine),这个,DET,ar,A1,7,keep,clean
+402,لا,no,不,PART,ar,A1,8,keep,clean
+481,نعم,yes,是,INTJ,ar,A1,9,keep,clean
+190,زُقَاق,alley,小巷,NOUN,ar,A1,10,keep,clean
+168,رأس,head,头,NOUN,ar,A1,11,keep,clean
+487,هؤلاء,these,这些,PRON,ar,A1,12,keep,clean
+5,أجنبي,foreigner,外国人,NOUN,ar,A1,13,keep,clean
+256,صاحبة,friend (female),朋友 (女),NOUN,ar,A1,14,keep,clean
+427,فوضوي,messy,凌乱的,ADJ,ar,A1,15,keep,clean
+377,قَمَر,moon,月亮,NOUN,ar,A1,16,keep,clean
+157,دقيقة,minute,分钟,NOUN,ar,A1,17,keep,clean
+316,عشرة,ten,十,NUM,ar,A1,18,keep,clean
+455,مَكْتَب,office,办公室,NOUN,ar,A1,19,keep,clean
+401,كيف,how,如何,ADV,ar,A1,20,keep,clean
+314,عسل,honey,蜂蜜,NOUN,ar,A1,21,keep,clean
+89,جمل,camel,骆驼,NOUN,ar,A1,22,keep,clean
+383,كَأْس,glass,玻璃杯,NOUN,ar,A1,23,keep,clean

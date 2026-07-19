@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1426,doch,however,然而,CCONJ,nl,C1,1,keep,clean
-1068,gene,those,那些,PRON,nl,C1,2,keep,clean
-482,brons,bronze,青铜,NOUN,nl,C1,3,keep,clean
-1652,achttien,eighteen,十八,NUM,nl,C1,4,keep,clean
-207,garanderen,to guarantee,保证,VERB,nl,C1,5,keep,clean
-1166,versus,vs,与...相对,ADP,nl,C1,6,keep,clean
-1721,alfabet,alphabet,字母表,NOUN,nl,C1,7,keep,clean
-728,naarmate,as,随着,SCONJ,nl,C1,8,keep,clean
-395,long,lung,肺,NOUN,nl,C1,9,keep,clean
-648,dun,thin,薄的,ADJ,nl,C1,10,keep,clean
-1121,cyclus,cycle,循环,NOUN,nl,C1,11,keep,clean
-1215,pesten,to bully,欺凌,VERB,nl,C1,12,keep,clean
-1490,kist,chest,箱子,NOUN,nl,C1,13,keep,clean
-1722,biologie,biology,生物学,NOUN,nl,C1,14,keep,clean
-1279,storing,malfunction,故障,NOUN,nl,C1,15,keep,clean
-548,jeetje,gosh,天哪,INTJ,nl,C1,16,keep,clean
-809,bij,bee,蜜蜂,NOUN,nl,C1,17,keep,clean
-1888,morgenavond,tomorrow night,明晚,ADV,nl,C1,18,keep,clean
-560,sigaret,cigarette,香烟,NOUN,nl,C1,19,keep,clean
-1531,afmaken,to finish,完成,VERB,nl,C1,20,keep,clean
-39,overeenstemming,agreement,一致,NOUN,nl,C1,21,keep,clean
-1884,materie,matter,物质,NOUN,nl,C1,22,keep,clean
-617,stelsel,system,体系,NOUN,nl,C1,23,keep,clean
-2014,genootschap,society,协会,NOUN,nl,C1,24,keep,clean
+31,klote,shit,该死的,ADJ,nl,C1,1,keep,clean
+229,steven,bow,船首,NOUN,nl,C1,2,keep,clean
+242,zeilen,to sail,航行,VERB,nl,C1,3,keep,clean
+247,arbeider,worker,工人,NOUN,nl,C1,4,keep,clean
+457,piloot,pilot,飞行员,NOUN,nl,C1,5,keep,clean
+523,zonnig,sunny,阳光充足的,ADJ,nl,C1,6,keep,clean
+603,opbouw,construction,建设,NOUN,nl,C1,7,keep,clean
+606,pink,little finger,小指,NOUN,nl,C1,8,keep,clean
+611,registreren,to register,登记,VERB,nl,C1,9,keep,clean
+645,corruptie,corruption,腐败,NOUN,nl,C1,10,keep,clean
+756,applaus,applause,掌声,NOUN,nl,C1,11,keep,clean
+908,christendom,Christianity,基督教,NOUN,nl,C1,12,keep,clean
+935,redding,rescue,救援,NOUN,nl,C1,13,keep,clean
+1003,verbannen,to banish,流放,VERB,nl,C1,14,keep,clean
+1130,goeds,good,好处,NOUN,nl,C1,15,keep,clean
+1414,afzien,to abstain,戒除,VERB,nl,C1,16,keep,clean
+1644,weergave,display,显示,NOUN,nl,C1,17,keep,clean
+1704,toevoeging,addition,添加,NOUN,nl,C1,18,keep,clean
+1718,aardappel,potato,土豆,NOUN,nl,C1,19,keep,clean
+1765,sponsoren,to sponsor,赞助,VERB,nl,C1,20,keep,clean
+1813,kaars,candle,蜡烛,NOUN,nl,C1,21,keep,clean
+1833,tamelijk,quite,相当,ADV,nl,C1,22,keep,clean
+1861,boon,bean,豆子,NOUN,nl,C1,23,keep,clean
+1888,morgenavond,tomorrow night,明晚,ADV,nl,C1,24,keep,clean

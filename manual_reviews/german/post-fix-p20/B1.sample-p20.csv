@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-342,Mitglied,member,成员,NOUN,de,B1,1,keep,clean
-173,Fernseher,television set,电视机,NOUN,de,B1,2,keep,clean
-67,Blut,blood,血,NOUN,de,B1,3,keep,clean
-510,Tod,death,死亡,NOUN,de,B1,4,keep,clean
-396,prost,cheers,干杯,INTJ,de,B1,5,keep,clean
-197,Gast,guest,客人,NOUN,de,B1,6,keep,clean
-393,probieren,to try,尝试,VERB,de,B1,7,keep,clean
-280,Kiste,box,箱子,NOUN,de,B1,8,keep,clean
-587,Wetter,weather,天气,NOUN,de,B1,9,keep,clean
-72,Braut,bride,新娘,NOUN,de,B1,10,keep,clean
-125,einander,each other,互相,PRON,de,B1,11,keep,clean
-495,streiten,to argue,争吵,VERB,de,B1,12,keep,clean
-524,ums,around the,绕着,ADP,de,B1,13,keep,clean
-181,Flughafen,airport,机场,NOUN,de,B1,14,keep,clean
-100,dicht,dense,密集的,ADJ,de,B1,15,keep,clean
-321,Leiter,leader / ladder,领导者 / 梯子,NOUN,de,B1,16,keep,clean
-144,entweder,either,要么,CCONJ,de,B1,17,keep,clean
-121,Ehemann,husband,丈夫,NOUN,de,B1,18,keep,clean
-515,Treppe,staircase,楼梯,NOUN,de,B1,19,keep,clean
-260,indem,by doing,通过,SCONJ,de,B1,20,keep,clean
-582,welcher,which,哪个,DET,de,B1,21,keep,clean
-615,zwölf,twelve,十二,NUM,de,B1,22,keep,clean
-455,Schwanz,tail,尾巴,NOUN,de,B1,23,keep,clean
-13,allerdings,however,然而,ADV,de,B1,24,keep,clean
+21,antworten,to answer,回答,VERB,de,B1,1,keep,clean
+34,aufstehen,to get up,起床,VERB,de,B1,2,keep,clean
+50,begraben,to bury,埋葬,VERB,de,B1,3,keep,clean
+86,dankbar,grateful,感激的,ADJ,de,B1,4,keep,clean
+122,Ei,egg,鸡蛋,NOUN,de,B1,5,keep,clean
+141,entkommen,to escape,逃跑,VERB,de,B1,6,keep,clean
+145,Erfahrung,experience,经验,NOUN,de,B1,7,keep,clean
+148,ergeben,to yield,产生,VERB,de,B1,8,keep,clean
+183,Folge,episode,集,NOUN,de,B1,9,keep,clean
+195,Gang,corridor,走廊,NOUN,de,B1,10,keep,clean
+217,gesamt,entire,全部的,ADJ,de,B1,11,keep,clean
+231,Größe,size,大小,NOUN,de,B1,12,keep,clean
+238,heim,home,回家,ADV,de,B1,13,keep,clean
+300,Krankenwagen,ambulance,救护车,NOUN,de,B1,14,keep,clean
+313,langen,to suffice / to reach,足够 / 够得着,VERB,de,B1,15,keep,clean
+335,mehrere,several,几个,DET,de,B1,16,keep,clean
+390,Presse,press,新闻界,NOUN,de,B1,17,keep,clean
+399,Publikum,audience,观众,NOUN,de,B1,18,keep,clean
+407,rechtzeitig,in time,及时的,ADJ,de,B1,19,keep,clean
+410,Regisseur,director,导演,NOUN,de,B1,20,keep,clean
+490,Stock,floor,楼层,NOUN,de,B1,21,keep,clean
+587,Wetter,weather,天气,NOUN,de,B1,22,keep,clean
+593,Wunsch,wish,愿望,NOUN,de,B1,23,keep,clean
+610,Zusage,commitment,承诺,NOUN,de,B1,24,keep,clean

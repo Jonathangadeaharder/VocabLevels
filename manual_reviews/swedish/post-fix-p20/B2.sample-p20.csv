@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-925,aktie,share,股票,NOUN,sv,B2,1,keep,clean
-288,icke,not,不,PART,sv,B2,2,keep,clean
-761,sök,search,搜索,NOUN,sv,B2,3,keep,clean
-285,höghet,highness,殿下,NOUN,sv,B2,4,keep,clean
-874,vilse,astray,迷路,ADJ,sv,B2,5,keep,clean
-273,humör,mood,心情,NOUN,sv,B2,6,keep,clean
-859,varifrån,from where,从哪里,ADV,sv,B2,7,keep,clean
-246,gäst,guest,客人,NOUN,sv,B2,8,keep,clean
-776,terroristerna,terrorists,恐怖分子们,NOUN,sv,B2,9,keep,clean
-718,stolthet,pride,骄傲,NOUN,sv,B2,10,keep,clean
-302,inklusive,including,包括,ADP,sv,B2,11,keep,clean
-922,affärsman,businessman,商人,NOUN,sv,B2,12,keep,clean
-468,morbror,uncle,舅舅,NOUN,sv,B2,13,keep,clean
-249,haj,shark,鲨鱼,NOUN,sv,B2,14,keep,clean
-973,apparat,apparatus,设备,NOUN,sv,B2,15,keep,clean
-772,teknik,technology,技术,NOUN,sv,B2,16,keep,clean
-645,skära,cut,切,VERB,sv,B2,17,keep,clean
-455,miljard,billion,十亿,NUM,sv,B2,18,keep,clean
-757,såvida,unless,除非,SCONJ,sv,B2,19,keep,clean
-71,bud,message/errand,消息/差事,NOUN,sv,B2,20,keep,clean
-811,ty,for/because,因为,CCONJ,sv,B2,21,keep,clean
-229,godnatt,good night,晚安,INTJ,sv,B2,22,keep,clean
-877,viss,certain,某些,DET,sv,B2,23,keep,clean
-933,alltsammans,all of it,全部,PRON,sv,B2,24,keep,clean
+14,barnvakt,babysitter,保姆,NOUN,sv,B2,1,keep,clean
+24,bekant,acquaintance,熟人,NOUN,sv,B2,2,keep,clean
+35,beskyddare,protector,保护者,NOUN,sv,B2,3,keep,clean
+51,bitti,early morning,清晨,ADV,sv,B2,4,keep,clean
+58,blödning,bleeding,出血,NOUN,sv,B2,5,keep,clean
+80,dejting,dating,约会,NOUN,sv,B2,6,keep,clean
+119,enorm,enormous,巨大的,ADJ,sv,B2,7,keep,clean
+214,galning,lunatic,疯子,NOUN,sv,B2,8,keep,clean
+239,grym,cruel,残忍的,ADJ,sv,B2,9,keep,clean
+240,gryning,dawn,黎明,NOUN,sv,B2,10,keep,clean
+324,kamp,struggle,斗争,NOUN,sv,B2,11,keep,clean
+398,lastbil,truck,卡车,NOUN,sv,B2,12,keep,clean
+436,lösning,solution,解决方案,NOUN,sv,B2,13,keep,clean
+447,medlem,member,成员,NOUN,sv,B2,14,keep,clean
+525,orsaka,cause,导致,VERB,sv,B2,15,keep,clean
+623,samlas,gather,聚集,VERB,sv,B2,16,keep,clean
+683,sms,text message,短信,NOUN,sv,B2,17,keep,clean
+724,stråla,radiate,发光,VERB,sv,B2,18,keep,clean
+794,trivas,thrive,过得舒适,VERB,sv,B2,19,keep,clean
+802,träning,training,训练,NOUN,sv,B2,20,keep,clean
+883,välsignad,blessed,受祝福的,ADJ,sv,B2,21,keep,clean
+910,önska,wish,希望,VERB,sv,B2,22,keep,clean
+920,abort,abortion,流产,NOUN,sv,B2,23,keep,clean
+964,anspråk,claim,要求,NOUN,sv,B2,24,keep,clean

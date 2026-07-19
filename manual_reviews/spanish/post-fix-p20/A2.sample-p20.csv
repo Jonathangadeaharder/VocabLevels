@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-504,socio,partner,伙伴,NOUN,es,A2,1,keep,clean
-36,asiento,seat,座位,NOUN,es,A2,2,keep,clean
-277,ganas,desire,愿望,NOUN,es,A2,3,keep,clean
-14,alguno,some,一些,DET,es,A2,4,keep,clean
-204,e,and,和,CCONJ,es,A2,5,keep,clean
-9,acusado,defendant,被告,NOUN,es,A2,6,keep,clean
-73,calma,calm,平静,NOUN,es,A2,7,keep,clean
-3,absolutamente,absolutely,绝对地,ADV,es,A2,8,keep,clean
-198,doble,double,双倍的,ADJ,es,A2,9,keep,clean
-378,ninguno,none,没有,PRON,es,A2,10,keep,clean
-367,movimiento,movement,运动,NOUN,es,A2,11,keep,clean
-392,orgullo,pride,骄傲,NOUN,es,A2,12,keep,clean
-108,coger,to take,拿,VERB,es,A2,13,keep,clean
-275,fútbol,soccer,足球,NOUN,es,A2,14,keep,clean
-474,restaurante,restaurant,餐厅,NOUN,es,A2,15,keep,clean
-16,amante,lover,情人,NOUN,es,A2,16,keep,clean
-102,cine,cinema,电影院,NOUN,es,A2,17,keep,clean
-158,curiosidad,curiosity,好奇心,NOUN,es,A2,18,keep,clean
-15,altura,height,高度,NOUN,es,A2,19,keep,clean
-426,pistola,pistol,手枪,NOUN,es,A2,20,keep,clean
-404,partido,match,比赛,NOUN,es,A2,21,keep,clean
-30,arena,sand,沙子,NOUN,es,A2,22,keep,clean
-416,pesar,weigh,称重,VERB,es,A2,23,keep,clean
-92,cero,zero,零,NUM,es,A2,24,keep,clean
+11,agujero,hole,洞,NOUN,es,A2,1,keep,clean
+65,brazo,arm,手臂,NOUN,es,A2,2,keep,clean
+73,calma,calm,平静,NOUN,es,A2,3,keep,clean
+75,caminar,to walk,走,VERB,es,A2,4,keep,clean
+82,cantidad,quantity,数量,NOUN,es,A2,5,keep,clean
+95,cerveza,beer,啤酒,NOUN,es,A2,6,keep,clean
+143,correr,to run,跑,VERB,es,A2,7,keep,clean
+219,enfermo,sick,生病的,ADJ,es,A2,8,keep,clean
+239,espíritu,spirit,精神,NOUN,es,A2,9,keep,clean
+245,estudiar,to study,学习,VERB,es,A2,10,keep,clean
+299,ilegal,illegal,非法的,ADJ,es,A2,11,keep,clean
+301,imaginar,imagine,想象,VERB,es,A2,12,keep,clean
+366,mover,move,移动,VERB,es,A2,13,keep,clean
+377,nieve,snow,雪,NOUN,es,A2,14,keep,clean
+381,nota,note,笔记,NOUN,es,A2,15,keep,clean
+412,película,movie,电影,NOUN,es,A2,16,keep,clean
+426,pistola,pistol,手枪,NOUN,es,A2,17,keep,clean
+438,premio,prize,奖品,NOUN,es,A2,18,keep,clean
+444,principal,main,主要的,ADJ,es,A2,19,keep,clean
+458,pérdida,loss,损失,NOUN,es,A2,20,keep,clean
+462,recoger,to pick up,捡起,VERB,es,A2,21,keep,clean
+473,responsable,responsible,负责的,ADJ,es,A2,22,keep,clean
+474,restaurante,restaurant,餐厅,NOUN,es,A2,23,keep,clean
+542,tráfico,traffic,交通,NOUN,es,A2,24,keep,clean

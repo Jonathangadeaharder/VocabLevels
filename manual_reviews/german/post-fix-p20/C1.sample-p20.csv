@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1148,Makel,blemish,瑕疵,NOUN,de,C1,1,keep,clean
-1150,mancher,some,一些,DET,de,C1,2,keep,clean
-1521,solange,as long as,只要,SCONJ,de,C1,3,keep,clean
-1001,Klinkenstöpsel,jack plug,插头,NOUN,de,C1,4,keep,clean
-1459,schlucken,swallow,吞咽,VERB,de,C1,5,keep,clean
-1013,Koalition,coalition,联盟,NOUN,de,C1,6,keep,clean
-1904,Ziel,target,目标,NOUN,de,C1,7,keep,clean
-215,beides,both,两者,PRON,de,C1,8,keep,clean
-103,Assistent,assistant,助手,NOUN,de,C1,9,keep,clean
-1190,Ministerium,ministry,部,NOUN,de,C1,10,keep,clean
-1477,schulden,owe,欠,VERB,de,C1,11,keep,clean
-362,Dankbarkeit,gratitude,感激,NOUN,de,C1,12,keep,clean
-867,haben,have,有,AUX,de,C1,13,keep,clean
-1486,schwülstig,bombastic,浮夸的,ADJ,de,C1,14,keep,clean
-556,Falte,wrinkle,皱纹,NOUN,de,C1,15,keep,clean
-653,Gegenstand,object,物体,NOUN,de,C1,16,keep,clean
-1452,Schiss,shit,恐惧,NOUN,de,C1,17,keep,clean
-1605,tausend,thousand,千,NUM,de,C1,18,keep,clean
-1259,nicht,not,不,PART,de,C1,19,keep,clean
-65,angesichts,in view of,鉴于,ADP,de,C1,20,keep,clean
-1268,Nonne,nun,修女,NOUN,de,C1,21,keep,clean
-1402,Rohr,pipe,管子,NOUN,de,C1,22,keep,clean
-1208,mm,hmm,嗯,INTJ,de,C1,23,keep,clean
-464,einst,once,曾经,ADV,de,C1,24,keep,clean
+180,Band,band / volume,乐队/卷,NOUN,de,C1,1,keep,clean
+192,Beamte,official,官员,NOUN,de,C1,2,keep,clean
+252,beruhen,be based on,基于,VERB,de,C1,3,keep,clean
+386,Ding,thing,事物,NOUN,de,C1,4,keep,clean
+439,äh,eh,呃,INTJ,de,C1,5,keep,clean
+498,Erinnerung,memory,记忆,NOUN,de,C1,6,keep,clean
+654,gründen,to found,建立,VERB,de,C1,7,keep,clean
+954,Kargheit,barrenness,贫瘠,NOUN,de,C1,8,keep,clean
+970,keiner,none,没有一个,DET,de,C1,9,keep,clean
+1066,Kälte,cold,寒冷,NOUN,de,C1,10,keep,clean
+1149,Maler,painter,画家,NOUN,de,C1,11,keep,clean
+1157,markieren,to mark,标记,VERB,de,C1,12,keep,clean
+1176,Menschenkenntnis,knowledge of human nature,知人之明,NOUN,de,C1,13,keep,clean
+1187,Mikrofon,microphone,麦克风,NOUN,de,C1,14,keep,clean
+1303,Perspektive,perspective,视角,NOUN,de,C1,15,keep,clean
+1314,Philosoph,philosopher,哲学家,NOUN,de,C1,16,keep,clean
+1393,Rekord,record,记录,NOUN,de,C1,17,keep,clean
+1428,Sauerstoff,oxygen,氧气,NOUN,de,C1,18,keep,clean
+1517,Smaragd,emerald,祖母绿,NOUN,de,C1,19,keep,clean
+1661,umsetzen,implement,实施,VERB,de,C1,20,keep,clean
+1722,vergeben,award,分配,VERB,de,C1,21,keep,clean
+1886,Wurm,worm,蠕虫,NOUN,de,C1,22,keep,clean
+1906,Zins,interest,利息,NOUN,de,C1,23,keep,clean
+1924,zunächst,initially,首先,ADV,de,C1,24,keep,clean

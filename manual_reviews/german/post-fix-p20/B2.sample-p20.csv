@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1038,servus,hello / bye,你好/再见,INTJ,de,B2,1,keep,clean
-861,Ofen,oven,烤箱,NOUN,de,B2,2,keep,clean
-825,Nachbarin,neighbor (female),女邻居,NOUN,de,B2,3,keep,clean
-777,malen,to paint,画,VERB,de,B2,4,keep,clean
-19,Abstand,distance,距离,NOUN,de,B2,5,keep,clean
-402,Fahrstuhl,elevator,电梯,NOUN,de,B2,6,keep,clean
-678,Knopf,button,纽扣,NOUN,de,B2,7,keep,clean
-625,Jahrhundert,century,世纪,NOUN,de,B2,8,keep,clean
-619,irgendjemand,anyone,任何人,PRON,de,B2,9,keep,clean
-880,Partei,party,政党,NOUN,de,B2,10,keep,clean
-591,hundert,hundred,一百,NUM,de,B2,11,keep,clean
-336,einzig,unique,唯一的,ADJ,de,B2,12,keep,clean
-1359,Öffentlichkeit,public,公众,NOUN,de,B2,13,keep,clean
-715,Kreuz,cross,十字架,NOUN,de,B2,14,keep,clean
-1055,sowie,as well as,以及,CCONJ,de,B2,15,keep,clean
-618,irgendein,any,任何一个,DET,de,B2,16,keep,clean
-688,Kommentar,comment,评论,NOUN,de,B2,17,keep,clean
-632,Jugend,youth,青春,NOUN,de,B2,18,keep,clean
-252,Bär,bear,熊,NOUN,de,B2,19,keep,clean
-742,Leck,leak,漏洞,NOUN,de,B2,20,keep,clean
-1304,wobei,whereby,其中,ADV,de,B2,21,keep,clean
-1050,sodass,so that,以便,SCONJ,de,B2,22,keep,clean
-629,jenseits,beyond,在...另一侧,ADP,de,B2,23,keep,clean
-366,Erbe,inheritance,遗产,NOUN,de,B2,24,keep,clean
+124,Autopsie,autopsy,尸检,NOUN,de,B2,1,keep,clean
+156,begehen,to commit,犯(罪),VERB,de,B2,2,keep,clean
+177,bereiten,to prepare,准备,VERB,de,B2,3,keep,clean
+190,beseitigen,to eliminate,消除,VERB,de,B2,4,keep,clean
+216,Bezahlung,payment,支付,NOUN,de,B2,5,keep,clean
+239,Botschafter,ambassador,大使,NOUN,de,B2,6,keep,clean
+266,derzeit,currently,目前,ADV,de,B2,7,keep,clean
+481,liefern,to deliver,交付,VERB,de,B2,8,keep,clean
+497,gerecht,fair,公平的,ADJ,de,B2,9,keep,clean
+501,Gerät,device,设备,NOUN,de,B2,10,keep,clean
+532,Glocke,bell,钟,NOUN,de,B2,11,keep,clean
+555,Hass,hatred,仇恨,NOUN,de,B2,12,keep,clean
+651,Kellnerin,waitress,女服务员,NOUN,de,B2,13,keep,clean
+753,Leistung,achievement,成就,NOUN,de,B2,14,keep,clean
+838,Neffe,nephew,侄子,NOUN,de,B2,15,keep,clean
+844,Niere,kidney,肾脏,NOUN,de,B2,16,keep,clean
+1006,Schluchzen,sobbing,抽泣,NOUN,de,B2,17,keep,clean
+1102,Summe,sum,总和,NOUN,de,B2,18,keep,clean
+1122,Tempo,speed,速度,NOUN,de,B2,19,keep,clean
+1134,Trinkgeld,tip,小费,NOUN,de,B2,20,keep,clean
+1152,umziehen,move,搬家,VERB,de,B2,21,keep,clean
+1159,Universum,universe,宇宙,NOUN,de,B2,22,keep,clean
+1277,weich,soft,柔软的,ADJ,de,B2,23,keep,clean
+1295,Wiederhören,goodbye (phone),再见（电话用语）,NOUN,de,B2,24,keep,clean

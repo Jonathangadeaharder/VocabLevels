@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-329,vorne,in front,在前面,ADV,de,A2,1,keep,clean
-137,Haut,skin,皮肤,NOUN,de,A2,2,keep,clean
-130,Glas,glass,玻璃,NOUN,de,A2,3,keep,clean
-239,Reise,trip,旅行,NOUN,de,A2,4,keep,clean
-40,bewegen,to move,移动,VERB,de,A2,5,keep,clean
-289,Stopp,stop,停止,NOUN,de,A2,6,keep,clean
-224,persönlich,personal,个人的,ADJ,de,A2,7,keep,clean
-32,benutzen,to use,使用,VERB,de,A2,8,keep,clean
-8,anfangen,to begin,开始,VERB,de,A2,9,keep,clean
-131,Glückwunsch,congratulations,祝贺,NOUN,de,A2,10,keep,clean
-67,dies,this,这个,DET,de,A2,11,keep,clean
-211,neben,next to,在...旁边,ADP,de,A2,12,keep,clean
-153,jawohl,yes,是的,INTJ,de,A2,13,keep,clean
-267,Sekunde,second,秒,NOUN,de,A2,14,keep,clean
-3,acht,eight,八,NUM,de,A2,15,keep,clean
-330,Vorsicht,caution,小心,NOUN,de,A2,16,keep,clean
-336,Wahrheit,truth,真相,NOUN,de,A2,17,keep,clean
-44,Beziehung,relationship,关系,NOUN,de,A2,18,keep,clean
-205,möchten,would like,想要,AUX,de,A2,19,keep,clean
-210,Nase,nose,鼻子,NOUN,de,A2,20,keep,clean
-253,Schlaf,sleep,睡眠,NOUN,de,A2,21,keep,clean
-219,obwohl,although,虽然,SCONJ,de,A2,22,keep,clean
-268,selber,oneself,自己,PRON,de,A2,23,keep,clean
+6,anderer,other,其他的,DET,de,A2,1,keep,clean
+19,aufhören,to stop,停止,VERB,de,A2,2,keep,clean
+78,entscheiden,to decide,决定,VERB,de,A2,3,keep,clean
+86,erreichen,to reach,到达,VERB,de,A2,4,keep,clean
+104,fühlen,to feel,感觉,VERB,de,A2,5,keep,clean
+113,gegenüber,opposite,对面,ADP,de,A2,6,keep,clean
+119,gemeinsam,together,共同的,ADJ,de,A2,7,keep,clean
+125,Geschäft,shop,商店,NOUN,de,A2,8,keep,clean
+162,Klappe,mouth,嘴,NOUN,de,A2,9,keep,clean
+172,kämpfen,to fight,战斗,VERB,de,A2,10,keep,clean
+176,kümmern,to take care of,照顾,VERB,de,A2,11,keep,clean
+188,Liebling,darling,宝贝,NOUN,de,A2,12,keep,clean
+208,nachdem,after,在...之后,SCONJ,de,A2,13,keep,clean
+211,neben,next to,在...旁边,ADP,de,A2,14,keep,clean
+281,stark,strong,强壮的,ADJ,de,A2,15,keep,clean
+288,stolz,proud,骄傲的,ADJ,de,A2,16,keep,clean
+300,Tisch,table,桌子,NOUN,de,A2,17,keep,clean
+315,Verbindung,connection,连接,NOUN,de,A2,18,keep,clean
+319,verraten,to betray,背叛,VERB,de,A2,19,keep,clean
+332,vorstellen,to introduce,介绍,VERB,de,A2,20,keep,clean
+335,Wahnsinn,madness,疯狂,NOUN,de,A2,21,keep,clean
+341,weise,wise,明智的,ADJ,de,A2,22,keep,clean
+358,ziehen,to pull,拉,VERB,de,A2,23,keep,clean

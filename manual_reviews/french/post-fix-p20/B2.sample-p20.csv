@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-136,autrui,others,他人,PRON,fr,B2,1,keep,clean
-811,incontestablement,incontestably,无可争议地,ADV,fr,B2,2,keep,clean
-1383,réception,reception,接待,NOUN,fr,B2,3,keep,clean
-925,législation,legislation,立法,NOUN,fr,B2,4,keep,clean
-62,amical,friendly,友好的,ADJ,fr,B2,5,keep,clean
-329,conformité,compliance,合规,NOUN,fr,B2,6,keep,clean
-780,hélas,alas,唉,INTJ,fr,B2,7,keep,clean
-80,aperçu,overview,概览,NOUN,fr,B2,8,keep,clean
-1295,quoique,although,虽然,SCONJ,fr,B2,9,keep,clean
-1172,planification,planning,规划,NOUN,fr,B2,10,keep,clean
-906,livret,booklet,小册子,NOUN,fr,B2,11,keep,clean
-490,dégager,to clear,清理,VERB,fr,B2,12,keep,clean
-1501,sauf,except,除了,ADP,fr,B2,13,keep,clean
-1031,métissage,mixing,混血,NOUN,fr,B2,14,keep,clean
-761,historien,historian,历史学家,NOUN,fr,B2,15,keep,clean
-1613,soixante,sixty,六十,NUM,fr,B2,16,keep,clean
-1630,son,his,他的,DET,fr,B2,17,keep,clean
-94,archevêque,archbishop,大主教,NOUN,fr,B2,18,keep,clean
-1062,nouveauté,novelty,新奇事物,NOUN,fr,B2,19,keep,clean
-61,amendement,amendment,修正案,NOUN,fr,B2,20,keep,clean
-148,bagage,luggage,行李,NOUN,fr,B2,21,keep,clean
-1194,porc,pork,猪肉,NOUN,fr,B2,22,keep,clean
-1140,percer,to pierce,刺穿,VERB,fr,B2,23,keep,clean
-1202,pourvoi,appeal,上诉,NOUN,fr,B2,24,keep,clean
+118,assujettissement,subjection,服从,NOUN,fr,B2,1,keep,clean
+136,autrui,others,他人,PRON,fr,B2,2,keep,clean
+275,coincé,stuck,卡住的,ADJ,fr,B2,3,keep,clean
+376,corrélativement,correlatively,相关地,ADV,fr,B2,4,keep,clean
+408,culpabilité,guilt,内疚,NOUN,fr,B2,5,keep,clean
+487,définitif,final,最终的,ADJ,fr,B2,6,keep,clean
+511,départemental,departmental,省级的,ADJ,fr,B2,7,keep,clean
+783,hétéroclite,motley,杂乱的,ADJ,fr,B2,8,keep,clean
+820,indiscrétion,indiscretion,轻率,NOUN,fr,B2,9,keep,clean
+829,infirmer,to invalidate,使无效,VERB,fr,B2,10,keep,clean
+882,jouet,toy,玩具,NOUN,fr,B2,11,keep,clean
+924,législatif,legislative,立法的,ADJ,fr,B2,12,keep,clean
+958,masculin,masculine,男性的,ADJ,fr,B2,13,keep,clean
+1042,nerveux,nervous,紧张的,ADJ,fr,B2,14,keep,clean
+1060,notice,instruction leaflet,说明书,NOUN,fr,B2,15,keep,clean
+1118,parcimonie,parsimony,吝啬,NOUN,fr,B2,16,keep,clean
+1191,polyvalence,versatility,多功能性,NOUN,fr,B2,17,keep,clean
+1254,préjugé,prejudice,偏见,NOUN,fr,B2,18,keep,clean
+1347,reprocher,to reproach,责备,VERB,fr,B2,19,keep,clean
+1412,régulier,regular,规律的,ADJ,fr,B2,20,keep,clean
+1501,sauf,except,除了,ADP,fr,B2,21,keep,clean
+1594,siroter,to sip,小口喝,VERB,fr,B2,22,keep,clean
+1621,solide,solid,坚固的,ADJ,fr,B2,23,keep,clean
+1704,substantiellement,substantially,实质上,ADV,fr,B2,24,keep,clean

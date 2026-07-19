@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-539,意义,meaning,意义,NOUN,zh,B1,1,keep,clean
-89,似的,like,似的,PART,zh,B1,2,keep,clean
-269,名胜,scenic spot,名胜,NOUN,zh,B1,3,keep,clean
-336,多亏,thanks to,多亏,ADP,zh,B1,4,keep,clean
-500,彼此,each other,彼此,PRON,zh,B1,5,keep,clean
-986,罐头,canned food,罐头,NOUN,zh,B1,6,keep,clean
-691,晒,to dry in the sun,晒,AUX,zh,B1,7,keep,clean
-319,地理,geography,地理,NOUN,zh,B1,8,keep,clean
-483,开放,to open up,开放,VERB,zh,B1,9,keep,clean
-294,唉,alas,唉,INTJ,zh,B1,10,keep,clean
-190,剪刀,scissors,剪刀,NOUN,zh,B1,11,keep,clean
-63,人类,humanity,人类,NOUN,zh,B1,12,keep,clean
-450,幅,"classifier for paintings, cloth, etc.",幅,NUM,zh,B1,13,keep,clean
-347,失眠,to suffer from insomnia,失眠,VERB,zh,B1,14,keep,clean
-849,球迷,fan,球迷,NOUN,zh,B1,15,keep,clean
-637,操场,playground,操场,NOUN,zh,B1,16,keep,clean
-243,发票,invoice,发票,NOUN,zh,B1,17,keep,clean
-237,反正,anyway,反正,ADV,zh,B1,18,keep,clean
-384,完善,perfect,完善,ADJ,zh,B1,19,keep,clean
-96,何况,let alone,何况,CCONJ,zh,B1,20,keep,clean
-120,假如,if,假如,SCONJ,zh,B1,21,keep,clean
-648,政府,government,政府,NOUN,zh,B1,22,keep,clean
-767,油炸,to deep-fry,油炸,VERB,zh,B1,23,keep,clean
-164,凡是,all,凡是,DET,zh,B1,24,keep,clean
+42,书架,bookshelf,书架,NOUN,zh,B1,1,keep,clean
+49,交换,to exchange,交换,VERB,zh,B1,2,keep,clean
+55,亲爱,dear,亲爱,ADJ,zh,B1,3,keep,clean
+147,关怀,to care for,关怀,VERB,zh,B1,4,keep,clean
+186,制度,system,制度,NOUN,zh,B1,5,keep,clean
+202,勺子,spoon,勺子,NOUN,zh,B1,6,keep,clean
+296,商业,business,商业,NOUN,zh,B1,7,keep,clean
+331,声调,tone,声调,NOUN,zh,B1,8,keep,clean
+383,安装,to install,安装,VERB,zh,B1,9,keep,clean
+432,尾巴,tail,尾巴,NOUN,zh,B1,10,keep,clean
+473,废话,nonsense,废话,NOUN,zh,B1,11,keep,clean
+491,形势,situation,形势,NOUN,zh,B1,12,keep,clean
+513,忽视,to neglect,忽视,VERB,zh,B1,13,keep,clean
+515,思想,thought,思想,NOUN,zh,B1,14,keep,clean
+518,性质,nature,性质,NOUN,zh,B1,15,keep,clean
+534,情景,scene,情景,NOUN,zh,B1,16,keep,clean
+600,指挥,to conduct,指挥,VERB,zh,B1,17,keep,clean
+619,推荐,to recommend,推荐,VERB,zh,B1,18,keep,clean
+650,政策,policy,政策,NOUN,zh,B1,19,keep,clean
+653,救,to save,救,VERB,zh,B1,20,keep,clean
+766,沟通,to communicate,沟通,VERB,zh,B1,21,keep,clean
+780,浓,concentrated,浓,ADJ,zh,B1,22,keep,clean
+928,程度,degree,程度,NOUN,zh,B1,23,keep,clean
+953,糟糕,terrible,糟糕,ADJ,zh,B1,24,keep,clean
