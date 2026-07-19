@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-118,assujettissement,subjection,服从,NOUN,fr,B2,1,keep,clean
-136,autrui,others,他人,PRON,fr,B2,2,keep,clean
-275,coincé,stuck,卡住的,ADJ,fr,B2,3,keep,clean
-376,corrélativement,correlatively,相关地,ADV,fr,B2,4,keep,clean
-408,culpabilité,guilt,内疚,NOUN,fr,B2,5,keep,clean
-487,définitif,final,最终的,ADJ,fr,B2,6,keep,clean
-511,départemental,departmental,省级的,ADJ,fr,B2,7,keep,clean
-783,hétéroclite,motley,杂乱的,ADJ,fr,B2,8,keep,clean
-820,indiscrétion,indiscretion,轻率,NOUN,fr,B2,9,keep,clean
-829,infirmer,to invalidate,使无效,VERB,fr,B2,10,keep,clean
-882,jouet,toy,玩具,NOUN,fr,B2,11,keep,clean
-924,législatif,legislative,立法的,ADJ,fr,B2,12,keep,clean
-958,masculin,masculine,男性的,ADJ,fr,B2,13,keep,clean
-1042,nerveux,nervous,紧张的,ADJ,fr,B2,14,keep,clean
-1060,notice,instruction leaflet,说明书,NOUN,fr,B2,15,keep,clean
-1118,parcimonie,parsimony,吝啬,NOUN,fr,B2,16,keep,clean
-1191,polyvalence,versatility,多功能性,NOUN,fr,B2,17,keep,clean
-1254,préjugé,prejudice,偏见,NOUN,fr,B2,18,keep,clean
-1347,reprocher,to reproach,责备,VERB,fr,B2,19,keep,clean
-1412,régulier,regular,规律的,ADJ,fr,B2,20,keep,clean
-1501,sauf,except,除了,ADP,fr,B2,21,keep,clean
-1594,siroter,to sip,小口喝,VERB,fr,B2,22,keep,clean
-1621,solide,solid,坚固的,ADJ,fr,B2,23,keep,clean
-1704,substantiellement,substantially,实质上,ADV,fr,B2,24,keep,clean
+104,arrêté,decree,法令,NOUN,fr,B2,1,keep,clean
+174,bordure,edge,边缘,NOUN,fr,B2,2,keep,clean
+206,carton,cardboard,纸板,NOUN,fr,B2,3,keep,clean
+267,clergé,clergy,神职人员,NOUN,fr,B2,4,keep,clean
+359,contrainte,constraint,约束,NOUN,fr,B2,5,keep,clean
+455,doubler,to double,加倍,VERB,fr,B2,6,keep,clean
+746,générosité,generosity,慷慨,NOUN,fr,B2,7,keep,clean
+794,immigré,immigrant,移民,NOUN,fr,B2,8,keep,clean
+816,indifférence,indifference,冷漠,NOUN,fr,B2,9,keep,clean
+834,ingrédient,ingredient,成分,NOUN,fr,B2,10,keep,clean
+851,insulter,to insult,侮辱,VERB,fr,B2,11,keep,clean
+873,ironie,irony,讽刺,NOUN,fr,B2,12,keep,clean
+1026,mépris,contempt,蔑视,NOUN,fr,B2,13,keep,clean
+1031,métissage,mixing,混血,NOUN,fr,B2,14,keep,clean
+1096,orchestre,orchestra,管弦乐队,NOUN,fr,B2,15,keep,clean
+1157,photosynthèse,photosynthesis,光合作用,NOUN,fr,B2,16,keep,clean
+1200,pourcentage,percentage,百分比,NOUN,fr,B2,17,keep,clean
+1330,relocalisation,reshoring,产业回流,NOUN,fr,B2,18,keep,clean
+1388,réclamer,to demand,要求,VERB,fr,B2,19,keep,clean
+1404,référendum,referendum,公民投票,NOUN,fr,B2,20,keep,clean
+1455,réussir,to succeed,成功,VERB,fr,B2,21,keep,clean
+1468,rôle,role,角色,NOUN,fr,B2,22,keep,clean
+1538,selle,saddle,马鞍,NOUN,fr,B2,23,keep,clean
+1596,situer,to locate,定位,VERB,fr,B2,24,keep,clean

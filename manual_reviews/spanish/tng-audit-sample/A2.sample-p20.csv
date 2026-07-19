@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-524,taza,cup,杯子,NOUN,es,A2,1,keep,clean
-17,ambulancia,ambulance,救护车,NOUN,es,A2,2,keep,clean
-346,mando,remote control,遥控器,NOUN,es,A2,3,keep,clean
-190,disculpa,apology,道歉,NOUN,es,A2,4,keep,clean
-446,probar,to try,尝试,VERB,es,A2,5,keep,clean
-105,claramente,clearly,清楚地,ADV,es,A2,6,keep,clean
-247,estupendo,wonderful,极好的,ADJ,es,A2,7,keep,clean
-99,cien,hundred,百,NUM,es,A2,8,keep,clean
-158,curiosidad,curiosity,好奇心,NOUN,es,A2,9,keep,clean
-204,e,and,和,CCONJ,es,A2,10,keep,clean
-506,solución,solution,解决方案,NOUN,es,A2,11,keep,clean
-53,bebida,drink,饮料,NOUN,es,A2,12,keep,clean
-457,página,page,页,NOUN,es,A2,13,keep,clean
-116,comienzo,beginning,开始,NOUN,es,A2,14,keep,clean
-518,suyo,his/hers/theirs,他的/她的/他们的,PRON,es,A2,15,keep,clean
-95,cerveza,beer,啤酒,NOUN,es,A2,16,keep,clean
-567,viento,wind,风,NOUN,es,A2,17,keep,clean
-9,acusado,defendant,被告,NOUN,es,A2,18,keep,clean
-28,aquel,that,那个,DET,es,A2,19,keep,clean
-451,propiedad,property,财产,NOUN,es,A2,20,keep,clean
-419,piedra,stone,石头,NOUN,es,A2,21,keep,clean
-218,enfermedad,illness,疾病,NOUN,es,A2,22,keep,clean
-540,tripulación,crew,船员,NOUN,es,A2,23,keep,clean
-135,continuar,to continue,继续,VERB,es,A2,24,keep,clean
+29,aquella,that,那个,DET,es,A2,1,keep,clean
+50,banda,band,乐队,NOUN,es,A2,2,keep,clean
+61,borracho,drunk,醉酒的,ADJ,es,A2,3,keep,clean
+110,cola,queue,队列,NOUN,es,A2,4,keep,clean
+145,corte,cut,切口,NOUN,es,A2,5,keep,clean
+178,descubierto,uncovered,发现的,ADJ,es,A2,6,keep,clean
+180,desgracia,misfortune,不幸,NOUN,es,A2,7,keep,clean
+200,don,gift,天赋,NOUN,es,A2,8,keep,clean
+207,efecto,effect,效果,NOUN,es,A2,9,keep,clean
+211,embarazada,pregnant,怀孕的,ADJ,es,A2,10,keep,clean
+237,espejo,mirror,镜子,NOUN,es,A2,11,keep,clean
+246,estudio,study,学习,NOUN,es,A2,12,keep,clean
+249,evitar,to avoid,避免,VERB,es,A2,13,keep,clean
+250,exacto,exact,精确的,ADJ,es,A2,14,keep,clean
+255,explicar,to explain,解释,VERB,es,A2,15,keep,clean
+326,ladrón,thief,小偷,NOUN,es,A2,16,keep,clean
+417,pescado,fish,鱼,NOUN,es,A2,17,keep,clean
+442,presión,pressure,压力,NOUN,es,A2,18,keep,clean
+461,recibir,to receive,收到,VERB,es,A2,19,keep,clean
+511,soportar,to endure,忍受,VERB,es,A2,20,keep,clean
+559,ventaja,advantage,优势,NOUN,es,A2,21,keep,clean
+564,versión,version,版本,NOUN,es,A2,22,keep,clean
+565,viajar,travel,旅行,VERB,es,A2,23,keep,clean
+578,época,era,时代,NOUN,es,A2,24,keep,clean

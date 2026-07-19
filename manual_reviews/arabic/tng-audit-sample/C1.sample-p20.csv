@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-2418,دَبْلوم,diploma,文凭,NOUN,ar,C1,1,keep,clean
-2212,تَعَفُّن,rot / decomposition,腐烂 / 分解,NOUN,ar,C1,2,keep,clean
-3640,توغل,incursion,深入,NOUN,ar,C1,3,keep,clean
-201,لعل,perhaps,也许,PART,ar,C1,4,keep,clean
-3496,البتة,at all/absolutely,根本/绝对,ADV,ar,C1,5,keep,clean
-2210,نَظافة,cleanliness / cleanness,清洁,NOUN,ar,C1,6,keep,clean
-3610,تضاؤل,dwindling,减少,NOUN,ar,C1,7,keep,clean
-1224,مخصص,allocation,分配,NOUN,ar,C1,8,keep,clean
-1290,قائد,leader,领导者,NOUN,ar,C1,9,keep,clean
-1790,تصويب,correction,纠正,NOUN,ar,C1,10,keep,clean
-84,تقاض,litigation,诉讼,NOUN,ar,C1,11,keep,clean
-2573,تَفَقُّد,inspection,检查,NOUN,ar,C1,12,keep,clean
-2890,خُرْدَة,scrap,废料,NOUN,ar,C1,13,keep,clean
-601,دراماتورجيا,dramaturgy,戏剧构作,NOUN,ar,C1,14,keep,clean
-2680,تَقَيُّح,suppuration,化脓,NOUN,ar,C1,15,keep,clean
-3633,سلالات,lineages,世系,NOUN,ar,C1,16,keep,clean
-192,بشرط,on condition,条件是,SCONJ,ar,C1,17,keep,clean
-3827,تشدق,to be grandiloquent,夸夸其谈,VERB,ar,C1,18,keep,clean
-3554,شكلاني,formalist,形式主义者,ADJ,ar,C1,19,keep,clean
-188,بمثابة,as,作为,ADP,ar,C1,20,keep,clean
-3182,أنساب,genealogies,家谱,NOUN,ar,C1,21,keep,clean
-1335,إقبال,turnout,出席率,NOUN,ar,C1,22,keep,clean
-187,أي,that is to say,即,CCONJ,ar,C1,23,keep,clean
-1870,لِقاح,vaccine,疫苗,NOUN,ar,C1,24,keep,clean
+293,منحاز,biased,有偏见的,ADJ,ar,C1,1,keep,clean
+434,مضلع,polygon,多边形,NOUN,ar,C1,2,keep,clean
+585,ديوان,poetry collection,诗集,NOUN,ar,C1,3,keep,clean
+588,تخييل,fictionalization,虚构化,NOUN,ar,C1,4,keep,clean
+655,انتكاسة,relapse,复发,NOUN,ar,C1,5,keep,clean
+769,هيام,passionate love,痴恋,NOUN,ar,C1,6,keep,clean
+969,اغتصاب,rape,强奸,NOUN,ar,C1,7,keep,clean
+1043,مثول,appearance,出庭,NOUN,ar,C1,8,keep,clean
+1435,حدودي,border,边界的,ADJ,ar,C1,9,keep,clean
+1688,تقنين,codification,法典化,NOUN,ar,C1,10,keep,clean
+1728,تدارس,to study jointly,共同研究,VERB,ar,C1,11,keep,clean
+1869,لِقاح,vaccine,疫苗,NOUN,ar,C1,12,keep,clean
+2002,ذَرِّيّ,atomic,原子的,ADJ,ar,C1,13,keep,clean
+2386,مُحَاضِر,lecturer,讲师,NOUN,ar,C1,14,keep,clean
+2417,دَبْلوم,diploma,文凭,NOUN,ar,C1,15,keep,clean
+2720,طَفَرِيّ,mutagenic,诱变的,ADJ,ar,C1,16,keep,clean
+2750,اِسْتِدْلالِيّ,inferential,推论的,ADJ,ar,C1,17,keep,clean
+2804,جِذْعِيّ,stem,茎的,ADJ,ar,C1,18,keep,clean
+2927,متعية,hedonistic,享乐主义的,ADJ,ar,C1,19,keep,clean
+2999,إيحائِيَّة,suggestiveness,暗示性,NOUN,ar,C1,20,keep,clean
+3209,زقاق,alley,小巷,NOUN,ar,C1,21,keep,clean
+3494,لزاما,necessarily/incumbent,必然地/必须地,ADV,ar,C1,22,keep,clean
+3593,تمدين,urbanization,城市化,NOUN,ar,C1,23,keep,clean
+3632,سلالات,lineages,世系,NOUN,ar,C1,24,keep,clean

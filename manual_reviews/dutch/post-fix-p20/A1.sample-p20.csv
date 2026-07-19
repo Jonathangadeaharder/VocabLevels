@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-15,niet,not,不,ADV,nl,A1,1,keep,clean
-29,dan,than,比,ADV,nl,A1,2,keep,clean
-67,dus,so,所以,ADV,nl,A1,3,keep,clean
-99,jullie,you,你们,PRON,nl,A1,4,keep,clean
-106,laten,to let,让,VERB,nl,A1,5,keep,clean
-119,keer,time,次,NOUN,nl,A1,6,keep,clean
-134,kind,child,孩子,NOUN,nl,A1,7,keep,clean
-142,huis,house,房子,NOUN,nl,A1,8,keep,clean
-150,allemaal,all,全部,ADV,nl,A1,9,keep,clean
-160,verschillend,different,不同的,ADJ,nl,A1,10,keep,clean
-186,geld,money,钱,NOUN,nl,A1,11,keep,clean
-201,nieuws,news,新闻,NOUN,nl,A1,12,keep,clean
-236,zoeken,to search,寻找,VERB,nl,A1,13,keep,clean
-240,vier,four,四,NUM,nl,A1,14,keep,clean
-246,probleem,problem,问题,NOUN,nl,A1,15,keep,clean
-263,regio,region,地区,NOUN,nl,A1,16,keep,clean
-280,waarbij,whereby,借此,ADV,nl,A1,17,keep,clean
-299,gelijk,equal,平等的,ADJ,nl,A1,18,keep,clean
-321,hulp,help,帮助,NOUN,nl,A1,19,keep,clean
-354,vervolgens,then,随后,ADV,nl,A1,20,keep,clean
-357,gelukkig,happy,快乐的,ADJ,nl,A1,21,keep,clean
-362,stellen,to set,放置,VERB,nl,A1,22,keep,clean
-375,leeftijd,age,年龄,NOUN,nl,A1,23,keep,clean
+32,hebben,to have,有,VERB,nl,A1,1,keep,clean
+53,moeten,must,必须,AUX,nl,A1,2,keep,clean
+93,zoals,as,像,SCONJ,nl,A1,3,keep,clean
+94,iets,something,某事,PRON,nl,A1,4,keep,clean
+110,even,just,稍等,ADV,nl,A1,5,keep,clean
+121,iedereen,everyone,每个人,PRON,nl,A1,6,keep,clean
+128,nooit,never,从不,ADV,nl,A1,7,keep,clean
+136,vinden,to find,找到,VERB,nl,A1,8,keep,clean
+161,volgens,according to,根据,ADP,nl,A1,9,keep,clean
+166,graag,gladly,乐意地,ADV,nl,A1,10,keep,clean
+175,werken,to work,工作,VERB,nl,A1,11,keep,clean
+182,wereld,world,世界,NOUN,nl,A1,12,keep,clean
+264,vijf,five,五,NUM,nl,A1,13,keep,clean
+279,slechts,only,仅仅,ADV,nl,A1,14,keep,clean
+295,weinig,few,少的,ADJ,nl,A1,15,keep,clean
+309,sommige,some,一些,DET,nl,A1,16,keep,clean
+312,lezen,to read,阅读,VERB,nl,A1,17,keep,clean
+313,moeilijk,difficult,困难的,ADJ,nl,A1,18,keep,clean
+335,plaatsen,to place,放置,VERB,nl,A1,19,keep,clean
+371,vorm,form,形式,NOUN,nl,A1,20,keep,clean
+374,kopen,to buy,买,VERB,nl,A1,21,keep,clean
+381,doel,goal,目标,NOUN,nl,A1,22,keep,clean
+392,centrum,center,中心,NOUN,nl,A1,23,keep,clean

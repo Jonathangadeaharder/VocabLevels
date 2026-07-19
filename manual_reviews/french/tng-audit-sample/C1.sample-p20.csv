@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1791,législature,legislature,立法机关,NOUN,fr,C1,1,keep,clean
-2017,nosologie,nosology,疾病分类学,NOUN,fr,C1,2,keep,clean
-3426,typiquement,typically,典型地,ADV,fr,C1,3,keep,clean
-516,cartouche,cartridge,子弹,NOUN,fr,C1,4,keep,clean
-608,collant,tights,连裤袜,NOUN,fr,C1,5,keep,clean
-423,bouleversement,upheaval,动荡,NOUN,fr,C1,6,keep,clean
-1631,insuline,insulin,胰岛素,NOUN,fr,C1,7,keep,clean
-2900,souple,flexible,灵活的,ADJ,fr,C1,8,keep,clean
-3128,tambour,drum,鼓,NOUN,fr,C1,9,keep,clean
-3458,une,one,一,DET,fr,C1,10,keep,clean
-572,châssis,chassis / frame,底盘 / 框架,NOUN,fr,C1,11,keep,clean
-2873,soixantaine,about sixty,六十来个,NOUN,fr,C1,12,keep,clean
-498,capitaliste,capitalist,资本家,NOUN,fr,C1,13,keep,clean
-2178,patinage,skating,滑冰,NOUN,fr,C1,14,keep,clean
-2014,nonobstant,notwithstanding,尽管；不顾,ADP,fr,C1,15,keep,clean
-1956,méditerranéen,Mediterranean,地中海的,ADJ,fr,C1,16,keep,clean
-3385,trois,three,三,NUM,fr,C1,17,keep,clean
-668,conjoint,spouse,配偶,NOUN,fr,C1,18,keep,clean
-523,casuistique,casuistry,决疑论,NOUN,fr,C1,19,keep,clean
-219,apophatique,apophatic,否定神学的,ADJ,fr,C1,20,keep,clean
-3360,traître,traitor,叛徒,NOUN,fr,C1,21,keep,clean
-591,clarifier,to clarify,澄清,VERB,fr,C1,22,keep,clean
-3413,tu,you,你,PRON,fr,C1,23,keep,clean
-3035,sympathie,sympathy,同情,NOUN,fr,C1,24,keep,clean
+228,appliqué,diligent,勤勉的,ADJ,fr,C1,1,keep,clean
+890,dithyrambe,dithyramb,酒神颂,NOUN,fr,C1,2,keep,clean
+1041,désespéré,desperate,绝望的,ADJ,fr,C1,3,keep,clean
+1389,généraliser,to generalize,概括,VERB,fr,C1,4,keep,clean
+1736,libéralisation,liberalization,自由化,NOUN,fr,C1,5,keep,clean
+1844,mare,pond,池塘,NOUN,fr,C1,6,keep,clean
+1865,meneur,leader,领导者,NOUN,fr,C1,7,keep,clean
+1914,morbidité,morbidity,发病率,NOUN,fr,C1,8,keep,clean
+2007,neutraliser,to neutralize,中和,VERB,fr,C1,9,keep,clean
+2282,pochette,sleeve,小袋,NOUN,fr,C1,10,keep,clean
+2312,pornographique,pornographic,色情的,ADJ,fr,C1,11,keep,clean
+2408,précipitation,haste,匆忙,NOUN,fr,C1,12,keep,clean
+2508,pôle,pole,极,NOUN,fr,C1,13,keep,clean
+2523,racheter,to buy back,赎回,VERB,fr,C1,14,keep,clean
+2944,stéréotype,stereotype,刻板印象,NOUN,fr,C1,15,keep,clean
+3017,surveiller,to supervise,监督,VERB,fr,C1,16,keep,clean
+3036,sympathique,friendly,友好的,ADJ,fr,C1,17,keep,clean
+3078,séjourner,to stay,逗留，居住,VERB,fr,C1,18,keep,clean
+3119,tacitement,tacitly,默示地,ADV,fr,C1,19,keep,clean
+3147,tartine,slice of bread,涂黄油的面包片,NOUN,fr,C1,20,keep,clean
+3150,taré,crazy / nutcase,疯子 / 变态,NOUN,fr,C1,21,keep,clean
+3251,tisane,herbal tea,花草茶,NOUN,fr,C1,22,keep,clean
+3310,traditionnel,traditional,传统的,ADJ,fr,C1,23,keep,clean
+3426,typiquement,typically,典型地,ADV,fr,C1,24,keep,clean

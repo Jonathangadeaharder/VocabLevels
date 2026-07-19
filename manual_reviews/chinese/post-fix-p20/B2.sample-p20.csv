@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-66,行为,behavior,行为,NOUN,zh,B2,1,keep,clean
-162,过分,excessive,过分,ADJ,zh,B2,2,keep,clean
-208,重复,to repeat,重复,VERB,zh,B2,3,keep,clean
-293,一下,a bit,一下,ADV,zh,B2,4,keep,clean
-533,之上,above,之上,ADP,zh,B2,5,keep,clean
-615,人民,people,人民,NOUN,zh,B2,6,keep,clean
-632,仍,still,仍,ADV,zh,B2,7,keep,clean
-670,优异,exceptional,优异,ADJ,zh,B2,8,keep,clean
-713,作,to do,作,VERB,zh,B2,9,keep,clean
-737,侦探,detective,侦探,NOUN,zh,B2,10,keep,clean
-843,全国,nationwide,全国,NOUN,zh,B2,11,keep,clean
-882,具有,to possess,具有,VERB,zh,B2,12,keep,clean
-959,分明,clearly demarcated,分明,ADJ,zh,B2,13,keep,clean
-992,别致,unique,别致,ADJ,zh,B2,14,keep,clean
-1179,取缔,to ban,取缔,VERB,zh,B2,15,keep,clean
-1224,号召,to call,号召,NOUN,zh,B2,16,keep,clean
-1318,咀嚼,chew,咀嚼,VERB,zh,B2,17,keep,clean
-1393,器官,organ,器官,NOUN,zh,B2,18,keep,clean
-1502,声势,momentum,声势,NOUN,zh,B2,19,keep,clean
-1517,夏令营,summer camp,夏令营,NOUN,zh,B2,20,keep,clean
-1552,大楼,building,大楼,NOUN,zh,B2,21,keep,clean
-1560,大道,avenue,大道,NOUN,zh,B2,22,keep,clean
-1567,天上,in the sky,天上,NOUN,zh,B2,23,keep,clean
-1604,奥秘,secret,奥秘,NOUN,zh,B2,24,keep,clean
+54,营业,to be open for business,营业,VERB,zh,B2,1,keep,clean
+68,行动,action,行动,NOUN,zh,B2,2,keep,clean
+93,记忆,memory,记忆,NOUN,zh,B2,3,keep,clean
+189,通讯,communication,通讯,NOUN,zh,B2,4,keep,clean
+205,采取,to adopt,采取,VERB,zh,B2,5,keep,clean
+253,青,green/blue,青,ADJ,zh,B2,6,keep,clean
+368,下去,go down,下去,VERB,zh,B2,7,keep,clean
+374,下班,get off work,下班,VERB,zh,B2,8,keep,clean
+397,不在乎,don't care,不在乎,VERB,zh,B2,9,keep,clean
+507,为啥,why,为啥,ADV,zh,B2,10,keep,clean
+551,乞丐,beggar,乞丐,NOUN,zh,B2,11,keep,clean
+577,事故,accident,事故,NOUN,zh,B2,12,keep,clean
+612,人手,personnel,人手,NOUN,zh,B2,13,keep,clean
+654,以往,in the past,以往,NOUN,zh,B2,14,keep,clean
+758,保重,to take care of oneself,保重,VERB,zh,B2,15,keep,clean
+1118,即,that is,即,ADV,zh,B2,16,keep,clean
+1216,可悲,pathetic,可悲,ADJ,zh,B2,17,keep,clean
+1306,周转,turnover,周转,NOUN,zh,B2,18,keep,clean
+1327,咧,grin,咧,VERB,zh,B2,19,keep,clean
+1348,哥,older brother,哥,NOUN,zh,B2,20,keep,clean
+1421,固有,inherent,固有,ADJ,zh,B2,21,keep,clean
+1562,大量,large amount,大量,NOUN,zh,B2,22,keep,clean
+1597,奔,to run,奔,VERB,zh,B2,23,keep,clean
+1605,女友,girlfriend,女友,NOUN,zh,B2,24,keep,clean

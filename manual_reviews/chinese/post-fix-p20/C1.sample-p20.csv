@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-19,媒体,media,媒体,NOUN,zh,C1,1,keep,clean
-388,忍耐,to endure,忍耐,VERB,zh,C1,2,keep,clean
-443,恩怨,gratitude and resentment; personal feud,恩怨,NOUN,zh,C1,3,keep,clean
-533,战士,warrior,战士,NOUN,zh,C1,4,keep,clean
-544,所有人,everyone,所有人,PRON,zh,C1,5,keep,clean
-835,难题,difficult problem,难题,NOUN,zh,C1,6,keep,clean
-918,难以克服,insurmountable,难以克服,ADJ,zh,C1,7,keep,clean
-940,难以满足,hard to satisfy,难以满足,ADJ,zh,C1,8,keep,clean
-1067,大案,major case,大案,NOUN,zh,C1,9,keep,clean
-1346,杏仁,almond,杏仁,NOUN,zh,C1,10,keep,clean
-1380,头痛,headache,头痛,NOUN,zh,C1,11,keep,clean
-1526,雪崩,avalanche,雪崩,NOUN,zh,C1,12,keep,clean
-1660,社会统计,social statistics,社会统计,NOUN,zh,C1,13,keep,clean
-1741,钻石,diamond,钻石,NOUN,zh,C1,14,keep,clean
-1805,皮影戏,shadow play,皮影戏,NOUN,zh,C1,15,keep,clean
-2401,顺风车,carpool,顺风车,NOUN,zh,C1,16,keep,clean
-2467,离合器,clutch,离合器,NOUN,zh,C1,17,keep,clean
-2568,致意,greet,致意,VERB,zh,C1,18,keep,clean
-2608,收货,receive,收货,VERB,zh,C1,19,keep,clean
-2647,条例,regulation,条例,NOUN,zh,C1,20,keep,clean
-2698,信义,good faith,信义,NOUN,zh,C1,21,keep,clean
-2731,水洗,wash with water,水洗,VERB,zh,C1,22,keep,clean
-2743,防锈,rust-proof,防锈,ADJ,zh,C1,23,keep,clean
-2932,警报,alarm,警报,NOUN,zh,C1,24,keep,clean
+198,峡谷,canyon,峡谷,NOUN,zh,C1,1,keep,clean
+223,巴结,to fawn on,巴结,VERB,zh,C1,2,keep,clean
+229,布局,layout,布局,NOUN,zh,C1,3,keep,clean
+241,干活,to work,干活,VERB,zh,C1,4,keep,clean
+562,范畴,category,范畴,NOUN,zh,C1,5,keep,clean
+569,层面,level,层面,NOUN,zh,C1,6,keep,clean
+589,精确,precise,精确,ADJ,zh,C1,7,keep,clean
+659,音乐厅,concert hall,音乐厅,NOUN,zh,C1,8,keep,clean
+665,娱乐中心,entertainment center,娱乐中心,NOUN,zh,C1,9,keep,clean
+1011,听证,hearing,听证,NOUN,zh,C1,10,keep,clean
+1335,哈密瓜,cantaloupe,哈密瓜,NOUN,zh,C1,11,keep,clean
+1361,淋巴,lymph,淋巴,NOUN,zh,C1,12,keep,clean
+1484,重建,rebuild,重建,VERB,zh,C1,13,keep,clean
+1705,以太坊,Ethereum,以太坊,NOUN,zh,C1,14,keep,clean
+1719,可再生能源,renewable energy,可再生能源,NOUN,zh,C1,15,keep,clean
+1790,锣,gong,锣,NOUN,zh,C1,16,keep,clean
+2303,固态硬盘,solid-state drive,固态硬盘,NOUN,zh,C1,17,keep,clean
+2309,便签,sticky note,便签,NOUN,zh,C1,18,keep,clean
+2371,风力,wind force,风力,NOUN,zh,C1,19,keep,clean
+2443,测速,speed measurement,测速,NOUN,zh,C1,20,keep,clean
+2451,车险,car insurance,车险,NOUN,zh,C1,21,keep,clean
+2800,评标,bid evaluation,评标,NOUN,zh,C1,22,keep,clean
+2928,季报,quarterly report,季报,NOUN,zh,C1,23,keep,clean
+2962,宣读,read out,宣读,VERB,zh,C1,24,keep,clean

@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-348,organe,organ,器官,NOUN,fr,A2,1,keep,clean
-353,ou,or,或者,CCONJ,fr,A2,2,keep,clean
-322,novembre,November,十一月,NOUN,fr,A2,3,keep,clean
-465,poireau,leek,韭葱,NOUN,fr,A2,4,keep,clean
-338,omelette,omelet,煎蛋卷,NOUN,fr,A2,5,keep,clean
-89,casque,helmet,头盔,NOUN,fr,A2,6,keep,clean
-86,carrière,career,职业,NOUN,fr,A2,7,keep,clean
-175,décision,decision,决定,NOUN,fr,A2,8,keep,clean
-459,plupart,most,大多数,PRON,fr,A2,9,keep,clean
-40,aucun,none,没有任何,DET,fr,A2,10,keep,clean
-373,par,by,由,ADP,fr,A2,11,keep,clean
-462,plutôt,rather,相当,ADV,fr,A2,12,keep,clean
-284,moutarde,mustard,芥末,NOUN,fr,A2,13,keep,clean
-192,expérience,experience,经验,NOUN,fr,A2,14,keep,clean
-273,merci,thank you,谢谢,INTJ,fr,A2,15,keep,clean
-341,onze,eleven,十一,NUM,fr,A2,16,keep,clean
-257,lorsque,when,当……时,SCONJ,fr,A2,17,keep,clean
-419,pensée,thought,想法,NOUN,fr,A2,18,keep,clean
-207,français,French,法语,ADJ,fr,A2,19,keep,clean
-333,occuper,to occupy,占据,VERB,fr,A2,20,keep,clean
-57,beau-père,father-in-law,岳父,NOUN,fr,A2,21,keep,clean
-337,oiseau,bird,鸟,NOUN,fr,A2,22,keep,clean
-297,neige,snow,雪,NOUN,fr,A2,23,keep,clean
+2,abricot,apricot,杏,NOUN,fr,A2,1,keep,clean
+8,addition,bill,账单,NOUN,fr,A2,2,keep,clean
+20,analyse,analysis,分析,NOUN,fr,A2,3,keep,clean
+51,balançoire,swing,秋千,NOUN,fr,A2,4,keep,clean
+97,changer,to change,改变,VERB,fr,A2,5,keep,clean
+113,clocher,bell tower,钟楼,NOUN,fr,A2,6,keep,clean
+130,confiture,jam,果酱,NOUN,fr,A2,7,keep,clean
+144,création,creation,创造,NOUN,fr,A2,8,keep,clean
+175,décision,decision,决定,NOUN,fr,A2,9,keep,clean
+176,découvrir,to discover,发现,VERB,fr,A2,10,keep,clean
+212,gilet,vest,背心,NOUN,fr,A2,11,keep,clean
+280,moquette,carpet,地毯,NOUN,fr,A2,12,keep,clean
+295,navet,turnip,芜菁,NOUN,fr,A2,13,keep,clean
+307,noir,black,黑色,ADJ,fr,A2,14,keep,clean
+388,participer,to participate,参加,VERB,fr,A2,15,keep,clean
+390,particulièrement,particularly,特别地,ADV,fr,A2,16,keep,clean
+405,patron,boss,老板,NOUN,fr,A2,17,keep,clean
+412,peindre,to paint,绘画,VERB,fr,A2,18,keep,clean
+425,personnel,staff,员工,NOUN,fr,A2,19,keep,clean
+442,piscine,swimming pool,游泳池,NOUN,fr,A2,20,keep,clean
+458,plonger,to dive,潜水,VERB,fr,A2,21,keep,clean
+506,prime,bonus,奖金,NOUN,fr,A2,22,keep,clean
+515,prochain,next,下一个,ADJ,fr,A2,23,keep,clean

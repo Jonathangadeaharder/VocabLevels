@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-28,بوابة,gate,登机口,NOUN,ar,B1,1,keep,clean
-72,فنان,artist,艺术家,NOUN,ar,B1,2,keep,clean
-98,لحن,melody,旋律,NOUN,ar,B1,3,keep,clean
-131,مرمى,goal,球门,NOUN,ar,B1,4,keep,clean
-144,فوز,victory,胜利,NOUN,ar,B1,5,keep,clean
-186,فيضان,flood,洪水,NOUN,ar,B1,6,keep,clean
-192,كوكب,planet,行星,NOUN,ar,B1,7,keep,clean
-254,طابور,queue,队列,NOUN,ar,B1,8,keep,clean
-306,منشور,post,帖子,NOUN,ar,B1,9,keep,clean
-357,صراحة,frankness,坦率,NOUN,ar,B1,10,keep,clean
-399,مُهْمِل,careless,粗心的,ADJ,ar,B1,11,keep,clean
-410,فُضُولِيّ,curious,好奇的,ADJ,ar,B1,12,keep,clean
-443,هكذا,like this,这样,ADV,ar,B1,13,keep,clean
-460,مسطرة,ruler,尺子,NOUN,ar,B1,14,keep,clean
-500,جراح,surgeon,外科医生,NOUN,ar,B1,15,keep,clean
-515,راعي,shepherd,牧羊人,NOUN,ar,B1,16,keep,clean
-533,دباغ,tanner,制革工,NOUN,ar,B1,17,keep,clean
-613,التهاب,inflammation,炎症,NOUN,ar,B1,18,keep,clean
-617,دخن,to smoke,吸烟,VERB,ar,B1,19,keep,clean
-690,وَضَّبَ,to tidy,整理,VERB,ar,B1,20,keep,clean
-709,مُوَالِف,accustomed,习惯的,ADJ,ar,B1,21,keep,clean
-775,مفلس,penniless,身无分文的,ADJ,ar,B1,22,keep,clean
-776,منحوس,unlucky,倒霉的,ADJ,ar,B1,23,keep,clean
-780,مرضعة,wet nurse,奶妈,NOUN,ar,B1,24,keep,clean
+18,غطس,diving,潜水,NOUN,ar,B1,1,keep,clean
+64,قصة,story,故事,NOUN,ar,B1,2,keep,clean
+77,ترفيه,entertainment,娱乐,NOUN,ar,B1,3,keep,clean
+112,مثير,exciting,令人兴奋的,ADJ,ar,B1,4,keep,clean
+170,تدرب,to train,训练,VERB,ar,B1,5,keep,clean
+181,تلوث,pollution,污染,NOUN,ar,B1,6,keep,clean
+218,حقل,field,田地,NOUN,ar,B1,7,keep,clean
+277,سرقة,theft,盗窃,NOUN,ar,B1,8,keep,clean
+283,بريد,mail,邮件,NOUN,ar,B1,9,keep,clean
+301,إنترنت,internet,互联网,NOUN,ar,B1,10,keep,clean
+388,مجتهد,hardworking,勤奋的,ADJ,ar,B1,11,keep,clean
+415,خَدُوم,helpful,乐于助人的,ADJ,ar,B1,12,keep,clean
+420,ناضِج,mature,成熟的,ADJ,ar,B1,13,keep,clean
+459,منحة,scholarship,奖学金,NOUN,ar,B1,14,keep,clean
+491,أجرة,wage,工资,NOUN,ar,B1,15,keep,clean
+527,نوبة,shift,轮班,NOUN,ar,B1,16,keep,clean
+563,دقيق,flour,面粉,NOUN,ar,B1,17,keep,clean
+597,نصيحة,advice,建议,NOUN,ar,B1,18,keep,clean
+648,مجتمع,society,社会,NOUN,ar,B1,19,keep,clean
+671,طبال,drummer,鼓手,NOUN,ar,B1,20,keep,clean
+735,تبليط,tiling,铺瓷砖,NOUN,ar,B1,21,keep,clean
+740,مصفاية,colander,滤锅,NOUN,ar,B1,22,keep,clean
+756,استلم,to receive payment,领取工资,VERB,ar,B1,23,keep,clean
+770,بلدي,local,本地的,ADJ,ar,B1,24,keep,clean

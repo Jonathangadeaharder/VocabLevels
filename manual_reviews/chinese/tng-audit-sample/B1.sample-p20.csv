@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-164,凡是,all,凡是,DET,zh,B1,1,keep,clean
-208,匹,classifier for horses,匹,NUM,zh,B1,2,keep,clean
-727,根,root,根,NOUN,zh,B1,3,keep,clean
-260,各自,each,各自,PRON,zh,B1,4,keep,clean
-846,玻璃,glass,玻璃,NOUN,zh,B1,5,keep,clean
-834,状态,state,状态,NOUN,zh,B1,6,keep,clean
-654,救护车,ambulance,救护车,NOUN,zh,B1,7,keep,clean
-165,凭,by means of,凭,ADP,zh,B1,8,keep,clean
-708,本科,undergraduate course,本科,NOUN,zh,B1,9,keep,clean
-572,执行,to execute,执行,VERB,zh,B1,10,keep,clean
-70,以来,since,以来,PART,zh,B1,11,keep,clean
-853,生动,vivid,生动,ADJ,zh,B1,12,keep,clean
-305,因素,factor,因素,NOUN,zh,B1,13,keep,clean
-687,是否,whether or not,是否,SCONJ,zh,B1,14,keep,clean
-278,吸收,to absorb,吸收,VERB,zh,B1,15,keep,clean
-96,何况,let alone,何况,CCONJ,zh,B1,16,keep,clean
-501,往返,to go back and forth,往返,VERB,zh,B1,17,keep,clean
-166,出口,exit,出口,NOUN,zh,B1,18,keep,clean
-217,博物馆,museum,博物馆,NOUN,zh,B1,19,keep,clean
-750,武术,martial arts,武术,NOUN,zh,B1,20,keep,clean
-867,登机牌,boarding pass,登机牌,NOUN,zh,B1,21,keep,clean
-691,晒,to dry in the sun,晒,AUX,zh,B1,22,keep,clean
-294,唉,alas,唉,INTJ,zh,B1,23,keep,clean
-696,曾经,once,曾经,ADV,zh,B1,24,keep,clean
+42,书架,bookshelf,书架,NOUN,zh,B1,1,keep,clean
+64,从事,to engage in,从事,VERB,zh,B1,2,keep,clean
+222,危害,to jeopardize; to harm,危害,VERB,zh,B1,3,keep,clean
+240,发抖,to tremble,发抖,VERB,zh,B1,4,keep,clean
+253,古老,ancient,古老,ADJ,zh,B1,5,keep,clean
+255,可怕,terrible,可怕,ADJ,zh,B1,6,keep,clean
+336,多亏,thanks to,多亏,ADP,zh,B1,7,keep,clean
+351,奋斗,to strive,奋斗,VERB,zh,B1,8,keep,clean
+403,宴会,banquet,宴会,NOUN,zh,B1,9,keep,clean
+477,建筑,to construct,建筑,VERB,zh,B1,10,keep,clean
+602,挡,to block,挡,VERB,zh,B1,11,keep,clean
+711,朴素,plain and simple,朴素,ADJ,zh,B1,12,keep,clean
+733,梳子,comb,梳子,NOUN,zh,B1,13,keep,clean
+737,概括,to summarize,概括,VERB,zh,B1,14,keep,clean
+770,注册,to register,注册,VERB,zh,B1,15,keep,clean
+809,点心,dim sum,点心,NOUN,zh,B1,16,keep,clean
+816,煤炭,coal,煤炭,NOUN,zh,B1,17,keep,clean
+842,玩具,toy,玩具,NOUN,zh,B1,18,keep,clean
+871,皇帝,emperor,皇帝,NOUN,zh,B1,19,keep,clean
+874,盖,lid,盖,NOUN,zh,B1,20,keep,clean
+927,程序,procedure,程序,NOUN,zh,B1,21,keep,clean
+935,立刻,immediately,立刻,ADV,zh,B1,22,keep,clean
+960,纪录,record,纪录,NOUN,zh,B1,23,keep,clean
+993,老板,boss,老板,NOUN,zh,B1,24,keep,clean

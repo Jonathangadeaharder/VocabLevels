@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-314,oma,grandma,奶奶,NOUN,nl,B1,1,keep,clean
-65,vuur,fire,火,NOUN,nl,B1,2,keep,clean
-242,gefeliciteerd,congratulations,恭喜,INTJ,nl,B1,3,keep,clean
-101,betrekking,relation,关系,NOUN,nl,B1,4,keep,clean
-412,stroom,current,电流,NOUN,nl,B1,5,keep,clean
-301,verzoek,request,请求,NOUN,nl,B1,6,keep,clean
-272,twintig,twenty,二十,NUM,nl,B1,7,keep,clean
-379,gezellig,cozy,舒适的,ADJ,nl,B1,8,keep,clean
-388,schuldig,guilty,有罪的,ADJ,nl,B1,9,keep,clean
-403,groeien,to grow,生长,VERB,nl,B1,10,keep,clean
-322,broek,trousers,裤子,NOUN,nl,B1,11,keep,clean
-251,tenzij,unless,除非,SCONJ,nl,B1,12,keep,clean
-188,kritiek,criticism,批评,NOUN,nl,B1,13,keep,clean
-474,allebei,both,两者都,PRON,nl,B1,14,keep,clean
-331,vergadering,meeting,会议,NOUN,nl,B1,15,keep,clean
-516,oceaan,ocean,海洋,NOUN,nl,B1,16,keep,clean
-94,tegenover,opposite,在...对面,ADP,nl,B1,17,keep,clean
-353,daarin,in it,在其中,ADV,nl,B1,18,keep,clean
-278,as,ash,灰烬,NOUN,nl,B1,19,keep,clean
-292,merk,brand,品牌,NOUN,nl,B1,20,keep,clean
-112,zulke,such,这样的,DET,nl,B1,21,keep,clean
-119,fantastisch,fantastic,极好的,ADJ,nl,B1,22,keep,clean
-205,gebruiker,user,用户,NOUN,nl,B1,23,keep,clean
-208,inzet,stake,赌注,NOUN,nl,B1,24,keep,clean
+21,rivier,river,河流,NOUN,nl,B1,1,keep,clean
+37,trouwens,by the way,顺便说一下,ADV,nl,B1,2,keep,clean
+44,groen,green,绿色的,ADJ,nl,B1,3,keep,clean
+48,reizen,to travel,旅行,VERB,nl,B1,4,keep,clean
+64,vlucht,flight,航班,NOUN,nl,B1,5,keep,clean
+67,absoluut,absolute,绝对的,ADJ,nl,B1,6,keep,clean
+76,omstandigheid,circumstance,情况,NOUN,nl,B1,7,keep,clean
+88,hiervan,of this,关于这个,ADV,nl,B1,8,keep,clean
+102,blauw,blue,蓝色的,ADJ,nl,B1,9,keep,clean
+112,zulke,such,这样的,DET,nl,B1,10,keep,clean
+165,berichten,to inform,通知,VERB,nl,B1,11,keep,clean
+197,voet,foot,脚,NOUN,nl,B1,12,keep,clean
+275,wens,wish,愿望,NOUN,nl,B1,13,keep,clean
+282,dansen,to dance,跳舞,VERB,nl,B1,14,keep,clean
+294,pad,path,小路,NOUN,nl,B1,15,keep,clean
+304,adres,address,地址,NOUN,nl,B1,16,keep,clean
+348,vis,fish,鱼,NOUN,nl,B1,17,keep,clean
+351,bepalen,to determine,决定,VERB,nl,B1,18,keep,clean
+361,golf,wave,波浪,NOUN,nl,B1,19,keep,clean
+389,taak,task,任务,NOUN,nl,B1,20,keep,clean
+408,oorspronkelijk,original,最初的,ADJ,nl,B1,21,keep,clean
+444,overig,other,其余的,ADJ,nl,B1,22,keep,clean
+471,zak,bag,袋子,NOUN,nl,B1,23,keep,clean
+491,uitzenden,to broadcast,广播,VERB,nl,B1,24,keep,clean

@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-611,irriterande,annoying,令人恼火的,ADJ,sv,C1,1,keep,clean
-930,miljontals,millions of,数百万的,NUM,sv,C1,2,keep,clean
-263,fastän,although,尽管,SCONJ,sv,C1,3,keep,clean
-353,förare,driver,司机,NOUN,sv,C1,4,keep,clean
-1100,parkering,parking,停车,NOUN,sv,C1,5,keep,clean
-1087,oväsen,noise,噪音,NOUN,sv,C1,6,keep,clean
-186,dräkt,suit,套装,NOUN,sv,C1,7,keep,clean
-1264,samtliga,all,所有,DET,sv,C1,8,keep,clean
-1502,såsom,as,如同,ADP,sv,C1,9,keep,clean
-1813,årtionde,decade,十年,NOUN,sv,C1,10,keep,clean
-928,mikrofon,microphone,麦克风,NOUN,sv,C1,11,keep,clean
-1542,tilltala,address,称呼,VERB,sv,C1,12,keep,clean
-446,grind,gate,大门,NOUN,sv,C1,13,keep,clean
-252,exemplar,copy,副本,NOUN,sv,C1,14,keep,clean
-599,intrång,intrusion,侵入,NOUN,sv,C1,15,keep,clean
-1263,samt,as well as,以及,CCONJ,sv,C1,16,keep,clean
-1030,nåja,well,好吧,INTJ,sv,C1,17,keep,clean
-1686,utpressning,blackmail,勒索,NOUN,sv,C1,18,keep,clean
-511,hurdan,what kind of,什么样的,PRON,sv,C1,19,keep,clean
-376,förlova,engage,订婚,VERB,sv,C1,20,keep,clean
-1748,vykort,postcard,明信片,NOUN,sv,C1,21,keep,clean
-986,möbel,furniture,家具,NOUN,sv,C1,22,keep,clean
-508,hugg,chop,砍,NOUN,sv,C1,23,keep,clean
-545,häråt,this way,这边,ADV,sv,C1,24,keep,clean
+48,bläck,ink,墨水,NOUN,sv,C1,1,keep,clean
+86,bruk,use,使用,NOUN,sv,C1,2,keep,clean
+105,börda,burden,负担,NOUN,sv,C1,3,keep,clean
+144,dejten,dejt,约会,NOUN,sv,C1,4,keep,clean
+185,drygt,just over,稍微超过,ADV,sv,C1,5,keep,clean
+214,döpa,baptize,施洗,VERB,sv,C1,6,keep,clean
+489,helsike,hell,地狱,NOUN,sv,C1,7,keep,clean
+490,hemlös,homeless,无家可归的,ADJ,sv,C1,8,keep,clean
+505,hotad,threatened,受威胁的,ADJ,sv,C1,9,keep,clean
+517,hycklare,hypocrite,伪君子,NOUN,sv,C1,10,keep,clean
+555,ifrågasätta,question,质疑,VERB,sv,C1,11,keep,clean
+586,inställd,cancelled/set,取消的/设定的,ADJ,sv,C1,12,keep,clean
+700,klo,claw,爪子,NOUN,sv,C1,13,keep,clean
+768,kritik,criticism,批评,NOUN,sv,C1,14,keep,clean
+843,ljust,brightly,明亮地,ADV,sv,C1,15,keep,clean
+955,motorcykel,motorcycle,摩托车,NOUN,sv,C1,16,keep,clean
+982,mätt,full,饱的,ADJ,sv,C1,17,keep,clean
+1154,psykolog,psychologist,心理学家,NOUN,sv,C1,18,keep,clean
+1155,psykologi,psychology,心理学,NOUN,sv,C1,19,keep,clean
+1303,skala,peel,剥皮,VERB,sv,C1,20,keep,clean
+1319,skippa,skip,跳过,VERB,sv,C1,21,keep,clean
+1363,smink,makeup,化妆品,NOUN,sv,C1,22,keep,clean
+1442,stängsel,fence,栅栏,NOUN,sv,C1,23,keep,clean
+1684,utomlands,abroad,在国外,ADV,sv,C1,24,keep,clean

@@ -1,120 +1,120 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-68,Doktor,doctor,医生,NOUN,de,A1,1,keep,clean
-71,drei,three,三,NUM,de,A1,2,keep,clean
-96,falsch,wrong,错误的,ADJ,de,A1,3,keep,clean
-98,finden,to find,找到,VERB,de,A1,4,keep,clean
-137,Gott,God,上帝,NOUN,de,A1,5,keep,clean
-159,ich,I,我,PRON,de,A1,6,keep,clean
-234,noch,still,还,ADV,de,A1,7,keep,clean
-238,oben,above,上面,ADV,de,A1,8,keep,clean
-263,schlafen,to sleep,睡觉,VERB,de,A1,9,keep,clean
-265,schnell,fast,快的,ADJ,de,A1,10,keep,clean
-283,sogar,even,甚至,ADV,de,A1,11,keep,clean
-318,und,and,和,CCONJ,de,A1,12,keep,clean
-324,verlassen,leave,离开,VERB,de,A1,13,keep,clean
-340,wann,when,什么时候,ADV,de,A1,14,keep,clean
-347,weiß,white,白色,ADJ,de,A1,15,keep,clean
-351,Welt,world,世界,NOUN,de,A1,16,keep,clean
-382,Tat,act,行为,NOUN,de,A1,17,keep,clean
-399,hi,hi,嗨,INTJ,de,A1,18,keep,clean
-421,gut,well,好地,ADV,de,A1,19,keep,clean
-425,Heft,notebook,笔记本,NOUN,de,A1,20,keep,clean
-482,Speise,dish,菜肴,NOUN,de,A1,21,keep,clean
-490,Zucchini,zucchini,西葫芦,NOUN,de,A1,22,keep,clean
-542,dunkelblau,dark blue,深蓝色,ADJ,de,A1,23,keep,clean
-556,Kraut,herb,草药,NOUN,de,A1,24,keep,clean
-6,anderer,other,其他的,DET,de,A2,1,keep,clean
-19,aufhören,to stop,停止,VERB,de,A2,2,keep,clean
-78,entscheiden,to decide,决定,VERB,de,A2,3,keep,clean
-86,erreichen,to reach,到达,VERB,de,A2,4,keep,clean
-104,fühlen,to feel,感觉,VERB,de,A2,5,keep,clean
-113,gegenüber,opposite,对面,ADP,de,A2,6,keep,clean
-119,gemeinsam,together,共同的,ADJ,de,A2,7,keep,clean
-125,Geschäft,shop,商店,NOUN,de,A2,8,keep,clean
-162,Klappe,mouth,嘴,NOUN,de,A2,9,keep,clean
-172,kämpfen,to fight,战斗,VERB,de,A2,10,keep,clean
-176,kümmern,to take care of,照顾,VERB,de,A2,11,keep,clean
-188,Liebling,darling,宝贝,NOUN,de,A2,12,keep,clean
-208,nachdem,after,在...之后,SCONJ,de,A2,13,keep,clean
-211,neben,next to,在...旁边,ADP,de,A2,14,keep,clean
-281,stark,strong,强壮的,ADJ,de,A2,15,keep,clean
-288,stolz,proud,骄傲的,ADJ,de,A2,16,keep,clean
-300,Tisch,table,桌子,NOUN,de,A2,17,keep,clean
-315,Verbindung,connection,连接,NOUN,de,A2,18,keep,clean
-319,verraten,to betray,背叛,VERB,de,A2,19,keep,clean
-332,vorstellen,to introduce,介绍,VERB,de,A2,20,keep,clean
-335,Wahnsinn,madness,疯狂,NOUN,de,A2,21,keep,clean
-341,weise,wise,明智的,ADJ,de,A2,22,keep,clean
-358,ziehen,to pull,拉,VERB,de,A2,23,keep,clean
-21,antworten,to answer,回答,VERB,de,B1,1,keep,clean
-34,aufstehen,to get up,起床,VERB,de,B1,2,keep,clean
+27,bei,at,在,ADP,de,A1,1,keep,clean
+28,beide,both,两者都,DET,de,A1,2,keep,clean
+47,da,there,那里,ADV,de,A1,3,keep,clean
+66,direkt,direct,直接,ADJ,de,A1,4,keep,clean
+80,einfach,easy,简单的,ADJ,de,A1,5,keep,clean
+82,Eltern,parents,父母,NOUN,de,A1,6,keep,clean
+112,früher,formerly,以前,ADV,de,A1,7,keep,clean
+152,Hilfe,help,帮助,NOUN,de,A1,8,keep,clean
+211,Menge,amount,数量,NOUN,de,A1,9,keep,clean
+212,Mensch,person,人,NOUN,de,A1,10,keep,clean
+264,schlecht,bad,坏的,ADJ,de,A1,11,keep,clean
+268,Schuld,fault,过错,NOUN,de,A1,12,keep,clean
+284,Sohn,son,儿子,NOUN,de,A1,13,keep,clean
+305,Telefon,telephone,电话,NOUN,de,A1,14,keep,clean
+331,vier,four,四,NUM,de,A1,15,keep,clean
+367,Wohnung,apartment,公寓,NOUN,de,A1,16,keep,clean
+435,Wochentag,weekday,工作日,NOUN,de,A1,17,keep,clean
+455,Bad,bathroom,浴室,NOUN,de,A1,18,keep,clean
+487,parken,to park,停车,VERB,de,A1,19,keep,clean
+497,Gelenk,joint,关节,NOUN,de,A1,20,keep,clean
+527,Zimt,cinnamon,肉桂,NOUN,de,A1,21,keep,clean
+541,Pantoffel,slipper,拖鞋,NOUN,de,A1,22,keep,clean
+566,husten,cough,咳嗽,VERB,de,A1,23,keep,clean
+571,farbig,colorful,彩色的,ADJ,de,A1,24,keep,clean
+33,Bescheid,information,消息,NOUN,de,A2,1,keep,clean
+60,Vati,daddy,爸爸,NOUN,de,A2,2,keep,clean
+73,eher,rather,宁愿,ADV,de,A2,3,keep,clean
+93,Firma,company,公司,NOUN,de,A2,4,keep,clean
+121,geschehen,to happen,发生,VERB,de,A2,5,keep,clean
+122,Geschenk,gift,礼物,NOUN,de,A2,6,keep,clean
+126,Gesellschaft,society,社会,NOUN,de,A2,7,keep,clean
+128,gesund,healthy,健康的,ADJ,de,A2,8,keep,clean
+141,heraus,out,出来,ADV,de,A2,9,keep,clean
+168,Kontrolle,control,控制,NOUN,de,A2,10,keep,clean
+170,Krankenhaus,hospital,医院,NOUN,de,A2,11,keep,clean
+181,laufen,to run,跑,VERB,de,A2,12,keep,clean
+188,Liebling,darling,宝贝,NOUN,de,A2,13,keep,clean
+232,Punkt,point,点,NOUN,de,A2,14,keep,clean
+240,Respekt,respect,尊重,NOUN,de,A2,15,keep,clean
+268,selber,oneself,自己,PRON,de,A2,16,keep,clean
+284,Stein,stone,石头,NOUN,de,A2,17,keep,clean
+285,Stelle,position,位置,NOUN,de,A2,18,keep,clean
+289,Stopp,stop,停止,NOUN,de,A2,19,keep,clean
+302,tragen,to carry,携带,VERB,de,A2,20,keep,clean
+334,Wahl,choice,选择,NOUN,de,A2,21,keep,clean
+342,welch,which,哪个,DET,de,A2,22,keep,clean
+345,willkommen,welcome,受欢迎的,ADJ,de,A2,23,keep,clean
+34,aufstehen,to get up,起床,VERB,de,B1,1,keep,clean
+48,begeistert,enthusiastic,热情的,ADJ,de,B1,2,keep,clean
 50,begraben,to bury,埋葬,VERB,de,B1,3,keep,clean
-86,dankbar,grateful,感激的,ADJ,de,B1,4,keep,clean
-122,Ei,egg,鸡蛋,NOUN,de,B1,5,keep,clean
-141,entkommen,to escape,逃跑,VERB,de,B1,6,keep,clean
-145,Erfahrung,experience,经验,NOUN,de,B1,7,keep,clean
-148,ergeben,to yield,产生,VERB,de,B1,8,keep,clean
-183,Folge,episode,集,NOUN,de,B1,9,keep,clean
-195,Gang,corridor,走廊,NOUN,de,B1,10,keep,clean
-217,gesamt,entire,全部的,ADJ,de,B1,11,keep,clean
-231,Größe,size,大小,NOUN,de,B1,12,keep,clean
-238,heim,home,回家,ADV,de,B1,13,keep,clean
-300,Krankenwagen,ambulance,救护车,NOUN,de,B1,14,keep,clean
-313,langen,to suffice / to reach,足够 / 够得着,VERB,de,B1,15,keep,clean
-335,mehrere,several,几个,DET,de,B1,16,keep,clean
-390,Presse,press,新闻界,NOUN,de,B1,17,keep,clean
-399,Publikum,audience,观众,NOUN,de,B1,18,keep,clean
-407,rechtzeitig,in time,及时的,ADJ,de,B1,19,keep,clean
-410,Regisseur,director,导演,NOUN,de,B1,20,keep,clean
-490,Stock,floor,楼层,NOUN,de,B1,21,keep,clean
-587,Wetter,weather,天气,NOUN,de,B1,22,keep,clean
-593,Wunsch,wish,愿望,NOUN,de,B1,23,keep,clean
-610,Zusage,commitment,承诺,NOUN,de,B1,24,keep,clean
-124,Autopsie,autopsy,尸检,NOUN,de,B2,1,keep,clean
-156,begehen,to commit,犯(罪),VERB,de,B2,2,keep,clean
-177,bereiten,to prepare,准备,VERB,de,B2,3,keep,clean
-190,beseitigen,to eliminate,消除,VERB,de,B2,4,keep,clean
-216,Bezahlung,payment,支付,NOUN,de,B2,5,keep,clean
-239,Botschafter,ambassador,大使,NOUN,de,B2,6,keep,clean
-266,derzeit,currently,目前,ADV,de,B2,7,keep,clean
-481,liefern,to deliver,交付,VERB,de,B2,8,keep,clean
-497,gerecht,fair,公平的,ADJ,de,B2,9,keep,clean
-501,Gerät,device,设备,NOUN,de,B2,10,keep,clean
-532,Glocke,bell,钟,NOUN,de,B2,11,keep,clean
-555,Hass,hatred,仇恨,NOUN,de,B2,12,keep,clean
-651,Kellnerin,waitress,女服务员,NOUN,de,B2,13,keep,clean
-753,Leistung,achievement,成就,NOUN,de,B2,14,keep,clean
-838,Neffe,nephew,侄子,NOUN,de,B2,15,keep,clean
-844,Niere,kidney,肾脏,NOUN,de,B2,16,keep,clean
-1006,Schluchzen,sobbing,抽泣,NOUN,de,B2,17,keep,clean
-1102,Summe,sum,总和,NOUN,de,B2,18,keep,clean
-1122,Tempo,speed,速度,NOUN,de,B2,19,keep,clean
-1134,Trinkgeld,tip,小费,NOUN,de,B2,20,keep,clean
-1152,umziehen,move,搬家,VERB,de,B2,21,keep,clean
-1159,Universum,universe,宇宙,NOUN,de,B2,22,keep,clean
-1277,weich,soft,柔软的,ADJ,de,B2,23,keep,clean
-1295,Wiederhören,goodbye (phone),再见（电话用语）,NOUN,de,B2,24,keep,clean
-180,Band,band / volume,乐队/卷,NOUN,de,C1,1,keep,clean
-192,Beamte,official,官员,NOUN,de,C1,2,keep,clean
-252,beruhen,be based on,基于,VERB,de,C1,3,keep,clean
-386,Ding,thing,事物,NOUN,de,C1,4,keep,clean
-439,äh,eh,呃,INTJ,de,C1,5,keep,clean
-498,Erinnerung,memory,记忆,NOUN,de,C1,6,keep,clean
-654,gründen,to found,建立,VERB,de,C1,7,keep,clean
-954,Kargheit,barrenness,贫瘠,NOUN,de,C1,8,keep,clean
-970,keiner,none,没有一个,DET,de,C1,9,keep,clean
-1066,Kälte,cold,寒冷,NOUN,de,C1,10,keep,clean
-1149,Maler,painter,画家,NOUN,de,C1,11,keep,clean
-1157,markieren,to mark,标记,VERB,de,C1,12,keep,clean
-1176,Menschenkenntnis,knowledge of human nature,知人之明,NOUN,de,C1,13,keep,clean
-1187,Mikrofon,microphone,麦克风,NOUN,de,C1,14,keep,clean
-1303,Perspektive,perspective,视角,NOUN,de,C1,15,keep,clean
-1314,Philosoph,philosopher,哲学家,NOUN,de,C1,16,keep,clean
-1393,Rekord,record,记录,NOUN,de,C1,17,keep,clean
-1428,Sauerstoff,oxygen,氧气,NOUN,de,C1,18,keep,clean
-1517,Smaragd,emerald,祖母绿,NOUN,de,C1,19,keep,clean
-1661,umsetzen,implement,实施,VERB,de,C1,20,keep,clean
-1722,vergeben,award,分配,VERB,de,C1,21,keep,clean
-1886,Wurm,worm,蠕虫,NOUN,de,C1,22,keep,clean
-1906,Zins,interest,利息,NOUN,de,C1,23,keep,clean
-1924,zunächst,initially,首先,ADV,de,C1,24,keep,clean
+52,Behandlung,treatment,治疗,NOUN,de,B1,4,keep,clean
+63,betrunken,drunk,醉的,ADJ,de,B1,5,keep,clean
+92,Decke,blanket,毯子,NOUN,de,B1,6,keep,clean
+110,dringend,urgent,紧急的,ADJ,de,B1,7,keep,clean
+115,dunkel,dark,黑暗的,ADJ,de,B1,8,keep,clean
+151,Erklärung,explanation,解释,NOUN,de,B1,9,keep,clean
+179,Flucht,escape,逃跑,NOUN,de,B1,10,keep,clean
+236,hassen,to hate,恨,VERB,de,B1,11,keep,clean
+244,Hexe,witch,女巫,NOUN,de,B1,12,keep,clean
+246,hinein,into,进去,ADV,de,B1,13,keep,clean
+277,Keller,basement,地下室,NOUN,de,B1,14,keep,clean
+318,leer,empty,空的,ADJ,de,B1,15,keep,clean
+376,Opfer,victim,受害者,NOUN,de,B1,16,keep,clean
+424,Ritter,knight,骑士,NOUN,de,B1,17,keep,clean
+425,Rock,skirt,裙子,NOUN,de,B1,18,keep,clean
+458,Schwert,sword,剑,NOUN,de,B1,19,keep,clean
+486,Stich,sting,刺,NOUN,de,B1,20,keep,clean
+528,unterhalten,to entertain,娱乐,VERB,de,B1,21,keep,clean
+570,Vögel,birds,鸟,NOUN,de,B1,22,keep,clean
+588,wirken,to seem,显得,VERB,de,B1,23,keep,clean
+607,Zunge,tongue,舌头,NOUN,de,B1,24,keep,clean
+67,anständig,decent,体面的,ADJ,de,B2,1,keep,clean
+130,Bahn,train,火车,NOUN,de,B2,2,keep,clean
+143,bedrohlich,threatening,威胁的,ADJ,de,B2,3,keep,clean
+202,bestimmt,certain,特定的,ADJ,de,B2,4,keep,clean
+209,Betrug,fraud,欺诈,NOUN,de,B2,5,keep,clean
+221,bezüglich,regarding,关于,ADP,de,B2,6,keep,clean
+247,Brieftasche,wallet,钱包,NOUN,de,B2,7,keep,clean
+288,Drachen,kite,风筝,NOUN,de,B2,8,keep,clean
+321,einsetzen,to deploy,部署,VERB,de,B2,9,keep,clean
+451,frühstücken,to have breakfast,吃早餐,VERB,de,B2,10,keep,clean
+514,Geste,gesture,手势,NOUN,de,B2,11,keep,clean
+523,Gewinn,profit,利润,NOUN,de,B2,12,keep,clean
+581,hinsetzen,to sit down,坐下,VERB,de,B2,13,keep,clean
+752,Leine,leash,皮带,NOUN,de,B2,14,keep,clean
+792,Melodie,melody,旋律,NOUN,de,B2,15,keep,clean
+836,Nebel,fog,雾,NOUN,de,B2,16,keep,clean
+891,Pille,pill,药丸,NOUN,de,B2,17,keep,clean
+1020,Schublade,drawer,抽屉,NOUN,de,B2,18,keep,clean
+1091,Streich,prank,恶作剧,NOUN,de,B2,19,keep,clean
+1142,typisch,typical,典型的,ADJ,de,B2,20,keep,clean
+1212,verknallt,infatuated,迷恋的,ADJ,de,B2,21,keep,clean
+1216,verlieben,to fall in love,坠入爱河,VERB,de,B2,22,keep,clean
+1256,Viertel,quarter,四分之一,NOUN,de,B2,23,keep,clean
+1325,Zentrale,headquarters,总部,NOUN,de,B2,24,keep,clean
+95,Arbeiter,worker,工人,NOUN,de,C1,1,keep,clean
+193,beantragen,to apply for,申请,VERB,de,C1,2,keep,clean
+224,Bekenntnis,confession,供认,NOUN,de,C1,3,keep,clean
+276,besteigen,to climb,攀登,VERB,de,C1,4,keep,clean
+334,brauchen,to need,需要,VERB,de,C1,5,keep,clean
+428,Durchsuchungsbefehl,search warrant,搜查令,NOUN,de,C1,6,keep,clean
+568,Ferne,distance,距离,NOUN,de,C1,7,keep,clean
+573,fetten,to grease,涂油,VERB,de,C1,8,keep,clean
+616,fußen,to be based on,基于,VERB,de,C1,9,keep,clean
+1062,Kunstgriff,artifice,诡计,NOUN,de,C1,10,keep,clean
+1107,Libelle,dragonfly,蜻蜓,NOUN,de,C1,11,keep,clean
+1164,Mechaniker,mechanic,机械师,NOUN,de,C1,12,keep,clean
+1206,mittelmäßig,mediocre,平庸的,ADJ,de,C1,13,keep,clean
+1332,Potenzial,potential,潜力,NOUN,de,C1,14,keep,clean
+1474,Schornstein,chimney,烟囱,NOUN,de,C1,15,keep,clean
+1559,starren,to stare,凝视,VERB,de,C1,16,keep,clean
+1573,streifen,to graze,擦过,VERB,de,C1,17,keep,clean
+1622,Tierarzt,veterinarian,兽医,NOUN,de,C1,18,keep,clean
+1736,verklingen,fade away,消逝,VERB,de,C1,19,keep,clean
+1778,verweigern,refuse,拒绝,VERB,de,C1,20,keep,clean
+1806,vorerst,for now,暂时,ADV,de,C1,21,keep,clean
+1873,Winkel,angle,角,NOUN,de,C1,22,keep,clean
+1887,Wurst,sausage,香肠,NOUN,de,C1,23,keep,clean
+1911,Zoll,customs,海关,NOUN,de,C1,24,keep,clean

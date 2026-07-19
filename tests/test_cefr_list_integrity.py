@@ -98,6 +98,9 @@ def test_classify_ar_lemma_hits_skeptic_class() -> None:
         ("تداريب", "NOUN", "training"),
         ("كرعين", "NOUN", "trotters"),
         ("كساب", "NOUN", "breeder"),
+        ("توحش", "VERB", "to miss someone"),
+        ("بانيو", "NOUN", "bathtub"),
+        ("زعما", "ADV", "supposedly"),
     ]
     for lemma, upos, en in samples:
         result = classify_ar_lemma(lemma, upos=upos, english=en)

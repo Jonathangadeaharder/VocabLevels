@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-935,vigilar,watch,监视,VERB,es,B1,1,keep,clean
-161,capa,layer,层,NOUN,es,B1,2,keep,clean
-12,actitud,attitude,态度,NOUN,es,B1,3,keep,clean
-599,importar,matter,重要,VERB,es,B1,4,keep,clean
-544,graduación,graduation,毕业,NOUN,es,B1,5,keep,clean
-249,condena,sentence,判决,NOUN,es,B1,6,keep,clean
-457,etiqueta,label,标签,NOUN,es,B1,7,keep,clean
-613,infeliz,unhappy,不幸的,ADJ,es,B1,8,keep,clean
-407,enhorabuena,congratulations,恭喜,INTJ,es,B1,9,keep,clean
-557,guerrero,warrior,战士,NOUN,es,B1,10,keep,clean
-389,embajador,ambassador,大使,NOUN,es,B1,11,keep,clean
-758,once,eleven,十一,NUM,es,B1,12,keep,clean
-70,aquello,that (neutral over there),那个事物,PRON,es,B1,13,keep,clean
-211,coartada,alibi,不在场证明,NOUN,es,B1,14,keep,clean
-102,atmósfera,atmosphere,气氛,NOUN,es,B1,15,keep,clean
-399,encanto,charm,魅力,NOUN,es,B1,16,keep,clean
-563,habilidad,skill,技能,NOUN,es,B1,17,keep,clean
-587,huevo,egg,鸡蛋,NOUN,es,B1,18,keep,clean
-597,impedir,prevent,阻止,VERB,es,B1,19,keep,clean
-63,apetito,appetite,食欲,NOUN,es,B1,20,keep,clean
-155,campana,bell,钟,NOUN,es,B1,21,keep,clean
-630,intercambio,exchange,交流,NOUN,es,B1,22,keep,clean
-517,gafas,glasses,眼镜,NOUN,es,B1,23,keep,clean
-580,honestamente,honestly,诚实地,ADV,es,B1,24,keep,clean
+27,agencia,agency,机构,NOUN,es,B1,1,keep,clean
+39,alerta,alert,警觉的,ADJ,es,B1,2,keep,clean
+64,aplauso,applause,掌声,NOUN,es,B1,3,keep,clean
+70,aquello,that (neutral over there),那个事物,PRON,es,B1,4,keep,clean
+72,archivo,file,文件,NOUN,es,B1,5,keep,clean
+78,arriesgado,risky,危险的,ADJ,es,B1,6,keep,clean
+87,asesinar,to murder,谋杀,VERB,es,B1,7,keep,clean
+254,confesar,to confess,承认,VERB,es,B1,8,keep,clean
+276,conversar,to converse,交谈,VERB,es,B1,9,keep,clean
+294,criar,to raise,抚养,VERB,es,B1,10,keep,clean
+305,cultura,culture,文化,NOUN,es,B1,11,keep,clean
+376,ebrio,drunk,醉的,ADJ,es,B1,12,keep,clean
+444,específico,specific,具体的,ADJ,es,B1,13,keep,clean
+492,figura,figure,人物,NOUN,es,B1,14,keep,clean
+589,humo,smoke,烟,NOUN,es,B1,15,keep,clean
+626,instinto,instinct,本能,NOUN,es,B1,16,keep,clean
+631,internacional,international,国际的,ADJ,es,B1,17,keep,clean
+674,liberación,liberation,解放,NOUN,es,B1,18,keep,clean
+722,misericordia,mercy,怜悯,NOUN,es,B1,19,keep,clean
+743,negar,to deny,否认,VERB,es,B1,20,keep,clean
+748,noviembre,November,十一月,NOUN,es,B1,21,keep,clean
+881,sombra,shadow,阴影,NOUN,es,B1,22,keep,clean
+936,violento,violent,暴力的,ADJ,es,B1,23,keep,clean
+940,voluntario,volunteer,志愿者,NOUN,es,B1,24,keep,clean

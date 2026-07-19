@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-18,了,completed-action particle,了,PART,zh,A1,1,keep,clean
-24,今天,today,今天,NOUN,zh,A1,2,keep,clean
-26,会,can / to be able to,会,AUX,zh,A1,3,keep,clean
-57,喂,hello,喂,INTJ,zh,A1,4,keep,clean
-80,小,small,小,ADJ,zh,A1,5,keep,clean
-120,猫,cat,猫,NOUN,zh,A1,6,keep,clean
-129,米饭,cooked rice,米饭,NOUN,zh,A1,7,keep,clean
-144,都,all,都,ADV,zh,A1,8,keep,clean
-175,去年,last year,去年,NOUN,zh,A1,9,keep,clean
-205,开始,to begin / to start,开始,VERB,zh,A1,10,keep,clean
-207,张,measure word (flat objects),张,NOUN,zh,A1,11,keep,clean
+46,吃,to eat,吃,VERB,zh,A1,1,keep,clean
+57,喂,hello,喂,INTJ,zh,A1,2,keep,clean
+61,回,to return,回,VERB,zh,A1,3,keep,clean
+117,爱,to love,爱,VERB,zh,A1,4,keep,clean
+130,老师,teacher,老师,NOUN,zh,A1,5,keep,clean
+141,谢谢,thank you,谢谢,INTJ,zh,A1,6,keep,clean
+189,大家,everyone,大家,PRON,zh,A1,7,keep,clean
+193,妻子,wife,妻子,NOUN,zh,A1,8,keep,clean
+197,它,it,它,PRON,zh,A1,9,keep,clean
+204,帮助,to help / assistance,帮助,VERB,zh,A1,10,keep,clean
+205,开始,to begin / to start,开始,VERB,zh,A1,11,keep,clean
 218,手机,cell phone,手机,NOUN,zh,A1,12,keep,clean
-235,正在,in the middle of (doing),正在,ADV,zh,A1,13,keep,clean
-266,觉得,to feel / to think,觉得,VERB,zh,A1,14,keep,clean
-280,进,to enter / to advance,进,VERB,zh,A1,15,keep,clean
-314,习惯,habit,习惯,NOUN,zh,A1,16,keep,clean
-340,其实,actually,其实,ADV,zh,A1,17,keep,clean
-414,当然,of course,当然,ADV,zh,A1,18,keep,clean
-459,检查,to check,检查,VERB,zh,A1,19,keep,clean
-492,疼,to hurt,疼,ADJ,zh,A1,20,keep,clean
-509,站,station,站,NOUN,zh,A1,21,keep,clean
-543,街道,street,街道,NOUN,zh,A1,22,keep,clean
-567,选择,to choose,选择,VERB,zh,A1,23,keep,clean
-591,黄,yellow,黄,ADJ,zh,A1,24,keep,clean
+336,关心,to care about,关心,VERB,zh,A1,13,keep,clean
+339,其他,other,其他,ADJ,zh,A1,14,keep,clean
+347,刚才,just now,刚才,ADV,zh,A1,15,keep,clean
+358,半,half,半,NUM,zh,A1,16,keep,clean
+470,渴,thirsty,渴,ADJ,zh,A1,17,keep,clean
+471,游戏,game,游戏,NOUN,zh,A1,18,keep,clean
+490,电梯,elevator,电梯,NOUN,zh,A1,19,keep,clean
+512,米,rice,米,NOUN,zh,A1,20,keep,clean
+535,花园,garden,花园,NOUN,zh,A1,21,keep,clean
+539,蓝,blue,蓝,ADJ,zh,A1,22,keep,clean
+574,阿姨,aunt,阿姨,NOUN,zh,A1,23,keep,clean
+586,香蕉,banana,香蕉,NOUN,zh,A1,24,keep,clean

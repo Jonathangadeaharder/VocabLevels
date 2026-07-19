@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-51,زعفران,saffron,藏红花,NOUN,ar,A2,1,keep,clean
-367,شكا,to complain,抱怨,VERB,ar,A2,2,keep,clean
-137,طابق,floor / story,楼层,NOUN,ar,A2,3,keep,clean
-457,مع,with,和,ADP,ar,A2,4,keep,clean
-20,تنزه,to stroll,散步,VERB,ar,A2,5,keep,clean
-32,سنتيم,centime,生丁,NOUN,ar,A2,6,keep,clean
-75,لبن,buttermilk,酪乳,NOUN,ar,A2,7,keep,clean
-221,شاحنة,truck,卡车,NOUN,ar,A2,8,keep,clean
-91,شحمة,lobe,耳垂,NOUN,ar,A2,9,keep,clean
-201,مطر,rain,雨,NOUN,ar,A2,10,keep,clean
-461,غير,only,只有,ADV,ar,A2,11,keep,clean
-141,جرس,bell,铃,NOUN,ar,A2,12,keep,clean
-111,طلق,to divorce,离婚,VERB,ar,A2,13,keep,clean
-456,ولا,or,或者,CCONJ,ar,A2,14,keep,clean
-46,ربع,quarter,四分之一,NOUN,ar,A2,15,keep,clean
-133,ضو,light,光/灯,NOUN,ar,A2,16,keep,clean
-251,سبورة,blackboard,黑板,NOUN,ar,A2,17,keep,clean
-460,حتى,until,直到,SCONJ,ar,A2,18,keep,clean
-264,سؤال,question,问题,NOUN,ar,A2,19,keep,clean
-443,قد,already / may (particle),已经 / 或许（助词）,PART,ar,A2,20,keep,clean
-112,حامل,pregnant,怀孕的,ADJ,ar,A2,21,keep,clean
-243,زار,to visit,访问,VERB,ar,A2,22,keep,clean
-450,حاجة,thing,东西,NOUN,ar,A2,23,keep,clean
+7,حلق,to shave,刮脸,VERB,ar,A2,1,keep,clean
+8,لبس,to wear / to get dressed,穿 / 穿衣,VERB,ar,A2,2,keep,clean
+71,سميد,semolina,粗面粉,NOUN,ar,A2,3,keep,clean
+77,نقانق,sausage,香肠,NOUN,ar,A2,4,keep,clean
+121,متزوج,married,已婚的,ADJ,ar,A2,5,keep,clean
+153,حبل,rope,绳子,NOUN,ar,A2,6,keep,clean
+155,مغرفة,ladle,长柄勺,NOUN,ar,A2,7,keep,clean
+158,شمعة,candle,蜡烛,NOUN,ar,A2,8,keep,clean
+226,سافر,to travel,旅行,VERB,ar,A2,9,keep,clean
+229,شارع,street,街道,NOUN,ar,A2,10,keep,clean
+261,عاود,to repeat,重复,VERB,ar,A2,11,keep,clean
+295,بداية,beginning,开始,NOUN,ar,A2,12,keep,clean
+302,تالي,following / next,接下来的,ADJ,ar,A2,13,keep,clean
+308,جمعة,Friday,星期五,NOUN,ar,A2,14,keep,clean
+312,رفض,to refuse,拒绝,VERB,ar,A2,15,keep,clean
+334,سخر,to mock,嘲笑,VERB,ar,A2,16,keep,clean
+398,زعفان,angry,愤怒的,ADJ,ar,A2,17,keep,clean
+400,خايف,afraid,害怕的,ADJ,ar,A2,18,keep,clean
+405,مرتاح,relaxed / comfortable,放松的 / 舒适的,ADJ,ar,A2,19,keep,clean
+411,ندم,regret,后悔,NOUN,ar,A2,20,keep,clean
+412,قلق,worry,担忧,NOUN,ar,A2,21,keep,clean
+416,عادي,normal / ordinary,正常的 / 普通的,ADJ,ar,A2,22,keep,clean
+453,ولا,or,或者,CCONJ,ar,A2,23,keep,clean

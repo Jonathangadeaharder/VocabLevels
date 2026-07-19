@@ -3,6 +3,7 @@ ar,*,إيوا,,,,drop,classifier closed dialect/loan token set
 ar,*,اتغدى,,,,drop,classifier closed dialect/loan token set
 ar,*,اتفضل,,,,drop,classifier closed dialect/loan token set
 ar,*,اتفضلي,,,,drop,classifier closed dialect/loan token set
+ar,*,اتوبيس,,,,drop,classifier closed dialect/loan token set
 ar,*,اش,,,,drop,classifier closed dialect/loan token set
 ar,*,اشنو,,,,drop,classifier closed dialect/loan token set
 ar,*,اوكي,,,,drop,classifier closed dialect/loan token set
@@ -10,6 +11,7 @@ ar,*,ايوا,,,,drop,classifier closed dialect/loan token set
 ar,*,بارطما,,,,drop,classifier closed dialect/loan token set
 ar,*,باسبور,,,,drop,classifier closed dialect/loan token set
 ar,*,باش,,,,drop,classifier closed dialect/loan token set
+ar,*,بانيو,,,,drop,classifier closed dialect/loan token set
 ar,*,برطما,,,,drop,classifier closed dialect/loan token set
 ar,*,بروفيل,,,,drop,classifier closed dialect/loan token set
 ar,*,بزاف,,,,drop,classifier closed dialect/loan token set
@@ -36,6 +38,8 @@ ar,*,تلتاش,,,,drop,classifier closed dialect/loan token set
 ar,*,تليفون,,,,drop,classifier closed dialect/loan token set
 ar,*,تمنتاش,,,,drop,classifier closed dialect/loan token set
 ar,*,تمنية,,,,drop,classifier closed dialect/loan token set
+ar,*,توحش,,,,drop,classifier closed dialect/loan token set
+ar,*,تيليفون,,,,drop,classifier closed dialect/loan token set
 ar,*,جاب,,,,drop,classifier closed dialect/loan token set
 ar,*,جابو,,,,drop,classifier closed dialect/loan token set
 ar,*,جوج,,,,drop,classifier closed dialect/loan token set
@@ -72,10 +76,12 @@ ar,*,راهي,,,,drop,classifier closed dialect/loan token set
 ar,*,ربعطاش,,,,drop,classifier closed dialect/loan token set
 ar,*,روح#VERB,,,VERB,drop,colloquial imperative روح
 ar,*,روحي,,,,drop,classifier closed dialect/loan token set
+ar,*,زعما,,,,drop,classifier closed dialect/loan token set
 ar,*,زوج,,,,drop,classifier closed dialect/loan token set
 ar,*,زوين,,,,drop,classifier closed dialect/loan token set
 ar,*,زوينة,,,,drop,classifier closed dialect/loan token set
 ar,*,سالون,,,,drop,classifier closed dialect/loan token set
+ar,*,ساندويش,,,,drop,classifier closed dialect/loan token set
 ar,*,سبعطاش,,,,drop,classifier closed dialect/loan token set
 ar,*,سبيطار,,,,drop,classifier closed dialect/loan token set
 ar,*,سطاش,,,,drop,classifier closed dialect/loan token set
@@ -90,6 +96,7 @@ ar,*,شومبر,,,,drop,classifier closed dialect/loan token set
 ar,*,شوية,,,,drop,classifier closed dialect/loan token set
 ar,*,شيشة,,,,drop,classifier closed dialect/loan token set
 ar,*,صافي,,,,drop,classifier closed dialect/loan token set
+ar,*,صندويش,,,,drop,classifier closed dialect/loan token set
 ar,*,طاح,,,,drop,classifier closed dialect/loan token set
 ar,*,طناش,,,,drop,classifier closed dialect/loan token set
 ar,*,طوموبيل,,,,drop,classifier closed dialect/loan token set
@@ -101,14 +108,12 @@ ar,*,غادي,,,,drop,classifier closed dialect/loan token set
 ar,*,غادين,,,,drop,classifier closed dialect/loan token set
 ar,*,فاليز,,,,drop,classifier closed dialect/loan token set
 ar,*,فاميلا,,,,drop,classifier closed dialect/loan token set
-ar,*,فايق,awake,,ADJ,drop,colloquial eng label residual
 ar,*,فريجيدر,,,,drop,classifier closed dialect/loan token set
 ar,*,فوقاش,,,,drop,classifier closed dialect/loan token set
 ar,*,فوقاني,,,,drop,classifier closed dialect/loan token set
 ar,*,فوقتاش,,,,drop,classifier closed dialect/loan token set
 ar,*,فيرمة,,,,drop,classifier closed dialect/loan token set
 ar,*,فين,,,,drop,classifier closed dialect/loan token set
-ar,*,فَايِق,awake,,ADJ,drop,colloquial eng label residual
 ar,*,قدام,,,,drop,classifier closed dialect/loan token set
 ar,*,قدّام,,,,drop,classifier closed dialect/loan token set
 ar,*,كارطة,,,,drop,classifier closed dialect/loan token set
@@ -126,6 +131,7 @@ ar,*,كساب,,,,drop,classifier closed dialect/loan token set
 ar,*,كمل,,,,drop,classifier closed dialect/loan token set
 ar,*,كملوا,,,,drop,classifier closed dialect/loan token set
 ar,*,كملي,,,,drop,classifier closed dialect/loan token set
+ar,*,كنبة,,,,drop,classifier closed dialect/loan token set
 ar,*,كوزينة,,,,drop,classifier closed dialect/loan token set
 ar,*,كون,,,,drop,classifier closed dialect/loan token set
 ar,*,كون#SCONJ,,,SCONJ,drop,Darija conditional كون
@@ -164,6 +170,8 @@ ar,*,واش,,,,drop,classifier closed dialect/loan token set
 ar,*,واعر,,,,drop,classifier closed dialect/loan token set
 ar,*,واعرة,,,,drop,classifier closed dialect/loan token set
 ar,*,واقيلا,,,,drop,classifier closed dialect/loan token set
+ar,*,وحشت,,,,drop,classifier closed dialect/loan token set
+ar,*,وحشتني,,,,drop,classifier closed dialect/loan token set
 ar,*,ورا,,,,drop,classifier closed dialect/loan token set
 ar,*,ياك,,,,drop,classifier closed dialect/loan token set
 ar,*,يالله,,,,drop,classifier closed dialect/loan token set

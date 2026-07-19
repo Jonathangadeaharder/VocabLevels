@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-180,Band,band / volume,乐队/卷,NOUN,de,C1,1,keep,clean
-192,Beamte,official,官员,NOUN,de,C1,2,keep,clean
-252,beruhen,be based on,基于,VERB,de,C1,3,keep,clean
-386,Ding,thing,事物,NOUN,de,C1,4,keep,clean
-439,äh,eh,呃,INTJ,de,C1,5,keep,clean
-498,Erinnerung,memory,记忆,NOUN,de,C1,6,keep,clean
-654,gründen,to found,建立,VERB,de,C1,7,keep,clean
-954,Kargheit,barrenness,贫瘠,NOUN,de,C1,8,keep,clean
-970,keiner,none,没有一个,DET,de,C1,9,keep,clean
-1066,Kälte,cold,寒冷,NOUN,de,C1,10,keep,clean
-1149,Maler,painter,画家,NOUN,de,C1,11,keep,clean
-1157,markieren,to mark,标记,VERB,de,C1,12,keep,clean
-1176,Menschenkenntnis,knowledge of human nature,知人之明,NOUN,de,C1,13,keep,clean
-1187,Mikrofon,microphone,麦克风,NOUN,de,C1,14,keep,clean
-1303,Perspektive,perspective,视角,NOUN,de,C1,15,keep,clean
-1314,Philosoph,philosopher,哲学家,NOUN,de,C1,16,keep,clean
-1393,Rekord,record,记录,NOUN,de,C1,17,keep,clean
-1428,Sauerstoff,oxygen,氧气,NOUN,de,C1,18,keep,clean
-1517,Smaragd,emerald,祖母绿,NOUN,de,C1,19,keep,clean
-1661,umsetzen,implement,实施,VERB,de,C1,20,keep,clean
-1722,vergeben,award,分配,VERB,de,C1,21,keep,clean
-1886,Wurm,worm,蠕虫,NOUN,de,C1,22,keep,clean
-1906,Zins,interest,利息,NOUN,de,C1,23,keep,clean
-1924,zunächst,initially,首先,ADV,de,C1,24,keep,clean
+95,Arbeiter,worker,工人,NOUN,de,C1,1,keep,clean
+193,beantragen,to apply for,申请,VERB,de,C1,2,keep,clean
+224,Bekenntnis,confession,供认,NOUN,de,C1,3,keep,clean
+276,besteigen,to climb,攀登,VERB,de,C1,4,keep,clean
+334,brauchen,to need,需要,VERB,de,C1,5,keep,clean
+428,Durchsuchungsbefehl,search warrant,搜查令,NOUN,de,C1,6,keep,clean
+568,Ferne,distance,距离,NOUN,de,C1,7,keep,clean
+573,fetten,to grease,涂油,VERB,de,C1,8,keep,clean
+616,fußen,to be based on,基于,VERB,de,C1,9,keep,clean
+1062,Kunstgriff,artifice,诡计,NOUN,de,C1,10,keep,clean
+1107,Libelle,dragonfly,蜻蜓,NOUN,de,C1,11,keep,clean
+1164,Mechaniker,mechanic,机械师,NOUN,de,C1,12,keep,clean
+1206,mittelmäßig,mediocre,平庸的,ADJ,de,C1,13,keep,clean
+1332,Potenzial,potential,潜力,NOUN,de,C1,14,keep,clean
+1474,Schornstein,chimney,烟囱,NOUN,de,C1,15,keep,clean
+1559,starren,to stare,凝视,VERB,de,C1,16,keep,clean
+1573,streifen,to graze,擦过,VERB,de,C1,17,keep,clean
+1622,Tierarzt,veterinarian,兽医,NOUN,de,C1,18,keep,clean
+1736,verklingen,fade away,消逝,VERB,de,C1,19,keep,clean
+1778,verweigern,refuse,拒绝,VERB,de,C1,20,keep,clean
+1806,vorerst,for now,暂时,ADV,de,C1,21,keep,clean
+1873,Winkel,angle,角,NOUN,de,C1,22,keep,clean
+1887,Wurst,sausage,香肠,NOUN,de,C1,23,keep,clean
+1911,Zoll,customs,海关,NOUN,de,C1,24,keep,clean

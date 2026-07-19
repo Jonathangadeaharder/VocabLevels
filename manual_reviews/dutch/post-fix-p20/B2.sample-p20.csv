@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-128,assistent,assistant,助手,NOUN,nl,B2,1,keep,clean
-149,revolutie,revolution,革命,NOUN,nl,B2,2,keep,clean
-203,rook,smoke,烟,NOUN,nl,B2,3,keep,clean
-251,wagen,car,汽车,NOUN,nl,B2,4,keep,clean
-264,landbouw,agriculture,农业,NOUN,nl,B2,5,keep,clean
-322,realiseren,to realize,意识到,VERB,nl,B2,6,keep,clean
-362,apart,separate,分开的,ADJ,nl,B2,7,keep,clean
-378,raden,to guess,猜,VERB,nl,B2,8,keep,clean
-436,oom,uncle,叔叔,NOUN,nl,B2,9,keep,clean
-444,verdenken,to suspect,怀疑,VERB,nl,B2,10,keep,clean
-447,vlakbij,nearby,在附近,ADV,nl,B2,11,keep,clean
-578,minimaal,minimal,最小的,ADJ,nl,B2,12,keep,clean
-593,Canadees,Canadian,加拿大的,ADJ,nl,B2,13,keep,clean
-666,binnenlands,domestic,国内的,ADJ,nl,B2,14,keep,clean
-686,petitie,petition,请愿书,NOUN,nl,B2,15,keep,clean
-799,verbaasd,surprised,惊讶的,ADJ,nl,B2,16,keep,clean
-819,klap,blow,打击,NOUN,nl,B2,17,keep,clean
-823,nieuwsbrief,newsletter,简报,NOUN,nl,B2,18,keep,clean
-889,ontvoeren,to kidnap,绑架,VERB,nl,B2,19,keep,clean
-928,Syrisch,Syrian,叙利亚的,ADJ,nl,B2,20,keep,clean
-943,beperking,limit,限制,NOUN,nl,B2,21,keep,clean
-946,duiken,to dive,潜水,VERB,nl,B2,22,keep,clean
-973,zachte,soft,柔软的,ADJ,nl,B2,23,keep,clean
-1003,schot,shot,射击,NOUN,nl,B2,24,keep,clean
+28,ploeg,team,团队,NOUN,nl,B2,1,keep,clean
+56,behandelen,to treat,对待,VERB,nl,B2,2,keep,clean
+88,instelling,institution,机构,NOUN,nl,B2,3,keep,clean
+94,onafhankelijk,independent,独立的,ADJ,nl,B2,4,keep,clean
+151,smaak,taste,味道,NOUN,nl,B2,5,keep,clean
+161,gat,hole,洞,NOUN,nl,B2,6,keep,clean
+166,lente,spring,春天,NOUN,nl,B2,7,keep,clean
+219,deels,partly,部分地,ADV,nl,B2,8,keep,clean
+236,ondersteunen,to support,支持,VERB,nl,B2,9,keep,clean
+309,zand,sand,沙子,NOUN,nl,B2,10,keep,clean
+361,aangeven,to indicate,指出,VERB,nl,B2,11,keep,clean
+409,streek,region,地区,NOUN,nl,B2,12,keep,clean
+472,naartoe,towards,向,ADP,nl,B2,13,keep,clean
+514,officier,officer,军官,NOUN,nl,B2,14,keep,clean
+520,waarover,about which,关于什么,PRON,nl,B2,15,keep,clean
+531,economisch,economic,经济的,ADJ,nl,B2,16,keep,clean
+563,binnenstad,city centre,市中心,NOUN,nl,B2,17,keep,clean
+711,informeren,to inform,通知,VERB,nl,B2,18,keep,clean
+808,bril,glasses,眼镜,NOUN,nl,B2,19,keep,clean
+945,diversiteit,diversity,多样性,NOUN,nl,B2,20,keep,clean
+983,drankje,drink,饮料,NOUN,nl,B2,21,keep,clean
+1015,bekendst,most famous,最著名的,ADJ,nl,B2,22,keep,clean
+1020,desondanks,despite,尽管如此,ADV,nl,B2,23,keep,clean
+1031,oprichting,founding,成立,NOUN,nl,B2,24,keep,clean

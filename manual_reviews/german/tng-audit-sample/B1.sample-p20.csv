@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-396,prost,cheers,干杯,INTJ,de,B1,1,keep,clean
-45,Beerdigung,funeral,葬礼,NOUN,de,B1,2,keep,clean
-92,Decke,blanket,毯子,NOUN,de,B1,3,keep,clean
-72,Braut,bride,新娘,NOUN,de,B1,4,keep,clean
-193,Frühstück,breakfast,早餐,NOUN,de,B1,5,keep,clean
-103,Dienst,service,服务,NOUN,de,B1,6,keep,clean
-104,derselbe,the same,同一个,DET,de,B1,7,keep,clean
-554,vernichten,to destroy,毁灭,VERB,de,B1,8,keep,clean
-255,Hose,trousers,裤子,NOUN,de,B1,9,keep,clean
-612,zuvor,before,之前,ADV,de,B1,10,keep,clean
-521,täglich,daily,每日的,ADJ,de,B1,11,keep,clean
-80,Bürger,citizen,公民,NOUN,de,B1,12,keep,clean
-195,Gang,corridor,走廊,NOUN,de,B1,13,keep,clean
-367,neun,nine,九,NUM,de,B1,14,keep,clean
-106,Direktor,director,主任,NOUN,de,B1,15,keep,clean
-96,dessen,whose,其,PRON,de,B1,16,keep,clean
-260,indem,by doing,通过,SCONJ,de,B1,17,keep,clean
-144,entweder,either,要么,CCONJ,de,B1,18,keep,clean
-508,Theorie,theory,理论,NOUN,de,B1,19,keep,clean
-142,entlang,along,沿着,ADP,de,B1,20,keep,clean
-403,raten,to guess,猜测,VERB,de,B1,21,keep,clean
-138,Engel,angel,天使,NOUN,de,B1,22,keep,clean
-379,Papier,paper,纸,NOUN,de,B1,23,keep,clean
-295,Kommissar,commissioner,专员,NOUN,de,B1,24,keep,clean
+34,aufstehen,to get up,起床,VERB,de,B1,1,keep,clean
+48,begeistert,enthusiastic,热情的,ADJ,de,B1,2,keep,clean
+50,begraben,to bury,埋葬,VERB,de,B1,3,keep,clean
+52,Behandlung,treatment,治疗,NOUN,de,B1,4,keep,clean
+63,betrunken,drunk,醉的,ADJ,de,B1,5,keep,clean
+92,Decke,blanket,毯子,NOUN,de,B1,6,keep,clean
+110,dringend,urgent,紧急的,ADJ,de,B1,7,keep,clean
+115,dunkel,dark,黑暗的,ADJ,de,B1,8,keep,clean
+151,Erklärung,explanation,解释,NOUN,de,B1,9,keep,clean
+179,Flucht,escape,逃跑,NOUN,de,B1,10,keep,clean
+236,hassen,to hate,恨,VERB,de,B1,11,keep,clean
+244,Hexe,witch,女巫,NOUN,de,B1,12,keep,clean
+246,hinein,into,进去,ADV,de,B1,13,keep,clean
+277,Keller,basement,地下室,NOUN,de,B1,14,keep,clean
+318,leer,empty,空的,ADJ,de,B1,15,keep,clean
+376,Opfer,victim,受害者,NOUN,de,B1,16,keep,clean
+424,Ritter,knight,骑士,NOUN,de,B1,17,keep,clean
+425,Rock,skirt,裙子,NOUN,de,B1,18,keep,clean
+458,Schwert,sword,剑,NOUN,de,B1,19,keep,clean
+486,Stich,sting,刺,NOUN,de,B1,20,keep,clean
+528,unterhalten,to entertain,娱乐,VERB,de,B1,21,keep,clean
+570,Vögel,birds,鸟,NOUN,de,B1,22,keep,clean
+588,wirken,to seem,显得,VERB,de,B1,23,keep,clean
+607,Zunge,tongue,舌头,NOUN,de,B1,24,keep,clean

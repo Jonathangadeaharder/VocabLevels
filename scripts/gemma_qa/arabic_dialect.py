@@ -106,7 +106,7 @@ _FUNC: frozenset[str] = frozenset(
         "خويا",
         "ختي",
         "واقيلا",
-        "واقيلا",
+        "زعما",  # Maghrebi/colloquial "supposedly"
         "يعني",  # only with PART handled in classify
         "كون",  # conditional only
         "لازم",  # AUX only
@@ -163,11 +163,16 @@ _LOANS: frozenset[str] = frozenset(
         "باسبور",
         "تران",
         "بروفيل",
-        "بروفيل",
         "فيرمة",
         "شيشة",
         "بيسة",
         "سالون",
+        "بانيو",  # Romance loan bathtub (not formal MSA حمام)
+        "صندويش",
+        "ساندويش",
+        "اتوبيس",
+        "كنبة",
+        "تيليفون",
     }
 )
 
@@ -215,6 +220,9 @@ _VERBS: frozenset[str] = frozenset(
         "يلا",
         "خلاص",
         "اوكي",
+        "توحش",  # Maghrebi "to miss someone" (وحشتني)
+        "وحشت",
+        "وحشتني",
     }
 )
 _VERB_ONLY: frozenset[str] = frozenset({"روح"})  # drop only if not NOUN
@@ -306,6 +314,13 @@ class ClassifyResult:
     reason: str
 
 
+def _strip_al(bare: str) -> str:
+    """Strip Arabic definite article ال for closed-set match (الكساب → كساب)."""
+    if bare.startswith("ال") and len(bare) > 3:
+        return bare[2:]
+    return bare
+
+
 def classify_ar_lemma(
     lemma: str,
     upos: str = "",
@@ -316,8 +331,11 @@ def classify_ar_lemma(
     if not lem:
         return ClassifyResult("ok", "empty")
     bare = strip_ar_diacritics(lem)
+    stem = _strip_al(bare)
     en = (english or "").strip().lower()
     up = (upos or "").strip().upper()
+    drop_set = {strip_ar_diacritics(x) for x in _TOKEN_DROP}
+    keep_set = {strip_ar_diacritics(x) for x in _MSA_KEEP}
 
     # UPOS-conditional drops first (before MSA allow short-circuit).
     if lem == "يعني" and up == "PART":
@@ -326,13 +344,16 @@ def classify_ar_lemma(
         return ClassifyResult("drop", "Darija conditional كون")
     if lem == "لازم" and up == "AUX":
         return ClassifyResult("drop", "لازم AUX Maghrebi")
-    if lem in _VERB_ONLY and up not in {"NOUN", ""}:
+    if (lem in _VERB_ONLY or bare in _VERB_ONLY or stem in _VERB_ONLY) and up not in {
+        "NOUN",
+        "",
+    }:
         return ClassifyResult("drop", "colloquial imperative روح")
 
-    if lem in _MSA_KEEP or bare in {strip_ar_diacritics(x) for x in _MSA_KEEP}:
+    if lem in _MSA_KEEP or bare in keep_set or stem in keep_set:
         return ClassifyResult("ok", "msa_allow")
 
-    if lem in _TOKEN_DROP or bare in {strip_ar_diacritics(x) for x in _TOKEN_DROP}:
+    if lem in _TOKEN_DROP or bare in drop_set or stem in drop_set:
         return ClassifyResult("drop", "closed dialect/loan token set")
 
     # b-/f- clitic on dialect stem (بشوية) — not بخير (MSA allow)

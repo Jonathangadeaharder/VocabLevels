@@ -1,3 +1,3 @@
-# tng-audit-sample spanish
+# post-fix-p20 spanish
 
-Counter({'keep': 120})
+seed `20260719:postfix-scorer-v4` n=120

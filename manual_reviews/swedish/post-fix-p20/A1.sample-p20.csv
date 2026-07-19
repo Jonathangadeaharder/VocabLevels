@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-50,börja,to start,开始,VERB,sv,A1,1,keep,clean
-59,diskmaskin,dishwasher,洗碗机,NOUN,sv,A1,2,keep,clean
-88,fisk,fish,鱼,NOUN,sv,A1,3,keep,clean
-94,flygplan,airplane,飞机,NOUN,sv,A1,4,keep,clean
-114,för,for,为了,ADP,sv,A1,5,keep,clean
-129,gräs,grass,草,NOUN,sv,A1,6,keep,clean
-145,hennes,her,她的,PRON,sv,A1,7,keep,clean
-149,hjort,deer,鹿,NOUN,sv,A1,8,keep,clean
-153,hotell,hotel,酒店,NOUN,sv,A1,9,keep,clean
-159,huvud,head,头,NOUN,sv,A1,10,keep,clean
-165,höna,hen,母鸡,NOUN,sv,A1,11,keep,clean
-201,laga,to cook,烹饪,VERB,sv,A1,12,keep,clean
-248,måndag,Monday,星期一,NOUN,sv,A1,13,keep,clean
-272,oktober,October,十月,NOUN,sv,A1,14,keep,clean
-287,restaurang,restaurant,餐厅,NOUN,sv,A1,15,keep,clean
-297,samma,same,相同的,DET,sv,A1,16,keep,clean
-329,socker,sugar,糖,NOUN,sv,A1,17,keep,clean
-365,tack,thanks,谢谢,INTJ,sv,A1,18,keep,clean
-366,tacka,to thank,感谢,VERB,sv,A1,19,keep,clean
-371,te,tea,茶,NOUN,sv,A1,20,keep,clean
-460,be,ask,请求,VERB,sv,A1,21,keep,clean
-465,bo,live,居住,VERB,sv,A1,22,keep,clean
-483,dig,you,你,PRON,sv,A1,23,keep,clean
+4,allt,everything,一切,PRON,sv,A1,1,keep,clean
+16,badrum,bathroom,浴室,NOUN,sv,A1,2,keep,clean
+37,bro,bridge,桥,NOUN,sv,A1,3,keep,clean
+83,fattig,poor,贫穷的,ADJ,sv,A1,4,keep,clean
+100,frisk,healthy,健康的,ADJ,sv,A1,5,keep,clean
+101,frukost,breakfast,早餐,NOUN,sv,A1,6,keep,clean
+118,förstå,to understand,理解,VERB,sv,A1,7,keep,clean
+197,kväll,evening,晚上,NOUN,sv,A1,8,keep,clean
+227,marknad,market,市场,NOUN,sv,A1,9,keep,clean
+262,nu,now,现在,ADV,sv,A1,10,keep,clean
+294,rädd,afraid,害怕的,ADJ,sv,A1,11,keep,clean
+298,se,see,看见,VERB,sv,A1,12,keep,clean
+313,sjutton,seventeen,十七,NUM,sv,A1,13,keep,clean
+328,snö,snow,雪,NOUN,sv,A1,14,keep,clean
+335,sova,to sleep,睡觉,VERB,sv,A1,15,keep,clean
+355,svart,black,黑色的,ADJ,sv,A1,16,keep,clean
+359,sälja,to sell,卖,VERB,sv,A1,17,keep,clean
+386,tro,to believe,相信,VERB,sv,A1,18,keep,clean
+415,vecka,week,周,NOUN,sv,A1,19,keep,clean
+446,öppna,open,打开,VERB,sv,A1,20,keep,clean
+478,denna,this,这个,DET,sv,A1,21,keep,clean
+482,detta,this,这,DET,sv,A1,22,keep,clean
+507,fara,danger,危险,NOUN,sv,A1,23,keep,clean

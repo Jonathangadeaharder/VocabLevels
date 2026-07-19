@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-19,乘坐,to ride,乘坐,VERB,zh,A2,1,keep,clean
-21,乱,messy,乱,ADJ,zh,A2,2,keep,clean
-35,代替,to replace,代替,VERB,zh,A2,3,keep,clean
-44,传真,fax,传真,NOUN,zh,A2,4,keep,clean
-46,估计,to estimate,估计,VERB,zh,A2,5,keep,clean
-74,养成,to cultivate,养成,VERB,zh,A2,6,keep,clean
-79,准时,on time,准时,ADV,zh,A2,7,keep,clean
-125,受不了,cannot bear,受不了,VERB,zh,A2,8,keep,clean
-145,呀,(particle equivalent to 啊 after a vowel),呀,PART,zh,A2,9,keep,clean
-163,场,large place used for a specific purpose,场,NOUN,zh,A2,10,keep,clean
-180,失望,disappointed,失望,ADJ,zh,A2,11,keep,clean
-203,将来,future,将来,NOUN,zh,A2,12,keep,clean
-237,得意,proud of oneself,得意,ADJ,zh,A2,13,keep,clean
-284,排列,to arrange,排列,VERB,zh,A2,14,keep,clean
+5,专业,specialty,专业,NOUN,zh,A2,1,keep,clean
+22,于是,therefore,于是,ADV,zh,A2,2,keep,clean
+34,仔细,careful,仔细,ADJ,zh,A2,3,keep,clean
+59,假,fake,假,ADJ,zh,A2,4,keep,clean
+66,入口,entrance,入口,NOUN,zh,A2,5,keep,clean
+108,却,but,却,ADV,zh,A2,6,keep,clean
+134,号码,number,号码,NOUN,zh,A2,7,keep,clean
+135,吃惊,to be surprised,吃惊,VERB,zh,A2,8,keep,clean
+149,咳嗽,to cough,咳嗽,VERB,zh,A2,9,keep,clean
+162,地球,the Earth,地球,NOUN,zh,A2,10,keep,clean
+183,好像,to seem,好像,VERB,zh,A2,11,keep,clean
+197,富,rich,富,ADJ,zh,A2,12,keep,clean
+234,往,to go (in a direction),往,VERB,zh,A2,13,keep,clean
+269,报名,to sign up,报名,VERB,zh,A2,14,keep,clean
 296,收入,income,收入,NOUN,zh,A2,15,keep,clean
-322,暂时,temporary,暂时,ADJ,zh,A2,16,keep,clean
-334,来得及,there's still time,来得及,VERB,zh,A2,17,keep,clean
-381,熟悉,familiar with,熟悉,ADJ,zh,A2,18,keep,clean
-388,猪,pig,猪,NOUN,zh,A2,19,keep,clean
-427,究竟,exactly,究竟,ADV,zh,A2,20,keep,clean
-456,网球,tennis,网球,NOUN,zh,A2,21,keep,clean
-519,赚,to earn,赚,VERB,zh,A2,22,keep,clean
-527,软,soft,软,ADJ,zh,A2,23,keep,clean
-550,重新,again,重新,ADV,zh,A2,24,keep,clean
+306,数字,number,数字,NOUN,zh,A2,16,keep,clean
+309,整理,to arrange,整理,VERB,zh,A2,17,keep,clean
+400,申请,to apply,申请,VERB,zh,A2,18,keep,clean
+420,祝贺,to congratulate,祝贺,VERB,zh,A2,19,keep,clean
+430,窄,narrow,窄,ADJ,zh,A2,20,keep,clean
+449,经历,experience,经历,NOUN,zh,A2,21,keep,clean
+491,西红柿,tomato,西红柿,NOUN,zh,A2,22,keep,clean
+557,降低,to reduce,降低,VERB,zh,A2,23,keep,clean
+583,高级,high level,高级,ADJ,zh,A2,24,keep,clean

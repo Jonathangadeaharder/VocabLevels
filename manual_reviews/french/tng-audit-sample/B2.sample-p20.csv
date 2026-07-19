@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-1495,sans,without,没有,ADP,fr,B2,1,keep,clean
-220,censure,censorship,审查,NOUN,fr,B2,2,keep,clean
-187,bureaucratie,bureaucracy,官僚主义,NOUN,fr,B2,3,keep,clean
-407,cuivre,copper,铜,NOUN,fr,B2,4,keep,clean
-818,indigène,indigenous,土著的,ADJ,fr,B2,5,keep,clean
-1033,métrage,footage,镜头长度,NOUN,fr,B2,6,keep,clean
-780,hélas,alas,唉,INTJ,fr,B2,7,keep,clean
-272,coffre,trunk,箱子,NOUN,fr,B2,8,keep,clean
-668,flanc,flank,侧面,NOUN,fr,B2,9,keep,clean
-1295,quoique,although,虽然,SCONJ,fr,B2,10,keep,clean
-1350,requalification,reskilling,再培训,NOUN,fr,B2,11,keep,clean
-811,incontestablement,incontestably,无可争议地,ADV,fr,B2,12,keep,clean
-88,appréciation,assessment,评估,NOUN,fr,B2,13,keep,clean
-1525,se,oneself,自己,PRON,fr,B2,14,keep,clean
-25,acquittement,acquittal,无罪释放,NOUN,fr,B2,15,keep,clean
-1630,son,his,他的,DET,fr,B2,16,keep,clean
-1449,résumer,to summarize,总结,VERB,fr,B2,17,keep,clean
-384,coutume,custom,习俗,NOUN,fr,B2,18,keep,clean
-695,frein,brake,刹车,NOUN,fr,B2,19,keep,clean
-201,capitalisme,capitalism,资本主义,NOUN,fr,B2,20,keep,clean
-948,manuscrit,manuscript,手稿,NOUN,fr,B2,21,keep,clean
-285,colonisation,colonization,殖民化,NOUN,fr,B2,22,keep,clean
-1652,souligner,to emphasize,强调,VERB,fr,B2,23,keep,clean
-1555,sept,seven,七,NUM,fr,B2,24,keep,clean
+104,arrêté,decree,法令,NOUN,fr,B2,1,keep,clean
+174,bordure,edge,边缘,NOUN,fr,B2,2,keep,clean
+206,carton,cardboard,纸板,NOUN,fr,B2,3,keep,clean
+267,clergé,clergy,神职人员,NOUN,fr,B2,4,keep,clean
+359,contrainte,constraint,约束,NOUN,fr,B2,5,keep,clean
+455,doubler,to double,加倍,VERB,fr,B2,6,keep,clean
+746,générosité,generosity,慷慨,NOUN,fr,B2,7,keep,clean
+794,immigré,immigrant,移民,NOUN,fr,B2,8,keep,clean
+816,indifférence,indifference,冷漠,NOUN,fr,B2,9,keep,clean
+834,ingrédient,ingredient,成分,NOUN,fr,B2,10,keep,clean
+851,insulter,to insult,侮辱,VERB,fr,B2,11,keep,clean
+873,ironie,irony,讽刺,NOUN,fr,B2,12,keep,clean
+1026,mépris,contempt,蔑视,NOUN,fr,B2,13,keep,clean
+1031,métissage,mixing,混血,NOUN,fr,B2,14,keep,clean
+1096,orchestre,orchestra,管弦乐队,NOUN,fr,B2,15,keep,clean
+1157,photosynthèse,photosynthesis,光合作用,NOUN,fr,B2,16,keep,clean
+1200,pourcentage,percentage,百分比,NOUN,fr,B2,17,keep,clean
+1330,relocalisation,reshoring,产业回流,NOUN,fr,B2,18,keep,clean
+1388,réclamer,to demand,要求,VERB,fr,B2,19,keep,clean
+1404,référendum,referendum,公民投票,NOUN,fr,B2,20,keep,clean
+1455,réussir,to succeed,成功,VERB,fr,B2,21,keep,clean
+1468,rôle,role,角色,NOUN,fr,B2,22,keep,clean
+1538,selle,saddle,马鞍,NOUN,fr,B2,23,keep,clean
+1596,situer,to locate,定位,VERB,fr,B2,24,keep,clean

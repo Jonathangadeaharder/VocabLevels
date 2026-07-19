@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-499,marchander,to haggle,讨价还价,VERB,fr,B1,1,keep,clean
-664,pré,meadow,草地,NOUN,fr,B1,2,keep,clean
-72,audimat,TV ratings,收视率,NOUN,fr,B1,3,keep,clean
-668,précision,precision,精确,NOUN,fr,B1,4,keep,clean
-531,mutuelle,mutual insurance,互助保险,NOUN,fr,B1,5,keep,clean
-698,père,father,父亲,NOUN,fr,B1,6,keep,clean
-288,démission,resignation,辞职,NOUN,fr,B1,7,keep,clean
-567,olympique,Olympic,奥林匹克的,ADJ,fr,B1,8,keep,clean
-486,luxe,luxury,奢侈,NOUN,fr,B1,9,keep,clean
-706,quand,when,当……时,SCONJ,fr,B1,10,keep,clean
-119,braguette,fly,裤门襟,NOUN,fr,B1,11,keep,clean
-239,degré,degree,程度,NOUN,fr,B1,12,keep,clean
-714,quatre,four,四,NUM,fr,B1,13,keep,clean
-717,quel,which,哪个,DET,fr,B1,14,keep,clean
-571,opéra,opera,歌剧,NOUN,fr,B1,15,keep,clean
-721,qui,who,谁,PRON,fr,B1,16,keep,clean
-171,citer,to quote,引用,VERB,fr,B1,17,keep,clean
-266,doucement,gently,轻轻地,ADV,fr,B1,18,keep,clean
-768,redevenir,to become again,重新变成,VERB,fr,B1,19,keep,clean
-416,hébergement,accommodation,住宿,NOUN,fr,B1,20,keep,clean
-700,pédale,pedal,踏板,NOUN,fr,B1,21,keep,clean
-524,morosité,gloominess,忧郁,NOUN,fr,B1,22,keep,clean
-446,investir,to invest,投资,VERB,fr,B1,23,keep,clean
-393,gland,acorn,橡子,NOUN,fr,B1,24,keep,clean
+70,attirer,to attract,吸引,VERB,fr,B1,1,keep,clean
+210,contenir,to contain,包含,VERB,fr,B1,2,keep,clean
+310,efficacité,efficiency,效率,NOUN,fr,B1,3,keep,clean
+316,engagement,commitment,承诺,NOUN,fr,B1,4,keep,clean
+341,fabrication,manufacturing,制造,NOUN,fr,B1,5,keep,clean
+355,fiscal,fiscal/tax,财政的,ADJ,fr,B1,6,keep,clean
+357,fixer,to fix/to set,固定,VERB,fr,B1,7,keep,clean
+374,frissonner,to shiver,颤抖,VERB,fr,B1,8,keep,clean
+387,gardien,guardian,守卫,NOUN,fr,B1,9,keep,clean
+388,gencive,gum,牙龈,NOUN,fr,B1,10,keep,clean
+414,hypothèse,hypothesis,假设,NOUN,fr,B1,11,keep,clean
+472,libération,liberation,解放,NOUN,fr,B1,12,keep,clean
+484,lourd,heavy,重的,ADJ,fr,B1,13,keep,clean
+495,mairie,town hall,市政厅,NOUN,fr,B1,14,keep,clean
+515,militant,activist,活动家,NOUN,fr,B1,15,keep,clean
+570,optimisme,optimism,乐观,NOUN,fr,B1,16,keep,clean
+571,opéra,opera,歌剧,NOUN,fr,B1,17,keep,clean
+575,ouvrage,work/book,著作/工程,NOUN,fr,B1,18,keep,clean
+622,potentiel,potential,潜力,NOUN,fr,B1,19,keep,clean
+731,radiographie,X-ray,X光片,NOUN,fr,B1,20,keep,clean
+749,rasoir,razor,剃刀,NOUN,fr,B1,21,keep,clean
+763,recoudre,to sew again,重缝,VERB,fr,B1,22,keep,clean
+844,ridicule,ridiculous,荒谬的,ADJ,fr,B1,23,keep,clean
+867,rougir,to blush,脸红,VERB,fr,B1,24,keep,clean

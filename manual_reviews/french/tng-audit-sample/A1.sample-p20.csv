@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-390,honneur,honor,荣誉,NOUN,fr,A1,1,keep,clean
-130,chanter,to sing,唱歌,VERB,fr,A1,2,keep,clean
-515,mouton,sheep,绵羊,NOUN,fr,A1,3,keep,clean
-80,bout,end,末端,NOUN,fr,A1,4,keep,clean
-389,homme,man,男人,NOUN,fr,A1,5,keep,clean
-410,intérieur,interior,内部,NOUN,fr,A1,6,keep,clean
-104,car,because,因为,CCONJ,fr,A1,7,keep,clean
-84,bras,arm,手臂,NOUN,fr,A1,8,keep,clean
-201,côté,side,边,NOUN,fr,A1,9,keep,clean
-19,allô,hello,喂,INTJ,fr,A1,10,keep,clean
-413,jambe,leg,腿,NOUN,fr,A1,11,keep,clean
-416,jardin,garden,花园,NOUN,fr,A1,12,keep,clean
-26,appeler,to call,呼叫,VERB,fr,A1,13,keep,clean
-217,deux,two,二,NUM,fr,A1,14,keep,clean
-87,brique,brick,砖,NOUN,fr,A1,15,keep,clean
-121,chacun,each one,每人,PRON,fr,A1,16,keep,clean
-94,bâtiment,building,建筑物,NOUN,fr,A1,17,keep,clean
-132,chaque,each,每个,DET,fr,A1,18,keep,clean
-178,contre,against,反对,ADP,fr,A1,19,keep,clean
-453,lune,moon,月亮,NOUN,fr,A1,20,keep,clean
-480,meilleur,better,更好的,ADJ,fr,A1,21,keep,clean
-37,aujourd'hui,today,今天,ADV,fr,A1,22,keep,clean
-299,extérieur,outside,外部,NOUN,fr,A1,23,keep,clean
+18,allumette,match,火柴,NOUN,fr,A1,1,keep,clean
+30,arbre,tree,树,NOUN,fr,A1,2,keep,clean
+35,assis,seated,坐着的,ADJ,fr,A1,3,keep,clean
+42,automne,autumn,秋天,NOUN,fr,A1,4,keep,clean
+62,bicyclette,bicycle,自行车,NOUN,fr,A1,5,keep,clean
+122,chair,flesh,肉,NOUN,fr,A1,6,keep,clean
+131,chapeau,hat,帽子,NOUN,fr,A1,7,keep,clean
+164,col,collar,衣领,NOUN,fr,A1,8,keep,clean
+184,cou,neck,脖子,NOUN,fr,A1,9,keep,clean
+215,dessous,underneath,在下面,ADV,fr,A1,10,keep,clean
+234,dont,whose,其,PRON,fr,A1,11,keep,clean
+236,dos,back,背,NOUN,fr,A1,12,keep,clean
+281,envoyer,to send,发送,VERB,fr,A1,13,keep,clean
+324,fond,bottom,底部,NOUN,fr,A1,14,keep,clean
+357,gomme,eraser,橡皮,NOUN,fr,A1,15,keep,clean
+367,gris,grey,灰色的,ADJ,fr,A1,16,keep,clean
+387,histoire,story,故事,NOUN,fr,A1,17,keep,clean
+396,humide,damp,潮湿的,ADJ,fr,A1,18,keep,clean
+414,jambon,ham,火腿,NOUN,fr,A1,19,keep,clean
+424,jouer,to play,玩,VERB,fr,A1,20,keep,clean
+482,mer,sea,海,NOUN,fr,A1,21,keep,clean
+490,midi,noon,中午,NOUN,fr,A1,22,keep,clean
+498,modèle,model,模型,NOUN,fr,A1,23,keep,clean

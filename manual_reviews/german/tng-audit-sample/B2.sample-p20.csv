@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-850,null,zero,零,NUM,de,B2,1,keep,clean
-936,Raumschiff,spaceship,宇宙飞船,NOUN,de,B2,2,keep,clean
-929,Rakete,rocket,火箭,NOUN,de,B2,3,keep,clean
-1220,Verlobung,engagement,订婚,NOUN,de,B2,4,keep,clean
-666,Kleinigkeit,little thing,小事,NOUN,de,B2,5,keep,clean
-735,Ladung,cargo,货物,NOUN,de,B2,6,keep,clean
-409,Feigling,coward,懦夫,NOUN,de,B2,7,keep,clean
-1204,Verhaftung,arrest,逮捕,NOUN,de,B2,8,keep,clean
-259,darunter,among them,在其中,ADV,de,B2,9,keep,clean
-911,Produkt,product,产品,NOUN,de,B2,10,keep,clean
-587,Honig,honey,蜂蜜,NOUN,de,B2,11,keep,clean
-834,nass,wet,湿的,ADJ,de,B2,12,keep,clean
-916,präsentieren,to present,展示,VERB,de,B2,13,keep,clean
-510,Geschworene,juror,陪审员,NOUN,de,B2,14,keep,clean
-706,Kostüm,costume,服装,NOUN,de,B2,15,keep,clean
-620,irgendwer,anyone,任何人,PRON,de,B2,16,keep,clean
-1038,servus,hello / bye,你好/再见,INTJ,de,B2,17,keep,clean
-407,Feier,celebration,庆祝活动,NOUN,de,B2,18,keep,clean
-1138,trotz,despite,尽管,ADP,de,B2,19,keep,clean
-1055,sowie,as well as,以及,CCONJ,de,B2,20,keep,clean
-1322,Zaun,fence,栅栏,NOUN,de,B2,21,keep,clean
-1050,sodass,so that,以便,SCONJ,de,B2,22,keep,clean
-275,diejenigen,those,那些,DET,de,B2,23,keep,clean
-524,Gewinner,winner,赢家,NOUN,de,B2,24,keep,clean
+67,anständig,decent,体面的,ADJ,de,B2,1,keep,clean
+130,Bahn,train,火车,NOUN,de,B2,2,keep,clean
+143,bedrohlich,threatening,威胁的,ADJ,de,B2,3,keep,clean
+202,bestimmt,certain,特定的,ADJ,de,B2,4,keep,clean
+209,Betrug,fraud,欺诈,NOUN,de,B2,5,keep,clean
+221,bezüglich,regarding,关于,ADP,de,B2,6,keep,clean
+247,Brieftasche,wallet,钱包,NOUN,de,B2,7,keep,clean
+288,Drachen,kite,风筝,NOUN,de,B2,8,keep,clean
+321,einsetzen,to deploy,部署,VERB,de,B2,9,keep,clean
+451,frühstücken,to have breakfast,吃早餐,VERB,de,B2,10,keep,clean
+514,Geste,gesture,手势,NOUN,de,B2,11,keep,clean
+523,Gewinn,profit,利润,NOUN,de,B2,12,keep,clean
+581,hinsetzen,to sit down,坐下,VERB,de,B2,13,keep,clean
+752,Leine,leash,皮带,NOUN,de,B2,14,keep,clean
+792,Melodie,melody,旋律,NOUN,de,B2,15,keep,clean
+836,Nebel,fog,雾,NOUN,de,B2,16,keep,clean
+891,Pille,pill,药丸,NOUN,de,B2,17,keep,clean
+1020,Schublade,drawer,抽屉,NOUN,de,B2,18,keep,clean
+1091,Streich,prank,恶作剧,NOUN,de,B2,19,keep,clean
+1142,typisch,typical,典型的,ADJ,de,B2,20,keep,clean
+1212,verknallt,infatuated,迷恋的,ADJ,de,B2,21,keep,clean
+1216,verlieben,to fall in love,坠入爱河,VERB,de,B2,22,keep,clean
+1256,Viertel,quarter,四分之一,NOUN,de,B2,23,keep,clean
+1325,Zentrale,headquarters,总部,NOUN,de,B2,24,keep,clean

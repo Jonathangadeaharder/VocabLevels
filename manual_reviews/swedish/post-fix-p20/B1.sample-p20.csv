@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-16,fira,celebrate,庆祝,VERB,sv,B1,1,keep,clean
-17,flesta,most,大多数的,ADJ,sv,B1,2,keep,clean
-23,fri,free,自由的,ADJ,sv,B1,3,keep,clean
-48,förändras,change,改变,VERB,sv,B1,4,keep,clean
-117,kontroll,control,控制,NOUN,sv,B1,5,keep,clean
-120,kraft,power,力量,NOUN,sv,B1,6,keep,clean
-122,kusin,cousin,堂兄弟,NOUN,sv,B1,7,keep,clean
-130,leda,to lead,领导/引导,VERB,sv,B1,8,keep,clean
-132,leka,to play,玩耍,VERB,sv,B1,9,keep,clean
-140,ljus,light,光,NOUN,sv,B1,10,keep,clean
-157,matt,exhausted,疲惫的,ADJ,sv,B1,11,keep,clean
-161,miljon,million,百万,NUM,sv,B1,12,keep,clean
-171,mål,goal,目标,NOUN,sv,B1,13,keep,clean
-174,möte,meeting,会议,NOUN,sv,B1,14,keep,clean
-188,oavsett,regardless,不管,ADV,sv,B1,15,keep,clean
-191,ombord,on board,在船上,ADV,sv,B1,16,keep,clean
-282,störst,biggest,最大,ADJ,sv,B1,17,keep,clean
-347,varken,neither,既不,CCONJ,sv,B1,18,keep,clean
-357,värd,worth,值得,ADJ,sv,B1,19,keep,clean
-399,andetag,breath,呼吸,NOUN,sv,B1,20,keep,clean
-410,armband,bracelet,手镯,NOUN,sv,B1,21,keep,clean
-453,baklänges,backwards,向后,ADV,sv,B1,22,keep,clean
-478,begäran,request,请求,NOUN,sv,B1,23,keep,clean
+11,farväl,farewell,告别,NOUN,sv,B1,1,keep,clean
+19,framme,arrived/present,到了,ADV,sv,B1,2,keep,clean
+20,framtid,future,未来,NOUN,sv,B1,3,keep,clean
+33,föra,bring/lead,带来/引导,VERB,sv,B1,4,keep,clean
+40,förr,before/previously,以前,ADV,sv,B1,5,keep,clean
+56,grupp,group,组,NOUN,sv,B1,6,keep,clean
+70,hindra,hinder,阻碍,VERB,sv,B1,7,keep,clean
+89,intresserad,interested,感兴趣的,ADJ,sv,B1,8,keep,clean
+108,kasta,throw,扔,VERB,sv,B1,9,keep,clean
+133,levande,alive/living,活着的,ADJ,sv,B1,10,keep,clean
+140,ljus,light,光,NOUN,sv,B1,11,keep,clean
+211,privat,private,私人的,ADJ,sv,B1,12,keep,clean
+213,prova,try,尝试,VERB,sv,B1,13,keep,clean
+221,respekt,respect,尊重,NOUN,sv,B1,14,keep,clean
+271,stackars,poor/wretched,可怜的,ADJ,sv,B1,15,keep,clean
+292,sötnos,sweetheart,亲爱的,NOUN,sv,B1,16,keep,clean
+296,testa,test,测试,VERB,sv,B1,17,keep,clean
+346,varenda,every,每一个,DET,sv,B1,18,keep,clean
+428,avfyra,fire,开火,VERB,sv,B1,19,keep,clean
+449,bakgrund,background,背景,NOUN,sv,B1,20,keep,clean
+481,behövas,be needed,被需要,VERB,sv,B1,21,keep,clean
+487,bekännelse,confession,忏悔,NOUN,sv,B1,22,keep,clean
+490,berusad,drunk,醉的,ADJ,sv,B1,23,keep,clean
