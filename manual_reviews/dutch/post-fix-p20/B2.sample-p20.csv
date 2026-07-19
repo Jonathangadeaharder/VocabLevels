@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-28,ploeg,team,团队,NOUN,nl,B2,1,keep,clean
-56,behandelen,to treat,对待,VERB,nl,B2,2,keep,clean
-88,instelling,institution,机构,NOUN,nl,B2,3,keep,clean
-94,onafhankelijk,independent,独立的,ADJ,nl,B2,4,keep,clean
-151,smaak,taste,味道,NOUN,nl,B2,5,keep,clean
-161,gat,hole,洞,NOUN,nl,B2,6,keep,clean
-166,lente,spring,春天,NOUN,nl,B2,7,keep,clean
-219,deels,partly,部分地,ADV,nl,B2,8,keep,clean
-236,ondersteunen,to support,支持,VERB,nl,B2,9,keep,clean
-309,zand,sand,沙子,NOUN,nl,B2,10,keep,clean
-361,aangeven,to indicate,指出,VERB,nl,B2,11,keep,clean
-409,streek,region,地区,NOUN,nl,B2,12,keep,clean
-472,naartoe,towards,向,ADP,nl,B2,13,keep,clean
-514,officier,officer,军官,NOUN,nl,B2,14,keep,clean
-520,waarover,about which,关于什么,PRON,nl,B2,15,keep,clean
-531,economisch,economic,经济的,ADJ,nl,B2,16,keep,clean
-563,binnenstad,city centre,市中心,NOUN,nl,B2,17,keep,clean
-711,informeren,to inform,通知,VERB,nl,B2,18,keep,clean
-808,bril,glasses,眼镜,NOUN,nl,B2,19,keep,clean
-945,diversiteit,diversity,多样性,NOUN,nl,B2,20,keep,clean
-983,drankje,drink,饮料,NOUN,nl,B2,21,keep,clean
-1015,bekendst,most famous,最著名的,ADJ,nl,B2,22,keep,clean
-1020,desondanks,despite,尽管如此,ADV,nl,B2,23,keep,clean
-1031,oprichting,founding,成立,NOUN,nl,B2,24,keep,clean
+40,benieuwd,curious,好奇的,ADJ,nl,B2,1,keep,clean
+42,buur,neighbor,邻居,NOUN,nl,B2,2,keep,clean
+51,netjes,neatly,整洁地,ADV,nl,B2,3,keep,clean
+79,aanslag,tax rate,税率,NOUN,nl,B2,4,keep,clean
+82,beker,cup,杯子,NOUN,nl,B2,5,keep,clean
+97,tentoonstelling,exhibition,展览,NOUN,nl,B2,6,keep,clean
+109,komst,arrival,到来,NOUN,nl,B2,7,keep,clean
+182,ach,oh well,唉,INTJ,nl,B2,8,keep,clean
+238,opa,grandpa,爷爷,NOUN,nl,B2,9,keep,clean
+350,sporten,to play sports,做运动,VERB,nl,B2,10,keep,clean
+380,sleutel,key,钥匙,NOUN,nl,B2,11,keep,clean
+429,figuur,figure,人物,NOUN,nl,B2,12,keep,clean
+494,uniek,unique,独特的,ADJ,nl,B2,13,keep,clean
+552,verblijf,stay,停留,NOUN,nl,B2,14,keep,clean
+566,doorheen,through,穿过,ADP,nl,B2,15,keep,clean
+613,Pools,Polish,波兰的,ADJ,nl,B2,16,keep,clean
+668,dijk,dike,堤坝,NOUN,nl,B2,17,keep,clean
+689,stimuleren,to stimulate,刺激,VERB,nl,B2,18,keep,clean
+695,beschadigen,to damage,损坏,VERB,nl,B2,19,keep,clean
+720,stijging,increase,增加,NOUN,nl,B2,20,keep,clean
+722,tempo,pace,节奏,NOUN,nl,B2,21,keep,clean
+859,nieuwsgierig,curious,好奇的,ADJ,nl,B2,22,keep,clean
+896,traject,trajectory,轨迹,NOUN,nl,B2,23,keep,clean
+1032,overval,raid,突袭,NOUN,nl,B2,24,keep,clean

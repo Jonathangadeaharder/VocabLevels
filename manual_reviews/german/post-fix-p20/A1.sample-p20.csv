@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-27,bei,at,在,ADP,de,A1,1,keep,clean
-28,beide,both,两者都,DET,de,A1,2,keep,clean
-47,da,there,那里,ADV,de,A1,3,keep,clean
-66,direkt,direct,直接,ADJ,de,A1,4,keep,clean
-80,einfach,easy,简单的,ADJ,de,A1,5,keep,clean
-82,Eltern,parents,父母,NOUN,de,A1,6,keep,clean
-112,früher,formerly,以前,ADV,de,A1,7,keep,clean
-152,Hilfe,help,帮助,NOUN,de,A1,8,keep,clean
-211,Menge,amount,数量,NOUN,de,A1,9,keep,clean
-212,Mensch,person,人,NOUN,de,A1,10,keep,clean
-264,schlecht,bad,坏的,ADJ,de,A1,11,keep,clean
-268,Schuld,fault,过错,NOUN,de,A1,12,keep,clean
-284,Sohn,son,儿子,NOUN,de,A1,13,keep,clean
-305,Telefon,telephone,电话,NOUN,de,A1,14,keep,clean
-331,vier,four,四,NUM,de,A1,15,keep,clean
-367,Wohnung,apartment,公寓,NOUN,de,A1,16,keep,clean
-435,Wochentag,weekday,工作日,NOUN,de,A1,17,keep,clean
-455,Bad,bathroom,浴室,NOUN,de,A1,18,keep,clean
-487,parken,to park,停车,VERB,de,A1,19,keep,clean
-497,Gelenk,joint,关节,NOUN,de,A1,20,keep,clean
-527,Zimt,cinnamon,肉桂,NOUN,de,A1,21,keep,clean
-541,Pantoffel,slipper,拖鞋,NOUN,de,A1,22,keep,clean
-566,husten,cough,咳嗽,VERB,de,A1,23,keep,clean
-571,farbig,colorful,彩色的,ADJ,de,A1,24,keep,clean
+13,an,at / on,在 / 靠近,ADP,de,A1,1,keep,clean
+62,denn,because,因为,CCONJ,de,A1,2,keep,clean
+67,doch,but,然而,ADV,de,A1,3,keep,clean
+131,tun,to do,做,VERB,de,A1,4,keep,clean
+178,kennen,to know,认识,VERB,de,A1,5,keep,clean
+247,Pass,passport,护照,NOUN,de,A1,6,keep,clean
+309,toll,great,太棒的,ADJ,de,A1,7,keep,clean
+319,unser,our,我们的,DET,de,A1,8,keep,clean
+342,warum,why,为什么,ADV,de,A1,9,keep,clean
+352,wenig,little,少,DET,de,A1,10,keep,clean
+410,Recht,right,权利,NOUN,de,A1,11,keep,clean
+412,Stand,status,地位,NOUN,de,A1,12,keep,clean
+442,windig,windy,有风的,ADJ,de,A1,13,keep,clean
+462,Erdbeere,strawberry,草莓,NOUN,de,A1,14,keep,clean
+463,Haustür,front door,正门,NOUN,de,A1,15,keep,clean
+477,Passagier,passenger,乘客,NOUN,de,A1,16,keep,clean
+508,drucken,print,打印,VERB,de,A1,17,keep,clean
+510,Pate,godfather,教父,NOUN,de,A1,18,keep,clean
+511,mager,lean,瘦的,ADJ,de,A1,19,keep,clean
+518,munter,awake,清醒的,ADJ,de,A1,20,keep,clean
+536,lila,purple,紫色,ADJ,de,A1,21,keep,clean
+537,Umhang,cloak,斗篷,NOUN,de,A1,22,keep,clean
+546,pfeifen,to whistle,吹口哨,VERB,de,A1,23,keep,clean
+569,Beere,berry,莓果,NOUN,de,A1,24,keep,clean

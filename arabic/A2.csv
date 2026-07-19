@@ -29,7 +29,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 استلف,to lend / to borrow,借出 / 借入,VERB
 ائتمان,credit,信用,NOUN
 ريال,rial,里亚尔,NOUN
-سنتيم,centime,生丁,NOUN
 شيك,cheque,支票,NOUN
 مكان,place,地方,NOUN
 رخص,to get cheaper,变便宜,VERB
@@ -47,7 +46,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 دين,debt,债务,NOUN
 صندوق,cash register,收银机,NOUN
 ساحة,square,广场,NOUN
-شباكية,chebakia,舍巴基亚糕点,NOUN
 زعفران,saffron,藏红花,NOUN
 قرفة,cinnamon,肉桂,NOUN
 فلفل,pepper,胡椒,NOUN
@@ -97,10 +95,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قنينة,bottle,瓶子,NOUN
 طبق,dish,盘子,NOUN
 فجل,radish,萝卜,NOUN
-كرموس,fig,无花果,NOUN
-هندية,prickly pear,仙人掌果,NOUN
 شهية,appetite,食欲,NOUN
-ريحة,smell,气味,NOUN
 نسيب,in-law,姻亲,NOUN
 حموة,mother-in-law,婆婆,NOUN
 عريس,groom,新郎,NOUN
@@ -122,16 +117,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حفيد,grandchild,孙子/孙女,NOUN
 عيلة,family,家庭,NOUN
 هدية,gift,礼物,NOUN
-صالون,living room,客厅,NOUN
 سقف,ceiling,天花板,NOUN
-حيط,wall,墙,NOUN
 خزانة,cupboard / wardrobe,柜子/衣柜,NOUN
 رف,shelf,架子,NOUN
-دروج,stairs,楼梯,NOUN
 سطح,roof / terrace,屋顶/露台,NOUN
 ريدو,curtain,窗帘,NOUN
-ضو,light,光/灯,NOUN
-شوفاج,heater,加热器,NOUN
 راديو,radio,收音机,NOUN
 عمارة,building,大楼/公寓楼,NOUN
 طابق,floor / story,楼层,NOUN
@@ -141,7 +131,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جرس,bell,铃,NOUN
 بطانية,blanket,毯子,NOUN
 زليج,zellige / tiles,马赛克瓷砖,NOUN
-روبيني,faucet / tap,水龙头,NOUN
 طاقة,small window,小窗,NOUN
 حوش,courtyard,院子,NOUN
 سور,wall / fence,墙/围墙,NOUN
@@ -158,8 +147,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 شمعة,candle,蜡烛,NOUN
 علبة,box / can,盒子 / 罐,NOUN
 خيمة,tent,帐篷,NOUN
-بيجامة,pajamas,睡衣,NOUN
-شبشب,slippers,拖鞋,NOUN
 وشاح,scarf,围巾,NOUN
 ملابس,clothes,衣服,NOUN
 قياس,size / measure,尺寸 / 测量,NOUN
@@ -213,10 +200,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 غبار,dust,灰尘,NOUN
 برودة,coldness,寒冷,NOUN
 دراجة,bicycle,自行车,NOUN
-ترام,tram,有轨电车,NOUN
 قارب,boat,小船,NOUN
 بنزين,gasoline,汽油,NOUN
-مازوت,diesel,柴油,NOUN
 شاحنة,truck,卡车,NOUN
 مدخل,entrance,入口,NOUN
 مخرج,exit,出口,NOUN
@@ -258,7 +243,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مستوى,level,水平 / 级别,NOUN
 نجح,to succeed / to pass,成功 / 及格,VERB
 حفظ,to memorize,记忆 / 背诵,VERB
-عاود,to repeat,重复,VERB
 شرح,to explain,解释,VERB
 سؤال,question,问题,NOUN
 جواب,answer,回答,NOUN
@@ -344,7 +328,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ضيع,to lose,丢失,VERB
 ربط,to tie,系,VERB
 انتهى,to finish,结束,VERB
-خوى,to empty,变空,VERB
 لحق,to catch up,赶上,VERB
 فات,to pass,经过,VERB
 صب,to pour,倒,VERB
@@ -395,10 +378,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 نفخ,to inflate / to blow,充气 / 吹,VERB
 حك,to scratch / to rub,抓 / 摩擦,VERB
 حزين,sad,悲伤的,ADJ
-زعفان,angry,愤怒的,ADJ
 معصب,tense / angry,紧张的 / 愤怒的,ADJ
-خايف,afraid,害怕的,ADJ
-بردان,feeling cold,感觉冷的,ADJ
 شبعان,full / satiated,饱的,ADJ
 مشغول,busy,忙碌的,ADJ
 موجود,present / available,存在的 / 可获得的,ADJ

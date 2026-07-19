@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-95,Arbeiter,worker,工人,NOUN,de,C1,1,keep,clean
-193,beantragen,to apply for,申请,VERB,de,C1,2,keep,clean
-224,Bekenntnis,confession,供认,NOUN,de,C1,3,keep,clean
-276,besteigen,to climb,攀登,VERB,de,C1,4,keep,clean
-334,brauchen,to need,需要,VERB,de,C1,5,keep,clean
-428,Durchsuchungsbefehl,search warrant,搜查令,NOUN,de,C1,6,keep,clean
-568,Ferne,distance,距离,NOUN,de,C1,7,keep,clean
-573,fetten,to grease,涂油,VERB,de,C1,8,keep,clean
-616,fußen,to be based on,基于,VERB,de,C1,9,keep,clean
-1062,Kunstgriff,artifice,诡计,NOUN,de,C1,10,keep,clean
-1107,Libelle,dragonfly,蜻蜓,NOUN,de,C1,11,keep,clean
-1164,Mechaniker,mechanic,机械师,NOUN,de,C1,12,keep,clean
-1206,mittelmäßig,mediocre,平庸的,ADJ,de,C1,13,keep,clean
-1332,Potenzial,potential,潜力,NOUN,de,C1,14,keep,clean
-1474,Schornstein,chimney,烟囱,NOUN,de,C1,15,keep,clean
-1559,starren,to stare,凝视,VERB,de,C1,16,keep,clean
-1573,streifen,to graze,擦过,VERB,de,C1,17,keep,clean
-1622,Tierarzt,veterinarian,兽医,NOUN,de,C1,18,keep,clean
-1736,verklingen,fade away,消逝,VERB,de,C1,19,keep,clean
-1778,verweigern,refuse,拒绝,VERB,de,C1,20,keep,clean
-1806,vorerst,for now,暂时,ADV,de,C1,21,keep,clean
-1873,Winkel,angle,角,NOUN,de,C1,22,keep,clean
-1887,Wurst,sausage,香肠,NOUN,de,C1,23,keep,clean
-1911,Zoll,customs,海关,NOUN,de,C1,24,keep,clean
+51,Anfänger,beginner,初学者,NOUN,de,C1,1,keep,clean
+65,angesichts,in view of,鉴于,ADP,de,C1,2,keep,clean
+310,billigen,to approve,批准,VERB,de,C1,3,keep,clean
+422,Dummheiten,stupid things,蠢事,NOUN,de,C1,4,keep,clean
+675,Gelächter,laughter,笑声,NOUN,de,C1,5,keep,clean
+691,gerannt,ran,跑,ADJ,de,C1,6,keep,clean
+714,gestalten,to design,设计,VERB,de,C1,7,keep,clean
+779,Hau,blow,打击,NOUN,de,C1,8,keep,clean
+801,Herausforderung,challenge,挑战,NOUN,de,C1,9,keep,clean
+869,Häuptling,chieftain,酋长,NOUN,de,C1,10,keep,clean
+879,Imperium,empire,帝国,NOUN,de,C1,11,keep,clean
+892,Insekt,insect,昆虫,NOUN,de,C1,12,keep,clean
+1045,Krach,crash / bang,巨响 / 碰撞声,NOUN,de,C1,13,keep,clean
+1085,langweilen,to bore,使厌倦,VERB,de,C1,14,keep,clean
+1135,läuten,to ring,鸣响,VERB,de,C1,15,keep,clean
+1407,Rumpf,fuselage,机身,NOUN,de,C1,16,keep,clean
+1420,rühren,to stir,搅拌,VERB,de,C1,17,keep,clean
+1426,Sandsturm,sandstorm,沙尘暴,NOUN,de,C1,18,keep,clean
+1520,sogenannt,so-called,所谓的,ADJ,de,C1,19,keep,clean
+1539,Spezialist,specialist,专家,NOUN,de,C1,20,keep,clean
+1650,Türklingel,doorbell,门铃,NOUN,de,C1,21,keep,clean
+1757,Verschluss,closure,关闭,NOUN,de,C1,22,keep,clean
+1780,verwunden,wound,使受伤,VERB,de,C1,23,keep,clean
+1833,Wecker,alarm clock,闹钟,NOUN,de,C1,24,keep,clean

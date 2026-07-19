@@ -74,6 +74,9 @@ _FUNC: frozenset[str] = frozenset(
         "ياك",
         "إيوا",
         "ايوا",
+        "إييه",  # Maghrebi yes
+        "اييه",
+
         "ديال",
         "ديالي",
         "ديالك",
@@ -107,6 +110,10 @@ _FUNC: frozenset[str] = frozenset(
         "ختي",
         "واقيلا",
         "زعما",  # Maghrebi/colloquial "supposedly"
+        "إمتا",  # Maghrebi when (MSA متى)
+        "امتا",
+        "دغيا",  # Maghrebi quickly
+        "بزربة",  # Maghrebi in a hurry
         "يعني",  # only with PART handled in classify
         "كون",  # conditional only
         "لازم",  # AUX only
@@ -124,6 +131,7 @@ _NUMERALS: frozenset[str] = frozenset(
         "تمنية",
         "تسعود",
         "حداش",
+        "حدش",  # eleven (Maghrebi)
         "طناش",
         "تلتاش",
         "ربعطاش",
@@ -132,6 +140,11 @@ _NUMERALS: frozenset[str] = frozenset(
         "سبعطاش",
         "تمنتاش",
         "تسعطاش",
+        "تمانية",  # eight (Maghrebi; MSA ثمانية)
+        "تمانين",  # eighty
+        "تمنطاش",  # eighteen
+        "تمنطاش",
+        "تسعود",
     }
 )
 
@@ -173,6 +186,44 @@ _LOANS: frozenset[str] = frozenset(
         "اتوبيس",
         "كنبة",
         "تيليفون",
+        "شوفاج",  # FR chauffage (heater) — Maghrebi
+        "دبلوم",  # FR diplôme (MSA شهادة)
+        "دبلومة",
+        "دِبْلوم",
+        "دَبْلوم",
+        "تاكسي",  # taxi loan
+        "طاكسي",
+        "كونيكسيون",  # FR connexion
+        "كونكسيون",
+        "مايكة",  # Maghrebi plastic bag (MSA كيس)
+        "مايكا",
+        "جمركة",  # Maghrebi admin for customs clearance (MSA تخليص جمركي)
+        "سنتيم",  # FR centime
+        "ستوري",  # EN story (social)
+        "فرملة",  # FR frein brake
+        "تلفزة",  # Maghrebi television
+        "تلفازة",
+        "ترام",  # tram loan
+        "ستاج",  # FR stage internship
+        "ستاجير",
+        "مارطو",  # FR marteau hammer (MSA مطرقة)
+        "ريبرتوار",  # FR répertoire
+        "صالون",  # FR salon living room
+        "روبيني",  # FR robinet faucet
+        "بيجامة",  # FR pyjama
+        "بيجاما",
+        "كالامار",  # FR calamar squid
+        "ترامواي",  # FR tramway
+        "ديبلوم",  # FR diplôme variant
+        "شبشب",  # colloquial slippers (MSA خف)
+        "كابتن",  # EN captain (MSA قبطان)
+        "مازوت",  # FR mazout diesel
+        "لوجستيك",  # FR logistique
+        "أتاي",  # Maghrebi tea (MSA شاي)
+        "اتاي",
+        "كورجيت",  # FR courgette
+        "كُورْجِيت",
+        "ريجيم",  # FR régime diet
     }
 )
 
@@ -193,6 +244,36 @@ _ADJ: frozenset[str] = frozenset(
         "خايبة",
         "واعر",
         "واعرة",
+        "زعفان",  # Maghrebi angry (MSA غاضب)
+        "زعفانة",
+        "خايف",  # colloquial afraid (MSA خائف)
+        "خايفة",
+        "خايفين",
+        "خدوم",  # Maghrebi intensive "helpful"
+        "خَدُوم",
+        "خدوما",
+        "مرمد",
+        "مرمدة",
+        "خاوي",  # Maghrebi empty (MSA فارغ/خاوٍ)
+        "خاوية",
+        "مقرقب",  # Maghrebi crunchy
+        "مُقَرْقَب",
+        "مسوس",  # Maghrebi tasteless
+        "مَسُوس",
+        "هانئة",  # Maghrebi fine/no problem (discourse)
+        "هانئ",
+        "ناشف",  # Maghrebi dry (MSA جاف)
+        "ناشفة",
+        "مزروب",  # Maghrebi in a hurry
+        "مَزْرُوب",
+        "محشوم",  # Maghrebi modest
+        "مَحْشُوم",
+        "مبلول",  # Maghrebi wet
+        "مَبْلُول",
+        "تقيل",  # Maghrebi heavy (MSA ثقيل)
+        "بردان",  # Maghrebi feeling cold
+        "بردانة",
+        "زاهي",  # Maghrebi vivid/bright
     }
 )
 
@@ -223,6 +304,31 @@ _VERBS: frozenset[str] = frozenset(
         "توحش",  # Maghrebi "to miss someone" (وحشتني)
         "وحشت",
         "وحشتني",
+        "عاود",  # Maghrebi "repeat" (MSA أعاد)
+        "عاودت",
+        "عاودي",
+        "عاودوا",
+        "زعف",  # Maghrebi "get angry"
+        "تزعف",
+        "مخط",  # Maghrebi "blow the nose" (MSA تمخط)
+        "تمخط",
+        "خربق",  # Maghrebi mess up
+        "خربقة",
+        "لزق",  # Maghrebi stick (MSA لصق)
+        "جاوب",  # Maghrebi answer (MSA أجاب)
+        "جاوبي",
+        "جاوبوا",
+        "وضب",  # Maghrebi tidy
+        "وَضَّبَ",
+        "وضبت",
+        "دلل",  # Maghrebi spoil a child
+        "خوى",  # Maghrebi empty
+        "بغى",  # Maghrebi want (MSA أراد)
+        "بغي",
+        "تصنط",  # Maghrebi eavesdrop
+        "تَصَنَّطَ",
+        "شاف",  # Maghrebi see (MSA رأى)
+        "شوف",  # already may exist
     }
 )
 _VERB_ONLY: frozenset[str] = frozenset({"روح"})  # drop only if not NOUN
@@ -244,6 +350,38 @@ _NOUNS: frozenset[str] = frozenset(
         "ورا",
         "فوقاني",
         "تحتاني",
+        "جلبانة",  # Maghrebi peas (MSA بازلاء)
+        "جلبان",
+        "قمرون",  # Maghrebi shrimp (MSA روبيان/جمبري)
+        "قمرونة",
+        "ضو",  # Maghrebi light (MSA ضوء)
+        "تقشاب",  # Maghrebi joking
+        "تقشابة",
+        "شباكية",  # Maghrebi pastry
+        "مسمن",
+        "مُسَمَّن",
+        "ملوي",
+        "حرشة",
+        "بغرير",
+        "حيط",  # Maghrebi wall (MSA حائط)
+        "بوز",  # FR/Maghrebi buzz (not MSA)
+        "تقاشر",  # Maghrebi socks (MSA جوارب)
+        "كولة",  # Maghrebi glue (MSA صمغ)
+        "آزير",  # Maghrebi rosemary
+        "ازير",
+        "كرموس",  # Maghrebi fig
+        "هندية",  # Maghrebi prickly pear (when eng=prickly pear — still drop token)
+        "نفار",  # Maghrebi festival trumpet
+        "جبصية",  # Maghrebi carved plaster (MSA جص)
+        "بالي",  # Maghrebi worn out
+        "برمة",  # Maghrebi cooking pot
+        "ريحة",  # Maghrebi smell (MSA رائحة)
+        "دروج",  # Maghrebi stairs (MSA درج)
+        "طنجية",  # Maghrebi stew dish
+        "فقاص",  # Maghrebi cookie
+        "تحيين",  # Maghrebi updating (MSA تحديث)
+        "طيفور",  # Maghrebi low round table
+        "كيسان",  # Maghrebi tea glasses (dual sense)
     }
 )
 
@@ -391,6 +529,14 @@ def classify_ar_lemma(
     if "colloquial" in en or "dialect" in en or "عامي" in en:
         if lem not in _MSA_KEEP:
             return ClassifyResult("policy", "eng labels colloquial/dialect")
+
+    # Ambiguous MSA surface with Maghrebi sense in eng gloss.
+    if bare == "سحاب" and "zipper" in en:
+        return ClassifyResult("drop", "Maghrebi zipper (MSA سحاب=cloud)")
+    if bare == "عمر" and en.strip() in {"never", "not ever"}:
+        return ClassifyResult("drop", "Maghrebi never (MSA أبداً)")
+    if bare in {"معمر", "مُعَمَّر"} and en.strip() in {"full", "stuffed"}:
+        return ClassifyResult("drop", "Maghrebi full/sated")
 
     return ClassifyResult("ok", "msa_or_unmarked")
 

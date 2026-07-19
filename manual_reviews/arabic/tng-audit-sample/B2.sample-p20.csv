@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-58,حدث,to happen,发生,VERB,ar,B2,1,keep,clean
-78,سلمي,peaceful,和平的,ADJ,ar,B2,2,keep,clean
-231,أرباح,profits,利润,NOUN,ar,B2,3,keep,clean
-271,استنطاق,interrogation,审讯,NOUN,ar,B2,4,keep,clean
-461,اختراع,invention,发明,NOUN,ar,B2,5,keep,clean
-488,عصري,modern,现代的,ADJ,ar,B2,6,keep,clean
-491,انتماء,belonging,归属感,NOUN,ar,B2,7,keep,clean
-492,تضامن,solidarity,团结,NOUN,ar,B2,8,keep,clean
-605,مادام,as long as,只要/既然,SCONJ,ar,B2,9,keep,clean
-626,عار,shame/disgrace,耻辱/羞耻,NOUN,ar,B2,10,keep,clean
-652,انحراف,deviance,偏差,NOUN,ar,B2,11,keep,clean
-723,سعال,cough,咳嗽,NOUN,ar,B2,12,keep,clean
-1029,كثافة,density,密度,NOUN,ar,B2,13,keep,clean
-1095,تفحص,to scrutinize,细查,VERB,ar,B2,14,keep,clean
-1123,وازن,to weigh options,权衡,VERB,ar,B2,15,keep,clean
-1227,قمرون,shrimp,虾,NOUN,ar,B2,16,keep,clean
-1381,اختصاصات,competencies,职权,NOUN,ar,B2,17,keep,clean
-1445,عَشَّاب,herbalist,草药师,NOUN,ar,B2,18,keep,clean
-1513,مزاجية,moodiness,情绪化,NOUN,ar,B2,19,keep,clean
-1559,معلن,advertiser,广告商,NOUN,ar,B2,20,keep,clean
-1568,جادل,argue,争论,VERB,ar,B2,21,keep,clean
-1639,عداد,meter,计量表,NOUN,ar,B2,22,keep,clean
-1856,زجر,rebuke,斥责,VERB,ar,B2,23,keep,clean
-1870,غرد,chirp,鸣叫,VERB,ar,B2,24,keep,clean
+104,استثمار,investment,投资,NOUN,ar,B2,1,keep,clean
+287,ترحيل,deportation,驱逐出境,NOUN,ar,B2,2,keep,clean
+328,تخطيط,planning,规划,NOUN,ar,B2,3,keep,clean
+402,قبو,basement,地下室,NOUN,ar,B2,4,keep,clean
+551,ولو,even if,即使,SCONJ,ar,B2,5,keep,clean
+620,كرامة,dignity,尊严,NOUN,ar,B2,6,keep,clean
+832,ملحون,malhun,马尔洪诗,NOUN,ar,B2,7,keep,clean
+935,طقوس,rituals,仪式,NOUN,ar,B2,8,keep,clean
+1034,صوت,sound,声音,NOUN,ar,B2,9,keep,clean
+1099,استوعب,to comprehend,理解,VERB,ar,B2,10,keep,clean
+1290,وقح,insolent,无礼的,ADJ,ar,B2,11,keep,clean
+1352,مستجدات,developments,最新进展,NOUN,ar,B2,12,keep,clean
+1377,قصدير,tin,锡,NOUN,ar,B2,13,keep,clean
+1485,نخوة,magnanimity,侠义,NOUN,ar,B2,14,keep,clean
+1488,استسلام,surrender,投降,NOUN,ar,B2,15,keep,clean
+1501,ولع,fondness,酷爱,NOUN,ar,B2,16,keep,clean
+1509,وسم,hashtag,标签,NOUN,ar,B2,17,keep,clean
+1552,جادل,argue,争论,VERB,ar,B2,18,keep,clean
+1587,قرصة,pinch,捏,NOUN,ar,B2,19,keep,clean
+1607,مسحاة,shovel,铲子,NOUN,ar,B2,20,keep,clean
+1610,عمران,urbanism,城市化,NOUN,ar,B2,21,keep,clean
+1808,تربع,sit cross-legged,盘腿而坐,VERB,ar,B2,22,keep,clean
+1823,ولول,wail,嚎啕大哭,VERB,ar,B2,23,keep,clean
+1851,قضم,nibble,啃,VERB,ar,B2,24,keep,clean

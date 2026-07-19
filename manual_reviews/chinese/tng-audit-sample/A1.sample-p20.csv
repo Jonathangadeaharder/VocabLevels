@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-46,吃,to eat,吃,VERB,zh,A1,1,keep,clean
-57,喂,hello,喂,INTJ,zh,A1,2,keep,clean
-61,回,to return,回,VERB,zh,A1,3,keep,clean
-117,爱,to love,爱,VERB,zh,A1,4,keep,clean
-130,老师,teacher,老师,NOUN,zh,A1,5,keep,clean
-141,谢谢,thank you,谢谢,INTJ,zh,A1,6,keep,clean
-189,大家,everyone,大家,PRON,zh,A1,7,keep,clean
-193,妻子,wife,妻子,NOUN,zh,A1,8,keep,clean
-197,它,it,它,PRON,zh,A1,9,keep,clean
-204,帮助,to help / assistance,帮助,VERB,zh,A1,10,keep,clean
-205,开始,to begin / to start,开始,VERB,zh,A1,11,keep,clean
-218,手机,cell phone,手机,NOUN,zh,A1,12,keep,clean
-336,关心,to care about,关心,VERB,zh,A1,13,keep,clean
-339,其他,other,其他,ADJ,zh,A1,14,keep,clean
-347,刚才,just now,刚才,ADV,zh,A1,15,keep,clean
-358,半,half,半,NUM,zh,A1,16,keep,clean
-470,渴,thirsty,渴,ADJ,zh,A1,17,keep,clean
-471,游戏,game,游戏,NOUN,zh,A1,18,keep,clean
-490,电梯,elevator,电梯,NOUN,zh,A1,19,keep,clean
-512,米,rice,米,NOUN,zh,A1,20,keep,clean
-535,花园,garden,花园,NOUN,zh,A1,21,keep,clean
-539,蓝,blue,蓝,ADJ,zh,A1,22,keep,clean
-574,阿姨,aunt,阿姨,NOUN,zh,A1,23,keep,clean
-586,香蕉,banana,香蕉,NOUN,zh,A1,24,keep,clean
+22,人,person,人,NOUN,zh,A1,1,keep,clean
+29,做,to do / to make,做,VERB,zh,A1,2,keep,clean
+32,八,eight,八,NUM,zh,A1,3,keep,clean
+80,小,small,小,ADJ,zh,A1,4,keep,clean
+83,岁,year (of age),岁,NOUN,zh,A1,5,keep,clean
+100,月,month / moon,月,NOUN,zh,A1,6,keep,clean
+141,谢谢,thank you,谢谢,INTJ,zh,A1,7,keep,clean
+167,公斤,kilogram,公斤,NOUN,zh,A1,8,keep,clean
+171,别,do not,别,ADV,zh,A1,9,keep,clean
+189,大家,everyone,大家,PRON,zh,A1,10,keep,clean
+200,就,then / just,就,ADV,zh,A1,11,keep,clean
+233,次,time / occurrence (measure word),次,NOUN,zh,A1,12,keep,clean
+252,离,from / away from,离,ADP,zh,A1,13,keep,clean
+257,红,red,红,ADJ,zh,A1,14,keep,clean
+280,进,to enter / to advance,进,VERB,zh,A1,15,keep,clean
+298,一共,altogether,一共,ADV,zh,A1,16,keep,clean
+393,奇怪,strange,奇怪,ADJ,zh,A1,17,keep,clean
+413,应该,should,应该,AUX,zh,A1,18,keep,clean
+442,新鲜,fresh,新鲜,ADJ,zh,A1,19,keep,clean
+453,条,strip,条,NOUN,zh,A1,20,keep,clean
+455,果汁,fruit juice,果汁,NOUN,zh,A1,21,keep,clean
+478,照顾,to take care of,照顾,VERB,zh,A1,22,keep,clean
+495,相信,to believe,相信,VERB,zh,A1,23,keep,clean
+516,经常,often,经常,ADV,zh,A1,24,keep,clean

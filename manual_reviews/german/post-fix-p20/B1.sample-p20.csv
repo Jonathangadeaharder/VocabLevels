@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-34,aufstehen,to get up,起床,VERB,de,B1,1,keep,clean
-48,begeistert,enthusiastic,热情的,ADJ,de,B1,2,keep,clean
-50,begraben,to bury,埋葬,VERB,de,B1,3,keep,clean
-52,Behandlung,treatment,治疗,NOUN,de,B1,4,keep,clean
-63,betrunken,drunk,醉的,ADJ,de,B1,5,keep,clean
-92,Decke,blanket,毯子,NOUN,de,B1,6,keep,clean
-110,dringend,urgent,紧急的,ADJ,de,B1,7,keep,clean
-115,dunkel,dark,黑暗的,ADJ,de,B1,8,keep,clean
-151,Erklärung,explanation,解释,NOUN,de,B1,9,keep,clean
-179,Flucht,escape,逃跑,NOUN,de,B1,10,keep,clean
-236,hassen,to hate,恨,VERB,de,B1,11,keep,clean
-244,Hexe,witch,女巫,NOUN,de,B1,12,keep,clean
-246,hinein,into,进去,ADV,de,B1,13,keep,clean
-277,Keller,basement,地下室,NOUN,de,B1,14,keep,clean
-318,leer,empty,空的,ADJ,de,B1,15,keep,clean
-376,Opfer,victim,受害者,NOUN,de,B1,16,keep,clean
-424,Ritter,knight,骑士,NOUN,de,B1,17,keep,clean
-425,Rock,skirt,裙子,NOUN,de,B1,18,keep,clean
-458,Schwert,sword,剑,NOUN,de,B1,19,keep,clean
-486,Stich,sting,刺,NOUN,de,B1,20,keep,clean
-528,unterhalten,to entertain,娱乐,VERB,de,B1,21,keep,clean
-570,Vögel,birds,鸟,NOUN,de,B1,22,keep,clean
-588,wirken,to seem,显得,VERB,de,B1,23,keep,clean
-607,Zunge,tongue,舌头,NOUN,de,B1,24,keep,clean
+28,atmen,to breathe,呼吸,VERB,de,B1,1,keep,clean
+39,beantworten,to answer,回答,VERB,de,B1,2,keep,clean
+88,Daten,data,数据,NOUN,de,B1,3,keep,clean
+146,erfolgreich,successful,成功的,ADJ,de,B1,4,keep,clean
+168,fassen,to grasp,抓住,VERB,de,B1,5,keep,clean
+181,Flughafen,airport,机场,NOUN,de,B1,6,keep,clean
+191,frisch,fresh,新鲜的,ADJ,de,B1,7,keep,clean
+242,herein,in,进来,ADV,de,B1,8,keep,clean
+256,Hure,whore,妓女,NOUN,de,B1,9,keep,clean
+274,Kapitän,captain,船长,NOUN,de,B1,10,keep,clean
+291,kochen,to cook,烹饪,VERB,de,B1,11,keep,clean
+344,Mittag,noon,中午,NOUN,de,B1,12,keep,clean
+351,Mord,murder,谋杀,NOUN,de,B1,13,keep,clean
+427,Runde,round,轮 / 回合,NOUN,de,B1,14,keep,clean
+433,Schatten,shadow,阴影,NOUN,de,B1,15,keep,clean
+451,schreien,scream,尖叫,VERB,de,B1,16,keep,clean
+459,Schwierigkeit,difficulty,困难,NOUN,de,B1,17,keep,clean
+475,Spieler,player,球员,NOUN,de,B1,18,keep,clean
+507,teuer,expensive,昂贵的,ADJ,de,B1,19,keep,clean
+515,Treppe,staircase,楼梯,NOUN,de,B1,20,keep,clean
+542,Verdacht,suspicion,怀疑,NOUN,de,B1,21,keep,clean
+577,wechseln,to change,更换,VERB,de,B1,22,keep,clean
+592,worüber,about what,关于什么,ADV,de,B1,23,keep,clean
+618,öfter,more often,更频繁,ADV,de,B1,24,keep,clean

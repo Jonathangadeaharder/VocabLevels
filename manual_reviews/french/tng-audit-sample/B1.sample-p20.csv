@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-70,attirer,to attract,吸引,VERB,fr,B1,1,keep,clean
-210,contenir,to contain,包含,VERB,fr,B1,2,keep,clean
-310,efficacité,efficiency,效率,NOUN,fr,B1,3,keep,clean
-316,engagement,commitment,承诺,NOUN,fr,B1,4,keep,clean
-341,fabrication,manufacturing,制造,NOUN,fr,B1,5,keep,clean
-355,fiscal,fiscal/tax,财政的,ADJ,fr,B1,6,keep,clean
-357,fixer,to fix/to set,固定,VERB,fr,B1,7,keep,clean
-374,frissonner,to shiver,颤抖,VERB,fr,B1,8,keep,clean
-387,gardien,guardian,守卫,NOUN,fr,B1,9,keep,clean
-388,gencive,gum,牙龈,NOUN,fr,B1,10,keep,clean
-414,hypothèse,hypothesis,假设,NOUN,fr,B1,11,keep,clean
-472,libération,liberation,解放,NOUN,fr,B1,12,keep,clean
-484,lourd,heavy,重的,ADJ,fr,B1,13,keep,clean
-495,mairie,town hall,市政厅,NOUN,fr,B1,14,keep,clean
-515,militant,activist,活动家,NOUN,fr,B1,15,keep,clean
-570,optimisme,optimism,乐观,NOUN,fr,B1,16,keep,clean
-571,opéra,opera,歌剧,NOUN,fr,B1,17,keep,clean
-575,ouvrage,work/book,著作/工程,NOUN,fr,B1,18,keep,clean
-622,potentiel,potential,潜力,NOUN,fr,B1,19,keep,clean
-731,radiographie,X-ray,X光片,NOUN,fr,B1,20,keep,clean
-749,rasoir,razor,剃刀,NOUN,fr,B1,21,keep,clean
-763,recoudre,to sew again,重缝,VERB,fr,B1,22,keep,clean
+2,abri,shelter,庇护所,NOUN,fr,B1,1,keep,clean
+35,amitié,friendship,友谊,NOUN,fr,B1,2,keep,clean
+55,arabe,Arabic,阿拉伯语,NOUN,fr,B1,3,keep,clean
+97,bavard,talkative,健谈的,ADJ,fr,B1,4,keep,clean
+180,commettre,to commit,犯（罪）,VERB,fr,B1,5,keep,clean
+258,disque,disc,圆盘/唱片,NOUN,fr,B1,6,keep,clean
+285,délavé,faded,褪色的,ADJ,fr,B1,7,keep,clean
+295,dépliant,leaflet,传单,NOUN,fr,B1,8,keep,clean
+318,engueulade,telling-off,斥责,NOUN,fr,B1,9,keep,clean
+437,interdiction,prohibition,禁止,NOUN,fr,B1,10,keep,clean
+465,lardon,bacon bit,培根丁,NOUN,fr,B1,11,keep,clean
+477,littéraire,literary,文学的,ADJ,fr,B1,12,keep,clean
+481,long-métrage,feature film,故事片,NOUN,fr,B1,13,keep,clean
+512,micro-trottoir,street interview,街头采访,NOUN,fr,B1,14,keep,clean
+560,obligatoire,mandatory/compulsory,强制的/义务的,ADJ,fr,B1,15,keep,clean
+574,orientation,orientation/direction,方向/定位,NOUN,fr,B1,16,keep,clean
+580,paradis,paradise/heaven,天堂/乐园,NOUN,fr,B1,17,keep,clean
+607,plastique,plastic,塑料,NOUN,fr,B1,18,keep,clean
+679,présenter,to present,介绍,VERB,fr,B1,19,keep,clean
+732,radis,radish,小萝卜,NOUN,fr,B1,20,keep,clean
+760,recommandé,registered mail,挂号信,NOUN,fr,B1,21,keep,clean
+806,repas,meal,餐,NOUN,fr,B1,22,keep,clean
 844,ridicule,ridiculous,荒谬的,ADJ,fr,B1,23,keep,clean
-867,rougir,to blush,脸红,VERB,fr,B1,24,keep,clean
+853,robe,dress,连衣裙,NOUN,fr,B1,24,keep,clean

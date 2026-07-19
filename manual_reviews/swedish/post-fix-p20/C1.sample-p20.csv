@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-48,bläck,ink,墨水,NOUN,sv,C1,1,keep,clean
-86,bruk,use,使用,NOUN,sv,C1,2,keep,clean
-105,börda,burden,负担,NOUN,sv,C1,3,keep,clean
-144,dejten,dejt,约会,NOUN,sv,C1,4,keep,clean
-185,drygt,just over,稍微超过,ADV,sv,C1,5,keep,clean
-214,döpa,baptize,施洗,VERB,sv,C1,6,keep,clean
-489,helsike,hell,地狱,NOUN,sv,C1,7,keep,clean
-490,hemlös,homeless,无家可归的,ADJ,sv,C1,8,keep,clean
-505,hotad,threatened,受威胁的,ADJ,sv,C1,9,keep,clean
-517,hycklare,hypocrite,伪君子,NOUN,sv,C1,10,keep,clean
-555,ifrågasätta,question,质疑,VERB,sv,C1,11,keep,clean
-586,inställd,cancelled/set,取消的/设定的,ADJ,sv,C1,12,keep,clean
-700,klo,claw,爪子,NOUN,sv,C1,13,keep,clean
-768,kritik,criticism,批评,NOUN,sv,C1,14,keep,clean
-843,ljust,brightly,明亮地,ADV,sv,C1,15,keep,clean
-955,motorcykel,motorcycle,摩托车,NOUN,sv,C1,16,keep,clean
-982,mätt,full,饱的,ADJ,sv,C1,17,keep,clean
-1154,psykolog,psychologist,心理学家,NOUN,sv,C1,18,keep,clean
-1155,psykologi,psychology,心理学,NOUN,sv,C1,19,keep,clean
-1303,skala,peel,剥皮,VERB,sv,C1,20,keep,clean
-1319,skippa,skip,跳过,VERB,sv,C1,21,keep,clean
-1363,smink,makeup,化妆品,NOUN,sv,C1,22,keep,clean
-1442,stängsel,fence,栅栏,NOUN,sv,C1,23,keep,clean
-1684,utomlands,abroad,在国外,ADV,sv,C1,24,keep,clean
+47,bluffa,bluff,欺骗,VERB,sv,C1,1,keep,clean
+110,ceremoni,ceremony,仪式,NOUN,sv,C1,2,keep,clean
+291,fokus,focus,焦点,NOUN,sv,C1,3,keep,clean
+329,fullmåne,full moon,满月,NOUN,sv,C1,4,keep,clean
+373,förlamad,paralyzed,瘫痪的,ADJ,sv,C1,5,keep,clean
+427,gentemot,towards,对待,ADP,sv,C1,6,keep,clean
+743,konung,king,国王,NOUN,sv,C1,7,keep,clean
+847,lock,lid,盖子,NOUN,sv,C1,8,keep,clean
+945,mode,fashion,时尚,NOUN,sv,C1,9,keep,clean
+978,märkas,be noticed,被注意到,VERB,sv,C1,10,keep,clean
+1101,parti,batch,一批,NOUN,sv,C1,11,keep,clean
+1166,påkörd,run over,被碾过的,ADJ,sv,C1,12,keep,clean
+1238,rättfärdig,righteous,正义的,ADJ,sv,C1,13,keep,clean
+1337,skytt,shooter,射手,NOUN,sv,C1,14,keep,clean
+1354,slutsats,conclusion,结论,NOUN,sv,C1,15,keep,clean
+1482,sympati,sympathy,同情,NOUN,sv,C1,16,keep,clean
+1561,tortera,torture,折磨,VERB,sv,C1,17,keep,clean
+1577,trosa,panties,内裤,NOUN,sv,C1,18,keep,clean
+1729,vetenskapsmän,scientists,科学家,NOUN,sv,C1,19,keep,clean
+1802,älskarinna,mistress,情妇,NOUN,sv,C1,20,keep,clean
+1804,ärr,scar,疤痕,NOUN,sv,C1,21,keep,clean
+1842,överge,abandon,抛弃,VERB,sv,C1,22,keep,clean
+1859,övervaka,monitor,监控,VERB,sv,C1,23,keep,clean
+1860,övervakare,supervisor,监督员,NOUN,sv,C1,24,keep,clean

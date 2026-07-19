@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-7,حلق,to shave,刮脸,VERB,ar,A2,1,keep,clean
-8,لبس,to wear / to get dressed,穿 / 穿衣,VERB,ar,A2,2,keep,clean
-71,سميد,semolina,粗面粉,NOUN,ar,A2,3,keep,clean
-77,نقانق,sausage,香肠,NOUN,ar,A2,4,keep,clean
-121,متزوج,married,已婚的,ADJ,ar,A2,5,keep,clean
-153,حبل,rope,绳子,NOUN,ar,A2,6,keep,clean
-155,مغرفة,ladle,长柄勺,NOUN,ar,A2,7,keep,clean
-158,شمعة,candle,蜡烛,NOUN,ar,A2,8,keep,clean
-226,سافر,to travel,旅行,VERB,ar,A2,9,keep,clean
-229,شارع,street,街道,NOUN,ar,A2,10,keep,clean
-261,عاود,to repeat,重复,VERB,ar,A2,11,keep,clean
-295,بداية,beginning,开始,NOUN,ar,A2,12,keep,clean
-302,تالي,following / next,接下来的,ADJ,ar,A2,13,keep,clean
-308,جمعة,Friday,星期五,NOUN,ar,A2,14,keep,clean
-312,رفض,to refuse,拒绝,VERB,ar,A2,15,keep,clean
-334,سخر,to mock,嘲笑,VERB,ar,A2,16,keep,clean
-398,زعفان,angry,愤怒的,ADJ,ar,A2,17,keep,clean
-400,خايف,afraid,害怕的,ADJ,ar,A2,18,keep,clean
-405,مرتاح,relaxed / comfortable,放松的 / 舒适的,ADJ,ar,A2,19,keep,clean
-411,ندم,regret,后悔,NOUN,ar,A2,20,keep,clean
-412,قلق,worry,担忧,NOUN,ar,A2,21,keep,clean
-416,عادي,normal / ordinary,正常的 / 普通的,ADJ,ar,A2,22,keep,clean
-453,ولا,or,或者,CCONJ,ar,A2,23,keep,clean
+54,لوز,almonds,杏仁,NOUN,ar,A2,1,keep,clean
+65,برتقال,orange,橙子,NOUN,ar,A2,2,keep,clean
+67,حمص,chickpeas,鹰嘴豆,NOUN,ar,A2,3,keep,clean
+115,أعزب,bachelor,单身汉,ADJ,ar,A2,4,keep,clean
+131,جرس,bell,铃,NOUN,ar,A2,5,keep,clean
+161,فخذ,thigh,大腿,NOUN,ar,A2,6,keep,clean
+195,صيف,summer,夏天,NOUN,ar,A2,7,keep,clean
+226,حجز,booking,预订,NOUN,ar,A2,8,keep,clean
+232,عطلة,vacation,假期,NOUN,ar,A2,9,keep,clean
+273,عاد,to return,返回,VERB,ar,A2,10,keep,clean
+286,تالي,following / next,接下来的,ADJ,ar,A2,11,keep,clean
+296,رفض,to refuse,拒绝,VERB,ar,A2,12,keep,clean
+299,حاول,to try,尝试,VERB,ar,A2,13,keep,clean
+332,فات,to pass,经过,VERB,ar,A2,14,keep,clean
+338,سجل,to register / to record,登记 / 记录,VERB,ar,A2,15,keep,clean
+342,زرع,to plant,种植,VERB,ar,A2,16,keep,clean
+345,قلق,to worry / anxiety,担心 / 焦虑,VERB,ar,A2,17,keep,clean
+346,غش,to cheat,欺骗,VERB,ar,A2,18,keep,clean
+358,سخن,to heat,加热,VERB,ar,A2,19,keep,clean
+394,مهم,important,重要的,ADJ,ar,A2,20,keep,clean
+409,مسكين,poor,可怜的,ADJ,ar,A2,21,keep,clean
+412,واضح,clear,清楚的,ADJ,ar,A2,22,keep,clean
+433,ولا,or,或者,CCONJ,ar,A2,23,keep,clean

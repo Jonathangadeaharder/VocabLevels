@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-4,allt,everything,一切,PRON,sv,A1,1,keep,clean
-16,badrum,bathroom,浴室,NOUN,sv,A1,2,keep,clean
-37,bro,bridge,桥,NOUN,sv,A1,3,keep,clean
-83,fattig,poor,贫穷的,ADJ,sv,A1,4,keep,clean
+7,annan,other,另一个,ADJ,sv,A1,1,keep,clean
+36,brev,letter,信,NOUN,sv,A1,2,keep,clean
+42,butik,shop,商店,NOUN,sv,A1,3,keep,clean
+45,bära,to carry,携带,VERB,sv,A1,4,keep,clean
 100,frisk,healthy,健康的,ADJ,sv,A1,5,keep,clean
-101,frukost,breakfast,早餐,NOUN,sv,A1,6,keep,clean
-118,förstå,to understand,理解,VERB,sv,A1,7,keep,clean
-197,kväll,evening,晚上,NOUN,sv,A1,8,keep,clean
-227,marknad,market,市场,NOUN,sv,A1,9,keep,clean
-262,nu,now,现在,ADV,sv,A1,10,keep,clean
-294,rädd,afraid,害怕的,ADJ,sv,A1,11,keep,clean
-298,se,see,看见,VERB,sv,A1,12,keep,clean
-313,sjutton,seventeen,十七,NUM,sv,A1,13,keep,clean
-328,snö,snow,雪,NOUN,sv,A1,14,keep,clean
-335,sova,to sleep,睡觉,VERB,sv,A1,15,keep,clean
-355,svart,black,黑色的,ADJ,sv,A1,16,keep,clean
-359,sälja,to sell,卖,VERB,sv,A1,17,keep,clean
-386,tro,to believe,相信,VERB,sv,A1,18,keep,clean
-415,vecka,week,周,NOUN,sv,A1,19,keep,clean
-446,öppna,open,打开,VERB,sv,A1,20,keep,clean
-478,denna,this,这个,DET,sv,A1,21,keep,clean
-482,detta,this,这,DET,sv,A1,22,keep,clean
-507,fara,danger,危险,NOUN,sv,A1,23,keep,clean
+115,förklara,to explain,解释,VERB,sv,A1,6,keep,clean
+160,hälsa,to greet,问候,VERB,sv,A1,7,keep,clean
+169,ibland,sometimes,有时,ADV,sv,A1,8,keep,clean
+176,jacka,jacket,夹克,NOUN,sv,A1,9,keep,clean
+182,juni,June,六月,NOUN,sv,A1,10,keep,clean
+212,lugn,calm,平静的,ADJ,sv,A1,11,keep,clean
+277,papper,paper,纸,NOUN,sv,A1,12,keep,clean
+298,se,see,看见,VERB,sv,A1,13,keep,clean
+321,skriva,write,写,VERB,sv,A1,14,keep,clean
+381,torsdag,Thursday,星期四,NOUN,sv,A1,15,keep,clean
+383,tre,three,三,NUM,sv,A1,16,keep,clean
+397,två,two,二,NUM,sv,A1,17,keep,clean
+398,tänka,to think,思考,VERB,sv,A1,18,keep,clean
+422,vilken,which,哪个,PRON,sv,A1,19,keep,clean
+450,allihop,everyone,大家,PRON,sv,A1,20,keep,clean
+473,chans,chance,机会,NOUN,sv,A1,21,keep,clean
+480,dess,its,它的,PRON,sv,A1,22,keep,clean
+488,därför,therefore,因此,ADV,sv,A1,23,keep,clean

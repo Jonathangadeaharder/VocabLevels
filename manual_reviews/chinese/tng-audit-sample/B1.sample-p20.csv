@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-42,书架,bookshelf,书架,NOUN,zh,B1,1,keep,clean
-64,从事,to engage in,从事,VERB,zh,B1,2,keep,clean
-222,危害,to jeopardize; to harm,危害,VERB,zh,B1,3,keep,clean
-240,发抖,to tremble,发抖,VERB,zh,B1,4,keep,clean
-253,古老,ancient,古老,ADJ,zh,B1,5,keep,clean
-255,可怕,terrible,可怕,ADJ,zh,B1,6,keep,clean
-336,多亏,thanks to,多亏,ADP,zh,B1,7,keep,clean
-351,奋斗,to strive,奋斗,VERB,zh,B1,8,keep,clean
-403,宴会,banquet,宴会,NOUN,zh,B1,9,keep,clean
-477,建筑,to construct,建筑,VERB,zh,B1,10,keep,clean
-602,挡,to block,挡,VERB,zh,B1,11,keep,clean
-711,朴素,plain and simple,朴素,ADJ,zh,B1,12,keep,clean
-733,梳子,comb,梳子,NOUN,zh,B1,13,keep,clean
-737,概括,to summarize,概括,VERB,zh,B1,14,keep,clean
-770,注册,to register,注册,VERB,zh,B1,15,keep,clean
-809,点心,dim sum,点心,NOUN,zh,B1,16,keep,clean
-816,煤炭,coal,煤炭,NOUN,zh,B1,17,keep,clean
-842,玩具,toy,玩具,NOUN,zh,B1,18,keep,clean
-871,皇帝,emperor,皇帝,NOUN,zh,B1,19,keep,clean
-874,盖,lid,盖,NOUN,zh,B1,20,keep,clean
-927,程序,procedure,程序,NOUN,zh,B1,21,keep,clean
-935,立刻,immediately,立刻,ADV,zh,B1,22,keep,clean
-960,纪录,record,纪录,NOUN,zh,B1,23,keep,clean
-993,老板,boss,老板,NOUN,zh,B1,24,keep,clean
+8,不得了,desperately serious,不得了,ADJ,zh,B1,1,keep,clean
+36,主观,subjective,主观,ADJ,zh,B1,2,keep,clean
+44,争取,to strive for,争取,VERB,zh,B1,3,keep,clean
+99,作品,work,作品,NOUN,zh,B1,4,keep,clean
+134,光滑,smooth,光滑,ADJ,zh,B1,5,keep,clean
+139,兔子,rabbit,兔子,NOUN,zh,B1,6,keep,clean
+233,及格,to pass (an exam),及格,VERB,zh,B1,7,keep,clean
+245,发言,to make a speech,发言,VERB,zh,B1,8,keep,clean
+267,名片,business card,名片,NOUN,zh,B1,9,keep,clean
+288,咨询,to consult,咨询,VERB,zh,B1,10,keep,clean
+293,哲学,philosophy,哲学,NOUN,zh,B1,11,keep,clean
+296,商业,business,商业,NOUN,zh,B1,12,keep,clean
+307,围巾,scarf,围巾,NOUN,zh,B1,13,keep,clean
+358,妨碍,to hinder,妨碍,VERB,zh,B1,14,keep,clean
+449,常识,common sense,常识,NOUN,zh,B1,15,keep,clean
+468,广泛,extensive,广泛,ADJ,zh,B1,16,keep,clean
+494,形成,to form,形成,VERB,zh,B1,17,keep,clean
+574,批,to criticize,批,VERB,zh,B1,18,keep,clean
+626,提问,to question,提问,VERB,zh,B1,19,keep,clean
+655,教材,teaching material,教材,NOUN,zh,B1,20,keep,clean
+656,教练,coach,教练,NOUN,zh,B1,21,keep,clean
+765,沙漠,desert,沙漠,NOUN,zh,B1,22,keep,clean
+942,答应,to promise,答应,VERB,zh,B1,23,keep,clean
+967,经营,to manage,经营,VERB,zh,B1,24,keep,clean

@@ -163,7 +163,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 خصخصة,privatization,私有化,NOUN
 مناولة,subcontracting,分包,NOUN
 توزيع,distribution,分配,NOUN
-لوجستيك,logistics,物流,NOUN
 تسليم,delivery,交付,NOUN
 مصاريف,expenses,费用,NOUN
 استهلاك,consumption,消费,NOUN
@@ -349,7 +348,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 إشراف,supervision,监督,NOUN
 متابعة,follow-up,跟进,NOUN
 مواكبة,keeping up with,跟上,NOUN
-تحيين,updating,更新,NOUN
 ملتقى,forum,论坛,NOUN
 سيرة,curriculum vitae,简历,NOUN
 إضافي,additional,额外的,ADJ
@@ -429,13 +427,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 إعجاب,admiration,赞赏,NOUN
 مشاركة,sharing,分享,NOUN
 مؤثر,influencer,网红,NOUN
-بوز,buzz,热议,NOUN
 تريند,trend,趋势,NOUN
 لايف,live stream,直播,NOUN
 شبكة,network,网络,NOUN
 اتصال,connection,连接,NOUN
 ڭروب,group,群组,NOUN
-ستوري,story,动态,NOUN
 تيليشارجا,download,下载,VERB
 تثبيت,installation,安装,NOUN
 معطيات,data,数据,NOUN
@@ -1136,15 +1132,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تيقظ,to be vigilant,警惕,VERB
 غفل,to be heedless,疏忽,VERB
 سها,to be absent-minded,心不在焉,VERB
-دغيا,quickly,迅速地,ADV
 منذ,since,自从,SCONJ
 كأن,as if,好像,SCONJ
-عمر,never,从不,ADV
 بالسيف,by force,强行,ADV
 بالعافية,with difficulty,艰难地,ADV
 بالمرة,at all,根本,ADV
-فبالي,on my mind,在我心里,ADV
-بزربة,in a hurry,匆忙地,ADV
 مابقاش,no longer,不再,ADV
 مربوط,frugal,节俭的,ADJ
 وحدو,by himself,独自,ADV
@@ -1154,14 +1146,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 زنجبيل,ginger,姜,NOUN
 كركم,turmeric,姜黄,NOUN
 مطلوع,griddle flatbread,烤饼,NOUN
-حرشة,semolina bread,粗面粉面包,NOUN
 رغيفة,small loaf,小面包,NOUN
-طنجية,tanjia,坦吉亚炖肉,NOUN
 مروزية,mrouzia,甜羊肉塔吉锅,NOUN
 سفوف,sfouf,烤面粉甜点,NOUN
 سلو,sellou,塞卢能量膏,NOUN
 غريبة,ghoriba cookie,格里比饼干,NOUN
-فقاص,feggaz cookie,茴香脆饼,NOUN
 جوز,walnuts,核桃,NOUN
 مربى,jam,果酱,NOUN
 مخلل,pickles,泡菜,NOUN
@@ -1212,7 +1201,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فلكلور,folklore,民俗,NOUN
 مزمار,folk oboe,民间双簧管,NOUN
 غيطة,ghaita,盖塔芦苇号角,NOUN
-نفار,festival trumpet,节日长号,NOUN
 دندنة,humming,哼唱,NOUN
 تنشيط,animation,娱乐主持,NOUN
 صنارة,fishing rod,钓竿,NOUN
@@ -1222,9 +1210,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ميرلان,whiting,牙鳕,NOUN
 تونة,tuna,金枪鱼,NOUN
 أخطبوط,octopus,章鱼,NOUN
-كالامار,squid,鱿鱼,NOUN
 حبار,cuttlefish,乌贼,NOUN
-قمرون,shrimp,虾,NOUN
 محار,oysters,牡蛎,NOUN
 سلطعون,crab,螃蟹,NOUN
 لوبيستر,lobster,龙虾,NOUN
@@ -1327,7 +1313,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 متلهف,eager,渴望的,ADJ
 مبتذل,banal,陈腐的,ADJ
 مبهر,dazzling,耀眼的,ADJ
-زاهي,vivid,鲜艳的,ADJ
 قاتم,gloomy,阴暗的,ADJ
 كئيب,dreary,忧郁的,ADJ
 منعش,refreshing,清爽的,ADJ
@@ -1561,7 +1546,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فيروسي,viral,病毒式的,ADJ
 تداول,circulation,流通,NOUN
 توثق,verify,验证,VERB
-زعف,get angry,发怒,VERB
 لقط,pick up,捡起,VERB
 عول,rely on,依靠,VERB
 نوى,intend,打算,VERB
@@ -1576,7 +1560,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 عمم,generalize,概括,VERB
 ضاعف,double,加倍,VERB
 عمق,deepen,加深,VERB
-خربق,mess up,搞砸,VERB
 فتل,twist,搓捻,VERB
 غربل,sift,筛,VERB
 شرمل,marinate,腌制,VERB
@@ -1586,11 +1569,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فسد,spoil,变质,VERB
 رونبوان,roundabout,环岛,NOUN
 كار,intercity bus,城际巴士,NOUN
-فرملة,brake,刹车,NOUN
 ليسانس,bachelor's degree,学士学位,NOUN
 باك,baccalaureate,高中毕业会考,NOUN
-ديبلوم,diploma,文凭,NOUN
-ستاج,internship,实习,NOUN
 متعلم,educated,受过教育的,ADJ
 صنايعي,craftsman,工匠,NOUN
 طرزي,tailor,裁缝,NOUN
@@ -1602,7 +1582,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مطلقة,divorced woman,离婚妇女,NOUN
 سواليف,chitchat,闲聊,NOUN
 قصارة,evening chat,晚间闲谈,NOUN
-تقشاب,joking,开玩笑,NOUN
 نشاط,activity,活动,NOUN
 عياء,tiredness,疲劳,NOUN
 قرصة,pinch,捏,NOUN
@@ -1628,7 +1607,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مسحاة,shovel,铲子,NOUN
 شوالات,saddlebags,鞍袋,NOUN
 سلة,basket,篮子,NOUN
-مايكة,plastic bag,塑料袋,NOUN
 عمران,urbanism,城市化,NOUN
 كريان,shantytown,棚户区,NOUN
 تهيئة,development works,开发工程,NOUN
@@ -1785,7 +1763,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مصران,intestine,肠,NOUN
 سانوج,nigella seeds,黑种草籽,NOUN
 حبق,basil,罗勒,NOUN
-آزير,rosemary,迷迭香,NOUN
 خرقوم,turmeric,姜黄,NOUN
 ليبزار,black pepper,黑胡椒,NOUN
 حلبة,fenugreek,胡芦巴,NOUN
@@ -1827,7 +1804,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سطر,line,行,NOUN
 ماطل,stall,拖延,VERB
 وخر,fall back,后退,VERB
-لزق,stick,粘,VERB
 قرفص,squat,蹲,VERB
 تربع,sit cross-legged,盘腿而坐,VERB
 تمطط,stretch out,伸展,VERB
@@ -1842,7 +1818,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تنحنح,clear the throat,清嗓子,VERB
 بصق,spit,吐口水,VERB
 بزق,spit,吐口水,VERB
-مخط,blow the nose,擤鼻涕,VERB
 دمع,tear up,流泪,VERB
 نشج,sob,啜泣,VERB
 ولول,wail,嚎啕大哭,VERB
@@ -1925,7 +1900,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مَبْحُوث,lucky,幸运的,ADJ
 مُخَنَّز,stinking,发臭的,ADJ
 خَانِز,rotten,腐烂的,ADJ
-مُقَرْقَب,crunchy,脆的,ADJ
 هَامِد,lifeless,无生命的,ADJ
 خامل,idle,懒惰的,ADJ
 متزن,balanced,平衡的,ADJ

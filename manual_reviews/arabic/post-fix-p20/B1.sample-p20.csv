@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-18,غطس,diving,潜水,NOUN,ar,B1,1,keep,clean
-64,قصة,story,故事,NOUN,ar,B1,2,keep,clean
-77,ترفيه,entertainment,娱乐,NOUN,ar,B1,3,keep,clean
-112,مثير,exciting,令人兴奋的,ADJ,ar,B1,4,keep,clean
-170,تدرب,to train,训练,VERB,ar,B1,5,keep,clean
-181,تلوث,pollution,污染,NOUN,ar,B1,6,keep,clean
-218,حقل,field,田地,NOUN,ar,B1,7,keep,clean
-277,سرقة,theft,盗窃,NOUN,ar,B1,8,keep,clean
-283,بريد,mail,邮件,NOUN,ar,B1,9,keep,clean
-301,إنترنت,internet,互联网,NOUN,ar,B1,10,keep,clean
-388,مجتهد,hardworking,勤奋的,ADJ,ar,B1,11,keep,clean
-415,خَدُوم,helpful,乐于助人的,ADJ,ar,B1,12,keep,clean
-420,ناضِج,mature,成熟的,ADJ,ar,B1,13,keep,clean
-459,منحة,scholarship,奖学金,NOUN,ar,B1,14,keep,clean
-491,أجرة,wage,工资,NOUN,ar,B1,15,keep,clean
-527,نوبة,shift,轮班,NOUN,ar,B1,16,keep,clean
-563,دقيق,flour,面粉,NOUN,ar,B1,17,keep,clean
-597,نصيحة,advice,建议,NOUN,ar,B1,18,keep,clean
-648,مجتمع,society,社会,NOUN,ar,B1,19,keep,clean
-671,طبال,drummer,鼓手,NOUN,ar,B1,20,keep,clean
-735,تبليط,tiling,铺瓷砖,NOUN,ar,B1,21,keep,clean
-740,مصفاية,colander,滤锅,NOUN,ar,B1,22,keep,clean
-756,استلم,to receive payment,领取工资,VERB,ar,B1,23,keep,clean
-770,بلدي,local,本地的,ADJ,ar,B1,24,keep,clean
+10,مطعم,restaurant,餐厅,NOUN,ar,B1,1,keep,clean
+51,مجلة,magazine,杂志,NOUN,ar,B1,2,keep,clean
+191,كوكب,planet,行星,NOUN,ar,B1,3,keep,clean
+200,صقر,falcon,猎鹰,NOUN,ar,B1,4,keep,clean
+229,عنكبوت,spider,蜘蛛,NOUN,ar,B1,5,keep,clean
+233,فضاء,space,空间,NOUN,ar,B1,6,keep,clean
+349,ناقش,to discuss,讨论,VERB,ar,B1,7,keep,clean
+353,متأكد,sure,确定的,ADJ,ar,B1,8,keep,clean
+360,دمع,tear,眼泪,NOUN,ar,B1,9,keep,clean
+369,احترام,respect,尊重,NOUN,ar,B1,10,keep,clean
+371,ظلم,injustice,不公,NOUN,ar,B1,11,keep,clean
+472,زميل,classmate,同学,NOUN,ar,B1,12,keep,clean
+475,ملخص,summary,总结,NOUN,ar,B1,13,keep,clean
+483,إملاء,dictation,听写,NOUN,ar,B1,14,keep,clean
+489,متقاعد,retired,退休的,ADJ,ar,B1,15,keep,clean
+492,صانع,craftsman,工匠,NOUN,ar,B1,16,keep,clean
+508,سكرتير,secretary,秘书,NOUN,ar,B1,17,keep,clean
+522,نوبة,shift,轮班,NOUN,ar,B1,18,keep,clean
+546,عطر,perfume,香水,NOUN,ar,B1,19,keep,clean
+558,دقيق,flour,面粉,NOUN,ar,B1,20,keep,clean
+606,ورم,swelling,肿胀,NOUN,ar,B1,21,keep,clean
+733,اختبأ,to hide,隐藏,VERB,ar,B1,22,keep,clean
+762,مرضعة,wet nurse,奶妈,NOUN,ar,B1,23,keep,clean
+764,مشاية,baby walker,婴儿学步车,NOUN,ar,B1,24,keep,clean

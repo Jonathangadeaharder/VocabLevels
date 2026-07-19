@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-67,anständig,decent,体面的,ADJ,de,B2,1,keep,clean
-130,Bahn,train,火车,NOUN,de,B2,2,keep,clean
-143,bedrohlich,threatening,威胁的,ADJ,de,B2,3,keep,clean
-202,bestimmt,certain,特定的,ADJ,de,B2,4,keep,clean
-209,Betrug,fraud,欺诈,NOUN,de,B2,5,keep,clean
-221,bezüglich,regarding,关于,ADP,de,B2,6,keep,clean
-247,Brieftasche,wallet,钱包,NOUN,de,B2,7,keep,clean
-288,Drachen,kite,风筝,NOUN,de,B2,8,keep,clean
-321,einsetzen,to deploy,部署,VERB,de,B2,9,keep,clean
-451,frühstücken,to have breakfast,吃早餐,VERB,de,B2,10,keep,clean
-514,Geste,gesture,手势,NOUN,de,B2,11,keep,clean
-523,Gewinn,profit,利润,NOUN,de,B2,12,keep,clean
-581,hinsetzen,to sit down,坐下,VERB,de,B2,13,keep,clean
-752,Leine,leash,皮带,NOUN,de,B2,14,keep,clean
-792,Melodie,melody,旋律,NOUN,de,B2,15,keep,clean
-836,Nebel,fog,雾,NOUN,de,B2,16,keep,clean
-891,Pille,pill,药丸,NOUN,de,B2,17,keep,clean
-1020,Schublade,drawer,抽屉,NOUN,de,B2,18,keep,clean
-1091,Streich,prank,恶作剧,NOUN,de,B2,19,keep,clean
-1142,typisch,typical,典型的,ADJ,de,B2,20,keep,clean
-1212,verknallt,infatuated,迷恋的,ADJ,de,B2,21,keep,clean
-1216,verlieben,to fall in love,坠入爱河,VERB,de,B2,22,keep,clean
-1256,Viertel,quarter,四分之一,NOUN,de,B2,23,keep,clean
-1325,Zentrale,headquarters,总部,NOUN,de,B2,24,keep,clean
+117,aussteigen,to get off,下车,VERB,de,B2,1,keep,clean
+196,besonders,special,特别的,ADJ,de,B2,2,keep,clean
+206,beten,to pray,祈祷,VERB,de,B2,3,keep,clean
+250,Burg,castle,城堡,NOUN,de,B2,4,keep,clean
+286,Dose,can,罐头,NOUN,de,B2,5,keep,clean
+288,Drachen,kite,风筝,NOUN,de,B2,6,keep,clean
+324,einig,agreed,一致的,ADJ,de,B2,7,keep,clean
+398,Experte,expert,专家,NOUN,de,B2,8,keep,clean
+487,Gemüse,vegetable,蔬菜,NOUN,de,B2,9,keep,clean
+622,Irrtum,mistake,错误,NOUN,de,B2,10,keep,clean
+657,Kindheit,childhood,童年,NOUN,de,B2,11,keep,clean
+660,Klamotten,clothes,衣服,NOUN,de,B2,12,keep,clean
+726,Käfig,cage,笼子,NOUN,de,B2,13,keep,clean
+734,Küste,coast,海岸,NOUN,de,B2,14,keep,clean
+740,Lautsprecher,loudspeaker,扬声器,NOUN,de,B2,15,keep,clean
+774,Magen,stomach,胃,NOUN,de,B2,16,keep,clean
+776,Mailbox,answering machine,邮箱,NOUN,de,B2,17,keep,clean
+829,Nachtisch,dessert,甜点,NOUN,de,B2,18,keep,clean
+894,planen,to plan,计划,VERB,de,B2,19,keep,clean
+919,Prüfung,exam,考试,NOUN,de,B2,20,keep,clean
+1053,Sonnenuntergang,sunset,日落,NOUN,de,B2,21,keep,clean
+1123,Teppich,carpet,地毯,NOUN,de,B2,22,keep,clean
+1281,weltweit,worldwide,全世界的,ADJ,de,B2,23,keep,clean
+1302,Wissenschaftler,scientist,科学家,NOUN,de,B2,24,keep,clean

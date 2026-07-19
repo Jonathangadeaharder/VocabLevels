@@ -1,13 +1,10 @@
 Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 آخر,last,最后的,ADJ
 آه,ah,啊,INTJ
-أتاي,tea,茶,NOUN
 أجنبي,foreigner,外国人,NOUN
 ألف,thousand,千,NUM
 أنا,I,我,PRON
 أول,first,第一,ADJ
-إمتا,when,什么时候,ADV
-إييه,yes,是的,INTJ
 أخضر,green,绿色的,ADJ
 باب,door,门,NOUN
 أب,father,父亲,NOUN
@@ -25,7 +22,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بطاقة,card,卡片,NOUN
 بعد,after,在...之后,ADP
 بعيد,far,远的,ADJ
-بغى,want,想要,VERB
 بقرة,cow,牛,NOUN
 بقى,stay/remain,停留/留下,VERB
 بكري,early,早的,ADV
@@ -51,15 +47,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تفاح,apple,苹果,NOUN
 تفتيش,inspection,检查,NOUN
 تفكر,think,思考,VERB
-تقاشر,socks,袜子,NOUN
-تقيل,heavy,重的,ADJ
 تلتناش,thirteen,十三,NUM
-تلفزة,television,电视,NOUN
 تلميذ,student,学生,NOUN
-تمانية,eight,八,NUM
-تمانين,eighty,八十,NUM
 تمشى,walk,走,VERB
-تمنطاش,eighteen,十八,NUM
 تناش,twelve,十二,NUM
 تيران,field,场地,NOUN
 ثانية,second,秒,NOUN
@@ -70,7 +60,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جا,come,来,VERB
 جار,neighbor,邻居,NOUN
 جامع,mosque,清真寺,NOUN
-جاوب,answer,回答,VERB
 جبل,mountain,山,NOUN
 جد,grandfather,祖父,NOUN
 جدة,grandmother,祖母,NOUN
@@ -81,7 +70,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جزار,butcher,屠夫,NOUN
 جفاف,dryness,干燥,NOUN
 جفف,dry,弄干,VERB
-جلبانة,peas,豌豆,NOUN
 جلد,skin,皮肤,NOUN
 جلس,sit,坐,VERB
 جمارك,customs,海关,NOUN
@@ -96,7 +84,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حبس,imprisonment,监禁,NOUN
 حجبان,eyebrows,眉毛,NOUN
 حجرة,room,房间,NOUN
-حدش,eleven,十一,NUM
 حدود,borders,边界,NOUN
 حدودية,border,边界的,ADJ
 حديقة,garden,花园,NOUN
@@ -124,7 +111,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 خاف,fear,害怕,VERB
 خال,maternal uncle,舅舅,NOUN
 خالة,maternal aunt,姨妈,NOUN
-خاوي,empty,空的,ADJ
 خباز,baker,面包师,NOUN
 خبز,bread,面包,NOUN
 أخذ,take,拿,VERB
@@ -219,14 +205,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سماء,sky,天空,NOUN
 سمع,hear,听见,VERB
 أسنان,teeth,牙齿,NOUN
-سحاب,zipper,拉链,NOUN
 سوق,market,市场,NOUN
 سأل,ask,询问,VERB
 سياحة,tourism,旅游,NOUN
 أسبوع,week,周,NOUN
 سينما,cinema,电影院,NOUN
 شاحن,charger,充电器,NOUN
-شاف,see,看见,VERB
 شال,scarf/shawl,围巾,NOUN
 شتاء,winter,冬天,NOUN
 شجاع,brave,勇敢的,ADJ
@@ -281,7 +265,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سقط,fall,掉落,VERB
 طار,fly,飞,VERB
 قبعة,cap,帽子,NOUN
-تاكسي,taxi,出租车,NOUN
 طالب,student,学生,NOUN
 طيب,good/cooked,好的/熟的,ADJ
 طباخ,cook,厨师,NOUN
@@ -395,7 +378,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كِلَا,both,两者,DET
 كَلْب,dog,狗,NOUN
 كُوَافِير,hairdresser,理发师,NOUN
-كُورْجِيت,zucchini,西葫芦,NOUN
 مطبخ,kitchen,厨房,NOUN
 حافلة,bus,公共汽车,NOUN
 كيف,how,如何,ADV
@@ -436,8 +418,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مَرِيض,sick,生病的,ADJ
 مَسْخُوط,cursed,被诅咒的,ADJ
 مَسْدُود,blocked,堵塞的,ADJ
-مُسَمَّن,msemmen,摩洛哥煎饼,NOUN
-مَسُوس,tasteless,无味的,ADJ
 قِطّ,cat,猫,NOUN
 مَشَى,walk,走,VERB
 مَطَار,airport,机场,NOUN
@@ -466,7 +446,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ميكانيكي,mechanic,机械师,NOUN
 ميناء,port/harbor,港口,NOUN
 ناس,people,人们,NOUN
-ناشف,dry,干的,ADJ
 ناموسية,mosquito net,蚊帐,NOUN
 أنت,you (masculine),你,PRON
 أنتم,you (plural),你们,PRON
@@ -486,7 +465,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أنف,nose,鼻子,NOUN
 هؤلاء,these,这些,PRON
 هذه,this (feminine),这个,DET
-هانئة,fine/no problem,好的/没问题,ADJ
 ذلك,that (masculine),那个,DET
 أولئك,those,那些,PRON
 تلك,that (feminine),那个,DET

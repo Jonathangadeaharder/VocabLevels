@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-27,agencia,agency,机构,NOUN,es,B1,1,keep,clean
-39,alerta,alert,警觉的,ADJ,es,B1,2,keep,clean
-64,aplauso,applause,掌声,NOUN,es,B1,3,keep,clean
-70,aquello,that (neutral over there),那个事物,PRON,es,B1,4,keep,clean
-72,archivo,file,文件,NOUN,es,B1,5,keep,clean
-78,arriesgado,risky,危险的,ADJ,es,B1,6,keep,clean
-87,asesinar,to murder,谋杀,VERB,es,B1,7,keep,clean
-254,confesar,to confess,承认,VERB,es,B1,8,keep,clean
-276,conversar,to converse,交谈,VERB,es,B1,9,keep,clean
-294,criar,to raise,抚养,VERB,es,B1,10,keep,clean
-305,cultura,culture,文化,NOUN,es,B1,11,keep,clean
-376,ebrio,drunk,醉的,ADJ,es,B1,12,keep,clean
-444,específico,specific,具体的,ADJ,es,B1,13,keep,clean
-492,figura,figure,人物,NOUN,es,B1,14,keep,clean
-589,humo,smoke,烟,NOUN,es,B1,15,keep,clean
-626,instinto,instinct,本能,NOUN,es,B1,16,keep,clean
-631,internacional,international,国际的,ADJ,es,B1,17,keep,clean
-674,liberación,liberation,解放,NOUN,es,B1,18,keep,clean
-722,misericordia,mercy,怜悯,NOUN,es,B1,19,keep,clean
-743,negar,to deny,否认,VERB,es,B1,20,keep,clean
-748,noviembre,November,十一月,NOUN,es,B1,21,keep,clean
-881,sombra,shadow,阴影,NOUN,es,B1,22,keep,clean
-936,violento,violent,暴力的,ADJ,es,B1,23,keep,clean
-940,voluntario,volunteer,志愿者,NOUN,es,B1,24,keep,clean
+61,aparte,aside,另外/ apart,ADV,es,B1,1,keep,clean
+141,borrar,erase,擦除,VERB,es,B1,2,keep,clean
+222,comando,command,命令,NOUN,es,B1,3,keep,clean
+252,conejo,rabbit,兔子,NOUN,es,B1,4,keep,clean
+261,congreso,congress,国会,NOUN,es,B1,5,keep,clean
+266,conspiración,conspiracy,阴谋,NOUN,es,B1,6,keep,clean
+325,deporte,sport,运动,NOUN,es,B1,7,keep,clean
+452,estrategia,strategy,策略,NOUN,es,B1,8,keep,clean
+469,explicación,explanation,解释,NOUN,es,B1,9,keep,clean
+477,fabuloso,fabulous,极好的,ADJ,es,B1,10,keep,clean
+601,impulso,impulse,冲动,NOUN,es,B1,11,keep,clean
+652,junio,June,六月,NOUN,es,B1,12,keep,clean
+668,lento,slow,慢的,ADJ,es,B1,13,keep,clean
+672,leyenda,legend,传说,NOUN,es,B1,14,keep,clean
+694,maleta,suitcase,手提箱,NOUN,es,B1,15,keep,clean
+745,nieto,grandson,孙子,NOUN,es,B1,16,keep,clean
+798,postre,dessert,甜点,NOUN,es,B1,17,keep,clean
+809,producto,product,产品,NOUN,es,B1,18,keep,clean
+820,quemar,to burn,燃烧,VERB,es,B1,19,keep,clean
+830,recuperación,recovery,恢复,NOUN,es,B1,20,keep,clean
+832,región,region,地区,NOUN,es,B1,21,keep,clean
+857,sacerdote,priest,神父,NOUN,es,B1,22,keep,clean
+908,tiroteo,shootout,枪战,NOUN,es,B1,23,keep,clean
+921,término,term,术语,NOUN,es,B1,24,keep,clean

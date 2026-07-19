@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
 3,abajo,down,下面,ADV,es,A1,1,keep,clean
-10,además,besides,此外,ADV,es,A1,2,keep,clean
-19,alguien,someone,某人,PRON,es,A1,3,keep,clean
-45,aún,still,仍然,ADV,es,A1,4,keep,clean
-130,cuándo,when,何时,ADV,es,A1,5,keep,clean
-136,dar,to give,给,VERB,es,A1,6,keep,clean
-166,dulce,sweet,甜的,ADJ,es,A1,7,keep,clean
-217,fuerza,strength,力量,NOUN,es,A1,8,keep,clean
-220,ganar,to win,赢,VERB,es,A1,9,keep,clean
-237,hasta,until/up to,直到,ADP,es,A1,10,keep,clean
-293,locura,madness,疯狂,NOUN,es,A1,11,keep,clean
-295,luego,later,后来,ADV,es,A1,12,keep,clean
-297,línea,line,线,NOUN,es,A1,13,keep,clean
-308,mayor,older,年长的,ADJ,es,A1,14,keep,clean
-323,mismo,same,相同,ADJ,es,A1,15,keep,clean
-328,morir,die,死,VERB,es,A1,16,keep,clean
-358,odio,hate,仇恨,NOUN,es,A1,17,keep,clean
-382,paz,peace,和平,NOUN,es,A1,18,keep,clean
-400,placer,pleasure,快乐,NOUN,es,A1,19,keep,clean
-411,pregunta,question,问题,NOUN,es,A1,20,keep,clean
-417,prisión,prison,监狱,NOUN,es,A1,21,keep,clean
-482,sistema,system,系统,NOUN,es,A1,22,keep,clean
-490,suelo,floor,地板,NOUN,es,A1,23,keep,clean
-559,último,last,最后的,ADJ,es,A1,24,keep,clean
+31,aquí,here,这里,ADV,es,A1,2,keep,clean
+65,caja,box,盒子,NOUN,es,A1,3,keep,clean
+98,cliente,customer,顾客,NOUN,es,A1,4,keep,clean
+113,conocido,acquaintance,熟人,NOUN,es,A1,5,keep,clean
+115,contacto,contact,联系/接触,NOUN,es,A1,6,keep,clean
+206,feliz,happy,快乐的,ADJ,es,A1,7,keep,clean
+227,grande,big,大的,ADJ,es,A1,8,keep,clean
+240,hecho,fact,事实,NOUN,es,A1,9,keep,clean
+249,hombre,man,男人,NOUN,es,A1,10,keep,clean
+259,información,information,信息,NOUN,es,A1,11,keep,clean
+316,mes,month,月,NOUN,es,A1,12,keep,clean
+343,nivel,level,水平,NOUN,es,A1,13,keep,clean
+373,papá,dad,爸爸,NOUN,es,A1,14,keep,clean
+400,placer,pleasure,快乐,NOUN,es,A1,15,keep,clean
+447,reputación,reputation,名声,NOUN,es,A1,16,keep,clean
+464,segundo,second,第二,NUM,es,A1,17,keep,clean
+470,sentir,to feel,感觉,VERB,es,A1,18,keep,clean
+498,tan,so,如此,ADV,es,A1,19,keep,clean
+508,tienda,shop,商店,NOUN,es,A1,20,keep,clean
+510,tipo,type,类型,NOUN,es,A1,21,keep,clean
+531,uno,one,一,NUM,es,A1,22,keep,clean
+548,vivo,alive,活着的,ADJ,es,A1,23,keep,clean
+556,zona,zone,区域,NOUN,es,A1,24,keep,clean

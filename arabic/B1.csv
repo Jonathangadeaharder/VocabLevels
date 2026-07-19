@@ -164,7 +164,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كاراتيه,karate,空手道,NOUN
 تزلج,skiing,滑雪,NOUN
 فروسية,equestrianism,马术,NOUN
-كابتن,captain,队长,NOUN
 بديل,substitute,替补,NOUN
 تبديل,substitution,替换,NOUN
 تدرب,to train,训练,VERB
@@ -260,7 +259,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جنسية,nationality,国籍,NOUN
 إقامة,residence,居住,NOUN
 درب,alley,小巷,NOUN
-ترامواي,tram,有轨电车,NOUN
 رصيف,sidewalk,人行道,NOUN
 إنارة,street lighting,路灯照明,NOUN
 دركي,gendarme,宪兵,NOUN
@@ -297,7 +295,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 وثيقة,document,文件,NOUN
 شريحة,SIM card,SIM 卡,NOUN
 ريزو,network,网络,NOUN
-كونيكسيون,connection,连接,NOUN
 إنترنت,internet,互联网,NOUN
 موقع,website,网站,NOUN
 تطبيق,app,应用程序,NOUN
@@ -412,7 +409,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 صَرِيح,frank,坦率的,ADJ
 مُرِن,flexible,灵活的,ADJ
 عَنِيف,violent,暴力的,ADJ
-خَدُوم,helpful,乐于助人的,ADJ
 طَمَّاع,greedy,贪婪的,ADJ
 حَسُود,envious,嫉妒的,ADJ
 نَصّاب,con artist,骗子,NOUN
@@ -455,7 +451,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ثانوية,high school,高中,NOUN
 إعدادية,middle school,初中,NOUN
 باكالوريا,baccalaureate,高中毕业会考,NOUN
-دبلوم,diploma,文凭,NOUN
 منحة,scholarship,奖学金,NOUN
 مسطرة,ruler,尺子,NOUN
 ممحاة,eraser,橡皮,NOUN
@@ -591,7 +586,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 عدوى,infection,感染,NOUN
 ميكروب,germ,细菌,NOUN
 فيتامين,vitamin,维生素,NOUN
-ريجيم,diet,节食,NOUN
 سمنة,obesity,肥胖,NOUN
 نظافة,hygiene,卫生,NOUN
 نصيحة,advice,建议,NOUN
@@ -685,23 +679,17 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تَدَابَزَ,to brawl,斗殴,VERB
 تَعَارَكَ,to quarrel,争吵,VERB
 عَيَّرَ,to insult,侮辱,VERB
-تَصَنَّطَ,to eavesdrop,偷听,VERB
 صَابَ,to strike,击中,VERB
-وَضَّبَ,to tidy,整理,VERB
 نَقَّى,to clean,清理,VERB
 نَشَّفَ,to dry,弄干,VERB
 خَنَّزَ,to stink,发臭,VERB
 وَالَفَ,to get used to,习惯于,VERB
 قَنْطَرَة,bridge,桥,NOUN
 قَاسٍ,hard,坚硬的,ADJ
-مُعَمَّر,full,满的,ADJ
 مُعَوَّج,crooked,弯曲的,ADJ
-مَزْرُوب,in a hurry,匆忙的,ADJ
 مَهْبُول,crazy,疯狂的,ADJ
 نَاضِي,ready,准备好的,ADJ
-مَحْشُوم,modest,谦虚的,ADJ
 حَرِش,rough,粗糙的,ADJ
-مَبْلُول,wet,湿的,ADJ
 مَبْرُوم,twisted,扭曲的,ADJ
 مَفْشُوش,deflated,泄气的,ADJ
 مَنْفُوخ,inflated,膨胀的,ADJ
@@ -709,11 +697,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مُوَالِف,accustomed,习惯的,ADJ
 طَبَلَة,table,桌子,NOUN
 حَصِيرَة,mat,垫子,NOUN
-برمة,cooking pot,炖锅,NOUN
 كسكاس,couscous steamer,古斯古斯蒸锅,NOUN
 مجمر,brazier,火盆,NOUN
 رضومة,glass bottle,玻璃瓶,NOUN
-طيفور,low round table,矮圆桌,NOUN
 دراز,weaver,织布工,NOUN
 برطال,small room,小房间,NOUN
 كوري,shack,棚屋,NOUN
@@ -725,10 +711,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جير,lime,石灰,NOUN
 زرادية,pliers,钳子,NOUN
 شاقور,axe,斧头,NOUN
-مارطو,hammer,锤子,NOUN
 منشار,saw,锯子,NOUN
 برينة,drill,钻头,NOUN
-كولة,glue,胶水,NOUN
 جوان,gasket,垫圈,NOUN
 طوبة,brick,砖,NOUN
 شانطي,construction site,建筑工地,NOUN
@@ -738,7 +722,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كانون,clay stove,陶炉,NOUN
 مهراز,trowel,抹刀,NOUN
 مصفاية,colander,滤锅,NOUN
-كيسان,tea glasses,茶杯,NOUN
 بلار,crystal glass,水晶玻璃,NOUN
 قصعة,large serving bowl,大盛碗,NOUN
 درابزين,railing,栏杆,NOUN
@@ -769,7 +752,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كسلان,lazy,懒惰的,ADJ
 بلدي,local,本地的,ADJ
 رومي,European,欧洲的,ADJ
-بالي,worn out,破旧的,ADJ
 ممزق,ragged,破烂的,ADJ
 معفن,moldy,发霉的,ADJ
 مفلس,penniless,身无分文的,ADJ
@@ -780,7 +762,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مرضعة,wet nurse,奶妈,NOUN
 تسنين,teething,长牙,NOUN
 مشاية,baby walker,婴儿学步车,NOUN
-دلل,to spoil a child,溺爱孩子,VERB
 مدلل,spoiled child,被宠坏的孩子,NOUN
 ربى,to raise a child,抚养孩子,VERB
 بشر,human being,人类,NOUN
@@ -790,4 +771,3 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كريم,cream,乳霜,NOUN
 شامبو,shampoo,洗发水,NOUN
 شفرة,razor blade,刀片,NOUN
-ملوي,layered flatbread,千层饼,NOUN

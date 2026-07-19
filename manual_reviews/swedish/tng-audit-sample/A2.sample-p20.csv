@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-9,försök,attempt,尝试,NOUN,sv,A2,1,keep,clean
-17,gifta,marry,结婚,VERB,sv,A2,2,keep,clean
-42,hämta,fetch,取,VERB,sv,A2,3,keep,clean
-63,jaha,oh,哦,INTJ,sv,A2,4,keep,clean
-88,lite,a little,一点,ADV,sv,A2,5,keep,clean
-91,läge,situation,情况,NOUN,sv,A2,6,keep,clean
-135,redan,already,已经,ADV,sv,A2,7,keep,clean
-141,roll,role,角色,NOUN,sv,A2,8,keep,clean
-156,sig,oneself,自己,PRON,sv,A2,9,keep,clean
-164,skalle,skull,头骨,NOUN,sv,A2,10,keep,clean
-184,säker,sure/safe,确定的,ADJ,sv,A2,11,keep,clean
-205,tvungen,forced,被迫的,ADJ,sv,A2,12,keep,clean
-213,ursäkt,excuse,借口,NOUN,sv,A2,13,keep,clean
-219,val,choice,选择,NOUN,sv,A2,14,keep,clean
-235,än,than,比,ADP,sv,A2,15,keep,clean
+5,förlåt,sorry,对不起,INTJ,sv,A2,1,keep,clean
+21,gälla,apply/be valid,适用/有效,VERB,sv,A2,2,keep,clean
+23,gång,time/occasion,次/回,NOUN,sv,A2,3,keep,clean
+35,historia,history/story,历史/故事,NOUN,sv,A2,4,keep,clean
+86,lika,equally,同样地,ADV,sv,A2,5,keep,clean
+94,längre,longer,更长的,ADJ,sv,A2,6,keep,clean
+102,mig,me,我,PRON,sv,A2,7,keep,clean
+107,mot,against,反对,ADP,sv,A2,8,keep,clean
+152,senaste,latest,最新的,ADJ,sv,A2,9,keep,clean
+178,strax,shortly,不久,ADV,sv,A2,10,keep,clean
+185,säker,surely/safe,肯定地,ADV,sv,A2,11,keep,clean
+211,uppe,up,在上面,ADV,sv,A2,12,keep,clean
+215,ut,out,出去,ADV,sv,A2,13,keep,clean
+223,varsågod,here you go,请,INTJ,sv,A2,14,keep,clean
+233,värre,worse,更糟,ADJ,sv,A2,15,keep,clean
 245,adress,address,地址,NOUN,sv,A2,16,keep,clean
-246,advokat,lawyer,律师,NOUN,sv,A2,17,keep,clean
-251,allihopa,all of them,大家,PRON,sv,A2,18,keep,clean
-256,andas,breathe,呼吸,VERB,sv,A2,19,keep,clean
-259,anse,consider,认为,VERB,sv,A2,20,keep,clean
-296,dessutom,besides,此外,ADV,sv,A2,21,keep,clean
-299,diskutera,discuss,讨论,VERB,sv,A2,22,keep,clean
-313,engelska,English,英语,NOUN,sv,A2,23,keep,clean
+247,affär,shop,商店,NOUN,sv,A2,17,keep,clean
+257,angående,regarding,关于,ADP,sv,A2,18,keep,clean
+260,ansvar,responsibility,责任,NOUN,sv,A2,19,keep,clean
+275,bestämd,determined/definite,确定的,ADJ,sv,A2,20,keep,clean
+294,definitivt,definitely,肯定地,ADV,sv,A2,21,keep,clean
+298,detsamma,the same,同样的,PRON,sv,A2,22,keep,clean
+301,djur,animal,动物,NOUN,sv,A2,23,keep,clean

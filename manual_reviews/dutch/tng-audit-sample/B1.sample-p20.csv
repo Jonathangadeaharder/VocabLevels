@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-21,rivier,river,河流,NOUN,nl,B1,1,keep,clean
-37,trouwens,by the way,顺便说一下,ADV,nl,B1,2,keep,clean
-44,groen,green,绿色的,ADJ,nl,B1,3,keep,clean
-48,reizen,to travel,旅行,VERB,nl,B1,4,keep,clean
-64,vlucht,flight,航班,NOUN,nl,B1,5,keep,clean
-67,absoluut,absolute,绝对的,ADJ,nl,B1,6,keep,clean
-76,omstandigheid,circumstance,情况,NOUN,nl,B1,7,keep,clean
-88,hiervan,of this,关于这个,ADV,nl,B1,8,keep,clean
-102,blauw,blue,蓝色的,ADJ,nl,B1,9,keep,clean
-112,zulke,such,这样的,DET,nl,B1,10,keep,clean
-165,berichten,to inform,通知,VERB,nl,B1,11,keep,clean
-197,voet,foot,脚,NOUN,nl,B1,12,keep,clean
-275,wens,wish,愿望,NOUN,nl,B1,13,keep,clean
-282,dansen,to dance,跳舞,VERB,nl,B1,14,keep,clean
-294,pad,path,小路,NOUN,nl,B1,15,keep,clean
-304,adres,address,地址,NOUN,nl,B1,16,keep,clean
-348,vis,fish,鱼,NOUN,nl,B1,17,keep,clean
-351,bepalen,to determine,决定,VERB,nl,B1,18,keep,clean
-361,golf,wave,波浪,NOUN,nl,B1,19,keep,clean
-389,taak,task,任务,NOUN,nl,B1,20,keep,clean
-408,oorspronkelijk,original,最初的,ADJ,nl,B1,21,keep,clean
-444,overig,other,其余的,ADJ,nl,B1,22,keep,clean
-471,zak,bag,袋子,NOUN,nl,B1,23,keep,clean
-491,uitzenden,to broadcast,广播,VERB,nl,B1,24,keep,clean
+7,winnaar,winner,获胜者,NOUN,nl,B1,1,keep,clean
+19,onderweg,on the way,在路上,ADV,nl,B1,2,keep,clean
+59,gouden,golden,金色的,ADJ,nl,B1,3,keep,clean
+63,ochtend,morning,早晨,NOUN,nl,B1,4,keep,clean
+96,totdat,until,直到,SCONJ,nl,B1,5,keep,clean
+97,vervoer,transport,交通,NOUN,nl,B1,6,keep,clean
+168,honger,hunger,饥饿,NOUN,nl,B1,7,keep,clean
+183,buitenlands,foreign,外国的,ADJ,nl,B1,8,keep,clean
+210,langzaam,slow,慢的,ADJ,nl,B1,9,keep,clean
+226,hè,hey,嘿,INTJ,nl,B1,10,keep,clean
+270,selectie,selection,选择,NOUN,nl,B1,11,keep,clean
+279,bedoeling,intention,意图,NOUN,nl,B1,12,keep,clean
+313,leveren,to deliver,交付,VERB,nl,B1,13,keep,clean
+316,raar,weird,奇怪的,ADJ,nl,B1,14,keep,clean
+319,verwijderen,to remove,移除,VERB,nl,B1,15,keep,clean
+335,eenheid,unit,单位,NOUN,nl,B1,16,keep,clean
+340,mevrouw,Madam,女士,NOUN,nl,B1,17,keep,clean
+349,vliegtuig,airplane,飞机,NOUN,nl,B1,18,keep,clean
+374,weg,road,路,NOUN,nl,B1,19,keep,clean
+375,agent,police officer,警察,NOUN,nl,B1,20,keep,clean
+405,kwaad,angry,生气的,ADJ,nl,B1,21,keep,clean
+438,doorgaan,to continue,继续,VERB,nl,B1,22,keep,clean
+513,haven,harbour,港口,NOUN,nl,B1,23,keep,clean
+528,dichter,poet,诗人,NOUN,nl,B1,24,keep,clean

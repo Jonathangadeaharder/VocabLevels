@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-15,bestaan,to exist,存在,VERB,nl,A2,1,keep,clean
-37,gebeuren,to happen,发生,VERB,nl,A2,2,keep,clean
-58,zwart,black,黑色的,ADJ,nl,A2,3,keep,clean
-72,voorbij,past,过去,ADP,nl,A2,4,keep,clean
-76,eiland,island,岛屿,NOUN,nl,A2,5,keep,clean
-87,meerdere,several,几个,PRON,nl,A2,6,keep,clean
-107,volledig,complete,完整的,ADJ,nl,A2,7,keep,clean
-111,gisteren,yesterday,昨天,ADV,nl,A2,8,keep,clean
-138,rust,rest,休息,NOUN,nl,A2,9,keep,clean
-142,energie,energy,能量,NOUN,nl,A2,10,keep,clean
-208,haat,hate,仇恨,NOUN,nl,A2,11,keep,clean
-213,controle,control,控制,NOUN,nl,A2,12,keep,clean
-219,moeite,trouble,麻烦,NOUN,nl,A2,13,keep,clean
-237,bouwen,to build,建造,VERB,nl,A2,14,keep,clean
-264,beschermen,to protect,保护,VERB,nl,A2,15,keep,clean
-281,overzicht,overview,概述,NOUN,nl,A2,16,keep,clean
-285,toegang,access,进入,NOUN,nl,A2,17,keep,clean
-286,zwaar,heavy,重的,ADJ,nl,A2,18,keep,clean
-287,brief,letter,信件,NOUN,nl,A2,19,keep,clean
-289,daarvoor,for that,为此,ADV,nl,A2,20,keep,clean
-307,middel,means,手段,NOUN,nl,A2,21,keep,clean
-322,bouw,construction,建筑,NOUN,nl,A2,22,keep,clean
-340,allen,all,全部,PRON,nl,A2,23,keep,clean
+10,politiek,politics,政治,NOUN,nl,A2,1,keep,clean
+11,staat,state,国家,NOUN,nl,A2,2,keep,clean
+16,ervoor,for it,为此,ADV,nl,A2,3,keep,clean
+29,links,left,左边的,ADJ,nl,A2,4,keep,clean
+43,waarmee,with which,用以,PRON,nl,A2,5,keep,clean
+55,los,loose,松的,ADJ,nl,A2,6,keep,clean
+57,stem,voice,声音,NOUN,nl,A2,7,keep,clean
+63,spel,game,游戏,NOUN,nl,A2,8,keep,clean
+82,stoppen,to stop,停止,VERB,nl,A2,9,keep,clean
+116,ondanks,despite,尽管,ADP,nl,A2,10,keep,clean
+127,wakker,awake,醒着的,ADJ,nl,A2,11,keep,clean
+133,winnen,to win,赢,VERB,nl,A2,12,keep,clean
+144,helft,half,一半,NOUN,nl,A2,13,keep,clean
+167,gezicht,face,脸,NOUN,nl,A2,14,keep,clean
+177,slag,stroke,击,NOUN,nl,A2,15,keep,clean
+184,leggen,to lay,放置,VERB,nl,A2,16,keep,clean
+187,rustig,calm,平静的,ADJ,nl,A2,17,keep,clean
+188,samenwerking,cooperation,合作,NOUN,nl,A2,18,keep,clean
+222,procent,percent,百分比,NOUN,nl,A2,19,keep,clean
+249,oplossing,solution,解决方案,NOUN,nl,A2,20,keep,clean
+300,wegens,because of,由于,ADP,nl,A2,21,keep,clean
+316,winkel,shop,商店,NOUN,nl,A2,22,keep,clean
+333,proces,process,过程,NOUN,nl,A2,23,keep,clean

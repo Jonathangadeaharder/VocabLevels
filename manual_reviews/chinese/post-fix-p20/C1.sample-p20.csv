@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-198,峡谷,canyon,峡谷,NOUN,zh,C1,1,keep,clean
-223,巴结,to fawn on,巴结,VERB,zh,C1,2,keep,clean
-229,布局,layout,布局,NOUN,zh,C1,3,keep,clean
-241,干活,to work,干活,VERB,zh,C1,4,keep,clean
-562,范畴,category,范畴,NOUN,zh,C1,5,keep,clean
-569,层面,level,层面,NOUN,zh,C1,6,keep,clean
-589,精确,precise,精确,ADJ,zh,C1,7,keep,clean
-659,音乐厅,concert hall,音乐厅,NOUN,zh,C1,8,keep,clean
-665,娱乐中心,entertainment center,娱乐中心,NOUN,zh,C1,9,keep,clean
-1011,听证,hearing,听证,NOUN,zh,C1,10,keep,clean
-1335,哈密瓜,cantaloupe,哈密瓜,NOUN,zh,C1,11,keep,clean
-1361,淋巴,lymph,淋巴,NOUN,zh,C1,12,keep,clean
-1484,重建,rebuild,重建,VERB,zh,C1,13,keep,clean
-1705,以太坊,Ethereum,以太坊,NOUN,zh,C1,14,keep,clean
-1719,可再生能源,renewable energy,可再生能源,NOUN,zh,C1,15,keep,clean
-1790,锣,gong,锣,NOUN,zh,C1,16,keep,clean
-2303,固态硬盘,solid-state drive,固态硬盘,NOUN,zh,C1,17,keep,clean
-2309,便签,sticky note,便签,NOUN,zh,C1,18,keep,clean
-2371,风力,wind force,风力,NOUN,zh,C1,19,keep,clean
-2443,测速,speed measurement,测速,NOUN,zh,C1,20,keep,clean
-2451,车险,car insurance,车险,NOUN,zh,C1,21,keep,clean
-2800,评标,bid evaluation,评标,NOUN,zh,C1,22,keep,clean
-2928,季报,quarterly report,季报,NOUN,zh,C1,23,keep,clean
-2962,宣读,read out,宣读,VERB,zh,C1,24,keep,clean
+36,学历,educational background,学历,NOUN,zh,C1,1,keep,clean
+73,实验室,laboratory,实验室,NOUN,zh,C1,2,keep,clean
+273,应酬,socialize,应酬,VERB,zh,C1,3,keep,clean
+515,懂得,to understand,懂得,VERB,zh,C1,4,keep,clean
+707,债务,debt,债务,NOUN,zh,C1,5,keep,clean
+711,产值,output value,产值,NOUN,zh,C1,6,keep,clean
+769,生产者,producer,生产者,NOUN,zh,C1,7,keep,clean
+993,租赁,lease,租赁,NOUN,zh,C1,8,keep,clean
+1006,初审,first instance,初审,NOUN,zh,C1,9,keep,clean
+1125,私债,private debt,私债,NOUN,zh,C1,10,keep,clean
+1283,彩椒,bell pepper,彩椒,NOUN,zh,C1,11,keep,clean
+1437,拍片,take an x-ray,拍片,VERB,zh,C1,12,keep,clean
+1509,石油,petroleum,石油,NOUN,zh,C1,13,keep,clean
+1536,填埋,landfill,填埋,NOUN,zh,C1,14,keep,clean
+1675,显卡,graphics card,显卡,NOUN,zh,C1,15,keep,clean
+1878,冷漠,indifferent,冷漠,ADJ,zh,C1,16,keep,clean
+1996,面对,confront,面对,VERB,zh,C1,17,keep,clean
+2281,面巾,face towel,面巾,NOUN,zh,C1,18,keep,clean
+2673,中部,middle part,中部,NOUN,zh,C1,19,keep,clean
+2684,右面,right side,右面,NOUN,zh,C1,20,keep,clean
+2771,育苗,raise seedlings,育苗,VERB,zh,C1,21,keep,clean
+2788,批发,wholesale,批发,NOUN,zh,C1,22,keep,clean
+2942,献血,donate blood,献血,VERB,zh,C1,23,keep,clean
+2991,掺假,adulterate,掺假,VERB,zh,C1,24,keep,clean

@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-29,aquella,that,那个,DET,es,A2,1,keep,clean
-50,banda,band,乐队,NOUN,es,A2,2,keep,clean
-61,borracho,drunk,醉酒的,ADJ,es,A2,3,keep,clean
-110,cola,queue,队列,NOUN,es,A2,4,keep,clean
-145,corte,cut,切口,NOUN,es,A2,5,keep,clean
-178,descubierto,uncovered,发现的,ADJ,es,A2,6,keep,clean
-180,desgracia,misfortune,不幸,NOUN,es,A2,7,keep,clean
-200,don,gift,天赋,NOUN,es,A2,8,keep,clean
-207,efecto,effect,效果,NOUN,es,A2,9,keep,clean
-211,embarazada,pregnant,怀孕的,ADJ,es,A2,10,keep,clean
-237,espejo,mirror,镜子,NOUN,es,A2,11,keep,clean
-246,estudio,study,学习,NOUN,es,A2,12,keep,clean
-249,evitar,to avoid,避免,VERB,es,A2,13,keep,clean
-250,exacto,exact,精确的,ADJ,es,A2,14,keep,clean
-255,explicar,to explain,解释,VERB,es,A2,15,keep,clean
-326,ladrón,thief,小偷,NOUN,es,A2,16,keep,clean
-417,pescado,fish,鱼,NOUN,es,A2,17,keep,clean
-442,presión,pressure,压力,NOUN,es,A2,18,keep,clean
+72,caer,to fall,落下,VERB,es,A2,1,keep,clean
+73,calma,calm,平静,NOUN,es,A2,2,keep,clean
+93,cerrado,closed,关闭的,ADJ,es,A2,3,keep,clean
+97,charla,chat,聊天,NOUN,es,A2,4,keep,clean
+106,clave,key,钥匙,NOUN,es,A2,5,keep,clean
+110,cola,queue,队列,NOUN,es,A2,6,keep,clean
+132,contado,cash,现金,ADJ,es,A2,7,keep,clean
+160,cámara,camera,相机,NOUN,es,A2,8,keep,clean
+165,decidido,determined,坚定的,ADJ,es,A2,9,keep,clean
+228,escapar,to escape,逃跑,VERB,es,A2,10,keep,clean
+249,evitar,to avoid,避免,VERB,es,A2,11,keep,clean
+311,inteligencia,intelligence,智力,NOUN,es,A2,12,keep,clean
+397,pan,bread,面包,NOUN,es,A2,13,keep,clean
+412,película,movie,电影,NOUN,es,A2,14,keep,clean
+421,pierna,leg,腿,NOUN,es,A2,15,keep,clean
+429,playa,beach,海滩,NOUN,es,A2,16,keep,clean
+455,próximo,next,下一个,ADJ,es,A2,17,keep,clean
+460,queso,cheese,奶酪,NOUN,es,A2,18,keep,clean
 461,recibir,to receive,收到,VERB,es,A2,19,keep,clean
-511,soportar,to endure,忍受,VERB,es,A2,20,keep,clean
-559,ventaja,advantage,优势,NOUN,es,A2,21,keep,clean
-564,versión,version,版本,NOUN,es,A2,22,keep,clean
-565,viajar,travel,旅行,VERB,es,A2,23,keep,clean
-578,época,era,时代,NOUN,es,A2,24,keep,clean
+521,tamaño,size,尺寸,NOUN,es,A2,20,keep,clean
+564,versión,version,版本,NOUN,es,A2,21,keep,clean
+567,viento,wind,风,NOUN,es,A2,22,keep,clean
+573,voluntad,will,意志,NOUN,es,A2,23,keep,clean
+579,útil,useful,有用的,ADJ,es,A2,24,keep,clean
