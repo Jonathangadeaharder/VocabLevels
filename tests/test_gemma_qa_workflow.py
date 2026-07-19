@@ -17,7 +17,7 @@ from scripts.gemma_qa.cefr import (
 )
 from scripts.gemma_qa.cli import main
 from scripts.gemma_qa.client import GemmaClient, GenerationResult, Usage
-from scripts.gemma_qa.config import MODEL_26B, MODEL_31B, MODEL_ADJUDICATION, get_api_key
+from scripts.gemma_qa.config import MODEL_31B, get_api_key
 from scripts.gemma_qa.ledger import Checkpoint, Ledger, prompt_hash
 from scripts.gemma_qa.prompts import build_cefr_prompt
 from scripts.gemma_qa.schemas import CefrInputRow, CefrReviewBatch

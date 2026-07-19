@@ -17,8 +17,6 @@ from .model_strategies import (
     WIRE_GEMMA,
     WIRE_GLM_51,
     WIRE_GLM_52,
-    WIRE_QWEN_35B,
-    WIRE_QWEN_397B,
     active_strategy_keys,
     get_strategy,
 )

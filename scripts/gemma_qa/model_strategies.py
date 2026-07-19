@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import os
 import re
-from abc import ABC, abstractmethod
+from abc import ABC
 from dataclasses import dataclass
 from typing import ClassVar, Final
 

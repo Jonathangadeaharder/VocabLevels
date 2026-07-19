@@ -11,14 +11,14 @@ from pydantic import BaseModel, ValidationError
 from .client import GenerationResult, Usage
 # Antigravity retired; module kept only so old imports do not crash tools.
 from .config import API_BASE, get_api_key
+from .packing import TiktokenEstimator, TokenEstimator
+from .quota import QuotaGate
+from .trace import event, extract_thoughts, log_bodies_enabled, summarize_parsed
 
 ANTIGRAVITY_API_REVISION = "retired"
 ANTIGRAVITY_INPUT_TOKEN_CAP = 1
 INTERACTIONS_PATH = "/v1beta/interactions"
 MODEL_ANTIGRAVITY = "antigravity-preview-05-2026-retired"
-from .packing import TiktokenEstimator, TokenEstimator
-from .quota import QuotaGate
-from .trace import event, extract_thoughts, log_bodies_enabled, summarize_parsed
 
 ResponseT = TypeVar("ResponseT", bound=BaseModel)
 PRODUCTION_TIMEOUT = httpx.Timeout(connect=30, read=300, write=300, pool=300)

@@ -10,12 +10,10 @@ from pathlib import Path
 import pytest
 
 from scripts.gemma_qa.arabic_dialect import (
-    LEVELS as AR_LEVELS,
     classify_ar_lemma,
     load_inventory,
     scan_arabic_lists,
     score_sample_row,
-    strip_ar_diacritics,
 )
 
 ROOT = Path(__file__).resolve().parents[1]

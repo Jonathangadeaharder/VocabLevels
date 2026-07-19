@@ -458,7 +458,7 @@ def main(argv: list[str] | None = None) -> int:
                 / "ALL.sample-p20.csv"
             ).exists()
         ):
-            print(f"skip en (existing REVIEWED pack)")
+            print("skip en (existing REVIEWED pack)")
             continue
         out = build_for_language(
             root,

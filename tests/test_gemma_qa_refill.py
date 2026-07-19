@@ -25,7 +25,7 @@ from scripts.gemma_qa.cefr_refill import (
     load_other_level_collision_keys,
 )
 from scripts.gemma_qa.client import GemmaClient, GenerationResult, Usage
-from scripts.gemma_qa.config import MODEL_26B, MODEL_31B, MODEL_ADJUDICATION, INPUT_BATCH_TOKEN_CAP
+from scripts.gemma_qa.config import MODEL_26B, MODEL_31B, INPUT_BATCH_TOKEN_CAP
 from scripts.gemma_qa.ledger import Checkpoint, Ledger, prompt_hash
 from scripts.gemma_qa.language_repair import german_row_issues
 from scripts.gemma_qa.packing import TiktokenEstimator

@@ -28,8 +28,6 @@ from .client import GenerationResult
 from .config import (
     DUAL_POOL,
     INPUT_BATCH_TOKEN_CAP,
-    MODEL_26B,
-    MODEL_31B,
     MODEL_IDS,
     default_batch_concurrency,
     probe_optional_models,

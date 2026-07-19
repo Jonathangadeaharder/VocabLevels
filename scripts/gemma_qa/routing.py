@@ -16,7 +16,6 @@ from pydantic import BaseModel
 from .client import GemmaClient, GenerationResult
 from .config import (
     ACTIVE_POOL,
-    MODEL_ADJUDICATION,
     MODEL_IDS,
     is_model_available,
     model_free_slots,
