@@ -1,0 +1,25 @@
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+15,grens,border,边界,NOUN,nl,B1,1,keep,clean
+17,locatie,location,地点,NOUN,nl,B1,2,keep,clean
+77,onderwerp,subject,主题,NOUN,nl,B1,3,keep,clean
+94,tegenover,opposite,在...对面,ADP,nl,B1,4,keep,clean
+111,verdwijnen,to disappear,消失,VERB,nl,B1,5,keep,clean
+125,kleding,clothing,服装,NOUN,nl,B1,6,keep,clean
+174,veld,field,田野,NOUN,nl,B1,7,keep,clean
+178,waarvoor,for what,为了什么,ADV,nl,B1,8,keep,clean
+206,hangen,to hang,悬挂,VERB,nl,B1,9,keep,clean
+275,wens,wish,愿望,NOUN,nl,B1,10,keep,clean
+294,pad,path,小路,NOUN,nl,B1,11,keep,clean
+299,twijfel,doubt,怀疑,NOUN,nl,B1,12,keep,clean
+313,leveren,to deliver,交付,VERB,nl,B1,13,keep,clean
+368,sfeer,atmosphere,气氛,NOUN,nl,B1,14,keep,clean
+369,slim,smart,聪明的,ADJ,nl,B1,15,keep,clean
+377,betekenen,to mean,意味着,VERB,nl,B1,16,keep,clean
+384,jaarlijks,annual,每年的,ADJ,nl,B1,17,keep,clean
+432,vertrekken,to leave,离开,VERB,nl,B1,18,keep,clean
+442,ontwerpen,to design,设计,VERB,nl,B1,19,keep,clean
+453,Europees,European,欧洲的,ADJ,nl,B1,20,keep,clean
+507,aanwezigheid,presence,出席,NOUN,nl,B1,21,keep,clean
+510,dier,animal,动物,NOUN,nl,B1,22,keep,clean
+519,theorie,theory,理论,NOUN,nl,B1,23,keep,clean
+520,toon,tone,语调,NOUN,nl,B1,24,keep,clean

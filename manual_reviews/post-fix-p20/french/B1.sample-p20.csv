@@ -1,0 +1,25 @@
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+fr,B1,1,300,désir,desire,欲望,NOUN,keep,clean
+fr,B1,2,606,piste,track,跑道,NOUN,keep,clean
+fr,B1,3,708,quand,when,当……时,SCONJ,keep,clean
+fr,B1,4,246,diable,devil,魔鬼,NOUN,keep,clean
+fr,B1,5,715,quatorze,fourteen,十四,NUM,keep,clean
+fr,B1,6,29,alimentation,food,食物,NOUN,keep,clean
+fr,B1,7,418,héritage,inheritance,遗产,NOUN,keep,clean
+fr,B1,8,61,assaisonner,to season,调味,VERB,keep,clean
+fr,B1,9,626,pourriel,spam,垃圾邮件,NOUN,keep,clean
+fr,B1,10,829,retenir,to retain,保留,VERB,keep,clean
+fr,B1,11,467,lassitude,weariness,疲倦,NOUN,keep,clean
+fr,B1,12,786,remarque,remark,评论,NOUN,keep,clean
+fr,B1,13,847,rien,nothing,没有什么,PRON,keep,clean
+fr,B1,14,859,roller,roller skate,轮滑鞋,NOUN,keep,clean
+fr,B1,15,542,métal,metal,金属,NOUN,keep,clean
+fr,B1,16,92,bande-annonce,trailer,预告片,NOUN,keep,clean
+fr,B1,17,719,quel,which,哪个,DET,keep,clean
+fr,B1,18,435,inscription,registration,注册,NOUN,keep,clean
+fr,B1,19,52,apprentissage,learning,学习,NOUN,keep,clean
+fr,B1,20,62,assister,to attend,参加,VERB,keep,clean
+fr,B1,21,653,prompt,quick,迅速的,ADJ,keep,clean
+fr,B1,22,547,naturellement,naturally,自然地,ADV,keep,clean
+fr,B1,23,751,rasoir,razor,剃刀,NOUN,keep,clean
+fr,B1,24,94,baser,to base,基于,VERB,keep,clean

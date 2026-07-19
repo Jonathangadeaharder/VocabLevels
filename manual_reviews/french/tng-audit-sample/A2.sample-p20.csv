@@ -1,0 +1,24 @@
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+12,agneau,lamb,羔羊,NOUN,fr,A2,1,keep,clean
+53,bas,low,低的,ADJ,fr,A2,2,keep,clean
+60,belle-soeur,sister-in-law,嫂子,NOUN,fr,A2,3,keep,clean
+98,charge,load,负载,NOUN,fr,A2,4,keep,clean
+107,cinéma,cinema,电影院,NOUN,fr,A2,5,keep,clean
+135,contrôle,control,控制,NOUN,fr,A2,6,keep,clean
+141,crevette,shrimp,虾,NOUN,fr,A2,7,keep,clean
+150,célibataire,single,单身的,ADJ,fr,A2,8,keep,clean
+153,côte,coast,海岸,NOUN,fr,A2,9,keep,clean
+155,demande,request,请求,NOUN,fr,A2,10,keep,clean
+156,dentifrice,toothpaste,牙膏,NOUN,fr,A2,11,keep,clean
+258,lycée,high school,高中,NOUN,fr,A2,12,keep,clean
+333,occuper,to occupy,占据,VERB,fr,A2,13,keep,clean
+358,outil,tool,工具,NOUN,fr,A2,14,keep,clean
+361,où,where,哪里,ADV,fr,A2,15,keep,clean
+363,paire,pair,一对,NOUN,fr,A2,16,keep,clean
+366,palmier,palm tree,棕榈树,NOUN,fr,A2,17,keep,clean
+369,pantoufle,slipper,拖鞋,NOUN,fr,A2,18,keep,clean
+422,persil,parsley,欧芹,NOUN,fr,A2,19,keep,clean
+441,pire,worse,更糟,ADJ,fr,A2,20,keep,clean
+490,poumon,lung,肺,NOUN,fr,A2,21,keep,clean
+500,presse,press,新闻界,NOUN,fr,A2,22,keep,clean
+518,produit,product,产品,NOUN,fr,A2,23,keep,clean

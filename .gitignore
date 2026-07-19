@@ -49,3 +49,9 @@ htmlcov/
 
 # ZCode agent session state
 .zcode/
+
+# Gemma QA checkpoints and proposals
+.gemma_qa/
+*.proposed.csv
+*.proposed.conllu
+*.reviewed.csv

@@ -1,601 +1,581 @@
 German_Lemma,English_Lemma,Chinese_Lemma,POS
-ab,from / off,,ADP
-Abend,evening,,NOUN
-Ahnung,clue,,NOUN
-all,all,,DET
-alle,all,,DET
-allein,alone,,ADV
-allem,all (dat),,DET
-allen,all (dative),,DET
-alles,everything,,DET
-als,as / when,,ADP
-also,so,,ADV
-alt,old,,ADJ
-alte,old,,NOUN
-alten,old (acc/dat),,ADJ
-Alter,age,,NOUN
-am,at the,,ADP
-an,at / on,,ADP
-andere,other,,DET
-anderen,other (acc/dat),,DET
-anderes,other (neut),,DET
-anders,different,,ADV
-angerufen,called (phone),,VERB
-Arbeit,work,,NOUN
-arbeiten,to work,,VERB
-Arsch,ass,,NOUN
-Art,kind / type,,NOUN
-Arzt,doctor,,NOUN
-auch,also,,ADV
-auf,on,,ADP
-Augen,eyes,,NOUN
-aus,from,,ADP
-Auto,car,,NOUN
-Baby,baby,,NOUN
-bald,soon,,ADV
-bedeutet,means,,VERB
-Begrüßung,greeting,,NOUN
-bei,at,,ADP
-beide,both,,DET
-bekommen,to receive,,VERB
-bereit,ready,,ADJ
-bereits,already,,ADV
-besser,better,,ADJ
-beste,best,,NOUN
-besten,best,,ADJ
-bestimmt,definitely,,VERB
-Bett,bed,,NOUN
-bevor,before,,SCONJ
-bin,am,,AUX
-bis,until,,ADP
-bisschen,a little,,ADV
-bist,are (you),,AUX
-bitte,please,,INTJ
-bleib,stay,,VERB
-bleiben,to stay,,VERB
-Blumen,flowers,,NOUN
-brauche,need (I),,VERB
-brauchen,to need,,VERB
-brauchst,need (you),,VERB
-braucht,needs,,VERB
-bringen,to bring,,VERB
-bringt,brings,,VERB
-Bruder,brother,,NOUN
-Buch,book,,NOUN
-Büro,office,,NOUN
-Chance,chance,,NOUN
-da,there,,ADV
-dabei,with it,,ADV
-dachte,thought,,VERB
-dafür,for it,,ADV
-damals,back then,,ADV
-damit,so that,,ADV
-Dank,thanks,,NOUN
-dann,then,,ADV
-darauf,on it,,ADV
-darüber,about it,,ADV
-darum,therefore,,ADV
-das,the / that,,PRON
-dass,that,,SCONJ
-davon,from it,,ADV
-dazu,to it,,ADV
-dein,your,,DET
-deinem,your (dat),,PRON
-deinen,your (acc),,DET
-deiner,your (fem dat),,PRON
-dem,the (dative),,PRON
-den,the (accusative),,DET
-denen,those,,PRON
-denke,think (I),,VERB
-denkst,think (you),,VERB
-denn,because,,ADV
-der,the,,PRON
-des,of the,,DET
-deshalb,therefore,,ADV
-dich,you (accusative),,PRON
-die,the,,PRON
-diese,these,,DET
-diesem,this (dat),,DET
-diesen,this (acc),,DET
-dieser,this,,DET
-dieses,this (neut),,DET
-Dinge,things,,NOUN
-dir,you (dative),,PRON
-direkt,direct,,ADJ
-doch,but,,ADV
-Doktor,doctor,,NOUN
-dort,there,,ADV
-draußen,outside,,ADV
-drei,three,,NUM
-du,you,,PRON
-durch,through,,ADP
-dürfen,to be allowed,,AUX
-eben,just,,ADV
-echt,real,,ADJ
-ehrlich,honest,,ADJ
-eigenen,own (acc/pl),,ADJ
-eigentlich,actually,,ADJ
-ein,a / one,,DET
-eine,a,,DET
-einem,a (dative),,DET
-einen,a (accusative),,DET
-einer,one,,DET
-eines,of a (genitive),,DET
-einfach,easy,,ADJ
-einmal,once,,ADV
-Eltern,parents,,NOUN
-Ende,end,,NOUN
-endlich,finally,,ADV
-Entschuldigung,sorry,,NOUN
-er,he,,PRON
-Ernst,seriousness,,PROPN
-erst,first / only just,,ADV
-erste,first,,ADJ
-ersten,first (acc/dat),,ADJ
-erzählen,to tell,,VERB
-erzählt,tells,,VERB
-es,it,,PRON
-essen,to eat,,VERB
-euch,you (acc),,PRON
-eure,your (pl),,NOUN
-fahren,to drive,,VERB
-Fall,case,,NOUN
-falsch,wrong,,ADJ
-Familie,family,,NOUN
-fand,found,,VERB
-fast,almost,,ADV
-Fehler,mistake,,NOUN
-fertig,ready / done,,ADJ
-Fest,party,,NOUN
-Feuer,fire,,NOUN
-finde,find (I),,VERB
-finden,to find,,VERB
-Frage,question,,NOUN
-fragen,to ask,,VERB
-Frau,woman,,NOUN
-Frauen,women,,NOUN
-frei,free,,ADJ
-Freund,friend,,NOUN
-Freunde,friends,,NOUN
-Freundin,girlfriend,,NOUN
-freut,is glad,,VERB
-froh,glad,,ADJ
-früh,early,,ADJ
-früher,earlier,,ADJ
-funktioniert,works,,VERB
-fünf,five,,NUM
-für,for,,ADP
-gab,gave,,VERB
-ganz,whole,,ADJ
-ganze,whole,,ADJ
-ganzen,whole (acc/dat),,VERB
-gar,not at all,,ADV
-gebe,give (I),,VERB
-geben,to give,,VERB
-gedacht,thought,,VERB
-gefallen,to please,,VERB
-gefällt,pleases,,VERB
-gefunden,found,,VERB
-gegangen,gone,,VERB
-gegeben,given,,VERB
-gegen,against,,ADP
-gehe,go (I),,VERB
-gehen,to go,,VERB
-gehört,heard / belonged,,VERB
-Geld,money,,NOUN
-gemacht,made,,VERB
-genau,exactly,,ADJ
-gerade,just / straight,,ADV
-gern,gladly,,ADV
-gerne,gladly,,ADV
-gesagt,said,,VERB
-geschafft,managed,,VERB
-Geschichte,story,,NOUN
-Gesicht,face,,NOUN
-gestern,yesterday,,ADV
-getan,done,,VERB
-gewesen,been,,AUX
-geworden,become,,VERB
-gibt,gives,,VERB
-ging,went,,VERB
-glaube,believe (I),,VERB
-glauben,to believe,,VERB
-gleich,equal,,ADV
-Glück,luck,,NOUN
-glücklich,happy,,ADJ
-Gott,God,,NOUN
-groß,big,,ADJ
-große,big,,NOUN
-großen,big (acc/dat),,ADJ
-Grund,reason,,NOUN
-gut,good,,ADJ
-gute,good (fem/pl),,NOUN
-guten,good (greeting),,ADJ
-habe,have,,VERB
-haben,to have,,VERB
-habt,have (you pl),,VERB
-Halt,stop,,NOUN
-hält,holds,,VERB
-halten,to stop,,VERB
-Hand,hand,,NOUN
-Hände,hands,,NOUN
-Handy,mobile phone,,NOUN
-hast,have (you),,VERB
-hat,has,,VERB
-hatte,had,,VERB
-hätte,would have,,VERB
-hatten,had (pl),,VERB
-Haus,house,,NOUN
-Hause,home,,NOUN
-heißt,is called,,VERB
-helfen,to help,,VERB
-Herr,Mr.,,NOUN
-Herz,heart,,NOUN
-heute,today,,ADV
-hier,here,,ADV
-hierher,here,,ADV
-Hilfe,help,,NOUN
-hin,towards,,ADV
-hinter,behind,,ADP
-hoch,high,,ADJ
-hoffe,hope (I),,VERB
-holen,to fetch,,VERB
-hör,listen,,VERB
-hören,to hear,,VERB
-hört,hears,,VERB
-Hund,dog,,NOUN
-ich,I,,PRON
-Idee,idea,,NOUN
-ihm,him (dative),,PRON
-ihn,him,,PRON
-ihnen,them (dat),,PRON
-ihr,you (plural),,PRON
-ihrem,her (dat),,DET
-ihren,her / their (acc),,DET
-Ihrer,your (formal dat/gen),,DET
-Ihrerseits,on your part,,ADV
-im,in the,,ADP
-immer,always,,ADV
-in,in,,ADP
-ins,into the,,X
-irgendwie,somehow,,ADV
-ist,is,,AUX
-ja,yes,,ADV
-Jahr,year,,NOUN
-Jahre,years,,NOUN
-Jahren,years (dative),,NOUN
-jeden,every (acc),,DET
-jeder,every,,DET
-jemand,someone,,PRON
-jemanden,someone (acc),,PRON
-jetzt,now,,ADV
-Job,job,,NOUN
-Junge,boy,,NOUN
-Jungs,boys,,NOUN
-Kaffee,coffee,,NOUN
-kam,came,,VERB
-kann,can,,AUX
-kein,no,,DET
-keine,no (fem),,DET
-keinen,no (acc),,DET
-keiner,none,,DET
-kenne,know (I),,VERB
-kennen,to know,,VERB
-Kerl,guy,,NOUN
-Kind,child,,NOUN
-Kinder,children,,NOUN
-klar,clear,,ADJ
-klein,small,,ADJ
-kleine,small (fem/pl),,ADJ
-kleinen,small (acc/dat),,ADJ
-kleiner,smaller,,ADJ
-klingt,sounds,,VERB
-komm,come,,INTJ
-komme,come (I),,VERB
-kommen,to come,,VERB
-kommst,come (you),,VERB
-kommt,comes,,VERB
-König,king,,NOUN
-können,to be able,,AUX
-konnte,could,,AUX
-könnte,could,,AUX
-könnten,could (pl),,AUX
-Kopf,head,,NOUN
-krank,sick,,ADJ
-Krieg,war,,NOUN
-kriegen,to get,,VERB
-kurz,short,,ADJ
-lacht,laughs,,VERB
-Land,country,,NOUN
-lang,long,,ADJ
-lange,long time,,ADJ
-langsam,slowly,,ADJ
-lass,let,,VERB
-lasse,let (I),,VERB
-lassen,to let,,VERB
-lasst,let (pl),,VERB
-lässt,lets,,VERB
-leben,to live,,VERB
-leicht,easy,,ADJ
-leid,sorry,,ADJ
-leider,unfortunately,,ADV
-letzte,last,,ADJ
-letzten,last (acc/dat),,ADJ
-Leute,people,,NOUN
-liebe,love (noun),,NOUN
-lieben,to love,,VERB
-lieber,preferably,,ADJ
-liegt,lies,,VERB
-los,loose / go,,ADV
-Luft,air,,NOUN
-mach,make,,INTJ
-mache,make (I),,VERB
-machen,to make,,VERB
-machst,make (you),,VERB
-macht,makes,,VERB
-Mädchen,girl,,NOUN
-mag,like,,AUX
-mal,times,,ADV
-Mama,mom,,PROPN
-man,one,,PRON
-Mann,man,,NOUN
-Männer,men,,NOUN
-mehr,more,,ADV
-mein,my,,DET
-meine,my (fem/pl),,DET
-meinem,my (dat),,PRON
-meinen,my (acc),,AUX
-meiner,my (fem dat / gen),,PRON
-meines,my (genitive),,DET
-meinst,mean (you),,INTJ
-Menge,amount,,NOUN
-Mensch,person,,NOUN
-Menschen,people,,NOUN
-mich,me,,PRON
-Minuten,minutes,,NOUN
-mir,me (dative),,PRON
-Mist,crap,,NOUN
-mit,with,,ADP
-mitnehmen,to take along,,VERB
-möglich,possible,,ADJ
-Moment,moment,,NOUN
-morgen,tomorrow,,NOUN
-Musik,music,,NOUN
-muss,must,,AUX
-müssen,to have to,,AUX
-musst,must (you),,AUX
-musste,had to,,AUX
-Mutter,mother,,NOUN
-Mütterchen,mommy,,NOUN
-nach,to / after,,ADP
-nächsten,next (acc/dat),,ADJ
-Nacht,night,,NOUN
-nahe,near,,ADJ
-Name,name,,NOUN
-natürlich,naturally,,ADJ
-nehme,take (I),,VERB
-nehmen,to take,,VERB
-nein,no,,ADV
-nett,nice,,ADJ
-neue,new,,NOUN
-neuen,new (acc/dat),,ADJ
-nicht,not,,PART
-nichts,nothing,,PRON
-nie,never,,ADV
-niemals,never,,ADV
-niemand,nobody,,PRON
-nimm,take,,INTJ
-noch,still,,ADV
-Nummer,number,,NOUN
-nun,well,,ADV
-nur,only,,ADV
-ob,whether,,SCONJ
-oben,above,,ADV
-oder,or,,CCONJ
-oft,often,,ADV
-ohne,without,,ADP
-Onkel,uncle,,NOUN
-Ordnung,order,,NOUN
-Ort,place,,NOUN
-Paar,couple,,NOUN
-Papa,dad,,NOUN
-Pass,passport,,NOUN
-passiert,happens,,VERB
-Plan,plan,,NOUN
-Platz,square,,NOUN
-Problem,problem,,NOUN
-Probleme,problems,,NOUN
-raus,out,,ADV
-recht,right,,ADJ
-reden,to talk,,VERB
-reicht,is enough,,VERB
-rein,pure,,ADJ
-retten,to save,,VERB
-richtig,correct,,ADJ
-Ruhe,quiet,,NOUN
-ruhig,quiet,,ADJ
-runter,down,,ADV
-Sache,thing,,NOUN
-Sachen,things,,NOUN
-sag,say,,INTJ
-sage,say (I),,VERB
-sagen,to say,,VERB
-sagst,say (you),,INTJ
-sagt,says,,VERB
-sagte,said (past),,VERB
-sah,saw,,VERB
-schaffen,to manage,,VERB
-Schatz,sweetheart,,NOUN
-schau,look,,INTJ
-scheint,seems,,VERB
-Scheiß,crap,,NOUN
-schlafen,to sleep,,VERB
-schlecht,bad,,ADJ
-schnell,fast,,ADJ
-schon,already,,ADV
-schön,beautiful,,ADJ
-Schuld,fault,,NOUN
-Schule,school,,NOUN
-schwer,difficult,,ADJ
-Schwester,sister,,NOUN
-sechs,six,,NUM
-sehen,to see,,VERB
-sehr,very,,ADV
-sei,be,,AUX
-seid,are (you pl),,INTJ
-sein,to be,,AUX
-seinen,his (acc),,DET
-seiner,his (fem dat),,DET
-seines,his (gen),,DET
-seit,since,,ADP
-Seite,side,,NOUN
-selbst,oneself,,ADV
-sich,oneself,,PRON
-sicher,sure,,ADJ
-Sie,you (formal),,PRON
-siehst,see (you),,INTJ
-sieht,sees,,VERB
-so,so,,ADV
-sofort,immediately,,ADV
-sogar,even,,ADV
-Sohn,son,,NOUN
-soll,should,,AUX
-sollen,should,,AUX
-sollte,should,,AUX
-sollten,should (pl),,AUX
-solltest,should (you),,AUX
-sondern,but rather,,CCONJ
-sonst,otherwise,,ADV
-Sorge,worry,,NOUN
-Sorgen,worries,,NOUN
-Spaß,fun,,NOUN
-spät,late,,ADJ
-später,later,,ADJ
-Spiel,game,,NOUN
-spielen,to play,,VERB
-sprechen,to speak,,VERB
-spricht,speaks,,VERB
-Stadt,city,,NOUN
-stehen,to stand,,VERB
-steht,stands,,VERB
-stellen,to place,,VERB
-sterben,to die,,VERB
-stimmt,is correct,,VERB
-Straße,street,,NOUN
-Stunde,hour,,NOUN
-Stunden,hours,,NOUN
-suchen,to search,,VERB
-Tag,day,,NOUN
-Tage,days,,NOUN
-Tagen,days (dat),,NOUN
-Team,team,,NOUN
-Teil,part,,NOUN
-Telefon,telephone,,NOUN
-Teufel,devil,,NOUN
-Thema,topic,,NOUN
-Tochter,daughter,,NOUN
-toll,great,,ADJ
-total,totally,,ADJ
-treffen,to meet,,VERB
-trinken,to drink,,VERB
-trotzdem,nevertheless,,ADV
-tun,to do,,VERB
-Tür,door,,NOUN
-tut,does,,VERB
-Typ,guy,,NOUN
-Uhr,clock,,NOUN
-um,around,,ADP
-und,and,,CCONJ
-uns,us,,PRON
-unser,our,,DET
-unsere,our,,PRON
-unserem,our (dat),,PRON
-unserer,our (fem dat),,DET
-unten,below,,ADV
-unter,under,,ADP
-Vater,father,,NOUN
-Vati,dad,,PROPN
-vergessen,to forget,,VERB
-verlassen,to leave,,VERB
-verlieren,to lose,,VERB
-verloren,lost,,VERB
-verrückt,crazy,,ADJ
-verstanden,understood,,VERB
-verstehe,understand,,VERB
-verstehen,to understand,,VERB
-versuchen,to try,,VERB
-versucht,tried,,VERB
-viel,much,,DET
-viele,many,,DET
-vielen,many (dative),,DET
-vielleicht,maybe,,ADV
-vier,four,,NUM
-voll,full,,ADJ
-völlig,completely,,ADJ
-von,from,,ADP
-vor,before,,ADP
-vorbei,past,,ADV
-Wagen,car,,NOUN
-wahr,true,,ADJ
-während,while,,SCONJ
-wann,when,,ADV
-war,was,,AUX
-waren,were,,AUX
-warte,wait,,VERB
-warten,to wait,,VERB
-warum,why,,ADV
-was,what,,PRON
-Wasser,water,,NOUN
-weder,neither,,CCONJ
-weil,because,,SCONJ
-weiß,know / white,,ADJ
-weißt,know (you),,VERB
-weit,far,,ADJ
-weiter,further,,ADV
-Welt,world,,NOUN
-wem,to whom,,PRON
-wenig,little,,DET
-wenn,if / when,,SCONJ
-wer,who,,PRON
-werde,will (I),,AUX
-werden,to become,,VERB
-wichtig,important,,ADJ
-wie,how,,ADP
-wieder,again,,ADV
-Wiedersehen,goodbye,,NOUN
-wieso,why,,ADV
-willst,want (you),,AUX
-wir,we,,PRON
-wirklich,really,,ADV
-wirst,will (you),,AUX
-wissen,to know,,VERB
-wo,where,,ADV
-Woche,week,,NOUN
-Wochen,weeks,,NOUN
-woher,from where,,ADV
-wohl,probably,,ADV
-Wohnung,apartment,,NOUN
-wollen,to want,,AUX
-wollt,want (you pl),,AUX
-wollte,wanted,,AUX
-Wort,word,,NOUN
-wurde,became,,VERB
-würde,would,,AUX
-wurden,became (pl),,VERB
-würden,would (pl),,AUX
-zehn,ten,,NUM
-zeigen,to show,,VERB
-Zeit,time,,NOUN
-ziemlich,quite,,ADV
-Zimmer,room,,NOUN
-zu,to,,ADP
-Zukunft,future,,NOUN
-zum,to the,,ADP
-zur,to the,,ADP
-zurück,back,,ADV
-zusammen,together,,ADV
-zwar,indeed,,ADV
-zwischen,between,,ADP
-über,over,,ADP
-überall,everywhere,,ADV
-überhaupt,at all,,ADV
+ab,from onward,从……起,ADP
+Abend,evening,晚上,NOUN
+Ahnung,clue,线索 / 概念,NOUN
+all,all,全部,DET
+allein,alone,独自,ADV
+alles,everything,一切,PRON
+als,as / when,作为 / 当...时,SCONJ
+also,so,因此,ADV
+alt,old,老的,ADJ
+Alte,old person,老人,NOUN
+Alter,age,年龄,NOUN
+an,at / on,在 / 靠近,ADP
+andere,other,其他的,ADJ
+anders,different,不同地,ADV
+Arbeit,work,工作,NOUN
+arbeiten,to work,工作,VERB
+Art,kind / type,种类,NOUN
+Arzt,doctor,医生,NOUN
+auch,also,也,ADV
+auf,on,在...之上,ADP
+aus,from,来自,ADP
+Auto,car,汽车,NOUN
+Baby,baby,婴儿,NOUN
+bald,soon,很快,ADV
+Begrüßung,greeting,问候,NOUN
+bei,at,在,ADP
+beide,both,两者都,DET
+bekommen,to receive,收到,VERB
+bereit,ready,准备好的,ADJ
+bereits,already,已经,ADV
+gut,good,好的,ADJ
+bestimmt,definitely,肯定,ADV
+Bett,bed,床,NOUN
+bevor,before,在...之前,SCONJ
+sein,to be,是,AUX
+bis,until,直到,ADP
+bisschen,a little,一点儿,ADV
+bitte,please,请,INTJ
+bleiben,to stay,停留,VERB
+brauchen,to need,需要,VERB
+bringen,to bring,带来,VERB
+Bruder,brother,兄弟,NOUN
+Buch,book,书,NOUN
+Büro,office,办公室,NOUN
+Chance,chance,机会,NOUN
+da,there,那里,ADV
+dabei,with it,在其中,ADV
+dafür,for it,为此,ADV
+damals,back then,那时,ADV
+damit,so that,以便,SCONJ
+Dank,thanks,感谢,NOUN
+dann,then,然后,ADV
+darauf,on it,在上面,ADV
+darüber,about it,关于它,ADV
+darum,therefore,因此,ADV
+dass,that,（引导从句）,SCONJ
+davon,from it,从中,ADV
+dazu,to it,对此,ADV
+dein,your,你的,DET
+der,the,这个,DET
+denn,because,因为,CCONJ
+deshalb,therefore,因此,ADV
+du,you,你,PRON
+dieser,this,这个,DET
+direkt,direct,直接,ADJ
+doch,but,然而,ADV
+Doktor,doctor,医生,NOUN
+dort,there,那里,ADV
+draußen,outside,外面,ADV
+drei,three,三,NUM
+durch,through,通过,ADP
+dürfen,to be allowed,允许,AUX
+eben,just,刚才,ADV
+echt,real,真实的,ADJ
+ehrlich,honest,诚实的,ADJ
+eigen,own,自己的,ADJ
+eigentlich,actually,实际上,ADV
+ein,a / one,一个,DET
+einfach,easy,简单的,ADJ
+einmal,once,一次,ADV
+Eltern,parents,父母,NOUN
+Ende,end,结束,NOUN
+endlich,finally,终于,ADV
+Entschuldigung,apology,歉意,NOUN
+er,he,他,PRON
+ernst,serious,严肃的,ADJ
+erst,only just,才,ADV
+erst,first,第一,ADJ
+erzählen,to tell,讲述,VERB
+es,it,它,PRON
+essen,to eat,吃,VERB
+euer,your (pl),你们的,DET
+fahren,to drive,驾驶,VERB
+Fall,case,情况,NOUN
+falsch,wrong,错误的,ADJ
+Familie,family,家庭,NOUN
+finden,to find,找到,VERB
+fast,almost,几乎,ADV
+Fehler,mistake,错误,NOUN
+fertig,ready,准备好了,ADJ
+Fest,party,节日/庆典,NOUN
+Feuer,fire,火,NOUN
+Frage,question,问题,NOUN
+fragen,to ask,询问,VERB
+Frau,woman,女人,NOUN
+frei,free,自由的,ADJ
+Freund,friend,朋友,NOUN
+Freundin,girlfriend,女朋友,NOUN
+froh,glad,高兴的,ADJ
+früh,early,早的,ADJ
+früher,formerly,以前,ADV
+fünf,five,五,NUM
+für,for,为了,ADP
+geben,to give,给,VERB
+ganz,whole,整个,ADJ
+gar,at all,根本,ADV
+gefallen,to please,使人喜欢,VERB
+gehen,to go,走,VERB
+gegen,against,反对,ADP
+Geld,money,钱,NOUN
+machen,to make,做,VERB
+genau,exact,精确的,ADJ
+gerade,straight,径直地,ADV
+gern,gladly,乐意地,ADV
+sagen,to say,说,VERB
+schaffen,to manage,完成,VERB
+Geschichte,story,故事,NOUN
+Gesicht,face,脸,NOUN
+gestern,yesterday,昨天,ADV
+tun,to do,做,VERB
+werden,to become,变成,VERB
+glauben,to believe,相信,VERB
+gleich,equal,一样的,ADJ
+Glück,luck,运气,NOUN
+glücklich,happy,幸福的,ADJ
+Gott,God,上帝,NOUN
+groß,big,大的,ADJ
+Grund,reason,原因,NOUN
+haben,to have,有,VERB
+Halt,stop,停止,NOUN
+halten,to hold,持有,VERB
+Hand,hand,手,NOUN
+Handy,mobile phone,手机,NOUN
+Haus,house,房子,NOUN
+helfen,to help,帮助,VERB
+Herr,Mr.,先生,NOUN
+Herz,heart,心,NOUN
+heute,today,今天,ADV
+hier,here,这里,ADV
+hierher,to here,到这里,ADV
+Hilfe,help,帮助,NOUN
+hin,to there,到那里,ADV
+hinter,behind,在...后面,ADP
+hoch,high,高,ADJ
+holen,to fetch,去取,VERB
+hören,to hear,听,VERB
+Hund,dog,狗,NOUN
+ich,I,我,PRON
+Idee,idea,主意,NOUN
+ihr,you (plural),你们,PRON
+ihr,her / their,她的 / 他们的,DET
+immer,always,总是,ADV
+in,in,在...里,ADP
+irgendwie,somehow,某种程度上,ADV
+ja,yes,是的,INTJ
+Jahr,year,年,NOUN
+jeder,every,每个,DET
+jemand,someone,某人,PRON
+jetzt,now,现在,ADV
+Job,job,工作,NOUN
+Junge,boy,男孩,NOUN
+Kaffee,coffee,咖啡,NOUN
+kommen,to come,来,VERB
+können,can,能够,AUX
+kein,no,没有,DET
+keiner,none,没有人,PRON
+kennen,to know,认识,VERB
+Kerl,guy,家伙,NOUN
+Kind,child,孩子,NOUN
+klar,clear,清楚的,ADJ
+klein,small,小的,ADJ
+König,king,国王,NOUN
+Kopf,head,头,NOUN
+krank,sick,病的,ADJ
+Krieg,war,战争,NOUN
+kriegen,to get,得到,VERB
+kurz,short,短,ADJ
+Land,country,国家,NOUN
+lang,long,长的,ADJ
+langsam,slow,慢的,ADJ
+lassen,to let,让,VERB
+leben,to live,生活,VERB
+leicht,light,轻的,ADJ
+leid,sorry,抱歉,ADJ
+leider,unfortunately,遗憾地,ADV
+letzt,last,最后的,ADJ
+Leute,people,人们,NOUN
+Liebe,love,爱,NOUN
+lieben,to love,爱,VERB
+lieber,preferably,更愿意,ADV
+Luft,air,空气,NOUN
+Mädchen,girl,女孩,NOUN
+Mal,time,次,NOUN
+Mama,mom,妈妈,NOUN
+man,one,人们,PRON
+Mann,man,男人,NOUN
+mehr,more,更多,ADV
+mein,my,我的,DET
+meinen,to mean,意思是,VERB
+Menge,amount,数量,NOUN
+Mensch,person,人,NOUN
+Mist,crap,垃圾/废话,NOUN
+mit,with,和...一起,ADP
+mitnehmen,to take along,随身携带,VERB
+möglich,possible,可能的,ADJ
+Moment,moment,时刻,NOUN
+morgen,tomorrow,明天,ADV
+Musik,music,音乐,NOUN
+müssen,must,必须,AUX
+Mutter,mother,母亲,NOUN
+nach,to / after,到/在...之后,ADP
+nächst,next,下一个,ADJ
+Nacht,night,夜晚,NOUN
+Name,name,名字,NOUN
+natürlich,of course,当然,ADV
+nehmen,take,拿,VERB
+nein,no,不,PART
+nett,nice,友好的,ADJ
+nicht,not,不,PART
+nichts,nothing,没有什么,PRON
+nie,never,从不,ADV
+niemand,nobody,没有人,PRON
+noch,still,还,ADV
+Nummer,number,号码,NOUN
+nur,only,只,ADV
+ob,whether,是否,SCONJ
+oben,above,上面,ADV
+oder,or,或者,CCONJ
+oft,often,经常,ADV
+ohne,without,没有,ADP
+Onkel,uncle,叔叔,NOUN
+Ordnung,order,秩序,NOUN
+Ort,place,地点,NOUN
+Paar,couple,一对,NOUN
+Papa,dad,爸爸,NOUN
+Pass,passport,护照,NOUN
+Plan,plan,计划,NOUN
+Platz,space,空间,NOUN
+Problem,problem,问题,NOUN
+raus,out,出去,ADV
+recht,quite,相当,ADV
+reden,to talk,说话,VERB
+rein,pure,纯净的,ADJ
+retten,to save,拯救,VERB
+richtig,correct,正确,ADJ
+Ruhe,quiet,安静,NOUN
+ruhig,quiet,安静的,ADJ
+runter,down,向下,ADV
+Sache,thing,事情,NOUN
+sehen,to see,看,VERB
+Schatz,sweetheart,亲爱的,NOUN
+schlafen,to sleep,睡觉,VERB
+schlecht,bad,坏的,ADJ
+schnell,fast,快的,ADJ
+schon,already,已经,ADV
+schön,beautiful,美丽的,ADJ
+Schuld,fault,过错,NOUN
+Schule,school,学校,NOUN
+schwer,difficult,困难的,ADJ
+Schwester,sister,姐妹,NOUN
+sechs,six,六,NUM
+sehr,very,很,ADV
+sein,his,他的,DET
+seit,since,自从,ADP
+Seite,page,页,NOUN
+selbst,oneself,本身,ADV
+sich,oneself,自己,PRON
+sicher,sure,确定的,ADJ
+Sie,you (formal),您,PRON
+so,so,如此,ADV
+sofort,immediately,立即,ADV
+sogar,even,甚至,ADV
+Sohn,son,儿子,NOUN
+sollen,should,应该,AUX
+sondern,but rather,而是,CCONJ
+sonst,otherwise,否则,ADV
+Sorge,worry,担忧,NOUN
+Spaß,fun,乐趣,NOUN
+spät,late,晚,ADJ
+später,later,更晚,ADV
+Spiel,game,游戏,NOUN
+spielen,to play,玩,VERB
+sprechen,to speak,说话,VERB
+Stadt,city,城市,NOUN
+stehen,to stand,站立,VERB
+stellen,to place,放置,VERB
+sterben,to die,死亡,VERB
+Straße,street,街道,NOUN
+Stunde,hour,小时,NOUN
+suchen,to search,寻找,VERB
+Tag,day,天,NOUN
+Team,team,团队,NOUN
+Teil,part,部分,NOUN
+Telefon,telephone,电话,NOUN
+Teufel,devil,魔鬼,NOUN
+Thema,topic,主题,NOUN
+Tochter,daughter,女儿,NOUN
+toll,great,太棒的,ADJ
+total,total,完全的,ADJ
+treffen,meet,见面,VERB
+trinken,drink,喝,VERB
+trotzdem,nevertheless,尽管如此,ADV
+Tür,door,门,NOUN
+Typ,guy,家伙,NOUN
+Uhr,clock,钟表,NOUN
+um,around,周围,ADP
+und,and,和,CCONJ
+unser,our,我们的,DET
+unten,below,下面,ADV
+unter,under,在...之下,ADP
+Vater,father,父亲,NOUN
+vergessen,forget,忘记,VERB
+verlassen,leave,离开,VERB
+verlieren,lose,丢失,VERB
+verrückt,crazy,疯狂的,ADJ
+verstehen,understand,理解,VERB
+versuchen,try,尝试,VERB
+viel,much,多,DET
+vielleicht,maybe,也许,ADV
+vier,four,四,NUM
+voll,full,满的,ADJ
+völlig,completely,完全地,ADV
+von,from,从,ADP
+vor,before,在...之前,ADP
+vorbei,past,经过,ADV
+Wagen,vehicle,车辆,NOUN
+wahr,true,真的,ADJ
+während,while,当...时,SCONJ
+wann,when,什么时候,ADV
+warten,to wait,等待,VERB
+warum,why,为什么,ADV
+was,what,什么,PRON
+Wasser,water,水,NOUN
+weder,neither,也不,CCONJ
+weil,because,因为,SCONJ
+weiß,white,白色,ADJ
+wissen,to know,知道,VERB
+weit,far,远,ADJ
+weiter,further,进一步,ADV
+Welt,world,世界,NOUN
+wenig,little,少,DET
+wenn,if / when,如果/当...时,SCONJ
+wer,who,谁,PRON
+werden,will,将要,AUX
+wichtig,important,重要的,ADJ
+wie,how,如何,ADV
+wieder,again,再次,ADV
+Wiedersehen,reunion,重逢,NOUN
+wollen,to want,想要,AUX
+wir,we,我们,PRON
+wirklich,really,真的,ADV
+wo,where,哪里,ADV
+Woche,week,星期,NOUN
+woher,from where,从哪里,ADV
+wohl,probably,大概,ADV
+Wohnung,apartment,公寓,NOUN
+Wort,word,单词,NOUN
+zehn,ten,十,NUM
+zeigen,to show,展示,VERB
+Zeit,time,时间,NOUN
+Zimmer,room,房间,NOUN
+zu,to,到,ADP
+Zukunft,future,未来,NOUN
+zurück,back,回来,ADV
+zusammen,together,一起,ADV
+zwar,admittedly,诚然,ADV
+zwischen,between,在...之间,ADP
+über,over,在...之上,ADP
+überall,everywhere,到处,ADV
+überhaupt,at all,根本,ADV
+Tat,act,行为,NOUN
+Morgen,morning,早晨,NOUN
+Biss,bite,咬伤,NOUN
+aber,but,但是,CCONJ
+tschüss,bye,再见,INTJ
+Pflege,care,护理,NOUN
+Änderung,change,改变,NOUN
+Würfel,die,骰子,NOUN
+während,during,在...期间,ADP
+alle,everyone,所有人,PRON
+genau,exactly,精确地,ADV
+Fakt,fact,事实,NOUN
+Essen,food,食物,NOUN
+vorwärts,forward,向前,ADV
+Vorderseite,front,正面,NOUN
+hallo,hello,你好,INTJ
+hey,hey,嘿,INTJ
+hi,hi,嗨,INTJ
+Blei,lead,铅,NOUN
+Leben,life,生活,NOUN
+wahrscheinlich,likely,很可能地,ADV
+Ehepartner,spouse,配偶,NOUN
+nah,near,靠近,ADV
+okay,okay,好的,INTJ
+eins,one,一,NUM
+Öffnung,opening,开口,NOUN
+pflücken,pick,采摘,VERB
+Macht,power,力量,NOUN
+Recht,right,权利,NOUN
+tja,well,好吧,INTJ
+Stand,status,地位,NOUN
+gerade,straight,笔直的,ADJ
+als,than,比,ADP
+Müdigkeit,tiredness,疲劳,NOUN
+zu,too,太,ADV
+Spitze,top,顶部,NOUN
+Berührung,touch,接触,NOUN
+Drehung,turn,转弯,NOUN
+Weg,way,路,NOUN
+gut,well,好地,ADV
+welcher,which,哪个,PRON
+Schrift,writing,文字,NOUN
+buchen,book,预订,VERB
+Heft,notebook,笔记本,NOUN
+Apfel,apple,苹果,NOUN
+Sessel,armchair,扶手椅,NOUN
+Oma,grandmother,奶奶/外婆,NOUN
+bewölkt,cloudy,多云的,ADJ
+sparsam,economical,节俭的,ADJ
+Socke,sock,袜子,NOUN
+Lampe,lamp,灯,NOUN
+Banane,banana,香蕉,NOUN
+Hausaufgabe,homework,家庭作业,NOUN
+Wochentag,weekday,工作日,NOUN
+stürmisch,stormy,有暴风雨的,ADJ
+Elternteil,parent,父母之一,NOUN
+Buchstabe,letter,字母,NOUN
+Gewitter,thunderstorm,雷阵雨,NOUN
+Türsteher,doorman,门卫,NOUN
+Kugelschreiber,ballpoint pen,圆珠笔,NOUN
+windig,windy,有风的,ADJ
+Bluse,blouse,女衬衫,NOUN
+Schulbuch,textbook,教科书,NOUN
+Stadtplan,city map,城市地图,NOUN
+Radiergummi,eraser,橡皮擦,NOUN
+frostig,frosty,寒冷的,ADJ
+Nudel,noodle,面条,NOUN
+Rechner,computer,电脑,NOUN
+Handschuh,glove,手套,NOUN
+Wasserglas,drinking glass,水杯,NOUN
+Arbeitsstelle,job position,工作岗位,NOUN
+Büroarbeit,office work,办公室工作,NOUN
+Lippe,lip,嘴唇,NOUN
+Bad,bathroom,浴室,NOUN
+Frost,frost,霜,NOUN
+Mittwoch,Wednesday,星期三,NOUN
+Opa,grandpa,爷爷,NOUN
+mild,mild,温和的,ADJ
+Spiegel,mirror,镜子,NOUN
+Zugfahrt,train ride,火车旅程,NOUN
+Erdbeere,strawberry,草莓,NOUN
+Haustür,front door,正门,NOUN
+Bleistift,pencil,铅笔,NOUN
+Zitrone,lemon,柠檬,NOUN
+Traube,grape,葡萄,NOUN
+Hagel,hail,冰雹,NOUN
+Zwiebel,onion,洋葱,NOUN
+Ellbogen,elbow,肘,NOUN
+Lineal,ruler,直尺,NOUN
+spülen,rinse,冲洗,VERB
+Keks,cookie,饼干,NOUN
+Klassenzimmer,classroom,教室,NOUN
+sonnig,sunny,晴朗的,ADJ
+Nuss,nut,坚果,NOUN
+Mais,corn,玉米,NOUN
+Passagier,passenger,乘客,NOUN
+Wange,cheek,脸颊,NOUN
+Rechen,rake,耙子,NOUN
+Schwiegervater,father-in-law,岳父/公公,NOUN
+Nagel,nail,指甲,NOUN
+Speise,dish,菜肴,NOUN
+Stiefvater,stepfather,继父,NOUN
+kämmen,comb,梳头,VERB
+Pfirsich,peach,桃子,NOUN
+Gasthaus,inn,客栈,NOUN
+parken,to park,停车,VERB
+Ahne,ancestor,祖先,NOUN
+Familienmitglied,family member,家庭成员,NOUN
+Zucchini,zucchini,西葫芦,NOUN
+Tomate,tomato,西红柿,NOUN
+Ingwer,ginger,姜,NOUN
+Fuchs,fox,狐狸,NOUN
+Wal,whale,鲸鱼,NOUN
+Rose,rose,玫瑰,NOUN
+Vogel,bird,鸟,NOUN
+Gelenk,joint,关节,NOUN
+Flicken,patch,补丁,NOUN
+Masseur,masseur,按摩师,NOUN
+ach,oh,啊,INTJ
+Heim,home,家,NOUN
+total,totally,完全地,ADV
+wert,worth,值得,ADJ
+sorgen,worry,担心,VERB
+tatsächlich,actually,事实上,ADV
+buchstabieren,spell,拼写,VERB
+Montag,Monday,星期一,NOUN
+drucken,print,打印,VERB
+Zugticket,train ticket,火车票,NOUN
+Pate,godfather,教父,NOUN
+mager,lean,瘦的,ADJ
+Zahnpasta,toothpaste,牙膏,NOUN
+kosten,to cost,花费,VERB
+achso,oh I see,啊，原来,INTJ
+Gutschein,voucher,代金券,NOUN
+Vormittag,forenoon,上午,NOUN
+Helfer,helper,助手,NOUN
+munter,awake,清醒的,ADJ
+Schulbank,school bench,课桌,NOUN
+Schulranzen,schoolbag,书包,NOUN
+Hähnchen,chicken,鸡肉,NOUN
+joggen,jog,慢跑,VERB
+angeben,to state,说明,VERB
+hüpfen,hop,跳,VERB
+umsteigen,to change (trains),换乘,VERB
+Rind,beef,牛肉,NOUN
+Zimt,cinnamon,肉桂,NOUN
+Ameise,ant,蚂蚁,NOUN
+Feder,feather,羽毛,NOUN
+Pinguin,penguin,企鹅,NOUN
+Hahn,rooster,公鸡,NOUN
+Fliege,fly,苍蝇,NOUN
+Dackel,dachshund,腊肠犬,NOUN
+Igel,hedgehog,刺猬,NOUN
+Erde,earth,土地,NOUN
+lila,purple,紫色,ADJ
+Umhang,cloak,斗篷,NOUN
+Leder,leather,皮革,NOUN
+Leinen,linen,线麻,NOUN
+silber,silver,银色,ADJ
+Pantoffel,slipper,拖鞋,NOUN
+dunkelblau,dark blue,深蓝色,ADJ
+zornig,angry,愤怒的,ADJ
+Fett,fat,脂肪,NOUN
+Menü,menu,菜单,NOUN
+pfeifen,to whistle,吹口哨,VERB
+ordnen,to organize,整理,VERB
+Marmelade,jam,果酱,NOUN
+zahm,tame,温顺的,ADJ
+Zweig,branch,树枝,NOUN
+teils,partly,部分地,ADV
+Pulli,sweater,毛衣,NOUN
+Reiseführer,travel guide,旅行指南,NOUN
+Omelett,omelet,欧姆蛋,NOUN
+Teig,dough,面团,NOUN
+Kraut,herb,草药,NOUN
+hellblau,light blue,浅蓝色,ADJ
+Eintritt,entrance,入口,NOUN
+puzzeln,puzzle,拼图,VERB
+Joghurt,yogurt,酸奶,NOUN
+vegetarisch,vegetarian,素食的,ADJ
+Gurke,cucumber,黄瓜,NOUN
+schütteln,shake,摇晃,VERB
+Delfin,dolphin,海豚,NOUN
+himmelblau,sky blue,天蓝色,ADJ
+husten,cough,咳嗽,VERB
+Pfeffer,pepper,胡椒,NOUN
+frieren,freeze,结冰,VERB
+Beere,berry,莓果,NOUN
+Lamm,lamb,羔羊,NOUN
+farbig,colorful,彩色的,ADJ
+naschen,to snack/eat sweets,吃甜食,VERB
+rund,round,圆的,ADJ
+Essig,vinegar,醋,NOUN
+lächeln,smile,微笑,VERB
+endlos,endless,无止境的,ADJ
+Deutschunterricht,German class,德语课,NOUN
+Schulhof,schoolyard,校园,NOUN
+Vegetarier,vegetarian,素食者,NOUN
+zart,tender,嫩的,ADJ
+mittags,at noon,中午,ADV

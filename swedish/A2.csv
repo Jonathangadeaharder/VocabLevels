@@ -1,601 +1,313 @@
 Swedish_Lemma,English_Lemma,Chinese_Lemma,POS
-frågor,questions,,X
-full,full/drunk,,X
-fungerar,works,,X
-funkar,works,,X
-fått,gotten,,VERB
-följ,follow,,X
-följer,follows,,X
-förbi,past,,X
-före,before,,X
-förlåt,sorry/forgive,,VERB
-förra,former/last,,VERB
-förrän,until,,X
-först,first,,VERB
-förstår,understand,,X
-försök,attempt/try,,X
-försöka,try,,VERB
-försöker,tries,,X
-försökte,tried,,X
-förut,before/previously,,VERB
-föräldrar,parents,,X
-galen,crazy/mad,,X
-gamla,old(pl),,VERB
-ganska,quite/fairly,,VERB
-gav,gave,,X
-genom,through,,X
-ger,gives,,X
-gick,went,,X
-gift,married/poison,,VERB
-gifta,marry,,VERB
-gillar,likes,,X
-gjorde,did,,VERB
-gjort,done,,VERB
-glöm,forget,,X
-goda,good(pl),,VERB
-gott,good,,VERB
-grabben,the boy,,X
-grund,ground/basis,,X
-gud,god,,X
-gäller,applies,,X
-gärna,gladly,,VERB
-gång,time/occasion,,X
-gången,the time,,X
-gånger,times,,X
-går,goes/walks,,X
-gått,gone/walked,,VERB
-gör,does/makes,,X
-hade,had,,VERB
-haft,had,,VERB
-hallå,hello,,X
-handlar,is about/deals,,X
-har,has/have,,X
-hatar,hates,,X
-hela,whole,,VERB
-heller,rather,,X
-helst,preferably,,VERB
-helt,completely,,VERB
-helvete,hell,,X
-hem,home,,X
-hemma,at home,,VERB
-hemskt,terribly,,VERB
-henne,her,,X
-herr,Mr,,X
-herrar,gentlemen,,X
-herregud,oh my god,,X
-heter,is called,,X
-historia,history/story,,VERB
-hit,here/hither,,VERB
-hittade,found,,VERB
-hittar,finds,,X
-hittat,found,,VERB
-hjälp,help,,X
-hjälper,helps,,X
-honom,him,,X
-hoppa,jump,,VERB
-hoppas,hope,,X
-hos,at/with,,X
-huset,the house,,VERB
-huvudet,the head,,VERB
-hämta,fetch/get,,VERB
-hämtar,fetches,,X
-hända,happen,,VERB
-hände,happened,,VERB
-händer,happens/hands,,X
-händerna,the hands,,VERB
-hänt,happened,,VERB
-härifrån,from here,,X
-håll,hold,,X
-hålla,hold,,VERB
-håller,holds,,X
-hårt,hard,,VERB
-höll,held,,X
-hör,hear,,X
-hörde,heard,,VERB
-hört,heard,,VERB
-idiot,idiot,,VERB
-idé,idea,,X
-ifrån,from,,X
-igen,again,,ADP
-igenom,through,,X
-igång,started/going,,X
-ihop,together,,X
-ihåg,remember,,X
-ikväll,tonight,,X
-illa,badly/ill,,VERB
-in,in/into,,X
-inför,before/facing,,X
-inga,none(pl),,VERB
-ingen,nobody/none,,X
-inget,nothing,,VERB
-innan,before,,X
-inne,inside/in,,X
-inom,within,,X
-iväg,away/off,,X
-jaha,oh I see,,VERB
-jaså,oh I see,,X
-jo,yes/well,,X
-jobba,work,,VERB
-jobbar,works,,ADJ
-jobbat,worked,,VERB
-jobbet,the job,,VERB
-jorden,the earth,,X
-ju,you know/after all,,X
-just,just/exact,,VERB
-jävel,devil/bastard,,X
-jävla,damn,,VERB
-kalla,call,,VERB
-kallar,calls,,X
-kan,can,,X
-kapten,captain,,X
-killar,guys,,X
-kille,boy/guy,,X
-killen,the boy,,X
-klar,clear/ready,,X
-klara,manage/clear,,VERB
-klarar,manages,,X
-klart,clear/sure,,VERB
-klockan,the clock/time,,X
-kolla,check/look,,VERB
-kom,came,,X
-kommer,comes/will,,X
-kommit,come,,VERB
-kompis,buddy/friend,,X
-konstigt,strange,,VERB
-krig,war,,ADJ
-kul,fun,,X
-kunde,could,,VERB
-kvar,left/remaining,,X
-kvinnor,women,,X
-kvällen,the evening,,X
-käften,shut up,,X
-kände,knew/felt,,VERB
-känner,feels/knows,,X
-känns,feels,,X
-kära,dear,,VERB
-kärlek,love,,X
-kör,drives,,X
-la,put/laid,,VERB
-leta,look for,,VERB
-letar,looks for,,X
-lever,lives,,X
-ligger,lies/is located,,X
-lika,equally/like,,VERB
-lilla,little,,VERB
-lita,rely/trust,,VERB
-lite,a little,,X
-liv,life,,X
-livet,the life,,VERB
-lovar,promises,,X
-lugna,calm(pl),,VERB
-lugnt,calm,,VERB
-lycka,happiness/luck,,VERB
-läget,the situation,,VERB
-lägg,put,,X
-lägga,put,,VERB
-lägger,puts,,X
-lämna,leave,,VERB
-lämnade,left,,VERB
-lämnar,leaves,,X
-länge,long(time),,X
-längre,longer,,X
-lär,learns/probably,,X
-lära,learn/teach,,VERB
-lät,let/sounded,,VERB
-långt,long/far,,VERB
-låt,let/song,,VERB
-låta,let/sound,,VERB
-låter,lets/sounds,,X
-mannen,the man,,X
-massa,mass/lot,,VERB
-medan,while,,X
-mellan,between,,X
-menar,mean,,X
-mer,more,,X
-mest,most,,VERB
-mig,me,,PRON
-miljoner,millions,,X
-mina,my(pl),,VERB
-minns,remember,,X
-minuter,minutes,,X
-misstag,mistake,,X
-mitt,my/middle,,VERB
-mord,murder,,X
-mot,against/toward,,ADP
-män,men,,X
-människor,people,,X
-må,may/feel,,X
-månader,months,,X
-många,many,,VERB
-mår,feels,,X
-möjligt,possible,,VERB
-natten,the night,,X
-ner,down,,X
-nere,down,,X
-new,new,,X
-nog,probably/enough,,X
-nummer,number,,X
-nya,new(pl),,VERB
-nytt,new,,VERB
-nära,near,,VERB
-nästa,next,,VERB
-nästan,almost,,X
-nå,reach,,X
-någonsin,ever,,X
-någonting,something,,X
-nån,someone,,X
-nånsin,ever,,X
-nåt,something,,VERB
-också,also/too,,X
-oj,oh,,X
-ok,okay,,X
-okej,okay,,X
-olika,different,,VERB
-ont,pain/hurt,,VERB
-ord,words,,X
-order,order,,X
-oroa,worry,,VERB
-orolig,worried,,ADJ
-oss,us,,PRON
-otroligt,incredible,,VERB
-par,couple/pair,,X
-pengarna,the money,,VERB
-perfekt,perfect,,VERB
-person,person,,X
-plan,plan,,X
-plats,place,,X
-polis,police,,X
-polisen,the police,,X
-prata,talk,,VERB
-pratade,talked,,VERB
-pratar,talks,,X
-precis,exactly/just,,X
-problem,problem,,X
-reda,sort out,,VERB
-redan,already,,X
-redo,ready,,X
-resten,the rest,,X
-riktig,real,,ADJ
-riktigt,really/quite,,VERB
-ring,ring/call,,X
-ringa,ring/call,,VERB
-ringde,rang,,VERB
-ringer,rings/calls,,X
-roligt,fun,,VERB
-roll,role,,X
-rummet,the room,,VERB
-runt,around,,VERB
-räcker,is enough,,X
-rädda,save/scared,,VERB
-rätt,right/fairly,,VERB
-råd,advice,,X
-rör,touches/moves,,X
-sa,said,,VERB
-sagt,said,,VERB
-sak,thing/matter,,X
-saken,the thing,,X
-saker,things,,X
-saknar,misses,,X
-samtal,conversation/call,,X
-sanningen,the truth,,X
-sant,true,,VERB
-satt,sat,,VERB
-sedan,then/since,,X
-sen,late/later,,X
-senare,later,,X
-senaste,latest,,X
-sent,late,,VERB
-ser,sees,,X
-ses,see you,,X
-sett,seen,,VERB
-sida,side/page,,VERB
-sidan,the side,,X
-sig,oneself,,PRON
-sina,his/her own,,VERB
-sir,sir,,X
-sitt,his/her own,,VERB
-sitter,sits,,X
-själv,self,,X
-själva,themselves,,VERB
-självklart,of course,,VERB
-ska,will/shall,,VERB
-skada,damage,,VERB
-skall,will/shall,,X
-skickade,sent,,VERB
-skit,shit,,VERB
-skjuta,shoot,,VERB
-skolan,the school,,X
-skrev,wrote,,X
-skriver,writes,,X
-skull,skull,,X
-skulle,would,,X
-skydda,protect,,VERB
-skyldig,guilty/owes,,ADJ
-skynda,hurry,,VERB
-sköt,shot,,VERB
-slog,hit/beat,,X
-slut,end,,VERB
-slutar,stops/ends,,X
-släpp,let go,,X
-slå,hit/beat,,X
-slår,hits/beats,,X
-slåss,fight,,X
-smart,smart,,VERB
-små,small(pl),,X
-snabbt,quickly,,VERB
-snart,soon,,VERB
-snäll,kind/nice,,X
-snälla,please,,VERB
-som,as/that/who,,PRON
-spelar,plays,,X
-spring,run,,X
-stan,the city,,X
-stanna,stay/stop,,VERB
-stannar,stays,,X
-stick,get lost/stick,,X
-sticker,leaves/sticks,,X
-stod,stood,,X
-stora,big(pl),,VERB
-stort,big,,VERB
-strax,shortly,,X
-stund,moment/while,,X
-ställa,put/ask,,VERB
-ställe,place,,X
-stället,the place,,VERB
-stämmer,is correct,,X
-står,stands,,X
-svar,answer,,X
-svårt,difficult,,VERB
-synd,shame/pity,,X
-säg,say,,X
-säger,says,,X
-sägs,is said,,X
-säker,sure/safe,,X
-säkert,surely/safe,,VERB
-sätt,way/put,,VERB
-sätta,put/set,,VERB
-sätter,puts,,X
-så,so/thus,,X
-såg,saw,,X
-sån,such,,X
-såna,such(pl),,VERB
-sånt,such,,VERB
-söker,seeks/looks for,,X
-tag,take/take!,,X
-tagit,taken,,VERB
-talar,speaks,,X
-tar,takes,,X
-the,the,,X
-tid,time,,X
-tiden,the time,,X
-tidigare,earlier,,X
-tillbaka,back,,VERB
-tillräckligt,enough,,VERB
-tills,until,,X
-tillsammans,together,,X
-timmar,hours,,X
-titta,look,,VERB
-tittar,looks,,X
-tja,hi,,VERB
-tjej,girl/girlfriend,,X
-tjänst,service/favor,,VERB
-tog,took,,X
-tom,empty,,X
-toppen,top/great,,X
-trevligt,nice,,VERB
-trodde,thought,,VERB
-tror,think/believe,,X
-träffa,meet,,VERB
-träffade,met,,VERB
-träffas,meet,,X
-tur,luck/turn,,X
-tvungen,forced,,X
-tycker,thinks/feels,,X
-tyckte,thought,,X
-typ,type/like,,X
-tyst,quiet,,VERB
-tyvärr,unfortunately,,X
-tänk,think/imagine,,X
-tänker,thinks,,X
-tänkt,thought,,VERB
-tänkte,thought,,X
-undan,away/aside,,X
-undrar,wonder,,X
-upp,up,,X
-uppe,up/awake,,X
-ur,out of,,X
-ursäkt,excuse,,VERB
-ursäkta,excuse,,VERB
-ut,out,,VERB
-utanför,outside,,X
-ute,out/outside,,X
-va,was/wow,,VERB
-vadå,what,,X
-val,choice/whale,,X
-vapen,weapon,,X
-varandra,each other,,VERB
-varit,been,,VERB
-varje,each/every,,X
-varsågod,here you go,,X
-vart,where(to),,VERB
-veckor,weeks,,X
-verkar,seems,,X
-verkligen,really,,X
-vet,know,,VERB
-vidare,further,,X
-viktigt,important,,VERB
-vilka,which/who,,VERB
-vilket,which,,VERB
-vill,want,,X
-ville,wanted,,X
-visar,shows,,X
-vissa,some,,VERB
-visst,surely/of course,,VERB
-visste,knew,,X
-vore,were/would be,,X
-vägen,the road/way,,X
-väl,surely/well,,X
-väldigt,very,,VERB
-välkommen,welcome,,X
-vänner,friends,,X
-väntar,waits,,X
-världen,the world,,X
-värre,worse,,X
-våra,our(pl),,VERB
-vårt,our,,VERB
-älskade,loved,,VERB
-älskar,loves,,X
-älskling,darling,,X
-än,than/still,,X
-ändå,yet/still,,X
-ännu,yet/still,,X
-är,is/are/am,,X
-äter,eats,,X
-även,also,,X
-åh,oh,,X
-åka,go/travel,,VERB
-åker,goes/travels,,X
-åkte,went/traveled,,X
-åt,to/for/at,,VERB
-ögon,eyes,,X
-ögonblick,moment,,X
-önskar,wish,,X
-överallt,everywhere,,VERB
-adjö,goodbye,,X
-adress,address,,X
-advokat,lawyer,,VERB
-affär,shop/affair,,X
-affären,the shop,,X
-affärer,business/affairs,,X
-aj,ouch,,X
-akta,watch out,,VERB
-alldeles,entirely/quite,,X
-allihopa,all of them,,VERB
-alltihop,all of it,,X
-allting,everything,,X
-allvarligt,seriously,,VERB
-amerika,America,,VERB
-amerikanska,American,,VERB
-an,on,,X
-andas,breathe,,X
-angående,regarding,,VERB
-anledning,reason,,NOUN
-anser,considers,,X
-ansiktet,the face,,VERB
-ansvar,responsibility,,X
-ansvarig,responsible,,ADJ
-antagligen,probably,,X
-antingen,either,,X
-använd,use/used,,X
-använde,used,,VERB
-ar,is/are,,X
-arbetar,works,,X
-armé,army,,X
-armén,the army,,X
-avsluta,finish/complete,,VERB
-avtal,agreement/deal,,X
-backa,back up/reverse,,VERB
-bak,behind/back,,X
-band,band/tie,,X
-bandet,the band/the tape,,VERB
-banken,the bank,,X
-bar,carried/bare,,ADJ
-baren,the bar,,X
-barnet,the child,,VERB
-begär,demand/desire,,X
-behålla,keep,,VERB
-behövs,is needed,,X
-benen,the legs,,X
-beredd,prepared,,X
-beror,depends,,X
-berättat,told,,VERB
-beslut,decision,,VERB
-bestämma,decide,,VERB
-bestämmer,decides,,X
-bestämt,definitely/decided,,VERB
-besviken,disappointed,,X
-besök,visit,,X
-betalade,paid,,VERB
-betalt,paid,,VERB
-bett,bitten/bite,,VERB
-bevisa,prove,,VERB
-bilar,cars,,X
-bild,picture,,X
-bilden,the picture,,X
-bilder,pictures,,X
-bit,piece/bit,,VERB
-bjuda,invite/offer,,VERB
-bjuder,invites/offers,,X
-bjöd,invited/offered,,X
-bland,among,,X
-blodet,the blood,,VERB
-bodde,lived,,VERB
-boken,the book,,X
-bordet,the table,,VERB
-bredvid,next to,,X
-broder,brother,,X
-brott,crime,,VERB
-bry,care,,X
-bryta,break,,VERB
-bryter,breaks,,X
-bråttom,in a hurry,,X
-bröder,brothers,,X
-bröllop,wedding,,X
-bröt,broke,,VERB
-bussen,the bus,,X
-bygga,build,,VERB
-byggnaden,the building,,X
-byta,change/swap,,VERB
-bär,carries/bears,,X
-både,both,,VERB
-båten,the boat,,X
-böcker,books,,X
-börjat,begun,,VERB
-chansen,the chance,,X
-chef,boss,,X
-college,college,,X
-coolt,cool,,VERB
-dam,lady,,X
-damen,the lady,,X
-damer,ladies,,X
-definitivt,definitely,,VERB
-dejt,date,,VERB
-dela,share/divide,,VERB
-delar,shares/parts,,X
-delen,the part,,X
-dessutom,besides,,X
-desto,the(the more),,X
-detsamma,the same,,VERB
-diskutera,discuss,,VERB
-djupt,deeply,,VERB
-djur,animal,,X
-doktor,doctor,,X
-doktorn,the doctor,,X
-drack,drank,,X
-drick,drink!,,X
-dricker,drinks,,X
-drink,drink,,X
-driver,drives/teases,,X
-drog,drew/pulled,,X
-droger,drugs,,X
-dröm,dream,,X
-drömmar,dreams,,X
-duger,is good enough,,X
-duktig,capable/good,,ADJ
-dumma,stupid(pl),,VERB
-dumt,stupidly,,VERB
-dyker,appears/dives,,X
-därifrån,from there,,X
-dåliga,bad(pl),,VERB
-dödat,killed,,VERB
-döden,death,,X
-dök,dove/appeared,,X
-dött,died,,VERB
-ed,oath,,X
-eftermiddag,afternoon,,X
-ej,not,,X
-ena,the one,,VERB
-endast,only,,VERB
-energi,energy,,X
-engelska,English,,VERB
-ensamma,alone(pl),,VERB
+fråga,question,问题,NOUN
+förbi,past,经过,ADV
+före,before,在...之前,ADP
+förlåt,sorry,对不起,INTJ
+förra,last,上一个,ADJ
+förrän,until,直到,SCONJ
+först,first,首先,ADV
+försök,attempt,尝试,NOUN
+försöka,try,尝试,VERB
+förut,before,以前,ADV
+förälder,parent,父母,NOUN
+galen,crazy,疯狂的,ADJ
+ganska,quite,相当,ADV
+genom,through,通过,ADP
+gift,married,已婚的,ADJ
+gifta,marry,结婚,VERB
+grabb,boy,男孩,NOUN
+grund,ground/basis,基础/理由,NOUN
+gud,god,神,NOUN
+gälla,apply/be valid,适用/有效,VERB
+gärna,gladly/willingly,乐意地/宁愿,ADV
+gång,time/occasion,次/回,NOUN
+hallå,hello,你好/喂,INTJ
+hel,whole,整个的,ADJ
+heller,rather,宁愿,ADV
+helst,preferably,最好/宁愿,ADV
+helt,completely,完全地,ADV
+hem,home,家/回家,NOUN
+hemma,at home,在家,ADV
+hemskt,terribly,可怕地/非常,ADV
+henne,her,她,PRON
+herre,Mr/master,先生/主人,NOUN
+herregud,oh my god,我的天,INTJ
+historia,history/story,历史/故事,NOUN
+hit,here/hither,这里/到这里,ADV
+hjälp,help,帮助,NOUN
+honom,him,他,PRON
+hoppa,jump,跳,VERB
+hoppas,hope,希望,VERB
+hos,at,在……处,ADP
+hämta,fetch,取,VERB
+hända,happen,发生,VERB
+härifrån,from here,从这里,ADV
+hålla,hold,拿,VERB
+hårt,hard,努力地,ADV
+idé,idea,主意,NOUN
+ifrån,from,从,ADP
+igen,again,再次,ADV
+igenom,through,穿过,ADP
+igång,on,进行中,ADV
+ihop,together,一起,ADV
+ihåg,in mind,记住,ADV
+ikväll,tonight,今晚,ADV
+illa,badly,糟糕地,ADV
+inför,before,在……面前,ADP
+ingen,no,没有,DET
+inget,nothing,没有东西,PRON
+innan,before,在……之前,ADP
+inne,inside,在里面,ADV
+inom,within,在……之内,ADP
+iväg,away,离开,ADV
+jaha,oh,哦,INTJ
+jaså,oh really,是吗,INTJ
+jo,yes,是的,ADV
+jobba,work,工作,VERB
+ju,after all,毕竟,ADV
+kalla,call,称呼,VERB
+kan,can,能,AUX
+kapten,captain,船长,NOUN
+kille,guy,男孩,NOUN
+klar,ready,准备好的,ADJ
+klara,manage,应付,VERB
+klart,clear,当然,ADV
+kolla,check,检查,VERB
+kompis,friend,朋友,NOUN
+krig,war,战争,NOUN
+kul,fun,有趣的,ADJ
+kunna,can,能,AUX
+kvar,left,剩下的,ADV
+kännas,feel,感觉,VERB
+kär,dear,亲爱的,ADJ
+kärlek,love,爱,NOUN
+lägga,put,放,VERB
+leta,look for,寻找,VERB
+lika,equally,同样地,ADV
+lita,trust,信任,VERB
+lite,a little,一点,ADV
+liv,life,生活,NOUN
+lycka,happiness,幸福,NOUN
+läge,situation,情况,NOUN
+lämna,leave,离开,VERB
+länge,long (time),长时间,ADV
+längre,longer,更长的,ADJ
+lära,learn,学习,VERB
+låta,sound,听起来,VERB
+låt,song,歌曲,NOUN
+massa,mass,大量,NOUN
+medan,while,当...时,SCONJ
+mellan,between,在...之间,ADP
+mer,more,更多,ADJ
+mig,me,我,PRON
+miljon,million,百万,NOUN
+minnas,remember,记得,VERB
+misstag,mistake,错误,NOUN
+mord,murder,谋杀,NOUN
+mot,against,反对,ADP
+må,feel,感觉,VERB
+många,many,许多,ADJ
+ner,down,向下,ADV
+nog,enough,足够,ADV
+nummer,number,号码,NOUN
+nära,near,近的,ADP
+nästa,next,下一个的,ADJ
+nästan,almost,几乎,ADV
+nå,reach,到达,VERB
+någonsin,ever,曾经,ADV
+någonting,something,某事,PRON
+också,also/too,也,ADV
+oj,oh,哎呀,INTJ
+okej,okay,好的,ADJ
+olika,different,不同的,ADJ
+ont,pain/hurt,疼痛,ADJ
+ord,word,单词,NOUN
+oroa,worry,担心,VERB
+orolig,worried,担心的,ADJ
+oss,us,我们,PRON
+par,couple/pair,一对,NOUN
+perfekt,perfect,完美的,ADJ
+plats,place,地方,NOUN
+polis,police,警察,NOUN
+prata,talk,说话,VERB
+precis,exactly/just,恰好,ADV
+reda,tidy up,整理,VERB
+redan,already,已经,ADV
+redo,ready,准备好的,ADJ
+resten,the rest,其余,NOUN
+riktig,real,真正的,ADJ
+riktigt,really,真正地,ADV
+ringa,call,打电话,VERB
+roll,role,角色,NOUN
+runt,around,围绕,ADP
+rädda,save,拯救,VERB
+rätt,right,正确的,ADJ
+råd,advice,建议,NOUN
+sak,thing,事情,NOUN
+samtal,conversation,对话,NOUN
+sann,true,真实的,ADJ
+sedan,since,自从,ADP
+sen,late,迟的,ADJ
+senare,later,稍后,ADV
+senaste,latest,最新的,ADJ
+sent,late,晚地,ADV
+ses,see you,再见,VERB
+sida,side/page,侧面/页,NOUN
+sig,oneself,自己,PRON
+sitt,his/her own,他/她自己的,DET
+själv,self,自己,PRON
+självklart,of course,当然,ADV
+ska,will/shall,将要/会,AUX
+skada,damage,损害,NOUN
+skall,will/shall,将要/会,AUX
+skjuta,shoot,射击,VERB
+skalle,skull,头骨,NOUN
+skulle,would,将会,AUX
+skydda,protect,保护,VERB
+skyldig,guilty/owes,有罪的/欠钱的,ADJ
+skynda,hurry,匆忙,VERB
+slå,hit/beat,打/击,VERB
+slut,end,结束,NOUN
+slåss,fight,打架,VERB
+snart,soon,很快,ADV
+snäll,kind,善良的,ADJ
+snälla,please,请,INTJ
+som,as/that/who,如同/那/谁,PRON
+stan,city,城市,NOUN
+stanna,stay,停留,VERB
+strax,shortly,不久,ADV
+stund,moment,片刻,NOUN
+ställa,put,放置,VERB
+ställe,place,地方,NOUN
+svar,answer,回答,NOUN
+synd,shame/pity,遗憾,NOUN
+säker,sure/safe,确定的,ADJ
+säker,surely/safe,肯定地,ADV
+sätt,way,方式,NOUN
+sätta,put/set,放置,VERB
+så,so/thus,所以/如此,ADV
+sådan,such,这样的,DET
+tid,time,时间,NOUN
+tidigare,earlier,更早的,ADJ
+tillbaka,back,回/向后,ADV
+tillräckligt,enough,足够的,ADV
+tills,until,直到,SCONJ
+tillsammans,together,一起,ADV
+titta,look,看,VERB
+tja,hi,嗨,INTJ
+tjej,girl/girlfriend,女孩/女朋友,NOUN
+tjänst,service/favor,服务/帮忙,NOUN
+tom,empty,空的,ADJ
+toppen,top/great,顶部/极好,NOUN
+träffa,meet,遇见,VERB
+träffas,meet,见面,VERB
+tur,luck/turn,运气/轮次,NOUN
+tvungen,forced,被迫的,ADJ
+typ,type/like,类型/比如,NOUN
+tyst,quiet,安静的,ADJ
+tyvärr,unfortunately,不幸地,ADV
+undan,away,避开,ADP
+upp,up,向上,ADV
+uppe,up,在上面,ADV
+ur,out of,从,ADP
+ursäkt,excuse,借口,NOUN
+ursäkta,excuse,原谅,VERB
+ut,out,出去,ADV
+utanför,outside,在外面,ADP
+ute,out,在外面,ADV
+vadå,what,什么,ADV
+val,choice,选择,NOUN
+vapen,weapon,武器,NOUN
+varandra,each other,互相,PRON
+varje,every,每个,DET
+varsågod,here you go,请,INTJ
+vart,where,去哪里,ADV
+verkligen,really,真正地,ADV
+vidare,further,进一步,ADV
+vilken,which,哪个,DET
+viss,some,某些,ADJ
+visst,sure,当然,ADV
+väl,well,好,ADV
+väldigt,very,非常,ADV
+välkommen,welcome,欢迎,ADJ
+värre,worse,更糟,ADJ
+älskling,darling,亲爱的,NOUN
+än,than,比,ADP
+ändå,yet,仍然,ADV
+ännu,yet,仍然,ADV
+även,also,也,ADV
+åh,oh,哦,INTJ
+åka,go,去,VERB
+åt,to,向,ADP
+ögonblick,moment,时刻,NOUN
+överallt,everywhere,到处,ADV
+adjö,goodbye,再见,INTJ
+adress,address,地址,NOUN
+advokat,lawyer,律师,NOUN
+affär,shop,商店,NOUN
+aj,ouch,哎哟,INTJ
+akta,watch out,小心,VERB
+alldeles,entirely,完全,ADV
+allihopa,all of them,大家,PRON
+alltihop,all of it,一切,PRON
+allting,everything,一切,PRON
+allvarligt,seriously,认真地,ADV
+än,than,比,SCONJ
+andas,breathe,呼吸,VERB
+angående,regarding,关于,ADP
+anledning,reason,原因,NOUN
+anse,consider,认为,VERB
+ansvar,responsibility,责任,NOUN
+ansvarig,responsible,负责的,ADJ
+antagligen,probably,大概,ADV
+antingen,either,要么,CCONJ
+armé,army,军队,NOUN
+avsluta,finish,完成,VERB
+avtal,agreement,协议,NOUN
+backa,back up,倒车,VERB
+bak,back,后面,ADV
+bar,bare,赤裸的,ADJ
+behålla,keep,保留,VERB
+beredd,prepared,准备好的,ADJ
+bero,depend,取决于,VERB
+beslut,decision,决定,NOUN
+bestämma,decide,决定,VERB
+bestämd,determined/definite,确定的,ADJ
+besviken,disappointed,失望的,ADJ
+besök,visit,访问,NOUN
+bevisa,prove,证明,VERB
+bild,picture,图片,NOUN
+bit,piece,块,NOUN
+bjuda,invite/offer,邀请,VERB
+bland,among,在...之中,ADP
+bredvid,next to,在...旁边,ADP
+broder,brother,兄弟,NOUN
+brott,crime,犯罪,NOUN
+bryta,break,打破,VERB
+bråttom,in a hurry,匆忙,ADV
+bröllop,wedding,婚礼,NOUN
+bygga,build,建造,VERB
+byggnad,building,建筑物,NOUN
+byta,change,改变,VERB
+både,both,两者都,CCONJ
+dam,lady,女士,NOUN
+definitivt,definitely,肯定地,ADV
+dela,share,分享,VERB
+dessutom,besides,此外,ADV
+desto,the more,越,ADV
+detsamma,the same,同样的,PRON
+diskutera,discuss,讨论,VERB
+djupt,deeply,深深地,ADV
+djur,animal,动物,NOUN
+doktor,doctor,医生,NOUN
+droger,drugs,毒品,NOUN
+dröm,dream,梦,NOUN
+duktig,capable/good,能干的/优秀的,ADJ
+därifrån,from there,从那里,ADV
+död,death,死亡,NOUN
+ed,oath,誓言,NOUN
+eftermiddag,afternoon,下午,NOUN
+ej,not,不,ADV
+endast,only,仅,ADV
+energi,energy,能量,NOUN
+engelska,English,英语,NOUN

@@ -1,0 +1,562 @@
+[
+  {
+    "line": 2,
+    "lemma": "Schlechtigkeit",
+    "english": "bad",
+    "chinese": "坏",
+    "pos": "NOUN"
+  },
+  {
+    "line": 3,
+    "lemma": "konnte",
+    "english": "could",
+    "chinese": "能够",
+    "pos": "AUX"
+  },
+  {
+    "line": 4,
+    "lemma": "wenigst",
+    "english": "least",
+    "chinese": "最少",
+    "pos": "ADJ"
+  },
+  {
+    "line": 5,
+    "lemma": "nahe",
+    "english": "near",
+    "chinese": "靠近",
+    "pos": "ADV"
+  },
+  {
+    "line": 6,
+    "lemma": "Waschgang",
+    "english": "wash",
+    "chinese": "洗涤",
+    "pos": "NOUN"
+  },
+  {
+    "line": 7,
+    "lemma": "wir",
+    "english": "we",
+    "chinese": "我们",
+    "pos": "INTJ"
+  },
+  {
+    "line": 8,
+    "lemma": "dich",
+    "english": "yourself",
+    "chinese": "你自己",
+    "pos": "PRON"
+  },
+  {
+    "line": 9,
+    "lemma": "Minuten",
+    "english": "minutes",
+    "chinese": "分钟",
+    "pos": "NOUN"
+  },
+  {
+    "line": 10,
+    "lemma": "Vormittag",
+    "english": "forenoon",
+    "chinese": "上午",
+    "pos": "NOUN"
+  },
+  {
+    "line": 11,
+    "lemma": "Helfer",
+    "english": "helper",
+    "chinese": "助手",
+    "pos": "NOUN"
+  },
+  {
+    "line": 12,
+    "lemma": "munter",
+    "english": "awake",
+    "chinese": "清醒的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 13,
+    "lemma": "Zeitraum",
+    "english": "period",
+    "chinese": "时期",
+    "pos": "NOUN"
+  },
+  {
+    "line": 14,
+    "lemma": "Schulbank",
+    "english": "school bench",
+    "chinese": "课桌",
+    "pos": "NOUN"
+  },
+  {
+    "line": 15,
+    "lemma": "Jahrzeit",
+    "english": "season",
+    "chinese": "季节",
+    "pos": "NOUN"
+  },
+  {
+    "line": 16,
+    "lemma": "Reiseplatz",
+    "english": "travel seat",
+    "chinese": "座位",
+    "pos": "NOUN"
+  },
+  {
+    "line": 17,
+    "lemma": "Schulranzen",
+    "english": "schoolbag",
+    "chinese": "书包",
+    "pos": "NOUN"
+  },
+  {
+    "line": 18,
+    "lemma": "Hähnchen",
+    "english": "chicken",
+    "chinese": "鸡肉",
+    "pos": "NOUN"
+  },
+  {
+    "line": 19,
+    "lemma": "joggen",
+    "english": "jog",
+    "chinese": "慢跑",
+    "pos": "VERB"
+  },
+  {
+    "line": 20,
+    "lemma": "angebeben",
+    "english": "to indicate",
+    "chinese": "表明",
+    "pos": "VERB"
+  },
+  {
+    "line": 21,
+    "lemma": "hüpfen",
+    "english": "hop",
+    "chinese": "跳",
+    "pos": "VERB"
+  },
+  {
+    "line": 22,
+    "lemma": "necken",
+    "english": "tease",
+    "chinese": "戏弄",
+    "pos": "VERB"
+  },
+  {
+    "line": 23,
+    "lemma": "fester",
+    "english": "firm",
+    "chinese": "坚实的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 24,
+    "lemma": "umsteigen",
+    "english": "to change (trains)",
+    "chinese": "换乘",
+    "pos": "VERB"
+  },
+  {
+    "line": 25,
+    "lemma": "umritten",
+    "english": "surrounded",
+    "chinese": "被包围的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 26,
+    "lemma": "Schlauberger",
+    "english": "know-it-all",
+    "chinese": "自以为是的人",
+    "pos": "NOUN"
+  },
+  {
+    "line": 27,
+    "lemma": "Rind",
+    "english": "beef",
+    "chinese": "牛肉",
+    "pos": "NOUN"
+  },
+  {
+    "line": 28,
+    "lemma": "viel",
+    "english": "much",
+    "chinese": "许多",
+    "pos": "ADV"
+  },
+  {
+    "line": 29,
+    "lemma": "Zimt",
+    "english": "cinnamon",
+    "chinese": "肉桂",
+    "pos": "NOUN"
+  },
+  {
+    "line": 30,
+    "lemma": "reife",
+    "english": "ripe",
+    "chinese": "成熟的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 31,
+    "lemma": "Anbau",
+    "english": "extension",
+    "chinese": "扩建",
+    "pos": "NOUN"
+  },
+  {
+    "line": 32,
+    "lemma": "Wandlung",
+    "english": "transformation",
+    "chinese": "转变",
+    "pos": "NOUN"
+  },
+  {
+    "line": 33,
+    "lemma": "Dachs",
+    "english": "badger",
+    "chinese": "獾",
+    "pos": "NOUN"
+  },
+  {
+    "line": 34,
+    "lemma": "Uhu",
+    "english": "eagle owl",
+    "chinese": "雕鸮",
+    "pos": "NOUN"
+  },
+  {
+    "line": 35,
+    "lemma": "Hirsch",
+    "english": "deer",
+    "chinese": "鹿",
+    "pos": "NOUN"
+  },
+  {
+    "line": 36,
+    "lemma": "Falke",
+    "english": "falcon",
+    "chinese": "隼",
+    "pos": "NOUN"
+  },
+  {
+    "line": 37,
+    "lemma": "Ameise",
+    "english": "ant",
+    "chinese": "蚂蚁",
+    "pos": "NOUN"
+  },
+  {
+    "line": 38,
+    "lemma": "Nasen",
+    "english": "nose",
+    "chinese": "鼻子",
+    "pos": "NOUN"
+  },
+  {
+    "line": 39,
+    "lemma": "Läufer",
+    "english": "runner",
+    "chinese": "跑步者",
+    "pos": "NOUN"
+  },
+  {
+    "line": 40,
+    "lemma": "Joch",
+    "english": "yoke",
+    "chinese": "轭",
+    "pos": "NOUN"
+  },
+  {
+    "line": 41,
+    "lemma": "Feder",
+    "english": "feather",
+    "chinese": "羽毛",
+    "pos": "NOUN"
+  },
+  {
+    "line": 42,
+    "lemma": "Pinguin",
+    "english": "penguin",
+    "chinese": "企鹅",
+    "pos": "NOUN"
+  },
+  {
+    "line": 43,
+    "lemma": "Hahn",
+    "english": "rooster",
+    "chinese": "公鸡",
+    "pos": "NOUN"
+  },
+  {
+    "line": 44,
+    "lemma": "Fliege",
+    "english": "fly",
+    "chinese": "苍蝇",
+    "pos": "NOUN"
+  },
+  {
+    "line": 45,
+    "lemma": "Dackel",
+    "english": "dachshund",
+    "chinese": "腊肠犬",
+    "pos": "NOUN"
+  },
+  {
+    "line": 46,
+    "lemma": "Oase",
+    "english": "oasis",
+    "chinese": "绿洲",
+    "pos": "NOUN"
+  },
+  {
+    "line": 47,
+    "lemma": "Igel",
+    "english": "hedgehog",
+    "chinese": "刺猬",
+    "pos": "NOUN"
+  },
+  {
+    "line": 48,
+    "lemma": "Erde",
+    "english": "earth",
+    "chinese": "土地",
+    "pos": "NOUN"
+  },
+  {
+    "line": 49,
+    "lemma": "lila",
+    "english": "purple",
+    "chinese": "紫色",
+    "pos": "ADJ"
+  },
+  {
+    "line": 50,
+    "lemma": "Umhang",
+    "english": "cloak",
+    "chinese": "斗篷",
+    "pos": "NOUN"
+  },
+  {
+    "line": 51,
+    "lemma": "Leder",
+    "english": "leather",
+    "chinese": "皮革",
+    "pos": "NOUN"
+  },
+  {
+    "line": 52,
+    "lemma": "Leinen",
+    "english": "linen",
+    "chinese": "线麻",
+    "pos": "NOUN"
+  },
+  {
+    "line": 53,
+    "lemma": "silber",
+    "english": "silver",
+    "chinese": "银色",
+    "pos": "ADJ"
+  },
+  {
+    "line": 54,
+    "lemma": "Pantoffel",
+    "english": "slipper",
+    "chinese": "拖鞋",
+    "pos": "NOUN"
+  },
+  {
+    "line": 55,
+    "lemma": "ultramarin",
+    "english": "ultramarine",
+    "chinese": "群青色",
+    "pos": "ADJ"
+  },
+  {
+    "line": 56,
+    "lemma": "dunkelblau",
+    "english": "dark blue",
+    "chinese": "深蓝色",
+    "pos": "ADJ"
+  },
+  {
+    "line": 57,
+    "lemma": "leuchtend",
+    "english": "bright",
+    "chinese": "明亮的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 58,
+    "lemma": "Saum",
+    "english": "hem",
+    "chinese": "边缘",
+    "pos": "NOUN"
+  },
+  {
+    "line": 59,
+    "lemma": "Impuls",
+    "english": "impulse",
+    "chinese": "冲动",
+    "pos": "NOUN"
+  },
+  {
+    "line": 60,
+    "lemma": "verliebt",
+    "english": "in love",
+    "chinese": "恋爱中的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 61,
+    "lemma": "zornig",
+    "english": "angry",
+    "chinese": "愤怒的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 62,
+    "lemma": "rasch",
+    "english": "fast",
+    "chinese": "快速的",
+    "pos": "ADV"
+  },
+  {
+    "line": 63,
+    "lemma": "Fett",
+    "english": "fat",
+    "chinese": "脂肪",
+    "pos": "NOUN"
+  },
+  {
+    "line": 64,
+    "lemma": "Bagage",
+    "english": "luggage",
+    "chinese": "行李",
+    "pos": "NOUN"
+  },
+  {
+    "line": 65,
+    "lemma": "Eck",
+    "english": "corner",
+    "chinese": "角落",
+    "pos": "NOUN"
+  },
+  {
+    "line": 66,
+    "lemma": "Menü",
+    "english": "menu",
+    "chinese": "菜单",
+    "pos": "NOUN"
+  },
+  {
+    "line": 67,
+    "lemma": "Wissen",
+    "english": "knowledge",
+    "chinese": "知识",
+    "pos": "NOUN"
+  },
+  {
+    "line": 68,
+    "lemma": "pfeifen",
+    "english": "to whistle",
+    "chinese": "吹口哨",
+    "pos": "VERB"
+  },
+  {
+    "line": 69,
+    "lemma": "Tätigkeit",
+    "english": "activity",
+    "chinese": "活动",
+    "pos": "NOUN"
+  },
+  {
+    "line": 70,
+    "lemma": "ordnen",
+    "english": "to organize",
+    "chinese": "整理",
+    "pos": "VERB"
+  },
+  {
+    "line": 71,
+    "lemma": "reichhaltig",
+    "english": "rich/substantial",
+    "chinese": "丰富的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 72,
+    "lemma": "Marmelade",
+    "english": "jam",
+    "chinese": "果酱",
+    "pos": "NOUN"
+  },
+  {
+    "line": 73,
+    "lemma": "zahm",
+    "english": "tame",
+    "chinese": "温顺的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 74,
+    "lemma": "Oel",
+    "english": "oil",
+    "chinese": "油",
+    "pos": "NOUN"
+  },
+  {
+    "line": 75,
+    "lemma": "Hecht",
+    "english": "pike",
+    "chinese": "狗鱼",
+    "pos": "NOUN"
+  },
+  {
+    "line": 76,
+    "lemma": "Zweig",
+    "english": "branch",
+    "chinese": "树枝",
+    "pos": "NOUN"
+  },
+  {
+    "line": 77,
+    "lemma": "Flanell",
+    "english": "flannel",
+    "chinese": "法兰绒",
+    "pos": "NOUN"
+  },
+  {
+    "line": 78,
+    "lemma": "dicke",
+    "english": "thick",
+    "chinese": "厚的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 79,
+    "lemma": "Durchfall",
+    "english": "diarrhea",
+    "chinese": "腹泻",
+    "pos": "NOUN"
+  },
+  {
+    "line": 80,
+    "lemma": "ideale",
+    "english": "ideal",
+    "chinese": "理想的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 81,
+    "lemma": "teils",
+    "english": "partly",
+    "chinese": "部分地",
+    "pos": "ADV"
+  }
+]

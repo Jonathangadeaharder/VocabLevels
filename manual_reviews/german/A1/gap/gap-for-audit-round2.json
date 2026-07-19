@@ -1,0 +1,611 @@
+[
+  {
+    "line": 2,
+    "lemma": "vorwärts",
+    "english": "ahead",
+    "chinese": "向前",
+    "pos": "ADP"
+  },
+  {
+    "line": 3,
+    "lemma": "entlang",
+    "english": "along",
+    "chinese": "沿着",
+    "pos": "ADV"
+  },
+  {
+    "line": 4,
+    "lemma": "irgendjemand",
+    "english": "anybody",
+    "chinese": "任何人",
+    "pos": "DET"
+  },
+  {
+    "line": 5,
+    "lemma": "jemand",
+    "english": "anyone",
+    "chinese": "任何人",
+    "pos": "DET"
+  },
+  {
+    "line": 6,
+    "lemma": "sowieso",
+    "english": "anyway",
+    "chinese": "无论如何",
+    "pos": "DET"
+  },
+  {
+    "line": 7,
+    "lemma": "Schlecht",
+    "english": "bad",
+    "chinese": "坏的",
+    "pos": "NOUN"
+  },
+  {
+    "line": 8,
+    "lemma": "weil",
+    "english": "because",
+    "chinese": "因为",
+    "pos": "ADP"
+  },
+  {
+    "line": 9,
+    "lemma": "best",
+    "english": "best",
+    "chinese": "最好的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 10,
+    "lemma": "besser",
+    "english": "better",
+    "chinese": "更好的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 11,
+    "lemma": "beide",
+    "english": "both",
+    "chinese": "两者",
+    "pos": "CCONJ"
+  },
+  {
+    "line": 12,
+    "lemma": "Bringung",
+    "english": "bring",
+    "chinese": "带来",
+    "pos": "NOUN"
+  },
+  {
+    "line": 13,
+    "lemma": "Beschäftigung",
+    "english": "busy",
+    "chinese": "忙碌",
+    "pos": "NOUN"
+  },
+  {
+    "line": 14,
+    "lemma": "könnte",
+    "english": "could",
+    "chinese": "可以",
+    "pos": "AUX"
+  },
+  {
+    "line": 15,
+    "lemma": "Verrücktheit",
+    "english": "crazy",
+    "chinese": "疯狂",
+    "pos": "NOUN"
+  },
+  {
+    "line": 16,
+    "lemma": "anders",
+    "english": "different",
+    "chinese": "不同的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 17,
+    "lemma": "Verschwinden",
+    "english": "disappear",
+    "chinese": "消失",
+    "pos": "NOUN"
+  },
+  {
+    "line": 18,
+    "lemma": "alle",
+    "english": "everybody",
+    "chinese": "所有人",
+    "pos": "DET"
+  },
+  {
+    "line": 19,
+    "lemma": "Erwartung",
+    "english": "expect",
+    "chinese": "期望",
+    "pos": "NOUN"
+  },
+  {
+    "line": 20,
+    "lemma": "Weibchen",
+    "english": "female",
+    "chinese": "雌性",
+    "pos": "NOUN"
+  },
+  {
+    "line": 21,
+    "lemma": "wenige",
+    "english": "few",
+    "chinese": "很少的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 22,
+    "lemma": "Feinheit",
+    "english": "fine",
+    "chinese": "细腻",
+    "pos": "NOUN"
+  },
+  {
+    "line": 23,
+    "lemma": "Get",
+    "english": "get",
+    "chinese": "获得",
+    "pos": "NOUN"
+  },
+  {
+    "line": 24,
+    "lemma": "Rätel",
+    "english": "guess",
+    "chinese": "猜测",
+    "pos": "NOUN"
+  },
+  {
+    "line": 25,
+    "lemma": "Hör",
+    "english": "hear",
+    "chinese": "听",
+    "pos": "INTJ"
+  },
+  {
+    "line": 26,
+    "lemma": "ihm",
+    "english": "him",
+    "chinese": "他",
+    "pos": "PRON"
+  },
+  {
+    "line": 27,
+    "lemma": "Eile",
+    "english": "hurry",
+    "chinese": "匆忙",
+    "pos": "INTJ"
+  },
+  {
+    "line": 28,
+    "lemma": "innen",
+    "english": "inside",
+    "chinese": "里面",
+    "pos": "ADP"
+  },
+  {
+    "line": 29,
+    "lemma": "wenigsten",
+    "english": "least",
+    "chinese": "最少的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 30,
+    "lemma": "weniger",
+    "english": "less",
+    "chinese": "较少的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 31,
+    "lemma": "wie",
+    "english": "like",
+    "chinese": "像",
+    "pos": "INTJ"
+  },
+  {
+    "line": 32,
+    "lemma": "viele",
+    "english": "many",
+    "chinese": "许多",
+    "pos": "ADJ"
+  },
+  {
+    "line": 33,
+    "lemma": "Materie",
+    "english": "matter",
+    "chinese": "物质",
+    "pos": "NOUN"
+  },
+  {
+    "line": 34,
+    "lemma": "vielleicht",
+    "english": "maybe",
+    "chinese": "也许",
+    "pos": "INTJ"
+  },
+  {
+    "line": 35,
+    "lemma": "Treffen",
+    "english": "meet",
+    "chinese": "见面",
+    "pos": "NOUN"
+  },
+  {
+    "line": 36,
+    "lemma": "Million",
+    "english": "million",
+    "chinese": "百万",
+    "pos": "NUM"
+  },
+  {
+    "line": 37,
+    "lemma": "meist",
+    "english": "most",
+    "chinese": "最多的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 38,
+    "lemma": "viel",
+    "english": "much",
+    "chinese": "多",
+    "pos": "ADJ"
+  },
+  {
+    "line": 39,
+    "lemma": "mein",
+    "english": "my",
+    "chinese": "我的",
+    "pos": "PRON"
+  },
+  {
+    "line": 40,
+    "lemma": "nein",
+    "english": "no",
+    "chinese": "不",
+    "pos": "INTJ"
+  },
+  {
+    "line": 41,
+    "lemma": "unser",
+    "english": "our",
+    "chinese": "我们的",
+    "pos": "PRON"
+  },
+  {
+    "line": 42,
+    "lemma": "Schnelligkeit",
+    "english": "quick",
+    "chinese": "快速",
+    "pos": "NOUN"
+  },
+  {
+    "line": 43,
+    "lemma": "Veröffentlichung",
+    "english": "release",
+    "chinese": "发布",
+    "pos": "NOUN"
+  },
+  {
+    "line": 44,
+    "lemma": "Ersparnis",
+    "english": "save",
+    "chinese": "节省",
+    "pos": "NOUN"
+  },
+  {
+    "line": 45,
+    "lemma": "besonders",
+    "english": "special",
+    "chinese": "特别的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 46,
+    "lemma": "Ausgabe",
+    "english": "spend",
+    "chinese": "花费",
+    "pos": "NOUN"
+  },
+  {
+    "line": 47,
+    "lemma": "solch",
+    "english": "such",
+    "chinese": "如此",
+    "pos": "ADJ"
+  },
+  {
+    "line": 48,
+    "lemma": "Nimm",
+    "english": "take",
+    "chinese": "拿",
+    "pos": "NOUN"
+  },
+  {
+    "line": 49,
+    "lemma": "das",
+    "english": "that",
+    "chinese": "那个",
+    "pos": "PRON"
+  },
+  {
+    "line": 50,
+    "lemma": "dort",
+    "english": "there",
+    "chinese": "那里",
+    "pos": "PRON"
+  },
+  {
+    "line": 51,
+    "lemma": "diese",
+    "english": "these",
+    "chinese": "这些",
+    "pos": "PRON"
+  },
+  {
+    "line": 52,
+    "lemma": "dies",
+    "english": "this",
+    "chinese": "这",
+    "pos": "PRON"
+  },
+  {
+    "line": 53,
+    "lemma": "jene",
+    "english": "those",
+    "chinese": "那些",
+    "pos": "PRON"
+  },
+  {
+    "line": 54,
+    "lemma": "Heute",
+    "english": "today",
+    "chinese": "今天",
+    "pos": "NOUN"
+  },
+  {
+    "line": 55,
+    "lemma": "zusammen",
+    "english": "together",
+    "chinese": "一起",
+    "pos": "ADP"
+  },
+  {
+    "line": 56,
+    "lemma": "verstehen",
+    "english": "understand",
+    "chinese": "理解",
+    "pos": "ADP"
+  },
+  {
+    "line": 57,
+    "lemma": "oben",
+    "english": "up",
+    "chinese": "向上",
+    "pos": "ADP"
+  },
+  {
+    "line": 58,
+    "lemma": "uns",
+    "english": "us",
+    "chinese": "我们",
+    "pos": "PRON"
+  },
+  {
+    "line": 59,
+    "lemma": "achso",
+    "english": "we",
+    "chinese": "啊",
+    "pos": "INTJ"
+  },
+  {
+    "line": 60,
+    "lemma": "Willkommen",
+    "english": "welcome",
+    "chinese": "欢迎",
+    "pos": "NOUN"
+  },
+  {
+    "line": 61,
+    "lemma": "wasauchimmer",
+    "english": "whatever",
+    "chinese": "无论什么",
+    "pos": "PRON"
+  },
+  {
+    "line": 62,
+    "lemma": "Schlechter",
+    "english": "worse",
+    "chinese": "更糟的",
+    "pos": "NOUN"
+  },
+  {
+    "line": 63,
+    "lemma": "würde",
+    "english": "would",
+    "chinese": "将会",
+    "pos": "AUX"
+  },
+  {
+    "line": 64,
+    "lemma": "Gestern",
+    "english": "yesterday",
+    "chinese": "昨天",
+    "pos": "NOUN"
+  },
+  {
+    "line": 65,
+    "lemma": "noch",
+    "english": "yet",
+    "chinese": "还",
+    "pos": "CCONJ"
+  },
+  {
+    "line": 66,
+    "lemma": "dein",
+    "english": "your",
+    "chinese": "你的",
+    "pos": "PRON"
+  },
+  {
+    "line": 67,
+    "lemma": "again",
+    "english": "again",
+    "chinese": "再次",
+    "pos": "ADV"
+  },
+  {
+    "line": 68,
+    "lemma": "komplett",
+    "english": "completely",
+    "chinese": "完全地",
+    "pos": "ADV"
+  },
+  {
+    "line": 69,
+    "lemma": "definitiv",
+    "english": "definitely",
+    "chinese": "肯定地",
+    "pos": "ADV"
+  },
+  {
+    "line": 70,
+    "lemma": "jeder",
+    "english": "everyone",
+    "chinese": "每个人",
+    "pos": "PRON"
+  },
+  {
+    "line": 71,
+    "lemma": "letzte",
+    "english": "last",
+    "chinese": "最后的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 72,
+    "lemma": "now",
+    "english": "now",
+    "chinese": "现在",
+    "pos": "ADV"
+  },
+  {
+    "line": 73,
+    "lemma": "old",
+    "english": "old",
+    "chinese": "老的",
+    "pos": "ADJ"
+  },
+  {
+    "line": 74,
+    "lemma": "on",
+    "english": "on",
+    "chinese": "在",
+    "pos": "ADP"
+  },
+  {
+    "line": 75,
+    "lemma": "one",
+    "english": "one",
+    "chinese": "一",
+    "pos": "NUM"
+  },
+  {
+    "line": 76,
+    "lemma": "only",
+    "english": "only",
+    "chinese": "只有",
+    "pos": "ADV"
+  },
+  {
+    "line": 77,
+    "lemma": "or",
+    "english": "or",
+    "chinese": "或者",
+    "pos": "CCONJ"
+  },
+  {
+    "line": 78,
+    "lemma": "ziemlich",
+    "english": "quite",
+    "chinese": "相当",
+    "pos": "ADV"
+  },
+  {
+    "line": 79,
+    "lemma": "sollte",
+    "english": "should",
+    "chinese": "应该",
+    "pos": "AUX"
+  },
+  {
+    "line": 80,
+    "lemma": "welche",
+    "english": "which",
+    "chinese": "哪一个",
+    "pos": "PRON"
+  },
+  {
+    "line": 81,
+    "lemma": "Work",
+    "english": "work",
+    "chinese": "工作",
+    "pos": "NOUN"
+  },
+  {
+    "line": 82,
+    "lemma": "Pen",
+    "english": "pen",
+    "chinese": "钢笔",
+    "pos": "NOUN"
+  },
+  {
+    "line": 83,
+    "lemma": "Natter",
+    "english": "adder",
+    "chinese": "蝰蛇",
+    "pos": "NOUN"
+  },
+  {
+    "line": 84,
+    "lemma": "Mond",
+    "english": "moon",
+    "chinese": "月亮",
+    "pos": "NOUN"
+  },
+  {
+    "line": 85,
+    "lemma": "Zungue",
+    "english": "tongue",
+    "chinese": "舌头",
+    "pos": "NOUN"
+  },
+  {
+    "line": 86,
+    "lemma": "Kiesel",
+    "english": "pebble",
+    "chinese": "小石子",
+    "pos": "NOUN"
+  },
+  {
+    "line": 87,
+    "lemma": "Vene",
+    "english": "vein",
+    "chinese": "静脉",
+    "pos": "NOUN"
+  },
+  {
+    "line": 88,
+    "lemma": "Gutschein",
+    "english": "voucher",
+    "chinese": "代金券",
+    "pos": "NOUN"
+  }
+]

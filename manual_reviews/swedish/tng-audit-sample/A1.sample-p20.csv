@@ -1,0 +1,24 @@
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+22,berg,mountain,山,NOUN,sv,A1,1,keep,clean
+40,bröd,bread,面包,NOUN,sv,A1,2,keep,clean
+42,butik,shop,商店,NOUN,sv,A1,3,keep,clean
+46,bäst,best,最好的,ADJ,sv,A1,4,keep,clean
+48,båda,both,两者,DET,sv,A1,5,keep,clean
+57,det,it (neuter),它 (中性),PRON,sv,A1,6,keep,clean
+60,dotter,daughter,女儿,NOUN,sv,A1,7,keep,clean
+76,elva,eleven,十一,NUM,sv,A1,8,keep,clean
+118,förstå,to understand,理解,VERB,sv,A1,9,keep,clean
+150,hjälpa,to help,帮助,VERB,sv,A1,10,keep,clean
+161,här,here,这里,ADV,sv,A1,11,keep,clean
+164,hög,high/tall,高的,ADJ,sv,A1,12,keep,clean
+165,höna,hen,母鸡,NOUN,sv,A1,13,keep,clean
+185,kafé,café,咖啡馆,NOUN,sv,A1,14,keep,clean
+192,klänning,dress,连衣裙,NOUN,sv,A1,15,keep,clean
+195,kropp,body,身体,NOUN,sv,A1,16,keep,clean
+253,möta,to meet,遇见,VERB,sv,A1,17,keep,clean
+280,plast,plastic,塑料,NOUN,sv,A1,18,keep,clean
+388,träd,tree,树,NOUN,sv,A1,19,keep,clean
+389,tråkig,boring,无聊的,ADJ,sv,A1,20,keep,clean
+407,vante,mitten,连指手套,NOUN,sv,A1,21,keep,clean
+494,emot,against,反对,ADP,sv,A1,22,keep,clean
+505,fan,devil/damn,魔鬼/该死,NOUN,sv,A1,23,keep,clean

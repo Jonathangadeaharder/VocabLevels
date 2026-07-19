@@ -1,2001 +1,1708 @@
 French_Lemma,English_Lemma,Chinese_Lemma,POS
-abattre,to slaughter/shoot down,,VERB
-abbaye,abbey,,X
-abeille,bee,,X
-abolition,abolition,,NOUN
-abondance,abundance,,NOUN
-aborder,to tackle/approach,,VERB
-aboutir,to lead to/succeed,,VERB
-abriter,to shelter/house,,VERB
-abstrait,abstract,,X
-absurde,absurd,,X
-académique,academic,,ADJ
-acceptable,acceptable,,ADJ
-acceptation,acceptance,,NOUN
-acclimatation,acclimatization,,NOUN
-accomplir,to accomplish,,VERB
-accorder,to grant,,VERB
-accouchement,childbirth,,NOUN
-accrocher,to hang/hook,,VERB
-accroître,to increase,,VERB
-acculturation,acculturation,,NOUN
-accumulation,accumulation,,NOUN
-accusation,accusation,,NOUN
-accélération,acceleration,,NOUN
-accélérer,to accelerate,,VERB
-acheminement,conveyance/routing,,NOUN
-acheteur,buyer,,NOUN
-achever,to complete/finish,,VERB
-acide,acid/sour,,X
-acquittement,acquittal,,NOUN
-actionnaire,shareholder,,VERB
-actionnariat,shareholding,,X
-adhérent,member,,X
-adhésion,membership,,X
-administrateur,administrator,,NOUN
-administratif,administrative,,ADJ
-admiration,admiration,,NOUN
-admirer,to admire,,VERB
-admission,admission,,X
-adolescent,teenager,,X
-adorable,adorable,,ADJ
-adresser,to address,,VERB
-adroitement,skillfully/deftly,,NOUN
-affecter,to affect/assign,,VERB
-affection,affection,,NOUN
-affichage,display,,X
-afficher,to display,,VERB
-affranchissement,emancipation,,NOUN
-affreux,awful/hideous,,ADJ
-agenda,diary/agenda,,X
-agression,assault/aggression,,X
-aigle,eagle,,X
-aiguille,needle,,X
-aire,area,,VERB
-aisément,easily,,NOUN
-ajout,addition,,X
-alarme,alarm,,X
-alentours,surroundings,,X
-algérien,Algerian,,X
-alias,alias,,X
-aliment,foodstuff,,NOUN
-alimenter,to feed/supply,,VERB
-aliénation,alienation,,NOUN
-allier,to combine/ally,,VERB
-allocation,allowance/benefit,,NOUN
-allumer,to light/turn on,,VERB
-allure,appearance/pace,,VERB
-allusion,allusion/hint,,X
-alternance,alternation,,NOUN
-altitude,altitude,,X
-altruisme,altruism,,NOUN
-aléatoire,random,,VERB
-ambassade,embassy,,X
-ambition,ambition,,NOUN
-ambivalent,ambivalent,,X
-amendement,amendment,,NOUN
-amical,friendly,,ADJ
-amiral,admiral,,ADJ
-amoindrir,to lessen/diminish,,VERB
-amusant,amusing,,X
-amuser,to amuse,,VERB
-analyser,to analyze,,VERB
-ancêtre,ancestor,,VERB
-angoisse,anguish,,X
-animateur,host/facilitator,,NOUN
-animé,lively,,X
-anneau,ring,,X
-annexe,appendix,,X
-annuler,to cancel,,VERB
-anonyme,anonymous,,X
-antenne,antenna,,X
-anticipation,anticipation,,NOUN
-antique,ancient,,ADJ
-antiquité,antiquity,,NOUN
-antisémitisme,antisemitism,,NOUN
-aperçu,overview/glimpse,,X
-apparent,apparent,,X
-appartenir,to belong,,VERB
-appellation,designation/name,,NOUN
-applicable,applicable,,ADJ
-apport,contribution,,X
-approcher,to approach,,VERB
-approprié,appropriate,,X
-approuver,to approve,,VERB
-approvisionnement,supply/sourcing,,NOUN
-appréciation,assessment/appreciation,,NOUN
-appréhender,to apprehend/dread,,VERB
-appuyer,to press/support,,VERB
-appétit,appetite,,X
-arbitrage,arbitration,,X
-arbitrer,to arbitrate/referee,,VERB
-archevêque,archbishop,,X
-architecte,architect,,X
-archéologie,archaeology,,X
-archétype,archetype,,X
-armement,armament/weaponry,,NOUN
-armé,armed,,X
-arnaque,scam,,X
-arracher,to tear out,,VERB
-arranger,to arrange/fix,,VERB
-arrestation,arrest,,NOUN
-arrêté,order/decree,,NOUN
-artillerie,artillery,,NOUN
-artisan,craftsman,,X
-ascendant,influence/sway,,X
-ascétisme,asceticism,,NOUN
-asiatique,Asian,,ADJ
-asile,asylum,,X
-assassin,assassin/murderer,,ADJ
-assassinat,assassination,,X
-assassiner,to assassinate,,VERB
-assaut,assault,,X
-asseoir,to sit,,VERB
-asservissement,enslavement,,NOUN
-assistant,assistant,,X
-associatif,nonprofit/community,,ADJ
-associer,to associate,,VERB
-assujettissement,subjection/liability,,NOUN
-assumer,to take on,,VERB
-astuce,trick/tip,,X
-astéroïde,asteroid,,X
-atermoyer,to procrastinate/delay,,VERB
-athlète,athlete,,X
-atout,asset/advantage,,X
-attachement,attachment,,NOUN
-attacher,to attach,,VERB
-attaquant,attacker/forward,,X
-atterrissage,landing,,X
-attiser,to stoke/fuel,,VERB
-attraction,attraction,,NOUN
-attraper,to catch,,VERB
-attribuer,to attribute/award,,VERB
-audio,audio,,X
-audit,audit,,X
-audition,audition/hearing,,NOUN
-austérité,austerity,,NOUN
-autodidacte,self-taught,,X
-automatiquement,automatically,,NOUN
-autonome,autonomous,,X
-autrui,others,,X
-aval,downstream/backing,,ADJ
-avaliser,to endorse,,VERB
-avancée,advance,,X
-avant-garde,avant-garde,,X
-avarice,avarice,,X
-avenant,amendment/addendum,,X
-avertir,to warn,,VERB
-avertissement,warning,,NOUN
-avortement,abortion,,NOUN
-avérer,to turn out,,VERB
-axiome,axiom,,X
-aérien,aerial,,X
-aéronautique,aeronautics,,ADJ
-bagage,luggage,,X
-bagarre,brawl/fight,,VERB
-bail,lease,,X
-bal,ball/dance,,ADJ
-balade,stroll,,X
-balcon,balcony,,X
-bancaire,banking,,VERB
-bannière,banner,,VERB
-banquier,banker,,VERB
-baptiser,to baptize/name,,VERB
-baptême,baptism,,X
-baron,baron,,X
-baroque,baroque,,X
-barrage,dam,,X
-barrière,barrier,,VERB
-bataillon,battalion,,X
-bibliographie,bibliography,,X
-bicaméral,bicameral,,ADJ
-biodiversité,biodiversity,,NOUN
-biographie,biography,,X
-biologique,biological/organic,,ADJ
-biotope,biotope,,X
-bizarrement,oddly/strangely,,NOUN
-blague,joke,,X
-blocage,blockage/deadlock,,X
-bloquer,to block,,VERB
-bol,bowl,,X
-bonbon,candy/sweet,,X
-bond,leap,,X
-bordure,edge/border,,VERB
-borne,marker/terminal,,X
-bosse,bump,,X
-bouclier,shield,,VERB
-boue,mud,,X
-bouquet,bouquet,,X
-bourgeois,bourgeois,,X
-bourgeoisie,bourgeoisie,,X
-bracelet,bracelet,,X
-brassage,mixing/mingling,,X
-breton,Breton,,X
-brevet,patent,,X
-brigade,brigade,,X
-brillant,brilliant,,X
-brise,breeze,,X
-briser,to shatter,,VERB
-brut,gross/raw,,X
-brésilien,Brazilian,,X
-budgétaire,budgetary,,VERB
-bulle,bubble,,X
-bureaucratie,bureaucracy,,X
-bâton,stick,,X
-bénédiction,blessing,,NOUN
-bénéficier,to benefit,,VERB
-bétail,livestock,,X
-béton,concrete,,X
-bêtise,stupidity/nonsense,,X
-cabine,cabin/booth,,X
-cadavre,corpse,,VERB
-caduc,obsolete/lapsed,,X
-caducité,lapse/expiry,,NOUN
-camarade,comrade/classmate,,X
-campus,campus,,X
-canal,canal/channel,,ADJ
-canard,duck,,X
-candide,candid/naive,,X
-cannabis,cannabis,,X
-canton,canton,,X
-capital,capital,,ADJ
-capitalisme,capitalism,,NOUN
-captieux,captious/misleading,,ADJ
-caractériser,to characterize,,VERB
-carburant,fuel,,X
-cardiaque,cardiac,,X
-carton,cardboard/box,,X
-case,box/square,,X
-casino,casino,,X
-cassation,quashing/cassation,,NOUN
-cathédrale,cathedral,,X
-catégorisation,categorization,,NOUN
-causalité,causality,,NOUN
-causer,to cause,,VERB
-caution,bail/deposit,,NOUN
-cautionner,to endorse/back,,VERB
-cavalerie,cavalry,,NOUN
-cavalier,rider/horseman,,VERB
-cave,cellar,,X
-cellulaire,cellular,,VERB
-cendre,ash,,VERB
-censure,censorship,,VERB
-centime,cent,,X
-certificat,certificate,,X
-cession,transfer/sale,,X
-chagrin,sorrow/grief,,ADJ
-chaire,chair/pulpit,,VERB
-championnat,championship,,X
-chancelier,chancellor,,VERB
-chanceux,lucky,,ADJ
-chaos,chaos,,X
-char,tank/chariot,,X
-chargement,loading/cargo,,NOUN
-charité,charity,,NOUN
-charmant,charming,,X
-chasseur,hunter,,NOUN
-chauffage,heating,,X
-chauffer,to heat,,VERB
-chaussette,sock,,X
-chaussée,roadway,,X
-chauvinisme,chauvinism,,NOUN
-cheminée,chimney/fireplace,,X
-cheville,ankle,,X
-chimique,chemical,,ADJ
-chirurgie,surgery,,X
-choquer,to shock,,VERB
-chouette,great/owl,,X
-christianisme,Christianity,,NOUN
-chromatique,chromatic,,ADJ
-chromosome,chromosome,,X
-chute,fall/drop,,X
-chèque,check,,X
-chèvre,goat,,VERB
-chéri,darling,,X
-chômeur,unemployed person,,NOUN
-ciblage,targeting,,X
-cigarette,cigarette,,X
-ciment,cement,,NOUN
-cimetière,cemetery,,VERB
-cinquantaine,about fifty,,X
-circonscription,constituency,,NOUN
-circonspect,circumspect,,X
-circulaire,circular,,VERB
-circuler,to circulate/move around,,VERB
-cirque,circus,,X
-citation,quotation,,NOUN
-citoyenneté,citizenship,,NOUN
-clairvoyance,clear-sightedness,,NOUN
-clandestinité,clandestinity,,NOUN
-claque,slap,,X
-classer,to classify,,VERB
-classicisme,classicism,,NOUN
-classification,classification,,NOUN
-clavier,keyboard,,VERB
-clergé,clergy,,X
-cliché,cliche/snapshot,,X
-clientélisme,clientelism,,NOUN
-clos,enclosed,,X
-clown,clown,,X
-cléricalisme,clericalism,,NOUN
-clôture,fence/closing,,VERB
-coalition,coalition,,NOUN
-cocktail,cocktail,,X
-codification,codification,,NOUN
-coffre,trunk/safe,,VERB
-cognition,cognition,,NOUN
-cohésion,cohesion,,X
-coiffure,hairstyle,,VERB
-coincé,stuck/uptight,,X
-colis,package,,X
-collaborateur,collaborator,,NOUN
-collecte,collection drive,,X
-collectivité,community/collectivity,,NOUN
-collier,necklace,,VERB
-colline,hill,,X
-colloque,symposium/conference,,X
-colon,colonist/settler,,X
-colonial,colonial,,ADJ
-colonie,colony,,X
-colonisation,colonization,,NOUN
-colonne,column,,X
-coma,coma,,X
-combattant,fighter,,X
-combinaison,combination,,X
-combiner,to combine,,VERB
-combler,to fill/fulfill,,VERB
-comité,committee,,NOUN
-commander,to order/command,,VERB
-commercialisation,marketing,,NOUN
-commissariat,police station,,X
-communautaire,community-related,,VERB
-communautarisme,communitarianism,,NOUN
-compagnon,companion,,X
-compassion,compassion,,X
-compatriote,compatriot,,X
-compensation,compensation,,NOUN
-compenser,to compensate,,VERB
-complexité,complexity,,NOUN
-complicité,complicity,,NOUN
-complot,plot/conspiracy,,X
-complément,complement,,NOUN
-compléter,to complete,,VERB
-comportement,behavior,,NOUN
-comportemental,behavioral,,ADJ
-composant,component,,X
-compositeur,composer,,NOUN
-comptabilité,accounting,,NOUN
-comptable,accountant,,ADJ
-compteur,meter/counter,,NOUN
-comptoir,counter,,VERB
-compulsion,compulsion,,X
-compétition,competition,,NOUN
-comtesse,countess,,NOUN
-comédien,actor/comedian,,X
-concentrer,to concentrate,,VERB
-concept,concept,,X
-concession,concession,,X
-conciliant,conciliatory,,X
-conciliation,conciliation,,NOUN
-conclure,to conclude,,VERB
-concomitamment,concomitantly,,NOUN
-concret,concrete/tangible,,X
-concurrence,competition,,X
-concurrent,competitor,,X
-concussion,embezzlement/graft,,X
-condamnation,conviction,,NOUN
-conductivité,conductivity,,NOUN
-confession,confession,,X
-confidentialité,confidentiality,,NOUN
-configuration,configuration,,NOUN
-confirmation,confirmation,,NOUN
-confondre,to confuse,,VERB
-conforme,compliant,,X
-conformisme,conformism,,NOUN
-conformité,compliance,,NOUN
-confort,comfort,,X
-confortable,comfortable,,ADJ
-confrontation,confrontation,,NOUN
-confronter,to confront,,VERB
-confusion,confusion,,X
-congé,leave/time off,,X
-conjecture,conjecture,,VERB
-conjoncture,economic climate,,VERB
-conjoncturel,cyclical,,X
-connecter,to connect,,VERB
-connexion,connection,,X
-conquérir,to conquer,,VERB
-conscient,aware,,X
-consensus,consensus,,X
-consentement,consent,,NOUN
-conservatoire,conservatory,,VERB
-considérable,considerable,,ADJ
-considérablement,considerably,,NOUN
-console,console,,X
-consolider,to consolidate,,VERB
-consommation,consumption,,NOUN
-constance,constancy/steadfastness,,NOUN
-constant,constant,,X
-constat,finding/observation,,X
-constitutionnel,constitutional,,X
-constructeur,manufacturer,,NOUN
-consubstantiel,consubstantial,,X
-consultant,consultant,,X
-consumériste,consumerist,,NOUN
-consécutivement,consecutively,,NOUN
-contacter,to contact,,VERB
-contemporain,contemporary,,ADJ
-contenu,content,,X
-contestation,protest/dispute,,NOUN
-continu,continuous,,X
-continuité,continuity,,NOUN
-contradiction,contradiction,,NOUN
-contraindre,to compel,,VERB
-contrainte,constraint,,X
-contraste,contrast,,X
-contrecarrer,to thwart,,VERB
-contrepartie,compensation/counterpart,,X
-contrer,to counter,,VERB
-contrevenir,to contravene,,VERB
-contribuer,to contribute,,VERB
-controverse,controversy,,X
-conversion,conversion,,X
-convertir,to convert,,VERB
-conviction,conviction,,NOUN
-convoi,convoy,,X
-convoitise,covetousness,,X
-coordination,coordination,,NOUN
-copier,to copy,,VERB
-coq,rooster,,X
-corollaire,corollary,,VERB
-corporation,guild/corporation,,NOUN
-corporatisme,corporatism,,NOUN
-correct,correct,,X
-correction,correction,,NOUN
-correspondance,correspondence,,NOUN
-corriger,to correct,,VERB
-corroborer,to corroborate,,VERB
-corrélativement,correlatively,,NOUN
-cosmologie,cosmology,,X
-cosmopolitisme,cosmopolitanism,,NOUN
-cotisation,contribution/dues,,NOUN
-coude,elbow,,X
-couler,to flow/sink,,VERB
-coupe,cup/cut,,X
-courbe,curve,,X
-coureur,runner/racer,,NOUN
-coutume,custom,,X
-couture,sewing/fashion,,VERB
-coïncidence,coincidence,,X
-crainte,fear,,X
-craquer,to crack/give in,,VERB
-crescendo,crescendo,,X
-cri,shout/cry,,X
-criminel,criminal,,X
-critiquer,to criticize,,VERB
-croiser,to cross paths with,,VERB
-croisière,cruise,,VERB
-croissance,growth,,NOUN
-croissant,growing,,X
-cru,raw,,X
-cruel,cruel,,X
-créativité,creativity,,NOUN
-créature,creature,,VERB
-crédibilité,credibility,,NOUN
-crédule,credulous/gullible,,X
-crédulité,credulity,,NOUN
-cubisme,cubism,,NOUN
-cuir,leather,,VERB
-cuire,to cook/bake,,VERB
-cuisson,cooking,,X
-cuit,cooked,,X
-cuivre,copper,,VERB
-culpabilité,guilt,,NOUN
-cupidité,greed,,NOUN
-cycliste,cyclist,,NOUN
-câble,cable,,X
-céder,to yield,,VERB
-céleste,celestial/heavenly,,X
-célébration,celebration,,NOUN
-célébrer,to celebrate,,VERB
-céréale,cereal/grain,,X
-dauphin,dolphin,,ADJ
-demandeur,applicant/plaintiff,,NOUN
-demeurer,to remain/reside,,VERB
-demoiselle,young lady,,X
-dense,dense,,X
-densité,density,,NOUN
-descendant,descendant,,X
-dessert,dessert,,X
-destiné,intended for,,X
-deuil,mourning,,X
-devise,currency,,X
-diagnostic,diagnosis,,X
-diesel,diesel,,X
-difficilement,with difficulty,,NOUN
-diffuser,to broadcast,,VERB
-dignité,dignity,,NOUN
-dilatoire,dilatory,,VERB
-diminuer,to decrease,,VERB
-diminution,decrease,,NOUN
-diocèse,diocese,,X
-diplomatie,diplomacy,,X
-diplomatique,diplomatic,,ADJ
-directive,directive,,X
-discret,discreet,,X
-discrimination,discrimination,,NOUN
-discrètement,discreetly,,NOUN
-discrétion,discretion,,NOUN
-disparate,disparate,,X
-dispute,argument,,X
-dissidence,dissidence,,X
-dissonance,dissonance,,NOUN
-distinguer,to distinguish,,VERB
-distributeur,distributor/vending machine,,NOUN
-district,district,,X
-divertissement,entertainment,,NOUN
-divin,divine,,ADJ
-diviser,to divide,,VERB
-division,division,,X
-divorce,divorce,,X
-dixième,tenth,,X
-doctorat,doctorate,,X
-doctrine,doctrine,,X
-dogmatisme,dogmatism,,NOUN
-dol,deceit/fraud,,X
-domestique,domestic,,ADJ
-dominer,to dominate,,VERB
-dommageable,damaging,,ADJ
-dommages,damages,,X
-doré,golden/gilded,,X
-dorénavant,from now on,,X
-dose,dose,,X
-dotation,endowment/allocation,,NOUN
-doter,to endow/equip,,VERB
-doubler,to double,,VERB
-douter,to doubt,,VERB
-doyen,dean/elder,,X
-dragon,dragon,,X
-dramatique,dramatic,,ADJ
-dramaturgie,dramaturgy,,X
-dresser,to erect/draw up,,VERB
-duchesse,duchess,,NOUN
-duel,duel,,X
-dumping,dumping,,X
-durabilité,sustainability,,NOUN
-dé,dice,,X
-débarquer,to disembark/land,,VERB
-débarrasser,to get rid of,,VERB
-débattre,to debate,,VERB
-débris,debris,,X
-débuter,to start out,,VERB
-décalage,gap/time lag,,X
-décentralisation,decentralization,,NOUN
-décidément,decidedly,,NOUN
-décisif,decisive,,ADJ
-déclencher,to trigger/set off,,VERB
-décor,decor/setting,,X
-décoration,decoration,,NOUN
-découverte,discovery,,X
-décrocher,to unhook/land,,VERB
-décéder,to pass away,,VERB
-dédier,to dedicate,,VERB
-déesse,goddess,,NOUN
-défaite,defeat,,X
-défaut,flaw/defect,,X
-défiance,distrust/defiance,,NOUN
-déficit,deficit,,X
-défilé,parade,,X
-définir,to define,,VERB
-définitif,final,,ADJ
-déflation,deflation,,NOUN
-défunt,deceased,,X
-dégager,to clear/release,,VERB
-dégradation,deterioration,,NOUN
-dégénératif,degenerative,,ADJ
-délibéré,deliberation,,X
-délicat,delicate/tricky,,X
-délire,frenzy/delusion,,VERB
-délit,offense,,X
-délocalisation,offshoring,,NOUN
-déléguer,to delegate,,VERB
-délégué,delegate,,X
-délétère,deleterious/harmful,,VERB
-démarrer,to start up,,VERB
-démissionner,to resign,,VERB
-démocrate,democrat,,X
-démographique,demographic,,ADJ
-démon,demon,,X
-démonstration,demonstration,,NOUN
-démontrer,to demonstrate,,VERB
-déménagement,move/relocation,,NOUN
-déménager,to move house,,VERB
-dénoncer,to denounce/report,,VERB
-départemental,departmental,,ADJ
-dépendance,dependence,,NOUN
-dépendant,dependent,,X
-dépense,expense,,X
-dépeuplement,depopulation,,NOUN
-déploiement,deployment,,NOUN
-dépollution,cleanup/decontamination,,NOUN
-déposer,to deposit/file,,VERB
-dérivé,derivative/by-product,,X
-déroger,to derogate/deviate,,VERB
-déroulement,course/unfolding,,NOUN
-dérouler,to unfold,,VERB
-dérèglementation,deregulation,,NOUN
-désaccord,disagreement,,X
-désagréable,unpleasant,,ADJ
-désamorcer,to defuse,,VERB
-désastre,disaster,,VERB
-désavouer,to disown/disavow,,VERB
-désendettement,deleveraging,,NOUN
-désertification,desertification,,NOUN
-désespoir,despair,,VERB
-désignation,designation,,NOUN
-désigner,to designate,,VERB
-désinflation,disinflation,,NOUN
-désintéressé,disinterested/selfless,,X
-désordre,disorder/mess,,VERB
-désuet,outdated,,X
-détaillé,detailed,,X
-détecter,to detect,,VERB
-détendre,to relax/loosen,,VERB
-détenir,to hold/possess,,VERB
-détente,relaxation,,X
-détention,detention,,NOUN
-détenu,detainee,,X
-détermination,determination,,NOUN
-déterministe,deterministic,,NOUN
-détour,detour,,X
-détourner,to divert/hijack,,VERB
-détriment,detriment,,NOUN
-dévaluation,devaluation,,NOUN
-dévoiler,to unveil/reveal,,VERB
-effacer,to erase,,VERB
-effectif,workforce/actual,,ADJ
-efficace,effective,,X
-efficacement,effectively,,NOUN
-effondrement,collapse,,NOUN
-ego,ego,,X
-embrasser,to kiss,,VERB
-empirisme,empiricism,,NOUN
-empiéter,to encroach,,VERB
-employabilité,employability,,NOUN
-employer,to employ,,VERB
-employeur,employer,,NOUN
-emporter,to take away,,VERB
-empreinte,imprint/footprint,,X
-emprise,hold/grip,,X
-emprisonnement,imprisonment,,NOUN
-emprunter,to borrow,,VERB
-encenser,to praise lavishly,,VERB
-enchère,bid/auction,,VERB
-encourager,to encourage,,VERB
-endettement,indebtedness,,NOUN
-endiguer,to stem/contain,,VERB
-endoctrinement,indoctrination,,NOUN
-endormir,to put to sleep,,VERB
-endémique,endemic,,ADJ
-enfermer,to lock up/confine,,VERB
-enfreindre,to infringe/breach,,VERB
-engin,machine/device,,ADJ
-enlèvement,kidnapping/removal,,NOUN
-ennui,boredom/trouble,,X
-enrayer,to curb/halt,,VERB
-enrichir,to enrich,,VERB
-enseignant,teacher,,X
-entente,understanding/agreement,,X
-enterrer,to bury,,VERB
-enthousiasme,enthusiasm,,X
-entité,entity,,NOUN
-entourer,to surround,,VERB
-entreprendre,to undertake,,VERB
-entrepreneur,entrepreneur,,NOUN
-entretenir,to maintain,,VERB
-entretien,interview/upkeep,,X
-entrevoir,to glimpse/foresee,,VERB
-entrevue,interview,,X
-entropie,entropy,,X
-entériner,to ratify/confirm,,VERB
-envenimer,to inflame/worsen,,VERB
-envergure,scope/wingspan,,VERB
-environnemental,environmental,,ADJ
-envisager,to consider/plan,,VERB
-enzyme,enzyme,,X
-escalade,climbing/escalation,,X
-esclavage,slavery,,X
-esclave,slave,,X
-escompter,to expect/count on,,VERB
-espionnage,espionage,,X
-espérance,hope/expectancy,,NOUN
-estampe,print/engraving,,X
-esthétique,aesthetic,,ADJ
-estimation,estimate,,NOUN
-ethnique,ethnic,,ADJ
-euphémisme,euphemism,,NOUN
-exacerber,to exacerbate,,VERB
-exception,exception,,NOUN
-exceptionnel,exceptional,,X
-exclure,to exclude,,VERB
-exclusif,exclusive,,ADJ
-exclusion,exclusion,,X
-excédent,surplus,,X
-exemplaire,copy/exemplary,,VERB
-exercer,to exercise/practice,,VERB
-exhaustif,exhaustive,,ADJ
-exigence,requirement,,X
-exiger,to demand,,VERB
-exil,exile,,X
-existant,existing,,X
-expansion,expansion,,X
-expertise,expertise,,X
-exploit,feat/exploit,,X
-exploiter,to exploit,,VERB
-exploration,exploration,,NOUN
-explorer,to explore,,VERB
-exploser,to explode,,VERB
-exportation,export,,NOUN
-expressionnisme,expressionism,,NOUN
-exprès,on purpose,,X
-expulsion,expulsion,,X
-externalisation,outsourcing,,NOUN
-externe,external,,X
-extinction,extinction,,NOUN
-extorsion,extortion,,X
-extraire,to extract,,VERB
-extrapolation,extrapolation,,NOUN
-extrapoler,to extrapolate,,VERB
-extrémité,end/extremity,,NOUN
-fabricant,manufacturer,,X
-fabrique,factory,,ADJ
-fabriquer,to manufacture,,VERB
-facilité,ease,,NOUN
-facture,invoice/bill,,VERB
-faille,flaw/fault,,X
-faillite,bankruptcy,,X
-fallacieux,fallacious,,ADJ
-falsification,falsification,,NOUN
-familier,familiar/informal,,VERB
-fantôme,ghost,,X
-fatigué,tired,,X
-faune,fauna,,X
-fauteuil,armchair,,X
-façade,facade,,X
-ferroviaire,railway-related,,VERB
-fiable,reliable,,ADJ
-fibre,fiber,,VERB
-fichier,file,,VERB
-fidélité,fidelity,,NOUN
-figuratif,figurative,,ADJ
-figure,figure,,VERB
-figurer,to appear/feature,,VERB
-filet,net,,X
-filiale,subsidiary,,X
-filière,sector/track,,VERB
-fillette,little girl,,X
-filmer,to film,,VERB
-filtre,filter,,VERB
-finale,final match,,X
-financièrement,financially,,NOUN
-firme,firm/company,,X
-fiscalité,taxation,,NOUN
-fixation,fastening/fixation,,NOUN
-fièvre,fever,,VERB
-flamme,flame,,X
-flanc,flank/side,,X
-flore,flora,,VERB
-flou,blurry/vague,,X
-fluctuant,fluctuating,,X
-fluide,fluid/smooth,,X
-foie,liver,,X
-foire,fair,,VERB
-fondement,foundation/basis,,NOUN
-fondre,to melt,,VERB
-fonte,cast iron/melting,,X
-formulaire,form,,VERB
-forteresse,fortress,,NOUN
-fortuit,fortuitous/chance,,X
-fortuitement,by chance,,NOUN
-fosse,pit/grave,,X
-fossile,fossil,,X
-fossilisation,fossilization,,NOUN
-fossé,ditch/gap,,X
-foudre,lightning,,VERB
-fouille,search/excavation,,X
-fournisseur,supplier,,NOUN
-fracture,fracture,,VERB
-fragile,fragile,,X
-fragiliser,to weaken,,VERB
-fragment,fragment,,NOUN
-fragmentaire,fragmentary,,VERB
-franchise,franchise/frankness,,X
-francophone,French-speaking,,X
-francophonie,French-speaking world,,X
-fraude,fraud,,X
-frein,brake,,ADJ
-frite,french fry,,X
-frugalité,frugality,,NOUN
-fréquemment,frequently,,NOUN
-fréquentation,attendance,,NOUN
-fumer,to smoke,,VERB
-funérailles,funeral,,X
-furtivité,stealth,,NOUN
-fusil,rifle,,X
-fusillade,shooting,,X
-fustiger,to castigate,,VERB
-féministe,feminist,,NOUN
-gage,pledge/token,,X
-gain,gain/profit,,ADJ
-galaxie,galaxy,,X
-gang,gang,,X
-gant,glove,,X
-garage,garage,,X
-garantir,to guarantee,,VERB
-gendarmerie,gendarmerie,,NOUN
-gentiment,kindly/gently,,NOUN
-gentrification,gentrification,,NOUN
-gestionnaire,manager/administrator,,VERB
-gigantesque,gigantic,,X
-globalement,overall,,NOUN
-globe,globe,,X
-golfe,gulf,,X
-goutte,drop,,X
-gouvernance,governance,,NOUN
-gouvernemental,governmental,,ADJ
-gouverner,to govern,,VERB
-graine,seed,,X
-graisse,fat/grease,,X
-grammaire,grammar,,VERB
-gramme,gram,,X
-grandeur,greatness/size,,NOUN
-grandir,to grow up,,VERB
-graphique,graphic/chart,,ADJ
-gratter,to scratch,,VERB
-gravement,seriously/gravely,,NOUN
-gravitation,gravitation,,NOUN
-gravité,gravity/seriousness,,NOUN
-grenade,grenade/pomegranate,,X
-grenier,attic,,VERB
-grille,gate/grid,,X
-grippe,flu,,X
-grossesse,pregnancy,,NOUN
-groupement,grouping/association,,NOUN
-gré,liking/will,,X
-guerrier,warrior,,VERB
-guérir,to heal/cure,,VERB
-guérison,healing/recovery,,X
-gène,gene,,X
-géant,giant,,X
-générationnel,generational,,X
-générer,to generate,,VERB
-généreux,generous,,ADJ
-générique,generic/credits,,ADJ
-générosité,generosity,,NOUN
-génétique,genetic,,ADJ
-géographie,geography,,X
-géographique,geographical,,ADJ
-gérer,to manage,,VERB
-gérontocratie,gerontocracy,,X
-gênant,awkward/embarrassing,,X
-gêne,discomfort,,X
-habitat,habitat,,X
-habitation,dwelling/housing,,NOUN
-habituel,usual/customary,,X
-handicap,disability,,X
-harcèlement,harassment,,NOUN
-harmonie,harmony,,X
-hebdomadaire,weekly,,VERB
-hectare,hectare,,VERB
-herméneutique,hermeneutics,,ADJ
-historien,historian,,X
-historiquement,historically,,NOUN
-hiérarchie,hierarchy,,X
-hiérarchisation,ranking/hierarchy,,NOUN
-homicide,homicide,,X
-homosexualité,homosexuality,,NOUN
-honnêtement,honestly,,NOUN
-honnêteté,honesty,,NOUN
-honorable,honorable,,ADJ
-honorer,to honor,,VERB
-honteux,shameful/ashamed,,ADJ
-horaire,schedule,,VERB
-hormis,except for,,X
-hospitalier,hospitable/hospital,,VERB
-hostile,hostile,,X
-huitième,eighth,,X
-humanitaire,humanitarian,,VERB
-humble,humble,,X
-hybride,hybrid,,X
-hydrogène,hydrogen,,X
-hymne,anthem/hymn,,X
-hyperbole,hyperbole,,X
-hypocrisie,hypocrisy,,X
-hédonisme,hedonism,,NOUN
-hélas,alas,,X
-hélicoptère,helicopter,,VERB
-héritier,heir,,VERB
-hétéroclite,motley/mixed,,X
-hétérogène,heterogeneous,,X
-hôte,host,,X
-identification,identification,,NOUN
-identique,identical,,ADJ
-idiot,idiot,,X
-idéalisme,idealism,,NOUN
-idéologie,ideology,,X
-idéologique,ideological,,ADJ
-ignorance,ignorance,,NOUN
-illusion,illusion,,X
-illustration,illustration,,NOUN
-illustre,illustrious,,VERB
-illustrer,to illustrate,,VERB
-illégal,illegal,,ADJ
-imaginaire,imaginary,,VERB
-imagination,imagination,,NOUN
-immigré,immigrant,,X
-immunité,immunity,,NOUN
-immédiat,immediate,,X
-impartial,impartial,,ADJ
-impasse,dead end/deadlock,,X
-imposant,imposing,,X
-imposition,taxation/levy,,NOUN
-impressionnisme,impressionism,,NOUN
-imprimer,to print,,VERB
-imprimerie,printing house,,NOUN
-impérial,imperial,,ADJ
-inacceptable,unacceptable,,ADJ
-inauguration,inauguration,,NOUN
-incarner,to embody/play,,VERB
-incertitude,uncertainty,,X
-incident,incident,,X
-inciter,to incite/encourage,,VERB
-inclure,to include,,VERB
-incohérent,incoherent,,X
-inconscient,unconscious,,X
-incontestablement,incontestably,,NOUN
-incontournable,essential/unmissable,,ADJ
-inculpation,indictment,,NOUN
-indemnité,compensation/allowance,,NOUN
-index,index,,X
-indicateur,indicator,,NOUN
-indication,indication,,NOUN
-indien,Indian,,X
-indifférence,indifference,,X
-indigence,destitution,,X
-indigène,indigenous/native,,X
-indirectement,indirectly,,NOUN
-indiscrétion,indiscretion,,NOUN
-indissociable,inseparable,,ADJ
-indistinctement,indiscriminately,,NOUN
-individuel,individual,,X
-indulgence,indulgence/leniency,,X
-indéniablement,undeniably,,NOUN
-indépendamment,independently,,NOUN
-inexorable,inexorable,,ADJ
-inexorablement,inexorably,,NOUN
-infanterie,infantry,,NOUN
-infection,infection,,NOUN
-infiniment,infinitely,,NOUN
-infirmer,to invalidate/disprove,,VERB
-infirmier,nurse,,VERB
-inflation,inflation,,NOUN
-inflexible,inflexible,,ADJ
-informatique,computing,,ADJ
-informer,to inform,,VERB
-infraction,offense/violation,,NOUN
-ingrédient,ingredient,,X
-ingénierie,engineering,,NOUN
-inhérent,inherent,,X
-initial,initial,,ADJ
-initialement,initially,,NOUN
-injection,injection,,NOUN
-injuste,unfair,,X
-injustice,injustice,,X
-innocent,innocent,,X
-inopiné,unexpected,,X
-inquiet,worried,,X
-inquiétant,worrying,,X
-inquiétude,worry,,X
-insecte,insect,,X
-insensiblement,imperceptibly,,NOUN
-insertion,insertion/integration,,NOUN
-insidieusement,insidiously,,NOUN
-insidieux,insidious,,ADJ
-insinuer,to insinuate,,VERB
-insister,to insist,,VERB
-insolvabilité,insolvency,,NOUN
-inspection,inspection,,NOUN
-instigation,instigation,,NOUN
-insulte,insult,,X
-insulter,to insult,,VERB
-insurrection,insurrection/uprising,,NOUN
-insécurité,insecurity,,NOUN
-intensité,intensity,,NOUN
-intentionnellement,intentionally,,NOUN
-interaction,interaction,,NOUN
-interface,interface,,X
-interpolation,interpolation,,NOUN
-interprète,interpreter,,X
-interpréter,to interpret/perform,,VERB
-interruption,interruption,,NOUN
-intervenant,speaker/participant,,X
-intervention,intervention,,NOUN
-intime,intimate,,X
-intimité,intimacy/privacy,,NOUN
-intransigeant,uncompromising,,X
-introduire,to introduce,,VERB
-introspection,introspection,,NOUN
-intégralité,entirety,,NOUN
-intégrité,integrity,,NOUN
-intéresser,to interest,,VERB
-intéressé,self-interested,,X
-intérim,interim/temporary work,,X
-invasion,invasion,,X
-inventaire,inventory,,VERB
-inventer,to invent,,VERB
-invention,invention,,NOUN
-investisseur,investor,,NOUN
-invisible,invisible,,ADJ
-invitation,invitation,,NOUN
-inédit,unprecedented/unpublished,,X
-inégalité,inequality,,NOUN
-inévitable,inevitable,,ADJ
-ironie,irony,,X
-irrémédiablement,irremediably,,NOUN
-islamiste,Islamist,,NOUN
-isolement,isolation,,NOUN
-isoler,to isolate,,VERB
-isotope,isotope,,X
-issue,outcome/exit,,X
-itinéraire,itinerary/route,,VERB
-jadis,formerly/long ago,,X
-jaloux,jealous,,X
-jazz,jazz,,X
-jet,jet/throw,,X
-jouet,toy,,X
-jouir,to enjoy,,VERB
-judicieusement,judiciously,,NOUN
-juguler,to curb/stem,,VERB
-jumeau,twin,,X
-jungle,jungle,,X
-jupe,skirt,,X
-jurisprudence,case law,,X
-justesse,accuracy,,NOUN
-justification,justification,,NOUN
-label,label,,X
-laconique,laconic,,ADJ
-lacunaire,incomplete/patchy,,VERB
-largeur,width,,NOUN
-laser,laser,,VERB
-latent,latent,,X
-laxiste,lax/permissive,,NOUN
-laïcité,secularism,,NOUN
-legs,bequest,,X
-levier,lever,,VERB
-librairie,bookstore,,X
-librement,freely,,NOUN
-libérer,to free,,VERB
-lignée,lineage,,X
-limitation,limitation,,NOUN
-linguistique,linguistic,,ADJ
-liquidité,liquidity,,NOUN
-lisse,smooth,,X
-litre,liter,,VERB
-littoral,coastline,,ADJ
-livret,booklet,,X
-localité,locality,,NOUN
-locataire,tenant,,VERB
-loge,dressing room/box,,X
-loger,to house/lodge,,VERB
-logiquement,logically,,NOUN
-logistique,logistics,,ADJ
-loisir,leisure,,VERB
-longuement,at length,,NOUN
-louer,to rent,,VERB
-loyer,rent,,VERB
-lumineux,luminous/bright,,ADJ
-lycéen,high school student,,X
-légal,legal,,ADJ
-légalement,legally,,NOUN
-légendaire,legendary,,VERB
-légende,legend/caption,,X
-légion,legion,,X
-législatif,legislative,,ADJ
-législation,legislation,,NOUN
-légitimité,legitimacy,,NOUN
-mafia,mafia,,X
-magistral,masterly/lecture,,ADJ
-magistrat,magistrate,,X
-magnifier,to magnify/exalt,,VERB
-magnétique,magnetic,,ADJ
-maigre,skinny/meager,,VERB
-mainmise,stranglehold/control,,X
-maintenance,maintenance,,NOUN
-majesté,majesty,,NOUN
-majoritaire,majority,,VERB
-majoritairement,mostly,,NOUN
-maladroitement,clumsily,,NOUN
-malaise,unease,,X
-malheureux,unhappy,,ADJ
-malin,clever/cunning,,ADJ
-malversation,misappropriation,,NOUN
-mamie,granny,,X
-mandat,mandate/term,,X
-mandataire,proxy/agent,,VERB
-mandater,to mandate/commission,,VERB
-manga,manga,,X
-manifestement,manifestly/clearly,,NOUN
-manifester,to demonstrate,,VERB
-manipuler,to manipulate/handle,,VERB
-manuscrit,manuscript,,X
-manœuvre,maneuver,,VERB
-maquillage,makeup,,X
-marchand,merchant,,X
-marchandise,merchandise,,X
-marginalement,marginally,,NOUN
-marginalisation,marginalization,,NOUN
-marquis,marquis,,X
-marteau,hammer,,X
-maréchal,marshal,,ADJ
-marée,tide,,X
-masculin,masculine,,ADJ
-massacre,massacre,,VERB
-massage,massage,,X
-massivement,massively,,NOUN
-matelas,mattress,,X
-mathématique,mathematical,,ADJ
-matinée,morning,,X
-mature,mature,,VERB
-maturité,maturity,,NOUN
-matérialisme,materialism,,NOUN
-maudit,cursed,,X
-maîtresse,mistress,,NOUN
-menacer,to threaten,,VERB
-mendicité,begging,,NOUN
-mensonge,lie,,X
-mental,mental,,ADJ
-mentalité,mentality,,NOUN
-mentir,to lie,,VERB
-menton,chin,,X
-mercure,mercury,,VERB
-merveille,marvel,,X
-merveilleux,marvelous,,ADJ
-messe,mass,,NOUN
-meurtrier,murderer/deadly,,VERB
-miel,honey,,X
-mimétisme,mimicry,,NOUN
-miner,to undermine/erode,,VERB
-minimalisme,minimalism,,NOUN
-minorité,minority,,NOUN
-missile,missile,,X
-mitigé,mixed/lukewarm,,X
-mixte,mixed,,X
-mobile,mobile,,X
-mobilisation,mobilization,,NOUN
-mobilité,mobility,,NOUN
-moche,ugly,,X
-modalité,terms/modality,,NOUN
-modelage,modeling,,X
-modernisation,modernization,,NOUN
-modeste,modest,,X
-module,module,,X
-modération,moderation,,NOUN
-modéré,moderate,,X
-moine,monk,,X
-molécule,molecule,,X
-monastère,monastery,,VERB
-mondialisation,globalization,,NOUN
-monopole,monopoly,,X
-monstre,monster,,VERB
-monument,monument,,NOUN
-monétaire,monetary,,VERB
-moquer,to mock,,VERB
-moralisme,moralism,,NOUN
-mortalité,mortality,,NOUN
-mortel,mortal/deadly,,X
-mosquée,mosque,,X
-motiver,to motivate,,VERB
-mouche,fly,,X
-moulin,mill,,ADJ
-mousse,foam/moss,,X
-mouvance,trend/movement,,NOUN
-multiplication,multiplication,,NOUN
-multiplier,to multiply,,VERB
-municipalité,municipality,,NOUN
-muscle,muscle,,X
-musical,musical,,ADJ
-musicien,musician,,X
-mutation,mutation/transfer,,NOUN
-mutuel,mutual,,X
-mystification,mystification/hoax,,NOUN
-mystérieux,mysterious,,ADJ
-mythe,myth,,X
-mythique,mythical,,ADJ
-mâle,male,,X
-mécanisme,mechanism,,NOUN
-mécène,patron,,X
-médiation,mediation,,NOUN
-médiatique,media-related,,ADJ
-mélanger,to mix,,VERB
-mémorisation,memorization,,NOUN
-mépris,contempt,,X
-mériter,to deserve,,VERB
-méritocratie,meritocracy,,X
-métallique,metallic,,ADJ
-méticuleux,meticulous,,ADJ
-métissage,mixing/blending,,X
-métonymie,metonymy,,X
-métrage,footage/length,,X
-mêler,to mingle/involve,,VERB
-narcissisme,narcissism,,NOUN
-nataliste,pro-birth,,NOUN
-natation,swimming,,NOUN
-nationaliser,to nationalize,,VERB
-nationaliste,nationalist,,NOUN
-navigateur,browser/navigator,,NOUN
-naïveté,naivety,,NOUN
-nerveux,nervous,,ADJ
-neuronal,neuronal,,ADJ
-neutralité,neutrality,,NOUN
-neutre,neutral,,VERB
-neuvième,ninth,,X
-neveu,nephew,,X
-nid,nest,,X
-nier,to deny,,VERB
-nihilisme,nihilism,,NOUN
-nièce,niece,,X
-noble,noble,,X
-noblesse,nobility,,NOUN
-nocif,harmful/noxious,,ADJ
-nocturne,nocturnal,,X
-nomadisme,nomadism,,NOUN
-nommément,namely/by name,,NOUN
-normalisation,standardization/normalization,,NOUN
-nostalgie,nostalgia,,X
-notable,notable,,ADJ
-notaire,notary,,VERB
-notarié,notarized,,X
-notice,instruction leaflet,,X
-notoriété,fame/notoriety,,NOUN
-nouveauté,novelty,,NOUN
-noyau,core/kernel,,X
-noyer,to drown,,VERB
-nuage,cloud,,X
-nuancer,to qualify/nuance,,VERB
-nuancé,nuanced,,X
-nuire,to harm,,VERB
-numérique,digital,,ADJ
-nécessiter,to require,,VERB
-néerlandais,Dutch,,X
-négatif,negative,,ADJ
-négligeable,negligible,,ADJ
-négocier,to negotiate,,VERB
-népotisme,nepotism,,NOUN
-névrose,neurosis,,X
-obliger,to oblige,,VERB
-obscurantisme,obscurantism,,NOUN
-obscurité,darkness,,NOUN
-observateur,observer,,NOUN
-observation,observation,,NOUN
-observatoire,observatory,,VERB
-obsession,obsession,,X
-obstacle,obstacle,,X
-obstiné,obstinate,,X
-obtention,obtaining,,NOUN
-occidental,Western,,ADJ
-occulter,to obscure/hide,,VERB
-occupant,occupant,,X
-occurrence,occurrence/instance,,X
-offensive,offensive,,X
-oligopole,oligopoly,,X
-olive,olive,,X
-onde,wave,,X
-ontologie,ontology,,X
-opiniâtre,stubborn/dogged,,VERB
-opportunité,opportunity,,NOUN
-optimiste,optimistic,,NOUN
-opérateur,operator,,NOUN
-opérer,to operate,,VERB
-orage,thunderstorm,,X
-oral,oral,,ADJ
-orbite,orbit,,X
-orchestre,orchestra,,VERB
-ordonnancement,scheduling/sequencing,,NOUN
-ordonner,to order,,VERB
-orfèvrerie,goldsmithing,,NOUN
-organisateur,organizer,,NOUN
-oriental,Eastern,,ADJ
-originalité,originality,,NOUN
-ostensiblement,ostensibly/openly,,NOUN
-otage,hostage,,X
-outrepasser,to overstep,,VERB
-oxygène,oxygen,,X
-pacte,pact,,X
-paille,straw,,X
-pallier,to offset/remedy,,VERB
-panier,basket,,VERB
-panique,panic,,ADJ
-panne,breakdown,,X
-panneau,sign/panel,,X
-papillon,butterfly,,X
-parade,parade,,X
-paradigme,paradigm,,X
-paradoxe,paradox,,X
-paragraphe,paragraph,,X
-parallèlement,in parallel,,NOUN
-parcimonie,parsimony,,X
-parcimonieux,parsimonious/sparing,,ADJ
-parcourir,to travel through/browse,,VERB
-pardonner,to forgive,,VERB
-pari,bet,,X
-paroisse,parish,,X
-parrain,godfather,,ADJ
-partial,biased/partial,,ADJ
-participation,stake/participation,,NOUN
-particularité,peculiarity,,NOUN
-particule,particle,,X
-partiellement,partially,,NOUN
-passif,passive,,ADJ
-pasteur,pastor,,NOUN
-pastiche,pastiche,,X
-pathétique,pathetic,,ADJ
-patrimoine,heritage,,X
-patriote,patriot,,X
-patrouille,patrol,,X
-patte,paw,,X
-pavillon,detached house/pavilion,,X
-payant,paid,,X
-paysan,peasant farmer,,X
-pension,pension,,X
-pente,slope,,X
-perceptif,perceptual,,ADJ
-perception,perception,,NOUN
-percer,to pierce/break through,,VERB
-percevoir,to perceive/collect,,VERB
-perdant,loser,,X
-perfection,perfection,,NOUN
-perle,pearl,,X
-permanent,permanent,,X
-permission,permission,,X
-pernicieux,pernicious,,ADJ
-perspicace,perceptive/shrewd,,X
-perspicacité,perspicacity,,NOUN
-pertinemment,pertinently/full well,,NOUN
-pertinence,relevance,,X
-pervers,perverse,,X
-peser,to weigh,,VERB
-peste,plague,,X
-phare,lighthouse/headlight,,VERB
-phase,phase,,X
-philanthropie,philanthropy,,X
-philosophe,philosopher,,X
-philosophique,philosophical,,ADJ
-phobie,phobia,,X
-photosynthèse,photosynthesis,,X
-physiquement,physically,,NOUN
-phénomène,phenomenon,,X
-pic,peak,,X
-pictural,pictorial,,ADJ
-pilule,pill,,X
-pipe,pipe,,X
-piquer,to sting/prick,,VERB
-pirate,pirate,,X
-piraterie,piracy,,NOUN
-pistolet,pistol,,X
-piège,trap,,X
-placard,cupboard/closet,,X
-plaidoirie,closing argument/pleading,,X
-plaie,wound,,X
-plaine,plain,,X
-planche,board/plank,,X
-planification,planning,,NOUN
-planter,to plant,,VERB
-platine,platinum/turntable,,X
-pleinement,fully,,NOUN
-plier,to fold/bend,,VERB
-plomb,lead,,X
-plongée,diving,,X
-ploutocratie,plutocracy,,X
-plume,feather/pen,,X
-plébiscite,plebiscite,,X
-pléthorique,overabundant,,ADJ
-pneu,tire,,X
-poignée,handful/handle,,X
-poil,hair/fur,,X
-poison,poison,,X
-poli,polite/polished,,X
-politicien,politician,,X
-politiquement,politically,,NOUN
-pollution,pollution,,NOUN
-polonais,Polish,,X
-polyphonie,polyphony,,X
-polyvalence,versatility,,X
-pompe,pump,,X
-popularité,popularity,,NOUN
-porc,pig/pork,,X
-porteur,carrier/bearer,,NOUN
-posologie,dosage,,X
-poster,to post,,VERB
-posture,posture/stance,,VERB
-potentiellement,potentially,,NOUN
-pouce,thumb/inch,,X
-pourcentage,percentage,,X
-pourri,rotten,,X
-pourvoi,appeal to high court,,X
-poussière,dust,,VERB
-poussée,push/surge,,X
-poème,poem,,X
-pragmatisme,pragmatism,,NOUN
-pratiquer,to practice,,VERB
-prescription,prescription,,NOUN
-pressentir,to sense/foresee,,VERB
-prestation,service/benefit,,NOUN
-prestigieux,prestigious,,ADJ
-privatiser,to privatize,,VERB
-priver,to deprive,,VERB
-privilège,privilege,,X
-privilégié,privileged,,X
-probabiliste,probabilistic,,NOUN
-probant,conclusive/convincing,,X
-probatoire,probationary/evidential,,VERB
-probité,probity,,NOUN
-problématique,problematic,,ADJ
-procrastination,procrastination,,NOUN
-prodigalité,extravagance,,NOUN
-productiviste,productivist,,NOUN
-productivité,productivity,,NOUN
-programmation,scheduling/programming,,NOUN
-progressif,progressive/gradual,,ADJ
-progressivement,progressively,,NOUN
-prolixe,verbose/prolix,,X
-prolonger,to extend/prolong,,VERB
-promulgation,enactment,,NOUN
-prononcer,to pronounce,,VERB
-pronostic,prognosis/forecast,,X
-propagande,propaganda,,X
-propagation,spread/propagation,,NOUN
-prophylaxie,prophylaxis,,X
-prophète,prophet,,X
-proportion,proportion,,NOUN
-proprement,properly,,NOUN
-prospérité,prosperity,,NOUN
-prostitution,prostitution,,NOUN
-prosélytisme,proselytism,,NOUN
-protecteur,protective/protector,,NOUN
-protectionnisme,protectionism,,NOUN
-protocole,protocol,,X
-protéine,protein,,X
-provenance,origin,,NOUN
-provisoire,temporary,,VERB
-provoquer,to provoke,,VERB
-prudence,caution,,X
-préalable,prior,,ADJ
-précarisation,casualization,,NOUN
-précaution,precaution,,NOUN
-précoce,early/precocious,,X
-prédominant,predominant,,X
-préface,preface,,X
-préférable,preferable,,ADJ
-préférence,preference,,X
-préjudice,harm/damage,,X
-préjudiciable,detrimental,,ADJ
-préjuger,to prejudge,,VERB
-préjugé,prejudice,,X
-prélèvement,levy/sample,,NOUN
-préméditation,premeditation,,NOUN
-préoccupation,concern,,NOUN
-prépondérant,preponderant/dominant,,X
-présager,to portend/foretell,,VERB
-prétendre,to claim,,VERB
-prétendument,allegedly,,NOUN
-prévarication,malfeasance,,NOUN
-prévention,charge/prevention,,NOUN
-prévision,forecast,,X
-prééminence,preeminence,,X
-psychologie,psychology,,X
-psychologique,psychological,,ADJ
-psychologue,psychologist,,X
-publicitaire,advertising,,VERB
-publiquement,publicly,,NOUN
-puce,flea/chip,,X
-puer,to stink,,VERB
-puissance,power,,NOUN
-punition,punishment,,NOUN
-purement,purely,,NOUN
-purée,mash/puree,,X
-pédagogie,pedagogy,,X
-pénible,tedious/painful,,ADJ
-péninsule,peninsula,,X
-pénurie,shortage,,X
-pénétrer,to penetrate/enter,,VERB
-péremptoire,peremptory/dogmatic,,VERB
-pérenne,perennial/lasting,,X
-péricliter,to decline/fail,,VERB
-péril,peril/danger,,X
-périurbain,peri-urban,,ADJ
-péréniser,to make lasting,,VERB
-péréquation,equalization,,NOUN
-pétition,petition,,NOUN
-pêcheur,fisherman,,NOUN
-qualification,qualification,,NOUN
-qualifier,to qualify/describe,,VERB
-quantique,quantum,,ADJ
-quiconque,whoever/anyone,,X
-quinzaine,about fifteen,,X
-quoique,although,,ADJ
-quotidiennement,daily,,NOUN
-race,race/breed,,X
-raciste,racist,,NOUN
-racket,racketeering,,X
-radar,radar,,X
-radical,radical,,ADJ
-raid,raid,,X
-rail,rail,,X
-ralentir,to slow down,,VERB
-randonnée,hike,,X
-ranger,to tidy up,,VERB
-rapidité,speed/quickness,,NOUN
-rappeur,rapper,,NOUN
-rapprocher,to bring closer,,VERB
-rareté,scarcity,,NOUN
-rassurer,to reassure,,VERB
-rat,rat,,X
-ratio,ratio,,X
-rationalisation,rationalization,,NOUN
-rationalisme,rationalism,,NOUN
-rattraper,to catch up with,,VERB
-raviver,to revive/rekindle,,VERB
-rayonnement,radiance/influence,,NOUN
-rebelle,rebel,,X
-recensement,census,,NOUN
-rechercher,to search for,,VERB
-recommandation,recommendation,,NOUN
-recommencer,to start again,,VERB
-recouper,to cross-check/tally,,VERB
-recueillir,to collect/gather,,VERB
-redistribution,redistribution,,NOUN
-redonner,to give back,,VERB
-reflet,reflection,,X
-refléter,to reflect,,VERB
-refoulement,repression,,NOUN
-refuge,refuge,,X
-rejet,rejection,,X
-rejeter,to reject,,VERB
-relance,stimulus/recovery,,NOUN
-relancer,to relaunch/revive,,VERB
-relationnel,relational,,X
-relativisme,relativism,,NOUN
-relief,terrain relief,,X
-relier,to link/connect,,VERB
-relocalisation,reshoring,,NOUN
-remboursement,refund,,NOUN
-rembourser,to reimburse,,VERB
-remplaçant,substitute/replacement,,X
-renaissance,rebirth,,NOUN
-renard,fox,,X
-renommée,renown/fame,,X
-renouveau,revival/renewal,,X
-renouvelable,renewable,,ADJ
-renouvellement,renewal,,NOUN
-renseigner,to inform/give details,,VERB
-rentabilité,profitability,,NOUN
-rentable,profitable,,ADJ
-renvoyer,to send back/dismiss,,VERB
-repartir,to set off again,,VERB
-repousser,to push back/repel,,VERB
-reproche,reproach,,X
-reprocher,to reproach,,VERB
-reproductibilité,reproducibility,,NOUN
-reproduction,reproduction,,NOUN
-repérer,to spot/locate,,VERB
-requalification,reskilling,,NOUN
-requête,request,,X
-resocialisation,resocialization,,NOUN
-respectueux,respectful,,ADJ
-respiration,breathing,,NOUN
-respirer,to breathe,,VERB
-ressortir,to stand out,,VERB
-restriction,restriction,,NOUN
-retraité,retiree,,NOUN
-revendiquer,to claim/demand,,VERB
-rhétorique,rhetoric,,ADJ
-rigueur,rigor,,NOUN
-rive,riverbank,,X
-roche,rock,,X
-romantique,romantic,,ADJ
-routier,road/trucking,,VERB
-roux,red-haired,,X
-rubrique,section/heading,,ADJ
-rude,harsh/rough,,X
-rugby,rugby,,X
-ruine,ruin,,X
-râleur,grumbler,,NOUN
-râpe,grater,,X
-règle,ruler,,X
-règlement,regulation/settlement,,NOUN
-règne,reign,,X
-réaction,reaction,,NOUN
-réalisateur,film director,,NOUN
-réalisation,achievement/realization,,NOUN
-réaliser,to achieve/realize,,VERB
-réalisme,realism,,NOUN
-réaliste,realistic,,NOUN
-réalité,reality,,NOUN
-rébellion,rebellion,,X
-récent,recent,,X
-réception,reception,,NOUN
-réchauffement,warming,,NOUN
-réchauffer,to reheat/warm up,,VERB
-réciproquement,reciprocally,,NOUN
-récit,story/narrative,,X
-réclamer,to demand,,VERB
-récolte,harvest,,X
-récolter,to harvest,,VERB
-récupérer,to recover/to get back,,VERB
-récuser,to challenge/reject,,VERB
-rédacteur,editor/writer,,NOUN
-rédaction,writing/editorial team,,NOUN
-réduction,discount,,NOUN
-réduire,to reduce,,VERB
-réel,real/actual,,X
-réflexion,reflection/thought,,X
-réfléchir,to reflect,,VERB
-réfugié,refugee,,X
-réfuter,to refute,,VERB
-référence,reference,,X
-référendaire,referendum-related,,VERB
-référendum,referendum,,X
-régime,diet/regime,,X
-régiment,regiment,,NOUN
-région,region,,X
-régional,regional,,ADJ
-réglementation,regulations,,NOUN
-régler,to settle/to adjust,,VERB
-régner,to reign,,VERB
-régulier,regular,,VERB
-réjouir,to rejoice,,VERB
-réjouissant,heartening,,X
-rémunération,remuneration,,NOUN
-rénovation,renovation,,NOUN
-répandre,to spread/spill,,VERB
-réparation,repair,,NOUN
-réparer,to repair,,VERB
-répartir,to distribute/spread out,,VERB
-répartition,distribution/allocation,,NOUN
-répertoire,directory/repertoire,,VERB
-répondre,to answer,,VERB
-réponse,answer,,X
-répression,repression,,X
-républicain,republican,,ADJ
-république,republic,,ADJ
-réputation,reputation,,NOUN
-réputé,renowned/reputed,,NOUN
-répéter,to repeat,,VERB
-répétition,repetition/rehearsal,,NOUN
-réquisitoire,indictment speech,,VERB
-réseau,network,,X
-réservation,reservation,,NOUN
-réserver,to reserve/book,,VERB
-réservé,reserved,,X
-résidence,residence,,X
-résident,resident,,X
-résider,to reside,,VERB
-résiduel,residual,,X
-résiliation,termination,,NOUN
-résistant,resistant,,X
-résister,to resist,,VERB
-résolu,resolute,,X
-résolution,resolution,,NOUN
-résoudre,to solve/to resolve,,VERB
-résultat,result,,X
-résulter,to result,,VERB
-résumer,to summarize,,VERB
-résumé,summary,,X
-rétablir,to restore,,VERB
-rétablissement,recovery/restoration,,NOUN
-réunion,meeting/reunion,,X
-réunir,to gather/to bring together,,VERB
-réussir,to succeed,,VERB
-réussite,success,,X
-réveil,awakening/alarm clock,,X
-réveiller,to wake up,,VERB
-révision,revision,,X
-révolte,revolt,,X
-révolu,bygone/past,,X
-révolution,revolution,,NOUN
-révolutionnaire,revolutionary,,VERB
-révélation,revelation,,NOUN
-révéler,to reveal,,VERB
-réévaluation,revaluation,,NOUN
-rêve,dream,,X
-rôle,role,,X
-rôtir,to roast,,VERB
-sable,sand,,ADJ
-sabot,horseshoe,,X
-sabre,sword,,VERB
-sac,bag,,X
-sacrifice,sacrifice,,X
-sacrifier,to sacrifice,,VERB
-sacré,sacred,,X
-sagace,sagacious,,X
-sagacité,sagacity,,NOUN
-sagesse,wisdom,,NOUN
-sain,healthy,,ADJ
-saint,saint,,X
-saisir,to seize,,VERB
-saison,season,,X
-salade,salad,,X
-salaire,salary,,VERB
-salarié,employee,,X
-salle,room/hall,,X
-salon,living room,,X
-saluer,to greet,,VERB
-salut,hello/greeting,,X
-salutaire,salutary/beneficial,,VERB
-salutation,greeting,,NOUN
-samedi,saturday,,X
-sanction,sanction,,NOUN
-sanctuaire,sanctuary,,VERB
-sang,blood,,X
-sangle,strap,,X
-sanitaire,sanitary/health,,VERB
-sans,without,,ADP
-santé,health,,NOUN
-saper,to undermine,,VERB
-sapin,fire tree,,ADJ
-satellite,satellite,,X
-satisfaction,satisfaction,,NOUN
-satisfaire,to satisfy,,VERB
-saucisson,dry sausage,,X
-sauf,except,,X
-saumon,salmon,,X
-saupoudrer,to sprinkle,,VERB
-saut,jump,,X
-sauter,to jump,,VERB
-sauvage,wild,,X
-sauvegarde,backup/safeguard,,X
-sauver,to save,,VERB
-saveur,flavor,,NOUN
-savoir,to know,,VERB
-savoir-faire,know-how,,VERB
-savon,soap,,X
-savonnette,bar of soap,,X
-scandale,scandal,,X
-schème,schema/pattern,,X
-schéma,diagram,,X
-science,science,,X
-scientifique,scientific/scientist,,ADJ
-scolaire,school,,VERB
-score,score,,VERB
-scrupuleusement,scrupulously,,NOUN
-scrupuleux,scrupulous,,ADJ
-scrutin,ballot/poll,,ADJ
-sculpture,sculpture,,VERB
-scène,scene,,X
-scénario,screenplay/scenario,,X
-scénographie,stage design,,X
-se,oneself,,X
-seau,bucket,,X
-sec,dry,,X
-second,second,,X
-secondaire,secondary,,VERB
-seconde,second,,X
-secours,help/rescue,,X
-secret,secret,,X
-secrétaire,secretary,,VERB
-secrétariat,secretariat,,X
-secte,sect,,X
-secteur,sector,,NOUN
-section,section,,NOUN
-segment,segment,,NOUN
-segmentation,segmentation,,NOUN
-seigneur,lord,,NOUN
-sein,breast,,ADJ
-sel,salt,,X
-selle,saddle/seat,,X
-selon,according to,,X
-semaine,week,,X
-semblable,similar,,ADJ
-semblant,pretense,,X
-sembler,to seem,,VERB
-semonce,reprimand,,X
-semoule,semolina,,X
-sens,sense/meaning,,X
-sensation,sensation/feeling,,NOUN
-sensibilité,sensitivity,,NOUN
-sensible,sensitive,,ADJ
-sensiblement,perceptibly,,NOUN
-sensoriel,sensory,,X
-sensé,sensible,,X
-sentier,path,,VERB
-sentiment,feeling,,NOUN
-sentir,to feel/smell,,VERB
-sept,seven,,X
-septembre,September,,VERB
-septième,seventh,,X
-serment,oath,,NOUN
-serpent,snake,,X
-serpillière,floor cloth/mop,,VERB
-serrer,to tighten/squeeze,,VERB
-serrure,lock,,VERB
-serveur,waiter,,NOUN
-serviable,helpful/obliging,,ADJ
-service,service,,X
-serviette,towel/napkin,,X
-servir,to serve,,VERB
-seuil,threshold,,X
-seul,alone/only,,X
-seulement,only,,NOUN
-sevrage,withdrawal/weaning,,X
-sexe,sex,,X
-sexuel,sexual,,X
-shampooing,shampoo,,X
-si,if/yes (contradicting),,ADP
-sien,his/hers (possessive),,X
-sieste,nap,,X
-sigle,acronym,,X
-signal,signal,,ADJ
-signaler,to report/point out,,VERB
-signature,signature,,VERB
-signe,sign,,X
-signer,to sign,,VERB
-signet,bookmark,,X
-significatif,significant,,ADJ
-signification,meaning,,NOUN
-silence,silence,,X
-silencieux,silent,,ADJ
-similaire,similar,,VERB
-simple,simple,,X
-simplement,simply,,NOUN
-simplicité,simplicity,,NOUN
-simplification,simplification,,NOUN
-simultanément,simultaneously,,NOUN
-since,depuis,,X
-sincère,sincere,,VERB
-sincèrement,sincerely,,NOUN
-sincérité,sincerity,,NOUN
-singe,monkey,,X
-sinon,otherwise,,X
-sirop,syrup,,X
-siroter,to sip,,VERB
-sismique,seismic,,ADJ
-site,site/website,,X
-situation,situation,,NOUN
-situer,to locate/to place,,VERB
-situé,located,,X
-six,six,,X
-siècle,century,,X
-siège,seat/headquarters,,X
-ski,ski,,X
-slogan,slogan,,X
-smartphone,smartphone,,X
-smicard,minimum-wage earner,,X
-sobre,sober/understated,,VERB
-social,social,,ADJ
-socialiste,socialist,,NOUN
-société,society/company,,NOUN
-soi,oneself,,X
-soi-disant,so-called/supposedly,,X
-soie,silk,,X
-soif,thirst,,ADJ
-soigneusement,carefully,,NOUN
-soigneux,careful/tidy,,ADJ
-soin,care,,ADJ
-soir,evening,,VERB
-soirée,evening/party,,X
-soixante,sixty,,X
-sol,soil/floor,,X
-soldat,soldier,,X
-solde,balance/sale,,X
-soldes,sales,,X
-soleil,sun,,X
-solidaire,supportive,,VERB
-solidarité,solidarity,,NOUN
-solide,solid,,X
-solitaire,solitary,,VERB
-solitude,solitude,,X
-solution,solution,,NOUN
-solvabilité,solvency,,NOUN
-sombre,dark/gloomy,,VERB
-sommaire,summary/brief,,VERB
-somme,sum,,X
-sommeil,sleepiness,,X
-sommet,summit/top,,X
-somnifère,sleeping pill,,VERB
-son,his/her/its (masc),,X
-sondage,poll/survey,,X
-sonde,probe,,X
-songe,dream/thought,,X
-sonner,to ring,,VERB
-sophisme,sophism/fallacy,,NOUN
-sorcier,sorcerer/wizard,,VERB
-sort,fate/destiny,,X
-sorte,kind/sort,,X
-sortie,exit,,X
-sortir,to go out/exit,,VERB
-sou,cent/coin,,X
-souci,worry,,X
-soudainement,suddenly,,NOUN
-souffle,breath,,X
-souffrance,suffering,,NOUN
-souffrir,to suffer,,VERB
-souhaiter,to wish,,VERB
-soulagement,relief,,NOUN
-soulagé,relieved,,X
-soulever,to lift/raise,,VERB
-soulier,shoe,,VERB
-souligner,to emphasize/underline,,VERB
-soumettre,to submit/to subject,,VERB
-soumission,submission,,X
-soupe,soup,,X
-soupçon,suspicion/hint,,X
-source,source,,X
-souris,mouse,,X
-sournois,sly/underhanded,,X
-sous,under,,X
-sous-entendre,to imply,,VERB
-sous-jacent,underlying,,X
-sous-titre,subtitle,,VERB
-sous-traitance,subcontracting,,NOUN
-soutenir,to support,,VERB
-soutien,support,,X
-souvenir,memory/keepsake,,VERB
-souvent,often,,X
-souverain,sovereign,,ADJ
-soviétique,Soviet,,ADJ
-sparadrap,adhesive bandage,,X
-spectacle,show,,X
-spectaculaire,spectacular,,VERB
-spectateur,spectator,,NOUN
-spectre,spectrum,,VERB
-spirituel,spiritual,,X
-sporadiquement,sporadically,,NOUN
-sport,sport,,X
-sportif,athletic/sporty,,ADJ
-spécialement,especially,,NOUN
-spécialiste,specialist,,NOUN
-spécialisé,specialized,,X
-spécieux,specious,,ADJ
-spécifique,specific,,ADJ
-spécifiquement,specifically,,NOUN
-stade,stadium,,X
-stage,internship,,X
-stagflation,stagflation,,NOUN
-stagner,to stagnate,,VERB
-stalle,stall (theater),,X
-standard,standard,,X
-standardisation,standardization,,NOUN
-star,star/celebrity,,X
-station,station,,NOUN
-station-service,gas station,,X
-stationnement,parking,,NOUN
-statue,statue,,X
-stigmatisation,stigmatization,,NOUN
-stigmatiser,to stigmatize,,VERB
-stochastique,stochastic,,ADJ
-stock,stock,,X
-stockage,storage,,X
-stopper,to halt/stop,,VERB
-store,blind,,VERB
-stoïcisme,stoicism,,NOUN
-stratégique,strategic,,ADJ
-stress,stress,,X
-strictement,strictly,,NOUN
-strophe,stanza,,X
-structure,structure,,VERB
-studio,studio,,X
-style,style,,X
-subconscient,subconscious,,X
-subir,to undergo/to endure,,VERB
-sublimation,sublimation,,NOUN
-subrepticement,surreptitiously,,NOUN
-subsidiarité,subsidiarity,,NOUN
-substance,substance,,NOUN
-substantiellement,substantially,,NOUN
-subvention,subsidy,,NOUN
-subventionner,to subsidize,,VERB
-subversion,subversion,,X
-successeur,successor,,NOUN
-succession,inheritance/estate,,X
-successivement,successively,,NOUN
-succinct,succinct,,X
+abattre,to slaughter/shoot down,屠宰/击落,VERB
+abbaye,abbey,修道院,NOUN
+abeille,bee,蜜蜂,NOUN
+abondance,abundance,丰富,NOUN
+aborder,to tackle/approach,接近/处理,VERB
+aboutir,to lead to/succeed,成功/导致,VERB
+abriter,to shelter/house,庇护/容纳,VERB
+abstrait,abstract,抽象的,ADJ
+absurde,absurd,荒谬的,ADJ
+académique,academic,学术的,ADJ
+acceptation,acceptance,接受,NOUN
+acclimatation,acclimatization,适应环境,NOUN
+accomplir,to accomplish,完成,VERB
+accorder,to grant,给予,VERB
+accouchement,childbirth,分娩,NOUN
+accrocher,to hang/hook,悬挂/钩住,VERB
+accroître,to increase,增加,VERB
+accélération,acceleration,加速,NOUN
+accélérer,to accelerate,加速,VERB
+acheminement,conveyance/routing,运送,NOUN
+acheteur,buyer,买家,NOUN
+achever,to complete/finish,完成,VERB
+acide,acid/sour,酸的,ADJ
+acquittement,acquittal,无罪释放,NOUN
+actionnaire,shareholder,股东,NOUN
+actionnariat,shareholding,持股,NOUN
+adhérent,member,会员,NOUN
+adhésion,membership,会员资格,NOUN
+administrateur,administrator,管理员,NOUN
+administratif,administrative,行政的,ADJ
+admirer,to admire,钦佩,VERB
+adolescent,teenager,青少年,NOUN
+adresser,to address,致辞,VERB
+adroitement,skillfully,熟练地,ADV
+affecter,to affect,影响,VERB
+affichage,display,展示,NOUN
+afficher,to display,显示,VERB
+affranchissement,emancipation,解放,NOUN
+affreux,awful,可怕的,ADJ
+agenda,diary,日程本,NOUN
+agression,aggression,侵略,NOUN
+aigle,eagle,鹰,NOUN
+aiguille,needle,针,NOUN
+aire,area,区域,NOUN
+aisément,easily,容易地,ADV
+ajout,addition,增加,NOUN
+alarme,alarm,警报,NOUN
+alentours,surroundings,周围,NOUN
+aliment,foodstuff,食物,NOUN
+alimenter,to supply,供应,VERB
+aliénation,alienation,异化,NOUN
+allier,to ally,结盟,VERB
+allocation,allowance,津贴,NOUN
+allumer,to turn on,打开,VERB
+allure,pace,步伐,NOUN
+alternance,alternation,轮流,NOUN
+altruisme,altruism,利他主义,NOUN
+aléatoire,random,随机的,ADJ
+ambassade,embassy,大使馆,NOUN
+amendement,amendment,修正案,NOUN
+amical,friendly,友好的,ADJ
+amiral,admiral,海军上将,NOUN
+amoindrir,to diminish,减少,VERB
+amusant,amusing,有趣的,ADJ
+amuser,to amuse,逗乐,VERB
+analyser,to analyze,分析,VERB
+ancêtre,ancestor,祖先,NOUN
+angoisse,anguish,焦虑,NOUN
+animateur,host,主持人,NOUN
+animé,lively,热闹的,ADJ
+anneau,ring,环,NOUN
+annexe,appendix,附件,NOUN
+annuler,to cancel,取消,VERB
+anonyme,anonymous,匿名的,ADJ
+antenne,antenna,天线,NOUN
+antique,ancient,古老的,ADJ
+antiquité,antiquity,古代,NOUN
+antisémitisme,antisemitism,反犹太主义,NOUN
+aperçu,overview,概览,NOUN
+appartenir,to belong,属于,VERB
+appellation,designation,名称,NOUN
+apport,contribution,贡献,NOUN
+approcher,to approach,接近,VERB
+approprié,appropriate,适当的,ADJ
+approuver,to approve,批准,VERB
+approvisionnement,supply,供应,NOUN
+appréciation,assessment,评估,NOUN
+appréhender,to apprehend,担忧,VERB
+appuyer,to press,按,VERB
+appétit,appetite,食欲,NOUN
+arbitrage,arbitration,仲裁,NOUN
+arbitrer,to arbitrate,仲裁,VERB
+archevêque,archbishop,大主教,NOUN
+architecte,architect,建筑师,NOUN
+archéologie,archaeology,考古学,NOUN
+archétype,archetype,原型,NOUN
+armement,armament,军备,NOUN
+armé,armed,武装的,ADJ
+arnaque,scam,诈骗,NOUN
+arracher,to tear out,拔除,VERB
+arranger,to arrange,安排,VERB
+arrestation,arrest,逮捕,NOUN
+arrêté,decree,法令,NOUN
+artillerie,artillery,炮兵,NOUN
+artisan,craftsman,工匠,NOUN
+ascendant,influence,影响力,NOUN
+ascétisme,asceticism,禁欲主义,NOUN
+asiatique,Asian,亚洲的,ADJ
+asile,asylum,庇护,NOUN
+assassinat,assassination,暗杀,NOUN
+assassiner,to assassinate,暗杀,VERB
+assaut,assault,袭击,NOUN
+asseoir,to sit,使坐下,VERB
+asservissement,enslavement,奴役,NOUN
+associatif,nonprofit,非营利的,ADJ
+associer,to associate,联系,VERB
+assujettissement,subjection,服从,NOUN
+assumer,to assume,承担,VERB
+astuce,trick,窍门,NOUN
+astéroïde,asteroid,小行星,NOUN
+atermoyer,to procrastinate,拖延,VERB
+athlète,athlete,运动员,NOUN
+atout,asset,优势,NOUN
+attachement,attachment,依恋,NOUN
+attacher,to attach,系上,VERB
+attaquant,attacker,攻击者,NOUN
+atterrissage,landing,着陆,NOUN
+attiser,to stoke,煽动,VERB
+attraper,to catch,抓住,VERB
+attribuer,to attribute,归因,VERB
+austérité,austerity,紧缩,NOUN
+autodidacte,self-taught,自学的,ADJ
+automatiquement,automatically,自动地,ADV
+autonome,autonomous,自主的,ADJ
+autrui,others,他人,PRON
+aval,downstream,下游,NOUN
+avaliser,to endorse,背书,VERB
+avancée,advance,进展,NOUN
+avenant,amendment,附录,NOUN
+avertir,to warn,警告,VERB
+avertissement,warning,警告,NOUN
+avortement,abortion,流产,NOUN
+avérer,to turn out,证实,VERB
+axiome,axiom,公理,NOUN
+aérien,aerial,空中的,ADJ
+aéronautique,aeronautical,航空的,ADJ
+bagage,luggage,行李,NOUN
+bagarre,brawl,斗殴,NOUN
+bail,lease,租约,NOUN
+bal,ball,舞会,NOUN
+balade,stroll,散步,NOUN
+balcon,balcony,阳台,NOUN
+bancaire,banking,银行的,ADJ
+bannière,banner,横幅,NOUN
+banquier,banker,银行家,NOUN
+baptiser,to baptize,施洗,VERB
+baptême,baptism,洗礼,NOUN
+barrage,dam,水坝,NOUN
+barrière,barrier,障碍物,NOUN
+bataillon,battalion,营,NOUN
+bibliographie,bibliography,参考书目,NOUN
+bicaméral,bicameral,两院制的,ADJ
+biodiversité,biodiversity,生物多样性,NOUN
+biographie,biography,传记,NOUN
+biologique,biological,生物的,ADJ
+bizarrement,oddly,奇怪地,ADV
+blague,joke,笑话,NOUN
+blocage,blockage,阻塞,NOUN
+bloquer,to block,阻塞,VERB
+bol,bowl,碗,NOUN
+bonbon,candy,糖果,NOUN
+bond,leap,跳跃,NOUN
+bordure,edge,边缘,NOUN
+borne,marker,界标,NOUN
+bosse,bump,肿块,NOUN
+bouclier,shield,盾牌,NOUN
+boue,mud,泥,NOUN
+brassage,mixing,混合,NOUN
+brevet,patent,专利,NOUN
+brillant,brilliant,杰出的,ADJ
+brise,breeze,微风,NOUN
+briser,to shatter,粉碎,VERB
+brut,raw,生的,ADJ
+budgétaire,budgetary,预算的,ADJ
+bulle,bubble,气泡,NOUN
+bureaucratie,bureaucracy,官僚主义,NOUN
+bâton,stick,棍子,NOUN
+bénédiction,blessing,祝福,NOUN
+bénéficier,to benefit,受益,VERB
+bétail,livestock,牲畜,NOUN
+béton,concrete,混凝土,NOUN
+bêtise,stupidity,愚蠢,NOUN
+cabine,cabin,小舱,NOUN
+cadavre,corpse,尸体,NOUN
+caduc,obsolete,失效的,ADJ
+caducité,lapse,失效,NOUN
+camarade,comrade,同志,NOUN
+canard,duck,鸭子,NOUN
+candide,naive,天真的,ADJ
+capitalisme,capitalism,资本主义,NOUN
+captieux,misleading,诡辩的,ADJ
+caractériser,to characterize,表征,VERB
+carburant,fuel,燃料,NOUN
+cardiaque,cardiac,心脏的,ADJ
+carton,cardboard,纸板,NOUN
+case,square,格子,NOUN
+cassation,quashing,撤销,NOUN
+cathédrale,cathedral,大教堂,NOUN
+catégorisation,categorization,分类,NOUN
+causalité,causality,因果关系,NOUN
+causer,to cause,引起,VERB
+caution,bail,保证金,NOUN
+cautionner,to endorse,担保,VERB
+cavalerie,cavalry,骑兵,NOUN
+cavalier,rider,骑手,NOUN
+cave,cellar,地窖,NOUN
+cellulaire,cellular,细胞的,ADJ
+cendre,ash,灰烬,NOUN
+censure,censorship,审查,NOUN
+centime,cent,分,NOUN
+certificat,certificate,证书,NOUN
+cession,transfer,转让,NOUN
+chagrin,sorrow,悲伤,NOUN
+chaire,pulpit,讲坛,NOUN
+championnat,championship,锦标赛,NOUN
+chancelier,chancellor,总理,NOUN
+chanceux,lucky,幸运的,ADJ
+char,tank,坦克,NOUN
+chargement,loading,装载,NOUN
+charité,charity,慈善,NOUN
+charmant,charming,迷人的,ADJ
+chasseur,hunter,猎人,NOUN
+chauffage,heating,暖气,NOUN
+chauffer,to heat,加热,VERB
+chaussette,sock,袜子,NOUN
+chaussée,roadway,路面,NOUN
+chauvinisme,chauvinism,沙文主义,NOUN
+cheminée,fireplace,壁炉,NOUN
+cheville,ankle,脚踝,NOUN
+chimique,chemical,化学的,ADJ
+chirurgie,surgery,外科,NOUN
+choquer,to shock,震惊,VERB
+chouette,owl,猫头鹰,NOUN
+chromatique,chromatic,色彩的,ADJ
+chute,fall,坠落,NOUN
+chèque,check,支票,NOUN
+chèvre,goat,山羊,NOUN
+chéri,darling,亲爱的,ADJ
+chômeur,unemployed person,失业者,NOUN
+ciblage,targeting,定位,NOUN
+ciment,cement,水泥,NOUN
+cimetière,cemetery,墓地,NOUN
+cinquantaine,about fifty,五十左右,NOUN
+circonscription,constituency,选区,NOUN
+circonspect,circumspect,谨慎的,ADJ
+circulaire,circular,通告,NOUN
+circuler,to circulate,流通,VERB
+cirque,circus,马戏团,NOUN
+citation,quotation,引用,NOUN
+citoyenneté,citizenship,公民身份,NOUN
+clandestinité,clandestinity,秘密状态,NOUN
+claque,slap,耳光,NOUN
+classer,to classify,分类,VERB
+classicisme,classicism,古典主义,NOUN
+clavier,keyboard,键盘,NOUN
+clergé,clergy,神职人员,NOUN
+clientélisme,clientelism,庇护主义,NOUN
+clos,enclosed,封闭的,ADJ
+cléricalisme,clericalism,教权主义,NOUN
+clôture,closure,结束,NOUN
+coffre,trunk,箱子,NOUN
+cohésion,cohesion,凝聚力,NOUN
+coiffure,hairstyle,发型,NOUN
+coincé,stuck,卡住的,ADJ
+colis,package,包裹,NOUN
+collaborateur,collaborator,合作者,NOUN
+collecte,collection,收集,NOUN
+collectivité,community,集体,NOUN
+collier,necklace,项链,NOUN
+colline,hill,小山,NOUN
+colloque,symposium,研讨会,NOUN
+colon,colonist,殖民者,NOUN
+colonie,colony,殖民地,NOUN
+colonisation,colonization,殖民化,NOUN
+colonne,column,柱子,NOUN
+combattant,fighter,战士,NOUN
+combinaison,combination,组合,NOUN
+combiner,to combine,结合,VERB
+combler,to fill,填补,VERB
+comité,committee,委员会,NOUN
+commander,to order,命令,VERB
+commercialisation,marketing,营销,NOUN
+commissariat,police station,警察局,NOUN
+communautaire,community-related,社区的,ADJ
+communautarisme,communitarianism,社群主义,NOUN
+compagnon,companion,同伴,NOUN
+compatriote,compatriot,同胞,NOUN
+compenser,to compensate,补偿,VERB
+complexité,complexity,复杂性,NOUN
+complicité,complicity,共谋,NOUN
+complot,conspiracy,阴谋,NOUN
+complément,complement,补充,NOUN
+compléter,to complete,完成,VERB
+comportement,behavior,行为,NOUN
+comportemental,behavioral,行为的,ADJ
+composant,component,组件,NOUN
+compositeur,composer,作曲家,NOUN
+comptabilité,accounting,会计,NOUN
+comptable,accountant,会计师,NOUN
+compteur,meter,计数器,NOUN
+comptoir,counter,柜台,NOUN
+compétition,competition,竞争,NOUN
+comédien,actor,演员,NOUN
+concentrer,to concentrate,集中,VERB
+conciliant,conciliatory,调和的,ADJ
+conclure,to conclude,得出结论,VERB
+concomitamment,concomitantly,同时地,ADV
+concret,concrete,具体的,ADJ
+concurrence,competition,竞争,NOUN
+concurrent,competitor,竞争对手,NOUN
+concussion,embezzlement,贪污,NOUN
+condamnation,conviction,定罪,NOUN
+conductivité,conductivity,导电性,NOUN
+confidentialité,confidentiality,保密性,NOUN
+confondre,to confuse,混淆,VERB
+conforme,compliant,符合的,ADJ
+conformisme,conformism,从众心理,NOUN
+conformité,compliance,合规,NOUN
+confort,comfort,舒适,NOUN
+confortable,comfortable,舒适的,ADJ
+confronter,to confront,使面对,VERB
+congé,leave,休假,NOUN
+conjoncture,economic climate,经济形势,NOUN
+conjoncturel,cyclical,周期的,ADJ
+connecter,to connect,连接,VERB
+connexion,connection,连接,NOUN
+conquérir,to conquer,征服,VERB
+conscient,aware,意识到的,ADJ
+consentement,consent,同意,NOUN
+conservatoire,conservatory,音乐学院,NOUN
+considérable,considerable,相当大的,ADJ
+considérablement,considerably,相当地,ADV
+consolider,to consolidate,巩固,VERB
+consommation,consumption,消费,NOUN
+constance,constancy,坚定,NOUN
+constat,finding,观察结果,NOUN
+constitutionnel,constitutional,宪法的,ADJ
+constructeur,manufacturer,制造商,NOUN
+consumériste,consumerist,消费者主义的,ADJ
+consécutivement,consecutively,连续地,ADV
+contacter,to contact,联系,VERB
+contemporain,contemporary,当代的,ADJ
+contenu,content,内容,NOUN
+contestation,protest,抗议,NOUN
+continu,continuous,连续的,ADJ
+continuité,continuity,连续性,NOUN
+contraindre,to compel,强迫,VERB
+contrainte,constraint,约束,NOUN
+contraste,contrast,对比,NOUN
+contrecarrer,to thwart,阻挠,VERB
+contrepartie,compensation,补偿,NOUN
+contrer,to counter,反击,VERB
+contrevenir,to contravene,违反,VERB
+contribuer,to contribute,贡献,VERB
+controverse,controversy,争议,NOUN
+convertir,to convert,转换,VERB
+convoi,convoy,车队,NOUN
+convoitise,covetousness,贪欲,NOUN
+copier,to copy,复制,VERB
+corollaire,corollary,推论,NOUN
+corporatisme,corporatism,法团主义,NOUN
+correspondance,correspondence,通信,NOUN
+corriger,to correct,纠正,VERB
+corroborer,to corroborate,证实,VERB
+corrélativement,correlatively,相关地,ADV
+cosmologie,cosmology,宇宙学,NOUN
+cosmopolitisme,cosmopolitanism,世界主义,NOUN
+cotisation,contribution,会费,NOUN
+couler,to flow,流动,VERB
+coupe,cut,切口,NOUN
+courbe,curve,曲线,NOUN
+coureur,runner,跑步者,NOUN
+coutume,custom,习俗,NOUN
+couture,sewing,缝纫,NOUN
+coïncidence,coincidence,巧合,NOUN
+crainte,fear,恐惧,NOUN
+craquer,to crack,破裂,VERB
+cri,shout,喊叫,NOUN
+criminel,criminal,犯罪的,ADJ
+critiquer,to criticize,批评,VERB
+croiser,to cross,交叉,VERB
+croisière,cruise,巡航,NOUN
+croissance,growth,增长,NOUN
+croissant,growing,增长的,ADJ
+cru,raw,生的,ADJ
+créativité,creativity,创造力,NOUN
+créature,creature,生物,NOUN
+crédibilité,credibility,可信度,NOUN
+crédule,gullible,轻信的,ADJ
+crédulité,credulity,轻信,NOUN
+cubisme,cubism,立体主义,NOUN
+cuir,leather,皮革,NOUN
+cuire,to cook,烹饪,VERB
+cuisson,cooking,烹饪,NOUN
+cuit,cooked,熟的,ADJ
+cuivre,copper,铜,NOUN
+culpabilité,guilt,内疚,NOUN
+cupidité,greed,贪婪,NOUN
+cycliste,cyclist,骑自行车的人,NOUN
+câble,cable,电缆,NOUN
+céder,to yield,让步,VERB
+céleste,celestial,天上的,ADJ
+célébration,celebration,庆祝,NOUN
+célébrer,to celebrate,庆祝,VERB
+céréale,cereal,谷物,NOUN
+dauphin,dolphin,海豚,NOUN
+demandeur,applicant,申请人,NOUN
+demeurer,to remain,保持,VERB
+demoiselle,young lady,少女,NOUN
+densité,density,密度,NOUN
+deuil,mourning,哀悼,NOUN
+devise,currency,货币,NOUN
+diagnostic,diagnosis,诊断,NOUN
+difficilement,with difficulty,困难地,ADV
+diffuser,to broadcast,传播,VERB
+dignité,dignity,尊严,NOUN
+dilatoire,dilatory,拖延的,ADJ
+diminuer,to decrease,减少,VERB
+diminution,decrease,减少,NOUN
+diocèse,diocese,教区,NOUN
+diplomatie,diplomacy,外交,NOUN
+diplomatique,diplomatic,外交的,ADJ
+discret,discreet,谨慎的,ADJ
+discrètement,discreetly,谨慎地,ADV
+discrétion,discretion,谨慎,NOUN
+dispute,argument,争论,NOUN
+distinguer,to distinguish,区分,VERB
+distributeur,distributor,分销商,NOUN
+divertissement,entertainment,娱乐,NOUN
+divin,divine,神圣的,ADJ
+diviser,to divide,分割,VERB
+dixième,tenth,第十,ADJ
+doctorat,doctorate,博士学位,NOUN
+dogmatisme,dogmatism,教条主义,NOUN
+dol,fraud,欺诈,NOUN
+domestique,domestic,家庭的,ADJ
+dominer,to dominate,支配,VERB
+dommageable,damaging,有害的,ADJ
+dommages,damages,损害赔偿,NOUN
+doré,golden,金色的,ADJ
+dorénavant,from now on,今后,ADV
+dotation,endowment,拨款,NOUN
+doter,to endow,配备,VERB
+doubler,to double,加倍,VERB
+douter,to doubt,怀疑,VERB
+doyen,dean,院长,NOUN
+dramatique,dramatic,戏剧性的,ADJ
+dramaturgie,dramaturgy,剧作,NOUN
+dresser,to draw up,起草,VERB
+duchesse,duchess,女公爵,NOUN
+durabilité,sustainability,可持续性,NOUN
+dé,dice,骰子,NOUN
+débarquer,to disembark,登陆,VERB
+débarrasser,to get rid of,清除,VERB
+débattre,to debate,辩论,VERB
+débris,debris,碎片,NOUN
+débuter,to start,开始,VERB
+décalage,gap,差距,NOUN
+décentralisation,decentralization,权力下放,NOUN
+décidément,decidedly,显然,ADV
+décisif,decisive,决定性的,ADJ
+déclencher,to trigger,引发,VERB
+décor,decor,布景,NOUN
+décoration,decoration,装饰,NOUN
+découverte,discovery,发现,NOUN
+décrocher,to unhook,摘下,VERB
+décéder,to pass away,去世,VERB
+dédier,to dedicate,奉献,VERB
+déesse,goddess,女神,NOUN
+défaite,defeat,失败,NOUN
+défaut,flaw,缺陷,NOUN
+défiance,distrust,不信任,NOUN
+déficit,deficit,赤字,NOUN
+défilé,parade,游行,NOUN
+définir,to define,定义,VERB
+définitif,final,最终的,ADJ
+déflation,deflation,通货紧缩,NOUN
+défunt,deceased,已故的,ADJ
+dégager,to clear,清理,VERB
+dégradation,deterioration,恶化,NOUN
+dégénératif,degenerative,退化的,ADJ
+délibéré,deliberate,故意的,ADJ
+délicat,delicate,微妙的,ADJ
+délire,delirium,谵妄,NOUN
+délit,offense,违法行为,NOUN
+délocalisation,offshoring,产业外迁,NOUN
+déléguer,to delegate,委托,VERB
+délégué,delegate,代表,NOUN
+délétère,deleterious,有害的,ADJ
+démarrer,to start,启动,VERB
+démissionner,to resign,辞职,VERB
+démocrate,democrat,民主主义者,NOUN
+démographique,demographic,人口的,ADJ
+démon,demon,恶魔,NOUN
+démonstration,demonstration,演示,NOUN
+démontrer,to demonstrate,证明,VERB
+déménagement,relocation,搬家,NOUN
+déménager,to move house,搬家,VERB
+dénoncer,to denounce,谴责,VERB
+départemental,departmental,省级的,ADJ
+dépendance,dependence,依赖,NOUN
+dépendant,dependent,依赖的,ADJ
+dépense,expense,开支,NOUN
+dépeuplement,depopulation,人口减少,NOUN
+déploiement,deployment,部署,NOUN
+dépollution,decontamination,去污,NOUN
+déposer,to deposit,存放,VERB
+dérivé,derivative,衍生物,NOUN
+déroger,to derogate,违背,VERB
+déroulement,course,进展,NOUN
+dérouler,to unfold,展开,VERB
+dérèglementation,deregulation,解除管制,NOUN
+désaccord,disagreement,分歧,NOUN
+désagréable,unpleasant,令人不快的,ADJ
+désamorcer,to defuse,拆除引信,VERB
+désastre,disaster,灾难,NOUN
+désavouer,to disavow,否认,VERB
+désendettement,deleveraging,去杠杆化,NOUN
+désertification,desertification,荒漠化,NOUN
+désespoir,despair,绝望,NOUN
+désignation,designation,指定,NOUN
+désigner,to designate,指定,VERB
+désinflation,disinflation,反通货膨胀,NOUN
+désintéressé,disinterested,无私的,ADJ
+désordre,disorder,混乱,NOUN
+désuet,outdated,过时的,ADJ
+détaillé,detailed,详细的,ADJ
+détecter,to detect,探测,VERB
+détendre,to relax,放松,VERB
+détenir,to hold,持有,VERB
+détente,relaxation,缓和,NOUN
+détention,detention,拘留,NOUN
+détenu,detainee,被拘留者,NOUN
+détermination,determination,决心,NOUN
+déterministe,deterministic,决定论的,ADJ
+détour,detour,绕行,NOUN
+détourner,to divert,转移,VERB
+détriment,detriment,损害,NOUN
+dévaluation,devaluation,贬值,NOUN
+dévoiler,to reveal,揭露,VERB
+effacer,to erase,擦除,VERB
+effectif,workforce,员工人数,NOUN
+efficace,effective,有效的,ADJ
+efficacement,effectively,有效地,ADV
+effondrement,collapse,崩溃,NOUN
+embrasser,to kiss,亲吻,VERB
+empirisme,empiricism,经验主义,NOUN
+empiéter,to encroach,侵占,VERB
+employabilité,employability,就业能力,NOUN
+employer,to employ,雇用,VERB
+employeur,employer,雇主,NOUN
+emporter,to take away,带走,VERB
+empreinte,imprint,印记,NOUN
+emprise,hold,控制,NOUN
+emprisonnement,imprisonment,监禁,NOUN
+emprunter,to borrow,借,VERB
+encenser,to praise lavishly,大肆吹捧,VERB
+enchère,bid,出价,NOUN
+encourager,to encourage,鼓励,VERB
+endettement,indebtedness,负债,NOUN
+endiguer,to stem,遏制,VERB
+endoctrinement,indoctrination,灌输,NOUN
+endormir,to put to sleep,使入睡,VERB
+endémique,endemic,地方性的,ADJ
+enfermer,to lock up,关押,VERB
+enfreindre,to infringe,违反,VERB
+engin,device,装置,NOUN
+enlèvement,kidnapping,绑架,NOUN
+ennui,boredom,无聊,NOUN
+enrayer,to curb,制止,VERB
+enrichir,to enrich,丰富,VERB
+enseignant,teacher,教师,NOUN
+entente,understanding,谅解,NOUN
+enterrer,to bury,埋葬,VERB
+enthousiasme,enthusiasm,热情,NOUN
+entité,entity,实体,NOUN
+entourer,to surround,包围,VERB
+entreprendre,to undertake,从事,VERB
+entretenir,to maintain,维护,VERB
+entretien,interview,面试,NOUN
+entrevoir,to glimpse,瞥见,VERB
+entrevue,interview,会见,NOUN
+entropie,entropy,熵,NOUN
+entériner,to ratify,批准,VERB
+envenimer,to worsen,恶化,VERB
+envergure,scope,规模,NOUN
+environnemental,environmental,环境的,ADJ
+envisager,to consider,考虑,VERB
+escalade,escalation,升级,NOUN
+esclavage,slavery,奴隶制,NOUN
+esclave,slave,奴隶,NOUN
+escompter,to expect,指望,VERB
+espionnage,espionage,间谍活动,NOUN
+espérance,hope,希望,NOUN
+estampe,print,版画,NOUN
+esthétique,aesthetic,审美的,ADJ
+estimation,estimate,估计,NOUN
+ethnique,ethnic,种族的,ADJ
+euphémisme,euphemism,委婉语,NOUN
+exacerber,to exacerbate,加剧,VERB
+exceptionnel,exceptional,卓越的,ADJ
+exclure,to exclude,排除,VERB
+exclusif,exclusive,独有的,ADJ
+excédent,surplus,盈余,NOUN
+exemplaire,copy,副本,NOUN
+exercer,to exercise,行使,VERB
+exhaustif,exhaustive,详尽的,ADJ
+exigence,requirement,要求,NOUN
+exiger,to demand,要求,VERB
+exil,exile,流放,NOUN
+existant,existing,现有的,ADJ
+exploit,feat,壮举,NOUN
+exploiter,to exploit,开发,VERB
+explorer,to explore,探索,VERB
+exploser,to explode,爆炸,VERB
+exportation,export,出口,NOUN
+exprès,on purpose,故意地,ADV
+externalisation,outsourcing,外包,NOUN
+externe,external,外部的,ADJ
+extorsion,extortion,勒索,NOUN
+extraire,to extract,提取,VERB
+extrapoler,to extrapolate,外推,VERB
+extrémité,end,末端,NOUN
+fabricant,manufacturer,制造商,NOUN
+fabrique,factory,工厂,NOUN
+fabriquer,to manufacture,制造,VERB
+facilité,ease,容易,NOUN
+facture,invoice,发票,NOUN
+faille,flaw,缺陷,NOUN
+faillite,bankruptcy,破产,NOUN
+fallacieux,fallacious,谬误的,ADJ
+familier,familiar,熟悉的,ADJ
+fantôme,ghost,鬼魂,NOUN
+fatigué,tired,疲倦的,ADJ
+faune,fauna,动物群,NOUN
+fauteuil,armchair,扶手椅,NOUN
+façade,facade,正面,NOUN
+ferroviaire,railway,铁路的,ADJ
+fiable,reliable,可靠的,ADJ
+fibre,fiber,纤维,NOUN
+fichier,file,文件,NOUN
+fidélité,fidelity,忠诚,NOUN
+figuratif,figurative,比喻的,ADJ
+figurer,to appear,出现,VERB
+filet,net,网,NOUN
+filiale,subsidiary,子公司,NOUN
+filière,sector,行业,NOUN
+fillette,little girl,小女孩,NOUN
+filmer,to film,拍摄,VERB
+filtre,filter,过滤器,NOUN
+finale,final,决赛,NOUN
+financièrement,financially,在经济上,ADV
+firme,firm,公司,NOUN
+fiscalité,taxation,税收制度,NOUN
+fièvre,fever,发烧,NOUN
+flamme,flame,火焰,NOUN
+flanc,flank,侧面,NOUN
+flore,flora,植物群,NOUN
+flou,blurry,模糊的,ADJ
+fluctuant,fluctuating,波动的,ADJ
+fluide,fluid,流体的,ADJ
+foie,liver,肝脏,NOUN
+foire,fair,集市,NOUN
+fondement,foundation,基础,NOUN
+fondre,to melt,融化,VERB
+fonte,cast iron,铸铁,NOUN
+formulaire,form,表格,NOUN
+forteresse,fortress,堡垒,NOUN
+fortuit,fortuitous,偶然的,ADJ
+fortuitement,by chance,偶然地,ADV
+fosse,pit,坑,NOUN
+fossile,fossil,化石,NOUN
+fossilisation,fossilization,石化,NOUN
+fossé,ditch,沟渠,NOUN
+foudre,lightning,闪电,NOUN
+fouille,excavation,挖掘,NOUN
+fournisseur,supplier,供应商,NOUN
+fragiliser,to weaken,削弱,VERB
+fragmentaire,fragmentary,零碎的,ADJ
+franchise,frankness,坦率,NOUN
+francophone,French-speaking,讲法语的,ADJ
+francophonie,French-speaking world,法语国家组织,NOUN
+fraude,fraud,欺诈,NOUN
+frein,brake,刹车,NOUN
+frite,french fry,炸薯条,NOUN
+frugalité,frugality,节俭,NOUN
+fréquemment,frequently,频繁地,ADV
+fréquentation,attendance,出勤,NOUN
+fumer,to smoke,吸烟,VERB
+funérailles,funeral,葬礼,NOUN
+furtivité,stealth,隐蔽,NOUN
+fusil,rifle,步枪,NOUN
+fusillade,shooting,枪击,NOUN
+fustiger,to castigate,严厉批评,VERB
+féministe,feminist,女权主义者,NOUN
+gage,pledge,抵押,NOUN
+galaxie,galaxy,星系,NOUN
+gant,glove,手套,NOUN
+garantir,to guarantee,保证,VERB
+gentiment,kindly,亲切地,ADV
+gestionnaire,manager,管理者,NOUN
+gigantesque,gigantic,巨大的,ADJ
+globalement,overall,总体上,ADV
+golfe,gulf,海湾,NOUN
+goutte,drop,水滴,NOUN
+gouvernance,governance,治理,NOUN
+gouvernemental,governmental,政府的,ADJ
+gouverner,to govern,统治,VERB
+graine,seed,种子,NOUN
+graisse,fat,脂肪,NOUN
+grammaire,grammar,语法,NOUN
+gramme,gram,克,NOUN
+grandeur,greatness,伟大,NOUN
+grandir,to grow up,长大,VERB
+graphique,chart,图表,NOUN
+gratter,to scratch,抓,VERB
+gravement,seriously,严重地,ADV
+gravité,gravity,重力,NOUN
+grenade,pomegranate,石榴,NOUN
+grenier,attic,阁楼,NOUN
+grille,grid,格栅,NOUN
+grippe,flu,流感,NOUN
+grossesse,pregnancy,怀孕,NOUN
+groupement,grouping,集团,NOUN
+gré,will,意愿,NOUN
+guerrier,warrior,战士,NOUN
+guérir,to heal,治愈,VERB
+guérison,recovery,治愈,NOUN
+gène,gene,基因,NOUN
+géant,giant,巨人,NOUN
+générationnel,generational,代际的,ADJ
+générer,to generate,产生,VERB
+généreux,generous,慷慨的,ADJ
+générique,generic,通用的,ADJ
+générosité,generosity,慷慨,NOUN
+génétique,genetic,遗传的,ADJ
+géographie,geography,地理,NOUN
+géographique,geographical,地理的,ADJ
+gérer,to manage,管理,VERB
+gérontocratie,gerontocracy,老人政治,NOUN
+gênant,embarrassing,令人尴尬的,ADJ
+gêne,discomfort,不适,NOUN
+habitation,housing,住房,NOUN
+habituel,usual,通常的,ADJ
+handicap,disability,残疾,NOUN
+harcèlement,harassment,骚扰,NOUN
+harmonie,harmony,和谐,NOUN
+hebdomadaire,weekly,每周的,ADJ
+herméneutique,hermeneutic,诠释学的,ADJ
+historien,historian,历史学家,NOUN
+historiquement,historically,历史上,ADV
+hiérarchie,hierarchy,等级制度,NOUN
+hiérarchisation,ranking,分级,NOUN
+homosexualité,homosexuality,同性恋,NOUN
+honnêtement,honestly,诚实地,ADV
+honnêteté,honesty,诚实,NOUN
+honorer,to honor,尊敬,VERB
+honteux,shameful,可耻的,ADJ
+horaire,schedule,时间表,NOUN
+hormis,except for,除了,ADP
+hospitalier,hospitable,好客的,ADJ
+huitième,eighth,第八,ADJ
+humanitaire,humanitarian,人道主义的,ADJ
+hybride,hybrid,混合的,ADJ
+hydrogène,hydrogen,氢,NOUN
+hymne,anthem,颂歌,NOUN
+hypocrisie,hypocrisy,虚伪,NOUN
+hédonisme,hedonism,享乐主义,NOUN
+hélas,alas,唉,INTJ
+hélicoptère,helicopter,直升机,NOUN
+héritier,heir,继承人,NOUN
+hétéroclite,motley,杂乱的,ADJ
+hétérogène,heterogeneous,异质的,ADJ
+hôte,host,主人,NOUN
+identique,identical,相同的,ADJ
+idéalisme,idealism,理想主义,NOUN
+idéologie,ideology,意识形态,NOUN
+idéologique,ideological,意识形态的,ADJ
+illustre,illustrious,杰出的,ADJ
+illustrer,to illustrate,说明,VERB
+illégal,illegal,非法的,ADJ
+imaginaire,imaginary,想象的,ADJ
+immigré,immigrant,移民,NOUN
+immunité,immunity,免疫,NOUN
+immédiat,immediate,立即的,ADJ
+impasse,dead end,死胡同,NOUN
+imposant,imposing,宏伟的,ADJ
+imposition,taxation,征税,NOUN
+impressionnisme,impressionism,印象主义,NOUN
+imprimer,to print,打印,VERB
+imprimerie,printing house,印刷厂,NOUN
+impérial,imperial,帝国的,ADJ
+inacceptable,unacceptable,不可接受的,ADJ
+incarner,to embody,体现,VERB
+incertitude,uncertainty,不确定性,NOUN
+inciter,to incite,煽动,VERB
+inclure,to include,包括,VERB
+incohérent,incoherent,不连贯的,ADJ
+inconscient,unconscious,无意识的,ADJ
+incontestablement,incontestably,无可争议地,ADV
+incontournable,essential,必不可少的,ADJ
+inculpation,indictment,起诉,NOUN
+indemnité,compensation,赔偿,NOUN
+indicateur,indicator,指标,NOUN
+indifférence,indifference,冷漠,NOUN
+indigence,destitution,贫困,NOUN
+indigène,indigenous,土著的,ADJ
+indirectement,indirectly,间接地,ADV
+indiscrétion,indiscretion,轻率,NOUN
+indissociable,inseparable,不可分割的,ADJ
+indistinctement,indiscriminately,不加区别地,ADV
+individuel,individual,个人的,ADJ
+indéniablement,undeniably,不可否认地,ADV
+indépendamment,independently,独立地,ADV
+inexorablement,inexorably,不可阻挡地,ADV
+infanterie,infantry,步兵,NOUN
+infiniment,infinitely,无限地,ADV
+infirmer,to invalidate,使无效,VERB
+infirmier,nurse,护士,NOUN
+informatique,computing,计算机科学,NOUN
+informer,to inform,通知,VERB
+infraction,offense,违规,NOUN
+ingrédient,ingredient,成分,NOUN
+ingénierie,engineering,工程学,NOUN
+inhérent,inherent,固有的,ADJ
+initialement,initially,最初,ADV
+injuste,unfair,不公平的,ADJ
+inopiné,unexpected,出乎意料的,ADJ
+inquiet,worried,担心的,ADJ
+inquiétant,worrying,令人担忧的,ADJ
+inquiétude,worry,忧虑,NOUN
+insecte,insect,昆虫,NOUN
+insensiblement,imperceptibly,不知不觉地,ADV
+insidieusement,insidiously,阴险地,ADV
+insidieux,insidious,阴险的,ADJ
+insinuer,to insinuate,暗示,VERB
+insister,to insist,坚持,VERB
+insolvabilité,insolvency,无偿付能力,NOUN
+insulte,insult,侮辱,NOUN
+insulter,to insult,侮辱,VERB
+insécurité,insecurity,不安全感,NOUN
+intensité,intensity,强度,NOUN
+intentionnellement,intentionally,故意地,ADV
+interprète,interpreter,口译员,NOUN
+interpréter,to interpret,解释,VERB
+intervenant,speaker,发言人,NOUN
+intime,intimate,亲密的,ADJ
+intimité,intimacy,亲密,NOUN
+intransigeant,uncompromising,不妥协的,ADJ
+introduire,to introduce,引入,VERB
+intégralité,entirety,全部,NOUN
+intégrité,integrity,正直,NOUN
+intéresser,to interest,使感兴趣,VERB
+intéressé,interested,感兴趣的,ADJ
+intérim,interim,临时工作,NOUN
+inventaire,inventory,库存,NOUN
+inventer,to invent,发明,VERB
+investisseur,investor,投资者,NOUN
+inédit,unpublished,未发表的,ADJ
+inégalité,inequality,不平等,NOUN
+inévitable,inevitable,不可避免的,ADJ
+ironie,irony,讽刺,NOUN
+irrémédiablement,irremediably,无法挽回地,ADV
+isolement,isolation,孤立,NOUN
+isoler,to isolate,隔离,VERB
+issue,outcome,结果,NOUN
+itinéraire,itinerary,路线,NOUN
+jadis,formerly,从前,ADV
+jaloux,jealous,嫉妒的,ADJ
+jet,throw,投掷,NOUN
+jouet,toy,玩具,NOUN
+jouir,to enjoy,享受,VERB
+judicieusement,judiciously,明智地,ADV
+juguler,to curb,遏制,VERB
+jumeau,twin,双胞胎,NOUN
+jupe,skirt,裙子,NOUN
+jurisprudence,case law,判例法,NOUN
+justesse,accuracy,准确性,NOUN
+laconique,laconic,简洁的,ADJ
+lacunaire,incomplete,不完整的,ADJ
+largeur,width,宽度,NOUN
+laxiste,lax,放纵的,ADJ
+laïcité,secularism,世俗主义,NOUN
+legs,bequest,遗赠,NOUN
+levier,lever,杠杆,NOUN
+librairie,bookstore,书店,NOUN
+librement,freely,自由地,ADV
+libérer,to free,释放,VERB
+lignée,lineage,血统,NOUN
+linguistique,linguistic,语言学的,ADJ
+liquidité,liquidity,流动性,NOUN
+lisse,smooth,光滑的,ADJ
+litre,liter,升,NOUN
+littoral,coastline,沿海的,NOUN
+livret,booklet,小册子,NOUN
+localité,locality,地点,NOUN
+locataire,tenant,房客,NOUN
+loge,dressing room,化妆间,NOUN
+loger,to house,住宿,VERB
+logiquement,logically,逻辑上,ADV
+logistique,logistics,后勤,NOUN
+loisir,leisure,休闲,NOUN
+longuement,at length,长久地,ADV
+louer,to rent,租赁,VERB
+loyer,rent,租金,NOUN
+lumineux,luminous,明亮的,ADJ
+lycéen,high school student,高中生,NOUN
+légal,legal,合法的,ADJ
+légalement,legally,合法地,ADV
+légendaire,legendary,传奇的,ADJ
+légende,legend,传说,NOUN
+légion,legion,军团,NOUN
+législatif,legislative,立法的,ADJ
+législation,legislation,立法,NOUN
+légitimité,legitimacy,合法性,NOUN
+magistral,masterly,大师级的,ADJ
+magistrat,magistrate,法官,NOUN
+magnifier,to magnify,放大,VERB
+magnétique,magnetic,磁的,ADJ
+maigre,skinny,瘦的,ADJ
+mainmise,control,控制,NOUN
+majesté,majesty,陛下,NOUN
+majoritaire,majority,多数的,ADJ
+majoritairement,mostly,主要地,ADV
+maladroitement,clumsily,笨拙地,ADV
+malaise,unease,不适,NOUN
+malheureux,unhappy,不幸的,ADJ
+malin,clever,聪明的,ADJ
+malversation,misappropriation,贪污,NOUN
+mamie,granny,奶奶,NOUN
+mandat,mandate,授权,NOUN
+mandataire,agent,代理人,NOUN
+mandater,to mandate,委托,VERB
+manifestement,manifestly,明显地,ADV
+manifester,to demonstrate,示威,VERB
+manipuler,to manipulate,操纵,VERB
+manuscrit,manuscript,手稿,NOUN
+manœuvre,maneuver,操作,NOUN
+maquillage,makeup,化妆,NOUN
+marchand,merchant,商人,NOUN
+marchandise,merchandise,商品,NOUN
+marginalement,marginally,边缘地,ADV
+marginalisation,marginalization,边缘化,NOUN
+marteau,hammer,锤子,NOUN
+maréchal,marshal,元帅,NOUN
+marée,tide,潮汐,NOUN
+masculin,masculine,男性的,ADJ
+massivement,massively,大量地,ADV
+matelas,mattress,床垫,NOUN
+mathématique,mathematical,数学的,ADJ
+matinée,morning,上午,NOUN
+mûrir,to mature,成熟,VERB
+maturité,maturity,成熟,NOUN
+matérialisme,materialism,唯物主义,NOUN
+maudit,cursed,被诅咒的,ADJ
+maîtresse,mistress,情妇,NOUN
+menacer,to threaten,威胁,VERB
+mendicité,begging,乞讨,NOUN
+mensonge,lie,谎言,NOUN
+mentalité,mentality,心态,NOUN
+mentir,to lie,撒谎,VERB
+menton,chin,下巴,NOUN
+mercure,mercury,汞,NOUN
+merveille,marvel,奇迹,NOUN
+merveilleux,marvelous,极好的,ADJ
+messe,mass,弥撒,NOUN
+meurtrier,murderer,凶手,NOUN
+miel,honey,蜂蜜,NOUN
+mimétisme,mimicry,拟态,NOUN
+miner,to undermine,破坏,VERB
+minimalisme,minimalism,极简主义,NOUN
+minorité,minority,少数,NOUN
+mitigé,mixed,喜忧参半的,ADJ
+mixte,mixed,混合的,ADJ
+mobilisation,mobilization,动员,NOUN
+mobilité,mobility,流动性,NOUN
+moche,ugly,丑陋的,ADJ
+modalité,modality,方式,NOUN
+modelage,modeling,造型,NOUN
+modernisation,modernization,现代化,NOUN
+modeste,modest,谦虚的,ADJ
+modération,moderation,适度,NOUN
+modéré,moderate,适度的,ADJ
+moine,monk,僧侣,NOUN
+molécule,molecule,分子,NOUN
+monastère,monastery,修道院,NOUN
+mondialisation,globalization,全球化,NOUN
+monopole,monopoly,垄断,NOUN
+monstre,monster,怪物,NOUN
+monétaire,monetary,货币的,ADJ
+moralisme,moralism,道德主义,NOUN
+mortalité,mortality,死亡率,NOUN
+mortel,mortal,致命的,ADJ
+mosquée,mosque,清真寺,NOUN
+motiver,to motivate,激励,VERB
+mouche,fly,苍蝇,NOUN
+moulin,mill,磨坊,NOUN
+mousse,foam,泡沫,NOUN
+mouvance,movement,思潮,NOUN
+multiplier,to multiply,乘以,VERB
+municipalité,municipality,市镇,NOUN
+musicien,musician,音乐家,NOUN
+mutuel,mutual,相互的,ADJ
+mystification,hoax,欺骗,NOUN
+mystérieux,mysterious,神秘的,ADJ
+mythe,myth,神话,NOUN
+mythique,mythical,神话般的,ADJ
+mâle,male,雄性的,ADJ
+mécanisme,mechanism,机制,NOUN
+mécène,patron,赞助人,NOUN
+médiation,mediation,调解,NOUN
+médiatique,media-related,媒体的,ADJ
+mélanger,to mix,混合,VERB
+mémorisation,memorization,记忆,NOUN
+mépris,contempt,蔑视,NOUN
+mériter,to deserve,值得,VERB
+méritocratie,meritocracy,精英管理,NOUN
+métallique,metallic,金属的,ADJ
+méticuleux,meticulous,一丝不苟的,ADJ
+métissage,mixing,混血,NOUN
+métonymie,metonymy,转喻,NOUN
+métrage,footage,镜头长度,NOUN
+mêler,to mix,混合,VERB
+narcissisme,narcissism,自恋,NOUN
+nataliste,pro-natalist,鼓励生育的,ADJ
+natation,swimming,游泳,NOUN
+nationaliser,to nationalize,国有化,VERB
+nationaliste,nationalist,民族主义者,NOUN
+navigateur,browser,浏览器,NOUN
+naïveté,naivety,天真,NOUN
+nerveux,nervous,紧张的,ADJ
+neutralité,neutrality,中立,NOUN
+neutre,neutral,中立的,ADJ
+neuvième,ninth,第九,ADJ
+neveu,nephew,侄子,NOUN
+nid,nest,巢,NOUN
+nier,to deny,否认,VERB
+nihilisme,nihilism,虚无主义,NOUN
+nièce,niece,侄女,NOUN
+noblesse,nobility,贵族,NOUN
+nocif,harmful,有害的,ADJ
+nocturne,nocturnal,夜间的,ADJ
+nomadisme,nomadism,游牧生活,NOUN
+nommément,namely,具体来说,ADV
+normalisation,standardization,标准化,NOUN
+nostalgie,nostalgia,怀旧,NOUN
+notaire,notary,公证人,NOUN
+notarié,notarized,经公证的,ADJ
+notice,instruction leaflet,说明书,NOUN
+notoriété,fame,名声,NOUN
+nouveauté,novelty,新奇事物,NOUN
+noyau,core,核心,NOUN
+noyer,to drown,淹没,VERB
+nuage,cloud,云,NOUN
+nuancer,to nuance,使具有细微差别,VERB
+nuancé,nuanced,有细微差别的,ADJ
+nuire,to harm,损害,VERB
+numérique,digital,数字的,ADJ
+nécessiter,to require,需要,VERB
+néerlandais,Dutch,荷兰语,ADJ
+négatif,negative,负面的,ADJ
+négligeable,negligible,微不足道的,ADJ
+négocier,to negotiate,谈判,VERB
+népotisme,nepotism,裙带关系,NOUN
+névrose,neurosis,神经症,NOUN
+obliger,to oblige,强迫,VERB
+obscurantisme,obscurantism,蒙昧主义,NOUN
+obscurité,darkness,黑暗,NOUN
+observateur,observer,观察者,NOUN
+observatoire,observatory,天文台,NOUN
+obstiné,obstinate,固执的,ADJ
+obtention,obtaining,获得,NOUN
+occidental,Western,西方的,ADJ
+occulter,to obscure,遮蔽,VERB
+oligopole,oligopoly,寡头垄断,NOUN
+onde,wave,波,NOUN
+ontologie,ontology,本体论,NOUN
+opiniâtre,stubborn,顽固的,ADJ
+opportunité,opportunity,机会,NOUN
+optimiste,optimistic,乐观的,ADJ
+opérateur,operator,操作员,NOUN
+opérer,to operate,动手术；操作,VERB
+orage,thunderstorm,雷暴,NOUN
+orbite,orbit,轨道,NOUN
+orchestre,orchestra,管弦乐队,NOUN
+ordonnancement,scheduling,调度；排序,NOUN
+ordonner,to order,命令；整理,VERB
+organisateur,organizer,组织者,NOUN
+oriental,Eastern,东方的,ADJ
+originalité,originality,独创性,NOUN
+ostensiblement,ostensibly,表面上；公然地,ADV
+otage,hostage,人质,NOUN
+outrepasser,to overstep,超越；逾越,VERB
+oxygène,oxygen,氧气,NOUN
+pacte,pact,协定,NOUN
+paille,straw,稻草,NOUN
+pallier,to remedy,弥补；缓解,VERB
+panier,basket,篮子,NOUN
+panique,panic,恐慌,NOUN
+panne,breakdown,故障,NOUN
+panneau,panel,面板；标牌,NOUN
+papillon,butterfly,蝴蝶,NOUN
+paradigme,paradigm,范式,NOUN
+paradoxe,paradox,悖论,NOUN
+paragraphe,paragraph,段落,NOUN
+parallèlement,in parallel,平行地；同时,ADV
+parcimonie,parsimony,吝啬,NOUN
+parcimonieux,parsimonious,吝啬的,ADJ
+parcourir,to browse,浏览；走遍,VERB
+pardonner,to forgive,原谅,VERB
+pari,bet,赌注,NOUN
+parrain,godfather,教父,NOUN
+partial,biased,偏袒的,ADJ
+particularité,particularity,特点,NOUN
+particule,particle,粒子,NOUN
+partiellement,partially,部分地,ADV
+passif,passive,被动的,ADJ
+pasteur,pastor,牧师,NOUN
+pathétique,pathetic,可怜的,ADJ
+patrimoine,heritage,遗产,NOUN
+patriote,patriot,爱国者,NOUN
+patrouille,patrol,巡逻,NOUN
+patte,paw,爪子,NOUN
+pavillon,detached house,独栋房屋,NOUN
+payant,paid,付费的,ADJ
+paysan,peasant,农民,NOUN
+pente,slope,斜坡,NOUN
+perceptif,perceptual,感知的,ADJ
+percer,to pierce,刺穿,VERB
+percevoir,to perceive,察觉,VERB
+perdant,loser,失败者,NOUN
+perle,pearl,珍珠,NOUN
+pernicieux,pernicious,有害的,ADJ
+perspicace,perceptive,敏锐的,ADJ
+perspicacité,perspicacity,洞察力,NOUN
+pertinemment,pertinently,恰当地,ADV
+pertinence,relevance,相关性,NOUN
+pervers,perverse,堕落的,ADJ
+peser,to weigh,称重,VERB
+peste,plague,瘟疫,NOUN
+phare,lighthouse,灯塔,NOUN
+philanthropie,philanthropy,慈善,NOUN
+philosophe,philosopher,哲学家,NOUN
+philosophique,philosophical,哲学的,ADJ
+phobie,phobia,恐惧症,NOUN
+photosynthèse,photosynthesis,光合作用,NOUN
+physiquement,physically,身体上地,ADV
+phénomène,phenomenon,现象,NOUN
+pic,peak,顶峰,NOUN
+pictural,pictorial,绘画的,ADJ
+pilule,pill,药丸,NOUN
+piquer,to sting,刺,VERB
+piraterie,piracy,海盗行为,NOUN
+pistolet,pistol,手枪,NOUN
+piège,trap,陷阱,NOUN
+placard,cupboard,橱柜,NOUN
+plaidoirie,closing argument,辩护词,NOUN
+plaie,wound,伤口,NOUN
+plaine,plain,平原,NOUN
+planche,board,木板,NOUN
+planification,planning,规划,NOUN
+planter,to plant,种植,VERB
+platine,platinum,铂金,NOUN
+pleinement,fully,完全地,ADV
+plier,to fold,折叠,VERB
+plomb,lead,铅,NOUN
+plongée,diving,潜水,NOUN
+ploutocratie,plutocracy,财阀政治,NOUN
+plume,feather,羽毛,NOUN
+plébiscite,plebiscite,全民公决,NOUN
+pléthorique,overabundant,过多的,ADJ
+pneu,tire,轮胎,NOUN
+poignée,handle,把手,NOUN
+poil,hair,毛发,NOUN
+poli,polite,有礼貌的,ADJ
+politicien,politician,政治家,NOUN
+politiquement,politically,在政治上,ADV
+polonais,Polish,波兰的,ADJ
+polyphonie,polyphony,复调,NOUN
+polyvalence,versatility,多功能性,NOUN
+pompe,pump,泵,NOUN
+popularité,popularity,受欢迎,NOUN
+porc,pork,猪肉,NOUN
+porteur,carrier,携带者,NOUN
+posologie,dosage,剂量,NOUN
+poster,to post,张贴,VERB
+potentiellement,potentially,潜在地,ADV
+pouce,thumb,拇指,NOUN
+pourcentage,percentage,百分比,NOUN
+pourri,rotten,腐烂的,ADJ
+pourvoi,appeal,上诉,NOUN
+poussière,dust,灰尘,NOUN
+poussée,surge,激增,NOUN
+poème,poem,诗,NOUN
+pragmatisme,pragmatism,实用主义,NOUN
+pratiquer,to practice,练习,VERB
+pressentir,to sense,预感,VERB
+prestation,service,服务,NOUN
+prestigieux,prestigious,有声望的,ADJ
+privatiser,to privatize,私有化,VERB
+priver,to deprive,剥夺,VERB
+privilège,privilege,特权,NOUN
+privilégié,privileged,享有特权的,ADJ
+probabiliste,probabilistic,概率的,ADJ
+probant,conclusive,确凿的,ADJ
+probatoire,probationary,试用的,ADJ
+probité,probity,正直,NOUN
+problématique,problematic,有问题的,ADJ
+prodigalité,extravagance,挥霍,NOUN
+productiviste,productivist,生产至上主义的,ADJ
+productivité,productivity,生产力,NOUN
+programmation,programming,编程,NOUN
+progressif,progressive,渐进的,ADJ
+progressivement,progressively,逐渐地,ADV
+prolixe,verbose,冗长的,ADJ
+prolonger,to prolong,延长,VERB
+prononcer,to pronounce,发音,VERB
+pronostic,prognosis,预测,NOUN
+propagande,propaganda,宣传,NOUN
+prophylaxie,prophylaxis,预防,NOUN
+prophète,prophet,先知,NOUN
+proprement,properly,正确地,ADV
+prospérité,prosperity,繁荣,NOUN
+prosélytisme,proselytism,传教,NOUN
+protecteur,protective,保护的,ADJ
+protectionnisme,protectionism,保护主义,NOUN
+protocole,protocol,协议,NOUN
+protéine,protein,蛋白质,NOUN
+provenance,origin,来源,NOUN
+provisoire,temporary,临时的,ADJ
+provoquer,to provoke,引起,VERB
+préalable,prior,先前的,ADJ
+précarisation,precarization,不稳定化,NOUN
+précaution,precaution,预防措施,NOUN
+précoce,precocious,早熟的,ADJ
+prédominant,predominant,占主导地位的,ADJ
+préface,preface,序言,NOUN
+préférable,preferable,更可取的,ADJ
+préférence,preference,偏好,NOUN
+préjudice,harm,损害,NOUN
+préjudiciable,detrimental,有害的,ADJ
+préjuger,to prejudge,预断,VERB
+préjugé,prejudice,偏见,NOUN
+prélèvement,levy/sample,提取/采样,NOUN
+préméditation,premeditation,预谋,NOUN
+préoccupation,concern,担忧,NOUN
+prépondérant,preponderant,占优势的,ADJ
+présager,to portend,预示,VERB
+prétendre,to claim,声称,VERB
+prétendument,allegedly,据称,ADV
+prévarication,malfeasance,渎职,NOUN
+prévention,prevention,预防,NOUN
+prévision,forecast,预测,NOUN
+prééminence,preeminence,卓越,NOUN
+psychologie,psychology,心理学,NOUN
+psychologique,psychological,心理的,ADJ
+psychologue,psychologist,心理学家,NOUN
+publicitaire,advertising,广告的,ADJ
+publiquement,publicly,公开地,ADV
+puce,flea/chip,跳蚤/芯片,NOUN
+puer,to stink,发臭,VERB
+puissance,power,力量,NOUN
+punition,punishment,惩罚,NOUN
+purement,purely,纯粹地,ADV
+purée,mash,泥状食物,NOUN
+pédagogie,pedagogy,教育学,NOUN
+pénible,tedious/painful,乏味的/辛苦的,ADJ
+péninsule,peninsula,半岛,NOUN
+pénurie,shortage,短缺,NOUN
+pénétrer,to penetrate,穿透/进入,VERB
+péremptoire,peremptory,武断的,ADJ
+pérenne,perennial,持久的,ADJ
+péricliter,to decline,衰退,VERB
+péril,peril,危险,NOUN
+périurbain,peri-urban,城市周边的,ADJ
+pérenniser,to make lasting,使持久,VERB
+péréquation,equalization,均衡,NOUN
+pétition,petition,请愿书,NOUN
+pêcheur,fisherman,渔夫,NOUN
+qualifier,to qualify,使具有资格,VERB
+quantique,quantum,量子的,ADJ
+quiconque,whoever,任何人,PRON
+quinzaine,about fifteen,大约十五个,NOUN
+quoique,although,虽然,SCONJ
+quotidiennement,daily,每天,ADV
+raciste,racist,种族主义者,NOUN
+racket,racketeering,敲诈勒索,NOUN
+ralentir,to slow down,减速,VERB
+randonnée,hike,徒步旅行,NOUN
+ranger,to tidy up,整理,VERB
+rapidité,speed,速度,NOUN
+rappeur,rapper,说唱歌手,NOUN
+rapprocher,to bring closer,拉近,VERB
+rareté,scarcity,稀缺,NOUN
+rassurer,to reassure,使安心,VERB
+rationalisation,rationalization,合理化,NOUN
+rationalisme,rationalism,理性主义,NOUN
+rattraper,to catch up with,赶上,VERB
+raviver,to revive,复兴,VERB
+rayonnement,influence,影响力,NOUN
+rebelle,rebel,反叛者,NOUN
+recensement,census,人口普查,NOUN
+rechercher,to search for,寻找,VERB
+recommandation,recommendation,建议,NOUN
+recommencer,to start again,重新开始,VERB
+recouper,to cross-check,核对,VERB
+recueillir,to collect,收集,VERB
+redonner,to give back,归还,VERB
+reflet,reflection,反映,NOUN
+refléter,to reflect,反映,VERB
+refoulement,repression,压抑,NOUN
+rejet,rejection,拒绝,NOUN
+rejeter,to reject,拒绝,VERB
+relance,stimulus,刺激,NOUN
+relancer,to relaunch,重启,VERB
+relationnel,relational,关系的,ADJ
+relativisme,relativism,相对主义,NOUN
+relier,to link,连接,VERB
+relocalisation,reshoring,产业回流,NOUN
+remboursement,refund,退款,NOUN
+rembourser,to reimburse,偿还,VERB
+remplaçant,substitute,替代者,NOUN
+renaissance,rebirth,复兴,NOUN
+renard,fox,狐狸,NOUN
+renommée,renown,名声,NOUN
+renouveau,revival,复兴,NOUN
+renouvelable,renewable,可再生的,ADJ
+renouvellement,renewal,更新,NOUN
+renseigner,to inform,告知,VERB
+rentabilité,profitability,盈利能力,NOUN
+rentable,profitable,有利可图的,ADJ
+renvoyer,to dismiss,解雇,VERB
+repartir,to set off again,再次出发,VERB
+repousser,to push back,推迟,VERB
+reproche,reproach,责备,NOUN
+reprocher,to reproach,责备,VERB
+reproductibilité,reproducibility,可重复性,NOUN
+repérer,to spot,发现,VERB
+requalification,reskilling,再培训,NOUN
+requête,request,请求,NOUN
+resocialisation,resocialization,再社会化,NOUN
+respectueux,respectful,恭敬的,ADJ
+respiration,breathing,呼吸,NOUN
+respirer,to breathe,呼吸,VERB
+ressortir,to stand out,突出,VERB
+retraité,retiree,退休人员,NOUN
+revendiquer,to claim,要求,VERB
+rhétorique,rhetoric,修辞,NOUN
+rigueur,rigor,严谨,NOUN
+rive,riverbank,河岸,NOUN
+roche,rock,岩石,NOUN
+romantique,romantic,浪漫的,ADJ
+routier,road,公路的,ADJ
+roux,red-haired,红发的,ADJ
+rubrique,section,栏目,NOUN
+rude,harsh,粗鲁的,ADJ
+ruine,ruin,废墟,NOUN
+râleur,grumbler,爱抱怨的人,NOUN
+râpe,grater,擦丝器,NOUN
+règle,rule,规则,NOUN
+règlement,regulation,规章,NOUN
+règne,reign,统治,NOUN
+réaction,reaction,反应,NOUN
+réalisateur,film director,导演,NOUN
+réalisation,achievement,成就,NOUN
+réaliser,to achieve,实现,VERB
+réalisme,realism,现实主义,NOUN
+réaliste,realistic,现实的,ADJ
+réalité,reality,现实,NOUN
+rébellion,rebellion,反叛,NOUN
+récent,recent,最近的,ADJ
+réception,reception,接待,NOUN
+réchauffement,warming,变暖,NOUN
+réchauffer,to warm up,加热,VERB
+réciproquement,reciprocally,相互地,ADV
+récit,story,故事,NOUN
+réclamer,to demand,要求,VERB
+récolte,harvest,收获,NOUN
+récolter,to harvest,收割,VERB
+récupérer,to recover,恢复,VERB
+récuser,to challenge,质疑,VERB
+rédacteur,editor,编辑,NOUN
+rédaction,writing,写作,NOUN
+réduction,reduction,减少,NOUN
+réduire,to reduce,减少,VERB
+réel,real,真实的,ADJ
+réflexion,reflection,思考,NOUN
+réfléchir,to reflect,思考,VERB
+réfugié,refugee,难民,NOUN
+réfuter,to refute,反驳,VERB
+référence,reference,参考,NOUN
+référendaire,referendum-related,公民投票的,ADJ
+référendum,referendum,公民投票,NOUN
+régime,regime,政权,NOUN
+régiment,regiment,团,NOUN
+région,region,地区,NOUN
+régional,regional,区域的,ADJ
+réglementation,regulation,规章,NOUN
+régler,to settle,解决,VERB
+régner,to reign,统治,VERB
+régulier,regular,规律的,ADJ
+réjouir,to rejoice,使高兴,VERB
+réjouissant,heartening,令人高兴的,ADJ
+rémunération,remuneration,报酬,NOUN
+rénovation,renovation,翻新,NOUN
+répandre,to spread,传播,VERB
+réparation,repair,修理,NOUN
+réparer,to repair,修理,VERB
+répartir,to distribute,分配,VERB
+répartition,distribution,分配,NOUN
+répertoire,repertoire,剧目,NOUN
+répondre,to answer,回答,VERB
+réponse,answer,回答,NOUN
+répression,repression,镇压,NOUN
+républicain,republican,共和的,ADJ
+république,republic,共和国,NOUN
+réputation,reputation,名声,NOUN
+réputé,renowned,著名的,ADJ
+répéter,to repeat,重复,VERB
+répétition,repetition,重复,NOUN
+réquisitoire,indictment,起诉书,NOUN
+réseau,network,网络,NOUN
+réservation,reservation,预订,NOUN
+réserver,to reserve,预订,VERB
+réservé,reserved,保留的,ADJ
+résidence,residence,住所,NOUN
+résident,resident,居民,NOUN
+résider,to reside,居住,VERB
+résiduel,residual,残留的,ADJ
+résiliation,termination,解除,NOUN
+résistant,resistant,有抵抗力的,ADJ
+résister,to resist,抵抗,VERB
+résolu,resolute,坚决的,ADJ
+résolution,resolution,决心,NOUN
+résoudre,to solve,解决,VERB
+résultat,result,结果,NOUN
+résulter,to result,产生,VERB
+résumer,to summarize,总结,VERB
+résumé,summary,摘要,NOUN
+rétablir,to restore,恢复,VERB
+rétablissement,recovery,康复,NOUN
+réunion,meeting,会议,NOUN
+réunir,to gather,聚集,VERB
+réussir,to succeed,成功,VERB
+réussite,success,成功,NOUN
+réveil,awakening,觉醒,NOUN
+réveiller,to wake up,唤醒,VERB
+révision,revision,复习,NOUN
+révolte,revolt,叛乱,NOUN
+révolu,bygone,过去的,ADJ
+révolution,revolution,革命,NOUN
+révolutionnaire,revolutionary,革命的,ADJ
+révélation,revelation,启示,NOUN
+révéler,to reveal,揭示,VERB
+réévaluation,revaluation,重新评估,NOUN
+rêve,dream,梦,NOUN
+rôle,role,角色,NOUN
+rôtir,to roast,烤,VERB
+sable,sand,沙子,NOUN
+sabot,clog,木鞋,NOUN
+sac,bag,包,NOUN
+sacrifier,to sacrifice,牺牲,VERB
+sacré,sacred,神圣的,ADJ
+sagace,sagacious,敏锐的,ADJ
+sagacité,sagacity,敏锐,NOUN
+sagesse,wisdom,智慧,NOUN
+sain,healthy,健康的,ADJ
+saisir,to seize,抓住,VERB
+saison,season,季节,NOUN
+salade,salad,沙拉,NOUN
+salaire,salary,工资,NOUN
+salarié,employee,雇员,NOUN
+salle,room,房间,NOUN
+salon,living room,客厅,NOUN
+saluer,to greet,问候,VERB
+salut,greeting,问候,NOUN
+salutaire,beneficial,有益的,ADJ
+salutation,greeting,问候,NOUN
+samedi,Saturday,星期六,NOUN
+sanctuaire,sanctuary,圣所,NOUN
+sang,blood,血,NOUN
+sangle,strap,带子,NOUN
+sanitaire,sanitary,卫生的,ADJ
+sans,without,没有,ADP
+santé,health,健康,NOUN
+saper,to undermine,破坏,VERB
+sapin,fir tree,冷杉,NOUN
+satisfaire,to satisfy,满足,VERB
+saucisson,dry sausage,干香肠,NOUN
+sauf,except,除了,ADP
+saumon,salmon,三文鱼,NOUN
+saupoudrer,to sprinkle,撒,VERB
+saut,jump,跳跃,NOUN
+sauter,to jump,跳跃,VERB
+sauvage,wild,野生的,ADJ
+sauvegarde,backup,备份,NOUN
+sauver,to save,拯救,VERB
+saveur,flavor,味道,NOUN
+savoir,to know,知道,VERB
+savoir-faire,know-how,诀窍,NOUN
+savon,soap,肥皂,NOUN
+savonnette,bar of soap,香皂,NOUN
+scandale,scandal,丑闻,NOUN
+schème,schema,图式,NOUN
+schéma,diagram,图表,NOUN
+scientifique,scientific,科学的,ADJ
+scolaire,school,学校的,ADJ
+scrupuleusement,scrupulously,一丝不苟地,ADV
+scrupuleux,scrupulous,一丝不苟的,ADJ
+scrutin,ballot,投票,NOUN
+scène,scene,场景,NOUN
+scénario,screenplay,剧本,NOUN
+scénographie,stage design,舞台设计,NOUN
+se,oneself,自己,PRON
+seau,bucket,桶,NOUN
+sec,dry,干的,ADJ
+secondaire,secondary,次要的,ADJ
+seconde,second,秒,NOUN
+secours,help,援助,NOUN
+secrétaire,secretary,秘书,NOUN
+secrétariat,secretariat,秘书处,NOUN
+secte,sect,教派,NOUN
+secteur,sector,部门,NOUN
+seigneur,lord,领主,NOUN
+sein,breast,乳房,NOUN
+sel,salt,盐,NOUN
+selle,saddle,马鞍,NOUN
+selon,according to,根据,ADP
+semaine,week,周,NOUN
+semblable,similar,相似的,ADJ
+semblant,pretense,假装,NOUN
+sembler,to seem,似乎,VERB
+semonce,reprimand,训斥,NOUN
+semoule,semolina,粗面粉,NOUN
+sens,sense,意义/感觉,NOUN
+sensibilité,sensitivity,敏感性,NOUN
+sensible,sensitive,敏感的,ADJ
+sensiblement,perceptibly,明显地,ADV
+sensoriel,sensory,感官的,ADJ
+sensé,sensible,明智的,ADJ
+sentier,path,小径,NOUN
+sentiment,feeling,情感,NOUN
+sentir,to feel,感觉/闻,VERB
+sept,seven,七,NUM
+septième,seventh,第七,ADJ
+serment,oath,誓言,NOUN
+serpent,snake,蛇,NOUN
+serpillière,mop,拖把,NOUN
+serrer,to tighten,紧握/收紧,VERB
+serrure,lock,锁,NOUN
+serveur,waiter,服务员,NOUN
+serviable,helpful,乐于助人的,ADJ
+serviette,towel,毛巾/餐巾,NOUN
+servir,to serve,服务,VERB
+seuil,threshold,门槛,NOUN
+seul,alone,单独的,ADJ
+seulement,only,仅仅,ADV
+sevrage,weaning,断奶,NOUN
+sexe,sex,性别,NOUN
+sexuel,sexual,性的,ADJ
+shampooing,shampoo,洗发水,NOUN
+si,if,如果,SCONJ
+sien,his,他的,PRON
+sieste,nap,午睡,NOUN
+sigle,acronym,首字母缩略词,NOUN
+signaler,to report,报告,VERB
+signe,sign,标志,NOUN
+signer,to sign,签署,VERB
+signet,bookmark,书签,NOUN
+significatif,significant,显著的,ADJ
+signification,meaning,意义,NOUN
+silencieux,silent,安静的,ADJ
+similaire,similar,相似的,ADJ
+simplement,simply,简单地,ADV
+simplicité,simplicity,简单,NOUN
+simultanément,simultaneously,同时地,ADV
+sincère,sincere,真诚的,ADJ
+sincèrement,sincerely,真诚地,ADV
+sincérité,sincerity,真诚,NOUN
+singe,monkey,猴子,NOUN
+sinon,otherwise,否则,ADV
+sirop,syrup,糖浆,NOUN
+siroter,to sip,小口喝,VERB
+sismique,seismic,地震的,ADJ
+situer,to locate,定位,VERB
+situé,located,位于,ADJ
+siècle,century,世纪,NOUN
+siège,seat,座位,NOUN
+smicard,minimum-wage earner,最低工资者,NOUN
+sobre,sober,清醒的,ADJ
+socialiste,socialist,社会主义者,NOUN
+société,society,社会,NOUN
+soi,oneself,自己,PRON
+soi-disant,so-called,所谓的,ADJ
+soie,silk,丝绸,NOUN
+soif,thirst,口渴,NOUN
+soigneusement,carefully,仔细地,ADV
+soigneux,careful,细心的,ADJ
+soin,care,照顾,NOUN
+soir,evening,晚上,NOUN
+soirée,evening,晚会,NOUN
+soixante,sixty,六十,NUM
+sol,ground,地面,NOUN
+soldat,soldier,士兵,NOUN
+solde,balance,余额,NOUN
+soldes,sales,打折,NOUN
+soleil,sun,太阳,NOUN
+solidaire,supportive,团结的,ADJ
+solidarité,solidarity,团结,NOUN
+solide,solid,坚固的,ADJ
+solitaire,solitary,孤独的,ADJ
+solvabilité,solvency,偿付能力,NOUN
+sombre,dark,黑暗的,ADJ
+sommaire,summary,摘要,NOUN
+somme,sum,总和,NOUN
+sommeil,sleep,睡眠,NOUN
+sommet,summit,顶峰,NOUN
+somnifère,sleeping pill,安眠药,NOUN
+son,his,他的,DET
+sondage,poll,民意调查,NOUN
+sonde,probe,探测器,NOUN
+songe,dream,梦,NOUN
+sonner,to ring,响,VERB
+sophisme,sophism,诡辩,NOUN
+sorcier,sorcerer,巫师,NOUN
+sort,fate,命运,NOUN
+sorte,kind,种类,NOUN
+sortie,exit,出口,NOUN
+sortir,to go out,出去,VERB
+sou,centime,分,NOUN
+souci,worry,担忧,NOUN
+soudainement,suddenly,突然地,ADV
+souffle,breath,呼吸,NOUN
+souffrance,suffering,痛苦,NOUN
+souffrir,to suffer,受苦,VERB
+souhaiter,to wish,希望,VERB
+soulagement,relief,缓解,NOUN
+soulagé,relieved,宽慰的,ADJ
+soulever,to lift,举起,VERB
+soulier,shoe,鞋,NOUN
+souligner,to emphasize,强调,VERB
+soumettre,to submit,提交,VERB
+soumission,submission,顺从,NOUN
+soupe,soup,汤,NOUN
+soupçon,suspicion,怀疑,NOUN
+souris,mouse,老鼠,NOUN
+sournois,sly,狡猾的,ADJ
+sous,under,在...下面,ADP
+sous-entendre,to imply,暗示,VERB
+sous-jacent,underlying,潜在的,ADJ
+sous-titre,subtitle,字幕,NOUN
+sous-traitance,subcontracting,分包,NOUN
+soutenir,to support,支持,VERB
+soutien,support,支持,NOUN
+souvenir,memory,回忆,NOUN
+souvent,often,经常,ADV
+souverain,sovereign,主权的,ADJ
+sparadrap,adhesive bandage,医用胶布,NOUN
+spectacle,show,演出,NOUN
+spectaculaire,spectacular,壮观的,ADJ
+spectateur,spectator,观众,NOUN
+spectre,spectrum,光谱,NOUN
+spirituel,witty,风趣的,ADJ
+sporadiquement,sporadically,零星地,ADV
+sportif,athletic,运动的,ADJ
+spécialement,especially,特别地,ADV
+spécialiste,specialist,专家,NOUN
+spécialisé,specialized,专业的,ADJ
+spécieux,specious,似是而非的,ADJ
+spécifique,specific,具体的,ADJ
+spécifiquement,specifically,具体地,ADV
+stade,stadium,体育场,NOUN
+stage,internship,实习,NOUN
+stagner,to stagnate,停滞,VERB
+stalle,stall,包厢座位,NOUN
+standardisation,standardization,标准化,NOUN
+station-service,gas station,加油站,NOUN
+stationnement,parking,停车,NOUN
+stigmatisation,stigmatization,污名化,NOUN
+stigmatiser,to stigmatize,污名化,VERB
+stochastique,stochastic,随机的,ADJ
+stockage,storage,储存,NOUN
+stopper,to stop,停止,VERB
+store,blind,百叶窗,NOUN
+stoïcisme,stoicism,斯多葛主义,NOUN
+stratégique,strategic,战略的,ADJ
+strictement,strictly,严格地,ADV
+strophe,stanza,诗节,NOUN
+subconscient,subconscious,潜意识,NOUN
+subir,to undergo,遭受,VERB
+subrepticement,surreptitiously,偷偷地,ADV
+subsidiarité,subsidiarity,辅助性原则,NOUN
+substantiellement,substantially,实质上,ADV
+subvention,subsidy,补贴,NOUN
+subventionner,to subsidize,资助,VERB
+successeur,successor,继任者,NOUN
+successivement,successively,连续地,ADV

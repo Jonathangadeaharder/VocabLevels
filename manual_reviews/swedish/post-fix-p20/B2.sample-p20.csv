@@ -1,0 +1,25 @@
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+39,besökare,visitor,访客,NOUN,sv,B2,1,keep,clean
+76,choklad,chocolate,巧克力,NOUN,sv,B2,2,keep,clean
+150,fotboll,football,足球,NOUN,sv,B2,3,keep,clean
+164,fuska,cheat,作弊,VERB,sv,B2,4,keep,clean
+173,följande,following,以下的/接下来的,ADJ,sv,B2,5,keep,clean
+193,förlorare,loser,失败者,NOUN,sv,B2,6,keep,clean
+235,grav,grave,坟墓,NOUN,sv,B2,7,keep,clean
+260,heder,honor,荣誉,NOUN,sv,B2,8,keep,clean
+279,hämnas,take revenge,报复,VERB,sv,B2,9,keep,clean
+292,ignorera,ignore,忽视,VERB,sv,B2,10,keep,clean
+358,konstnär,artist,艺术家,NOUN,sv,B2,11,keep,clean
+449,medvetslös,unconscious,无意识的,ADJ,sv,B2,12,keep,clean
+463,mitt,middle,中间,NOUN,sv,B2,13,keep,clean
+497,norra,northern,北方的,ADJ,sv,B2,14,keep,clean
+520,ondska,evil,邪恶,NOUN,sv,B2,15,keep,clean
+540,panik,panic,恐慌,NOUN,sv,B2,16,keep,clean
+690,snygga,good-looking,好看的,ADJ,sv,B2,17,keep,clean
+698,sparkad,fired,被解雇的,ADJ,sv,B2,18,keep,clean
+751,sänka,lower,降低,VERB,sv,B2,19,keep,clean
+753,sång,song,歌,NOUN,sv,B2,20,keep,clean
+802,träning,training,训练,NOUN,sv,B2,21,keep,clean
+900,änka,widow,寡妇,NOUN,sv,B2,22,keep,clean
+907,återgå,return,返回,VERB,sv,B2,23,keep,clean
+944,andedräkt,breath,呼吸,NOUN,sv,B2,24,keep,clean

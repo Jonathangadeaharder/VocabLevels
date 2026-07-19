@@ -1,601 +1,560 @@
 Spanish_Lemma,English_Lemma,Chinese_Lemma,POS
-a,to/at,,ADP
-abajo,down,,X
-abrir,to open,,VERB
-abuela,grandmother,,X
-abuelo,grandfather,,X
-accidente,accident,,X
-acá,here (Americas),,X
-adelante,forward/come in,,ADJ
-además,besides/moreover,,X
-adiós,goodbye,,X
-afuera,outside,,NOUN
-agradable,pleasant,,ADJ
-agua,water,,X
-ahora,now,,X
-ahí,there,,X
-aire,air,,X
-algo,something,,X
-alguien,someone,,X
-allá,over there,,X
-allí,there,,X
-alma,soul,,X
-alto,tall/high,,X
-amable,kind,,ADJ
-ambos,both,,X
-amiga,female friend,,X
-amigo,friend,,X
-amo,master/owner,,X
-amor,love,,NOUN
-ante,before/in front of,,ADJ
-antes,before,,X
-aquí,here,,X
-armario,closet/wardrobe,,X
-arriba,up,,X
-asesino,murderer,,X
-asunto,matter/issue,,X
-así,like this/so,,X
-atención,attention,,NOUN
-atrás,back/behind,,X
-aunque,although,,X
-auto,car,,X
-avión,plane,,X
-ayer,yesterday,,VERB
-ayuda,help,,X
-ayudar,to help,,VERB
-año,year,,X
-aún,still/yet,,X
-bajo,short/low,,X
-bar,bar,,VERB
-barco,boat/ship,,X
-base,base/basis,,X
-bastante,quite/enough,,ADJ
-basura,trash/garbage,,NOUN
-baño,bathroom,,X
-beber,to drink,,VERB
-bebé,baby,,X
-bien,well,,X
-blanco,white,,X
-boca,mouth,,X
-boda,wedding,,X
-bonito,pretty/nice,,X
-broma,joke/prank,,X
-bueno,good,,X
-buscar,to look for,,VERB
-caballo,horse,,X
-cabeza,head,,X
-cada,each/every,,X
-café,coffee,,X
-caja,box/cash register,,X
-caliente,hot/warm,,X
-calle,street,,X
-cama,bed,,X
-cambiar,to change,,VERB
-cambio,change/exchange,,X
-camino,path/way,,X
-campo,field/countryside,,X
-canción,song,,NOUN
-capaz,capable/able,,X
-capitán,captain,,X
-cara,face,,X
-cargo,charge/position,,X
-carne,meat,,X
-carrera,race/career,,NOUN
-carta,letter/card,,X
-casa,house,,X
-casi,almost,,X
-caso,case,,X
-causa,cause/reason,,X
-cena,dinner,,X
-cenar,to have dinner,,VERB
-centro,center,,X
-cerca,close/near,,X
-cerebro,brain,,X
-chica,girl,,X
-chico,boy/guy,,ADJ
-cielo,sky/heaven,,X
-cinco,five,,X
-cita,date/appointment,,X
-ciudad,city,,NOUN
-claro,of course,,X
-clase,class/lesson,,X
-cliente,customer/client,,X
-coche,car,,X
-cocina,kitchen,,X
-color,color,,NOUN
-comer,to eat,,VERB
-comida,food,,X
-como,like/as/since,,ADP
-compañía,company,,X
-completamente,completely,,X
-comportamiento,behavior,,X
-comprar,to buy,,VERB
-con,with,,ADP
-conductor,driver,,NOUN
-confiar,to trust,,VERB
-conmigo,with me,,X
-conocer,to know (people/places),,VERB
-conocido,known/acquaintance,,VERB
-conseguir,to get/achieve,,VERB
-contacto,contact,,X
-contigo,with you,,X
-contra,against,,X
-control,control,,X
-corazón,heart,,X
-correcto,correct,,X
-cosa,thing,,X
-cualquier,any,,VERB
-cuando,when,,VERB
-cuarto,room/quarter,,X
-cuatro,four,,X
-cuenta,bill/account,,X
-cuidado,careful,,VERB
-culo,ass/butt,,X
-culpa,fault/blame,,X
-cumpleaños,birthday,,X
-cuál,which,,X
-cuándo,when,,X
-cuánto,how much,,X
-cárcel,prison/jail,,X
-cómo,how,,X
-cómodo,comfortable,,X
-dado,dice (singular)/given,,VERB
-dar,to give,,VERB
-daño,damage,,X
-de,of/from,,ADP
-decir,to say/tell,,VERB
-decisión,decision,,X
-dejar,to leave/let,,VERB
-delante,in front,,ADJ
-demasiado,too much,,VERB
-dentro,inside,,X
-derecho,right/law,,X
-desde,from/since,,ADP
-deseo,desire/wish,,X
-desierto,desert,,X
-después,after,,X
-destino,destiny/destination,,X
-detrás,behind,,X
-diez,ten,,X
-diferencia,difference,,NOUN
-diferente,different,,X
-difícil,difficult/hard,,X
-dinero,money,,X
-dios,god,,X
-dirección,direction/address,,NOUN
-divertido,funny/fun,,VERB
-divorcio,divorce,,X
-doctor,doctor,,NOUN
-dolor,pain,,NOUN
-donde,where,,X
-dormir,to sleep,,VERB
-dos,two,,X
-duda,doubt,,X
-dulce,sweet,,X
-durante,during,,ADJ
-duro,hard,,X
-día,day,,X
-dónde,where,,X
-edad,age,,NOUN
-edificio,building,,X
-ejército,army,,X
-el,the,,DET
-ella,she,,X
-ellas,they (female),,X
-ellos,they,,X
-embargo,embargo/seizure,,X
-empezar,to start/begin,,VERB
-en,in/on/at,,ADP
-encima,on top/above,,X
-encontrar,to find,,VERB
-encuentro,meeting/encounter,,X
-energía,energy,,X
-entender,to understand,,VERB
-entendido,understood,,VERB
-entonces,then/so,,X
-entrar,to enter,,VERB
-entre,between,,ADP
-equipo,team/equipment,,X
-equivocado,wrong/mistaken,,VERB
-era,was/era,,NOUN
-error,error/mistake,,NOUN
-esa,that,,X
-escritorio,desk,,X
-escuchar,to listen,,VERB
-escuela,school,,X
-ese,that,,X
-eso,that (neutral),,X
-espacio,space,,X
-espalda,back,,X
-especial,special,,ADJ
-especie,species/kind,,X
-espera,wait,,NOUN
-esperar,to wait/hope,,VERB
-esposa,wife,,X
-esposo,husband,,ADJ
-esta,this,,X
-estado,state/condition,,VERB
-estar,to be (location),,VERB
-este,this,,X
-esto,this (neutral),,X
-estúpido,stupid,,VERB
-exactamente,exactly,,X
-extraño,strange/foreign,,X
-falta,lack/absence,,X
-familia,family,,X
-favor,favor,,NOUN
-feliz,happy,,X
-fiesta,party/festival,,X
-fin,end,,X
-final,end/final,,ADJ
-fondo,bottom/background,,X
-forma,shape/way,,X
-foto,photo,,X
-frente,forehead/front,,X
-frío,cold,,X
-fuego,fire,,X
-fuera,outside,,NOUN
-fuerte,strong,,X
-fuerza,force/strength,,X
-futuro,future,,X
-fácil,easy,,X
-ganar,to win/earn,,VERB
-general,general,,ADJ
-genial,awesome,,ADJ
-gente,people,,X
-gobierno,government,,X
-gracias,thank you,,X
-gracioso,funny,,ADJ
-gran,great/large,,X
-grande,big/large,,X
-grupo,group,,X
-guerra,war,,X
-gusto,taste/pleasure,,X
-haber,to have (auxiliary),,VERB
-habitación,room,,NOUN
-hablar,to speak,,VERB
-hacer,to do/make,,VERB
-hacia,towards,,X
-hambre,hunger,,X
-hasta,until/up to,,ADP
-hay,there is/there are,,X
-haz,do! (imperative)/beam,,X
-hecho,fact/done,,X
-hermana,sister,,X
-hermano,brother,,X
-hermoso,beautiful,,ADJ
-hija,daughter,,X
-hijo,son,,X
-historia,story/history,,X
-hogar,home,,VERB
-hola,hello,,X
-hombre,man,,X
-honor,honor,,NOUN
-hora,hour,,X
-horrible,horrible,,ADJ
-hotel,hotel,,X
-hoy,today,,X
-humano,human,,X
-idea,idea,,X
-idiota,idiot/idiotic,,X
-igual,equal/same,,ADJ
-importante,important,,ADJ
-imposible,impossible,,ADJ
-incluso,even,,X
-increíble,incredible/amazing,,X
-información,information,,NOUN
-inteligente,intelligent,,X
-intento,attempt,,X
-interesante,interesting,,ADJ
-investigación,investigation,,NOUN
-ir,to go,,VERB
-izquierda,left,,X
-jamás,never,,X
-jefe,boss,,X
-joder,fuck/damn,,VERB
-joven,young,,X
-juego,game,,X
-jugar,to play,,VERB
-juicio,trial/judgment,,X
-junto,together,,X
-juro,I swear/oath,,X
-justo,just/fair/exactly,,X
-la,the/her/it,,DET
-lado,side,,VERB
-lamento,I'm sorry/regret,,X
-largo,long,,X
-las,them (feminine),,DET
-le,him/her,,X
-lejos,far,,X
-les,them,,X
-libertad,freedom,,X
-libre,free,,X
-libro,book,,X
-lindo,pretty,,X
-lista,list,,NOUN
-listo,ready/smart,,X
-llamar,to call,,VERB
-llave,key,,X
-llegar,to arrive,,VERB
-llevar,to carry/take,,VERB
-lo,it/him,,X
-loco,crazy,,X
-locura,madness,,NOUN
-los,them (masculine),,DET
-luego,later/then,,X
-luz,light,,X
-línea,line,,X
-madre,mother,,X
-mal,bad,,ADJ
-maldición,curse,,NOUN
-malo,bad,,X
-mamá,mom,,X
-manera,way/manner,,NOUN
-mano,hand,,X
-mantener,to maintain/keep,,VERB
-mar,sea,,VERB
-marido,husband,,VERB
-matrimonio,marriage/couple,,X
-mayor,older/larger,,NOUN
-mayoría,majority,,X
-mañana,tomorrow/morning,,X
-me,me,,X
-medio,middle/means/half,,X
-mejor,better,,NOUN
-menos,less,,ADP
-mensaje,message,,X
-mentir,to lie,,VERB
-mes,month,,X
-mesa,table,,X
-mi,my,,X
-miedo,fear,,X
-mientras,while,,X
-minuto,minute,,X
-mirar,to look/watch,,VERB
-misión,mission,,X
-mismo,same/self,,NOUN
-mitad,half,,X
-modo,way/mode,,X
-momento,moment,,X
-montón,pile/a lot,,X
-morir,to die,,VERB
-muchacho,boy,,X
-mucho,a lot/much,,X
-mujer,woman,,VERB
-mundo,world,,X
-muy,very,,ADP
-más,more,,ADP
-médico,doctor/medical,,ADJ
-nada,nothing,,X
-nadie,nobody,,X
-nave,ship/spaceship,,X
-navidad,Christmas,,NOUN
-necesario,necessary,,X
-necesitar,to need,,VERB
-negocio,business,,X
-negro,black,,X
-ni,nor/not even,,X
-nivel,level,,X
-niña,girl,,X
-niño,boy/child,,X
-no,no,,ADP
-noche,night,,X
-nombre,name,,X
-normal,normal,,ADJ
-nos,us,,X
-nosotros,we,,X
-novia,girlfriend/bride,,X
-novio,boyfriend/groom,,X
-nuestro,our,,X
-nuevo,new,,X
-nunca,never,,X
-número,number,,X
-o,or,,ADP
-ocho,eight,,X
-odio,hate,,X
-oficial,official/officer,,ADJ
-oficina,office,,X
-opinión,opinion,,X
-oportunidad,opportunity,,NOUN
-orden,order,,X
-oro,gold,,X
-os,you all,,X
-otro,another/other,,X
-oído,hearing/inner ear,,X
-oír,to hear,,X
-padre,father,,X
-pagar,to pay,,VERB
-palabra,word,,X
-papel,paper,,X
-papá,dad,,X
-par,pair,,VERB
-para,for/in order to,,ADP
-parar,to stop,,VERB
-parte,part,,X
-pasa,raisin/happens,,X
-pasado,past,,VERB
-pasar,to happen/pass,,VERB
-paso,step,,X
-paz,peace,,X
-país,country,,X
-pedir,to ask for/order,,VERB
-peligro,danger,,X
-pelo,hair,,X
-pena,pity/sorrow/penalty,,X
-pensar,to think,,VERB
-peor,worse,,NOUN
-pequeño,small,,X
-perder,to lose,,VERB
-perdón,excuse me/sorry,,X
-perfecto,perfect,,X
-permiso,permission,,X
-pero,but,,ADP
-perro,dog,,X
-persona,person,,X
-pie,foot,,X
-piso,apartment/floor,,X
-placer,pleasure,,VERB
-plan,plan,,X
-planeta,planet,,X
-plato,plate/dish,,X
-pobre,poor,,X
-poco,little/few,,X
-poder,to be able to/can,,VERB
-poner,to put/place,,VERB
-por,by/for/through,,ADP
-porque,because,,X
-posible,possible,,ADJ
-posición,position,,NOUN
-pregunta,question,,X
-presidente,president,,X
-primer,first,,VERB
-primero,first,,X
-principio,beginning,,X
-prisa,hurry,,X
-prisión,prison,,X
-probablemente,probably,,X
-problema,problem,,X
-profesor,teacher/professor,,NOUN
-programa,program,,X
-pronto,soon/early,,X
-propio,own,,X
-prueba,proof/test,,X
-pueblo,village/people,,X
-puerta,door,,X
-pues,well/then,,X
-puesto,stall/position,,X
-punto,point,,X
-público,public/audience,,ADJ
-que,that/which,,ADP
-querer,to want/love,,VERB
-querido,darling/dear,,VERB
-quizá,maybe/perhaps,,X
-quizás,perhaps/maybe,,X
-quién,who,,X
-qué,what,,X
-raro,weird/rare,,X
-rato,while/moment,,X
-razón,reason,,X
-real,real/royal,,ADJ
-realidad,reality,,NOUN
-realmente,really,,X
-recuerdo,memory/souvenir,,X
-regalo,gift,,X
-regresar,to return,,VERB
-relación,relationship,,NOUN
-reputación,reputation,,NOUN
-respeto,respect,,X
-respuesta,answer,,X
-resto,rest/remainder,,X
-reunión,meeting,,X
-rey,king,,X
-ropa,clothes,,X
-ruta,route/path,,X
-rápido,fast,,VERB
-saber,to know (facts)/how to,,VERB
-sacar,to take out/get,,VERB
-sala,room/living room,,X
-salida,exit/departure,,X
-salir,to leave/go out,,VERB
-salvar,to save,,VERB
-se,himself/herself/themselves,,X
-seguir,to follow/continue,,VERB
-segundo,second,,X
-seguridad,security/safety,,NOUN
-seguro,safe/sure,,X
-seis,six,,X
-semana,week,,X
-sentido,sense/meaning,,VERB
-sentir,to feel/regret,,VERB
-ser,to be,,VERB
-serio,serious,,X
-servicio,service/toilet,,X
-sexo,sex,,X
-señal,sign/signal,,ADJ
-señor,Mr./sir,,NOUN
-señora,Mrs./madam,,X
-si,if,,ADP
-siempre,always,,X
-siete,seven,,X
-simple,simple,,X
-sin,without,,ADP
-sistema,system,,X
-sitio,site/place,,X
-situación,situation,,NOUN
-sobre,on/about,,ADP
-sol,sun,,X
-solo,alone,,X
-sorpresa,surprise,,X
-su,his/her/their,,X
-suelo,floor/ground,,X
-suerte,luck,,X
-sueño,dream/sleep,,X
-suficiente,enough/sufficient,,X
-sí,yes,,X
-tal,such,,ADJ
-también,also/too,,X
-tampoco,neither/not either,,X
-tan,so,,ADP
-tanto,so much,,ADP
-tarde,late/afternoon,,X
-te,you,,X
-teléfono,phone,,X
-tema,topic/theme,,X
-temprano,early,,X
-tener,to have,,VERB
-terminar,to finish/end,,VERB
-terrible,terrible,,ADJ
-tiempo,time/weather,,X
-tienda,shop/store,,X
-tierra,earth/land,,X
-tipo,type/guy,,X
-todavía,still,,X
-todo,everything/all,,X
-tomar,to take/drink,,VERB
-tontería,nonsense/foolishness,,X
-tonto,silly/fool,,X
-totalmente,totally/completely,,X
-trabajar,to work,,VERB
-trabajo,work/job,,X
-traje,suit/costume,,X
-trasero,butt/rear,,X
-trato,deal/treatment,,X
-tren,train,,X
-tres,three,,X
-triste,sad,,X
-tu,your,,X
-tía,aunt,,X
-tío,uncle,,X
-tú,you,,X
-un,a/one,,DET
-una,a/one,,DET
-uno,one,,X
-usar,to use,,VERB
-usted,you (formal),,X
-ustedes,you all (formal),,X
-vale,okay,,X
-venir,to come,,VERB
-ventana,window,,X
-ver,to see,,VERB
-verdadero,true/real,,X
-vestido,dress,,VERB
-vez,time (occasion),,X
-viaje,trip/journey,,X
-vida,life,,X
-viejo,old,,X
-vino,wine,,X
-vista,view/sight,,NOUN
-vivir,to live,,VERB
-vivo,alive,,ADJ
-volver,to return,,VERB
-vosotros,you (plural),,X
-voz,voice,,X
-vuelta,return/turn,,X
-y,and,,ADP
-ya,already/now,,X
-yo,I,,X
-zona,zone/area,,X
-él,he,,X
-éxito,success,,X
-último,last,,X
-único,unique/only,,ADJ
+a,to,到,ADP
+abajo,down,下面,ADV
+abrir,to open,打开,VERB
+abuela,grandmother,祖母,NOUN
+abuelo,grandfather,祖父,NOUN
+accidente,accident,事故,NOUN
+acá,here,这里,ADV
+adelante,forward,前面,ADV
+además,besides,此外,ADV
+adiós,goodbye,再见,INTJ
+afuera,outside,外面,ADV
+agradable,pleasant,令人愉快的,ADJ
+agua,water,水,NOUN
+ahora,now,现在,ADV
+ahí,there,那里,ADV
+aire,air,空气,NOUN
+algo,something,某事,PRON
+alguien,someone,某人,PRON
+allá,over there,那边,ADV
+allí,there,那里,ADV
+alma,soul,灵魂,NOUN
+alto,tall,高的,ADJ
+amable,kind,友好的,ADJ
+ambos,both,两者,DET
+amiga,female friend,女性朋友,NOUN
+amigo,friend,朋友,NOUN
+amor,love,爱,NOUN
+ante,before,在...面前,ADP
+antes,before,以前,ADV
+aquí,here,这里,ADV
+armario,wardrobe,衣柜,NOUN
+arriba,up,上面,ADV
+asunto,matter,事情,NOUN
+así,so,这样,ADV
+atención,attention,注意,NOUN
+atrás,back,后面,ADV
+aunque,although,虽然,SCONJ
+auto,car,汽车,NOUN
+avión,plane,飞机,NOUN
+ayer,yesterday,昨天,ADV
+ayuda,help,帮助,NOUN
+ayudar,to help,帮助,VERB
+año,year,年,NOUN
+aún,still,仍然,ADV
+bajo,low,低,ADJ
+barco,boat,船,NOUN
+bastante,quite,相当,ADV
+basura,trash,垃圾,NOUN
+baño,bathroom,浴室,NOUN
+beber,to drink,喝,VERB
+bebé,baby,婴儿,NOUN
+bien,well,好,ADV
+blanco,white,白色,ADJ
+boca,mouth,嘴,NOUN
+boda,wedding,婚礼,NOUN
+bonito,pretty,漂亮,ADJ
+broma,joke,玩笑,NOUN
+bueno,good,好,ADJ
+buscar,to look for,寻找,VERB
+caballo,horse,马,NOUN
+cabeza,head,头,NOUN
+cada,each,每个,DET
+café,coffee,咖啡,NOUN
+caja,box,盒子,NOUN
+caliente,hot,热,ADJ
+calle,street,街道,NOUN
+cama,bed,床,NOUN
+cambiar,to change,改变,VERB
+cambio,change,变化,NOUN
+camino,path,路,NOUN
+campo,field,田野,NOUN
+canción,song,歌曲,NOUN
+capaz,capable,有能力的,ADJ
+capitán,captain,队长,NOUN
+cara,face,脸,NOUN
+cargo,position,职位,NOUN
+carne,meat,肉,NOUN
+carrera,career,职业,NOUN
+carta,letter,信,NOUN
+casa,house,房子,NOUN
+casi,almost,几乎,ADV
+caso,case,情况,NOUN
+causa,cause,原因,NOUN
+cena,dinner,晚餐,NOUN
+cenar,to have dinner,吃晚饭,VERB
+centro,center,中心,NOUN
+cerca,near,附近,ADV
+cerebro,brain,大脑,NOUN
+chica,girl,女孩,NOUN
+chico,boy,男孩,NOUN
+cielo,sky,天空,NOUN
+cinco,five,五,NUM
+cita,appointment,约会,NOUN
+ciudad,city,城市,NOUN
+claro,clear,清楚的,ADJ
+clase,class,课,NOUN
+cliente,customer,顾客,NOUN
+coche,car,汽车,NOUN
+cocina,kitchen,厨房,NOUN
+comer,to eat,吃,VERB
+comida,food,食物,NOUN
+como,as,像,ADP
+compañía,company,公司,NOUN
+completamente,completely,完全地,ADV
+comportamiento,behavior,行为,NOUN
+comprar,to buy,买,VERB
+con,with,和/与,ADP
+conductor,driver,司机,NOUN
+confiar,to trust,信任,VERB
+conmigo,with me,和我,PRON
+conocer,to know,认识/了解,VERB
+conocido,acquaintance,熟人,NOUN
+conseguir,to get,得到/获得,VERB
+contacto,contact,联系/接触,NOUN
+contigo,with you,和你,PRON
+contra,against,反对/靠着,ADP
+corazón,heart,心脏/心,NOUN
+correcto,correct,正确的,ADJ
+cosa,thing,东西/事情,NOUN
+cualquier,any,任何,DET
+cuando,when,当...时,SCONJ
+cuarto,room,房间,NOUN
+cuatro,four,四,NUM
+cuenta,bill,账单/账户,NOUN
+cuidado,care,小心/照顾,NOUN
+culpa,fault,过错/责任,NOUN
+cumpleaños,birthday,生日,NOUN
+cuál,which,哪个,PRON
+cuándo,when,何时,ADV
+cuánto,how much,多少,PRON
+cárcel,prison,监狱,NOUN
+cómo,how,如何,ADV
+cómodo,comfortable,舒适的,ADJ
+dado,given,给定的,ADJ
+dar,to give,给,VERB
+daño,damage,损害/伤害,NOUN
+de,of,的/从,ADP
+decir,to say,说,VERB
+decisión,decision,决定,NOUN
+dejar,to leave,离开,VERB
+delante,in front,在前面,ADV
+demasiado,too much,太,ADV
+dentro,inside,在里面,ADV
+derecho,right,右边,NOUN
+desde,from,从,ADP
+deseo,wish,愿望,NOUN
+desierto,desert,沙漠,NOUN
+después,after,之后,ADV
+destino,destination,目的地,NOUN
+detrás,behind,在后面,ADV
+diez,ten,十,NUM
+diferencia,difference,区别,NOUN
+diferente,different,不同的,ADJ
+difícil,difficult,困难的,ADJ
+dinero,money,钱,NOUN
+dios,god,上帝,NOUN
+dirección,address,地址,NOUN
+divertido,fun,有趣的,ADJ
+divorcio,divorce,离婚,NOUN
+dolor,pain,疼痛,NOUN
+donde,where,哪里,ADV
+dormir,to sleep,睡觉,VERB
+dos,two,二,NUM
+duda,doubt,怀疑,NOUN
+dulce,sweet,甜的,ADJ
+durante,during,在...期间,ADP
+duro,hard,硬的,ADJ
+día,day,天,NOUN
+dónde,where,哪里,ADV
+edad,age,年龄,NOUN
+edificio,building,建筑物,NOUN
+ejército,army,军队,NOUN
+el,the,这/那,DET
+ella,she,她,PRON
+ellas,they,她们,PRON
+ellos,they,他们,PRON
+empezar,to start,开始,VERB
+en,in,在...里,ADP
+encima,on top,在上面,ADV
+encontrar,to find,找到,VERB
+entender,to understand,理解,VERB
+entendido,understood,明白的,ADJ
+entonces,then,那么,ADV
+entrar,to enter,进入,VERB
+entre,between,在...之间,ADP
+equivocado,wrong,错误的,ADJ
+era,was,是,VERB
+esa,that,那,DET
+escuchar,to listen,听,VERB
+ese,that,那,DET
+eso,that,那,PRON
+especial,special,特别的,ADJ
+esperar,to wait,等待,VERB
+esposo,husband,丈夫,NOUN
+esta,this,这,DET
+estado,state,状态,NOUN
+estar,to be (location),在,VERB
+este,this,这个,DET
+esto,this (neutral),这个,PRON
+estúpido,stupid,愚蠢的,ADJ
+exactamente,exactly,确切地,ADV
+extraño,strange,奇怪的,ADJ
+falta,lack,缺乏,NOUN
+familia,family,家庭,NOUN
+feliz,happy,快乐的,ADJ
+fiesta,party,聚会,NOUN
+fin,end,结束,NOUN
+fondo,bottom,底部,NOUN
+forma,shape,形状,NOUN
+foto,photo,照片,NOUN
+frente,front,前面,NOUN
+frío,cold,冷的,ADJ
+fuego,fire,火,NOUN
+fuera,outside,外面,ADV
+fuerte,strong,强壮的,ADJ
+fuerza,strength,力量,NOUN
+futuro,future,未来,NOUN
+fácil,easy,容易的,ADJ
+ganar,to win,赢,VERB
+genial,great,极好的,ADJ
+gente,people,人们,NOUN
+gobierno,government,政府,NOUN
+gracias,thanks,谢谢,INTJ
+gracioso,funny,有趣的,ADJ
+gran,great,伟大的,ADJ
+grande,big,大的,ADJ
+grupo,group,组,NOUN
+guerra,war,战争,NOUN
+gusto,taste,味道,NOUN
+haber,to have (auxiliary),有,AUX
+habitación,room,房间,NOUN
+hablar,to speak,说,VERB
+hacer,to do/make,做,VERB
+hacia,towards,朝向,ADP
+hambre,hunger,饥饿,NOUN
+hasta,until/up to,直到,ADP
+haber,there is/there are,有,VERB
+haz,beam,光束,NOUN
+hecho,fact,事实,NOUN
+hermana,sister,姐妹,NOUN
+hermano,brother,兄弟,NOUN
+hermoso,beautiful,美丽,ADJ
+hija,daughter,女儿,NOUN
+hijo,son,儿子,NOUN
+historia,story/history,历史,NOUN
+hogar,home,家,NOUN
+hola,hello,你好,INTJ
+hombre,man,男人,NOUN
+hora,hour,小时,NOUN
+hoy,today,今天,ADV
+humano,human,人类,ADJ
+idiota,idiot,白痴,NOUN
+igual,equal/same,相同,ADJ
+importante,important,重要,ADJ
+imposible,impossible,不可能,ADJ
+incluso,even,甚至,ADV
+increíble,incredible/amazing,难以置信,ADJ
+información,information,信息,NOUN
+inteligente,intelligent,聪明,ADJ
+intento,attempt,尝试,NOUN
+interesante,interesting,有趣,ADJ
+investigación,investigation,调查,NOUN
+ir,to go,去,VERB
+izquierda,left,左,NOUN
+jamás,never,从不,ADV
+jefe,boss,老板,NOUN
+joven,young,年轻的,ADJ
+juego,game,游戏,NOUN
+jugar,to play,玩,VERB
+juicio,trial,审判,NOUN
+junto,together,一起,ADV
+justo,fair,公平的,ADJ
+la,the,这/那,DET
+lado,side,边,NOUN
+largo,long,长的,ADJ
+las,the,这/那,DET
+le,him/her,他/她,PRON
+lejos,far,远,ADV
+les,them,他们,PRON
+libertad,freedom,自由,NOUN
+libre,free,自由的,ADJ
+libro,book,书,NOUN
+lindo,pretty,漂亮的,ADJ
+lista,list,列表,NOUN
+listo,ready,准备好的,ADJ
+llamar,to call,打电话,VERB
+llave,key,钥匙,NOUN
+llegar,to arrive,到达,VERB
+llevar,to carry,携带,VERB
+lo,it,它,PRON
+loco,crazy,疯狂的,ADJ
+locura,madness,疯狂,NOUN
+los,the,这/那,DET
+luego,later,后来,ADV
+luz,light,光,NOUN
+línea,line,线,NOUN
+madre,mother,母亲,NOUN
+mal,badly,坏地,ADV
+malo,bad,坏的,ADJ
+mamá,mom,妈妈,NOUN
+manera,way,方式,NOUN
+mano,hand,手,NOUN
+mantener,keep,保持,VERB
+mar,sea,海,NOUN
+marido,husband,丈夫,NOUN
+matrimonio,marriage,婚姻,NOUN
+mayor,older,年长的,ADJ
+mayoría,majority,大多数,NOUN
+mañana,tomorrow,明天,ADV
+medio,half,一半,ADJ
+mejor,better,更好,ADJ
+menos,less,更少,ADV
+mensaje,message,信息,NOUN
+mentir,lie,撒谎,VERB
+mes,month,月,NOUN
+mesa,table,桌子,NOUN
+mi,my,我的,DET
+miedo,fear,恐惧,NOUN
+mientras,while,当...时,SCONJ
+minuto,minute,分钟,NOUN
+mirar,look,看,VERB
+mismo,same,相同,ADJ
+mitad,half,一半,NOUN
+modo,way,方式,NOUN
+momento,moment,时刻,NOUN
+montón,lot,许多,NOUN
+morir,die,死,VERB
+muchacho,boy,男孩,NOUN
+mucho,much,许多,DET
+mujer,woman,女人,NOUN
+mundo,world,世界,NOUN
+muy,very,非常,ADV
+más,more,更多,ADV
+médico,doctor,医生,NOUN
+nada,nothing,没有什么,PRON
+nadie,nobody,没有人,PRON
+necesario,necessary,必要的,ADJ
+necesitar,to need,需要,VERB
+negocio,business,生意,NOUN
+negro,black,黑色的,ADJ
+ni,nor,也不,CCONJ
+nivel,level,水平,NOUN
+niña,girl,女孩,NOUN
+niño,boy,男孩,NOUN
+noche,night,夜晚,NOUN
+nombre,name,名字,NOUN
+nos,us,我们,PRON
+nosotros,we,我们,PRON
+novia,girlfriend,女朋友,NOUN
+novio,boyfriend,男朋友,NOUN
+nuestro,our,我们的,DET
+nuevo,new,新的,ADJ
+nunca,never,从不,ADV
+número,number,数字,NOUN
+o,or,或者,CCONJ
+ocho,eight,八,NUM
+odio,hate,仇恨,NOUN
+oficial,official,官方的,ADJ
+oficina,office,办公室,NOUN
+opinión,opinion,意见,NOUN
+oportunidad,opportunity,机会,NOUN
+orden,order,命令,NOUN
+oro,gold,金子,NOUN
+os,you,你们,PRON
+otro,other,另一个,ADJ
+oído,hearing,听力,NOUN
+oír,to hear,听,VERB
+padre,father,父亲,NOUN
+pagar,to pay,支付,VERB
+palabra,word,单词,NOUN
+papel,paper,纸,NOUN
+papá,dad,爸爸,NOUN
+par,pair,一对,NOUN
+para,for,为了,ADP
+parar,to stop,停止,VERB
+parte,part,部分,NOUN
+pasa,raisin,葡萄干,NOUN
+pasado,past,过去,ADJ
+pasar,to happen,发生,VERB
+paso,step,步骤,NOUN
+paz,peace,和平,NOUN
+país,country,国家,NOUN
+pedir,to ask for,请求,VERB
+peligro,danger,危险,NOUN
+pelo,hair,头发,NOUN
+pena,pity,遗憾,NOUN
+pensar,to think,思考,VERB
+peor,worse,更糟,ADJ
+pequeño,small,小,ADJ
+perder,to lose,丢失,VERB
+perdón,sorry,对不起,NOUN
+perfecto,perfect,完美,ADJ
+permiso,permission,许可,NOUN
+pero,but,但是,CCONJ
+perro,dog,狗,NOUN
+persona,person,人,NOUN
+pie,foot,脚,NOUN
+piso,floor,楼层,NOUN
+placer,pleasure,快乐,NOUN
+planeta,planet,行星,NOUN
+plato,plate,盘子,NOUN
+pobre,poor,贫穷的,ADJ
+poco,little,少,DET
+poder,to be able to,能够,VERB
+poner,to put,放,VERB
+por,by,被,ADP
+porque,because,因为,SCONJ
+posible,possible,可能的,ADJ
+posición,position,位置,NOUN
+pregunta,question,问题,NOUN
+presidente,president,总统,NOUN
+primer,first,第一,ADJ
+primero,first,第一,ADJ
+principio,beginning,开始,NOUN
+prisa,hurry,匆忙,NOUN
+prisión,prison,监狱,NOUN
+probablemente,probably,可能,ADV
+problema,problem,问题,NOUN
+profesor,teacher,老师,NOUN
+programa,program,节目,NOUN
+pronto,soon,很快,ADV
+propio,own,自己的,ADJ
+prueba,test,测试,NOUN
+pueblo,village,村庄,NOUN
+puerta,door,门,NOUN
+pues,well,那么,ADV
+puesto,position,职位,NOUN
+punto,point,点,NOUN
+público,public,公众的,ADJ
+que,that,那个,SCONJ
+querer,to want,想要,VERB
+querido,dear,亲爱的,ADJ
+quizá,perhaps,也许,ADV
+quizás,perhaps,也许,ADV
+quién,who,谁,PRON
+qué,what,什么,PRON
+raro,strange,奇怪的,ADJ
+rato,while,一会儿,NOUN
+razón,reason,理由,NOUN
+realidad,reality,现实,NOUN
+realmente,really,真正地,ADV
+recuerdo,memory,记忆,NOUN
+regalo,gift,礼物,NOUN
+regresar,to return,返回,VERB
+relación,relationship,关系,NOUN
+reputación,reputation,名声,NOUN
+respeto,respect,尊重,NOUN
+respuesta,answer,回答,NOUN
+resto,rest,其余,NOUN
+reunión,meeting,会议,NOUN
+rey,king,国王,NOUN
+ropa,clothes,衣服,NOUN
+ruta,route,路线,NOUN
+rápido,fast,快的,ADJ
+saber,to know,知道,VERB
+sacar,to take out,拿出,VERB
+sala,room,房间,NOUN
+salida,exit,出口,NOUN
+salir,to leave,离开,VERB
+salvar,to save,拯救,VERB
+se,self,自己,PRON
+seguir,to follow,跟随,VERB
+segundo,second,第二,NUM
+seguridad,security,安全,NOUN
+seguro,safe,安全的,ADJ
+seis,six,六,NUM
+semana,week,周,NOUN
+sentido,sense,意义,NOUN
+sentir,to feel,感觉,VERB
+ser,to be,是,VERB
+serio,serious,严肃的,ADJ
+servicio,service,服务,NOUN
+sexo,sex,性别,NOUN
+señal,sign,标志,NOUN
+señor,Mr.,先生,NOUN
+señora,Mrs.,夫人,NOUN
+si,if,如果,SCONJ
+siempre,always,总是,ADV
+siete,seven,七,NUM
+sin,without,没有,ADP
+sistema,system,系统,NOUN
+sitio,place,地方,NOUN
+situación,situation,情况,NOUN
+sobre,on,在...上面,ADP
+sol,sun,太阳,NOUN
+solo,alone,独自,ADV
+sorpresa,surprise,惊喜,NOUN
+su,his,他的,DET
+suelo,floor,地板,NOUN
+suerte,luck,运气,NOUN
+sueño,dream,梦,NOUN
+suficiente,enough,足够的,ADJ
+sí,yes,是,INTJ
+tal,such,这样的,ADJ
+también,also,也,ADV
+tampoco,neither,也不,ADV
+tan,so,如此,ADV
+tanto,so much,这么多,ADV
+tarde,late,晚,ADV
+te,you,你,PRON
+teléfono,phone,电话,NOUN
+tema,topic,主题,NOUN
+temprano,early,早,ADV
+tener,to have,有,VERB
+terminar,to finish,结束,VERB
+tiempo,time,时间,NOUN
+tienda,shop,商店,NOUN
+tierra,earth,地球,NOUN
+tipo,type,类型,NOUN
+todavía,still,仍然,ADV
+todo,all,所有,DET
+tomar,to take,拿,VERB
+tontería,nonsense,废话,NOUN
+tonto,silly,愚蠢的,ADJ
+totalmente,totally,完全地,ADV
+trabajar,to work,工作,VERB
+trabajo,work,工作,NOUN
+traje,suit,西装,NOUN
+trasero,rear,后面的,ADJ
+trato,deal,交易,NOUN
+tren,train,火车,NOUN
+tres,three,三,NUM
+triste,sad,悲伤的,ADJ
+tu,your,你的,DET
+tía,aunt,阿姨,NOUN
+tío,uncle,叔叔,NOUN
+tú,you,你,PRON
+un,a,一个,DET
+una,a,一个,DET
+uno,one,一,NUM
+usar,to use,使用,VERB
+usted,you,您,PRON
+ustedes,you,你们,PRON
+vale,okay,好的,INTJ
+venir,to come,来,VERB
+ventana,window,窗户,NOUN
+ver,to see,看见,VERB
+verdadero,true,真实的,ADJ
+vestido,dress,连衣裙,NOUN
+vez,time (occasion),次,NOUN
+viaje,trip,旅行,NOUN
+vida,life,生活,NOUN
+viejo,old,老的,ADJ
+vino,wine,葡萄酒,NOUN
+vista,view,景色,NOUN
+vivir,to live,居住,VERB
+vivo,alive,活着的,ADJ
+volver,to return,返回,VERB
+vosotros,you (plural),你们,PRON
+voz,voice,声音,NOUN
+vuelta,return,回来,NOUN
+y,and,和,CCONJ
+ya,already,已经,ADV
+yo,I,我,PRON
+zona,zone,区域,NOUN
+él,he,他,PRON
+éxito,success,成功,NOUN
+último,last,最后的,ADJ
+único,unique,唯一的,ADJ

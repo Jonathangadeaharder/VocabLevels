@@ -1,1001 +1,528 @@
 Dutch_Lemma,English_Lemma,Chinese_Lemma,POS
-natuur,nature,,NOUN
-officieel,officially,,ADJ
-oost,east,,NOUN
-openbaar,public,,ADJ
-verdienen,earn,,VERB
-vertelde,told,,VERB
-winnaar,winner,,NOUN
-bedoeld,meant,,VERB
-bekijken,to look at,,VERB
-bos,bunch,,NOUN
-by,by,,INTJ
-donderdag,Thursday,,PROPN
-duurt,takes,,VERB
-financiële,financial,,ADJ
-gebruikte,used,,VERB
-gevangenis,prison,,NOUN
-gewerkt,worked,,VERB
-grappig,funny,,ADJ
-grens,border,,NOUN
-groepen,groups,,NOUN
-historische,historical,,ADJ
-islam,Islam,,NOUN
-koninkrijk,kingdom,,NOUN
-locatie,location,,NOUN
-ondertussen,meanwhile,,ADV
-onderweg,en route,,ADV
-paul,paul,,NOUN
-rechts,right,,ADJ
-rivier,river,,NOUN
-rood,red,,ADJ
-san,san,,NOUN
-schoenen,shoes,,NOUN
-scholen,schools,,NOUN
-spreekt,speaks,,VERB
-station,station,,NOUN
-vaker,more often,,ADJ
-verkeerd,wrong,,ADJ
-wapen,weapon,,NOUN
-wilden,wanted,,VERB
-aanval,attack,,NOUN
-advocaat,lawyer,,NOUN
-angst,fear,,NOUN
-antwerpen,antwerp,,PROPN
-artikelen,articles,,NOUN
-bedoel,mean,,VERB
-bereikt,reaches,,VERB
-bureau,desk,,NOUN
-camera,camera,,NOUN
-cijfers,figures,,NOUN
-digitale,digital,,ADJ
-erin,in it,,ADV
-gedachten,thoughts,,NOUN
-gegevens,facts,,NOUN
-gespeeld,played,,VERB
-gestuurd,sent,,VERB
-goud,gold,,NOUN
-hoofdstad,capital,,NOUN
-interview,interview,,NOUN
-japan,Japan,,NOUN
-jezus,Jesus,,NOUN
-leeft,lives,,VERB
-leek,seemed,,VERB
-leiding,pipe,,NOUN
-momenteel,currently,,ADJ
-muur,wall,,NOUN
-nr,no,,X
-tafel,table,,NOUN
-toestemming,permission,,NOUN
-trouwens,Incidentally,,ADV
-verliezen,to lose,,VERB
-volledige,sufficient,,ADJ
-voorzien,provided,,VERB
-wijze,manner,,NOUN
-achtergrond,background,,NOUN
-belgische,Belgian,,ADJ
-finale,final,,NOUN
-gehaald,fetched,,VERB
-gelezen,read,,VERB
-gevaar,danger,,NOUN
-groen,green,,ADJ
-hallo,Hello,,INTJ
-hoorde,heard,,VERB
-inhoud,contents,,NOUN
-model,model,,NOUN
-mr,mr,,NOUN
-ok,OK,,ADJ
-premier,prime minister,,NOUN
-reizen,to travel,,VERB
-risico,risk,,NOUN
-schrijf,write,,VERB
-sneller,faster,,ADJ
-sterke,strong,,ADJ
-vereniging,association,,NOUN
-vlaanderen,Flanders,,NOUN
-westen,West,,NOUN
-zodra,as soon as,,SCONJ
-besluit,decision,,NOUN
-commissie,committee,,NOUN
-daardoor,because of that,,ADV
-draagt,wears,,VERB
-el,el,,INTJ
-favoriete,favourite,,ADJ
-geniet,enjoy,,VERB
-georganiseerd,organized,,VERB
-gericht,focused,,VERB
-gevolgen,implications,,NOUN
-gouden,golden,,ADJ
-grotere,larger ones,,ADJ
-halve,half,,ADJ
-hierbij,hereby,,ADV
-indruk,impression,,NOUN
-lastig,annoying,,ADJ
-moderne,modern,,ADJ
-ochtend,morning,,NOUN
-vlucht,flight,,NOUN
-vuur,firework,,NOUN
-zolang,as long as,,ADV
-°,°,,PUNCT
-absoluut,absolute,,ADJ
-afdeling,department,,NOUN
-afkomstig,originating,,ADJ
-auto's,cars,,NOUN
-bewoners,residents,,NOUN
-dikke,thick,,ADJ
-dollar,dollars,,NOUN
-heren,Gentlemen,,NOUN
-keren,turn,,VERB
-maat,mate,,NOUN
-medewerkers,staff,,NOUN
-mogelijke,possible,,ADJ
-mogelijkheid,possibility,,NOUN
-omstandigheden,circumstances,,NOUN
-onderwerp,subject,,NOUN
-ongeluk,accident,,NOUN
-redden,to rescue,,VERB
-sociaal,social,,ADJ
-volg,follow,,VERB
-woensdag,Wednesday,,PROPN
-wou,wish,,VERB
-zuiden,south,,NOUN
-zus,sister,,NOUN
-aflevering,episode,,NOUN
-bezoekers,visitors,,NOUN
-brussel,Brussels,,PROPN
-burgers,citizens,,NOUN
-collega's,colleagues,,NOUN
-college,college,,NOUN
-dak,roof,,NOUN
-deden,did,,VERB
-gebeurde,happened,,VERB
-hiervan,of this,,ADV
-inclusief,inclusive,,ADV
-j,j,,INTJ
-k,k,,INTJ
-neer,down,,ADP
-noemt,mentions,,VERB
-noorden,north,,NOUN
-reacties,reactions,,NOUN
-reeds,already,,ADV
-rekening,account,,NOUN
-sint,saint,,NOUN
-tegenover,opposite,,ADP
-teken,sign,,NOUN
-tijden,times,,NOUN
-tips,tips,,NOUN
-totdat,until,,SCONJ
-verkeerde,wrong,,ADJ
-vervoer,transport,,NOUN
-voormalig,former,,ADJ
-voorstellen,to suggest,,VERB
-account,account,,NOUN
-beroep,profession,,NOUN
-betrekking,relation,,NOUN
-blauwe,blue,,ADJ
-erger,worse,,ADJ
-f,f,,SYM
-gaten,holes,,NOUN
-gedood,killed,,VERB
-geldt,applies,,VERB
-gemeenten,municipalities,,NOUN
-geopend,opened,,VERB
-geweld,violence,,NOUN
-hiervoor,for this,,ADV
-huizen,houses,,NOUN
-leerlingen,pupils,,NOUN
-leider,leader,,NOUN
-leidt,leads,,VERB
-mede,co,,ADV
-michael,Michael,,NOUN
-miljard,billion,,NOUN
-one,one,,INTJ
-openbare,public,,ADJ
-stijl,style,,NOUN
-turkije,Turkey,,NOUN
-uitgebreid,extensive,,VERB
-vaste,fixed,,ADJ
-verdwenen,disappeared,,VERB
-wind,wind,,NOUN
-zulke,such,,PRON
-aardig,nice,,ADJ
-afspraak,appointment,,NOUN
-begrijp,understand,,VERB
-bescherming,protection,,NOUN
-bezit,possess,,VERB
-binnenkort,soon,,ADV
-chinese,Chinese,,ADJ
-eet,eat,,VERB
-eisen,to demand,,VERB
-fantastisch,fantastic,,ADJ
-fiets,bicycle,,NOUN
-gekocht,bought,,VERB
-geleerd,learned,,VERB
-hoef,hoof,,VERB
-hoek,corner,,NOUN
-internationaal,international,,ADJ
-japanse,Japanese,,ADJ
-kleding,clothing,,NOUN
-krant,newspaper,,NOUN
-laag,low,,ADJ
-maatregelen,measures,,NOUN
-maatschappij,society,,NOUN
-nogal,rather,,ADV
-onderzoeken,to research,,NOUN
-oranje,orange,,ADJ
-organisaties,organizations,,NOUN
-overwinning,victory,,NOUN
-pro,pro,,NOUN
-red,ed,,INTJ
-samenleving,society,,NOUN
-slaap,sleep,,VERB
-sluit,closes,,VERB
-toegevoegd,added,,VERB
-tom,Tom,,NOUN
-toont,shows,,VERB
-uren,hours,,NOUN
-verdachte,suspect,,NOUN
-vieren,celebrate,,VERB
-vlees,meat,,NOUN
-vrijwel,virtually,,ADV
-woning,home,,NOUN
-ziekte,disease,,NOUN
-album,album,,NOUN
-aldus,thus,,ADV
-australië,Australia,,PROPN
-bezoeken,visits,,VERB
-brug,bridge,,NOUN
-buitenland,abroad,,NOUN
-centrale,central,,NOUN
-dergelijke,such,,ADJ
-diep,deep,,ADJ
-eigenaar,owner,,NOUN
-eén,An,,NUM
-gebouwd,built,,VERB
-geluid,sound,,NOUN
-gevolgd,followed,,VERB
-harde,hard,,ADJ
-he,Hey,,INTJ
-hey,hey,,INTJ
-ii,ii,,INTJ
-kamp,camp,,NOUN
-klanten,customers,,NOUN
-lachen,laugh,,VERB
-lage,low,,ADJ
-leidde,led,,VERB
-lief,sweet,,ADJ
-negen,nine,,NUM
-neuken,fuck,,VERB
-ontwerp,design,,NOUN
-reageren,respond,,VERB
-strand,beach,,NOUN
-stukje,piece,,NOUN
-tuin,garden,,NOUN
-tweets,tweets,,NOUN
-vandaan,from,,ADP
-vrede,peace,,NOUN
-vreemd,foreign,,ADJ
-zingen,sing,,VERB
-1e,1st,,ADJ
-2e,2nd,,ADJ
-behandeling,treatment,,NOUN
-beneden,downstairs,,ADP
-berichten,to inform,,NOUN
-brabant,brabant,,NOUN
-code,code,,NOUN
-eenmaal,once,,ADV
-ermee,with it,,ADV
-gebouwen,buildings,,NOUN
-geraakt,touched,,VERB
-honger,hungry,,NOUN
-ideeën,ideas,,NOUN
-italië,Italy,,PROPN
-leer,learn,,NOUN
-meid,girl,,NOUN
-min,min,,ADV
-mogelijkheden,possibilities,,NOUN
-my,my,,INTJ
-o.a,among others,,ADV
-partner,partner,,NOUN
-producten,products,,NOUN
-productie,production,,NOUN
-regen,rain,,NOUN
-speler,player,,NOUN
-st,st,,INTJ
-veld,field,,NOUN
-verjaardag,birthday,,NOUN
-verlies,loss,,NOUN
-vertaling,translation,,NOUN
-voorbeelden,examples,,NOUN
-w,w,,INTJ
-waarvoor,for what,,ADV
-zogenaamde,so-called,,ADJ
-afhankelijk,dependent,,ADJ
-bal,ball,,NOUN
-besloot,decided,,VERB
-boom,tree,,NOUN
-buitenlandse,foreign,,ADJ
-cm,cm,,SYM
-degene,the one,,PRON
-des,des,,DET
-discussie,discussion,,NOUN
-duizenden,thousands,,NUM
-etc,etc,,INTJ
-eu,eu,,INTJ
-fijne,nice,,ADJ
-gasten,guests,,NOUN
-geest,spirit,,NOUN
-kritiek,criticism,,NOUN
-love,love,,X
-lukt,succeeds,,VERB
-mooiste,most beautiful,,ADJ
-pak,suit,,NOUN
-parlement,parliament,,NOUN
-rapport,report,,NOUN
-slachtoffers,victims,,NOUN
-sprake,talk,,NOUN
-tijdje,while,,NOUN
-verbeteren,improve,,VERB
-verklaring,declaration,,NOUN
-verwachten,to expect,,VERB
-vlag,flag,,NOUN
-vliegen,to fly,,VERB
-voet,foot,,NOUN
-voldoende,sufficient,,ADJ
-vrouwelijke,female,,ADJ
-wens,wish,,VERB
-arts,doctor,,NOUN
-bijdrage,contribution,,NOUN
-bijzondere,special,,ADJ
-blauw,blue,,ADJ
-city,City,,NOUN
-dinsdag,Tuesday,,PROPN
-dromen,dreams,,VERB
-editie,edition,,NOUN
-gebruikers,users,,NOUN
-genaamd,called,,VERB
-hangt,hangs,,VERB
-heerlijke,delicious,,ADJ
-hopelijk,hopefully,,ADV
-inzet,stake,,NOUN
-kust,coast,,NOUN
-langzaam,slowly,,ADJ
-le,le,,INTJ
-legt,lays,,VERB
-limburg,Limburg,,NOUN
-melden,report,,VERB
-moslims,Muslims,,NOUN
-motor,engine,,NOUN
-nationaal,national,,ADJ
-nl,i.e,,INTJ
-ontdekt,discovers,,VERB
-personeel,staff,,NOUN
-raken,hit,,VERB
-schrijft,writes,,VERB
-spijt,sorry,,NOUN
-storm,storm,,NOUN
-tonen,to show,,VERB
-training,training,,NOUN
-verbonden,connected,,VERB
-verdient,deserves,,VERB
-wijn,wine,,NOUN
-youtube,youtube,,NOUN
-zoiets,something like that,,PRON
-beperkt,limited,,VERB
-bergen,to put away,,NOUN
-bewust,consciously,,ADJ
-bloed,blood,,NOUN
-boodschap,errand,,NOUN
-bronnen,sources,,NOUN
-campagne,campaign,,NOUN
-collectie,collection,,NOUN
-contract,contract,,NOUN
-droom,dream,,NOUN
-eentje,one,,NUM
-hè,Hey,,INTJ
-james,james,,NOUN
-koud,cold,,ADJ
-kwaliteit,quality,,NOUN
-luister,listen,,VERB
-mark,Mark,,NOUN
-mexico,Mexico,,PROPN
-ministerie,ministry,,NOUN
-nauwelijks,hardly,,ADV
-ontwikkeld,developed,,VERB
-projecten,projects,,NOUN
-redenen,reasons,,NOUN
-standaard,standard,,NOUN
-stonden,stood,,VERB
-studie,study,,NOUN
-televisie,television,,NOUN
-totale,total,,ADJ
-troepen,troops,,NOUN
-verliefd,in love,,ADJ
-volle,full,,ADJ
-vormt,forms,,VERB
-baas,boss,,NOUN
-communicatie,communication,,NOUN
-duur,duration,,ADJ
-engelse,english,,ADJ
-ervaren,experienced,,ADJ
-gefeliciteerd,Congratulations,,VERB
-gezond,healthy,,ADJ
-goeie,good one,,ADJ
-haalt,fetches,,VERB
-initiatief,initiative,,NOUN
-kaarten,cards,,NOUN
-kleuren,to colour,,NOUN
-medische,medical,,ADJ
-meneer,sir,,NOUN
-missen,miss,,VERB
-omhoog,upwards,,ADV
-positieve,positive,,ADJ
-rechtbank,court,,NOUN
-republiek,republic,,NOUN
-soldaten,soldiers,,NOUN
-tenzij,unless,,SCONJ
-verkeer,traffic,,NOUN
-voedsel,food,,NOUN
-vrijwilligers,volunteers,,NOUN
-wellicht,perhaps,,ADV
-werkelijk,really,,ADJ
-willem,william,,PROPN
-aangeboden,offered,,VERB
-all,all,,INTJ
-alweer,again,,ADV
-bad,bath,,VERB
-beslissing,decision,,NOUN
-categorie,category,,NOUN
-combinatie,combination,,NOUN
-gelegenheid,occasion,,NOUN
-george,George,,NOUN
-hoeven,hooves,,VERB
-interesse,interest,,NOUN
-kapot,broken,,ADJ
-klasse,class,,NOUN
-laatst,last,,ADJ
-olympische,olympic,,ADJ
-onzin,nonsense,,NOUN
-opgericht,set up,,VERB
-organiseren,to organize,,VERB
-ouder,older,,ADJ
-past,fits,,VERB
-probeerde,tried,,VERB
-schat,Darling,,VERB
-selectie,selection,,NOUN
-stelde,stated,,VERB
-thee,tea,,NOUN
-twintig,twenty,,NUM
-uitspraak,pronunciation,,NOUN
-vechten,to fight,,VERB
-veroorzaakt,causes,,VERB
-wapens,weapons,,NOUN
-wensen,wishes,,NOUN
-werknemers,employees,,NOUN
-zagen,saws,,VERB
-zeeland,Zealand,,NOUN
-én,and,,CCONJ
-akkoord,agree,,NOUN
-anti,anti,,NOUN
-as,ash,,INTJ
-bedoeling,intention,,NOUN
-bereid,prepared,,ADJ
-boot,boat,,NOUN
-dansen,dancing,,VERB
-dienen,serve,,VERB
-draaien,turn,,VERB
-draait,turns,,VERB
-feiten,facts,,NOUN
-fouten,mistakes,,NOUN
-gast,guest,,NOUN
-geile,horny,,ADJ
-gemakkelijk,easy,,ADJ
-gemiddelde,average,,ADJ
-getrouwd,married,,VERB
-gewond,injured,,ADJ
-gezocht,sought,,VERB
-hangen,hang,,VERB
-heilige,saint,,NOUN
-italiaanse,Italian,,ADJ
-kampioen,champion,,NOUN
-koningin,queen,,NOUN
-manieren,ways,,NOUN
-materiaal,material,,NOUN
-meiden,girls,,NOUN
-merk,brand,,NOUN
-mobiele,mobile,,ADJ
-oke,okay,,INTJ
-olie,oil,,NOUN
-ontwikkelen,to develop,,VERB
-oudere,older,,ADJ
-pad,path,,NOUN
-passen,to fit,,VERB
-politici,politicians,,NOUN
-positief,positive,,ADJ
-raakte,hit,,VERB
-restaurant,restaurant,,NOUN
-schoon,beautiful,,ADJ
-simpel,simple,,ADJ
-social,social,,ADJ
-sprak,spoke,,VERB
-stierf,died,,VERB
-tenminste,at least,,ADV
-test,test,,NOUN
-tweet,tweet,,NOUN
-twijfel,doubt,,NOUN
-unieke,unique,,ADJ
-verkoop,sale,,NOUN
-verzoek,request,,NOUN
-vierde,fourth,,ADJ
-voelde,felt,,VERB
-voornamelijk,mainly,,ADJ
-wedstrijden,competitions,,NOUN
-winkels,shops,,NOUN
-winter,winter,,NOUN
-won,won,,VERB
-adres,address,,NOUN
-at,at,,VERB
-behulp,help,,NOUN
-berg,mountain,,NOUN
-bevindt,located,,VERB
-bier,beer,,NOUN
-compleet,completely,,ADJ
-computer,computer,,NOUN
-daarop,on that,,ADV
-dame,lady,,NOUN
-debat,debate,,NOUN
-district,district,,NOUN
-effect,effect,,NOUN
-evenement,event,,NOUN
-gedeelte,section,,NOUN
-gevoelens,feelings,,NOUN
-haal,get,,VERB
-israël,Israel,,NOUN
-leveren,deliver,,VERB
-natuurlijke,natural,,ADJ
-oma,grandma,,NOUN
-ontzettend,terribly,,ADJ
-raar,weird,,ADJ
-steken,stiches,,VERB
-ton,tons,,NOUN
-traditionele,traditional,,ADJ
-verbinding,connection,,NOUN
-verenigd,united,,VERB
-verschenen,appeared,,VERB
-verschillen,differences,,NOUN
-verwijderd,deleted,,VERB
-verwijderen,to delete,,VERB
-vóór,for,,ADP
-ware,true,,AUX
-wint,wins,,VERB
-zaten,sat,,VERB
-afgesloten,closed,,VERB
-arm,arm,,NOUN
-auteur,author,,NOUN
-bomen,trees,,NOUN
-broek,pair of trousers,,NOUN
-dichtbij,near,,ADJ
-diensten,services,,NOUN
-dom,stupid,,ADJ
-flink,considerable,,ADJ
-gemeenschap,community,,NOUN
-gent,Ghent,,INTJ
-geregeld,organized,,VERB
-hogere,higher,,ADJ
-ineens,suddenly,,ADV
-leeg,empty,,ADJ
-life,life,,NOUN
-overigens,incidentatlly,,ADV
-status,status,,NOUN
-stof,dust,,NOUN
-time,time,,X
-verboden,forbidden,,VERB
-vergadering,meeting,,NOUN
-verslag,report,,NOUN
-verteld,told,,VERB
-vluchtelingen,refugees,,NOUN
-aanleiding,cause,,NOUN
-art,art,,INTJ
-betekenis,meaning,,NOUN
-details,details,,NOUN
-eenheid,unit,,NOUN
-excuses,apologies,,NOUN
-geholpen,helped,,VERB
-gemist,missed,,VERB
-gesprekken,conversations,,NOUN
-india,India,,NOUN
-iphone,iphone,,NOUN
-kader,frame,,NOUN
-keuken,kitchen,,NOUN
-klant,customer,,NOUN
-klas,class,,NOUN
-medewerker,colleague,,NOUN
-mevrouw,Madam,,NOUN
-operatie,operation,,NOUN
-paard,horse,,NOUN
-pers,press,,NOUN
-professor,professor,,NOUN
-route,route,,NOUN
-service,service,,NOUN
-stukken,pieces,,NOUN
-technische,technical,,ADJ
-teksten,texts,,NOUN
-teveel,too many,,ADV
-tevreden,satisfied,,ADJ
-uiteraard,of course,,ADV
-verandering,change,,NOUN
-vis,fish,,NOUN
-vliegtuig,aeroplane,,NOUN
-zult,will,,VERB
-anna,anna,,INTJ
-begraven,buried,,VERB
-bepalen,determine,,VERB
-bewijzen,prove,,VERB
-bloemen,flowers,,NOUN
-brazilië,Brazil,,NOUN
-concert,concert,,NOUN
-daarin,in it,,ADV
-date,date,,NOUN
-directe,direct,,ADJ
-duits,German,,ADJ
-eenvoudig,simple,,ADJ
-erover,about it,,ADV
-ervaringen,experiences,,NOUN
-gehele,entire,,ADJ
-generatie,generation,,NOUN
-gevestigd,established,,VERB
-glas,glass,,NOUN
-golf,golf,,NOUN
-landelijke,rural,,ADJ
-las,las,,VERB
-maakten,made,,VERB
-milieu,environment,,NOUN
-minuut,minute,,NOUN
-news,news,,NOUN
-onmogelijk,impossible,,ADJ
-populair,popular,,ADJ
-rijdt,drives,,VERB
-rondom,all around,,ADP
-schatje,baby,,NOUN
-sfeer,realm,,NOUN
-slim,smart,,ADJ
-speelde,played,,VERB
-spoor,track,,NOUN
-stadion,stadium,,NOUN
-tour,tour,,PROPN
-vlaamse,Flemish,,ADJ
-voeten,feet,,NOUN
-voort,continue,,ADV
-vooruit,forward,,ADV
-wegen,roads,,NOUN
-woon,residential,,VERB
-agenten,agents,,NOUN
-antwoorden,answers,,NOUN
-belachelijk,ridiculous,,ADJ
-betekenen,mean,,VERB
-big,big,,INTJ
-black,black,,NOUN
-ca,approx,,INTJ
-canada,Canada,,NOUN
-day,day,,X
-gedacht,thought,,VERB
-gestart,started,,VERB
-gezellig,pleasant,,ADJ
-graden,degrees,,NOUN
-grenzen,boundaries,,NOUN
-groei,grow,,NOUN
-handel,trade,,NOUN
-hans,hans,,PROPN
-herinneren,to remind,,VERB
-industrie,industry,,NOUN
-jaarlijks,annual,,ADJ
-keek,looked,,VERB
-levert,supplies,,VERB
-middelen,resources,,NOUN
-moe,tired,,ADJ
-out,out,,X
-overeenkomst,agreement,,NOUN
-product,product,,NOUN
-reeks,series,,NOUN
-schuldig,guilty,,ADJ
-snelle,fast,,ADJ
-sporen,traces,,NOUN
-taak,task,,NOUN
-techniek,technology,,NOUN
-temperatuur,temperature,,NOUN
-thema,theme,,NOUN
-tijdelijk,temporary,,ADJ
-turkse,turkish,,ADJ
-unie,union,,NOUN
-verantwoordelijkheid,responsibility,,NOUN
-verplicht,obliged,,VERB
-voorstel,proposal,,NOUN
-websites,websites,,NOUN
-wereldwijd,worldwide,,ADJ
-alsjeblieft,please,,INTJ
-arme,poor,,ADJ
-be,be,,INTJ
-beiden,both,,PRON
-beschreven,described,,VERB
-dagelijkse,daily,,ADJ
-game,game,,NOUN
-gevaarlijk,dangerous,,ADJ
-groeien,to grow,,VERB
-harry,harry,,NOUN
-hof,court,,NOUN
-journalist,journalist,,NOUN
-kwaad,angry,,NOUN
-league,league,,NOUN
-lengte,length,,NOUN
-ma,Mon,,INTJ
-mate,mate,,NOUN
-neus,nose,,NOUN
-oorspronkelijk,original,,ADJ
-opening,opening,,NOUN
-originele,original,,ADJ
-paus,Pope,,NOUN
-plekken,places,,NOUN
-presentatie,presentation,,NOUN
-richten,aim,,VERB
-shit,shit,,NOUN
-slot,lock,,NOUN
-stroom,current,,NOUN
-trap,stairs,,NOUN
-verandert,changes,,VERB
-verdeeld,divided,,VERB
-winst,gain,,NOUN
-zette,put,,VERB
-behoefte,need,,NOUN
-beurt,turn,,NOUN
-coach,coach,,NOUN
-collega,co-worker,,NOUN
-concept,concept,,NOUN
-datum,date,,NOUN
-deuren,doors,,NOUN
-duren,to last,,VERB
-et,et,,INTJ
-griekenland,Greece,,NOUN
-hoeveelheid,quantity,,NOUN
-honden,dogs,,NOUN
-indien,if,,SCONJ
-ingezet,deployed,,VERB
-kwestie,issue,,NOUN
-leg,lay,,VERB
-lekkere,tasty,,ADJ
-liefst,sweetest,,ADJ
-lul,dick,,NOUN
-menselijke,human,,ADJ
-noemde,mentioned,,VERB
-normale,normal,,ADJ
-onafhankelijke,independent,,ADJ
-ontmoet,meet,,VERB
-oorzaak,cause,,NOUN
-platform,platform,,NOUN
-profiel,profile,,NOUN
-raakt,hits,,VERB
-relatief,relatively,,ADJ
-roepen,shout,,VERB
-schiet,shoot,,VERB
-sexy,sexy,,NOUN
-spullen,stuff,,NOUN
-sterven,die,,VERB
-street,St,,NOUN
-studio,studio,,NOUN
-tas,bag,,NOUN
-tegelijkertijd,at the same time,,ADV
-termijn,term,,NOUN
-tijdschrift,magazine,,NOUN
-trekt,pulls,,VERB
-twaalf,twelve,,NUM
-vermeld,mentioned,,VERB
-verscheen,appeared,,VERB
-vertrek,departure,,VERB
-volwassen,adult,,ADJ
-wetenschap,science,,NOUN
-z,z,,INTJ
-afrikaanse,African,,ADJ
-bespreken,discuss,,VERB
-bob,bob,,NOUN
-brood,bread,,NOUN
-burger,citizen,,NOUN
-cc,cc,,SYM
-controleren,check,,VERB
-dode,dead,,ADJ
-doorgaan,continue,,VERB
-eveneens,also,,ADV
-gelooft,believes,,VERB
-gestolen,stolen,,VERB
-gevangen,captured,,VERB
-gooien,to throw,,VERB
-interessante,interesting,,ADJ
-jack,jack,,NOUN
-kansen,chances,,NOUN
-kende,knew,,VERB
-kont,ass,,NOUN
-maria,mary,,NOUN
-onmiddellijk,immediately,,ADJ
-ontworpen,designed,,VERB
-oplossen,dissolve,,VERB
-overige,other,,ADJ
-prins,prince,,NOUN
-ring,ring,,NOUN
-seconden,seconds,,NOUN
-sterren,stars,,NOUN
-technologie,technology,,NOUN
-terrein,terrain,,NOUN
-trainer,trainer,,NOUN
-trouwen,to marry,,VERB
-verdwijnen,disappear,,VERB
-zeiden,said,,VERB
-aangenomen,accepted,,VERB
-begrip,concept,,NOUN
-benen,legs,,NOUN
-beschouwd,considered,,VERB
-bezocht,visited,,VERB
-bijeenkomst,meeting,,NOUN
-boord,board,,NOUN
-crisis,crisis,,NOUN
-da,da,,INTJ
-data,dates,,NOUN
-engeland,England,,PROPN
-europees,European,,ADJ
-feestje,party,,NOUN
-fietsen,misuse,,VERB
-gele,yellow,,ADJ
-geprobeerd,tried,,VERB
-grap,joke,,NOUN
-held,hero,,NOUN
-homo,homo,,NOUN
-honderd,one hundred,,NUM
-honderden,hundreds,,NUM
-indonesië,Indonesia,,NOUN
-kandidaat,candidate,,NOUN
-karakter,character,,NOUN
-koken,to cook,,VERB
-leest,reads,,VERB
-meerderheid,majority,,NOUN
-onderstaande,below,,ADJ
-ontbijt,breakfast,,NOUN
-ontmoeten,meet,,VERB
-openen,open,,VERB
-perfecte,perfect,,ADJ
-planten,plants,,NOUN
-poging,attempt,,NOUN
-populaire,popular,,ADJ
-publieke,public,,ADJ
-race,race,,NOUN
-regionale,regional,,ADJ
-sector,sector,,NOUN
-single,single,,NOUN
-slaat,hits,,VERB
-snelheid,speed,,NOUN
-starten,start,,VERB
-sterker,stronger,,ADJ
-tekenen,to draw,,VERB
-thomas,thomas,,NOUN
-vertel,tell,,VERB
-vreselijk,terrible,,ADJ
-with,with,,X
-zak,bag,,VERB
-zwemmen,swimming,,VERB
-acties,actions,,NOUN
-afbeelding,image,,NOUN
-allebei,both,,PRON
-avonds,evening,,NOUN
-bar,bar,,NOUN
-behoorlijk,quite,,ADJ
-charles,charles,,PROPN
-culturele,cultural,,ADJ
-democratie,democracy,,NOUN
-dik,thick,,ADJ
-dubbele,double,,ADJ
-eer,honor,,ADV
-eindhoven,Eindhoven,,PROPN
-fans,fans,,NOUN
-fantastische,fantastic,,ADJ
-gebrek,lack,,NOUN
-gisteravond,last night,,ADV
-hierin,herein,,ADV
-home,home,,NOUN
-houten,wooden,,NOUN
-info,info,,NOUN
-jaarlijkse,annual,,ADJ
-kat,cat,,NOUN
-kies,choose,,VERB
-kleren,clothes,,NOUN
-letterlijk,literal,,ADJ
-manager,manager,,NOUN
-miljoenen,millions,,NOUN
-minstens,at least,,ADV
-miss,miss,,INTJ
-missie,mission,,NOUN
-moeders,mothers,,NOUN
-onderwerpen,topics,,NOUN
-opnemen,to withdraw,,VERB
-opzichte,relative,,NOUN
-plus,plus,,INTJ
-real,real,,NOUN
-spaans,Spanish,,ADJ
-steen,stone,,NOUN
-talen,languages,,NOUN
-uitdaging,challenge,,NOUN
-uitgezonden,broadcast,,VERB
-uitslag,rash,,NOUN
-voordeel,advantage,,NOUN
-afbeeldingen,images,,NOUN
-appartement,apartment,,NOUN
-bibliotheek,library,,NOUN
-cd,CD,,NOUN
-creëren,create,,VERB
-gelukt,success,,VERB
-handig,convenient,,ADJ
-hierover,about this,,ADV
-high,high,,NOUN
-maatschappelijke,social,,ADJ
-martin,Martin,,NOUN
-nogmaals,once more,,ADV
-non,non,,X
-nummers,numbers,,NOUN
-ontslagen,dismissed,,VERB
-papa,daddy,,NOUN
-richard,richard,,NOUN
-ruzie,row,,NOUN
-sommigen,some,,PRON
-trek,pull,,VERB
-trok,pulled,,VERB
-velen,many,,PRON
-vissen,fishing,,VERB
-workshop,workshop,,NOUN
-zweden,Sweden,,VERB
-aanvallen,to attack,,NOUN
-aanwezigheid,presence,,NOUN
-an,an,,INTJ
-apple,apple,,NOUN
-been,leg,,NOUN
-begrepen,understood,,VERB
-behandeld,treated,,VERB
-behouden,retain,,VERB
-bekeken,viewed,,VERB
-berlijn,Berlin,,PROPN
-beschermd,protected,,VERB
-betaalt,pays,,VERB
-bewegen,move,,VERB
-dier,animal,,NOUN
-duurzame,sustainable,,ADJ
-elektrische,electric,,ADJ
-ernstig,serious,,ADJ
-goedemorgen,Good morning,,INTJ
-haven,harbour,,NOUN
-kabinet,cabinet,,NOUN
-lager,lower,,ADJ
-machine,machine,,NOUN
-namens,on behalf of,,ADP
-oceaan,ocean,,NOUN
-oproep,call,,NOUN
-patiënten,patients,,NOUN
-polen,Poland,,NOUN
-privé,private,,ADJ
-reed,drove,,VERB
-roept,shouts,,VERB
-shirt,shirt,,NOUN
-speel,play,,VERB
-telt,counts,,VERB
-term,term,,NOUN
-theorie,theory,,NOUN
-toon,show,,NOUN
-verdere,further,,ADJ
-vergelijking,comparison,,NOUN
-vertrekken,to leave,,VERB
-verzet,resists,,NOUN
-vreemde,stranger,,ADJ
-waarna,after which,,ADV
-aanbod,offer,,NOUN
-agenda,agenda,,NOUN
-agent,agent,,NOUN
-bestellen,order,,VERB
-carrière,career,,NOUN
-deelname,participation,,NOUN
-dichter,poet,,NOUN
-gebeurtenissen,events,,NOUN
-gebleven,stayed,,VERB
-gebruiker,user,,NOUN
+natuur,nature,自然,NOUN
+officieel,official,官方的,ADJ
+oost,east,东,NOUN
+openbaar,public,公共的,ADJ
+verdienen,to earn,赚,VERB
+winnaar,winner,获胜者,NOUN
+bedoelen,to mean,意指,VERB
+bekijken,to look at,观看,VERB
+bos,forest,森林,NOUN
+donderdag,Thursday,星期四,NOUN
+duren,to last,持续,VERB
+gevangenis,prison,监狱,NOUN
+grappig,funny,有趣的,ADJ
+grens,border,边界,NOUN
+koninkrijk,kingdom,王国,NOUN
+locatie,location,地点,NOUN
+ondertussen,meanwhile,同时,ADV
+onderweg,on the way,在路上,ADV
+rechts,right,右,ADV
+rivier,river,河流,NOUN
+rood,red,红色,ADJ
+verkeerd,wrong,错误的,ADJ
+wapen,weapon,武器,NOUN
+aanval,attack,攻击,NOUN
+advocaat,lawyer,律师,NOUN
+angst,fear,恐惧,NOUN
+bureau,desk,书桌,NOUN
+gegeven,data,数据,NOUN
+goud,gold,金子,NOUN
+hoofdstad,capital,首都,NOUN
+leiding,management,管理层,NOUN
+momenteel,currently,目前,ADV
+muur,wall,墙,NOUN
+tafel,table,桌子,NOUN
+toestemming,permission,许可,NOUN
+trouwens,by the way,顺便说一下,ADV
+verliezen,to lose,输,VERB
+voorzien,to provide,提供,VERB
+wijze,manner,方式,NOUN
+achtergrond,background,背景,NOUN
+finale,final,决赛,NOUN
+gevaar,danger,危险,NOUN
+groen,green,绿色的,ADJ
+hallo,hello,你好,INTJ
+inhoud,content,内容,NOUN
+premier,prime minister,首相,NOUN
+reizen,to travel,旅行,VERB
+risico,risk,风险,NOUN
+vereniging,association,协会,NOUN
+westen,west,西方,NOUN
+zodra,as soon as,一……就,SCONJ
+besluit,decision,决定,NOUN
+commissie,committee,委员会,NOUN
+daardoor,therefore,因此,ADV
+favoriet,favourite,最喜爱的,ADJ
+organiseren,to organize,组织,VERB
+richten,to focus,聚焦,VERB
+gouden,golden,金色的,ADJ
+hierbij,hereby,在此,ADV
+indruk,impression,印象,NOUN
+lastig,difficult,困难的,ADJ
+ochtend,morning,早晨,NOUN
+vlucht,flight,航班,NOUN
+vuur,fire,火,NOUN
+zolang,as long as,只要,SCONJ
+absoluut,absolute,绝对的,ADJ
+afdeling,department,部门,NOUN
+afkomstig,originating,来自的,ADJ
+bewoner,resident,居民,NOUN
+dik,thick,厚的,ADJ
+keren,to turn,转身,VERB
+maat,size,尺寸,NOUN
+medewerker,employee,员工,NOUN
+mogelijkheid,possibility,可能性,NOUN
+omstandigheid,circumstance,情况,NOUN
+onderwerp,subject,主题,NOUN
+ongeluk,accident,事故,NOUN
+redden,to rescue,营救,VERB
+sociaal,social,社会的,ADJ
+zuiden,south,南方,NOUN
+zus,sister,姐妹,NOUN
+aflevering,episode,一集,NOUN
+burger,citizen,公民,NOUN
+collega,colleague,同事,NOUN
+college,lecture,讲座,NOUN
+dak,roof,屋顶,NOUN
+hiervan,of this,关于这个,ADV
+inclusief,including,包括,ADP
+neer,down,向下,ADV
+noorden,north,北方,NOUN
+reeds,already,已经,ADV
+rekening,bill,账单,NOUN
+tegenover,opposite,在...对面,ADP
+teken,sign,迹象,NOUN
+totdat,until,直到,SCONJ
+vervoer,transport,交通,NOUN
+voormalig,former,前任的,ADJ
+voorstellen,to suggest,建议,VERB
+beroep,profession,职业,NOUN
+betrekking,relation,关系,NOUN
+blauw,blue,蓝色的,ADJ
+openen,to open,打开,VERB
+geweld,violence,暴力,NOUN
+hiervoor,for this,为此,ADV
+leider,leader,领导者,NOUN
+mede,co-,共同,ADV
+miljard,billion,十亿,NUM
+stijl,style,风格,NOUN
+uitgebreid,extensive,广泛的,ADJ
+verdwijnen,to disappear,消失,VERB
+zulke,such,这样的,DET
+aardig,nice,友好的,ADJ
+afspraak,appointment,预约,NOUN
+bescherming,protection,保护,NOUN
+binnenkort,soon,不久,ADV
+chinees,Chinese,中国的,ADJ
+eisen,to demand,要求,VERB
+fantastisch,fantastic,极好的,ADJ
+fiets,bicycle,自行车,NOUN
+hoeven,to need,需要,VERB
+hoek,corner,角落,NOUN
+internationaal,international,国际的,ADJ
+japans,Japanese,日本的,ADJ
+kleding,clothing,服装,NOUN
+krant,newspaper,报纸,NOUN
+laag,low,低的,ADJ
+maatschappij,society,社会,NOUN
+nogal,rather,相当,ADV
+oranje,orange,橙色的,ADJ
+overwinning,victory,胜利,NOUN
+samenleving,society,社会,NOUN
+tonen,to show,展示,VERB
+verdachte,suspect,嫌疑人,NOUN
+vieren,to celebrate,庆祝,VERB
+vlees,meat,肉,NOUN
+vrijwel,virtually,几乎,ADV
+woning,home,住宅,NOUN
+ziekte,disease,疾病,NOUN
+aldus,thus,因此,ADV
+bezoeken,to visit,访问,VERB
+brug,bridge,桥,NOUN
+buitenland,abroad,国外,NOUN
+centrale,power station,发电厂,NOUN
+dergelijke,such,这样的,ADJ
+diep,deep,深的,ADJ
+eigenaar,owner,所有者,NOUN
+geluid,sound,声音,NOUN
+kamp,camp,营地,NOUN
+klant,customer,顾客,NOUN
+lachen,to laugh,笑,VERB
+lief,sweet,亲爱的,ADJ
+negen,nine,九,NUM
+ontwerp,design,设计,NOUN
+reageren,to respond,回应,VERB
+strand,beach,海滩,NOUN
+stukje,piece,小块,NOUN
+tuin,garden,花园,NOUN
+vandaan,from,来自,ADP
+vrede,peace,和平,NOUN
+vreemd,strange,奇怪的,ADJ
+zingen,to sing,唱歌,VERB
+behandeling,treatment,治疗,NOUN
+beneden,downstairs,楼下,ADV
+berichten,to inform,通知,VERB
+eenmaal,once,一次,ADV
+raken,to touch,触摸,VERB
+honger,hunger,饥饿,NOUN
+meid,girl,女孩,NOUN
+min,minus,减,NOUN
+productie,production,生产,NOUN
+regen,rain,雨,NOUN
+speler,player,玩家,NOUN
+veld,field,田野,NOUN
+verjaardag,birthday,生日,NOUN
+verlies,loss,损失,NOUN
+vertaling,translation,翻译,NOUN
+waarvoor,for what,为了什么,ADV
+zogenaamd,so-called,所谓的,ADJ
+afhankelijk,dependent,依赖的,ADJ
+bal,ball,球,NOUN
+boom,tree,树,NOUN
+buitenlands,foreign,外国的,ADJ
+degene,the one,那个人,PRON
+discussie,discussion,讨论,NOUN
+gast,guest,客人,NOUN
+geest,spirit,精神,NOUN
+kritiek,criticism,批评,NOUN
+pak,suit,西装,NOUN
+parlement,parliament,议会,NOUN
+rapport,report,报告,NOUN
+verbeteren,to improve,改善,VERB
+verklaring,declaration,声明,NOUN
+verwachten,to expect,期待,VERB
+vlag,flag,旗帜,NOUN
+vliegen,to fly,飞,VERB
+voet,foot,脚,NOUN
+voldoende,sufficient,足够的,ADJ
+wensen,to wish,祝愿,VERB
+arts,doctor,医生,NOUN
+bijdrage,contribution,贡献,NOUN
+dinsdag,Tuesday,星期二,NOUN
+dromen,to dream,做梦,VERB
+editie,edition,版本,NOUN
+gebruiker,user,用户,NOUN
+hangen,to hang,悬挂,VERB
+hopelijk,hopefully,希望,ADV
+inzet,stake,赌注,NOUN
+kust,coast,海岸,NOUN
+langzaam,slow,慢的,ADJ
+melden,to report,报告,VERB
+motor,engine,发动机,NOUN
+nationaal,national,国家的,ADJ
+personeel,staff,员工,NOUN
+spijt,regret,遗憾,NOUN
+wijn,wine,葡萄酒,NOUN
+zoiets,something like that,类似的事物,PRON
+bergen,to put away,收拾,VERB
+bewust,conscious,有意识的,ADJ
+bloed,blood,血,NOUN
+boodschap,message,信息,NOUN
+campagne,campaign,运动,NOUN
+collectie,collection,收藏,NOUN
+droom,dream,梦,NOUN
+eentje,one,一个,PRON
+hè,hey,嘿,INTJ
+koud,cold,冷的,ADJ
+kwaliteit,quality,质量,NOUN
+ministerie,ministry,部,NOUN
+nauwelijks,hardly,几乎不,ADV
+ontwikkelen,to develop,发展,VERB
+standaard,standard,标准,NOUN
+studie,study,学习,NOUN
+televisie,television,电视,NOUN
+totaal,total,总的,ADJ
+verliefd,in love,恋爱中的,ADJ
+baas,boss,老板,NOUN
+communicatie,communication,交流,NOUN
+duur,expensive,昂贵的,ADJ
+Engels,English,英语的,ADJ
+ervaren,experienced,有经验的,ADJ
+gefeliciteerd,congratulations,恭喜,INTJ
+gezond,healthy,健康的,ADJ
+initiatief,initiative,主动性,NOUN
+meneer,sir,先生,NOUN
+missen,to miss,想念,VERB
+omhoog,upwards,向上,ADV
+positief,positive,积极的,ADJ
+rechtbank,court,法院,NOUN
+republiek,republic,共和国,NOUN
+tenzij,unless,除非,SCONJ
+verkeer,traffic,交通,NOUN
+voedsel,food,食物,NOUN
+wellicht,perhaps,也许,ADV
+werkelijk,really,真正地,ADV
+alweer,again,又,ADV
+bad,bath,洗澡,NOUN
+beslissing,decision,决定,NOUN
+categorie,category,类别,NOUN
+combinatie,combination,组合,NOUN
+gelegenheid,occasion,机会,NOUN
+interesse,interest,兴趣,NOUN
+kapot,broken,破碎的,ADJ
+klasse,class,阶级,NOUN
+laatst,last,最近的,ADJ
+onzin,nonsense,废话,NOUN
+ouder,older,更老的,ADJ
+passen,to fit,适合,VERB
+schat,darling,亲爱的,NOUN
+selectie,selection,选择,NOUN
+thee,tea,茶,NOUN
+twintig,twenty,二十,NUM
+uitspraak,pronunciation,发音,NOUN
+vechten,to fight,打架,VERB
+wens,wish,愿望,NOUN
+zagen,to saw,锯,VERB
+akkoord,agreement,协议,NOUN
+as,ash,灰烬,NOUN
+bedoeling,intention,意图,NOUN
+bereid,willing,愿意的,ADJ
+boot,boat,船,NOUN
+dansen,to dance,跳舞,VERB
+dienen,to serve,服务,VERB
+draaien,to turn,转动,VERB
+gemakkelijk,easy,容易的,ADJ
+getrouwd,married,已婚的,ADJ
+gewond,injured,受伤的,ADJ
+heilige,saint,圣人,NOUN
+kampioen,champion,冠军,NOUN
+koningin,queen,女王,NOUN
+materiaal,material,材料,NOUN
+merk,brand,品牌,NOUN
+olie,oil,油,NOUN
+pad,path,小路,NOUN
+schoon,clean,干净的,ADJ
+simpel,simple,简单的,ADJ
+sterven,to die,死,VERB
+tenminste,at least,至少,ADV
+twijfel,doubt,怀疑,NOUN
+verkoop,sale,销售,NOUN
+verzoek,request,请求,NOUN
+vierde,fourth,第四,ADJ
+voornamelijk,mainly,主要地,ADV
+adres,address,地址,NOUN
+berg,mountain,山,NOUN
+bier,beer,啤酒,NOUN
+compleet,complete,完整的,ADJ
+daarop,on that,在那上面,ADV
+dame,lady,女士,NOUN
+debat,debate,辩论,NOUN
+evenement,event,活动,NOUN
+gedeelte,part,部分,NOUN
+leveren,to deliver,交付,VERB
+oma,grandma,奶奶,NOUN
+ontzettend,terribly,非常,ADV
+raar,weird,奇怪的,ADJ
+steken,to stitch,缝,VERB
+verbinding,connection,连接,NOUN
+verwijderen,to remove,移除,VERB
+waar,true,真实的,ADJ
+auteur,author,作者,NOUN
+broek,trousers,裤子,NOUN
+dichtbij,near,附近,ADP
+dom,stupid,愚蠢的,ADJ
+flink,considerable,相当大的,ADJ
+gemeenschap,community,社区,NOUN
+ineens,suddenly,突然,ADV
+leeg,empty,空的,ADJ
+overigens,incidentally,顺便说一下,ADV
+stof,dust,灰尘,NOUN
+vergadering,meeting,会议,NOUN
+verslag,report,报告,NOUN
+aanleiding,cause,起因,NOUN
+betekenis,meaning,意义,NOUN
+eenheid,unit,单位,NOUN
+excuses,apologies,道歉,NOUN
+kader,framework,框架,NOUN
+keuken,kitchen,厨房,NOUN
+klas,class,班级,NOUN
+mevrouw,Madam,女士,NOUN
+operatie,operation,手术,NOUN
+paard,horse,马,NOUN
+pers,press,新闻界,NOUN
+teveel,too much,太多,ADV
+tevreden,satisfied,满意的,ADJ
+uiteraard,of course,当然,ADV
+verandering,change,变化,NOUN
+vis,fish,鱼,NOUN
+vliegtuig,airplane,飞机,NOUN
+begraven,to bury,埋葬,VERB
+bepalen,to determine,决定,VERB
+bewijzen,to prove,证明,VERB
+daarin,in it,在其中,ADV
+datum,date,日期,NOUN
+duits,German,德国的,ADJ
+eenvoudig,simple,简单的,ADJ
+erover,about it,关于它,ADV
+geheel,entire,整个的,ADJ
+generatie,generation,一代,NOUN
+glas,glass,玻璃,NOUN
+golf,wave,波浪,NOUN
+milieu,environment,环境,NOUN
+minuut,minute,分钟,NOUN
+onmogelijk,impossible,不可能,ADJ
+populair,popular,受欢迎的,ADJ
+rondom,around,在...周围,ADP
+schatje,darling,亲爱的,NOUN
+sfeer,atmosphere,气氛,NOUN
+slim,smart,聪明的,ADJ
+spoor,track,轨道,NOUN
+stadion,stadium,体育场,NOUN
+voort,on,继续,ADV
+vooruit,forward,向前,ADV
+weg,road,路,NOUN
+agent,police officer,警察,NOUN
+belachelijk,ridiculous,荒谬的,ADJ
+betekenen,to mean,意味着,VERB
+starten,to start,开始,VERB
+gezellig,cozy,舒适的,ADJ
+groei,growth,增长,NOUN
+handel,trade,贸易,NOUN
+herinneren,to remind,提醒,VERB
+industrie,industry,工业,NOUN
+jaarlijks,annual,每年的,ADJ
+moe,tired,疲倦的,ADJ
+overeenkomst,agreement,协议,NOUN
+reeks,series,系列,NOUN
+schuldig,guilty,有罪的,ADJ
+taak,task,任务,NOUN
+techniek,technology,技术,NOUN
+temperatuur,temperature,温度,NOUN
+thema,theme,主题,NOUN
+tijdelijk,temporary,临时的,ADJ
+unie,union,联盟,NOUN
+verantwoordelijkheid,responsibility,责任,NOUN
+verplichten,to oblige,强迫,VERB
+voorstel,proposal,提议,NOUN
+wereldwijd,worldwide,全球的,ADJ
+alsjeblieft,please,请,INTJ
+arm,poor,贫穷的,ADJ
+beiden,both,两者,PRON
+gevaarlijk,dangerous,危险的,ADJ
+groeien,to grow,生长,VERB
+hof,court,法庭,NOUN
+kwaad,angry,生气的,ADJ
+lengte,length,长度,NOUN
+neus,nose,鼻子,NOUN
+oorspronkelijk,original,最初的,ADJ
+paus,Pope,教皇,NOUN
+presentatie,presentation,展示,NOUN
+slot,lock,锁,NOUN
+stroom,current,电流,NOUN
+trap,stairs,楼梯,NOUN
+winst,profit,利润,NOUN
+behoefte,need,需求,NOUN
+beurt,turn,轮次,NOUN
+hoeveelheid,quantity,数量,NOUN
+indien,if,如果,SCONJ
+kwestie,issue,问题,NOUN
+liefst,preferably,最好,ADV
+ontmoeten,to meet,遇见,VERB
+oorzaak,cause,原因,NOUN
+profiel,profile,个人资料,NOUN
+relatief,relatively,相对地,ADV
+roepen,to shout,呼喊,VERB
+spullen,stuff,物品,NOUN
+tas,bag,包,NOUN
+tegelijkertijd,at the same time,同时,ADV
+termijn,term,期限,NOUN
+tijdschrift,magazine,杂志,NOUN
+twaalf,twelve,十二,NUM
+vertrekken,to leave,离开,VERB
+volwassen,adult,成年的,ADJ
+wetenschap,science,科学,NOUN
+bespreken,to discuss,讨论,VERB
+brood,bread,面包,NOUN
+controleren,to check,检查,VERB
+doorgaan,to continue,继续,VERB
+eveneens,also,也,ADV
+gooien,to throw,扔,VERB
+onmiddellijk,immediately,立即,ADV
+ontwerpen,to design,设计,VERB
+oplossen,to solve,解决,VERB
+overig,other,其余的,ADJ
+prins,prince,王子,NOUN
+technologie,technology,技术,NOUN
+terrein,terrain,地形,NOUN
+trouwen,to marry,结婚,VERB
+begrip,concept,概念,NOUN
+been,leg,腿,NOUN
+bijeenkomst,meeting,会议,NOUN
+boord,board,船舷,NOUN
+Europees,European,欧洲的,ADJ
+feestje,party,聚会,NOUN
+fietsen,to cycle,骑自行车,VERB
+grap,joke,笑话,NOUN
+held,hero,英雄,NOUN
+homo,gay man,男同性恋者,NOUN
+honderd,one hundred,一百,NUM
+kandidaat,candidate,候选人,NOUN
+karakter,character,性格,NOUN
+koken,to cook,烹饪,VERB
+meerderheid,majority,多数,NOUN
+onderstaand,below,下面的,ADJ
+ontbijt,breakfast,早餐,NOUN
+poging,attempt,尝试,NOUN
+publiek,public,公共的,ADJ
+snelheid,speed,速度,NOUN
+tekenen,to draw,画,VERB
+vreselijk,terrible,可怕的,ADJ
+zak,bag,袋子,NOUN
+zwemmen,to swim,游泳,VERB
+afbeelding,image,图像,NOUN
+allebei,both,两者都,PRON
+behoorlijk,quite,相当,ADV
+democratie,democracy,民主,NOUN
+eer,honor,荣誉,NOUN
+gebrek,lack,缺乏,NOUN
+gisteravond,last night,昨晚,ADV
+hierin,herein,在此,ADV
+houten,wooden,木制的,ADJ
+kat,cat,猫,NOUN
+letterlijk,literal,字面上的,ADJ
+minstens,at least,至少,ADV
+missie,mission,使命,NOUN
+opnemen,to record,录制,VERB
+opzicht,respect,方面,NOUN
+Spaans,Spanish,西班牙的,ADJ
+steen,stone,石头,NOUN
+uitdaging,challenge,挑战,NOUN
+uitzenden,to broadcast,广播,VERB
+uitslag,result,结果,NOUN
+voordeel,advantage,优势,NOUN
+appartement,apartment,公寓,NOUN
+bibliotheek,library,图书馆,NOUN
+creëren,to create,创造,VERB
+handig,handy,方便的,ADJ
+hierover,about this,关于这个,ADV
+nogmaals,once more,再次,ADV
+non,nun,修女,NOUN
+ontslaan,to dismiss,解雇,VERB
+papa,daddy,爸爸,NOUN
+ruzie,quarrel,争吵,NOUN
+sommigen,some,有些人,PRON
+velen,many,许多人,PRON
+vissen,to fish,钓鱼,VERB
+aanwezigheid,presence,出席,NOUN
+behouden,to retain,保留,VERB
+bewegen,to move,移动,VERB
+dier,animal,动物,NOUN
+ernstig,serious,严重的,ADJ
+goedemorgen,good morning,早上好,INTJ
+haven,harbour,港口,NOUN
+kabinet,cabinet,内阁,NOUN
+namens,on behalf of,代表,ADP
+oceaan,ocean,海洋,NOUN
+oproep,call,呼叫,NOUN
+privé,private,私人的,ADJ
+theorie,theory,理论,NOUN
+toon,tone,语调,NOUN
+vergelijking,comparison,比较,NOUN
+verzet,resistance,抵抗,NOUN
+waarna,after which,此后,ADV
+aanbod,offer,提议,NOUN
+bestellen,to order,订购,VERB
+carrière,career,职业,NOUN
+deelname,participation,参与,NOUN
+dichter,poet,诗人,NOUN

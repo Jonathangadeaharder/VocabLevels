@@ -1,601 +1,579 @@
 Spanish_Lemma,English_Lemma,Chinese_Lemma,POS
-abrigo,coat,,X
-absolutamente,absolutely,,X
-acabar,to finish/have just,,VERB
-acceso,access,,X
-acción,action,,NOUN
-aceptar,to accept,,VERB
-actuar,to act,,VERB
-acusado,accused/defendant,,VERB
-aeropuerto,airport,,X
-agujero,hole,,X
-alcalde,mayor,,X
-alegría,joy,,X
-alguno,some/any,,X
-altura,height,,NOUN
-amante,lover,,ADJ
-ambulancia,ambulance,,NOUN
-amenaza,threat,,X
-amistad,friendship,,X
-anillo,ring,,X
-animal,animal,,ADJ
-anterior,previous,,NOUN
-antiguo,ancient/old,,X
-análisis,analysis,,X
-apartamento,apartment,,X
-apenas,barely/hardly,,X
-apoyo,support,,X
-aprender,to learn,,VERB
-aquel,that (over there),,X
-aquella,that (over there),,X
-arena,sand,,X
-arreglar,to fix/arrange,,VERB
-arresto,arrest,,X
-arte,art,,X
-artista,artist,,NOUN
-artículo,article,,X
-asiento,seat,,X
-asistente,assistant,,X
-aspecto,appearance,,X
-atrapado,trapped,,VERB
-atrapar,to catch/trap,,VERB
-autobús,bus,,X
-aventura,adventure,,NOUN
-averiguar,to find out,,VERB
-azul,blue,,X
-bailar,to dance,,VERB
-baile,dance,,X
-bajar,to go down/get off,,VERB
-bala,bullet,,X
-banco,bank,,X
-banda,band/gang,,X
-barrio,neighborhood,,X
-batalla,battle,,X
-bebida,beverage/drink,,X
-belleza,beauty,,X
-beso,kiss,,X
-bienvenida,welcome,,X
-bolsa,bag,,X
-bolsillo,pocket,,X
-bolso,bag,,X
-bomba,bomb/pump,,X
-borracho,drunk,,X
-bosque,forest,,X
-botella,bottle,,X
-bravo,brave/fierce,,X
-brazo,arm,,X
-bruja,witch,,X
-búsqueda,search/hunt,,X
-caballero,knight/gentleman,,X
-cabo,end/cape/corporal,,X
-cadena,chain/channel,,X
-cadáver,corpse,,VERB
-caer,to fall,,VERB
-calma,calm/peace,,X
-calor,heat,,NOUN
-caminar,to walk,,VERB
-camisa,shirt,,X
-camión,truck,,X
-campamento,camp,,X
-campaña,campaign,,X
-cansado,tired,,VERB
-cantar,to sing,,VERB
-cantidad,quantity/amount,,NOUN
-carga,load/cargo,,X
-carretera,highway/road,,NOUN
-carro,cart/carriage,,X
-casado,married,,VERB
-casar,to marry,,VERB
-castillo,castle,,X
-casualidad,coincidence/chance,,NOUN
-celda,cell,,X
-cerdo,pig,,X
-cero,zero,,X
-cerrado,closed,,VERB
-cerrar,to close,,VERB
-cerveza,beer,,X
-chaqueta,jacket,,X
-charla,chat/talk,,X
-cheque,check,,X
-chocolate,chocolate,,X
-cien,hundred,,X
-ciencia,science,,NOUN
-ciento,hundred,,X
-cine,cinema,,X
-cinta,tape/ribbon,,X
-cirugía,surgery,,X
-claramente,clearly,,X
-clave,key/code,,X
-cobarde,coward/cowardly,,X
-coger,to catch/take/grab,,VERB
-coincidencia,coincidence,,NOUN
-cola,tail/line,,X
-colega,colleague,,X
-colegio,school,,X
-comandante,commander,,ADJ
-combate,combat/battle,,X
-comenzar,to begin/start,,VERB
-comienzo,beginning,,X
-compartir,to share,,VERB
-completo,complete,,X
-complicado,complicated,,VERB
-compromiso,commitment/engagement,,X
-computadora,computer (Latin America),,X
-comunidad,community,,NOUN
-común,common,,X
-conciencia,conscience/awareness,,NOUN
-condición,condition,,NOUN
-conducir,to drive,,VERB
-conexión,connection,,X
-confianza,trust/confidence,,NOUN
-conocimiento,knowledge,,X
-consejo,advice,,X
-construir,to build,,VERB
-contado,counted/cash,,VERB
-contar,to count/tell,,VERB
-contento,glad/happy,,X
-continuar,to continue,,VERB
-contrario,contrary/opposite,,X
-contrato,contract,,X
-controlar,to control,,VERB
-conversación,conversation,,NOUN
-copia,copy,,X
-coronel,colonel,,X
-correo,mail/post,,X
-correr,to run,,VERB
-corriente,current/ordinary,,X
-corte,cut/court,,X
-corto,short,,X
-costa,coast,,X
-crear,to create,,VERB
-criatura,creature,,NOUN
-cruel,cruel,,X
-crédito,credit,,X
-cuchillo,knife,,X
-cuento,story/tale,,X
-cuerpo,body,,X
-cuidar,to care for/look after,,VERB
-culpable,guilty,,ADJ
-cumplir,to fulfill/comply,,VERB
-cura,priest/cure,,NOUN
-curiosidad,curiosity,,NOUN
-curso,course/school year,,X
-cámara,camera,,X
-cáncer,cancer,,VERB
-código,code,,X
-deber,must/should,,VERB
-debido,due,,VERB
-decidido,determined,,VERB
-decidir,to decide,,VERB
-declaración,declaration/statement,,NOUN
-dedo,finger/toe,,X
-defensa,defense,,X
-definitivamente,definitely,,X
-demonio,demon/devil,,X
-departamento,department,,X
-desaparecido,missing,,VERB
-desastre,disaster,,X
-desayuno,breakfast,,X
-descansar,to rest,,VERB
-descanso,rest/break,,X
-descubierto,uncovered,,X
-descubrir,to discover,,VERB
-desgracia,misfortune/disgrace,,X
-despacho,office,,X
-despacio,slowly,,X
-despierto,awake,,X
-destruir,to destroy,,VERB
-detective,detective,,X
-detener,to stop/arrest,,VERB
-diablo,devil,,X
-diario,newspaper/diary,,X
-directo,direct,,X
-disco,record/disc,,X
-disculpa,apology,,X
-discurso,speech,,X
-discutir,to argue/discuss,,VERB
-disparar,to shoot,,VERB
-disparo,shot,,X
-dispuesto,ready/willing,,X
-distancia,distance,,NOUN
-diversión,fun/entertainment,,X
-doble,double,,X
-domingo,Sunday,,X
-don,gift/talent/Mr.,,X
-droga,drug,,X
-dueño,owner,,X
-débil,weak,,X
-e,and,,X
-echar,to throw/kick out,,VERB
-efectivo,effective/cash,,ADJ
-efecto,effect,,X
-ejemplo,example,,X
-elección,election/choice,,NOUN
-elegir,to choose,,VERB
-embarazada,pregnant,,X
-emergencia,emergency,,NOUN
-empleo,employment/job,,X
-empresa,company,,X
-enamorado,in love,,VERB
-encargo,order/commission,,X
-enemigo,enemy,,X
-enfermedad,illness/disease,,NOUN
-enfermo,sick,,X
-enorme,enormous/huge,,X
-enseguida,immediately,,X
-entero,whole/entire,,X
-entrada,entrance/ticket,,X
-entrenador,coach/trainer,,NOUN
-entrenamiento,training,,X
-entrevista,interview,,NOUN
-enviado,envoy/sent,,VERB
-enviar,to send,,VERB
-escapar,to escape,,VERB
-escena,scene/stage,,X
-escenario,stage/scenery,,X
-escribir,to write,,VERB
-escrito,written/writing,,X
-esfuerzo,effort,,X
-espada,sword,,X
-especialmente,especially,,X
-espectáculo,spectacle/show,,X
-espejo,mirror,,X
-esperanza,hope,,NOUN
-espíritu,spirit,,X
-esquina,corner,,X
-estación,station,,NOUN
-estilo,style,,X
-estrella,star,,X
-estudiante,student,,ADJ
-estudiar,to study,,VERB
-estudio,study,,X
-estupendo,wonderful,,X
-estómago,stomach,,X
-evitar,to avoid,,VERB
-exacto,exact,,X
-examen,exam,,X
-excelente,excellent,,X
-excusa,excuse,,X
-experiencia,experience,,NOUN
-explicar,to explain,,VERB
-explosión,explosion,,X
-extra,extra,,X
-falso,false/fake,,X
-familiar,familiar/family member,,VERB
-famoso,famous,,ADJ
-fantasma,ghost,,X
-fantástico,fantastic,,ADJ
-favorito,favorite,,X
-fe,faith,,X
-fecha,date,,X
-felicidad,happiness,,NOUN
-finalmente,finally,,X
-firma,signature/firm,,X
-fiscal,prosecutor,,ADJ
-fortuna,fortune/luck,,X
-francés,French,,X
-frontera,border,,NOUN
-fuente,source/fountain,,X
-fumar,to smoke,,VERB
-funcionar,to work/function,,VERB
-funeral,funeral,,ADJ
-fábrica,factory,,X
-fútbol,soccer/football,,X
-ganado,cattle,,VERB
-ganas,desire/mood,,X
-gas,gas,,X
-gato,cat,,X
-gay,gay,,X
-genio,genius/temper,,X
-golpe,blow/hit,,X
-gordo,fat,,X
-gracia,grace/joke,,X
-grado,degree/grade,,VERB
-gratis,free (of charge),,X
-grave,serious/grave,,X
-guapa,beautiful,,X
-guapo,handsome,,X
-guardia,guard,,X
-helado,ice cream/frozen,,VERB
-herida,wound,,X
-herido,injured/wounded,,VERB
-hielo,ice,,X
-honesto,honest,,X
-hospital,hospital,,ADJ
-huir,to flee,,VERB
-humanidad,humanity,,NOUN
-humor,humor/mood,,NOUN
-héroe,hero,,X
-iglesia,church,,X
-ilegal,illegal,,ADJ
-imagen,image,,X
-imaginar,to imagine,,VERB
-imbécil,imbecile/idiot,,X
-importancia,importance,,NOUN
-impresionante,impressive,,ADJ
-incendio,fire,,X
-informe,report,,X
-inglés,English,,X
-inmediatamente,immediately,,X
-inmediato,immediate,,X
-inocente,innocent,,X
-inteligencia,intelligence,,NOUN
-intención,intention,,NOUN
-intentar,to try,,VERB
-interesado,interested,,VERB
-interior,interior/inside,,NOUN
-interés,interest,,X
-invierno,winter,,X
-invitado,guest,,VERB
-inútil,useless,,X
-ira,wrath/anger,,X
-isla,island,,X
-jardín,garden,,X
-juez,judge,,X
-jurado,jury,,VERB
-justicia,justice,,X
-laboratorio,laboratory,,X
-ladrón,thief,,X
-lago,lake,,X
-lección,lesson,,NOUN
-leche,milk,,X
-leer,to read,,VERB
-legal,legal,,ADJ
-lengua,tongue/language,,X
-licencia,license,,NOUN
-limpiar,to clean,,VERB
-limpio,clean,,X
-lleno,full,,X
-llorar,to cry,,VERB
-lluvia,rain,,X
-local,local,,ADJ
-lucha,fight/struggle,,X
-luchar,to fight,,VERB
-luna,moon,,X
-lunes,Monday,,X
-lástima,pity/shame,,X
-líder,leader,,VERB
-lío,mess,,X
-magia,magic,,X
-mando,command/remote control,,VERB
-manejar,to drive/manage,,VERB
-mapa,map,,X
-marca,brand/mark,,X
-material,material,,ADJ
-medicina,medicine,,X
-memoria,memory,,X
-mentira,lie,,X
-mercado,market,,VERB
-meter,to put in,,VERB
-miembro,member,,X
-milagro,miracle,,X
-militar,military,,VERB
-millón,million,,X
-mirada,look/glance,,X
-modelo,model,,X
-monstruo,monster,,X
-montaña,mountain,,X
-mostrar,to show,,VERB
-motivo,reason/motive,,ADJ
-motor,engine,,NOUN
-mover,to move,,VERB
-movimiento,movement,,X
-muerto,dead,,X
-muestra,sample/sign,,X
-máximo,maximum,,X
-móvil,mobile phone,,X
-nacional,national,,ADJ
-nariz,nose,,X
-naturaleza,nature,,X
-necesidad,need/necessity,,NOUN
-nervioso,nervous,,ADJ
-nieve,snow,,X
-ninguno,none/no one,,X
-niñera,babysitter,,NOUN
-norte,north,,X
-nota,note/grade,,X
-noticia,news,,X
-nueve,nine,,X
-objetivo,objective/goal,,ADJ
-obra,work/construction,,X
-obtener,to obtain/get,,VERB
-ocupado,busy/occupied,,VERB
-oeste,west,,X
-ojo,eye,,X
-opción,option/choice,,NOUN
-operación,operation,,NOUN
-orgullo,pride,,X
-oscuridad,darkness,,NOUN
-oscuro,dark,,X
-paciente,patient,,X
-pago,payment,,X
-pan,bread,,X
-paquete,package,,X
-parecer,to seem/look like,,VERB
-parecido,similar/resemblance,,VERB
-pared,wall,,X
-pareja,couple/partner,,X
-parque,park,,X
-partido,game/party,,VERB
-partir,to leave/split,,VERB
-pasillo,hallway/aisle,,X
-pecho,chest,,X
-pedazo,piece,,X
-pelear,to fight/argue,,VERB
-peligroso,dangerous,,ADJ
-pelota,ball,,X
-película,movie,,X
-periódico,newspaper,,ADJ
-permitir,to allow,,VERB
-pesadilla,nightmare,,X
-pesar,to weigh,,VERB
-pescado,fish,,VERB
-peso,weight,,X
-piedra,stone,,X
-piel,skin/leather,,X
-pierna,leg,,X
-pieza,piece/part,,X
-piloto,pilot,,X
-pintura,painting/paint,,NOUN
-pista,clue/track,,NOUN
-pistola,pistol,,X
-planta,plant/floor,,X
-plata,silver/money,,X
-playa,beach,,X
-policía,police,,X
-pollo,chicken,,X
-polvo,dust,,X
-política,politics,,X
-precio,price,,X
-precioso,precious/beautiful,,ADJ
-preciso,precise/necessary,,X
-preguntar,to ask,,VERB
-premio,prize/award,,X
-prensa,press,,X
-preparar,to prepare,,VERB
-presencia,presence,,NOUN
-presión,pressure,,X
-primo,cousin,,X
-principal,main/principal,,ADJ
-privado,private,,VERB
-probable,probable/likely,,ADJ
-probar,to try/taste/prove,,VERB
-proceso,process,,X
-profesional,professional,,ADJ
-profundo,deep,,X
-promesa,promise,,X
-propiedad,property,,NOUN
-propósito,purpose/intention,,X
-proteger,to protect,,VERB
-príncipe,prince,,X
-próximo,next,,X
-puente,bridge,,X
-página,page,,X
-pérdida,loss,,X
-quedar,to stay/meet,,VERB
-queso,cheese,,X
-radio,radio,,X
-recibir,to receive,,VERB
-recoger,to pick up/gather,,VERB
-recordar,to remember,,VERB
-recuperar,to recover/get back,,VERB
-regla,rule/ruler,,X
-reina,queen,,X
-reino,kingdom,,X
-reloj,clock/watch,,X
-resolver,to solve,,VERB
-respirar,to breathe,,VERB
-responder,to respond/answer,,VERB
-responsabilidad,responsibility,,NOUN
-responsable,responsible,,ADJ
-restaurante,restaurant,,ADJ
-resultado,result,,VERB
-revisar,to review/check,,VERB
-rico,rich/tasty,,ADJ
-ridículo,ridiculous,,X
-riesgo,risk,,X
-ritmo,rhythm,,X
-robar,to steal,,VERB
-robo,robbery/theft,,X
-rojo,red,,X
-romper,to break,,VERB
-rostro,face,,X
-roto,broken,,X
-ruido,noise,,VERB
-río,river,,X
-sal,salt,,ADJ
-saltar,to jump,,VERB
-salud,health/cheers,,X
-santo,saint,,X
-secreto,secret,,X
-sencillo,simple,,X
-sensación,sensation/feeling,,NOUN
-serie,series,,X
-servir,to serve,,VERB
-siglo,century,,X
-silencio,silence,,X
-silla,chair,,X
-sobrevivir,to survive,,VERB
-sobrina,niece,,X
-sociedad,society,,NOUN
-socio,partner/member,,X
-soldado,soldier,,VERB
-solución,solution,,NOUN
-sombrero,hat,,X
-sonido,sound,,VERB
-sonrisa,smile,,X
-sopa,soup,,X
-soportar,to endure/bear,,VERB
-sospechoso,suspect,,ADJ
-suave,soft/smooth,,X
-subir,to go up/get on,,VERB
-suceder,to happen,,VERB
-sucio,dirty,,X
-superior,superior/upper,,NOUN
-sur,south,,X
-suyo,his/hers/theirs/yours (formal),,X
-sábado,Saturday,,VERB
-talento,talent,,X
-tamaño,size (format),,X
-tarea,task/homework,,X
-tarjeta,card,,X
-taxi,taxi,,X
-taza,cup,,X
-teatro,theater,,X
-techo,roof/ceiling,,X
-temporada,season,,X
-teoría,theory,,X
-tesoro,treasure,,X
-testigo,witness,,X
-tirar,to throw/pull,,VERB
-tocar,to touch/play,,VERB
-toque,touch,,X
-tormenta,storm,,X
-traer,to bring,,VERB
-trampa,trap,,X
-tranquilo,calm/quiet,,X
-tratamiento,treatment,,X
-tratar,to treat/try,,VERB
-tripulación,crew,,NOUN
-truco,trick,,X
-tráfico,traffic/smuggling,,ADJ
-turno,turn/shift,,X
-té,tea,,X
-universidad,university,,NOUN
-universo,universe,,X
-uso,use,,X
-vacaciones,vacation/holidays,,X
-vacío,empty,,X
-valiente,brave,,X
-valor,value/courage,,NOUN
-varios,several/various,,X
-vaso,glass,,X
-vecina,neighbor (female),,X
-vehículo,vehicle,,X
-velocidad,speed,,NOUN
-vender,to sell,,VERB
-venganza,revenge,,NOUN
-ventaja,advantage,,X
-verano,summer,,X
-verdad,truth,,NOUN
-verde,green,,X
-vergüenza,shame/embarrassment,,X
-versión,version,,X
-viajar,to travel,,VERB
-victoria,victory,,X
-viento,wind,,X
-viernes,Friday,,X
-violencia,violence,,NOUN
-virus,virus,,X
-visita,visit,,X
-visión,vision,,X
-volar,to fly,,VERB
-voluntad,will/willpower,,X
-vuelo,flight,,X
-vuestro,your (plural),,X
-ángel,angel,,X
-árbol,tree,,X
-época,epoch/time,,X
-útil,useful,,X
-baile,dance,,NOUN
-baile,dance,,VERB
+abrigo,coat,外套,NOUN
+absolutamente,absolutely,绝对地,ADV
+acabar,to finish,完成,VERB
+acceso,access,进入,NOUN
+acción,action,行动,NOUN
+aceptar,to accept,接受,VERB
+actuar,to act,行动,VERB
+acusado,defendant,被告,NOUN
+aeropuerto,airport,机场,NOUN
+agujero,hole,洞,NOUN
+alcalde,mayor,市长,NOUN
+alegría,joy,快乐,NOUN
+alguno,some,一些,DET
+altura,height,高度,NOUN
+amante,lover,情人,NOUN
+ambulancia,ambulance,救护车,NOUN
+amenaza,threat,威胁,NOUN
+amistad,friendship,友谊,NOUN
+anillo,ring,戒指,NOUN
+anterior,previous,以前的,ADJ
+antiguo,old,古老的,ADJ
+análisis,analysis,分析,NOUN
+apartamento,apartment,公寓,NOUN
+apenas,barely,几乎不,ADV
+apoyo,support,支持,NOUN
+aprender,to learn,学习,VERB
+aquel,that,那个,DET
+aquella,that,那个,DET
+arena,sand,沙子,NOUN
+arreglar,to fix,修理,VERB
+arresto,arrest,逮捕,NOUN
+arte,art,艺术,NOUN
+artista,artist,艺术家,NOUN
+artículo,article,文章,NOUN
+asiento,seat,座位,NOUN
+asistente,assistant,助手,NOUN
+aspecto,appearance,外貌,NOUN
+atrapado,trapped,被困的,ADJ
+atrapar,to catch,抓住,VERB
+autobús,bus,公共汽车,NOUN
+aventura,adventure,冒险,NOUN
+averiguar,to find out,查明,VERB
+azul,blue,蓝色,ADJ
+bailar,to dance,跳舞,VERB
+baile,dance,舞蹈,NOUN
+bajar,to go down,下去,VERB
+bala,bullet,子弹,NOUN
+banco,bank,银行,NOUN
+banda,band,乐队,NOUN
+barrio,neighborhood,街区,NOUN
+batalla,battle,战斗,NOUN
+bebida,drink,饮料,NOUN
+belleza,beauty,美丽,NOUN
+beso,kiss,吻,NOUN
+bienvenida,welcome,欢迎,NOUN
+bolsa,bag,袋子,NOUN
+bolsillo,pocket,口袋,NOUN
+bolso,handbag,手提包,NOUN
+bomba,bomb,炸弹,NOUN
+borracho,drunk,醉酒的,ADJ
+bosque,forest,森林,NOUN
+botella,bottle,瓶子,NOUN
+bravo,brave,勇敢的,ADJ
+brazo,arm,手臂,NOUN
+bruja,witch,女巫,NOUN
+búsqueda,search,搜索,NOUN
+caballero,gentleman,绅士,NOUN
+cabo,end,尽头,NOUN
+cadena,chain,链条,NOUN
+cadáver,corpse,尸体,NOUN
+caer,to fall,落下,VERB
+calma,calm,平静,NOUN
+calor,heat,热,NOUN
+caminar,to walk,走,VERB
+camisa,shirt,衬衫,NOUN
+camión,truck,卡车,NOUN
+campamento,camp,营地,NOUN
+campaña,campaign,运动,NOUN
+cansado,tired,累的,ADJ
+cantar,to sing,唱,VERB
+cantidad,quantity,数量,NOUN
+carga,load,负载,NOUN
+carretera,road,公路,NOUN
+carro,car,汽车,NOUN
+casado,married,已婚的,ADJ
+casar,to marry,结婚,VERB
+castillo,castle,城堡,NOUN
+casualidad,coincidence,巧合,NOUN
+celda,cell,牢房,NOUN
+cerdo,pig,猪,NOUN
+cero,zero,零,NUM
+cerrado,closed,关闭的,ADJ
+cerrar,to close,关,VERB
+cerveza,beer,啤酒,NOUN
+chaqueta,jacket,夹克,NOUN
+charla,chat,聊天,NOUN
+cheque,check,支票,NOUN
+cien,hundred,百,NUM
+ciencia,science,科学,NOUN
+ciento,hundred,百,NUM
+cine,cinema,电影院,NOUN
+cinta,tape,磁带,NOUN
+cirugía,surgery,手术,NOUN
+claramente,clearly,清楚地,ADV
+clave,key,钥匙,NOUN
+cobarde,coward,懦夫,ADJ
+coger,to take,拿,VERB
+coincidencia,coincidence,巧合,NOUN
+cola,queue,队列,NOUN
+colega,colleague,同事,NOUN
+colegio,school,学校,NOUN
+comandante,commander,指挥官,NOUN
+combate,combat,战斗,NOUN
+comenzar,to begin,开始,VERB
+comienzo,beginning,开始,NOUN
+compartir,to share,分享,VERB
+completo,complete,完整的,ADJ
+complicado,complicated,复杂的,ADJ
+compromiso,commitment,承诺,NOUN
+computadora,computer,电脑,NOUN
+comunidad,community,社区,NOUN
+común,common,常见的,ADJ
+conciencia,conscience,良心,NOUN
+condición,condition,条件,NOUN
+conducir,to drive,驾驶,VERB
+conexión,connection,连接,NOUN
+confianza,trust,信任,NOUN
+conocimiento,knowledge,知识,NOUN
+consejo,advice,建议,NOUN
+construir,to build,建造,VERB
+contado,cash,现金,ADJ
+contar,to count,数,VERB
+contento,happy,高兴的,ADJ
+continuar,to continue,继续,VERB
+contrario,opposite,相反的,ADJ
+contrato,contract,合同,NOUN
+controlar,to control,控制,VERB
+conversación,conversation,对话,NOUN
+copia,copy,副本,NOUN
+coronel,colonel,上校,NOUN
+correo,mail,邮件,NOUN
+correr,to run,跑,VERB
+corriente,current,电流,NOUN
+corte,cut,切口,NOUN
+corto,short,短,ADJ
+costa,coast,海岸,NOUN
+crear,to create,创造,VERB
+criatura,creature,生物,NOUN
+crédito,credit,信用,NOUN
+cuchillo,knife,刀,NOUN
+cuento,story,故事,NOUN
+cuerpo,body,身体,NOUN
+cuidar,to take care of,照顾,VERB
+culpable,guilty,有罪的,ADJ
+cumplir,to fulfill,履行,VERB
+cura,priest,神父,NOUN
+curiosidad,curiosity,好奇心,NOUN
+curso,course,课程,NOUN
+cámara,camera,相机,NOUN
+cáncer,cancer,癌症,NOUN
+código,code,代码,NOUN
+deber,to have to,必须,VERB
+debido,due,由于,ADJ
+decidido,determined,坚定的,ADJ
+decidir,to decide,决定,VERB
+declaración,statement,声明,NOUN
+dedo,finger,手指,NOUN
+defensa,defense,防御,NOUN
+definitivamente,definitely,肯定地,ADV
+demonio,demon,恶魔,NOUN
+departamento,department,部门,NOUN
+desaparecido,missing,失踪的,ADJ
+desastre,disaster,灾难,NOUN
+desayuno,breakfast,早餐,NOUN
+descansar,to rest,休息,VERB
+descanso,break,休息,NOUN
+descubierto,uncovered,发现的,ADJ
+descubrir,to discover,发现,VERB
+desgracia,misfortune,不幸,NOUN
+despacho,office,办公室,NOUN
+despacio,slowly,慢慢地,ADV
+despierto,awake,醒着的,ADJ
+destruir,to destroy,摧毁,VERB
+detener,to stop,停止,VERB
+diablo,devil,魔鬼,NOUN
+diario,newspaper,报纸,NOUN
+directo,direct,直接的,ADJ
+disco,disc,光盘,NOUN
+disculpa,apology,道歉,NOUN
+discurso,speech,演讲,NOUN
+discutir,to argue,争论,VERB
+disparar,to shoot,射击,VERB
+disparo,shot,射击,NOUN
+dispuesto,willing,愿意的,ADJ
+distancia,distance,距离,NOUN
+diversión,fun,乐趣,NOUN
+doble,double,双倍的,ADJ
+domingo,Sunday,星期日,NOUN
+don,gift,天赋,NOUN
+droga,drug,毒品,NOUN
+dueño,owner,主人,NOUN
+débil,weak,虚弱的,ADJ
+e,and,和,CCONJ
+echar,to throw,扔,VERB
+efectivo,cash,现金,NOUN
+efecto,effect,效果,NOUN
+ejemplo,example,例子,NOUN
+elección,choice,选择,NOUN
+elegir,to choose,选择,VERB
+embarazada,pregnant,怀孕的,ADJ
+emergencia,emergency,紧急情况,NOUN
+empleo,job,工作,NOUN
+empresa,company,公司,NOUN
+enamorado,in love,恋爱中的,ADJ
+encargo,order,委托,NOUN
+enemigo,enemy,敌人,NOUN
+enfermedad,illness,疾病,NOUN
+enfermo,sick,生病的,ADJ
+enorme,enormous,巨大的,ADJ
+enseguida,immediately,立刻,ADV
+entero,whole,整个的,ADJ
+entrada,entrance,入口,NOUN
+entrenador,coach,教练,NOUN
+entrenamiento,training,训练,NOUN
+entrevista,interview,面试,NOUN
+enviar,to send,发送,VERB
+escapar,to escape,逃跑,VERB
+escena,scene,场景,NOUN
+escenario,stage,舞台,NOUN
+escribir,to write,写,VERB
+escrito,written,书面的,ADJ
+esfuerzo,effort,努力,NOUN
+espada,sword,剑,NOUN
+especialmente,especially,特别,ADV
+espectáculo,show,表演,NOUN
+espejo,mirror,镜子,NOUN
+esperanza,hope,希望,NOUN
+espíritu,spirit,精神,NOUN
+esquina,corner,角落,NOUN
+estación,station,车站,NOUN
+estilo,style,风格,NOUN
+estrella,star,星星,NOUN
+estudiante,student,学生,NOUN
+estudiar,to study,学习,VERB
+estudio,study,学习,NOUN
+estupendo,wonderful,极好的,ADJ
+estómago,stomach,胃,NOUN
+evitar,to avoid,避免,VERB
+exacto,exact,精确的,ADJ
+examen,exam,考试,NOUN
+excelente,excellent,优秀的,ADJ
+excusa,excuse,借口,NOUN
+experiencia,experience,经验,NOUN
+explicar,to explain,解释,VERB
+explosión,explosion,爆炸,NOUN
+falso,false,假的,ADJ
+famoso,famous,著名的,ADJ
+fantasma,ghost,鬼魂,NOUN
+fantástico,fantastic,极好的,ADJ
+favorito,favorite,最喜欢的,ADJ
+fe,faith,信仰,NOUN
+fecha,date,日期,NOUN
+felicidad,happiness,幸福,NOUN
+finalmente,finally,最终,ADV
+firma,signature,签名,NOUN
+fiscal,prosecutor,检察官,NOUN
+fortuna,fortune,财富,NOUN
+francés,French,法语,NOUN
+frontera,border,边界,NOUN
+fuente,source,来源,NOUN
+fumar,to smoke,吸烟,VERB
+funcionar,to work,运作,VERB
+fábrica,factory,工厂,NOUN
+fútbol,soccer,足球,NOUN
+ganado,cattle,牲畜,NOUN
+ganas,desire,愿望,NOUN
+gato,cat,猫,NOUN
+genio,genius,天才,NOUN
+golpe,blow,打击,NOUN
+gordo,fat,胖的,ADJ
+gracia,joke,笑话,NOUN
+grado,degree,程度,NOUN
+gratis,free,免费的,ADJ
+grave,serious,严重的,ADJ
+guapa,beautiful,漂亮的,ADJ
+guapo,handsome,英俊的,ADJ
+guardia,guard,警卫,NOUN
+helado,ice cream,冰淇淋,NOUN
+herida,wound,伤口,NOUN
+herido,injured,受伤的,ADJ
+hielo,ice,冰,NOUN
+honesto,honest,诚实的,ADJ
+huir,flee,逃跑,VERB
+humanidad,humanity,人类,NOUN
+humor,mood,心情,NOUN
+héroe,hero,英雄,NOUN
+iglesia,church,教堂,NOUN
+ilegal,illegal,非法的,ADJ
+imagen,image,图像,NOUN
+imaginar,imagine,想象,VERB
+imbécil,idiot,傻瓜,ADJ
+importancia,importance,重要性,NOUN
+impresionante,impressive,令人印象深刻的,ADJ
+incendio,fire,火灾,NOUN
+informe,report,报告,NOUN
+inglés,English,英语,NOUN
+inmediatamente,immediately,立即,ADV
+inmediato,immediate,立即的,ADJ
+inocente,innocent,无辜的,ADJ
+inteligencia,intelligence,智力,NOUN
+intención,intention,意图,NOUN
+intentar,try,尝试,VERB
+interesado,interested,感兴趣的,ADJ
+interés,interest,兴趣,NOUN
+invierno,winter,冬天,NOUN
+invitado,guest,客人,NOUN
+inútil,useless,无用的,ADJ
+ira,anger,愤怒,NOUN
+isla,island,岛屿,NOUN
+jardín,garden,花园,NOUN
+juez,judge,法官,NOUN
+jurado,jury,陪审团,NOUN
+justicia,justice,正义,NOUN
+laboratorio,laboratory,实验室,NOUN
+ladrón,thief,小偷,NOUN
+lago,lake,湖,NOUN
+lección,lesson,课程,NOUN
+leche,milk,牛奶,NOUN
+leer,read,阅读,VERB
+lengua,language,语言,NOUN
+licencia,license,许可证,NOUN
+limpiar,clean,打扫,VERB
+limpio,clean,干净的,ADJ
+lleno,full,满的,ADJ
+llorar,cry,哭泣,VERB
+lluvia,rain,雨,NOUN
+lucha,fight,斗争,NOUN
+luchar,fight,战斗,VERB
+luna,moon,月亮,NOUN
+lunes,Monday,星期一,NOUN
+lástima,pity,遗憾,NOUN
+líder,leader,领导者,NOUN
+lío,mess,混乱,NOUN
+magia,magic,魔法,NOUN
+mando,remote control,遥控器,NOUN
+manejar,drive,驾驶,VERB
+mapa,map,地图,NOUN
+marca,brand,品牌,NOUN
+medicina,medicine,药,NOUN
+memoria,memory,记忆,NOUN
+mentira,lie,谎言,NOUN
+mercado,market,市场,NOUN
+meter,put,放,VERB
+miembro,member,成员,NOUN
+milagro,miracle,奇迹,NOUN
+militar,military,军事的,ADJ
+millón,million,百万,NUM
+mirada,look,目光,NOUN
+modelo,model,模型,NOUN
+monstruo,monster,怪物,NOUN
+montaña,mountain,山,NOUN
+mostrar,show,展示,VERB
+motivo,reason,原因,NOUN
+motor,engine,发动机,NOUN
+mover,move,移动,VERB
+movimiento,movement,运动,NOUN
+muerto,dead,死的,ADJ
+muestra,sample,样品,NOUN
+máximo,maximum,最大,ADJ
+móvil,mobile phone,手机,NOUN
+nacional,national,国家的,ADJ
+nariz,nose,鼻子,NOUN
+naturaleza,nature,自然,NOUN
+necesidad,need,需要,NOUN
+nervioso,nervous,紧张的,ADJ
+nieve,snow,雪,NOUN
+ninguno,none,没有,PRON
+niñera,babysitter,保姆,NOUN
+norte,north,北,NOUN
+nota,note,笔记,NOUN
+noticia,news,新闻,NOUN
+nueve,nine,九,NUM
+objetivo,objective,目标,NOUN
+obra,work,作品,NOUN
+obtener,obtain,获得,VERB
+ocupado,busy,忙碌的,ADJ
+oeste,west,西,NOUN
+ojo,eye,眼睛,NOUN
+opción,option,选项,NOUN
+operación,operation,手术,NOUN
+orgullo,pride,骄傲,NOUN
+oscuridad,darkness,黑暗,NOUN
+oscuro,dark,黑暗的,ADJ
+paciente,patient,耐心的,ADJ
+pago,payment,付款,NOUN
+pan,bread,面包,NOUN
+paquete,package,包裹,NOUN
+parecer,seem,似乎,VERB
+parecido,similar,相似的,ADJ
+pared,wall,墙,NOUN
+pareja,couple,伴侣,NOUN
+parque,park,公园,NOUN
+partido,match,比赛,NOUN
+partir,leave,离开,VERB
+pasillo,hallway,走廊,NOUN
+pecho,chest,胸部,NOUN
+pedazo,piece,块,NOUN
+pelear,fight,打架,VERB
+peligroso,dangerous,危险的,ADJ
+pelota,ball,球,NOUN
+película,movie,电影,NOUN
+periódico,newspaper,报纸,NOUN
+permitir,allow,允许,VERB
+pesadilla,nightmare,噩梦,NOUN
+pesar,weigh,称重,VERB
+pescado,fish,鱼,NOUN
+peso,weight,重量,NOUN
+piedra,stone,石头,NOUN
+piel,skin,皮肤,NOUN
+pierna,leg,腿,NOUN
+pieza,piece,块,NOUN
+piloto,pilot,飞行员,NOUN
+pintura,painting,画,NOUN
+pista,clue,线索,NOUN
+pistola,pistol,手枪,NOUN
+planta,plant,植物,NOUN
+plata,silver,银,NOUN
+playa,beach,海滩,NOUN
+policía,police,警察,NOUN
+pollo,chicken,鸡,NOUN
+polvo,dust,灰尘,NOUN
+política,politics,政治,NOUN
+precio,price,价格,NOUN
+precioso,beautiful,美丽的,ADJ
+preciso,precise,精确的,ADJ
+preguntar,to ask,问,VERB
+premio,prize,奖品,NOUN
+prensa,press,新闻界,NOUN
+preparar,to prepare,准备,VERB
+presencia,presence,存在,NOUN
+presión,pressure,压力,NOUN
+primo,cousin,堂兄弟,NOUN
+principal,main,主要的,ADJ
+privado,private,私人的,ADJ
+probar,to try,尝试,VERB
+proceso,process,过程,NOUN
+profesional,professional,专业的,ADJ
+profundo,deep,深的,ADJ
+promesa,promise,承诺,NOUN
+propiedad,property,财产,NOUN
+propósito,purpose,目的,NOUN
+proteger,to protect,保护,VERB
+príncipe,prince,王子,NOUN
+próximo,next,下一个,ADJ
+puente,bridge,桥,NOUN
+página,page,页,NOUN
+pérdida,loss,损失,NOUN
+quedar,to stay,留下,VERB
+queso,cheese,奶酪,NOUN
+recibir,to receive,收到,VERB
+recoger,to pick up,捡起,VERB
+recordar,to remember,记得,VERB
+recuperar,to recover,恢复,VERB
+regla,rule,规则,NOUN
+reina,queen,女王,NOUN
+reino,kingdom,王国,NOUN
+reloj,clock,钟,NOUN
+resolver,to solve,解决,VERB
+respirar,to breathe,呼吸,VERB
+responder,to answer,回答,VERB
+responsabilidad,responsibility,责任,NOUN
+responsable,responsible,负责的,ADJ
+restaurante,restaurant,餐厅,NOUN
+resultado,result,结果,NOUN
+revisar,to check,检查,VERB
+rico,rich,富有的,ADJ
+ridículo,ridiculous,荒谬的,ADJ
+riesgo,risk,风险,NOUN
+ritmo,rhythm,节奏,NOUN
+robar,to steal,偷窃,VERB
+robo,theft,盗窃,NOUN
+rojo,red,红色的,ADJ
+romper,to break,打破,VERB
+rostro,face,脸,NOUN
+roto,broken,破碎的,ADJ
+ruido,noise,噪音,NOUN
+río,river,河,NOUN
+sal,salt,盐,NOUN
+saltar,to jump,跳跃,VERB
+salud,health,健康,NOUN
+santo,saint,圣人,NOUN
+secreto,secret,秘密,NOUN
+sencillo,simple,简单的,ADJ
+sensación,sensation,感觉,NOUN
+serie,series,系列,NOUN
+servir,to serve,服务,VERB
+siglo,century,世纪,NOUN
+silencio,silence,沉默,NOUN
+silla,chair,椅子,NOUN
+sobrevivir,to survive,幸存,VERB
+sobrina,niece,侄女,NOUN
+sociedad,society,社会,NOUN
+socio,partner,伙伴,NOUN
+soldado,soldier,士兵,NOUN
+solución,solution,解决方案,NOUN
+sombrero,hat,帽子,NOUN
+sonido,sound,声音,NOUN
+sonrisa,smile,微笑,NOUN
+sopa,soup,汤,NOUN
+soportar,to endure,忍受,VERB
+sospechoso,suspicious,可疑的,ADJ
+suave,soft,柔软的,ADJ
+subir,to go up,上升,VERB
+suceder,to happen,发生,VERB
+sucio,dirty,脏的,ADJ
+sur,south,南方,NOUN
+suyo,his/hers/theirs,他的/她的/他们的,PRON
+sábado,Saturday,星期六,NOUN
+talento,talent,天赋,NOUN
+tamaño,size,尺寸,NOUN
+tarea,task,任务,NOUN
+tarjeta,card,卡片,NOUN
+taza,cup,杯子,NOUN
+teatro,theater,剧院,NOUN
+techo,roof,屋顶,NOUN
+temporada,season,季节,NOUN
+teoría,theory,理论,NOUN
+tesoro,treasure,宝藏,NOUN
+testigo,witness,证人,NOUN
+tirar,to throw,扔,VERB
+tocar,to touch,触摸,VERB
+toque,touch,触碰,NOUN
+tormenta,storm,风暴,NOUN
+traer,to bring,带来,VERB
+trampa,trap,陷阱,NOUN
+tranquilo,calm,冷静的,ADJ
+tratamiento,treatment,治疗,NOUN
+tratar,to treat,对待,VERB
+tripulación,crew,船员,NOUN
+truco,trick,诡计,NOUN
+tráfico,traffic,交通,NOUN
+turno,turn,轮班,NOUN
+té,tea,茶,NOUN
+universidad,university,大学,NOUN
+universo,universe,宇宙,NOUN
+uso,use,使用,NOUN
+vacaciones,vacation,假期,NOUN
+vacío,empty,空的,ADJ
+valiente,brave,勇敢的,ADJ
+valor,value,价值,NOUN
+varios,several,几个,ADJ
+vaso,glass,玻璃杯,NOUN
+vecina,neighbor,邻居,NOUN
+vehículo,vehicle,车辆,NOUN
+velocidad,speed,速度,NOUN
+vender,to sell,卖,VERB
+venganza,revenge,复仇,NOUN
+ventaja,advantage,优势,NOUN
+verano,summer,夏天,NOUN
+verdad,truth,真理,NOUN
+verde,green,绿色,ADJ
+vergüenza,shame,羞耻,NOUN
+versión,version,版本,NOUN
+viajar,travel,旅行,VERB
+victoria,victory,胜利,NOUN
+viento,wind,风,NOUN
+viernes,Friday,星期五,NOUN
+violencia,violence,暴力,NOUN
+visita,visit,访问,NOUN
+visión,vision,视力,NOUN
+volar,fly,飞,VERB
+voluntad,will,意志,NOUN
+vuelo,flight,航班,NOUN
+vuestro,your,你们的,DET
+ángel,angel,天使,NOUN
+árbol,tree,树,NOUN
+época,era,时代,NOUN
+útil,useful,有用的,ADJ

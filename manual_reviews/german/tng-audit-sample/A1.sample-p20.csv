@@ -1,0 +1,25 @@
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+6,allein,alone,独自,ADV,de,A1,1,keep,clean
+30,bereit,ready,准备好的,ADJ,de,A1,2,keep,clean
+32,gut,good,好的,ADJ,de,A1,3,keep,clean
+81,einmal,once,一次,ADV,de,A1,4,keep,clean
+119,gehen,to go,走,VERB,de,A1,5,keep,clean
+156,holen,to fetch,去取,VERB,de,A1,6,keep,clean
+175,können,can,能够,AUX,de,A1,7,keep,clean
+211,Menge,amount,数量,NOUN,de,A1,8,keep,clean
+216,möglich,possible,可能的,ADJ,de,A1,9,keep,clean
+221,Mutter,mother,母亲,NOUN,de,A1,10,keep,clean
+222,nach,to / after,到/在...之后,ADP,de,A1,11,keep,clean
+284,Sohn,son,儿子,NOUN,de,A1,12,keep,clean
+343,was,what,什么,PRON,de,A1,13,keep,clean
+348,wissen,to know,知道,VERB,de,A1,14,keep,clean
+353,wenn,if / when,如果/当...时,SCONJ,de,A1,15,keep,clean
+358,wieder,again,再次,ADV,de,A1,16,keep,clean
+405,okay,okay,好的,INTJ,de,A1,17,keep,clean
+410,Recht,right,权利,NOUN,de,A1,18,keep,clean
+448,Nudel,noodle,面条,NOUN,de,A1,19,keep,clean
+479,Rechen,rake,耙子,NOUN,de,A1,20,keep,clean
+516,Vormittag,forenoon,上午,NOUN,de,A1,21,keep,clean
+567,Pfeffer,pepper,胡椒,NOUN,de,A1,22,keep,clean
+568,frieren,freeze,结冰,VERB,de,A1,23,keep,clean
+580,zart,tender,嫩的,ADJ,de,A1,24,keep,clean

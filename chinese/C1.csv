@@ -1,752 +1,529 @@
 Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
-如同,as,如同,NOUN
-如此,thus,如此,NOUN
-妄想,to attempt vainly,妄想,NOUN
-妈,mom,妈,NOUN
-妈咪,mommy,妈咪,NOUN
-妓,prostitute,妓,NOUN
-妓女,prostitute,妓女,NOUN
-妞,girl,妞,NOUN
-妥协,to compromise,妥协,NOUN
-妥善,appropriate,妥善,NOUN
-妥当,appropriate,妥当,NOUN
-妮,Ni,妮,NOUN
-妳,you (female),妳,NOUN
-姆,Mu,姆,NOUN
-姐,sister,姐,NOUN
-姐妹,sisters,姐妹,NOUN
-姑且,temporarily,姑且,NOUN
-姓名,name,姓名,NOUN
+如同,as,如同,SCONJ
+如此,thus,如此,ADV
+妄想,delusion,妄想,NOUN
+妥协,to compromise,妥协,VERB
+妥善,appropriate,妥善,ADJ
+妥当,appropriate,妥当,ADJ
+妳,you (female),妳,PRON
+姑且,temporarily,姑且,ADV
 委员,committee member,委员,NOUN
 委员会,committee,委员会,NOUN
-姿态,attitude,姿态,NOUN
+姿态,posture,姿态,NOUN
 威信,prestige,威信,NOUN
-威利,Willie,威利,NOUN
 威力,might,威力,NOUN
-威士忌,whiskey,威士忌,NOUN
-威尔,Will,威尔,NOUN
-威廉,William,威廉,NOUN
 威望,prestige,威望,NOUN
-威风,might,威风,NOUN
-娃娃,baby,娃娃,NOUN
-娇气,delicate,娇气,NOUN
-娘,girl,娘,NOUN
-娜,name,娜,NOUN
-婆婆,mother-in-law,婆婆,NOUN
-婊子,bitch,婊子,NOUN
-婴儿,infant,婴儿,NOUN
-媒介,media,媒介,NOUN
+威风,majesty,威风,NOUN
+娇气,delicate,娇气,ADJ
+媒介,medium,媒介,NOUN
 媒体,media,媒体,NOUN
 媳妇,daughter-in-law,媳妇,NOUN
-媽,mom,媽,NOUN
-媽媽,mom,媽媽,NOUN
-嫁给,to marry,嫁给,NOUN
-嫂子,(informal) older brother's wife,嫂子,NOUN
-嫉妒,to be jealous,嫉妒,NOUN
-嫌,to dislike,嫌,NOUN
+嫂子,older brother's wife,嫂子,NOUN
+嫉妒,to be jealous,嫉妒,VERB
+嫌,to dislike,嫌,VERB
 嫌犯,suspect,嫌犯,NOUN
 嫌疑,suspicion,嫌疑,NOUN
 嫌疑人,suspect,嫌疑人,NOUN
-子,child,子,NOUN
 子弹,bullet,子弹,NOUN
-孔,hole,孔,NOUN
-孕育,to be pregnant,孕育,NOUN
-字幕组,subtitle team,字幕组,NOUN
+孕育,to nurture,孕育,VERB
 字母,letter (of the alphabet),字母,NOUN
-季,season,季,NOUN
-季军,third in a race,季军,NOUN
+季军,third place,季军,NOUN
 季度,quarter of a year,季度,NOUN
-孤独,lonely,孤独,NOUN
-孤立,isolate,孤立,NOUN
-学,to learn,学,NOUN
-学会,to learn,学会,NOUN
+孤独,lonely,孤独,ADJ
+孤立,to isolate,孤立,VERB
+学会,to learn,学会,VERB
 学位,academic degree,学位,NOUN
-学到,to learn,学到,NOUN
 学历,educational background,学历,NOUN
 学说,theory,学说,NOUN
 学院,academy,学院,NOUN
-學校,school,學校,NOUN
-宁愿,would rather,宁愿,NOUN
-宁肯,would rather...,宁肯,NOUN
-它们,they (things),它们,NOUN
-它会,it will,它会,NOUN
-它們,they,它們,NOUN
-守,to guard,守,NOUN
-守卫,guard,守卫,NOUN
-守护,to guard,守护,NOUN
-安,peace,安,NOUN
-安东尼,Anthony,安东尼,NOUN
+宁愿,would rather,宁愿,ADV
+宁肯,would rather,宁肯,ADV
+它们,they (things),它们,PRON
+守,to guard,守,VERB
+守卫,to guard,守卫,VERB
+守护,to guard,守护,VERB
+安,peaceful,安,ADJ
 安全带,seat belt,安全带,NOUN
-安妮,Annie,安妮,NOUN
-安娜,Anna,安娜,NOUN
-安宁,peaceful,安宁,NOUN
-安居乐业,live in peace and work happily (idiom),安居乐业,NOUN
-安德鲁,Andrew,安德鲁,NOUN
-安心,at ease,安心,NOUN
-安置,to find a place for,安置,NOUN
-安详,serene,安详,NOUN
-安迪,Andy,安迪,NOUN
-宋体,Song font,宋体,NOUN
-完备,faultless,完备,NOUN
-完毕,to finish,完毕,NOUN
-完蛋,finished,完蛋,NOUN
-宏伟,grand,宏伟,NOUN
-宏观,macro-,宏观,NOUN
+安宁,peaceful,安宁,ADJ
+安居乐业,live in peace and work happily,安居乐业,VERB
+安心,at ease,安心,ADJ
+安置,to place,安置,VERB
+安详,serene,安详,ADJ
+宋体,Song typeface,宋体,NOUN
+完备,complete,完备,ADJ
+完毕,to finish,完毕,VERB
+完蛋,finished,完蛋,VERB
+宏伟,grand,宏伟,ADJ
+宏观,macro,宏观,ADJ
 宗旨,objective,宗旨,NOUN
 官员,official,官员,NOUN
-官方,official,官方,NOUN
-定,to set,定,NOUN
+官方,official,官方,ADJ
+定,to set,定,VERB
 定义,definition,定义,NOUN
-定位,locate,定位,NOUN
-定期,regularly,定期,NOUN
+定位,positioning,定位,NOUN
+定期,regular,定期,ADJ
 宝宝,baby,宝宝,NOUN
 宝贝儿,baby,宝贝儿,NOUN
-实事求是,to seek truth from facts (idiom),实事求是,NOUN
+实事求是,seek truth from facts,实事求是,VERB
 实力,strength,实力,NOUN
 实惠,tangible benefit,实惠,NOUN
-实施,to implement,实施,NOUN
+实施,to implement,实施,VERB
 实质,substance,实质,NOUN
-实际上,actually,实际上,NOUN
+实际上,actually,实际上,ADV
 实验室,laboratory,实验室,NOUN
-审判,a trial,审判,NOUN
-审查,to examine,审查,NOUN
-审理,to hear (a case),审理,NOUN
-审美,esthetics,审美,NOUN
+审判,trial,审判,NOUN
+审查,to examine,审查,VERB
+审理,to hear a case,审理,VERB
+审美,aesthetics,审美,NOUN
 客户,client,客户,NOUN
-客气,polite,客气,NOUN
-宣扬,to proclaim,宣扬,NOUN
-宣誓,to swear an oath (of office),宣誓,NOUN
+客气,polite,客气,ADJ
+宣扬,to proclaim,宣扬,VERB
+宣誓,to swear an oath,宣誓,VERB
 室,room,室,NOUN
 室友,roommate,室友,NOUN
-宪法,constitution (of a country),宪法,NOUN
+宪法,constitution,宪法,NOUN
 宫殿,palace,宫殿,NOUN
-宰,to slaughter livestock,宰,NOUN
-害,to harm,害,NOUN
-害死,to cause death,害死,NOUN
+宰,to slaughter,宰,VERB
+害,to harm,害,VERB
+害死,to cause death,害死,VERB
 家人,family,家人,NOUN
-家伙,household dish,家伙,NOUN
-家喻户晓,understood by everyone (idiom); well known,家喻户晓,NOUN
+家伙,guy,家伙,NOUN
+家喻户晓,well known,家喻户晓,ADJ
 家园,homeland,家园,NOUN
 家属,family member,家属,NOUN
-家常,the daily life of a family,家常,NOUN
+家常,everyday family life,家常,NOUN
 家族,clan,家族,NOUN
 家里,at home,家里,NOUN
 家长,parent,家长,NOUN
-容器,receptacle,容器,NOUN
-容忍,to put up with,容忍,NOUN
-容纳,to hold,容纳,NOUN
-容貌,one's appearance,容貌,NOUN
-宽恕,forgive,宽恕,NOUN
-宽敞,spacious,宽敞,NOUN
-寂静,quiet,寂静,NOUN
-寄托,to have sb look after sb,寄托,NOUN
-密封,to seal up,密封,NOUN
+容器,container,容器,NOUN
+容忍,to tolerate,容忍,VERB
+容纳,to hold,容纳,VERB
+容貌,appearance,容貌,NOUN
+宽恕,to forgive,宽恕,VERB
+宽敞,spacious,宽敞,ADJ
+寂静,quiet,寂静,ADJ
+寄托,to entrust,寄托,VERB
+密封,to seal,密封,VERB
 密度,density,密度,NOUN
-富有,rich,富有,NOUN
-富裕,prosperous,富裕,NOUN
-寒暄,exchanging conventional greetings,寒暄,NOUN
+富有,rich,富有,ADJ
+富裕,prosperous,富裕,ADJ
+寒暄,exchange greetings,寒暄,VERB
 寓言,fable,寓言,NOUN
-寫,to write,寫,NOUN
-寶貝,baby,寶貝,NOUN
-对付,to handle,对付,NOUN
-对应,to correspond,对应,NOUN
-对抗,to withstand,对抗,NOUN
-对此,about this,对此,NOUN
-对照,to contrast,对照,NOUN
+对付,handle,对付,VERB
+对应,correspond,对应,VERB
+对抗,resist,对抗,VERB
+对此,regarding this,对此,ADV
+对照,contrast,对照,VERB
 对称,symmetry,对称,NOUN
-对立,to oppose,对立,NOUN
-对策,countermeasure for dealing with a situation,对策,NOUN
-对联,rhyming couplet,对联,NOUN
-寻常,ordinary,寻常,NOUN
-寻求,to seek,寻求,NOUN
-寻觅,to look for,寻觅,NOUN
-导向,to be oriented towards,导向,NOUN
+对立,oppose,对立,VERB
+对策,countermeasure,对策,NOUN
+对联,couplet,对联,NOUN
+寻常,ordinary,寻常,ADJ
+寻求,seek,寻求,VERB
+寻觅,search for,寻觅,VERB
+导向,guide,导向,VERB
 导师,tutor,导师,NOUN
-导弹,guided missile,导弹,NOUN
+导弹,missile,导弹,NOUN
 导航,navigation,导航,NOUN
-封,to seal,封,NOUN
-封信,seal letter,封信,NOUN
-封建,system of enfeoffment,封建,NOUN
-封锁,to blockade,封锁,NOUN
-封闭,to seal,封闭,NOUN
-射,to shoot,射,NOUN
-将,to bring/about to,将,NOUN
-将会,will,将会,NOUN
-将军,general (military),将军,NOUN
-将要,will,将要,NOUN
-将近,almost,将近,NOUN
+封,seal,封,VERB
+封建,feudal,封建,ADJ
+封锁,blockade,封锁,VERB
+封闭,close,封闭,VERB
+射,shoot,射,VERB
+将,will,将,ADV
+将会,will,将会,ADV
+将军,general,将军,NOUN
+将要,will,将要,ADV
+将近,nearly,将近,ADV
 尊严,dignity,尊严,NOUN
-對,correct,對,NOUN
+对,correct,对,ADJ
 小丑,clown,小丑,NOUN
-小事,small matter,小事,NOUN
+小事,trifle,小事,NOUN
 小人,villain,小人,NOUN
-小女孩,little girl,小女孩,NOUN
-小妞,chick,小妞,NOUN
-小姑娘,little girl,小姑娘,NOUN
-小子,kid,小子,NOUN
-小孩,child,小孩,NOUN
-小孩子,child,小孩子,NOUN
-小家伙,little guy,小家伙,NOUN
-小小,small,小小,NOUN
-小小的,tiny,小小的,NOUN
-小屋,cabin,小屋,NOUN
-小岛,small island,小岛,NOUN
-小心翼翼,cautious and solemn (idiom); very carefully,小心翼翼,NOUN
-小时候,childhood,小时候,NOUN
-小時,hour,小時,NOUN
-小朋友,child,小朋友,NOUN
-小狗,puppy,小狗,NOUN
-小男孩,little boy,小男孩,NOUN
+小心翼翼,cautious and solemn (idiom); very carefully,小心翼翼,ADJ
 小组,group,小组,NOUN
-小镇,small town,小镇,NOUN
 小队,squad,小队,NOUN
-小鬼,little devil,小鬼,NOUN
-小鸟,little bird,小鸟,NOUN
 少女,girl,少女,NOUN
 少年,teenager,少年,NOUN
-少来,come on,少来,NOUN
 少校,major,少校,NOUN
-尔,you,尔,NOUN
-尖叫,to scream,尖叫,NOUN
+尖叫,to scream,尖叫,VERB
 尖端,sharp pointed end,尖端,NOUN
-尝尝,taste,尝尝,NOUN
-尝试,to try,尝试,NOUN
-就业,looking for employment,就业,NOUN
-就位,in position,就位,NOUN
-就够,just enough,就够,NOUN
-就是,exactly,就是,NOUN
-就是说,that is,就是说,NOUN
-就算,even if,就算,NOUN
-就职,to take office,就职,NOUN
-就行,that's enough,就行,NOUN
-就行了,that's enough,就行了,NOUN
-就要,about to,就要,NOUN
-就让,just let,就让,NOUN
-就近,nearby,就近,NOUN
-尴尬,awkward,尴尬,NOUN
+尝试,to try,尝试,VERB
+就业,to find employment,就业,VERB
+就位,to be in position,就位,VERB
+就职,to take office,就职,VERB
+就近,nearby,就近,ADV
+尴尬,awkward,尴尬,ADJ
 尸体,dead body,尸体,NOUN
 尺,ruler,尺,NOUN
-尼,Ni,尼,NOUN
-尼克,Nick,尼克,NOUN
-尼尔,Neil,尼尔,NOUN
-尼斯,Nice,尼斯,NOUN
-尽,to exhaust,尽,NOUN
-尽可能,as much as possible,尽可能,NOUN
+尽,to exhaust,尽,VERB
+尽可能,as much as possible,尽可能,ADV
 尽头,the end,尽头,NOUN
-尽快,as quickly as possible,尽快,NOUN
-尽情,to one's heart,尽情,NOUN
+尽快,as quickly as possible,尽快,ADV
+尽情,to one's heart's content,尽情,ADV
 尿,urine,尿,NOUN
 局,bureau,局,NOUN
 局势,situation,局势,NOUN
 局部,part,局部,NOUN
 局长,director,局长,NOUN
-局限,to limit,局限,NOUN
+局限,to limit,局限,VERB
 局面,aspect,局面,NOUN
 屁,fart,屁,NOUN
 屁股,buttocks,屁股,NOUN
-层出不穷,more and more emerge,层出不穷,NOUN
+层出不穷,to emerge one after another,层出不穷,ADJ
 层次,arrangement of ideas,层次,NOUN
-居住,to reside,居住,NOUN
+居住,to reside,居住,VERB
 居民,resident,居民,NOUN
-屈服,to surrender,屈服,NOUN
+屈服,to surrender,屈服,VERB
 屋,house,屋,NOUN
-屋子里,in the house,屋子里,NOUN
-屋里,in the room,屋里,NOUN
 屋顶,roof,屋顶,NOUN
-屎,shit,屎,NOUN
-屏障,protective screen,屏障,NOUN
-屑,bits,屑,NOUN
+屎,feces,屎,NOUN
+屏障,barrier,屏障,NOUN
+屑,scraps,屑,NOUN
 展望,outlook,展望,NOUN
-展现,to come out,展现,NOUN
-展示,to reveal,展示,NOUN
+展现,to display,展现,VERB
+展示,to exhibit,展示,VERB
 屠杀,massacre,屠杀,NOUN
-屡次,repeatedly,屡次,NOUN
-履行,to fulfill (one's obligations),履行,NOUN
+屡次,repeatedly,屡次,ADV
+履行,to fulfill,履行,VERB
 山,mountain,山,NOUN
-山上,on the mountain,山上,NOUN
-山姆,Sam,山姆,NOUN
 山脉,mountain range,山脉,NOUN
 岁月,years,岁月,NOUN
-岂有此理,how can this be so? (idiom); preposterous,岂有此理,NOUN
-岆,rare character,岆,NOUN
-岔,fork in road,岔,NOUN
-岗位,a post,岗位,NOUN
-岛上,on the island,岛上,NOUN
+岂有此理,preposterous,岂有此理,ADJ
+岔,fork,岔,NOUN
+岗位,post,岗位,NOUN
 岛屿,island,岛屿,NOUN
 岩石,rock,岩石,NOUN
-岳父,wife's father,岳父,NOUN
-岿,rare character,岿,NOUN
+岳父,father-in-law,岳父,NOUN
 峡谷,canyon,峡谷,NOUN
-崇拜,to worship,崇拜,NOUN
-崇敬,to revere,崇敬,NOUN
-崇高,majestic,崇高,NOUN
-崩溃,to collapse,崩溃,NOUN
-崭新,brand new,崭新,NOUN
-川流不息,the stream flows without stopping (idiom); unending flow,川流不息,NOUN
+崇拜,to worship,崇拜,VERB
+崇敬,to revere,崇敬,VERB
+崇高,lofty,崇高,ADJ
+崩溃,to collapse,崩溃,VERB
+崭新,brand new,崭新,ADJ
+川流不息,unending flow,川流不息,ADJ
 州,prefecture,州,NOUN
 州长,governor,州长,NOUN
-巡逻,to patrol (police,巡逻,NOUN
+巡逻,to patrol,巡逻,VERB
 工作室,studio,工作室,NOUN
 工夫,time,工夫,NOUN
 工程,engineering,工程,NOUN
-工艺品,handicraft article,工艺品,NOUN
+工艺品,handicraft,工艺品,NOUN
 左,left,左,NOUN
-左右,left and right,左右,NOUN
+左右,approximately,左右,ADV
 巧合,coincidence,巧合,NOUN
 巨人,giant,巨人,NOUN
-巩固,to consolidate,巩固,NOUN
-差劲,lousy,差劲,NOUN
-差点,almost,差点,NOUN
-差距,disparity,差距,NOUN
-已,already,已,NOUN
-已經,already,已經,NOUN
-巴,Ba,巴,NOUN
-巴不得,to be eager for,巴不得,NOUN
-巴克,Buck,巴克,NOUN
+巩固,to consolidate,巩固,VERB
+差劲,lousy,差劲,ADJ
+差点,almost,差点,ADV
+差距,gap,差距,NOUN
+已,already,已,ADV
+巴不得,to be eager for,巴不得,VERB
 巴士,bus,巴士,NOUN
-巴结,to fawn on,巴结,NOUN
-巴西,Brazil,巴西,NOUN
-巴黎,Paris,巴黎,NOUN
+巴结,to fawn on,巴结,VERB
 巷,lane,巷,NOUN
 市,city,市,NOUN
 市民,citizen,市民,NOUN
 市长,mayor,市长,NOUN
-布告,posting on a bulletin board,布告,NOUN
-布局,arrangement,布局,NOUN
-布拉德,Brad,布拉德,NOUN
-布朗,Brown,布朗,NOUN
-布置,to put in order,布置,NOUN
-布莱恩,Brian,布莱恩,NOUN
-布鲁斯,Bruce,布鲁斯,NOUN
+布告,notice,布告,NOUN
+布局,layout,布局,NOUN
+布置,to arrange,布置,VERB
 帅哥,handsome guy,帅哥,NOUN
 师,teacher,师,NOUN
 师父,master,师父,NOUN
-师范,teacher-training,师范,NOUN
-希尔,Hill,希尔,NOUN
-希特勒,Hitler,希特勒,NOUN
+师范,teacher training,师范,NOUN
 帐篷,tent,帐篷,NOUN
-帕,Pa,帕,NOUN
-帝,emperor,帝,NOUN
 帝国,empire,帝国,NOUN
-带上,bring along,带上,NOUN
-带你去,take you to,带你去,NOUN
-带到,bring to,带到,NOUN
-带回,bring back,带回,NOUN
 带子,belt,带子,NOUN
-带我去,take me to,带我去,NOUN
-带来,to bring,带来,NOUN
-带给,bring to,带给,NOUN
-带走,take away,带走,NOUN
-带领,to guide,带领,NOUN
-帮,to help,帮,NOUN
-帮不了,can't help,帮不了,NOUN
-帮个,help,帮个,NOUN
-帮帮,help,帮帮,NOUN
-帮帮我,help me,帮帮我,NOUN
-帶,to bring,帶,NOUN
-常,often,常,NOUN
-常务,routine,常务,NOUN
-常常,often,常常,NOUN
-常年,all year round,常年,NOUN
-幅度,width,幅度,NOUN
-幢,classifier for buildings,幢,NOUN
-幫,to help,幫,NOUN
-幫助,to help,幫助,NOUN
-幫忙,help,幫忙,NOUN
-干什么,what are you doing,干什么,NOUN
-干劲,enthusiasm for doing sth,干劲,NOUN
-干吗,what for,干吗,NOUN
-干嘛,what for,干嘛,NOUN
-干得,do well,干得,NOUN
-干扰,to interfere,干扰,NOUN
-干掉,to kill,干掉,NOUN
+干劲,enthusiasm,干劲,NOUN
+干掉,to kill,干掉,VERB
 干旱,drought,干旱,NOUN
-干活,to work,干活,NOUN
-干涉,to interfere,干涉,NOUN
-干预,to meddle,干预,NOUN
-平凡,commonplace,平凡,NOUN
-平原,field,平原,NOUN
-平坦,level,平坦,NOUN
-平安,safe,平安,NOUN
+干活,to work,干活,VERB
+干涉,to interfere,干涉,VERB
+干预,to intervene,干预,VERB
+平凡,ordinary,平凡,ADJ
+平原,plain,平原,NOUN
+平坦,flat,平坦,ADJ
+平安,safe,平安,ADJ
 平民,civilian,平民,NOUN
-平行,parallel,平行,NOUN
-平面,plane (flat surface),平面,NOUN
-年前,years ago,年前,NOUN
-年度,year (e.g. school year,年度,NOUN
+平行,parallel,平行,ADJ
+平面,plane,平面,NOUN
+年度,annual,年度,NOUN
 年轻人,young person,年轻人,NOUN
-并,and,并,NOUN
-并列,to stand side by side,并列,NOUN
-并存,to exist at the same time,并存,NOUN
-并非,really isn't,并非,NOUN
-幸会,nice to meet you,幸会,NOUN
-幸好,fortunately,幸好,NOUN
+并,and,并,CCONJ
+并列,to stand side by side,并列,VERB
+并存,to coexist,并存,VERB
+并非,is not,并非,ADV
+幸会,nice to meet you,幸会,INTJ
+幸好,fortunately,幸好,ADV
 幸存者,survivor,幸存者,NOUN
-幹,to do,幹,NOUN
-幹什麼,what,幹什麼,NOUN
+干,to do,干,VERB
 幻觉,hallucination,幻觉,NOUN
-幼稚,young,幼稚,NOUN
+幼稚,childish,幼稚,ADJ
 幽灵,ghost,幽灵,NOUN
-幾個,a few,幾個,NOUN
-广阔,wide,广阔,NOUN
-庄严,stately,庄严,NOUN
-庄重,solemn / grave,庄重,NOUN
+广阔,vast,广阔,ADJ
+庄严,solemn,庄严,ADJ
+庄重,solemn,庄重,ADJ
 床,bed,床,NOUN
-床上,on the bed,床上,NOUN
 床单,bed sheet,床单,NOUN
 序言,preface,序言,NOUN
-应,should,应,NOUN
-应得,deserve,应得,NOUN
-应邀,at sb's invitation,应邀,NOUN
-应酬,social niceties,应酬,NOUN
+应,should,应,AUX
+应得,deserve,应得,VERB
+应邀,at someone's invitation,应邀,ADV
+应酬,socialize,应酬,VERB
 底下,underneath,底下,NOUN
 店,shop,店,NOUN
-店里,in shop,店里,NOUN
-庞大,huge,庞大,NOUN
+庞大,huge,庞大,ADJ
 废墟,ruins,废墟,NOUN
 废物,trash,废物,NOUN
-废除,to abolish,废除,NOUN
+废除,abolish,废除,VERB
 度,degree,度,NOUN
-度假,vacation,度假,NOUN
+度假,vacation,度假,VERB
 座右铭,motto,座右铭,NOUN
-庸俗,filthy,庸俗,NOUN
-廉洁,honest,廉洁,NOUN
-延伸,to extend,延伸,NOUN
-延期,to delay,延期,NOUN
-延续,to continue,延续,NOUN
-建,to build,建,NOUN
-建造,to build,建造,NOUN
-开个,start a,开个,NOUN
-开会,hold a meeting,开会,NOUN
-开口,open mouth,开口,NOUN
-开启,open,开启,NOUN
-开展,(begin to) develop,开展,NOUN
-开拓,to break new ground (for agriculture),开拓,NOUN
-开支,expenditures,开支,NOUN
-开明,enlightened,开明,NOUN
-开朗,spacious and well-lit,开朗,NOUN
-开枪,to shoot,开枪,NOUN
+庸俗,vulgar,庸俗,ADJ
+廉洁,incorruptible,廉洁,ADJ
+延伸,extend,延伸,VERB
+延期,postpone,延期,VERB
+延续,continue,延续,VERB
+建,build,建,VERB
+建造,build,建造,VERB
+开会,hold a meeting,开会,VERB
+开口,speak,开口,VERB
+开启,open,开启,VERB
+开展,launch,开展,VERB
+开拓,develop,开拓,VERB
+开支,expenditure,开支,NOUN
+开明,enlightened,开明,ADJ
+开朗,cheerful,开朗,ADJ
+开枪,fire a gun,开枪,VERB
 开水,boiled water,开水,NOUN
-开火,open fire,开火,NOUN
-开着,keep open,开着,NOUN
-开车,to drive,开车,NOUN
-开辟,to open up,开辟,NOUN
-开采,to extract (ore or other resource from a mine),开采,NOUN
-开门,open the door,开门,NOUN
-开阔,wide,开阔,NOUN
-开除,to expel,开除,NOUN
-异常,exceptional,异常,NOUN
-弄清楚,figure out,弄清楚,NOUN
-弄错,get wrong,弄错,NOUN
+开火,open fire,开火,VERB
+开车,drive,开车,VERB
+开辟,open up,开辟,VERB
+开采,mine,开采,VERB
+开阔,open,开阔,ADJ
+开除,to expel,开除,VERB
+异常,abnormal,异常,ADJ
 弊病,malady,弊病,NOUN
 弊端,malpractice,弊端,NOUN
-式,style,式,NOUN
-引发,trigger,引发,NOUN
-引导,to guide,引导,NOUN
-引擎,engine (loanword),引擎,NOUN
-引爆,detonate,引爆,NOUN
-引用,to quote,引用,NOUN
-弗,Fu,弗,NOUN
-弗兰克,Frank,弗兰克,NOUN
-弥漫,to permeate / fill the air,弥漫,NOUN
-弥补,to complement,弥补,NOUN
-弦,bow string,弦,NOUN
+引发,to trigger,引发,VERB
+引导,to guide,引导,VERB
+引擎,engine,引擎,NOUN
+引爆,to detonate,引爆,VERB
+引用,to quote,引用,VERB
+弥漫,to permeate,弥漫,VERB
+弥补,to make up for,弥补,VERB
+弦,string,弦,NOUN
 弧,arc,弧,NOUN
 弱点,weak point,弱点,NOUN
 弹性,flexibility,弹性,NOUN
-强,strong,强,NOUN
-强制,to enforce,强制,NOUN
-强壮,strong,强壮,NOUN
-强大,powerful,强大,NOUN
-强奸,rape,强奸,NOUN
-强尼,Johnny,强尼,NOUN
-强迫,to compel,强迫,NOUN
-归,to return,归,NOUN
-归根到底,(saying) to sum it up...,归根到底,NOUN
-归纳,to sum up,归纳,NOUN
-归还,to return sth,归还,NOUN
-当中,among,当中,NOUN
-当事人,persons involved or implicated,当事人,NOUN
-当作,treat as,当作,NOUN
-当初,at that time,当初,NOUN
-当前,current,当前,NOUN
-当务之急,top priority job,当务之急,NOUN
-当场,at the scene,当场,NOUN
-当年,that year,当年,NOUN
-当心,to take care,当心,NOUN
-当成,treat as,当成,NOUN
-当选,to be elected,当选,NOUN
-当面,to sb's face,当面,NOUN
-录像,video,录像,NOUN
-形态,shape,形态,NOUN
+强,strong,强,ADJ
+强制,to enforce,强制,VERB
+强壮,strong,强壮,ADJ
+强大,powerful,强大,ADJ
+强奸,to rape,强奸,VERB
+强迫,to compel,强迫,VERB
+归,to return,归,VERB
+归纳,to summarize,归纳,VERB
+归还,to return,归还,VERB
+当中,among,当中,ADP
+当事人,person involved,当事人,NOUN
+当作,to treat as,当作,VERB
+当初,at that time,当初,ADV
+当前,current,当前,ADJ
+当务之急,top priority,当务之急,NOUN
+当场,on the spot,当场,ADV
+当年,in those days,当年,NOUN
+当心,to take care,当心,VERB
+当成,to treat as,当成,VERB
+当选,to be elected,当选,VERB
+当面,to someone's face,当面,ADV
+录像,video recording,录像,NOUN
+形态,form,形态,NOUN
 彩票,lottery ticket,彩票,NOUN
 影像,image,影像,NOUN
-影片,movie,影片,NOUN
-彼得,Peter,彼得,NOUN
+影片,film,影片,NOUN
 往事,past events,往事,NOUN
-往前,forward,往前,NOUN
+往前,forward,往前,ADV
 往常,habitually (in the past),往常,NOUN
-征收,to levy (a fine),征收,NOUN
-征服,to conquer,征服,NOUN
-待,to stay,待,NOUN
-待会儿,in a while,待会儿,NOUN
-很久,very long,很久,NOUN
-很久以前,long ago,很久以前,NOUN
-很久没,long time no,很久没,NOUN
-很多,a lot,很多,NOUN
-很多年,many years,很多年,NOUN
-很大,very big,很大,NOUN
-很小,very small,很小,NOUN
-很少,rarely,很少,NOUN
-很快,soon,很快,NOUN
-很棒,great,很棒,NOUN
-很漂亮,very pretty,很漂亮,NOUN
-很糟,very bad,很糟,NOUN
-很酷,very cool,很酷,NOUN
-很长,very long,很长,NOUN
-很难,very hard,很难,NOUN
-後,after,後,NOUN
+征收,to levy,征收,VERB
+征服,to conquer,征服,VERB
+待,to stay,待,VERB
+待会儿,in a while,待会儿,ADV
+很久,for a long time,很久,ADV
+很久以前,long ago,很久以前,ADV
+很多,many,很多,ADJ
+很少,rarely,很少,ADV
+很快,soon,很快,ADV
 徒弟,apprentice,徒弟,NOUN
-得不偿失,(saying) the gains do not make up for the losses,得不偿失,NOUN
-得不到,cannot get,得不到,NOUN
-得了吧,come on,得了吧,NOUN
-得出,to get,得出,NOUN
+得不偿失,the gains do not make up for the losses,得不偿失,VERB
+得出,to deduce,得出,VERB
 得分,score,得分,NOUN
-得到,to get,得到,NOUN
-得力,able,得力,NOUN
-得天独厚,(of an area) rich in resources,得天独厚,NOUN
-得知,to find out,得知,NOUN
-得罪,to commit an offense,得罪,NOUN
-徘徊,to dither,徘徊,NOUN
-從,from,從,NOUN
-復,to revive,復,NOUN
-循序渐进,in sequence,循序渐进,NOUN
-循环,to cycle,循环,NOUN
-微不足道,negligible,微不足道,NOUN
-微观,micro-,微观,NOUN
-微软,Microsoft,微软,NOUN
+得到,to get,得到,VERB
+得力,capable,得力,ADJ
+得天独厚,richly endowed by nature,得天独厚,ADJ
+得知,to find out,得知,VERB
+得罪,to offend,得罪,VERB
+徘徊,to pace back and forth,徘徊,VERB
+复,to resume,复,VERB
+循序渐进,to proceed in an orderly way,循序渐进,VERB
+循环,to cycle,循环,VERB
+微不足道,negligible,微不足道,ADJ
+微观,microscopic,微观,NOUN
 德,virtue,德,NOUN
-德国,Germany,德国,NOUN
-德国人,German,德国人,NOUN
-德州,Texas,德州,NOUN
 心,heart,心,NOUN
-心中,in heart,心中,NOUN
 心得,knowledge gained,心得,NOUN
-心态,attitude (of the heart),心态,NOUN
+心态,attitude,心态,NOUN
 心意,intention,心意,NOUN
-心灵,bright,心灵,NOUN
-心疼,to love dearly,心疼,NOUN
+心灵,soul,心灵,NOUN
+心疼,to love dearly,心疼,VERB
 心眼儿,one's thoughts,心眼儿,NOUN
 心脏病,heart disease,心脏病,NOUN
 心血,heart's blood,心血,NOUN
 心跳,heartbeat,心跳,NOUN
-心里,in heart,心里,NOUN
-必定,be bound to,必定,NOUN
-必須,must,必須,NOUN
+心里,in one's heart,心里,NOUN
+必定,certainly,必定,ADV
 忌讳,taboo,忌讳,NOUN
-忍受,to bear,忍受,NOUN
-忍耐,to show restraint,忍耐,NOUN
+忍受,to endure,忍受,VERB
+忍耐,to endure,忍耐,VERB
 志气,ambition,志气,NOUN
-忘,to forget,忘,NOUN
-忘掉,forget,忘掉,NOUN
-忙碌,busy,忙碌,NOUN
-忠实,faithful,忠实,NOUN
-忠诚,devoted,忠诚,NOUN
-忧郁,sullen,忧郁,NOUN
-快到,arrive soon,快到,NOUN
-快去,go quickly,快去,NOUN
-快来,come quickly,快来,NOUN
-快樂,happy,快樂,NOUN
-快死了,about to die,快死了,NOUN
-快活,happy,快活,NOUN
-快点,hurry up,快点,NOUN
-快要,about to,快要,NOUN
-快速,fast,快速,NOUN
-快點,hurry,快點,NOUN
-忽略,to neglect,忽略,NOUN
-怀孕,pregnant,怀孕,NOUN
-怎,how,怎,NOUN
-怎么办,what to do,怎么办,NOUN
-怎么回事,what's going on,怎么回事,NOUN
-怎样,how,怎样,NOUN
-怎樣,how,怎樣,NOUN
-怎能,how can,怎能,NOUN
-怎麼,how,怎麼,NOUN
-怎麼樣,how about,怎麼樣,NOUN
+忘,to forget,忘,VERB
+忘掉,to forget,忘掉,VERB
+忙碌,busy,忙碌,ADJ
+忠实,faithful,忠实,ADJ
+忠诚,loyal,忠诚,ADJ
+忧郁,melancholy,忧郁,ADJ
+快活,cheerful,快活,ADJ
+快要,about to,快要,ADV
+快速,fast,快速,ADJ
+忽略,to neglect,忽略,VERB
+怀孕,to be pregnant,怀孕,VERB
+怎样,how,怎样,PRON
 怕,to fear,怕,VERB
-思念,to think of,思念,NOUN
-思索,to think deeply,思索,NOUN
+思念,to miss,思念,VERB
+思索,to ponder,思索,VERB
 思绪,train of thought,思绪,NOUN
-思维,(line of) thought,思维,NOUN
-怠慢,to slight,怠慢,NOUN
-急,anxious,急,NOUN
-急于求成,anxious for quick results (idiom); to demand instant success,急于求成,NOUN
-急切,eager,急切,NOUN
-急剧,rapid,急剧,NOUN
-急功近利,seeking instant benefit (idiom); shortsighted vision,急功近利,NOUN
-急躁,impatient / irritable,急躁,NOUN
+思维,thinking,思维,NOUN
+怠慢,to slight,怠慢,VERB
+急,anxious,急,ADJ
+急于求成,anxious for quick results,急于求成,VERB
+急切,eager,急切,ADJ
+急剧,rapid,急剧,ADJ
+急功近利,seeking instant benefit,急功近利,ADJ
+急躁,impatient,急躁,ADJ
 性,sex,性,NOUN
 性交,intercourse,性交,NOUN
 性命,life,性命,NOUN
 性情,nature,性情,NOUN
 性感,sex appeal,性感,NOUN
 性爱,sex,性爱,NOUN
-性能,function,性能,NOUN
-怪,strange,怪,NOUN
+性能,performance,性能,NOUN
+怪,strange,怪,ADJ
 怪人,weirdo,怪人,NOUN
 怪兽,monster,怪兽,NOUN
-怪异,weird,怪异,NOUN
+怪异,weird,怪异,ADJ
 怪物,monster,怪物,NOUN
 怪胎,freak,怪胎,NOUN
-总,always,总,NOUN
-总会,always,总会,NOUN
+总,always,总,ADV
+总会,will surely,总会,ADV
 总和,sum,总和,NOUN
-总得,have to,总得,NOUN
-总有,always have,总有,NOUN
-总有一天,one day,总有一天,NOUN
+总得,have to,总得,ADV
+总有,always have,总有,VERB
+总有一天,one day,总有一天,ADV
 总监,director,总监,NOUN
-总而言之,in short,总而言之,NOUN
+总而言之,in short,总而言之,ADV
 总部,headquarters,总部,NOUN
-恍然大悟,to suddenly realize,恍然大悟,NOUN
-恐吓,to threaten,恐吓,NOUN
+恍然大悟,to suddenly realize,恍然大悟,VERB
+恐吓,to threaten,恐吓,VERB
 恐怖分子,terrorist,恐怖分子,NOUN
 恐惧,fear,恐惧,NOUN
 恐慌,panic,恐慌,NOUN
-恨不得,wishing one could do sth,恨不得,NOUN
-恩,hmm,恩,NOUN
-恩怨,(feeling of) resentment,恩怨,NOUN
-恭喜,congratulations,恭喜,NOUN
-恭敬,deferential,恭敬,NOUN
-恰到好处,it's just perfect,恰到好处,NOUN
-恰巧,fortunately,恰巧,NOUN
-恰当,appropriate,恰当,NOUN
-恳切,earnest,恳切,NOUN
-恶化,to worsen,恶化,NOUN
-恶心,bad habit,恶心,NOUN
-恶梦,nightmare,恶梦,NOUN
-恶魔,demon,恶魔,NOUN
-恼火,to get angry,恼火,NOUN
-悔恨,remorse,悔恨,NOUN
-患者,patient,患者,NOUN
-您好,hello (polite),您好,NOUN
-悬崖峭壁,sheer cliffs and precipitous rock faces (idiom),悬崖峭壁,NOUN
-悬念,suspense in a movie,悬念,NOUN
-悬挂,to suspend,悬挂,NOUN
-悲伤,sad,悲伤,NOUN
+恨不得,to wish one could,恨不得,VERB
+恩,favor; kindness,恩,NOUN
+恩怨,gratitude and resentment; personal feud,恩怨,NOUN
+恭喜,to congratulate,恭喜,VERB
+恭敬,respectful; deferential,恭敬,ADJ
+恰到好处,just right; perfect,恰到好处,ADJ
+恰巧,coincidentally; by chance,恰巧,ADV
+恰当,appropriate; fitting,恰当,ADJ
+恳切,earnest; sincere,恳切,ADJ
+恶化,to worsen; to deteriorate,恶化,VERB
+恶心,nauseous; disgusting,恶心,ADJ
+恶魔,demon; devil,恶魔,NOUN
+恼火,to get angry; annoyed,恼火,ADJ
+悔恨,remorse; regret,悔恨,NOUN
+患者,patient; sufferer,患者,NOUN
+您好,hello (polite),您好,INTJ
+悬崖峭壁,sheer cliffs; precipitous rocks,悬崖峭壁,NOUN
+悬念,suspense,悬念,NOUN
+悬挂,to hang; to suspend,悬挂,VERB
+悲伤,sad; sorrowful,悲伤,ADJ
 悲剧,tragedy,悲剧,NOUN
-悲哀,grieved,悲哀,NOUN
-悲惨,miserable / tragic,悲惨,NOUN
-情,feeling,情,NOUN
-情人,lover,情人,NOUN
-情形,circumstances,情形,NOUN
-情感,emotion,情感,NOUN
-情报,(spy) intelligence,情报,NOUN
-情況,situation,情況,NOUN
-情理,reason,情理,NOUN
-情节,plot,情节,NOUN
-惊人,amazing,惊人,NOUN
-惊动,alarm,惊动,NOUN
-惊喜,surprise,惊喜,NOUN
-惊奇,to be amazed,惊奇,NOUN
-惊讶,amazed,惊讶,NOUN
-惋惜,to feel sorry for a person over sth that should have happened,惋惜,NOUN
-惦记,to think of,惦记,NOUN
-惨,miserable,惨,NOUN
-惩罚,penalty,惩罚,NOUN
+悲哀,sorrowful; pitiful,悲哀,ADJ
+悲惨,miserable; tragic,悲惨,ADJ
+情,feeling; emotion; love,情,NOUN
+情人,lover; sweetheart,情人,NOUN
+情形,situation; circumstances,情形,NOUN
+情感,emotion; feeling,情感,NOUN
+情报,intelligence; information,情报,NOUN
+情理,reason and justice; common sense,情理,NOUN
+情节,plot; episode,情节,NOUN
+惊人,astonishing; amazing,惊人,ADJ
+惊动,to disturb; to alarm,惊动,VERB
+惊喜,pleasant surprise,惊喜,NOUN
+惊奇,to be amazed; surprised,惊奇,ADJ
+惊讶,amazed,惊讶,ADJ
+惋惜,to feel sorry for,惋惜,VERB
+惦记,to keep thinking about,惦记,VERB
+惨,miserable,惨,ADJ
+惩罚,to punish,惩罚,VERB
 惯例,convention,惯例,NOUN
-想不到,unexpectedly,想不到,NOUN
-想像,to imagine,想像,NOUN
-想到,think of,想到,NOUN
-想干什么,what to do,想干什么,NOUN
-想想,to think,想想,NOUN
-想方设法,to think up every possible method (idiom); to devise ways and means,想方设法,NOUN
-想来,want to come,想来,NOUN
+想不到,unexpectedly,想不到,ADV
+想像,to imagine,想像,VERB
+想到,to think of,想到,VERB
+想方设法,to think up every possible method (idiom); to devise ways and means,想方设法,VERB
 想法,idea,想法,NOUN
-想着,thinking about,想着,NOUN
-想要,to want,想要,NOUN
-想见,want to see,想见,NOUN
-想起,to recall,想起,NOUN
-想过,have thought,想过,NOUN
-惹,to provoke,惹,NOUN
-惹祸,stirring up trouble,惹祸,NOUN
-愈,to heal,愈,NOUN
+想要,to want,想要,VERB
+想起,to recall,想起,VERB
+惹,to provoke,惹,VERB
+惹祸,to stir up trouble,惹祸,VERB
+愈,to heal,愈,VERB
 意向,intention,意向,NOUN
-意味着,to signify,意味着,NOUN
+意味着,to signify,意味着,VERB
 意图,intent,意图,NOUN
-意大利,Italy,意大利,NOUN
 意志,will,意志,NOUN
-意料,to anticipate,意料,NOUN
+意料,to anticipate,意料,VERB
 意识,consciousness,意识,NOUN
-愚昧,ignorant,愚昧,NOUN
-愚蠢,silly,愚蠢,NOUN
-愛,love,愛,NOUN
-感,feeling,感,NOUN
-感兴趣,interested,感兴趣,NOUN
-感到,to feel,感到,NOUN
-感慨,to sigh with sorrow,感慨,NOUN
+愚昧,ignorant,愚昧,ADJ
+愚蠢,silly,愚蠢,ADJ
+爱,love,爱,NOUN
+感兴趣,interested,感兴趣,ADJ
+感到,to feel,感到,VERB
+感慨,to sigh with sorrow,感慨,VERB
 感染,infection,感染,NOUN
-感覺,feeling,感覺,NOUN
-感謝,thanks,感謝,NOUN
-感谢上帝,thank God,感谢上帝,NOUN
-感谢您,thank you,感谢您,NOUN
-愣,to look distracted,愣,NOUN
-愿,to wish,愿,NOUN
-慈祥,kindly,慈祥,NOUN
-慌忙,in a great rush,慌忙,NOUN
-慎重,cautious,慎重,NOUN
-慢性,slow and patient,慢性,NOUN
-慢慢,slowly,慢慢,NOUN
-慢慢来,take it slow,慢慢来,NOUN
-慢点,slow down,慢点,NOUN
-慰,comfort,慰,NOUN
-慰问,to express sympathy,慰问,NOUN
-慷慨,vehement,慷慨,NOUN
-憋,to choke,憋,NOUN
-懂吗,understand?,懂吗,NOUN
-懂得,to understand,懂得,NOUN
-應該,should,應該,NOUN
-懒惰,idle,懒惰,NOUN
+愣,distracted,愣,ADJ
+愿,to wish,愿,VERB
+慈祥,kindly,慈祥,ADJ
+慌忙,in a great rush,慌忙,ADJ
+慎重,cautious,慎重,ADJ
+慢性,chronic,慢性,ADJ
+慢慢,slowly,慢慢,ADV
+慰,to comfort,慰,VERB
+慰问,to express sympathy,慰问,VERB
+慷慨,generous,慷慨,ADJ
+憋,to hold back,憋,VERB
+懂得,to understand,懂得,VERB
+懒惰,lazy,懒惰,ADJ
 懦夫,coward,懦夫,NOUN
 戏,play,戏,NOUN
-成,to become,成,NOUN
-成交,to complete a contract,成交,NOUN
+成,to become,成,VERB
+成交,to close a deal,成交,VERB
 成员,member,成员,NOUN
-成天,(coll.) all day long,成天,NOUN
-成心,intentional,成心,NOUN
+成天,all day long,成天,ADV
+成心,intentional,成心,ADJ
 成效,effect,成效,NOUN
-成本,(manufacturing,成本,NOUN
-成為,to become,成為,NOUN
-我会,I will,我会,NOUN
-我來,I'll come,我來,NOUN
-我俩,we two,我俩,NOUN
-我們,we,我們,NOUN
-我先,I first,我先,NOUN
-我刚,I just,我刚,NOUN
-我妈,my mom,我妈,NOUN
-我家,my home,我家,NOUN
-我怕,I'm afraid,我怕,NOUN
-我想,I think,我想,NOUN
-我操,fuck,我操,NOUN
-我敢,I dare,我敢,NOUN
-我會,I will,我會,NOUN
-我本,I originally,我本,NOUN
-我来,I'll come,我来,NOUN
-我查,I'll check,我查,NOUN
-我求,I beg,我求,NOUN
-我点,I point,我点,NOUN
-我爱你,I love you,我爱你,NOUN
-我爸,my dad,我爸,NOUN
-我現,I now,我現,NOUN
-我用,I use,我用,NOUN
-我給,I give,我給,NOUN
-我能,I can,我能,NOUN
-我花,I spend,我花,NOUN
-我要,I want,我要,NOUN
-我覺,I feel,我覺,NOUN
-我见,I see,我见,NOUN
-我试,I try,我试,NOUN
-我该,I should,我该,NOUN
-我读,I read,我读,NOUN
-我错,I'm wrong,我错,NOUN
+成本,cost,成本,NOUN
+我俩,we two,我俩,PRON
 戒备,to take precautions,戒备,NOUN
 或,or,或,PART
 或是,or,或是,NOUN
@@ -755,43 +532,32 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 战场,battlefield,战场,NOUN
 战士,warrior,战士,NOUN
 战役,military campaign,战役,NOUN
-战斗,to fight,战斗,NOUN
+战斗,to fight,战斗,VERB
 战术,tactics,战术,NOUN
 战略,strategy,战略,NOUN
-战胜,defeat,战胜,NOUN
-截至,up to (a time),截至,NOUN
-戰爭,war,戰爭,NOUN
-戴上,put on,戴上,NOUN
-戴夫,Dave,戴夫,NOUN
-戴维,David,戴维,NOUN
+战胜,to defeat,战胜,VERB
+截至,up to (a time),截至,VERB
 房,room,房,NOUN
 房子,house,房子,NOUN
 房租,rent,房租,NOUN
-房間,room,房間,NOUN
 所在,location,所在,NOUN
-所有人,everyone,所有人,NOUN
-所知,known,所知,NOUN
+所有人,everyone,所有人,PRON
+所知,what is known,所知,NOUN
 所说,what is said,所说,NOUN
-扁,flat,扁,NOUN
-扂,rare character,扂,NOUN
+扁,flat,扁,ADJ
 手,hand,手,NOUN
-手上,on hand,手上,NOUN
 手下,subordinate,手下,NOUN
-手中,in hand,手中,NOUN
 手势,gesture,手势,NOUN
 手枪,pistol,手枪,NOUN
 手段,means,手段,NOUN
 手法,technique,手法,NOUN
 手臂,arm,手臂,NOUN
-手艺,craftmanship,手艺,NOUN
-手術,surgery,手術,NOUN
-手里,in hand,手里,NOUN
-才刚,just now,才刚,NOUN
+手艺,craftsmanship,手艺,NOUN
+才刚,just now,才刚,ADV
 才干,ability,才干,NOUN
 才能,ability,才能,NOUN
-才行,only then,才行,NOUN
-扎,to prick,扎,NOUN
-扎实,strong,扎实,NOUN
+扎,to prick,扎,VERB
+扎实,solid,扎实,ADJ
 定理,theorem,定理,NOUN
 范畴,category,范畴,NOUN
 机制,mechanism,机制,NOUN
@@ -799,10 +565,10 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 规范,norm,规范,NOUN
 方针,policy,方针,NOUN
 策略,strategy,策略,NOUN
-途径,channel/approach,途径,NOUN
-层面,level/dimension,层面,NOUN
+途径,approach,途径,NOUN
+层面,level,层面,NOUN
 立场,stance,立场,NOUN
-理念,philosophy,理念,NOUN
+理念,concept,理念,NOUN
 知觉,perception,知觉,NOUN
 直觉,intuition,直觉,NOUN
 梦想,dream,梦想,NOUN
@@ -822,19 +588,19 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 确信,certainty,确信,NOUN
 精确,precise,精确,ADJ
 误解,misunderstand,误解,VERB
-知晓,be aware,知晓,VERB
+知晓,know,知晓,VERB
 识别,identify,识别,VERB
 辨别,distinguish,辨别,VERB
 分类,classify,分类,VERB
 推断,infer,推断,VERB
-推测,speculate,推测,VERB
+推测,infer,推测,VERB
 猜测,guess,猜测,VERB
 评估,evaluate,评估,VERB
 裁定,rule,裁定,VERB
 审议,deliberate,审议,VERB
 回想,recall,回想,VERB
 遗忘,forget,遗忘,VERB
-疏忽,oversight,疏忽,NOUN
+疏忽,negligence,疏忽,NOUN
 缺陷,defect,缺陷,NOUN
 劣势,disadvantage,劣势,NOUN
 强项,strength,强项,NOUN
@@ -869,11 +635,11 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 消除,eliminate,消除,VERB
 清除,clear,清除,VERB
 排除,exclude,排除,VERB
-解除,relieve,解除,VERB
+解除,lift,解除,VERB
 缓和,mitigate,缓和,VERB
 改良,improve,改良,VERB
-变革,transformation,变革,NOUN
-变动,fluctuation,变动,NOUN
+变革,transform,变革,VERB
+变动,change,变动,NOUN
 演变,evolution,演变,NOUN
 演化,evolution,演化,NOUN
 转化,transform,转化,VERB
@@ -885,10 +651,10 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 定居,settle,定居,VERB
 栖息,inhabit,栖息,VERB
 生存,survive,生存,VERB
-展示会,fair,展示会,NOUN
+展示会,exhibition,展示会,NOUN
 美术馆,art gallery,美术馆,NOUN
 文化馆,cultural center,文化馆,NOUN
-体育馆,stadium,体育馆,NOUN
+体育馆,gymnasium,体育馆,NOUN
 大剧院,grand theater,大剧院,NOUN
 音乐厅,concert hall,音乐厅,NOUN
 会议中心,conference center,会议中心,NOUN
@@ -899,14 +665,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 娱乐中心,entertainment center,娱乐中心,NOUN
 研究中心,research center,研究中心,NOUN
 培训中心,training center,培训中心,NOUN
-创新中心,innovation center,创新中心,NOUN
-数据中心,data center,数据中心,NOUN
-指挥中心,command center,指挥中心,NOUN
-控制中心,control center,控制中心,NOUN
-服务中心,service center,服务中心,NOUN
-医疗中心,medical center,医疗中心,NOUN
-健康中心,health center,健康中心,NOUN
-康复中心,rehabilitation center,康复中心,NOUN
 养老院,nursing home,养老院,NOUN
 孤儿院,orphanage,孤儿院,NOUN
 福利院,welfare home,福利院,NOUN
@@ -939,23 +697,23 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 边境,border,边境,NOUN
 证书,certificate,证书,NOUN
 许可证,permit,许可证,NOUN
-许可,permit,许可,VERB
-容许,tolerate,容许,VERB
+许可,permit,许可,NOUN
+容许,allow,容许,VERB
 阻碍,hinder,阻碍,VERB
 困境,predicament,困境,NOUN
 灾难,disaster,灾难,NOUN
 损害,damage,损害,NOUN
-融资,finance,融资,VERB
+融资,financing,融资,NOUN
 债务,debt,债务,NOUN
 资产,asset,资产,NOUN
 资本,capital,资本,NOUN
-经费,expense,经费,NOUN
+经费,funds,经费,NOUN
 产值,output value,产值,NOUN
 支出,expenditure,支出,NOUN
 预算,budget,预算,NOUN
 决算,final accounts,决算,NOUN
-税收,tax,税收,NOUN
-免税,tax-free,免税,ADJ
+税收,tax revenue,税收,NOUN
+免税,tax-exempt,免税,ADJ
 纳税,pay tax,纳税,VERB
 逃税,tax evasion,逃税,NOUN
 关税,tariff,关税,NOUN
@@ -968,30 +726,30 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 仲裁,arbitrate,仲裁,VERB
 争执,dispute,争执,NOUN
 抵抗,resist,抵抗,VERB
-抗击,fight,抗击,VERB
+抗击,fight back,抗击,VERB
 打击,strike,打击,VERB
 攻击,attack,攻击,VERB
 防御,defense,防御,NOUN
 维持,maintain,维持,VERB
 确保,ensure,确保,VERB
 核实,verify,核实,VERB
-查实,investigate,查实,VERB
-审核,audit,审核,VERB
+查实,verify,查实,VERB
+审核,review,审核,VERB
 审批,approve,审批,VERB
 授权,authorize,授权,VERB
-聘任,hire,聘任,VERB
-解雇,fire,解雇,VERB
-离职,leave job,离职,VERB
-换届,transition,换届,NOUN
+聘任,appoint,聘任,VERB
+解雇,dismiss,解雇,VERB
+离职,resign,离职,VERB
+换届,term transition,换届,NOUN
 投票,vote,投票,VERB
 竞选,campaign,竞选,VERB
-落选,lose election,落选,VERB
+落选,lose an election,落选,VERB
 政权,regime,政权,NOUN
 法规,regulation,法规,NOUN
 体制,system,体制,NOUN
 机构,institution,机构,NOUN
 群众,masses,群众,NOUN
-民众,people,民众,NOUN
+民众,public,民众,NOUN
 国民,citizen,国民,NOUN
 村民,villager,村民,NOUN
 牧民,herder,牧民,NOUN
@@ -1005,14 +763,14 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 领导者,leader,领导者,NOUN
 管理者,manager,管理者,NOUN
 执行者,executor,执行者,NOUN
-决策者,decision maker,决策者,NOUN
+决策者,decision-maker,决策者,NOUN
 投资者,investor,投资者,NOUN
 消费者,consumer,消费者,NOUN
 生产者,producer,生产者,NOUN
 供应者,supplier,供应者,NOUN
 购买者,buyer,购买者,NOUN
 销售者,seller,销售者,NOUN
-服务者,server,服务者,NOUN
+服务者,service provider,服务者,NOUN
 受益者,beneficiary,受益者,NOUN
 创始者,founder,创始者,NOUN
 继承者,successor,继承者,NOUN
@@ -1028,7 +786,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 观察者,observer,观察者,NOUN
 记录者,recorder,记录者,NOUN
 报告者,reporter,报告者,NOUN
-传播者,spreader,传播者,NOUN
+传播者,disseminator,传播者,NOUN
 接受者,receiver,接受者,NOUN
 传递者,transmitter,传递者,NOUN
 创造者,creator,创造者,NOUN
@@ -1040,24 +798,19 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 讲师,lecturer,讲师,NOUN
 毕业生,graduate,毕业生,NOUN
 本科生,undergraduate,本科生,NOUN
-博士生,PhD student,博士生,NOUN
+博士生,doctoral student,博士生,NOUN
 留学生,international student,留学生,NOUN
-访问学者,visiting scholar,访问学者,NOUN
 研究员,researcher,研究员,NOUN
 院士,academician,院士,NOUN
-诺贝尔奖,Nobel Prize,诺贝尔奖,NOUN
-奥斯卡奖,Oscar,奥斯卡奖,NOUN
 半决赛,semifinal,半决赛,NOUN
-淘汰赛,knockout,淘汰赛,NOUN
-循环赛,round-robin,循环赛,NOUN
+淘汰赛,knockout match,淘汰赛,NOUN
+循环赛,round-robin tournament,循环赛,NOUN
 表演赛,exhibition match,表演赛,NOUN
 资格赛,qualifier,资格赛,NOUN
 热身赛,warm-up match,热身赛,NOUN
 联赛,league,联赛,NOUN
 锦标赛,tournament,锦标赛,NOUN
-奥运会,Olympics,奥运会,NOUN
-世界杯,World Cup,世界杯,NOUN
-邀请赛,invitation tournament,邀请赛,NOUN
+邀请赛,invitational tournament,邀请赛,NOUN
 公开赛,open tournament,公开赛,NOUN
 运动员,athlete,运动员,NOUN
 裁判,referee,裁判,NOUN
@@ -1067,9 +820,9 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 门票,ticket,门票,NOUN
 赛季,season,赛季,NOUN
 比分,score,比分,NOUN
-打破纪录,break record,打破纪录,VERB
-创造纪录,set record,创造纪录,VERB
-保持纪录,hold record,保持纪录,VERB
+打破纪录,break a record,打破纪录,VERB
+创造纪录,set a record,创造纪录,VERB
+保持纪录,hold a record,保持纪录,VERB
 世界纪录,world record,世界纪录,NOUN
 全国纪录,national record,全国纪录,NOUN
 个人纪录,personal record,个人纪录,NOUN
@@ -1079,16 +832,16 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 素材,source material,素材,NOUN
 题材,subject matter,题材,NOUN
 议题,agenda item,议题,NOUN
-难题,puzzle,难题,NOUN
+难题,difficult problem,难题,NOUN
 课题,research topic,课题,NOUN
 职责,duty,职责,NOUN
 职能,function,职能,NOUN
 职权,authority,职权,NOUN
-权益,rights,权益,NOUN
+权益,rights and interests,权益,NOUN
 福利,welfare,福利,NOUN
 报酬,remuneration,报酬,NOUN
 薪酬,salary,薪酬,NOUN
-理赔,claim,理赔,NOUN
+理赔,claim settlement,理赔,NOUN
 投保,insure,投保,VERB
 承保,underwrite,承保,VERB
 勒索,extort,勒索,VERB
@@ -1111,26 +864,26 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 赦免,pardon,赦免,VERB
 特赦,amnesty,特赦,NOUN
 死刑,death penalty,死刑,NOUN
-终身监禁,life sentence,终身监禁,NOUN
+终身监禁,life imprisonment,终身监禁,NOUN
 有期徒刑,fixed-term imprisonment,有期徒刑,NOUN
 缓刑,suspended sentence,缓刑,NOUN
 假释,parole,假释,NOUN
 减刑,reduce sentence,减刑,VERB
-刑满释放,release after sentence,刑满释放,NOUN
-越狱,prison break,越狱,NOUN
-犯罪,crime,犯罪,NOUN
+刑满释放,release after serving sentence,刑满释放,VERB
+越狱,break out of prison,越狱,VERB
+犯罪,commit a crime,犯罪,VERB
 违法,illegal,违法,ADJ
 合规,compliant,合规,ADJ
-违规,violation,违规,NOUN
-违纪,disciplinary violation,违纪,NOUN
-违约,breach of contract,违约,NOUN
+违规,violate regulations,违规,VERB
+违纪,violate discipline,违纪,VERB
+违约,breach contract,违约,VERB
 索赔,claim damages,索赔,VERB
 起诉,sue,起诉,VERB
-应诉,respond to lawsuit,应诉,VERB
-反诉,counterclaim,反诉,NOUN
-撤诉,drop charges,撤诉,VERB
+应诉,respond to a lawsuit,应诉,VERB
+反诉,counterclaim,反诉,VERB
+撤诉,withdraw a lawsuit,撤诉,VERB
 诉讼,litigation,诉讼,NOUN
-法庭,courtroom,法庭,NOUN
+法庭,court,法庭,NOUN
 最高法院,supreme court,最高法院,NOUN
 修正案,amendment,修正案,NOUN
 条款,clause,条款,NOUN
@@ -1138,37 +891,8 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 公约,convention,公约,NOUN
 宣言,declaration,宣言,NOUN
 通告,notice,通告,NOUN
-通报,circular,通报,NOUN
-汇报,brief,汇报,NOUN
-总结报告,summary report,总结报告,NOUN
-调查报告,investigation report,调查报告,NOUN
-研究报告,research report,研究报告,NOUN
-年度报告,annual report,年度报告,NOUN
-财务报告,financial report,财务报告,NOUN
-市场报告,market report,市场报告,NOUN
-行业报告,industry report,行业报告,NOUN
-技术报告,technical report,技术报告,NOUN
-实验报告,lab report,实验报告,NOUN
-测试报告,test report,测试报告,NOUN
-评估报告,assessment report,评估报告,NOUN
-审计报告,audit report,审计报告,NOUN
-环境影响,environmental impact,环境影响,NOUN
-社会影响,social impact,社会影响,NOUN
-经济影响,economic impact,经济影响,NOUN
-政治影响,political impact,政治影响,NOUN
-文化影响,cultural impact,文化影响,NOUN
-心理影响,psychological impact,心理影响,NOUN
-生理影响,physiological impact,生理影响,NOUN
-直接影响,direct impact,直接影响,NOUN
-间接影响,indirect impact,间接影响,NOUN
-长期影响,long-term impact,长期影响,NOUN
-短期影响,short-term impact,短期影响,NOUN
-正面影响,positive impact,正面影响,NOUN
-负面影响,negative impact,负面影响,NOUN
-深远影响,profound impact,深远影响,NOUN
-广泛影响,widespread impact,广泛影响,NOUN
-重大影响,significant impact,重大影响,NOUN
-轻微影响,minor impact,轻微影响,NOUN
+通报,bulletin,通报,NOUN
+汇报,report,汇报,VERB
 不可避免,unavoidable,不可避免,ADJ
 不可逆转,irreversible,不可逆转,ADJ
 不可估量,immeasurable,不可估量,ADJ
@@ -1188,20 +912,20 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 不可限量,limitless,不可限量,ADJ
 不可逾越,insurmountable,不可逾越,ADJ
 不可企及,unattainable,不可企及,ADJ
-难以置信,hard to believe,难以置信,ADJ
-难以想象,hard to imagine,难以想象,ADJ
-难以预料,hard to predict,难以预料,ADJ
-难以克服,hard to overcome,难以克服,ADJ
-难以避免,hard to avoid,难以避免,ADJ
-难以理解,hard to understand,难以理解,ADJ
-难以接受,hard to accept,难以接受,ADJ
-难以忍受,hard to endure,难以忍受,ADJ
-难以启齿,hard to say,难以启齿,ADJ
+难以置信,unbelievable,难以置信,ADJ
+难以想象,unimaginable,难以想象,ADJ
+难以预料,unpredictable,难以预料,ADJ
+难以克服,insurmountable,难以克服,ADJ
+难以避免,inevitable,难以避免,ADJ
+难以理解,incomprehensible,难以理解,ADJ
+难以接受,unacceptable,难以接受,ADJ
+难以忍受,unbearable,难以忍受,ADJ
+难以启齿,hard to speak of,难以启齿,ADJ
 难以割舍,hard to part with,难以割舍,ADJ
 难以抉择,hard to choose,难以抉择,ADJ
 难以衡量,hard to measure,难以衡量,ADJ
-难以估量,hard to estimate,难以估量,ADJ
-难以描述,hard to describe,难以描述,ADJ
+难以估量,inestimable,难以估量,ADJ
+难以描述,indescribable,难以描述,ADJ
 难以区分,hard to distinguish,难以区分,ADJ
 难以辨别,hard to identify,难以辨别,ADJ
 难以判断,hard to judge,难以判断,ADJ
@@ -1209,213 +933,30 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 难以确定,hard to determine,难以确定,ADJ
 难以确认,hard to confirm,难以确认,ADJ
 难以维持,hard to maintain,难以维持,ADJ
-难以持续,hard to sustain,难以持续,ADJ
+难以持续,unsustainable,难以持续,ADJ
 难以实现,hard to achieve,难以实现,ADJ
 难以完成,hard to complete,难以完成,ADJ
 难以达成,hard to reach,难以达成,ADJ
 难以满足,hard to satisfy,难以满足,ADJ
 难以适应,hard to adapt,难以适应,ADJ
 难以调整,hard to adjust,难以调整,ADJ
-难以控制,hard to control,难以控制,ADJ
+难以控制,uncontrollable,难以控制,ADJ
 难以管理,hard to manage,难以管理,ADJ
 难以操作,hard to operate,难以操作,ADJ
 难以执行,hard to execute,难以执行,ADJ
 难以实施,hard to implement,难以实施,ADJ
 难以推行,hard to promote,难以推行,ADJ
 难以推广,hard to spread,难以推广,ADJ
-难以普及,hard to popularize,难以普及,ADJ
-难以认可,hard to approve,难以认可,ADJ
-难以认同,hard to identify with,难以认同,ADJ
-难以原谅,hard to forgive,难以原谅,ADJ
-难以忘怀,hard to forget,难以忘怀,ADJ
-难以释怀,hard to let go,难以释怀,ADJ
-难以平息,hard to calm,难以平息,ADJ
-难以抑制,hard to suppress,难以抑制,ADJ
-难以克制,hard to restrain,难以克制,ADJ
-难以抗拒,hard to resist,难以抗拒,ADJ
-难以抵御,hard to defend,难以抵御,ADJ
-难以逾越,hard to cross,难以逾越,ADJ
-难以突破,hard to break through,难以突破,ADJ
-难以超越,hard to surpass,难以超越,ADJ
-难以比拟,hard to compare,难以比拟,ADJ
-难以匹配,hard to match,难以匹配,ADJ
-难以替代,hard to replace,难以替代,ADJ
-难以复制,hard to copy,难以复制,ADJ
-难以模仿,hard to imitate,难以模仿,ADJ
-难以企及,hard to reach,难以企及,ADJ
-难以触及,hard to touch,难以触及,ADJ
-难以接近,hard to approach,难以接近,ADJ
-难以沟通,hard to communicate,难以沟通,ADJ
-难以协调,hard to coordinate,难以协调,ADJ
-难以合作,hard to cooperate,难以合作,ADJ
-难以协作,hard to collaborate,难以协作,ADJ
-难以配合,hard to coordinate,难以配合,ADJ
-难以妥协,hard to compromise,难以妥协,ADJ
-难以调解,hard to mediate,难以调解,ADJ
-难以调和,hard to reconcile,难以调和,ADJ
-难以化解,hard to resolve,难以化解,ADJ
-难以消除,hard to eliminate,难以消除,ADJ
-难以预防,hard to prevent,难以预防,ADJ
-难以治愈,hard to cure,难以治愈,ADJ
-难以康复,hard to recover,难以康复,ADJ
-难以生存,hard to survive,难以生存,ADJ
-难以延续,hard to continue,难以延续,ADJ
-难以传承,hard to inherit,难以传承,ADJ
-难以保留,hard to retain,难以保留,ADJ
-难以保护,hard to protect,难以保护,ADJ
-难以保存,hard to preserve,难以保存,ADJ
-难以恢复,hard to restore,难以恢复,ADJ
-难以修复,hard to repair,难以修复,ADJ
-难以弥补,hard to compensate,难以弥补,ADJ
-难以挽回,hard to recover,难以挽回,ADJ
-难以逆转,hard to reverse,难以逆转,ADJ
-难以改变,hard to change,难以改变,ADJ
-难以改造,hard to transform,难以改造,ADJ
-难以改良,hard to improve,难以改良,ADJ
-难以完善,hard to perfect,难以完善,ADJ
-难以优化,hard to optimize,难以优化,ADJ
-难以升级,hard to upgrade,难以升级,ADJ
-难以更新,hard to update,难以更新,ADJ
-难以替换,hard to replace,难以替换,ADJ
-难以迁移,hard to migrate,难以迁移,ADJ
-难以转移,hard to transfer,难以转移,ADJ
-难以运输,hard to transport,难以运输,ADJ
-难以携带,hard to carry,难以携带,ADJ
-难以储存,hard to store,难以储存,ADJ
-难以保管,hard to keep,难以保管,ADJ
-难以处理,hard to process,难以处理,ADJ
-难以处置,hard to dispose,难以处置,ADJ
-难以应对,hard to handle,难以应对,ADJ
-难以应付,hard to cope,难以应付,ADJ
-难以解决,hard to solve,难以解决,ADJ
-难以解答,hard to answer,难以解答,ADJ
-难以解释,hard to explain,难以解释,ADJ
-难以说明,hard to illustrate,难以说明,ADJ
-难以证明,hard to prove,难以证明,ADJ
-难以证实,hard to verify,难以证实,ADJ
-难以否认,hard to deny,难以否认,ADJ
-难以反驳,hard to refute,难以反驳,ADJ
-难以辩论,hard to debate,难以辩论,ADJ
-难以讨论,hard to discuss,难以讨论,ADJ
-难以协商,hard to negotiate,难以协商,ADJ
-难以商议,hard to consult,难以商议,ADJ
-难以商量,hard to discuss,难以商量,ADJ
-难以交流,hard to exchange,难以交流,ADJ
-难以互动,hard to interact,难以互动,ADJ
-难以融入,hard to integrate,难以融入,ADJ
-难以赞同,hard to agree,难以赞同,ADJ
-难以支持,hard to support,难以支持,ADJ
-难以反对,hard to oppose,难以反对,ADJ
-难以批评,hard to criticize,难以批评,ADJ
-难以评价,hard to evaluate,难以评价,ADJ
-难以预测,hard to predict,难以预测,ADJ
-难以估计,hard to estimate,难以估计,ADJ
-难以计算,hard to calculate,难以计算,ADJ
-难以统计,hard to count,难以统计,ADJ
-难以比较,hard to compare,难以比较,ADJ
-难以分辨,hard to differentiate,难以分辨,ADJ
-难以识别,hard to identify,难以识别,ADJ
-难以辨认,hard to recognize,难以辨认,ADJ
-难以察觉,hard to perceive,难以察觉,ADJ
-难以发现,hard to discover,难以发现,ADJ
-难以找到,hard to find,难以找到,ADJ
-难以获得,hard to obtain,难以获得,ADJ
-难以获取,hard to acquire,难以获取,ADJ
-难以取得,hard to achieve,难以取得,ADJ
-难以达到,hard to reach,难以达到,ADJ
-难以符合,hard to meet,难以符合,ADJ
-难以平衡,hard to balance,难以平衡,ADJ
-难以兼顾,hard to balance both,难以兼顾,ADJ
-难以取舍,hard to choose,难以取舍,ADJ
-难以放弃,hard to abandon,难以放弃,ADJ
-难以坚持,hard to persist,难以坚持,ADJ
-难以继续,hard to continue,难以继续,ADJ
-难以中断,hard to interrupt,难以中断,ADJ
-难以停止,hard to stop,难以停止,ADJ
-难以终止,hard to terminate,难以终止,ADJ
-难以结束,hard to end,难以结束,ADJ
-难以开始,hard to start,难以开始,ADJ
-难以启动,hard to launch,难以启动,ADJ
-难以落实,hard to implement,难以落实,ADJ
-难以使用,hard to use,难以使用,ADJ
-难以应用,hard to apply,难以应用,ADJ
-难以传播,hard to spread,难以传播,ADJ
-难以传达,hard to convey,难以传达,ADJ
-难以表达,hard to express,难以表达,ADJ
-难以形容,hard to depict,难以形容,ADJ
-难以描绘,hard to portray,难以描绘,ADJ
-难以刻画,hard to depict,难以刻画,ADJ
-难以记录,hard to record,难以记录,ADJ
-难以存储,hard to store,难以存储,ADJ
-难以记忆,hard to remember,难以记忆,ADJ
-难以忘记,hard to forget,难以忘记,ADJ
-难以承受,hard to endure,难以承受,ADJ
-难以承担,hard to bear,难以承担,ADJ
-难以担负,hard to shoulder,难以担负,ADJ
-难以担当,hard to take on,难以担当,ADJ
-难以胜任,hard to be competent,难以胜任,ADJ
-难以回避,hard to avoid,难以回避,ADJ
-难以逃避,hard to escape,难以逃避,ADJ
-难以面对,hard to face,难以面对,ADJ
-难以正视,hard to confront,难以正视,ADJ
-难以忽视,hard to ignore,难以忽视,ADJ
-难以抹去,hard to erase,难以抹去,ADJ
-难以清除,hard to clear,难以清除,ADJ
-难以去除,hard to remove,难以去除,ADJ
-难以摆脱,hard to shake off,难以摆脱,ADJ
-难以脱离,hard to separate,难以脱离,ADJ
-难以分离,hard to separate,难以分离,ADJ
-难以分割,hard to divide,难以分割,ADJ
-难以拆分,hard to split,难以拆分,ADJ
-难以分解,hard to decompose,难以分解,ADJ
-难以分析,hard to analyze,难以分析,ADJ
-难以解析,hard to parse,难以解析,ADJ
-难以领悟,hard to grasp,难以领悟,ADJ
-难以体会,hard to experience,难以体会,ADJ
-难以感受,hard to feel,难以感受,ADJ
-难以感知,hard to perceive,难以感知,ADJ
-难以观察,hard to observe,难以观察,ADJ
-难以监测,hard to monitor,难以监测,ADJ
-难以监控,hard to monitor,难以监控,ADJ
-难以治理,hard to govern,难以治理,ADJ
-难以统治,hard to rule,难以统治,ADJ
-难以领导,hard to lead,难以领导,ADJ
-难以引导,hard to guide,难以引导,ADJ
-难以指导,hard to instruct,难以指导,ADJ
-难以教导,hard to teach,难以教导,ADJ
-难以教育,hard to educate,难以教育,ADJ
-难以培养,hard to cultivate,难以培养,ADJ
-难以训练,hard to train,难以训练,ADJ
-难以锻炼,hard to exercise,难以锻炼,ADJ
-难以实践,hard to practice,难以实践,ADJ
-难以实习,hard to intern,难以实习,ADJ
-难以试用,hard to try,难以试用,ADJ
-难以测试,hard to test,难以测试,ADJ
-难以检验,hard to inspect,难以检验,ADJ
-难以验证,hard to verify,难以验证,ADJ
-难以表明,hard to show,难以表明,ADJ
-难以展示,hard to display,难以展示,ADJ
-难以展现,hard to exhibit,难以展现,ADJ
-难以呈现,hard to present,难以呈现,ADJ
-难以体现,hard to embody,难以体现,ADJ
-难以反映,hard to reflect,难以反映,ADJ
-难以表示,hard to indicate,难以表示,ADJ
-难以阐述,hard to expound,难以阐述,ADJ
-难以论述,hard to discuss,难以论述,ADJ
-难以论证,hard to argue,难以论证,ADJ
-难以驳斥,hard to rebut,难以驳斥,ADJ
-难以承认,hard to admit,难以承认,ADJ
-难以容忍,hard to tolerate,难以容忍,ADJ
 颁布,promulgate,颁布,VERB
 违抗,disobey,违抗,VERB
-斡旋,intervene,斡旋,VERB
-介入,get involved,介入,VERB
+斡旋,mediate,斡旋,VERB
+介入,intervene,介入,VERB
 缺席,be absent,缺席,VERB
-列席,attend as observer,列席,VERB
+列席,attend as a non-voting delegate,列席,VERB
 召集,convene,召集,VERB
 推进,advance,推进,VERB
 推动,promote,推动,VERB
-督促,supervise,督促,VERB
+督促,urge,督促,VERB
 监督,supervise,监督,VERB
 监察,monitor,监察,VERB
 审计,audit,审计,VERB
@@ -1424,7 +965,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 修订,revise,修订,VERB
 修正,amend,修正,VERB
 调节,regulate,调节,VERB
-调控,control,调控,VERB
+调控,regulate,调控,VERB
 操纵,manipulate,操纵,VERB
 掌控,control,掌控,VERB
 精通,master,精通,VERB
@@ -1432,7 +973,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 界限,boundary,界限,NOUN
 边缘,edge,边缘,NOUN
 前沿,frontier,前沿,NOUN
-领先,leading,领先,ADJ
+领先,lead,领先,VERB
 超越,surpass,超越,VERB
 跨越,leap,跨越,VERB
 突破,breakthrough,突破,NOUN
@@ -1440,9 +981,9 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 投降,surrender,投降,VERB
 撤退,retreat,撤退,VERB
 萧条,depression,萧条,NOUN
-衰退,decline,衰退,NOUN
+衰退,recession,衰退,NOUN
 复苏,recovery,复苏,NOUN
-波动,fluctuate,波动,VERB
+波动,fluctuation,波动,NOUN
 共识,consensus,共识,NOUN
 契约,contract,契约,NOUN
 承诺,commitment,承诺,NOUN
@@ -1461,23 +1002,23 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 守法,law-abiding,守法,ADJ
 申诉,appeal,申诉,NOUN
 上诉,appeal,上诉,NOUN
-终审,final appeal,终审,NOUN
-初审,first trial,初审,NOUN
+终审,final judgment,终审,NOUN
+初审,first instance,初审,NOUN
 复审,review,复审,NOUN
 再审,retrial,再审,NOUN
-陪审,jury,陪审,NOUN
-庭审,court session,庭审,NOUN
+陪审,jury service,陪审,NOUN
+庭审,court hearing,庭审,NOUN
 听证,hearing,听证,NOUN
 质询,inquiry,质询,NOUN
 追问,follow up,追问,VERB
 盘问,interrogate,盘问,VERB
 审问,interrogate,审问,VERB
 拷问,torture,拷问,VERB
-逼供,extort confession,逼供,VERB
+逼供,extort a confession,逼供,VERB
 招供,confess,招供,VERB
-检举,report,检举,VERB
+检举,report (an offense),检举,VERB
 揭发,expose,揭发,VERB
-举报,report,举报,VERB
+举报,report (to authorities),举报,VERB
 控告,accuse,控告,VERB
 控诉,accuse,控诉,VERB
 辩护,defend,辩护,VERB
@@ -1499,17 +1040,13 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 决议,resolution,决议,NOUN
 宣判,pronounce,宣判,VERB
 量刑,sentence,量刑,VERB
-加刑,increase sentence,加刑,VERB
-免刑,exempt from punishment,免刑,VERB
 大赦,amnesty,大赦,NOUN
 保释,bail,保释,NOUN
-取保候审,bail pending trial,取保候审,NOUN
-监视居住,residential surveillance,监视居住,NOUN
 拘押,detain,拘押,VERB
 关押,imprison,关押,VERB
 囚禁,imprison,囚禁,VERB
 软禁,house arrest,软禁,NOUN
-逃亡,flee,逃亡,NOUN
+逃亡,flee,逃亡,VERB
 潜逃,abscond,潜逃,VERB
 通缉,wanted,通缉,VERB
 追捕,pursue,追捕,VERB
@@ -1517,20 +1054,20 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 归案,brought to justice,归案,VERB
 自首,surrender,自首,VERB
 投案,give oneself up,投案,VERB
-报案,report case,报案,VERB
-立案,file case,立案,VERB
-销案,close case,销案,VERB
-结案,close case,结案,VERB
+报案,report a crime,报案,VERB
+立案,file a case,立案,VERB
+销案,close a case,销案,VERB
+结案,close a case,结案,VERB
 悬案,cold case,悬案,NOUN
-冤案,wrongful case,冤案,NOUN
-错案,wrongful case,错案,NOUN
+冤案,wrongful conviction,冤案,NOUN
+错案,miscarriage of justice,错案,NOUN
 铁案,ironclad case,铁案,NOUN
 疑案,unsolved case,疑案,NOUN
 奇案,bizarre case,奇案,NOUN
 大案,major case,大案,NOUN
 要案,important case,要案,NOUN
-命案,murder case,命案,NOUN
-凶杀,murder,凶杀,NOUN
+命案,homicide,命案,NOUN
+凶杀,homicide,凶杀,NOUN
 谋杀,murder,谋杀,NOUN
 暗杀,assassination,暗杀,NOUN
 刺杀,assassinate,刺杀,VERB
@@ -1559,34 +1096,27 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 暴乱,insurrection,暴乱,NOUN
 政变,coup,政变,NOUN
 兵变,mutiny,兵变,NOUN
-哗变,mutiny,哗变,VERB
+哗变,mutiny,哗变,NOUN
 叛变,defect,叛变,VERB
 叛逃,defect,叛逃,VERB
-投敌,defect to enemy,投敌,VERB
+投敌,defect to the enemy,投敌,VERB
 叛国,treason,叛国,NOUN
-卖国,betray country,卖国,VERB
+卖国,betray one's country,卖国,VERB
 爱国,patriotic,爱国,ADJ
-报国,serve country,报国,VERB
-卫国,defend country,卫国,VERB
-建国,found country,建国,VERB
-治国,govern country,治国,VERB
-兴国,prosper country,兴国,VERB
-强国,strong country,强国,NOUN
-富国,rich country,富国,NOUN
+报国,serve one's country,报国,VERB
+卫国,defend one's country,卫国,VERB
+建国,found a country,建国,VERB
+治国,govern a country,治国,VERB
+兴国,revitalize a nation,兴国,VERB
+强国,powerful nation,强国,NOUN
+富国,wealthy nation,富国,NOUN
 大国,great power,大国,NOUN
 王国,kingdom,王国,NOUN
 联邦,federation,联邦,NOUN
 邦联,confederation,邦联,NOUN
 同盟,alliance,同盟,NOUN
 联盟,league,联盟,NOUN
-联合国,United Nations,联合国,NOUN
-东盟,ASEAN,东盟,NOUN
-欧盟,EU,欧盟,NOUN
-北约,NATO,北约,NOUN
-世贸,WTO,世贸,NOUN
-世卫,WHO,世卫,NOUN
-世行,World Bank,世行,NOUN
-国币,currency,国币,NOUN
+国币,national currency,国币,NOUN
 外汇,foreign exchange,外汇,NOUN
 外债,foreign debt,外债,NOUN
 内债,domestic debt,内债,NOUN
@@ -1609,7 +1139,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 仲裁人,arbitrator,仲裁人,NOUN
 公证人,notary,公证人,NOUN
 目击者,eyewitness,目击者,NOUN
-相关人,related person,相关人,NOUN
 知情人,insider,知情人,NOUN
 局内人,insider,局内人,NOUN
 局外人,outsider,局外人,NOUN
@@ -1622,8 +1151,8 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 分析师,analyst,分析师,NOUN
 咨询师,consultant,咨询师,NOUN
 顾问,advisor,顾问,NOUN
-学长,senior,学长,NOUN
-学姐,senior female,学姐,NOUN
+学长,senior male student,学长,NOUN
+学姐,senior female student,学姐,NOUN
 校友,alumnus,校友,NOUN
 租客,tenant,租客,NOUN
 雇主,employer,雇主,NOUN
@@ -1632,20 +1161,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 股东,shareholder,股东,NOUN
 董事长,chairman,董事长,NOUN
 总经理,general manager,总经理,NOUN
-部门经理,department manager,部门经理,NOUN
-项目经理,project manager,项目经理,NOUN
-产品经理,product manager,产品经理,NOUN
-市场经理,marketing manager,市场经理,NOUN
-销售经理,sales manager,销售经理,NOUN
-财务经理,finance manager,财务经理,NOUN
-人事经理,HR manager,人事经理,NOUN
-运营经理,operations manager,运营经理,NOUN
-技术经理,tech manager,技术经理,NOUN
-研发经理,R&D manager,研发经理,NOUN
-质量经理,quality manager,质量经理,NOUN
-安全经理,safety manager,安全经理,NOUN
-物流经理,logistics manager,物流经理,NOUN
-采购经理,procurement manager,采购经理,NOUN
 供应链,supply chain,供应链,NOUN
 产业链,industry chain,产业链,NOUN
 价值链,value chain,价值链,NOUN
@@ -1653,132 +1168,17 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 食物链,food chain,食物链,NOUN
 区块链,blockchain,区块链,NOUN
 大数据,big data,大数据,NOUN
-人工智能,AI,人工智能,NOUN
+人工智能,artificial intelligence,人工智能,NOUN
 机器学习,machine learning,机器学习,NOUN
-深度学习,deep learning,深度学习,NOUN
-自然语言,natural language,自然语言,NOUN
-语言处理,language processing,语言处理,NOUN
-图像识别,image recognition,图像识别,NOUN
-语音识别,speech recognition,语音识别,NOUN
-人脸识别,face recognition,人脸识别,NOUN
-指纹识别,fingerprint recognition,指纹识别,NOUN
-虹膜识别,iris recognition,虹膜识别,NOUN
-声纹识别,voiceprint recognition,声纹识别,NOUN
-步态识别,gait recognition,步态识别,NOUN
-行为识别,behavior recognition,行为识别,NOUN
-情感识别,emotion recognition,情感识别,NOUN
-意图识别,intent recognition,意图识别,NOUN
-实体识别,entity recognition,实体识别,NOUN
-关系识别,relation recognition,关系识别,NOUN
-事件识别,event recognition,事件识别,NOUN
-场景识别,scene recognition,场景识别,NOUN
-物体识别,object recognition,物体识别,NOUN
-动作识别,action recognition,动作识别,NOUN
-手势识别,gesture recognition,手势识别,NOUN
-姿态识别,pose recognition,姿态识别,NOUN
-表情识别,expression recognition,表情识别,NOUN
-情绪识别,mood recognition,情绪识别,NOUN
-性格识别,personality recognition,性格识别,NOUN
-身份识别,identity recognition,身份识别,NOUN
-资质识别,qualification recognition,资质识别,NOUN
-权限识别,permission recognition,权限识别,NOUN
-风险识别,risk recognition,风险识别,NOUN
-机会识别,opportunity recognition,机会识别,NOUN
-趋势识别,trend recognition,趋势识别,NOUN
-模式识别,pattern recognition,模式识别,NOUN
-异常识别,anomaly recognition,异常识别,NOUN
-故障识别,fault recognition,故障识别,NOUN
-缺陷识别,defect recognition,缺陷识别,NOUN
-漏洞识别,vulnerability recognition,漏洞识别,NOUN
-威胁识别,threat recognition,威胁识别,NOUN
-攻击识别,attack recognition,攻击识别,NOUN
-入侵识别,intrusion recognition,入侵识别,NOUN
-欺诈识别,fraud recognition,欺诈识别,NOUN
-虚假识别,fake recognition,虚假识别,NOUN
-谣言识别,rumor recognition,谣言识别,NOUN
-偏见识别,bias recognition,偏见识别,NOUN
-歧视识别,discrimination recognition,歧视识别,NOUN
-仇恨识别,hate recognition,仇恨识别,NOUN
-暴力识别,violence recognition,暴力识别,NOUN
-色情识别,pornography recognition,色情识别,NOUN
-垃圾识别,spam recognition,垃圾识别,NOUN
-广告识别,ad recognition,广告识别,NOUN
-新闻识别,news recognition,新闻识别,NOUN
-评论识别,review recognition,评论识别,NOUN
-反馈识别,feedback recognition,反馈识别,NOUN
-投诉识别,complaint recognition,投诉识别,NOUN
-建议识别,suggestion recognition,建议识别,NOUN
-咨询识别,inquiry recognition,咨询识别,NOUN
-求助识别,help recognition,求助识别,NOUN
-报警识别,alarm recognition,报警识别,NOUN
-预警识别,warning recognition,预警识别,NOUN
-监测识别,monitoring recognition,监测识别,NOUN
-检测识别,detection recognition,检测识别,NOUN
-检验识别,inspection recognition,检验识别,NOUN
-测试识别,test recognition,测试识别,NOUN
-验证识别,verification recognition,验证识别,NOUN
-认证识别,authentication recognition,认证识别,NOUN
-授权识别,authorization recognition,授权识别,NOUN
-鉴权识别,authentication recognition,鉴权识别,NOUN
-角色识别,role recognition,角色识别,NOUN
-用户识别,user recognition,用户识别,NOUN
-客户识别,customer recognition,客户识别,NOUN
-会员识别,member recognition,会员识别,NOUN
-访客识别,visitor recognition,访客识别,NOUN
-员工识别,employee recognition,员工识别,NOUN
-管理者识别,manager recognition,管理者识别,NOUN
-领导识别,leader recognition,领导识别,NOUN
-专家识别,expert recognition,专家识别,NOUN
-学者识别,scholar recognition,学者识别,NOUN
-研究员识别,researcher recognition,研究员识别,NOUN
-分析师识别,analyst recognition,分析师识别,NOUN
-顾问识别,consultant recognition,顾问识别,NOUN
-志愿者识别,volunteer recognition,志愿者识别,NOUN
-参与者识别,participant recognition,参与者识别,NOUN
-组织者识别,organizer recognition,组织者识别,NOUN
-领导者识别,leader recognition,领导者识别,NOUN
-执行者识别,executor recognition,执行者识别,NOUN
-决策者识别,decision-maker recognition,决策者识别,NOUN
-投资者识别,investor recognition,投资者识别,NOUN
-消费者识别,consumer recognition,消费者识别,NOUN
-生产者识别,producer recognition,生产者识别,NOUN
-供应者识别,supplier recognition,供应者识别,NOUN
-购买者识别,buyer recognition,购买者识别,NOUN
-销售者识别,seller recognition,销售者识别,NOUN
-服务者识别,server recognition,服务者识别,NOUN
-受益者识别,beneficiary recognition,受益者识别,NOUN
-受害者识别,victim recognition,受害者识别,NOUN
-创始者识别,founder recognition,创始者识别,NOUN
-继承者识别,successor recognition,继承者识别,NOUN
-追随者识别,follower recognition,追随者识别,NOUN
-支持者识别,supporter recognition,支持者识别,NOUN
-反对者识别,opponent recognition,反对者识别,NOUN
-竞争者识别,competitor recognition,竞争者识别,NOUN
-合作者识别,collaborator recognition,合作者识别,NOUN
-协调者识别,coordinator recognition,协调者识别,NOUN
-调解者识别,mediator recognition,调解者识别,NOUN
-仲裁者识别,arbitrator recognition,仲裁者识别,NOUN
-监督者识别,supervisor recognition,监督者识别,NOUN
-观察者识别,observer recognition,观察者识别,NOUN
-记录者识别,recorder recognition,记录者识别,NOUN
-报告者识别,reporter recognition,报告者识别,NOUN
-传播者识别,spreader recognition,传播者识别,NOUN
-接受者识别,receiver recognition,接受者识别,NOUN
-传递者识别,transmitter recognition,传递者识别,NOUN
-创造者识别,creator recognition,创造者识别,NOUN
-发明者识别,inventor recognition,发明者识别,NOUN
-发现者识别,discoverer recognition,发现者识别,NOUN
-探索者识别,explorer recognition,探索者识别,NOUN
-研究者识别,researcher recognition,研究者识别,NOUN
 便利店,convenience store,便利店,NOUN
-百货,department store,百货,NOUN
-商场,mall,商场,NOUN
+百货商店,department store,百货商店,NOUN
+商场,shopping mall,商场,NOUN
 咖啡馆,cafe,咖啡馆,NOUN
 酒店,hotel,酒店,NOUN
 旅馆,inn,旅馆,NOUN
 招待所,guest house,招待所,NOUN
-民宿,B&B,民宿,NOUN
-四合院,courtyard house,四合院,NOUN
+民宿,homestay,民宿,NOUN
+四合院,siheyuan,四合院,NOUN
 阁楼,attic,阁楼,NOUN
 走廊,corridor,走廊,NOUN
 楼梯,stairs,楼梯,NOUN
@@ -1801,7 +1201,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 空手道,karate,空手道,NOUN
 剑道,kendo,剑道,NOUN
 射箭,archery,射箭,NOUN
-马术,equestrian,马术,NOUN
+马术,equestrianism,马术,NOUN
 击剑,fencing,击剑,NOUN
 体操,gymnastics,体操,NOUN
 跳水,diving,跳水,NOUN
@@ -1813,8 +1213,8 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 冲浪,surfing,冲浪,NOUN
 帆船,sailing,帆船,NOUN
 赛艇,rowing,赛艇,NOUN
-皮划艇,kayak,皮划艇,NOUN
-潜水,diving,潜水,NOUN
+皮划艇,kayaking,皮划艇,NOUN
+潜水,scuba diving,潜水,NOUN
 蹦极,bungee jumping,蹦极,NOUN
 跳伞,parachuting,跳伞,NOUN
 滑翔,gliding,滑翔,NOUN
@@ -1828,8 +1228,8 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 野餐,picnic,野餐,NOUN
 聚餐,dinner party,聚餐,NOUN
 宴席,banquet,宴席,NOUN
-酒席,wedding feast,酒席,NOUN
-喜酒,wedding wine,喜酒,NOUN
+酒席,banquet,酒席,NOUN
+喜酒,wedding banquet,喜酒,NOUN
 满月酒,full moon banquet,满月酒,NOUN
 寿宴,birthday banquet,寿宴,NOUN
 庆功宴,victory banquet,庆功宴,NOUN
@@ -1873,7 +1273,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 西兰花,broccoli,西兰花,NOUN
 花菜,cauliflower,花菜,NOUN
 卷心菜,cabbage,卷心菜,NOUN
-圆白菜,cabbage,圆白菜,NOUN
 茄子,eggplant,茄子,NOUN
 番茄,tomato,番茄,NOUN
 冬瓜,winter melon,冬瓜,NOUN
@@ -1881,16 +1280,13 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 丝瓜,loofah,丝瓜,NOUN
 苦瓜,bitter melon,苦瓜,NOUN
 青椒,green pepper,青椒,NOUN
-红椒,red pepper,红椒,NOUN
 彩椒,bell pepper,彩椒,NOUN
 蘑菇,mushroom,蘑菇,NOUN
-香菇,shiitake,香菇,NOUN
-金针菇,enoki,金针菇,NOUN
-木耳,wood ear,木耳,NOUN
+香菇,shiitake mushroom,香菇,NOUN
+金针菇,enoki mushroom,金针菇,NOUN
+木耳,wood ear mushroom,木耳,NOUN
 银耳,snow fungus,银耳,NOUN
 竹笋,bamboo shoot,竹笋,NOUN
-春笋,spring bamboo shoot,春笋,NOUN
-冬笋,winter bamboo shoot,冬笋,NOUN
 大米,rice,大米,NOUN
 糯米,glutinous rice,糯米,NOUN
 燕麦,oats,燕麦,NOUN
@@ -1898,8 +1294,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 小米,millet,小米,NOUN
 高粱,sorghum,高粱,NOUN
 红薯,sweet potato,红薯,NOUN
-紫薯,purple sweet potato,紫薯,NOUN
-山药,yam,山药,NOUN
+山药,Chinese yam,山药,NOUN
 芋头,taro,芋头,NOUN
 木薯,cassava,木薯,NOUN
 莲藕,lotus root,莲藕,NOUN
@@ -1970,11 +1365,10 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 细菌,bacteria,细菌,NOUN
 真菌,fungus,真菌,NOUN
 寄生虫,parasite,寄生虫,NOUN
-蔓延,spread,蔓延,NOUN
-扩散,diffuse,扩散,NOUN
-隔离,quarantine,隔离,NOUN
-封城,lockdown,封城,NOUN
-戴口罩,wear mask,戴口罩,VERB
+蔓延,spread,蔓延,VERB
+扩散,diffuse,扩散,VERB
+隔离,quarantine,隔离,VERB
+封城,lockdown,封城,VERB
 社交距离,social distancing,社交距离,NOUN
 核酸检测,nucleic acid test,核酸检测,NOUN
 抗原检测,antigen test,抗原检测,NOUN
@@ -2018,30 +1412,29 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 止血,stop bleeding,止血,VERB
 包扎,bandage,包扎,VERB
 消毒,disinfect,消毒,VERB
-缝合,stitch,缝合,VERB
+缝合,suture,缝合,VERB
 拆线,remove stitches,拆线,VERB
-打石膏,put cast,打石膏,VERB
+打石膏,apply a cast,打石膏,VERB
 拄拐,use crutches,拄拐,VERB
-坐轮椅,wheelchair,坐轮椅,NOUN
-住院,hospitalize,住院,VERB
-出院,leave hospital,出院,NOUN
-转院,transfer hospital,转院,NOUN
+坐轮椅,use a wheelchair,坐轮椅,VERB
+住院,be hospitalized,住院,VERB
+出院,leave hospital,出院,VERB
+转院,transfer to another hospital,转院,VERB
 急诊,emergency,急诊,NOUN
 门诊,outpatient,门诊,NOUN
-住院部,inpatient dept,住院部,NOUN
+住院部,inpatient department,住院部,NOUN
 手术室,operating room,手术室,NOUN
-重症监护,ICU,重症监护,NOUN
+重症监护,intensive care,重症监护,NOUN
 病房,ward,病房,NOUN
 病床,hospital bed,病床,NOUN
 病历,medical record,病历,NOUN
 处方,prescription,处方,NOUN
 药方,prescription,药方,NOUN
-配药,dispense,配药,VERB
+配药,dispense medicine,配药,VERB
 服药,take medicine,服药,VERB
-输液,IV drip,输液,NOUN
-抽血,draw blood,抽血,NOUN
-拍片,x-ray,拍片,NOUN
-CT,CT scan,CT,NOUN
+输液,intravenous drip,输液,NOUN
+抽血,draw blood,抽血,VERB
+拍片,take an x-ray,拍片,VERB
 核磁共振,MRI,核磁共振,NOUN
 B超,ultrasound,B超,NOUN
 心电图,ECG,心电图,NOUN
@@ -2051,7 +1444,7 @@ B超,ultrasound,B超,NOUN
 活检,biopsy,活检,NOUN
 穿刺,puncture,穿刺,NOUN
 支架,stent,支架,NOUN
-搭桥,bypass,搭桥,NOUN
+搭桥手术,bypass surgery,搭桥手术,NOUN
 移植,transplant,移植,NOUN
 化疗,chemotherapy,化疗,NOUN
 放疗,radiotherapy,放疗,NOUN
@@ -2061,8 +1454,6 @@ B超,ultrasound,B超,NOUN
 干细胞,stem cell,干细胞,NOUN
 克隆,clone,克隆,NOUN
 染色体,chromosome,染色体,NOUN
-DNA,DNA,DNA,NOUN
-RNA,RNA,RNA,NOUN
 蛋白质,protein,蛋白质,NOUN
 氨基酸,amino acid,氨基酸,NOUN
 酶,enzyme,酶,NOUN
@@ -2070,7 +1461,7 @@ RNA,RNA,RNA,NOUN
 维生素,vitamin,维生素,NOUN
 矿物质,mineral,矿物质,NOUN
 微量元素,trace element,微量元素,NOUN
-抗氧化,antioxidant,抗氧化,NOUN
+抗氧化剂,antioxidant,抗氧化剂,NOUN
 益生菌,probiotic,益生菌,NOUN
 新陈代谢,metabolism,新陈代谢,NOUN
 光合作用,photosynthesis,光合作用,NOUN
@@ -2088,7 +1479,6 @@ RNA,RNA,RNA,NOUN
 生物多样性,biodiversity,生物多样性,NOUN
 栖息地,habitat,栖息地,NOUN
 保护区,reserve,保护区,NOUN
-国家公园,national park,国家公园,NOUN
 濒危,endangered,濒危,ADJ
 保育,conservation,保育,NOUN
 重建,rebuild,重建,VERB
@@ -2102,13 +1492,12 @@ RNA,RNA,RNA,NOUN
 短缺,shortage,短缺,NOUN
 过剩,surplus,过剩,NOUN
 饱和,saturated,饱和,ADJ
-匮乏,depletion,匮乏,NOUN
-枯竭,exhaust,枯竭,NOUN
+匮乏,scarcity,匮乏,NOUN
+枯竭,exhaustion,枯竭,NOUN
 再生,regenerate,再生,VERB
 可持续,sustainable,可持续,ADJ
 可再生,renewable,可再生,ADJ
 不可再生,non-renewable,不可再生,ADJ
-清洁能源,clean energy,清洁能源,NOUN
 太阳能,solar energy,太阳能,NOUN
 风能,wind energy,风能,NOUN
 水能,hydro energy,水能,NOUN
@@ -2117,12 +1506,10 @@ RNA,RNA,RNA,NOUN
 潮汐,tidal,潮汐,ADJ
 生物质,biomass,生物质,NOUN
 氢能,hydrogen energy,氢能,NOUN
-化石燃料,fossil fuel,化石燃料,NOUN
 石油,petroleum,石油,NOUN
 页岩气,shale gas,页岩气,NOUN
 可燃冰,flammable ice,可燃冰,NOUN
-碳排放,carbon emission,碳排放,NOUN
-碳中和,carbon neutral,碳中和,NOUN
+碳中和,carbon neutrality,碳中和,NOUN
 碳达峰,carbon peak,碳达峰,NOUN
 温室气体,greenhouse gas,温室气体,NOUN
 气候变化,climate change,气候变化,NOUN
@@ -2140,7 +1527,7 @@ RNA,RNA,RNA,NOUN
 沙尘暴,sandstorm,沙尘暴,NOUN
 雾霾,smog,雾霾,NOUN
 废水,wastewater,废水,NOUN
-废气,exhaust,废气,NOUN
+废气,exhaust gas,废气,NOUN
 废渣,waste residue,废渣,NOUN
 垃圾分类,waste sorting,垃圾分类,NOUN
 回收利用,recycling,回收利用,NOUN
@@ -2150,17 +1537,17 @@ RNA,RNA,RNA,NOUN
 堆肥,compost,堆肥,NOUN
 环保,environmental protection,环保,NOUN
 绿色,green,绿色,ADJ
-低碳,low carbon,低碳,ADJ
+低碳,low-carbon,低碳,ADJ
 节能,energy saving,节能,NOUN
 减排,emission reduction,减排,NOUN
 绿化,greening,绿化,NOUN
 植树,plant trees,植树,VERB
-造林,afforest,造林,VERB
-砍伐,deforest,砍伐,VERB
-退耕还林,return farmland to forest,退耕还林,NOUN
+造林,afforestation,造林,NOUN
+砍伐,deforestation,砍伐,NOUN
+退耕还林,returning farmland to forest,退耕还林,NOUN
 水土流失,soil erosion,水土流失,NOUN
 沙漠化,desertification,沙漠化,NOUN
-石漠化,rock desertification,石漠化,NOUN
+石漠化,rocky desertification,石漠化,NOUN
 盐碱化,salinization,盐碱化,NOUN
 湿地,wetland,湿地,NOUN
 滩涂,tidal flat,滩涂,NOUN
@@ -2173,7 +1560,7 @@ RNA,RNA,RNA,NOUN
 原始森林,primeval forest,原始森林,NOUN
 人工林,plantation,人工林,NOUN
 社区,community,社区,NOUN
-社交,social,社交,ADJ
+社交,socializing,社交,NOUN
 社论,editorial,社论,NOUN
 社团,association,社团,NOUN
 社会学家,sociologist,社会学家,NOUN
@@ -2231,40 +1618,23 @@ RNA,RNA,RNA,NOUN
 社会和解,social reconciliation,社会和解,NOUN
 社会妥协,social compromise,社会妥协,NOUN
 社会共识,social consensus,社会共识,NOUN
-社会协议,social agreement,社会协议,NOUN
 社会契约,social contract,社会契约,NOUN
-社会承诺,social commitment,社会承诺,NOUN
 社会信任,social trust,社会信任,NOUN
 社会信用,social credit,社会信用,NOUN
-社会声誉,social reputation,社会声誉,NOUN
-社会形象,social image,社会形象,NOUN
 社会身份,social identity,社会身份,NOUN
 社会角色,social role,社会角色,NOUN
 社会期望,social expectation,社会期望,NOUN
-社会评价,social evaluation,社会评价,NOUN
 社会认可,social recognition,社会认可,NOUN
-社会接受,social acceptance,社会接受,NOUN
-社会刻板印象,social stereotype,社会刻板印象,NOUN
-社会标签,social label,社会标签,NOUN
-社会分类,social classification,社会分类,NOUN
 社会等级,social hierarchy,社会等级,NOUN
 社会不平等,social inequality,社会不平等,NOUN
 社会权利,social rights,社会权利,NOUN
 社会义务,social obligation,社会义务,NOUN
 社会效益,social benefit,社会效益,NOUN
 社会成本,social cost,社会成本,NOUN
-社会后果,social consequence,社会后果,NOUN
-社会风险,social risk,社会风险,NOUN
 社会危机,social crisis,社会危机,NOUN
-社会挑战,social challenge,社会挑战,NOUN
-社会机遇,social opportunity,社会机遇,NOUN
 社会趋势,social trend,社会趋势,NOUN
-社会潮流,social trend,社会潮流,NOUN
-社会时尚,social fashion,社会时尚,NOUN
 社会风气,social ethos,社会风气,NOUN
 社会习俗,social custom,社会习俗,NOUN
-社会文化,social culture,社会文化,NOUN
-社会文明,social civilization,社会文明,NOUN
 社会演变,social evolution,社会演变,NOUN
 社会变迁,social change,社会变迁,NOUN
 社会转型,social transformation,社会转型,NOUN
@@ -2276,7 +1646,6 @@ RNA,RNA,RNA,NOUN
 社会新闻,social news,社会新闻,NOUN
 社会评论,social commentary,社会评论,NOUN
 社会批评,social criticism,社会批评,NOUN
-社会建议,social suggestion,社会建议,NOUN
 社会倡议,social initiative,社会倡议,NOUN
 社会呼吁,social appeal,社会呼吁,NOUN
 社会动员,social mobilization,社会动员,NOUN
@@ -2288,73 +1657,15 @@ RNA,RNA,RNA,NOUN
 社会研究,social research,社会研究,NOUN
 社会分析,social analysis,社会分析,NOUN
 社会评估,social assessment,社会评估,NOUN
-社会监测,social monitoring,社会监测,NOUN
-社会预警,social early warning,社会预警,NOUN
-社会报告,social report,社会报告,NOUN
 社会统计,social statistics,社会统计,NOUN
-社会数据,social data,社会数据,NOUN
-社会信息,social information,社会信息,NOUN
-社会知识,social knowledge,社会知识,NOUN
-社会智慧,social wisdom,社会智慧,NOUN
-社会经验,social experience,社会经验,NOUN
-社会教训,social lesson,社会教训,NOUN
-社会启示,social insight,社会启示,NOUN
 社会反思,social reflection,社会反思,NOUN
 社会觉悟,social awareness,社会觉悟,NOUN
 社会觉醒,social awakening,社会觉醒,NOUN
 社会启蒙,social enlightenment,社会启蒙,NOUN
-社会教育,social education,社会教育,NOUN
-社会宣传,social propaganda,社会宣传,NOUN
-社会传播,social dissemination,社会传播,NOUN
-社会推广,social promotion,社会推广,NOUN
-社会普及,social popularization,社会普及,NOUN
-社会创新,social innovation,社会创新,NOUN
-社会创业,social entrepreneurship,社会创业,NOUN
-社会企业,social enterprise,社会企业,NOUN
-社会投资,social investment,社会投资,NOUN
-社会融资,social financing,社会融资,NOUN
-社会基金,social fund,社会基金,NOUN
-社会捐赠,social donation,社会捐赠,NOUN
-社会慈善,social charity,社会慈善,NOUN
-社会公益,social public good,社会公益,NOUN
-社会志愿服务,social volunteering,社会志愿服务,NOUN
-社会互助,social mutual aid,社会互助,NOUN
-社会救助,social relief,社会救助,NOUN
-社会扶贫,social poverty alleviation,社会扶贫,NOUN
-社会帮困,social assistance,社会帮困,NOUN
-社会关爱,social care,社会关爱,NOUN
-社会关怀,social concern,社会关怀,NOUN
-社会温暖,social warmth,社会温暖,NOUN
-社会冷漠,social apathy,社会冷漠,NOUN
-社会怀疑,social skepticism,社会怀疑,NOUN
-社会焦虑,social anxiety,社会焦虑,NOUN
-社会恐惧,social fear,社会恐惧,NOUN
-社会愤怒,social anger,社会愤怒,NOUN
-社会不满,social discontent,社会不满,NOUN
-社会怨恨,social resentment,社会怨恨,NOUN
-社会仇恨,social hatred,社会仇恨,NOUN
-社会暴力,social violence,社会暴力,NOUN
-社会对抗,social confrontation,社会对抗,NOUN
-社会对立,social opposition,社会对立,NOUN
-社会分裂,social division,社会分裂,NOUN
-社会分化,social polarization,社会分化,NOUN
-社会融合,social integration,社会融合,NOUN
-社会团结,social solidarity,社会团结,NOUN
-社会凝聚,social cohesion,社会凝聚,NOUN
-社会协调,social coordination,社会协调,NOUN
-社会平衡,social balance,社会平衡,NOUN
-社会安全,social security,社会安全,NOUN
-社会法治,social rule of law,社会法治,NOUN
-社会民主,social democracy,社会民主,NOUN
-社会自由,social freedom,社会自由,NOUN
-社会人权,social human rights,社会人权,NOUN
-社会尊严,social dignity,社会尊严,NOUN
-社会尊重,social respect,社会尊重,NOUN
-社会宽容,social tolerance,社会宽容,NOUN
-社会理解,social understanding,社会理解,NOUN
-社会同理,social empathy,社会同理,NOUN
-社会支持,social support,社会支持,NOUN
-社会帮助,social help,社会帮助,NOUN
+法治,rule of law,法治,NOUN
+人权,human rights,人权,NOUN
+宽容,tolerance,宽容,NOUN
+同理,empathy,同理,NOUN
 芯片,chip,芯片,NOUN
 半导体,semiconductor,半导体,NOUN
 处理器,processor,处理器,NOUN
@@ -2368,7 +1679,7 @@ RNA,RNA,RNA,NOUN
 散热器,heatsink,散热器,NOUN
 机箱,case,机箱,NOUN
 显示器,monitor,显示器,NOUN
-耳机,headphone,耳机,NOUN
+耳机,headphones,耳机,NOUN
 音箱,speaker,音箱,NOUN
 摄像头,webcam,摄像头,NOUN
 打印机,printer,打印机,NOUN
@@ -2382,10 +1693,7 @@ RNA,RNA,RNA,NOUN
 操作系统,operating system,操作系统,NOUN
 数据库,database,数据库,NOUN
 云计算,cloud computing,云计算,NOUN
-物联网,IoT,物联网,NOUN
-5G,5G,5G,NOUN
-6G,6G,6G,NOUN
-WiFi,WiFi,WiFi,NOUN
+物联网,Internet of Things,物联网,NOUN
 蓝牙,Bluetooth,蓝牙,NOUN
 二维码,QR code,二维码,NOUN
 条形码,barcode,条形码,NOUN
@@ -2398,10 +1706,10 @@ WiFi,WiFi,WiFi,NOUN
 智能合约,smart contract,智能合约,NOUN
 去中心化,decentralization,去中心化,NOUN
 元宇宙,metaverse,元宇宙,NOUN
-虚拟现实,VR,虚拟现实,NOUN
-增强现实,AR,增强现实,NOUN
-混合现实,MR,混合现实,NOUN
-扩展现实,XR,扩展现实,NOUN
+虚拟现实,virtual reality,虚拟现实,NOUN
+增强现实,augmented reality,增强现实,NOUN
+混合现实,mixed reality,混合现实,NOUN
+扩展现实,extended reality,扩展现实,NOUN
 3D打印,3D printing,3D打印,NOUN
 纳米技术,nanotechnology,纳米技术,NOUN
 生物技术,biotechnology,生物技术,NOUN
@@ -2413,7 +1721,7 @@ WiFi,WiFi,WiFi,NOUN
 绿色技术,green technology,绿色技术,NOUN
 环保技术,environmental technology,环保技术,NOUN
 碳捕获,carbon capture,碳捕获,NOUN
-碳封存,carbon storage,碳封存,NOUN
+碳封存,carbon sequestration,碳封存,NOUN
 碳交易,carbon trading,碳交易,NOUN
 碳税,carbon tax,碳税,NOUN
 碳足迹,carbon footprint,碳足迹,NOUN
@@ -2431,14 +1739,14 @@ WiFi,WiFi,WiFi,NOUN
 汞,mercury,汞,NOUN
 稀土,rare earth,稀土,NOUN
 钻石,diamond,钻石,NOUN
-翡翠,jade,翡翠,NOUN
+翡翠,jadeite,翡翠,NOUN
 珍珠,pearl,珍珠,NOUN
 琥珀,amber,琥珀,NOUN
 珊瑚,coral,珊瑚,NOUN
 象牙,ivory,象牙,NOUN
-犀角,rhino horn,犀角,NOUN
+犀角,rhinoceros horn,犀角,NOUN
 皮革,leather,皮革,NOUN
-棉布,cotton,棉布,NOUN
+棉布,cotton cloth,棉布,NOUN
 麻布,linen,麻布,NOUN
 羊毛,wool,羊毛,NOUN
 羊绒,cashmere,羊绒,NOUN
@@ -2446,13 +1754,13 @@ WiFi,WiFi,WiFi,NOUN
 涤纶,polyester,涤纶,NOUN
 尼龙,nylon,尼龙,NOUN
 氨纶,spandex,氨纶,NOUN
-国画,Chinese painting,国画,NOUN
+国画,traditional Chinese painting,国画,NOUN
 油画,oil painting,油画,NOUN
 水彩,watercolor,水彩,NOUN
 素描,sketch,素描,NOUN
-版画,printmaking,版画,NOUN
+版画,print,版画,NOUN
 雕塑,sculpture,雕塑,NOUN
-陶艺,ceramics,陶艺,NOUN
+陶艺,ceramic art,陶艺,NOUN
 剪纸,paper cutting,剪纸,NOUN
 刺绣,embroidery,刺绣,NOUN
 编织,weaving,编织,NOUN
@@ -2461,48 +1769,10 @@ WiFi,WiFi,WiFi,NOUN
 漆器,lacquerware,漆器,NOUN
 青铜器,bronze ware,青铜器,NOUN
 玉器,jade ware,玉器,NOUN
-文物,artifact,文物,NOUN
+文物,cultural relic,文物,NOUN
 遗产,heritage,遗产,NOUN
 遗址,ruins,遗址,NOUN
 古迹,historical site,古迹,NOUN
-故宫,Forbidden City,故宫,NOUN
-兵马俑,Terracotta Army,兵马俑,NOUN
-敦煌,Dunhuang,敦煌,NOUN
-莫高窟,Mogao Caves,莫高窟,NOUN
-龙门石窟,Longmen Grottoes,龙门石窟,NOUN
-云冈石窟,Yungang Grottoes,云冈石窟,NOUN
-乐山大佛,Leshan Buddha,乐山大佛,NOUN
-泰山,Mount Tai,泰山,NOUN
-黄山,Mount Huang,黄山,NOUN
-华山,Mount Hua,华山,NOUN
-峨眉山,Mount Emei,峨眉山,NOUN
-九寨沟,Jiuzhaigou,九寨沟,NOUN
-张家界,Zhangjiajie,张家界,NOUN
-桂林,Guilin,桂林,NOUN
-西湖,West Lake,西湖,NOUN
-太湖,Taihu Lake,太湖,NOUN
-鄱阳湖,Poyang Lake,鄱阳湖,NOUN
-洞庭湖,Dongting Lake,洞庭湖,NOUN
-洪泽湖,Hongze Lake,洪泽湖,NOUN
-巢湖,Chao Lake,巢湖,NOUN
-青海湖,Qinghai Lake,青海湖,NOUN
-纳木错,Namtso,纳木错,NOUN
-羊卓雍错,Yamdrok Lake,羊卓雍错,NOUN
-班公湖,Pangong Lake,班公湖,NOUN
-博斯腾湖,Bosten Lake,博斯腾湖,NOUN
-黄河,Yellow River,黄河,NOUN
-珠江,Pearl River,珠江,NOUN
-黑龙江,Heilongjiang,黑龙江,NOUN
-雅鲁藏布江,Yarlung Tsangpo,雅鲁藏布江,NOUN
-澜沧江,Lancang River,澜沧江,NOUN
-怒江,Nu River,怒江,NOUN
-金沙江,Jinsha River,金沙江,NOUN
-嘉陵江,Jialing River,嘉陵江,NOUN
-汉江,Han River,汉江,NOUN
-湘江,Xiang River,湘江,NOUN
-赣江,Gan River,赣江,NOUN
-闽江,Min River,闽江,NOUN
-钱塘江,Qiantang River,钱塘江,NOUN
 钢琴,piano,钢琴,NOUN
 小提琴,violin,小提琴,NOUN
 大提琴,cello,大提琴,NOUN
@@ -2519,18 +1789,9 @@ WiFi,WiFi,WiFi,NOUN
 编钟,bianzhong,编钟,NOUN
 锣,gong,锣,NOUN
 钹,cymbal,钹,NOUN
-木鱼,wooden fish,木鱼,NOUN
-越剧,Yue opera,越剧,NOUN
-黄梅戏,Huangmei opera,黄梅戏,NOUN
-豫剧,Yu opera,豫剧,NOUN
-评剧,Ping opera,评剧,NOUN
-秦腔,Qinqiang,秦腔,NOUN
-川剧,Sichuan opera,川剧,NOUN
-粤剧,Cantonese opera,粤剧,NOUN
 话剧,stage play,话剧,NOUN
 音乐剧,musical,音乐剧,NOUN
 歌剧,opera,歌剧,NOUN
-舞剧,dance drama,舞剧,NOUN
 芭蕾,ballet,芭蕾,NOUN
 现代舞,modern dance,现代舞,NOUN
 街舞,street dance,街舞,NOUN
@@ -2559,38 +1820,29 @@ WiFi,WiFi,WiFi,NOUN
 摔跤,wrestling,摔跤,NOUN
 举重,weightlifting,举重,NOUN
 田径,track and field,田径,NOUN
-花样游泳,synchronized swimming,花样游泳,NOUN
 马拉松,marathon,马拉松,NOUN
-铁人三项,triathlon,铁人三项,NOUN
-现代五项,modern pentathlon,现代五项,NOUN
 擦拭,wipe,擦拭,VERB
 洗涤,wash,洗涤,VERB
-晾晒,dry in sun,晾晒,VERB
+晾晒,dry in the sun,晾晒,VERB
 熨烫,iron,熨烫,VERB
 缝补,mend,缝补,VERB
 裁剪,cut,裁剪,VERB
 种植,plant,种植,VERB
-浇水,water,浇水,VERB
-施肥,fertilize,施肥,VERB
 修剪,prune,修剪,VERB
 采摘,pick,采摘,VERB
-捕鱼,fish,捕鱼,VERB
 狩猎,hunt,狩猎,VERB
 饲养,raise,饲养,VERB
 放牧,graze,放牧,VERB
-挤奶,milk,挤奶,VERB
-剪毛,shear,剪毛,VERB
 屠宰,slaughter,屠宰,VERB
 腌制,pickle,腌制,VERB
-晾干,air dry,晾干,VERB
-烘干,bake dry,烘干,VERB
+烘干,dry,烘干,VERB
 冷冻,freeze,冷冻,VERB
 解冻,thaw,解冻,VERB
 加热,heat,加热,VERB
 煮沸,boil,煮沸,VERB
 蒸煮,steam,蒸煮,VERB
 烘烤,bake,烘烤,VERB
-煎炒,stir fry,煎炒,VERB
+煎炒,stir-fry,煎炒,VERB
 炖煮,stew,炖煮,VERB
 焖烧,braise,焖烧,VERB
 调味,season,调味,VERB
@@ -2603,7 +1855,7 @@ WiFi,WiFi,WiFi,NOUN
 流脓,fester,流脓,VERB
 思路,train of thought,思路,NOUN
 果断,decisive,果断,ADJ
-动摇,wavering,动摇,ADJ
+动摇,waver,动摇,VERB
 执着,persistent,执着,ADJ
 退让,yield,退让,VERB
 进取,forge ahead,进取,VERB
@@ -2649,7 +1901,6 @@ WiFi,WiFi,WiFi,NOUN
 凭单,voucher,凭单,NOUN
 汇票,draft,汇票,NOUN
 本票,promissory note,本票,NOUN
-信用证,letter of credit,信用证,NOUN
 押金,deposit,押金,NOUN
 红利,dividend,红利,NOUN
 佣金,commission,佣金,NOUN
@@ -2663,8 +1914,8 @@ WiFi,WiFi,WiFi,NOUN
 捐赠,donation,捐赠,NOUN
 赞助,sponsorship,赞助,NOUN
 集资,fundraising,集资,NOUN
-筹资,raise funds,筹资,NOUN
-募捐,solicit donations,募捐,NOUN
+筹资,raise funds,筹资,VERB
+募捐,solicit donations,募捐,VERB
 众筹,crowdfunding,众筹,NOUN
 众包,crowdsourcing,众包,NOUN
 外包,outsourcing,外包,NOUN
@@ -2673,19 +1924,10 @@ WiFi,WiFi,WiFi,NOUN
 创客,maker,创客,NOUN
 极客,geek,极客,NOUN
 黑客,hacker,黑客,NOUN
-创客空间,makerspace,创客空间,NOUN
 孵化器,incubator,孵化器,NOUN
 加速器,accelerator,加速器,NOUN
-创业园,startup park,创业园,NOUN
-科技园,science park,科技园,NOUN
-产业园,industrial park,产业园,NOUN
 开发区,development zone,开发区,NOUN
-保税区,bonded zone,保税区,NOUN
-自贸区,free trade zone,自贸区,NOUN
 特区,special zone,特区,NOUN
-新区,new district,新区,NOUN
-高新区,high-tech zone,高新区,NOUN
-经济技术开发区,economic development zone,经济技术开发区,NOUN
 杰出,distinguished,杰出,ADJ
 平庸,mediocre,平庸,ADJ
 低劣,inferior,低劣,ADJ
@@ -2699,41 +1941,35 @@ WiFi,WiFi,WiFi,NOUN
 珍贵,precious,珍贵,ADJ
 稀有,rare,稀有,ADJ
 常见,common,常见,ADJ
-普通,ordinary,普通,ADJ
 非典型,atypical,非典型,ADJ
-非标,non-standard,非标,ADJ
 非正式,informal,非正式,ADJ
 民间,folk,民间,ADJ
 前卫,avant-garde,前卫,ADJ
 激进,radical,激进,ADJ
 稳健,steady,稳健,ADJ
 脆弱,fragile,脆弱,ADJ
-柔软,soft,柔软,ADJ
 敏捷,agile,敏捷,ADJ
 迟缓,sluggish,迟缓,ADJ
-缓慢,slow,缓慢,ADJ
 高效,efficient,高效,ADJ
 低效,inefficient,低效,ADJ
 精准,precise,精准,ADJ
-清晰,clear,清晰,ADJ
 混乱,chaotic,混乱,ADJ
 有序,orderly,有序,ADJ
 无序,disorderly,无序,ADJ
 零散,scattered,零散,ADJ
 残缺,incomplete,残缺,ADJ
 偏颇,biased,偏颇,ADJ
-偏袒,partial,偏袒,ADJ
+偏袒,to show partiality,偏袒,VERB
 失衡,imbalanced,失衡,ADJ
-融合,integrated,融合,ADJ
-连接,connected,连接,ADJ
-断开,disconnected,断开,ADJ
+融合,to integrate,融合,VERB
+连接,to connect,连接,VERB
+断开,to disconnect,断开,VERB
 无关,irrelevant,无关,ADJ
 迥异,different,迥异,ADJ
 同等,equal,同等,ADJ
 不等,unequal,不等,ADJ
 不对称,asymmetrical,不对称,ADJ
 不均,uneven,不均,ADJ
-不稳定,unstable,不稳定,ADJ
 流动,mobile,流动,ADJ
 静态,static,静态,ADJ
 被动,passive,被动,ADJ
@@ -2757,7 +1993,7 @@ WiFi,WiFi,WiFi,NOUN
 渐进,progressive,渐进,ADJ
 飞跃,leap,飞跃,NOUN
 应对,cope with,应对,VERB
- confronting,confront, confronting,VERB
+面对,confront,面对,VERB
 山川,mountains and rivers,山川,NOUN
 半岛,peninsula,半岛,NOUN
 海峡,strait,海峡,NOUN
@@ -2771,14 +2007,13 @@ WiFi,WiFi,WiFi,NOUN
 船闸,lock,船闸,NOUN
 水坝,dam,水坝,NOUN
 水闸,sluice,水闸,NOUN
-水渠,aqueduct,水渠,NOUN
+水渠,irrigation canal,水渠,NOUN
 水井,well,水井,NOUN
 泉水,spring water,泉水,NOUN
 矿泉,mineral spring,矿泉,NOUN
 温泉,hot spring,温泉,NOUN
 江河,river,江河,NOUN
 沼泽,swamp,沼泽,NOUN
-戈壁,gobi,戈壁,NOUN
 荒原,wasteland,荒原,NOUN
 牧场,pasture,牧场,NOUN
 林地,woodland,林地,NOUN
@@ -2788,11 +2023,11 @@ WiFi,WiFi,WiFi,NOUN
 松林,pine forest,松林,NOUN
 杉林,fir forest,杉林,NOUN
 果园,orchard,果园,NOUN
-茶园,tea garden,茶园,NOUN
+茶园,tea plantation,茶园,NOUN
 葡萄园,vineyard,葡萄园,NOUN
 菜园,vegetable garden,菜园,NOUN
 苗圃,nursery,苗圃,NOUN
-花圃,flower nursery,花圃,NOUN
+花圃,flower bed,花圃,NOUN
 温室,greenhouse,温室,NOUN
 大棚,polytunnel,大棚,NOUN
 田地,field,田地,NOUN
@@ -2804,45 +2039,29 @@ WiFi,WiFi,WiFi,NOUN
 场地,venue,场地,NOUN
 运动场,sports field,运动场,NOUN
 体育场,stadium,体育场,NOUN
-游泳馆,natatorium,游泳馆,NOUN
+游泳馆,swimming pool,游泳馆,NOUN
 溜冰场,ice rink,溜冰场,NOUN
 滑雪场,ski resort,滑雪场,NOUN
-高尔夫球场,golf course,高尔夫球场,NOUN
-赛马场,racetrack,赛马场,NOUN
-赛车场,racetrack,赛车场,NOUN
-射击场,shooting range,射击场,NOUN
-训练场,training ground,训练场,NOUN
-演习场,drill ground,演习场,NOUN
-试验场,testing ground,试验场,NOUN
-实验场,experimental site,实验场,NOUN
-实习场,practice site,实习场,NOUN
 考勤,attendance,考勤,NOUN
 考核,assessment,考核,NOUN
-考查,investigate,考查,VERB
+考查,examine,考查,VERB
 考察,inspect,考察,VERB
 测试,test,测试,NOUN
-检测,detect,检测,VERB
+检测,test,检测,VERB
 检验,inspect,检验,VERB
 验证,verify,验证,VERB
 认证,certify,认证,VERB
-鉴证,notarize,鉴证,VERB
 举证,provide evidence,举证,VERB
 取证,collect evidence,取证,VERB
-采证,gather evidence,采证,VERB
 查证,verify,查证,VERB
 落实,implement,落实,VERB
 证实,confirm,证实,VERB
 证伪,falsify,证伪,VERB
 申报,declare,申报,VERB
-备案,file,备案,VERB
-记载,document,记载,VERB
+备案,file for record,备案,VERB
+记载,record,记载,VERB
 案卷,case file,案卷,NOUN
 卷宗,file,卷宗,NOUN
-档案室,archive room,档案室,NOUN
-资料室,reference room,资料室,NOUN
-阅览室,reading room,阅览室,NOUN
-会议室,meeting room,会议室,NOUN
-接待室,reception room,接待室,NOUN
 休息室,lounge,休息室,NOUN
 候诊室,waiting room,候诊室,NOUN
 候机室,departure lounge,候机室,NOUN
@@ -2859,23 +2078,6 @@ WiFi,WiFi,WiFi,NOUN
 操作室,operation room,操作室,NOUN
 调度室,dispatch room,调度室,NOUN
 指挥室,command room,指挥室,NOUN
-作战室,war room,作战室,NOUN
-情报室,intelligence room,情报室,NOUN
-参谋室,staff room,参谋室,NOUN
-作战参谋,combat staff,作战参谋,NOUN
-参谋长,chief of staff,参谋长,NOUN
-总参谋长,chief of general staff,总参谋长,NOUN
-司令员,commander,司令员,NOUN
-总司令,commander-in-chief,总司令,NOUN
-元帅,marshal,元帅,NOUN
-中校,lieutenant colonel,中校,NOUN
-少尉,second lieutenant,少尉,NOUN
-上士,staff sergeant,上士,NOUN
-下士,corporal,下士,NOUN
-新兵,recruit,新兵,NOUN
-老兵,veteran,老兵,NOUN
-战友,comrade in arms,战友,NOUN
-烈士,martyr,烈士,NOUN
 模范,model,模范,NOUN
 榜样,example,榜样,NOUN
 典范,paradigm,典范,NOUN
@@ -2893,8 +2095,8 @@ WiFi,WiFi,WiFi,NOUN
 门卫,doorman,门卫,NOUN
 门房,porter,门房,NOUN
 前台,reception,前台,NOUN
-迎宾,welcome,迎宾,NOUN
-导览,guide,导览,NOUN
+迎宾,greeter,迎宾,NOUN
+导览,tour guide,导览,NOUN
 领队,team leader,领队,NOUN
 组长,group leader,组长,NOUN
 班长,class monitor,班长,NOUN
@@ -2909,10 +2111,10 @@ WiFi,WiFi,WiFi,NOUN
 乡长,township head,乡长,NOUN
 村长,village head,村长,NOUN
 里长,neighborhood head,里长,NOUN
-春季,spring season,春季,NOUN
-夏季,summer season,夏季,NOUN
-秋季,autumn season,秋季,NOUN
-冬季,winter season,冬季,NOUN
+春季,spring,春季,NOUN
+夏季,summer,夏季,NOUN
+秋季,autumn,秋季,NOUN
+冬季,winter,冬季,NOUN
 月份,month,月份,NOUN
 周次,week number,周次,NOUN
 千年,millennium,千年,NOUN
@@ -2934,62 +2136,62 @@ WiFi,WiFi,WiFi,NOUN
 深夜,late night,深夜,NOUN
 子夜,midnight,子夜,NOUN
 通宵,all night,通宵,NOUN
-彻夜,all night,彻夜,NOUN
-整夜,whole night,整夜,NOUN
-连夜,overnight,连夜,NOUN
-趁夜,by night,趁夜,NOUN
+彻夜,all night,彻夜,ADV
+整夜,whole night,整夜,ADV
+连夜,overnight,连夜,ADV
+趁夜,by night,趁夜,ADV
 昼夜,day and night,昼夜,NOUN
 白昼,daytime,白昼,NOUN
 白天,daytime,白天,NOUN
-整天,all day,整天,NOUN
-整日,all day long,整日,NOUN
-终日,all day long,终日,NOUN
-每日,daily,每日,NOUN
-日日,day by day,日日,NOUN
-日复一日,day after day,日复一日,NOUN
-年复一年,year after year,年复一年,NOUN
-逐年,year by year,逐年,NOUN
-按年,annually,按年,NOUN
-按月,monthly,按月,NOUN
-按周,weekly,按周,NOUN
-按日,daily,按日,NOUN
-按天,daily,按天,NOUN
-按小时,hourly,按小时,NOUN
-适时,at the right time,适时,ADJ
+整天,all day,整天,ADV
+整日,all day long,整日,ADV
+终日,all day long,终日,ADV
+每日,daily,每日,ADV
+日日,day by day,日日,ADV
+日复一日,day after day,日复一日,ADV
+年复一年,year after year,年复一年,ADV
+逐年,year by year,逐年,ADV
+按年,annually,按年,ADV
+按月,monthly,按月,ADV
+按周,weekly,按周,ADV
+按日,daily,按日,ADV
+按天,daily,按天,ADV
+按小时,hourly,按小时,ADV
+适时,timely,适时,ADJ
 合时,well-timed,合时,ADJ
 过时,outdated,过时,ADJ
-届时,at the appointed time,届时,NOUN
+届时,at the appointed time,届时,ADV
 暂定,tentative,暂定,ADJ
 暂缓,postpone,暂缓,VERB
-暂停,pause,暂停,VERB
+暂停,suspend,暂停,VERB
 截止,deadline,截止,NOUN
 到期,expire,到期,VERB
 逾期,overdue,逾期,ADJ
 展期,extension,展期,NOUN
 顺延,postpone,顺延,VERB
-延后,put off,延后,VERB
-预先,beforehand,预先,NOUN
-提早,early,提早,ADJ
-赶早,early,赶早,ADJ
-趁早,as early as possible,趁早,NOUN
-迟早,sooner or later,迟早,NOUN
-早晚,sooner or later,早晚,NOUN
-终将,eventually,终将,NOUN
-终归,eventually,终归,NOUN
-终究,after all,终究,NOUN
+延后,postpone,延后,VERB
+预先,in advance,预先,ADV
+提早,early,提早,ADV
+赶早,early,赶早,ADV
+趁早,as early as possible,趁早,ADV
+迟早,sooner or later,迟早,ADV
+早晚,sooner or later,早晚,ADV
+终将,eventually,终将,ADV
+终归,eventually,终归,ADV
+终究,after all,终究,ADV
 欣慰,gratified,欣慰,ADJ
 宽慰,comforted,宽慰,ADJ
 慰藉,solace,慰藉,NOUN
 宽心,relief,宽心,NOUN
-忧虑,anxious,忧虑,ADJ
+忧虑,anxiety,忧虑,NOUN
 焦急,anxious,焦急,ADJ
 烦躁,irritable,烦躁,ADJ
 易怒,short-tempered,易怒,ADJ
 恼怒,annoyed,恼怒,ADJ
 愤慨,indignant,愤慨,ADJ
-义愤,righteous anger,义愤,NOUN
-悲愤,grief and anger,悲愤,NOUN
-气愤,indignant,气愤,ADJ
+义愤,righteous indignation,义愤,NOUN
+悲愤,sorrow and indignation,悲愤,NOUN
+气愤,angry,气愤,ADJ
 愤懑,resentful,愤懑,ADJ
 怨恨,resentment,怨恨,NOUN
 抵触,resistance,抵触,NOUN
@@ -2997,45 +2199,43 @@ WiFi,WiFi,WiFi,NOUN
 抵制,boycott,抵制,VERB
 示威,demonstrate,示威,VERB
 游行,parade,游行,NOUN
-集会,assembly,集会,NOUN
+集会,gathering,集会,NOUN
 派对,party,派对,NOUN
 酒会,reception,酒会,NOUN
 茶话会,tea party,茶话会,NOUN
 座谈会,symposium,座谈会,NOUN
 研讨会,seminar,研讨会,NOUN
-报告会,report meeting,报告会,NOUN
+报告会,lecture,报告会,NOUN
 交流会,exchange meeting,交流会,NOUN
-洽谈会,trade fair,洽谈会,NOUN
+洽谈会,business meeting,洽谈会,NOUN
 展销会,trade fair,展销会,NOUN
 展览会,exhibition,展览会,NOUN
 拍卖会,auction,拍卖会,NOUN
-竞标会,bidding,竞标会,NOUN
-招标会,tender,招标会,NOUN
+竞标会,bidding meeting,竞标会,NOUN
+招标会,tendering meeting,招标会,NOUN
 开标会,bid opening,开标会,NOUN
 评标会,bid evaluation,评标会,NOUN
-定标会,award meeting,定标会,NOUN
+定标会,bid awarding,定标会,NOUN
 签约仪式,signing ceremony,签约仪式,NOUN
 开幕仪式,opening ceremony,开幕仪式,NOUN
 闭幕仪式,closing ceremony,闭幕仪式,NOUN
 颁奖典礼,award ceremony,颁奖典礼,NOUN
 启动仪式,launch ceremony,启动仪式,NOUN
-奠基仪式,groundbreaking,奠基仪式,NOUN
+奠基仪式,groundbreaking ceremony,奠基仪式,NOUN
 竣工仪式,completion ceremony,竣工仪式,NOUN
 落成典礼,inauguration,落成典礼,NOUN
 揭幕仪式,unveiling ceremony,揭幕仪式,NOUN
-剪彩仪式,ribbon-cutting,剪彩仪式,NOUN
-捐赠仪式,donation ceremony,捐赠仪式,NOUN
-交接仪式,handover ceremony,交接仪式,NOUN
-退役仪式,decommissioning,退役仪式,NOUN
-退伍仪式,discharge ceremony,退伍仪式,NOUN
-入伍仪式,enlistment ceremony,入伍仪式,NOUN
-授勋仪式,medal ceremony,授勋仪式,NOUN
-授衔仪式,rank ceremony,授衔仪式,NOUN
-晋升仪式,promotion ceremony,晋升仪式,NOUN
-加冕仪式,coronation,加冕仪式,NOUN
-登基仪式,enthronement,登基仪式,NOUN
-即位仪式,accession,即位仪式,NOUN
-退位仪式,abdication,退位仪式,NOUN
+交接,handover,交接,NOUN
+退役,decommissioning,退役,NOUN
+退伍,discharge,退伍,NOUN
+入伍,enlistment,入伍,NOUN
+授勋,medal awarding,授勋,NOUN
+授衔,rank conferral,授衔,NOUN
+晋升,promotion,晋升,NOUN
+加冕,coronation,加冕,NOUN
+登基,enthronement,登基,NOUN
+即位,accession,即位,NOUN
+退位,abdication,退位,NOUN
 葬礼,funeral,葬礼,NOUN
 纪念日,anniversary,纪念日,NOUN
 假日,holiday,假日,NOUN
@@ -3049,53 +2249,15 @@ WiFi,WiFi,WiFi,NOUN
 调休,compensatory leave,调休,NOUN
 补休,makeup leave,补休,NOUN
 轮休,rotating leave,轮休,NOUN
-当班,on shift,当班,NOUN
-加点,extra hours,加点,NOUN
+当班,on shift,当班,VERB
+加点,work overtime,加点,VERB
 轮班,shift work,轮班,NOUN
-倒班,shift change,倒班,NOUN
+倒班,shift rotation,倒班,NOUN
 换班,shift swap,换班,NOUN
 替班,cover a shift,替班,VERB
 顶班,fill in,顶班,VERB
 代班,substitute,代班,VERB
-衣柜,wardrobe,衣柜,NOUN
-书桌,desk,书桌,NOUN
-餐桌,dining table,餐桌,NOUN
-茶几,coffee table,茶几,NOUN
-床头柜,nightstand,床头柜,NOUN
-梳妆台,dressing table,梳妆台,NOUN
-鞋柜,shoe cabinet,鞋柜,NOUN
-橱柜,cupboard,橱柜,NOUN
-碗柜,cupboard,碗柜,NOUN
-衣帽架,coat rack,衣帽架,NOUN
-伞架,umbrella stand,伞架,NOUN
-花瓶,vase,花瓶,NOUN
-相框,photo frame,相框,NOUN
-挂钟,wall clock,挂钟,NOUN
-闹钟,alarm clock,闹钟,NOUN
-怀表,pocket watch,怀表,NOUN
-秒表,stopwatch,秒表,NOUN
-台灯,desk lamp,台灯,NOUN
-落地灯,floor lamp,落地灯,NOUN
-壁灯,wall lamp,壁灯,NOUN
-吊灯,chandelier,吊灯,NOUN
-吸顶灯,ceiling light,吸顶灯,NOUN
-射灯,spotlight,射灯,NOUN
-筒灯,downlight,筒灯,NOUN
-灯带,light strip,灯带,NOUN
-灯泡,lightbulb,灯泡,NOUN
-灯管,fluorescent tube,灯管,NOUN
-灯丝,filament,灯丝,NOUN
-灯罩,lampshade,灯罩,NOUN
-开关,switch,开关,NOUN
-插座,socket,插座,NOUN
-插头,plug,插头,NOUN
-电线,wire,电线,NOUN
-电缆,cable,电缆,NOUN
-光缆,fiber optic cable,光缆,NOUN
-网线,network cable,网线,NOUN
-电话线,phone line,电话线,NOUN
-收音机,radio,收音机,NOUN
-音响,stereo,音响,NOUN
+音响,audio equipment,音响,NOUN
 功放,amplifier,功放,NOUN
 话筒,microphone,话筒,NOUN
 扩音器,megaphone,扩音器,NOUN
@@ -3132,45 +2294,45 @@ WiFi,WiFi,WiFi,NOUN
 拼图,puzzle,拼图,NOUN
 玩偶,doll,玩偶,NOUN
 毛绒玩具,plush toy,毛绒玩具,NOUN
-遥控车,RC car,遥控车,NOUN
+遥控车,remote-controlled car,遥控车,NOUN
 模型,model,模型,NOUN
 手办,figure,手办,NOUN
-乐器,instrument,乐器,NOUN
+乐器,musical instrument,乐器,NOUN
 唱机,record player,唱机,NOUN
-U盘,USB drive,U盘,NOUN
-固态硬盘,SSD,固态硬盘,NOUN
-移动硬盘,external drive,移动硬盘,NOUN
+U盘,USB flash drive,U盘,NOUN
+固态硬盘,solid-state drive,固态硬盘,NOUN
+移动硬盘,external hard drive,移动硬盘,NOUN
 影碟,video disc,影碟,NOUN
 胶卷,film roll,胶卷,NOUN
 相册,photo album,相册,NOUN
-记事本,memo pad,记事本,NOUN
+记事本,notepad,记事本,NOUN
 便签,sticky note,便签,NOUN
 信纸,letter paper,信纸,NOUN
-邮票,stamp,邮票,NOUN
+邮票,postage stamp,邮票,NOUN
 邮戳,postmark,邮戳,NOUN
 邮筒,mailbox,邮筒,NOUN
 快递,express delivery,快递,NOUN
-寄件,send mail,寄件,NOUN
-收件,receive mail,收件,NOUN
+寄件,send mail,寄件,VERB
+收件,receive mail,收件,VERB
 签收,sign for,签收,VERB
 退回,return,退回,VERB
 退货,return goods,退货,NOUN
-换货,exchange,换货,NOUN
+换货,exchange goods,换货,NOUN
 退款,refund,退款,NOUN
 报销,reimburse,报销,VERB
 报账,file expense,报账,VERB
-买单,pay bill,买单,VERB
+买单,pay the bill,买单,VERB
 找零,give change,找零,VERB
 纸币,banknote,纸币,NOUN
 钞票,banknote,钞票,NOUN
 外币,foreign currency,外币,NOUN
 本币,domestic currency,本币,NOUN
 换汇,exchange currency,换汇,VERB
-结汇,settle exchange,结汇,VERB
-售汇,sell exchange,售汇,VERB
-购汇,buy exchange,购汇,VERB
-付汇,remit exchange,付汇,VERB
-收汇,receive exchange,收汇,VERB
+结汇,settle foreign exchange,结汇,VERB
+售汇,sell foreign exchange,售汇,VERB
+购汇,buy foreign exchange,购汇,VERB
+付汇,pay foreign exchange,付汇,VERB
+收汇,receive foreign exchange,收汇,VERB
 晴天,sunny day,晴天,NOUN
 阴天,cloudy day,阴天,NOUN
 雨天,rainy day,雨天,NOUN
@@ -3203,58 +2365,58 @@ U盘,USB drive,U盘,NOUN
 低气压,low pressure,低气压,NOUN
 高气压,high pressure,高气压,NOUN
 气压,air pressure,气压,NOUN
-气温,temperature,气温,NOUN
+气温,air temperature,气温,NOUN
 湿度,humidity,湿度,NOUN
 风向,wind direction,风向,NOUN
 风力,wind force,风力,NOUN
 风速,wind speed,风速,NOUN
 降水量,precipitation,降水量,NOUN
 能见度,visibility,能见度,NOUN
-紫外线,UV,紫外线,NOUN
+紫外线,ultraviolet radiation,紫外线,NOUN
 日出,sunrise,日出,NOUN
-月相,moon phase,月相,NOUN
+月相,lunar phase,月相,NOUN
 涨潮,high tide,涨潮,NOUN
 退潮,low tide,退潮,NOUN
 风暴潮,storm surge,风暴潮,NOUN
 寒潮,cold wave,寒潮,NOUN
 热浪,heat wave,热浪,NOUN
-倒春寒,late spring cold,倒春寒,NOUN
-秋老虎,autumn heat,秋老虎,NOUN
-梅雨,plum rain,梅雨,NOUN
-回南天,return south weather,回南天,NOUN
+倒春寒,late spring cold snap,倒春寒,NOUN
+秋老虎,Indian summer,秋老虎,NOUN
+梅雨,plum rain season,梅雨,NOUN
+回南天,humid weather after cold spell,回南天,NOUN
 公交车,bus,公交车,NOUN
-长途车,coach,长途车,NOUN
+长途车,long-distance bus,长途车,NOUN
 大巴,bus,大巴,NOUN
 中巴,minibus,中巴,NOUN
 面包车,van,面包车,NOUN
 货车,truck,货车,NOUN
-皮卡,pickup,皮卡,NOUN
-轿车,car,轿车,NOUN
+皮卡,pickup truck,皮卡,NOUN
+轿车,sedan,轿车,NOUN
 跑车,sports car,跑车,NOUN
-越野车,SUV,越野车,NOUN
+越野车,off-road vehicle,越野车,NOUN
 房车,motorhome,房车,NOUN
-网约车,ride-hailing,网约车,NOUN
-专车,private car,专车,NOUN
+网约车,ride-hailing service,网约车,NOUN
+专车,private car service,专车,NOUN
 快车,express car,快车,NOUN
 顺风车,carpool,顺风车,NOUN
 拼车,carpool,拼车,NOUN
 代驾,designated driver,代驾,NOUN
 自驾,self-drive,自驾,VERB
-租车,car rental,租车,NOUN
-还车,return car,还车,VERB
-取车,pick up car,取车,VERB
-送车,deliver car,送车,VERB
+租车,rent a car,租车,VERB
+还车,return a car,还车,VERB
+取车,pick up a car,取车,VERB
+送车,return a car,送车,VERB
 停车位,parking space,停车位,NOUN
 地下车库,underground garage,地下车库,NOUN
 立体车库,multi-level garage,立体车库,NOUN
 路边停车,street parking,路边停车,NOUN
 禁停区,no parking zone,禁停区,NOUN
 限行,traffic restriction,限行,NOUN
-限号,license plate limit,限号,NOUN
+限号,license plate restriction,限号,NOUN
 单行道,one-way street,单行道,NOUN
 双行道,two-way street,双行道,NOUN
-国道,national road,国道,NOUN
-省道,provincial road,省道,NOUN
+国道,national highway,国道,NOUN
+省道,provincial highway,省道,NOUN
 县道,county road,县道,NOUN
 乡道,township road,乡道,NOUN
 村道,village road,村道,NOUN
@@ -3278,7 +2440,7 @@ U盘,USB drive,U盘,NOUN
 警示牌,warning sign,警示牌,NOUN
 禁令牌,prohibition sign,禁令牌,NOUN
 限速牌,speed limit sign,限速牌,NOUN
-测速,speed check,测速,NOUN
+测速,speed measurement,测速,NOUN
 超速,speeding,超速,NOUN
 违章,violation,违章,NOUN
 扣分,deduct points,扣分,VERB
@@ -3296,11 +2458,10 @@ U盘,USB drive,U盘,NOUN
 充气,inflate,充气,VERB
 打气,pump air,打气,VERB
 爆胎,blowout,爆胎,NOUN
-漏气,leak air,漏气,NOUN
+漏气,air leak,漏气,NOUN
 胎压,tire pressure,胎压,NOUN
 胎纹,tire tread,胎纹,NOUN
-备胎,spare tire,备胎,NOUN
-轮毂,hub,轮毂,NOUN
+轮毂,wheel hub,轮毂,NOUN
 马达,motor,马达,NOUN
 变速箱,gearbox,变速箱,NOUN
 离合器,clutch,离合器,NOUN
@@ -3309,41 +2470,21 @@ U盘,USB drive,U盘,NOUN
 方向盘,steering wheel,方向盘,NOUN
 后视镜,rearview mirror,后视镜,NOUN
 雨刷,wiper,雨刷,NOUN
-车灯,headlight,车灯,NOUN
+车灯,car light,车灯,NOUN
 大灯,headlight,大灯,NOUN
 尾灯,taillight,尾灯,NOUN
 雾灯,fog light,雾灯,NOUN
 转向灯,turn signal,转向灯,NOUN
-双闪,hazard light,双闪,NOUN
+双闪,hazard lights,双闪,NOUN
 倒车灯,backup light,倒车灯,NOUN
 仪表盘,dashboard,仪表盘,NOUN
 里程表,odometer,里程表,NOUN
 转速表,tachometer,转速表,NOUN
 油表,fuel gauge,油表,NOUN
 温度表,temperature gauge,温度表,NOUN
-小学,elementary school,小学,NOUN
-初中,middle school,初中,NOUN
-高中,high school,高中,NOUN
 研究生院,graduate school,研究生院,NOUN
-职业学院,vocational college,职业学院,NOUN
-技术学校,technical school,技术学校,NOUN
-师范学校,normal school,师范学校,NOUN
-美术学校,art school,美术学校,NOUN
-音乐学校,music school,音乐学校,NOUN
-舞蹈学校,dance school,舞蹈学校,NOUN
-体育学校,sports school,体育学校,NOUN
-外语学校,foreign language school,外语学校,NOUN
-国际学校,international school,国际学校,NOUN
-私立学校,private school,私立学校,NOUN
-公立学校,public school,公立学校,NOUN
-寄宿学校,boarding school,寄宿学校,NOUN
-走读学校,day school,走读学校,NOUN
 夜校,night school,夜校,NOUN
 函授,correspondence course,函授,NOUN
-电大,TV university,电大,NOUN
-网课,online class,网课,NOUN
-直播课,live class,直播课,NOUN
-录播课,recorded class,录播课,NOUN
 公开课,open class,公开课,NOUN
 必修课,required course,必修课,NOUN
 选修课,elective course,选修课,NOUN
@@ -3351,100 +2492,100 @@ U盘,USB drive,U盘,NOUN
 公共课,general course,公共课,NOUN
 基础课,foundation course,基础课,NOUN
 核心课,core course,核心课,NOUN
-先修课,prerequisite,先修课,NOUN
+先修课,prerequisite course,先修课,NOUN
 辅修课,minor course,辅修课,NOUN
 主修,major,主修,NOUN
 双学位,double degree,双学位,NOUN
 本科学位,bachelor's degree,本科学位,NOUN
 硕士学位,master's degree,硕士学位,NOUN
 博士学位,doctoral degree,博士学位,NOUN
-博士后,postdoc,博士后,NOUN
+博士后,postdoctoral researcher,博士后,NOUN
 交流生,exchange student,交流生,NOUN
 入学,enroll,入学,VERB
 退学,drop out,退学,VERB
-转学,transfer,转学,VERB
-休学,take leave,休学,VERB
+转学,transfer schools,转学,VERB
+休学,take a leave of absence,休学,VERB
 复学,resume studies,复学,VERB
-留级,repeat a year,留级,VERB
+留级,repeat a grade,留级,VERB
 跳级,skip a grade,跳级,VERB
-保送,recommend,保送,VERB
-自荐,self-recommend,自荐,NOUN
-他荐,other-recommend,他荐,NOUN
-推免,exempt from exam,推免,NOUN
-统考,unified exam,统考,NOUN
-联考,joint exam,联考,NOUN
-会考,graduation exam,会考,NOUN
-高考,college entrance exam,高考,NOUN
-中考,high school entrance exam,中考,NOUN
+保送,recommend for admission,保送,VERB
+自荐,self-recommendation,自荐,NOUN
+他荐,recommendation by others,他荐,NOUN
+推免,exemption from admission exam,推免,NOUN
+统考,unified examination,统考,NOUN
+联考,joint examination,联考,NOUN
+会考,academic proficiency test,会考,NOUN
+高考,college entrance examination,高考,NOUN
+中考,high school entrance examination,中考,NOUN
 期末考,final exam,期末考,NOUN
 期中考,midterm exam,期中考,NOUN
 月考,monthly exam,月考,NOUN
 周测,weekly test,周测,NOUN
 模拟考,mock exam,模拟考,NOUN
-真题,past papers,真题,NOUN
-模拟题,mock questions,模拟题,NOUN
-练习题,practice questions,练习题,NOUN
-课后题,homework,课后题,NOUN
+真题,past exam papers,真题,NOUN
+模拟题,mock exam questions,模拟题,NOUN
+练习题,practice exercises,练习题,NOUN
+课后题,after-class exercises,课后题,NOUN
 课后作业,homework,课后作业,NOUN
 课堂作业,classwork,课堂作业,NOUN
-小组作业,group work,小组作业,NOUN
-个人作业,individual work,个人作业,NOUN
-项目作业,project work,项目作业,NOUN
+小组作业,group assignment,小组作业,NOUN
+个人作业,individual assignment,个人作业,NOUN
+项目作业,project assignment,项目作业,NOUN
 毕业论文,graduation thesis,毕业论文,NOUN
 学位论文,dissertation,学位论文,NOUN
-期刊论文,journal paper,期刊论文,NOUN
+期刊论文,journal article,期刊论文,NOUN
 会议论文,conference paper,会议论文,NOUN
 项目报告,project report,项目报告,NOUN
 环境报告,environmental report,环境报告,NOUN
 安全报告,safety report,安全报告,NOUN
 进度报告,progress report,进度报告,NOUN
 陈述,statement,陈述,NOUN
-阐述,expound,阐述,NOUN
+阐述,elaborate,阐述,VERB
 论述,discourse,论述,NOUN
 论证,argumentation,论证,NOUN
-辩驳,refute,辩驳,NOUN
+辩驳,refute,辩驳,VERB
 质疑,question,质疑,VERB
-答疑,answer questions,答疑,NOUN
+答疑,answer questions,答疑,VERB
 解惑,resolve doubts,解惑,VERB
-释疑,clarify,释疑,VERB
+释疑,clarify doubts,释疑,VERB
 释怀,let go,释怀,VERB
-开导,guide,开导,VERB
+开导,enlighten,开导,VERB
 劝导,persuade,劝导,VERB
 诱导,induce,诱导,VERB
 误导,mislead,误导,VERB
 教导,instruct,教导,VERB
-补习,cramming,补习,NOUN
+补习,tutoring,补习,NOUN
 进修,further study,进修,NOUN
 深造,advanced study,深造,NOUN
 游学,study tour,游学,NOUN
 互访,mutual visit,互访,NOUN
-拜访,call on,拜访,NOUN
-回访,return visit,回访,NOUN
-造访,visit,造访,NOUN
-探访,visit,探访,NOUN
+拜访,visit,拜访,VERB
+回访,return visit,回访,VERB
+造访,visit,造访,VERB
+探访,visit,探访,VERB
 探望,visit,探望,VERB
 看望,visit,看望,VERB
-致意,greet,致意,NOUN
-致敬,pay tribute,致敬,NOUN
-致谢,thank,致谢,NOUN
-致歉,apologize,致歉,NOUN
-致哀,condole,致哀,NOUN
-致贺,congratulate,致贺,NOUN
+致意,greet,致意,VERB
+致敬,pay tribute,致敬,VERB
+致谢,thank,致谢,VERB
+致歉,apologize,致歉,VERB
+致哀,condole,致哀,VERB
+致贺,congratulate,致贺,VERB
 道贺,congratulate,道贺,VERB
 贺喜,congratulate,贺喜,VERB
 道喜,congratulate,道喜,VERB
 庆贺,congratulate,庆贺,VERB
-欢庆,jubilant,欢庆,ADJ
-欢聚,gather happily,欢聚,NOUN
-欢送,send off,欢送,NOUN
-接风,welcome,接风,NOUN
-践行,farewell,践行,NOUN
-饯行,farewell dinner,饯行,NOUN
+欢庆,celebrate,欢庆,VERB
+欢聚,gather happily,欢聚,VERB
+欢送,send off,欢送,VERB
+接风,welcome,接风,VERB
+践行,practice,践行,VERB
+饯行,give a farewell dinner,饯行,VERB
 送别,see off,送别,VERB
 辞行,take leave,辞行,VERB
 辞别,take leave,辞别,VERB
-诀别,part forever,诀别,NOUN
-永别,part forever,永别,NOUN
+诀别,part forever,诀别,VERB
+永别,part forever,永别,VERB
 推论,inference,推论,NOUN
 演绎,deduce,演绎,VERB
 推理,reasoning,推理,NOUN
@@ -3471,7 +2612,7 @@ U盘,USB drive,U盘,NOUN
 出货,ship out,出货,VERB
 库存,inventory,库存,NOUN
 存货,stock,存货,NOUN
-现货,in stock,现货,ADJ
+现货,spot goods,现货,NOUN
 定金,deposit,定金,NOUN
 全款,full payment,全款,NOUN
 分期,installment,分期,NOUN
@@ -3480,7 +2621,7 @@ U盘,USB drive,U盘,NOUN
 通货,currency,通货,NOUN
 货币,currency,货币,NOUN
 汇款,remittance,汇款,NOUN
-转账,transfer,转账,NOUN
+转账,transfer,转账,VERB
 存款,deposit,存款,NOUN
 取款,withdraw,取款,VERB
 开户,open account,开户,VERB
@@ -3492,17 +2633,16 @@ U盘,USB drive,U盘,NOUN
 变换,transform,变换,VERB
 转让,transfer,转让,VERB
 移交,hand over,移交,VERB
-交接,handover,交接,NOUN
 接收,receive,接收,VERB
-验收,accept,验收,VERB
+验收,inspect and accept,验收,VERB
 指派,assign,指派,VERB
 指定,designate,指定,VERB
 解聘,dismiss,解聘,VERB
-辞退,fire,辞退,VERB
+辞退,dismiss,辞退,VERB
 辞呈,resignation,辞呈,NOUN
 卸任,leave office,卸任,VERB
 离任,leave office,离任,VERB
-连任,re-elect,连任,NOUN
+连任,re-elect,连任,VERB
 章程,charter,章程,NOUN
 条例,regulation,条例,NOUN
 法案,bill,法案,NOUN
@@ -3510,7 +2650,7 @@ U盘,USB drive,U盘,NOUN
 政令,order,政令,NOUN
 指令,directive,指令,NOUN
 指示,instruction,指示,NOUN
-批示,instruction,批示,NOUN
+批示,written instruction,批示,NOUN
 约定,agree,约定,VERB
 商定,agree,商定,VERB
 洽谈,negotiate,洽谈,VERB
@@ -3520,7 +2660,7 @@ U盘,USB drive,U盘,NOUN
 阻挠,obstruct,阻挠,VERB
 障碍,obstacle,障碍,NOUN
 逆境,adversity,逆境,NOUN
-顺境,favorable,顺境,NOUN
+顺境,favorable circumstances,顺境,NOUN
 机遇,opportunity,机遇,NOUN
 时机,timing,时机,NOUN
 情境,situation,情境,NOUN
@@ -3540,8 +2680,8 @@ U盘,USB drive,U盘,NOUN
 右侧,right side,右侧,NOUN
 内侧,inner side,内侧,NOUN
 外侧,outer side,外侧,NOUN
-左面,left,左面,NOUN
-右面,right,右面,NOUN
+左面,left side,左面,NOUN
+右面,right side,右面,NOUN
 里面,inside,里面,NOUN
 四周,surroundings,四周,NOUN
 边界,border,边界,NOUN
@@ -3563,11 +2703,11 @@ U盘,USB drive,U盘,NOUN
 遵照,comply with,遵照,VERB
 遵循,follow,遵循,VERB
 顺从,submit to,顺从,VERB
-听从,listen to,听从,VERB
+听从,obey,听从,VERB
 依从,comply with,依从,VERB
-遵从,follow,遵从,VERB
+遵从,comply with,遵从,VERB
 遵命,obey orders,遵命,VERB
-奉命,by order,奉命,NOUN
+奉命,receive orders,奉命,VERB
 受命,receive orders,受命,VERB
 领命,accept orders,领命,VERB
 复命,report back,复命,VERB
@@ -3580,48 +2720,34 @@ U盘,USB drive,U盘,NOUN
 更换,replace,更换,VERB
 代换,substitute,代换,VERB
 换代,generation change,换代,NOUN
-更新换代,renewal,更新换代,NOUN
-推陈出新,innovate,推陈出新,VERB
-破旧立新,destroy old establish new,破旧立新,VERB
-除旧布新,remove old install new,除旧布新,VERB
-革故鼎新,reform,革故鼎新,VERB
-温故知新,review old to know new,温故知新,VERB
-承前启后,inherit past inspire future,承前启后,VERB
-继往开来,carry forward,继往开来,VERB
-承上启下,connect above and below,承上启下,VERB
-前赴后继,advance wave upon wave,前赴后继,VERB
-前仆后继,fall and rise,前仆后继,VERB
-薪火相传,pass on,薪火相传,VERB
-代代相传,pass down generations,代代相传,VERB
-世世代代,generations,世世代代,NOUN
 绸缎,silk,绸缎,NOUN
 绫罗,silk,绫罗,NOUN
 锦绣,brocade,锦绣,NOUN
 纺织,textile,纺织,NOUN
 缝纫,sewing,缝纫,NOUN
 裁缝,tailor,裁缝,NOUN
-洗熨,wash and iron,洗熨,NOUN
-干洗,dry clean,干洗,NOUN
-水洗,wash,水洗,NOUN
-手洗,hand wash,手洗,NOUN
-机洗,machine wash,机洗,NOUN
+洗熨,wash and iron,洗熨,VERB
+干洗,dry clean,干洗,VERB
+水洗,wash with water,水洗,VERB
+手洗,hand wash,手洗,VERB
+机洗,machine wash,机洗,VERB
 免烫,non-iron,免烫,ADJ
-防皱,wrinkle-free,防皱,ADJ
+防皱,wrinkle-resistant,防皱,ADJ
 防水,waterproof,防水,ADJ
 防风,windproof,防风,ADJ
-防晒,sunproof,防晒,ADJ
+防晒,sun-protective,防晒,ADJ
 防尘,dustproof,防尘,ADJ
-防潮,moistureproof,防潮,ADJ
-防霉,moldproof,防霉,ADJ
+防潮,moisture-proof,防潮,ADJ
+防霉,mold-resistant,防霉,ADJ
 防腐,antiseptic,防腐,ADJ
-防锈,rustproof,防锈,ADJ
+防锈,rust-proof,防锈,ADJ
 防滑,non-slip,防滑,ADJ
 防震,shockproof,防震,ADJ
 防爆,explosion-proof,防爆,ADJ
 防火,fireproof,防火,ADJ
 防静电,anti-static,防静电,ADJ
 防辐射,radiation-proof,防辐射,ADJ
-防紫外线,UV-proof,防紫外线,ADJ
+防紫外线,UV-resistant,防紫外线,ADJ
 防蚊,mosquito-proof,防蚊,ADJ
 防虫,insect-proof,防虫,ADJ
 防鼠,rat-proof,防鼠,ADJ
@@ -3642,44 +2768,43 @@ U盘,USB drive,U盘,NOUN
 基肥,base fertilizer,基肥,NOUN
 追肥,top dressing,追肥,NOUN
 播种,sow,播种,VERB
-育苗,grow seedlings,育苗,VERB
+育苗,raise seedlings,育苗,VERB
 移栽,transplant,移栽,VERB
 定植,plant out,定植,VERB
 嫁接,graft,嫁接,VERB
-扦插,cutting,扦插,NOUN
-压条,layering,压条,NOUN
-分株,divide,分株,NOUN
-杂交,crossbreed,杂交,NOUN
-育种,breeding,育种,NOUN
-选种,seed selection,选种,NOUN
+扦插,take cuttings,扦插,VERB
+压条,layer,压条,VERB
+分株,divide,分株,VERB
+杂交,crossbreed,杂交,VERB
+育种,breed,育种,VERB
+选种,select seeds,选种,VERB
 留种,save seeds,留种,VERB
 采种,collect seeds,采种,VERB
-收割,harvest,收割,NOUN
-脱粒,threshing,脱粒,NOUN
-碾磨,milling,碾磨,NOUN
-筛选,screening,筛选,NOUN
-分级,grading,分级,NOUN
+收割,harvest,收割,VERB
+脱粒,thresh,脱粒,VERB
+碾磨,mill,碾磨,VERB
+筛选,screen,筛选,VERB
+分级,grade,分级,VERB
 批发,wholesale,批发,NOUN
 零售,retail,零售,NOUN
 直销,direct sales,直销,NOUN
 代销,consignment,代销,NOUN
 经销,distribution,经销,NOUN
-经纪,broker,经纪,NOUN
+经纪,brokerage,经纪,NOUN
 拍卖,auction,拍卖,NOUN
 竞标,bidding,竞标,NOUN
 招标,tendering,招标,NOUN
 投标,submit bid,投标,VERB
 中标,win bid,中标,VERB
 落标,lose bid,落标,VERB
-评标,evaluate bid,评标,VERB
-定标,award,定标,NOUN
-开标,open bid,开标,NOUN
-废标,cancel bid,废标,VERB
-流标,fail bid,流标,NOUN
+评标,bid evaluation,评标,NOUN
+定标,bid award,定标,NOUN
+开标,bid opening,开标,NOUN
+废标,bid rejection,废标,NOUN
+流标,failed bid,流标,NOUN
 围标,bid rigging,围标,NOUN
-串标,collusion,串标,NOUN
-假标,fake bid,假标,NOUN
-中标价,winning price,中标价,NOUN
+串标,bid collusion,串标,NOUN
+中标价,winning bid price,中标价,NOUN
 底价,reserve price,底价,NOUN
 报价,quotation,报价,NOUN
 估价,appraisal,估价,NOUN
@@ -3691,7 +2816,7 @@ U盘,USB drive,U盘,NOUN
 级别,level,级别,NOUN
 档位,tier,档位,NOUN
 档次,grade,档次,NOUN
-品位,grade,品位,NOUN
+品位,taste,品位,NOUN
 品味,taste,品味,NOUN
 品格,character,品格,NOUN
 品性,nature,品性,NOUN
@@ -3700,32 +2825,20 @@ U盘,USB drive,U盘,NOUN
 标识,logo,标识,NOUN
 标记,mark,标记,NOUN
 标签,label,标签,NOUN
-贴标,labeling,贴标,NOUN
-吊牌,hang tag,吊牌,NOUN
-铭牌,nameplate,铭牌,NOUN
-门牌,house number,门牌,NOUN
-号牌,number plate,号牌,NOUN
-胸牌,badge,胸牌,NOUN
-工牌,employee badge,工牌,NOUN
-校牌,school badge,校牌,NOUN
 勋章,medal,勋章,NOUN
 奖章,medal,奖章,NOUN
 奖牌,medal,奖牌,NOUN
 奖杯,trophy,奖杯,NOUN
-奖状,certificate,奖状,NOUN
-凭证,voucher,凭证,NOUN
+奖状,certificate of merit,奖状,NOUN
+凭证,proof,凭证,NOUN
 凭据,evidence,凭据,NOUN
-证物,exhibit,证物,NOUN
+证物,physical evidence,证物,NOUN
 证言,testimony,证言,NOUN
-笔供,written confession,笔供,NOUN
-书证,documentary evidence,书证,NOUN
 物证,physical evidence,物证,NOUN
-人证,witness,人证,NOUN
+人证,witness testimony,人证,NOUN
 见证,witness,见证,NOUN
 目击,eyewitness,目击,NOUN
 亲历,personally experience,亲历,VERB
-亲见,personally see,亲见,VERB
-亲闻,personally hear,亲闻,VERB
 阅历,experience,阅历,NOUN
 资历,qualifications,资历,NOUN
 履历,resume,履历,NOUN
@@ -3733,18 +2846,16 @@ U盘,USB drive,U盘,NOUN
 回忆录,memoir,回忆录,NOUN
 日志,log,日志,NOUN
 博客,blog,博客,NOUN
-微博,microblog,微博,NOUN
 帖子,post,帖子,NOUN
 评论,comment,评论,NOUN
 留言,message,留言,NOUN
 私信,direct message,私信,NOUN
 群聊,group chat,群聊,NOUN
-单聊,private chat,单聊,NOUN
 语音,voice,语音,NOUN
 视频,video,视频,NOUN
 直播,livestream,直播,NOUN
 录播,recorded broadcast,录播,NOUN
-点播,on demand,点播,NOUN
+点播,video on demand,点播,NOUN
 回放,playback,回放,NOUN
 回看,rewatch,回看,VERB
 快进,fast forward,快进,VERB
@@ -3752,11 +2863,11 @@ U盘,USB drive,U盘,NOUN
 播放,play,播放,VERB
 录制,record,录制,VERB
 拍摄,shoot,拍摄,VERB
-照相,photograph,照相,VERB
+照相,take a photo,照相,VERB
 自拍,selfie,自拍,NOUN
 证件照,ID photo,证件照,NOUN
-生活照,life photo,生活照,NOUN
-艺术照,art photo,艺术照,NOUN
+生活照,casual photo,生活照,NOUN
+艺术照,artistic portrait,艺术照,NOUN
 婚纱照,wedding photo,婚纱照,NOUN
 毕业照,graduation photo,毕业照,NOUN
 全家福,family portrait,全家福,NOUN
@@ -3765,24 +2876,20 @@ U盘,USB drive,U盘,NOUN
 夜景,night view,夜景,NOUN
 月色,moonlight,月色,NOUN
 星空,starry sky,星空,NOUN
-银河,galaxy,银河,NOUN
-北极星,North Star,北极星,NOUN
+银河,Milky Way,银河,NOUN
+北极星,Polaris,北极星,NOUN
 北斗七星,Big Dipper,北斗七星,NOUN
 星座,constellation,星座,NOUN
-黄道,zodiac,黄道,NOUN
-生肖,zodiac animal,生肖,NOUN
+黄道,ecliptic,黄道,NOUN
+生肖,Chinese zodiac,生肖,NOUN
 属相,zodiac sign,属相,NOUN
-八字,eight characters,八字,NOUN
+八字,Ba Zi,八字,NOUN
 算命,fortune telling,算命,NOUN
 占卜,divination,占卜,NOUN
 风水,feng shui,风水,NOUN
 相术,physiognomy,相术,NOUN
 面相,face reading,面相,NOUN
 手相,palm reading,手相,NOUN
-测字,character divination,测字,NOUN
-解梦,dream interpretation,解梦,NOUN
-圆梦,interpret dream,圆梦,VERB
-托梦,dream message,托梦,NOUN
 美梦,sweet dream,美梦,NOUN
 梦幻,dreamlike,梦幻,ADJ
 格言,maxim,格言,NOUN
@@ -3796,14 +2903,8 @@ U盘,USB drive,U盘,NOUN
 歌词,lyrics,歌词,NOUN
 台词,lines,台词,NOUN
 标题,title,标题,NOUN
-书名,book title,书名,NOUN
-篇名,article title,篇名,NOUN
-章名,chapter title,章名,NOUN
-节名,section title,节名,NOUN
-卷名,volume title,卷名,NOUN
-集名,episode title,集名,NOUN
 栏目,column,栏目,NOUN
-专栏,special column,专栏,NOUN
+专栏,column,专栏,NOUN
 专辑,album,专辑,NOUN
 选集,anthology,选集,NOUN
 全集,complete works,全集,NOUN
@@ -3815,13 +2916,13 @@ U盘,USB drive,U盘,NOUN
 增刊,supplement,增刊,NOUN
 副刊,supplement,副刊,NOUN
 周刊,weekly,周刊,NOUN
-月刊,monthly,月刊,NOUN
-季刊,quarterly,季刊,NOUN
-年刊,annual,年刊,NOUN
-日报,daily,日报,NOUN
-晚报,evening paper,晚报,NOUN
-晨报,morning paper,晨报,NOUN
-周报,weekly paper,周报,NOUN
+月刊,monthly magazine,月刊,NOUN
+季刊,quarterly magazine,季刊,NOUN
+年刊,annual publication,年刊,NOUN
+日报,daily newspaper,日报,NOUN
+晚报,evening newspaper,晚报,NOUN
+晨报,morning newspaper,晨报,NOUN
+周报,weekly newspaper,周报,NOUN
 月报,monthly report,月报,NOUN
 年报,annual report,年报,NOUN
 季报,quarterly report,季报,NOUN
@@ -3835,13 +2936,13 @@ U盘,USB drive,U盘,NOUN
 疏散,evacuate,疏散,VERB
 撤离,withdraw,撤离,VERB
 救灾,disaster relief,救灾,NOUN
-赈灾,relief,赈灾,NOUN
-捐款,donate money,捐款,NOUN
-捐物,donate goods,捐物,NOUN
+赈灾,disaster relief,赈灾,NOUN
+捐款,donation,捐款,NOUN
+捐物,donation of goods,捐物,NOUN
 献血,donate blood,献血,VERB
 义工,volunteer,义工,NOUN
 社工,social worker,社工,NOUN
-护工,carer,护工,NOUN
+护工,caregiver,护工,NOUN
 月嫂,maternity matron,月嫂,NOUN
 缜密,meticulous,缜密,ADJ
 密实,dense,密实,ADJ
@@ -3856,27 +2957,12 @@ U盘,USB drive,U盘,NOUN
 显著,notable,显著,ADJ
 显眼,conspicuous,显眼,ADJ
 显而易见,obvious,显而易见,ADJ
-彰明较著,obvious,彰明较著,ADJ
-彰明,clear,彰明,ADJ
-昭彰,manifest,昭彰,ADJ
-昭著,notorious,昭著,ADJ
-昭示,declare,昭示,VERB
-昭告,proclaim,昭告,VERB
 宣告,declare,宣告,VERB
 宣称,claim,宣称,VERB
 宣读,read out,宣读,VERB
-宣讲,lecture,宣讲,NOUN
+宣讲,lecture,宣讲,VERB
 宣导,promote,宣导,VERB
-献策,offer advice,献策,VERB
-建言,offer advice,建言,VERB
-献计,offer plan,献计,VERB
-出谋,offer strategy,出谋,NOUN
-划策,plan,划策,VERB
-出谋划策,give advice,出谋划策,VERB
-运筹,strategize,运筹,NOUN
-运筹帷幄,strategize,运筹帷幄,VERB
-决胜,win,决胜,VERB
-决胜千里,win from afar,决胜千里,VERB
+运筹,strategize,运筹,VERB
 筹谋,plan,筹谋,VERB
 谋划,plan,谋划,VERB
 策划,plan,策划,VERB
@@ -3887,71 +2973,48 @@ U盘,USB drive,U盘,NOUN
 筹集,raise,筹集,VERB
 筹款,fundraise,筹款,VERB
 募款,fundraise,募款,VERB
-募集,recruit,募集,VERB
+募集,raise,募集,VERB
 招募,recruit,招募,VERB
-招兵,recruit soldiers,招兵,VERB
-招兵买马,recruit,招兵买马,VERB
-招贤,recruit talent,招贤,VERB
-招贤纳士,recruit talent,招贤纳士,VERB
-纳谏,accept advice,纳谏,VERB
-从谏,follow advice,从谏,VERB
-从善,follow good,从善,VERB
-从善如流,follow good,从善如流,VERB
-择善,choose good,择善,VERB
-择善而从,choose good,择善而从,VERB
-择优,choose best,择优,VERB
-择优录用,hire best,择优录用,VERB
-择期,choose date,择期,VERB
-择日,choose date,择日,VERB
-择时,choose time,择时,VERB
-择机,choose opportunity,择机,VERB
 伺机,wait for opportunity,伺机,VERB
 待机,standby,待机,VERB
 待命,await orders,待命,VERB
-候命,await orders,候命,VERB
 听命,obey orders,听命,VERB
-从命,obey,从命,VERB
-交命,hand over life,交命,VERB
 拼命,risk life,拼命,VERB
-舍命,sacrifice life,舍命,VERB
 卖命,work hard,卖命,VERB
-效命,serve,效命,VERB
 效忠,pledge allegiance,效忠,VERB
 效仿,imitate,效仿,VERB
 效法,emulate,效法,VERB
-效尤,imitate bad,效尤,VERB
 仿效,imitate,仿效,VERB
 仿制,copy,仿制,VERB
 仿造,forge,仿造,VERB
-造假,fake,造假,VERB
+造假,falsify,造假,VERB
 掺假,adulterate,掺假,VERB
-作假,fake,作假,VERB
-弄虚,deceive,弄虚,VERB
-舞弊,fraud,舞弊,NOUN
-徇私,favoritism,徇私,NOUN
+作假,falsify,作假,VERB
+舞弊,commit fraud,舞弊,VERB
+徇私,show favoritism,徇私,VERB
 贪腐,corruption,贪腐,NOUN
 贪污,embezzle,贪污,VERB
-受贿,take bribe,受贿,VERB
+受贿,take a bribe,受贿,VERB
 行贿,bribe,行贿,VERB
-索贿,extort bribe,索贿,VERB
-敲诈,blackmail,敲诈,NOUN
+索贿,extort a bribe,索贿,VERB
+敲诈,blackmail,敲诈,VERB
 欺诈,fraud,欺诈,NOUN
 伪劣,fake and inferior,伪劣,ADJ
 假冒,counterfeit,假冒,ADJ
 劣质,poor quality,劣质,ADJ
 优质,high quality,优质,ADJ
-正品,genuine,正品,NOUN
-真品,genuine,真品,NOUN
+正品,genuine product,正品,NOUN
+真品,genuine article,真品,NOUN
 真货,genuine goods,真货,NOUN
 假货,fake goods,假货,NOUN
 水货,smuggled goods,水货,NOUN
 行货,licensed goods,行货,NOUN
-港行,Hong Kong licensed,港行,NOUN
-国行,domestic licensed,国行,NOUN
+港行,Hong Kong licensed goods,港行,NOUN
+国行,domestic licensed goods,国行,NOUN
 正宗,authentic,正宗,ADJ
 原装,original,原装,ADJ
-原产,origin,原产,NOUN
-原厂,original factory,原厂,NOUN
+原产,place of origin,原产,NOUN
+原厂,original manufacturer,原厂,NOUN
 原版,original edition,原版,NOUN
 原件,original document,原件,NOUN
 副本,copy,副本,NOUN
@@ -3959,7 +3022,7 @@ U盘,USB drive,U盘,NOUN
 影印件,photocopy,影印件,NOUN
 扫描件,scan,扫描件,NOUN
 打印件,printout,打印件,NOUN
-手写件,handwritten,手写件,NOUN
+手写件,handwritten document,手写件,NOUN
 正本,original,正本,NOUN
 底本,master copy,底本,NOUN
 底稿,draft,底稿,NOUN
@@ -3969,7 +3032,6 @@ U盘,USB drive,U盘,NOUN
 提案,proposal,提案,NOUN
 议案,motion,议案,NOUN
 动议,motion,动议,NOUN
-参看,see also,参看,VERB
 参阅,consult,参阅,VERB
 查阅,look up,查阅,VERB
 检索,search,检索,VERB
@@ -3982,13 +3044,13 @@ U盘,USB drive,U盘,NOUN
 钻研,study deeply,钻研,VERB
 研究,research,研究,VERB
 调研,survey,调研,VERB
-稽核,check,稽核,VERB
+稽核,audit,稽核,VERB
 复核,review,复核,VERB
 校核,verify,校核,VERB
 校正,correct,校正,VERB
 更正,correct,更正,VERB
 勘误,errata,勘误,NOUN
-纠错,correct error,纠错,VERB
+纠错,correct errors,纠错,VERB
 纠偏,correct deviation,纠偏,VERB
 纠正,correct,纠正,VERB
 矫正,correct,矫正,VERB
@@ -3996,6 +3058,6 @@ U盘,USB drive,U盘,NOUN
 整顿,rectify,整顿,VERB
 整治,remediate,整治,VERB
 治理,govern,治理,VERB
-管制,control,管制,VERB
+管制,regulate,管制,VERB
 管控,control,管控,VERB
 监管,supervise,监管,VERB

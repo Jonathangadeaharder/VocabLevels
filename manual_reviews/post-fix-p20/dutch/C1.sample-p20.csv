@@ -1,0 +1,25 @@
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+nl,C1,1,27,iemands,someone's,某人的,PRON,keep,clean
+nl,C1,2,1821,douane,customs,海关,NOUN,keep,clean
+nl,C1,3,464,omtrent,about,关于,ADP,keep,clean
+nl,C1,4,298,alhoewel,although,虽然,SCONJ,keep,clean
+nl,C1,5,1956,consumptie,consumption,消费,NOUN,keep,clean
+nl,C1,6,884,mysterieus,mysterious,神秘的,ADJ,keep,clean
+nl,C1,7,612,meer,lake,湖,NOUN,keep,clean
+nl,C1,8,135,mogen,to be allowed,可以,AUX,keep,clean
+nl,C1,9,1298,storing,malfunction,故障,NOUN,keep,clean
+nl,C1,10,103,voldoen,to satisfy,满足,VERB,keep,clean
+nl,C1,11,1173,saus,sauce,酱汁,NOUN,keep,clean
+nl,C1,12,1466,negentig,ninety,九十,NUM,keep,clean
+nl,C1,13,47,talenten,talents,天赋,NOUN,keep,clean
+nl,C1,14,1890,eend,duck,鸭子,NOUN,keep,clean
+nl,C1,15,1647,parfum,perfume,香水,NOUN,keep,clean
+nl,C1,16,1216,enerzijds,on the one hand,一方面,ADV,keep,clean
+nl,C1,17,2018,óf,or,或者,CCONJ,keep,clean
+nl,C1,18,626,schamen,be ashamed,感到羞愧,VERB,keep,clean
+nl,C1,19,958,stadhuis,town hall,市政厅,NOUN,keep,clean
+nl,C1,20,245,werknemer,employee,员工,NOUN,keep,clean
+nl,C1,21,1782,schietpartij,shooting,枪击,NOUN,keep,clean
+nl,C1,22,604,huisarts,general practitioner,全科医生,NOUN,keep,clean
+nl,C1,23,560,jeetje,gosh,天哪,INTJ,keep,clean
+nl,C1,24,1703,kruispunt,intersection,十字路口,NOUN,keep,clean

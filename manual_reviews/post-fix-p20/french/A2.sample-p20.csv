@@ -1,0 +1,24 @@
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+fr,A2,1,449,plainte,complaint,投诉,NOUN,keep,clean
+fr,A2,2,259,lycée,high school,高中,NOUN,keep,clean
+fr,A2,3,424,personnage,character,人物,NOUN,keep,clean
+fr,A2,4,318,notre,our,我们的,DET,keep,clean
+fr,A2,5,198,feu,fire,火,NOUN,keep,clean
+fr,A2,6,357,oui,yes,是,INTJ,keep,clean
+fr,A2,7,171,dès,as soon as,一...就,ADP,keep,clean
+fr,A2,8,394,partout,everywhere,到处,ADV,keep,clean
+fr,A2,9,22,ancien,old,古老的,ADJ,keep,clean
+fr,A2,10,298,neige,snow,雪,NOUN,keep,clean
+fr,A2,11,371,papa,dad,爸爸,NOUN,keep,clean
+fr,A2,12,347,oreille,ear,耳朵,NOUN,keep,clean
+fr,A2,13,484,possibilité,possibility,可能性,NOUN,keep,clean
+fr,A2,14,269,marcher,to walk,走路,VERB,keep,clean
+fr,A2,15,120,commerce,trade,贸易,NOUN,keep,clean
+fr,A2,16,258,lorsque,when,当……时,SCONJ,keep,clean
+fr,A2,17,406,patron,boss,老板,NOUN,keep,clean
+fr,A2,18,429,petit-fils,grandson,孙子,NOUN,keep,clean
+fr,A2,19,305,ni,neither/nor,既不/也不,CCONJ,keep,clean
+fr,A2,20,279,moi,me,我,PRON,keep,clean
+fr,A2,21,478,porte,door,门,NOUN,keep,clean
+fr,A2,22,276,milliard,billion,十亿,NUM,keep,clean
+fr,A2,23,46,avis,opinion,意见,NOUN,keep,clean

@@ -1,0 +1,25 @@
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+3,下载,to download,下载,VERB,zh,B1,1,keep,clean
+9,不必,need not,不必,ADV,zh,B1,2,keep,clean
+21,业务,business,业务,NOUN,zh,B1,3,keep,clean
+80,会计,accountant,会计,NOUN,zh,B1,4,keep,clean
+143,公寓,apartment,公寓,NOUN,zh,B1,5,keep,clean
+158,农民,peasant,农民,NOUN,zh,B1,6,keep,clean
+166,出口,exit,出口,NOUN,zh,B1,7,keep,clean
+193,办理,to handle,办理,VERB,zh,B1,8,keep,clean
+197,劳动,labor,劳动,NOUN,zh,B1,9,keep,clean
+214,单独,alone,单独,ADV,zh,B1,10,keep,clean
+261,合作,to cooperate,合作,VERB,zh,B1,11,keep,clean
+343,天空,sky,天空,NOUN,zh,B1,12,keep,clean
+379,学问,learning,学问,NOUN,zh,B1,13,keep,clean
+381,宇宙,universe,宇宙,NOUN,zh,B1,14,keep,clean
+391,实习,internship,实习,NOUN,zh,B1,15,keep,clean
+423,小伙子,young man,小伙子,NOUN,zh,B1,16,keep,clean
+445,巧妙,ingenious,巧妙,ADJ,zh,B1,17,keep,clean
+477,建筑,to construct,建筑,VERB,zh,B1,18,keep,clean
+572,执行,to execute,执行,VERB,zh,B1,19,keep,clean
+583,抗议,to protest,抗议,VERB,zh,B1,20,keep,clean
+586,披,to drape over one's shoulders,披,VERB,zh,B1,21,keep,clean
+603,挣钱,to earn money,挣钱,VERB,zh,B1,22,keep,clean
+670,方案,plan,方案,NOUN,zh,B1,23,keep,clean
+877,目标,target,目标,NOUN,zh,B1,24,keep,clean

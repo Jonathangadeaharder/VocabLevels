@@ -1,0 +1,25 @@
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+nl,B1,1,364,generatie,generation,一代,NOUN,keep,clean
+nl,B1,2,80,ongeluk,accident,事故,NOUN,keep,clean
+nl,B1,3,131,maatschappij,society,社会,NOUN,keep,clean
+nl,B1,4,161,tuin,garden,花园,NOUN,keep,clean
+nl,B1,5,513,velen,many,许多人,PRON,keep,clean
+nl,B1,6,39,trouwens,by the way,顺便说一下,ADV,keep,clean
+nl,B1,7,56,commissie,committee,委员会,NOUN,keep,clean
+nl,B1,8,395,taak,task,任务,NOUN,keep,clean
+nl,B1,9,405,alsjeblieft,please,请,INTJ,keep,clean
+nl,B1,10,218,spijt,regret,遗憾,NOUN,keep,clean
+nl,B1,11,234,ontwikkelen,develop,发展,VERB,keep,clean
+nl,B1,12,491,miljoen,million,百万,NUM,keep,clean
+nl,B1,13,523,namens,on behalf of,代表,ADP,keep,clean
+nl,B1,14,255,tenzij,unless,除非,SCONJ,keep,clean
+nl,B1,15,521,haven,harbour,港口,NOUN,keep,clean
+nl,B1,16,135,samenleving,society,社会,NOUN,keep,clean
+nl,B1,17,190,geest,spirit,精神,NOUN,keep,clean
+nl,B1,18,375,slim,smart,聪明的,ADJ,keep,clean
+nl,B1,19,419,trap,stairs,楼梯,NOUN,keep,clean
+nl,B1,20,115,zulke,such,这样的,DET,keep,clean
+nl,B1,21,534,carrière,career,职业,NOUN,keep,clean
+nl,B1,22,340,eenheid,unit,单位,AUX,keep,clean
+nl,B1,23,526,privé,private,私人的,ADJ,keep,clean
+nl,B1,24,353,vis,fish,鱼,NOUN,keep,clean

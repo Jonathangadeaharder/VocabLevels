@@ -1,0 +1,24 @@
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+33,Bescheid,information,消息,NOUN,de,A2,1,keep,clean
+43,bezahlen,to pay,支付,VERB,de,A2,2,keep,clean
+63,Dame,lady,女士,NOUN,de,A2,3,keep,clean
+75,einige,some,一些,DET,de,A2,4,keep,clean
+94,fliegen,to fly,飞行,VERB,de,A2,5,keep,clean
+119,gemeinsam,together,共同的,ADJ,de,A2,6,keep,clean
+139,heiß,hot,热的,ADJ,de,A2,7,keep,clean
+157,kalt,cold,冷的,ADJ,de,A2,8,keep,clean
+176,kümmern,to take care of,照顾,VERB,de,A2,9,keep,clean
+193,Lust,desire,欲望,NOUN,de,A2,10,keep,clean
+197,Meer,sea,海,NOUN,de,A2,11,keep,clean
+252,Schiff,ship,船,NOUN,de,A2,12,keep,clean
+267,Sekunde,second,秒,NOUN,de,A2,13,keep,clean
+274,sieben,seven,七,NUM,de,A2,14,keep,clean
+285,Stelle,position,位置,NOUN,de,A2,15,keep,clean
+322,verstecken,to hide,隐藏,VERB,de,A2,16,keep,clean
+323,Versuch,attempt,尝试,NOUN,de,A2,17,keep,clean
+337,Wald,forest,森林,NOUN,de,A2,18,keep,clean
+338,weh,sore,疼,ADV,de,A2,19,keep,clean
+339,Weihnachten,Christmas,圣诞节,NOUN,de,A2,20,keep,clean
+350,wohnen,to live,居住,VERB,de,A2,21,keep,clean
+361,Zuhause,home,家,NOUN,de,A2,22,keep,clean
+365,übernehmen,to take over,接管,VERB,de,A2,23,keep,clean

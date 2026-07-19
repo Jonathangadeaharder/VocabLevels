@@ -36,6 +36,7 @@ TARGETS = {"A1": 600, "A2": 600, "B1": 1000, "B2": 2000, "C1": 4000}
 LANG_LEMMA_COL = {
     "arabic": "Arabic_Lemma",
     "chinese": "Chinese_Lemma",
+    "dutch": "Dutch_Lemma",
     "english": "English_Lemma",
     "french": "French_Lemma",
     "german": "German_Lemma",
@@ -43,16 +44,24 @@ LANG_LEMMA_COL = {
     "swedish": "Swedish_Lemma",
 }
 
-# Stanza language codes per repo language.
+# Stanza language codes per repo language. Dutch ("nl") has a Stanza UD
+# tagger (verified against stanza-resources) so it is POS-audited the same
+# way as the other 7 — no need for a separate spaCy dependency.
 STANZA_LANG = {
     "arabic": "ar",
     "chinese": "zh",
+    "dutch": "nl",
     "english": "en",
     "french": "fr",
     "german": "de",
     "spanish": "es",
     "swedish": "sv",
 }
+
+# Every language with Stanza support — the audit's root-cause finding was
+# that this tool's --langs default (originally just german+arabic) meant
+# POS correction never ran against english/spanish/french/swedish/dutch.
+ALL_STANZA_LANGS = list(STANZA_LANG)
 
 # Minimal gloss-based fallback for words Stanza tags as X.
 # Only applied when Stanza returns X (uncertain). Conservative.
@@ -318,32 +327,44 @@ ARABIC_B2_RELOCATE_TO_C1 = {
 
 
 def redistribute_arabic_b2(cs: ChangeSet) -> None:
-    """Relocate 14 C1-appropriate words from arabic/B2 to arabic/C1."""
-    c1_rows = load_csv("arabic", "C1")
-    room = TARGETS["C1"] - len(c1_rows)
-    if room < len(ARABIC_B2_RELOCATE_TO_C1):
-        cs.blockers.append(
-            f"arabic/C1 only has room for {room}, "
-            f"but {len(ARABIC_B2_RELOCATE_TO_C1)} to relocate"
-        )
-        return
+    """Relocate C1-appropriate words from arabic/B2 to arabic/C1.
+
+    Only blocks on room actually needed for the candidates *found* in B2's
+    overflow zone — not the full static ``ARABIC_B2_RELOCATE_TO_C1`` list,
+    which may already be partially or fully relocated (or trimmed) from a
+    prior run, making a room check against its full size a false blocker.
+    """
     b2_rows = load_csv("arabic", "B2")
     b2_target = TARGETS["B2"]
     lemma_col = LANG_LEMMA_COL["arabic"]
     # Only relocate from the overflow zone (indices >= target) so cultural
     # terms in the target zone are preserved.
-    for i, row in enumerate(b2_rows[b2_target:], start=b2_target + 2):
-        lemma = (row.get(lemma_col) or "").strip()
-        if lemma in ARABIC_B2_RELOCATE_TO_C1:
-            cs.relocations.append(
-                RelocateChange(
-                    src_file="arabic/B2.csv",
-                    src_line=i,
-                    lemma=lemma,
-                    dst_file="arabic/C1.csv",
-                    reason="C1-appropriate cultural term",
-                )
+    candidates = [
+        (i, (row.get(lemma_col) or "").strip())
+        for i, row in enumerate(b2_rows[b2_target:], start=b2_target + 2)
+        if (row.get(lemma_col) or "").strip() in ARABIC_B2_RELOCATE_TO_C1
+    ]
+    if not candidates:
+        return
+
+    c1_rows = load_csv("arabic", "C1")
+    room = TARGETS["C1"] - len(c1_rows)
+    if room < len(candidates):
+        cs.blockers.append(
+            f"arabic/C1 only has room for {room}, but {len(candidates)} to relocate"
+        )
+        return
+
+    for i, lemma in candidates:
+        cs.relocations.append(
+            RelocateChange(
+                src_file="arabic/B2.csv",
+                src_line=i,
+                lemma=lemma,
+                dst_file="arabic/C1.csv",
+                reason="C1-appropriate cultural term",
             )
+        )
 
 
 def trim_unique_overflow(cs: ChangeSet) -> None:
@@ -567,8 +588,8 @@ def main(argv: list[str]) -> int:
     parser.add_argument(
         "--langs",
         nargs="+",
-        default=["german", "arabic"],
-        help="Languages to POS-audit (default: german arabic)",
+        default=ALL_STANZA_LANGS,
+        help=f"Languages to POS-audit (default: all with Stanza support: {ALL_STANZA_LANGS})",
     )
     args = parser.parse_args(argv[1:])
 

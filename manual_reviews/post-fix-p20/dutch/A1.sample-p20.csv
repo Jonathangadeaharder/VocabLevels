@@ -1,0 +1,24 @@
+lang,level,sample_index,csv_line,lemma,english_lemma,chinese_lemma,upos,verdict,notes
+nl,A1,1,74,twee,two,二,NUM,keep,clean
+nl,A1,2,77,zien,to see,看见,VERB,keep,clean
+nl,A1,3,129,zitten,sit,坐,VERB,keep,clean
+nl,A1,4,149,want,because,因为,CCONJ,keep,clean
+nl,A1,5,168,verder,further,进一步,ADV,keep,clean
+nl,A1,6,266,der,the,（定冠词）,DET,keep,clean
+nl,A1,7,380,avond,evening,晚上,NOUN,keep,clean
+nl,A1,8,222,minder,less,较少,ADV,keep,clean
+nl,A1,9,7,zijn,to be,是,AUX,keep,clean
+nl,A1,10,286,wachten,to wait,等待,VERB,keep,clean
+nl,A1,11,96,omdat,because,因为,SCONJ,keep,clean
+nl,A1,12,296,belangrijk,important,重要的,ADJ,keep,clean
+nl,A1,13,23,ook,also,也,ADV,keep,clean
+nl,A1,14,91,tijd,time,时间,NOUN,keep,clean
+nl,A1,15,181,nee,no,不,INTJ,keep,clean
+nl,A1,16,147,vrouw,woman,女人,NOUN,keep,clean
+nl,A1,17,83,eens,once,曾经,ADV,keep,clean
+nl,A1,18,322,hulp,help,帮助,NOUN,keep,clean
+nl,A1,19,44,tot,until,直到,ADP,keep,clean
+nl,A1,20,124,iemand,someone,某人,PRON,keep,clean
+nl,A1,21,269,verhaal,story,故事,NOUN,keep,clean
+nl,A1,22,13,te,to,去,PART,keep,clean
+nl,A1,23,330,einde,end,结束,NOUN,keep,clean

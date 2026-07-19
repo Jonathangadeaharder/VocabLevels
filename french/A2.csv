@@ -1,601 +1,520 @@
 French_Lemma,English_Lemma,Chinese_Lemma,POS
-Noël,Christmas,,X
-abricot,apricot,,X
-absence,absence,,X
-absolument,absolutely,,NOUN
-accident,accident,,X
-accord,agreement,,X
-accès,access,,X
-acte,act,,X
-action,action,,NOUN
-actuellement,currently,,NOUN
-addition,bill / check,,NOUN
-administration,administration,,NOUN
-adorer,to adore/love,,VERB
-agence,agency,,X
-agir,to act,,VERB
-agneau,lamb,,X
-agrafeuse,stapler,,X
-ail,garlic,,X
-ailleurs,elsewhere,,X
-ainsi,thus/so,,X
-album,album,,X
-allemand,German,,X
-alors,so/then,,X
-américain,American,,ADJ
-analyse,analysis,,X
-ananas,pineapple,,X
-ancien,old/former,,X
-anniversaire,birthday,,VERB
-annonce,announcement/ad,,X
-août,August,,X
-appel,call,,X
-application,application/app,,NOUN
-arme,weapon,,X
-armée,army,,X
-arrivée,arrival,,X
-arrière,back/rear,,VERB
-arrière-grand-père,great-grandfather,,VERB
-arrêt,stop,,X
-art,art,,X
-artiste,artist,,NOUN
-assiette,plate,,X
-association,association,,NOUN
-assurance,insurance,,NOUN
-assurer,to ensure,,VERB
-attaque,attack,,X
-atteindre,to reach,,VERB
-attendre,to wait,,VERB
-aubergine,eggplant,,X
-aucun,none/no,,X
-autorité,authority,,NOUN
-autour,around,,X
-avancer,to move forward,,VERB
-avenir,future,,VERB
-aviron,rowing,,X
-avis,opinion,,X
-avocat,lawyer/avocado,,X
-avril,April,,X
-aîné,eldest child,,X
-bague,ring,,X
-baguette,baguette,,X
-baignoire,bathtub,,VERB
-balançoire,swing,,VERB
-banque,bank,,X
-bas,low/bottom,,X
-base,base,,X
-basilic,basil,,X
-beau-fils,stepson / son-in-law,,X
-beau-frère,brother-in-law,,VERB
-beau-père,father-in-law / stepfather,,VERB
-beauté,beauty,,NOUN
-belle-mère,mother-in-law / stepmother,,VERB
-belle-soeur,sister-in-law,,NOUN
-besoin,need,,ADJ
-bientôt,soon,,X
-bijou,jewel,,X
-bijouterie,jewelry store,,NOUN
-biscotte,rusk,,X
-blouson,jacket,,X
-bonheur,happiness,,NOUN
-bonnet,beanie,,X
-boucherie,butcher shop,,NOUN
-bougie,candle,,X
-bouilloire,kettle,,VERB
-boussole,compass,,X
-bouton,button,,X
-budget,budget,,X
-bureau,office/desk,,X
-but,goal,,X
-bébé,baby,,X
-cacahuète,peanut,,X
-cadre,frame/framework,,VERB
-cafetière,coffee maker,,VERB
-calme,calm,,X
-camping,campsite,,X
-candidat,candidate,,X
-capable,capable,,ADJ
-capitaine,captain,,X
-capitale,capital,,X
-caractère,character,,VERB
-carafe,carafe,,X
-carrière,career,,VERB
-cartable,school bag,,ADJ
-cas,case,,X
-casque,helmet,,X
-casquette,cap,,X
-casse-croûte,snack,,X
-cause,cause,,X
-ceinture,belt,,VERB
-cendrier,ashtray,,VERB
-cerf-volant,kite,,X
-certainement,certainly,,NOUN
-changement,change,,NOUN
-changer,to change,,VERB
-charge,load/charge,,X
-chargeur,charger,,NOUN
-chat,cat,,X
-chauffeur,driver,,NOUN
-chef,boss/chief,,X
-chercher,to look for,,VERB
-chewing-gum,chewing gum,,X
-chou-fleur,cauliflower,,NOUN
-cintre,hanger,,VERB
-cinéma,cinema,,X
-ciseaux,scissors,,X
-citoyen,citizen,,X
-clairement,clearly,,NOUN
-classeur,binder,,NOUN
-classique,classic,,ADJ
-clocher,bell tower,,VERB
-club,club,,X
-code,code,,X
-coiffeur,hairdresser,,NOUN
-colle,glue,,X
-collection,collection,,NOUN
-combat,fight,,X
-comme,like/as,,ADP
-commencer,to begin,,VERB
-comment,how,,NOUN
-commerce,trade,,X
-commission,commission,,X
-commode,chest of drawers,,X
-commun,common,,X
-communauté,community,,NOUN
-communication,communication,,NOUN
-compagnie,company,,X
-complètement,completely,,NOUN
-compte,account,,X
-concombre,cucumber,,VERB
-concours,contest/competition,,X
-condition,condition,,NOUN
-confiance,trust,,NOUN
-confiture,jam,,VERB
-conférence,conference,,X
-connaissance,knowledge,,NOUN
-construction,construction,,NOUN
-contact,contact,,X
-contraire,opposite,,VERB
-contrat,contract,,X
-contrôle,control,,X
-couple,couple,,X
-cour,courtyard/court,,X
-courgette,zucchini,,X
-cours,course/class,,X
-course,race/errand,,X
-cravate,tie,,X
-crevette,shrimp,,X
-crise,crisis,,X
-critique,criticism/critic,,ADJ
-création,creation,,NOUN
-créer,to create,,VERB
-crêpe,pancake,,X
-cuillère,spoon,,VERB
-cuisine,kitchen/cooking,,X
-cuisinier,cook,,VERB
-culture,culture,,VERB
-célibataire,single person,,VERB
-célèbre,famous,,VERB
-céréales,cereal,,X
-côte,coast,,X
-dames,checkers,,X
-danger,danger,,VERB
-date,date,,X
-demande,request,,X
-dentifrice,toothpaste,,X
-depuis,since/for,,X
-dernier,last,,VERB
-deuxième,second,,X
-difficile,difficult,,X
-différence,difference,,X
-dimanche,Sunday,,X
-direct,direct,,X
-directement,directly,,NOUN
-directeur,director,,NOUN
-direction,direction,,NOUN
-dollar,dollar,,X
-domaine,field/domain,,X
-donner,to give,,VERB
-dossier,file/folder,,VERB
-double,double,,X
-doute,doubt,,X
-drôle,funny,,X
-durée,duration,,X
-dès,from/as soon as,,X
-débat,debate,,X
-début,beginning,,X
-décembre,December,,VERB
-décision,decision,,X
-découvrir,to discover,,VERB
-défense,defense,,X
-département,department,,NOUN
-désolé,sorry,,X
-détail,detail,,X
-développement,development,,NOUN
-en,in,,ADP
-enquête,investigation,,X
-entreprise,company,,X
-entrée,entrance/starter,,X
-environnement,environment,,NOUN
-et,and,,ADP
-euro,euro,,X
-européen,European,,X
-eux,them,,ADJ
-exactement,exactly,,NOUN
-excursion,excursion,,X
-exposition,exhibition,,NOUN
-expression,expression,,X
-expérience,experience,,X
-extrême,extreme,,X
-facilement,easily,,NOUN
-faute,fault/mistake,,X
-faux,false/fake,,X
-femme,woman/wife,,X
-festival,festival,,ADJ
-feu,fire,,X
-fil,thread/wire,,X
-filleul,godson,,X
-final,final,,ADJ
-finalement,finally,,NOUN
-finir,to finish,,VERB
-foi,faith,,X
-force,strength/force,,X
-formation,training,,NOUN
-framboise,raspberry,,X
-français,French,,X
-futur,future,,X
-gaufre,waffle,,VERB
-gendre,son-in-law,,VERB
-genre,kind/type,,VERB
-gilet,vest / cardigan,,X
-glaçon,ice cube,,X
-gouvernement,government,,NOUN
-goût,taste,,X
-grave,serious,,X
-grâce,grace/thanks to,,X
-général,general,,ADJ
-généralement,generally,,NOUN
-habitant,inhabitant,,X
-haut,high/top,,X
-historique,historical,,ADJ
-humain,human,,ADJ
-hôpital,hospital,,ADJ
-identité,identity,,NOUN
-idée,idea,,X
-il,he/it,,X
-imaginer,to imagine,,VERB
-importance,importance,,NOUN
-important,important,,X
-influence,influence,,X
-information,information,,NOUN
-international,international,,ADJ
-internet,internet,,X
-interrupteur,light switch,,NOUN
-intéressant,interesting,,X
-intérêt,interest,,X
-jardinier,gardener,,VERB
-je,I,,X
-joueur,player,,NOUN
-journal,newspaper,,ADJ
-journaliste,journalist,,NOUN
-juge,judge,,X
-jumelles,binoculars,,X
-jusqu'à,until,,X
-justice,justice,,X
-klaxon,horn,,X
-laisser,to let/leave,,VERB
-lancer,to throw/launch,,VERB
-lavabo,bathroom sink,,X
-laverie,laundromat,,NOUN
-le,the,,DET
-lecture,reading,,VERB
-lendemain,next day,,ADJ
-lequel,which,,X
-leur,their/them,,NOUN
-liberté,freedom,,NOUN
-libre,free,,VERB
-lien,link,,X
-lieu,place,,X
-limite,limit,,X
-limonade,lemonade,,X
-loi,law,,X
-longtemps,a long time,,X
-lorsque,when,,X
-lycée,high school,,X
-là,there,,X
-madeleine,madeleine cake,,X
-magnifique,magnificent,,ADJ
-mai,May,,X
-main,hand,,ADJ
-maintenant,now,,X
-maire,mayor,,VERB
-mais,but,,ADP
-majorité,majority,,NOUN
-malgré,despite,,X
-manière,manner/way,,VERB
-marcher,to walk/work,,VERB
-marché,market,,X
-marque,brand/mark,,X
-matière,subject/material,,VERB
-mayonnaise,mayonnaise,,X
-menuisier,carpenter,,VERB
-merci,thank you,,X
-message,message,,X
-milieu,middle,,X
-milliard,billion,,X
-million,million,,X
-ministère,ministry,,VERB
-mission,mission,,X
-moderne,modern,,X
-moi,me,,X
-moment,moment,,NOUN
-mondial,world/global,,ADJ
-moquette,carpet,,X
-mort,death/dead,,X
-mot,word,,X
-moufle,mitten,,X
-moutarde,mustard,,X
-musée,museum,,X
-myrtille,blueberry,,X
-média,media,,X
-mémoire,memory,,VERB
-mérite,merit,,X
-métier,trade/profession,,VERB
-même,same/even,,X
-mûr,ripe,,X
-n'importe,no matter,,X
-nager,to swim,,VERB
-naissance,birth,,NOUN
-narrer,to narrate,,VERB
-nation,nation,,NOUN
-national,national,,ADJ
-nature,nature,,VERB
-navet,turnip,,X
-naître,to be born,,VERB
-ne,not,,ADP
-neige,snow,,X
-neiger,to snow,,VERB
-nerf,nerve,,X
-net,clean/net,,X
-nettoyer,to clean,,VERB
-neuf,new/nine,,X
-nez,nose,,X
-ni,neither/nor,,X
-niveau,level,,X
-noces,wedding,,X
-noir,black,,VERB
-noix,nut/nuez,,X
-nom,name,,X
-nombre,number,,VERB
-nombreux,numerous,,ADJ
-nommer,to name,,VERB
-non,no,,X
-nord,north,,X
-normal,normal,,ADJ
-notamment,notably,,NOUN
-note,note/mark,,X
-notre,our,,VERB
-nourrir,to feed,,VERB
-nous,we/us,,X
-nouveau,new,,X
-nouvelles,news,,X
-novembre,november,,VERB
-nuit,night,,X
-nul,useless/zero,,X
-numéro,number,,X
-nécessaire,necessary,,VERB
-oasis,oasis,,X
-objectif,objective/goal,,ADJ
-objet,object,,X
-obligé,obliged,,X
-obscur,dark,,X
-obtenir,to obtain,,VERB
-occasion,opportunity/used,,X
-occuper,to occupy,,VERB
-octant,eighth,,X
-octobre,october,,VERB
-odeur,smell,,NOUN
-offrir,to offer,,VERB
-oiseau,bird,,X
-omelette,omelet,,X
-on,one/they,,X
-oncle,uncle,,X
-onze,eleven,,X
-opaque,opaque,,X
-opinion,opinion,,X
-opération,operation,,NOUN
-or,gold (metal),,X
-ordinaire,ordinary,,VERB
-ordre,order,,VERB
-oreille,ear,,X
-oreiller,pillow,,VERB
-organe,organ,,X
-organisation,organization,,NOUN
-organiser,to organize,,VERB
-origine,origin,,X
-oser,to dare,,VERB
-ou,or,,ADP
-oublier,to forget,,VERB
-ouest,west,,X
-oui,yes,,X
-ours,bear,,X
-outil,tool,,X
-ouvert,open,,X
-ouvre-boîte,can opener,,X
-ouvrir,to open,,VERB
-où,where,,X
-page,page,,X
-pain,bread,,ADJ
-paire,pair,,VERB
-paix,peace,,X
-palais,palace,,X
-palmier,palm tree,,VERB
-pamplemousse,grapefruit,,X
-pantalon,pants/trousers,,X
-pantoufle,slipper,,X
-papa,dad,,X
-papeterie,stationery shop,,NOUN
-papier,paper,,VERB
-par,by,,ADP
-parapluie,umbrella,,X
-parc,park,,X
-pardon,forgiveness,,X
-pareil,same/similar,,X
-parent,parent,,X
-parfait,perfect,,X
-parfaitement,perfectly,,NOUN
-parfois,sometimes,,X
-parfum,perfume,,X
-parking,parking lot,,X
-parler,to speak,,VERB
-parmi,among,,X
-parole,word/speech,,X
-part,part/share,,X
-partager,to share,,VERB
-parti,party (political),,X
-participer,to participate,,VERB
-particulier,particular,,VERB
-particulièrement,particularly,,NOUN
-partie,part,,X
-partir,to leave,,VERB
-partout,everywhere,,X
-parvenir,to reach/llegar a,,VERB
-pas,not/step,,ADP
-passage,passage,,X
-passager,passenger,,VERB
-passeport,passport,,X
-passer,to pass,,VERB
-passoire,colander,,VERB
-passé,past,,X
-pastèque,watermelon,,X
-patate,potato,,X
-pater,to worry,,VERB
-patin,skate,,ADJ
-patron,boss/owner,,X
-pauvre,poor,,VERB
-pavé,paving stone/pavement,,X
-payer,to pay,,VERB
-pays,country,,X
-peau,skin,,X
-pecher,to sin,,VERB
-peignoir,bathrobe,,VERB
-peindre,to paint,,VERB
-peine,pain/sorrow/punishment/effort,,X
-peinture,painting/paint,,VERB
-pelouse,lawn/grass,,X
-pendant,during,,X
-pendre,to hang,,VERB
-penser,to think,,VERB
-pensée,thought,,X
-perdre,to lose,,VERB
-permettre,to allow,,VERB
-persil,parsley,,X
-personnage,character,,X
-personne,person/no one,,X
-personnel,staff/personal,,X
-perte,loss,,X
-petit,small/small/short,,X
-petit-fils,grandson,,X
-petite-fille,granddaughter,,X
-peu,little/few,,X
-peuple,people/nation,,X
-peur,fear,,NOUN
-pharmacien,pharmacist,,X
-photo,photo,,X
-physique,physical/physics,,ADJ
-pied,foot,,X
-pierre,stone,,VERB
-pigeon,pigeon,,X
-pile,battery/pile,,X
-pince,pliers,,X
-piper,to peep,,VERB
-pique,spade (cards)/pike,,ADJ
-pire,worse/worst,,VERB
-piscine,pool (swimming),,X
-pitié,pity,,X
-pièce,room/piece,,X
-piéton,pedestrian,,X
-place,square/seat,,X
-plage,beach,,X
-plainte,complaint,,X
-plaire,to please,,VERB
-plaisir,pleasure,,VERB
-plan,plan/map,,X
-plante,plant,,X
-planète,planet,,X
-plat,dish/flat,,X
-plein,full,,ADJ
-pleurer,to cry,,VERB
-pleuvoir,to rain,,VERB
-plonger,to dive/plunge,,VERB
-plupart,most,,X
-plus,more,,ADP
-plusieurs,several,,X
-plutôt,rather,,X
-poids,weight,,X
-point,point,,X
-poire,pear,,VERB
-poireau,leek,,X
-poisson,fish,,X
-poissonnerie,fish shop,,NOUN
-poitrine,chest,,X
-poivron,bell pepper,,X
-police,police,,X
-politique,politics/political,,ADJ
-pomme,apple,,X
-pompier,firefighter,,VERB
-pont,bridge,,X
-populaire,popular,,VERB
-population,population,,NOUN
-port,harbor,,X
-portail,gate/portal,,X
-porte,door,,X
-porte-monnaie,coin purse,,X
-portefeuille,wallet,,X
-porter,to carry/wear,,VERB
-portrait,portrait,,X
-poser,to put down/ask,,VERB
-positif,positive,,ADJ
-position,position,,NOUN
-possibilité,possibility,,NOUN
-possible,possible,,ADJ
-posséder,to own,,VERB
-poste,position/post,,X
-poteau,post/stake,,X
-poubelle,trash can,,X
-poule,hen,,X
-poulet,chicken,,X
-poumon,lung,,X
-pour,for,,ADP
-pourquoi,why,,X
-pourtant,yet/however,,X
-pouvoir,to be able to,,VERB
-prairie,meadow,,X
-pratique,practical/practice,,ADJ
-premier,first,,VERB
-prendre,to take,,VERB
-presque,almost,,X
-presse,press,,NOUN
-presser,to squeeze/press,,VERB
-pressing,dry cleaner,,X
-pression,pressure,,X
-preuve,proof,,X
-prier,to pray,,VERB
-prime,premium/reward,,X
-prince,prince,,X
-principal,main,,ADJ
-principe,principle,,X
-printemps,spring,,X
-prise,electrical outlet,,X
-prison,prison,,X
-privé,private,,X
-prix,price,,X
-probablement,probably,,NOUN
-problème,problem,,X
-prochain,next,,ADJ
-proche,close/near,,X
-proches,close relatives,,X
-production,production,,NOUN
-produit,product,,X
-professeur,teacher/professor,,NOUN
-profiter,to profit/enjoy,,VERB
+abricot,apricot,杏,NOUN
+absolument,absolutely,绝对地,ADV
+accord,agreement,协议,NOUN
+accès,access,进入,NOUN
+acte,act,行为,NOUN
+actuellement,currently,目前,ADV
+addition,bill,账单,NOUN
+adorer,to love,热爱,VERB
+agence,agency,机构,NOUN
+agir,to act,行动,VERB
+agneau,lamb,羔羊,NOUN
+agrafeuse,stapler,订书机,NOUN
+ail,garlic,大蒜,NOUN
+ailleurs,elsewhere,别处,ADV
+ainsi,thus,如此,ADV
+allemand,German,德国的,ADJ
+alors,then,那么,ADV
+américain,American,美国的,ADJ
+analyse,analysis,分析,NOUN
+ananas,pineapple,菠萝,NOUN
+ancien,old,古老的,ADJ
+anniversaire,birthday,生日,NOUN
+annonce,announcement,公告,NOUN
+appel,call,呼叫,NOUN
+arme,weapon,武器,NOUN
+armée,army,军队,NOUN
+arrivée,arrival,到达,NOUN
+arrière,back,后面,NOUN
+arrière-grand-père,great-grandfather,曾祖父,NOUN
+arrêt,stop,停止,NOUN
+artiste,artist,艺术家,NOUN
+assiette,plate,盘子,NOUN
+assurance,insurance,保险,NOUN
+assurer,to ensure,确保,VERB
+attaque,attack,攻击,NOUN
+atteindre,to reach,达到,VERB
+attendre,to wait,等待,VERB
+aubergine,eggplant,茄子,NOUN
+aucun,none,没有任何,DET
+autorité,authority,权威,NOUN
+autour,around,周围,ADV
+avancer,to move forward,前进,VERB
+avenir,future,未来,NOUN
+aviron,oar,船桨,NOUN
+avis,opinion,意见,NOUN
+avocat,lawyer,律师,NOUN
+aîné,eldest,年长的,ADJ
+bague,ring,戒指,NOUN
+baignoire,bathtub,浴缸,NOUN
+balançoire,swing,秋千,NOUN
+banque,bank,银行,NOUN
+bas,low,低的,ADJ
+basilic,basil,罗勒,NOUN
+beau-fils,stepson,继子,NOUN
+beau-frère,brother-in-law,姐夫,NOUN
+beau-père,father-in-law,岳父,NOUN
+beauté,beauty,美丽,NOUN
+belle-mère,mother-in-law,岳母,NOUN
+belle-soeur,sister-in-law,嫂子,NOUN
+besoin,need,需要,NOUN
+bientôt,soon,很快,ADV
+bijou,jewel,珠宝,NOUN
+bijouterie,jewelry store,珠宝店,NOUN
+biscotte,rusk,干面包,NOUN
+blouson,jacket,夹克,NOUN
+bonheur,happiness,幸福,NOUN
+bonnet,beanie,无檐小便帽,NOUN
+boucherie,butcher shop,肉店,NOUN
+bougie,candle,蜡烛,NOUN
+bouilloire,kettle,水壶,NOUN
+boussole,compass,指南针,NOUN
+bouton,button,纽扣,NOUN
+bureau,office,办公室,NOUN
+but,goal,目标,NOUN
+bébé,baby,婴儿,NOUN
+cacahuète,peanut,花生,NOUN
+cadre,frame,框架,NOUN
+cafetière,coffee maker,咖啡壶,NOUN
+calme,calm,平静,ADJ
+camping,campsite,露营地,NOUN
+candidat,candidate,候选人,NOUN
+capitaine,captain,队长,NOUN
+capitale,capital,首都,NOUN
+caractère,character,性格,NOUN
+carrière,career,职业,NOUN
+cartable,school bag,书包,NOUN
+cas,case,情况,NOUN
+casque,helmet,头盔,NOUN
+casquette,cap,鸭舌帽,NOUN
+casse-croûte,snack,小吃,NOUN
+ceinture,belt,腰带,NOUN
+cendrier,ashtray,烟灰缸,NOUN
+cerf-volant,kite,风筝,NOUN
+certainement,certainly,当然,ADV
+changement,change,变化,NOUN
+changer,to change,改变,VERB
+charge,load,负载,NOUN
+chargeur,charger,充电器,NOUN
+chat,cat,猫,NOUN
+chauffeur,driver,司机,NOUN
+chef,boss,老板,NOUN
+chercher,to look for,寻找,VERB
+chewing-gum,chewing gum,口香糖,NOUN
+chou-fleur,cauliflower,花椰菜,NOUN
+cintre,hanger,衣架,NOUN
+cinéma,cinema,电影院,NOUN
+ciseaux,scissors,剪刀,NOUN
+citoyen,citizen,公民,NOUN
+clairement,clearly,清楚地,ADV
+classeur,binder,文件夹,NOUN
+classique,classic,经典的,ADJ
+clocher,bell tower,钟楼,NOUN
+coiffeur,hairdresser,理发师,NOUN
+colle,glue,胶水,NOUN
+combat,fight,战斗,NOUN
+comme,like,像,ADP
+commencer,to begin,开始,VERB
+comment,how,如何,ADV
+commerce,trade,贸易,NOUN
+commode,chest of drawers,五斗柜,NOUN
+commun,common,共同的,ADJ
+communauté,community,社区,NOUN
+compagnie,company,公司,NOUN
+complètement,completely,完全地,ADV
+compte,account,账户,NOUN
+concombre,cucumber,黄瓜,NOUN
+concours,competition,竞赛,NOUN
+confiance,trust,信任,NOUN
+confiture,jam,果酱,NOUN
+conférence,conference,会议,NOUN
+connaissance,knowledge,知识,NOUN
+contraire,opposite,相反的,ADJ
+contrat,contract,合同,NOUN
+contrôle,control,控制,NOUN
+cour,courtyard,庭院,NOUN
+courgette,zucchini,西葫芦,NOUN
+cours,class,课程,NOUN
+course,race,赛跑,NOUN
+cravate,tie,领带,NOUN
+crevette,shrimp,虾,NOUN
+crise,crisis,危机,NOUN
+critique,criticism,批评,NOUN
+création,creation,创造,NOUN
+créer,to create,创造,VERB
+crêpe,pancake,可丽饼,NOUN
+cuillère,spoon,勺子,NOUN
+cuisine,kitchen,厨房,NOUN
+cuisinier,cook,厨师,NOUN
+célibataire,single,单身的,ADJ
+célèbre,famous,著名的,ADJ
+céréales,cereal,谷物,NOUN
+côte,coast,海岸,NOUN
+dames,checkers,跳棋,NOUN
+demande,request,请求,NOUN
+dentifrice,toothpaste,牙膏,NOUN
+depuis,since,自从,ADP
+dernier,last,最后的,ADJ
+deuxième,second,第二,ADJ
+difficile,difficult,困难的,ADJ
+différence,difference,区别,NOUN
+dimanche,Sunday,星期日,NOUN
+directement,directly,直接地,ADV
+directeur,director,主管,NOUN
+domaine,field,领域,NOUN
+donner,to give,给,VERB
+dossier,file,档案,NOUN
+doute,doubt,怀疑,NOUN
+drôle,funny,有趣的,ADJ
+durée,duration,持续时间,NOUN
+dès,from / as of,从……起,ADP
+débat,debate,辩论,NOUN
+début,beginning,开始,NOUN
+décembre,December,十二月,NOUN
+décision,decision,决定,NOUN
+découvrir,to discover,发现,VERB
+défense,defense,防御,NOUN
+département,department,部门,NOUN
+désolé,sorry,抱歉的,ADJ
+détail,detail,细节,NOUN
+développement,development,发展,NOUN
+en,in,在,ADP
+enquête,investigation,调查,NOUN
+entreprise,company,公司,NOUN
+entrée,entrance,入口,NOUN
+environnement,environment,环境,NOUN
+et,and,和,CCONJ
+européen,European,欧洲的,ADJ
+eux,them,他们,PRON
+exactement,exactly,确切地,ADV
+exposition,exhibition,展览,NOUN
+expérience,experience,经验,NOUN
+extrême,extreme,极端的,ADJ
+facilement,easily,容易地,ADV
+faute,mistake,错误,NOUN
+faux,false,假的,ADJ
+femme,woman,女人,NOUN
+feu,fire,火,NOUN
+fil,thread,线,NOUN
+filleul,godson,教子,NOUN
+finalement,finally,最后,ADV
+finir,to finish,结束,VERB
+foi,faith,信仰,NOUN
+force,strength,力量,NOUN
+formation,training,培训,NOUN
+framboise,raspberry,覆盆子,NOUN
+français,French,法语,ADJ
+futur,future,未来,NOUN
+gaufre,waffle,华夫饼,NOUN
+gendre,son-in-law,女婿,NOUN
+genre,kind,种类,NOUN
+gilet,vest,背心,NOUN
+glaçon,ice cube,冰块,NOUN
+gouvernement,government,政府,NOUN
+goût,taste,味道,NOUN
+grave,serious,严重的,ADJ
+grâce,grace,恩典,NOUN
+général,general,一般的,ADJ
+généralement,generally,通常,ADV
+habitant,inhabitant,居民,NOUN
+haut,high,高的,ADJ
+historique,historical,历史的,ADJ
+humain,human,人类的,ADJ
+identité,identity,身份,NOUN
+idée,idea,想法,NOUN
+il,he,他,PRON
+imaginer,to imagine,想象,VERB
+interrupteur,switch,开关,NOUN
+intéressant,interesting,有趣的,ADJ
+intérêt,interest,兴趣,NOUN
+jardinier,gardener,园丁,NOUN
+je,I,我,PRON
+joueur,player,玩家,NOUN
+journal,newspaper,报纸,NOUN
+journaliste,journalist,记者,NOUN
+juge,judge,法官,NOUN
+jumelles,binoculars,双筒望远镜,NOUN
+jusqu'à,until,直到,ADP
+klaxon,horn,喇叭,NOUN
+laisser,to let,让,VERB
+lancer,to throw,投掷,VERB
+lavabo,sink,洗手池,NOUN
+laverie,laundromat,自助洗衣店,NOUN
+le,the,这/那,DET
+lecture,reading,阅读,NOUN
+lendemain,next day,次日,NOUN
+lequel,which one,哪一个,PRON
+leur,their,他们的,DET
+liberté,freedom,自由,NOUN
+libre,free,自由的,ADJ
+lien,link,联系,NOUN
+lieu,place,地方,NOUN
+limite,limit,限制,NOUN
+limonade,lemonade,柠檬水,NOUN
+loi,law,法律,NOUN
+longtemps,a long time,很久,ADV
+lorsque,when,当……时,SCONJ
+lycée,high school,高中,NOUN
+là,there,那里,ADV
+magnifique,magnificent,壮丽的,ADJ
+main,hand,手,NOUN
+maintenant,now,现在,ADV
+maire,mayor,市长,NOUN
+mais,but,但是,CCONJ
+majorité,majority,大多数,NOUN
+malgré,despite,尽管,ADP
+manière,manner,方式,NOUN
+marcher,to walk,走路,VERB
+marché,market,市场,NOUN
+marque,brand,品牌,NOUN
+matière,subject,科目,NOUN
+menuisier,carpenter,木匠,NOUN
+merci,thank you,谢谢,INTJ
+milieu,middle,中间,NOUN
+milliard,billion,十亿,NUM
+ministère,ministry,部,NOUN
+moderne,modern,现代的,ADJ
+moi,me,我,PRON
+mondial,global,全球的,ADJ
+moquette,carpet,地毯,NOUN
+mort,death,死亡,NOUN
+mot,word,词,NOUN
+moufle,mitten,连指手套,NOUN
+moutarde,mustard,芥末,NOUN
+musée,museum,博物馆,NOUN
+myrtille,blueberry,蓝莓,NOUN
+média,media,媒体,NOUN
+mémoire,memory,记忆,NOUN
+mérite,merit,优点,NOUN
+métier,profession,职业,NOUN
+même,same,相同的,ADJ
+mûr,ripe,成熟的,ADJ
+nager,to swim,游泳,VERB
+naissance,birth,出生,NOUN
+navet,turnip,芜菁,NOUN
+naître,to be born,出生,VERB
+neige,snow,雪,NOUN
+neiger,to snow,下雪,VERB
+nerf,nerve,神经,NOUN
+net,clean,干净的,ADJ
+nettoyer,to clean,打扫,VERB
+neuf,new,新的,ADJ
+nez,nose,鼻子,NOUN
+ni,neither/nor,既不/也不,CCONJ
+niveau,level,水平,NOUN
+noces,wedding,婚礼,NOUN
+noir,black,黑色,ADJ
+noix,nut,坚果,NOUN
+nom,name,名字,NOUN
+nombre,number,数字,NOUN
+nombreux,numerous,众多的,ADJ
+nommer,to name,命名,VERB
+non,no,不,ADV
+nord,north,北方,NOUN
+notamment,notably,尤其,ADV
+note,note/mark,笔记/分数,NOUN
+notre,our,我们的,DET
+nourrir,to feed,喂养,VERB
+nous,we/us,我们,PRON
+nouveau,new,新的,ADJ
+nouvelles,news,新闻,NOUN
+novembre,November,十一月,NOUN
+nuit,night,夜晚,NOUN
+nul,useless/zero,无效的/零,ADJ
+numéro,number,号码,NOUN
+nécessaire,necessary,必要的,ADJ
+objectif,objective/goal,目标,NOUN
+objet,object,物体,NOUN
+obligé,obliged,被迫的,ADJ
+obscur,dark,黑暗的,ADJ
+obtenir,to obtain,获得,VERB
+occasion,opportunity/used,机会,NOUN
+occuper,to occupy,占据,VERB
+octobre,October,十月,NOUN
+odeur,smell,气味,NOUN
+offrir,to offer,提供,VERB
+oiseau,bird,鸟,NOUN
+omelette,omelet,煎蛋卷,NOUN
+on,one,人们,PRON
+oncle,uncle,叔叔,NOUN
+onze,eleven,十一,NUM
+opération,operation,手术,NOUN
+or,gold,金,NOUN
+ordinaire,ordinary,普通的,ADJ
+ordre,order,命令,NOUN
+oreille,ear,耳朵,NOUN
+oreiller,pillow,枕头,NOUN
+organe,organ,器官,NOUN
+organisation,organization,组织,NOUN
+organiser,to organize,组织,VERB
+origine,origin,起源,NOUN
+oser,to dare,敢于,VERB
+ou,or,或者,CCONJ
+oublier,to forget,忘记,VERB
+ouest,west,西方,NOUN
+oui,yes,是,INTJ
+ours,bear,熊,NOUN
+outil,tool,工具,NOUN
+ouvert,open,开着的,ADJ
+ouvrir,to open,打开,VERB
+où,where,哪里,ADV
+pain,bread,面包,NOUN
+paire,pair,一对,NOUN
+paix,peace,和平,NOUN
+palais,palace,宫殿,NOUN
+palmier,palm tree,棕榈树,NOUN
+pamplemousse,grapefruit,葡萄柚,NOUN
+pantalon,trousers,裤子,NOUN
+pantoufle,slipper,拖鞋,NOUN
+papa,dad,爸爸,NOUN
+papeterie,stationery shop,文具店,NOUN
+papier,paper,纸,NOUN
+par,by,由,ADP
+parapluie,umbrella,雨伞,NOUN
+parc,park,公园,NOUN
+pardon,forgiveness,原谅,NOUN
+pareil,same,相同的,ADJ
+parfait,perfect,完美的,ADJ
+parfaitement,perfectly,完美地,ADV
+parfois,sometimes,有时,ADV
+parfum,perfume,香水,NOUN
+parking,parking lot,停车场,NOUN
+parler,to speak,说话,VERB
+parmi,among,在...之中,ADP
+parole,word,话,NOUN
+partager,to share,分享,VERB
+parti,political party,政党,NOUN
+participer,to participate,参加,VERB
+particulier,particular,特别的,ADJ
+particulièrement,particularly,特别地,ADV
+partie,part,部分,NOUN
+partir,to leave,离开,VERB
+partout,everywhere,到处,ADV
+parvenir,to reach,到达,VERB
+pas,not,不,ADV
+passager,passenger,乘客,NOUN
+passeport,passport,护照,NOUN
+passer,to pass,经过,VERB
+passoire,colander,滤锅,NOUN
+passé,past,过去,NOUN
+pastèque,watermelon,西瓜,NOUN
+patate,potato,土豆,NOUN
+patiner,to skate,滑冰,VERB
+patin,skate,溜冰鞋,NOUN
+patron,boss,老板,NOUN
+pauvre,poor,贫穷的,ADJ
+pavé,paving stone,铺路石,NOUN
+payer,to pay,支付,VERB
+pays,country,国家,NOUN
+peau,skin,皮肤,NOUN
+peignoir,bathrobe,浴袍,NOUN
+peindre,to paint,绘画,VERB
+peine,sorrow,悲伤,NOUN
+peinture,painting,绘画,NOUN
+pelouse,lawn,草坪,NOUN
+pendant,during,在...期间,ADP
+pendre,to hang,悬挂,VERB
+penser,to think,思考,VERB
+pensée,thought,想法,NOUN
+perdre,to lose,丢失,VERB
+permettre,to allow,允许,VERB
+persil,parsley,欧芹,NOUN
+personnage,character,人物,NOUN
+personne,person,人,NOUN
+personnel,staff,员工,NOUN
+perte,loss,损失,NOUN
+petit,small,小的,ADJ
+petit-fils,grandson,孙子,NOUN
+petite-fille,granddaughter,孙女,NOUN
+peu,little,少,ADV
+peuple,people,人民,NOUN
+peur,fear,恐惧,NOUN
+pharmacien,pharmacist,药剂师,NOUN
+physique,physical,身体的,ADJ
+pied,foot,脚,NOUN
+pierre,stone,石头,NOUN
+pile,battery,电池,NOUN
+pince,pliers,钳子,NOUN
+piper,to pipe,吹笛子,VERB
+pique,spade,黑桃,NOUN
+pire,worse,更糟,ADJ
+piscine,swimming pool,游泳池,NOUN
+pitié,pity,怜悯,NOUN
+pièce,room,房间,NOUN
+piéton,pedestrian,行人,NOUN
+place,square,广场,NOUN
+plage,beach,海滩,NOUN
+plainte,complaint,投诉,NOUN
+plaire,to please,使喜欢,VERB
+plaisir,pleasure,快乐,NOUN
+plan,map,地图,NOUN
+plante,plant,植物,NOUN
+planète,planet,行星,NOUN
+plat,dish,菜肴,NOUN
+plein,full,满的,ADJ
+pleurer,to cry,哭泣,VERB
+pleuvoir,to rain,下雨,VERB
+plonger,to dive,潜水,VERB
+plupart,most,大多数,PRON
+plus,more,更多,ADV
+plusieurs,several,几个,DET
+plutôt,rather,相当,ADV
+poids,weight,重量,NOUN
+poire,pear,梨,NOUN
+poireau,leek,韭葱,NOUN
+poisson,fish,鱼,NOUN
+poissonnerie,fish shop,鱼店,NOUN
+poitrine,chest,胸部,NOUN
+poivron,bell pepper,甜椒,NOUN
+politique,political,政治的,ADJ
+pomme,apple,苹果,NOUN
+pompier,firefighter,消防员,NOUN
+pont,bridge,桥,NOUN
+populaire,popular,受欢迎的,ADJ
+port,harbor,港口,NOUN
+portail,gate,大门,NOUN
+porte,door,门,NOUN
+porte-monnaie,coin purse,零钱包,NOUN
+portefeuille,wallet,钱包,NOUN
+porter,to carry,携带,VERB
+poser,to put down,放下,VERB
+positif,positive,积极的,ADJ
+possibilité,possibility,可能性,NOUN
+posséder,to own,拥有,VERB
+poste,post,职位,NOUN
+poteau,post,柱子,NOUN
+poubelle,trash can,垃圾桶,NOUN
+poule,hen,母鸡,NOUN
+poulet,chicken,鸡肉,NOUN
+poumon,lung,肺,NOUN
+pour,for,为了,ADP
+pourquoi,why,为什么,ADV
+pourtant,however,然而,ADV
+pouvoir,to be able to,能够,VERB
+prairie,meadow,草地,NOUN
+pratique,practical,实用的,ADJ
+premier,first,第一,ADJ
+prendre,to take,拿,VERB
+presque,almost,几乎,ADV
+presse,press,新闻界,NOUN
+presser,to press,按压,VERB
+pressing,dry cleaner,干洗店,NOUN
+pression,pressure,压力,NOUN
+preuve,proof,证据,NOUN
+prier,to pray,祈祷,VERB
+prime,bonus,奖金,NOUN
+principal,main,主要的,ADJ
+principe,principle,原则,NOUN
+printemps,spring,春天,NOUN
+prise,socket,插座,NOUN
+privé,private,私人的,ADJ
+prix,price,价格,NOUN
+probablement,probably,可能,ADV
+problème,problem,问题,NOUN
+prochain,next,下一个,ADJ
+proche,close,近的,ADJ
+proche,relative,亲人,NOUN
+produit,product,产品,NOUN
+professeur,teacher,老师,NOUN
+profiter,to enjoy,享受,VERB

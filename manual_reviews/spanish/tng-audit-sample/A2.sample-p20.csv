@@ -1,0 +1,25 @@
+csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
+17,ambulancia,ambulance,救护车,NOUN,es,A2,1,keep,clean
+26,apoyo,support,支持,NOUN,es,A2,2,keep,clean
+63,botella,bottle,瓶子,NOUN,es,A2,3,keep,clean
+72,caer,to fall,落下,VERB,es,A2,4,keep,clean
+107,cobarde,coward,懦夫,ADJ,es,A2,5,keep,clean
+181,despacho,office,办公室,NOUN,es,A2,6,keep,clean
+184,destruir,to destroy,摧毁,VERB,es,A2,7,keep,clean
+206,efectivo,cash,现金,NOUN,es,A2,8,keep,clean
+214,empresa,company,公司,NOUN,es,A2,9,keep,clean
+215,enamorado,in love,恋爱中的,ADJ,es,A2,10,keep,clean
+227,enviar,to send,发送,VERB,es,A2,11,keep,clean
+231,escribir,to write,写,VERB,es,A2,12,keep,clean
+235,especialmente,especially,特别,ADV,es,A2,13,keep,clean
+238,esperanza,hope,希望,NOUN,es,A2,14,keep,clean
+259,fantasma,ghost,鬼魂,NOUN,es,A2,15,keep,clean
+294,huir,flee,逃跑,VERB,es,A2,16,keep,clean
+302,imbécil,idiot,傻瓜,ADJ,es,A2,17,keep,clean
+337,lluvia,rain,雨,NOUN,es,A2,18,keep,clean
+362,montaña,mountain,山,NOUN,es,A2,19,keep,clean
+388,oeste,west,西,NOUN,es,A2,20,keep,clean
+416,pesar,weigh,称重,VERB,es,A2,21,keep,clean
+417,pescado,fish,鱼,NOUN,es,A2,22,keep,clean
+431,pollo,chicken,鸡,NOUN,es,A2,23,keep,clean
+500,silla,chair,椅子,NOUN,es,A2,24,keep,clean
