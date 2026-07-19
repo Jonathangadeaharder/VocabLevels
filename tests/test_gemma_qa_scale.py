@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import os
+import dataclasses
 from collections.abc import Callable
 from pathlib import Path
 
@@ -71,12 +71,7 @@ def test_scale_continues_resumes_and_retries_failures(tmp_path: Path) -> None:
     assert calls == ["cefr:en:A1", "cefr:de:A1"]
 
     retried = run_scale(
-        ScaleConfig(
-            **{
-                **config.__dict__,
-                "retry_failed": True,
-            }
-        ),
+        dataclasses.replace(config, retry_failed=True),
         execute=execute,
     )
     assert retried.succeeded == 1
@@ -84,34 +79,27 @@ def test_scale_continues_resumes_and_retries_failures(tmp_path: Path) -> None:
     assert calls[-1] == "cefr:de:A1"
 
 
-def test_scale_state_redacts_api_key(tmp_path: Path) -> None:
+def test_scale_state_redacts_api_key(tmp_path: Path, monkeypatch) -> None:
     secret = "test-secret-key"
-    previous = os.environ.get("API_KEY")
-    os.environ["API_KEY"] = secret
-    try:
-        config = ScaleConfig(
-            root=tmp_path,
-            lemmatizer_root=tmp_path / "lemmatizer",
-            languages=("en",),
-            levels=("A1",),
-            phases=("cefr",),
-        )
+    monkeypatch.setenv("API_KEY", secret)
+    config = ScaleConfig(
+        root=tmp_path,
+        lemmatizer_root=tmp_path / "lemmatizer",
+        languages=("en",),
+        levels=("A1",),
+        phases=("cefr",),
+    )
 
-        def fail(task: ScaleTask, current: ScaleConfig) -> Path:
-            raise RuntimeError(f"request failed with {secret}")
+    def fail(task: ScaleTask, current: ScaleConfig) -> Path:
+        raise RuntimeError(f"request failed with {secret}")
 
-        result = run_scale(config, execute=fail)
-        assert result.failed == 1
-        state = ScaleState(tmp_path / ".gemma_qa" / "scale.sqlite3")
-        record = state.get("cefr:en:A1")
-        assert record is not None
-        assert secret not in (record.error or "")
-        assert "[REDACTED]" in (record.error or "")
-    finally:
-        if previous is None:
-            os.environ.pop("API_KEY", None)
-        else:
-            os.environ["API_KEY"] = previous
+    result = run_scale(config, execute=fail)
+    assert result.failed == 1
+    state = ScaleState(tmp_path / ".gemma_qa" / "scale.sqlite3")
+    record = state.get("cefr:en:A1")
+    assert record is not None
+    assert secret not in (record.error or "")
+    assert "[REDACTED]" in (record.error or "")
 
 
 def test_scale_defaults_to_proposals_without_refill_or_apply(tmp_path: Path) -> None:
@@ -123,13 +111,11 @@ def test_scale_defaults_to_proposals_without_refill_or_apply(tmp_path: Path) -> 
 
     config = ScaleConfig(root=tmp_path, lemmatizer_root=tmp_path / "lemmatizer")
     run_scale(
-        ScaleConfig(
-            **{
-                **config.__dict__,
-                "languages": ("en",),
-                "levels": ("A1",),
-                "phases": ("cefr",),
-            }
+        dataclasses.replace(
+            config,
+            languages=("en",),
+            levels=("A1",),
+            phases=("cefr",),
         ),
         execute=execute,
     )
@@ -181,7 +167,7 @@ def test_changed_apply_mode_is_not_skipped_as_prior_success(tmp_path: Path) -> N
         phases=("cefr",),
     )
     run_scale(base, execute=execute)
-    applied = ScaleConfig(**{**base.__dict__, "apply": True})
+    applied = dataclasses.replace(base, apply=True)
     result = run_scale(applied, execute=execute)
     assert result.succeeded == 1
     assert result.skipped == 0
