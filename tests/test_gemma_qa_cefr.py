@@ -65,12 +65,19 @@ def test_validation_repairs_id_order_and_fills_missing(tmp_path: Path) -> None:
     )
     repaired = validate_review_batch(document.rows, reversed_batch)
     assert [row.id for row in repaired.rows] == [row.id for row in document.rows]
-    # Missing id → keep-from-input fill
+    # Cardinality mismatch (missing id) triggers repair loop, not silent fill.
     one = CefrReviewBatch(rows=[review_for(document.rows[0].id, "Abend")])
-    filled = validate_review_batch(document.rows, one)
-    assert len(filled.rows) == 2
-    assert filled.rows[1].id == document.rows[1].id
-    assert filled.rows[1].action.value == "keep"
+    with pytest.raises(ValueError, match="IDs/order/cardinality"):
+        validate_review_batch(document.rows, one)
+    # Unknown id triggers repair loop.
+    unknown = CefrReviewBatch(
+        rows=[
+            review_for(document.rows[0].id, "Abend"),
+            review_for("german:A1:bogus", "Haus"),
+        ]
+    )
+    with pytest.raises(ValueError, match="IDs/order/cardinality"):
+        validate_review_batch(document.rows, unknown)
 
 
 def test_dry_run_writes_proposed_only(tmp_path: Path) -> None:

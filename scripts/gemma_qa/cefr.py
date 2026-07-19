@@ -5,6 +5,7 @@ import time
 
 import csv
 import unicodedata
+from collections import Counter
 from collections.abc import Callable, Sequence
 from concurrent.futures import Future, ThreadPoolExecutor, as_completed, wait
 from dataclasses import dataclass
@@ -124,26 +125,33 @@ def validate_review_batch(
 ) -> CefrReviewBatch:
     """Align review rows to input IDs/order.
 
-    Models occasionally reorder, drop, or duplicate IDs. Reorder by id, drop
-    unknowns, and fill missing slots with keep-from-input so a near-complete
-    batch does not fail the entire language/level task.
+    Models occasionally reorder IDs. Reorder by id to match input order. Raise
+    on cardinality mismatch, unknown IDs, or duplicates so the semantic repair
+    loop can retry instead of silently accepting garbage.
     """
     input_ids = [row.id for row in inputs]
-    by_id: dict[str, CefrReviewRow] = {}
-    for row in reviews.rows:
-        by_id.setdefault(row.id, row)
-    ordered: list[CefrReviewRow] = []
-    filled = 0
-    for inp in inputs:
-        existing = by_id.get(inp.id)
-        if existing is not None:
-            ordered.append(existing)
-        else:
-            ordered.append(input_row_as_review(inp))
-            filled += 1
-    repaired = CefrReviewBatch(rows=ordered)
     review_ids = [row.id for row in reviews.rows]
-    if review_ids != input_ids or filled:
+    if len(reviews.rows) != len(input_ids):
+        raise ValueError(
+            "IDs/order/cardinality differ from input: "
+            f"review_count={len(reviews.rows)} input_count={len(input_ids)}"
+        )
+    unknown = [rid for rid in review_ids if rid not in set(input_ids)]
+    if unknown:
+        raise ValueError(
+            "IDs/order/cardinality differ from input: "
+            f"unknown_ids={unknown[:3]}"
+        )
+    duplicates = [rid for rid, count in Counter(review_ids).items() if count > 1]
+    if duplicates:
+        raise ValueError(
+            "IDs/order/cardinality differ from input: "
+            f"duplicate_ids={duplicates[:3]}"
+        )
+    by_id: dict[str, CefrReviewRow] = {row.id: row for row in reviews.rows}
+    ordered = [by_id[iid] for iid in input_ids]
+    repaired = CefrReviewBatch(rows=ordered)
+    if review_ids != input_ids:
         from .trace import event
 
         event(
@@ -151,8 +159,8 @@ def validate_review_batch(
             level="WARN",
             input_count=len(input_ids),
             review_count=len(review_ids),
-            filled_keeps=filled,
-            order_mismatch=review_ids != input_ids,
+            filled_keeps=0,
+            order_mismatch=True,
         )
     return repaired
 

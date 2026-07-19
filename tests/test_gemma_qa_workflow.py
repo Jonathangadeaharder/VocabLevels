@@ -193,8 +193,8 @@ def make_german_csv(root: Path) -> Path:
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.writer(handle)
         writer.writerow(["German_Lemma", "English_Lemma", "Chinese_Lemma", "POS"])
-        writer.writerow(["Abend", "evening", "", "NOUN"])
-        writer.writerow(["gehen", "go", "", "VERB"])
+        writer.writerow(["Abend", "evening", "晚上", "NOUN"])
+        writer.writerow(["gehen", "go", "走", "VERB"])
     return path
 
 
@@ -206,7 +206,7 @@ def make_large_german_csv(root: Path, row_count: int) -> Path:
         writer = csv.writer(handle)
         writer.writerow(["German_Lemma", "English_Lemma", "Chinese_Lemma", "POS"])
         for index in range(1, row_count + 1):
-            writer.writerow([f"Wort{index}", f"word{index}", "", "NOUN"])
+            writer.writerow([f"Wort{index}", f"word{index}", f"词{index}", "NOUN"])
     return path
 
 
@@ -366,7 +366,7 @@ def test_invalid_existing_cefr_checkpoint_is_deleted_and_regenerated(
     prompt = build_cefr_prompt(document.rows)
     valid = review_batch_for(document.rows)
     invalid = valid.model_copy(deep=True)
-    invalid.rows.reverse()
+    invalid.rows[0] = invalid.rows[0].model_copy(update={"id": "german:A1:stale"})
     digest = prompt_hash(prompt)
     batch_id = "german:A1:1..german:A1:2"
     ledger = Ledger(tmp_path / ".gemma_qa" / "ledger.sqlite3")

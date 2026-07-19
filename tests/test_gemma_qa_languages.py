@@ -75,25 +75,26 @@ def test_german_cefr_prompt_remains_byte_stable() -> None:
 
 
 @pytest.mark.parametrize(
-    ("language", "lemma", "expected"),
+    ("language", "lemma", "english_lemma", "expected"),
     [
-        ("arabic", "house", "arabic.script_required"),
-        ("arabic", "بيت", None),
-        ("chinese", "house", "chinese.script_required"),
-        ("chinese", "房子", None),
-        ("english", "running", None),
-        ("spanish", "fui", None),
+        ("arabic", "house", "house", "arabic.script_required"),
+        ("arabic", "بيت", "house", None),
+        ("chinese", "house", "house", "chinese.script_required"),
+        ("chinese", "房子", "house", None),
+        ("english", "running", "running", None),
+        ("spanish", "fui", "went", None),
     ],
 )
 def test_generic_cefr_gates_only_enforce_sound_constraints(
     language: str,
     lemma: str,
+    english_lemma: str,
     expected: str | None,
 ) -> None:
     row = CefrReviewRow(
         id=f"{language}:A1:1",
         lemma=lemma,
-        english_lemma="house",
+        english_lemma=english_lemma,
         chinese_lemma="房子",
         upos=UPOS.VERB,
         action=ReviewAction.KEEP,
