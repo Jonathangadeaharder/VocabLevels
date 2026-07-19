@@ -747,6 +747,15 @@ def score_sample_row(
         return "drop", "junk symbol/contraction"
     if lang == "sv" and lem == "los" and up == "ADJ":
         return "drop", "sv noise lemma"
+    if lang == "sv" and lem in {
+        "träffades",
+        "träffar",
+        "träffat",
+        "dansade",
+    } and up == "VERB":
+        return "drop", "sv verb inflection dup (non-citation)"
+    if lang == "sv" and lem in {"mötas", "delas"} and up == "VERB":
+        return "drop", "sv s-passive dup (same gloss as citation)"
     if lang == "de" and lem in {
         "meinten",
         "bräuchten",
