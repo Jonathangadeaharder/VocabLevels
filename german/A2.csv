@@ -365,3 +365,237 @@ Zuhause,home,家,NOUN
 übernehmen,to take over,接管,VERB
 Überraschung,surprise,惊喜,NOUN
 übrig,left over,剩余的,ADJ
+können,to be able to,能,AUX
+müssen,must,必须,AUX
+dürfen,may / be allowed,允许,AUX
+sollen,should,应该,AUX
+wollen,to want,想要,AUX
+mögen,to like,喜欢,AUX
+haben,to have,有,AUX
+sein,to be,是,AUX
+werden,to become,成为,AUX
+weil,because,因为,SCONJ
+dass,that (conjunction),that,SCONJ
+wenn,if / when,如果,SCONJ
+ob,whether,是否,SCONJ
+als,when / than,当 / 比,SCONJ
+damit,so that,以便,SCONJ
+während,while,在...期间,SCONJ
+falls,in case,如果,SCONJ
+sobald,as soon as,一...就,SCONJ
+sodass,so that,以便,SCONJ
+bevor,before,在...之前,SCONJ
+seitdem,since then,自从那时,SCONJ
+und,and,和,CCONJ
+oder,or,或者,CCONJ
+aber,but,但是,CCONJ
+sondern,but rather,而是,CCONJ
+denn,because,因为,CCONJ
+nicht,not,不,PART
+ja,yes,是的,PART
+nein,no,不,PART
+zu,to (infinitive marker),去,PART
+in,in,在...里,ADP
+auf,on,在...上,ADP
+mit,with,和,ADP
+bei,at,在,ADP
+von,from,从,ADP
+nach,after / to,在...后,ADP
+aus,out of,从...出来,ADP
+durch,through,通过,ADP
+für,for,为,ADP
+ohne,without,没有,ADP
+um,around / at,在...周围,ADP
+über,over / about,在...上方,ADP
+unter,under,在...下,ADP
+vor,in front of / before,在...前,ADP
+hinter,behind,在...后面,ADP
+zwischen,between,在...之间,ADP
+seit,since,自从,ADP
+wegen,because of,因为,ADP
+trotz,despite,尽管,ADP
+entlang,along,沿着,ADP
+bis,until / to,直到,ADP
+ab,from,从,ADP
+an,at / on,在,ADP
+eins,one,一,NUM
+zwei,two,二,NUM
+drei,three,三,NUM
+vier,four,四,NUM
+fünf,five,五,NUM
+sechs,six,六,NUM
+neun,nine,九,NUM
+zehn,ten,十,NUM
+elf,eleven,十一,NUM
+zwölf,twelve,十二,NUM
+hundert,hundred,百,NUM
+tausend,thousand,千,NUM
+erste,first,第一,NUM
+letzte,last,最后,NUM
+zwanzig,twenty,二十,NUM
+dreißig,thirty,三十,NUM
+der,the (masculine),这个,DET
+ein,a / an,一个,DET
+kein,no / not any,没有,DET
+mein,my,我的,DET
+dein,your,你的,DET
+sein,his,他的,DET
+dieser,this,这个,DET
+jener,that (yonder),那个,DET
+mancher,some / many a,某些,DET
+beide,both,两个,DET
+welcher,which,哪个,DET
+ich,I,我,PRON
+du,you,你,PRON
+er,he,他,PRON
+sie,she / they,她,PRON
+es,it,它,PRON
+wir,we,我们,PRON
+ihr,you (plural),你们,PRON
+jemand,someone,某人,PRON
+niemand,nobody,没有人,PRON
+man,one (impersonal),人们,PRON
+sich,oneself (reflexive),自己,PRON
+mich,me (accusative),我,PRON
+dich,you (accusative),你,PRON
+uns,us,我们,PRON
+ihnen,them (dative),他们,PRON
+alles,everything,一切,PRON
+alle,all,所有,PRON
+etwas,something,某物,PRON
+nichts,nothing,没有什么,PRON
+mir,me (dative),我,PRON
+dir,you (dative),你,PRON
+ihm,him (dative),他,PRON
+hallo,hello,你好,INTJ
+tschüss,bye,再见,INTJ
+danke,thanks,谢谢,INTJ
+bitte,please / you're welcome,请,INTJ
+ach,oh,啊,INTJ
+na,well,嗯,INTJ
+oh,oh,哦,INTJ
+igitt,yuck,呸,INTJ
+.,period,句号,PUNCT
+",",comma,逗号,PUNCT
+?,question mark,问号,PUNCT
+!,exclamation,叹号,PUNCT
+:,colon,冒号,PUNCT
+;,semicolon,分号,PUNCT
+bringen,to bring,带来,VERB
+finden,to find,找到,VERB
+geben,to give,给,VERB
+nehmen,to take,拿,VERB
+kommen,to come,来,VERB
+gehen,to go,去,VERB
+machen,to make / do,做,VERB
+sagen,to say,说,VERB
+sehen,to see,看见,VERB
+wissen,to know (a fact),知道,VERB
+kennen,to know (be acquainted),认识,VERB
+verstehen,to understand,理解,VERB
+sprechen,to speak,说话,VERB
+essen,to eat,吃,VERB
+trinken,to drink,喝,VERB
+schlafen,to sleep,睡觉,VERB
+helfen,to help,帮助,VERB
+bleiben,to stay,停留,VERB
+stehen,to stand,站立,VERB
+sitzen,to sit,坐,VERB
+stellen,to put (standing),放置,VERB
+hängen,to hang,挂,VERB
+weinen,to cry,哭,VERB
+lächeln,to smile,微笑,VERB
+treffen,to meet,遇见,VERB
+bieten,to offer,提供,VERB
+brechen,to break,打破,VERB
+brennen,to burn,燃烧,VERB
+drehen,to turn,转动,VERB
+drücken,to press,按,VERB
+erfinden,to invent,发明,VERB
+erinnern,to remember,记得,VERB
+erzählen,to tell,讲述,VERB
+fehlen,to be missing,缺少,VERB
+forschen,to research,研究,VERB
+fragen,to ask,问,VERB
+fressen,to eat (animals),啃,VERB
+gebrauchen,to use,使用,VERB
+gießen,to pour,浇,VERB
+graben,to dig,挖,VERB
+greifen,to grab,抓,VERB
+grüßen,to greet,问候,VERB
+halten,to hold,握住,VERB
+heilen,to heal,治愈,VERB
+hoffen,to hope,希望,VERB
+hören,to hear,听见,VERB
+hüten,to look after,照料,VERB
+investieren,to invest,投资,VERB
+kauen,to chew,咀嚼,VERB
+kochen,to cook,烹饪,VERB
+kosten,to cost,花费,VERB
+lügen,to lie (tell untruth),撒谎,VERB
+malen,to paint,绘画,VERB
+meinen,to mean,意指,VERB
+packen,to pack,打包,VERB
+parken,to park,停车,VERB
+pfeifen,to whistle,吹口哨,VERB
+planen,to plan,计划,VERB
+probieren,to try,尝试,VERB
+prüfen,to check,检查,VERB
+putzen,to clean,清洁,VERB
+raten,to guess,猜,VERB
+rauben,to rob,抢劫,VERB
+rechnen,to calculate,计算,VERB
+regnen,to rain,下雨,VERB
+retten,to save,拯救,VERB
+riechen,to smell,闻,VERB
+rollen,to roll,滚动,VERB
+sammeln,to collect,收集,VERB
+schenken,to give (as a gift),赠送,VERB
+schließen,to close,关闭,VERB
+schneiden,to cut,切,VERB
+schreien,to scream,尖叫,VERB
+schweigen,to be silent,沉默,VERB
+schwimmen,to swim,游泳,VERB
+segeln,to sail,航行,VERB
+senden,to send,发送,VERB
+spazieren,to stroll,散步,VERB
+spielen,to play,玩,VERB
+springen,to jump,跳,VERB
+spülen,to rinse,冲洗,VERB
+stinken,to stink,发臭,VERB
+stören,to disturb,打扰,VERB
+streiten,to argue,争吵,VERB
+studieren,to study (at university),学习,VERB
+suchen,to search,寻找,VERB
+tauschen,to exchange,交换,VERB
+teilen,to share / divide,分享,VERB
+testen,to test,测试,VERB
+töten,to kill,杀死,VERB
+trocknen,to dry,弄干,VERB
+üben,to practice,练习,VERB
+überreden,to persuade,劝说,VERB
+überraschen,to surprise,使惊讶,VERB
+unterschreiben,to sign,签字,VERB
+untersuchen,to examine,检查,VERB
+verbieten,to forbid,禁止,VERB
+verbringen,to spend time,度过,VERB
+verdienen,to earn,赚取,VERB
+vergessen,to forget,忘记,VERB
+vergleichen,to compare,比较,VERB
+verlieren,to lose,失去,VERB
+vermissen,to miss,想念,VERB
+verursachen,to cause,造成,VERB
+verwechseln,to confuse,混淆,VERB
+widersprechen,to contradict,反驳,VERB
+wiederholen,to repeat,重复,VERB
+winken,to wave,挥手,VERB
+werfen,to throw,扔,VERB
+zählen,to count,数,VERB
+zeichnen,to draw,画,VERB
+zeigen,to show,显示,VERB
+zerstören,to destroy,破坏,VERB
+zwingen,to force,强迫,VERB
+Apfel,apple,苹果,NOUN
+Arbeit,work,工作,NOUN
+Auto,car,汽车,NOUN
+Brot,bread,面包,NOUN

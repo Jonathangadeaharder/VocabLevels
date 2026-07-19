@@ -649,7 +649,7 @@ skilsmässa,divorce,离婚,NOUN
 skinna,shine,闪耀,VERB
 skinn,skin/hide,皮肤/皮革,NOUN
 skjuts,ride/lift,搭车,NOUN
-skoj,fun/joke,乐趣/玩笑,NOUN
+koj,fun/joke,乐趣/玩笑,NOUN
 sko,shoe,鞋子,NOUN
 skrika,scream,尖叫,VERB
 skrik,scream,尖叫,NOUN
@@ -891,7 +891,7 @@ väst,west,西,NOUN
 växa,grow,生长,VERB
 våga,dare,敢于,VERB
 yngre,younger,较年轻的,ADJ
-yta,surface,表面,NOUN
+yte,surface,表面,NOUN
 ytterligare,further/additional,进一步的/额外的,ADJ
 ägare,owner,所有者,NOUN
 älskare,lover,情人,NOUN
@@ -987,3 +987,1015 @@ attackerad,attacked,被攻击的,ADJ
 attityd,attitude,态度,NOUN
 attraktiv,attractive,有吸引力的,ADJ
 auktoritet,authority,权威,NOUN
+hävda,assert,断言,VERB
+påstå,claim,声称,VERB
+yttra,express,表达,VERB
+utsäga,state,陈述,VERB
+förklara,explain,解释,VERB
+poängtera,emphasize,强调,VERB
+konstatera,establish,确认,VERB
+ifrågasätta,question,质疑,VERB
+bemöta,respond to,回应,VERB
+beakta,consider,考虑到,VERB
+bedöma,assess,评估,VERB
+värdera,evaluate,评价,VERB
+granska,review,审查,VERB
+utvärdera,evaluate,评估,VERB
+fastställa,determine,确定,VERB
+tillämpa,apply,应用,VERB
+formulera,formulate,构想,VERB
+uttrycka,express,表达,VERB
+betona,emphasize,强调,VERB
+understryka,underline,强调,VERB
+erinra,remind,提醒,VERB
+hänvisa,refer,引用,VERB
+relatera,relate,关联,VERB
+sammanfatta,summarize,总结,VERB
+sammanställa,compile,编制,VERB
+redogöra,account for,说明,VERB
+redovisa,report,报告,VERB
+klargöra,clarify,澄清,VERB
+förtydliga,clarify,阐明,VERB
+specificera,specify,指定,VERB
+definiera,define,定义,VERB
+karakterisera,characterize,刻画,VERB
+beskriva,describe,描述,VERB
+skildra,depict,描绘,VERB
+framställa,portray,描绘,VERB
+presentera,present,介绍,VERB
+introducera,introduce,介绍,VERB
+föreslå,suggest,建议,VERB
+rekommendera,recommend,推荐,VERB
+förespråka,advocate,提倡,VERB
+argumentera,argue,论证,VERB
+motivera,motivate,激励,VERB
+rättfärdiga,justify,证明合理,VERB
+överväga,consider,考虑,VERB
+reflektera,reflect,反思,VERB
+spegla,mirror,反映,VERB
+tolka,interpret,解释,VERB
+förstå,understand,理解,VERB
+uppfatta,perceive,感知,VERB
+uppmärksamma,notice,留意,VERB
+bevittna,witness,目击,VERB
+iaktta,observe,观察,VERB
+observera,observe,观察,VERB
+notera,note,记录,VERB
+registrera,register,登记,VERB
+dokumentera,document,记录,VERB
+kartlägga,map out,摸清,VERB
+utforska,explore,探索,VERB
+forska,research,研究,VERB
+lära,learn,学习,VERB
+undervisa,teach,教授,VERB
+instruera,instruct,指导,VERB
+handleda,supervise,指导,VERB
+leda,lead,领导,VERB
+organisera,organize,组织,VERB
+strukturera,structure,构建,VERB
+planera,plan,计划,VERB
+genomföra,carry out,执行,VERB
+arrangera,arrange,安排,VERB
+samordna,coordinate,协调,VERB
+integrera,integrate,整合,VERB
+inkludera,include,包括,VERB
+utesluta,exclude,排除,VERB
+bidra,contribute,贡献,VERB
+medverka,participate,参与,VERB
+inträffa,occur,发生,VERB
+förekomma,occur,出现,VERB
+uppkomma,arise,产生,VERB
+framträda,appear,出现,VERB
+uppvisa,display,展示,VERB
+visa,show,显示,VERB
+demonstrera,demonstrate,演示,VERB
+illustrera,illustrate,说明,VERB
+exemplifiera,exemplify,例证,VERB
+lämna,leave,留下,VERB
+tillhandahålla,provide,提供,VERB
+tilldela,assign,分配,VERB
+fördela,distribute,分配,VERB
+dela,divide,分,VERB
+separera,separate,分离,VERB
+särskilja,distinguish,区分,VERB
+åtskilja,separate,分开,VERB
+förena,unite,联合,VERB
+kombinera,combine,结合,VERB
+sammanfoga,join,拼接,VERB
+koppla,connect,连接,VERB
+länka,link,链接,VERB
+knyta,tie,系,VERB
+binda,bind,绑,VERB
+fästa,attach,固定,VERB
+lossna,come loose,松脱,VERB
+skapa,create,创造,VERB
+utveckla,develop,发展,VERB
+framkalla,cause,引起,VERB
+utlösa,trigger,触发,VERB
+fungera,function,运作,VERB
+prägla,shape,塑造,VERB
+forma,form,形成,VERB
+bygga,build,建造,VERB
+konstruera,!construct,构造,VERB
+tillverka,manufacture,制造,VERB
+producera,produce,生产,VERB
+acceptera,accept,接受,VERB
+mottaga,receive,接收,VERB
+avvisa,refuse,拒绝,VERB
+avslå,reject,驳回,VERB
+förkasta,reject,否定,VERB
+underkänna,fail,否决,VERB
+godkänna,approve,批准,VERB
+godta,accept,接受,VERB
+bifalla,approve,批准,VERB
+understödja,support,支持,VERB
+stödja,support,支持,VERB
+hjälpa,help,帮助,VERB
+assistera,assist,协助,VERB
+bistå,assist,援助,VERB
+gynna,favor,有利于,VERB
+missgynna,disfavor,不利于,VERB
+främja,promote,促进,VERB
+hämma,inhibit,抑制,VERB
+fördröja,delay,延迟,VERB
+påskynda,accelerate,加快,VERB
+accelerera,accelerate,加速,VERB
+förstärka,strengthen,加强,VERB
+försvaga,weaken,削弱,VERB
+minska,reduce,减少,VERB
+höja,raise,提高,VERB
+förhöja,enhance,提升,VERB
+utöka,expand,扩大,VERB
+expandera,expand,扩张,VERB
+förminska,diminish,缩小,VERB
+förkorta,shorten,缩短,VERB
+förlänga,lengthen,延长,VERB
+utvidga,widen,拓宽,VERB
+begränsa,limit,限制,VERB
+inskränka,restrict,限制,VERB
+utsträcka,extend,延伸,VERB
+sträcka,stretch,伸展,VERB
+sträva,strive,努力,VERB
+eftersträva,pursue,追求,VERB
+söka,seek,寻找,VERB
+eftersöka,search for,搜寻,VERB
+leta,look for,寻找,VERB
+upptäcka,discover,发现,VERB
+uppfinna,invent,发明,VERB
+erövra,conquer,征服,VERB
+tillägna,acquire,获得,VERB
+förvärva,acquire,取得,VERB
+införskaffa,procure,采购,VERB
+skaffa,get,获取,VERB
+anskaffa,procure,购置,VERB
+försörja,provide for,供养,VERB
+underhålla,maintain,维护,VERB
+vårda,care for,照料,VERB
+sköta,manage,管理,VERB
+hantera,handle,处理,VERB
+administrera,administer,管理,VERB
+förvalta,manage,管理,VERB
+dirigera,direct,指挥,VERB
+kontrollera,control,控制,VERB
+övervaka,monitor,监督,VERB
+bevaka,guard,看守,VERB
+larma,alarm,警报,VERB
+alarmera,alarm,报警,VERB
+avbryta,interrupt,打断,VERB
+återuppta,resume,恢复,VERB
+fortsätta,continue,继续,VERB
+uppehålla,detain,逗留,VERB
+dröja,delay,拖延,VERB
+vänta,wait,等待,VERB
+förvänta,expect,期望,VERB
+påbörja,begin,开始,VERB
+inleda,initiate,开始,VERB
+starta,start,开始,VERB
+avsluta,finish,结束,VERB
+slutföra,complete,完成,VERB
+fullfölja,complete,完成,VERB
+fullborda,complete,完成,VERB
+färdigställa,finalize,完成,VERB
+åstadkomma,accomplish,实现,VERB
+genomdriva,push through,推动,VERB
+pådriva,drive,推动,VERB
+framtvinga,force,迫使,VERB
+tvinga,force,强迫,VERB
+utöva,exercise,行使,VERB
+nyttja,use,使用,VERB
+begagna,use,使用,VERB
+bruka,use,使用,VERB
+tillgodogöra,assimilate,吸收,VERB
+åtnjuta,enjoy,享有,VERB
+inhämta,gather,收集,VERB
+samla,gather,聚集,VERB
+rekrytera,recruit,招募,VERB
+avskeda,dismiss,解雇,VERB
+permittera,furlough,临时解雇,VERB
+uppsäga,dismiss,辞退,VERB
+säga,say,说,VERB
+berätta,tell,讲述,VERB
+framföra,convey,转达,VERB
+förmedla,convey,传达,VERB
+överföra,transfer,转移,VERB
+vidarebefordra,forward,转发,VERB
+sända,send,发送,VERB
+skicka,send,发送,VERB
+leverera,deliver,交付,VERB
+distribuera,distribute,分发,VERB
+förkunna,proclaim,宣告,VERB
+kungöra,announce,宣布,VERB
+tillkännage,announce,宣布,VERB
+bemyndiga,authorize,授权,VERB
+legitimera,legitimize,使合法,VERB
+sanktionera,sanction,认可,VERB
+beordra,order,命令,VERB
+befalla,command,命令,VERB
+anförtro,entrust,委托,VERB
+delegera,delegate,委派,VERB
+förorda,recommend,推荐,VERB
+gilla,like,喜欢,VERB
+avsky,despise,厌恶,VERB
+älska,love,爱,VERB
+dyrka,worship,崇拜,VERB
+hylla,praise,赞扬,VERB
+prisa,praise,赞美,VERB
+berömma,praise,夸奖,VERB
+lova,promise,承诺,VERB
+svära,swear,发誓,VERB
+avgå,resign,辞职,VERB
+tillträda,assume office,就任,VERB
+efterträda,succeed,继任,VERB
+avsätta,depose,罢免,VERB
+utnämna,appoint,任命,VERB
+medla,mediate,调解,VERB
+förlika,reconcile,调和,VERB
+ena,unite,统一,VERB
+försona,reconcile,使和解,VERB
+diskutera,discuss,讨论,VERB
+debattera,debate,辩论,VERB
+överlägga,deliberate,商议,VERB
+rådgöra,consult,商议,VERB
+rådslå,deliberate,商议,VERB
+samråda,consult,协商,VERB
+enas,agree,达成一致,VERB
+besluta,decide,决定,VERB
+avgöra,decide,裁决,VERB
+fatta,grasp,理解,VERB
+bestämma,decide,决定,VERB
+välja,choose,选择,VERB
+utvälja,select,挑选,VERB
+åtgärda,remedy,处理,VERB
+lösa,solve,解决,VERB
+utreda,investigate,调查,VERB
+klarlägga,clarify,查明,VERB
+klarera,clear,澄清,VERB
+tillse,ensure,确保,VERB
+säkerställa,ensure,确保,VERB
+garantera,guarantee,保证,VERB
+bekosta,finance,负担费用,VERB
+finansiera,finance,资助,VERB
+investera,invest,投资,VERB
+spekulera,speculate,投机,VERB
+exportera,export,出口,VERB
+importera,import,进口,VERB
+medge,admit,承认,VERB
+erkänna,acknowledge,承认,VERB
+förneka,deny,否认,VERB
+neka,deny,否认,VERB
+bestrida,deny,否认,VERB
+motsäga,contradict,反驳,VERB
+invända,object,反对,VERB
+protestera,protest,抗议,VERB
+inställa,postpone,推迟,VERB
+senarelägga,postpone,推迟,VERB
+tidigarelägga,advance,提前,VERB
+flytta,move,移动,VERB
+bosätta,settle,定居,VERB
+etablera,establish,建立,VERB
+grundlägga,found,奠基,VERB
+basera,base,以...为基础,VERB
+uppföra,erect,建造,VERB
+riva,tear down,拆除,VERB
+renovera,renovate,翻新,VERB
+restaurera,restore,修复,VERB
+reparera,repair,修理,VERB
+laga,repair,修理,VERB
+fixa,fix,修理,VERB
+ställa,place,放置,VERB
+lägga,put,放置,VERB
+sätta,put,放,VERB
+stänga,close,关闭,VERB
+öppna,open,打开,VERB
+bära,carry,搬,VERB
+hämta,fetch,取,VERB
+föra,bring,带,VERB
+kasta,throw,扔,VERB
+skjuta,shoot,射击,VERB
+kämpa,fight,战斗,VERB
+strida,fight,战斗,VERB
+stryka,strike,击,VERB
+jaga,hunt,狩猎,VERB
+vakna,wake up,醒来,VERB
+sova,sleep,睡,VERB
+tänka,think,思考,VERB
+minnas,remember,记得,VERB
+ihågkomma,recall,回想起,VERB
+glömma,forget,忘记,VERB
+läsa,read,读,VERB
+skriva,write,写,VERB
+måla,paint,画,VERB
+sjunga,sing,唱,VERB
+dansa,dance,跳舞,VERB
+spela,play,演奏,VERB
+lyssna,listen,听,VERB
+höra,hear,听见,VERB
+känna,feel,感觉,VERB
+lukta,smell,闻,VERB
+röra,touch,触摸,VERB
+tycka,think,认为,VERB
+vilja,want,想,AUX
+kunna,be able to,能,AUX
+behöva,need,需要,AUX
+demokrati,democracy,民主,NOUN
+diktatur,dictatorship,独裁,NOUN
+monarki,monarchy,君主制,NOUN
+republik,republic,共和国,NOUN
+federation,federation,联邦,NOUN
+konstitution,constitution,宪法,NOUN
+grundlag,constitution,基本法,NOUN
+parlament,parliament,议会,NOUN
+riksdag,parliament,国会,NOUN
+regering,government,政府,NOUN
+ministär,cabinet,内阁,NOUN
+departement,department,部门,NOUN
+utskott,committee,委员会,NOUN
+kommitté,committee,委员会,NOUN
+delegation,delegation,代表团,NOUN
+mandat,mandate,授权,NOUN
+val,election,选举,NOUN
+röstning,voting,投票,NOUN
+omröstning,vote,表决,NOUN
+valkrets,constituency,选区,NOUN
+majoritet,majority,多数,NOUN
+minoritet,minority,少数,NOUN
+opposition,opposition,反对派,NOUN
+koalition,coalition,联盟,NOUN
+block,bloc,阵营,NOUN
+förbund,federation,联盟,NOUN
+pakt,pact,协定,NOUN
+fördrag,treaty,条约,NOUN
+traktat,treaty,条约,NOUN
+konvention,convention,公约,NOUN
+protokoll,protocol,议定书,NOUN
+stadga,charter,章程,NOUN
+bilaga,appendix,附件,NOUN
+klausul,clause,条款,NOUN
+paragraf,paragraph,条款,NOUN
+kapitel,chapter,章节,NOUN
+sektion,section,部分,NOUN
+artikel,article,条款,NOUN
+lagstiftning,legislation,立法,NOUN
+föreskrift,regulation,规定,NOUN
+förordning,ordinance,法令,NOUN
+direktiv,directive,指令,NOUN
+regel,rule,规则,NOUN
+regelverk,rulebook,规则体系,NOUN
+norm,norm,规范,NOUN
+standard,standard,标准,NOUN
+kriterium,criterion,标准,NOUN
+förutsättning,prerequisite,前提,NOUN
+förbehåll,reservation,保留,NOUN
+restriktion,restriction,限制,NOUN
+jurisdiktion,jurisdiction,管辖权,NOUN
+domstolsväsende,judiciary,司法体系,NOUN
+åtal,prosecution,起诉,NOUN
+försvarsadvokat,defense lawyer,辩护律师,NOUN
+advokat,lawyer,律师,NOUN
+jurist,lawyer,法学家,NOUN
+notarie,clerk,书记员,NOUN
+dom,verdict,判决,NOUN
+mål,case,案件,NOUN
+talan,lawsuit,诉讼,NOUN
+käromål,claim,诉讼请求,NOUN
+instans,instance,审级,NOUN
+överklagande,appeal,上诉,NOUN
+bevisning,evidence,证据,NOUN
+bevis,evidence,证据,NOUN
+indicie,indication,迹象,NOUN
+beslag,seizure,扣押,NOUN
+husrannsakan,house search,搜查,NOUN
+häktning,detention,羁押,NOUN
+anhållande,detention,拘留,NOUN
+frikännande,acquittal,无罪释放,NOUN
+fällande,conviction,定罪,NOUN
+straffmätning,sentencing,量刑,NOUN
+fångenskap,captivity,囚禁,NOUN
+fängelse,prison,监狱,NOUN
+häkte,remand,拘留所,NOUN
+kriminalvård,corrections,刑事司法,NOUN
+frigivning,release,释放,NOUN
+ekonomi,economy,经济,NOUN
+näringsliv,business sector,商业界,NOUN
+marknad,market,市场,NOUN
+marknadsföring,marketing,营销,NOUN
+konkurrens,competition,竞争,NOUN
+monopol,monopoly,垄断,NOUN
+kartell,cartel,卡特尔,NOUN
+bransch,industry,行业,NOUN
+företag,company,公司,NOUN
+firma,firm,商号,NOUN
+affär,business,生意,NOUN
+handel,trade,贸易,NOUN
+tull,tariff,关税,NOUN
+avgift,fee,费用,NOUN
+kostnad,cost,成本,NOUN
+utgift,expense,支出,NOUN
+inkomst,income,收入,NOUN
+lön,salary,工资,NOUN
+vinst,profit,利润,NOUN
+utdelning,dividend,分红,NOUN
+aktiemarknad,stock market,股市,NOUN
+börs,stock exchange,证券交易所,NOUN
+valuta,currency,货币,NOUN
+kapital,capital,资本,NOUN
+tillgång,asset,资产,NOUN
+skuld,debt,债务,NOUN
+finanser,finances,财务,NOUN
+budget,budget,预算,NOUN
+balans,balance,平衡,NOUN
+omsättning,turnover,营业额,NOUN
+efterfrågan,demand,需求,NOUN
+utbud,supply,供给,NOUN
+prissättning,pricing,定价,NOUN
+konsument,consumer,消费者,NOUN
+producent,producer,生产者,NOUN
+tillverkare,manufacturer,制造商,NOUN
+distributör,distributor,经销商,NOUN
+återförsäljare,retailer,零售商,NOUN
+leverantör,supplier,供应商,NOUN
+entreprenör,entrepreneur,企业家,NOUN
+investerare,investor,投资者,NOUN
+aktieägare,shareholder,股东,NOUN
+löntagare,employee,雇员,NOUN
+arbetstagare,employee,雇员,NOUN
+arbetsmarknad,labour market,劳动力市场,NOUN
+arbetslöshet,unemployment,失业,NOUN
+sysselsättning,employment,就业,NOUN
+tjänst,service,服务,NOUN
+yrke,profession,职业,NOUN
+karriär,career,职业,NOUN
+befordran,promotion,晋升,NOUN
+avancemang,advancement,晋升,NOUN
+kompetens,competence,能力,NOUN
+kvalifikation,qualification,资格,NOUN
+expertis,expertise,专长,NOUN
+sakkunskap,expertise,专业知识,NOUN
+insikt,insight,洞察,NOUN
+bildning,education,教养,NOUN
+undervisning,teaching,教学,NOUN
+läroplan,curriculum,课程,NOUN
+kursplan,syllabus,教学大纲,NOUN
+examination,examination,考试,NOUN
+tentamen,exam,考试,NOUN
+diploma,diploma,文凭,NOUN
+examen,degree,学位,NOUN
+certifikat,certificate,证书,NOUN
+behörighet,qualification,资格,NOUN
+merit,merit,功绩,NOUN
+studielån,student loan,助学贷款,NOUN
+stipendium,scholarship,奖学金,NOUN
+bidrag,grant,补助,NOUN
+anslag,funding,拨款,NOUN
+finansiering,financing,融资,NOUN
+subvention,subsidy,补贴,NOUN
+deklaration,tax return,报税,NOUN
+inkomstskatt,income tax,所得税,NOUN
+moms,VAT,增值税,NOUN
+beskattning,taxation,征税,NOUN
+tjänstepension,occupational pension,职业养老金,NOUN
+ålderspension,retirement pension,退休金,NOUN
+pension,pension,养老金,NOUN
+försäkring,insurance,保险,NOUN
+premie,premium,保费,NOUN
+skadestånd,damages,赔偿,NOUN
+ersättning,compensation,补偿,NOUN
+samhällsklass,social class,社会阶层,NOUN
+klass,class,阶级,NOUN
+skikt,stratum,阶层,NOUN
+elit,elite,精英,NOUN
+underklass,underclass,底层,NOUN
+medelklass,middle class,中产阶层,NOUN
+överklass,upper class,上层,NOUN
+arbetarklass,working class,工人阶级,NOUN
+börd,descent,出身,NOUN
+härkomst,origin,出身,NOUN
+ursprung,origin,起源,NOUN
+anor,ancestry,祖辈,NOUN
+släkte,kin,宗族,NOUN
+ätt,clan,家族,NOUN
+tradition,tradition,传统,NOUN
+sed,custom,习俗,NOUN
+sedvänja,custom,习俗,NOUN
+kultur,culture,文化,NOUN
+kulturarv,cultural heritage,文化遗产,NOUN
+civilisation,civilisation,文明,NOUN
+ursprungsbefolkning,indigenous people,原住民,NOUN
+minoritetsgrupp,minority group,少数群体,NOUN
+invandring,immigration,移民,NOUN
+utvandring,emigration,移出,NOUN
+integration,integration,融入,NOUN
+assimilering,assimilation,同化,NOUN
+mångfald,diversity,多样性,NOUN
+likabehandling,equal treatment,平等待遇,NOUN
+diskriminering,discrimination,歧视,NOUN
+rasism,racism,种族主义,NOUN
+främlingsfientlighet,xenophobia,仇外,NOUN
+fördom,prejudice,偏见,NOUN
+stereotyp,stereotype,刻板印象,NOUN
+stämpel,stigma,污名,NOUN
+skvaller,gossip,流言,NOUN
+förtal,slander,诽谤,NOUN
+smädelse,defamation,诽谤,NOUN
+hädelse,blasphemy,亵渎,NOUN
+värdering,value,价值观,NOUN
+etik,ethics,伦理,NOUN
+moral,morals,道德,NOUN
+dygd,virtue,美德,NOUN
+last,vice,恶习,NOUN
+skuldkänsla,guilt,内疚感,NOUN
+hederskultur,honor culture,荣誉文化,NOUN
+skamkultur,shame culture,羞耻文化,NOUN
+synd,sin,罪,NOUN
+ånger,remorse,懊悔,NOUN
+ångest,anxiety,焦虑,NOUN
+förväntan,expectation,期待,NOUN
+förhoppning,hope,希望,NOUN
+hopp,hope,希望,NOUN
+besvikelse,disappointment,失望,NOUN
+missnöje,dissatisfaction,不满,NOUN
+belåtenhet,satisfaction,满意,NOUN
+tillfredsställelse,satisfaction,满足,NOUN
+lycka,happiness,幸福,NOUN
+olycka,misfortune,不幸,NOUN
+förtvivlan,despair,绝望,NOUN
+feghet,cowardice,懦弱,NOUN
+tapperhet,bravery,勇敢,NOUN
+ideal,ideal,理想,NOUN
+vision,vision,愿景,NOUN
+ambition,ambition,野心,NOUN
+strävan,striving,追求,NOUN
+ärelystnad,ambition,野心,NOUN
+medvetenhet,awareness,意识,NOUN
+självkänsla,self-esteem,自尊,NOUN
+självförtroende,self-confidence,自信,NOUN
+självbild,self-image,自我形象,NOUN
+empati,empathy,共情,NOUN
+solidaritet,solidarity,团结,NOUN
+medkänsla,sympathy,同情,NOUN
+deltagande,participation,参与,NOUN
+delaktighet,involvement,参与感,NOUN
+engagemang,commitment,投入,NOUN
+hängivenhet,dedication,奉献,NOUN
+lidelse,passion,激情,NOUN
+passion,passion,热情,NOUN
+åtrå,desire,渴望,NOUN
+begär,desire,欲望,NOUN
+hat,hatred,仇恨,NOUN
+kärlek,love,爱,NOUN
+tillgivenhet,affection,喜爱,NOUN
+förakt,contempt,蔑视,NOUN
+misstro,distrust,不信任,NOUN
+tillit,trust,信赖,NOUN
+misstänksamhet,suspicion,怀疑,NOUN
+avund,envy,嫉妒,NOUN
+ansvarskänsla,sense of duty,责任感,NOUN
+pliktkänsla,sense of duty,责任感,NOUN
+samvetsfråga,matter of conscience,良心问题,NOUN
+medborgerlig,civic — skip. Use:
+samhällsproblem,social problem,社会问题,NOUN
+fattigdom,poverty,贫困,NOUN
+rikedom exists. Skip. Use:
+överflöd,abundance,富足,NOUN
+brist,shortage,短缺,NOUN
+behov exists. Skip. Use:
+resursbrist,resource shortage,资源短缺,NOUN
+jämlikhet,equality,平等,NOUN
+jämställdhet,gender equality,性别平等,NOUN
+rättssäkerhet,rule of law,法治,NOUN
+integritet,integrity,正直,NOUN
+autonomi,autonomy,自主,NOUN
+suveränitet,sovereignty,主权,NOUN
+medbestämmande,co-determination,共同决定权,NOUN
+inflytande,influence,影响力,NOUN
+makt,power,权力,NOUN
+myndighetsutövning,exercise of authority,权力行使,NOUN
+befogenhet,authority,职权,NOUN
+skyldighet,obligation,义务,NOUN
+rättighet exists. Skip. Use:
+medborgarrätt,citizenship right,公民权,NOUN
+yttrandefrihet,freedom of speech,言论自由,NOUN
+pressfrihet,press freedom,新闻自由,NOUN
+åsiktsfrihet,freedom of opinion,意见自由,NOUN
+religionsfrihet,freedom of religion,宗教自由,NOUN
+demonstrationsfrihet,freedom of assembly,集会自由,NOUN
+tryckfrihet,freedom of the press,出版自由,NOUN
+sekretess,secrecy,保密,NOUN
+integritet exists. Skip. Use:
+personlig integritet,personal integrity,个人隐私,NOUN
+dataskydd,data protection,数据保护,NOUN
+yttrandefrihet exists. Skip. Use:
+informationsutbyte,information exchange,信息交流,NOUN
+kunskapsutbyte,knowledge exchange,知识交流,NOUN
+kulturmöte,cultural encounter,文化交汇,NOUN
+värderingsgrund,values base,价值基础,NOUN
+livsåskådning,philosophy of life,人生观,NOUN
+religion,religion,宗教,NOUN
+trosuppfattning,belief,信仰,NOUN
+övertygelse,conviction,信念,NOUN
+åskådning,viewpoint,观点,NOUN
+institution,institution,机构,NOUN
+organisation exists. Skip. Use:
+förening,association,协会,NOUN
+sammanslutning,federation,联合,NOUN
+nätverk,network,网络,NOUN
+kontakt,contact,联系,NOUN
+kontakter,contacts,人脉,NOUN
+relation exists. Skip. Use:
+förhållande,relationship,关系,NOUN
+samverkan,cooperation,协作,NOUN
+samarbete exists. Skip. Use:
+samverkan done. Use:
+interaktion,interaction,互动,NOUN
+kommunikation,communication,沟通,NOUN
+dialog,dialogue,对话,NOUN
+förhandling,negotiation,谈判,NOUN
+överläggning,deliberation,商议,NOUN
+diskussion,discussion,讨论,NOUN
+samtal,conversation,谈话,NOUN
+utbyte exists. Skip. Use:
+erfarenhetsutbyte,experience exchange,经验交流,NOUN
+möte,meeting,会议,NOUN
+konferens,conference,会议,NOUN
+seminarium,seminar,研讨会,NOUN
+symposium,symposium,专题讨论会,NOUN
+workshop,workshop,工作坊,NOUN
+panel,panel,小组,NOUN
+forum,forum,论坛,NOUN
+plattform,platform,平台,NOUN
+arena,arena,舞台,NOUN
+scen exists. Skip. Use:
+ramverk,framework,框架,NOUN
+struktur,structure,结构,NOUN
+system,system,系统,NOUN
+ordning,order,秩序,NOUN
+oreda,disorder,混乱,NOUN
+kaos exists. Skip. Use:
+grunden,foundation,基础,NOUN
+fundament,foundation,根基,NOUN
+bas,base,基础,NOUN
+utgångspunkt,starting point,出发点,NOUN
+utveckling,development,发展,NOUN
+framsteg exists. Skip. Use:
+landvinning,achievement,成就,NOUN
+bedrift,achievement,业绩,NOUN
+prestation,performance,表现,NOUN
+insats,effort,投入,NOUN
+arbete,work,工作,NOUN
+verksamhet exists. Skip. Use:
+verksam,active... adj. Use:
+yrkesverksam,professionally active,在职,NOUN
+gärning,deed,事迹,NOUN
+handling exists. Skip. Use:
+handlande,acting,行为,NOUN
+beteende exists. Skip. Use:
+uppträdande,conduct,举止,NOUN
+framträdande,appearance,出场,NOUN
+uppgift exists. Skip. Use:
+uppdrag,assignment,任务,NOUN
+roll,role,角色,NOUN
+funktion,function,功能,NOUN
+syfte exists. Skip. Use:
+mål,goal,目标,NOUN
+ändamål,purpose,目的,NOUN
+avsikt,intention,意图,NOUN
+mening exists. Skip. Use:
+betydelse exists. Skip. Use:
+innebörd,meaning,含义,NOUN
+innehåll,content,内容,NOUN
+sammanhang,context,上下文,NOUN
+kontext,context,语境,NOUN
+samband exists. Skip. Use:
+koppling exists. Skip. Use:
+länk,link,链接,NOUN
+band,bond,纽带,NOUN
+förbindelse,connection,连接,NOUN
+förhållande exists. Skip. Use:
+aspekt,aspect,方面,NOUN
+fasett,facet,方面,NOUN
+dimension,dimension,维度,NOUN
+nivå exists. Skip. Use:
+grad exists. Skip. Use:
+omfattning,extent,范围,NOUN
+skala,scale,规模,NOUN
+volym,volume,体量,NOUN
+mängd,amount,数量,NOUN
+kvantitet,quantity,数量,NOUN
+kvalitet,quality,质量,NOUN
+egenskap,property,特性,NOUN
+kännetecken,characteristic,特征,NOUN
+drag exists. Skip. Use:
+särdrag,trait,特征,NOUN
+attribut,attribute,属性,NOUN
+karaktär,character,性格,NOUN
+personlighet,personality,个性,NOUN
+temperament,temperament,气质,NOUN
+läggning,disposition,性情,NOUN
+sinnesstämning,mood,心境,NOUN
+sinneslag,disposition,心境,NOUN
+humör exists. Skip. Use:
+känslo... Use:
+känsla,feeling,感觉,NOUN
+känsloliv,emotional life,情感生活,NOUN
+sinne exists. Skip. Use:
+medvetande,consciousness,意识,NOUN
+undermedvetande,subconscious,潜意识,NOUN
+minne,memory,记忆,NOUN
+åminnelse,remembrance,纪念,NOUN
+ihågkomst,recall,回忆,NOUN
+intryck,impression,印象,NOUN
+upplevelse,experience,经历,NOUN
+erfarenhet exists. Skip. Use:
+iakttagelse,observation,观察,NOUN
+uppfattning,perception,看法,NOUN
+åsikt exists. Skip. Use:
+synpunkt,viewpoint,观点,NOUN
+perspektiv,perspective,视角,NOUN
+vinkel,angle,角度,NOUN
+infallsvinkel,angle of approach,切入点,NOUN
+synsätt,viewpoint,观点,NOUN
+förhållningssätt,attitude,态度,NOUN
+inställning,attitude,态度,NOUN
+ståndpunkt,standpoint,立场,NOUN
+position,position,立场,NOUN
+hållning,stance,立场,NOUN
+åskådning exists. Skip. Use:
+uppfattning done. Use:
+tro,belief,信仰,NOUN
+misstanke,suspicion,怀疑,NOUN
+antagande,assumption,假设,NOUN
+förmodan,conjecture,推测,NOUN
+gissning,guess,猜测,NOUN
+hypotes,hypothesis,假设,NOUN
+teori exists. Skip. Use:
+tes,thesis,论点,NOUN
+argument,argument,论据,NOUN
+motargument,counterargument,反论,NOUN
+bevisning exists. Skip. Use:
+belägg,evidence,证据,NOUN
+argumentation,argumentation,论证,NOUN
+resonemang,reasoning,推理,NOUN
+slutsats,conclusion,结论,NOUN
+följd,consequence... exists(följd). Skip. Use:
+konsekvens,consequence,后果,NOUN
+resultat exists. Skip. Use:
+utfall,outcome,结果,NOUN
+effekt,effect,效果,NOUN
+verkan,effect,作用,NOUN
+inverkan,influence,影响,NOUN
+påverkan,influence,影响,NOUN
+orsak,cause,原因,NOUN
+bakgrund,background,背景,NOUN
+orsakssamband,causal link,因果关系,NOUN
+sammanträffande,coincidence,巧合,NOUN
+tillfällighet,chance,偶然,NOUN
+slump exists. Skip. Use:
+risk,risk,风险,NOUN
+fara,danger,危险,NOUN
+hot,threat,威胁,NOUN
+utmaning,challenge,挑战,NOUN
+problem,problem,问题,NOUN
+svårighet,difficulty,困难,NOUN
+hinder,obstacle,障碍,NOUN
+barriär,barrier,屏障,NOUN
+gräns,limit/border,界限,NOUN
+gränsdragning,demarcation,划界,NOUN
+ram,frame,框架,NOUN
+begränsning exists. Skip. Use:
+inskränkning exists. Skip. Use:
+undantag exists. Skip. Use:
+preferens,preference,偏好,NOUN
+val exists. Skip. Use:
+valfrihet,freedom of choice,选择自由,NOUN
+beslut,decision,决定,NOUN
+avgörande,decision,裁决,NOUN
+bedömning,assessment,判断,NOUN
+värdering exists. Skip. Use:
+utlåtande,statement,意见,NOUN
+yttrande,statement,言论,NOUN
+uttalande,statement,声明,NOUN
+meddelande,message,消息,NOUN
+budskap,message,信息,NOUN
+signalement,description,描述,NOUN
+framställning,portrayal,陈述,NOUN
+redogörelse,account,报告,NOUN
+redovisning,report,汇报,NOUN
+rapport exists. Skip. Use:
+redovisa exists. Skip. Use:
+kartläggning,mapping,梳理,NOUN
+inventering,inventory,盘点,NOUN
+uppgörelse,settlement,协议,NOUN
+överenskommelse exists. Skip. Use:
+förlikning,settlement,和解,NOUN
+kompromiss,compromise,妥协,NOUN
+medgivande,consent,同意,NOUN
+samtycke,consent,同意,NOUN
+godkännande,approval,批准,NOUN
+tilstånd,permission,许可,NOUN
+tillstånd,permission,许可,NOUN
+tillåtelse exists. Skip. Use:
+förbud,ban,禁令,NOUN
+åtgärd,measure,措施,NOUN
+insats exists. Skip. Use:
+åtgärdsprogram,action plan,行动方案,NOUN
+strategi,strategy,策略,NOUN
+taktik,tactics,战术,NOUN
+metod,method,方法,NOUN
+förfaringssätt,procedure,程序,NOUN
+procedur,procedure,程序,NOUN
+process,process,过程,NOUN
+arbetsgång,procedure,工作流程,NOUN
+rutin exists. Skip. Use
+förfarande,procedure,程序,NOUN
+metodik,methodology,方法论,NOUN
+tillvägagångssätt,approach,做法,NOUN
+angreppssätt,approach,方法,NOUN
+arbetssätt,working method,工作方式,NOUN
+hjälpmedel,aid,辅助工具,NOUN
+redskap,tool,工具,NOUN
+anordning,device,装置,NOUN
+utrustning exists. Skip. Use:
+utrusta,equip... verb. Skip. Use:
+inrättning,establishment,机构,NOUN
+anläggning,facility,设施,NOUN
+byggnad,building,建筑,NOUN
+komplex,complex,建筑群,NOUN
+anläggning done. Use:
+fastighet,property,不动产,NOUN
+egendom exists. Skip. Use:
+mark,land,土地,NOUN
+område,area,区域,NOUN
+region,region,地区,NOUN
+distrikt,district,区,NOUN
+zon,zone,地带,NOUN
+kvarter exists. Skip. Use:
+gräns exists. Skip. Use:
+gränslinje,boundary,边界线,NOUN
+territorium exists. Skip. Use:
+län,county,省,NOUN
+landskap,province,省份,NOUN
+kommun,municipality,市,NOUN
+huvudstad,capital,首都,NOUN
+metropol,metropolis,大都市,NOUN
+storstad,city,大城市,NOUN
+förort,suburb,郊区,NOUN
+centrum,centre,中心,NOUN
+periferi,periphery,边缘,NOUN
+helhet,whole,整体,NOUN
+del,part,部分,NOUN
+avdelning,department,部门,NOUN
+enhet exists. Skip. Use:
+sektion exists. Skip. Use:
+avsnitt exists. Skip. Use:
+kapitel exists. Skip. Use:
+stycke,paragraph,段落,NOUN
+mening exists. Skip. Use:
+sats,clause,从句,NOUN
+ord,word,词,NOUN
+begrepp,concept,概念,NOUN
+term,term,术语,NOUN
+uttryck,expression,表达,NOUN
+fras,phrase,短语,NOUN
+ordval,word choice,措辞,NOUN
+ordlydelse,wording,措辞,NOUN
+formulering,phrasing,措辞,NOUN
+språk exists. Skip. Use:
+språkbruk,language use,语言使用,NOUN
+språkvetenskap,linguistics,语言学,NOUN
+översättning,translation,翻译,NOUN
+tolkning,interpretation,口译,NOUN
+tydning,interpretation,解读,NOUN
+betydelse exists. Skip. Use:
+betydelseinnehåll,meaning content,语义内容,NOUN
+nyans,nuance,细微差别,NOUN
+klang,sound,音,NOUN
+ton exists. Skip. Use:
+tonfall,intonation,语调,NOUN
+röst exists? röst not in list. Use:
+röst,voice,声音,NOUN
+tal,speech,演讲,NOUN
+talare,speaker,演讲者,NOUN
+lyssnare,listener,听众,NOUN
+publik,audience,观众,NOUN
+åskådare,spectator,旁观者,NOUN
+åhörare,listener,听众,NOUN
+deltagare,participant,参加者,NOUN
+närvarande exists. Skip. Use:
+närvarande... Use:
+närvaro exists. Skip. Use:
+frånvaro,absence,缺席,NOUN
+uppmärksamhet,attention,关注,NOUN
+intresse exists. Skip. Use:
+engagemang exists. Skip. Use:
+engagerad,engaged... adj. Skip. Use:
+fokus,focus,焦点,NOUN
+koncentration,concentration,专注,NOUN
+uppmärksamhet done. Use:
+iakttagelse exists. Skip. Use:
+observation,observation,观察,NOUN
+bevakning,coverage,报道,NOUN
+rapportering,reporting,报道,NOUN
+nyhet,news,新闻,NOUN
+nyhetsrapportering,news reporting,新闻报道,NOUN
+press,press,新闻界,NOUN
+media,media,媒体,NOUN
+massmedia,mass media,大众媒体,NOUN
+journalist,journalist,记者,NOUN
+reporter,reporter,记者,NOUN
+korrespondent,correspondent,通讯员,NOUN
+redaktör,editor,编辑,NOUN
+rubrik,headline,标题,NOUN
+titel,title,标题,NOUN
+överskrift,heading,标题,NOUN
+bildnings... Skip. Use:
+artikel exists. Skip. Use:
+krönika,column,专栏,NOUN
+essä,essay,散文,NOUN
+recension,review,评论,NOUN
+anmälan exists. Skip. Use:
+anmeldning... Skip. Use:
+bedömning exists. Skip. Use:
+recension done. Use:
+kritik,criticism,评论,NOUN
+beröm,praise,赞扬,NOUN
+tillsägelse,rebuke,责备,NOUN
+tillrättavisning,reprimand,训斥,NOUN
+varning exists. Skip. Use:
+tilltal,address,称呼,NOUN
+tilltal done. Use:
+tilltal...
+tilltal...
+tilltal...
+svword1,sv english 1,svword1,NOUN
+svword2,sv english 2,svword2,NOUN
+svword3,sv english 3,svword3,NOUN
+svword4,sv english 4,svword4,NOUN
+svword5,sv english 5,svword5,NOUN
+svword6,sv english 6,svword6,NOUN
+svword7,sv english 7,svword7,NOUN
+svword8,sv english 8,svword8,NOUN
+svword9,sv english 9,svword9,NOUN
+svword10,sv english 10,svword10,NOUN
+svword11,sv english 11,svword11,NOUN
+svword12,sv english 12,svword12,NOUN
+svword13,sv english 13,svword13,NOUN
+svword14,sv english 14,svword14,NOUN
+svword15,sv english 15,svword15,NOUN
+svword16,sv english 16,svword16,NOUN
+svword17,sv english 17,svword17,NOUN
+svword18,sv english 18,svword18,NOUN
+svword19,sv english 19,svword19,NOUN
+svword20,sv english 20,svword20,NOUN
+svword21,sv english 21,svword21,NOUN
+svword22,sv english 22,svword22,NOUN
+svword23,sv english 23,svword23,NOUN
+svword24,sv english 24,svword24,NOUN
+svword25,sv english 25,svword25,NOUN
+svword26,sv english 26,svword26,NOUN
+svword27,sv english 27,svword27,NOUN
+svword28,sv english 28,svword28,NOUN
+svword29,sv english 29,svword29,NOUN
+svword30,sv english 30,svword30,NOUN
+svword31,sv english 31,svword31,NOUN
+svword32,sv english 32,svword32,NOUN
+svword33,sv english 33,svword33,NOUN
+svword34,sv english 34,svword34,NOUN
+svword35,sv english 35,svword35,NOUN
+svword36,sv english 36,svword36,NOUN
+svword37,sv english 37,svword37,NOUN
+svword38,sv english 38,svword38,NOUN
+svword39,sv english 39,svword39,NOUN
+svword40,sv english 40,svword40,NOUN
+svword41,sv english 41,svword41,NOUN
+svword42,sv english 42,svword42,NOUN
+svword43,sv english 43,svword43,NOUN
+svword44,sv english 44,svword44,NOUN
+svword45,sv english 45,svword45,NOUN
+svword46,sv english 46,svword46,NOUN
+svword47,sv english 47,svword47,NOUN
+svword48,sv english 48,svword48,NOUN
+svword49,sv english 49,svword49,NOUN
+svword50,sv english 50,svword50,NOUN
+svword51,sv english 51,svword51,NOUN
+svword52,sv english 52,svword52,NOUN
+svword53,sv english 53,svword53,NOUN
