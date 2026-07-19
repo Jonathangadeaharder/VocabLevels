@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
 4,het,it,它,PRON,nl,A1,1,keep,clean
-9,ik,I,我,PRON,nl,A1,2,keep,clean
-21,aan,to,给,ADP,nl,A1,3,keep,clean
-31,wat,what,什么,PRON,nl,A1,4,keep,clean
-63,zullen,shall / will,将要,AUX,nl,A1,5,keep,clean
-69,maken,to make,制作,VERB,nl,A1,6,keep,clean
-128,nooit,never,从不,ADV,nl,A1,7,keep,clean
-171,lang,long,长,ADJ,nl,A1,8,keep,clean
-180,gebruiken,to use,使用,VERB,nl,A1,9,keep,clean
-193,natuurlijk,of course,当然,ADV,nl,A1,10,keep,clean
-195,zo'n,such a,这样的,DET,nl,A1,11,keep,clean
-238,onderzoek,research,研究,NOUN,nl,A1,12,keep,clean
-250,vader,father,父亲,NOUN,nl,A1,13,keep,clean
-254,begin,start,开始,NOUN,nl,A1,14,keep,clean
-256,vrij,free,自由的,ADJ,nl,A1,15,keep,clean
-274,horen,to hear,听见,VERB,nl,A1,16,keep,clean
-277,muziek,music,音乐,NOUN,nl,A1,17,keep,clean
-279,slechts,only,仅仅,ADV,nl,A1,18,keep,clean
-284,duidelijk,clear,清楚的,ADJ,nl,A1,19,keep,clean
-322,nadat,after,在...之后,SCONJ,nl,A1,20,keep,clean
-342,elk,each,每个,PRON,nl,A1,21,keep,clean
-357,gelukkig,happy,快乐的,ADJ,nl,A1,22,keep,clean
-365,dochter,daughter,女儿,NOUN,nl,A1,23,keep,clean
+8,op,on,在,ADP,nl,A1,2,keep,clean
+19,maar,but,但是,CCONJ,nl,A1,3,keep,clean
+24,ze,they,他们,PRON,nl,A1,4,keep,clean
+37,kunnen,can,能,AUX,nl,A1,5,keep,clean
+48,nu,now,现在,ADV,nl,A1,6,keep,clean
+90,alle,all,所有,DET,nl,A1,7,keep,clean
+128,nooit,never,从不,ADV,nl,A1,8,keep,clean
+142,huis,house,房子,NOUN,nl,A1,9,keep,clean
+160,verschillend,different,不同的,ADJ,nl,A1,10,keep,clean
+163,houden,to keep,保持,VERB,nl,A1,11,keep,clean
+173,vandaag,today,今天,ADV,nl,A1,12,keep,clean
+177,elke,each,每个,DET,nl,A1,13,keep,clean
+206,liggen,to lie,躺,VERB,nl,A1,14,keep,clean
+220,hoop,hope,希望,NOUN,nl,A1,15,keep,clean
+238,onderzoek,research,研究,NOUN,nl,A1,16,keep,clean
+259,idee,idea,主意,NOUN,nl,A1,17,keep,clean
+262,ongeveer,about,大约,ADV,nl,A1,18,keep,clean
+316,partij,party,政党,NOUN,nl,A1,19,keep,clean
+329,einde,end,结束,NOUN,nl,A1,20,keep,clean
+376,liefde,love,爱,NOUN,nl,A1,21,keep,clean
+384,ieder,every,每个,PRON,nl,A1,22,keep,clean
+387,tien,ten,十,NUM,nl,A1,23,keep,clean

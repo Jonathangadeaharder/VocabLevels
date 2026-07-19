@@ -144,6 +144,9 @@ def test_classify_ar_lemma_hits_skeptic_class() -> None:
     assert classify_ar_lemma("روح", upos="NOUN", english="soul").action == "ok"
     assert classify_ar_lemma("روح", upos="VERB", english="go").action == "drop"
     assert classify_ar_lemma("بخير", upos="ADJ", english="fine").action == "ok"
+    # eng-conditioned Maghrebi "or" (MSA أو); MSA "and not" stays
+    assert classify_ar_lemma("ولا", upos="CCONJ", english="or").action == "drop"
+    assert classify_ar_lemma("ولا", upos="PART", english="and not").action == "ok"
 
 
 def test_score_sample_row_matches_sample_files() -> None:

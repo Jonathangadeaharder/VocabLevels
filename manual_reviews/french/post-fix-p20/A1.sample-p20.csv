@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-12,affaire,business,事情,NOUN,fr,A1,1,keep,clean
-31,argent,money,钱,NOUN,fr,A1,2,keep,clean
-66,blé,wheat,小麦,NOUN,fr,A1,3,keep,clean
-84,bras,arm,手臂,NOUN,fr,A1,4,keep,clean
-137,chemin,path,路,NOUN,fr,A1,5,keep,clean
-155,cité,city,城市,NOUN,fr,A1,6,keep,clean
-201,côté,side,边,NOUN,fr,A1,7,keep,clean
-203,dame,lady,女士,NOUN,fr,A1,8,keep,clean
-204,dans,in,在……里面,ADP,fr,A1,9,keep,clean
-212,dent,tooth,牙齿,NOUN,fr,A1,10,keep,clean
-222,dicton,saying,谚语,NOUN,fr,A1,11,keep,clean
-227,discours,speech,演讲,NOUN,fr,A1,12,keep,clean
-299,extérieur,outside,外部,NOUN,fr,A1,13,keep,clean
-302,faible,weak,弱的,ADJ,fr,A1,14,keep,clean
-303,faim,hunger,饥饿,NOUN,fr,A1,15,keep,clean
-322,fois,time,次,NOUN,fr,A1,16,keep,clean
-378,hache,axe,斧头,NOUN,fr,A1,17,keep,clean
-459,magasin,shop,商店,NOUN,fr,A1,18,keep,clean
-472,mariage,marriage,婚姻,NOUN,fr,A1,19,keep,clean
-478,mauvais,bad,坏的,ADJ,fr,A1,20,keep,clean
-485,mesurer,to measure,测量,VERB,fr,A1,21,keep,clean
-494,mince,thin,瘦的,ADJ,fr,A1,22,keep,clean
-508,montre,watch,手表,NOUN,fr,A1,23,keep,clean
+11,adresse,address,地址,NOUN,fr,A1,1,keep,clean
+28,apprendre,to learn,学习,VERB,fr,A1,2,keep,clean
+40,auteur,author,作者,NOUN,fr,A1,3,keep,clean
+67,boire,to drink,喝,VERB,fr,A1,4,keep,clean
+92,brun,brown,棕色的,ADJ,fr,A1,5,keep,clean
+128,chandail,sweater,毛衣,NOUN,fr,A1,6,keep,clean
+157,classe,class,班级,NOUN,fr,A1,7,keep,clean
+193,craindre,to fear,害怕,VERB,fr,A1,8,keep,clean
+247,départ,departure,出发,NOUN,fr,A1,9,keep,clean
+250,désert,desert,沙漠,NOUN,fr,A1,10,keep,clean
+283,escargot,snail,蜗牛,NOUN,fr,A1,11,keep,clean
+313,feuille,leaf,叶子,NOUN,fr,A1,12,keep,clean
+321,fleuve,river,河流,NOUN,fr,A1,13,keep,clean
+336,fréquent,frequent,频繁的,ADJ,fr,A1,14,keep,clean
+358,gorge,throat,喉咙,NOUN,fr,A1,15,keep,clean
+390,honneur,honor,荣誉,NOUN,fr,A1,16,keep,clean
+405,inférieur,inferior,较低的,ADJ,fr,A1,17,keep,clean
+429,juin,June,六月,NOUN,fr,A1,18,keep,clean
+432,juste,just,正好,ADV,fr,A1,19,keep,clean
+436,lait,milk,牛奶,NOUN,fr,A1,20,keep,clean
+455,lèvre,lip,嘴唇,NOUN,fr,A1,21,keep,clean
+464,maman,mom,妈妈,NOUN,fr,A1,22,keep,clean
+494,mince,thin,瘦的,ADJ,fr,A1,23,keep,clean

@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-51,Anfänger,beginner,初学者,NOUN,de,C1,1,keep,clean
-65,angesichts,in view of,鉴于,ADP,de,C1,2,keep,clean
-310,billigen,to approve,批准,VERB,de,C1,3,keep,clean
-422,Dummheiten,stupid things,蠢事,NOUN,de,C1,4,keep,clean
-675,Gelächter,laughter,笑声,NOUN,de,C1,5,keep,clean
-691,gerannt,ran,跑,ADJ,de,C1,6,keep,clean
-714,gestalten,to design,设计,VERB,de,C1,7,keep,clean
-779,Hau,blow,打击,NOUN,de,C1,8,keep,clean
-801,Herausforderung,challenge,挑战,NOUN,de,C1,9,keep,clean
-869,Häuptling,chieftain,酋长,NOUN,de,C1,10,keep,clean
-879,Imperium,empire,帝国,NOUN,de,C1,11,keep,clean
-892,Insekt,insect,昆虫,NOUN,de,C1,12,keep,clean
-1045,Krach,crash / bang,巨响 / 碰撞声,NOUN,de,C1,13,keep,clean
-1085,langweilen,to bore,使厌倦,VERB,de,C1,14,keep,clean
-1135,läuten,to ring,鸣响,VERB,de,C1,15,keep,clean
-1407,Rumpf,fuselage,机身,NOUN,de,C1,16,keep,clean
-1420,rühren,to stir,搅拌,VERB,de,C1,17,keep,clean
-1426,Sandsturm,sandstorm,沙尘暴,NOUN,de,C1,18,keep,clean
-1520,sogenannt,so-called,所谓的,ADJ,de,C1,19,keep,clean
-1539,Spezialist,specialist,专家,NOUN,de,C1,20,keep,clean
-1650,Türklingel,doorbell,门铃,NOUN,de,C1,21,keep,clean
-1757,Verschluss,closure,关闭,NOUN,de,C1,22,keep,clean
-1780,verwunden,wound,使受伤,VERB,de,C1,23,keep,clean
-1833,Wecker,alarm clock,闹钟,NOUN,de,C1,24,keep,clean
+57,anklagen,accuse,指控,VERB,de,C1,1,keep,clean
+134,ausarten,escalate,恶化,VERB,de,C1,2,keep,clean
+287,Betracht,consideration,考虑,NOUN,de,C1,3,keep,clean
+357,Dachboden,attic,阁楼,NOUN,de,C1,4,keep,clean
+379,deswegen,therefore,因此,ADV,de,C1,5,keep,clean
+390,Distanz,distance,距离,NOUN,de,C1,6,keep,clean
+519,Ersparnis,savings,积蓄,NOUN,de,C1,7,keep,clean
+535,erwähnen,mention,提及,VERB,de,C1,8,keep,clean
+596,folglich,consequently,因此,ADV,de,C1,9,keep,clean
+632,Garderobe,wardrobe,衣帽间,NOUN,de,C1,10,keep,clean
+718,gewaltig,enormous,巨大的,ADJ,de,C1,11,keep,clean
+755,Gruß,greeting,问候,NOUN,de,C1,12,keep,clean
+771,Haftbefehl,arrest warrant,逮捕令,NOUN,de,C1,13,keep,clean
+789,Heilige,saint,圣人,NOUN,de,C1,14,keep,clean
+841,Hintertür,back door,后门,NOUN,de,C1,15,keep,clean
+843,Hirn,brain,大脑,NOUN,de,C1,16,keep,clean
+948,Kampagne,campaign,运动,NOUN,de,C1,17,keep,clean
+1071,kühl,cool,凉爽的,ADJ,de,C1,18,keep,clean
+1187,Mikrofon,microphone,麦克风,NOUN,de,C1,19,keep,clean
+1194,Missbrauch,abuse,滥用,NOUN,de,C1,20,keep,clean
+1402,Rohr,pipe,管子,NOUN,de,C1,21,keep,clean
+1531,sortieren,to sort,分类,VERB,de,C1,22,keep,clean
+1580,Stütze,support,支撑,NOUN,de,C1,23,keep,clean
+1740,Verlobter,fiancé,未婚夫,NOUN,de,C1,24,keep,clean

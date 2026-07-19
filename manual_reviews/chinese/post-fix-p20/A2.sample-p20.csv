@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-48,使用,to use,使用,VERB,zh,A2,1,keep,clean
-81,凉快,cool,凉快,ADJ,zh,A2,2,keep,clean
-133,叶子,leaf,叶子,NOUN,zh,A2,3,keep,clean
-141,后来,afterwards,后来,ADV,zh,A2,4,keep,clean
-143,吵,to quarrel,吵,VERB,zh,A2,5,keep,clean
-190,实在,really,实在,ADV,zh,A2,6,keep,clean
-197,富,rich,富,ADJ,zh,A2,7,keep,clean
-207,尤其,especially,尤其,ADV,zh,A2,8,keep,clean
-281,按照,according to,按照,ADP,zh,A2,9,keep,clean
-289,提前,to shift to an earlier date,提前,VERB,zh,A2,10,keep,clean
-299,放弃,to give up,放弃,VERB,zh,A2,11,keep,clean
-316,无,not to have,无,VERB,zh,A2,12,keep,clean
-319,既然,since,既然,SCONJ,zh,A2,13,keep,clean
-322,暂时,temporary,暂时,ADJ,zh,A2,14,keep,clean
-340,梦,dream,梦,NOUN,zh,A2,15,keep,clean
-402,留学,to study abroad,留学,VERB,zh,A2,16,keep,clean
-419,社会,society,社会,NOUN,zh,A2,17,keep,clean
-467,聊天,chat,聊天,VERB,zh,A2,18,keep,clean
-474,脱,take off,脱,VERB,zh,A2,19,keep,clean
-480,节约,save,节约,VERB,zh,A2,20,keep,clean
-490,袜子,sock,袜子,NOUN,zh,A2,21,keep,clean
-495,警察,police,警察,NOUN,zh,A2,22,keep,clean
-518,购物,shopping,购物,NOUN,zh,A2,23,keep,clean
-528,轻,light,轻,ADJ,zh,A2,24,keep,clean
+25,交流,to exchange,交流,VERB,zh,A2,1,keep,clean
+40,任务,task,任务,NOUN,zh,A2,2,keep,clean
+82,减少,to reduce,减少,VERB,zh,A2,3,keep,clean
+99,勇敢,brave,勇敢,ADJ,zh,A2,4,keep,clean
+110,压力,pressure,压力,NOUN,zh,A2,5,keep,clean
+127,另外,in addition,另外,ADV,zh,A2,6,keep,clean
+131,可惜,it is a pity,可惜,ADJ,zh,A2,7,keep,clean
+190,实在,really,实在,ADV,zh,A2,8,keep,clean
+209,工具,tool,工具,NOUN,zh,A2,9,keep,clean
+215,师傅,master,师傅,NOUN,zh,A2,10,keep,clean
+255,成功,success,成功,NOUN,zh,A2,11,keep,clean
+285,接受,to accept,接受,VERB,zh,A2,12,keep,clean
+289,提前,to shift to an earlier date,提前,VERB,zh,A2,13,keep,clean
+314,方法,method,方法,NOUN,zh,A2,14,keep,clean
+334,来得及,there's still time,来得及,VERB,zh,A2,15,keep,clean
+341,森林,forest,森林,NOUN,zh,A2,16,keep,clean
+384,牙膏,toothpaste,牙膏,NOUN,zh,A2,17,keep,clean
+388,猪,pig,猪,NOUN,zh,A2,18,keep,clean
+414,破,broken,破,ADJ,zh,A2,19,keep,clean
+445,紧张,nervous,紧张,ADJ,zh,A2,20,keep,clean
+448,组织,organize,组织,VERB,zh,A2,21,keep,clean
+513,调查,investigation,调查,NOUN,zh,A2,22,keep,clean
+523,超过,to surpass,超过,VERB,zh,A2,23,keep,clean
+552,重视,to attach importance to,重视,VERB,zh,A2,24,keep,clean

@@ -537,6 +537,11 @@ def classify_ar_lemma(
         return ClassifyResult("drop", "Maghrebi never (MSA أبداً)")
     if bare in {"معمر", "مُعَمَّر"} and en.strip() in {"full", "stuffed"}:
         return ClassifyResult("drop", "Maghrebi full/sated")
+    # Maghrebi "or" (MSA أو); MSA ولا is "and not"/nor, not plain "or".
+    if bare == "ولا" and (
+        en.strip() == "or" or (up in {"CCONJ", "CONJ"} and "or" in en and "not" not in en)
+    ):
+        return ClassifyResult("drop", "Maghrebi or (MSA أو)")
 
     return ClassifyResult("ok", "msa_or_unmarked")
 

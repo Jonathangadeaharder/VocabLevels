@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-40,benieuwd,curious,好奇的,ADJ,nl,B2,1,keep,clean
-42,buur,neighbor,邻居,NOUN,nl,B2,2,keep,clean
-51,netjes,neatly,整洁地,ADV,nl,B2,3,keep,clean
-79,aanslag,tax rate,税率,NOUN,nl,B2,4,keep,clean
-82,beker,cup,杯子,NOUN,nl,B2,5,keep,clean
-97,tentoonstelling,exhibition,展览,NOUN,nl,B2,6,keep,clean
-109,komst,arrival,到来,NOUN,nl,B2,7,keep,clean
-182,ach,oh well,唉,INTJ,nl,B2,8,keep,clean
-238,opa,grandpa,爷爷,NOUN,nl,B2,9,keep,clean
-350,sporten,to play sports,做运动,VERB,nl,B2,10,keep,clean
-380,sleutel,key,钥匙,NOUN,nl,B2,11,keep,clean
-429,figuur,figure,人物,NOUN,nl,B2,12,keep,clean
-494,uniek,unique,独特的,ADJ,nl,B2,13,keep,clean
-552,verblijf,stay,停留,NOUN,nl,B2,14,keep,clean
-566,doorheen,through,穿过,ADP,nl,B2,15,keep,clean
-613,Pools,Polish,波兰的,ADJ,nl,B2,16,keep,clean
-668,dijk,dike,堤坝,NOUN,nl,B2,17,keep,clean
-689,stimuleren,to stimulate,刺激,VERB,nl,B2,18,keep,clean
-695,beschadigen,to damage,损坏,VERB,nl,B2,19,keep,clean
-720,stijging,increase,增加,NOUN,nl,B2,20,keep,clean
-722,tempo,pace,节奏,NOUN,nl,B2,21,keep,clean
-859,nieuwsgierig,curious,好奇的,ADJ,nl,B2,22,keep,clean
-896,traject,trajectory,轨迹,NOUN,nl,B2,23,keep,clean
-1032,overval,raid,突袭,NOUN,nl,B2,24,keep,clean
+16,vermist,missing,失踪的,ADJ,nl,B2,1,keep,clean
+53,qua,regarding,关于,ADP,nl,B2,2,keep,clean
+88,instelling,institution,机构,NOUN,nl,B2,3,keep,clean
+123,traditie,tradition,传统,NOUN,nl,B2,4,keep,clean
+212,vliegveld,airport,机场,NOUN,nl,B2,5,keep,clean
+254,aanvallen,to attack,攻击,VERB,nl,B2,6,keep,clean
+290,kapitein,captain,队长,NOUN,nl,B2,7,keep,clean
+319,minst,least,最少,ADV,nl,B2,8,keep,clean
+345,ontsnappen,to escape,逃跑,VERB,nl,B2,9,keep,clean
+374,melk,milk,牛奶,NOUN,nl,B2,10,keep,clean
+476,opstaan,to stand up,站起来,VERB,nl,B2,11,keep,clean
+500,waarschuwing,warning,警告,NOUN,nl,B2,12,keep,clean
+537,infrastructuur,infrastructure,基础设施,NOUN,nl,B2,13,keep,clean
+611,opsluiten,to lock up,关押,VERB,nl,B2,14,keep,clean
+620,taart,cake,蛋糕,NOUN,nl,B2,15,keep,clean
+652,treden,to step,踏,VERB,nl,B2,16,keep,clean
+708,gaaf,perfect,完美的,ADJ,nl,B2,17,keep,clean
+730,aanzienlijk,considerable,相当大的,ADJ,nl,B2,18,keep,clean
+742,fysiek,physical,身体的,ADJ,nl,B2,19,keep,clean
+755,ontvangst,reception,接待,NOUN,nl,B2,20,keep,clean
+787,nederlaag,defeat,失败,NOUN,nl,B2,21,keep,clean
+874,vuil,dirt,污垢,NOUN,nl,B2,22,keep,clean
+933,vaardigheid,skill,技能,NOUN,nl,B2,23,keep,clean
+959,samengesteld,composed,组成的,ADJ,nl,B2,24,keep,clean

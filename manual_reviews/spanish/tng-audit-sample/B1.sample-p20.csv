@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-61,aparte,aside,另外/ apart,ADV,es,B1,1,keep,clean
-141,borrar,erase,擦除,VERB,es,B1,2,keep,clean
-222,comando,command,命令,NOUN,es,B1,3,keep,clean
-252,conejo,rabbit,兔子,NOUN,es,B1,4,keep,clean
-261,congreso,congress,国会,NOUN,es,B1,5,keep,clean
-266,conspiración,conspiracy,阴谋,NOUN,es,B1,6,keep,clean
-325,deporte,sport,运动,NOUN,es,B1,7,keep,clean
-452,estrategia,strategy,策略,NOUN,es,B1,8,keep,clean
-469,explicación,explanation,解释,NOUN,es,B1,9,keep,clean
-477,fabuloso,fabulous,极好的,ADJ,es,B1,10,keep,clean
-601,impulso,impulse,冲动,NOUN,es,B1,11,keep,clean
-652,junio,June,六月,NOUN,es,B1,12,keep,clean
-668,lento,slow,慢的,ADJ,es,B1,13,keep,clean
-672,leyenda,legend,传说,NOUN,es,B1,14,keep,clean
-694,maleta,suitcase,手提箱,NOUN,es,B1,15,keep,clean
-745,nieto,grandson,孙子,NOUN,es,B1,16,keep,clean
-798,postre,dessert,甜点,NOUN,es,B1,17,keep,clean
-809,producto,product,产品,NOUN,es,B1,18,keep,clean
-820,quemar,to burn,燃烧,VERB,es,B1,19,keep,clean
-830,recuperación,recovery,恢复,NOUN,es,B1,20,keep,clean
-832,región,region,地区,NOUN,es,B1,21,keep,clean
-857,sacerdote,priest,神父,NOUN,es,B1,22,keep,clean
-908,tiroteo,shootout,枪战,NOUN,es,B1,23,keep,clean
-921,término,term,术语,NOUN,es,B1,24,keep,clean
+13,actividad,activity,活动,NOUN,es,B1,1,keep,clean
+202,cincuenta,fifty,五十,NUM,es,B1,2,keep,clean
+245,concierto,concert,音乐会,NOUN,es,B1,3,keep,clean
+258,conflicto,conflict,冲突,NOUN,es,B1,4,keep,clean
+293,criado,servant,仆人,NOUN,es,B1,5,keep,clean
+318,delicado,delicate,精致的/微妙的,ADJ,es,B1,6,keep,clean
+380,egoísta,selfish,自私的,ADJ,es,B1,7,keep,clean
+384,elefante,elephant,大象,NOUN,es,B1,8,keep,clean
+405,engañar,to deceive,欺骗,VERB,es,B1,9,keep,clean
+432,escritor,writer,作家,NOUN,es,B1,10,keep,clean
+462,excelencia,excellence,卓越,NOUN,es,B1,11,keep,clean
+502,formar,form,形成,VERB,es,B1,12,keep,clean
+508,fraude,fraud,欺诈,NOUN,es,B1,13,keep,clean
+559,guión,script,剧本,NOUN,es,B1,14,keep,clean
+602,incapaz,incapable,无能的,ADJ,es,B1,15,keep,clean
+626,instinto,instinct,本能,NOUN,es,B1,16,keep,clean
+698,mantenerse,to maintain oneself,保持,VERB,es,B1,17,keep,clean
+732,muerte,death,死亡,NOUN,es,B1,18,keep,clean
+754,ocurrir,to occur,发生,VERB,es,B1,19,keep,clean
+767,otoño,autumn,秋天,NOUN,es,B1,20,keep,clean
+771,participar,to participate,参与,VERB,es,B1,21,keep,clean
+782,pensamiento,thought,思想,NOUN,es,B1,22,keep,clean
+875,simpático,nice,友好的,ADJ,es,B1,23,keep,clean
+876,sincero,sincere,真诚的,ADJ,es,B1,24,keep,clean

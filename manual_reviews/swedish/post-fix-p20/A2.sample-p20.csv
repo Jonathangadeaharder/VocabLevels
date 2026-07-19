@@ -1,24 +1,24 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-5,förlåt,sorry,对不起,INTJ,sv,A2,1,keep,clean
-21,gälla,apply/be valid,适用/有效,VERB,sv,A2,2,keep,clean
-23,gång,time/occasion,次/回,NOUN,sv,A2,3,keep,clean
-35,historia,history/story,历史/故事,NOUN,sv,A2,4,keep,clean
-86,lika,equally,同样地,ADV,sv,A2,5,keep,clean
-94,längre,longer,更长的,ADJ,sv,A2,6,keep,clean
-102,mig,me,我,PRON,sv,A2,7,keep,clean
-107,mot,against,反对,ADP,sv,A2,8,keep,clean
-152,senaste,latest,最新的,ADJ,sv,A2,9,keep,clean
-178,strax,shortly,不久,ADV,sv,A2,10,keep,clean
-185,säker,surely/safe,肯定地,ADV,sv,A2,11,keep,clean
-211,uppe,up,在上面,ADV,sv,A2,12,keep,clean
-215,ut,out,出去,ADV,sv,A2,13,keep,clean
-223,varsågod,here you go,请,INTJ,sv,A2,14,keep,clean
-233,värre,worse,更糟,ADJ,sv,A2,15,keep,clean
-245,adress,address,地址,NOUN,sv,A2,16,keep,clean
-247,affär,shop,商店,NOUN,sv,A2,17,keep,clean
-257,angående,regarding,关于,ADP,sv,A2,18,keep,clean
-260,ansvar,responsibility,责任,NOUN,sv,A2,19,keep,clean
-275,bestämd,determined/definite,确定的,ADJ,sv,A2,20,keep,clean
-294,definitivt,definitely,肯定地,ADV,sv,A2,21,keep,clean
-298,detsamma,the same,同样的,PRON,sv,A2,22,keep,clean
-301,djur,animal,动物,NOUN,sv,A2,23,keep,clean
+4,före,before,在...之前,ADP,sv,A2,1,keep,clean
+13,galen,crazy,疯狂的,ADJ,sv,A2,2,keep,clean
+19,grund,ground/basis,基础/理由,NOUN,sv,A2,3,keep,clean
+31,hemskt,terribly,可怕地/非常,ADV,sv,A2,4,keep,clean
+33,herre,Mr/master,先生/主人,NOUN,sv,A2,5,keep,clean
+40,hoppas,hope,希望,VERB,sv,A2,6,keep,clean
+80,kvar,left,剩下的,ADV,sv,A2,7,keep,clean
+95,lära,learn,学习,VERB,sv,A2,8,keep,clean
+138,riktig,real,真正的,ADJ,sv,A2,9,keep,clean
+168,skynda,hurry,匆忙,VERB,sv,A2,10,keep,clean
+170,slut,end,结束,NOUN,sv,A2,11,keep,clean
+179,stund,moment,片刻,NOUN,sv,A2,12,keep,clean
+202,träffa,meet,遇见,VERB,sv,A2,13,keep,clean
+217,ute,out,在外面,ADV,sv,A2,14,keep,clean
+220,vapen,weapon,武器,NOUN,sv,A2,15,keep,clean
+235,än,than,比,ADP,sv,A2,16,keep,clean
+248,aj,ouch,哎哟,INTJ,sv,A2,17,keep,clean
+254,allvarligt,seriously,认真地,ADV,sv,A2,18,keep,clean
+257,angående,regarding,关于,ADP,sv,A2,19,keep,clean
+266,avtal,agreement,协议,NOUN,sv,A2,20,keep,clean
+278,bevisa,prove,证明,VERB,sv,A2,21,keep,clean
+289,bygga,build,建造,VERB,sv,A2,22,keep,clean
+309,eftermiddag,afternoon,下午,NOUN,sv,A2,23,keep,clean

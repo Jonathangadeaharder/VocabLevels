@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-22,人,person,人,NOUN,zh,A1,1,keep,clean
-29,做,to do / to make,做,VERB,zh,A1,2,keep,clean
-32,八,eight,八,NUM,zh,A1,3,keep,clean
-80,小,small,小,ADJ,zh,A1,4,keep,clean
-83,岁,year (of age),岁,NOUN,zh,A1,5,keep,clean
-100,月,month / moon,月,NOUN,zh,A1,6,keep,clean
-141,谢谢,thank you,谢谢,INTJ,zh,A1,7,keep,clean
-167,公斤,kilogram,公斤,NOUN,zh,A1,8,keep,clean
-171,别,do not,别,ADV,zh,A1,9,keep,clean
-189,大家,everyone,大家,PRON,zh,A1,10,keep,clean
-200,就,then / just,就,ADV,zh,A1,11,keep,clean
-233,次,time / occurrence (measure word),次,NOUN,zh,A1,12,keep,clean
-252,离,from / away from,离,ADP,zh,A1,13,keep,clean
-257,红,red,红,ADJ,zh,A1,14,keep,clean
-280,进,to enter / to advance,进,VERB,zh,A1,15,keep,clean
-298,一共,altogether,一共,ADV,zh,A1,16,keep,clean
-393,奇怪,strange,奇怪,ADJ,zh,A1,17,keep,clean
-413,应该,should,应该,AUX,zh,A1,18,keep,clean
-442,新鲜,fresh,新鲜,ADJ,zh,A1,19,keep,clean
-453,条,strip,条,NOUN,zh,A1,20,keep,clean
-455,果汁,fruit juice,果汁,NOUN,zh,A1,21,keep,clean
-478,照顾,to take care of,照顾,VERB,zh,A1,22,keep,clean
-495,相信,to believe,相信,VERB,zh,A1,23,keep,clean
-516,经常,often,经常,ADV,zh,A1,24,keep,clean
+106,桌子,table,桌子,NOUN,zh,A1,1,keep,clean
+112,没关系,it doesn't matter,没关系,ADJ,zh,A1,2,keep,clean
+132,苹果,apple,苹果,NOUN,zh,A1,3,keep,clean
+135,衣服,clothes,衣服,NOUN,zh,A1,4,keep,clean
+151,一起,together,一起,ADV,zh,A1,5,keep,clean
+155,为,for / to,为,ADP,zh,A1,6,keep,clean
+179,号,number / date,号,NOUN,zh,A1,7,keep,clean
+182,告诉,to tell,告诉,VERB,zh,A1,8,keep,clean
+222,教室,classroom,教室,NOUN,zh,A1,9,keep,clean
+226,早上,morning,早上,NOUN,zh,A1,10,keep,clean
+239,游泳,to swim,游泳,VERB,zh,A1,11,keep,clean
+306,世界,world,世界,NOUN,zh,A1,12,keep,clean
+325,作业,homework,作业,NOUN,zh,A1,13,keep,clean
+331,像,to resemble,像,VERB,zh,A1,14,keep,clean
+424,打扫,to clean,打扫,VERB,zh,A1,15,keep,clean
+432,提高,to raise,提高,VERB,zh,A1,16,keep,clean
+456,树,tree,树,NOUN,zh,A1,17,keep,clean
+477,照相机,camera,照相机,NOUN,zh,A1,18,keep,clean
+480,爬山,to climb a mountain,爬山,VERB,zh,A1,19,keep,clean
+486,甜,sweet,甜,ADJ,zh,A1,20,keep,clean
+502,礼物,gift,礼物,NOUN,zh,A1,21,keep,clean
+517,经理,manager,经理,NOUN,zh,A1,22,keep,clean
+561,越,to exceed,越,VERB,zh,A1,23,keep,clean
+565,还是,or,还是,CCONJ,zh,A1,24,keep,clean

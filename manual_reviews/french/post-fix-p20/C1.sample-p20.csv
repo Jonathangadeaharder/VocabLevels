@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-61,affacturage,factoring,保理,NOUN,fr,C1,1,keep,clean
-108,alliage,alloy,合金,NOUN,fr,C1,2,keep,clean
-171,animosité,animosity,敌意,NOUN,fr,C1,3,keep,clean
-474,cadet,younger sibling,弟弟妹妹,NOUN,fr,C1,4,keep,clean
-513,carpe,carp,鲤鱼,NOUN,fr,C1,5,keep,clean
-627,comparaître,to appear in court,出庭,VERB,fr,C1,6,keep,clean
-938,décevant,disappointing,令人失望的,ADJ,fr,C1,7,keep,clean
-1169,existentialisme,existentialism,存在主义,NOUN,fr,C1,8,keep,clean
-1259,fonctionnalité,functionality,功能,NOUN,fr,C1,9,keep,clean
-1381,guignol,puppet,木偶,NOUN,fr,C1,10,keep,clean
-1450,hydraulique,hydraulic,水力的,ADJ,fr,C1,11,keep,clean
-1474,hôtellerie,hotel industry,酒店业,NOUN,fr,C1,12,keep,clean
-1503,impassiblement,impassively,无动于衷地,ADV,fr,C1,13,keep,clean
-1595,inimaginable,unimaginable,难以想象的,ADJ,fr,C1,14,keep,clean
-1624,instituteur,primary school teacher,小学教师,NOUN,fr,C1,15,keep,clean
-1826,maniaque,fussy,挑剔的,ADJ,fr,C1,16,keep,clean
-2109,palier,landing,楼梯平台,NOUN,fr,C1,17,keep,clean
-2472,pusillanime,pusillanimous,怯懦的,ADJ,fr,C1,18,keep,clean
-2857,simonie,simony,买卖圣职罪,NOUN,fr,C1,19,keep,clean
-2858,simplifier,to simplify,简化,VERB,fr,C1,20,keep,clean
-2893,soucieux,concerned,担忧的,ADJ,fr,C1,21,keep,clean
-3180,tenace,tenacious,顽强的,ADJ,fr,C1,22,keep,clean
-3335,transatlantique,transatlantic,跨大西洋的,ADJ,fr,C1,23,keep,clean
-3467,universel,universal,普遍的,ADJ,fr,C1,24,keep,clean
+6,abnégation,self-denial,自我牺牲,NOUN,fr,C1,1,keep,clean
+92,aigreur,bitterness,酸苦 / 怨恨,NOUN,fr,C1,2,keep,clean
+393,biennale,biennial,双年展,NOUN,fr,C1,3,keep,clean
+423,bouleversement,upheaval,动荡,NOUN,fr,C1,4,keep,clean
+840,diabolique,diabolical,恶魔般的,ADJ,fr,C1,5,keep,clean
+1001,délivrance,"deliverance, issuance",释放，发放,NOUN,fr,C1,6,keep,clean
+1038,désarroi,dismay,慌乱,NOUN,fr,C1,7,keep,clean
+1135,envahisseur,invader,入侵者,NOUN,fr,C1,8,keep,clean
+1142,escouade,squad,小队,NOUN,fr,C1,9,keep,clean
+1318,férié,public holiday,公共假日,ADJ,fr,C1,10,keep,clean
+1399,géopolitique,geopolitical,地缘政治的,ADJ,fr,C1,11,keep,clean
+1584,influer,to influence,影响,VERB,fr,C1,12,keep,clean
+1697,jésuite,Jesuit,耶稣会士,NOUN,fr,C1,13,keep,clean
+1896,mitoyenneté,shared boundary ownership,共有边界权,NOUN,fr,C1,14,keep,clean
+1960,méfiance,distrust,不信任,NOUN,fr,C1,15,keep,clean
+2063,oculaire,ocular,眼部的,ADJ,fr,C1,16,keep,clean
+2116,pancarte,sign,标语牌,NOUN,fr,C1,17,keep,clean
+2142,paresseux,lazy,懒惰的,ADJ,fr,C1,18,keep,clean
+2363,progéniture,offspring,后代,NOUN,fr,C1,19,keep,clean
+2373,promouvoir,to promote,促进,VERB,fr,C1,20,keep,clean
+2453,psaume,psalm,诗篇,NOUN,fr,C1,21,keep,clean
+2945,subitement,suddenly,突然地,ADV,fr,C1,22,keep,clean
+3343,transitoire,transitional,过渡的,ADJ,fr,C1,23,keep,clean
+3370,trente,thirty,三十,NUM,fr,C1,24,keep,clean

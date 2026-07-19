@@ -312,7 +312,4 @@ ar,*,يالله,,,,drop,classifier closed dialect/loan token set
 ar,*,يعني#PART,,,PART,drop,يعني discourse PART colloquial
 ar,*,يلا,,,,drop,classifier closed dialect/loan token set
 ar,*,يلاه,,,,drop,classifier closed dialect/loan token set
-ar,A1,شاف,see,看见,VERB,drop,closed dialect/loan token set
-ar,B1,طيفور,low round table,矮圆桌,NOUN,drop,closed dialect/loan token set
-ar,B1,كيسان,tea glasses,茶杯,NOUN,drop,closed dialect/loan token set
-ar,C1,كشاف,index,索引,NOUN,drop,clitic+dialect stem
+ar,A2,ولا,or,或者,CCONJ,drop,Maghrebi or (MSA أو)

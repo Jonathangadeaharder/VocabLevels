@@ -1,25 +1,25 @@
 csv_line,lemma,english_lemma,chinese_lemma,upos,lang,level,sample_index,verdict,notes
-3,abajo,down,下面,ADV,es,A1,1,keep,clean
-31,aquí,here,这里,ADV,es,A1,2,keep,clean
-65,caja,box,盒子,NOUN,es,A1,3,keep,clean
-98,cliente,customer,顾客,NOUN,es,A1,4,keep,clean
-113,conocido,acquaintance,熟人,NOUN,es,A1,5,keep,clean
-115,contacto,contact,联系/接触,NOUN,es,A1,6,keep,clean
-206,feliz,happy,快乐的,ADJ,es,A1,7,keep,clean
-227,grande,big,大的,ADJ,es,A1,8,keep,clean
-240,hecho,fact,事实,NOUN,es,A1,9,keep,clean
-249,hombre,man,男人,NOUN,es,A1,10,keep,clean
-259,información,information,信息,NOUN,es,A1,11,keep,clean
-316,mes,month,月,NOUN,es,A1,12,keep,clean
-343,nivel,level,水平,NOUN,es,A1,13,keep,clean
-373,papá,dad,爸爸,NOUN,es,A1,14,keep,clean
-400,placer,pleasure,快乐,NOUN,es,A1,15,keep,clean
-447,reputación,reputation,名声,NOUN,es,A1,16,keep,clean
-464,segundo,second,第二,NUM,es,A1,17,keep,clean
-470,sentir,to feel,感觉,VERB,es,A1,18,keep,clean
-498,tan,so,如此,ADV,es,A1,19,keep,clean
-508,tienda,shop,商店,NOUN,es,A1,20,keep,clean
-510,tipo,type,类型,NOUN,es,A1,21,keep,clean
-531,uno,one,一,NUM,es,A1,22,keep,clean
-548,vivo,alive,活着的,ADJ,es,A1,23,keep,clean
-556,zona,zone,区域,NOUN,es,A1,24,keep,clean
+20,allá,over there,那边,ADV,es,A1,1,keep,clean
+25,ambos,both,两者,DET,es,A1,2,keep,clean
+26,amiga,female friend,女性朋友,NOUN,es,A1,3,keep,clean
+64,café,coffee,咖啡,NOUN,es,A1,4,keep,clean
+70,cambio,change,变化,NOUN,es,A1,5,keep,clean
+149,después,after,之后,ADV,es,A1,6,keep,clean
+162,donde,where,哪里,ADV,es,A1,7,keep,clean
+207,fiesta,party,聚会,NOUN,es,A1,8,keep,clean
+210,forma,shape,形状,NOUN,es,A1,9,keep,clean
+245,hijo,son,儿子,NOUN,es,A1,10,keep,clean
+275,lado,side,边,NOUN,es,A1,11,keep,clean
+286,listo,ready,准备好的,ADJ,es,A1,12,keep,clean
+296,luz,light,光,NOUN,es,A1,13,keep,clean
+303,mano,hand,手,NOUN,es,A1,14,keep,clean
+316,mes,month,月,NOUN,es,A1,15,keep,clean
+369,padre,father,父亲,NOUN,es,A1,16,keep,clean
+377,parte,part,部分,NOUN,es,A1,17,keep,clean
+378,pasa,raisin,葡萄干,NOUN,es,A1,18,keep,clean
+379,pasado,past,过去,ADJ,es,A1,19,keep,clean
+401,planeta,planet,行星,NOUN,es,A1,20,keep,clean
+424,prueba,test,测试,NOUN,es,A1,21,keep,clean
+456,saber,to know,知道,VERB,es,A1,22,keep,clean
+528,tú,you,你,PRON,es,A1,23,keep,clean
+553,y,and,和,CCONJ,es,A1,24,keep,clean
