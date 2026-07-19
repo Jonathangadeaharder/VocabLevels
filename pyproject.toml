@@ -35,6 +35,12 @@ omit = [
     "generate_dutch_vocab.py",
     # One-time migration script; needs ~2GB stanza models for full coverage.
     "fix_pos_and_overflow.py",
+    # Retired client (kept only so old imports do not crash tools).
+    "scripts/gemma_qa/antigravity.py",
+    # CLI entry modules exercised via subprocess, not unit-tested.
+    "scripts/gemma_qa/__main__.py",
+    "scripts/gemma_qa/build_audit_sample.py",
+    "scripts/gemma_qa/cli.py",
 ]
 
 [tool.coverage.report]

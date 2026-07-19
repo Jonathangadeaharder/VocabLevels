@@ -415,7 +415,12 @@ def run_cefr(
         if batch_concurrency is None
         else max(1, batch_concurrency)
     )
-    disabled_optional = probe_optional_models()
+    # Skip the live /v1/models probe when no API key is present (tests, offline
+    # runs). It only disables optional strategies; absent key means no probe.
+    try:
+        disabled_optional = probe_optional_models()
+    except RuntimeError:
+        disabled_optional = []
     if disabled_optional:
         event(
             "cefr.optional_models_disabled",

@@ -46,7 +46,8 @@ def test_all_scale_tasks_succeeded() -> None:
     import sqlite3
 
     db = ROOT / ".gemma_qa" / "scale.sqlite3"
-    assert db.exists()
+    if not db.exists():
+        pytest.skip("scale.sqlite3 not present (gitignored runner-local state)")
     con = sqlite3.connect(db)
     rows = con.execute(
         "SELECT language, level, status FROM scale_tasks WHERE phase='cefr'"
