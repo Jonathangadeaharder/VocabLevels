@@ -1,289 +1,141 @@
 Swedish_Lemma,English_Lemma,Chinese_Lemma,POS
-"""dödlig",,,
-22-årig,,,
-6-årig,,,
-anmärkning,,,
-badkläder,,,
-begravningsbyråum,,,
-berkeleytränare,,,
-besöksförbud,,,
-betygsätta,,,
-bevispås,,,
-biidörr,,,
-bråsa,,,
-burgarställe,,,
-böda,,,
-bönfölla,,,
-bössa,,,
-dessvärd,,,
-drälla,,,
-dröma,,,
-där.,,,
-därjag,,,
-dåiig,,,
-dödad,,,
-döija,,,
-döra,,,
-eidsvåda,,,
-eilerjägare,,,
-eiljusspår,,,
-elijusspår,,,
-elitförband,,,
-engelsklärare,,,
-erkända,,,
-examenskväll,,,
-farvälkyss,,,
-fch_följande_sidor,,,
-fel_vill_säga,,,
-fiäkt,,,
-fjäder,,,
-fjäsklöjna,,,
-formulär,,,
-formål,,,
-fotbollslägr,,,
-framförallt,,,
-fräschd,,,
-födelseda,,,
-föija,,,
-för-,,,
-förehavande,,,
-förföijd,,,
-förgiftad,,,
-förgå,,,
-förla,,,
-förmån,,,
-förny,,,
-försök.,,,
-förundersökning,,,
-förutfattad,,,
-förvisad,,,
-förvägrad,,,
-förväntad,,,
-föräldravänlig,,,
-förändrad,,,
-fött,,,
-gasmätare,,,
-genomtänkt,,,
-genväg.,,,
-gläba,,,
-godkänn,,,
-gräsa,,,
-gräta,,,
-gråd,,,
-grönklädd,,,
-gälia,,,
-gästtestare,,,
-går,,,
-handväsk,,,
-hej_så_vidare,,,
-helknäpp,,,
-hemväg,,,
-heroinånga,,,
-hjäip,,,
-hjält,,,
-hjärnaktivitet,,,
-hjärnskadad,,,
-hjärtlig,,,
-häkta,,,
-hämna,,,
-hämtad,,,
-häng,,,
-här-,,,
-häromkväll,,,
-häromår,,,
-hålia,,,
-hålja,,,
-håll,,,
-hårdhandskare,,,
-håv,,,
-höet,,,
-höft,,,
-höjdpunkt,,,
-höjdskräck,,,
-iakttagelseförmåga,,,
-ihåg.,,,
-ijöga,,,
-inköp,,,
-iägenhet,,,
-iägga,,,
-iämna,,,
-iäta,,,
-iätt,,,
-iång,,,
-julgröt,,,
-junior-tröja,,,
-järklig,,,
-jätt,,,
-jättebr,,,
-jättecool,,,
-jätteglad,,,
-jättegod,,,
-jättegullig,,,
-jättekulma,,,
-jätteliten,,,
-jättemycket,,,
-jättenär,,,
-jätterolig,,,
-jättestor,,,
-jättetrevlig,,,
-jätteupptagen,,,
-jätteviktig,,,
-jäven,,,
-jävlig,,,
-jävul,,,
-jösses.,,,
-kartiägg,,,
-knän,,,
-konstnärlig,,,
-kräka,,,
-krångla,,,
-kväil,,,
-käk,,,
-känsla.,,,
-känslan,,,
-känslosam,,,
-kära,,,
-kåre,,,
-köpt,,,
-landsväg,,,
-legoförband,,,
-ljushårig,,,
-ljusår,,,
-ljög,,,
-lägg,,,
-läkarbesök,,,
-läkarhjälp,,,
-lär,,,
-lång.,,,
-låttext,,,
-lönnmördarförband,,,
-mjölktand,,,
-muskelvärk,,,
-märkt,,,
-mån,,,
-möjiig,,,
-mördad,,,
-mött,,,
-nuiäge,,,
-nyårsklänning,,,
-nätdejtingprofil,,,
-nån.,,,
-nånsin,,,
-nånstans,,,
-nånting,,,
-nåt.,,,
-nördige,,,
-oförlåtlig,,,
-oförutsebar,,,
-olåst,,,
-omskött,,,
-osäkrad,,,
-overlämna,,,
-patrulltjänst,,,
-personbästa,,,
-pojkvänn,,,
-polisanmälda,,,
-poängsatt,,,
-provköra,,,
-provsköta,,,
-prövning,,,
-på.,,,
-påtänkt,,,
-rädd.,,,
-saltök,,,
-segelbåt,,,
-simträning,,,
-siäkt,,,
-siänga,,,
-siäpp,,,
-siå,,,
-siår,,,
-självklar,,,
-självmordskandidat,,,
-självmordstank,,,
-sjätt,,,
-skaligång,,,
-skamkänsla,,,
-skitstövel,,,
-skittråkig,,,
-skottsäker,,,
-skäligen,,,
-skötsam,,,
-slutända,,,
-släpp,,,
-slöjd,,,
-smäil,,,
-smäla,,,
-smälla,,,
-smärtfri,,,
-smärtlindring,,,
-snutjävel,,,
-snälia,,,
-solljuskänslighet,,,
-spansklärare,,,
-specialfönst,,,
-specialfönster,,,
-spräcka,,,
-sträck,,,
-stäila,,,
-ständig,,,
-stängsle,,,
-ståndtrop,,,
-superdöd,,,
-superhög,,,
-svårflörtad,,,
-sämt,,,
-sängkaäd,,,
-så_kallad,,,
-såg,,,
-såhär,,,
-söm,,,
-sömntablett,,,
-tillföra,,,
-tillsträck,,,
-tillstå,,,
-tjänsteå,,,
-tränarjävel,,,
-träningsredskap,,,
-tröstande,,,
-tändare,,,
-tärnvä,,,
-tävlingsjävul,,,
-törst,,,
-undermålig,,,
-upp_särhe<sos>,,,
-uppvärmning,,,
-utlösande,,,
-utlösningsmekanism,,,
-vattentäd,,,
-vittneskyddstäckmantel,,,
-vräka,,,
-vägbom,,,
-väi,,,
-välkomne,,,
-välkomstkommitt,,,
-vänd,,,
-vändplan,,,
-vänne,,,
-vänner,,,
-väpnare,,,
-värdesak,,,
-värid,,,
-vårdhem,,,
-äckla,,,
-äiskling,,,
-ämbetsdräkt,,,
-äran,,,
-ärja,,,
-ärju,,,
-äventyrsvän,,,
-åkiagare,,,
-åkomma,,,
-återställd,,,
-återupprätta,,,
-ögon,,,
-ögonlock,,,
-överfail,,,
-övergiven,,,
-överlevd,,,
-överlägsen,,,
+anteckna,to note down,记录,VERB
+aspirant,aspirant,有抱负者,NOUN
+atlet,athlete,运动员,NOUN
+avspänd,relaxed,放松的,ADJ
+beteckna,to designate,标示,VERB
+blinkning,blink,闪烁,NOUN
+brottslig,criminal,犯罪的,ADJ
+bubbel,bubble,泡沫,NOUN
+byxa,trousers,裤子,NOUN
+bädda,to make a bed,铺床,VERB
+dykare,diver,潜水员,NOUN
+dylik,similar,类似的,ADJ
+eventuell,"possible, potential",可能的,ADJ
+flest,most,最多的,ADJ
+flätta,to braid,编辫子,VERB
+framkant,front edge,前沿,NOUN
+fröjd,joy,欢乐,NOUN
+frösa,to freeze,冻结,VERB
+gjuta,"to cast, pour",铸造,VERB
+glapp,"gap, play",间隙,NOUN
+gräns,border,边界,NOUN
+går,goes,去,VERB
+hämnd,revenge,复仇,NOUN
+information,information,信息,NOUN
+isländsk,Icelandic,冰岛的,ADJ
+järn,iron,铁,NOUN
+kategori,category,类别,NOUN
+ketchup,ketchup,番茄酱,NOUN
+klack,heel,鞋跟,NOUN
+klopp,"pipe, tube",管道,NOUN
+klurig,"tricky, clever",巧妙的,ADJ
+konstnärlig,artistic,艺术的,ADJ
+korg,basket,篮子,NOUN
+kortast,shortest,最短的,ADJ
+kreativ,creative,有创造力的,ADJ
+kreativa,creative,有创造力的,ADJ
+kreativitet,creativity,创造力,NOUN
+kräka,to vomit,呕吐,VERB
+krångla,to complicate,使复杂,VERB
+kväil,to suffer,受苦,VERB
+känslosam,sentimental,多愁善感的,ADJ
+laktos,lactose,乳糖,NOUN
+landsväg,country road,乡间公路,NOUN
+ljushårig,blonde,金发的,ADJ
+ljusår,light year,光年,NOUN
+ljög,lied,撒谎,VERB
+lugg,"bangs, fringe",刘海,NOUN
+längtan,longing,渴望,NOUN
+motivation,motivation,动力,NOUN
+märkt,marked,标记的,ADJ
+nätdejtingprofil,dating profile,交友资料,NOUN
+nånstans,somewhere,某处,ADV
+nånting,something,某事,PRON
+oförlåtlig,unforgivable,不可原谅的,ADJ
+oförutsebar,unpredictable,不可预测的,ADJ
+olik,"different, unlike",不同,ADJ
+omskött,neglected,疏忽的,ADJ
+osäkrad,unsecured,未固定的,ADJ
+passning,passing,传球,NOUN
+patrulltjänst,patrol duty,巡逻任务,NOUN
+person,person,人,NOUN
+pinna,"pin, peg",大头针,NOUN
+pojkvänn,boyfriend,男朋友,NOUN
+polisanmälda,reported to police,报警的,ADJ
+potatismos,mashed potatoes,土豆泥,NOUN
+pott,"pot, jackpot","锅, 头奖",NOUN
+praktik,"internship, practice",实习,NOUN
+prispott,prize pot,奖池,NOUN
+provköra,to test drive,试驾,VERB
+provsköta,to test operate,试操作,VERB
+präsident,president,总统,NOUN
+prövning,"test, trial",测试,NOUN
+pulsa,"pulse, flow",涌流,VERB
+påtänkt,intended,打算的,ADJ
+rask,"quick, swift",迅速的,ADJ
+redaktion,editorial office,编辑部,NOUN
+segelbåt,sailboat,帆船,NOUN
+simträning,swim training,游泳训练,NOUN
+självklar,obvious,不言而喻的,ADJ
+självmordstank,suicidal thought,自杀念头,NOUN
+skamkänsla,sense of shame,羞耻感,NOUN
+skitstövel,bastard,混蛋,NOUN
+skottsäker,bulletproof,防弹的,ADJ
+skäggig,bearded,留胡子的,ADJ
+skäligen,reasonably,合理地,ADV
+skönna,beautiful,美丽的,ADJ
+skötsam,well-behaved,乖巧的,ADJ
+slutända,in the end,最终,ADV
+släpp,release,释放,NOUN
+slöjd,"craft, woodwork",手工,NOUN
+smärtfri,pain-free,无痛的,ADJ
+smärtlindring,pain relief,止痛,NOUN
+sträck,stretch,伸展,NOUN
+studion,the studio,工作室,NOUN
+ständig,constant,持续的,ADJ
+tagen,"taken, exhausted",疲惫的,ADJ
+tankare,thinker,思考者,NOUN
+tejpa,to tape,用胶带粘,VERB
+tempo,"tempo, pace",节奏,NOUN
+tidsangivelse,time indication,时间标注,NOUN
+tillföra,"to contribute, add",提供,VERB
+träningsredskap,exercise equipment,健身器材,NOUN
+tuffa,tough,艰难的,ADJ
+törst,thirst,口渴,NOUN
+undermålig,substandard,不合格的,ADJ
+uppmuntra,to encourage,鼓励,VERB
+uppvarmning,warm-up,热身,NOUN
+utanpå,on the outside,在外面,ADP
+utlösande,triggering,触发的,ADJ
+vräka,to evict,驱逐,VERB
+vägbom,road barrier,路障,NOUN
+välta,to overturn,推翻,VERB
+värdesak,valuable,贵重物品,NOUN
+vårdhem,care home,护理院,NOUN
+yoghurt,yogurt,酸奶,NOUN
+äckla,to disgust,使厌恶,VERB
+åkomma,to incur,招致,VERB
+århård,stubborn,固执的,ADJ
+återställd,restored,恢复的,ADJ
+återupprätta,"to restore, rehabilitate",恢复名誉,VERB
+ögonlock,eyelid,眼睑,NOUN
+övergiven,abandoned,被遗弃的,ADJ
+överhuvudtag,at all,完全,ADV
+överlevd,survived,幸存的,ADJ
+överlägsen,superior,优越的,ADJ
+dömma,to judge,评判,VERB
+obegriplig,incomprehensible,难以理解的,ADJ
+lant,"land, country",土地,NOUN
+uppare,bidder,竞标者,NOUN
+jämn,"even, level",平坦的,ADJ
+tjue,twenty,二十,NUM
+delare,"divider, participant",分隔者,NOUN
+sprang,"sprang, jumped",跳,VERB
+typa,to type,打字,VERB
+aren,arenas,竞技场,NOUN
+tag,"take, tag",标签,NOUN
+påläggskalv,open-faced sandwich,开放式三明治,NOUN
+klokk,clock,钟,NOUN
+sm-ordvits,"pun, wordplay",双关语,NOUN
+hälft,half,一半,NOUN
