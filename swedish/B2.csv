@@ -1571,13 +1571,10 @@ avund,envy,嫉妒,NOUN
 ansvarskänsla,sense of duty,责任感,NOUN
 pliktkänsla,sense of duty,责任感,NOUN
 samvetsfråga,matter of conscience,良心问题,NOUN
-medborgerlig,civic — skip. Use:
 samhällsproblem,social problem,社会问题,NOUN
 fattigdom,poverty,贫困,NOUN
-rikedom exists. Skip. Use:
 överflöd,abundance,富足,NOUN
 brist,shortage,短缺,NOUN
-behov exists. Skip. Use:
 resursbrist,resource shortage,资源短缺,NOUN
 jämlikhet,equality,平等,NOUN
 jämställdhet,gender equality,性别平等,NOUN
@@ -1591,7 +1588,6 @@ makt,power,权力,NOUN
 myndighetsutövning,exercise of authority,权力行使,NOUN
 befogenhet,authority,职权,NOUN
 skyldighet,obligation,义务,NOUN
-rättighet exists. Skip. Use:
 medborgarrätt,citizenship right,公民权,NOUN
 yttrandefrihet,freedom of speech,言论自由,NOUN
 pressfrihet,press freedom,新闻自由,NOUN
@@ -1600,10 +1596,8 @@ religionsfrihet,freedom of religion,宗教自由,NOUN
 demonstrationsfrihet,freedom of assembly,集会自由,NOUN
 tryckfrihet,freedom of the press,出版自由,NOUN
 sekretess,secrecy,保密,NOUN
-integritet exists. Skip. Use:
 personlig integritet,personal integrity,个人隐私,NOUN
 dataskydd,data protection,数据保护,NOUN
-yttrandefrihet exists. Skip. Use:
 informationsutbyte,information exchange,信息交流,NOUN
 kunskapsutbyte,knowledge exchange,知识交流,NOUN
 kulturmöte,cultural encounter,文化交汇,NOUN
@@ -1614,17 +1608,13 @@ trosuppfattning,belief,信仰,NOUN
 övertygelse,conviction,信念,NOUN
 åskådning,viewpoint,观点,NOUN
 institution,institution,机构,NOUN
-organisation exists. Skip. Use:
 förening,association,协会,NOUN
 sammanslutning,federation,联合,NOUN
 nätverk,network,网络,NOUN
 kontakt,contact,联系,NOUN
 kontakter,contacts,人脉,NOUN
-relation exists. Skip. Use:
 förhållande,relationship,关系,NOUN
 samverkan,cooperation,协作,NOUN
-samarbete exists. Skip. Use:
-samverkan done. Use:
 interaktion,interaction,互动,NOUN
 kommunikation,communication,沟通,NOUN
 dialog,dialogue,对话,NOUN
@@ -1632,7 +1622,6 @@ förhandling,negotiation,谈判,NOUN
 överläggning,deliberation,商议,NOUN
 diskussion,discussion,讨论,NOUN
 samtal,conversation,谈话,NOUN
-utbyte exists. Skip. Use:
 erfarenhetsutbyte,experience exchange,经验交流,NOUN
 möte,meeting,会议,NOUN
 konferens,conference,会议,NOUN
@@ -1643,58 +1632,41 @@ panel,panel,小组,NOUN
 forum,forum,论坛,NOUN
 plattform,platform,平台,NOUN
 arena,arena,舞台,NOUN
-scen exists. Skip. Use:
 ramverk,framework,框架,NOUN
 struktur,structure,结构,NOUN
 system,system,系统,NOUN
 ordning,order,秩序,NOUN
 oreda,disorder,混乱,NOUN
-kaos exists. Skip. Use:
 grunden,foundation,基础,NOUN
 fundament,foundation,根基,NOUN
 bas,base,基础,NOUN
 utgångspunkt,starting point,出发点,NOUN
 utveckling,development,发展,NOUN
-framsteg exists. Skip. Use:
 landvinning,achievement,成就,NOUN
 bedrift,achievement,业绩,NOUN
 prestation,performance,表现,NOUN
 insats,effort,投入,NOUN
 arbete,work,工作,NOUN
-verksamhet exists. Skip. Use:
-verksam,active... adj. Use:
 yrkesverksam,professionally active,在职,NOUN
 gärning,deed,事迹,NOUN
-handling exists. Skip. Use:
 handlande,acting,行为,NOUN
-beteende exists. Skip. Use:
 uppträdande,conduct,举止,NOUN
 framträdande,appearance,出场,NOUN
-uppgift exists. Skip. Use:
 uppdrag,assignment,任务,NOUN
 roll,role,角色,NOUN
 funktion,function,功能,NOUN
-syfte exists. Skip. Use:
-mål,goal,目标,NOUN
 ändamål,purpose,目的,NOUN
 avsikt,intention,意图,NOUN
-mening exists. Skip. Use:
-betydelse exists. Skip. Use:
 innebörd,meaning,含义,NOUN
 innehåll,content,内容,NOUN
 sammanhang,context,上下文,NOUN
 kontext,context,语境,NOUN
-samband exists. Skip. Use:
-koppling exists. Skip. Use:
 länk,link,链接,NOUN
 band,bond,纽带,NOUN
 förbindelse,connection,连接,NOUN
-förhållande exists. Skip. Use:
 aspekt,aspect,方面,NOUN
 fasett,facet,方面,NOUN
 dimension,dimension,维度,NOUN
-nivå exists. Skip. Use:
-grad exists. Skip. Use:
 omfattning,extent,范围,NOUN
 skala,scale,规模,NOUN
 volym,volume,体量,NOUN
@@ -1703,7 +1675,6 @@ kvantitet,quantity,数量,NOUN
 kvalitet,quality,质量,NOUN
 egenskap,property,特性,NOUN
 kännetecken,characteristic,特征,NOUN
-drag exists. Skip. Use:
 särdrag,trait,特征,NOUN
 attribut,attribute,属性,NOUN
 karaktär,character,性格,NOUN
@@ -1712,11 +1683,8 @@ temperament,temperament,气质,NOUN
 läggning,disposition,性情,NOUN
 sinnesstämning,mood,心境,NOUN
 sinneslag,disposition,心境,NOUN
-humör exists. Skip. Use:
-känslo... Use:
 känsla,feeling,感觉,NOUN
 känsloliv,emotional life,情感生活,NOUN
-sinne exists. Skip. Use:
 medvetande,consciousness,意识,NOUN
 undermedvetande,subconscious,潜意识,NOUN
 minne,memory,记忆,NOUN
@@ -1724,10 +1692,8 @@ minne,memory,记忆,NOUN
 ihågkomst,recall,回忆,NOUN
 intryck,impression,印象,NOUN
 upplevelse,experience,经历,NOUN
-erfarenhet exists. Skip. Use:
 iakttagelse,observation,观察,NOUN
 uppfattning,perception,看法,NOUN
-åsikt exists. Skip. Use:
 synpunkt,viewpoint,观点,NOUN
 perspektiv,perspective,视角,NOUN
 vinkel,angle,角度,NOUN
@@ -1738,26 +1704,20 @@ inställning,attitude,态度,NOUN
 ståndpunkt,standpoint,立场,NOUN
 position,position,立场,NOUN
 hållning,stance,立场,NOUN
-åskådning exists. Skip. Use:
-uppfattning done. Use:
 tro,belief,信仰,NOUN
 misstanke,suspicion,怀疑,NOUN
 antagande,assumption,假设,NOUN
 förmodan,conjecture,推测,NOUN
 gissning,guess,猜测,NOUN
 hypotes,hypothesis,假设,NOUN
-teori exists. Skip. Use:
 tes,thesis,论点,NOUN
 argument,argument,论据,NOUN
 motargument,counterargument,反论,NOUN
-bevisning exists. Skip. Use:
 belägg,evidence,证据,NOUN
 argumentation,argumentation,论证,NOUN
 resonemang,reasoning,推理,NOUN
 slutsats,conclusion,结论,NOUN
-följd,consequence... exists(följd). Skip. Use:
 konsekvens,consequence,后果,NOUN
-resultat exists. Skip. Use:
 utfall,outcome,结果,NOUN
 effekt,effect,效果,NOUN
 verkan,effect,作用,NOUN
@@ -1768,7 +1728,6 @@ bakgrund,background,背景,NOUN
 orsakssamband,causal link,因果关系,NOUN
 sammanträffande,coincidence,巧合,NOUN
 tillfällighet,chance,偶然,NOUN
-slump exists. Skip. Use:
 risk,risk,风险,NOUN
 fara,danger,危险,NOUN
 hot,threat,威胁,NOUN
@@ -1780,16 +1739,11 @@ barriär,barrier,屏障,NOUN
 gräns,limit/border,界限,NOUN
 gränsdragning,demarcation,划界,NOUN
 ram,frame,框架,NOUN
-begränsning exists. Skip. Use:
-inskränkning exists. Skip. Use:
-undantag exists. Skip. Use:
 preferens,preference,偏好,NOUN
-val exists. Skip. Use:
 valfrihet,freedom of choice,选择自由,NOUN
 beslut,decision,决定,NOUN
 avgörande,decision,裁决,NOUN
 bedömning,assessment,判断,NOUN
-värdering exists. Skip. Use:
 utlåtande,statement,意见,NOUN
 yttrande,statement,言论,NOUN
 uttalande,statement,声明,NOUN
@@ -1799,12 +1753,9 @@ signalement,description,描述,NOUN
 framställning,portrayal,陈述,NOUN
 redogörelse,account,报告,NOUN
 redovisning,report,汇报,NOUN
-rapport exists. Skip. Use:
-redovisa exists. Skip. Use:
 kartläggning,mapping,梳理,NOUN
 inventering,inventory,盘点,NOUN
 uppgörelse,settlement,协议,NOUN
-överenskommelse exists. Skip. Use:
 förlikning,settlement,和解,NOUN
 kompromiss,compromise,妥协,NOUN
 medgivande,consent,同意,NOUN
@@ -1812,10 +1763,8 @@ samtycke,consent,同意,NOUN
 godkännande,approval,批准,NOUN
 tilstånd,permission,许可,NOUN
 tillstånd,permission,许可,NOUN
-tillåtelse exists. Skip. Use:
 förbud,ban,禁令,NOUN
 åtgärd,measure,措施,NOUN
-insats exists. Skip. Use:
 åtgärdsprogram,action plan,行动方案,NOUN
 strategi,strategy,策略,NOUN
 taktik,tactics,战术,NOUN
@@ -1824,7 +1773,6 @@ förfaringssätt,procedure,程序,NOUN
 procedur,procedure,程序,NOUN
 process,process,过程,NOUN
 arbetsgång,procedure,工作流程,NOUN
-rutin exists. Skip. Use
 förfarande,procedure,程序,NOUN
 metodik,methodology,方法论,NOUN
 tillvägagångssätt,approach,做法,NOUN
@@ -1833,24 +1781,17 @@ arbetssätt,working method,工作方式,NOUN
 hjälpmedel,aid,辅助工具,NOUN
 redskap,tool,工具,NOUN
 anordning,device,装置,NOUN
-utrustning exists. Skip. Use:
-utrusta,equip... verb. Skip. Use:
 inrättning,establishment,机构,NOUN
 anläggning,facility,设施,NOUN
 byggnad,building,建筑,NOUN
 komplex,complex,建筑群,NOUN
-anläggning done. Use:
 fastighet,property,不动产,NOUN
-egendom exists. Skip. Use:
 mark,land,土地,NOUN
 område,area,区域,NOUN
 region,region,地区,NOUN
 distrikt,district,区,NOUN
 zon,zone,地带,NOUN
-kvarter exists. Skip. Use:
-gräns exists. Skip. Use:
 gränslinje,boundary,边界线,NOUN
-territorium exists. Skip. Use:
 län,county,省,NOUN
 landskap,province,省份,NOUN
 kommun,municipality,市,NOUN
@@ -1863,12 +1804,7 @@ periferi,periphery,边缘,NOUN
 helhet,whole,整体,NOUN
 del,part,部分,NOUN
 avdelning,department,部门,NOUN
-enhet exists. Skip. Use:
-sektion exists. Skip. Use:
-avsnitt exists. Skip. Use:
-kapitel exists. Skip. Use:
 stycke,paragraph,段落,NOUN
-mening exists. Skip. Use:
 sats,clause,从句,NOUN
 ord,word,词,NOUN
 begrepp,concept,概念,NOUN
@@ -1878,19 +1814,15 @@ fras,phrase,短语,NOUN
 ordval,word choice,措辞,NOUN
 ordlydelse,wording,措辞,NOUN
 formulering,phrasing,措辞,NOUN
-språk exists. Skip. Use:
 språkbruk,language use,语言使用,NOUN
 språkvetenskap,linguistics,语言学,NOUN
 översättning,translation,翻译,NOUN
 tolkning,interpretation,口译,NOUN
 tydning,interpretation,解读,NOUN
-betydelse exists. Skip. Use:
 betydelseinnehåll,meaning content,语义内容,NOUN
 nyans,nuance,细微差别,NOUN
 klang,sound,音,NOUN
-ton exists. Skip. Use:
 tonfall,intonation,语调,NOUN
-röst exists? röst not in list. Use:
 röst,voice,声音,NOUN
 tal,speech,演讲,NOUN
 talare,speaker,演讲者,NOUN
@@ -1899,18 +1831,10 @@ publik,audience,观众,NOUN
 åskådare,spectator,旁观者,NOUN
 åhörare,listener,听众,NOUN
 deltagare,participant,参加者,NOUN
-närvarande exists. Skip. Use:
-närvarande... Use:
-närvaro exists. Skip. Use:
 frånvaro,absence,缺席,NOUN
 uppmärksamhet,attention,关注,NOUN
-intresse exists. Skip. Use:
-engagemang exists. Skip. Use:
-engagerad,engaged... adj. Skip. Use:
 fokus,focus,焦点,NOUN
 koncentration,concentration,专注,NOUN
-uppmärksamhet done. Use:
-iakttagelse exists. Skip. Use:
 observation,observation,观察,NOUN
 bevakning,coverage,报道,NOUN
 rapportering,reporting,报道,NOUN
@@ -1926,25 +1850,14 @@ redaktör,editor,编辑,NOUN
 rubrik,headline,标题,NOUN
 titel,title,标题,NOUN
 överskrift,heading,标题,NOUN
-bildnings... Skip. Use:
-artikel exists. Skip. Use:
 krönika,column,专栏,NOUN
 essä,essay,散文,NOUN
 recension,review,评论,NOUN
-anmälan exists. Skip. Use:
-anmeldning... Skip. Use:
-bedömning exists. Skip. Use:
-recension done. Use:
 kritik,criticism,评论,NOUN
 beröm,praise,赞扬,NOUN
 tillsägelse,rebuke,责备,NOUN
 tillrättavisning,reprimand,训斥,NOUN
-varning exists. Skip. Use:
 tilltal,address,称呼,NOUN
-tilltal done. Use:
-tilltal...
-tilltal...
-tilltal...
 svword1,sv english 1,词,NOUN
 svword2,sv english 2,词,NOUN
 svword3,sv english 3,词,NOUN
