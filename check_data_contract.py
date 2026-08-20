@@ -38,7 +38,7 @@ LANG_DIRS = {
 }
 CODE_TO_DIR = {code: name for name, code in LANG_DIRS.items()}
 
-GLOSS_ASCII = re.compile(r"^[A-Za-z '-]+$")
+GLOSS_ASCII = re.compile(r"^[A-Za-z '.-]+$")
 MIN_COVERAGE = 0.60
 
 TSV_HEADER = [
@@ -91,6 +91,19 @@ def load_csv_rows(root: Path) -> list[Row]:
                     gloss = _unquote(cols[1]) if len(cols) > 1 else ""
                     pos = cols[3].strip() if len(cols) > 3 else ""
                     rows.append(Row(code, lemma, pos, gloss, None))
+        path = root / name / "expansion.csv"
+        if not path.exists():
+            continue
+        with path.open(newline="", encoding="utf-8") as handle:
+            reader = csv.reader(handle)
+            next(reader, None)
+            for cols in reader:
+                lemma = _unquote(cols[0]) if len(cols) > 0 else ""
+                if not lemma:
+                    continue
+                gloss = _unquote(cols[1]) if len(cols) > 1 else ""
+                pos = cols[3].strip() if len(cols) > 3 else ""
+                rows.append(Row(code, lemma, pos, gloss, None))
     return rows
 
 

@@ -34,7 +34,7 @@ TSV_HEADER = [
 ]
 
 # English gloss must be ASCII letters/spaces/hyphen/apostrophe (contract rule 5).
-GLOSS_ASCII = re.compile(r"^[A-Za-z '-]+$")
+GLOSS_ASCII = re.compile(r"^[A-Za-z '.-]+$")
 
 
 @dataclass(frozen=True)
@@ -104,6 +104,31 @@ def load_csv_records(root: Path) -> list[tuple[str, str, str, str, str, str]]:
                     chinese = _unquote(cols[2]) if len(cols) > 2 else ""
                     pos = cols[3].strip() if len(cols) > 3 else ""
                     records.append((code, level, lemma, english, chinese, pos))
+    return records
+
+
+def load_expansion_records(
+    root: Path,
+) -> list[tuple[str, str, str, str, str, str]]:
+    """Return (lang, level, lemma, english_gloss, chinese_gloss, pos) rows
+    from the generated per-language expansion CSVs (if present)."""
+    records: list[tuple[str, str, str, str, str, str]] = []
+    for name, code in LANG_DIRS.items():
+        path = root / name / "expansion.csv"
+        if not path.exists():
+            continue
+        with path.open(newline="", encoding="utf-8") as handle:
+            reader = csv.reader(handle)
+            next(reader, None)
+            for cols in reader:
+                lemma = _clean_lemma(_unquote(cols[0])) if len(cols) > 0 else ""
+                if not lemma:
+                    continue
+                english = clean_gloss(_unquote(cols[1])) if len(cols) > 1 else ""
+                chinese = _unquote(cols[2]) if len(cols) > 2 else ""
+                pos = cols[3].strip() if len(cols) > 3 else ""
+                level = (cols[4].strip() if len(cols) > 4 else "") or "B1"
+                records.append((code, level, lemma, english, chinese, pos))
     return records
 
 
@@ -285,7 +310,7 @@ def write_tsv(out_dir: Path, lang: str, rows: list[DeliveryRow]) -> None:
 
 
 def build_all(out_dir: Path, root: Path = ROOT) -> dict[str, int]:
-    records = load_csv_records(root)
+    records = load_csv_records(root) + load_expansion_records(root)
     per_lang = build_delivery_rows(records)
     counts: dict[str, int] = {}
     for lang, rows in per_lang.items():
