@@ -28,7 +28,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 亮,bright,亮,ADJ
 亲戚,relative,亲戚,NOUN
 人民币,Renminbi,人民币,NOUN
-亿,100 million,亿,NUM
+亿,hundred million,亿,NUM
 仍然,still,仍然,ADV
 从来,always,从来,ADV
 仔细,careful,仔细,ADJ
@@ -142,7 +142,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 否则,otherwise,否则,CCONJ
 吵,to quarrel,吵,VERB
 吸引,to attract,吸引,VERB
-呀,(particle equivalent to 啊 after a vowel),呀,PART
+呀,oh,呀,PART
 周围,surroundings,周围,NOUN
 味道,flavor,味道,NOUN
 咱们,we or us (including both the speaker and the person(s) spoken to),咱们,PRON
@@ -254,7 +254,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 成为,to become,成为,VERB
 成功,success,成功,NOUN
 成熟,mature,成熟,ADJ
-戴,"to wear (glasses, hat, etc.)",戴,VERB
+戴,to wear,戴,VERB
 所有,all,所有,DET
 打印,to print,打印,VERB
 打扮,to dress up,打扮,VERB
@@ -597,88 +597,88 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 突然,suddenly,突然,ADV
 慢慢,slowly,慢慢,ADV
 很快,quickly,很快,ADV
-打,,打,VERB
-狐狸,,狐狸,NOUN
-这样,,这样,PRON
-夙砂,,夙砂,NOUN
-见,,见,VERB
-若,,若,ADP
-陛下,,陛下,NOUN
-被,,被,AUX
-该,,该,ADV
-爷,,爷,PART
-早,,早,ADV
-正念,,正念,VERB
-一战,,一战,VERB
-这里,,这里,PRON
-等,,等,NOUN
-找到,,找到,VERB
-庄,,庄,PART
-殿下,,殿下,NOUN
-此,,此,PRON
-都尉,,都尉,NOUN
-皇兄,,皇兄,NOUN
-未,,未,ADV
-爹,,爹,PART
-活,,活,VERB
-必,,必,AUX
-营,,营,PART
-和亲,,和亲,VERB
-道,,道,VERB
-眼,,眼,PART
-府,,府,NOUN
-看看,,看看,VERB
-许,,许,VERB
-父皇,,父皇,NOUN
-替,,替,VERB
-话,,话,NOUN
-帮,,帮,VERB
-子,,子,NOUN
-凤字,,凤字,NOUN
-生,,生,PART
-母,,母,NOUN
-就算,,就算,ADP
-那么,,那么,ADV
-真的,,真的,ADV
-一点,,一点,ADJ
-战,,战,VERB
-叔父,,叔父,NOUN
-王爷,,王爷,NOUN
-起,,起,VERB
-的话,,的话,PART
-宝剑,,宝剑,NOUN
-剑法,,剑法,NOUN
-记,,记,VERB
-边,,边,NOUN
-啦,,啦,VERB
-送给,,送给,VERB
-这些,,这些,DET
-日子,,日子,NOUN
-步,,步,VERB
-药材,,药材,NOUN
-振,,振,VERB
-眼下,,眼下,NOUN
-失忆,,失忆,VERB
-湖,,湖,PART
-碧眼,,碧眼,NOUN
-若是,,若是,ADP
-神,,神,PART
-身边,,身边,NOUN
-放开,,放开,VERB
-山庄,,山庄,NOUN
-王,,王,PART
-一箭,,一箭,VERB
-此事,,此事,NOUN
-你说,,你说,VERB
-我要,,我要,ADP
-我想,,我想,VERB
-快走,,快走,VERB
-我说,,我说,VERB
-还有,,还有,VERB
-方才,,方才,NOUN
-我看,,我看,VERB
-真不,,真不,ADV
-这事,,这事,NOUN
-想干,,想干,VERB
-况,,况,PART
-凤随,,凤随,VERB
+打,to hit,打,VERB
+狐狸,fox,狐狸,NOUN
+这样,this way,这样,PRON
+夙砂,Su Sha,夙砂,NOUN
+见,to see,见,VERB
+若,if,若,ADP
+陛下,Your Majesty,陛下,NOUN
+被,by,被,AUX
+该,should,该,ADV
+爷,master,爷,PART
+早,early,早,ADV
+正念,to recite,正念,VERB
+一战,to fight,一战,VERB
+这里,here,这里,PRON
+等,wait,等,NOUN
+找到,to find,找到,VERB
+庄,manor,庄,PART
+殿下,Your Highness,殿下,NOUN
+此,this,此,PRON
+都尉,commander,都尉,NOUN
+皇兄,imperial brother,皇兄,NOUN
+未,not yet,未,ADV
+爹,father,爹,PART
+活,to live,活,VERB
+必,must,必,AUX
+营,camp,营,PART
+和亲,to make peace,和亲,VERB
+道,to say,道,VERB
+眼,eye,眼,PART
+府,mansion,府,NOUN
+看看,to look,看看,VERB
+许,to permit,许,VERB
+父皇,imperial father,父皇,NOUN
+替,to replace,替,VERB
+话,word,话,NOUN
+帮,to help,帮,VERB
+子,son,子,NOUN
+凤字,phoenix character,凤字,NOUN
+生,life,生,PART
+母,mother,母,NOUN
+就算,even if,就算,ADP
+那么,so,那么,ADV
+真的,really,真的,ADV
+一点,a little,一点,ADJ
+战,to fight,战,VERB
+叔父,uncle,叔父,NOUN
+王爷,prince,王爷,NOUN
+起,to rise,起,VERB
+的话,if,的话,PART
+宝剑,sword,宝剑,NOUN
+剑法,swordsmanship,剑法,NOUN
+记,to remember,记,VERB
+边,side,边,NOUN
+啦,to be,啦,VERB
+送给,to give,送给,VERB
+这些,these,这些,DET
+日子,day,日子,NOUN
+步,to step,步,VERB
+药材,herb,药材,NOUN
+振,to shake,振,VERB
+眼下,present,眼下,NOUN
+失忆,to forget,失忆,VERB
+湖,lake,湖,PART
+碧眼,green eye,碧眼,NOUN
+若是,if,若是,ADP
+神,spirit,神,PART
+身边,side,身边,NOUN
+放开,to release,放开,VERB
+山庄,villa,山庄,NOUN
+王,king,王,PART
+一箭,to shoot,一箭,VERB
+此事,matter,此事,NOUN
+你说,to say,你说,VERB
+我要,want,我要,ADP
+我想,to think,我想,VERB
+快走,to hurry,快走,VERB
+我说,to say,我说,VERB
+还有,to have,还有,VERB
+方才,moment,方才,NOUN
+我看,to think,我看,VERB
+真不,really not,真不,ADV
+这事,this matter,这事,NOUN
+想干,to do,想干,VERB
+况,besides,况,PART
+凤随,to follow,凤随,VERB

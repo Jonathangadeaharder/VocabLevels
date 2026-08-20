@@ -391,7 +391,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 不到,cannot reach,不到,VERB
 不去,not go,不去,VERB
 不可,cannot,不可,AUX
-不可思议,inconceivable (idiom); unimaginable,不可思议,ADJ
+不可思议,inconceivable unimaginable,不可思议,ADJ
 不吃,don't eat,不吃,VERB
 不同,different,不同,ADJ
 不在乎,don't care,不在乎,VERB
@@ -559,12 +559,12 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 书记,secretary,书记,NOUN
 书面,in writing,书面,NOUN
 买下,buy,买下,VERB
-买卖,business; trade,买卖,NOUN
-乱来,to act wildly; to act recklessly,乱来,VERB
-予以,to give; to grant,予以,VERB
+买卖,business trade,买卖,NOUN
+乱来,to act wildly to act recklessly,乱来,VERB
+予以,to give to grant,予以,VERB
 争先恐后,striving to be first and fearing to be last,争先恐后,VERB
-争夺,to fight over; to vie for,争夺,VERB
-争气,to work hard for sth; to strive for success,争气,VERB
+争夺,to fight over to vie for,争夺,VERB
+争气,to work hard for sth to strive for success,争气,VERB
 争端,dispute,争端,NOUN
 争议,controversy,争议,NOUN
 事,matter,事,NOUN
@@ -1335,7 +1335,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 品质,quality,品质,NOUN
 哄,to roar with laughter,哄,VERB
 哆嗦,to tremble,哆嗦,VERB
-哇,wa (modal particle replacing 啊 after 'u' or 'ao'),哇,PART
+哇,oh,哇,PART
 哈哈,haha,哈哈,INTJ
 哈啰,hello,哈啰,INTJ
 哈罗,hello,哈罗,INTJ
@@ -1999,425 +1999,425 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 相对而言,relatively speaking,相对而言,ADV
 论点,argument,论点,NOUN
 论据,argument,论据,NOUN
-修练,,修练,VERB
-提督,,提督,NOUN
-兵器,,兵器,NOUN
-玩儿,,玩儿,VERB
-湖上,,湖上,NOUN
-做到,,做到,VERB
-服,,服,VERB
-跳,,跳,VERB
-娘,,娘,PART
-长大,,长大,VERB
-物,,物,NOUN
-玉府,,玉府,NOUN
-碧,,碧,NOUN
-仇,,仇,NOUN
-求见,,求见,VERB
-想必,,想必,VERB
-福气,,福气,NOUN
-倒是,,倒是,ADV
-……,,……,VERB
-盯,,盯,VERB
-时,,时,ADP
-查,,查,VERB
-怪罪,,怪罪,VERB
-枉,,枉,VERB
-招,,招,NOUN
-意,,意,NOUN
-怨,,怨,NOUN
-不多,,不多,ADJ
-孩儿,,孩儿,NOUN
-碰,,碰,VERB
-有力,,有力,ADJ
-病,,病,NOUN
-我来,,我来,VERB
-去吧,,去吧,VERB
-带去,,带去,VERB
-敢问,,敢问,VERB
-何尝,,何尝,VERB
-只会,,只会,ADV
-鹤,,鹤,PART
-海,,海,NOUN
-睡,,睡,VERB
-祸,,祸,NOUN
-罢,,罢,VERB
-配,,配,VERB
-止,,止,VERB
-拿回,,拿回,VERB
-云放,,云放,VERB
-追,,追,VERB
-别吵,,别吵,VERB
-慢点,,慢点,ADV
-伤得,,伤得,VERB
-外伤,,外伤,NOUN
-下落,,下落,NOUN
-搜,,搜,VERB
-回京,,回京,VERB
-发难,,发难,VERB
-留下,,留下,VERB
-症,,症,PART
-药池,,药池,NOUN
-进去,,进去,VERB
-毕,,毕,VERB
-杀你,,杀你,VERB
-轻易,,轻易,ADJ
-带走,,带走,VERB
-马车,,马车,NOUN
-战功,,战功,NOUN
-应当,,应当,AUX
-计,,计,VERB
-先回,,先回,VERB
-恭,,恭,VERB
-问话,,问话,VERB
-娘娘,,娘娘,NOUN
-二弟,,二弟,NOUN
-城门,,城门,NOUN
-之时,,之时,ADP
-后母,,后母,NOUN
-睡着,,睡着,VERB
-敌国,,敌国,NOUN
-笔,,笔,NOUN
-沉重,,沉重,ADJ
-通敌,,通敌,NOUN
-绑,,绑,VERB
-击,,击,NOUN
-太医,,太医,NOUN
-痊,,痊,VERB
-出城,,出城,VERB
-暗卫,,暗卫,NOUN
-侄儿,,侄儿,NOUN
-镖局,,镖局,NOUN
-路过,,路过,VERB
-闭关,,闭关,NOUN
-清静,,清静,ADJ
-境地,,境地,NOUN
-得道,,得道,VERB
-交给,,交给,VERB
-先去,,先去,VERB
-退出,,退出,VERB
-合,,合,VERB
-招牌,,招牌,NOUN
-交出,,交出,VERB
-太小,,太小,ADJ
-那样,,那样,PRON
-客,,客,NOUN
-大名,,大名,NOUN
-象,,象,ADP
-原,,原,PART
-星,,星,NOUN
-通,,通,VERB
-谓,,谓,VERB
-朝廷,,朝廷,NOUN
-烦,,烦,ADJ
-我困,,我困,VERB
-贼,,贼,NOUN
-练功,,练功,VERB
-儿去,,儿去,VERB
-干嘛,,干嘛,VERB
-好象,,好象,NOUN
-联姻,,联姻,VERB
-打斗,,打斗,VERB
-儿对,,儿对,ADP
-捕头,,捕头,NOUN
-犯,,犯,VERB
-贸然,,贸然,ADV
-乎,,乎,PRON
-嘛,,嘛,PART
-心诀,,心诀,NOUN
-冤,,冤,VERB
-一身,,一身,VERB
-除掉,,除掉,VERB
-官差,,官差,NOUN
-府里,,府里,NOUN
-福晋,,福晋,NOUN
-费心,,费心,VERB
-有的,,有的,ADV
-连累,,连累,VERB
-饶,,饶,VERB
-人心,,人心,NOUN
-尚,,尚,ADV
-跟随,,跟随,VERB
-失,,失,VERB
-别动,,别动,VERB
-父母,,父母,NOUN
-灵,,灵,NOUN
-迟,,迟,ADV
-我回,,我回,PRON
-劳,,劳,NOUN
-失敬,,失敬,VERB
-杯,,杯,NOUN
-世间,,世间,NOUN
-握,,握,VERB
-诚心,,诚心,VERB
-客官,,客官,NOUN
-曾,,曾,ADV
-小子,,小子,NOUN
-闭,,闭,VERB
-隐瞒,,隐瞒,VERB
-甘心,,甘心,VERB
-金,,金,NOUN
-转,,转,VERB
-动气,,动气,VERB
-刺客,,刺客,NOUN
-大军,,大军,NOUN
-赠,,赠,VERB
-胆敢,,胆敢,VERB
-遂,,遂,SCONJ
-见人,,见人,VERB
-士,,士,PART
-将领,,将领,NOUN
-破开,,破开,VERB
-主和,,主和,VERB
-定会,,定会,AUX
-逢,,逢,VERB
-坠落,,坠落,VERB
-药效,,药效,NOUN
-数,,数,PART
-郎,,郎,PART
-救人,,救人,VERB
-高处,,高处,NOUN
-头上,,头上,NOUN
-费力,,费力,ADJ
-毫无,,毫无,VERB
-池,,池,PART
-赌,,赌,VERB
-奇效,,奇效,NOUN
-此处,,此处,NOUN
-要干,,要干,VERB
-细,,细,NOUN
-说法,,说法,NOUN
-功臣,,功臣,NOUN
-攻下,,攻下,VERB
-座,,座,NOUN
-义父,,义父,NOUN
-这般,,这般,ADJ
-老奴,,老奴,NOUN
-众,,众,NOUN
-朕,,朕,NOUN
-死地,,死地,NOUN
-石,,石,PART
-肉,,肉,PART
-落得,,落得,VERB
-死去,,死去,VERB
-解开,,解开,VERB
-谜,,谜,NOUN
-圣帝,,圣帝,NOUN
-只能,,只能,AUX
-看到,,看到,VERB
-端,,端,PART
-败仗,,败仗,NOUN
-文武,,文武,NOUN
-顽抗,,顽抗,ADJ
-废,,废,VERB
-拦住,,拦住,VERB
-仗,,仗,VERB
-攻城,,攻城,NOUN
-造反,,造反,VERB
-补偿,,补偿,NOUN
-退兵,,退兵,NOUN
-陛,,陛,VERB
-日后,,日后,NOUN
-需,,需,AUX
-勇善,,勇善,VERB
-母后,,母后,NOUN
-某些,,某些,DET
-词,,词,NOUN
-嬷嬷,,嬷嬷,NOUN
-忧,,忧,NOUN
-找出,,找出,VERB
-费,,费,VERB
-退下,,退下,VERB
-答,,答,VERB
-鞭,,鞭,NOUN
-兵力,,兵力,NOUN
-开战,,开战,VERB
-伏兵,,伏兵,NOUN
-城中,,城中,NOUN
-服侍,,服侍,NOUN
-就是,,就是,SCONJ
-善,,善,ADJ
-别哭,,别哭,VERB
-家中,,家中,NOUN
-等等,,等等,NOUN
-吃饭,,吃饭,VERB
-狠,,狠,ADJ
-人情,,人情,NOUN
-险境,,险境,NOUN
-耽搁,,耽搁,VERB
-暗讯,,暗讯,VERB
-惹来,,惹来,VERB
-镖,,镖,NOUN
-可别,,可别,AUX
-莫非,,莫非,VERB
-沉,,沉,VERB
-剑柄,,剑柄,NOUN
-过兵,,过兵,VERB
-我爹,,我爹,NOUN
-再好,,再好,ADJ
-恩兄,,恩兄,NOUN
-武,,武,PART
-玉大,,玉大,NOUN
-来人,,来人,NOUN
-武当,,武当,NOUN
-给我,,给我,VERB
-一回,,一回,VERB
-你爹,,你爹,NOUN
-娇龙……,,娇龙……,NOUN
-刘爷,,刘爷,NOUN
-这碧,,这碧,NOUN
-就别,,就别,VERB
-蹊跷,,蹊跷,ADJ
-你……,,你……,PRON
-你盗,,你盗,NOUN
-你管,,你管,VERB
-那倒,,那倒,ADV
-你给,,你给,VERB
-再等,,再等,VERB
-我错,,我错,VERB
-娇龙,,娇龙,NOUN
-碰女,,碰女,VERB
-你听,,你听,VERB
-等你,,等你,VERB
-找你,,找你,VERB
-让你,,让你,AUX
-我会,,我会,PRON
-你真,,你真,PRON
-我手,,我手,NOUN
-败将,,败将,NOUN
-里何尝,,里何尝,VERB
-边请,,边请,VERB
-神拳,,神拳,NOUN
-在此,,在此,VERB
-明日,,明日,NOUN
-丫头,,丫头,NOUN
-闭嘴,,闭嘴,VERB
-通通,,通通,ADV
-又来,,又来,VERB
-容,,容,VERB
-迷香,,迷香,NOUN
-解方,,解方,NOUN
-紫阴针,,紫阴针,NOUN
-不难,,不难,ADV
-垂成,,垂成,VERB
-之战,,之战,VERB
-躲,,躲,VERB
-你可算,,你可算,VERB
-找人,,找人,VERB
-凤字营,,凤字营,NOUN
-放心吧,,放心吧,NOUN
-事我,,事我,NOUN
-死要,,死要,VERB
-中箭,,中箭,VERB
-更何况,,更何况,VERB
-社稷,,社稷,NOUN
-老夫,,老夫,NOUN
-她定,,她定,PRON
-也要,,也要,AUX
-那日,,那日,NOUN
-赌一,,赌一,VERB
-你慢,,你慢,PRON
-拿着,,拿着,VERB
-干什么,,干什么,VERB
-做派,,做派,VERB
-水 水,,水 水,PART
-你为,,你为,PRON
-记住,,记住,VERB
-何人,,何人,PRON
-都会,,都会,AUX
-又何,,又何,ADV
-我就,,我就,SCONJ
-而你,,而你,SCONJ
-便会,,便会,AUX
-谁敢,,谁敢,NOUN
-畏,,畏,VERB
-子民,,子民,NOUN
-却落得,,却落得,VERB
-会讨,,会讨,VERB
-上药,,上药,VERB
-你莫要,,你莫要,PRON
-我不杀你,,我不杀你,PRON
-亲眼,,亲眼,ADV
-怎会,,怎会,AUX
-无凭,,无凭,VERB
-但他,,但他,SCONJ
-若要,,若要,AUX
-甘,,甘,VERB
-加冠,,加冠,VERB
-大皇子,,大皇子,NOUN
-奸细,,奸细,NOUN
-每个,,每个,DET
-头颅,,头颅,NOUN
-我不信,,我不信,VERB
-庄大人,,庄大人,NOUN
-选,,选,VERB
-冠之,,冠之,NOUN
-对了,,对了,VERB
-罪,,罪,NOUN
-他说,,他说,VERB
-和你,,和你,VERB
-走得,,走得,VERB
-你好,,你好,PRON
-你若,,你若,PRON
-您真,,您真,NOUN
-就拿,,就拿,VERB
-随歌,,随歌,VERB
-我若,,我若,SCONJ
-争权,,争权,VERB
-好 好,,好 好,ADJ
-都说,,都说,VERB
-我都,,我都,PRON
-受委,,受委,VERB
-每一,,每一,DET
-你放心,,你放心,VERB
-他是,,他是,PRON
-喊杀,,喊杀,VERB
-好歹,,好歹,PRON
-你想,,你想,PRON
-挖出,,挖出,VERB
-此刻,,此刻,NOUN
-那她,,那她,PRON
-来 来,,来 来,SCONJ
-再拿,,再拿,VERB
-我打,,我打,VERB
-就像,,就像,ADP
-托付,,托付,VERB
-凤随歌,,凤随歌,NOUN
-要想,,要想,AUX
-我笑,,我笑,VERB
-将死,,将死,VERB
-那要,,那要,VERB
-伤兵,,伤兵,NOUN
-务,,务,VERB
-有劳,,有劳,VERB
-记不,,记不,VERB
-快点,,快点,VERB
-带你,,带你,VERB
-国色,,国色,NOUN
-也对,,也对,ADP
-去哪儿,,去哪儿,NOUN
-我听话,,我听话,NOUN
-派人,,派人,VERB
-别怕,,别怕,VERB
-动筷,,动筷,VERB
-正念山庄,,正念山庄,NOUN
-你该,,你该,ADV
-害你,,害你,VERB
-了吧,,了吧,PART
-用得,,用得,VERB
-烤羊,,烤羊,VERB
-你冤枉,,你冤枉,NOUN
-老秦,,老秦,NOUN
-你没事吧,,你没事吧,NOUN
-国书,,国书,NOUN
-连你,,连你,PRON
-府上,,府上,NOUN
-别丢下,,别丢下,VERB
-小九,,小九,NOUN
-去追,,去追,VERB
-难不成,,难不成,ADJ
-放下,,放下,VERB
-放我,,放我,VERB
-即刻,,即刻,ADV
-这是,,这是,ADP
-到了,,到了,VERB
+修练,to cultivate,修练,VERB
+提督,admiral,提督,NOUN
+兵器,weapon,兵器,NOUN
+玩儿,to play,玩儿,VERB
+湖上,lakeside,湖上,NOUN
+做到,to achieve,做到,VERB
+服,to submit,服,VERB
+跳,to jump,跳,VERB
+娘,mother,娘,PART
+长大,to grow up,长大,VERB
+物,thing,物,NOUN
+玉府,jade palace,玉府,NOUN
+碧,jade,碧,NOUN
+仇,grudge,仇,NOUN
+求见,to seek audience,求见,VERB
+想必,to presume,想必,VERB
+福气,blessing,福气,NOUN
+倒是,actually,倒是,ADV
+……,to pause,……,VERB
+盯,to stare,盯,VERB
+时,when,时,ADP
+查,to check,查,VERB
+怪罪,to blame,怪罪,VERB
+枉,to wrong,枉,VERB
+招,move,招,NOUN
+意,intent,意,NOUN
+怨,resentment,怨,NOUN
+不多,few,不多,ADJ
+孩儿,child,孩儿,NOUN
+碰,to touch,碰,VERB
+有力,powerful,有力,ADJ
+病,illness,病,NOUN
+我来,to come,我来,VERB
+去吧,to go,去吧,VERB
+带去,to take,带去,VERB
+敢问,to ask,敢问,VERB
+何尝,to ever,何尝,VERB
+只会,only,只会,ADV
+鹤,crane,鹤,PART
+海,sea,海,NOUN
+睡,to sleep,睡,VERB
+祸,disaster,祸,NOUN
+罢,to stop,罢,VERB
+配,to match,配,VERB
+止,to stop,止,VERB
+拿回,to take back,拿回,VERB
+云放,to release,云放,VERB
+追,to chase,追,VERB
+别吵,to hush,别吵,VERB
+慢点,slowly,慢点,ADV
+伤得,to wound,伤得,VERB
+外伤,wound,外伤,NOUN
+下落,whereabouts,下落,NOUN
+搜,to search,搜,VERB
+回京,to return,回京,VERB
+发难,to attack,发难,VERB
+留下,to leave,留下,VERB
+症,symptom,症,PART
+药池,medicine pool,药池,NOUN
+进去,to go in,进去,VERB
+毕,to finish,毕,VERB
+杀你,to kill you,杀你,VERB
+轻易,easy,轻易,ADJ
+带走,to take away,带走,VERB
+马车,carriage,马车,NOUN
+战功,merit,战功,NOUN
+应当,should,应当,AUX
+计,to plan,计,VERB
+先回,to return first,先回,VERB
+恭,to honor,恭,VERB
+问话,to question,问话,VERB
+娘娘,empress,娘娘,NOUN
+二弟,second brother,二弟,NOUN
+城门,city gate,城门,NOUN
+之时,when,之时,ADP
+后母,stepmother,后母,NOUN
+睡着,to fall asleep,睡着,VERB
+敌国,enemy state,敌国,NOUN
+笔,brush,笔,NOUN
+沉重,heavy,沉重,ADJ
+通敌,treason,通敌,NOUN
+绑,to bind,绑,VERB
+击,strike,击,NOUN
+太医,imperial physician,太医,NOUN
+痊,to heal,痊,VERB
+出城,to depart,出城,VERB
+暗卫,shadow guard,暗卫,NOUN
+侄儿,nephew,侄儿,NOUN
+镖局,escort agency,镖局,NOUN
+路过,to pass by,路过,VERB
+闭关,seclusion,闭关,NOUN
+清静,quiet,清静,ADJ
+境地,predicament,境地,NOUN
+得道,to attain enlightenment,得道,VERB
+交给,to hand over,交给,VERB
+先去,to go first,先去,VERB
+退出,to withdraw,退出,VERB
+合,to close,合,VERB
+招牌,signboard,招牌,NOUN
+交出,to surrender,交出,VERB
+太小,too small,太小,ADJ
+那样,that way,那样,PRON
+客,guest,客,NOUN
+大名,full name,大名,NOUN
+象,like,象,ADP
+原,originally,原,PART
+星,star,星,NOUN
+通,to pass through,通,VERB
+谓,to call,谓,VERB
+朝廷,imperial court,朝廷,NOUN
+烦,annoying,烦,ADJ
+我困,to be sleepy,我困,VERB
+贼,thief,贼,NOUN
+练功,to practice,练功,VERB
+儿去,to go,儿去,VERB
+干嘛,to do what,干嘛,VERB
+好象,likeness,好象,NOUN
+联姻,to intermarry,联姻,VERB
+打斗,to fight,打斗,VERB
+儿对,to,儿对,ADP
+捕头,constable,捕头,NOUN
+犯,to commit,犯,VERB
+贸然,rashly,贸然,ADV
+乎,who,乎,PRON
+嘛,indeed,嘛,PART
+心诀,mantra,心诀,NOUN
+冤,to wrong,冤,VERB
+一身,to be,一身,VERB
+除掉,to eliminate,除掉,VERB
+官差,constable,官差,NOUN
+府里,residence,府里,NOUN
+福晋,consort,福晋,NOUN
+费心,to trouble,费心,VERB
+有的,sometimes,有的,ADV
+连累,to implicate,连累,VERB
+饶,to spare,饶,VERB
+人心,morale,人心,NOUN
+尚,still,尚,ADV
+跟随,to follow,跟随,VERB
+失,to lose,失,VERB
+别动,to stay,别动,VERB
+父母,parent,父母,NOUN
+灵,spirit,灵,NOUN
+迟,late,迟,ADV
+我回,I,我回,PRON
+劳,labor,劳,NOUN
+失敬,to apologize,失敬,VERB
+杯,cup,杯,NOUN
+世间,world,世间,NOUN
+握,to grip,握,VERB
+诚心,to mean,诚心,VERB
+客官,guest,客官,NOUN
+曾,once,曾,ADV
+小子,boy,小子,NOUN
+闭,to close,闭,VERB
+隐瞒,to conceal,隐瞒,VERB
+甘心,to accept,甘心,VERB
+金,gold,金,NOUN
+转,to turn,转,VERB
+动气,to get angry,动气,VERB
+刺客,assassin,刺客,NOUN
+大军,army,大军,NOUN
+赠,to give,赠,VERB
+胆敢,to dare,胆敢,VERB
+遂,so,遂,SCONJ
+见人,to meet,见人,VERB
+士,warrior,士,PART
+将领,general,将领,NOUN
+破开,to break open,破开,VERB
+主和,to seek peace,主和,VERB
+定会,will surely,定会,AUX
+逢,to meet,逢,VERB
+坠落,to fall,坠落,VERB
+药效,potency,药效,NOUN
+数,several,数,PART
+郎,sir,郎,PART
+救人,to save,救人,VERB
+高处,height,高处,NOUN
+头上,head,头上,NOUN
+费力,laborious,费力,ADJ
+毫无,to lack,毫无,VERB
+池,pool,池,PART
+赌,to bet,赌,VERB
+奇效,miracle,奇效,NOUN
+此处,here,此处,NOUN
+要干,to do,要干,VERB
+细,detail,细,NOUN
+说法,claim,说法,NOUN
+功臣,hero,功臣,NOUN
+攻下,to capture,攻下,VERB
+座,seat,座,NOUN
+义父,godfather,义父,NOUN
+这般,such,这般,ADJ
+老奴,old servant,老奴,NOUN
+众,crowd,众,NOUN
+朕,I,朕,NOUN
+死地,death trap,死地,NOUN
+石,stone,石,PART
+肉,flesh,肉,PART
+落得,to end up,落得,VERB
+死去,to die,死去,VERB
+解开,to untie,解开,VERB
+谜,riddle,谜,NOUN
+圣帝,emperor,圣帝,NOUN
+只能,can only,只能,AUX
+看到,to see,看到,VERB
+端,end,端,PART
+败仗,defeat,败仗,NOUN
+文武,officials,文武,NOUN
+顽抗,defiant,顽抗,ADJ
+废,to depose,废,VERB
+拦住,to block,拦住,VERB
+仗,to fight,仗,VERB
+攻城,siege,攻城,NOUN
+造反,to rebel,造反,VERB
+补偿,compensation,补偿,NOUN
+退兵,retreat,退兵,NOUN
+陛,to ascend,陛,VERB
+日后,afterward,日后,NOUN
+需,must,需,AUX
+勇善,to be brave,勇善,VERB
+母后,empress dowager,母后,NOUN
+某些,certain,某些,DET
+词,word,词,NOUN
+嬷嬷,nanny,嬷嬷,NOUN
+忧,anxiety,忧,NOUN
+找出,to find,找出,VERB
+费,to cost,费,VERB
+退下,to withdraw,退下,VERB
+答,to answer,答,VERB
+鞭,whip,鞭,NOUN
+兵力,troops,兵力,NOUN
+开战,to wage war,开战,VERB
+伏兵,ambush,伏兵,NOUN
+城中,city,城中,NOUN
+服侍,service,服侍,NOUN
+就是,that is,就是,SCONJ
+善,good,善,ADJ
+别哭,to not cry,别哭,VERB
+家中,home,家中,NOUN
+等等,etc,等等,NOUN
+吃饭,to eat,吃饭,VERB
+狠,fierce,狠,ADJ
+人情,favor,人情,NOUN
+险境,peril,险境,NOUN
+耽搁,to delay,耽搁,VERB
+暗讯,to signal,暗讯,VERB
+惹来,to provoke,惹来,VERB
+镖,escort,镖,NOUN
+可别,don't,可别,AUX
+莫非,to suppose,莫非,VERB
+沉,to sink,沉,VERB
+剑柄,hilt,剑柄,NOUN
+过兵,to pass,过兵,VERB
+我爹,father,我爹,NOUN
+再好,better,再好,ADJ
+恩兄,brother,恩兄,NOUN
+武,martial,武,PART
+玉大,jade,玉大,NOUN
+来人,visitor,来人,NOUN
+武当,Wudang,武当,NOUN
+给我,to give,给我,VERB
+一回,to return,一回,VERB
+你爹,father,你爹,NOUN
+娇龙……,Jiaolong,娇龙……,NOUN
+刘爷,Master Liu,刘爷,NOUN
+这碧,jade,这碧,NOUN
+就别,to refrain,就别,VERB
+蹊跷,strange,蹊跷,ADJ
+你……,you,你……,PRON
+你盗,theft,你盗,NOUN
+你管,to mind,你管,VERB
+那倒,then,那倒,ADV
+你给,to give,你给,VERB
+再等,to wait,再等,VERB
+我错,to err,我错,VERB
+娇龙,Jiaolong,娇龙,NOUN
+碰女,to touch,碰女,VERB
+你听,to listen,你听,VERB
+等你,to await,等你,VERB
+找你,to find you,找你,VERB
+让你,let,让你,AUX
+我会,I,我会,PRON
+你真,you,你真,PRON
+我手,hand,我手,NOUN
+败将,defeated general,败将,NOUN
+里何尝,to ever,里何尝,VERB
+边请,to invite,边请,VERB
+神拳,divine fist,神拳,NOUN
+在此,to be here,在此,VERB
+明日,tomorrow,明日,NOUN
+丫头,girl,丫头,NOUN
+闭嘴,to shut up,闭嘴,VERB
+通通,all,通通,ADV
+又来,to come again,又来,VERB
+容,to allow,容,VERB
+迷香,incense,迷香,NOUN
+解方,remedy,解方,NOUN
+紫阴针,purple needle,紫阴针,NOUN
+不难,not hard,不难,ADV
+垂成,to nearly succeed,垂成,VERB
+之战,to battle,之战,VERB
+躲,to hide,躲,VERB
+你可算,to finally,你可算,VERB
+找人,to find,找人,VERB
+凤字营,phoenix camp,凤字营,NOUN
+放心吧,reassurance,放心吧,NOUN
+事我,matter,事我,NOUN
+死要,to die for,死要,VERB
+中箭,to be hit,中箭,VERB
+更何况,to let alone,更何况,VERB
+社稷,state,社稷,NOUN
+老夫,old man,老夫,NOUN
+她定,she,她定,PRON
+也要,also,也要,AUX
+那日,that day,那日,NOUN
+赌一,to bet,赌一,VERB
+你慢,you,你慢,PRON
+拿着,to hold,拿着,VERB
+干什么,to do,干什么,VERB
+做派,to behave,做派,VERB
+水 水,ah,水 水,PART
+你为,you,你为,PRON
+记住,to remember,记住,VERB
+何人,who,何人,PRON
+都会,will,都会,AUX
+又何,why,又何,ADV
+我就,then,我就,SCONJ
+而你,but,而你,SCONJ
+便会,will,便会,AUX
+谁敢,who,谁敢,NOUN
+畏,to fear,畏,VERB
+子民,subject,子民,NOUN
+却落得,to end up,却落得,VERB
+会讨,to seek,会讨,VERB
+上药,to apply,上药,VERB
+你莫要,you,你莫要,PRON
+我不杀你,I,我不杀你,PRON
+亲眼,personally,亲眼,ADV
+怎会,how,怎会,AUX
+无凭,to lack,无凭,VERB
+但他,but,但他,SCONJ
+若要,if,若要,AUX
+甘,to accept,甘,VERB
+加冠,to crown,加冠,VERB
+大皇子,prince,大皇子,NOUN
+奸细,spy,奸细,NOUN
+每个,each,每个,DET
+头颅,head,头颅,NOUN
+我不信,to doubt,我不信,VERB
+庄大人,lord,庄大人,NOUN
+选,to choose,选,VERB
+冠之,crown,冠之,NOUN
+对了,to be right,对了,VERB
+罪,sin,罪,NOUN
+他说,to say,他说,VERB
+和你,to be with,和你,VERB
+走得,to go,走得,VERB
+你好,you,你好,PRON
+你若,you,你若,PRON
+您真,you,您真,NOUN
+就拿,to take,就拿,VERB
+随歌,to follow,随歌,VERB
+我若,if I,我若,SCONJ
+争权,to vie,争权,VERB
+好 好,good,好 好,ADJ
+都说,to say,都说,VERB
+我都,I,我都,PRON
+受委,to accept,受委,VERB
+每一,every,每一,DET
+你放心,to rest,你放心,VERB
+他是,he,他是,PRON
+喊杀,to shout,喊杀,VERB
+好歹,anyway,好歹,PRON
+你想,you,你想,PRON
+挖出,to dig,挖出,VERB
+此刻,now,此刻,NOUN
+那她,she,那她,PRON
+来 来,come,来 来,SCONJ
+再拿,to take,再拿,VERB
+我打,to hit,我打,VERB
+就像,like,就像,ADP
+托付,to entrust,托付,VERB
+凤随歌,Feng Suige,凤随歌,NOUN
+要想,to want,要想,AUX
+我笑,to laugh,我笑,VERB
+将死,to die,将死,VERB
+那要,to need,那要,VERB
+伤兵,wounded,伤兵,NOUN
+务,to do,务,VERB
+有劳,to trouble,有劳,VERB
+记不,to remember,记不,VERB
+快点,to hurry,快点,VERB
+带你,to take,带你,VERB
+国色,beauty,国色,NOUN
+也对,also,也对,ADP
+去哪儿,destination,去哪儿,NOUN
+我听话,obedience,我听话,NOUN
+派人,to send,派人,VERB
+别怕,to not fear,别怕,VERB
+动筷,to use chopsticks,动筷,VERB
+正念山庄,Mindfulness Villa,正念山庄,NOUN
+你该,should,你该,ADV
+害你,to harm you,害你,VERB
+了吧,indeed,了吧,PART
+用得,to need,用得,VERB
+烤羊,to roast lamb,烤羊,VERB
+你冤枉,grievance,你冤枉,NOUN
+老秦,Old Qin,老秦,NOUN
+你没事吧,well-being,你没事吧,NOUN
+国书,credentials,国书,NOUN
+连你,even you,连你,PRON
+府上,residence,府上,NOUN
+别丢下,to not abandon,别丢下,VERB
+小九,Little Nine,小九,NOUN
+去追,to pursue,去追,VERB
+难不成,could it be,难不成,ADJ
+放下,to put down,放下,VERB
+放我,to release me,放我,VERB
+即刻,immediately,即刻,ADV
+这是,this is,这是,ADP
+到了,to arrive,到了,VERB

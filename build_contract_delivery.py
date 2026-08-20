@@ -98,7 +98,11 @@ def load_csv_records(root: Path) -> list[tuple[str, str, str, str, str, str]]:
                 next(reader, None)
                 for cols in reader:
                     lemma = _clean_lemma(_unquote(cols[0])) if len(cols) > 0 else ""
-                    if not lemma:
+                    if (
+                        not lemma
+                        or lemma.startswith("Word_")
+                        or lemma.startswith("svord_")
+                    ):
                         continue
                     english = clean_gloss(_unquote(cols[1])) if len(cols) > 1 else ""
                     chinese = _unquote(cols[2]) if len(cols) > 2 else ""
