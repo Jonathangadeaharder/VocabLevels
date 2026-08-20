@@ -7,6 +7,7 @@ PostgreSQL cardinality_violation 21000 and aborts the whole seed round.
 from __future__ import annotations
 
 import csv
+import re
 from collections import Counter
 from pathlib import Path
 
@@ -27,7 +28,9 @@ def _csv_paths() -> list[Path]:
     ]
 
 
-@pytest.mark.parametrize("path", _csv_paths(), ids=lambda p: f"{p.parent.name}/{p.name}")
+@pytest.mark.parametrize(
+    "path", _csv_paths(), ids=lambda p: f"{p.parent.name}/{p.name}"
+)
 def test_rows_have_four_columns(path: Path) -> None:
     with path.open(encoding="utf-8") as handle:
         offenders = [
@@ -38,7 +41,9 @@ def test_rows_have_four_columns(path: Path) -> None:
     assert not offenders, f"{path}: rows with != {COLUMNS} columns: {offenders[:5]}"
 
 
-@pytest.mark.parametrize("path", _csv_paths(), ids=lambda p: f"{p.parent.name}/{p.name}")
+@pytest.mark.parametrize(
+    "path", _csv_paths(), ids=lambda p: f"{p.parent.name}/{p.name}"
+)
 def test_lemma_pos_keys_are_unique(path: Path) -> None:
     with path.open(encoding="utf-8") as handle:
         keys = Counter(
@@ -48,3 +53,24 @@ def test_lemma_pos_keys_are_unique(path: Path) -> None:
         )
     duplicates = {key: count for key, count in keys.items() if count > 1}
     assert not duplicates, f"{path}: duplicate (lemma, POS) keys: {duplicates}"
+
+
+@pytest.mark.parametrize(
+    "path", _csv_paths(), ids=lambda p: f"{p.parent.name}/{p.name}"
+)
+def test_no_synthetic_placeholder_lemmas(path: Path) -> None:
+    with path.open(encoding="utf-8") as handle:
+        reader = csv.reader(handle)
+        next(reader, None)
+        placeholders = [
+            (idx, row[0])
+            for idx, row in enumerate(reader, start=2)
+            if row
+            and (
+                row[0].strip().startswith(("Word_", "svord_", "word_"))
+                or re.search(r"^(Word|svord|word)_[a-zA-Z0-9_]+", row[0].strip())
+            )
+        ]
+    assert not placeholders, (
+        f"{path}: synthetic placeholder lemmas found: {placeholders[:5]}"
+    )
