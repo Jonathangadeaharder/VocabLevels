@@ -62,7 +62,9 @@ def test_inventory_matches_full_scan_policy_and_covers_classifier_drops() -> Non
     assert INVENTORY.exists()
     inv = load_inventory(INVENTORY)
     assert len(inv) >= 50
-    drops = {r["lemma"] for r in inv if r.get("action") == "drop" and "#" not in r["lemma"]}
+    drops = {
+        r["lemma"] for r in inv if r.get("action") == "drop" and "#" not in r["lemma"]
+    }
     assert len(drops) >= 40
     # Live full-population scan must not find drop residuals still in lists
     live = scan_arabic_lists(ROOT)
@@ -257,9 +259,7 @@ def test_no_latin_chinese_lemma_outside_chinese() -> None:
                 zh = (row.get("Chinese_Lemma") or "").strip()
                 if not zh:
                     continue
-                if re.search(r"[A-Za-z]", zh) and not re.search(
-                    r"[\u4e00-\u9fff]", zh
-                ):
+                if re.search(r"[A-Za-z]", zh) and not re.search(r"[\u4e00-\u9fff]", zh):
                     pytest.fail(f"{lang}/{level} latin ZH: {row}")
 
 
@@ -279,3 +279,256 @@ def test_lemmas_are_nfc() -> None:
                         key,
                         val,
                     )
+
+
+def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
+    from scripts.gemma_qa.arabic_dialect import (
+        InventoryRow,
+        apply_inventory_to_arabic_lists,
+        closed_lexicon_inventory,
+        write_inventory,
+    )
+
+    # Empty
+    assert classify_ar_lemma("").action == "ok"
+
+    # UPOS conditional
+    assert classify_ar_lemma("يعني", upos="PART").action == "drop"
+    assert classify_ar_lemma("كون", upos="SCONJ").action == "drop"
+    assert classify_ar_lemma("لازم", upos="AUX").action == "drop"
+    assert classify_ar_lemma("سحاب", english="zipper").action == "drop"
+    assert classify_ar_lemma("عمر", english="never").action == "drop"
+    assert classify_ar_lemma("معمر", english="full").action == "drop"
+    assert classify_ar_lemma("ولا", upos="CCONJ", english="or").action == "drop"
+    assert classify_ar_lemma("كراج", english="garage").action == "drop"
+    assert classify_ar_lemma("كلمة", english="colloquial word").action == "policy"
+
+    # write_inventory / closed_lexicon_inventory
+    inv_rows = [
+        InventoryRow("ar", "A1", "بشوية", "slowly", "慢", "ADV", "drop", "reason"),
+        InventoryRow(
+            "ar", "A1", "بشوية", "slowly", "慢", "ADV", "drop", "reason"
+        ),  # duplicate
+    ]
+    inv_file = tmp_path / "inventory.csv"
+    write_inventory(inv_file, inv_rows)
+    assert inv_file.exists()
+
+    loaded = closed_lexicon_inventory()
+    assert any(r.lemma == "بشوية" for r in loaded)
+
+    # score_sample_row edge cases
+    assert (
+        score_sample_row(
+            lang="ar",
+            level="A1",
+            lemma="",
+            english_lemma="en",
+            chinese_lemma="zh",
+            upos="NOUN",
+        )[0]
+        == "fix"
+    )
+    assert (
+        score_sample_row(
+            lang="ar",
+            level="A1",
+            lemma="lemma\u0301",
+            english_lemma="en",
+            chinese_lemma="zh",
+            upos="NOUN",
+        )[0]
+        == "fix"
+    )
+    assert (
+        score_sample_row(
+            lang="ar",
+            level="A1",
+            lemma="lemma",
+            english_lemma="en",
+            chinese_lemma="latin_zh",
+            upos="NOUN",
+        )[0]
+        == "fix"
+    )
+    assert (
+        score_sample_row(
+            lang="ar",
+            level="A1",
+            lemma="°",
+            english_lemma="en",
+            chinese_lemma="度",
+            upos="NOUN",
+        )[0]
+        == "drop"
+    )
+    assert (
+        score_sample_row(
+            lang="sv",
+            level="A1",
+            lemma="los",
+            english_lemma="loose",
+            chinese_lemma="松",
+            upos="ADJ",
+        )[0]
+        == "drop"
+    )
+    assert (
+        score_sample_row(
+            lang="sv",
+            level="A1",
+            lemma="träffades",
+            english_lemma="met",
+            chinese_lemma="见",
+            upos="VERB",
+        )[0]
+        == "drop"
+    )
+    assert (
+        score_sample_row(
+            lang="sv",
+            level="A1",
+            lemma="mötas",
+            english_lemma="meet",
+            chinese_lemma="见",
+            upos="VERB",
+        )[0]
+        == "drop"
+    )
+    assert (
+        score_sample_row(
+            lang="de",
+            level="A1",
+            lemma="meinten",
+            english_lemma="meant",
+            chinese_lemma="以为",
+            upos="VERB",
+        )[0]
+        == "fix"
+    )
+    assert (
+        score_sample_row(
+            lang="nl",
+            level="A1",
+            lemma="uitdagingen",
+            english_lemma="challenges",
+            chinese_lemma="挑战",
+            upos="NOUN",
+        )[0]
+        == "fix"
+    )
+    assert (
+        score_sample_row(
+            lang="es",
+            level="A1",
+            lemma="émulo",
+            english_lemma="emulator",
+            chinese_lemma="仿真",
+            upos="NOUN",
+        )[0]
+        == "fix"
+    )
+    assert (
+        score_sample_row(
+            lang="nl",
+            level="A1",
+            lemma="zullen",
+            english_lemma="would",
+            chinese_lemma="将",
+            upos="VERB",
+        )[0]
+        == "fix"
+    )
+    assert (
+        score_sample_row(
+            lang="ar",
+            level="A1",
+            lemma="قد",
+            english_lemma="much",
+            chinese_lemma="很多",
+            upos="PART",
+        )[0]
+        == "fix"
+    )
+    assert (
+        score_sample_row(
+            lang="ar",
+            level="A1",
+            lemma="كمي",
+            english_lemma="quantum",
+            chinese_lemma="量子",
+            upos="ADJ",
+        )[0]
+        == "fix"
+    )
+    assert (
+        score_sample_row(
+            lang="ar",
+            level="A1",
+            lemma="إلا",
+            english_lemma="if",
+            chinese_lemma="如果",
+            upos="SCONJ",
+        )[0]
+        == "fix"
+    )
+    assert (
+        score_sample_row(
+            lang="ar",
+            level="A1",
+            lemma="تكييف",
+            english_lemma="qualification",
+            chinese_lemma="资格",
+            upos="NOUN",
+        )[0]
+        == "fix"
+    )
+    assert (
+        score_sample_row(
+            lang="ar",
+            level="A1",
+            lemma="قضى",
+            english_lemma="errand",
+            chinese_lemma="差事",
+            upos="VERB",
+        )[0]
+        == "fix"
+    )
+    assert (
+        score_sample_row(
+            lang="ar",
+            level="A1",
+            lemma="يعني",
+            english_lemma="means",
+            chinese_lemma="意思",
+            upos="PART",
+        )[0]
+        == "drop"
+    )
+    assert (
+        score_sample_row(
+            lang="ar",
+            level="A1",
+            lemma="حاجة",
+            english_lemma="thing",
+            chinese_lemma="东西",
+            upos="NOUN",
+            inventory_drops=["حاجة"],
+        )[0]
+        == "drop"
+    )
+
+    # apply_inventory_to_arabic_lists
+    ar_dir = tmp_path / "arabic"
+    ar_dir.mkdir(parents=True, exist_ok=True)
+    (ar_dir / "A1.csv").write_text(
+        "Arabic_Lemma,English_Lemma,Chinese_Lemma,POS\nبشوية,slowly,慢,ADV\nبيت,house,房,NOUN\n",
+        encoding="utf-8",
+    )
+    apply_inventory_to_arabic_lists(
+        tmp_path,
+        [InventoryRow("ar", "A1", "بشوية", "slowly", "慢", "ADV", "drop", "test")],
+    )
+    a1_lines = (ar_dir / "A1.csv").read_text(encoding="utf-8").splitlines()
+    assert len(a1_lines) == 2
+    assert "بيت" in a1_lines[1]

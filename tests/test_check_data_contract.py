@@ -205,3 +205,17 @@ def test_main_dispatches_between_modes(
     monkeypatch.setattr("check_data_contract.ROOT", tmp_path)
     assert main([]) == 0
     assert main([str(tmp_path / "missing")]) == 1
+
+
+def test_load_csv_rows_with_expansion(tmp_path: Path) -> None:
+    make_source_csv(tmp_path, "german", [["Haus", "house", "房", "NOUN"]])
+    exp_dir = tmp_path / "german"
+    (exp_dir / "expansion.csv").write_text(
+        "German_Lemma,English_Lemma,Chinese_Lemma,POS,CEFR\n"
+        '"Katze","cat","猫","NOUN","B1"\n'
+        ",,,,\n",
+        encoding="utf-8",
+    )
+    rows = load_csv_rows(tmp_path)
+    assert len(rows) == 2
+    assert rows[1].lemma == "Katze"

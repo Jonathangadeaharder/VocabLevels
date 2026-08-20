@@ -54,8 +54,7 @@ class ValidatedStore:
             """
         )
         self._connection.execute(
-            "CREATE INDEX IF NOT EXISTS validated_lang_level "
-            "ON validated (lang, level)"
+            "CREATE INDEX IF NOT EXISTS validated_lang_level ON validated (lang, level)"
         )
         self._connection.commit()
 

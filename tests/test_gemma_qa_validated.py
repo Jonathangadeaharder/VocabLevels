@@ -213,7 +213,10 @@ def test_run_cefr_reviews_only_unvalidated_rows(
     write_csv(tmp_path / "german" / "A1.csv", rows)
     monkeypatch.setitem(TARGETS, "A1", len(rows))
     store = ValidatedStore(validated_store_path(tmp_path))
-    store.mark_rows("german", "A1", [tuple(row) for row in rows[:2]])
+    typed_rows: list[tuple[str, str, str, str]] = [
+        (row[0], row[1], row[2], row[3]) for row in rows[:2]
+    ]
+    store.mark_rows("german", "A1", typed_rows)
     store.close()
     ledger = Ledger(tmp_path / "ledger.sqlite3")
     client = TrackingClient()

@@ -181,9 +181,7 @@ def canonicalize_english_citation(row: CefrReviewRow) -> CefrReviewRow:
         update={
             "lemma": english,
             "action": (
-                ReviewAction.FIX
-                if row.action is ReviewAction.KEEP
-                else row.action
+                ReviewAction.FIX if row.action is ReviewAction.KEEP else row.action
             ),
         }
     )

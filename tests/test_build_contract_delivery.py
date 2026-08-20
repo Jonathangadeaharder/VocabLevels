@@ -132,3 +132,51 @@ def test_write_tsv_emits_contract_header(tmp_path: Path) -> None:
     lines = (out / "de.tsv").read_text(encoding="utf-8").splitlines()
     assert lines[0] == "lemma\tpos\tenglish_gloss\tenglish_pos\tcefr\trank\tconcept_key"
     assert lines[1] == "Haus\tNOUN\thouse\tNOUN\tA1\t1\thouse-NOUN"
+
+
+def test_load_expansion_records_reads_expansion_csvs(tmp_path: Path) -> None:
+    exp_dir = tmp_path / "german"
+    exp_dir.mkdir(parents=True, exist_ok=True)
+    exp_file = exp_dir / "expansion.csv"
+    exp_file.write_text(
+        "German_Lemma,English_Lemma,Chinese_Lemma,POS,CEFR\n"
+        "Hund,dog,狗,NOUN,B2\n"
+        '"Katze",cat,猫,NOUN,\n'
+        ",,,,\n",
+        encoding="utf-8",
+    )
+    from build_contract_delivery import load_expansion_records
+
+    records = load_expansion_records(tmp_path)
+    assert ("de", "B2", "Hund", "dog", "狗", "NOUN") in records
+    assert ("de", "B1", "Katze", "cat", "猫", "NOUN") in records
+
+
+def test_build_all_and_main(tmp_path: Path, capsys) -> None:
+    make_csv(
+        tmp_path,
+        "german",
+        "A1",
+        [["Haus", "house", "房子", "NOUN"]],
+    )
+    from build_contract_delivery import build_all, main
+
+    out_dir = tmp_path / "output"
+    counts = build_all(out_dir, root=tmp_path)
+    assert counts.get("de") == 1
+    assert (out_dir / "de.tsv").exists()
+
+    code = main([str(out_dir / "sub")])
+    assert code == 0
+    captured = capsys.readouterr()
+    assert "de:" in captured.out
+
+
+def test_clean_gloss_handles_accents_and_punctuation() -> None:
+    from build_contract_delivery import clean_gloss, _unquote
+
+    assert clean_gloss("fiancé (male)") == "fiance male"
+    assert clean_gloss("apple/pear") == "apple pear"
+    assert clean_gloss("") == ""
+    assert _unquote('""word""') == '"word"'
+    assert _unquote('"simple"') == "simple"

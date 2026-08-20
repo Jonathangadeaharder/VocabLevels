@@ -46,8 +46,6 @@ def request_wall_clock_s() -> float:
     return max(0.1, min(value, 900.0))
 
 
-
-
 @dataclass(frozen=True)
 class Usage:
     prompt_tokens: int

@@ -147,3 +147,13 @@ def test_read_csv_rejects_directory_code_mismatch(tmp_path: Path) -> None:
     )
     with pytest.raises(ValueError, match="unexpected header"):
         read_cefr_csv(source, lang="english", level="A1")
+
+
+def test_get_language_unknown_and_is_nfc() -> None:
+    from scripts.gemma_qa.languages import is_nfc
+
+    with pytest.raises(ValueError, match="unsupported language"):
+        get_language("klingon")
+
+    assert is_nfc("Haus")
+    assert not is_nfc("e\u0301")  # NFD e + combining acute

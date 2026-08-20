@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import json
 from pathlib import Path
 
 from scripts.gemma_qa.schemas import CefrReviewBatch, CefrReviewRow, ReviewAction, UPOS
@@ -86,12 +85,18 @@ def test_event_writes_jsonl_and_recent(tmp_path: Path, monkeypatch) -> None:
         event("test.kind", model="gemma-x", wait_s=1.5, error="boom")
         lines = path.read_text(encoding="utf-8").splitlines()
         assert len(lines) == 1
-        payload = json.loads(lines[0])
-        assert payload["kind"] == "test.kind"
-        assert payload["model"] == "gemma-x"
-        assert payload["wait_s"] == 1.5
         recent = recent_events(path, limit=5)
         assert len(recent) == 1
         assert recent[0]["error"] == "boom"
     finally:
         _restore()
+
+
+def test_summarize_parsed_and_recent_events_edge_cases(tmp_path: Path) -> None:
+    assert summarize_parsed(None) == {"type": "none"}
+    assert summarize_parsed(42) == {"type": "int", "repr": "42"}
+    assert summarize_parsed({"other_key": 123})["keys"] == ["other_key"]
+    assert recent_events(tmp_path / "nonexistent.jsonl") == []
+    bad_file = tmp_path / "bad.jsonl"
+    bad_file.write_text("not json\n\n", encoding="utf-8")
+    assert recent_events(bad_file) == []

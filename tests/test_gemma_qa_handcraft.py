@@ -9,7 +9,12 @@ import pytest
 
 from scripts.gemma_qa.client import GemmaClient, GenerationResult, Usage
 from scripts.gemma_qa.cli import build_parser
-from scripts.gemma_qa.config import MODEL_26B, MODEL_31B, MODEL_ADJUDICATION, INPUT_BATCH_TOKEN_CAP
+from scripts.gemma_qa.config import (
+    MODEL_26B,
+    MODEL_31B,
+    MODEL_ADJUDICATION,
+    INPUT_BATCH_TOKEN_CAP,
+)
 from scripts.gemma_qa.handcraft import (
     HANDCRAFT_MAX_OUTPUT_TOKENS,
     MAX_HANDCRAFT_SENTENCES_PER_BATCH,
@@ -297,7 +302,9 @@ def test_mocked_dual_model_pipeline_writes_twenty_sentences(tmp_path: Path) -> N
         for model in (MODEL_31B, MODEL_26B, MODEL_ADJUDICATION)
     ]
     estimator = TiktokenEstimator()
-    assert all(estimator.count(prompt) <= INPUT_BATCH_TOKEN_CAP for prompt in client.prompts)
+    assert all(
+        estimator.count(prompt) <= INPUT_BATCH_TOKEN_CAP for prompt in client.prompts
+    )
     assert client.output_limits == [HANDCRAFT_MAX_OUTPUT_TOKENS] * len(client.calls)
     assert all(
         len(json.loads(prompt.splitlines()[-1]).get("sentences", []))
@@ -426,7 +433,10 @@ def test_oversized_review_candidate_reduces_batch_deterministically(
         MODEL_31B,
         MODEL_26B,
     ]
-    assert all(TiktokenEstimator().count(prompt) <= INPUT_BATCH_TOKEN_CAP for prompt in client.prompts)
+    assert all(
+        TiktokenEstimator().count(prompt) <= INPUT_BATCH_TOKEN_CAP
+        for prompt in client.prompts
+    )
     ledger.close()
 
 

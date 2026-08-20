@@ -102,9 +102,7 @@ def batch_progress_line(
     eta_s = eta_from_samples(list(durations), wall_remaining)
     elapsed = time.time() - started_at
     last = durations[-1] if durations else None
-    wait_part = (
-        f" wait={format_duration(wait_s)}" if wait_s is not None else ""
-    )
+    wait_part = f" wait={format_duration(wait_s)}" if wait_s is not None else ""
     concurrency_part = f" concurrency={concurrency}" if concurrency > 1 else ""
     return (
         f"PROGRESS batch {lang}/{level} "

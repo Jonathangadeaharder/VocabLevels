@@ -76,7 +76,6 @@ _FUNC: frozenset[str] = frozenset(
         "ايوا",
         "إييه",  # Maghrebi yes
         "اييه",
-
         "ديال",
         "ديالي",
         "ديالك",
@@ -431,7 +430,9 @@ _TOKEN_DROP: frozenset[str] = (
 _LOAN_SUFFIX_RE = re.compile(
     r"^(?!.{0,2}$)[\u0600-\u06FF]{2,}(اج|يش|يون|يير|وار|ورة|اتور|سيون|مون)$"
 )
-_MAGHREBI_PREFIX_RE = re.compile(r"^(ب|ف|ك)(?!ال)[\u0600-\u06FF]{2,}$")  # b-/f-/k- clitic forms like بشوية
+_MAGHREBI_PREFIX_RE = re.compile(
+    r"^(ب|ف|ك)(?!ال)[\u0600-\u06FF]{2,}$"
+)  # b-/f-/k- clitic forms like بشوية
 # Known clitic+dialect stems
 _CLITIC_STEMS: frozenset[str] = frozenset(
     {
@@ -539,7 +540,8 @@ def classify_ar_lemma(
         return ClassifyResult("drop", "Maghrebi full/sated")
     # Maghrebi "or" (MSA أو); MSA ولا is "and not"/nor, not plain "or".
     if bare == "ولا" and (
-        en.strip() == "or" or (up in {"CCONJ", "CONJ"} and "or" in en and "not" not in en)
+        en.strip() == "or"
+        or (up in {"CCONJ", "CONJ"} and "or" in en and "not" not in en)
     ):
         return ClassifyResult("drop", "Maghrebi or (MSA أو)")
 
@@ -674,7 +676,9 @@ def closed_lexicon_inventory() -> list[InventoryRow]:
     return rows
 
 
-def apply_inventory_to_arabic_lists(root: Path, inventory: Sequence[InventoryRow]) -> int:
+def apply_inventory_to_arabic_lists(
+    root: Path, inventory: Sequence[InventoryRow]
+) -> int:
     """Drop rows that classify as drop; keep MSA exceptions. Returns drop count."""
     _ = inventory  # frozen inventory is audit trail; live classify is source of truth
     dropped = 0
@@ -739,20 +743,28 @@ def score_sample_row(
         return "fix", "empty field"
     if lem != unicodedata.normalize("NFC", lem):
         return "fix", "lemma not NFC"
-    if lang != "zh" and zh and re.search(r"[A-Za-z]", zh) and not re.search(
-        r"[\u4e00-\u9fff]", zh
+    if (
+        lang != "zh"
+        and zh
+        and re.search(r"[A-Za-z]", zh)
+        and not re.search(r"[\u4e00-\u9fff]", zh)
     ):
         return "fix", f"latin chinese_lemma {zh!r}"
     if lem in {"°", "º", "d'r"}:
         return "drop", "junk symbol/contraction"
     if lang == "sv" and lem == "los" and up == "ADJ":
         return "drop", "sv noise lemma"
-    if lang == "sv" and lem in {
-        "träffades",
-        "träffar",
-        "träffat",
-        "dansade",
-    } and up == "VERB":
+    if (
+        lang == "sv"
+        and lem
+        in {
+            "träffades",
+            "träffar",
+            "träffat",
+            "dansade",
+        }
+        and up == "VERB"
+    ):
         return "drop", "sv verb inflection dup (non-citation)"
     if lang == "sv" and lem in {"mötas", "delas"} and up == "VERB":
         return "drop", "sv s-passive dup (same gloss as citation)"

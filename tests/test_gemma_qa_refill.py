@@ -627,7 +627,9 @@ def test_bounded_prompt_keeps_maximal_rejected_first_prefix() -> None:
     assert included[:3] == rejected
     assert 3 < len(included) < len(exclusions)
     assert estimator.count(prompt) <= INPUT_BATCH_TOKEN_CAP
-    assert estimator.count(build(exclusions[: len(included) + 1])) > INPUT_BATCH_TOKEN_CAP
+    assert (
+        estimator.count(build(exclusions[: len(included) + 1])) > INPUT_BATCH_TOKEN_CAP
+    )
 
 
 def test_novel_v1_checkpoint_never_resumes_under_v2(tmp_path: Path) -> None:
@@ -724,7 +726,10 @@ def test_rejected_blacklist_breaks_repetition_with_large_accepted_set(
     assert all(
         payload["accepted_exclusions"][0] == "brot|NOUN" for payload in second_round
     )
-    assert all(TiktokenEstimator().count(prompt) <= INPUT_BATCH_TOKEN_CAP for _, prompt in client.calls)
+    assert all(
+        TiktokenEstimator().count(prompt) <= INPUT_BATCH_TOKEN_CAP
+        for _, prompt in client.calls
+    )
     ledger.close()
 
 
@@ -936,7 +941,10 @@ def test_collapsed_600_rows_refill_to_600_unique_and_resume(tmp_path: Path) -> N
     assert len(client.calls) == 14
     assert {model for model, _ in client.calls} == {MODEL_31B, MODEL_26B}
     estimator = TiktokenEstimator()
-    assert max(estimator.count(prompt) for _, prompt in client.calls) <= INPUT_BATCH_TOKEN_CAP
+    assert (
+        max(estimator.count(prompt) for _, prompt in client.calls)
+        <= INPUT_BATCH_TOKEN_CAP
+    )
     assert (
         max(
             len(json.loads(prompt.splitlines()[-1])["concepts"])
@@ -991,7 +999,9 @@ def test_pivot_exhaustion_refills_collapsed_source_to_exact_600_and_resumes(
         <= 10
     )
     estimator = TiktokenEstimator()
-    assert all(estimator.count(prompt) <= INPUT_BATCH_TOKEN_CAP for prompt in novel_prompts)
+    assert all(
+        estimator.count(prompt) <= INPUT_BATCH_TOKEN_CAP for prompt in novel_prompts
+    )
 
     resumed_client = RefillClient()
     resumed = complete(

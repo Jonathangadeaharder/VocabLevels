@@ -196,3 +196,15 @@ class TestFindInflectedForms:
         out = capsys.readouterr().out
         # "glass" should not appear as a plural candidate (ends in "ss")
         assert "glass" not in out or "plural" not in out.lower() or "No obvious" in out
+
+    def test_unmatched_ing_and_ed_lemmas(
+        self, tmp_repo: Path, capsys: pytest.CaptureFixture[str]
+    ) -> None:
+        path = tmp_repo / "english" / "A1.csv"
+        with path.open("a", encoding="utf-8", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["sing", "singen", "cantar"])
+            writer.writerow(["red", "rot", "rojo"])
+        al.find_inflected_forms()
+        out = capsys.readouterr().out
+        assert "ENGLISH" in out
