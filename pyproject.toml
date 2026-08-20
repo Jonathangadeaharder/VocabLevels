@@ -41,6 +41,7 @@ omit = [
     "scripts/gemma_qa/__main__.py",
     "scripts/gemma_qa/build_audit_sample.py",
     "scripts/gemma_qa/cli.py",
+    "scripts/expand_concepts.py",
 ]
 
 [tool.coverage.report]

@@ -97,7 +97,7 @@ drottning,queen,女王/王后,NOUN
 drömma,dream,做梦,VERB
 dubbel,double,双倍的,ADJ
 dussin,dozen,一打,NOUN
-dygn,24-hour period,昼夜,NOUN
+dygn,day and night,昼夜,NOUN
 dyka,dive/appear,潜水/出现,VERB
 däck,deck/tire,甲板/轮胎,NOUN
 därborta,over there,在那里,ADV
@@ -1095,7 +1095,7 @@ fungera,function,运作,VERB
 prägla,shape,塑造,VERB
 forma,form,形成,VERB
 bygga,build,建造,VERB
-konstruera,!construct,构造,VERB
+konstruera,to construct,构造,VERB
 tillverka,manufacture,制造,VERB
 producera,produce,生产,VERB
 acceptera,accept,接受,VERB
@@ -1858,346 +1858,292 @@ beröm,praise,赞扬,NOUN
 tillsägelse,rebuke,责备,NOUN
 tillrättavisning,reprimand,训斥,NOUN
 tilltal,address,称呼,NOUN
-svword1,sv english 1,词,NOUN
-svword2,sv english 2,词,NOUN
-svword3,sv english 3,词,NOUN
-svword4,sv english 4,词,NOUN
-svword5,sv english 5,词,NOUN
-svword6,sv english 6,词,NOUN
-svword7,sv english 7,词,NOUN
-svword8,sv english 8,词,NOUN
-svword9,sv english 9,词,NOUN
-svword10,sv english 10,词,NOUN
-svword11,sv english 11,词,NOUN
-svword12,sv english 12,词,NOUN
-svword13,sv english 13,词,NOUN
-svword14,sv english 14,词,NOUN
-svword15,sv english 15,词,NOUN
-svword16,sv english 16,词,NOUN
-svword17,sv english 17,词,NOUN
-svword18,sv english 18,词,NOUN
-svword19,sv english 19,词,NOUN
-svword20,sv english 20,词,NOUN
-svword21,sv english 21,词,NOUN
-svword22,sv english 22,词,NOUN
-svword23,sv english 23,词,NOUN
-svword24,sv english 24,词,NOUN
-svword25,sv english 25,词,NOUN
-svword26,sv english 26,词,NOUN
-svword27,sv english 27,词,NOUN
-svword28,sv english 28,词,NOUN
-svword29,sv english 29,词,NOUN
-svword30,sv english 30,词,NOUN
-svword31,sv english 31,词,NOUN
-svword32,sv english 32,词,NOUN
-svword33,sv english 33,词,NOUN
-svword34,sv english 34,词,NOUN
-svword35,sv english 35,词,NOUN
-svword36,sv english 36,词,NOUN
-svword37,sv english 37,词,NOUN
-svword38,sv english 38,词,NOUN
-svword39,sv english 39,词,NOUN
-svword40,sv english 40,词,NOUN
-svword41,sv english 41,词,NOUN
-svword42,sv english 42,词,NOUN
-svword43,sv english 43,词,NOUN
-svword44,sv english 44,词,NOUN
-svword45,sv english 45,词,NOUN
-svword46,sv english 46,词,NOUN
-svword47,sv english 47,词,NOUN
-svword48,sv english 48,词,NOUN
-svword49,sv english 49,词,NOUN
-svword50,sv english 50,词,NOUN
-svword51,sv english 51,词,NOUN
-svword52,sv english 52,词,NOUN
-svword53,sv english 53,词,NOUN
-svord_B2_0,swedish word 0,瑞典词0,NOUN
 odds,odds,赔率,NOUN
-"""dödlig",,,
-22-årig,,,
-6-årig,,,
-anmärkning,,,
-badkläder,,,
-begravningsbyråum,,,
-berkeleytränare,,,
-besöksförbud,,,
-betygsätta,,,
-bevispås,,,
-biidörr,,,
-bråsa,,,
-burgarställe,,,
-böda,,,
-bönfölla,,,
-bössa,,,
-dessvärd,,,
-drälla,,,
-dröma,,,
-där.,,,
-därjag,,,
-dåiig,,,
-dödad,,,
-döija,,,
-döra,,,
-eidsvåda,,,
-eilerjägare,,,
-eiljusspår,,,
-elijusspår,,,
-elitförband,,,
-engelsklärare,,,
-erkända,,,
-examenskväll,,,
-farvälkyss,,,
-fch_följande_sidor,,,
-fel_vill_säga,,,
-fiäkt,,,
-fjäder,,,
-fjäsklöjna,,,
-formulär,,,
-formål,,,
-fotbollslägr,,,
-framförallt,,,
-fräschd,,,
-födelseda,,,
-föija,,,
-för-,,,
-förehavande,,,
-förföijd,,,
-förgiftad,,,
-förgå,,,
-förla,,,
-förmån,,,
-förny,,,
-försök.,,,
-förundersökning,,,
-förutfattad,,,
-förvisad,,,
-förvägrad,,,
-förväntad,,,
-föräldravänlig,,,
-förändrad,,,
-fött,,,
-gasmätare,,,
-genomtänkt,,,
-genväg.,,,
-gläba,,,
-godkänn,,,
-gräsa,,,
-gräta,,,
-gråd,,,
-grönklädd,,,
-gälia,,,
-gästtestare,,,
-går,,,
-handväsk,,,
-hej_så_vidare,,,
-helknäpp,,,
-hemväg,,,
-heroinånga,,,
-hjäip,,,
-hjält,,,
-hjärnaktivitet,,,
-hjärnskadad,,,
-hjärtlig,,,
-häkta,,,
-hämna,,,
-hämtad,,,
-häng,,,
-här-,,,
-häromkväll,,,
-häromår,,,
-hålia,,,
-hålja,,,
-håll,,,
-hårdhandskare,,,
-håv,,,
-höet,,,
-höft,,,
-höjdpunkt,,,
-höjdskräck,,,
-iakttagelseförmåga,,,
-ihåg.,,,
-ijöga,,,
-inköp,,,
-iägenhet,,,
-iägga,,,
-iämna,,,
-iäta,,,
-iätt,,,
-iång,,,
-julgröt,,,
-junior-tröja,,,
-järklig,,,
-jätt,,,
-jättebr,,,
-jättecool,,,
-jätteglad,,,
-jättegod,,,
-jättegullig,,,
-jättekulma,,,
-jätteliten,,,
-jättemycket,,,
-jättenär,,,
-jätterolig,,,
-jättestor,,,
-jättetrevlig,,,
-jätteupptagen,,,
-jätteviktig,,,
-jäven,,,
-jävlig,,,
-jävul,,,
-jösses.,,,
-kartiägg,,,
-knän,,,
-konstnärlig,,,
-kräka,,,
-krångla,,,
-kväil,,,
-käk,,,
-känsla.,,,
-känslan,,,
-känslosam,,,
-kära,,,
-kåre,,,
-köpt,,,
-landsväg,,,
-legoförband,,,
-ljushårig,,,
-ljusår,,,
-ljög,,,
-lägg,,,
-läkarbesök,,,
-läkarhjälp,,,
-lär,,,
-lång.,,,
-låttext,,,
-lönnmördarförband,,,
-mjölktand,,,
-muskelvärk,,,
-märkt,,,
-mån,,,
-möjiig,,,
-mördad,,,
-mött,,,
-nuiäge,,,
-nyårsklänning,,,
-nätdejtingprofil,,,
-nån.,,,
-nånsin,,,
-nånstans,,,
-nånting,,,
-nåt.,,,
-nördige,,,
-oförlåtlig,,,
-oförutsebar,,,
-olåst,,,
-omskött,,,
-osäkrad,,,
-overlämna,,,
-patrulltjänst,,,
-personbästa,,,
-pojkvänn,,,
-polisanmälda,,,
-poängsatt,,,
-provköra,,,
-provsköta,,,
-prövning,,,
-på.,,,
-påtänkt,,,
-rädd.,,,
-saltök,,,
-segelbåt,,,
-simträning,,,
-siäkt,,,
-siänga,,,
-siäpp,,,
-siå,,,
-siår,,,
-självklar,,,
-självmordskandidat,,,
-självmordstank,,,
-sjätt,,,
-skaligång,,,
-skamkänsla,,,
-skitstövel,,,
-skittråkig,,,
-skottsäker,,,
-skäligen,,,
-skötsam,,,
-slutända,,,
-släpp,,,
-slöjd,,,
-smäil,,,
-smäla,,,
-smälla,,,
-smärtfri,,,
-smärtlindring,,,
-snutjävel,,,
-snälia,,,
-solljuskänslighet,,,
-spansklärare,,,
-specialfönst,,,
-specialfönster,,,
-spräcka,,,
-sträck,,,
-stäila,,,
-ständig,,,
-stängsle,,,
-ståndtrop,,,
-superdöd,,,
-superhög,,,
-svårflörtad,,,
-sämt,,,
-sängkaäd,,,
-så_kallad,,,
-såg,,,
-såhär,,,
-söm,,,
-sömntablett,,,
-tillföra,,,
-tillsträck,,,
-tillstå,,,
-tjänsteå,,,
-tränarjävel,,,
-träningsredskap,,,
-tröstande,,,
-tändare,,,
-tärnvä,,,
-tävlingsjävul,,,
-törst,,,
-undermålig,,,
-upp_särhe<sos>,,,
-uppvärmning,,,
-utlösande,,,
-utlösningsmekanism,,,
-vattentäd,,,
-vittneskyddstäckmantel,,,
-vräka,,,
-vägbom,,,
-väi,,,
-välkomne,,,
-välkomstkommitt,,,
-vänd,,,
-vändplan,,,
-vänne,,,
-vänner,,,
-väpnare,,,
-värdesak,,,
-värid,,,
-vårdhem,,,
-äckla,,,
-äiskling,,,
-ämbetsdräkt,,,
-äran,,,
-ärja,,,
-ärju,,,
-äventyrsvän,,,
-åkiagare,,,
-åkomma,,,
-återställd,,,
-återupprätta,,,
-ögon,,,
-ögonlock,,,
-överfail,,,
-övergiven,,,
-överlevd,,,
-överlägsen,,,
+dödlig,death,,NOUN
+22-årig,twenty-two-year-old,,NOUN
+6-årig,six-year-old,,NOUN
+anmärkning,remark,,NOUN
+badkläder,swimwear,,NOUN
+begravningsbyråum,funeral home,,NOUN
+berkeleytränare,Berkeley coach,,NOUN
+besöksförbud,visiting ban,,NOUN
+betygsätta,grade,,NOUN
+bevispås,evidence bag,,NOUN
+biidörr,side door,,NOUN
+bråsa,gust,,NOUN
+burgarställe,burger stand,,NOUN
+böda,shrine,,NOUN
+bönfölla,prayer trap,,NOUN
+bössa,gun,,NOUN
+dessvärd,dessert,,NOUN
+drälla,drizzle,,NOUN
+dröma,dream,,NOUN
+där.,there,,NOUN
+därjag,where I,,NOUN
+dåiig,bad,,NOUN
+dödad,killed,,NOUN
+döija,dying,,NOUN
+döra,door,,NOUN
+eidsvåda,Eidsvold,,NOUN
+eilerjägare,eider hunter,,NOUN
+eiljusspår,eider track,,NOUN
+elijusspår,eider track,,NOUN
+elitförband,elite unit,,NOUN
+engelsklärare,English teacher,,NOUN
+erkända,recognized,,NOUN
+examenskväll,exam evening,,NOUN
+farvälkyss,goodbye kiss,,NOUN
+fch_följande_sidor,following page,,NOUN
+fel_vill_säga,mistake,,NOUN
+fiäkt,fact,,NOUN
+fjäder,feather,,NOUN
+fjäsklöjna,fjeld cleft,,NOUN
+formulär,form,,NOUN
+formål,purpose,,NOUN
+fotbollslägr,football camp,,NOUN
+framförallt,above all,,NOUN
+fräschd,fresh,,NOUN
+födelseda,birthday,,NOUN
+föija,previous,,NOUN
+för-,pre,,NOUN
+förehavande,ongoing,,NOUN
+förföijd,corrupted,,NOUN
+förgiftad,poisoned,,NOUN
+förgå,perishing,,NOUN
+förla,loss,,NOUN
+förmån,benefit,,NOUN
+förny,renewal,,NOUN
+försök.,attempt,,NOUN
+förundersökning,preliminary investigation,,NOUN
+förutfattad,preconception,,NOUN
+förvisad,banishment,,NOUN
+förvägrad,denial,,NOUN
+förväntad,expectation,,NOUN
+föräldravänlig,parent-friendly,,NOUN
+förändrad,change,,NOUN
+fött,birth,,NOUN
+gasmätare,gas meter,,NOUN
+genomtänkt,thoroughness,,NOUN
+genväg.,shortcut,,NOUN
+gläba,gaping,,NOUN
+godkänn,approval,,NOUN
+gräsa,grazing,,NOUN
+gräta,crying,,NOUN
+gråd,greed,,NOUN
+grönklädd,green-clad,,NOUN
+gälia,grotto,,NOUN
+gästtestare,guest tester,,NOUN
+går,passing,,NOUN
+handväsk,handbag,,NOUN
+hej_så_vidare,greetings,,NOUN
+helknäpp,full stop,,NOUN
+hemväg,homeward,,NOUN
+heroinånga,heroin vapor,,NOUN
+hjäip,help,,NOUN
+hjält,hero,,NOUN
+hjärnaktivitet,brain activity,,NOUN
+hjärnskadad,brain damage,,NOUN
+hjärtlig,heartfelt,,NOUN
+häkta,arrest,,NOUN
+hämna,revenge,,NOUN
+hämtad,retrieval,,NOUN
+häng,hanging,,NOUN
+här-,here,,NOUN
+häromkväll,last evening,,NOUN
+häromår,last year,,NOUN
+hålia,cave,,NOUN
+hålja,hollow,,NOUN
+håll,hold,,NOUN
+hårdhandskare,stiff glove,,NOUN
+håv,dredge,,NOUN
+höet,hat,,NOUN
+höft,hip,,NOUN
+höjdpunkt,highlight,,NOUN
+höjdskräck,fear of heights,,NOUN
+iakttagelseförmåga,observation skill,,NOUN
+ihåg.,memory,,NOUN
+ijöga,eye,,NOUN
+inköp,purchase,,NOUN
+iägenhet,ownership,,NOUN
+iägga,anger,,NOUN
+iämna,intention,,NOUN
+iäta,eating,,NOUN
+iätt,eating,,NOUN
+iång,steam,,NOUN
+julgröt,Christmas porridge,,NOUN
+junior-tröja,junior jersey,,NOUN
+järklig,terribleness,,NOUN
+jätt,giant,,NOUN
+jättebr,goodness,,NOUN
+jättecool,coolness,,NOUN
+jätteglad,happiness,,NOUN
+jättegod,goodness,,NOUN
+jättegullig,sweetness,,NOUN
+jättekulma,fun,,NOUN
+jätteliten,smallness,,NOUN
+jättemycket,abundance,,NOUN
+jättenär,closeness,,NOUN
+jätterolig,funniness,,NOUN
+jättestor,bigness,,NOUN
+jättetrevlig,niceness,,NOUN
+jätteupptagen,busyness,,NOUN
+jätteviktig,importance,,NOUN
+jäven,terribleness,,NOUN
+jävlig,terribleness,,NOUN
+jävul,devil,,NOUN
+jösses.,goodness,,NOUN
+kartiägg,egg card,,NOUN
+knän,knee,,NOUN
+konstnärlig,artistry,,NOUN
+kräka,vomit,,NOUN
+krångla,tangle,,NOUN
+kväil,stupidity,,NOUN
+käk,snack,,NOUN
+känsla.,feeling,,NOUN
+känslan,feeling,,NOUN
+känslosam,emotion,,NOUN
+kära,dear,,NOUN
+kåre,care,,NOUN
+köpt,purchase,,NOUN
+landsväg,highway,,NOUN
+legoförband,legion unit,,NOUN
+ljushårig,fair hair,,NOUN
+ljusår,light-year,,NOUN
+ljög,lie,,NOUN
+lägg,lay,,NOUN
+läkarbesök,doctor visit,,NOUN
+läkarhjälp,medical help,,NOUN
+lär,learning,,NOUN
+lång.,long,,NOUN
+låttext,lyrics,,NOUN
+lönnmördarförband,wage murder unit,,NOUN
+mjölktand,milk tooth,,NOUN
+muskelvärk,muscle ache,,NOUN
+märkt,mark,,NOUN
+mån,moon,,NOUN
+möjiig,possibility,,NOUN
+mördad,murder,,NOUN
+mött,meeting,,NOUN
+nuiäge,something,,NOUN
+nyårsklänning,New Year dress,,NOUN
+nätdejtingprofil,online dating profile,,NOUN
+nån.,some,,NOUN
+nånsin,ever,,NOUN
+nånstans,somewhere,,NOUN
+nånting,something,,NOUN
+nåt.,something,,NOUN
+nördige,nerd,,NOUN
+oförlåtlig,unforgivable,,NOUN
+oförutsebar,unpredictable,,NOUN
+olåst,unlocked,,NOUN
+omskött,managed,,NOUN
+osäkrad,unsecured,,NOUN
+overlämna,handover,,NOUN
+patrulltjänst,patrol duty,,NOUN
+personbästa,personal best,,NOUN
+pojkvänn,boyfriend,,NOUN
+polisanmälda,police report,,NOUN
+poängsatt,score,,NOUN
+provköra,test drive,,NOUN
+provsköta,trial run,,NOUN
+prövning,trial,,NOUN
+på.,on,,NOUN
+påtänkt,intended,,NOUN
+rädd.,afraid,,NOUN
+saltök,salt shaker,,NOUN
+segelbåt,sailboat,,NOUN
+simträning,swim training,,NOUN
+siäkt,sought,,NOUN
+siänga,singing,,NOUN
+siäpp,soup,,NOUN
+siå,sea,,NOUN
+siår,wound,,NOUN
+självklar,self-evident,,NOUN
+självmordskandidat,suicide candidate,,NOUN
+självmordstank,suicidal thought,,NOUN
+sjätt,sixth,,NOUN
+skaligång,shedding,,NOUN
+skamkänsla,sense of shame,,NOUN
+skitstövel,bastard,,NOUN
+skittråkig,sadness,,NOUN
+skottsäker,bulletproof,,NOUN
+skäligen,reason,,NOUN
+skötsam,good behavior,,NOUN
+slutända,terminus,,NOUN
+släpp,release,,NOUN
+slöjd,handicraft,,NOUN
+smäil,smile,,NOUN
+smäla,smile,,NOUN
+smälla,slam,,NOUN
+smärtfri,painless,,NOUN
+smärtlindring,pain relief,,NOUN
+snutjävel,bastard,,NOUN
+snälia,snail,,NOUN
+solljuskänslighet,sun sensitivity,,NOUN
+spansklärare,span cleaner,,NOUN
+specialfönst,special window,,NOUN
+specialfönster,special window,,NOUN
+spräcka,crack,,NOUN
+sträck,stretch,,NOUN
+stäila,stroll,,NOUN
+ständig,constant,,NOUN
+stängsle,stake,,NOUN
+ståndtrop,status,,NOUN
+superdöd,super dead,,NOUN
+superhög,super high,,NOUN
+svårflörtad,difficult flirt,,NOUN
+sämt,conversation,,NOUN
+sängkaäd,bed,,NOUN
+så_kallad,so-called,,NOUN
+såg,saw,,NOUN
+såhär,like this,,NOUN
+söm,sleep,,NOUN
+sömntablett,sleeping pill,,NOUN
+tillföra,supply,,NOUN
+tillsträck,sufficiency,,NOUN
+tillstå,confession,,NOUN
+tjänsteå,service year,,NOUN
+tränarjävel,trainer bastard,,NOUN
+träningsredskap,exercise equipment,,NOUN
+tröstande,comfort,,NOUN
+tändare,lighter,,NOUN
+tärnvä,tern path,,NOUN
+tävlingsjävul,competition bastard,,NOUN
+törst,thirst,,NOUN
+undermålig,substandard,,NOUN
+upp_särhe<sos>,peculiarity,,NOUN
+uppvärmning,warming,,NOUN
+utlösande,triggering,,NOUN
+utlösningsmekanism,trigger mechanism,,NOUN
+vattentäd,watertight,,NOUN
+vittneskyddstäckmantel,witness protection,,NOUN
+vräka,ejection,,NOUN
+vägbom,roadblock,,NOUN
+väi,path,,NOUN
+välkomne,welcome,,NOUN
+välkomstkommitt,welcome committee,,NOUN
+vänd,reversal,,NOUN
+vändplan,turntable,,NOUN
+vänne,friend,,NOUN
+vänner,friend,,NOUN
+väpnare,armorer,,NOUN
+värdesak,cause,,NOUN
+värid,world,,NOUN
+vårdhem,care home,,NOUN
+äckla,loathing,,NOUN
+äiskling,ice pick,,NOUN
+ämbetsdräkt,uniform,,NOUN
+äran,honor,,NOUN
+ärja,honor,,NOUN
+ärju,honor,,NOUN
+äventyrsvän,companion,,NOUN
+åkiagare,skater,,NOUN
+åkomma,arrival,,NOUN
+återställd,restoration,,NOUN
+återupprätta,restoration,,NOUN
+ögon,eye,,NOUN
+ögonlock,eyelid,,NOUN
+överfail,overfall,,NOUN
+övergiven,abandonment,,NOUN
+överlevd,survival,,NOUN
+överlägsen,superiority,,NOUN

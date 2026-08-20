@@ -46,7 +46,7 @@ def test_check_shrunken_glosses_flags_head_reduction() -> None:
     source = [make_row("de", "heißen", "to be called")]
     delivery = [make_row("de", "heißen", "be")]
     assert check_shrunken_glosses(delivery, source) == [
-        "de:heißen: 'to be called' -> 'be'"
+        "de:heißen: ['to be called'] -> 'be'"
     ]
 
 

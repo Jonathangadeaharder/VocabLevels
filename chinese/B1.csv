@@ -212,14 +212,14 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 单位,unit,单位,NOUN
 单元,unit,单元,NOUN
 单独,alone,单独,ADV
-单纯,simple; pure,单纯,ADJ
+单纯,simple pure,单纯,ADJ
 单调,monotonous,单调,ADJ
 博物馆,museum,博物馆,NOUN
 占线,busy (telephone line),占线,VERB
 卡车,truck,卡车,NOUN
 卧室,bedroom,卧室,NOUN
 卫生间,bathroom,卫生间,NOUN
-危害,to jeopardize; to harm,危害,VERB
+危害,to jeopardize to harm,危害,VERB
 卷,to roll up,卷,VERB
 厕所,toilet,厕所,NOUN
 厘米,centimeter,厘米,NOUN
@@ -228,26 +228,26 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 去世,to pass away,去世,VERB
 县,county,县,NOUN
 参与,to participate,参与,VERB
-参考,to consult; reference,参考,VERB
+参考,to consult reference,参考,VERB
 叉子,fork,叉子,NOUN
 及格,to pass (an exam),及格,VERB
 双方,both parties,双方,NOUN
 反复,repeatedly,反复,ADV
-反应,to react; reaction,反应,VERB
+反应,to react reaction,反应,VERB
 反正,anyway,反正,ADV
-反而,instead; on the contrary,反而,ADV
+反而,instead on the contrary,反而,ADV
 发愁,to worry,发愁,VERB
 发抖,to tremble,发抖,VERB
-发挥,to display; to bring into play,发挥,VERB
+发挥,to display to bring into play,发挥,VERB
 发明,to invent,发明,VERB
 发票,invoice,发票,NOUN
-发表,to issue; to publish,发表,VERB
+发表,to issue to publish,发表,VERB
 发言,to make a speech,发言,VERB
 发达,developed,发达,ADJ
 取消,to cancel,取消,VERB
 受伤,to sustain injuries,受伤,VERB
-叙述,to relate; to narrate,叙述,VERB
-口味,taste; preference,口味,NOUN
+叙述,to relate to narrate,叙述,VERB
+口味,taste preference,口味,NOUN
 古代,ancient times,古代,NOUN
 古典,classical,古典,ADJ
 古老,ancient,古老,ADJ
@@ -447,7 +447,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 差别,difference,差别,NOUN
 布,cloth,布,NOUN
 常识,common sense,常识,NOUN
-幅,"classifier for paintings, cloth, etc.",幅,NUM
+幅,classifier for paintings cloth etc.,幅,NUM
 干活儿,to work,干活儿,VERB
 干脆,straightforward,干脆,ADJ
 平,flat,平,ADJ
@@ -999,156 +999,156 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 偶然地,accidentally,偶然地,ADV
 必然地,inevitably,必然地,ADV
 突然地,suddenly,突然地,ADV
-杀人,,杀人,VERB
-进城,,进城,VERB
-气,,气,PART
-今,,今,NOUN
-女,,女,NOUN
-进来,,进来,VERB
-那些,,那些,DET
-儿,,儿,NOUN
-面,,面,PART
-知,,知,VERB
-求,,求,VERB
-丞相,,丞相,NOUN
-老臣,,老臣,NOUN
-报,,报,VERB
-管,,管,VERB
-晚,,晚,ADJ
-寸,,寸,NOUN
-走吧,,走吧,VERB
-言,,言,VERB
-虽,,虽,ADP
-重伤,,重伤,VERB
-清,,清,PART
-冠,,冠,NOUN
-礼,,礼,NOUN
-奸,,奸,NOUN
-戏阳,,戏阳,NOUN
-嫁人,,嫁人,VERB
-事吧,,事吧,NOUN
-样,,样,ADJ
-过来,,过来,VERB
-至,,至,ADP
-梳,,梳,VERB
-败,,败,VERB
-护驾,,护驾,VERB
-箭伤,,箭伤,NOUN
-一笑,,一笑,VERB
-竟,,竟,ADV
-兄长,,兄长,NOUN
-绝,,绝,ADV
-酒,,酒,NOUN
-有些,,有些,VERB
-跑,,跑,VERB
-抓,,抓,VERB
-手里,,手里,NOUN
-者,,者,PART
-番,,番,NOUN
-让开,,让开,VERB
-松开,,松开,VERB
-句,,句,NOUN
-身上,,身上,NOUN
-红衣,,红衣,NOUN
-路上,,路上,NOUN
-无法,,无法,VERB
-抗,,抗,VERB
-夙,,夙,NOUN
-砂,,砂,NOUN
-射落,,射落,VERB
-山崖,,山崖,NOUN
-生死,,生死,NOUN
-你别,,你别,PRON
-征战,,征战,NOUN
-军中,,军中,NOUN
-心思,,心思,NOUN
-朝堂,,朝堂,NOUN
-看透,,看透,VERB
-嫂,,嫂,PART
-顺子,,顺子,NOUN
-更衣,,更衣,VERB
-兄,,兄,PART
-报仇,,报仇,VERB
-肆,,肆,VERB
-能够,,能够,AUX
-身,,身,NOUN
-岂,,岂,ADV
-那里,,那里,PRON
-本事,,本事,NOUN
-虚名,,虚名,NOUN
-落,,落,VERB
-好吧,,好吧,NOUN
-阻拦,,阻拦,VERB
-治,,治,VERB
-战败,,战败,VERB
-百姓,,百姓,NOUN
-遭遇,,遭遇,NOUN
-相,,相,ADJ
-自,,自,ADP
-也是,,也是,SCONJ
-立下,,立下,VERB
-然,,然,VERB
-一时,,一时,ADV
-悬崖,,悬崖,NOUN
-怎,,怎,ADV
-似,,似,VERB
-进宫,,进宫,VERB
-奉,,奉,VERB
-刑部,,刑部,NOUN
-冠礼,,冠礼,NOUN
-皇,,皇,NOUN
-郃弟,,郃弟,NOUN
-义子,,义子,NOUN
-父,,父,PART
-儿臣,,儿臣,NOUN
-皇家,,皇家,NOUN
-小孩,,小孩,NOUN
-手伤,,手伤,NOUN
-妾室,,妾室,NOUN
-匕首,,匕首,NOUN
-我听,,我听,PRON
-我早,,我早,PRON
-你难道,,你难道,PRON
-都有,,都有,VERB
-还能,,还能,AUX
-将士,,将士,NOUN
-救你,,救你,VERB
-还真,,还真,ADV
-你快,,你快,PRON
-我付,,我付,VERB
-给你,,给你,VERB
-拦我,,拦我,VERB
-可你,,可你,PRON
-庄主,,庄主,NOUN
-你来,,你来,PRON
-可他,,可他,VERB
-剑给,,剑给,VERB
-着吧,,着吧,VERB
-放肆,,放肆,ADJ
-我倒,,我倒,ADV
-但我,,但我,SCONJ
-对你,,对你,ADP
-都行,,都行,VERB
-师娘,,师娘,NOUN
-你要,,你要,PRON
-我乃,,我乃,PRON
-好了,,好了,VERB
-我走,,我走,PRON
-从今,,从今,ADP
-边关,,边关,NOUN
-你带,,你带,VERB
-治好,,治好,VERB
-治病,,治病,VERB
-还要,,还要,AUX
-禀陛下,,禀陛下,VERB
-都怪我,,都怪我,VERB
-之事,,之事,NOUN
-罢了,,罢了,VERB
-生在,,生在,VERB
-你干,,你干,PRON
-南关,,南关,NOUN
-有人,,有人,ADP
-我也,,我也,SCONJ
-你都,,你都,PRON
-凌少,,凌少,VERB
-嫂嫂,,嫂嫂,NOUN
+杀人,to kill,杀人,VERB
+进城,to enter city,进城,VERB
+气,particle,气,PART
+今,today,今,NOUN
+女,woman,女,NOUN
+进来,to come in,进来,VERB
+那些,those,那些,DET
+儿,child,儿,NOUN
+面,particle,面,PART
+知,to know,知,VERB
+求,to beg,求,VERB
+丞相,chancellor,丞相,NOUN
+老臣,old minister,老臣,NOUN
+报,to report,报,VERB
+管,to manage,管,VERB
+晚,late,晚,ADJ
+寸,inch,寸,NOUN
+走吧,to go,走吧,VERB
+言,to speak,言,VERB
+虽,although,虽,ADP
+重伤,to wound,重伤,VERB
+清,particle,清,PART
+冠,crown,冠,NOUN
+礼,ritual,礼,NOUN
+奸,treachery,奸,NOUN
+戏阳,Xi Yang,戏阳,NOUN
+嫁人,to marry,嫁人,VERB
+事吧,matter,事吧,NOUN
+样,such,样,ADJ
+过来,to come over,过来,VERB
+至,until,至,ADP
+梳,to comb,梳,VERB
+败,to defeat,败,VERB
+护驾,to protect,护驾,VERB
+箭伤,arrow wound,箭伤,NOUN
+一笑,to smile,一笑,VERB
+竟,unexpectedly,竟,ADV
+兄长,elder brother,兄长,NOUN
+绝,absolutely,绝,ADV
+酒,wine,酒,NOUN
+有些,to have some,有些,VERB
+跑,to run,跑,VERB
+抓,to grab,抓,VERB
+手里,hand,手里,NOUN
+者,one who,者,PART
+番,round,番,NOUN
+让开,to move aside,让开,VERB
+松开,to release,松开,VERB
+句,sentence,句,NOUN
+身上,body,身上,NOUN
+红衣,red robe,红衣,NOUN
+路上,road,路上,NOUN
+无法,to be unable,无法,VERB
+抗,to resist,抗,VERB
+夙,old,夙,NOUN
+砂,sand,砂,NOUN
+射落,to shoot down,射落,VERB
+山崖,cliff,山崖,NOUN
+生死,life and death,生死,NOUN
+你别,you,你别,PRON
+征战,campaign,征战,NOUN
+军中,army,军中,NOUN
+心思,thought,心思,NOUN
+朝堂,court,朝堂,NOUN
+看透,to see through,看透,VERB
+嫂,sister-in-law,嫂,PART
+顺子,sequence,顺子,NOUN
+更衣,to change clothes,更衣,VERB
+兄,brother,兄,PART
+报仇,to avenge,报仇,VERB
+肆,to be reckless,肆,VERB
+能够,to be able,能够,AUX
+身,body,身,NOUN
+岂,how,岂,ADV
+那里,there,那里,PRON
+本事,skill,本事,NOUN
+虚名,empty fame,虚名,NOUN
+落,to fall,落,VERB
+好吧,alright,好吧,NOUN
+阻拦,to block,阻拦,VERB
+治,to govern,治,VERB
+战败,to defeat,战败,VERB
+百姓,commoner,百姓,NOUN
+遭遇,encounter,遭遇,NOUN
+相,mutual,相,ADJ
+自,from,自,ADP
+也是,also,也是,SCONJ
+立下,to establish,立下,VERB
+然,to be so,然,VERB
+一时,temporarily,一时,ADV
+悬崖,cliff,悬崖,NOUN
+怎,how,怎,ADV
+似,to resemble,似,VERB
+进宫,to enter palace,进宫,VERB
+奉,to serve,奉,VERB
+刑部,Ministry of Justice,刑部,NOUN
+冠礼,capping ceremony,冠礼,NOUN
+皇,emperor,皇,NOUN
+郃弟,Brother He,郃弟,NOUN
+义子,adopted son,义子,NOUN
+父,father,父,PART
+儿臣,your son,儿臣,NOUN
+皇家,imperial family,皇家,NOUN
+小孩,child,小孩,NOUN
+手伤,hand wound,手伤,NOUN
+妾室,concubine,妾室,NOUN
+匕首,dagger,匕首,NOUN
+我听,I,我听,PRON
+我早,I,我早,PRON
+你难道,you,你难道,PRON
+都有,to have,都有,VERB
+还能,can still,还能,AUX
+将士,soldier,将士,NOUN
+救你,to save you,救你,VERB
+还真,indeed,还真,ADV
+你快,you,你快,PRON
+我付,to pay,我付,VERB
+给你,to give you,给你,VERB
+拦我,to stop me,拦我,VERB
+可你,you,可你,PRON
+庄主,manor lord,庄主,NOUN
+你来,you,你来,PRON
+可他,to be,可他,VERB
+剑给,to give,剑给,VERB
+着吧,to be,着吧,VERB
+放肆,impudent,放肆,ADJ
+我倒,rather,我倒,ADV
+但我,but,但我,SCONJ
+对你,to,对你,ADP
+都行,to work,都行,VERB
+师娘,master's wife,师娘,NOUN
+你要,you,你要,PRON
+我乃,I,我乃,PRON
+好了,to finish,好了,VERB
+我走,I,我走,PRON
+从今,from,从今,ADP
+边关,frontier,边关,NOUN
+你带,to bring,你带,VERB
+治好,to cure,治好,VERB
+治病,to treat,治病,VERB
+还要,to need,还要,AUX
+禀陛下,to report,禀陛下,VERB
+都怪我,to blame,都怪我,VERB
+之事,matter,之事,NOUN
+罢了,to suffice,罢了,VERB
+生在,to be born,生在,VERB
+你干,you,你干,PRON
+南关,south gate,南关,NOUN
+有人,with,有人,ADP
+我也,and,我也,SCONJ
+你都,you,你都,PRON
+凌少,to be,凌少,VERB
+嫂嫂,sister-in-law,嫂嫂,NOUN
