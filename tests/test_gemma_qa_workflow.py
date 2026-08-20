@@ -6,6 +6,7 @@ import threading
 from collections.abc import Sequence
 from pathlib import Path
 
+import httpx
 import pytest
 
 from scripts.gemma_qa.cefr import (
@@ -581,3 +582,46 @@ def test_api_key_is_required(monkeypatch: pytest.MonkeyPatch) -> None:
         monkeypatch.delenv(name, raising=False)
     with pytest.raises(RuntimeError, match="API_KEY"):
         get_api_key()
+
+
+def test_batch_recovers_when_first_model_times_out(tmp_path: Path) -> None:
+    make_german_csv(tmp_path)
+    ledger = Ledger(tmp_path / ".gemma_qa" / "ledger.sqlite3")
+
+    class TimeoutOnceClient(FakeClient):
+        def __init__(self):
+            super().__init__()
+            self.failures = 0
+
+        def generate(
+            self,
+            *,
+            model: str,
+            prompt: str,
+            response_model: type[CefrReviewBatch],
+            max_output_tokens: int,
+        ):
+            if self.failures == 0:
+                self.failures += 1
+                raise httpx.ReadTimeout("request wall clock exceeded after 180s")
+            return super().generate(
+                model=model,
+                prompt=prompt,
+                response_model=response_model,
+                max_output_tokens=max_output_tokens,
+            )
+
+    client = TimeoutOnceClient()
+    output = run_cefr(
+        root=tmp_path,
+        lang="german",
+        level="A1",
+        client=client,
+        ledger=ledger,
+        limit=1,
+    )
+    assert output.exists()
+    assert client.failures == 1
+    # First attempt timed out on one model, retry attempt succeeded with rotated dual pair
+    assert len(client.calls) >= 2
+    ledger.close()
