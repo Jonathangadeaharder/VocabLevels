@@ -43,7 +43,7 @@ def request_wall_clock_s() -> float:
         value = float(raw)
     except ValueError:
         value = 180.0
-    return max(1.0, min(value, 900.0))
+    return max(0.1, min(value, 900.0))
 
 
 

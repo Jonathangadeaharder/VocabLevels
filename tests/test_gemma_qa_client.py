@@ -74,8 +74,6 @@ class FixedEstimator(TokenEstimator):
         return len(text)
 
 
-
-
 def test_client_retries_429_and_parses_fenced_json(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
@@ -313,8 +311,14 @@ def test_request_uses_tng_openai_chat_shape(
     body = requests[0]
     assert body["model"] == MODEL_QWEN_397B
     assert body["reasoning_effort"] == "none"
-    assert body["response_format"]["type"] == "json_schema"
-    assert body["messages"][0]["content"] == "review"
+    response_format = body["response_format"]
+    assert isinstance(response_format, dict)
+    assert response_format["type"] == "json_schema"
+    messages = body["messages"]
+    assert isinstance(messages, list)
+    first_message = messages[0]
+    assert isinstance(first_message, dict)
+    assert first_message["content"] == "review"
 
 
 def test_parse_response_ignores_live_shaped_thought_part() -> None:
@@ -628,3 +632,37 @@ def test_slot_acquire_times_out(monkeypatch: pytest.MonkeyPatch) -> None:
         with cfg._slot_lock:
             cfg._model_semaphores.pop(key, None)
             cfg._model_inflight.pop(key, None)
+
+
+def test_wall_clock_timeout_aborts_slow_stream(monkeypatch: pytest.MonkeyPatch) -> None:
+    import time
+    from httpx import SyncByteStream
+
+    monkeypatch.setenv("API_KEY", "secret-value")
+    monkeypatch.setenv("GEMMA_QA_REQUEST_WALL_S", "0.2")
+
+    class SlowByteStream(SyncByteStream):
+        def __iter__(self):
+            yield b'{"choices": ['
+            time.sleep(0.3)
+            yield b"]}"
+
+        def close(self):
+            pass
+
+    def slow_stream_handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(200, stream=SlowByteStream(), request=request)
+
+    with httpx.Client(
+        transport=httpx.MockTransport(slow_stream_handler)
+    ) as http_client:
+        client = GemmaClient(
+            http_client=http_client, max_retries=1, sleeper=lambda _: None
+        )
+        with pytest.raises(httpx.ReadTimeout, match="request wall clock exceeded"):
+            client.generate(
+                model="Qwen/Qwen3.5-397B-A17B-FP8",
+                prompt="review",
+                response_model=CefrReviewBatch,
+                max_output_tokens=100,
+            )
