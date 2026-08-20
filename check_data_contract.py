@@ -125,16 +125,25 @@ def load_delivery_rows(delivery: Path) -> list[Row]:
 
 
 def check_shrunken_glosses(delivery: list[Row], source: list[Row]) -> list[str]:
-    """Criterion 1: a multi-word source gloss must not shrink to one word."""
-    source_gloss = {(r.lang, r.lemma): r.english_gloss for r in source}
+    """Criterion 1: a multi-word source gloss must not shrink to one word.
+
+    A lemma may carry several senses in the source; every source gloss is
+    kept. A single-word delivery gloss is a shrink only when the source has a
+    multi-word gloss for that lemma and the single word is not itself one of
+    the authored senses.
+    """
+    source_glosses: dict[tuple[str, str], set[str]] = defaultdict(set)
+    for row in source:
+        source_glosses[(row.lang, row.lemma)].add(row.english_gloss)
     violations = []
     for row in delivery:
-        original = source_gloss.get((row.lang, row.lemma))
-        if original is None:
+        originals = source_glosses.get((row.lang, row.lemma), set())
+        multi = [g for g in originals if len(g.split()) > 1]
+        if not multi:
             continue
-        if len(original.split()) > 1 and len(row.english_gloss.split()) == 1:
+        if len(row.english_gloss.split()) == 1 and row.english_gloss not in originals:
             violations.append(
-                f"{row.lang}:{row.lemma}: '{original}' -> '{row.english_gloss}'"
+                f"{row.lang}:{row.lemma}: {sorted(originals)} -> '{row.english_gloss}'"
             )
     return violations
 
