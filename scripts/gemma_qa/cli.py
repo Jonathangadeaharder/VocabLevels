@@ -139,8 +139,7 @@ def build_parser() -> argparse.ArgumentParser:
     normalize_english = subparsers.add_parser(
         "normalize-english",
         help=(
-            "Rewrite English CEFR CSVs so lemma matches english_lemma; "
-            "dedupe lemma+POS"
+            "Rewrite English CEFR CSVs so lemma matches english_lemma; dedupe lemma+POS"
         ),
     )
     normalize_english.add_argument("--root", type=Path, required=True)
@@ -258,7 +257,9 @@ def main(argv: Sequence[str] | None = None) -> int:
         if running:
             print(f"running_tasks={' '.join(running)}")
         events_path = args.root / ".gemma_qa" / "events.jsonl"
-        recent = recent_events(events_path, limit=args.events if hasattr(args, "events") else 15)
+        recent = recent_events(
+            events_path, limit=args.events if hasattr(args, "events") else 15
+        )
         if recent:
             print(f"events_path={events_path} recent={len(recent)}")
             for item in recent:

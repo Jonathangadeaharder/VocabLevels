@@ -159,9 +159,9 @@ def summarize_parsed(parsed: object) -> dict[str, Any]:
     """Compact summary of structured model output for logs."""
     if parsed is None:
         return {"type": "none"}
-    dump: Any
-    if hasattr(parsed, "model_dump"):
-        dump = parsed.model_dump()
+    model_dump_fn = getattr(parsed, "model_dump", None)
+    if callable(model_dump_fn):
+        dump = model_dump_fn()
     elif isinstance(parsed, Mapping):
         dump = dict(parsed)
     else:

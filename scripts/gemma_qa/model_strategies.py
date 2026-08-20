@@ -95,9 +95,7 @@ class ModelStrategy(ABC):
         """Model-specific chat.completions fields (thinking, etc.)."""
         extras: dict[str, object] = {}
         if cls.prefers_reasoning_effort_none:
-            extras["reasoning_effort"] = os.environ.get(
-                "TNG_REASONING_EFFORT", "none"
-            )
+            extras["reasoning_effort"] = os.environ.get("TNG_REASONING_EFFORT", "none")
         return extras
 
     @classmethod
@@ -212,9 +210,7 @@ ACTIVE_STRATEGIES: tuple[type[ModelStrategy], ...] = (
     Glm52TeeStrategy,  # optional; probe may disable
 )
 
-STRATEGY_BY_KEY: dict[str, type[ModelStrategy]] = {
-    s.key(): s for s in ALL_STRATEGIES
-}
+STRATEGY_BY_KEY: dict[str, type[ModelStrategy]] = {s.key(): s for s in ALL_STRATEGIES}
 
 
 def get_strategy(model_key: str) -> type[ModelStrategy]:

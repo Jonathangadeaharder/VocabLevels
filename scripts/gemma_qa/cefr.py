@@ -137,14 +137,12 @@ def validate_review_batch(
     unknown = [rid for rid in review_ids if rid not in set(input_ids)]
     if unknown:
         raise ValueError(
-            "IDs/order/cardinality differ from input: "
-            f"unknown_ids={unknown[:3]}"
+            f"IDs/order/cardinality differ from input: unknown_ids={unknown[:3]}"
         )
     duplicates = [rid for rid, count in Counter(review_ids).items() if count > 1]
     if duplicates:
         raise ValueError(
-            "IDs/order/cardinality differ from input: "
-            f"duplicate_ids={duplicates[:3]}"
+            f"IDs/order/cardinality differ from input: duplicate_ids={duplicates[:3]}"
         )
     by_id: dict[str, CefrReviewRow] = {row.id: row for row in reviews.rows}
     ordered = [by_id[iid] for iid in input_ids]
@@ -893,8 +891,7 @@ def _review_one_batch(
                 for future in pending_futures:
                     future.cancel()
                 raise TimeoutError(
-                    f"dual generate wait ceiling {ceiling:.0f}s exceeded "
-                    f"for {batch_id}"
+                    f"dual generate wait ceiling {ceiling:.0f}s exceeded for {batch_id}"
                 )
             done_now, pending_futures = wait(pending_futures, timeout=10.0)
             _ = done_now

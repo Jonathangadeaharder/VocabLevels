@@ -9,6 +9,7 @@ import httpx
 from pydantic import BaseModel, ValidationError
 
 from .client import GenerationResult, Usage
+
 # Antigravity retired; module kept only so old imports do not crash tools.
 from .config import API_BASE, get_api_key
 from .packing import TiktokenEstimator, TokenEstimator
@@ -123,9 +124,7 @@ class AntigravityClient:
                 request_json=request_json,
                 response_json=response_json,
             )
-        raise RuntimeError(
-            f"Antigravity structured attempts exhausted: {last_error}"
-        )
+        raise RuntimeError(f"Antigravity structured attempts exhausted: {last_error}")
 
     def parse_response(
         self,
@@ -253,7 +252,9 @@ class AntigravityClient:
         metadata = response_json.get("usageMetadata") or response_json.get("usage")
         if not isinstance(metadata, dict):
             return Usage(0, 0, 0)
-        prompt = int(metadata.get("promptTokenCount") or metadata.get("input_tokens") or 0)
+        prompt = int(
+            metadata.get("promptTokenCount") or metadata.get("input_tokens") or 0
+        )
         candidate = int(
             metadata.get("candidatesTokenCount") or metadata.get("output_tokens") or 0
         )

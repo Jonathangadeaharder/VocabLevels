@@ -50,7 +50,9 @@ class Row:
     committed_before: str
 
 
-def sample_size_fpc(population: int, *, margin: float = 0.20, z: float = 1.96, p: float = 0.5) -> int:
+def sample_size_fpc(
+    population: int, *, margin: float = 0.20, z: float = 1.96, p: float = 0.5
+) -> int:
     if population <= 0:
         return 0
     n0 = (z * z * p * (1.0 - p)) / (margin * margin)
@@ -87,7 +89,9 @@ def load_level_csv(path: Path) -> list[dict[str, str]]:
         return rows
 
 
-def classify_rows(proposed: list[dict[str, str]], committed: list[dict[str, str]] | None) -> list[Row]:
+def classify_rows(
+    proposed: list[dict[str, str]], committed: list[dict[str, str]] | None
+) -> list[Row]:
     if not committed:
         return [
             Row(
@@ -306,7 +310,9 @@ def write_readme(
     (out_dir / "README.md").write_text("\n".join(rows), encoding="utf-8")
 
 
-def succeeded_tasks(root: Path, languages: set[str] | None) -> list[tuple[str, str, Path]]:
+def succeeded_tasks(
+    root: Path, languages: set[str] | None
+) -> list[tuple[str, str, Path]]:
     db = root / ".gemma_qa" / "scale.sqlite3"
     if not db.exists():
         raise SystemExit(f"missing scale db: {db}")
@@ -326,7 +332,11 @@ def succeeded_tasks(root: Path, languages: set[str] | None) -> list[tuple[str, s
     for lang, level, output in rows:
         if languages is not None and lang not in languages:
             continue
-        path = root / output if output else root / LANG_DIRS.get(lang, lang) / f"{level}.proposed.csv"
+        path = (
+            root / output
+            if output
+            else root / LANG_DIRS.get(lang, lang) / f"{level}.proposed.csv"
+        )
         tasks.append((lang, level, path))
     return tasks
 
@@ -403,7 +413,9 @@ def build_for_language(
         "verdict",
         "notes",
     ]
-    with (out_dir / "ALL.sample-p20.csv").open("w", newline="", encoding="utf-8") as handle:
+    with (out_dir / "ALL.sample-p20.csv").open(
+        "w", newline="", encoding="utf-8"
+    ) as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
         writer.writeheader()
         for row in all_rows:
