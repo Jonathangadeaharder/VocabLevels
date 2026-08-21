@@ -109,9 +109,9 @@ def test_build_delivery_rows_dedups_and_ranks_and_keys(tmp_path: Path) -> None:
     assert len(de) == 1  # duplicate merged, lowest level kept
     assert de[0].cefr == "A1"
     assert de[0].rank == 1
-    assert len(es) == 1
     assert es[0].rank == 1
-    assert es[0].concept_key == de[0].concept_key
+    assert es[1].rank == 2
+    assert es[0].concept_key == es[1].concept_key == de[0].concept_key
     assert de[0].concept_key  # non-empty, stable
 
 
