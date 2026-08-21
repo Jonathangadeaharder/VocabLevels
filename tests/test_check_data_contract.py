@@ -238,13 +238,11 @@ def test_check_script_and_substance_flags_wrong_scripts_and_junk() -> None:
         Row("zh", "复合词", "NOUN", "word", 1),  # Junk placeholder
         Row("zh", "词", "NOUN", "word", 1),  # Junk placeholder
         Row("de", "", "NOUN", "book", 1),  # Empty lemma
-        Row(
-            "de", "his departure", "NOUN", "his departure", 1
-        ),  # English multiword copy
+        Row("de", "his departure", "NOUN", "his departure", 1),  # English copy
         Row(
             "nl", "to defrost", "VERB", "to defrost", 1
         ),  # English function prefix copy
-        Row("sv", "laundry room", "NOUN", "laundry room", 1),  # English multiword copy
+        Row("sv", "barge", "NOUN", "barge", 1),  # Single-word ungrounded copy
     ]
     violations = check_script_and_substance(invalid_rows)
     assert len(violations) == 8
@@ -253,10 +251,10 @@ def test_check_script_and_substance_flags_wrong_scripts_and_junk() -> None:
     assert any("zh:junk_lemma:'复合词'" in v for v in violations)
     assert any("zh:junk_lemma:'词'" in v for v in violations)
     assert any("de:empty_lemma:'book'" in v for v in violations)
-    assert any("de:english_multiword_copy:'his departure'" in v for v in violations)
+    assert any("de:ungrounded_gloss_copy:'his departure'" in v for v in violations)
     assert any(
-        "nl:english_multiword_copy:'to defrost'" in v
-        or "nl:english_function_prefix_copy:'to defrost'" in v
+        "nl:english_function_prefix_copy:'to defrost'" in v
+        or "nl:ungrounded_gloss_copy:'to defrost'" in v
         for v in violations
     )
-    assert any("sv:english_multiword_copy:'laundry room'" in v for v in violations)
+    assert any("sv:ungrounded_gloss_copy:'barge'" in v for v in violations)
