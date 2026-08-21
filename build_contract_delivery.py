@@ -276,18 +276,23 @@ def build_delivery_rows(
             groups[(row.gloss, row.english_pos)].append(row)
         ranked[lang] = []
         for group in groups.values():
-            for position, item in enumerate(sorted(group, key=lambda r: r.lemma)):
-                ranked[lang].append(
-                    DeliveryRow(
-                        lemma=item.lemma,
-                        pos=item.pos,
-                        gloss=item.gloss,
-                        english_pos=item.english_pos,
-                        cefr=item.cefr,
-                        rank=position + 1,
-                        concept_key=item.concept_key,
-                    )
+            sorted_group = sorted(
+                group,
+                key=lambda r: (LEVELS.index(r.cefr), len(r.lemma), r.lemma),
+            )
+            # Emit rank 1 row representing the concept
+            best = sorted_group[0]
+            ranked[lang].append(
+                DeliveryRow(
+                    lemma=best.lemma,
+                    pos=best.pos,
+                    gloss=best.gloss,
+                    english_pos=best.english_pos,
+                    cefr=best.cefr,
+                    rank=1,
+                    concept_key=best.concept_key,
                 )
+            )
     return dict(ranked)
 
 
