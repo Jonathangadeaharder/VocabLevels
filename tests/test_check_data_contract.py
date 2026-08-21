@@ -11,6 +11,7 @@ from check_data_contract import (
     check_ascii,
     check_duplicates,
     check_rank_gaps,
+    check_script_and_substance,
     check_shrunken_glosses,
     load_csv_rows,
     load_delivery_rows,
@@ -219,3 +220,26 @@ def test_load_csv_rows_with_expansion(tmp_path: Path) -> None:
     rows = load_csv_rows(tmp_path)
     assert len(rows) == 2
     assert rows[1].lemma == "Katze"
+
+
+def test_check_script_and_substance_flags_wrong_scripts_and_junk() -> None:
+    valid_rows = [
+        Row("ar", "كتاب", "NOUN", "book", 1),
+        Row("zh", "书", "NOUN", "book", 1),
+        Row("de", "Buch", "NOUN", "book", 1),
+        Row("en", "book", "NOUN", "book", 1),
+    ]
+    assert check_script_and_substance(valid_rows) == []
+
+    invalid_rows = [
+        Row("ar", "book", "NOUN", "book", 1),  # Latin in Arabic
+        Row("zh", "book", "NOUN", "book", 1),  # Latin in Chinese
+        Row("zh", "复合词", "NOUN", "word", 1),  # Junk placeholder
+        Row("de", "", "NOUN", "book", 1),  # Empty lemma
+    ]
+    violations = check_script_and_substance(invalid_rows)
+    assert len(violations) == 4
+    assert any("ar:non_arabic_script:'book'" in v for v in violations)
+    assert any("zh:non_chinese_script:'book'" in v for v in violations)
+    assert any("zh:junk_lemma:'复合词'" in v for v in violations)
+    assert any("de:empty_lemma:'book'" in v for v in violations)

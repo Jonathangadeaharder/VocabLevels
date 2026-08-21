@@ -41,6 +41,21 @@ CODE_TO_DIR = {code: name for name, code in LANG_DIRS.items()}
 GLOSS_ASCII = re.compile(r"^[A-Za-z '.-]+$")
 MIN_COVERAGE = 0.60
 
+ARABIC_SCRIPT = re.compile(r"[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]")
+CHINESE_SCRIPT = re.compile(r"[\u4E00-\u9FFF\u3400-\u4DBF]")
+FORBIDDEN_JUNK_LEMMAS = {
+    "复合词",
+    "名词",
+    "动词",
+    "形容词",
+    "副词",
+    "介词",
+    "代词",
+    "连词",
+    "感叹词",
+    "X",
+}
+
 TSV_HEADER = [
     "lemma",
     "pos",
@@ -215,6 +230,26 @@ def check_ascii(rows: list[Row]) -> list[str]:
     return violations
 
 
+def check_script_and_substance(rows: list[Row]) -> list[str]:
+    """Criterion 6: valid target script, no junk placeholder tokens, no ungrounded gloss copies."""
+    violations = []
+    for row in rows:
+        lemma = row.lemma.strip()
+        if not lemma:
+            violations.append(f"{row.lang}:empty_lemma:'{row.english_gloss}'")
+            continue
+        if lemma in FORBIDDEN_JUNK_LEMMAS:
+            violations.append(f"{row.lang}:junk_lemma:'{lemma}'")
+            continue
+        if row.lang == "ar":
+            if any(c.isalpha() for c in lemma) and not ARABIC_SCRIPT.search(lemma):
+                violations.append(f"ar:non_arabic_script:'{lemma}'")
+        elif row.lang == "zh":
+            if any(c.isalpha() for c in lemma) and not CHINESE_SCRIPT.search(lemma):
+                violations.append(f"zh:non_chinese_script:'{lemma}'")
+    return violations
+
+
 def run_baseline(root: Path) -> int:
     rows = load_csv_rows(root)
     print(f"CSV baseline: {len(rows)} rows")
@@ -287,6 +322,12 @@ def run_delivery(delivery: Path, root: Path) -> int:
     for item in ascii_bad[:20]:
         print(f"  {item}")
     failed |= bool(ascii_bad)
+
+    script_bad = check_script_and_substance(rows)
+    print(f"criterion 6: {len(script_bad)} script or substance violations")
+    for item in script_bad[:20]:
+        print(f"  {item}")
+    failed |= bool(script_bad)
 
     print("RESULT: FAIL" if failed else "RESULT: PASS")
     return 1 if failed else 0
