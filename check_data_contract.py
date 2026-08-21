@@ -44,6 +44,7 @@ MIN_COVERAGE = 0.60
 ARABIC_SCRIPT = re.compile(r"[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]")
 CHINESE_SCRIPT = re.compile(r"[\u4E00-\u9FFF\u3400-\u4DBF]")
 FORBIDDEN_JUNK_LEMMAS = {
+    "词",
     "复合词",
     "名词",
     "动词",
@@ -55,6 +56,28 @@ FORBIDDEN_JUNK_LEMMAS = {
     "感叹词",
     "X",
 }
+
+ENGLISH_FUNCTION_PREFIXES = (
+    "to ",
+    "the ",
+    "a ",
+    "an ",
+    "of ",
+    "in ",
+    "at ",
+    "on ",
+    "by ",
+    "for ",
+    "with ",
+    "from ",
+    "his ",
+    "her ",
+    "their ",
+    "our ",
+    "my ",
+    "your ",
+    "its ",
+)
 
 TSV_HEADER = [
     "lemma",
@@ -247,6 +270,22 @@ def check_script_and_substance(rows: list[Row]) -> list[str]:
         elif row.lang == "zh":
             if any(c.isalpha() for c in lemma) and not CHINESE_SCRIPT.search(lemma):
                 violations.append(f"zh:non_chinese_script:'{lemma}'")
+        elif row.lang != "en":
+            # Non-English Latin-script languages: check for ungrounded English gloss copies
+            gloss_norm = normalize_gloss(row.english_gloss)
+            lemma_norm = normalize_gloss(lemma)
+            # 1. Exact match on multi-word gloss
+            if " " in gloss_norm and (
+                lemma_norm == gloss_norm or lemma.lower() == row.english_gloss.lower()
+            ):
+                violations.append(f"{row.lang}:english_multiword_copy:'{lemma}'")
+            # 2. English function word prefixes
+            elif (
+                lemma.lower().startswith(ENGLISH_FUNCTION_PREFIXES)
+                or row.english_gloss.lower().startswith(ENGLISH_FUNCTION_PREFIXES)
+                and lemma.lower() == row.english_gloss.lower()
+            ):
+                violations.append(f"{row.lang}:english_function_prefix_copy:'{lemma}'")
     return violations
 
 
