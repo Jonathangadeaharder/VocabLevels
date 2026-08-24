@@ -1,0 +1,606 @@
+Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
+老鼠,rat,老鼠,NOUN
+聚会,gathering,聚会,NOUN
+肌肉,muscle,肌肉,NOUN
+肥皂,soap,肥皂,NOUN
+肩膀,shoulder,肩膀,NOUN
+肺,lung,肺,NOUN
+胃,stomach,胃,NOUN
+背,back,背,NOUN
+胡同,alley,胡同,NOUN
+胡说,to talk nonsense,胡说,VERB
+胳膊,arm,胳膊,NOUN
+胶水,glue,胶水,NOUN
+胸,chest,胸,NOUN
+脑袋,head,脑袋,NOUN
+脖子,neck,脖子,NOUN
+腰,waist,腰,NOUN
+自动,automatic,自动,ADJ
+自由,freedom,自由,NOUN
+臭,smelly,臭,ADJ
+舅舅,maternal uncle,舅舅,NOUN
+舌头,tongue,舌头,NOUN
+节,festival,节,NOUN
+花生,peanut,花生,NOUN
+蔬菜,vegetable,蔬菜,NOUN
+薄,thin,薄,ADJ
+蛇,snake,蛇,NOUN
+蜜蜂,bee,蜜蜂,NOUN
+蜡烛,candle,蜡烛,NOUN
+蝴蝶,butterfly,蝴蝶,NOUN
+表情,expression,表情,NOUN
+装,clothing,装,NOUN
+要不,otherwise,要不,PART
+要是,if,要是,PART
+设计,design,设计,NOUN
+诗,poem,诗,NOUN
+豆腐,tofu,豆腐,NOUN
+赶快,quickly,赶快,ADV
+赶紧,hurriedly,赶紧,ADV
+踩,to step on,踩,VERB
+车库,garage,车库,NOUN
+辣椒,chili pepper,辣椒,NOUN
+运气,luck,运气,NOUN
+进步,to progress,进步,VERB
+迷路,to lose one's way,迷路,VERB
+退,to retreat,退,VERB
+逃,to escape,逃,VERB
+递,to hand over,递,VERB
+邮局,post office,邮局,NOUN
+酒吧,bar,酒吧,NOUN
+酱油,soy sauce,酱油,NOUN
+醉,drunk,醉,ADJ
+醋,vinegar,醋,NOUN
+重,heavy,重,ADJ
+钓,to fish,钓,VERB
+钟,clock,钟,NOUN
+铃,bell,铃,NOUN
+银,silver,银,NOUN
+锁,lock,锁,NOUN
+锅,pot,锅,NOUN
+错误,mistake,错误,NOUN
+闻,smell,闻,VERB
+阳台,balcony,阳台,NOUN
+除,except,除,ADP
+难看,ugly,难看,ADJ
+零钱,change,零钱,NOUN
+零食,snack,零食,NOUN
+雷,thunder,雷,NOUN
+雾,fog,雾,NOUN
+青,green/blue,青,ADJ
+非,not,非,ADV
+顶,top,顶,NOUN
+项链,necklace,项链,NOUN
+颗,classifier for small round objects,颗,NOUN
+食物,food,食物,NOUN
+餐厅,restaurant,餐厅,NOUN
+馒头,steamed bun,馒头,NOUN
+骂,to scold,骂,VERB
+骨头,bone,骨头,NOUN
+鸽子,pigeon,鸽子,NOUN
+黄瓜,cucumber,黄瓜,NOUN
+鼠标,mouse,鼠标,NOUN
+龙,dragon,龙,NOUN
+一下,a bit,一下,ADV
+一下子,all at once,一下子,ADV
+一些,some,一些,DET
+一半,half,一半,NOUN
+一场,one (event),一场,NUM
+一块,one piece,一块,NUM
+一堆,a pile,一堆,NUM
+一声,a sound,一声,NUM
+一夜,one night,一夜,NUM
+一大堆,a big pile,一大堆,NUM
+一天,one day,一天,NUM
+一头,one head,一头,NUM
+一套,one set,一套,NUM
+一家,one family,一家,NUM
+一家人,whole family,一家人,NOUN
+一对,a pair,一对,NUM
+一年,one year,一年,NUM
+一座,one (building),一座,NUM
+一张,one (flat),一张,NUM
+一把,one handful,一把,NUM
+一支,one stick,一支,NUM
+一整天,all day long,一整天,NOUN
+一晚,one night,一晚,NUM
+一本,one book,一本,NUM
+一条,one (long),一条,NUM
+一杯,one cup,一杯,NUM
+一枪,one shot,一枪,NUM
+一架,one (machine),一架,NUM
+一根,one stick,一根,NUM
+一次,once,一次,NUM
+一步,one step,一步,NUM
+三明治,sandwich,三明治,NOUN
+三角,triangle,三角,NOUN
+上去,to go up,上去,VERB
+上周,last week,上周,NOUN
+上场,to go on stage,上场,VERB
+上学,to go to school,上学,VERB
+上帝,God,上帝,NOUN
+上床,to go to bed,上床,VERB
+上来,to come up,上来,VERB
+上楼,to go upstairs,上楼,VERB
+上次,last time,上次,NOUN
+上课,to attend class,上课,VERB
+上路,to set out,上路,VERB
+上车,to get on a vehicle,上车,VERB
+上面,above,上面,NOUN
+下来,to come down,下来,VERB
+下去,go down,下去,VERB
+下周,next week,下周,NOUN
+下次,next time,下次,NOUN
+下班,get off work,下班,VERB
+下车,get off car,下车,VERB
+下面,below,下面,NOUN
+不久,soon,不久,ADV
+不了,cannot,不了,AUX
+不介意,don't mind,不介意,VERB
+不会,will not,不会,AUX
+不住,cannot stay,不住,PART
+不信,don't believe,不信,VERB
+不停,non-stop,不停,ADJ
+不像,unlike,不像,VERB
+不再,no longer,不再,ADV
+不到,cannot reach,不到,VERB
+不去,not go,不去,VERB
+不吃,don't eat,不吃,VERB
+不同,different,不同,ADJ
+不在乎,don't care,不在乎,VERB
+不够,not enough,不够,ADJ
+不太,not very,不太,ADV
+不太好,not very good,不太好,ADJ
+不好,not good,不好,ADJ
+不少,quite a few,不少,ADJ
+不怕,not afraid,不怕,VERB
+不想,do not want,不想,VERB
+不敢,dare not,不敢,VERB
+不敢相信,can't believe,不敢相信,VERB
+不是,is not,不是,VERB
+不是故意,not intentional,不是故意,ADJ
+不来,not come,不来,VERB
+不用,no need,不用,AUX
+不知,do not know,不知,VERB
+不算,not count,不算,VERB
+不管怎样,anyway,不管怎样,ADV
+不能,cannot,不能,AUX
+不行,won't do,不行,ADJ
+不要,do not,不要,AUX
+不见,not seen,不见,VERB
+不让,don't let,不让,VERB
+不许,not allow,不许,AUX
+不该,should not,不该,AUX
+不说,not say,不说,VERB
+不起,cannot afford,不起,VERB
+不远,not far,不远,ADJ
+不通,doesn't work,不通,ADJ
+不错,not bad,不错,ADJ
+丢下,leave behind,丢下,VERB
+丢掉,discard,丢掉,VERB
+两个,two,两个,NUM
+两人,two people,两人,NUM
+两位,two (polite),两位,NUM
+两分钟,two minutes,两分钟,NUM
+两只,two (animals),两只,NUM
+两名,two (people),两名,NUM
+两周,two weeks,两周,NUM
+两天,two days,两天,NUM
+两年,two years,两年,NUM
+两次,twice,两次,ADV
+两种,two kinds,两种,NUM
+中,middle,中,NOUN
+主,lord,主,NOUN
+举起,to raise,举起,VERB
+么,particle,么,PART
+之前,before,之前,ADP
+之后,after,之后,ADP
+之所以,the reason why,之所以,SCONJ
+之间,between,之间,ADP
+乘客,passenger,乘客,NOUN
+也好,also good,也好,ADJ
+也就是说,that is to say,也就是说,SCONJ
+买下,buy,买下,VERB
+事,matter,事,NOUN
+事儿,thing,事儿,NOUN
+二十,twenty,二十,NUM
+二号,number two,二号,NOUN
+于,in,于,ADP
+互联网,the Internet,互联网,NOUN
+亲,to kiss,亲,VERB
+亲人,relative,亲人,NOUN
+人人,everyone,人人,NOUN
+人们,people,人们,NOUN
+人家,other people,人家,NOUN
+人民,people,人民,NOUN
+什么样,what kind,什么样,PRON
+今年,this year,今年,NOUN
+今日,today,今日,NOUN
+今晚,tonight,今晚,NOUN
+从不,never,从不,ADV
+从小,from childhood,从小,ADV
+他们,they,他们,PRON
+付,to pay,付,VERB
+以上,above,以上,ADP
+以下,below,以下,ADP
+以外,besides,以外,ADP
+价钱,price,价钱,NOUN
+任何人,anyone,任何人,PRON
+会儿,while,会儿,NOUN
+传,pass on,传,VERB
+伤,hurt,伤,VERB
+伤口,wound,伤口,NOUN
+伸出,to reach out,伸出,VERB
+但,but,但,CCONJ
+位子,seat,位子,NOUN
+住手,stop,住手,VERB
+作,to do,作,VERB
+作家,writer,作家,NOUN
+你们,you (plural),你们,PRON
+例子,example,例子,NOUN
+倒下,to fall down,倒下,VERB
+假期,vacation,假期,NOUN
+做事,to work,做事,VERB
+做梦,to dream,做梦,VERB
+做饭,to cook,做饭,VERB
+停,to stop,停,VERB
+停车,to park,停车,VERB
+停车场,parking lot,停车场,NOUN
+偷,to steal,偷,VERB
+偷偷,secretly,偷偷,ADV
+偷走,to steal away,偷走,VERB
+傻瓜,fool,傻瓜,NOUN
+像是,seems like,像是,VERB
+全,all,全,ADJ
+全世界,whole world,全世界,NOUN
+全国,nationwide,全国,NOUN
+全家,whole family,全家,NOUN
+全身,whole body,全身,NOUN
+全都,all,全都,ADV
+公路,highway,公路,NOUN
+共,altogether,共,ADV
+关上,to close,关上,VERB
+关掉,to turn off,关掉,VERB
+关门,to close the door,关门,VERB
+其它,other,其它,PRON
+养,to raise,养,VERB
+内衣,underwear,内衣,NOUN
+再也,no longer,再也,ADV
+再来,come again,再来,VERB
+再次,once more,再次,ADV
+再見,goodbye,再見,INTJ
+再说,besides,再说,ADV
+军,army,军,NOUN
+冬天,winter,冬天,NOUN
+冰,ice,冰,NOUN
+冰淇淋,ice cream,冰淇淋,NOUN
+出事,to have an accident,出事,VERB
+出来,to come out,出来,VERB
+出去,to go out,出去,VERB
+出名,famous,出名,ADJ
+出门,to go out,出门,VERB
+分享,to share,分享,VERB
+分开,to separate,分开,VERB
+分手,to break up,分手,VERB
+刚,just now,刚,ADV
+刚好,just right,刚好,ADV
+初,beginning,初,NOUN
+别人,others,别人,PRON
+别的,other,别的,PRON
+到时候,when the time comes,到时候,ADV
+前,front,前,NOUN
+剩下,to be left over,剩下,VERB
+剪,to cut,剪,VERB
+力,power,力,NOUN
+办,to handle,办,VERB
+办不到,impossible,办不到,ADJ
+办事,to handle affairs,办事,VERB
+功课,homework,功课,NOUN
+加,to add,加,VERB
+加上,plus,加上,VERB
+加油,to cheer on,加油,VERB
+动,to move,动,VERB
+区,district,区,NOUN
+午餐,lunch,午餐,NOUN
+午饭,lunch,午饭,NOUN
+半夜,midnight,半夜,NOUN
+单,single,单,ADJ
+卖掉,to sell,卖掉,VERB
+南方,south,南方,NOUN
+卡,card,卡,NOUN
+卡通,cartoon,卡通,NOUN
+厨师,chef,厨师,NOUN
+双手,both hands,双手,NOUN
+双眼,both eyes,双眼,NOUN
+反,reverse,反,ADJ
+发送,to send,发送,VERB
+受,to receive,受,VERB
+受欢迎,popular,受欢迎,ADJ
+变,to change,变,VERB
+变得,to become,变得,VERB
+变成,to become,变成,VERB
+口袋,pocket,口袋,NOUN
+另,other,另,ADJ
+另一边,other side,另一边,NOUN
+只不过,merely,只不过,ADV
+只是,just,只是,ADV
+只有,only,只有,ADV
+叫做,be called,叫做,VERB
+叫醒,wake up,叫醒,VERB
+可,but,可,ADV
+可不,indeed,可不,ADV
+右,right,右,NOUN
+各位,everyone,各位,NOUN
+吉他,guitar,吉他,NOUN
+同,same,同,NOUN
+同一,same,同一,NOUN
+同样,same,同样,ADJ
+名,name,名,NOUN
+后,after,后,ADP
+听到,to hear,听到,VERB
+听懂,to understand by listening,听懂,VERB
+听见,to hear,听见,VERB
+听话,obedient,听话,ADJ
+听说,to hear that,听说,VERB
+吸,to inhale,吸,VERB
+吸烟,to smoke,吸烟,VERB
+员工,employee,员工,NOUN
+周,week,周,NOUN
+周一,Monday,周一,NOUN
+周五,Friday,周五,NOUN
+周六,Saturday,周六,NOUN
+周日,Sunday,周日,NOUN
+味,taste,味,NOUN
+呵呵,hehe,呵呵,INTJ
+命,life,命,NOUN
+咋,how,咋,ADV
+咯,particle,咯,PART
+咱,we,咱,PRON
+咱俩,we two,咱俩,PRON
+哇,oh,哇,PART
+哈哈,haha,哈哈,INTJ
+哈啰,hello,哈啰,INTJ
+哈罗,hello,哈罗,INTJ
+哎,ah,哎,INTJ
+哎呀,oh my,哎呀,INTJ
+哎哟,ouch,哎哟,INTJ
+哟,yo,哟,PART
+哥,older brother,哥,NOUN
+哥们,buddies,哥们,NOUN
+哦,oh,哦,INTJ
+哪个,which one,哪个,PRON
+哪些,which ones,哪些,PRON
+哪位,who (polite),哪位,PRON
+哪有,how could there be,哪有,PRON
+哪来,where from,哪来,PRON
+哪里,where,哪里,PRON
+唱,to sing,唱,VERB
+啊哈,aha,啊哈,INTJ
+啥,what,啥,PRON
+喔,oh,喔,INTJ
+嗨,hi,嗨,INTJ
+嗯,um,嗯,INTJ
+嘴巴,mouth,嘴巴,NOUN
+嘴里,in the mouth,嘴里,NOUN
+嘿,hey,嘿,INTJ
+嘿嘿,hehe,嘿嘿,INTJ
+噢,oh,噢,INTJ
+回事,matter,回事,NOUN
+回来,come back,回来,VERB
+回到,return to,回到,VERB
+回去,go back,回去,VERB
+回头,turn around,回头,VERB
+回家,go home,回家,VERB
+因,because of,因,ADP
+团队,team,团队,NOUN
+国,country,国,NOUN
+国王,king,国王,NOUN
+图,picture,图,NOUN
+图片,picture,图片,NOUN
+圣诞节,Christmas,圣诞节,NOUN
+在乎,to care about,在乎,VERB
+地下,underground,地下,NOUN
+地板,floor,地板,NOUN
+坏事,bad thing,坏事,NOUN
+坏人,bad person,坏人,NOUN
+坏消息,bad news,坏消息,NOUN
+坏蛋,bad guy,坏蛋,NOUN
+坐下,sit down,坐下,VERB
+垃圾,trash,垃圾,NOUN
+城,city,城,NOUN
+声,sound,声,NOUN
+处,place,处,NOUN
+夏天,summer,夏天,NOUN
+外套,coat,外套,NOUN
+外婆,maternal grandmother,外婆,NOUN
+外面,outside,外面,NOUN
+多久,how long,多久,PRON
+多次,many times,多次,ADV
+多谢,thanks a lot,多谢,INTJ
+夜晚,night,夜晚,NOUN
+大事,major event,大事,NOUN
+大人,adult,大人,NOUN
+大叔,uncle,大叔,NOUN
+大哥,elder brother,大哥,NOUN
+大声,loud,大声,ADJ
+大多,mostly,大多,ADV
+大多数,majority,大多数,NOUN
+大学,university,大学,NOUN
+大小,size,大小,NOUN
+大楼,building,大楼,NOUN
+大海,sea,大海,NOUN
+大街,main street,大街,NOUN
+大部分,most,大部分,NOUN
+大量,large amount,大量,NOUN
+大门,gate,大门,NOUN
+天,day,天,NOUN
+天上,in the sky,天上,NOUN
+天下,the world,天下,NOUN
+天呐,oh my god,天呐,INTJ
+天天,every day,天天,ADV
+夫妻,couple,夫妻,NOUN
+头,head,头,NOUN
+女友,girlfriend,女友,NOUN
+女子,woman,女子,NOUN
+女孩,girl,女孩,NOUN
+女性,female,女性,NOUN
+女生,girl,女生,NOUN
+奶油,cream,奶油,NOUN
+她们,they (female),她们,PRON
+好久,long time,好久,ADV
+好事,good thing,好事,NOUN
+好听,pleasant to listen to,好听,ADJ
+好多,many,好多,ADJ
+好好,properly,好好,ADV
+好玩,fun,好玩,ADJ
+好看,good-looking,好看,ADJ
+好笑,funny,好笑,ADJ
+好运,good luck,好运,NOUN
+如,as,如,ADP
+建议,suggest,建议,VERB
+要求,require,要求,VERB
+发展,develop,发展,VERB
+决定,decide,决定,VERB
+考虑,consider,考虑,VERB
+根据,according to,根据,ADP
+信息,information,信息,NOUN
+消息,news,消息,NOUN
+另外,additionally,另外,ADV
+而且,moreover,而且,CCONJ
+既然,since,既然,SCONJ
+不管,no matter,不管,SCONJ
+不但,not only,不但,CCONJ
+玩儿,to play,玩儿,VERB
+湖上,lakeside,湖上,NOUN
+做到,to achieve,做到,VERB
+服,to submit,服,VERB
+跳,to jump,跳,VERB
+娘,mother,娘,PART
+长大,to grow up,长大,VERB
+……,to pause,……,VERB
+时,when,时,ADP
+查,to check,查,VERB
+意,intent,意,NOUN
+不多,few,不多,ADJ
+碰,to touch,碰,VERB
+病,illness,病,NOUN
+我来,to come,我来,VERB
+去吧,to go,去吧,VERB
+带去,to take,带去,VERB
+只会,only,只会,ADV
+海,sea,海,NOUN
+睡,to sleep,睡,VERB
+配,to match,配,VERB
+拿回,to take back,拿回,VERB
+追,to chase,追,VERB
+别吵,to hush,别吵,VERB
+慢点,slowly,慢点,ADV
+留下,to leave,留下,VERB
+进去,to go in,进去,VERB
+带走,to take away,带走,VERB
+先回,to return first,先回,VERB
+睡着,to fall asleep,睡着,VERB
+笔,brush,笔,NOUN
+路过,to pass by,路过,VERB
+交给,to hand over,交给,VERB
+先去,to go first,先去,VERB
+合,to close,合,VERB
+太小,too small,太小,ADJ
+那样,that way,那样,PRON
+象,like,象,ADP
+原,originally,原,PART
+星,star,星,NOUN
+通,to pass through,通,VERB
+烦,annoying,烦,ADJ
+我困,to be sleepy,我困,VERB
+干嘛,to do what,干嘛,VERB
+嘛,indeed,嘛,PART
+有的,sometimes,有的,ADV
+别动,to stay,别动,VERB
+父母,parent,父母,NOUN
+我回,I,我回,PRON
+杯,cup,杯,NOUN
+闭,to close,闭,VERB
+金,gold,金,NOUN
+转,to turn,转,VERB
+见人,to meet,见人,VERB
+数,several,数,PART
+救人,to save,救人,VERB
+头上,head,头上,NOUN
+要干,to do,要干,VERB
+座,seat,座,NOUN
+石,stone,石,PART
+肉,flesh,肉,PART
+只能,can only,只能,AUX
+看到,to see,看到,VERB
+需,must,需,AUX
+找出,to find,找出,VERB
+答,to answer,答,VERB
+就是,that is,就是,SCONJ
+别哭,to not cry,别哭,VERB
+家中,home,家中,NOUN
+等等,etc,等等,NOUN
+吃饭,to eat,吃饭,VERB
+我爹,father,我爹,NOUN
+给我,to give,给我,VERB
+一回,to return,一回,VERB
+你爹,father,你爹,NOUN
+就别,to refrain,就别,VERB
+你……,you,你……,PRON
+你给,to give,你给,VERB
+再等,to wait,再等,VERB
+我错,to err,我错,VERB
+你听,to listen,你听,VERB
+等你,to await,等你,VERB
+找你,to find you,找你,VERB
+让你,let,让你,AUX
+我会,I,我会,PRON
+你真,you,你真,PRON
+我手,hand,我手,NOUN
+闭嘴,to shut up,闭嘴,VERB
+又来,to come again,又来,VERB
+不难,not hard,不难,ADV
+躲,to hide,躲,VERB
+找人,to find,找人,VERB
+放心吧,reassurance,放心吧,NOUN
+也要,also,也要,AUX
+你慢,you,你慢,PRON
+拿着,to hold,拿着,VERB
+干什么,to do,干什么,VERB
+记住,to remember,记住,VERB
+都会,will,都会,AUX
+我就,then,我就,SCONJ
+而你,but,而你,SCONJ
+但他,but,但他,SCONJ
+每个,each,每个,DET
+我不信,to doubt,我不信,VERB
+选,to choose,选,VERB
+对了,to be right,对了,VERB
+他说,to say,他说,VERB
+和你,to be with,和你,VERB
+走得,to go,走得,VERB
+你好,you,你好,PRON
+就拿,to take,就拿,VERB
+好 好,good,好 好,ADJ
+都说,to say,都说,VERB
+我都,I,我都,PRON
+每一,every,每一,DET
+你放心,to rest,你放心,VERB
+他是,he,他是,PRON
+你想,you,你想,PRON
+那她,she,那她,PRON
+来 来,come,来 来,SCONJ
+我打,to hit,我打,VERB
+就像,like,就像,ADP
+要想,to want,要想,AUX
+快点,to hurry,快点,VERB
+带你,to take,带你,VERB
+也对,also,也对,ADP
+去哪儿,destination,去哪儿,NOUN
+别怕,to not fear,别怕,VERB
+你该,should,你该,ADV
+了吧,indeed,了吧,PART
+你没事吧,well-being,你没事吧,NOUN
+放下,to put down,放下,VERB
+这是,this is,这是,ADP
+到了,to arrive,到了,VERB

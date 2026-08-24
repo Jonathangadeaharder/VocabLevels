@@ -1,76 +1,36 @@
 Spanish_Lemma,English_Lemma,Chinese_Lemma,POS
 abandonar,to abandon,放弃,VERB
-abrazo,hug,拥抱,NOUN
 absurdo,absurd,荒谬的,ADJ
 abuso,abuse,滥用,NOUN
-academia,academy,学院,NOUN
 acceder,to access,进入,VERB
-aceite,oil,油,NOUN
-acento,accent,口音,NOUN
-acercarse,to approach,靠近,VERB
 aclarar,to clarify,澄清,VERB
 actitud,attitude,态度,NOUN
-actividad,activity,活动,NOUN
-actriz,actress,女演员,NOUN
-actual,current,当前的,ADJ
 acusación,accusation,指控,NOUN
 adecuado,adequate,合适的,ADJ
 adicto,addicted,上瘾的,ADJ
 administración,administration,管理,NOUN
-adolescente,teenager,青少年,NOUN
-adulto,adult,成年人,NOUN
 advertencia,warning,警告,NOUN
 afecto,affection,喜爱,NOUN
-afortunadamente,fortunately,幸运地,ADV
 afueras,outskirts,郊区,NOUN
-agarrar,to grab,抓住,VERB
-agencia,agency,机构,NOUN
-agradecer,to thank,感谢,VERB
-agradecido,grateful,感激的,ADJ
 agresión,aggression,侵略,NOUN
-aguantar,to endure,忍受,VERB
-aguja,needle,针,NOUN
-alarma,alarm,警报,NOUN
 alboroto,uproar,骚动,NOUN
 alcance,reach,范围,NOUN
-alcanzar,to reach/achieve,达到/获得,VERB
 aldea,village,村庄,NOUN
-alegre,happy/cheerful,快乐的/愉快的,ADJ
 alerta,alert,警觉的,ADJ
-alfombra,carpet/rug,地毯,NOUN
 alianza,alliance,联盟,NOUN
 aliento,breath,呼吸/勇气,NOUN
 alienígena,alien,外星人的,ADJ
-alimentar,to feed,喂养/进食,VERB
 alivio,relief,缓解/宽慰,NOUN
 almacén,warehouse/store,仓库/商店,NOUN
-alquiler,rent,租金/出租,NOUN
 alternativa,alternative,替代方案,NOUN
-amanecer,to dawn,黎明/破晓,VERB
-amar,to love,爱,VERB
-amarillo,yellow,黄色的,ADJ
-ambiente,atmosphere/environment,环境/气氛,NOUN
 anciano,old man,老人,NOUN
 ansiedad,anxiety,焦虑,NOUN
 ansioso,anxious/eager,焦虑的/渴望的,ADJ
-anuncio,advertisement,广告,NOUN
-apagar,to turn off/extinguish,关闭/熄灭,VERB
-aparato,device,设备/器械,NOUN
-aparecer,to appear,出现,VERB
 apariencia,appearance,外观/出现,NOUN
-aparte,aside,另外/ apart,ADV
-apellido,last name,姓氏,NOUN
 apetito,appetite,食欲,NOUN
-aplauso,applause,掌声,NOUN
 apostar,to bet,打赌/押注,VERB
-apoyar,to support/lean,支持/依靠,VERB
 aprobación,approval,批准/认可,NOUN
 apropiado,appropriate,适当的,ADJ
-aprovechar,to take advantage of,利用/获益,VERB
-aquello,that (neutral over there),那个事物,PRON
-araña,spider,蜘蛛,NOUN
-archivo,file,文件,NOUN
-arma,weapon,武器,NOUN
 armada,navy,海军,NOUN
 armadura,armor,盔甲,NOUN
 arreglo,arrangement,安排,NOUN
@@ -81,110 +41,56 @@ arrogante,arrogant,傲慢的,ADJ
 arruinar,to ruin,毁灭,VERB
 asalto,assault,袭击,NOUN
 ascenso,promotion,晋升,NOUN
-ascensor,elevator,电梯,NOUN
 asco,disgust,厌恶,NOUN
-asegurar,to ensure,确保,VERB
 asesinar,to murder,谋杀,VERB
 asesinato,murder,谋杀,NOUN
 asistencia,attendance,出席,NOUN
-asistir,to attend,参加,VERB
 asombroso,amazing,惊人的,ADJ
 asqueroso,disgusting,令人作呕的,ADJ
 astuto,cunning,狡猾的,ADJ
 asumir,to assume,承担,VERB
-atacar,to attack,攻击,VERB
-ataque,attack,攻击,NOUN
 ataúd,coffin,棺材,NOUN
-atender,to serve,服务,VERB
 aterrador,terrifying,令人恐惧的,ADJ
 aterrizaje,landing,着陆,NOUN
 aterrizar,to land,着陆,VERB
 atmósfera,atmosphere,气氛,NOUN
 audición,audition,试镜,NOUN
 audiencia,audience,观众,NOUN
-aumentar,to increase,增加,VERB
-aumento,increase,增加,NOUN
 ausencia,absence,缺席,NOUN
 autopsia,autopsy,尸检,NOUN
-autor,author,作者,NOUN
 autoridad,authority,权威,NOUN
 auténtico,authentic,真实的,ADJ
 auxilio,aid,援助,NOUN
 avance,advance,进展,NOUN
-avanzar,advance,前进,VERB
 avergonzado,ashamed,羞愧的,ADJ
-avisar,notify,通知,VERB
-aviso,notice,通知,NOUN
 azar,chance,偶然,NOUN
-azúcar,sugar,糖,NOUN
-añadir,add,添加,VERB
-bandera,flag,旗帜,NOUN
-barato,cheap,便宜的,ADJ
-barba,beard,胡须,NOUN
-barro,mud,泥,NOUN
 bastardo,bastard,私生子,NOUN
-batería,battery,电池,NOUN
-bello,beautiful,美丽的,ADJ
 bendición,blessing,祝福,NOUN
 beneficio,benefit,利益,NOUN
-besar,kiss,亲吻,VERB
 bestia,beast,野兽,NOUN
 biblia,Bible,圣经,NOUN
-biblioteca,library,图书馆,NOUN
-bicho,bug,虫子,NOUN
-bicicleta,bicycle,自行车,NOUN
-billete,ticket,票,NOUN
 bodega,cellar,地窖,NOUN
-bola,ball,球,NOUN
 bondad,goodness,善良,NOUN
 borde,edge,边缘,NOUN
-borrar,erase,擦除,VERB
-botón,button,按钮,NOUN
-breve,brief,简短的,ADJ
 brillo,shine,光泽,NOUN
-básico,basic,基本的,ADJ
 cabaña,cabin,小屋,NOUN
-cabra,goat,山羊,NOUN
-cafetería,cafeteria,自助餐厅,NOUN
-cajón,drawer,抽屉,NOUN
-calidad,quality,质量,NOUN
 callejón,alley,小巷,NOUN
 camarada,comrade,同志,NOUN
-camarero,waiter,服务员,NOUN
-camiseta,t-shirt,T 恤衫,NOUN
-campana,bell,钟,NOUN
-campeón,champion,冠军,NOUN
-canal,channel,频道,NOUN
-cancelar,cancel,取消,VERB
 candidato,candidate,候选人,NOUN
 caos,chaos,混乱,NOUN
 capa,layer,层,NOUN
-capacidad,capacity,能力,NOUN
 capturar,capture,捕获,VERB
-capítulo,chapter,章节,NOUN
 carbón,coal,煤,NOUN
 cardíaco,cardiac,心脏的,ADJ
-cargar,load,装载,VERB
 caridad,charity,慈善,NOUN
-caro,expensive,昂贵的,ADJ
-cartel,poster,海报,NOUN
-cartera,wallet,钱包,NOUN
-carácter,character,性格,NOUN
-casco,helmet,头盔,NOUN
 castigo,punishment,惩罚,NOUN
-causar,to cause,引起,VERB
 caza,hunting,狩猎,NOUN
 cazador,hunter,猎人,NOUN
 cazar,to hunt,打猎,VERB
-caída,fall,跌倒,NOUN
 cañón,cannon,大炮,NOUN
-celebración,celebration,庆祝,NOUN
-celebrar,to celebrate,庆祝,VERB
 celos,jealousy,嫉妒,NOUN
 celoso,jealous,嫉妒的,ADJ
 cementerio,cemetery,墓地,NOUN
-centavo,cent,分,NOUN
-cercano,nearby,附近的,ADJ
 ceremonia,ceremony,仪式,NOUN
 cerradura,lock,锁,NOUN
 certeza,certainty,确定性,NOUN
@@ -192,42 +98,24 @@ certificado,certificate,证书,NOUN
 chaleco,vest,背心,NOUN
 chaval,kid,小孩,NOUN
 chimenea,fireplace,壁炉,NOUN
-chiste,joke,笑话,NOUN
 choque,crash,碰撞,NOUN
 cicatriz,scar,伤疤,NOUN
-ciego,blind,盲的,ADJ
-científico,scientist,科学家,NOUN
 cierre,closure,关闭,NOUN
 cima,summit,顶峰,NOUN
-cincuenta,fifty,五十,NUM
-cinturón,belt,腰带,NOUN
-circo,circus,马戏团,NOUN
 cirujano,surgeon,外科医生,NOUN
-ciudadano,citizen,公民,NOUN
 civilización,civilization,文明,NOUN
 claridad,clarity,清晰,NOUN
-clásico,classic,经典的,ADJ
-clínica,clinic,诊所,NOUN
 coartada,alibi,不在场证明,NOUN
 cobertura,coverage,覆盖范围,NOUN
-cobrar,to charge,收费,VERB
-cocinar,to cook,烹饪,VERB
-cocinero,cook,厨师,NOUN
 cojo,lame,跛脚的,ADJ
-colección,collection,收藏,NOUN
-colgar,to hang,悬挂,VERB
 colina,hill,小山,NOUN
 columna,column,柱子,NOUN
 coma,comma,逗号,NOUN
 comando,command,命令,NOUN
 combinación,combination,组合,NOUN
 combustible,fuel,燃料,NOUN
-comedia,comedy,喜剧,NOUN
-comedor,dining room,餐厅,NOUN
-comentario,comment,评论,NOUN
 comercial,commercial,商业的,ADJ
 comercio,trade,贸易,NOUN
-cometer,to commit,犯（错）,VERB
 comisaría,police station,警察局,NOUN
 comisión,commission,委员会,NOUN
 comité,committee,委员会,NOUN
@@ -235,26 +123,18 @@ compasión,compassion,同情,NOUN
 competencia,competition,竞争,NOUN
 competir,to compete,竞争,VERB
 complejo,complex,复杂的,ADJ
-completar,to complete,完成,VERB
-compra,purchase,购买,NOUN
-comprender,to understand,理解,VERB
-comprobar,to check,检查,VERB
-comunicación,communication,交流,NOUN
 concentración,concentration,集中,NOUN
 concepto,concept,概念,NOUN
-concierto,concert,音乐会,NOUN
 conclusión,conclusion,结论,NOUN
 concreto,concrete,具体的,ADJ
 conde,count,伯爵,NOUN
 condena,sentence,判决,NOUN
 condenado,condemned,被定罪的,ADJ
 conducta,behavior,行为,NOUN
-conejo,rabbit,兔子,NOUN
 conferencia,conference,会议,NOUN
 confesar,to confess,承认,VERB
 confesión,confession,忏悔,NOUN
 confidencial,confidential,机密的,ADJ
-confirmar,to confirm,确认,VERB
 conflicto,conflict,冲突,NOUN
 confusión,confusion,混乱,NOUN
 confuso,confused,困惑的,ADJ
@@ -262,175 +142,94 @@ congreso,congress,国会,NOUN
 conjunto,set,一套,NOUN
 consciente,conscious,有意识的,ADJ
 conservar,to preserve,保存,VERB
-considerar,to consider,考虑,VERB
 conspiración,conspiracy,阴谋,NOUN
 constante,constant,持续的,ADJ
 construcción,construction,建筑,NOUN
 consuelo,consolation,安慰,NOUN
-contenido,content,内容,NOUN
-contestar,to answer,回答,VERB
-contraseña,password,密码,NOUN
-contratar,to hire,雇佣,VERB
 convencer,to convince,说服,VERB
 conveniente,convenient,方便的,ADJ
-conversar,to converse,交谈,VERB
-convertir,to convert,转换,VERB
 coraje,courage,勇气,NOUN
-corbata,tie,领带,NOUN
 cordero,lamb,羔羊,NOUN
 coro,choir,合唱团,NOUN
-corona,crown,王冠,NOUN
 cortesía,courtesy,礼貌,NOUN
 cosecha,harvest,收获,NOUN
 costado,side,侧面,NOUN
-costo,cost,成本,NOUN
-costumbre,custom,习俗,NOUN
 creación,creation,创造,NOUN
-crecer,to grow,成长,VERB
 crecimiento,growth,增长,NOUN
-crema,cream,奶油,NOUN
 criada,maid,女仆,NOUN
 criado,servant,仆人,NOUN
 criar,to raise,抚养,VERB
 crimen,crime,犯罪,NOUN
-cruz,cross,十字架,NOUN
 cráneo,skull,头骨,NOUN
 crítica,criticism,批评,NOUN
 crítico,critical,关键的,ADJ
 cubierta,cover,封面,NOUN
-cubo,bucket,桶,NOUN
 cuero,leather,皮革,NOUN
-cueva,cave,洞穴,NOUN
 culpar,to blame,责备,VERB
-cultura,culture,文化,NOUN
 cumplido,compliment,赞美,NOUN
-curar,to cure,治愈,VERB
-curioso,curious,好奇的,ADJ
 custodia,custody,监护,NOUN
-cuñado,brother-in-law,姐夫/妹夫/内兄/内弟,NOUN
 césped,lawn,草坪,NOUN
-círculo,circle,圆/圈子,NOUN
 cómplice,accomplice,同谋,NOUN
 debilidad,weakness,弱点,NOUN
 decente,decent,体面的,ADJ
 declarar,to declare,声明/申报,VERB
-defender,to defend,保卫/辩护,VERB
 delicado,delicate,精致的/微妙的,ADJ
-delicioso,delicious,美味的,ADJ
 delincuente,delinquent,罪犯,NOUN
 delito,crime,罪行,NOUN
 demanda,lawsuit/demand,需求/诉讼,NOUN
-demostrar,to demonstrate,证明/展示,VERB
 denuncia,report/denunciation,举报/控告,NOUN
-deporte,sport,运动,NOUN
 depresión,depression,抑郁/萧条,NOUN
 derrota,defeat,失败,NOUN
-desafortunadamente,unfortunately,不幸地,ADV
 desafío,challenge,挑战,NOUN
-desaparecer,to disappear,消失,VERB
 desaparición,disappearance,失踪,NOUN
-desarrollo,development,发展,NOUN
-desayunar,to have breakfast,吃早餐,VERB
-desconocido,unknown,未知的/陌生人,ADJ
-descripción,description,描述,NOUN
 descubrimiento,discovery,发现,NOUN
 desesperado,desperate,绝望的,ADJ
 desfile,parade,游行,NOUN
 desgraciado,unfortunate,不幸的,ADJ
-desnudo,naked,裸体的,ADJ
 desorden,disorder,混乱,NOUN
-despedida,farewell,告别,NOUN
-despedir,to say goodbye/fire,告别/解雇,VERB
-despertar,to wake up,醒来,VERB
 destrucción,destruction,破坏,NOUN
-detalle,detail,细节,NOUN
 determinar,to determine,确定,VERB
 deuda,debt,债务,NOUN
-devolver,to return,归还,VERB
 diagnóstico,diagnosis,诊断,NOUN
-diamante,diamond,钻石,NOUN
-diciembre,December,十二月,NOUN
-diente,tooth,牙齿,NOUN
-dieta,diet,饮食,NOUN
 dignidad,dignity,尊严,NOUN
 digno,worthy,值得的,ADJ
-dirigir,to direct,指导,VERB
-discusión,discussion,讨论,NOUN
-diseño,design,设计,NOUN
 disfraz,disguise,伪装,NOUN
-disfrutar,to enjoy,享受,VERB
-disponible,available,可用的,ADJ
 disposición,disposal,安排,NOUN
-distinto,different,不同的,ADJ
 distrito,district,区,NOUN
 división,division,分裂,NOUN
-docena,dozen,一打,NOUN
-documento,document,文件,NOUN
-doler,to hurt,疼痛,VERB
 doloroso,painful,痛苦的,ADJ
-dormitorio,bedroom,卧室,NOUN
-ducha,shower,淋浴,NOUN
 duelo,grief,悲痛,NOUN
-durar,to last,持续,VERB
 década,decade,十年,NOUN
 ebrio,drunk,醉的,ADJ
 economía,economy,经济,NOUN
 edición,edition,版本,NOUN
-educación,education,教育,NOUN
 egoísta,selfish,自私的,ADJ
-ejercicio,exercise,练习,NOUN
-electricidad,electricity,电,NOUN
-electrónico,electronic,电子的,ADJ
-elefante,elephant,大象,NOUN
-elegante,elegant,优雅的,ADJ
 elemento,element,元素,NOUN
-eliminar,to eliminate,消除,VERB
 embajada,embassy,大使馆,NOUN
 embajador,ambassador,大使,NOUN
 embarazo,pregnancy,怀孕,NOUN
 emocional,emotional,情感的,ADJ
-emocionante,exciting,令人兴奋的,ADJ
-emoción,emotion,情感,NOUN
 emperador,emperor,皇帝,NOUN
-empleado,employee,雇员,NOUN
 enano,dwarf,矮人,NOUN
-encantador,charming,迷人的,ADJ
-encantar,to love,喜爱,VERB
 encanto,charm,魅力,NOUN
-encender,to turn on,打开,VERB
 encendido,ignition,点火,NOUN
-enfadado,angry,生气的,ADJ
 enfermería,infirmary,医务室,NOUN
 enfrentar,to face,面对,VERB
 engañar,to deceive,欺骗,VERB
 engaño,deception,欺骗,NOUN
-enhorabuena,congratulations,恭喜,INTJ
 enlace,link,链接,NOUN
-enojar,to anger,使生气,VERB
-ensalada,salad,沙拉,NOUN
 ensayo,essay,文章,NOUN
-enseñar,to teach,教,VERB
 enterado,aware,知情的,ADJ
 enterrar,to bury,埋葬,VERB
 entrega,delivery,交付,NOUN
 entregado,devoted,奉献的,ADJ
-entregar,to deliver,交付,VERB
-entrenar,to train,训练,VERB
 envidia,envy,嫉妒,NOUN
 envío,shipment,发送,NOUN
-episodio,episode,插曲,NOUN
 equilibrio,balance,平衡,NOUN
-equipaje,luggage,行李,NOUN
 escala,stopover,中途停留,NOUN
-escalera,stairs,楼梯,NOUN
 esclavo,slave,奴隶,NOUN
-escoger,to choose,选择,VERB
-escolar,school,学校的,ADJ
-esconder,to hide,隐藏,VERB
 escondidas,hide-and-seek,捉迷藏,NOUN
 escondite,hideout,藏身处,NOUN
-escritor,writer,作家,NOUN
-escritura,writing,写作,NOUN
 escuadrón,squadron,中队,NOUN
 escudo,shield,盾牌,NOUN
 escándalo,scandal,丑闻,NOUN
@@ -438,14 +237,11 @@ esencia,essence,本质,NOUN
 esencial,essential,基本的,ADJ
 espacial,spatial,空间的,ADJ
 espantoso,frightful,可怕的,ADJ
-español,Spanish,西班牙语,ADJ
 especialista,specialist,专家,NOUN
-espectacular,spectacular,壮观的,ADJ
 específico,specific,具体的,ADJ
 espía,spy,间谍,NOUN
 estable,stable,稳定的,ADJ
 establecer,to establish,建立,VERB
-estadio,stadium,体育场,NOUN
 estallar,to explode,爆发,VERB
 estatal,state,国家的,ADJ
 estatua,statue,雕像,NOUN
@@ -454,157 +250,89 @@ estructura,structure,结构,NOUN
 estupidez,stupidity,愚蠢,NOUN
 etapa,stage,阶段,NOUN
 eternidad,eternity,永恒,NOUN
-etiqueta,label,标签,NOUN
 evaluación,evaluation,评估,NOUN
-evento,event,事件,NOUN
 evidencia,evidence,证据,NOUN
 evidente,evident,明显的,ADJ
 excelencia,excellence,卓越,NOUN
 excepción,exception,例外,NOUN
 existencia,existence,存在,NOUN
-existir,to exist,存在,VERB
 expediente,file,档案,NOUN
 experimento,experiment,实验,NOUN
-experto,expert,专家,NOUN
-explicación,explanation,解释,NOUN
 explotar,to exploit,剥削,VERB
 exposición,exhibition,展览,NOUN
-expresar,to express,表达,VERB
-extranjero,foreigner,外国人,NOUN
 extraordinario,extraordinary,非凡的,ADJ
-extrañar,to miss,想念,VERB
 extremo,extreme,极端的,ADJ
-fabuloso,fabulous,极好的,ADJ
-factura,invoice,发票,NOUN
 facultad,faculty,学院,NOUN
-falda,skirt,裙子,NOUN
 falla,fault,缺陷,NOUN
 fallo,verdict,判决,NOUN
 fama,fame,名声,NOUN
 fascinante,fascinating,迷人的,ADJ
 fenómeno,phenomenon,现象,NOUN
-feo,ugly,丑陋的,ADJ
-feria,fair,集市,NOUN
 fianza,bail,保证金,NOUN
 ficción,fiction,小说,NOUN
-fiebre,fever,发烧,NOUN
 fiel,faithful,忠诚的,ADJ
-figura,figure,人物,NOUN
-fila,row,排,NOUN
 fingir,pretend,假装,VERB
-firmar,sign,签署,VERB
 flecha,arrow,箭,NOUN
-flor,flower,花,NOUN
 flota,fleet,舰队,NOUN
 flujo,flow,流动,NOUN
 forense,forensic,法医的,ADJ
 formación,training,培训,NOUN
-formar,form,形成,VERB
 fortaleza,strength,力量,NOUN
-fotografía,photograph,照片,NOUN
 fracasado,failed,失败的,ADJ
 fracaso,failure,失败,NOUN
-frase,sentence,句子,NOUN
 fraude,fraud,欺诈,NOUN
 frecuencia,frequency,频率,NOUN
-fresco,cool,凉爽的,ADJ
-fruta,fruit,水果,NOUN
 fuga,escape,逃跑,NOUN
-función,function,功能,NOUN
 furgoneta,van,面包车,NOUN
 furioso,furious,愤怒的,ADJ
-físico,physical,身体的,ADJ
-gafas,glasses,眼镜,NOUN
 galaxia,galaxy,星系,NOUN
 galería,gallery,画廊,NOUN
-gallina,hen,母鸡,NOUN
-ganador,winner,获胜者,NOUN
-garaje,garage,车库,NOUN
 garantía,guarantee,保证,NOUN
-garganta,throat,喉咙,NOUN
-gasolina,gasoline,汽油,NOUN
-gastar,spend,花费,VERB
 gatillo,trigger,扳机,NOUN
 generación,generation,一代,NOUN
-generoso,generous,慷慨的,ADJ
 gerente,manager,经理,NOUN
 gesto,gesture,手势,NOUN
-gigante,giant,巨大的,ADJ
-gimnasio,gym,健身房,NOUN
 gira,tour,巡回演出,NOUN
-girar,turn,旋转,VERB
 giro,turn,转弯,NOUN
-globo,balloon,气球,NOUN
 gloria,glory,荣耀,NOUN
 gobernador,governor,州长,NOUN
-gorra,cap,鸭舌帽,NOUN
-gota,drop,滴,NOUN
 grabación,recording,录音,NOUN
-grabar,record,录制,VERB
-graduación,graduation,毕业,NOUN
 grandioso,grand,宏伟的,ADJ
 granero,barn,谷仓,NOUN
 grano,grain,谷物,NOUN
 gravedad,gravity,重力,NOUN
-gripe,flu,流感,NOUN
-gris,grey,灰色,ADJ
-gritar,to shout,喊叫,VERB
 griterío,clamor,喧闹,NOUN
-grito,shout,喊声,NOUN
 grosero,rude,粗鲁的,ADJ
 guardaespaldas,bodyguard,保镖,NOUN
-guardar,to keep,保存,VERB
 guerrero,warrior,战士,NOUN
-guitarra,guitar,吉他,NOUN
 guión,script,剧本,NOUN
 gusano,worm,蠕虫,NOUN
-gustar,to like,喜欢,VERB
-guía,guide,指南,NOUN
 habilidad,skill,技能,NOUN
 hacha,axe,斧头,NOUN
-hambriento,hungry,饥饿的,ADJ
 harto,fed up,受够了,ADJ
 hechizo,spell,咒语,NOUN
-helicóptero,helicopter,直升机,NOUN
 hemorragia,hemorrhage,出血,NOUN
 heredero,heir,继承人,NOUN
 herencia,inheritance,遗产,NOUN
 heroína,heroine,女英雄,NOUN
-hierba,grass,草,NOUN
-hierro,iron,铁,NOUN
 hilo,thread,线,NOUN
 historial,record,记录,NOUN
-hoja,leaf,叶子,NOUN
-hombro,shoulder,肩膀,NOUN
 homicidio,homicide,杀人罪,NOUN
-honestamente,honestly,诚实地,ADV
-horario,schedule,时间表,NOUN
-horno,oven,烤箱,NOUN
 hueco,hole,洞,NOUN
 huelga,strike,罢工,NOUN
 huella,footprint,脚印,NOUN
-hueso,bone,骨头,NOUN
-huevo,egg,鸡蛋,NOUN
 humilde,humble,谦虚的,ADJ
-humo,smoke,烟,NOUN
 hígado,liver,肝脏,NOUN
 identificación,identification,身份证明,NOUN
-identificar,identify,识别,VERB
-idioma,language,语言,NOUN
-ignorar,ignore,忽视,VERB
 ilusión,illusion,幻想,NOUN
-imaginación,imagination,想象力,NOUN
 impedir,prevent,阻止,VERB
 imperio,empire,帝国,NOUN
-importar,matter,重要,VERB
 impresión,impression,印象,NOUN
 impulso,impulse,冲动,NOUN
 incapaz,incapable,无能的,ADJ
 incidente,incident,事件,NOUN
 inconsciente,unconscious,无意识的,ADJ
-incómodo,uncomfortable,不舒服的,ADJ
 independiente,independent,独立的,ADJ
-indio,Indian,印第安人,NOUN
 individuo,individual,个人,NOUN
 industria,industry,工业,NOUN
 infancia,childhood,童年,NOUN
@@ -613,22 +341,15 @@ infección,infection,感染,NOUN
 infeliz,unhappy,不幸的,ADJ
 infierno,hell,地狱,NOUN
 influencia,influence,影响,NOUN
-informar,inform,通知,VERB
-ingeniero,engineer,工程师,NOUN
 inicial,initial,最初的,ADJ
-iniciar,initiate,开始,VERB
-inicio,beginning,开始,NOUN
 inmunidad,immunity,免疫,NOUN
 inocencia,innocence,无辜,NOUN
 inspiración,inspiration,灵感,NOUN
 instalación,installation,安装,NOUN
 instante,moment,瞬间,NOUN
 instinto,instinct,本能,NOUN
-instituto,institute,学院,NOUN
-instrumento,instrument,工具,NOUN
 intenso,intense,强烈的,ADJ
 intercambio,exchange,交流,NOUN
-internacional,international,国际的,ADJ
 interno,internal,内部的,ADJ
 interrogatorio,interrogation,审问,NOUN
 interrumpir,interrupt,打断,VERB
@@ -636,20 +357,9 @@ inusual,unusual,不寻常的,ADJ
 invasión,invasion,入侵,NOUN
 inversión,investment,投资,NOUN
 investigador,investigator,研究员,NOUN
-investigar,investigate,调查,VERB
-invitación,invitation,邀请,NOUN
-invitar,invite,邀请,VERB
 inyección,injection,注射,NOUN
-izquierdo,left,左边的,ADJ
-jabón,soap,肥皂,NOUN
 jaula,cage,笼子,NOUN
-jersey,sweater,毛衣,NOUN
-jueves,Thursday,星期四,NOUN
 jugada,move,招数,NOUN
-jugador,player,玩家,NOUN
-juguete,toy,玩具,NOUN
-julio,July,七月,NOUN
-junio,June,六月,NOUN
 juramento,oath,誓言,NOUN
 justa,joust,比武,NOUN
 juventud,youth,青年,NOUN
@@ -658,347 +368,135 @@ juzgar,judge,审判,VERB
 lance,event,事件,NOUN
 lanza,spear,长矛,NOUN
 lanzamiento,launch,发射,NOUN
-lanzar,throw,投掷,VERB
-lastimar,hurt,伤害,VERB
-lavar,wash,洗,VERB
 leal,loyal,忠诚的,ADJ
 lealtad,loyalty,忠诚,NOUN
-lectura,reading,阅读,NOUN
 legado,legacy,遗产,NOUN
-lento,slow,慢的,ADJ
-letra,letter,字母,NOUN
-levantar,lift,举起,VERB
-ley,law,法律,NOUN
 leyenda,legend,传说,NOUN
-león,lion,狮子,NOUN
 liberación,liberation,解放,NOUN
 liberar,free,释放,VERB
 lidiar,deal,应对,VERB
 ligero,light,轻的,ADJ
-limpieza,cleanliness,清洁,NOUN
-lobo,wolf,狼,NOUN
 localizar,locate,定位,VERB
 logrado,achieved,已实现的,ADJ
-lograr,achieve,实现,VERB
 logro,achievement,成就,NOUN
-lotería,lottery,彩票,NOUN
 lujo,luxury,奢侈,NOUN
-lámpara,lamp,灯,NOUN
-lápiz,pencil,铅笔,NOUN
-límite,limit,限制,NOUN
 líquido,liquid,液体,NOUN
 lógica,logic,逻辑,NOUN
-lógico,logical,逻辑的,ADJ
 magnífico,magnificent,极好的,ADJ
 maldito,cursed,该死的,ADJ
-maleta,suitcase,手提箱,NOUN
-mancha,stain,污渍,NOUN
-mandar,to send,发送,VERB
 mansión,mansion,豪宅,NOUN
-mantenerse,to maintain oneself,保持,VERB
 mantenimiento,maintenance,维护,NOUN
-manzana,apple,苹果,NOUN
-maquillaje,makeup,化妆品,NOUN
-marcar,to mark,标记,VERB
 margen,margin,边缘,NOUN
-marrón,brown,棕色,ADJ
-martes,Tuesday,星期二,NOUN
-marzo,March,三月,NOUN
 masa,dough,面团,NOUN
-matar,to kill,杀死,VERB
-materia,subject,科目,NOUN
-mayo,May,五月,NOUN
 mecánico,mechanic,机械师,NOUN
-medida,measure,措施,NOUN
-mediodía,noon,中午,NOUN
-mejorar,to improve,改善,VERB
-mentiroso,liar,说谎者,NOUN
 mercancía,goods,商品,NOUN
 meta,goal,目标,NOUN
-metro,subway,地铁,NOUN
-mezcla,mixture,混合物,NOUN
 ministro,minister,部长,NOUN
 miseria,misery,贫困,NOUN
 misericordia,mercy,怜悯,NOUN
-misterioso,mysterious,神秘的,ADJ
-miércoles,Wednesday,星期三,NOUN
-moderno,modern,现代的,ADJ
-molestar,to bother,打扰,VERB
 molestia,bother,麻烦,NOUN
-moneda,coin,硬币,NOUN
-montar,to ride,骑,VERB
-moto,motorcycle,摩托车,NOUN
 muelle,dock,码头,NOUN
-muerte,death,死亡,NOUN
-multa,fine,罚款,NOUN
-mundial,worldwide,世界的,ADJ
-muro,wall,墙,NOUN
-muñeca,doll,玩偶,NOUN
-mágico,magical,神奇的,ADJ
-método,method,方法,NOUN
-nacer,to be born,出生,VERB
 nación,nation,国家,NOUN
-nadar,to swim,游泳,VERB
-naranja,orange,橙子,NOUN
-negar,to deny,否认,VERB
 negociar,to negotiate,谈判,VERB
-nieto,grandson,孙子,NOUN
 novedad,novelty,新奇事物,NOUN
-novela,novel,小说,NOUN
-noviembre,November,十一月,NOUN
-nube,cloud,云,NOUN
-objeto,object,物体,NOUN
-observar,to observe,观察,VERB
-ocasión,occasion,场合,NOUN
 ocultar,to hide,隐藏,VERB
-ocurrir,to occur,发生,VERB
-océano,ocean,海洋,NOUN
 oficialmente,officially,正式地,ADV
-ofrecer,to offer,提供,VERB
-once,eleven,十一,NUM
 operar,to operate,操作,VERB
-ordenador,computer,电脑,NOUN
-ordenar,to tidy / to order,整理 / 命令,VERB
-oreja,ear,耳朵,NOUN
-organización,organization,组织,NOUN
-organizar,to organize,组织,VERB
 orilla,shore,岸边,NOUN
-oso,bear,熊,NOUN
-otoño,autumn,秋天,NOUN
-paciencia,patience,耐心,NOUN
-palacio,palace,宫殿,NOUN
-pantalla,screen,屏幕,NOUN
-participar,to participate,参与,VERB
 pasaje,passage,通道,NOUN
-pasaporte,passport,护照,NOUN
 pasión,passion,激情,NOUN
-pata,paw,爪子,NOUN
-patio,courtyard,庭院,NOUN
 patrulla,patrol,巡逻,NOUN
 patrón,pattern,图案,NOUN
 pecado,sin,罪,NOUN
-pegar,to stick,粘贴,VERB
 pendiente,pending,待定的,ADJ
-pensamiento,thought,思想,NOUN
-perdonar,to forgive,原谅,VERB
-perfil,profile,轮廓; 简介,NOUN
-periodista,journalist,记者,NOUN
 permanecer,to remain,保持; 停留,VERB
-pesado,heavy,重的; 烦人的,ADJ
 petróleo,oil,石油,NOUN
 pico,peak,山峰; 鸟嘴,NOUN
-pintar,to paint,绘画; 粉刷,VERB
-piscina,pool,游泳池,NOUN
-plaza,square,广场,NOUN
-plástico,plastic,塑料的,ADJ
-poema,poem,诗,NOUN
-político,political,政治的,ADJ
 posesión,possession,占有; 财产,NOUN
-positivo,positive,积极的; 肯定的,ADJ
-postre,dessert,甜点,NOUN
 potencia,power,力量; 功率,NOUN
-practicar,to practice,练习; 实践,VERB
 precisamente,precisely,确切地; 正好,ADV
-preocupación,worry,担忧; 忧虑,NOUN
-presentar,to present,介绍; 呈现,VERB
 preso,prisoner,囚犯,NOUN
-primavera,spring,春天,NOUN
 prioridad,priority,优先权; 重点,NOUN
 prisionero,prisoner,囚犯,NOUN
 procedimiento,procedure,程序; 手续,NOUN
-producto,product,产品,NOUN
-profesora,teacher,女教师,NOUN
 progreso,progress,进步; 进展,NOUN
 propietario,owner,所有者; 业主,NOUN
 propuesta,proposal,提议; 建议,NOUN
 protocolo,protocol,协议; 礼仪,NOUN
-práctica,practice,实践; 练习,NOUN
-puerto,port,港口,NOUN
 pulso,pulse,脉搏,NOUN
-punta,tip,尖端,NOUN
 pánico,panic,恐慌,NOUN
-quemar,to burn,燃烧,VERB
-quince,fifteen,十五,NUM
-quitar,to remove,移除,VERB
 rabia,rage,愤怒,NOUN
 rayo,lightning,闪电,NOUN
 reacción,reaction,反应,NOUN
-realizar,to carry out,执行,VERB
 rebelde,rebellious,叛逆的,ADJ
 recompensa,reward,奖励,NOUN
-reconocer,to recognize,认出,VERB
 recuperación,recovery,恢复,NOUN
 refugio,shelter,避难所,NOUN
-región,region,地区,NOUN
 rehén,hostage,人质,NOUN
-religión,religion,宗教,NOUN
 remedio,remedy,补救措施,NOUN
 renunciar,to resign,辞职,VERB
-reparar,to repair,修理,VERB
-repetir,to repeat,重复,VERB
 rescate,rescue,营救,NOUN
-reserva,reservation,预订,NOUN
 resistencia,resistance,抵抗,NOUN
 resistir,to resist,抵抗,VERB
-respetar,to respect,尊重,VERB
 retirar,to withdraw,撤回,VERB
-retraso,delay,延迟,NOUN
-reunir,to gather,聚集,VERB
-revista,magazine,杂志,NOUN
-reír,to laugh,笑,VERB
-risa,laughter,笑声,NOUN
-roca,rock,岩石,NOUN
-rodilla,knee,膝盖,NOUN
 ronda,round,轮次,NOUN
-rueda,wheel,轮子,NOUN
 rumbo,course,航向,NOUN
 sabio,wise,明智的,ADJ
-sabor,flavor,味道,NOUN
 sacerdote,priest,神父,NOUN
-saco,sack,麻袋,NOUN
 sagrado,sacred,神圣的,ADJ
-salario,salary,薪水,NOUN
-salto,jump,跳跃,NOUN
-saludar,to greet,问候,VERB
 salvaje,wild,野生的,ADJ
-sangre,blood,血,NOUN
-sano,healthy,健康的,ADJ
-seco,dry,干的,ADJ
 secuestro,kidnapping,绑架,NOUN
-sed,thirst,口渴,NOUN
 seda,silk,丝绸,NOUN
-sello,stamp,邮票,NOUN
-sentar,to seat,使坐下,VERB
 sentencia,sentence,判决,NOUN
-sentimiento,feeling,感情,NOUN
-significado,meaning,意义,NOUN
-simpático,nice,友好的,ADJ
-sincero,sincere,真诚的,ADJ
-sobrino,nephew,侄子,NOUN
 soledad,loneliness,孤独,NOUN
-soltar,to let go,松开,VERB
-solucionar,to solve,解决,VERB
-sombra,shadow,阴影,NOUN
-sonar,to sound,发出声音,VERB
-sonreír,to smile,微笑,VERB
 sordo,deaf,聋的,ADJ
 sospecha,suspicion,怀疑,NOUN
-soñar,to dream,做梦,VERB
-sueldo,salary,工资,NOUN
 sufrimiento,suffering,痛苦,NOUN
-sufrir,to suffer,遭受,VERB
 suicida,suicidal,自杀的,ADJ
 suicidio,suicide,自杀,NOUN
 superar,to overcome,克服,VERB
 superficie,surface,表面,NOUN
-susto,fright,惊吓,NOUN
-símbolo,symbol,符号,NOUN
 tabaco,tobacco,烟草,NOUN
-talla,size,尺码,NOUN
 tanque,tank,坦克,NOUN
-tardar,to take time,花费时间,VERB
-temer,to fear,害怕,VERB
 temor,fear,恐惧,NOUN
-temperatura,temperature,温度,NOUN
 tensión,tension,紧张,NOUN
 terapia,therapy,治疗,NOUN
-tercero,third,第三,NUM
 territorio,territory,领土,NOUN
 testimonio,testimony,证词,NOUN
 tiroteo,shootout,枪战,NOUN
-torre,tower,塔,NOUN
-tradición,tradition,传统,NOUN
 tragedia,tragedy,悲剧,NOUN
 traición,betrayal,背叛,NOUN
-tranquilidad,tranquility,宁静,NOUN
-transporte,transport,运输,NOUN
-treinta,thirty,三十,NUM
 tribu,tribe,部落,NOUN
 tribunal,court,法庭,NOUN
-tristeza,sadness,悲伤,NOUN
-trozo,piece,块,NOUN
 técnica,technique,技术,NOUN
 término,term,术语,NOUN
-tímido,shy,害羞的,ADJ
-típico,typical,典型的,ADJ
-título,title,标题,NOUN
-túnel,tunnel,隧道,NOUN
-utilizar,use,使用,VERB
-vaca,cow,牛,NOUN
-valle,valley,山谷,NOUN
-vecino,neighbor,邻居,NOUN
-veinte,twenty,二十,NUM
 vencer,defeat,击败,VERB
-vendedor,seller,卖家,NOUN
 veneno,poison,毒药,NOUN
 veredicto,verdict,裁决,NOUN
-vigilar,watch,监视,VERB
-violento,violent,暴力的,ADJ
 virgen,virgin,处女,NOUN
-visitar,visit,访问,VERB
 viuda,widow,寡妇,NOUN
-voluntario,volunteer,志愿者,NOUN
 víctima,victim,受害者,NOUN
 vínculo,bond,纽带,NOUN
-zapato,shoe,鞋子,NOUN
 ácido,acid,酸,ADJ
-ánimo,mood,情绪,NOUN
-desear,to desire,渴望,VERB
-dudar,to doubt,怀疑,VERB
-recomendar,to recommend,推荐,VERB
-evitar,to avoid,避免,VERB
-escapar,to escape,逃跑,VERB
 invadir,to invade,入侵,VERB
-prohibir,to forbid,禁止,VERB
-permitir,to permit,允许,VERB
-sugerir,to suggest,建议,VERB
 criticar,to criticize,批评,VERB
 lamentar,to regret,遗憾,VERB
-acompañar,to accompany,陪伴,VERB
-cenar,to have dinner,吃晚餐,VERB
-almorzar,to have lunch,吃午餐,VERB
 degustar,to taste,品尝,VERB
-calentar,to heat,加热,VERB
-enfriar,to cool,冷却,VERB
-freír,to fry,煎,VERB
-asar,to roast,烤,VERB
 cocer,to boil/cook,煮,VERB
 batir,to beat,搅打,VERB
-planchar,to iron,熨烫,VERB
-fregar,to scrub,擦洗,VERB
-barrer,to sweep,扫,VERB
-coser,to sew,缝,VERB
 tejer,to knit,编织,VERB
 bordar,to embroider,刺绣,VERB
-cortar,to cut,切,VERB
-romper,to break,打破,VERB
-atar,to tie,绑,VERB
 desatar,to untie,解开,VERB
-doblar,to fold,折叠,VERB
-envolver,to wrap,包裹,VERB
 desenvolver,to unwrap,拆开,VERB
-transportar,to transport,运输,VERB
-conducir,to drive,驾驶,VERB
-aparcar,to park,停车,VERB
-frenar,to brake,刹车,VERB
 acelerar,to accelerate,加速,VERB
 estrellar,to crash,撞毁,VERB
-chocar,to crash,碰撞,VERB
 atropellar,to run over,撞倒,VERB
 resbalar,to slip,滑倒,VERB
 tropezar,to stumble,绊倒,VERB
-caerse,to fall,摔倒,VERB
 emprender,to undertake,着手,VERB
-disculpar,to excuse,原谅,VERB
 aplazar,to postpone,推迟,VERB
-cumplir,to fulfill,履行,VERB
-regalar,to gift,赠送,VERB
 festejar,to celebrate,庆祝,VERB
-abrazar,to embrace,拥抱,VERB
 depositar,to deposit,存放,VERB
-cansancio,tiredness,疲倦,NOUN
 repentino,sudden,突然的,ADJ
 cumplimentar,to complete,完成,VERB
-gas,gas,气体,NOUN
 bebecito,baby (diminutive),宝宝,NOUN
-acuerdo,agreement,同意,NOUN

@@ -1,0 +1,562 @@
+Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
+مسافر,traveler,旅行者,NOUN
+جولة,tour,游览,NOUN
+طيار,pilot,飞行员,NOUN
+مطعم,restaurant,餐厅,NOUN
+مقهى,cafe,咖啡馆,NOUN
+استراحة,rest stop,休息站,NOUN
+متحف,museum,博物馆,NOUN
+دليل,guidebook,指南,NOUN
+تأخير,delay,延误,NOUN
+هبوط,landing,降落,NOUN
+بوابة,gate,登机口,NOUN
+مقعد,seat,座位,NOUN
+ممر,aisle,过道,NOUN
+وصول,arrival,到达,NOUN
+انطلاق,departure,出发,NOUN
+تسجيل,check-in,登记,NOUN
+عملة,currency,货币,NOUN
+اتجاه,direction,方向,NOUN
+سياحي,touristic,旅游的,ADJ
+مسار,route,路线,NOUN
+سفينة,ship,船,NOUN
+مسلسل,TV series,电视剧,NOUN
+قناة,channel,频道,NOUN
+أخبار,news,新闻,NOUN
+مجلة,magazine,杂志,NOUN
+إعلان,advertisement,广告,NOUN
+صحافي,journalist,记者,NOUN
+ممثل,actor,演员,NOUN
+ممثلة,actress,女演员,NOUN
+مغني,singer,歌手,NOUN
+أغنية,song,歌曲,NOUN
+حفلة,party/concert,派对/音乐会,NOUN
+مسرح,theater,剧院,NOUN
+مسرحية,stage play,舞台剧,NOUN
+رواية,novel,小说,NOUN
+قصة,story,故事,NOUN
+شاعر,poet,诗人,NOUN
+قصيدة,poem,诗,NOUN
+رسام,painter,画家,NOUN
+لوحة,painting,画作,NOUN
+معرض,exhibition,展览,NOUN
+ثقافة,culture,文化,NOUN
+فن,art,艺术,NOUN
+فنان,artist,艺术家,NOUN
+جمهور,audience,观众,NOUN
+نكتة,joke,笑话,NOUN
+ترجمة,translation,翻译,NOUN
+حلقة,episode,集,NOUN
+مقابلة,interview,采访,NOUN
+مباشر,live,现场直播的,ADJ
+شاشة,screen,屏幕,NOUN
+نجم,celebrity,明星,NOUN
+رقص,dance,舞蹈,NOUN
+صحافة,press,新闻界,NOUN
+إذاعة,radio station,广播电台,NOUN
+مشهد,scene,场景,NOUN
+دور,role,角色,NOUN
+أداء,performance,表演,NOUN
+كلمات,lyrics,歌词,NOUN
+آلة,instrument,乐器,NOUN
+شعبي,folk,民间的,ADJ
+تمثيل,acting,表演,NOUN
+رعب,horror,恐怖,NOUN
+ممل,boring,无聊的,ADJ
+ممتع,enjoyable,有趣的,ADJ
+مثير,exciting,令人兴奋的,ADJ
+تقييم,rating,评分,NOUN
+قارئ,reader,读者,NOUN
+حقوق,rights,权利,NOUN
+معجب,fan,粉丝,NOUN
+مهرجان,festival,节日,NOUN
+فريق,team,队,NOUN
+لاعب,player,球员,NOUN
+مدرب,coach,教练,NOUN
+حكم,referee,裁判,NOUN
+مباراة,match,比赛,NOUN
+بطولة,championship,锦标赛,NOUN
+كأس,cup,杯,NOUN
+هدف,goal,进球,NOUN
+مرمى,goal,球门,NOUN
+ضربة,kick,踢,NOUN
+تدريب,training,训练,NOUN
+جري,running,跑步,NOUN
+سباق,race,比赛,NOUN
+سباحة,swimming,游泳,NOUN
+تسلق,climbing,攀岩,NOUN
+مشي,walking,步行,NOUN
+إصابة,injury,受伤,NOUN
+فوز,victory,胜利,NOUN
+خسارة,defeat,失败,NOUN
+نتيجة,result,结果,NOUN
+ترتيب,ranking,排名,NOUN
+دوري,league,联赛,NOUN
+منتخب,national team,国家队,NOUN
+مشجع,fan,球迷,NOUN
+شجع,to cheer,欢呼,VERB
+تنس,tennis,网球,NOUN
+هواية,hobby,爱好,NOUN
+تدرب,to train,训练,VERB
+رمى,to throw,投掷,VERB
+مسابقة,competition,比赛,NOUN
+رياضي,athlete,运动员,NOUN
+بيئة,environment,环境,NOUN
+طبيعة,nature,自然,NOUN
+تلوث,pollution,污染,NOUN
+قمامة,garbage,垃圾,NOUN
+مناخ,climate,气候,NOUN
+حريق,fire,火灾,NOUN
+غروب,sunset,日落,NOUN
+شروق,sunrise,日出,NOUN
+نجمة,star,星星,NOUN
+كوكب,planet,行星,NOUN
+أرض,earth,地球,NOUN
+بحيرة,lake,湖,NOUN
+نهر,river,河流,NOUN
+فراشة,butterfly,蝴蝶,NOUN
+تربة,soil,土壤,NOUN
+شمسي,solar,太阳的,ADJ
+موجة,wave,波浪,NOUN
+جزيرة,island,岛屿,NOUN
+منظر,landscape,风景,NOUN
+حقل,field,田地,NOUN
+مزرعة,farm,农场,NOUN
+قمح,wheat,小麦,NOUN
+فضاء,space,空间,NOUN
+شهادة,certificate,证书,NOUN
+تعريف,identification,身份证明,NOUN
+عقد,contract,合同,NOUN
+وفاة,death,死亡,NOUN
+زواج,marriage,婚姻,NOUN
+توقيع,signature,签名,NOUN
+نسخة,copy,副本,NOUN
+ملف,file,文件,NOUN
+إدارة,administration,管理,NOUN
+شباك,service counter,服务窗口,NOUN
+موعد,appointment,预约,NOUN
+أجل,deadline,期限,NOUN
+رخصة,license,执照,NOUN
+جنسية,nationality,国籍,NOUN
+إقامة,residence,居住,NOUN
+رصيف,sidewalk,人行道,NOUN
+سلطة,authority,权力,NOUN
+انتخابات,elections,选举,NOUN
+جمعية,association,协会,NOUN
+أمن,security,安全,NOUN
+جريمة,crime,犯罪,NOUN
+سرقة,theft,盗窃,NOUN
+سجن,prison,监狱,NOUN
+وكالة,agency,机构,NOUN
+بريد,mail,邮件,NOUN
+فائدة,interest,利息,NOUN
+رسمي,official,官方的,ADJ
+وثيقة,document,文件,NOUN
+إنترنت,internet,互联网,NOUN
+موقع,website,网站,NOUN
+تطبيق,app,应用程序,NOUN
+رسالة,message,消息,NOUN
+نزّل,to download,下载,VERB
+منشور,post,帖子,NOUN
+تعليق,comment,评论,NOUN
+تابع,to follow,关注,VERB
+فيديو,video,视频,NOUN
+فأرة,computer mouse,鼠标,NOUN
+بطارية,battery,电池,NOUN
+سماعة,headphones,耳机,NOUN
+مكالمة,phone call,通话,NOUN
+صفحة,page,页面,NOUN
+رابط,link,链接,NOUN
+بحث,to search,搜索,VERB
+فيروس,virus,病毒,NOUN
+مجموعة,group,群组,NOUN
+تحديث,update,更新,NOUN
+نظام,system,系统,NOUN
+كابل,cable,电缆,NOUN
+ذاكرة,memory,记忆,NOUN
+نسخ,to copy,复制,VERB
+طبع,to print,打印,VERB
+طابعة,printer,打印机,NOUN
+جهاز,device,设备,NOUN
+غضب,to get angry,生气,VERB
+فخر,pride,骄傲,NOUN
+فخور,proud,骄傲的,ADJ
+أمل,hope,希望,NOUN
+مفاجأة,surprise,惊讶,NOUN
+مل,to get bored,厌倦,VERB
+رأي,opinion,意见,NOUN
+اقتراح,suggestion,建议,NOUN
+اقترح,to suggest,建议,VERB
+اتفق,to agree,同意,VERB
+اختلف,to disagree,不同意,VERB
+ناقش,to discuss,讨论,VERB
+نقاش,discussion,讨论,NOUN
+شك,doubt,怀疑,NOUN
+متأكد,sure,确定的,ADJ
+صراحة,frankness,坦率,NOUN
+شعور,feeling,感觉,NOUN
+مزاج,mood,心情,NOUN
+حماس,enthusiasm,热情,NOUN
+متحمس,enthusiastic,热情的,ADJ
+دمع,tear,眼泪,NOUN
+ابتسامة,smile,微笑,NOUN
+تبسم,to smile,微笑,VERB
+سامح,to forgive,原谅,VERB
+اعتذر,to apologize,道歉,VERB
+ثقة,trust,信任,NOUN
+وثق,to trust,信任,VERB
+احترام,respect,尊重,NOUN
+ظلم,injustice,不公,NOUN
+موقف,stance,立场,NOUN
+تفاهم,mutual understanding,相互理解,NOUN
+مشكلة,problem,问题,NOUN
+استغرب,to be surprised,感到惊讶,VERB
+كذاب,liar,说谎者,NOUN
+صادق,honest,诚实的,ADJ
+كريم,generous,慷慨的,ADJ
+بخيل,stingy,吝啬的,ADJ
+مجتهد,hardworking,勤奋的,ADJ
+غبي,stupid,愚蠢的,ADJ
+صَبُور,patient,有耐心的,ADJ
+عَصَبِيّ,irritable,易怒的,ADJ
+هادِئ,calm,冷静的,ADJ
+مُضْحِك,funny,滑稽的,ADJ
+مَسْؤول,responsible,负责任的,ADJ
+جادّ,serious,严肃的,ADJ
+اجْتِماعِيّ,sociable,好交际的,ADJ
+خَجُول,shy,害羞的,ADJ
+أَمِين,trustworthy,可靠的,ADJ
+واثِق,confident,自信的,ADJ
+متى,when,何时,ADV
+أما,as for,至于,PART
+مثلا,for example,例如,ADV
+خصوصا,especially,特别地,ADV
+عموما,generally,通常,ADV
+أخيرا,finally,最后,ADV
+أولا,firstly,首先,ADV
+ثانيا,secondly,其次,ADV
+مباشرة,directly,直接地,ADV
+كفاية,enough,够了,ADV
+كلاهما,both,两者都,DET
+رغم,despite,尽管,ADP
+إذن,therefore,因此,ADV
+بالكامل,at all,完全,ADV
+بالضبط,exactly,确切地,ADV
+باختصار,in short,简而言之,ADV
+بيننا,between us,我们之间,ADP
+هكذا,like this,这样,ADV
+أبدا,never,从不,ADV
+بالفعل,already,已经,ADV
+كلية,faculty,学院,NOUN
+معهد,institute,研究所,NOUN
+مادة,subject,科目,NOUN
+اختبار,test,测试,NOUN
+معدل,average,平均,NOUN
+أستاذ,teacher,老师,NOUN
+ثانوية,high school,高中,NOUN
+إعدادية,middle school,初中,NOUN
+مسطرة,ruler,尺子,NOUN
+ممحاة,eraser,橡皮,NOUN
+قاموس,dictionary,词典,NOUN
+قواعد,grammar,语法,NOUN
+نطق,pronunciation,发音,NOUN
+تركيز,concentration,专注,NOUN
+ركز,to concentrate,集中,VERB
+غياب,absence,缺席,NOUN
+تقدم,progress,进步,NOUN
+تخصص,specialization,专业,NOUN
+زميل,classmate,同学,NOUN
+ملخص,summary,总结,NOUN
+مراجعة,revision,复习,NOUN
+راجع,to review,复习,VERB
+حصة,class session,课时,NOUN
+جدول,timetable,时间表,NOUN
+عقاب,punishment,惩罚,NOUN
+تعليم,education,教育,NOUN
+قراءة,reading,阅读,NOUN
+خط,handwriting,笔迹,NOUN
+مهنة,profession,职业,NOUN
+عامل,worker,工人,NOUN
+صانع,craftsman,工匠,NOUN
+ممرض,nurse,护士,NOUN
+محاسب,accountant,会计师,NOUN
+مترجم,translator,翻译员,NOUN
+تقني,technician,技术员,NOUN
+كهربائي,electrician,电工,NOUN
+مصور,photographer,摄影师,NOUN
+إمام,imam,伊玛目,NOUN
+سكرتير,secretary,秘书,NOUN
+خبرة,experience,经验,NOUN
+مهارة,skill,技能,NOUN
+وظيفة,job,工作,NOUN
+شريك,partner,伙伴,NOUN
+مهمة,task,任务,NOUN
+زيادة,raise,加薪,NOUN
+صيام,fasting,斋戒,NOUN
+خطوبة,engagement,订婚,NOUN
+خطب,to get engaged,订婚,VERB
+تقاليد,traditions,传统,NOUN
+عادة,custom,习俗,NOUN
+سهرة,evening party,晚会,NOUN
+ذكرى,anniversary,周年纪念,NOUN
+عطر,perfume,香水,NOUN
+مشوي,grilled,烤的,ADJ
+وصفة,recipe,食谱,NOUN
+كمية,quantity,数量,NOUN
+دقيق,flour,面粉,NOUN
+مقلي,fried,油炸的,ADJ
+مسلوق,boiled,水煮的,ADJ
+صيدلية,pharmacy,药房,NOUN
+ضغط,blood pressure,血压,NOUN
+مستشفى,hospital,医院,NOUN
+فيتامين,vitamin,维生素,NOUN
+نظافة,hygiene,卫生,NOUN
+نصيحة,advice,建议,NOUN
+عيادة,clinic,诊所,NOUN
+راحة,rest,休息,NOUN
+شراب,syrup,糖浆,NOUN
+تدخين,smoking,吸烟,NOUN
+دخن,to smoke,吸烟,VERB
+عجلة,wheel,车轮,NOUN
+محرك,engine,发动机,NOUN
+عربة,cart,手推车,NOUN
+ممنوع,forbidden,禁止的,ADJ
+مسموح,allowed,允许的,ADJ
+مقارنة,comparison,比较,NOUN
+سبب,reason,原因,NOUN
+قرار,decision,决定,NOUN
+اختار,to choose,选择,VERB
+اختيار,choice,选择,NOUN
+حظ,luck,运气,NOUN
+صدفة,coincidence,巧合,NOUN
+خطر,danger,危险,NOUN
+آمن,safe,安全的,ADJ
+اقتصاد,economy,经济,NOUN
+سياسة,politics,政治,NOUN
+مجتمع,society,社会,NOUN
+جيران,neighbors,邻居,NOUN
+مجاناً,free of charge,免费,ADV
+فرشاة,brush,刷子,NOUN
+سلّم,ladder,梯子,NOUN
+زجاج,glass,玻璃,NOUN
+مكسور,broken,破碎的,ADJ
+قبلة,kiss,吻,NOUN
+أصحاب,friends,朋友,NOUN
+غائم,cloudy,多云的,ADJ
+لباس,outfit,服装,NOUN
+مرّ,to pass by,经过,VERB
+أمسك,to catch,抓住,VERB
+قضى,to spend (time) / to judge / to fulfill,度过 / 判决 / 完成,VERB
+استلم,to receive payment,领取工资,VERB
+بلدي,local,本地的,ADJ
+زائد,extra,额外的,ADJ
+بشر,human being,人类,NOUN
+كريم,cream,乳霜,NOUN
+شامبو,shampoo,洗发水,NOUN
+مؤتمر,conference,会议,NOUN
+سياسي,political,政治的,ADJ
+اقتصادي,economic,经济的,ADJ
+اجتماعي,social,社会的,ADJ
+ثقافي,cultural,文化的,ADJ
+تجاري,commercial,商业的,ADJ
+دولي,international,国际的,ADJ
+وطني,national,国家的,ADJ
+محلي,local,地方的,ADJ
+شخصي,personal,个人的,ADJ
+تاريخي,historical,历史的,ADJ
+جغرافي,geographical,地理的,ADJ
+طبيعي,natural,自然的,ADJ
+فني,technical,技术的,ADJ
+عادل,fair,公正的,ADJ
+حر,free,自由的,ADJ
+ضروري,necessary,必要的,ADJ
+ممكن,possible,可能的,ADJ
+مستحيل,impossible,不可能的,ADJ
+واضح,clear,清楚的,ADJ
+صحيح,correct,正确的,ADJ
+خاطئ,wrong,错误的,ADJ
+بسيط,simple,简单的,ADJ
+مهم,important,重要的,ADJ
+ثانوي,secondary,次要的,ADJ
+أساسي,basic/essential,基本的,ADJ
+رئيسي,main,主要的,ADJ
+عام,general,一般的,ADJ
+مشترك,common/shared,共同的,ADJ
+مختلف,different,不同的,ADJ
+متشابه,similar,相似的,ADJ
+متساوي,equal,平等的,ADJ
+كاف,sufficient,足够的,ADJ
+ناقص,incomplete,不完整的,ADJ
+إضافي,additional,额外的,ADJ
+دائم,permanent,永久的,ADJ
+حالي,current,当前的,ADJ
+سابق,previous,先前的,ADJ
+نادر,rare,稀有的,ADJ
+مستمر,continuous,持续的,ADJ
+سريع,fast,快的,ADJ
+بطيء,slow,慢的,ADJ
+قوي,strong,强壮的,ADJ
+ضعيف,weak,弱的,ADJ
+ثقيل,heavy,重的,ADJ
+خفيف,light,轻的,ADJ
+واسع,wide,宽阔的,ADJ
+ضيق,narrow,窄的,ADJ
+طويل,long,长的,ADJ
+قصير,short,短的,ADJ
+عالي,high,高的,ADJ
+منخفض,low,低的,ADJ
+عميق,deep,深的,ADJ
+سطح,surface,表面,NOUN
+ناعم,smooth,光滑的,ADJ
+جاف,dry,干的,ADJ
+ساخن,hot,热的,ADJ
+بارد,cold,冷的,ADJ
+دافئ,warm,温暖的,ADJ
+ممطر,rainy,多雨的,ADJ
+مشمس,sunny,阳光明媚的,ADJ
+صاف,clear,晴朗的,ADJ
+ظلام,darkness,黑暗,NOUN
+نور,light,光,NOUN
+ظل,shadow,阴影,NOUN
+زاوية,angle,角度,NOUN
+دائرة,circle,圆,NOUN
+مربع,square,正方形,NOUN
+مثلث,triangle,三角形,NOUN
+نقطة,point,点,NOUN
+مستوى,level,水平,NOUN
+درجة,degree,度,NOUN
+نسبة,percentage,比例,NOUN
+حدود,borders,边界,NOUN
+ساحل,coast,海岸,NOUN
+شاطئ,beach,海滩,NOUN
+جبل,mountain,山,NOUN
+وادي,valley,山谷,NOUN
+صحراء,desert,沙漠,NOUN
+غابة,forest,森林,NOUN
+سهل,plain,平原,NOUN
+قمة,peak,山顶,NOUN
+عين,spring/eye,泉,NOUN
+خليج,bay,海湾,NOUN
+رأس,cape,海角,NOUN
+بحر,sea,海,NOUN
+محيط,ocean,海洋,NOUN
+أمواج,waves,海浪,NOUN
+ريح,wind,风,NOUN
+عاصفة,storm,暴风雨,NOUN
+ثلج,snow,雪,NOUN
+مطر,rain,雨,NOUN
+غيمة,cloud,云,NOUN
+سحاب,clouds,云层,NOUN
+برودة,coldness,寒冷,NOUN
+حرارة,heat,热度,NOUN
+فصل,season,季节,NOUN
+ربيع,spring,春天,NOUN
+صيف,summer,夏天,NOUN
+خريف,autumn,秋天,NOUN
+شتاء,winter,冬天,NOUN
+طقس,weather,天气,NOUN
+توقعات,forecast,预报,NOUN
+موسم,season,季节,NOUN
+مناسبة,occasion,场合,NOUN
+حدث,event,事件,NOUN
+حادثة,incident,事故,NOUN
+خبر,news,消息,NOUN
+خطاب,speech,演讲,NOUN
+مقدمة,introduction,引言,NOUN
+محتوى,content,内容,NOUN
+موضوع,topic,主题,NOUN
+فكرة,idea,想法,NOUN
+شاهد,witness,证人,NOUN
+موافقة,approval,同意,NOUN
+رفض,refusal,拒绝,NOUN
+قبول,acceptance,接受,NOUN
+حل,solution,解决方案,NOUN
+صعوبة,difficulty,困难,NOUN
+تحدي,challenge,挑战,NOUN
+فرصة,opportunity,机会,NOUN
+نجاح,success,成功,NOUN
+فشل,failure,失败,NOUN
+جودة,quality,质量,NOUN
+ربح,profit,利润,NOUN
+سعر,price,价格,NOUN
+قيمة,value,价值,NOUN
+حساب,account,账户,NOUN
+سوق,market,市场,NOUN
+عرض,supply,供应,NOUN
+طلب,demand,需求,NOUN
+مؤسسة,institution,机构,NOUN
+شركة,company,公司,NOUN
+موظف,employee,员工,NOUN
+صاحب العمل,employer,雇主,NOUN
+كما,as,كما,CCONJ
+رؤية,vision,رؤية,NOUN
+حين,when,حين,ADV
+سار,to walk,سار,VERB
+زوجة,wife,زوجة,NOUN
+فور,instant,فور,NOUN
+عانى,to suffer,عانى,VERB
+كلام,speech,كلام,NOUN
+بقي,to remain,بقي,VERB
+مدى,range,مدى,NOUN
+إنسان,human,إنسان,NOUN
+أخبر,to tell,أخبر,VERB
+ٱبن,son,ٱبن,NOUN
+عد,to count,عد,VERB
+مرأة,woman,مرأة,NOUN
+غادر,to leave,غادر,VERB
+ليلي,nocturnal,ليلي,ADJ
+زمن,time,زمن,NOUN
+كفى,to suffice,كفى,VERB
+صنع,to make,صنع,VERB
+قط,cat,قط,NOUN
+مسلم,Muslim,مسلم,NOUN
+ممارسة,practice,ممارسة,NOUN
+نظرة,look,نظرة,NOUN
+مليار,billion,مليار,NOUN
+حشرة,insect,حشرة,NOUN
+رحلة,journey,رحلة,NOUN
+ٱستخدم,to use,ٱستخدم,VERB
+تحول,transformation,تحول,NOUN
+عالمي,global,عالمي,ADJ
+فرد,individual,فرد,NOUN
+تحرك,to move,تحرك,VERB
+مشاهدة,viewing,مشاهدة,NOUN
+متأخر,delay,متأخر,NOUN
+قريب,near,قريب,ADJ
+خطة,plan,خطة,NOUN
+ٱنتظر,to wait,ٱنتظر,VERB
+أحسن,to improve,أحسن,VERB
+جاد,earnest,جاد,ADJ
+أخرج,to take out,أخرج,VERB
+ٱبنة,daughter,ٱبنة,NOUN
+مرحبا,hello,مرحبا,ADV
+ضاع,to be lost,ضاع,VERB
+قلب,to turn,قلب,VERB
+عديد,many,عديد,ADJ
+تفكير,thinking,تفكير,NOUN
+أطول,longest,أطول,NOUN
+سيء,evil,سيء,NOUN
+أخير,last,أخير,ADJ
+صخر,rock,صخر,NOUN
+أعلى,higher,أعلى,ADJ
+ٱكتشف,to discover,ٱكتشف,VERB
+حصل,to happen,حصل,VERB
+ٱختفى,to disappear,ٱختفى,VERB
+جنوب,south,جنوب,NOUN
+أقل,to reduce,أقل,VERB
+حقيقة,truth,حقيقة,NOUN
+توقف,stop,توقف,NOUN
+لذيذ,pleasure,لذيذ,NOUN
+أكمل,to complete,أكمل,VERB
+بلد,country,بلد,NOUN
+أعد,to prepare,أعد,VERB
+ملك,to own,ملك,VERB
+خطأ,mistake,خطأ,NOUN
+بلدة,town,بلدة,NOUN
+كلب,dog,كلب,NOUN
+ود,to wish,ود,VERB
+أيها,O,أيها,PART
+حان,to come,حان,VERB
+جالس,sitter,جالس,NOUN
+صفة,attribute,صفة,NOUN
+ٱستمتع,to enjoy,ٱستمتع,VERB
