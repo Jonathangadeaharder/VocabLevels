@@ -9,7 +9,13 @@ import pytest
 
 import check_quality as cq
 
-LEVEL_NAMES = {"A1": "one", "A2": "two", "B1": "three", "B2": "four", "C1": "five"}
+LEVEL_NAMES = {
+    "A1": "one",
+    "A2": "two",
+    "B1": "three",
+    "B2": "four",
+    "Advanced": "five",
+}
 SEED_WORDS = ("alpha", "bravo", "charlie", "delta", "echo")
 
 
@@ -329,7 +335,7 @@ class TestPivotLanguageHeaders:
             "A2": ("three", "four"),
             "B1": ("five", "six"),
             "B2": ("seven", "eight"),
-            "C1": ("nine", "ten"),
+            "Advanced": ("nine", "ten"),
         }
         for level in cq.LEVELS:
             w1, w2 = words[level]
@@ -352,7 +358,7 @@ class TestPivotLanguageHeaders:
             "A2": ("三", "四"),
             "B1": ("五", "六"),
             "B2": ("七", "八"),
-            "C1": ("九", "十"),
+            "Advanced": ("九", "十"),
         }
         for level in cq.LEVELS:
             w1, w2 = words[level]
@@ -373,7 +379,7 @@ class TestPivotLanguageHeaders:
 
         A dict-keyed reader collapses both ``Chinese_Lemma`` columns into a
         single key and silently keeps only the last column's value. This
-        reproduces the actual C1 "confronting" bug: the true lemma cell
+        reproduces the actual Advanced "confronting" bug: the true lemma cell
         (column 0) carries the defect, while the identically-named
         column 2 is clean. The digit check must fire off column 0's value,
         proving the checker is not reading column 2 by name-collapse.

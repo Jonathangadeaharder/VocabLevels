@@ -11,8 +11,10 @@ class LanguageSchema(TypedDict):
     pos_col: str
 
 
-LEVELS = ("A1", "A2", "B1", "B2", "C1")
-TARGETS = {"A1": 600, "A2": 600, "B1": 1000, "B2": 2000, "C1": 4000}
+# The consumer capped its ladder at B2: C1 and C2 collapsed into one terminal
+# level, Advanced (Jonathangadeaharder/Vidiom#2071).
+LEVELS = ("A1", "A2", "B1", "B2", "Advanced")
+TARGETS = {"A1": 600, "A2": 600, "B1": 1000, "B2": 2000, "Advanced": 4000}
 
 # HSK levels for Chinese (1=beginner .. 6=advanced). Stored alongside
 # CEFR levels in the same enum; the Vidiom UI labels them per-language.
