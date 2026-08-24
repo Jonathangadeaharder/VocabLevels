@@ -1,0 +1,710 @@
+Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
+بلاغ,official statement,官方声明,NOUN
+استطلاع,poll,民意调查,NOUN
+اقتراع,voting,投票,NOUN
+ائتلاف,coalition,联盟,NOUN
+فضيحة,scandal,丑闻,NOUN
+معاهدة,treaty,条约,NOUN
+نزاع,conflict,冲突,NOUN
+تهريب,smuggling,走私,NOUN
+تصعيد,escalation,升级,NOUN
+وساطة,mediation,调解,NOUN
+رقابة,censorship,审查,NOUN
+إشاعة,rumor,谣言,NOUN
+انقلاب,coup,政变,NOUN
+حصار,siege,围困,NOUN
+مؤامرة,conspiracy,阴谋,NOUN
+جاسوس,spy,间谍,NOUN
+مبعوث,envoy,特使,NOUN
+غزو,invasion,入侵,NOUN
+قصف,bombing,轰炸,NOUN
+والي,governor,省长,NOUN
+تضخم,inflation,通货膨胀,NOUN
+مقاولة,enterprise,企业,NOUN
+بورصة,stock exchange,证券交易所,NOUN
+عجز,deficit,赤字,NOUN
+مدخول,income,收入,NOUN
+طلبية,order,订单,NOUN
+مورد,supplier,供应商,NOUN
+رأسمال,capital,资本,NOUN
+مخزون,inventory,库存,NOUN
+إفلاس,bankruptcy,破产,NOUN
+نسيج,textile,纺织,NOUN
+انتعاش,recovery,复苏,NOUN
+إحصاء,statistics,统计,NOUN
+وفرة,abundance,丰富,NOUN
+ازدهار,prosperity,繁荣,NOUN
+حصيلة,outcome,结果,NOUN
+إيداع,deposit,存款,NOUN
+كَفِيل,guarantor,担保人,NOUN
+قِسْط,installment,分期付款,NOUN
+عُمُولَة,commission,佣金,NOUN
+اعْتِمَاد,credit,信用,NOUN
+تَسْدِيد,repayment,还款,NOUN
+سَدَّدَ,to repay,偿还,VERB
+مُؤَمَّن,insured,被保险人,NOUN
+مَعاش,pension,养老金,NOUN
+ادِّخَار,savings,积蓄,NOUN
+تَجْمِيد,freezing,冻结,NOUN
+تَقْسِيط,installment plan,分期付款,NOUN
+مُسْتَفِيد,beneficiary,受益人,NOUN
+تدقيق,audit,审计,NOUN
+تدفق,flow,流动,NOUN
+إعفاء,exemption,豁免,NOUN
+تهرب,evasion,逃避,NOUN
+إلزامي,mandatory,强制的,ADJ
+تسعيرة,tariff,费率,NOUN
+معاينة,inspection,检查,NOUN
+نيابة,prosecution,公诉,NOUN
+اختطاف,kidnapping,绑架,NOUN
+تحرش,harassment,骚扰,NOUN
+إدانة,conviction,定罪,NOUN
+براءة,acquittal,无罪释放,NOUN
+استدعاء,summons,传票,NOUN
+إنكار,denial,否认,NOUN
+دعوى,lawsuit,诉讼,NOUN
+توثيق,notarization,公证,NOUN
+إرث,inheritance,遗产,NOUN
+وريث,heir,继承人,NOUN
+وصية,will,遗嘱,NOUN
+حضانة,custody,监护权,NOUN
+قاصر,minor,未成年人,NOUN
+بند,clause,条款,NOUN
+ترحيل,deportation,驱逐出境,NOUN
+تزوير,forgery,伪造,NOUN
+جنائي,criminal,刑事的,ADJ
+إعدام,death penalty,死刑,NOUN
+معتقل,detainee,被拘留者,NOUN
+احتجاز,detention,拘留,NOUN
+رهينة,hostage,人质,NOUN
+مسودة,draft,草案,NOUN
+إنتاجية,productivity,生产力,NOUN
+تدبير,management,管理,NOUN
+تسيير,management,管理,NOUN
+اجتهاد,diligence,勤奋,NOUN
+انضباط,discipline,纪律,NOUN
+أجير,employee,雇员,NOUN
+نقابي,unionist,工会成员,ADJ
+تحفيز,motivation,激励,NOUN
+ملتقى,forum,论坛,NOUN
+مردود,yield,收益,NOUN
+احتراف,professionalism,专业性,NOUN
+تكليف,assignment,任务,NOUN
+تصنيف,classification,分类,NOUN
+إدماج,integration,融合,NOUN
+تأهيل,qualification,资格,NOUN
+عقار,real estate,房地产,NOUN
+عقاري,real estate,房地产的,ADJ
+مؤجر,landlord,房东,NOUN
+مستأجر,tenant,租户,NOUN
+بقعة,plot of land,地块,NOUN
+ضاحية,suburb,郊区,NOUN
+ساكنة,population,人口,NOUN
+عتبة,threshold,门槛,NOUN
+سياج,fence,栅栏,NOUN
+قبو,basement,地下室,NOUN
+عزل,insulation,隔热,NOUN
+تسريب,leak,泄漏,NOUN
+هدم,demolition,拆除,NOUN
+انهيار,collapse,倒塌,NOUN
+رقمنة,digitization,数字化,NOUN
+اختراق,hacking,黑客攻击,NOUN
+معلوميات,informatics,信息学,NOUN
+عطب,breakdown,故障,NOUN
+مهر,dowry,聘礼,NOUN
+خصام,quarrel,争吵,NOUN
+مصالحة,reconciliation,和解,NOUN
+شيخوخة,old age,老年,NOUN
+انتماء,belonging,归属感,NOUN
+اندماج,integration,融合,NOUN
+قرابة,kinship,亲属关系,NOUN
+إحسان,charity,慈善,NOUN
+تعزية,condolence,慰问,NOUN
+قطيعة,estrangement,决裂,NOUN
+نخبة,elite,精英,NOUN
+ذهنية,mentality,心态,NOUN
+حرمان,deprivation,剥夺,NOUN
+إعاقة,disability,残疾,NOUN
+تعايش,coexistence,共存,NOUN
+تنمر,bullying,欺凌,NOUN
+احتقار,contempt,轻视,NOUN
+مجاملة,courtesy,礼貌,NOUN
+عتاب,reproach,责备,NOUN
+برهان,proof,证明,NOUN
+جدال,argument,争论,NOUN
+مناظرة,debate,辩论,NOUN
+منظور,perspective,视角,NOUN
+تناقض,contradiction,矛盾,NOUN
+انسجام,coherence,连贯,NOUN
+استنتاج,inference,推断,NOUN
+عاقبة,consequence,后果,NOUN
+فرضية,hypothesis,假说,NOUN
+يقين,certainty,确定性,NOUN
+مبالغة,exaggeration,夸张,NOUN
+تعميم,generalization,概括,NOUN
+عزيمة,determination,决心,NOUN
+مثابرة,perseverance,毅力/勤勉,NOUN
+جرأة,boldness/daring,大胆/勇敢,NOUN
+بخل,stinginess,吝啬,NOUN
+كبرياء,pride,骄傲/自豪,NOUN
+حياء,modesty/bashfulness,害羞/谦逊,NOUN
+خداع,deception,欺骗,NOUN
+نفاق,hypocrisy,伪善,NOUN
+صرامة,strictness,严格,NOUN
+حزم,firmness,果断,NOUN
+حسم,decisiveness,决断,NOUN
+انحراف,deviance,偏差,NOUN
+لامبالاة,indifference,冷漠,NOUN
+تشاؤم,pessimism,悲观,NOUN
+طمع,greed,贪婪,NOUN
+حقد,grudge,怨恨,NOUN
+استقلالية,independence,独立,NOUN
+تبعية,dependency,依赖,NOUN
+نضج,maturity,成熟,NOUN
+براعة,skillfulness,熟练,NOUN
+سذاجة,naivety,天真,NOUN
+خبث,malice,恶意,NOUN
+قبح,ugliness,丑,NOUN
+شفافية,transparency,透明,NOUN
+حياد,neutrality,中立,NOUN
+تطرف,extremism,极端主义,NOUN
+تعصب,fanaticism,狂热,NOUN
+استياء,displeasure,不满,NOUN
+إحباط,frustration,挫败,NOUN
+تخدير,anesthesia,麻醉,NOUN
+ضمادة,bandage,绷带,NOUN
+جلطة,clot,血栓,NOUN
+ربو,asthma,哮喘,NOUN
+جرثومة,germ,病菌,NOUN
+شريان,artery,动脉,NOUN
+وريد,vein,静脉,NOUN
+غدة,gland,腺体,NOUN
+جمجمة,skull,头骨,NOUN
+فقرة,vertebra,椎骨,NOUN
+وتر,tendon,肌腱,NOUN
+كاحل,ankle,脚踝,NOUN
+جفن,eyelid,眼睑,NOUN
+حنجرة,larynx,喉,NOUN
+مصل,serum,血清,NOUN
+إنعاش,resuscitation,复苏,NOUN
+تعقيم,sterilization,灭菌,NOUN
+شلل,paralysis,瘫痪,NOUN
+إغماء,fainting,昏厥,NOUN
+تشنج,convulsion,痉挛,NOUN
+تورم,swelling,肿胀,NOUN
+نحافة,thinness,消瘦,NOUN
+وسواس,obsession,强迫观念,NOUN
+هوس,mania,躁狂,NOUN
+طمأنينة,serenity,宁静,NOUN
+تشتت,distraction,分心,NOUN
+حدس,intuition,直觉,NOUN
+قهر,oppression,压迫,NOUN
+أرق,insomnia,失眠,NOUN
+عدوانية,aggressiveness,攻击性,NOUN
+رشد,sanity,理智,NOUN
+امتنان,gratitude,感激,NOUN
+رفاهية,well-being,福祉,NOUN
+منحوتة,sculpture,雕塑,NOUN
+تحفة,masterpiece,杰作,NOUN
+زخرفة,ornamentation,装饰,NOUN
+سرد,narration,叙述,NOUN
+تشبيه,simile,明喻,NOUN
+مغزى,moral,寓意,NOUN
+مقام,maqam,马卡姆调式,NOUN
+دف,tambourine,手鼓,NOUN
+طرب,tarab,塔拉布,NOUN
+جمالية,aesthetic,美学的,ADJ
+دبلجة,dubbing,配音,NOUN
+كواليس,backstage,幕后,NOUN
+عرائس,puppets,木偶,NOUN
+سلالة,dynasty,王朝,NOUN
+مؤرخ,historian,历史学家,NOUN
+حقبة,period/epoch,时期,NOUN
+مئذنة,minaret,宣礼塔,NOUN
+منبر,pulpit,敏拜尔,NOUN
+تقوى,piety,虔诚,NOUN
+فتوى,fatwa,法特瓦,NOUN
+خرافة,superstition,迷信,NOUN
+طقوس,rituals,仪式,NOUN
+غرس,planting,种植,NOUN
+ري,irrigation,灌溉,NOUN
+مطحنة,mill,磨坊,NOUN
+طاحونة,windmill,风车,NOUN
+قطيع,flock,群,NOUN
+حظيرة,pen,圈,NOUN
+دواجن,poultry,家禽,NOUN
+خزف,ceramics,陶瓷,NOUN
+غزل,spinning,纺纱,NOUN
+حدادة,blacksmithing,铁匠活,NOUN
+صياغة,jewelry making,珠宝制作,NOUN
+صائغ,jeweler,珠宝商,NOUN
+نقش,engraving,雕刻,NOUN
+مضيق,strait,海峡,NOUN
+نبع,spring,泉水,NOUN
+جزيء,molecule,分子,NOUN
+حمض,acid,酸,NOUN
+تبخر,evaporation,蒸发,NOUN
+تجمد,freezing,冻结,NOUN
+تسارع,acceleration,加速度,NOUN
+احتكاك,friction,摩擦,NOUN
+إشعاع,radiation,辐射,NOUN
+نواة,nucleus,原子核,NOUN
+وراثة,heredity,遗传,NOUN
+تكاثر,reproduction,繁殖,NOUN
+مجرة,galaxy,星系,NOUN
+فلك,astronomy,天文学,NOUN
+مجهر,microscope,显微镜,NOUN
+جبر,algebra,代数,NOUN
+دالة,function,函数,NOUN
+تسلل,sneaking,潜入,NOUN
+تعثر,stumble,绊倒,VERB
+زحف,to crawl,爬行,VERB
+تباطأ,to slow down,减速,VERB
+تمهل,to take one's time,从容,VERB
+انحنى,to bend,弯腰,VERB
+اعتدل,to straighten up,挺直,VERB
+استلقى,to lie down,躺下,VERB
+ارتعش,to tremble,颤抖,VERB
+تمايل,to sway,摇摆,VERB
+انحدر,to slope down,倾斜向下,VERB
+لمح,to glimpse,瞥见,VERB
+حدق,to stare,凝视,VERB
+تفحص,to scrutinize,细查,VERB
+تحسس,to sense,感知,VERB
+تشكك,to be skeptical,怀疑,VERB
+برهن,to prove,证明,VERB
+وازن,to weigh options,权衡,VERB
+رجح,to favor,倾向于,VERB
+عزم,to resolve,决心,VERB
+سرح,to daydream,走神,VERB
+انبهر,to be dazzled,惊叹,VERB
+تحير,to be puzzled,困惑,VERB
+تنبه,to become alert,警觉,VERB
+بالعافية,with difficulty,艰难地,ADV
+بالمرة,at all,根本,ADV
+كزبرة,coriander,香菜,NOUN
+زنجبيل,ginger,姜,NOUN
+كركم,turmeric,姜黄,NOUN
+مخلل,pickles,泡菜,NOUN
+تتبيلة,marinade,腌料,NOUN
+وليمة,banquet,宴会,NOUN
+ممنوعات,prohibited items,违禁品,NOUN
+ضمانة,warranty,保修,NOUN
+أقساط,installments,分期付款,NOUN
+تسديدة,shot,射门,NOUN
+مدرجات,stands,看台,NOUN
+ديربي,derby,德比,NOUN
+تصفيات,qualifiers,资格赛,NOUN
+اعتزال,retirement,退役,NOUN
+هداف,top scorer,最佳射手,NOUN
+راي,rai,拉伊音乐,NOUN
+هتاف,cheering,欢呼,NOUN
+فلكلور,folklore,民俗,NOUN
+تنشيط,animation,娱乐主持,NOUN
+صنارة,fishing rod,钓竿,NOUN
+أخطبوط,octopus,章鱼,NOUN
+محار,oysters,牡蛎,NOUN
+مرسى,anchorage,锚地,NOUN
+نورس,seagull,海鸥,NOUN
+يابسة,dry land,陆地,NOUN
+بحارة,sailors,水手,NOUN
+مغارة,cavern,大洞穴,NOUN
+مفك,screwdriver,螺丝刀,NOUN
+سباك,plumber,水管工,NOUN
+سباكة,plumbing,管道工程,NOUN
+حصير,mat,席子,NOUN
+تلميع,polishing,抛光,NOUN
+مبرد,file,锉刀,NOUN
+راسب,failing student,不及格的学生,NOUN
+تأطير,mentoring,指导,NOUN
+تشرد,homelessness,无家可归,NOUN
+تسول,begging,乞讨,NOUN
+متسول,beggar,乞丐,NOUN
+منهك,exhausted,筋疲力尽的,ADJ
+متشدد,strict,严格的,ADJ
+متساهل,lenient,宽容的,ADJ
+متحفظ,reserved,矜持的,ADJ
+وقح,insolent,无礼的,ADJ
+مواظب,diligent,勤奋的,ADJ
+متقن,well-crafted,精湛的,ADJ
+متين,sturdy,坚固的,ADJ
+مقتصد,thrifty,节俭的,ADJ
+ساذج,naive,天真的,ADJ
+ماكر,sly,狡诈的,ADJ
+غافل,unaware,未察觉的,ADJ
+متلهف,eager,渴望的,ADJ
+مبهر,dazzling,耀眼的,ADJ
+كئيب,dreary,忧郁的,ADJ
+خانق,stifling,闷热的,ADJ
+تباعا,successively,相继地,ADV
+قسرا,forcibly,强制地,ADV
+طوعا,voluntarily,自愿地,ADV
+باهت,faded,褪色的,ADJ
+مريب,suspicious,可疑的,ADJ
+طائش,reckless,鲁莽的,ADJ
+متهور,rash,轻率的,ADJ
+عفوي,spontaneous,自发的,ADJ
+مصطنع,artificial,做作的,ADJ
+استحقاقات,entitlements,应得权益,NOUN
+تفعيل,activation,激活,NOUN
+مقاربة,approach,方法,NOUN
+انعقاد,convening,召开,NOUN
+اختصاصات,competencies,职权,NOUN
+نقالة,stretcher,担架,NOUN
+ماراطون,marathon,马拉松,NOUN
+بهلوان,acrobat,杂技演员,NOUN
+ملوحة,salinity,盐度,NOUN
+عازل,insulator,绝缘体,NOUN
+قصدير,tin,锡,NOUN
+وصي,guardian,监护人,NOUN
+تصفية,liquidation,清算,NOUN
+جرد,inventory,盘点,NOUN
+مُزَوِّد,provider,提供者,NOUN
+امتياز,franchise,特许经营权,NOUN
+مواصفة,specification,规格,NOUN
+نزوح,displacement,流离失所,NOUN
+تمرد,rebellion,叛乱,NOUN
+عصيان,disobedience,不服从,NOUN
+حموضة,acidity,酸度,NOUN
+خبيث,malignant,恶性的,ADJ
+حميد,benign,良性的,ADJ
+مسعف,paramedic,急救人员,NOUN
+إجهاض,abortion,流产,NOUN
+رضاعة,breastfeeding,母乳喂养,NOUN
+توحد,autism,自闭症,NOUN
+سِمْنَة,obesity,肥胖,NOUN
+قَيْلُولَة,nap,午睡,NOUN
+فَصِيلَة,blood type,血型,NOUN
+تَعَاوُنِيَّة,mutual insurance,互助保险,NOUN
+مُزْمِن,chronic,慢性的,ADJ
+مُعْدٍ,contagious,传染性的,ADJ
+وِقَائِيّ,preventive,预防的,ADJ
+تَأْهِيلِيّ,rehabilitative,康复的,ADJ
+أَعْرَج,lame person,跛子,NOUN
+تَجَاعِيد,wrinkles,皱纹,NOUN
+لسعة,sting,蜇,NOUN
+عضة,bite,咬,NOUN
+اختناق,suffocation,窒息,NOUN
+هلع,panic,恐慌,NOUN
+سكينة,calm,平静,NOUN
+انجذاب,attraction,吸引,NOUN
+تكبر,arrogance,傲慢,NOUN
+تهور,recklessness,鲁莽,NOUN
+اندفاع,impulsiveness,冲动,NOUN
+تساهل,leniency,宽容,NOUN
+عناد,stubbornness,固执,NOUN
+غفران,forgiveness,宽恕,NOUN
+صمود,steadfastness,坚定,NOUN
+عزة,pride,自豪,NOUN
+خضوع,submission,顺从,NOUN
+دعابة,playfulness,嬉戏,NOUN
+مزاجية,moodiness,情绪化,NOUN
+برود,coldness,冷淡,NOUN
+ظنون,suspicions,猜疑,NOUN
+رعشة,tremor,颤抖,NOUN
+سبق,scoop,独家新闻,NOUN
+تضليل,disinformation,虚假信息,NOUN
+ترويج,promotion,推广,NOUN
+مشفر,encrypted,加密的,ADJ
+محتال,scammer,骗子,NOUN
+توثيقي,documentary,纪录的,ADJ
+فهرس,index,索引,NOUN
+مصنف,compilation,汇编,NOUN
+مضلل,misleading,误导的,ADJ
+متداول,circulating,流通的,ADJ
+صيحة,trend,潮流,NOUN
+مروج,promoter,推广者,NOUN
+فيروسي,viral,病毒式的,ADJ
+توثق,verify,验证,VERB
+لقط,pick up,捡起,VERB
+جادل,argue,争论,VERB
+عزى,console,安慰,VERB
+عفا,pardon,原谅,VERB
+تنبأ,predict,预测,VERB
+عمم,generalize,概括,VERB
+عمق,deepen,加深,VERB
+حلى,sweeten,加甜,VERB
+ليسانس,bachelor's degree,学士学位,NOUN
+باك,baccalaureate,高中毕业会考,NOUN
+قرصة,pinch,捏,NOUN
+مرجان,coral,珊瑚,NOUN
+طربوش,fez,土耳其毡帽,NOUN
+عمران,urbanism,城市化,NOUN
+تهيئة,development works,开发工程,NOUN
+جبس,plaster,石膏,NOUN
+هزة,tremor,震动,NOUN
+انزلاق,landslide,滑坡,NOUN
+مستدام,sustainable,可持续的,ADJ
+فرز,sorting,分类,NOUN
+رعي,grazing,放牧,NOUN
+قنفذ,hedgehog,刺猬,NOUN
+بلبل,nightingale,夜莺,NOUN
+نعامة,ostrich,鸵鸟,NOUN
+سنجاب,squirrel,松鼠,NOUN
+زواحف,reptiles,爬行动物,NOUN
+فطريات,fungi,真菌,NOUN
+قش,straw,稻草,NOUN
+تبن,hay,干草,NOUN
+شهاب,meteor,流星,NOUN
+رذاذ,drizzle,毛毛雨,NOUN
+سيل,torrent,洪流,NOUN
+طوفان,deluge,洪水,NOUN
+ضفة,riverbank,河岸,NOUN
+ينبوع,spring,泉水,NOUN
+فطرة,innate nature,天性,NOUN
+مكتسب,acquired,后天习得的,ADJ
+موروث,inherited,遗传的,ADJ
+مستبعد,unlikely,不太可能的,ADJ
+حتمي,inevitable,不可避免的,ADJ
+متعمد,deliberate,故意的,ADJ
+عابر,fleeting,短暂的,ADJ
+راسخ,deep-rooted,根深蒂固的,ADJ
+هش,fragile,脆弱的,ADJ
+صارم,strict,严格的,ADJ
+ملموس,tangible,切实的,ADJ
+بديهي,self-evident,不言而喻的,ADJ
+سلس,fluent,流畅的,ADJ
+متقلب,volatile,多变的,ADJ
+متفاوت,varying,不同的,ADJ
+تشاركي,participatory,参与式的,ADJ
+حضوريا,in person,亲自地,ADV
+شفهيا,orally,口头地,ADV
+ضمنيا,implicitly,含蓄地,ADV
+عشوائيا,randomly,随机地,ADV
+إشراك,involvement,参与,NOUN
+مطابقة,conformity,符合,NOUN
+تناوب,alternation,交替,NOUN
+محو,erasure,抹除,NOUN
+رسوب,failing an exam,不及格,NOUN
+قرنبيط,cauliflower,花椰菜,NOUN
+بندق,hazelnut,榛子,NOUN
+كاجو,cashew,腰果,NOUN
+محمص,roasted,烤的,ADJ
+مبخّر,steamed,蒸的,ADJ
+فتات,crumbs,面包屑,NOUN
+أزقة,alleys,小巷,NOUN
+بهو,hall,大厅,NOUN
+زحف,crawl,爬行,NOUN
+قامر,gamble,赌博,VERB
+استرد,reclaim,收回,VERB
+تثاءب,yawn,打哈欠,VERB
+تنهد,sigh,叹气,VERB
+بصق,spit,吐口水,VERB
+تشكى,complain,抱怨,VERB
+عاتب,reproach,责备,VERB
+وبخ,scold,训斥,VERB
+راق,calm down,平静下来,VERB
+واسى,console,安慰,VERB
+تعانق,embrace each other,互相拥抱,VERB
+غمز,wink,眨眼,VERB
+غرد,chirp,鸣叫,VERB
+فرك,rub,摩擦,VERB
+دلك,massage,按摩,VERB
+غمس,dip,浸,VERB
+نفض,shake off,抖落,VERB
+جنى,harvest,收获,VERB
+عَبَأَ,fill/pack,装满,VERB
+خَنَقَ,strangle,勒死,VERB
+لَكَمَ,punch,猛击,VERB
+رَكَلَ,kick,踢,VERB
+انْقَلَبَ,overturn,翻转,VERB
+انْعَطَفَ,turn,转弯,VERB
+أَبْحَرَ,sail,航行,VERB
+طَفَا,float,漂浮,VERB
+مُرْعِب,horrifying,令人恐惧的,ADJ
+مُنْتَفِخ,swollen,肿胀的,ADJ
+مَشْدُود,taut,拉紧的,ADJ
+مُبْتَلّ,damp,潮湿的,ADJ
+متزن,balanced,平衡的,ADJ
+مندفع,impulsive,冲动的,ADJ
+مخادع,deceitful,欺骗的,ADJ
+هاو,amateur,业余爱好者,NOUN
+يقظ,alert,警觉的,ADJ
+حقير,despicable,卑鄙的,ADJ
+يُتنبَّأ,to be predicted,被预测,VERB
+يُشترَط,to be required,被要求,VERB
+يُحظَر,to be banned,被禁止,VERB
+يُستنتَج,to be concluded,被推断出,VERB
+يُقيَّم,to be evaluated,被评估,VERB
+يُلقَّب,to be nicknamed,被昵称,VERB
+يُبرَّر,to be justified,被证明正当,VERB
+يُثبَت,to be proven,被证明,VERB
+يُستدعى,to be summoned,被传唤,VERB
+يُحاكَم,to be prosecuted,被起诉,VERB
+يُعفى,to be pardoned,被赦免,VERB
+يُفرَج,to be released,被释放,VERB
+يُعتَقَل,to be arrested,被逮捕,VERB
+يُوقَّف,to be detained,被拘留,VERB
+يُختَطَف,to be kidnapped,被绑架,VERB
+يُحتجَز,to be held,被扣押,VERB
+يُنسَب,to be ascribed,被归因于,VERB
+يُتناوَل,to be addressed,被讨论,VERB
+يُستحسَن,to be approved,被赞许,VERB
+يُقَر,to be acknowledged,被承认,VERB
+تراكم,to accumulate,تراكم,VERB
+فصيل,unit,فصيل,NOUN
+زلزلة,earthquake,زلزلة,NOUN
+لب,core,لب,NOUN
+حميم,intimate,حميم,NOUN
+جدر,to be worthy,جدر,VERB
+أهان,to humiliate,أهان,VERB
+أطاق,to endure,أطاق,VERB
+شيوعي,communist,شيوعي,ADJ
+فرار,flight,فرار,NOUN
+أسر,captivity,أسر,NOUN
+تلاشى,to vanish,تلاشى,VERB
+هدي,guidance,هدي,NOUN
+فردوس,paradise,فردوس,NOUN
+ٱنحدر,to descend,ٱنحدر,VERB
+كمن,to lurk,كمن,VERB
+غمر,to submerge,غمر,VERB
+قاري,continental,قاري,ADJ
+صفيحة,plate,صفيحة,NOUN
+سحق,to crush,سحق,VERB
+أشفق,to pity,أشفق,VERB
+إباحي,pornographic,إباحي,ADJ
+إنجاب,birth,إنجاب,NOUN
+ٱنبغى,to need,ٱنبغى,VERB
+مقبر,grave,مقبر,NOUN
+عسا,perhaps,عسا,ADV
+ٱستكمال,completion,ٱستكمال,NOUN
+جال,to roam,جال,VERB
+تعنى,to care,تعنى,VERB
+مستاء,distress,مستاء,NOUN
+باهظ,cost,,NOUN
+بجع,swan,,NOUN
+برقية,telegram,,NOUN
+بنادورة,circle,,NOUN
+بيد,hand,,NOUN
+تأرجح,swinging,,NOUN
+تافهة,triviality,,NOUN
+تبعثر,scattering,,NOUN
+تجسيد,embodiment,,NOUN
+تجميد,freezing,,NOUN
+تحرى,investigation,,NOUN
+تحري,inquiry,,NOUN
+تحطيم,destruction,,NOUN
+تحلى,adornment,,NOUN
+تشتيت,scattering,,NOUN
+تصدى,confrontation,,NOUN
+تصفيف,clapping,,NOUN
+تعافى,recovery,,NOUN
+تفكك,disintegration,,NOUN
+تقاتل,fighting,,NOUN
+تكشف,exposure,,NOUN
+تكيف,adaptation,,NOUN
+تمزق,tearing,,NOUN
+توالي,succession,,NOUN
+توهج,glow,,NOUN
+جرؤ,boldness,,NOUN
+حسبان,account,,NOUN
+حشد,crowd,,NOUN
+حلة,pot,,NOUN
+حير,confusion,,NOUN
+حيلة,trick,,NOUN
+خاب,disappointment,,NOUN
+خاض,engagement,,NOUN
+خشونة,roughness,,NOUN
+خصب,fertility,,NOUN
+خفق,flutter,,NOUN
+خندق,trench,,NOUN
+خوض,wading,,NOUN
+دلتا,delta,,NOUN
+دوامة,vortex,,NOUN
+ديناميكي,dynamic,,NOUN
+ذاع,fame,,NOUN
+رطل,pound,,NOUN
+رمح,spear,,NOUN
+زائف,falsity,,NOUN
+سجان,jailer,,NOUN
+سفين,ship,,NOUN
+شاسع,expanse,,NOUN
+شرارة,spark,,NOUN
+شهى,deliciousness,,NOUN
+شيب,gray hair,,NOUN
+صاعقة,lightning,,NOUN
+صاغ,coining,,NOUN
+صدارة,leadership,,NOUN
+صهر,brother-in-law,,NOUN
+ضخامة,bulk,,NOUN
+طفا,float,,NOUN
+طهر,purity,,NOUN
+عبودي,servitude,,NOUN
+عمومة,uncle,,NOUN
+عنفي,violence,,NOUN
+عوارض,symptom,,NOUN
+غاص,dive,,NOUN
+غزا,invasion,,NOUN
+غض,anger,,NOUN
+غيري,other,,NOUN
+فل,metal,,NOUN
+فلس,coin,,NOUN
+فلكي,celestial,,NOUN
+قسا,severity,,NOUN
+قصارى,utmost,,NOUN
+كبري,sulfur,,NOUN
+كيل,weighing,,NOUN
+لئيم,wretch,,NOUN
+لاين,line,,NOUN
+مارى,Mary,,NOUN
+متحير,confusion,,NOUN
+متراكم,accumulation,,NOUN
+متسق,coherence,,NOUN
+متعطش,thirst,,NOUN
+متناسق,harmony,,NOUN
+مثقل,burden,,NOUN
+مثيل,equivalent,,NOUN
+محصل,collector,,NOUN
+مخبأ,hideout,,NOUN
+مخرب,saboteur,,NOUN
+مذبحة,massacre,,NOUN
+مرأب,garage,,NOUN
+مرار,bitterness,,NOUN
+مربك,puzzle,,NOUN
+مريع,dread,,NOUN
+مزق,shred,,NOUN
+مزية,advantage,,NOUN
+مصفوف,matrix,,NOUN
+معبأ,filling,,NOUN
+معذب,tormentor,,NOUN
+معهود,custom,,NOUN
+مغرم,debt,,NOUN
+مغطس,bath,,NOUN
+مفرط,excess,,NOUN
+مقرف,nausea,,NOUN
+مكث,stay,,NOUN
+ملازم,lieutenant,,NOUN
+مناشدة,appeal,,NOUN
+منصف,fairness,,NOUN
+منقرض,extinction,,NOUN
+موقد,hearth,,NOUN
+ميكروسكوبي,microscope,,NOUN
+نابض,pulse,,NOUN
+ناهيك,besides,,NOUN
+ند,peer,,NOUN
+ندل,waiter,,NOUN
+نعل,sole,,NOUN
+نقول,saying,,NOUN
+هنيء,peace,,NOUN
+واقية,shield,,NOUN
+وتيرة,rhythm,,NOUN
+وحل,solution,,NOUN
+أبى,father,,NOUN
+أثقل,heaviness,,NOUN
+أحصى,count,,NOUN
+أحيائي,neighborhood,,NOUN
+أدل,proof,,NOUN
+أدمج,merge,,NOUN
+أرستقراطي,aristocrat,,NOUN
+أرفق,kindness,,NOUN
+أصغى,attention,,NOUN
+أعاق,obstacle,,NOUN
+أغرى,temptation,,NOUN
+أفسح,space,,NOUN
+ألهم,inspiration,,NOUN
+أملى,dictation,,NOUN
+أوزون,ozone,,NOUN
+إجبار,coercion,,NOUN
+إرباك,confusion,,NOUN
+إزاء,opposite,,NOUN
+إسفنج,sponge,,NOUN
