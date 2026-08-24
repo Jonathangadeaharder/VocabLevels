@@ -27,7 +27,7 @@ LANG_DIRS = (
     "arabic",
     "chinese",
 )
-LEVELS = ("A1", "A2", "B1", "B2", "C1")
+LEVELS = ("A1", "A2", "B1", "B2", "Advanced")
 INVENTORY = ROOT / "manual_reviews" / "arabic" / "dialect-residual-inventory.csv"
 ALLOWED_VERDICTS = frozenset({"keep", "fix", "drop", "review"})
 
@@ -209,13 +209,13 @@ def test_score_sample_row_matches_sample_files() -> None:
 
 
 def test_german_wart_and_dutch_contracten_fixed() -> None:
-    rows = _rows("german", "C1")
+    rows = _rows("german", "Advanced")
     lk = _lemma_key(rows[0])
     lemmas = {(r.get(lk) or "").strip() for r in rows}
     assert "wart" not in lemmas
     assert "sein" in lemmas
 
-    rows = _rows("dutch", "C1")
+    rows = _rows("dutch", "Advanced")
     lk = _lemma_key(rows[0])
     lemmas = {(r.get(lk) or "").strip() for r in rows}
     assert "contracten" not in lemmas
@@ -223,7 +223,7 @@ def test_german_wart_and_dutch_contracten_fixed() -> None:
 
 
 def test_citation_and_gloss_fixes_still_applied() -> None:
-    rows = _rows("spanish", "C1")
+    rows = _rows("spanish", "Advanced")
     lk = _lemma_key(rows[0])
     emulo = next(r for r in rows if (r.get(lk) or "").strip() == "émulo")
     assert emulo["English_Lemma"] == "rival"
@@ -233,7 +233,7 @@ def test_citation_and_gloss_fixes_still_applied() -> None:
     zullen = next(r for r in rows if (r.get(lk) or "").strip() == "zullen")
     assert "shall" in zullen["English_Lemma"] or "will" in zullen["English_Lemma"]
 
-    rows = _rows("german", "C1")
+    rows = _rows("german", "Advanced")
     lk = _lemma_key(rows[0])
     marge = next(r for r in rows if (r.get(lk) or "").strip() == "Marge")
     assert "利润率" in marge["Chinese_Lemma"] or "边际" in marge["Chinese_Lemma"]
@@ -244,7 +244,7 @@ def test_citation_and_gloss_fixes_still_applied() -> None:
     qad = next(r for r in rows if (r.get(lk) or "").strip() == "قد")
     assert "much" not in qad["English_Lemma"]
 
-    rows = _rows("arabic", "C1")
+    rows = _rows("arabic", "Advanced")
     lk = _lemma_key(rows[0])
     kami = next(r for r in rows if (r.get(lk) or "").strip() == "كمي")
     assert kami["English_Lemma"] == "quantitative"

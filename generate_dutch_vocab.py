@@ -1,4 +1,4 @@
-"""Generate Dutch CEFR vocabulary CSVs (A1-C1) with Stanza POS tags.
+"""Generate Dutch CEFR vocabulary CSVs (A1-Advanced) with Stanza POS tags.
 
 Uses wordfreq for frequency-ranked Dutch word lists and Stanza nl_alpino
 for UD POS tags. English translations are populated via deep-translator
@@ -9,9 +9,9 @@ CEFR level mapping (by wordfreq rank):
 - A2: ranks 601-1200
 - B1: ranks 1201-2200
 - B2: ranks 2201-4200
-- C1: ranks 4201-8200
+- Advanced: ranks 4201-8200
 
-Produces dutch/A1.csv through dutch/C1.csv with the harmonized header:
+Produces dutch/A1.csv through dutch/Advanced.csv with the harmonized header:
     Dutch_Lemma, English_Lemma, Chinese_Lemma, POS
 
 Usage:
@@ -28,15 +28,15 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-LEVELS = ("A1", "A2", "B1", "B2", "C1")
-TARGETS = {"A1": 600, "A2": 600, "B1": 1000, "B2": 2000, "C1": 4000}
+LEVELS = ("A1", "A2", "B1", "B2", "Advanced")
+TARGETS = {"A1": 600, "A2": 600, "B1": 1000, "B2": 2000, "Advanced": 4000}
 
 RANK_BOUNDS = {
     "A1": (1, 600),
     "A2": (601, 1200),
     "B1": (1201, 2200),
     "B2": (2201, 4200),
-    "C1": (4201, 8200),
+    "Advanced": (4201, 8200),
 }
 
 

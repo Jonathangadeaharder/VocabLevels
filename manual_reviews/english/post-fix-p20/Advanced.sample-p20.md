@@ -1,4 +1,4 @@
-# post-fix-p20 — english C1 (n=24) — **SCORED**
+# post-fix-p20 — english Advanced (n=24) — **SCORED**
 
 - seed: `20260719:postfix-scorer-v18`
 - population: 3908; FPC n=24

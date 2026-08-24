@@ -1,4 +1,4 @@
-# post-fix-p20 — chinese C1 (n=24) — **SCORED**
+# post-fix-p20 — chinese Advanced (n=24) — **SCORED**
 
 - seed: `20260719:postfix-scorer-v18`
 - population: 3062; FPC n=24

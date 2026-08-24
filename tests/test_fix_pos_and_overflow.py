@@ -88,7 +88,7 @@ class TestRedundantOverflow:
         # Use a small target so we don't need 600 rows.
         monkeypatch.setattr(
             "fix_pos_and_overflow.TARGETS",
-            {"A1": 4, "A2": 600, "B1": 1000, "B2": 2000, "C1": 4000},
+            {"A1": 4, "A2": 600, "B1": 1000, "B2": 2000, "Advanced": 4000},
         )
         lang_dir = tmp_path / "french"
         lang_dir.mkdir()

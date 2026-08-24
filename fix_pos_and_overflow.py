@@ -8,8 +8,9 @@ Three operations on the harmonized CEFR CSVs:
    applies (e.g. gloss "to X" → VERB).
 2. Trim redundant overflow — drop rows past TARGET where the lemma (any POS)
    already exists in the target zone of the same file.
-3. Redistribute unique overflow — relocate C1-appropriate arabic B2 overflow
-   to arabic/C1 (underfilled), then trim remaining unique overflow.
+3. Redistribute unique overflow — relocate Advanced-appropriate arabic B2
+   overflow to arabic/Advanced (underfilled), then trim remaining unique
+   overflow.
 
 Usage:
     uv run python fix_pos_and_overflow.py            # dry-run, report only
@@ -30,8 +31,8 @@ from typing import Any
 
 ROOT = Path(__file__).parent
 
-LEVELS = ("A1", "A2", "B1", "B2", "C1")
-TARGETS = {"A1": 600, "A2": 600, "B1": 1000, "B2": 2000, "C1": 4000}
+LEVELS = ("A1", "A2", "B1", "B2", "Advanced")
+TARGETS = {"A1": 600, "A2": 600, "B1": 1000, "B2": 2000, "Advanced": 4000}
 
 LANG_LEMMA_COL = {
     "arabic": "Arabic_Lemma",
@@ -305,10 +306,10 @@ def dedup_after_pos_fix(langs: list[str], cs: ChangeSet) -> None:
                     seen.add(key)
 
 
-# --- Relocation: arabic B2 → C1 -------------------------------------------
+# --- Relocation: arabic B2 → Advanced -----------------------------------
 
-# 14 C1-appropriate arabic B2 overflow words to relocate.
-ARABIC_B2_RELOCATE_TO_C1 = {
+# 14 Advanced-appropriate arabic B2 overflow words to relocate.
+ARABIC_B2_RELOCATE_TO_ADVANCED = {
     "اعتكاف",  # spiritual retreat
     "عشور",  # tithe
     "كرامات",  # saintly miracles
@@ -327,10 +328,10 @@ ARABIC_B2_RELOCATE_TO_C1 = {
 
 
 def redistribute_arabic_b2(cs: ChangeSet) -> None:
-    """Relocate C1-appropriate words from arabic/B2 to arabic/C1.
+    """Relocate Advanced-appropriate words from arabic/B2 to arabic/Advanced.
 
     Only blocks on room actually needed for the candidates *found* in B2's
-    overflow zone — not the full static ``ARABIC_B2_RELOCATE_TO_C1`` list,
+    overflow zone — not the full static ``ARABIC_B2_RELOCATE_TO_ADVANCED`` list,
     which may already be partially or fully relocated (or trimmed) from a
     prior run, making a room check against its full size a false blocker.
     """
@@ -342,16 +343,16 @@ def redistribute_arabic_b2(cs: ChangeSet) -> None:
     candidates = [
         (i, (row.get(lemma_col) or "").strip())
         for i, row in enumerate(b2_rows[b2_target:], start=b2_target + 2)
-        if (row.get(lemma_col) or "").strip() in ARABIC_B2_RELOCATE_TO_C1
+        if (row.get(lemma_col) or "").strip() in ARABIC_B2_RELOCATE_TO_ADVANCED
     ]
     if not candidates:
         return
 
-    c1_rows = load_csv("arabic", "C1")
-    room = TARGETS["C1"] - len(c1_rows)
+    c1_rows = load_csv("arabic", "Advanced")
+    room = TARGETS["Advanced"] - len(c1_rows)
     if room < len(candidates):
         cs.blockers.append(
-            f"arabic/C1 only has room for {room}, but {len(candidates)} to relocate"
+            f"arabic/Advanced only has room for {room}, but {len(candidates)} to relocate"
         )
         return
 
@@ -361,8 +362,8 @@ def redistribute_arabic_b2(cs: ChangeSet) -> None:
                 src_file="arabic/B2.csv",
                 src_line=i,
                 lemma=lemma,
-                dst_file="arabic/C1.csv",
-                reason="C1-appropriate cultural term",
+                dst_file="arabic/Advanced.csv",
+                reason="Advanced-appropriate cultural term",
             )
         )
 
@@ -372,7 +373,7 @@ def trim_unique_overflow(cs: ChangeSet) -> None:
 
     - arabic/B1: +5 food nouns (regional, not fundamental)
     - arabic/B2: remaining overflow after 14 relocated → trim to 2000
-    - chinese/C1: +9 near-synonym verbs (not fundamental)
+    - chinese/Advanced: +9 near-synonym verbs (not fundamental)
     """
     lemma_col = LANG_LEMMA_COL["arabic"]
     b1_rows = load_csv("arabic", "B1")
@@ -395,7 +396,7 @@ def trim_unique_overflow(cs: ChangeSet) -> None:
     for i, row in enumerate(b2_rows[b2_target:], start=b2_target + 2):
         lemma = (row.get(lemma_col) or "").strip()
         pos = norm_pos(row)
-        if lemma in ARABIC_B2_RELOCATE_TO_C1:
+        if lemma in ARABIC_B2_RELOCATE_TO_ADVANCED:
             continue
         cs.trims.append(
             TrimChange(
@@ -408,14 +409,14 @@ def trim_unique_overflow(cs: ChangeSet) -> None:
         )
 
     lemma_col_c = LANG_LEMMA_COL["chinese"]
-    c1_rows = load_csv("chinese", "C1")
-    c1_target = TARGETS["C1"]
+    c1_rows = load_csv("chinese", "Advanced")
+    c1_target = TARGETS["Advanced"]
     for i, row in enumerate(c1_rows[c1_target:], start=c1_target + 2):
         lemma = (row.get(lemma_col_c) or "").strip()
         pos = norm_pos(row)
         cs.trims.append(
             TrimChange(
-                file="chinese/C1.csv",
+                file="chinese/Advanced.csv",
                 line=i,
                 lemma=lemma,
                 pos=pos,

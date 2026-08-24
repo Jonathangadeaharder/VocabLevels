@@ -3,7 +3,7 @@ from __future__ import annotations
 import unicodedata
 from dataclasses import dataclass
 
-LEVELS = ("A1", "A2", "B1", "B2", "C1")
+LEVELS = ("A1", "A2", "B1", "B2", "Advanced")
 
 
 @dataclass(frozen=True)

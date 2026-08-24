@@ -32,16 +32,16 @@ def test_profiles_cover_all_languages_and_task_keys() -> None:
         "chinese",
         "dutch",
     )
-    assert LEVELS == ("A1", "A2", "B1", "B2", "C1")
+    assert LEVELS == ("A1", "A2", "B1", "B2", "Advanced")
     assert get_language("german") is get_language("de")
     cefr = build_scale_tasks(phases=("cefr",))
     handcraft = build_scale_tasks(phases=("handcraft",))
     assert len(cefr) == 40
     assert len(handcraft) == 40
     assert cefr[0].key == "cefr:en:A1"
-    assert cefr[-1].key == "cefr:nl:C1"
+    assert cefr[-1].key == "cefr:nl:Advanced"
     assert handcraft[0].key == "handcraft:en:A1"
-    assert handcraft[-1].key == "handcraft:nl:C1"
+    assert handcraft[-1].key == "handcraft:nl:Advanced"
 
 
 def test_scale_continues_resumes_and_retries_failures(tmp_path: Path) -> None:
@@ -137,7 +137,7 @@ def test_scale_cli_supports_explicit_apply_refill_and_selectors() -> None:
             "es",
             "--levels",
             "A1",
-            "C1",
+            "Advanced",
             "--phase",
             "both",
             "--apply",
@@ -146,7 +146,7 @@ def test_scale_cli_supports_explicit_apply_refill_and_selectors() -> None:
         ]
     )
     assert args.languages == ["german", "es"]
-    assert args.levels == ["A1", "C1"]
+    assert args.levels == ["A1", "Advanced"]
     assert args.apply is True
     assert args.refill_to_target is True
     assert args.retry_failed is True

@@ -102,8 +102,8 @@ class TestReadWriteLevel:
         assert lemmas[1] == "zebra"
 
     def test_read_missing_file(self, tmp_repo: Path) -> None:
-        (tmp_repo / "english" / "C1.csv").unlink()
-        assert vm.read_level("english", "C1") == []
+        (tmp_repo / "english" / "Advanced.csv").unlink()
+        assert vm.read_level("english", "Advanced") == []
 
 
 # ---------------------------------------------------------------------------
