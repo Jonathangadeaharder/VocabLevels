@@ -22,6 +22,15 @@ from check_data_contract import LANG_DIRS, LEVELS, normalize_gloss
 
 ROOT = Path(__file__).parent
 
+# Legacy alias: pre-rename data used "C1" for the terminal level now called
+# "Advanced". Normalize on read so old expansion rows and fixtures do not
+# crash LEVELS.index().
+_LEVEL_ALIAS = {"C1": "Advanced", "C2": "Advanced"}
+
+
+def _canon_level(level: str) -> str:
+    return _LEVEL_ALIAS.get(level, level)
+
 CSV_HEADER = "Language_Lemma,English_Lemma,Chinese_Lemma,POS"
 TSV_HEADER = [
     "lemma",
@@ -132,6 +141,7 @@ def load_expansion_records(
                 chinese = _unquote(cols[2]) if len(cols) > 2 else ""
                 pos = cols[3].strip() if len(cols) > 3 else ""
                 level = (cols[4].strip() if len(cols) > 4 else "") or "B1"
+                level = _canon_level(level)
                 records.append((code, level, lemma, english, chinese, pos))
     return records
 
@@ -244,7 +254,9 @@ def build_delivery_rows(
         for member in members:
             per_lemma[(member[0], member[2])].append(member)
         for (lang, lemma), member_rows in per_lemma.items():
-            level = min((m[1] for m in member_rows), key=lambda x: LEVELS.index(x))
+            level = min(
+                (_canon_level(m[1]) for m in member_rows), key=lambda x: LEVELS.index(x)
+            )
             emitted.append(
                 (
                     lang,

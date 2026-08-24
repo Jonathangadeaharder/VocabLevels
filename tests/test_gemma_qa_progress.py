@@ -67,7 +67,7 @@ def test_batch_progress_concurrency_uses_completed_and_wall_eta() -> None:
     # Out-of-order batch 40 finished but only 10 completed overall.
     line = batch_progress_line(
         lang="french",
-        level="C1",
+        level="Advanced",
         batch_index=40,
         batch_count=112,
         rows_in_batch=36,

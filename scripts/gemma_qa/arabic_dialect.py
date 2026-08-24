@@ -13,7 +13,7 @@ from collections.abc import Iterable, Sequence
 from dataclasses import dataclass
 from pathlib import Path
 
-LEVELS: tuple[str, ...] = ("A1", "A2", "B1", "B2", "C1")
+LEVELS: tuple[str, ...] = ("A1", "A2", "B1", "B2", "Advanced")
 
 
 def strip_ar_diacritics(value: str) -> str:
@@ -561,7 +561,7 @@ class InventoryRow:
 
 
 def scan_arabic_lists(root: Path) -> list[InventoryRow]:
-    """Full-population scan of arabic/{A1–C1}.csv → inventory rows."""
+    """Full-population scan of arabic/{A1–Advanced}.csv → inventory rows."""
     out: list[InventoryRow] = []
     for level in LEVELS:
         path = root / "arabic" / f"{level}.csv"

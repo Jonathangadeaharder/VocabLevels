@@ -1,6 +1,6 @@
 """Quality checker for multilingual CEFR vocab CSVs.
 
-Each language directory holds A1-C1 CSVs. The lemma column is named after the
+Each language directory holds A1-Advanced CSVs. The lemma column is named after the
 language; translation columns are configured in vocab_schema.py.
 
 Run from repo root:
@@ -51,7 +51,7 @@ def _digits_allowed(lemma: str) -> bool:
 # respectively). A dict-keyed reader collapses same-named columns into one
 # key and silently keeps only the last column's value — for Chinese that
 # means the real lemma (column 0) would never be read at all, which is how
-# the C1 "confronting" row went undetected. Reading columns by index instead
+# the Advanced "confronting" row went undetected. Reading columns by index instead
 # of by name keeps both physical columns visible regardless of name clashes.
 LEMMA_IDX, T1_IDX, T2_IDX, POS_IDX = 0, 1, 2, 3
 T1_NAME = "English_Lemma"
@@ -63,7 +63,7 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
     lang_dir = ROOT / lang
     print(f"\n=== {lang.upper()} ===")
 
-    # All languages now use harmonized CEFR A1-C1 levels.
+    # All languages now use harmonized CEFR A1-Advanced levels.
     levels = LEVELS
     targets = TARGETS
 

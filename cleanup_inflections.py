@@ -304,8 +304,8 @@ def remove_inflected_duplicates(
     judges it to be a non-citation form *and* the corpus already contains
     an unambiguous citation-form row of the same coarse POS. Operates
     across all levels combined (an inflected form in one level and its
-    infinitive in another, e.g. Swedish "beskrev" (C1) vs "beskriva" (A1),
-    is still a duplicate).
+    infinitive in another, e.g. Swedish "beskrev" (Advanced) vs "beskriva"
+    (A1), is still a duplicate).
     """
     if lang not in STANZA_INFLECTION_LANGS:
         return 0

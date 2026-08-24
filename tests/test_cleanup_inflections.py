@@ -202,10 +202,10 @@ class TestFindInflectedRemovals:
         assert lemmas == ["använda"]
 
     def test_cross_level_inflected_form_removed(self, tmp_repo: Path) -> None:
-        """Swedish 'beskrev' (C1) is a form of 'beskriva' (A1) — different
-        levels, still a duplicate that must be removed."""
+        """Swedish 'beskrev' (Advanced) is a form of 'beskriva' (A1) —
+        different levels, still a duplicate that must be removed."""
         a1 = tmp_repo / "swedish" / "A1.csv"
-        c1 = tmp_repo / "swedish" / "C1.csv"
+        c1 = tmp_repo / "swedish" / "Advanced.csv"
         _write_csv(a1, "Swedish_Lemma", [["beskriva", "describe", "", "VERB"]])
         _write_csv(c1, "Swedish_Lemma", [["beskrev", "described", "", "X"]])
 
