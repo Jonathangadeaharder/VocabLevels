@@ -86,6 +86,7 @@ class Concept:
 class GenRow(BaseModel):
     id: int
     lemma: str = Field(min_length=1)
+    zh: str = Field(default="")
 
 
 class GenBatch(BaseModel):
@@ -108,6 +109,7 @@ class GeneratedLemma:
     lang: str
     lemma: str
     level: str
+    zh: str = ""
 
 
 class Checkpoint:
@@ -116,7 +118,9 @@ class Checkpoint:
     def __init__(self, path: Path) -> None:
         self.path = path
         self.generated: dict[tuple[str, Concept], str] = {}
+        self.generated_zh: dict[tuple[str, Concept], str] = {}
         self.approved: dict[tuple[str, Concept], str] = {}
+        self.approved_zh: dict[tuple[str, Concept], str] = {}
         self.rejected: dict[tuple[str, Concept], str] = {}
         self._load()
 
@@ -127,14 +131,19 @@ class Checkpoint:
             for line in handle:
                 entry = json.loads(line)
                 concept = Concept(entry["gloss"], entry["pos"])
+                zh = entry.get("zh", "")
                 if entry["event"] == "generated":
                     self.generated[(entry["lang"], concept)] = entry["lemma"]
+                    self.generated_zh[(entry["lang"], concept)] = zh
                 elif entry["event"] == "approved":
                     self.approved[(entry["lang"], concept)] = entry["lemma"]
+                    self.approved_zh[(entry["lang"], concept)] = zh
                 elif entry["event"] == "rejected":
                     self.rejected[(entry["lang"], concept)] = entry["lemma"]
 
-    def _append(self, event: str, lang: str, concept: Concept, lemma: str) -> None:
+    def _append(
+        self, event: str, lang: str, concept: Concept, lemma: str, zh: str = ""
+    ) -> None:
         with self.path.open("a", encoding="utf-8") as handle:
             handle.write(
                 json.dumps(
@@ -144,23 +153,32 @@ class Checkpoint:
                         "gloss": concept.gloss,
                         "pos": concept.pos,
                         "lemma": lemma,
+                        "zh": zh,
                     },
                     ensure_ascii=False,
                 )
                 + "\n"
             )
 
-    def record_generated(self, lang: str, concept: Concept, lemma: str) -> None:
+    def record_generated(
+        self, lang: str, concept: Concept, lemma: str, zh: str = ""
+    ) -> None:
         self.generated[(lang, concept)] = lemma
-        self._append("generated", lang, concept, lemma)
+        self.generated_zh[(lang, concept)] = zh
+        self._append("generated", lang, concept, lemma, zh)
 
-    def record_approved(self, lang: str, concept: Concept, lemma: str) -> None:
+    def record_approved(
+        self, lang: str, concept: Concept, lemma: str, zh: str = ""
+    ) -> None:
         self.approved[(lang, concept)] = lemma
-        self._append("approved", lang, concept, lemma)
+        self.approved_zh[(lang, concept)] = zh
+        self._append("approved", lang, concept, lemma, zh)
 
-    def record_rejected(self, lang: str, concept: Concept, lemma: str) -> None:
+    def record_rejected(
+        self, lang: str, concept: Concept, lemma: str, zh: str = ""
+    ) -> None:
         self.rejected[(lang, concept)] = lemma
-        self._append("rejected", lang, concept, lemma)
+        self._append("rejected", lang, concept, lemma, zh)
 
 
 def _extract_json(text: str) -> object:
@@ -223,10 +241,15 @@ def _model_reply(
     )
 
 
-def _parse_batch_rows(payload: object) -> dict[int, str]:
+def _parse_batch_rows(payload: object) -> dict[int, tuple[str, str]]:
+    def norm(lemma: object) -> tuple[str, str]:
+        if isinstance(lemma, dict):
+            return (str(lemma.get("lemma", "")).strip(), str(lemma.get("zh", "")).strip())
+        return (str(lemma).strip(), "")
+
     if isinstance(payload, list):
         return {
-            int(r["id"]): str(r["lemma"]).strip()
+            int(r["id"]): norm(r.get("lemma"))
             for r in payload
             if isinstance(r, dict) and "id" in r and "lemma" in r
         }
@@ -234,12 +257,12 @@ def _parse_batch_rows(payload: object) -> dict[int, str]:
         rows = payload.get("rows") or payload.get("items") or payload.get("concepts")
         if isinstance(rows, list):
             return {
-                int(r["id"]): str(r["lemma"]).strip()
+                int(r["id"]): norm(r.get("lemma"))
                 for r in rows
                 if "id" in r and "lemma" in r
             }
         # flat {id: lemma}
-        return {int(k): str(v).strip() for k, v in payload.items() if k != "rows"}
+        return {int(k): norm(v) for k, v in payload.items() if k != "rows"}
     raise ValueError(f"unexpected batch payload: {type(payload)}")
 
 
@@ -248,7 +271,7 @@ def _generate_batch(
     lang: str,
     *,
     client: httpx.Client,
-) -> dict[int, str]:
+) -> dict[int, tuple[str, str]]:
     lang_name = LANGUAGE_NAMES[lang]
     payload = [
         {"id": i, "gloss": c.gloss, "pos": c.pos} for i, c in enumerate(concepts)
@@ -257,11 +280,12 @@ def _generate_batch(
         "Output JSON only. The English gloss for a concept is the canonical "
         f"{lang_name} translation target; give the dictionary citation form "
         "(lemma) in {lang_name}.\n"
-        'Respond with {"rows":[{"id":<input id>,"lemma":"<lemma>"},...]} '
-        "preserving every input id exactly once.\n"
+        'Respond with {"rows":[{"id":<input id>,"lemma":"<lemma>","zh":"<简体中文>"},...]} '
+        "preserving every input id exactly once. The zh field is the Simplified "
+        "Chinese translation of the concept (1 to 5 Chinese words, no punctuation).\n"
         f"Concepts:\n{json.dumps(payload, ensure_ascii=False, separators=(',', ':'))}"
     )
-    raw = _model_reply(prompt, max_tokens=2000 + 120 * len(concepts), client=client)
+    raw = _model_reply(prompt, max_tokens=2000 + 180 * len(concepts), client=client)
     parsed = _extract_json(raw)
     try:
         model_batch = GenBatch.model_validate(parsed)
@@ -272,7 +296,7 @@ def _generate_batch(
                 f"id set mismatch: expected {len(concepts)}, got {sorted(rows)}"
             )
         return rows
-    return {row.id: row.lemma for row in model_batch.rows}
+    return {row.id: (row.lemma, row.zh) for row in model_batch.rows}
 
 
 def _review_batch(
@@ -582,6 +606,7 @@ def _process_language(
                     lang,
                     checkpoint.approved[(lang, concept)],
                     _concept_cefr(concept, records),
+                    checkpoint.approved_zh.get((lang, concept), ""),
                 )
             )
         elif (lang, concept) in checkpoint.rejected:
@@ -597,12 +622,13 @@ def _process_language(
             continue
         items: list[GeneratedLemma] = []
         for i, concept in enumerate(batch):
-            lemma = generated.get(i, "").strip()
+            lemma, zh = generated.get(i, ("", ""))
+            lemma = lemma.strip()
             if lemma:
                 item = GeneratedLemma(
-                    concept, lang, lemma, _concept_cefr(concept, records)
+                    concept, lang, lemma, _concept_cefr(concept, records), zh
                 )
-                checkpoint.record_generated(lang, concept, lemma)
+                checkpoint.record_generated(lang, concept, lemma, zh)
                 items.append(item)
         if not items:
             continue
@@ -611,7 +637,7 @@ def _process_language(
         except (RuntimeError, ValueError):
             reviewed = items
         for item in reviewed:
-            checkpoint.record_approved(lang, item.concept, item.lemma)
+            checkpoint.record_approved(lang, item.concept, item.lemma, item.zh)
             results.append(item)
         print(
             f"  {lang}: batch {start // BATCH_SIZE + 1}/{(len(todo) + BATCH_SIZE - 1) // BATCH_SIZE} "
@@ -622,16 +648,38 @@ def _process_language(
 
 
 def _write_expansion_csv(root: Path, lang: str, items: list[GeneratedLemma]) -> None:
+    """Merge generated items into the language expansion.csv.
+
+    Existing rows are preserved: their cells are already part of the delivery
+    and the missing set is computed against them. Only cells not already
+    covered are appended, so a rerun never clobbers prior data.
+    """
     name = next(name for name, code in LANG_DIRS.items() if code == lang)
     path = root / name / "expansion.csv"
     header = f"{name}_Lemma,English_Lemma,Chinese_Lemma,POS,CEFR"
-    with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.writer(handle)
-        writer.writerow([header])
-        for item in sorted(items, key=lambda it: (it.concept.gloss, it.concept.pos)):
-            writer.writerow(
-                [item.lemma, item.concept.gloss, "", item.concept.pos, item.level]
-            )
+    existing_rows: list[list[str]] = []
+    covered: set[tuple[str, str]] = set()
+    if path.exists():
+        with path.open(newline="", encoding="utf-8") as handle:
+            reader = csv.reader(handle)
+            next(reader, None)
+            for cols in reader:
+                if len(cols) >= 4 and cols[0].strip() and cols[1].strip():
+                    existing_rows.append(cols)
+                    covered.add((normalize_gloss(cols[1].strip()), cols[3].strip().upper()))
+    new_rows = [
+        [item.lemma, item.concept.gloss, item.zh, item.concept.pos, item.level]
+        for item in sorted(items, key=lambda it: (it.concept.gloss, it.concept.pos))
+        if (normalize_gloss(item.concept.gloss), item.concept.pos) not in covered
+    ]
+    if not new_rows:
+        return
+    mode = "a" if existing_rows else "w"
+    with path.open(mode, encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle, lineterminator="\n")
+        if mode == "w":
+            writer.writerow([header])
+        writer.writerows(new_rows)
 
 
 def main(argv: list[str] | None = None) -> int:

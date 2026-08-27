@@ -55,3 +55,10 @@ htmlcov/
 *.proposed.csv
 *.proposed.conllu
 *.reviewed.csv
+
+# Gemini expansion working data (scripts + allowlist are tracked, bulk data not)
+work/gemini_out*/
+work/gemini_prompts*/
+work/logs/
+work/expand_state/
+work/expand_test/
