@@ -35,6 +35,8 @@ omit = [
     "generate_dutch_vocab.py",
     # One-time migration script; needs ~2GB stanza models for full coverage.
     "fix_pos_and_overflow.py",
+    # One-time checkpoint flusher with hard-wired ROOT/state dirs.
+    "work/flush_checkpoints.py",
     # Retired client (kept only so old imports do not crash tools).
     "scripts/gemma_qa/antigravity.py",
     # CLI entry modules exercised via subprocess, not unit-tested.

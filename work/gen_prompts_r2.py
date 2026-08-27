@@ -26,30 +26,46 @@ GOAL = 0.80
 CHUNK = 2000
 
 LANGS = {
-    "ar": {"lemma": "the canonical ar lemma in Arabic script. Use diacritics only where essential for disambiguation.",
-           "extra": "- Lemma must be authentic Arabic script, never the English gloss.\n",
-           "examples": "ar,مكتبة,library,图书馆,NOUN,A2\nar,كتب,to write,写,VERB,A1\nar,جميل,beautiful,美丽的,ADJ,A1"},
-    "de": {"lemma": "the canonical de lemma. infinitive verb, capitalized noun, lowercase adjective/adverb. Use diacritics where correct (ä ö ü ß).",
-           "extra": "- IMPORTANT: the Lemma must be an authentic native word in your language. NEVER use the English gloss itself as the Lemma (no verbatim English copies). Use the genuine loanword spelling only when that IS the native word.\n",
-           "examples": "de,Bibliothek,library,图书馆,NOUN,A1\nde,schreiben,to write,写,VERB,A1\nde,schön,beautiful,美丽的,ADJ,A1"},
-    "en": {"lemma": "the canonical en lemma. lowercase citation form.",
-           "extra": "- For en the Lemma and English_Lemma are the same text: repeat the concept verbatim as the Lemma.\n",
-           "examples": "en,library,library,图书馆,NOUN,A1\nen,write,write,写,VERB,A1\nen,beautiful,beautiful,美丽的,ADJ,A1"},
-    "es": {"lemma": "the canonical es lemma. infinitive verb, lowercase adjective/adverb, citation noun. Use diacritics where correct.",
-           "extra": "- IMPORTANT: the Lemma must be an authentic native word in your language. NEVER use the English gloss itself as the Lemma (no verbatim English copies). Use the genuine loanword spelling only when that IS the native word.\n",
-           "examples": "es,biblioteca,library,图书馆,NOUN,A1\nes,escribir,to write,写,VERB,A1\nes,bonito,beautiful,美丽的,ADJ,A1"},
-    "fr": {"lemma": "the canonical fr lemma. infinitive verb, lowercase adjective/adverb, citation noun. Use diacritics where correct.",
-           "extra": "- IMPORTANT: the Lemma must be an authentic native word in your language. NEVER use the English gloss itself as the Lemma (no verbatim English copies). Use the genuine loanword spelling only when that IS the native word.\n",
-           "examples": "fr,bibliothèque,library,图书馆,NOUN,A1\nfr,écrire,to write,写,VERB,A1\nfr,beau,beautiful,美丽的,ADJ,A1"},
-    "nl": {"lemma": "the canonical nl lemma. infinitive verb, lowercase adjective/adverb, citation noun. Use diacritics where correct.",
-           "extra": "- IMPORTANT: the Lemma must be an authentic native word in your language. NEVER use the English gloss itself as the Lemma (no verbatim English copies). Use the genuine loanword spelling only when that IS the native word.\n",
-           "examples": "nl,bibliotheek,library,图书馆,NOUN,A1\nnl,schrijven,to write,写,VERB,A1\nnl,mooi,beautiful,美丽的,ADJ,A1"},
-    "sv": {"lemma": "the canonical sv lemma. infinitive verb, lowercase adjective/adverb, citation noun. Use diacritics where correct (å ä ö).",
-           "extra": "- IMPORTANT: the Lemma must be an authentic native word in your language. NEVER use the English gloss itself as the Lemma (no verbatim English copies). Use the genuine loanword spelling only when that IS the native word.\n",
-           "examples": "sv,bibliotek,library,图书馆,NOUN,A1\nsv,skriva,to write,写,VERB,A1\nsv,vacker,beautiful,美丽的,ADJ,A1"},
-    "zh": {"lemma": "the canonical zh lemma in Simplified Chinese (1-5 Chinese characters, no punctuation).",
-           "extra": "- Lemma must be a natural Simplified Chinese word, not a transliteration. Do NOT copy the English gloss verbatim.\n",
-           "examples": "zh,图书馆,library,图书馆,NOUN,A1\nzh,写,to write,写,VERB,A1\nzh,美丽,beautiful,美丽的,ADJ,A1"},
+    "ar": {
+        "lemma": "the canonical ar lemma in Arabic script. Use diacritics only where essential for disambiguation.",
+        "extra": "- Lemma must be authentic Arabic script, never the English gloss.\n",
+        "examples": "ar,مكتبة,library,图书馆,NOUN,A2\nar,كتب,to write,写,VERB,A1\nar,جميل,beautiful,美丽的,ADJ,A1",
+    },
+    "de": {
+        "lemma": "the canonical de lemma. infinitive verb, capitalized noun, lowercase adjective/adverb. Use diacritics where correct (ä ö ü ß).",
+        "extra": "- IMPORTANT: the Lemma must be an authentic native word in your language. NEVER use the English gloss itself as the Lemma (no verbatim English copies). Use the genuine loanword spelling only when that IS the native word.\n",
+        "examples": "de,Bibliothek,library,图书馆,NOUN,A1\nde,schreiben,to write,写,VERB,A1\nde,schön,beautiful,美丽的,ADJ,A1",
+    },
+    "en": {
+        "lemma": "the canonical en lemma. lowercase citation form.",
+        "extra": "- For en the Lemma and English_Lemma are the same text: repeat the concept verbatim as the Lemma.\n",
+        "examples": "en,library,library,图书馆,NOUN,A1\nen,write,write,写,VERB,A1\nen,beautiful,beautiful,美丽的,ADJ,A1",
+    },
+    "es": {
+        "lemma": "the canonical es lemma. infinitive verb, lowercase adjective/adverb, citation noun. Use diacritics where correct.",
+        "extra": "- IMPORTANT: the Lemma must be an authentic native word in your language. NEVER use the English gloss itself as the Lemma (no verbatim English copies). Use the genuine loanword spelling only when that IS the native word.\n",
+        "examples": "es,biblioteca,library,图书馆,NOUN,A1\nes,escribir,to write,写,VERB,A1\nes,bonito,beautiful,美丽的,ADJ,A1",
+    },
+    "fr": {
+        "lemma": "the canonical fr lemma. infinitive verb, lowercase adjective/adverb, citation noun. Use diacritics where correct.",
+        "extra": "- IMPORTANT: the Lemma must be an authentic native word in your language. NEVER use the English gloss itself as the Lemma (no verbatim English copies). Use the genuine loanword spelling only when that IS the native word.\n",
+        "examples": "fr,bibliothèque,library,图书馆,NOUN,A1\nfr,écrire,to write,写,VERB,A1\nfr,beau,beautiful,美丽的,ADJ,A1",
+    },
+    "nl": {
+        "lemma": "the canonical nl lemma. infinitive verb, lowercase adjective/adverb, citation noun. Use diacritics where correct.",
+        "extra": "- IMPORTANT: the Lemma must be an authentic native word in your language. NEVER use the English gloss itself as the Lemma (no verbatim English copies). Use the genuine loanword spelling only when that IS the native word.\n",
+        "examples": "nl,bibliotheek,library,图书馆,NOUN,A1\nnl,schrijven,to write,写,VERB,A1\nnl,mooi,beautiful,美丽的,ADJ,A1",
+    },
+    "sv": {
+        "lemma": "the canonical sv lemma. infinitive verb, lowercase adjective/adverb, citation noun. Use diacritics where correct (å ä ö).",
+        "extra": "- IMPORTANT: the Lemma must be an authentic native word in your language. NEVER use the English gloss itself as the Lemma (no verbatim English copies). Use the genuine loanword spelling only when that IS the native word.\n",
+        "examples": "sv,bibliotek,library,图书馆,NOUN,A1\nsv,skriva,to write,写,VERB,A1\nsv,vacker,beautiful,美丽的,ADJ,A1",
+    },
+    "zh": {
+        "lemma": "the canonical zh lemma in Simplified Chinese (1-5 Chinese characters, no punctuation).",
+        "extra": "- Lemma must be a natural Simplified Chinese word, not a transliteration. Do NOT copy the English gloss verbatim.\n",
+        "examples": "zh,图书馆,library,图书馆,NOUN,A1\nzh,写,to write,写,VERB,A1\nzh,美丽,beautiful,美丽的,ADJ,A1",
+    },
 }
 
 TEMPLATE = """You are a native {code} lexicographer. Below is a list of {n} English concepts with EXACT POS tags, one per line. Each line ends with a target-language code in parentheses.
@@ -80,10 +96,11 @@ Concepts:
 ORDER = ("ar", "de", "en", "es", "fr", "nl", "sv", "zh")
 
 
-def main() -> None:
-    root = Path(__file__).resolve().parent.parent
-    out_dir = root / ("work/gemini_prompts_r" + (sys.argv[1] if len(sys.argv) > 1 else "2"))
-    out_dir.mkdir(exist_ok=True)
+def main(root: Path | None = None, round_no: str | None = None) -> None:
+    root = root or Path(__file__).resolve().parent.parent
+    round_no = round_no or (sys.argv[1] if len(sys.argv) > 1 else "2")
+    out_dir = root / f"work/gemini_prompts_r{round_no}"
+    out_dir.mkdir(parents=True, exist_ok=True)
     for old in out_dir.glob("*.txt"):
         old.unlink()
 
@@ -171,7 +188,11 @@ def main() -> None:
             for k in sorted(cells - chosen):
                 if k in raw_keys[tgt]:
                     continue  # dropped before; regeneration is a black hole
-                if tgt == "en" and k[0] in bygloss["en"] and k[1] not in bygloss["en"][k[0]]:
+                if (
+                    tgt == "en"
+                    and k[0] in bygloss["en"]
+                    and k[1] not in bygloss["en"][k[0]]
+                ):
                     continue  # en lemma == gloss: guaranteed (lang,lemma,gloss) collision
                 if k[0] in bygloss[tgt]:
                     fallback.append(k)  # gloss exists under another POS
