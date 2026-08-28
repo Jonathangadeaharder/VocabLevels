@@ -6040,7 +6040,7 @@ atheistic,atheistic,无神论的,ADJ,B2
 fatty,fatty,脂肪的,ADJ,B2
 headscarf,headscarf,头巾,NOUN,B2
 genital,genital,生殖器,NOUN,B2
-proliferate,proliferate,扩散,! VERB,B2
+proliferate,proliferate,扩散,VERB,B2
 fossil fuel,fossil fuel,化石燃料,NOUN,B2
 feeble-minded,feeble-minded,弱智的,ADJ,B2
 truthful,truthful,忠于事实的,ADJ,B2
@@ -6228,7 +6228,7 @@ multipart,multipart,多部分的,ADJ,B2
 contact person,contact person,联系人,NOUN,B2
 to text,to text,发短信,VERB,B2
 to instrumentalize,to instrumentalize,工具化,VERB,B2
-liberalize,liberalize,自由化,! VERB,B2
+liberalize,liberalize,自由化,VERB,B2
 contaminating,contaminating,污染的,ADJ,B2
 conversional,conversional,转换的,ADJ,B2
 heath,heath,石楠荒原,NOUN,B2
@@ -6337,7 +6337,7 @@ portuguese,portuguese,葡萄牙语,NOUN,B2
 terminal,terminal,终末的,ADJ,B2
 hatch,hatch,舱口,NOUN,B2
 continual,continual,持续的,ADJ,B2
-determine,determine,确定,VER! B,B2
+determine,determine,确定,VERB,B2
 city centre,city centre,市中心,NOUN,B2
 milky,milky,乳白色的,ADJ,B2
 selfish,selfish,,NOUN,B2
@@ -9249,7 +9249,7 @@ correctional,correctional,,ADJ,B2
 correction,corrections,,NOUN,B2
 correlative,correlative,,ADJ,B2
 correlatively,correlatively,,ADV,B2
-correspond,to correspond,,! VERB,B2
+correspond,correspond,,VERB,B2
 correspondence course,correspondence course,,NOUN,B2
 correspondent,correspondents,,NOUN,B2
 corridor,corridors,,NOUN,B2
@@ -9998,7 +9998,6 @@ eleven,eleven,十一,NOUN,B2
 eleventh,eleventh,第十一,NUM,B2
 elf,elf,精灵,NOUN,B2
 elitism,elitism,,NOUN,B2
-...,ellipsis,,PART,B2
 elucidation,elucidation,,NOUN,B2
 elusiveness,elusiveness,,NOUN,B2
 emaciated,emaciated,,ADJ,B2
@@ -10175,7 +10174,6 @@ exchanger,exchanger,,NOUN,B2
 exchange,exchanges,,NOUN,B2
 excise,excise,,NOUN,B2
 excision,excision,,NOUN,B2
-!,exclamation,,PUNCT,B2
 exclusive dedication,exclusive dedication,,NOUN,B2
 exclusivism,exclusivism,,NOUN,B2
 excrescence,excrescence,,NOUN,B2
