@@ -43,7 +43,7 @@ después de,after,在...之后,ADP,B2
 después de todo,after all,毕竟,ADV,B2
 después de eso,after that,此后,ADV,B2
 después de lo cual,after which,之后,ADV,B2
-secuela,aftereffect,后遗症，后果,NOUN,B2
+secuela,aftereffect,后遗症,NOUN,B2
 tarde,afternoon,下午,NOUN,B2
 posterioridad,afterward,去后,NOUN,B2
 después,afterwards,后来,ADV,B2
@@ -160,7 +160,7 @@ como si,as if,仿佛,ADV,B2
 siempre que,as long as,طالما,CCONJ,B2
 en casa,at home,在家,ADV,B2
 al menos,at least,至少,ADV,B2
-entonces,at that time,当时/那时,ADV,B2
+entonces,at that time,当时,ADV,B2
 al mismo tiempo,at the same time,同时,ADV,B2
 átomo,atom,原子,NOUN,B2
 atómico,atomic,原子的,ADJ,B2
@@ -533,8 +533,8 @@ aplaudir,to clap,拍手,VERB,B2
 clásico,classic,经典作品,NOUN,B2
 clásico,classical,古典的,ADJ,B2
 clasicismo,classicism,古典主义,NOUN,B2
-pieza,classifier for paintings cloth etc.,幅,NUM,B2
-unidad,classifier for trees,棵,NUM,B2
+pieza,piece,幅,NOUN,B2
+unidad,tree,棵,NOUN,B2
 cláusula,clause,从句,NOUN,B2
 arcilla,clay,黏土,NOUN,B2
 limpiar,to clean up,清理,VERB,B2
@@ -940,7 +940,7 @@ rápido,fast quick,快的,ADJ,B2
 ayuno,fasting,禁食,NOUN,B2
 grasa,fat,脂肪,NOUN,B2
 padre,father,父,PART,B2
-suegro,father-in-law,岳父/公公,NOUN,B2
+suegro,father-in-law,岳父,NOUN,B2
 favor,favor,恩惠,NOUN,B2
 circunstancias favorables,favorable circumstances,顺境,NOUN,B2
 viabilidad,feasibility,可行性,NOUN,B2
@@ -1122,7 +1122,7 @@ precioso,gorgeous,华丽的,ADJ,B2
 gobernar,to govern,统治,VERB,B2
 gobernanza,governance,治理,NOUN,B2
 grado,grade,等级,NOUN,B2
-calificación,grading,评分；记号,NOUN,B2
+calificación,grading,评分,NOUN,B2
 gradualmente,gradually,逐渐地,ADV,B2
 graduado,graduate,毕业生,NOUN,B2
 injerto,graft,嫁接,NOUN,B2
@@ -1174,7 +1174,7 @@ ja,ha,哈,INTJ,B2
 hábitat,habitat,栖息地,NOUN,B2
 costumbre,habitually in the past,往常,NOUN,B2
 habituación,habituation,习惯化,NOUN,B2
-hackear,to hack,入侵；盗版,VERB,B2
+hackear,to hack,入侵,VERB,B2
 regatear,to haggle,讨价还价,VERB,B2
 regateo,haggling,计较,NOUN,B2
 peluquero,hairdresser,理发师,NOUN,B2
@@ -1222,7 +1222,7 @@ infarto,heart attack,心脏病发作,NOUN,B2
 ola de calor,heat wave,热浪,NOUN,B2
 cielo,heaven,天堂,NOUN,B2
 aroma celestial,heavenly fragrance,天香,NOUN,B2
-pesadez,heaviness,沉重 / 笨重,NOUN,B2
+pesadez,heaviness,沉重,NOUN,B2
 etiqueta pesada,heavy etiquette,礼太重,NOUN,B2
 nudo fuerte,heavy knot,重结,NOUN,B2
 máquina pesada,heavy machine,重机,NOUN,B2
@@ -1464,7 +1464,7 @@ medio,mean,刻薄的,ADJ,B2
 medios,means,手段,NOUN,B2
 entretanto,meantime,同时,NOUN,B2
 medir,to measure,测量,VERB,B2
-volumen,measure word for books,本,NUM,B2
+volumen,volume,本,NOUN,B2
 mecanismo,mechanism,机制,NOUN,B2
 mecanicista,mechanistic,机制性,ADJ,B2
 medalla,medal,奖牌,NOUN,B2
@@ -1564,7 +1564,7 @@ apartarse,to move aside,移开,VERB,B2
 mudarse,to move in,搬入,VERB,B2
 resonancia magnética,mri,核磁共振,NOUN,B2
 moco,mucus,黏液,NOUN,B2
-multiplicar,to multiply,乘；增加,VERB,B2
+multiplicar,to multiply,乘,VERB,B2
 municipio,municipality,市镇,NOUN,B2
 munificencia,munificence,慷慨,NOUN,B2
 arma homicida,murder weapon,凶器,NOUN,B2
@@ -1598,7 +1598,7 @@ siesta,nap,午睡,NOUN,B2
 servilleta,napkin,餐巾,NOUN,B2
 narcisismo,narcissism,自恋,NOUN,B2
 narrar,to narrate,叙述,VERB,B2
-narrativa,narrative,叙述；故事,NOUN,B2
+narrativa,narrative,叙述,NOUN,B2
 narrador,narrator,叙述者,NOUN,B2
 desagradable,nasty,令人不快的,ADJ,B2
 nacionalismo,nationalism,民族主义,NOUN,B2
@@ -1607,13 +1607,13 @@ nacionalizar,to nationalize,国有化,VERB,B2
 reserva natural,nature reserve,自然保护区,NOUN,B2
 travieso,naughty,淘气的,ADJ,B2
 náusea,nausea,恶心,NOUN,B2
-navegación,navigation,导航；航行,NOUN,B2
+navegación,navigation,导航,NOUN,B2
 cercano,near,近,ADJ,B2
 cercanía,nearby,在附近,ADV,B2
 casi,nearly,几乎,ADV,B2
 nebulosa,nebula,星云,NOUN,B2
 necesariamente,necessarily,必然地,ADV,B2
-necesidad,necessity,必要性；必需品,NOUN,B2
+necesidad,necessity,必要性,NOUN,B2
 collar,necklace,项链,NOUN,B2
 necesitar,need,需要,AUX,B2
 negar,to negate,否定,VERB,B2
@@ -1621,7 +1621,7 @@ negación,negation,否定,NOUN,B2
 negativo,negative,负面的,ADJ,B2
 negligente,negligent,疏忽的,ADJ,B2
 no despreciable,negligible not,不可忽视,ADJ,B2
-negociación,negotiation,谈判；协商,NOUN,B2
+negociación,negotiation,谈判,NOUN,B2
 negociaciones,negotiations,谈判,NOUN,B2
 relinchar,to neigh,嘶鸣,VERB,B2
 ni,neither,也不,CCONJ,B2
@@ -1671,7 +1671,7 @@ hoy en día,nowadays,如今,ADV,B2
 en ninguna parte,nowhere,无处,ADV,B2
 matizado,nuanced,细微差别的,ADJ,B2
 molestia,nuisance,麻烦事,NOUN,B2
-nulidad,nullity,无效；无能,NOUN,B2
+nulidad,nullity,无效,NOUN,B2
 número dos,number two,二号,NOUN,B2
 guardería,nursery,托儿所,NOUN,B2
 criar,to nurture,养育,VERB,B2
@@ -1934,7 +1934,7 @@ antología poética,poetry collection,诗集,NOUN,B2
 señalar,to point,指向,VERB,B2
 momento,point in time,时间点,NOUN,B2
 venenoso,poisonous,有毒的,ADJ,B2
-polarización,polarization,两极分化 / 极化,NOUN,B2
+polarización,polarization,两极分化,NOUN,B2
 polo,pole,极,NOUN,B2
 polémico,polemical,论战的,ADJ,B2
 policía,policeman,警察,NOUN,B2
@@ -2015,7 +2015,7 @@ conferencia de prensa,press conference,新闻发布会,NOUN,B2
 presumir,to presume,假定,VERB,B2
 fingir,to pretend to be,冒充,VERB,B2
 previamente,previously,以前,ADV,B2
-precificación,pricing,定价 / 收费,NOUN,B2
+precificación,pricing,定价,NOUN,B2
 primario,primary,主要的,ADJ,B2
 primer ministro,prime minister,总理,NOUN,B2
 primitivo,primitive,原始的,ADJ,B2
@@ -2539,7 +2539,7 @@ oportunista,seeking instant benefit,急功近利,ADJ,B2
 aparentemente,seemingly,表面上,ADV,B2
 sísmico,seismic,地震的,ADJ,B2
 selección,selection,选择,NOUN,B2
-selectivo,selective,选择的，挑选的,ADJ,B2
+selectivo,selective,选择的,ADJ,B2
 sí mismo,self,自我,NOUN,B2
 autoconfianza,self-confidence,自信,NOUN,B2
 seguro de sí mismo,self-confident,自信的,ADJ,B2
@@ -2547,7 +2547,7 @@ autosacrificio,self-sacrifice,舍己,NOUN,B2
 egoísmo,selfishness,自私,NOUN,B2
 semestre,semester,学期,NOUN,B2
 seminario,seminar,研讨会,NOUN,B2
-semiología,semiology,符号学，症状学,NOUN,B2
+semiología,semiology,符号学,NOUN,B2
 semiótica,semiotics,符号学,NOUN,B2
 antigüedad,seniority,资历,NOUN,B2
 percibir,to sense,隐约感到,VERB,B2
@@ -2556,7 +2556,7 @@ sensibilidad,sensitivity,敏感性,NOUN,B2
 condenar,to sentence,判决,VERB,B2
 sentimiento,sentiment,情感,NOUN,B2
 centinela,sentry,卫兵,NOUN,B2
-secuencia,sequence,顺序，片段,NOUN,B2
+secuencia,sequence,顺序,NOUN,B2
 sereno,serene,宁静的,ADJ,B2
 serenidad,serenity,宁静,NOUN,B2
 sargento,sergeant,中士,NOUN,B2
@@ -2668,7 +2668,7 @@ en alguna parte,somewhere,某处,ADV,B2
 sofistería,sophistry,诡辩,NOUN,B2
 perdón,sorry,抱歉,ADJ,B2
 clasificar,to sort,分类,VERB,B2
-bullicio,sound of activity,动静,NOUN,B2
+bullicio,commotion,动静,NOUN,B2
 solidez,soundness,好端端,NOUN,B2
 agrio,sour,酸的,ADJ,B2
 ejército del sur,southern army,南军,NOUN,B2
@@ -2971,7 +2971,7 @@ atar,to tie up,绑,VERB,B2
 tigre,tiger,老虎,NOUN,B2
 apretado,tight,紧的,ADJ,B2
 agarre firme,tight grip,手握紧,NOUN,B2
-apretar,to tighten,紧握/收紧,VERB,B2
+apretar,to tighten,紧握,VERB,B2
 baldosa,tile,瓦片,NOUN,B2
 baldosado,tiling,铺瓷砖,NOUN,B2
 veces,times,倍,NOUN,B2
@@ -7860,10 +7860,10 @@ ajedrez chino,chinese chess,象棋,NOUN,B1
 zodiaco chino,chinese zodiac,十二生肖,NOUN,B1
 cilantro,cilantro,芫荽,NOUN,B1
 lección,class lesson,课堂课时,NOUN,A1
-ejemplar,classifier for documents portions,份本,NOUN,B2
-ramo,classifier for flowers,朵束,NUM,B1
-cabeza,classifier for horses,头匹,NUM,B1
-grano,classifier for small round objects,颗粒,NOUN,B1
+ejemplar,copy,份本,NOUN,B2
+ramo,flower,朵束,NOUN,B1
+cabeza,horse,头匹,NOUN,B1
+grano,grain,颗粒,NOUN,B1
 trabajo de clase,classwork,课堂作业,NOUN,A2
 limpiador,cleaner,清洁剂,NOUN,A2
 deshabilitado,closed disabled,已禁用的,ADJ,B1
@@ -9264,7 +9264,7 @@ adecuación,appropriateness,,NOUN,B2
 apropiación,appropriation,,NOUN,B2
 aprobación,approval pleasure,,NOUN,B2
 aprobado,approved,,ADJ,B2
-aprox.,approx.,,ADV,B2
+aprox,approx.,,ADV,B2
 propenso,apt,,ADJ,B2
 acuático,aquatic,,ADJ,B2
 acueducto,aqueduct,,NOUN,B2
@@ -11664,8 +11664,8 @@ fletado,charter-based,包机的,ADJ,B2
 reírse entre dientes,chortle,咯咯笑,VERB,B2
 enfermedad crónica,chronic illness,慢性病,NOUN,B2
 asistencia a la iglesia,churchgoing,做礼拜,NOUN,B2
-viaje,classifier for trips,趟,NUM,A1
-vehículo,classifier for vehicles,辆,NUM,A1
+viaje,trip,趟,NOUN,A1
+vehículo,vehicle,辆,NOUN,A1
 costero,coastal,沿海地区,NOUN,B1
 revoque,coating plaster,抹灰,NOUN,B2
 contundencia,cogency,说服力,NOUN,Advanced

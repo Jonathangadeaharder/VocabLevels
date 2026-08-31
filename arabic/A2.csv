@@ -5,14 +5,14 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 توضأ,to wash up,洗漱,VERB
 مشط,to comb,梳,VERB
 حلق,to shave,刮脸,VERB
-لبس,to wear / to get dressed,穿 / 穿衣,VERB
-خلع,to take off / to remove,脱下 / 移除,VERB
+لبس,to wear,穿,VERB
+خلع,to take off,脱下,VERB
 جهز,to prepare,准备,VERB
-أصلح,to fix / to prepare,修理 / 准备,VERB
+أصلح,to fix,修理,VERB
 رتب,to tidy up,整理,VERB
-مسح,to wipe / to clean,擦 / 清洁,VERB
-شطف,to mop / to rinse,拖洗 / 冲洗,VERB
-نشر,to publish / to spread / to hang laundry,发布 / 传播 / 晾晒,VERB
+مسح,to wipe,擦拭,VERB
+شطف,to mop,拖洗,VERB
+نشر,to publish,发布,VERB
 طوى,to fold,折叠,VERB
 تعب,to get tired,疲劳,VERB
 استراح,to rest,休息,VERB
@@ -24,9 +24,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 التقى,to meet,见面,VERB
 انتظر,to wait,等待,VERB
 اعتنى,to take care,照顾,VERB
-نعاس,sleep / sleepiness,睡意 / 困倦,NOUN
+نعاس,sleepiness,睡意,NOUN
 تسوق,to shop for groceries,买菜,VERB
-استلف,to lend / to borrow,借出 / 借入,VERB
+استلف,to lend,借出,VERB
 ائتمان,credit,信用,NOUN
 ريال,rial,里亚尔,NOUN
 شيك,cheque,支票,NOUN
@@ -114,43 +114,43 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 عزيز,dear,亲爱的,ADJ
 أعزب,bachelor,单身汉,ADJ
 متزوج,married,已婚的,ADJ
-حفيد,grandchild,孙子/孙女,NOUN
+حفيد,grandchild,孙子,NOUN
 عيلة,family,家庭,NOUN
 هدية,gift,礼物,NOUN
 سقف,ceiling,天花板,NOUN
-خزانة,cupboard / wardrobe,柜子/衣柜,NOUN
+خزانة,cupboard,柜子,NOUN
 رف,shelf,架子,NOUN
-سطح,roof / terrace,屋顶/露台,NOUN
+سطح,roof,屋顶,NOUN
 ريدو,curtain,窗帘,NOUN
 راديو,radio,收音机,NOUN
-عمارة,building,大楼/公寓楼,NOUN
-طابق,floor / story,楼层,NOUN
+عمارة,building,大楼,NOUN
+طابق,floor,楼层,NOUN
 ساكن,resident,居民,NOUN
-سكن,residence / housing,住所/住房,NOUN
+سكن,residence,住所,NOUN
 قفل,lock,锁,NOUN
 جرس,bell,铃,NOUN
 بطانية,blanket,毯子,NOUN
-زليج,zellige / tiles,马赛克瓷砖,NOUN
+زليج,tiles,马赛克瓷砖,NOUN
 طاقة,small window,小窗,NOUN
 حوش,courtyard,院子,NOUN
-سور,wall / fence,墙/围墙,NOUN
+سور,wall,围墙,NOUN
 رقم,number,数字,NOUN
 فحم,charcoal,木炭,NOUN
 مقص,scissors,剪刀,NOUN
 مسمار,nail,钉子,NOUN
 مطرقة,hammer,锤子,NOUN
 حبل,rope,绳子,NOUN
-صورة,picture / photo,照片,NOUN
+صورة,picture,照片,NOUN
 مغرفة,ladle,长柄勺,NOUN
 غسالة,washing machine,洗衣机,NOUN
 مكنسة,broom,扫帚,NOUN
 شمعة,candle,蜡烛,NOUN
-علبة,box / can,盒子 / 罐,NOUN
+علبة,box,盒子,NOUN
 خيمة,tent,帐篷,NOUN
 وشاح,scarf,围巾,NOUN
 ملابس,clothes,衣服,NOUN
-قياس,size / measure,尺寸 / 测量,NOUN
-جرّب,to try / to try on,尝试 / 试穿,VERB
+قياس,size,尺寸,NOUN
+جرب,to try,尝试,VERB
 صوف,wool,羊毛,NOUN
 حرير,silk,丝绸,NOUN
 قطن,cotton,棉花,NOUN
@@ -235,14 +235,14 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سبورة,blackboard,黑板,NOUN
 دفتر,notebook,笔记本,NOUN
 امتحان,exam,考试,NOUN
-نقطة,point / grade,点 / 分数,NOUN
+نقطة,point,点,NOUN
 درس,lesson,课,NOUN
 تمرين,exercise,练习,NOUN
-واجب,homework / duty,作业 / 职责,NOUN
+واجب,homework,作业,NOUN
 جامعة,university,大学,NOUN
-مستوى,level,水平 / 级别,NOUN
-نجح,to succeed / to pass,成功 / 及格,VERB
-حفظ,to memorize,记忆 / 背诵,VERB
+مستوى,level,水平,NOUN
+نجح,to succeed,成功,VERB
+حفظ,to memorize,记忆,VERB
 شرح,to explain,解释,VERB
 سؤال,question,问题,NOUN
 جواب,answer,回答,NOUN
@@ -256,7 +256,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 إنجليزية,English language,英语,NOUN
 معلومة,information,信息,NOUN
 خبر,news,新闻,NOUN
-برنامج,program / schedule,节目 / 日程,NOUN
+برنامج,program,节目,NOUN
 موظف,employee,职员,NOUN
 نادل,waiter,服务员,NOUN
 حلاق,barber,理发师,NOUN
@@ -264,27 +264,27 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جريدة,newspaper,报纸,NOUN
 ثانية,again,再次,ADV
 أحياناً,sometimes,有时,ADV
-مرة,time / once,次 / 一次,NOUN
+مرة,time,次,NOUN
 لحظة,moment,时刻,NOUN
-عمر,age / lifetime,年龄 / 一生,NOUN
+عمر,age,年龄,NOUN
 مستقبل,future,未来,NOUN
-تاريخ,date / history,日期 / 历史,NOUN
+تاريخ,history,历史,NOUN
 ميعاد,appointment,预约,NOUN
 عاد,to return,返回,VERB
 قبيلة,tribe,部落,NOUN
 ليلة,night,夜晚,NOUN
 طول,length,长度,NOUN
 سنة,year,年,NOUN
-عيد,holiday / feast,节日,NOUN
+عيد,holiday,节日,NOUN
 بداية,beginning,开始,NOUN
 نهاية,end,结束,NOUN
-زمان,time / era,时间 / 时代,NOUN
+زمان,time,时代,NOUN
 فجر,dawn,黎明,NOUN
 وقت,time,时间,NOUN
-فرصة,chance / opportunity,机会,NOUN
+فرصة,chance,机会,NOUN
 موسم,season,季节,NOUN
-تالي,following / next,接下来的,ADJ
-أحد,Sunday / someone,星期日 / 某人,NOUN
+تالي,following,接下来的,ADJ
+أحد,Sunday,星期日,NOUN
 اثنين,Monday,星期一,NOUN
 ثلاثاء,Tuesday,星期二,NOUN
 أربعاء,Wednesday,星期三,NOUN
@@ -298,8 +298,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 منع,to forbid,禁止,VERB
 حاول,to try,尝试,VERB
 قدر,to be able,能够,VERB
-خص,to need / must,需要 / 必须,VERB
-بان,to appear / to seem,出现 / 似乎,VERB
+خص,to need,需要,VERB
+بان,to appear,出现,VERB
 تمنى,to wish,希望,VERB
 وقع,to happen,发生,VERB
 بدل,to change,改变,VERB
@@ -332,29 +332,29 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فات,to pass,经过,VERB
 صب,to pour,倒,VERB
 فرق,to separate,分开,VERB
-حضر,to attend / to prepare,出席 / 准备,VERB
+حضر,to attend,出席,VERB
 غاب,to be absent,缺席,VERB
 شارك,to participate,参与,VERB
-سجل,to register / to record,登记 / 记录,VERB
+سجل,to register,登记,VERB
 علق,to hang,悬挂,VERB
 لصق,to stick,粘贴,VERB
 حفر,to dig,挖掘,VERB
 زرع,to plant,种植,VERB
 سقى,to water,浇水,VERB
 غار,to be jealous,嫉妒,VERB
-قلق,to worry / anxiety,担心 / 焦虑,VERB
+قلق,to worry,担心,VERB
 غش,to cheat,欺骗,VERB
 نصح,to advise,建议,VERB
 شكا,to complain,抱怨,VERB
-دعا,to invite / to bless,邀请 / 祈福,VERB
-حكى,to tell / to narrate,讲述,VERB
+دعا,to invite,邀请,VERB
+حكى,to tell,讲述,VERB
 وصف,to describe,描述,VERB
 قرر,to decide,决定,VERB
 تعلم,to learn,学习,VERB
-دق,to knock / to pound,敲 / 捣,VERB
-قلع,to remove / to pull out,拔出 / 移除,VERB
+دق,to knock,敲,VERB
+قلع,to remove,拔出,VERB
 كسر,to break,打破,VERB
-غرق,to drown / to sink,淹没 / 沉没,VERB
+غرق,to drown,淹没,VERB
 سخن,to heat,加热,VERB
 جمد,to freeze,冻结,VERB
 ذاب,to melt,融化,VERB
@@ -363,37 +363,36 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 اتكأ,to lean,倚靠,VERB
 صور,to photograph,拍照,VERB
 سمى,to name,命名,VERB
-قصد,to mean / to head to,意指 / 前往,VERB
-شغل,to turn on / to employ,打开 / 雇用,VERB
+قصد,to mean,意指,VERB
+شغل,to turn on,打开,VERB
 صلح,to repair,修理,VERB
 قشر,to peel,剥皮,VERB
 عصر,to squeeze,挤压,VERB
 فتح,to open,打开,VERB
 شحن,to charge,充电,VERB
 خزن,to store,存储,VERB
-لم,to gather / to collect,收集 / 聚集,VERB
-فرش,to spread / to make a bed,铺开 / 铺床,VERB
+لم,to gather,收集,VERB
+فرش,to spread,铺开,VERB
 نقز,to jump,跳,VERB
 زلق,to slip,滑倒,VERB
-نفخ,to inflate / to blow,充气 / 吹,VERB
-حك,to scratch / to rub,抓 / 摩擦,VERB
+نفخ,to inflate,充气,VERB
+حك,to scratch,抓,VERB
 حزين,sad,悲伤的,ADJ
-معصب,tense / angry,紧张的 / 愤怒的,ADJ
-شبعان,full / satiated,饱的,ADJ
+معصب,tense,紧张的,ADJ
+شبعان,full,饱的,ADJ
 مشغول,busy,忙碌的,ADJ
-موجود,present / available,存在的 / 可获得的,ADJ
-مرتاح,relaxed / comfortable,放松的 / 舒适的,ADJ
+موجود,present,存在的,ADJ
+مرتاح,relaxed,放松的,ADJ
 محتاج,in need,需要的,ADJ
 مغبون,deceived,受骗的,ADJ
-عيب,shame / disgrace,耻辱 / 丢脸,NOUN
+عيب,shame,耻辱,NOUN
 فرحة,joy,喜悦,NOUN
 خوف,fear,恐惧,NOUN
 ندم,regret,后悔,NOUN
-قلق,worry,担忧,NOUN
-محتار,confused / hesitant,困惑的 / 犹豫的,ADJ
+محتار,confused,困惑的,ADJ
 مهم,important,重要的,ADJ
 خطير,dangerous,危险的,ADJ
-عادي,normal / ordinary,正常的 / 普通的,ADJ
+عادي,normal,正常的,ADJ
 غريب,strange,奇怪的,ADJ
 مشهور,famous,著名的,ADJ
 معروف,well-known,著名的,ADJ
@@ -418,7 +417,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أبيض,white,白色的,ADJ
 فضي,silver,银色的,ADJ
 لون,color,颜色,NOUN
-قد,already / may (particle),已经 / 或许（助词）,PART
+قد,already,已经,PART
 تقريبا,approximately,大约,ADV
 كامل,whole,完整的,ADJ
 ثلث,third,三分之一,NOUN
@@ -429,7 +428,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 شيء,thing,事物,NOUN
 وحدة,unit,单位,NOUN
 أجي,come here,过来,VERB
-إلا,except / unless,除了 / 除非,ADP
+إلا,except,除了,ADP
 مع,with,和,ADP
 بلا,without,没有,ADP
 على,on,在...上,ADP
@@ -453,14 +452,14 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 نخلة,palm tree,棕榈树,NOUN
 زهرة,flower,花,NOUN
 كاميرا,camera,相机,NOUN
-يعني,to mean,意味着 / 意思是,VERB
+يعني,to mean,意味着,VERB
 عطشان,thirsty,口渴的,ADJ
 فيلا,villa,别墅,NOUN
 استيقظ,to wake up,醒来,VERB
 نام,to sleep,睡觉,VERB
 غطى,to cover,覆盖,VERB
-كشف,to uncover / to reveal,揭开 / 揭露,VERB
-فاق,to recover / to wake up,苏醒,VERB
+كشف,to uncover,揭开,VERB
+فاق,to recover,苏醒,VERB
 غسل,to wash,洗,VERB
 نشف,to dry,弄干,VERB
 كوى,to iron,熨烫,VERB
@@ -471,7 +470,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 رفع,to lift,举起,VERB
 وضع,to put,放置,VERB
 أوقف,to stop,停止,VERB
-ترك,to leave / to abandon,离开 / 抛弃,VERB
+ترك,to leave,离开,VERB
 أخذ,to take,拿,VERB
 جاء,to come,来,VERB
 ذهب,to go,去,VERB
@@ -481,9 +480,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ركض,to run,跑,VERB
 قفز,to jump,跳,VERB
 دخل,to enter,进入,VERB
-خرج,to exit / to go out,出去,VERB
-صعد,to go up / to climb,上去 / 攀爬,VERB
-نزل,to go down / to descend,下去,VERB
+خرج,to exit,出去,VERB
+صعد,to go up,上去,VERB
+نزل,to go down,下去,VERB
 أغلق,to close,关闭,VERB
 بدأ,to begin,开始,VERB
 كتب,to write,写,VERB
@@ -499,7 +498,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 همس,to whisper,低语,VERB
 تكلم,to speak,说话,VERB
 تحدث,to talk,交谈,VERB
-رد,to answer / to reply,回答,VERB
+رد,to answer,回答,VERB
 ناقش,to discuss,讨论,VERB
 اتفق,to agree,同意,VERB
 اختار,to choose,选择,VERB
@@ -508,13 +507,13 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 باع,to sell,卖,VERB
 دفع,to pay,支付,VERB
 قبض,to receive payment,收款,VERB
-صرف,to spend / to exchange,花费 / 兑换,VERB
+صرف,to spend,花费,VERB
 أرجع,to return something,归还,VERB
-استبدل,to exchange / to replace,交换 / 替换,VERB
+استبدل,to replace,替换,VERB
 أرسل,to send,发送,VERB
 استلم,to receive,接收,VERB
 أهدى,to give a gift,赠礼,VERB
-استعاد,to recover / to retrieve,恢复 / 取回,VERB
+استعاد,to recover,恢复,VERB
 أكل,to eat,吃,VERB
 شرب,to drink,喝,VERB
 مضغ,to chew,咀嚼,VERB
@@ -523,43 +522,43 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 عجن,to knead,揉面,VERB
 قاس,to measure,测量,VERB
 عدّد,to count,数,VERB
-اجتمع,to gather / to meet,聚集 / 会面,VERB
+اجتمع,to meet,会面,VERB
 تعارف,to get acquainted,相互认识,VERB
 صادق,to befriend,交友,VERB
 صار,to become,成为,VERB
-بقى,to remain / to stay,留下,VERB
-زال,to disappear / to vanish,消失,VERB
+بقى,to remain,留下,VERB
+زال,to disappear,消失,VERB
 ظهر,to appear,出现,VERB
-اختفى,to hide / to disappear,隐藏 / 消失,VERB
+اختفى,to hide,隐藏,VERB
 اختبأ,to hide oneself,躲藏,VERB
 ساعد,to help,帮助,VERB
 شكر,to thank,感谢,VERB
 اعتذر,to apologize,道歉,VERB
 سامح,to forgive,原谅,VERB
 تاب,to repent,悔过,VERB
-اعترف,to admit / to confess,承认,VERB
+اعترف,to admit,承认,VERB
 كتم,to conceal,隐瞒,VERB
 أعلن,to announce,宣布,VERB
-بلغ,to inform / to reach,通知 / 达到,VERB
+بلغ,to inform,通知,VERB
 راسل,to correspond,通信,VERB
-اتصل,to call / to contact,打电话 / 联系,VERB
+اتصل,to call,打电话,VERB
 رن,to ring,响铃,VERB
 أجاب,to answer,回答,VERB
 سأل,to ask,问,VERB
 استفسر,to inquire,询问,VERB
 فهم,to understand,理解,VERB
 فسّر,to interpret,解释,VERB
-ذكر,to mention / to remember,提及 / 记得,VERB
+ذكر,to mention,提及,VERB
 نسي,to forget,忘记,VERB
 تذكّر,to remember,记得,VERB
 تخيل,to imagine,想象,VERB
-ظن,to assume / to think,以为,VERB
+ظن,to think,以为,VERB
 اعتقد,to believe,认为,VERB
 شك,to doubt,怀疑,VERB
 تأكد,to make sure,确认,VERB
 استطاع,to be able to,能够,VERB
 يمكن,to be possible,可能,VERB
-وجب,to be necessary / must,必须,VERB
+وجب,to be necessary,必须,VERB
 لزم,to be required,必须,VERB
 حقق,to achieve,实现,VERB
 فشل,to fail,失败,VERB
@@ -567,38 +566,38 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 علّم,to teach,教,VERB
 هدّد,to threaten,威胁,VERB
 أنذر,to warn,警告,VERB
-حمى,to protect / to defend,保护 / 防御,VERB
+حمى,to protect,保护,VERB
 قاوم,to resist,抵抗,VERB
 هاجم,to attack,攻击,VERB
-وافق,to agree / to approve,同意 / 批准,VERB
-صمم,to insist / to design,坚持 / 设计,VERB
+وافق,to agree,同意,VERB
+صمم,to design,设计,VERB
 وثق,to trust,信任,VERB
-يجب,should / must,应该,AUX
+يجب,must,应该,AUX
 ينبغي,ought to,应当,AUX
-لعل,perhaps / maybe,也许,SCONJ
+لعل,perhaps,也许,SCONJ
 لو,if (counterfactual),如果,SCONJ
-إذا,if / when,如果 / 当,SCONJ
+إذا,if,如果,SCONJ
 إن,if,如果,SCONJ
 لأنّ,because,因为,SCONJ
 لذلك,therefore,因此,ADV
 لكن,but,但是,CCONJ
-بل,rather / but,而是,CCONJ
+بل,rather,而是,CCONJ
 ثم,then,然后,ADV
 لما,when,当...时,SCONJ
 بينما,while,同时,SCONJ
-حيث,whereas / since,既然,SCONJ
-كي,in order to / so that,以便,SCONJ
+حيث,whereas,既然,SCONJ
+كي,in order to,以便,SCONJ
 منذ,since,自从,ADP
 نحو,towards,朝向,ADP
 حول,around,周围,ADP
 ضد,against,反对,ADP
 خلال,during,在...期间,ADP
-فوق,above / over,在...上方,ADP
-تحت,under / below,在...下方,ADP
+فوق,above,在...上方,ADP
+تحت,under,在...下方,ADP
 أمام,in front of,在...前面,ADP
 خلف,behind,在...后面,ADP
 بين,between,在...之间,ADP
-لدى,at / with,在...处,ADP
+لدى,at,在...处,ADP
 شخص,person,شخص,NOUN
 وجد,to find,وجد,VERB
 دون,below,دون,NOUN
@@ -606,12 +605,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 و,and,و,CCONJ
 حسن,goodness,حسن,NOUN
 أصبح,to become,أصبح,VERB
-راوند,to round,راوند,VERB
 أو,or,أو,CCONJ
 بدا,to begin,بدا,VERB
 ٱعتقد,to believe,ٱعتقد,VERB
 ألا,lest,ألا,SCONJ
-لاس,to last,لاس,VERB
 مال,money,مال,NOUN
 أسف,regret,أسف,NOUN
 شكل,shape,شكل,NOUN
@@ -627,16 +624,13 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 نوع,type,نوع,NOUN
 فقط,only,فقط,ADV
 ها,she,ها,PRON
-معك,to accompany,معك,VERB
 وجود,existence,وجود,NOUN
-مون,to moon,مون,VERB
 إله,god,إله,NOUN
 غيل,mist,غيل,NOUN
 جانب,side,جانب,NOUN
 هم,concern,هم,NOUN
 ٱحتاج,to need,ٱحتاج,VERB
 جميل,beauty,جميل,NOUN
-معي,company,معي,NOUN
 خير,good,خير,NOUN
 رحل,to depart,رحل,VERB
 ربما,perhaps,ربما,ADV

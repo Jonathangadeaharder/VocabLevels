@@ -54,7 +54,7 @@ aansluiting,affiliation,隶属关系,NOUN,B2
 bevestigen,to affirm,断言,VERB,B2
 bebossing,afforestation,植树造林,NOUN,B2
 achterkant,after,تلو,NOUN,B2
-nawerking,aftereffect,后遗症，后果,NOUN,B2
+nawerking,aftereffect,后遗症,NOUN,B2
 later,afterward,去后,NOUN,B2
 herhaling,again,你又,NOUN,B2
 agressiviteit,aggressiveness,攻击性,NOUN,B2
@@ -1168,7 +1168,7 @@ vasten,fasting,禁食,NOUN,B2
 dik,fat,胖的,ADJ,B2
 fataal,fatal,致命的,ADJ,B2
 vader,father,父,PART,B2
-schoonvader,father-in-law,岳父/公公,NOUN,B2
+schoonvader,father-in-law,岳父,NOUN,B2
 fout,fault,错误,NOUN,B2
 bevoordelen,favor,恩惠,NOUN,B2
 bevoordelen,to favor,偏袒,VERB,B2
@@ -1456,7 +1456,7 @@ hartslag,heartbeat,心跳,NOUN,B2
 verwarmen,to heat,加热,VERB,B2
 hittegolf,heat wave,热浪,NOUN,B2
 hemelse geur,heavenly fragrance,天香,NOUN,B2
-zwaarte,heaviness,沉重 / 笨重,NOUN,B2
+zwaarte,heaviness,沉重,NOUN,B2
 stijve etiquette,heavy etiquette,礼太重,NOUN,B2
 zware knoop,heavy knot,重结,NOUN,B2
 zware machine,heavy machine,重机,NOUN,B2
@@ -1884,7 +1884,7 @@ stelregel,maxim,格言,NOUN,B2
 ik,me,لي,NOUN,B2
 weide,meadow,草地,NOUN,B2
 tussentijd,meantime,同时,NOUN,B2
-boek,measure word for books,本,NUM,B2
+boek,volume,本,NOUN,B2
 mechanisme,mechanism,机制,NOUN,B2
 mechanistisch,mechanistic,机制性,ADJ,B2
 mediaan,median,中位数,NOUN,B2
@@ -1995,7 +1995,7 @@ veel,much,多,DET,B2
 slijm,mucus,黏液,NOUN,B2
 modder,mud,泥,NOUN,B2
 verward,muddled,混乱的,ADJ,B2
-vermenigvuldigen,to multiply,乘；增加,VERB,B2
+vermenigvuldigen,to multiply,乘,VERB,B2
 moordwapen,murder weapon,凶器,NOUN,B2
 niet meer,no longer,不再,ADV,B2
 ongeacht,no matter,不论,CCONJ,B2
@@ -2278,7 +2278,7 @@ schijn,pretense,假装,NOUN,B2
 pretekst,pretext,借口,NOUN,B2
 mooi,pretty,漂亮的,ADJ,B2
 eerder,previously,以前,ADV,B2
-prijsbepaling,pricing,定价 / 收费,NOUN,B2
+prijsbepaling,pricing,定价,NOUN,B2
 trots,pride,骄傲,NOUN,B2
 primitief,primitive,原始的,ADJ,B2
 hoofd,principal,委托人,NOUN,B2
@@ -2724,13 +2724,13 @@ onmiddellijk voordeel nastrevend,seeking instant benefit,急功近利,ADJ,B2
 schijnbaar,seemingly,表面上,ADV,B2
 seismisch,seismic,地震的,ADJ,B2
 grijpen,to seize,抓住,VERB,B2
-selectief,selective,选择的，挑选的,ADJ,B2
+selectief,selective,选择的,ADJ,B2
 zelf,self,自我,NOUN,B2
 zelfverzekerd,self-confident,自信的,ADJ,B2
 zelfopoffering,self-sacrifice,舍己,NOUN,B2
 egoïstisch,selfish,自私的,ADJ,B2
 verkoper,seller,售货员,NOUN,B2
-semiologie,semiology,符号学，症状学,NOUN,B2
+semiologie,semiology,符号学,NOUN,B2
 semiotica,semiotics,符号学,NOUN,B2
 senioriteit,seniority,资历,NOUN,B2
 voelen,sense,感觉,NOUN,B2
@@ -2739,7 +2739,7 @@ zinneloos,senseless,无意义的,ADJ,B2
 verstandig,sensible,明智的,ADJ,B2
 vonnissen,to sentence,判决,VERB,B2
 wacht,sentry,卫兵,NOUN,B2
-sequentie,sequence,顺序，片段,NOUN,B2
+sequentie,sequence,顺序,NOUN,B2
 seren,serene,宁静的,ADJ,B2
 sereniteit,serenity,宁静,NOUN,B2
 seriemoordenaar,serial killer,连环杀手,NOUN,B2
@@ -2825,7 +2825,7 @@ slurpen,sip,小口喝,NOUN,B2
 slurpen,to sip,小口喝,VERB,B2
 meneer,sir,郎,PART,B2
 sirene,siren,汽笛,NOUN,B2
-schoonzus,sister-in-law,嫂子/弟媳/大姑子/小姑子,NOUN,B2
+schoonzus,sister-in-law,嫂子,NOUN,B2
 glimlachen,to smile,微笑,VERB,B2
 roken,smoking,吸烟,NOUN,B2
 gladen,to smooth,使光滑,VERB,B2
@@ -2871,7 +2871,7 @@ zool,sole,鞋底,NOUN,B2
 plechtig,solemn,庄严的,ADJ,B2
 soliciteren,to solicit,恳求,VERB,B2
 donaties ophalen,to solicit donations,募捐,VERB,B2
-massa,solid,3D模型 / 实体,NOUN,B2
+massa,solid,3D模型,NOUN,B2
 monoloog,soliloquy,独白,NOUN,B2
 eenzaamheid,solitude,孤独,NOUN,B2
 solvabiliteit,solvency,偿付能力,NOUN,B2
@@ -2882,7 +2882,6 @@ op een gegeven moment,sometime,在某个时候,ADV,B2
 roet,soot,烟灰,NOUN,B2
 sophisterij,sophistry,诡辩,NOUN,B2
 sorteren,to sort,分类,VERB,B2
-geluid van activiteit,sound of activity,动静,NOUN,B2
 gezondheid,soundness,好端端,NOUN,B2
 zuur,sour,酸的,ADJ,B2
 zuidelijk leger,southern army,南军,NOUN,B2
@@ -2932,7 +2931,7 @@ stap,steps,台阶,NOUN,B2
 stoven,to stew,炖,VERB,B2
 stijfheid,stiffness,僵硬,NOUN,B2
 steken,to sting,刺,VERB,B2
-geizigheid,stinginess,吝啬；小气,NOUN,B2
+geizigheid,stinginess,吝啬,NOUN,B2
 geizig,stingy,吝啬的,ADJ,B2
 stinken,to stink,发臭,VERB,B2
 stinkend,stinking,发臭的,ADJ,B2
@@ -3124,7 +3123,7 @@ binden,tie,领带,NOUN,B2
 binden,to tie,联结,VERB,B2
 vastbinden,to tie up,绑,VERB,B2
 stevige greep,tight grip,手握紧,NOUN,B2
-aanspannen,to tighten,紧握/收紧,VERB,B2
+aanspannen,to tighten,紧握,VERB,B2
 tegel,tile,瓦片,NOUN,B2
 betegeling,tiling,铺瓷砖,NOUN,B2
 keer,times,倍,NOUN,B2
@@ -3372,7 +3371,7 @@ welke,which one,哪一个,PRON,B2
 poos,while,一会儿,NOUN,B2
 capriool,whim,突发奇想,NOUN,B2
 zweep,to whip,鞭打,VERB,B2
-wervelwind,whirlwind,旋风；漩涡,NOUN,B2
+wervelwind,whirlwind,旋风,NOUN,B2
 fluistering,whisper,低语,NOUN,B2
 wereld,whole world,全世界,NOUN,B2
 wie,whom,谁,PRON,B2
@@ -8413,10 +8412,10 @@ Chinees schaken,chinese chess,中国象棋,NOUN,B1
 Chinese dierenriem,chinese zodiac,生肖十二生肖,NOUN,B1
 koriander,cilantro,香菜芫荽,NOUN,A2
 schoolles,class lesson,课堂课时,NOUN,A1
-exemplaar,classifier for documents portions,份部类量词,NOUN,B2
-bloemsteel,classifier for flowers,朵枝量词,NUM,B2
-span,classifier for horses,匹量词,NUM,B2
-stuk,classifier for small round objects,个颗粒量词,NOUN,A2
+exemplaar,copy,份部类量词,NOUN,B2
+bloemsteel,flower,朵枝量词,NOUN,B2
+span,horse,匹量词,NOUN,B2
+stuk,grain,个颗粒量词,NOUN,A2
 klaswerk,classwork,课堂作业课堂练习,NOUN,A2
 schoonmaker,cleaner,清洁工清洁剂,NOUN,A2
 uitgeschakeld,closed disabled,关闭的已停用的,ADJ,B1
@@ -10827,10 +10826,10 @@ lesuur,class session,课时,NOUN,B2
 klassenstratificatie,class stratification,阶级分层,NOUN,B2
 klassentoets,class test,课堂测验,NOUN,B2
 klassieke poëzie,classical poetry,古典诗歌,NOUN,B2
-stuk,classifier for paintings cloth etc.,幅,NUM,B2
-boom,classifier for trees,棵,NUM,B2
-reis,classifier for trips,次,NUM,B2
-voertuig,classifier for vehicles,辆,NUM,B2
+stuk,piece,幅,NOUN,B2
+boom,tree,棵,NOUN,B2
+reis,trip,次,NOUN,B2
+voertuig,vehicle,辆,NOUN,B2
 kleioven,clay stove,土灶,NOUN,B2
 opschonen,to clean out,清理,VERB,B2
 schone technologie,clean technology,清洁技术,NOUN,B2

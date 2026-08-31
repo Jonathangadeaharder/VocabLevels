@@ -204,12 +204,12 @@ Kunst,art,艺术,NOUN
 Künstler,artist,艺术家,NOUN
 Labor,laboratory,实验室,NOUN
 Lager,camp,营地,NOUN
-langen,to suffice / to reach,足够 / 够得着,VERB
-lauten,to read / to be,读作 / 为,VERB
+langen,to suffice,足够,VERB
+lauten,to read,读作,VERB
 lebendig,alive,活着的,ADJ
 leiden,to suffer,受苦,VERB
-Leiter,leader / ladder,领导者 / 梯子,NOUN
-locker,relaxed / loose,放松的 / 松的,ADJ
+Leiter,leader,领导者,NOUN
+locker,relaxed,放松的,ADJ
 loswerden,to get rid of,摆脱,VERB
 lösen,to solve,解决,VERB
 Lüge,lie,谎言,NOUN
@@ -270,7 +270,7 @@ rechtzeitig,in time,及时的,ADJ
 Regel,rule,规则,NOUN
 Regisseur,director,导演,NOUN
 Reifen,tire,轮胎,NOUN
-Reihe,row / series,排 / 系列,NOUN
+Reihe,row,排,NOUN
 Gaststätte,restaurant,餐厅,NOUN
 Revier,precinct,辖区,NOUN
 Riese,giant,巨人,NOUN
@@ -278,7 +278,7 @@ Risiko,risk,风险,NOUN
 riskieren,to risk,冒险,VERB
 Ritter,knight,骑士,NOUN
 Roman,novel,小说,NOUN
-Runde,round,轮 / 回合,NOUN
+Runde,round,轮,NOUN
 Schaden,damage,损害,NOUN
 Schande,shame,耻辱,NOUN
 Schatten,shadow,阴影,NOUN
@@ -500,4 +500,4 @@ Sitzung,meeting,会议,NOUN
 dokumentieren,to document,记录,VERB
 rauslassen,to let out,放出,VERB
 Brauhaus,brewery,啤酒厂,NOUN
-Aufschlag,serve/markup,发球/加价,NOUN
+Aufschlag,serve,发球,NOUN

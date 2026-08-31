@@ -59,7 +59,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قنصل,consul,领事,NOUN
 تطبيع,normalization,正常化,NOUN
 تهدئة,de-escalation,降级,NOUN
-انفراج,détente,缓和,NOUN
+انفراج,detente,缓和,NOUN
 بروتوكول,protocol,议定书,NOUN
 تحفظ,reservation,保留,NOUN
 انضمام,accession,加入,NOUN
@@ -850,10 +850,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 نبوغ,precocious talent,天才,NOUN
 فرادة,uniqueness,独特,NOUN
 تميز,distinction,卓越,NOUN
-رقي,refinement/elevation,高雅,NOUN
+رقي,refinement,高雅,NOUN
 سمو,sublimity,崇高,NOUN
 نبل,nobility of character,高尚,NOUN
-عفة,chastity/probity,贞洁,NOUN
+عفة,chastity,贞洁,NOUN
 صفاء,limpidity,清澈,NOUN
 سريرة,inner self,内心,NOUN
 سجية,innate disposition,天性,NOUN
@@ -893,24 +893,24 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ذبول,withering,枯萎,NOUN
 اضمحلال,fading away,衰退,NOUN
 تلاشي,vanishing,消失,NOUN
-زوال,cessation/passing,消亡,NOUN
+زوال,cessation,消亡,NOUN
 ديمومة,permanence,持久,NOUN
 سرمدية,everlastingness,永恒,NOUN
 أزلية,eternity without beginning,无始之永恒,NOUN
 أبدية,eternity without end,无终之永恒,NOUN
 خلود,immortality,不朽,NOUN
-جدوى,usefulness/avail,效用,NOUN
+جدوى,usefulness,效用,NOUN
 لاجدوى,futility,徒劳,NOUN
 جسامة,enormity,巨大,NOUN
 فداحة,gravity of loss,惨重,NOUN
 وطأة,oppressive weight,重压,NOUN
 شدة,severity,剧烈,NOUN
 ضراوة,ferocity,凶猛,NOUN
-حدة,acuteness/sharpness,尖锐,NOUN
-لين,softness/pliancy,柔软,NOUN
+حدة,acuteness,尖锐,NOUN
+لين,softness,柔软,NOUN
 سلاسة,smoothness,平滑,NOUN
 إبهام,ambiguity,模糊,NOUN
-جلاء,clarity/evidentness,清晰,NOUN
+جلاء,clarity,清晰,NOUN
 موثوقية,reliability,可靠性,NOUN
 سطحية,superficiality,肤浅,NOUN
 تنوير,enlightenment,启蒙,NOUN
@@ -1047,7 +1047,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ترجيح,preponderance,权衡,NOUN
 موازنة,budget,预算,NOUN
 تنازع,conflict,冲突,NOUN
-تكييف,conditioning / adaptation / air conditioning,调节 / 适应 / 空调,NOUN
+تكييف,conditioning,调节,NOUN
 توصيف,characterization,描述,NOUN
 تطليق,divorce,离婚,NOUN
 خلع,khul',女方离婚,NOUN
@@ -1729,7 +1729,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تحاور,to dialogue,对话,VERB
 تعاهد,to pledge mutually,相互承诺,VERB
 اسْتَنَاطَ,to interrogate,审问,VERB
-زَكَّى,to purify/certify,净化/认证,VERB
+زَكَّى,to purify,净化,VERB
 سَوَّغَ,to justify,证明...正当,VERB
 مَأَّسَ,to institutionalize,制度化,VERB
 دَسَّرَ,to constitutionalize,宪法化,VERB
@@ -1898,10 +1898,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مُضادّات,antibiotics,抗生素,NOUN
 جَرْعة,dose,剂量,NOUN
 وَصْفة,prescription,处方,NOUN
-عَقَّار,drug / medication,药物 / 药剂,NOUN
+عقار,drug,药物,NOUN
 صَيْدَلَة,pharmacy,药学,NOUN
 صَيْدَلَانِيّ,pharmaceutical,药学的,ADJ
-تَشْرِيح,anatomy / dissection,解剖学 / 解剖,NOUN
+تَشْرِيح,anatomy,解剖学,NOUN
 فِسْيُولُوجْيَا,physiology,生理学,NOUN
 مَرَضِيّ,pathological,病理的,ADJ
 عَرَضِيّ,symptomatic,症状的,ADJ
@@ -1911,25 +1911,25 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 خَثْرَة,clot,血栓,NOUN
 تَخَثُّر,coagulation,凝血,NOUN
 شَلَل,paralysis,瘫痪,NOUN
-تَشَنُّج,spasm / convulsion,痉挛 / 抽搐,NOUN
+تَشَنُّج,spasm,痉挛,NOUN
 صُدَاع,headache,头痛,NOUN
-دُوَار,vertigo / dizziness,眩晕 / 头晕,NOUN
+دُوَار,vertigo,眩晕,NOUN
 غَثَيَان,nausea,恶心,NOUN
 حُمَّى,fever,发烧,NOUN
 اِرْتِعَاش,tremor,震颤,NOUN
 اِخْتِنَاق,suffocation,窒息,NOUN
-جَفَاف,dehydration / dryness,脱水 / 干燥,NOUN
+جَفَاف,dehydration,脱水,NOUN
 هُزَال,emaciation,消瘦,NOUN
-رَضّ,contusion / trauma,挫伤 / 外伤,NOUN
+رض,contusion,挫伤,NOUN
 كَسْر,fracture,骨折,NOUN
 خَلْع,dislocation,脱臼,NOUN
-جَبْر,setting / splinting,骨折复位 / 固定,NOUN
+جبر,splinting,固定,NOUN
 تَضْمِيد,bandaging,包扎,NOUN
 قَثْطَرَة,catheter,导管,NOUN
-مِبْضَع,lancet,柳叶刀 / 刺血针,NOUN
+مِبْضَع,lancet,柳叶刀,NOUN
 مِنْظَار,endoscope,内窥镜,NOUN
 تَنْظِير,endoscopy,内窥镜检查,NOUN
-أَشِعَّة,radiography / rays,射线 / 放射,NOUN
+أَشِعَّة,radiography,射线,NOUN
 تَصْوِير,imaging,成像,NOUN
 رَنِين,resonance,共振,NOUN
 مِرْقَاب,monitor,监视器,NOUN
@@ -2000,7 +2000,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 نَوَوِيّ,nuclear,核的,ADJ
 ذَرِّيّ,atomic,原子的,ADJ
 جُزَيْئِيّ,molecular,分子的,ADJ
-كمي,quantitative,定量的 / 数量的,ADJ
+كمي,quantitative,定量的,ADJ
 كَيْفِيّ,qualitative,定性的,ADJ
 تَجْريبِيّ,experimental,实验的,ADJ
 نَظَرِيّ,theoretical,理论的,ADJ
@@ -2008,31 +2008,31 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مِجْهَر,microscope,显微镜,NOUN
 تِلِسْكوب,telescope,望远镜,NOUN
 مِطْياف,spectrometer,光谱仪,NOUN
-مِقْياس,gauge / meter,量规 / 仪表,NOUN
-مِعْيار,standard / criterion,标准 / 准则,NOUN
+مِقْياس,gauge,量规,NOUN
+مِعْيار,standard,标准,NOUN
 مُعايَرة,calibration,校准,NOUN
 عَيِّنة,sample,样品,NOUN
-رَواسِب,sediments / deposits,沉积物 / 矿床,NOUN
+رَواسِب,sediments,沉积物,NOUN
 بَلّورة,crystal,晶体,NOUN
 تَبَلْوُر,crystallization,结晶,NOUN
 سَبيكة,alloy,合金,NOUN
-خام,raw / ore,原 / 矿石,ADJ
-مَعْدِن,mineral / metal,矿物 / 金属,NOUN
+خام,raw,原矿,ADJ
+مَعْدِن,mineral,矿物,NOUN
 لافِلِزّ,nonmetal,非金属,NOUN
 مَسامِيّة,porosity,孔隙率,NOUN
-اِنْتِشار,diffusion / spread,扩散 / 传播,NOUN
+اِنْتِشار,diffusion,扩散,NOUN
 نَفاذِيّة,permeability,渗透性,NOUN
 هَنْدَسة,engineering,工程,NOUN
 مُهَنْدِس,engineer,工程师,NOUN
 تَصْميم,design,设计,NOUN
-مُخَطَّط,blueprint / diagram,蓝图 / 图表,NOUN
-رَسْم,drawing,绘图 / 图纸,NOUN
+مُخَطَّط,blueprint,蓝图,NOUN
+رَسْم,drawing,绘图,NOUN
 نَمْذَجة,modeling,建模,NOUN
 مُحاكاة,simulation,模拟,NOUN
-نَموذَج,model / prototype,模型 / 原型,NOUN
-مُجَسَّم,solid,3D模型 / 实体,NOUN
+نَموذَج,model,模型,NOUN
+مُجَسَّم,solid,3D模型,NOUN
 تَجْميع,assembly,装配,NOUN
-تَرْكيب,installation / assembly,安装 / 组装,NOUN
+تَرْكيب,installation,安装,NOUN
 تَفْكيك,disassembly,拆卸,NOUN
 لِحام,welding,焊接,NOUN
 لَحّام,welder,焊工,NOUN
@@ -2040,7 +2040,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 صَهْر,smelting,熔炼,NOUN
 طَرْق,forging,锻造,NOUN
 دِرْفَلة,rolling,轧制,NOUN
-خِراطة,lathing / turning,车削,NOUN
+خِراطة,lathing,车削,NOUN
 مِخْرَطة,lathe,车床,NOUN
 مِثْقاب,drill,钻头,NOUN
 مِطْرَقة,hammer,锤子,NOUN
@@ -2049,31 +2049,31 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 صامولة,nut,螺母,NOUN
 مِسْمار,nail,钉子,NOUN
 تُرْس,gear,齿轮,NOUN
-مِحْوَر,axis / axle,轴,NOUN
+مِحْوَر,axis,轴,NOUN
 مَحْمِل,bearing,轴承,NOUN
-رافِعة,lever / crane,杠杆 / 起重机,NOUN
+رافِعة,lever,杠杆,NOUN
 بَكَرة,pulley,滑轮,NOUN
 مِكْبَس,piston,活塞,NOUN
 صِمام,valve,阀门,NOUN
 مِضَخّة,pump,泵,NOUN
 ضاغِط,compressor,压缩机,NOUN
 مِرْشَح,filter,过滤器,NOUN
-مُبَرِّد,cooler / coolant,冷却器 / 冷却液,NOUN
+مُبَرِّد,cooler,冷却器,NOUN
 مُبادِل,exchanger,交换器,NOUN
 مِرْجَل,boiler,锅炉,NOUN
 عَنَفة,turbine,涡轮,NOUN
-مِحَرِّك,engine / motor,发动机 / 电动机,NOUN
+مِحَرِّك,engine,发动机,NOUN
 مُوَلِّد,generator,发电机,NOUN
-مُحَوِّل,transformer / converter,变压器 / 转换器,NOUN
+مُحَوِّل,transformer,变压器,NOUN
 مُقَوِّم,rectifier,整流器,NOUN
-مُكَثِّف,capacitor / condenser,电容器 / 冷凝器,NOUN
+مُكَثِّف,capacitor,电容器,NOUN
 مُقاوِم,resistor,电阻器,NOUN
 مُوَصِّل,conductor,导体,NOUN
 عازِل,insulator,绝缘体,NOUN
 دائِرة,circuit,电路,NOUN
-مِفْتاح,switch / key,开关 / 钥匙,NOUN
+مِفْتاح,switch,开关,NOUN
 مِصْهَر,fuse,保险丝,NOUN
-قاطِع,breaker / cutter,断路器 / 刀具,NOUN
+قاطِع,breaker,断路器,NOUN
 مُسْتَشْعِر,sensor,传感器,NOUN
 مُشَغِّل,operator,操作员,NOUN
 مُتَحَكِّم,controller,控制器,NOUN
@@ -2190,35 +2190,35 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 اِنْقِراض,extinction,灭绝,NOUN
 تَنَوُّع,diversity,多样性,NOUN
 مَوْطِن,habitat,栖息地,NOUN
-نِطاق,range / zone,范围 / 区域,NOUN
-مَحْمِيّة,reserve / protected area,保护区,NOUN
-إِزالة,removal / deforestation,清除 / 森林砍伐,NOUN
+نِطاق,range,范围,NOUN
+مَحْمِيّة,reserve,保护区,NOUN
+إِزالة,removal,清除,NOUN
 تَشْجير,afforestation,植树造林,NOUN
 تَدْوير,recycling,回收利用,NOUN
 نِفايات,waste,废物,NOUN
-مُخَلَّفات,residues / waste,残留物 / 废弃物,NOUN
-رُكام,debris / rubble,碎片 / 瓦砾,NOUN
-صَرْف,drainage / sewage,排水 / 污水,NOUN
+مُخَلَّفات,residues,残留物,NOUN
+رُكام,debris,碎片,NOUN
+صَرْف,drainage,排水,NOUN
 تَنْقِية,purification,净化,NOUN
 تَحْلِية,desalination,海水淡化,NOUN
-تَرْشيد,rationalization / conservation,合理化 / 节约,NOUN
+تَرْشيد,rationalization,合理化,NOUN
 اِسْتِدامة,sustainability,可持续性,NOUN
 مُسْتَدام,sustainable,可持续的,ADJ
 مُتَجَدِّد,renewable,可再生的,ADJ
-نَظافة,cleanliness / cleanness,清洁,NOUN
+نَظافة,cleanliness,清洁,NOUN
 سُمِّيّة,toxicity,毒性,NOUN
-تَعَفُّن,rot / decomposition,腐烂 / 分解,NOUN
-تَحَلُّل,decomposition / degradation,分解 / 降解,NOUN
+تَعَفُّن,rot,腐烂,NOUN
+تَحَلُّل,decomposition,分解,NOUN
 تَسَمُّم,poisoning,中毒,NOUN
 وَقود,fuel,燃料,NOUN
-مَحْروقات,fuels / hydrocarbons,燃料 / 碳氢化合物,NOUN
+محروقات,fuels,燃料,NOUN
 بِتْرول,petroleum,石油,NOUN
-نِفْط,oil / petroleum,石油,NOUN
+نِفْط,oil,石油,NOUN
 فَحْم,coal,煤,NOUN
 مَصْفاة,refinery,炼油厂,NOUN
 تَكْرير,refining,提炼,NOUN
-اِسْتِخْراج,extraction,开采 / 提取,NOUN
-تَنْقيب,prospecting / drilling,勘探 / 钻探,NOUN
+اِسْتِخْراج,extraction,开采,NOUN
+تنقيب,prospecting,勘探,NOUN
 حَفْر,digging,挖掘,NOUN
 خَزّان,tank,储罐,NOUN
 أُنْبوب,pipe,管道,NOUN
@@ -2363,7 +2363,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تَخْميد,damping,阻尼,NOUN
 تَقْوِية,amplification,放大,NOUN
 رَبْطِيّ,link,连接的,ADJ
-وَصْلَة,link / connector,连接,NOUN
+وَصْلَة,link,连接,NOUN
 كَابِل,cable,电缆,NOUN
 ضَفِيرَة,braid,编织物,NOUN
 لَيْف,fiber,纤维,NOUN
@@ -2372,7 +2372,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 رِزْمَة,packet,数据包,NOUN
 حُزْمَة,bundle,束,NOUN
 بَرْقِيَّة,telegram,电报,NOUN
-بَرْق,telegraph / lightning,电报 / 闪电,NOUN
+بَرْق,telegraph,电报,NOUN
 لَاسِلْكِيّ,wireless,无线的,ADJ
 سِلْكِيّ,wired,有线的,ADJ
 تَعْلِيم,education,教育,NOUN
@@ -2398,7 +2398,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 اِبْتِعَاث,scholarship,公派留学,NOUN
 اِنْتِسَاب,enrollment,注册入学,NOUN
 تَسْجِيل,registration,登记,NOUN
-مَقْبُولِيَّة,admissibility / acceptance,可接受性 / 录取,NOUN
+مَقْبُولِيَّة,admissibility,可接受性,NOUN
 قَبول,admission,录取,NOUN
 تَقْييم,evaluation,评估,NOUN
 تَقْويم,assessment,评估,NOUN
@@ -2539,7 +2539,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 اِنْدِفاع,thrust,推力,NOUN
 حُقْنة,syringe,注射器,NOUN
 رَذاذ,spray,喷雾,NOUN
-رَشّاش,sprayer / sprinkler,喷雾器 / 洒水器,NOUN
+رشاش,sprayer,喷雾器,NOUN
 مِبْخَرة,vaporizer,蒸发器,NOUN
 مِكْثاف,condenser,冷凝器,NOUN
 مِرْجاس,probe,探针,NOUN
@@ -3199,31 +3199,31 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تراجم,biographies,传记,NOUN
 اعتلاء,accession,即位,NOUN
 أرخنة,historicization,历史化,NOUN
-قايد,caid/local governor,凯德（地方长官）,NOUN
+قايد,caid,凯德（地方长官）,NOUN
 فندق,caravanserai,商队旅馆,NOUN
 برج,tower,塔,NOUN
-رباط,ribat/fortified convent,里巴特（堡垒/修道院）,NOUN
+رباط,ribat,里巴特（堡垒,NOUN
 زقاق,alley,小巷,NOUN
 ناعورة,waterwheel,水车,NOUN
-سقوط,fall/collapse,陷落,NOUN
+سقوط,fall,陷落,NOUN
 انحطاط,decline,衰退,NOUN
 نهضة,renaissance,复兴,NOUN
 وطنية,patriotism,爱国主义,NOUN
 مستعمرون,colonial settlers,殖民定居者,NOUN
-أهالي,natives/inhabitants,当地人,NOUN
+أهالي,natives,当地人,NOUN
 عرف,customary law,习俗,NOUN
 مشيخة,sheikhdom,酋长国,NOUN
 إمارة,emirate,埃米尔国,NOUN
-طائفة,sect/taifa,派别,NOUN
+طائفة,sect,派别,NOUN
 أرستقراطية,aristocracy,贵族,NOUN
 إقطاعية,feudalism,封建主义,NOUN
 عبودية,slavery,奴隶制,NOUN
-رق,slavery/bondage,奴役,NOUN
+رق,slavery,奴役,NOUN
 عتق,manumission,释放奴隶,NOUN
-موالي,freedmen/clients,被释奴,NOUN
+موالي,freedmen,被释奴,NOUN
 خراج,land tax,土地税,NOUN
 ديوانية,chancery,官府文书,NOUN
-إسقاط,overthrow/projection,推翻,NOUN
+إسقاط,overthrow,推翻,NOUN
 إعلاء,elevation,提升,NOUN
 تقمص,impersonation,角色扮演,NOUN
 تماهي,identification,认同,NOUN
@@ -3439,78 +3439,78 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 صيت,renown,名声,NOUN
 ذيوع,circulation,流传,NOUN
 شيوع,prevalence,普及,NOUN
-انحسار,receding/ebbing,衰退/退潮,NOUN
-أفول,decline/setting,衰落/西沉,NOUN
-نضارة,freshness/bloom,清新/鲜艳,NOUN
-إيناع,blossoming/ripening,开花/成熟,NOUN
-تفتق,bursting forth,裂开/绽开,NOUN
-انبثاق,emergence/emanation,涌现/发源,NOUN
-نشوء,genesis/emergence,产生/出现,NOUN
-مآل,eventual outcome,最终结果/结局,NOUN
-منتهى,utmost/extreme end,极限/尽头,NOUN
+انحسار,receding,退潮,NOUN
+أفول,decline,衰落,NOUN
+نضارة,freshness,清新,NOUN
+إيناع,ripening,成熟,NOUN
+تفتق,bursting forth,裂开,NOUN
+انبثاق,emergence,涌现,NOUN
+نشوء,genesis,产生,NOUN
+مآل,eventual outcome,最终结果,NOUN
+منتهى,utmost,极限,NOUN
 مبتغى,desired aim,期望的目标,NOUN
-مأرب,purpose/design,目的/意图,NOUN
-مقصد,aim/destination,目的/目的地,NOUN
-بالأحرى,rather/more precisely,更确切地说/宁愿,ADV
+مأرب,purpose,意图,NOUN
+مقصد,destination,目的地,NOUN
+بالأحرى,rather,确切地说,ADV
 لاسيما,especially,特别是,ADV
-استطراداً,by way of digression,附带地/顺带一提,ADV
-استدراكاً,by way of rectification,作为更正/除外,ADV
-تبعا,accordingly/consequently,因此/随之,ADV
-عطفا,further to/in reference,根据/参照,ADV
-تأسيسا,building upon,基于/以此为基础,ADV
-عملا,pursuant to,依照/根据,ADV
-اقتداء,following the example of,效法/以...为榜样,NOUN
-أسوة,after the example of,效法/以...为榜样,NOUN
-قياسا,by analogy with,以此类推/类比,ADV
-احترازا,as a precaution,以防万一/作为预防,ADV
-استئناسا,for guidance/orientation,供参考/作为指引,ADV
+استطرادا,by way of digression,顺带一提,ADV
+استدراكا,by way of rectification,作为更正,ADV
+تبعا,accordingly,因此,ADV
+عطفا,further to,根据,ADV
+تأسيسا,building upon,基于,ADV
+عملا,pursuant to,依照,ADV
+اقتداء,following the example,效法,NOUN
+أسوة,after the example,效法,NOUN
+قياسا,by analogy,以此类推,ADV
+احترازا,as a precaution,以防万一,ADV
+استئناسا,for guidance,供参考,ADV
 تزامنا,simultaneously with,同时,ADV
-توازيا,in parallel with,与此同时/平行地,ADV
-آنئذ,at that time,当时/那时,ADV
-وقتئذ,at that time,当时/那时,ADV
-عندئذ,thereupon,那时/于是,ADV
+توازيا,in parallel,与此同时,ADV
+آنئذ,at that time,当时,ADV
+وقتئذ,at that time,当时,ADV
+عندئذ,thereupon,于是,ADV
 يومئذ,on that day,在那天,ADV
-حينذاك,at that time,当时/那时,ADV
-وقتذاك,in those days,在那些日子/当时,ADV
-بعدئذ,afterwards,此后/然后,ADV
-هنيهة,brief moment,片刻/瞬间,NOUN
-برهة,short while,片刻/短时间,NOUN
-ردح,long stretch of time,很长一段时间,NOUN
-أمد,span/duration,期限/持续时间,NOUN
-دهر,eon/age,时代/长久,NOUN
-أزل,pre-eternity,无始/永恒之前,NOUN
-أبد,eternity,永恒/永远,NOUN
-عدم,nothingness/nonexistence,虚无/不存在,NOUN
+حينذاك,at that time,当时,ADV
+وقتذاك,in those days,在那些日子,ADV
+بعدئذ,afterwards,此后,ADV
+هنيهة,brief moment,片刻,NOUN
+برهة,short while,片刻,NOUN
+ردح,long period of time,很长一段时间,NOUN
+أمد,duration,持续时间,NOUN
+دهر,eon,时代,NOUN
+أزل,pre-eternity,永恒之初,NOUN
+أبد,eternity,永恒,NOUN
+عدم,nothingness,虚无,NOUN
 اختصارا,in short,简而言之,ADV
 استنتاجا,by inference,推论地,ADV
 افتراضا,hypothetically,假设地,ADV
-جدلا,for the sake of argument,姑且不论/为了争论,ADV
-تحسبا,in anticipation of,预期地/防备地,ADV
+جدلا,for the sake of argument,姑且不论,ADV
+تحسبا,in anticipation of,预期地,ADV
 استباقا,preemptively,先发制人地,ADV
-ضمنا,implicitly,含蓄地/默示地,ADV
-لزاما,necessarily/incumbent,必然地/必须地,ADV
-البتة,at all/absolutely,根本/绝对,ADV
-بتاتا,absolutely not,绝不/断然,ADV
-رتابة,monotony,单调/乏味,NOUN
-نمطية,stereotypy/routineness,刻板/老套,NOUN
+ضمنا,implicitly,含蓄地,ADV
+لزاما,necessarily,必然地,ADV
+البتة,at all,绝不,ADV
+بتاتا,absolutely not,断然不,ADV
+رتابة,monotony,单调,NOUN
+نمطية,stereotypy,刻板,NOUN
 ناموس,natural law,自然法则,NOUN
-سجايا,innate qualities,天性/禀赋,NOUN
-خصال,traits/qualities,特质/品德,NOUN
-طباع,temperament/dispositions,性情/脾气,NOUN
-خلق,character trait/creation,品德/创造,NOUN
-دخيلة,inner self,内心/隐秘思想,NOUN
-جوارح,limbs/faculties,肢体/器官,NOUN
-وجدانية,emotionality/lyricism,情感性/抒情性,NOUN
-عاطفية,emotionality,感性/情绪化,NOUN
+سجايا,innate qualities,天性,NOUN
+خصال,traits,品质,NOUN
+طباع,temperament,性情,NOUN
+خلق,character trait,道德,NOUN
+دخيلة,inner self,内心,NOUN
+جوارح,limbs,肢体,NOUN
+وجدانية,emotionality,情感性,NOUN
+عاطفية,emotionality,感性,NOUN
 رومانسي,romantic,浪漫的,ADJ
-حالم,dreamy/dreamer,爱做梦的/空想家,ADJ
-متيم,lovestruck,痴情的/迷恋的,ADJ
-مشبوب,ardent/blazing,炽热的/燃烧的,ADJ
-جياش,surging/effusive,汹涌的/激昂的,ADJ
-فياض,overflowing/exuberant,洋溢的/充沛的,ADJ
-متقد,ablaze/keen,燃烧的/敏锐的,ADJ
-متوقد,brilliantly keen,明亮的/敏锐的,ADJ
-منطفئ,extinguished/listless,熄灭的/无精打采的,ADJ
+حالم,dreamy,爱做梦的,ADJ
+متيم,lovestruck,痴情的,ADJ
+مشبوب,ardent,炽热的,ADJ
+جياش,surging,汹涌的,ADJ
+فياض,overflowing,洋溢的,ADJ
+متقد,keen,敏锐的,ADJ
+متوقد,brilliantly keen,明亮的,ADJ
+منطفئ,extinguished,熄灭的,ADJ
 مكلوم,wounded,受伤的,ADJ
 موجوع,pained,痛苦的,ADJ
 مفجوع,bereaved,丧亲的,ADJ
@@ -3802,7 +3802,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 طواعية,compliance,顺从,NOUN
 عذب,sweet,甜美的,ADJ
 شراسة,ferocity,凶猛,NOUN
-بأس,harm / strength / might,伤害 / 力量 / 严重性,NOUN
+بأس,might,严峻性,NOUN
 صلافة,insolence,傲慢,NOUN
 سفاهة,folly,愚妄,NOUN
 بذاءة,obscenity,污言秽语,NOUN
@@ -3853,7 +3853,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تبرك,seeking blessing,寻求赐福,NOUN
 كرامات,saintly miracles,圣徒奇迹,NOUN
 شيخة,folk singer,民间女歌手,NOUN
-كلّي,universal / total,全部的 / 普遍的,ADJ
+كلي,universal,普遍的,ADJ
 تأويل,hermeneutics,诠释,NOUN
 مقاربة,approach,探讨方式,NOUN
 محاكمة,trial,审判,NOUN
@@ -4124,7 +4124,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تعرف,to know,تعرف,VERB
 ٱنتخاب,election,ٱنتخاب,NOUN
 كلم,word,كلم,NOUN
-وبر,to soften,وبر,VERB
+وبر,down,绒毛,NOUN
 ركب,to ride,ركب,VERB
 مخطئ,wrong,مخطئ,ADJ
 ٱضطر,to be forced,ٱضطر,VERB
@@ -4136,7 +4136,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مدعو,invited,مدعو,ADJ
 بشري,human,بشري,ADJ
 غد,tomorrow,غد,NOUN
-بلوز,blouse,بلوز,NOUN
 ديموقراطي,democratic,ديموقراطي,ADJ
 تشاجر,to quarrel,تشاجر,VERB
 رغب,to desire,رغب,VERB
@@ -4148,9 +4147,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جسد,body,جسد,NOUN
 فوت,to miss,فوت,VERB
 ٱقتصادي,economic,ٱقتصادي,ADJ
-رأم,to ram,رأم,VERB
 بقشيش,tip,بقشيش,NOUN
-مار,mare,مار,NOUN
 دوام,attendance,دوام,NOUN
 سدد,to pay,سدد,VERB
 مسؤول,official,مسؤول,NOUN
@@ -4183,7 +4180,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مواصلة,continuation,مواصلة,NOUN
 سعى,to strive,سعى,VERB
 إطفاء,extinguishing,إطفاء,NOUN
-روع,to terrify,روع,VERB
+روع,to terrify,吓唬,VERB
 رويد,slowly,رويد,ADV
 مرء,person,مرء,NOUN
 فشار,popcorn,فشار,ADJ
@@ -4201,7 +4198,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 داين,to lend,داين,VERB
 ذراع,arm,ذراع,NOUN
 فكاهي,comic,فكاهي,ADJ
-وكيل,agent,وكيل,NOUN
+وكيل,agent,代理人,NOUN
 ٱغتصب,to rape,ٱغتصب,VERB
 ٱكتسب,to acquire,ٱكتسب,VERB
 ٱختيار,choice,ٱختيار,NOUN
@@ -4224,7 +4221,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مبحث,topic,مبحث,NOUN
 فيدرالي,federal,فيدرالي,ADJ
 صف,row,صف,NOUN
-وكس,to break,وكس,VERB
+وكس,to decrease,贬值,VERB
 وفى,to keep,وفى,VERB
 أغرب,strangest,أغرب,NOUN
 لكمة,punch,لكمة,NOUN
@@ -4247,4 +4244,4 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 وداع,farewell,وداع,NOUN
 قمار,gambling,قمار,NOUN
 أوان,time,أوان,NOUN
-دريس,lesson,دريس,NOUN
+دريس,hay,干草,NOUN

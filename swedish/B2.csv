@@ -1,9 +1,9 @@
 Swedish_Lemma,English_Lemma,Chinese_Lemma,POS
 avslöja,reveal,揭露,VERB
 avsnitt,episode,片段,NOUN
-avstängd,closed/disabled,关闭的/禁用的,ADJ
+avstängd,closed,关闭的,ADJ
 avundas,envy,羡慕,VERB
-avundsjuk,envious/jealous,嫉妒的,ADJ
+avundsjuk,envious,嫉妒的,ADJ
 avundsjuka,envy,嫉妒,NOUN
 bada,bathe,洗澡,VERB
 baksida,back(side),背面,NOUN
@@ -67,10 +67,10 @@ brygga,pier,码头,NOUN
 bränna,burn,燃烧,VERB
 bråk,quarrel,争吵,NOUN
 bråka,quarrel,争吵,VERB
-bröst,chest/breast,胸部/乳房,NOUN
-bud,message/errand,消息/差事,NOUN
-byrå,desk/chest of drawers,写字台/抽屉柜,NOUN
-byte,change/exchange,改变/交换,NOUN
+bröst,chest,胸部,NOUN
+bud,message,消息,NOUN
+byrå,desk,写字台,NOUN
+byte,change,改变,NOUN
 bög,gay,同性恋者,NOUN
 chock,shock,震惊,NOUN
 choklad,chocolate,巧克力,NOUN
@@ -92,21 +92,21 @@ dold,hidden,隐藏的,ADJ
 domare,judge,法官,NOUN
 domstol,court,法院,NOUN
 drag,feature,特征,NOUN
-driva,drive/herd,驱赶/推动,VERB
-drottning,queen,女王/王后,NOUN
+driva,drive,驱赶,VERB
+drottning,queen,女王,NOUN
 drömma,dream,做梦,VERB
 dubbel,double,双倍的,ADJ
 dussin,dozen,一打,NOUN
 dygn,day and night,昼夜,NOUN
-dyka,dive/appear,潜水/出现,VERB
-däck,deck/tire,甲板/轮胎,NOUN
+dyka,dive,潜水,VERB
+däck,deck,甲板,NOUN
 därborta,over there,在那里,ADV
 därinne,in there,在那里面,ADV
 därute,out there,在那外面,ADV
 dåre,fool,傻瓜,NOUN
 döende,dying,垂死的,ADJ
 dölja,hide,隐藏,VERB
-döma,judge/sentence,判决/评判,VERB
+döma,judge,判决,VERB
 efteråt,afterwards,之后,ADV
 egendom,property,财产,NOUN
 el,electricity,电,NOUN
@@ -155,22 +155,22 @@ franska,French,法语,NOUN
 frid,peace,和平,NOUN
 fruktansvärd,terrible,可怕的,ADJ
 främling,stranger,陌生人,NOUN
-främmande,foreign/strange,外国的/陌生的,ADJ
-full,full/drunk,满的/醉的,ADJ
+främmande,foreign,外国的,ADJ
+full,full,满的,ADJ
 fullkomligt,completely,完全地,ADV
 fullständigt,completely,完全地,ADV
-fundera,consider/think,考虑/思考,VERB
-funka,function/work,运作/起作用,VERB
+fundera,consider,考虑,VERB
+funka,function,运作,VERB
 fuska,cheat,作弊,VERB
 fy,yuck,呸,INTJ
 fylla,fill,填满,VERB
-fälla,trap/fell,困住/砍倒,VERB
-fält,field,田野/领域,NOUN
+fälla,trap,困住,VERB
+fält,field,田野,NOUN
 färdighet,skill,技能,NOUN
 fånge,prisoner,囚犯,NOUN
-föda,food/give birth,食物/生育,VERB
+föda,food,食物,VERB
 född,born,出生的,ADJ
-följande,following,以下的/接下来的,ADJ
+följande,following,以下的,ADJ
 följd,consequence,后果,NOUN
 förbannad,damned,该死的,ADJ
 förbanna,curse,诅咒,VERB
@@ -244,15 +244,15 @@ gubbe,old man,老头,NOUN
 gullig,cute,可爱的,ADJ
 guvernör,governor,州长,NOUN
 gäst,guest,客人,NOUN
-gård,farm/yard,农场,NOUN
+gård,farm,农场,NOUN
 göras,be done,被做,VERB
 haj,shark,鲨鱼,NOUN
 halvtimme,half hour,半小时,NOUN
 halvår,half-year,半年,NOUN
 hamna,end up,最终到达,VERB
 handduk,towel,毛巾,NOUN
-handla,shop/be about,购物,VERB
-handling,action/document,行动,NOUN
+handla,shop,购物,VERB
+handling,action,行动,NOUN
 handväska,handbag,手提包,NOUN
 hinna,have time,来得及,VERB
 hata,hate,恨,VERB
@@ -330,7 +330,7 @@ karta,map,地图,NOUN
 katastrof,disaster,灾难,NOUN
 kex,cracker,饼干,NOUN
 kissa,pee,小便,VERB
-kl.,o'clock,点钟,ADV
+kl,o'clock,点钟,ADV
 klaga,complain,抱怨,VERB
 klient,client,客户,NOUN
 klippa,cut,剪,VERB
@@ -388,19 +388,19 @@ käft,jaw,颌,NOUN
 källa,source,来源,NOUN
 källare,basement,地下室,NOUN
 känslig,sensitive,敏感的,ADJ
-kön,sex/gender,性别,NOUN
+kön,sex,性别,NOUN
 köp,purchase,购买,NOUN
 körkort,driver's license,驾照,NOUN
 labb,lab,实验室,NOUN
-ladda,load/charge,装载/充电,VERB
-lager,layer/storage,层/仓库,NOUN
+ladda,load,装载,VERB
+lager,layer,层,NOUN
 landa,land,降落,VERB
 lastbil,truck,卡车,NOUN
 led,joint,关节,NOUN
-ledig,free/off,空闲的/休假,ADJ
+ledig,free,空闲的,ADJ
 ledtråd,clue,线索,NOUN
 leende,smile,微笑,NOUN
-lek,play/game,游戏/玩耍,NOUN
+lek,play,游戏,NOUN
 len,soft,柔软的,ADJ
 licens,license,许可证,NOUN
 lida,suffer,受苦,VERB
@@ -605,7 +605,7 @@ rymma,escape,逃跑,VERB
 rymd,space,太空,NOUN
 ryska,Russian,俄语,NOUN
 ryss,Russian,俄罗斯人,NOUN
-räcka,reach/suffice,够用/伸手够,VERB
+räcka,reach,够用,VERB
 räknas,be counted,被算作,VERB
 rättegång,trial,审判,NOUN
 rättighet,right,权利,NOUN
@@ -622,9 +622,9 @@ samhälle,society,社会,NOUN
 samlas,gather,聚集,VERB
 samling,collection,收集,NOUN
 samvete,conscience,良心,NOUN
-satsa,bet/invest,下注/投资,VERB
-scen,scene/stage,场景/舞台,NOUN
-schysst,fair/decent,公平的/正派的,ADJ
+satsa,bet,下注,VERB
+scen,scene,场景,NOUN
+schysst,fair,公平的,ADJ
 seger,victory,胜利,NOUN
 sekreterare,secretary,秘书,NOUN
 seriös,serious,严肃的,ADJ
@@ -643,12 +643,12 @@ skaka,shake,摇晃,VERB
 skam,shame,羞耻,NOUN
 skära,cut,切,VERB
 skatt,tax,税,NOUN
-skilja,separate/divorce,分离/离婚,VERB
+skilja,separate,分离,VERB
 skilsmässa,divorce,离婚,NOUN
 skinna,shine,闪耀,VERB
-skinn,skin/hide,皮肤/皮革,NOUN
-skjuts,ride/lift,搭车,NOUN
-koj,fun/joke,乐趣/玩笑,NOUN
+skinn,skin,皮肤,NOUN
+skjuts,ride,搭车,NOUN
+koj,fun,乐趣,NOUN
 sko,shoe,鞋子,NOUN
 skrika,scream,尖叫,VERB
 skrik,scream,尖叫,NOUN
@@ -657,9 +657,9 @@ skrämma,scare,惊吓,VERB
 skrämmande,frightening,令人害怕的,ADJ
 skräp,rubbish,垃圾,NOUN
 skugga,shadow,阴影,NOUN
-skum,shady/suspicious,可疑的,ADJ
+skum,shady,可疑的,ADJ
 skylla,blame,责怪,VERB
-skälla,bark/scold,吠/责骂,VERB
+skälla,bark,吠,VERB
 skämmas,be ashamed,感到羞耻,VERB
 skämta,joke,开玩笑,VERB
 skådespelare,actor,演员,NOUN
@@ -687,7 +687,7 @@ sno,steal,偷,VERB
 snubbe,guy,家伙,NOUN
 snut,cop,警察,NOUN
 snygga,good-looking,好看的,ADJ
-snygging,good-looking person,帅哥/美女,NOUN
+snygging,good-looking person,帅哥,NOUN
 somna,fall asleep,入睡,VERB
 sorg,sorrow,悲伤,NOUN
 sorgligt,sadly,悲伤地,ADV
@@ -719,7 +719,7 @@ storlek,size,尺寸,NOUN
 straff,punishment,惩罚,NOUN
 strunt,nonsense,废话,NOUN
 strunta,not care,不在乎,VERB
-stryk,blow/beating,殴打,NOUN
+stryk,blow,殴打,NOUN
 stråla,radiate,发光,VERB
 strålande,radiant,辉煌的,ADJ
 ström,current,水流,NOUN
@@ -794,27 +794,27 @@ trivas,thrive,过得舒适,VERB
 tron,throne,王座,NOUN
 trubbel,trouble,麻烦,NOUN
 trycka,press,按,VERB
-trygg,safe/secure,安全的/可靠的,ADJ
+trygg,safe,安全的,ADJ
 trädgård,garden,花园,NOUN
-träff,meeting/hit,会面/击中,NOUN
-träna,train/exercise,训练/锻炼,VERB
+träff,meeting,会面,NOUN
+träna,train,训练,VERB
 träning,training,训练,NOUN
 tråd,thread,线,NOUN
-tröttna,tire/get tired,疲倦/厌烦,VERB
+tröttna,tire,疲倦,VERB
 tunga,tongue,舌头,NOUN
 tvekan,hesitation,犹豫,NOUN
 tvingas,be forced,被迫,VERB
 tvivel,doubt,怀疑,NOUN
 tvärtom,on the contrary,相反,ADV
-tvätt,laundry,洗涤/待洗衣物,NOUN
-ty,for/because,因为,CCONJ
-tyda,indicate/interpret,表明/解释,VERB
-tysk,German,德国的/德语的,ADJ
+tvätt,laundry,洗涤,NOUN
+ty,for,因为,CCONJ
+tyda,indicate,表明,VERB
+tysk,German,德国的,ADJ
 tyska,German,德语,NOUN
 tysk,German,德国人,NOUN
 tystnad,silence,沉默,NOUN
-täckmantel,cover/blanket,覆盖物,NOUN
-tända,light/ignite,点燃,VERB
+täckmantel,cover,覆盖物,NOUN
+tända,light,点燃,VERB
 tävling,competition,比赛,NOUN
 tåla,tolerate,忍受,VERB
 tålamod,patience,耐心,NOUN
@@ -891,10 +891,10 @@ växa,grow,生长,VERB
 våga,dare,敢于,VERB
 yngre,younger,较年轻的,ADJ
 yte,surface,表面,NOUN
-ytterligare,further/additional,进一步的/额外的,ADJ
+ytterligare,further,进一步的,ADJ
 ägare,owner,所有者,NOUN
 älskare,lover,情人,NOUN
-ämne,subject/topic,主题/话题,NOUN
+ämne,subject,主题,NOUN
 ängel,angel,天使,NOUN
 änka,widow,寡妇,NOUN
 äventyr,adventure,冒险,NOUN
@@ -1736,7 +1736,7 @@ problem,problem,问题,NOUN
 svårighet,difficulty,困难,NOUN
 hinder,obstacle,障碍,NOUN
 barriär,barrier,屏障,NOUN
-gräns,limit/border,界限,NOUN
+gräns,limit,界限,NOUN
 gränsdragning,demarcation,划界,NOUN
 ram,frame,框架,NOUN
 preferens,preference,偏好,NOUN
@@ -1859,287 +1859,4 @@ tillsägelse,rebuke,责备,NOUN
 tillrättavisning,reprimand,训斥,NOUN
 tilltal,address,称呼,NOUN
 odds,odds,赔率,NOUN
-dödlig,death,,NOUN
-22-årig,twenty-two-year-old,,NOUN
-6-årig,six-year-old,,NOUN
-anmärkning,remark,,NOUN
-badkläder,swimwear,,NOUN
-begravningsbyråum,funeral home,,NOUN
-berkeleytränare,Berkeley coach,,NOUN
-besöksförbud,visiting ban,,NOUN
-betygsätta,grade,,NOUN
-bevispås,evidence bag,,NOUN
-biidörr,side door,,NOUN
-bråsa,gust,,NOUN
-burgarställe,burger stand,,NOUN
-böda,shrine,,NOUN
-bönfölla,prayer trap,,NOUN
-bössa,gun,,NOUN
-dessvärd,dessert,,NOUN
-drälla,drizzle,,NOUN
-dröma,dream,,NOUN
-där.,there,,NOUN
-därjag,where I,,NOUN
-dåiig,bad,,NOUN
-dödad,killed,,NOUN
-döija,dying,,NOUN
-döra,door,,NOUN
-eidsvåda,Eidsvold,,NOUN
-eilerjägare,eider hunter,,NOUN
-eiljusspår,eider track,,NOUN
-elijusspår,eider track,,NOUN
-elitförband,elite unit,,NOUN
-engelsklärare,English teacher,,NOUN
-erkända,recognized,,NOUN
-examenskväll,exam evening,,NOUN
-farvälkyss,goodbye kiss,,NOUN
-fiäkt,fact,,NOUN
-fjäder,feather,,NOUN
-fjäsklöjna,fjeld cleft,,NOUN
-formulär,form,,NOUN
-formål,purpose,,NOUN
-fotbollslägr,football camp,,NOUN
-framförallt,above all,,NOUN
-fräschd,fresh,,NOUN
-födelseda,birthday,,NOUN
-föija,previous,,NOUN
-för-,pre,,NOUN
-förehavande,ongoing,,NOUN
-förföijd,corrupted,,NOUN
-förgiftad,poisoned,,NOUN
-förgå,perishing,,NOUN
-förla,loss,,NOUN
-förmån,benefit,,NOUN
-förny,renewal,,NOUN
-försök.,attempt,,NOUN
-förundersökning,preliminary investigation,,NOUN
-förutfattad,preconception,,NOUN
-förvisad,banishment,,NOUN
-förvägrad,denial,,NOUN
-förväntad,expectation,,NOUN
-föräldravänlig,parent-friendly,,NOUN
-förändrad,change,,NOUN
-fött,birth,,NOUN
-gasmätare,gas meter,,NOUN
-genomtänkt,thoroughness,,NOUN
-genväg.,shortcut,,NOUN
-gläba,gaping,,NOUN
-godkänn,approval,,NOUN
-gräsa,grazing,,NOUN
-gräta,crying,,NOUN
-gråd,greed,,NOUN
-grönklädd,green-clad,,NOUN
-gälia,grotto,,NOUN
-gästtestare,guest tester,,NOUN
-går,passing,,NOUN
-handväsk,handbag,,NOUN
-helknäpp,full stop,,NOUN
-hemväg,homeward,,NOUN
-heroinånga,heroin vapor,,NOUN
-hjäip,help,,NOUN
-hjält,hero,,NOUN
-hjärnaktivitet,brain activity,,NOUN
-hjärnskadad,brain damage,,NOUN
-hjärtlig,heartfelt,,NOUN
-häkta,arrest,,NOUN
-hämna,revenge,,NOUN
-hämtad,retrieval,,NOUN
-häng,hanging,,NOUN
-här-,here,,NOUN
-häromkväll,last evening,,NOUN
-häromår,last year,,NOUN
-hålia,cave,,NOUN
-hålja,hollow,,NOUN
-håll,hold,,NOUN
-hårdhandskare,stiff glove,,NOUN
-håv,dredge,,NOUN
-höet,hat,,NOUN
-höft,hip,,NOUN
-höjdpunkt,highlight,,NOUN
-höjdskräck,fear of heights,,NOUN
-iakttagelseförmåga,observation skill,,NOUN
-ihåg.,memory,,NOUN
-ijöga,eye,,NOUN
-inköp,purchase,,NOUN
-iägenhet,ownership,,NOUN
-iägga,anger,,NOUN
-iämna,intention,,NOUN
-iäta,eating,,NOUN
-iätt,eating,,NOUN
-iång,steam,,NOUN
-julgröt,Christmas porridge,,NOUN
-junior-tröja,junior jersey,,NOUN
-järklig,terribleness,,NOUN
-jätt,giant,,NOUN
-jättebr,goodness,,NOUN
-jättecool,coolness,,NOUN
-jätteglad,happiness,,NOUN
-jättegod,goodness,,NOUN
-jättegullig,sweetness,,NOUN
-jättekulma,fun,,NOUN
-jätteliten,smallness,,NOUN
-jättemycket,abundance,,NOUN
-jättenär,closeness,,NOUN
-jätterolig,funniness,,NOUN
-jättestor,bigness,,NOUN
-jättetrevlig,niceness,,NOUN
-jätteupptagen,busyness,,NOUN
-jätteviktig,importance,,NOUN
-jäven,terribleness,,NOUN
-jävlig,terribleness,,NOUN
-jävul,devil,,NOUN
-jösses.,goodness,,NOUN
-kartiägg,egg card,,NOUN
-knän,knee,,NOUN
-konstnärlig,artistry,,NOUN
-kräka,vomit,,NOUN
-krångla,tangle,,NOUN
-kväil,stupidity,,NOUN
-käk,snack,,NOUN
-känsla.,feeling,,NOUN
-känslan,feeling,,NOUN
-känslosam,emotion,,NOUN
-kära,dear,,NOUN
-kåre,care,,NOUN
-köpt,purchase,,NOUN
-landsväg,highway,,NOUN
-legoförband,legion unit,,NOUN
-ljushårig,fair hair,,NOUN
-ljusår,light-year,,NOUN
-ljög,lie,,NOUN
-lägg,lay,,NOUN
-läkarbesök,doctor visit,,NOUN
-läkarhjälp,medical help,,NOUN
-lär,learning,,NOUN
-lång.,long,,NOUN
-låttext,lyrics,,NOUN
-lönnmördarförband,wage murder unit,,NOUN
-mjölktand,milk tooth,,NOUN
-muskelvärk,muscle ache,,NOUN
-märkt,mark,,NOUN
-mån,moon,,NOUN
-möjiig,possibility,,NOUN
-mördad,murder,,NOUN
-mött,meeting,,NOUN
-nuiäge,something,,NOUN
-nyårsklänning,New Year dress,,NOUN
-nätdejtingprofil,online dating profile,,NOUN
-nån.,some,,NOUN
-nånsin,ever,,NOUN
-nånstans,somewhere,,NOUN
-nånting,something,,NOUN
-nåt.,something,,NOUN
-nördige,nerd,,NOUN
-oförlåtlig,unforgivable,,NOUN
-oförutsebar,unpredictable,,NOUN
-olåst,unlocked,,NOUN
-omskött,managed,,NOUN
-osäkrad,unsecured,,NOUN
-overlämna,handover,,NOUN
-patrulltjänst,patrol duty,,NOUN
-personbästa,personal best,,NOUN
-pojkvänn,boyfriend,,NOUN
-polisanmälda,police report,,NOUN
-poängsatt,score,,NOUN
-provköra,test drive,,NOUN
-provsköta,trial run,,NOUN
-prövning,trial,,NOUN
-på.,on,,NOUN
-påtänkt,intended,,NOUN
-rädd.,afraid,,NOUN
-saltök,salt shaker,,NOUN
-segelbåt,sailboat,,NOUN
-simträning,swim training,,NOUN
-siäkt,sought,,NOUN
-siänga,singing,,NOUN
-siäpp,soup,,NOUN
-siå,sea,,NOUN
-siår,wound,,NOUN
-självklar,self-evident,,NOUN
-självmordskandidat,suicide candidate,,NOUN
-självmordstank,suicidal thought,,NOUN
-sjätt,sixth,,NOUN
-skaligång,shedding,,NOUN
-skamkänsla,sense of shame,,NOUN
-skitstövel,bastard,,NOUN
-skittråkig,sadness,,NOUN
-skottsäker,bulletproof,,NOUN
-skäligen,reason,,NOUN
-skötsam,good behavior,,NOUN
-slutända,terminus,,NOUN
-släpp,release,,NOUN
-slöjd,handicraft,,NOUN
-smäil,smile,,NOUN
-smäla,smile,,NOUN
-smälla,slam,,NOUN
-smärtfri,painless,,NOUN
-smärtlindring,pain relief,,NOUN
-snutjävel,bastard,,NOUN
-snälia,snail,,NOUN
-solljuskänslighet,sun sensitivity,,NOUN
-spansklärare,span cleaner,,NOUN
-specialfönst,special window,,NOUN
-specialfönster,special window,,NOUN
-spräcka,crack,,NOUN
-sträck,stretch,,NOUN
-stäila,stroll,,NOUN
-ständig,constant,,NOUN
-stängsle,stake,,NOUN
-ståndtrop,status,,NOUN
-superdöd,super dead,,NOUN
-superhög,super high,,NOUN
-svårflörtad,difficult flirt,,NOUN
-sämt,conversation,,NOUN
-sängkaäd,bed,,NOUN
-så kallad,so-called,,ADJ
-såg,saw,,NOUN
-såhär,like this,,NOUN
-söm,sleep,,NOUN
-sömntablett,sleeping pill,,NOUN
-tillföra,supply,,NOUN
-tillsträck,sufficiency,,NOUN
-tillstå,confession,,NOUN
-tjänsteå,service year,,NOUN
-tränarjävel,trainer bastard,,NOUN
-träningsredskap,exercise equipment,,NOUN
-tröstande,comfort,,NOUN
-tändare,lighter,,NOUN
-tärnvä,tern path,,NOUN
-tävlingsjävul,competition bastard,,NOUN
-törst,thirst,,NOUN
-undermålig,substandard,,NOUN
-uppvärmning,warming,,NOUN
-utlösande,triggering,,NOUN
-utlösningsmekanism,trigger mechanism,,NOUN
-vattentäd,watertight,,NOUN
-vittneskyddstäckmantel,witness protection,,NOUN
-vräka,ejection,,NOUN
-vägbom,roadblock,,NOUN
-väi,path,,NOUN
-välkomne,welcome,,NOUN
-välkomstkommitt,welcome committee,,NOUN
-vänd,reversal,,NOUN
-vändplan,turntable,,NOUN
-vänne,friend,,NOUN
-vänner,friend,,NOUN
-väpnare,armorer,,NOUN
-värdesak,cause,,NOUN
-värid,world,,NOUN
-vårdhem,care home,,NOUN
-äckla,loathing,,NOUN
-äiskling,ice pick,,NOUN
-ämbetsdräkt,uniform,,NOUN
-äran,honor,,NOUN
-ärja,honor,,NOUN
-ärju,honor,,NOUN
-äventyrsvän,companion,,NOUN
-åkiagare,skater,,NOUN
-åkomma,arrival,,NOUN
-återställd,restoration,,NOUN
-återupprätta,restoration,,NOUN
-ögon,eye,,NOUN
-ögonlock,eyelid,,NOUN
-överfail,overfall,,NOUN
-övergiven,abandonment,,NOUN
-överlevd,survival,,NOUN
-överlägsen,superiority,,NOUN
+så kallad,so-called,所谓的,ADJ

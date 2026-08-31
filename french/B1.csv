@@ -97,9 +97,9 @@ batterie,battery,电池,NOUN
 bavard,talkative,健谈的,ADJ
 bavarder,to chat,聊天,VERB
 belge,Belgian,比利时的,ADJ
-belle-sœur,sister-in-law,嫂子/弟媳/大姑子/小姑子,NOUN
+belle-sœur,sister-in-law,嫂子,NOUN
 biais,bias,偏见,NOUN
-bien-être,well-being,幸福/安康,NOUN
+bien-être,well-being,幸福,NOUN
 bienvenue,welcome,欢迎,NOUN
 billet,ticket,票,NOUN
 bio,organic,有机的,ADJ
@@ -252,19 +252,19 @@ dirigeant,leader,领导者,NOUN
 disparaître,to disappear,消失,VERB
 disparition,disappearance,消失,NOUN
 disponible,available,可用的,ADJ
-disposer,to have at one's disposal,拥有/处置,VERB
-dispositif,device/system,装置/系统,NOUN
-disposition,arrangement,安排/布置,NOUN
-disque,disc,圆盘/唱片,NOUN
+disposer,to have at one's disposal,拥有,VERB
+dispositif,device,装置,NOUN
+disposition,arrangement,安排,NOUN
+disque,disc,唱片,NOUN
 diversité,diversity,多样性,NOUN
 dizaine,about ten,十来个,NOUN
 documentaire,documentary,纪录片,NOUN
 domotique,home automation,智能家居,NOUN
 donnée,data,数据,NOUN
 doublage,dubbing,配音,NOUN
-doublure,lining/understudy,衬里/替补,NOUN
+doublure,lining,衬里,NOUN
 doucement,gently,轻轻地,ADV
-drame,drama,悲剧/戏剧,NOUN
+drame,drama,戏剧,NOUN
 drogue,drug,毒品,NOUN
 durable,sustainable,可持续的,ADJ
 dynamique,dynamic,充满活力的,ADJ
@@ -279,7 +279,7 @@ décongeler,to defrost,解冻,VERB
 découvert,overdraft,透支,NOUN
 décret,decree,法令,NOUN
 décrire,to describe,描述,VERB
-défendre,to defend,防御/禁止,VERB
+défendre,to defend,防御,VERB
 défi,challenge,挑战,NOUN
 délai,time limit,期限,NOUN
 délavé,faded,褪色的,ADJ
@@ -346,36 +346,36 @@ favoriser,to favor,促进,VERB
 fermeture,closure,关闭,NOUN
 feuilleton,serial,连载小说,NOUN
 fiche,form,表格,NOUN
-fidèle,faithful/loyal,忠诚的,ADJ
+fidèle,faithful,忠诚的,ADJ
 fier,proud,骄傲的,ADJ
 fierté,pride,骄傲,NOUN
-file,line/queue,队伍,NOUN
-financement,financing/funding,融资,NOUN
-financer,to finance/to fund,资助,VERB
-fiscal,fiscal/tax,财政的,ADJ
+file,line,队列,NOUN
+financement,financing,融资,NOUN
+financer,to finance,资助,VERB
+fiscal,fiscal,财政的,ADJ
 fixe,fixed,固定的,ADJ
-fixer,to fix/to set,固定,VERB
+fixer,to fix,固定,VERB
 flotte,fleet,舰队,NOUN
 folie,madness,疯狂,NOUN
 fonctionnaire,civil servant,公务员,NOUN
-fonctionnement,functioning/operation,运作,NOUN
-fonctionner,to function/to work,运作,VERB
+fonctionnement,functioning,运作,NOUN
+fonctionner,to function,运作,VERB
 fondateur,founder,创始人,NOUN
 fondation,foundation,基金会,NOUN
 fonder,to found,建立,VERB
 forcer,to force,强迫,VERB
-former,to form/to train,培训,VERB
-fouet,whisk/whip,鞭子,NOUN
+former,to form,培训,VERB
+fouet,whisk,鞭子,NOUN
 foule,crowd,人群,NOUN
-fournir,to provide/to supply,提供,VERB
+fournir,to provide,提供,VERB
 fourrière,impound lot,扣押场,NOUN
-foyer,home/hearth,家,NOUN
+foyer,home,家,NOUN
 franc,frank,坦率的,ADJ
 frissonner,to shiver,颤抖,VERB
-froissé,wrinkled/crumpled,皱的,ADJ
-frontière,border/frontier,边界,NOUN
-fuite,leak/escape,泄漏,NOUN
-fusion,merger/fusion,合并,NOUN
+froissé,wrinkled,皱的,ADJ
+frontière,border,边界,NOUN
+fuite,leak,泄露,NOUN
+fusion,merger,合并,NOUN
 fédéral,federal,联邦的,ADJ
 féminin,feminine,女性的,ADJ
 gagnant,winner,获胜者,NOUN
@@ -438,7 +438,7 @@ interdiction,prohibition,禁止,NOUN
 intermédiaire,intermediary,中间人,NOUN
 interprétation,interpretation,解释,NOUN
 intervenir,to intervene,干预,VERB
-intituler,to title / to be titled,命名,VERB
+intituler,to title,命名,VERB
 intégration,integration,融合,NOUN
 intégrer,to integrate,整合,VERB
 inutile,useless,无用的,ADJ
@@ -557,35 +557,35 @@ nécessairement,necessarily,必然地,ADV
 nécessité,necessity,必要性,NOUN
 négligé,sloppy,邋遢的,ADJ
 négociation,negotiation,谈判,NOUN
-obligatoire,mandatory/compulsory,强制的/义务的,ADJ
-observer,to observe/to watch,观察/遵守,VERB
+obligatoire,mandatory,强制的,ADJ
+observer,to observe,观察,VERB
 océan,ocean,海洋,NOUN
 officiel,official,官方的,ADJ
 officiellement,officially,官方地,ADV
 officier,officer,军官,NOUN
-offre,offer,提议/报价,NOUN
+offre,offer,报价,NOUN
 olympique,Olympic,奥林匹克的,ADJ
-ombre,shadow/shade,阴影/阴凉处,NOUN
-opposer,to oppose,反对/对抗,VERB
+ombre,shadow,阴影,NOUN
+opposer,to oppose,反对,VERB
 optimisme,optimism,乐观,NOUN
 opéra,opera,歌剧,NOUN
-ordonnance,prescription,处方/法令,NOUN
-organisme,organization/body,机构/有机体,NOUN
-orientation,orientation/direction,方向/定位,NOUN
-ouvrage,work/book,著作/工程,NOUN
-ouvrier,worker/laborer,工人,NOUN
-paiement,payment,支付/付款,NOUN
+ordonnance,prescription,处方,NOUN
+organisme,organization,机构,NOUN
+orientation,orientation,方向,NOUN
+ouvrage,work,著作,NOUN
+ouvrier,worker,工人,NOUN
+paiement,payment,支付,NOUN
 paillasson,doormat,门垫,NOUN
-paquet,package/packet,包裹,NOUN
-paradis,paradise/heaven,天堂/乐园,NOUN
+paquet,package,包裹,NOUN
+paradis,paradise,天堂,NOUN
 parallèle,parallel,平行的,ADJ
-paraître,to appear/to seem,出现/显得,VERB
+paraître,to appear,出现,VERB
 parfumer,to perfume,给...加香料,VERB
 parisien,Parisian,巴黎的,ADJ
-parlementaire,parliamentary,议会的/议员,ADJ
-partenaire,partner,伙伴/搭档,NOUN
+parlementaire,parliamentary,议会的,ADJ
+partenaire,partner,搭档,NOUN
 partenariat,partnership,伙伴关系,NOUN
-partisan,supporter/advocate,支持者/拥护者,NOUN
+partisan,supporter,支持者,NOUN
 patronat,employers,雇主阶层,NOUN
 paume,palm,手掌,NOUN
 pause,break,休息,NOUN
@@ -618,13 +618,13 @@ ponctualité,punctuality,守时,NOUN
 portable,mobile phone,手机,NOUN
 porte-parole,spokesperson,发言人,NOUN
 potager,vegetable garden,菜园,NOUN
-pote,buddy/pal,哥们,NOUN
+pote,pal,哥们,NOUN
 potentiel,potential,潜力,NOUN
 potin,gossip,八卦,NOUN
 pourriel,spam,垃圾邮件,NOUN
-poursuite,pursuit/lawsuit,追求/诉讼,NOUN
-poursuivre,to pursue/to continue,继续/起诉,VERB
-pousser,to push/to grow,推/生长,VERB
+poursuite,pursuit,追求,NOUN
+poursuivre,to pursue,继续,VERB
+pousser,to push,推,VERB
 poète,poet,诗人,NOUN
 poésie,poetry,诗歌,NOUN
 pratiquement,practically,几乎,ADV
@@ -633,18 +633,18 @@ princesse,princess,公主,NOUN
 priorité,priority,优先权,NOUN
 prisonnier,prisoner,囚犯,NOUN
 prière,prayer,祈祷,NOUN
-probable,probable/likely,可能的,ADJ
+probable,probable,可能的,ADJ
 procureur,prosecutor,检察官,NOUN
-procédé,process/technique,工艺/方法,NOUN
+procédé,process,工艺,NOUN
 producteur,producer,生产者,NOUN
 professionnel,professional,专业的,ADJ
-profil,profile,概况/简介,NOUN
+profil,profile,简介,NOUN
 profond,deep,深的,ADJ
 profondeur,depth,深度,NOUN
-profondément,deeply/profoundly,深刻地,ADV
-programme,program,节目/程序,NOUN
+profondément,deeply,深刻地,ADV
+programme,program,节目,NOUN
 progrès,progress,进步,NOUN
-projet,project,项目/计划,NOUN
+projet,project,项目,NOUN
 promener,to walk,散步,VERB
 promesse,promise,承诺,NOUN
 promettre,to promise,承诺,VERB
@@ -652,7 +652,7 @@ prompt,quick,迅速的,ADJ
 pronom,pronoun,代词,NOUN
 proposer,to propose,提议,VERB
 proposition,proposal,提议,NOUN
-propre,own/clean,自己的/干净的,ADJ
+propre,own,自己的,ADJ
 propriétaire,owner,所有者,NOUN
 propriété,property,财产,NOUN
 prospère,prosperous,繁荣的,ADJ

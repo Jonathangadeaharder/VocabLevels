@@ -2,12 +2,12 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 一,one,一,NUM
 七,seven,七,NUM
 三,three,三,NUM
-上,up / above,上,ADP
+上,up,上,ADP
 上午,morning,上午,NOUN
 下,down,下,ADP
 下午,afternoon,下午,NOUN
 下雨,to rain,下雨,VERB
-不,no / not,不,ADV
+不,no,不,ADV
 不客气,you're welcome,不客气,INTJ
 东西,thing,东西,NOUN
 个,measure word (general),个,NUM
@@ -22,13 +22,13 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 人,person,人,NOUN
 什么,what,什么,PRON
 今天,today,今天,NOUN
-他,he / him,他,PRON
-会,can / to be able to,会,AUX
+他,he,他,PRON
+会,can,会,AUX
 住,to live,住,VERB
 你,you,你,PRON
-做,to do / to make,做,VERB
+做,to do,做,VERB
 儿子,son,儿子,NOUN
-先生,Mr. / sir,先生,NOUN
+先生,Mr.,先生,NOUN
 八,eight,八,NUM
 六,six,六,NUM
 再见,goodbye,再见,INTJ
@@ -70,34 +70,34 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 女儿,daughter,女儿,NOUN
 她,she,她,PRON
 好,good,好,ADJ
-妈妈,mom / mother,妈妈,NOUN
-字,character / word,字,NOUN
-学习,to study / to learn,学习,VERB
+妈妈,mom,妈妈,NOUN
+字,character,字,NOUN
+学习,to study,学习,VERB
 学校,school,学校,NOUN
 学生,student,学生,NOUN
-家,home / family,家,NOUN
+家,home,家,NOUN
 对不起,sorry,对不起,INTJ
 小,small,小,ADJ
 小姐,miss,小姐,NOUN
 少,few,少,ADJ
 岁,year (of age),岁,NOUN
-工作,work / to work,工作,NOUN
+工作,work,工作,NOUN
 年,year,年,NOUN
 开,to open,开,VERB
 很,very,很,ADV
 怎么,how,怎么,PRON
 怎么样,how about,怎么样,PRON
-想,to think / to want,想,VERB
+想,to think,想,VERB
 我,I,我,PRON
 我们,we,我们,PRON
 打电话,to make a phone call,打电话,VERB
-日,day / sun,日,NOUN
+日,day,日,NOUN
 时候,time,时候,NOUN
 明天,tomorrow,明天,NOUN
 星期,week,星期,NOUN
 昨天,yesterday,昨天,NOUN
 是,to be,是,VERB
-月,month / moon,月,NOUN
+月,month,月,NOUN
 有,to have,有,VERB
 朋友,friend,朋友,NOUN
 本,measure word for books,本,NUM
@@ -115,7 +115,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 点,o'clock,点,NOUN
 热,hot,热,ADJ
 爱,to love,爱,VERB
-爸爸,dad / father,爸爸,NOUN
+爸爸,dad,爸爸,NOUN
 狗,dog,狗,NOUN
 猫,cat,猫,NOUN
 现在,now,现在,ADV
@@ -123,26 +123,26 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 电脑,computer,电脑,NOUN
 电视,television,电视,NOUN
 的,possessive particle,的,PART
-看,to look / to see / to read,看,VERB
+看,to look,看,VERB
 看见,to see,看见,VERB
 睡觉,to sleep,睡觉,VERB
 米饭,cooked rice,米饭,NOUN
 老师,teacher,老师,NOUN
-能,can / to be able to,能,AUX
+能,can,能,AUX
 苹果,apple,苹果,NOUN
 茶,tea,茶,NOUN
-菜,food / dish,菜,NOUN
+菜,food,菜,NOUN
 衣服,clothes,衣服,NOUN
-认识,to know / to recognize,认识,VERB
+认识,to know,认识,VERB
 说话,to speak,说话,VERB
-请,please / to invite,请,VERB
+请,please,请,VERB
 读,to read,读,VERB
 谁,who,谁,PRON
 谢谢,thank you,谢谢,INTJ
 这,this,这,PRON
 那,that,那,PRON
 都,all,都,ADV
-里,inside / in,里,NOUN
+里,inside,里,NOUN
 钱,money,钱,NOUN
 零,zero,零,NUM
 飞机,airplane,飞机,NOUN
@@ -152,12 +152,12 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 丈夫,husband,丈夫,NOUN
 上班,to go to work,上班,VERB
 两,two,两,NUM
-为,for / to,为,ADP
-也,also / too,也,ADV
-事情,matter / affair,事情,NOUN
+为,for,为,ADP
+也,also,也,ADV
+事情,matter,事情,NOUN
 介绍,to introduce,介绍,VERB
 从,from,从,ADP
-件,measure word (events / items),件,NOUN
+件,measure word,件,NOUN
 休息,to rest,休息,VERB
 但是,but,但是,CCONJ
 便宜,cheap,便宜,ADJ
@@ -169,26 +169,26 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 准备,to prepare,准备,VERB
 出,to go out,出,VERB
 别,do not,别,ADV
-到,to arrive / to,到,VERB
+到,to arrive,到,VERB
 千,thousand,千,NUM
 卖,to sell,卖,VERB
 去年,last year,去年,NOUN
-可以,can / may,可以,AUX
-可能,maybe / possible,可能,ADV
+可以,can,可以,AUX
+可能,maybe,可能,ADV
 右边,right side,右边,NOUN
-号,number / date,号,NOUN
+号,number,号,NOUN
 向,toward,向,ADP
 吧,modal particle (suggestion),吧,PART
 告诉,to tell,告诉,VERB
 咖啡,coffee,咖啡,NOUN
 哥哥,older brother,哥哥,NOUN
 唱歌,to sing,唱歌,VERB
-回答,to answer / reply,回答,VERB
+回答,to answer,回答,VERB
 因为,because,因为,SCONJ
 外,outside,外,NOUN
 大家,everyone,大家,PRON
 女人,woman,女人,NOUN
-好吃,tasty / delicious,好吃,ADJ
+好吃,tasty,好吃,ADJ
 妹妹,younger sister,妹妹,NOUN
 妻子,wife,妻子,NOUN
 姐姐,older sister,姐姐,NOUN
@@ -197,17 +197,17 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 它,it,它,PRON
 完,to finish,完,VERB
 小时,hour,小时,NOUN
-就,then / just,就,ADV
+就,then,就,ADV
 左边,left side,左边,NOUN
 已经,already,已经,ADV
-希望,to hope / to wish,希望,VERB
-帮助,to help / assistance,帮助,VERB
-开始,to begin / to start,开始,VERB
+希望,to hope,希望,VERB
+帮助,to help,帮助,VERB
+开始,to begin,开始,VERB
 弟弟,younger brother,弟弟,NOUN
 张,measure word (flat objects),张,NOUN
 得,structural particle (after verb),得,PART
 忙,busy,忙,ADJ
-快,fast / quick,快,ADJ
+快,fast,快,ADJ
 快乐,happy,快乐,ADJ
 您,you (polite),您,PRON
 意思,meaning,意思,NOUN
@@ -217,24 +217,24 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 所以,therefore,所以,SCONJ
 手机,cell phone,手机,NOUN
 手表,watch,手表,NOUN
-找,to look for / to find,找,VERB
+找,to look for,找,VERB
 报纸,newspaper,报纸,NOUN
 教室,classroom,教室,NOUN
 新,new,新,ADJ
-旁边,beside / next to,旁边,NOUN
-旅游,to travel / trip,旅游,VERB
+旁边,beside,旁边,NOUN
+旅游,to travel,旅游,VERB
 早上,morning,早上,NOUN
 时间,time,时间,NOUN
-晚上,evening / night,晚上,NOUN
+晚上,evening,晚上,NOUN
 晴,clear (weather),晴,ADJ
 最,most,最,ADV
-服务员,waiter / attendant,服务员,NOUN
+服务员,waiter,服务员,NOUN
 机场,airport,机场,NOUN
-次,time / occurrence (measure word),次,NOUN
+次,time,次,NOUN
 欢迎,to welcome,欢迎,VERB
 正在,in the middle of (doing),正在,ADV
-每,each / every,每,DET
-比,compared to / than,比,ADP
+每,each,每,DET
+比,compared to,比,ADP
 洗,to wash,洗,VERB
 游泳,to swim,游泳,VERB
 牛奶,milk,牛奶,NOUN
@@ -244,45 +244,45 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 男人,man,男人,NOUN
 白,white,白,ADJ
 百,hundred,百,NUM
-真,really / true,真,ADV
+真,really,真,ADV
 眼睛,eye,眼睛,NOUN
 着,aspect particle (action in progress),着,PART
 知道,to know,知道,VERB
 票,ticket,票,NOUN
-离,from / away from,离,ADP
-穿,to wear / to put on,穿,VERB
-笑,to laugh / smile,笑,VERB
+离,from,离,ADP
+穿,to wear,穿,VERB
+笑,to laugh,笑,VERB
 第一,first,第一,ADJ
 累,tired,累,ADJ
 红,red,红,ADJ
 给,to give,给,VERB
 羊肉,mutton,羊肉,NOUN
-考试,exam / to take an exam,考试,NOUN
+考试,exam,考试,NOUN
 自行车,bicycle,自行车,NOUN
 船,boat,船,NOUN
 药,medicine,药,NOUN
 西瓜,watermelon,西瓜,NOUN
-要,to want / to need / will,要,VERB
-觉得,to feel / to think,觉得,VERB
-让,to let / to allow,让,VERB
-课,class / lesson,课,NOUN
+要,to want,要,VERB
+觉得,to feel,觉得,VERB
+让,to let,让,VERB
+课,class,课,NOUN
 贵,expensive,贵,ADJ
-走,to walk / to go,走,VERB
+走,to walk,走,VERB
 起床,to get up,起床,VERB
-跑步,to run / to jog,跑步,VERB
+跑步,to run,跑步,VERB
 路,road,路,NOUN
 跳舞,to dance,跳舞,VERB
 踢,to kick,踢,VERB
 身体,body,身体,NOUN
-运动,sports / exercise,运动,NOUN
+运动,sports,运动,NOUN
 近,near,近,ADJ
-还,still / also,还,ADV
-进,to enter / to advance,进,VERB
+还,still,还,ADV
+进,to enter,进,VERB
 远,far,远,ADJ
-送,to deliver / to give (as gift),送,VERB
-错,wrong / mistake,错,ADJ
+送,to deliver,送,VERB
+错,wrong,错,ADJ
 长,long,长,ADJ
-门,door / gate,门,NOUN
+门,door,门,NOUN
 问,to ask,问,VERB
 问题,question,问题,NOUN
 阴,overcast,阴,ADJ
@@ -600,17 +600,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 为何,why,为何,ADV
 如何,how,如何,ADV
 说,to say,说,VERB
-殿,hall,殿,PART
 皇子,prince,皇子,NOUN
-们,plural,们,PART
-绣,embroidery,绣,NOUN
 只,only,只,ADV
-歌,song,歌,PART
-锦,brocade,锦,PART
-这么,so,这么,ADV
 随,to follow,随,VERB
-何,what,何,PRON
-这儿,here,这儿,PRON
-我是,I am,我是,PRON
-付一笑,to smile,付一笑,VERB
 那你,then you,那你,PRON

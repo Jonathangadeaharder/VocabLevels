@@ -3,40 +3,40 @@ exempel,example,例子,NOUN
 fader,father,父亲,NOUN
 faktum,fact,事实,NOUN
 fantastisk,fantastic,极好的,ADJ
-farbror,uncle,叔叔 / 伯伯,NOUN
+farbror,uncle,叔叔,NOUN
 farfar,grandfather,祖父,NOUN
 farlig,dangerous,危险的,ADJ
 fart,speed,速度,NOUN
 farväl,farewell,告别,NOUN
-fatta,grasp/understand,理解 / 抓住,VERB
+fatta,understand,理解,VERB
 fest,party,派对,NOUN
 fiende,enemy,敌人,NOUN
-film,film/movie,电影,NOUN
+film,film,电影,NOUN
 fira,celebrate,庆祝,VERB
 flesta,most,大多数的,ADJ
-fly,flee/escape,逃跑,VERB
-framme,arrived/present,到了,ADV
+fly,flee,逃跑,VERB
+framme,arrived,到了,ADV
 framtid,future,未来,NOUN
 framåt,forward,向前,ADV
 fred,peace,和平,NOUN
 fri,free,自由的,ADJ
 frihet,freedom,自由,NOUN
-fröken,Miss/teacher,小姐/老师,NOUN
+fröken,Miss,小姐,NOUN
 fungera,function,运作,VERB
 fängelse,prison,监狱,NOUN
-färdig,ready/finished,准备好的/完成的,ADJ
+färdig,ready,准备好的,ADJ
 fånga,catch,抓住,VERB
 födas,be born,出生,VERB
 födelsedag,birthday,生日,NOUN
-föra,bring/lead,带来/引导,VERB
+föra,lead,引导,VERB
 föreslå,suggest,建议,VERB
 företag,company,公司,NOUN
 förlora,lose,失去,VERB
 förmodligen,probably,可能,ADV
-förr,before/previously,以前,ADV
+förr,before,以前,ADV
 förresten,by the way,顺便一提,ADV
 försiktig,careful,小心的,ADJ
-förslag,proposal/suggestion,建议,NOUN
+förslag,proposal,建议,NOUN
 förstås,of course,当然,ADV
 förstöra,destroy,破坏,VERB
 försvinna,disappear,消失,VERB
@@ -109,21 +109,21 @@ kusin,cousin,堂兄弟,NOUN
 kyrka,church,教堂,NOUN
 kyss,kiss,吻,NOUN
 kämpa,struggle,战斗,VERB
-känd,known/famous,著名的/熟悉的,ADJ
-känsla,feeling,感觉/情感,NOUN
-lag,law/team,法律/团队,NOUN
+känd,famous,著名的,ADJ
+känsla,feeling,感觉,NOUN
+lag,law,法律,NOUN
 le,to smile,微笑,VERB
-leda,to lead,领导/引导,VERB
+leda,to lead,领导,VERB
 ledare,leader,领导者,NOUN
 leka,to play,玩耍,VERB
-levande,alive/living,活着的,ADJ
+levande,living,活着,ADJ
 liknande,similar,相似的,ADJ
-liksom,like/as,如同/好像,ADV
+liksom,like,如同,ADV
 lista,list,列表,NOUN
 ljud,sound,声音,NOUN
 ljuga,lie,撒谎,VERB
 ljus,light,光,NOUN
-inte,not,不,ADV
+inte,not,不,PART
 lös,loose,松的,ADJ
 lov,leave,假期,NOUN
 lura,trick,欺骗,VERB
@@ -138,13 +138,11 @@ makt,power,权力,NOUN
 mark,ground,地面,NOUN
 massor,lots,大量,NOUN
 meddelande,message,消息,NOUN
-menade,meant,意思是,VERB
 mil,mile,英里,NOUN
 miljon,million,百万,NUM
 minne,memory,记忆,NOUN
 minst,least,最少,ADV
 minsta,smallest,最小的,ADJ
-missade,missed,错过,VERB
 mobil,mobile phone,手机,NOUN
 mormor,grandmother,外婆,NOUN
 musik,music,音乐,NOUN
@@ -172,7 +170,7 @@ ordna,arrange,安排,VERB
 ordning,order,秩序,NOUN
 orka,have strength,有力气,VERB
 pappa,dad,爸爸,NOUN
-passa,fit/suit,适合,VERB
+passa,fit,适合,VERB
 pistol,gun,手枪,NOUN
 plan,plane,飞机,NOUN
 plötsligt,suddenly,突然,ADV
@@ -192,19 +190,19 @@ rädsla,fear,恐惧,NOUN
 räkna,count,计算,VERB
 rätta,correct,纠正,VERB
 rätt,right,权利,NOUN
-röra,move/touch,移动/触摸,VERB
+röra,move,移动,VERB
 röst,voice,声音,NOUN
-sakna,miss,想念/缺少,VERB
+sakna,miss,想念,VERB
 saknas,be missing,缺少,VERB
 sakta,slowly,慢慢地,ADV
-samla,gather,聚集/收集,VERB
+samla,gather,聚集,VERB
 samman,together,一起,ADV
-sanning,truth,真相/事实,NOUN
+sanning,truth,真相,NOUN
 semester,vacation,假期,NOUN
-senast,latest,最迟/最近,ADV
+senast,latest,最迟,ADV
 sist,last,最后,ADV
 skadad,injured,受伤的,ADJ
-skaffa,get/acquire,获得/弄到,VERB
+skaffa,get,获得,VERB
 skapa,create,创造,VERB
 ske,happen,发生,VERB
 skepp,ship,船,NOUN
@@ -215,19 +213,19 @@ skål,bowl,碗,NOUN
 skön,nice,舒适的,ADJ
 sköta,manage,管理,VERB
 slappna,relax,放松,VERB
-släppa,release/let go,释放/放手,VERB
-snacka,talk/chat,聊天/谈论,VERB
-snygg,good-looking,漂亮的/英俊的,ADJ
+släppa,release,释放,VERB
+snacka,talk,聊天,VERB
+snygg,good-looking,漂亮的,ADJ
 soldat,soldier,士兵,NOUN
-sort,kind/sort,种类,NOUN
+sort,kind,种类,NOUN
 spark,kick,踢,NOUN
 speciell,special,特别的,ADJ
-spel,game/play,游戏/比赛,NOUN
+spel,game,游戏,NOUN
 springa,run,跑,VERB
 spännande,exciting,令人兴奋的,ADJ
-spår,track/trace,痕迹/轨道,NOUN
-sticka,leave/stick,离开/刺,VERB
-stackars,poor/wretched,可怜的,ADJ
+spår,track,痕迹,NOUN
+sticka,stick,刺,VERB
+stackars,poor,可怜的,ADJ
 stjäla,steal,偷,VERB
 starta,start,开始,VERB
 steg,step,步,NOUN
@@ -250,8 +248,6 @@ tidigt,early,早,ADV
 titt,look,看,NOUN
 tjena,hi,你好,INTJ
 tjäna,earn,赚,VERB
-tjänar,earn,赚,VERB
-toaletten,toilet,厕所,NOUN
 tokig,crazy,疯狂的,ADJ
 tredje,third,第三,ADJ
 trevlig,nice,友好的,ADJ
@@ -263,13 +259,9 @@ tuff,tough,艰难的,ADJ
 tusentals,thousands,数千,NUM
 tycka,think,认为,VERB
 tydligen,apparently,显然,ADV
-tänder,light,点燃,VERB
-tåget,train,火车,NOUN
 underbar,wonderful,极好的,ADJ
 underbart,wonderful,极好地,ADV
-undrade,wonder,想知道,VERB
 ung,young,年轻的,ADJ
-ungar,kids,孩子,NOUN
 unge,kid,孩子,NOUN
 ungefär,approximately,大约,ADV
 upptagen,busy,忙碌的,ADJ
@@ -279,9 +271,9 @@ vaken,awake,醒着的,ADJ
 van,accustomed,习惯的,ADJ
 vanlig,common,常见的,ADJ
 vinna,win,赢,VERB
-vara,be,是,AUX
+vara,be,是,VERB
 varenda,every,每一个,DET
-vilja,want,想要,AUX
+vilja,want,想要,VERB
 vems,whose,谁的,PRON
 vila,rest,休息,VERB
 vis,wise,明智的,ADJ
@@ -299,7 +291,6 @@ väska,bag,包,NOUN
 äntligen,finally,终于,ADV
 ärlig,honest,诚实的,ADJ
 ärligt,honestly,诚实地,ADV
-öppen,open,开放的,ADJ
 öppen,open,开放地,ADV
 överens,agree,一致,ADJ
 överraskning,surprise,惊喜,NOUN
@@ -315,7 +306,7 @@ amerikansk,American,美国的,ADJ
 andetag,breath,呼吸,NOUN
 annanstans,elsewhere,在别处,ADV
 antal,number,数量,NOUN
-apa,monkey/ape,猿/猴,NOUN
+apa,monkey,猴,NOUN
 arbetare,worker,工人,NOUN
 armband,bracelet,手镯,NOUN
 artikel,article,文章,NOUN
@@ -375,10 +366,10 @@ arg,angry,生气的,ADJ
 armbåge,elbow,肘,NOUN
 armé,army,军队,NOUN
 asiatisk,Asian,亚洲的,ADJ
-att,that/to,那/去,PART
+att,that,那,PART
 baka,bake,烤,VERB
 balkong,balcony,阳台,NOUN
-band,band/tape,带子,NOUN
+band,band,带子,NOUN
 bank,bank,银行,NOUN
 bankkort,bank card,银行卡,NOUN
 bankomat,ATM,自动取款机,NOUN
@@ -431,11 +422,11 @@ del,part,部分,NOUN
 dela,share,分享,VERB
 dels,partly,部分地,ADV
 dem,them,他们,PRON
-den,the/it,那个,DET
+den,the,那个,DET
 deras,their,他们的,DET
 detalj,detail,细节,NOUN
 detsamma,the same,同样,PRON
-det,the/it,那,DET
+det,the,那,DET
 effekt,effect,效果,NOUN
 effektiv,effective,有效的,ADJ
 egen,own,自己的,DET
@@ -467,7 +458,7 @@ espresso,espresso,浓缩咖啡,NOUN
 europeisk,European,欧洲的,ADJ
 Europa,Europe,欧洲,PROPN
 exakt,exact,精确的,ADJ
-examen,degree/exam,学位/考试,NOUN
+examen,degree,学位,NOUN
 exempelvis,for example,例如,ADV
 expert,expert,专家,NOUN
 extra,extra,额外的,ADJ
@@ -477,7 +468,7 @@ familj,family,家庭,NOUN
 familjeliv,family life,家庭生活,NOUN
 fantasi,fantasy,想象,NOUN
 fara,danger,危险,NOUN
-fast,firm/fixed,固定的,ADJ
+fast,firm,固定的,ADJ
 fastna,get stuck,卡住,VERB
 fattig,poor,贫穷的,ADJ
 fattigare,poorer,更穷的,ADJ
@@ -498,6 +489,6 @@ glad,happy,高兴的,ADJ
 glädje,joy,快乐,NOUN
 glasögon,glasses,眼镜,NOUN
 bubbla,bubble,气泡,NOUN
-skit,shit/crap,废话,NOUN
+skit,shit,废话,NOUN
 livs,life,生命,NOUN
-väldig,mighty/very,非常,ADJ
+väldig,very,非常,ADV

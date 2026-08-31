@@ -18,7 +18,6 @@ removed,en,B2,character,character,角色,NOUN,A2,character,性格,yes
 removed,en,B2,connection,connection,联系,NOUN,A2,connection,连接,yes
 removed,en,B2,contact,contact,联系人,NOUN,A2,contact,联系,yes
 removed,en,B1,cry,cry,哭泣,VERB,A2,cry,哭,yes
-removed,en,B2,cry,cry,哭喊,VERB,A2,cry,哭,yes
 removed,en,B2,duty,duty,职责,NOUN,A2,duty,责任,yes
 removed,en,B1,fan,fan,迷,NOUN,A2,fan,粉丝,yes
 removed,en,B2,field,field,领域,NOUN,A2,field,田野,yes
@@ -30,7 +29,6 @@ removed,en,B2,visit,visit,访问,VERB,A2,visit,参观,yes
 removed,en,C1,appointment,appointment,任命,NOUN,B1,appointment,预约,yes
 removed,en,B2,assure,assure,确保,VERB,B1,assure,保证,yes
 removed,en,B2,bleed,bleed,流血,VERB,B1,bleed,出血,yes
-removed,en,C1,bleed,bleed,流血,VERB,B1,bleed,出血,yes
 removed,en,B2,cow,cow,牛,NOUN,B1,cow,奶牛,yes
 removed,en,B2,demand,demand,要求,NOUN,B1,demand,需求,yes
 removed,en,B2,device,device,设备,NOUN,B1,device,装置,yes
@@ -41,23 +39,14 @@ removed,en,C1,annoy,annoy,使烦恼,VERB,B2,annoy,使恼怒,yes
 removed,en,C1,attach,attach,附上,VERB,B2,attach,附加,yes
 removed,en,C1,qualify,qualify,取得资格,VERB,B2,qualify,使合格,yes
 removed,nl,B1,leven,to live,生活,VERB,A1,to live,生活,same_gloss
-removed,nl,B2,leven,live,生活,VERB,A1,to live,生活,yes
-removed,nl,C1,leven,to live,生活 / 活,VERB,A1,to live,生活,yes
 removed,nl,A2,mogen,may,可以,AUX,A1,may,可以,same_gloss
-removed,nl,B2,mogen,to be allowed,可以,AUX,A1,may,可以,yes
-removed,nl,C1,mogen,to be allowed,可以,AUX,A1,may,可以,yes
 removed,nl,A2,vragen,ask,问,VERB,A1,to ask,问,yes
-removed,nl,C1,vragen,ask,问,VERB,A1,to ask,问,yes
 removed,nl,B2,enig,any,任何,ADJ,A1,only,唯一的,yes
 removed,nl,B2,eerder,earlier,更早的,ADV,A1,earlier,较早,yes
 removed,nl,B2,delen,to share,分享,VERB,A1,to share,分享,same_gloss
-removed,nl,C1,delen,share,分享,VERB,A1,to share,分享,yes
 removed,nl,B1,verenigen,unite,联合,VERB,A1,to unite,联合,yes
 removed,nl,B1,doden,to kill,杀死,VERB,A2,to kill,杀死,same_gloss
-removed,nl,C1,doden,kill,杀死,VERB,A2,to kill,杀死,yes
 removed,nl,B1,vormen,form,形成,VERB,A2,form,形成,same_gloss
-removed,nl,B2,vormen,form,形成,VERB,A2,form,形成,same_gloss
-removed,nl,C1,vormen,to form,形成,VERB,A2,form,形成,yes
 removed,nl,B2,jongere,younger person,年轻人,NOUN,A2,young person,年轻人,yes
 removed,nl,B2,verlaten,to leave,离开,VERB,A2,leave,离开,yes
 removed,nl,C1,kosten,to cost,花费,VERB,A2,cost,花费,yes
@@ -121,9 +110,7 @@ removed,en,B2,wish,wish,希望,VERB,A1,wish,希望,same_gloss
 removed,en,B2,world,world,世界,NOUN,A1,world,世界,same_gloss
 removed,en,B2,write,write,写,VERB,A1,write,写,same_gloss
 removed,en,B1,young,young,年轻的,ADJ,A1,young,年轻的,same_gloss
-removed,en,B1,answer,answer,回答,VERB,A1,answer,回答,same_gloss
 removed,en,B2,book,book,预订,VERB,A1,book,预订,same_gloss
-removed,en,B2,dream,dream,做梦,VERB,A1,dream,做梦,same_gloss
 removed,en,B1,accept,accept,接受,VERB,A2,accept,接受,same_gloss
 removed,en,C1,apartment,apartment,公寓,NOUN,A2,apartment,公寓,same_gloss
 removed,en,B2,bank,bank,银行,NOUN,A2,bank,银行,same_gloss
@@ -154,7 +141,6 @@ removed,en,C1,groan,groan,呻吟,VERB,A2,groan,呻吟,same_gloss
 removed,en,B1,horse,horse,马,NOUN,A2,horse,马,same_gloss
 removed,en,B2,island,island,岛屿,NOUN,A2,island,岛屿,same_gloss
 removed,en,B1,knock,knock,敲,VERB,A2,knock,敲,same_gloss
-removed,en,B2,knock,knock,敲,VERB,A2,knock,敲,same_gloss
 removed,en,B2,laugh,laugh,笑,VERB,A2,laugh,笑,same_gloss
 removed,en,B1,mountain,mountain,山,NOUN,A2,mountain,山,same_gloss
 removed,en,B2,noise,noise,噪音,NOUN,A2,noise,噪音,same_gloss
@@ -222,7 +208,6 @@ removed,en,B2,sin,sin,罪,NOUN,B1,sin,罪,same_gloss
 removed,en,B2,slave,slave,奴隶,NOUN,B1,slave,奴隶,same_gloss
 removed,en,B2,snake,snake,蛇,NOUN,B1,snake,蛇,same_gloss
 removed,en,B2,sob,sob,啜泣,VERB,B1,sob,啜泣,same_gloss
-removed,en,C1,sob,sob,啜泣,VERB,B1,sob,啜泣,same_gloss
 removed,en,B2,source,source,来源,NOUN,B1,source,来源,same_gloss
 removed,en,B2,stone,stone,石头,NOUN,B1,stone,石头,same_gloss
 removed,en,B2,stranger,stranger,陌生人,NOUN,B1,stranger,陌生人,same_gloss
@@ -275,7 +260,6 @@ removed,nl,B1,miljoen,million,百万,NUM,A1,million,百万,same_gloss
 removed,nl,B2,plaatsen,place,放置,VERB,A1,place,放置,same_gloss
 removed,nl,B2,nederlands,Dutch,荷兰语,NOUN,A2,Dutch,荷兰语,same_gloss
 removed,nl,B2,stemmen,to vote,投票,VERB,A2,to vote,投票,same_gloss
-removed,nl,C1,stemmen,to vote,投票,VERB,A2,to vote,投票,same_gloss
 removed,nl,B2,rijk,rich,富有的,ADJ,A2,rich,富有的,same_gloss
 removed,nl,B2,bedoelen,mean,意指,VERB,B1,mean,意指,same_gloss
 removed,nl,C1,inclusief,including,包括,ADP,B1,including,包括,same_gloss

@@ -105,26 +105,26 @@ compañía,company,公司,NOUN
 completamente,completely,完全地,ADV
 comportamiento,behavior,行为,NOUN
 comprar,to buy,买,VERB
-con,with,和/与,ADP
+con,with,和,ADP
 conductor,driver,司机,NOUN
 confiar,to trust,信任,VERB
 conmigo,with me,和我,PRON
-conocer,to know,认识/了解,VERB
+conocer,to know,认识,VERB
 conocido,acquaintance,熟人,NOUN
-conseguir,to get,得到/获得,VERB
-contacto,contact,联系/接触,NOUN
+conseguir,to get,得到,VERB
+contacto,contact,联系,NOUN
 contigo,with you,和你,PRON
-contra,against,反对/靠着,ADP
-corazón,heart,心脏/心,NOUN
+contra,against,反对,ADP
+corazón,heart,心脏,NOUN
 correcto,correct,正确的,ADJ
-cosa,thing,东西/事情,NOUN
+cosa,thing,东西,NOUN
 cualquier,any,任何,DET
 cuando,when,当...时,SCONJ
 cuarto,room,房间,NOUN
 cuatro,four,四,NUM
-cuenta,bill,账单/账户,NOUN
-cuidado,care,小心/照顾,NOUN
-culpa,fault,过错/责任,NOUN
+cuenta,bill,账单,NOUN
+cuidado,care,小心,NOUN
+culpa,fault,过错,NOUN
 cumpleaños,birthday,生日,NOUN
 cuál,which,哪个,PRON
 cuándo,when,何时,ADV
@@ -134,8 +134,8 @@ cómo,how,如何,ADV
 cómodo,comfortable,舒适的,ADJ
 dado,given,给定的,ADJ
 dar,to give,给,VERB
-daño,damage,损害/伤害,NOUN
-de,of,的/从,ADP
+daño,damage,损害,NOUN
+de,of,的,ADP
 decir,to say,说,VERB
 decisión,decision,决定,NOUN
 dejar,to leave,离开,VERB
@@ -171,7 +171,7 @@ dónde,where,哪里,ADV
 edad,age,年龄,NOUN
 edificio,building,建筑物,NOUN
 ejército,army,军队,NOUN
-el,the,这/那,DET
+el,the,这,DET
 ella,she,她,PRON
 ellas,they,她们,PRON
 ellos,they,他们,PRON
@@ -185,7 +185,6 @@ entonces,then,那么,ADV
 entrar,to enter,进入,VERB
 entre,between,在...之间,ADP
 equivocado,wrong,错误的,ADJ
-era,was,是,VERB
 esa,that,那,DET
 escuchar,to listen,听,VERB
 ese,that,那,DET
@@ -228,14 +227,13 @@ grande,big,大的,ADJ
 grupo,group,组,NOUN
 guerra,war,战争,NOUN
 gusto,taste,味道,NOUN
-haber,to have (auxiliary),有,AUX
+haber,there is,有,VERB
 habitación,room,房间,NOUN
 hablar,to speak,说,VERB
-hacer,to do/make,做,VERB
+hacer,to do,做,VERB
 hacia,towards,朝向,ADP
 hambre,hunger,饥饿,NOUN
-hasta,until/up to,直到,ADP
-haber,there is/there are,有,VERB
+hasta,until,直到,ADP
 haz,beam,光束,NOUN
 hecho,fact,事实,NOUN
 hermana,sister,姐妹,NOUN
@@ -243,7 +241,7 @@ hermano,brother,兄弟,NOUN
 hermoso,beautiful,美丽,ADJ
 hija,daughter,女儿,NOUN
 hijo,son,儿子,NOUN
-historia,story/history,历史,NOUN
+historia,story,历史,NOUN
 hogar,home,家,NOUN
 hola,hello,你好,INTJ
 hombre,man,男人,NOUN
@@ -251,11 +249,11 @@ hora,hour,小时,NOUN
 hoy,today,今天,ADV
 humano,human,人类,ADJ
 idiota,idiot,白痴,NOUN
-igual,equal/same,相同,ADJ
+igual,equal,相同,ADJ
 importante,important,重要,ADJ
 imposible,impossible,不可能,ADJ
 incluso,even,甚至,ADV
-increíble,incredible/amazing,难以置信,ADJ
+increíble,incredible,难以置信,ADJ
 información,information,信息,NOUN
 inteligente,intelligent,聪明,ADJ
 intento,attempt,尝试,NOUN
@@ -271,11 +269,11 @@ jugar,to play,玩,VERB
 juicio,trial,审判,NOUN
 junto,together,一起,ADV
 justo,fair,公平的,ADJ
-la,the,这/那,DET
+la,the,这,DET
 lado,side,边,NOUN
 largo,long,长的,ADJ
-las,the,这/那,DET
-le,him/her,他/她,PRON
+las,the,这,DET
+le,him,他,PRON
 lejos,far,远,ADV
 les,them,他们,PRON
 libertad,freedom,自由,NOUN
@@ -291,7 +289,7 @@ llevar,to carry,携带,VERB
 lo,it,它,PRON
 loco,crazy,疯狂的,ADJ
 locura,madness,疯狂,NOUN
-los,the,这/那,DET
+los,the,这,DET
 luego,later,后来,ADV
 luz,light,光,NOUN
 línea,line,线,NOUN
@@ -599,7 +597,7 @@ sopa,soup,汤,NOUN
 silla,chair,椅子,NOUN
 ojo,eye,眼睛,NOUN
 rojo,red,红色,ADJ
-no,no,不/没有,ADV
+no,no,不,ADV
 del,of the,的,ADP
 febrero,February,二月,NOUN
 buen,good,好的,ADJ

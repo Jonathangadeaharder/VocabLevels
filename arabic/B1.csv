@@ -57,7 +57,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ممثلة,actress,女演员,NOUN
 مغني,singer,歌手,NOUN
 أغنية,song,歌曲,NOUN
-حفلة,party/concert,派对/音乐会,NOUN
+حفلة,party,派对,NOUN
 مسرح,theater,剧院,NOUN
 مسرحية,stage play,舞台剧,NOUN
 رواية,novel,小说,NOUN
@@ -658,7 +658,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أرضع,to breastfeed,母乳喂养,VERB
 أفطم,to wean,断奶,VERB
 قبلة,kiss,吻,NOUN
-صراخ,crying/shouting,叫喊,NOUN
+صراخ,crying,叫喊,NOUN
 أهدهد,to lull a baby,哄婴儿,VERB
 هودج,palanquin,轿子,NOUN
 شيخات,traditional female singers,传统女歌手,NOUN
@@ -735,7 +735,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قبض,to grab,抓住,VERB
 أمسك,to catch,抓住,VERB
 كوّم,to pile up,堆积,VERB
-قضى,to spend (time) / to judge / to fulfill,度过 / 判决 / 完成,VERB
+قضى,to spend time,度过,VERB
 استلم,to receive payment,领取工资,VERB
 رخى,to loosen,放松,VERB
 اشتهى,to crave,渴望,VERB
@@ -805,10 +805,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بسيط,simple,简单的,ADJ
 مهم,important,重要的,ADJ
 ثانوي,secondary,次要的,ADJ
-أساسي,basic/essential,基本的,ADJ
+أساسي,basic,基本的,ADJ
 رئيسي,main,主要的,ADJ
 عام,general,一般的,ADJ
-مشترك,common/shared,共同的,ADJ
+مشترك,shared,共同的,ADJ
 مختلف,different,不同的,ADJ
 متشابه,similar,相似的,ADJ
 متساوي,equal,平等的,ADJ
@@ -888,7 +888,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 منجم,mine,矿,NOUN
 محجر,quarry,采石场,NOUN
 بئر,well,井,NOUN
-عين,spring/eye,泉,NOUN
+عين,spring,泉,NOUN
 نبع,spring,泉水,NOUN
 مجرى,watercourse,河道,NOUN
 خليج,bay,海湾,NOUN
@@ -1103,10 +1103,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كلب,dog,كلب,NOUN
 كف,to refrain,كف,VERB
 دوم,eternity,دوم,NOUN
-سات,sat,سات,NOUN
 أقلق,to worry,أقلق,VERB
 أثار,to stir,أثار,VERB
-وشك,Wushk,وشك,NOUN
+وشك,imminence,临近,NOUN
 ود,to wish,ود,VERB
 جزل,abundance,جزل,NOUN
 أيها,O,أيها,PART

@@ -537,7 +537,7 @@ expeditie,expedition,探险,NOUN
 familielid,relative,亲属,NOUN
 blokkeren,to block,封锁,VERB
 confronteren,to confront,面对,VERB
-gepaard,paired / accompanied,成对的 / 伴随的,ADJ
+gepaard,paired,成对的,ADJ
 gewas,crop,农作物,NOUN
 gewoonte,habit,习惯,NOUN
 handhaven,to enforce,执行,VERB
@@ -700,7 +700,7 @@ aanmerking,consideration,考虑,NOUN
 aansluiten,to connect,连接,VERB
 begraafplaats,cemetery,墓地,NOUN
 beheerder,administrator,管理员,NOUN
-belasten,to tax / to burden,征税,VERB
+belasten,to tax,征税,VERB
 beschouwen,to consider,认为,VERB
 bewind,reign,统治,NOUN
 bijstand,assistance,援助,NOUN
@@ -1646,7 +1646,7 @@ welterusten,good night,晚安,INTJ
 winnend,winning,获胜的,ADJ
 woud,forest,森林,NOUN
 zalm,salmon,鲑鱼,NOUN
-aanvoeren,to lead / to put forward,率领 / 提出,VERB
+aanvoeren,to lead,率领,VERB
 aankondiging,announcement,公告,NOUN
 achtervolging,pursuit,追逐,NOUN
 achttien,eighteen,十八,NUM
@@ -2005,7 +2005,7 @@ brusselse,Brussels,布鲁塞尔的,ADJ
 collecties,collectie,收藏,NOUN
 comfortabel,comfortable,舒适的,ADJ
 compilatie,compilation,汇编,NOUN
-contract,contract,合同 / 契约,NOUN
+contract,contract,合同,NOUN
 demonstreren,to demonstrate,示威,VERB
 duik,dive,潜水,NOUN
 elektronisch,electronic,电子的,ADJ
@@ -2147,7 +2147,7 @@ gesticuleren,to gesticulate,做手势,VERB
 globaliseren,to globalize,全球化,VERB
 graveren,to engrave,雕刻,VERB
 hospitaliseren,to hospitalize,住院,VERB
-idealisern,to idealize,理想化,VERB
+idealiseren,to idealize,理想化,VERB
 illustreren,to illustrate,说明,VERB
 imagineren,to imagine,想象,VERB
 immigreren,to immigrate,移入,VERB
@@ -3260,7 +3260,7 @@ betamelijk,proper,得体的,ADJ
 betwistbaar,contestable,可争议的,ADJ
 bevangen,entranced,痴迷的,ADJ
 bevestigbaar,verifiable,可验证的,ADJ
-betrouwbaarheids... betrouwenswaardig,trustworthy,值得信任的,ADJ
+betrouwenswaardig,trustworthy,值得信任的,ADJ
 betwist,disputed,有争议的,ADJ
 bevooroordeeld,prejudiced,有偏见的,ADJ
 bevochten,contested,受争夺的,ADJ
@@ -3271,7 +3271,6 @@ bewijsbaar,provable,可证明的,ADJ
 bewoond,inhabited,有人居住的,ADJ
 betoverend,entrancing,迷人的,ADJ
 betrekkelijk,relative,相对的,ADJ
-betrouwenswaardig,trustworthy,值得信任的,ADJ
 bezienswaardig,worth seeing,值得一看的,ADJ
 bezittig,possessive,占有欲强的,ADJ
 bezondig,guilty,有过错的,ADJ
@@ -3443,7 +3442,7 @@ liploos,lipless,无唇的,ADJ
 liquide,liquid,液态的,ADJ
 liturgisch,liturgical,礼拜仪式的,ADJ
 lokaal,local,本地的,ADJ
-lokatie... locatie,location,地点,NOUN
+locatie,location,地点,NOUN
 logisch,logical,合逻辑的,ADJ
 loos,empty,空的,ADJ
 losbandig,licentious,放荡的,ADJ
@@ -3546,7 +3545,7 @@ montant,steep,陡峭的,ADJ
 moraliserend,moralizing,说教的,ADJ
 moraalvast,rigidly moral,道德刻板的,ADJ
 moreelheid,morality,道德性,NOUN
-morfo... morfologisch,morphological,形态学的,ADJ
+morfologisch,morphological,形态学的,ADJ
 mortel,mortar,砂浆,NOUN
 moslim,moslem,穆斯林,NOUN
 motorisch,motor,运动的,ADJ
@@ -3554,7 +3553,7 @@ museumstuk,museum piece,博物馆藏品,NOUN
 mystiek,mysticism,神秘主义,NOUN
 mythisch,mythical,神话的,ADJ
 bovendimensionaal,transcendental,超维度的,ADJ
-normal,normal,正常的,ADJ
+normaal,normal,正常,ADJ
 volwaardig,full-fledged,完全的,ADJ
 schematisch,schematic,图解的,ADJ
 waterdicht,waterproof,防水的,ADJ
@@ -3581,7 +3580,7 @@ wereldwijd,worldwide,世界范围的,ADJ
 wettelijk,legal,法定的,ADJ
 wetteloos,lawless,无法的,ADJ
 wetenschappelijk,scientific,科学的,ADJ
-willens,enwetens,明知故犯地,ADV
+willens en wetens,knowingly and willingly,明知故犯地,ADV
 winddicht,windproof,挡风的,ADJ
 windstille,windless,无风的,ADJ
 wisselend,alternating,交替的,ADJ

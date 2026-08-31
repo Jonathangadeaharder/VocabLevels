@@ -175,19 +175,19 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كساد,stagnation,萧条,NOUN
 تقشف,austerity,紧缩,NOUN
 حصيلة,outcome,结果,NOUN
-مَحْصُول,harvest/crop,收成/作物,NOUN
+مَحْصُول,harvest,收成,NOUN
 بَنك,bank,银行,NOUN
 بَنكيّ,banking,银行业的,ADJ
 إيداع,deposit,存款,NOUN
 سحب,withdrawal,取款,NOUN
 تحويل,transfer,转账,NOUN
 تَسْبِق,advance payment,预付款,NOUN
-نِسْبَة,rate/percentage,比率/百分比,NOUN
+نِسْبَة,rate,比率,NOUN
 ضَمَان,guarantee,担保,NOUN
 كَفِيل,guarantor,担保人,NOUN
 كَفَالَة,sponsorship,担保,NOUN
 قِسْط,installment,分期付款,NOUN
-اسْتِحْقَاق,due date/maturity,到期日/到期,NOUN
+اسْتِحْقَاق,due date,到期日,NOUN
 عُمُولَة,commission,佣金,NOUN
 صَرَّاف,teller,出纳员,NOUN
 اعْتِمَاد,credit,信用,NOUN
@@ -460,7 +460,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فلتر,filter,过滤器,NOUN
 معالج,processor,处理器,NOUN
 علاقة,relationship,关系,NOUN
-خطيب,fiancé,未婚夫,NOUN
+خطيب,fiance,未婚夫,NOUN
 مهر,dowry,聘礼,NOUN
 مطلق,divorced,离异的,ADJ
 أرملة,widow,寡妇,NOUN
@@ -596,41 +596,41 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أشار,point out,指出,VERB
 لاحظ,observe,观察,VERB
 أضاف,add,补充,VERB
-بل,rather/on the contrary,而是/相反,CCONJ
-كل,all/entirely,所有/完全,DET
-مادام,as long as,只要/既然,SCONJ
-سياق,context,上下文/语境,NOUN
-جوهر,essence/core,本质/核心,NOUN
+بل,rather,而是,CCONJ
+كل,all,所有,DET
+مادام,as long as,只要,SCONJ
+سياق,context,上下文,NOUN
+جوهر,essence,本质,NOUN
 منطق,logic,逻辑,NOUN
 منطقي,logical,合乎逻辑的,ADJ
-أمانة,integrity/trustworthiness,诚实/正直,NOUN
-إخلاص,sincerity/devotion,真诚/忠诚,NOUN
-وفاء,loyalty/fidelity,忠诚/守信,NOUN
-إرادة,will/willpower,意志/决心,NOUN
+أمانة,integrity,诚实,NOUN
+إخلاص,sincerity,真诚,NOUN
+وفاء,loyalty,忠诚,NOUN
+إرادة,will,意志,NOUN
 عزيمة,determination,决心,NOUN
-إصرار,insistence/persistence,坚持/坚决,NOUN
-مثابرة,perseverance,毅力/勤勉,NOUN
+إصرار,insistence,坚持,NOUN
+مثابرة,perseverance,毅力,NOUN
 شجاعة,courage,勇气,NOUN
-جرأة,boldness/daring,大胆/勇敢,NOUN
+جرأة,boldness,大胆,NOUN
 كرم,generosity,慷慨,NOUN
 بخل,stinginess,吝啬,NOUN
 تواضع,humility,谦逊,NOUN
-غرور,arrogance/vanity,傲慢/虚荣,NOUN
-كبرياء,pride,骄傲/自豪,NOUN
+غرور,arrogance,傲慢,NOUN
+كبرياء,pride,骄傲,NOUN
 كرامة,dignity,尊严,NOUN
-شرف,honor,荣誉/光荣,NOUN
-عار,shame/disgrace,耻辱/羞耻,NOUN
-حياء,modesty/bashfulness,害羞/谦逊,NOUN
-وقاحة,insolence/rudeness,无礼/傲慢,NOUN
-لباقة,tact,圆滑/得体,NOUN
-لطف,kindness/gentleness,仁慈/温和,NOUN
-قسوة,cruelty/harshness,残酷/严厉,NOUN
-رحمة,mercy,仁慈/怜悯,NOUN
-شفقة,pity/compassion,怜悯/同情,NOUN
+شرف,honor,荣誉,NOUN
+عار,shame,耻辱,NOUN
+حياء,modesty,害羞,NOUN
+وقاحة,insolence,无礼,NOUN
+لباقة,tact,圆滑,NOUN
+لطف,kindness,仁慈,NOUN
+قسوة,cruelty,残酷,NOUN
+رحمة,mercy,仁慈,NOUN
+شفقة,pity,怜悯,NOUN
 حكمة,wisdom,智慧,NOUN
 غباء,stupidity,愚蠢,NOUN
-ذكاء,intelligence,智力/聪明,NOUN
-دهاء,cunning/shrewdness,狡猾/精明,NOUN
+ذكاء,intelligence,智力,NOUN
+دهاء,cunning,狡猾,NOUN
 مكر,slyness,狡诈,NOUN
 خداع,deception,欺骗,NOUN
 نفاق,hypocrisy,伪善,NOUN
@@ -892,13 +892,13 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ثورة,revolution,革命,NOUN
 معركة,battle,战役,NOUN
 أعيان,notables,名流,NOUN
-أثر,ruin/relic,遗迹,NOUN
-آثار,antiquities/ruins,文物,NOUN
+أثر,ruin,遗迹,NOUN
+آثار,antiquities,文物,NOUN
 مؤرخ,historian,历史学家,NOUN
 قرن,century,世纪,NOUN
-حقبة,period/epoch,时期,NOUN
+حقبة,period,时期,NOUN
 إيمان,faith,信仰,NOUN
-عقيدة,belief/creed,信条,NOUN
+عقيدة,belief,信条,NOUN
 مسجد,mosque,清真寺,NOUN
 مئذنة,minaret,宣礼塔,NOUN
 محراب,prayer niche,米哈拉布,NOUN
@@ -907,14 +907,14 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أذان,call to prayer,宣礼,NOUN
 صلاة,prayer,礼拜,NOUN
 وضوء,ablution,小净,NOUN
-زكاة,alms/zakat,天课,NOUN
+زكاة,alms,天课,NOUN
 حج,pilgrimage,朝觐,NOUN
 عمرة,minor pilgrimage,副朝,NOUN
 مولد,Prophet birthday,圣纪,NOUN
 قرآن,Quran,古兰经,NOUN
 سورة,chapter of Quran,苏拉,NOUN
 آية,verse of Quran,阿亚,NOUN
-حديث,hadith/prophetic saying,圣训,NOUN
+حديث,hadith,圣训,NOUN
 شريعة,Islamic law,沙里亚,NOUN
 حلال,permissible,合法的,ADJ
 حرام,forbidden,非法的,ADJ
@@ -1867,7 +1867,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جنى,harvest,收获,VERB
 حش,mow,割草,VERB
 ذَرَى,winnow,扬谷,VERB
-عَبَأَ,fill/pack,装满,VERB
+عَبَأَ,fill,装满,VERB
 شَنَقَ,hang,绞死,VERB
 خَنَقَ,strangle,勒死,VERB
 لَكَمَ,punch,猛击,VERB
@@ -1921,7 +1921,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 شامخ,towering,高耸的,ADJ
 واطي,lowly,卑微的,ADJ
 أحدب,hunchbacked,驼背的,ADJ
-روح,soul / spirit,灵魂 / 精神,NOUN
+روح,soul,灵魂,NOUN
 يُفترَض,to be assumed,被假设,VERB
 يُزعَم,to be alleged,被声称,VERB
 يُقال,to be said,据说,VERB

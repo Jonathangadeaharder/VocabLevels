@@ -1,6 +1,6 @@
 Swedish_Lemma,English_Lemma,Chinese_Lemma,POS
 avsnitt,episode,片段,NOUN
-avundsjuk,envious/jealous,嫉妒的,ADJ
+avundsjuk,envious,嫉妒的,ADJ
 befinna,be located,位于,VERB
 befria,liberate,解放,VERB
 begrava,bury,埋葬,VERB
@@ -13,7 +13,7 @@ beteende,behavior,行为,NOUN
 blodtryck,blood pressure,血压,NOUN
 blunda,close eyes,闭眼,VERB
 blödning,bleeding,出血,NOUN
-byrå,desk/chest of drawers,写字台/抽屉柜,NOUN
+byrå,desk,写字台,NOUN
 bög,gay,同性恋者,NOUN
 delta,participate,参加,VERB
 desperat,desperate,绝望的,ADJ
@@ -22,10 +22,10 @@ djävul,devil,魔鬼,NOUN
 dock,however,然而,ADV
 dold,hidden,隐藏的,ADJ
 domare,judge,法官,NOUN
-driva,drive/herd,驱赶/推动,VERB
+driva,drive,驱赶,VERB
 dussin,dozen,一打,NOUN
-dyka,dive/appear,潜水/出现,VERB
-döma,judge/sentence,判决/评判,VERB
+dyka,dive,潜水,VERB
+döma,judge,判决,VERB
 emellan,between,在...之间,ADP
 ende,only,唯一的,ADJ
 erbjuda,to offer,提供,VERB
@@ -37,11 +37,11 @@ forskare,researcher,研究员,NOUN
 forskning,research,研究,NOUN
 framgång,success,成功,NOUN
 fruktansvärd,terrible,可怕的,ADJ
-främmande,foreign/strange,外国的/陌生的,ADJ
+främmande,foreign,外国的,ADJ
 fuska,cheat,作弊,VERB
-fält,field,田野/领域,NOUN
+fält,field,田野,NOUN
 fånge,prisoner,囚犯,NOUN
-föda,food/give birth,食物/生育,VERB
+föda,food,食物,VERB
 följd,consequence,后果,NOUN
 förbannad,damned,该死的,ADJ
 förbjuda,forbid,禁止,VERB
@@ -65,7 +65,7 @@ grav,grave,坟墓,NOUN
 gripa,arrest,逮捕,VERB
 grym,cruel,残忍的,ADJ
 gråt,crying,哭泣,NOUN
-handling,action/document,行动,NOUN
+handling,action,行动,NOUN
 hittills,so far,到目前为止,ADV
 hopplös,hopeless,绝望的,ADJ
 hurså,why,为什么,ADV
@@ -110,8 +110,8 @@ kvarter,block,街区,NOUN
 käft,jaw,颌,NOUN
 källa,source,来源,NOUN
 känslig,sensitive,敏感的,ADJ
-kön,sex/gender,性别,NOUN
-lager,layer/storage,层/仓库,NOUN
+kön,sex,性别,NOUN
+lager,layer,层,NOUN
 ledtråd,clue,线索,NOUN
 licens,license,许可证,NOUN
 lida,suffer,受苦,VERB
@@ -189,8 +189,8 @@ samband,connection,联系,NOUN
 samhälle,society,社会,NOUN
 samlas,gather,聚集,VERB
 samling,collection,收集,NOUN
-satsa,bet/invest,下注/投资,VERB
-schysst,fair/decent,公平的/正派的,ADJ
+satsa,bet,下注,VERB
+schysst,fair,公平的,ADJ
 seger,victory,胜利,NOUN
 sekreterare,secretary,秘书,NOUN
 seriös,serious,严肃的,ADJ
@@ -199,16 +199,16 @@ sinne,mind,心智,NOUN
 sistone,recently,最近,ADV
 sjuka,the sick,病人,NOUN
 skatt,tax,税,NOUN
-skilja,separate/divorce,分离/离婚,VERB
+skilja,separate,分离,VERB
 skilsmässa,divorce,离婚,NOUN
-skinn,skin/hide,皮肤/皮革,NOUN
-skjuts,ride/lift,搭车,NOUN
+skinn,skin,皮肤,NOUN
+skjuts,ride,搭车,NOUN
 skrämma,scare,惊吓,VERB
 skrämmande,frightening,令人害怕的,ADJ
 skugga,shadow,阴影,NOUN
-skum,shady/suspicious,可疑的,ADJ
+skum,shady,可疑的,ADJ
 skylla,blame,责怪,VERB
-skälla,bark/scold,吠/责骂,VERB
+skälla,bark,吠,VERB
 skämmas,be ashamed,感到羞耻,VERB
 skådespelerska,actress,女演员,NOUN
 slav,slave,奴隶,NOUN
@@ -218,7 +218,7 @@ snett,diagonally,对角地,ADV
 sno,steal,偷,VERB
 snubbe,guy,家伙,NOUN
 snut,cop,警察,NOUN
-snygging,good-looking person,帅哥/美女,NOUN
+snygging,good-looking person,帅哥,NOUN
 sorg,sorrow,悲伤,NOUN
 sorgligt,sadly,悲伤地,ADV
 sparkad,fired,被解雇的,ADJ
@@ -268,9 +268,9 @@ tomt,plot,地块,NOUN
 ton,tone,语气,NOUN
 torn,tower,塔,NOUN
 trubbel,trouble,麻烦,NOUN
-träff,meeting/hit,会面/击中,NOUN
+träff,meeting,会面,NOUN
 tråd,thread,线,NOUN
-tröttna,tire/get tired,疲倦/厌烦,VERB
+tröttna,tire,疲倦,VERB
 tvingas,be forced,被迫,VERB
 tvärtom,on the contrary,相反,ADV
 tystnad,silence,沉默,NOUN
@@ -305,7 +305,7 @@ värde,value,价值,NOUN
 värdelös,worthless,无价值的,ADJ
 ägare,owner,所有者,NOUN
 älskare,lover,情人,NOUN
-ämne,subject/topic,主题/话题,NOUN
+ämne,subject,主题,NOUN
 ängel,angel,天使,NOUN
 äventyr,adventure,冒险,NOUN
 ångra,regret,后悔,VERB
@@ -491,48 +491,3 @@ journalist,journalist,记者,NOUN
 reporter,reporter,记者,NOUN
 rubrik,headline,标题,NOUN
 kritik,criticism,评论,NOUN
-dödlig,death,,NOUN
-där.,there,,NOUN
-dödad,killed,,NOUN
-fjäder,feather,,NOUN
-framförallt,above all,,NOUN
-förändrad,change,,NOUN
-fött,birth,,NOUN
-hemväg,homeward,,NOUN
-hämtad,retrieval,,NOUN
-häng,hanging,,NOUN
-höft,hip,,NOUN
-inköp,purchase,,NOUN
-julgröt,Christmas porridge,,NOUN
-jättecool,coolness,,NOUN
-jättegullig,sweetness,,NOUN
-jättenär,closeness,,NOUN
-jätteupptagen,busyness,,NOUN
-jävlig,terribleness,,NOUN
-käk,snack,,NOUN
-känsla.,feeling,,NOUN
-ljushårig,fair hair,,NOUN
-ljög,lie,,NOUN
-läkarbesök,doctor visit,,NOUN
-läkarhjälp,medical help,,NOUN
-lär,learning,,NOUN
-låttext,lyrics,,NOUN
-mjölktand,milk tooth,,NOUN
-märkt,mark,,NOUN
-mördad,murder,,NOUN
-nån.,some,,NOUN
-olåst,unlocked,,NOUN
-pojkvänn,boyfriend,,NOUN
-segelbåt,sailboat,,NOUN
-simträning,swim training,,NOUN
-självklar,self-evident,,NOUN
-släpp,release,,NOUN
-smälla,slam,,NOUN
-spansklärare,span cleaner,,NOUN
-sträck,stretch,,NOUN
-ständig,constant,,NOUN
-tändare,lighter,,NOUN
-törst,thirst,,NOUN
-vänd,reversal,,NOUN
-äran,honor,,NOUN
-ögonlock,eyelid,,NOUN

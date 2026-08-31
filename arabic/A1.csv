@@ -23,25 +23,25 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بعد,after,在...之后,ADP
 بعيد,far,远的,ADJ
 بقرة,cow,牛,NOUN
-بقى,stay/remain,停留/留下,VERB
+بقى,stay,停留,VERB
 بكري,early,早的,ADV
-بكى,cry/weep,哭,VERB
-بلاد,country/land,国家/土地,NOUN
+بكى,cry,哭,VERB
+بلاد,country,国家,NOUN
 موز,bananas,香蕉,NOUN
-بنت,girl/daughter,女孩/女儿,NOUN
+بنت,girl,女孩,NOUN
 بنفسجي,purple,紫色的,ADJ
-بنين,delicious/tasty,美味的,ADJ
+بنين,delicious,美味的,ADJ
 لمبة,lightbulb,灯泡,NOUN
 بيبي,baby,婴儿,NOUN
 بيت,house,房子,NOUN
 بين,between,在...之间,ADP
 تأشيرة,visa,签证,NOUN
-تاني,second/again,第二/又,ADJ
+تاني,second,第二,ADJ
 تحت,under,在...下,ADP
 تذكرة,ticket,票,NOUN
-تراب,dirt/soil,泥土,NOUN
+تراب,dirt,泥土,NOUN
 قطار,train,火车,NOUN
-تريكو,sweater/knitwear,毛衣,NOUN
+تريكو,sweater,毛衣,NOUN
 تسعة,nine,九,NUM
 تسعين,ninety,九十,NUM
 تفاح,apple,苹果,NOUN
@@ -189,18 +189,18 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سَحَاب,cloud,云,NOUN
 ساخن,hot,热的,ADJ
 سد,close,关闭,VERB
-سروال,pants/trousers,裤子,NOUN
-سريع,fast/quick,快的,ADJ
+سروال,pants,裤子,NOUN
+سريع,fast,快的,ADJ
 سطل,bucket,桶,NOUN
 سفارة,embassy,大使馆,NOUN
 سفر,travel,旅行,NOUN
 سكت,be quiet,安静,VERB
-ساكت,silent/quiet,安静的,ADJ
+ساكت,silent,安静的,ADJ
 سكر,sugar,糖,NOUN
-سلا,finish/end,结束,VERB
-سلاح,weapon/arms,武器,NOUN
-سلام,hello/peace,你好/和平,NOUN
-سلسلة,necklace/chain,项链/链,NOUN
+سلا,finish,结束,VERB
+سلاح,weapon,武器,NOUN
+سلام,hello,你好,NOUN
+سلسلة,necklace,项链,NOUN
 سلم,peace,和平,NOUN
 سماء,sky,天空,NOUN
 سمع,hear,听见,VERB
@@ -211,20 +211,20 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أسبوع,week,周,NOUN
 سينما,cinema,电影院,NOUN
 شاحن,charger,充电器,NOUN
-شال,scarf/shawl,围巾,NOUN
+شال,scarf,围巾,NOUN
 شتاء,winter,冬天,NOUN
 شجاع,brave,勇敢的,ADJ
 شجرة,tree,树,NOUN
 كم,how much,多少,PRON
-شد,hold/catch,抓住,VERB
+شد,hold,抓牢,VERB
 شرا,buy,购买,VERB
 شرب,drink,喝,VERB
 نافذة,window,窗户,NOUN
 كنس,sweep,打扫,VERB
 رقص,dance,跳舞,VERB
-شعب,people/nation,人民/民族,NOUN
+شعب,people,人民,NOUN
 شعر,hair,头发,NOUN
-أضاء,light up/turn on,点亮/打开,VERB
+أضاء,light up,点亮,VERB
 شكر,thank,感谢,VERB
 شكرا,thank you,谢谢,INTJ
 من,who,谁,PRON
@@ -238,15 +238,15 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 صابون,soap,肥皂,NOUN
 صاحب,friend (male),朋友 (男),NOUN
 صاحبة,friend (female),朋友 (女),NOUN
-كاف,enough/okay,足够/好的,ADJ
+كاف,enough,足够,ADJ
 صباح,morning,早晨,NOUN
 حذاء,shoes,鞋子,NOUN
 صبر,be patient,耐心,VERB
-إصبع,finger/toe,手指/脚趾,NOUN
-صبغ,paint/dye,涂/染,VERB
+إصبع,finger,手指,NOUN
+صبغ,paint,涂刷,VERB
 غسل,wash clothes,洗衣服,VERB
-صحيح,healthy/correct/strong,健康的/正确的/强壮的,ADJ
-صخرة,rock/cliff,岩石/悬崖,NOUN
+صحيح,healthy,健康的,ADJ
+صخرة,rock,岩石,NOUN
 صدر,chest,胸部,NOUN
 صرف,exchange (money),兑换,NOUN
 صعب,difficult,困难的,ADJ
@@ -266,12 +266,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 طار,fly,飞,VERB
 قبعة,cap,帽子,NOUN
 طالب,student,学生,NOUN
-طيب,good/cooked,好的/熟的,ADJ
+طيب,good,好的,ADJ
 طباخ,cook,厨师,NOUN
 صحن,plate,盘子,NOUN
 طبيب,doctor,医生,NOUN
 طحن,grind,磨,VERB
-طري,fresh/soft,新鲜的/软的,ADJ
+طري,fresh,新鲜的,ADJ
 طريق,road,路,NOUN
 أطفأ,extinguish,熄灭,VERB
 طلب,request,请求,VERB
@@ -444,7 +444,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 وسخ,dirt,污垢,NOUN
 مئة,hundred,百,NUM
 ميكانيكي,mechanic,机械师,NOUN
-ميناء,port/harbor,港口,NOUN
+ميناء,port,港口,NOUN
 ناس,people,人们,NOUN
 ناموسية,mosquito net,蚊帐,NOUN
 أنت,you (masculine),你,PRON
@@ -452,16 +452,16 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أنتِ,you (feminine),你,PRON
 نجار,carpenter,木匠,NOUN
 نحلة,bee,蜜蜂,NOUN
-نزل,descend/go down,下降,VERB
+نزل,descend,降下,VERB
 نسى,forget,忘记,VERB
-نشيد,anthem/song,赞歌/歌曲,NOUN
-نظارات,glasses/spectacles,眼镜,NOUN
+نشيد,anthem,赞歌,NOUN
+نظارات,glasses,眼镜,NOUN
 نعس,sleep,打瞌睡,VERB
 نعم,yes,是,INTJ
-نقي,clean/pure,纯净的,ADJ
+نقي,clean,纯净的,ADJ
 نملة,ant,蚂蚁,NOUN
 نهار,day,白天,NOUN
-مستقيم,straight/direct,直的,ADJ
+مستقيم,straight,直的,ADJ
 أنف,nose,鼻子,NOUN
 هؤلاء,these,这些,PRON
 هذه,this (feminine),这个,DET
@@ -469,7 +469,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أولئك,those,那些,PRON
 تلك,that (feminine),那个,DET
 هذا,this (masculine),这个,DET
-هرب,run away/fled,逃跑,VERB
+هرب,flee,逃跑,VERB
 هز,shake,摇动,VERB
 هما,they (two),他俩,PRON
 هنا,here,这里,ADV
@@ -497,7 +497,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ثلاثون,thirty,三十,NUM
 جائع,hungry,饥饿的,ADJ
 عطشان,thirsty,口渴的,ADJ
-بخير,fine / well,很好,ADJ
+بخير,well,很好,ADJ
 جسم,body,身体,NOUN
 قدم,foot,脚,NOUN
 مدرس,teacher,老师,NOUN
@@ -599,31 +599,31 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أبداً,never,从不,ADV
 سوف,will,将,AUX
 كان,was,曾经,VERB
-أن,that,أن,SCONJ
+أن,that,也就是说,SCONJ
 في,in,في,ADP
-إلى,to,إلى,ADP
-يا,o,يا,PART
-ل,for,ل,ADP
-الذي,who,الذي,PRON
+إلى,to,到,ADP
+يا,o,啊,PART
+ل,for,为了,ADP
+الذي,who,谁,PRON
 فعل,to do,فعل,VERB
-حياة,life,حياة,NOUN
-أراد,to want,أراد,VERB
-أمر,order,أمر,NOUN
-عن,about,عن,ADP
-ليس,to be not,ليس,VERB
-هل,whether,هل,PART
-قال,to say,قال,VERB
-عالم,world,عالم,NOUN
-ماذا,what,ماذا,PRON
-أحب,to love,أحب,VERB
-أمكن,to be possible,أمكن,VERB
-ٱستطاع,to be able,ٱستطاع,VERB
-آن,time,آن,NOUN
-حقيقي,real,حقيقي,ADJ
-أكثر,more,أكثر,ADJ
-رائع,wonderful,رائع,ADJ
-عنى,to mean,عنى,VERB
-ب,with,ب,ADP
-جميع,all,جميع,NOUN
-مليون,million,مليون,NOUN
-لن,will not,لن,PART
+حياة,life,生活,NOUN
+أراد,to want,想要,VERB
+أمر,order,命令,NOUN
+عن,about,关于,ADP
+ليس,to be not,不是,VERB
+هل,whether,是否,PART
+قال,to say,说,VERB
+عالم,world,世界,NOUN
+ماذا,what,什么,PRON
+أحب,to love,爱,VERB
+أمكن,to be possible,可能,VERB
+استطاع,to be able,能够,VERB
+آن,time,时间,NOUN
+حقيقي,real,真正的,ADJ
+أكثر,more,更多,ADJ
+رائع,wonderful,极好的,ADJ
+عنى,to mean,意思是,VERB
+ب,with,用,ADP
+جميع,all,全部,NOUN
+مليون,million,百万,NOUN
+لن,will not,将不,PART
