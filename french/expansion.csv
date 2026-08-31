@@ -141,7 +141,7 @@ du tout,at all,根本,ADV,B2
 à l'aise,at ease,安心,ADJ,B2
 à la maison,at home,在家,ADV,B2
 au moins,at least,至少,ADV,B2
-à ce moment-là,at that time,当时/那时,ADV,B2
+à ce moment-là,at that time,当时,ADV,B2
 en même temps,at the same time,同时,ADV,B2
 atteindre,to attain,达到,VERB,B2
 préposé,attendant,服务员,NOUN,B2
@@ -371,8 +371,8 @@ applaudir,to clap,拍手,VERB,B2
 clarté,clarity,清晰,NOUN,B2
 classique,classic,经典作品,NOUN,B2
 classique,classical,古典的,ADJ,B2
-pièce,classifier for paintings cloth etc.,幅,NUM,B2
-arbre,classifier for trees,棵,NUM,B2
+pièce,piece,幅,NOUN,B2
+arbre,tree,棵,NOUN,B2
 camarade de classe,classmate,同学,NOUN,B2
 salle de classe,classroom,教室,NOUN,B2
 propreté,cleanliness,清洁,NOUN,B2
@@ -812,7 +812,7 @@ broderie,embroidery,刺绣,NOUN,B2
 émergence,emergence,涌现,NOUN,B2
 émission,emission,排放,NOUN,B2
 émotion,emotion,情感,NOUN,B2
-émotivité,emotionality,感性/情绪化,NOUN,B2
+émotivité,emotionality,感性,NOUN,B2
 empathiser,to empathize,共情,VERB,B2
 empire,empire,帝国,NOUN,B2
 emploi,employment,就业,NOUN,B2
@@ -1590,7 +1590,7 @@ peut-être,maybe,也许,ADV,B2
 moi,me,لي,NOUN,B2
 intervalle,meantime,同时,NOUN,B2
 cependant,meanwhile,同时,ADV,B2
-volume,measure word for books,本,NUM,B2
+volume,volume,本,NOUN,B2
 mécaniste,mechanistic,机制性,ADJ,B2
 médier,to mediate,调解,VERB,B2
 dossier médical,medical record,病历,NOUN,B2
@@ -1636,7 +1636,7 @@ nounou,nanny,保姆,NOUN,B2
 nanotechnologie,nanotechnology,纳米技术,NOUN,B2
 serviette,napkin,餐巾,NOUN,B2
 raconter,to narrate,叙述,VERB,B2
-récit,narrative,叙述；故事,NOUN,B2
+récit,narrative,叙述,NOUN,B2
 étroit,narrow,狭窄的,ADJ,B2
 étroitesse,narrowness,狭窄,NOUN,B2
 méchant,nasty,令人不快的,ADJ,B2
@@ -4983,7 +4983,7 @@ prime,premium,保险费,NOUN,B2
 irrespect,disrespect,不尊重,NOUN,B2
 sommet,apex,顶峰,NOUN,B2
 entonnoir,funnel,漏斗,NOUN,B2
-et... et...,both,两者都,CCONJ,B1
+et... et,both,两者都,CCONJ,B1
 coulisses,backstage,后台,NOUN,B2
 cocktail,cocktail,鸡尾酒,NOUN,A2
 opposé,averse,反感的,ADJ,B2
@@ -7513,10 +7513,10 @@ xiangqi,chinese chess,中国象棋象棋弈棋,NOUN,B1
 zodiaque chinois,chinese zodiac,十二生肖属相生肖,NOUN,B1
 coriandre,cilantro,芫荽香菜香草调料,NOUN,B1
 cours,class lesson,课程课堂讲授讲堂,NOUN,A1
-exemplaire,classifier for documents portions,份册份数卷宗文件,NOUN,B2
-brin,classifier for flowers,朵束支茎株花卉,NUM,B1
-tête,classifier for horses,匹头只骏马计数,NUM,B1
-grain,classifier for small round objects,颗粒小圆颗粒物件,NOUN,B1
+exemplaire,copy,份册份数卷宗文件,NOUN,B2
+brin,flower,朵束支茎株花卉,NOUN,B1
+tête,horse,匹头只骏马计数,NOUN,B1
+grain,grain,颗粒小圆颗粒物件,NOUN,B1
 devoir de classe,classwork,课堂作业课内练习,NOUN,A2
 agent d'entretien,cleaner,保洁清洁工清洁剂,NOUN,A2
 désactivé,closed disabled,已关闭禁用的休克,ADJ,B1
@@ -7892,7 +7892,7 @@ approprié,appropriate fitting,适当的,ADJ,B2
 pertinence,appropriateness,适当性,NOUN,B2
 appropriation,appropriation,拨款,NOUN,B2
 approuvé,approved,批准的,ADJ,B2
-env.,approx.,,ADV,B2
+env,approx.,,ADV,B2
 apte,apt,有才能的,ADJ,B2
 aqueux,aqueous,水溶液的,ADJ,B2
 arabe,Arabic language,阿拉伯语,NOUN,B2
@@ -10298,8 +10298,8 @@ stimulant,challenging,有挑战性的,ADJ,B2
 barattage de peau,churn skin,翻皮,NOUN,Advanced
 dissiper les doutes,clarify doubts,释疑,VERB,B2
 caractère de classe,class nature,阶级性,NOUN,B2
-fois,classifier for trips,趟,NUM,A1
-véhicule,classifier for vehicles,辆,NUM,A1
+fois,trip,趟,NOUN,A1
+véhicule,vehicle,辆,NOUN,A1
 touffe,clump,丛,NOUN,B1
 garantie,collateral,抵押品,NOUN,B2
 venue et prise,come and take,来取,NOUN,B1

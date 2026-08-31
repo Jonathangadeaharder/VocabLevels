@@ -205,7 +205,7 @@ samenvatting,summary,总结,NOUN
 technisch,technical,技术的,ADJ
 toezicht,supervision,监督,NOUN
 uitvoering,execution,执行,NOUN
-vak,subject / field,科目 / 领域,NOUN
+vak,subject,科目,NOUN
 veroordelen,to convict,定罪,VERB
 verschrikkelijk,terrible,可怕的,ADJ
 vinger,finger,手指,NOUN
@@ -1031,47 +1031,45 @@ oppositie,opposition,反对,NOUN
 oprichting,founding,成立,NOUN
 overval,raid,突袭,NOUN
 porno,pornography,色情,NOUN
-bedek,to cover,,VERB
-bevriezen,to freeze,,VERB
-degeen,the one,,NOUN
-doorslaand,runaway,,NOUN
-drift,drift,,NOUN
-egoïstisch,selfish,,NOUN
-excuseeren,to excuse,,VERB
-filmster,film star,,NOUN
-geboren,born,,NOUN
-gezondheidzorg,health care,,NOUN
-harte,heart,,NOUN
-heerser,ruler,,NOUN
-jongedame,young lady,,NOUN
-kalamiteit,calamity,,NOUN
-kleed,dress,,NOUN
-kunt,to be able,,VERB
-luister,glory,,NOUN
-meevoelen,to sympathize,,VERB
-onontkoombaar,inevitable,,NOUN
-ontroeren,to upset,,VERB
-overgebleven,remaining,,NOUN
-overheersen,to dominate,,VERB
-plechtig,solemn,,NOUN
-reizen,to travel,,VERB
-schenking,gift,,NOUN
-scholing,education,,NOUN
-tegenspraak,contradiction,,NOUN
-tegenwerken,to hinder,,VERB
-teruggeven,to return,,VERB
-terugleggen,to put back,,VERB
-uitgekeken,tired of,,NOUN
-uitgekijken,watched,,NOUN
-vastberadenheid,determination,,NOUN
-vergaan,to pass,,VERB
-verschroeien,to scorch,,VERB
-verspilling,waste,,NOUN
-verstoren,to disturb,,VERB
-vertoon,display,,NOUN
-vertragen,to delay,,VERB
-voorbestemd,destined,,NOUN
-wanhoop,despair,,NOUN
-weerinstituut,weather institute,,NOUN
-wegkwijnen,to wither,,VERB
-zonnen,to sunbathe,,VERB
+bevriezen,to freeze,冻结,VERB
+degene,the one,那个人,PRON
+doorslaand,runaway,失控的,ADJ
+drift,drift,漂流,NOUN
+egoïstisch,selfish,自私的,ADJ
+excuseren,to excuse,原谅,VERB
+filmster,film star,电影明星,NOUN
+geboren,born,出生,ADJ
+hart,heart,心,NOUN
+heerser,ruler,统治者,NOUN
+jongedame,young lady,年轻女士,NOUN
+calamiteit,calamity,灾难,NOUN
+kleed,dress,长袍,NOUN
+kunnen,can,能够,AUX
+luister,glory,光彩,NOUN
+meevoelen,to sympathize,同情,VERB
+onontkoombaar,inevitable,不可避免的,ADJ
+ontroeren,to move,感动,VERB
+overgebleven,remaining,剩下的,ADJ
+overheersen,to dominate,支配,VERB
+plechtig,solemn,庄严的,ADJ
+reizen,to travel,旅行,VERB
+schenking,gift,赠与,NOUN
+scholing,education,培训,NOUN
+tegenspraak,contradiction,矛盾,NOUN
+tegenwerken,to hinder,阻碍,VERB
+teruggeven,to return,归还,VERB
+terugleggen,to put back,放回,VERB
+uitgekeken,tired of,厌倦的,ADJ
+uitkijken,to watch,观察,VERB
+vastberadenheid,determination,坚定,NOUN
+vergaan,to perish,消亡,VERB
+verschroeien,to scorch,烧焦,VERB
+verspilling,waste,浪费,NOUN
+verstoren,to disturb,打扰,VERB
+vertoon,display,展现,NOUN
+vertragen,to delay,延迟,VERB
+voorbestemd,destined,注定的,ADJ
+wanhoop,despair,绝望,NOUN
+weerinstituut,weather institute,气象研究所,NOUN
+wegkwijnen,to wither,消沉,VERB
+zonnen,to sunbathe,晒太阳,VERB

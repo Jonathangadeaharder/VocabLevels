@@ -13,7 +13,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 丑,ugly,丑,ADJ
 专家,expert,专家,NOUN
 专心,to concentrate,专心,VERB
-个人,individual / personal,个人,NOUN
+个人,individual,个人,NOUN
 个性,individuality,个性,NOUN
 中心,center,中心,NOUN
 主人,master,主人,NOUN
@@ -286,7 +286,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 总共,altogether,总共,ADV
 总算,at long last,总算,ADV
 恋爱,(romantic) love,恋爱,NOUN
-恐怖,terrifying / terrible,恐怖,ADJ
+恐怖,terrifying,恐怖,ADJ
 恨,to hate,恨,VERB
 想念,to miss,想念,VERB
 想象,to imagine,想象,VERB
@@ -362,7 +362,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 明星,star,明星,NOUN
 明显,obvious,明显,ADJ
 是否,whether or not,是否,SCONJ
-晒,to dry in the sun,晒,AUX
+晒,to dry in the sun,晒,VERB
 晕,dizzy,晕,ADJ
 景色,scenery,景色,NOUN
 更加,more,更加,ADV

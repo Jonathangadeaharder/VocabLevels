@@ -52,7 +52,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تسليم,delivery,交付,NOUN
 مصاريف,expenses,费用,NOUN
 استهلاك,consumption,消费,NOUN
-مَحْصُول,harvest/crop,收成/作物,NOUN
+مَحْصُول,harvest,收成,NOUN
 تحويل,transfer,转账,NOUN
 ضَمَان,guarantee,担保,NOUN
 صَرَّاف,teller,出纳员,NOUN
@@ -181,18 +181,18 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 برر,justify,证明…正当,VERB
 حلل,analyze,分析,VERB
 استنتج,conclude,得出结论,VERB
-سياق,context,上下文/语境,NOUN
-جوهر,essence/core,本质/核心,NOUN
-أمانة,integrity/trustworthiness,诚实/正直,NOUN
-إخلاص,sincerity/devotion,真诚/忠诚,NOUN
-وفاء,loyalty/fidelity,忠诚/守信,NOUN
-إصرار,insistence/persistence,坚持/坚决,NOUN
+سياق,context,上下文,NOUN
+جوهر,essence,本质,NOUN
+أمانة,integrity,诚实,NOUN
+إخلاص,sincerity,真诚,NOUN
+وفاء,loyalty,忠诚,NOUN
+إصرار,insistence,坚持,NOUN
 تواضع,humility,谦逊,NOUN
-غرور,arrogance/vanity,傲慢/虚荣,NOUN
+غرور,arrogance,傲慢,NOUN
 كرامة,dignity,尊严,NOUN
-عار,shame/disgrace,耻辱/羞耻,NOUN
-قسوة,cruelty/harshness,残酷/严厉,NOUN
-شفقة,pity/compassion,怜悯/同情,NOUN
+عار,shame,耻辱,NOUN
+قسوة,cruelty,残酷,NOUN
+شفقة,pity,怜悯,NOUN
 غباء,stupidity,愚蠢,NOUN
 غموض,ambiguity,模糊,NOUN
 تعقيد,complexity,复杂,NOUN
@@ -268,11 +268,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 إمبراطورية,empire,帝国,NOUN
 استعمار,colonialism,殖民主义,NOUN
 مقاومة,resistance,抵抗,NOUN
-عقيدة,belief/creed,信条,NOUN
+عقيدة,belief,信条,NOUN
 مؤذن,muezzin,宣礼员,NOUN
 أذان,call to prayer,宣礼,NOUN
 وضوء,ablution,小净,NOUN
-زكاة,alms/zakat,天课,NOUN
+زكاة,alms,天课,NOUN
 مولد,Prophet birthday,圣纪,NOUN
 شريعة,Islamic law,沙里亚,NOUN
 ولي,saint,圣徒,NOUN
@@ -404,9 +404,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مزيف,fake,伪造的,ADJ
 معلن,advertiser,广告商,NOUN
 تداول,circulation,流通,NOUN
-نوى,intend,打算,VERB
-هنأ,congratulate,祝贺,VERB
-تاب,repent,悔悟,VERB
+نوى,to intend,打算,VERB
+هنأ,to congratulate,祝贺,VERB
+تاب,to repent,悔悟,VERB
 ضاعف,double,加倍,VERB
 خمر,wine,酒,NOUN
 فسد,spoil,变质,VERB
@@ -433,17 +433,17 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مجرد,abstract,抽象的,ADJ
 مبسط,simplified,简化的,ADJ
 موجز,concise,简明的,ADJ
-سطحي,superficial,表面的,ADJ
+سطحي,superficial,表面上的,ADJ
 متبادل,mutual,相互的,ADJ
 عمدا,deliberately,故意地,ADV
 كتابيا,in writing,书面地,ADV
 علنا,publicly,公开地,ADV
-نقدا,in cash,以现金,ADV
+نقدا,in cash,现金方式,ADV
 تفصيلا,in detail,详细地,ADV
 مقدما,in advance,提前,ADV
 تلقائيا,automatically,自动地,ADV
 دوريا,periodically,定期地,ADV
-انقطاع,dropout,辍学,NOUN
+انقطاع,dropout,退学,NOUN
 تفوق,excellence,卓越,NOUN
 لوبيا,cowpeas,豇豆,NOUN
 فستق,pistachio,开心果,NOUN
@@ -452,20 +452,20 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كسرة,piece of bread,面包块,NOUN
 قشرة,peel,皮,NOUN
 ربطة,bundle,捆,NOUN
-حزمة,bundle,包,NOUN
-مضغ,chew,咀嚼,VERB
-دمع,tear up,流泪,VERB
-طمأن,reassure,使安心,VERB
-حضن,hug,拥抱,VERB
-نبح,bark,吠叫,VERB
-رش,sprinkle,洒,VERB
-ستر,conceal,遮掩,VERB
-خبأ,hide,隐藏,VERB
+حزمة,bundle,包裹,NOUN
+مضغ,to chew,咀嚼,VERB
+دمع,to tear up,流泪,VERB
+طمأن,to reassure,使安心,VERB
+حضن,to hug,拥抱,VERB
+نبح,to bark,吠叫,VERB
+رش,to sprinkle,洒,VERB
+ستر,to conceal,遮掩,VERB
+خبأ,to hide,隐藏,VERB
 دفن,bury,埋葬,VERB
 قطف,pick,采摘,VERB
-صَدَمَ,crash into,撞击,VERB
-تَجَاوَزَ,exceed,超过,VERB
-أَقْلَعَ,take off,起飞,VERB
+صدم,to crash into,撞击,VERB
+تجاوز,to exceed,超过,VERB
+أقلع,to take off,起飞,VERB
 مُسْلٍ,amusing,有趣的,ADJ
 واع,aware,意识到的,ADJ
 يُفترَض,to be assumed,被假设,VERB
@@ -543,167 +543,167 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 عثر,to stumble,عثر,VERB
 بريق,glitter,بريق,NOUN
 طموح,ambition,طموح,NOUN
-بحثي,research,,NOUN
-بحرية,navy,,NOUN
-بصمة,fingerprint,,NOUN
-بطولي,heroism,,NOUN
-بلون,color,,NOUN
-بوكس,box,,NOUN
-تأذى,injury,,NOUN
-تتبع,tracking,,NOUN
-تحتي,below,,NOUN
-تحرر,liberation,,NOUN
-تخلى,abandonment,,NOUN
-تدليك,massage,,NOUN
-تسديد,payment,,NOUN
-تسلسل,sequence,,NOUN
+بحثي,research,研究的,ADJ
+بحرية,navy,海军,NOUN
+بصمة,fingerprint,指纹,NOUN
+بطولي,heroic,英勇的,ADJ
+بلون,color,颜色,NOUN
+بوكس,box,盒子,NOUN
+تأذى,to be injured,受伤害,VERB
+تتبع,tracking,追踪,NOUN
+تحتي,lower,下方的,ADJ
+تحرر,liberation,解放,NOUN
+تخلى,to abandon,放弃,VERB
+تدليك,massage,按摩,NOUN
+تسديد,payment,还款,NOUN
+تسلسل,sequence,序列,NOUN
 تشرف,supervision,,NOUN
-تصاعد,escalation,,NOUN
+تصاعد,escalation,升级,NOUN
 تضاعف,doubling,,NOUN
-تعمد,intention,,NOUN
-تلقائي,automation,,NOUN
-تمثيلي,representation,,NOUN
-تواعد,dating,,NOUN
+تعمد,premeditation,故意,NOUN
+تلقائي,automatic,自动的,ADJ
+تمثيلي,representative,代表性的,ADJ
+تواعد,to make an appointment,相约,VERB
 توفى,death,,NOUN
-جامد,inertness,,NOUN
-جثة,corpse,,NOUN
-جذاب,attraction,,NOUN
-جراء,consequence,,NOUN
-جريء,bravery,,NOUN
-جموع,crowd,,NOUN
-جنين,fetus,,NOUN
-جول,round,,NOUN
-حاز,possession,,NOUN
-حراري,thermal,,NOUN
-حطم,crushing,,NOUN
-حماسة,enthusiasm,,NOUN
-حيوي,vitality,,NOUN
-خدع,deception,,NOUN
-خراب,ruin,,NOUN
-خصر,waist,,NOUN
-خلا,remainder,,NOUN
-درامي,drama,,NOUN
-دل,camel,,NOUN
-دمر,destruction,,NOUN
-دهش,astonishment,,NOUN
-دود,worm,,NOUN
-ذكري,masculine,,NOUN
-رهيب,terror,,NOUN
+جامد,rigid,僵硬的,ADJ
+جثة,corpse,尸体,NOUN
+جذاب,attractive,有吸引力的,ADJ
+جراء,as a result of,由于,ADP
+جريء,brave,勇敢的,ADJ
+جموع,crowds,人群,NOUN
+جنين,fetus,胎儿,NOUN
+جول,tour,巡游,NOUN
+حاز,to obtain,获得,VERB
+حراري,thermal,热力的,ADJ
+حطم,to crush,粉碎,VERB
+حماسة,enthusiasm,热情,NOUN
+حيوي,vital,至关重要的,ADJ
+خدع,to deceive,欺骗,VERB
+خراب,ruin,毁坏,NOUN
+خصر,waist,腰部,NOUN
+خلا,to be empty,空出,VERB
+درامي,dramatic,戏剧性的,ADJ
+دل,to guide,指引,VERB
+دمر,to destroy,毁灭,VERB
+دهش,to be amazed,感到惊奇,VERB
+دود,worms,虫子,NOUN
+ذكري,masculine,雄性的,ADJ
+رهيب,terrible,可怕的,ADJ
 ريفي,rural,,NOUN
-زمني,temporal,,NOUN
-سائد,dominance,,NOUN
-ساحلي,coastal,,NOUN
-سخونة,heat,,NOUN
-سعة,capacity,,NOUN
+زمني,temporal,时间的,ADJ
+سائد,dominant,普遍的,ADJ
+ساحلي,coastal,沿海的,ADJ
+سخونة,heat,发热,NOUN
+سعة,capacity,容量,NOUN
 سفلي,lower,,NOUN
 سلف,predecessor,,NOUN
-سهر,vigil,,NOUN
-سوي,soundness,,NOUN
-شاري,buyer,,NOUN
-شاغل,preoccupation,,NOUN
-شحنة,cargo,,NOUN
-شعري,hair,,NOUN
-شوك,thorn,,NOUN
-ضاق,narrowness,,NOUN
-طالع,fate,,NOUN
-طاهي,cook,,NOUN
-طراز,style,,NOUN
-طها,cooking,,NOUN
-عبقري,genius,,NOUN
-عجيبة,wonder,,NOUN
-عطاء,generosity,,NOUN
-عقلاني,rationalist,,NOUN
-عهد,covenant,,NOUN
-عوض,compensation,,NOUN
-غرامي,romance,,NOUN
+سهر,vigil,熬夜,NOUN
+سوي,normal,端正的,ADJ
+شاري,buyer,买主,NOUN
+شاغل,occupant,占据者,NOUN
+شحنة,cargo,货物,NOUN
+شعري,poetic,诗歌的,ADJ
+شوك,thorns,荆棘,NOUN
+ضاق,to become narrow,变窄,VERB
+طالع,horoscope,运势,NOUN
+طاهي,cook,厨师,NOUN
+طراز,style,款式,NOUN
+طهى,to cook,烹饪,VERB
+عبقري,genius,天才的,ADJ
+عجيبة,wonder,奇迹,NOUN
+عطاء,generosity,给予,NOUN
+عقلاني,rational,理性的,ADJ
+عهد,covenant,盟约,NOUN
+عوض,compensation,补偿,NOUN
+غرامي,romantic,风流的,ADJ
 فاتن,charmer,,NOUN
 فارق,difference,,NOUN
 فجوة,gap,,NOUN
 فضولي,curiosity,,NOUN
-قاضى,judge,,NOUN
-قدوم,arrival,,NOUN
-قشة,straw,,NOUN
-قصصي,narrative,,NOUN
-كلاسيكي,classic,,NOUN
-كلت,both,,NOUN
-كهرب,electricity,,NOUN
-كوكتيل,cocktail,,NOUN
-كوم,heap,,NOUN
-لاق,encounter,,NOUN
-لامع,shine,,NOUN
-لوث,pollution,,NOUN
-مؤخر,rear,,NOUN
-مبيت,lodging,,NOUN
-متتالي,sequence,,NOUN
-متخرج,graduate,,NOUN
-متدين,piety,,NOUN
-متواصل,continuity,,NOUN
-مثابة,station,,NOUN
-مجد,glory,,NOUN
-مجيد,hero,,NOUN
-مختبئ,hider,,NOUN
-مخلوق,creature,,NOUN
-مدهش,wonder,,NOUN
-مذاق,taste,,NOUN
-مذهل,stunner,,NOUN
-مرئي,sight,,NOUN
-مرحوم,deceased,,NOUN
-مرطب,moisturizer,,NOUN
-مرغوب,wanted one,,NOUN
-مزح,banter,,NOUN
-مزدهر,thriving one,,NOUN
-مزيج,mixture,,NOUN
-مسدود,dead end,,NOUN
-مصدق,believer,,NOUN
+قاضى,to sue,起诉,VERB
+قدوم,arrival,到来,NOUN
+قشة,straw,稻草,NOUN
+قصصي,narrative,故事性的,ADJ
+كلاسيكي,classic,古典的,ADJ
+كلت,both,两者,DET
+كهرب,to electrify,通电,VERB
+كوكتيل,cocktail,鸡尾酒,NOUN
+كوم,pile,堆,NOUN
+لاق,to suit,相配,VERB
+لامع,bright,发亮的,ADJ
+لوث,to pollute,污染,VERB
+مؤخر,rear,后部的,ADJ
+مبيت,lodging,留宿,NOUN
+متتالي,consecutive,连贯的,ADJ
+متخرج,graduate,毕业生,NOUN
+متدين,religious,虔诚的,ADJ
+متواصل,continuous,持续的,ADJ
+مثابة,status,如同,NOUN
+مجد,glory,荣耀,NOUN
+مجيد,glorious,光荣的,ADJ
+مختبئ,hidden,藏匿的,ADJ
+مخلوق,creature,造物,NOUN
+مدهش,amazing,令人惊叹的,ADJ
+مذاق,taste,味觉,NOUN
+مذهل,stunning,令人震惊的,ADJ
+مرئي,visible,可见的,ADJ
+مرحوم,deceased,已故的,ADJ
+مرطب,moisturizer,保湿霜,NOUN
+مرغوب,desired,所期望的,ADJ
+مزح,banter,玩笑,NOUN
+مزدهر,flourishing,繁荣的,ADJ
+مزيج,mixture,混合物,NOUN
+مسدود,blocked,堵塞的,ADJ
+مصدق,believing,深信的,ADJ
 مصرف,bank,,NOUN
-مضي,passage,,NOUN
-مضيء,light,,NOUN
-معاقبة,punishment,,NOUN
-معاكس,opposite,,NOUN
-معتقد,belief,,NOUN
-معزول,isolation,,NOUN
-مقيد,restraint,,NOUN
-مكتمل,completeness,,NOUN
+مضي,passage,流逝,NOUN
+مضيء,luminous,发光的,ADJ
+معاقبة,punishment,惩处,NOUN
+معاكس,opposite,相反的,ADJ
+معتقد,belief,信仰,NOUN
+معزول,isolated,孤立的,ADJ
+مقيد,bound,受限制的,ADJ
+مكتمل,complete,完整的,ADJ
 ملفوف,cabbage,,NOUN
-مليح,goodness,,NOUN
-مناخي,climate,,NOUN
-منشأة,facility,,NOUN
-منقطع,discontinuity,,NOUN
-منهار,collapse,,NOUN
-مهدد,threat,,NOUN
-مهرج,clown,,NOUN
-مول,mole,,NOUN
-موهوب,talent,,NOUN
-ميداني,field,,NOUN
-ناصر,supporter,,NOUN
-نجاة,salvation,,NOUN
+مليح,good,好的,ADJ
+مناخي,climatic,气候的,ADJ
+منشأة,facility,设施,NOUN
+منقطع,discontinuous,断断续续的,ADJ
+منهار,collapsed,垮塌的,ADJ
+مهدد,threatened,受到威胁的,ADJ
+مهرج,clown,小丑,NOUN
+مول,to finance,资助,VERB
+موهوب,talented,有天赋的,ADJ
+ميداني,field,实地的,ADJ
+ناصر,supporter,支持者,NOUN
+نجاة,salvation,得救,NOUN
 نزف,bleeding,,NOUN
-نطاق,scope,,NOUN
+نطاق,scope,范围,NOUN
 نفد,exhaustion,,NOUN
-نهوض,rising,,NOUN
-نووي,nuclear,,NOUN
-هر,cat,,NOUN
-هضم,digestion,,NOUN
+نهوض,rising,崛起,NOUN
+نووي,nuclear,核的,ADJ
+هر,cat,公猫,NOUN
+هضم,digestion,消化,NOUN
 واصف,description,,NOUN
-وحشي,savage,,NOUN
-آلية,mechanism,,NOUN
-أبدى,display,,NOUN
-أبوان,parent,,NOUN
-أتاح,access,,NOUN
+وحشي,savage,野蛮的,ADJ
+آلية,mechanism,机制,NOUN
+أبدى,to show,表达,VERB
+أبوان,parents,父母,NOUN
+أتاح,to make available,提供,VERB
 أدفأ,warmth,,NOUN
-أدهش,amazement,,NOUN
-أذاع,broadcast,,NOUN
-أذى,harm,,NOUN
-أسطورة,legend,,NOUN
-أسطوري,myth,,NOUN
-أغمض,closing,,NOUN
+أدهش,to amaze,使惊异,VERB
+أذاع,to broadcast,播送,VERB
+أذى,harm,伤害,NOUN
+أسطورة,legend,神话,NOUN
+أسطوري,mythical,传奇的,ADJ
+أغمض,to close eyes,闭眼,VERB
 أفق,horizon,,NOUN
 أفقد,loss,,NOUN
 ألفي,thousand,,NOUN
-أنى,whenever,,NOUN
-إبداعي,creativity,,NOUN
-إدخال,insertion,,NOUN
-إرضاء,satisfaction,,NOUN
-إستوديو,studio,,NOUN
-إعدادي,preparatory,,NOUN
-إيصال,receipt,,NOUN
+أنى,wherever,何处,ADV
+إبداعي,creative,创意的,ADJ
+إدخال,insertion,插入,NOUN
+إرضاء,satisfaction,满足,NOUN
+إستوديو,studio,演播室,NOUN
+إعدادي,preparatory,初中的,ADJ
+إيصال,receipt,收据,NOUN

@@ -105,7 +105,7 @@ X光片,x-ray,X光片,NOUN,B2
 不同意的,disagreeing,不同意的,ADJ,B2
 不和,discord,不和,NOUN,B2
 不和谐,dissonance,不和谐,NOUN,B2
-不在/离开,away gone,不在/离开,ADV,B2
+不在,away gone,不在,ADV,B2
 不在场证明,alibi,不在场证明,NOUN,B2
 不太可能的,unlikely,不太可能的,ADJ,B2
 不妥协的,intransigent,不妥协的,ADJ,B2
@@ -126,7 +126,7 @@ X光片,x-ray,X光片,NOUN,B2
 不情愿,reluctance,不情愿,NOUN,B2
 不情愿的,reluctant,不情愿的,ADJ,B2
 不愉快的,unpleasant,令人不快的,ADJ,B2
-不懈 / 猛烈,relentlessness,不懈 / 猛烈,NOUN,B2
+不懈,relentlessness,不懈,NOUN,B2
 不成比例,disproportion,不成比例,NOUN,B2
 不成熟的,immature,不成熟的,ADJ,B2
 不敬,disrespect,不敬,NOUN,B2
@@ -269,7 +269,7 @@ X光片,x-ray,X光片,NOUN,B2
 主权主义者,sovereigntist,主权主义者,NOUN,B2
 主流的,mainstream,主流的,ADJ,B2
 主管,executive,行政主管,NOUN,B2
-主管/经理,director manager,主管/经理,NOUN,B2
+主管,director manager,主管,NOUN,B2
 主编,editor-in-chief,主编,NOUN,B2
 主要原因,main reason,主要原因,NOUN,B2
 主要地,largely,主要地,ADV,B2
@@ -277,7 +277,7 @@ X光片,x-ray,X光片,NOUN,B2
 主要的,major,主要的,ADJ,B2
 主角,leading role,主角,NOUN,B2
 主题,motif,主题,NOUN,B2
-主题/话题,subject topic,主题/话题,NOUN,B2
+主题,subject topic,主题,NOUN,B2
 主题曲,theme music,主题曲,NOUN,B2
 主题的,thematic,主题的,ADJ,B2
 举例说明,to exemplify,举例说明,VERB,B2
@@ -291,11 +291,11 @@ X光片,x-ray,X光片,NOUN,B2
 乌龟,turtle,海龟,NOUN,B2
 乏味的,tedious,乏味的,ADJ,B2
 乐意地,gladly,乐意地,ADV,B2
-乐意地/宁愿,gladly willingly,乐意地/宁愿,ADV,B2
+乐意地,gladly willingly,乐意地,ADV,B2
 乐曲,musical composition,乐曲,NOUN,B2
 乐观,optimism,乐观,NOUN,B2
 乐趣,fun,乐趣,NOUN,B2
-乐趣/玩笑,fun joke,乐趣/玩笑,NOUN,B2
+乐趣,fun joke,乐趣,NOUN,B2
 九十,ninety,九十,NUM,B2
 也不,neither,也不,CCONJ,B2
 也不,nor,也不,CCONJ,B2
@@ -373,7 +373,7 @@ X光片,x-ray,X光片,NOUN,B2
 人文主义者,humanist,人文主义者,NOUN,B2
 人文学科,humanities,人文学科,NOUN,B2
 人格谋杀,character assassination,人格谋杀,NOUN,B2
-人民 / 民族,people nation,人民 / 民族,NOUN,B2
+人民,people nation,人民,NOUN,B2
 人类,human,人类的,ADJ,B2
 人类学,anthropology,人类学,NOUN,B2
 人脉,contacts,人脉,NOUN,B2
@@ -412,12 +412,12 @@ X光片,x-ray,X光片,NOUN,B2
 仔细地,carefully,仔细地,ADV,B2
 仔细检查,to scrutinize,仔细检查,VERB,B2
 他,him,他,PRON,B2
-他/她,him her,他/她,PRON,B2
-他/这位,he this one,他/这位,PRON,B2
+他,him her,他,PRON,B2
+他,he this one,他,PRON,B2
 他们,them,他们,PRON,B2
 他们的,their,他们的,PRON,B2
 他的,his,他的,DET,B2
-他的/她的/它的/他们的,his her its their,他的/她的/它的/他们的,DET,B2
+他的,his her its their,他的,DET,B2
 代表,on behalf of,代表,ADP,B2
 代表,to represent,代表,VERB,B2
 代表团,delegation,代表团,NOUN,B2
@@ -485,7 +485,7 @@ X光片,x-ray,X光片,NOUN,B2
 众多的,numerous,众多的,ADJ,B2
 优先考虑,to prioritize,优先考虑,VERB,B2
 优化,optimization,优化,NOUN,B2
-优越性/优势,superiority,优越性/优势,NOUN,B2
+优越性,superiority,优越性,NOUN,B2
 优雅,elegant,优雅的,ADJ,B2
 优雅,grace,优雅,NOUN,B2
 伙伴关系,partnership,伙伴关系,NOUN,B2
@@ -494,7 +494,7 @@ X光片,x-ray,X光片,NOUN,B2
 会计,accounting,会计,NOUN,B2
 会议,conference,会议,NOUN,B2
 会议的,conference-based,会议的,ADJ,B2
-会面/击中,meeting hit,会面/击中,NOUN,B2
+会面,meeting hit,会面,NOUN,B2
 传入的,incoming,进来的,ADJ,B2
 传感器,sensor,传感器,NOUN,B2
 传播,diffusion,传播,NOUN,B2
@@ -666,7 +666,7 @@ X光片,x-ray,X光片,NOUN,B2
 供应,supply,供应,NOUN,B2
 供应,to furnish,提供,VERB,B2
 供暖,heating,供暖,NOUN,B2
-依照/根据,pursuant to,依照/根据,ADV,B2
+依照,pursuant to,依照,ADV,B2
 依赖,dependence,依赖,NOUN,B2
 依赖,dependency,依赖,NOUN,B2
 依赖,to depend,依赖,VERB,B2
@@ -675,7 +675,7 @@ X光片,x-ray,X光片,NOUN,B2
 侦察,reconnaissance,侦察,NOUN,B2
 侦察,to scout,侦察,VERB,B2
 侧翼,flank,侧翼,NOUN,B2
-侧面/页,side page,侧面/页,NOUN,B2
+侧面,side page,侧面,NOUN,B2
 侧面的,lateral,侧面的,ADJ,B2
 侵入,intrusion,闯入,NOUN,B2
 侵犯,infringement,侵犯,NOUN,B2
@@ -730,7 +730,7 @@ X光片,x-ray,X光片,NOUN,B2
 倾斜,lean,瘦的,ADJ,B2
 倾斜,tilt,倾斜,NOUN,B2
 倾斜,to lean,倾斜,VERB,B2
-倾斜的 / 古怪的,oblique weird,倾斜的 / 古怪的,ADJ,B2
+倾斜的,oblique weird,倾斜的,ADJ,B2
 倾析,to decant,倾析,VERB,B2
 倾盆大雨,downpour,倾盆大雨,NOUN,B2
 倾诉,to pour out,倾诉,VERB,B2
@@ -744,7 +744,7 @@ X光片,x-ray,X光片,NOUN,B2
 偏头痛,migraine,偏头痛,NOUN,B2
 偏离,to deviate,偏离,VERB,B2
 偏袒,favoritism,偏袒,NOUN,B2
-做/修理,to cook fix,做/修理,VERB,B2
+做,to cook fix,做,VERB,B2
 做运动,to play sports,做运动,VERB,B2
 停止,stop,停止,NOUN,B2
 停止,to desist,停止,VERB,B2
@@ -770,7 +770,7 @@ X光片,x-ray,X光片,NOUN,B2
 储蓄,savings,存款,NOUN,B2
 催化,to catalyze,催化,VERB,B2
 傲慢,haughtiness,傲慢,NOUN,B2
-傲慢/虚荣,arrogance vanity,傲慢/虚荣,NOUN,B2
+傲慢,arrogance vanity,傲慢,NOUN,B2
 傲慢的,arrogant,傲慢的,ADJ,B2
 傲慢的,cocky,傲慢的,ADJ,B2
 傲慢的,haughty,傲慢的,ADJ,B2
@@ -797,7 +797,7 @@ X光片,x-ray,X光片,NOUN,B2
 先天的,congenital,先天的,ADJ,B2
 先生,mr.,先生,NOUN,B2
 先生,sir,先生,NOUN,B2
-先生/主人,mr master,先生/主人,NOUN,B2
+先生,mr master,先生,NOUN,B2
 先知,prophet,先知,NOUN,B2
 先行词,antecedent,先行词,NOUN,B2
 先贤祠,pantheon,先贤祠,NOUN,B2
@@ -847,7 +847,7 @@ X光片,x-ray,X光片,NOUN,B2
 公司,firm,公司,NOUN,B2
 公司的,corporate,公司的,ADJ,B2
 公平,equity,公平,NOUN,B2
-公平的/正派的,fair decent,公平的/正派的,ADJ,B2
+公平的,fair decent,公平的,ADJ,B2
 公开,publicly,公开地,ADV,B2
 公投,referendum,公民投票,NOUN,B2
 公报,communique,公报,NOUN,B2
@@ -948,7 +948,7 @@ X光片,x-ray,X光片,NOUN,B2
 冲动的,impulsive,冲动的,ADJ,B2
 冲洗,to flush,冲洗,VERB,B2
 冲洗,to rinse,冲洗,VERB,B2
-决定/确定,to decide determine,决定/确定,VERB,B2
+决定,to decide determine,决定,VERB,B2
 决定性的,definitive,决定性的,ADJ,B2
 决定论,determinism,决定论,NOUN,B2
 决定论的,deterministic,决定论的,ADJ,B2
@@ -959,7 +959,7 @@ X光片,x-ray,X光片,NOUN,B2
 冷冻柜,freezer,冰柜,NOUN,B2
 冷却,cooling,冷却,NOUN,B2
 冷却,to cool,冷却,VERB,B2
-冷却器 / 冷却液,cooler coolant,冷却器 / 冷却液,NOUN,B2
+冷却器,cooler coolant,冷却器,NOUN,B2
 冷漠,aloofness,冷漠,NOUN,B2
 冷漠,apathy,冷漠,NOUN,B2
 冷漠的,apathetic,冷漠的,ADJ,B2
@@ -972,10 +972,10 @@ X光片,x-ray,X光片,NOUN,B2
 净化的,purifying,净化的,ADJ,B2
 准备好的,prepared,准备好的,ADJ,B2
 准备好的,ready,准备好的,ADJ,B2
-准备好的/完成的,ready finished,准备好的/完成的,ADJ,B2
+准备好的,ready finished,准备好的,ADJ,B2
 准备就绪,readiness,准备就绪,NOUN,B2
 准时,punctual,准时的,ADJ,B2
-准时地 / 偶尔地,punctually occasionally,准时地 / 偶尔地,ADV,B2
+准时地,punctually occasionally,准时地,ADV,B2
 准确性,accuracy,准确性,NOUN,B2
 凉亭,bower,凉亭,NOUN,B2
 凉鞋,sandal,凉鞋,NOUN,B2
@@ -1015,7 +1015,7 @@ X光片,x-ray,X光片,NOUN,B2
 出版社,publishing house,出版社,NOUN,B2
 出版自由,freedom of the press,出版自由,NOUN,B2
 出现,to emerge,出现,VERB,B2
-出现/显得,to appear to seem,出现/显得,VERB,B2
+出现,to appear to seem,出现,VERB,B2
 出租,to rent out,出租,VERB,B2
 出纳员,cashier,出纳员,NOUN,B2
 出血,hemorrhage,出血,NOUN,B2
@@ -1036,7 +1036,7 @@ X光片,x-ray,X光片,NOUN,B2
 分娩,to give birth,分娩,VERB,B2
 分层,to stratify,分层,VERB,B2
 分开,apart,分开,ADV,B2
-分开地，单独地,separately,分开地，单独地,ADV,B2
+分开地，单独地,separately,分开地,ADV,B2
 分开的,separate,分开的,ADJ,B2
 分开的,separated,分开的,ADJ,B2
 分心,distraction,分心,NOUN,B2
@@ -1055,7 +1055,7 @@ X光片,x-ray,X光片,NOUN,B2
 分离,to decouple,分离,VERB,B2
 分离,to detach,分离,VERB,B2
 分离,to disjoin,分离,VERB,B2
-分离/离婚,to separate divorce,分离/离婚,VERB,B2
+分离,to separate divorce,分离,VERB,B2
 分类,classification,分类,NOUN,B2
 分类,sorting,分类,NOUN,B2
 分类,to sort,分类,VERB,B2
@@ -1065,7 +1065,7 @@ X光片,x-ray,X光片,NOUN,B2
 分裂,schism,分裂,NOUN,B2
 分裂,split,分裂,NOUN,B2
 分裂,split secession,分裂,NOUN,B2
-分解 / 降解,decomposition degradation,分解 / 降解,NOUN,B2
+分解,decomposition degradation,分解,NOUN,B2
 分贝,decibel,分贝,NOUN,B2
 分配,to allocate,分配,VERB,B2
 分销商,distributor,分销商,NOUN,B2
@@ -1200,7 +1200,7 @@ X光片,x-ray,X光片,NOUN,B2
 助学贷款,student loan,助学贷款,NOUN,B2
 助手,helper,助手,NOUN,B2
 助跑,run-up,助跑,NOUN,B2
-努力/赌注,effort bet,努力/赌注,NOUN,B2
+努力,effort bet,努力,NOUN,B2
 努力地,hard,努力地,ADV,B2
 劳动力市场,labor market,劳动力市场,NOUN,B2
 勇敢的,courageous,勇敢的,ADJ,B2
@@ -1311,7 +1311,7 @@ X光片,x-ray,X光片,NOUN,B2
 卷曲的,curly,卷曲的,ADJ,B2
 卸货,to unload,卸货,VERB,B2
 历史,historical,历史的,ADJ,B2
-历史/故事,history story,历史/故事,NOUN,B2
+历史,history story,历史,NOUN,B2
 历史上,historically,历史上,ADV,B2
 历史主义,historicism,历史主义,NOUN,B2
 历史学家,historian,历史学家,NOUN,B2
@@ -1360,7 +1360,7 @@ X光片,x-ray,X光片,NOUN,B2
 叉子,pitchfork,叉子,NOUN,B2
 及物性,transitivity,及物性,NOUN,B2
 友好的,amicable,友好的,ADJ,B2
-双人自行车 / 搭档,tandem duo,双人自行车 / 搭档,NOUN,B2
+双人自行车,tandem duo,双人自行车,NOUN,B2
 双关语,double entendre,双关语,NOUN,B2
 双周的,biweekly,双周的,ADJ,B2
 双头的,two-headed,双头的,ADJ,B2
@@ -1400,7 +1400,7 @@ X光片,x-ray,X光片,NOUN,B2
 发推文,to tweet,发推文,VERB,B2
 发明,invention,发明,NOUN,B2
 发现物,find,发现物,NOUN,B2
-发球/加价,serve markup,发球/加价,NOUN,B2
+发球,serve markup,发球,NOUN,B2
 发生,to occur,发生,VERB,B2
 发生,to take place,举行,VERB,B2
 发生率,incidence,发生率,NOUN,B2
@@ -1420,7 +1420,7 @@ X光片,x-ray,X光片,NOUN,B2
 发髻,hair bun,发髻,NOUN,B2
 取得资格,to qualify,使合格,VERB,B2
 取来,to fetch,取来,VERB,B2
-取消的/设定的,cancelled set,取消的/设定的,ADJ,B2
+取消的,cancelled set,取消的,ADJ,B2
 取消资格,to disqualify,取消资格,VERB,B2
 受伤,wounded,受伤的,ADJ,B2
 受压迫的,oppressed,受压迫的,ADJ,B2
@@ -1454,7 +1454,7 @@ X光片,x-ray,X光片,NOUN,B2
 变量,variables,变量,NOUN,B2
 变魔术,to conjure,变魔术,VERB,B2
 变黑,to blacken,变黑,VERB,B2
-叙事,narrative,叙述；故事,NOUN,B2
+叙事,narrative,叙述,NOUN,B2
 叙事短诗,lay,叙事短诗,NOUN,B2
 叙利亚的,syrian,叙利亚的,ADJ,B2
 叙述,narration,叙述,NOUN,B2
@@ -1497,7 +1497,7 @@ X光片,x-ray,X光片,NOUN,B2
 可变格的,declinable,可变格的,ADJ,B2
 可命名的,nameable,可命名的,ADJ,B2
 可忍受的,bearable,可忍受的,ADJ,B2
-可怕地/非常,terribly,可怕地/非常,ADV,B2
+可怕地,terribly,可怕地,ADV,B2
 可怕的,horrible,可怕的,ADJ,B2
 可怕的,terrifying,令人恐惧的,ADJ,B2
 可怜的,poor wretched,可怜的,ADJ,B2
@@ -1592,7 +1592,7 @@ X光片,x-ray,X光片,NOUN,B2
 同性恋者,gay,同性恋者,NOUN,B2
 同情,commiseration,同情,NOUN,B2
 同情,sympathy,同情,NOUN,B2
-同情/共情,sympathy empathy,同情/共情,NOUN,B2
+同情,sympathy empathy,同情,NOUN,B2
 同情的,sympathetic,同情的,ADJ,B2
 同意,to assent,同意,VERB,B2
 同意,to consent,同意,VERB,B2
@@ -1639,7 +1639,7 @@ X光片,x-ray,X光片,NOUN,B2
 君主,monarch,君主,NOUN,B2
 君主制,monarchy,君主制,NOUN,B2
 吝啬,parsimony,吝啬,NOUN,B2
-吝啬,stinginess,吝啬；小气,NOUN,B2
+吝啬,stinginess,吝啬,NOUN,B2
 吝啬,to stint,吝啬,VERB,B2
 吝啬的,miserly,吝啬的,ADJ,B2
 吝啬的,parsimonious,吝啬的,ADJ,B2
@@ -1648,10 +1648,10 @@ X光片,x-ray,X光片,NOUN,B2
 吞并,to annex,兼并,VERB,B2
 吞食,to devour,吞食,VERB,B2
 吟游诗人,bard,吟游诗人,NOUN,B2
-吠/责骂,to bark scold,吠/责骂,VERB,B2
+吠,to bark scold,吠,VERB,B2
 否决,veto,否决,NOUN,B2
 否认,to disavow,否认,VERB,B2
-否认 / 抛弃,to renounce to disown,否认 / 抛弃,VERB,B2
+否认,to renounce to disown,否认,VERB,B2
 含蓄地,implicitly,含蓄地,ADV,B2
 含蓄的,implicit,含蓄的,ADJ,B2
 听众,listener,听众,NOUN,B2
@@ -1718,7 +1718,7 @@ X光片,x-ray,X光片,NOUN,B2
 哎呀,darn,哎呀,INTJ,B2
 哎呀,yikes,哎呀,INTJ,B2
 哑的,dumb,愚蠢的,ADJ,B2
-哑的,mute,沉默的；哑的,ADJ,B2
+哑的,mute,沉默的,ADJ,B2
 哔声,beep,吱吱声,NOUN,B2
 哗啦声,clatter,哗啦声,NOUN,B2
 哥们,bro,哥们,NOUN,B2
@@ -1806,7 +1806,7 @@ X光片,x-ray,X光片,NOUN,B2
 团聚,reunion,重聚,NOUN,B2
 园丁,gardener,园丁,NOUN,B2
 园艺,gardening,园艺,NOUN,B2
-困住/砍倒,to trap fell,困住/砍倒,VERB,B2
+困住,to trap fell,困住,VERB,B2
 困倦,sleep sleepiness,困倦,NOUN,B2
 困境,dilemma,困境,NOUN,B2
 困惑,bewilderment,困惑,NOUN,B2
@@ -1889,7 +1889,7 @@ X光片,x-ray,X光片,NOUN,B2
 在这里面,in here,在这里面,ADV,B2
 在那上面,up there,在那上面,ADV,B2
 在那下面,down there,在那下面,ADV,B2
-在那些日子/当时,in those days,在那些日子/当时,ADV,B2
+在那些日子,in those days,在那些日子,ADV,B2
 在那边,over there,在那边,ADV,B2
 在里面,inside,在里面,ADV,B2
 在附近,near,在附近,ADP,B2
@@ -1914,7 +1914,7 @@ X光片,x-ray,X光片,NOUN,B2
 地缘政治,geopolitics,地缘政治,NOUN,B2
 地质,geological,地质的,ADJ,B2
 地震的,seismic,地震的,ADJ,B2
-场景/舞台,scene stage,场景/舞台,NOUN,B2
+场景,scene stage,场景,NOUN,B2
 均势,balance of power,均势,NOUN,B2
 均匀地,evenly,均匀地,ADV,B2
 坏,worse,更糟的,ADJ,B2
@@ -1938,7 +1938,7 @@ X光片,x-ray,X光片,NOUN,B2
 坚韧,tenacity,坚韧,NOUN,B2
 坚韧的,tenacious,顽强的,ADJ,B2
 坟墓,grave,坟墓,NOUN,B2
-坠落/猛冲,to fall crash,坠落/猛冲,VERB,B2
+坠落,to fall crash,坠落,VERB,B2
 坦率地,frankly,坦率地,ADV,B2
 垂死的,dying,垂死的,ADJ,B2
 垂直,vertical,垂直的,ADJ,B2
@@ -1947,7 +1947,7 @@ X光片,x-ray,X光片,NOUN,B2
 垄断,to monopolize,垄断,VERB,B2
 垄断的,monopolistic,垄断的,ADJ,B2
 垫子,cushion,垫子,NOUN,B2
-垫草 / 猫砂,litter bedding,垫草 / 猫砂,NOUN,B2
+垫草,litter bedding,垫草,NOUN,B2
 埃及人,egyptian,埃及人,NOUN,B2
 埃及的,egyptian,埃及的,ADJ,B2
 埃米尔的,emiri,埃米尔的,ADJ,B2
@@ -1960,7 +1960,7 @@ X光片,x-ray,X光片,NOUN,B2
 培养,cultivation,培养,NOUN,B2
 基于,based,基于,ADJ,B2
 基于,to be based on,基于,VERB,B2
-基于/以此为基础,building upon,基于/以此为基础,ADV,B2
+基于,building upon,基于,ADV,B2
 基因,genetic,基因的,ADJ,B2
 基因组,genome,基因组,NOUN,B2
 基本收入,basic income,基本收入,NOUN,B2
@@ -1968,7 +1968,7 @@ X光片,x-ray,X光片,NOUN,B2
 基本的,elementary,基本的,ADJ,B2
 基督徒,christian,基督徒,NOUN,B2
 基督教,christianity,基督教,NOUN,B2
-基础/理由,ground basis,基础/理由,NOUN,B2
+基础,ground basis,基础,NOUN,B2
 基础设施,infrastructure,基础设施,NOUN,B2
 堂兄弟,cousin,表亲,NOUN,B2
 堆,heap,堆,NOUN,B2
@@ -2147,7 +2147,7 @@ X光片,x-ray,X光片,NOUN,B2
 奥林匹克的,olympic,奥林匹克的,ADJ,B2
 女侍者,waitress,女服务员,NOUN,B2
 女同性恋的,lesbian,女同性恋的,ADJ,B2
-女孩/女朋友,girl girlfriend,女孩/女朋友,NOUN,B2
+女孩,girl girlfriend,女孩,NOUN,B2
 女家长,matriarch,女家长,NOUN,B2
 女性朋友,female friend,女性朋友,NOUN,B2
 女性特质,femininity,女性气质,NOUN,B2
@@ -2169,7 +2169,7 @@ X光片,x-ray,X光片,NOUN,B2
 她,she they,她,PRON,B2
 她的,her,她的,DET,B2
 好,alright,好的,ADV,B2
-好/很好,good well,好/很好,ADJ,B2
+好,good well,好,ADJ,B2
 好吧,well,好吧,INTJ,B2
 好奇心,curiosity,好奇心,NOUN,B2
 好奇的,inquisitive,好奇的,ADJ,B2
@@ -2178,17 +2178,17 @@ X光片,x-ray,X光片,NOUN,B2
 好战的,belligerent,好战的,ADJ,B2
 好斗性,combativeness,好斗性,NOUN,B2
 好的,okay,好的,INTJ,B2
-好色 / 淫荡,lubricity,好色 / 淫荡,NOUN,B2
+好色,lubricity,好色,NOUN,B2
 好辩,argumentativeness,好辩,NOUN,B2
-如画的；别致的,picturesque,如画的；别致的,ADJ,B2
+如画的；别致的,picturesque,如画的,ADJ,B2
 妇科,gynaecology,妇科,NOUN,B2
 妈妈,mom,妈妈,NOUN,B2
 妓女,whore,妓女,NOUN,B2
 妖魔化,to demonize,妖魔化,VERB,B2
 妥协,compromise,妥协,NOUN,B2
 妹妹,little sister,妹妹,NOUN,B2
-妻子/夫人,wife mrs,妻子/夫人,NOUN,B2
-姐夫,brother-in-law,姐夫/妹夫,NOUN,B2
+妻子,wife mrs,妻子,NOUN,B2
+姐夫,brother-in-law,姐夫,NOUN,B2
 姓,last name,姓,NOUN,B2
 委员会,committees,委员会,NOUN,B2
 委员会,councils,委员会,NOUN,B2
@@ -2222,10 +2222,10 @@ X光片,x-ray,X光片,NOUN,B2
 字面主义,literalism,字面主义,NOUN,B2
 字面的,literal,字面的,ADJ,B2
 存在,to subsist,存在,VERB,B2
-存在/有,to exist there is,存在/有,VERB,B2
+存在,to exist there is,存在,VERB,B2
 存在主义,existentialism,存在主义,NOUN,B2
 存在主义的,existential,存在主义的,ADJ,B2
-存在的 / 可获得的,present available,存在的 / 可获得的,ADJ,B2
+存在的,present available,存在的,ADJ,B2
 存放,to deposit,存放,VERB,B2
 孙女,granddaughter,孙女,NOUN,B2
 孙辈,grandchild,孙辈,NOUN,B2
@@ -2237,7 +2237,7 @@ X光片,x-ray,X光片,NOUN,B2
 孤立的,isolated,孤立的,ADJ,B2
 学习,to study,学习,VERB,B2
 学习曲线,learning curve,学习曲线,NOUN,B2
-学位/考试,degree exam,学位/考试,NOUN,B2
+学位,degree exam,学位,NOUN,B2
 学年,school year,学年,NOUN,B2
 学术的,scholastic,经院哲学的,ADJ,B2
 学校的,school,学校的,ADJ,B2
@@ -2259,8 +2259,8 @@ X光片,x-ray,X光片,NOUN,B2
 守夜,to stay awake,守夜,VERB,B2
 守望,lookout,瞭望,NOUN,B2
 安全,security,安全,NOUN,B2
-安全的/可靠的,safe secure,安全的/可靠的,ADJ,B2
-安全的，安保的,security-related,安全的，安保的,ADJ,B2
+安全的,safe secure,安全的,ADJ,B2
+安全的，安保的,security-related,安全的,ADJ,B2
 安息日,sabbath,安息日,NOUN,B2
 安慰,consolation,安慰,NOUN,B2
 安慰,to console,安慰,VERB,B2
@@ -2292,11 +2292,11 @@ X光片,x-ray,X光片,NOUN,B2
 官僚,bureaucrat,官僚,NOUN,B2
 官僚机构,bureaucracy,官僚主义,NOUN,B2
 定义,to define,定义,VERB,B2
-定价,pricing,定价 / 收费,NOUN,B2
+定价,pricing,定价,NOUN,B2
 定价,to set rates,定价,VERB,B2
 定位,to locate,定位,VERB,B2
 定位,to situate,定位,VERB,B2
-定位 / 安置,to position,定位 / 安置,VERB,B2
+定位,to position,定位,VERB,B2
 定居点,settlement,解决,NOUN,B2
 定居的,resident,定居的,ADJ,B2
 定性的,qualitative,定性的,ADJ,B2
@@ -2395,12 +2395,12 @@ X光片,x-ray,X光片,NOUN,B2
 寻找,to look for,寻找,VERB,B2
 寻求庇护者,asylum seeker,寻求庇护者,NOUN,B2
 寻求者,seeker,寻求者,NOUN,B2
-寻觅，找到,to unearth to track down,寻觅，找到,VERB,B2
+寻觅，找到,to unearth to track down,寻觅,VERB,B2
 导游,guided tour,导游,NOUN,B2
 导演,directing,导演,NOUN,B2
 导电性,conductivity,导电性,NOUN,B2
 导航的,navigational,导航的,ADJ,B2
-导航；航行,to navigate,导航；航行,VERB,B2
+导航；航行,to navigate,导航,VERB,B2
 寿命,age lifetime,寿命,NOUN,B2
 封建主义,feudalism,封建主义,NOUN,B2
 封爵,to ennoble,使高贵,VERB,B2
@@ -2410,7 +2410,7 @@ X光片,x-ray,X光片,NOUN,B2
 射手座,sagittarius,射手座,NOUN,B2
 射线,ray,光线,NOUN,B2
 将要,would,将要,AUX,B2
-将要/会,will shall,将要/会,AUX,B2
+将要,will shall,将要,AUX,B2
 尊重,esteem,尊重,NOUN,B2
 尊重,respect,尊重,NOUN,B2
 小丑,buffoon,小丑,NOUN,B2
@@ -2455,20 +2455,20 @@ X光片,x-ray,X光片,NOUN,B2
 尖叫,scream,尖叫,NOUN,B2
 尖锐,acute,剧烈的,ADJ,B2
 尖锐的,shrill,尖锐的,ADJ,B2
-尝试 / 试穿,to try to try on,尝试 / 试穿,VERB,B2
+尝试,to try to try on,尝试,VERB,B2
 就业,employment,就业,NOUN,B2
 就职,to assume office,就任,VERB,B2
 就职,to inaugurate,启用,VERB,B2
 尴尬,awkwardness,尴尬,NOUN,B2
 尸体,corpse,尸体,NOUN,B2
-尸体/相似的,corpse alike,尸体/相似的,NOUN,B2
+尸体,corpse alike,尸体,NOUN,B2
 尸检,autopsy,尸检,NOUN,B2
-尺寸 / 测量,size measure,尺寸 / 测量,NOUN,B2
+尺寸,size measure,尺寸,NOUN,B2
 尽管,despite,尽管,ADP,B2
 尽管,although,尽管,CCONJ,B2
 尽管如此,nevertheless,尽管如此,ADV,B2
 局,directorate,局,NOUN,B2
-层/仓库,layer storage,层/仓库,NOUN,B2
+层,layer storage,层,NOUN,B2
 居中,to center,居中,VERB,B2
 居住地,place of residence,居住地,NOUN,B2
 居民,inhabitant,居民,NOUN,B2
@@ -2481,7 +2481,7 @@ X光片,x-ray,X光片,NOUN,B2
 属于,to belong,属于,VERB,B2
 属性,attribute,属性,NOUN,B2
 屠夫,butcher,屠夫,NOUN,B2
-屠宰/击落,to slaughter shoot down,屠宰/击落,VERB,B2
+屠宰,to slaughter shoot down,屠宰,VERB,B2
 山丘,hill,小山,NOUN,B2
 山羊,goat,山羊,NOUN,B2
 山谷,dal,山谷,NOUN,B2
@@ -2555,7 +2555,7 @@ X光片,x-ray,X光片,NOUN,B2
 布道,preaching,劝诫,NOUN,B2
 布道,sermon,布道,NOUN,B2
 布道,to preach,布道,VERB,B2
-帅哥/美女,good-looking person,帅哥/美女,NOUN,B2
+帅哥,good-looking person,帅哥,NOUN,B2
 帆,sail,帆,NOUN,B2
 帆布,canvas,帆布,NOUN,B2
 希望,to hope,希望,VERB,B2
@@ -2565,7 +2565,7 @@ X光片,x-ray,X光片,NOUN,B2
 帝国的,imperial,帝国的,ADJ,B2
 带子,band tape,带子,NOUN,B2
 带子,strap,带子,NOUN,B2
-带来/引导,to bring lead,带来/引导,VERB,B2
+带来,to bring lead,带来,VERB,B2
 帮派,gang,帮派,NOUN,B2
 常去,frequent,频繁的,ADJ,B2
 常去,to frequent,常去,VERB,B2
@@ -2942,7 +2942,7 @@ X光片,x-ray,X光片,NOUN,B2
 情感体验,emotional experience,情感体验,NOUN,B2
 情报机构,intelligence service,情报机构,NOUN,B2
 情绪,emotion,情感,NOUN,B2
-情绪性,emotionality,感性/情绪化,NOUN,B2
+情绪性,emotionality,感性,NOUN,B2
 惊人,astonishing,令人惊讶的,ADJ,B2
 惊叹,to marvel,使惊奇,VERB,B2
 惊讶,amazement,惊愕,NOUN,B2
@@ -3012,7 +3012,7 @@ X光片,x-ray,X光片,NOUN,B2
 成功的,successful,成功的,ADJ,B2
 成功通过,succeed to pass,成功通过,VERB,B2
 成员国,member state,成员国,NOUN,B2
-成对的 / 伴随的,paired accompanied,成对的 / 伴随的,ADJ,B2
+成对的,paired accompanied,成对的,ADJ,B2
 成年,adult,成年的,ADJ,B2
 成本加成销售,murabaha,成本加成销售,NOUN,B2
 成比例的,proportional,成比例的,ADJ,B2
@@ -3042,16 +3042,16 @@ X光片,x-ray,X光片,NOUN,B2
 户外,outdoors,户外,ADV,B2
 房主,property owner,房主,NOUN,B2
 房地产,real estate,房地产,ADJ,B2
-所以/如此,so thus,所以/如此,ADV,B2
+所以,so thus,所以,ADV,B2
 所得税,income tax,所得税,NOUN,B2
 所指,signified,所指,NOUN,B2
-所有/大家,all everyone,所有/大家,PRON,B2
+所有,all everyone,所有,PRON,B2
 所有权,ownership,,NOUN,B2
 所有权,property right,所有权,NOUN,B2
 所有者,owner,所有者,NOUN,B2
 手动地,manually,手动地,ADV,B2
 手工的,manual,手工的,ADJ,B2
-手指/脚趾,finger toe,手指/脚趾,NOUN,B2
+手指,finger toe,手指,NOUN,B2
 手提包,handbag,手提包,NOUN,B2
 手无寸铁的,unarmed,手无寸铁的,ADJ,B2
 手术,surgery,手术,NOUN,B2
@@ -3119,7 +3119,7 @@ X光片,x-ray,X光片,NOUN,B2
 抄写员,copyist,抄写员,NOUN,B2
 把手,handle,把手,NOUN,B2
 抑制,inhibition,抑制,NOUN,B2
-抑郁的，压抑的,depressive,抑郁的，压抑的,ADJ,B2
+抑郁的，压抑的,depressive,抑郁的,ADJ,B2
 抒情的,lyrical,抒情的,ADJ,B2
 抓,to scratch,抓,VERB,B2
 抓住,to seize,抓住,VERB,B2
@@ -3211,7 +3211,7 @@ X光片,x-ray,X光片,NOUN,B2
 拥挤的,packed,打包,ADJ,B2
 拥有,own,自己的,ADJ,B2
 拥有,to own,拥有,VERB,B2
-拥有/处置,to have at one's disposal,拥有/处置,VERB,B2
+拥有,to have at one's disposal,拥有,VERB,B2
 拦截,to intercept,拦截,VERB,B2
 拧,to screw,拧,VERB,B2
 拧干,to wring,拧干,VERB,B2
@@ -3257,7 +3257,7 @@ X光片,x-ray,X光片,NOUN,B2
 挨饿,to starve,挨饿,VERB,B2
 挪威的,norwegian,挪威的,ADJ,B2
 挪用,misappropriation,挪用,NOUN,B2
-挫伤 / 外伤,contusion trauma,挫伤 / 外伤,NOUN,B2
+挫伤,contusion trauma,挫伤,NOUN,B2
 挫折,setback,挫折,NOUN,B2
 挫败,to frustrate,挫败,VERB,B2
 振动,to vibrate,振动,VERB,B2
@@ -3318,8 +3318,8 @@ X光片,x-ray,X光片,NOUN,B2
 控制,hold,控制,NOUN,B2
 控制,to steer control,控制,VERB,B2
 控告,to indict,控告,VERB,B2
-推/生长,to push to grow,推/生长,VERB,B2
-推/碰撞,to bump push,推/碰撞,VERB,B2
+推,to push to grow,推,VERB,B2
+推,to bump push,推,VERB,B2
 推力,thrust,猛推,NOUN,B2
 推动,to push through,推动,VERB,B2
 推广者,promoter,推动者,NOUN,B2
@@ -3342,7 +3342,7 @@ X光片,x-ray,X光片,NOUN,B2
 描绘,to delineate,描绘,VERB,B2
 描绘的,depicted,描绘的,ADJ,B2
 描绘的,depicting,描绘的,ADJ,B2
-描绘；标出,to trace,描绘；标出,VERB,B2
+描绘；标出,to trace,描绘,VERB,B2
 描述,description,描述,NOUN,B2
 描述性的,descriptive,描述性的,ADJ,B2
 提供,to provide,提供,VERB,B2
@@ -3393,7 +3393,7 @@ X光片,x-ray,X光片,NOUN,B2
 摸清,to map out,摸清,VERB,B2
 撒酒疯,rowdiness,撒酒疯,NOUN,B2
 撞击,to crash into,撞击,VERB,B2
-撞击 / 冒犯,to strike to offend,撞击 / 冒犯,VERB,B2
+撞击,to strike to offend,撞击,VERB,B2
 撤回,to retract,撤回,VERB,B2
 撤销,quashing,撤销,NOUN,B2
 撬开,to break into,撬开,VERB,B2
@@ -3417,13 +3417,13 @@ X光片,x-ray,X光片,NOUN,B2
 收音机,radio,收音机,NOUN,B2
 改变,to alter,改变,VERB,B2
 改变,to vary,改变,VERB,B2
-改变/交换,change exchange,改变/交换,NOUN,B2
+改变,change exchange,改变,NOUN,B2
 攻击者,attacker,攻击者,NOUN,B2
 放,to lay put,放,VERB,B2
 放下,to drop off,放下,VERB,B2
 放下,to lay down,放下,VERB,B2
 放回,to put back,放回,VERB,B2
-放回 / 重新定位,to put back to reposition,放回 / 重新定位,VERB,B2
+放回,to put back to reposition,放回,VERB,B2
 放大,amplification,放大,NOUN,B2
 放大,to amplify,放大,VERB,B2
 放射性的,radioactive,放射性的,ADJ,B2
@@ -3449,7 +3449,7 @@ X光片,x-ray,X光片,NOUN,B2
 故意地,intentionally,故意地,ADV,B2
 故意地,on purpose,故意地,ADV,B2
 故意的,deliberate,深思熟虑的,ADJ,B2
-故意的/恶意的,deliberate malicious,故意的/恶意的,ADJ,B2
+故意的,deliberate malicious,故意的,ADJ,B2
 故障,glitch,故障,NOUN,B2
 故障,malfunction,故障,NOUN,B2
 效忠誓言,oath of allegiance,效忠誓言,NOUN,B2
@@ -3533,7 +3533,7 @@ X光片,x-ray,X光片,NOUN,B2
 新奇事物,novelty,新奇事物,NOUN,B2
 新娘,bride,新娘,NOUN,B2
 新建建筑,new construction,新建建筑,NOUN,B2
-新手；初学者,neophyte,新手；初学者,NOUN,B2
+新手；初学者,neophyte,新手,NOUN,B2
 新月,new moon,新月,NOUN,B2
 新来者,newcomer,新来者,NOUN,B2
 新生儿的,neonatal,新生儿的,ADJ,B2
@@ -3563,7 +3563,7 @@ X光片,x-ray,X光片,NOUN,B2
 旅馆老板,hotelier,旅馆老板,NOUN,B2
 旋律,melody,旋律,NOUN,B2
 旋转,to spin,旋转,VERB,B2
-旋风,whirlwind,旋风；漩涡,NOUN,B2
+旋风,whirlwind,旋风,NOUN,B2
 旗帜,flag,旗帜,NOUN,B2
 无,without,没有,ADP,B2
 无习惯,habitlessness,无习惯,NOUN,B2
@@ -3592,7 +3592,7 @@ X光片,x-ray,X光片,NOUN,B2
 无摩擦的,frictionless,无摩擦的,ADJ,B2
 无政府主义者,anarchist,无政府主义者,NOUN,B2
 无政府状态,anarchy,无政府状态,NOUN,B2
-无效,nullity,无效；无能,NOUN,B2
+无效,nullity,无效,NOUN,B2
 无效的,null and void,无效的,ADJ,B2
 无敌的,invincible,无敌的,ADJ,B2
 无望的,bleak,无望的,ADJ,B2
@@ -3778,7 +3778,7 @@ X光片,x-ray,X光片,NOUN,B2
 最终的,ultimate,最终的,ADJ,B2
 最近的,nearest,最近的,ADJ,B2
 最远,furthest,最远,ADV,B2
-最迟/最近,latest,最迟/最近,ADV,B2
+最迟,latest,最迟,ADV,B2
 最里面的,innermost,最里面的,ADV,B2
 最重要的事,most important thing,最重要的事,NOUN,B2
 最高的,highest,最高的,ADJ,B2
@@ -3828,7 +3828,7 @@ X光片,x-ray,X光片,NOUN,B2
 有组织的,organized,有组织的,ADJ,B2
 有经验,experienced,老练的,ADJ,B2
 有缺陷的,defective,有缺陷的,ADJ,B2
-有罪的/欠钱的,guilty owes,有罪的/欠钱的,ADJ,B2
+有罪的,guilty owes,有罪的,ADJ,B2
 有能力的,competent,胜任的,ADJ,B2
 有色性,coloredness,有色性,NOUN,B2
 有色的,colored,有色的,ADJ,B2
@@ -3950,7 +3950,7 @@ X光片,x-ray,X光片,NOUN,B2
 柑橘,citrus,柑橘,NOUN,B2
 染色,to dye,染色,VERB,B2
 柱子,pillar,柱子,NOUN,B2
-柳叶刀 / 刺血针,lancet,柳叶刀 / 刺血针,NOUN,B2
+柳叶刀,lancet,柳叶刀,NOUN,B2
 柴火,firewood,木柴,NOUN,B2
 标准,criterion,标准,NOUN,B2
 标准化,standardization,标准化,NOUN,B2
@@ -3959,7 +3959,7 @@ X光片,x-ray,X光片,NOUN,B2
 标准阿拉伯语,standard arabic,标准阿拉伯语,NOUN,B2
 标本,specimen,标本,NOUN,B2
 标记,to mark,标记,VERB,B2
-标记 / 参考点,landmark reference point,标记 / 参考点,NOUN,B2
+标记,landmark reference point,标记,NOUN,B2
 标题,heading,标题,NOUN,B2
 标题,headline,标题,NOUN,B2
 栏杆,balustrade,栏杆,NOUN,B2
@@ -3972,13 +3972,13 @@ X光片,x-ray,X光片,NOUN,B2
 校准,to calibrate,校准,VERB,B2
 校对,proofreading,校对,NOUN,B2
 样品,sample,样本,NOUN,B2
-样品 / 排练,sample rehearsal,样品 / 排练,NOUN,B2
+样品,sample rehearsal,样品,NOUN,B2
 核对,to collate,核对,VERB,B2
 核战争,nuclear war,核战争,NOUN,B2
 核武器,nuclear weapon,核武器,NOUN,B2
 核的,nuclear,核的,ADJ,B2
 根本,at all,根本,ADV,B2
-根本/绝对,at all absolutely,根本/绝对,ADV,B2
+根本,at all absolutely,根本,ADV,B2
 根除,to extirpate,根除,VERB,B2
 根除,to uproot,根除,VERB,B2
 格式,format,格式,NOUN,B2
@@ -4089,7 +4089,7 @@ X光片,x-ray,X光片,NOUN,B2
 残奥会的,paralympic,残奥会的,ADJ,B2
 残忍的,cruel,残忍的,ADJ,B2
 残暴,brutality,残暴,NOUN,B2
-残留物 / 废弃物,residues waste,残留物 / 废弃物,NOUN,B2
+残留物,residues waste,残留物,NOUN,B2
 残留的,residual,残留的,ADJ,B2
 残疾的,disabled,残疾的,ADJ,B2
 残缺的,lacunary,残缺的,ADJ,B2
@@ -4204,7 +4204,7 @@ X光片,x-ray,X光片,NOUN,B2
 沉默寡言的,taciturn,沉默寡言的,ADJ,B2
 沙丘,dune,沙丘,NOUN,B2
 沙拉,salad,沙拉,NOUN,B2
-沙拉/生菜,salad lettuce,沙拉/生菜,NOUN,B2
+沙拉,salad lettuce,沙拉,NOUN,B2
 沙文主义的,chauvinistic,沙文主义的,ADJ,B2
 沙滩,sands,沙滩,NOUN,B2
 沙龙,salon,沙龙,NOUN,B2
@@ -4240,7 +4240,7 @@ X光片,x-ray,X光片,NOUN,B2
 法学专家,jurisconsult,法学专家,NOUN,B2
 法学家,jurist,法学家,NOUN,B2
 法官,magistrate,法官,NOUN,B2
-法律/团队,law team,法律/团队,NOUN,B2
+法律,law team,法律,NOUN,B2
 法律职业,legal profession,律师业,NOUN,B2
 法理学,jurisprudence,法理学,NOUN,B2
 法老,pharaoh,法老,NOUN,B2
@@ -4380,7 +4380,7 @@ X光片,x-ray,X光片,NOUN,B2
 混蛋,the devil bastard,混蛋,NOUN,B2
 淹没,to submerge,淹没,VERB,B2
 添燃料,to stoke,添燃料,VERB,B2
-清新/鲜艳,freshness bloom,清新/鲜艳,NOUN,B2
+清新,freshness bloom,清新,NOUN,B2
 清晰,clarity,清晰,NOUN,B2
 清晰表达,articulation,清晰表达,NOUN,B2
 清洁,cleaning,清洁,NOUN,B2
@@ -4392,7 +4392,7 @@ X光片,x-ray,X光片,NOUN,B2
 清蒸的,steamed,清蒸的,ADJ,B2
 清醒,sober,清醒的,ADJ,B2
 清醒,sobriety,清醒,NOUN,B2
-清醒 / 明晰,lucidity,清醒 / 明晰,NOUN,B2
+清醒,lucidity,清醒,NOUN,B2
 清除,to purge,清除,VERB,B2
 清零,to zero out,清零,VERB,B2
 渎职,malfeasance,渎职,NOUN,B2
@@ -4416,7 +4416,7 @@ X光片,x-ray,X光片,NOUN,B2
 渴望的,keen eager,渴望的,ADJ,B2
 渴求,craving,渴求,NOUN,B2
 游客,tourist,游客,NOUN,B2
-游戏/玩耍,play game,游戏/玩耍,NOUN,B2
+游戏,play game,游戏,NOUN,B2
 游戏规则,game rule,游戏规则,NOUN,B2
 游泳,swimming,游泳,NOUN,B2
 游牧,nomadism,游牧生活,NOUN,B2
@@ -4449,7 +4449,7 @@ X光片,x-ray,X光片,NOUN,B2
 满意,satisfaction,满意,NOUN,B2
 满意的,content,满意的,ADJ,B2
 满月,full moon,满月,NOUN,B2
-满的/醉的,full drunk,满的/醉的,ADJ,B2
+满的,full drunk,满的,ADJ,B2
 满足,fulfillment,满足,NOUN,B2
 满足的,fulfilled,满足的,ADJ,B2
 滥交的,promiscuous,滥交的,ADJ,B2
@@ -4596,7 +4596,7 @@ X光片,x-ray,X光片,NOUN,B2
 煽动叛乱,sedition,煽动叛乱,NOUN,B2
 煽动性,demagoguery,煽动性,NOUN,B2
 熄灭,extinguish,熄灭,VERB,B2
-熄灭的/无精打采的,extinguished listless,熄灭的/无精打采的,ADJ,B2
+熄灭的,extinguished listless,熄灭的,ADJ,B2
 熊,bear,熊,NOUN,B2
 熏蒸,to fumigate,熏蒸,VERB,B2
 熔岩,lava,熔岩,NOUN,B2
@@ -4609,7 +4609,7 @@ X光片,x-ray,X光片,NOUN,B2
 燃料,fuel,燃料,NOUN,B2
 燃烧器,burner,燃烧器,NOUN,B2
 燃烧的,burning,灼热的,ADJ,B2
-燃烧的/敏锐的,ablaze keen,燃烧的/敏锐的,ADJ,B2
+燃烧的,ablaze keen,燃烧的,ADJ,B2
 燧石,flint,燧石,NOUN,B2
 爆发,outbreak,爆发,NOUN,B2
 爆发,to break out,爆发,VERB,B2
@@ -4617,7 +4617,7 @@ X光片,x-ray,X光片,NOUN,B2
 爆炸,to explode,爆炸,VERB,B2
 爆裂,to burst,爆发,VERB,B2
 爬行,to crawl,爬行,VERB,B2
-爱做梦的/空想家,dreamy dreamer,爱做梦的/空想家,ADJ,B2
+爱做梦的,dreamy dreamer,爱做梦的,ADJ,B2
 爱好,pastime,爱好,NOUN,B2
 爱好者,enthusiast,爱好者,NOUN,B2
 爱尔兰人,irish person,爱尔兰人,NOUN,B2
@@ -4728,11 +4728,11 @@ X光片,x-ray,X光片,NOUN,B2
 猪,swine,猪,NOUN,B2
 猫,cats,猫,NOUN,B2
 猫头鹰,owl,猫头鹰,NOUN,B2
-猿/猴,monkey ape,猿/猴,NOUN,B2
-率领 / 提出,to lead to put forward,率领 / 提出,VERB,B2
+猿,monkey ape,猿,NOUN,B2
+率领,to lead to put forward,率领,VERB,B2
 王室,royalty,王室,NOUN,B2
 王牌,ace,王牌,NOUN,B2
-王牌/尸体,ace carcass,王牌/尸体,NOUN,B2
+王牌,ace carcass,王牌,NOUN,B2
 玛瑙,agate,玛瑙,NOUN,B2
 玩具,toys,玩具,NOUN,B2
 玩家,player,运动员,NOUN,B2
@@ -4796,10 +4796,10 @@ X光片,x-ray,X光片,NOUN,B2
 用完,to use up,用完,VERB,B2
 用户,user,用户,NOUN,B2
 用益权,usufruct,用益权,NOUN,B2
-用链条锁住；连贯,to chain to link together,用链条锁住；连贯,VERB,B2
+用链条锁住；连贯,to chain to link together,用链条锁住,VERB,B2
 田园诗,idyll,田园诗,NOUN,B2
 甲壳类动物,crustacean,甲壳类动物,NOUN,B2
-甲板/轮胎,deck tire,甲板/轮胎,NOUN,B2
+甲板,deck tire,甲板,NOUN,B2
 甲虫,beetle,甲虫,NOUN,B2
 申请,application,申请,NOUN,B2
 申请人,applicant,申请人,NOUN,B2
@@ -4874,7 +4874,7 @@ X光片,x-ray,X光片,NOUN,B2
 痉挛,spasm convulsion,痉挛,NOUN,B2
 痒,itch,痒,NOUN,B2
 痒痒粉,itching powder,痒痒粉,NOUN,B2
-痕迹/轨道,track trace,痕迹/轨道,NOUN,B2
+痕迹,track trace,痕迹,NOUN,B2
 痛恨,to execrate,痛恨,VERB,B2
 痛苦,anguish,痛苦,NOUN,B2
 痛苦,misery,痛苦,NOUN,B2
@@ -4883,7 +4883,7 @@ X光片,x-ray,X光片,NOUN,B2
 痰,phlegm,痰,NOUN,B2
 痰液,sputum,痰液,NOUN,B2
 痴呆,dementia,痴呆,NOUN,B2
-痴呆，疯狂,dementia madness,痴呆，疯狂,NOUN,B2
+痴呆，疯狂,dementia madness,痴呆,NOUN,B2
 痴迷的,entranced,痴迷的,ADJ,B2
 瘀伤,bruises,瘀伤,NOUN,B2
 瘙痒,itching,瘙痒,NOUN,B2
@@ -4905,7 +4905,7 @@ X光片,x-ray,X光片,NOUN,B2
 百科全书式的,encyclopedic,百科全书式的,ADJ,B2
 的,of,的,ADP,B2
 的,the,这,DET,B2
-的/被,of by,的/被,ADP,B2
+的,of by,的,ADP,B2
 皇家的,royal,皇家的,ADJ,B2
 皮层的,cortical,皮层的,ADJ,B2
 皮疹,rash,轻率的,ADJ,B2
@@ -4925,7 +4925,7 @@ X光片,x-ray,X光片,NOUN,B2
 监管的,regulatory,监管的,ADJ,B2
 监视,surveillance,监视,NOUN,B2
 监视,to spy,监视,VERB,B2
-盒子 / 罐,box can,盒子 / 罐,NOUN,B2
+盒子,box can,盒子,NOUN,B2
 盔甲,armor,盔甲,NOUN,B2
 盘旋,to hover,盘旋,VERB,B2
 盘查,to hail inspect,盘查,VERB,B2
@@ -4939,7 +4939,7 @@ X光片,x-ray,X光片,NOUN,B2
 目录,catalogue,目录,NOUN,B2
 目标,aims,目标,NOUN,B2
 目标,goal,目标,NOUN,B2
-目的/目的地,aim destination,目的/目的地,NOUN,B2
+目的,aim destination,目的,NOUN,B2
 目的论,teleology,目的论,NOUN,B2
 目瞪口呆,to gape,目瞪口呆,VERB,B2
 盲人,blind,百叶窗,NOUN,B2
@@ -5076,7 +5076,7 @@ X光片,x-ray,X光片,NOUN,B2
 碰撞,crash,碰撞,NOUN,B2
 碰撞,to bump,碰撞,VERB,B2
 碰撞,to crash,碰撞,VERB,B2
-碰撞/震惊,bump shock,碰撞/震惊,NOUN,B2
+碰撞,bump shock,碰撞,NOUN,B2
 碳,carbon,碳,NOUN,B2
 碳氢化合物,hydrocarbon,碳氢化合物,NOUN,B2
 碳水化合物,carbohydrate,碳水化合物,NOUN,B2
@@ -5153,7 +5153,7 @@ X光片,x-ray,X光片,NOUN,B2
 离子,ion,离子,NOUN,B2
 离开,away,离开,ADV,B2
 离开,exit,离开,VERB,B2
-离开/刺,to leave stick,离开/刺,VERB,B2
+离开,to leave stick,离开,VERB,B2
 离异的,divorced,离异的,ADJ,B2
 离心机,centrifuge,离心机,NOUN,B2
 离题,to digress,离题,VERB,B2
@@ -5170,7 +5170,7 @@ X光片,x-ray,X光片,NOUN,B2
 种植,planting,种植,NOUN,B2
 种类,kind sort,种类,NOUN,B2
 种类,sort,种类,NOUN,B2
-种类/物种,kind species,种类/物种,NOUN,B2
+种类,kind species,种类,NOUN,B2
 科学地,scientifically,科学地,ADV,B2
 科学家,scientists,科学家,NOUN,B2
 科学的,scientific,科学的,ADJ,B2
@@ -5213,7 +5213,7 @@ X光片,x-ray,X光片,NOUN,B2
 空缺的,vacant,空缺的,ADJ,B2
 空虚,emptiness,空虚,NOUN,B2
 空调,conditioning adaptation air conditioning,空调,NOUN,B2
-空闲的/休假,free off,空闲的/休假,ADJ,B2
+空闲的,free off,空闲的,ADJ,B2
 空间的,spatial,空间的,ADJ,B2
 穿上,to put on,穿上,VERB,B2
 穿梭巴士,shuttle,穿梭巴士,NOUN,B2
@@ -5245,7 +5245,7 @@ X光片,x-ray,X光片,NOUN,B2
 笔记本电脑,laptop,笔记本电脑,NOUN,B2
 笔迹学,graphology,笔迹学,NOUN,B2
 符号,symbol,象征,NOUN,B2
-符号学,semiology,符号学，症状学,NOUN,B2
+符号学,semiology,符号学,NOUN,B2
 符号学,semiotics,符号学,NOUN,B2
 符合,to conform,符合,VERB,B2
 笨拙,clumsiness,笨拙,NOUN,B2
@@ -5442,7 +5442,7 @@ X光片,x-ray,X光片,NOUN,B2
 绑架者,kidnapper,绑架者,NOUN,B2
 结,knot,结,NOUN,B2
 结婚纪念日,wedding anniversary,结婚纪念日,NOUN,B2
-结局，解决,outcome ending,结局，解决,NOUN,B2
+结局，解决,outcome ending,结局,NOUN,B2
 结巴,to stammer,结巴,VERB,B2
 结构主义的,structuralist,结构主义的,ADJ,B2
 结构性,structuredness,结构性,NOUN,B2
@@ -5556,7 +5556,7 @@ X光片,x-ray,X光片,NOUN,B2
 老妇人,older woman,老妇人,NOUN,B2
 老式的,old-fashioned,老式的,ADJ,B2
 老板主义,bossism,老板主义,NOUN,B2
-考虑/思考,to consider think,考虑/思考,VERB,B2
+考虑,to consider think,考虑,VERB,B2
 考试,exam,考试,NOUN,B2
 考试,examination,考试,NOUN,B2
 考验,ordeal,苦难,NOUN,B2
@@ -5641,7 +5641,7 @@ X光片,x-ray,X光片,NOUN,B2
 能够,be able to,能,AUX,B2
 能够,to be able,能,VERB,B2
 能够,to be able to,能够,VERB,B2
-能干的/优秀的,capable good,能干的/优秀的,ADJ,B2
+能干的,capable good,能干的,ADJ,B2
 能源危机,energy crisis,能源危机,NOUN,B2
 脂肪,fat,脂肪,NOUN,B2
 脂肪的,fatty,脂肪的,ADJ,B2
@@ -5816,7 +5816,7 @@ X光片,x-ray,X光片,NOUN,B2
 获得,to acquire,获得,VERB,B2
 获得,to gain,获得,VERB,B2
 获得,to secure,保护,VERB,B2
-获得/弄到,to get acquire,获得/弄到,VERB,B2
+获得,to get acquire,获得,VERB,B2
 获授权,authorized,有资格的,ADJ,B2
 获救,to be saved,获救,VERB,B2
 获胜者,winner,获胜者,NOUN,B2
@@ -5835,7 +5835,7 @@ X光片,x-ray,X光片,NOUN,B2
 著名,well-known,众所周知的,ADJ,B2
 著名的,illustrious,著名的,ADJ,B2
 著名的,renowned,著名的,ADJ,B2
-著名的/熟悉的,known famous,著名的/熟悉的,ADJ,B2
+著名的,known famous,著名的,ADJ,B2
 葡萄,grapes,葡萄,NOUN,B2
 葡萄牙语,portuguese,葡萄牙语,NOUN,B2
 董事职位,directorship,董事职位,NOUN,B2
@@ -5931,7 +5931,7 @@ X光片,x-ray,X光片,NOUN,B2
 表示,to denote,表示,VERB,B2
 表面的,superficial,表面的,ADJ,B2
 衰减,attenuation,衰减,NOUN,B2
-衰退/退潮,receding ebbing,衰退/退潮,NOUN,B2
+衰退,receding ebbing,衰退,NOUN,B2
 衷心的,heartfelt,衷心的,ADJ,B2
 袖子,sleeve,袖子,NOUN,B2
 被上诉人,respondent,被上诉人,NOUN,B2
@@ -6097,14 +6097,14 @@ X光片,x-ray,X光片,NOUN,B2
 认证,authentication,认证,NOUN,B2
 认证,certification,认证,NOUN,B2
 认证,to accredit,认可,VERB,B2
-认识/感觉,to know feel,认识/感觉,VERB,B2
+认识,to know feel,认识,VERB,B2
 讨价还价,to haggle,讨价还价,VERB,B2
 让,to let,让,VERB,B2
 让步的,concessionary,让步的,ADJ,B2
 训斥,reprimand,训斥,NOUN,B2
-训练/锻炼,to train exercise,训练/锻炼,VERB,B2
+训练,to train exercise,训练,VERB,B2
 议会制,parliamentarism,议会制,NOUN,B2
-议会的/议员,parliamentary,议会的/议员,ADJ,B2
+议会的,parliamentary,议会的,ADJ,B2
 议会选举,parliamentary elections,议会选举,NOUN,B2
 议员,member of parliament,议员,NOUN,B2
 记录,recording,录音,NOUN,B2
@@ -6149,7 +6149,7 @@ X光片,x-ray,X光片,NOUN,B2
 证明无效,to invalidate,证明无效,VERB,B2
 证词,deposition,证词,NOUN,B2
 评估,judgement,评估,NOUN,B2
-评分,grading,评分；记号,NOUN,B2
+评分,grading,评分,NOUN,B2
 评论,to commentate,评论,VERB,B2
 评论家,critic,评论家,NOUN,B2
 诅咒,damn,该死的,ADJ,B2
@@ -6170,7 +6170,7 @@ X光片,x-ray,X光片,NOUN,B2
 诗意,poetic quality,诗意,NOUN,B2
 诚实,honesty,诚实,NOUN,B2
 诚实,to be honest,诚实,VERB,B2
-诚实/正直,integrity trustworthiness,诚实/正直,NOUN,B2
+诚实,integrity trustworthiness,诚实,NOUN,B2
 诚实地,honestly,诚实地,ADV,B2
 诠释学,hermeneutic,诠释学的,ADJ,B2
 诡计,cunning,诡计,NOUN,B2
@@ -6221,7 +6221,7 @@ X光片,x-ray,X光片,NOUN,B2
 谁的,whose,谁的,PRON,B2
 调停,to intercede,调停,VERB,B2
 调和的,conciliatory,调和的,ADJ,B2
-调度；排序,scheduling,调度；排序,NOUN,B2
+调度；排序,scheduling,调度,NOUN,B2
 调查,survey,调查,NOUN,B2
 调查员,investigator,调查员,NOUN,B2
 调节,adjustment,调节,NOUN,B2
@@ -6234,7 +6234,7 @@ X光片,x-ray,X光片,NOUN,B2
 谄媚,sycophancy,阿谀奉承,NOUN,B2
 谄媚地,obsequiously,谄媚地,ADV,B2
 谄媚的,unctuous,谄媚的,ADJ,B2
-谈判,negotiation,谈判；协商,NOUN,B2
+谈判,negotiation,谈判,NOUN,B2
 谈判,negotiations,谈判,NOUN,B2
 谋杀,to murder,谋杀,VERB,B2
 谋杀未遂,attempted murder,谋杀未遂,NOUN,B2
@@ -6279,7 +6279,7 @@ X光片,x-ray,X光片,NOUN,B2
 货物,freight,货物,NOUN,B2
 货物,goods,商品,NOUN,B2
 货物,shipment,货物,NOUN,B2
-货物/负荷,load cargo,货物/负荷,NOUN,B2
+货物,load cargo,货物,NOUN,B2
 质询,question officially,质询,VERB,B2
 质量,mass,大量,NOUN,B2
 贪婪,greedy,贪婪的,ADJ,B2
@@ -6490,7 +6490,7 @@ X光片,x-ray,X光片,NOUN,B2
 过生日的,having a birthday,过生日的,ADJ,B2
 过量,overdose,过量,NOUN,B2
 迎向,towards,迎向,ADV,B2
-运作/起作用,to function work,运作/起作用,VERB,B2
+运作,to function work,运作,VERB,B2
 运动,crusade,运动,NOUN,B2
 运动,sport,运动,NOUN,B2
 运动,to do sports,运动,VERB,B2
@@ -6507,7 +6507,7 @@ X光片,x-ray,X光片,NOUN,B2
 这样的,such,如此,DET,B2
 这样的,such a,这样的,DET,B2
 这边,this way,这边,ADV,B2
-这里/到这里,here hither,这里/到这里,ADV,B2
+这里,here hither,这里,ADV,B2
 这里外面,out here,这里外面,ADV,B2
 进一步,further,进一步的,ADJ,B2
 进入,to access,进入,VERB,B2
@@ -6525,7 +6525,7 @@ X光片,x-ray,X光片,NOUN,B2
 远足,to hike,徒步旅行,VERB,B2
 违反,to contravene,违反,VERB,B2
 违抗,to defy,违抗,VERB,B2
-违法者，不良分子,delinquent offender,违法者，不良分子,NOUN,B2
+违法者，不良分子,delinquent offender,违法者,NOUN,B2
 违禁品,contraband,违禁品,NOUN,B2
 违禁的,illicit,违禁的,ADJ,B2
 违约,breach of contract,违约,NOUN,B2
@@ -6566,7 +6566,7 @@ X光片,x-ray,X光片,NOUN,B2
 迷路,astray,迷路,ADJ,B2
 迷路,to get lost,迷路,VERB,B2
 追求,to aspire,渴望,VERB,B2
-追求/诉讼,pursuit lawsuit,追求/诉讼,NOUN,B2
+追求,pursuit lawsuit,追求,NOUN,B2
 追溯,to retrace,追溯,VERB,B2
 追踪,to track,追踪,VERB,B2
 退休,retirement,退休,NOUN,B2
@@ -6591,7 +6591,7 @@ X光片,x-ray,X光片,NOUN,B2
 选举,election,选举,NOUN,B2
 选举主义的,electoralist,选举主义的,ADJ,B2
 选区,constituency,选区,NOUN,B2
-选择性的,selective,选择的，挑选的,ADJ,B2
+选择性的,selective,选择的,ADJ,B2
 选民,electorate,选民,NOUN,B2
 选民,voter,选民,NOUN,B2
 选票,ballot,选票,NOUN,B2
@@ -6605,7 +6605,7 @@ X光片,x-ray,X光片,NOUN,B2
 通信,correspondence,通信,NOUN,B2
 通勤,to commute,通勤,VERB,B2
 通常,normally,通常地,ADV,B2
-通常/习惯于,to use to usually,通常/习惯于,VERB,B2
+通常,to use to usually,通常,VERB,B2
 通常的,usual,通常的,ADJ,B2
 通用的,generic,通用的,ADJ,B2
 通知,notification,通知,NOUN,B2
@@ -6635,7 +6635,7 @@ X光片,x-ray,X光片,NOUN,B2
 避难所,sanctuary,避难所,NOUN,B2
 那,the it,那,DET,B2
 那,that,（引导从句）,SCONJ,B2
-那/去,that to,那/去,PART,B2
+那,that to,那,PART,B2
 那个,that,那个,DET,B2
 那个,that yonder,那个,DET,B2
 那个,that one,那个,PRON,B2
@@ -6778,7 +6778,7 @@ X光片,x-ray,X光片,NOUN,B2
 镁,magnesium,镁,NOUN,B2
 镇压,repression,镇压,NOUN,B2
 镇静剂,sedative,镇静剂,NOUN,B2
-镐；锄,pickaxe,镐；锄,NOUN,B2
+镐；锄,pickaxe,镐,NOUN,B2
 镣铐,shackle,镣铐,NOUN,B2
 镶满宝石的,bejeweled,镶满宝石的,ADJ,B2
 镶边,edging,镶边,NOUN,B2
@@ -6873,7 +6873,7 @@ X光片,x-ray,X光片,NOUN,B2
 隔离,isolation,隔绝,NOUN,B2
 隔离,to segregate,隔离,VERB,B2
 隔离,to sequester,隔离,VERB,B2
-隔离，分离,segregation,隔离，分离,NOUN,B2
+隔离，分离,segregation,隔离,NOUN,B2
 隔间,compartment,隔间,NOUN,B2
 隔音差的,thin-walled,隔音差的,ADJ,B2
 障碍,impediment,障碍,NOUN,B2
@@ -6961,7 +6961,7 @@ X光片,x-ray,X光片,NOUN,B2
 韵律学,prosody,韵律学,NOUN,B2
 顶点,apex,顶点,NOUN,B2
 顶点,zenith,顶点,NOUN,B2
-顶部/极好,top great,顶部/极好,NOUN,B2
+顶部,top great,顶部,NOUN,B2
 顶部的,top,顶部的,ADJ,B2
 顶针,thimble,顶针,NOUN,B2
 顺便,by the way,顺便说一下,ADV,B2
@@ -7022,7 +7022,7 @@ X光片,x-ray,X光片,NOUN,B2
 食品的,food,食品的,ADJ,B2
 食堂,canteen,食堂,NOUN,B2
 食欲,appetite,食欲,NOUN,B2
-食物/生育,to food give birth,食物/生育,VERB,B2
+食物,to food give birth,食物,VERB,B2
 食言,to renege,食言,VERB,B2
 饥荒,famine,饥荒,NOUN,B2
 饥饿的,starved,饥饿的,ADJ,B2

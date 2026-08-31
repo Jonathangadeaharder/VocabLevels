@@ -1,5 +1,5 @@
 Swedish_Lemma,English_Lemma,Chinese_Lemma,POS
-avstängd,closed/disabled,关闭的/禁用的,ADJ
+avstängd,closed,关闭的,ADJ
 bada,bathe,洗澡,VERB
 baksida,back(side),背面,NOUN
 bakåt,backward,向后,ADV
@@ -30,7 +30,7 @@ brud,bride,新娘,NOUN
 bränna,burn,燃烧,VERB
 bråk,quarrel,争吵,NOUN
 bråka,quarrel,争吵,VERB
-bröst,chest/breast,胸部/乳房,NOUN
+bröst,chest,胸部,NOUN
 chock,shock,震惊,NOUN
 choklad,chocolate,巧克力,NOUN
 cirka,approximately,大约,ADV
@@ -41,11 +41,11 @@ detalj,detail,细节,NOUN
 diamant,diamond,钻石,NOUN
 djup,deep,深的,ADJ
 dokument,document,文件,NOUN
-drottning,queen,女王/王后,NOUN
+drottning,queen,女王,NOUN
 drömma,dream,做梦,VERB
 dubbel,double,双倍的,ADJ
 dygn,day and night,昼夜,NOUN
-däck,deck/tire,甲板/轮胎,NOUN
+däck,deck,甲板,NOUN
 därborta,over there,在那里,ADV
 därinne,in there,在那里面,ADV
 därute,out there,在那外面,ADV
@@ -72,13 +72,13 @@ fokusera,focus,集中,VERB
 fotboll,football,足球,NOUN
 foto,photo,照片,NOUN
 franska,French,法语,NOUN
-full,full/drunk,满的/醉的,ADJ
-fundera,consider/think,考虑/思考,VERB
-funka,function/work,运作/起作用,VERB
+full,full,满的,ADJ
+fundera,consider,考虑,VERB
+funka,function,运作,VERB
 fy,yuck,呸,INTJ
 fylla,fill,填满,VERB
 född,born,出生的,ADJ
-följande,following,以下的/接下来的,ADJ
+följande,following,以下的,ADJ
 förbereda,prepare,准备,VERB
 föredra,prefer,更喜欢,VERB
 författare,author,作者,NOUN
@@ -102,14 +102,14 @@ gräva,dig,挖,VERB
 gubbe,old man,老头,NOUN
 gullig,cute,可爱的,ADJ
 gäst,guest,客人,NOUN
-gård,farm/yard,农场,NOUN
+gård,farm,农场,NOUN
 göras,be done,被做,VERB
 haj,shark,鲨鱼,NOUN
 halvtimme,half hour,半小时,NOUN
 halvår,half-year,半年,NOUN
 hamna,end up,最终到达,VERB
 handduk,towel,毛巾,NOUN
-handla,shop/be about,购物,VERB
+handla,shop,购物,VERB
 handväska,handbag,手提包,NOUN
 hinna,have time,来得及,VERB
 hata,hate,恨,VERB
@@ -146,7 +146,7 @@ kaos,chaos,混乱,NOUN
 karta,map,地图,NOUN
 kex,cracker,饼干,NOUN
 kissa,pee,小便,VERB
-kl.,o'clock,点钟,ADV
+kl,o'clock,点钟,ADV
 klaga,complain,抱怨,VERB
 klippa,cut,剪,VERB
 klok,wise,明智的,ADJ
@@ -181,12 +181,12 @@ källare,basement,地下室,NOUN
 köp,purchase,购买,NOUN
 körkort,driver's license,驾照,NOUN
 labb,lab,实验室,NOUN
-ladda,load/charge,装载/充电,VERB
+ladda,load,装载,VERB
 landa,land,降落,VERB
 lastbil,truck,卡车,NOUN
-ledig,free/off,空闲的/休假,ADJ
+ledig,free,空闲的,ADJ
 leende,smile,微笑,NOUN
-lek,play/game,游戏/玩耍,NOUN
+lek,play,游戏,NOUN
 likadana,identical,相同的,ADJ
 likadant,identical,相同的,ADJ
 linje,line,线,NOUN
@@ -290,11 +290,11 @@ roman,novel,小说,NOUN
 rulla,roll,滚动,VERB
 ryggsäck,backpack,背包,NOUN
 ryska,Russian,俄语,NOUN
-räcka,reach/suffice,够用/伸手够,VERB
+räcka,reach,够用,VERB
 rök,smoke,烟,NOUN
 röka,smoke,吸烟,VERB
 rösta,vote,投票,VERB
-scen,scene/stage,场景/舞台,NOUN
+scen,scene,场景,NOUN
 sexig,sexy,性感的,ADJ
 shoppa,shop,购物,VERB
 siffra,number,数字,NOUN
@@ -353,16 +353,16 @@ trasig,broken,破碎的,ADJ
 trist,dull,无聊的,ADJ
 trivas,thrive,过得舒适,VERB
 trycka,press,按,VERB
-trygg,safe/secure,安全的/可靠的,ADJ
+trygg,safe,安全的,ADJ
 trädgård,garden,花园,NOUN
-träna,train/exercise,训练/锻炼,VERB
+träna,train,训练,VERB
 träning,training,训练,NOUN
 tunga,tongue,舌头,NOUN
-tvätt,laundry,洗涤/待洗衣物,NOUN
-tysk,German,德国的/德语的,ADJ
+tvätt,laundry,洗涤,NOUN
+tysk,German,德国的,ADJ
 tyska,German,德语,NOUN
 tysk,German,德国人,NOUN
-tända,light/ignite,点燃,VERB
+tända,light,点燃,VERB
 tävling,competition,比赛,NOUN
 tårar,tears,眼泪,NOUN
 undra,wonder,想知道,VERB
@@ -491,7 +491,7 @@ tro,belief,信仰,NOUN
 risk,risk,风险,NOUN
 fara,danger,危险,NOUN
 problem,problem,问题,NOUN
-gräns,limit/border,界限,NOUN
+gräns,limit,界限,NOUN
 meddelande,message,消息,NOUN
 mark,land,土地,NOUN
 område,area,区域,NOUN
@@ -505,34 +505,3 @@ publik,audience,观众,NOUN
 nyhet,news,新闻,NOUN
 media,media,媒体,NOUN
 titel,title,标题,NOUN
-22-årig,twenty-two-year-old,,NOUN
-6-årig,six-year-old,,NOUN
-badkläder,swimwear,,NOUN
-engelsklärare,English teacher,,NOUN
-går,passing,,NOUN
-håll,hold,,NOUN
-jätteglad,happiness,,NOUN
-jättegod,goodness,,NOUN
-jätteliten,smallness,,NOUN
-jättemycket,abundance,,NOUN
-jätterolig,funniness,,NOUN
-jättestor,bigness,,NOUN
-jättetrevlig,niceness,,NOUN
-jätteviktig,importance,,NOUN
-knän,knee,,NOUN
-känslan,feeling,,NOUN
-kära,dear,,NOUN
-köpt,purchase,,NOUN
-lägg,lay,,NOUN
-lång.,long,,NOUN
-mött,meeting,,NOUN
-nånsin,ever,,NOUN
-nånstans,somewhere,,NOUN
-nånting,something,,NOUN
-nåt.,something,,NOUN
-på.,on,,NOUN
-rädd.,afraid,,NOUN
-såg,saw,,NOUN
-såhär,like this,,NOUN
-vänner,friend,,NOUN
-ögon,eye,,NOUN

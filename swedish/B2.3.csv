@@ -12,8 +12,8 @@ beväpnad,armed,武装的,ADJ
 borgmästare,mayor,市长,NOUN
 brottsplats,crime scene,犯罪现场,NOUN
 brygga,pier,码头,NOUN
-bud,message/errand,消息/差事,NOUN
-byte,change/exchange,改变/交换,NOUN
+bud,message,消息,NOUN
+byte,change,改变,NOUN
 deprimerande,depressing,令人沮丧的,ADJ
 domstol,court,法院,NOUN
 drag,feature,特征,NOUN
@@ -31,7 +31,7 @@ framsteg,progress,进步,NOUN
 främling,stranger,陌生人,NOUN
 fullkomligt,completely,完全地,ADV
 fullständigt,completely,完全地,ADV
-fälla,trap/fell,困住/砍倒,VERB
+fälla,trap,困住,VERB
 förbannelse,curse,诅咒,NOUN
 förebild,role model,榜样,NOUN
 föremål,object,物体,NOUN
@@ -102,7 +102,7 @@ samvete,conscience,良心,NOUN
 signera,sign,签署,VERB
 sikta,aim,瞄准,VERB
 skam,shame,羞耻,NOUN
-koj,fun/joke,乐趣/玩笑,NOUN
+koj,fun,乐趣,NOUN
 skönhet,beauty,美丽,NOUN
 slagsmål,fight,斗殴,NOUN
 slita,wear,磨损,VERB
@@ -111,7 +111,7 @@ slöseri,waste,浪费,NOUN
 snarare,rather,宁可,ADV
 spionera,spy,刺探,VERB
 stolthet,pride,骄傲,NOUN
-stryk,blow/beating,殴打,NOUN
+stryk,blow,殴打,NOUN
 stråla,radiate,发光,VERB
 styrelse,board,董事会,NOUN
 suverän,sovereign,主权的,ADJ
@@ -128,7 +128,7 @@ tok,crazy,疯狂的,ADJ
 tron,throne,王座,NOUN
 tvekan,hesitation,犹豫,NOUN
 tvivel,doubt,怀疑,NOUN
-tyda,indicate/interpret,表明/解释,VERB
+tyda,indicate,表明,VERB
 ubåt,submarine,潜水艇,NOUN
 universum,universe,宇宙,NOUN
 uppenbarligen,obviously,显然地,ADV
@@ -148,7 +148,7 @@ villkor,condition,条件,NOUN
 vittna,testify,作证,VERB
 vittnesmål,testimony,证词,NOUN
 välsignad,blessed,受祝福的,ADJ
-ytterligare,further/additional,进一步的/额外的,ADJ
+ytterligare,further,进一步的,ADJ
 änka,widow,寡妇,NOUN
 åklagare,prosecutor,检察官,NOUN
 återgå,return,返回,VERB
@@ -478,61 +478,4 @@ krönika,column,专栏,NOUN
 recension,review,评论,NOUN
 beröm,praise,赞扬,NOUN
 odds,odds,赔率,NOUN
-betygsätta,grade,,NOUN
-burgarställe,burger stand,,NOUN
-därjag,where I,,NOUN
-erkända,recognized,,NOUN
-examenskväll,exam evening,,NOUN
-formulär,form,,NOUN
-fotbollslägr,football camp,,NOUN
-födelseda,birthday,,NOUN
-förgiftad,poisoned,,NOUN
-förmån,benefit,,NOUN
-försök.,attempt,,NOUN
-förväntad,expectation,,NOUN
-genomtänkt,thoroughness,,NOUN
-genväg.,shortcut,,NOUN
-godkänn,approval,,NOUN
-grönklädd,green-clad,,NOUN
-handväsk,handbag,,NOUN
-hjärnskadad,brain damage,,NOUN
-hjärtlig,heartfelt,,NOUN
-här-,here,,NOUN
-höjdpunkt,highlight,,NOUN
-ihåg.,memory,,NOUN
-junior-tröja,junior jersey,,NOUN
-jättebr,goodness,,NOUN
-jävul,devil,,NOUN
-jösses.,goodness,,NOUN
-konstnärlig,artistry,,NOUN
-kräka,vomit,,NOUN
-krångla,tangle,,NOUN
-känslosam,emotion,,NOUN
-landsväg,highway,,NOUN
-ljusår,light-year,,NOUN
-muskelvärk,muscle ache,,NOUN
-mån,moon,,NOUN
-nyårsklänning,New Year dress,,NOUN
-personbästa,personal best,,NOUN
-provköra,test drive,,NOUN
-skitstövel,bastard,,NOUN
-skittråkig,sadness,,NOUN
-skottsäker,bulletproof,,NOUN
-slöjd,handicraft,,NOUN
-smärtfri,painless,,NOUN
-specialfönster,special window,,NOUN
-spräcka,crack,,NOUN
-superhög,super high,,NOUN
-så kallad,so-called,,ADJ
-söm,sleep,,NOUN
-sömntablett,sleeping pill,,NOUN
-träningsredskap,exercise equipment,,NOUN
-tröstande,comfort,,NOUN
-uppvärmning,warming,,NOUN
-välkomne,welcome,,NOUN
-vårdhem,care home,,NOUN
-äckla,loathing,,NOUN
-återställd,restoration,,NOUN
-övergiven,abandonment,,NOUN
-överlevd,survival,,NOUN
-överlägsen,superiority,,NOUN
+så kallad,so-called,所谓的,ADJ

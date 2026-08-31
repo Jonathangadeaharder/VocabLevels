@@ -1,6 +1,6 @@
 French_Lemma,English_Lemma,Chinese_Lemma,POS
 acclimatation,acclimatization,适应环境,NOUN
-acheminement,conveyance/routing,运送,NOUN
+acheminement,conveyance,运送,NOUN
 acquittement,acquittal,无罪释放,NOUN
 actionnaire,shareholder,股东,NOUN
 actionnariat,shareholding,持股,NOUN
@@ -254,10 +254,10 @@ occulter,to obscure,遮蔽,VERB
 oligopole,oligopoly,寡头垄断,NOUN
 ontologie,ontology,本体论,NOUN
 opiniâtre,stubborn,顽固的,ADJ
-ordonnancement,scheduling,调度；排序,NOUN
-ostensiblement,ostensibly,表面上；公然地,ADV
-outrepasser,to overstep,超越；逾越,VERB
-pallier,to remedy,弥补；缓解,VERB
+ordonnancement,scheduling,调度,NOUN
+ostensiblement,ostensibly,表面上,ADV
+outrepasser,to overstep,超越,VERB
+pallier,to remedy,弥补,VERB
 paradigme,paradigm,范式,NOUN
 parcimonie,parsimony,吝啬,NOUN
 parcimonieux,parsimonious,吝啬的,ADJ
@@ -298,7 +298,7 @@ prédominant,predominant,占主导地位的,ADJ
 préjudice,harm,损害,NOUN
 préjudiciable,detrimental,有害的,ADJ
 préjuger,to prejudge,预断,VERB
-prélèvement,levy/sample,提取/采样,NOUN
+prélèvement,levy,提取,NOUN
 préméditation,premeditation,预谋,NOUN
 prépondérant,preponderant,占优势的,ADJ
 présager,to portend,预示,VERB
@@ -377,9 +377,9 @@ subrepticement,surreptitiously,偷偷地,ADV
 subsidiarité,subsidiarity,辅助性原则,NOUN
 substantiellement,substantially,实质上,ADV
 subventionner,to subsidize,资助,VERB
-abreuver,to water/give drink,给…饮水,VERB
+abreuver,to water,给……饮水,VERB
 acquitter,to acquit,宣告无罪,VERB
-adjoindre,to appoint/add,附加,VERB
+adjoindre,to appoint,附加,VERB
 adjuger,to award,判给,VERB
 adosser,to lean against,使靠着,VERB
 affadir,to make bland,使乏味,VERB
@@ -396,7 +396,7 @@ annoter,to annotate,注释,VERB
 antidater,to antedate,倒填日期,VERB
 aplanir,to smooth,消除障碍,VERB
 apparier,to match,配对,VERB
-arraisonner,to hail/inspect,盘查,VERB
+arraisonner,to inspect,盘查,VERB
 arrérages,arrears,欠款,NOUN
 assaillir,to assault,猛攻,VERB
 assainir,to clean up,净化,VERB
@@ -404,7 +404,7 @@ assiéger,to besiege,围攻,VERB
 assouplir,to soften,使灵活,VERB
 assouvir,to satisfy,满足,VERB
 astreindre,to compel,强迫,VERB
-attendrir,to move/touch,使感动,VERB
+attendrir,to move,使感动,VERB
 atterrer,to appal,使惊愕,VERB
 avilir,to degrade,贬低,VERB
 bafouer,to flout,嘲弄,VERB
@@ -455,7 +455,7 @@ dissuader,to dissuade,劝阻,VERB
 distordre,to distort,扭曲,VERB
 diverger,to diverge,分歧,VERB
 éclipser,to eclipse,使黯然失色,VERB
-éclore,to hatch/bloom,孵化,VERB
+éclore,to hatch,孵化,VERB
 éconduire,to dismiss,打发,VERB
 écumer,to foam,起泡沫,VERB
 édifier,to build,建造,VERB
@@ -483,7 +483,7 @@ exproprier,to expropriate,征收,VERB
 exulter,to exult,狂喜,VERB
 acolyte,acolyte,助手,NOUN
 affres,torments,痛苦,NOUN
-affût,hiding/ambush,埋伏,NOUN
+affût,ambush,埋伏,NOUN
 algarade,tirade,斥责,NOUN
 ambivalence,ambivalence,矛盾心理,NOUN
 anicroche,hitch,小障碍,NOUN

@@ -68,7 +68,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بَنك,bank,银行,NOUN
 بَنكيّ,banking,银行业的,ADJ
 سحب,withdrawal,取款,NOUN
-نِسْبَة,rate/percentage,比率/百分比,NOUN
+نِسْبَة,rate,比率,NOUN
 ضَرَر,damage,损害,NOUN
 اشْتِرَاك,subscription,订阅,NOUN
 تَوْفِير,saving,储蓄,NOUN
@@ -131,7 +131,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 اختراع,invention,发明,NOUN
 فلتر,filter,过滤器,NOUN
 علاقة,relationship,关系,NOUN
-خطيب,fiancé,未婚夫,NOUN
+خطيب,fiance,未婚夫,NOUN
 تقدير,appreciation,欣赏,NOUN
 جيل,generation,一代,NOUN
 شباب,youth,青年,NOUN
@@ -184,19 +184,19 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أشار,point out,指出,VERB
 لاحظ,observe,观察,VERB
 أضاف,add,补充,VERB
-بل,rather/on the contrary,而是/相反,CCONJ
-كل,all/entirely,所有/完全,DET
-مادام,as long as,只要/既然,SCONJ
+بل,rather,而是,CCONJ
+كل,all,全部,DET
+مادام,as long as,只要,SCONJ
 منطق,logic,逻辑,NOUN
 منطقي,logical,合乎逻辑的,ADJ
-إرادة,will/willpower,意志/决心,NOUN
+إرادة,will,意志,NOUN
 شجاعة,courage,勇气,NOUN
 كرم,generosity,慷慨,NOUN
-شرف,honor,荣誉/光荣,NOUN
-لطف,kindness/gentleness,仁慈/温和,NOUN
-رحمة,mercy,仁慈/怜悯,NOUN
+شرف,honor,荣誉,NOUN
+لطف,kindness,仁慈,NOUN
+رحمة,mercy,怜悯,NOUN
 حكمة,wisdom,智慧,NOUN
-ذكاء,intelligence,智力/聪明,NOUN
+ذكاء,intelligence,智力,NOUN
 وضوح,clarity,清晰,NOUN
 بساطة,simplicity,简单,NOUN
 اهتمام,interest,兴趣,NOUN
@@ -262,8 +262,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 استقلال,independence,独立,NOUN
 ثورة,revolution,革命,NOUN
 معركة,battle,战役,NOUN
-أثر,ruin/relic,遗迹,NOUN
-آثار,antiquities/ruins,文物,NOUN
+أثر,ruin,遗迹,NOUN
+آثار,antiquities,文物,NOUN
 قرن,century,世纪,NOUN
 إيمان,faith,信仰,NOUN
 مسجد,mosque,清真寺,NOUN
@@ -273,7 +273,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قرآن,Quran,古兰经,NOUN
 سورة,chapter of Quran,苏拉,NOUN
 آية,verse of Quran,阿亚,NOUN
-حديث,hadith/prophetic saying,圣训,NOUN
+حديث,prophetic saying,圣训,NOUN
 حلال,permissible,合法的,ADJ
 حرام,forbidden,非法的,ADJ
 دعاء,supplication,祈祷,NOUN
@@ -367,7 +367,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 صفق,clap,鼓掌,VERB
 غطى,cover,覆盖,VERB
 تَوَقَّفَ,stop,停止,VERB
-روح,soul / spirit,灵魂 / 精神,NOUN
+روح,soul,灵魂,NOUN
 يُقال,to be said,据说,VERB
 يُذكَر,to be mentioned,被提及,VERB
 يُرى,to be seen,被看到,VERB
@@ -495,109 +495,108 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سبيل,way,سبيل,NOUN
 شي,something,شي,NOUN
 لي,me,لي,NOUN
-بارز,prominence,,NOUN
-باكر,early,,NOUN
+بارز,prominence,显赫,NOUN
+باكر,early,早的,ADV
 برافو,bravo,,NOUN
-بركة,blessing,,NOUN
-بشرة,skin,,NOUN
-بكاء,crying,,NOUN
-تاسع,ninth,,NOUN
-تبين,clarification,,NOUN
-تجاه,direction,,NOUN
-تجنب,avoidance,,NOUN
-تحديد,determination,,NOUN
-تحكم,control,,NOUN
-تحية,greeting,,NOUN
-تربي,upbringing,,NOUN
-تسع,nine,,NOUN
-تطورات,developments,,NOUN
+بركة,blessing,祝福,NOUN
+بشرة,skin,皮肤,NOUN
+بكاء,crying,哭泣,NOUN
+تاسع,ninth,第九,ADJ
+تبين,clarification,阐明,NOUN
+تجاه,direction,朝向,ADP
+تجنب,avoidance,避免,NOUN
+تحديد,determination,确定,NOUN
+تحكم,control,控制,NOUN
+تحية,greeting,问候,NOUN
+تسع,nine,九,NUM
+تطورات,developments,发展动态,NOUN
 تفصيل,detail,,NOUN
-تلقى,reception,,NOUN
-تلوين,coloring,,NOUN
-تمرن,exercise,,NOUN
+تلقى,reception,接收,NOUN
+تلوين,coloring,着色,NOUN
+تمرن,exercise,锻炼,NOUN
 تنظيف,cleaning,,NOUN
-تنوع,variety,,NOUN
-ثالث,third,,NOUN
-ثلجي,snow,,NOUN
-ثماني,eight,,NOUN
-جاري,neighbor,,NOUN
-جانبي,side,,NOUN
-جدار,wall,,NOUN
-جرب,trial,,NOUN
-جناح,wing,,NOUN
-جنوبي,southerner,,NOUN
-حاسة,sense,,NOUN
-حاضر,present,,NOUN
-حالة,state,,NOUN
-حبر,ink,,NOUN
-حبيبي,beloved,,NOUN
-حدد,definition,,NOUN
-حزام,belt,,NOUN
-حساء,soup,,NOUN
-حمد,praise,,NOUN
+تنوع,variety,多样性,NOUN
+ثالث,third,第三,ADJ
+ثلجي,snowy,雪的,ADJ
+ثماني,eight,八,NUM
+جاري,current,当前的,ADJ
+جانبي,side,侧面的,ADJ
+جدار,wall,墙壁,NOUN
+جرب,trial,试验,NOUN
+جناح,wing,翅膀,NOUN
+جنوبي,southern,南方的,ADJ
+حاسة,sense,感觉,NOUN
+حاضر,present,在场的,ADJ
+حالة,condition,状况,NOUN
+حبر,ink,墨水,NOUN
+حبيبي,beloved,亲爱的,NOUN
+حدد,to specify,指定,VERB
+حزام,belt,皮带,NOUN
+حساء,soup,汤,NOUN
+حمد,praise,赞美,NOUN
 خائف,fear,,NOUN
-خاطر,thought,,NOUN
-خطط,plan,,NOUN
-خطوة,step,,NOUN
-خطورة,danger,,NOUN
+خاطر,thought,念头,NOUN
+خطط,to plan,计划,VERB
+خطوة,step,步伐,NOUN
+خطورة,danger,危险性,NOUN
 خفض,reduction,,NOUN
 خلفي,rear,,NOUN
-خنزير,pig,,NOUN
-دراسة,study,,NOUN
+خنزير,pig,猪,NOUN
+دراسة,study,研究,NOUN
 دفئ,warmth,,NOUN
-دواء,medicine,,NOUN
-ذاهب,departure,,NOUN
-ذهن,mind,,NOUN
-رائحة,smell,,NOUN
-راح,rest,,NOUN
-راضي,satisfaction,,NOUN
-راقص,dancer,,NOUN
-رجع,return,,NOUN
-رسول,messenger,,NOUN
-ركوب,riding,,NOUN
-رمل,sand,,NOUN
-رمي,throwing,,NOUN
-ريش,feather,,NOUN
-زهر,flower,,NOUN
-سحر,magic,,NOUN
-سعي,effort,,NOUN
-سم,poison,,NOUN
-سهولة,ease,,NOUN
-سيطر,control,,NOUN
-شاء,sheep,,NOUN
-شاكر,gratitude,,NOUN
-شرقي,East,,NOUN
-شريط,strip,,NOUN
-شمسية,solar,,NOUN
-شمل,scope,,NOUN
-صاد,catch,,NOUN
-صباحي,morning,,NOUN
-صلصة,sauce,,NOUN
-صلي,prayer,,NOUN
-صمت,silence,,NOUN
-صوتي,voice,,NOUN
-ضائع,lost,,NOUN
-ضار,harm,,NOUN
-ضرورة,necessity,,NOUN
-ضمن,guarantee,,NOUN
-ضوئي,light,,NOUN
-طال,length,,NOUN
-طن,ton,,NOUN
-طير,bird,,NOUN
-طيران,flight,,NOUN
+دواء,medicine,药物,NOUN
+ذاهب,going,前去的,ADJ
+ذهن,mind,心智,NOUN
+رائحة,smell,气味,NOUN
+راح,to go,去,VERB
+راضي,satisfied,满意的,ADJ
+راقص,dancer,跳舞的,ADJ
+رجع,to return,返回,VERB
+رسول,messenger,使者,NOUN
+ركوب,riding,骑乘,NOUN
+رمل,sand,沙子,NOUN
+رمي,throwing,投掷,NOUN
+ريش,feather,羽毛,NOUN
+زهر,flower,花朵,NOUN
+سحر,magic,魔法,NOUN
+سعي,effort,努力,NOUN
+سم,poison,毒药,NOUN
+سهولة,ease,容易,NOUN
+سيطر,to control,控制,VERB
+شاء,to wish,愿意,VERB
+شاكر,grateful,感激的,ADJ
+شرقي,eastern,东方的,ADJ
+شريط,tape,磁带,NOUN
+شمسية,umbrella,遮阳伞,NOUN
+شمل,to include,包含,VERB
+صاد,to hunt,打猎,VERB
+صباحي,morning,早晨的,ADJ
+صلصة,sauce,酱汁,NOUN
+صلي,to pray,祈祷,VERB
+صمت,silence,沉默,NOUN
+صوتي,audio,声音的,ADJ
+ضائع,lost,丢失的,ADJ
+ضار,harmful,有害的,ADJ
+ضرورة,necessity,必要性,NOUN
+ضمن,within,在...之内,ADP
+ضوئي,optical,光学的,ADJ
+طال,to last long,持续长久,VERB
+طن,ton,吨,NOUN
+طير,bird,鸟类,NOUN
+طيران,aviation,飞行,NOUN
 ظرف,envelope,,NOUN
-عبد,servant,,NOUN
-عرب,Arabs,,NOUN
-عشر,ten,,NOUN
-عشرات,tens,,NOUN
-عطل,breakdown,,NOUN
-علامة,sign,,NOUN
-غدا,tomorrow,,NOUN
-غذائي,nutrition,,NOUN
-غرب,west,,NOUN
-غربي,westerner,,NOUN
-غسيل,laundry,,NOUN
-غلب,dominance,,NOUN
+عبد,servant,奴仆,NOUN
+عرب,Arabs,阿拉伯人,NOUN
+عشر,ten,十,NUM
+عشرات,tens,几十,NUM
+عطل,breakdown,故障,NOUN
+علامة,mark,标志,NOUN
+غدا,tomorrow,明天,ADV
+غذائي,nutritional,营养的,ADJ
+غرب,west,西方,NOUN
+غربي,western,西方的,ADJ
+غسيل,laundry,衣物,NOUN
+غلب,to defeat,战胜,VERB
 فئة,category,,NOUN
 فارغ,emptiness,,NOUN
 فاشل,failure,,NOUN
@@ -609,102 +608,102 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فقد,loss,,NOUN
 فقير,pauper,,NOUN
 فكري,intellectual,,NOUN
-قاد,leader,,NOUN
-قاسي,harshness,,NOUN
-قاضي,judge,,NOUN
-قبر,grave,,NOUN
-قرب,nearness,,NOUN
-قرد,monkey,,NOUN
-قص,cutting,,NOUN
-قصر,palace,,NOUN
-قطع,piece,,NOUN
-قلم,pen,,NOUN
-قناع,mask,,NOUN
-قوى,power,,NOUN
-كاتب,writer,,NOUN
+قاد,to lead,领导,VERB
+قاسي,harsh,严酷的,ADJ
+قاضي,judge,法官,NOUN
+قبر,grave,坟墓,NOUN
+قرب,nearness,临近,NOUN
+قرد,monkey,猴子,NOUN
+قص,to cut,剪切,VERB
+قصر,palace,宫殿,NOUN
+قطع,to cut,切断,VERB
+قلم,pen,笔,NOUN
+قناع,mask,面具,NOUN
+قوى,forces,力量,NOUN
+كاتب,writer,作家,NOUN
 كافي,sufficiency,,NOUN
-كرر,repetition,,NOUN
-كلي,whole,,NOUN
-كنيسة,church,,NOUN
-كهربي,electric,,NOUN
+كرر,to repeat,重复,VERB
+كلي,total,完全的,ADJ
+كنيسة,church,教堂,NOUN
+كهربي,electric,电力的,ADJ
 كيفية,manner,,NOUN
-لحظ,moment,,NOUN
-لقب,title,,NOUN
-لولا,but-for,,NOUN
-ليت,wish,,NOUN
-مؤكد,certainty,,NOUN
-مبنى,building,,NOUN
-متحدث,speaker,,NOUN
-متخصص,specialist,,NOUN
-متر,meter,,NOUN
-متميز,distinction,,NOUN
-مجاور,neighbor,,NOUN
-مجنون,madman,,NOUN
-محادثة,conversation,,NOUN
+لحظ,to notice,注意到,VERB
+لقب,title,头衔,NOUN
+لولا,if not for,要不是,SCONJ
+ليت,if only,但愿,PART
+مؤكد,confirmed,确认的,ADJ
+مبنى,building,建筑物,NOUN
+متحدث,speaker,发言人,NOUN
+متخصص,specialist,专家,NOUN
+متر,meter,米,NOUN
+متميز,distinguished,杰出的,ADJ
+مجاور,neighboring,邻近的,ADJ
+مجنون,mad,疯狂的,ADJ
+محادثة,conversation,对话,NOUN
 محترف,professional,,NOUN
-محظوظ,lucky one,,NOUN
+محظوظ,lucky,幸运的,ADJ
 مخيف,fright,,NOUN
 مرتفع,elevation,,NOUN
-مرحاض,toilet,,NOUN
-مرحلة,stage,,NOUN
-مركبة,vehicle,,NOUN
-مريح,comfort,,NOUN
-مزرع,farmer,,NOUN
-مزعج,nuisance,,NOUN
-مسدس,pistol,,NOUN
-مسروق,stolen one,,NOUN
-مسلي,entertainer,,NOUN
-مشابه,likeness,,NOUN
-مشتري,buyer,,NOUN
-مصري,Egyptian,,NOUN
-مصمم,designer,,NOUN
-معتدل,moderation,,NOUN
-معلم,teacher,,NOUN
-مقبول,acceptance,,NOUN
-مقدس,holiness,,NOUN
-مكتبة,library,,NOUN
-مكتوب,writing,,NOUN
-ممتاز,excellence,,NOUN
-منا,us,,NOUN
-مناسب,suitability,,NOUN
+مرحاض,toilet,厕所,NOUN
+مرحلة,stage,阶段,NOUN
+مركبة,vehicle,车辆,NOUN
+مريح,comfortable,舒适的,ADJ
+مزرع,cultivated,种植的,ADJ
+مزعج,annoying,烦人的,ADJ
+مسدس,pistol,手枪,NOUN
+مسروق,stolen,被盗的,ADJ
+مسلي,entertaining,有趣的,ADJ
+مشابه,similar,相似的,ADJ
+مشتري,buyer,买家,NOUN
+مصري,Egyptian,埃及的,ADJ
+مصمم,designer,设计师,NOUN
+معتدل,moderate,温和的,ADJ
+معلم,teacher,老师,NOUN
+مقبول,acceptable,可接受的,ADJ
+مقدس,sacred,神圣的,ADJ
+مكتبة,library,图书馆,NOUN
+مكتوب,written,书面的,ADJ
+ممتاز,excellent,优秀的,ADJ
+منا,from us,来自我们,PRON
+مناسب,suitable,合适的主题,ADJ
 منتصف,midpoint,,NOUN
-موج,wave,,NOUN
-مين,mine,,NOUN
-نبأ,news,,NOUN
-نبتة,plant,,NOUN
-نتج,result,,NOUN
+موج,waves,波浪,NOUN
+مين,who,谁,PRON
+نبأ,news,消息,NOUN
+نبتة,plant,植物,NOUN
+نتج,to result,产生,VERB
 نصفي,half,,NOUN
 نظف,cleanliness,,NOUN
 نفسي,self,,NOUN
-نمل,ant,,NOUN
+نمل,ants,蚂蚁,NOUN
 هاتفي,phone,,NOUN
-هدأ,calm,,NOUN
-هدد,threat,,NOUN
-واصل,connector,,NOUN
-وحد,solitude,,NOUN
-وحش,beast,,NOUN
+هدأ,to calm down,平静,VERB
+هدد,to threaten,威胁,VERB
+واصل,to continue,继续,VERB
+وحد,to unite,统一,VERB
+وحش,monster,怪兽,NOUN
 وفر,abundance,,NOUN
-وقود,fuel,,NOUN
-وقوع,occurrence,,NOUN
-يومي,daily,,NOUN
+وقود,fuel,燃料,NOUN
+وقوع,occurrence,发生,NOUN
+يومي,daily,每日的,ADJ
 آسف,apology,,NOUN
-آنسة,miss,,NOUN
-أخت,sister,,NOUN
-أسس,foundation,,NOUN
-أسعد,happiness,,NOUN
-أصلي,original,,NOUN
+آنسة,miss,小姐,NOUN
+أخت,sister,姐妹,NOUN
+أسس,to establish,创立,VERB
+أسعد,to make happy,使快乐,VERB
+أصلي,original,原始的,ADJ
 أفاد,benefit,,NOUN
-أقصر,shortest,,NOUN
-أقوى,strongest,,NOUN
-ألماني,German,,NOUN
-أمان,safety,,NOUN
-أمسي,evening,,NOUN
-أمين,custodian,,NOUN
-أنتج,production,,NOUN
-أهمية,importance,,NOUN
-إخباري,news,,NOUN
-إخوة,brotherhood,,NOUN
-إسباني,Spanish,,NOUN
-إناث,females,,NOUN
-إنجليزي,English,,NOUN
+أقصر,shorter,更短的,ADJ
+أقوى,stronger,更强的,ADJ
+ألماني,German,德国的,ADJ
+أمان,safety,安全,NOUN
+أمسي,evening,昨晚的,ADJ
+أمين,trustworthy,诚实的,ADJ
+أنتج,to produce,生产,VERB
+أهمية,importance,重要性,NOUN
+إخباري,news,新闻的,ADJ
+إخوة,brothers,兄弟们,NOUN
+إسباني,Spanish,西班牙的,ADJ
+إناث,females,雌性,NOUN
+إنجليزي,English,英国的,ADJ
 إيقاف,suspension,,NOUN

@@ -1,21 +1,21 @@
 German_Lemma,English_Lemma,Chinese_Lemma,POS
 ab,from onward,从……起,ADP
 Abend,evening,晚上,NOUN
-Ahnung,clue,线索 / 概念,NOUN
+Ahnung,clue,线索,NOUN
 all,all,全部,DET
 allein,alone,独自,ADV
 alles,everything,一切,PRON
-als,as / when,作为 / 当...时,SCONJ
+als,as,作为,SCONJ
 also,so,因此,ADV
 alt,old,老的,ADJ
 Alte,old person,老人,NOUN
 Alter,age,年龄,NOUN
-an,at / on,在 / 靠近,ADP
+an,at,在,ADP
 andere,other,其他的,ADJ
 anders,different,不同地,ADV
 Arbeit,work,工作,NOUN
 arbeiten,to work,工作,VERB
-Art,kind / type,种类,NOUN
+Art,kind,种类,NOUN
 Arzt,doctor,医生,NOUN
 auch,also,也,ADV
 auf,on,在...之上,ADP
@@ -76,7 +76,7 @@ echt,real,真实的,ADJ
 ehrlich,honest,诚实的,ADJ
 eigen,own,自己的,ADJ
 eigentlich,actually,实际上,ADV
-ein,a / one,一个,DET
+ein,a,一个,DET
 einfach,easy,简单的,ADJ
 einmal,once,一次,ADV
 Eltern,parents,父母,NOUN
@@ -99,7 +99,7 @@ finden,to find,找到,VERB
 fast,almost,几乎,ADV
 Fehler,mistake,错误,NOUN
 fertig,ready,准备好了,ADJ
-Fest,party,节日/庆典,NOUN
+Fest,party,节日,NOUN
 Feuer,fire,火,NOUN
 Frage,question,问题,NOUN
 fragen,to ask,询问,VERB
@@ -158,8 +158,7 @@ hören,to hear,听,VERB
 Hund,dog,狗,NOUN
 ich,I,我,PRON
 Idee,idea,主意,NOUN
-ihr,you (plural),你们,PRON
-ihr,her / their,她的 / 他们的,DET
+ihr,her,她的,DET
 immer,always,总是,ADV
 in,in,在...里,ADP
 irgendwie,somehow,某种程度上,ADV
@@ -210,7 +209,7 @@ mein,my,我的,DET
 meinen,to mean,意思是,VERB
 Menge,amount,数量,NOUN
 Mensch,person,人,NOUN
-Mist,crap,垃圾/废话,NOUN
+Mist,crap,垃圾,NOUN
 mit,with,和...一起,ADP
 mitnehmen,to take along,随身携带,VERB
 möglich,possible,可能的,ADJ
@@ -219,12 +218,12 @@ morgen,tomorrow,明天,ADV
 Musik,music,音乐,NOUN
 müssen,must,必须,AUX
 Mutter,mother,母亲,NOUN
-nach,to / after,到/在...之后,ADP
+nach,to,到,ADP
 nächst,next,下一个,ADJ
 Nacht,night,夜晚,NOUN
 Name,name,名字,NOUN
 natürlich,of course,当然,ADV
-nehmen,take,拿,VERB
+nehmen,to take,拿,VERB
 nein,no,不,PART
 nett,nice,友好的,ADJ
 nicht,not,不,PART
@@ -308,8 +307,8 @@ Thema,topic,主题,NOUN
 Tochter,daughter,女儿,NOUN
 toll,great,太棒的,ADJ
 total,total,完全的,ADJ
-treffen,meet,见面,VERB
-trinken,drink,喝,VERB
+treffen,to meet,见面,VERB
+trinken,to drink,喝,VERB
 trotzdem,nevertheless,尽管如此,ADV
 Tür,door,门,NOUN
 Typ,guy,家伙,NOUN
@@ -320,12 +319,12 @@ unser,our,我们的,DET
 unten,below,下面,ADV
 unter,under,在...之下,ADP
 Vater,father,父亲,NOUN
-vergessen,forget,忘记,VERB
-verlassen,leave,离开,VERB
-verlieren,lose,丢失,VERB
+vergessen,to forget,忘记,VERB
+verlassen,to leave,离开,VERB
+verlieren,to lose,丢失,VERB
 verrückt,crazy,疯狂的,ADJ
-verstehen,understand,理解,VERB
-versuchen,try,尝试,VERB
+verstehen,to understand,理解,VERB
+versuchen,to try,尝试,VERB
 viel,much,多,DET
 vielleicht,maybe,也许,ADV
 vier,four,四,NUM
@@ -336,7 +335,7 @@ vor,before,在...之前,ADP
 vorbei,past,经过,ADV
 Wagen,vehicle,车辆,NOUN
 wahr,true,真的,ADJ
-während,while,当...时,SCONJ
+während,during,在...期间,ADP
 wann,when,什么时候,ADV
 warten,to wait,等待,VERB
 warum,why,为什么,ADV
@@ -350,7 +349,7 @@ weit,far,远,ADJ
 weiter,further,进一步,ADV
 Welt,world,世界,NOUN
 wenig,little,少,DET
-wenn,if / when,如果/当...时,SCONJ
+wenn,if,如果,SCONJ
 wer,who,谁,PRON
 werden,will,将要,AUX
 wichtig,important,重要的,ADJ
@@ -387,7 +386,6 @@ tschüss,bye,再见,INTJ
 Pflege,care,护理,NOUN
 Änderung,change,改变,NOUN
 Würfel,die,骰子,NOUN
-während,during,在...期间,ADP
 alle,everyone,所有人,PRON
 genau,exactly,精确地,ADV
 Fakt,fact,事实,NOUN
@@ -405,13 +403,12 @@ nah,near,靠近,ADV
 okay,okay,好的,INTJ
 eins,one,一,NUM
 Öffnung,opening,开口,NOUN
-pflücken,pick,采摘,VERB
+pflücken,to pick,采摘,VERB
 Macht,power,力量,NOUN
 Recht,right,权利,NOUN
 tja,well,好吧,INTJ
 Stand,status,地位,NOUN
 gerade,straight,笔直的,ADJ
-als,than,比,ADP
 Müdigkeit,tiredness,疲劳,NOUN
 zu,too,太,ADV
 Spitze,top,顶部,NOUN
@@ -421,11 +418,11 @@ Weg,way,路,NOUN
 gut,well,好地,ADV
 welcher,which,哪个,PRON
 Schrift,writing,文字,NOUN
-buchen,book,预订,VERB
+buchen,to book,预订,VERB
 Heft,notebook,笔记本,NOUN
 Apfel,apple,苹果,NOUN
 Sessel,armchair,扶手椅,NOUN
-Oma,grandmother,奶奶/外婆,NOUN
+Oma,grandmother,奶奶,NOUN
 bewölkt,cloudy,多云的,ADJ
 sparsam,economical,节俭的,ADJ
 Socke,sock,袜子,NOUN
@@ -468,7 +465,7 @@ Hagel,hail,冰雹,NOUN
 Zwiebel,onion,洋葱,NOUN
 Ellbogen,elbow,肘,NOUN
 Lineal,ruler,直尺,NOUN
-spülen,rinse,冲洗,VERB
+spülen,to rinse,冲洗,VERB
 Keks,cookie,饼干,NOUN
 Klassenzimmer,classroom,教室,NOUN
 sonnig,sunny,晴朗的,ADJ
@@ -477,11 +474,11 @@ Mais,corn,玉米,NOUN
 Passagier,passenger,乘客,NOUN
 Wange,cheek,脸颊,NOUN
 Rechen,rake,耙子,NOUN
-Schwiegervater,father-in-law,岳父/公公,NOUN
+Schwiegervater,father-in-law,岳父,NOUN
 Nagel,nail,指甲,NOUN
 Speise,dish,菜肴,NOUN
 Stiefvater,stepfather,继父,NOUN
-kämmen,comb,梳头,VERB
+kämmen,to comb,梳头,VERB
 Pfirsich,peach,桃子,NOUN
 Gasthaus,inn,客栈,NOUN
 parken,to park,停车,VERB
@@ -503,15 +500,15 @@ total,totally,完全地,ADV
 wert,worth,值得,ADJ
 sorgen,worry,担心,VERB
 tatsächlich,actually,事实上,ADV
-buchstabieren,spell,拼写,VERB
+buchstabieren,to spell,拼写,VERB
 Montag,Monday,星期一,NOUN
-drucken,print,打印,VERB
+drucken,to print,打印,VERB
 Zugticket,train ticket,火车票,NOUN
 Pate,godfather,教父,NOUN
 mager,lean,瘦的,ADJ
 Zahnpasta,toothpaste,牙膏,NOUN
 kosten,to cost,花费,VERB
-achso,oh I see,啊，原来,INTJ
+achso,oh I see,啊,INTJ
 Gutschein,voucher,代金券,NOUN
 Vormittag,forenoon,上午,NOUN
 Helfer,helper,助手,NOUN
@@ -519,10 +516,10 @@ munter,awake,清醒的,ADJ
 Schulbank,school bench,课桌,NOUN
 Schulranzen,schoolbag,书包,NOUN
 Hähnchen,chicken,鸡肉,NOUN
-joggen,jog,慢跑,VERB
+joggen,to jog,慢跑,VERB
 angeben,to state,说明,VERB
-hüpfen,hop,跳,VERB
-umsteigen,to change (trains),换乘,VERB
+hüpfen,to hop,跳,VERB
+umsteigen,to transfer,换乘,VERB
 Rind,beef,牛肉,NOUN
 Zimt,cinnamon,肉桂,NOUN
 Ameise,ant,蚂蚁,NOUN
@@ -569,7 +566,7 @@ frieren,freeze,结冰,VERB
 Beere,berry,莓果,NOUN
 Lamm,lamb,羔羊,NOUN
 farbig,colorful,彩色的,ADJ
-naschen,to snack/eat sweets,吃甜食,VERB
+naschen,to snack,吃甜食,VERB
 rund,round,圆的,ADJ
 Essig,vinegar,醋,NOUN
 lächeln,smile,微笑,VERB

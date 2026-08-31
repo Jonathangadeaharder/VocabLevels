@@ -134,7 +134,7 @@ Einsatz,deployment,投入,NOUN
 einverstanden,agreed,同意的,ADJ
 enden,to end,结束,VERB
 Energie,energy,能量,NOUN
-eng,tight / narrow,狭窄的,ADJ
+eng,tight,狭窄的,ADJ
 Engel,angel,天使,NOUN
 englisch,English,英国的,ADJ
 entfernen,to remove,移除,VERB
@@ -310,17 +310,17 @@ Käse,cheese,奶酪,NOUN
 Künstler,artist,艺术家,NOUN
 Labor,laboratory,实验室,NOUN
 Lager,camp,营地,NOUN
-langen,to suffice / to reach,足够 / 够得着,VERB
+langen,to suffice,足够,VERB
 langweilig,boring,无聊的,ADJ
-lauten,to read / to be,读作 / 为,VERB
+lauten,to read,读作,VERB
 lebendig,alive,活着的,ADJ
 lecker,delicious,美味的,ADJ
 leer,empty,空的,ADJ
 Lehrer,teacher,教师,NOUN
 leiden,to suffer,受苦,VERB
-Leiter,leader / ladder,领导者 / 梯子,NOUN
+Leiter,leader,领导者,NOUN
 Loch,hole,洞,NOUN
-locker,relaxed / loose,放松的 / 松的,ADJ
+locker,relaxed,放松的,ADJ
 loswerden,to get rid of,摆脱,VERB
 lösen,to solve,解决,VERB
 Lüge,lie,谎言,NOUN
@@ -331,7 +331,7 @@ manche,some,一些,DET
 Markt,market,市场,NOUN
 Maschine,machine,机器,NOUN
 Maul,mouth (animal),兽嘴,NOUN
-Medizin,medicine,医学 / 药,NOUN
+Medizin,medicine,医学,NOUN
 mehrere,several,几个,DET
 Meile,mile,英里,NOUN
 Menschheit,humanity,人类,NOUN
@@ -411,7 +411,7 @@ Regisseur,director,导演,NOUN
 reich,rich,富有的,ADJ
 reichen,to be enough,足够,VERB
 Reifen,tire,轮胎,NOUN
-Reihe,row / series,排 / 系列,NOUN
+Reihe,row,排,NOUN
 reinkommen,to come in,进来,VERB
 reisen,to travel,旅行,VERB
 rennen,to run,跑,VERB
@@ -424,8 +424,8 @@ riskieren,to risk,冒险,VERB
 Ritter,knight,骑士,NOUN
 Rock,skirt,裙子,NOUN
 Roman,novel,小说,NOUN
-Runde,round,轮 / 回合,NOUN
-satt,full / fed up,饱的,ADJ
+Runde,round,轮,NOUN
+satt,full,饱的,ADJ
 schade,pity,可惜,ADJ
 Schaden,damage,损害,NOUN
 Schande,shame,耻辱,NOUN
@@ -1002,4 +1002,4 @@ eins,one,一,NUM
 dokumentieren,to document,记录,VERB
 rauslassen,to let out,放出,VERB
 Brauhaus,brewery,啤酒厂,NOUN
-Aufschlag,serve/markup,发球/加价,NOUN
+Aufschlag,serve,发球,NOUN

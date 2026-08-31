@@ -316,7 +316,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حفاضات,diapers,尿布,NOUN
 أرضع,to breastfeed,母乳喂养,VERB
 أفطم,to wean,断奶,VERB
-صراخ,crying/shouting,叫喊,NOUN
+صراخ,crying,叫喊,NOUN
 أهدهد,to lull a baby,哄婴儿,VERB
 هودج,palanquin,轿子,NOUN
 شيخات,traditional female singers,传统女歌手,NOUN
@@ -548,10 +548,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تب,to be,تب,VERB
 كف,to refrain,كف,VERB
 دوم,eternity,دوم,NOUN
-سات,sat,سات,NOUN
 أقلق,to worry,أقلق,VERB
 أثار,to stir,أثار,VERB
-وشك,Wushk,وشك,NOUN
+وشك,imminence,临近,NOUN
 جزل,abundance,جزل,NOUN
 أشبه,resemblance,أشبه,NOUN
 متاعب,trouble,متاعب,NOUN

@@ -524,8 +524,8 @@ tydlighet,clarity,清晰,NOUN,B2
 klassisk,classical,古典的,ADJ,B2
 klassicism,classicism,古典主义,NOUN,B2
 klassificering,classification,分类,NOUN,B2
-stycke,classifier for paintings cloth etc.,幅,NUM,B2
-stam,classifier for trees,棵,NUM,B2
+stycke,piece,幅,NOUN,B2
+stam,tree,棵,NOUN,B2
 klassificera,to classify,分类,VERB,B2
 klasskamrat,classmate,同学,NOUN,B2
 klassrum,classroom,教室,NOUN,B2
@@ -998,7 +998,7 @@ opartisk,disinterested,公正的,ADJ,B2
 disjunkt,disjoint,不相交的,ADJ,B2
 luxera,to dislocate,使脱臼,VERB,B2
 luxation,dislocation,脱臼,NOUN,B2
-nedmontering,dismantling,拆除，瓦解,NOUN,B2
+nedmontering,dismantling,拆除,NOUN,B2
 avsked,dismissal,解雇,NOUN,B2
 stiga av,to dismount,下马,VERB,B2
 lydnadsbrist,disobedience,不服从,NOUN,B2
@@ -1129,7 +1129,7 @@ brodera,to embroider,刺绣,VERB,B2
 broderi,embroidery,刺绣,NOUN,B2
 uppkomst,emergence,涌现,NOUN,B2
 emittera,to emit,发出,VERB,B2
-emotionalitet,emotionality,感性/情绪化,NOUN,B2
+emotionalitet,emotionality,感性,NOUN,B2
 ematisera,to empathize,共情,VERB,B2
 betoning,emphasis,强调,NOUN,B2
 rike,empire,帝国,NOUN,B2
@@ -1561,7 +1561,7 @@ statlig,governmental,政府的,ADJ,B2
 grabba,to grab,抓,VERB,B2
 graciös,graceful,优雅的,ADJ,B2
 gradering,gradation,渐变,NOUN,B2
-betygssättning,grading,评分；记号,NOUN,B2
+betygssättning,grading,评分,NOUN,B2
 gradvis,gradual,逐渐的,ADJ,B2
 examinera,graduate,毕业生,NOUN,B2
 examinera,to graduate,毕业,VERB,B2
@@ -1629,7 +1629,7 @@ gymnastiksal,gymnasium,体育馆,NOUN,B2
 gymnastik,gymnastics,体操,NOUN,B2
 bruk,habitually in the past,往常,NOUN,B2
 tillvänjning,habituation,习惯化,NOUN,B2
-hacka,to hack,入侵；盗版,VERB,B2
+hacka,to hack,入侵,VERB,B2
 pruta,to haggle,讨价还价,VERB,B2
 prutande,haggling,计较,NOUN,B2
 hagel,hail,冰雹,NOUN,B2
@@ -1682,7 +1682,7 @@ hettbölja,heat wave,热浪,NOUN,B2
 uppvärmning,heating,供暖,NOUN,B2
 himmel,heaven,天堂,NOUN,B2
 himmelsk doft,heavenly fragrance,天香,NOUN,B2
-tyngd,heaviness,沉重 / 笨重,NOUN,B2
+tyngd,heaviness,沉重,NOUN,B2
 tung etikett,heavy etiquette,礼太重,NOUN,B2
 tung knut,heavy knot,重结,NOUN,B2
 tung maskin,heavy machine,重机,NOUN,B2
@@ -1985,7 +1985,7 @@ jag,me,لي,NOUN,B2
 äng,meadow,草地,NOUN,B2
 mellan,meantime,同时,NOUN,B2
 samtidigt,meanwhile,同时,ADV,B2
-exemplar,measure word for books,本,NUM,B2
+exemplar,volume,本,NOUN,B2
 mekanism,mechanism,机制,NOUN,B2
 mekanistisk,mechanistic,机制性,ADJ,B2
 medling,mediation,调解,NOUN,B2
@@ -2042,7 +2042,7 @@ mycket,much,多,DET,B2
 slem,mucus,黏液,NOUN,B2
 ler,mud,泥,NOUN,B2
 virrig,muddled,混乱的,ADJ,B2
-multiplicera,to multiply,乘；增加,VERB,B2
+multiplicera,to multiply,乘,VERB,B2
 kommunal,municipal,市政的,ADJ,B2
 gävnhet,munificence,慷慨,NOUN,B2
 muskelsmärta,muscle pain,肌肉痛,NOUN,B2
@@ -2052,10 +2052,10 @@ nära,near,靠近,ADV,B2
 närheten,nearby,在附近,ADV,B2
 nästan,nearly,几乎,ADV,B2
 nysn,neat,整洁的,ADJ,B2
-nödvändighet,necessity,必要性；必需品,NOUN,B2
+nödvändighet,necessity,必要性,NOUN,B2
 negera,to negate,否定,VERB,B2
 försumma,to neglect,忽视,VERB,B2
-vårdslöshet,negligence,疏忽；过失,NOUN,B2
+vårdslöshet,negligence,疏忽,NOUN,B2
 vårdslös,negligent,疏忽的,ADJ,B2
 obetydlig,negligible,微不足道的,ADJ,B2
 betydande,negligible not,不可忽视,ADJ,B2
@@ -2727,14 +2727,14 @@ till synes,seemingly,表面上,ADV,B2
 seismisk,seismic,地震的,ADJ,B2
 beslagta,to seize,抓住,VERB,B2
 urval,selection,选择,NOUN,B2
-selektiv,selective,选择的，挑选的,ADJ,B2
+selektiv,selective,选择的,ADJ,B2
 själv,self,自我,NOUN,B2
 självsäker,self-confident,自信的,ADJ,B2
 självuppoffring,self-sacrifice,舍己,NOUN,B2
 själviskhet,selfishness,自私,NOUN,B2
 säljare,seller,售货员,NOUN,B2
 termin,semester,学期,NOUN,B2
-semiologi,semiology,符号学，症状学,NOUN,B2
+semiologi,semiology,符号学,NOUN,B2
 semiotik,semiotics,符号学,NOUN,B2
 senioritet,seniority,资历,NOUN,B2
 grund,shallow,浅的,ADJ,B2
@@ -2799,7 +2799,7 @@ tanke,single thought,一念,NOUN,B2
 vask,sink,水槽,NOUN,B2
 smutta,to sip,小口喝,VERB,B2
 herre,sir,先生,NOUN,B2
-svägerska,sister-in-law,嫂子/弟媳/大姑子/小姑子,NOUN,B2
+svägerska,sister-in-law,嫂子,NOUN,B2
 sätta sig,to sit down,坐下,VERB,B2
 situation,situation circumstances,情形,NOUN,B2
 snarka,to snore,打鼾,VERB,B2
@@ -2842,7 +2842,7 @@ sula,sole,鞋底,NOUN,B2
 högtidlig,solemn,庄严的,ADJ,B2
 begära,to solicit,恳求,VERB,B2
 samla in donationer,to solicit donations,募捐,VERB,B2
-fast ämne,solid,3D模型 / 实体,NOUN,B2
+fast ämne,solid,3D模型,NOUN,B2
 SSD,solid-state drive,固态硬盘,NOUN,B2
 monolog,soliloquy,独白,NOUN,B2
 ensamhet,solitude,孤独,NOUN,B2
@@ -2856,7 +2856,7 @@ sofism,sophism,诡辩,NOUN,B2
 sofisteri,sophistry,诡辩,NOUN,B2
 ledsen,sorry,抱歉,ADJ,B2
 sortera,to sort,分类,VERB,B2
-sorl,sound of activity,动静,NOUN,B2
+sorl,commotion,动静,NOUN,B2
 sundhet,soundness,好端端,NOUN,B2
 sydarmé,southern army,南军,NOUN,B2
 monark,sovereign,君主,NOUN,B2
@@ -2941,7 +2941,7 @@ stigmatisera,to stigmatize,污名化,VERB,B2
 stimulans,stimulant,兴奋剂,NOUN,B2
 stimulera,to stimulate,激发,VERB,B2
 sticka,to sting,刺,VERB,B2
-snålhet,stinginess,吝啬；小气,NOUN,B2
+snålhet,stinginess,吝啬,NOUN,B2
 snål,stingy,吝啬的,ADJ,B2
 stinka,to stink,发臭,VERB,B2
 stipulera,to stipulate,规定,VERB,B2
@@ -3377,7 +3377,7 @@ vilken,which one,哪一个,PRON,B2
 stund,while,一会儿,NOUN,B2
 kaprice,whim,突发奇想,NOUN,B2
 piska,to whip,鞭打,VERB,B2
-virvelvind,whirlwind,旋风；漩涡,NOUN,B2
+virvelvind,whirlwind,旋风,NOUN,B2
 viskning,whisper,低语,NOUN,B2
 pipa,whistle,口哨,NOUN,B2
 pipa,to whistle,吹口哨,VERB,B2
@@ -8929,10 +8929,10 @@ xiangqi,chinese chess,中国象棋象棋象戏博弈棋盘,NOUN,B2
 kinesiska stjärntecken,chinese zodiac,十二生肖中国属相生肖属相,NOUN,B1
 koriander,cilantro,芫荽香菜胡荽调味香草,NOUN,B1
 lektionstimme,class lesson,课堂课时教学课节一堂课,NOUN,A1
-dokumentexemplar,classifier for documents portions,份张册件案宗,NOUN,B2
-blomma,classifier for flowers,朵束枝支株,NUM,A1
-häst,classifier for horses,匹头乘群副,NUM,A1
-småsaker,classifier for small round objects,颗粒个枚团,NOUN,B1
+dokumentexemplar,copy,份张册件案宗,NOUN,B2
+blomma,flower,朵束枝支株,NOUN,A1
+häst,horse,匹头乘群副,NOUN,A1
+småsaker,grain,颗粒个枚团,NOUN,B1
 skolarbete,classwork,课堂作业课业课堂练习校内课业,NOUN,A2
 städare,cleaner,保洁员清洁工打扫者清洁器具,NOUN,A2
 molntjänster,cloud computing,云计算云平台分布式计算云端算力,NOUN,B2
@@ -11447,8 +11447,8 @@ klassstratifiering,class stratification,阶级分层,NOUN,B2
 klassprov,class test,班级考试,NOUN,B2
 klassisk poesi,classical poetry,古典诗歌,NOUN,B2
 klassicistisk,classicist,古典主义的,ADJ,B2
-resa,classifier for trips,趟,NUM,B2
-fordon,classifier for vehicles,辆,NUM,B2
+resa,trip,趟,NOUN,B2
+fordon,vehicle,辆,NOUN,B2
 lertuga,clay stove,土灶,NOUN,B2
 rensa,to clean out,清理,VERB,B2
 ren teknik,clean technology,清洁技术,NOUN,B2

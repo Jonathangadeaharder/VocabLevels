@@ -22,7 +22,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تقشف,austerity,紧缩,NOUN
 تَسْبِق,advance payment,预付款,NOUN
 كَفَالَة,sponsorship,担保,NOUN
-اسْتِحْقَاق,due date/maturity,到期日/到期,NOUN
+اسْتِحْقَاق,due date,到期日,NOUN
 مَدِين,debtor,债务人,NOUN
 دَائِن,creditor,债权人,NOUN
 نَصْب,scam,诈骗,NOUN
@@ -86,9 +86,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تحسيس,sensitization,意识培养,NOUN
 مغالطة,fallacy,谬误,NOUN
 تأويل,interpretation,诠释,NOUN
-وقاحة,insolence/rudeness,无礼/傲慢,NOUN
-لباقة,tact,圆滑/得体,NOUN
-دهاء,cunning/shrewdness,狡猾/精明,NOUN
+وقاحة,insolence,无礼,NOUN
+لباقة,tact,圆滑,NOUN
+دهاء,cunning,狡猾,NOUN
 مكر,slyness,狡诈,NOUN
 استقامة,uprightness,正直,NOUN
 إيثار,altruism,利他,NOUN
@@ -585,7 +585,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 رمق,to glance,رمق,VERB
 ٱستماح,to allow,ٱستماح,VERB
 ٱبتدع,to invent,ٱبتدع,VERB
-ماخور,opium den,ماخور,NOUN
+ماخور,brothel,妓院,NOUN
 برح,departure,,NOUN
 برزخ,limbo,,NOUN
 بزغ,dawn,,NOUN

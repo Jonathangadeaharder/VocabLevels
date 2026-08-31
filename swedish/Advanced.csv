@@ -93,7 +93,7 @@ bröllopsdag,wedding anniversary,结婚纪念日,NOUN
 budbärare,messenger,信使,NOUN
 budskap,message,信息,NOUN
 bur,cage,笼子,NOUN
-burk,can/jar,罐子,NOUN
+burk,can,罐子,NOUN
 bägge,both,两者,DET
 bälte,belt,腰带,NOUN
 bänk,bench,长凳,NOUN
@@ -119,35 +119,22 @@ cigg,cigarette,香烟,NOUN
 cirkel,circle,圆圈,NOUN
 citat,quote,引文,NOUN
 coola,cool,使变酷,VERB
-cykeln,cykel,自行车,NOUN
 cykla,cycle,骑自行车,VERB
-cyklar,cykel,自行车,NOUN
 dagbok,diary,日记,NOUN
 dagis,preschool,幼儿园,NOUN
-dagliga,daglig,日常的,ADJ
 dagligen,daily,每天,ADV
 dagsljus,daylight,日光,NOUN
-dalen,dal,山谷,NOUN
 damm,dust,灰尘,NOUN
-dammen,damm,池塘,NOUN
 dansare,dancer,舞者,NOUN
-dansen,dans,舞蹈,NOUN
 databas,database,数据库,NOUN
-databasen,databas,数据库,NOUN
-datorer,dator,电脑,NOUN
 datum,date,日期,NOUN
-datumet,datum,日期,NOUN
 dejta,date,约会,VERB
-dejtade,dejta,约会,VERB
-dejtat,dejta,约会,VERB
-dejten,dejt,约会,NOUN
 delaktig,involved,有关的,ADJ
-delarna,del,部分,NOUN
 delstat,state (federal),州,NOUN
 delvis,partly,部分地,ADV
 delägare,co-owner,合伙人,NOUN
 demokrati,democracy,民主,NOUN
-denne,he/this one,他/这位,PRON
+denne,this,这位,PRON
 densamma,the same,同一个,PRON
 deprimerad,depressed,沮丧的,ADJ
 dessvärre,unfortunately,不幸的是,ADV
@@ -155,8 +142,8 @@ detektiv,detective,侦探,NOUN
 diagnos,diagnosis,诊断,NOUN
 dikt,poem,诗,NOUN
 dimma,fog,雾,NOUN
-direktör,director/manager,主管/经理,NOUN
-disciplin,discipline,纪律/学科,NOUN
+direktör,director,主管,NOUN
+disciplin,discipline,纪律,NOUN
 disk,counter,柜台,NOUN
 diskret,discreet,谨慎的,ADJ
 diskussion,discussion,讨论,NOUN
@@ -343,8 +330,8 @@ färja,ferry,渡轮,NOUN
 färre,fewer,较少的,ADJ
 färsk,fresh,新鲜的,ADJ
 fästa,fasten,固定,VERB
-fästman,fiancé,未婚夫,NOUN
-fästmö,fiancée,未婚妻,NOUN
+fästman,fiance,未婚夫,NOUN
+fästmö,fiancee,未婚妻,NOUN
 fångad,caught,被捕获的,ADJ
 fånig,silly,愚蠢的,ADJ
 födsel,birth,出生,NOUN
@@ -443,7 +430,7 @@ grepp,grip,握法,NOUN
 grevinna,countess,伯爵夫人,NOUN
 grind,gate,大门,NOUN
 grotta,cave,洞穴,NOUN
-grov,coarse/rough,粗糙的,ADJ
+grov,rough,粗糙的,ADJ
 grundläggande,fundamental,基本的,ADJ
 gruva,mine,矿井,NOUN
 grädde,cream,奶油,NOUN
@@ -569,20 +556,20 @@ inkludera,include,包含,VERB
 inkommande,incoming,进来的,ADJ
 inkräktare,intruder,入侵者,NOUN
 innanför,inside of,在...里面,ADP
-innebära,mean/entail,意味着,VERB
+innebära,mean,意味着,VERB
 innehåll,content,内容,NOUN
 innerst,innermost,最里面的,ADV
 inombords,inboard,船内的,ADV
 inomhus,indoors,在室内,ADV
-insats,effort/bet,努力/赌注,NOUN
+insats,effort,努力,NOUN
 insekt,insect,昆虫,NOUN
 insikt,insight,洞察力,NOUN
 insistera,insist,坚持,VERB
 inspirerande,inspiring,鼓舞人心的,ADJ
 instinkt,instinct,本能,NOUN
 instruktion,instruction,指示,NOUN
-inställd,cancelled/set,取消的/设定的,ADJ
-inställning,attitude/setting,态度/设置,NOUN
+inställd,cancelled,取消的,ADJ
+inställning,attitude,态度,NOUN
 instämma,agree,同意,VERB
 instängd,locked in,被关在里面的,ADJ
 inta,occupy,占领,VERB
@@ -630,7 +617,7 @@ jungfru,virgin,处女,NOUN
 juridisk,legal,法律的,ADJ
 jurist,lawyer,律师,NOUN
 jägare,hunter,猎人,NOUN
-jäkel,devil/bastard,混蛋,NOUN
+jäkel,bastard,混蛋,NOUN
 jäkligt,damn,该死的,ADV
 jämföra,compare,比较,VERB
 jämförelse,comparison,比较,NOUN
@@ -646,27 +633,17 @@ kapitel,chapter,章,NOUN
 kappa,coat,外套,NOUN
 karaktär,character,性格,NOUN
 karantän,quarantine,隔离,NOUN
-karlar,men,男人们,NOUN
-karln,the guy,那个男人,NOUN
-karriären,the career,职业生涯,NOUN
-kasinot,the casinos,赌场,NOUN
 kass,lousy,糟糕的,ADJ
-kassan,the cash register,收银台,NOUN
-kassaskåpet,the safe,保险箱,NOUN
 kast,throw,投掷,NOUN
 kastat,thrown,扔,VERB
 katolik,Catholic,天主教徒,NOUN
 katter,cats,猫,NOUN
 kavaj,jacket,西装外套,NOUN
-kavalleriet,the cavalry,骑兵,NOUN
 kaxig,cocky,傲慢的,ADJ
 kedja,chain,链条,NOUN
-kedjan,the chain,链条,NOUN
 kejsare,emperor,皇帝,NOUN
-kejsaren,the emperor,皇帝,NOUN
 kemi,chemistry,化学,NOUN
 kemikalier,chemicals,化学品,NOUN
-kemiska,chemical,化学的,ADJ
 kg,kilogram,千克,NOUN
 kidnappa,kidnap,绑架,VERB
 kidnappad,kidnapped,被绑架的,ADJ
@@ -674,8 +651,6 @@ kidnappade,kidnapped,绑架,VERB
 kidnappning,kidnapping,绑架,NOUN
 kika,peek,偷看,VERB
 kila,wedge,楔入,VERB
-killens,the guy's,那个男人的,NOUN
-kineserna,the Chinese,中国人,NOUN
 kinesisk,Chinese,中国的,ADJ
 kinesiska,Chinese,中文,NOUN
 kirurg,surgeon,外科医生,NOUN
@@ -806,16 +781,16 @@ lagligt,legally,合法地,ADV
 lagom,just right,恰到好处,ADV
 lakan,sheet,床单,NOUN
 lamm,lamb,羔羊,NOUN
-lapp,note/patch,纸条/补丁,NOUN
+lapp,note,纸条,NOUN
 larm,alarm,警报,NOUN
 larmcentral,alarm center,报警中心,NOUN
-last,load/cargo,货物/负荷,NOUN
+last,load,货物,NOUN
 lasta,load,装载,VERB
 lat,lazy,懒惰的,ADJ
 lax,salmon,鲑鱼,NOUN
-ledande,leading,领先的/主导的,ADJ
+ledande,leading,领先的,ADJ
 ledarskap,leadership,领导力,NOUN
-ledning,management/pipe,管理层/管道,NOUN
+ledning,management,管理层,NOUN
 legitimation,identification,身份证明,NOUN
 lejon,lion,狮子,NOUN
 leksak,toy,玩具,NOUN
@@ -906,8 +881,8 @@ medbrottsling,accomplice,共犯,NOUN
 medge,admit,承认,VERB
 medhjälpare,assistant,助手,NOUN
 medicinsk,medical,医学的,ADJ
-medkänsla,sympathy/empathy,同情/共情,NOUN
-medlidande,compassion/sympathy,同情/怜悯,NOUN
+medkänsla,sympathy,同情,NOUN
+medlidande,compassion,同情,NOUN
 medvetande,consciousness,意识,NOUN
 medvetet,consciously,有意识地,ADV
 mejl,email,电子邮件,NOUN
@@ -1046,7 +1021,6 @@ objekt,object,"物体, 对象",NOUN
 observera,observe,观察,VERB
 oddsen,odds,赔率,NOUN
 odjur,beast,野兽,NOUN
-odjuret,beast,野兽,NOUN
 odla,cultivate,种植,VERB
 ofattbar,incomprehensible,难以理解的,ADJ
 offentlig,public,公共的,ADJ
@@ -1185,7 +1159,7 @@ regelbundet,regularly,定期地,ADV
 regissör,director,导演,NOUN
 registrerad,registered,注册的,ADJ
 regna,rain,下雨,VERB
-rejäl,solid/substantial,结实的/大量的,ADJ
+rejäl,substantial,结实的,ADJ
 reklam,advertising,广告,NOUN
 rekommendera,recommend,推荐,VERB
 rekord,record,记录,NOUN
@@ -1347,11 +1321,11 @@ slampa,slut,荡妇,NOUN
 slant,money,钱,NOUN
 slicka,lick,舔,VERB
 slips,tie,领带,NOUN
-slit,wear/tear,磨损,NOUN
+slit,wear,磨损,NOUN
 slutföra,complete,完成,VERB
 slutsats,conclusion,结论,NOUN
 släcka,extinguish,熄灭,VERB
-släkte,family/relatives,亲属,NOUN
+släkte,family,亲属,NOUN
 släkting,relative,亲戚,NOUN
 släpa,drag,拖,VERB
 smekmånad,honeymoon,蜜月,NOUN
@@ -1446,21 +1420,21 @@ stöld,theft,盗窃,NOUN
 störande,disturbing,干扰的,ADJ
 störd,disturbed,受干扰的,ADJ
 störning,disturbance,干扰,NOUN
-störta,fall/crash,坠落/猛冲,VERB
-stöt,bump/shock,碰撞/震惊,NOUN
-stöta,bump/push,推/碰撞,VERB
+störta,fall,坠落,VERB
+stöt,bump,碰撞,NOUN
+stöta,push,推,VERB
 stötta,support,支持,VERB
 stövel,boot,靴子,NOUN
 subba,chick,女孩,NOUN
 succé,success,成功,NOUN
 sup,sip,啜饮,NOUN
-sugen,keen/eager,渴望的,ADJ
-summa,sum,金额/总数,NOUN
-sund,sensible,明智的/健康的,ADJ
-supa,drink/binge,狂饮,VERB
+sugen,keen,渴望的,ADJ
+summa,sum,金额,NOUN
+sund,sensible,明智的,ADJ
+supa,drink,狂饮,VERB
 superhjälte,superhero,超级英雄,NOUN
 svälja,swallow,吞咽,VERB
-svamp,mushroom/fungus,蘑菇/真菌,NOUN
+svamp,mushroom,蘑菇,NOUN
 svans,tail,尾巴,NOUN
 svartsjuka,jealousy,嫉妒,NOUN
 svenska,Swedish,瑞典语,NOUN
@@ -1471,9 +1445,9 @@ svimma,faint,晕倒,VERB
 svära,swear,发誓,VERB
 svälta,starve,挨饿,VERB
 svänga,turn,转弯,VERB
-svärfar,father-in-law,岳父/公公,NOUN
+svärfar,father-in-law,岳父,NOUN
 sväva,hover,悬浮,VERB
-svåger,brother-in-law,姐夫/妹夫/大伯子/小叔子,NOUN
+svåger,brother-in-law,姐夫,NOUN
 svårighet,difficulty,困难,NOUN
 sy,sew,缝纫,VERB
 syfta,aim,旨在,VERB
@@ -1484,7 +1458,7 @@ synnerhet,particularity,特殊性,NOUN
 syntes,synthesis,综合,NOUN
 syre,oxygen,氧气,NOUN
 syskon,sibling,兄弟姐妹,NOUN
-systerdotter,niece,侄女/外甥女,NOUN
+systerdotter,niece,甥女,NOUN
 säck,sack,麻袋,NOUN
 säkerligen,certainly,肯定地,ADV
 sällsynt,rare,罕见的,ADJ
@@ -1536,7 +1510,7 @@ tillgänglig,available,可用的,ADJ
 tillhöra,belong,属于,VERB
 tillhörighet,belongings,所属物,NOUN
 tillit,trust,信任,NOUN
-tillsagd,told/instructed,被告知的,ADJ
+tillsagd,instructed,被告知的,ADJ
 tilltala,address,称呼,VERB
 tillträde,access,进入权,NOUN
 tillverka,manufacture,制造,VERB
@@ -1633,13 +1607,13 @@ unik,unique,独特的,ADJ
 uppehåll,stay,停留,NOUN
 uppenbarelse,revelation,启示,NOUN
 uppfinna,invent,发明,VERB
-uppfattning,perception/opinion,看法,NOUN
+uppfattning,perception,看法,NOUN
 uppfinning,invention,发明,NOUN
-uppfostra,raise/bring up,抚养,VERB
+uppfostra,raise,抚养,VERB
 uppfylla,fulfill,实现,VERB
-uppföra,erect/behave,建造,VERB
+uppföra,erect,建造,VERB
 uppförande,behavior,行为,NOUN
-uppgörelse,settlement/deal,协议,NOUN
+uppgörelse,settlement,协议,NOUN
 upphetsad,excited,兴奋的,ADJ
 upphöra,cease,停止,VERB
 uppifrån,from above,从上方,ADV
@@ -1724,11 +1698,9 @@ vetenskap,science,科学,NOUN
 vetenskaplig,scientific,科学的,ADJ
 vetenskapligt,scientifically,科学地,ADV
 vetenskapsman,scientist,科学家,NOUN
-vetenskapsmän,scientists,科学家,NOUN
 vett,sense,理智,NOUN
 vettigt,sensibly,明智地,ADV
 vidrig,vile,可憎的,ADJ
-vidriga,vile,可憎的,ADJ
 vidrigt,vile,可憎地,ADV
 vika,fold,折叠,VERB
 vildmark,wilderness,荒野,NOUN
@@ -1757,20 +1729,16 @@ vänligen,please,请,ADV
 väntan,wait,等待,NOUN
 värdefull,valuable,有价值的,ADJ
 värden,host,主人,NOUN
-värderingar,values,价值观,NOUN
 värdig,worthy,值得的,ADJ
 värdighet,dignity,尊严,NOUN
 värma,warm,加热,VERB
-värmen,warmth,温暖,NOUN
 värvning,recruitment,招募,NOUN
 väsen,being,本质,NOUN
-väskor,bags,包,NOUN
 väster,west,西方,NOUN
 västerut,westward,向西,ADV
 västra,western,西部的,ADJ
 vätska,liquid,液体,NOUN
 växel,exchange,交换,NOUN
-växeln,switchboard,总机,NOUN
 växla,change,改变,VERB
 växt,plant,植物,NOUN
 våg,wave,波浪,NOUN
@@ -1848,7 +1816,6 @@ zon,zone,区域,NOUN
 överraskad,surprised,惊讶的,ADJ
 överraskande,surprising,令人惊讶的,ADJ
 översta,top,顶部的,ADJ
-övermåla,paint over,重新粉刷,VERB
 översätta,translate,翻译,VERB
 överta,take over,接管,VERB
 övertid,overtime,加班,NOUN

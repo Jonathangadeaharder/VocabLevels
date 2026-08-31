@@ -1,11 +1,11 @@
 French_Lemma,English_Lemma,Chinese_Lemma,POS
-abattre,to slaughter/shoot down,屠宰/击落,VERB
+abattre,to slaughter,屠宰,VERB
 abbaye,abbey,修道院,NOUN
 abeille,bee,蜜蜂,NOUN
 abondance,abundance,丰富,NOUN
-aborder,to tackle/approach,接近/处理,VERB
-aboutir,to lead to/succeed,成功/导致,VERB
-abriter,to shelter/house,庇护/容纳,VERB
+aborder,to tackle,接近,VERB
+aboutir,to lead to,成功,VERB
+abriter,to shelter,庇护,VERB
 abstrait,abstract,抽象的,ADJ
 absurde,absurd,荒谬的,ADJ
 académique,academic,学术的,ADJ
@@ -14,14 +14,14 @@ acclimatation,acclimatization,适应环境,NOUN
 accomplir,to accomplish,完成,VERB
 accorder,to grant,给予,VERB
 accouchement,childbirth,分娩,NOUN
-accrocher,to hang/hook,悬挂/钩住,VERB
+accrocher,to hang,悬挂,VERB
 accroître,to increase,增加,VERB
 accélération,acceleration,加速,NOUN
 accélérer,to accelerate,加速,VERB
-acheminement,conveyance/routing,运送,NOUN
+acheminement,conveyance,运送,NOUN
 acheteur,buyer,买家,NOUN
-achever,to complete/finish,完成,VERB
-acide,acid/sour,酸的,ADJ
+achever,to complete,完成,VERB
+acide,acid,酸的,ADJ
 acquittement,acquittal,无罪释放,NOUN
 actionnaire,shareholder,股东,NOUN
 actionnariat,shareholding,持股,NOUN
@@ -1090,34 +1090,34 @@ opiniâtre,stubborn,顽固的,ADJ
 opportunité,opportunity,机会,NOUN
 optimiste,optimistic,乐观的,ADJ
 opérateur,operator,操作员,NOUN
-opérer,to operate,动手术；操作,VERB
+opérer,to operate,动手术,VERB
 orage,thunderstorm,雷暴,NOUN
 orbite,orbit,轨道,NOUN
 orchestre,orchestra,管弦乐队,NOUN
-ordonnancement,scheduling,调度；排序,NOUN
-ordonner,to order,命令；整理,VERB
+ordonnancement,scheduling,调度,NOUN
+ordonner,to order,命令,VERB
 organisateur,organizer,组织者,NOUN
 oriental,Eastern,东方的,ADJ
 originalité,originality,独创性,NOUN
-ostensiblement,ostensibly,表面上；公然地,ADV
+ostensiblement,ostensibly,表面上,ADV
 otage,hostage,人质,NOUN
-outrepasser,to overstep,超越；逾越,VERB
+outrepasser,to overstep,超越,VERB
 oxygène,oxygen,氧气,NOUN
 pacte,pact,协定,NOUN
 paille,straw,稻草,NOUN
-pallier,to remedy,弥补；缓解,VERB
+pallier,to remedy,弥补,VERB
 panier,basket,篮子,NOUN
 panique,panic,恐慌,NOUN
 panne,breakdown,故障,NOUN
-panneau,panel,面板；标牌,NOUN
+panneau,panel,面板,NOUN
 papillon,butterfly,蝴蝶,NOUN
 paradigme,paradigm,范式,NOUN
 paradoxe,paradox,悖论,NOUN
 paragraphe,paragraph,段落,NOUN
-parallèlement,in parallel,平行地；同时,ADV
+parallèlement,in parallel,平行地,ADV
 parcimonie,parsimony,吝啬,NOUN
 parcimonieux,parsimonious,吝啬的,ADJ
-parcourir,to browse,浏览；走遍,VERB
+parcourir,to browse,浏览,VERB
 pardonner,to forgive,原谅,VERB
 pari,bet,赌注,NOUN
 parrain,godfather,教父,NOUN
@@ -1252,7 +1252,7 @@ préjudice,harm,损害,NOUN
 préjudiciable,detrimental,有害的,ADJ
 préjuger,to prejudge,预断,VERB
 préjugé,prejudice,偏见,NOUN
-prélèvement,levy/sample,提取/采样,NOUN
+prélèvement,levy,提取,NOUN
 préméditation,premeditation,预谋,NOUN
 préoccupation,concern,担忧,NOUN
 prépondérant,preponderant,占优势的,ADJ
@@ -1268,17 +1268,17 @@ psychologique,psychological,心理的,ADJ
 psychologue,psychologist,心理学家,NOUN
 publicitaire,advertising,广告的,ADJ
 publiquement,publicly,公开地,ADV
-puce,flea/chip,跳蚤/芯片,NOUN
+puce,flea,跳蚤,NOUN
 puer,to stink,发臭,VERB
 puissance,power,力量,NOUN
 punition,punishment,惩罚,NOUN
 purement,purely,纯粹地,ADV
 purée,mash,泥状食物,NOUN
 pédagogie,pedagogy,教育学,NOUN
-pénible,tedious/painful,乏味的/辛苦的,ADJ
+pénible,tedious,乏味的,ADJ
 péninsule,peninsula,半岛,NOUN
 pénurie,shortage,短缺,NOUN
-pénétrer,to penetrate,穿透/进入,VERB
+pénétrer,to penetrate,穿透,VERB
 péremptoire,peremptory,武断的,ADJ
 pérenne,perennial,持久的,ADJ
 péricliter,to decline,衰退,VERB
@@ -1543,7 +1543,7 @@ semblant,pretense,假装,NOUN
 sembler,to seem,似乎,VERB
 semonce,reprimand,训斥,NOUN
 semoule,semolina,粗面粉,NOUN
-sens,sense,意义/感觉,NOUN
+sens,sense,意义,NOUN
 sensibilité,sensitivity,敏感性,NOUN
 sensible,sensitive,敏感的,ADJ
 sensiblement,perceptibly,明显地,ADV
@@ -1551,17 +1551,17 @@ sensoriel,sensory,感官的,ADJ
 sensé,sensible,明智的,ADJ
 sentier,path,小径,NOUN
 sentiment,feeling,情感,NOUN
-sentir,to feel,感觉/闻,VERB
+sentir,to feel,感觉,VERB
 sept,seven,七,NUM
 septième,seventh,第七,ADJ
 serment,oath,誓言,NOUN
 serpent,snake,蛇,NOUN
 serpillière,mop,拖把,NOUN
-serrer,to tighten,紧握/收紧,VERB
+serrer,to tighten,紧握,VERB
 serrure,lock,锁,NOUN
 serveur,waiter,服务员,NOUN
 serviable,helpful,乐于助人的,ADJ
-serviette,towel,毛巾/餐巾,NOUN
+serviette,towel,毛巾,NOUN
 servir,to serve,服务,VERB
 seuil,threshold,门槛,NOUN
 seul,alone,单独的,ADJ
@@ -1706,14 +1706,14 @@ subvention,subsidy,补贴,NOUN
 subventionner,to subsidize,资助,VERB
 successeur,successor,继任者,NOUN
 successivement,successively,连续地,ADV
-abreuver,to water/give drink,给…饮水,VERB
+abreuver,to water,给……饮水,VERB
 abîmer,to damage,损坏,VERB
 accourir,to rush,奔来,VERB
-accoupler,to couple/pair,配对,VERB
+accoupler,to couple,配对,VERB
 accuser,to accuse,指控,VERB
 acquitter,to acquit,宣告无罪,VERB
-adhérer,to adhere/join,加入,VERB
-adjoindre,to appoint/add,附加,VERB
+adhérer,to adhere,加入,VERB
+adjoindre,to appoint,附加,VERB
 adjuger,to award,判给,VERB
 adosser,to lean against,使靠着,VERB
 affadir,to make bland,使乏味,VERB
@@ -1726,7 +1726,7 @@ aiguillonner,to spur,驱使,VERB
 aiguiser,to sharpen,磨快,VERB
 alourdir,to make heavier,加重,VERB
 amasser,to amass,积聚,VERB
-aménager,to arrange/develop,规划,VERB
+aménager,to arrange,规划,VERB
 ameuter,to rouse,煽动,VERB
 amputer,to amputate,截肢,VERB
 animer,to animate,使有生气,VERB
@@ -1741,7 +1741,7 @@ apparaître,to appear,出现,VERB
 apprivoiser,to tame,驯服,VERB
 approfondir,to deepen,深入,VERB
 approvisionner,to supply,供应,VERB
-arraisonner,to hail/inspect,盘查,VERB
+arraisonner,to inspect,盘查,VERB
 arrérages,arrears,欠款,NOUN
 assécher,to dry up,使干涸,VERB
 assaillir,to assault,猛攻,VERB
@@ -1751,7 +1751,7 @@ assouplir,to soften,使灵活,VERB
 assouvir,to satisfy,满足,VERB
 astreindre,to compel,强迫,VERB
 attarder,to delay,耽搁,VERB
-attendrir,to move/touch,使感动,VERB
+attendrir,to move,使感动,VERB
 atterrer,to appal,使惊愕,VERB
 attrister,to sadden,使悲伤,VERB
 augmenter,to increase,增加,VERB
@@ -1766,10 +1766,10 @@ barricader,to barricade,设路障,VERB
 battre,to beat,打,VERB
 blâmer,to blame,责备,VERB
 boiter,to limp,跛行,VERB
-bondir,to bound/leap,跳跃,VERB
+bondir,to bound,跳跃,VERB
 borner,to limit,限定,VERB
-bousculer,to jostle/shove,推搡,VERB
-braquer,to aim/steer,瞄准,VERB
+bousculer,to jostle,推挤,VERB
+braquer,to aim,瞄准,VERB
 bramer,to bellow,鹿鸣,VERB
 broyer,to crush,碾碎,VERB
 brûler,to burn,燃烧,VERB
@@ -1780,7 +1780,7 @@ caresser,to caress,抚摸,VERB
 censurer,to censor,审查,VERB
 centraliser,to centralize,集中,VERB
 chanceler,to stagger,摇晃,VERB
-charger,to load/charge,装载,VERB
+charger,to load,装载,VERB
 chasser,to hunt,狩猎,VERB
 châtier,to chastise,惩罚,VERB
 cheminer,to make one's way,前行,VERB
@@ -1802,7 +1802,7 @@ concilier,to reconcile,调和,VERB
 concourir,to contribute,协助,VERB
 condamner,to condemn,谴责,VERB
 conditionner,to condition,制约,VERB
-conduire,to drive/lead,驾驶,VERB
+conduire,to drive,驾驶,VERB
 conférer,to confer,授予,VERB
 confesser,to confess,坦白,VERB
 confier,to entrust,委托,VERB
@@ -1824,7 +1824,7 @@ contempler,to contemplate,凝视,VERB
 contester,to contest,质疑,VERB
 contracter,to contract,感染,VERB
 convaincre,to convince,说服,VERB
-convenir,to suit/agree,适合,VERB
+convenir,to suit,适合,VERB
 converser,to converse,交谈,VERB
 convoquer,to convene,召集,VERB
 corrompre,to corrupt,腐蚀,VERB
@@ -1869,7 +1869,7 @@ démolir,to demolish,拆除,VERB
 démonter,to dismount,拆下,VERB
 démoraliser,to demoralize,使士气低落,VERB
 dénaturer,to distort,歪曲,VERB
-dépanner,to help out/repair,排除故障,VERB
+dépanner,to help out,排除故障,VERB
 dépêcher,to dispatch,派遣,VERB
 dépenser,to spend,花费,VERB
 dépérir,to perish,衰亡,VERB
@@ -1913,13 +1913,13 @@ durer,to last,持续,VERB
 échapper,to escape,逃跑,VERB
 éclaircir,to clarify,澄清,VERB
 éclipser,to eclipse,使黯然失色,VERB
-éclore,to hatch/bloom,孵化,VERB
+éclore,to hatch,孵化,VERB
 éconduire,to dismiss,打发,VERB
-écouler,to sell/dispose,销售,VERB
+écouler,to sell,销售,VERB
 écraser,to crush,压碎,VERB
 écumer,to foam,起泡沫,VERB
 édifier,to build,建造,VERB
-éditer,to publish/edit,出版,VERB
+éditer,to publish,出版,VERB
 éduquer,to educate,教育,VERB
 effleurer,to skim,轻触,VERB
 effrayer,to frighten,惊吓,VERB
@@ -1939,11 +1939,11 @@ enclore,to enclose,围住,VERB
 endommager,to damage,损坏,VERB
 endurcir,to harden,使坚强,VERB
 enfouir,to bury,埋藏,VERB
-engendrer,to generate/engender,产生,VERB
+engendrer,to generate,产生,VERB
 engloutir,to swallow up,吞没,VERB
 engourdir,to numb,使麻木,VERB
 enlacer,to embrace,搂抱,VERB
-enregistrer,to record/save,登记,VERB
+enregistrer,to record,登记,VERB
 envahir,to invade,入侵,VERB
 envelopper,to wrap,包裹,VERB
 épancher,to pour out,倾诉,VERB
@@ -1951,7 +1951,7 @@ envelopper,to wrap,包裹,VERB
 épater,to impress,使惊叹,VERB
 épauler,to support,支持,VERB
 épier,to spy on,窥探,VERB
-épouser,to marry,娶/嫁,VERB
+épouser,to marry,娶,VERB
 épouvanter,to appal,使惊恐,VERB
 éprendre,to fall in love,爱慕,VERB
 équiper,to equip,装备,VERB
@@ -1962,7 +1962,7 @@ essorer,to wring,拧干,VERB
 essuyer,to wipe,擦,VERB
 étayer,to prop up,支撑,VERB
 éteindre,to extinguish,熄灭,VERB
-étouffer,to stifle/smother,窒息,VERB
+étouffer,to stifle,窒息,VERB
 étourdir,to stun,使眩晕,VERB
 étreindre,to embrace,拥抱,VERB
 évincer,to evict,驱逐,VERB
@@ -1982,7 +1982,7 @@ exulter,to exult,狂喜,VERB
 abîme,abyss,深渊,NOUN
 acolyte,acolyte,助手,NOUN
 affres,torments,痛苦,NOUN
-affût,hiding/ambush,埋伏,NOUN
+affût,ambush,埋伏,NOUN
 algarade,tirade,斥责,NOUN
 ambivalence,ambivalence,矛盾心理,NOUN
 anicroche,hitch,小障碍,NOUN

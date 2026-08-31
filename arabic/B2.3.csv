@@ -143,11 +143,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مبالغة,exaggeration,夸张,NOUN
 تعميم,generalization,概括,NOUN
 عزيمة,determination,决心,NOUN
-مثابرة,perseverance,毅力/勤勉,NOUN
-جرأة,boldness/daring,大胆/勇敢,NOUN
+مثابرة,perseverance,毅力,NOUN
+جرأة,boldness,大胆,NOUN
 بخل,stinginess,吝啬,NOUN
-كبرياء,pride,骄傲/自豪,NOUN
-حياء,modesty/bashfulness,害羞/谦逊,NOUN
+كبرياء,pride,骄傲,NOUN
+حياء,modesty,害羞,NOUN
 خداع,deception,欺骗,NOUN
 نفاق,hypocrisy,伪善,NOUN
 صرامة,strictness,严格,NOUN
@@ -219,7 +219,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 عرائس,puppets,木偶,NOUN
 سلالة,dynasty,王朝,NOUN
 مؤرخ,historian,历史学家,NOUN
-حقبة,period/epoch,时期,NOUN
+حقبة,period,时期,NOUN
 مئذنة,minaret,宣礼塔,NOUN
 منبر,pulpit,敏拜尔,NOUN
 تقوى,piety,虔诚,NOUN
@@ -503,7 +503,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 غمس,dip,浸,VERB
 نفض,shake off,抖落,VERB
 جنى,harvest,收获,VERB
-عَبَأَ,fill/pack,装满,VERB
+عَبَأَ,fill,装满,VERB
 خَنَقَ,strangle,勒死,VERB
 لَكَمَ,punch,猛击,VERB
 رَكَلَ,kick,踢,VERB

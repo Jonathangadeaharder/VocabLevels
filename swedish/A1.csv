@@ -1,9 +1,9 @@
 Swedish_Lemma,English_Lemma,Chinese_Lemma,POS
 aldrig,never,从不,ADV
-alla,all/everyone,所有/大家,PRON
+alla,all,所有,PRON
 allt,everything,一切,PRON
 alltid,always,总是,ADV
-andra,other / others,其他,DET
+andra,other,其他,DET
 annan,other,另一个,ADJ
 ansikte,face,脸,NOUN
 apelsin,orange,橙子,NOUN
@@ -12,7 +12,7 @@ arbeta,to work,工作,VERB
 arg,angry,生气的,ADJ
 arton,eighteen,十八,NUM
 att,to (infinitive marker),去（不定式标记）,PART
-av,of/by,的/被,ADP
+av,of,的,ADP
 badrum,bathroom,浴室,NOUN
 baka,to bake,烘焙,VERB
 banan,banana,香蕉,NOUN
@@ -161,7 +161,7 @@ hälsa,to greet,问候,VERB
 här,here,这里,ADV
 häst,horse,马,NOUN
 hår,hair,头发,NOUN
-hög,high/tall,高的,ADJ
+hög,high,高的,ADJ
 höna,hen,母鸡,NOUN
 höra,to hear,听见,VERB
 höst,autumn,秋天,NOUN
@@ -182,7 +182,7 @@ juli,July,七月,NOUN
 juni,June,六月,NOUN
 järn,iron,铁,NOUN
 kaffe,coffee,咖啡,NOUN
-kafé,café,咖啡馆,NOUN
+kafé,cafe,咖啡馆,NOUN
 kall,cold,冷的,ADJ
 kanin,rabbit,兔子,NOUN
 kanske,maybe,也许,ADV
@@ -301,7 +301,7 @@ sex,six,六,NUM
 sextio,sixty,六十,NUM
 sexton,sixteen,十六,NUM
 simma,swim,游泳,VERB
-sin,his/her/its/their,他的/她的/它的/他们的,DET
+sin,his,他的,DET
 sista,last,最后的,ADJ
 sitta,sit,坐,VERB
 sju,seven,七,NUM
@@ -460,21 +460,21 @@ arbete,work,工作,NOUN
 be,ask,请求,VERB
 bakom,behind,在...后面,ADP
 bara,only,仅仅,ADV
-beklaga,regret/apologize,遗憾/道歉,VERB
-bevis,proof,证据/证明,NOUN
+beklaga,regret,遗憾,VERB
+bevis,proof,证据,NOUN
 bo,live,居住,VERB
 bör,should,应该,AUX
-bort,away,离开/离去,ADV
-borta,away/gone,不在/离开,ADV
-bra,good/well,好/很好,ADJ
-bruka,use to/usually,通常/习惯于,VERB
-bry,care,关心/在意,VERB
-början,beginning,开始/开端,NOUN
+bort,away,离开,ADV
+borta,away,不在,ADV
+bra,good,好,ADJ
+bruka,usually,通常,VERB
+bry,care,关心,VERB
+början,beginning,开始,NOUN
 chans,chance,机会,NOUN
-chef,boss/manager,老板/经理,NOUN
-dags,time,时间/时候,NOUN
+chef,boss,老板,NOUN
+dags,time,时间,NOUN
 del,part,部分,NOUN
-dem,them,他们/它们,PRON
+dem,them,他们,PRON
 denna,this,这个,DET
 deras,their,他们的,PRON
 dess,its,它的,PRON
@@ -502,14 +502,14 @@ er,your,你们的,DET
 exakt,exact,精确的,ADJ
 faktiskt,actually,事实上,ADV
 fall,case,情况,NOUN
-fan,devil/damn,魔鬼/该死,NOUN
-finnas,exist/there is,存在/有,VERB
+fan,devil,魔鬼,NOUN
+finnas,exist,存在,VERB
 fara,danger,危险,NOUN
 fast,although,尽管,CCONJ
-fel,wrong/mistake,错误,ADJ
-fin,fine/pretty,美丽的,ADJ
-fint,nicely/nice,美好地,ADV
-fixa,fix,修理/解决,VERB
+fel,wrong,错误,ADJ
+fin,fine,美丽的,ADJ
+fint,nicely,美好地,ADV
+fixa,fix,修理,VERB
 fler,more(pl),更多,ADJ
 flera,several,几个,ADJ
 fort,fast,快地,ADV
@@ -517,35 +517,35 @@ fortfarande,still,仍然,ADV
 fortsätta,continue,继续,VERB
 fram,forward,向前,ADV
 framför,in front of,在...前面,ADP
-fru,wife/Mrs,妻子/夫人,NOUN
+fru,wife,妻子,NOUN
 köpa,to buy,买,VERB
 komma,to come,来,VERB
 lämna,to leave,离开,VERB
-hämta,to fetch,取/拿,VERB
+hämta,to fetch,取,VERB
 titta,to look,看,VERB
 leta,to search,寻找,VERB
 prova,to try,尝试,VERB
 byta,to change,更换,VERB
-åka,to go/travel,去/出行,VERB
+åka,to go,去,VERB
 köra,to drive,驾驶,VERB
 cykla,to cycle,骑自行车,VERB
 parkera,to park,停车,VERB
 stanna,to stay,停留,VERB
-ringa,to call/ring,打电话,VERB
+ringa,to call,打电话,VERB
 prata,to talk,谈话,VERB
 tycka,to think,认为,VERB
 hoppas,to hope,希望,VERB
-känna,to know/feel,感觉/认识,VERB
+känna,to feel,感觉,VERB
 bygga,to build,建造,VERB
 klippa,to cut,剪,VERB
-ställa,to place/put,放置,VERB
-lägga,to lay/put,放,VERB
+ställa,to place,放置,VERB
+lägga,to lay,放,VERB
 hand,hand,手,NOUN
 arm,arm,手臂,NOUN
 axel,shoulder,肩膀,NOUN
 knä,knee,膝盖,NOUN
 finger,finger,手指,NOUN
-mage,stomach,胃/肚子,NOUN
+mage,stomach,胃,NOUN
 tå,toe,脚趾,NOUN
 hjärna,brain,大脑,NOUN
 ris,rice,米饭,NOUN
@@ -554,7 +554,7 @@ lök,onion,洋葱,NOUN
 vitlök,garlic,大蒜,NOUN
 salt,salt,盐,NOUN
 peppar,pepper,胡椒,NOUN
-sallad,salad/lettuce,沙拉/生菜,NOUN
+sallad,salad,沙拉,NOUN
 tomat,tomato,番茄,NOUN
 gurka,cucumber,黄瓜,NOUN
 köttbullar,meatballs,肉丸,NOUN
@@ -581,14 +581,14 @@ bibliotek,library,图书馆,NOUN
 bank,bank,银行,NOUN
 lunch,lunch,午餐,NOUN
 kort,short,短的,ADJ
-smart,smart/clever,聪明的,ADJ
+smart,smart,聪明的,ADJ
 hungrig,hungry,饥饿的,ADJ
 törstig,thirsty,口渴的,ADJ
-mätt,full/fed,饱的,ADJ
+mätt,full,饱的,ADJ
 nöjd,satisfied,满意的,ADJ
 kunna,can,能,AUX
-sig,himself/herself,自己,PRON
-man,one/you,人们,PRON
+sig,oneself,自己,PRON
+man,one,人们,PRON
 själv,self,自己,PRON
 varandra,each other,彼此,PRON
 bredvid,beside,在...旁边,ADP
@@ -599,6 +599,6 @@ ner,down,向下,ADV
 ut,out,出去,ADV
 in,in,进来,ADV
 hit,hither,到这里,ADV
-just,just/precis,恰好,ADV
+just,just,恰好,ADV
 test,test,测试,NOUN
-böra,should/ought to,应该,AUX
+böra,should,应该,AUX

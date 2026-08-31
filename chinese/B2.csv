@@ -250,7 +250,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 雷,thunder,雷,NOUN
 雾,fog,雾,NOUN
 露,dew,露,NOUN
-青,green/blue,青,ADJ
+青,green,青,ADJ
 青少年,adolescent,青少年,NOUN
 青春,youth,青春,NOUN
 非,not,非,ADV
@@ -508,7 +508,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 为期,to last (a period of time),为期,VERB
 为止,up to,为止,ADP
 为此,for this,为此,ADP
-为难,to feel embarrassed or awkward,为难,ADJ
+为难,to feel embarrassed,为难,ADJ
 为首,headed by,为首,VERB
 主,lord,主,NOUN
 主任,director,主任,NOUN
@@ -563,8 +563,8 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 乱来,to act wildly to act recklessly,乱来,VERB
 予以,to give to grant,予以,VERB
 争先恐后,striving to be first and fearing to be last,争先恐后,VERB
-争夺,to fight over to vie for,争夺,VERB
-争气,to work hard for sth to strive for success,争气,VERB
+争夺,to fight over,争夺,VERB
+争气,to strive for success,争气,VERB
 争端,dispute,争端,NOUN
 争议,controversy,争议,NOUN
 事,matter,事,NOUN
@@ -662,7 +662,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 任命,to appoint and nominate,任命,VERB
 任性,willful,任性,ADJ
 任意,arbitrary,任意,ADV
-伊,he/she,伊,PRON
+伊,he,伊,PRON
 休假,leave,休假,NOUN
 休养,recuperate,休养,VERB
 众所周知,as everyone knows,众所周知,ADJ
@@ -877,7 +877,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 兴隆,prosperous,兴隆,ADJ
 兴高采烈,in high spirits,兴高采烈,ADJ
 兵,soldier,兵,NOUN
-其,his/her/its,其,PRON
+其,his,其,PRON
 其它,other,其它,PRON
 具有,to possess,具有,VERB
 典型,typical,典型,ADJ

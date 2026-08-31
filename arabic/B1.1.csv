@@ -30,7 +30,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ممثلة,actress,女演员,NOUN
 مغني,singer,歌手,NOUN
 أغنية,song,歌曲,NOUN
-حفلة,party/concert,派对/音乐会,NOUN
+حفلة,party,派对,NOUN
 مسرح,theater,剧院,NOUN
 مسرحية,stage play,舞台剧,NOUN
 رواية,novel,小说,NOUN
@@ -346,7 +346,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 لباس,outfit,服装,NOUN
 مرّ,to pass by,经过,VERB
 أمسك,to catch,抓住,VERB
-قضى,to spend (time) / to judge / to fulfill,度过 / 判决 / 完成,VERB
+قضى,to spend time,度过,VERB
 استلم,to receive payment,领取工资,VERB
 بلدي,local,本地的,ADJ
 زائد,extra,额外的,ADJ
@@ -378,10 +378,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بسيط,simple,简单的,ADJ
 مهم,important,重要的,ADJ
 ثانوي,secondary,次要的,ADJ
-أساسي,basic/essential,基本的,ADJ
+أساسي,basic,基本的,ADJ
 رئيسي,main,主要的,ADJ
 عام,general,一般的,ADJ
-مشترك,common/shared,共同的,ADJ
+مشترك,shared,共同的,ADJ
 مختلف,different,不同的,ADJ
 متشابه,similar,相似的,ADJ
 متساوي,equal,平等的,ADJ
@@ -435,7 +435,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 غابة,forest,森林,NOUN
 سهل,plain,平原,NOUN
 قمة,peak,山顶,NOUN
-عين,spring/eye,泉,NOUN
+عين,spring,泉,NOUN
 خليج,bay,海湾,NOUN
 رأس,cape,海角,NOUN
 بحر,sea,海,NOUN
