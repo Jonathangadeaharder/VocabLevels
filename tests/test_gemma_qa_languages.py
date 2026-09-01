@@ -16,11 +16,11 @@ from scripts.gemma_qa.prompts import (
     build_refill_generation_prompt,
 )
 from scripts.gemma_qa.schemas import (
+    UPOS,
     CefrInputRow,
     CefrRefillConcept,
     CefrReviewRow,
     ReviewAction,
-    UPOS,
 )
 
 

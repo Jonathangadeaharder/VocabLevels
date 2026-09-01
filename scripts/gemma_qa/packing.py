@@ -21,14 +21,14 @@ class TiktokenEstimator:
     def __init__(self) -> None:
         try:
             self._encoding = tiktoken.get_encoding("cl100k_base")
-        except Exception:
+        except Exception:  # noqa: BLE001 - degrade to heuristic if tiktoken fails
             self._encoding = None
 
     def count(self, text: str) -> int:
         if self._encoding is not None:
             try:
                 return len(self._encoding.encode(text))
-            except Exception:
+            except Exception:  # noqa: BLE001 - fall back to byte heuristic
                 pass
         return max(1, math.ceil(len(text.encode("utf-8")) / 4))
 

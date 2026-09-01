@@ -7,13 +7,13 @@ from pathlib import Path
 
 import pytest
 
-from scripts.gemma_qa.client import GemmaClient, GenerationResult, Usage
 from scripts.gemma_qa.cli import build_parser
+from scripts.gemma_qa.client import GemmaClient, GenerationResult, Usage
 from scripts.gemma_qa.config import (
+    INPUT_BATCH_TOKEN_CAP,
     MODEL_26B,
     MODEL_31B,
     MODEL_ADJUDICATION,
-    INPUT_BATCH_TOKEN_CAP,
 )
 from scripts.gemma_qa.handcraft import (
     HANDCRAFT_MAX_OUTPUT_TOKENS,
@@ -31,10 +31,10 @@ from scripts.gemma_qa.prompts import (
     build_handcraft_generation_prompt,
 )
 from scripts.gemma_qa.schemas import (
+    UPOS,
     HandcraftBatch,
     HandcraftSentence,
     HandcraftToken,
-    UPOS,
 )
 
 

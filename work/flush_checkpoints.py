@@ -14,7 +14,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from scripts.expand_concepts import LANG_DIRS, normalize_gloss  # noqa: E402
+from scripts.expand_concepts import LANG_DIRS, normalize_gloss
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE_DIRS = {

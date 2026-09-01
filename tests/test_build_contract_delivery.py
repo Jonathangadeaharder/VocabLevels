@@ -173,7 +173,7 @@ def test_build_all_and_main(tmp_path: Path, capsys) -> None:
 
 
 def test_clean_gloss_handles_accents_and_punctuation() -> None:
-    from build_contract_delivery import clean_gloss, _unquote
+    from build_contract_delivery import _unquote, clean_gloss
 
     assert clean_gloss("fiancé (male)") == "fiance male"
     assert clean_gloss("apple/pear") == "apple pear"

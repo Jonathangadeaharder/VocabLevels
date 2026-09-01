@@ -58,7 +58,8 @@ def test_all_scale_tasks_succeeded() -> None:
 
 
 def test_inventory_matches_full_scan_policy_and_covers_classifier_drops() -> None:
-    """Inventory is frozen classifier output: drops are closed lexicon; live scan is policy-only."""
+    """Inventory is frozen classifier output: drops are closed lexicon;
+    live scan is policy-only."""
     assert INVENTORY.exists()
     inv = load_inventory(INVENTORY)
     assert len(inv) >= 50
@@ -187,7 +188,6 @@ def test_score_sample_row_matches_sample_files() -> None:
                 total += 1
                 expected_v, expected_n = score_sample_row(
                     lang=code,
-                    level=level,
                     lemma=row.get("lemma") or "",
                     english_lemma=row.get("english_lemma") or "",
                     chinese_lemma=row.get("chinese_lemma") or "",
@@ -321,7 +321,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="ar",
-            level="A1",
             lemma="",
             english_lemma="en",
             chinese_lemma="zh",
@@ -332,7 +331,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="ar",
-            level="A1",
             lemma="lemma\u0301",
             english_lemma="en",
             chinese_lemma="zh",
@@ -343,7 +341,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="ar",
-            level="A1",
             lemma="lemma",
             english_lemma="en",
             chinese_lemma="latin_zh",
@@ -354,7 +351,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="ar",
-            level="A1",
             lemma="°",
             english_lemma="en",
             chinese_lemma="度",
@@ -365,7 +361,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="sv",
-            level="A1",
             lemma="los",
             english_lemma="loose",
             chinese_lemma="松",
@@ -376,7 +371,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="sv",
-            level="A1",
             lemma="träffades",
             english_lemma="met",
             chinese_lemma="见",
@@ -387,7 +381,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="sv",
-            level="A1",
             lemma="mötas",
             english_lemma="meet",
             chinese_lemma="见",
@@ -398,7 +391,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="de",
-            level="A1",
             lemma="meinten",
             english_lemma="meant",
             chinese_lemma="以为",
@@ -409,7 +401,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="nl",
-            level="A1",
             lemma="uitdagingen",
             english_lemma="challenges",
             chinese_lemma="挑战",
@@ -420,7 +411,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="es",
-            level="A1",
             lemma="émulo",
             english_lemma="emulator",
             chinese_lemma="仿真",
@@ -431,7 +421,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="nl",
-            level="A1",
             lemma="zullen",
             english_lemma="would",
             chinese_lemma="将",
@@ -442,7 +431,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="ar",
-            level="A1",
             lemma="قد",
             english_lemma="much",
             chinese_lemma="很多",
@@ -453,7 +441,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="ar",
-            level="A1",
             lemma="كمي",
             english_lemma="quantum",
             chinese_lemma="量子",
@@ -464,7 +451,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="ar",
-            level="A1",
             lemma="إلا",
             english_lemma="if",
             chinese_lemma="如果",
@@ -475,7 +461,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="ar",
-            level="A1",
             lemma="تكييف",
             english_lemma="qualification",
             chinese_lemma="资格",
@@ -486,7 +471,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="ar",
-            level="A1",
             lemma="قضى",
             english_lemma="errand",
             chinese_lemma="差事",
@@ -497,7 +481,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="ar",
-            level="A1",
             lemma="يعني",
             english_lemma="means",
             chinese_lemma="意思",
@@ -508,7 +491,6 @@ def test_classify_ar_lemma_rules_and_edge_cases(tmp_path: Path) -> None:
     assert (
         score_sample_row(
             lang="ar",
-            level="A1",
             lemma="حاجة",
             english_lemma="thing",
             chinese_lemma="东西",

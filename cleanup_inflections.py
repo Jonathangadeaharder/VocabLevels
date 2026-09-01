@@ -15,16 +15,18 @@ driven by each language's own Stanza lemmatizer rather than a hardcoded
 word list, and is opt-in via ``--stanza-langs`` since it needs the (large,
 network-downloaded) Stanza models.
 
-Run from repo root:
-    uv run python cleanup_inflections.py                       # exact dups only, all langs
-    uv run python cleanup_inflections.py --stanza-langs german spanish french swedish dutch
+Run from repo root (exact dups only, all langs):
+    uv run python cleanup_inflections.py
+    uv run python cleanup_inflections.py --stanza-langs \
+        german spanish french swedish dutch
 """
 
 from __future__ import annotations
 
 import argparse
+from collections.abc import Callable
 from pathlib import Path
-from typing import Any, Callable
+from typing import Any
 
 import fix_pos_and_overflow as fpo
 from vocab_schema import LANGS, LEVELS
@@ -138,7 +140,7 @@ def remove_english_plural_duplicates(lang: str) -> int:
             continue
         rows = _read_level(lang, level)
 
-        lemmas_in_level = set(row[lemma_col].strip().lower() for row in rows)
+        lemmas_in_level = {row[lemma_col].strip().lower() for row in rows}
 
         kept = []
         removed_here = 0
@@ -163,7 +165,8 @@ def remove_english_plural_duplicates(lang: str) -> int:
         if removed_here > 0:
             _write_level(lang, level, kept)
             print(
-                f"{lang}/{level}: removed {removed_here} plural forms ({len(kept)} rows remain)"
+                f"{lang}/{level}: removed {removed_here} plural forms "
+                f"({len(kept)} rows remain)"
             )
             total_removed += removed_here
 
@@ -225,7 +228,7 @@ def _edit_distance(a: str, b: str) -> int:
 
 
 class _Record:
-    __slots__ = ("level", "row", "text", "base", "coarse", "is_self")
+    __slots__ = ("base", "coarse", "is_self", "level", "row", "text")
 
     def __init__(self, level: str, row: dict, text: str, base: str, coarse: str):
         self.level = level

@@ -25,9 +25,9 @@ from scripts.gemma_qa.cefr_refill import (
     load_other_level_collision_keys,
 )
 from scripts.gemma_qa.client import GemmaClient, GenerationResult, Usage
-from scripts.gemma_qa.config import MODEL_26B, MODEL_31B, INPUT_BATCH_TOKEN_CAP
-from scripts.gemma_qa.ledger import Checkpoint, Ledger, prompt_hash
+from scripts.gemma_qa.config import INPUT_BATCH_TOKEN_CAP, MODEL_26B, MODEL_31B
 from scripts.gemma_qa.language_repair import german_row_issues
+from scripts.gemma_qa.ledger import Checkpoint, Ledger, prompt_hash
 from scripts.gemma_qa.packing import TiktokenEstimator
 from scripts.gemma_qa.prompts import (
     NOVEL_PROMPT_VERSION,
@@ -40,15 +40,15 @@ from scripts.gemma_qa.prompts import (
     build_refill_review_prompt,
 )
 from scripts.gemma_qa.schemas import (
+    UPOS,
     CefrNovelBatch,
+    CefrNovelRow,
     CefrRefillBatch,
     CefrRefillConcept,
     CefrRefillRow,
-    CefrNovelRow,
-    CefrReviewRow,
     CefrReviewBatch,
+    CefrReviewRow,
     ReviewAction,
-    UPOS,
 )
 from vocab_schema import TARGETS
 
@@ -857,10 +857,10 @@ def test_novel_rounds_twenty_one_through_thirty_remain_resumable(
     ledger = Ledger(tmp_path / "ledger.sqlite3")
     client = RefillClient(
         lemma_by_id={
-            **{row_id: "Brot" for row_id in rejected_ids},
+            **dict.fromkeys(rejected_ids, "Brot"),
             round_thirty: "Vogel",
         },
-        action_by_id={row_id: ReviewAction.DROP for row_id in rejected_ids},
+        action_by_id=dict.fromkeys(rejected_ids, ReviewAction.DROP),
     )
     completed = complete(
         [],
@@ -906,7 +906,7 @@ def test_round_eleven_initial_is_locally_enforced(tmp_path: Path) -> None:
     ledger = Ledger(tmp_path / "ledger.sqlite3")
     client = RefillClient(
         lemma_by_id={round_twelve: "Bahn"},
-        action_by_id={row_id: ReviewAction.DROP for row_id in rejected_ids},
+        action_by_id=dict.fromkeys(rejected_ids, ReviewAction.DROP),
     )
     completed = complete(
         [],

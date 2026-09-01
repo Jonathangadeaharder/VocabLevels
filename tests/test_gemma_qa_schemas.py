@@ -6,10 +6,10 @@ import pytest
 from pydantic import ValidationError
 
 from scripts.gemma_qa.schemas import (
+    UPOS,
     CefrReviewBatch,
     CefrReviewRow,
     ReviewAction,
-    UPOS,
 )
 
 

@@ -1,9 +1,8 @@
 from __future__ import annotations
 
+import csv
 import threading
 import time
-
-import csv
 import unicodedata
 from collections import Counter
 from collections.abc import Callable, Sequence
@@ -32,7 +31,6 @@ from .config import (
     default_batch_concurrency,
     probe_optional_models,
 )
-from .ledger import Ledger
 from .language_repair import (
     LanguageRepairClient,
     canonicalize_english_review_rows,
@@ -42,18 +40,19 @@ from .language_repair import (
     repair_german_rows,
 )
 from .languages import get_language
+from .ledger import Ledger
 from .packing import pack_records
+from .progress import batch_progress_line, print_progress
 from .prompts import SYSTEM_PROMPT, build_adjudication_prompt, build_cefr_prompt
+from .routing import resolve_adjudication_model, select_dual_models
 from .schemas import (
+    UPOS,
     CefrInputRow,
     CefrRefillConcept,
     CefrReviewBatch,
     CefrReviewRow,
     ReviewAction,
-    UPOS,
 )
-from .routing import resolve_adjudication_model, select_dual_models
-from .progress import batch_progress_line, print_progress
 from .semantic_generation import checkpointed_semantic_generate
 from .trace import event
 from .validated import ValidatedStore, validated_store_path
@@ -481,7 +480,7 @@ def run_cefr(
                 single_model=single_model,
                 concurrency=concurrency,
             )
-            for batch_rows, chosen in zip(packed, reviewed, strict=True):
+            for _batch_rows, chosen in zip(packed, reviewed, strict=True):
                 accepted.extend(chosen.rows)
         target = TARGETS[level] if limit is None else len(selected)
         collision_keys = load_other_level_collision_keys(
@@ -499,8 +498,8 @@ def run_cefr(
         unique = dedupe_review_rows(gate_clean, collision_keys)
         if len(unique) > target:
             raise ReviewRequiredError(
-                f"{lang} {level}: {len(unique)} unique review rows exceed target {target}; "
-                "manual review required"
+                f"{lang} {level}: {len(unique)} unique review rows exceed target "
+                f"{target}; manual review required"
             )
         exact_target = (
             profile.code == "de" if refill_to_target is None else refill_to_target
@@ -770,7 +769,7 @@ def _review_pending_batches(
                     batch_started=batch_started,
                 )
                 break
-            except Exception as error:  # noqa: BLE001 — dual pair rotation
+            except Exception as error:
                 last_error = error
                 if not _is_retriable_batch_error(error) or attempt >= 4:
                     raise
@@ -840,7 +839,7 @@ def _dual_wait_ceiling_s() -> float:
     from .client import request_wall_clock_s
 
     # ≤2 wall-clock failures per generate on each dual leg + buffer.
-    # Was 2×wall+60 (~420s); that aborted healthy slow B2 duals mid-task.
+    # Was 2x wall + 60 (~420s); that aborted healthy slow B2 duals mid-task.
     return request_wall_clock_s() * 3 + 120.0
 
 

@@ -23,7 +23,7 @@ ROOT = Path(__file__).parent
 SPECIAL_CHARS = re.compile(r"[?!@#$%^&*()_=+\[\]{};:\"\\|<>~`]")
 
 
-# Legitimate numeric/tech lemmas (A1 numbers, ordinals, loanwords) — not hygiene defects.
+# Legitimate numeric/tech lemmas (A1 numbers, ordinals, loanwords) — not defects.
 _DIGIT_OK = re.compile(
     r"^("
     r"[0-9]$|"  # single digit
@@ -172,7 +172,8 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
         if show_shared_translations:
             for trans, lemmas in shared_translations:
                 print(
-                    f"    {level}: '{trans}' shared by {len(lemmas)} lemmas: {', '.join(sorted(lemmas))}"
+                    f"    {level}: '{trans}' shared by {len(lemmas)} lemmas: "
+                    f"{', '.join(sorted(lemmas))}"
                 )
         elif shared_translations:
             print(

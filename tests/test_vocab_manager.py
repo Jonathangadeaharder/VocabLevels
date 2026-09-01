@@ -2,14 +2,13 @@
 
 from __future__ import annotations
 
-import csv
 import argparse
+import csv
 from pathlib import Path
 
 import pytest
 
 import vocab_manager as vm
-
 
 # ---------------------------------------------------------------------------
 # Fixtures: temp directory with minimal CSVs
@@ -450,7 +449,7 @@ class TestCmdLint:
         monkeypatch.setattr(check_quality, "ROOT", Path("/tmp/unused-vocab-root"))
         args = argparse.Namespace()
         ret = vm.cmd_lint(args)
-        assert check_quality.ROOT == tmp_repo
+        assert tmp_repo == check_quality.ROOT
         assert isinstance(ret, int)
 
 

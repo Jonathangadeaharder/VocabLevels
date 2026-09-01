@@ -12,9 +12,10 @@ import sys
 import threading
 import time
 import uuid
+from collections.abc import Mapping
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Mapping
+from typing import Any
 
 _LOCK = threading.RLock()
 _CONFIGURED = False

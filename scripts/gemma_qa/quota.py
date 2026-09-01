@@ -7,15 +7,14 @@ compatibility; reserve/reconcile never sleep or fail on quota.
 
 from __future__ import annotations
 
+import time
 import uuid
 from collections.abc import Callable
 from dataclasses import dataclass
 from pathlib import Path
 
-import time
 
-
-class DailyQuotaExceeded(RuntimeError):
+class DailyQuotaExceededError(RuntimeError):
     """Retained for import compatibility; never raised by NoOpQuotaGate."""
 
 
@@ -75,7 +74,7 @@ class QuotaGate:
 
 
 __all__ = [
-    "DailyQuotaExceeded",
+    "DailyQuotaExceededError",
     "QuotaGate",
     "QuotaStatus",
 ]

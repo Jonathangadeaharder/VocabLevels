@@ -283,7 +283,8 @@ def _generate_batch(
         "Output JSON only. The English gloss for a concept is the canonical "
         f"{lang_name} translation target; give the dictionary citation form "
         "(lemma) in {lang_name}.\n"
-        'Respond with {"rows":[{"id":<input id>,"lemma":"<lemma>","zh":"<简体中文>"},...]} '
+        "Respond with "
+        '{"rows":[{"id":<input id>,"lemma":"<lemma>","zh":"<简体中文>"},...]} '
         "preserving every input id exactly once. The zh field is the Simplified "
         "Chinese translation of the concept (1 to 5 Chinese words, no punctuation).\n"
         f"Concepts:\n{json.dumps(payload, ensure_ascii=False, separators=(',', ':'))}"
@@ -292,12 +293,12 @@ def _generate_batch(
     parsed = _extract_json(raw)
     try:
         model_batch = GenBatch.model_validate(parsed)
-    except pydantic.ValidationError:
+    except pydantic.ValidationError as err:
         rows = _parse_batch_rows(parsed)
-        if set(rows) != {i for i in range(len(concepts))}:
+        if set(rows) != set(range(len(concepts))):
             raise ValueError(
                 f"id set mismatch: expected {len(concepts)}, got {sorted(rows)}"
-            )
+            ) from err
         return rows
     return {row.id: (row.lemma, row.zh) for row in model_batch.rows}
 
@@ -323,7 +324,8 @@ def _review_batch(
         "whether the lemma is the correct, natural, dictionary citation form "
         "for that concept. A wrong, artificial, or non-idiomatic lemma is a gap "
         "preferable to a bad entry.\n"
-        'Respond with {"rows":[{"id":<id>,"lemma":"<lemma>","action":"keep|fix|drop"},...]} '
+        "Respond with "
+        '{"rows":[{"id":<id>,"lemma":"<lemma>","action":"keep|fix|drop"},...]} '
         "preserving every input id exactly once. Use 'keep' when correct, "
         "'fix' with the correct lemma when you know it, 'drop' when no confident "
         "answer exists.\n"
@@ -334,9 +336,8 @@ def _review_batch(
     try:
         model_batch = ReviewBatch.model_validate(parsed)
     except pydantic.ValidationError:
-        if isinstance(parsed, dict) and isinstance(parsed.get("rows"), list):
-            rows = parsed["rows"]
-        else:
+        rows = parsed.get("rows") if isinstance(parsed, dict) else None
+        if not isinstance(rows, list):
             raise
         model_batch = ReviewBatch(rows=[ReviewRow(**row) for row in rows])
     verdict: dict[int, ReviewRow] = {row.id: row for row in model_batch.rows}
@@ -362,7 +363,7 @@ def _concept_cefr(
 ) -> str:
     """Lowest level at which any language expresses the concept."""
     best = None
-    for lang, level, lemma, english, chinese, pos in records:
+    for _lang, level, _lemma, english, _chinese, pos in records:
         if pos != concept.pos:
             continue
         if normalize_gloss(clean_gloss(english)) != normalize_gloss(concept.gloss):
@@ -404,7 +405,6 @@ def compute_missing_concepts(
 
 
 def run_blank_fill(
-    root: Path,
     state_dir: Path,
     *,
     lang_filter: str | None = None,
@@ -491,7 +491,8 @@ def _process_blank_rows(
             'Respond with {"rows":[{"id":<input id>,"gloss":"<english>"},...]} '
             "preserving every input id exactly once. Give a real English word; "
             'if no confident English equivalent exists use the value "-".\n'
-            f"Entries:\n{json.dumps(payload, ensure_ascii=False, separators=(',', ':'))}"
+            f"Entries:\n"
+            f"{json.dumps(payload, ensure_ascii=False, separators=(',', ':'))}"
         )
         try:
             raw = _model_reply(
@@ -536,7 +537,7 @@ def _apply_blank_fills(
     level_paths: list[Path], filled: list[tuple[str, str, int, str, str]]
 ) -> None:
     by_level: dict[str, dict[int, str]] = defaultdict(dict)
-    for level, lemma, lineno, pos, gloss in filled:
+    for level, _lemma, lineno, _pos, gloss in filled:
         by_level[level][lineno] = gloss
     for path in level_paths:
         if path.stem not in by_level or not by_level[path.stem]:
@@ -572,7 +573,7 @@ def run_expansion(
     limit: int | None = None,
 ) -> dict[str, int]:
     records = load_csv_records(root) + load_expansion_records(root)
-    canonical, missing = compute_missing_concepts(root)
+    _, missing = compute_missing_concepts(root)
     checkpoint = Checkpoint(state_dir / ".checkpoint.jsonl")
     client = httpx.Client(limits=httpx.Limits(max_connections=16))
 
@@ -643,7 +644,8 @@ def _process_language(
             checkpoint.record_approved(lang, item.concept, item.lemma, item.zh)
             results.append(item)
         print(
-            f"  {lang}: batch {start // BATCH_SIZE + 1}/{(len(todo) + BATCH_SIZE - 1) // BATCH_SIZE} "
+            f"  {lang}: batch {start // BATCH_SIZE + 1}/"
+            f"{(len(todo) + BATCH_SIZE - 1) // BATCH_SIZE} "
             f"approved {len(reviewed)}/{len(items)}",
             flush=True,
         )
@@ -700,9 +702,7 @@ def main(argv: list[str] | None = None) -> int:
     )
     args = parser.parse_args(argv)
     if args.fill_blanks:
-        totals = run_blank_fill(
-            args.root, args.state, lang_filter=args.lang, limit=args.limit
-        )
+        totals = run_blank_fill(args.state, lang_filter=args.lang, limit=args.limit)
         print("blank glosses filled:")
     else:
         totals = run_expansion(

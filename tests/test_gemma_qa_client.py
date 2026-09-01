@@ -352,7 +352,7 @@ def test_parse_response_rejects_thought_only_candidate() -> None:
             }
         ]
     }
-    with pytest.raises(ValueError, match="chat completion|candidate|nonempty"):
+    with pytest.raises(ValueError, match=r"chat completion|candidate|nonempty"):
         GemmaClient.parse_response(response_json, CefrReviewBatch)
 
 
@@ -394,7 +394,7 @@ def test_parse_response_rejects_malformed_output_parts(parts: object) -> None:
             }
         ]
     }
-    with pytest.raises(ValueError, match="chat completion|candidate"):
+    with pytest.raises(ValueError, match=r"chat completion|candidate"):
         GemmaClient.parse_response(response_json, CefrReviewBatch)
 
 
@@ -636,6 +636,7 @@ def test_slot_acquire_times_out(monkeypatch: pytest.MonkeyPatch) -> None:
 
 def test_wall_clock_timeout_aborts_slow_stream(monkeypatch: pytest.MonkeyPatch) -> None:
     import time
+
     from httpx import SyncByteStream
 
     monkeypatch.setenv("API_KEY", "secret-value")

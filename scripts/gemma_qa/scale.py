@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-import os
 import json
+import os
 import sqlite3
 import time
 from collections import Counter
@@ -205,7 +205,9 @@ class ScaleState:
             rows = connection.execute(
                 "SELECT status, COUNT(*) FROM scale_tasks GROUP BY status"
             ).fetchall()
-        counts = {status: 0 for status in ("pending", "running", "succeeded", "failed")}
+        counts: dict[str, int] = dict.fromkeys(
+            ("pending", "running", "succeeded", "failed"), 0
+        )
         counts.update({str(status): int(count) for status, count in rows})
         return counts
 
@@ -428,7 +430,7 @@ def _run_phase(
         started = time.time()
         try:
             output = execute(task, config)
-        except Exception as error:
+        except Exception as error:  # noqa: BLE001 - runner records any failure
             state.fail(task, error)
             counts["failed"] += 1
             elapsed = time.time() - started

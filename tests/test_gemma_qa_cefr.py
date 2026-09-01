@@ -11,10 +11,10 @@ from scripts.gemma_qa.cefr import (
     write_reviewed_csv,
 )
 from scripts.gemma_qa.schemas import (
+    UPOS,
     CefrReviewBatch,
     CefrReviewRow,
     ReviewAction,
-    UPOS,
 )
 
 
@@ -99,6 +99,7 @@ def test_dry_run_writes_proposed_only(tmp_path: Path) -> None:
 
 def test_is_retriable_batch_error_covers_hang_paths() -> None:
     import httpx
+
     from scripts.gemma_qa.cefr import _is_retriable_batch_error
 
     assert _is_retriable_batch_error(TimeoutError("dual generate wait ceiling"))

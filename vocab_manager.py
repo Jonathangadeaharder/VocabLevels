@@ -211,7 +211,8 @@ def cmd_lookup(args: argparse.Namespace) -> int:
     for lang, level, row in hits:
         cols = LANGS[lang]
         print(
-            f"  {lang}/{level}: {row[cols['lemma_col']]} | {row[cols['trans_cols'][0]]} | {row[cols['trans_cols'][1]]}"
+            f"  {lang}/{level}: {row[cols['lemma_col']]} | "
+            f"{row[cols['trans_cols'][0]]} | {row[cols['trans_cols'][1]]}"
         )
     return 0
 

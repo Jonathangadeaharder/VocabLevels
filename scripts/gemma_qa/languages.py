@@ -42,7 +42,8 @@ _PROFILES = (
         code="es",
         display_name="Spanish",
         endonym="Español",
-        citation_rules="Use Spanish dictionary citation lemmas; verbs use the infinitive.",
+        citation_rules="Use Spanish dictionary citation lemmas; "
+        "verbs use the infinitive.",
     ),
     LanguageProfile(
         directory="arabic",
@@ -56,14 +57,16 @@ _PROFILES = (
         code="fr",
         display_name="French",
         endonym="Français",
-        citation_rules="Use French dictionary citation lemmas; verbs use the infinitive.",
+        citation_rules="Use French dictionary citation lemmas; "
+        "verbs use the infinitive.",
     ),
     LanguageProfile(
         directory="swedish",
         code="sv",
         display_name="Swedish",
         endonym="Svenska",
-        citation_rules="Use Swedish dictionary citation lemmas; verbs use the dictionary infinitive.",
+        citation_rules="Use Swedish dictionary citation lemmas; "
+        "verbs use the dictionary infinitive.",
     ),
     LanguageProfile(
         directory="chinese",
@@ -77,7 +80,8 @@ _PROFILES = (
         code="nl",
         display_name="Dutch",
         endonym="Nederlands",
-        citation_rules="Use Dutch dictionary citation lemmas; verbs use the dictionary infinitive.",
+        citation_rules="Use Dutch dictionary citation lemmas; "
+        "verbs use the dictionary infinitive.",
     ),
 )
 

@@ -8,7 +8,7 @@ import pytest
 
 from scripts.gemma_qa.cefr import CefrClient, run_cefr
 from scripts.gemma_qa.client import GemmaClient, GenerationResult, Usage
-from scripts.gemma_qa.config import MODEL_26B, MODEL_31B, INPUT_BATCH_TOKEN_CAP
+from scripts.gemma_qa.config import INPUT_BATCH_TOKEN_CAP, MODEL_26B, MODEL_31B
 from scripts.gemma_qa.language_repair import (
     canonicalize_repaired_german_noun,
     cefr_row_issues,
@@ -24,11 +24,11 @@ from scripts.gemma_qa.prompts import (
     build_language_repair_review_prompt,
 )
 from scripts.gemma_qa.schemas import (
+    UPOS,
     CefrLanguageRepairItem,
     CefrReviewBatch,
     CefrReviewRow,
     ReviewAction,
-    UPOS,
 )
 from vocab_schema import TARGETS
 

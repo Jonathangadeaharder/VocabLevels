@@ -1,8 +1,7 @@
 from __future__ import annotations
 
 import unicodedata
-from collections.abc import Callable
-from collections.abc import Sequence
+from collections.abc import Callable, Sequence
 from dataclasses import dataclass
 from pathlib import Path
 from runpy import run_path
@@ -18,8 +17,8 @@ from .config import (
     MODEL_IDS,
 )
 from .language_repair import cefr_row_issues
-from .ledger import Ledger
 from .languages import get_language, has_arabic_script
+from .ledger import Ledger
 from .packing import TiktokenEstimator
 from .prompts import (
     HANDCRAFT_PROMPT_VERSION,
@@ -28,11 +27,11 @@ from .prompts import (
     build_handcraft_review_prompt,
 )
 from .schemas import (
+    UPOS,
     CefrReviewRow,
     HandcraftBatch,
     HandcraftSentence,
     ReviewAction,
-    UPOS,
 )
 from .semantic_generation import checkpointed_semantic_generate
 
@@ -158,7 +157,7 @@ def assess_handcraft_ready(
         )
     try:
         document = read_cefr_csv(source, lang=profile.directory, level=level)
-    except Exception as error:  # noqa: BLE001 — surface parse errors as gate fails
+    except Exception as error:  # noqa: BLE001 - surface any parse error as gate fail
         issues.append(f"csv unreadable: {error}")
         return HandcraftReadyReport(
             ready=False,
@@ -200,10 +199,9 @@ def assess_handcraft_ready(
             )
     if bad > max_issue_rows:
         issues.append(f"... and {bad - max_issue_rows} more rows with citation issues")
-    elif bad:
+    elif bad and not any(item.startswith("... and ") for item in issues):
         # Keep a total for scripts even when all fit under the cap.
-        if not any(item.startswith("... and ") for item in issues):
-            issues.append(f"citation_issue_rows={bad}")
+        issues.append(f"citation_issue_rows={bad}")
     return HandcraftReadyReport(
         ready=not issues,
         lang=profile.code,

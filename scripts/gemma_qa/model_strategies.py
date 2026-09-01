@@ -86,9 +86,9 @@ class ModelStrategy(ABC):
         return cls.endpoint.optional
 
     @classmethod
-    def supports_role(cls, role: str) -> bool:
+    def supports_role(cls, _role: str) -> bool:
         """Active strategies support every job; bottlenecks override to False."""
-        return role in ALL_ROLES
+        return _role in ALL_ROLES
 
     @classmethod
     def request_extras(cls) -> dict[str, object]:
@@ -108,8 +108,7 @@ class ModelStrategy(ABC):
         lower = stripped.lower()
         if "<think>" in lower:
             stripped = stripped[: lower.find("<think>")].strip()
-        stripped = re.sub(r"</think>", "", stripped, flags=re.IGNORECASE).strip()
-        return stripped
+        return re.sub(r"</think>", "", stripped, flags=re.IGNORECASE).strip()
 
     @classmethod
     def family(cls) -> str:
@@ -172,7 +171,7 @@ class GemmaStrategy(ModelStrategy):
     strips_think_tags = True
 
     @classmethod
-    def supports_role(cls, role: str) -> bool:
+    def supports_role(cls, _role: str) -> bool:
         return False  # stripped from production rotation
 
     @classmethod
@@ -186,7 +185,7 @@ class Glm51Strategy(GlmStrategy):
     endpoint = ModelEndpoint(KEY_GLM_51, WIRE_GLM_51, API_BASE_INTERNAL)
 
     @classmethod
-    def supports_role(cls, role: str) -> bool:
+    def supports_role(cls, _role: str) -> bool:
         return False
 
 

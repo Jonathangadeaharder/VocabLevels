@@ -8,9 +8,9 @@ run without stanza.
 
 from __future__ import annotations
 
-import pytest
-
 import sys
+
+import pytest
 
 from fix_pos_and_overflow import (
     ChangeSet,
@@ -20,7 +20,6 @@ from fix_pos_and_overflow import (
     load_csv,
     save_csv,
 )
-
 
 # --- Gloss fallback (no stanza needed) ------------------------------------
 

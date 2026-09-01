@@ -15,84 +15,130 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from build_contract_delivery import (  # noqa: E402
+from build_contract_delivery import (
     build_delivery_rows,
     load_csv_records,
     load_expansion_records,
 )
-from scripts.expand_concepts import LANG_DIRS, normalize_gloss  # noqa: E402
+from scripts.expand_concepts import LANG_DIRS, normalize_gloss
 
 GOAL = 0.80
 CHUNK = 2000
 
+_NO_VERBATIM_COPIES = (
+    "- IMPORTANT: the Lemma must be an authentic native word in "
+    "your language. NEVER use the English gloss itself as the Lemma "
+    "(no verbatim English copies). Use the genuine loanword spelling "
+    "only when that IS the native word.\n"
+)
+
 LANGS = {
     "ar": {
-        "lemma": "the canonical ar lemma in Arabic script. Use diacritics only where essential for disambiguation.",
+        "lemma": "the canonical ar lemma in Arabic script. Use diacritics only "
+        "where essential for disambiguation.",
         "extra": "- Lemma must be authentic Arabic script, never the English gloss.\n",
-        "examples": "ar,مكتبة,library,图书馆,NOUN,A2\nar,كتب,to write,写,VERB,A1\nar,جميل,beautiful,美丽的,ADJ,A1",
+        "examples": "ar,مكتبة,library,图书馆,NOUN,A2\n"
+        "ar,كتب,to write,写,VERB,A1\n"
+        "ar,جميل,beautiful,美丽的,ADJ,A1",
     },
     "de": {
-        "lemma": "the canonical de lemma. infinitive verb, capitalized noun, lowercase adjective/adverb. Use diacritics where correct (ä ö ü ß).",
-        "extra": "- IMPORTANT: the Lemma must be an authentic native word in your language. NEVER use the English gloss itself as the Lemma (no verbatim English copies). Use the genuine loanword spelling only when that IS the native word.\n",
-        "examples": "de,Bibliothek,library,图书馆,NOUN,A1\nde,schreiben,to write,写,VERB,A1\nde,schön,beautiful,美丽的,ADJ,A1",
+        "lemma": "the canonical de lemma. infinitive verb, capitalized noun, "
+        "lowercase adjective/adverb. Use diacritics where correct (ä ö ü ß).",
+        "extra": _NO_VERBATIM_COPIES,
+        "examples": "de,Bibliothek,library,图书馆,NOUN,A1\n"
+        "de,schreiben,to write,写,VERB,A1\n"
+        "de,schön,beautiful,美丽的,ADJ,A1",
     },
     "en": {
         "lemma": "the canonical en lemma. lowercase citation form.",
-        "extra": "- For en the Lemma and English_Lemma are the same text: repeat the concept verbatim as the Lemma.\n",
-        "examples": "en,library,library,图书馆,NOUN,A1\nen,write,write,写,VERB,A1\nen,beautiful,beautiful,美丽的,ADJ,A1",
+        "extra": "- For en the Lemma and English_Lemma are the same text: "
+        "repeat the concept verbatim as the Lemma.\n",
+        "examples": "en,library,library,图书馆,NOUN,A1\n"
+        "en,write,write,写,VERB,A1\n"
+        "en,beautiful,beautiful,美丽的,ADJ,A1",
     },
     "es": {
-        "lemma": "the canonical es lemma. infinitive verb, lowercase adjective/adverb, citation noun. Use diacritics where correct.",
-        "extra": "- IMPORTANT: the Lemma must be an authentic native word in your language. NEVER use the English gloss itself as the Lemma (no verbatim English copies). Use the genuine loanword spelling only when that IS the native word.\n",
-        "examples": "es,biblioteca,library,图书馆,NOUN,A1\nes,escribir,to write,写,VERB,A1\nes,bonito,beautiful,美丽的,ADJ,A1",
+        "lemma": "the canonical es lemma. infinitive verb, lowercase "
+        "adjective/adverb, citation noun. Use diacritics where correct.",
+        "extra": _NO_VERBATIM_COPIES,
+        "examples": "es,biblioteca,library,图书馆,NOUN,A1\n"
+        "es,escribir,to write,写,VERB,A1\n"
+        "es,bonito,beautiful,美丽的,ADJ,A1",
     },
     "fr": {
-        "lemma": "the canonical fr lemma. infinitive verb, lowercase adjective/adverb, citation noun. Use diacritics where correct.",
-        "extra": "- IMPORTANT: the Lemma must be an authentic native word in your language. NEVER use the English gloss itself as the Lemma (no verbatim English copies). Use the genuine loanword spelling only when that IS the native word.\n",
-        "examples": "fr,bibliothèque,library,图书馆,NOUN,A1\nfr,écrire,to write,写,VERB,A1\nfr,beau,beautiful,美丽的,ADJ,A1",
+        "lemma": "the canonical fr lemma. infinitive verb, lowercase "
+        "adjective/adverb, citation noun. Use diacritics where correct.",
+        "extra": _NO_VERBATIM_COPIES,
+        "examples": "fr,bibliothèque,library,图书馆,NOUN,A1\n"
+        "fr,écrire,to write,写,VERB,A1\n"
+        "fr,beau,beautiful,美丽的,ADJ,A1",
     },
     "nl": {
-        "lemma": "the canonical nl lemma. infinitive verb, lowercase adjective/adverb, citation noun. Use diacritics where correct.",
-        "extra": "- IMPORTANT: the Lemma must be an authentic native word in your language. NEVER use the English gloss itself as the Lemma (no verbatim English copies). Use the genuine loanword spelling only when that IS the native word.\n",
-        "examples": "nl,bibliotheek,library,图书馆,NOUN,A1\nnl,schrijven,to write,写,VERB,A1\nnl,mooi,beautiful,美丽的,ADJ,A1",
+        "lemma": "the canonical nl lemma. infinitive verb, lowercase "
+        "adjective/adverb, citation noun. Use diacritics where correct.",
+        "extra": _NO_VERBATIM_COPIES,
+        "examples": "nl,bibliotheek,library,图书馆,NOUN,A1\n"
+        "nl,schrijven,to write,写,VERB,A1\n"
+        "nl,mooi,beautiful,美丽的,ADJ,A1",
     },
     "sv": {
-        "lemma": "the canonical sv lemma. infinitive verb, lowercase adjective/adverb, citation noun. Use diacritics where correct (å ä ö).",
-        "extra": "- IMPORTANT: the Lemma must be an authentic native word in your language. NEVER use the English gloss itself as the Lemma (no verbatim English copies). Use the genuine loanword spelling only when that IS the native word.\n",
-        "examples": "sv,bibliotek,library,图书馆,NOUN,A1\nsv,skriva,to write,写,VERB,A1\nsv,vacker,beautiful,美丽的,ADJ,A1",
+        "lemma": "the canonical sv lemma. infinitive verb, lowercase "
+        "adjective/adverb, citation noun. Use diacritics where "
+        "correct (å ä ö).",
+        "extra": _NO_VERBATIM_COPIES,
+        "examples": "sv,bibliotek,library,图书馆,NOUN,A1\n"
+        "sv,skriva,to write,写,VERB,A1\n"
+        "sv,vacker,beautiful,美丽的,ADJ,A1",
     },
     "zh": {
-        "lemma": "the canonical zh lemma in Simplified Chinese (1-5 Chinese characters, no punctuation).",
-        "extra": "- Lemma must be a natural Simplified Chinese word, not a transliteration. Do NOT copy the English gloss verbatim.\n",
-        "examples": "zh,图书馆,library,图书馆,NOUN,A1\nzh,写,to write,写,VERB,A1\nzh,美丽,beautiful,美丽的,ADJ,A1",
+        "lemma": "the canonical zh lemma in Simplified Chinese "
+        "(1-5 Chinese characters, no punctuation).",
+        "extra": "- Lemma must be a natural Simplified Chinese word, "
+        "not a transliteration. Do NOT copy the English gloss verbatim.\n",
+        "examples": "zh,图书馆,library,图书馆,NOUN,A1\n"
+        "zh,写,to write,写,VERB,A1\n"
+        "zh,美丽,beautiful,美丽的,ADJ,A1",
     },
 }
 
-TEMPLATE = """You are a native {code} lexicographer. Below is a list of {n} English concepts with EXACT POS tags, one per line. Each line ends with a target-language code in parentheses.
-
-Produce ONE raw CSV table. No markdown fences, no commentary, no row numbers, nothing before the header or after the last row.
-
-Line 1 must be exactly:
-Lang,Lemma,English_Lemma,Chinese_Lemma,POS,CEFR
-
-Then one data row per concept, in the exact same order as the list.
-
-Column rules:
-- Lang: {code} for every row.
-- Lemma: {lemma} Multi-word lemmas allowed. If a concept has no single canonical lemma, skip that row entirely (skip at most 15 rows per 200).
-- English_Lemma: copy the concept VERBATIM, letter for letter, same case. Do NOT include the "(target: ...)" marker or the POS tag.
-- Chinese_Lemma: Simplified Chinese translation of the concept (1 to 5 Chinese words, no punctuation).
-- POS: use EXACTLY the POS tag shown in parentheses after the concept. Do not change it.
-- CEFR: exactly one of: A1, A2, B1, B2, C1 (the level at which a learner of {code} meets this word)
-- Never repeat the same (Lang, Lemma, English_Lemma, POS) combination in two rows.
-- Do not quote fields unless a field itself contains a comma; fields with a comma must be quoted with double quotes.
-
-{extra}
-Calibration examples (format reference only, not part of your output):
-{examples}
-
-Concepts:
-{concepts}"""
+TEMPLATE = (
+    "You are a native {code} lexicographer. Below is a list of {n} English "
+    "concepts with EXACT POS tags, one per line. Each line ends with a "
+    "target-language code in parentheses.\n"
+    "\n"
+    "Produce ONE raw CSV table. No markdown fences, no commentary, "
+    "no row numbers, nothing before the header or after the last row.\n"
+    "\n"
+    "Line 1 must be exactly:\n"
+    "Lang,Lemma,English_Lemma,Chinese_Lemma,POS,CEFR\n"
+    "\n"
+    "Then one data row per concept, in the exact same order as the list.\n"
+    "\n"
+    "Column rules:\n"
+    "- Lang: {code} for every row.\n"
+    "- Lemma: {lemma} Multi-word lemmas allowed. If a concept has no "
+    "single canonical lemma, skip that row entirely "
+    "(skip at most 15 rows per 200).\n"
+    "- English_Lemma: copy the concept VERBATIM, letter for letter, "
+    'same case. Do NOT include the "(target: ...)" marker or the POS tag.\n'
+    "- Chinese_Lemma: Simplified Chinese translation of the concept "
+    "(1 to 5 Chinese words, no punctuation).\n"
+    "- POS: use EXACTLY the POS tag shown in parentheses after the "
+    "concept. Do not change it.\n"
+    "- CEFR: exactly one of: A1, A2, B1, B2, C1 (the level at which a "
+    "learner of {code} meets this word)\n"
+    "- Never repeat the same (Lang, Lemma, English_Lemma, POS) "
+    "combination in two rows.\n"
+    "- Do not quote fields unless a field itself contains a comma; "
+    "fields with a comma must be quoted with double quotes.\n"
+    "\n"
+    "{extra}\n"
+    "Calibration examples (format reference only, not part of your output):\n"
+    "{examples}\n"
+    "\n"
+    "Concepts:\n"
+    "{concepts}"
+)
 ORDER = ("ar", "de", "en", "es", "fr", "nl", "sv", "zh")
 
 
@@ -193,7 +239,7 @@ def main(root: Path | None = None, round_no: str | None = None) -> None:
                     and k[0] in bygloss["en"]
                     and k[1] not in bygloss["en"][k[0]]
                 ):
-                    continue  # en lemma == gloss: guaranteed (lang,lemma,gloss) collision
+                    continue  # en: lemma == gloss, (lang,lemma,gloss) collision
                 if k[0] in bygloss[tgt]:
                     fallback.append(k)  # gloss exists under another POS
                 else:
