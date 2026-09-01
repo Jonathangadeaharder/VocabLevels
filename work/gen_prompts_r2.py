@@ -25,6 +25,13 @@ from scripts.expand_concepts import LANG_DIRS, normalize_gloss
 GOAL = 0.80
 CHUNK = 2000
 
+_NO_VERBATIM_COPIES = (
+    "- IMPORTANT: the Lemma must be an authentic native word in "
+    "your language. NEVER use the English gloss itself as the Lemma "
+    "(no verbatim English copies). Use the genuine loanword spelling "
+    "only when that IS the native word.\n"
+)
+
 LANGS = {
     "ar": {
         "lemma": "the canonical ar lemma in Arabic script. Use diacritics only "
@@ -37,10 +44,7 @@ LANGS = {
     "de": {
         "lemma": "the canonical de lemma. infinitive verb, capitalized noun, "
         "lowercase adjective/adverb. Use diacritics where correct (ä ö ü ß).",
-        "extra": "- IMPORTANT: the Lemma must be an authentic native word in "
-        "your language. NEVER use the English gloss itself as the Lemma "
-        "(no verbatim English copies). Use the genuine loanword spelling "
-        "only when that IS the native word.\n",
+        "extra": _NO_VERBATIM_COPIES,
         "examples": "de,Bibliothek,library,图书馆,NOUN,A1\n"
         "de,schreiben,to write,写,VERB,A1\n"
         "de,schön,beautiful,美丽的,ADJ,A1",
@@ -56,10 +60,7 @@ LANGS = {
     "es": {
         "lemma": "the canonical es lemma. infinitive verb, lowercase "
         "adjective/adverb, citation noun. Use diacritics where correct.",
-        "extra": "- IMPORTANT: the Lemma must be an authentic native word in "
-        "your language. NEVER use the English gloss itself as the Lemma "
-        "(no verbatim English copies). Use the genuine loanword spelling "
-        "only when that IS the native word.\n",
+        "extra": _NO_VERBATIM_COPIES,
         "examples": "es,biblioteca,library,图书馆,NOUN,A1\n"
         "es,escribir,to write,写,VERB,A1\n"
         "es,bonito,beautiful,美丽的,ADJ,A1",
@@ -67,10 +68,7 @@ LANGS = {
     "fr": {
         "lemma": "the canonical fr lemma. infinitive verb, lowercase "
         "adjective/adverb, citation noun. Use diacritics where correct.",
-        "extra": "- IMPORTANT: the Lemma must be an authentic native word in "
-        "your language. NEVER use the English gloss itself as the Lemma "
-        "(no verbatim English copies). Use the genuine loanword spelling "
-        "only when that IS the native word.\n",
+        "extra": _NO_VERBATIM_COPIES,
         "examples": "fr,bibliothèque,library,图书馆,NOUN,A1\n"
         "fr,écrire,to write,写,VERB,A1\n"
         "fr,beau,beautiful,美丽的,ADJ,A1",
@@ -78,10 +76,7 @@ LANGS = {
     "nl": {
         "lemma": "the canonical nl lemma. infinitive verb, lowercase "
         "adjective/adverb, citation noun. Use diacritics where correct.",
-        "extra": "- IMPORTANT: the Lemma must be an authentic native word in "
-        "your language. NEVER use the English gloss itself as the Lemma "
-        "(no verbatim English copies). Use the genuine loanword spelling "
-        "only when that IS the native word.\n",
+        "extra": _NO_VERBATIM_COPIES,
         "examples": "nl,bibliotheek,library,图书馆,NOUN,A1\n"
         "nl,schrijven,to write,写,VERB,A1\n"
         "nl,mooi,beautiful,美丽的,ADJ,A1",
@@ -90,10 +85,7 @@ LANGS = {
         "lemma": "the canonical sv lemma. infinitive verb, lowercase "
         "adjective/adverb, citation noun. Use diacritics where "
         "correct (å ä ö).",
-        "extra": "- IMPORTANT: the Lemma must be an authentic native word in "
-        "your language. NEVER use the English gloss itself as the Lemma "
-        "(no verbatim English copies). Use the genuine loanword spelling "
-        "only when that IS the native word.\n",
+        "extra": _NO_VERBATIM_COPIES,
         "examples": "sv,bibliotek,library,图书馆,NOUN,A1\n"
         "sv,skriva,to write,写,VERB,A1\n"
         "sv,vacker,beautiful,美丽的,ADJ,A1",
