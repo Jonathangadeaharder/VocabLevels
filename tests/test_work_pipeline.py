@@ -5,6 +5,7 @@ criterion-6 violations."""
 from __future__ import annotations
 
 import csv
+import json
 from pathlib import Path
 from types import SimpleNamespace
 
@@ -96,7 +97,7 @@ def test_classify_single_copy_goes_to_allowlist() -> None:
 
 
 def test_classify_multiword_copy_deleted_unless_loan() -> None:
-    singles, multis, prefixes, delete_keys = clean_expansion.classify(
+    singles, multis, _, delete_keys = clean_expansion.classify(
         [("do one's best", "do one's best", "VERB"), ("de facto", "de facto", "ADJ")],
         "de",
     )
@@ -221,7 +222,7 @@ def test_gen_prompts_fallback_cells_for_non_en_target(
     # For nl (lemma != gloss allowed) a gloss that exists under another POS is
     # merely fallback padding, not a black hole, so the cell must be asked.
     base = [SimpleNamespace(lemma="书", gloss="book", pos="NOUN")]
-    delivery = {code: base for code in sorted(ALL_LANGS)}
+    delivery = dict.fromkeys(sorted(ALL_LANGS), base)
     delivery["nl"] = [SimpleNamespace(lemma="nabij", gloss="near", pos="ADJ")]
     delivery["zh"] = [SimpleNamespace(lemma="附近", gloss="near", pos="ADP")]
     patch_pipeline(monkeypatch, delivery)
@@ -259,8 +260,10 @@ def test_clean_expansion_apply_deletes_and_writes_allowlist(
     ]
     out = capsys.readouterr().out
     assert "DELETED 2 rows" in out  # multi copy + ar script junk
-    allow = (tmp_path / "work" / "allowlist_extra.py").read_text(encoding="utf-8")
-    assert "'es': {'mrouzia'}" in allow
+    allow = json.loads(
+        (tmp_path / "work" / "allowlist_extra.json").read_text(encoding="utf-8")
+    )
+    assert allow["es"] == ["mrouzia"]
 
 
 def test_clean_expansion_dry_run_deletes_nothing(

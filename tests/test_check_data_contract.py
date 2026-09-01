@@ -2,12 +2,15 @@
 
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import pytest
 
 from check_data_contract import (
+    EXTENDED_COGNATE_ALLOWLIST,
     TSV_HEADER,
+    Row,
     check_ascii,
     check_duplicates,
     check_rank_gaps,
@@ -20,8 +23,16 @@ from check_data_contract import (
     pair_coverage,
     run_baseline,
     run_delivery,
-    Row,
 )
+
+
+def test_extended_cognate_allowlist_loads_from_canonical_json() -> None:
+    raw = json.loads(Path("extended_cognates.json").read_text(encoding="utf-8"))
+    assert {
+        code: set(words) for code, words in raw.items()
+    } == EXTENDED_COGNATE_ALLOWLIST
+    assert sorted(EXTENDED_COGNATE_ALLOWLIST) == ["de", "es", "fr", "nl", "sv"]
+    assert all(words for words in EXTENDED_COGNATE_ALLOWLIST.values())
 
 
 def test_normalize_gloss_matches_the_app_backfill() -> None:

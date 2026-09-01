@@ -11,7 +11,7 @@ from collections.abc import Sequence
 def format_duration(seconds: float | None) -> str:
     if seconds is None or seconds < 0 or seconds != seconds:  # NaN
         return "?"
-    total = int(round(seconds))
+    total = round(seconds)
     hours, rem = divmod(total, 3600)
     minutes, secs = divmod(rem, 60)
     if hours:

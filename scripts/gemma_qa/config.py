@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 import threading
+from dataclasses import dataclass
 
 from .model_strategies import (
     ACTIVE_STRATEGIES,
@@ -48,10 +49,8 @@ ACTIVE_POOL: tuple[str, ...] = active_strategy_keys()
 DUAL_POOL: tuple[str, ...] = ACTIVE_POOL
 ADJUDICATION_POOL: tuple[str, ...] = ACTIVE_POOL
 
+
 # Back-compat registry shape for resolve_model_spec callers.
-from dataclasses import dataclass  # noqa: E402
-
-
 @dataclass(frozen=True)
 class ModelSpec:
     key: str
@@ -156,7 +155,7 @@ def model_free_slots(model_key: str) -> int:
 
 
 def default_batch_concurrency() -> int:
-    """Sweet spot ~4; cap by 2× active models so free-slot selection can fill."""
+    """Sweet spot ~4; cap by 2x active models so free-slot selection can fill."""
     available = sum(1 for key in ACTIVE_POOL if is_model_available(key))
     if available < 1:
         available = len(ACTIVE_POOL)
@@ -247,9 +246,9 @@ __all__ = [
     "MODEL_QWEN_397B",
     "MODEL_REGISTRY",
     "MODEL_SPECS",
-    "ModelSpec",
     "REASONING_EFFORT",
     "STRATEGY_BY_KEY",
+    "ModelSpec",
     "acquire_model_slot",
     "default_batch_concurrency",
     "get_api_key",

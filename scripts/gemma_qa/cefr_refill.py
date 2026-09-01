@@ -11,13 +11,13 @@ from vocab_schema import LEVELS
 
 from .client import GenerationResult
 from .config import INPUT_BATCH_TOKEN_CAP, MODEL_26B, MODEL_31B, MODEL_IDS
-from .ledger import Ledger
 from .language_repair import (
     canonicalize_repaired_german_noun,
     cefr_row_issues,
     german_row_issues,
 )
 from .languages import get_language
+from .ledger import Ledger
 from .packing import TiktokenEstimator, pack_records
 from .prompts import (
     NOVEL_PROMPT_VERSION,
@@ -30,16 +30,16 @@ from .prompts import (
     build_refill_review_prompt,
     novel_initial_hint,
 )
+from .routing import resolve_adjudication_model
 from .schemas import (
+    UPOS,
     CefrNovelBatch,
     CefrRefillBatch,
     CefrRefillConcept,
     CefrRefillRow,
     CefrReviewRow,
     ReviewAction,
-    UPOS,
 )
-from .routing import resolve_adjudication_model
 from .semantic_generation import checkpointed_semantic_generate
 from .trace import event
 
@@ -476,7 +476,7 @@ def _complete_novel_rows(
                     single_model=single_model,
                 )
             except ValueError as error:
-                # Model returned wrong IDs/cardinality after repairs — retry slots later.
+                # Wrong IDs/cardinality after repairs — retry these slots later.
                 rejected_slots.extend(slots)
                 reject_reasons["identity"] = reject_reasons.get("identity", 0) + len(
                     slots

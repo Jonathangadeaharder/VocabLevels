@@ -142,8 +142,6 @@ _NUMERALS: frozenset[str] = frozenset(
         "تمانية",  # eight (Maghrebi; MSA ثمانية)
         "تمانين",  # eighty
         "تمنطاش",  # eighteen
-        "تمنطاش",
-        "تسعود",
     }
 )
 
@@ -231,7 +229,7 @@ _ADJ: frozenset[str] = frozenset(
     {
         "جيعان",
         "جيعانة",
-        "عطشان",  # also MSA; keep via MSA allow below if needed — treat dialect when tagged hungry-only
+        "عطشان",  # also MSA; MSA allow below; dialect when tagged hungry-only
         "ناعس",
         "نعسان",
         "نعسانة",
@@ -327,7 +325,6 @@ _VERBS: frozenset[str] = frozenset(
         "تصنط",  # Maghrebi eavesdrop
         "تَصَنَّطَ",
         "شاف",  # Maghrebi see (MSA رأى)
-        "شوف",  # already may exist
     }
 )
 _VERB_ONLY: frozenset[str] = frozenset({"روح"})  # drop only if not NOUN
@@ -506,30 +503,28 @@ def classify_ar_lemma(
         return ClassifyResult("drop", "clitic+dialect stem")
 
     # French-loan morphology (بروفيل already in set; general pattern)
-    if re.fullmatch(r"[\u0600-\u06FF]{3,}(يل|اج|يش|يون)$", bare):
-        # high false-positive risk — only if eng looks loan
-        if any(
-            k in en
-            for k in (
-                "profile",
-                "garage",
-                "police",
-                "apartment",
-                "shower",
-                "rent",
-                "captain",
-                "coat",
-                "car",
-                "phone",
-                "train",
-                "passport",
-            )
-        ):
-            return ClassifyResult("drop", "French-loan morphology+eng")
+    # high false-positive risk — only if eng looks loan
+    if re.fullmatch(r"[\u0600-\u06FF]{3,}(يل|اج|يش|يون)$", bare) and any(
+        k in en
+        for k in (
+            "profile",
+            "garage",
+            "police",
+            "apartment",
+            "shower",
+            "rent",
+            "captain",
+            "coat",
+            "car",
+            "phone",
+            "train",
+            "passport",
+        )
+    ):
+        return ClassifyResult("drop", "French-loan morphology+eng")
 
-    if "colloquial" in en or "dialect" in en or "عامي" in en:
-        if lem not in _MSA_KEEP:
-            return ClassifyResult("policy", "eng labels colloquial/dialect")
+    if ("colloquial" in en or "dialect" in en or "عامي" in en) and lem not in _MSA_KEEP:
+        return ClassifyResult("policy", "eng labels colloquial/dialect")
 
     # Ambiguous MSA surface with Maghrebi sense in eng gloss.
     if bare == "سحاب" and "zipper" in en:
@@ -561,7 +556,7 @@ class InventoryRow:
 
 
 def scan_arabic_lists(root: Path) -> list[InventoryRow]:
-    """Full-population scan of arabic/{A1–Advanced}.csv → inventory rows."""
+    """Full-population scan of arabic/{A1-Advanced}.csv → inventory rows."""
     out: list[InventoryRow] = []
     for level in LEVELS:
         path = root / "arabic" / f"{level}.csv"
@@ -706,7 +701,7 @@ def apply_inventory_to_arabic_lists(
                     if "colloquial" not in en.lower() and "dialect" not in en.lower():
                         row["English_Lemma"] = f"{en} (colloquial)".strip()
                     if "口语" not in zh:
-                        row["Chinese_Lemma"] = f"{zh}（口语）".strip()
+                        row["Chinese_Lemma"] = f"{zh}\uff08口语\uff09".strip()
                 out.append(row)
             with path.open("w", newline="", encoding="utf-8") as handle:
                 writer = csv.DictWriter(handle, fieldnames=fields)
@@ -723,7 +718,6 @@ def apply_inventory_to_arabic_lists(
 def score_sample_row(
     *,
     lang: str,
-    level: str,
     lemma: str,
     english_lemma: str,
     chinese_lemma: str,
@@ -808,10 +802,11 @@ def score_sample_row(
         if live.action == "policy" or lem in policies:
             return "keep", "policy:dialect-MSA-exception"
         bare = strip_ar_diacritics(lem)
-        if bare in drops or lem in set(inventory_drops or []):
-            # Closed-lexicon hit without UPOS context: only if not MSA allow.
-            if live.reason != "msa_allow":
-                return "drop", "inventory dialect residual still in list"
+        # Closed-lexicon hit without UPOS context: only if not MSA allow.
+        if (
+            bare in drops or lem in set(inventory_drops or [])
+        ) and live.reason != "msa_allow":
+            return "drop", "inventory dialect residual still in list"
     return "keep", "clean"
 
 

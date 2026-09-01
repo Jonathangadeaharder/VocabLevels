@@ -24,7 +24,7 @@ from vocab_schema import LEVELS
 from .cefr_refill import load_other_level_collision_keys, normalized_key
 from .language_repair import cefr_row_issues
 from .languages import get_language
-from .schemas import CefrReviewRow, ReviewAction, UPOS
+from .schemas import UPOS, CefrReviewRow, ReviewAction
 from .validated import ValidatedStore, validated_store_path
 
 NonEmptyText = Annotated[str, StringConstraints(min_length=1)]

@@ -57,7 +57,7 @@ def sample_size_fpc(
         return 0
     n0 = (z * z * p * (1.0 - p)) / (margin * margin)
     n = n0 / (1.0 + (n0 - 1.0) / population)
-    return max(1, min(population, int(math.ceil(n))))
+    return max(1, min(population, math.ceil(n)))
 
 
 def load_level_csv(path: Path) -> list[dict[str, str]]:
@@ -237,7 +237,8 @@ def write_level_pack(
             )
 
     lines = [
-        f"# Audit sample — {lang_dir} {level} (n={len(sample)}, 95%±20%) — **UNREVIEWED**",
+        f"# Audit sample — {lang_dir} {level} (n={len(sample)}, 95%±20%) "
+        "— **UNREVIEWED**",
         "",
         f"Population (proposed): **{population}**. Fill `verdict` = keep / drop / fix.",
         "",
@@ -267,7 +268,8 @@ def write_readme(
     rows = [
         f"# TNG CEFR audit samples — {lang_dir} (p20)",
         "",
-        f"Language code: `{lang_code}`. Source: `{{level}}.proposed.csv` vs committed `{{level}}.csv`.",
+        f"Language code: `{lang_code}`. "
+        "Source: `{{level}}.proposed.csv` vs committed `{{level}}.csv`.",
         "",
         "## Sample design",
         "",

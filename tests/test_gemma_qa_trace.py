@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from scripts.gemma_qa.schemas import CefrReviewBatch, CefrReviewRow, ReviewAction, UPOS
+from scripts.gemma_qa.schemas import UPOS, CefrReviewBatch, CefrReviewRow, ReviewAction
 from scripts.gemma_qa.trace import (
     configure,
     event,

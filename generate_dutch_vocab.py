@@ -77,7 +77,7 @@ def translate_words(words: list[str]) -> dict[str, str]:
             results = translator.translate_batch(batch)
             for word, en in zip(batch, results, strict=False):
                 translations[word] = en if en else word
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001 - batch resilience, keep translating
             print(f"  error at batch {start}: {e}", flush=True)
             for w in batch:
                 translations[w] = w

@@ -113,23 +113,10 @@ def resolve_adjudication_model(
     return picked[0]
 
 
-def select_adjudication_model(quota: object | None = None) -> str:
-    _ = quota
-    return resolve_adjudication_model(None)
-
-
 class UnifiedQaClient:
     """Routes every model key through the shared GemmaClient + strategies."""
 
-    def __init__(
-        self,
-        *,
-        gemma: GemmaClient,
-        antigravity: object | None = None,
-        quota: object | None = None,
-    ) -> None:
-        _ = antigravity
-        _ = quota
+    def __init__(self, *, gemma: GemmaClient) -> None:
         self._client = gemma
 
     def adjudication_model(self) -> str:

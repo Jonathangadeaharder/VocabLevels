@@ -1,0 +1,98 @@
+name: AI Code Review
+on:
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "PR number to review (watchdog re-dispatch on dropped webhooks)"
+        required: true
+        type: string
+      head_sha:
+        description: "PR head commit to review; the OpenCodeReview check run lands on it"
+        required: true
+        type: string
+permissions:
+  contents: read
+  pull-requests: write
+  repository-projects: read
+concurrency:
+  group: ocr-review-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  ocr-review:
+    name: OpenCodeReview
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (
+        vars.ENABLE_AI_CODE_REVIEW == 'true' &&
+        github.event.pull_request.head.repo.full_name == github.repository
+      )
+    runs-on: [self-hosted, macOS, ARM64, VidiomTM]
+    timeout-minutes: 30
+    env:
+      HOME: /Users/jonathangadeaharder
+      REPO: ${{ github.repository }}
+      PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          fetch-depth: 0
+          ref: ${{ inputs.head_sha || '' }}
+
+      - name: Resolve dispatch PR context
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          JSON=$(gh api "repos/${REPO}/pulls/${PR_NUMBER}" \
+            --jq '{base: .base.ref, head: .head.sha, base_oid: .base.sha}')
+          BASE_REF=$(echo "$JSON" | jq -r .base)
+          BASE_SHA=$(echo "$JSON" | jq -r .base_oid)
+          {
+            echo "BASE_REF=${BASE_REF}"
+            echo "BASE_SHA=${BASE_SHA}"
+            echo "REVIEW_PR_NUMBER=${PR_NUMBER}"
+          } >> "$GITHUB_ENV"
+
+      - name: Fetch base branch
+        env:
+          BASE_REF: ${{ env.BASE_REF || github.base_ref }}
+        run: git fetch origin "$BASE_REF"
+
+      - name: Resolve previous review comments
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_REF: ${{ env.BASE_REF || github.base_ref }}
+        # Run the base branch's copy, never the PR's: this runner is
+        # self-hosted and the step holds a write-scoped token.
+        run: |
+          git show "origin/${BASE_REF}:scripts/ci/resolve-previous-review-comments.sh" \
+            | bash
+
+      - name: Run OpenCodeReview
+        id: ocr
+        shell: bash {0}
+        env:
+          BASE_REF: ${{ env.BASE_REF || github.base_ref }}
+        run: |
+          git show "origin/${BASE_REF}:scripts/ci/code-review/run-opencodereview.sh" \
+            | bash
+      - name: Post review comments
+        if: steps.ocr.outputs.comments != '0' && steps.ocr.outputs.exit_code == '0'
+        env:
+          BASE_REF: ${{ env.BASE_REF || github.base_ref }}
+        run: |
+          git show "origin/${BASE_REF}:scripts/ci/code-review/post-review-comments.sh" \
+            | bash
+      - name: Gate
+        if: steps.ocr.outputs.comments != '0' && steps.ocr.outputs.exit_code == '0'
+        shell: bash {0}
+        run: |
+          # Only high/critical findings block. Low/nit/info/medium are advisory.
+          BLOCKING=$(jq '[.comments[] | select((.severity // "medium") as $s | ["low","nit","info","medium"] | index($s) | not)] | length' "$WORK_DIR/ocr-output.json" 2>/dev/null || echo "0")
+          if [ "$BLOCKING" -gt 0 ]; then
+            echo "::error::OpenCodeReview found $BLOCKING high/critical finding(s). Fix and re-review."
+            exit 1
+          fi
+          echo "OpenCodeReview found ${{ steps.ocr.outputs.comments }} issue(s), all below high severity. Advisory only."
+          exit 0

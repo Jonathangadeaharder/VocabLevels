@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 import argparse
+from collections.abc import Sequence
 from pathlib import Path
-from typing import Sequence
 
 from .cefr import run_cefr, run_cefr_gap_refill
 from .client import GemmaClient

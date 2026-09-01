@@ -352,7 +352,8 @@ def redistribute_arabic_b2(cs: ChangeSet) -> None:
     room = TARGETS["Advanced"] - len(c1_rows)
     if room < len(candidates):
         cs.blockers.append(
-            f"arabic/Advanced only has room for {room}, but {len(candidates)} to relocate"
+            f"arabic/Advanced only has room for {room}, "
+            f"but {len(candidates)} to relocate"
         )
         return
 
@@ -590,7 +591,10 @@ def main(argv: list[str]) -> int:
         "--langs",
         nargs="+",
         default=ALL_STANZA_LANGS,
-        help=f"Languages to POS-audit (default: all with Stanza support: {ALL_STANZA_LANGS})",
+        help=(
+            f"Languages to POS-audit "
+            f"(default: all with Stanza support: {ALL_STANZA_LANGS})"
+        ),
     )
     args = parser.parse_args(argv[1:])
 

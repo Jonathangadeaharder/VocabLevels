@@ -276,7 +276,7 @@ def test_batch_concurrency_preserves_order_and_checkpoints(tmp_path: Path) -> No
         single_model=MODEL_31B,
     )
     assert output.exists()
-    # 3 batches × 1 model (single-model path)
+    # 3 batches x 1 model (single-model path)
     assert len(client.calls) == 3
     resumed = FakeClient()
     run_cefr(
@@ -622,6 +622,6 @@ def test_batch_recovers_when_first_model_times_out(tmp_path: Path) -> None:
     )
     assert output.exists()
     assert client.failures == 1
-    # First attempt timed out on one model, retry attempt succeeded with rotated dual pair
+    # First attempt timed out on one model; retry used the rotated dual pair
     assert len(client.calls) >= 2
     ledger.close()

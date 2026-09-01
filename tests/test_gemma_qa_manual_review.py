@@ -9,7 +9,6 @@ import pytest
 from scripts.gemma_qa.cli import main
 from scripts.gemma_qa.manual_review import run_manual_review
 
-
 HEADER = ["German_Lemma", "English_Lemma", "Chinese_Lemma", "POS"]
 
 

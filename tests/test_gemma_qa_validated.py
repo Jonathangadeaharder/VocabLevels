@@ -12,10 +12,9 @@ from scripts.gemma_qa.cli import main
 from scripts.gemma_qa.language_repair import german_row_issues, repair_german_rows
 from scripts.gemma_qa.ledger import Ledger
 from scripts.gemma_qa.manual_review import run_manual_review
-from scripts.gemma_qa.schemas import CefrReviewBatch, CefrReviewRow, ReviewAction, UPOS
+from scripts.gemma_qa.schemas import UPOS, CefrReviewBatch, CefrReviewRow, ReviewAction
 from scripts.gemma_qa.validated import ValidatedStore, fingerprint, validated_store_path
 from vocab_schema import TARGETS
-
 
 HEADER = ["German_Lemma", "English_Lemma", "Chinese_Lemma", "POS"]
 

@@ -8,7 +8,7 @@ import re
 import time
 from collections.abc import Callable
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from email.utils import parsedate_to_datetime
 from typing import Generic, TypeVar
 
@@ -37,7 +37,10 @@ _THINK_CLOSED_RE = re.compile(r"<think>.*?</think>", re.DOTALL | re.IGNORECASE)
 
 
 def request_wall_clock_s() -> float:
-    """Hard max seconds for one HTTP POST (default 180). Env: GEMMA_QA_REQUEST_WALL_S."""
+    """Hard max seconds for one HTTP POST (default 180).
+
+    Env: GEMMA_QA_REQUEST_WALL_S.
+    """
     raw = os.environ.get("GEMMA_QA_REQUEST_WALL_S", "180")
     try:
         value = float(raw)
@@ -86,7 +89,7 @@ class GemmaClient:
         if structured_attempts <= 0:
             raise ValueError("structured_attempts must be positive")
         self._api_key = get_api_key()
-        # Wide pool: dual × batch concurrency across internal + external.
+        # Wide pool: dual x batch concurrency across internal + external.
         self._http_client = http_client or httpx.Client(
             timeout=PRODUCTION_TIMEOUT,
             limits=httpx.Limits(
@@ -153,7 +156,6 @@ class GemmaClient:
                         headers=headers,
                         model=spec.key,
                         prompt=current_prompt,
-                        max_output_tokens=max_output_tokens,
                         request_json=request_json,
                         optional=spec.optional,
                     )
@@ -294,7 +296,6 @@ class GemmaClient:
         headers: dict[str, str],
         model: str,
         prompt: str,
-        max_output_tokens: int,
         request_json: dict[str, object],
         optional: bool = False,
     ) -> dict[str, object]:
@@ -449,10 +450,10 @@ class GemmaClient:
                     retry_at = None
                 if retry_at is not None:
                     if retry_at.tzinfo is None:
-                        retry_at = retry_at.replace(tzinfo=timezone.utc)
+                        retry_at = retry_at.replace(tzinfo=UTC)
                     return max(
                         0.0,
-                        (retry_at - datetime.now(timezone.utc)).total_seconds(),
+                        (retry_at - datetime.now(UTC)).total_seconds(),
                     )
             else:
                 if math.isfinite(seconds) and seconds >= 0:
@@ -509,8 +510,7 @@ class GemmaClient:
         lower = stripped.lower()
         if "<think>" in lower:
             stripped = stripped[: lower.find("<think>")].strip()
-        stripped = re.sub(r"</think>", "", stripped, flags=re.IGNORECASE).strip()
-        return stripped
+        return re.sub(r"</think>", "", stripped, flags=re.IGNORECASE).strip()
 
     @staticmethod
     def _strip_fences(text: str, *, model_key: str | None = None) -> str:

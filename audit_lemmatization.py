@@ -52,7 +52,8 @@ def find_inflected_forms():
                 levels = [lv for lv, _ in all_lemmas[form]]
                 base_levels = [lv for lv, _ in all_lemmas[base]]
                 print(
-                    f"  {form:20} ({ftype:10}) → {base:15} | {form}: {levels}, {base}: {base_levels}"
+                    f"  {form:20} ({ftype:10}) → {base:15} | "
+                    f"{form}: {levels}, {base}: {base_levels}"
                 )
         else:
             print("No obvious inflected forms found")

@@ -18,15 +18,15 @@ from .prompts import (
     build_language_repair_generation_prompt,
     build_language_repair_review_prompt,
 )
+from .routing import resolve_adjudication_model
 from .schemas import (
+    UPOS,
     CefrLanguageIssue,
     CefrLanguageRepairItem,
     CefrReviewBatch,
     CefrReviewRow,
     ReviewAction,
-    UPOS,
 )
-from .routing import resolve_adjudication_model
 from .semantic_generation import checkpointed_semantic_generate
 
 FORBIDDEN_CEFR_UPOS = {UPOS.PROPN, UPOS.PUNCT, UPOS.SYM, UPOS.X}
@@ -137,7 +137,9 @@ def cefr_row_issues(
         issues.append(
             CefrLanguageIssue(
                 code="german.verb_requires_infinitive",
-                message="German verb citation lemmas must be infinitives ending in en or n.",
+                message=(
+                    "German verb citation lemmas must be infinitives ending in en or n."
+                ),
             )
         )
     if profile.code == "ar" and not has_arabic_script(row.lemma):
