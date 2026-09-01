@@ -244,7 +244,10 @@ def _model_reply(
 def _parse_batch_rows(payload: object) -> dict[int, tuple[str, str]]:
     def norm(lemma: object) -> tuple[str, str]:
         if isinstance(lemma, dict):
-            return (str(lemma.get("lemma", "")).strip(), str(lemma.get("zh", "")).strip())
+            return (
+                str(lemma.get("lemma", "")).strip(),
+                str(lemma.get("zh", "")).strip(),
+            )
         return (str(lemma).strip(), "")
 
     if isinstance(payload, list):
@@ -666,7 +669,9 @@ def _write_expansion_csv(root: Path, lang: str, items: list[GeneratedLemma]) -> 
             for cols in reader:
                 if len(cols) >= 4 and cols[0].strip() and cols[1].strip():
                     existing_rows.append(cols)
-                    covered.add((normalize_gloss(cols[1].strip()), cols[3].strip().upper()))
+                    covered.add(
+                        (normalize_gloss(cols[1].strip()), cols[3].strip().upper())
+                    )
     new_rows = [
         [item.lemma, item.concept.gloss, item.zh, item.concept.pos, item.level]
         for item in sorted(items, key=lambda it: (it.concept.gloss, it.concept.pos))

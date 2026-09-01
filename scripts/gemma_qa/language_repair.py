@@ -4,7 +4,7 @@ import csv
 import unicodedata
 from collections.abc import Sequence
 from pathlib import Path
-from typing import Protocol
+from typing import Protocol, TypedDict
 
 from .client import GenerationResult
 from .config import INPUT_BATCH_TOKEN_CAP, MODEL_26B, MODEL_31B, MODEL_IDS
@@ -193,7 +193,14 @@ def canonicalize_english_review_rows(
     return [canonicalize_english_citation(row) for row in rows]
 
 
-def normalize_english_csv_file(path: Path) -> dict[str, int]:
+class NormalizeEnglishStats(TypedDict):
+    rows_in: int
+    rewritten: int
+    dropped_dupes: int
+    rows_out: int
+
+
+def normalize_english_csv_file(path: Path) -> NormalizeEnglishStats:
     """Rewrite English CEFR CSV in place: lemma := english_lemma when they differ.
 
     Also drops exact duplicate lemma+POS after normalization (first wins).

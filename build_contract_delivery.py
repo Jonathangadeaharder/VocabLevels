@@ -31,6 +31,7 @@ _LEVEL_ALIAS = {"C1": "Advanced", "C2": "Advanced"}
 def _canon_level(level: str) -> str:
     return _LEVEL_ALIAS.get(level, level)
 
+
 CSV_HEADER = "Language_Lemma,English_Lemma,Chinese_Lemma,POS"
 TSV_HEADER = [
     "lemma",
