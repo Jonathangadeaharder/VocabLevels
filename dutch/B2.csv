@@ -171,7 +171,7 @@ samenwerken,to collaborate,合作,VERB
 scherp,sharp,锋利的,ADJ
 steunen,to support,支持,VERB
 tegenstelling,contradiction,矛盾,NOUN
-tuurlijk,of course,当然,ADJ
+tuurlijk,of course,当然,ADV
 uiterlijk,appearance,外貌,NOUN
 vanochtend,this morning,今天早上,ADV
 vermogen,assets,资产,NOUN
@@ -1010,7 +1010,7 @@ zuidoosten,southeast,东南,NOUN
 aanzien,prestige,声望,NOUN
 achteraf,afterwards,事后,ADV
 Arabisch,Arabic,阿拉伯的,ADJ
-bekendst,most famous,最著名的,ADJ
+gerenommeerd,renowned,著名的,ADJ
 bestelling,order,订单,NOUN
 bod,bid,出价,NOUN
 bol,sphere,球体,NOUN
@@ -1071,3 +1071,219 @@ wanhoop,despair,绝望,NOUN
 weerinstituut,weather institute,气象研究所,NOUN
 wegkwijnen,to wither,消沉,VERB
 zonnen,to sunbathe,晒太阳,VERB
+onderhandelen,to negotiate,谈判,VERB
+toelichten,to explain,阐明,VERB
+benadrukken,to emphasize,强调,VERB
+veroorloven,to afford,负担得起,VERB
+rechtvaardigen,to justify,辩护,VERB
+beargumenteren,to substantiate,论证,VERB
+handhaven,to maintain,维持,VERB
+verwaarlozen,to neglect,忽视,VERB
+onderschatten,to underestimate,低估,VERB
+overschatten,to overestimate,高估,VERB
+belemmeren,to obstruct,妨碍,VERB
+beïnvloeden,to influence,影响,VERB
+functioneren,to function,运作,VERB
+garanderen,to guarantee,保证,VERB
+interpreteren,to interpret,解释,VERB
+motiveren,to motivate,激励,VERB
+publiceren,to publish,出版,VERB
+reflecteren,to reflect,反思,VERB
+relativeren,to put into perspective,客观评价,VERB
+samenvatten,to summarize,总结,VERB
+toekennen,to allocate,授予,VERB
+toepassen,to apply,应用,VERB
+uitbreiden,to expand,扩大,VERB
+uitwisselen,to exchange,交换,VERB
+verhelderen,to clarify,澄清,VERB
+verschaffen,to provide,提供,VERB
+verstrekken,to supply,发放,VERB
+verwezenlijken,to realize,实现,VERB
+waarborgen,to safeguard,保障,VERB
+waarderen,to appreciate,赞赏,VERB
+weerspiegelen,to reflect,反映,VERB
+wijzigen,to modify,修改,VERB
+aankaarten,to raise,提出,VERB
+aansporen,to urge,敦促,VERB
+afwegen,to weigh up,权衡,VERB
+betwisten,to dispute,争议,VERB
+doordringen,to penetrate,渗透,VERB
+evalueren,to evaluate,评估,VERB
+fungeren,to serve as,充当,VERB
+hanteren,to handle,运用,VERB
+impliceren,to imply,意味着,VERB
+instemmen,to agree,赞同,VERB
+legitimeren,to legitimate,使合法化,VERB
+nuanceren,to nuance,微调,VERB
+omschrijven,to describe,描述,VERB
+ontkrachten,to refute,驳斥,VERB
+ontlenen,to derive,借用,VERB
+ophelderen,to clear up,澄清,VERB
+overdragen,to transfer,移交,VERB
+relateren,to relate,关联,VERB
+transformeren,to transform,转化,VERB
+variëren,to vary,变化,VERB
+verfijnen,to refine,完善,VERB
+vervullen,to fulfill,履行,VERB
+verzoenen,to reconcile,调和,VERB
+volharden,to persevere,坚持,VERB
+weerleggen,to refute,反驳,VERB
+voorwaarde,condition,条件,NOUN
+overweging,consideration,考量,NOUN
+bevoegdheid,competence,职权,NOUN
+deskundigheid,expertise,专业知识,NOUN
+doelstelling,objective,目标,NOUN
+doeltreffendheid,effectiveness,有效性,NOUN
+evenwicht,balance,平衡,NOUN
+geloofwaardigheid,credibility,公信力,NOUN
+grondslag,basis,基础,NOUN
+hoedanigheid,capacity,身份,NOUN
+invalshoek,angle,切入点,NOUN
+knelpunt,bottleneck,瓶颈,NOUN
+meerwaarde,added value,附加值,NOUN
+noodzaak,necessity,必要性,NOUN
+onderbouwing,substantiation,论证依据,NOUN
+overeenstemming,consensus,一致,NOUN
+raamwerk,framework,框架,NOUN
+redenering,reasoning,推理,NOUN
+reikwijdte,scope,范围,NOUN
+samenhang,coherence,连贯性,NOUN
+tegenstrijdigheid,contradiction,矛盾,NOUN
+toelichting,explanation,说明,NOUN
+toepasbaarheid,applicability,适用性,NOUN
+uitgangspunt,starting point,出发点,NOUN
+uitsluiting,exclusion,排斥,NOUN
+verantwoording,accountability,交代,NOUN
+veronderstelling,assumption,设想,NOUN
+verplichting,obligation,义务,NOUN
+verscheidenheid,diversity,多样性,NOUN
+verworvenheid,achievement,成果,NOUN
+werkgelegenheid,employment,就业,NOUN
+zelfstandigheid,independence,独立性,NOUN
+aansprakelijkheid,liability,责任,NOUN
+burgerij,citizenry,市民阶层,NOUN
+consensus,consensus,共识,NOUN
+continuïteit,continuity,连续性,NOUN
+criterium,criterion,标准,NOUN
+dilemma,dilemma,困境,NOUN
+dynamiek,dynamics,动态,NOUN
+efficiëntie,efficiency,效率,NOUN
+evaluatie,evaluation,评估,NOUN
+faciliteit,facility,便利设施,NOUN
+fenomeen,phenomenon,现象,NOUN
+flexibiliteit,flexibility,灵活性,NOUN
+functionaliteit,functionality,功能性,NOUN
+integriteit,integrity,正直,NOUN
+interactie,interaction,互动,NOUN
+interpretatie,interpretation,解读,NOUN
+interventie,intervention,干预,NOUN
+legitimiteit,legitimacy,合法性,NOUN
+mentaliteit,mentality,心态,NOUN
+motivatie,motivation,动机,NOUN
+neutraliteit,neutrality,中立,NOUN
+nuance,nuance,细微差别,NOUN
+polarisatie,polarization,两极分化,NOUN
+prioriteit,priority,优先事项,NOUN
+privilege,privilege,特权,NOUN
+proportionaliteit,proportionality,比例原则,NOUN
+rationaliteit,rationality,理性,NOUN
+reflectie,reflection,反思,NOUN
+regelgeving,regulation,法规,NOUN
+relevantie,relevance,相关性,NOUN
+rendement,yield,收益率,NOUN
+representatie,representation,代表性,NOUN
+segment,segment,部分,NOUN
+solidariteit,solidarity,团结,NOUN
+specificatie,specification,规范,NOUN
+stabiliteit,stability,稳定性,NOUN
+status,status,地位,NOUN
+stimulans,incentive,刺激因素,NOUN
+tendens,tendency,趋势,NOUN
+transparantie,transparency,透明度,NOUN
+urgentie,urgency,紧迫性,NOUN
+validiteit,validity,有效性,NOUN
+veelzijdigheid,versatility,多样性,NOUN
+verontwaardiging,indignation,愤慨,NOUN
+versoepeling,easing,放宽,NOUN
+welvaart,prosperity,繁荣,NOUN
+wisselwerking,interaction,相互作用,NOUN
+willekeur,arbitrariness,随意性,NOUN
+zeggenschap,say,发言权,NOUN
+zichtbaarheid,visibility,可见度,NOUN
+zorgvuldigheid,diligence,审慎,NOUN
+aanmerkelijk,considerable,显著的,ADJ
+acceptabel,acceptable,可接受的,ADJ
+adequaat,adequate,适当的,ADJ
+ambitieus,ambitious,有雄心的,ADJ
+beknopt,concise,简明的,ADJ
+betrekkelijk,relative,相对的,ADJ
+constructief,constructive,建设性的,ADJ
+cruciaal,crucial,关键的,ADJ
+degelijk,solid,扎实的,ADJ
+deskundig,expert,专业的,ADJ
+doelgericht,purposeful,目标明确的,ADJ
+doeltreffend,effective,有效的,ADJ
+drastisch,drastic,严厉的,ADJ
+dubieus,doubtful,可疑的,ADJ
+evenredig,proportional,成比例的,ADJ
+exclusief,exclusive,专有的,ADJ
+expliciet,explicit,明确的,ADJ
+flexibel,flexible,灵活的,ADJ
+fundamenteel,fundamental,根本的,ADJ
+geloofwaardig,credible,可信的,ADJ
+geleidelijk,gradual,逐渐的,ADJ
+gegrond,grounded,有根据的,ADJ
+genuanceerd,nuanced,细腻的,ADJ
+gezaghebbend,authoritative,权威的,ADJ
+grondig,thorough,彻底的,ADJ
+herkenbaar,recognizable,可辨认的,ADJ
+hoogwaardig,high quality,优质的,ADJ
+identiek,identical,相同的,ADJ
+immens,immense,巨大的,ADJ
+impliciet,implicit,含蓄的,ADJ
+ingrijpend,drastic,深远的,ADJ
+innovatief,innovative,创新的,ADJ
+integraal,integral,全面的,ADJ
+intensief,intensive,密集的,ADJ
+marginaal,marginal,边缘的,ADJ
+merkbaar,noticeable,显而易见的,ADJ
+nauwkeurig,accurate,精确的,ADJ
+objectief,objective,客观的,ADJ
+onmiskenbaar,unmistakable,无可置疑的,ADJ
+onontbeerlijk,indispensable,不可或缺的,ADJ
+opmerkelijk,remarkable,值得注意的,ADJ
+optimaal,optimal,最佳的,ADJ
+plausibel,plausible,合理的,ADJ
+potentieel,potential,潜在的,ADJ
+preventief,preventive,预防性的,ADJ
+progressief,progressive,进步的,ADJ
+realistisch,realistic,现实的,ADJ
+redundant,redundant,多余的,ADJ
+relevant,relevant,相关的,ADJ
+representatief,representative,有代表性的,ADJ
+subjectief,subjective,主观的,ADJ
+substantieel,substantial,实质性的,ADJ
+toereikend,sufficient,充足的,ADJ
+toonaangevend,leading,领先的,ADJ
+transparant,transparent,透明的,ADJ
+uitzonderlijk,exceptional,例外的,ADJ
+vanzelfsprekend,self-evident,理所当然的,ADJ
+veelbelovend,promising,有前途的,ADJ
+veelzijdig,versatile,多才多艺的,ADJ
+verbluffend,stunning,令人震惊的,ADJ
+verhelderend,enlightening,启发性的,ADJ
+waardevol,valuable,有价值的,ADJ
+willekeurig,arbitrary,任意的,ADJ
+zorgvuldig,careful,细致的,ADJ
+desalniettemin,nevertheless,尽管如此,ADV
+dientengevolge,consequently,因此,ADV
+klaarblijkelijk,obviously,显然,ADV
+logischerwijs,logically,按常理,ADV
+metterdaad,indeed,事实上,ADV
+naarmate,as,随着,SCONJ
+niettemin,nonetheless,尽管如此,ADV
+oftewel,or rather,也就是说,CCONJ
+respectievelijk,respectively,分别,ADV
+sedert,since,自从,ADP
+vooralsnog,for now,暂时,ADV
+zodoende,thus,因而,ADV

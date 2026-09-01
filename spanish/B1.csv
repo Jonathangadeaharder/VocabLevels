@@ -119,7 +119,7 @@ azar,chance,偶然,NOUN
 azúcar,sugar,糖,NOUN
 añadir,add,添加,VERB
 bandera,flag,旗帜,NOUN
-barato,cheap,便宜的,ADJ
+avería,breakdown,故障,NOUN
 barba,beard,胡须,NOUN
 barro,mud,泥,NOUN
 bastardo,bastard,私生子,NOUN
@@ -127,7 +127,7 @@ batería,battery,电池,NOUN
 bello,beautiful,美丽的,ADJ
 bendición,blessing,祝福,NOUN
 beneficio,benefit,利益,NOUN
-besar,kiss,亲吻,VERB
+averiarse,to break down,发生故障,VERB
 bestia,beast,野兽,NOUN
 biblia,Bible,圣经,NOUN
 biblioteca,library,图书馆,NOUN
@@ -166,7 +166,7 @@ carbón,coal,煤,NOUN
 cardíaco,cardiac,心脏的,ADJ
 cargar,load,装载,VERB
 caridad,charity,慈善,NOUN
-caro,expensive,昂贵的,ADJ
+convivencia,coexistence,共同生活,NOUN
 cartel,poster,海报,NOUN
 cartera,wallet,钱包,NOUN
 carácter,character,性格,NOUN
@@ -211,7 +211,7 @@ clínica,clinic,诊所,NOUN
 coartada,alibi,不在场证明,NOUN
 cobertura,coverage,覆盖范围,NOUN
 cobrar,to charge,收费,VERB
-cocinar,to cook,烹饪,VERB
+convivir,to coexist,共同生活,VERB
 cocinero,cook,厨师,NOUN
 cojo,lame,跛脚的,ADJ
 colección,collection,收藏,NOUN
@@ -268,7 +268,7 @@ constante,constant,持续的,ADJ
 construcción,construction,建筑,NOUN
 consuelo,consolation,安慰,NOUN
 contenido,content,内容,NOUN
-contestar,to answer,回答,VERB
+emprendedor,entrepreneurial,有创业精神的,ADJ
 contraseña,password,密码,NOUN
 contratar,to hire,雇佣,VERB
 convencer,to convince,说服,VERB
@@ -330,7 +330,7 @@ desafío,challenge,挑战,NOUN
 desaparecer,to disappear,消失,VERB
 desaparición,disappearance,失踪,NOUN
 desarrollo,development,发展,NOUN
-desayunar,to have breakfast,吃早餐,VERB
+emprendimiento,entrepreneurship,创业,NOUN
 desconocido,unknown,未知的,ADJ
 descripción,description,描述,NOUN
 descubrimiento,discovery,发现,NOUN
@@ -409,7 +409,7 @@ enlace,link,链接,NOUN
 enojar,to anger,使生气,VERB
 ensalada,salad,沙拉,NOUN
 ensayo,essay,文章,NOUN
-enseñar,to teach,教,VERB
+imprescindible,essential,必不可少的,ADJ
 enterado,aware,知情的,ADJ
 enterrar,to bury,埋葬,VERB
 entrega,delivery,交付,NOUN
@@ -494,7 +494,7 @@ fila,row,排,NOUN
 fingir,pretend,假装,VERB
 firmar,sign,签署,VERB
 flecha,arrow,箭,NOUN
-flor,flower,花,NOUN
+inconveniente,drawback,弊端,NOUN
 flota,fleet,舰队,NOUN
 flujo,flow,流动,NOUN
 forense,forensic,法医的,ADJ
@@ -508,7 +508,7 @@ frase,sentence,句子,NOUN
 fraude,fraud,欺诈,NOUN
 frecuencia,frequency,频率,NOUN
 fresco,cool,凉爽的,ADJ
-fruta,fruit,水果,NOUN
+medioambiente,environment,环境,NOUN
 fuga,escape,逃跑,NOUN
 función,function,功能,NOUN
 furgoneta,van,面包车,NOUN
@@ -584,7 +584,7 @@ hueco,hole,洞,NOUN
 huelga,strike,罢工,NOUN
 huella,footprint,脚印,NOUN
 hueso,bone,骨头,NOUN
-huevo,egg,鸡蛋,NOUN
+medioambiental,environmental,环境的,ADJ
 humilde,humble,谦虚的,ADJ
 humo,smoke,烟,NOUN
 hígado,liver,肝脏,NOUN
@@ -638,7 +638,7 @@ inversión,investment,投资,NOUN
 investigador,investigator,研究员,NOUN
 investigar,investigate,调查,VERB
 invitación,invitation,邀请,NOUN
-invitar,invite,邀请,VERB
+ONG,NGO,非政府组织,NOUN
 inyección,injection,注射,NOUN
 izquierdo,left,左边的,ADJ
 jabón,soap,肥皂,NOUN
@@ -660,7 +660,7 @@ lanza,spear,长矛,NOUN
 lanzamiento,launch,发射,NOUN
 lanzar,throw,投掷,VERB
 lastimar,hurt,伤害,VERB
-lavar,wash,洗,VERB
+patrimonio,heritage,遗产,NOUN
 leal,loyal,忠诚的,ADJ
 lealtad,loyalty,忠诚,NOUN
 lectura,reading,阅读,NOUN
@@ -697,7 +697,7 @@ mandar,to send,发送,VERB
 mansión,mansion,豪宅,NOUN
 mantenerse,to maintain oneself,保持,VERB
 mantenimiento,maintenance,维护,NOUN
-manzana,apple,苹果,NOUN
+reivindicar,to demand,主张,VERB
 maquillaje,makeup,化妆品,NOUN
 marcar,to mark,标记,VERB
 margen,margin,边缘,NOUN
@@ -835,7 +835,7 @@ religión,religion,宗教,NOUN
 remedio,remedy,补救措施,NOUN
 renunciar,to resign,辞职,VERB
 reparar,to repair,修理,VERB
-repetir,to repeat,重复,VERB
+reivindicación,demand,诉求,NOUN
 rescate,rescue,营救,NOUN
 reserva,reservation,预订,NOUN
 resistencia,resistance,抵抗,NOUN
@@ -924,7 +924,7 @@ típico,typical,典型的,ADJ
 título,title,标题,NOUN
 túnel,tunnel,隧道,NOUN
 utilizar,use,使用,VERB
-vaca,cow,牛,NOUN
+sostenible,sustainable,可持续的,ADJ
 valle,valley,山谷,NOUN
 vecino,neighbor,邻居,NOUN
 veinte,twenty,二十,NUM
@@ -935,7 +935,7 @@ veredicto,verdict,裁决,NOUN
 vigilar,watch,监视,VERB
 violento,violent,暴力的,ADJ
 virgen,virgin,处女,NOUN
-visitar,visit,访问,VERB
+sostenibilidad,sustainability,可持续性,NOUN
 viuda,widow,寡妇,NOUN
 voluntario,volunteer,志愿者,NOUN
 víctima,victim,受害者,NOUN
@@ -946,16 +946,16 @@ zapato,shoe,鞋子,NOUN
 desear,to desire,渴望,VERB
 dudar,to doubt,怀疑,VERB
 recomendar,to recommend,推荐,VERB
-evitar,to avoid,避免,VERB
-escapar,to escape,逃跑,VERB
+solidaridad,solidarity,团结互助,NOUN
+solidario,supportive,团结互助的,ADJ
 invadir,to invade,入侵,VERB
 prohibir,to forbid,禁止,VERB
-permitir,to permit,允许,VERB
+voluntariado,volunteering,志愿服务,NOUN
 sugerir,to suggest,建议,VERB
 criticar,to criticize,批评,VERB
 lamentar,to regret,遗憾,VERB
 acompañar,to accompany,陪伴,VERB
-cenar,to have dinner,吃晚餐,VERB
+voluntaria,volunteer,女志愿者,NOUN
 almorzar,to have lunch,吃午餐,VERB
 degustar,to taste,品尝,VERB
 calentar,to heat,加热,VERB
@@ -964,21 +964,21 @@ freír,to fry,煎,VERB
 asar,to roast,烤,VERB
 cocer,to boil,煮,VERB
 batir,to beat,搅打,VERB
-planchar,to iron,熨烫,VERB
+reciclaje,recycling,回收,NOUN
 fregar,to scrub,擦洗,VERB
 barrer,to sweep,扫,VERB
 coser,to sew,缝,VERB
 tejer,to knit,编织,VERB
 bordar,to embroider,刺绣,VERB
 cortar,to cut,切,VERB
-romper,to break,打破,VERB
+reciclar,to recycle,回收利用,VERB
 atar,to tie,绑,VERB
 desatar,to untie,解开,VERB
 doblar,to fold,折叠,VERB
 envolver,to wrap,包裹,VERB
 desenvolver,to unwrap,拆开,VERB
 transportar,to transport,运输,VERB
-conducir,to drive,驾驶,VERB
+reutilizar,to reuse,再利用,VERB
 aparcar,to park,停车,VERB
 frenar,to brake,刹车,VERB
 acelerar,to accelerate,加速,VERB
@@ -991,7 +991,7 @@ caerse,to fall,摔倒,VERB
 emprender,to undertake,着手,VERB
 disculpar,to excuse,原谅,VERB
 aplazar,to postpone,推迟,VERB
-cumplir,to fulfill,履行,VERB
+contaminación,pollution,污染,NOUN
 regalar,to gift,赠送,VERB
 festejar,to celebrate,庆祝,VERB
 abrazar,to embrace,拥抱,VERB
