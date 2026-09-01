@@ -24,7 +24,7 @@ análisis,analysis,分析,NOUN
 apartamento,apartment,公寓,NOUN
 apenas,barely,几乎不,ADV
 apoyo,support,支持,NOUN
-aprender,to learn,学习,VERB
+ayuntamiento,city hall,市政厅,NOUN
 aquel,that,那个,DET
 aquella,that,那个,DET
 arena,sand,沙子,NOUN
@@ -42,9 +42,9 @@ autobús,bus,公共汽车,NOUN
 aventura,adventure,冒险,NOUN
 averiguar,to find out,查明,VERB
 azul,blue,蓝色,ADJ
-bailar,to dance,跳舞,VERB
+bolígrafo,ballpoint pen,圆珠笔,NOUN
 baile,dance,舞蹈,NOUN
-bajar,to go down,下去,VERB
+cuaderno,notebook,笔记本,NOUN
 bala,bullet,子弹,NOUN
 banco,bank,银行,NOUN
 banda,band,乐队,NOUN
@@ -78,7 +78,7 @@ camión,truck,卡车,NOUN
 campamento,camp,营地,NOUN
 campaña,campaign,运动,NOUN
 cansado,tired,累的,ADJ
-cantar,to sing,唱,VERB
+mochila,backpack,背包,NOUN
 cantidad,quantity,数量,NOUN
 carga,load,负载,NOUN
 carretera,road,公路,NOUN
@@ -140,7 +140,7 @@ conversación,conversation,对话,NOUN
 copia,copy,副本,NOUN
 coronel,colonel,上校,NOUN
 correo,mail,邮件,NOUN
-correr,to run,跑,VERB
+pizarra,blackboard,黑板,NOUN
 corriente,current,电流,NOUN
 corte,cut,切口,NOUN
 corto,short,短,ADJ
@@ -228,7 +228,7 @@ enviar,to send,发送,VERB
 escapar,to escape,逃跑,VERB
 escena,scene,场景,NOUN
 escenario,stage,舞台,NOUN
-escribir,to write,写,VERB
+estuche,pencil case,文具盒,NOUN
 escrito,written,书面的,ADJ
 esfuerzo,effort,努力,NOUN
 espada,sword,剑,NOUN
@@ -242,7 +242,7 @@ estación,station,车站,NOUN
 estilo,style,风格,NOUN
 estrella,star,星星,NOUN
 estudiante,student,学生,NOUN
-estudiar,to study,学习,VERB
+goma,eraser,橡皮,NOUN
 estudio,study,学习,NOUN
 estupendo,wonderful,极好的,ADJ
 estómago,stomach,胃,NOUN
@@ -275,7 +275,7 @@ fábrica,factory,工厂,NOUN
 fútbol,soccer,足球,NOUN
 ganado,cattle,牲畜,NOUN
 ganas,desire,愿望,NOUN
-gato,cat,猫,NOUN
+tenedor,fork,叉子,NOUN
 genio,genius,天才,NOUN
 golpe,blow,打击,NOUN
 gordo,fat,胖的,ADJ
@@ -326,11 +326,11 @@ laboratorio,laboratory,实验室,NOUN
 ladrón,thief,小偷,NOUN
 lago,lake,湖,NOUN
 lección,lesson,课程,NOUN
-leche,milk,牛奶,NOUN
-leer,read,阅读,VERB
+servilleta,napkin,餐巾纸,NOUN
+turista,tourist,游客,NOUN
 lengua,language,语言,NOUN
 licencia,license,许可证,NOUN
-limpiar,clean,打扫,VERB
+turismo,tourism,旅游业,NOUN
 limpio,clean,干净的,ADJ
 lleno,full,满的,ADJ
 llorar,cry,哭泣,VERB
@@ -344,7 +344,7 @@ líder,leader,领导者,NOUN
 lío,mess,混乱,NOUN
 magia,magic,魔法,NOUN
 mando,remote control,遥控器,NOUN
-manejar,drive,驾驶,VERB
+viajero,traveler,旅行者,NOUN
 mapa,map,地图,NOUN
 marca,brand,品牌,NOUN
 medicina,medicine,药,NOUN
@@ -360,7 +360,7 @@ mirada,look,目光,NOUN
 modelo,model,模型,NOUN
 monstruo,monster,怪物,NOUN
 montaña,mountain,山,NOUN
-mostrar,show,展示,VERB
+carnicería,butcher shop,肉店,NOUN
 motivo,reason,原因,NOUN
 motor,engine,发动机,NOUN
 mover,move,移动,VERB
@@ -386,7 +386,7 @@ obra,work,作品,NOUN
 obtener,obtain,获得,VERB
 ocupado,busy,忙碌的,ADJ
 oeste,west,西,NOUN
-ojo,eye,眼睛,NOUN
+panadería,bakery,面包店,NOUN
 opción,option,选项,NOUN
 operación,operation,手术,NOUN
 orgullo,pride,骄傲,NOUN
@@ -394,7 +394,7 @@ oscuridad,darkness,黑暗,NOUN
 oscuro,dark,黑暗的,ADJ
 paciente,patient,耐心的,ADJ
 pago,payment,付款,NOUN
-pan,bread,面包,NOUN
+frutería,fruit shop,水果店,NOUN
 paquete,package,包裹,NOUN
 parecer,seem,似乎,VERB
 parecido,similar,相似的,ADJ
@@ -434,7 +434,7 @@ política,politics,政治,NOUN
 precio,price,价格,NOUN
 precioso,beautiful,美丽的,ADJ
 preciso,precise,精确的,ADJ
-preguntar,to ask,问,VERB
+pescadería,fish market,鱼店,NOUN
 premio,prize,奖品,NOUN
 prensa,press,新闻界,NOUN
 preparar,to prepare,准备,VERB
@@ -457,10 +457,10 @@ puente,bridge,桥,NOUN
 página,page,页,NOUN
 pérdida,loss,损失,NOUN
 quedar,to stay,留下,VERB
-queso,cheese,奶酪,NOUN
+madrugar,to get up early,早起,VERB
 recibir,to receive,收到,VERB
 recoger,to pick up,捡起,VERB
-recordar,to remember,记得,VERB
+trasnochar,to stay up late,熬夜,VERB
 recuperar,to recover,恢复,VERB
 regla,rule,规则,NOUN
 reina,queen,女王,NOUN
@@ -480,7 +480,7 @@ riesgo,risk,风险,NOUN
 ritmo,rhythm,节奏,NOUN
 robar,to steal,偷窃,VERB
 robo,theft,盗窃,NOUN
-rojo,red,红色的,ADJ
+estornudar,to sneeze,打喷嚏,VERB
 romper,to break,打破,VERB
 rostro,face,脸,NOUN
 roto,broken,破碎的,ADJ
@@ -497,7 +497,7 @@ serie,series,系列,NOUN
 servir,to serve,服务,VERB
 siglo,century,世纪,NOUN
 silencio,silence,沉默,NOUN
-silla,chair,椅子,NOUN
+toser,to cough,咳嗽,VERB
 sobrevivir,to survive,幸存,VERB
 sobrina,niece,侄女,NOUN
 sociedad,society,社会,NOUN
@@ -507,11 +507,11 @@ solución,solution,解决方案,NOUN
 sombrero,hat,帽子,NOUN
 sonido,sound,声音,NOUN
 sonrisa,smile,微笑,NOUN
-sopa,soup,汤,NOUN
+despegar,to take off,起飞,VERB
 soportar,to endure,忍受,VERB
 sospechoso,suspicious,可疑的,ADJ
 suave,soft,柔软的,ADJ
-subir,to go up,上升,VERB
+facturar,to check in luggage,办理托运,VERB
 suceder,to happen,发生,VERB
 sucio,dirty,脏的,ADJ
 sur,south,南方,NOUN
@@ -529,7 +529,7 @@ teoría,theory,理论,NOUN
 tesoro,treasure,宝藏,NOUN
 testigo,witness,证人,NOUN
 tirar,to throw,扔,VERB
-tocar,to touch,触摸,VERB
+embarcar,to board,登机,VERB
 toque,touch,触碰,NOUN
 tormenta,storm,风暴,NOUN
 traer,to bring,带来,VERB
@@ -554,7 +554,7 @@ vaso,glass,玻璃杯,NOUN
 vecina,neighbor,邻居,NOUN
 vehículo,vehicle,车辆,NOUN
 velocidad,speed,速度,NOUN
-vender,to sell,卖,VERB
+regatear,to bargain,讨价还价,VERB
 venganza,revenge,复仇,NOUN
 ventaja,advantage,优势,NOUN
 verano,summer,夏天,NOUN
@@ -562,7 +562,7 @@ verdad,truth,真理,NOUN
 verde,green,绿色,ADJ
 vergüenza,shame,羞耻,NOUN
 versión,version,版本,NOUN
-viajar,travel,旅行,VERB
+aburrido,boring,无聊的,ADJ
 victoria,victory,胜利,NOUN
 viento,wind,风,NOUN
 viernes,Friday,星期五,NOUN
@@ -574,25 +574,25 @@ voluntad,will,意志,NOUN
 vuelo,flight,航班,NOUN
 vuestro,your,你们的,DET
 ángel,angel,天使,NOUN
-árbol,tree,树,NOUN
+alojarse,to lodge,住宿,VERB
 época,era,时代,NOUN
 útil,useful,有用的,ADJ
-cenar,to have dinner,吃晚饭,VERB
+hospedarse,to stay,入住,VERB
 desayunar,to have breakfast,吃早饭,VERB
-alquilar,to rent,租,VERB
-mirar,to look,看,VERB
-escuchar,to listen,听,VERB
-contestar,to answer,回答,VERB
-llevar,to wear,穿,VERB
-encontrar,to find,找到,VERB
-esperar,to wait,等待,VERB
-llegar,to arrive,到达,VERB
-ganar,to win,赢,VERB
-perder,to lose,失去,VERB
+adelgazar,to lose weight,减肥,VERB
+engordar,to gain weight,增重,VERB
+matricularse,to enroll,注册,VERB
+caducar,to expire,过期,VERB
+convalidar,to validate,认可,VERB
+tramitar,to process,办理,VERB
+solicitar,to request,申请,VERB
+empadronarse,to register,登记户籍,VERB
+desmayarse,to faint,昏倒,VERB
+cotillear,to gossip,八卦,VERB
 preferir,to prefer,更喜欢,VERB
 repetir,to repeat,重复,VERB
 besar,to kiss,吻,VERB
-cocinar,to cook,烹饪,VERB
+chismear,to gossip,闲聊,VERB
 planchar,to iron,熨烫,VERB
 mantequilla,butter,黄油,NOUN
 cuchara,spoon,勺子,NOUN
