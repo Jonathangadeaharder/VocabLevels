@@ -336,9 +336,8 @@ def _review_batch(
     try:
         model_batch = ReviewBatch.model_validate(parsed)
     except pydantic.ValidationError:
-        if isinstance(parsed, dict) and isinstance(parsed.get("rows"), list):
-            rows = parsed["rows"]
-        else:
+        rows = parsed.get("rows") if isinstance(parsed, dict) else None
+        if not isinstance(rows, list):
             raise
         model_batch = ReviewBatch(rows=[ReviewRow(**row) for row in rows])
     verdict: dict[int, ReviewRow] = {row.id: row for row in model_batch.rows}

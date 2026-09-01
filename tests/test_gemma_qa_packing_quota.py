@@ -1,6 +1,11 @@
 from __future__ import annotations
 
-from scripts.gemma_qa.packing import pack_records
+import math
+
+import pytest
+import tiktoken
+
+from scripts.gemma_qa.packing import TiktokenEstimator, pack_records
 from scripts.gemma_qa.quota import QuotaGate
 
 
@@ -48,3 +53,27 @@ def test_quota_gate_is_noop() -> None:
     assert gate.remaining_daily_requests("any") > 0
     assert gate.status("any").requests_last_minute == 0
     gate.close()
+
+
+def test_tiktoken_estimator_falls_back_when_encoding_unavailable(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    def boom(_name: str) -> None:
+        raise RuntimeError("no tokenizer on this box")
+
+    monkeypatch.setattr(tiktoken, "get_encoding", boom)
+    estimator = TiktokenEstimator()
+    assert estimator.count("abc") == max(1, math.ceil(3 / 4))
+
+
+def test_tiktoken_estimator_falls_back_when_encode_fails(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    class BrokenEncoding:
+        def encode(self, _text: str) -> int:
+            raise ValueError("tokenizer exploded")
+
+    monkeypatch.setattr(tiktoken, "get_encoding", lambda _n: BrokenEncoding())
+    estimator = TiktokenEstimator()
+    # Byte heuristic: at least one token, roughly len/4.
+    assert estimator.count("abcd" * 10) == 10
