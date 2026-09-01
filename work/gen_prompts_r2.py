@@ -158,7 +158,7 @@ def main(root: Path | None = None, round_no: str | None = None) -> None:
     total = 0
     for tgt in ORDER:
         covered = index[tgt]
-        deficits: list[tuple[int, set[tuple[str, str]]]] = []
+        deficits: list[tuple[str, int, set[tuple[str, str]]]] = []
         for src in ORDER:
             if src == tgt:
                 continue
@@ -177,12 +177,12 @@ def main(root: Path | None = None, round_no: str | None = None) -> None:
                     missing.add(key)
             need = max(0, math.ceil(0.8 * n) - eindeutig)
             if need:
-                deficits.append((need, missing))
+                deficits.append((src, need, missing))
         if not deficits:
             print(f"{tgt}: all pairs >= 80%")
             continue
         chosen: set[tuple[str, str]] = set()
-        for need, cells in sorted(deficits, key=lambda d: -d[0]):
+        for _, need, cells in sorted(deficits, key=lambda d: -d[1]):
             clean: list[tuple[str, str]] = []
             fallback: list[tuple[str, str]] = []
             for k in sorted(cells - chosen):
@@ -205,7 +205,7 @@ def main(root: Path | None = None, round_no: str | None = None) -> None:
         cell_list = sorted(chosen, key=lambda k: (canonical.get(k, k[0]), k[1]))
         print(
             f"{tgt}: {len(cell_list)} cells for "
-            f"{[f'{src}->{tgt}: {need}' for need, _ in deficits]}"
+            f"{[f'{s}->{tgt}: {need}' for s, need, _ in deficits]}"
         )
         for i in range(0, len(cell_list), CHUNK):
             part = cell_list[i : i + CHUNK]

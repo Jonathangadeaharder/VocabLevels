@@ -18,8 +18,20 @@ from scripts.expand_concepts import LANG_DIRS, normalize_gloss  # noqa: E402
 
 LEVELS = ("A1", "A2", "B1", "B2", "Advanced")
 POS_OK = {
-    "NOUN", "VERB", "ADJ", "ADV", "PRON", "ADP", "NUM", "SCONJ",
-    "INTJ", "DET", "PART", "AUX", "CONJ", "CCONJ",
+    "NOUN",
+    "VERB",
+    "ADJ",
+    "ADV",
+    "PRON",
+    "ADP",
+    "NUM",
+    "SCONJ",
+    "INTJ",
+    "DET",
+    "PART",
+    "AUX",
+    "CONJ",
+    "CCONJ",
 }
 
 
@@ -37,8 +49,9 @@ def merge(root: Path, out_dir: Path) -> None:
                             (normalize_gloss(cols[1].strip()), cols[3].strip().upper())
                         )
 
-        files = sorted(out_dir.glob(f"{code}_80*.csv")) + \
-            sorted(out_dir.glob(f"{code}_r*.csv"))
+        files = sorted(out_dir.glob(f"{code}_80*.csv")) + sorted(
+            out_dir.glob(f"{code}_r*.csv")
+        )
         if not files:
             print(f"{code}: no gemini files")
             continue

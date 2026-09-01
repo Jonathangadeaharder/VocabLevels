@@ -318,7 +318,7 @@ def succeeded_tasks(
         raise SystemExit(f"missing scale db: {db}")
     conn = sqlite3.connect(db)
     try:
-        rows = conn.execute(
+        rows: list[tuple[str, str, str | None]] = conn.execute(
             """
             SELECT language, level, output
             FROM scale_tasks

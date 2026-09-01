@@ -41,7 +41,9 @@ def main() -> None:
         state = STATE_DIRS[code]
         new_rows: list[list[str]] = []
         seen: set[tuple[str, str]] = set()
-        for line in (state / ".checkpoint.jsonl").read_text(encoding="utf-8").splitlines():
+        for line in (
+            (state / ".checkpoint.jsonl").read_text(encoding="utf-8").splitlines()
+        ):
             try:
                 ev = json.loads(line)
             except json.JSONDecodeError:
@@ -53,7 +55,15 @@ def main() -> None:
             if not gloss or key in covered or key in seen:
                 continue
             seen.add(key)
-            new_rows.append([ev.get("lemma", ""), gloss, ev.get("zh", ""), pos, ev.get("level", "B2")])
+            new_rows.append(
+                [
+                    ev.get("lemma", ""),
+                    gloss,
+                    ev.get("zh", ""),
+                    pos,
+                    ev.get("level", "B2"),
+                ]
+            )
         if new_rows:
             with path.open("a", encoding="utf-8", newline="") as handle:
                 csv.writer(handle, lineterminator="\n").writerows(new_rows)
