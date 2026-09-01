@@ -1,4 +1,4 @@
-name: SonarCloud
+name: SonarQube
 on:
   push:
     branches: [ main ]
@@ -6,17 +6,30 @@ on:
     branches: [ main ]
 jobs:
   sonar:
-    name: SonarCloud Analysis
+    name: SonarQube Analysis
     runs-on: [self-hosted, macOS, ARM64, VidiomTM]
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
       - name: Install uv
-        uses: astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff # v6
+        uses: astral-sh/setup-uv@v6
       - name: Install dependencies
         run: uv sync --frozen --no-build
       - name: Run tests with coverage
         run: uv run --frozen --no-build pytest --cov-report=xml
-      - name: SonarCloud Scan
+      - name: Wait for SonarQube
+        run: |
+          for i in $(seq 1 36); do
+            STATUS=$(curl -sf --max-time 2 http://127.0.0.1:9001/api/system/status | sed -n 's/.*"status":"\([^"]*\)".*/\1/p' || true)
+            echo "Sonar status: ${STATUS:-unreachable} ($i/36)"
+            if [ "$STATUS" = "UP" ]; then
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "::error::SonarQube at localhost:9001 never became UP"
+          exit 1
+      - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@713881670b6b3676cda39549040e2d88c70d582e # v8.2.0
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: http://127.0.0.1:9001
