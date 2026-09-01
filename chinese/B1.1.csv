@@ -500,22 +500,20 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 老板,boss,老板,NOUN
 杀人,to kill,杀人,VERB
 进城,to enter city,进城,VERB
-气,particle,气,PART
+气,air,气,NOUN
 今,today,今,NOUN
 女,woman,女,NOUN
 进来,to come in,进来,VERB
 那些,those,那些,DET
 儿,child,儿,NOUN
-面,particle,面,PART
+面,face,面,NOUN
 知,to know,知,VERB
 求,to beg,求,VERB
 报,to report,报,VERB
 管,to manage,管,VERB
 晚,late,晚,ADJ
-走吧,to go,走吧,VERB
-清,particle,清,PART
+清,clear,清,ADJ
 礼,ritual,礼,NOUN
-事吧,matter,事吧,NOUN
 样,such,样,ADJ
 过来,to come over,过来,VERB
 一笑,to smile,一笑,VERB
@@ -531,48 +529,16 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 红衣,red robe,红衣,NOUN
 路上,road,路上,NOUN
 无法,to be unable,无法,VERB
-你别,you,你别,PRON
 能够,to be able,能够,AUX
 身,body,身,NOUN
 那里,there,那里,PRON
 落,to fall,落,VERB
-好吧,alright,好吧,NOUN
+好吧,alright,好吧,INTJ
 自,from,自,ADP
-也是,also,也是,SCONJ
 一时,temporarily,一时,ADV
 怎,how,怎,ADV
 小孩,child,小孩,NOUN
-我听,I,我听,PRON
-我早,I,我早,PRON
-你难道,you,你难道,PRON
-都有,to have,都有,VERB
-还能,can still,还能,AUX
-救你,to save you,救你,VERB
-还真,indeed,还真,ADV
-你快,you,你快,PRON
-我付,to pay,我付,VERB
-给你,to give you,给你,VERB
-拦我,to stop me,拦我,VERB
-可你,you,可你,PRON
-你来,you,你来,PRON
-可他,to be,可他,VERB
-剑给,to give,剑给,VERB
-着吧,to be,着吧,VERB
-我倒,rather,我倒,ADV
-但我,but,但我,SCONJ
-对你,to,对你,ADP
-都行,to work,都行,VERB
-你要,you,你要,PRON
 好了,to finish,好了,VERB
-我走,I,我走,PRON
-从今,from,从今,ADP
-你带,to bring,你带,VERB
 治好,to cure,治好,VERB
 治病,to treat,治病,VERB
-还要,to need,还要,AUX
-都怪我,to blame,都怪我,VERB
-生在,to be born,生在,VERB
-你干,you,你干,PRON
-有人,with,有人,ADP
-我也,and,我也,SCONJ
-你都,you,你都,PRON
+

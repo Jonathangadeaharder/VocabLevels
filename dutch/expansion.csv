@@ -51,12 +51,11 @@ genegenheid,affection,喜爱,NOUN,B2
 liefdevol,affectionate,深情的,ADJ,B2
 filiaal,affiliate,附属机构,NOUN,B2
 aansluiting,affiliation,隶属关系,NOUN,B2
-bevestigen,to affirm,断言,VERB,B2
-bebossing,afforestation,植树造林,NOUN,B2
-achterkant,after,تلو,NOUN,B2
+bebost,afforested,植树造林的,ADJ,B2
+achterkant,back,背面,NOUN,B2
 nawerking,aftereffect,后遗症,NOUN,B2
-later,afterward,去后,NOUN,B2
-herhaling,again,你又,NOUN,B2
+later,afterward,后来,ADV,B2
+herhaling,repetition,重复,NOUN,B2
 agressiviteit,aggressiveness,攻击性,NOUN,B2
 wendbaar,agile,敏捷的,ADJ,B2
 wendbaarheid,agility,敏捷,NOUN,B2
@@ -74,7 +73,7 @@ algoritme,algorithm,算法,NOUN,B2
 ontvreemding,alienation,异化,NOUN,B2
 uitlijning,alignment,结盟,NOUN,B2
 alimentatie,alimony,赡养费,NOUN,B2
-alles,all,جميع,NOUN,B2
+alles,all,一切,PRON,B2
 de hele dag,all day long,一整天,NOUN,B2
 blijkbaar,allegedly,据称,ADV,B2
 allergie,allergy,过敏,NOUN,B2
@@ -135,8 +134,8 @@ angst,anxiety,焦虑,NOUN,B2
 angstig,anxious,焦虑的,ADJ,B2
 enig,any,任何,DET,B2
 iemand,anyone,任何人,PRON,B2
-ontschuldigen,to apologize,道歉,VERB,B2
-ontschuldiging,apology,道歉,NOUN,B2
+verontschuldigen,to apologize,道歉,VERB,B2
+verontschuldiging,apology,道歉,NOUN,B2
 apostasie,apostasy,叛教,NOUN,B2
 apparaat,apparatus,仪器,NOUN,B2
 appèl,appeal,呼吁,NOUN,B2
@@ -152,7 +151,7 @@ arrest,apprehension,忧虑,NOUN,B2
 leerling,apprentice,学徒,NOUN,B2
 leerperiode,apprenticeship,学徒期,NOUN,B2
 benadering,approximation,近似值,NOUN,B2
-aprikoos,apricot,杏,NOUN,B2
+abrikoos,apricot,杏,NOUN,B2
 schort,apron,围裙,NOUN,B2
 arbitreren,to arbitrate,仲裁,VERB,B2
 arbitrage,arbitration,仲裁,NOUN,B2
@@ -176,16 +175,16 @@ list,artifice,诡计,NOUN,B2
 artistisch portret,artistic portrait,艺术照,NOUN,B2
 als,as,像,ADP,B2
 alsof,as if,仿佛,ADV,B2
-zolang,as long as,طالما,CCONJ,B2
+zolang,as long as,只要,SCONJ,B2
 opstijgen,to ascend,上升,VERB,B2
 ascetisme,asceticism,苦行主义,NOUN,B2
 beschaamd,ashamed,羞愧的,ADJ,B2
 aspiratie,aspiration,抱负,NOUN,B2
 streven,to aspire,渴望,VERB,B2
-esel,ass,驴,NOUN,B2
-assassijn,assassin,刺客,NOUN,B2
-assassineren,to assassinate,暗杀,VERB,B2
-assassinatie,assassination,暗杀,NOUN,B2
+ezel,ass,驴,NOUN,B2
+sluipmoordenaar,assassin,刺客,NOUN,B2
+vermoorden,to assassinate,暗杀,VERB,B2
+moordaanslag,assassination,暗杀,NOUN,B2
 aanslag,assault,袭击,NOUN,B2
 beweren,to assert,断言,VERB,B2
 bezit,asset,资产,NOUN,B2
@@ -224,7 +223,7 @@ atypisch,atypical,非典型的,ADJ,B2
 driestheid,audacity,大胆,NOUN,B2
 auditeren,audit,审计,NOUN,B2
 auditeren,to audit,审计,VERB,B2
-auster,austere,严厉的,ADJ,B2
+streng,austere,严厉的,ADJ,B2
 austeriteit,austerity,紧缩,NOUN,B2
 authenticatie,authentication,认证,NOUN,B2
 authenticiteit,authenticity,真实性,NOUN,B2
@@ -266,7 +265,7 @@ borgsom,bail,保释,NOUN,B2
 aas,bait,诱饵,NOUN,B2
 gebalanceerd,balanced,平衡的,ADJ,B2
 ballet,ballet,芭蕾舞,NOUN,B2
-balsefeer,ballpoint pen,圆珠笔,NOUN,B2
+balpen,ballpoint pen,圆珠笔,NOUN,B2
 verbieden,to ban,禁止,VERB,B2
 banaliteit,banality,陈词滥调,NOUN,B2
 band,band,乐队,NOUN,B2
@@ -322,9 +321,9 @@ Toebehoor,belonging,归属感,NOUN,B2
 Toebehoor,belongings,所属物,NOUN,B2
 Onder,below,在...下面,ADP,B2
 Bank,bench,长凳,NOUN,B2
-Meedogenaar,benefactor,恩人,NOUN,B2
+weldoener,benefactor,恩人,NOUN,B2
 Begunstigde,beneficiary,受益人,NOUN,B2
-meedogenend,benevolent,仁慈的,ADJ,B2
+welwillend,benevolent,仁慈的,ADJ,B2
 Naast,beside next to,旁边,NOUN,B2
 belegeren,to besiege,包围,VERB,B2
 schenken,to bestow,授予,VERB,B2
@@ -496,7 +495,7 @@ chinees,chinese language,华文,NOUN,B2
 tsjilpen,to chirp,啁啾,VERB,B2
 beitel,chisel,凿子,NOUN,B2
 ridderlijkheid,chivalry,骑士精神,NOUN,B2
-haks,chop,砍,NOUN,B2
+hak,chop,砍,NOUN,B2
 chromosoom,chromosome,染色体,NOUN,B2
 kaneel,cinnamon,肉桂,NOUN,B2
 omcirkelen,to circumscribe,限制,VERB,B2
@@ -550,7 +549,7 @@ komeet,comet,彗星,NOUN,B2
 troosten,comfort,安慰,NOUN,B2
 troosten,to comfort,安慰,VERB,B2
 komisch,comic,喜剧的,ADJ,B2
-komst,coming,مجيء,NOUN,B2
+komst,coming,到来,NOUN,B2
 kom en ga,coming and going,往来,NOUN,B2
 commandocentrale,command room,指挥室,NOUN,B2
 herdenken,to commemorate,纪念,VERB,B2
@@ -576,7 +575,7 @@ compileren,to compile,编译,VERB,B2
 complementair,complementary,互补的,ADJ,B2
 concert,concert,音乐会,NOUN,B2
 leiden,conduct,行为,NOUN,B2
-leiden,to conduct,أجرى,VERB,B2
+leiden,to conduct,引导,VERB,B2
 kegel,cone,圆锥体,NOUN,B2
 confederatie,confederation,邦联,NOUN,B2
 biecht,confession,供认,NOUN,B2
@@ -682,7 +681,7 @@ vakmanschap,craftsmanship,手工艺,NOUN,B2
 kraan,crane,起重机,NOUN,B2
 kist,crate,板条箱,NOUN,B2
 krater,crater,火山口,NOUN,B2
-begeeren,to crave,渴望,VERB,B2
+begeren,to crave,渴望,VERB,B2
 schepper,creator,创造者,NOUN,B2
 krediet,credit,信用,NOUN,B2
 creditcard,credit card,信用卡,NOUN,B2
@@ -703,7 +702,7 @@ verpletteren,to crush,压碎,VERB,B2
 vernietigende nederlaag,crushing defeat,惨败,NOUN,B2
 schaaldier,crustacean,甲壳类动物,NOUN,B2
 kruk,crutch,拐杖,NOUN,B2
-gehuil,crying,,NOUN,B2
+gehuil,crying,哭泣,NOUN,B2
 kristal,crystal,水晶,NOUN,B2
 jong,cub,幼兽,NOUN,B2
 kubus,cube,立方体,NOUN,B2
@@ -783,7 +782,7 @@ despoot,despot,暴君,NOUN,B2
 despotisme,despotism,专制,NOUN,B2
 noodlot,destiny,命运,NOUN,B2
 armoede,destitution,贫困,NOUN,B2
-destructief,destructive,مدمر,ADJ,B2
+destructief,destructive,破坏性的,ADJ,B2
 losmaken,to detach,分离,VERB,B2
 losmaking,detachment,脱落,NOUN,B2
 vasthouden,to detain,拘留,VERB,B2
@@ -1121,7 +1120,7 @@ extractie,extraction,提取,NOUN,B2
 uitleveren,to extradite,引渡,VERB,B2
 extrapoleren,to extrapolate,推断,VERB,B2
 extravagantie,extravagance,奢侈,NOUN,B2
-extreem,extreme,أقصى,NOUN,B2
+extreem,extreme,极端的,ADJ,B2
 extraversie,extroversion,外向,NOUN,B2
 juichen,to exult,狂喜,VERB,B2
 jubel,exultation,欢腾,NOUN,B2
@@ -1480,7 +1479,7 @@ aarzeling,hesitation,犹豫,NOUN,B2
 heterogeen,heterogeneous,异质的,ADJ,B2
 zich verstoppen,to hide oneself,躲藏,VERB,B2
 schuilplaats,hideout,藏身处,NOUN,B2
-verstop,hiding,ٱختباء,NOUN,B2
+verstopplek,hiding place,藏匿处,NOUN,B2
 hiërarchisch,hierarchical,等级的,ADJ,B2
 middelbare school,high school,高中,NOUN,B2
 vloed,high tide,涨潮,NOUN,B2

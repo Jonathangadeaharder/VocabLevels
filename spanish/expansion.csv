@@ -157,7 +157,7 @@ galería de arte,art gallery,美术馆,NOUN,B2
 retrato artístico,artistic portrait,艺术照,NOUN,B2
 como,as,作为,SCONJ,B2
 como si,as if,仿佛,ADV,B2
-siempre que,as long as,طالما,CCONJ,B2
+siempre que,as long as,只要,CCONJ,B2
 en casa,at home,在家,ADV,B2
 al menos,at least,至少,ADV,B2
 entonces,at that time,当时,ADV,B2
@@ -361,7 +361,7 @@ informe,brief,近点说,NOUN,B2
 brillante,bright,明亮的,ADJ,B2
 brillo,brilliance,辉煌,NOUN,B2
 devolver,to bring back,带回,VERB,B2
-traída,bringing,جلب,NOUN,B2
+traída,bringing,带来,NOUN,B2
 británico,british,英国的,ADJ,B2
 britano,briton,英国人,NOUN,B2
 transmitir,broadcast,广播,NOUN,B2
@@ -759,7 +759,7 @@ escritorio,desk,书桌,NOUN,B2
 desestabilización,destabilization,动摇,NOUN,B2
 destino,destiny,命运,NOUN,B2
 indigencia,destitution,贫困,NOUN,B2
-destructivo,destructive,مدمر,ADJ,B2
+destructivo,destructive,具有破坏性的,ADJ,B2
 detallado,detailed,详细的,ADJ,B2
 detener,to detain,拘留,VERB,B2
 detective,detective,侦探,NOUN,B2
@@ -783,7 +783,7 @@ diccionario,dictionary,词典,NOUN,B2
 ataque difícil,difficult attack,难攻,NOUN,B2
 problema difícil,difficult problem,难题,NOUN,B2
 difundir,to diffuse,扩散,VERB,B2
-digirir,to digest,消化,VERB,B2
+digerir,to digest,消化,VERB,B2
 excavación,digging,挖掘,NOUN,B2
 dígito,digit,数字,NOUN,B2
 digitalización,digitization,数字化,NOUN,B2
@@ -927,7 +927,7 @@ disputa,falling out,反目,NOUN,B2
 fracaso,falling though,虽坠,NOUN,B2
 falsedad,falsehood,谎言,NOUN,B2
 falsificar,to falsify,伪造,VERB,B2
-familiaridad,familiarity,مألوف,NOUN,B2
+familiaridad,familiarity,熟悉,NOUN,B2
 miembro de la familia,family member,家庭成员,NOUN,B2
 ruina familiar,family ruin,家破,NOUN,B2
 fantasía,fantasy,幻想,NOUN,B2
@@ -961,7 +961,7 @@ feudo,feud,世仇,NOUN,B2
 pocos,few,很少的,ADJ,B2
 novio,fiance,未婚夫,NOUN,B2
 ficticio,fictional,虚构的,ADJ,B2
-quinto,fifth,خامس,ADJ,B2
+quinto,fifth,第五,ADJ,B2
 llenar,to fill in,填写,VERB,B2
 filmar,film,电影,NOUN,B2
 filmar,to film,拍摄,VERB,B2
@@ -1114,7 +1114,8 @@ salir,to go out,出去,VERB,B2
 atravesar,to go through,经历,VERB,B2
 dios de la guerra,god of war,战神,NOUN,B2
 diosa,goddess,女神,NOUN,B2
-bien,good,خير,NOUN,B2
+oro,gold,黄金,NOUN,B2
+bien,good,好,NOUN,B2
 buena suerte,good luck,好运,NOUN,B2
 buena reputación,good reputation,清誉,NOUN,B2
 guapo,good-looking,好看的,ADJ,B2
@@ -1243,7 +1244,7 @@ hermenéutico,hermeneutic,诠释学的,ADJ,B2
 oye,hey,嘿,INTJ,B2
 hola,hi,嗨,INTJ,B2
 ocultarse,to hide oneself,躲藏,VERB,B2
-ocultamiento,hiding,ٱختباء,NOUN,B2
+ocultamiento,hiding,隐藏,NOUN,B2
 jerárquico,hierarchical,等级的,ADJ,B2
 alto,high,高的,ADJ,B2
 instituto,high school,高中,NOUN,B2
@@ -1313,7 +1314,7 @@ en vano,in vain,徒劳,ADV,B2
 en el viento,in wind,临风,NOUN,B2
 por escrito,in writing,书面,NOUN,B2
 incapacidad,inability,无能,NOUN,B2
-pulgada,inch,بوصة,NOUN,B2
+pulgada,inch,英寸,NOUN,B2
 incidentalmente,incidentally,顺便地,ADV,B2
 ingresos y gastos,income and expense,收支,NOUN,B2
 entrante,incoming,进来的,ADJ,B2
@@ -1344,8 +1345,8 @@ igual que en el pasado,just as in the past,一如既往,ADV,B2
 ahora mismo,just now,刚刚,ADV,B2
 justo,just right,恰到好处,ADV,B2
 teclado,keyboard,键盘,NOUN,B2
-patar,kick,踢,NOUN,B2
-patar,to kick,踢,VERB,B2
+patada,kick,踢,NOUN,B2
+patear,to kick,踢,VERB,B2
 riñón,kidney,肾脏,NOUN,B2
 matar dos pájaros de un tiro,kill two birds with one stone,一举两得,ADJ,B2
 asesino,killer,杀手,NOUN,B2
@@ -1359,7 +1360,7 @@ nudo,knot,结,NOUN,B2
 reconocer,to know to recognize,认识,VERB,B2
 conocido,known,已知的,ADJ,B2
 trabajo,labor,劳动,NOUN,B2
-laconico,laconic,简洁的,ADJ,B2
+lacónico,laconic,简洁的,ADJ,B2
 escalera,ladder,梯子,NOUN,B2
 dama,lady,女士,NOUN,B2
 lateral,lateral,侧面的,ADJ,B2
@@ -1492,7 +1493,7 @@ mercurio,mercury,汞,NOUN,B2
 meramente,merely,仅仅,ADV,B2
 fusión,merge,合并,NOUN,B2
 meritocracia,meritocracy,精英管理,NOUN,B2
-siren,mermaid,美人鱼,NOUN,B2
+sirena,mermaid,美人鱼,NOUN,B2
 mensajero,messenger,信使,NOUN,B2
 desordenado,messy,混乱的,ADJ,B2
 metabolismo,metabolism,新陈代谢,NOUN,B2
@@ -1503,7 +1504,7 @@ falta,miss,小姐,NOUN,B2
 misión,mission,任务,NOUN,B2
 bruma,mist,薄雾,NOUN,B2
 equivocarse,to mistake,弄错,VERB,B2
-maltratar,to mistreat,أساء,VERB,B2
+maltratar,to mistreat,虐待,VERB,B2
 amante,mistress,情妇,NOUN,B2
 malinterpretar,to misunderstand,误解,VERB,B2
 malentendido,misunderstanding,误解,NOUN,B2
@@ -2611,7 +2612,7 @@ acortar,to shorten,缩短,VERB,B2
 deber,should,应该,AUX,B2
 no deber,should not,不该,AUX,B2
 pala,shovel,铲子,NOUN,B2
-santuario,shrine,مشعر,NOUN,B2
+santuario,shrine,圣所,NOUN,B2
 hermanos,siblings,兄弟姐妹,NOUN,B2
 puerta lateral,side door,侧门,NOUN,B2
 acera,sidewalk,人行道,NOUN,B2
@@ -2625,7 +2626,7 @@ señalar,to signal,示意,VERB,B2
 significado,significance,含义,NOUN,B2
 significativo,significant,重要的,ADJ,B2
 significar,to signify,意味着,VERB,B2
-silenciar,to silence,خرس,VERB,B2
+silenciar,to silence,使沉默,VERB,B2
 silencioso,silent,沉默的,ADJ,B2
 tela de seda,silk cloth,丝绸,NOUN,B2
 chica tonta,silly girl,傻丫头,NOUN,B2
@@ -2986,7 +2987,7 @@ dedo del pie,toe,脚趾,NOUN,B2
 trabajo,toil,苦工,NOUN,B2
 tolerancia,tolerance,宽容,NOUN,B2
 tolerar,to tolerate,容忍,VERB,B2
-mañana,tomorrow,غد,NOUN,B2
+mañana,tomorrow,明天,NOUN,B2
 tonelada,ton,吨,NOUN,B2
 tono,tone,语气,NOUN,B2
 lengua,tongue,舌头,NOUN,B2
@@ -3004,7 +3005,7 @@ trascendente,transcendent,卓越的,ADJ,B2
 trascendental,transcendental,先验的,ADJ,B2
 transferir,transfer,转移,NOUN,B2
 transferir,to transfer,转移,VERB,B2
-transformación,transformation,تحول,NOUN,B2
+transformación,transformation,转变,NOUN,B2
 transitorio,transitional,过渡的,ADJ,B2
 traducción,translation,翻译,NOUN,B2
 traductor,translator,译者,NOUN,B2
@@ -3076,7 +3077,7 @@ ceremonia de inauguración,unveiling ceremony,揭幕仪式,NOUN,B2
 desvoluntad,unwillingness,不甘,NOUN,B2
 indigno,unworthy,你不配,NOUN,B2
 hasta,up to,为止,ADP,B2
-próximo,upcoming,مقبل,ADJ,B2
+próximo,upcoming,即将到来的,ADJ,B2
 mejorar,to upgrade,升级,VERB,B2
 subir,to upload,上传,VERB,B2
 superior,upper,上面的,ADJ,B2
@@ -9298,7 +9299,7 @@ aristocrático,aristocratic,贵族的,ADJ,B2
 aritmético,arithmetic,算术的,ADJ,B2
 aritmética,arithmetic,算术,NOUN,B2
 armamento,armament,军火,NOUN,B2
-brazalet,armband,,NOUN,B2
+brazalete,armband,,NOUN,B2
 fuerza armada,armed force,武装力量,NOUN,B2
 fuerzas armadas,armed forces,武装力量,NOUN,B2
 blindado,armored,装甲的,ADJ,B2
@@ -9652,7 +9653,7 @@ privar,bereave,使丧亲,VERB,B2
 enlutado,bereaved,丧亲的,ADJ,B2
 baya,berry,浆果,NOUN,B2
 camarote,berth,铺位,NOUN,B2
-disparar,to beschieten,射击,VERB,B2
+disparar,to shoot,射击,VERB,B2
 suplicar,beseech,恳求,VERB,B2
 asaltar,beset,,VERB,B2
 además de,besides,除了,ADP,B2
@@ -9670,7 +9671,7 @@ mejor,better,更好,ADV,B2
 adinerado,better-off,富人,NOUN,B2
 entre nosotros,between us,在我们之间,ADP,B2
 bebida,beverage,饮料,NOUN,B2
-congelar,to bevriezen,冻结,VERB,B2
+congelar,to freeze,冻结,VERB,B2
 lamentar,bewail,哀悼,VERB,B2
 cuidar,beware,小心,VERB,B2
 desconcertar,bewilder,使困惑,VERB,B2
@@ -10351,7 +10352,7 @@ colega,colleague female,女同事,NOUN,B2
 recopilar pruebas,collect evidence,收集证据,VERB,B2
 recoger semillas,collect seeds,收集种子,VERB,B2
 recolectado,collected,收集的,ADJ,B2
-colección,collectie,收藏,NOUN,B2
+colección,collection,收藏,NOUN,B2
 colecciones,collections,收藏,NOUN,B2
 colectivo,collective,集体,NOUN,B2
 colectivismo,collectivism,集体主义,NOUN,B2
@@ -10556,7 +10557,7 @@ enrutamiento de transporte,conveyance routing,,NOUN,B2
 condenado,convict,,NOUN,B2
 convoocar,convoke,,VERB,B2
 convolucional,convolutional,,ADJ,B2
-convoi,convoy,,NOUN,B2
+convoy,convoy,,NOUN,B2
 convulsionar,convulse,,VERB,B2
 recetario,cookbook,,NOUN,B2
 sereno,cool-headed,,ADJ,B2
@@ -10725,18 +10726,18 @@ milanesa,cutlet,肉排,NOUN,B2
 cibernética,cybernetics,控制论,NOUN,B2
 ciborg,cyborg,半机械人,NOUN,B2
 ciclismo,cycling,自行车运动,NOUN,B2
-bicicleta,cykel,自行车,NOUN,B2
+bicicleta,bicycle,自行车,NOUN,B2
 checo,Czech,捷克的,ADJ,B2
 dedicarse a,dabble,涉足,VERB,B2
 teckel,dachshund,腊肠犬,NOUN,B2
 papá,dad father,爸爸,NOUN,B2
-diario,daglig,日常的,ADJ,B2
+diario,daily,日常的,ADJ,B2
 diario,daily,日报,NOUN,B2
 necesidades diarias,daily necessities,日用品,NOUN,B2
 lácteo,dairy,乳制品的,ADJ,B2
 demorar,dally,耽搁,VERB,B2
 presar,to dam up,筑坝,VERB,B2
-presa,damm,水坝,NOUN,B2
+presa,dam,水坝,NOUN,B2
 maldición,damn,诅咒,NOUN,B2
 maldito,damned,该死的,ADJ,B2
 amortiguación,damping,阻尼,NOUN,B2
@@ -10901,10 +10902,10 @@ depósitos,deposits,存款,NOUN,B2
 deprecar,deprecate,弃用,VERB,B2
 deprecación,deprecation,弃用,NOUN,B2
 depredar,depredate,掠夺,VERB,B2
-deprimiente,depressing,令人沮丧的,ADJ,B2
+deprimente,depressing,令人沮丧的,ADJ,B2
 deputar,depute,委派,VERB,B2
 delegar,to deputize,授权,VERB,B2
-derraigar,deracinate,连根拔起,VERB,B2
+desarraigar,deracinate,连根拔起,VERB,B2
 desquiciar,derange,使失常,VERB,B2
 derby,derby,德比,NOUN,B2
 deregular,deregulate,解除管制,VERB,B2
@@ -11689,7 +11690,7 @@ curable,curable,可治愈者,NOUN,B2
 toquecito,dab,轻拭,VERB,B2
 amortiguar,deaden,减弱,VERB,B2
 decadencia,decline setting,衰落背景,NOUN,B2
-citarse,dejta,约会,VERB,B1
+citarse,to date,约会,VERB,B1
 detractor,detractor,批评者,NOUN,B2
 inhabilitar,disbar,取消律师资格,VERB,Advanced
 privar del derecho de voto,disenfranchise,剥夺投票权,VERB,Advanced
@@ -12926,8 +12927,8 @@ dinero de la suerte,lucky money,压岁钱压胜钱利是,NOUN,A2
 hijo de la fortuna,lucky one,幸运之星得天独厚者,NOUN,A2
 tibieza indiferente,lukewarmness,微温冷淡不冷不热,NOUN,Advanced
 canción de cuna suave,lullaby,摇篮曲催眠催眠曲,NOUN,A2
-desviarse del tema,to abschweifen,离题偏题扯开,VERB,B2
-secar bien con paño,to abtrocken,擦干抹干揩净,VERB,B1
+desviarse del tema,to digress,离题偏题扯开,VERB,B2
+secar bien con paño,to dry off,擦干抹干揩净,VERB,B1
 estar a punto de,to almost,几乎差一点险些,VERB,A2
 ser considerado malo,to be deemed bad,被视为不良差劲,VERB,B1
 tener fortuna,to be fortunate,有幸走运吉星高照,VERB,B1
@@ -13075,18 +13076,18 @@ María,Mary,玛丽,NOUN,A1
 esposa del maestro Gao,Master Gao's wife,高师母,NOUN,B1
 maestro Li,Master Li,李师傅,NOUN,B1
 maestro Liu,Master Liu,刘师傅,NOUN,B1
-emplatado,anrichtung,摆盘,NOUN,Advanced
-participación,anteilung,份额,NOUN,B2
-demostración,aufweisung,展示,NOUN,B2
-desafío,ausforderung,挑战,NOUN,B2
-configuración,ausgestaltung,设计,NOUN,B2
-invención,aussinnung,构想,NOUN,Advanced
-transformación,auswandel,转变,NOUN,Advanced
-expulsión,ausweisung,驱逐,NOUN,B2
+emplatado,plating,摆盘,NOUN,Advanced
+participación,share,份额,NOUN,B2
+demostración,demonstration,展示,NOUN,B2
+desafío,challenge,挑战,NOUN,B2
+configuración,configuration,设计,NOUN,B2
+invención,invention,构想,NOUN,Advanced
+transformación,transformation,转变,NOUN,Advanced
+expulsión,expulsion,驱逐,NOUN,B2
 pérdida,being lost,迷失,NOUN,B1
 arrastre,being swept along,卷入,NOUN,B2
-comportamiento,benahme,行为,NOUN,B2
-reparto,beteilung,分配,NOUN,B2
+comportamiento,behavior,行为,NOUN,B2
+reparto,distribution,分配,NOUN,B2
 su traída,bringing him,带来他,NOUN,B2
 brocado,brocade,织锦,PART,Advanced
 campamento,camp,阵营,PART,B1
@@ -13098,21 +13099,21 @@ su revisión,check him,查验他,NOUN,B2
 recogida,come and take,来取,NOUN,B1
 le,completed-action particle,了,PART,Advanced
 osadía de arruinar,dare to ruin,敢于毁坏,NOUN,B2
-educación interna,einerziehung,内化教育,NOUN,Advanced
-entrada de datos,eingabe,输入,NOUN,B2
-ingreso,einnahme,收入,NOUN,B1
-objeción,einsprache,异议,NOUN,B2
-clasificación,einteilung,分类,NOUN,B2
-instrucción,einweisung,培训指导,NOUN,B2
-influencia,einwirkung,作用,NOUN,B2
-experiencia,erfahrt,经验,NOUN,B1
-prueba,erweisung,证明,NOUN,B2
-regulación principal,erzregelung,总则,NOUN,Advanced
+educación interna,internal education,内化教育,NOUN,Advanced
+entrada de datos,data entry,输入,NOUN,B2
+ingreso,income,收入,NOUN,B1
+objeción,objection,异议,NOUN,B2
+clasificación,classification,分类,NOUN,B2
+instrucción,instruction,培训指导,NOUN,B2
+influencia,influence,作用,NOUN,B2
+experiencia,experience,经验,NOUN,B1
+prueba,proof,证明,NOUN,B2
+regulación principal,main regulation,总则,NOUN,Advanced
 favorito,favorite,最喜欢的,ADJ,A1
-telecálculo,fernrechnung,远程计算,NOUN,Advanced
-pasión por viajar,fernsucht,向往远方,NOUN,Advanced
+telecálculo,remote computing,远程计算,NOUN,Advanced
+pasión por viajar,wanderlust,向往远方,NOUN,Advanced
 bandera,flag,旗帜,NOUN,A1
-división,geteilung,分割,NOUN,B2
+división,division,分割,NOUN,B2
 interpretativo,interpretive,解释性的,ADJ,B2
 luminosidad,luminosity,亮度,NOUN,B2
 nudo en la garganta,lump in throat,哽咽,NOUN,B2

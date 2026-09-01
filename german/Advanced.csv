@@ -355,7 +355,7 @@ Grafschaft,county,县,NOUN
 Kran,crane,起重机,NOUN
 Dach,roof,屋顶,NOUN
 Dachboden,attic,阁楼,NOUN
-Dads,dad,爸爸,NOUN
+Dad,dad,爸爸,NOUN
 dadurch,thereby,因此,ADV
 daheim,at home,在家,ADV
 Dampf,steam,蒸汽,NOUN
@@ -407,10 +407,8 @@ Dreieck,triangle,三角形,NOUN
 drin,inside,在里面,ADV
 Dringlichkeit,urgency,紧急,NOUN
 Getränk,drink,饮料,NOUN
-Getränke,drinks,饮料,NOUN
 dritt,third,第三,ADJ
 Drittel,third,三分之一,NOUN
-dritten,third,第三,ADJ
 Droge,drug,毒品,NOUN
 drohen,threaten,威胁,VERB
 Drohne,drone,无人机,NOUN
@@ -419,7 +417,6 @@ drängen,urge,催促,VERB
 Dschungel,jungle,丛林,NOUN
 Duft,fragrance,香味,NOUN
 Dummheit,stupidity,愚蠢,NOUN
-Dummheiten,stupid things,蠢事,NOUN
 Dunkelheit,darkness,黑暗,NOUN
 Dunkel,darkness,黑暗,NOUN
 dunkeln,darken,变暗,VERB
@@ -430,7 +427,6 @@ dynamisch,dynamic,动态的,ADJ
 dämlich,stupid,愚蠢的,ADJ
 Dämmerung,twilight,黄昏,NOUN
 Dämon,demon,恶魔,NOUN
-Dämonen,demons,恶魔,NOUN
 Dürre,drought,干旱,NOUN
 E-Mail,email,电子邮件,NOUN
 Ebene,level,水平,NOUN
@@ -598,7 +594,6 @@ Forderung,demand,要求,NOUN
 Formel,formula,公式,NOUN
 Fortpflanzung,reproduction,繁殖,NOUN
 fotografieren,to photograph,拍照,VERB
-Fr,Ms.,女士,NOUN
 fragwürdig,questionable,可疑的,ADJ
 französisch,French,法国的,ADJ
 Freibad,outdoor pool,露天游泳池,NOUN
@@ -680,20 +675,10 @@ genehmigen,to approve,批准,VERB
 genehmigt,approved,批准的,ADJ
 genervt,annoyed,恼火的,ADJ
 Genick,neck,脖颈,NOUN
-genommen,taken,拿,ADJ
 Genosse,comrade,同志,NOUN
-genossen,enjoyed,享受,ADJ
 genug,enough,足够,ADV
 Geographie,geography,地理,NOUN
-geopfert,sacrificed,牺牲,ADJ
-gepackt,packed,打包,ADJ
-geprüft,checked,检查,ADJ
-gerannt,ran,跑,ADJ
-geraucht,smoked,抽烟,ADJ
-geredet,talked,说话,ADJ
 geregelt,regulated,调节,ADJ
-gereicht,passed,递,ADJ
-gereist,traveled,旅行,ADJ
 gering,small,小的,ADJ
 Gerinnsel,clot,凝块,NOUN
 gernhaben,to like,喜欢,VERB
@@ -811,7 +796,6 @@ herholen,to fetch,取来,VERB
 herkommen,to come here,来到这里,VERB
 herrichten,to prepare,准备,VERB
 Herkunft,origin,起源,NOUN
-Herren,gentlemen,先生们,NOUN
 Herrgott,Lord God,上帝,NOUN
 Herrin,mistress,女主人,NOUN
 herrje,good heavens,天哪,INTJ
@@ -820,7 +804,6 @@ herrschen,to rule,统治,VERB
 herstellen,to produce,生产,VERB
 Herstellung,production,生产,NOUN
 herunter,down,向下,ADV
-Herzen,hearts,心,NOUN
 Herzinfarkt,heart attack,心脏病发作,NOUN
 Herzog,duke,公爵,NOUN
 Herzschlag,heartbeat,心跳,NOUN
@@ -856,7 +839,6 @@ hopp,oops,哎呀,INTJ
 hoppla,oops,哎呀,INTJ
 Horizont,horizon,地平线,NOUN
 Hotelzimmer,hotel room,酒店房间,NOUN
-Hr,Mr.,先生,NOUN
 huch,yikes,哎呀,INTJ
 hungrig,hungry,饥饿的,ADJ
 hurra,hurrah,万岁,INTJ
@@ -1207,7 +1189,6 @@ mittelmäßig,mediocre,平庸的,ADJ
 Mittäterschaft,complicity,共犯,NOUN
 mm,hmm,嗯,INTJ
 mmh,hmm,嗯,INTJ
-Mo,Mon,星期一,NOUN
 mögen,to like,喜欢,VERB
 mogeln,to cheat,作弊,VERB
 Mohr,Moor,摩尔人,NOUN
@@ -1273,7 +1254,6 @@ notfalls,if necessary,必要时,ADV
 notieren,to note,记录,VERB
 Notiz,note,笔记,NOUN
 Notstand,state of emergency,紧急状态,NOUN
-Nr,No.,编号,NOUN
 nuanciert,nuanced,细微差别的,ADJ
 nähen,to sew,缝纫,VERB
 Nähnadel,sewing needle,缝衣针,NOUN
@@ -1298,10 +1278,8 @@ Parfüm,perfume,香水,NOUN
 passend,fitting,合适的,ADJ
 patriotisch,patriotic,爱国的,ADJ
 pro,per,每,ADP
-perfekten,perfect,完美的,ADJ
 Perle,pearl,珍珠,NOUN
 Perspektive,perspective,视角,NOUN
-persönlicher,more personal,更私人的,ADJ
 Persönliches,Personal,私事,NOUN
 Pessimismus,pessimism,悲观主义,NOUN
 Pest,plague,瘟疫,NOUN
@@ -1504,10 +1482,8 @@ Sender,transmitter,发射台,NOUN
 sensibel,sensitive,敏感的,ADJ
 Serienmörder,serial killer,连环杀手,NOUN
 servieren,serve,上菜,VERB
-Setz,set,集合,NOUN
 Seufzen,sigh,叹息,NOUN
 sexuell,sexual,性的,ADJ
-Señor,Mr.,先生,NOUN
 sichern,secure,确保,VERB
 sichergehen,make sure,确保,VERB
 Sicherheitsdienst,security service,安保服务,NOUN
@@ -1622,7 +1598,7 @@ Tiefschlag,low blow,卑鄙手段,NOUN
 Tierarzt,veterinarian,兽医,NOUN
 Titel,title,标题,NOUN
 Titelmusik,theme music,主题曲,NOUN
-Titten,tits,乳房,NOUN
+Titte,tit,乳房,NOUN
 Tobsucht,rage,狂躁,NOUN
 Todesangst,mortal fear,极度恐惧,NOUN
 Todesursache,cause of death,死因,NOUN
@@ -1942,7 +1918,6 @@ Zwerg,dwarf,矮人,NOUN
 zwischenmenschlich,interpersonal,人际的,ADJ
 zögern,to hesitate,犹豫,VERB
 Ächzen,groan,呻吟,NOUN
-älteste,oldest,最老的,ADJ
 ängstlich,anxious,焦虑的,ADJ
 Ärger,trouble,麻烦,NOUN
 ärgern,to annoy,惹恼,VERB

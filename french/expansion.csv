@@ -38,17 +38,17 @@ affectueux,affectionate,深情的,ADJ,B2
 affilié,affiliate,附属机构,NOUN,B2
 affirmer,to affirm,断言,VERB,B2
 reboisement,afforestation,植树造林,NOUN,B2
-après,after,تلو,NOUN,B2
+après,after,在...之后,ADP,B2
 finalement,after all,毕竟,ADV,B2
 ensuite,after that,此后,ADV,B2
 après quoi,after which,之后,ADV,B2
 après-midi,afternoon,下午,NOUN,B2
 après,afterward,去后,NOUN,B2
 ensuite,afterwards,后来,ADV,B2
-encore,again,你又,NOUN,B2
+encore,again,再次,ADV,B2
 âge,age,年龄,NOUN,B2
 agilité,agility,敏捷,NOUN,B2
-ah,ah,水 水,PART,B2
+ah,ah,啊,INTJ,B2
 en avant,ahead,在前面,ADV,B2
 aide,aid,援助,NOUN,B2
 viser,aim,目标,NOUN,B2
@@ -115,7 +115,7 @@ artificiel,artificial,人造的,ADJ,B2
 portrait artistique,artistic portrait,艺术照,NOUN,B2
 comme,as,像,ADP,B2
 comme si,as if,仿佛,ADV,B2
-tant que,as long as,طالما,CCONJ,B2
+tant que,as long as,只要,SCONJ,B2
 dès que,as soon as,一...就,SCONJ,B2
 ainsi que,as well as,以及,CCONJ,B2
 monter,to ascend,上升,VERB,B2
@@ -426,7 +426,7 @@ passer,to come over,顺道来访,VERB,B2
 monter,to come up,出现,VERB,B2
 comète,comet,彗星,NOUN,B2
 comique,comic,喜剧的,ADJ,B2
-arrivée,coming,مجيء,NOUN,B2
+arrivée,coming,到来,NOUN,B2
 allées et venues,coming and going,往来,NOUN,B2
 salle de commandement,command room,指挥室,NOUN,B2
 commentaire,comment,评论,NOUN,B2
@@ -437,7 +437,7 @@ similitude,commonality,共同点,NOUN,B2
 roturier,commoner,平民,NOUN,B2
 communiquer,to communicate,交流,VERB,B2
 communiqué,communique,公报,NOUN,B2
-communiste,communist,شيوعي,ADJ,B2
+communiste,communist,共产主义的,ADJ,B2
 compagnonnage,companionship,陪伴,NOUN,B2
 compatissant,compassionate,有同情心的,ADJ,B2
 compatibilité,compatibility,兼容性,NOUN,B2
@@ -467,7 +467,7 @@ conditionnel,conditional,条件的,ADJ,B2
 condoler,to condole,哀悼,VERB,B2
 condoléance,condolence,哀悼,NOUN,B2
 conduire,conduct,行为,NOUN,B2
-conduire,to conduct,أجرى,VERB,B2
+conduire,to conduct,实施,VERB,B2
 confédération,confederation,邦联,NOUN,B2
 confiance,confidence,信心,NOUN,B2
 confiant,confident,自信的,ADJ,B2
@@ -555,7 +555,7 @@ s'accroupir,to crouch,蹲下,VERB,B2
 corbeau,crow,乌鸦,NOUN,B2
 défaite écrasante,crushing defeat,惨败,NOUN,B2
 crustacé,crustacean,甲壳类动物,NOUN,B2
-pleurs,crying,,NOUN,B2
+pleurs,crying,哭泣,NOUN,B2
 petit,cub,幼兽,NOUN,B2
 cube,cube,立方体,NOUN,B2
 vestige culturel,cultural relic,文物,NOUN,B2
@@ -666,7 +666,7 @@ despotisme,despotism,专制,NOUN,B2
 dessert,dessert,甜点,NOUN,B2
 déstabilisation,destabilization,动摇,NOUN,B2
 destin,destiny,命运,NOUN,B2
-destructeur,destructive,مدمر,ADJ,B2
+destructeur,destructive,破坏性的,ADJ,B2
 détenir,to detain,拘留,VERB,B2
 détective,detective,侦探,NOUN,B2
 détente,detente,缓和,NOUN,B2
@@ -938,7 +938,7 @@ extension,extension,延伸,NOUN,B2
 étendue,extent,程度,NOUN,B2
 extinction,extinction,灭绝,NOUN,B2
 extorquer,to extort,敲诈,VERB,B2
-extrême,extreme,أقصى,NOUN,B2
+extrême,extreme,极端的,ADJ,B2
 extrêmement,extremely,极其,ADV,B2
 extraversion,extroversion,外向,NOUN,B2
 œil,eye,眼睛,NOUN,B2
@@ -966,7 +966,7 @@ brouille,falling out,反目,NOUN,B2
 échec,falling though,虽坠,NOUN,B2
 mensonge,falsehood,谎言,NOUN,B2
 falsifier,to falsify,伪造,VERB,B2
-familiarité,familiarity,مألوف,NOUN,B2
+familiarité,familiarity,熟悉,NOUN,B2
 membre de la famille,family member,家庭成员,NOUN,B2
 ruine familiale,family ruin,家破,NOUN,B2
 ventilateur,fan,粉丝,NOUN,B2
@@ -993,7 +993,7 @@ parentes,female relatives,女眷,NOUN,B2
 féminisme,feminism,女权主义,NOUN,B2
 fenouil,fennel,茴香,NOUN,B2
 fermenter,to ferment,发酵,VERB,B2
-férocity,ferocity,凶猛,NOUN,B2
+férocité,ferocity,凶猛,NOUN,B2
 fertilisation,fertilization,施肥,NOUN,B2
 s'enflammer,to fester,溃烂,VERB,B2
 rapporter,to fetch,取来,VERB,B2
@@ -1003,8 +1003,8 @@ féodalisme,feudalism,封建主义,NOUN,B2
 peu,few,很少的,ADJ,B2
 fiancé,fiance,未婚夫,NOUN,B2
 fictionnel,fictional,虚构的,ADJ,B2
-férocity,fierceness,凶猛,NOUN,B2
-cinquième,fifth,خامس,ADJ,B2
+férocité,fierceness,凶猛,NOUN,B2
+cinquième,fifth,第五,ADJ,B2
 cinquante,fifty,五十,NUM,B2
 figure,figure,图形,NOUN,B2
 remplir,to fill in,填写,VERB,B2
@@ -1145,7 +1145,7 @@ entrer,to go in,进去,VERB,B2
 se connecter,to go online,上网,VERB,B2
 traverser,to go through,经历,VERB,B2
 dieu de la guerre,god of war,战神,NOUN,B2
-bien,good,خير,NOUN,B2
+bien,good,好处,NOUN,B2
 bonne chance,good luck,好运,NOUN,B2
 bonne réputation,good reputation,清誉,NOUN,B2
 beau,good-looking,好看的,ADJ,B2
@@ -1260,7 +1260,7 @@ hé,hey,嘿,INTJ,B2
 salut,hi,嗨,INTJ,B2
 se cacher,to hide oneself,躲藏,VERB,B2
 cachette,hideout,藏身处,NOUN,B2
-cachette,hiding,ٱختباء,NOUN,B2
+cachette,hiding,隐藏,NOUN,B2
 marée haute,high tide,涨潮,NOUN,B2
 supérieur,higher,更高的,ADJ,B2
 souligner,to highlight,强调,VERB,B2
@@ -1327,7 +1327,7 @@ par écrit,in writing,书面,NOUN,B2
 incapacité,inability,无能,NOUN,B2
 inapproprié,inappropriate,不恰当的,ADJ,B2
 encens,incense,香,NOUN,B2
-pouce,inch,بوصة,NOUN,B2
+pouce,inch,英寸,NOUN,B2
 incinérer,to incinerate,焚烧,VERB,B2
 incitation,incitement,煽动,NOUN,B2
 revenus et dépenses,income and expense,收支,NOUN,B2
@@ -1587,7 +1587,7 @@ matière,matter,事情,NOUN,B2
 maxime,maxim,格言,NOUN,B2
 mai,may,五月,NOUN,B2
 peut-être,maybe,也许,ADV,B2
-moi,me,لي,NOUN,B2
+moi,me,我,PRON,B2
 intervalle,meantime,同时,NOUN,B2
 cependant,meanwhile,同时,ADV,B2
 volume,volume,本,NOUN,B2

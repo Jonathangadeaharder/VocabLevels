@@ -312,13 +312,13 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 可疑,suspicious,可疑,ADJ
 可行,feasible,可行,ADJ
 司令,commanding officer,司令,NOUN
-叼,to hold in the mouth,叼,NOUN
-吃力,to entail strenuous effort,吃力,NOUN
-合伙,to act jointly,合伙,NOUN
+叼,to hold in the mouth,叼,VERB
+吃力,to entail strenuous effort,吃力,ADJ
+合伙,to act jointly,合伙,VERB
 合伙人,partner,合伙人,NOUN
-合并,to merge,合并,NOUN
-合成,to compose,合成,NOUN
-合算,worthwhile,合算,NOUN
+合并,to merge,合并,VERB
+合成,to compose,合成,VERB
+合算,worthwhile,合算,ADJ
 合约,contract,合约,NOUN
 同性恋,homosexuality,同性恋,NOUN
 同胞,compatriot,同胞,NOUN
@@ -531,7 +531,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 外伤,wound,外伤,NOUN
 下落,whereabouts,下落,NOUN
 回京,to return,回京,VERB
-症,symptom,症,PART
+症,symptom,症,NOUN
 毕,to finish,毕,VERB
 娘娘,empress,娘娘,NOUN
 之时,when,之时,ADP
@@ -541,9 +541,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 清静,quiet,清静,ADJ
 朝廷,imperial court,朝廷,NOUN
 练功,to practice,练功,VERB
-儿去,to go,儿去,VERB
 打斗,to fight,打斗,VERB
-儿对,to,儿对,ADP
 冤,to wrong,冤,VERB
 除掉,to eliminate,除掉,VERB
 府里,residence,府里,NOUN
@@ -552,21 +550,21 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 尚,still,尚,ADV
 劳,labor,劳,NOUN
 世间,world,世间,NOUN
-诚心,to mean,诚心,VERB
+诚心,sincere,诚心,ADJ
 甘心,to accept,甘心,VERB
 刺客,assassin,刺客,NOUN
 赠,to give,赠,VERB
-士,warrior,士,PART
+士,warrior,士,NOUN
 将领,general,将领,NOUN
 破开,to break open,破开,VERB
 药效,potency,药效,NOUN
-郎,sir,郎,PART
+郎,sir,郎,NOUN
 费力,laborious,费力,ADJ
 毫无,to lack,毫无,VERB
 此处,here,此处,NOUN
 攻下,to capture,攻下,VERB
 义父,godfather,义父,NOUN
-朕,I,朕,NOUN
+朕,I,朕,PRON
 谜,riddle,谜,NOUN
 仗,to fight,仗,VERB
 造反,to rebel,造反,VERB
@@ -578,29 +576,20 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 开战,to wage war,开战,VERB
 人情,favor,人情,NOUN
 惹来,to provoke,惹来,VERB
-边请,to invite,边请,VERB
 通通,all,通通,ADV
-之战,to battle,之战,VERB
-死要,to die for,死要,VERB
-更何况,to let alone,更何况,VERB
+之战,battle of,之战,NOUN
+更何况,let alone,更何况,SCONJ
 老夫,old man,老夫,NOUN
-赌一,to bet,赌一,VERB
 何人,who,何人,PRON
-谁敢,who,谁敢,NOUN
-会讨,to seek,会讨,VERB
-上药,to apply,上药,VERB
-怎会,how,怎会,AUX
-若要,if,若要,AUX
+上药,to apply medicine,上药,VERB
+怎会,how could,怎会,AUX
+若要,if wanting to,若要,SCONJ
 大皇子,prince,大皇子,NOUN
-你若,you,你若,PRON
-我若,if I,我若,SCONJ
-好歹,anyway,好歹,PRON
+好歹,anyway,好歹,ADV
 托付,to entrust,托付,VERB
-伤兵,wounded,伤兵,NOUN
+伤兵,wounded soldier,伤兵,NOUN
 有劳,to trouble,有劳,VERB
 烤羊,to roast lamb,烤羊,VERB
-你冤枉,grievance,你冤枉,NOUN
-老秦,Old Qin,老秦,NOUN
 府上,residence,府上,NOUN
-小九,Little Nine,小九,NOUN
 即刻,immediately,即刻,ADV
+

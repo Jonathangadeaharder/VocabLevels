@@ -330,10 +330,10 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 可,but,可,ADV
 可不,indeed,可不,ADV
 右,right,右,NOUN
-各位,everyone,各位,NOUN
+各位,everyone,各位,PRON
 吉他,guitar,吉他,NOUN
-同,same,同,NOUN
-同一,same,同一,NOUN
+同,same,同,ADJ
+同一,same,同一,ADJ
 同样,same,同样,ADJ
 名,name,名,NOUN
 后,after,后,ADP
@@ -475,131 +475,75 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 做到,to achieve,做到,VERB
 服,to submit,服,VERB
 跳,to jump,跳,VERB
-娘,mother,娘,PART
+娘,mother,娘,NOUN
 长大,to grow up,长大,VERB
-时,when,时,ADP
+时,when,时,NOUN
 查,to check,查,VERB
 意,intent,意,NOUN
 不多,few,不多,ADJ
 碰,to touch,碰,VERB
 病,illness,病,NOUN
-我来,to come,我来,VERB
-去吧,to go,去吧,VERB
 带去,to take,带去,VERB
-只会,only,只会,ADV
 海,sea,海,NOUN
 睡,to sleep,睡,VERB
 配,to match,配,VERB
 拿回,to take back,拿回,VERB
 追,to chase,追,VERB
-别吵,to hush,别吵,VERB
 慢点,slowly,慢点,ADV
 留下,to leave,留下,VERB
 进去,to go in,进去,VERB
 带走,to take away,带走,VERB
-先回,to return first,先回,VERB
 睡着,to fall asleep,睡着,VERB
 笔,brush,笔,NOUN
 路过,to pass by,路过,VERB
 交给,to hand over,交给,VERB
-先去,to go first,先去,VERB
 合,to close,合,VERB
-太小,too small,太小,ADJ
 那样,that way,那样,PRON
 象,like,象,ADP
-原,originally,原,PART
+原,originally,原,ADV
 星,star,星,NOUN
 通,to pass through,通,VERB
 烦,annoying,烦,ADJ
-我困,to be sleepy,我困,VERB
 干嘛,to do what,干嘛,VERB
 嘛,indeed,嘛,PART
 有的,sometimes,有的,ADV
-别动,to stay,别动,VERB
 父母,parent,父母,NOUN
-我回,I,我回,PRON
 杯,cup,杯,NOUN
 闭,to close,闭,VERB
 金,gold,金,NOUN
 转,to turn,转,VERB
 见人,to meet,见人,VERB
-数,several,数,PART
+数,several,数,DET
 救人,to save,救人,VERB
 头上,head,头上,NOUN
-要干,to do,要干,VERB
 座,seat,座,NOUN
-石,stone,石,PART
-肉,flesh,肉,PART
-只能,can only,只能,AUX
+石,stone,石,NOUN
+肉,flesh,肉,NOUN
 看到,to see,看到,VERB
 需,must,需,AUX
 找出,to find,找出,VERB
 答,to answer,答,VERB
 就是,that is,就是,SCONJ
-别哭,to not cry,别哭,VERB
 家中,home,家中,NOUN
 等等,etc,等等,NOUN
 吃饭,to eat,吃饭,VERB
-我爹,father,我爹,NOUN
-给我,to give,给我,VERB
-一回,to return,一回,VERB
-你爹,father,你爹,NOUN
-就别,to refrain,就别,VERB
-你……,you,你……,PRON
-你给,to give,你给,VERB
-再等,to wait,再等,VERB
-我错,to err,我错,VERB
-你听,to listen,你听,VERB
-等你,to await,等你,VERB
-找你,to find you,找你,VERB
-让你,let,让你,AUX
-我会,I,我会,PRON
-你真,you,你真,PRON
-我手,hand,我手,NOUN
+一回,once,一回,NOUN
 闭嘴,to shut up,闭嘴,VERB
-又来,to come again,又来,VERB
-不难,not hard,不难,ADV
+不难,not hard,不难,ADJ
 躲,to hide,躲,VERB
 找人,to find,找人,VERB
-放心吧,reassurance,放心吧,NOUN
-也要,also,也要,AUX
-你慢,you,你慢,PRON
 拿着,to hold,拿着,VERB
-干什么,to do,干什么,VERB
+干什么,to do what,干什么,VERB
 记住,to remember,记住,VERB
-都会,will,都会,AUX
-我就,then,我就,SCONJ
-而你,but,而你,SCONJ
-但他,but,但他,SCONJ
 每个,each,每个,DET
-我不信,to doubt,我不信,VERB
 选,to choose,选,VERB
-对了,to be right,对了,VERB
-他说,to say,他说,VERB
-和你,to be with,和你,VERB
-走得,to go,走得,VERB
-你好,you,你好,PRON
-就拿,to take,就拿,VERB
-好 好,good,好 好,ADJ
-都说,to say,都说,VERB
-我都,I,我都,PRON
+对了,by the way,对了,INTJ
+你好,hello,你好,INTJ
 每一,every,每一,DET
-你放心,to rest,你放心,VERB
-他是,he,他是,PRON
-你想,you,你想,PRON
-那她,she,那她,PRON
-来 来,come,来 来,SCONJ
-我打,to hit,我打,VERB
-就像,like,就像,ADP
-要想,to want,要想,AUX
-快点,to hurry,快点,VERB
-带你,to take,带你,VERB
-也对,also,也对,ADP
-去哪儿,destination,去哪儿,NOUN
-别怕,to not fear,别怕,VERB
-你该,should,你该,ADV
+就像,just like,就像,ADP
+要想,if wanting to,要想,AUX
+快点,hurry up,快点,ADV
 了吧,indeed,了吧,PART
-你没事吧,well-being,你没事吧,NOUN
 放下,to put down,放下,VERB
-这是,this is,这是,ADP
 到了,to arrive,到了,VERB
+
