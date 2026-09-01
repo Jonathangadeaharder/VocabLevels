@@ -168,7 +168,7 @@ fälla,trap,困住,VERB
 fält,field,田野,NOUN
 färdighet,skill,技能,NOUN
 fånge,prisoner,囚犯,NOUN
-föda,food,食物,VERB
+föda,food,食物,NOUN
 född,born,出生的,ADJ
 följande,following,以下的,ADJ
 följd,consequence,后果,NOUN
@@ -413,7 +413,7 @@ livstid,life sentence,无期徒刑,NOUN
 lojalitet,loyalty,忠诚,NOUN
 lokala,local,当地的,ADJ
 lossa,unload,卸载,VERB
-lurar,trick,欺骗,VERB
+lura,trick,欺骗,VERB
 lust,desire,欲望,NOUN
 lyckligt,happily,快乐地,ADV
 lyda,obey,服从,VERB
@@ -472,7 +472,7 @@ motiv,motive,动机,NOUN
 motor,engine,发动机,NOUN
 motstånd,resistance,抵抗,NOUN
 mur,wall,墙,NOUN
-my,ant,蚂蚁,NOUN
+myra,ant,蚂蚁,NOUN
 myndighet,authority,当局,NOUN
 mänsklig,human,人类的,ADJ
 mänsklighet,humanity,人类,NOUN
@@ -648,7 +648,7 @@ skilsmässa,divorce,离婚,NOUN
 skinna,shine,闪耀,VERB
 skinn,skin,皮肤,NOUN
 skjuts,ride,搭车,NOUN
-koj,fun,乐趣,NOUN
+skoj,fun,乐趣,NOUN
 sko,shoe,鞋子,NOUN
 skrika,scream,尖叫,VERB
 skrik,scream,尖叫,NOUN
@@ -762,17 +762,17 @@ sömn,sleep,睡眠,NOUN
 söta,sweet,甜的,ADJ
 sött,sweet,甜的,ADJ
 tacksam,grateful,感激的,ADJ
-takten,pace,节奏,NOUN
+takt,pace,节奏,NOUN
 talang,talent,天赋,NOUN
 tant,older woman,老妇人,NOUN
 tappa,lose,丢失,VERB
-tavlan,painting,画,NOUN
-teamet,team,团队,NOUN
+tavla,painting,画,NOUN
+team,team,团队,NOUN
 teknik,technology,技术,NOUN
 tekniskt,technically,技术上地,ADV
 teori,theory,理论,NOUN
 territorium,territory,领土,NOUN
-terroristerna,terrorists,恐怖分子们,NOUN
+terrorist,terrorist,恐怖分子,NOUN
 tillbringa,spend,度过,VERB
 tillåta,allow,允许,VERB
 tillåtelse,permission,许可,NOUN
@@ -781,7 +781,6 @@ tips,tip,提示,NOUN
 tjuv,thief,小偷,NOUN
 tjänare,servant,仆人,NOUN
 toa,toilet,厕所,NOUN
-tas,be taken,被拿走,VERB
 tok,crazy,疯狂的,ADJ
 tomt,plot,地块,NOUN
 ton,tone,语气,NOUN
@@ -818,7 +817,7 @@ tända,light,点燃,VERB
 tävling,competition,比赛,NOUN
 tåla,tolerate,忍受,VERB
 tålamod,patience,耐心,NOUN
-tårar,tears,眼泪,NOUN
+tår,tear,眼泪,NOUN
 ubåt,submarine,潜水艇,NOUN
 underligt,strangely,奇怪地,ADV
 underrättad,informed,被通知的,ADJ
@@ -890,7 +889,7 @@ väst,west,西,NOUN
 växa,grow,生长,VERB
 våga,dare,敢于,VERB
 yngre,younger,较年轻的,ADJ
-yte,surface,表面,NOUN
+yta,surface,表面,NOUN
 ytterligare,further,进一步的,ADJ
 ägare,owner,所有者,NOUN
 älskare,lover,情人,NOUN
@@ -908,7 +907,7 @@ ytterligare,further,进一步的,ADJ
 öm,tender,温柔的,ADJ
 önska,wish,希望,VERB
 önskan,wish,愿望,NOUN
-öron,ears,耳朵,NOUN
+öra,ear,耳朵,NOUN
 öva,practice,练习,VERB
 överenskommelse,agreement,协议,NOUN
 överlevande,survivor,幸存者,NOUN
@@ -1457,7 +1456,7 @@ läroplan,curriculum,课程,NOUN
 kursplan,syllabus,教学大纲,NOUN
 examination,examination,考试,NOUN
 tentamen,exam,考试,NOUN
-diploma,diploma,文凭,NOUN
+diplom,diploma,文凭,NOUN
 examen,degree,学位,NOUN
 certifikat,certificate,证书,NOUN
 behörighet,qualification,资格,NOUN
@@ -1637,7 +1636,7 @@ struktur,structure,结构,NOUN
 system,system,系统,NOUN
 ordning,order,秩序,NOUN
 oreda,disorder,混乱,NOUN
-grunden,foundation,基础,NOUN
+grund,foundation,基础,NOUN
 fundament,foundation,根基,NOUN
 bas,base,基础,NOUN
 utgångspunkt,starting point,出发点,NOUN
@@ -1761,7 +1760,6 @@ kompromiss,compromise,妥协,NOUN
 medgivande,consent,同意,NOUN
 samtycke,consent,同意,NOUN
 godkännande,approval,批准,NOUN
-tilstånd,permission,许可,NOUN
 tillstånd,permission,许可,NOUN
 förbud,ban,禁令,NOUN
 åtgärd,measure,措施,NOUN

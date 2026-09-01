@@ -346,9 +346,9 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 可笑,ridiculous,可笑,ADJ
 可能性,possibility,可能性,NOUN
 台风,typhoon,台风,NOUN
-叹气,to sigh,叹气,NOUN
-合身,well-fitting (of clothes),合身,NOUN
-吉祥,lucky,吉祥,NOUN
+叹气,to sigh,叹气,VERB
+合身,well-fitting (of clothes),合身,ADJ
+吉祥,lucky,吉祥,ADJ
 同伴,companion,同伴,NOUN
 同志,comrade,同志,NOUN
 名单,list,名单,NOUN
@@ -518,9 +518,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 孩儿,child,孩儿,NOUN
 有力,powerful,有力,ADJ
 止,to stop,止,VERB
-伤得,to wound,伤得,VERB
 搜,to search,搜,VERB
-杀你,to kill you,杀你,VERB
 轻易,easy,轻易,ADJ
 马车,carriage,马车,NOUN
 应当,should,应当,AUX
@@ -530,7 +528,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 城门,city gate,城门,NOUN
 后母,stepmother,后母,NOUN
 绑,to bind,绑,VERB
-击,strike,击,NOUN
+击,strike,击,VERB
 出城,to depart,出城,VERB
 退出,to withdraw,退出,VERB
 招牌,signboard,招牌,NOUN
@@ -538,9 +536,9 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 客,guest,客,NOUN
 大名,full name,大名,NOUN
 贼,thief,贼,NOUN
-好象,likeness,好象,NOUN
+好象,seemingly,好象,ADV
 犯,to commit,犯,VERB
-一身,to be,一身,VERB
+一身,whole body,一身,NOUN
 人心,morale,人心,NOUN
 跟随,to follow,跟随,VERB
 失,to lose,失,VERB
@@ -550,16 +548,15 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 曾,once,曾,ADV
 小子,boy,小子,NOUN
 大军,army,大军,NOUN
-定会,will surely,定会,AUX
 高处,height,高处,NOUN
-池,pool,池,PART
+池,pool,池,NOUN
 赌,to bet,赌,VERB
-细,detail,细,NOUN
+细,fine,细,ADJ
 说法,claim,说法,NOUN
 众,crowd,众,NOUN
 死去,to die,死去,VERB
 解开,to untie,解开,VERB
-端,end,端,PART
+端,end,端,NOUN
 废,to depose,废,VERB
 拦住,to block,拦住,VERB
 某些,certain,某些,DET
@@ -568,40 +565,19 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 城中,city,城中,NOUN
 善,good,善,ADJ
 狠,fierce,狠,ADJ
-可别,don't,可别,AUX
 沉,to sink,沉,VERB
-再好,better,再好,ADJ
-武,martial,武,PART
+武,martial,武,NOUN
 来人,visitor,来人,NOUN
-你管,to mind,你管,VERB
 那倒,then,那倒,ADV
 在此,to be here,在此,VERB
 明日,tomorrow,明日,NOUN
 丫头,girl,丫头,NOUN
 容,to allow,容,VERB
-你可算,to finally,你可算,VERB
-事我,matter,事我,NOUN
-她定,she,她定,PRON
 那日,that day,那日,NOUN
-水 水,ah,水 水,PART
-你为,you,你为,PRON
-便会,will,便会,AUX
-我不杀你,I,我不杀你,PRON
 亲眼,personally,亲眼,ADV
 罪,sin,罪,NOUN
-您真,you,您真,NOUN
 挖出,to dig,挖出,VERB
 此刻,now,此刻,NOUN
-再拿,to take,再拿,VERB
-我笑,to laugh,我笑,VERB
-那要,to need,那要,VERB
 务,to do,务,VERB
-记不,to remember,记不,VERB
-我听话,obedience,我听话,NOUN
-派人,to send,派人,VERB
-害你,to harm you,害你,VERB
-用得,to need,用得,VERB
-连你,even you,连你,PRON
-别丢下,to not abandon,别丢下,VERB
-去追,to pursue,去追,VERB
-放我,to release me,放我,VERB
+派人,to send someone,派人,VERB
+

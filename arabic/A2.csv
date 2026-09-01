@@ -598,80 +598,80 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 خلف,behind,在...后面,ADP
 بين,between,在...之间,ADP
 لدى,at,在...处,ADP
-شخص,person,شخص,NOUN
-وجد,to find,وجد,VERB
-دون,below,دون,NOUN
-جعل,to make,جعل,VERB
-و,and,و,CCONJ
-حسن,goodness,حسن,NOUN
-أصبح,to become,أصبح,VERB
-أو,or,أو,CCONJ
-بدا,to begin,بدا,VERB
-ٱعتقد,to believe,ٱعتقد,VERB
-ألا,lest,ألا,SCONJ
-مال,money,مال,NOUN
-أسف,regret,أسف,NOUN
-شكل,shape,شكل,NOUN
-نظر,to look,نظر,VERB
-صديق,friend,صديق,NOUN
-قابل,to meet,قابل,VERB
-أعلم,knowledge,أعلم,NOUN
-كبير,big,كبير,ADJ
-أيض,also,أيض,NOUN
-أخرى,other,أخرى,ADJ
-أتى,to come,أتى,VERB
-تم,to be done,تم,VERB
-نوع,type,نوع,NOUN
-فقط,only,فقط,ADV
-ها,she,ها,PRON
-وجود,existence,وجود,NOUN
-إله,god,إله,NOUN
-غيل,mist,غيل,NOUN
-جانب,side,جانب,NOUN
-هم,concern,هم,NOUN
-ٱحتاج,to need,ٱحتاج,VERB
-جميل,beauty,جميل,NOUN
-خير,good,خير,NOUN
-رحل,to depart,رحل,VERB
-ربما,perhaps,ربما,ADV
-تغيير,change,تغيير,NOUN
-ذات,self,ذات,NOUN
-فتاة,girl,فتاة,NOUN
-ٱسم,name,ٱسم,NOUN
-ساعة,hour,ساعة,NOUN
-هيا,to come,هيا,VERB
-رب,lord,رب,NOUN
-نبات,plant,نبات,NOUN
-ثاني,second,ثاني,ADJ
-جزء,part,جزء,NOUN
-جليدي,icy,جليدي,ADJ
-عيش,bread,عيش,NOUN
-لعنة,curse,لعنة,NOUN
-جنس,sex,جنس,NOUN
-ذو,one,ذو,NOUN
-ملهى,entertainment,ملهى,NOUN
-واقع,reality,واقع,NOUN
-جوي,aerial,جوي,ADJ
-حد,limit,حد,NOUN
-بعض,some,بعض,ADJ
-عودة,return,عودة,NOUN
-جيد,good,جيد,ADJ
-والد,father,والد,NOUN
-مارس,to practice,مارس,VERB
-ٱمرأة,woman,ٱمرأة,NOUN
-درى,to know,درى,VERB
-كية,cake,كية,NOUN
-هلا,hello,هلا,PART
-أكبر,biggest,أكبر,ADJ
-أدى,to lead,أدى,VERB
-سوى,other,سوى,NOUN
-معا,together,معا,ADV
-أهم,to emphasize,أهم,VERB
-نساء,woman,نساء,NOUN
-أفضل,best,أفضل,ADJ
-ٱلتقى,to meet,ٱلتقى,VERB
-ثوب,garment,ثوب,NOUN
-ٱرتدى,to wear,ٱرتدى,VERB
-أرجواني,purple,أرجواني,NOUN
-سيدة,lady,سيدة,NOUN
-رحيل,departure,رحيل,NOUN
+شخص,person,人,NOUN
+وجد,to find,找到,VERB
+دون,without,无 / 没有,ADP
+جعل,to make,使 / 让,VERB
+و,and,和,CCONJ
+حسن,goodness,善 / 优良,NOUN
+أصبح,to become,成为,VERB
+أو,or,或者,CCONJ
+بدا,to appear,显现 / 显得,VERB
+ٱعتقد,to believe,相信 / 认为,VERB
+ألا,lest,以免,SCONJ
+مال,money,金钱,NOUN
+أسف,regret,遗憾,NOUN
+شكل,shape,形状,NOUN
+نظر,to look,看,VERB
+صديق,friend,朋友,NOUN
+قابل,to meet,遇见 / 会面,VERB
+أعلم,to inform,告知,VERB
+كبير,big,大的,ADJ
+أيضا,also,也,ADV
+أخرى,other,其他的,ADJ
+أتى,to come,来,VERB
+تم,to be completed,完成,VERB
+نوع,type,种类,NOUN
+فقط,only,仅仅,ADV
+ها,she,她,PRON
+وجود,existence,存在,NOUN
+إله,god,神,NOUN
+غيل,thicket,灌木丛,NOUN
+جانب,side,方面 / 侧面,NOUN
+هم,concern,忧虑,NOUN
+ٱحتاج,to need,需要,VERB
+جميل,beautiful,美丽的,ADJ
+خير,goodness,善良 / 善行,NOUN
+رحل,to depart,出发 / 离开,VERB
+ربما,perhaps,也许,ADV
+تغيير,change,改变,NOUN
+ذات,self,自身,NOUN
+فتاة,girl,少女,NOUN
+ٱسم,name,名字,NOUN
+ساعة,hour,小时,NOUN
+هيا,come on,快点 / 来吧,INTJ
+رب,lord,主,NOUN
+نبات,plant,植物,NOUN
+ثاني,second,第二,ADJ
+جزء,part,部分,NOUN
+جليدي,icy,冰冷的,ADJ
+عيش,bread,面包,NOUN
+لعنة,curse,诅咒,NOUN
+جنس,gender,性别,NOUN
+ذو,possessor,具有...的人,NOUN
+ملهى,entertainment venue,娱乐场所 / 夜总会,NOUN
+واقع,reality,现实,NOUN
+جوي,aerial,空中的,ADJ
+حد,limit,界限,NOUN
+بعض,some,一些,DET
+عودة,return,返回,NOUN
+جيد,good,好的,ADJ
+والد,father,父亲,NOUN
+مارس,to practice,从事 / 练习,VERB
+ٱمرأة,woman,女人,NOUN
+درى,to know,知道,VERB
+كعكة,cake,蛋糕,NOUN
+هلا,hello,你好,INTJ
+أكبر,bigger,更大的,ADJ
+أدى,to lead to,导致 / 执行,VERB
+سوى,except,除...之外,ADP
+معا,together,一起,ADV
+أهم,more important,更重要的,ADJ
+نساء,women,妇女,NOUN
+أفضل,best,最好的,ADJ
+ٱلتقى,to meet,相遇,VERB
+ثوب,garment,长袍 / 衣服,NOUN
+ٱرتدى,to wear,穿戴,VERB
+أرجواني,purple,紫色的,ADJ
+سيدة,lady,女士,NOUN
+رحيل,departure,离去,NOUN

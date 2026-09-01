@@ -508,7 +508,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 重伤,to wound,重伤,VERB
 冠,crown,冠,NOUN
 奸,treachery,奸,NOUN
-戏阳,Xi Yang,戏阳,NOUN
 嫁人,to marry,嫁人,VERB
 至,until,至,ADP
 梳,to comb,梳,VERB
@@ -531,10 +530,10 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 心思,thought,心思,NOUN
 朝堂,court,朝堂,NOUN
 看透,to see through,看透,VERB
-嫂,sister-in-law,嫂,PART
+嫂,sister-in-law,嫂,NOUN
 顺子,sequence,顺子,NOUN
 更衣,to change clothes,更衣,VERB
-兄,brother,兄,PART
+兄,brother,兄,NOUN
 报仇,to avenge,报仇,VERB
 肆,to be reckless,肆,VERB
 岂,how,岂,ADV
@@ -555,9 +554,8 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 刑部,Ministry of Justice,刑部,NOUN
 冠礼,capping ceremony,冠礼,NOUN
 皇,emperor,皇,NOUN
-郃弟,Brother He,郃弟,NOUN
 义子,adopted son,义子,NOUN
-父,father,父,PART
+父,father,父,NOUN
 儿臣,your son,儿臣,NOUN
 皇家,imperial family,皇家,NOUN
 手伤,hand wound,手伤,NOUN
@@ -567,11 +565,8 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 庄主,manor lord,庄主,NOUN
 放肆,impudent,放肆,ADJ
 师娘,master's wife,师娘,NOUN
-我乃,I,我乃,PRON
 边关,frontier,边关,NOUN
-禀陛下,to report,禀陛下,VERB
-之事,matter,之事,NOUN
-罢了,to suffice,罢了,VERB
+罢了,that's all,罢了,PART
 南关,south gate,南关,NOUN
-凌少,to be,凌少,VERB
 嫂嫂,sister-in-law,嫂嫂,NOUN
+

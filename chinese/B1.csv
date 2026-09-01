@@ -1001,13 +1001,13 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 突然地,suddenly,突然地,ADV
 杀人,to kill,杀人,VERB
 进城,to enter city,进城,VERB
-气,particle,气,PART
+气,air,气,NOUN
 今,today,今,NOUN
 女,woman,女,NOUN
 进来,to come in,进来,VERB
 那些,those,那些,DET
 儿,child,儿,NOUN
-面,particle,面,PART
+面,face,面,NOUN
 知,to know,知,VERB
 求,to beg,求,VERB
 丞相,chancellor,丞相,NOUN
@@ -1016,17 +1016,14 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 管,to manage,管,VERB
 晚,late,晚,ADJ
 寸,inch,寸,NOUN
-走吧,to go,走吧,VERB
 言,to speak,言,VERB
 虽,although,虽,ADP
 重伤,to wound,重伤,VERB
-清,particle,清,PART
+清,clear,清,ADJ
 冠,crown,冠,NOUN
 礼,ritual,礼,NOUN
 奸,treachery,奸,NOUN
-戏阳,Xi Yang,戏阳,NOUN
 嫁人,to marry,嫁人,VERB
-事吧,matter,事吧,NOUN
 样,such,样,ADJ
 过来,to come over,过来,VERB
 至,until,至,ADP
@@ -1058,16 +1055,15 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 射落,to shoot down,射落,VERB
 山崖,cliff,山崖,NOUN
 生死,life and death,生死,NOUN
-你别,you,你别,PRON
 征战,campaign,征战,NOUN
 军中,army,军中,NOUN
 心思,thought,心思,NOUN
 朝堂,court,朝堂,NOUN
 看透,to see through,看透,VERB
-嫂,sister-in-law,嫂,PART
+嫂,sister-in-law,嫂,NOUN
 顺子,sequence,顺子,NOUN
 更衣,to change clothes,更衣,VERB
-兄,brother,兄,PART
+兄,brother,兄,NOUN
 报仇,to avenge,报仇,VERB
 肆,to be reckless,肆,VERB
 能够,to be able,能够,AUX
@@ -1077,7 +1073,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 本事,skill,本事,NOUN
 虚名,empty fame,虚名,NOUN
 落,to fall,落,VERB
-好吧,alright,好吧,NOUN
+好吧,alright,好吧,INTJ
 阻拦,to block,阻拦,VERB
 治,to govern,治,VERB
 战败,to defeat,战败,VERB
@@ -1085,7 +1081,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 遭遇,encounter,遭遇,NOUN
 相,mutual,相,ADJ
 自,from,自,ADP
-也是,also,也是,SCONJ
 立下,to establish,立下,VERB
 然,to be so,然,VERB
 一时,temporarily,一时,ADV
@@ -1097,58 +1092,23 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 刑部,Ministry of Justice,刑部,NOUN
 冠礼,capping ceremony,冠礼,NOUN
 皇,emperor,皇,NOUN
-郃弟,Brother He,郃弟,NOUN
 义子,adopted son,义子,NOUN
-父,father,父,PART
+父,father,父,NOUN
 儿臣,your son,儿臣,NOUN
 皇家,imperial family,皇家,NOUN
 小孩,child,小孩,NOUN
 手伤,hand wound,手伤,NOUN
 妾室,concubine,妾室,NOUN
 匕首,dagger,匕首,NOUN
-我听,I,我听,PRON
-我早,I,我早,PRON
-你难道,you,你难道,PRON
-都有,to have,都有,VERB
-还能,can still,还能,AUX
 将士,soldier,将士,NOUN
-救你,to save you,救你,VERB
-还真,indeed,还真,ADV
-你快,you,你快,PRON
-我付,to pay,我付,VERB
-给你,to give you,给你,VERB
-拦我,to stop me,拦我,VERB
-可你,you,可你,PRON
 庄主,manor lord,庄主,NOUN
-你来,you,你来,PRON
-可他,to be,可他,VERB
-剑给,to give,剑给,VERB
-着吧,to be,着吧,VERB
 放肆,impudent,放肆,ADJ
-我倒,rather,我倒,ADV
-但我,but,但我,SCONJ
-对你,to,对你,ADP
-都行,to work,都行,VERB
 师娘,master's wife,师娘,NOUN
-你要,you,你要,PRON
-我乃,I,我乃,PRON
 好了,to finish,好了,VERB
-我走,I,我走,PRON
-从今,from,从今,ADP
 边关,frontier,边关,NOUN
-你带,to bring,你带,VERB
 治好,to cure,治好,VERB
 治病,to treat,治病,VERB
-还要,to need,还要,AUX
-禀陛下,to report,禀陛下,VERB
-都怪我,to blame,都怪我,VERB
-之事,matter,之事,NOUN
-罢了,to suffice,罢了,VERB
-生在,to be born,生在,VERB
-你干,you,你干,PRON
+罢了,that's all,罢了,PART
 南关,south gate,南关,NOUN
-有人,with,有人,ADP
-我也,and,我也,SCONJ
-你都,you,你都,PRON
-凌少,to be,凌少,VERB
 嫂嫂,sister-in-law,嫂嫂,NOUN
+

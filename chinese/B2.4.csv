@@ -231,10 +231,10 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 叮嘱,urge,叮嘱,VERB
 可卡因,cocaine,可卡因,NOUN
 可观,considerable,可观,ADJ
-号召,to call,号召,NOUN
+号召,to call,号召,VERB
 司法,judicial,司法,NOUN
-各抒己见,everyone gives their own view,各抒己见,NOUN
-合乎,to accord with,合乎,NOUN
+各抒己见,everyone gives their own view,各抒己见,VERB
+合乎,to accord with,合乎,VERB
 名副其实,worthy of the name,名副其实,ADJ
 名誉,reputation,名誉,NOUN
 后勤,logistics,后勤,NOUN
@@ -502,9 +502,8 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 怪罪,to blame,怪罪,VERB
 枉,to wrong,枉,VERB
 敢问,to ask,敢问,VERB
-何尝,to ever,何尝,VERB
-鹤,crane,鹤,PART
-云放,to release,云放,VERB
+何尝,to ever,何尝,ADV
+鹤,crane,鹤,NOUN
 发难,to attack,发难,VERB
 药池,medicine pool,药池,NOUN
 战功,merit,战功,NOUN
@@ -521,7 +520,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 联姻,to intermarry,联姻,VERB
 捕头,constable,捕头,NOUN
 贸然,rashly,贸然,ADV
-乎,who,乎,PRON
+乎,question particle,乎,PART
 心诀,mantra,心诀,NOUN
 官差,constable,官差,NOUN
 福晋,consort,福晋,NOUN
@@ -547,60 +546,43 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 顽抗,defiant,顽抗,ADJ
 攻城,siege,攻城,NOUN
 退兵,retreat,退兵,NOUN
-陛,to ascend,陛,VERB
-勇善,to be brave,勇善,VERB
+陛,steps to the throne,陛,NOUN
+勇善,brave and good,勇善,ADJ
 母后,empress dowager,母后,NOUN
 嬷嬷,nanny,嬷嬷,NOUN
 伏兵,ambush,伏兵,NOUN
 服侍,service,服侍,NOUN
 险境,peril,险境,NOUN
 耽搁,to delay,耽搁,VERB
-暗讯,to signal,暗讯,VERB
+暗讯,secret message,暗讯,NOUN
 镖,escort,镖,NOUN
-莫非,to suppose,莫非,VERB
+莫非,is it possible that,莫非,ADV
 剑柄,hilt,剑柄,NOUN
 过兵,to pass,过兵,VERB
 恩兄,brother,恩兄,NOUN
-玉大,jade,玉大,NOUN
 武当,Wudang,武当,NOUN
-娇龙……,Jiaolong,娇龙……,NOUN
-刘爷,Master Liu,刘爷,NOUN
-这碧,jade,这碧,NOUN
 蹊跷,strange,蹊跷,ADJ
-你盗,theft,你盗,NOUN
-娇龙,Jiaolong,娇龙,NOUN
-碰女,to touch,碰女,VERB
 败将,defeated general,败将,NOUN
-里何尝,to ever,里何尝,VERB
 神拳,divine fist,神拳,NOUN
 迷香,incense,迷香,NOUN
 解方,remedy,解方,NOUN
-紫阴针,purple needle,紫阴针,NOUN
 垂成,to nearly succeed,垂成,VERB
-凤字营,phoenix camp,凤字营,NOUN
 中箭,to be hit,中箭,VERB
 社稷,state,社稷,NOUN
-做派,to behave,做派,VERB
+做派,behavior,做派,NOUN
 又何,why,又何,ADV
 畏,to fear,畏,VERB
 子民,subject,子民,NOUN
-却落得,to end up,却落得,VERB
-你莫要,you,你莫要,PRON
-无凭,to lack,无凭,VERB
-甘,to accept,甘,VERB
+无凭,unfounded,无凭,ADJ
+甘,willing,甘,ADJ
 加冠,to crown,加冠,VERB
 奸细,spy,奸细,NOUN
 头颅,head,头颅,NOUN
-庄大人,lord,庄大人,NOUN
-冠之,crown,冠之,NOUN
-随歌,to follow,随歌,VERB
-争权,to vie,争权,VERB
-受委,to accept,受委,VERB
+争权,to vie for power,争权,VERB
 喊杀,to shout,喊杀,VERB
-凤随歌,Feng Suige,凤随歌,NOUN
-将死,to die,将死,VERB
+将死,dying,将死,ADJ
 国色,beauty,国色,NOUN
 动筷,to use chopsticks,动筷,VERB
-正念山庄,Mindfulness Villa,正念山庄,NOUN
 国书,credentials,国书,NOUN
-难不成,could it be,难不成,ADJ
+难不成,could it be,难不成,ADV
+
