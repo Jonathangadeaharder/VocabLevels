@@ -14,7 +14,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 主动,active,主动,ADJ
 主意,idea,主意,NOUN
 举办,to hold,举办,VERB
-之,of,之,PART
 乒乓球,table tennis,乒乓球,NOUN
 乘坐,to ride,乘坐,VERB
 也许,perhaps,也许,ADV
@@ -34,7 +33,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 仔细,careful,仔细,ADJ
 代替,to replace,代替,VERB
 代表,representative,代表,NOUN
-以,to use,以,VERB
 价格,price,价格,NOUN
 任何,any,任何,PRON
 任务,task,任务,NOUN
@@ -591,51 +589,197 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 万一,just in case,万一,SCONJ
 慢慢,slowly,慢慢,ADV
 很快,quickly,很快,ADV
-打,to hit,打,VERB
 狐狸,fox,狐狸,NOUN
-这样,this way,这样,PRON
 见,to see,见,VERB
-若,if,若,ADP
-陛下,Your Majesty,陛下,NOUN
 被,by,被,ADP
 该,should,该,AUX
-早,early,早,ADV
-这里,here,这里,PRON
 找到,to find,找到,VERB
-此,this,此,PRON
-未,not yet,未,ADV
 活,to live,活,VERB
-必,must,必,AUX
-营,camp,营,NOUN
-道,to say,道,VERB
-府,mansion,府,NOUN
-许,to permit,许,VERB
 替,to replace,替,VERB
-话,word,话,NOUN
 帮,to help,帮,VERB
-子,son,子,NOUN
-母,mother,母,NOUN
 就算,even if,就算,SCONJ
-那么,so,那么,ADV
 真的,really,真的,ADV
-一点,a little,一点,ADV
-战,to fight,战,VERB
-叔父,uncle,叔父,NOUN
 起,to rise,起,VERB
 的话,if,的话,PART
-宝剑,sword,宝剑,NOUN
 记,to remember,记,VERB
 边,side,边,NOUN
 送给,to give,送给,VERB
-这些,these,这些,DET
 日子,day,日子,NOUN
 步,to step,步,VERB
-药材,herb,药材,NOUN
-振,to shake,振,VERB
-眼下,present,眼下,NOUN
-失忆,to lose one's memory,失忆,VERB
-若是,if,若是,SCONJ
 身边,side,身边,NOUN
 放开,to release,放开,VERB
-山庄,villa,山庄,NOUN
-方才,moment,方才,NOUN
+进来,to come in,进来,VERB
+晚,late,晚,ADJ
+过来,to come over,过来,VERB
+跑,to run,跑,VERB
+能够,to be able,能够,AUX
+老鼠,rat,老鼠,NOUN
+聚会,gathering,聚会,NOUN
+肌肉,muscle,肌肉,NOUN
+肥皂,soap,肥皂,NOUN
+肩膀,shoulder,肩膀,NOUN
+肺,lung,肺,NOUN
+胃,stomach,胃,NOUN
+背,back,背,NOUN
+胡同,alley,胡同,NOUN
+胡说,to talk nonsense,胡说,VERB
+胳膊,arm,胳膊,NOUN
+胶水,glue,胶水,NOUN
+胸,chest,胸,NOUN
+脑袋,head,脑袋,NOUN
+脖子,neck,脖子,NOUN
+腰,waist,腰,NOUN
+臭,smelly,臭,ADJ
+舅舅,maternal uncle,舅舅,NOUN
+舌头,tongue,舌头,NOUN
+节,festival,节,NOUN
+花生,peanut,花生,NOUN
+蔬菜,vegetable,蔬菜,NOUN
+薄,thin,薄,ADJ
+蛇,snake,蛇,NOUN
+蜜蜂,bee,蜜蜂,NOUN
+蜡烛,candle,蜡烛,NOUN
+蝴蝶,butterfly,蝴蝶,NOUN
+要不,otherwise,要不,PART
+要是,if,要是,PART
+豆腐,tofu,豆腐,NOUN
+赶快,quickly,赶快,ADV
+赶紧,hurriedly,赶紧,ADV
+踩,to step on,踩,VERB
+车库,garage,车库,NOUN
+辣椒,chili pepper,辣椒,NOUN
+运气,luck,运气,NOUN
+迷路,to lose one's way,迷路,VERB
+退,to retreat,退,VERB
+逃,to escape,逃,VERB
+邮局,post office,邮局,NOUN
+酒吧,bar,酒吧,NOUN
+酱油,soy sauce,酱油,NOUN
+醋,vinegar,醋,NOUN
+重,heavy,重,ADJ
+钟,clock,钟,NOUN
+铃,bell,铃,NOUN
+锁,lock,锁,NOUN
+锅,pot,锅,NOUN
+闻,smell,闻,VERB
+零钱,change,零钱,NOUN
+零食,snack,零食,NOUN
+雷,thunder,雷,NOUN
+项链,necklace,项链,NOUN
+食物,food,食物,NOUN
+餐厅,restaurant,餐厅,NOUN
+馒头,steamed bun,馒头,NOUN
+骨头,bone,骨头,NOUN
+鸽子,pigeon,鸽子,NOUN
+黄瓜,cucumber,黄瓜,NOUN
+一家人,whole family,一家人,NOUN
+三明治,sandwich,三明治,NOUN
+三角,triangle,三角,NOUN
+上周,last week,上周,NOUN
+上床,to go to bed,上床,VERB
+上楼,to go upstairs,上楼,VERB
+上次,last time,上次,NOUN
+下周,next week,下周,NOUN
+下次,next time,下次,NOUN
+下班,get off work,下班,VERB
+不同,different,不同,ADJ
+不够,not enough,不够,ADJ
+不敢,dare not,不敢,VERB
+不用,no need,不用,AUX
+不管怎样,anyway,不管怎样,ADV
+不行,won't do,不行,ADJ
+不错,not bad,不错,ADJ
+之前,before,之前,ADP
+之后,after,之后,ADP
+之间,between,之间,ADP
+亲人,relative,亲人,NOUN
+人们,people,人们,NOUN
+什么样,what kind,什么样,PRON
+但,but,但,CCONJ
+傻瓜,fool,傻瓜,NOUN
+关门,to close the door,关门,VERB
+冬天,winter,冬天,NOUN
+冰,ice,冰,NOUN
+冰淇淋,ice cream,冰淇淋,NOUN
+刚,just now,刚,ADV
+别的,other,别的,PRON
+前,front,前,NOUN
+午饭,lunch,午饭,NOUN
+卡,card,卡,NOUN
+卡通,cartoon,卡通,NOUN
+吉他,guitar,吉他,NOUN
+后,after,后,ADP
+听说,to hear that,听说,VERB
+周,week,周,NOUN
+周一,Monday,周一,NOUN
+周五,Friday,周五,NOUN
+周六,Saturday,周六,NOUN
+周日,Sunday,周日,NOUN
+咋,how,咋,ADV
+哇,oh,哇,PART
+哈哈,haha,哈哈,INTJ
+哎,ah,哎,INTJ
+哎呀,oh my,哎呀,INTJ
+哎哟,ouch,哎哟,INTJ
+哟,yo,哟,PART
+哥,older brother,哥,NOUN
+哦,oh,哦,INTJ
+啥,what,啥,PRON
+嗨,hi,嗨,INTJ
+嗯,um,嗯,INTJ
+嘴巴,mouth,嘴巴,NOUN
+嘿,hey,嘿,INTJ
+回到,return to,回到,VERB
+圣诞节,Christmas,圣诞节,NOUN
+坏人,bad person,坏人,NOUN
+坏蛋,bad guy,坏蛋,NOUN
+垃圾,trash,垃圾,NOUN
+外套,coat,外套,NOUN
+外婆,maternal grandmother,外婆,NOUN
+多久,how long,多久,PRON
+多谢,thanks a lot,多谢,INTJ
+大人,adult,大人,NOUN
+女生,girl,女生,NOUN
+奶油,cream,奶油,NOUN
+好久,long time,好久,ADV
+好听,pleasant to listen to,好听,ADJ
+好多,many,好多,ADJ
+好玩,fun,好玩,ADJ
+玩儿,to play,玩儿,VERB
+病,illness,病,NOUN
+海,sea,海,NOUN
+慢点,slowly,慢点,ADV
+那样,that way,那样,PRON
+干嘛,to do what,干嘛,VERB
+嘛,indeed,嘛,PART
+杯,cup,杯,NOUN
+快点,hurry up,快点,ADV
+俄国人,Russian,俄国人,NOUN
+大伙,everyone,大伙,PRON
+大伙儿,everyone,大伙儿,PRON
+心,heart,心,NOUN
+房租,rent,房租,NOUN
+快要,about to,快要,ADV
+急,anxious,急,ADJ
+怪,strange,怪,ADJ
+干,to do,干,VERB
+开车,drive,开车,VERB
+开水,boiled water,开水,NOUN
+店,shop,店,NOUN
+得到,to get,得到,VERB
+差点,almost,差点,ADV
+巴士,bus,巴士,NOUN
+帅哥,handsome guy,帅哥,NOUN
+年轻人,young person,年轻人,NOUN
+幸好,fortunately,幸好,ADV
+度假,vacation,度假,VERB
+待会儿,in a while,待会儿,ADV
+客气,polite,客气,ADJ
+屁股,buttocks,屁股,NOUN
+屋,house,屋,NOUN
+白天,daytime,白天,NOUN
+早晨,morning,早晨,NOUN
+想要,to want,想要,VERB
+里面,inside,里面,NOUN
+挖,to dig,挖,VERB
+讲话,to speak,讲话,VERB

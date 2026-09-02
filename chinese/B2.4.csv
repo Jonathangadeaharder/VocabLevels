@@ -1,113 +1,7 @@
 Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
-艰巨,arduous,艰巨,ADJ
-艰苦,hard,艰苦,ADJ
-荣幸,honored,荣幸,ADJ
-荣誉,honor,荣誉,NOUN
-观念,concept,观念,NOUN
-规模,scale,规模,NOUN
-议论,discussion,议论,NOUN
-讽刺,satire,讽刺,NOUN
-诊断,diagnosis,诊断,NOUN
-诚恳,sincere,诚恳,ADJ
-谨慎,cautious,谨慎,ADJ
-责备,to blame,责备,VERB
-赔偿,to compensate,赔偿,VERB
-趋势,trend,趋势,NOUN
-轻视,to despise,轻视,VERB
-迫切,urgent,迫切,ADJ
-陆续,successively,陆续,ADV
-雄伟,majestic,雄伟,ADJ
-雇佣,employ,雇佣,VERB
-领域,field,领域,NOUN
-一丝不苟,meticulous,一丝不苟,ADJ
-一举两得,kill two birds with one stone,一举两得,ADJ
-一如既往,just as in the past,一如既往,ADV
-一帆风顺,smooth sailing,一帆风顺,ADJ
-一律,same,一律,ADV
-一无所知,know nothing,一无所知,VERB
-一目了然,obvious at a glance,一目了然,ADJ
-一贯,consistent,一贯,ADJ
-上尉,lieutenant,上尉,NOUN
-上校,colonel,上校,NOUN
-不堪,cannot bear,不堪,VERB
-不妨,might as well,不妨,ADV
-不屑一顾,to disdain as beneath contempt,不屑一顾,VERB
-不得已,to have no choice,不得已,ADJ
-不惜,not stint,不惜,VERB
-不愧,to be worthy of,不愧,ADV
-不择手段,by fair means or foul,不择手段,ADV
-不由得,can't help,不由得,ADV
-不相上下,equally matched,不相上下,ADJ
-不禁,can't help (doing sth),不禁,ADV
-不言而喻,it goes without saying,不言而喻,VERB
-与日俱增,to increase steadily,与日俱增,VERB
-丑恶,ugly,丑恶,ADJ
-专程,special-purpose trip,专程,ADV
-专长,specialty,专长,NOUN
-世界观,worldview,世界观,NOUN
-丘陵,hills,丘陵,NOUN
-东张西望,to look around in all directions,东张西望,VERB
-东道主,host,东道主,NOUN
-严密,tight,严密,ADJ
-严寒,bitter cold,严寒,NOUN
-严峻,grim,严峻,ADJ
-丧失,to lose,丧失,VERB
-中士,sergeant,中士,NOUN
-中尉,lieutenant,中尉,NOUN
-临床,clinical,临床,ADJ
-丸,pill,丸,NOUN
-为期,to last (a period of time),为期,VERB
-为首,headed by,为首,VERB
-主导,to lead,主导,VERB
-主权,sovereignty,主权,NOUN
-举世瞩目,to receive worldwide attention,举世瞩目,VERB
-举世闻名,world famous,举世闻名,ADJ
-举足轻重,to hold the balance of power,举足轻重,ADJ
-乃,to be,乃,VERB
-乐谱,musical score,乐谱,NOUN
-予以,to give to grant,予以,VERB
-争先恐后,striving to be first and fearing to be last,争先恐后,VERB
-争端,dispute,争端,NOUN
-争议,controversy,争议,NOUN
-事态,situation,事态,NOUN
-事迹,deed,事迹,NOUN
-亏待,to treat sb unfairly,亏待,VERB
-亏损,deficit,亏损,NOUN
-交涉,to negotiate,交涉,VERB
-亦,also,亦,ADV
-人道,humanity,人道,NOUN
-仁慈,benevolent,仁慈,ADJ
-从容不迫,calm,从容不迫,ADJ
-仓促,hasty,仓促,ADJ
-他杀,homicide,他杀,NOUN
-以至,down to,以至,SCONJ
-以致,to such an extent as to,以致,SCONJ
-任命,to appoint and nominate,任命,VERB
-伊,he,伊,PRON
-众所周知,as everyone knows,众所周知,ADJ
-优异,exceptional,优异,ADJ
-优胜劣汰,survival of the fittest,优胜劣汰,NOUN
-优越,superior,优越,ADJ
-会晤,meet,会晤,VERB
-会见,meet,会见,VERB
-传授,impart,传授,VERB
-伪,fake,伪,ADJ
-伪造,forge,伪造,VERB
-伯爵,count,伯爵,NOUN
-伴随,to accompany,伴随,VERB
-伶俐,clever,伶俐,ADJ
-伺候,to serve,伺候,VERB
-体系,system,体系,NOUN
-作废,to become invalid,作废,VERB
-佬,fellow,佬,NOUN
-佳肴,delicacy,佳肴,NOUN
-使命,mission,使命,NOUN
 供不应求,supply does not meet demand,供不应求,ADJ
 供给,to supply,供给,VERB
 依托,to rely on,依托,VERB
-依次,in order,依次,ADV
-侮辱,to insult,侮辱,VERB
-系,to be,系,VERB
 俘虏,captive,俘虏,NOUN
 信誉,reputation,信誉,NOUN
 倘若,provided that,倘若,SCONJ
@@ -115,7 +9,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 倡导,to advocate,倡导,VERB
 倡议,to propose,倡议,VERB
 债券,bond,债券,NOUN
-倾向,tendency,倾向,NOUN
 倾斜,to incline,倾斜,VERB
 假使,if,假使,SCONJ
 偏僻,remote,偏僻,ADJ
@@ -123,7 +16,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 做东,to act as host,做东,VERB
 停泊,to anchor,停泊,VERB
 停滞,to stagnate,停滞,VERB
-健全,robust,健全,ADJ
 偿还,to repay,偿还,VERB
 储备,reserves,储备,NOUN
 储存,stockpile,储存,NOUN
@@ -135,22 +27,17 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 免疫,immunity,免疫,NOUN
 兢兢业业,cautious and conscientious,兢兢业业,ADJ
 入侵,to invade,入侵,VERB
-全力以赴,to do one's utmost,全力以赴,VERB
 全局,overall situation,全局,NOUN
 公然,openly,公然,ADV
 公爵,duke,公爵,NOUN
 公证,notarization,公证,NOUN
 共计,to total,共计,VERB
 兴旺,prosperous,兴旺,ADJ
-兴致勃勃,in high spirits,兴致勃勃,ADJ
 兴隆,prosperous,兴隆,ADJ
-兴高采烈,in high spirits,兴高采烈,ADJ
-兹,here,兹,ADV
 内幕,inside story,内幕,NOUN
 内涵,connotation,内涵,NOUN
 再接再厉,to make persistent efforts,再接再厉,VERB
 冒充,to pretend to be,冒充,VERB
-决策,decision-making,决策,NOUN
 冷酷,callous,冷酷,ADJ
 冻结,to freeze,冻结,VERB
 凄凉,desolate,凄凉,ADJ
@@ -160,7 +47,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 凝视,to gaze,凝视,VERB
 凶恶,fierce,凶恶,ADJ
 凹凸,uneven,凹凸,ADJ
-出洋相,to make a fool of oneself,出洋相,VERB
 出神,to be entranced,出神,VERB
 分寸,propriety,分寸,NOUN
 分歧,disagreement,分歧,NOUN
@@ -204,7 +90,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 勾结,to collude,勾结,VERB
 包庇,to shield,包庇,VERB
 匪徒,bandit,匪徒,NOUN
-千方百计,by all means,千方百计,ADV
 半途而废,to give up halfway,半途而废,VERB
 卑鄙,despicable,卑鄙,ADJ
 卓越,outstanding,卓越,ADJ
@@ -219,10 +104,8 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 原告,plaintiff,原告,NOUN
 参照,to consult a reference,参照,VERB
 参议员,senator,参议员,NOUN
-参谋,staff officer,参谋,NOUN
 反动,reactionary,反动,ADJ
 反驳,to refute,反驳,VERB
-取决于,to depend on,取决于,VERB
 取缔,to ban,取缔,VERB
 变故,unexpected event,变故,NOUN
 变迁,change,变迁,NOUN
@@ -235,7 +118,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 司法,judicial,司法,NOUN
 各抒己见,everyone gives their own view,各抒己见,VERB
 合乎,to accord with,合乎,VERB
-名副其实,worthy of the name,名副其实,ADJ
 名誉,reputation,名誉,NOUN
 后勤,logistics,后勤,NOUN
 后顾之忧,worries about the rear,后顾之忧,NOUN
@@ -258,7 +140,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 和睦,harmonious,和睦,ADJ
 和蔼,amiable,和蔼,ADJ
 和解,reconcile,和解,VERB
-咧,grin,咧,VERB
 咬牙切齿,gnash one's teeth,咬牙切齿,VERB
 品行,conduct,品行,NOUN
 哆嗦,to tremble,哆嗦,VERB
@@ -267,7 +148,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 唾沫,spittle,唾沫,NOUN
 喜闻乐见,well-received,喜闻乐见,ADJ
 嗅觉,sense of smell,嗅觉,NOUN
-嗑,to crack (seeds),嗑,VERB
 嘈杂,noisy,嘈杂,ADJ
 回避,avoid,回避,VERB
 固执,stubborn,固执,ADJ
@@ -321,9 +201,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 论证,prove,论证,VERB
 推断,infer,推断,VERB
 推论,deduction,推论,NOUN
-断定,conclude,断定,VERB
 断言,assert,断言,VERB
-提倡,advocate,提倡,VERB
 敦促,urge,敦促,VERB
 恳求,beg,恳求,VERB
 哀求,implore,哀求,VERB
@@ -344,21 +222,18 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 显露,reveal,显露,VERB
 勾勒,outline,勾勒,VERB
 刻画,portray,刻画,VERB
-概括,summarize,概括,VERB
 归纳,induce,归纳,VERB
 概述,outline,概述,VERB
 综述,review,综述,NOUN
 剖析,dissect,剖析,VERB
 解析,parse,解析,VERB
 探究,investigate,探究,VERB
-考证,verify,考证,VERB
 测定,determine,测定,VERB
 预估,estimate,预估,VERB
 预见,foresee,预见,VERB
 假定,assume,假定,VERB
 假说,hypothesis,假说,NOUN
 假想,imagine,假想,VERB
-推演,deduce,推演,VERB
 演绎,deduce,演绎,VERB
 演变,evolve,演变,VERB
 变革,reform,变革,NOUN
@@ -424,27 +299,20 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 公允,fair,公允,ADJ
 合规,compliant,合规,ADJ
 违约,breach contract,违约,VERB
-违背,violate,违背,VERB
 违抗,disobey,违抗,VERB
 遵循,follow,遵循,VERB
 遵照,comply,遵照,VERB
 借贷,borrow,借贷,VERB
 债务,debt,债务,NOUN
-债权,creditor's right,债权,NOUN
 债权人,creditor,债权人,NOUN
 债务人,debtor,债务人,NOUN
 抵押,mortgage,抵押,VERB
-质押,pledge,质押,VERB
 投保,insure,投保,VERB
-理赔,claim,理赔,VERB
 索赔,claim,索赔,VERB
-清偿,pay off,清偿,VERB
 拖欠,default,拖欠,VERB
 赖账,default,赖账,VERB
 账目,account,账目,NOUN
-决算,final account,决算,NOUN
 盘点,inventory,盘点,VERB
-核算,accounting,核算,VERB
 文献,literature,文献,NOUN
 备案,record,备案,VERB
 立案,file a case,立案,VERB
@@ -456,25 +324,19 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 鉴于,given that,鉴于,SCONJ
 加之,moreover,加之,ADV
 故而,therefore,故而,ADV
-是以,therefore,是以,ADV
 纵然,even if,纵然,SCONJ
 纵使,even if,纵使,SCONJ
 任凭,regardless,任凭,SCONJ
 不拘,no matter,不拘,SCONJ
 以期,in order to,以期,SCONJ
 以防,in case,以防,SCONJ
-俾使,so as to,俾使,SCONJ
 切勿,do not,切勿,ADV
 切记,remember,切记,VERB
 切忌,avoid,切忌,VERB
-务须,must,务须,ADV
 恳请,earnestly request,恳请,VERB
 敬请,kindly,敬请,VERB
 烦请,kindly,烦请,VERB
 央求,beg,央求,VERB
-苦求,beg,苦求,VERB
-哀告,plead,哀告,VERB
-乞怜,beg for pity,乞怜,VERB
 乞讨,beg,乞讨,VERB
 募捐,raise donations,募捐,VERB
 募集,raise,募集,VERB
@@ -495,93 +357,26 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 综上所述,in summary,综上所述,ADV
 归根结底,in the final analysis,归根结底,ADV
 论据,argument,论据,NOUN
-提督,admiral,提督,NOUN
-玉府,jade palace,玉府,NOUN
-碧,jade,碧,NOUN
 求见,to seek audience,求见,VERB
 怪罪,to blame,怪罪,VERB
-枉,to wrong,枉,VERB
-敢问,to ask,敢问,VERB
-何尝,to ever,何尝,ADV
-鹤,crane,鹤,NOUN
-发难,to attack,发难,VERB
 药池,medicine pool,药池,NOUN
-战功,merit,战功,NOUN
-恭,to honor,恭,VERB
-通敌,treason,通敌,NOUN
-太医,imperial physician,太医,NOUN
 痊,to heal,痊,VERB
-暗卫,shadow guard,暗卫,NOUN
-镖局,escort agency,镖局,NOUN
-闭关,seclusion,闭关,NOUN
 境地,predicament,境地,NOUN
-得道,to attain enlightenment,得道,VERB
-谓,to call,谓,VERB
 联姻,to intermarry,联姻,VERB
-捕头,constable,捕头,NOUN
 贸然,rashly,贸然,ADV
-乎,question particle,乎,PART
-心诀,mantra,心诀,NOUN
-官差,constable,官差,NOUN
-福晋,consort,福晋,NOUN
 连累,to implicate,连累,VERB
 失敬,to apologize,失敬,VERB
-客官,guest,客官,NOUN
-隐瞒,to conceal,隐瞒,VERB
 动气,to get angry,动气,VERB
 胆敢,to dare,胆敢,VERB
-遂,so,遂,SCONJ
-主和,to seek peace,主和,VERB
 逢,to meet,逢,VERB
 坠落,to fall,坠落,VERB
-奇效,miracle,奇效,NOUN
 功臣,hero,功臣,NOUN
-这般,such,这般,ADJ
-老奴,old servant,老奴,NOUN
-死地,death trap,死地,NOUN
 落得,to end up,落得,VERB
-圣帝,emperor,圣帝,NOUN
-败仗,defeat,败仗,NOUN
-文武,officials,文武,NOUN
 顽抗,defiant,顽抗,ADJ
-攻城,siege,攻城,NOUN
-退兵,retreat,退兵,NOUN
-陛,steps to the throne,陛,NOUN
-勇善,brave and good,勇善,ADJ
-母后,empress dowager,母后,NOUN
-嬷嬷,nanny,嬷嬷,NOUN
-伏兵,ambush,伏兵,NOUN
 服侍,service,服侍,NOUN
 险境,peril,险境,NOUN
 耽搁,to delay,耽搁,VERB
-暗讯,secret message,暗讯,NOUN
-镖,escort,镖,NOUN
 莫非,is it possible that,莫非,ADV
-剑柄,hilt,剑柄,NOUN
-过兵,to pass,过兵,VERB
-恩兄,brother,恩兄,NOUN
-武当,Wudang,武当,NOUN
 蹊跷,strange,蹊跷,ADJ
-败将,defeated general,败将,NOUN
-神拳,divine fist,神拳,NOUN
-迷香,incense,迷香,NOUN
-解方,remedy,解方,NOUN
-垂成,to nearly succeed,垂成,VERB
-中箭,to be hit,中箭,VERB
-社稷,state,社稷,NOUN
 做派,behavior,做派,NOUN
-又何,why,又何,ADV
-畏,to fear,畏,VERB
-子民,subject,子民,NOUN
-无凭,unfounded,无凭,ADJ
-甘,willing,甘,ADJ
-加冠,to crown,加冠,VERB
-奸细,spy,奸细,NOUN
-头颅,head,头颅,NOUN
-争权,to vie for power,争权,VERB
-将死,dying,将死,ADJ
-国色,beauty,国色,NOUN
-动筷,to use chopsticks,动筷,VERB
-国书,credentials,国书,NOUN
 难不成,could it be,难不成,ADV
-

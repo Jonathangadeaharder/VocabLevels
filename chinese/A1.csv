@@ -324,7 +324,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 体育,sports,体育,NOUN
 作业,homework,作业,NOUN
 作用,effect,作用,NOUN
-使,to make,使,VERB
 信,letter,信,NOUN
 借,to borrow,借,VERB
 健康,health,健康,NOUN
@@ -451,7 +450,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 有名,famous,有名,ADJ
 机会,opportunity,机会,NOUN
 条,strip,条,NOUN
-极,extremely,极,ADV
 果汁,fruit juice,果汁,NOUN
 树,tree,树,NOUN
 校长,principal,校长,NOUN
@@ -493,7 +491,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 瘦,thin,瘦,ADJ
 盘子,plate,盘子,NOUN
 相信,to believe,相信,VERB
-相同,identical,相同,ADJ
 眼镜,spectacles,眼镜,NOUN
 着急,to worry,着急,ADJ
 短,short,短,ADJ
@@ -558,7 +555,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 讲,to speak,讲,VERB
 词语,word,词语,NOUN
 超市,supermarket,超市,NOUN
-越,to exceed,越,VERB
 跟,heel,跟,NOUN
 辆,classifier for vehicles,辆,NUM
 过去,past,过去,NOUN
@@ -595,13 +591,8 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 不仅,not only,不仅,ADV
 不但,not only,不但,ADV
 不得不,have to,不得不,ADV
-何时,when,何时,ADV
-何地,where,何地,ADV
-为何,why,为何,ADV
-如何,how,如何,ADV
 说,to say,说,VERB
 只,only,只,ADV
-随,to follow,随,VERB
 你好,hello,你好,INTJ
 你们,you (plural),你们,PRON
 他们,they,他们,PRON
@@ -614,3 +605,92 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 刷牙,to brush teeth,刷牙,VERB
 电子邮件,email,电子邮件,NOUN
 等,to wait,等,VERB
+打,to hit,打,VERB
+这样,this way,这样,PRON
+早,early,早,ADV
+这里,here,这里,PRON
+话,word,话,NOUN
+那么,so,那么,ADV
+一点,a little,一点,ADV
+这些,these,这些,DET
+那些,those,那些,DET
+那里,there,那里,PRON
+一下,a bit,一下,ADV
+一下子,all at once,一下子,ADV
+一些,some,一些,DET
+一半,half,一半,NOUN
+上去,to go up,上去,VERB
+上学,to go to school,上学,VERB
+上来,to come up,上来,VERB
+上课,to attend class,上课,VERB
+上车,to get on a vehicle,上车,VERB
+上面,above,上面,NOUN
+下来,to come down,下来,VERB
+下去,go down,下去,VERB
+下车,get off car,下车,VERB
+下面,below,下面,NOUN
+不会,will not,不会,AUX
+不好,not good,不好,ADJ
+不是,is not,不是,VERB
+不能,cannot,不能,AUX
+不要,do not,不要,AUX
+二十,twenty,二十,NUM
+二号,number two,二号,NOUN
+今年,this year,今年,NOUN
+今晚,tonight,今晚,NOUN
+做饭,to cook,做饭,VERB
+出来,to come out,出来,VERB
+出去,to go out,出去,VERB
+别人,others,别人,PRON
+加,to add,加,VERB
+动,to move,动,VERB
+变成,to become,变成,VERB
+右,right,右,NOUN
+听到,to hear,听到,VERB
+听见,to hear,听见,VERB
+哪个,which one,哪个,PRON
+哪里,where,哪里,PRON
+唱,to sing,唱,VERB
+回来,come back,回来,VERB
+回去,go back,回去,VERB
+回家,go home,回家,VERB
+坐下,sit down,坐下,VERB
+夏天,summer,夏天,NOUN
+外面,outside,外面,NOUN
+大声,loud,大声,ADJ
+大学,university,大学,NOUN
+天,day,天,NOUN
+头,head,头,NOUN
+女孩,girl,女孩,NOUN
+好看,good-looking,好看,ADJ
+不但,not only,不但,CCONJ
+跳,to jump,跳,VERB
+睡,to sleep,睡,VERB
+进去,to go in,进去,VERB
+笔,brush,笔,NOUN
+有的,sometimes,有的,ADV
+肉,flesh,肉,NOUN
+看到,to see,看到,VERB
+就是,that is,就是,SCONJ
+吃饭,to eat,吃饭,VERB
+干什么,to do what,干什么,VERB
+记住,to remember,记住,VERB
+每个,each,每个,DET
+山,mountain,山,NOUN
+床,bed,床,NOUN
+手,hand,手,NOUN
+房子,house,房子,NOUN
+您好,hello (polite),您好,INTJ
+很久,for a long time,很久,ADV
+很多,many,很多,ADJ
+很少,rarely,很少,ADV
+它们,they (things),它们,PRON
+左,left,左,NOUN
+忘,to forget,忘,VERB
+家人,family,家人,NOUN
+家里,at home,家里,NOUN
+汽车,car,汽车,NOUN
+春天,spring,春天,NOUN
+秋天,autumn,秋天,NOUN
+星期一,Monday,星期一,NOUN
+每天,every day,每天,ADV
