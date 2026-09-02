@@ -2,7 +2,6 @@ German_Lemma,English_Lemma,Chinese_Lemma,POS
 Abbitte,apology,道歉,NOUN
 Abdruck,print,印记,NOUN
 abermals,once again,再次,ADV
-abfahren,depart,出发,VERB
 abmachen,agree,约定,VERB
 abschneiden,cut off,切断,VERB
 absehen,to foresee; to refrain from (von),撇开,VERB
@@ -11,13 +10,11 @@ abziehen,deduct,扣除,VERB
 Abkommen,agreement,协议,NOUN
 Abkürzung,shortcut,捷径,NOUN
 ablegen,put down,放下,VERB
-ablenken,distract,分散注意力,VERB
 abnorm,abnormal,反常的,ADJ
 Absatz,paragraph,段落,NOUN
 abschalten,switch off,关掉,VERB
 abspielen,play,播放,VERB
 abstammen,descend from,起源于,VERB
-Abstimmung,vote,投票,NOUN
 Abteil,compartment,隔间,NOUN
 Abwechslung,variety,变化,NOUN
 Abwesenheit,absence,缺席,NOUN
@@ -54,10 +51,8 @@ anfahren,to approach,靠近,VERB
 angehen,tackle,处理,VERB
 anheuern,hire,雇佣,VERB
 Angehöriger,relative,亲属,NOUN
-anklagen,accuse,指控,VERB
 Angel,fishing rod,钓竿,NOUN
 angeln,fish,钓鱼,VERB
-anmelden,register,登记,VERB
 angenehm,pleasant,令人愉快的,ADJ
 anordnen,order,命令,VERB
 anschießen,shoot,击伤,VERB
@@ -66,14 +61,10 @@ angesichts,in view of,鉴于,ADP
 angespannt,tense,紧张的,ADJ
 ansprechen,address,招呼,VERB
 Angestellter,employee,雇员,NOUN
-anweisen,instruct,指示,VERB
 anzeigen,display,显示,VERB
-angreifen,attack,攻击,VERB
 Angreifer,attacker,攻击者,NOUN
-Angst,fear,恐惧,NOUN
 anhängen,attach,附加,VERB
 Anhörung,hearing,听证会,NOUN
-Annahme,assumption,假设,NOUN
 anonym,anonymous,匿名的,ADJ
 anpassen,to adapt,适应,VERB
 anschließen,to connect,连接,VERB
@@ -85,17 +76,11 @@ anstatt,instead,代替,ADP
 Anstellung,employment,职位,NOUN
 anstrengen,to strain,努力,VERB
 antik,antique,古老的,ADJ
-antreten,to compete,参赛,VERB
 Antrieb,drive,动力,NOUN
-anvertrauen,to entrust,委托,VERB
 Anwesen,estate,庄园,NOUN
-Apotheke,pharmacy,药店,NOUN
 Appell,appeal,呼吁,NOUN
 apropos,speaking of which,顺便一提,ADV
-Arbeiter,worker,工人,NOUN
-Arbeitgeber,employer,雇主,NOUN
 arbeitslos,unemployed,失业的,ADJ
-Arbeitsplatz,workplace,工作场所,NOUN
 Armband,bracelet,手镯,NOUN
 arm,poor,贫穷的,ADJ
 Armut,poverty,贫困,NOUN
@@ -107,30 +92,21 @@ Atmosphäre,atmosphere,气氛,NOUN
 attackieren,attack,攻击,VERB
 au,ow,哎哟,INTJ
 aua,ouch,哎哟,INTJ
-aufbauen,build,建立,VERB
 aufbrechen,break up,破裂,VERB
 aufeinander,each other,相互,ADV
-Aufenthalt,stay,停留,NOUN
 Auffahrt,on-ramp,车道,NOUN
-auffallen,to be noticeable,引人注目,VERB
 Auffassung,view,观点,NOUN
 auffliegen,to be discovered,被发觉,VERB
 auffinden,find,找到,VERB
 aufklären,clarify,澄清,VERB
 aufladen,charge,充电,VERB
 auflegen,hang up,挂断,VERB
-auflösen,dissolve,溶解,VERB
 aufgeschlossen,open-minded,思想开明的,ADJ
-aufwachsen,grow up,成长,VERB
 aufgrund,due to,由于,ADP
-aufheben,to pick up,捡起,VERB
 Aufregung,excitement,兴奋,NOUN
-Aufruhr,uproar,骚动,NOUN
-aufräumen,clean up,清理,VERB
 Aufschwung,upturn,好转,NOUN
 aufsteigen,to climb,上升,VERB
 Auftraggeber,client,客户,NOUN
-aufwachen,wake up,醒来,VERB
 ausarten,escalate,恶化,VERB
 ausbessern,mend,修补,VERB
 ausbreiten,spread,传播,VERB
@@ -138,42 +114,32 @@ auseinander,apart,分开,ADV
 ausführen,execute,执行,VERB
 ausführlich,detailed,详细的,ADJ
 ausbrechen,break out,爆发,VERB
-ausdenken,invent,虚构,VERB
 ausgeglichen,balanced,平衡的,ADJ
 ausgenommen,except,除...之外,ADP
-ausnutzen,exploit,利用,VERB
 ausrauben,rob,抢劫,VERB
 ausgerechnet,of all things,偏偏,ADV
 ausgesprochen,pronounced,显著的,ADJ
 ausgezeichnet,excellent,优秀的,ADJ
-aushalten,endure,忍受,VERB
 auskommen,get by,过得去,VERB
-ausleihen,lend,借出,VERB
 Ausländer,foreigner,外国人,NOUN
 auslösen,trigger,触发,VERB
 Ausnutzung,exploitation,利用,NOUN
 ausprobieren,try out,尝试,VERB
 ausreichend,sufficient,足够的,ADJ
-ausrichten,align,调整,VERB
 Ausschau,lookout,瞭望,NOUN
 ausschließen,exclude,排除,VERB
 Aussprache,pronunciation,发音,NOUN
 ausstellen,to issue,开具,VERB
 austrocknen,to dry out,干涸,VERB
 Ausweg,way out,出路,NOUN
-Auswirkung,effect,影响,NOUN
-auswählen,to select,选择,VERB
-Autobahn,highway,高速公路,NOUN
 Autogramm,autograph,亲笔签名,NOUN
 automatisch,automatic,自动的,ADJ
 Autor,author,作者,NOUN
 Autorität,authority,权威,NOUN
 Autoschlüssel,car key,车钥匙,NOUN
 autsch,ouch,哎哟,INTJ
-außergewöhnlich,extraordinary,非凡的,ADJ
 Axt,axe,斧头,NOUN
 Backe,cheek,脸颊,NOUN
-backen,to bake,烘焙,VERB
 Backofen,oven,烤箱,NOUN
 Badewanne,bathtub,浴缸,NOUN
 Bahnsteig,platform,站台,NOUN
@@ -184,27 +150,17 @@ Baronin,baroness,男爵夫人,NOUN
 Bart,beard,胡须,NOUN
 Basis,base,基础,NOUN
 Batterie,battery,电池,NOUN
-Bauch,belly,肚子,NOUN
 Bauchschmerzen,stomach ache,腹痛,NOUN
 Bauer,farmer,农民,NOUN
 beachten,to consider,考虑,VERB
-beachtlich,considerable,相当大的,ADJ
 Beamte,official,官员,NOUN
-beantragen,to apply for,申请,VERB
 Becken,pelvis,骨盆,NOUN
-bedauern,to regret,后悔,VERB
-bedecken,to cover,覆盖,VERB
-Bedürfnis,need,需求,NOUN
-befassen,to deal with,处理,VERB
 befinden,to be located,位于,VERB
-befriedigen,to satisfy,满足,VERB
 befördern,to promote,晋升,VERB
 befürchten,to fear,担心,VERB
 begeben,to go,前往,VERB
-begegnen,to encounter,遇到,VERB
 begnügen,to be content,满足于,VERB
 begreifen,to understand,理解,VERB
-Begründung,justification,理由,NOUN
 begrüßen,to welcome,欢迎,VERB
 beheben,to fix,解决,VERB
 beherbergen,to host,接待,VERB
@@ -224,8 +180,6 @@ Bekannte,acquaintance,熟人,NOUN
 Bekenntnis,confession,供认,NOUN
 bekiffen,to get stoned,吸食大麻,VERB
 beklauen,to rob,偷窃,VERB
-bekämpfen,fight,对抗,VERB
-beladen,to load,装载,VERB
 belastet,burdened,负担重的,ADJ
 belehren,to lecture,教导,VERB
 belesen,well-read,博学的,ADJ
@@ -233,16 +187,11 @@ bellen,bark,吠叫,VERB
 belohnen,to reward,奖励,VERB
 belästigen,harass,骚扰,VERB
 belästigt,harassed,被骚扰的,ADJ
-bemerken,notice,注意到,VERB
 bemüht,diligent,努力的,ADJ
-benachrichtigen,to notify,通知,VERB
 benommen,dazed,头晕的,ADJ
 benutzbar,usable,可用的,ADJ
 benutzt,used,用过的,ADJ
 Benzin,gasoline,汽油,NOUN
-beraten,to advise,建议,VERB
-Beratung,consultation,咨询,NOUN
-berechnen,to calculate,计算,VERB
 berechtigt,authorized,有资格的,ADJ
 bereden,discuss,讨论,VERB
 Bereitschaft,readiness,准备就绪,NOUN
@@ -251,9 +200,7 @@ Bergsteiger,mountaineer,登山者,NOUN
 berufen,appoint,任命,VERB
 beruhen,be based on,基于,VERB
 berüchtigt,notorious,臭名昭著的,ADJ
-berücksichtigen,consider,考虑,VERB
 besagen,state,说明,VERB
-beschaffen,procure,获取,VERB
 bescheiden,modest,谦虚的,ADJ
 bescheinigen,certify,证明,VERB
 beschießen,shoot at,射击,VERB
@@ -269,7 +216,6 @@ beschwören,to conjure,召唤,VERB
 beschädigen,to damage,损坏,VERB
 beschämen,to shame,使羞愧,VERB
 besiegen,to defeat,击败,VERB
-besonders,especially,特别的,ADV
 Besprechung,meeting,会议,NOUN
 Besseres,something better,更好的事物,NOUN
 bestechen,to bribe,贿赂,VERB
@@ -278,17 +224,13 @@ Bestellung,order,订单,NOUN
 Bestes,the best,最好的事物,NOUN
 besteuern,to tax,征税,VERB
 Bestie,beast,野兽,NOUN
-Bestimmung,determination,决心,NOUN
 bestmöglich,best possible,尽可能好的,ADJ
 Bestreben,endeavor,努力,NOUN
 Besucher,visitor,访客,NOUN
 beteiligt,involved,参与的,ADJ
-Betracht,consideration,考虑,NOUN
 betrachten,to consider,考虑,VERB
-betreuen,to take care of,照顾,VERB
 Betreuung,care,照料,NOUN
 betroffen,affected,受影响的,ADJ
-betragen,to amount to,总计,VERB
 betrügen,to cheat,欺骗,VERB
 Betrüger,fraudster,骗子,NOUN
 Beute,prey,猎物,NOUN
@@ -296,16 +238,13 @@ Beutel,pouch,袋子,NOUN
 Bevölkerung,population,人口,NOUN
 bewachen,to guard,看守,VERB
 bewaffnet,armed,武装的,ADJ
-bewirken,to cause,引起,VERB
 Bewohner,resident,居民,NOUN
 bewundern,to admire,钦佩,VERB
 beziehungsweise,or rather,或者,ADV
 beängstigend,scary,令人害怕的,ADJ
-Bibliothek,library,图书馆,NOUN
 Biene,bee,蜜蜂,NOUN
 Bilanz,balance,收支平衡,NOUN
 Bildschirm,screen,屏幕,NOUN
-Bildung,education,教育,NOUN
 billigen,to approve,批准,VERB
 binden,to bind,捆绑,VERB
 Birne,pear,梨,NOUN
@@ -329,10 +268,7 @@ Brite,Briton,英国人,NOUN
 britisch,British,英国的,ADJ
 Bruch,break,断裂,NOUN
 Brunnen,fountain,喷泉,NOUN
-brauchen,to need,需要,VERB
 Bräutigam,groom,新郎,NOUN
-Brötchen,bread roll,小圆面包,NOUN
-brüllen,to roar,咆哮,VERB
 Bulldogge,bulldog,斗牛犬,NOUN
 bunt,colorful,五颜六色的,ADJ
 Busch,bush,灌木丛,NOUN
@@ -350,14 +286,11 @@ cool,cool,酷的,ADJ
 Urheberrecht,copyright,版权,NOUN
 Grafschaft,county,县,NOUN
 Kran,crane,起重机,NOUN
-Dach,roof,屋顶,NOUN
 Dachboden,attic,阁楼,NOUN
 Dad,dad,爸爸,NOUN
 dadurch,thereby,因此,ADV
 daheim,at home,在家,ADV
 Dampf,steam,蒸汽,NOUN
-Dankbarkeit,gratitude,感激,NOUN
-danke,thank you,谢谢,INTJ
 dankeschön,thank you,谢谢,INTJ
 dar,there,那里,ADV
 daran,on it,在上面,ADV
@@ -375,16 +308,13 @@ Depp,idiot,傻瓜,NOUN
 deprimiert,depressed,沮丧的,ADJ
 deswegen,therefore,因此,ADV
 deuten,indicate,表明,VERB
-Dezember,December,十二月,NOUN
 Dichter,poet,诗人,NOUN
 Dichtung,poetry,诗歌,NOUN
 diejenige,the one,那个,DET
 diffus,diffuse,模糊的,ADJ
-Ding,thing,事物,NOUN
 Dinosaurier,dinosaur,恐龙,NOUN
 diplomatisch,diplomatic,外交的,ADJ
 diskret,discreet,谨慎的,ADJ
-Distanz,distance,距离,NOUN
 Diät,diet,节食,NOUN
 Dokument,document,文件,NOUN
 Dom,cathedral,大教堂,NOUN
@@ -425,34 +355,25 @@ dämlich,stupid,愚蠢的,ADJ
 Dämmerung,twilight,黄昏,NOUN
 Dämon,demon,恶魔,NOUN
 Dürre,drought,干旱,NOUN
-E-Mail,email,电子邮件,NOUN
 Ebene,level,水平,NOUN
 Edelstein,gemstone,宝石,NOUN
-egal,no matter,无所谓,ADJ
 äh,eh,呃,INTJ
 ehemalig,former,前任的,ADJ
-Ehrgeiz,ambition,雄心,NOUN
 ehrgeizig,ambitious,有野心的,ADJ
 Eichhörnchen,squirrel,松鼠,NOUN
 Eid,oath,誓言,NOUN
 eigenartig,peculiar,奇怪的,ADJ
-Eigenschaft,quality,特性,NOUN
 Eigentümer,owner,所有者,NOUN
 einfließen,to flow in,流入,VERB
-Einfluss,influence,影响,NOUN
 einfältig,simple-minded,头脑简单的,ADJ
 einführen,to introduce,引入,VERB
-einrichten,to furnish,布置,VERB
-einschlafen,to fall asleep,入睡,VERB
 Eingriff,intervention,干预,NOUN
 einlassen,to let in,允许进入,VERB
 einlegen,to insert,插入,VERB
 einleiten,to initiate,开始,VERB
-Einleitung,introduction,引言,NOUN
 einnähen,to sew in,缝入,VERB
 einpacken,to wrap,包装,VERB
 einreichen,to submit,提交,VERB
-einschätzen,to assess,评估,VERB
 Einsicht,insight,见解,NOUN
 einst,once,曾经,ADV
 eintragen,to enter,登记,VERB
@@ -467,7 +388,6 @@ Elefant,elephant,大象,NOUN
 elektrisch,electric,电的,ADJ
 elend,miserable,悲惨的,ADJ
 Empfehlung,recommendation,推荐,NOUN
-Empfindung,sensation,感觉,NOUN
 engagieren,engage,聘用,VERB
 Engländer,Englishman,英国人,NOUN
 enorm,enormous,巨大的,ADJ
@@ -475,19 +395,14 @@ Entdeckung,discovery,发现,NOUN
 Entlassung,dismissal,解雇,NOUN
 entstehen,arise,产生,VERB
 enttäuschen,disappoint,使失望,VERB
-Enttäuschung,disappointment,失望,NOUN
 entwerfen,design,设计,VERB
 Erbschaft,inheritance,遗产,NOUN
-erdulden,to endure,忍受,VERB
 ereignen,to occur,发生,VERB
 Erfinder,inventor,发明者,NOUN
 erforderlich,required,必需的,ADJ
 erfrischend,refreshing,令人清爽的,ADJ
-ergänzen,to supplement,补充,VERB
-erheben,to raise,举起,VERB
 erhältlich,available,可获得的,ADJ
 Erhöhung,increase,增加,NOUN
-erinnern,to remember,记得,VERB
 Erinnerung,memory,记忆,NOUN
 erkundigen,to inquire,询问,VERB
 Erlebnis,experience,经历,NOUN
@@ -496,61 +411,45 @@ ermöglichen,to enable,使可能,VERB
 Ernte,harvest,收获,NOUN
 Eroberer,conqueror,征服者,NOUN
 erobern,to conquer,征服,VERB
-erproben,to test,测试,VERB
 erreichbar,reachable,可到达的,ADJ
-errichten,to erect,建立,VERB
 Errichtung,construction,建造,NOUN
 Ersatz,replacement,替代品,NOUN
-erschaffen,to create,创造,VERB
 Erscheinung,appearance,现象,NOUN
 erschießen,to shoot,枪杀,VERB
 erschlagen,to slay,打死,VERB
-erschrecken,to scare,惊吓,VERB
 erschöpft,exhausted,筋疲力尽的,ADJ
 erschüttern,to shake,震动,VERB
-ersparen,to spare,节省,VERB
 Ersparnis,savings,积蓄,NOUN
 erstellen,to create,创建,VERB
 erstens,firstly,首先,ADV
-ersticken,to suffocate,窒息,VERB
 erstmal,first of all,首先,ADV
 erstechen,to stab,刺死,VERB
 ertappen,to catch,当场抓住,VERB
-erteilen,to grant,授予,VERB
-ertrinken,to drown,溺死,VERB
 erträglich,bearable,可忍受的,ADJ
 ertönen,to sound,响起,VERB
 Erwachsener,adult,成年人,NOUN
-erweisen,to prove,证明,VERB
 erweitern,to expand,扩大,VERB
-Erweiterung,expansion,扩展,NOUN
 erwischen,to catch,抓住,VERB
 erwähnen,mention,提及,VERB
-erziehen,educate,教育,VERB
 erzwingen,force,强迫,VERB
 Erzählung,story,故事,NOUN
 Etappe,stage,阶段,NOUN
 etliche,several,几个,DET
 etwa,approximately,大约,ADV
-etwas,something,某事,PRON
 Eule,owl,猫头鹰,NOUN
 ewig,eternal,永恒的,ADJ
 exakt,exact,精确的,ADJ
 explodieren,explode,爆炸,VERB
 Exzellenz,excellence,卓越,NOUN
-Fach,subject,科目,NOUN
 fade,bland,乏味的,ADJ
 Faden,thread,线,NOUN
 Fahrt,ride,行程,NOUN
-Fahrkarte,ticket,车票,NOUN
-falls,if,如果,SCONJ
 Falsches,wrong,错误的事,NOUN
 faltbar,foldable,可折叠的,ADJ
 Falte,wrinkle,皱纹,NOUN
 fanatisch,fanatical,狂热的,ADJ
 Fantasie,fantasy,幻想,NOUN
 Faser,fiber,纤维,NOUN
-faul,lazy,懒惰的,ADJ
 Fee,fairy,仙女,NOUN
 Feierabend,end of the working day,下班,NOUN
 fein,fine,精细的,ADJ
@@ -577,27 +476,20 @@ Fischer,fisherman,渔夫,NOUN
 flach,flat,平坦的,ADJ
 Fleck,stain,污渍,NOUN
 Fledermaus,bat,蝙蝠,NOUN
-flehen,to beg,恳求,VERB
 flicken,to mend,修补,VERB
-fließen,to flow,流动,VERB
 fließend,fluent,流利的,ADJ
 flink,nimble,敏捷的,ADJ
 Flitterwochen,honeymoon,蜜月,NOUN
-fluchen,to swear,咒骂,VERB
-flüstern,to whisper,低语,VERB
 folgendes,the following,以下内容,PRON
 folglich,consequently,因此,ADV
-Forderung,demand,要求,NOUN
 Formel,formula,公式,NOUN
 Fortpflanzung,reproduction,繁殖,NOUN
-fotografieren,to photograph,拍照,VERB
 fragwürdig,questionable,可疑的,ADJ
 französisch,French,法国的,ADJ
 Freibad,outdoor pool,露天游泳池,NOUN
 freilassen,to release,释放,VERB
 Friseur,hairdresser,理发师,NOUN
 frustriert,frustrated,沮丧的,ADJ
-fröhlich,cheerful,开朗的,ADJ
 Frucht,fruit,水果,NOUN
 Funk,radio,无线电,NOUN
 Funke,spark,火花,NOUN
@@ -611,7 +503,6 @@ Föderation,federation,联邦,NOUN
 fördern,to promote,促进,VERB
 führend,leading,领先的,ADJ
 Fülle,abundance,丰富,NOUN
-füllen,to fill,填充,VERB
 fünfundzwanzig,twenty-five,二十五,NUM
 fürchterlich,terrible,可怕的,ADJ
 füreinander,for each other,相互,ADV
@@ -626,13 +517,10 @@ Gasse,alley,小巷,NOUN
 gastfreundlich,hospitable,好客的,ADJ
 Gattung,genus,属,NOUN
 Gebrauch,use,使用,NOUN
-gebrauchen,use,使用,VERB
 Gebärde,gesture,手势,NOUN
 geduldig,patient,耐心的,ADJ
-ehren,honor,尊敬,VERB
 geehrt,honored,尊敬的,ADJ
 geeignet,suitable,合适的,ADJ
-erben,inherit,继承,VERB
 Gefangener,prisoner,囚犯,NOUN
 Gefangenschaft,captivity,囚禁,NOUN
 fesseln,tie up,绑,VERB
@@ -640,10 +528,7 @@ Gefährte,companion,同伴,NOUN
 Gefälligkeit,favor,恩惠,NOUN
 gefälligst,please,请,ADV
 fälschen,fake,伪造,VERB
-Gefühl,feeling,感觉,NOUN
 gefühlvoll,emotional,充满感情的,ADJ
-Gegenstand,object,物体,NOUN
-gründen,to found,建立,VERB
 gehorchen,to obey,服从,VERB
 Gehorsam,obedience,服从,NOUN
 Gehäuse,case,外壳,NOUN
@@ -651,13 +536,9 @@ gehörig,proper,适当的,ADJ
 geil,horny,性欲的,ADJ
 irren,to err,弄错,VERB
 Geisel,hostage,人质,NOUN
-Geist,spirit,精神,NOUN
 geistig,mental,精神的,ADJ
 geistreich,witty,机智的,ADJ
 knüpfen,to link,连接,VERB
-laden,to load,装载,VERB
-gelb,yellow,黄色的,ADJ
-lehren,to teach,教,VERB
 leisten,to accomplish,完成,VERB
 Geliebte,beloved,爱人,NOUN
 geliebt,loved,被爱的,ADJ
@@ -666,14 +547,12 @@ gelingen,to succeed,成功,VERB
 gell,right,对吧,INTJ
 Gelächter,laughter,笑声,NOUN
 Geländer,railing,栏杆,NOUN
-mieten,to rent,租,VERB
 Gen,gene,基因,NOUN
 genehmigen,to approve,批准,VERB
 genehmigt,approved,批准的,ADJ
 genervt,annoyed,恼火的,ADJ
 Genick,neck,脖颈,NOUN
 Genosse,comrade,同志,NOUN
-genug,enough,足够,ADV
 Geographie,geography,地理,NOUN
 geregelt,regulated,调节,ADJ
 gering,small,小的,ADJ
@@ -689,27 +568,20 @@ Geschlecht,gender,性别,NOUN
 geschmacklos,tasteless,无味的,ADJ
 Geschoss,floor,楼层,NOUN
 geschäftlich,business,商业的,ADJ
-sitzen,to sit,坐,VERB
 gesinnt,disposed,有...意向的,ADJ
 sperren,to block,封锁,VERB
 Gestalt,shape,形状,NOUN
-gestalten,to design,设计,VERB
 Gestank,stench,恶臭,NOUN
 Geständnis,confession,供认,NOUN
 vögeln,to fuck,性交,VERB
 gewaltig,enormous,巨大的,ADJ
-waschen,to wash,洗,VERB
 Gewehr,rifle,步枪,NOUN
 Gewicht,weight,重量,NOUN
-Gewohnheit,habit,习惯,NOUN
 gewohnt,usual,通常的,ADJ
 gewähren,to grant,给予,VERB
 gewährleisten,to ensure,保证,VERB
 gewärtig,prepared,准备好的,ADJ
-zeichnen,draw,画,VERB
 gezielt,targeted,有针对性的,ADJ
-zählen,count,数,VERB
-üben,practice,练习,VERB
 giftig,poisonous,有毒的,ADJ
 Gipfel,summit,峰会,NOUN
 Gitarrenmusik,guitar music,吉他音乐,NOUN
@@ -727,19 +599,14 @@ Grammatik,grammar,语法,NOUN
 grandios,grandiose,宏伟的,ADJ
 Gras,grass,草,NOUN
 gratis,free,免费的,ADJ
-grau,gray,灰色的,ADJ
 grauen,to dread,恐惧,VERB
 Griff,handle,把手,NOUN
 grob,rough,粗糙的,ADJ
 Groll,grudge,怨恨,NOUN
-Großeltern,grandparents,祖父母,NOUN
 Grundlage,basis,基础,NOUN
 Gruß,greeting,问候,NOUN
 größtenteils,mostly,主要地,ADV
-grün,green,绿色的,ADJ
 Gründer,founder,创始人,NOUN
-grüßen,greet,问候,VERB
-gucken,look,看,VERB
 Gunst,favor,恩惠,NOUN
 Gutachten,expert opinion,专家意见,NOUN
 gutartig,benign,良性的,ADJ
@@ -753,7 +620,6 @@ Haftbefehl,arrest warrant,逮捕令,NOUN
 Haftung,liability,责任,NOUN
 Haken,hook,钩子,NOUN
 Handgelenk,wrist,手腕,NOUN
-Handlung,action,行动,NOUN
 Handwerker,handyman,工匠,NOUN
 Handyklingeln,cell phone ringing,手机铃声,NOUN
 Harfe,harp,竖琴,NOUN
@@ -765,7 +631,6 @@ hauptsächlich,mainly,主要地,ADV
 Hausbesuch,house call,上门拜访,NOUN
 Haushalt,household,家庭,NOUN
 Hausmeister,caretaker,房屋管理员,NOUN
-Haustier,pet,宠物,NOUN
 heilig,holy,神圣的,ADJ
 Heilige,saint,圣人,NOUN
 Heilung,healing,治愈,NOUN
@@ -775,7 +640,6 @@ Heizkörper,radiator,暖气片,NOUN
 Hektik,hectic,忙乱,NOUN
 hektisch,hectic,忙碌的,ADJ
 hellhörig,thin-walled,隔音差的,ADJ
-Hemd,shirt,衬衫,NOUN
 Henker,executioner,刽子手,NOUN
 her,here,这里,ADV
 herab,down,向下,ADV
@@ -797,7 +661,6 @@ Herrin,mistress,女主人,NOUN
 herrje,good heavens,天哪,INTJ
 Herrschaften,ladies and gentlemen,各位,NOUN
 herrschen,to rule,统治,VERB
-herstellen,to produce,生产,VERB
 Herstellung,production,生产,NOUN
 herunter,down,向下,ADV
 Herzinfarkt,heart attack,心脏病发作,NOUN
@@ -838,11 +701,9 @@ Hotelzimmer,hotel room,酒店房间,NOUN
 huch,yikes,哎呀,INTJ
 hungrig,hungry,饥饿的,ADJ
 hurra,hurrah,万岁,INTJ
-Hut,hat,帽子,NOUN
 hä,huh,哈,INTJ
 Häkchen,checkmark,勾号,NOUN
 Händler,dealer,商人,NOUN
-haben,have,有,AUX
 häufig,frequent,频繁的,ADJ
 Häuptling,chieftain,酋长,NOUN
 höchstens,at most,至多,ADV
@@ -851,7 +712,6 @@ Höhepunkt,climax,高潮,NOUN
 Hüfte,hip,臀部,NOUN
 Hühnchen,chicken,小鸡,NOUN
 Ideologie,ideology,意识形态,NOUN
-igitt,yuck,呸,INTJ
 Täuschung,illusion,幻觉,NOUN
 imaginär,imaginary,虚构的,ADJ
 Imperium,empire,帝国,NOUN
@@ -871,7 +731,6 @@ Insektizid,insecticide,杀虫剂,NOUN
 insgesamt,overall,总共,ADV
 Eingebung,inspiration,灵感,NOUN
 inspirieren,to inspire,启发,VERB
-installieren,to install,安装,VERB
 Institut,institute,机构,NOUN
 intensiv,intense,强烈的,ADJ
 interaktiv,interactive,交互式的,ADJ
@@ -887,7 +746,6 @@ Italiener,Italian,意大利人,NOUN
 jahrelang,for years,多年,ADV
 Jahresende,end of the year,年底,NOUN
 Jahreslohn,annual wage,年薪,NOUN
-Jahreszeit,season,季节,NOUN
 jaja,yeah yeah,是是是,INTJ
 Jalousie,blind,百叶窗,NOUN
 Jammertal,vale of tears,苦难深渊,NOUN
@@ -896,7 +754,6 @@ Jasmintee,jasmine tea,茉莉花茶,NOUN
 je,ever,曾经,ADV
 Jeansjacke,denim jacket,牛仔夹克,NOUN
 jederzeit,at any time,随时,ADV
-jener,that,那个,DET
 Jenseitsglaube,belief in the afterlife,对来世的信仰,NOUN
 Jochbein,cheekbone,颧骨,NOUN
 Jodmangel,iodine deficiency,碘缺乏,NOUN
@@ -932,14 +789,12 @@ Kargheit,barrenness,贫瘠,NOUN
 Karikatur,caricature,漫画,NOUN
 Karneval,carnival,狂欢节,NOUN
 Karrieresprung,career leap,职业飞跃,NOUN
-Kartoffel,potato,土豆,NOUN
 Karton,carton,纸板箱,NOUN
 Kasten,crate,箱子,NOUN
 Kathedrale,cathedral,大教堂,NOUN
 Kauf,purchase,购买,NOUN
 Kaufmann,merchant,商人,NOUN
 Kaugummi,chewing gum,口香糖,NOUN
-kaum,hardly,几乎不,ADV
 kausal,causal,因果的,ADJ
 kehren,sweep,打扫,VERB
 Keim,germ,病菌,NOUN
@@ -947,7 +802,6 @@ keinerlei,no,毫无,DET
 keiner,none,没有一个,DET
 keins,none,没有一个,DET
 Kenner,connoisseur,行家,NOUN
-Kenntnis,knowledge,知识,NOUN
 Kerbtier,insect,昆虫,NOUN
 Kerze,candle,蜡烛,NOUN
 Kesseltreiben,witch hunt,猎巫,NOUN
@@ -982,7 +836,6 @@ knacken,to crack,破裂,VERB
 Knackpunkt,sticking point,关键点,NOUN
 knallen,to bang,砰然作响,VERB
 Kniefall,act of kneeling,下跪,NOUN
-knien,to kneel,跪下,VERB
 Knirschen,crunching,嘎吱声,NOUN
 Knotenpunkt,junction,枢纽,NOUN
 Knurren,growl,低吼,NOUN
@@ -994,7 +847,6 @@ Koks,coke,可卡因,NOUN
 kollidieren,collide,碰撞,VERB
 Kollision,collision,碰撞,NOUN
 Kommandant,commander,指挥官,NOUN
-kommunizieren,communicate,交流,VERB
 Kompass,compass,指南针,NOUN
 kompetent,competent,胜任的,ADJ
 Komplize,accomplice,同谋,NOUN
@@ -1019,12 +871,10 @@ Korrekturlesen,proofreading,校对,NOUN
 Kosmos,cosmos,宇宙,NOUN
 Kostbarkeit,treasure,珍宝,NOUN
 kotzen,vomit,呕吐,VERB
-Krach,crash,巨响,NOUN
 Kraftwerk,power plant,发电厂,NOUN
 Kragen,collar,衣领,NOUN
 Krankenakte,medical record,病历,NOUN
 Krankenschwester,nurse,护士,NOUN
-kratzen,scratch,抓,VERB
 Kreatur,creature,生物,NOUN
 kreieren,create,创造,VERB
 Kreislauf,circulation,循环,NOUN
@@ -1122,8 +972,6 @@ Mail,email,电子邮件,NOUN
 Majestät,majesty,陛下,NOUN
 Makel,blemish,瑕疵,NOUN
 Maler,painter,画家,NOUN
-mancher,some,一些,DET
-Mangel,lack,缺乏,NOUN
 mangelhaft,deficient,有缺陷的,ADJ
 Mangelware,scarce commodity,紧缺商品,NOUN
 Manie,mania,狂躁症,NOUN
@@ -1142,7 +990,6 @@ mehrmals,several times,多次,ADV
 Meilenstein,milestone,里程碑,NOUN
 meinetwegen,for my sake,就我而言,ADV
 meins,mine,我的,PRON
-meinen,to mean,认为,VERB
 meiste,most,大多数,ADJ
 meistens,mostly,通常,ADV
 Meister,master,大师,NOUN
@@ -1151,7 +998,6 @@ Mensa,canteen,食堂,NOUN
 Menschenkenntnis,knowledge of human nature,知人之明,NOUN
 merkwürdig,strange,奇怪的,ADJ
 Messe,fair,交易会,NOUN
-messen,measure,测量,VERB
 Metall,metal,金属,NOUN
 mexikanisch,Mexican,墨西哥的,ADJ
 mh,Mm,嗯,INTJ
@@ -1164,7 +1010,6 @@ Mikroskop,microscope,显微镜,NOUN
 Ministerin,minister,女部长,NOUN
 Ministerium,ministry,部,NOUN
 Mio,million,百万,NOUN
-mischen,to mix,混合,VERB
 Mischung,mixture,混合物,NOUN
 Missbrauch,abuse,滥用,NOUN
 Missbrauchsfall,abuse case,虐待案件,NOUN
@@ -1203,10 +1048,7 @@ Mythos,myth,神话,NOUN
 mächtig,powerful,强大的,ADJ
 männlich,male,男性的,ADJ
 Märchen,fairy tale,童话,NOUN
-mögen,may (subjunctive),但愿,AUX
-Möglichkeit,possibility,可能性,NOUN
 Müllbeutel,trash bag,垃圾袋,NOUN
-na,well,嗯,INTJ
 naa,no,不,INTJ
 Nachdruck,emphasis,强调,NOUN
 nacheinander,one after another,接连地,ADV
@@ -1228,9 +1070,7 @@ Nervosität,nervousness,紧张,NOUN
 nerven,to annoy,使烦恼,VERB
 Netzwerk,network,网络,NOUN
 Neuanfang,new beginning,重新开始,NOUN
-Neugier,curiosity,好奇心,NOUN
 neulich,recently,最近,ADV
-nicht,not,不,PART
 nieder,down,向下,ADV
 niedlich,cute,可爱的,ADJ
 niedrig,low,低的,ADJ
@@ -1252,7 +1092,6 @@ nähen,to sew,缝纫,VERB
 Nähnadel,sewing needle,缝衣针,NOUN
 nähren,to nourish,滋养,VERB
 nö,nope,不,INTJ
-nützen,to be useful,有用,VERB
 obdachlos,homeless,无家可归的,ADJ
 oberflächlich,superficial,表面的,ADJ
 Oberstimme,upper voice,高音声部,NOUN
@@ -1281,7 +1120,6 @@ Pfad,path,小路,NOUN
 Pfanne,pan,平底锅,NOUN
 Pfannkuchen,pancake,煎饼,NOUN
 Pfeifen,Whistles,哨子,NOUN
-pflegen,to care for,照顾,VERB
 Philosoph,philosopher,哲学家,NOUN
 Physik,physics,物理学,NOUN
 Picknick,Picnic,野餐,NOUN
@@ -1320,7 +1158,6 @@ Quartal,quarter,季度,NOUN
 Quietschen,squeak,吱吱声,NOUN
 quietschen,to squeak,吱吱叫,VERB
 quitt,quits,两清的,ADJ
-Quittung,receipt,收据,NOUN
 Rabe,raven,乌鸦,NOUN
 rackern,to toil,苦干,VERB
 rangehen,to answer,去接电话,VERB
@@ -1333,7 +1170,6 @@ Rathaus,city hall,市政厅,NOUN
 ratlos,clueless,不知所措的,ADJ
 Ratschlag,advice,建议,NOUN
 Rattern,rattling,咔嗒声,NOUN
-rauben,rob,抢劫,VERB
 Raubtier,predator,食肉动物,NOUN
 rausgehen,go out,出去,VERB
 rauswerfen,throw out,扔出,VERB
@@ -1350,7 +1186,6 @@ regelmäßig,regularly,定期地,ADV
 Regenmantel,raincoat,雨衣,NOUN
 Regie,direction,导演,NOUN
 registrieren,register,注册,VERB
-regnen,rain,下雨,VERB
 reichlich,abundant,丰富的,ADJ
 Reihenfolge,order,顺序,NOUN
 reingehen,go in,进去,VERB
@@ -1360,7 +1195,6 @@ Reinigung,cleaning,清洁,NOUN
 Reisepass,passport,护照,NOUN
 Reiseziel,destination,目的地,NOUN
 reiten,ride,骑马,VERB
-reißen,tear,撕,VERB
 Rekord,record,记录,NOUN
 Reparatur,repair,修理,NOUN
 Reservierung,reservation,预订,NOUN
@@ -1388,12 +1222,10 @@ rückgängig,undo,撤销,ADJ
 Rückseite,back,背面,NOUN
 Rücksicht,consideration,体谅,NOUN
 Rücksitz,back seat,后座,NOUN
-rühren,to stir,搅拌,VERB
 Sahne,cream,奶油,NOUN
 Samen,seed,种子,NOUN
 Samenkorn,seed,种子,NOUN
 Sammlung,collection,收藏,NOUN
-Samstag,Saturday,星期六,NOUN
 Sandsturm,sandstorm,沙尘暴,NOUN
 Sau,sow,母猪,NOUN
 Sauerstoff,oxygen,氧气,NOUN
@@ -1425,7 +1257,6 @@ Schlag,blow,打击,NOUN
 Schlaganfall,stroke,中风,NOUN
 schlau,smart,聪明的,ADJ
 Schlauch,hose,软管,NOUN
-schleichen,sneak,潜行,VERB
 Schlimmeres,worse,更糟的事,NOUN
 schlucken,swallow,吞咽,VERB
 Schläfer,sleeper,睡觉的人,NOUN
@@ -1433,9 +1264,7 @@ Schläger,thug,暴徒,NOUN
 schmal,narrow,狭窄的,ADJ
 schmerzhaft,painful,疼痛的,ADJ
 Schmerzmittel,painkiller,止痛药,NOUN
-schmerzen,hurt,疼痛,VERB
 Schmetterling,butterfly,蝴蝶,NOUN
-schmelzen,melt,融化,VERB
 schminken,apply makeup,化妆,VERB
 Schmutz,dirt,污垢,NOUN
 Schneeflocke,snowflake,雪花,NOUN
@@ -1449,7 +1278,6 @@ schulden,owe,欠,VERB
 Schuppen,shed,棚屋,NOUN
 Schwachkopf,moron,笨蛋,NOUN
 Schwachsinn,nonsense,胡说,NOUN
-schwarz,black,黑色的,ADJ
 Schwarzmarkt,black market,黑市,NOUN
 Schwiegermutter,mother-in-law,岳母,NOUN
 Schwuchtel,faggot,男同性恋,NOUN
@@ -1462,7 +1290,6 @@ Schülerin,pupil (female),女学生,NOUN
 Schüssel,bowl,碗,NOUN
 Schütze,Sagittarius,射手座,NOUN
 seelisch,emotional,心理的,ADJ
-segeln,to sail,航行,VERB
 segnen,bless,祝福,VERB
 sehnen,to long for,渴望,VERB
 Sekretär,secretary,秘书,NOUN
@@ -1470,7 +1297,6 @@ Sektor,sector,部门,NOUN
 Selbstbetrug,self-deception,自欺,NOUN
 selbstbewusst,self-confident,自信的,ADJ
 Selbstvertrauen,self-confidence,自信,NOUN
-senden,send,发送,VERB
 Sender,transmitter,发射台,NOUN
 sensibel,sensitive,敏感的,ADJ
 Serienmörder,serial killer,连环杀手,NOUN
@@ -1480,11 +1306,9 @@ sexuell,sexual,性的,ADJ
 sichern,secure,确保,VERB
 sichergehen,make sure,确保,VERB
 Sicherheitsdienst,security service,安保服务,NOUN
-sinken,sink,下沉,VERB
 Sittenbild,moral portrait,道德写照,NOUN
 Sklave,slave,奴隶,NOUN
 Smaragd,emerald,祖母绿,NOUN
-sobald,as soon as,一...就,SCONJ
 sofortig,immediate,立即的,ADJ
 sogenannt,so-called,所谓的,ADJ
 solange,as long as,只要,SCONJ
@@ -1497,7 +1321,6 @@ Sonnenschein,sunshine,阳光,NOUN
 Sorgerecht,custody,监护权,NOUN
 Sorgfaltspflicht,duty of care,注意义务,NOUN
 sorgfältig,careful,仔细的,ADJ
-sortieren,to sort,分类,VERB
 soviel,so much,那么多,DET
 soweit,so far,到目前为止,ADV
 sozial,social,社会的,ADJ
@@ -1527,17 +1350,14 @@ Standpunkt,point of view,观点,NOUN
 starr,stiff,僵硬的,ADJ
 starren,to stare,凝视,VERB
 stattdessen,instead,代替,ADV
-stattfinden,to take place,举行,VERB
 stechen,to sting,刺,VERB
 Stecker,plug,插头,NOUN
 stets,always,总是,ADV
 stillschweigend,tacitly,默不作声地,ADV
 stilvoll,stylish,雅致的,ADJ
-stinken,to stink,发臭,VERB
 Stipendium,scholarship,奖学金,NOUN
 Strafzettel,traffic ticket,罚单,NOUN
 Strahl,beam,光束,NOUN
-streben,to strive,努力,VERB
 Streichmusik,string music,弦乐,NOUN
 streifen,to graze,擦过,VERB
 Streitfall,disputed case,争议案件,NOUN
@@ -1547,7 +1367,6 @@ Stöhnen,moan,呻吟,NOUN
 stöhnen,to moan,呻吟,VERB
 Störung,disturbance,干扰,NOUN
 Stütze,support,支撑,NOUN
-stützen,to support,支撑,VERB
 Subjekt,subject,主语,NOUN
 Suche,search,搜索,NOUN
 Summen,buzzing,嗡嗡声,NOUN
@@ -1570,8 +1389,6 @@ tagsüber,during the day,在白天,ADV
 Tankstelle,gas station,加油站,NOUN
 Tarif,tariff,费率,NOUN
 Tatbestand,elements of an offense,构成要件,NOUN
-tauschen,exchange,交换,VERB
-tausend,thousand,千,NUM
 Tausende,thousands,数千,NOUN
 Taxifahrer,taxi driver,出租车司机,NOUN
 Technik,technology,技术,NOUN
@@ -1580,7 +1397,6 @@ Teilnehmer,participant,参与者,NOUN
 Telefonklingeln,telephone ringing,电话铃声,NOUN
 Telefonnummer,telephone number,电话号码,NOUN
 Telegramm,telegram,电报,NOUN
-Teller,plate,盘子,NOUN
 Tempel,temple,寺庙,NOUN
 Testament,will,遗嘱,NOUN
 Thron,throne,王座,NOUN
@@ -1601,8 +1417,6 @@ tragisch,tragic,悲剧的,ADJ
 Tragödie,tragedy,悲剧,NOUN
 trauen,trust,信任,VERB
 Treffpunkt,meeting point,集合地点,NOUN
-treiben,drive,驱使,VERB
-trennen,separate,分开,VERB
 Tresor,safe,保险箱,NOUN
 Trompete,trumpet,小号,NOUN
 trotzig,defiant,挑衅的,ADJ
@@ -1647,7 +1461,6 @@ unheilvoll,ominous,不祥的,ADJ
 unheimlich,scary,阴森的,ADJ
 Uni,university,大学,NOUN
 unklar,unclear,不清楚的,ADJ
-Unrecht,injustice,不公,NOUN
 unschlüssig,indecisive,犹豫不决的,ADJ
 Unschuldige,innocent person,无辜者,NOUN
 Unsinn,nonsense,胡说,NOUN
@@ -1667,33 +1480,24 @@ unwohl,unwell,不适的,ADJ
 ups,oops,哎呀,INTJ
 Urheber,originator,创作者,NOUN
 ursprünglich,original,最初的,ADJ
-urteilen,judge,判断,VERB
 Verabredung,appointment,约定,NOUN
-verabschieden,say goodbye,告别,VERB
 Veranstaltung,event,活动,NOUN
-verarbeiten,process,处理,VERB
-verbieten,forbid,禁止,VERB
 verbrennen,burn,燃烧,VERB
 verbrechen,commit,犯（罪）,VERB
-verdanken,owe,归功于,VERB
 verderben,spoil,损坏,VERB
 Verdienst,merit,功绩,NOUN
 verdoppeln,double,加倍,VERB
 verdächtig,suspicious,可疑的,ADJ
 Verdächtiger,suspect,嫌疑人,NOUN
 verdächtigen,suspect,怀疑,VERB
-vereinbaren,agree,约定,VERB
 vereinen,unite,联合,VERB
 Verfassung,constitution,宪法,NOUN
-verfehlen,miss,错过,VERB
 verfluchen,curse,诅咒,VERB
 verfügbar,available,可用的,ADJ
-vergeben,award,分配,VERB
 vergebens,in vain,徒劳,ADV
 vergehen,pass away,流逝,VERB
 vergeuden,waste,浪费,VERB
 vergiften,poison,毒害,VERB
-verheimlichen,conceal,隐瞒,VERB
 verhungern,starve,饿死,VERB
 verhalten,behave,表现,VERB
 Verhängnis,disaster,灾难,NOUN
@@ -1705,10 +1509,8 @@ verkleiden,disguise,伪装,VERB
 verklingen,fade away,消逝,VERB
 Verkäufer,seller,售货员,NOUN
 Verlass,reliance,信赖,NOUN
-verlaufen,get lost,迷路,VERB
 Verlobter,fiance,未婚夫,NOUN
 vermasseln,screw up,搞砸,VERB
-vermehren,multiply,繁殖,VERB
 verniedlichen,to play down,淡化,VERB
 Vernunft,reason,理性,NOUN
 verpflichten,to commit,承诺,VERB
@@ -1724,34 +1526,27 @@ verschließen,to lock,锁上,VERB
 verschlimmern,to worsen,恶化,VERB
 verschlucken,to swallow,吞下,VERB
 Verschluss,closure,关闭,NOUN
-verschwenden,to waste,浪费,VERB
 verschweigen,to keep secret,隐瞒,VERB
 Verschwörung,conspiracy,阴谋,NOUN
 versehentlich,accidentally,意外地,ADV
 versetzen,to relocate,调动,VERB
 verseuchen,to contaminate,污染,VERB
-versichern,to assure,保证,VERB
 verspäten,be delayed,迟到,VERB
 verspüren,feel,感觉,VERB
 versterben,die,去世,VERB
 verständlich,understandable,可理解的,ADJ
 verstärken,reinforce,加强,VERB
 Verteidiger,defender,防守者,NOUN
-vertragen,tolerate,忍受,VERB
 vertraulich,confidential,机密的,ADJ
 vertraut,familiar,熟悉的,ADJ
 vertreiben,distribute,分销,VERB
 verunglücken,have an accident,遭遇意外,VERB
-verursachen,cause,引起,VERB
-verwechseln,confuse,混淆,VERB
-verweigern,refuse,拒绝,VERB
 verwerflich,reprehensible,应受谴责的,ADJ
 verwunden,wound,使受伤,VERB
 verzaubern,enchant,使着迷,VERB
 verzeihen,forgive,原谅,VERB
 Verzug,delay,延误,NOUN
 verängstigt,scared,害怕的,ADJ
-veröffentlichen,publish,出版,VERB
 verübeln,to take amiss,见怪,VERB
 vibrieren,to vibrate,振动,VERB
 vielmals,many times,多次,ADV
@@ -1792,7 +1587,6 @@ vorüber,over,过去,ADV
 Wachmann,security guard,保安,NOUN
 wachen,watch over,看守,VERB
 Wade,calf,小腿,NOUN
-wagen,dare,敢于,VERB
 Wahnsinniger,madman,疯子,NOUN
 wahren,preserve,维护,VERB
 Wankelmut,fickleness,反复无常,NOUN
@@ -1801,7 +1595,6 @@ Wechsel,change,变化,NOUN
 wecken,wake up,叫醒,VERB
 Wecker,alarm clock,闹钟,NOUN
 weg,away,离开,ADV
-wegen,because of,因为,ADP
 weggehen,go away,离开,VERB
 weglaufen,run away,逃跑,VERB
 wegwerfen,throw away,扔掉,VERB
@@ -1810,8 +1603,6 @@ weiblich,female,女性的,ADJ
 Weichei,wimp,懦夫,NOUN
 Weihnachtsbaum,Christmas tree,圣诞树,NOUN
 Weihnachtsmann,Santa Claus,圣诞老人,NOUN
-Wein,wine,葡萄酒,NOUN
-weisen,to show,指出,VERB
 weitergehen,to move on,继续,VERB
 weiterleben,to live on,继续生活,VERB
 weitermachen,to carry on,继续,VERB
@@ -1828,10 +1619,8 @@ Wichtiges,important thing,重要的事,NOUN
 wider,against,反对,ADP
 wiedergutmachen,make amends,弥补,VERB
 wiederhaben,have back,重新拥有,VERB
-wiederholen,repeat,重复,VERB
 wiederholt,repeated,反复的,ADJ
 wiederkommen,come back,回来,VERB
-wiegen,weigh,称重,VERB
 Wiehern,neigh,马嘶,NOUN
 wiehern,neigh,嘶鸣,VERB
 wieviel,how much,多少,ADV
@@ -1846,14 +1635,12 @@ Wodka,vodka,伏特加,NOUN
 wofür,for what,为了什么,ADV
 Wohlbefinden,well-being,健康,NOUN
 Wohltäter,benefactor,恩人,NOUN
-Wolke,cloud,云,NOUN
 woran,what,什么,ADV
 Wortbruch,breach of promise,违约,NOUN
 Wrack,wreck,残骸,NOUN
 wunderschön,beautiful,极美的,ADJ
 Wurf,throw,投掷,NOUN
 Wurm,worm,蠕虫,NOUN
-Wurst,sausage,香肠,NOUN
 Wurzel,root,根,NOUN
 Wächter,guard,守卫,NOUN
 Wärme,warmth,温暖,NOUN
@@ -1870,7 +1657,6 @@ Zerrbild,distorted image,扭曲的形象,NOUN
 zerreißen,to tear,撕裂,VERB
 Zertifikat,certificate,证书,NOUN
 Zeug,stuff,东西,NOUN
-Ziel,target,目标,NOUN
 zielen,to aim,瞄准,VERB
 Zins,interest,利息,NOUN
 Zirkel,compass,圆规,NOUN
@@ -1880,16 +1666,12 @@ Zivilisation,civilization,文明,NOUN
 Zoll,customs,海关,NOUN
 Untoter,undead,不死生物,NOUN
 zuckend,twitching,抽搐的,ADJ
-zuerst,first,首先,ADV
 zufolge,according to,根据,ADP
-zuhören,to listen,倾听,VERB
 zugleich,at the same time,同时,ADV
 zukünftig,future,未来的,ADJ
-zuletzt,last,最后,ADV
 zuliebe,for the sake of,为了,ADP
 Zuneigung,affection,喜爱,NOUN
 zungenfertig,glib,伶牙俐齿的,ADJ
-zunächst,initially,首先,ADV
 zurzeit,currently,目前,ADV
 zurückgehen,go back,回去,VERB
 zurückholen,retrieve,取回,VERB
@@ -1903,16 +1685,13 @@ zuverlässig,reliable,可靠的,ADJ
 Zuversicht,confidence,信心,NOUN
 Zwangsjacke,straitjacket,拘束衣,NOUN
 Zweckentfremdung,misappropriation,挪用,NOUN
-zwei,two,二,NUM
 zweite,second,第二,ADJ
 zweitens,secondly,其次,ADV
 Zwerg,dwarf,矮人,NOUN
 zwischenmenschlich,interpersonal,人际的,ADJ
-zögern,to hesitate,犹豫,VERB
 Ächzen,groan,呻吟,NOUN
 ängstlich,anxious,焦虑的,ADJ
 Ärger,trouble,麻烦,NOUN
-ärgern,to annoy,惹恼,VERB
 Ärmel,sleeve,袖子,NOUN
 Arsch,ass,屁股,NOUN
 überdenken,to reconsider,重新考虑,VERB
@@ -1924,10 +1703,118 @@ Arsch,ass,屁股,NOUN
 Überlegung,consideration,考虑,NOUN
 übermorgen,the day after tomorrow,后天,ADV
 übermäßig,excessive,过度的,ADJ
-überreden,to persuade,说服,VERB
 überschätzen,to overestimate,高估,VERB
 übersetzen,to translate,翻译,VERB
 Überwachung,monitoring,监控,NOUN
 überwältigen,to overwhelm,压倒,VERB
 Übliches,usual thing,惯例,NOUN
 sein,to be,是,VERB
+Blei,lead,铅,NOUN
+Drehung,turn,转弯,NOUN
+Türsteher,doorman,门卫,NOUN
+Wasserglas,drinking glass,水杯,NOUN
+Büroarbeit,office work,办公室工作,NOUN
+Zugfahrt,train ride,火车旅程,NOUN
+Rechen,rake,耙子,NOUN
+Ahne,ancestor,祖先,NOUN
+Gelenk,joint,关节,NOUN
+Flicken,patch,补丁,NOUN
+Masseur,masseur,按摩师,NOUN
+Pate,godfather,教父,NOUN
+Schulbank,school bench,课桌,NOUN
+Dackel,dachshund,腊肠犬,NOUN
+Umhang,cloak,斗篷,NOUN
+Leinen,linen,线麻,NOUN
+Kraut,herb,草药,NOUN
+himmelblau,sky blue,天蓝色,ADJ
+Bord,board,甲板,NOUN
+Adliger,nobleman,贵族,NOUN
+Edelmann,nobleman,贵族,NOUN
+Frische,freshness,新鲜,NOUN
+Hoheit,highness,殿下,NOUN
+langen,to suffice,足够,VERB
+Pater,father,神父,NOUN
+Feldwebel,sergeant,中士,NOUN
+Steig,path,小路,NOUN
+Stimmengewirr,babble of voices,嘈杂的人声,NOUN
+verdammen,to damn,诅咒,VERB
+ächzen,to groan,呻吟,VERB
+gesunden,to recover,康复,VERB
+Aufschlag,serve,发球,NOUN
+Süßer,sweetie,甜心,NOUN
+Süßes,sweets,甜食,NOUN
+anlügen,to lie to,对...撒谎,VERB
+Müller,miller,磨坊主,NOUN
+Schlimme,bad thing,坏事,NOUN
+Schlimmes,bad thing,坏事,NOUN
+Schlimmste,worst thing,最坏的事,NOUN
+unterschrieben,signed,已签署的,ADJ
+unterstützt,supported,受支持的,ADJ
+untersucht,investigated,被调查的,ADJ
+verbracht,spent,度过的,ADJ
+verbrannt,burned,烧焦的,ADJ
+verdammtes,damn,该死的,ADJ
+Hündin,bitch,母狗,NOUN
+drum,therefore,因此,ADV
+hinweg,across,越过,ADV
+Kehle,throat,喉咙,NOUN
+Kutsche,carriage,马车,NOUN
+Vieh,cattle,牲畜,NOUN
+wehe,woe,唉,INTJ
+fortfahren,to continue,继续,VERB
+Hauptgrund,main reason,主要原因,NOUN
+Autopsie,autopsy,尸检,NOUN
+Biest,beast,野兽,NOUN
+Desoxyribonukleinsäure,DNA,脱氧核糖核酸,NOUN
+Elfer,penalty kick,十一,NOUN
+Engelsschar,host of angels,天使群,NOUN
+Finsternis,darkness,黑暗,NOUN
+Fürst,prince,亲王,NOUN
+Gabe,gift,礼物,NOUN
+Graf,count,伯爵,NOUN
+Gräfin,countess,女伯爵,NOUN
+heiligen,to sanctify,使神圣,VERB
+hervor,forth,向前,ADV
+Januarabend,January evening,一月晚上,NOUN
+Kamerad,comrade,同志,NOUN
+Karre,cart,手推车,NOUN
+Knarre,gun,枪,NOUN
+Kripo,detective force,刑警,NOUN
+Leib,body,身体,NOUN
+Leutnant,lieutenant,中尉,NOUN
+Oberst,colonel,上校,NOUN
+Ruder,oar,桨,NOUN
+Spezies,species,物种,NOUN
+Tarnung,disguise,伪装,NOUN
+Visier,visor,面罩,NOUN
+Widersacher,adversary,对手,NOUN
+Zorn,wrath,愤怒,NOUN
+behüten,to protect,保护,VERB
+beipflichten,to agree with,赞同,VERB
+beisetzen,to bury,安葬,VERB
+bersten,to burst,破裂,VERB
+beschreiten,to tread,踏上,VERB
+erahnen,to sense,隐约感到,VERB
+erliegen,to succumb,屈服,VERB
+erringen,to win,赢得,VERB
+gebieten,to command,命令,VERB
+gegenzeichnen,to countersign,会签,VERB
+geizen,to stint,吝啬,VERB
+gedeihen,to thrive,茁壮成长,VERB
+lodern,to blaze,燃烧,VERB
+preisen,to praise,赞扬,VERB
+rühmen,to praise,称赞,VERB
+schreiten,to stride,迈步,VERB
+tilgen,to erase,抹去,VERB
+walten,to prevail,统治,VERB
+weihen,to consecrate,奉献,VERB
+wittern,to scent,嗅出,VERB
+wogen,to surge,汹涌,VERB
+zieren,to adorn,装饰,VERB
+zollen,to pay,致敬,VERB
+Anmut,grace,优雅,NOUN
+Denkart,way of thinking,思维方式,NOUN
+Genugtuung,satisfaction,满足,NOUN
+Gesetzmäßigkeit,regularity,规律性,NOUN
+beredt,eloquent,雄辩的,ADJ
+bildhaft,vivid,形象化的,ADJ
