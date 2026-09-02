@@ -546,7 +546,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 زلزلة,earthquake,地震,NOUN
 لب,core,核心,NOUN
 حميم,intimate,亲密的,ADJ
-جدر,to be worthy,理当 / 值得,VERB
+جدير,worthy,理当 / 值得,ADJ
 أهان,to humiliate,侮辱,VERB
 أطاق,to endure,忍受,VERB
 شيوعي,communist,共产主义的,ADJ
@@ -558,7 +558,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ٱنحدر,to descend,下降,VERB
 كمن,to lurk,潜藏,VERB
 غمر,to submerge,淹没,VERB
-قاري,continental,大陆的,ADJ
+قاريّ,continental,大陆的,ADJ
 صفيحة,plate / sheet,板 / 片,NOUN
 سحق,to crush,粉碎,VERB
 أشفق,to pity,怜悯,VERB
@@ -571,23 +571,23 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جال,to roam,游荡 / 游历,VERB
 تعنى,to take trouble,劳神,VERB
 مستاء,discontented,不满的,ADJ
-باهظ,cost,,NOUN
-بجع,swan,,NOUN
+باهظ,exorbitant / costly,,ADJ
+بجعة,swan,,NOUN
 برقية,telegram,,NOUN
 بندورة,tomato,西红柿,NOUN
-بيد,hand,,NOUN
+بيد,although,,NOUN
 تأرجح,swinging,,NOUN
 تافهة,triviality,,NOUN
 تبعثر,scattering,,NOUN
 تجسيد,embodiment,,NOUN
 تجميد,freezing,,NOUN
-تحرى,investigation,,NOUN
+تحرى,to investigate,,VERB
 تحري,inquiry,,NOUN
 تحطيم,destruction,,NOUN
-تحلى,adornment,,NOUN
+تحلى,to adorn oneself (with),,VERB
 تشتيت,scattering,,NOUN
 تصدى,confrontation,,NOUN
-تصفيف,clapping,,NOUN
+تصفيق,clapping,,NOUN
 تعافى,recovery,,NOUN
 تفكك,disintegration,,NOUN
 تقاتل,fighting,,NOUN
@@ -596,63 +596,59 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تمزق,tearing,,NOUN
 توالي,succession,,NOUN
 توهج,glow,,NOUN
-جرؤ,boldness,,NOUN
+جرؤ,to dare,,VERB
 حسبان,account,,NOUN
 حشد,crowd,,NOUN
 حلة,pot,,NOUN
-حير,confusion,,NOUN
+حير,to confuse / bewilder,,VERB
 حيلة,trick,,NOUN
-خاب,disappointment,,NOUN
-خاض,engagement,,NOUN
+خاب,to fail / be disappointed,,VERB
+خاض,to wade into / engage in,,VERB
 خشونة,roughness,,NOUN
-خصب,fertility,,NOUN
-خفق,flutter,,NOUN
+خصب,fertile,,ADJ
+خفق,to flutter / beat (of the heart),,VERB
 خندق,trench,,NOUN
 خوض,wading,,NOUN
 دلتا,delta,,NOUN
 دوامة,vortex,,NOUN
-ديناميكي,dynamic,,NOUN
-ذاع,fame,,NOUN
+ديناميكي,dynamic,,ADJ
+ذاع,to spread / circulate (of news),,VERB
 رطل,pound,,NOUN
 رمح,spear,,NOUN
-زائف,falsity,,NOUN
+زائف,fake / counterfeit,,ADJ
 سجان,jailer,,NOUN
 سفين,ship,,NOUN
-شاسع,expanse,,NOUN
+شاسع,vast / extensive,,ADJ
 شرارة,spark,,NOUN
-شهى,deliciousness,,NOUN
+شهى,delicious / appetizing,,ADJ
 شيب,gray hair,,NOUN
 صاعقة,lightning,,NOUN
-صاغ,coining,,NOUN
+صاغ,to craft / coin (words),,VERB
 صدارة,leadership,,NOUN
 صهر,brother-in-law,,NOUN
 ضخامة,bulk,,NOUN
-طفا,float,,NOUN
+طفا,to float,,VERB
 طهر,purity,,NOUN
-عبودي,servitude,,NOUN
+عبودية,servitude,,NOUN
 عمومة,uncle,,NOUN
-عنفي,violence,,NOUN
+عنف,violence,,NOUN
 عوارض,symptom,,NOUN
-غاص,dive,,NOUN
-غزا,invasion,,NOUN
-غض,anger,,NOUN
-غيري,other,,NOUN
-فل,metal,,NOUN
+غاص,to dive / plunge,,VERB
+غزا,to invade,,VERB
+غض,to lower (the gaze) / diminish,,VERB
 فلس,coin,,NOUN
 فلكي,celestial,,NOUN
-قسا,severity,,NOUN
+قسا,to be cruel / harsh,,VERB
 قصارى,utmost,,NOUN
-كبري,sulfur,,NOUN
+كبريت,sulfur,,NOUN
 كيل,weighing,,NOUN
-لئيم,wretch,,NOUN
-لاين,line,,NOUN
-مارى,Mary,,NOUN
-متحير,confusion,,NOUN
-متراكم,accumulation,,NOUN
-متسق,coherence,,NOUN
-متعطش,thirst,,NOUN
-متناسق,harmony,,NOUN
-مثقل,burden,,NOUN
+لئيم,mean / base,,ADJ
+متحير,perplexed,,ADJ
+متراكم,accumulated,,ADJ
+متسق,consistent / coherent,,ADJ
+متعطش,thirsty / parched,,ADJ
+متناسق,harmonious,,ADJ
+مثقل,burdened / laden,,ADJ
 مثيل,equivalent,,NOUN
 محصل,collector,,NOUN
 مخبأ,hideout,,NOUN
@@ -660,49 +656,49 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مذبحة,massacre,,NOUN
 مرأب,garage,,NOUN
 مرار,bitterness,,NOUN
-مربك,puzzle,,NOUN
-مريع,dread,,NOUN
-مزق,shred,,NOUN
+مربك,confusing / embarrassing,,ADJ
+مريع,terrifying / dreadful,,ADJ
+مزق,to tear to pieces,,VERB
 مزية,advantage,,NOUN
-مصفوف,matrix,,NOUN
-معبأ,filling,,NOUN
+مصفوف,arranged in rows,,ADJ
+معبأ,filled / packed,,ADJ
 معذب,tormentor,,NOUN
 معهود,custom,,NOUN
-مغرم,debt,,NOUN
+مغرم,infatuated / fond (of),,ADJ
 مغطس,bath,,NOUN
-مفرط,excess,,NOUN
-مقرف,nausea,,NOUN
+مفرط,excessive,,ADJ
+مقرف,disgusting,,ADJ
 مكث,stay,,NOUN
 ملازم,lieutenant,,NOUN
 مناشدة,appeal,,NOUN
-منصف,fairness,,NOUN
-منقرض,extinction,,NOUN
+منصف,fair / just,,ADJ
+منقرض,extinct,,ADJ
 موقد,hearth,,NOUN
-ميكروسكوبي,microscope,,NOUN
-نابض,pulse,,NOUN
+ميكروسكوبي,microscopic,,ADJ
+نابض,pulsating,,ADJ
 ناهيك,besides,,NOUN
 ند,peer,,NOUN
 ندل,waiter,,NOUN
 نعل,sole,,NOUN
-نقول,saying,,NOUN
-هنيء,peace,,NOUN
+قول,saying,,NOUN
+هنيء,wholesome / agreeable,,ADJ
 واقية,shield,,NOUN
 وتيرة,rhythm,,NOUN
-وحل,solution,,NOUN
-أبى,father,,NOUN
-أثقل,heaviness,,NOUN
-أحصى,count,,NOUN
-أحيائي,neighborhood,,NOUN
-أدل,proof,,NOUN
-أدمج,merge,,NOUN
+وحل,mud / mire,,NOUN
+أبى,to refuse,,VERB
+أثقل,to weigh down / burden,,VERB
+أحصى,to count / enumerate,,VERB
+حيّ,neighborhood,,NOUN
+دليل,proof,,NOUN
+أدمج,to merge / incorporate,,VERB
 أرستقراطي,aristocrat,,NOUN
-أرفق,kindness,,NOUN
-أصغى,attention,,NOUN
-أعاق,obstacle,,NOUN
-أغرى,temptation,,NOUN
-أفسح,space,,NOUN
-ألهم,inspiration,,NOUN
-أملى,dictation,,NOUN
+أرفق,to be kind (to),,VERB
+أصغى,to listen attentively,,VERB
+أعاق,to impede / hamper,,VERB
+أغرى,to entice / tempt,,VERB
+أفسح,to make room / widen,,VERB
+ألهم,to inspire,,VERB
+أملى,to dictate,,VERB
 أوزون,ozone,,NOUN
 إجبار,coercion,,NOUN
 إرباك,confusion,,NOUN
