@@ -545,7 +545,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مُنْكَمَش,shrunken,收缩的,ADJ
 مُتَرَهِّل,flabby,松弛的,ADJ
 مُرْتَخٍ,slack,松弛的,ADJ
-مَبْحُوث,lucky,幸运的,ADJ
+محظوظ,lucky,幸运的,ADJ
 مُخَنَّز,stinking,发臭的,ADJ
 خَانِز,rotten,腐烂的,ADJ
 هَامِد,lifeless,无生命的,ADJ
@@ -574,131 +574,126 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 يُرجَّح,to be deemed likely,被认为可能,VERB
 يُتوهَّم,to be imagined,被想象,VERB
 يُستقبَح,to be deemed bad,被视为可恶,VERB
-نعش,to carry,نعش,VERB
+نعش,bier,نعش,NOUN
 ٱحتسى,to drink,ٱحتسى,VERB
 أري,vision,أري,NOUN
 مشعر,shrine,مشعر,NOUN
 قيثار,lyre,قيثار,NOUN
-برمي,remote,برمي,ADJ
-تو,twin,تو,NOUN
+توأم,twin,تو,NOUN
 دثار,blanket,دثار,NOUN
 رمق,to glance,رمق,VERB
-ٱستماح,to allow,ٱستماح,VERB
 ٱبتدع,to invent,ٱبتدع,VERB
 ماخور,brothel,妓院,NOUN
-برح,departure,,NOUN
+برح,to leave / depart,,VERB
 برزخ,limbo,,NOUN
-بزغ,dawn,,NOUN
-بغاء,parrot,,NOUN
-بغيض,hatred,,NOUN
-بون,bond,,NOUN
-تاق,longing,,NOUN
+بزغ,to rise (of the sun) / sprout,,VERB
+ببغاء,parrot,,NOUN
+بغيض,hateful / detestable,,ADJ
+بون,distance / gap,,NOUN
+تاق,to yearn / long for,,VERB
 تجريف,clearing,,NOUN
-تجزع,anxiety,,NOUN
+تجزع,to be distressed / panic,,VERB
 ترهة,nonsense,,NOUN
 تصبب,oozing,,NOUN
 تضور,wailing,,NOUN
 تعاكس,opposition,,NOUN
-تمادى,excess,,NOUN
-تمحور,pivot,,NOUN
+تمادى,to go too far / persist,,VERB
+تمحور,to revolve around / center on,,VERB
 جابي,collector,,NOUN
-جاثم,crouch,,NOUN
-جارف,sweep,,NOUN
+جاثم,crouching / squatting,,ADJ
+جارف,sweeping / overwhelming,,ADJ
 جداء,goat,,NOUN
-حاش,crowd,,NOUN
+حاش,to cram,,VERB
 حقب,era,,NOUN
-خسئ,shame,,NOUN
+خسئ,to be driven away in abjection,,VERB
 خصية,testicle,,NOUN
 دعارة,prostitution,,NOUN
-دهى,cunning,,NOUN
+دهى,to be cunning,,VERB
 ذرع,cubit,,NOUN
-راكد,stagnation,,NOUN
-رتيب,routine,,NOUN
+راكد,stagnant / still,,ADJ
+رتيب,routine / monotonous,,ADJ
 روث,dung,,NOUN
 زمام,reins,,NOUN
-زنج,ginger,,NOUN
+زنجبيل,ginger,,NOUN
 سبات,sleep,,NOUN
-سح,drag,,NOUN
-سطا,plunder,,NOUN
+سح,to drag / pull,,VERB
+سطا,to pounce on / assault,,VERB
 سليل,descendant,,NOUN
-سنح,chance,,NOUN
-سنى,year,,NOUN
-شاخص,gaze,,NOUN
+سنح,to present itself (of an opportunity),,VERB
+سنة,year,,NOUN
+شاخص,staring / fixed (of the eyes),,ADJ
 شجى,grief,,NOUN
-شنيع,abomination,,NOUN
-شيط,devil,,NOUN
-صرصر,hiss,,NOUN
-ضاجع,reclining,,NOUN
-ضفا,bank,,NOUN
-طباشيري,chalk,,NOUN
+شنيع,atrocious / heinous,,ADJ
+شيطان,devil,,NOUN
+صرصر,to screech (of the wind),,VERB
+ضاجع,to lie with (sexually),,VERB
+ضفة,bank,,NOUN
+طباشير,chalk,,NOUN
 طحلب,moss,,NOUN
 طمث,menses,,NOUN
-طمو,desire,,NOUN
+طموح,desire,,NOUN
 طمى,mud,,NOUN
-عج,dough,,NOUN
+عجين,dough,,NOUN
 عراف,soothsayer,,NOUN
-عصم,protection,,NOUN
+عصم,to protect / restrain,,VERB
 عصيدة,porridge,,NOUN
-عي,fault,,NOUN
-غفراء,forgiveness,,NOUN
-غلظ,harshness,,NOUN
-فظع,horror,,NOUN
-قبع,cap,,NOUN
-قح,purity,,NOUN
+عي,to be tongue-tied / inarticulate,,VERB
+مغفرة,forgiveness,,NOUN
+غلظ,to be coarse / harsh,,VERB
+فظع,to be atrocious / monstrous,,VERB
+قبعة,cap,,NOUN
 قفال,lock,,NOUN
 كبريتي,sulfuric,,NOUN
 كبريتيك,sulfuric,,NOUN
-كت,lump,,NOUN
-كد,toil,,NOUN
+كتلة,lump,,NOUN
+كد,to toil / strive,,VERB
 كدح,labor,,NOUN
 كرب,grief,,NOUN
-لاذ,refuge,,NOUN
-لقن,instruction,,NOUN
+لاذ,to take refuge,,VERB
+لقن,to teach by repetition,,VERB
 مئزر,apron,,NOUN
 مارق,heretic,,NOUN
-متأجج,blaze,,NOUN
-متجهم,frown,,NOUN
-متحفز,arousal,,NOUN
-مترامي,vastness,,NOUN
-متكاسل,laziness,,NOUN
-متماوج,wave,,NOUN
+متأجج,blazing / burning,,ADJ
+متجهم,frowning / sullen,,ADJ
+متحفز,alert / poised,,ADJ
+مترامي,sprawling / far-flung,,ADJ
+متكاسل,sluggish,,ADJ
+متماوج,undulating / surging,,ADJ
 مجازفة,risk,,NOUN
-محتدم,fierce one,,NOUN
+محتدم,raging / intense,,ADJ
 محتم,sheltered one,,NOUN
 محك,test,,NOUN
-مخبار,informant,,NOUN
-مدقع,searing,,NOUN
+مخبر,informant,,NOUN
 مربط,stall,,NOUN
 مز,joke,,NOUN
-مشال,scarf,,NOUN
+شال,scarf,,NOUN
 مشدوه,dazed one,,NOUN
 مشيمة,placenta,,NOUN
 مضني,consumption,,NOUN
-مغر,pride,,NOUN
 مغسل,mortuary,,NOUN
 مغفل,fool,,NOUN
-مفطور,rupture,,NOUN
-مقمر,crescent,,NOUN
+مفطور,one breaking the Ramadan fast,,NOUN
+مقمر,moonlit,,ADJ
 ملحمة,epic,,NOUN
-مليكة,ownership,,NOUN
+مليكة,queen,,NOUN
 منبوذ,outcast,,NOUN
-مولع,enthusiast,,NOUN
-نحا,direction,,NOUN
-نسأ,postponement,,NOUN
-هال,halo,,NOUN
+مولع,fond of / keen on,,ADJ
+نحا,to head toward / imitate,,VERB
+نسأ,to postpone / defer,,VERB
+هال,to terrify / frighten,,VERB
 وغد,scoundrel,,NOUN
 أبله,fool,,NOUN
-أتان,mare,,NOUN
-أجفل,fright,,NOUN
-أجهش,sobbing,,NOUN
-أح,one,,NOUN
+أتان,female donkey,,NOUN
+أجفل,to bolt in panic / be startled,,VERB
+أجهش,to burst into sobs,,VERB
+أحد,one,,NOUN
 أخور,dock,,NOUN
 أد,worship,,NOUN
-أرأى,opinion,,NOUN
+رأي,opinion,,NOUN
 أرجوان,violet,,NOUN
 أزج,thrust,,NOUN
-أشبل,cub,,NOUN
-أضمر,suppression,,NOUN
-أعال,height,,NOUN
+شبل,cub,,NOUN
+أضمر,to harbor / conceal (a feeling),,VERB
+أعال,to maintain / support,,VERB
 أفتك,devastation,,NOUN
 أكذوبة,falsehood,,NOUN

@@ -262,7 +262,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 استقلال,independence,独立,NOUN
 ثورة,revolution,革命,NOUN
 معركة,battle,战役,NOUN
-أثر,ruin,遗迹,NOUN
+أثر,trace / effect,遗迹,NOUN
 آثار,antiquities,文物,NOUN
 قرن,century,世纪,NOUN
 إيمان,faith,信仰,NOUN
@@ -642,8 +642,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 محادثة,conversation,对话,NOUN
 محترف,professional,,NOUN
 محظوظ,lucky,幸运的,ADJ
-مخيف,fright,,NOUN
-مرتفع,elevation,,NOUN
+مخيف,frightening,,ADJ
+مرتفع,high / elevated,,ADJ
 مرحاض,toilet,厕所,NOUN
 مرحلة,stage,阶段,NOUN
 مركبة,vehicle,车辆,NOUN
@@ -664,35 +664,34 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مكتبة,library,图书馆,NOUN
 مكتوب,written,书面的,ADJ
 ممتاز,excellent,优秀的,ADJ
-منا,from us,来自我们,PRON
 مناسب,suitable,合适的主题,ADJ
 منتصف,midpoint,,NOUN
 موج,waves,波浪,NOUN
-مين,who,谁,PRON
+مَن,who,谁,PRON
 نبأ,news,消息,NOUN
 نبتة,plant,植物,NOUN
 نتج,to result,产生,VERB
-نصفي,half,,NOUN
-نظف,cleanliness,,NOUN
+نصف,half,,NOUN
+نظف,to clean,,VERB
 نفسي,self,,NOUN
 نمل,ants,蚂蚁,NOUN
-هاتفي,phone,,NOUN
+هاتفي,telephone,,ADJ
 هدأ,to calm down,平静,VERB
 هدد,to threaten,威胁,VERB
 واصل,to continue,继续,VERB
 وحد,to unite,统一,VERB
 وحش,monster,怪兽,NOUN
-وفر,abundance,,NOUN
+وفر,to be plentiful / abundant,,VERB
 وقود,fuel,燃料,NOUN
 وقوع,occurrence,发生,NOUN
 يومي,daily,每日的,ADJ
-آسف,apology,,NOUN
+آسف,sorry,,ADJ
 آنسة,miss,小姐,NOUN
 أخت,sister,姐妹,NOUN
 أسس,to establish,创立,VERB
 أسعد,to make happy,使快乐,VERB
 أصلي,original,原始的,ADJ
-أفاد,benefit,,NOUN
+أفاد,to benefit,,VERB
 أقصر,shorter,更短的,ADJ
 أقوى,stronger,更强的,ADJ
 ألماني,German,德国的,ADJ
