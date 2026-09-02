@@ -1417,7 +1417,7 @@ benaming,name,名称,NOUN
 bewaken,to monitor,监控,VERB
 braam,blackberry,黑莓,NOUN
 buurvrouw,female neighbor,女邻居,NOUN
-cam,webcam,网络摄像头,NOUN
+webcam,webcam,网络摄像头,NOUN
 christelijk,Christian,基督教的,ADJ
 concurrent,competitor,竞争对手,NOUN
 demo,demonstration,演示,NOUN
@@ -2365,7 +2365,6 @@ assemblage,assembly,组装,NOUN
 automatisering,automation,自动化,NOUN
 banalisering,trivialization,平庸化,NOUN
 barbarisering,barbarization,野蛮化,NOUN
-basering,basing,依据,NOUN
 beeldvorming,image formation,形象塑造,NOUN
 begeleiding,guidance,指导,NOUN
 bekoeling,cooling,冷却,NOUN
@@ -2444,7 +2443,7 @@ context,context,语境,NOUN
 contingent,contingent,配额,NOUN
 contractualisering,contractualization,契约化,NOUN
 controverse,controversy,争议,NOUN
-convenant,convenant,公约,NOUN
+convenant,covenant,公约,NOUN
 convergentie,convergence,趋同,NOUN
 koopsom,purchase price,购买价,NOUN
 correctie,correction,修正,NOUN
@@ -2575,12 +2574,9 @@ frase,phrase,短语,NOUN
 functionalisme,functionalism,功能主义,NOUN
 fundamentalisme,fundamentalism,原教旨主义,NOUN
 galvanisatie,galvanization,镀锌,NOUN
-gebalanceerdheid,balance,平衡,NOUN
 gebrekkigheid,defectiveness,缺陷,NOUN
 gebundeling,bundling,捆绑,NOUN
-geconcentreerdheid,concentration,专注,NOUN
 gedeelte,part,部分,NOUN
-gedistingeerdheid,distinction,卓尔不群,NOUN
 gedragscode,code of conduct,行为准则,NOUN
 gedragspatroon,behavioral pattern,行为模式,NOUN
 geletterdheid,literacy,识字,NOUN
@@ -2595,7 +2591,6 @@ genocide,genocide,种族灭绝,NOUN
 genre,genre,体裁,NOUN
 gentrificatie,gentrification,士绅化,NOUN
 geopolitiek,geopolitics,地缘政治,NOUN
-geprivilegieerdheid,privilege,特权,NOUN
 gerichtheid,orientation,指向,NOUN
 geruststelling,reassurance,安慰,NOUN
 gezagsdrager,authority figure,权威人士,NOUN
@@ -2703,7 +2698,6 @@ inferioriteit,inferiority,劣势,NOUN
 inflexibiliteit,inflexibility,僵化,NOUN
 informatie,information,信息,NOUN
 infrastructuur,infrastructure,基础设施,NOUN
-inherentie,inherence,固有,NOUN
 initiatief,initiative,倡议,NOUN
 injunctie,injunction,禁令,NOUN
 innovatie,innovation,创新,NOUN
@@ -2777,7 +2771,6 @@ consul,consul,领事,NOUN
 consultatie,consultation,咨询,NOUN
 contactpersoon,contact person,联系人,NOUN
 contractbreuk,breach of contract,违约,NOUN
-contraproductiviteit,counterproductivity,适得其反,NOUN
 conventie,convention,惯例,NOUN
 conversie,conversion,转换,NOUN
 conversatie,conversation,对话,NOUN
@@ -2952,13 +2945,10 @@ geestelijkheid,clergy,神职人员,NOUN
 geestesleven,intellectual life,精神生活,NOUN
 geestverwant,kindred spirit,志同道合者,NOUN
 geestenwereld,spirit world,灵界,NOUN
-geëngageerdheid,engagement,投入感,NOUN
 geheimhouding,confidentiality,保密,NOUN
 geheimhoudingsplicht,duty of confidentiality,保密义务,NOUN
 geheugenverlies,memory loss,失忆,NOUN
 gehoorzaamheid,obedience,顺从,NOUN
-geinformeerdheid,informedness,知情度,NOUN
-gekleurdheid,coloredness,有色性,NOUN
 geloofsbelijdenis,creed,信仰告白,NOUN
 geloofsverkondiging,preaching,传教,NOUN
 gelovigheid,religiousness,虔诚,NOUN
@@ -2968,9 +2958,7 @@ geluidsfragment,sound clip,音频片段,NOUN
 geluidsopname,recording,录音,NOUN
 geluidsoverlast,noise nuisance,噪音扰民,NOUN
 geluidssterkte,volume,音量,NOUN
-gemiddeldheid,averageness,平庸,NOUN
 gemoraliseer,moralizing,说教,NOUN
-gemotiveerdheid,motivation,积极性,NOUN
 genadeslag,mercy blow,致命一击,NOUN
 genadeloosheid,ruthlessness,无情,NOUN
 geneeskracht,healing power,疗效,NOUN
@@ -2998,7 +2986,7 @@ geschil,dispute,纠纷,NOUN
 geschiedenis,history,历史,NOUN
 geschiedenisonderwijs,history education,历史教育,NOUN
 geschiedschrijving,historiography,史学,NOUN
-geschooldheid,scholing,受过训练,NOUN
+geschooldheid,level of schooling,受过训练,NOUN
 geschoktheid,shock,震惊,NOUN
 geschrift,document,文献,NOUN
 geschut,artillery,火炮,NOUN
@@ -3013,13 +3001,11 @@ gestalte,form,形态,NOUN
 gesteente,rock,岩石,NOUN
 gestoordheid,disturbance,错乱,NOUN
 gespuis,rabble,乌合之众,NOUN
-gestructureerdheid,structuredness,结构性,NOUN
 getij,tide,潮汐,NOUN
 getijdenbeweging,tidal movement,潮汐运动,NOUN
 getuige,deposition,证人,NOUN
 getuigenverhoor,witness examination,证人询问,NOUN
 geur,smell,气味,NOUN
-geurloosheid,odorlessness,无味,NOUN
 gevaarlijkheid,dangerousness,危险性,NOUN
 gevaarmelding,hazard report,危险报告,NOUN
 gevoeligheid,sensitivity,敏感,NOUN
@@ -3044,7 +3030,6 @@ gewicht,weight,重量,NOUN
 gewichtigheid,importance,重要性,NOUN
 gewin,profit,收益,NOUN
 gewoontegedrag,habitual behavior,习惯行为,NOUN
-gewoonteloosheid,habitlessness,无习惯,NOUN
 gewricht,joint,关节,NOUN
 gezag,authority,权威,NOUN
 gezagsgetrouwheid,loyalty to authority,服从权威,NOUN
@@ -3224,13 +3209,11 @@ beeldschoon,picturesque,极美的,ADJ
 begeerlijk,desirable,令人向往的,ADJ
 begiftigd,endowed,有天赋的,ADJ
 begripvol,understanding,善解人意的,ADJ
-begrootbaar,budgetable,可预算的,ADJ
 behaaglijk,cosy,舒适的,ADJ
 behaagziek,vain,爱出风头的,ADJ
 behulpzaam,helpful,乐于助人的,ADJ
 beide,both,两者的,ADJ
 bekakt,posh,上流的,ADJ
-bekeerbaar,convertible,可皈依的,ADJ
 beklagenswaardig,piteous,可怜的,ADJ
 beklemmend,oppressive,压抑的,ADJ
 bekwaam,competent,胜任的,ADJ
@@ -3246,12 +3229,10 @@ bosrijk,wooded,林木茂盛的,ADJ
 begaanbaar,accessible,可达的,ADJ
 bejaard,elderly,年长的,ADJ
 benepen,narrow-minded,狭隘的,ADJ
-benoembaar,nameable,可命名的,ADJ
+benoembaar,appointable,可命名的,ADJ
 benijdenswaardig,enviable,令人羡慕的,ADJ
-beoordeelbaar,judgeable,可评判的,ADJ
 beredeneerd,reasoned,经过推理的,ADJ
 beroepsmatig,professional,职业性的,ADJ
-beschadigbaar,damageable,易损的,ADJ
 beschrijfbaar,describable,可描述的,ADJ
 bespreekbaar,debatable,可讨论的,ADJ
 bestaansgerechtigd,entitled to exist,有存在权的,ADJ
@@ -3259,7 +3240,7 @@ bestuurbaar,governable,可管理的,ADJ
 betamelijk,proper,得体的,ADJ
 betwistbaar,contestable,可争议的,ADJ
 bevangen,entranced,痴迷的,ADJ
-bevestigbaar,verifiable,可验证的,ADJ
+bevestigbaar,confirmable,可验证的,ADJ
 betrouwenswaardig,trustworthy,值得信任的,ADJ
 betwist,disputed,有争议的,ADJ
 bevooroordeeld,prejudiced,有偏见的,ADJ
@@ -3294,16 +3275,13 @@ bombastisch,bombastic,夸夸其谈的,ADJ
 booswichtig,villainous,恶棍的,ADJ
 bossig,bushy,浓密的,ADJ
 boud,plucky,大胆的,ADJ
-bovendelig,multipart,多部分的,ADJ
 bovengemiddeld,above average,高于平均的,ADJ
 bovenregionaal,transregional,跨区域的,ADJ
-bovenzedelijk,otherworldly,超世俗的,ADJ
+bovenzinnelijk,otherworldly,超世俗的,ADJ
 brandbaar,flammable,易燃的,ADJ
 brandend,burning,燃烧的,ADJ
 breekbaar,fragile,易碎的,ADJ
-breinachtig,brainy,聪明的,ADJ
 brutaal,cheeky,放肆的,ADJ
-brutaliserend,brutalizing,粗暴化的,ADJ
 budgettair,budgetary,预算的,ADJ
 buitenechtelijk,extramarital,婚外的,ADJ
 buitenlands,foreign,外国的,ADJ
@@ -3358,13 +3336,10 @@ concaaf,concave,凹的,ADJ
 concentrisch,concentric,同心的,ADJ
 conceptueel,conceptual,概念的,ADJ
 concessioneel,concessionary,让步的,ADJ
-concipieerbaar,conceivable,可设想的,ADJ
 concludent,concluding,推断的,ADJ
 concurrerend,competing,竞争的,ADJ
-concurrentieel,competitive,竞争性的,ADJ
 condescendent,condescending,居高临下的,ADJ
 conditioneel,conditional,有条件的,ADJ
-conferentieel,conference-based,会议的,ADJ
 confessioneel,confessional,告解的,ADJ
 confidentieel,confidential,机密的,ADJ
 conflictueus,conflictual,冲突的,ADJ
@@ -3374,12 +3349,9 @@ confronterend,confronting,对峙的,ADJ
 congruent,congruent,全等的,ADJ
 conjuncturaal,cyclical,周期的,ADJ
 connectief,connective,连接的,ADJ
-connivent,conniving,纵容的,ADJ
 connotatief,connotative,内涵的,ADJ
 consistent,consistent,一致的,ADJ
-consolideerbaar,consolidable,可巩固的,ADJ
 consoliderend,consolidating,巩固的,ADJ
-conspiratief,conspiratorial,阴谋的,ADJ
 constant,constant,恒定的,ADJ
 constitutief,constitutive,构成的,ADJ
 constructief,constructive,建设性的,ADJ
@@ -3387,7 +3359,7 @@ consultatief,consultative,咨询的,ADJ
 consumptief,consumptive,消费的,ADJ
 contactueel,contactual,接触的,ADJ
 contaminerend,contaminating,污染的,ADJ
-contemporeel,contemporary,当代的,ADJ
+contemporain,contemporary,当代的,ADJ
 contentieus,contentious,有争议的,ADJ
 contextueel,contextual,语境的,ADJ
 contingent,contingent,偶然的,ADJ
@@ -3398,16 +3370,14 @@ contrastief,contrastive,对比的,ADJ
 controversieel,controversial,有争议的,ADJ
 controleerbaar,controllable,可控的,ADJ
 conventioneel,conventional,常规的,ADJ
-conversief,conversional,转换的,ADJ
 convertibel,convertible,可兑换的,ADJ
-convolutioneel,convolutional,卷积的,ADJ
 koelbloedig,cool-headed,冷静的,ADJ
 koersend,steering,掌舵的,ADJ
 kringlopend,circular,循环的,ADJ
 kristalhelder,crystal clear,清澈的,ADJ
 kritiekloos,uncritical,不加批判的,ADJ
 kunstzinnig,artistic,艺术的,ADJ
-kwadraat,square,平方的,ADJ
+kwadraat,square,平方的,NOUN
 kwantitatief,quantitative,定量的,ADJ
 kwartair,quaternary,第四的,ADJ
 labiel,labile,不稳定的,ADJ
@@ -3519,7 +3489,6 @@ misdadigheid,criminality,犯罪性,NOUN
 misleidend,misleading,误导的,ADJ
 misplaatst,misplaced,不合时宜的,ADJ
 misselijkheid,nausea,恶心,NOUN
-missionerend,missionizing,传教的,ADJ
 mistroostig,disconsolate,凄凉的,ADJ
 misvormd,deformed,畸形的,ADJ
 misvatting,misconception,误解,NOUN
@@ -3657,8 +3626,7 @@ topografisch,topographical,地形学的,ADJ
 totaal,total,总的,ADJ
 toxisch,toxic,有毒的,ADJ
 triviaal,trivial,琐碎的,ADJ
-trivialiseerbaar,trivializable,可轻描淡写的,ADJ
-trots,side,骄傲的,ADJ
+trots,proud,骄傲的,ADJ
 trouwhartig,loyal,忠诚的,ADJ
 trouwloos,disloyal,不忠的,ADJ
 trouwens,by the way,顺便说,ADV
@@ -3719,14 +3687,12 @@ verantwoord,accountable,负责任的,ADJ
 verantwoordelijk,responsible,负责的,ADJ
 verbaasd,surprised,惊讶的,ADJ
 verbaal,verbal,言语的,ADJ
-verbeeld,depicted,描绘的,ADJ
 verbeelding,imagination,想象,NOUN
 verbindend,connecting,连接的,ADJ
 verbloemd,euphemistic,委婉的,ADJ
 verbonden,connected,连接的,ADJ
 verbondenheid,connectedness,联结,NOUN
 verborgen,hidden,隐藏的,ADJ
-verbeus,verbose,冗长的,ADJ
 verbijsterd,aghast,惊骇的,ADJ
 verantwoordelijkheid,responsibility,责任,NOUN
 verdraaid,twisted,扭曲的,ADJ
@@ -3736,12 +3702,10 @@ verfijnd,refined,精致的,ADJ
 verfijning,refinement,精致,NOUN
 verfoeilijk,abominable,可憎的,ADJ
 vergevingsgezind,forgiving,宽容的,ADJ
-vergezellend,accompanying,陪同的,ADJ
 verheugd,delighted,高兴的,ADJ
 verhit,heated,激烈的,ADJ
 verholen,veiled,隐晦的,ADJ
 verifieerbaar,verifiable,可验证的,ADJ
-verbeeldend,depicting,描绘的,ADJ
 verkwistend,wasteful,浪费的,ADJ
 vermaard,renowned,著名的,ADJ
 vermakelijk,amusing,有趣的,ADJ
@@ -3763,7 +3727,7 @@ vervuiling,pollution,污染,NOUN
 verzameld,collected,收集的,ADJ
 verzameling,collection,集合,NOUN
 verzamelaar,collector,收藏家,NOUN
-verzamelwoede,collectomania,收藏癖,NOUN
+verzamelwoede,collecting craze,收藏癖,NOUN
 verzorgend,caring,关怀的,ADJ
 verzwakt,weakened,减弱的,ADJ
 verzwakking,weakening,削弱,NOUN
