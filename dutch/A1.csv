@@ -1,601 +1,671 @@
 Dutch_Lemma,English_Lemma,Chinese_Lemma,POS
-de,the,这,DET
-van,of,的,ADP
-het,it,它,PRON
-een,a,一个,DET
-en,and,和,CCONJ
-zijn,to be,是,AUX
-op,on,在,ADP
-ik,I,我,PRON
-dat,that,那,PRON
-voor,for,为了,ADP
-je,you,你,PRON
-te,to,去,PART
-met,with,和,ADP
-niet,not,不,ADV
-die,that,那个,PRON
-als,as,作为,SCONJ
-er,there,那里,ADV
-maar,but,但是,CCONJ
-om,to,为了,ADP
+Chinees,Chinese,中国的,ADJ
+Chinees,Chinese,中国人,NOUN
+Duitser,German,德国人,NOUN
 aan,to,给,ADP
-hij,he,他,PRON
-ook,also,也,ADV
-ze,they,他们,PRON
-door,through,通过,ADP
-naar,to,向,ADP
-uit,out,出,ADP
-bij,at,在,ADP
-dan,than,比,ADV
-dit,this,这个,PRON
-wat,what,什么,PRON
-hebben,to have,有,VERB
-of,or,或者,CCONJ
-over,about,关于,ADP
-nog,still,还,ADV
-deze,this,这,DET
-kunnen,can,能,AUX
-meer,more,更多,ADV
-zo,so,这样,ADV
+aandacht,attention,注意,NOUN
+aankomen,to arrive,到达,VERB
+aantal,number,数量,NOUN
+aap,monkey,猴子,NOUN
+aardappel,potato,土豆,NOUN
+aarde,earth,地球,NOUN
+ach,oh well,唉,INTJ
+achter,behind,在...之后,ADP
+actie,action,行动,NOUN
+af,off,关,ADP
+afgelopen,last,过去的,ADJ
+ai,ouch,哎哟,INTJ
 al,already,已经,ADV
-geen,no,没有,DET
-mijn,my,我的,DET
-wel,indeed,确实,ADV
-tot,until,直到,ADP
-u,you,您,PRON
-worden,to become,成为,AUX
-hebben,to have,有,AUX
-nu,now,现在,ADV
-haar,her,她的,DET
-veel,many,许多,DET
-jaar,year,年,NOUN
-mij,me,我,PRON
-moeten,must,必须,AUX
-hoe,how,如何,ADV
-na,after,在...之后,ADP
-ons,us,我们,PRON
-waar,where,哪里,ADV
-goed,good,好,ADJ
-gaan,to go,去,VERB
-ons,our,我们的,DET
-willen,to want,想要,AUX
-zich,oneself,自己,PRON
-zullen,shall,将要,AUX
-doen,to do,做,VERB
-ander,other,其他的,ADJ
-hier,here,这里,ADV
-dus,so,所以,ADV
-tegen,against,反对,ADP
-maken,to make,制作,VERB
-alleen,only,只,ADV
-onder,under,在...下面,ADP
-één,one,一个,NUM
-hun,their,他们的,PRON
-twee,two,二,NUM
-nieuw,new,新的,ADJ
-weer,again,再次,ADV
-zien,to see,看见,VERB
-jij,you,你,PRON
-eerste,first,第一,ADJ
-komen,to come,来,VERB
-wij,we,我们,PRON
-echt,real,真的,ADJ
-eens,once,曾经,ADV
-daar,there,那里,ADV
-heel,very,非常,ADV
-toch,anyway,仍然,ADV
-dag,day,天,NOUN
-mee,along,一起,ADP
-staan,to stand,站立,VERB
 alle,all,所有,DET
-tijd,time,时间,NOUN
-zij,she,她,PRON
-zoals,as,像,SCONJ
-iets,something,某事,PRON
-leven,to live,生活,VERB
-omdat,because,因为,SCONJ
-toen,when,当时,ADV
-hem,him,他,PRON
-jullie,you,你们,PRON
-tijdens,during,在...期间,ADP
+alleen,only,只,ADV
+allemaal,all,全部,ADV
+alles,everything,一切,PRON
+als,as,作为,SCONJ
+alsjeblieft,please,请,INTJ
+alstublieft,please,请,INTJ
 altijd,always,总是,ADV
-tussen,between,在...之间,ADP
+ander,other,其他的,ADJ
+anders,otherwise,否则,ADV
+appel,apple,苹果,NOUN
+april,April,四月,NOUN
+artikel,article,文章,NOUN
+au,ouch,哎哟,INTJ
+augustus,August,八月,NOUN
+auto,car,汽车,NOUN
+avond,evening,晚上,NOUN
+badkamer,bathroom,浴室,NOUN
+bakker,baker,面包师,NOUN
+banaan,banana,香蕉,NOUN
+bang,scared,害怕的,ADJ
+bed,bed,床,NOUN
+bedanken,to thank,感谢,VERB
+bedankt,thank you,谢谢,INTJ
+bedrijf,company,公司,NOUN
+beer,bear,熊,NOUN
+beetje,bit,一点,NOUN
+begin,start,开始,NOUN
+beginnen,to start,开始,VERB
+begrijpen,to understand,理解,VERB
+beide,both,两者都,PRON
+bekend,known,已知的,ADJ
+belangrijk,important,重要的,ADJ
+bellen,to call,打电话,VERB
+berg,mountain,山,NOUN
+beste,best,最好的,ADJ
+betalen,to pay,支付,VERB
+beter,better,更好,ADJ
+bezig,busy,忙碌的,ADJ
+bezoeken,to visit,拜访,VERB
+bij,at,在,ADP
+bijna,almost,几乎,ADV
+bijvoorbeeld,for example,例如,ADV
+binnen,inside,在...内,ADP
+blij,happy,高兴的,ADJ
+blijven,to stay,停留,VERB
+bliksem,lightning,闪电,NOUN
+bloem,flower,花,NOUN
+boek,book,书,NOUN
+boer,farmer,农民,NOUN
+boerderij,farm,农场,NOUN
+boom,tree,树,NOUN
+boot,boat,小船,NOUN
+bord,plate,盘子,NOUN
+bos,forest,森林,NOUN
+boter,butter,黄油,NOUN
+boterham,slice of bread,面包片,NOUN
+bouwen,to build,建造,VERB
+boven,above,在...上面,ADP
+breed,wide,宽的,ADJ
+brengen,to bring,带来,VERB
+brief,letter,信,NOUN
+bril,glasses,眼镜,NOUN
+broek,trousers,裤子,NOUN
+brood,bread,面包,NOUN
+brug,bridge,桥,NOUN
+bruin,brown,棕色的,ADJ
+buiten,outside,在外面,ADP
+bus,bus,公共汽车,NOUN
+buur,neighbor,邻居,NOUN
+buurt,neighbourhood,社区,NOUN
+cadeau,gift,礼物,NOUN
+café,cafe,咖啡馆,NOUN
+centrum,center,中心,NOUN
+chocolade,chocolate,巧克力,NOUN
+computer,computer,电脑,NOUN
+controleren,to check,检查,VERB
+daar,there,那里,ADV
+daarna,after that,然后,ADV
+daarom,therefore,因此,ADV
+dag,day,天,NOUN
+dak,roof,屋顶,NOUN
+dan,than,比,ADV
+dank,thanks,感谢,NOUN
+dans,dance,舞蹈,NOUN
+dansen,to dance,跳舞,VERB
+dat,that,那,PRON
+de,the,这,DET
+december,December,十二月,NOUN
+deel,part,部分,NOUN
+delen,to share,分享,VERB
+denken,to think,想,VERB
+der,the,（定冠词）,DET
+dertig,thirty,三十,NUM
+deur,door,门,NOUN
+deze,this,这,DET
+dezelfde,same,相同的,ADJ
+die,that,那个,PRON
+dinsdag,Tuesday,星期二,NOUN
+dit,this,这个,PRON
+dochter,daughter,女儿,NOUN
+doel,goal,目标,NOUN
+doen,to do,做,VERB
+dokter,doctor,医生,NOUN
+donder,thunder,雷,NOUN
+donderdag,Thursday,星期四,NOUN
+donker,dark,黑暗的,ADJ
+dood,dead,死的,ADJ
+door,through,通过,ADP
+dragen,to carry,携带,VERB
+drie,three,三,NUM
+drinken,to drink,喝,VERB
+droog,dry,干燥的,ADJ
+druk,busy,忙碌的,ADJ
+duidelijk,clear,清楚的,ADJ
+duizend,thousand,千,NUM
+dus,so,所以,ADV
+echt,real,真的,ADJ
+een,a,一个,DET
+eend,duck,鸭子,NOUN
+eens,once,曾经,ADV
+eerder,earlier,较早,ADV
+eerst,first,首先,ADV
+eerste,first,第一,ADJ
+ei,egg,鸡蛋,NOUN
+eigen,own,自己的,ADJ
+eigenlijk,actually,其实,ADV
+eiland,island,岛屿,NOUN
+einde,end,结束,NOUN
+elf,eleven,十一,NUM
+elk,each,每个,PRON
+elkaar,each other,彼此,PRON
+elke,each,每个,DET
+en,and,和,CCONJ
+enig,only,唯一的,ADJ
+enkele,some,一些,DET
+er,there,那里,ADV
+erg,very,非常,ADV
+eten,to eat,吃,VERB
+even,just,稍等,ADV
+familie,family,家庭,NOUN
+februari,February,二月,NOUN
+fiets,bicycle,自行车,NOUN
+fietsen,to cycle,骑自行车,VERB
+fles,bottle,瓶子,NOUN
+fluisteren,to whisper,低语,VERB
+foto,photo,照片,NOUN
+fruit,fruit,水果,NOUN
+gaan,to go,去,VERB
+gebied,area,区域,NOUN
+gebruik,use,使用,NOUN
+gebruiken,to use,使用,VERB
+geel,yellow,黄色的,ADJ
+geen,no,没有,DET
+gefeliciteerd,congratulations,恭喜,INTJ
+geld,money,钱,NOUN
+geleden,ago,以前,ADV
+gelijk,equal,平等的,ADJ
+gelukkig,happy,快乐的,ADJ
+gemeente,municipality,市镇,NOUN
+genoeg,enough,足够,ADV
+geschiedenis,history,历史,NOUN
+geval,case,情况,NOUN
+geven,to give,给,VERB
+gevoel,feeling,感觉,NOUN
+gewoon,ordinary,普通的,ADJ
+glas,glass,玻璃,NOUN
+goed,good,好,ADJ
+goedemorgen,good morning,早上好,INTJ
+goedkoop,cheap,便宜的,ADJ
+goud,gold,金,NOUN
+graag,gladly,乐意地,ADV
+gratis,free,免费的,ADJ
+grijs,gray,灰色的,ADJ
+groente,vegetable,蔬菜,NOUN
+groep,group,组,NOUN
+grond,ground,地面,NOUN
+groot,big,大的,ADJ
+haar,her,她的,DET
+haar,hair,头发,NOUN
+halen,to fetch,取,VERB
+hallo,hello,你好,INTJ
+hand,hand,手,NOUN
+handdoek,towel,毛巾,NOUN
+hart,heart,心,NOUN
+haven,harbour,港口,NOUN
+hebben,to have,有,AUX
+hebben,to have,有,VERB
+heel,whole,整个的,ADJ
+heel,very,非常,ADV
+heet,hot,热的,ADJ
+helemaal,completely,完全,ADV
+helpen,to help,帮助,VERB
+hem,him,他,PRON
+hemel,sky,天空,NOUN
+hen,them,他们,PRON
+herfst,autumn,秋天,NOUN
+het,it,它,PRON
+heten,to be called,名叫,VERB
+hetzelfde,the same,相同的,ADJ
+hier,here,这里,ADV
+hij,he,他,PRON
+hoe,how,如何,ADV
+hoed,hat,帽子,NOUN
+hond,dog,狗,NOUN
+hoofd,head,头,NOUN
+hoop,hope,希望,NOUN
+hopen,to hope,希望,VERB
+horen,to hear,听见,VERB
+horloge,watch,手表,NOUN
+houden,to keep,保持,VERB
+huidig,current,当前的,ADJ
+huilen,to cry,哭,VERB
+huis,house,房子,NOUN
+hulp,help,帮助,NOUN
+hun,their,他们的,PRON
+huren,to rent,租,VERB
+hé,hey,嘿,INTJ
+idee,idea,主意,NOUN
+ieder,every,每个,PRON
+iedereen,everyone,每个人,PRON
+iemand,someone,某人,PRON
+iets,something,某事,PRON
+ijs,ice,冰,NOUN
+ijzer,iron,铁,NOUN
+ik,I,我,PRON
+informatie,information,信息,NOUN
 ja,yes,是,INTJ
+jaar,year,年,NOUN
+januari,January,一月,NOUN
+jarig,having a birthday,过生日的,ADJ
+jas,coat,外套,NOUN
+je,you,你,PRON
+jij,you,你,PRON
+jou,you,你,PRON
+jouw,your,你的,PRON
+juist,correct,正确的,ADJ
+juli,July,七月,NOUN
+jullie,you,你们,PRON
+juni,June,六月,NOUN
+kaart,card,卡片,NOUN
+kaartje,ticket,票,NOUN
+kaas,cheese,奶酪,NOUN
+kamer,room,房间,NOUN
+kans,chance,机会,NOUN
+kant,side,边,NOUN
+kast,cupboard,柜子,NOUN
+kat,cat,猫,NOUN
+keer,time,次,NOUN
+kerst,Christmas,圣诞节,NOUN
+kijken,to look,看,VERB
+kind,child,孩子,NOUN
+kip,chicken,鸡,NOUN
+klaar,ready,准备好的,ADJ
+klein,small,小的,ADJ
+klok,clock,钟,NOUN
+koe,cow,牛,NOUN
+koffer,suitcase,行李箱,NOUN
+koffie,coffee,咖啡,NOUN
+koken,to cook,烹饪,VERB
+komen,to come,来,VERB
+kopen,to buy,买,VERB
+kou,cold,寒冷,NOUN
+krant,newspaper,报纸,NOUN
+krijgen,to get,得到,VERB
+kunnen,can,能,AUX
+kussen,pillow,枕头,NOUN
+kussen,to kiss,吻,VERB
+kwart,quarter,四分之一,NOUN
+laat,late,迟的,ADJ
+laatste,last,最后的,ADJ
+lachen,to laugh,笑,VERB
+lamp,lamp,灯,NOUN
+land,country,国家,NOUN
+landen,to land,降落,VERB
+lang,long,长,ADJ
+langs,along,沿着,ADP
+laptop,laptop,笔记本,NOUN
+laten,to let,让,VERB
+leeftijd,age,年龄,NOUN
+leeuw,lion,狮子,NOUN
+leggen,to put,放置,VERB
+lekker,tasty,美味的,ADJ
+lente,spring,春天,NOUN
+leraar,teacher,老师,NOUN
+leren,to learn,学习,VERB
+leuk,nice,好的,ADJ
+leven,to live,生活,VERB
+lezen,to read,阅读,VERB
+lichaam,body,身体,NOUN
+licht,light,轻的,ADJ
+licht,light,光,NOUN
+lid,member,成员,NOUN
+liefde,love,爱,NOUN
+lift,elevator,电梯,NOUN
+liggen,to lie,躺,VERB
+lopen,to walk,走,VERB
+lucht,air,空气,NOUN
+luchthaven,airport,机场,NOUN
+luisteren,to listen,听,VERB
+maan,moon,月亮,NOUN
+maand,month,月,NOUN
+maandag,Monday,星期一,NOUN
+maar,but,但是,CCONJ
+maart,March,三月,NOUN
+maken,to make,制作,VERB
+manier,way,方式,NOUN
+mee,along,一起,ADP
+meenemen,to take along,随身带,VERB
+meer,more,更多,ADV
+meest,most,最,ADV
+mei,May,五月,NOUN
+meisje,girl,女孩,NOUN
+melk,milk,牛奶,NOUN
+men,people,人们,PRON
+meneer,sir,先生,NOUN
+mes,knife,刀,NOUN
+met,with,和,ADP
+metaal,metal,金属,NOUN
+meteen,immediately,立刻,ADV
+metro,subway,地铁,NOUN
+mevrouw,Madam,女士,NOUN
+middag,afternoon,下午,NOUN
+midden,middle,中间,ADV
+mij,me,我,PRON
+mijn,my,我的,DET
+mijzelf,myself,我自己,PRON
+miljoen,million,百万,NUM
+minder,less,较少,ADV
+minuut,minute,分钟,NOUN
+misschien,maybe,也许,ADV
+moeder,mother,母亲,NOUN
+moeilijk,difficult,困难的,ADJ
+moeten,must,必须,AUX
+mogelijk,possible,可能的,ADJ
+mogen,to be allowed to,可以,AUX
+mooi,beautiful,美丽的,ADJ
+morgen,tomorrow,明天,ADV
+muis,mouse,鼠标,NOUN
+muur,wall,墙,NOUN
+muziek,music,音乐,NOUN
+na,after,在...之后,ADP
+naam,name,名字,NOUN
+naar,to,向,ADP
+naast,next to,在...旁边,ADP
+nacht,night,夜晚,NOUN
+nadat,after,在...之后,SCONJ
+nat,wet,湿的,ADJ
+natuurlijk,of course,当然,ADV
+nee,no,不,INTJ
+neef,cousin,堂兄弟,NOUN
+nemen,to take,拿,VERB
+net,just,刚刚,ADV
+niemand,no one,没有人,PRON
+niet,not,不,ADV
+niets,nothing,没有什么,PRON
+nieuw,new,新的,ADJ
+nieuws,news,新闻,NOUN
+niks,nothing,什么也没有,PRON
+nodig,necessary,必要的,ADJ
+nog,still,还,ADV
+nooit,never,从不,ADV
+nou,well,好了,ADV
+november,November,十一月,NOUN
+nu,now,现在,ADV
+nul,zero,零,NUM
+nummer,number,号码,NOUN
+o,oh,哦,INTJ
+ochtend,morning,早晨,NOUN
+of,or,或者,CCONJ
+oktober,October,十月,NOUN
+oké,okay,好的,INTJ
+olie,oil,油,NOUN
+olifant,elephant,大象,NOUN
+om,to,为了,ADP
+oma,grandma,奶奶,NOUN
+omdat,because,因为,SCONJ
+onder,under,在...下面,ADP
+onderwijs,education,教育,NOUN
+onderzoek,research,研究,NOUN
+ongeveer,about,大约,ADV
+ons,our,我们的,DET
+ons,us,我们,PRON
+ontbijten,to have breakfast,吃早餐,VERB
+ontmoeten,to meet,遇见,VERB
+ooit,ever,曾经,ADV
+ook,also,也,ADV
+oom,uncle,叔叔,NOUN
+oor,ear,耳朵,NOUN
+oorlog,war,战争,NOUN
+op,on,在,ADP
+opa,grandpa,爷爷,NOUN
+openen,to open,打开,VERB
+opnieuw,again,再次,ADV
+opstaan,to stand up,起立,VERB
+orde,order,秩序,NOUN
+organisatie,organization,组织,NOUN
+oud,old,老的,ADJ
+ouder,parent,父母,NOUN
+over,about,关于,ADP
+paar,couple,几个,NOUN
+paard,horse,马,NOUN
+pakken,to grab,抓,VERB
+papa,daddy,爸爸,NOUN
+papier,paper,纸,NOUN
+park,park,公园,NOUN
+partij,party,政党,NOUN
+pas,only just,刚刚,ADV
+paspoort,passport,护照,NOUN
+pen,pen,钢笔,NOUN
+peper,pepper,胡椒,NOUN
+persoon,person,人,NOUN
+pet,cap,鸭舌帽,NOUN
+plaats,place,地方,NOUN
+plaatsen,to place,放置,VERB
+plek,place,地方,NOUN
+politie,police,警察,NOUN
+potlood,pencil,铅笔,NOUN
+praten,to talk,说话,VERB
+precies,exact,准确的,ADJ
+prijs,price,价格,NOUN
+prinses,princess,公主,NOUN
+printer,printer,打印机,NOUN
+proberen,to try,尝试,VERB
+probleem,problem,问题,NOUN
+programma,program,节目,NOUN
+provincie,province,省,NOUN
+raam,window,窗户,NOUN
+recht,right,权利,NOUN
+reden,reason,原因,NOUN
+regen,rain,雨,NOUN
+regenen,to rain,下雨,VERB
+regio,region,地区,NOUN
+reizen,to travel,旅行,VERB
+rennen,to run,跑,VERB
+rijst,rice,米饭,NOUN
+ring,ring,戒指,NOUN
+rivier,river,河流,NOUN
+roepen,to shout,喊叫,VERB
+roken,to smoke,抽烟,VERB
+rol,role,角色,NOUN
+rond,around,在...周围,ADP
+roze,pink,粉红色,ADJ
+samen,together,一起,ADV
+schaap,sheep,羊,NOUN
+schaduw,shadow,阴影,NOUN
+schilderen,to paint,绘画,VERB
+schip,ship,船,NOUN
+schoen,shoe,鞋,NOUN
+schreeuwen,to scream,尖叫,VERB
+schrijven,to write,写,VERB
+september,September,九月,NOUN
+shirt,shirt,衬衫,NOUN
+sinds,since,自从,ADP
+sjaal,scarf,围巾,NOUN
+slaapkamer,bedroom,卧室,NOUN
+slapen,to sleep,睡觉,VERB
+slecht,bad,坏的,ADJ
+sleutel,key,钥匙,NOUN
+sluiten,to close,关闭,VERB
+sneeuw,snow,雪,NOUN
+snel,fast,快的,ADJ
+soep,soup,汤,NOUN
+sok,sock,袜子,NOUN
+sommige,some,一些,DET
+soms,sometimes,有时,ADV
+soort,kind,种类,NOUN
+speelgoed,toys,玩具,NOUN
+spelen,to play,玩,VERB
+spreken,to speak,说话,VERB
+springen,to jump,跳,VERB
+staan,to stand,站立,VERB
+stad,city,城市,NOUN
+station,station,车站,NOUN
+steeds,still,仍然,ADV
+steen,stone,石头,NOUN
+stellen,to set,放置,VERB
+ster,star,星星,NOUN
+stoel,chair,椅子,NOUN
+stoppen,to stop,停止,VERB
+storm,storm,暴风雨,NOUN
+straat,street,街道,NOUN
+strand,beach,海滩,NOUN
+studeren,to study,学习,VERB
+stuk,piece,块,NOUN
+sturen,to send,发送,VERB
+suiker,sugar,糖,NOUN
+supermarkt,supermarket,超市,NOUN
+taart,cake,蛋糕,NOUN
+tafel,table,桌子,NOUN
+tak,branch,树枝,NOUN
+tand,tooth,牙齿,NOUN
+tandenborstel,toothbrush,牙刷,NOUN
+tante,aunt,阿姨,NOUN
+tas,bag,包,NOUN
+te,to,去,PART
+tegen,against,反对,ADP
+tekenen,to draw,画,VERB
+telefoon,phone,电话,NOUN
+tellen,to count,数,VERB
+tent,tent,帐篷,NOUN
+terug,back,回,ADV
+thee,tea,茶,NOUN
+thuis,at home,在家,ADV
+tien,ten,十,NUM
+tijd,time,时间,NOUN
+tijdens,during,在...期间,ADP
+toch,anyway,仍然,ADV
+toe,to,向,ADP
+toekomst,future,未来,NOUN
+toen,when,当时,ADV
+toetsenbord,keyboard,键盘,NOUN
+tot,until,直到,ADP
+tram,tram,有轨电车,NOUN
+trein,train,火车,NOUN
+tuin,garden,花园,NOUN
+tussen,between,在...之间,ADP
+twee,two,二,NUM
+tweede,second,第二,ADJ
+u,you,您,PRON
+ui,onion,洋葱,NOUN
+uit,out,出,ADP
+uiteindelijk,eventually,最终,ADV
+uur,hour,小时,NOUN
+uw,your,您的,DET
+vaak,often,经常,ADV
+vader,father,父亲,NOUN
+vallen,to fall,掉落,VERB
+van,of,的,ADP
+vanaf,from,从,ADP
+vandaag,today,今天,ADV
+vanuit,from,从,ADP
+vanwege,because of,由于,ADP
+varken,pig,猪,NOUN
+vast,fixed,固定的,ADJ
+veel,many,许多,DET
+veertig,forty,四十,NUM
+veranderen,to change,改变,VERB
+verder,further,进一步,ADV
+verf,paint,油漆,NOUN
+vergeten,to forget,忘记,VERB
+verhaal,story,故事,NOUN
+verkopen,to sell,卖,VERB
+verliezen,to lose,失去,VERB
+verschillend,different,不同的,ADJ
+vertalen,to translate,翻译,VERB
+vertellen,to tell,告诉,VERB
+vertrekken,to depart,离开,VERB
+vier,four,四,NUM
+vijf,five,五,NUM
+vijfde,fifth,第五,ADJ
+vijftig,fifty,五十,NUM
+vinden,to find,找到,VERB
+vinger,finger,手指,NOUN
+vis,fish,鱼,NOUN
+vlees,meat,肉,NOUN
+vliegen,to fly,飞,VERB
+vliegtuig,airplane,飞机,NOUN
+vliegveld,airport,机场,NOUN
+vogel,bird,鸟,NOUN
+vol,full,满的,ADJ
+volgen,to follow,跟随,VERB
+volgend,next,下一个,ADJ
+voor,for,为了,ADP
+vooral,mainly,主要,ADV
+voordat,before,在...之前,SCONJ
+voorzichtig,careful,小心的,ADJ
+vork,fork,叉子,NOUN
+vorm,form,形式,NOUN
+vraag,question,问题,NOUN
+vragen,to ask,问,VERB
+vriendelijk,friendly,友好的,ADJ
+vrij,free,自由的,ADJ
+vrijdag,Friday,星期五,NOUN
+vroeg,early,早的,ADJ
+vrouw,woman,女人,NOUN
+vuur,fire,火,NOUN
+waar,where,哪里,ADV
+waarin,in which,在其中,PRON
+waarom,why,为什么,ADV
+waarschijnlijk,probably,可能,ADV
+wachten,to wait,等待,VERB
+wanneer,when,何时,ADV
+want,because,因为,CCONJ
+warmte,warmth,温暖,NOUN
+wassen,to wash,洗,VERB
+wat,what,什么,PRON
+water,water,水,NOUN
+wc,toilet,厕所,NOUN
+wedstrijd,competition,比赛,NOUN
+week,week,周,NOUN
+weer,again,再次,ADV
+weg,away,离开,ADV
+weinig,few,少的,ADJ
+wel,indeed,确实,ADV
+welke,which,哪个,PRON
+wereld,world,世界,NOUN
+werk,work,工作,NOUN
+werken,to work,工作,VERB
 weten,to know,知道,VERB
 wie,who,谁,PRON
-laten,to let,让,VERB
-waarom,why,为什么,ADV
-alles,everything,一切,PRON
-net,just,刚刚,ADV
-even,just,稍等,ADV
-gewoon,ordinary,普通的,ADJ
-groot,big,大的,ADJ
-terug,back,回,ADV
-af,off,关,ADP
-zonder,without,没有,ADP
-uur,hour,小时,NOUN
-steeds,still,仍然,ADV
-eigen,own,自己的,ADJ
-keer,time,次,NOUN
-willen,to want,想要,VERB
-iedereen,everyone,每个人,PRON
-weg,away,离开,ADV
-heel,whole,整个的,ADJ
-iemand,someone,某人,PRON
-binnen,inside,在...内,ADP
-uw,your,您的,DET
-werk,work,工作,NOUN
-nooit,never,从不,ADV
-zitten,to sit,坐,VERB
-drie,three,三,NUM
-zelf,self,自己,ADV
-aantal,number,数量,NOUN
-geven,to give,给,VERB
-kind,child,孩子,NOUN
-samen,together,一起,ADV
-vinden,to find,找到,VERB
-plaats,place,地方,NOUN
-snel,fast,快的,ADJ
-toe,to,向,ADP
-deel,part,部分,NOUN
-elkaar,each other,彼此,PRON
-huis,house,房子,NOUN
-laatste,last,最后的,ADJ
-mogen,to be allowed to,可以,AUX
-nodig,necessary,必要的,ADJ
-vanaf,from,从,ADP
-vrouw,woman,女人,NOUN
-krijgen,to get,得到,VERB
-want,because,因为,CCONJ
-allemaal,all,全部,ADV
-beter,better,更好,ADJ
-erg,very,非常,ADV
-zeggen,to say,说,VERB
-denken,to think,想,VERB
-land,country,国家,NOUN
-naam,name,名字,NOUN
-zeker,certainly,当然,ADV
-misschien,maybe,也许,ADV
-stad,city,城市,NOUN
-verschillend,different,不同的,ADJ
-volgens,according to,根据,ADP
-anders,otherwise,否则,ADV
-houden,to keep,保持,VERB
-volgend,next,下一个,ADJ
-blijven,to stay,停留,VERB
-graag,gladly,乐意地,ADV
-jou,you,你,PRON
-verder,further,进一步,ADV
-wanneer,when,何时,ADV
-beste,best,最好的,ADJ
-lang,long,长,ADJ
-niets,nothing,没有什么,PRON
-vandaag,today,今天,ADV
-vragen,to ask,问,VERB
-werken,to work,工作,VERB
-eerst,first,首先,ADV
-elke,each,每个,DET
-vraag,question,问题,NOUN
-zelfs,even,甚至,ADV
-gebruiken,to use,使用,VERB
-nee,no,不,INTJ
-wereld,world,世界,NOUN
-helemaal,completely,完全,ADV
-paar,couple,几个,NOUN
-foto,photo,照片,NOUN
-geld,money,钱,NOUN
-kijken,to look,看,VERB
-vooral,mainly,主要,ADV
-leuk,nice,好的,ADJ
-nemen,to take,拿,VERB
-vaak,often,经常,ADV
-achter,behind,在...之后,ADP
-natuurlijk,of course,当然,ADV
-sinds,since,自从,ADP
-zo'n,such a,这样的,DET
-bijna,almost,几乎,ADV
-mooi,beautiful,美丽的,ADJ
-ten,at,在,ADP
-dood,dead,死的,ADJ
-familie,family,家庭,NOUN
-nieuws,news,新闻,NOUN
-rond,around,在...周围,ADP
-jouw,your,你的,PRON
-klein,small,小的,ADJ
-tweede,second,第二,ADJ
-liggen,to lie,躺,VERB
-manier,way,方式,NOUN
-politie,police,警察,NOUN
-welke,which,哪个,PRON
-buiten,outside,在外面,ADP
-enkele,some,一些,DET
-geleden,ago,以前,ADV
-eten,to eat,吃,VERB
-klaar,ready,准备好的,ADJ
-oud,old,老的,ADJ
-echter,however,然而,ADV
-enig,only,唯一的,ADJ
-gebruik,use,使用,NOUN
-helpen,to help,帮助,VERB
-hoop,hope,希望,NOUN
-men,people,人们,PRON
-minder,less,较少,ADV
-nou,well,好了,ADV
-beetje,bit,一点,NOUN
-bekend,known,已知的,ADJ
-genoeg,enough,足够,ADV
-groep,group,组,NOUN
-laat,late,迟的,ADJ
-mogelijk,possible,可能的,ADJ
-auto,car,汽车,NOUN
-soms,sometimes,有时,ADV
-thuis,at home,在家,ADV
-den,pine,松树,NOUN
-niks,nothing,什么也没有,PRON
-spelen,to play,玩,VERB
-zoeken,to search,寻找,VERB
-hen,them,他们,PRON
-onderzoek,research,研究,NOUN
-terwijl,while,当……时,SCONJ
-vier,four,四,NUM
-zorgen,to ensure,确保,VERB
-eigenlijk,actually,其实,ADV
-informatie,information,信息,NOUN
-pas,only just,刚刚,ADV
-waarin,in which,在其中,PRON
-probleem,problem,问题,NOUN
-vanuit,from,从,ADP
-ooit,ever,曾经,ADV
-soort,kind,种类,NOUN
-vader,father,父亲,NOUN
-vast,fixed,固定的,ADJ
-zeer,very,非常,ADV
-artikel,article,文章,NOUN
-begin,start,开始,NOUN
-gebied,area,区域,NOUN
-vrij,free,自由的,ADJ
-zodat,so that,以便,SCONJ
-daarom,therefore,因此,ADV
-idee,idea,主意,NOUN
-leren,to learn,学习,VERB
-moeder,mother,母亲,NOUN
-ongeveer,about,大约,ADV
-regio,region,地区,NOUN
-vijf,five,五,NUM
-boven,above,在...上面,ADP
-der,the,（定冠词）,DET
-niemand,no one,没有人,PRON
-oktober,October,十月,NOUN
-verhaal,story,故事,NOUN
-brengen,to bring,带来,VERB
-eerder,earlier,较早,ADV
-kans,chance,机会,NOUN
-meest,most,最,ADV
-horen,to hear,听见,VERB
-opnieuw,again,再次,ADV
-meisje,girl,女孩,NOUN
-muziek,music,音乐,NOUN
-naast,next to,在...旁边,ADP
-slechts,only,仅仅,ADV
-waarbij,whereby,借此,ADV
-zetten,to put,放置,VERB
-zoon,son,儿子,NOUN
-daarna,after that,然后,ADV
-duidelijk,clear,清楚的,ADJ
-hoofd,head,头,NOUN
-wachten,to wait,等待,VERB
-zorg,care,照顾,NOUN
-zowel,both,两者都,CCONJ
-boek,book,书,NOUN
-dank,thanks,感谢,NOUN
-gemeente,municipality,市镇,NOUN
-gratis,free,免费的,ADJ
-lekker,tasty,美味的,ADJ
-maand,month,月,NOUN
-weinig,few,少的,ADJ
-belangrijk,important,重要的,ADJ
-blij,happy,高兴的,ADJ
-druk,busy,忙碌的,ADJ
-gelijk,equal,平等的,ADJ
-lopen,to walk,走,VERB
-precies,exact,准确的,ADJ
-vol,full,满的,ADJ
-afgelopen,last,过去的,ADJ
-beginnen,to start,开始,VERB
-dezelfde,same,相同的,ADJ
-geval,case,情况,NOUN
-miljoen,million,百万,NUM
-o,oh,哦,INTJ
-sommige,some,一些,DET
-zoveel,so much,这么多,DET
-halen,to fetch,取,VERB
-lezen,to read,阅读,VERB
-moeilijk,difficult,困难的,ADJ
-nummer,number,号码,NOUN
-ouder,parent,父母,NOUN
-partij,party,政党,NOUN
-zaak,business,事务,NOUN
-bezig,busy,忙碌的,ADJ
-langs,along,沿着,ADP
-morgen,tomorrow,明天,ADV
-hulp,help,帮助,NOUN
-nadat,after,在...之后,SCONJ
-bedankt,thank you,谢谢,INTJ
-bijvoorbeeld,for example,例如,ADV
-delen,to share,分享,VERB
-oorlog,war,战争,NOUN
-praten,to talk,说话,VERB
-recht,right,权利,NOUN
-einde,end,结束,NOUN
-kamer,room,房间,NOUN
-prijs,price,价格,NOUN
-programma,program,节目,NOUN
-orde,order,秩序,NOUN
-volgen,to follow,跟随,VERB
-plaatsen,to place,放置,VERB
-juist,correct,正确的,ADJ
-kant,side,边,NOUN
-landen,to land,降落,VERB
-reden,reason,原因,NOUN
-vanwege,because of,由于,ADP
-waardoor,as a result of which,由此,ADV
-elk,each,每个,PRON
-gevoel,feeling,感觉,NOUN
-worden,to become,成为,VERB
-voordat,before,在...之前,SCONJ
-aandacht,attention,注意,NOUN
-beide,both,两者都,PRON
-geschiedenis,history,历史,NOUN
-hetzelfde,the same,相同的,ADJ
-midden,middle,中间,ADV
-proberen,to try,尝试,VERB
-slecht,bad,坏的,ADJ
-stuk,piece,块,NOUN
-vervolgens,then,随后,ADV
-waarschijnlijk,probably,可能,ADV
-bedrijf,company,公司,NOUN
-gelukkig,happy,快乐的,ADJ
-lid,member,成员,NOUN
-lichaam,body,身体,NOUN
-onderwijs,education,教育,NOUN
-plek,place,地方,NOUN
-stellen,to set,放置,VERB
-wedstrijd,competition,比赛,NOUN
-zes,six,六,NUM
-dochter,daughter,女儿,NOUN
-ervan,of it,关于它,ADV
-meteen,immediately,立刻,ADV
-persoon,person,人,NOUN
-rol,role,角色,NOUN
-uiteindelijk,eventually,最终,ADV
-vorm,form,形式,NOUN
-woord,word,单词,NOUN
-buurt,neighbourhood,社区,NOUN
-kopen,to buy,买,VERB
-leeftijd,age,年龄,NOUN
-liefde,love,爱,NOUN
-toekomst,future,未来,NOUN
-verenigen,to unite,联合,VERB
-avond,evening,晚上,NOUN
-betalen,to pay,支付,VERB
-doel,goal,目标,NOUN
-hart,heart,心,NOUN
-heen,away,离开,ADV
-ieder,every,每个,PRON
-organisatie,organization,组织,NOUN
-provincie,province,省,NOUN
-tien,ten,十,NUM
-vergeten,to forget,忘记,VERB
-actie,action,行动,NOUN
-huidig,current,当前的,ADJ
-bang,scared,害怕的,ADJ
-centrum,center,中心,NOUN
-jarige,year-old,岁的,ADJ
-spreken,to speak,说话,VERB
-schrijven,to write,写,VERB
-drinken,to drink,喝,VERB
-slapen,to sleep,睡觉,VERB
-koken,to cook,烹饪,VERB
-wassen,to wash,洗,VERB
-huren,to rent,租,VERB
-roken,to smoke,抽烟,VERB
-fietsen,to cycle,骑自行车,VERB
-vliegen,to fly,飞,VERB
-zwemmen,to swim,游泳,VERB
-dansen,to dance,跳舞,VERB
-zingen,to sing,唱歌,VERB
-studeren,to study,学习,VERB
-tekenen,to draw,画,VERB
-schilderen,to paint,绘画,VERB
-bouwen,to build,建造,VERB
-sturen,to send,发送,VERB
-bellen,to call,打电话,VERB
-stoppen,to stop,停止,VERB
-vallen,to fall,掉落,VERB
-dragen,to carry,携带,VERB
-leggen,to put,放置,VERB
-begrijpen,to understand,理解,VERB
-ontmoeten,to meet,遇见,VERB
-bezoeken,to visit,拜访,VERB
-vertellen,to tell,告诉,VERB
-verkopen,to sell,卖,VERB
-hopen,to hope,希望,VERB
-aankomen,to arrive,到达,VERB
-vertrekken,to depart,离开,VERB
-reizen,to travel,旅行,VERB
-pakken,to grab,抓,VERB
-vullen,to fill,填满,VERB
-sluiten,to close,关闭,VERB
-openen,to open,打开,VERB
-winnen,to win,赢,VERB
-verliezen,to lose,失去,VERB
-bewaren,to keep,保存,VERB
-ontbijten,to have breakfast,吃早餐,VERB
-oefenen,to practice,练习,VERB
-luisteren,to listen,听,VERB
-lachen,to laugh,笑,VERB
-huilen,to cry,哭,VERB
-roepen,to shout,喊叫,VERB
-schreeuwen,to scream,尖叫,VERB
-fluisteren,to whisper,低语,VERB
-vertalen,to translate,翻译,VERB
-controleren,to check,检查,VERB
-veranderen,to change,改变,VERB
-water,water,水,NOUN
-brood,bread,面包,NOUN
-melk,milk,牛奶,NOUN
-koffie,coffee,咖啡,NOUN
-thee,tea,茶,NOUN
-appel,apple,苹果,NOUN
-banaan,banana,香蕉,NOUN
-ei,egg,鸡蛋,NOUN
-boter,butter,黄油,NOUN
-kaas,cheese,奶酪,NOUN
-vlees,meat,肉,NOUN
-vis,fish,鱼,NOUN
-groente,vegetable,蔬菜,NOUN
-fruit,fruit,水果,NOUN
-soep,soup,汤,NOUN
-rijst,rice,米饭,NOUN
-aardappel,potato,土豆,NOUN
-suiker,sugar,糖,NOUN
-zout,salt,盐,NOUN
-peper,pepper,胡椒,NOUN
-tafel,table,桌子,NOUN
-stoel,chair,椅子,NOUN
-bed,bed,床,NOUN
-kast,cupboard,柜子,NOUN
-raam,window,窗户,NOUN
-deur,door,门,NOUN
-muur,wall,墙,NOUN
-vloer,floor,地板,NOUN
-dak,roof,屋顶,NOUN
-sleutel,key,钥匙,NOUN
-klok,clock,钟,NOUN
-lamp,lamp,灯,NOUN
-spiegel,mirror,镜子,NOUN
-handdoek,towel,毛巾,NOUN
-zeep,soap,肥皂,NOUN
-tandenborstel,toothbrush,牙刷,NOUN
-tas,bag,包,NOUN
-koffer,suitcase,行李箱,NOUN
-jas,coat,外套,NOUN
-broek,trousers,裤子,NOUN
-shirt,shirt,衬衫,NOUN
-schoen,shoe,鞋,NOUN
-sok,sock,袜子,NOUN
-hoed,hat,帽子,NOUN
-sjaal,scarf,围巾,NOUN
-pet,cap,鸭舌帽,NOUN
-bril,glasses,眼镜,NOUN
-horloge,watch,手表,NOUN
-ring,ring,戒指,NOUN
-telefoon,phone,电话,NOUN
-computer,computer,电脑,NOUN
-laptop,laptop,笔记本,NOUN
-scherm,screen,屏幕,NOUN
-toetsenbord,keyboard,键盘,NOUN
-muis,mouse,鼠标,NOUN
-printer,printer,打印机,NOUN
-papier,paper,纸,NOUN
-pen,pen,钢笔,NOUN
-potlood,pencil,铅笔,NOUN
-krant,newspaper,报纸,NOUN
-brief,letter,信,NOUN
-kaart,card,卡片,NOUN
-tent,tent,帐篷,NOUN
-fiets,bicycle,自行车,NOUN
-bus,bus,公共汽车,NOUN
-trein,train,火车,NOUN
-tram,tram,有轨电车,NOUN
-metro,subway,地铁,NOUN
-vliegtuig,airplane,飞机,NOUN
-schip,ship,船,NOUN
-boot,boat,小船,NOUN
-brug,bridge,桥,NOUN
-station,station,车站,NOUN
-haven,harbour,港口,NOUN
-luchthaven,airport,机场,NOUN
-straat,street,街道,NOUN
-plein,square,广场,NOUN
-park,park,公园,NOUN
-tuin,garden,花园,NOUN
-bos,forest,森林,NOUN
-zee,sea,海,NOUN
-rivier,river,河流,NOUN
-berg,mountain,山,NOUN
-strand,beach,海滩,NOUN
-eiland,island,岛屿,NOUN
-hemel,sky,天空,NOUN
-grond,ground,地面,NOUN
-steen,stone,石头,NOUN
-boom,tree,树,NOUN
-bloem,flower,花,NOUN
-gras,grass,草,NOUN
-blad,leaf,叶子,NOUN
-wortel,carrot,胡萝卜,NOUN
-tak,branch,树枝,NOUN
-vogel,bird,鸟,NOUN
-hond,dog,狗,NOUN
-kat,cat,猫,NOUN
-paard,horse,马,NOUN
-koe,cow,牛,NOUN
-varken,pig,猪,NOUN
-schaap,sheep,羊,NOUN
-kip,chicken,鸡,NOUN
-eend,duck,鸭子,NOUN
-beer,bear,熊,NOUN
-aap,monkey,猴子,NOUN
-olifant,elephant,大象,NOUN
 wiel,wheel,轮子,NOUN
-olie,oil,油,NOUN
-verf,paint,油漆,NOUN
-glas,glass,玻璃,NOUN
-hout,wood,木头,NOUN
-metaal,metal,金属,NOUN
-ijzer,iron,铁,NOUN
-goud,gold,金,NOUN
-zilver,silver,银,NOUN
-vuur,fire,火,NOUN
-rook,smoke,烟,NOUN
-licht,light,光,NOUN
-schaduw,shadow,阴影,NOUN
-warmte,warmth,温暖,NOUN
-kou,cold,寒冷,NOUN
-ijs,ice,冰,NOUN
-sneeuw,snow,雪,NOUN
-regen,rain,雨,NOUN
-wolk,cloud,云,NOUN
+wij,we,我们,PRON
+willen,to want,想要,AUX
+willen,to want,想要,VERB
 wind,wind,风,NOUN
-storm,storm,暴风雨,NOUN
-donder,thunder,雷,NOUN
-bliksem,lightning,闪电,NOUN
-zon,sun,太阳,NOUN
-maan,moon,月亮,NOUN
-ster,star,星星,NOUN
-lucht,air,空气,NOUN
-aarde,earth,地球,NOUN
-lente,spring,春天,NOUN
-zomer,summer,夏天,NOUN
-herfst,autumn,秋天,NOUN
+winnen,to win,赢,VERB
 winter,winter,冬天,NOUN
-ochtend,morning,早晨,NOUN
-middag,afternoon,下午,NOUN
-nacht,night,夜晚,NOUN
-week,week,周,NOUN
-minuut,minute,分钟,NOUN
-seconde,second,秒,NOUN
-maandag,Monday,星期一,NOUN
-dinsdag,Tuesday,星期二,NOUN
 woensdag,Wednesday,星期三,NOUN
-donderdag,Thursday,星期四,NOUN
-vrijdag,Friday,星期五,NOUN
+wolk,cloud,云,NOUN
+woord,word,单词,NOUN
+worden,to become,成为,AUX
+worden,to become,成为,VERB
+wortel,carrot,胡萝卜,NOUN
+zaak,business,事务,NOUN
+zacht,soft,柔软的,ADJ
 zaterdag,Saturday,星期六,NOUN
+ze,they,他们,PRON
+zee,sea,海,NOUN
+zeep,soap,肥皂,NOUN
+zeer,very,非常,ADV
+zeggen,to say,说,VERB
+zeker,certainly,当然,ADV
+zelf,self,自己,ADV
+zelfde,same,相同的,ADJ
+zelfs,even,甚至,ADV
+zes,six,六,NUM
+zesde,sixth,第六,ADJ
+zetten,to put,放置,VERB
+zich,oneself,自己,PRON
+zien,to see,看见,VERB
+zij,she,她,PRON
+zijn,to be,是,AUX
+zingen,to sing,唱歌,VERB
+zitten,to sit,坐,VERB
+zo,so,这样,ADV
+zo'n,such a,这样的,DET
+zoals,as,像,SCONJ
+zodat,so that,以便,SCONJ
+zoeken,to search,寻找,VERB
+zomer,summer,夏天,NOUN
+zon,sun,太阳,NOUN
 zondag,Sunday,星期日,NOUN
-januari,January,一月,NOUN
-februari,February,二月,NOUN
-maart,March,三月,NOUN
-april,April,四月,NOUN
-mei,May,五月,NOUN
-juni,June,六月,NOUN
-juli,July,七月,NOUN
+zonder,without,没有,ADP
+zoon,son,儿子,NOUN
+zorg,care,照顾,NOUN
+zorgen,to ensure,确保,VERB
+zout,salt,盐,NOUN
+zoveel,so much,这么多,DET
+zowel,both,两者都,CCONJ
+zullen,shall,将要,AUX
+zwemmen,to swim,游泳,VERB
+één,one,一个,NUM
