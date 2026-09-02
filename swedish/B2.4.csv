@@ -1,76 +1,91 @@
 Swedish_Lemma,English_Lemma,Chinese_Lemma,POS
-avundas,envy,羡慕,VERB
-barmhärtighet,mercy,仁慈,NOUN
-bedårande,charming,迷人的,ADJ
-befäl,command,指挥,NOUN
+farlighet,dangerousness,危险性,NOUN
+kompromiss,compromise,妥协,NOUN
+godkännande,approval,批准,NOUN
+förbud,ban,禁令,NOUN
+farmaci,pharmacy,药学,NOUN
+åtgärd,measure,措施,NOUN
+farmaceut,pharmacist,药剂师,NOUN
+strategi,strategy,策略,NOUN
+taktik,tactics,战术,NOUN
+procedur,procedure,程序,NOUN
+arbetssätt,working method,工作方式,NOUN
+hjälpmedel,aid,辅助工具,NOUN
+fasad,facade,立面,NOUN
+redskap,tool,工具,NOUN
+anläggning,facility,设施,NOUN
+komplex,complex,建筑群,NOUN
+distrikt,district,区,NOUN
+gränslinje,boundary,边界线,NOUN
+helhet,whole,整体,NOUN
+sats,clause,从句,NOUN
+begrepp,concept,概念,NOUN
+term,term,术语,NOUN
+ordval,word choice,措辞,NOUN
+formulering,phrasing,措辞,NOUN
+färdas,travel,旅行,VERB
+tolkning,interpretation,口译,NOUN
+nyans,nuance,细微差别,NOUN
+fällas,be felled,被砍倒,VERB
+hederlig,honest,诚实的,ADJ
+tonfall,intonation,语调,NOUN
+åskådare,spectator,旁观者,NOUN
+frånvaro,absence,缺席,NOUN
+koncentration,concentration,专注,NOUN
+galler,gate,栅栏,NOUN
+observation,observation,观察,NOUN
+bevakning,coverage,报道,NOUN
+rapportering,reporting,报道,NOUN
+nyhetsrapportering,news reporting,新闻报道,NOUN
+massmedia,mass media,大众媒体,NOUN
+redaktör,editor,编辑,NOUN
+krönika,column,专栏,NOUN
+gedigen,solid,扎实的,ADJ
+recension,review,评论,NOUN
+odds,odds,赔率,NOUN
+så kallad,so-called,所谓的,ADJ
+gips,plaster,石膏,NOUN
+girig,greedy,贪婪的,ADJ
+girighet,greed,贪婪,NOUN
+insistera,insist,坚持,VERB
+offentlig,public,公共的,ADJ
+psykolog,psychologist,心理学家,NOUN
+tolerera,tolerate,容忍,VERB
 bekänna,confess,忏悔,VERB
-beskyddare,protector,保护者,NOUN
-bete,bait,诱饵,NOUN
 bitti,early morning,清晨,ADV
-borgen,bail,保释,NOUN
 bortom,beyond,在...之外,ADP
-dåre,fool,傻瓜,NOUN
-egendom,property,财产,NOUN
 elände,misery,苦难,NOUN
-flotta,fleet,舰队,NOUN
 frid,peace,和平,NOUN
-färdighet,skill,技能,NOUN
 förbanna,curse,诅咒,VERB
 förgöra,destroy,毁掉,VERB
 förmögenhet,wealth,财富,NOUN
 försprång,lead,领先,NOUN
 förstärkning,reinforcement,加强,NOUN
 förtjusande,delightful,令人愉快的,ADJ
-girighet,greed,贪婪,NOUN
-gisslan,hostage,人质,NOUN
-gosse,boy,男孩,NOUN
 gottgöra,compensate,补偿,VERB
 grann,nearby,附近的,ADJ
 gryning,dawn,黎明,NOUN
-guvernör,governor,州长,NOUN
-höghet,highness,殿下,NOUN
 immunitet,immunity,免疫力,NOUN
 knipa,pinch,捏,VERB
-kommendör,commander,指挥官,NOUN
 kommissarie,commissioner,专员,NOUN
-majestät,majesty,陛下,NOUN
-myra,ant,蚂蚁,NOUN
-narr,fool,傻瓜,NOUN
 odödlig,immortal,不朽的,ADJ
 skinna,shine,闪耀,VERB
-slakta,slaughter,屠宰,VERB
-slyna,scoundrel,无赖,NOUN
-stank,stink,恶臭,NOUN
-syndare,sinner,罪人,NOUN
 såvida,unless,除非,SCONJ
 territorium,territory,领土,NOUN
-ty,for,因为,CCONJ
-täckmantel,cover,覆盖物,NOUN
 underrättad,informed,被通知的,ADJ
-underrättelsetjänst,intelligence service,情报机构,NOUN
 vansinne,madness,疯狂,NOUN
 visdom,wisdom,智慧,NOUN
-yta,surface,表面,NOUN
 överenskommelse,agreement,协议,NOUN
 allians,alliance,联盟,NOUN
-amiral,admiral,海军上将,NOUN
-angenäm,pleasant,令人愉快的,ADJ
 anhängare,supporter,支持者,NOUN
 anhålla,detain,拘留,VERB
-anlita,hire,雇用,VERB
 anspråk,claim,要求,NOUN
-arvinge,heir,继承人,NOUN
-auktoritet,authority,权威,NOUN
 hävda,assert,断言,VERB
 yttra,express,表达,VERB
-utsäga,state,陈述,VERB
 poängtera,emphasize,强调,VERB
 ifrågasätta,question,质疑,VERB
-bemöta,respond to,回应,VERB
-beakta,consider,考虑到,VERB
 utvärdera,evaluate,评估,VERB
 fastställa,determine,确定,VERB
-erinra,remind,提醒,VERB
 redogöra,account for,说明,VERB
 redovisa,report,报告,VERB
 klargöra,clarify,澄清,VERB
@@ -89,7 +104,6 @@ samordna,coordinate,协调,VERB
 uppkomma,arise,产生,VERB
 framträda,appear,出现,VERB
 uppvisa,display,展示,VERB
-exemplifiera,exemplify,例证,VERB
 tillhandahålla,provide,提供,VERB
 tilldela,assign,分配,VERB
 särskilja,distinguish,区分,VERB
@@ -103,7 +117,6 @@ förkasta,reject,否定,VERB
 underkänna,fail,否决,VERB
 bifalla,approve,批准,VERB
 understödja,support,支持,VERB
-bistå,assist,援助,VERB
 gynna,favor,有利于,VERB
 missgynna,disfavor,不利于,VERB
 främja,promote,促进,VERB
@@ -117,58 +130,44 @@ inskränka,restrict,限制,VERB
 utsträcka,extend,延伸,VERB
 eftersträva,pursue,追求,VERB
 eftersöka,search for,搜寻,VERB
-erövra,conquer,征服,VERB
 tillägna,acquire,获得,VERB
 förvärva,acquire,取得,VERB
 införskaffa,procure,采购,VERB
 anskaffa,procure,购置,VERB
 administrera,administer,管理,VERB
+befordrad,promoted,晋升,ADJ
+befordran,promotion,晋升,NOUN
 förvalta,manage,管理,VERB
 dirigera,direct,指挥,VERB
 alarmera,alarm,报警,VERB
 återuppta,resume,恢复,VERB
 uppehålla,detain,逗留,VERB
+begäran,request,请求,NOUN
 fullfölja,complete,完成,VERB
-fullborda,complete,完成,VERB
 färdigställa,finalize,完成,VERB
 genomdriva,push through,推动,VERB
 pådriva,drive,推动,VERB
 framtvinga,force,迫使,VERB
-begagna,use,使用,VERB
-tillgodogöra,assimilate,吸收,VERB
-åtnjuta,enjoy,享有,VERB
 inhämta,gather,收集,VERB
-permittera,furlough,临时解雇,VERB
 uppsäga,dismiss,辞退,VERB
 vidarebefordra,forward,转发,VERB
 distribuera,distribute,分发,VERB
-förkunna,proclaim,宣告,VERB
-kungöra,announce,宣布,VERB
-tillkännage,announce,宣布,VERB
-bemyndiga,authorize,授权,VERB
 legitimera,legitimize,使合法,VERB
 sanktionera,sanction,认可,VERB
-beordra,order,命令,VERB
-befalla,command,命令,VERB
-anförtro,entrust,委托,VERB
 delegera,delegate,委派,VERB
 förorda,recommend,推荐,VERB
-dyrka,worship,崇拜,VERB
 tillträda,assume office,就任,VERB
 efterträda,succeed,继任,VERB
 avsätta,depose,罢免,VERB
 utnämna,appoint,任命,VERB
 medla,mediate,调解,VERB
-förlika,reconcile,调和,VERB
 försona,reconcile,使和解,VERB
 överlägga,deliberate,商议,VERB
 rådgöra,consult,商议,VERB
-rådslå,deliberate,商议,VERB
 samråda,consult,协商,VERB
 utvälja,select,挑选,VERB
 åtgärda,remedy,处理,VERB
 klarlägga,clarify,查明,VERB
-klarera,clear,澄清,VERB
 tillse,ensure,确保,VERB
 säkerställa,ensure,确保,VERB
 bekosta,finance,负担费用,VERB
@@ -180,7 +179,6 @@ senarelägga,postpone,推迟,VERB
 tidigarelägga,advance,提前,VERB
 grundlägga,found,奠基,VERB
 restaurera,restore,修复,VERB
-ihågkomma,recall,回想起,VERB
 federation,federation,联邦,NOUN
 konstitution,constitution,宪法,NOUN
 ministär,cabinet,内阁,NOUN
@@ -202,26 +200,12 @@ regelverk,rulebook,规则体系,NOUN
 kriterium,criterion,标准,NOUN
 förbehåll,reservation,保留,NOUN
 restriktion,restriction,限制,NOUN
-jurisdiktion,jurisdiction,管辖权,NOUN
-domstolsväsende,judiciary,司法体系,NOUN
 åtal,prosecution,起诉,NOUN
-notarie,clerk,书记员,NOUN
-talan,lawsuit,诉讼,NOUN
-käromål,claim,诉讼请求,NOUN
 instans,instance,审级,NOUN
 överklagande,appeal,上诉,NOUN
-bevisning,evidence,证据,NOUN
-indicie,indication,迹象,NOUN
-beslag,seizure,扣押,NOUN
-husrannsakan,house search,搜查,NOUN
 häktning,detention,羁押,NOUN
-anhållande,detention,拘留,NOUN
 frikännande,acquittal,无罪释放,NOUN
 fällande,conviction,定罪,NOUN
-straffmätning,sentencing,量刑,NOUN
-fångenskap,captivity,囚禁,NOUN
-kriminalvård,corrections,刑事司法,NOUN
-frigivning,release,释放,NOUN
 kartell,cartel,卡特尔,NOUN
 utdelning,dividend,分红,NOUN
 aktiemarknad,stock market,股市,NOUN
@@ -232,16 +216,15 @@ distributör,distributor,经销商,NOUN
 löntagare,employee,雇员,NOUN
 arbetstagare,employee,雇员,NOUN
 sysselsättning,employment,就业,NOUN
-befordran,promotion,晋升,NOUN
 avancemang,advancement,晋升,NOUN
 kvalifikation,qualification,资格,NOUN
 sakkunskap,expertise,专业知识,NOUN
 bildning,education,教养,NOUN
 läroplan,curriculum,课程,NOUN
-examination,examination,考试,NOUN
 tentamen,exam,考试,NOUN
 behörighet,qualification,资格,NOUN
 anslag,funding,拨款,NOUN
+benämna,denominate,命名,VERB
 subvention,subsidy,补贴,NOUN
 beskattning,taxation,征税,NOUN
 tjänstepension,occupational pension,职业养老金,NOUN
@@ -250,11 +233,9 @@ premie,premium,保费,NOUN
 skadestånd,damages,赔偿,NOUN
 skikt,stratum,阶层,NOUN
 underklass,underclass,底层,NOUN
-börd,descent,出身,NOUN
 härkomst,origin,出身,NOUN
 anor,ancestry,祖辈,NOUN
 släkte,kin,宗族,NOUN
-ätt,clan,家族,NOUN
 sed,custom,习俗,NOUN
 sedvänja,custom,习俗,NOUN
 ursprungsbefolkning,indigenous people,原住民,NOUN
@@ -262,39 +243,20 @@ minoritetsgrupp,minority group,少数群体,NOUN
 assimilering,assimilation,同化,NOUN
 likabehandling,equal treatment,平等待遇,NOUN
 främlingsfientlighet,xenophobia,仇外,NOUN
-förtal,slander,诽谤,NOUN
-smädelse,defamation,诽谤,NOUN
-hädelse,blasphemy,亵渎,NOUN
-dygd,virtue,美德,NOUN
 hederskultur,honor culture,荣誉文化,NOUN
-skamkultur,shame culture,羞耻文化,NOUN
-belåtenhet,satisfaction,满意,NOUN
 tillfredsställelse,satisfaction,满足,NOUN
 förtvivlan,despair,绝望,NOUN
-feghet,cowardice,懦弱,NOUN
-tapperhet,bravery,勇敢,NOUN
 strävan,striving,追求,NOUN
-ärelystnad,ambition,野心,NOUN
-delaktighet,involvement,参与感,NOUN
 hängivenhet,dedication,奉献,NOUN
-lidelse,passion,激情,NOUN
-åtrå,desire,渴望,NOUN
 begär,desire,欲望,NOUN
-tillgivenhet,affection,喜爱,NOUN
 förakt,contempt,蔑视,NOUN
 misstro,distrust,不信任,NOUN
 misstänksamhet,suspicion,怀疑,NOUN
 avund,envy,嫉妒,NOUN
 ansvarskänsla,sense of duty,责任感,NOUN
-pliktkänsla,sense of duty,责任感,NOUN
-samvetsfråga,matter of conscience,良心问题,NOUN
 överflöd,abundance,富足,NOUN
-resursbrist,resource shortage,资源短缺,NOUN
 rättssäkerhet,rule of law,法治,NOUN
-autonomi,autonomy,自主,NOUN
 suveränitet,sovereignty,主权,NOUN
-medbestämmande,co-determination,共同决定权,NOUN
-myndighetsutövning,exercise of authority,权力行使,NOUN
 befogenhet,authority,职权,NOUN
 medborgarrätt,citizenship right,公民权,NOUN
 åsiktsfrihet,freedom of opinion,意见自由,NOUN
@@ -302,82 +264,43 @@ demonstrationsfrihet,freedom of assembly,集会自由,NOUN
 tryckfrihet,freedom of the press,出版自由,NOUN
 sekretess,secrecy,保密,NOUN
 personlig integritet,privacy,个人隐私,NOUN
-dataskydd,data protection,数据保护,NOUN
-informationsutbyte,information exchange,信息交流,NOUN
-kunskapsutbyte,knowledge exchange,知识交流,NOUN
-kulturmöte,cultural encounter,文化交汇,NOUN
-värderingsgrund,values base,价值基础,NOUN
 livsåskådning,philosophy of life,人生观,NOUN
 trosuppfattning,belief,信仰,NOUN
 övertygelse,conviction,信念,NOUN
-åskådning,viewpoint,观点,NOUN
 sammanslutning,federation,联合,NOUN
 överläggning,deliberation,商议,NOUN
-erfarenhetsutbyte,experience exchange,经验交流,NOUN
-symposium,symposium,专题讨论会,NOUN
 ramverk,framework,框架,NOUN
 oreda,disorder,混乱,NOUN
 fundament,foundation,根基,NOUN
 landvinning,achievement,成就,NOUN
 bedrift,achievement,业绩,NOUN
-yrkesverksam,professionally active,在职,NOUN
-gärning,deed,事迹,NOUN
 ändamål,purpose,目的,NOUN
-fasett,facet,方面,NOUN
 kvantitet,quantity,数量,NOUN
 särdrag,trait,特征,NOUN
-attribut,attribute,属性,NOUN
-läggning,disposition,性情,NOUN
-sinnesstämning,mood,心境,NOUN
-sinneslag,disposition,心境,NOUN
 känsloliv,emotional life,情感生活,NOUN
-undermedvetande,subconscious,潜意识,NOUN
-åminnelse,remembrance,纪念,NOUN
-ihågkomst,recall,回忆,NOUN
-iakttagelse,observation,观察,NOUN
 infallsvinkel,angle of approach,切入点,NOUN
 förhållningssätt,attitude,态度,NOUN
 ståndpunkt,standpoint,立场,NOUN
-förmodan,conjecture,推测,NOUN
 hypotes,hypothesis,假设,NOUN
-tes,thesis,论点,NOUN
 motargument,counterargument,反论,NOUN
-belägg,evidence,证据,NOUN
+egendom,property,财产,NOUN
 inverkan,influence,影响,NOUN
-orsakssamband,causal link,因果关系,NOUN
 sammanträffande,coincidence,巧合,NOUN
-gränsdragning,demarcation,划界,NOUN
-preferens,preference,偏好,NOUN
-utlåtande,statement,意见,NOUN
 yttrande,statement,言论,NOUN
-signalement,description,描述,NOUN
 framställning,portrayal,陈述,NOUN
 redogörelse,account,报告,NOUN
 kartläggning,mapping,梳理,NOUN
-inventering,inventory,盘点,NOUN
-förlikning,settlement,和解,NOUN
-medgivande,consent,同意,NOUN
 samtycke,consent,同意,NOUN
-åtgärdsprogram,action plan,行动方案,NOUN
-förfaringssätt,procedure,程序,NOUN
-arbetsgång,procedure,工作流程,NOUN
 förfarande,procedure,程序,NOUN
-metodik,methodology,方法论,NOUN
 tillvägagångssätt,approach,做法,NOUN
-angreppssätt,approach,方法,NOUN
-anordning,device,装置,NOUN
-inrättning,establishment,机构,NOUN
-metropol,metropolis,大都市,NOUN
-periferi,periphery,边缘,NOUN
-ordlydelse,wording,措辞,NOUN
 språkbruk,language use,语言使用,NOUN
-språkvetenskap,linguistics,语言学,NOUN
-tydning,interpretation,解读,NOUN
-betydelseinnehåll,meaning content,语义内容,NOUN
 klang,sound,音,NOUN
 åhörare,listener,听众,NOUN
 korrespondent,correspondent,通讯员,NOUN
 essä,essay,散文,NOUN
-tillsägelse,rebuke,责备,NOUN
 tillrättavisning,reprimand,训斥,NOUN
 tilltal,address,称呼,NOUN
+erinra,remind,提醒,VERB
+etappmål,milestone,里程碑,NOUN
+etappvis,phased,分阶段地,ADV
+medarbetare,coworker,同事,NOUN
