@@ -2,7 +2,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 如同,as,如同,SCONJ
 如此,thus,如此,ADV
 妄想,delusion,妄想,NOUN
-妥协,to compromise,妥协,VERB
 妥善,appropriate,妥善,ADJ
 妥当,appropriate,妥当,ADJ
 妳,you (female),妳,PRON
@@ -17,8 +16,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 娇气,delicate,娇气,ADJ
 媒介,medium,媒介,NOUN
 媒体,media,媒体,NOUN
-媳妇,daughter-in-law,媳妇,NOUN
-嫂子,older brother's wife,嫂子,NOUN
 嫉妒,to be jealous,嫉妒,VERB
 嫌,to dislike,嫌,VERB
 嫌犯,suspect,嫌犯,NOUN
@@ -29,17 +26,13 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 字母,letter (of the alphabet),字母,NOUN
 季军,third place,季军,NOUN
 季度,quarter of a year,季度,NOUN
-孤独,lonely,孤独,ADJ
 孤立,to isolate,孤立,VERB
 学会,to learn,学会,VERB
-学位,academic degree,学位,NOUN
 学历,educational background,学历,NOUN
 学说,theory,学说,NOUN
 学院,academy,学院,NOUN
 宁愿,would rather,宁愿,ADV
 宁肯,would rather,宁肯,ADV
-它们,they (things),它们,PRON
-守,to guard,守,VERB
 守卫,to guard,守卫,VERB
 守护,to guard,守护,VERB
 安,peaceful,安,ADJ
@@ -56,9 +49,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 宏伟,grand,宏伟,ADJ
 宏观,macro,宏观,ADJ
 宗旨,objective,宗旨,NOUN
-官员,official,官员,NOUN
-官方,official,官方,ADJ
-定,to set,定,VERB
 定义,definition,定义,NOUN
 定位,positioning,定位,NOUN
 定期,regular,定期,ADJ
@@ -67,34 +57,22 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 实事求是,seek truth from facts,实事求是,VERB
 实力,strength,实力,NOUN
 实惠,tangible benefit,实惠,NOUN
-实施,to implement,实施,VERB
 实质,substance,实质,NOUN
-实际上,actually,实际上,ADV
 实验室,laboratory,实验室,NOUN
-审判,trial,审判,NOUN
-审查,to examine,审查,VERB
-审理,to hear a case,审理,VERB
 审美,aesthetics,审美,NOUN
 客户,client,客户,NOUN
-客气,polite,客气,ADJ
 宣扬,to proclaim,宣扬,VERB
-宣誓,to swear an oath,宣誓,VERB
 室,room,室,NOUN
-室友,roommate,室友,NOUN
 宪法,constitution,宪法,NOUN
 宫殿,palace,宫殿,NOUN
 宰,to slaughter,宰,VERB
 害,to harm,害,VERB
 害死,to cause death,害死,VERB
-家人,family,家人,NOUN
-家伙,guy,家伙,NOUN
 家喻户晓,well known,家喻户晓,ADJ
 家园,homeland,家园,NOUN
 家属,family member,家属,NOUN
 家常,everyday family life,家常,NOUN
 家族,clan,家族,NOUN
-家里,at home,家里,NOUN
-家长,parent,家长,NOUN
 容器,container,容器,NOUN
 容忍,to tolerate,容忍,VERB
 容纳,to hold,容纳,VERB
@@ -119,7 +97,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 对策,countermeasure,对策,NOUN
 对联,couplet,对联,NOUN
 寻常,ordinary,寻常,ADJ
-寻求,seek,寻求,VERB
 寻觅,search for,寻觅,VERB
 导向,guide,导向,VERB
 导师,tutor,导师,NOUN
@@ -135,7 +112,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 将军,general,将军,NOUN
 将要,will,将要,ADV
 将近,nearly,将近,ADV
-尊严,dignity,尊严,NOUN
 对,correct,对,ADJ
 小丑,clown,小丑,NOUN
 小事,trifle,小事,NOUN
@@ -148,45 +124,36 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 少校,major,少校,NOUN
 尖叫,to scream,尖叫,VERB
 尖端,sharp pointed end,尖端,NOUN
-尝试,to try,尝试,VERB
 就业,to find employment,就业,VERB
 就位,to be in position,就位,VERB
 就职,to take office,就职,VERB
 就近,nearby,就近,ADV
-尴尬,awkward,尴尬,ADJ
 尸体,dead body,尸体,NOUN
 尺,ruler,尺,NOUN
-尽,to exhaust,尽,VERB
 尽可能,as much as possible,尽可能,ADV
 尽头,the end,尽头,NOUN
 尽快,as quickly as possible,尽快,ADV
 尽情,to one's heart's content,尽情,ADV
 尿,urine,尿,NOUN
-局,bureau,局,NOUN
 局势,situation,局势,NOUN
 局部,part,局部,NOUN
 局长,director,局长,NOUN
 局限,to limit,局限,VERB
 局面,aspect,局面,NOUN
 屁,fart,屁,NOUN
-屁股,buttocks,屁股,NOUN
 层出不穷,to emerge one after another,层出不穷,ADJ
 层次,arrangement of ideas,层次,NOUN
 居住,to reside,居住,VERB
 居民,resident,居民,NOUN
 屈服,to surrender,屈服,VERB
-屋,house,屋,NOUN
 屋顶,roof,屋顶,NOUN
 屎,feces,屎,NOUN
 屏障,barrier,屏障,NOUN
 屑,scraps,屑,NOUN
 展望,outlook,展望,NOUN
-展现,to display,展现,VERB
-展示,to exhibit,展示,VERB
 屠杀,massacre,屠杀,NOUN
 屡次,repeatedly,屡次,ADV
 履行,to fulfill,履行,VERB
-山,mountain,山,NOUN
 山脉,mountain range,山脉,NOUN
 岁月,years,岁月,NOUN
 岂有此理,preposterous,岂有此理,ADJ
@@ -194,7 +161,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 岗位,post,岗位,NOUN
 岛屿,island,岛屿,NOUN
 岩石,rock,岩石,NOUN
-岳父,father-in-law,岳父,NOUN
 峡谷,canyon,峡谷,NOUN
 崇拜,to worship,崇拜,VERB
 崇敬,to revere,崇敬,VERB
@@ -202,37 +168,30 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 崩溃,to collapse,崩溃,VERB
 崭新,brand new,崭新,ADJ
 川流不息,unending flow,川流不息,ADJ
-州,prefecture,州,NOUN
 州长,governor,州长,NOUN
 巡逻,to patrol,巡逻,VERB
 工作室,studio,工作室,NOUN
 工夫,time,工夫,NOUN
 工程,engineering,工程,NOUN
 工艺品,handicraft,工艺品,NOUN
-左,left,左,NOUN
 左右,approximately,左右,ADV
 巧合,coincidence,巧合,NOUN
 巨人,giant,巨人,NOUN
 巩固,to consolidate,巩固,VERB
 差劲,lousy,差劲,ADJ
-差点,almost,差点,ADV
 差距,gap,差距,NOUN
 已,already,已,ADV
 巴不得,to be eager for,巴不得,VERB
-巴士,bus,巴士,NOUN
 巴结,to fawn on,巴结,VERB
 巷,lane,巷,NOUN
-市,city,市,NOUN
 市民,citizen,市民,NOUN
 市长,mayor,市长,NOUN
 布告,notice,布告,NOUN
 布局,layout,布局,NOUN
 布置,to arrange,布置,VERB
-帅哥,handsome guy,帅哥,NOUN
 师,teacher,师,NOUN
 师父,master,师父,NOUN
 师范,teacher training,师范,NOUN
-帐篷,tent,帐篷,NOUN
 帝国,empire,帝国,NOUN
 带子,belt,带子,NOUN
 干劲,enthusiasm,干劲,NOUN
@@ -244,41 +203,31 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 平凡,ordinary,平凡,ADJ
 平原,plain,平原,NOUN
 平坦,flat,平坦,ADJ
-平安,safe,平安,ADJ
 平民,civilian,平民,NOUN
 平行,parallel,平行,ADJ
 平面,plane,平面,NOUN
 年度,annual,年度,NOUN
-年轻人,young person,年轻人,NOUN
-并,and,并,CCONJ
 并列,to stand side by side,并列,VERB
 并存,to coexist,并存,VERB
 并非,is not,并非,ADV
 幸会,nice to meet you,幸会,INTJ
-幸好,fortunately,幸好,ADV
 幸存者,survivor,幸存者,NOUN
-干,to do,干,VERB
 幻觉,hallucination,幻觉,NOUN
 幼稚,childish,幼稚,ADJ
 幽灵,ghost,幽灵,NOUN
 广阔,vast,广阔,ADJ
 庄严,solemn,庄严,ADJ
 庄重,solemn,庄重,ADJ
-床,bed,床,NOUN
 床单,bed sheet,床单,NOUN
 序言,preface,序言,NOUN
-应,should,应,AUX
 应得,deserve,应得,VERB
 应邀,at someone's invitation,应邀,ADV
 应酬,socialize,应酬,VERB
 底下,underneath,底下,NOUN
-店,shop,店,NOUN
 庞大,huge,庞大,ADJ
 废墟,ruins,废墟,NOUN
 废物,trash,废物,NOUN
 废除,abolish,废除,VERB
-度,degree,度,NOUN
-度假,vacation,度假,VERB
 座右铭,motto,座右铭,NOUN
 庸俗,vulgar,庸俗,ADJ
 廉洁,incorruptible,廉洁,ADJ
@@ -287,30 +236,22 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 延续,continue,延续,VERB
 建,build,建,VERB
 建造,build,建造,VERB
-开会,hold a meeting,开会,VERB
 开口,speak,开口,VERB
 开启,open,开启,VERB
 开展,launch,开展,VERB
-开拓,develop,开拓,VERB
 开支,expenditure,开支,NOUN
 开明,enlightened,开明,ADJ
 开朗,cheerful,开朗,ADJ
-开枪,fire a gun,开枪,VERB
-开水,boiled water,开水,NOUN
 开火,open fire,开火,VERB
-开车,drive,开车,VERB
 开辟,open up,开辟,VERB
 开采,mine,开采,VERB
 开阔,open,开阔,ADJ
-开除,to expel,开除,VERB
 异常,abnormal,异常,ADJ
 弊病,malady,弊病,NOUN
 弊端,malpractice,弊端,NOUN
-引发,to trigger,引发,VERB
 引导,to guide,引导,VERB
 引擎,engine,引擎,NOUN
 引爆,to detonate,引爆,VERB
-引用,to quote,引用,VERB
 弥漫,to permeate,弥漫,VERB
 弥补,to make up for,弥补,VERB
 弦,string,弦,NOUN
@@ -323,10 +264,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 强大,powerful,强大,ADJ
 强奸,to rape,强奸,VERB
 强迫,to compel,强迫,VERB
-归,to return,归,VERB
-归纳,to summarize,归纳,VERB
 归还,to return,归还,VERB
-当中,among,当中,ADP
 当事人,person involved,当事人,NOUN
 当作,to treat as,当作,VERB
 当初,at that time,当初,ADV
@@ -349,20 +287,13 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 征收,to levy,征收,VERB
 征服,to conquer,征服,VERB
 待,to stay,待,VERB
-待会儿,in a while,待会儿,ADV
-很久,for a long time,很久,ADV
 很久以前,long ago,很久以前,ADV
-很多,many,很多,ADJ
-很少,rarely,很少,ADV
-很快,soon,很快,ADV
 徒弟,apprentice,徒弟,NOUN
 得不偿失,the gains do not make up for the losses,得不偿失,VERB
 得出,to deduce,得出,VERB
 得分,score,得分,NOUN
-得到,to get,得到,VERB
 得力,capable,得力,ADJ
 得天独厚,richly endowed by nature,得天独厚,ADJ
-得知,to find out,得知,VERB
 得罪,to offend,得罪,VERB
 徘徊,to pace back and forth,徘徊,VERB
 复,to resume,复,VERB
@@ -371,12 +302,10 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 微不足道,negligible,微不足道,ADJ
 微观,microscopic,微观,NOUN
 德,virtue,德,NOUN
-心,heart,心,NOUN
 心得,knowledge gained,心得,NOUN
 心态,attitude,心态,NOUN
 心意,intention,心意,NOUN
 心灵,soul,心灵,NOUN
-心疼,to love dearly,心疼,VERB
 心眼儿,one's thoughts,心眼儿,NOUN
 心脏病,heart disease,心脏病,NOUN
 心血,heart's blood,心血,NOUN
@@ -384,28 +313,21 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 心里,in one's heart,心里,NOUN
 必定,certainly,必定,ADV
 忌讳,taboo,忌讳,NOUN
-忍受,to endure,忍受,VERB
 忍耐,to endure,忍耐,VERB
 志气,ambition,志气,NOUN
-忘,to forget,忘,VERB
 忘掉,to forget,忘掉,VERB
 忙碌,busy,忙碌,ADJ
 忠实,faithful,忠实,ADJ
 忠诚,loyal,忠诚,ADJ
 忧郁,melancholy,忧郁,ADJ
 快活,cheerful,快活,ADJ
-快要,about to,快要,ADV
 快速,fast,快速,ADJ
-忽略,to neglect,忽略,VERB
-怀孕,to be pregnant,怀孕,VERB
 怎样,how,怎样,PRON
 怕,to fear,怕,VERB
-思念,to miss,思念,VERB
 思索,to ponder,思索,VERB
 思绪,train of thought,思绪,NOUN
 思维,thinking,思维,NOUN
 怠慢,to slight,怠慢,VERB
-急,anxious,急,ADJ
 急于求成,anxious for quick results,急于求成,VERB
 急切,eager,急切,ADJ
 急剧,rapid,急剧,ADJ
@@ -418,7 +340,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 性感,sex appeal,性感,NOUN
 性爱,sex,性爱,NOUN
 性能,performance,性能,NOUN
-怪,strange,怪,ADJ
 怪人,weirdo,怪人,NOUN
 怪兽,monster,怪兽,NOUN
 怪异,weird,怪异,ADJ
@@ -431,7 +352,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 总有,always have,总有,VERB
 总有一天,one day,总有一天,ADV
 总监,director,总监,NOUN
-总而言之,in short,总而言之,ADV
 总部,headquarters,总部,NOUN
 恍然大悟,to suddenly realize,恍然大悟,VERB
 恐吓,to threaten,恐吓,VERB
@@ -453,7 +373,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 恼火,to get angry annoyed,恼火,ADJ
 悔恨,remorse regret,悔恨,NOUN
 患者,patient sufferer,患者,NOUN
-您好,hello (polite),您好,INTJ
 悬崖峭壁,sheer cliffs precipitous rocks,悬崖峭壁,NOUN
 悬念,suspense,悬念,NOUN
 悬挂,to hang to suspend,悬挂,VERB
@@ -476,29 +395,23 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 惋惜,to feel sorry for,惋惜,VERB
 惦记,to keep thinking about,惦记,VERB
 惨,miserable,惨,ADJ
-惩罚,to punish,惩罚,VERB
 惯例,convention,惯例,NOUN
 想不到,unexpectedly,想不到,ADV
 想像,to imagine,想像,VERB
 想到,to think of,想到,VERB
 想方设法,to think up every possible method,想方设法,VERB
-想法,idea,想法,NOUN
-想要,to want,想要,VERB
 想起,to recall,想起,VERB
 惹,to provoke,惹,VERB
 惹祸,to stir up trouble,惹祸,VERB
 愈,to heal,愈,VERB
 意向,intention,意向,NOUN
-意味着,to signify,意味着,VERB
 意图,intent,意图,NOUN
 意志,will,意志,NOUN
 意料,to anticipate,意料,VERB
-意识,consciousness,意识,NOUN
 愚昧,ignorant,愚昧,ADJ
 愚蠢,silly,愚蠢,ADJ
 爱,love,爱,NOUN
 感兴趣,interested,感兴趣,ADJ
-感到,to feel,感到,VERB
 感慨,to sigh with sorrow,感慨,VERB
 感染,infection,感染,NOUN
 愣,distracted,愣,ADJ
@@ -507,12 +420,10 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 慌忙,in a great rush,慌忙,ADJ
 慎重,cautious,慎重,ADJ
 慢性,chronic,慢性,ADJ
-慢慢,slowly,慢慢,ADV
 慰,to comfort,慰,VERB
 慰问,to express sympathy,慰问,VERB
 慷慨,generous,慷慨,ADJ
 憋,to hold back,憋,VERB
-懂得,to understand,懂得,VERB
 懒惰,lazy,懒惰,ADJ
 懦夫,coward,懦夫,NOUN
 戏,play,戏,NOUN
@@ -527,24 +438,17 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 戒备,to take precautions,戒备,VERB
 或,or,或,CCONJ
 或是,or,或是,CCONJ
-或许,perhaps,或许,ADV
 战场,battlefield,战场,NOUN
 战士,warrior,战士,NOUN
 战役,military campaign,战役,NOUN
 战斗,to fight,战斗,VERB
-战术,tactics,战术,NOUN
-战略,strategy,战略,NOUN
-战胜,to defeat,战胜,VERB
 截至,up to (a time),截至,VERB
 房,room,房,NOUN
-房子,house,房子,NOUN
-房租,rent,房租,NOUN
 所在,location,所在,NOUN
 所有人,everyone,所有人,PRON
 所知,what is known,所知,NOUN
 所说,what is said,所说,NOUN
 扁,flat,扁,ADJ
-手,hand,手,NOUN
 手下,subordinate,手下,NOUN
 手势,gesture,手势,NOUN
 手枪,pistol,手枪,NOUN
@@ -554,7 +458,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 手艺,craftsmanship,手艺,NOUN
 才刚,just now,才刚,ADV
 才干,ability,才干,NOUN
-才能,ability,才能,NOUN
 扎,to prick,扎,VERB
 扎实,solid,扎实,ADJ
 定理,theorem,定理,NOUN
@@ -563,14 +466,12 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 要素,element,要素,NOUN
 规范,norm,规范,NOUN
 方针,policy,方针,NOUN
-策略,strategy,策略,NOUN
 途径,approach,途径,NOUN
 层面,level,层面,NOUN
 立场,stance,立场,NOUN
 理念,concept,理念,NOUN
 知觉,perception,知觉,NOUN
 直觉,intuition,直觉,NOUN
-梦想,dream,梦想,NOUN
 欲望,desire,欲望,NOUN
 渴望,longing,渴望,NOUN
 绝望,despair,绝望,NOUN
@@ -591,11 +492,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 识别,identify,识别,VERB
 辨别,distinguish,辨别,VERB
 分类,classify,分类,VERB
-推断,infer,推断,VERB
-推测,infer,推测,VERB
-猜测,guess,猜测,VERB
-评估,evaluate,评估,VERB
-裁定,rule,裁定,VERB
 审议,deliberate,审议,VERB
 回想,recall,回想,VERB
 遗忘,forget,遗忘,VERB
@@ -604,12 +500,9 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 劣势,disadvantage,劣势,NOUN
 强项,strength,强项,NOUN
 特长,specialty,特长,NOUN
-潜力,potential,潜力,NOUN
 吸引力,attraction,吸引力,NOUN
 影响力,influence,影响力,NOUN
 竞争力,competitiveness,竞争力,NOUN
-创造力,creativity,创造力,NOUN
-想象力,imagination,想象力,NOUN
 记忆力,memory,记忆力,NOUN
 注意力,attention,注意力,NOUN
 观察力,observation,观察力,NOUN
@@ -626,7 +519,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 助力,assistance,助力,NOUN
 效力,effectiveness,效力,NOUN
 效益,benefit,效益,NOUN
-结局,ending,结局,NOUN
 终结,end,终结,NOUN
 终止,terminate,终止,VERB
 中止,suspend,中止,VERB
@@ -641,9 +533,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 变动,change,变动,NOUN
 演变,evolution,演变,NOUN
 演化,evolution,演化,NOUN
-转化,transform,转化,VERB
 转换,convert,转换,VERB
-转移,transfer,转移,VERB
 搬迁,relocate,搬迁,VERB
 迁移,migrate,迁移,VERB
 殖民,colonize,殖民,VERB
@@ -703,13 +593,11 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 灾难,disaster,灾难,NOUN
 损害,damage,损害,NOUN
 融资,financing,融资,NOUN
-债务,debt,债务,NOUN
 资产,asset,资产,NOUN
 资本,capital,资本,NOUN
 经费,funds,经费,NOUN
 产值,output value,产值,NOUN
 支出,expenditure,支出,NOUN
-预算,budget,预算,NOUN
 决算,final accounts,决算,NOUN
 税收,tax revenue,税收,NOUN
 免税,tax-exempt,免税,ADJ
@@ -733,7 +621,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 确保,ensure,确保,VERB
 核实,verify,核实,VERB
 查实,verify,查实,VERB
-审核,review,审核,VERB
 审批,approve,审批,VERB
 授权,authorize,授权,VERB
 聘任,appoint,聘任,VERB
@@ -755,7 +642,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 渔民,fisherman,渔民,NOUN
 法官,judge,法官,NOUN
 检察官,prosecutor,检察官,NOUN
-证人,witness,证人,NOUN
 嫌疑犯,suspect,嫌疑犯,NOUN
 参与者,participant,参与者,NOUN
 组织者,organizer,组织者,NOUN
@@ -812,7 +698,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 邀请赛,invitational tournament,邀请赛,NOUN
 公开赛,open tournament,公开赛,NOUN
 运动员,athlete,运动员,NOUN
-裁判,referee,裁判,NOUN
 队长,captain,队长,NOUN
 队员,team member,队员,NOUN
 队友,teammate,队友,NOUN
@@ -826,8 +711,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 全国纪录,national record,全国纪录,NOUN
 个人纪录,personal record,个人纪录,NOUN
 历史纪录,historical record,历史纪录,NOUN
-档案,archive,档案,NOUN
-文献,literature,文献,NOUN
 素材,source material,素材,NOUN
 题材,subject matter,题材,NOUN
 议题,agenda item,议题,NOUN
@@ -841,14 +724,9 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 报酬,remuneration,报酬,NOUN
 薪酬,salary,薪酬,NOUN
 理赔,claim settlement,理赔,NOUN
-投保,insure,投保,VERB
 承保,underwrite,承保,VERB
 勒索,extort,勒索,VERB
 诈骗,fraud,诈骗,NOUN
-欺骗,deceive,欺骗,VERB
-谎言,lie,谎言,NOUN
-真相,truth,真相,NOUN
-证词,testimony,证词,NOUN
 口供,confession,口供,NOUN
 供词,statement,供词,NOUN
 审讯,interrogate,审讯,VERB
@@ -871,12 +749,8 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 刑满释放,release after serving sentence,刑满释放,VERB
 越狱,break out of prison,越狱,VERB
 犯罪,commit a crime,犯罪,VERB
-违法,illegal,违法,ADJ
-合规,compliant,合规,ADJ
 违规,violate regulations,违规,VERB
 违纪,violate discipline,违纪,VERB
-违约,breach contract,违约,VERB
-索赔,claim damages,索赔,VERB
 起诉,sue,起诉,VERB
 应诉,respond to a lawsuit,应诉,VERB
 反诉,counterclaim,反诉,VERB
@@ -946,17 +820,12 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 难以实施,hard to implement,难以实施,ADJ
 难以推行,hard to promote,难以推行,ADJ
 难以推广,hard to spread,难以推广,ADJ
-颁布,promulgate,颁布,VERB
-违抗,disobey,违抗,VERB
 斡旋,mediate,斡旋,VERB
 介入,intervene,介入,VERB
 缺席,be absent,缺席,VERB
 列席,attend as a non-voting delegate,列席,VERB
 召集,convene,召集,VERB
-推进,advance,推进,VERB
-推动,promote,推动,VERB
 督促,urge,督促,VERB
-监督,supervise,监督,VERB
 监察,monitor,监察,VERB
 审计,audit,审计,VERB
 核对,check,核对,VERB
@@ -968,14 +837,12 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 操纵,manipulate,操纵,VERB
 掌控,control,掌控,VERB
 精通,master,精通,VERB
-擅长,be good at,擅长,VERB
 界限,boundary,界限,NOUN
 边缘,edge,边缘,NOUN
 前沿,frontier,前沿,NOUN
 领先,lead,领先,VERB
 超越,surpass,超越,VERB
 跨越,leap,跨越,VERB
-突破,breakthrough,突破,NOUN
 攻克,conquer,攻克,VERB
 投降,surrender,投降,VERB
 撤退,retreat,撤退,VERB
@@ -985,16 +852,13 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 波动,fluctuation,波动,NOUN
 共识,consensus,共识,NOUN
 契约,contract,契约,NOUN
-承诺,commitment,承诺,NOUN
 担保,guarantee,担保,NOUN
 抵押,mortgage,抵押,NOUN
 质押,pledge,质押,NOUN
 租赁,lease,租赁,NOUN
-租金,rent,租金,NOUN
 本金,principal,本金,NOUN
 通货膨胀,inflation,通货膨胀,NOUN
 通货紧缩,deflation,通货紧缩,NOUN
-科技,technology,科技,NOUN
 内政,internal affairs,内政,NOUN
 立法,legislation,立法,NOUN
 执法,law enforcement,执法,NOUN
@@ -1016,11 +880,8 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 逼供,extort a confession,逼供,VERB
 招供,confess,招供,VERB
 检举,report (an offense),检举,VERB
-揭发,expose,揭发,VERB
 举报,report (to authorities),举报,VERB
 控告,accuse,控告,VERB
-控诉,accuse,控诉,VERB
-辩护,defend,辩护,VERB
 答辩,reply,答辩,VERB
 抗辩,counter,抗辩,VERB
 驳斥,rebut,驳斥,VERB
@@ -1036,7 +897,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 挑选,select,挑选,VERB
 选拔,select,选拔,VERB
 表决,vote,表决,VERB
-决议,resolution,决议,NOUN
 宣判,pronounce,宣判,VERB
 量刑,sentence,量刑,VERB
 大赦,amnesty,大赦,NOUN
@@ -1054,9 +914,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 自首,surrender,自首,VERB
 投案,give oneself up,投案,VERB
 报案,report a crime,报案,VERB
-立案,file a case,立案,VERB
 销案,close a case,销案,VERB
-结案,close a case,结案,VERB
 悬案,cold case,悬案,NOUN
 冤案,wrongful conviction,冤案,NOUN
 错案,miscarriage of justice,错案,NOUN
@@ -1123,8 +981,6 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 公债,public debt,公债,NOUN
 私债,private debt,私债,NOUN
 债权,creditor's rights,债权,NOUN
-债权人,creditor,债权人,NOUN
-债务人,debtor,债务人,NOUN
 担保人,guarantor,担保人,NOUN
 见证人,witness,见证人,NOUN
 中间人,middleman,中间人,NOUN
@@ -1558,7 +1414,6 @@ B超,ultrasound,B超,NOUN
 混交林,mixed forest,混交林,NOUN
 原始森林,primeval forest,原始森林,NOUN
 人工林,plantation,人工林,NOUN
-社区,community,社区,NOUN
 社交,socializing,社交,NOUN
 社论,editorial,社论,NOUN
 社团,association,社团,NOUN
@@ -1690,7 +1545,6 @@ B超,ultrasound,B超,NOUN
 客户端,client,客户端,NOUN
 浏览器,browser,浏览器,NOUN
 操作系统,operating system,操作系统,NOUN
-数据库,database,数据库,NOUN
 云计算,cloud computing,云计算,NOUN
 物联网,Internet of Things,物联网,NOUN
 蓝牙,Bluetooth,蓝牙,NOUN
@@ -1729,7 +1583,6 @@ B超,ultrasound,B超,NOUN
 期权,options,期权,NOUN
 白银,silver,白银,NOUN
 原油,crude oil,原油,NOUN
-铁,iron,铁,NOUN
 铝,aluminum,铝,NOUN
 锌,zinc,锌,NOUN
 镍,nickel,镍,NOUN
@@ -1877,7 +1730,6 @@ B超,ultrasound,B超,NOUN
 冷漠,indifferent,冷漠,ADJ
 疏远,distant,疏远,ADJ
 生疏,unfamiliar,生疏,ADJ
-谴责,condemn,谴责,VERB
 认可,endorse,认可,VERB
 排斥,exclude,排斥,VERB
 包容,include,包容,VERB
@@ -1895,7 +1747,6 @@ B超,ultrasound,B超,NOUN
 赤字,deficit,赤字,NOUN
 盈利,profit,盈利,NOUN
 收支,income and expense,收支,NOUN
-账目,account,账目,NOUN
 账单,bill,账单,NOUN
 凭单,voucher,凭单,NOUN
 汇票,draft,汇票,NOUN
@@ -1914,7 +1765,6 @@ B超,ultrasound,B超,NOUN
 赞助,sponsorship,赞助,NOUN
 集资,fundraising,集资,NOUN
 筹资,raise funds,筹资,VERB
-募捐,solicit donations,募捐,VERB
 众筹,crowdfunding,众筹,NOUN
 众包,crowdsourcing,众包,NOUN
 外包,outsourcing,外包,NOUN
@@ -1957,10 +1807,7 @@ B超,ultrasound,B超,NOUN
 无序,disorderly,无序,ADJ
 零散,scattered,零散,ADJ
 残缺,incomplete,残缺,ADJ
-偏颇,biased,偏颇,ADJ
-偏袒,to show partiality,偏袒,VERB
 失衡,imbalanced,失衡,ADJ
-融合,to integrate,融合,VERB
 连接,to connect,连接,VERB
 断开,to disconnect,断开,VERB
 无关,irrelevant,无关,ADJ
@@ -2044,20 +1891,13 @@ B超,ultrasound,B超,NOUN
 考勤,attendance,考勤,NOUN
 考核,assessment,考核,NOUN
 考查,examine,考查,VERB
-考察,inspect,考察,VERB
 测试,test,测试,NOUN
-检测,test,检测,VERB
-检验,inspect,检验,VERB
 验证,verify,验证,VERB
 认证,certify,认证,VERB
 举证,provide evidence,举证,VERB
 取证,collect evidence,取证,VERB
 查证,verify,查证,VERB
-落实,implement,落实,VERB
-证实,confirm,证实,VERB
-证伪,falsify,证伪,VERB
 申报,declare,申报,VERB
-备案,file for record,备案,VERB
 记载,record,记载,VERB
 案卷,case file,案卷,NOUN
 卷宗,file,卷宗,NOUN
@@ -2128,7 +1968,6 @@ B超,ultrasound,B超,NOUN
 黎明,dawn,黎明,NOUN
 拂晓,daybreak,拂晓,NOUN
 清晨,early morning,清晨,NOUN
-早晨,morning,早晨,NOUN
 黄昏,dusk,黄昏,NOUN
 日落,sunset,日落,NOUN
 日暮,sundown,日暮,NOUN
@@ -2141,7 +1980,6 @@ B超,ultrasound,B超,NOUN
 趁夜,by night,趁夜,ADV
 昼夜,day and night,昼夜,NOUN
 白昼,daytime,白昼,NOUN
-白天,daytime,白天,NOUN
 整天,all day,整天,ADV
 整日,all day long,整日,ADV
 终日,all day long,终日,ADV
@@ -2199,7 +2037,6 @@ B超,ultrasound,B超,NOUN
 示威,demonstrate,示威,VERB
 游行,parade,游行,NOUN
 集会,gathering,集会,NOUN
-派对,party,派对,NOUN
 酒会,reception,酒会,NOUN
 茶话会,tea party,茶话会,NOUN
 座谈会,symposium,座谈会,NOUN
@@ -2310,7 +2147,6 @@ U盘,USB flash drive,U盘,NOUN
 邮票,postage stamp,邮票,NOUN
 邮戳,postmark,邮戳,NOUN
 邮筒,mailbox,邮筒,NOUN
-快递,express delivery,快递,NOUN
 寄件,send mail,寄件,VERB
 收件,receive mail,收件,VERB
 签收,sign for,签收,VERB
@@ -2383,7 +2219,6 @@ U盘,USB flash drive,U盘,NOUN
 秋老虎,Indian summer,秋老虎,NOUN
 梅雨,plum rain season,梅雨,NOUN
 回南天,humid weather after cold spell,回南天,NOUN
-公交车,bus,公交车,NOUN
 长途车,long-distance bus,长途车,NOUN
 大巴,bus,大巴,NOUN
 中巴,minibus,中巴,NOUN
@@ -2433,7 +2268,6 @@ U盘,USB flash drive,U盘,NOUN
 天桥,pedestrian bridge,天桥,NOUN
 地下通道,underpass,地下通道,NOUN
 过街隧道,pedestrian tunnel,过街隧道,NOUN
-红绿灯,traffic light,红绿灯,NOUN
 路标,road sign,路标,NOUN
 指示牌,direction sign,指示牌,NOUN
 警示牌,warning sign,警示牌,NOUN
@@ -2444,7 +2278,6 @@ U盘,USB flash drive,U盘,NOUN
 违章,violation,违章,NOUN
 扣分,deduct points,扣分,VERB
 吊销,revoke,吊销,VERB
-驾照,driver's license,驾照,NOUN
 行驶证,vehicle registration,行驶证,NOUN
 车牌,license plate,车牌,NOUN
 车险,car insurance,车险,NOUN
@@ -2539,7 +2372,6 @@ U盘,USB flash drive,U盘,NOUN
 安全报告,safety report,安全报告,NOUN
 进度报告,progress report,进度报告,NOUN
 陈述,statement,陈述,NOUN
-阐述,elaborate,阐述,VERB
 论述,discourse,论述,NOUN
 论证,argumentation,论证,NOUN
 辩驳,refute,辩驳,VERB
@@ -2563,7 +2395,6 @@ U盘,USB flash drive,U盘,NOUN
 造访,visit,造访,VERB
 探访,visit,探访,VERB
 探望,visit,探望,VERB
-看望,visit,看望,VERB
 致意,greet,致意,VERB
 致敬,pay tribute,致敬,VERB
 致谢,thank,致谢,VERB
@@ -2585,8 +2416,6 @@ U盘,USB flash drive,U盘,NOUN
 辞别,take leave,辞别,VERB
 诀别,part forever,诀别,VERB
 永别,part forever,永别,VERB
-推论,inference,推论,NOUN
-演绎,deduce,演绎,VERB
 推理,reasoning,推理,NOUN
 辨认,recognize,辨认,VERB
 认出,recognize,认出,VERB
@@ -2651,7 +2480,6 @@ U盘,USB flash drive,U盘,NOUN
 指示,instruction,指示,NOUN
 批示,written instruction,批示,NOUN
 约定,agree,约定,VERB
-商定,agree,商定,VERB
 洽谈,negotiate,洽谈,VERB
 会谈,talks,会谈,NOUN
 相聚,gather,相聚,VERB
@@ -2681,7 +2509,6 @@ U盘,USB flash drive,U盘,NOUN
 外侧,outer side,外侧,NOUN
 左面,left side,左面,NOUN
 右面,right side,右面,NOUN
-里面,inside,里面,NOUN
 四周,surroundings,四周,NOUN
 边界,border,边界,NOUN
 视角,perspective,视角,NOUN
@@ -2699,8 +2526,6 @@ U盘,USB flash drive,U盘,NOUN
 信用,credit,信用,NOUN
 凭借,by means of,凭借,NOUN
 依照,in accordance,依照,NOUN
-遵照,comply with,遵照,VERB
-遵循,follow,遵循,VERB
 顺从,submit to,顺从,VERB
 听从,obey,听从,VERB
 依从,comply with,依从,VERB
@@ -2831,8 +2656,6 @@ U盘,USB flash drive,U盘,NOUN
 奖状,certificate of merit,奖状,NOUN
 凭证,proof,凭证,NOUN
 凭据,evidence,凭据,NOUN
-证物,physical evidence,证物,NOUN
-证言,testimony,证言,NOUN
 物证,physical evidence,物证,NOUN
 人证,witness testimony,人证,NOUN
 见证,witness,见证,NOUN
@@ -2956,23 +2779,14 @@ U盘,USB flash drive,U盘,NOUN
 显著,notable,显著,ADJ
 显眼,conspicuous,显眼,ADJ
 显而易见,obvious,显而易见,ADJ
-宣告,declare,宣告,VERB
-宣称,claim,宣称,VERB
 宣读,read out,宣读,VERB
 宣讲,lecture,宣讲,VERB
 宣导,promote,宣导,VERB
 运筹,strategize,运筹,VERB
 筹谋,plan,筹谋,VERB
-谋划,plan,谋划,VERB
-策划,plan,策划,VERB
-筹划,prepare,筹划,VERB
-筹备,prepare,筹备,VERB
 筹办,organize,筹办,VERB
-筹措,raise,筹措,VERB
-筹集,raise,筹集,VERB
 筹款,fundraise,筹款,VERB
 募款,fundraise,募款,VERB
-募集,raise,募集,VERB
 招募,recruit,招募,VERB
 伺机,wait for opportunity,伺机,VERB
 待机,standby,待机,VERB
@@ -3037,11 +2851,8 @@ U盘,USB flash drive,U盘,NOUN
 搜索,search,搜索,VERB
 查找,find,查找,VERB
 搜寻,search,搜寻,VERB
-探求,seek,探求,VERB
 探索,explore,探索,VERB
-探究,investigate,探究,VERB
 钻研,study deeply,钻研,VERB
-研究,research,研究,VERB
 调研,survey,调研,VERB
 稽核,audit,稽核,VERB
 复核,review,复核,VERB
@@ -3054,33 +2865,20 @@ U盘,USB flash drive,U盘,NOUN
 纠正,correct,纠正,VERB
 矫正,correct,矫正,VERB
 整改,rectify,整改,VERB
-整顿,rectify,整顿,VERB
-整治,remediate,整治,VERB
-治理,govern,治理,VERB
 管制,regulate,管制,VERB
 管控,control,管控,VERB
-监管,supervise,监管,VERB
 本体,ontology,本体,NOUN
 实体,entity,实体,NOUN
 客体,object,客体,NOUN
 主体,subject,主体,NOUN
 表象,representation,表象,NOUN
-内涵,connotation,内涵,NOUN
 外延,denotation,外延,NOUN
 命题,proposition,命题,NOUN
 公设,postulate,公设,NOUN
-假说,hypothesis,假说,NOUN
 范式,paradigm,范式,NOUN
 模式,pattern,模式,NOUN
 架构,architecture,架构,NOUN
 框架,framework,框架,NOUN
-结构,structure,结构,NOUN
-体系,system,体系,NOUN
-制度,system,制度,NOUN
-形式,form,形式,NOUN
-概念,concept,概念,NOUN
-观念,idea,观念,NOUN
-因素,factor,因素,NOUN
 因子,factor,因子,NOUN
 变量,variable,变量,NOUN
 常量,constant,常量,NOUN
@@ -3090,11 +2888,7 @@ U盘,USB flash drive,U盘,NOUN
 指数,index,指数,NOUN
 量纲,dimension,量纲,NOUN
 维度,dimension,维度,NOUN
-角度,angle,角度,NOUN
-观点,viewpoint,观点,NOUN
 主张,proposition,主张,NOUN
-论点,argument,论点,NOUN
-论据,grounds,论据,NOUN
 论断,conclusion,论断,NOUN
 论说,discourse,论说,NOUN
 阐发,elaborate,阐发,VERB
@@ -3103,16 +2897,8 @@ U盘,USB flash drive,U盘,NOUN
 声明,declare,声明,VERB
 表态,take a stand,表态,VERB
 表述,formulate,表述,VERB
-描述,describe,描述,VERB
-描绘,depict,描绘,VERB
-刻画,portray,刻画,VERB
-勾勒,outline,勾勒,VERB
-概括,summarize,概括,VERB
 总括,sum up,总括,VERB
-综合,synthesize,综合,VERB
 综合性,comprehensive,综合性,ADJ
-分析,analyze,分析,VERB
-剖析,dissect,剖析,VERB
 拆解,break down,拆解,VERB
 解构,deconstruct,解构,VERB
 建构,construct,建构,VERB
@@ -3120,19 +2906,13 @@ U盘,USB flash drive,U盘,NOUN
 构建,build,构建,VERB
 营造,create,营造,VERB
 缔造,found,缔造,VERB
-创立,establish,创立,VERB
-创办,found,创办,VERB
 创制,create,创制,VERB
 确立,establish,确立,VERB
 树立,set up,树立,VERB
-建立,establish,建立,VERB
 设立,set up,设立,VERB
-创设,create,创设,VERB
-开创,pioneer,开创,VERB
 启创,initiate,启创,VERB
 首创,pioneer,首创,VERB
 独创,originate,独创,VERB
-原创,original,原创,ADJ
 原创性,originality,原创性,NOUN
 独创性,originality,独创性,NOUN
 首创性,originality,首创性,NOUN
@@ -3186,7 +2966,6 @@ U盘,USB flash drive,U盘,NOUN
 永久性,permanence,永久性,NOUN
 必然性,necessity,必然性,NOUN
 偶然性,contingency,偶然性,NOUN
-可能性,possibility,可能性,NOUN
 可行性,feasibility,可行性,NOUN
 不可行性,infeasibility,不可行性,NOUN
 现实性,realism,现实性,NOUN
@@ -3210,7 +2989,6 @@ U盘,USB flash drive,U盘,NOUN
 适配性,compatibility,适配性,NOUN
 契合,fit,契合,VERB
 吻合,coincide,吻合,VERB
-一致,consistent,一致,ADJ
 不一致,inconsistent,不一致,ADJ
 相符,match,相符,VERB
 吻合度,degree of fit,吻合度,NOUN
@@ -3220,13 +2998,480 @@ U盘,USB flash drive,U盘,NOUN
 差异性,difference,差异性,NOUN
 共同性,commonality,共同性,NOUN
 共性,commonality,共性,NOUN
-个性,individuality,个性,NOUN
 特性,characteristic,特性,NOUN
-特征,feature,特征,NOUN
-特点,feature,特点,NOUN
 特色,characteristic,特色,NOUN
 特质,trait,特质,NOUN
 特征性,characteristic,特征性,ADJ
 标志性,landmark,标志性,ADJ
 决定性,decisive,决定性,ADJ
 关键性,critical,关键性,ADJ
+何时,when,何时,ADV
+何地,where,何地,ADV
+为何,why,为何,ADV
+随,to follow,随,VERB
+之,of,之,PART
+若,if,若,ADP
+陛下,Your Majesty,陛下,NOUN
+此,this,此,PRON
+未,not yet,未,ADV
+必,must,必,AUX
+营,camp,营,NOUN
+道,to say,道,VERB
+府,mansion,府,NOUN
+许,to permit,许,VERB
+子,son,子,NOUN
+母,mother,母,NOUN
+战,to fight,战,VERB
+叔父,uncle,叔父,NOUN
+宝剑,sword,宝剑,NOUN
+药材,herb,药材,NOUN
+振,to shake,振,VERB
+失忆,to lose one's memory,失忆,VERB
+若是,if,若是,SCONJ
+山庄,villa,山庄,NOUN
+方才,moment,方才,NOUN
+方,square,方,ADJ
+杀人,to kill,杀人,VERB
+进城,to enter city,进城,VERB
+今,today,今,NOUN
+女,woman,女,NOUN
+儿,child,儿,NOUN
+面,face,面,NOUN
+知,to know,知,VERB
+求,to beg,求,VERB
+报,to report,报,VERB
+清,clear,清,ADJ
+礼,ritual,礼,NOUN
+样,such,样,ADJ
+一笑,to smile,一笑,VERB
+手里,hand,手里,NOUN
+句,sentence,句,NOUN
+身上,body,身上,NOUN
+红衣,red robe,红衣,NOUN
+路上,road,路上,NOUN
+身,body,身,NOUN
+落,to fall,落,VERB
+自,from,自,ADP
+好了,to finish,好了,VERB
+治好,to cure,治好,VERB
+治病,to treat,治病,VERB
+便,then,便,ADV
+则,then,则,ADV
+朝,imperial or royal court,朝,NOUN
+相对地,relatively,相对地,ADV
+绝对地,absolutely,绝对地,ADV
+偶然地,accidentally,偶然地,ADV
+必然地,inevitably,必然地,ADV
+突然地,suddenly,突然地,ADV
+丞相,chancellor,丞相,NOUN
+老臣,old minister,老臣,NOUN
+言,to speak,言,VERB
+虽,although,虽,ADP
+冠,crown,冠,NOUN
+奸,treachery,奸,NOUN
+败,to defeat,败,VERB
+护驾,to protect,护驾,VERB
+箭伤,arrow wound,箭伤,NOUN
+竟,unexpectedly,竟,ADV
+绝,absolutely,绝,ADV
+者,one who,者,PART
+番,round,番,NOUN
+抗,to resist,抗,VERB
+砂,sand,砂,NOUN
+射落,to shoot down,射落,VERB
+山崖,cliff,山崖,NOUN
+生死,life and death,生死,NOUN
+征战,campaign,征战,NOUN
+军中,army,军中,NOUN
+朝堂,court,朝堂,NOUN
+嫂,sister-in-law,嫂,NOUN
+顺子,sequence,顺子,NOUN
+更衣,to change clothes,更衣,VERB
+兄,brother,兄,NOUN
+肆,to be reckless,肆,VERB
+岂,how,岂,ADV
+虚名,empty fame,虚名,NOUN
+治,to govern,治,VERB
+战败,to defeat,战败,VERB
+相,mutual,相,ADJ
+立下,to establish,立下,VERB
+然,to be so,然,VERB
+似,to resemble,似,VERB
+进宫,to enter palace,进宫,VERB
+奉,to serve,奉,VERB
+刑部,Ministry of Justice,刑部,NOUN
+冠礼,capping ceremony,冠礼,NOUN
+皇,emperor,皇,NOUN
+义子,adopted son,义子,NOUN
+父,father,父,NOUN
+儿臣,your son,儿臣,NOUN
+皇家,imperial family,皇家,NOUN
+妾室,concubine,妾室,NOUN
+匕首,dagger,匕首,NOUN
+将士,soldier,将士,NOUN
+庄主,manor lord,庄主,NOUN
+师娘,master's wife,师娘,NOUN
+边关,frontier,边关,NOUN
+南关,south gate,南关,NOUN
+嫂嫂,sister-in-law,嫂嫂,NOUN
+除,except,除,ADP
+青,green,青,ADJ
+非,not,非,ADV
+一场,one (event),一场,NUM
+一块,one piece,一块,NUM
+一堆,a pile,一堆,NUM
+一声,a sound,一声,NUM
+一夜,one night,一夜,NUM
+一大堆,a big pile,一大堆,NUM
+一天,one day,一天,NUM
+一头,one head,一头,NUM
+一套,one set,一套,NUM
+一家,one family,一家,NUM
+一对,a pair,一对,NUM
+一年,one year,一年,NUM
+一座,one (building),一座,NUM
+一张,one (flat),一张,NUM
+一把,one handful,一把,NUM
+一支,one stick,一支,NUM
+一整天,all day long,一整天,NOUN
+一晚,one night,一晚,NUM
+一本,one book,一本,NUM
+一条,one (long),一条,NUM
+一杯,one cup,一杯,NUM
+一枪,one shot,一枪,NUM
+一架,one (machine),一架,NUM
+一根,one stick,一根,NUM
+一次,once,一次,NUM
+一步,one step,一步,NUM
+上场,to go on stage,上场,VERB
+上路,to set out,上路,VERB
+不了,cannot,不了,AUX
+不介意,don't mind,不介意,VERB
+不住,cannot stay,不住,PART
+不信,don't believe,不信,VERB
+不停,non-stop,不停,ADJ
+不像,unlike,不像,VERB
+不到,cannot reach,不到,VERB
+不去,not go,不去,VERB
+不吃,don't eat,不吃,VERB
+不太,not very,不太,ADV
+不太好,not very good,不太好,ADJ
+不怕,not afraid,不怕,VERB
+不想,do not want,不想,VERB
+不敢相信,can't believe,不敢相信,VERB
+不是故意,not intentional,不是故意,ADJ
+不来,not come,不来,VERB
+不知,do not know,不知,VERB
+不算,not count,不算,VERB
+不见,not seen,不见,VERB
+不让,don't let,不让,VERB
+不许,not allow,不许,AUX
+不该,should not,不该,AUX
+不说,not say,不说,VERB
+不起,cannot afford,不起,VERB
+不远,not far,不远,ADJ
+不通,doesn't work,不通,ADJ
+两个,two,两个,NUM
+两人,two people,两人,NUM
+两位,two (polite),两位,NUM
+两分钟,two minutes,两分钟,NUM
+两只,two (animals),两只,NUM
+两名,two (people),两名,NUM
+两周,two weeks,两周,NUM
+两天,two days,两天,NUM
+两年,two years,两年,NUM
+两次,twice,两次,ADV
+两种,two kinds,两种,NUM
+中,middle,中,NOUN
+主,lord,主,NOUN
+么,particle,么,PART
+也好,also good,也好,ADJ
+事,matter,事,NOUN
+于,in,于,ADP
+会儿,while,会儿,NOUN
+伤,hurt,伤,VERB
+作,to do,作,VERB
+全,all,全,ADJ
+共,altogether,共,ADV
+再来,come again,再来,VERB
+军,army,军,NOUN
+出事,to have an accident,出事,VERB
+初,beginning,初,NOUN
+力,power,力,NOUN
+办不到,impossible,办不到,ADJ
+双手,both hands,双手,NOUN
+双眼,both eyes,双眼,NOUN
+反,reverse,反,ADJ
+受,to receive,受,VERB
+另,other,另,ADJ
+另一边,other side,另一边,NOUN
+可,but,可,ADV
+可不,indeed,可不,ADV
+同,same,同,ADJ
+同一,same,同一,ADJ
+名,name,名,NOUN
+味,taste,味,NOUN
+呵呵,hehe,呵呵,INTJ
+咯,particle,咯,PART
+哈啰,hello,哈啰,INTJ
+哈罗,hello,哈罗,INTJ
+哪有,how could there be,哪有,PRON
+哪来,where from,哪来,PRON
+啊哈,aha,啊哈,INTJ
+喔,oh,喔,INTJ
+嘴里,in the mouth,嘴里,NOUN
+嘿嘿,hehe,嘿嘿,INTJ
+噢,oh,噢,INTJ
+回事,matter,回事,NOUN
+因,because of,因,ADP
+国,country,国,NOUN
+坏事,bad thing,坏事,NOUN
+坏消息,bad news,坏消息,NOUN
+城,city,城,NOUN
+声,sound,声,NOUN
+处,place,处,NOUN
+多次,many times,多次,ADV
+大事,major event,大事,NOUN
+天上,in the sky,天上,NOUN
+天下,the world,天下,NOUN
+天呐,oh my god,天呐,INTJ
+好事,good thing,好事,NOUN
+如,as,如,ADP
+湖上,lakeside,湖上,NOUN
+服,to submit,服,VERB
+娘,mother,娘,NOUN
+时,when,时,NOUN
+意,intent,意,NOUN
+不多,few,不多,ADJ
+合,to close,合,VERB
+象,like,象,ADP
+原,originally,原,ADV
+闭,to close,闭,VERB
+见人,to meet,见人,VERB
+数,several,数,DET
+救人,to save,救人,VERB
+头上,head,头上,NOUN
+座,seat,座,NOUN
+石,stone,石,NOUN
+需,must,需,AUX
+答,to answer,答,VERB
+家中,home,家中,NOUN
+一回,once,一回,NOUN
+不难,not hard,不难,ADJ
+找人,to find,找人,VERB
+拿着,to hold,拿着,VERB
+对了,by the way,对了,INTJ
+要想,if wanting to,要想,AUX
+了吧,sentence-final particle expressing conjecture,了吧,PART
+到了,to arrive,到了,VERB
+露,dew,露,NOUN
+一道,together,一道,ADV
+万岁,long live,万岁,INTJ
+不仅仅,not only,不仅仅,ADV
+不关,not about,不关,VERB
+不怎么,not very,不怎么,ADV
+不爽,unhappy,不爽,ADJ
+为啥,why,为啥,ADV
+久等,to wait long,久等,VERB
+任,to appoint,任,VERB
+兰,orchid,兰,NOUN
+兵,soldier,兵,NOUN
+其,his,其,PRON
+利,benefit,利,NOUN
+卡住,to be stuck,卡住,VERB
+君,gentleman,君,NOUN
+呵,exhale,呵,VERB
+呼,exhale,呼,VERB
+咦,huh,咦,INTJ
+唔,hmm,唔,INTJ
+嘘,shh,嘘,INTJ
+器,device,器,NOUN
+处女,virgin,处女,NOUN
+奇,strange,奇,ADJ
+奔,to run,奔,VERB
+物,thing,物,NOUN
+孩儿,child,孩儿,NOUN
+止,to stop,止,VERB
+计,to plan,计,VERB
+问话,to question,问话,VERB
+二弟,second brother,二弟,NOUN
+城门,city gate,城门,NOUN
+击,strike,击,VERB
+出城,to depart,出城,VERB
+交出,to surrender,交出,VERB
+客,guest,客,NOUN
+贼,thief,贼,NOUN
+好象,seemingly,好象,ADV
+一身,whole body,一身,NOUN
+人心,morale,人心,NOUN
+失,to lose,失,VERB
+灵,spirit,灵,NOUN
+大军,army,大军,NOUN
+众,crowd,众,NOUN
+死去,to die,死去,VERB
+端,end,端,NOUN
+废,to depose,废,VERB
+费,to cost,费,VERB
+鞭,whip,鞭,NOUN
+城中,city,城中,NOUN
+善,good,善,ADJ
+武,martial,武,NOUN
+来人,visitor,来人,NOUN
+那倒,then,那倒,ADV
+丫头,girl,丫头,NOUN
+容,to allow,容,VERB
+那日,that day,那日,NOUN
+务,to do,务,VERB
+派人,to send someone,派人,VERB
+丛,cluster,丛,NOUN
+临,to face,临,VERB
+之地,place of,之地,NOUN
+伙,group,伙,NOUN
+便是,that is,便是,VERB
+克拉,carat,克拉,NOUN
+华文,Chinese language,华文,NOUN
+启事,notice,启事,NOUN
+咒语,spell,咒语,NOUN
+哨,whistle,哨,NOUN
+复仇,to take revenge,复仇,VERB
+讨饭,beg,讨饭,VERB
+修练,to cultivate,修练,VERB
+兵器,weapon,兵器,NOUN
+仇,grudge,仇,NOUN
+怨,resentment,怨,NOUN
+祸,disaster,祸,NOUN
+罢,to stop,罢,VERB
+外伤,wound,外伤,NOUN
+回京,to return,回京,VERB
+症,symptom,症,NOUN
+毕,to finish,毕,VERB
+娘娘,empress,娘娘,NOUN
+之时,when,之时,ADP
+敌国,enemy state,敌国,NOUN
+朝廷,imperial court,朝廷,NOUN
+练功,to practice,练功,VERB
+打斗,to fight,打斗,VERB
+冤,to wrong,冤,VERB
+除掉,to eliminate,除掉,VERB
+府里,residence,府里,NOUN
+饶,to spare,饶,VERB
+尚,still,尚,ADV
+劳,labor,劳,NOUN
+世间,world,世间,NOUN
+刺客,assassin,刺客,NOUN
+赠,to give,赠,VERB
+士,warrior,士,NOUN
+将领,general,将领,NOUN
+破开,to break open,破开,VERB
+药效,potency,药效,NOUN
+郎,sir,郎,NOUN
+攻下,to capture,攻下,VERB
+义父,godfather,义父,NOUN
+朕,I,朕,PRON
+谜,riddle,谜,NOUN
+仗,to fight,仗,VERB
+造反,to rebel,造反,VERB
+忧,anxiety,忧,NOUN
+退下,to withdraw,退下,VERB
+兵力,troops,兵力,NOUN
+惹来,to provoke,惹来,VERB
+之战,battle of,之战,NOUN
+老夫,old man,老夫,NOUN
+何人,who,何人,PRON
+上药,to apply medicine,上药,VERB
+若要,if wanting to,若要,SCONJ
+大皇子,prince,大皇子,NOUN
+伤兵,wounded soldier,伤兵,NOUN
+有劳,to trouble,有劳,VERB
+烤羊,to roast lamb,烤羊,VERB
+府上,residence,府上,NOUN
+上尉,lieutenant,上尉,NOUN
+上校,colonel,上校,NOUN
+中士,sergeant,中士,NOUN
+中尉,lieutenant,中尉,NOUN
+乃,to be,乃,VERB
+他杀,homicide,他杀,NOUN
+伊,he,伊,PRON
+伪,fake,伪,ADJ
+佬,fellow,佬,NOUN
+兹,here,兹,ADV
+参谋,staff officer,参谋,NOUN
+咧,grin,咧,VERB
+嗑,to crack (seeds),嗑,VERB
+考证,verify,考证,VERB
+推演,deduce,推演,VERB
+质押,pledge,质押,VERB
+理赔,claim,理赔,VERB
+清偿,pay off,清偿,VERB
+核算,accounting,核算,VERB
+是以,therefore,是以,ADV
+俾使,so as to,俾使,SCONJ
+务须,must,务须,ADV
+苦求,beg,苦求,VERB
+哀告,plead,哀告,VERB
+乞怜,beg for pity,乞怜,VERB
+提督,admiral,提督,NOUN
+玉府,jade palace,玉府,NOUN
+碧,jade,碧,NOUN
+枉,to wrong,枉,VERB
+敢问,to ask,敢问,VERB
+何尝,to ever,何尝,ADV
+鹤,crane,鹤,NOUN
+发难,to attack,发难,VERB
+战功,merit,战功,NOUN
+恭,to honor,恭,VERB
+通敌,treason,通敌,NOUN
+太医,imperial physician,太医,NOUN
+暗卫,shadow guard,暗卫,NOUN
+镖局,escort agency,镖局,NOUN
+闭关,seclusion,闭关,NOUN
+得道,to attain enlightenment,得道,VERB
+谓,to call,谓,VERB
+捕头,constable,捕头,NOUN
+乎,question particle,乎,PART
+心诀,mantra,心诀,NOUN
+官差,constable,官差,NOUN
+福晋,consort,福晋,NOUN
+客官,guest,客官,NOUN
+遂,so,遂,SCONJ
+主和,to seek peace,主和,VERB
+奇效,miracle,奇效,NOUN
+这般,such,这般,ADJ
+老奴,old servant,老奴,NOUN
+死地,death trap,死地,NOUN
+圣帝,emperor,圣帝,NOUN
+败仗,defeat,败仗,NOUN
+文武,officials,文武,NOUN
+攻城,siege,攻城,NOUN
+退兵,retreat,退兵,NOUN
+陛,steps to the throne,陛,NOUN
+勇善,brave and good,勇善,ADJ
+母后,empress dowager,母后,NOUN
+嬷嬷,nanny,嬷嬷,NOUN
+伏兵,ambush,伏兵,NOUN
+暗讯,secret message,暗讯,NOUN
+镖,escort,镖,NOUN
+剑柄,hilt,剑柄,NOUN
+过兵,to pass,过兵,VERB
+恩兄,brother,恩兄,NOUN
+武当,Wudang,武当,NOUN
+败将,defeated general,败将,NOUN
+神拳,divine fist,神拳,NOUN
+迷香,incense,迷香,NOUN
+解方,remedy,解方,NOUN
+垂成,to nearly succeed,垂成,VERB
+中箭,to be hit,中箭,VERB
+社稷,state,社稷,NOUN
+又何,why,又何,ADV
+畏,to fear,畏,VERB
+子民,subject,子民,NOUN
+无凭,unfounded,无凭,ADJ
+甘,willing,甘,ADJ
+加冠,to crown,加冠,VERB
+奸细,spy,奸细,NOUN
+头颅,head,头颅,NOUN
+争权,to vie for power,争权,VERB
+将死,dying,将死,ADJ
+国色,beauty,国色,NOUN
+动筷,to use chopsticks,动筷,VERB
+国书,credentials,国书,NOUN

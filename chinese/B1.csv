@@ -1,113 +1,53 @@
 Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
-上当,to be taken in,上当,VERB
+使,to make,使,VERB
+极,extremely,极,ADV
+相同,identical,相同,ADJ
+越,to exceed,越,VERB
+以,to use,以,VERB
 下载,to download,下载,VERB
-不免,inevitably,不免,ADV
 不好意思,embarrassed,不好意思,ADJ
 不如,not as good as,不如,VERB
-不安,uneasy,不安,ADJ
 不得了,desperately serious,不得了,ADJ
 不必,need not,不必,ADV
 不断,unceasing,不断,ADV
 不然,otherwise,不然,ADV
-不耐烦,impatient,不耐烦,ADJ
 不要紧,unimportant,不要紧,ADJ
-不见得,not necessarily,不见得,ADV
-不足,insufficient,不足,ADJ
-与其,rather than,与其,CCONJ
 丑,ugly,丑,ADJ
-专家,expert,专家,NOUN
 专心,to concentrate,专心,VERB
-业余,spare time,业余,NOUN
-业务,business,业务,NOUN
-丝毫,the slightest amount or degree,丝毫,ADV
-丝绸,silk cloth,丝绸,NOUN
-严肃,solemn,严肃,ADJ
 个人,individual,个人,NOUN
-个别,individual,个别,ADJ
-个性,individuality,个性,NOUN
-中介,to act as intermediary,中介,NOUN
 中心,center,中心,NOUN
-中旬,middle third of a month,中旬,NOUN
-临时,at the instant sth happens,临时,ADV
 主人,master,主人,NOUN
 主席,chairperson,主席,NOUN
-主张,to advocate,主张,VERB
-主持,to take charge of,主持,VERB
-主观,subjective,主观,ADJ
-举,to lift,举,VERB
-义务,duty,义务,NOUN
 乐观,optimistic,乐观,ADJ
 乖,obedient,乖,ADJ
-乘,to take,乘,VERB
-书架,bookshelf,书架,NOUN
 了不起,amazing,了不起,ADJ
-争取,to strive for,争取,VERB
-争论,to argue,争论,VERB
-事先,in advance,事先,ADV
 事实,fact,事实,NOUN
-事物,thing,事物,NOUN
 交换,to exchange,交换,VERB
-交际,socializing,交际,NOUN
 产品,product,产品,NOUN
 产生,to produce,产生,VERB
 享受,to enjoy,享受,VERB
-亲切,kind,亲切,ADJ
 亲爱,dear,亲爱,ADJ
 亲自,personally,亲自,ADV
-人事,personnel,人事,NOUN
 人口,population,人口,NOUN
 人员,personnel,人员,NOUN
-人才,talent,人才,NOUN
 人物,character,人物,NOUN
 人生,life,人生,NOUN
 人类,humanity,人类,NOUN
-从事,to engage in,从事,VERB
 从前,formerly,从前,ADV
-从此,from then on,从此,ADV
-从而,thereby,从而,ADV
 付款,to pay,付款,VERB
-以及,as well as,以及,CCONJ
-以来,since,以来,PART
 价值,value,价值,NOUN
-仿佛,as if,仿佛,ADV
-企业,enterprise,企业,NOUN
-企图,to attempt,企图,VERB
 休闲,leisure,休闲,NOUN
-优势,advantage,优势,NOUN
 优惠,discount,优惠,NOUN
-优美,graceful,优美,ADJ
-伙伴,partner,伙伴,NOUN
-会计,accountant,会计,NOUN
 伟大,great,伟大,ADJ
-传播,to disseminate,传播,VERB
-传染,to infect,传染,VERB
 传统,tradition,传统,NOUN
-传说,legend,传说,NOUN
-传递,to transmit,传递,VERB
-伸,to stretch,伸,VERB
-似乎,seemingly,似乎,ADV
 似的,like,似的,PART
 位置,position,位置,NOUN
-体会,to realize,体会,VERB
-体现,to embody,体现,VERB
-体积,volume,体积,NOUN
-体贴,considerate,体贴,ADJ
 体验,to experience,体验,VERB
-何况,let alone,何况,CCONJ
-何必,why bother,何必,ADV
 作为,as,作为,ADP
 作品,work,作品,NOUN
 作文,essay,作文,NOUN
-佩服,to admire,佩服,VERB
-使劲儿,to exert effort,使劲儿,VERB
-依然,still,依然,ADV
-侵略,to invade,侵略,VERB
-便,then,便,ADV
-促使,to urge,促使,VERB
-促进,to promote,促进,VERB
 保存,to save,保存,VERB
 保持,to keep,保持,VERB
-保留,to retain,保留,VERB
 保险,insurance,保险,NOUN
 信号,signal,信号,NOUN
 信封,envelope,信封,NOUN
@@ -118,997 +58,1180 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 倒霉,unlucky,倒霉,ADJ
 借口,excuse,借口,NOUN
 假如,if,假如,SCONJ
-假装,to pretend,假装,VERB
 健身房,gym,健身房,NOUN
-偶然,accidental,偶然,ADJ
-傍晚,evening,傍晚,NOUN
-催,to urge,催,VERB
 傻,foolish,傻,ADJ
 元旦,New Year's Day,元旦,NOUN
 兄弟,brother,兄弟,NOUN
-充分,sufficient,充分,ADJ
-充满,to be full of,充满,VERB
 充电器,charger,充电器,NOUN
-光临,to visit,光临,VERB
-光明,bright,光明,ADJ
-光滑,smooth,光滑,ADJ
 光盘,compact disc,光盘,NOUN
-光荣,glorious,光荣,ADJ
 克,gram,克,NOUN
-克服,to overcome,克服,VERB
 兔子,rabbit,兔子,NOUN
-全面,comprehensive,全面,ADJ
 公主,princess,公主,NOUN
-公元,Common Era,公元,NOUN
 公寓,apartment,公寓,NOUN
-公布,to announce,公布,VERB
 公平,fair,公平,ADJ
 公开,public,公开,ADJ
-关怀,to care for,关怀,VERB
-关闭,to close,关闭,VERB
-其余,the rest,其余,NOUN
 具体,concrete,具体,ADJ
-具备,to possess,具备,VERB
-内科,internal medicine,内科,NOUN
-册,volume,册,NOUN
-再三,repeatedly,再三,ADV
-冒险,to take risks,冒险,VERB
-军事,military affairs,军事,NOUN
-农业,agriculture,农业,NOUN
 农民,peasant,农民,NOUN
 冠军,champion,冠军,NOUN
 冲,to rush,冲,VERB
-决心,determination,决心,NOUN
-决赛,finals,决赛,NOUN
 冻,to freeze,冻,VERB
-凡是,all,凡是,DET
-凭,by means of,凭,ADP
 出口,exit,出口,NOUN
-出席,to attend,出席,VERB
-出版,to publish,出版,VERB
-出色,outstanding,出色,ADJ
-分别,to part,分别,VERB
-分布,to distribute,分布,VERB
 分析,to analyze,分析,VERB
-分配,to distribute,分配,VERB
 切,to cut,切,VERB
-则,then,则,ADV
-创造,to create,创造,VERB
 初级,primary,初级,ADJ
 删除,to delete,删除,VERB
-利息,interest,利息,NOUN
-利润,profit,利润,NOUN
 利用,to utilize,利用,VERB
-利益,benefit,利益,NOUN
-到达,to arrive,到达,VERB
-制作,to make,制作,VERB
-制定,to formulate,制定,VERB
-制度,system,制度,NOUN
-刺激,to stimulate,刺激,VERB
-刻苦,hardworking,刻苦,ADJ
-前途,prospects,前途,NOUN
 剪刀,scissors,剪刀,NOUN
 力量,power,力量,NOUN
 劝,to advise,劝,VERB
 办理,to handle,办理,VERB
 功夫,skill,功夫,NOUN
-功能,function,功能,NOUN
 动画片,animated film,动画片,NOUN
 劳动,labor,劳动,NOUN
-劳驾,excuse me,劳驾,INTJ
 勇气,courage,勇气,NOUN
-勤劳,hardworking,勤劳,ADJ
-勤奋,hardworking,勤奋,ADJ
 勺子,spoon,勺子,NOUN
-包含,to contain,包含,VERB
 包子,steamed stuffed bun,包子,NOUN
 包裹,package,包裹,NOUN
-匆忙,hasty,匆忙,ADJ
 化学,chemistry,化学,NOUN
-匹,classifier for horses,匹,NUM
 升,liter,升,NOUN
-华裔,ethnic Chinese,华裔,NOUN
-协调,to coordinate,协调,VERB
 单位,unit,单位,NOUN
 单元,unit,单元,NOUN
-单独,alone,单独,ADV
-单纯,simple pure,单纯,ADJ
-单调,monotonous,单调,ADJ
 博物馆,museum,博物馆,NOUN
-占线,busy (telephone line),占线,VERB
 卡车,truck,卡车,NOUN
 卧室,bedroom,卧室,NOUN
 卫生间,bathroom,卫生间,NOUN
-危害,to jeopardize to harm,危害,VERB
-卷,to roll up,卷,VERB
 厕所,toilet,厕所,NOUN
 厘米,centimeter,厘米,NOUN
-原则,principle,原则,NOUN
-原料,raw material,原料,NOUN
 去世,to pass away,去世,VERB
-县,county,县,NOUN
-参与,to participate,参与,VERB
 参考,to consult reference,参考,VERB
 叉子,fork,叉子,NOUN
 及格,to pass (an exam),及格,VERB
-双方,both parties,双方,NOUN
-反复,repeatedly,反复,ADV
 反应,to react reaction,反应,VERB
 反正,anyway,反正,ADV
-反而,instead on the contrary,反而,ADV
-发愁,to worry,发愁,VERB
-发抖,to tremble,发抖,VERB
-发挥,to display to bring into play,发挥,VERB
 发明,to invent,发明,VERB
 发票,invoice,发票,NOUN
-发表,to issue to publish,发表,VERB
-发言,to make a speech,发言,VERB
 发达,developed,发达,ADJ
 取消,to cancel,取消,VERB
 受伤,to sustain injuries,受伤,VERB
-叙述,to relate to narrate,叙述,VERB
 口味,taste preference,口味,NOUN
-古代,ancient times,古代,NOUN
-古典,classical,古典,ADJ
-古老,ancient,古老,ADJ
-召开,to convene,召开,VERB
 可怕,terrible,可怕,ADJ
-可见,it can be seen,可见,ADV
-可靠,reliable,可靠,ADJ
-台阶,steps,台阶,NOUN
-吃亏,to suffer losses,吃亏,VERB
-各自,each,各自,PRON
 合作,to cooperate,合作,VERB
 合同,contract,合同,NOUN
-合影,group photo,合影,NOUN
-合法,lawful,合法,ADJ
 合理,reasonable,合理,ADJ
 同时,at the same time,同时,ADV
 名片,business card,名片,NOUN
-名牌,famous brand,名牌,NOUN
-名胜,scenic spot,名胜,NOUN
-后果,consequences,后果,NOUN
 吐,to vomit,吐,VERB
 吓,to frighten,吓,VERB
-否定,to deny,否定,VERB
-否认,to deny,否认,VERB
 吨,ton,吨,NOUN
-启发,to enlighten,启发,VERB
 吵架,to quarrel,吵架,VERB
-吸收,to absorb,吸收,VERB
 吹,to blow,吹,VERB
-吻,to kiss,吻,VERB
 呆,foolish,呆,ADJ
-告别,to say goodbye,告别,VERB
-周到,thoughtful,周到,ADJ
 呼吸,to breathe,呼吸,VERB
-命令,order,命令,NOUN
-命运,fate,命运,NOUN
 和平,peace,和平,NOUN
-咨询,to consult,咨询,VERB
 咬,to bite,咬,VERB
-品种,breed,品种,NOUN
 哈,ha,哈,INTJ
-哪怕,even if,哪怕,SCONJ
-哲学,philosophy,哲学,NOUN
 唉,alas,唉,INTJ
 唯一,only,唯一,ADJ
-商业,business,商业,NOUN
-商品,commodity,商品,NOUN
-善于,to be good at,善于,VERB
-善良,kind,善良,ADJ
 喊,to yell,喊,VERB
 嗓子,throat,嗓子,NOUN
-嘉宾,esteemed guest,嘉宾,NOUN
-嘱咐,to instruct,嘱咐,VERB
-嚷,to shout,嚷,VERB
-因素,factor,因素,NOUN
-因而,therefore,因而,ADV
 围巾,scarf,围巾,NOUN
-围绕,to revolve around,围绕,VERB
-固体,solid,固体,NOUN
-固定,fixed,固定,ADJ
 国庆节,National Day,国庆节,NOUN
-国籍,nationality,国籍,NOUN
 圈,circle,圈,NOUN
-土地,land,土地,NOUN
 土豆,potato,土豆,NOUN
-地位,status,地位,NOUN
 地区,region,地区,NOUN
 地毯,carpet,地毯,NOUN
 地理,geography,地理,NOUN
-地道,authentic,地道,ADJ
 地震,earthquake,地震,NOUN
-均匀,even,均匀,ADJ
-坚决,resolute,坚决,ADJ
-坚强,strong,坚强,ADJ
-坦率,frank,坦率,ADJ
-培养,to cultivate,培养,VERB
 基本,basic,基本,ADJ
 堆,to pile up,堆,VERB
 塔,pagoda,塔,NOUN
-士兵,soldier,士兵,NOUN
-声调,tone,声调,NOUN
-壶,pot,壶,NOUN
-处理,to handle,处理,VERB
 复制,to duplicate,复制,VERB
-外交,diplomacy,外交,NOUN
-多亏,thanks to,多亏,ADP
-多余,superfluous,多余,ADJ
-夜,night,夜,NOUN
-大型,large-scale,大型,ADJ
 大方,generous,大方,ADJ
 大象,elephant,大象,NOUN
-天真,naive,天真,ADJ
 天空,sky,天空,NOUN
 太太,wife,太太,NOUN
 太极拳,Tai Chi,太极拳,NOUN
-失业,to lose one's job,失业,VERB
-失眠,to suffer from insomnia,失眠,VERB
 夸,to boast,夸,VERB
-夹子,clip,夹子,NOUN
-奇迹,miracle,奇迹,NOUN
-奋斗,to strive,奋斗,VERB
 套,cover,套,NOUN
 女士,lady,女士,NOUN
 好奇,curious,好奇,ADJ
-如今,nowadays,如今,ADV
-如何,how,如何,ADV
 妇女,woman,妇女,NOUN
-妨碍,to hinder,妨碍,VERB
-始终,from beginning to end,始终,ADV
 姑姑,paternal aunt,姑姑,NOUN
 姑娘,girl,姑娘,NOUN
-委屈,to feel wronged,委屈,VERB
-委托,to entrust,委托,VERB
 姥姥,maternal grandmother,姥姥,NOUN
-姿势,posture,姿势,NOUN
-威胁,to threaten,威胁,VERB
-娱乐,entertainment,娱乐,NOUN
-娶,to marry (a woman),娶,VERB
-婚姻,marriage,婚姻,NOUN
 婚礼,wedding ceremony,婚礼,NOUN
-嫁,(of a woman) to marry,嫁,VERB
-嫩,tender,嫩,ADJ
-字幕,subtitle,字幕,NOUN
 存,to save,存,VERB
-存在,to exist,存在,VERB
-孝顺,filial,孝顺,ADJ
 学期,semester,学期,NOUN
-学术,academic,学术,ADJ
-学问,learning,学问,NOUN
-宁可,would rather,宁可,ADV
-宇宙,universe,宇宙,NOUN
-安慰,to comfort,安慰,VERB
 安装,to install,安装,VERB
-完善,perfect,完善,ADJ
-完整,complete,完整,ADJ
 完美,perfect,完美,ADJ
-宗教,religion,宗教,NOUN
-官,official,官,NOUN
 宝贝,treasure,宝贝,NOUN
-宝贵,valuable,宝贵,ADJ
 实习,internship,实习,NOUN
-实现,to achieve,实现,VERB
-实用,practical,实用,ADJ
-实行,to implement,实行,VERB
 实话,truth,实话,NOUN
-实践,to practice,实践,VERB
 实验,experiment,实验,NOUN
 宠物,pet,宠物,NOUN
 客厅,living room,客厅,NOUN
-客观,objective,客观,ADJ
-宣传,to publicize,宣传,VERB
-宣布,to announce,宣布,VERB
-宴会,banquet,宴会,NOUN
 家乡,hometown,家乡,NOUN
 家务,housework,家务,NOUN
 家庭,family,家庭,NOUN
 宿舍,dormitory,宿舍,NOUN
-寂寞,lonely,寂寞,ADJ
-密切,close,密切,ADJ
 对于,regarding,对于,ADP
-对待,to treat,对待,VERB
-对手,opponent,对手,NOUN
-对方,counterpart,对方,NOUN
-对比,to contrast,对比,VERB
-对象,target,对象,NOUN
-寺庙,temple,寺庙,NOUN
-寻找,to seek,寻找,VERB
 导演,director,导演,NOUN
-导致,to lead to,导致,VERB
-寿命,life span,寿命,NOUN
-射击,to shoot,射击,VERB
-尊敬,to respect,尊敬,VERB
 小伙子,young man,小伙子,NOUN
 小偷,thief,小偷,NOUN
 小吃,snack,小吃,NOUN
 小气,stingy,小气,ADJ
-小麦,wheat,小麦,NOUN
-尖锐,sharp,尖锐,ADJ
 尺子,ruler,尺子,NOUN
-尽力,to do one's best,尽力,VERB
 尽量,as much as possible,尽量,ADV
 尾巴,tail,尾巴,NOUN
-居然,unexpectedly,居然,ADV
-届,session,届,NOUN
 屋子,room,屋子,NOUN
-展开,to unfold,展开,VERB
 展览,exhibition,展览,NOUN
-属于,to belong to,属于,VERB
 岛,island,岛,NOUN
-岸,bank,岸,NOUN
-工业,industry,工业,NOUN
 工人,worker,工人,NOUN
 工厂,factory,工厂,NOUN
 工程师,engineer,工程师,NOUN
-巧妙,ingenious,巧妙,ADJ
 巨大,huge,巨大,ADJ
-差别,difference,差别,NOUN
 布,cloth,布,NOUN
-常识,common sense,常识,NOUN
-幅,classifier for paintings cloth etc.,幅,NUM
 干活儿,to work,干活儿,VERB
-干脆,straightforward,干脆,ADJ
 平,flat,平,ADJ
 平均,average,平均,ADJ
 平常,ordinary,平常,ADJ
-平方,square (as in square foot),平方,NOUN
-平等,equal,平等,ADJ
-平衡,balance,平衡,NOUN
-平静,tranquil,平静,ADJ
-年代,a decade of a century (e.g. the Sixties),年代,NOUN
 年纪,age,年纪,NOUN
-幸亏,fortunately,幸亏,ADV
 幸运,fortunate,幸运,ADJ
-幻想,delusion,幻想,NOUN
 幼儿园,kindergarten,幼儿园,NOUN
 广场,public square,广场,NOUN
-广大,vast,广大,ADJ
-广泛,extensive,广泛,ADJ
 庆祝,to celebrate,庆祝,VERB
-应付,to deal with,应付,VERB
-应用,to apply,应用,VERB
-应聘,to apply for a job,应聘,VERB
 废话,nonsense,废话,NOUN
-度过,to pass (time),度过,VERB
-延长,to prolong,延长,VERB
-建立,to establish,建立,VERB
-建筑,to construct,建筑,VERB
 建议,to suggest,建议,VERB
-建设,to build,建设,VERB
-开发,to develop,开发,VERB
-开幕式,opening ceremony,开幕式,NOUN
 开心,happy,开心,ADJ
-开放,to open up,开放,VERB
 弯,bend,弯,NOUN
 弱,weak,弱,ADJ
-强烈,intense,强烈,ADJ
-强调,to emphasize,强调,VERB
-当代,contemporary,当代,NOUN
-录取,to admit,录取,VERB
 录音,to record sound,录音,VERB
-形势,situation,形势,NOUN
-形容,to describe,形容,VERB
-形式,form,形式,NOUN
-形成,to form,形成,VERB
 形状,shape,形状,NOUN
-形象,image,形象,NOUN
 彩虹,rainbow,彩虹,NOUN
 影子,shadow,影子,NOUN
-彻底,thorough,彻底,ADJ
-彼此,each other,彼此,PRON
-往返,to go back and forth,往返,VERB
-征求,to solicit,征求,VERB
-待遇,treatment,待遇,NOUN
 微笑,to smile,微笑,VERB
-心理,psychology,心理,NOUN
 心脏,heart,心脏,NOUN
-必然,inevitable,必然,ADJ
-必要,necessary,必要,ADJ
-必需,to need,必需,VERB
 忍不住,cannot help,忍不住,VERB
-志愿者,volunteer,志愿者,NOUN
 念,to read,念,VERB
-忽视,to neglect,忽视,VERB
-怀念,to miss,怀念,VERB
-思想,thought,思想,NOUN
-思考,to reflect on,思考,VERB
-急忙,hastily,急忙,ADV
-性质,nature,性质,NOUN
 怪不得,no wonder,怪不得,ADV
-总之,in a word,总之,ADV
 总共,altogether,总共,ADV
-总理,premier,总理,NOUN
-总算,at long last,总算,ADV
-总统,president (of a country),总统,NOUN
-总裁,chairman,总裁,NOUN
 恋爱,(romantic) love,恋爱,NOUN
-恐怖,terrifying,恐怖,ADJ
-恢复,to reinstate,恢复,VERB
 恨,to hate,恨,VERB
-恶劣,vile,恶劣,ADJ
-悄悄,quietly,悄悄,ADV
-悠久,established,悠久,ADJ
-悲观,pessimistic,悲观,ADJ
-情景,scene,情景,NOUN
-情绪,mood,情绪,NOUN
-惭愧,ashamed,惭愧,ADJ
 想念,to miss,想念,VERB
 想象,to imagine,想象,VERB
-意义,meaning,意义,NOUN
 意外,accident,意外,NOUN
-感受,to feel,感受,VERB
-感想,impressions,感想,NOUN
-感激,to be grateful,感激,VERB
-愤怒,anger,愤怒,NOUN
-愿望,wish,愿望,NOUN
-慌张,flustered,慌张,ADJ
-戏剧,drama,戏剧,NOUN
-成分,ingredient,成分,NOUN
-成就,achievement,成就,NOUN
-成果,result,成果,NOUN
-成立,to establish,成立,VERB
-成语,idiom,成语,NOUN
-成长,to grow up,成长,VERB
 戒指,ring,戒指,NOUN
 戒烟,to quit smoking,戒烟,VERB
 战争,war,战争,NOUN
 房东,landlord,房东,NOUN
-所,that which,所,PART
-所谓,so-called,所谓,ADJ
-扇子,fan,扇子,NOUN
 手套,glove,手套,NOUN
-手工,handicraft,手工,NOUN
 手指,finger,手指,NOUN
 手术,operation,手术,NOUN
-手续,procedure,手续,NOUN
-打交道,to deal with,打交道,VERB
-打听,to ask about,打听,VERB
 打喷嚏,to sneeze,打喷嚏,VERB
 打工,to work part-time,打工,VERB
 打招呼,to greet,打招呼,VERB
-执照,license,执照,NOUN
-执行,to execute,执行,VERB
-扶,to support with the hand,扶,VERB
-批,to criticize,批,VERB
-批准,to approve,批准,VERB
-承受,to bear,承受,VERB
-承担,to undertake,承担,VERB
-承认,to admit,承认,VERB
 抄,to copy,抄,VERB
-把握,to grasp,把握,VERB
-抓紧,to grasp firmly,抓紧,VERB
-投资,to invest,投资,VERB
-抗议,to protest,抗议,VERB
 抢,to snatch,抢,VERB
 报告,to report,报告,VERB
-披,to drape over one's shoulders,披,VERB
-抽屉,drawer,抽屉,NOUN
-抽象,abstract,抽象,ADJ
-担任,to serve as,担任,VERB
 拆,to dismantle,拆,VERB
 拍,to pat,拍,VERB
 拐弯,to turn,拐弯,VERB
-招待,to entertain,招待,VERB
-拥抱,to embrace,拥抱,VERB
-拥挤,crowded,拥挤,ADJ
-拦,to block,拦,VERB
-持续,to last,持续,VERB
 挂号,to register,挂号,VERB
-指导,to guide,指导,VERB
-指挥,to conduct,指挥,VERB
-挑战,to challenge,挑战,VERB
-挡,to block,挡,VERB
 挣钱,to earn money,挣钱,VERB
-挥,to wave,挥,VERB
-振动,vibration,振动,NOUN
-捐,to donate,捐,VERB
-损失,loss,损失,NOUN
 捡,to pick up,捡,VERB
 据说,it is said that,据说,VERB
-掌握,to grasp,掌握,VERB
 排球,volleyball,排球,NOUN
 排队,to line up,排队,VERB
-接待,to receive,接待,VERB
 接着,then,接着,ADV
-接触,to contact,接触,VERB
-接近,to approach,接近,VERB
-控制,to control,控制,VERB
-推广,to promote,推广,VERB
-推荐,to recommend,推荐,VERB
-推辞,to decline,推辞,VERB
-措施,measure,措施,NOUN
-描写,to describe,描写,VERB
 提,to carry,提,VERB
-提倡,to advocate,提倡,VERB
-提纲,outline,提纲,NOUN
-提问,to question,提问,VERB
-插,to insert,插,VERB
 搞,to do,搞,VERB
-摄影,photography,摄影,NOUN
 摆,to arrange,摆,VERB
 摇,to shake,摇,VERB
 摔,to fall,摔,VERB
 摘,to pick,摘,VERB
 摩托车,motorcycle,摩托车,NOUN
 摸,to touch,摸,VERB
-撕,to tear,撕,VERB
 操场,playground,操场,NOUN
-操心,to worry,操心,VERB
-支,to support,支,VERB
-支票,check,支票,NOUN
-收据,receipt,收据,NOUN
-收获,harvest,收获,NOUN
-改善,to improve,改善,VERB
 改正,to correct,改正,VERB
-改进,to improve,改进,VERB
-改革,to reform,改革,VERB
 放松,to relax,放松,VERB
 政府,government,政府,NOUN
-政治,politics,政治,NOUN
-政策,policy,政策,NOUN
-效率,efficiency,效率,NOUN
 敌人,enemy,敌人,NOUN
 救,to save,救,VERB
 救护车,ambulance,救护车,NOUN
-教材,teaching material,教材,NOUN
 教练,coach,教练,NOUN
-教训,lesson,教训,NOUN
-敬爱,to respect and love,敬爱,VERB
 数据,data,数据,NOUN
-数码,digital,数码,ADJ
 整个,whole,整个,ADJ
-整体,whole,整体,NOUN
 文件,document,文件,NOUN
 文具,stationery,文具,NOUN
-文学,literature,文学,NOUN
-文明,civilization,文明,NOUN
-斜,slanted,斜,ADJ
-方,square,方,ADJ
 方式,way,方式,NOUN
-方案,plan,方案,NOUN
-无奈,helpless,无奈,ADJ
-无数,countless,无数,ADJ
 日历,calendar,日历,NOUN
-日常,daily,日常,ADJ
 日期,date,日期,NOUN
 日用品,daily necessities,日用品,NOUN
-日程,schedule,日程,NOUN
-时代,era,时代,NOUN
-时刻,moment,时刻,NOUN
-时尚,fashion,时尚,NOUN
-时期,period,时期,NOUN
-时髦,fashionable,时髦,ADJ
 明信片,postcard,明信片,NOUN
 明星,star,明星,NOUN
-明显,obvious,明显,ADJ
-明确,clear-cut,明确,ADJ
-是否,whether or not,是否,SCONJ
-显得,to seem,显得,VERB
-显然,obviously,显然,ADV
-显示,to show,显示,VERB
 晒,to dry in the sun,晒,VERB
 晕,dizzy,晕,ADJ
 景色,scenery,景色,NOUN
-智慧,wisdom,智慧,NOUN
 更加,more,更加,ADV
 曾经,once,曾经,ADV
-最初,initially,最初,ADV
-有利,advantageous,有利,ADJ
-服从,to obey,服从,VERB
-服装,clothing,服装,NOUN
-朝,imperial or royal court,朝,NOUN
-朝代,dynasty,朝代,NOUN
 期待,to look forward to,期待,VERB
-期间,period of time,期间,NOUN
 木头,wood,木头,NOUN
-未必,not necessarily,未必,ADV
 未来,future,未来,NOUN
-本科,undergraduate course,本科,NOUN
-本质,essence,本质,NOUN
-本领,skill,本领,NOUN
-朴素,plain and simple,朴素,ADJ
 机器,machine,机器,NOUN
 杀,to kill,杀,VERB
-权利,right,权利,NOUN
-权力,power,权力,NOUN
 来自,to come from,来自,VERB
-构成,to constitute,构成,VERB
 枕头,pillow,枕头,NOUN
-果实,fruit,果实,NOUN
 枪,gun,枪,NOUN
-某,certain,某,ADJ
 柜台,counter,柜台,NOUN
-标志,sign,标志,NOUN
-标点,punctuation,标点,NOUN
-样式,style,样式,NOUN
-核心,core,核心,NOUN
 根,root,根,NOUN
-根本,fundamental,根本,ADJ
-格外,especially,格外,ADV
 桃,peach,桃,NOUN
 桔子,tangerine,桔子,NOUN
 梨,pear,梨,NOUN
-梳子,comb,梳子,NOUN
-棉花,cotton,棉花,NOUN
 棒,stick,棒,NOUN
-概念,concept,概念,NOUN
-概括,to summarize,概括,VERB
-模仿,to imitate,模仿,VERB
-模糊,vague,模糊,ADJ
-横,horizontal,横,ADJ
 橡皮,eraser,橡皮,NOUN
 欠,to owe,欠,VERB
-次要,secondary,次要,ADJ
-欣赏,to appreciate,欣赏,VERB
-歇,to rest,歇,VERB
 正,just,正,ADV
-此外,besides,此外,ADV
-步骤,step,步骤,NOUN
-武器,weapon,武器,NOUN
-武术,martial arts,武术,NOUN
-歪,crooked,歪,ADJ
-残疾,disability,残疾,NOUN
-比例,proportion,比例,NOUN
 比如,for example,比如,VERB
-毕竟,after all,毕竟,ADV
 毛,hair,毛,NOUN
 毛病,fault,毛病,NOUN
-民主,democracy,民主,NOUN
-气氛,atmosphere,气氛,NOUN
-汇率,exchange rate,汇率,NOUN
-池子,pond,池子,NOUN
 汽油,gasoline,汽油,NOUN
-沉默,silent,沉默,ADJ
 沙滩,beach,沙滩,NOUN
-沙漠,desert,沙漠,NOUN
-沟通,to communicate,沟通,VERB
-油炸,to deep-fry,油炸,VERB
-治疗,to treat,治疗,VERB
-法院,court,法院,NOUN
 注册,to register,注册,VERB
-洒,to sprinkle,洒,VERB
 洞,hole,洞,NOUN
-活跃,active,活跃,ADJ
-派,faction,派,NOUN
-流传,to spread,流传,VERB
 浅,shallow,浅,ADJ
 浇,to water,浇,VERB
-测验,test,测验,NOUN
-浏览,to browse,浏览,VERB
-浓,concentrated,浓,ADJ
 海关,customs,海关,NOUN
 海鲜,seafood,海鲜,NOUN
-消化,to digest,消化,VERB
-消失,to disappear,消失,VERB
-消灭,to eliminate,消灭,VERB
-消费,to consume,消费,VERB
-涨,to rise,涨,VERB
-液体,liquid,液体,NOUN
-淡,bland,淡,ADJ
-深刻,profound,深刻,ADJ
-清淡,light,清淡,ADJ
 温暖,warm,温暖,ADJ
-温柔,gentle,温柔,ADJ
-游览,sightsee,游览,VERB
 滑冰,skate,滑冰,VERB
 滚,boil,滚,VERB
-满足,satisfy,满足,VERB
 滴,drop,滴,NOUN
-漏,leak,漏,VERB
-激烈,intense,激烈,ADJ
-火柴,match,火柴,NOUN
-灰,ash,灰,NOUN
-灰尘,dust,灰尘,NOUN
-灰心,lose heart,灰心,VERB
-灵活,flexible,灵活,ADJ
-灾害,disaster,灾害,NOUN
 炒,stir-fry,炒,VERB
 点头,nod,点头,VERB
 点心,dim sum,点心,NOUN
 烂,rotten,烂,ADJ
 烫,scald,烫,VERB
-热心,enthusiastic,热心,ADJ
-热烈,warm,热烈,ADJ
-热爱,love ardently,热爱,VERB
-煎,pan-fry,煎,VERB
-煤炭,coal,煤炭,NOUN
-照常,as usual,照常,ADV
 煮,boil,煮,VERB
-熟练,skilled,熟练,ADJ
-燃烧,burn,燃烧,VERB
-爱心,love,爱心,NOUN
-爱惜,cherish,爱惜,VERB
-爱护,care for,爱护,VERB
 片,slice,片,NOUN
-片面,one-sided,片面,ADJ
 牛仔裤,jeans,牛仔裤,NOUN
 物理,physics,物理,NOUN
-物质,matter,物质,NOUN
-牵,to lead,牵,VERB
-特征,characteristic,特征,NOUN
-特意,specially,特意,ADV
-特殊,special,特殊,ADJ
-状况,condition,状况,NOUN
-状态,state,状态,NOUN
-犹豫,to hesitate,犹豫,VERB
-狡猾,crafty,狡猾,ADJ
-独特,unique,独特,ADJ
-独立,independent,独立,ADJ
 狼,wolf,狼,NOUN
 玉米,corn,玉米,NOUN
 王子,prince,王子,NOUN
 玩具,toy,玩具,NOUN
-现实,reality,现实,NOUN
-现象,phenomenon,现象,NOUN
 现金,cash,现金,NOUN
 玻璃,glass,玻璃,NOUN
-珍惜,to cherish,珍惜,VERB
-班主任,head teacher,班主任,NOUN
 球迷,fan,球迷,NOUN
 理由,reason,理由,NOUN
-理论,theory,理论,NOUN
-生产,to produce,生产,VERB
-生动,vivid,生动,ADJ
-用途,use,用途,NOUN
-甩,to throw,甩,VERB
-田野,field,田野,NOUN
-电台,radio station,电台,NOUN
 电池,battery,电池,NOUN
-疑问,question,疑问,NOUN
-疯狂,crazy,疯狂,ADJ
-疲劳,fatigue,疲劳,NOUN
-疼爱,to love dearly,疼爱,VERB
 病毒,virus,病毒,NOUN
-痒,to itch,痒,VERB
-痛快,overjoyed,痛快,ADJ
-痛苦,pain,痛苦,NOUN
 登机牌,boarding pass,登机牌,NOUN
 登记,to register (one's name),登记,VERB
-的确,really,的确,ADV
-皇后,empress,皇后,NOUN
 皇帝,emperor,皇帝,NOUN
 皮鞋,leather shoes,皮鞋,NOUN
 盆,basin,盆,NOUN
 盖,lid,盖,NOUN
 目前,at the present time,目前,ADV
-目录,catalog,目录,NOUN
 目标,target,目标,NOUN
 直,straight,直,ADJ
-相似,to resemble,相似,ADJ
-相关,to be interrelated,相关,ADJ
-相处,to be in contact with,相处,VERB
-相对,relatively,相对,ADV
-相当,equivalent to,相当,ADJ
-盼望,to hope for,盼望,VERB
-省略,to leave out,省略,VERB
-眉毛,eyebrow,眉毛,NOUN
-看不起,to look down upon,看不起,VERB
 看来,apparently,看来,ADV
 真实,true,真实,ADJ
-真理,truth,真理,NOUN
-着凉,to catch cold,着凉,VERB
-睁,to open (one's eyes),睁,VERB
-瞎,blind,瞎,ADJ
 瞧,to look at,瞧,VERB
-矛盾,contradiction,矛盾,NOUN
 短信,text message,短信,NOUN
 石头,stone,石头,NOUN
 矿泉水,mineral water,矿泉水,NOUN
-砍,to chop,砍,VERB
-破产,to go bankrupt,破产,VERB
-破坏,to destroy,破坏,VERB
-硬件,hardware,硬件,NOUN
-硬币,coin,硬币,NOUN
 确定,to confirm,确定,VERB
 确认,to confirm,确认,VERB
-碎,to break,碎,VERB
 碰见,to run into,碰见,VERB
-磁带,cassette tape,磁带,NOUN
 礼拜天,Sunday,礼拜天,NOUN
-祖先,ancestor,祖先,NOUN
-祖国,motherland,祖国,NOUN
-祝福,blessing,祝福,NOUN
-神秘,mysterious,神秘,ADJ
-神经,nerve,神经,NOUN
-神话,myth,神话,NOUN
 离婚,to divorce,离婚,VERB
-私人,private,私人,ADJ
 秒,second (unit of time),秒,NOUN
 秘书,secretary,秘书,NOUN
 秘密,secret,秘密,NOUN
-秩序,order,秩序,NOUN
 称,to weigh,称,VERB
-称呼,to call,称呼,VERB
-称赞,to praise,称赞,VERB
 移动,to move,移动,VERB
-移民,to immigrate,移民,VERB
-程序,procedure,程序,NOUN
-程度,degree,程度,NOUN
-税,tax,税,NOUN
-稳定,stable,稳定,ADJ
-空闲,free time,空闲,NOUN
-空间,space,空间,NOUN
-突出,to stand out,突出,VERB
 窗帘,curtain,窗帘,NOUN
 立刻,immediately,立刻,ADV
-立即,immediately,立即,ADV
-立方,cube,立方,NOUN
 竹子,bamboo,竹子,NOUN
-等于,to equal,等于,VERB
-等候,to wait,等候,VERB
-等待,to wait,等待,VERB
 答应,to promise,答应,VERB
 签字,to sign,签字,VERB
 简历,resume,简历,NOUN
 简直,simply,简直,ADV
-管子,tube,管子,NOUN
-类,kind,类,NOUN
-粒,grain,粒,NOUN
-粘贴,to paste,粘贴,VERB
-粮食,grain,粮食,NOUN
-精力,energy,精力,NOUN
-糊涂,muddled,糊涂,ADJ
 糟糕,terrible,糟糕,ADJ
-系,to tie,系,VERB
-系统,system,系统,NOUN
 紧,tight,紧,ADJ
-紧急,urgent,紧急,ADJ
 紫,purple,紫,ADJ
-繁荣,prosperous,繁荣,ADJ
-纪录,record,纪录,NOUN
-纪律,discipline,纪律,NOUN
-纪念,to commemorate,纪念,VERB
-纷纷,one after another,纷纷,ADV
-组合,to combine,组合,VERB
-细节,detail,细节,NOUN
-经典,classic,经典,NOUN
-经营,to manage,经营,VERB
-结合,to combine,结合,VERB
-结实,sturdy,结实,ADJ
-结构,structure,结构,NOUN
-结论,conclusion,结论,NOUN
 结账,to pay the bill,结账,VERB
-绕,to wind,绕,VERB
-绝对,absolute,绝对,ADJ
-统一,to unify,统一,VERB
-统治,to rule,统治,VERB
-绳子,rope,绳子,NOUN
-维护,to maintain,维护,VERB
-综合,comprehensive,综合,ADJ
-缓解,to relieve,缓解,VERB
-编辑,to edit,编辑,VERB
-缘故,reason,缘故,NOUN
-缩小,to reduce,缩小,VERB
-缩短,to shorten,缩短,VERB
-缺乏,to lack,缺乏,VERB
-罐头,canned food,罐头,NOUN
-罚款,to fine,罚款,VERB
-罪犯,criminal,罪犯,NOUN
 美术,fine arts,美术,NOUN
 翅膀,wing,翅膀,NOUN
 翻,to turn over,翻,VERB
 老实,honest,老实,ADJ
 老板,boss,老板,NOUN
-本质上,essentially,本质上,ADV
-理论上,theoretically,理论上,ADV
-实际上,practically,实际上,ADV
-相对地,relatively,相对地,ADV
-绝对地,absolutely,绝对地,ADV
-偶然地,accidentally,偶然地,ADV
-必然地,inevitably,必然地,ADV
-突然地,suddenly,突然地,ADV
-杀人,to kill,杀人,VERB
-进城,to enter city,进城,VERB
 气,air,气,NOUN
-今,today,今,NOUN
-女,woman,女,NOUN
-进来,to come in,进来,VERB
-那些,those,那些,DET
-儿,child,儿,NOUN
-面,face,面,NOUN
-知,to know,知,VERB
-求,to beg,求,VERB
-丞相,chancellor,丞相,NOUN
-老臣,old minister,老臣,NOUN
-报,to report,报,VERB
 管,to manage,管,VERB
-晚,late,晚,ADJ
-寸,inch,寸,NOUN
-言,to speak,言,VERB
-虽,although,虽,ADP
-重伤,to wound,重伤,VERB
-清,clear,清,ADJ
-冠,crown,冠,NOUN
-礼,ritual,礼,NOUN
-奸,treachery,奸,NOUN
-嫁人,to marry,嫁人,VERB
-样,such,样,ADJ
-过来,to come over,过来,VERB
-至,until,至,ADP
-梳,to comb,梳,VERB
-败,to defeat,败,VERB
-护驾,to protect,护驾,VERB
-箭伤,arrow wound,箭伤,NOUN
-一笑,to smile,一笑,VERB
-竟,unexpectedly,竟,ADV
-兄长,elder brother,兄长,NOUN
-绝,absolutely,绝,ADV
 酒,wine,酒,NOUN
 有些,to have some,有些,VERB
-跑,to run,跑,VERB
 抓,to grab,抓,VERB
-手里,hand,手里,NOUN
-者,one who,者,PART
-番,round,番,NOUN
 让开,to move aside,让开,VERB
-松开,to release,松开,VERB
-句,sentence,句,NOUN
-身上,body,身上,NOUN
-红衣,red robe,红衣,NOUN
-路上,road,路上,NOUN
 无法,to be unable,无法,VERB
-抗,to resist,抗,VERB
-夙,old,夙,NOUN
-砂,sand,砂,NOUN
-射落,to shoot down,射落,VERB
-山崖,cliff,山崖,NOUN
-生死,life and death,生死,NOUN
-征战,campaign,征战,NOUN
-军中,army,军中,NOUN
-心思,thought,心思,NOUN
-朝堂,court,朝堂,NOUN
-看透,to see through,看透,VERB
-嫂,sister-in-law,嫂,NOUN
-顺子,sequence,顺子,NOUN
-更衣,to change clothes,更衣,VERB
-兄,brother,兄,NOUN
-报仇,to avenge,报仇,VERB
-肆,to be reckless,肆,VERB
-能够,to be able,能够,AUX
-身,body,身,NOUN
-岂,how,岂,ADV
-那里,there,那里,PRON
-本事,skill,本事,NOUN
-虚名,empty fame,虚名,NOUN
-落,to fall,落,VERB
 好吧,alright,好吧,INTJ
-阻拦,to block,阻拦,VERB
-治,to govern,治,VERB
-战败,to defeat,战败,VERB
+小孩,child,小孩,NOUN
+不耐烦,impatient,不耐烦,ADJ
+与其,rather than,与其,CCONJ
+业余,spare time,业余,NOUN
+丝绸,silk cloth,丝绸,NOUN
+严肃,solemn,严肃,ADJ
+临时,at the instant sth happens,临时,ADV
+争取,to strive for,争取,VERB
+事先,in advance,事先,ADV
+亲切,kind,亲切,ADJ
+人才,talent,人才,NOUN
+从此,from then on,从此,ADV
+企业,enterprise,企业,NOUN
+优势,advantage,优势,NOUN
+伙伴,partner,伙伴,NOUN
+会计,accountant,会计,NOUN
+传染,to infect,传染,VERB
+体会,to realize,体会,VERB
+体贴,considerate,体贴,ADJ
+何必,why bother,何必,ADV
+佩服,to admire,佩服,VERB
+使劲儿,to exert effort,使劲儿,VERB
+促进,to promote,促进,VERB
+保留,to retain,保留,VERB
+偶然,accidental,偶然,ADJ
+催,to urge,催,VERB
+光滑,smooth,光滑,ADJ
+克服,to overcome,克服,VERB
+公布,to announce,公布,VERB
+其余,the rest,其余,NOUN
+冒险,to take risks,冒险,VERB
+农业,agriculture,农业,NOUN
+凭,by means of,凭,ADP
+分别,to part,分别,VERB
+前途,prospects,前途,NOUN
+功能,function,功能,NOUN
+劳驾,excuse me,劳驾,INTJ
+匆忙,hasty,匆忙,ADJ
+单独,alone,单独,ADV
+原则,principle,原则,NOUN
+参与,to participate,参与,VERB
+反复,repeatedly,反复,ADV
+反而,instead on the contrary,反而,ADV
+发愁,to worry,发愁,VERB
+发抖,to tremble,发抖,VERB
+发表,to issue to publish,发表,VERB
+古典,classical,古典,ADJ
+吃亏,to suffer losses,吃亏,VERB
+合法,lawful,合法,ADJ
+后果,consequences,后果,NOUN
+命令,order,命令,NOUN
+命运,fate,命运,NOUN
+哪怕,even if,哪怕,SCONJ
+哲学,philosophy,哲学,NOUN
+商业,business,商业,NOUN
+嘱咐,to instruct,嘱咐,VERB
+嚷,to shout,嚷,VERB
+固定,fixed,固定,ADJ
+处理,to handle,处理,VERB
+多亏,thanks to,多亏,ADP
+多余,superfluous,多余,ADJ
+失眠,to suffer from insomnia,失眠,VERB
+奇迹,miracle,奇迹,NOUN
+委屈,to feel wronged,委屈,VERB
+姿势,posture,姿势,NOUN
+娶,to marry (a woman),娶,VERB
+嫁,(of a woman) to marry,嫁,VERB
+嫩,tender,嫩,ADJ
+孝顺,filial,孝顺,ADJ
+宁可,would rather,宁可,ADV
+宇宙,universe,宇宙,NOUN
+完整,complete,完整,ADJ
+官,official,官,NOUN
+宣布,to announce,宣布,VERB
+寂寞,lonely,寂寞,ADJ
+对待,to treat,对待,VERB
+尽力,to do one's best,尽力,VERB
+居然,unexpectedly,居然,ADV
+属于,to belong to,属于,VERB
+差别,difference,差别,NOUN
+常识,common sense,常识,NOUN
+干脆,straightforward,干脆,ADJ
+平静,tranquil,平静,ADJ
+年代,a decade of a century (e.g. the Sixties),年代,NOUN
+幸亏,fortunately,幸亏,ADV
+幻想,delusion,幻想,NOUN
+应付,to deal with,应付,VERB
+度过,to pass (time),度过,VERB
+建设,to build,建设,VERB
+开幕式,opening ceremony,开幕式,NOUN
+形容,to describe,形容,VERB
+彻底,thorough,彻底,ADJ
+彼此,each other,彼此,PRON
+待遇,treatment,待遇,NOUN
+怀念,to miss,怀念,VERB
+思考,to reflect on,思考,VERB
+急忙,hastily,急忙,ADV
+总理,premier,总理,NOUN
+总统,president (of a country),总统,NOUN
+恢复,to reinstate,恢复,VERB
+悄悄,quietly,悄悄,ADV
+悲观,pessimistic,悲观,ADJ
+情绪,mood,情绪,NOUN
+感受,to feel,感受,VERB
+愿望,wish,愿望,NOUN
+手续,procedure,手续,NOUN
+打交道,to deal with,打交道,VERB
+打听,to ask about,打听,VERB
+执照,license,执照,NOUN
+批,to criticize,批,VERB
+承认,to admit,承认,VERB
+把握,to grasp,把握,VERB
+抓紧,to grasp firmly,抓紧,VERB
+投资,to invest,投资,VERB
+披,to drape over one's shoulders,披,VERB
+拥挤,crowded,拥挤,ADJ
+拦,to block,拦,VERB
+挑战,to challenge,挑战,VERB
+挥,to wave,挥,VERB
+捐,to donate,捐,VERB
+损失,loss,损失,NOUN
+接近,to approach,接近,VERB
+推荐,to recommend,推荐,VERB
+插,to insert,插,VERB
+撕,to tear,撕,VERB
+操心,to worry,操心,VERB
+收据,receipt,收据,NOUN
+收获,harvest,收获,NOUN
+教训,lesson,教训,NOUN
+数码,digital,数码,ADJ
+斜,slanted,斜,ADJ
+无奈,helpless,无奈,ADJ
+时刻,moment,时刻,NOUN
+时髦,fashionable,时髦,ADJ
+显得,to seem,显得,VERB
+显示,to show,显示,VERB
+最初,initially,最初,ADV
+期间,period of time,期间,NOUN
+未必,not necessarily,未必,ADV
+本科,undergraduate course,本科,NOUN
+核心,core,核心,NOUN
+根本,fundamental,根本,ADJ
+模仿,to imitate,模仿,VERB
+模糊,vague,模糊,ADJ
+横,horizontal,横,ADJ
+歇,to rest,歇,VERB
+步骤,step,步骤,NOUN
+歪,crooked,歪,ADJ
+残疾,disability,残疾,NOUN
+毕竟,after all,毕竟,ADV
+气氛,atmosphere,气氛,NOUN
+沉默,silent,沉默,ADJ
+沙漠,desert,沙漠,NOUN
+沟通,to communicate,沟通,VERB
+治疗,to treat,治疗,VERB
+法院,court,法院,NOUN
+洒,to sprinkle,洒,VERB
+测验,test,测验,NOUN
+浏览,to browse,浏览,VERB
+浓,concentrated,浓,ADJ
+消化,to digest,消化,VERB
+消失,to disappear,消失,VERB
+涨,to rise,涨,VERB
+淡,bland,淡,ADJ
+清淡,light,清淡,ADJ
+温柔,gentle,温柔,ADJ
+漏,leak,漏,VERB
+灰尘,dust,灰尘,NOUN
+灰心,lose heart,灰心,VERB
+煎,pan-fry,煎,VERB
+照常,as usual,照常,ADV
+熟练,skilled,熟练,ADJ
+牵,to lead,牵,VERB
+特意,specially,特意,ADV
+特殊,special,特殊,ADJ
+状态,state,状态,NOUN
+犹豫,to hesitate,犹豫,VERB
+狡猾,crafty,狡猾,ADJ
+独立,independent,独立,ADJ
+现实,reality,现实,NOUN
+珍惜,to cherish,珍惜,VERB
+甩,to throw,甩,VERB
+疑问,question,疑问,NOUN
+疼爱,to love dearly,疼爱,VERB
+痛快,overjoyed,痛快,ADJ
+目录,catalog,目录,NOUN
+盼望,to hope for,盼望,VERB
+看不起,to look down upon,看不起,VERB
+瞎,blind,瞎,ADJ
+矛盾,contradiction,矛盾,NOUN
+破坏,to destroy,破坏,VERB
+碎,to break,碎,VERB
+祖国,motherland,祖国,NOUN
+神秘,mysterious,神秘,ADJ
+神经,nerve,神经,NOUN
+神话,myth,神话,NOUN
+称呼,to call,称呼,VERB
+移民,to immigrate,移民,VERB
+程序,procedure,程序,NOUN
+税,tax,税,NOUN
+空间,space,空间,NOUN
+粒,grain,粒,NOUN
+糊涂,muddled,糊涂,ADJ
+系,to tie,系,VERB
+系统,system,系统,NOUN
+紧急,urgent,紧急,ADJ
+纪录,record,纪录,NOUN
+纪念,to commemorate,纪念,VERB
+细节,detail,细节,NOUN
+经典,classic,经典,NOUN
+结实,sturdy,结实,ADJ
+绕,to wind,绕,VERB
+绝对,absolute,绝对,ADJ
+编辑,to edit,编辑,VERB
+实际上,practically,实际上,ADV
+寸,inch,寸,NOUN
+嫁人,to marry,嫁人,VERB
+梳,to comb,梳,VERB
+心思,thought,心思,NOUN
+看透,to see through,看透,VERB
+报仇,to avenge,报仇,VERB
+本事,skill,本事,NOUN
+自动,automatic,自动,ADJ
+自由,freedom,自由,NOUN
+表情,expression,表情,NOUN
+设计,design,设计,NOUN
+诗,poem,诗,NOUN
+进步,to progress,进步,VERB
+醉,drunk,醉,ADJ
+钓,to fish,钓,VERB
+错误,mistake,错误,NOUN
+阳台,balcony,阳台,NOUN
+难看,ugly,难看,ADJ
+雾,fog,雾,NOUN
+顶,top,顶,NOUN
+颗,classifier for small round objects,颗,NOUN
+骂,to scold,骂,VERB
+鼠标,mouse,鼠标,NOUN
+龙,dragon,龙,NOUN
+上帝,God,上帝,NOUN
+不久,soon,不久,ADV
+不少,quite a few,不少,ADJ
+乘客,passenger,乘客,NOUN
+买下,buy,买下,VERB
+事儿,thing,事儿,NOUN
+互联网,the Internet,互联网,NOUN
+亲,to kiss,亲,VERB
+人人,everyone,人人,NOUN
+人家,other people,人家,NOUN
+人民,people,人民,NOUN
+从不,never,从不,ADV
+从小,from childhood,从小,ADV
+付,to pay,付,VERB
+价钱,price,价钱,NOUN
+位子,seat,位子,NOUN
+作家,writer,作家,NOUN
+例子,example,例子,NOUN
+倒下,to fall down,倒下,VERB
+假期,vacation,假期,NOUN
+做事,to work,做事,VERB
+做梦,to dream,做梦,VERB
+停,to stop,停,VERB
+停车,to park,停车,VERB
+停车场,parking lot,停车场,NOUN
+偷,to steal,偷,VERB
+偷偷,secretly,偷偷,ADV
+偷走,to steal away,偷走,VERB
+全世界,whole world,全世界,NOUN
+全国,nationwide,全国,NOUN
+全家,whole family,全家,NOUN
+全身,whole body,全身,NOUN
+公路,highway,公路,NOUN
+关上,to close,关上,VERB
+关掉,to turn off,关掉,VERB
+其它,other,其它,PRON
+养,to raise,养,VERB
+内衣,underwear,内衣,NOUN
+再也,no longer,再也,ADV
+出门,to go out,出门,VERB
+分开,to separate,分开,VERB
+分手,to break up,分手,VERB
+刚好,just right,刚好,ADV
+到时候,when the time comes,到时候,ADV
+剩下,to be left over,剩下,VERB
+剪,to cut,剪,VERB
+办,to handle,办,VERB
+办事,to handle affairs,办事,VERB
+功课,homework,功课,NOUN
+加油,to cheer on,加油,VERB
+区,district,区,NOUN
+午餐,lunch,午餐,NOUN
+半夜,midnight,半夜,NOUN
+卖掉,to sell,卖掉,VERB
+南方,south,南方,NOUN
+厨师,chef,厨师,NOUN
+变,to change,变,VERB
+口袋,pocket,口袋,NOUN
+只是,just,只是,ADV
+只有,only,只有,ADV
+叫做,be called,叫做,VERB
+叫醒,wake up,叫醒,VERB
+各位,everyone,各位,PRON
+同样,same,同样,ADJ
+听懂,to understand by listening,听懂,VERB
+听话,obedient,听话,ADJ
+吸,to inhale,吸,VERB
+吸烟,to smoke,吸烟,VERB
+员工,employee,员工,NOUN
+咱,we,咱,PRON
+哪些,which ones,哪些,PRON
+哪位,who (polite),哪位,PRON
+国王,king,国王,NOUN
+图片,picture,图片,NOUN
+地下,underground,地下,NOUN
+地板,floor,地板,NOUN
+大叔,uncle,大叔,NOUN
+大哥,elder brother,大哥,NOUN
+大多数,majority,大多数,NOUN
+大小,size,大小,NOUN
+大楼,building,大楼,NOUN
+大海,sea,大海,NOUN
+大街,main street,大街,NOUN
+大部分,most,大部分,NOUN
+大门,gate,大门,NOUN
+天天,every day,天天,ADV
+女友,girlfriend,女友,NOUN
+女性,female,女性,NOUN
+好好,properly,好好,ADV
+好笑,funny,好笑,ADJ
+好运,good luck,好运,NOUN
+长大,to grow up,长大,VERB
+查,to check,查,VERB
+碰,to touch,碰,VERB
+带去,to take,带去,VERB
+追,to chase,追,VERB
+留下,to leave,留下,VERB
+睡着,to fall asleep,睡着,VERB
+路过,to pass by,路过,VERB
+交给,to hand over,交给,VERB
+星,star,星,NOUN
+烦,annoying,烦,ADJ
+父母,parent,父母,NOUN
+找出,to find,找出,VERB
+等等,etc,等等,NOUN
+闭嘴,to shut up,闭嘴,VERB
+躲,to hide,躲,VERB
+选,to choose,选,VERB
+就像,just like,就像,ADP
+放下,to put down,放下,VERB
+侄儿,nephew,侄儿,NOUN
+开会,hold a meeting,开会,VERB
+开除,to expel,开除,VERB
+市,city,市,NOUN
+度,degree,度,NOUN
+定,to set,定,VERB
+当中,among,当中,ADP
+帐篷,tent,帐篷,NOUN
+平安,safe,平安,ADJ
+室友,roommate,室友,NOUN
+岳父,father-in-law,岳父,NOUN
+嫂子,older brother's wife,嫂子,NOUN
+媳妇,daughter-in-law,媳妇,NOUN
+家长,parent,家长,NOUN
+家伙,guy,家伙,NOUN
+尴尬,awkward,尴尬,ADJ
+想法,idea,想法,NOUN
+懂得,to understand,懂得,VERB
+感到,to feel,感到,VERB
+战胜,to defeat,战胜,VERB
+心疼,to love dearly,心疼,VERB
+惩罚,to punish,惩罚,VERB
+思念,to miss,思念,VERB
+忍受,to endure,忍受,VERB
+派对,party,派对,NOUN
+快递,express delivery,快递,NOUN
+公交车,bus,公交车,NOUN
+红绿灯,traffic light,红绿灯,NOUN
+看望,visit,看望,VERB
+打仗,to fight,打仗,VERB
+侄子,nephew,侄子,NOUN
+如何,how,如何,ADV
+上当,to be taken in,上当,VERB
+不安,uneasy,不安,ADJ
+不见得,not necessarily,不见得,ADV
+专家,expert,专家,NOUN
+个性,individuality,个性,NOUN
+举,to lift,举,VERB
+书架,bookshelf,书架,NOUN
+以及,as well as,以及,CCONJ
+以来,since,以来,PART
+优美,graceful,优美,ADJ
+传说,legend,传说,NOUN
+伸,to stretch,伸,VERB
+似乎,seemingly,似乎,ADV
+假装,to pretend,假装,VERB
+傍晚,evening,傍晚,NOUN
+充满,to be full of,充满,VERB
+光临,to visit,光临,VERB
+全面,comprehensive,全面,ADJ
+关闭,to close,关闭,VERB
+决心,determination,决心,NOUN
+决赛,finals,决赛,NOUN
+出色,outstanding,出色,ADJ
+创造,to create,创造,VERB
+到达,to arrive,到达,VERB
+制作,to make,制作,VERB
+占线,busy (telephone line),占线,VERB
+卷,to roll up,卷,VERB
+双方,both parties,双方,NOUN
+发言,to make a speech,发言,VERB
+古代,ancient times,古代,NOUN
+古老,ancient,古老,ADJ
+可靠,reliable,可靠,ADJ
+各自,each,各自,PRON
+合影,group photo,合影,NOUN
+名牌,famous brand,名牌,NOUN
+吻,to kiss,吻,VERB
+告别,to say goodbye,告别,VERB
+商品,commodity,商品,NOUN
+善良,kind,善良,ADJ
+国籍,nationality,国籍,NOUN
+土地,land,土地,NOUN
+地道,authentic,地道,ADJ
+坚强,strong,坚强,ADJ
+士兵,soldier,士兵,NOUN
+声调,tone,声调,NOUN
+壶,pot,壶,NOUN
+夜,night,夜,NOUN
+大型,large-scale,大型,ADJ
+天真,naive,天真,ADJ
+夹子,clip,夹子,NOUN
+娱乐,entertainment,娱乐,NOUN
+字幕,subtitle,字幕,NOUN
+存在,to exist,存在,VERB
+安慰,to comfort,安慰,VERB
+实现,to achieve,实现,VERB
+实用,practical,实用,ADJ
+对方,counterpart,对方,NOUN
+对象,target,对象,NOUN
+寺庙,temple,寺庙,NOUN
+寻找,to seek,寻找,VERB
+尊敬,to respect,尊敬,VERB
+岸,bank,岸,NOUN
+工业,industry,工业,NOUN
+建立,to establish,建立,VERB
+建筑,to construct,建筑,VERB
+开发,to develop,开发,VERB
+开放,to open up,开放,VERB
+形象,image,形象,NOUN
+心理,psychology,心理,NOUN
+必要,necessary,必要,ADJ
+志愿者,volunteer,志愿者,NOUN
+思想,thought,思想,NOUN
+总之,in a word,总之,ADV
+总算,at long last,总算,ADV
+恐怖,terrifying,恐怖,ADJ
+意义,meaning,意义,NOUN
+成语,idiom,成语,NOUN
+成长,to grow up,成长,VERB
+扇子,fan,扇子,NOUN
+手工,handicraft,手工,NOUN
+扶,to support with the hand,扶,VERB
+抽屉,drawer,抽屉,NOUN
+拥抱,to embrace,拥抱,VERB
+指导,to guide,指导,VERB
+挡,to block,挡,VERB
+控制,to control,控制,VERB
+提问,to question,提问,VERB
+摄影,photography,摄影,NOUN
+支,to support,支,VERB
+文学,literature,文学,NOUN
+无数,countless,无数,ADJ
+日常,daily,日常,ADJ
+时代,era,时代,NOUN
+时尚,fashion,时尚,NOUN
+明显,obvious,明显,ADJ
+是否,whether or not,是否,SCONJ
+服装,clothing,服装,NOUN
+某,certain,某,ADJ
+标点,punctuation,标点,NOUN
+梳子,comb,梳子,NOUN
+棉花,cotton,棉花,NOUN
+欣赏,to appreciate,欣赏,VERB
+池子,pond,池子,NOUN
+油炸,to deep-fry,油炸,VERB
+游览,sightsee,游览,VERB
+满足,satisfy,满足,VERB
+火柴,match,火柴,NOUN
+灰,ash,灰,NOUN
+热心,enthusiastic,热心,ADJ
+热爱,love ardently,热爱,VERB
+爱心,love,爱心,NOUN
+班主任,head teacher,班主任,NOUN
+生产,to produce,生产,VERB
+电台,radio station,电台,NOUN
+疯狂,crazy,疯狂,ADJ
+痒,to itch,痒,VERB
+痛苦,pain,痛苦,NOUN
+的确,really,的确,ADV
+相处,to be in contact with,相处,VERB
+相当,equivalent to,相当,ADJ
+眉毛,eyebrow,眉毛,NOUN
+着凉,to catch cold,着凉,VERB
+睁,to open (one's eyes),睁,VERB
+砍,to chop,砍,VERB
+硬币,coin,硬币,NOUN
+磁带,cassette tape,磁带,NOUN
+祝福,blessing,祝福,NOUN
+立即,immediately,立即,ADV
+等于,to equal,等于,VERB
+等待,to wait,等待,VERB
+管子,tube,管子,NOUN
+类,kind,类,NOUN
+绳子,rope,绳子,NOUN
+罐头,canned food,罐头,NOUN
+罚款,to fine,罚款,VERB
+松开,to release,松开,VERB
+一时,temporarily,一时,ADV
+不免,inevitably,不免,ADV
+不足,insufficient,不足,ADJ
+业务,business,业务,NOUN
+丝毫,the slightest amount or degree,丝毫,ADV
+个别,individual,个别,ADJ
+中介,to act as intermediary,中介,NOUN
+中旬,middle third of a month,中旬,NOUN
+主张,to advocate,主张,VERB
+主持,to take charge of,主持,VERB
+主观,subjective,主观,ADJ
+义务,duty,义务,NOUN
+乘,to take,乘,VERB
+争论,to argue,争论,VERB
+事物,thing,事物,NOUN
+交际,socializing,交际,NOUN
+人事,personnel,人事,NOUN
+从事,to engage in,从事,VERB
+从而,thereby,从而,ADV
+仿佛,as if,仿佛,ADV
+企图,to attempt,企图,VERB
+传播,to disseminate,传播,VERB
+传递,to transmit,传递,VERB
+体现,to embody,体现,VERB
+体积,volume,体积,NOUN
+何况,let alone,何况,CCONJ
+依然,still,依然,ADV
+侵略,to invade,侵略,VERB
+促使,to urge,促使,VERB
+充分,sufficient,充分,ADJ
+光明,bright,光明,ADJ
+光荣,glorious,光荣,ADJ
+公元,Common Era,公元,NOUN
+关怀,to care for,关怀,VERB
+具备,to possess,具备,VERB
+内科,internal medicine,内科,NOUN
+册,volume,册,NOUN
+再三,repeatedly,再三,ADV
+军事,military affairs,军事,NOUN
+凡是,all,凡是,DET
+出席,to attend,出席,VERB
+出版,to publish,出版,VERB
+分布,to distribute,分布,VERB
+分配,to distribute,分配,VERB
+利息,interest,利息,NOUN
+利润,profit,利润,NOUN
+利益,benefit,利益,NOUN
+制定,to formulate,制定,VERB
+制度,system,制度,NOUN
+刺激,to stimulate,刺激,VERB
+刻苦,hardworking,刻苦,ADJ
+勤劳,hardworking,勤劳,ADJ
+勤奋,hardworking,勤奋,ADJ
+包含,to contain,包含,VERB
+匹,classifier for horses,匹,NUM
+华裔,ethnic Chinese,华裔,NOUN
+协调,to coordinate,协调,VERB
+单纯,simple pure,单纯,ADJ
+单调,monotonous,单调,ADJ
+危害,to jeopardize to harm,危害,VERB
+原料,raw material,原料,NOUN
+县,county,县,NOUN
+发挥,to display to bring into play,发挥,VERB
+叙述,to relate to narrate,叙述,VERB
+召开,to convene,召开,VERB
+可见,it can be seen,可见,ADV
+台阶,steps,台阶,NOUN
+名胜,scenic spot,名胜,NOUN
+否定,to deny,否定,VERB
+否认,to deny,否认,VERB
+启发,to enlighten,启发,VERB
+吸收,to absorb,吸收,VERB
+周到,thoughtful,周到,ADJ
+咨询,to consult,咨询,VERB
+品种,breed,品种,NOUN
+善于,to be good at,善于,VERB
+嘉宾,esteemed guest,嘉宾,NOUN
+因素,factor,因素,NOUN
+因而,therefore,因而,ADV
+围绕,to revolve around,围绕,VERB
+固体,solid,固体,NOUN
+地位,status,地位,NOUN
+均匀,even,均匀,ADJ
+坚决,resolute,坚决,ADJ
+坦率,frank,坦率,ADJ
+培养,to cultivate,培养,VERB
+外交,diplomacy,外交,NOUN
+失业,to lose one's job,失业,VERB
+奋斗,to strive,奋斗,VERB
+如今,nowadays,如今,ADV
+妨碍,to hinder,妨碍,VERB
+始终,from beginning to end,始终,ADV
+委托,to entrust,委托,VERB
+威胁,to threaten,威胁,VERB
+婚姻,marriage,婚姻,NOUN
+学术,academic,学术,ADJ
+学问,learning,学问,NOUN
+完善,perfect,完善,ADJ
+宗教,religion,宗教,NOUN
+宝贵,valuable,宝贵,ADJ
+实行,to implement,实行,VERB
+实践,to practice,实践,VERB
+客观,objective,客观,ADJ
+宣传,to publicize,宣传,VERB
+宴会,banquet,宴会,NOUN
+密切,close,密切,ADJ
+对手,opponent,对手,NOUN
+对比,to contrast,对比,VERB
+导致,to lead to,导致,VERB
+寿命,life span,寿命,NOUN
+射击,to shoot,射击,VERB
+小麦,wheat,小麦,NOUN
+尖锐,sharp,尖锐,ADJ
+届,session,届,NOUN
+展开,to unfold,展开,VERB
+巧妙,ingenious,巧妙,ADJ
+幅,classifier for paintings cloth etc.,幅,NUM
+平方,square (as in square foot),平方,NOUN
+平等,equal,平等,ADJ
+平衡,balance,平衡,NOUN
+广大,vast,广大,ADJ
+广泛,extensive,广泛,ADJ
+应用,to apply,应用,VERB
+应聘,to apply for a job,应聘,VERB
+延长,to prolong,延长,VERB
+强烈,intense,强烈,ADJ
+强调,to emphasize,强调,VERB
+当代,contemporary,当代,NOUN
+录取,to admit,录取,VERB
+形势,situation,形势,NOUN
+形式,form,形式,NOUN
+形成,to form,形成,VERB
+往返,to go back and forth,往返,VERB
+征求,to solicit,征求,VERB
+必然,inevitable,必然,ADJ
+必需,to need,必需,VERB
+忽视,to neglect,忽视,VERB
+性质,nature,性质,NOUN
+总裁,chairman,总裁,NOUN
+恶劣,vile,恶劣,ADJ
+悠久,established,悠久,ADJ
+情景,scene,情景,NOUN
+惭愧,ashamed,惭愧,ADJ
+感想,impressions,感想,NOUN
+感激,to be grateful,感激,VERB
+愤怒,anger,愤怒,NOUN
+慌张,flustered,慌张,ADJ
+戏剧,drama,戏剧,NOUN
+成分,ingredient,成分,NOUN
+成就,achievement,成就,NOUN
+成果,result,成果,NOUN
+成立,to establish,成立,VERB
+所,that which,所,PART
+所谓,so-called,所谓,ADJ
+执行,to execute,执行,VERB
+批准,to approve,批准,VERB
+承受,to bear,承受,VERB
+承担,to undertake,承担,VERB
+抗议,to protest,抗议,VERB
+抽象,abstract,抽象,ADJ
+担任,to serve as,担任,VERB
+招待,to entertain,招待,VERB
+持续,to last,持续,VERB
+指挥,to conduct,指挥,VERB
+振动,vibration,振动,NOUN
+掌握,to grasp,掌握,VERB
+接待,to receive,接待,VERB
+接触,to contact,接触,VERB
+推广,to promote,推广,VERB
+推辞,to decline,推辞,VERB
+措施,measure,措施,NOUN
+描写,to describe,描写,VERB
+提倡,to advocate,提倡,VERB
+提纲,outline,提纲,NOUN
+支票,check,支票,NOUN
+改善,to improve,改善,VERB
+改进,to improve,改进,VERB
+改革,to reform,改革,VERB
+政治,politics,政治,NOUN
+政策,policy,政策,NOUN
+效率,efficiency,效率,NOUN
+教材,teaching material,教材,NOUN
+敬爱,to respect and love,敬爱,VERB
+整体,whole,整体,NOUN
+文明,civilization,文明,NOUN
+方案,plan,方案,NOUN
+日程,schedule,日程,NOUN
+时期,period,时期,NOUN
+明确,clear-cut,明确,ADJ
+显然,obviously,显然,ADV
+智慧,wisdom,智慧,NOUN
+有利,advantageous,有利,ADJ
+服从,to obey,服从,VERB
+朝代,dynasty,朝代,NOUN
+本质,essence,本质,NOUN
+本领,skill,本领,NOUN
+朴素,plain and simple,朴素,ADJ
+权利,right,权利,NOUN
+权力,power,权力,NOUN
+构成,to constitute,构成,VERB
+果实,fruit,果实,NOUN
+标志,sign,标志,NOUN
+样式,style,样式,NOUN
+格外,especially,格外,ADV
+概念,concept,概念,NOUN
+概括,to summarize,概括,VERB
+次要,secondary,次要,ADJ
+此外,besides,此外,ADV
+武器,weapon,武器,NOUN
+武术,martial arts,武术,NOUN
+比例,proportion,比例,NOUN
+民主,democracy,民主,NOUN
+汇率,exchange rate,汇率,NOUN
+活跃,active,活跃,ADJ
+派,faction,派,NOUN
+流传,to spread,流传,VERB
+消灭,to eliminate,消灭,VERB
+消费,to consume,消费,VERB
+液体,liquid,液体,NOUN
+深刻,profound,深刻,ADJ
+激烈,intense,激烈,ADJ
+灵活,flexible,灵活,ADJ
+灾害,disaster,灾害,NOUN
+热烈,warm,热烈,ADJ
+煤炭,coal,煤炭,NOUN
+燃烧,burn,燃烧,VERB
+爱惜,cherish,爱惜,VERB
+爱护,care for,爱护,VERB
+片面,one-sided,片面,ADJ
+物质,matter,物质,NOUN
+特征,characteristic,特征,NOUN
+状况,condition,状况,NOUN
+独特,unique,独特,ADJ
+现象,phenomenon,现象,NOUN
+理论,theory,理论,NOUN
+生动,vivid,生动,ADJ
+用途,use,用途,NOUN
+田野,field,田野,NOUN
+疲劳,fatigue,疲劳,NOUN
+皇后,empress,皇后,NOUN
+相似,to resemble,相似,ADJ
+相关,to be interrelated,相关,ADJ
+相对,relatively,相对,ADV
+省略,to leave out,省略,VERB
+真理,truth,真理,NOUN
+破产,to go bankrupt,破产,VERB
+硬件,hardware,硬件,NOUN
+祖先,ancestor,祖先,NOUN
+私人,private,私人,ADJ
+秩序,order,秩序,NOUN
+称赞,to praise,称赞,VERB
+程度,degree,程度,NOUN
+稳定,stable,稳定,ADJ
+空闲,free time,空闲,NOUN
+突出,to stand out,突出,VERB
+立方,cube,立方,NOUN
+等候,to wait,等候,VERB
+粘贴,to paste,粘贴,VERB
+粮食,grain,粮食,NOUN
+精力,energy,精力,NOUN
+繁荣,prosperous,繁荣,ADJ
+纪律,discipline,纪律,NOUN
+纷纷,one after another,纷纷,ADV
+组合,to combine,组合,VERB
+经营,to manage,经营,VERB
+结合,to combine,结合,VERB
+结构,structure,结构,NOUN
+结论,conclusion,结论,NOUN
+统一,to unify,统一,VERB
+统治,to rule,统治,VERB
+维护,to maintain,维护,VERB
+综合,comprehensive,综合,ADJ
+缓解,to relieve,缓解,VERB
+缘故,reason,缘故,NOUN
+缩小,to reduce,缩小,VERB
+缩短,to shorten,缩短,VERB
+缺乏,to lack,缺乏,VERB
+罪犯,criminal,罪犯,NOUN
+本质上,essentially,本质上,ADV
+理论上,theoretically,理论上,ADV
+重伤,to wound,重伤,VERB
+兄长,elder brother,兄长,NOUN
+夙,old,夙,NOUN
 百姓,commoner,百姓,NOUN
 遭遇,encounter,遭遇,NOUN
-相,mutual,相,ADJ
-自,from,自,ADP
-立下,to establish,立下,VERB
-然,to be so,然,VERB
-一时,temporarily,一时,ADV
-悬崖,cliff,悬崖,NOUN
-怎,how,怎,ADV
-似,to resemble,似,VERB
-进宫,to enter palace,进宫,VERB
-奉,to serve,奉,VERB
-刑部,Ministry of Justice,刑部,NOUN
-冠礼,capping ceremony,冠礼,NOUN
-皇,emperor,皇,NOUN
-义子,adopted son,义子,NOUN
-父,father,父,NOUN
-儿臣,your son,儿臣,NOUN
-皇家,imperial family,皇家,NOUN
-小孩,child,小孩,NOUN
-手伤,hand wound,手伤,NOUN
-妾室,concubine,妾室,NOUN
-匕首,dagger,匕首,NOUN
-将士,soldier,将士,NOUN
-庄主,manor lord,庄主,NOUN
-放肆,impudent,放肆,ADJ
-师娘,master's wife,师娘,NOUN
-好了,to finish,好了,VERB
-边关,frontier,边关,NOUN
-治好,to cure,治好,VERB
-治病,to treat,治病,VERB
 罢了,that's all,罢了,PART
-南关,south gate,南关,NOUN
-嫂嫂,sister-in-law,嫂嫂,NOUN
-
+递,to hand over,递,VERB
+银,silver,银,NOUN
+不再,no longer,不再,ADV
+不在乎,don't care,不在乎,VERB
+丢下,leave behind,丢下,VERB
+丢掉,discard,丢掉,VERB
+举起,to raise,举起,VERB
+之所以,the reason why,之所以,SCONJ
+也就是说,that is to say,也就是说,SCONJ
+今日,today,今日,NOUN
+以上,above,以上,ADP
+以下,below,以下,ADP
+以外,besides,以外,ADP
+任何人,anyone,任何人,PRON
+伤口,wound,伤口,NOUN
+伸出,to reach out,伸出,VERB
+住手,stop,住手,VERB
+像是,seems like,像是,VERB
+全都,all,全都,ADV
+再次,once more,再次,ADV
+再说,besides,再说,ADV
+出名,to become famous,出名,VERB
+分享,to share,分享,VERB
+加上,plus,加上,VERB
+发送,to send,发送,VERB
+受欢迎,popular,受欢迎,ADJ
+变得,to become,变得,VERB
+只不过,merely,只不过,ADV
+命,life,命,NOUN
+咱俩,we two,咱俩,PRON
+哥们,buddies,哥们,NOUN
+回头,turn around,回头,VERB
+团队,team,团队,NOUN
+图,picture,图,NOUN
+在乎,to care about,在乎,VERB
+夜晚,night,夜晚,NOUN
+大多,mostly,大多,ADV
+大量,large amount,大量,NOUN
+夫妻,couple,夫妻,NOUN
+女子,woman,女子,NOUN
+做到,to achieve,做到,VERB
+配,to match,配,VERB
+拿回,to take back,拿回,VERB
+带走,to take away,带走,VERB
+金,gold,金,NOUN
+转,to turn,转,VERB
+州,prefecture,州,NOUN
+局,bureau,局,NOUN
+守,to guard,守,VERB
+尽,to exhaust,尽,VERB
+得知,to find out,得知,VERB
+或许,perhaps,或许,ADV
+意识,consciousness,意识,NOUN
+梦想,dream,梦想,NOUN
+租金,rent,租金,NOUN
+学位,academic degree,学位,NOUN
+驾照,driver's license,驾照,NOUN
+铁,iron,铁,NOUN
