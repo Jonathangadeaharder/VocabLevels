@@ -268,7 +268,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 再也,no longer,再也,ADV
 再来,come again,再来,VERB
 再次,once more,再次,ADV
-再見,goodbye,再見,INTJ
+再见,goodbye,再见,INTJ
 再说,besides,再说,ADV
 军,army,军,NOUN
 冬天,winter,冬天,NOUN
@@ -277,7 +277,7 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 出事,to have an accident,出事,VERB
 出来,to come out,出来,VERB
 出去,to go out,出去,VERB
-出名,famous,出名,ADJ
+出名,to become famous,出名,VERB
 出门,to go out,出门,VERB
 分享,to share,分享,VERB
 分开,to separate,分开,VERB
@@ -539,11 +539,10 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 选,to choose,选,VERB
 对了,by the way,对了,INTJ
 你好,hello,你好,INTJ
-每一,every,每一,DET
 就像,just like,就像,ADP
 要想,if wanting to,要想,AUX
 快点,hurry up,快点,ADV
-了吧,indeed,了吧,PART
+了吧,sentence-final particle expressing conjecture,了吧,PART
 放下,to put down,放下,VERB
 到了,to arrive,到了,VERB
 
