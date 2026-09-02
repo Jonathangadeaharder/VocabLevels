@@ -1,501 +1,241 @@
 Spanish_Lemma,English_Lemma,Chinese_Lemma,POS
-abalanzarse,to pounce,猛扑,VERB
-abnegación,self-denial,自我牺牲,NOUN
-abnegado,selfless,无私的,ADJ
-aborrecer,to abhor,憎恶,VERB
-abstemio,abstemious,节制的,ADJ
-abstinencia,abstinence,节制,NOUN
-abstracción,abstraction,抽象,NOUN
-abstraído,distracted,心不在焉的,ADJ
-abstruso,abstruse,深奥的,ADJ
-abyecto,abject,卑鄙的,ADJ
-acaecer,to occur,发生,VERB
-acaudalado,wealthy,富有的,ADJ
-acerbo,acerbic,尖刻的,ADJ
-acervo,heritage,遗产,NOUN
+bufar,to snort,喷鼻息,VERB
+buhardilla,attic,阁楼,NOUN
+bullicio,bustle,喧闹,NOUN
+bullicioso,boisterous,喧闹的,ADJ
+burdo,coarse,粗糙的,ADJ
+burlador,mocker,嘲笑者,NOUN
+bursátil,stock-market,证券交易的,ADJ
+buscapleitos,troublemaker,惹是生非者,NOUN
+bóveda,vault,拱顶,NOUN
+cachivache,gadget,小玩意,NOUN
+calamidad,calamity,灾难,NOUN
+calar,to soak,浸透,VERB
+calcomanía,decal,贴花,NOUN
+calibrar,to calibrate,校准,VERB
+calumnia,slander,诽谤,NOUN
+calumniar,to slander,诽谤,VERB
+campiña,countryside,乡村,NOUN
+candente,blazing,炽热的,ADJ
+caricaturizar,caricature,漫画化,VERB
+caritativo,charitable,慈善的,ADJ
+cartografía,cartography,制图学,NOUN
+cauce,riverbed,河道,NOUN
+caucásico,Caucasian,高加索的,ADJ
+caudaloso,abundant,水量充沛的,ADJ
+causalidad,causality,因果关系,NOUN
+cauteloso,cautious,谨慎的,ADJ
+cautivador,captivating,迷人的,ADJ
+cautiverio,captivity,囚禁,NOUN
+cautivo,captive,被俘虏的,ADJ
+cebar,to fatten,催肥,VERB
+celador,attendant,看守人,NOUN
+censurable,reprehensible,应受谴责的,ADJ
+centellear,to twinkle,闪烁,VERB
+cepa,strain,品种,NOUN
+cerciorarse,to make sure,确信,VERB
+certero,accurate,准确的,ADJ
+certidumbre,certainty,确定性,NOUN
+chabola,shack,棚屋,NOUN
+chapado,plated,镀层的,ADJ
+chasco,disappointment,失望,NOUN
+chasquido,snap,咔哒声,NOUN
+chirriar,to creak,嘎吱作响,VERB
+chispazo,spark,火花,NOUN
+chispeante,sparkling,闪烁的,ADJ
+chubasco,squall,骤雨,NOUN
+chuchería,trinket,小饰品,NOUN
+cimentar,to found,奠基,VERB
+cimiento,foundation,地基,NOUN
+cinismo,cynicism,犬儒主义,NOUN
+civismo,civic-mindedness,公民意识,NOUN
+clamar,to cry out,呼喊,VERB
+clamoroso,clamorous,喧嚣的,ADJ
+clandestinidad,clandestineness,秘密状态,NOUN
+climatización,air conditioning,空调,NOUN
+cobertizo,shed,棚屋,NOUN
+cobijar,to shelter,庇护,VERB
+cobijo,shelter,庇护所,NOUN
+codear,to elbow,用肘推,VERB
+codiciar,to covet,觊觎,VERB
+codificación,coding,编码,NOUN
+coexistencia,coexistence,共存,NOUN
+cognitivo,cognitive,认知的,ADJ
+cohabitar,to cohabit,同居,VERB
+cohibido,inhibited,拘谨的,ADJ
+cohibir,to inhibit,抑制,VERB
+colateral,collateral,附属的,ADJ
+colindar,to border,接壤,VERB
+colisión,collision,碰撞,NOUN
+coloración,coloration,着色,NOUN
+coloso,colossus,巨像,NOUN
+combatividad,combativeness,好斗性,NOUN
+combativo,combative,好斗的,ADJ
+comezón,itch,痒,NOUN
+comilona,feast,盛宴,NOUN
+compadecer,to pity,同情,VERB
+compilación,compilation,汇编,NOUN
+compilar,to compile,汇编,VERB
+complacencia,complacency,自满,NOUN
+complaciente,obliging,殷勤的,ADJ
+complot,plot,阴谋,NOUN
+compostura,composure,镇定,NOUN
+concerniente,concerning,有关的,ADJ
+conciliación,conciliation,调解,NOUN
+conciliador,conciliatory,调和的,ADJ
+conciso,concise,简洁的,ADJ
+conciudadano,fellow citizen,同胞,NOUN
+concluyente,conclusive,决定性的,ADJ
+concordancia,concordance,一致,NOUN
+concurrencia,concurrence,出席,NOUN
+concurrir,to attend,出席,VERB
+condecorar,to decorate,授勋,VERB
+condenable,reprehensible,应受谴责的,ADJ
+condescendiente,condescending,屈尊的,ADJ
+condicionante,conditioning,制约因素,ADJ
+condimentar,to season,调味,VERB
+condolencia,condolence,哀悼,NOUN
+confederación,confederation,邦联,NOUN
+confederado,confederate,同盟者,NOUN
+conferenciar,to lecture,演讲,VERB
+confidencia,confidence,机密,NOUN
+confidente,confidant,知己,NOUN
+confiscación,confiscation,没收,NOUN
+confluencia,confluence,汇合,NOUN
+confluir,to converge,汇合,VERB
+confortar,to comfort,安慰,VERB
+congeniar,to get along,相处融洽,VERB
+conglomerado,conglomerate,集团,NOUN
+congratular,to congratulate,祝贺,VERB
+congruencia,congruence,一致性,NOUN
+congruente,congruent,一致的,ADJ
+congénito,congenital,先天的,ADJ
+conjetura,conjecture,推测,NOUN
+conjeturar,to conjecture,猜测,VERB
+conjurar,to conjure,变魔术,VERB
+conmemoración,commemoration,纪念,NOUN
+connotación,connotation,内涵,NOUN
+connotar,to connote,意味着,VERB
+consecución,achievement,达成,NOUN
+consignar,to consign,托运,VERB
+consolación,consolation,安慰,NOUN
+consonancia,consonance,和谐,NOUN
+consorcio,consortium,财团,NOUN
+conspirador,conspirator,阴谋家,NOUN
+constatación,confirmation,证实,NOUN
+consternación,consternation,惊愕,NOUN
+constituyente,constituent,选民,NOUN
+consultivo,consultative,咨询的,ADJ
+consumado,consummate,熟练的,ADJ
+consumar,to consummate,完成,VERB
+contemplación,contemplation,沉思,NOUN
+contemplativo,contemplative,沉思的,ADJ
+contender,to contend,竞争,VERB
+contendiente,contender,竞争者,NOUN
+contiguo,contiguous,相邻的,ADJ
+contingencia,contingency,偶然性,NOUN
+contingente,contingent,偶然的,ADJ
+contorsión,contortion,扭曲,NOUN
+contracorriente,countercurrent,逆流,NOUN
+contrapeso,counterweight,配重,NOUN
+contraponer,to oppose,对立,VERB
+contraposición,opposition,对立,NOUN
+contraproducente,counterproductive,适得其反的,ADJ
+contrariar,to contradict,使烦恼,VERB
+contrariedad,setback,挫折,NOUN
+contraído,contracted,收缩的,ADJ
+contrincante,opponent,对手,NOUN
+contusión,contusion,挫伤,NOUN
+convaleciente,convalescent,康复期的,ADJ
+convergencia,convergence,趋同,NOUN
+converger,to converge,汇聚,VERB
+convexo,convex,凸的,ADJ
+convicto,convict,已定罪的,ADJ
+convidar,to invite,邀请,VERB
+convulsivo,convulsive,抽搐的,ADJ
+convulsión,convulsion,抽搐,NOUN
+conyugal,conjugal,夫妻的,ADJ
+copioso,copious,丰富的,ADJ
+coproducción,coproduction,联合制作,NOUN
+copropietario,co-owner,共有人,NOUN
+cordura,sanity,理智,NOUN
+corpulento,corpulent,魁梧的,ADJ
+corregible,corrigible,可改正的,ADJ
+correlativo,correlative,相关的,ADJ
+corretear,to scamper,奔跑,VERB
+corroboración,corroboration,证实,NOUN
+corroborar,to corroborate,证实,VERB
+corroer,to corrode,腐蚀,VERB
+corrosivo,corrosive,腐蚀性的,ADJ
+corrosión,corrosion,腐蚀,NOUN
+cortijo,farmstead,农庄,NOUN
+cosquilleo,tickle,发痒,NOUN
+costanera,coast road,沿海公路,NOUN
+cotejar,to compare,核对,VERB
+cotejo,comparison,核对,NOUN
+cotizable,quotable,可估价的,ADJ
+crecida,flood,洪水,NOUN
+criminalista,criminal lawyer,刑事律师,NOUN
+criticable,criticizable,可批评的,ADJ
+crujido,creak,嘎吱声,NOUN
+crédulo,credulous,轻信的,ADJ
+cuajar,to set,凝固,VERB
+cuantificable,quantifiable,可量化的,ADJ
+cuantificar,to quantify,量化,VERB
+cuantioso,plentiful,大量的,ADJ
+cubrimiento,coverage,覆盖,NOUN
+cuchichear,to whisper,窃窃私语,VERB
+cuerdo,sane,神志清醒的,ADJ
+culminación,culmination,顶点,NOUN
+cuneta,gutter,路沟,NOUN
+curiosear,to snoop,窥探,VERB
+cursilada,tacky thing,俗气的事,NOUN
+curtido,tanned,鞣制的,ADJ
+curtir,to tan,鞣制,VERB
+curvatura,curvature,曲率,NOUN
+custodiar,to guard,看守,VERB
+cúmulo,heap,堆积物,NOUN
+cúspide,cusp,顶点,NOUN
+danzante,dancer,舞者,NOUN
+decaer,to decline,衰退,VERB
+decaído,dejected,沮丧的,ADJ
+declarante,declarant,申报人,NOUN
+declive,slope,斜坡,NOUN
+decodificación,decoding,解码,NOUN
+decodificar,to decode,解码,VERB
+decrecer,to decrease,减少,VERB
+decreciente,decreasing,递减的,ADJ
+espeluznante,hair-raising,令人毛骨悚然的,ADJ
+farsa,farce,闹剧,NOUN
+incumbencia,responsibility,职责,NOUN
+jurisdicción,jurisdiction,管辖权,NOUN
+extorsionar,to extort,勒索,VERB
+remorder,to cause remorse,使悔恨,VERB
+misericordioso,merciful,仁慈的,ADJ
 achacar,to attribute,归咎于,VERB
-acicate,incentive,刺激,NOUN
-acogimiento,reception,接纳,NOUN
-acongojar,to distress,使苦恼,VERB
-acopio,stockpile,储备,NOUN
-acotación,annotation,注释,NOUN
-acrecentar,to increase,增加,VERB
-acribillar,to riddle,使布满孔洞,VERB
-acrisolar,to refine,提纯,VERB
-acritud,acrimony,尖刻,NOUN
 acuciante,pressing,紧迫的,ADJ
-acuciar,to urge,催促,VERB
 acérrimo,staunch,坚定的,ADJ
-adalid,champion,领袖,NOUN
-aderezar,to dress,调味,VERB
 adoctrinar,to indoctrinate,灌输,VERB
-adolecer,to suffer from,患有,VERB
-adscribir,to assign,指派,VERB
-aducir,to adduce,提出,VERB
-adulación,flattery,奉承,NOUN
-adular,to flatter,奉承,VERB
-afanarse,to strive,努力,VERB
-afectación,affectation,矫揉造作,NOUN
-afrenta,affront,侮辱,NOUN
-agasajar,to entertain,款待,VERB
-agazaparse,to crouch,潜伏,VERB
-agigantar,to magnify,放大,VERB
 aglomerar,to aggregate,聚集,VERB
-agorero,ominous,不祥的,ADJ
-agraviar,to offend,冒犯,VERB
-agravio,grievance,委屈,NOUN
-agreste,rural,乡村的,ADJ
-ahínco,zeal,热忱,NOUN
-ahíto,sated,饱足的,ADJ
-ajusticiar,to execute,处决,VERB
-albacea,executor,遗嘱执行人,NOUN
-albedrío,free will,自由意志,NOUN
-alborozo,joy,喜悦,NOUN
-alcurnia,lineage,血统,NOUN
-aletargado,lethargic,昏睡的,ADJ
-aletargar,to make drowsy,使昏睡,VERB
-alevosía,treachery,背叛,NOUN
-alfabetizar,to teach reading,扫盲,VERB
-algarabía,uproar,喧哗,NOUN
-alienar,to alienate,疏远,VERB
-alimaña,vermin,害兽,NOUN
-almena,battlement,城垛,NOUN
-almizcle,musk,麝香,NOUN
-altanero,haughty,傲慢的,ADJ
 altercado,altercation,争执,NOUN
-altivez,haughtiness,傲慢,NOUN
-altivo,haughty,傲慢的,ADJ
-amago,threat,威胁,NOUN
-amainar,to subside,减弱,VERB
-amalgamar,to amalgamate,合并,VERB
-amancebarse,to cohabit,姘居,VERB
-ambages,circumlocution,迂回说法,NOUN
-amedrentar,to intimidate,恐吓,VERB
-amilanar,to daunt,使气馁,VERB
-amohinarse,to sulk,生闷气,VERB
-amorfo,amorphous,无定形的,ADJ
-amortajar,to shroud,入殓,VERB
-amotinar,to mutiny,煽动叛乱,VERB
-amputar,to amputate,截肢,VERB
-anacronismo,anachronism,时代错误,NOUN
-anacrónico,anachronistic,时代错误的,ADJ
-anaquel,shelf,架子,NOUN
-anatema,anathema,诅咒,NOUN
-andrajoso,ragged,破烂的,ADJ
-anegado,flooded,被淹没的,ADJ
-anejar,to age,使陈化,VERB
-anejo,annex,附件,NOUN
-animadversión,animosity,敌意,NOUN
-animosidad,animosity,敌意,NOUN
-anodino,bland,平淡的,ADJ
-anonadar,to overwhelm,使不知所措,VERB
-antagonismo,antagonism,对立,NOUN
-antagonizar,to antagonize,使对立,VERB
-antaño,in the past,往昔,ADV
-antedicho,aforementioned,前述的,ADJ
-antípoda,antipode,对跖点,NOUN
-anuencia,consent,同意,NOUN
 apabullar,to overwhelm,压倒,VERB
-apaciguar,to appease,平息,VERB
-aparatoso,showy,惹眼的,ADJ
-apaño,makeshift solution,临时凑合的办法,NOUN
-apear,to dismount,下马,VERB
-aplacar,to placate,安抚,VERB
-apologista,apologist,辩护者,NOUN
-apologético,apologetic,辩护的,ADJ
-apoplejía,apoplexy,中风,NOUN
-aporrear,to pound,猛击,VERB
-apostilla,apostille,附加证明书,NOUN
-apoteosis,apotheosis,神化,NOUN
-apoteósico,apotheotic,神化的,ADJ
-aprehender,to apprehend,逮捕,VERB
-aprehensión,apprehension,忧虑,NOUN
 apremiar,to urge,催促,VERB
 apremio,urgency,紧急,NOUN
-aprensión,apprehension,忧虑,NOUN
 apuntalar,to prop up,支撑,VERB
-arabesco,arabesque,阿拉伯式花纹,NOUN
-arandela,washer,垫圈,NOUN
-arcaico,archaic,古老的,ADJ
-arcano,arcane,神秘的,ADJ
-arcaísmo,archaism,古语,NOUN
-arce,maple,枫树,NOUN
-ardid,trick,诡计,NOUN
-arenga,harangue,长篇演说,NOUN
-arengar,to harangue,向...发表长篇演说,VERB
-argüir,to argue,争辩,VERB
 arisco,gruff,粗鲁的,ADJ
-arquetipo,archetype,原型,NOUN
-arracimar,to cluster,使成串,VERB
-arrebatado,impetuous,冲动的,ADJ
-arreciar,to intensify,加剧,VERB
-arredrar,to daunt,使畏缩,VERB
-arremeter,to charge,猛攻,VERB
-arrendatario,tenant,承租人,NOUN
-arreo,tackling,马具,NOUN
-arribista,upstart,暴发户,NOUN
-arrobador,enchanting,迷人的,ADJ
-arrobamiento,rapture,狂喜,NOUN
-arrostrar,to face,面对,VERB
-arrullar,to lull,哄睡,VERB
-artero,sly,狡猾的,ADJ
-artimaña,trick,诡计,NOUN
-asaeteado,beleaguered,备受困扰的,ADJ
-asaz,quite,相当,ADV
-ascetismo,asceticism,禁欲主义,NOUN
-ascético,ascetic,禁欲的,ADJ
-aseguramiento,assurance,保证,NOUN
-asentimiento,assent,同意,NOUN
-aserción,assertion,断言,NOUN
-aserto,assertion,断言,NOUN
-asestar,to deal,给予（打击）,VERB
-aseveración,assertion,断言,NOUN
-aseverar,to assert,断言,VERB
-asperjar,to sprinkle,洒,VERB
-aspersión,sprinkling,喷洒,NOUN
-astillero,shipyard,造船厂,NOUN
-astringente,astringent,收敛剂,NOUN
-asueto,day off,休息日,NOUN
-atalaya,watchtower,瞭望塔,NOUN
-atavío,attire,服饰,NOUN
-atemperar,to temper,调和,VERB
-aterido,frozen,冻僵的,ADJ
-atestado,packed,拥挤的,ADJ
-atestar,to cram,塞满,VERB
-atildado,dapper,整洁的,ADJ
-atisbar,to glimpse,瞥见,VERB
 atizar,to stoke,拨旺（火）,VERB
-atolladero,quandary,困境,NOUN
-atolondrado,scatterbrained,丢三落四的,ADJ
-atosigar,to harass,骚扰,VERB
-atrabiliario,bilious,脾气坏的,ADJ
-atrincherar,to entrench,使盘踞,VERB
-atrofiar,to atrophy,使萎缩,VERB
-atufar,to stink,发臭,VERB
-augurio,omen,预兆,NOUN
-aulico,courtly,宫廷的,ADJ
-auparse,to lift oneself up,使自己升高,VERB
-auscultar,to auscultate,听诊,VERB
 auspiciar,to sponsor,赞助,VERB
-auspicio,auspice,吉兆,NOUN
-autarquía,autarky,自给自足,NOUN
-autocracia,autocracy,独裁,NOUN
-autocrático,autocratic,独裁的,ADJ
-avariento,greedy,贪婪的,ADJ
-avasallar,to subdue,征服,VERB
-avatar,vicissitude,变迁,NOUN
-avenencia,agreement,协议,NOUN
-avezado,experienced,老练的,ADJ
-avidez,greed,贪婪,NOUN
-avizor,vigilant,警惕的,ADJ
-avocación,calling,天职,NOUN
-azaroso,risky,危险的,ADJ
-azorar,to fluster,使惊慌,VERB
-azotaina,spanking,打屁股,NOUN
-azuzar,to incite,煽动,VERB
-añagaza,trick,诡计,NOUN
-bacanal,bacchanal,狂欢,NOUN
-badana,sheepskin,羊皮,NOUN
-bagatela,trifle,琐事,NOUN
-baladí,trifling,微不足道的,ADJ
-balaustrada,balustrade,栏杆,NOUN
-baldío,uncultivated,荒芜的,ADJ
-baldón,disgrace,耻辱,NOUN
-baluarte,bulwark,堡垒,NOUN
-bambolear,to wobble,摇晃,VERB
-baqueteado,worn,磨损的,ADJ
-barahúnda,uproar,喧嚣,NOUN
-barbarismo,barbarism,野蛮,NOUN
-bardo,bard,吟游诗人,NOUN
-barreduras,sweepings,扫出的垃圾,NOUN
-barrenar,to drill,钻孔,VERB
-barrunto,inkling,预感,NOUN
 bastión,bastion,堡垒,NOUN
-batahola,uproar,喧哗,NOUN
-batiburrillo,jumble,混杂,NOUN
-beatificar,to beatify,宣福,VERB
-belicoso,bellicose,好战的,ADJ
 beligerante,belligerent,交战的,ADJ
-beneplácito,approval,批准,NOUN
-benignidad,kindness,仁慈,NOUN
-beodo,drunk,醉的,ADJ
-bermellón,vermilion,朱红色,NOUN
-bicéfalo,two-headed,双头的,ADJ
-bienandanza,prosperity,繁荣,NOUN
-bienaventurado,blessed,受祝福的,ADJ
-bienhechor,benefactor,恩人,NOUN
-bienquisto,well-liked,受人喜爱的,ADJ
-bilioso,bilious,胆汁质的,ADJ
-bisbiseo,whisper,低语,NOUN
-bisecar,to bisect,平分,VERB
-bisemanal,biweekly,双周的,ADJ
-bizantino,Byzantine,拜占庭的,ADJ
-bizarro,brave,勇敢的,ADJ
-blandir,to brandish,挥舞,VERB
-blasfemar,to blaspheme,亵渎,VERB
-blasón,coat of arms,纹章,NOUN
-blusón,smock,罩衫,NOUN
-bobalicón,foolish,愚蠢的,ADJ
-bonhomía,good nature,和蔼,NOUN
-boqueada,gasp,喘息,NOUN
-borbotear,to gush,喷涌,VERB
-borbotón,gush,涌出,NOUN
-boreal,northern,北方的,ADJ
 borrasca,storm,风暴,NOUN
 boyante,buoyant,繁荣的,ADJ
-bozal,muzzle,口套,NOUN
-bracero,laborer,农工,NOUN
-bramido,roar,吼叫声,NOUN
-brebaje,potion,药酒,NOUN
-brega,struggle,斗争,NOUN
-bribón,rascal,无赖,NOUN
-bridón,snaffle,单衔马衔,NOUN
-brioso,spirited,精力充沛的,ADJ
-broncíneo,bronze-colored,青铜色的,ADJ
-bruñir,to polish,磨光,VERB
-bufido,snort,喷鼻息,NOUN
-bula,papal bull,教皇诏书,NOUN
-bullente,bubbling,沸腾的,ADJ
-burlesco,burlesque,滑稽的,ADJ
 cabalmente,exactly,恰好,ADV
-cabriola,caper,跳跃,NOUN
-cacahuetal,peanut field,花生田,NOUN
-cacareado,vaunted,吹嘘的,ADJ
-caciquismo,bossism,头目政治,NOUN
-cacofonía,cacophony,刺耳的声音,NOUN
-cadalso,scaffold,断头台,NOUN
-cadavérico,cadaverous,死尸般的,ADJ
 cadencia,cadence,节奏,NOUN
-caduco,decrepit,破旧的,ADJ
-calamitoso,calamitous,灾难性的,ADJ
-calcáreo,calcareous,含钙的,ADJ
-calderón,fermata,延长号,NOUN
-calidoscopio,kaleidoscope,万花筒,NOUN
-camandulero,sanctimonious,伪善的,ADJ
-cambalache,junk,破烂货,NOUN
-camelar,to woo,追求,VERB
-camorra,squabble,争吵,NOUN
-campechano,affable,和蔼可亲的,ADJ
-canalón,gutter,排水沟,NOUN
-canonizar,to canonize,封圣,VERB
-canónico,canonical,规范的,ADJ
-capcioso,captious,吹毛求疵的,ADJ
-capitular,to capitulate,投降,VERB
-carantoña,caress,爱抚,NOUN
-carbonilla,soot,烟灰,NOUN
-carcomer,gnaw,啃咬,VERB
-careado,confronted,对质的,ADJ
-carear,confront,对质,VERB
-carestía,high cost of living,物价高涨,NOUN
-carona,saddle pad,马鞍垫,NOUN
-carrizal,reed bed,芦苇荡,NOUN
-carromato,cart,大篷车,NOUN
-cartabón,set square,三角板,NOUN
-carámbano,icicle,冰柱,NOUN
-casaca,coat,外套,NOUN
-cascarudo,crusty,结壳的,ADJ
-casquivano,frivolous,轻浮的,ADJ
-casuística,casuistry,决疑法,NOUN
-catalepsia,catalepsy,僵直症,NOUN
-cataplasma,poultice,泥敷剂,NOUN
-catarsis,catharsis,宣泄,NOUN
-catastro,land register,地籍,NOUN
-caterva,horde,一群,NOUN
-caución,bail,保释,NOUN
-cauterizar,to cauterize,烧灼,VERB
-cavilación,brooding,沉思,NOUN
-cavilar,to ponder,沉思,VERB
-caviloso,brooding,爱沉思的,ADJ
-cecear,to lisp,咬舌,VERB
-cedazo,sieve,筛子,NOUN
-celada,ambush,埋伏,NOUN
-celebrante,celebrant,主持仪式者,NOUN
-celeridad,celerity,迅速,NOUN
-cenagal,bog,沼泽,NOUN
-ceniciento,ashen,灰白色的,ADJ
-cenotafio,cenotaph,衣冠冢,NOUN
-cercenar,to curtail,削减,VERB
-cesación,cessation,停止,NOUN
-chabacano,vulgar,粗俗的,ADJ
-chambón,clumsy,笨拙的,ADJ
-chamuscar,to singe,烧焦,VERB
-chanchullo,fiddle,勾当,NOUN
-chanza,joke,玩笑,NOUN
-chapotear,to splash,扑腾,VERB
-chapucear,to botch,乱做,VERB
-charada,charade,哑谜,NOUN
-charanga,brass band,铜管乐队,NOUN
-charlatanería,quackery,江湖骗术,NOUN
-charlatán,charlatan,江湖骗子,NOUN
-chepudo,hunchbacked,驼背的,ADJ
-chicotear,to whip,鞭打,VERB
-chinchorro,rowboat,小划艇,NOUN
-chiripa,fluke,侥幸,NOUN
-chistar,to speak,说话,VERB
-chocarrería,vulgarity,粗俗,NOUN
-chochar,to dote,溺爱,VERB
-cicatero,stingy,吝啬的,ADJ
-cicerone,guide,导游,NOUN
-cimera,crest,顶饰,NOUN
-cincelar,to chisel,雕刻,VERB
-circense,circus,马戏的,ADJ
-circuir,to encircle,包围,VERB
-circunlocución,circumlocution,赘述,NOUN
-circunloquio,circumlocution,迂回说法,NOUN
-circunscribir,to circumscribe,限制,VERB
-circunscripción,constituency,选区,NOUN
-circunspección,circumspection,谨慎,NOUN
-circunspecto,circumspect,谨慎的,ADJ
-circunvalar,to encircle,环绕,VERB
-circunvecino,neighboring,邻近的,ADJ
-cisma,schism,分裂,NOUN
-citatorio,subpoena,传票,NOUN
-claraboya,skylight,天窗,NOUN
-clarividencia,clairvoyance,洞察力,NOUN
-claroscuro,chiaroscuro,明暗对照,NOUN
-coaccionar,to coerce,胁迫,VERB
-coartar,to restrict,限制,VERB
-coetáneo,contemporary,同时代的,ADJ
-cognado,cognate,同源词,NOUN
-cognición,cognition,认知,NOUN
-cogote,nape,后颈,NOUN
-cohonestar,to gloss over,掩饰,VERB
-coima,bribe,贿赂,NOUN
-colación,collation,核对,NOUN
-coladero,colander,漏勺,NOUN
-colindante,adjacent,相邻的,ADJ
-colofón,colophon,出版标记,NOUN
-colérico,choleric,易怒的,ADJ
-comadrear,to gossip,闲聊,VERB
-comecocos,brainwasher,洗脑者,NOUN
-comedido,moderate,克制的,ADJ
-comedimiento,moderation,克制,NOUN
-comedio,middle,中间,NOUN
-comendador,commander,指挥官,NOUN
-comensalismo,commensalism,共栖,NOUN
 comicio,election,选举,NOUN
-comiquería,jocularity,滑稽,NOUN
-compeler,to compel,强迫,VERB
-compendiar,to summarize,概括,VERB
-compendio,compendium,纲要,NOUN
-compendioso,compendious,简明的,ADJ
-compenetrar,to empathize,深入理解,VERB
-compunción,compunction,悔恨,NOUN
-compungido,remorseful,悔恨的,ADJ
-comulgar,to take communion,领圣体,VERB
-comulgatorio,communion rail,圣体台,NOUN
-conato,attempt,企图,NOUN
-concatenación,concatenation,连锁,NOUN
-concavidad,concavity,凹陷,NOUN
-concejil,municipal,市政的,ADJ
-concienzudo,conscientious,认真的,ADJ
-conciliábulo,conclave,秘密会议,NOUN
-concisión,conciseness,简洁,NOUN
-concitar,to incite,煽动,VERB
-concordato,concordat,政教协定,NOUN
-concubina,concubine,妾,NOUN
-concupiscencia,concupiscence,色欲,NOUN
 condescender,to condescend,屈尊,VERB
-condestable,constable,警官,NOUN
-condigno,deserved,应得的,ADJ
-condiscípulo,classmate,同学,NOUN
-condolerse,to condole,哀悼,VERB
-condonar,to condone,宽恕,VERB
-conducente,conducive,有益的,ADJ
-conductista,behaviorist,行为主义者,NOUN
-confabulación,collusion,串通,NOUN
-confabular,to plot,密谋,VERB
-confesional,confessional,宗派的,ADJ
-confianzudo,overly familiar,过分亲昵的,ADJ
-congoja,anguish,极度痛苦,NOUN
 conminar,to threaten,威胁,VERB
-conmiseración,commiseration,同情,NOUN
-connatural,innate,天生的,ADJ
 connivencia,connivance,默许,NOUN
-consabido,well-known,众所周知的,ADJ
-consanguinidad,consanguinity,血缘,NOUN
-consanguíneo,consanguineous,血亲的,ADJ
-consignación,consignment,托运,NOUN
-consocio,partner,合伙人,NOUN
-conspicuo,conspicuous,显著的,ADJ
-consternar,to dismay,使惊愕,VERB
-constreñimiento,constraint,限制,NOUN
-constreñir,to constrain,限制,VERB
-consuetudinario,customary,习惯的,ADJ
-consumación,consummation,完成,NOUN
-contemporizar,to temporize,妥协,VERB
-contigüidad,contiguity,相邻,NOUN
-continencia,continence,节制,NOUN
-contonearse,to swagger,扭摆,VERB
-contoneo,swagger,扭摆,NOUN
-contornearse,to outline,勾勒,VERB
-contrafuerte,buttress,扶壁,NOUN
-contravenir,to contravene,违反,VERB
-contrayente,party to the contract,缔约方,NOUN
-contrición,contrition,悔罪,NOUN
-contristar,to sadden,使悲伤,VERB
-contrito,contrite,悔罪的,ADJ
-contubernio,conspiracy,勾结,NOUN
-converso,convert,改宗者,NOUN
-convertibilidad,convertibility,可兑换性,NOUN
-convexidad,convexity,凸性,NOUN
-convoluto,convoluted,复杂的,ADJ
-copista,copyist,抄写员,NOUN
-corchete,bracket,方括号,NOUN
-corolario,corollary,推论,NOUN
-corpóreo,corporeal,肉体的,ADJ
-correoso,leathery,坚韧的,ADJ
-corretaje,brokerage,经纪业,NOUN
-correveidile,gossipmonger,爱传闲话的人,NOUN
-corruptela,corruption,弊端,NOUN
-corrusco,crust,硬皮,NOUN
-corvo,curved,弯曲的,ADJ
-cosmovisión,worldview,世界观,NOUN
-costumbrismo,costumbrism,风俗主义,NOUN
-covacha,small cave,小洞穴,NOUN
-craso,crass,严重的,ADJ
-credulidad,credulity,轻信,NOUN
-crepitar,to crackle,噼啪作响,VERB
-crespo,curly,卷曲的,ADJ
-cretáceo,Cretaceous,白垩纪的,ADJ
-cribar,to sift,筛,VERB
-crisol,crucible,坩埚,NOUN
 crispar,to irritate,激怒,VERB
-cruento,bloody,血腥的,ADJ
-cuartear,to crack,使破裂,VERB
-cuartelazo,coup,军事政变,NOUN
-cuartilla,sheet of paper,四开纸,NOUN
-cuasi,quasi,准,ADV
-cuita,sorrow,悲痛,NOUN
-culebrear,to wriggle,蜿蜒前行,VERB
 cundir,to spread,蔓延,VERB
-cunero,foundling,弃婴,NOUN
-curato,parish,教区,NOUN
-curtidor,tanner,制革工,NOUN
-cuño,die,模具,NOUN
-cáustico,caustic,腐蚀性的,ADJ
-célibe,celibate,独身的,ADJ
 cónclave,conclave,秘密会议,NOUN
-cónica,conic,圆锥曲线,NOUN
-dadivoso,generous,慷慨的,ADJ
-damajuana,demijohn,大肚瓶,NOUN
-damasco,damask,锦缎,NOUN
 deambular,to wander,漫步,VERB
-deceso,death,死亡,NOUN
-dechado,model,典范,NOUN
-decoroso,decorous,端庄的,ADJ
-decrépito,decrepit,衰老的,ADJ
-decálogo,decalogue,十诫,NOUN
-defección,defection,叛变,NOUN
-perjurio,perjury,伪证,NOUN
-perjurar,to perjure,发伪誓,VERB
-expiar,to atone,赎罪,VERB
-expiación,atonement,赎罪,NOUN
-impío,impious,不虔诚的,ADJ
-sacrílego,sacrilegious,渎圣的,ADJ
-apóstata,apostate,叛教者,NOUN
-apostatar,to apostatize,叛教,VERB
-proselitismo,proselytism,传教,NOUN
-catequizar,to catechize,传授教理,VERB
-fetichismo,fetishism,拜物教,NOUN
-vaticinio,prophecy,预言,NOUN
