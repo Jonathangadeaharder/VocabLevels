@@ -9,11 +9,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 باب,door,门,NOUN
 أب,father,父亲,NOUN
 بارد,cold,冷的,ADJ
-باطل,false,错误的,ADJ
-باع,sell,卖,VERB
-بحر,sea,海,NOUN
-شاطئ,beach,海滩,NOUN
-بدأ,start,开始,VERB
 خارج,outside,外面,ADV
 برد,cold,寒冷,NOUN
 كثير,very,非常,ADV
@@ -23,9 +18,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بعد,after,在...之后,ADP
 بعيد,far,远的,ADJ
 بقرة,cow,牛,NOUN
-بقى,stay,停留,VERB
 بكري,early,早的,ADV
-بكى,cry,哭,VERB
 بلاد,country,国家,NOUN
 موز,bananas,香蕉,NOUN
 بنت,girl,女孩,NOUN
@@ -34,10 +27,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 لمبة,lightbulb,灯泡,NOUN
 بيبي,baby,婴儿,NOUN
 بيت,house,房子,NOUN
-بين,between,在...之间,ADP
 تأشيرة,visa,签证,NOUN
 تاني,second,第二,ADJ
-تحت,under,在...下,ADP
 تذكرة,ticket,票,NOUN
 تراب,dirt,泥土,NOUN
 قطار,train,火车,NOUN
@@ -45,22 +36,18 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تسعة,nine,九,NUM
 تسعين,ninety,九十,NUM
 تفاح,apple,苹果,NOUN
-تفتيش,inspection,检查,NOUN
 تفكر,think,思考,VERB
 تلتناش,thirteen,十三,NUM
 تلميذ,student,学生,NOUN
 تمشى,walk,走,VERB
 تناش,twelve,十二,NUM
-تيران,field,场地,NOUN
 ثانية,second,秒,NOUN
 ثعلب,fox,狐狸,NOUN
 ثلاجة,refrigerator,冰箱,NOUN
-ثلج,snow,雪,NOUN
 ثومة,garlic,大蒜,NOUN
 جا,come,来,VERB
 جار,neighbor,邻居,NOUN
 جامع,mosque,清真寺,NOUN
-جبل,mountain,山,NOUN
 جد,grandfather,祖父,NOUN
 جدة,grandmother,祖母,NOUN
 جديد,new,新的,ADJ
@@ -68,10 +55,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جرح,wound,伤口,NOUN
 جرى,run,跑,VERB
 جزار,butcher,屠夫,NOUN
-جفاف,dryness,干燥,NOUN
 جفف,dry,弄干,VERB
 جلد,skin,皮肤,NOUN
-جلس,sit,坐,VERB
 جمارك,customs,海关,NOUN
 جمع,collect,收集,VERB
 جمل,camel,骆驼,NOUN
@@ -81,13 +66,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حارس,guard,守卫,NOUN
 حامض,sour,酸的,ADJ
 حانوت,shop,商店,NOUN
-حبس,imprisonment,监禁,NOUN
 حجبان,eyebrows,眉毛,NOUN
 حجرة,room,房间,NOUN
-حدود,borders,边界,NOUN
-حدودية,border,边界的,ADJ
 حديقة,garden,花园,NOUN
-حر,free,自由的,ADJ
 حرب,war,战争,NOUN
 حرق,burning,燃烧,NOUN
 حزن,sadness,悲伤,NOUN
@@ -113,37 +94,29 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 خالة,maternal aunt,姨妈,NOUN
 خباز,baker,面包师,NOUN
 خبز,bread,面包,NOUN
-أخذ,take,拿,VERB
 خضر,green,绿色的,ADJ
 خدم,work,工作,VERB
-خرج,exit,出去,VERB
 خروف,sheep,绵羊,NOUN
 خسر,lose,失去,VERB
-خفيف,light,轻的,ADJ
 خلى,leave,离开,VERB
 خمسة,five,五,NUM
 خمسون,fifty,五十,NUM
 أخ,brother,兄弟,NOUN
-خواف,cowardly,胆小的,ADJ
 خوخ,peach,桃子,NOUN
 خياط,tailor,裁缝,NOUN
 خيط,thread,线,NOUN
 الآن,now,现在,ADV
 داخل,inside,里面,ADP
 دار,house,房子,NOUN
-ذاق,taste,品尝,VERB
 ذبابة,fly,苍蝇,NOUN
 دجاج,chicken,鸡,NOUN
 دجاجة,hen,母鸡,NOUN
-دخل,enter,进入,VERB
 درهم,dirham,迪拉姆,NOUN
 طفل,child,孩子,NOUN
 بسرعة,quickly,快速地,ADV
-دفع,push,推,VERB
 دقيقة,minute,分钟,NOUN
 بطيخ,watermelon,西瓜,NOUN
 دم,blood,血,NOUN
-تكلم,speak,说话,VERB
 مر,pass,经过,VERB
 ذئب,wolf,狼,NOUN
 فاكهة,fruit,水果,NOUN
@@ -151,7 +124,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ذهبي,golden,金色的,ADJ
 رئيس,president,总统,NOUN
 رجل,man,男人,NOUN
-رأس,head,头,NOUN
+رأس,cape,海角,NOUN
 ربح,win,赢,VERB
 أربعة,four,四,NUM
 أربعون,forty,四十,NUM
@@ -160,7 +133,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 رِحْلَة,journey,旅行,NOUN
 رَخِيص,cheap,便宜的,ADJ
 رَسَمَ,to draw,画,VERB
-رَطْب,moist,潮湿的,ADJ
 رَعْد,thunder,雷,NOUN
 رَقِيق,thin,薄的,ADJ
 رَكِبَ,to ride,骑,VERB
@@ -171,7 +143,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 رِئَة,lung,肺,NOUN
 مَطْعَم,restaurant,餐厅,NOUN
 زُبْدَة,butter,黄油,NOUN
-زَرْبِيَّة,carpet,地毯,NOUN
 أَزْرَق,blue,蓝色的,ADJ
 زُقَاق,alley,小巷,NOUN
 جَمِيل,beautiful,美丽的,ADJ
@@ -198,7 +169,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ساكت,silent,安静的,ADJ
 سكر,sugar,糖,NOUN
 أنهى,finish,结束,VERB
-سلاح,weapon,武器,NOUN
 سلام,hello,你好,NOUN
 سلسلة,necklace,项链,NOUN
 سلم,peace,和平,NOUN
@@ -206,26 +176,21 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سمع,hear,听见,VERB
 أسنان,teeth,牙齿,NOUN
 سوق,market,市场,NOUN
-سأل,ask,询问,VERB
 سياحة,tourism,旅游,NOUN
 أسبوع,week,周,NOUN
 سينما,cinema,电影院,NOUN
 شاحن,charger,充电器,NOUN
 شال,scarf,围巾,NOUN
-شتاء,winter,冬天,NOUN
 شجاع,brave,勇敢的,ADJ
 شجرة,tree,树,NOUN
 كم,how much,多少,PRON
 شد,hold,抓牢,VERB
 شرا,buy,购买,VERB
-شرب,drink,喝,VERB
 نافذة,window,窗户,NOUN
 كنس,sweep,打扫,VERB
-رقص,dance,跳舞,VERB
 شعب,people,人民,NOUN
 شعر,hair,头发,NOUN
 أضاء,light up,点亮,VERB
-شكر,thank,感谢,VERB
 شكرا,thank you,谢谢,INTJ
 من,who,谁,PRON
 شم,smell,闻,VERB
@@ -238,14 +203,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 صابون,soap,肥皂,NOUN
 صاحب,friend (male),朋友 (男),NOUN
 صاحبة,friend (female),朋友 (女),NOUN
-كاف,enough,足够,ADJ
 صباح,morning,早晨,NOUN
 حذاء,shoes,鞋子,NOUN
 صبر,be patient,耐心,VERB
 إصبع,finger,手指,NOUN
 صبغ,paint,涂刷,VERB
-غسل,wash clothes,洗衣服,VERB
-صحيح,healthy,健康的,ADJ
+صحيح,correct,正确的,ADJ
 صخرة,rock,岩石,NOUN
 صدر,chest,胸部,NOUN
 صرف,exchange (money),兑换,NOUN
@@ -255,12 +218,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حر,heat,热,NOUN
 أريكة,sofa,沙发,NOUN
 تنورة,skirt,裙子,NOUN
-أرسل,send,发送,VERB
-ضحك,laugh,笑,VERB
-ضعيف,weak,弱的,ADJ
 ضيف,guest,客人,NOUN
-ضيق,narrow,窄的,ADJ
-طبخ,cook,烹饪,VERB
 طاولة,table,桌子,NOUN
 سقط,fall,掉落,VERB
 طار,fly,飞,VERB
@@ -287,9 +245,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 عاش,live,生活,VERB
 عام,year,年,NOUN
 عامر,full,拥挤的,ADJ
-ساعد,help,帮助,VERB
-عجن,knead,揉面,VERB
-عدل,justice,正义,NOUN
 عرف,know,知道,VERB
 ريف,countryside,乡村,NOUN
 عريض,wide,宽的,ADJ
@@ -310,22 +265,18 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 عم,uncle,叔叔,NOUN
 عمة,aunt,阿姨,NOUN
 عنب,grapes,葡萄,NOUN
-معوج,crooked,弯曲的,ADJ
 حصان,horse,马,NOUN
 متعب,tired,累的,ADJ
 نادى,call,呼叫,VERB
-عين,eye,眼睛,NOUN
-غابة,forest,森林,NOUN
+عين,spring,泉,NOUN
 غالي,expensive,昂贵的,ADJ
 غدًا,tomorrow,明天,ADV
 غداء,lunch,午餐,NOUN
 غطاء,blanket,毯子,NOUN
 غليظ,thick,厚的,ADJ
-غنى,sing,唱歌,VERB
 صاح,shout,呼喊,VERB
 فأر,mouse,老鼠,NOUN
 مبلل,wet,湿的,ADJ
-استيقظ,wake up,醒来,VERB
 ماضي,past,过去,NOUN
 فرن,oven,烤箱,NOUN
 فرح,rejoice,高兴,VERB
@@ -338,16 +289,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فكر,think,思考,VERB
 فلاح,farmer,农民,NOUN
 نقود,money,钱,NOUN
-فهم,understand,理解,VERB
 منشفة,towel,毛巾,NOUN
-فوق,above,在...上面,ADP
 سترة,jacket,夹克,NOUN
 أين,where,哪里,ADV
-قاس,measure,测量,VERB
 قاسٍ,hard,坚硬的,ADJ
-قَاضٍ,judge,法官,NOUN
 قَالَ,say,说,VERB
-قَانُون,law,法律,NOUN
 قَبْلَ,before,在...之前,ADP
 قَدِيم,old,旧的,ADJ
 قَرَأَ,read,读,VERB
@@ -382,7 +328,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حافلة,bus,公共汽车,NOUN
 كيف,how,如何,ADV
 لا,no,不,PART
-لاجئ,refugee,难民,NOUN
 أمس,yesterday,昨天,NOUN
 لحم,meat,肉,NOUN
 لحية,beard,胡须,NOUN
@@ -391,7 +336,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 لمن,to whom,对谁,PRON
 هناك,there,那里,ADV
 فاصوليا,beans,豆子,NOUN
-خلف,behind,在...后面,ADP
 ليل,night,夜晚,NOUN
 ليمون,lemon,柠檬,NOUN
 برتقالي,orange (color),橙色的,ADJ
@@ -404,9 +348,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 محامي,lawyer,律师,NOUN
 محطة,station,车站,NOUN
 محفظة,wallet,钱包,NOUN
-محكمة,court,法院,NOUN
 مفتوح,open,开着的,ADJ
-فوضوي,messy,凌乱的,ADJ
 مدرسة,school,学校,NOUN
 مدير,director,主任,NOUN
 مدينة,city,城市,NOUN
@@ -414,10 +356,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مَرْأَة,woman,女人,NOUN
 مِرْآة,mirror,镜子,NOUN
 مَرْحَبًا,welcome,欢迎,INTJ
-مَرْضِيّ,satisfied,满意的,ADJ
 مَرِيض,sick,生病的,ADJ
-مَسْخُوط,cursed,被诅咒的,ADJ
-مَسْدُود,blocked,堵塞的,ADJ
 قِطّ,cat,猫,NOUN
 مَشَى,walk,走,VERB
 مَطَار,airport,机场,NOUN
@@ -438,7 +377,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مِلْح,salt,盐,NOUN
 مَلِك,king,国王,NOUN
 مِلْيُون,million,百万,NUM
-مَمْلُوك,owned,被拥有的,ADJ
 مُوَاطِن,citizen,公民,NOUN
 سكين,knife,刀,NOUN
 وسخ,dirt,污垢,NOUN
@@ -452,9 +390,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أنتِ,you (feminine),你,PRON
 نجار,carpenter,木匠,NOUN
 نحلة,bee,蜜蜂,NOUN
-نزل,descend,降下,VERB
 نسى,forget,忘记,VERB
-نشيد,anthem,赞歌,NOUN
 نظارات,glasses,眼镜,NOUN
 نعس,sleep,打瞌睡,VERB
 نعم,yes,是,INTJ
@@ -478,7 +414,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 هي,she,她,PRON
 واحد,one,一,NUM
 واد,valley,山谷,NOUN
-واسع,wide,宽阔的,ADJ
 وجه,face,脸,NOUN
 أذن,ear,耳朵,NOUN
 ورد,rose,玫瑰,NOUN
@@ -496,52 +431,31 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ثلاثة,three,三,NUM
 ثلاثون,thirty,三十,NUM
 جائع,hungry,饥饿的,ADJ
-عطشان,thirsty,口渴的,ADJ
 بخير,well,很好,ADJ
 جسم,body,身体,NOUN
 قدم,foot,脚,NOUN
 مدرس,teacher,老师,NOUN
-دفتر,notebook,笔记本,NOUN
 كيس,bag,袋子,NOUN
 جورب,sock,袜子,NOUN
 تلفاز,television,电视,NOUN
-راديو,radio,收音机,NOUN
 هاتف,phone,电话,NOUN
 جوال,mobile phone,手机,NOUN
-بريد,mail,邮件,NOUN
-رسالة,message,消息,NOUN
-جواب,answer,回答,NOUN
-سؤال,question,问题,NOUN
 كلمة,word,单词,NOUN
 جملة,sentence,句子,NOUN
 نص,text,文本,NOUN
-خط,line,线,NOUN
 رسم,drawing,图画,NOUN
-صورة,picture,照片,NOUN
-فيديو,video,视频,NOUN
 مفتاح,key,钥匙,NOUN
-شرفة,balcony,阳台,NOUN
-درج,stairs,楼梯,NOUN
-خزانة,closet,柜子,NOUN
 سرير,bed,床,NOUN
 مخدة,pillow,枕头,NOUN
 ستار,curtain,窗帘,NOUN
 حائط,wall,墙,NOUN
-سقف,ceiling,天花板,NOUN
-أرض,ground,地面,NOUN
 خشب,wood,木头,NOUN
 حجر,stone,石头,NOUN
-معدن,metal,金属,NOUN
-زجاج,glass,玻璃,NOUN
 بلاط,tile,瓷砖,NOUN
-زهرة,flower,花,NOUN
 ساق,stem,茎,NOUN
-جذر,root,根,NOUN
-بذرة,seed,种子,NOUN
 حيوان,animal,动物,NOUN
 سمكة,fish,鱼,NOUN
 أرنب,rabbit,兔子,NOUN
-سلحفاة,turtle,乌龟,NOUN
 ثعبان,snake,蛇,NOUN
 بط,duck,鸭子,NOUN
 عصفور,sparrow,麻雀,NOUN
@@ -552,47 +466,15 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تمساح,crocodile,鳄鱼,NOUN
 بعوضة,mosquito,蚊子,NOUN
 صرصار,cockroach,蟑螂,NOUN
-عنكبوت,spider,蜘蛛,NOUN
 دودة,worm,虫子,NOUN
-فراشة,butterfly,蝴蝶,NOUN
 حلزون,snail,蜗牛,NOUN
 صدف,shell,贝壳,NOUN
-نهر,river,河流,NOUN
-بئر,well,井,NOUN
-بحيرة,lake,湖,NOUN
-جزيرة,island,岛屿,NOUN
 تلة,hill,小山,NOUN
-صحراء,desert,沙漠,NOUN
-مزرعة,farm,农场,NOUN
-حقل,field,田地,NOUN
-بستان,orchard,果园,NOUN
-شارع,street,街道,NOUN
 ميدان,square,广场,NOUN
-قرية,village,村庄,NOUN
-دولة,country,国家,NOUN
-عاصمة,capital,首都,NOUN
-حي,neighborhood,街区,NOUN
+دولة,state,国家,NOUN
 منزل,house,住宅,NOUN
-عمارة,building,建筑物,NOUN
-طابق,floor,楼层,NOUN
-مصعد,elevator,电梯,NOUN
-زر,button,按钮,NOUN
 نار,fire,火,NOUN
-دخان,smoke,烟,NOUN
-رماد,ash,灰烬,NOUN
-ضوء,light,光,NOUN
-ظلام,darkness,黑暗,NOUN
-نجمة,star,星星,NOUN
-غيمة,cloud,云朵,NOUN
-مطر,rain,雨,NOUN
 رياح,wind,风,NOUN
-عاصفة,storm,风暴,NOUN
-صيف,summer,夏天,NOUN
-ربيع,spring,春天,NOUN
-خريف,autumn,秋天,NOUN
-فصل,season,季节,NOUN
-وقت,time,时间,NOUN
-لحظة,moment,时刻,NOUN
 سنة,year,年,NOUN
 عصر,afternoon,下午,NOUN
 الليلة,tonight,今晚,NOUN
@@ -617,7 +499,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ماذا,what,什么,PRON
 أحب,to love,爱,VERB
 أمكن,to be possible,可能,VERB
-استطاع,to be able,能够,VERB
 آن,time,时间,NOUN
 حقيقي,real,真正的,ADJ
 أكثر,more,更多,ADJ
@@ -627,3 +508,50 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 جميع,all,全部,NOUN
 مليون,million,百万,NOUN
 لن,will not,将不,PART
+أحد,Sunday,星期日,NOUN
+قوي,strong,强壮的,ADJ
+متى,when,何时,ADV
+زوجة,wife,妻子,NOUN
+ٱبن,son,儿子,NOUN
+مرأة,woman,女人,NOUN
+قط,cat,猫,NOUN
+قريب,near,近的 / 亲近的,ADJ
+ٱبنة,daughter,女儿,NOUN
+مرحبا,hello,你好 / 欢迎,INTJ
+سيء,bad,坏的,ADJ
+جنوب,south,南方,NOUN
+بلد,country,国家 / 城镇,NOUN
+كلب,dog,狗,NOUN
+أسرة,family,家庭,NOUN
+منذ,since,自从,SCONJ
+ملح,salt,盐,NOUN
+بكرة,tomorrow,بكرة,NOUN
+سبع,seven,سبع,ADJ
+تكون,to be,تكون,VERB
+وراء,behind,وراء,NOUN
+أسفل,bottom,أسفل,NOUN
+قديم,old,قديم,ADJ
+سادس,sixth,سادس,ADJ
+عاشر,tenth,عاشر,NOUN
+أولائك,those,أولائك,PRON
+قهوة,coffee,قهوة,NOUN
+كتاب,book,كتاب,NOUN
+لي,me,لي,NOUN
+تاسع,ninth,第九,ADJ
+تسع,nine,九,NUM
+ثالث,third,第三,ADJ
+ثماني,eight,八,NUM
+عشر,ten,十,NUM
+عشرات,tens,几十,NUM
+غدا,tomorrow,明天,ADV
+قاضي,judge,法官,NOUN
+مَن,who,谁,PRON
+آسف,sorry,,ADJ
+أخت,sister,姐妹,NOUN
+إخوة,brothers,兄弟们,NOUN
+أسود,black,黑色的,ADJ
+أربع,four,四,NUM
+ثلاث,three,三,NUM
+خمس,five,五,NUM
+خامس,fifth,第五,ADJ
+عندما,when,当,SCONJ
