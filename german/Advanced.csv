@@ -5,7 +5,7 @@ abermals,once again,再次,ADV
 abfahren,depart,出发,VERB
 abmachen,agree,约定,VERB
 abschneiden,cut off,切断,VERB
-absehen,apart from,撇开,VERB
+absehen,to foresee; to refrain from (von),撇开,VERB
 absetzen,discontinue,停止,VERB
 abziehen,deduct,扣除,VERB
 Abkommen,agreement,协议,NOUN
@@ -111,7 +111,7 @@ aufbauen,build,建立,VERB
 aufbrechen,break up,破裂,VERB
 aufeinander,each other,相互,ADV
 Aufenthalt,stay,停留,NOUN
-Auffahrt,driveway,车道,NOUN
+Auffahrt,on-ramp,车道,NOUN
 auffallen,to be noticeable,引人注目,VERB
 Auffassung,view,观点,NOUN
 auffliegen,to be discovered,被发觉,VERB
@@ -151,7 +151,7 @@ auskommen,get by,过得去,VERB
 ausleihen,lend,借出,VERB
 Ausländer,foreigner,外国人,NOUN
 auslösen,trigger,触发,VERB
-Ausnutzen,exploitation,利用,NOUN
+Ausnutzung,exploitation,利用,NOUN
 ausprobieren,try out,尝试,VERB
 ausreichend,sufficient,足够的,ADJ
 ausrichten,align,调整,VERB
@@ -269,13 +269,12 @@ beschwören,to conjure,召唤,VERB
 beschädigen,to damage,损坏,VERB
 beschämen,to shame,使羞愧,VERB
 besiegen,to defeat,击败,VERB
-besonder,special,特别的,ADJ
+besonders,especially,特别的,ADV
 Besprechung,meeting,会议,NOUN
 Besseres,something better,更好的事物,NOUN
 bestechen,to bribe,贿赂,VERB
 besteigen,to climb,攀登,VERB
 Bestellung,order,订单,NOUN
-bester,best,最好的,ADJ
 Bestes,the best,最好的事物,NOUN
 besteuern,to tax,征税,VERB
 Bestie,beast,野兽,NOUN
@@ -324,7 +323,6 @@ Blitz,lightning,闪电,NOUN
 bloß,just,仅仅,ADV
 Blütezeit,heyday,鼎盛时期,NOUN
 boah,wow,哇,INTJ
-bonjour,hello,你好,INTJ
 Bowle,punch (drink),潘趣酒,NOUN
 Boxen,boxing,拳击,NOUN
 Brite,Briton,英国人,NOUN
@@ -348,8 +346,7 @@ Chemikalie,chemical,化学品,NOUN
 chinesisch,Chinese,中国的,ADJ
 Chirurg,surgeon,外科医生,NOUN
 Chor,choir,合唱团,NOUN
-coole,cool,酷的,ADJ
-kühler,cooler,更酷的,ADJ
+cool,cool,酷的,ADJ
 Urheberrecht,copyright,版权,NOUN
 Grafschaft,county,县,NOUN
 Kran,crane,起重机,NOUN
@@ -407,7 +404,7 @@ Dreieck,triangle,三角形,NOUN
 drin,inside,在里面,ADV
 Dringlichkeit,urgency,紧急,NOUN
 Getränk,drink,饮料,NOUN
-dritt,third,第三,ADJ
+dritte,third,第三,NUM
 Drittel,third,三分之一,NOUN
 Droge,drug,毒品,NOUN
 drohen,threaten,威胁,VERB
@@ -723,7 +720,7 @@ Gletscher,glacier,冰川,NOUN
 gliedern,organize,组织,VERB
 GmbH,limited liability company,有限责任公司,NOUN
 Grab,grave,坟墓,NOUN
-Gerade,straight,直的,NOUN
+Gerade,straight line,直的,NOUN
 grafisch,graphic,图形的,ADJ
 Gramm,gram,克,NOUN
 Grammatik,grammar,语法,NOUN
@@ -742,7 +739,6 @@ größtenteils,mostly,主要地,ADV
 grün,green,绿色的,ADJ
 Gründer,founder,创始人,NOUN
 grüßen,greet,问候,VERB
-Guck,look,看,NOUN
 gucken,look,看,VERB
 Gunst,favor,恩惠,NOUN
 Gutachten,expert opinion,专家意见,NOUN
@@ -774,7 +770,7 @@ heilig,holy,神圣的,ADJ
 Heilige,saint,圣人,NOUN
 Heilung,healing,治愈,NOUN
 Heimweg,way home,回家的路,NOUN
-heitere,cheerful,愉快的,ADJ
+heiter,cheerful,愉快的,ADJ
 Heizkörper,radiator,暖气片,NOUN
 Hektik,hectic,忙乱,NOUN
 hektisch,hectic,忙碌的,ADJ
@@ -866,7 +862,6 @@ imstande,able,能够,ADJ
 Inbegriff,epitome,化身,NOUN
 Indianer,Indians,印第安人,NOUN
 Industrie,industry,工业,NOUN
-infrage,in question,成问题的,ADV
 Ingenieur,engineer,工程师,NOUN
 Inhaber,owner,所有者,NOUN
 innen,inside,在里面,ADV
@@ -882,7 +877,7 @@ intensiv,intense,强烈的,ADJ
 interaktiv,interactive,交互式的,ADJ
 Interessantes,interesting things,有趣的事物,NOUN
 Internat,boarding school,寄宿学校,NOUN
-Interpret,interpreter,口译员,NOUN
+Interpret,performer (musician/artist),口译员,NOUN
 Investition,investment,投资,NOUN
 irgendwas,something,某事,PRON
 irgendwelch,any,任何一些,DET
@@ -980,7 +975,7 @@ Kleiderschrank,wardrobe,衣柜,NOUN
 Kleingedrucktes,fine print,小字条款,NOUN
 Klinge,blade,刀刃,NOUN
 Klingelknopf,doorbell button,门铃按钮,NOUN
-Klinkenstöpsel,jack plug,插头,NOUN
+Klinkenstecker,jack plug,插头,NOUN
 Klirren,clinking,叮当声,NOUN
 Klub,club,俱乐部,NOUN
 knacken,to crack,破裂,VERB
@@ -1066,7 +1061,6 @@ Landwirtschaft,agriculture,农业,NOUN
 Langlebigkeit,longevity,长寿,NOUN
 langweilen,to bore,使厌倦,VERB
 Lappalie,trifle,琐事,NOUN
-Laufende,running,进行中的,NOUN
 Laune,mood,心情,NOUN
 Lausbub,rascal,顽童,NOUN
 Lebensfreude,joie de vivre,生活乐趣,NOUN
@@ -1091,12 +1085,11 @@ Lichtspiel,motion picture,电影,NOUN
 Lichtung,clearing,林中空地,NOUN
 liebevoll,affectionate,深情的,ADJ
 Liebhaber,lover,爱好者,NOUN
-lieblings-,favorite,最喜欢的,ADJ
 Liebschaft,romance,风流韵事,NOUN
 Liebste,dearest,最爱的人,NOUN
 Liebster,dearest,最爱的人,NOUN
 Lieferwagen,delivery van,厢式送货车,NOUN
-Gefallen,like,点赞,NOUN
+Gefallen,favor,恩惠,NOUN
 link,left,左边的,ADJ
 Lippenbekenntnis,lip service,口惠,NOUN
 Lippenstift,lipstick,口红,NOUN
@@ -1280,7 +1273,7 @@ patriotisch,patriotic,爱国的,ADJ
 pro,per,每,ADP
 Perle,pearl,珍珠,NOUN
 Perspektive,perspective,视角,NOUN
-Persönliches,Personal,私事,NOUN
+Persönliches,personal matters,私事,NOUN
 Pessimismus,pessimism,悲观主义,NOUN
 Pest,plague,瘟疫,NOUN
 Petersilie,parsley,欧芹,NOUN
@@ -1763,7 +1756,7 @@ verübeln,to take amiss,见怪,VERB
 vibrieren,to vibrate,振动,VERB
 vielmals,many times,多次,ADV
 vielmehr,rather,反而,ADV
-viert,fourth,第四,ADJ
+vierte,fourth,第四,ADJ
 Viertelstunde,quarter of an hour,一刻钟,NOUN
 violett,violet,紫色的,ADJ
 Visum,visa,签证,NOUN
@@ -1889,7 +1882,6 @@ Untoter,undead,不死生物,NOUN
 zuckend,twitching,抽搐的,ADJ
 zuerst,first,首先,ADV
 zufolge,according to,根据,ADP
-Zugehörige,affiliate,附属人员,NOUN
 zuhören,to listen,倾听,VERB
 zugleich,at the same time,同时,ADV
 zukünftig,future,未来的,ADJ
@@ -1912,7 +1904,7 @@ Zuversicht,confidence,信心,NOUN
 Zwangsjacke,straitjacket,拘束衣,NOUN
 Zweckentfremdung,misappropriation,挪用,NOUN
 zwei,two,二,NUM
-zweit,second,第二,ADJ
+zweite,second,第二,ADJ
 zweitens,secondly,其次,ADV
 Zwerg,dwarf,矮人,NOUN
 zwischenmenschlich,interpersonal,人际的,ADJ
