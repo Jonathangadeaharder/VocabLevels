@@ -1,9 +1,71 @@
 Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
-صحفي,journalist,记者,NOUN
+باطل,false,错误的,ADJ
+تفتيش,inspection,检查,NOUN
+جفاف,drought,干旱,NOUN
+حبس,imprisonment,监禁,NOUN
+حدودية,border,边界的,ADJ
+سلاح,weapon,武器,NOUN
+عدل,justice,正义,NOUN
+قَاضٍ,judge,法官,NOUN
+محكمة,court,法院,NOUN
+نشيد,anthem,赞歌,NOUN
+ائتمان,credit,信用,NOUN
+قبيلة,tribe,部落,NOUN
+سخر,to mock,嘲笑,VERB
+تخاصم,to quarrel,争吵,VERB
+تلف,to get lost,迷路,VERB
+تاب,to repent,悔悟,VERB
+أعلن,to announce,宣布,VERB
+بلغ,to inform,通知,VERB
+راسل,to correspond,通信,VERB
+هدّد,to threaten,威胁,VERB
+أنذر,to warn,警告,VERB
+قاوم,to resist,抵抗,VERB
+هاجم,to attack,攻击,VERB
+وثق,to trust,信任,VERB
+بل,rather,而是,CCONJ
+ألا,lest,以免,SCONJ
+لعنة,curse,诅咒,NOUN
+ملهى,entertainment venue,娱乐场所 / 夜总会,NOUN
+جوي,aerial,空中的,ADJ
+رحيل,departure,离去,NOUN
+مؤتمر,conference,会议,NOUN
+سهل,plain,平原,NOUN
+قمة,summit,峰会,NOUN
+خليج,gulf,海湾,NOUN
+خطاب,speech,演讲,NOUN
+محتوى,content,内容,NOUN
+مؤسسة,institution,机构,NOUN
+انقراض,extinction,灭绝,NOUN
+حيثما,wherever,无论何处,ADV
+كيفما,however,无论怎样,ADV
+عَيَّرَ,to insult,侮辱,VERB
+وَالَفَ,to get used to,习惯于,VERB
+اتفاقية,agreement,协议,NOUN
+معقد,complicated,复杂的,ADJ
+بيان,statement,声明,NOUN
 مراسل,correspondent,通讯员,NOUN
+فهرس,index,索引,NOUN
+مبدأ,principle,原则,NOUN
+نظرية,theory,理论,NOUN
+معضلة,dilemma,困境,NOUN
+رأس المال,capital,资本,NOUN
+استثمار,investment,投资,NOUN
+طيلة,throughout,在...期间 / 贯穿,ADP
+أرجح,more likely,更可能的,ADJ
+ثمل,drunkenness,醉酒 / 醉的,NOUN
+ٱنقراض,extinction,灭绝,NOUN
+بضع,a few,几个 / 一些,NOUN
+صدد,process / context,关于 / 在...过程中,NOUN
+بالى,to care / heed,在乎 / 介意,VERB
+حفري,fossil / excavated,化石的 / 挖掘的,ADJ
+كف,to cease / refrain,停止 / 抑制,VERB
+وشك,verge / imminence,临近,NOUN
+خشي,to fear,害怕 / 畏惧,VERB
+حظي,to obtain / enjoy,获得 / 享有,VERB
+صحفي,journalist,记者,NOUN
 نشرة,news bulletin,新闻简报,NOUN
 عاجل,urgent,紧急的,ADJ
-مؤتمر,conference,会议,NOUN
 مصدر,source,来源,NOUN
 حوار,dialogue,对话,NOUN
 تقرير,report,报告,NOUN
@@ -16,23 +78,14 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 نفى,to deny,否认,VERB
 أكد,to confirm,确认,VERB
 صرح,to declare,声明,VERB
-أعلن,to announce,宣布,VERB
-هاجم,to attack,攻击,VERB
-قمة,summit,峰会,NOUN
-اتفاقية,agreement,协议,NOUN
 سفير,ambassador,大使,NOUN
 هجرة,migration,移民,NOUN
 مهاجر,migrant,移民,NOUN
-حادث,accident,事故,NOUN
 إنقاذ,rescue,救援,NOUN
 إسعاف,first aid,急救,NOUN
-شرطة,police,警察,NOUN
-حدث,to happen,发生,VERB
 تطور,development,发展,NOUN
-خطاب,speech,演讲,NOUN
 زعيم,leader,领袖,NOUN
 حرية,freedom,自由,NOUN
-دولة,state,国家,NOUN
 جيش,army,军队,NOUN
 منظمة,organization,组织,NOUN
 هيئة,commission,委员会,NOUN
@@ -40,13 +93,8 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مجلس,council,理事会,NOUN
 جماعة,group,团体,NOUN
 جهة,region,地区,NOUN
-اقتصادي,economic,经济的,ADJ
 نمو,growth,增长,NOUN
-استثمار,investment,投资,NOUN
 استثمر,to invest,投资,VERB
-ثمن,price,价格,NOUN
-سعر,price,价格,NOUN
-تخفيض,reduction,减少,NOUN
 فرع,branch,分支机构,NOUN
 مقر,headquarters,总部,NOUN
 إنتاج,production,生产,NOUN
@@ -55,7 +103,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تاجر,merchant,商人,NOUN
 بضاعة,goods,货物,NOUN
 فاتورة,invoice,发票,NOUN
-جودة,quality,质量,NOUN
 معاملة,transaction,交易,NOUN
 قطاع,sector,部门,NOUN
 بترول,petroleum,石油,NOUN
@@ -65,22 +112,17 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 توزيع,distribution,分配,NOUN
 مستهلك,consumer,消费者,NOUN
 أعمال,business,商业,NOUN
-بَنك,bank,银行,NOUN
 بَنكيّ,banking,银行业的,ADJ
 سحب,withdrawal,取款,NOUN
 نِسْبَة,rate,比率,NOUN
-ضَرَر,damage,损害,NOUN
 اشْتِرَاك,subscription,订阅,NOUN
 تَوْفِير,saving,储蓄,NOUN
 مَبْلَغ,amount,金额,NOUN
-بِطَاقَة,card,卡片,NOUN
-مؤسسة,institution,机构,NOUN
 شامل,comprehensive,全面的,ADJ
 إلغاء,cancellation,取消,NOUN
 خبير,expert,专家,NOUN
 عدالة,justice,正义,NOUN
 متهم,defendant,被告,NOUN
-شاهد,witness,证人,NOUN
 قتل,killing,杀害,NOUN
 عنف,violence,暴力,NOUN
 جلسة,hearing,听证会,NOUN
@@ -90,47 +132,34 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 دفاع,defense,辩护,NOUN
 سجين,prisoner,囚犯,NOUN
 منصب,position,职位,NOUN
-تجربة,experience,经验,NOUN
 إنجاز,achievement,成就,NOUN
 تنظيم,organization,组织,NOUN
 حضور,attendance,出勤,NOUN
 توقيت,timing,时机,NOUN
 مستخدم,user,用户,NOUN
-مصنع,factory,工厂,NOUN
 تواصل,communication,沟通,NOUN
 متابعة,follow-up,跟进,NOUN
-إضافي,additional,额外的,ADJ
-فترة,period,时期,NOUN
-شقة,apartment,公寓,NOUN
 مالك,owner,所有者,NOUN
-مساحة,area,面积,NOUN
 تصميم,design,设计,NOUN
 بناء,construction,建筑,NOUN
 مفروش,furnished,带家具的,ADJ
-مصعد,elevator,电梯,NOUN
-محل,shop,商店,NOUN
 ديكور,decor,装饰,NOUN
 أساس,foundation,基础,NOUN
-بناية,building,建筑物,NOUN
 تكنولوجيا,technology,技术,NOUN
 رقمي,digital,数字的,ADJ
-حاسوب,computer,计算机,NOUN
 إعجاب,admiration,赞赏,NOUN
 مشاركة,sharing,分享,NOUN
 مؤثر,influencer,网红,NOUN
-لايف,live stream,直播,NOUN
 شبكة,network,网络,NOUN
 اتصال,connection,连接,NOUN
 حذف,deletion,删除,NOUN
 انتشار,spread,传播,NOUN
 روبوت,robot,机器人,NOUN
-محتوى,content,内容,NOUN
 تفاعل,interaction,互动,NOUN
 إلكتروني,electronic,电子的,ADJ
 تقنية,technology,技术,NOUN
 اختراع,invention,发明,NOUN
 فلتر,filter,过滤器,NOUN
-علاقة,relationship,关系,NOUN
 خطيب,fiance,未婚夫,NOUN
 تقدير,appreciation,欣赏,NOUN
 جيل,generation,一代,NOUN
@@ -145,10 +174,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تعاون,cooperation,合作,NOUN
 فقر,poverty,贫困,NOUN
 ثروة,wealth,财富,NOUN
-أسرة,family,家庭,NOUN
-مناسبة,occasion,场合,NOUN
-حفل,ceremony,典礼,NOUN
-احتفال,celebration,庆祝,NOUN
 أصل,origin,起源,NOUN
 طبقة,social class,社会阶层,NOUN
 سلوك,behavior,行为,NOUN
@@ -157,20 +182,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 عائلي,familial,家庭的,ADJ
 حماية,protection,保护,NOUN
 رعاية,care,照料,NOUN
-مساعدة,assistance,帮助,NOUN
-دعوة,invitation,邀请,NOUN
-لذلك,therefore,因此,CCONJ
 بالتالي,consequently,因此,ADV
 حيث,whereas,既然,CCONJ
-بينما,while,然而,CCONJ
 ولو,even if,即使,SCONJ
-بالخصوص,in particular,特别地,ADV
-غالبا,often,经常,ADV
-نادرا,rarely,很少,ADV
 وفق,according to,根据,ADP
 بخصوص,regarding,关于,ADP
 بالعكس,on the contrary,相反地,ADV
-فعلا,indeed,确实,ADV
 خلاصة,summary,总结,NOUN
 تأثير,impact,影响,NOUN
 احتمال,possibility,可能性,NOUN
@@ -184,7 +201,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أشار,point out,指出,VERB
 لاحظ,observe,观察,VERB
 أضاف,add,补充,VERB
-بل,rather,而是,CCONJ
 كل,all,全部,DET
 مادام,as long as,只要,SCONJ
 منطق,logic,逻辑,NOUN
@@ -199,32 +215,21 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ذكاء,intelligence,智力,NOUN
 وضوح,clarity,清晰,NOUN
 بساطة,simplicity,简单,NOUN
-اهتمام,interest,兴趣,NOUN
 دقة,precision,精确,NOUN
 كسل,laziness,懒惰,NOUN
 جدية,seriousness,严肃,NOUN
-محبة,love,爱,NOUN
 إبداع,creativity,创造力,NOUN
 موهبة,talent,天赋,NOUN
 وعي,awareness,意识,NOUN
 جهل,ignorance,无知,NOUN
-معرفة,knowledge,知识,NOUN
 طيبة,kindheartedness,善良,NOUN
-إحساس,feeling,感觉,NOUN
 ذوق,taste,品味,NOUN
-جمال,beauty,美,NOUN
 ضعف,weakness,弱点,NOUN
-قيمة,value,价值,NOUN
-مبدأ,principle,原则,NOUN
 رضا,satisfaction,满意,NOUN
 أشعة,rays,射线,NOUN
-علاج,treatment,治疗,NOUN
 حبوب,pills,药丸,NOUN
-شربة,syrup,糖浆,NOUN
-حمى,fever,发烧,NOUN
 سرطان,cancer,癌症,NOUN
 بكتيريا,bacteria,细菌,NOUN
-دماغ,brain,大脑,NOUN
 عضلة,muscle,肌肉,NOUN
 خلية,cell,细胞,NOUN
 عضو,organ,器官,NOUN
@@ -266,16 +271,12 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 آثار,antiquities,文物,NOUN
 قرن,century,世纪,NOUN
 إيمان,faith,信仰,NOUN
-مسجد,mosque,清真寺,NOUN
-صلاة,prayer,礼拜,NOUN
 حج,pilgrimage,朝觐,NOUN
 عمرة,minor pilgrimage,副朝,NOUN
 قرآن,Quran,古兰经,NOUN
 سورة,chapter of Quran,苏拉,NOUN
 آية,verse of Quran,阿亚,NOUN
 حديث,prophetic saying,圣训,NOUN
-حلال,permissible,合法的,ADJ
-حرام,forbidden,非法的,ADJ
 دعاء,supplication,祈祷,NOUN
 ذكر,remembrance,记念,NOUN
 طريقة,Sufi order,苏菲教团,NOUN
@@ -288,20 +289,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سجاد,carpet,地毯,NOUN
 فضة,silver,银,NOUN
 أدوات,tools,工具,NOUN
-جغرافيا,geography,地理,NOUN
 قارة,continent,大陆,NOUN
-سهل,plain,平原,NOUN
-وادي,valley,山谷,NOUN
-صحراء,desert,沙漠,NOUN
 رمال,sands,沙子,NOUN
-ساحل,coast,海岸,NOUN
-خليج,gulf,海湾,NOUN
-محيط,ocean,海洋,NOUN
-طقس,weather,天气,NOUN
-منطقة,region,地区,NOUN
-عاصمة,capital,首都,NOUN
 مختبر,laboratory,实验室,NOUN
-نظرية,theory,理论,NOUN
 اكتشاف,discovery,发现,NOUN
 ملاحظة,observation,观察,NOUN
 عنصر,element,元素,NOUN
@@ -310,12 +300,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حجم,volume,体积,NOUN
 قوة,force,力,NOUN
 حركة,motion,运动,NOUN
-ضوء,light,光,NOUN
-صوت,sound,声音,NOUN
-كهرباء,electricity,电,NOUN
 مجال,field,场,NOUN
-رياضيات,mathematics,数学,NOUN
-قفز,to jump,跳跃,VERB
 تراجع,to retreat,后退,VERB
 انطلق,to set off,出发,VERB
 توجه,to head,前往,VERB
@@ -325,35 +310,19 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تذوق,to taste,品尝,VERB
 أدرك,to realize,意识到,VERB
 تصور,to imagine,想象,VERB
-تخيل,to imagine,想象,VERB
 تذكر,to recall,回忆,VERB
 انتبه,to pay attention,注意,VERB
 قارن,to compare,比较,VERB
-منذ,since,自从,SCONJ
-كأن,as if,好像,SCONJ
 مكونات,ingredients,成分,NOUN
-مربى,jam,果酱,NOUN
-مشروب,beverage,饮料,NOUN
-شوربة,soup,汤,NOUN
 تقديم,serving,上菜,NOUN
 مائدة,dining table,餐桌,NOUN
-تخفيضات,discounts,折扣,NOUN
-تونة,tuna,金枪鱼,NOUN
-سمك,fishmonger,鱼贩,NOUN
-فول,broad beans,蚕豆,NOUN
 إبرة,needle,针,NOUN
-معقد,complicated,复杂的,ADJ
-حجاب,diaphragm,膈肌,NOUN
-تَمَارِين,exercises,锻炼,NOUN
-مَوَاعِيد,appointments,预约,NOUN
-حَالَة,condition,状况,NOUN
 تحد,defiance,挑衅,NOUN
 مشترك,subscriber,订阅者,NOUN
 ملصق,poster,海报,NOUN
 عناوين,headlines,标题,NOUN
 موضة,fashion,时尚,NOUN
 مشاهدات,views,观看次数,NOUN
-ملح,salt,盐,NOUN
 متعلم,educated,受过教育的,ADJ
 نشاط,activity,活动,NOUN
 خواتم,rings,戒指,NOUN
@@ -361,11 +330,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 هلال,crescent,新月,NOUN
 أعشاب,herbs,草药,NOUN
 مستقبلا,in the future,将来,ADV
-درج,stairs,楼梯,NOUN
 سطر,line,行,NOUN
 بات,spend the night,过夜,VERB
 صفق,clap,鼓掌,VERB
-غطى,cover,覆盖,VERB
 تَوَقَّفَ,stop,停止,VERB
 روح,soul,灵魂,NOUN
 يُقال,to be said,据说,VERB
@@ -393,7 +360,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 أعاد,to restore,أعاد,VERB
 ٱحتفظ,to keep,ٱحتفظ,VERB
 أعظم,greatest,أعظم,NOUN
-أقرب,nearest,أقرب,NOUN
 موت,death,موت,NOUN
 مضى,to pass,مضى,VERB
 عظيم,great,عظيم,ADJ
@@ -403,68 +369,42 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 علمي,scientific,علمي,ADJ
 أولى,first,أولى,ADJ
 شمالي,northern,شمالي,ADJ
-معظم,most,معظم,ADJ
 أجرى,to conduct,أجرى,VERB
-ٱنتهى,to end,ٱنتهى,VERB
 ألقى,to cast,ألقى,VERB
 مسافة,distance,مسافة,NOUN
 نشأ,to arise,نشأ,VERB
 دام,to last,دام,VERB
-مرض,to fall ill,مرض,VERB
-أصغر,smallest,أصغر,ADJ
-أحضر,to bring,أحضر,VERB
 قول,saying,قول,NOUN
 تساءل,to wonder,تساءل,VERB
 أقام,to establish,أقام,VERB
 تعامل,interaction,تعامل,NOUN
-ٱتصل,to contact,ٱتصل,VERB
 وحيد,single,وحيد,ADJ
-بيض,egg,بيض,NOUN
 طالما,as long as,طالما,CCONJ
-كعك,cookie,كعك,NOUN
-ذهاب,going,ذهاب,NOUN
-خروج,exit,خروج,NOUN
-بكرة,tomorrow,بكرة,NOUN
-نوم,sleep,نوم,NOUN
 جهد,effort,جهد,NOUN
-تعالى,to ascend,تعالى,VERB
 تأكيد,confirmation,تأكيد,NOUN
-سبع,seven,سبع,ADJ
 ٱنتقل,to move,ٱنتقل,VERB
 تمكن,to manage,تمكن,VERB
 ميت,corpse,ميت,NOUN
 وسيلة,means,وسيلة,NOUN
-تكون,to be,تكون,VERB
 منتج,product,منتج,NOUN
 عكس,opposite,عكس,NOUN
-وراء,behind,وراء,NOUN
 قاعة,hall,قاعة,NOUN
-مبكر,early,مبكر,ADJ
 تدخل,to intervene,تدخل,VERB
 شر,evil,شر,NOUN
 بقية,remainder,بقية,NOUN
-شمال,north,شمال,NOUN
 عملاق,giant,عملاق,ADJ
-أسفل,bottom,أسفل,NOUN
-ٱستخدام,use,ٱستخدام,NOUN
 روعة,wonder,روعة,NOUN
 ثلاثي,triple,ثلاثي,ADJ
 جوع,hunger,جوع,NOUN
 مائي,aqueous,مائي,ADJ
 طور,to develop,طور,VERB
-قديم,old,قديم,ADJ
 قائم,standing,قائم,ADJ
 سيطرة,control,سيطرة,NOUN
-سادس,sixth,سادس,ADJ
 كبر,to grow,كبر,VERB
-عاشر,tenth,عاشر,NOUN
-ٱختار,to choose,ٱختار,VERB
 أوسط,middle,أوسط,ADJ
 شديد,severe,شديد,ADJ
-مدة,period,مدة,NOUN
 ٱعتبر,to consider,ٱعتبر,VERB
 وارد,incoming,وارد,ADJ
-ٱشترى,to buy,ٱشترى,VERB
 خيل,horse,خيل,NOUN
 مسألة,issue,مسألة,NOUN
 كاد,to almost,كاد,VERB
@@ -478,80 +418,52 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 نادي,club,نادي,NOUN
 قوم,people,قوم,NOUN
 ملأ,to fill,ملأ,VERB
-أولائك,those,أولائك,PRON
 لقاء,meeting,لقاء,NOUN
-خاص,special,خاص,ADJ
 واثق,confident,واثق,ADJ
 ٱعترف,to confess,ٱعترف,VERB
 جلوس,sitting,جلوس,NOUN
 ٱعتمد,to rely,ٱعتمد,VERB
-أليس,Alice,أليس,NOUN
-قهوة,coffee,قهوة,NOUN
-متجر,store,متجر,NOUN
 مزيد,more,مزيد,NOUN
-كتاب,book,كتاب,NOUN
 جعة,beer,جعة,NOUN
 سحري,magical,سحري,ADJ
 سبيل,way,سبيل,NOUN
-شي,something,شي,NOUN
-لي,me,لي,NOUN
 بارز,prominence,显赫,NOUN
-باكر,early,早的,ADV
-برافو,bravo,,NOUN
 بركة,blessing,祝福,NOUN
-بشرة,skin,皮肤,NOUN
 بكاء,crying,哭泣,NOUN
-تاسع,ninth,第九,ADJ
 تبين,clarification,阐明,NOUN
 تجاه,direction,朝向,ADP
 تجنب,avoidance,避免,NOUN
 تحديد,determination,确定,NOUN
 تحكم,control,控制,NOUN
-تحية,greeting,问候,NOUN
-تسع,nine,九,NUM
 تطورات,developments,发展动态,NOUN
 تفصيل,detail,,NOUN
 تلقى,reception,接收,NOUN
 تلوين,coloring,着色,NOUN
 تمرن,exercise,锻炼,NOUN
-تنظيف,cleaning,,NOUN
 تنوع,variety,多样性,NOUN
-ثالث,third,第三,ADJ
 ثلجي,snowy,雪的,ADJ
-ثماني,eight,八,NUM
 جاري,current,当前的,ADJ
 جانبي,side,侧面的,ADJ
-جدار,wall,墙壁,NOUN
-جرب,trial,试验,NOUN
 جناح,wing,翅膀,NOUN
 جنوبي,southern,南方的,ADJ
 حاسة,sense,感觉,NOUN
 حاضر,present,在场的,ADJ
-حالة,condition,状况,NOUN
 حبر,ink,墨水,NOUN
 حبيبي,beloved,亲爱的,NOUN
 حدد,to specify,指定,VERB
-حزام,belt,皮带,NOUN
-حساء,soup,汤,NOUN
 حمد,praise,赞美,NOUN
-خائف,fear,,NOUN
 خاطر,thought,念头,NOUN
 خطط,to plan,计划,VERB
 خطوة,step,步伐,NOUN
 خطورة,danger,危险性,NOUN
 خفض,reduction,,NOUN
 خلفي,rear,,NOUN
-خنزير,pig,猪,NOUN
 دراسة,study,研究,NOUN
 دفئ,warmth,,NOUN
-دواء,medicine,药物,NOUN
-ذاهب,going,前去的,ADJ
 ذهن,mind,心智,NOUN
 رائحة,smell,气味,NOUN
-راح,to go,去,VERB
 راضي,satisfied,满意的,ADJ
 راقص,dancer,跳舞的,ADJ
-رجع,to return,返回,VERB
 رسول,messenger,使者,NOUN
 ركوب,riding,骑乘,NOUN
 رمل,sand,沙子,NOUN
@@ -571,8 +483,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 شمل,to include,包含,VERB
 صاد,to hunt,打猎,VERB
 صباحي,morning,早晨的,ADJ
-صلصة,sauce,酱汁,NOUN
-صلي,to pray,祈祷,VERB
 صمت,silence,沉默,NOUN
 صوتي,audio,声音的,ADJ
 ضائع,lost,丢失的,ADJ
@@ -582,23 +492,15 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ضوئي,optical,光学的,ADJ
 طال,to last long,持续长久,VERB
 طن,ton,吨,NOUN
-طير,bird,鸟类,NOUN
 طيران,aviation,飞行,NOUN
 ظرف,envelope,,NOUN
 عبد,servant,奴仆,NOUN
-عرب,Arabs,阿拉伯人,NOUN
-عشر,ten,十,NUM
-عشرات,tens,几十,NUM
 عطل,breakdown,故障,NOUN
 علامة,mark,标志,NOUN
-غدا,tomorrow,明天,ADV
 غذائي,nutritional,营养的,ADJ
-غرب,west,西方,NOUN
 غربي,western,西方的,ADJ
-غسيل,laundry,衣物,NOUN
 غلب,to defeat,战胜,VERB
 فئة,category,,NOUN
-فارغ,emptiness,,NOUN
 فاشل,failure,,NOUN
 فاعل,agent,,NOUN
 فاهم,understanding,,NOUN
@@ -606,14 +508,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فردي,individual,,NOUN
 فريد,unique,,NOUN
 فقد,loss,,NOUN
-فقير,pauper,,NOUN
 فكري,intellectual,,NOUN
 قاد,to lead,领导,VERB
 قاسي,harsh,严酷的,ADJ
-قاضي,judge,法官,NOUN
 قبر,grave,坟墓,NOUN
 قرب,nearness,临近,NOUN
-قرد,monkey,猴子,NOUN
 قص,to cut,剪切,VERB
 قصر,palace,宫殿,NOUN
 قطع,to cut,切断,VERB
@@ -624,7 +523,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كافي,sufficiency,,NOUN
 كرر,to repeat,重复,VERB
 كلي,total,完全的,ADJ
-كنيسة,church,教堂,NOUN
 كهربي,electric,电力的,ADJ
 كيفية,manner,,NOUN
 لحظ,to notice,注意到,VERB
@@ -632,77 +530,73 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 لولا,if not for,要不是,SCONJ
 ليت,if only,但愿,PART
 مؤكد,confirmed,确认的,ADJ
-مبنى,building,建筑物,NOUN
 متحدث,speaker,发言人,NOUN
 متخصص,specialist,专家,NOUN
-متر,meter,米,NOUN
 متميز,distinguished,杰出的,ADJ
 مجاور,neighboring,邻近的,ADJ
 مجنون,mad,疯狂的,ADJ
 محادثة,conversation,对话,NOUN
 محترف,professional,,NOUN
-محظوظ,lucky,幸运的,ADJ
-مخيف,frightening,,ADJ
 مرتفع,high / elevated,,ADJ
-مرحاض,toilet,厕所,NOUN
-مرحلة,stage,阶段,NOUN
 مركبة,vehicle,车辆,NOUN
-مريح,comfortable,舒适的,ADJ
 مزرع,cultivated,种植的,ADJ
-مزعج,annoying,烦人的,ADJ
 مسدس,pistol,手枪,NOUN
 مسروق,stolen,被盗的,ADJ
 مسلي,entertaining,有趣的,ADJ
-مشابه,similar,相似的,ADJ
 مشتري,buyer,买家,NOUN
-مصري,Egyptian,埃及的,ADJ
-مصمم,designer,设计师,NOUN
 معتدل,moderate,温和的,ADJ
-معلم,teacher,老师,NOUN
 مقبول,acceptable,可接受的,ADJ
 مقدس,sacred,神圣的,ADJ
-مكتبة,library,图书馆,NOUN
 مكتوب,written,书面的,ADJ
-ممتاز,excellent,优秀的,ADJ
-مناسب,suitable,合适的主题,ADJ
 منتصف,midpoint,,NOUN
 موج,waves,波浪,NOUN
-مَن,who,谁,PRON
 نبأ,news,消息,NOUN
-نبتة,plant,植物,NOUN
 نتج,to result,产生,VERB
-نصف,half,,NOUN
-نظف,to clean,,VERB
 نفسي,self,,NOUN
-نمل,ants,蚂蚁,NOUN
-هاتفي,telephone,,ADJ
 هدأ,to calm down,平静,VERB
 هدد,to threaten,威胁,VERB
-واصل,to continue,继续,VERB
 وحد,to unite,统一,VERB
-وحش,monster,怪兽,NOUN
 وفر,to be plentiful / abundant,,VERB
 وقود,fuel,燃料,NOUN
 وقوع,occurrence,发生,NOUN
-يومي,daily,每日的,ADJ
-آسف,sorry,,ADJ
-آنسة,miss,小姐,NOUN
-أخت,sister,姐妹,NOUN
 أسس,to establish,创立,VERB
 أسعد,to make happy,使快乐,VERB
 أصلي,original,原始的,ADJ
 أفاد,to benefit,,VERB
-أقصر,shorter,更短的,ADJ
-أقوى,stronger,更强的,ADJ
-ألماني,German,德国的,ADJ
 أمان,safety,安全,NOUN
 أمسي,evening,昨晚的,ADJ
 أمين,trustworthy,诚实的,ADJ
 أنتج,to produce,生产,VERB
-أهمية,importance,重要性,NOUN
 إخباري,news,新闻的,ADJ
-إخوة,brothers,兄弟们,NOUN
-إسباني,Spanish,西班牙的,ADJ
 إناث,females,雌性,NOUN
-إنجليزي,English,英国的,ADJ
 إيقاف,suspension,,NOUN
+غزا,to invade,,VERB
+أقلية,minority,少数群体,NOUN
+شعار,slogan,口号,NOUN
+نفوذ,influence,影响力,NOUN
+ضابط,officer,军官,NOUN
+دعاية,propaganda,宣传,NOUN
+ماستر,master's degree,硕士学位,NOUN
+دكتوراه,doctorate,博士学位,NOUN
+سمعة,reputation,声誉,NOUN
+معجزة,miracle,奇迹,NOUN
+مستشار,counselor,顾问,NOUN
+قائد,leader,领导者,NOUN
+عسكري,military,军事的,ADJ
+فوضى,chaos,混乱,NOUN
+أنفق,to spend,花费,VERB
+استفسر,to inquire,询问,VERB
+تجاوز,to exceed,超过,VERB
+مفاوضات,negotiations,谈判,NOUN
+هضبة,plateau,高原,NOUN
+مد,high tide,涨潮,NOUN
+جزر,low tide,退潮,NOUN
+تيار,current,气流,NOUN
+إعصار,hurricane,飓风,NOUN
+واقعة,incident,事件,NOUN
+تصريح,statement,声明,NOUN
+ناشر,publisher,出版商,NOUN
+طبعة,edition,版本,NOUN
+مجلد,folder,文件夹,NOUN
+بينة,evidence,证据,NOUN
+حجة,argument,论据,NOUN

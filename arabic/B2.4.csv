@@ -1,4 +1,72 @@
 Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
+طفا,to float,,VERB
+طهر,purity,,NOUN
+عبودية,servitude,,NOUN
+عمومة,uncle,,NOUN
+عوارض,symptom,,NOUN
+غاص,to dive / plunge,,VERB
+غض,to lower (the gaze) / diminish,,VERB
+فلس,coin,,NOUN
+فلكي,celestial,,NOUN
+قسا,to be cruel / harsh,,VERB
+قصارى,utmost,,NOUN
+كبريت,sulfur,,NOUN
+كيل,weighing,,NOUN
+لئيم,mean / base,,ADJ
+متحير,perplexed,,ADJ
+متراكم,accumulated,,ADJ
+متسق,consistent / coherent,,ADJ
+متعطش,thirsty / parched,,ADJ
+متناسق,harmonious,,ADJ
+مثقل,burdened / laden,,ADJ
+مثيل,equivalent,,NOUN
+محصل,collector,,NOUN
+مخبأ,hideout,,NOUN
+مخرب,saboteur,,NOUN
+مذبحة,massacre,,NOUN
+مرار,bitterness,,NOUN
+مربك,confusing / embarrassing,,ADJ
+مريع,terrifying / dreadful,,ADJ
+مزق,to tear to pieces,,VERB
+مزية,advantage,,NOUN
+مصفوف,arranged in rows,,ADJ
+معبأ,filled / packed,,ADJ
+معذب,tormentor,,NOUN
+معهود,custom,,NOUN
+مغرم,infatuated / fond (of),,ADJ
+مغطس,bath,,NOUN
+مفرط,excessive,,ADJ
+مقرف,disgusting,,ADJ
+مكث,stay,,NOUN
+مناشدة,appeal,,NOUN
+منصف,fair / just,,ADJ
+منقرض,extinct,,ADJ
+موقد,hearth,,NOUN
+ميكروسكوبي,microscopic,,ADJ
+نابض,pulsating,,ADJ
+ناهيك,besides,,NOUN
+نعل,sole,,NOUN
+هنيء,wholesome / agreeable,,ADJ
+واقية,shield,,NOUN
+وتيرة,rhythm,,NOUN
+وحل,mud / mire,,NOUN
+أثقل,to weigh down / burden,,VERB
+أحصى,to count / enumerate,,VERB
+أدمج,to merge / incorporate,,VERB
+أرستقراطي,aristocrat,,NOUN
+أرفق,to be kind (to),,VERB
+أصغى,to listen attentively,,VERB
+أعاق,to impede / hamper,,VERB
+أغرى,to entice / tempt,,VERB
+أفسح,to make room / widen,,VERB
+ألهم,to inspire,,VERB
+أملى,to dictate,,VERB
+أوزون,ozone,,NOUN
+إجبار,coercion,,NOUN
+إرباك,confusion,,NOUN
+إزاء,opposite,,NOUN
+إسفنج,sponge,,NOUN
+أرخبيل,archipelago,群岛,NOUN
 هدنة,truce,停火,NOUN
 مرسوم,decree,法令,NOUN
 استفتاء,referendum,公投,NOUN
@@ -15,7 +83,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فوسفاط,phosphate,磷酸盐,NOUN
 احتكار,monopoly,垄断,NOUN
 خصخصة,privatization,私有化,NOUN
-مناولة,subcontracting,分包,NOUN
 تنافسية,competitiveness,竞争力,NOUN
 رواج,boom,兴旺,NOUN
 كساد,stagnation,萧条,NOUN
@@ -42,7 +109,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 استئناف,appeal,上诉,NOUN
 نقض,cassation,撤销原判,NOUN
 طعن,legal challenge,法律申诉,NOUN
-استنطاق,interrogation,审讯,NOUN
 نفقة,alimony,赡养费,NOUN
 تشريع,legislation,立法,NOUN
 مصادرة,confiscation,没收,NOUN
@@ -60,30 +126,23 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تفويض,delegation,授权,NOUN
 مواكبة,keeping up with,跟上,NOUN
 شاغر,vacant,空缺的,ADJ
-كونكور,competitive exam,竞争考试,NOUN
 ترسيم,tenure,终身教职,NOUN
 تجزئة,subdivision,住宅区,NOUN
 ترميم,renovation,翻新,NOUN
 إفراغ,emptying,排空,NOUN
 إخلاء,eviction,驱逐,NOUN
-كاريان,shantytown,贫民窟,NOUN
 رهن,mortgage,抵押,NOUN
 تعمير,construction,建设,NOUN
-تحفيظ,land titling,土地确权,NOUN
 عربون,deposit,定金,NOUN
 حيازة,possession,占有,NOUN
-ڭروب,group,群组,NOUN
-تيليشارجا,download,下载,VERB
 تصيد,phishing,网络钓鱼,NOUN
 خوارزمية,algorithm,算法,NOUN
 تشفير,encryption,加密,NOUN
-شارجور,charger,充电器,NOUN
 هشاشة,precariousness,脆弱性,NOUN
 تهميش,marginalization,边缘化,NOUN
 إقصاء,exclusion,排斥,NOUN
 تكافل,mutual support,互助,NOUN
 نميمة,gossip,流言蜚语,NOUN
-تحسيس,sensitization,意识培养,NOUN
 مغالطة,fallacy,谬误,NOUN
 تأويل,interpretation,诠释,NOUN
 وقاحة,insolence,无礼,NOUN
@@ -106,7 +165,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كروموسوم,chromosome,染色体,NOUN
 ترقوة,collarbone,锁骨,NOUN
 رسغ,wrist,手腕,NOUN
-لثة,gum,牙龈,NOUN
 بلعوم,pharynx,咽,NOUN
 شبكية,retina,视网膜,NOUN
 قرنية,cornea,角膜,NOUN
@@ -135,7 +193,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 كناوة,Gnawa,格纳瓦,NOUN
 حضرة,hadra,哈德拉,NOUN
 كومبارس,extra,临时演员,NOUN
-بروفة,rehearsal,排练,NOUN
 ارتجال,improvisation,即兴表演,NOUN
 مونولوج,monologue,独白,NOUN
 حكواتي,hakawati,哈卡瓦提,NOUN
@@ -144,7 +201,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 محراب,prayer niche,米哈拉布,NOUN
 تعويذة,amulet,护身符,NOUN
 شتلة,seedling,幼苗,NOUN
-خطارة,underground canal,地下渠,NOUN
 مبيد,pesticide,杀虫剂,NOUN
 حرث,plowing,耕作,NOUN
 محراث,plow,犁,NOUN
@@ -185,39 +241,19 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 غفل,to be heedless,疏忽,VERB
 سها,to be absent-minded,心不在焉,VERB
 بالسيف,by force,强行,ADV
-مابقاش,no longer,不再,ADV
-وحدو,by himself,独自,ADV
-مطلوع,griddle flatbread,烤饼,NOUN
-رغيفة,small loaf,小面包,NOUN
-مروزية,mrouzia,甜羊肉塔吉锅,NOUN
-سفوف,sfouf,烤面粉甜点,NOUN
-سلو,sellou,塞卢能量膏,NOUN
-غريبة,ghoriba cookie,格里比饼干,NOUN
-لويزة,lemon verbena,柠檬马鞭草,NOUN
-مشرمل,chermoula-marinated,查莫拉酱腌制的,ADJ
-شرملة,chermoula,查莫拉酱,NOUN
 مماطلة,stalling,拖延,NOUN
 تغرير,deception,欺骗,NOUN
 مقصية,bicycle kick,倒挂金钩,NOUN
 رأسية,header,头球,NOUN
 مراوغة,dribbling,盘带,NOUN
 عرضية,cross,传中,NOUN
-ميركاتو,transfer window,转会窗口,NOUN
 منشطات,doping agents,兴奋剂,NOUN
 مناورة,maneuver,机动,NOUN
-لازمة,laazima,副歌,NOUN
-ربابة,rebab,列巴布琴,NOUN
-موال,mawwal,穆瓦勒即兴演唱,NOUN
 أهازيج,chants,节日吟唱,NOUN
 مزمار,folk oboe,民间双簧管,NOUN
-غيطة,ghaita,盖塔芦苇号角,NOUN
 دندنة,humming,哼唱,NOUN
-شطون,anchovy,鳀鱼,NOUN
-صول,sole,比目鱼,NOUN
-ميرلان,whiting,牙鳕,NOUN
 حبار,cuttlefish,乌贼,NOUN
 سلطعون,crab,螃蟹,NOUN
-لوبيستر,lobster,龙虾,NOUN
 طحالب,algae,藻类,NOUN
 زعنفة,fin,鳍,NOUN
 خياشيم,gills,鳃,NOUN
@@ -229,32 +265,21 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 بذر,sowing,播种,NOUN
 سنابل,ears of wheat,麦穗,NOUN
 بور,fallow land,休耕地,NOUN
-منحل,apiary,养蜂场,NOUN
 تعرية,erosion,侵蚀,NOUN
-عرعار,juniper,杜松,NOUN
-عزيب,seasonal pasture camp,季节性牧场营地,NOUN
-ترحال,transhumance,季节性迁移放牧,NOUN
-رُحل,nomads,游牧民族,NOUN
 إسطبل,stable,马厩,NOUN
 خراز,cobbler,鞋匠,NOUN
 مدبغة,tannery,制革厂,NOUN
 نساج,weaver,织工,NOUN
-منسج,loom,织布机,NOUN
 خزاف,potter,陶工,NOUN
 مثقاب,drill,钻头,NOUN
 كماشة,pliers,钳子,NOUN
 مجرفة,shovel,铲子,NOUN
 عتلة,crowbar,撬棍,NOUN
 صقل,polishing,打磨,NOUN
-كشتبان,thimble,顶针,NOUN
-مخرز,awl,锥子,NOUN
 إزميل,chisel,凿子,NOUN
 استظهار,memorization,背诵,NOUN
-مؤطر,mentor,导师,NOUN
 تنقيط,grading,评分,NOUN
-حريك,clandestine migration,偷渡,NOUN
 تبديد,squandering,挥霍,NOUN
-ولوجيات,accessibility features,无障碍设施,NOUN
 جنوح,juvenile delinquency,青少年犯罪,NOUN
 عنوسة,spinsterhood,老处女状态,NOUN
 لبق,tactful,圆滑的,ADJ
@@ -290,26 +315,18 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 هياب,timid,胆小的,ADJ
 منطو,withdrawn,内向的,ADJ
 رث,shabby,破旧的,ADJ
-أوراش,workshops,研讨会,NOUN
 تثمين,valuation,估值,NOUN
-أجرأة,operationalization,操作化,NOUN
-رهانات,stakes,赌注,NOUN
 حكامة,governance,治理,NOUN
 توأمة,twinning,结对,NOUN
 ملتمس,motion,动议,NOUN
 عزوف,disengagement,疏远,NOUN
-مصطافون,summer vacationers,避暑者,NOUN
-أرخبيل,archipelago,群岛,NOUN
 حجل,partridge,鹧鸪,NOUN
-مالج,trowel,抹刀,NOUN
-عطالة,unemployment,失业,NOUN
 جباية,taxation,征税,NOUN
 سمسرة,brokerage,经纪,NOUN
 مقاضاة,litigation,诉讼,NOUN
 قرينة,presumption,推定,NOUN
 تركة,estate,遗产,NOUN
 صك,deed,契约,NOUN
-سلفة,advance,预付款,NOUN
 توريد,supply,供应,NOUN
 مُمَوِّن,supplier,供应商,NOUN
 توطين,resettlement,重新安置,NOUN
@@ -329,14 +346,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 قزحية,iris,虹膜,NOUN
 حَدَقَة,pupil,瞳孔,NOUN
 لَوَزَة,tonsil,扁桃体,NOUN
-رُقْيَة,incantation,咒语,NOUN
-عَشَّاب,herbalist,草药师,NOUN
 إِعْيَاء,fatigue,疲劳,NOUN
 شَخِير,snoring,打鼾,NOUN
-أَكْفَن,blind person,盲人,NOUN
 أَبْكَم,mute person,哑巴,NOUN
 أَطْرَش,deaf person,聋人,NOUN
-حَوَل,strabismus,斜视,NOUN
 صَلَع,baldness,秃顶,NOUN
 نَمَش,freckles,雀斑,NOUN
 بَثْرَة,pimple,粉刺,NOUN
@@ -356,7 +369,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ظرافة,wittiness,风趣,NOUN
 هيجان,frenzy,狂热,NOUN
 فورة,surge,激增,NOUN
-اكتراث,concern,关心,NOUN
 ولع,fondness,酷爱,NOUN
 تيه,bewilderment,迷惘,NOUN
 أرشفة,archiving,归档,NOUN
@@ -376,68 +388,37 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 فتل,twist,搓捻,VERB
 غربل,sift,筛,VERB
 شرمل,marinate,腌制,VERB
-رونبوان,roundabout,环岛,NOUN
-كار,intercity bus,城际巴士,NOUN
-صنايعي,craftsman,工匠,NOUN
 طرزي,tailor,裁缝,NOUN
-زناقي,street kid,街头顽童,NOUN
-عيالات,women,妇女,NOUN
-شيبانية,old woman,老妇人,NOUN
-خوت,siblings,兄弟姐妹,NOUN
-ولية,wife,妻子,NOUN
-سواليف,chitchat,闲聊,NOUN
-قصارة,evening chat,晚间闲谈,NOUN
 عياء,tiredness,疲劳,NOUN
-دربالة,rags,破布,NOUN
-فوقية,tunic,长衫,NOUN
-تشامير,robe,长袍,NOUN
-سبردينة,sneakers,运动鞋,NOUN
 مريلة,apron,围裙,NOUN
 دملج,bracelet,手镯,NOUN
 لثام,face veil,面纱,NOUN
-رزة,turban,头巾,NOUN
 غليون,pipe,烟斗,NOUN
-سبسي,long pipe,长烟斗,NOUN
-غرّاف,water jug,水罐,NOUN
 قلاية,frying pan,煎锅,NOUN
-قربة,waterskin,水袋,NOUN
-شكوة,churn skin,皮制搅乳袋,NOUN
 مسحاة,shovel,铲子,NOUN
 شوالات,saddlebags,鞍袋,NOUN
-كريان,shantytown,棚户区,NOUN
 تصدع,cracking,开裂,NOUN
 خرسانة,concrete,混凝土,NOUN
 ترصيص,plumbing,管道工程,NOUN
 انجراف,erosion,侵蚀,NOUN
 انبعاث,emission,排放,NOUN
-أزبال,garbage,垃圾,NOUN
 مطرح,dump site,垃圾场,NOUN
-رسكلة,recycling,回收,NOUN
 غابوي,forest-related,森林的,ADJ
 فلين,cork,软木,NOUN
 صفصاف,willow,柳树,NOUN
 دفلة,oleander,夹竹桃,NOUN
 خروب,carob,角豆,NOUN
-حولي,yearling sheep,一岁羊,NOUN
 جحش,donkey foal,驴驹,NOUN
 حجلة,partridge,鹧鸪,NOUN
-قنية,rabbit,兔子,NOUN
-جرانة,frog,青蛙,NOUN
-زرزور,starling,椋鸟,NOUN
 باز,falcon,猎鹰,NOUN
 ضبع,hyena,鬣狗,NOUN
 نمس,mongoose,獴,NOUN
-فنك,fennec fox,耳廓狐,NOUN
 خلد,mole,鼹鼠,NOUN
 جرذ,rat,大鼠,NOUN
 أشنة,lichen,地衣,NOUN
 سرخس,fern,蕨类植物,NOUN
 نخالة,bran,麸皮,NOUN
-سديم,nebula,星云,NOUN
-شفق,twilight,暮光,NOUN
 غسق,dusk,黄昏,NOUN
-بزوغ,dawning,破晓,NOUN
-محاق,new moon,新月,NOUN
 وابل,downpour,倾盆大雨,NOUN
 شعاب,reefs,礁石,NOUN
 أحراش,thickets,灌木丛,NOUN
@@ -469,36 +450,23 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مأسسة,institutionalization,制度化,NOUN
 عقلنة,rationalization,理性化,NOUN
 شرعنة,legitimization,合法化,NOUN
-دسترة,constitutionalization,立宪化,NOUN
 ازدواجية,duality,二元性,NOUN
 استدراك,remediation,补救,NOUN
 مواظبة,assiduity,勤奋,NOUN
-ثريد,tharid,肉汤泡饼,NOUN
-قديد,dried meat,肉干,NOUN
 مصران,intestine,肠,NOUN
-سانوج,nigella seeds,黑种草籽,NOUN
 حبق,basil,罗勒,NOUN
 خرقوم,turmeric,姜黄,NOUN
-ليبزار,black pepper,黑胡椒,NOUN
 حلبة,fenugreek,胡芦巴,NOUN
-كروية,caraway,葛缕子,NOUN
 ينسون,anise,茴香,NOUN
-بقولة,mallow greens,锦葵叶,NOUN
-ماطيشة,tomato,番茄,NOUN
-جميد,dried curd,干酸奶块,NOUN
-ترمس,lupini beans,羽扇豆,NOUN
 مقدد,dried cured,风干的,ADJ
 ذوّاق,gourmet,美食家,NOUN
 تخمة,indigestion,消化不良,NOUN
 زنة,weight,重量,NOUN
 صاع,volume measure,容量单位,NOUN
-خيش,burlap,麻布,NOUN
-سقيفة,porch,门廊,NOUN
 عثة,moth,飞蛾,NOUN
 ساس,govern,统治,VERB
 ماطل,stall,拖延,VERB
 وخر,fall back,后退,VERB
-قرفص,squat,蹲,VERB
 تربع,sit cross-legged,盘腿而坐,VERB
 تمطط,stretch out,伸展,VERB
 غفا,doze off,打瞌睡,VERB
@@ -531,23 +499,16 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 دس,slip in,塞入,VERB
 نبش,dig up,挖掘,VERB
 حش,mow,割草,VERB
-ذَرَى,winnow,扬谷,VERB
 شَنَقَ,hang,绞死,VERB
 لَطَمَ,slap,掴,VERB
 صَفَعَ,slap,掴,VERB
 رَفَسَ,kick,踢,VERB
 رَسَا,anchor,抛锚,VERB
 جَدَفَ,row,划船,VERB
-مُقْزِز,disgusting,令人作呕的,ADJ
-مُنْفِر,repulsive,令人反感的,ADJ
-مُقْرِف,gross,恶心的,ADJ
 مُضْجِر,tedious,乏味的,ADJ
 مُنْكَمَش,shrunken,收缩的,ADJ
 مُتَرَهِّل,flabby,松弛的,ADJ
 مُرْتَخٍ,slack,松弛的,ADJ
-محظوظ,lucky,幸运的,ADJ
-مُخَنَّز,stinking,发臭的,ADJ
-خَانِز,rotten,腐烂的,ADJ
 هَامِد,lifeless,无生命的,ADJ
 خامل,idle,懒惰的,ADJ
 انتهازي,opportunistic,机会主义的,ADJ
@@ -555,12 +516,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 متملق,sycophantic,谄媚的,ADJ
 غشيم,inexperienced,缺乏经验的,ADJ
 متمرس,seasoned,经验丰富的,ADJ
-مياوم,day laborer,日工,NOUN
 ساه,absent-minded,心不在焉的,ADJ
 شهم,noble,高尚的,ADJ
 وضيع,despicable,卑鄙的,ADJ
 شامخ,towering,高耸的,ADJ
-واطي,lowly,卑微的,ADJ
 أحدب,hunchbacked,驼背的,ADJ
 يُزعَم,to be alleged,被声称,VERB
 يُستخلَص,to be deduced,被推论出,VERB
@@ -574,85 +533,43 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 يُرجَّح,to be deemed likely,被认为可能,VERB
 يُتوهَّم,to be imagined,被想象,VERB
 يُستقبَح,to be deemed bad,被视为可恶,VERB
-نعش,bier,نعش,NOUN
 ٱحتسى,to drink,ٱحتسى,VERB
-أري,vision,أري,NOUN
-مشعر,shrine,مشعر,NOUN
-قيثار,lyre,قيثار,NOUN
-توأم,twin,تو,NOUN
-دثار,blanket,دثار,NOUN
 رمق,to glance,رمق,VERB
 ٱبتدع,to invent,ٱبتدع,VERB
-ماخور,brothel,妓院,NOUN
-برح,to leave / depart,,VERB
-برزخ,limbo,,NOUN
 بزغ,to rise (of the sun) / sprout,,VERB
-ببغاء,parrot,,NOUN
-بغيض,hateful / detestable,,ADJ
-بون,distance / gap,,NOUN
-تاق,to yearn / long for,,VERB
 تجريف,clearing,,NOUN
 تجزع,to be distressed / panic,,VERB
-ترهة,nonsense,,NOUN
 تصبب,oozing,,NOUN
 تضور,wailing,,NOUN
 تعاكس,opposition,,NOUN
 تمادى,to go too far / persist,,VERB
 تمحور,to revolve around / center on,,VERB
-جابي,collector,,NOUN
 جاثم,crouching / squatting,,ADJ
 جارف,sweeping / overwhelming,,ADJ
-جداء,goat,,NOUN
 حاش,to cram,,VERB
 حقب,era,,NOUN
-خسئ,to be driven away in abjection,,VERB
 خصية,testicle,,NOUN
 دعارة,prostitution,,NOUN
-دهى,to be cunning,,VERB
-ذرع,cubit,,NOUN
 راكد,stagnant / still,,ADJ
 رتيب,routine / monotonous,,ADJ
 روث,dung,,NOUN
 زمام,reins,,NOUN
-زنجبيل,ginger,,NOUN
 سبات,sleep,,NOUN
 سح,to drag / pull,,VERB
 سطا,to pounce on / assault,,VERB
-سليل,descendant,,NOUN
-سنح,to present itself (of an opportunity),,VERB
-سنة,year,,NOUN
 شاخص,staring / fixed (of the eyes),,ADJ
-شجى,grief,,NOUN
 شنيع,atrocious / heinous,,ADJ
-شيطان,devil,,NOUN
-صرصر,to screech (of the wind),,VERB
-ضاجع,to lie with (sexually),,VERB
-ضفة,bank,,NOUN
-طباشير,chalk,,NOUN
 طحلب,moss,,NOUN
 طمث,menses,,NOUN
-طموح,desire,,NOUN
 طمى,mud,,NOUN
 عجين,dough,,NOUN
-عراف,soothsayer,,NOUN
-عصم,to protect / restrain,,VERB
 عصيدة,porridge,,NOUN
-عي,to be tongue-tied / inarticulate,,VERB
 مغفرة,forgiveness,,NOUN
-غلظ,to be coarse / harsh,,VERB
-فظع,to be atrocious / monstrous,,VERB
-قبعة,cap,,NOUN
 قفال,lock,,NOUN
 كبريتي,sulfuric,,NOUN
 كبريتيك,sulfuric,,NOUN
-كتلة,lump,,NOUN
-كد,to toil / strive,,VERB
-كدح,labor,,NOUN
-كرب,grief,,NOUN
-لاذ,to take refuge,,VERB
 لقن,to teach by repetition,,VERB
 مئزر,apron,,NOUN
-مارق,heretic,,NOUN
 متأجج,blazing / burning,,ADJ
 متجهم,frowning / sullen,,ADJ
 متحفز,alert / poised,,ADJ
@@ -666,34 +583,19 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مخبر,informant,,NOUN
 مربط,stall,,NOUN
 مز,joke,,NOUN
-شال,scarf,,NOUN
-مشدوه,dazed one,,NOUN
 مشيمة,placenta,,NOUN
-مضني,consumption,,NOUN
-مغسل,mortuary,,NOUN
 مغفل,fool,,NOUN
-مفطور,one breaking the Ramadan fast,,NOUN
 مقمر,moonlit,,ADJ
 ملحمة,epic,,NOUN
 مليكة,queen,,NOUN
 منبوذ,outcast,,NOUN
 مولع,fond of / keen on,,ADJ
 نحا,to head toward / imitate,,VERB
-نسأ,to postpone / defer,,VERB
 هال,to terrify / frighten,,VERB
-وغد,scoundrel,,NOUN
 أبله,fool,,NOUN
-أتان,female donkey,,NOUN
 أجفل,to bolt in panic / be startled,,VERB
 أجهش,to burst into sobs,,VERB
-أحد,one,,NOUN
-أخور,dock,,NOUN
-أد,worship,,NOUN
-رأي,opinion,,NOUN
-أرجوان,violet,,NOUN
-أزج,thrust,,NOUN
 شبل,cub,,NOUN
 أضمر,to harbor / conceal (a feeling),,VERB
 أعال,to maintain / support,,VERB
-أفتك,devastation,,NOUN
 أكذوبة,falsehood,,NOUN

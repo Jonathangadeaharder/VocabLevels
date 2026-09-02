@@ -1,9 +1,35 @@
 Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
+حدود,borders,边界,NOUN
+كاف,sufficient,足够的,ADJ
+لاجئ,refugee,难民,NOUN
+فوضوي,messy,凌乱的,ADJ
+مَرْضِيّ,satisfied,满意的,ADJ
+خط,handwriting,笔迹,NOUN
+معدن,mineral,矿物,NOUN
+زجاج,glass,玻璃,NOUN
+بستان,orchard,果园,NOUN
+رماد,ash,灰烬,NOUN
+ظلام,darkness,黑暗,NOUN
+عاصفة,storm,暴风雨,NOUN
+سطح,surface,表面,NOUN
+حرارة,heat,热度,NOUN
+درجة,degree,度,NOUN
+برودة,coldness,寒冷,NOUN
+نقطة,point,点,NOUN
+خبر,news,消息,NOUN
+موظف,employee,员工,NOUN
+فرصة,opportunity,机会,NOUN
+حساب,account,账户,NOUN
+ناقش,to discuss,讨论,VERB
+اتفق,to agree,同意,VERB
+استلم,to receive payment,领取工资,VERB
+اعتذر,to apologize,道歉,VERB
+سامح,to forgive,原谅,VERB
+تخيل,to imagine,想象,VERB
+واقع,reality,现实,NOUN
 مسافر,traveler,旅行者,NOUN
 جولة,tour,游览,NOUN
 طيار,pilot,飞行员,NOUN
-مطعم,restaurant,餐厅,NOUN
-مقهى,cafe,咖啡馆,NOUN
 استراحة,rest stop,休息站,NOUN
 متحف,museum,博物馆,NOUN
 دليل,guidebook,指南,NOUN
@@ -30,11 +56,9 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ممثلة,actress,女演员,NOUN
 مغني,singer,歌手,NOUN
 أغنية,song,歌曲,NOUN
-حفلة,party,派对,NOUN
 مسرح,theater,剧院,NOUN
 مسرحية,stage play,舞台剧,NOUN
 رواية,novel,小说,NOUN
-قصة,story,故事,NOUN
 شاعر,poet,诗人,NOUN
 قصيدة,poem,诗,NOUN
 رسام,painter,画家,NOUN
@@ -98,7 +122,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 تنس,tennis,网球,NOUN
 هواية,hobby,爱好,NOUN
 تدرب,to train,训练,VERB
-رمى,to throw,投掷,VERB
 مسابقة,competition,比赛,NOUN
 رياضي,athlete,运动员,NOUN
 بيئة,environment,环境,NOUN
@@ -109,19 +132,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حريق,fire,火灾,NOUN
 غروب,sunset,日落,NOUN
 شروق,sunrise,日出,NOUN
-نجمة,star,星星,NOUN
 كوكب,planet,行星,NOUN
-أرض,earth,地球,NOUN
-بحيرة,lake,湖,NOUN
-نهر,river,河流,NOUN
-فراشة,butterfly,蝴蝶,NOUN
 تربة,soil,土壤,NOUN
 شمسي,solar,太阳的,ADJ
 موجة,wave,波浪,NOUN
-جزيرة,island,岛屿,NOUN
 منظر,landscape,风景,NOUN
-حقل,field,田地,NOUN
-مزرعة,farm,农场,NOUN
 قمح,wheat,小麦,NOUN
 فضاء,space,空间,NOUN
 شهادة,certificate,证书,NOUN
@@ -148,19 +163,16 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سرقة,theft,盗窃,NOUN
 سجن,prison,监狱,NOUN
 وكالة,agency,机构,NOUN
-بريد,mail,邮件,NOUN
 فائدة,interest,利息,NOUN
 رسمي,official,官方的,ADJ
 وثيقة,document,文件,NOUN
 إنترنت,internet,互联网,NOUN
 موقع,website,网站,NOUN
 تطبيق,app,应用程序,NOUN
-رسالة,message,消息,NOUN
 نزّل,to download,下载,VERB
 منشور,post,帖子,NOUN
 تعليق,comment,评论,NOUN
 تابع,to follow,关注,VERB
-فيديو,video,视频,NOUN
 فأرة,computer mouse,鼠标,NOUN
 بطارية,battery,电池,NOUN
 سماعة,headphones,耳机,NOUN
@@ -187,9 +199,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 رأي,opinion,意见,NOUN
 اقتراح,suggestion,建议,NOUN
 اقترح,to suggest,建议,VERB
-اتفق,to agree,同意,VERB
 اختلف,to disagree,不同意,VERB
-ناقش,to discuss,讨论,VERB
 نقاش,discussion,讨论,NOUN
 شك,doubt,怀疑,NOUN
 متأكد,sure,确定的,ADJ
@@ -201,15 +211,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 دمع,tear,眼泪,NOUN
 ابتسامة,smile,微笑,NOUN
 تبسم,to smile,微笑,VERB
-سامح,to forgive,原谅,VERB
-اعتذر,to apologize,道歉,VERB
 ثقة,trust,信任,NOUN
-وثق,to trust,信任,VERB
 احترام,respect,尊重,NOUN
 ظلم,injustice,不公,NOUN
 موقف,stance,立场,NOUN
 تفاهم,mutual understanding,相互理解,NOUN
-مشكلة,problem,问题,NOUN
 استغرب,to be surprised,感到惊讶,VERB
 كذاب,liar,说谎者,NOUN
 صادق,honest,诚实的,ADJ
@@ -227,9 +233,7 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 خَجُول,shy,害羞的,ADJ
 أَمِين,trustworthy,可靠的,ADJ
 واثِق,confident,自信的,ADJ
-متى,when,何时,ADV
 أما,as for,至于,PART
-مثلا,for example,例如,ADV
 خصوصا,especially,特别地,ADV
 عموما,generally,通常,ADV
 أخيرا,finally,最后,ADV
@@ -237,27 +241,21 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 ثانيا,secondly,其次,ADV
 مباشرة,directly,直接地,ADV
 كفاية,enough,够了,ADV
-كلاهما,both,两者都,DET
 رغم,despite,尽管,ADP
-إذن,therefore,因此,ADV
 بالكامل,at all,完全,ADV
 بالضبط,exactly,确切地,ADV
 باختصار,in short,简而言之,ADV
 بيننا,between us,我们之间,ADP
-هكذا,like this,这样,ADV
-أبدا,never,从不,ADV
 بالفعل,already,已经,ADV
 كلية,faculty,学院,NOUN
 معهد,institute,研究所,NOUN
 مادة,subject,科目,NOUN
 اختبار,test,测试,NOUN
 معدل,average,平均,NOUN
-أستاذ,teacher,老师,NOUN
 ثانوية,high school,高中,NOUN
 إعدادية,middle school,初中,NOUN
 مسطرة,ruler,尺子,NOUN
 ممحاة,eraser,橡皮,NOUN
-قاموس,dictionary,词典,NOUN
 قواعد,grammar,语法,NOUN
 نطق,pronunciation,发音,NOUN
 تركيز,concentration,专注,NOUN
@@ -274,7 +272,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 عقاب,punishment,惩罚,NOUN
 تعليم,education,教育,NOUN
 قراءة,reading,阅读,NOUN
-خط,handwriting,笔迹,NOUN
 مهنة,profession,职业,NOUN
 عامل,worker,工人,NOUN
 صانع,craftsman,工匠,NOUN
@@ -308,7 +305,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مسلوق,boiled,水煮的,ADJ
 صيدلية,pharmacy,药房,NOUN
 ضغط,blood pressure,血压,NOUN
-مستشفى,hospital,医院,NOUN
 فيتامين,vitamin,维生素,NOUN
 نظافة,hygiene,卫生,NOUN
 نصيحة,advice,建议,NOUN
@@ -325,7 +321,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مقارنة,comparison,比较,NOUN
 سبب,reason,原因,NOUN
 قرار,decision,决定,NOUN
-اختار,to choose,选择,VERB
 اختيار,choice,选择,NOUN
 حظ,luck,运气,NOUN
 صدفة,coincidence,巧合,NOUN
@@ -338,7 +333,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مجاناً,free of charge,免费,ADV
 فرشاة,brush,刷子,NOUN
 سلّم,ladder,梯子,NOUN
-زجاج,glass,玻璃,NOUN
 مكسور,broken,破碎的,ADJ
 قبلة,kiss,吻,NOUN
 أصحاب,friends,朋友,NOUN
@@ -347,13 +341,11 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مرّ,to pass by,经过,VERB
 أمسك,to catch,抓住,VERB
 قضى,to spend time,度过,VERB
-استلم,to receive payment,领取工资,VERB
 بلدي,local,本地的,ADJ
 زائد,extra,额外的,ADJ
 بشر,human being,人类,NOUN
 كريم,cream,乳霜,NOUN
 شامبو,shampoo,洗发水,NOUN
-مؤتمر,conference,会议,NOUN
 سياسي,political,政治的,ADJ
 اقتصادي,economic,经济的,ADJ
 اجتماعي,social,社会的,ADJ
@@ -368,15 +360,10 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 طبيعي,natural,自然的,ADJ
 فني,technical,技术的,ADJ
 عادل,fair,公正的,ADJ
-حر,free,自由的,ADJ
 ضروري,necessary,必要的,ADJ
-ممكن,possible,可能的,ADJ
 مستحيل,impossible,不可能的,ADJ
-واضح,clear,清楚的,ADJ
-صحيح,correct,正确的,ADJ
 خاطئ,wrong,错误的,ADJ
 بسيط,simple,简单的,ADJ
-مهم,important,重要的,ADJ
 ثانوي,secondary,次要的,ADJ
 أساسي,basic,基本的,ADJ
 رئيسي,main,主要的,ADJ
@@ -385,7 +372,6 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 مختلف,different,不同的,ADJ
 متشابه,similar,相似的,ADJ
 متساوي,equal,平等的,ADJ
-كاف,sufficient,足够的,ADJ
 ناقص,incomplete,不完整的,ADJ
 إضافي,additional,额外的,ADJ
 دائم,permanent,永久的,ADJ
@@ -393,77 +379,33 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 سابق,previous,先前的,ADJ
 نادر,rare,稀有的,ADJ
 مستمر,continuous,持续的,ADJ
-سريع,fast,快的,ADJ
 بطيء,slow,慢的,ADJ
-قوي,strong,强壮的,ADJ
-ضعيف,weak,弱的,ADJ
 ثقيل,heavy,重的,ADJ
-خفيف,light,轻的,ADJ
-واسع,wide,宽阔的,ADJ
-ضيق,narrow,窄的,ADJ
-طويل,long,长的,ADJ
 قصير,short,短的,ADJ
 عالي,high,高的,ADJ
 منخفض,low,低的,ADJ
-عميق,deep,深的,ADJ
-سطح,surface,表面,NOUN
 ناعم,smooth,光滑的,ADJ
 جاف,dry,干的,ADJ
-ساخن,hot,热的,ADJ
-بارد,cold,冷的,ADJ
-دافئ,warm,温暖的,ADJ
 ممطر,rainy,多雨的,ADJ
 مشمس,sunny,阳光明媚的,ADJ
 صاف,clear,晴朗的,ADJ
-ظلام,darkness,黑暗,NOUN
 نور,light,光,NOUN
 ظل,shadow,阴影,NOUN
 زاوية,angle,角度,NOUN
 دائرة,circle,圆,NOUN
 مربع,square,正方形,NOUN
 مثلث,triangle,三角形,NOUN
-نقطة,point,点,NOUN
-مستوى,level,水平,NOUN
-درجة,degree,度,NOUN
 نسبة,percentage,比例,NOUN
-حدود,borders,边界,NOUN
 ساحل,coast,海岸,NOUN
-شاطئ,beach,海滩,NOUN
-جبل,mountain,山,NOUN
 وادي,valley,山谷,NOUN
-صحراء,desert,沙漠,NOUN
-غابة,forest,森林,NOUN
-سهل,plain,平原,NOUN
-قمة,peak,山顶,NOUN
-عين,spring,泉,NOUN
-خليج,bay,海湾,NOUN
-رأس,cape,海角,NOUN
-بحر,sea,海,NOUN
 محيط,ocean,海洋,NOUN
 أمواج,waves,海浪,NOUN
-ريح,wind,风,NOUN
-عاصفة,storm,暴风雨,NOUN
-ثلج,snow,雪,NOUN
-مطر,rain,雨,NOUN
-غيمة,cloud,云,NOUN
 سحاب,clouds,云层,NOUN
-برودة,coldness,寒冷,NOUN
-حرارة,heat,热度,NOUN
-فصل,season,季节,NOUN
-ربيع,spring,春天,NOUN
-صيف,summer,夏天,NOUN
-خريف,autumn,秋天,NOUN
-شتاء,winter,冬天,NOUN
-طقس,weather,天气,NOUN
 توقعات,forecast,预报,NOUN
-موسم,season,季节,NOUN
 مناسبة,occasion,场合,NOUN
 حدث,event,事件,NOUN
 حادثة,incident,事故,NOUN
-خبر,news,消息,NOUN
-خطاب,speech,演讲,NOUN
 مقدمة,introduction,引言,NOUN
-محتوى,content,内容,NOUN
 موضوع,topic,主题,NOUN
 فكرة,idea,想法,NOUN
 شاهد,witness,证人,NOUN
@@ -473,90 +415,107 @@ Arabic_Lemma,English_Lemma,Chinese_Lemma,POS
 حل,solution,解决方案,NOUN
 صعوبة,difficulty,困难,NOUN
 تحدي,challenge,挑战,NOUN
-فرصة,opportunity,机会,NOUN
 نجاح,success,成功,NOUN
 فشل,failure,失败,NOUN
 جودة,quality,质量,NOUN
 ربح,profit,利润,NOUN
-سعر,price,价格,NOUN
 قيمة,value,价值,NOUN
-حساب,account,账户,NOUN
-سوق,market,市场,NOUN
 عرض,supply,供应,NOUN
 طلب,demand,需求,NOUN
-مؤسسة,institution,机构,NOUN
-شركة,company,公司,NOUN
-موظف,employee,员工,NOUN
 صاحب العمل,employer,雇主,NOUN
 كما,as,正如 / 如同,CCONJ
 رؤية,vision,愿景 / 视野,NOUN
 حين,when,当...之时,ADV
 سار,to walk,行走 / 行进,VERB
-زوجة,wife,妻子,NOUN
-فور,immediately,立刻,NOUN
 عانى,to suffer,遭受 / 忍受,VERB
 كلام,speech,话语 / 言语,NOUN
 بقي,to remain,停留 / 保持,VERB
 مدى,range / extent,范围 / 程度,NOUN
 إنسان,human,人 / 人类,NOUN
 أخبر,to tell,告知 / 告诉,VERB
-ٱبن,son,儿子,NOUN
-عد,to count,数 / 计算,VERB
-مرأة,woman,女人,NOUN
 غادر,to leave,离开,VERB
 ليلي,nocturnal,夜间的,ADJ
 زمن,time,时间 / 时代,NOUN
 كفى,to suffice,足够,VERB
 صنع,to make,制造 / 制作,VERB
-قط,cat,猫,NOUN
 مسلم,Muslim,穆斯林,NOUN
 ممارسة,practice,实践 / 从事,NOUN
 نظرة,look / glance,目光 / 观点,NOUN
 مليار,billion,十亿,NOUN
 حشرة,insect,昆虫,NOUN
 رحلة,journey,旅行 / 旅程,NOUN
-ٱستخدم,to use,使用,VERB
 تحول,transformation,转变 / 转型,NOUN
 عالمي,global,全球的 / 世界性的,ADJ
 فرد,individual,个人 / 个体,NOUN
 تحرك,to move,移动 / 行动,VERB
 مشاهدة,viewing,观看 / 观赏,NOUN
-متأخر,late / delayed,迟到的 / 晚的,ADJ
-قريب,near,近的 / 亲近的,ADJ
 خطة,plan,计划,NOUN
-ٱنتظر,to wait,等待,VERB
 أحسن,to improve / better,改善 / 做好,VERB
 جاد,earnest / serious,严肃的 / 认真的,ADJ
 أخرج,to take out / produce,拿出 / 导演,VERB
-ٱبنة,daughter,女儿,NOUN
-مرحبا,hello,你好 / 欢迎,INTJ
 ضاع,to be lost,丢失 / 迷失,VERB
 قلب,to turn / overturn,翻转 / 翻动,VERB
 عديد,many / numerous,众多的 / 许多的,ADJ
 تفكير,thinking,思考 / 思想,NOUN
 أطول,longer / longest,更长的,ADJ
-سيء,bad,坏的,ADJ
 أخير,last,最后的,ADJ
 صخر,rock,岩石,NOUN
 أعلى,higher / highest,更高的 / 上部的,ADJ
 ٱكتشف,to discover,发现,VERB
 حصل,to happen / obtain,发生 / 获得,VERB
 ٱختفى,to disappear,消失,VERB
-جنوب,south,南方,NOUN
 أقل,less / fewer,更少的,ADJ
 حقيقة,truth,真理 / 事实,NOUN
 توقف,stop / cessation,停止 / 中断,NOUN
-لذيذ,delicious,美味的,ADJ
 أكمل,to complete,完成,VERB
-بلد,country,国家 / 城镇,NOUN
 أعد,to prepare,准备,VERB
 ملك,to own,拥有,VERB
-خطأ,mistake,错误,NOUN
-بلدة,town,小镇,NOUN
-كلب,dog,狗,NOUN
 ود,to wish / love,希望 / 喜爱,VERB
 أيها,O,啊 / 噢,PART
 حان,to arrive (time),（时间）到了,VERB
 جالس,sitting,坐着的,ADJ
 صفة,attribute / adjective,特征 / 形容词,NOUN
 ٱستمتع,to enjoy,享受,VERB
+حادث,accident,事故,NOUN
+بِطَاقَة,card,卡片,NOUN
+مصنع,factory,工厂,NOUN
+فترة,period,时期,NOUN
+حفل,ceremony,典礼,NOUN
+احتفال,celebration,庆祝,NOUN
+دعوة,invitation,邀请,NOUN
+بالخصوص,in particular,特别地,ADV
+فعلا,indeed,确实,ADV
+محبة,love,爱,NOUN
+جمال,beauty,美,NOUN
+حمى,fever,发烧,NOUN
+دماغ,brain,大脑,NOUN
+جغرافيا,geography,地理,NOUN
+منطقة,region,地区,NOUN
+رياضيات,mathematics,数学,NOUN
+تخفيضات,discounts,折扣,NOUN
+تَمَارِين,exercises,锻炼,NOUN
+مَوَاعِيد,appointments,预约,NOUN
+حَالَة,condition,状况,NOUN
+ٱنتهى,to end,ٱنتهى,VERB
+مرض,to fall ill,مرض,VERB
+خروج,exit,خروج,NOUN
+ٱستخدام,use,ٱستخدام,NOUN
+ٱختار,to choose,ٱختار,VERB
+مدة,period,مدة,NOUN
+خاص,special,خاص,ADJ
+متجر,store,متجر,NOUN
+جرب,trial,试验,NOUN
+حالة,condition,状况,NOUN
+دواء,medicine,药物,NOUN
+كنيسة,church,教堂,NOUN
+مبنى,building,建筑物,NOUN
+محظوظ,lucky,幸运的,ADJ
+مخيف,frightening,,ADJ
+مريح,comfortable,舒适的,ADJ
+مزعج,annoying,烦人的,ADJ
+مناسب,suitable,合适的主题,ADJ
+نبتة,plant,植物,NOUN
+هاتفي,telephone,,ADJ
+واصل,to continue,继续,VERB
+وحش,monster,怪兽,NOUN
+يومي,daily,每日的,ADJ
