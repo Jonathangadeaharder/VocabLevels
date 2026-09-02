@@ -1,56 +1,214 @@
 French_Lemma,English_Lemma,Chinese_Lemma,POS
+abandonner,to abandon,放弃,VERB
+acier,steel,钢,NOUN
+actuel,current,当前的,ADJ
+affaire,business,事情,NOUN
+allumette,match,火柴,NOUN
+amener,to bring,带来,VERB
+autant,as much,同样多,ADV
+auteur,author,作者,NOUN
+auto,car,汽车,NOUN
+avaler,to swallow,吞下,VERB
+bande,strip,条带,NOUN
+barbe,beard,胡须,NOUN
+basket,sneaker,运动鞋,NOUN
+battre,to beat,打,VERB
+blé,wheat,小麦,NOUN
+bois,wood,木头,NOUN
+bord,edge,边缘,NOUN
+botte,boot,靴子,NOUN
+boucher,butcher,屠夫,NOUN
+bouger,to move,移动,VERB
+boulanger,baker,面包师,NOUN
+boule,ball,球,NOUN
+bout,end,末端,NOUN
+boutique,shop,商店,NOUN
+bref,brief,简短的,ADJ
+briller,to shine,发光,VERB
+brique,brick,砖,NOUN
+brochure,booklet,小册子,NOUN
+brosse,brush,刷子,NOUN
+brouillard,fog,雾,NOUN
+brûler,to burn,燃烧,VERB
+bâtiment,building,建筑物,NOUN
+calculer,to calculate,计算,VERB
+calmer,to calm,使平静,VERB
+camion,truck,卡车,NOUN
+canapé,sofa,沙发,NOUN
+carrefour,crossing,十字路口,NOUN
+casser,to break,打破,VERB
+cercle,circle,圆,NOUN
+chacun,each one,每人,PRON
+chair,flesh,肉,NOUN
+chaleur,heat,热,NOUN
+champ,field,田野,NOUN
+chandail,sweater,毛衣,NOUN
+charbon,coal,煤,NOUN
+chaîne,chain,链条,NOUN
+chemin,path,路,NOUN
+chiffre,digit,数字,NOUN
+choisir,to choose,选择,VERB
+choix,choice,选择,NOUN
+cité,city,城市,NOUN
+clef,key,钥匙,NOUN
+clou,nail,钉子,NOUN
+col,collar,衣领,NOUN
+coller,to stick,粘贴,VERB
+comique,funny,滑稽的,ADJ
+comédie,comedy,喜剧,NOUN
+conduire,to drive,驾驶,VERB
+conseil,advice,建议,NOUN
+conte,tale,故事,NOUN
+corde,rope,绳子,NOUN
+coton,cotton,棉花,NOUN
+couloir,corridor,走廊,NOUN
+coup,blow,打击,NOUN
+creuser,to dig,挖掘,VERB
+croix,cross,十字架,NOUN
+curieux,curious,好奇的,ADJ
+dame,lady,女士,NOUN
+debout,standing,站立的,ADV
+dieu,god,上帝,NOUN
+diriger,to direct,指导,VERB
+disputer,to argue,争吵,VERB
+dommage,pity,遗憾,NOUN
+dont,whose,其,PRON
+drapeau,flag,旗帜,NOUN
+durer,to last,持续,VERB
+dépendre,to depend,依赖,VERB
+dépenser,to spend,花费,VERB
+désert,desert,沙漠,NOUN
+désirer,to desire,渴望,VERB
+embêter,to bother,打扰,VERB
+emmener,to take,带走,VERB
+emploi,job,工作,NOUN
+employé,employee,雇员,NOUN
+enfer,hell,地狱,NOUN
+enfler,to swell,肿胀,VERB
+ennemi,enemy,敌人,NOUN
+enregistrer,to record,记录,VERB
+enveloppe,envelope,信封,NOUN
+erreur,error,错误,NOUN
+escargot,snail,蜗牛,NOUN
+espace,space,空间,NOUN
+espoir,hope,希望,NOUN
+espèce,kind,种类,NOUN
+essence,gasoline,汽油,NOUN
+exister,to exist,存在,VERB
+extérieur,outside,外部,NOUN
+facteur,factor,因素,NOUN
+fait,fact,事实,NOUN
+façon,way,方式,NOUN
+fer,iron,铁,NOUN
+ficelle,string,细绳,NOUN
+fleuve,river,河流,NOUN
+fond,bottom,底部,NOUN
+fontaine,fountain,喷泉,NOUN
+frapper,to hit,打,VERB
+front,forehead,额头,NOUN
+fréquent,frequent,频繁的,ADJ
+fumée,smoke,烟,NOUN
+furieux,furious,愤怒的,ADJ
+fève,bean,豆子,NOUN
+garde,guard,守卫,NOUN
+geler,to freeze,结冰,VERB
+glisser,to slip,滑倒,VERB
+gorge,throat,喉咙,NOUN
+gosse,kid,小孩,NOUN
+gratuit,free,免费的,ADJ
+grotte,cave,洞穴,NOUN
+guerre,war,战争,NOUN
+guider,to guide,引导,VERB
+habile,skilled,熟练的,ADJ
+habitude,habit,习惯,NOUN
+hache,axe,斧头,NOUN
+hasard,chance,偶然,NOUN
+hauteur,height,高度,NOUN
+honnête,honest,诚实的,ADJ
+horreur,horror,恐怖,NOUN
+humide,damp,潮湿的,ADJ
+humour,humor,幽默,NOUN
+hygiène,hygiene,卫生,NOUN
+imiter,to imitate,模仿,VERB
+immeuble,building,大楼,NOUN
+indiquer,to indicate,指出,VERB
+ingénieur,engineer,工程师,NOUN
+inquiéter,to worry,使担心,VERB
+inscrire,to register,登记,VERB
+intérieur,interior,内部,NOUN
+jeter,to throw,扔,VERB
+joie,joy,快乐,NOUN
+laine,wool,羊毛,NOUN
+larme,tear,眼泪,NOUN
+ligne,line,线,NOUN
+lèvre,lip,嘴唇,NOUN
+maladie,illness,疾病,NOUN
+manche,sleeve,袖子,NOUN
+marbre,marble,大理石,NOUN
+marin,sailor,水手,NOUN
+maître,master,主人,NOUN
+membre,member,成员,NOUN
+mesurer,to measure,测量,VERB
+métal,metal,金属,NOUN
+meuble,furniture,家具,NOUN
+micro,microphone,麦克风,NOUN
+militaire,military,军事的,ADJ
+miroir,mirror,镜子,NOUN
+mode,fashion,时尚,NOUN
+modèle,model,模型,NOUN
+moniteur,instructor,教练,NOUN
+morceau,piece,块,NOUN
+mordre,to bite,咬,VERB
+moteur,engine,发动机,NOUN
+mourir,to die,死,VERB
+moyen,means,方法,NOUN
+médecine,medicine,医学,NOUN
+paraître,to appear,出现,VERB
+naître,to be born,出生,VERB
+construire,to build,建造,VERB
+traduire,to translate,翻译,VERB
+peindre,to paint,绘画,VERB
+joindre,to join,连接,VERB
+remettre,to put back,放回,VERB
+valoir,to be worth,值,VERB
+accueillir,to welcome,欢迎,VERB
+cueillir,to pick,采摘,VERB
+rougir,to blush,脸红,VERB
+atterrir,to land,着陆,VERB
+bâtir,to build,建造,VERB
+vieillir,to grow old,变老,VERB
+vinaigre,vinegar,醋,NOUN
 abricot,apricot,杏,NOUN
 absolument,absolutely,绝对地,ADV
 accord,agreement,协议,NOUN
-accès,access,进入,NOUN
-acte,act,行为,NOUN
 actuellement,currently,目前,ADV
 addition,bill,账单,NOUN
-adorer,to love,热爱,VERB
 agence,agency,机构,NOUN
-agir,to act,行动,VERB
 agneau,lamb,羔羊,NOUN
 agrafeuse,stapler,订书机,NOUN
-ail,garlic,大蒜,NOUN
 ailleurs,elsewhere,别处,ADV
 ainsi,thus,如此,ADV
-allemand,German,德国的,ADJ
-alors,then,那么,ADV
-américain,American,美国的,ADJ
-analyse,analysis,分析,NOUN
 ananas,pineapple,菠萝,NOUN
 ancien,old,古老的,ADJ
-anniversaire,birthday,生日,NOUN
 annonce,announcement,公告,NOUN
 appel,call,呼叫,NOUN
 arme,weapon,武器,NOUN
 armée,army,军队,NOUN
-arrivée,arrival,到达,NOUN
 arrière,back,后面,NOUN
 arrière-grand-père,great-grandfather,曾祖父,NOUN
-arrêt,stop,停止,NOUN
 artiste,artist,艺术家,NOUN
 assiette,plate,盘子,NOUN
-assurance,insurance,保险,NOUN
-assurer,to ensure,确保,VERB
 attaque,attack,攻击,NOUN
-atteindre,to reach,达到,VERB
-attendre,to wait,等待,VERB
 aubergine,eggplant,茄子,NOUN
 aucun,none,没有任何,DET
-autorité,authority,权威,NOUN
-autour,around,周围,ADV
 avancer,to move forward,前进,VERB
 avenir,future,未来,NOUN
-aviron,oar,船桨,NOUN
 avis,opinion,意见,NOUN
 avocat,lawyer,律师,NOUN
 aîné,eldest,年长的,ADJ
 bague,ring,戒指,NOUN
 baignoire,bathtub,浴缸,NOUN
 balançoire,swing,秋千,NOUN
-banque,bank,银行,NOUN
-bas,low,低的,ADJ
 basilic,basil,罗勒,NOUN
 beau-fils,stepson,继子,NOUN
 beau-frère,brother-in-law,姐夫,NOUN
@@ -58,32 +216,23 @@ beau-père,father-in-law,岳父,NOUN
 beauté,beauty,美丽,NOUN
 belle-mère,mother-in-law,岳母,NOUN
 belle-sœur,sister-in-law,嫂子,NOUN
-besoin,need,需要,NOUN
-bientôt,soon,很快,ADV
 bijou,jewel,珠宝,NOUN
 bijouterie,jewelry store,珠宝店,NOUN
 biscotte,rusk,干面包,NOUN
 blouson,jacket,夹克,NOUN
 bonheur,happiness,幸福,NOUN
 bonnet,beanie,无檐小便帽,NOUN
-boucherie,butcher shop,肉店,NOUN
 bougie,candle,蜡烛,NOUN
 bouilloire,kettle,水壶,NOUN
 boussole,compass,指南针,NOUN
 bouton,button,纽扣,NOUN
-bureau,office,办公室,NOUN
 but,goal,目标,NOUN
-bébé,baby,婴儿,NOUN
 cacahuète,peanut,花生,NOUN
 cadre,frame,框架,NOUN
 cafetière,coffee maker,咖啡壶,NOUN
-calme,calm,平静,ADJ
 camping,campsite,露营地,NOUN
-candidat,candidate,候选人,NOUN
 capitaine,captain,队长,NOUN
-capitale,capital,首都,NOUN
 caractère,character,性格,NOUN
-carrière,career,职业,NOUN
 cartable,school bag,书包,NOUN
 cas,case,情况,NOUN
 casque,helmet,头盔,NOUN
@@ -94,308 +243,148 @@ cendrier,ashtray,烟灰缸,NOUN
 cerf-volant,kite,风筝,NOUN
 certainement,certainly,当然,ADV
 changement,change,变化,NOUN
-changer,to change,改变,VERB
 charge,load,负载,NOUN
 chargeur,charger,充电器,NOUN
-chat,cat,猫,NOUN
-chauffeur,driver,司机,NOUN
 chef,boss,老板,NOUN
-chercher,to look for,寻找,VERB
 chewing-gum,chewing gum,口香糖,NOUN
 chou-fleur,cauliflower,花椰菜,NOUN
 cintre,hanger,衣架,NOUN
-cinéma,cinema,电影院,NOUN
 ciseaux,scissors,剪刀,NOUN
-citoyen,citizen,公民,NOUN
 clairement,clearly,清楚地,ADV
 classeur,binder,文件夹,NOUN
 classique,classic,经典的,ADJ
-clocher,bell tower,钟楼,NOUN
 coiffeur,hairdresser,理发师,NOUN
 colle,glue,胶水,NOUN
 combat,fight,战斗,NOUN
-comme,like,像,ADP
-commencer,to begin,开始,VERB
-comment,how,如何,ADV
-commerce,trade,贸易,NOUN
 commode,chest of drawers,五斗柜,NOUN
 commun,common,共同的,ADJ
-communauté,community,社区,NOUN
 compagnie,company,公司,NOUN
 complètement,completely,完全地,ADV
 compte,account,账户,NOUN
 concombre,cucumber,黄瓜,NOUN
 concours,competition,竞赛,NOUN
 confiance,trust,信任,NOUN
-confiture,jam,果酱,NOUN
-conférence,conference,会议,NOUN
-connaissance,knowledge,知识,NOUN
 contraire,opposite,相反的,ADJ
-contrat,contract,合同,NOUN
-contrôle,control,控制,NOUN
 cour,courtyard,庭院,NOUN
 courgette,zucchini,西葫芦,NOUN
-cours,class,课程,NOUN
 course,race,赛跑,NOUN
 cravate,tie,领带,NOUN
 crevette,shrimp,虾,NOUN
-crise,crisis,危机,NOUN
-critique,criticism,批评,NOUN
-création,creation,创造,NOUN
 créer,to create,创造,VERB
 crêpe,pancake,可丽饼,NOUN
 cuillère,spoon,勺子,NOUN
-cuisine,kitchen,厨房,NOUN
-cuisinier,cook,厨师,NOUN
 célibataire,single,单身的,ADJ
 célèbre,famous,著名的,ADJ
-céréales,cereal,谷物,NOUN
 côte,coast,海岸,NOUN
-dames,checkers,跳棋,NOUN
 demande,request,请求,NOUN
 dentifrice,toothpaste,牙膏,NOUN
-depuis,since,自从,ADP
-dernier,last,最后的,ADJ
-deuxième,second,第二,ADJ
-difficile,difficult,困难的,ADJ
 différence,difference,区别,NOUN
-dimanche,Sunday,星期日,NOUN
 directement,directly,直接地,ADV
 directeur,director,主管,NOUN
-domaine,field,领域,NOUN
-donner,to give,给,VERB
-dossier,file,档案,NOUN
-doute,doubt,怀疑,NOUN
-drôle,funny,有趣的,ADJ
 durée,duration,持续时间,NOUN
 dès,from,从……起,ADP
-débat,debate,辩论,NOUN
 début,beginning,开始,NOUN
-décembre,December,十二月,NOUN
-décision,decision,决定,NOUN
 découvrir,to discover,发现,VERB
-défense,defense,防御,NOUN
-département,department,部门,NOUN
-désolé,sorry,抱歉的,ADJ
-détail,detail,细节,NOUN
-développement,development,发展,NOUN
-en,in,在,ADP
-enquête,investigation,调查,NOUN
 entreprise,company,公司,NOUN
-entrée,entrance,入口,NOUN
-environnement,environment,环境,NOUN
-et,and,和,CCONJ
-européen,European,欧洲的,ADJ
-eux,them,他们,PRON
 exactement,exactly,确切地,ADV
 exposition,exhibition,展览,NOUN
-expérience,experience,经验,NOUN
-extrême,extreme,极端的,ADJ
 facilement,easily,容易地,ADV
 faute,mistake,错误,NOUN
 faux,false,假的,ADJ
-femme,woman,女人,NOUN
-feu,fire,火,NOUN
 fil,thread,线,NOUN
-filleul,godson,教子,NOUN
 finalement,finally,最后,ADV
-finir,to finish,结束,VERB
-foi,faith,信仰,NOUN
 force,strength,力量,NOUN
-formation,training,培训,NOUN
 framboise,raspberry,覆盆子,NOUN
-français,French,法语,ADJ
 futur,future,未来,NOUN
 gaufre,waffle,华夫饼,NOUN
 gendre,son-in-law,女婿,NOUN
 genre,kind,种类,NOUN
 gilet,vest,背心,NOUN
 glaçon,ice cube,冰块,NOUN
-gouvernement,government,政府,NOUN
 goût,taste,味道,NOUN
 grave,serious,严重的,ADJ
 grâce,grace,恩典,NOUN
 général,general,一般的,ADJ
 généralement,generally,通常,ADV
 habitant,inhabitant,居民,NOUN
-haut,high,高的,ADJ
 historique,historical,历史的,ADJ
 humain,human,人类的,ADJ
-identité,identity,身份,NOUN
-idée,idea,想法,NOUN
-il,he,他,PRON
 imaginer,to imagine,想象,VERB
 interrupteur,switch,开关,NOUN
-intéressant,interesting,有趣的,ADJ
-intérêt,interest,兴趣,NOUN
 jardinier,gardener,园丁,NOUN
-je,I,我,PRON
-joueur,player,玩家,NOUN
-journal,newspaper,报纸,NOUN
 journaliste,journalist,记者,NOUN
 juge,judge,法官,NOUN
 jumelles,binoculars,双筒望远镜,NOUN
-jusqu'à,until,直到,ADP
 klaxon,horn,喇叭,NOUN
-laisser,to let,让,VERB
 lancer,to throw,投掷,VERB
 lavabo,sink,洗手池,NOUN
 laverie,laundromat,自助洗衣店,NOUN
-le,the,这,DET
 lecture,reading,阅读,NOUN
-lendemain,next day,次日,NOUN
 lequel,which one,哪一个,PRON
-leur,their,他们的,DET
-liberté,freedom,自由,NOUN
 libre,free,自由的,ADJ
-lien,link,联系,NOUN
 lieu,place,地方,NOUN
-limite,limit,限制,NOUN
 limonade,lemonade,柠檬水,NOUN
-loi,law,法律,NOUN
-longtemps,a long time,很久,ADV
-lorsque,when,当……时,SCONJ
 lycée,high school,高中,NOUN
-là,there,那里,ADV
 magnifique,magnificent,壮丽的,ADJ
-main,hand,手,NOUN
-maintenant,now,现在,ADV
 maire,mayor,市长,NOUN
-mais,but,但是,CCONJ
-majorité,majority,大多数,NOUN
-malgré,despite,尽管,ADP
-manière,manner,方式,NOUN
-marcher,to walk,走路,VERB
-marché,market,市场,NOUN
 marque,brand,品牌,NOUN
 matière,subject,科目,NOUN
 menuisier,carpenter,木匠,NOUN
-merci,thank you,谢谢,INTJ
 milieu,middle,中间,NOUN
 milliard,billion,十亿,NUM
-ministère,ministry,部,NOUN
 moderne,modern,现代的,ADJ
-moi,me,我,PRON
-mondial,global,全球的,ADJ
 moquette,carpet,地毯,NOUN
 mort,death,死亡,NOUN
-mot,word,词,NOUN
-moufle,mitten,连指手套,NOUN
-moutarde,mustard,芥末,NOUN
-musée,museum,博物馆,NOUN
 myrtille,blueberry,蓝莓,NOUN
-média,media,媒体,NOUN
-mémoire,memory,记忆,NOUN
-mérite,merit,优点,NOUN
 métier,profession,职业,NOUN
-même,same,相同的,ADJ
 mûr,ripe,成熟的,ADJ
-nager,to swim,游泳,VERB
 naissance,birth,出生,NOUN
 navet,turnip,芜菁,NOUN
-naître,to be born,出生,VERB
-neige,snow,雪,NOUN
-neiger,to snow,下雪,VERB
 nerf,nerve,神经,NOUN
 net,clean,干净的,ADJ
-nettoyer,to clean,打扫,VERB
-neuf,new,新的,ADJ
-nez,nose,鼻子,NOUN
-ni,neither,既不,CCONJ
 niveau,level,水平,NOUN
-noces,wedding,婚礼,NOUN
-noir,black,黑色,ADJ
 noix,nut,坚果,NOUN
-nom,name,名字,NOUN
 nombre,number,数字,NOUN
 nombreux,numerous,众多的,ADJ
-nommer,to name,命名,VERB
-non,no,不,ADV
 nord,north,北方,NOUN
-notamment,notably,尤其,ADV
 note,note,笔记,NOUN
-notre,our,我们的,DET
 nourrir,to feed,喂养,VERB
-nous,we,我们,PRON
-nouveau,new,新的,ADJ
 nouvelles,news,新闻,NOUN
-novembre,November,十一月,NOUN
-nuit,night,夜晚,NOUN
 nul,useless,无效的,ADJ
-numéro,number,号码,NOUN
 nécessaire,necessary,必要的,ADJ
-objectif,objective,目标,NOUN
 objet,object,物体,NOUN
 obligé,obliged,被迫的,ADJ
-obscur,dark,黑暗的,ADJ
-obtenir,to obtain,获得,VERB
 occasion,opportunity,机会,NOUN
 occuper,to occupy,占据,VERB
-octobre,October,十月,NOUN
 odeur,smell,气味,NOUN
-offrir,to offer,提供,VERB
-oiseau,bird,鸟,NOUN
 omelette,omelet,煎蛋卷,NOUN
-on,one,人们,PRON
-oncle,uncle,叔叔,NOUN
-onze,eleven,十一,NUM
-opération,operation,手术,NOUN
 or,gold,金,NOUN
 ordinaire,ordinary,普通的,ADJ
-ordre,order,命令,NOUN
-oreille,ear,耳朵,NOUN
 oreiller,pillow,枕头,NOUN
-organe,organ,器官,NOUN
-organisation,organization,组织,NOUN
 organiser,to organize,组织,VERB
-origine,origin,起源,NOUN
 oser,to dare,敢于,VERB
-ou,or,或者,CCONJ
-oublier,to forget,忘记,VERB
 ouest,west,西方,NOUN
-oui,yes,是,INTJ
-ours,bear,熊,NOUN
 outil,tool,工具,NOUN
-ouvert,open,开着的,ADJ
-ouvrir,to open,打开,VERB
-où,where,哪里,ADV
-pain,bread,面包,NOUN
 paire,pair,一对,NOUN
-paix,peace,和平,NOUN
 palais,palace,宫殿,NOUN
 palmier,palm tree,棕榈树,NOUN
 pamplemousse,grapefruit,葡萄柚,NOUN
-pantalon,trousers,裤子,NOUN
 pantoufle,slipper,拖鞋,NOUN
-papa,dad,爸爸,NOUN
 papeterie,stationery shop,文具店,NOUN
-papier,paper,纸,NOUN
-par,by,由,ADP
 parapluie,umbrella,雨伞,NOUN
-parc,park,公园,NOUN
-pardon,forgiveness,原谅,NOUN
 pareil,same,相同的,ADJ
 parfait,perfect,完美的,ADJ
 parfaitement,perfectly,完美地,ADV
 parfois,sometimes,有时,ADV
 parfum,perfume,香水,NOUN
 parking,parking lot,停车场,NOUN
-parler,to speak,说话,VERB
 parmi,among,在...之中,ADP
 parole,word,话,NOUN
 partager,to share,分享,VERB
-parti,political party,政党,NOUN
 participer,to participate,参加,VERB
-particulier,particular,特别的,ADJ
-particulièrement,particularly,特别地,ADV
 partie,part,部分,NOUN
-partir,to leave,离开,VERB
-partout,everywhere,到处,ADV
-parvenir,to reach,到达,VERB
-pas,not,不,ADV
 passager,passenger,乘客,NOUN
 passeport,passport,护照,NOUN
-passer,to pass,经过,VERB
 passoire,colander,滤锅,NOUN
 passé,past,过去,NOUN
 pastèque,watermelon,西瓜,NOUN
@@ -403,205 +392,74 @@ patate,potato,土豆,NOUN
 patiner,to skate,滑冰,VERB
 patin,skate,溜冰鞋,NOUN
 patron,boss,老板,NOUN
-pauvre,poor,贫穷的,ADJ
-pavé,paving stone,铺路石,NOUN
-payer,to pay,支付,VERB
-pays,country,国家,NOUN
-peau,skin,皮肤,NOUN
 peignoir,bathrobe,浴袍,NOUN
-peindre,to paint,绘画,VERB
-peine,sorrow,悲伤,NOUN
 peinture,painting,绘画,NOUN
 pelouse,lawn,草坪,NOUN
-pendant,during,在...期间,ADP
 pendre,to hang,悬挂,VERB
-penser,to think,思考,VERB
-pensée,thought,想法,NOUN
-perdre,to lose,丢失,VERB
-permettre,to allow,允许,VERB
 persil,parsley,欧芹,NOUN
-personnage,character,人物,NOUN
-personne,person,人,NOUN
-personnel,staff,员工,NOUN
-perte,loss,损失,NOUN
-petit,small,小的,ADJ
-petit-fils,grandson,孙子,NOUN
-petite-fille,granddaughter,孙女,NOUN
-peu,little,少,ADV
 peuple,people,人民,NOUN
-peur,fear,恐惧,NOUN
 pharmacien,pharmacist,药剂师,NOUN
 physique,physical,身体的,ADJ
-pied,foot,脚,NOUN
 pierre,stone,石头,NOUN
 pile,battery,电池,NOUN
 pince,pliers,钳子,NOUN
-pique,spade,黑桃,NOUN
 pire,worse,更糟,ADJ
-piscine,swimming pool,游泳池,NOUN
-pitié,pity,怜悯,NOUN
 pièce,room,房间,NOUN
 piéton,pedestrian,行人,NOUN
-place,square,广场,NOUN
-plage,beach,海滩,NOUN
-plainte,complaint,投诉,NOUN
 plaire,to please,使喜欢,VERB
-plaisir,pleasure,快乐,NOUN
-plan,map,地图,NOUN
 plante,plant,植物,NOUN
 planète,planet,行星,NOUN
 plat,dish,菜肴,NOUN
-plein,full,满的,ADJ
-pleurer,to cry,哭泣,VERB
-pleuvoir,to rain,下雨,VERB
 plonger,to dive,潜水,VERB
 plupart,most,大多数,PRON
-plus,more,更多,ADV
-plusieurs,several,几个,DET
 plutôt,rather,相当,ADV
 poids,weight,重量,NOUN
-poire,pear,梨,NOUN
 poireau,leek,韭葱,NOUN
-poisson,fish,鱼,NOUN
 poissonnerie,fish shop,鱼店,NOUN
 poitrine,chest,胸部,NOUN
 poivron,bell pepper,甜椒,NOUN
-politique,political,政治的,ADJ
-pomme,apple,苹果,NOUN
-pompier,firefighter,消防员,NOUN
 pont,bridge,桥,NOUN
 populaire,popular,受欢迎的,ADJ
 port,harbor,港口,NOUN
 portail,gate,大门,NOUN
-porte,door,门,NOUN
 porte-monnaie,coin purse,零钱包,NOUN
 portefeuille,wallet,钱包,NOUN
-porter,to carry,携带,VERB
-poser,to put down,放下,VERB
-positif,positive,积极的,ADJ
-possibilité,possibility,可能性,NOUN
-posséder,to own,拥有,VERB
 poste,post,职位,NOUN
-poteau,post,柱子,NOUN
 poubelle,trash can,垃圾桶,NOUN
-poule,hen,母鸡,NOUN
-poulet,chicken,鸡肉,NOUN
 poumon,lung,肺,NOUN
-pour,for,为了,ADP
-pourquoi,why,为什么,ADV
 pourtant,however,然而,ADV
-pouvoir,to be able to,能够,VERB
 prairie,meadow,草地,NOUN
 pratique,practical,实用的,ADJ
 premier,first,第一,ADJ
-prendre,to take,拿,VERB
-presque,almost,几乎,ADV
-presse,press,新闻界,NOUN
 presser,to press,按压,VERB
-pressing,dry cleaner,干洗店,NOUN
-pression,pressure,压力,NOUN
-preuve,proof,证据,NOUN
 prier,to pray,祈祷,VERB
-prime,bonus,奖金,NOUN
 principal,main,主要的,ADJ
-principe,principle,原则,NOUN
-printemps,spring,春天,NOUN
 prise,socket,插座,NOUN
-privé,private,私人的,ADJ
-prix,price,价格,NOUN
 probablement,probably,可能,ADV
-problème,problem,问题,NOUN
-prochain,next,下一个,ADJ
 proche,close,近的,ADJ
 proche,relative,亲人,NOUN
 produit,product,产品,NOUN
-professeur,teacher,老师,NOUN
 profiter,to enjoy,享受,VERB
-accepter,to accept,接受,VERB
 ajouter,to add,添加,VERB
-amener,to bring,带来,VERB
-apporter,to bring,带来,VERB
 arranger,to arrange,安排,VERB
-arriver,to arrive,到达,VERB
-choisir,to choose,选择,VERB
-comprendre,to understand,理解,VERB
-connaître,to know,认识,VERB
-construire,to build,建造,VERB
-continuer,to continue,继续,VERB
 corriger,to correct,纠正,VERB
-courir,to run,跑,VERB
 coudre,to sew,缝纫,VERB
-couper,to cut,切,VERB
-craindre,to fear,害怕,VERB
-croire,to believe,相信,VERB
-décider,to decide,决定,VERB
-défendre,to defend,防御,VERB
-demander,to ask,询问,VERB
-descendre,to go down,下去,VERB
-dessiner,to draw,画,VERB
-détester,to hate,讨厌,VERB
-devoir,to have to,必须,VERB
-dire,to say,说,VERB
 disparaître,to disappear,消失,VERB
-dormir,to sleep,睡觉,VERB
-écrire,to write,写,VERB
 emprunter,to borrow,借,VERB
-entendre,to hear,听见,VERB
-entrer,to enter,进入,VERB
-envoyer,to send,发送,VERB
 épouser,to marry,结婚,VERB
-essayer,to try,尝试,VERB
 éviter,to avoid,避免,VERB
-expliquer,to explain,解释,VERB
-fermer,to close,关闭,VERB
 fumer,to smoke,抽烟,VERB
-garder,to keep,保留,VERB
-habiter,to live,居住,VERB
 hésiter,to hesitate,犹豫,VERB
-inviter,to invite,邀请,VERB
-joindre,to join,加入,VERB
-lire,to read,读,VERB
-mettre,to put,放,VERB
-monter,to go up,上去,VERB
-montrer,to show,展示,VERB
-mourir,to die,死亡,VERB
-paraître,to appear,出现,VERB
 pardonner,to forgive,原谅,VERB
 plier,to fold,折叠,VERB
-prouver,to prove,证明,VERB
 raconter,to tell,讲述,VERB
-recevoir,to receive,收到,VERB
-reconnaître,to recognize,认出,VERB
 reculer,to back up,后退,VERB
 réfléchir,to think,反思,VERB
-rester,to stay,停留,VERB
 retourner,to return,返回,VERB
-réussir,to succeed,成功,VERB
-réveiller,to wake,唤醒,VERB
-revenir,to come back,回来,VERB
-revoir,to see again,再见,VERB
 retenir,to retain,保留,VERB
-rire,to laugh,笑,VERB
-rompre,to break,打破,VERB
-sauter,to jump,跳,VERB
 sauver,to save,拯救,VERB
-sembler,to seem,似乎,VERB
-sentir,to feel,感觉,VERB
 servir,to serve,服务,VERB
-sortir,to go out,出去,VERB
-suivre,to follow,跟随,VERB
-taire,to be silent,沉默,VERB
-tenir,to hold,拿着,VERB
-tomber,to fall,跌倒,VERB
-trouver,to find,找到,VERB
-vendre,to sell,卖,VERB
-venir,to come,来,VERB
-vivre,to live,生活,VERB
 voler,to fly,飞,VERB
-appartement,apartment,公寓,NOUN
-voisin,neighbor,邻居,NOUN
-train,train,火车,NOUN
-voiture,car,汽车,NOUN
 vélo,bicycle,自行车,NOUN
 métro,subway,地铁,NOUN
 bus,bus,公共汽车,NOUN
@@ -637,9 +495,367 @@ semaine,week,星期,NOUN
 siècle,century,世纪,NOUN
 minute,minute,分钟,NOUN
 seconde,second,秒,NOUN
-toujours,always,总是,ADV
 souvent,often,经常,ADV
 tôt,early,早,ADV
 tard,late,晚,ADV
 d'abord,first,首先,ADV
-
+actrice,actress,女演员,NOUN
+adulte,adult,成年人,NOUN
+africain,African,非洲的,ADJ
+aller-retour,round trip,往返,NOUN
+arabe,Arabic,阿拉伯语,NOUN
+ballon,ball,球,NOUN
+belge,Belgian,比利时的,ADJ
+bienvenue,welcome,欢迎,NOUN
+billet,ticket,票,NOUN
+bière,beer,啤酒,NOUN
+caisse,cash register,收银机,NOUN
+canadien,Canadian,加拿大的,ADJ
+champignon,mushroom,蘑菇,NOUN
+chanteur,singer,歌手,NOUN
+collègue,colleague,同事,NOUN
+coûter,to cost,花费,VERB
+dessin,drawing,图画,NOUN
+doucement,gently,轻轻地,ADV
+enlever,to remove,移除,VERB
+espèces,cash,现金,NOUN
+grec,Greek,希腊的,ADJ
+italien,Italian,意大利的,ADJ
+japonais,Japanese,日本的,ADJ
+leçon,lesson,课,NOUN
+lourd,heavy,重的,ADJ
+lunettes,glasses,眼镜,NOUN
+léger,light,轻的,ADJ
+magie,magic,魔法,NOUN
+maillot,jersey,球衣,NOUN
+micro-ondes,microwave,微波炉,NOUN
+monnaie,currency,货币,NOUN
+moto,motorcycle,摩托车,NOUN
+méchant,mean,邪恶的,ADJ
+médicament,medicine,药物,NOUN
+météo,weather forecast,天气预报,NOUN
+ouvrier,worker,工人,NOUN
+partenaire,partner,搭档,NOUN
+pause,break,休息,NOUN
+peintre,painter,画家,NOUN
+pluie,rain,雨,NOUN
+poche,pocket,口袋,NOUN
+policier,police officer,警察,NOUN
+pousser,to push,推,VERB
+princesse,princess,公主,NOUN
+promener,to walk,散步,VERB
+propre,own,自己的,ADJ
+près,near,附近,ADV
+préférer,to prefer,更喜欢,VERB
+préféré,favorite,最喜欢的,ADJ
+prénom,first name,名字,NOUN
+présenter,to present,介绍,VERB
+prêt,ready,准备好的,ADJ
+puis,then,然后,ADV
+pyjama,pajamas,睡衣,NOUN
+père,father,父亲,NOUN
+quart,quarter,四分之一,NOUN
+quartier,neighborhood,街区,NOUN
+quatrième,fourth,第四,ADJ
+que,that,那,SCONJ
+quel,which,哪个,DET
+quelqu'un,someone,某人,PRON
+quelque,some,一些,DET
+qui,who,谁,PRON
+quitter,to leave,离开,VERB
+quoi,what,什么,PRON
+raison,reason,理由,NOUN
+rapide,fast,快的,ADJ
+rapidement,quickly,快速地,ADV
+reine,queen,女王,NOUN
+remercier,to thank,感谢,VERB
+rencontre,meeting,会面,NOUN
+rencontrer,to meet,遇见,VERB
+rendez-vous,appointment,约会,NOUN
+rentrer,to return home,回家,VERB
+repas,meal,餐,NOUN
+reste,rest,剩余部分,NOUN
+retard,delay,延迟,NOUN
+retour,return,返回,NOUN
+retrouver,to find,找到,VERB
+reçu,receipt,收据,NOUN
+riche,rich,富有的,ADJ
+rideau,curtain,窗帘,NOUN
+rien,nothing,没有什么,PRON
+rivière,river,河流,NOUN
+robe,dress,连衣裙,NOUN
+roi,king,国王,NOUN
+roller,roller skate,轮滑鞋,NOUN
+rond,round,圆的,ADJ
+rose,pink,粉红色的,ADJ
+roue,wheel,轮子,NOUN
+rouge,red,红色的,ADJ
+rouler,to roll,滚动,VERB
+route,road,道路,NOUN
+rue,street,街道,NOUN
+russe,Russian,俄罗斯的,ADJ
+éteindre,to extinguish,熄灭,VERB
+sourire,to smile,微笑,VERB
+devoir,to have to,必须,AUX
+pouvoir,to be able to,能够,AUX
+orage,thunderstorm,雷暴,NOUN
+vallée,valley,山谷,NOUN
+bateau,boat,船,NOUN
+soleil,sun,太阳,NOUN
+vent,wind,风,NOUN
+accrocher,to hang,悬挂,VERB
+agenda,diary,日程本,NOUN
+aiguille,needle,针,NOUN
+alarme,alarm,警报,NOUN
+allumer,to turn on,打开,VERB
+amusant,amusing,有趣的,ADJ
+amuser,to amuse,逗乐,VERB
+asiatique,Asian,亚洲的,ADJ
+asseoir,to sit,使坐下,VERB
+attacher,to attach,系上,VERB
+attraper,to catch,抓住,VERB
+bagage,luggage,行李,NOUN
+balade,stroll,散步,NOUN
+balcon,balcony,阳台,NOUN
+blague,joke,笑话,NOUN
+bol,bowl,碗,NOUN
+bonbon,candy,糖果,NOUN
+boue,mud,泥,NOUN
+bulle,bubble,气泡,NOUN
+bâton,stick,棍子,NOUN
+bêtise,stupidity,愚蠢,NOUN
+cabine,cabin,小舱,NOUN
+canard,duck,鸭子,NOUN
+carton,cardboard,纸板,NOUN
+cave,cellar,地窖,NOUN
+centime,cent,分,NOUN
+chauffage,heating,暖气,NOUN
+chauffer,to heat,加热,VERB
+cheminée,fireplace,壁炉,NOUN
+chouette,owl,猫头鹰,NOUN
+chèque,check,支票,NOUN
+chèvre,goat,山羊,NOUN
+chéri,darling,亲爱的,ADJ
+cirque,circus,马戏团,NOUN
+clavier,keyboard,键盘,NOUN
+coffre,trunk,箱子,NOUN
+coiffure,hairstyle,发型,NOUN
+colis,package,包裹,NOUN
+collier,necklace,项链,NOUN
+colline,hill,小山,NOUN
+confortable,comfortable,舒适的,ADJ
+copier,to copy,复制,VERB
+coureur,runner,跑步者,NOUN
+cri,shout,喊叫,NOUN
+cuit,cooked,熟的,ADJ
+cycliste,cyclist,骑自行车的人,NOUN
+dauphin,dolphin,海豚,NOUN
+dispute,argument,争论,NOUN
+dixième,tenth,第十,ADJ
+doré,golden,金色的,ADJ
+dé,dice,骰子,NOUN
+débarrasser,to get rid of,清除,VERB
+décoration,decoration,装饰,NOUN
+désagréable,unpleasant,令人不快的,ADJ
+effacer,to erase,擦除,VERB
+embrasser,to kiss,亲吻,VERB
+emporter,to take away,带走,VERB
+endormir,to put to sleep,使入睡,VERB
+enseignant,teacher,教师,NOUN
+facture,invoice,发票,NOUN
+fantôme,ghost,鬼魂,NOUN
+fauteuil,armchair,扶手椅,NOUN
+fichier,file,文件,NOUN
+fillette,little girl,小女孩,NOUN
+filmer,to film,拍摄,VERB
+finale,final,决赛,NOUN
+flamme,flame,火焰,NOUN
+formulaire,form,表格,NOUN
+frite,french fry,炸薯条,NOUN
+gant,glove,手套,NOUN
+goutte,drop,水滴,NOUN
+graine,seed,种子,NOUN
+grammaire,grammar,语法,NOUN
+gramme,gram,克,NOUN
+grille,grid,格栅,NOUN
+grippe,flu,流感,NOUN
+géant,giant,巨人,NOUN
+géographie,geography,地理,NOUN
+horaire,schedule,时间表,NOUN
+huitième,eighth,第八,ADJ
+hélicoptère,helicopter,直升机,NOUN
+imprimer,to print,打印,VERB
+infirmier,nurse,护士,NOUN
+informatique,computing,计算机科学,NOUN
+insecte,insect,昆虫,NOUN
+intéresser,to interest,使感兴趣,VERB
+intéressé,interested,感兴趣的,ADJ
+inventer,to invent,发明,VERB
+jouet,toy,玩具,NOUN
+jumeau,twin,双胞胎,NOUN
+librairie,bookstore,书店,NOUN
+litre,liter,升,NOUN
+louer,to rent,租赁,VERB
+loyer,rent,租金,NOUN
+lycéen,high school student,高中生,NOUN
+malheureux,unhappy,不幸的,ADJ
+mamie,granny,奶奶,NOUN
+maquillage,makeup,化妆,NOUN
+marteau,hammer,锤子,NOUN
+matelas,mattress,床垫,NOUN
+matinée,morning,上午,NOUN
+mensonge,lie,谎言,NOUN
+menton,chin,下巴,NOUN
+merveilleux,marvelous,极好的,ADJ
+miel,honey,蜂蜜,NOUN
+moche,ugly,丑陋的,ADJ
+monstre,monster,怪物,NOUN
+mouche,fly,苍蝇,NOUN
+mousse,foam,泡沫,NOUN
+musicien,musician,音乐家,NOUN
+mélanger,to mix,混合,VERB
+natation,swimming,游泳,NOUN
+nerveux,nervous,紧张的,ADJ
+neuvième,ninth,第九,ADJ
+nid,nest,巢,NOUN
+néerlandais,Dutch,荷兰语,ADJ
+paille,straw,稻草,NOUN
+panier,basket,篮子,NOUN
+panne,breakdown,故障,NOUN
+panneau,panel,面板,NOUN
+papillon,butterfly,蝴蝶,NOUN
+paragraphe,paragraph,段落,NOUN
+patte,paw,爪子,NOUN
+perdant,loser,失败者,NOUN
+pilule,pill,药丸,NOUN
+piquer,to sting,刺,VERB
+placard,cupboard,橱柜,NOUN
+planche,board,木板,NOUN
+planter,to plant,种植,VERB
+plume,feather,羽毛,NOUN
+pneu,tire,轮胎,NOUN
+poignée,handle,把手,NOUN
+poil,hair,毛发,NOUN
+poli,polite,有礼貌的,ADJ
+polonais,Polish,波兰的,ADJ
+porc,pork,猪肉,NOUN
+pouce,thumb,拇指,NOUN
+poussière,dust,灰尘,NOUN
+poème,poem,诗,NOUN
+prononcer,to pronounce,发音,VERB
+puce,flea,跳蚤,NOUN
+punition,punishment,惩罚,NOUN
+purée,mash,泥状食物,NOUN
+pêcheur,fisherman,渔夫,NOUN
+randonnée,hike,徒步旅行,NOUN
+ranger,to tidy up,整理,VERB
+rappeur,rapper,说唱歌手,NOUN
+recommencer,to start again,重新开始,VERB
+redonner,to give back,归还,VERB
+renard,fox,狐狸,NOUN
+repartir,to set off again,再次出发,VERB
+respirer,to breathe,呼吸,VERB
+retraité,retiree,退休人员,NOUN
+roche,rock,岩石,NOUN
+romantique,romantic,浪漫的,ADJ
+roux,red-haired,红发的,ADJ
+râpe,grater,擦丝器,NOUN
+règle,rule,规则,NOUN
+réchauffer,to warm up,加热,VERB
+région,region,地区,NOUN
+réparer,to repair,修理,VERB
+répéter,to repeat,重复,VERB
+réveil,awakening,觉醒,NOUN
+rêve,dream,梦,NOUN
+sable,sand,沙子,NOUN
+saison,season,季节,NOUN
+salut,greeting,问候,NOUN
+sang,blood,血,NOUN
+santé,health,健康,NOUN
+sapin,fir tree,冷杉,NOUN
+saucisson,dry sausage,干香肠,NOUN
+saumon,salmon,三文鱼,NOUN
+saut,jump,跳跃,NOUN
+sauvage,wild,野生的,ADJ
+savon,soap,肥皂,NOUN
+savonnette,bar of soap,香皂,NOUN
+seau,bucket,桶,NOUN
+sec,dry,干的,ADJ
+secours,help,援助,NOUN
+secrétaire,secretary,秘书,NOUN
+septième,seventh,第七,ADJ
+serpent,snake,蛇,NOUN
+serrer,to tighten,紧握,VERB
+serrure,lock,锁,NOUN
+serviette,towel,毛巾,NOUN
+shampooing,shampoo,洗发水,NOUN
+sieste,nap,午睡,NOUN
+signer,to sign,签署,VERB
+singe,monkey,猴子,NOUN
+sinon,otherwise,否则,ADV
+sirop,syrup,糖浆,NOUN
+siège,seat,座位,NOUN
+soif,thirst,口渴,NOUN
+soirée,evening,晚会,NOUN
+sol,ground,地面,NOUN
+soldat,soldier,士兵,NOUN
+soldes,sales,打折,NOUN
+sommeil,sleep,睡眠,NOUN
+sonner,to ring,响,VERB
+sortie,exit,出口,NOUN
+souris,mouse,老鼠,NOUN
+souvenir,memory,回忆,NOUN
+spectacle,show,演出,NOUN
+sportif,athletic,运动的,ADJ
+stade,stadium,体育场,NOUN
+station-service,gas station,加油站,NOUN
+baigner,to bathe,沐浴,VERB
+crier,to shout,喊叫,VERB
+déshabiller,to undress,脱衣,VERB
+essuyer,to wipe,擦,VERB
+abeille,bee,蜜蜂,NOUN
+aigle,eagle,鹰,NOUN
+architecte,architect,建筑师,NOUN
+banquier,banker,银行家,NOUN
+barrière,barrier,障碍物,NOUN
+cheville,ankle,脚踝,NOUN
+comédien,actor,演员,NOUN
+cru,raw,生的,ADJ
+céréale,cereal,谷物,NOUN
+foie,liver,肝脏,NOUN
+frein,brake,刹车,NOUN
+grenier,attic,阁楼,NOUN
+plaine,plain,平原,NOUN
+sympathique,friendly,友好的,ADJ
+surtout,especially,尤其,ADV
+colère,anger,愤怒,NOUN
+super,great,极好的,ADJ
+tranquille,quiet,安静的,ADJ
+débutant,beginner,初学者,NOUN
+caissier,cashier,出纳员,NOUN
+commerçant,shopkeeper,店主,NOUN
+agriculteur,farmer,农民,NOUN
+plombier,plumber,水管工,NOUN
+mécanicien,mechanic,机械师,NOUN
+saucisse,sausage,香肠,NOUN
+nouille,noodle,面条,NOUN
+casserole,saucepan,平底锅,NOUN
+poêle,frying pan,平底锅,NOUN
+fourchette,fork,餐叉,NOUN
+shampoing,shampoo,洗发水,NOUN
+peigne,comb,梳子,NOUN
+mouchoir,handkerchief,手帕,NOUN
+tapis,carpet,地毯,NOUN
+tiroir,drawer,抽屉,NOUN
+toit,roof,屋顶,NOUN
+plafond,ceiling,天花板,NOUN
+sonnette,doorbell,门铃,NOUN
+poupée,doll,洋娃娃,NOUN
+raquette,racket,球拍,NOUN
+patinoire,ice rink,溜冰场,NOUN
+ongle,fingernail,指甲,NOUN
+orteil,toe,脚趾,NOUN
+timbre,stamp,邮票,NOUN
+collège,middle school,初中,NOUN
+étudiant,student,学生,NOUN
+million,million,百万,NOUN
