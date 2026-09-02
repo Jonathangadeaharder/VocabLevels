@@ -19,7 +19,6 @@ algo,something,某事,PRON
 alguien,someone,某人,PRON
 allá,over there,那边,ADV
 allí,there,那里,ADV
-alma,soul,灵魂,NOUN
 alto,tall,高的,ADJ
 amable,kind,友好的,ADJ
 ambos,both,两者,DET
@@ -31,7 +30,6 @@ antes,before,以前,ADV
 aquí,here,这里,ADV
 armario,wardrobe,衣柜,NOUN
 arriba,up,上面,ADV
-asunto,matter,事情,NOUN
 así,so,这样,ADV
 atención,attention,注意,NOUN
 atrás,back,后面,ADV
@@ -71,17 +69,11 @@ cambio,change,变化,NOUN
 camino,path,路,NOUN
 campo,field,田野,NOUN
 canción,song,歌曲,NOUN
-capaz,capable,有能力的,ADJ
-capitán,captain,队长,NOUN
 cara,face,脸,NOUN
-cargo,position,职位,NOUN
 carne,meat,肉,NOUN
-carrera,career,职业,NOUN
 carta,letter,信,NOUN
 casa,house,房子,NOUN
 casi,almost,几乎,ADV
-caso,case,情况,NOUN
-causa,cause,原因,NOUN
 cena,dinner,晚餐,NOUN
 cenar,to have dinner,吃晚饭,VERB
 centro,center,中心,NOUN
@@ -91,7 +83,6 @@ chica,girl,女孩,NOUN
 chico,boy,男孩,NOUN
 cielo,sky,天空,NOUN
 cinco,five,五,NUM
-cita,appointment,约会,NOUN
 ciudad,city,城市,NOUN
 claro,clear,清楚的,ADJ
 clase,class,课,NOUN
@@ -101,18 +92,12 @@ cocina,kitchen,厨房,NOUN
 comer,to eat,吃,VERB
 comida,food,食物,NOUN
 como,as,像,ADP
-compañía,company,公司,NOUN
 completamente,completely,完全地,ADV
-comportamiento,behavior,行为,NOUN
 comprar,to buy,买,VERB
 con,with,和,ADP
 conductor,driver,司机,NOUN
-confiar,to trust,信任,VERB
 conmigo,with me,和我,PRON
 conocer,to know,认识,VERB
-conocido,acquaintance,熟人,NOUN
-conseguir,to get,得到,VERB
-contacto,contact,联系,NOUN
 contigo,with you,和你,PRON
 contra,against,反对,ADP
 corazón,heart,心脏,NOUN
@@ -122,32 +107,22 @@ cualquier,any,任何,DET
 cuando,when,当...时,SCONJ
 cuarto,room,房间,NOUN
 cuatro,four,四,NUM
-cuenta,bill,账单,NOUN
 cuidado,care,小心,NOUN
-culpa,fault,过错,NOUN
 cumpleaños,birthday,生日,NOUN
 cuál,which,哪个,PRON
 cuándo,when,何时,ADV
 cuánto,how much,多少,PRON
-cárcel,prison,监狱,NOUN
 cómo,how,如何,ADV
 cómodo,comfortable,舒适的,ADJ
-dado,given,给定的,ADJ
 dar,to give,给,VERB
-daño,damage,损害,NOUN
 de,of,的,ADP
 decir,to say,说,VERB
-decisión,decision,决定,NOUN
 dejar,to leave,离开,VERB
 delante,in front,在前面,ADV
 demasiado,too much,太,ADV
 dentro,inside,在里面,ADV
-derecho,right,右边,NOUN
 desde,from,从,ADP
-deseo,wish,愿望,NOUN
-desierto,desert,沙漠,NOUN
 después,after,之后,ADV
-destino,destination,目的地,NOUN
 detrás,behind,在后面,ADV
 diez,ten,十,NUM
 diferencia,difference,区别,NOUN
@@ -157,12 +132,9 @@ dinero,money,钱,NOUN
 dios,god,上帝,NOUN
 dirección,address,地址,NOUN
 divertido,fun,有趣的,ADJ
-divorcio,divorce,离婚,NOUN
-dolor,pain,疼痛,NOUN
 donde,where,哪里,ADV
 dormir,to sleep,睡觉,VERB
 dos,two,二,NUM
-duda,doubt,怀疑,NOUN
 dulce,sweet,甜的,ADJ
 durante,during,在...期间,ADP
 duro,hard,硬的,ADJ
@@ -170,7 +142,6 @@ día,day,天,NOUN
 dónde,where,哪里,ADV
 edad,age,年龄,NOUN
 edificio,building,建筑物,NOUN
-ejército,army,军队,NOUN
 el,the,这,DET
 ella,she,她,PRON
 ellas,they,她们,PRON
@@ -180,7 +151,6 @@ en,in,在...里,ADP
 encima,on top,在上面,ADV
 encontrar,to find,找到,VERB
 entender,to understand,理解,VERB
-entendido,understood,明白的,ADJ
 entonces,then,那么,ADV
 entrar,to enter,进入,VERB
 entre,between,在...之间,ADP
@@ -197,35 +167,26 @@ estado,state,状态,NOUN
 estar,to be (location),在,VERB
 este,this,这个,DET
 esto,this (neutral),这个,PRON
-estúpido,stupid,愚蠢的,ADJ
 exactamente,exactly,确切地,ADV
 extraño,strange,奇怪的,ADJ
-falta,lack,缺乏,NOUN
 familia,family,家庭,NOUN
 feliz,happy,快乐的,ADJ
 fiesta,party,聚会,NOUN
-fin,end,结束,NOUN
-fondo,bottom,底部,NOUN
-forma,shape,形状,NOUN
 foto,photo,照片,NOUN
-frente,front,前面,NOUN
 frío,cold,冷的,ADJ
 fuego,fire,火,NOUN
 fuera,outside,外面,ADV
 fuerte,strong,强壮的,ADJ
-fuerza,strength,力量,NOUN
 futuro,future,未来,NOUN
 fácil,easy,容易的,ADJ
 ganar,to win,赢,VERB
 genial,great,极好的,ADJ
 gente,people,人们,NOUN
-gobierno,government,政府,NOUN
 gracias,thanks,谢谢,INTJ
 gracioso,funny,有趣的,ADJ
 gran,great,伟大的,ADJ
 grande,big,大的,ADJ
 grupo,group,组,NOUN
-guerra,war,战争,NOUN
 gusto,taste,味道,NOUN
 haber,there is,有,VERB
 habitación,room,房间,NOUN
@@ -234,21 +195,17 @@ hacer,to do,做,VERB
 hacia,towards,朝向,ADP
 hambre,hunger,饥饿,NOUN
 hasta,until,直到,ADP
-haz,beam,光束,NOUN
-hecho,fact,事实,NOUN
 hermana,sister,姐妹,NOUN
 hermano,brother,兄弟,NOUN
 hermoso,beautiful,美丽,ADJ
 hija,daughter,女儿,NOUN
 hijo,son,儿子,NOUN
 historia,story,历史,NOUN
-hogar,home,家,NOUN
 hola,hello,你好,INTJ
 hombre,man,男人,NOUN
 hora,hour,小时,NOUN
 hoy,today,今天,ADV
 humano,human,人类,ADJ
-idiota,idiot,白痴,NOUN
 igual,equal,相同,ADJ
 importante,important,重要,ADJ
 imposible,impossible,不可能,ADJ
@@ -258,7 +215,6 @@ información,information,信息,NOUN
 inteligente,intelligent,聪明,ADJ
 intento,attempt,尝试,NOUN
 interesante,interesting,有趣,ADJ
-investigación,investigation,调查,NOUN
 ir,to go,去,VERB
 izquierda,left,左,NOUN
 jamás,never,从不,ADV
@@ -266,7 +222,6 @@ jefe,boss,老板,NOUN
 joven,young,年轻的,ADJ
 juego,game,游戏,NOUN
 jugar,to play,玩,VERB
-juicio,trial,审判,NOUN
 junto,together,一起,ADV
 justo,fair,公平的,ADJ
 la,the,这,DET
@@ -288,7 +243,6 @@ llegar,to arrive,到达,VERB
 llevar,to carry,携带,VERB
 lo,it,它,PRON
 loco,crazy,疯狂的,ADJ
-locura,madness,疯狂,NOUN
 los,the,这,DET
 luego,later,后来,ADV
 luz,light,光,NOUN
@@ -297,20 +251,16 @@ madre,mother,母亲,NOUN
 mal,badly,坏地,ADV
 malo,bad,坏的,ADJ
 mamá,mom,妈妈,NOUN
-manera,way,方式,NOUN
 mano,hand,手,NOUN
 mantener,keep,保持,VERB
 mar,sea,海,NOUN
 marido,husband,丈夫,NOUN
-matrimonio,marriage,婚姻,NOUN
 mayor,older,年长的,ADJ
-mayoría,majority,大多数,NOUN
 mañana,tomorrow,明天,ADV
 medio,half,一半,ADJ
 mejor,better,更好,ADJ
 menos,less,更少,ADV
 mensaje,message,信息,NOUN
-mentir,lie,撒谎,VERB
 mes,month,月,NOUN
 mesa,table,桌子,NOUN
 mi,my,我的,DET
@@ -320,10 +270,7 @@ minuto,minute,分钟,NOUN
 mirar,look,看,VERB
 mismo,same,相同,ADJ
 mitad,half,一半,NOUN
-modo,way,方式,NOUN
 momento,moment,时刻,NOUN
-montón,lot,许多,NOUN
-morir,die,死,VERB
 muchacho,boy,男孩,NOUN
 mucho,much,许多,DET
 mujer,woman,女人,NOUN
@@ -335,10 +282,8 @@ nada,nothing,没有什么,PRON
 nadie,nobody,没有人,PRON
 necesario,necessary,必要的,ADJ
 necesitar,to need,需要,VERB
-negocio,business,生意,NOUN
 negro,black,黑色的,ADJ
 ni,nor,也不,CCONJ
-nivel,level,水平,NOUN
 niña,girl,女孩,NOUN
 niño,boy,男孩,NOUN
 noche,night,夜晚,NOUN
@@ -353,16 +298,11 @@ nunca,never,从不,ADV
 número,number,数字,NOUN
 o,or,或者,CCONJ
 ocho,eight,八,NUM
-odio,hate,仇恨,NOUN
 oficial,official,官方的,ADJ
 oficina,office,办公室,NOUN
-opinión,opinion,意见,NOUN
-oportunidad,opportunity,机会,NOUN
-orden,order,命令,NOUN
 oro,gold,金子,NOUN
 os,you,你们,PRON
 otro,other,另一个,ADJ
-oído,hearing,听力,NOUN
 oír,to hear,听,VERB
 padre,father,父亲,NOUN
 pagar,to pay,支付,VERB
@@ -372,30 +312,23 @@ papá,dad,爸爸,NOUN
 par,pair,一对,NOUN
 para,for,为了,ADP
 parar,to stop,停止,VERB
-parte,part,部分,NOUN
-pasa,raisin,葡萄干,NOUN
 pasado,past,过去,ADJ
 pasar,to happen,发生,VERB
 paso,step,步骤,NOUN
-paz,peace,和平,NOUN
 país,country,国家,NOUN
 pedir,to ask for,请求,VERB
-peligro,danger,危险,NOUN
 pelo,hair,头发,NOUN
-pena,pity,遗憾,NOUN
 pensar,to think,思考,VERB
 peor,worse,更糟,ADJ
 pequeño,small,小,ADJ
 perder,to lose,丢失,VERB
 perdón,sorry,对不起,NOUN
 perfecto,perfect,完美,ADJ
-permiso,permission,许可,NOUN
 pero,but,但是,CCONJ
 perro,dog,狗,NOUN
 persona,person,人,NOUN
 pie,foot,脚,NOUN
 piso,floor,楼层,NOUN
-placer,pleasure,快乐,NOUN
 planeta,planet,行星,NOUN
 plato,plate,盘子,NOUN
 pobre,poor,贫穷的,ADJ
@@ -405,14 +338,10 @@ poner,to put,放,VERB
 por,by,被,ADP
 porque,because,因为,SCONJ
 posible,possible,可能的,ADJ
-posición,position,位置,NOUN
 pregunta,question,问题,NOUN
 presidente,president,总统,NOUN
 primer,first,第一,ADJ
 primero,first,第一,ADJ
-principio,beginning,开始,NOUN
-prisa,hurry,匆忙,NOUN
-prisión,prison,监狱,NOUN
 probablemente,probably,可能,ADV
 problema,problem,问题,NOUN
 profesor,teacher,老师,NOUN
@@ -423,8 +352,6 @@ prueba,test,测试,NOUN
 pueblo,village,村庄,NOUN
 puerta,door,门,NOUN
 pues,well,那么,ADV
-puesto,position,职位,NOUN
-punto,point,点,NOUN
 público,public,公众的,ADJ
 que,that,那个,SCONJ
 querer,to want,想要,VERB
@@ -434,52 +361,35 @@ quizás,perhaps,也许,ADV
 quién,who,谁,PRON
 qué,what,什么,PRON
 raro,strange,奇怪的,ADJ
-rato,while,一会儿,NOUN
 razón,reason,理由,NOUN
-realidad,reality,现实,NOUN
 realmente,really,真正地,ADV
-recuerdo,memory,记忆,NOUN
 regalo,gift,礼物,NOUN
 regresar,to return,返回,VERB
-relación,relationship,关系,NOUN
-reputación,reputation,名声,NOUN
-respeto,respect,尊重,NOUN
 respuesta,answer,回答,NOUN
-resto,rest,其余,NOUN
-reunión,meeting,会议,NOUN
-rey,king,国王,NOUN
 ropa,clothes,衣服,NOUN
-ruta,route,路线,NOUN
 rápido,fast,快的,ADJ
 saber,to know,知道,VERB
 sacar,to take out,拿出,VERB
 sala,room,房间,NOUN
 salida,exit,出口,NOUN
 salir,to leave,离开,VERB
-salvar,to save,拯救,VERB
 se,self,自己,PRON
 seguir,to follow,跟随,VERB
 segundo,second,第二,NUM
-seguridad,security,安全,NOUN
 seguro,safe,安全的,ADJ
 seis,six,六,NUM
 semana,week,周,NOUN
-sentido,sense,意义,NOUN
 sentir,to feel,感觉,VERB
 ser,to be,是,VERB
 serio,serious,严肃的,ADJ
 servicio,service,服务,NOUN
-sexo,sex,性别,NOUN
-señal,sign,标志,NOUN
 señor,Mr.,先生,NOUN
 señora,Mrs.,夫人,NOUN
 si,if,如果,SCONJ
 siempre,always,总是,ADV
 siete,seven,七,NUM
 sin,without,没有,ADP
-sistema,system,系统,NOUN
 sitio,place,地方,NOUN
-situación,situation,情况,NOUN
 sobre,on,在...上面,ADP
 sol,sun,太阳,NOUN
 solo,alone,独自,ADV
@@ -498,25 +408,20 @@ tanto,so much,这么多,ADV
 tarde,late,晚,ADV
 te,you,你,PRON
 teléfono,phone,电话,NOUN
-tema,topic,主题,NOUN
 temprano,early,早,ADV
 tener,to have,有,VERB
 terminar,to finish,结束,VERB
 tiempo,time,时间,NOUN
 tienda,shop,商店,NOUN
 tierra,earth,地球,NOUN
-tipo,type,类型,NOUN
 todavía,still,仍然,ADV
 todo,all,所有,DET
 tomar,to take,拿,VERB
-tontería,nonsense,废话,NOUN
 tonto,silly,愚蠢的,ADJ
 totalmente,totally,完全地,ADV
 trabajar,to work,工作,VERB
 trabajo,work,工作,NOUN
 traje,suit,西装,NOUN
-trasero,rear,后面的,ADJ
-trato,deal,交易,NOUN
 tren,train,火车,NOUN
 tres,three,三,NUM
 triste,sad,悲伤的,ADJ
@@ -541,19 +446,15 @@ viaje,trip,旅行,NOUN
 vida,life,生活,NOUN
 viejo,old,老的,ADJ
 vino,wine,葡萄酒,NOUN
-vista,view,景色,NOUN
 vivir,to live,居住,VERB
 vivo,alive,活着的,ADJ
 volver,to return,返回,VERB
 vosotros,you (plural),你们,PRON
 voz,voice,声音,NOUN
-vuelta,return,回来,NOUN
 y,and,和,CCONJ
 ya,already,已经,ADV
 yo,I,我,PRON
-zona,zone,区域,NOUN
 él,he,他,PRON
-éxito,success,成功,NOUN
 último,last,最后的,ADJ
 único,unique,唯一的,ADJ
 bailar,to dance,跳舞,VERB
@@ -639,6 +540,23 @@ hotel,hotel,旅馆,NOUN
 museo,museum,博物馆,NOUN
 salón,living room,客厅,NOUN
 parada,stop,车站,NOUN
-vestir,to dress,穿衣,VERB
 duchar,to shower,淋浴,VERB
 acostar,to put to bed,安置就寝,VERB
+amarillo,yellow,黄色的,ADJ
+cincuenta,fifty,五十,NUM
+diciembre,December,十二月,NOUN
+español,Spanish,西班牙语,ADJ
+gris,grey,灰色,ADJ
+gustar,to like,喜欢,VERB
+julio,July,七月,NOUN
+junio,June,六月,NOUN
+mantenerse,to maintain oneself,保持,VERB
+marrón,brown,棕色,ADJ
+marzo,March,三月,NOUN
+mayo,May,五月,NOUN
+noviembre,November,十一月,NOUN
+once,eleven,十一,NUM
+quince,fifteen,十五,NUM
+tercero,third,第三,NUM
+treinta,thirty,三十,NUM
+veinte,twenty,二十,NUM
