@@ -380,6 +380,125 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 向来,always,向来,ADV
 和谐,harmonious,和谐,ADJ
 嘲笑,to mock,嘲笑,VERB
+抑郁,depression,抑郁,NOUN
+友情,friendship,友情,NOUN
+嫌弃,look down on,嫌弃,VERB
+头条,headline news,头条,NOUN
+热点,hot topic,热点,NOUN
+刷屏,flood a feed,刷屏,VERB
+博主,blogger,博主,NOUN
+屏蔽,block content,屏蔽,VERB
+真伪,authenticity,真伪,NOUN
+维和,peacekeeping,维和,NOUN
+执政,hold power,执政,VERB
+羁押,detain,羁押,VERB
+合资,joint venture,合资,NOUN
+通胀,inflation,通胀,NOUN
+囤积,hoard,囤积,VERB
+矿产,mineral,矿产,NOUN
+迁徙,migration,迁徙,NOUN
+网页,webpage,网页,NOUN
+扫码,scan a QR code,扫码,VERB
+全职,full-time,全职,ADJ
+升职,be promoted,升职,VERB
+下岗,be laid off,下岗,VERB
+甩卖,closeout sale,甩卖,NOUN
+首付,down payment,首付,NOUN
+装修,decoration,装修,NOUN
+物业费,property management fee,物业费,NOUN
+下单,place an order,下单,VERB
+售后,after-sales service,售后,NOUN
+过户,transfer ownership,过户,VERB
+歇业,close down business,歇业,VERB
+涨停,limit-up,涨停,NOUN
+底薪,base pay,底薪,NOUN
+公积金,housing fund,公积金,NOUN
+内卷,rat race,内卷,NOUN
+吃瓜,watch drama unfold,吃瓜,VERB
+考研,prepare for grad school exam,考研,VERB
+挂科,fail a course,挂科,VERB
+私立,private school,私立,ADJ
+板书,blackboard writing,板书,NOUN
+口译,interpreting,口译,NOUN
+语感,language intuition,语感,NOUN
+评语,comments on work,评语,NOUN
+报到,check in,报到,VERB
+监考,invigilate,监考,VERB
+才艺,talent,才艺,NOUN
+领悟,grasp,领悟,VERB
+逃学,play truant,逃学,VERB
+德育,moral education,德育,NOUN
+刻薄,sharp-tongued,刻薄,ADJ
+算计,scheme,算计,VERB
+沉稳,steady,沉稳,ADJ
+郑重,solemn,郑重,ADJ
+闹心,vexing,闹心,ADJ
+贴心,considerate,贴心,ADJ
+能耐,capability,能耐,NOUN
+高深,profound,高深,ADJ
+拗口,hard to pronounce,拗口,ADJ
+洋气,stylish,洋气,ADJ
+脸面,face,脸面,NOUN
+卖弄,show off,卖弄,VERB
+内敛,reserved,内敛,ADJ
+刻板,rigid,刻板,ADJ
+木讷,slow of speech,木讷,ADJ
+叛逆,rebellious,叛逆,ADJ
+继而,thereupon,继而,ADV
+一味,stubbornly,一味,ADV
+权且,as a temporary measure,权且,ADV
+足足,a full,足足,ADV
+暗暗,secretly in the heart,暗暗,ADV
+素来,always,素来,ADV
+照旧,as before,照旧,ADV
+俨然,just like,俨然,ADV
+未免,rather too,未免,ADV
+而已,nothing more,而已,PART
+世人,the world's people,世人,NOUN
+敢于,dare to,敢于,VERB
+岂止,far more than,岂止,ADV
+家境,family financial situation,家境,NOUN
+姻亲,relatives by marriage,姻亲,NOUN
+相亲,blind date,相亲,NOUN
+育儿,child rearing,育儿,NOUN
+户口,household registration,户口,NOUN
+祖籍,ancestral home,祖籍,NOUN
+民风,folkways,民风,NOUN
+摆摊,set up a stall,摆摊,VERB
+厨艺,cooking skill,厨艺,NOUN
+宵夜,late-night meal,宵夜,NOUN
+古玩,antiques,古玩,NOUN
+刷脸,pay by face,刷脸,VERB
+清仓,clear stock,清仓,VERB
+问诊,consultation,问诊,VERB
+推拿,massage therapy,推拿,NOUN
+煎药,decoct medicine,煎药,VERB
+止痛,relieve pain,止痛,VERB
+晕机,airsickness,晕机,VERB
+牙科,dentistry,牙科,NOUN
+脊椎,spine,脊椎,NOUN
+痊愈,fully recover,痊愈,VERB
+梦话,sleep talk,梦话,NOUN
+大片,blockbuster,大片,NOUN
+原著,original work,原著,NOUN
+杀青,wrap shooting,杀青,VERB
+综艺,variety show,综艺,NOUN
+代言,endorsement,代言,NOUN
+谢幕,take a final bow,谢幕,VERB
+独唱,solo,独唱,VERB
+歌坛,music world,歌坛,NOUN
+编曲,arrangement,编曲,NOUN
+黄牛,scalper,黄牛,NOUN
+过气,has-been,过气,ADJ
+风评,general reputation,风评,NOUN
+涨粉,gain followers,涨粉,VERB
+硬伤,fatal flaw,硬伤,NOUN
+痛处,sore spot,痛处,NOUN
+心结,emotional knot,心结,NOUN
+窝囊,feeble,窝囊,ADJ
+受挫,be frustrated,受挫,VERB
+砍价,bargain,砍价,VERB
+高价,high price,高价,NOUN
 回报,return,回报,VERB
 团圆,reunite,团圆,VERB
 困惑,confused,困惑,ADJ
@@ -761,6 +880,125 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 冒犯,to offend,冒犯,VERB
 军官,officer,军官,NOUN
 冰雹,hail,冰雹,NOUN
+责怪,blame,责怪,VERB
+长辈,elders,长辈,NOUN
+孝敬,show filial respect,孝敬,VERB
+传闻,hearsay,传闻,NOUN
+辟谣,refute a rumor,辟谣,VERB
+转发,forward,转发,VERB
+主播,streamer,主播,NOUN
+拉黑,blacklist someone,拉黑,VERB
+罪名,criminal charge,罪名,NOUN
+派系,faction,派系,NOUN
+在野,out of office,在野,ADJ
+证券,securities,证券,NOUN
+个体户,self-employed person,个体户,NOUN
+景气,economic climate,景气,NOUN
+抛售,dump holdings,抛售,VERB
+植被,vegetation cover,植被,NOUN
+耗能,energy consumption,耗能,NOUN
+网购,online shopping,网购,NOUN
+智能,smart,智能,ADJ
+录用,hire after screening,录用,VERB
+从业,practice a trade,从业,VERB
+返聘,rehire the retired,返聘,VERB
+月供,monthly payment,月供,NOUN
+产权,property rights,产权,NOUN
+家电,home appliances,家电,NOUN
+燃气,household gas,燃气,NOUN
+差评,negative review,差评,NOUN
+保修,repair under warranty,保修,VERB
+出纳,cashier,出纳,NOUN
+股民,stock investor,股民,NOUN
+跌停,limit-down,跌停,NOUN
+加班费,overtime pay,加班费,NOUN
+工伤,work-related injury,工伤,NOUN
+摆烂,slack off,摆烂,VERB
+打卡,punch in,打卡,VERB
+保研,gain direct grad admission,保研,VERB
+补考,retake an exam,补考,VERB
+公立,public school,公立,ADJ
+听写,dictation,听写,NOUN
+笔译,written translation,笔译,NOUN
+笔迹,handwriting,笔迹,NOUN
+讲义,handout,讲义,NOUN
+开题,approve a thesis topic,开题,VERB
+满分,full marks,满分,NOUN
+潜能,potential,潜能,NOUN
+听课,attend a lecture,听课,VERB
+辍学,drop out of school,辍学,VERB
+美育,aesthetic education,美育,NOUN
+苛刻,exacting,苛刻,ADJ
+圆滑,slick,圆滑,ADJ
+毛躁,impetuous,毛躁,ADJ
+敷衍,perfunctory,敷衍,ADJ
+烦心,vexed,烦心,ADJ
+窝心,warmly gratified,窝心,ADJ
+绝活,special skill,绝活,NOUN
+浅显,simple and clear,浅显,ADJ
+文雅,elegant,文雅,ADJ
+大气,elegant and poised,大气,ADJ
+情面,feelings of esteem,情面,NOUN
+低调,low-key,低调,ADJ
+爽朗,hearty,爽朗,ADJ
+死板,inflexible,死板,ADJ
+乖巧,clever and cute,乖巧,ADJ
+倔强,obstinate,倔强,ADJ
+多半,most of the time,多半,ADV
+索性,simply,索性,ADV
+起码,at the least,起码,ADV
+近乎,almost,近乎,ADV
+暗中,secretly,暗中,ADV
+亲耳,with one's own ears,亲耳,ADV
+白白,for nothing,白白,ADV
+无须,need not,无须,ADV
+何妨,why not,何妨,ADV
+若干,some,若干,DET
+众人,many people,众人,NOUN
+乐于,be willing to,乐于,VERB
+岂不,isn't it that,岂不,ADV
+家产,family property,家产,NOUN
+婆媳,her and daughter-in-law,婆媳,NOUN
+闪婚,flash marriage,闪婚,VERB
+亲子,parent and child,亲子,NOUN
+户籍,household registry,户籍,NOUN
+宗族,clan,宗族,NOUN
+节庆,festival,节庆,NOUN
+风味,local flavor,风味,NOUN
+拼桌,share a table,拼桌,VERB
+夜市,night market,夜市,NOUN
+赝品,forgery,赝品,NOUN
+囤货,stockpile goods,囤货,VERB
+尾货,leftover stock,尾货,NOUN
+医师,doctor,医师,NOUN
+刮痧,guasha scraping,刮痧,NOUN
+药性,medicinal property,药性,NOUN
+镇痛,relieve severe pain,镇痛,VERB
+晕船,seasickness,晕船,VERB
+外科,surgery department,外科,NOUN
+体质,constitution,体质,NOUN
+调养,recuperate,调养,VERB
+票房,box office,票房,NOUN
+演技,acting skill,演技,NOUN
+改编,adaptation,改编,VERB
+档期,schedule slot,档期,NOUN
+选秀,talent show,选秀,NOUN
+应援,fan support,应援,VERB
+返场,encore,返场,NOUN
+伴奏,accompany musically,伴奏,NOUN
+打榜,chart promotion,打榜,VERB
+走音,go off-key,走音,VERB
+抢票,snatch tickets,抢票,VERB
+爆红,go viral,爆红,VERB
+人设,public persona,人设,NOUN
+底蕴,deep foundation,底蕴,NOUN
+软肋,weak spot,软肋,NOUN
+苦衷,hidden difficulties,苦衷,NOUN
+芥蒂,grudge,芥蒂,NOUN
+憋屈,feel wronged,憋屈,ADJ
+挨批,get criticized,挨批,VERB
+还价,counteroffer,还价,VERB
+天价,sky-high price,天价,NOUN
 冲击,to shock,冲击,VERB
 冷却,to cool down,冷却,VERB
 凌晨,early morning,凌晨,NOUN
@@ -1142,6 +1380,125 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 体系,system,体系,NOUN
 作废,to become invalid,作废,VERB
 佳肴,delicacy,佳肴,NOUN
+求婚,propose marriage,求婚,VERB
+晚辈,younger generation,晚辈,NOUN
+顽强,tenacious,顽强,ADJ
+绯闻,romantic scandal,绯闻,NOUN
+歪曲,distort,歪曲,VERB
+弹幕,bullet comment,弹幕,NOUN
+追星,chase celebrities,追星,VERB
+圈粉,gain fans,圈粉,VERB
+议会,parliament,议会,NOUN
+篡权,usurp power,篡权,VERB
+罢免,recall from office,罢免,VERB
+信贷,credit,信贷,NOUN
+跳槽,change jobs,跳槽,VERB
+滞销,slow-selling,滞销,ADJ
+生态,ecology,生态,NOUN
+涵养,conserve an ecosystem,涵养,VERB
+臭氧,ozone,臭氧,NOUN
+电商,e-commerce,电商,NOUN
+卡顿,lag,卡顿,NOUN
+试用期,trail period on the job,试用期,NOUN
+执业,hold a license,执业,VERB
+毁约,break a contract,毁约,VERB
+房贷,home loan,房贷,NOUN
+物业,property management,物业,NOUN
+电费,electricity bill,电费,NOUN
+外卖,food delivery,外卖,NOUN
+好评,positive review,好评,NOUN
+插队,jump the queue,插队,VERB
+网点,outlet,网点,NOUN
+牛市,bull market,牛市,NOUN
+理财,manage money,理财,VERB
+社保,social security,社保,NOUN
+年终,year end,年终,NOUN
+躺平,coast along,躺平,VERB
+结业,finish a course,结业,VERB
+学分,credit,学分,NOUN
+重修,retake a course,重修,VERB
+师资,teaching staff,师资,NOUN
+默写,write from memory,默写,VERB
+造句,make a sentence,造句,VERB
+字迹,handwriting,字迹,NOUN
+学区,school district,学区,NOUN
+开卷,open-book,开卷,ADJ
+竞赛,competition,竞赛,NOUN
+智商,IQ,智商,NOUN
+旁听,audit a class,旁听,VERB
+校服,school uniform,校服,NOUN
+智育,intellectual education,智育,NOUN
+大度,magnanimous,大度,ADJ
+世故,worldly-wise,世故,ADJ
+稳重,poised,稳重,ADJ
+严谨,rigorous,严谨,ADJ
+扎心,heart-piercing,扎心,ADJ
+堵心,distressing,堵心,ADJ
+独到,original,独到,ADJ
+通俗,popular and plain,通俗,ADJ
+俗气,tacky,俗气,ADJ
+排场,ostentation,排场,NOUN
+攀比,keep up with the others,攀比,VERB
+张扬,flamboyant,张扬,ADJ
+诙谐,humorous,诙谐,ADJ
+机灵,clever,机灵,ADJ
+懂事,sensible,懂事,ADJ
+相继,succcessively,相继,ADV
+大都,for the most part,大都,ADV
+正巧,just then,正巧,ADV
+顶多,at the very most,顶多,ADV
+隐隐,faintly,隐隐,ADV
+私下,privately,私下,ADV
+尽兴,as much as one likes,尽兴,ADV
+徒然,in vain,徒然,ADV
+难以,difficult to,难以,ADV
+省得,so as to avoid,省得,SCONJ
+诸位,ladies and gentlemen,诸位,PRON
+加以,handle by means of,加以,AUX
+难说,hard to say,难说,VERB
+唯有,only,唯有,ADV
+遗嘱,last will,遗嘱,NOUN
+妯娌,sisters-in-law,妯娌,NOUN
+裸婚,bare-hands marriage,裸婚,VERB
+胎教,prenatal education,胎教,NOUN
+籍贯,place of ancestral origin,籍贯,NOUN
+祠堂,ancestral hall,祠堂,NOUN
+庙会,temple fair,庙会,NOUN
+菜谱,recipe,菜谱,NOUN
+堂食,eat in,堂食,NOUN
+杂货,odds and ends,杂货,NOUN
+次品,defective product,次品,NOUN
+断货,sell out,断货,NOUN
+复查,re-examination,复查,VERB
+主刀,operate as chief surgeon,主刀,VERB
+偏方,folk remedy,偏方,NOUN
+药量,dosage,药量,NOUN
+消炎,reduce inflammation,消炎,VERB
+耳鸣,ringing ears,耳鸣,NOUN
+儿科,pediatrics,儿科,NOUN
+体格,physique,体格,NOUN
+静养,rest and recuperate,静养,VERB
+剧透,spoiler,剧透,NOUN
+替身,stunt double,替身,NOUN
+续集,sequel,续集,NOUN
+排片,screening schedule,排片,NOUN
+出道,debut,出道,VERB
+打赏,tip online,打赏,VERB
+巡演,touring performance,巡演,NOUN
+主唱,lead vocalist,主唱,NOUN
+填词,write lyrics,填词,VERB
+道具,stage prop,道具,NOUN
+退票,refund a ticket,退票,VERB
+走红,become popular,走红,VERB
+塌房,fall from grace,塌房,VERB
+底子,background,底子,NOUN
+短板,weakness,短板,NOUN
+难处,difficulty,难处,NOUN
+疙瘩,grudge,疙瘩,NOUN
+冤屈,being wronged,冤屈,NOUN
+挨骂,get scolded,挨骂,VERB
+划算,cost-effective,划算,ADJ
+回本,recoup capital,回本,VERB
 供不应求,supply does not meet demand,供不应求,ADJ
 供给,to supply,供给,VERB
 依托,to rely on,依托,VERB
@@ -1523,3 +1880,122 @@ Chinese_Lemma,English_Lemma,Chinese_Lemma,POS
 蹊跷,strange,蹊跷,ADJ
 做派,behavior,做派,NOUN
 难不成,could it be,难不成,ADV
+亲情,family affection,亲情,NOUN
+赡养,support aged parents,赡养,VERB
+舆论,public opinion,舆论,NOUN
+炒作,hype,炒作,NOUN
+潮流,trend,潮流,NOUN
+热搜,trending search,热搜,NOUN
+爆款,bestseller,爆款,NOUN
+口碑,reputation,口碑,NOUN
+领土,territory,领土,NOUN
+弹劾,impeach,弹劾,VERB
+传唤,summon,传唤,VERB
+收购,acquire,收购,VERB
+绩效,performance,绩效,NOUN
+畅销,bestselling,畅销,ADJ
+水电,hydro power,水电,NOUN
+酸雨,acid rain,酸雨,NOUN
+账号,account,账号,NOUN
+物流,logistics,物流,NOUN
+操作,operation,操作,NOUN
+转正,become a permanent employee,转正,VERB
+待业,await employment,待业,VERB
+促销,sales promotion,促销,NOUN
+车贷,car loan,车贷,NOUN
+业主,property owner,业主,NOUN
+水费,water bill,水费,NOUN
+配送,delivery service,配送,NOUN
+客服,customer service,客服,NOUN
+受理,accept and handle,受理,VERB
+停业,suspend business,停业,VERB
+熊市,bear market,熊市,NOUN
+月薪,monthly salary,月薪,NOUN
+医保,medical insurance,医保,NOUN
+竞聘,compete for a post,竞聘,VERB
+佛系,zen about everything,佛系,ADJ
+肄业,leave school unfinished,肄业,VERB
+绩点,grade point average,绩点,NOUN
+家教,tutoring,家教,NOUN
+课件,lecture slides,课件,NOUN
+跟读,repeat after audio,跟读,VERB
+搭配,collocation,搭配,NOUN
+批改,correct homework,批改,VERB
+择校,choose a school,择校,VERB
+闭卷,closed-book,闭卷,ADJ
+奥数,olympiad math,奥数,NOUN
+情商,EQ,情商,NOUN
+旷课,skip class,旷课,VERB
+学籍,student status,学籍,NOUN
+随和,easygoing,随和,ADJ
+计较,quibble over,计较,VERB
+老练,seasoned,老练,ADJ
+草率,slapdash,草率,ADJ
+将就,make do,将就,VERB
+暖心,heartwarming,暖心,ADJ
+折腾,toss about,折腾,VERB
+高明,brilliant,高明,ADJ
+晦涩,obscure,晦涩,ADJ
+土气,unfashionable,土气,ADJ
+面子,face,面子,NOUN
+显摆,show off,显摆,VERB
+高调,high-profile,高调,ADJ
+古板,old-fashioned,古板,ADJ
+迟钝,dull-witted,迟钝,ADJ
+淘气,naughty,淘气,ADJ
+顿时,at once,顿时,ADV
+齐声,in unison,齐声,ADV
+暂且,for now,暂且,ADV
+至多,at the most,至多,ADV
+隐约,indistinct,隐约,ADJ
+径直,straight,径直,ADV
+照样,just as before,照样,ADV
+截然,utterly,截然,ADV
+难免,hard to avoid,难免,ADV
+乃至,even,乃至,CCONJ
+自身,oneself,自身,PRON
+得以,be able to,得以,AUX
+何苦,why bother,何苦,ADV
+辈分,generation seniority,辈分,NOUN
+亲缘,kinship,亲缘,NOUN
+彩礼,betrothal gift,彩礼,NOUN
+丁克,childfree,丁克,NOUN
+家风,family tradition,家风,NOUN
+乡愁,nostalgia,乡愁,NOUN
+乡音,hometown accent,乡音,NOUN
+赶集,go to market,赶集,VERB
+下厨,cook at home,下厨,VERB
+夜宵,late-night snack,夜宵,NOUN
+旧货,second-hand goods,旧货,NOUN
+刷卡,swipe a card,刷卡,VERB
+缺货,shortage,缺货,NOUN
+复诊,return visit,复诊,VERB
+理疗,physiotherapy,理疗,NOUN
+抓药,fill a prescription,抓药,VERB
+退烧,bring down a fever,退烧,VERB
+杀菌,sterilize,杀菌,VERB
+老花,presbyopia,老花,NOUN
+产科,obstetrics,产科,NOUN
+急性,acute,急性,ADJ
+补品,tonic,补品,NOUN
+烂片,bad movie,烂片,NOUN
+特技,stunt,特技,NOUN
+翻拍,reshoot,翻拍,VERB
+影评,film review,影评,NOUN
+复出,comeback,复出,VERB
+彩排,rehearsal,彩排,NOUN
+合唱,chorus,合唱,VERB
+乐坛,music scene,乐坛,NOUN
+作曲,compose music,作曲,VERB
+场次,showing time,场次,NOUN
+好戏,good show,好戏,NOUN
+黑粉,anti-fan,黑粉,NOUN
+掉粉,lose followers,掉粉,VERB
+命脉,lifeblood,命脉,NOUN
+短处,shortcoming,短处,NOUN
+隐衷,hidden sorrow,隐衷,NOUN
+窝火,be inwardly furious,窝火,ADJ
+受气,get picked on,受气,VERB
+挨宰,be ripped off,挨宰,VERB
+平价,economy price,平价,ADJ
+本钱,capital,本钱,NOUN
