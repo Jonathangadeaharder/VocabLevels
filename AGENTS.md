@@ -10,6 +10,10 @@ uv run pyright
 uv run python -m pytest
 ```
 
+Local pytest runs need a clean `PYTHONPATH`: `tests/conftest.py` fails fast
+listing foreign entries. If an interactive shell pollutes it, run
+`env -u PYTHONPATH uv run python -m pytest`. CI pins a clean env.
+
 ## PR Instructions
 
 - Branch: feature/*, fix/*, chore/*
