@@ -410,6 +410,95 @@ Tipp,tip,提示,NOUN
 Torte,cake,蛋糕,NOUN
 trainieren,to train,训练,VERB
 trennen,separate,分开,VERB
+Gewissensfreiheit,freedom of conscience,良心自由,NOUN
+Abschlusszeugnis,leaving certificate,毕业证书,NOUN
+Altersdiskriminierung,age discrimination,年龄歧视,NOUN
+Anpassungsdruck,pressure to adapt,适应压力,NOUN
+Arbeitserlaubnis,work permit,工作许可,NOUN
+Artensterben,species extinction,物种灭绝,NOUN
+Aufenthaltserlaubnis,residence permit,居留许可,NOUN
+Ausdauertraining,endurance training,耐力训练,NOUN
+Aussichtslosigkeit,hopelessness,毫无希望,NOUN
+Beschwerdebrief,letter of complaint,投诉信,NOUN
+Bevorzugung,preferential treatment,优待,NOUN
+Bildungsabschluss,educational qualification,教育学历,NOUN
+Bindungsangst,fear of commitment,害怕亲密关系,NOUN
+Bruttolohn,gross wage,税前工资,NOUN
+Bürgerinitiative,citizens initiative,公民倡议,NOUN
+Datensicherheit,data security,数据安全,NOUN
+Einbuße,loss; setback,损失,NOUN
+Einwanderungsland,immigration country,移民输入国,NOUN
+Erfahrungsbericht,experience report,经验报告,NOUN
+Fachsprache,specialist language,专业术语,NOUN
+Fernbeziehung,long-distance relationship,异地恋,NOUN
+Förderprogramm,funding program,资助计划,NOUN
+Gefängniszelle,prison cell,牢房,NOUN
+Genussmittel,pleasure food; stimulant,嗜好品,NOUN
+Gesellschaftsordnung,social order,社会秩序,NOUN
+Gewaltenteilung,separation of powers,三权分立,NOUN
+Halbwissen,half-knowledge,一知半解,NOUN
+Hilfsaktion,relief action,救助行动,NOUN
+Inflationsrate,inflation rate,通货膨胀率,NOUN
+Jahresbilanz,annual balance sheet,年度结算,NOUN
+Klimaforscher,climate researcher,气候研究员,NOUN
+Kohlekraftwerk,coal-fired power plant,燃煤发电厂,NOUN
+Krankenhausaufenthalt,hospital stay,住院,NOUN
+Leidensweg,ordeal; path of suffering,苦难历程,NOUN
+Lernfortschritt,learning progress,学习进步,NOUN
+Lärmschutz,noise protection,噪音防护,NOUN
+Mediennutzung,media use,媒体使用,NOUN
+Minijob,mini job,迷你工作,NOUN
+Missmut,sullenness,闷闷不乐,NOUN
+Muskelaufbau,muscle building,肌肉增长,NOUN
+Nachruf,obituary; tribute,讣告,NOUN
+Nutzerprofil,user profile,用户资料,NOUN
+Personalmangel,staff shortage,人手短缺,NOUN
+Pflichtgefühl,sense of duty,责任感,NOUN
+Prüfungsangst,exam anxiety,考试焦虑,NOUN
+Regierungspartei,governing party,执政党,NOUN
+Schattenwirtschaft,shadow economy,影子经济,NOUN
+abdanken,abdicate; step down,退位,VERB
+anpreisen,promote; praise,推销吹捧,VERB
+aufwärmen,warm up,加热重温,VERB
+ausladen,uninvite; unload,取消邀请,VERB
+ausweiten,extend; widen,扩大,VERB
+beschwichtigen,placate,安抚,VERB
+einstufen,classify; rate,归类评级,VERB
+erstarken,gain strength,变得强大,VERB
+herbeisehnen,long for,渴望期盼,VERB
+kippen,topple; tip over,倾翻翻倒,VERB
+mithelfen,lend a hand,协助帮忙,VERB
+nachempfinden,recreate empathetically,感同身受,VERB
+niederreißen,tear down,拆除推倒,VERB
+umbiegen,bend out of shape,掰弯扭曲,VERB
+umschwenken,change tack,改变方向,VERB
+verinnerlichen,internalize,内化牢记,VERB
+verwahrlosen,fall into neglect,失修荒废,VERB
+vorverurteilen,prejudge,预先定罪,VERB
+motiviert,motivated,有动力的,ADJ
+achtsam,mindful; careful,细心谨慎的,ADJ
+bedrückt,dejected,心情沉重的,ADJ
+betriebsblind,blind to internal flaws,对自身问题盲目的,ADJ
+einfühlsam,empathetic,富有同理心的,ADJ
+gehaltvoll,rich in content,内容丰富的,ADJ
+krisensicher,crisis-proof,抗危机的,ADJ
+meisterhaft,masterful,技艺精湛的,ADJ
+nervtötend,maddening,烦死人的,ADJ
+unabwendbar,unavoidable,不可避免的,ADJ
+unerschrocken,fearless,无所畏惧的,ADJ
+unzertrennlich,inseparable,不可分离的,ADJ
+verspielt,playful,爱玩调皮的,ADJ
+wagemutig,daring,勇敢无畏的,ADJ
+geradezu,positively; downright,简直是,ADV
+auffälligerweise,noticeably,引人注目地,ADV
+dermaßen,to such an extent,如此程度地,ADV
+folgerichtig,consequent; logical,顺理成章地,ADV
+gezwungenermaßen,perforce; reluctantly,不得已地,ADV
+hierdurch,hereby; through this,由此,ADV
+kampflos,without resistance,未加抵抗地,ADV
+namentlich,namely; specifically,具体来说,ADV
+probeweise,on a trial basis,以试用方式,ADV
+schleunigst,as quickly as possible,尽快火速,ADV
 treu,faithful,忠诚的,ADJ
 Trinkgeld,tip,小费,NOUN
 trocken,dry,干的,ADJ
@@ -821,6 +910,95 @@ heften,to pin,别住,VERB
 heftig,intense,强烈的,ADJ
 heimlich,secret,秘密的,ADJ
 Heirat,marriage,婚姻,NOUN
+Abfalltrennung,waste separation,垃圾分类,NOUN
+Akkulaufzeit,battery life,电池续航时间,NOUN
+Altersgrenze,age limit,年龄上限,NOUN
+Anstellungsvertrag,employment contract,聘用合同,NOUN
+Arbeitsklima,working atmosphere,工作氛围,NOUN
+Asylverfahren,asylum procedure,庇护程序,NOUN
+Aufenthaltsstatus,residence status,居留身份,NOUN
+Aushändigung,handover; issuance,交付,NOUN
+Baugenehmigung,building permit,建筑许可,NOUN
+Beschwernis,hardship,困苦,NOUN
+Bewegungsmangel,lack of exercise,缺乏运动,NOUN
+Bildungsferne,lack of education,教育匮乏,NOUN
+Blutgerinnsel,blood clot,血栓,NOUN
+Budgetkürzung,budget cut,预算削减,NOUN
+Chefetage,executive floor,管理层,NOUN
+Dürreperiode,period of drought,干旱期,NOUN
+Einflussbereich,sphere of influence,影响范围,NOUN
+Energiesparlampe,energy-saving lamp,节能灯,NOUN
+Ernährungsgewohnheit,eating habit,饮食习惯,NOUN
+Fahrverbot,driving ban,禁行令,NOUN
+Fernstudium,distance learning,远程学习,NOUN
+Führungsposition,leadership position,领导职位,NOUN
+Gehaltsverhandlung,salary negotiation,薪资谈判,NOUN
+Gerichtsverfahren,court proceedings,法院诉讼,NOUN
+Gesellschaftsvertrag,social contract,社会契约,NOUN
+Gletscherschmelze,glacier melt,冰川融化,NOUN
+Harmlosigkeit,harmlessness,无害性,NOUN
+Hochwasserschutz,flood protection,防洪设施,NOUN
+Innerlichkeit,inner life; inwardness,内心世界,NOUN
+Jugendherberge,youth hostel,青年旅舍,NOUN
+Klimaschutz,climate protection,气候保护,NOUN
+Kontrollmechanismus,control mechanism,控制机制,NOUN
+Kriminalstatistik,crime statistics,犯罪统计,NOUN
+Leiharbeit,temporary agency work,劳务派遣,NOUN
+Leserschaft,readership,读者群体,NOUN
+Machtwechsel,change of power,权力更迭,NOUN
+Meeresboden,seafloor,海底,NOUN
+Missbrauchsopfer,victim of abuse,受虐受害者,NOUN
+Mitgliedsbeitrag,membership fee,会费,NOUN
+Nachbarschaftshilfe,neighborly help,邻里互助,NOUN
+Nachzahlung,back payment,补付款,NOUN
+Nutznießer,beneficiary,受益者,NOUN
+Pfandflasche,deposit bottle,押金瓶,NOUN
+Politikverdrossenheit,disillusionment with politics,政治冷漠,NOUN
+Publikumsliebling,crowd favorite,观众宠儿,NOUN
+Rettungsdienst,emergency rescue service,急救服务,NOUN
+Schienennetz,rail network,铁路网,NOUN
+abhaken,tick off,勾掉,VERB
+anschwellen,swell,膨胀,VERB
+ausbooten,sideline; oust,排挤出局,VERB
+ausloten,sound out; gauge,探明揣摩,VERB
+beispringen,stand in for,临时代替,VERB
+bestaunen,gaze in amazement,惊叹凝视,VERB
+einüben,drill; rehearse,练习排练,VERB
+erstreben,strive for,力求争取,VERB
+herstammen,originate from,源自出身,VERB
+mitentscheiden,co-decide,共同决定,VERB
+mitwirken,take part; collaborate,参与合作,VERB
+nachklingen,resonate after,余音回荡,VERB
+straffen,streamline; tighten,精简收紧,VERB
+umdenken,change one's thinking,转变思维,VERB
+umstimmen,win over; change mind,争取改变,VERB
+verkrampfen,cramp up; stiffen,紧绷僵住,VERB
+verzagen,lose heart,气馁退缩,VERB
+weiterverarbeiten,process further,继续加工,VERB
+erleichtert,relieved,如释重负的,ADJ
+atemberaubend,breathtaking,令人屏息的,ADJ
+beharrlich,persistent,坚持不懈的,ADJ
+bewandert,well-versed,熟练精通的,ADJ
+energiesparend,energy-saving,节省能源的,ADJ
+ideenreich,inventive,富有创意的,ADJ
+labil,unstable,不稳定脆弱的,ADJ
+mutlos,discouraged,灰心丧气的,ADJ
+selbstgefällig,self-complacent,自满自负的,ADJ
+unachtsam,careless; inattentive,粗心大意的,ADJ
+unfair,unfair,不公平的,ADJ
+verantwortungsbewusst,responsible; conscientious,有责任心的,ADJ
+verstörend,disturbing,令人不安的,ADJ
+wankelmütig,fickle,摇摆善变的,ADJ
+insoweit,insofar,就此而言,ADV
+behelfsweise,as a makeshift,权宜临时地,ADV
+desgleichen,likewise,同样地,ADV
+derweil,meanwhile,与此同时,ADV
+gleichwohl,nevertheless,尽管如此,ADV
+hiervon,of these; hereof,其中,ADV
+massenweise,en masse,大量地,ADV
+neuerdings,newly; recently,新近,ADV
+prompt,promptly; instantly,立即马上,ADV
+schrittweise,step by step,逐步地,ADV
 herrlich,glorious,壮丽的,ADJ
 hervorheben,to emphasize,强调,VERB
 hervorragend,outstanding,杰出的,ADJ
@@ -1231,6 +1409,96 @@ bedrohen,to threaten,威胁,VERB
 bedrohlich,threatening,威胁的,ADJ
 Bedrohung,threat,威胁,NOUN
 Bedürfnis,need,需求,NOUN
+Umweltverschmutzung,environmental pollution,环境污染,NOUN
+Abgabetermin,submission deadline,提交期限,NOUN
+Alleinerziehende,single parent,单亲家长,NOUN
+Altersunterschied,age difference,年龄差异,NOUN
+Anwaltskanzlei,law firm,律师事务所,NOUN
+Arbeitsvertrag,employment contract,劳动合同,NOUN
+Atomausstieg,nuclear phase-out,退出核能,NOUN
+Aufmerksamkeitsstörung,attention deficit disorder,注意力障碍,NOUN
+Auslandssemester,semester abroad,海外学期,NOUN
+Baulärm,construction noise,施工噪音,NOUN
+Betreuungsplatz,childcare spot,托育名额,NOUN
+Bewerbungsfrist,application deadline,申请期限,NOUN
+Bildungsgerechtigkeit,educational equity,教育公平,NOUN
+Blutspendedienst,blood donation service,献血服务机构,NOUN
+Bühnenautor,stage playwright,舞台剧作家,NOUN
+Datenmissbrauch,data misuse,数据滥用,NOUN
+Ehrenmord,honor killing,名誉杀人,NOUN
+Einflussnahme,exertion of influence,施加影响,NOUN
+Energiewende,energy transition,能源转型,NOUN
+Erziehungsideal,educational ideal,教育理念,NOUN
+Fehlernährung,malnutrition,营养不良,NOUN
+Forenbeitrag,forum post,论坛帖子,NOUN
+Geborgenheit,feeling of security,安全感,NOUN
+Geltungsbedürfnis,need for recognition,求认可欲,NOUN
+Geschäftsjahr,fiscal year,财年,NOUN
+Gesundheitsreform,healthcare reform,医疗改革,NOUN
+Hackergruppe,hacker group,黑客组织,NOUN
+Herkunftsland,country of origin,原籍国,NOUN
+Hörschwäche,hearing impairment,听力障碍,NOUN
+Interessenkonflikt,conflict of interest,利益冲突,NOUN
+Kalorienverbrauch,calorie consumption,卡路里消耗,NOUN
+Klimawissenschaft,climate science,气候科学,NOUN
+Kontrollverlust,loss of control,失去控制,NOUN
+Kündigungsschutz,protection against dismissal,解雇保护,NOUN
+Leistungsdruck,performance pressure,成绩压力,NOUN
+Loyalitätskonflikt,loyalty conflict,忠诚冲突,NOUN
+Marktlücke,market gap,市场空白,NOUN
+Merkfähigkeit,memorization ability,记忆能力,NOUN
+Missernte,poor harvest,歉收,NOUN
+Moralvorstellung,moral concept,道德观念,NOUN
+Nachhilfeunterricht,tutoring lessons,课外辅导,NOUN
+Nebenkostenabrechnung,utility cost statement,附加费结算单,NOUN
+Oppositionspartei,opposition party,反对党,NOUN
+Pflegepersonal,nursing staff,护理人员,NOUN
+Praktikumsplatz,internship spot,实习岗位,NOUN
+Putzfrau,cleaning lady,清洁女工,NOUN
+Sachverstand,expertise,专业知识,NOUN
+beeinträchtigen,to impair,损害,VERB
+abwracken,scrap a vessel,报废拆解,VERB
+anschwärzen,slander,诽谤,VERB
+ausdünnen,thin out,稀释,VERB
+ausmisten,clear out,彻底清理,VERB
+belustigen,amuse,逗乐,VERB
+durchleuchten,scrutinize thoroughly,彻底审查,VERB
+empören,outrage,激怒义愤,VERB
+erörtern,discuss; deliberate,讨论商议,VERB
+inszenieren,staged production of,策划上演,VERB
+mitfinanzieren,co-finance,共同出资,VERB
+mitzählen,count as part,一并计入,VERB
+nachsitzen,sit in as punishment,留堂补课,VERB
+trampeln,stomp,踩踏,VERB
+umkreisen,circle around,环绕围绕,VERB
+umstrukturieren,restructure,重组改造,VERB
+verkümmern,wither away,萎缩衰败,VERB
+dämmen,dam up; embank,筑坝拦挡,VERB
+wirksam,effective,有效的,ADJ
+überfordert,overwhelmed,不堪重负的,ADJ
+atemlos,breathless,气喘吁吁的,ADJ
+bemitleidenswert,pitiable,令人怜悯的,ADJ
+differenziert,differentiated; nuanced,细致入微的,ADJ
+gefühlsduselig,sentimental,多愁善感的,ADJ
+immerwährend,everlasting,永恒持续的,ADJ
+leichtsinnig,reckless,轻率鲁莽的,ADJ
+mühselig,laborious,费劲辛苦的,ADJ
+sprachgewandt,articulate,善于表达的,ADJ
+unbeirrbar,unwavering,坚定不移的,ADJ
+ungemütlich,uncomfortable; unpleasant,不自在不舒适的,ADJ
+verletzlich,vulnerable,敏感易受伤的,ADJ
+verwöhnt,spoiled,被惯坏的,ADJ
+unterdessen,meanwhile,在此期间,ADV
+allemal,in any case; certainly,无论如何,ADV
+bemerkenswerterweise,remarkably,值得注意地,ADV
+ebensowenig,no less; neither,同样不,ADV
+sichtlich,visibly,明显地,ADV
+haufenweise,in heaps; aplenty,成堆大量地,ADV
+hinreichend,sufficiently; adequately,充分足够地,ADV
+mithin,thus; consequently,从而因此,ADV
+notgedrungen,unwillingly; of necessity,迫不得已,ADV
+regelrecht,downright; properly,彻头彻尾地,ADV
+stückweise,piece by piece,零散成块地,ADV
 befassen,to deal with,从事,VERB
 befehlen,to order,命令,VERB
 befolgen,to follow,遵守,VERB
@@ -1641,3 +1909,93 @@ Staatsanwaltschaft,prosecutor's office,检察院,NOUN
 Tatwaffe,murder weapon,凶器,NOUN
 täuschen,deceive,欺骗,VERB
 Verhör,interrogation,审讯,NOUN
+Selbstbewusstsein,self-confidence,自信,NOUN
+Absatzmarkt,sales market,销售市场,NOUN
+Altbauwohnung,apartment in old building,老式公寓,NOUN
+Anklang,resonance; approval,共鸣,NOUN
+Anwesenheitspflicht,attendance requirement,出勤义务,NOUN
+Artenschutz,species conservation,物种保护,NOUN
+Atomendlager,final nuclear storage site,核废料最终处置库,NOUN
+Ausbildungsplatz,apprenticeship position,职业培训岗位,NOUN
+Ausländerbehörde,foreigners office,外国人管理局,NOUN
+Bergung,rescue; salvage,营救,NOUN
+Betriebsrat,works council,企业职工委员会,NOUN
+Bewerbungsmappe,application folder,求职材料夹,NOUN
+Bildungsprivileg,educational privilege,教育特权,NOUN
+Brustkrebs,breast cancer,乳腺癌,NOUN
+Bühnenbild,stage set,舞台布景,NOUN
+Datenpanne,data breach,数据事故,NOUN
+Eigenbrötelei,idiosyncrasy,特立独行,NOUN
+Einsparung,saving; cut,节省,NOUN
+Engpass,bottleneck,瓶颈,NOUN
+Fachkräftemangel,skilled labor shortage,专业人才短缺,NOUN
+Feinstaubbelastung,particulate pollution,颗粒物污染,NOUN
+Freizeitgestaltung,leisure planning,休闲安排,NOUN
+Gedächtnisleistung,memory performance,记忆能力,NOUN
+Genussfähigkeit,capacity for enjoyment,享受能力,NOUN
+Gesellschaftskritik,social criticism,社会批判,NOUN
+Gesundheitszustand,state of health,健康状况,NOUN
+Haftstrafe,prison sentence,监禁刑罚,NOUN
+Hilflosigkeit,helplessness,无助,NOUN
+Immobilienmarkt,real estate market,房地产市场,NOUN
+Internetnutzer,internet user,互联网用户,NOUN
+Kaufkraftverfall,loss of purchasing power,购买力下降,NOUN
+Kohleausstieg,coal phase-out,退出煤炭,NOUN
+Konzentrationsstörung,concentration disorder,专注力障碍,NOUN
+Lehrstellenkrise,apprenticeship shortage crisis,学徒岗位危机,NOUN
+Leistungsnachweis,proof of achievement,成绩证明,NOUN
+Luftqualität,air quality,空气质量,NOUN
+Medienlandschaft,media landscape,媒体格局,NOUN
+Mietverhältnis,tenancy relationship,租赁关系,NOUN
+Missklang,discord; dissonance,不和谐,NOUN
+Musiklabel,music label,音乐厂牌,NOUN
+Nachrichtendienst,intelligence service,情报部门,NOUN
+Nettolohn,net wage,税后工资,NOUN
+Personalabteilung,HR department,人事部门,NOUN
+Pflegeversicherung,long-term care insurance,护理保险,NOUN
+Probezeit,probation period,试用期,NOUN
+Rechtsstaat,state under the rule of law,法治国家,NOUN
+Sachzwang,constraint of circumstances,客观形势所迫,NOUN
+nachweisen,to prove,证明,VERB
+ankurbeln,stimulate; boost,刺激推动,VERB
+anzetteln,instigate; plot,策划挑起,VERB
+ausholen,take a swing; elaborate,挥臂展开,VERB
+ausschenken,serve drinks,斟酒售卖,VERB
+bescheren,bring; bestow,带来赐予,VERB
+eindecken,stock up on,备足囤货,VERB
+entgegentreten,oppose; confront,迎击对抗,VERB
+fortschreiben,keep updating,持续更新,VERB
+kaschieren,gloss over; cover up,掩饰粉饰,VERB
+mitgestalten,co-shape,共同塑造,VERB
+mühen,strive laboriously,辛劳操劳,VERB
+nachzeichnen,trace; retrace,描摹再现,VERB
+umbauen,refurbish; rebuild,翻修改建,VERB
+umplanen,reschedule,重新规划,VERB
+verharmlosen,trivialize,淡化轻描,VERB
+verrutschen,slip out of place,挪位滑脱,VERB
+vorbeugen,prevent,预防,VERB
+sinnvoll,sensible; meaningful,有意义的,ADJ
+absonderlich,peculiar,古怪的,ADJ
+atmungsaktiv,breathable,透气吸汗的,ADJ
+berauschend,intoxicating; exhilarating,令人陶醉的,ADJ
+eigenwillig,idiosyncratic; stubborn,我行我素的,ADJ
+gehaltlos,devoid of substance,空洞无物的,ADJ
+krisenanfällig,crisis-prone,易受危机冲击的,ADJ
+lohnenswert,worthwhile,值得做的,ADJ
+naturnah,close to nature,贴近自然的,ADJ
+spöttisch,mocking,嘲弄讥讽的,ADJ
+unentschlossen,undecided,犹豫不决的,ADJ
+untauglich,unsuitable,不适用无效的,ADJ
+verschwiegen,discreet,守口如瓶的,ADJ
+vollmundig,sweeping; grand,夸大其词的,ADJ
+hingegen,whereas,相反,ADV
+anstandslos,without protest,毫无异议地,ADV
+demgemäß,in accordance with this,据此,ADV
+ersatzweise,as a substitute,作为替代,ADV
+stellenweise,in places; sporadically,零星局部地,ADV
+hemmungslos,unrestrained,毫无节制地,ADV
+jüngst,recently,最近,ADV
+nachweislich,verifiably; provably,有据可查地,ADV
+nunmehr,now; henceforth,从现在起,ADV
+schlagartig,abruptly,突然骤然,ADV
+unwissentlich,unknowingly,不知不觉地,ADV
