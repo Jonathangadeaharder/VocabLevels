@@ -28,117 +28,15 @@ from check_data_contract import (  # noqa: E402
     CHINESE_SCRIPT,
     COGNATE_ALLOWLIST,
     ENGLISH_FUNCTION_PREFIXES,
+    EXTENDED_COGNATE_ALLOWLIST,
     FORBIDDEN_JUNK_LEMMAS,
     LANG_DIRS,
+    MULTIWORD_LOAN_PHRASES,
+    NATIVE_FUNCTION_PREFIXES,
     normalize_gloss,
 )
 
 ARABIC_SCRIPT = re.compile(r"[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]")
-
-# Genuine foreign-loan phrases that legitimately equal their English gloss.
-MULTIWORD_KEEP = {"de facto", "a priori", "a posteriori", "dim sum"}
-
-# Native function-word prefixes per language. A lemma starting with one of
-# these is a native multiword expression, not an English copy, so the
-# english_function_prefix_copy rule must not fire on it.
-NATIVE_PREFIXES: dict[str, tuple[str, ...]] = {
-    "de": (
-        "in ",
-        "an ",
-        "auf ",
-        "aus ",
-        "bei ",
-        "mit ",
-        "nach ",
-        "vor ",
-        "zu ",
-        "zum ",
-        "zur ",
-        "der ",
-        "die ",
-        "das ",
-        "den ",
-        "dem ",
-        "des ",
-        "ein ",
-        "eine ",
-        "einen ",
-    ),
-    "es": (
-        "a ",
-        "por ",
-        "de ",
-        "del ",
-        "en ",
-        "con ",
-        "sin ",
-        "para ",
-        "el ",
-        "la ",
-        "los ",
-        "las ",
-        "un ",
-        "una ",
-        "al ",
-    ),
-    "fr": (
-        "à ",
-        "de ",
-        "du ",
-        "des ",
-        "en ",
-        "par ",
-        "pour ",
-        "avec ",
-        "sans ",
-        "le ",
-        "la ",
-        "les ",
-        "un ",
-        "une ",
-        "au ",
-        "aux ",
-        "d'un ",
-        "d'une ",
-        "dans ",
-        "sur ",
-        "chez ",
-    ),
-    "nl": (
-        "in ",
-        "voor ",
-        "te ",
-        "tot ",
-        "met ",
-        "van ",
-        "op ",
-        "bij ",
-        "de ",
-        "het ",
-        "een ",
-        "der ",
-        "den ",
-        "ter ",
-        "ten ",
-    ),
-    "sv": (
-        "i ",
-        "på ",
-        "för ",
-        "till ",
-        "med ",
-        "av ",
-        "från ",
-        "vid ",
-        "den ",
-        "det ",
-        "de ",
-        "en ",
-        "ett ",
-        "om ",
-        "ur ",
-    ),
-}
 
 
 def load_expansion(path: Path) -> list[list[str]]:
@@ -162,16 +60,20 @@ def _classify_latin(lemma_s: str, gloss: str, lang: str) -> str:
     lemma_norm = normalize_gloss(lemma_s)
     lemma_lower = lemma_s.lower()
     gloss_lower = gloss.lower()
-    allowlist = COGNATE_ALLOWLIST.get(lang, set())
+    allowlist = COGNATE_ALLOWLIST.get(lang, set()) | EXTENDED_COGNATE_ALLOWLIST.get(
+        lang, set()
+    )
     is_copy = lemma_norm == gloss_norm or lemma_lower == gloss_lower
     if is_copy and lemma_lower not in allowlist and lemma_norm not in allowlist:
         if " " in lemma_lower:
-            if lemma_lower in MULTIWORD_KEEP:
+            if lemma_lower in MULTIWORD_LOAN_PHRASES:
                 return "clean"
             return "multi"
         return "single"
     if lemma_lower.startswith(ENGLISH_FUNCTION_PREFIXES):
-        if lemma_lower.startswith(NATIVE_PREFIXES.get(lang, ())):
+        if lemma_lower in MULTIWORD_LOAN_PHRASES:
+            return "clean"
+        if lemma_lower.startswith(NATIVE_FUNCTION_PREFIXES.get(lang, ())):
             return "native_prefix"  # false positive: native preposition phrase
         return "prefix"
     return "clean"
@@ -181,10 +83,9 @@ def _classify_one(lemma_s: str, gloss: str, lang: str) -> str:
     """Bucket for one (lemma, gloss) pair: junk | script | single | multi |
     prefix | native_prefix | clean.
 
-    Deliberately simpler than the check_data_contract gate: this replay uses
-    COGNATE_ALLOWLIST only (the gate adds EXTENDED_COGNATE_ALLOWLIST) and its
-    own MULTIWORD_KEEP/NATIVE_PREFIXES tables (the gate has
-    MULTIWORD_LOAN_PHRASES/NATIVE_FUNCTION_PREFIXES). Copy rows are never
+    Replays the check_data_contract criterion-6 gate with the gate's own
+    constants (allowlists, loan phrases, native prefixes), so a row the
+    gate accepts never gets deleted here. Copy rows are never
     reconsidered by the prefix rule."""
     if lemma_s in FORBIDDEN_JUNK_LEMMAS:
         return "junk"
