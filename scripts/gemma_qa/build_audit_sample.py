@@ -20,6 +20,8 @@ from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 
+SAMPLE_P20_FILENAME = "ALL.sample-p20.csv"
+
 LANG_DIRS = {
     "en": "english",
     "es": "spanish",
@@ -296,7 +298,7 @@ def write_readme(
             "",
             "| File | |",
             "|------|--|",
-            "| `ALL.sample-p20.csv` | combined |",
+            f"| `{SAMPLE_P20_FILENAME}` | combined |",
             "| `{level}.sample-p20.csv` + `.md` | per-level checklist |",
             "",
             "## Score",
@@ -356,7 +358,7 @@ def build_for_language(
     if (
         not force
         and lang_code == "en"
-        and (out_dir / "ALL.sample-p20.csv").exists()
+        and (out_dir / SAMPLE_P20_FILENAME).exists()
         and "REVIEWED" in (out_dir / "A1.sample-p20.md").read_text(encoding="utf-8")
     ):
         return out_dir
@@ -415,7 +417,7 @@ def build_for_language(
         "verdict",
         "notes",
     ]
-    with (out_dir / "ALL.sample-p20.csv").open(
+    with (out_dir / SAMPLE_P20_FILENAME).open(
         "w", newline="", encoding="utf-8"
     ) as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
@@ -469,7 +471,7 @@ def main(argv: list[str] | None = None) -> int:
                 / "manual_reviews"
                 / "english"
                 / "tng-audit-sample"
-                / "ALL.sample-p20.csv"
+                / SAMPLE_P20_FILENAME
             ).exists()
         ):
             print("skip en (existing REVIEWED pack)")

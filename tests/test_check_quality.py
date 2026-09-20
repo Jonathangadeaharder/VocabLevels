@@ -135,7 +135,7 @@ class TestCheckLanguage:
 
     @pytest.mark.parametrize(
         "lemma",
-        ["5G", "6g", "co2", "CO2", "3d", "3D", "1e", "2de", "1ste", "3D打印"],
+        ["5G", "6g", "co2", "CO2", "3d", "3D", "1e", "2de", "1ste", "3D打印", "٣d"],
     )
     def test_legitimate_digit_lemmas_not_flagged(
         self, tmp_repo: Path, capsys: pytest.CaptureFixture[str], lemma: str

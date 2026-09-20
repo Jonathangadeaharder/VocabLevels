@@ -39,7 +39,7 @@ _DIGIT_OK = re.compile(
 
 
 def _digits_allowed(lemma: str) -> bool:
-    if not re.search(r"[0-9]", lemma):
+    if not re.search(r"\d", lemma, re.ASCII):
         return False
     return bool(_DIGIT_OK.match(lemma.strip()))
 
@@ -79,7 +79,7 @@ def _field_issues(
     if " " in lemma:
         print(f"    L{idx}: multi-word lemma '{lemma}'")
         issues += 1
-    if re.search(r"[0-9]", lemma) and not _digits_allowed(lemma):
+    if re.search(r"\d", lemma, re.ASCII) and not _digits_allowed(lemma):
         print(f"    L{idx}: digits in lemma '{lemma}'")
         issues += 1
     if SPECIAL_CHARS.search(lemma):
@@ -131,92 +131,122 @@ def _duplicate_issues(
     return issues
 
 
+def _read_level_rows(
+    path: Path, level: str, expected: list[str]
+) -> list[list[str]] | None:
+    """Read rows after validating the header; None means bad header (reported)."""
+    with path.open(encoding="utf-8", newline="") as f:
+        reader = csv.reader(f)
+        header = next(reader, [])
+        if header != expected:
+            print(f"  [ERROR] {level}: bad header {header}")
+            return None
+        return [row for row in reader if row]
+
+
+def _report_level_counts(level: str, count: int, target: int) -> None:
+    delta = count - target
+    status = "OK" if abs(delta) <= target * 0.05 else f"OFF ({delta:+d})"
+    print(f"  {level}: {count} rows (target {target}) — {status}")
+
+
+def _row_fields(row: list[str]) -> tuple[str, str, str, str]:
+    lemma_raw = row[LEMMA_IDX] if len(row) > LEMMA_IDX else ""
+    t1_raw = row[T1_IDX] if len(row) > T1_IDX else ""
+    t2_raw = row[T2_IDX] if len(row) > T2_IDX else ""
+    pos_raw = row[POS_IDX] if len(row) > POS_IDX else ""
+    return lemma_raw, t1_raw, t2_raw, pos_raw
+
+
+def _scan_level_rows(
+    rows: list[list[str]], level: str, seen_lemmas: dict[str, str]
+) -> tuple[int, int, dict[str, set[str]]]:
+    issues = 0
+    warnings = 0
+    intra_lemmas: set[str] = set()
+    intra_trans: dict[str, set[str]] = {}  # translation -> lemmas in this level
+    for idx, row in enumerate(rows, start=2):
+        lemma_raw, t1_raw, t2_raw, pos_raw = _row_fields(row)
+
+        lemma = lemma_raw.strip()
+        t1 = t1_raw.strip()
+        t2 = t2_raw.strip()
+
+        row_issues, row_warnings = _field_issues(
+            idx, lemma, lemma_raw, t1, t1_raw, t2, t2_raw
+        )
+        issues += row_issues
+        warnings += row_warnings
+        if not lemma:
+            continue
+
+        # Duplicate key includes POS: same lemma with different POS
+        # (e.g. "run" as VERB and NOUN) is NOT a duplicate.
+        pos = (pos_raw or "X").strip()
+        key = f"{lemma.lower()}|{pos}"
+        issues += _duplicate_issues(
+            idx, lemma, pos, key, level, seen_lemmas, intra_lemmas
+        )
+
+        for trans in {t1.lower(), t2.lower()}:
+            if trans:
+                intra_trans.setdefault(trans, set()).add(lemma)
+
+    return issues, warnings, intra_trans
+
+
+def _report_shared_translations(
+    level: str, intra_trans: dict[str, set[str]], show_details: bool
+) -> None:
+    shared = [
+        (trans, lemmas) for trans, lemmas in intra_trans.items() if len(lemmas) > 1
+    ]
+    if show_details:
+        for trans, lemmas in shared:
+            print(
+                f"    {level}: '{trans}' shared by {len(lemmas)} lemmas: "
+                f"{', '.join(sorted(lemmas))}"
+            )
+    elif shared:
+        print(
+            f"    {level}: {len(shared)} shared translation groups "
+            "(use --show-shared-translations for details)"
+        )
+
+
 def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
     cfg = LANGS[lang]
     lang_dir = ROOT / lang
     print(f"\n=== {lang.upper()} ===")
 
-    # All languages now use harmonized CEFR A1-Advanced levels.
-    levels = LEVELS
-    targets = TARGETS
-
     seen_lemmas: dict[str, str] = {}  # lemma -> first level it appeared in
     issues = 0
     warnings = 0
 
-    for level in levels:
+    for level in LEVELS:
         path = lang_dir / f"{level}.csv"
         if not path.exists():
             print(f"  [WARN] {path} missing")
             continue
 
-        with path.open(encoding="utf-8", newline="") as f:
-            reader = csv.reader(f)
-            header = next(reader, [])
-            # Real on-disk header is always [<Lang>_Lemma, English_Lemma,
-            # Chinese_Lemma, POS]. cfg["lemma_col"] already equals
-            # "English_Lemma"/"Chinese_Lemma" for the two pivot languages,
-            # so no per-language special-casing is needed here.
-            expected = [cfg["lemma_col"], T1_NAME, T2_NAME, "POS"]
-            if header != expected:
-                print(f"  [ERROR] {level}: bad header {header}")
-                issues += 1
-                continue
+        # Real on-disk header is always [<Lang>_Lemma, English_Lemma,
+        # Chinese_Lemma, POS]. cfg["lemma_col"] already equals
+        # "English_Lemma"/"Chinese_Lemma" for the two pivot languages,
+        # so no per-language special-casing is needed here.
+        expected = [cfg["lemma_col"], T1_NAME, T2_NAME, "POS"]
+        rows = _read_level_rows(path, level, expected)
+        if rows is None:
+            issues += 1
+            continue
 
-            rows = [row for row in reader if row]
+        _report_level_counts(level, len(rows), TARGETS[level])
 
-        count = len(rows)
-        target = targets[level]
-        delta = count - target
-        status = "OK" if abs(delta) <= target * 0.05 else f"OFF ({delta:+d})"
-        print(f"  {level}: {count} rows (target {target}) — {status}")
-
-        intra_lemmas: set[str] = set()
-        intra_trans: dict[str, set[str]] = {}  # translation -> lemmas in this level
-        for idx, row in enumerate(rows, start=2):
-            lemma_raw = row[LEMMA_IDX] if len(row) > LEMMA_IDX else ""
-            t1_raw = row[T1_IDX] if len(row) > T1_IDX else ""
-            t2_raw = row[T2_IDX] if len(row) > T2_IDX else ""
-            pos_raw = row[POS_IDX] if len(row) > POS_IDX else ""
-
-            lemma = lemma_raw.strip()
-            t1 = t1_raw.strip()
-            t2 = t2_raw.strip()
-
-            row_issues, row_warnings = _field_issues(
-                idx, lemma, lemma_raw, t1, t1_raw, t2, t2_raw
-            )
-            issues += row_issues
-            warnings += row_warnings
-            if not lemma:
-                continue
-
-            # Duplicate key includes POS: same lemma with different POS
-            # (e.g. "run" as VERB and NOUN) is NOT a duplicate.
-            pos = (pos_raw or "X").strip()
-            key = f"{lemma.lower()}|{pos}"
-            issues += _duplicate_issues(
-                idx, lemma, pos, key, level, seen_lemmas, intra_lemmas
-            )
-
-            for trans in {t1.lower(), t2.lower()}:
-                if trans:
-                    intra_trans.setdefault(trans, set()).add(lemma)
-
-        shared_translations = [
-            (trans, lemmas) for trans, lemmas in intra_trans.items() if len(lemmas) > 1
-        ]
-        if show_shared_translations:
-            for trans, lemmas in shared_translations:
-                print(
-                    f"    {level}: '{trans}' shared by {len(lemmas)} lemmas: "
-                    f"{', '.join(sorted(lemmas))}"
-                )
-        elif shared_translations:
-            print(
-                f"    {level}: {len(shared_translations)} shared translation groups "
-                "(use --show-shared-translations for details)"
-            )
+        row_issues, row_warnings, intra_trans = _scan_level_rows(
+            rows, level, seen_lemmas
+        )
+        issues += row_issues
+        warnings += row_warnings
+        _report_shared_translations(level, intra_trans, show_shared_translations)
 
     if warnings:
         print(

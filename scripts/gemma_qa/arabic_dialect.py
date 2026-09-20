@@ -428,7 +428,7 @@ _LOAN_SUFFIX_RE = re.compile(
     r"^(?!.{0,2}$)[\u0600-\u06FF]{2,}(اج|يش|يون|يير|وار|ورة|اتور|سيون|مون)$"
 )
 _MAGHREBI_PREFIX_RE = re.compile(
-    r"^(ب|ف|ك)(?!ال)[\u0600-\u06FF]{2,}$"
+    r"^([بفك])(?!ال)[\u0600-\u06FF]{2,}$"
 )  # b-/f-/k- clitic forms like بشوية
 # Known clitic+dialect stems
 _CLITIC_STEMS: frozenset[str] = frozenset(

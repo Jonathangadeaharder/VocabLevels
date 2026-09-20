@@ -287,7 +287,7 @@ def _find_inflected_removals(records: list[_Record]) -> list[_Record]:
             base_lower = r.base.lower()
             best = min(
                 (c for c in candidates if abs(len(c) - len(base_lower)) <= 2),
-                key=lambda c: _edit_distance(base_lower, c),
+                key=lambda c, base_lower=base_lower: _edit_distance(base_lower, c),
                 default=None,
             )
             if best is not None and _edit_distance(base_lower, best) <= 1:
