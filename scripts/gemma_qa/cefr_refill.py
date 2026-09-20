@@ -490,9 +490,9 @@ def _run_novel_slots(
     used_keys: set[tuple[str, UPOS]],
     represented_english: set[tuple[str, UPOS]],
     rejected_exclusions: list[str],
-    rejected_slots: list[int],
-    reject_reasons: dict[str, int],
-) -> None:
+) -> tuple[list[int], dict[str, int]]:
+    rejected_slots: list[int] = []
+    reject_reasons: dict[str, int] = {}
     slot_ids = [
         f"novel:{lang}:{level}:slot:{slot}:round:{round_number}" for slot in slots
     ]
@@ -518,7 +518,7 @@ def _run_novel_slots(
     except ValueError as error:
         # Wrong IDs/cardinality after repairs — retry these slots later.
         rejected_slots.extend(slots)
-        reject_reasons["identity"] = reject_reasons.get("identity", 0) + len(slots)
+        reject_reasons["identity"] = len(slots)
         event(
             "novel.batch_identity_error",
             level="WARN",
@@ -528,7 +528,7 @@ def _run_novel_slots(
             slots=len(slots),
             error=str(error).splitlines()[0][:300],
         )
-        return
+        return rejected_slots, reject_reasons
     for slot, candidate in zip(slots, reviewed.rows, strict=True):
         accepted_candidate = CefrReviewRow.model_validate(
             candidate.model_dump(mode="json")
@@ -565,6 +565,7 @@ def _run_novel_slots(
             upos=accepted_candidate.upos.value,
             english_lemma=accepted_candidate.english_lemma,
         )
+    return rejected_slots, reject_reasons
 
 
 def _complete_novel_rows(
@@ -598,7 +599,7 @@ def _complete_novel_rows(
         reject_reasons: dict[str, int] = {}
         for start in range(0, len(pending_slots), MAX_NOVEL_RECORDS):
             slots = pending_slots[start : start + MAX_NOVEL_RECORDS]
-            _run_novel_slots(
+            batch_rejected, batch_reasons = _run_novel_slots(
                 slots,
                 lang=lang,
                 level=level,
@@ -611,9 +612,10 @@ def _complete_novel_rows(
                 used_keys=used_keys,
                 represented_english=represented_english,
                 rejected_exclusions=rejected_exclusions,
-                rejected_slots=rejected_slots,
-                reject_reasons=reject_reasons,
             )
+            rejected_slots.extend(batch_rejected)
+            for reason, count in batch_reasons.items():
+                reject_reasons[reason] = reject_reasons.get(reason, 0) + count
         pending_slots = rejected_slots
         event(
             "novel.round_end",
