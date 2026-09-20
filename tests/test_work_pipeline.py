@@ -90,9 +90,9 @@ def test_merge_no_files_reports(tmp_path: Path, capsys) -> None:
 
 def test_classify_single_copy_goes_to_allowlist() -> None:
     singles, multis, prefixes, delete_keys = clean_expansion.classify(
-        [("mrouzia", "mrouzia", "NOUN")], "es"
+        [("harira", "harira", "NOUN")], "es"
     )
-    assert singles == ["mrouzia"]
+    assert singles == ["harira"]
     assert not multis and not prefixes and not delete_keys
 
 
@@ -138,6 +138,33 @@ def test_classify_zh_latin_lemma_deleted() -> None:
 def test_classify_ar_latin_lemma_deleted() -> None:
     _, _, _, delete_keys = clean_expansion.classify([("cafe", "cafe", "NOUN")], "ar")
     assert ("cafe", "cafe", "NOUN") in delete_keys
+
+
+def test_classify_extended_allowlist_copy_is_clean() -> None:
+    # Gate parity: the copy check allowlists COGNATE_ALLOWLIST union
+    # EXTENDED_COGNATE_ALLOWLIST; 'aberrant' is only in the extended set.
+    singles, multis, prefixes, delete_keys = clean_expansion.classify(
+        [("aberrant", "aberrant", "ADJ")], "de"
+    )
+    assert not singles and not multis and not prefixes and not delete_keys
+
+
+def test_classify_loan_phrase_skips_prefix_rule_without_copy() -> None:
+    # Gate parity: MULTIWORD_LOAN_PHRASES also guard the prefix rule, even
+    # when the lemma is not a gloss copy.
+    singles, multis, prefixes, delete_keys = clean_expansion.classify(
+        [("a priori", "deduced from earlier knowledge", "ADV")], "fr"
+    )
+    assert not singles and not multis and not prefixes and not delete_keys
+
+
+def test_classify_uses_gate_native_prefix_table() -> None:
+    # Gate parity: the gate's NATIVE_FUNCTION_PREFIXES table guards the
+    # prefix rule; the tool must not carry its own diverging table.
+    singles, multis, prefixes, delete_keys = clean_expansion.classify(
+        [("for example", "par exemple", "ADV")], "fr"
+    )
+    assert not singles and not multis and not prefixes and not delete_keys
 
 
 # ------------------------------------------------------------ gen_prompts_r2
@@ -253,7 +280,7 @@ def test_clean_expansion_apply_deletes_and_writes_allowlist(
         tmp_path,
         "spanish",
         [
-            ["mrouzia", "mrouzia", "炖肉", "NOUN", "B2"],  # single copy -> allowlist
+            ["harira", "harira", "汤", "NOUN", "B2"],  # single copy -> allowlist
             ["do one's best", "do one's best", "尽力", "VERB", "B2"],  # multi -> delete
             ["comer", "eat", "吃", "VERB", "A1"],  # clean -> kept
         ],
@@ -265,7 +292,7 @@ def test_clean_expansion_apply_deletes_and_writes_allowlist(
     clean_expansion.main()
     rows = read_data_rows(tmp_path / "spanish" / "expansion.csv")
     assert rows == [
-        ["mrouzia", "mrouzia", "炖肉", "NOUN", "B2"],  # single copy kept + allowlisted
+        ["harira", "harira", "汤", "NOUN", "B2"],  # single copy kept + allowlisted
         ["comer", "eat", "吃", "VERB", "A1"],
     ]
     out = capsys.readouterr().out
@@ -273,7 +300,7 @@ def test_clean_expansion_apply_deletes_and_writes_allowlist(
     allow = json.loads(
         (tmp_path / "work" / "allowlist_extra.json").read_text(encoding="utf-8")
     )
-    assert allow["es"] == ["mrouzia"]
+    assert allow["es"] == ["harira"]
 
 
 def test_clean_expansion_dry_run_deletes_nothing(
