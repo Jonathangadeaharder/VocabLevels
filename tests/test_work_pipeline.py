@@ -108,6 +108,16 @@ def test_classify_multiword_copy_deleted_unless_loan() -> None:
     assert not delete_keys or ("de facto", "de facto", "ADJ") not in delete_keys
 
 
+def test_classify_kept_loan_skips_prefix_rule() -> None:
+    # 'a priori' is a genuine loan AND starts with English function prefix
+    # 'a ': the copy branch must keep it without consulting the prefix rule.
+    singles, multis, prefixes, delete_keys = clean_expansion.classify(
+        [("a priori", "a priori", "ADJ"), ("a posteriori", "a posteriori", "ADJ")],
+        "fr",
+    )
+    assert not singles and not multis and not prefixes and not delete_keys
+
+
 def test_classify_prefix_copy_deleted_native_prefix_kept() -> None:
     singles, multis, prefixes, delete_keys = clean_expansion.classify(
         [("to book", "reserve", "VERB"), ("in Ordnung", "in order", "ADV")], "de"

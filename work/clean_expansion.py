@@ -148,6 +148,53 @@ def load_expansion(path: Path) -> list[list[str]]:
         return [header] + [row for row in reader if row and row[0].strip()]
 
 
+def _classify_script(lemma_s: str, lang: str) -> str:
+    """ar/zh rows must use their native script; anything Latin is junk."""
+    script = ARABIC_SCRIPT if lang == "ar" else CHINESE_SCRIPT
+    if any(c.isalpha() for c in lemma_s) and not script.search(lemma_s):
+        return "script"
+    return "clean"
+
+
+def _classify_latin(lemma_s: str, gloss: str, lang: str) -> str:
+    """English-gloss copy and function-prefix rules for Latin-script languages."""
+    gloss_norm = normalize_gloss(gloss)
+    lemma_norm = normalize_gloss(lemma_s)
+    lemma_lower = lemma_s.lower()
+    gloss_lower = gloss.lower()
+    allowlist = COGNATE_ALLOWLIST.get(lang, set())
+    is_copy = lemma_norm == gloss_norm or lemma_lower == gloss_lower
+    if is_copy and lemma_lower not in allowlist and lemma_norm not in allowlist:
+        if " " in lemma_lower:
+            if lemma_lower in MULTIWORD_KEEP:
+                return "clean"
+            return "multi"
+        return "single"
+    if lemma_lower.startswith(ENGLISH_FUNCTION_PREFIXES):
+        if lemma_lower.startswith(NATIVE_PREFIXES.get(lang, ())):
+            return "native_prefix"  # false positive: native preposition phrase
+        return "prefix"
+    return "clean"
+
+
+def _classify_one(lemma_s: str, gloss: str, lang: str) -> str:
+    """Bucket for one (lemma, gloss) pair: junk | script | single | multi |
+    prefix | native_prefix | clean.
+
+    Deliberately simpler than the check_data_contract gate: this replay uses
+    COGNATE_ALLOWLIST only (the gate adds EXTENDED_COGNATE_ALLOWLIST) and its
+    own MULTIWORD_KEEP/NATIVE_PREFIXES tables (the gate has
+    MULTIWORD_LOAN_PHRASES/NATIVE_FUNCTION_PREFIXES). Copy rows are never
+    reconsidered by the prefix rule."""
+    if lemma_s in FORBIDDEN_JUNK_LEMMAS:
+        return "junk"
+    if lang in {"ar", "zh"}:
+        return _classify_script(lemma_s, lang)
+    if lang == "en":
+        return "clean"
+    return _classify_latin(lemma_s, gloss, lang)
+
+
 def classify(rows: list[tuple[str, str, str]], lang: str):
     """Replay check_script_and_substance on (lemma, gloss, pos) triples."""
     single_copies: list[str] = []
@@ -158,36 +205,15 @@ def classify(rows: list[tuple[str, str, str]], lang: str):
         lemma_s = lemma.strip()
         if not lemma_s:
             continue
-        if lemma_s in FORBIDDEN_JUNK_LEMMAS:
+        tag = _classify_one(lemma_s, gloss, lang)
+        if tag in {"junk", "script"}:
             delete_keys.add((lemma, gloss, pos))
-            continue
-        if lang == "ar":
-            if any(c.isalpha() for c in lemma_s) and not ARABIC_SCRIPT.search(lemma_s):
-                delete_keys.add((lemma, gloss, pos))
-            continue
-        if lang == "zh":
-            if any(c.isalpha() for c in lemma_s) and not CHINESE_SCRIPT.search(lemma_s):
-                delete_keys.add((lemma, gloss, pos))
-            continue
-        if lang == "en":
-            continue
-        gloss_norm = normalize_gloss(gloss)
-        lemma_norm = normalize_gloss(lemma_s)
-        lemma_lower = lemma_s.lower()
-        gloss_lower = gloss.lower()
-        allowlist = COGNATE_ALLOWLIST.get(lang, set())
-        is_copy = lemma_norm == gloss_norm or lemma_lower == gloss_lower
-        if is_copy and lemma_lower not in allowlist and lemma_norm not in allowlist:
-            if " " in lemma_lower:
-                if lemma_lower not in MULTIWORD_KEEP:
-                    multi_copies.append(lemma_s)
-                    delete_keys.add((lemma, gloss, pos))
-            else:
-                single_copies.append(lemma_s)
-            continue
-        if lemma_lower.startswith(ENGLISH_FUNCTION_PREFIXES):
-            if lemma_lower.startswith(NATIVE_PREFIXES.get(lang, ())):
-                continue  # false positive: native preposition phrase
+        elif tag == "single":
+            single_copies.append(lemma_s)
+        elif tag == "multi":
+            multi_copies.append(lemma_s)
+            delete_keys.add((lemma, gloss, pos))
+        elif tag == "prefix":
             prefix_copies.append(lemma_s)
             delete_keys.add((lemma, gloss, pos))
     return single_copies, multi_copies, prefix_copies, delete_keys

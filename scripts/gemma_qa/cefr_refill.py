@@ -177,6 +177,99 @@ def load_gap_rejected_english_keys(decisions_dir: Path) -> set[tuple[str, UPOS]]
     return keys
 
 
+def _en_fast_pass(
+    final: list[CefrReviewRow],
+    ordered_concepts: Sequence[CefrRefillConcept],
+    *,
+    target: int,
+    lang: str,
+    collision_keys: set[tuple[str, UPOS]],
+    used_keys: set[tuple[str, UPOS]],
+) -> None:
+    """en pivot: committed Chinese pairings keep rows without an LLM call."""
+    for concept in ordered_concepts:
+        if len(final) >= target:
+            break
+        if concept.chinese_lemma is None:
+            continue
+        candidate = CefrReviewRow(
+            id=concept.id,
+            lemma=concept.english_lemma,
+            english_lemma=concept.english_lemma,
+            chinese_lemma=concept.chinese_lemma,
+            upos=concept.upos,
+            action=ReviewAction.KEEP,
+        )
+        key = normalized_key(candidate.lemma, candidate.upos)
+        if (
+            key in collision_keys
+            or key in used_keys
+            or cefr_row_issues(candidate, lang=lang)
+        ):
+            continue
+        final.append(candidate)
+        used_keys.add(key)
+
+
+def _refill_concept_pass(
+    ordered_concepts: Sequence[CefrRefillConcept],
+    *,
+    final: list[CefrReviewRow],
+    used_keys: set[tuple[str, UPOS]],
+    collision_keys: set[tuple[str, UPOS]],
+    target: int,
+    lang: str,
+    level: str,
+    client: RefillClient,
+    ledger: Ledger,
+    single_model: str | None,
+) -> int:
+    """Run refill batches over ordered_concepts until target or exhaustion.
+
+    Mutates final/used_keys in place; returns how many rows were accepted."""
+    accepted = 0
+    offset = 0
+    profile = get_language(lang)
+    while len(final) < target and offset < len(ordered_concepts):
+        remaining = ordered_concepts[offset:]
+        deficit = target - len(final)
+        batches = pack_records(
+            remaining,
+            prompt_overhead=(
+                REFILL_SYSTEM_PROMPT
+                if profile.code == "de"
+                else build_refill_generation_prompt((), lang=lang, level=level)
+            ),
+            cap=INPUT_BATCH_TOKEN_CAP,
+            max_records=min(MAX_REFILL_RECORDS, deficit),
+        )
+        batch = batches[0]
+        offset += len(batch)
+        reviewed = _run_refill_batch(
+            batch,
+            lang=lang,
+            level=level,
+            client=client,
+            ledger=ledger,
+            single_model=single_model,
+        )
+        for concept, candidate in zip(batch, reviewed.rows, strict=True):
+            accepted_candidate = _accepted_refill_candidate(
+                candidate,
+                concept,
+                lang=lang,
+            )
+            if accepted_candidate is None:
+                continue
+            key = normalized_key(accepted_candidate.lemma, accepted_candidate.upos)
+            if key in collision_keys or key in used_keys:
+                continue
+            final.append(accepted_candidate)
+            used_keys.add(key)
+            accepted += 1
+    return accepted
+
+
 def complete_cefr_rows(
     accepted: Sequence[CefrReviewRow],
     *,
@@ -236,68 +329,27 @@ def complete_cefr_rows(
     used_keys = {normalized_key(row.lemma, row.upos) for row in final}
     profile = get_language(lang)
     if profile.code == "en":
-        for concept in ordered_concepts:
-            if len(final) >= target:
-                break
-            if concept.chinese_lemma is None:
-                continue
-            candidate = CefrReviewRow(
-                id=concept.id,
-                lemma=concept.english_lemma,
-                english_lemma=concept.english_lemma,
-                chinese_lemma=concept.chinese_lemma,
-                upos=concept.upos,
-                action=ReviewAction.KEEP,
-            )
-            key = normalized_key(candidate.lemma, candidate.upos)
-            if (
-                key in collision_keys
-                or key in used_keys
-                or cefr_row_issues(candidate, lang=lang)
-            ):
-                continue
-            final.append(candidate)
-            used_keys.add(key)
-        ordered_concepts = []
-    offset = 0
-    accepted_in_unrepresented_pass = 0
-    while len(final) < target and offset < len(ordered_concepts):
-        remaining = ordered_concepts[offset:]
-        deficit = target - len(final)
-        batches = pack_records(
-            remaining,
-            prompt_overhead=(
-                REFILL_SYSTEM_PROMPT
-                if profile.code == "de"
-                else build_refill_generation_prompt((), lang=lang, level=level)
-            ),
-            cap=INPUT_BATCH_TOKEN_CAP,
-            max_records=min(MAX_REFILL_RECORDS, deficit),
-        )
-        batch = batches[0]
-        offset += len(batch)
-        reviewed = _run_refill_batch(
-            batch,
+        _en_fast_pass(
+            final,
+            ordered_concepts,
+            target=target,
             lang=lang,
-            level=level,
-            client=client,
-            ledger=ledger,
-            single_model=single_model,
+            collision_keys=collision_keys,
+            used_keys=used_keys,
         )
-        for concept, candidate in zip(batch, reviewed.rows, strict=True):
-            accepted_candidate = _accepted_refill_candidate(
-                candidate,
-                concept,
-                lang=lang,
-            )
-            if accepted_candidate is None:
-                continue
-            key = normalized_key(accepted_candidate.lemma, accepted_candidate.upos)
-            if key in collision_keys or key in used_keys:
-                continue
-            final.append(accepted_candidate)
-            used_keys.add(key)
-            accepted_in_unrepresented_pass += 1
+        ordered_concepts = []
+    accepted_in_unrepresented_pass = _refill_concept_pass(
+        ordered_concepts,
+        final=final,
+        used_keys=used_keys,
+        collision_keys=collision_keys,
+        target=target,
+        lang=lang,
+        level=level,
+        client=client,
+        ledger=ledger,
+        single_model=single_model,
+    )
 
     if len(final) < target and accepted_in_unrepresented_pass == 0:
         final = _complete_novel_rows(
@@ -317,44 +369,18 @@ def complete_cefr_rows(
             protected_keys=protected_keys,
         )
 
-    offset = 0
-    ordered_concepts = represented_retry_concepts
-    while len(final) < target and offset < len(ordered_concepts):
-        remaining = ordered_concepts[offset:]
-        deficit = target - len(final)
-        batches = pack_records(
-            remaining,
-            prompt_overhead=(
-                REFILL_SYSTEM_PROMPT
-                if profile.code == "de"
-                else build_refill_generation_prompt((), lang=lang, level=level)
-            ),
-            cap=INPUT_BATCH_TOKEN_CAP,
-            max_records=min(MAX_REFILL_RECORDS, deficit),
-        )
-        batch = batches[0]
-        offset += len(batch)
-        reviewed = _run_refill_batch(
-            batch,
-            lang=lang,
-            level=level,
-            client=client,
-            ledger=ledger,
-            single_model=single_model,
-        )
-        for concept, candidate in zip(batch, reviewed.rows, strict=True):
-            accepted_candidate = _accepted_refill_candidate(
-                candidate,
-                concept,
-                lang=lang,
-            )
-            if accepted_candidate is None:
-                continue
-            key = normalized_key(accepted_candidate.lemma, accepted_candidate.upos)
-            if key in collision_keys or key in used_keys:
-                continue
-            final.append(accepted_candidate)
-            used_keys.add(key)
+    _refill_concept_pass(
+        represented_retry_concepts,
+        final=final,
+        used_keys=used_keys,
+        collision_keys=collision_keys,
+        target=target,
+        lang=lang,
+        level=level,
+        client=client,
+        ledger=ledger,
+        single_model=single_model,
+    )
 
     if len(final) < target:
         final = _complete_novel_rows(

@@ -715,6 +715,100 @@ def apply_inventory_to_arabic_lists(
 # ---------------------------------------------------------------------------
 
 
+# Pure (lang, lemma[, UPOS]) sample rules: verdict overrides everything after
+# the generic hygiene checks. None UPOS = any UPOS.
+_NOTE_SV_INFLECTION = "sv verb inflection dup (non-citation)"
+_NOTE_SV_SPASSIVE = "sv s-passive dup (same gloss as citation)"
+_NOTE_DE_NON_CITATION = "non-citation German form"
+_NOTE_NL_PLURAL = "plural non-citation Dutch"
+_SAMPLE_LEMMA_RULES: dict[tuple[str, str, str | None], tuple[str, str]] = {
+    ("sv", "los", "ADJ"): ("drop", "sv noise lemma"),
+    ("sv", "träffades", "VERB"): ("drop", _NOTE_SV_INFLECTION),
+    ("sv", "träffar", "VERB"): ("drop", _NOTE_SV_INFLECTION),
+    ("sv", "träffat", "VERB"): ("drop", _NOTE_SV_INFLECTION),
+    ("sv", "dansade", "VERB"): ("drop", _NOTE_SV_INFLECTION),
+    ("sv", "mötas", "VERB"): ("drop", _NOTE_SV_SPASSIVE),
+    ("sv", "delas", "VERB"): ("drop", _NOTE_SV_SPASSIVE),
+    ("de", "meinten", None): ("fix", _NOTE_DE_NON_CITATION),
+    ("de", "bräuchten", None): ("fix", _NOTE_DE_NON_CITATION),
+    ("de", "nich", None): ("fix", _NOTE_DE_NON_CITATION),
+    ("de", "wart", None): ("fix", _NOTE_DE_NON_CITATION),
+    ("de", "Besonderes", None): ("fix", _NOTE_DE_NON_CITATION),
+    ("de", "Heiliger", None): ("fix", _NOTE_DE_NON_CITATION),
+    ("de", "Krachen", None): ("fix", _NOTE_DE_NON_CITATION),
+    ("de", "Schwarzer", None): ("fix", _NOTE_DE_NON_CITATION),
+    ("de", "ander", None): ("fix", _NOTE_DE_NON_CITATION),
+    ("nl", "uitdagingen", None): ("fix", _NOTE_NL_PLURAL),
+    ("nl", "honderden", None): ("fix", _NOTE_NL_PLURAL),
+    ("nl", "contracten", None): ("fix", _NOTE_NL_PLURAL),
+    ("ar", "يعني", "PART"): ("drop", "يعني PART colloquial"),
+}
+
+# Gloss-dependent sample rules: (lang, lemma, needle, needle_mode, verdict, note).
+# "contains" = needle in en.lower(); "equals" = en.strip() == needle;
+# "equals_fold" = en.strip().lower() == needle.
+_SAMPLE_EN_RULES: tuple[tuple[str, str, str, str, str, str], ...] = (
+    ("es", "émulo", "emulator", "contains", "fix", "false friend emulator"),
+    ("nl", "zullen", "would", "equals", "fix", "zullen gloss"),
+    ("ar", "قد", "much", "contains", "fix", "قد PART wrong gloss"),
+    ("ar", "كمي", "quantum", "contains", "fix", "كمي false friend quantum"),
+    ("ar", "إلا", "if", "equals_fold", "fix", "إلا means except/unless"),
+    ("ar", "تكييف", "qualification", "contains", "fix", "تكييف wrong gloss"),
+    ("ar", "قضى", "errand", "contains", "fix", "قضى overspecific gloss"),
+)
+
+_JUNK_LEMMAS = {"°", "º", "d'r"}
+
+
+def _sample_lemma_verdict(lang: str, lem: str, up: str) -> tuple[str, str] | None:
+    return _SAMPLE_LEMMA_RULES.get((lang, lem, up)) or _SAMPLE_LEMMA_RULES.get(
+        (lang, lem, None)
+    )
+
+
+def _sample_en_verdict(lang: str, lem: str, en: str) -> tuple[str, str] | None:
+    for rule_lang, rule_lemma, needle, mode, verdict, note in _SAMPLE_EN_RULES:
+        if lang != rule_lang or lem != rule_lemma:
+            continue
+        if _en_needle_matches(en, needle, mode):
+            return verdict, note
+    return None
+
+
+def _en_needle_matches(en: str, needle: str, mode: str) -> bool:
+    if mode == "contains":
+        return needle in en.lower()
+    if mode == "equals":
+        return en.strip() == needle
+    if mode == "equals_fold":
+        return en.strip().lower() == needle
+    raise ValueError(f"unknown sample rule mode: {mode!r}")
+
+
+def _ar_sample_verdict(
+    lem: str,
+    up: str,
+    en: str,
+    raw_drops: Iterable[str],
+    policies: set[str],
+) -> tuple[str, str] | None:
+    # Classifier is source of truth (UPOS-conditional + MSA allow). Inventory
+    # is the frozen closed lexicon audit trail; bare membership would false-drop
+    # MSA exceptions such as روح NOUN.
+    live = classify_ar_lemma(lem, upos=up, english=en)
+    if live.action == "drop":
+        return "drop", f"classifier:{live.reason}"
+    if live.action == "policy" or lem in policies:
+        return "keep", "policy:dialect-MSA-exception"
+    bare = strip_ar_diacritics(lem)
+    # Closed-lexicon hit without UPOS context: only if not MSA allow.
+    drops = set(raw_drops)
+    stripped = {strip_ar_diacritics(x) for x in drops}
+    if (bare in stripped or lem in drops) and live.reason != "msa_allow":
+        return "drop", "inventory dialect residual still in list"
+    return None
+
+
 def score_sample_row(
     *,
     lang: str,
@@ -730,7 +824,6 @@ def score_sample_row(
     en = _nfc(english_lemma)
     zh = _nfc(chinese_lemma)
     up = (upos or "").strip()
-    drops = {strip_ar_diacritics(x) for x in (inventory_drops or [])}
     policies = set(inventory_policies or [])
 
     if not lem or not en or not zh:
@@ -744,69 +837,18 @@ def score_sample_row(
         and not re.search(r"[\u4e00-\u9fff]", zh)
     ):
         return "fix", f"latin chinese_lemma {zh!r}"
-    if lem in {"°", "º", "d'r"}:
+    if lem in _JUNK_LEMMAS:
         return "drop", "junk symbol/contraction"
-    if lang == "sv" and lem == "los" and up == "ADJ":
-        return "drop", "sv noise lemma"
-    if (
-        lang == "sv"
-        and lem
-        in {
-            "träffades",
-            "träffar",
-            "träffat",
-            "dansade",
-        }
-        and up == "VERB"
-    ):
-        return "drop", "sv verb inflection dup (non-citation)"
-    if lang == "sv" and lem in {"mötas", "delas"} and up == "VERB":
-        return "drop", "sv s-passive dup (same gloss as citation)"
-    if lang == "de" and lem in {
-        "meinten",
-        "bräuchten",
-        "nich",
-        "wart",
-        "Besonderes",
-        "Heiliger",
-        "Krachen",
-        "Schwarzer",
-        "ander",
-    }:
-        return "fix", "non-citation German form"
-    if lang == "nl" and lem in {"uitdagingen", "honderden", "contracten"}:
-        return "fix", "plural non-citation Dutch"
-    if lang == "es" and lem == "émulo" and "emulator" in en.lower():
-        return "fix", "false friend emulator"
-    if lang == "nl" and lem == "zullen" and en.strip() == "would":
-        return "fix", "zullen gloss"
-    if lang == "ar" and lem == "قد" and "much" in en.lower():
-        return "fix", "قد PART wrong gloss"
-    if lang == "ar" and lem == "كمي" and "quantum" in en.lower():
-        return "fix", "كمي false friend quantum"
-    if lang == "ar" and lem == "إلا" and en.strip().lower() == "if":
-        return "fix", "إلا means except/unless"
-    if lang == "ar" and lem == "تكييف" and "qualification" in en.lower():
-        return "fix", "تكييف wrong gloss"
-    if lang == "ar" and lem == "قضى" and "errand" in en.lower():
-        return "fix", "قضى overspecific gloss"
-    if lang == "ar" and lem == "يعني" and up == "PART":
-        return "drop", "يعني PART colloquial"
-    # Classifier is source of truth (UPOS-conditional + MSA allow). Inventory
-    # is the frozen closed lexicon audit trail; bare membership would false-drop
-    # MSA exceptions such as روح NOUN.
+    table_verdict = _sample_lemma_verdict(lang, lem, up)
+    if table_verdict is not None:
+        return table_verdict
+    en_verdict = _sample_en_verdict(lang, lem, en)
+    if en_verdict is not None:
+        return en_verdict
     if lang == "ar":
-        live = classify_ar_lemma(lem, upos=up, english=en)
-        if live.action == "drop":
-            return "drop", f"classifier:{live.reason}"
-        if live.action == "policy" or lem in policies:
-            return "keep", "policy:dialect-MSA-exception"
-        bare = strip_ar_diacritics(lem)
-        # Closed-lexicon hit without UPOS context: only if not MSA allow.
-        if (
-            bare in drops or lem in set(inventory_drops or [])
-        ) and live.reason != "msa_allow":
-            return "drop", "inventory dialect residual still in list"
+        ar_verdict = _ar_sample_verdict(lem, up, en, inventory_drops or [], policies)
+        if ar_verdict is not None:
+            return ar_verdict
     return "keep", "clean"
 
 

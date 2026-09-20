@@ -8,6 +8,7 @@ target lang T, collect cells from source languages whose pair S->T is below
 
 from __future__ import annotations
 
+import csv
 import math
 import sys
 from collections import defaultdict
@@ -142,6 +143,148 @@ TEMPLATE = (
 ORDER = ("ar", "de", "en", "es", "fr", "nl", "sv", "zh")
 
 
+def _concept_index(delivery) -> dict[str, dict[tuple[str, str], set[str]]]:
+    """Per target lang: (norm gloss, pos) -> set of lemmas covering it."""
+    index: dict[str, dict[tuple[str, str], set[str]]] = {}
+    for lang, rows in delivery.items():
+        idx: dict[tuple[str, str], set[str]] = {}
+        for row in rows:
+            if not row.gloss:
+                continue
+            idx.setdefault((normalize_gloss(row.gloss), row.pos), set()).add(row.lemma)
+        index[lang] = idx
+    return index
+
+
+def _canonical_glosses(delivery) -> dict[tuple[str, str], str]:
+    """(norm gloss, pos) -> longest surface gloss, for prompt readability."""
+    canonical: dict[tuple[str, str], str] = {}
+    for rows in delivery.values():
+        for row in rows:
+            if not row.gloss:
+                continue
+            key = (normalize_gloss(row.gloss), row.pos)
+            cur = canonical.get(key)
+            if cur is None or len(row.gloss) > len(cur):
+                canonical[key] = row.gloss
+    return canonical
+
+
+def _raw_expansion_keys(root: Path) -> dict[str, set[tuple[str, str]]]:
+    """Keys already present in the raw expansion CSV per language code."""
+    raw_keys: dict[str, set[tuple[str, str]]] = {}
+    for lang, code in LANG_DIRS.items():
+        ks: set[tuple[str, str]] = set()
+        p = root / lang / "expansion.csv"
+        if p.exists():
+            with p.open(newline="", encoding="utf-8") as handle:
+                reader = csv.reader(handle)
+                next(reader, None)
+                for cols in reader:
+                    if len(cols) >= 4 and cols[0].strip():
+                        ks.add(
+                            (normalize_gloss(cols[1].strip()), cols[3].strip().upper())
+                        )
+        raw_keys[code] = ks
+    return raw_keys
+
+
+def _gloss_pos_index(delivery) -> dict[str, dict[str, set[str]]]:
+    """Per lang: norm gloss -> set of POS tags it already appears under."""
+    bygloss: dict[str, dict[str, set[str]]] = {}
+    for lang, rows in delivery.items():
+        bg: dict[str, set[str]] = defaultdict(set)
+        for row in rows:
+            if row.gloss:
+                bg[normalize_gloss(row.gloss)].add(row.pos)
+        bygloss[lang] = bg
+    return bygloss
+
+
+def _pair_deficits(
+    tgt: str,
+    delivery,
+    index: dict[str, dict[tuple[str, str], set[str]]],
+) -> list[tuple[str, int, set[tuple[str, str]]]]:
+    """Per source lang: (src, rows still needed, missing cells) below 80%."""
+    covered = index[tgt]
+    deficits: list[tuple[str, int, set[tuple[str, str]]]] = []
+    for src in ORDER:
+        if src == tgt:
+            continue
+        src_rows = delivery[src]
+        n = len(src_rows)
+        eindeutig = 0
+        missing: set[tuple[str, str]] = set()
+        for row in src_rows:
+            if not row.gloss:
+                continue
+            key = (normalize_gloss(row.gloss), row.pos)
+            found = len(covered.get(key, ()))
+            if found == 1:
+                eindeutig += 1
+            elif found == 0:
+                missing.add(key)
+        need = max(0, math.ceil(0.8 * n) - eindeutig)
+        if need:
+            deficits.append((src, need, missing))
+    return deficits
+
+
+def _choose_cells(
+    tgt: str,
+    deficits: list[tuple[str, int, set[tuple[str, str]]]],
+    raw_keys: dict[str, set[tuple[str, str]]],
+    bygloss: dict[str, dict[str, set[str]]],
+) -> set[tuple[str, str]]:
+    """Skip black-hole cells, prefer fully-missing glosses as clean cells."""
+    chosen: set[tuple[str, str]] = set()
+    for _, need, cells in sorted(deficits, key=lambda d: -d[1]):
+        clean: list[tuple[str, str]] = []
+        fallback: list[tuple[str, str]] = []
+        for k in sorted(cells - chosen):
+            if k in raw_keys[tgt]:
+                continue  # dropped before; regeneration is a black hole
+            if (
+                tgt == "en"
+                and k[0] in bygloss["en"]
+                and k[1] not in bygloss["en"][k[0]]
+            ):
+                continue  # en: lemma == gloss, (lang,lemma,gloss) collision
+            if k[0] in bygloss[tgt]:
+                fallback.append(k)  # gloss exists under another POS
+            else:
+                clean.append(k)
+        # take what the pair needs, then pad with spare clean cells so
+        # Gemini POS drift or invalid rows do not stall the round
+        take = clean[:need] + fallback[:need] + clean[need : 2 * need]
+        chosen.update(take[: 2 * need])
+    return chosen
+
+
+def _write_chunks(
+    out_dir: Path,
+    tgt: str,
+    cell_list: list[tuple[str, str]],
+    canonical: dict[tuple[str, str], str],
+) -> None:
+    for i in range(0, len(cell_list), CHUNK):
+        part = cell_list[i : i + CHUNK]
+        letter = chr(ord("a") + i // CHUNK)
+        lines = [
+            f"{canonical[k]} (target: {tgt}, {k[1]})" for k in part if k in canonical
+        ]
+        text = TEMPLATE.format(
+            code=tgt,
+            n=len(lines),
+            lemma=LANGS[tgt]["lemma"],
+            extra=LANGS[tgt]["extra"],
+            examples=LANGS[tgt]["examples"],
+            concepts="\n".join(lines),
+        )
+        (out_dir / f"{tgt}_r{letter}.txt").write_text(text, encoding="utf-8")
+
+
 def main(root: Path | None = None, round_no: str | None = None) -> None:
     root = root or Path(__file__).resolve().parent.parent
     round_no = round_no or (sys.argv[1] if len(sys.argv) > 1 else "2")
@@ -152,124 +295,24 @@ def main(root: Path | None = None, round_no: str | None = None) -> None:
 
     records = load_csv_records(root) + load_expansion_records(root)
     delivery = build_delivery_rows(records)
-
-    # Gate-exact criterion 4 bookkeeping: per target lang, (norm gloss, pos)
-    # -> set of lemmas; per src lang, row list for pair counting.
-    index: dict[str, dict[tuple[str, str], set[str]]] = {}
-    for lang, rows in delivery.items():
-        idx: dict[tuple[str, str], set[str]] = {}
-        for row in rows:
-            if not row.gloss:
-                continue
-            idx.setdefault((normalize_gloss(row.gloss), row.pos), set()).add(row.lemma)
-        index[lang] = idx
-    canonical: dict[tuple[str, str], str] = {}
-    for rows in delivery.values():
-        for row in rows:
-            if not row.gloss:
-                continue
-            key = (normalize_gloss(row.gloss), row.pos)
-            cur = canonical.get(key)
-            if cur is None or len(row.gloss) > len(cur):
-                canonical[key] = row.gloss
-
-    # Keys a fresh target row cannot cover: either already present in the raw
-    # expansion CSV (harmonization dropped it once, it will drop again), or
-    # (en only) the gloss already exists in the delivery under another POS so
-    # the new row collides on (lang, lemma, gloss_norm) and is dropped.
-    import csv as _csv
-
-    raw_keys: dict[str, set[tuple[str, str]]] = {}
-    for lang, code in LANG_DIRS.items():
-        ks: set[tuple[str, str]] = set()
-        p = root / lang / "expansion.csv"
-        if p.exists():
-            with p.open(newline="", encoding="utf-8") as handle:
-                reader = _csv.reader(handle)
-                next(reader, None)
-                for cols in reader:
-                    if len(cols) >= 4 and cols[0].strip():
-                        ks.add(
-                            (normalize_gloss(cols[1].strip()), cols[3].strip().upper())
-                        )
-        raw_keys[code] = ks
-    bygloss: dict[str, dict[str, set[str]]] = {}
-    for lang, rows in delivery.items():
-        bg: dict[str, set[str]] = defaultdict(set)
-        for row in rows:
-            if row.gloss:
-                bg[normalize_gloss(row.gloss)].add(row.pos)
-        bygloss[lang] = bg
+    index = _concept_index(delivery)
+    canonical = _canonical_glosses(delivery)
+    raw_keys = _raw_expansion_keys(root)
+    bygloss = _gloss_pos_index(delivery)
 
     total = 0
     for tgt in ORDER:
-        covered = index[tgt]
-        deficits: list[tuple[str, int, set[tuple[str, str]]]] = []
-        for src in ORDER:
-            if src == tgt:
-                continue
-            src_rows = delivery[src]
-            n = len(src_rows)
-            eindeutig = 0
-            missing: set[tuple[str, str]] = set()
-            for row in src_rows:
-                if not row.gloss:
-                    continue
-                key = (normalize_gloss(row.gloss), row.pos)
-                found = len(covered.get(key, ()))
-                if found == 1:
-                    eindeutig += 1
-                elif found == 0:
-                    missing.add(key)
-            need = max(0, math.ceil(0.8 * n) - eindeutig)
-            if need:
-                deficits.append((src, need, missing))
+        deficits = _pair_deficits(tgt, delivery, index)
         if not deficits:
             print(f"{tgt}: all pairs >= 80%")
             continue
-        chosen: set[tuple[str, str]] = set()
-        for _, need, cells in sorted(deficits, key=lambda d: -d[1]):
-            clean: list[tuple[str, str]] = []
-            fallback: list[tuple[str, str]] = []
-            for k in sorted(cells - chosen):
-                if k in raw_keys[tgt]:
-                    continue  # dropped before; regeneration is a black hole
-                if (
-                    tgt == "en"
-                    and k[0] in bygloss["en"]
-                    and k[1] not in bygloss["en"][k[0]]
-                ):
-                    continue  # en: lemma == gloss, (lang,lemma,gloss) collision
-                if k[0] in bygloss[tgt]:
-                    fallback.append(k)  # gloss exists under another POS
-                else:
-                    clean.append(k)
-            # take what the pair needs, then pad with spare clean cells so
-            # Gemini POS drift or invalid rows do not stall the round
-            take = clean[:need] + fallback[:need] + clean[need : 2 * need]
-            chosen.update(take[: 2 * need])
+        chosen = _choose_cells(tgt, deficits, raw_keys, bygloss)
         cell_list = sorted(chosen, key=lambda k: (canonical.get(k, k[0]), k[1]))
         print(
             f"{tgt}: {len(cell_list)} cells for "
             f"{[f'{s}->{tgt}: {need}' for s, need, _ in deficits]}"
         )
-        for i in range(0, len(cell_list), CHUNK):
-            part = cell_list[i : i + CHUNK]
-            letter = chr(ord("a") + i // CHUNK)
-            lines = [
-                f"{canonical[k]} (target: {tgt}, {k[1]})"
-                for k in part
-                if k in canonical
-            ]
-            text = TEMPLATE.format(
-                code=tgt,
-                n=len(lines),
-                lemma=LANGS[tgt]["lemma"],
-                extra=LANGS[tgt]["extra"],
-                examples=LANGS[tgt]["examples"],
-                concepts="\n".join(lines),
-            )
-            (out_dir / f"{tgt}_r{letter}.txt").write_text(text, encoding="utf-8")
+        _write_chunks(out_dir, tgt, cell_list, canonical)
         total += len(cell_list)
     print(f"total: {total} concepts -> {out_dir}")
 

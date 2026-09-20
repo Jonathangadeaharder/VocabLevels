@@ -58,6 +58,79 @@ T1_NAME = "English_Lemma"
 T2_NAME = "Chinese_Lemma"
 
 
+def _field_issues(
+    idx: int,
+    lemma: str,
+    lemma_raw: str,
+    t1: str,
+    t1_raw: str,
+    t2: str,
+    t2_raw: str,
+) -> tuple[int, int]:
+    """Field-level checks for one row; returns (issues, warnings)."""
+    issues = 0
+    warnings = 0
+    if not lemma:
+        print(f"    L{idx}: empty lemma")
+        return 1, 0
+    if lemma != lemma_raw:
+        print(f"    L{idx}: lemma '{lemma}' has leading/trailing whitespace")
+        issues += 1
+    if " " in lemma:
+        print(f"    L{idx}: multi-word lemma '{lemma}'")
+        issues += 1
+    if re.search(r"[0-9]", lemma) and not _digits_allowed(lemma):
+        print(f"    L{idx}: digits in lemma '{lemma}'")
+        issues += 1
+    if SPECIAL_CHARS.search(lemma):
+        print(f"    L{idx}: special chars in lemma '{lemma}'")
+        issues += 1
+    # Capitalized lemmas allowed (German nouns, proper nouns in any language)
+
+    if not t1:
+        print(f"    L{idx}: '{lemma}' missing {T1_NAME}")
+        issues += 1
+    elif t1 != t1_raw:
+        print(f"    L{idx}: '{lemma}' {T1_NAME} has whitespace")
+        issues += 1
+    if not t2:
+        # Chinese_Lemma translations are 100% unfilled for 7/8
+        # languages (tracked as a known gap in the audit doc) — a
+        # translation-completeness gap, not a lemma-cleanliness
+        # defect, so it must not drown out real issues in the count.
+        print(f"    L{idx}: [WARN] '{lemma}' missing {T2_NAME}")
+        warnings += 1
+    elif t2 != t2_raw:
+        print(f"    L{idx}: '{lemma}' {T2_NAME} has whitespace")
+        issues += 1
+    return issues, warnings
+
+
+def _duplicate_issues(
+    idx: int,
+    lemma: str,
+    pos: str,
+    key: str,
+    level: str,
+    seen_lemmas: dict[str, str],
+    intra_lemmas: set[str],
+) -> int:
+    """Intra-level and cross-level duplicate detection (lemma + POS keyed)."""
+    issues = 0
+    if key in intra_lemmas:
+        print(f"    L{idx}: intra-level duplicate '{lemma}' ({pos})")
+        issues += 1
+    intra_lemmas.add(key)
+
+    # Cross-level check also keyed on lemma+POS
+    if key in seen_lemmas and seen_lemmas[key] != level:
+        print(f"    L{idx}: '{lemma}' ({pos}) already in {seen_lemmas[key]}")
+        issues += 1
+    else:
+        seen_lemmas.setdefault(key, level)
+    return issues
+
+
 def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
     cfg = LANGS[lang]
     lang_dir = ROOT / lang
@@ -110,57 +183,21 @@ def check_language(lang: str, *, show_shared_translations: bool = False) -> int:
             t1 = t1_raw.strip()
             t2 = t2_raw.strip()
 
+            row_issues, row_warnings = _field_issues(
+                idx, lemma, lemma_raw, t1, t1_raw, t2, t2_raw
+            )
+            issues += row_issues
+            warnings += row_warnings
             if not lemma:
-                print(f"    L{idx}: empty lemma")
-                issues += 1
                 continue
-            if lemma != lemma_raw:
-                print(f"    L{idx}: lemma '{lemma}' has leading/trailing whitespace")
-                issues += 1
-            if " " in lemma:
-                print(f"    L{idx}: multi-word lemma '{lemma}'")
-                issues += 1
-            if re.search(r"[0-9]", lemma) and not _digits_allowed(lemma):
-                print(f"    L{idx}: digits in lemma '{lemma}'")
-                issues += 1
-            if SPECIAL_CHARS.search(lemma):
-                print(f"    L{idx}: special chars in lemma '{lemma}'")
-                issues += 1
-            # Capitalized lemmas allowed (German nouns, proper nouns in any language)
-
-            if not t1:
-                print(f"    L{idx}: '{lemma}' missing {T1_NAME}")
-                issues += 1
-            elif t1 != t1_raw:
-                print(f"    L{idx}: '{lemma}' {T1_NAME} has whitespace")
-                issues += 1
-            if not t2:
-                # Chinese_Lemma translations are 100% unfilled for 7/8
-                # languages (tracked as a known gap in the audit doc) — a
-                # translation-completeness gap, not a lemma-cleanliness
-                # defect, so it must not drown out real issues in the count.
-                print(f"    L{idx}: [WARN] '{lemma}' missing {T2_NAME}")
-                warnings += 1
-            elif t2 != t2_raw:
-                print(f"    L{idx}: '{lemma}' {T2_NAME} has whitespace")
-                issues += 1
 
             # Duplicate key includes POS: same lemma with different POS
             # (e.g. "run" as VERB and NOUN) is NOT a duplicate.
             pos = (pos_raw or "X").strip()
             key = f"{lemma.lower()}|{pos}"
-
-            if key in intra_lemmas:
-                print(f"    L{idx}: intra-level duplicate '{lemma}' ({pos})")
-                issues += 1
-            intra_lemmas.add(key)
-
-            # Cross-level check also keyed on lemma+POS
-            if key in seen_lemmas and seen_lemmas[key] != level:
-                print(f"    L{idx}: '{lemma}' ({pos}) already in {seen_lemmas[key]}")
-                issues += 1
-            else:
-                seen_lemmas.setdefault(key, level)
+            issues += _duplicate_issues(
+                idx, lemma, pos, key, level, seen_lemmas, intra_lemmas
+            )
 
             for trans in {t1.lower(), t2.lower()}:
                 if trans:
