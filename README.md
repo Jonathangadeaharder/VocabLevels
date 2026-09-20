@@ -55,3 +55,7 @@ uv run python -m pytest
 - CI: ruff format, ruff check, pyright, pytest (86% branch coverage)
 - SonarQube: self-hosted, quality-gate-enforced (`sonar.qualitygate.wait=true`)
 - AI Code Review: OpenCodeReview, gates on high/critical findings
+
+## Data contract
+
+See `check_data_contract.py` for the enforced gate; `build_contract_delivery.py` packages a delivery TSV set for validation.
