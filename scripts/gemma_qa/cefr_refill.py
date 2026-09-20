@@ -476,6 +476,97 @@ def _novel_slot_verdict(
     return candidate, None
 
 
+def _run_novel_slots(
+    slots: list[int],
+    *,
+    lang: str,
+    level: str,
+    round_number: int,
+    client: NovelClient,
+    ledger: Ledger,
+    single_model: str | None,
+    final: list[CefrReviewRow],
+    collision_keys: set[tuple[str, UPOS]],
+    used_keys: set[tuple[str, UPOS]],
+    represented_english: set[tuple[str, UPOS]],
+    rejected_exclusions: list[str],
+    rejected_slots: list[int],
+    reject_reasons: dict[str, int],
+) -> None:
+    slot_ids = [
+        f"novel:{lang}:{level}:slot:{slot}:round:{round_number}" for slot in slots
+    ]
+    exclusions = _ordered_novel_exclusions(rejected_exclusions, final)
+    event(
+        "novel.batch_start",
+        lang=lang,
+        level_name=level,
+        attempt=round_number,
+        slots=len(slots),
+        batch_id=f"{slot_ids[0]}..{slot_ids[-1]}" if slot_ids else None,
+    )
+    try:
+        reviewed = _run_novel_batch(
+            slot_ids,
+            exclusions=exclusions,
+            lang=lang,
+            level=level,
+            client=client,
+            ledger=ledger,
+            single_model=single_model,
+        )
+    except ValueError as error:
+        # Wrong IDs/cardinality after repairs — retry these slots later.
+        rejected_slots.extend(slots)
+        reject_reasons["identity"] = reject_reasons.get("identity", 0) + len(slots)
+        event(
+            "novel.batch_identity_error",
+            level="WARN",
+            lang=lang,
+            level_name=level,
+            attempt=round_number,
+            slots=len(slots),
+            error=str(error).splitlines()[0][:300],
+        )
+        return
+    for slot, candidate in zip(slots, reviewed.rows, strict=True):
+        accepted_candidate = CefrReviewRow.model_validate(
+            candidate.model_dump(mode="json")
+        )
+        accepted_candidate, reason = _novel_slot_verdict(
+            accepted_candidate,
+            lang=lang,
+            collision_keys=collision_keys,
+            used_keys=used_keys,
+            represented_english=represented_english,
+            required_initial=novel_initial_hint(candidate.id),
+        )
+        if reason is not None:
+            target_key = normalized_key(
+                accepted_candidate.lemma, accepted_candidate.upos
+            )
+            _remember_rejected_key(rejected_exclusions, target_key)
+            rejected_slots.append(slot)
+            reject_reasons[reason] = reject_reasons.get(reason, 0) + 1
+            continue
+        target_key = normalized_key(accepted_candidate.lemma, accepted_candidate.upos)
+        english_key = normalized_key(
+            accepted_candidate.english_lemma, accepted_candidate.upos
+        )
+        final.append(accepted_candidate)
+        used_keys.add(target_key)
+        represented_english.add(english_key)
+        event(
+            "novel.accept",
+            lang=lang,
+            level_name=level,
+            attempt=round_number,
+            lemma=accepted_candidate.lemma,
+            upos=accepted_candidate.upos.value,
+            english_lemma=accepted_candidate.english_lemma,
+        )
+
+
 def _complete_novel_rows(
     final: list[CefrReviewRow],
     *,
@@ -507,83 +598,22 @@ def _complete_novel_rows(
         reject_reasons: dict[str, int] = {}
         for start in range(0, len(pending_slots), MAX_NOVEL_RECORDS):
             slots = pending_slots[start : start + MAX_NOVEL_RECORDS]
-            slot_ids = [
-                f"novel:{lang}:{level}:slot:{slot}:round:{round_number}"
-                for slot in slots
-            ]
-            exclusions = _ordered_novel_exclusions(rejected_exclusions, final)
-            event(
-                "novel.batch_start",
+            _run_novel_slots(
+                slots,
                 lang=lang,
-                level_name=level,
-                attempt=round_number,
-                slots=len(slots),
-                batch_id=f"{slot_ids[0]}..{slot_ids[-1]}" if slot_ids else None,
+                level=level,
+                round_number=round_number,
+                client=client,
+                ledger=ledger,
+                single_model=single_model,
+                final=final,
+                collision_keys=collision_keys,
+                used_keys=used_keys,
+                represented_english=represented_english,
+                rejected_exclusions=rejected_exclusions,
+                rejected_slots=rejected_slots,
+                reject_reasons=reject_reasons,
             )
-            try:
-                reviewed = _run_novel_batch(
-                    slot_ids,
-                    exclusions=exclusions,
-                    lang=lang,
-                    level=level,
-                    client=client,
-                    ledger=ledger,
-                    single_model=single_model,
-                )
-            except ValueError as error:
-                # Wrong IDs/cardinality after repairs — retry these slots later.
-                rejected_slots.extend(slots)
-                reject_reasons["identity"] = reject_reasons.get("identity", 0) + len(
-                    slots
-                )
-                event(
-                    "novel.batch_identity_error",
-                    level="WARN",
-                    lang=lang,
-                    level_name=level,
-                    attempt=round_number,
-                    slots=len(slots),
-                    error=str(error).splitlines()[0][:300],
-                )
-                continue
-            for slot, candidate in zip(slots, reviewed.rows, strict=True):
-                accepted_candidate = CefrReviewRow.model_validate(
-                    candidate.model_dump(mode="json")
-                )
-                accepted_candidate, reason = _novel_slot_verdict(
-                    accepted_candidate,
-                    lang=lang,
-                    collision_keys=collision_keys,
-                    used_keys=used_keys,
-                    represented_english=represented_english,
-                    required_initial=novel_initial_hint(candidate.id),
-                )
-                if reason is not None:
-                    target_key = normalized_key(
-                        accepted_candidate.lemma, accepted_candidate.upos
-                    )
-                    _remember_rejected_key(rejected_exclusions, target_key)
-                    rejected_slots.append(slot)
-                    reject_reasons[reason] = reject_reasons.get(reason, 0) + 1
-                    continue
-                target_key = normalized_key(
-                    accepted_candidate.lemma, accepted_candidate.upos
-                )
-                english_key = normalized_key(
-                    accepted_candidate.english_lemma, accepted_candidate.upos
-                )
-                final.append(accepted_candidate)
-                used_keys.add(target_key)
-                represented_english.add(english_key)
-                event(
-                    "novel.accept",
-                    lang=lang,
-                    level_name=level,
-                    attempt=round_number,
-                    lemma=accepted_candidate.lemma,
-                    upos=accepted_candidate.upos.value,
-                    english_lemma=accepted_candidate.english_lemma,
-                )
         pending_slots = rejected_slots
         event(
             "novel.round_end",

@@ -150,6 +150,14 @@ def _report_level_counts(level: str, count: int, target: int) -> None:
     print(f"  {level}: {count} rows (target {target}) — {status}")
 
 
+def _row_fields(row: list[str]) -> tuple[str, str, str, str]:
+    lemma_raw = row[LEMMA_IDX] if len(row) > LEMMA_IDX else ""
+    t1_raw = row[T1_IDX] if len(row) > T1_IDX else ""
+    t2_raw = row[T2_IDX] if len(row) > T2_IDX else ""
+    pos_raw = row[POS_IDX] if len(row) > POS_IDX else ""
+    return lemma_raw, t1_raw, t2_raw, pos_raw
+
+
 def _scan_level_rows(
     rows: list[list[str]], level: str, seen_lemmas: dict[str, str]
 ) -> tuple[int, int, dict[str, set[str]]]:
@@ -158,10 +166,7 @@ def _scan_level_rows(
     intra_lemmas: set[str] = set()
     intra_trans: dict[str, set[str]] = {}  # translation -> lemmas in this level
     for idx, row in enumerate(rows, start=2):
-        lemma_raw = row[LEMMA_IDX] if len(row) > LEMMA_IDX else ""
-        t1_raw = row[T1_IDX] if len(row) > T1_IDX else ""
-        t2_raw = row[T2_IDX] if len(row) > T2_IDX else ""
-        pos_raw = row[POS_IDX] if len(row) > POS_IDX else ""
+        lemma_raw, t1_raw, t2_raw, pos_raw = _row_fields(row)
 
         lemma = lemma_raw.strip()
         t1 = t1_raw.strip()
