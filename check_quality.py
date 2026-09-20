@@ -39,7 +39,7 @@ _DIGIT_OK = re.compile(
 
 
 def _digits_allowed(lemma: str) -> bool:
-    if not re.search(r"\d", lemma):
+    if not re.search(r"\d", lemma, re.ASCII):
         return False
     return bool(_DIGIT_OK.match(lemma.strip()))
 
@@ -79,7 +79,7 @@ def _field_issues(
     if " " in lemma:
         print(f"    L{idx}: multi-word lemma '{lemma}'")
         issues += 1
-    if re.search(r"\d", lemma) and not _digits_allowed(lemma):
+    if re.search(r"\d", lemma, re.ASCII) and not _digits_allowed(lemma):
         print(f"    L{idx}: digits in lemma '{lemma}'")
         issues += 1
     if SPECIAL_CHARS.search(lemma):

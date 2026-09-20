@@ -11,6 +11,7 @@ from check_data_contract import (
     EXTENDED_COGNATE_ALLOWLIST,
     TSV_HEADER,
     Row,
+    _report_violations,
     check_ascii,
     check_duplicates,
     check_rank_gaps,
@@ -202,6 +203,15 @@ def test_run_delivery_fails_on_coverage_and_foreign_gloss(
     assert "RESULT: FAIL" in out
     assert "[LOW] de->es" in out
     assert "criterion 3: 1 group(s)" in out
+
+
+def test_report_violations_prints_label_without_appended_count(
+    capsys: pytest.CaptureFixture[str],
+) -> None:
+    # Callers embed the count in the label; the helper must not append it
+    # again (regression: "criterion 2: 3 duplicate keys: 3").
+    assert _report_violations("criterion 2: 3 duplicate keys", ["a", "b", "c"])
+    assert capsys.readouterr().out.splitlines()[0] == "criterion 2: 3 duplicate keys"
 
 
 def test_run_baseline_reports_and_returns_zero(tmp_path: Path) -> None:

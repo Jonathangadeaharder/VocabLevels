@@ -2676,7 +2676,7 @@ def run_baseline(root: Path) -> int:
 
 
 def _report_violations(label: str, items: list[str]) -> bool:
-    print(f"{label}: {len(items)}")
+    print(label)
     for item in items[:20]:
         print(f"  {item}")
     return bool(items)
