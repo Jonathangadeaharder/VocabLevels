@@ -1,15 +1,30 @@
 name: SonarQube
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+
+permissions:
+  contents: read
+
 jobs:
   sonar:
     name: SonarQube Analysis
+    # pull_request never receives secrets for dependabot PRs, so the scan
+    # runs from the completed CI workflow, which always has secret access
+    # (issue #159); forks and red CI runs are excluded from scanning.
+    if: >-
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      github.event.workflow_run.conclusion == 'success'
     runs-on: [self-hosted, macOS, ARM64, VidiomTM]
+    # SonarQube Community Build analyzes the main branch only (no branch or
+    # pull request analysis), so no sonar.pullrequest.* / sonar.branch.*
+    # parameters are passed: every scan lands on the main-branch analysis.
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
       - name: Install uv
         uses: astral-sh/setup-uv@v6
       - name: Install dependencies
