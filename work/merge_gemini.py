@@ -35,53 +35,60 @@ POS_OK = {
 }
 
 
+def _load_covered_keys(path: Path) -> set[tuple[str, str]]:
+    """(normalize_gloss(english), POS) already present in expansion.csv."""
+    covered: set[tuple[str, str]] = set()
+    if path.exists():
+        with path.open(newline="", encoding="utf-8") as handle:
+            reader = csv.reader(handle)
+            next(reader, None)
+            for cols in reader:
+                if len(cols) >= 4 and cols[0].strip() and cols[1].strip():
+                    covered.add(
+                        (normalize_gloss(cols[1].strip()), cols[3].strip().upper())
+                    )
+    return covered
+
+
+def _collect_new_rows(
+    files: list[Path], covered: set[tuple[str, str]]
+) -> tuple[list[list[str]], int]:
+    seen: set[tuple[str, str]] = set()
+    new_rows: list[list[str]] = []
+    dropped = 0
+    for f in files:
+        with f.open(newline="", encoding="utf-8") as handle:
+            reader = csv.reader(handle)
+            next(reader, None)
+            for cols in reader:
+                if len(cols) < 6:
+                    dropped += 1
+                    continue
+                _, lemma, gloss, zh, pos, cefr = (c.strip() for c in cols[:6])
+                cefr = {"C1": "Advanced"}.get(cefr, cefr)
+                if not lemma or not gloss or pos not in POS_OK or cefr not in LEVELS:
+                    dropped += 1
+                    continue
+                key = (normalize_gloss(gloss), pos)
+                if key in covered or key in seen:
+                    dropped += 1
+                    continue
+                seen.add(key)
+                new_rows.append([lemma, gloss, zh, pos, cefr])
+    return new_rows, dropped
+
+
 def merge(root: Path, out_dir: Path) -> None:
     for name, code in LANG_DIRS.items():
         path = root / name / "expansion.csv"
-        covered: set[tuple[str, str]] = set()
-        if path.exists():
-            with path.open(newline="", encoding="utf-8") as handle:
-                reader = csv.reader(handle)
-                next(reader, None)
-                for cols in reader:
-                    if len(cols) >= 4 and cols[0].strip() and cols[1].strip():
-                        covered.add(
-                            (normalize_gloss(cols[1].strip()), cols[3].strip().upper())
-                        )
-
+        covered = _load_covered_keys(path)
         files = sorted(out_dir.glob(f"{code}_80*.csv")) + sorted(
             out_dir.glob(f"{code}_r*.csv")
         )
         if not files:
             print(f"{code}: no gemini files")
             continue
-        seen: set[tuple[str, str]] = set()
-        new_rows: list[list[str]] = []
-        dropped = 0
-        for f in files:
-            with f.open(newline="", encoding="utf-8") as handle:
-                reader = csv.reader(handle)
-                next(reader, None)
-                for cols in reader:
-                    if len(cols) < 6:
-                        dropped += 1
-                        continue
-                    _, lemma, gloss, zh, pos, cefr = (c.strip() for c in cols[:6])
-                    cefr = {"C1": "Advanced"}.get(cefr, cefr)
-                    if (
-                        not lemma
-                        or not gloss
-                        or pos not in POS_OK
-                        or cefr not in LEVELS
-                    ):
-                        dropped += 1
-                        continue
-                    key = (normalize_gloss(gloss), pos)
-                    if key in covered or key in seen:
-                        dropped += 1
-                        continue
-                    seen.add(key)
-                    new_rows.append([lemma, gloss, zh, pos, cefr])
+        new_rows, dropped = _collect_new_rows(files, covered)
         if new_rows:
             with path.open("a", encoding="utf-8", newline="") as handle:
                 writer = csv.writer(handle, lineterminator="\n")
