@@ -11,31 +11,17 @@ jobs:
   sonar:
     name: SonarQube Analysis
     # pull_request never receives secrets for dependabot PRs, so the scan
-    # runs from the completed CI workflow instead: the workflow_run context
-    # always has secret access (issue #159). Scans are restricted to runs
-    # from this repository (forks excluded) with a green CI, since a failed
-    # run has no trustworthy coverage report.
+    # runs from the completed CI workflow, which always has secret access
+    # (issue #159); forks and red CI runs are excluded from scanning.
     if: >-
       github.event.workflow_run.head_repository.full_name == github.repository &&
       github.event.workflow_run.conclusion == 'success'
     runs-on: [self-hosted, macOS, ARM64, VidiomTM]
+    # SonarQube Community Build analyzes the main branch only (no branch or
+    # pull request analysis), so no sonar.pullrequest.* / sonar.branch.*
+    # parameters are passed: every scan lands on the main-branch analysis.
+    timeout-minutes: 30
     steps:
-      - name: Resolve PR context
-        id: pr
-        env:
-          GH_TOKEN: ${{ github.token }}
-          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
-          TRIGGER: ${{ github.event.workflow_run.event }}
-        run: |
-          if [ "$TRIGGER" != "pull_request" ]; then
-            echo "number=" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          NUMBER=$(gh api \
-            "repos/${{ github.repository }}/commits/${HEAD_SHA}/pulls" \
-            --jq '[.[] | select(.state == "open")][0].number // empty' \
-            2>/dev/null || true)
-          echo "number=${NUMBER}" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           ref: ${{ github.event.workflow_run.head_sha }}
@@ -61,11 +47,7 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@713881670b6b3676cda39549040e2d88c70d582e # v8.2.0
         with:
           # Fail the workflow when the scan does not pass the quality gate.
-          # The workflow_run ref is the default branch, so PR context must be
-          # passed explicitly for PR scans.
-          args: >-
-            -Dsonar.qualitygate.wait=true
-            ${{ steps.pr.outputs.number != '' && format('-Dsonar.pullrequest.key={0} -Dsonar.pullrequest.base=main -Dsonar.pullrequest.branch={1}', steps.pr.outputs.number, github.event.workflow_run.head_branch) || '' }}
+          args: -Dsonar.qualitygate.wait=true
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: http://127.0.0.1:9001
