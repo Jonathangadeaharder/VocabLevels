@@ -2447,38 +2447,48 @@ def _unquote(value: str) -> str:
     return value
 
 
+def _rows_from_csv(path: Path, code: str) -> list[Row]:
+    rows: list[Row] = []
+    with path.open(newline="", encoding="utf-8") as handle:
+        reader = csv.reader(handle)
+        next(reader, None)
+        for cols in reader:
+            lemma = _unquote(cols[0]) if len(cols) > 0 else ""
+            if not lemma:
+                continue
+            gloss = _unquote(cols[1]) if len(cols) > 1 else ""
+            pos = cols[3].strip() if len(cols) > 3 else ""
+            rows.append(Row(code, lemma, pos, gloss, None))
+    return rows
+
+
 def load_csv_rows(root: Path) -> list[Row]:
     """Read the authored CEFR CSVs (levels A1-C1) of every language."""
     rows: list[Row] = []
     for name, code in LANG_DIRS.items():
         for level in LEVELS:
             path = root / name / f"{level}.csv"
-            if not path.exists():
-                continue
-            with path.open(newline="", encoding="utf-8") as handle:
-                reader = csv.reader(handle)
-                next(reader, None)
-                for cols in reader:
-                    lemma = _unquote(cols[0]) if len(cols) > 0 else ""
-                    if not lemma:
-                        continue
-                    gloss = _unquote(cols[1]) if len(cols) > 1 else ""
-                    pos = cols[3].strip() if len(cols) > 3 else ""
-                    rows.append(Row(code, lemma, pos, gloss, None))
+            if path.exists():
+                rows.extend(_rows_from_csv(path, code))
         path = root / name / "expansion.csv"
-        if not path.exists():
-            continue
-        with path.open(newline="", encoding="utf-8") as handle:
-            reader = csv.reader(handle)
-            next(reader, None)
-            for cols in reader:
-                lemma = _unquote(cols[0]) if len(cols) > 0 else ""
-                if not lemma:
-                    continue
-                gloss = _unquote(cols[1]) if len(cols) > 1 else ""
-                pos = cols[3].strip() if len(cols) > 3 else ""
-                rows.append(Row(code, lemma, pos, gloss, None))
+        if path.exists():
+            rows.extend(_rows_from_csv(path, code))
     return rows
+
+
+def _row_from_tsv(path_name: str, code: str, cols: list[str]) -> Row | None:
+    if not cols or not cols[0].strip():
+        return None
+    if len(cols) < 4:
+        raise ValueError(f"{path_name}: row has {len(cols)} columns: {cols}")
+    rank_text = cols[5].strip() if len(cols) > 5 else ""
+    return Row(
+        lang=code,
+        lemma=cols[0].strip(),
+        pos=cols[3].strip(),
+        english_gloss=cols[2].strip(),
+        rank=int(rank_text) if rank_text else None,
+    )
 
 
 def load_delivery_rows(delivery: Path) -> list[Row]:
@@ -2492,22 +2502,9 @@ def load_delivery_rows(delivery: Path) -> list[Row]:
             if header != TSV_HEADER:
                 raise ValueError(f"{path.name}: unexpected header {header}")
             for cols in reader:
-                if not cols or not cols[0].strip():
-                    continue
-                if len(cols) < 4:
-                    raise ValueError(
-                        f"{path.name}: row has {len(cols)} columns: {cols}"
-                    )
-                rank_text = cols[5].strip() if len(cols) > 5 else ""
-                rows.append(
-                    Row(
-                        lang=code,
-                        lemma=cols[0].strip(),
-                        pos=cols[3].strip(),
-                        english_gloss=cols[2].strip(),
-                        rank=int(rank_text) if rank_text else None,
-                    )
-                )
+                row = _row_from_tsv(path.name, code, cols)
+                if row is not None:
+                    rows.append(row)
     return rows
 
 
@@ -2591,56 +2588,65 @@ def check_ascii(rows: list[Row]) -> list[str]:
     return violations
 
 
+def _script_violation(lang: str, lemma: str) -> str | None:
+    script_re = ARABIC_SCRIPT if lang == "ar" else CHINESE_SCRIPT
+    label = "arabic" if lang == "ar" else "chinese"
+    if any(c.isalpha() for c in lemma) and not script_re.search(lemma):
+        return f"{lang}:non_{label}_script:'{lemma}'"
+    return None
+
+
+def _gloss_copy_violation(row: Row, lemma: str) -> str | None:
+    # Non-English Latin-script languages: check for English gloss copies
+    gloss_norm = normalize_gloss(row.english_gloss)
+    lemma_norm = normalize_gloss(lemma)
+    lemma_lower = lemma.lower()
+    gloss_lower = row.english_gloss.lower()
+
+    if lemma_norm == gloss_norm or lemma_lower == gloss_lower:
+        allowlist = COGNATE_ALLOWLIST.get(
+            row.lang, set()
+        ) | EXTENDED_COGNATE_ALLOWLIST.get(row.lang, set())
+        if (
+            lemma_lower not in allowlist
+            and lemma_norm not in allowlist
+            and lemma_lower not in MULTIWORD_LOAN_PHRASES
+        ):
+            return f"{row.lang}:ungrounded_gloss_copy:'{lemma}'"
+
+    # English function word prefix copies ("to ", "the ", "his " etc.);
+    # native multiword expressions ("in Ordnung", "a través de") start
+    # with a native preposition/article, not an English copy.
+    if (
+        lemma_lower.startswith(ENGLISH_FUNCTION_PREFIXES)
+        and lemma_lower not in MULTIWORD_LOAN_PHRASES
+        and not lemma_lower.startswith(NATIVE_FUNCTION_PREFIXES.get(row.lang, ()))
+    ):
+        return f"{row.lang}:english_function_prefix_copy:'{lemma}'"
+    return None
+
+
+def _substance_violation(row: Row) -> str | None:
+    lemma = row.lemma.strip()
+    if not lemma:
+        return f"{row.lang}:empty_lemma:'{row.english_gloss}'"
+    if lemma in FORBIDDEN_JUNK_LEMMAS:
+        return f"{row.lang}:junk_lemma:'{lemma}'"
+    if row.lang in ("ar", "zh"):
+        return _script_violation(row.lang, lemma)
+    if row.lang != "en":
+        return _gloss_copy_violation(row, lemma)
+    return None
+
+
 def check_script_and_substance(rows: list[Row]) -> list[str]:
     """Criterion 6: valid target script, no junk placeholder tokens,
     no ungrounded gloss copies."""
     violations = []
     for row in rows:
-        lemma = row.lemma.strip()
-        if not lemma:
-            violations.append(f"{row.lang}:empty_lemma:'{row.english_gloss}'")
-            continue
-        if lemma in FORBIDDEN_JUNK_LEMMAS:
-            violations.append(f"{row.lang}:junk_lemma:'{lemma}'")
-            continue
-        if row.lang == "ar":
-            if any(c.isalpha() for c in lemma) and not ARABIC_SCRIPT.search(lemma):
-                violations.append(f"ar:non_arabic_script:'{lemma}'")
-        elif row.lang == "zh":
-            if any(c.isalpha() for c in lemma) and not CHINESE_SCRIPT.search(lemma):
-                violations.append(f"zh:non_chinese_script:'{lemma}'")
-        elif row.lang != "en":
-            # Non-English Latin-script languages: check for English gloss copies
-            gloss_norm = normalize_gloss(row.english_gloss)
-            lemma_norm = normalize_gloss(lemma)
-            lemma_lower = lemma.lower()
-            gloss_lower = row.english_gloss.lower()
-
-            # Check if lemma copies the English gloss
-            is_gloss_copy = (lemma_norm == gloss_norm) or (lemma_lower == gloss_lower)
-            if is_gloss_copy:
-                allowlist = COGNATE_ALLOWLIST.get(
-                    row.lang, set()
-                ) | EXTENDED_COGNATE_ALLOWLIST.get(row.lang, set())
-                if (
-                    lemma_lower not in allowlist
-                    and lemma_norm not in allowlist
-                    and lemma_lower not in MULTIWORD_LOAN_PHRASES
-                ):
-                    violations.append(f"{row.lang}:ungrounded_gloss_copy:'{lemma}'")
-                    continue
-
-            # 2. English function word prefix copies ("to ", "the ", "his " etc.)
-            # Native multiword expressions ("in Ordnung", "a través de") start
-            # with a native preposition/article, not an English copy.
-            if (
-                lemma_lower.startswith(ENGLISH_FUNCTION_PREFIXES)
-                and lemma_lower not in MULTIWORD_LOAN_PHRASES
-                and not lemma_lower.startswith(
-                    NATIVE_FUNCTION_PREFIXES.get(row.lang, ())
-                )
-            ):
-                violations.append(f"{row.lang}:english_function_prefix_copy:'{lemma}'")
+        violation = _substance_violation(row)
+        if violation is not None:
+            violations.append(violation)
     return violations
 
 
@@ -2669,34 +2675,16 @@ def run_baseline(root: Path) -> int:
     return 0
 
 
-def run_delivery(delivery: Path, root: Path) -> int:
-    rows = load_delivery_rows(delivery)
-    if not rows:
-        print(f"no TSV rows found in {delivery}")
-        return 1
-    source = load_csv_rows(root)
-    failed = False
-
-    shrunk = check_shrunken_glosses(rows, source)
-    print(f"criterion 1: {len(shrunk)} shrunken multi-word glosses")
-    for item in shrunk[:20]:
+def _report_violations(label: str, items: list[str]) -> bool:
+    print(f"{label}: {len(items)}")
+    for item in items[:20]:
         print(f"  {item}")
-    failed |= bool(shrunk)
+    return bool(items)
 
-    dups = check_duplicates(rows)
-    print(f"criterion 2: {len(dups)} duplicate keys")
-    for item in dups[:20]:
-        print(f"  {item}")
-    failed |= bool(dups)
 
-    gaps = check_rank_gaps(rows)
-    print(f"criterion 3: {len(gaps)} group(s) without exactly one rank 1")
-    for item in gaps[:20]:
-        print(f"  {item}")
-    failed |= bool(gaps)
-
+def _report_pair_coverage(rows: list[Row], codes: list[str]) -> bool:
     print("criterion 4: eindeutige Abdeckung je Sprachpaar (>= 80 %)")
-    codes = sorted({r.lang for r in rows})
+    failed = False
     for source_lang in codes:
         for target in codes:
             if source_lang == target:
@@ -2710,18 +2698,41 @@ def run_delivery(delivery: Path, root: Path) -> int:
                 f"= {ratio:.0%} (mehrdeutig {mehr}, ohne {ohne})"
             )
             failed |= ratio < MIN_COVERAGE
+    return failed
+
+
+def run_delivery(delivery: Path, root: Path) -> int:
+    rows = load_delivery_rows(delivery)
+    if not rows:
+        print(f"no TSV rows found in {delivery}")
+        return 1
+    source = load_csv_rows(root)
+    failed = False
+
+    shrunk = check_shrunken_glosses(rows, source)
+    failed |= _report_violations(
+        f"criterion 1: {len(shrunk)} shrunken multi-word glosses", shrunk
+    )
+
+    dups = check_duplicates(rows)
+    failed |= _report_violations(f"criterion 2: {len(dups)} duplicate keys", dups)
+
+    gaps = check_rank_gaps(rows)
+    failed |= _report_violations(
+        f"criterion 3: {len(gaps)} group(s) without exactly one rank 1", gaps
+    )
+
+    failed |= _report_pair_coverage(rows, sorted({r.lang for r in rows}))
 
     ascii_bad = check_ascii(rows)
-    print(f"criterion 5: {len(ascii_bad)} non-ASCII or blank glosses")
-    for item in ascii_bad[:20]:
-        print(f"  {item}")
-    failed |= bool(ascii_bad)
+    failed |= _report_violations(
+        f"criterion 5: {len(ascii_bad)} non-ASCII or blank glosses", ascii_bad
+    )
 
     script_bad = check_script_and_substance(rows)
-    print(f"criterion 6: {len(script_bad)} script or substance violations")
-    for item in script_bad[:20]:
-        print(f"  {item}")
-    failed |= bool(script_bad)
+    failed |= _report_violations(
+        f"criterion 6: {len(script_bad)} script or substance violations", script_bad
+    )
 
     print("RESULT: FAIL" if failed else "RESULT: PASS")
     return 1 if failed else 0

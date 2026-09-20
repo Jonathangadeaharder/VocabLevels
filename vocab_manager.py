@@ -19,7 +19,7 @@ import csv
 import sys
 from pathlib import Path
 
-from vocab_schema import LANGS, LEVELS
+from vocab_schema import LANGS, LEVELS, LanguageSchema
 
 ROOT = Path(__file__).parent
 
@@ -155,6 +155,35 @@ def cmd_move(args: argparse.Namespace) -> int:
     return 0
 
 
+def _update_arg_error(
+    lang: str, rename: str | None, t1: str | None, t2: str | None
+) -> str | None:
+    if rename is not None and rename == "":
+        return "New lemma cannot be empty"
+    if rename and " " in rename:
+        return "New lemma must be single-word"
+    if rename and find(lang, rename):
+        return f"'{rename}' already exists in {lang}"
+    if t1 == "" or t2 == "":
+        return "Translations cannot be empty"
+    return None
+
+
+def _apply_row_update(
+    row: dict[str, str],
+    cfg: LanguageSchema,
+    rename: str | None,
+    t1: str | None,
+    t2: str | None,
+) -> None:
+    if t1 is not None:
+        row[cfg["trans_cols"][0]] = t1
+    if t2 is not None:
+        row[cfg["trans_cols"][1]] = t2
+    if rename is not None:
+        row[cfg["lemma_col"]] = rename
+
+
 def cmd_update(args: argparse.Namespace) -> int:
     cfg = LANGS[args.lang]
     needle = args.lemma.lower()
@@ -162,17 +191,9 @@ def cmd_update(args: argparse.Namespace) -> int:
     t1 = args.t1.strip() if args.t1 is not None else None
     t2 = args.t2.strip() if args.t2 is not None else None
 
-    if rename is not None and rename == "":
-        print("New lemma cannot be empty")
-        return 1
-    if rename and " " in rename:
-        print("New lemma must be single-word")
-        return 1
-    if rename and find(args.lang, rename):
-        print(f"'{rename}' already exists in {args.lang}")
-        return 1
-    if t1 == "" or t2 == "":
-        print("Translations cannot be empty")
+    error = _update_arg_error(args.lang, rename, t1, t2)
+    if error is not None:
+        print(error)
         return 1
 
     for level in LEVELS:
@@ -180,12 +201,7 @@ def cmd_update(args: argparse.Namespace) -> int:
         changed = False
         for row in rows:
             if row[cfg["lemma_col"]].lower() == needle:
-                if t1 is not None:
-                    row[cfg["trans_cols"][0]] = t1
-                if t2 is not None:
-                    row[cfg["trans_cols"][1]] = t2
-                if rename is not None:
-                    row[cfg["lemma_col"]] = rename
+                _apply_row_update(row, cfg, rename, t1, t2)
                 changed = True
         if changed:
             write_level(args.lang, level, rows)

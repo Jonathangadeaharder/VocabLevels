@@ -120,31 +120,46 @@ def event(
                 handle.write(line + "\n")
 
 
-def extract_thoughts(response_json: Mapping[str, object] | None) -> list[str]:
-    """Pull model thought/reasoning parts when the API returns them."""
-    if not response_json:
+def _thought_text(part: Mapping[str, object]) -> str | None:
+    text = part.get("text")
+    if not isinstance(text, str) or not text.strip():
+        return None
+    if part.get("thought") is True or part.get("thoughtSignature"):
+        return _clip(text, _MAX_THOUGHT)
+    return None
+
+
+def _candidate_thought_texts(candidate: Mapping[str, object]) -> list[str]:
+    content = candidate.get("content")
+    if not isinstance(content, dict):
         return []
-    thoughts: list[str] = []
+    parts = content.get("parts")
+    if not isinstance(parts, list):
+        return []
+    thoughts = []
+    for part in parts:
+        if not isinstance(part, dict):
+            continue
+        text = _thought_text(part)
+        if text is not None:
+            thoughts.append(text)
+    return thoughts
+
+
+def _candidate_thoughts(response_json: Mapping[str, object]) -> list[str]:
     candidates = response_json.get("candidates")
-    if isinstance(candidates, list):
-        for candidate in candidates:
-            if not isinstance(candidate, dict):
-                continue
-            content = candidate.get("content")
-            if not isinstance(content, dict):
-                continue
-            parts = content.get("parts")
-            if not isinstance(parts, list):
-                continue
-            for part in parts:
-                if not isinstance(part, dict):
-                    continue
-                text = part.get("text")
-                if not isinstance(text, str) or not text.strip():
-                    continue
-                if part.get("thought") is True or part.get("thoughtSignature"):
-                    thoughts.append(_clip(text, _MAX_THOUGHT))
+    if not isinstance(candidates, list):
+        return []
+    thoughts = []
+    for candidate in candidates:
+        if isinstance(candidate, dict):
+            thoughts.extend(_candidate_thought_texts(candidate))
+    return thoughts
+
+
+def _top_level_thoughts(response_json: Mapping[str, object]) -> list[str]:
     # Some payloads put thoughts at top-level or under usageMetadata notes.
+    thoughts = []
     for key in ("thinking", "thoughts", "reasoning"):
         raw = response_json.get(key)
         if isinstance(raw, str) and raw.strip():
@@ -153,6 +168,15 @@ def extract_thoughts(response_json: Mapping[str, object] | None) -> list[str]:
             for item in raw:
                 if isinstance(item, str) and item.strip():
                     thoughts.append(_clip(item, _MAX_THOUGHT))
+    return thoughts
+
+
+def extract_thoughts(response_json: Mapping[str, object] | None) -> list[str]:
+    """Pull model thought/reasoning parts when the API returns them."""
+    if not response_json:
+        return []
+    thoughts = _candidate_thoughts(response_json)
+    thoughts.extend(_top_level_thoughts(response_json))
     return thoughts
 
 

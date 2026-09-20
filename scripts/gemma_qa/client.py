@@ -523,43 +523,67 @@ class GemmaClient:
         return body[:-3].strip()
 
     @staticmethod
-    def _extract_text(response_json: dict[str, object]) -> str:
+    def _openai_text(response_json: dict[str, object]) -> str | None:
         # OpenAI chat.completion shape
         choices = response_json.get("choices")
-        if isinstance(choices, list) and choices:
-            choice = choices[0]
-            if isinstance(choice, dict):
-                message = choice.get("message")
-                if isinstance(message, dict):
-                    content = message.get("content")
-                    if isinstance(content, str) and content.strip():
-                        # Never fall back to reasoning_content: on TNG GLM it is
-                        # null while think tags live inside content.
-                        return content
-                text = choice.get("text")
-                if isinstance(text, str) and text.strip():
-                    return text
+        if not isinstance(choices, list) or not choices:
+            return None
+        choice = choices[0]
+        if not isinstance(choice, dict):
+            return None
+        message = choice.get("message")
+        if isinstance(message, dict):
+            content = message.get("content")
+            if isinstance(content, str) and content.strip():
+                # Never fall back to reasoning_content: on TNG GLM it is
+                # null while think tags live inside content.
+                return content
+        text = choice.get("text")
+        if isinstance(text, str) and text.strip():
+            return text
+        return None
+
+    @staticmethod
+    def _gemini_parts_text(candidate: dict[str, object]) -> str | None:
+        content = candidate.get("content")
+        if not isinstance(content, dict):
+            return None
+        parts = content.get("parts")
+        if not isinstance(parts, list):
+            return None
+        chunks: list[str] = []
+        for part in parts:
+            if not isinstance(part, dict):
+                continue
+            if part.get("thought") is True:
+                continue
+            part_text = part.get("text")
+            if isinstance(part_text, str):
+                chunks.append(part_text)
+        joined = "".join(chunks)
+        if joined.strip():
+            return joined
+        return None
+
+    @staticmethod
+    def _gemini_text(response_json: dict[str, object]) -> str | None:
         # Legacy Gemini shape (tests / old checkpoints)
         candidates = response_json.get("candidates")
-        if isinstance(candidates, list) and candidates:
-            candidate = candidates[0]
-            if isinstance(candidate, dict):
-                content = candidate.get("content")
-                if isinstance(content, dict):
-                    parts = content.get("parts")
-                    if isinstance(parts, list):
-                        chunks: list[str] = []
-                        for part in parts:
-                            if not isinstance(part, dict):
-                                continue
-                            if part.get("thought") is True:
-                                continue
-                            part_text = part.get("text")
-                            if isinstance(part_text, str):
-                                chunks.append(part_text)
-                        joined = "".join(chunks)
-                        if joined.strip():
-                            return joined
+        if not isinstance(candidates, list) or not candidates:
+            return None
+        candidate = candidates[0]
+        if not isinstance(candidate, dict):
+            return None
+        return GemmaClient._gemini_parts_text(candidate)
+
+    @staticmethod
+    def _extract_text(response_json: dict[str, object]) -> str:
+        text = GemmaClient._openai_text(response_json)
+        if text is not None:
+            return text
+        text = GemmaClient._gemini_text(response_json)
+        if text is not None:
+            return text
         raise ValueError("chat completion has no message content")
 
     @staticmethod

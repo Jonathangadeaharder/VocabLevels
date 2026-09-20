@@ -91,7 +91,7 @@ def clean_gloss(gloss: str) -> str:
     folded = unicodedata.normalize("NFKD", gloss)
     folded = "".join(c for c in folded if not unicodedata.combining(c))
     no_paren = re.sub(r"[()]", " ", folded)
-    no_slash = re.sub(r"[/]", " ", no_paren)
+    no_slash = re.sub(r"/", " ", no_paren)
     return re.sub(r"\s+", " ", no_slash).strip()
 
 

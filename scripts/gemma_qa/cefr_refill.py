@@ -447,6 +447,35 @@ def _accepted_refill_candidate(
     return candidate
 
 
+def _novel_slot_verdict(
+    candidate: CefrReviewRow,
+    *,
+    lang: str,
+    collision_keys: set[tuple[str, UPOS]],
+    used_keys: set[tuple[str, UPOS]],
+    represented_english: set[tuple[str, UPOS]],
+    required_initial: str | None,
+) -> tuple[CefrReviewRow, str | None]:
+    """Gate a novel candidate; returns the row (possibly canonicalized) and a
+    rejection reason, or None when the candidate is accepted."""
+    if get_language(lang).code == "de":
+        candidate = canonicalize_repaired_german_noun(candidate)
+        if german_row_issues(candidate):
+            return candidate, "german_gate"
+    issues = cefr_row_issues(candidate, lang=lang)
+    if issues:
+        codes = ",".join(issue.code for issue in issues)
+        return candidate, codes or "cefr_gate"
+    if not _novel_candidate_passes(candidate, required_initial=required_initial):
+        return candidate, "hygiene"
+    target_key = normalized_key(candidate.lemma, candidate.upos)
+    if target_key in collision_keys or target_key in used_keys:
+        return candidate, "collision"
+    if normalized_key(candidate.english_lemma, candidate.upos) in represented_english:
+        return candidate, "english_dup"
+    return candidate, None
+
+
 def _complete_novel_rows(
     final: list[CefrReviewRow],
     *,
@@ -521,64 +550,28 @@ def _complete_novel_rows(
                 accepted_candidate = CefrReviewRow.model_validate(
                     candidate.model_dump(mode="json")
                 )
-                if get_language(lang).code == "de":
-                    accepted_candidate = canonicalize_repaired_german_noun(
-                        accepted_candidate
-                    )
-                    if german_row_issues(accepted_candidate):
-                        target_key = normalized_key(
-                            accepted_candidate.lemma,
-                            accepted_candidate.upos,
-                        )
-                        _remember_rejected_key(rejected_exclusions, target_key)
-                        rejected_slots.append(slot)
-                        reject_reasons["german_gate"] = (
-                            reject_reasons.get("german_gate", 0) + 1
-                        )
-                        continue
-                if cefr_row_issues(accepted_candidate, lang=lang):
+                accepted_candidate, reason = _novel_slot_verdict(
+                    accepted_candidate,
+                    lang=lang,
+                    collision_keys=collision_keys,
+                    used_keys=used_keys,
+                    represented_english=represented_english,
+                    required_initial=novel_initial_hint(candidate.id),
+                )
+                if reason is not None:
                     target_key = normalized_key(
-                        accepted_candidate.lemma,
-                        accepted_candidate.upos,
+                        accepted_candidate.lemma, accepted_candidate.upos
                     )
                     _remember_rejected_key(rejected_exclusions, target_key)
                     rejected_slots.append(slot)
-                    codes = ",".join(
-                        issue.code
-                        for issue in cefr_row_issues(accepted_candidate, lang=lang)
-                    )
-                    reject_reasons[codes or "cefr_gate"] = (
-                        reject_reasons.get(codes or "cefr_gate", 0) + 1
-                    )
+                    reject_reasons[reason] = reject_reasons.get(reason, 0) + 1
                     continue
                 target_key = normalized_key(
-                    accepted_candidate.lemma,
-                    accepted_candidate.upos,
+                    accepted_candidate.lemma, accepted_candidate.upos
                 )
                 english_key = normalized_key(
-                    accepted_candidate.english_lemma,
-                    accepted_candidate.upos,
+                    accepted_candidate.english_lemma, accepted_candidate.upos
                 )
-                if not _novel_candidate_passes(
-                    accepted_candidate,
-                    required_initial=novel_initial_hint(candidate.id),
-                ):
-                    _remember_rejected_key(rejected_exclusions, target_key)
-                    rejected_slots.append(slot)
-                    reject_reasons["hygiene"] = reject_reasons.get("hygiene", 0) + 1
-                    continue
-                if target_key in collision_keys or target_key in used_keys:
-                    _remember_rejected_key(rejected_exclusions, target_key)
-                    rejected_slots.append(slot)
-                    reject_reasons["collision"] = reject_reasons.get("collision", 0) + 1
-                    continue
-                if english_key in represented_english:
-                    _remember_rejected_key(rejected_exclusions, target_key)
-                    rejected_slots.append(slot)
-                    reject_reasons["english_dup"] = (
-                        reject_reasons.get("english_dup", 0) + 1
-                    )
-                    continue
                 final.append(accepted_candidate)
                 used_keys.add(target_key)
                 represented_english.add(english_key)
