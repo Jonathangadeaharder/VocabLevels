@@ -77,8 +77,43 @@ select = [
 
 [dependency-groups]
 dev = [
+    "mutmut>=3.8.0",
     "pyright>=1.1.411",
     "pytest>=9.0.3",
     "pytest-cov>=7.1.0",
     "ruff>=0.15.20",
+]
+
+[tool.mutmut]
+# Nightly mutation budget, not a PR gate: ~490 tests x hundreds of
+# mutants is hours, not minutes (issue #81).
+source_paths = ["scripts/", "vocab_manager.py", "vocab_schema.py"]
+pytest_add_cli_args_test_selection = ["tests/"]
+pytest_add_cli_args = ["--no-cov"]
+also_copy = [
+    # Root modules the test suite imports but that are not mutated yet.
+    "audit_lemmatization.py",
+    "build_contract_delivery.py",
+    "check_data_contract.py",
+    "check_quality.py",
+    "cleanup_inflections.py",
+    "fix_pos_and_overflow.py",
+    "work/",
+    "extended_cognates.json",
+    # Repo data the tests read in place.
+    "english/",
+    "german/",
+    "spanish/",
+    "arabic/",
+    "french/",
+    "swedish/",
+    "chinese/",
+    "dutch/",
+    "manual_reviews/",
+]
+do_not_mutate = [
+    "scripts/expand_concepts.py",
+    "scripts/gemma_qa/__main__.py",
+    "scripts/gemma_qa/build_audit_sample.py",
+    "scripts/gemma_qa/cli.py",
 ]

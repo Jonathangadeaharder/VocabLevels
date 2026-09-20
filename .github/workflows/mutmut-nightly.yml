@@ -1,0 +1,36 @@
+name: Nightly Mutation Testing
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  mutmut:
+    name: Mutation testing
+    runs-on: [self-hosted, macOS, ARM64, VidiomTM]
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v6.0.3
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --all-groups --frozen
+      - name: Generate and test mutants
+        run: env -u PYTHONPATH uv run mutmut run --max-children 4
+      - name: Record verdict summary
+        if: always()
+        run: env -u PYTHONPATH uv run mutmut results | tee mutmut-results.txt
+      - name: Upload mutation trend data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mutmut-results
+          path: |
+            mutmut-results.txt
+            mutants/mutmut-stats.json
+            mutants/*.meta
+            mutants/*.spans
+          retention-days: 90
+          if-no-files-found: error
