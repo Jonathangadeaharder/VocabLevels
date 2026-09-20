@@ -85,11 +85,12 @@ dev = [
 ]
 
 [tool.mutmut]
-# Nightly mutation budget, not a PR gate: ~490 tests x hundreds of
-# mutants is hours, not minutes (issue #81).
+# Nightly mutation budget, not a PR gate (issue #81): ~490 tests x ~9.4k
+# mutants measured ~4 min per 5.4k verdicts in a local smoke run.
 source_paths = ["scripts/", "vocab_manager.py", "vocab_schema.py"]
 pytest_add_cli_args_test_selection = ["tests/"]
 pytest_add_cli_args = ["--no-cov"]
+# Mirror of [tool.coverage.run].omit: keep the two lists in lockstep.
 also_copy = [
     # Root modules the test suite imports but that are not mutated yet.
     "audit_lemmatization.py",
