@@ -4,9 +4,18 @@ on:
     workflows: [CI]
     types: [completed]
 
+concurrency:
+  # Keyed by head SHA: a run for a superseded SHA can never cancel the
+  # current head's in-flight scan; only same-SHA reruns cancel each other.
+  # The repository scope keeps identically named fork branches separate.
+  group: sonarqube-${{ github.event.workflow_run.head_repository.full_name }}-${{ github.event.workflow_run.head_sha }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
   checks: write
+  # Required to download the coverage artifact from the CI run.
+  actions: read
 
 jobs:
   sonar:
@@ -60,15 +69,43 @@ jobs:
         with:
           ref: ${{ github.event.workflow_run.head_sha }}
           fetch-depth: 0
-          # The scanned branch's code runs in later steps; do not leave the
-          # checks:write token readable from the local git config (#172).
+          # The scanned branch's tree is untrusted and never executed in
+          # this job (#167); do not leave the checks:write token readable
+          # from the local git config either (#172).
           persist-credentials: false
-      - name: Install uv
-        uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
-      - name: Install dependencies
-        run: uv sync --frozen --no-build
-      - name: Run tests with coverage
-        run: uv run --frozen --no-build pytest --cov-report=xml
+      - name: Pin scanner config to main
+        # The scanner must be driven only by this pinned config from main,
+        # never by PR-supplied properties: a PR could point sonar.sources
+        # outside the workspace and upload arbitrary runner files.
+        shell: bash
+        run: |
+          set -euo pipefail
+          # rm -f does not follow symlinks: a PR that commits this file as a
+          # symlink must not have the redirect clobber the link's target.
+          rm -f sonar-project.properties
+          if git cat-file -e "origin/main:sonar-project.properties"; then
+            git show "origin/main:sonar-project.properties" > sonar-project.properties
+          else
+            echo "::error::sonar-project.properties is missing from origin/main; refusing to fall back to the untrusted PR-supplied config."
+            exit 1
+          fi
+      - name: Download coverage report from the CI run
+        # Only the unprivileged CI job may run tests, so the coverage report
+        # is pulled from the triggering CI run's artifact instead of ever
+        # executing the tree here (#167). The name must match ci.yml's upload.
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          CI_RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          set -euo pipefail
+          # rm never follows symlinks: a PR committing coverage-report or
+          # coverage.xml as a symlink must not redirect writes outside
+          # the workspace.
+          rm -rf coverage-report coverage.xml
+          gh run download "$CI_RUN_ID" -R "$REPO" -n coverage -D coverage-report
+          mv coverage-report/coverage.xml coverage.xml
       - name: Wait for SonarQube
         run: |
           for i in $(seq 1 36); do
