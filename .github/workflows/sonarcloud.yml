@@ -32,13 +32,16 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
         run: |
-          ID=$(gh api --method POST repos/${{ github.repository }}/check-runs \
+          if ID=$(gh api --method POST repos/${{ github.repository }}/check-runs \
             -f head_sha="$HEAD_SHA" \
             -f name="SonarQube Analysis" \
             -f status=in_progress \
             -f details_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
-            --jq .id)
-          echo "id=$ID" >> "$GITHUB_OUTPUT"
+            --jq .id); then
+            echo "id=$ID" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::check-run creation failed; the report step will create it"
+          fi
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           ref: ${{ github.event.workflow_run.head_sha }}
@@ -71,17 +74,35 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: http://127.0.0.1:9001
       - name: Report SonarQube Analysis result on the scanned commit
-        if: always() && steps.check.outputs.id != ''
+        if: always()
         env:
           GH_TOKEN: ${{ github.token }}
           CHECK_ID: ${{ steps.check.outputs.id }}
           SCAN_OUTCOME: ${{ steps.scan.outcome }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
         run: |
-          if [ "$SCAN_OUTCOME" = "success" ]; then
-            CONCLUSION=success
+          case "$SCAN_OUTCOME" in
+            success)   CONCLUSION=success ;;
+            cancelled)  CONCLUSION=cancelled ;;
+            timed_out)  CONCLUSION=timed_out ;;
+            *)          CONCLUSION=failure ;;
+          esac
+          if [ -n "$CHECK_ID" ]; then
+            if ! gh api --method PATCH "repos/${{ github.repository }}/check-runs/$CHECK_ID" \
+              -f status=completed \
+              -f conclusion=$CONCLUSION; then
+              gh api --method POST "repos/${{ github.repository }}/check-runs" \
+                -f head_sha="$HEAD_SHA" \
+                -f name="SonarQube Analysis" \
+                -f status=completed \
+                -f conclusion=$CONCLUSION \
+                -f details_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+            fi
           else
-            CONCLUSION=failure
+            gh api --method POST "repos/${{ github.repository }}/check-runs" \
+              -f head_sha="$HEAD_SHA" \
+              -f name="SonarQube Analysis" \
+              -f status=completed \
+              -f conclusion=$CONCLUSION \
+              -f details_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
           fi
-          gh api --method PATCH "repos/${{ github.repository }}/check-runs/$CHECK_ID" \
-            -f status=completed \
-            -f conclusion=$CONCLUSION
