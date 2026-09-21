@@ -95,18 +95,7 @@ def classify_rows(
     proposed: list[dict[str, str]], committed: list[dict[str, str]] | None
 ) -> list[Row]:
     if not committed:
-        return [
-            Row(
-                csv_line=int(item["csv_line"]),
-                lemma=item["lemma"],
-                english_lemma=item["english_lemma"],
-                chinese_lemma=item["chinese_lemma"],
-                upos=item["upos"],
-                change="unchanged",
-                committed_before="",
-            )
-            for item in proposed
-        ]
+        return [_classified_row(item, "unchanged", "") for item in proposed]
 
     by_fp: dict[str, list[dict[str, str]]] = defaultdict(list)
     by_lemma: dict[str, list[dict[str, str]]] = defaultdict(list)
@@ -114,42 +103,54 @@ def classify_rows(
         by_fp[item["fp"]].append(item)
         by_lemma[item["lemma_key"]].append(item)
 
-    classified: list[Row] = []
-    for item in proposed:
-        matches = by_fp.get(item["fp"], [])
-        if matches:
-            prior = matches[0]
-            same = (
-                prior["english_lemma"] == item["english_lemma"]
-                and prior["chinese_lemma"] == item["chinese_lemma"]
-            )
-            change = "unchanged" if same else "edited"
-            before = (
-                f"{prior['lemma']}|{prior['english_lemma']}|"
-                f"{prior['chinese_lemma']}|{prior['upos']}"
-            )
-        elif item["lemma_key"] in by_lemma:
-            prior = by_lemma[item["lemma_key"]][0]
-            change = "pos_or_key_changed"
-            before = (
-                f"{prior['lemma']}|{prior['english_lemma']}|"
-                f"{prior['chinese_lemma']}|{prior['upos']}"
-            )
-        else:
-            change = "new_or_renamed"
-            before = ""
-        classified.append(
-            Row(
-                csv_line=int(item["csv_line"]),
-                lemma=item["lemma"],
-                english_lemma=item["english_lemma"],
-                chinese_lemma=item["chinese_lemma"],
-                upos=item["upos"],
-                change=change,
-                committed_before=before,
-            )
+    return [
+        _classified_row(item, *_classify_against_committed(item, by_fp, by_lemma))
+        for item in proposed
+    ]
+
+
+def _classified_row(
+    item: dict[str, str],
+    change: str,
+    before: str,
+) -> Row:
+    return Row(
+        csv_line=int(item["csv_line"]),
+        lemma=item["lemma"],
+        english_lemma=item["english_lemma"],
+        chinese_lemma=item["chinese_lemma"],
+        upos=item["upos"],
+        change=change,
+        committed_before=before,
+    )
+
+
+def _classify_against_committed(
+    item: dict[str, str],
+    by_fp: dict[str, list[dict[str, str]]],
+    by_lemma: dict[str, list[dict[str, str]]],
+) -> tuple[str, str]:
+    matches = by_fp.get(item["fp"], [])
+    if matches:
+        prior = matches[0]
+        same = (
+            prior["english_lemma"] == item["english_lemma"]
+            and prior["chinese_lemma"] == item["chinese_lemma"]
         )
-    return classified
+        change = "unchanged" if same else "edited"
+        before = (
+            f"{prior['lemma']}|{prior['english_lemma']}|"
+            f"{prior['chinese_lemma']}|{prior['upos']}"
+        )
+        return change, before
+    if item["lemma_key"] in by_lemma:
+        prior = by_lemma[item["lemma_key"]][0]
+        before = (
+            f"{prior['lemma']}|{prior['english_lemma']}|"
+            f"{prior['chinese_lemma']}|{prior['upos']}"
+        )
+        return "pos_or_key_changed", before
+    return "new_or_renamed", ""
 
 
 def stratified_sample(rows: list[Row], n: int, rng: random.Random) -> list[Row]:

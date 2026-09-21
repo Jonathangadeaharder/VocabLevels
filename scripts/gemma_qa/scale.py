@@ -328,14 +328,9 @@ def _run_phase(
 ) -> Counter[str]:
     counts = Counter[str]()
     total = len(tasks)
-    done = 0
     durations: list[float] = []
     phase_started = time.time()
-    # Count already-finished tasks for correct N/total at start.
-    for task in tasks:
-        record = state.get(task.key)
-        if record is not None and record.status == "succeeded":
-            done += 1
+    done = _preflight_done_count(tasks, state)
     print_progress(
         scale_progress_line(
             done=done,
@@ -350,60 +345,42 @@ def _run_phase(
         record = state.get(task.key)
         if record is None:
             raise RuntimeError(f"missing scale state for {task.key}")
-        if record.status == "succeeded":
+        skip = _task_skip_outcome(record, config=config)
+        if skip == "skipped":
             counts["skipped"] += 1
-            print_progress(
-                scale_progress_line(
-                    done=done,
-                    total=total,
-                    current=task.key,
-                    status="skipped",
-                    durations=durations,
-                    started_at=phase_started,
-                )
+            _report_task(
+                done=done,
+                total=total,
+                current=task.key,
+                status="skipped",
+                durations=durations,
+                started_at=phase_started,
             )
             continue
-        if record.status == "failed" and not config.retry_failed:
+        if skip == "failed_skip":
             counts["failed"] += 1
             done += 1
-            print_progress(
-                scale_progress_line(
-                    done=done,
-                    total=total,
-                    current=task.key,
-                    status="failed_skip",
-                    durations=durations,
-                    started_at=phase_started,
-                )
+            _report_task(
+                done=done,
+                total=total,
+                current=task.key,
+                status="failed_skip",
+                durations=durations,
+                started_at=phase_started,
             )
             continue
         if task.phase == "handcraft":
             blocked = _handcraft_blocked_reason(task, state=state)
             if blocked is not None:
-                state.fail(task, RuntimeError(blocked))
-                counts["failed"] += 1
-                done += 1
-                event(
-                    "scale.task_fail",
-                    level="ERROR",
-                    task=task.key,
-                    phase=task.phase,
-                    lang=task.language,
-                    level_name=task.level,
-                    error=blocked[:500],
+                done = _record_blocked_task(
+                    task,
+                    blocked,
+                    state=state,
+                    counts=counts,
                     done=done,
                     total=total,
-                    remaining=total - done,
-                )
-                print_progress(
-                    scale_progress_line(
-                        done=done,
-                        total=total,
-                        current=task.key,
-                        status="blocked",
-                        durations=durations,
-                        started_at=phase_started,
-                    )
+                    durations=durations,
+                    started_at=phase_started,
                 )
                 continue
         state.start(task)
@@ -417,75 +394,40 @@ def _run_phase(
             total=total,
             remaining=total - done,
         )
-        print_progress(
-            scale_progress_line(
-                done=done,
-                total=total,
-                current=task.key,
-                status="running",
-                durations=durations,
-                started_at=phase_started,
-            )
+        _report_task(
+            done=done,
+            total=total,
+            current=task.key,
+            status="running",
+            durations=durations,
+            started_at=phase_started,
         )
         started = time.time()
         try:
             output = execute(task, config)
         except Exception as error:  # noqa: BLE001 - runner records any failure
-            state.fail(task, error)
-            counts["failed"] += 1
-            elapsed = time.time() - started
-            durations.append(elapsed)
-            done += 1
-            event(
-                "scale.task_fail",
-                level="ERROR",
-                task=task.key,
-                phase=task.phase,
-                lang=task.language,
-                level_name=task.level,
-                duration_ms=int(elapsed * 1000),
-                error=str(error).splitlines()[0][:500],
+            done = _record_task_failure(
+                task,
+                error,
+                state=state,
+                counts=counts,
                 done=done,
                 total=total,
-                remaining=total - done,
-            )
-            print_progress(
-                scale_progress_line(
-                    done=done,
-                    total=total,
-                    current=task.key,
-                    status="failed",
-                    durations=durations,
-                    started_at=phase_started,
-                )
+                durations=durations,
+                started=started,
+                phase_started=phase_started,
             )
         else:
-            state.succeed(task, output)
-            counts["succeeded"] += 1
-            elapsed = time.time() - started
-            durations.append(elapsed)
-            done += 1
-            event(
-                "scale.task_ok",
-                task=task.key,
-                phase=task.phase,
-                lang=task.language,
-                level_name=task.level,
-                duration_ms=int(elapsed * 1000),
-                output=str(output),
+            done = _record_task_success(
+                task,
+                output,
+                state=state,
+                counts=counts,
                 done=done,
                 total=total,
-                remaining=total - done,
-            )
-            print_progress(
-                scale_progress_line(
-                    done=done,
-                    total=total,
-                    current=task.key,
-                    status="ok",
-                    durations=durations,
-                    started_at=phase_started,
-                )
+                durations=durations,
+                started=started,
+                phase_started=phase_started,
             )
     print_progress(
         scale_progress_line(
@@ -498,6 +440,167 @@ def _run_phase(
         )
     )
     return counts
+
+
+def _preflight_done_count(tasks: Sequence[ScaleTask], state: ScaleState) -> int:
+    # Count already-finished tasks for correct N/total at start.
+    done = 0
+    for task in tasks:
+        record = state.get(task.key)
+        if record is not None and record.status == "succeeded":
+            done += 1
+    return done
+
+
+def _task_skip_outcome(
+    record: ScaleTaskRecord | None,
+    *,
+    config: ScaleConfig,
+) -> str | None:
+    if record is not None and record.status == "succeeded":
+        return "skipped"
+    if record is not None and record.status == "failed" and not config.retry_failed:
+        return "failed_skip"
+    return None
+
+
+def _report_task(
+    *,
+    done: int,
+    total: int,
+    current: str,
+    status: str,
+    durations: list[float],
+    started_at: float,
+) -> None:
+    print_progress(
+        scale_progress_line(
+            done=done,
+            total=total,
+            current=current,
+            status=status,
+            durations=durations,
+            started_at=started_at,
+        )
+    )
+
+
+def _record_blocked_task(
+    task: ScaleTask,
+    blocked: str,
+    *,
+    state: ScaleState,
+    counts: Counter[str],
+    done: int,
+    total: int,
+    durations: list[float],
+    started_at: float,
+) -> int:
+    state.fail(task, RuntimeError(blocked))
+    counts["failed"] += 1
+    done += 1
+    event(
+        "scale.task_fail",
+        level="ERROR",
+        task=task.key,
+        phase=task.phase,
+        lang=task.language,
+        level_name=task.level,
+        error=blocked[:500],
+        done=done,
+        total=total,
+        remaining=total - done,
+    )
+    _report_task(
+        done=done,
+        total=total,
+        current=task.key,
+        status="blocked",
+        durations=durations,
+        started_at=started_at,
+    )
+    return done
+
+
+def _record_task_failure(
+    task: ScaleTask,
+    error: Exception,
+    *,
+    state: ScaleState,
+    counts: Counter[str],
+    done: int,
+    total: int,
+    durations: list[float],
+    started: float,
+    phase_started: float,
+) -> int:
+    state.fail(task, error)
+    counts["failed"] += 1
+    elapsed = time.time() - started
+    durations.append(elapsed)
+    done += 1
+    event(
+        "scale.task_fail",
+        level="ERROR",
+        task=task.key,
+        phase=task.phase,
+        lang=task.language,
+        level_name=task.level,
+        duration_ms=int(elapsed * 1000),
+        error=str(error).splitlines()[0][:500],
+        done=done,
+        total=total,
+        remaining=total - done,
+    )
+    _report_task(
+        done=done,
+        total=total,
+        current=task.key,
+        status="failed",
+        durations=durations,
+        started_at=phase_started,
+    )
+    return done
+
+
+def _record_task_success(
+    task: ScaleTask,
+    output: Path,
+    *,
+    state: ScaleState,
+    counts: Counter[str],
+    done: int,
+    total: int,
+    durations: list[float],
+    started: float,
+    phase_started: float,
+) -> int:
+    state.succeed(task, output)
+    counts["succeeded"] += 1
+    elapsed = time.time() - started
+    durations.append(elapsed)
+    done += 1
+    event(
+        "scale.task_ok",
+        task=task.key,
+        phase=task.phase,
+        lang=task.language,
+        level_name=task.level,
+        duration_ms=int(elapsed * 1000),
+        output=str(output),
+        done=done,
+        total=total,
+        remaining=total - done,
+    )
+    _report_task(
+        done=done,
+        total=total,
+        current=task.key,
+        status="ok",
+        durations=durations,
+        started_at=phase_started,
+    )
+    return done
 
 
 def _default_executor_factory(config: ScaleConfig) -> ScaleExecutorFactory:
