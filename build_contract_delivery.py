@@ -15,6 +15,7 @@ import csv
 import re
 import unicodedata
 from collections import Counter, defaultdict
+from collections.abc import Iterator
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -95,29 +96,59 @@ def clean_gloss(gloss: str) -> str:
     return re.sub(r"\s+", " ", no_slash).strip()
 
 
+def _iter_csv_rows(path: Path) -> Iterator[list[str]]:
+    with path.open(newline="", encoding="utf-8") as handle:
+        reader = csv.reader(handle)
+        next(reader, None)
+        yield from reader
+
+
+def _row_fields(cols: list[str]) -> tuple[str, str, str, str]:
+    """Parse (lemma, english, chinese, pos) from a raw CSV row."""
+    lemma = _clean_lemma(_unquote(cols[0])) if len(cols) > 0 else ""
+    english = clean_gloss(_unquote(cols[1])) if len(cols) > 1 else ""
+    chinese = _unquote(cols[2]) if len(cols) > 2 else ""
+    pos = cols[3].strip() if len(cols) > 3 else ""
+    return lemma, english, chinese, pos
+
+
+def _lang_level_records(
+    root: Path, name: str, code: str
+) -> list[tuple[str, str, str, str, str, str]]:
+    records: list[tuple[str, str, str, str, str, str]] = []
+    for level in LEVELS:
+        path = root / name / f"{level}.csv"
+        if not path.exists():
+            continue
+        for cols in _iter_csv_rows(path):
+            lemma, english, chinese, pos = _row_fields(cols)
+            if not lemma or lemma.startswith("Word_") or lemma.startswith("svord_"):
+                continue
+            records.append((code, level, lemma, english, chinese, pos))
+    return records
+
+
 def load_csv_records(root: Path) -> list[tuple[str, str, str, str, str, str]]:
     """Return (lang, level, lemma, english_gloss, chinese_gloss, pos) rows."""
     records: list[tuple[str, str, str, str, str, str]] = []
     for name, code in LANG_DIRS.items():
-        for level in LEVELS:
-            path = root / name / f"{level}.csv"
-            if not path.exists():
-                continue
-            with path.open(newline="", encoding="utf-8") as handle:
-                reader = csv.reader(handle)
-                next(reader, None)
-                for cols in reader:
-                    lemma = _clean_lemma(_unquote(cols[0])) if len(cols) > 0 else ""
-                    if (
-                        not lemma
-                        or lemma.startswith("Word_")
-                        or lemma.startswith("svord_")
-                    ):
-                        continue
-                    english = clean_gloss(_unquote(cols[1])) if len(cols) > 1 else ""
-                    chinese = _unquote(cols[2]) if len(cols) > 2 else ""
-                    pos = cols[3].strip() if len(cols) > 3 else ""
-                    records.append((code, level, lemma, english, chinese, pos))
+        records.extend(_lang_level_records(root, name, code))
+    return records
+
+
+def _lang_expansion_records(
+    root: Path, name: str, code: str
+) -> list[tuple[str, str, str, str, str, str]]:
+    path = root / name / "expansion.csv"
+    if not path.exists():
+        return []
+    records: list[tuple[str, str, str, str, str, str]] = []
+    for cols in _iter_csv_rows(path):
+        lemma, english, chinese, pos = _row_fields(cols)
+        if not lemma:
+            continue
+        level = (cols[4].strip() if len(cols) > 4 else "") or "B1"
+        records.append((code, _canon_level(level), lemma, english, chinese, pos))
     return records
 
 
@@ -128,22 +159,7 @@ def load_expansion_records(
     from the generated per-language expansion CSVs (if present)."""
     records: list[tuple[str, str, str, str, str, str]] = []
     for name, code in LANG_DIRS.items():
-        path = root / name / "expansion.csv"
-        if not path.exists():
-            continue
-        with path.open(newline="", encoding="utf-8") as handle:
-            reader = csv.reader(handle)
-            next(reader, None)
-            for cols in reader:
-                lemma = _clean_lemma(_unquote(cols[0])) if len(cols) > 0 else ""
-                if not lemma:
-                    continue
-                english = clean_gloss(_unquote(cols[1])) if len(cols) > 1 else ""
-                chinese = _unquote(cols[2]) if len(cols) > 2 else ""
-                pos = cols[3].strip() if len(cols) > 3 else ""
-                level = (cols[4].strip() if len(cols) > 4 else "") or "B1"
-                level = _canon_level(level)
-                records.append((code, level, lemma, english, chinese, pos))
+        records.extend(_lang_expansion_records(root, name, code))
     return records
 
 
@@ -161,6 +177,54 @@ def _make_chinese_key(
     return (gloss, record[5]) if gloss else None
 
 
+def _find(parent: list[int], node: int) -> int:
+    while parent[node] != node:
+        parent[node] = parent[parent[node]]
+        node = parent[node]
+    return node
+
+
+def _union(parent: list[int], a: int, b: int) -> None:
+    ra, rb = _find(parent, a), _find(parent, b)
+    if ra != rb:
+        parent[rb] = ra
+
+
+def _index_concepts(
+    records: list[tuple[str, str, str, str, str, str]],
+    parent: list[int],
+) -> tuple[dict[tuple[str, str], int], dict[tuple[str, str], int]]:
+    """Union rows sharing an English key; anchor first English row per Chinese key."""
+    english_index: dict[tuple[str, str], int] = {}
+    chinese_anchor: dict[tuple[str, str], int] = {}
+    for index, record in enumerate(records):
+        english_key = _make_english_key(record)
+        if english_key is not None:
+            if english_key in english_index:
+                _union(parent, index, english_index[english_key])
+            else:
+                english_index[english_key] = index
+        chinese_key = _make_chinese_key(record)
+        if chinese_key is not None and english_key is not None:
+            chinese_anchor.setdefault(chinese_key, index)
+    return english_index, chinese_anchor
+
+
+def _join_englishless_records(
+    records: list[tuple[str, str, str, str, str, str]],
+    parent: list[int],
+    chinese_anchor: dict[tuple[str, str], int],
+) -> None:
+    """Join rows with a blank English gloss through their anchored Chinese key."""
+    for index, record in enumerate(records):
+        if _make_english_key(record) is not None:
+            continue
+        chinese_key = _make_chinese_key(record)
+        anchor = chinese_anchor.get(chinese_key) if chinese_key is not None else None
+        if anchor is not None:
+            _union(parent, index, anchor)
+
+
 def align_concepts(
     records: list[tuple[str, str, str, str, str, str]],
 ) -> dict[int, list[tuple[str, str, str, str, str, str]]]:
@@ -173,44 +237,12 @@ def align_concepts(
     never merges two rows that both have distinct English glosses.
     """
     parent = list(range(len(records)))
-
-    def find(node: int) -> int:
-        while parent[node] != node:
-            parent[node] = parent[parent[node]]
-            node = parent[node]
-        return node
-
-    def union(a: int, b: int) -> None:
-        ra, rb = find(a), find(b)
-        if ra != rb:
-            parent[rb] = ra
-
-    english_index: dict[tuple[str, str], int] = {}
-    chinese_anchor: dict[tuple[str, str], int] = {}
-    for index, record in enumerate(records):
-        english_key = _make_english_key(record)
-        if english_key is not None:
-            if english_key in english_index:
-                union(index, english_index[english_key])
-            else:
-                english_index[english_key] = index
-        chinese_key = _make_chinese_key(record)
-        if chinese_key is not None and english_key is not None:
-            chinese_anchor.setdefault(chinese_key, index)
-    for index, record in enumerate(records):
-        english_key = _make_english_key(record)
-        if english_key is not None:
-            continue
-        chinese_key = _make_chinese_key(record)
-        if chinese_key is None:
-            continue
-        anchor = chinese_anchor.get(chinese_key)
-        if anchor is not None:
-            union(index, anchor)
+    _, chinese_anchor = _index_concepts(records, parent)
+    _join_englishless_records(records, parent, chinese_anchor)
 
     concepts: dict[int, list[tuple[str, str, str, str, str, str]]] = defaultdict(list)
     for index, record in enumerate(records):
-        concepts[find(index)].append(record)
+        concepts[_find(parent, index)].append(record)
     return dict(concepts)
 
 
@@ -231,6 +263,74 @@ def canonical_pos(poss: list[str]) -> str:
     return Counter(p for p in poss if p).most_common(1)[0][0] if any(poss) else ""
 
 
+def _concept_rows(
+    members: list[tuple[str, str, str, str, str, str]],
+) -> list[tuple[str, DeliveryRow]]:
+    """Emit one rank-1 row per (lang, lemma) of a concept, lowest CEFR wins."""
+    gloss = canonical_gloss([m[3] for m in members])
+    pos = canonical_pos([m[5] for m in members])
+    concept_key = f"{normalize_gloss(gloss) or 'blank'}-{pos or 'X'}"
+    per_lemma: dict[tuple[str, str], list[tuple[str, str, str, str, str, str]]] = (
+        defaultdict(list)
+    )
+    for member in members:
+        per_lemma[(member[0], member[2])].append(member)
+    rows: list[tuple[str, DeliveryRow]] = []
+    for (lang, lemma), member_rows in per_lemma.items():
+        level = min(
+            (_canon_level(m[1]) for m in member_rows), key=lambda x: LEVELS.index(x)
+        )
+        rows.append(
+            (
+                lang,
+                DeliveryRow(
+                    lemma=lemma,
+                    pos=pos,
+                    gloss=gloss,
+                    english_pos=pos,
+                    cefr=level,
+                    rank=1,
+                    concept_key=concept_key,
+                ),
+            )
+        )
+    return rows
+
+
+def _dedupe_rows(
+    emitted: list[tuple[str, DeliveryRow]],
+) -> dict[tuple[str, str, str], tuple[str, DeliveryRow]]:
+    deduped: dict[tuple[str, str, str], tuple[str, DeliveryRow]] = {}
+    for lang, row in emitted:
+        key = (lang, row.lemma, normalize_gloss(row.gloss))
+        prior = deduped.get(key)
+        if prior is None or LEVELS.index(row.cefr) < LEVELS.index(prior[1].cefr):
+            deduped[key] = (lang, row)
+    return deduped
+
+
+def _rank_language_rows(rows: list[DeliveryRow]) -> list[DeliveryRow]:
+    """Re-rank rows so alternatives per (lang, gloss, pos) get 1..N by lemma."""
+    groups: dict[tuple[str, str], list[DeliveryRow]] = defaultdict(list)
+    for row in rows:
+        groups[(row.gloss, row.english_pos)].append(row)
+    ranked: list[DeliveryRow] = []
+    for group in groups.values():
+        for position, item in enumerate(sorted(group, key=lambda r: r.lemma)):
+            ranked.append(
+                DeliveryRow(
+                    lemma=item.lemma,
+                    pos=item.pos,
+                    gloss=item.gloss,
+                    english_pos=item.english_pos,
+                    cefr=item.cefr,
+                    rank=position + 1,
+                    concept_key=item.concept_key,
+                )
+            )
+    return ranked
+
+
 def build_delivery_rows(
     records: list[tuple[str, str, str, str, str, str]],
 ) -> dict[str, list[DeliveryRow]]:
@@ -246,62 +346,12 @@ def build_delivery_rows(
 
     emitted: list[tuple[str, DeliveryRow]] = []
     for members in concepts.values():
-        gloss = canonical_gloss([m[3] for m in members])
-        pos = canonical_pos([m[5] for m in members])
-        concept_key = f"{normalize_gloss(gloss) or 'blank'}-{pos or 'X'}"
-        per_lemma: dict[tuple[str, str], list[tuple[str, str, str, str, str, str]]] = (
-            defaultdict(list)
-        )
-        for member in members:
-            per_lemma[(member[0], member[2])].append(member)
-        for (lang, lemma), member_rows in per_lemma.items():
-            level = min(
-                (_canon_level(m[1]) for m in member_rows), key=lambda x: LEVELS.index(x)
-            )
-            emitted.append(
-                (
-                    lang,
-                    DeliveryRow(
-                        lemma=lemma,
-                        pos=pos,
-                        gloss=gloss,
-                        english_pos=pos,
-                        cefr=level,
-                        rank=1,
-                        concept_key=concept_key,
-                    ),
-                )
-            )
-
-    deduped: dict[tuple[str, str, str], tuple[str, DeliveryRow]] = {}
-    for lang, row in emitted:
-        key = (lang, row.lemma, normalize_gloss(row.gloss))
-        prior = deduped.get(key)
-        if prior is None or LEVELS.index(row.cefr) < LEVELS.index(prior[1].cefr):
-            deduped[key] = (lang, row)
+        emitted.extend(_concept_rows(members))
 
     ranked: dict[str, list[DeliveryRow]] = defaultdict(list)
-    for lang, row in deduped.values():
+    for lang, row in _dedupe_rows(emitted).values():
         ranked[lang].append(row)
-    for lang, rows in ranked.items():
-        groups: dict[tuple[str, str], list[DeliveryRow]] = defaultdict(list)
-        for row in rows:
-            groups[(row.gloss, row.english_pos)].append(row)
-        ranked[lang] = []
-        for group in groups.values():
-            for position, item in enumerate(sorted(group, key=lambda r: r.lemma)):
-                ranked[lang].append(
-                    DeliveryRow(
-                        lemma=item.lemma,
-                        pos=item.pos,
-                        gloss=item.gloss,
-                        english_pos=item.english_pos,
-                        cefr=item.cefr,
-                        rank=position + 1,
-                        concept_key=item.concept_key,
-                    )
-                )
-    return dict(ranked)
+    return {lang: _rank_language_rows(rows) for lang, rows in ranked.items()}
 
 
 def write_tsv(out_dir: Path, lang: str, rows: list[DeliveryRow]) -> None:
