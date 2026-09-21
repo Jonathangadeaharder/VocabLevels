@@ -70,8 +70,10 @@ def test_scan_pulls_coverage_from_the_triggering_ci_run() -> None:
 
 def test_scanner_config_is_pinned_to_main() -> None:
     sonar = _sonar_workflow()
-    assert "rm -f sonar-project.properties" in sonar, (
-        "PR-supplied sonar-project.properties must be removed first"
+    assert "rm -rf sonar-project.properties" in sonar, (
+        "PR-supplied sonar-project.properties must be removed first, even"
+        " when committed as a directory (rm -rf unlinks symlinks, never"
+        " follows them)"
     )
     assert "origin/main:sonar-project.properties" in sonar, (
         "the scanner must read config pinned to origin/main"
@@ -89,4 +91,13 @@ def test_sonar_token_is_confined_to_the_scan_step() -> None:
 def test_scan_job_grants_artifact_read_permission() -> None:
     assert "actions: read" in _sonar_workflow(), (
         "the scan job needs actions:read to download the CI artifact"
+    )
+
+
+def test_ci_job_bounds_runner_time() -> None:
+    ci = _ci_workflow()
+    assert "timeout-minutes: 30" in ci, (
+        "a hung Test run on the shared self-hosted pool must not occupy"
+        " the runner indefinitely; it also stalls the SonarQube scan that"
+        " now depends on this run completing"
     )

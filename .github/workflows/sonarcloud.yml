@@ -80,9 +80,11 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          # rm -f does not follow symlinks: a PR that commits this file as a
-          # symlink must not have the redirect clobber the link's target.
-          rm -f sonar-project.properties
+          # rm -rf unlinks symlinks without following them: a PR that
+          # commits this file as a symlink must not have the redirect
+          # clobber the link's target, and a directory at this path is
+          # removed too (rm -f would fail and abort the pin step).
+          rm -rf sonar-project.properties
           if git cat-file -e "origin/main:sonar-project.properties"; then
             git show "origin/main:sonar-project.properties" > sonar-project.properties
           else
