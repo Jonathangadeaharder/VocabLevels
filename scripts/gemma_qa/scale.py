@@ -547,7 +547,7 @@ def _record_task_failure(
         lang=task.language,
         level_name=task.level,
         duration_ms=int(elapsed * 1000),
-        error=str(error).splitlines()[0][:500],
+        error=(str(error).splitlines() or [""])[0][:500],
         done=done,
         total=total,
         remaining=total - done,

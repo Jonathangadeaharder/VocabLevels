@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import dataclasses
+import time
+from collections import Counter
 from collections.abc import Callable
 from pathlib import Path
 
@@ -15,9 +17,29 @@ from scripts.gemma_qa.scale import (
     ScaleConfig,
     ScaleState,
     ScaleTask,
+    _record_task_failure,
     build_scale_tasks,
     run_scale,
 )
+
+
+def test_record_task_failure_tolerates_messageless_exception(
+    tmp_path: Path,
+) -> None:
+    state = ScaleState(tmp_path / ".gemma_qa" / "scale.sqlite3")
+    task = build_scale_tasks(phases=("cefr",))[0]
+    done = _record_task_failure(
+        task,
+        RuntimeError(),
+        state=state,
+        counts=Counter(),
+        done=0,
+        durations=[],
+        total=1,
+        started=time.time(),
+        phase_started=time.time(),
+    )
+    assert done == 1
 
 
 def test_profiles_cover_all_languages_and_task_keys() -> None:
