@@ -135,6 +135,35 @@ def test_scan_discards_artifact_staging_directory() -> None:
     )
 
 
+def test_scan_bounds_artifact_size_before_download() -> None:
+    steps = _sonar_steps()
+    download = next(c for c in steps.values() if "gh run download" in c)
+    size_gate_at = download.find("size_in_bytes")
+    download_at = download.find('gh run download "$CI_RUN_ID"')
+    assert "coverage artifact too large" in download, (
+        "gh run download extracts the archive before any local check can"
+        " run, so an oversized PR-controlled artifact can exhaust the disk"
+        " of the shared self-hosted runner; its API-reported size must be"
+        " fetched and refused before downloading"
+    )
+    assert size_gate_at != -1 and size_gate_at < download_at, (
+        "the size gate must run before gh run download touches the artifact"
+    )
+
+
+def test_scan_rejects_coverage_entries_for_missing_files() -> None:
+    sonar = _sonar_workflow()
+    assert "os.path.isfile(os.path.join(root, name))" in sonar, (
+        "every <class> filename must resolve to a real file in the"
+        " workspace before the report is handed to SonarQube"
+    )
+    assert "does not exist in the scanned tree" in sonar, (
+        "PR-controlled ci.yml can fabricate coverage entries for paths"
+        " that do not exist; the validator must confine fabricated data"
+        " to files the scanner would analyze anyway"
+    )
+
+
 def test_scan_validates_untrusted_coverage_report() -> None:
     sonar = _sonar_workflow()
     assert "Validate coverage report" in sonar, (

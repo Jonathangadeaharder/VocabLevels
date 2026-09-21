@@ -135,6 +135,19 @@ jobs:
           # coverage.xml as a symlink must not redirect writes outside
           # the workspace.
           rm -rf coverage-report coverage.xml
+          # gh run download extracts the archive before any local check
+          # can run, so refuse oversized artifacts by API size first.
+          SIZE=$(gh api "repos/$REPO/actions/runs/$CI_RUN_ID/artifacts" \
+            --jq '.artifacts[] | select(.name == "coverage") | .size_in_bytes' \
+            | head -1)
+          if [ -z "$SIZE" ]; then
+            echo "::error::coverage artifact not found in CI run $CI_RUN_ID"
+            exit 1
+          fi
+          if [ "$SIZE" -gt $((256 * 1024 * 1024)) ]; then
+            echo "::error::coverage artifact too large ($SIZE bytes)"
+            exit 1
+          fi
           gh run download "$CI_RUN_ID" -R "$REPO" -n coverage -D coverage-report
           mv coverage-report/coverage.xml coverage.xml
           # Extracted files are untracked, unchecked and inside
@@ -183,6 +196,9 @@ jobs:
               name = cls.get("filename", "")
               if os.path.isabs(name) or ".." in name.split("/"):
                   print(f"::error::coverage file path {name!r} escapes the workspace")
+                  sys.exit(1)
+              if not os.path.isfile(os.path.join(root, name)):
+                  print(f"::error::coverage file path {name!r} does not exist in the scanned tree")
                   sys.exit(1)
           PY
       - name: Wait for SonarQube
