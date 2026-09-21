@@ -126,6 +126,14 @@ def remove_exact_duplicates(lang: str) -> int:
     return total_removed
 
 
+def _is_plural_duplicate(lemma_lower: str, lemmas_in_level: set[str]) -> bool:
+    """True when lemma_lower is an -s plural whose singular exists in the level."""
+    if not (lemma_lower.endswith("s") and not lemma_lower.endswith("ss")):
+        return False
+    singular = lemma_lower[:-1]
+    return singular in lemmas_in_level and len(singular) > 2 and singular != lemma_lower
+
+
 def remove_english_plural_duplicates(lang: str) -> int:
     """Remove same-level English plurals when the singular already exists."""
     cfg = LANGS[lang]
@@ -145,22 +153,11 @@ def remove_english_plural_duplicates(lang: str) -> int:
         kept = []
         removed_here = 0
         for row in rows:
-            lemma = row[lemma_col].strip()
-            lemma_lower = lemma.lower()
-
-            skip = False
-            if lemma_lower.endswith("s") and not lemma_lower.endswith("ss"):
-                singular = lemma_lower[:-1]
-                if (
-                    singular in lemmas_in_level
-                    and len(singular) > 2
-                    and singular != lemma_lower
-                ):
-                    skip = True
-                    removed_here += 1
-
-            if not skip:
-                kept.append(row)
+            lemma_lower = row[lemma_col].strip().lower()
+            if _is_plural_duplicate(lemma_lower, lemmas_in_level):
+                removed_here += 1
+                continue
+            kept.append(row)
 
         if removed_here > 0:
             _write_level(lang, level, kept)
@@ -239,33 +236,29 @@ class _Record:
         self.is_self = base.lower() == text.lower()
 
 
-def _find_inflected_removals(records: list[_Record]) -> list[_Record]:
-    """Pure clustering logic: decide which records are inflected duplicates.
-
-    Groups records by (coarse POS, base lemma text). Within a group that
-    has *exactly one* self-citation row (a row whose own text already is
-    its own base lemma), every other row in the group is an inflected
-    duplicate of that citation form and is staged for removal. Groups with
-    zero or multiple self-citation rows are left untouched (ambiguous).
-
-    A second pass catches near-miss lemmatizer typos (e.g. Swedish
-    "fortsätt" -> stanza lemma "fortsäta", one edit away from the real
-    citation form "fortsätta") by fuzzy-matching *true singleton* non-self
-    records (no group-mates at all) against the pool of confirmed citation
-    forms, using a small edit distance rather than a hardcoded word list.
-    """
+def _group_records(
+    records: list[_Record],
+) -> dict[tuple[str, str], list[_Record]]:
     groups: dict[tuple[str, str], list[_Record]] = {}
     for r in records:
         if not r.text:
             continue
         groups.setdefault((r.coarse, r.base.lower()), []).append(r)
+    return groups
 
+
+def _stage_group_removals(
+    groups: dict[tuple[str, str], list[_Record]],
+) -> tuple[list[_Record], list[_Record]]:
+    """Stage removals from unambiguous groups; return (removals, singletons).
+
+    Only true singletons (a lone non-self record with no group-mates at all)
+    are returned for the fuzzy fallback. Records in an *ambiguous* multi-self
+    group already found an exact match but it was ambiguous — they stay
+    untouched rather than re-attempting a fuzzy match that could
+    inappropriately fold them into an unrelated citation form.
+    """
     to_remove: list[_Record] = []
-    # Only true singletons (a lone non-self record with no group-mates at
-    # all) go through the fuzzy fallback below. Records in an *ambiguous*
-    # multi-self group already found an exact match but it was ambiguous —
-    # leave them untouched entirely rather than re-attempt a fuzzy match
-    # that could inappropriately fold them into an unrelated citation form.
     singletons: list[_Record] = []
     for _key, group in groups.items():
         if len(group) == 1:
@@ -276,24 +269,72 @@ def _find_inflected_removals(records: list[_Record]) -> list[_Record]:
         if len(self_rows) == 1:
             to_remove.extend(r for r in group if r is not self_rows[0])
         # else: 0 or >=2 self rows in this group — ambiguous, skip entirely.
+    return to_remove, singletons
 
-    if singletons:
-        citation_pool: dict[str, list[str]] = {}
-        for r in records:
-            if r.is_self and r.text:
-                citation_pool.setdefault(r.coarse, []).append(r.text.lower())
-        for r in singletons:
-            candidates = citation_pool.get(r.coarse, [])
-            base_lower = r.base.lower()
-            best = min(
-                (c for c in candidates if abs(len(c) - len(base_lower)) <= 2),
-                key=lambda c, base_lower=base_lower: _edit_distance(base_lower, c),
-                default=None,
-            )
-            if best is not None and _edit_distance(base_lower, best) <= 1:
-                to_remove.append(r)
 
+def _fuzzy_singleton_removals(
+    singletons: list[_Record], records: list[_Record]
+) -> list[_Record]:
+    """Fuzzy-match true singletons against confirmed citation forms.
+
+    Catches near-miss lemmatizer typos (e.g. Swedish "fortsätt" -> stanza
+    lemma "fortsäta", one edit away from the real citation form "fortsätta")
+    using a small edit distance rather than a hardcoded word list.
+    """
+    if not singletons:
+        return []
+    citation_pool: dict[str, list[str]] = {}
+    for r in records:
+        if r.is_self and r.text:
+            citation_pool.setdefault(r.coarse, []).append(r.text.lower())
+    to_remove: list[_Record] = []
+    for r in singletons:
+        candidates = citation_pool.get(r.coarse, [])
+        base_lower = r.base.lower()
+        best = min(
+            (c for c in candidates if abs(len(c) - len(base_lower)) <= 2),
+            key=lambda c, base_lower=base_lower: _edit_distance(base_lower, c),
+            default=None,
+        )
+        if best is not None and _edit_distance(base_lower, best) <= 1:
+            to_remove.append(r)
     return to_remove
+
+
+def _find_inflected_removals(records: list[_Record]) -> list[_Record]:
+    """Pure clustering logic: decide which records are inflected duplicates.
+
+    Groups records by (coarse POS, base lemma text). Within a group that
+    has *exactly one* self-citation row (a row whose own text already is
+    its own base lemma), every other row in the group is an inflected
+    duplicate of that citation form and is staged for removal. Groups with
+    zero or multiple self-citation rows are left untouched (ambiguous).
+    """
+    to_remove, singletons = _stage_group_removals(_group_records(records))
+    to_remove.extend(_fuzzy_singleton_removals(singletons, records))
+    return to_remove
+
+
+def _collect_tagged_records(
+    lang: str,
+    lemma_col: str,
+    tag_fn: Callable[[str], tuple[str, str]],
+) -> tuple[dict[str, list[dict]], list[_Record]]:
+    """Read all levels and tag every row; return (per_level_rows, records)."""
+    per_level_rows: dict[str, list[dict]] = {}
+    records: list[_Record] = []
+    for level in LEVELS:
+        if not _file_path(lang, level).exists():
+            continue
+        rows = _read_level(lang, level)
+        per_level_rows[level] = rows
+        for row in rows:
+            text = (row.get(lemma_col) or "").strip()
+            if not text:
+                continue
+            base, upos = tag_fn(text)
+            records.append(_Record(level, row, text, base or text, _coarse_pos(upos)))
+    return per_level_rows, records
 
 
 def remove_inflected_duplicates(
@@ -318,19 +359,7 @@ def remove_inflected_duplicates(
     if tag_fn is None:
         tag_fn = _stanza_tag_fn(lang)
 
-    per_level_rows: dict[str, list[dict]] = {}
-    records: list[_Record] = []
-    for level in LEVELS:
-        if not _file_path(lang, level).exists():
-            continue
-        rows = _read_level(lang, level)
-        per_level_rows[level] = rows
-        for row in rows:
-            text = (row.get(lemma_col) or "").strip()
-            if not text:
-                continue
-            base, upos = tag_fn(text)
-            records.append(_Record(level, row, text, base or text, _coarse_pos(upos)))
+    per_level_rows, records = _collect_tagged_records(lang, lemma_col, tag_fn)
 
     removals = _find_inflected_removals(records)
     removed_row_ids = {id(r.row) for r in removals}
