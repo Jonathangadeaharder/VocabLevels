@@ -98,11 +98,18 @@ def test_scan_pulls_coverage_from_the_triggering_ci_run() -> None:
 
 def test_scan_cancels_superseded_scans() -> None:
     sonar = _sonar_workflow()
-    assert "sonarqube-${{ github.event.workflow_run.head_branch }}" in sonar, (
+    group = (
+        "sonarqube-${{ github.event.workflow_run.head_repository.full_name }}"
+        "-${{ github.event.workflow_run.head_branch }}"
+    )
+    assert group in sonar, (
         "SHA-keyed concurrency never cancels superseded scans: every"
         " push piles another queued run onto the single self-hosted"
-        " runner. Branch keying lets the new scan cancel the superseded"
-        " one; same-repo branch names are unique so no collision exists"
+        " runner. The group must be keyed by head repo and branch: fork"
+        " PRs report the unqualified fork branch name, and workflow-level"
+        " concurrency applies before the fork-excluding job if, so a"
+        " bare branch key lets a fork PR named 'main' cancel a"
+        " legitimate same-repo scan"
     )
 
 

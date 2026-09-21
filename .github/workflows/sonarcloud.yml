@@ -5,11 +5,10 @@ on:
     types: [completed]
 
 concurrency:
-  # Keyed by head branch: a push creates a new scan for the new head,
-  # so the superseded SHA's queued/in-flight scan is cancelled instead
-  # of piling onto the single self-hosted runner. Same-repo branch
-  # names are unique, so no foreign run can collide with the group.
-  group: sonarqube-${{ github.event.workflow_run.head_branch }}
+  # Keyed by head repo + branch: fork PRs report the unqualified
+  # fork branch name, and workflow-level concurrency applies before
+  # the fork-excluding job if, so only a repo-qualified group is safe.
+  group: sonarqube-${{ github.event.workflow_run.head_repository.full_name }}-${{ github.event.workflow_run.head_branch }}
   cancel-in-progress: true
 
 permissions:
