@@ -174,6 +174,11 @@ def test_scan_rejects_symlinks_escaping_the_workspace() -> None:
         " interpolation into ::error:: would allow log/annotation"
         " forging"
     )
+    assert "os.fsdecode(" in sonar, (
+        "git ls-files emits raw bytes: git permits non-UTF-8 filenames,"
+        " and a strict UTF-8 decode would crash the scan with a"
+        " traceback instead of checking those paths for symlinks"
+    )
 
 
 def test_scan_bounds_artifact_before_and_during_extraction() -> None:
