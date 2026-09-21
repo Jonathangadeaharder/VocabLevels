@@ -63,6 +63,23 @@ def test_ci_uploads_coverage_artifact_for_the_scan() -> None:
     )
 
 
+def test_ci_measures_the_tree_the_scan_analyzes() -> None:
+    ci = _ci_workflow()
+    sonar = _sonar_workflow()
+    assert "ref: ${{ github.event.workflow_run.head_sha }}" in sonar, (
+        "the scan must analyze the head SHA the CI run reported, not the"
+        " default-branch commit the workflow_run check run attaches to"
+    )
+    assert "ref: ${{ github.event.pull_request.head.sha || github.sha }}" in ci, (
+        "CI's default checkout resolves the pull_request merge ref while"
+        " the scan analyzes the PR head SHA; once main diverges (e.g."
+        " #180 after this branch forked) a single out-of-range line makes"
+        " the Cobertura sensor reject the whole report and the gate fails"
+        " on new_coverage 0.0. CI must measure the same immutable head"
+        " SHA the scan analyzes"
+    )
+
+
 def test_scan_pulls_coverage_from_the_triggering_ci_run() -> None:
     sonar = _sonar_workflow()
     assert "actions/runs/$CI_RUN_ID/artifacts" in sonar, (
@@ -250,8 +267,7 @@ def test_scan_rejects_coverage_entries_for_missing_files() -> None:
         " workspace before the report is handed to SonarQube"
     )
     assert "classes.remove(cls)" in sonar and "package.remove(classes)" in sonar, (
-        "CI measures the merge commit while the scan checks out the PR"
-        " head, so genuine reports can reference files missing here;"
+        "tests can import runtime-generated files the scanned tree lacks;"
         " unmappable entries must be removed from the written report,"
         " not merely spared the error"
     )

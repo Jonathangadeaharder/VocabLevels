@@ -24,6 +24,12 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          # The SonarQube workflow_run scan analyzes this same head SHA
+          # (issue #167). Measuring coverage on the merge ref instead
+          # makes the Cobertura sensor reject the whole report once main
+          # diverged (#180 vs this branch).
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
       - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
       - run: uv sync --all-groups --frozen
       - run: uv run ruff format --check .
