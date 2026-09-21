@@ -454,23 +454,10 @@ def _strip_al(bare: str) -> str:
     return bare
 
 
-def classify_ar_lemma(
-    lemma: str,
-    upos: str = "",
-    english: str = "",
-) -> ClassifyResult:
-    """Return drop|policy|ok for one Arabic headword."""
-    lem = _nfc(lemma)
-    if not lem:
-        return ClassifyResult("ok", "empty")
-    bare = strip_ar_diacritics(lem)
-    stem = _strip_al(bare)
-    en = (english or "").strip().lower()
-    up = (upos or "").strip().upper()
-    drop_set = {strip_ar_diacritics(x) for x in _TOKEN_DROP}
-    keep_set = {strip_ar_diacritics(x) for x in _MSA_KEEP}
-
-    # UPOS-conditional drops first (before MSA allow short-circuit).
+def _classify_upos_conditional(
+    lem: str, bare: str, stem: str, en: str, up: str
+) -> ClassifyResult | None:
+    """UPOS-conditional drops (before MSA allow short-circuit)."""
     if lem == "يعني" and up == "PART":
         return ClassifyResult("drop", "يعني discourse PART colloquial")
     if lem == "كون" and (up in {"SCONJ", "CCONJ", "PART"} or en in {"if", "if only"}):
@@ -482,13 +469,20 @@ def classify_ar_lemma(
         "",
     }:
         return ClassifyResult("drop", "colloquial imperative روح")
+    return None
 
+
+def _classify_closed_set(
+    lem: str, bare: str, stem: str, drop_set: set[str], keep_set: set[str]
+) -> ClassifyResult | None:
     if lem in _MSA_KEEP or bare in keep_set or stem in keep_set:
         return ClassifyResult("ok", "msa_allow")
-
     if lem in _TOKEN_DROP or bare in drop_set or stem in drop_set:
         return ClassifyResult("drop", "closed dialect/loan token set")
+    return None
 
+
+def _classify_clitic(lem: str) -> ClassifyResult | None:
     # b-/f- clitic on dialect stem (بشوية) — not بخير (MSA allow)
     if (
         lem not in _MSA_KEEP
@@ -498,7 +492,10 @@ def classify_ar_lemma(
         in {strip_ar_diacritics(x) for x in _CLITIC_STEMS | _TOKEN_DROP}
     ):
         return ClassifyResult("drop", "clitic+dialect stem")
+    return None
 
+
+def _classify_loan_morphology(bare: str, en: str) -> ClassifyResult | None:
     # French-loan morphology (بروفيل already in set; general pattern)
     # high false-positive risk — only if eng looks loan
     if re.fullmatch(r"[\u0600-\u06FF]{3,}(يل|اج|يش|يون)$", bare) and any(
@@ -519,7 +516,12 @@ def classify_ar_lemma(
         )
     ):
         return ClassifyResult("drop", "French-loan morphology+eng")
+    return None
 
+
+def _classify_gloss_semantics(
+    bare: str, en: str, up: str, lem: str
+) -> ClassifyResult | None:
     if ("colloquial" in en or "dialect" in en or "عامي" in en) and lem not in _MSA_KEEP:
         return ClassifyResult("policy", "eng labels colloquial/dialect")
 
@@ -536,8 +538,33 @@ def classify_ar_lemma(
         or (up in {"CCONJ", "CONJ"} and "or" in en and "not" not in en)
     ):
         return ClassifyResult("drop", "Maghrebi or (MSA أو)")
+    return None
 
-    return ClassifyResult("ok", "msa_or_unmarked")
+
+def classify_ar_lemma(
+    lemma: str,
+    upos: str = "",
+    english: str = "",
+) -> ClassifyResult:
+    """Return drop|policy|ok for one Arabic headword."""
+    lem = _nfc(lemma)
+    if not lem:
+        return ClassifyResult("ok", "empty")
+    bare = strip_ar_diacritics(lem)
+    stem = _strip_al(bare)
+    en = (english or "").strip().lower()
+    up = (upos or "").strip().upper()
+    drop_set = {strip_ar_diacritics(x) for x in _TOKEN_DROP}
+    keep_set = {strip_ar_diacritics(x) for x in _MSA_KEEP}
+
+    result = (
+        _classify_upos_conditional(lem, bare, stem, en, up)
+        or _classify_closed_set(lem, bare, stem, drop_set, keep_set)
+        or _classify_clitic(lem)
+        or _classify_loan_morphology(bare, en)
+        or _classify_gloss_semantics(bare, en, up, lem)
+    )
+    return result or ClassifyResult("ok", "msa_or_unmarked")
 
 
 @dataclass(frozen=True)
@@ -668,6 +695,40 @@ def closed_lexicon_inventory() -> list[InventoryRow]:
     return rows
 
 
+def _annotate_colloquial(row: dict[str, str], en: str, zh: str) -> None:
+    if "colloquial" not in en.lower() and "dialect" not in en.lower():
+        row["English_Lemma"] = f"{en} (colloquial)".strip()
+    if "口语" not in zh:
+        row["Chinese_Lemma"] = f"{zh}\uff08口语\uff09".strip()
+
+
+def _filter_arabic_list(path: Path) -> int:
+    """Classify one list; drop 'drop' rows, annotate 'policy' rows. Returns drops."""
+    with path.open(newline="", encoding="utf-8") as handle:
+        reader = csv.DictReader(handle)
+        fields = list(reader.fieldnames or [])
+        rows = list(reader)
+    lk = fields[0]
+    out: list[dict[str, str]] = []
+    dropped = 0
+    for row in rows:
+        lemma = _nfc(row.get(lk) or "")
+        upos = (row.get("POS") or "").strip()
+        en = _nfc(row.get("English_Lemma") or "")
+        result = classify_ar_lemma(lemma, upos=upos, english=en)
+        if result.action == "drop":
+            dropped += 1
+            continue
+        if result.action == "policy":
+            _annotate_colloquial(row, en, row.get("Chinese_Lemma") or "")
+        out.append(row)
+    with path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(out)
+    return dropped
+
+
 def apply_inventory_to_arabic_lists(
     root: Path, inventory: Sequence[InventoryRow]
 ) -> int:
@@ -679,31 +740,7 @@ def apply_inventory_to_arabic_lists(
             path = root / "arabic" / name
             if not path.exists():
                 continue
-            with path.open(newline="", encoding="utf-8") as handle:
-                reader = csv.DictReader(handle)
-                fields = list(reader.fieldnames or [])
-                rows = list(reader)
-            lk = fields[0]
-            out: list[dict[str, str]] = []
-            for row in rows:
-                lemma = _nfc(row.get(lk) or "")
-                upos = (row.get("POS") or "").strip()
-                en = _nfc(row.get("English_Lemma") or "")
-                result = classify_ar_lemma(lemma, upos=upos, english=en)
-                if result.action == "drop":
-                    dropped += 1
-                    continue
-                if result.action == "policy":
-                    zh = row.get("Chinese_Lemma") or ""
-                    if "colloquial" not in en.lower() and "dialect" not in en.lower():
-                        row["English_Lemma"] = f"{en} (colloquial)".strip()
-                    if "口语" not in zh:
-                        row["Chinese_Lemma"] = f"{zh}\uff08口语\uff09".strip()
-                out.append(row)
-            with path.open("w", newline="", encoding="utf-8") as handle:
-                writer = csv.DictWriter(handle, fieldnames=fields)
-                writer.writeheader()
-                writer.writerows(out)
+            dropped += _filter_arabic_list(path)
     return dropped
 
 

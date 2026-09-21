@@ -19,6 +19,7 @@ from .config import (
     API_BASE,
     CHAT_COMPLETIONS_PATH,
     REASONING_EFFORT,
+    ModelSpec,
     acquire_model_slot,
     get_api_key,
     release_model_slot,
@@ -108,6 +109,74 @@ class GemmaClient:
         self._reasoning_effort = reasoning_effort
         self._request_wall_s = request_wall_clock_s()
 
+    def _send_or_disable(
+        self,
+        spec: ModelSpec,
+        url: str,
+        headers: dict[str, str],
+        current_prompt: str,
+        request_json: dict[str, object],
+    ) -> dict[str, object]:
+        """Send with retries; disable the model and re-raise on optional-422."""
+        try:
+            return self._send_with_retries(
+                url=url,
+                headers=headers,
+                model=spec.key,
+                prompt=current_prompt,
+                request_json=request_json,
+                optional=spec.optional,
+            )
+        except httpx.HTTPStatusError as error:
+            if (
+                spec.optional
+                and error.response is not None
+                and error.response.status_code == 422
+            ):
+                from .config import mark_model_unavailable
+
+                mark_model_unavailable(spec.key)
+                event(
+                    "generate.model_disabled",
+                    level="WARN",
+                    model=spec.key,
+                    http_status=422,
+                    reason="optional model unavailable (422)",
+                )
+            raise
+
+    def _parse_or_repair(
+        self,
+        *,
+        model: str,
+        attempt: int,
+        original_prompt: str,
+        response_json: dict[str, object],
+        error: Exception,
+    ) -> str:
+        """Log a parse failure; re-raise on the last attempt, else repair prompt."""
+        event(
+            "generate.parse_error",
+            level="WARN",
+            model=model,
+            attempt=attempt,
+            error=self._concise_error(error),
+            prompt_tokens=self._parse_usage(response_json).prompt_tokens,
+            candidate_tokens=self._parse_usage(response_json).candidate_tokens,
+            response_preview=(
+                json.dumps(response_json, ensure_ascii=False)[:800]
+                if log_bodies_enabled()
+                else None
+            ),
+        )
+        if attempt >= self._structured_attempts:
+            raise error
+        return self._repair_prompt(
+            original_prompt=original_prompt,
+            response_json=response_json,
+            error=error,
+        )
+
     def generate(
         self,
         *,
@@ -150,54 +219,15 @@ class GemmaClient:
                     response_model=response_model,
                     max_output_tokens=max_output_tokens,
                 )
-                try:
-                    response_json = self._send_with_retries(
-                        url=url,
-                        headers=headers,
-                        model=spec.key,
-                        prompt=current_prompt,
-                        request_json=request_json,
-                        optional=spec.optional,
-                    )
-                except httpx.HTTPStatusError as error:
-                    if (
-                        spec.optional
-                        and error.response is not None
-                        and error.response.status_code == 422
-                    ):
-                        from .config import mark_model_unavailable
-
-                        mark_model_unavailable(spec.key)
-                        event(
-                            "generate.model_disabled",
-                            level="WARN",
-                            model=spec.key,
-                            http_status=422,
-                            reason="optional model unavailable (422)",
-                        )
-                    raise
+                response_json = self._send_or_disable(
+                    spec, url, headers, current_prompt, request_json
+                )
                 try:
                     parsed, usage = self.parse_response(response_json, response_model)
                 except (json.JSONDecodeError, ValidationError, ValueError) as error:
-                    event(
-                        "generate.parse_error",
-                        level="WARN",
+                    current_prompt = self._parse_or_repair(
                         model=spec.key,
                         attempt=structured_attempt + 1,
-                        error=self._concise_error(error),
-                        prompt_tokens=self._parse_usage(response_json).prompt_tokens,
-                        candidate_tokens=self._parse_usage(
-                            response_json
-                        ).candidate_tokens,
-                        response_preview=(
-                            json.dumps(response_json, ensure_ascii=False)[:800]
-                            if log_bodies_enabled()
-                            else None
-                        ),
-                    )
-                    if structured_attempt + 1 >= self._structured_attempts:
-                        raise
-                    current_prompt = self._repair_prompt(
                         original_prompt=prompt,
                         response_json=response_json,
                         error=error,
@@ -289,6 +319,71 @@ class GemmaClient:
         except httpx.TransportError:
             raise
 
+    def _log_transport_error(
+        self,
+        model: str,
+        attempt: int,
+        error: httpx.TransportError,
+        prompt_tokens: int,
+        wall_s: float,
+        wall_failures: int,
+    ) -> float:
+        delay = self._exponential_retry_delay(attempt)
+        event(
+            "generate.transport_error",
+            level="WARN",
+            model=model,
+            attempt=attempt + 1,
+            error=str(error)[:300],
+            wait_s=round(delay, 2),
+            prompt_tokens=prompt_tokens,
+            wall_s=wall_s,
+            wall_failures=wall_failures,
+        )
+        return delay
+
+    def _sleep_retryable_status(
+        self,
+        response: httpx.Response,
+        model: str,
+        attempt: int,
+        http_started: float,
+        prompt_tokens: int,
+    ) -> None:
+        """Back off after a retryable status; raise for status on the last attempt."""
+        delay = self._retry_delay(response, attempt)
+        event(
+            "generate.retry",
+            level="WARN",
+            model=model,
+            attempt=attempt + 1,
+            http_status=response.status_code,
+            wait_s=round(delay, 2),
+            duration_ms=int((time.time() - http_started) * 1000),
+            prompt_tokens=prompt_tokens,
+            error=response.text[:300],
+        )
+        if attempt >= self._max_retries:
+            response.raise_for_status()
+        self._sleeper(delay)
+
+    def _fail_http_error(
+        self, response: httpx.Response, model: str, optional: bool
+    ) -> None:
+        event(
+            "generate.http_error",
+            level="ERROR",
+            model=model,
+            http_status=response.status_code,
+            error=response.text[:500],
+            optional=optional,
+        )
+        if optional and response.status_code == 422:
+            from .config import mark_model_unavailable
+
+            mark_model_unavailable(model)
+        response.raise_for_status()
+
     def _send_with_retries(
         self,
         *,
@@ -314,20 +409,10 @@ class GemmaClient:
                     wall_s=wall_s,
                 )
             except httpx.TransportError as error:
-                is_wall = "wall clock" in str(error).lower()
-                if is_wall:
+                if "wall clock" in str(error).lower():
                     wall_failures += 1
-                delay = self._exponential_retry_delay(attempt)
-                event(
-                    "generate.transport_error",
-                    level="WARN",
-                    model=model,
-                    attempt=attempt + 1,
-                    error=str(error)[:300],
-                    wait_s=round(delay, 2),
-                    prompt_tokens=prompt_tokens,
-                    wall_s=wall_s,
-                    wall_failures=wall_failures,
+                delay = self._log_transport_error(
+                    model, attempt, error, prompt_tokens, wall_s, wall_failures
                 )
                 if attempt >= self._max_retries or wall_failures >= max_wall_failures:
                     raise
@@ -343,36 +428,12 @@ class GemmaClient:
                 )
                 raise
             if response.status_code == 429 or 500 <= response.status_code < 600:
-                delay = self._retry_delay(response, attempt)
-                event(
-                    "generate.retry",
-                    level="WARN",
-                    model=model,
-                    attempt=attempt + 1,
-                    http_status=response.status_code,
-                    wait_s=round(delay, 2),
-                    duration_ms=int((time.time() - http_started) * 1000),
-                    prompt_tokens=prompt_tokens,
-                    error=response.text[:300],
+                self._sleep_retryable_status(
+                    response, model, attempt, http_started, prompt_tokens
                 )
-                if attempt >= self._max_retries:
-                    response.raise_for_status()
-                self._sleeper(delay)
                 continue
             if response.status_code >= 400:
-                event(
-                    "generate.http_error",
-                    level="ERROR",
-                    model=model,
-                    http_status=response.status_code,
-                    error=response.text[:500],
-                    optional=optional,
-                )
-                if optional and response.status_code == 422:
-                    from .config import mark_model_unavailable
-
-                    mark_model_unavailable(model)
-                response.raise_for_status()
+                self._fail_http_error(response, model, optional)
             response_json = response.json()
             if not isinstance(response_json, dict):
                 raise ValueError("chat completion body must be a JSON object")
@@ -438,26 +499,32 @@ class GemmaClient:
             response_json
         )
 
+    @staticmethod
+    def _retry_after_http_date(retry_after: str) -> float | None:
+        try:
+            retry_at = parsedate_to_datetime(retry_after)
+        except (TypeError, ValueError):
+            return None
+        if retry_at.tzinfo is None:
+            retry_at = retry_at.replace(tzinfo=UTC)
+        return max(0.0, (retry_at - datetime.now(UTC)).total_seconds())
+
+    @classmethod
+    def _parse_retry_after(cls, retry_after: str) -> float | None:
+        try:
+            seconds = float(retry_after)
+        except ValueError:
+            return cls._retry_after_http_date(retry_after)
+        if math.isfinite(seconds) and seconds >= 0:
+            return seconds
+        return None
+
     def _retry_delay(self, response: httpx.Response, attempt: int) -> float:
         retry_after = response.headers.get("Retry-After")
         if retry_after:
-            try:
-                seconds = float(retry_after)
-            except ValueError:
-                try:
-                    retry_at = parsedate_to_datetime(retry_after)
-                except (TypeError, ValueError):
-                    retry_at = None
-                if retry_at is not None:
-                    if retry_at.tzinfo is None:
-                        retry_at = retry_at.replace(tzinfo=UTC)
-                    return max(
-                        0.0,
-                        (retry_at - datetime.now(UTC)).total_seconds(),
-                    )
-            else:
-                if math.isfinite(seconds) and seconds >= 0:
-                    return seconds
+            seconds = self._parse_retry_after(retry_after)
+            if seconds is not None:
+                return seconds
         return self._exponential_retry_delay(attempt)
 
     def _exponential_retry_delay(self, attempt: int) -> float:
