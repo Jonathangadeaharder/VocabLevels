@@ -47,6 +47,9 @@ def test_scan_job_never_executes_repo_code() -> None:
         "the scan job must not install toolchains for repo code"
     )
     assert "uv sync" not in sonar, "the scan job must not install repo deps"
+    assert "uv run" not in sonar, (
+        "the scan job must not execute repo code (incl. validator scripts)"
+    )
     assert "pytest" not in sonar, "the scan job must not run repo tests"
 
 
@@ -100,4 +103,32 @@ def test_ci_job_bounds_runner_time() -> None:
         "a hung Test run on the shared self-hosted pool must not occupy"
         " the runner indefinitely; it also stalls the SonarQube scan that"
         " now depends on this run completing"
+    )
+
+
+def test_ci_cancels_superseded_runs() -> None:
+    ci = _ci_workflow()
+    assert "cancel-in-progress: true" in ci, (
+        "rapid pushes must cancel superseded CI runs instead of piling"
+        " 30-minute suites onto the single self-hosted runner and"
+        " firing a scan for each"
+    )
+
+
+def test_scan_rejects_symlinks_escaping_the_workspace() -> None:
+    sonar = _sonar_workflow()
+    assert "Reject symlinks escaping the workspace" in sonar, (
+        "SonarScanner follows symlinks under sonar.sources=.; a committed"
+        " symlink resolving outside the workspace would exfiltrate runner"
+        " files to the SonarQube server"
+    )
+
+
+def test_scan_validates_untrusted_coverage_report() -> None:
+    sonar = _sonar_workflow()
+    assert "Validate coverage report" in sonar, (
+        "PR CI runs execute the PR's own ci.yml, so coverage.xml is an"
+        " untrusted input to the token-bearing scan job and must be"
+        " rejected unless it is a regular, well-formed report whose"
+        " paths stay inside the workspace"
     )
