@@ -99,7 +99,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python3 - <<'PY'
+          python3 -I - <<'PY'
           import os
           import subprocess
           import sys
@@ -138,22 +138,18 @@ jobs:
           # gh run download unzips the whole archive inside the
           # workspace before any check can run. Fetch the zip raw and
           # extract only coverage.xml here, fully bounded.
-          ARTIFACT_ID=$(gh api "repos/$REPO/actions/runs/$CI_RUN_ID/artifacts" \
-            --jq '.artifacts[] | select(.name == "coverage") | .id' \
-            | head -1)
+          read -r ARTIFACT_ID SIZE <<<"$(gh api "repos/$REPO/actions/runs/$CI_RUN_ID/artifacts" \
+            --jq '.artifacts[] | select(.name == "coverage") | "\(.id) \(.size_in_bytes)"')"
           if [ -z "$ARTIFACT_ID" ]; then
             echo "::error::coverage artifact not found in CI run $CI_RUN_ID"
             exit 1
           fi
-          SIZE=$(gh api "repos/$REPO/actions/runs/$CI_RUN_ID/artifacts" \
-            --jq '.artifacts[] | select(.name == "coverage") | .size_in_bytes' \
-            | head -1)
-          if [ "$SIZE" -gt $((256 * 1024 * 1024)) ]; then
+          if [ "${SIZE:-0}" -gt $((256 * 1024 * 1024)) ]; then
             echo "::error::coverage artifact too large ($SIZE bytes)"
             exit 1
           fi
           gh api "repos/$REPO/actions/artifacts/$ARTIFACT_ID/zip" > "$ZIP_PATH"
-          python3 - <<'PY'
+          python3 -I - <<'PY'
           import os
           import sys
           import zipfile
@@ -183,7 +179,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python3 - <<'PY'
+          python3 -I - <<'PY'
           import os
           import sys
           import xml.etree.ElementTree as ET

@@ -192,6 +192,18 @@ def test_scan_anchors_coverage_source_to_the_scanned_tree() -> None:
     )
 
 
+def test_scan_heredocs_run_in_isolated_python() -> None:
+    sonar = _sonar_workflow()
+    invocations = re.findall(r"^ *python3 .*", sonar, re.MULTILINE)
+    assert invocations, "the scan job must keep using trusted stdlib python3"
+    assert all(line.strip().startswith("python3 -I -") for line in invocations), (
+        "a stdin heredoc runs with the untrusted checkout as sys.path[0]:"
+        " a committed zipfile.py, subprocess.py or xml/ package would"
+        " shadow the stdlib and execute PR code inside this"
+        " token-bearing job. Isolated mode removes cwd from sys.path"
+    )
+
+
 def test_scan_validates_untrusted_coverage_report() -> None:
     sonar = _sonar_workflow()
     assert "Validate coverage report" in sonar, (
