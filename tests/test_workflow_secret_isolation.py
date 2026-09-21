@@ -79,6 +79,11 @@ def test_scan_pulls_coverage_from_the_triggering_ci_run() -> None:
         " can run; extraction must happen in the bounded step"
     )
     assert "github.event.workflow_run.id" in sonar
+    assert "gh api --paginate" in sonar, (
+        "the artifacts API returns at most 30 entries per page, so"
+        " without pagination the lookup can miss the coverage artifact"
+        " and fail the scan with a misleading not-found error"
+    )
 
 
 def test_scanner_config_is_pinned_to_main() -> None:
@@ -154,6 +159,11 @@ def test_scan_bounds_artifact_before_and_during_extraction() -> None:
         "only the coverage.xml entry may be extracted; sibling entries"
         " are never written to the shared runner's disk"
     )
+    assert "trap 'rm -f \"$ZIP_PATH\"' EXIT" in download, (
+        "the zip cleanup must be registered before the fetch: under"
+        " set -e a failed extraction otherwise leaves up to 256 MiB"
+        " behind on the persistent runner for every failed run"
+    )
 
 
 def test_scan_unzips_artifacts_outside_the_workspace() -> None:
@@ -170,10 +180,11 @@ def test_scan_rejects_coverage_entries_for_missing_files() -> None:
         "every <class> filename must resolve to a real file in the"
         " workspace before the report is handed to SonarQube"
     )
-    assert "::warning::coverage file path" in sonar and "continue" in sonar, (
+    assert "classes.remove(cls)" in sonar and "package.remove(classes)" in sonar, (
         "CI measures the merge commit while the scan checks out the PR"
         " head, so genuine reports can reference files missing here;"
-        " unmappable entries must be skipped, not fatal"
+        " unmappable entries must be removed from the written report,"
+        " not merely spared the error"
     )
     assert "escapes the workspace" in sonar, (
         "absolute and parent-traversing filenames stay fatal"

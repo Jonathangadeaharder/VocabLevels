@@ -138,7 +138,7 @@ jobs:
           # gh run download unzips the whole archive inside the
           # workspace before any check can run. Fetch the zip raw and
           # extract only coverage.xml here, fully bounded.
-          read -r ARTIFACT_ID SIZE <<<"$(gh api "repos/$REPO/actions/runs/$CI_RUN_ID/artifacts" \
+          read -r ARTIFACT_ID SIZE <<<"$(gh api --paginate "repos/$REPO/actions/runs/$CI_RUN_ID/artifacts" \
             --jq '.artifacts[] | select(.name == "coverage") | "\(.id) \(.size_in_bytes)"')"
           if [ -z "$ARTIFACT_ID" ]; then
             echo "::error::coverage artifact not found in CI run $CI_RUN_ID"
@@ -148,6 +148,7 @@ jobs:
             echo "::error::coverage artifact too large ($SIZE bytes)"
             exit 1
           fi
+          trap 'rm -f "$ZIP_PATH"' EXIT
           gh api "repos/$REPO/actions/artifacts/$ARTIFACT_ID/zip" > "$ZIP_PATH"
           python3 -I - <<'PY'
           import os
@@ -170,7 +171,6 @@ jobs:
                               sys.exit(1)
                           dst.write(chunk)
           PY
-          rm -f "$ZIP_PATH"
       - name: Validate coverage report from the CI run
         # pull_request CI runs execute the PR's own ci.yml, so the
         # artifact is untrusted input to this token-bearing job: reject
@@ -218,12 +218,19 @@ jobs:
               if os.path.isabs(name) or ".." in name.split("/"):
                   print(f"::error::coverage file path {name!r} escapes the workspace")
                   sys.exit(1)
-              # CI measures the merge commit while this job scans the
-              # PR head, so genuine reports can reference files missing
-              # here. Skip them: SonarQube cannot map them anyway.
-              if not os.path.isfile(os.path.join(root, name)):
-                  print(f"::warning::coverage file path {name!r} does not exist in the scanned tree, skipping")
-                  continue
+          # CI measures the merge commit while this job scans the PR
+          # head, so genuine reports can reference files missing here.
+          # Remove them: SonarQube cannot map them anyway.
+          for classes in parsed.iter("classes"):
+              for cls in list(classes):
+                  name = cls.get("filename", "")
+                  if not os.path.isfile(os.path.join(root, name)):
+                      print(f"::warning::coverage file path {name!r} does not exist in the scanned tree, removed")
+                      classes.remove(cls)
+          for package in parsed.iter("package"):
+              classes = package.find("classes")
+              if classes is not None and len(classes) == 0:
+                  package.remove(classes)
           ET.ElementTree(parsed).write("coverage.xml", encoding="UTF-8", xml_declaration=True)
           PY
       - name: Wait for SonarQube
