@@ -64,11 +64,21 @@ def test_ci_uploads_coverage_artifact_for_the_scan() -> None:
 
 
 def test_scan_pulls_coverage_from_the_triggering_ci_run() -> None:
-    steps = _sonar_steps()
-    assert any("gh run download" in chunk for chunk in steps.values()), (
-        "the scan must download coverage from the CI run, not run tests"
+    sonar = _sonar_workflow()
+    assert "actions/runs/$CI_RUN_ID/artifacts" in sonar, (
+        "the scan must fetch the coverage artifact from the triggering"
+        " CI run, not run tests"
     )
-    assert any("github.event.workflow_run.id" in c for c in steps.values())
+    assert "actions/artifacts/$ARTIFACT_ID/zip" in sonar, (
+        "the artifact zip must be fetched raw so its extraction can be"
+        " bounded; gh run download extracts unbounded inside the"
+        " workspace"
+    )
+    assert 'gh run download "' not in sonar, (
+        "gh run download unzips the whole archive before any local check"
+        " can run; extraction must happen in the bounded step"
+    )
+    assert "github.event.workflow_run.id" in sonar
 
 
 def test_scanner_config_is_pinned_to_main() -> None:
@@ -124,30 +134,33 @@ def test_scan_rejects_symlinks_escaping_the_workspace() -> None:
     )
 
 
-def test_scan_discards_artifact_staging_directory() -> None:
+def test_scan_bounds_artifact_before_and_during_extraction() -> None:
     steps = _sonar_steps()
-    download = next(c for c in steps.values() if "gh run download" in c)
-    mv_at = download.find("mv coverage-report/coverage.xml coverage.xml")
-    cleanup_at = download.find("rm -rf coverage-report", mv_at)
-    assert mv_at != -1 and cleanup_at != -1 and cleanup_at > mv_at, (
-        "extracted artifact files are untracked and unchecked, so the"
-        " staging directory must be discarded once coverage.xml is out"
-    )
-
-
-def test_scan_bounds_artifact_size_before_download() -> None:
-    steps = _sonar_steps()
-    download = next(c for c in steps.values() if "gh run download" in c)
+    download = next(c for c in steps.values() if "ARTIFACT_ID" in c)
     size_gate_at = download.find("size_in_bytes")
-    download_at = download.find('gh run download "$CI_RUN_ID"')
+    fetch_at = download.find("actions/artifacts/$ARTIFACT_ID/zip")
     assert "coverage artifact too large" in download, (
-        "gh run download extracts the archive before any local check can"
-        " run, so an oversized PR-controlled artifact can exhaust the disk"
-        " of the shared self-hosted runner; its API-reported size must be"
-        " fetched and refused before downloading"
+        "the API's size_in_bytes is the compressed archive size, but it"
+        " still bounds the zip this job writes to disk before opening it"
     )
-    assert size_gate_at != -1 and size_gate_at < download_at, (
-        "the size gate must run before gh run download touches the artifact"
+    assert size_gate_at != -1 and size_gate_at < fetch_at, (
+        "the compressed size gate must run before the zip is fetched"
+    )
+    assert "exceeds 256 MiB while extracting" in download, (
+        "a small zip can expand to many GiB; the uncompressed payload"
+        " must be capped by counting bytes during extraction"
+    )
+    assert 'archive.open("coverage.xml")' in download, (
+        "only the coverage.xml entry may be extracted; sibling entries"
+        " are never written to the shared runner's disk"
+    )
+
+
+def test_scan_unzips_artifacts_outside_the_workspace() -> None:
+    sonar = _sonar_workflow()
+    assert "runner.temp" in sonar, (
+        "the artifact zip must land outside sonar.sources=. so extracted"
+        " content is never traversed by the scanner"
     )
 
 
@@ -157,10 +170,25 @@ def test_scan_rejects_coverage_entries_for_missing_files() -> None:
         "every <class> filename must resolve to a real file in the"
         " workspace before the report is handed to SonarQube"
     )
-    assert "does not exist in the scanned tree" in sonar, (
-        "PR-controlled ci.yml can fabricate coverage entries for paths"
-        " that do not exist; the validator must confine fabricated data"
-        " to files the scanner would analyze anyway"
+    assert "::warning::coverage file path" in sonar and "continue" in sonar, (
+        "CI measures the merge commit while the scan checks out the PR"
+        " head, so genuine reports can reference files missing here;"
+        " unmappable entries must be skipped, not fatal"
+    )
+    assert "escapes the workspace" in sonar, (
+        "absolute and parent-traversing filenames stay fatal"
+    )
+
+
+def test_scan_anchors_coverage_source_to_the_scanned_tree() -> None:
+    sonar = _sonar_workflow()
+    assert 'source.text = "."' in sonar, (
+        "coverage.py emits the CI runner's absolute workspace path in"
+        " <source>; anchoring it to the scanned tree keeps the report"
+        " portable across runner machines"
+    )
+    assert "ET.ElementTree(parsed).write(" in sonar, (
+        "the anchored source must be written back for SonarQube to read"
     )
 
 

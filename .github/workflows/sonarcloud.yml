@@ -129,31 +129,52 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
           CI_RUN_ID: ${{ github.event.workflow_run.id }}
+          ZIP_PATH: ${{ runner.temp }}/vl-coverage.zip
         run: |
           set -euo pipefail
-          # rm never follows symlinks: a PR committing coverage-report or
-          # coverage.xml as a symlink must not redirect writes outside
-          # the workspace.
-          rm -rf coverage-report coverage.xml
-          # gh run download extracts the archive before any local check
-          # can run, so refuse oversized artifacts by API size first.
-          SIZE=$(gh api "repos/$REPO/actions/runs/$CI_RUN_ID/artifacts" \
-            --jq '.artifacts[] | select(.name == "coverage") | .size_in_bytes' \
+          # rm never follows symlinks: a PR committing coverage.xml as a
+          # symlink must not redirect writes outside the workspace.
+          rm -rf coverage.xml
+          # gh run download unzips the whole archive inside the
+          # workspace before any check can run. Fetch the zip raw and
+          # extract only coverage.xml here, fully bounded.
+          ARTIFACT_ID=$(gh api "repos/$REPO/actions/runs/$CI_RUN_ID/artifacts" \
+            --jq '.artifacts[] | select(.name == "coverage") | .id' \
             | head -1)
-          if [ -z "$SIZE" ]; then
+          if [ -z "$ARTIFACT_ID" ]; then
             echo "::error::coverage artifact not found in CI run $CI_RUN_ID"
             exit 1
           fi
+          SIZE=$(gh api "repos/$REPO/actions/runs/$CI_RUN_ID/artifacts" \
+            --jq '.artifacts[] | select(.name == "coverage") | .size_in_bytes' \
+            | head -1)
           if [ "$SIZE" -gt $((256 * 1024 * 1024)) ]; then
             echo "::error::coverage artifact too large ($SIZE bytes)"
             exit 1
           fi
-          gh run download "$CI_RUN_ID" -R "$REPO" -n coverage -D coverage-report
-          mv coverage-report/coverage.xml coverage.xml
-          # Extracted files are untracked, unchecked and inside
-          # sonar.sources=.: discard the staging directory once the
-          # report is out.
-          rm -rf coverage-report
+          gh api "repos/$REPO/actions/artifacts/$ARTIFACT_ID/zip" > "$ZIP_PATH"
+          python3 - <<'PY'
+          import os
+          import sys
+          import zipfile
+
+          zip_path = os.environ["ZIP_PATH"]
+          limit = 256 * 1024 * 1024
+          with zipfile.ZipFile(zip_path) as archive:
+              if "coverage.xml" not in archive.namelist():
+                  print("::error::coverage artifact has no coverage.xml entry")
+                  sys.exit(1)
+              written = 0
+              with archive.open("coverage.xml") as src:
+                  with open("coverage.xml", "wb") as dst:
+                      while chunk := src.read(1024 * 1024):
+                          written += len(chunk)
+                          if written > limit:
+                              print("::error::coverage.xml exceeds 256 MiB while extracting")
+                              sys.exit(1)
+                          dst.write(chunk)
+          PY
+          rm -f "$ZIP_PATH"
       - name: Validate coverage report from the CI run
         # pull_request CI runs execute the PR's own ci.yml, so the
         # artifact is untrusted input to this token-bearing job: reject
@@ -185,21 +206,23 @@ jobs:
               print("::error::coverage.xml must not contain DTD or entity declarations")
               sys.exit(1)
           parsed = ET.fromstring(data)
+          # coverage.py emits the CI runner's absolute workspace path in
+          # <source>, which may differ from this job's tree. Anchor
+          # mapping to the scanned tree; filenames carry containment.
           for source in parsed.findall("./sources/source"):
-              text = (source.text or "").strip()
-              base = text if os.path.isabs(text) else os.path.join(root, text)
-              real = os.path.realpath(base)
-              if real != root and not real.startswith(root + os.sep):
-                  print(f"::error::coverage source {text!r} escapes the workspace")
-                  sys.exit(1)
+              source.text = "."
           for cls in parsed.iter("class"):
               name = cls.get("filename", "")
               if os.path.isabs(name) or ".." in name.split("/"):
                   print(f"::error::coverage file path {name!r} escapes the workspace")
                   sys.exit(1)
+              # CI measures the merge commit while this job scans the
+              # PR head, so genuine reports can reference files missing
+              # here. Skip them: SonarQube cannot map them anyway.
               if not os.path.isfile(os.path.join(root, name)):
-                  print(f"::error::coverage file path {name!r} does not exist in the scanned tree")
-                  sys.exit(1)
+                  print(f"::warning::coverage file path {name!r} does not exist in the scanned tree, skipping")
+                  continue
+          ET.ElementTree(parsed).write("coverage.xml", encoding="UTF-8", xml_declaration=True)
           PY
       - name: Wait for SonarQube
         run: |
