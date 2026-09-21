@@ -32,7 +32,7 @@ jobs:
           path: |
             mutmut-results.txt
             mutants/mutmut-stats.json
-            mutants/*.meta
-            mutants/*.spans
+            mutants/**/*.meta
+            mutants/**/*.spans
           retention-days: 90
           if-no-files-found: warn

@@ -90,7 +90,9 @@ dev = [
 source_paths = ["scripts/", "vocab_manager.py", "vocab_schema.py"]
 pytest_add_cli_args_test_selection = ["tests/"]
 pytest_add_cli_args = ["--no-cov"]
-# Mirror of [tool.coverage.run].omit: keep the two lists in lockstep.
+# Covers what the test suite imports/reads inside the mutmut workspace; a
+# superset relationship to [tool.coverage.run].omit, not a strict mirror.
+# Re-check when tests gain new root-module imports.
 also_copy = [
     # Root modules the test suite imports but that are not mutated yet.
     "audit_lemmatization.py",
