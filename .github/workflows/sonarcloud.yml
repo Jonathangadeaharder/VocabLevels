@@ -137,6 +137,10 @@ jobs:
           rm -rf coverage-report coverage.xml
           gh run download "$CI_RUN_ID" -R "$REPO" -n coverage -D coverage-report
           mv coverage-report/coverage.xml coverage.xml
+          # Extracted files are untracked, unchecked and inside
+          # sonar.sources=.: discard the staging directory once the
+          # report is out.
+          rm -rf coverage-report
       - name: Validate coverage report from the CI run
         # pull_request CI runs execute the PR's own ci.yml, so the
         # artifact is untrusted input to this token-bearing job: reject
@@ -159,7 +163,12 @@ jobs:
               print(f"::error::{report} exceeds 256 MiB")
               sys.exit(1)
           data = open(report, "rb").read()
-          if b"<!DOCTYPE" in data or b"<!ENTITY" in data:
+          try:
+              text = data.decode("utf-8")
+          except UnicodeDecodeError:
+              print("::error::coverage.xml must be UTF-8 encoded")
+              sys.exit(1)
+          if "<!DOCTYPE" in text or "<!ENTITY" in text:
               print("::error::coverage.xml must not contain DTD or entity declarations")
               sys.exit(1)
           parsed = ET.fromstring(data)

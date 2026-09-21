@@ -124,6 +124,17 @@ def test_scan_rejects_symlinks_escaping_the_workspace() -> None:
     )
 
 
+def test_scan_discards_artifact_staging_directory() -> None:
+    steps = _sonar_steps()
+    download = next(c for c in steps.values() if "gh run download" in c)
+    mv_at = download.find("mv coverage-report/coverage.xml coverage.xml")
+    cleanup_at = download.find("rm -rf coverage-report", mv_at)
+    assert mv_at != -1 and cleanup_at != -1 and cleanup_at > mv_at, (
+        "extracted artifact files are untracked and unchecked, so the"
+        " staging directory must be discarded once coverage.xml is out"
+    )
+
+
 def test_scan_validates_untrusted_coverage_report() -> None:
     sonar = _sonar_workflow()
     assert "Validate coverage report" in sonar, (
@@ -135,4 +146,8 @@ def test_scan_validates_untrusted_coverage_report() -> None:
     assert "must not contain DTD or entity declarations" in sonar, (
         "entity expansion must be rejected independent of the runner's"
         " expat version; genuine coverage.py reports carry no DTD"
+    )
+    assert "must be UTF-8 encoded" in sonar, (
+        "a UTF-16/UTF-32 report hides <!DOCTYPE from a byte-level scan"
+        " while expat still expands its entities"
     )
