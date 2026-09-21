@@ -165,14 +165,7 @@ def generate() -> int:
 def translate_only() -> int:
     """Fill English_Lemma for existing CSVs that have empty translations."""
     dutch_dir = ROOT / "dutch"
-    all_words: list[str] = []
-    for level in LEVELS:
-        rows = load_csv(dutch_dir / f"{level}.csv")
-        for r in rows:
-            en = r.get("English_Lemma", "").strip()
-            if not en or en == r.get("Dutch_Lemma", "").strip():
-                all_words.append(r["Dutch_Lemma"])
-
+    all_words = _words_needing_translation(dutch_dir)
     if not all_words:
         print("All translations already present.")
         return 0
@@ -182,19 +175,35 @@ def translate_only() -> int:
 
     for level in LEVELS:
         path = dutch_dir / f"{level}.csv"
-        rows = load_csv(path)
-        changed = False
-        for r in rows:
-            en = r.get("English_Lemma", "").strip()
-            nl = r.get("Dutch_Lemma", "").strip()
-            if not en or en == nl:
-                r["English_Lemma"] = translations.get(nl, nl)
-                changed = True
-        if changed:
-            save_csv(path, rows)
+        if _fill_level_translations(path, translations):
             print(f"  {level}: updated translations", flush=True)
 
     return 0
+
+
+def _words_needing_translation(dutch_dir: Path) -> list[str]:
+    all_words: list[str] = []
+    for level in LEVELS:
+        rows = load_csv(dutch_dir / f"{level}.csv")
+        for r in rows:
+            en = r.get("English_Lemma", "").strip()
+            if not en or en == r.get("Dutch_Lemma", "").strip():
+                all_words.append(r["Dutch_Lemma"])
+    return all_words
+
+
+def _fill_level_translations(path: Path, translations: dict[str, str]) -> bool:
+    rows = load_csv(path)
+    changed = False
+    for r in rows:
+        en = r.get("English_Lemma", "").strip()
+        nl = r.get("Dutch_Lemma", "").strip()
+        if not en or en == nl:
+            r["English_Lemma"] = translations.get(nl, nl)
+            changed = True
+    if changed:
+        save_csv(path, rows)
+    return changed
 
 
 def check() -> int:
