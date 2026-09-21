@@ -28,7 +28,7 @@ def _suffix_candidate(
     lemma: str, ftype: str, cut: int, all_lemmas: dict
 ) -> tuple | None:
     base = lemma[:-cut]
-    if base in all_lemmas and base != lemma:
+    if base in all_lemmas:
         return (lemma, ftype, base)
     return None
 

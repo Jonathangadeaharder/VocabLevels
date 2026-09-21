@@ -427,10 +427,7 @@ _TOKEN_DROP: frozenset[str] = (
 _LOAN_SUFFIX_RE = re.compile(
     r"^(?!.{0,2}$)[\u0600-\u06FF]{2,}(اج|يش|يون|يير|وار|ورة|اتور|سيون|مون)$"
 )
-_MAGHREBI_PREFIX_RE = re.compile(
-    r"^([بفك])(?!ال)[\u0600-\u06FF]{2,}$"
-)  # b-/f-/k- clitic forms like بشوية
-# Known clitic+dialect stems
+# Known clitic+dialect stems (checked manually in classify_ar_lemma)
 _CLITIC_STEMS: frozenset[str] = frozenset(
     {
         "شوية",
