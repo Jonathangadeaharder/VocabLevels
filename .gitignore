@@ -56,6 +56,10 @@ htmlcov/
 *.proposed.conllu
 *.reviewed.csv
 
+# Mutation testing workspace (mutmut)
+mutants/
+mutmut-results.txt
+
 # Gemini expansion working data (scripts + allowlist are tracked, bulk data not)
 work/gemini_out*/
 work/gemini_prompts*/
