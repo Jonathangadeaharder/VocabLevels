@@ -50,8 +50,6 @@ uv run pyright
 uv run python -m pytest
 ```
 
-## Quality gates
-
 - CI: ruff format, ruff check, pyright, pytest (86% branch coverage)
 - SonarQube: self-hosted, quality-gate-enforced (`sonar.qualitygate.wait=true`)
 - AI Code Review: OpenCodeReview, gates on high/critical findings
