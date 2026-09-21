@@ -6,6 +6,7 @@ on:
 
 permissions:
   contents: read
+  checks: write
 
 jobs:
   sonar:
@@ -22,10 +23,46 @@ jobs:
     # parameters are passed: every scan lands on the main-branch analysis.
     timeout-minutes: 30
     steps:
+      # workflow_run check runs attach to the default-branch commit, so the
+      # required check must be reported on the scanned head SHA explicitly
+      # via the Checks API (#172).
+      - name: Mark SonarQube Analysis in progress on the scanned commit
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          close_stale_check_runs() {
+            gh api --method GET --paginate "repos/$REPO/commits/$HEAD_SHA/check-runs" \
+              --jq '.check_runs[]
+                | select(.name == "SonarQube Analysis" and .status == "in_progress")
+                | .id' \
+              | while read -r stale_id; do
+                  echo "::warning::closing stale in_progress check run $stale_id"
+                  gh api --method PATCH "repos/$REPO/check-runs/$stale_id" \
+                    -f status=completed \
+                    -f conclusion=cancelled || true
+                done
+          }
+          close_stale_check_runs
+          if ID=$(gh api --method POST "repos/$REPO/check-runs" \
+            -f head_sha="$HEAD_SHA" \
+            -f name="SonarQube Analysis" \
+            -f status=in_progress \
+            -f details_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+            --jq .id); then
+            echo "id=$ID" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::check-run creation failed; the report step will create it"
+          fi
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           ref: ${{ github.event.workflow_run.head_sha }}
           fetch-depth: 0
+          # The scanned branch's code runs in later steps; do not leave the
+          # checks:write token readable from the local git config (#172).
+          persist-credentials: false
       - name: Install uv
         uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
       - name: Install dependencies
@@ -45,6 +82,7 @@ jobs:
           echo "::error::SonarQube at localhost:9001 never became UP"
           exit 1
       - name: SonarQube Scan
+        id: scan
         uses: SonarSource/sonarqube-scan-action@713881670b6b3676cda39549040e2d88c70d582e # v8.2.0
         with:
           # Fail the workflow when the scan does not pass the quality gate.
@@ -52,3 +90,58 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: http://127.0.0.1:9001
+      - name: Report SonarQube Analysis result on the scanned commit
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          CHECK_ID: ${{ steps.check.outputs.id }}
+          SCAN_OUTCOME: ${{ steps.scan.outcome }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          case "$SCAN_OUTCOME" in
+            success)   CONCLUSION=success ;;
+            cancelled)  CONCLUSION=cancelled ;;
+            timed_out)  CONCLUSION=timed_out ;;
+            *)          CONCLUSION=failure ;;
+          esac
+          create_completed_check_run() {
+            gh api --method POST "repos/$REPO/check-runs" \
+              -f head_sha="$HEAD_SHA" \
+              -f name="SonarQube Analysis" \
+              -f status=completed \
+              -f conclusion="$CONCLUSION" \
+              -f details_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          }
+          close_stale_check_runs() {
+            gh api --method GET --paginate "repos/$REPO/commits/$HEAD_SHA/check-runs" \
+              --jq '.check_runs[]
+                | select(.name == "SonarQube Analysis" and .status == "in_progress")
+                | .id' \
+              | while read -r stale_id; do
+                  echo "::warning::closing stale in_progress check run $stale_id"
+                  gh api --method PATCH "repos/$REPO/check-runs/$stale_id" \
+                    -f status=completed \
+                    -f conclusion=cancelled || true
+                done
+          }
+          if [ -n "$CHECK_ID" ]; then
+            ok=0
+            for attempt in 1 2; do
+              if gh api --method PATCH "repos/$REPO/check-runs/$CHECK_ID" \
+                -f status=completed \
+                -f conclusion="$CONCLUSION"; then
+                ok=1
+                break
+              fi
+              echo "::warning::PATCH attempt $attempt on check run $CHECK_ID failed"
+              sleep 2
+            done
+            if [ "$ok" != 1 ]; then
+              close_stale_check_runs
+              create_completed_check_run
+            fi
+          else
+            close_stale_check_runs
+            create_completed_check_run
+          fi
