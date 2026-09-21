@@ -34,7 +34,7 @@ jobs:
           HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
         run: |
           close_stale_check_runs() {
-            gh api --method GET "repos/$REPO/commits/$HEAD_SHA/check-runs" \
+            gh api --method GET --paginate "repos/$REPO/commits/$HEAD_SHA/check-runs" \
               --jq '.check_runs[]
                 | select(.name == "SonarQube Analysis" and .status == "in_progress")
                 | .id' \
@@ -114,7 +114,7 @@ jobs:
               -f details_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
           }
           close_stale_check_runs() {
-            gh api --method GET "repos/$REPO/commits/$HEAD_SHA/check-runs" \
+            gh api --method GET --paginate "repos/$REPO/commits/$HEAD_SHA/check-runs" \
               --jq '.check_runs[]
                 | select(.name == "SonarQube Analysis" and .status == "in_progress")
                 | .id' \
