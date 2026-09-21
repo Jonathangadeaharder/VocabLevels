@@ -33,6 +33,19 @@ jobs:
           REPO: ${{ github.repository }}
           HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
         run: |
+          close_stale_check_runs() {
+            gh api --method GET "repos/$REPO/commits/$HEAD_SHA/check-runs" \
+              --jq '.check_runs[]
+                | select(.name == "SonarQube Analysis" and .status == "in_progress")
+                | .id' \
+              | while read -r stale_id; do
+                  echo "::warning::closing stale in_progress check run $stale_id"
+                  gh api --method PATCH "repos/$REPO/check-runs/$stale_id" \
+                    -f status=completed \
+                    -f conclusion=cancelled || true
+                done
+          }
+          close_stale_check_runs
           if ID=$(gh api --method POST "repos/$REPO/check-runs" \
             -f head_sha="$HEAD_SHA" \
             -f name="SonarQube Analysis" \
@@ -47,6 +60,9 @@ jobs:
         with:
           ref: ${{ github.event.workflow_run.head_sha }}
           fetch-depth: 0
+          # The scanned branch's code runs in later steps; do not leave the
+          # checks:write token readable from the local git config (#172).
+          persist-credentials: false
       - name: Install uv
         uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
       - name: Install dependencies
@@ -97,6 +113,18 @@ jobs:
               -f conclusion="$CONCLUSION" \
               -f details_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
           }
+          close_stale_check_runs() {
+            gh api --method GET "repos/$REPO/commits/$HEAD_SHA/check-runs" \
+              --jq '.check_runs[]
+                | select(.name == "SonarQube Analysis" and .status == "in_progress")
+                | .id' \
+              | while read -r stale_id; do
+                  echo "::warning::closing stale in_progress check run $stale_id"
+                  gh api --method PATCH "repos/$REPO/check-runs/$stale_id" \
+                    -f status=completed \
+                    -f conclusion=cancelled || true
+                done
+          }
           if [ -n "$CHECK_ID" ]; then
             ok=0
             for attempt in 1 2; do
@@ -110,8 +138,10 @@ jobs:
               sleep 2
             done
             if [ "$ok" != 1 ]; then
+              close_stale_check_runs
               create_completed_check_run
             fi
           else
+            close_stale_check_runs
             create_completed_check_run
           fi
