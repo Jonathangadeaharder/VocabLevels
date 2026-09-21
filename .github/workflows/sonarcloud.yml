@@ -222,9 +222,9 @@ jobs:
               if os.path.isabs(name) or ".." in name.split("/"):
                   print(f"::error::coverage file path {name!r} escapes the workspace")
                   sys.exit(1)
-          # CI measures the merge commit while this job scans the PR
-          # head, so genuine reports can reference files missing here.
-          # Remove them: SonarQube cannot map them anyway.
+          # CI checks out the same head SHA this job scans, but tests
+          # can import runtime-generated files; remove entries the
+          # scanned tree cannot map. SonarQube skips them anyway.
           for classes in parsed.iter("classes"):
               for cls in list(classes):
                   name = cls.get("filename", "")
