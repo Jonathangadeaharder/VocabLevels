@@ -5,10 +5,11 @@ on:
     types: [completed]
 
 concurrency:
-  # Keyed by head SHA: a run for a superseded SHA can never cancel the
-  # current head's in-flight scan; only same-SHA reruns cancel each other.
-  # The repository scope keeps identically named fork branches separate.
-  group: sonarqube-${{ github.event.workflow_run.head_repository.full_name }}-${{ github.event.workflow_run.head_sha }}
+  # Keyed by head branch: a push creates a new scan for the new head,
+  # so the superseded SHA's queued/in-flight scan is cancelled instead
+  # of piling onto the single self-hosted runner. Same-repo branch
+  # names are unique, so no foreign run can collide with the group.
+  group: sonarqube-${{ github.event.workflow_run.head_branch }}
   cancel-in-progress: true
 
 permissions:
@@ -113,11 +114,13 @@ jobs:
               for path in tracked.split("\0")
               if path
               and os.path.islink(path)
-              and os.path.realpath(path) != root
-              and not os.path.realpath(path).startswith(root + os.sep)
+              and (
+                  os.path.realpath(path) == root
+                  or not os.path.realpath(path).startswith(root + os.sep)
+              )
           ]
           if escaping:
-              print(f"::error::symlink(s) resolve outside the workspace: {escaping}")
+              print(f"::error::symlink(s) resolve outside the workspace: {escaping!r}")
               sys.exit(1)
           PY
       - name: Download coverage report from the CI run
@@ -132,18 +135,15 @@ jobs:
           ZIP_PATH: ${{ runner.temp }}/vl-coverage.zip
         run: |
           set -euo pipefail
-          # rm never follows symlinks: a PR committing coverage.xml as a
-          # symlink must not redirect writes outside the workspace.
-          rm -rf coverage.xml
           # gh run download unzips the whole archive inside the
           # workspace before any check can run. Fetch the zip raw and
           # extract only coverage.xml here, fully bounded.
-          read -r ARTIFACT_ID SIZE <<<"$(gh api --paginate "repos/$REPO/actions/runs/$CI_RUN_ID/artifacts" \
+          ARTIFACTS="$(gh api --paginate "repos/$REPO/actions/runs/$CI_RUN_ID/artifacts" \
             --jq '.artifacts[] | select(.name == "coverage") | "\(.id) \(.size_in_bytes)"')"
-          if [ -z "$ARTIFACT_ID" ]; then
-            echo "::error::coverage artifact not found in CI run $CI_RUN_ID"
-            exit 1
-          fi
+          [ -n "$ARTIFACTS" ] || { echo "::error::coverage artifact not found in CI run $CI_RUN_ID"; exit 1; }
+          COUNT="$(printf '%s\n' "$ARTIFACTS" | wc -l)"
+          [ "$COUNT" -eq 1 ] || { echo "::error::expected one 'coverage' artifact in CI run $CI_RUN_ID, found $COUNT"; exit 1; }
+          read -r ARTIFACT_ID SIZE <<<"$ARTIFACTS"
           if [ "${SIZE:-0}" -gt $((256 * 1024 * 1024)) ]; then
             echo "::error::coverage artifact too large ($SIZE bytes)"
             exit 1
@@ -156,6 +156,7 @@ jobs:
           import zipfile
 
           zip_path = os.environ["ZIP_PATH"]
+          report_path = os.path.join(os.environ["RUNNER_TEMP"], "coverage.xml")
           limit = 256 * 1024 * 1024
           with zipfile.ZipFile(zip_path) as archive:
               if "coverage.xml" not in archive.namelist():
@@ -163,7 +164,7 @@ jobs:
                   sys.exit(1)
               written = 0
               with archive.open("coverage.xml") as src:
-                  with open("coverage.xml", "wb") as dst:
+                  with open(report_path, "wb") as dst:
                       while chunk := src.read(1024 * 1024):
                           written += len(chunk)
                           if written > limit:
@@ -185,7 +186,9 @@ jobs:
           import xml.etree.ElementTree as ET
 
           root = os.path.realpath(os.getcwd())
-          report = "coverage.xml"
+          # The report lives outside sonar.sources=. so the scanner
+          # never ingests the untrusted XML as a scanned project file.
+          report = os.path.join(os.environ["RUNNER_TEMP"], "coverage.xml")
           if os.path.islink(report) or not os.path.isfile(report):
               print(f"::error::{report} must be a regular file, not a symlink")
               sys.exit(1)
@@ -231,7 +234,10 @@ jobs:
               classes = package.find("classes")
               if classes is not None and len(classes) == 0:
                   package.remove(classes)
-          ET.ElementTree(parsed).write("coverage.xml", encoding="UTF-8", xml_declaration=True)
+          if parsed.find(".//class") is None:
+              print("::error::coverage report has no classes mapping to the scanned tree; refusing to import an empty report")
+              sys.exit(1)
+          ET.ElementTree(parsed).write(report, encoding="UTF-8", xml_declaration=True)
           PY
       - name: Wait for SonarQube
         run: |
@@ -250,7 +256,12 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@713881670b6b3676cda39549040e2d88c70d582e # v8.2.0
         with:
           # Fail the workflow when the scan does not pass the quality gate.
-          args: -Dsonar.qualitygate.wait=true
+          # The validated report lives outside sonar.sources=. (in
+          # runner.temp), so it must be passed to the scanner explicitly
+          # and is excluded from the scanned tree via sonar-project.properties.
+          args: >-
+            -Dsonar.qualitygate.wait=true
+            -Dsonar.python.coverage.reportPaths=${{ runner.temp }}/coverage.xml
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: http://127.0.0.1:9001

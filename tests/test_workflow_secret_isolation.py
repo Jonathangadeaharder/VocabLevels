@@ -84,6 +84,26 @@ def test_scan_pulls_coverage_from_the_triggering_ci_run() -> None:
         " without pagination the lookup can miss the coverage artifact"
         " and fail the scan with a misleading not-found error"
     )
+    assert 'ARTIFACTS="$(gh api --paginate' in sonar, (
+        "read swallows the command substitution status: a failed gh api"
+        " would be misreported as artifact-not-found. The capture must"
+        " propagate the API failure under set -e"
+    )
+    assert "expected one 'coverage' artifact" in sonar, (
+        "if a run ever holds more than one artifact named coverage, only"
+        " the first line would be consumed and the job could proceed"
+        " with an arbitrary artifact"
+    )
+
+
+def test_scan_cancels_superseded_scans() -> None:
+    sonar = _sonar_workflow()
+    assert "sonarqube-${{ github.event.workflow_run.head_branch }}" in sonar, (
+        "SHA-keyed concurrency never cancels superseded scans: every"
+        " push piles another queued run onto the single self-hosted"
+        " runner. Branch keying lets the new scan cancel the superseded"
+        " one; same-repo branch names are unique so no collision exists"
+    )
 
 
 def test_scanner_config_is_pinned_to_main() -> None:
@@ -137,6 +157,16 @@ def test_scan_rejects_symlinks_escaping_the_workspace() -> None:
         " symlink resolving outside the workspace would exfiltrate runner"
         " files to the SonarQube server"
     )
+    assert "os.path.realpath(path) == root" in sonar, (
+        "a tracked symlink resolving to the workspace root itself (e.g."
+        " loop -> .) passes the escape check but makes the scanner"
+        " re-traverse the whole tree through the link recursively"
+    )
+    assert ": {escaping!r}" in sonar, (
+        "tracked filenames may contain newlines and quotes: raw"
+        " interpolation into ::error:: would allow log/annotation"
+        " forging"
+    )
 
 
 def test_scan_bounds_artifact_before_and_during_extraction() -> None:
@@ -171,6 +201,21 @@ def test_scan_unzips_artifacts_outside_the_workspace() -> None:
     assert "runner.temp" in sonar, (
         "the artifact zip must land outside sonar.sources=. so extracted"
         " content is never traversed by the scanner"
+    )
+    assert "${{ runner.temp }}/coverage.xml" in sonar and (
+        'os.environ["RUNNER_TEMP"]' in sonar
+    ), (
+        "coverage.xml must stay out of sonar.sources=.: inside the"
+        " workspace the scanner would ingest it as a project file and"
+        " pollute the analysis"
+    )
+
+
+def test_scan_refuses_empty_coverage_report() -> None:
+    sonar = _sonar_workflow()
+    assert "refusing to import an empty report" in sonar, (
+        "if every <class> is pruned, a structurally valid but empty"
+        " report gives an ambiguous outcome: fail loudly instead"
     )
 
 
