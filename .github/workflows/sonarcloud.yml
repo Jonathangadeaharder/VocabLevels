@@ -193,6 +193,12 @@ jobs:
               print(f"::error::{report} exceeds 256 MiB")
               sys.exit(1)
           data = open(report, "rb").read()
+          # A BOM-less UTF-16/32 report is valid UTF-8 (ASCII
+          # interleaved with NULs), so expat auto-detects the real
+          # encoding and expands a hidden DTD: reject NUL first.
+          if b"\x00" in data:
+              print("::error::coverage.xml must be UTF-8 encoded")
+              sys.exit(1)
           try:
               text = data.decode("utf-8")
           except UnicodeDecodeError:

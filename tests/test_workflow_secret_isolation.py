@@ -204,6 +204,16 @@ def test_scan_heredocs_run_in_isolated_python() -> None:
     )
 
 
+def test_scan_rejects_nul_interleaved_encodings() -> None:
+    sonar = _sonar_workflow()
+    assert 'if b"\\x00" in data:' in sonar, (
+        "a BOM-less UTF-16/32 report is valid UTF-8 (ASCII interleaved"
+        " with NULs), so the substring scan misses the hidden <!DOCTYPE"
+        " while expat auto-detects the encoding and expands its"
+        " entities; NUL bytes must be rejected before the parse"
+    )
+
+
 def test_scan_validates_untrusted_coverage_report() -> None:
     sonar = _sonar_workflow()
     assert "Validate coverage report" in sonar, (
