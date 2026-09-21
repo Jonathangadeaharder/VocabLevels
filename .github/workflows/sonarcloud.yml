@@ -30,9 +30,10 @@ jobs:
         id: check
         env:
           GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
           HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
         run: |
-          if ID=$(gh api --method POST repos/${{ github.repository }}/check-runs \
+          if ID=$(gh api --method POST "repos/$REPO/check-runs" \
             -f head_sha="$HEAD_SHA" \
             -f name="SonarQube Analysis" \
             -f status=in_progress \
@@ -77,6 +78,7 @@ jobs:
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
           CHECK_ID: ${{ steps.check.outputs.id }}
           SCAN_OUTCOME: ${{ steps.scan.outcome }}
           HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
@@ -87,22 +89,29 @@ jobs:
             timed_out)  CONCLUSION=timed_out ;;
             *)          CONCLUSION=failure ;;
           esac
-          if [ -n "$CHECK_ID" ]; then
-            if ! gh api --method PATCH "repos/${{ github.repository }}/check-runs/$CHECK_ID" \
-              -f status=completed \
-              -f conclusion=$CONCLUSION; then
-              gh api --method POST "repos/${{ github.repository }}/check-runs" \
-                -f head_sha="$HEAD_SHA" \
-                -f name="SonarQube Analysis" \
-                -f status=completed \
-                -f conclusion=$CONCLUSION \
-                -f details_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
-            fi
-          else
-            gh api --method POST "repos/${{ github.repository }}/check-runs" \
+          create_completed_check_run() {
+            gh api --method POST "repos/$REPO/check-runs" \
               -f head_sha="$HEAD_SHA" \
               -f name="SonarQube Analysis" \
               -f status=completed \
-              -f conclusion=$CONCLUSION \
+              -f conclusion="$CONCLUSION" \
               -f details_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          }
+          if [ -n "$CHECK_ID" ]; then
+            ok=0
+            for attempt in 1 2; do
+              if gh api --method PATCH "repos/$REPO/check-runs/$CHECK_ID" \
+                -f status=completed \
+                -f conclusion="$CONCLUSION"; then
+                ok=1
+                break
+              fi
+              echo "::warning::PATCH attempt $attempt on check run $CHECK_ID failed"
+              sleep 2
+            done
+            if [ "$ok" != 1 ]; then
+              create_completed_check_run
+            fi
+          else
+            create_completed_check_run
           fi
