@@ -4,9 +4,18 @@ on:
     workflows: [CI]
     types: [completed]
 
+concurrency:
+  # Keyed by head repo + branch: fork PRs report the unqualified
+  # fork branch name, and workflow-level concurrency applies before
+  # the fork-excluding job if, so only a repo-qualified group is safe.
+  group: sonarqube-${{ github.event.workflow_run.head_repository.full_name }}-${{ github.event.workflow_run.head_branch }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
   checks: write
+  # Required to download the coverage artifact from the CI run.
+  actions: read
 
 jobs:
   sonar:
@@ -60,15 +69,177 @@ jobs:
         with:
           ref: ${{ github.event.workflow_run.head_sha }}
           fetch-depth: 0
-          # The scanned branch's code runs in later steps; do not leave the
-          # checks:write token readable from the local git config (#172).
+          # The scanned branch's tree is untrusted and never executed in
+          # this job (#167); do not leave the checks:write token readable
+          # from the local git config either (#172).
           persist-credentials: false
-      - name: Install uv
-        uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
-      - name: Install dependencies
-        run: uv sync --frozen --no-build
-      - name: Run tests with coverage
-        run: uv run --frozen --no-build pytest --cov-report=xml
+      - name: Pin scanner config to main
+        # The scanner must be driven only by this pinned config from main,
+        # never by PR-supplied properties: a PR could point sonar.sources
+        # outside the workspace and upload arbitrary runner files.
+        shell: bash
+        run: |
+          set -euo pipefail
+          # rm -rf unlinks symlinks without following them: a PR that
+          # commits this file as a symlink must not have the redirect
+          # clobber the link's target, and a directory at this path is
+          # removed too (rm -f would fail and abort the pin step).
+          rm -rf sonar-project.properties
+          if git cat-file -e "origin/main:sonar-project.properties"; then
+            git show "origin/main:sonar-project.properties" > sonar-project.properties
+          else
+            echo "::error::sonar-project.properties is missing from origin/main; refusing to fall back to the untrusted PR-supplied config."
+            exit 1
+          fi
+      - name: Reject symlinks escaping the workspace
+        # SonarScanner follows symlinks under sonar.sources=.; a PR
+        # symlink resolving outside the workspace would exfiltrate
+        # runner files to the SonarQube server even though the tree is
+        # never executed. Trusted stdlib python3 only, never repo code.
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -I - <<'PY'
+          import os
+          import subprocess
+          import sys
+
+          root = os.path.realpath(os.getcwd())
+          tracked = os.fsdecode(
+              subprocess.run(
+                  ["git", "ls-files", "-z"], capture_output=True, check=True
+              ).stdout
+          )
+          escaping = [
+              path
+              for path in tracked.split("\0")
+              if path
+              and os.path.islink(path)
+              and (
+                  os.path.realpath(path) == root
+                  or not os.path.realpath(path).startswith(root + os.sep)
+              )
+          ]
+          if escaping:
+              print(f"::error::symlink(s) resolve outside the workspace: {escaping!r}")
+              sys.exit(1)
+          PY
+      - name: Download coverage report from the CI run
+        # Only the unprivileged CI job may run tests, so the coverage report
+        # is pulled from the triggering CI run's artifact instead of ever
+        # executing the tree here (#167). The name must match ci.yml's upload.
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          CI_RUN_ID: ${{ github.event.workflow_run.id }}
+          ZIP_PATH: ${{ runner.temp }}/vl-coverage.zip
+        run: |
+          set -euo pipefail
+          # gh run download unzips the whole archive inside the
+          # workspace before any check can run. Fetch the zip raw and
+          # extract only coverage.xml here, fully bounded.
+          ARTIFACTS="$(gh api --paginate "repos/$REPO/actions/runs/$CI_RUN_ID/artifacts" \
+            --jq '.artifacts[] | select(.name == "coverage") | "\(.id) \(.size_in_bytes)"')"
+          [ -n "$ARTIFACTS" ] || { echo "::error::coverage artifact not found in CI run $CI_RUN_ID"; exit 1; }
+          COUNT="$(printf '%s\n' "$ARTIFACTS" | wc -l)"
+          [ "$COUNT" -eq 1 ] || { echo "::error::expected one 'coverage' artifact in CI run $CI_RUN_ID, found $COUNT"; exit 1; }
+          read -r ARTIFACT_ID SIZE <<<"$ARTIFACTS"
+          if [ "${SIZE:-0}" -gt $((256 * 1024 * 1024)) ]; then
+            echo "::error::coverage artifact too large ($SIZE bytes)"
+            exit 1
+          fi
+          trap 'rm -f "$ZIP_PATH"' EXIT
+          gh api "repos/$REPO/actions/artifacts/$ARTIFACT_ID/zip" > "$ZIP_PATH"
+          python3 -I - <<'PY'
+          import os
+          import sys
+          import zipfile
+
+          zip_path = os.environ["ZIP_PATH"]
+          report_path = os.path.join(os.environ["RUNNER_TEMP"], "coverage.xml")
+          limit = 256 * 1024 * 1024
+          with zipfile.ZipFile(zip_path) as archive:
+              if "coverage.xml" not in archive.namelist():
+                  print("::error::coverage artifact has no coverage.xml entry")
+                  sys.exit(1)
+              written = 0
+              with archive.open("coverage.xml") as src:
+                  with open(report_path, "wb") as dst:
+                      while chunk := src.read(1024 * 1024):
+                          written += len(chunk)
+                          if written > limit:
+                              print("::error::coverage.xml exceeds 256 MiB while extracting")
+                              sys.exit(1)
+                          dst.write(chunk)
+          PY
+      - name: Validate coverage report from the CI run
+        # pull_request CI runs execute the PR's own ci.yml, so the
+        # artifact is untrusted input to this token-bearing job: reject
+        # anything that is not a regular, well-formed report whose
+        # paths stay inside the workspace. Stdlib python3 only (#167).
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -I - <<'PY'
+          import os
+          import sys
+          import xml.etree.ElementTree as ET
+
+          root = os.path.realpath(os.getcwd())
+          # The report lives outside sonar.sources=. so the scanner
+          # never ingests the untrusted XML as a scanned project file.
+          report = os.path.join(os.environ["RUNNER_TEMP"], "coverage.xml")
+          if os.path.islink(report) or not os.path.isfile(report):
+              print(f"::error::{report} must be a regular file, not a symlink")
+              sys.exit(1)
+          if os.path.getsize(report) > 256 * 1024 * 1024:
+              print(f"::error::{report} exceeds 256 MiB")
+              sys.exit(1)
+          data = open(report, "rb").read()
+          # A BOM-less UTF-16/32 report is valid UTF-8 (ASCII
+          # interleaved with NULs), so expat auto-detects the real
+          # encoding and expands a hidden DTD: reject NUL first.
+          if b"\x00" in data:
+              print("::error::coverage.xml must be UTF-8 encoded")
+              sys.exit(1)
+          try:
+              text = data.decode("utf-8")
+          except UnicodeDecodeError:
+              print("::error::coverage.xml must be UTF-8 encoded")
+              sys.exit(1)
+          if "<!DOCTYPE" in text or "<!ENTITY" in text:
+              print("::error::coverage.xml must not contain DTD or entity declarations")
+              sys.exit(1)
+          parsed = ET.fromstring(data)
+          # coverage.py emits the CI runner's absolute workspace path in
+          # <source>, which may differ from this job's tree. Anchor
+          # mapping to the scanned tree; filenames carry containment.
+          for source in parsed.findall("./sources/source"):
+              source.text = "."
+          for cls in parsed.iter("class"):
+              name = cls.get("filename", "")
+              if os.path.isabs(name) or ".." in name.split("/"):
+                  print(f"::error::coverage file path {name!r} escapes the workspace")
+                  sys.exit(1)
+          # CI measures the merge commit while this job scans the PR
+          # head, so genuine reports can reference files missing here.
+          # Remove them: SonarQube cannot map them anyway.
+          for classes in parsed.iter("classes"):
+              for cls in list(classes):
+                  name = cls.get("filename", "")
+                  if not os.path.isfile(os.path.join(root, name)):
+                      print(f"::warning::coverage file path {name!r} does not exist in the scanned tree, removed")
+                      classes.remove(cls)
+          for package in parsed.iter("package"):
+              classes = package.find("classes")
+              if classes is not None and len(classes) == 0:
+                  package.remove(classes)
+          if parsed.find(".//class") is None:
+              print("::error::coverage report has no classes mapping to the scanned tree; refusing to import an empty report")
+              sys.exit(1)
+          ET.ElementTree(parsed).write(report, encoding="UTF-8", xml_declaration=True)
+          PY
       - name: Wait for SonarQube
         run: |
           for i in $(seq 1 36); do
@@ -86,7 +257,12 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@713881670b6b3676cda39549040e2d88c70d582e # v8.2.0
         with:
           # Fail the workflow when the scan does not pass the quality gate.
-          args: -Dsonar.qualitygate.wait=true
+          # The validated report lives outside sonar.sources=. (in
+          # runner.temp), so it must be passed to the scanner explicitly
+          # and is excluded from the scanned tree via sonar-project.properties.
+          args: >-
+            -Dsonar.qualitygate.wait=true
+            -Dsonar.python.coverage.reportPaths=${{ runner.temp }}/coverage.xml
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: http://127.0.0.1:9001

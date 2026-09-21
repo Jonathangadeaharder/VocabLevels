@@ -9,10 +9,19 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  # Rapid pushes or PR updates cancel the superseded CI run instead of
+  # queueing redundant full runs on the self-hosted runner.
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   test:
     name: Test
     runs-on: [self-hosted, macOS, ARM64, VidiomTM]
+    # Every other job in this repo bounds its runner time; a hung test
+    # run would also stall the SonarQube scan that waits on CI (#167).
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
       - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
@@ -20,4 +29,15 @@ jobs:
       - run: uv run ruff format --check .
       - run: uv run ruff check .
       - run: uv run pyright
-      - run: uv run pytest
+      # addopts already enable --cov/--cov-branch; this adds the xml report
+      # consumed by the SonarQube workflow_run scan (issue #167).
+      - run: uv run pytest --cov-report=xml
+      # Consumed by the SonarQube workflow_run scan, which never runs
+      # tests. A green run missing coverage.xml fails here at the point
+      # of origin, not as a scan-side download error.
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: coverage
+          path: coverage.xml
+          if-no-files-found: error
+          retention-days: 1
