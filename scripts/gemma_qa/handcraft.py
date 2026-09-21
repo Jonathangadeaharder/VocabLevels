@@ -286,12 +286,27 @@ def _validate_sentence(
     *,
     lang: str,
 ) -> None:
+    _validate_sentence_ids(sentence, assignment)
+    _validate_sentence_nfc(sentence)
+    _validate_token_language_rules(sentence, lang=lang)
+    _validate_text_reconstruction(sentence)
+    _validate_targets_represented(sentence, assignment)
+    _validate_german_token_lemmas(sentence, lang=lang)
+
+
+def _validate_sentence_ids(
+    sentence: HandcraftSentence,
+    assignment: SentenceTargets,
+) -> None:
     expected_target_ids = [target.id for target in assignment.targets]
     if sentence.target_ids != expected_target_ids:
         raise ValueError(f"{sentence.sent_id}: target IDs differ from assignment")
     expected_token_ids = [str(index) for index in range(1, len(sentence.tokens) + 1)]
     if [token.id for token in sentence.tokens] != expected_token_ids:
         raise ValueError(f"{sentence.sent_id}: token IDs must be consecutive integers")
+
+
+def _validate_sentence_nfc(sentence: HandcraftSentence) -> None:
     values = [
         sentence.sent_id,
         sentence.text,
@@ -304,6 +319,13 @@ def _validate_sentence(
     ]
     if any(unicodedata.normalize("NFC", value) != value for value in values):
         raise ValueError(f"{sentence.sent_id}: all text must use NFC normalization")
+
+
+def _validate_token_language_rules(
+    sentence: HandcraftSentence,
+    *,
+    lang: str,
+) -> None:
     for token in sentence.tokens:
         if token.upos is UPOS.X:
             raise ValueError(f"{sentence.sent_id}: UPOS X is forbidden")
@@ -317,10 +339,19 @@ def _validate_sentence(
             and not has_arabic_script(token.lemma)
         ):
             raise ValueError(f"{sentence.sent_id}: Arabic lemma must use Arabic script")
+
+
+def _validate_text_reconstruction(sentence: HandcraftSentence) -> None:
     joined_forms = "".join(token.form for token in sentence.tokens)
     squeezed_text = "".join(sentence.text.split())
     if joined_forms != squeezed_text:
         raise ValueError(f"{sentence.sent_id}: text mismatch")
+
+
+def _validate_targets_represented(
+    sentence: HandcraftSentence,
+    assignment: SentenceTargets,
+) -> None:
     for target in assignment.targets:
         if not any(
             token.lemma.casefold() == target.lemma.casefold()
@@ -333,6 +364,13 @@ def _validate_sentence(
                 f"{target.upos.value} is not represented "
                 "(lemma and UPOS must both match a token)"
             )
+
+
+def _validate_german_token_lemmas(
+    sentence: HandcraftSentence,
+    *,
+    lang: str,
+) -> None:
     for token in sentence.tokens:
         if lang == "de" and token.upos is UPOS.NOUN and not token.lemma[0].isupper():
             raise ValueError(

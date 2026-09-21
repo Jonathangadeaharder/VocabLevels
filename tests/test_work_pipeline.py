@@ -314,3 +314,138 @@ def test_clean_expansion_dry_run_deletes_nothing(
     clean_expansion.main()
     assert len(read_data_rows(tmp_path / "spanish" / "expansion.csv")) == 1
     assert "dry run" in capsys.readouterr().out
+
+
+# --------------------------------------------------------- flush_checkpoints
+
+
+def test_flush_checkpoints_appends_uncovered_approved_events(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch, capsys
+) -> None:
+    from scripts.expand_concepts import LANG_DIRS
+    from work import flush_checkpoints
+
+    state_root = tmp_path / "state"
+    for name, _code in LANG_DIRS.items():
+        write_expansion(
+            tmp_path, name, [["covered", "covered gloss", "盖", "NOUN", "B2"]]
+        )
+    for code in ("de", "ar", "en", "es", "fr", "nl", "sv", "zh"):
+        state_dir = state_root / code
+        state_dir.mkdir(parents=True)
+        (state_dir / ".checkpoint.jsonl").write_text(
+            "\n".join(
+                [
+                    json.dumps(
+                        {
+                            "event": "approved",
+                            "lang": code,
+                            "gloss": " covered gloss ",
+                            "pos": "NOUN",
+                            "lemma": "skipme",
+                            "zh": "",
+                            "level": "B2",
+                        }
+                    ),
+                    "{not json",
+                    json.dumps(
+                        {
+                            "event": "generated",
+                            "lang": code,
+                            "gloss": "g2",
+                            "pos": "VERB",
+                            "lemma": "x",
+                            "zh": "",
+                        }
+                    ),
+                    json.dumps(
+                        {
+                            "event": "approved",
+                            "lang": "other",
+                            "gloss": "wrong lang",
+                            "pos": "NOUN",
+                            "lemma": "y",
+                            "zh": "",
+                        }
+                    ),
+                    json.dumps(
+                        {
+                            "event": "approved",
+                            "lang": code,
+                            "gloss": "new gloss",
+                            "pos": "VERB",
+                            "lemma": "neu",
+                            "zh": "新",
+                            "level": "B1",
+                        }
+                    ),
+                    json.dumps(
+                        {
+                            "event": "approved",
+                            "lang": code,
+                            "gloss": "new gloss",
+                            "pos": "VERB",
+                            "lemma": "dupe",
+                            "zh": "新2",
+                        }
+                    ),
+                    json.dumps(
+                        {
+                            "event": "approved",
+                            "lang": code,
+                            "gloss": "",
+                            "pos": "VERB",
+                            "lemma": "emptygloss",
+                            "zh": "",
+                        }
+                    ),
+                ]
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+    monkeypatch.setattr(flush_checkpoints, "ROOT", tmp_path)
+    monkeypatch.setattr(
+        flush_checkpoints,
+        "STATE_DIRS",
+        {
+            code: state_root / code
+            for code in ("de", "ar", "en", "es", "fr", "nl", "sv", "zh")
+        },
+    )
+    flush_checkpoints.main()
+    for name, _code in LANG_DIRS.items():
+        rows = read_data_rows(tmp_path / name / "expansion.csv")
+        assert rows == [
+            ["covered", "covered gloss", "盖", "NOUN", "B2"],
+            ["neu", "new gloss", "新", "VERB", "B1"],
+        ]
+    out = capsys.readouterr().out
+    assert "de: +1 rows from checkpoint" in out
+    assert "en: +1 rows from checkpoint" in out
+
+
+def test_flush_checkpoints_empty_state_appends_nothing(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    from scripts.expand_concepts import LANG_DIRS
+    from work import flush_checkpoints
+
+    state_root = tmp_path / "state"
+    for name, _code in LANG_DIRS.items():
+        write_expansion(tmp_path, name, [])
+    for code in ("de", "ar", "en", "es", "fr", "nl", "sv", "zh"):
+        (state_root / code).mkdir(parents=True)
+        (state_root / code / ".checkpoint.jsonl").write_text("", encoding="utf-8")
+    monkeypatch.setattr(flush_checkpoints, "ROOT", tmp_path)
+    monkeypatch.setattr(
+        flush_checkpoints,
+        "STATE_DIRS",
+        {
+            code: state_root / code
+            for code in ("de", "ar", "en", "es", "fr", "nl", "sv", "zh")
+        },
+    )
+    flush_checkpoints.main()
+    for name, _code in LANG_DIRS.items():
+        assert read_data_rows(tmp_path / name / "expansion.csv") == []

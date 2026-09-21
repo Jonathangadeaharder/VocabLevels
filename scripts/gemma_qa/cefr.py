@@ -39,7 +39,7 @@ from .language_repair import (
     german_row_issues,
     repair_german_rows,
 )
-from .languages import get_language
+from .languages import LanguageProfile, get_language
 from .ledger import Ledger
 from .packing import pack_records
 from .progress import batch_progress_line, print_progress
@@ -450,103 +450,45 @@ def run_cefr(
             refill_to_target=refill_to_target,
             batch_concurrency=concurrency,
         )
-        if pending:
-            packed = pack_records(
-                pending,
-                prompt_overhead=(
-                    SYSTEM_PROMPT
-                    if profile.code == "de"
-                    else build_cefr_prompt((), lang=lang)
-                ),
-                cap=INPUT_BATCH_TOKEN_CAP,
-                max_records=MAX_RECORDS_PER_BATCH,
-            )
-            event(
-                "cefr.batches",
-                lang=lang,
-                level_name=level,
-                batch_count=len(packed),
-                model_pool=list(DUAL_POOL) if single_model is None else [single_model],
-                pending=len(pending),
-                batch_concurrency=concurrency,
-                single_model=single_model,
-            )
-            reviewed = _review_pending_batches(
-                packed,
-                client=client,
-                ledger=ledger,
-                lang=lang,
-                level=level,
-                single_model=single_model,
-                concurrency=concurrency,
-            )
-            for _batch_rows, chosen in zip(packed, reviewed, strict=True):
-                accepted.extend(chosen.rows)
+        accepted = _review_pending_rows(
+            pending,
+            accepted=accepted,
+            client=client,
+            ledger=ledger,
+            profile=profile,
+            lang=lang,
+            level=level,
+            single_model=single_model,
+            concurrency=concurrency,
+        )
         target = TARGETS[level] if limit is None else len(selected)
         collision_keys = load_other_level_collision_keys(
             root,
             lang=lang,
             level=level,
         )
-        if profile.code == "en":
-            accepted = canonicalize_english_review_rows(accepted)
-        gate_clean = (
-            accepted
-            if profile.code == "de"
-            else [row for row in accepted if not cefr_row_issues(row, lang=lang)]
+        unique = _gate_review_rows(
+            accepted,
+            profile=profile,
+            lang=lang,
+            level=level,
+            target=target,
+            collision_keys=collision_keys,
         )
-        unique = dedupe_review_rows(gate_clean, collision_keys)
-        if len(unique) > target:
-            raise ReviewRequiredError(
-                f"{lang} {level}: {len(unique)} unique review rows exceed target "
-                f"{target}; manual review required"
-            )
-        exact_target = (
-            profile.code == "de" if refill_to_target is None else refill_to_target
+        final_rows = _final_review_rows(
+            unique,
+            root=root,
+            profile=profile,
+            lang=lang,
+            level=level,
+            target=target,
+            client=client,
+            ledger=ledger,
+            single_model=single_model,
+            refill_to_target=refill_to_target,
+            validated=validated,
+            collision_keys=collision_keys,
         )
-        concepts = []
-        if exact_target and len(unique) < target:
-            concepts = load_english_refill_concepts(root, level=level)
-        if profile.code == "de" and any(
-            german_row_issues(row)
-            and not validated.contains(
-                lang,
-                level,
-                row.lemma,
-                row.english_lemma,
-                row.chinese_lemma,
-                row.upos.value,
-            )
-            for row in unique
-        ):
-            final_rows = _repair_and_refill_german_rows(
-                unique,
-                concepts=concepts,
-                root=root,
-                collision_keys=collision_keys,
-                target=target,
-                lang=lang,
-                level=level,
-                client=client,
-                ledger=ledger,
-                single_model=single_model,
-                refill_to_target=exact_target,
-                validated=validated,
-            )
-        elif exact_target and len(unique) < target:
-            final_rows = complete_cefr_rows(
-                unique,
-                concepts=concepts,
-                collision_keys=collision_keys,
-                target=target,
-                lang=lang,
-                level=level,
-                client=cast(RefillClient, client),
-                ledger=ledger,
-                single_model=single_model,
-            )
-        else:
-            final_rows = unique
         return write_reviewed_csv(
             document,
             final_rows,
@@ -554,6 +496,151 @@ def run_cefr(
         )
     finally:
         validated.close()
+
+
+def _review_pending_rows(
+    pending: Sequence[CefrInputRow],
+    *,
+    accepted: list[CefrReviewRow],
+    client: CefrClient,
+    ledger: Ledger,
+    profile: LanguageProfile,
+    lang: str,
+    level: str,
+    single_model: str | None,
+    concurrency: int,
+) -> list[CefrReviewRow]:
+    if not pending:
+        return accepted
+    packed = pack_records(
+        pending,
+        prompt_overhead=(
+            SYSTEM_PROMPT if profile.code == "de" else build_cefr_prompt((), lang=lang)
+        ),
+        cap=INPUT_BATCH_TOKEN_CAP,
+        max_records=MAX_RECORDS_PER_BATCH,
+    )
+    event(
+        "cefr.batches",
+        lang=lang,
+        level_name=level,
+        batch_count=len(packed),
+        model_pool=list(DUAL_POOL) if single_model is None else [single_model],
+        pending=len(pending),
+        batch_concurrency=concurrency,
+        single_model=single_model,
+    )
+    reviewed = _review_pending_batches(
+        packed,
+        client=client,
+        ledger=ledger,
+        lang=lang,
+        level=level,
+        single_model=single_model,
+        concurrency=concurrency,
+    )
+    for _batch_rows, chosen in zip(packed, reviewed, strict=True):
+        accepted.extend(chosen.rows)
+    return accepted
+
+
+def _gate_review_rows(
+    accepted: Sequence[CefrReviewRow],
+    *,
+    profile: LanguageProfile,
+    lang: str,
+    level: str,
+    target: int,
+    collision_keys: set[tuple[str, UPOS]],
+) -> list[CefrReviewRow]:
+    if profile.code == "en":
+        accepted = canonicalize_english_review_rows(accepted)
+    gate_clean = (
+        accepted
+        if profile.code == "de"
+        else [row for row in accepted if not cefr_row_issues(row, lang=lang)]
+    )
+    unique = dedupe_review_rows(gate_clean, collision_keys)
+    if len(unique) > target:
+        raise ReviewRequiredError(
+            f"{lang} {level}: {len(unique)} unique review rows exceed target "
+            f"{target}; manual review required"
+        )
+    return unique
+
+
+def _final_review_rows(
+    unique: Sequence[CefrReviewRow],
+    *,
+    root: Path,
+    profile: LanguageProfile,
+    lang: str,
+    level: str,
+    target: int,
+    client: CefrClient,
+    ledger: Ledger,
+    single_model: str | None,
+    refill_to_target: bool | None,
+    validated: ValidatedStore,
+    collision_keys: set[tuple[str, UPOS]],
+) -> list[CefrReviewRow]:
+    exact_target = (
+        profile.code == "de" if refill_to_target is None else refill_to_target
+    )
+    concepts: Sequence[CefrRefillConcept] = []
+    if exact_target and len(unique) < target:
+        concepts = load_english_refill_concepts(root, level=level)
+    if profile.code == "de" and _has_unvalidated_german_issues(
+        unique, lang=lang, level=level, validated=validated
+    ):
+        return _repair_and_refill_german_rows(
+            unique,
+            concepts=concepts,
+            root=root,
+            collision_keys=collision_keys,
+            target=target,
+            lang=lang,
+            level=level,
+            client=client,
+            ledger=ledger,
+            single_model=single_model,
+            refill_to_target=exact_target,
+            validated=validated,
+        )
+    if exact_target and len(unique) < target:
+        return complete_cefr_rows(
+            unique,
+            concepts=concepts,
+            collision_keys=collision_keys,
+            target=target,
+            lang=lang,
+            level=level,
+            client=cast(RefillClient, client),
+            ledger=ledger,
+            single_model=single_model,
+        )
+    return list(unique)
+
+
+def _has_unvalidated_german_issues(
+    rows: Sequence[CefrReviewRow],
+    *,
+    lang: str,
+    level: str,
+    validated: ValidatedStore,
+) -> bool:
+    return any(
+        german_row_issues(row)
+        and not validated.contains(
+            lang,
+            level,
+            row.lemma,
+            row.english_lemma,
+            row.chinese_lemma,
+            row.upos.value,
+        )
+        for row in rows
+    )
 
 
 def _repair_and_refill_german_rows(
@@ -728,63 +815,25 @@ def _review_pending_batches(
             status="running",
             wait_s=0.0,
         )
-        # Retriable: optional 422, wall-clock/slot timeout, transport flake.
-        # Rotate dual pair each attempt so a hung model does not pin the batch.
-        last_error: Exception | None = None
-        chosen: CefrReviewBatch | None = None
-        for attempt in range(1, 5):
-            if single_model is not None:
-                models: tuple[str, ...] = (single_model,)
-            else:
-                models = select_dual_models(batch_index=batch_index + attempt - 1)
-            event(
-                "cefr.batch_start",
-                lang=lang,
-                level_name=level,
-                batch_id=batch_id,
-                attempt=batch_index,
-                pair_attempt=attempt,
-                rows=len(batch_rows),
-                batch_count=batch_count,
-                remaining_batches=batch_count - batch_index + 1,
-                concurrency=workers,
-                dual_models=list(models),
-            )
-            try:
-                chosen = _review_one_batch(
-                    batch_rows,
-                    client=client,
-                    ledger=ledger,
-                    lang=lang,
-                    models=models,
-                    batch_id=batch_id,
-                    batch_index=batch_index,
-                    batch_count=batch_count,
-                    on_wait=lambda wait_s, status: _progress(
-                        batch_index=batch_index,
-                        rows_in_batch=len(batch_rows),
-                        status=status,
-                        wait_s=wait_s,
-                    ),
-                    batch_started=batch_started,
-                )
-                break
-            except Exception as error:
-                last_error = error
-                if not _is_retriable_batch_error(error) or attempt >= 4:
-                    raise
-                event(
-                    "cefr.dual_retry",
-                    level="WARN",
-                    batch_id=batch_id,
-                    dual_models=list(models),
-                    error=str(error)[:300],
-                    pair_attempt=attempt,
-                )
-                continue
-        if chosen is None:
-            assert last_error is not None
-            raise last_error
+        chosen = _review_batch_with_rotation(
+            batch_rows,
+            client=client,
+            ledger=ledger,
+            lang=lang,
+            level=level,
+            single_model=single_model,
+            batch_id=batch_id,
+            batch_index=batch_index,
+            batch_count=batch_count,
+            workers=workers,
+            on_wait=lambda wait_s, status: _progress(
+                batch_index=batch_index,
+                rows_in_batch=len(batch_rows),
+                status=status,
+                wait_s=wait_s,
+            ),
+            batch_started=batch_started,
+        )
         elapsed = time.time() - batch_started
         with progress_lock:
             batches_done += 1
@@ -807,6 +856,76 @@ def _review_pending_batches(
             index = futures[future]
             results[index] = future.result()
     return [cast(CefrReviewBatch, item) for item in results]
+
+
+def _review_batch_with_rotation(
+    batch_rows: Sequence[CefrInputRow],
+    *,
+    client: CefrClient,
+    ledger: Ledger,
+    lang: str,
+    level: str,
+    single_model: str | None,
+    batch_id: str,
+    batch_index: int,
+    batch_count: int,
+    workers: int,
+    on_wait: Callable[[float, str], None],
+    batch_started: float,
+) -> CefrReviewBatch:
+    # Retriable: optional 422, wall-clock/slot timeout, transport flake.
+    # Rotate dual pair each attempt so a hung model does not pin the batch.
+    last_error: Exception | None = None
+    chosen: CefrReviewBatch | None = None
+    for attempt in range(1, 5):
+        if single_model is not None:
+            models: tuple[str, ...] = (single_model,)
+        else:
+            models = select_dual_models(batch_index=batch_index + attempt - 1)
+        event(
+            "cefr.batch_start",
+            lang=lang,
+            level_name=level,
+            batch_id=batch_id,
+            attempt=batch_index,
+            pair_attempt=attempt,
+            rows=len(batch_rows),
+            batch_count=batch_count,
+            remaining_batches=batch_count - batch_index + 1,
+            concurrency=workers,
+            dual_models=list(models),
+        )
+        try:
+            chosen = _review_one_batch(
+                batch_rows,
+                client=client,
+                ledger=ledger,
+                lang=lang,
+                models=models,
+                batch_id=batch_id,
+                batch_index=batch_index,
+                batch_count=batch_count,
+                on_wait=on_wait,
+                batch_started=batch_started,
+            )
+            break
+        except Exception as error:
+            last_error = error
+            if not _is_retriable_batch_error(error) or attempt >= 4:
+                raise
+            event(
+                "cefr.dual_retry",
+                level="WARN",
+                batch_id=batch_id,
+                dual_models=list(models),
+                error=str(error)[:300],
+                pair_attempt=attempt,
+            )
+            continue
+    if chosen is None:
+        assert last_error is not None
+        raise last_error
+    return chosen
 
 
 def _is_retriable_batch_error(error: BaseException) -> bool:

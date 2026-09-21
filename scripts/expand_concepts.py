@@ -444,22 +444,28 @@ def _collect_blank_rows(
     """Return (level, lemma, lineno, pos) for rows with a blank English gloss."""
     blanks: list[tuple[str, str, int, str]] = []
     for path in level_paths:
-        if not path.exists():
-            continue
-        with path.open(newline="", encoding="utf-8") as handle:
-            reader = csv.reader(handle)
-            next(reader, None)
-            for lineno, cols in enumerate(reader, start=2):
-                lemma = cols[0].strip() if cols else ""
-                if not lemma:
-                    continue
-                english = cols[1].strip() if len(cols) > 1 else ""
-                if english:
-                    continue
-                pos = cols[3].strip() if len(cols) > 3 else ""
-                blanks.append((path.stem, lemma, lineno, pos))
+        blanks.extend(_blank_rows_from_csv(path))
     if limit:
         blanks = blanks[:limit]
+    return blanks
+
+
+def _blank_rows_from_csv(path: Path) -> list[tuple[str, str, int, str]]:
+    if not path.exists():
+        return []
+    blanks: list[tuple[str, str, int, str]] = []
+    with path.open(newline="", encoding="utf-8") as handle:
+        reader = csv.reader(handle)
+        next(reader, None)
+        for lineno, cols in enumerate(reader, start=2):
+            lemma = cols[0].strip() if cols else ""
+            if not lemma:
+                continue
+            english = cols[1].strip() if len(cols) > 1 else ""
+            if english:
+                continue
+            pos = cols[3].strip() if len(cols) > 3 else ""
+            blanks.append((path.stem, lemma, lineno, pos))
     return blanks
 
 
@@ -542,27 +548,30 @@ def _apply_blank_fills(
     for path in level_paths:
         if path.stem not in by_level or not by_level[path.stem]:
             continue
-        updates = by_level[path.stem]
-        with path.open(newline="", encoding="utf-8") as handle:
-            reader = csv.reader(handle)
-            header = next(reader)
-            rows = [list(cols) for cols in reader]
-        changed = 0
-        for lineno, cols in enumerate(rows, start=2):
-            gloss = updates.get(lineno)
-            if gloss is None or not cols:
-                continue
-            if len(cols) < 2:
-                cols.extend([""] * (2 - len(cols)))
-            if not cols[1].strip():
-                cols[1] = gloss
-                changed += 1
-        if changed:
-            with path.open("w", newline="", encoding="utf-8") as handle:
-                writer = csv.writer(handle, lineterminator="\n")
-                writer.writerow(header)
-                writer.writerows(rows)
-            print(f"    wrote {changed} glosses into {path}")
+        _apply_level_glosses(path, by_level[path.stem])
+
+
+def _apply_level_glosses(path: Path, updates: dict[int, str]) -> None:
+    with path.open(newline="", encoding="utf-8") as handle:
+        reader = csv.reader(handle)
+        header = next(reader)
+        rows = [list(cols) for cols in reader]
+    changed = 0
+    for lineno, cols in enumerate(rows, start=2):
+        gloss = updates.get(lineno)
+        if gloss is None or not cols:
+            continue
+        if len(cols) < 2:
+            cols.extend([""] * (2 - len(cols)))
+        if not cols[1].strip():
+            cols[1] = gloss
+            changed += 1
+    if changed:
+        with path.open("w", newline="", encoding="utf-8") as handle:
+            writer = csv.writer(handle, lineterminator="\n")
+            writer.writerow(header)
+            writer.writerows(rows)
+        print(f"    wrote {changed} glosses into {path}")
 
 
 def run_expansion(
@@ -600,6 +609,17 @@ def _process_language(
     checkpoint: Checkpoint,
     client: httpx.Client,
 ) -> list[GeneratedLemma]:
+    results, todo = _checkpointed_results(concepts, lang, checkpoint, records)
+    results.extend(_generate_todo_batches(lang, todo, records, checkpoint, client))
+    return results
+
+
+def _checkpointed_results(
+    concepts: list[Concept],
+    lang: str,
+    checkpoint: Checkpoint,
+    records: list[tuple[str, str, str, str, str, str]],
+) -> tuple[list[GeneratedLemma], list[Concept]]:
     results: list[GeneratedLemma] = []
     todo: list[Concept] = []
     for concept in concepts:
@@ -617,7 +637,17 @@ def _process_language(
             continue
         else:
             todo.append(concept)
+    return results, todo
 
+
+def _generate_todo_batches(
+    lang: str,
+    todo: list[Concept],
+    records: list[tuple[str, str, str, str, str, str]],
+    checkpoint: Checkpoint,
+    client: httpx.Client,
+) -> list[GeneratedLemma]:
+    results: list[GeneratedLemma] = []
     for start in range(0, len(todo), BATCH_SIZE):
         batch = todo[start : start + BATCH_SIZE]
         try:

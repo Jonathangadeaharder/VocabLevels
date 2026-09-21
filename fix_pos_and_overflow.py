@@ -210,26 +210,38 @@ def audit_pos(lang: str, cs: ChangeSet) -> None:
             old_pos = norm_pos(row)
             if not lemma or not old_pos:
                 continue
-            new_pos = tag_lemma(lang, lemma)
-            reason = "stanza UPOS"
-            if not new_pos:
-                # Stanza uncertain (X). Try minimal gloss fallback.
-                fb = gloss_fallback(gloss)
-                if not fb or fb == old_pos:
-                    continue
-                new_pos = fb
-                reason = "gloss fallback (stanza=X)"
-            if new_pos != old_pos:
-                cs.pos_changes.append(
-                    PosChange(
-                        file=f"{lang}/{level}.csv",
-                        line=idx,
-                        lemma=lemma,
-                        old_pos=old_pos,
-                        new_pos=new_pos,
-                        reason=reason,
-                    )
+            change = _pos_audit_change(lang, lemma, gloss, old_pos)
+            if change is None:
+                continue
+            new_pos, reason = change
+            cs.pos_changes.append(
+                PosChange(
+                    file=f"{lang}/{level}.csv",
+                    line=idx,
+                    lemma=lemma,
+                    old_pos=old_pos,
+                    new_pos=new_pos,
+                    reason=reason,
                 )
+            )
+
+
+def _pos_audit_change(
+    lang: str, lemma: str, gloss: str, old_pos: str
+) -> tuple[str, str] | None:
+    """Return (new_pos, reason) when the row needs a POS correction, else None."""
+    new_pos = tag_lemma(lang, lemma)
+    reason = "stanza UPOS"
+    if not new_pos:
+        # Stanza uncertain (X). Try minimal gloss fallback.
+        fb = gloss_fallback(gloss)
+        if not fb or fb == old_pos:
+            return None
+        new_pos = fb
+        reason = "gloss fallback (stanza=X)"
+    if new_pos == old_pos:
+        return None
+    return new_pos, reason
 
 
 # --- Overflow analysis ----------------------------------------------------
@@ -278,32 +290,51 @@ def dedup_after_pos_fix(langs: list[str], cs: ChangeSet) -> None:
     }
     already_trimmed = {(t.file, t.line) for t in cs.trims}
     for lang in langs:
-        lemma_col = LANG_LEMMA_COL[lang]
         for level in LEVELS:
             rows = load_csv(lang, level)
-            fname = f"{lang}/{level}.csv"
             target = TARGETS[level]
             if len(rows) <= target:
                 continue  # at/under target: keep dupes
-            seen: set[tuple[str, str]] = set()
-            for i, row in enumerate(rows, start=2):
-                if (fname, i) in already_trimmed:
-                    continue
-                lemma = (row.get(lemma_col) or "").strip().lower()
-                pos = pos_fixes.get((fname, i), norm_pos(row))
-                key = (lemma, pos)
-                if key in seen:
-                    cs.trims.append(
-                        TrimChange(
-                            file=fname,
-                            line=i,
-                            lemma=(row.get(lemma_col) or "").strip(),
-                            pos=pos,
-                            reason="lemma+POS duplicate after POS fix",
-                        )
-                    )
-                else:
-                    seen.add(key)
+            _stage_file_dupes(
+                lang,
+                level,
+                rows,
+                cs,
+                pos_fixes=pos_fixes,
+                already_trimmed=already_trimmed,
+            )
+
+
+def _stage_file_dupes(
+    lang: str,
+    level: str,
+    rows: list[dict[str, str]],
+    cs: ChangeSet,
+    *,
+    pos_fixes: dict[tuple[str, int], str],
+    already_trimmed: set[tuple[str, int]],
+) -> None:
+    fname = f"{lang}/{level}.csv"
+    lemma_col = LANG_LEMMA_COL[lang]
+    seen: set[tuple[str, str]] = set()
+    for i, row in enumerate(rows, start=2):
+        if (fname, i) in already_trimmed:
+            continue
+        lemma = (row.get(lemma_col) or "").strip().lower()
+        pos = pos_fixes.get((fname, i), norm_pos(row))
+        key = (lemma, pos)
+        if key in seen:
+            cs.trims.append(
+                TrimChange(
+                    file=fname,
+                    line=i,
+                    lemma=(row.get(lemma_col) or "").strip(),
+                    pos=pos,
+                    reason="lemma+POS duplicate after POS fix",
+                )
+            )
+        else:
+            seen.add(key)
 
 
 # --- Relocation: arabic B2 → Advanced -----------------------------------
@@ -431,6 +462,27 @@ def trim_unique_overflow(cs: ChangeSet) -> None:
 
 def apply_changes(cs: ChangeSet) -> None:
     """Apply POS changes, relocations, then trims to all files."""
+    pos_by_file, trims_by_file, reloc_by_src = _group_changes(cs)
+    all_files = _affected_files(cs, pos_by_file, trims_by_file, reloc_by_src)
+    cache: dict[str, list[dict[str, str]]] = {}
+    for f in all_files:
+        lang, lvl_csv = f.split("/")
+        cache[f] = load_csv(lang, lvl_csv.replace(".csv", ""))
+    _apply_pos_changes(cache, pos_by_file)
+    _apply_relocations(cache, reloc_by_src)
+    _apply_trims(cache, trims_by_file)
+    for f, rows in cache.items():
+        lang, lvl_csv = f.split("/")
+        save_csv(lang, lvl_csv.replace(".csv", ""), rows)
+
+
+def _group_changes(
+    cs: ChangeSet,
+) -> tuple[
+    dict[str, list[PosChange]],
+    dict[str, list[TrimChange]],
+    dict[str, list[RelocateChange]],
+]:
     pos_by_file: dict[str, list[PosChange]] = {}
     trims_by_file: dict[str, list[TrimChange]] = {}
     reloc_by_src: dict[str, list[RelocateChange]] = {}
@@ -440,20 +492,27 @@ def apply_changes(cs: ChangeSet) -> None:
         trims_by_file.setdefault(c.file, []).append(c)
     for c in cs.relocations:
         reloc_by_src.setdefault(c.src_file, []).append(c)
+    return pos_by_file, trims_by_file, reloc_by_src
 
+
+def _affected_files(
+    cs: ChangeSet,
+    pos_by_file: dict[str, list[PosChange]],
+    trims_by_file: dict[str, list[TrimChange]],
+    reloc_by_src: dict[str, list[RelocateChange]],
+) -> set[str]:
     all_files: set[str] = set()
     all_files.update(pos_by_file)
     all_files.update(trims_by_file)
     all_files.update(reloc_by_src)
     for r in cs.relocations:
         all_files.add(r.dst_file)
+    return all_files
 
-    cache: dict[str, list[dict[str, str]]] = {}
-    for f in all_files:
-        lang, lvl_csv = f.split("/")
-        cache[f] = load_csv(lang, lvl_csv.replace(".csv", ""))
 
-    # 1. Apply POS changes (by line number).
+def _apply_pos_changes(
+    cache: dict[str, list[dict[str, str]]], pos_by_file: dict[str, list[PosChange]]
+) -> None:
     for f, changes in pos_by_file.items():
         rows = cache[f]
         for c in changes:
@@ -461,7 +520,11 @@ def apply_changes(cs: ChangeSet) -> None:
             if 0 <= idx < len(rows):
                 rows[idx]["POS"] = c.new_pos
 
-    # 2. Apply relocations: move rows from src to dst.
+
+def _apply_relocations(
+    cache: dict[str, list[dict[str, str]]],
+    reloc_by_src: dict[str, list[RelocateChange]],
+) -> None:
     for src, relocs in reloc_by_src.items():
         lang = src.split("/")[0]
         level = src.split("/")[1].replace(".csv", "")
@@ -482,7 +545,10 @@ def apply_changes(cs: ChangeSet) -> None:
         dst = relocs[0].dst_file
         cache[dst].extend(moved)
 
-    # 3. Apply trims: remove overflow-zone rows whose lemma is in trim set.
+
+def _apply_trims(
+    cache: dict[str, list[dict[str, str]]], trims_by_file: dict[str, list[TrimChange]]
+) -> None:
     for f, trims in trims_by_file.items():
         lang = f.split("/")[0]
         lemma_col = LANG_LEMMA_COL[lang]
@@ -495,16 +561,27 @@ def apply_changes(cs: ChangeSet) -> None:
             if not (i >= target and (row.get(lemma_col) or "").strip() in trim_lemmas)
         ]
 
-    for f, rows in cache.items():
-        lang, lvl_csv = f.split("/")
-        save_csv(lang, lvl_csv.replace(".csv", ""), rows)
-
 
 # --- Reporting -----------------------------------------------------------
 
 
 def report(cs: ChangeSet) -> int:
     """Print dry-run report. Returns exit code (0 ok, 1 blockers)."""
+    _report_pos_changes(cs)
+    _report_relocations(cs)
+    _report_trims(cs)
+    if cs.blockers:
+        print("\n" + "=" * 72)
+        print(f"BLOCKERS ({len(cs.blockers)})")
+        print("=" * 72)
+        for b in cs.blockers:
+            print(f"  {b}")
+        return 1
+    _report_projected_counts(cs)
+    return 0
+
+
+def _report_pos_changes(cs: ChangeSet) -> None:
     print("=" * 72)
     print(f"POS CHANGES ({len(cs.pos_changes)} proposed)")
     print("=" * 72)
@@ -522,12 +599,16 @@ def report(cs: ChangeSet) -> int:
         if len(changes) > 60:
             print(f"  ... +{len(changes) - 60} more")
 
+
+def _report_relocations(cs: ChangeSet) -> None:
     print("\n" + "=" * 72)
     print(f"RELOCATIONS ({len(cs.relocations)} proposed)")
     print("=" * 72)
     for r in cs.relocations:
         print(f"  {r.src_file}:L{r.src_line}  {r.lemma!r:18} → {r.dst_file}")
 
+
+def _report_trims(cs: ChangeSet) -> None:
     print("\n" + "=" * 72)
     print(f"TRIMS ({len(cs.trims)} proposed)")
     print("=" * 72)
@@ -542,14 +623,8 @@ def report(cs: ChangeSet) -> int:
         if len(trims) > 25:
             print(f"  ... +{len(trims) - 25} more")
 
-    if cs.blockers:
-        print("\n" + "=" * 72)
-        print(f"BLOCKERS ({len(cs.blockers)})")
-        print("=" * 72)
-        for b in cs.blockers:
-            print(f"  {b}")
-        return 1
 
+def _report_projected_counts(cs: ChangeSet) -> None:
     print("\n" + "=" * 72)
     print("PROJECTED ROW COUNTS (after apply)")
     print("=" * 72)
@@ -575,7 +650,6 @@ def report(cs: ChangeSet) -> int:
             delta = projected - target
             status = "OK" if delta == 0 else f"OFF ({delta:+d})"
             print(f"  {level}: {n} → {projected}  (target {target})  {status}")
-    return 0
 
 
 def main(argv: list[str]) -> int:
