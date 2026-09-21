@@ -125,6 +125,18 @@ def test_scanner_config_is_pinned_to_main() -> None:
     )
 
 
+def test_scanned_tree_keeps_a_workspace_relative_coverage_default() -> None:
+    props = (WORKFLOWS.parents[1] / "sonar-project.properties").read_text(
+        encoding="utf-8"
+    )
+    assert "sonar.python.coverage.reportPaths=coverage.xml" in props, (
+        "workflow_run scans triggered by this PR's CI still run MAIN's"
+        " workflow (inline pytest in the workspace) against the PR tree;"
+        " without this default the scanner ingests no coverage and the"
+        " quality gate fails on new_coverage"
+    )
+
+
 def test_sonar_token_is_confined_to_the_scan_step() -> None:
     all_steps = _sonar_steps()
     token_steps = [n for n, c in all_steps.items() if "secrets.SONAR_TOKEN" in c]
