@@ -321,40 +321,65 @@ def _validate_final_rows(
     )
     seen: set[tuple[str, UPOS]] = set()
     for output_line, reviewed_row in enumerate(rows, start=2):
-        row = reviewed_row.fields
-        location = (
-            f"output line {output_line} "
-            f"(original physical line {reviewed_row.original_line})"
+        key = _validate_reviewed_row(
+            reviewed_row,
+            lang=lang,
+            level=level,
+            output_line=output_line,
         )
-        if any(not field.strip() for field in row):
-            raise ValueError(f"{location}: fields must be nonempty")
-        for field in row:
-            if unicodedata.normalize("NFC", field) != field:
-                raise ValueError(f"{location}: fields must use NFC")
-        try:
-            upos = UPOS(row[3])
-        except ValueError as error:
-            raise ValueError(f"{location}: invalid UPOS {row[3]!r}") from error
-        review_row = CefrReviewRow(
-            id=f"{lang}:{level}:{output_line - 1}",
-            lemma=row[0],
-            english_lemma=row[1],
-            chinese_lemma=row[2],
-            upos=upos,
-            action=ReviewAction.KEEP,
-        )
-        issues = cefr_row_issues(review_row, lang=lang)
-        if issues:
-            codes = ", ".join(issue.code for issue in issues)
-            raise ValueError(f"{location}: language gates failed: {codes}")
-        key = normalized_key(row[0], upos)
         if key in seen:
-            raise ValueError(f"{location}: duplicate normalized lemma and UPOS")
+            raise ValueError(
+                f"{_row_location(reviewed_row, output_line)}: "
+                "duplicate normalized lemma and UPOS"
+            )
         if key in collision_keys and (
             reviewed_row.fixed or check_other_level_collisions
         ):
-            raise ValueError(f"{location}: lemma and UPOS collide with another level")
+            raise ValueError(
+                f"{_row_location(reviewed_row, output_line)}: "
+                "lemma and UPOS collide with another level"
+            )
         seen.add(key)
+
+
+def _row_location(reviewed_row: ReviewedRow, output_line: int) -> str:
+    return (
+        f"output line {output_line} "
+        f"(original physical line {reviewed_row.original_line})"
+    )
+
+
+def _validate_reviewed_row(
+    reviewed_row: ReviewedRow,
+    *,
+    lang: str,
+    level: str,
+    output_line: int,
+) -> tuple[str, UPOS]:
+    row = reviewed_row.fields
+    location = _row_location(reviewed_row, output_line)
+    if any(not field.strip() for field in row):
+        raise ValueError(f"{location}: fields must be nonempty")
+    for field in row:
+        if unicodedata.normalize("NFC", field) != field:
+            raise ValueError(f"{location}: fields must use NFC")
+    try:
+        upos = UPOS(row[3])
+    except ValueError as error:
+        raise ValueError(f"{location}: invalid UPOS {row[3]!r}") from error
+    review_row = CefrReviewRow(
+        id=f"{lang}:{level}:{output_line - 1}",
+        lemma=row[0],
+        english_lemma=row[1],
+        chinese_lemma=row[2],
+        upos=upos,
+        action=ReviewAction.KEEP,
+    )
+    issues = cefr_row_issues(review_row, lang=lang)
+    if issues:
+        codes = ", ".join(issue.code for issue in issues)
+        raise ValueError(f"{location}: language gates failed: {codes}")
+    return normalized_key(row[0], upos)
 
 
 def _atomic_write_csv(

@@ -57,6 +57,16 @@ def cefr_row_issues(
     lang: str,
 ) -> list[CefrLanguageIssue]:
     profile = get_language(lang)
+    code = profile.code
+    issues = _structural_row_issues(row)
+    issues.extend(_german_case_issues(row, code))
+    issues.extend(_pivot_row_issues(row, code))
+    issues.extend(_german_verb_issues(row, code))
+    issues.extend(_script_row_issues(row, code))
+    return issues
+
+
+def _structural_row_issues(row: CefrReviewRow) -> list[CefrLanguageIssue]:
     issues: list[CefrLanguageIssue] = []
     if row.action is ReviewAction.DROP:
         issues.append(
@@ -86,7 +96,17 @@ def cefr_row_issues(
                 message="Target lemma must use NFC normalization.",
             )
         )
-    if profile.code == "de" and row.upos is UPOS.NOUN and not row.lemma[0].isupper():
+    return issues
+
+
+def _german_case_issues(
+    row: CefrReviewRow,
+    code: str,
+) -> list[CefrLanguageIssue]:
+    if code != "de":
+        return []
+    issues: list[CefrLanguageIssue] = []
+    if row.upos is UPOS.NOUN and not row.lemma[0].isupper():
         issues.append(
             CefrLanguageIssue(
                 code="german.noun_requires_uppercase",
@@ -94,8 +114,7 @@ def cefr_row_issues(
             )
         )
     if (
-        profile.code == "de"
-        and row.upos not in {UPOS.NOUN, UPOS.PROPN}
+        row.upos not in {UPOS.NOUN, UPOS.PROPN}
         and row.lemma
         and row.lemma[0].isascii()
         and row.lemma[0].isupper()
@@ -109,11 +128,18 @@ def cefr_row_issues(
                 ),
             )
         )
-    if profile.code == "en":
+    return issues
+
+
+def _pivot_row_issues(
+    row: CefrReviewRow,
+    code: str,
+) -> list[CefrLanguageIssue]:
+    if code == "en":
         # English lists: column-0 lemma is the citation form and must match the
         # English pivot (base form). Catches half-fixes like dreams/dream.
         if _nfc(row.lemma).casefold() != _nfc(row.english_lemma).casefold():
-            issues.append(
+            return [
                 CefrLanguageIssue(
                     code="english.citation_mismatch",
                     message=(
@@ -121,42 +147,57 @@ def cefr_row_issues(
                         "(base/dictionary form)."
                     ),
                 )
-            )
-    elif row.lemma.casefold() == row.english_lemma.casefold():
-        issues.append(
+            ]
+        return []
+    if row.lemma.casefold() == row.english_lemma.casefold():
+        return [
             CefrLanguageIssue(
                 code="cefr.english_echo",
                 message="Target lemma must not exactly echo the English lemma.",
             )
-        )
+        ]
+    return []
+
+
+def _german_verb_issues(
+    row: CefrReviewRow,
+    code: str,
+) -> list[CefrLanguageIssue]:
     if (
-        profile.code == "de"
+        code == "de"
         and row.upos is UPOS.VERB
         and not row.lemma.casefold().endswith(("en", "n"))
     ):
-        issues.append(
+        return [
             CefrLanguageIssue(
                 code="german.verb_requires_infinitive",
                 message=(
                     "German verb citation lemmas must be infinitives ending in en or n."
                 ),
             )
-        )
-    if profile.code == "ar" and not has_arabic_script(row.lemma):
-        issues.append(
+        ]
+    return []
+
+
+def _script_row_issues(
+    row: CefrReviewRow,
+    code: str,
+) -> list[CefrLanguageIssue]:
+    if code == "ar" and not has_arabic_script(row.lemma):
+        return [
             CefrLanguageIssue(
                 code="arabic.script_required",
                 message="Arabic lemmas must contain Arabic script.",
             )
-        )
-    if profile.code == "zh" and not has_han_script(row.lemma):
-        issues.append(
+        ]
+    if code == "zh" and not has_han_script(row.lemma):
+        return [
             CefrLanguageIssue(
                 code="chinese.script_required",
                 message="Chinese lemmas must contain a Han character.",
             )
-        )
-    return issues
+        ]
+    return []
 
 
 def german_row_issues(row: CefrReviewRow) -> list[CefrLanguageIssue]:
