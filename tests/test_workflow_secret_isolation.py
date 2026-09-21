@@ -132,3 +132,7 @@ def test_scan_validates_untrusted_coverage_report() -> None:
         " rejected unless it is a regular, well-formed report whose"
         " paths stay inside the workspace"
     )
+    assert "must not contain DTD or entity declarations" in sonar, (
+        "entity expansion must be rejected independent of the runner's"
+        " expat version; genuine coverage.py reports carry no DTD"
+    )
